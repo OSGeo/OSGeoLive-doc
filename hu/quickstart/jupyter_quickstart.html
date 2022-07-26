@@ -69,9 +69,9 @@
 <p>Ez a gyorstalpaló a következőket írja le:</p>
 <blockquote>
 <div><ul class="simple">
-<li><p>Start a Jupyter Notebook server</p></li>
-<li><p>Load a jupyter notebook</p></li>
-<li><p>Interact with python code</p></li>
+<li><p>Egy Jupyter jegyzettömb szerver indítása</p></li>
+<li><p>Jupyter jegyzettömb betöltése</p></li>
+<li><p>Interakció a python kóddal</p></li>
 </ul>
 </div></blockquote>
 <nav class="contents" id="contents">
@@ -79,7 +79,7 @@
 <ul class="simple">
 <li><p><a class="reference internal" href="#jupyter-notebook-quickstart" id="id1">Jupyter jegyzettömb gyorstalpaló</a></p>
 <ul>
-<li><p><a class="reference internal" href="#start-the-jupyter-server" id="id2">Start the Jupyter server</a></p></li>
+<li><p><a class="reference internal" href="#start-the-jupyter-server" id="id2">A Jupyter szerver indítása</a></p></li>
 <li><p><a class="reference internal" href="#open-and-execute-an-existing-notebook" id="id3">Létező jegyzettömb megnyitása és végrehajtása</a></p></li>
 <li><p><a class="reference internal" href="#change-code" id="id4">Kód módosítása</a></p></li>
 <li><p><a class="reference internal" href="#what-next" id="id5">Mi következik?</a></p></li>
@@ -88,72 +88,55 @@
 </ul>
 </nav>
 <section id="start-the-jupyter-server">
-<h2><a class="toc-backref" href="#id2" role="doc-backlink">Start the Jupyter server</a><a class="headerlink" href="#start-the-jupyter-server" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id2" role="doc-backlink">A Jupyter szerver indítása</a><a class="headerlink" href="#start-the-jupyter-server" title="Permalink to this heading">¶</a></h2>
 <p>Az alkalmazásindítás menüből a bal alsó sarokban.</p>
 <ul class="simple">
-<li><p>Choose  <em>Geospatial</em> -&gt; <em>Spatial Tools</em> -&gt; <em>Jupyter Notebook</em></p></li>
+<li><p>Válassza a <em>Geospatial</em> -&gt; <em>Spatial Tools</em> -&gt; <em>Jupyter Notebook</em>-ot</p></li>
 </ul>
-<p>A terminal window will open and a startup log will begin to scroll. Afterwards a
-web browser is launched showing the Jupyter Notebook dashboard.
-From the Jupyter Notebook dashboard you can navigate the directory tree, start
-new notebooks, create files and directories, as well as rename, delete and
-upload files.</p>
+<p>Megnyílik egy terminálablak, és egy indítási napló látszik benne. Ezután elindul egy webböngésző, amely megjeleníti a Jupyter Notebook irányítópultját. A Jupyter Notebook irányítópultjáról navigálhat a könyvtárfában, új jegyzetfüzeteket indíthat, fájlokat és könyvtárakat hozhat létre, valamint átnevezhet, törölhet és feltölthet fájlokat.</p>
 <a class="reference internal image-reference" href="../../_images/jupyter1-1.png"><img alt="../../_images/jupyter1-1.png" src="../../_images/jupyter1-1.png" style="width: 716.4px; height: 436.2px;" /></a>
 </section>
 <section id="open-and-execute-an-existing-notebook">
 <h2><a class="toc-backref" href="#id3" role="doc-backlink">Létező jegyzettömb megnyitása és végrehajtása</a><a class="headerlink" href="#open-and-execute-an-existing-notebook" title="Permalink to this heading">¶</a></h2>
-<p>Let’s open an existing notebook. From the main page click on the directory
-geopandas-tutorial and choose the Introduction notebook
-(01-introduction-geospatial-data.ipynb).
-This is an introduction with many examples on how to use geospatial vector data
-in Python with geopandas using the Natural Earth2 data.</p>
+<p>Nyissunk meg egy meglévő jegyzetfüzetet. A főoldalon kattintson a geopandas-tutorial könyvtárra, és válassza ki a Bevezetés jegyzetfüzetet (01-introduction-geospatial-data.ipynb). Ez egy bevezető számos példával a térinformatikai vektoradatok Pythonban történő használatához geopands-al, Natural Earth2 adatait használva.</p>
 <a class="reference internal image-reference" href="../../_images/jupyter2-1.png"><img alt="../../_images/jupyter2-1.png" src="../../_images/jupyter2-1.png" style="width: 952.8000000000001px; height: 636.0px;" /></a>
-<p>The tutorial is made up with explaining text and cells. The cells contain in
-this case python code, that can be run.</p>
-<p>From the toolbar on top of the notebook you can choose different options:</p>
+<p>Az oktatóanyag magyarázó szövegekből és cellákból áll. A cellák ebben az esetben a futtatható Python kódot tartalmazzák.</p>
+<p>A jegyzettömb feletti eszközsorból különböző opciók közül választhat:</p>
 <ul class="simple">
-<li><p>Cell-&gt; Run Cells: will run the code in the cell with the focus and will move
-to the next cell.</p></li>
-<li><p>Cell-&gt; Run All:  will run all the cells and show the results If everything
-worked as planned you should be able to see the results at the bottom of the
-page.</p></li>
+<li><p>Cell-&gt; Run Cells: futtatja a kódot az aktuális cellában és a következő cellára lép.</p></li>
+<li><p>Cell-&gt; Run All: futtatja az összes cellát és megjeleníti az eredményeket, ha minden a terv szerint működik a lap alján látnia kell az eredményeket.</p></li>
 </ul>
-<p>Have a look at the results after running all the cells.</p>
+<p>Vessen egy pillantást az eredményekre az összes cella futtatása után.</p>
 <a class="reference internal image-reference" href="../../_images/jupyter2-2.png"><img alt="../../_images/jupyter2-2.png" src="../../_images/jupyter2-2.png" style="width: 712.1999999999999px; height: 477.0px;" /></a>
-<p>You will see additional Out[] section with different output for example tables,
-maps or calculations.</p>
-<p>In Out[3] you can see the country information as a table.</p>
+<p>További Out[] fejezeteket láthat különböző eredményekkel, mint például táblázatok, térképek vagy számítások.</p>
+<p>Az Out[3]-ban táblázatban láthatja az ország információkat.</p>
 <a class="reference internal image-reference" href="../../_images/jupyter2-2.png"><img alt="../../_images/jupyter2-2.png" src="../../_images/jupyter2-2.png" style="width: 712.1999999999999px; height: 477.0px;" /></a>
-<p>In Out[4] a plot was generated from all the countries.</p>
+<p>Az Out[4]-ben egy rajz készült az összes országról.</p>
 <a class="reference internal image-reference" href="../../_images/jupyter2-3.png"><img alt="../../_images/jupyter2-3.png" src="../../_images/jupyter2-3.png" style="width: 716.4px; height: 477.0px;" /></a>
 </section>
 <section id="change-code">
 <h2><a class="toc-backref" href="#id4" role="doc-backlink">Kód módosítása</a><a class="headerlink" href="#change-code" title="Permalink to this heading">¶</a></h2>
-<p>Now let’s change some of the code.</p>
-<p>In In [10] a filter was defined for the countries. Only the continent <code class="docutils literal notranslate"><span class="pre">Africa</span></code>
-is selected from the countries:</p>
+<p>Most változtassuk meg részben kódot.</p>
+<p>A [10] cellában egy szűrőt definiáltunk az országokra. Csak Afrika kontinenst választottuk az országok közül:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">In</span> <span class="p">[</span><span class="mi">10</span><span class="p">]:</span>  <span class="n">africa</span> <span class="o">=</span> <span class="n">countries</span><span class="p">[</span><span class="n">countries</span><span class="p">[</span><span class="s1">&#39;continent&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;Africa&#39;</span><span class="p">]</span>
 </pre></div>
 </div>
-<p>Therefore in the plot there is only the continent <code class="docutils literal notranslate"><span class="pre">Africa</span></code>.</p>
+<p>Ezért a rajzon csak <code class="docutils literal notranslate"><span class="pre">Africa</span></code> van.</p>
 <a class="reference internal image-reference" href="../../_images/jupyter3-1.png"><img alt="../../_images/jupyter3-1.png" src="../../_images/jupyter3-1.png" style="width: 712.0px; height: 332.0px;" /></a>
-<p>Change the selection to <code class="docutils literal notranslate"><span class="pre">Asia</span></code> and rund the two cells again.</p>
+<p>Módosítsa a kiválasztást <cite>Asia`</cite>-ra és futtassa a két cellát ismét.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">In</span> <span class="p">[</span><span class="mi">10</span><span class="p">]:</span>  <span class="n">africa</span> <span class="o">=</span> <span class="n">countries</span><span class="p">[</span><span class="n">countries</span><span class="p">[</span><span class="s1">&#39;continent&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;Asia&#39;</span><span class="p">]</span>
 </pre></div>
 </div>
-<p>As result you will see that instead of <code class="docutils literal notranslate"><span class="pre">Africa</span></code> there will be <code class="docutils literal notranslate"><span class="pre">Asia</span></code> in the plot.</p>
+<p>Eredményként <code class="docutils literal notranslate"><span class="pre">Africa</span></code> helyett <code class="docutils literal notranslate"><span class="pre">Asia</span></code>-t láthatja a rajzon.</p>
 <a class="reference internal image-reference" href="../../_images/jupyter3-2.png"><img alt="../../_images/jupyter3-2.png" src="../../_images/jupyter3-2.png" style="width: 704.0px; height: 338.40000000000003px;" /></a>
 </section>
 <section id="what-next">
 <h2><a class="toc-backref" href="#id5" role="doc-backlink">Mi következik?</a><a class="headerlink" href="#what-next" title="Permalink to this heading">¶</a></h2>
 <ul class="simple">
-<li><p>Discover the other notebooks that are provided with OSGeoLive and find out how
-to work with Shapely, Rasterio, R, Iris &amp; other software.</p></li>
-<li><p>For more information about the jupyter notebook, please refer to the <a class="reference external" href="https://docs.jupyter.org">Jupyter
-Notebooks official documentation</a>.</p></li>
-<li><p>More notebook examples are available from the notebook root directory.</p></li>
-<li><p>Quick introduction on how to use the Jupyter Notebooks interface: <a class="reference external" href="https://docs.jupyter.org/en/latest/content-quickstart.html">Get started
-with Jupyter Notebook</a>.</p></li>
+<li><p>Fedezze fel az OSGeoLive-val szállított többi notebookot, és ismerje meg, hogyan dolgozhat Shapely, Rasterio, R, Iris és egyéb szoftverekkel.</p></li>
+<li><p>A Jupyter jegyzettömbről további információkért tekintse meg a Jupyter ~Notebooks hivatalos dokumentációját &lt;<a class="reference external" href="https://docs.jupyter.org">https://docs.jupyter.org</a>&gt;`__.</p></li>
+<li><p>További jegyzetfüzet példák érhetők el a jegyzettömb gyökér könyvtárából.</p></li>
+<li><p>Gyors bemutatkozás a Jupyter Notebook használatához <a class="reference external" href="https://docs.jupyter.org/en/latest/content-quickstart.html">Get started with Jupyter Notebook</a>.</p></li>
 </ul>
 </section>
 </section>

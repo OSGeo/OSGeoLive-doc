@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
-    <title>OpenJUMP GIS Quickstart &#8212; OSGeoLive 15.0 Documentation</title>
+    <title>Guida rapida OpenJUMP GIS &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
@@ -64,83 +64,81 @@
             
   <a class="reference external image-reference" href="http://www.openjump.org"><img alt="../../_images/logo_openjump.png" class="align-right" src="../../_images/logo_openjump.png" /></a>
 <section id="openjump-gis-quickstart">
-<h1>OpenJUMP GIS Quickstart<a class="headerlink" href="#openjump-gis-quickstart" title="Permalink to this heading">¶</a></h1>
-<p>OpenJUMP is a desktop GIS program that allows for easy viewing and editing
-of vector GIS data. The PLUS edition also support analysis of raster data.</p>
+<h1>Guida rapida OpenJUMP GIS<a class="headerlink" href="#openjump-gis-quickstart" title="Permalink to this heading">¶</a></h1>
+<p>OpenJUMP è un programma GIS desktop che permette di visualizzare e modificare facilmente i dati GIS vettoriali. L’edizione PLUS supporta anche l’analisi di dati raster.</p>
 <nav class="contents local" id="contents">
-<p class="topic-title">Contents</p>
+<p class="topic-title">Contenuti</p>
 <ul class="simple">
-<li><p><a class="reference internal" href="#start-openjump" id="id1">Start OpenJUMP</a></p></li>
-<li><p><a class="reference internal" href="#open-an-esri-shapefile" id="id2">Open an ESRI shapefile</a></p></li>
-<li><p><a class="reference internal" href="#style-a-layer" id="id3">Style a layer</a></p></li>
-<li><p><a class="reference internal" href="#edit-feature-geometries-in-a-layer" id="id4">Edit feature geometries in a layer</a></p></li>
-<li><p><a class="reference internal" href="#what-next" id="id5">What next?</a></p></li>
+<li><p><a class="reference internal" href="#start-openjump" id="id1">Avvia OpenJUMP</a></p></li>
+<li><p><a class="reference internal" href="#open-an-esri-shapefile" id="id2">Apri un shapefile</a></p></li>
+<li><p><a class="reference internal" href="#style-a-layer" id="id3">Stile di un layer</a></p></li>
+<li><p><a class="reference internal" href="#edit-feature-geometries-in-a-layer" id="id4">Modifica le geometrie degli elementi in un layer</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id5">E ora?</a></p></li>
 </ul>
 </nav>
 <section id="start-openjump">
-<h2><a class="toc-backref" href="#id1" role="doc-backlink">Start OpenJUMP</a><a class="headerlink" href="#start-openjump" title="Permalink to this heading">¶</a></h2>
-<p>From the desktop, choose <span class="menuselection">Desktop GIS ‣ OpenJUMP</span>.</p>
-<p>The OpenJUMP user interface has four (4) basic components.</p>
+<h2><a class="toc-backref" href="#id1" role="doc-backlink">Avvia OpenJUMP</a><a class="headerlink" href="#start-openjump" title="Permalink to this heading">¶</a></h2>
+<p>Dal desktop, scegli <span class="menuselection">Desktop GIS ‣ OpenJUMP</span>.</p>
+<p>L’interfaccia utente di OpenJUMP ha quattro (4) componenti di base.</p>
 <ul class="simple">
-<li><p>[1] The first is a top-level menu bar for accessing most functionality.</p></li>
-<li><p>[2] The second is a main toolbar that sits just below the menu bar. The buttons give access to the most important display and navigation functions.</p></li>
-<li><p>[3] The third is a tree view on the left that shows the layer list of the active project.</p></li>
-<li><p>[4] The fourth is the map view. This is the actual map where a graphical representation of the spatial data in each layer is given.</p></li>
+<li><p>[1] Il primo è una barra di menu di primo livello per accedere alla maggior parte delle funzionalità.</p></li>
+<li><p>[2] La seconda è una barra degli strumenti principale che si trova proprio sotto la barra dei menu. I pulsanti danno accesso alle funzioni di visualizzazione e navigazione più importanti.</p></li>
+<li><p>[3] La terza è una vista ad albero sulla sinistra che mostra la lista dei layer del progetto attivo.</p></li>
+<li><p>[4] La quarta è la vista della mappa. Questa è la mappa vera e propria dove viene data una rappresentazione grafica dei dati spaziali in ogni layer.</p></li>
 </ul>
-<p>Finally there is an information bar at the bottom displaying mouse pointer coordinates, processing reports, and memory usage. A project window contains a layer list and a layer view.
-Each instance of OpenJUMP can contain multiple projects. In this quick start, we will only be working with a single window.</p>
+<p>Infine c’è una barra di informazioni in basso che mostra le coordinate del puntatore del mouse, i rapporti di elaborazione e l’uso della memoria. La finestra di un progetto contiene una lista dei layer e una vista dei layer. Ogni istanza di OpenJUMP può contenere più progetti. In questo avvio rapido, lavoreremo solo con una singola finestra.</p>
 <a class="reference internal image-reference" href="../../_images/openjump_ss_01.png"><img alt="../../_images/openjump_ss_01.png" src="../../_images/openjump_ss_01.png" style="width: 563.2px; height: 400.95000000000005px;" /></a>
 </section>
 <section id="open-an-esri-shapefile">
-<h2><a class="toc-backref" href="#id2" role="doc-backlink">Open an ESRI shapefile</a><a class="headerlink" href="#open-an-esri-shapefile" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id2" role="doc-backlink">Apri un shapefile</a><a class="headerlink" href="#open-an-esri-shapefile" title="Permalink to this heading">¶</a></h2>
 <ol class="arabic simple">
-<li><p>On the top-level menu bar in OpenJUMP, select <span class="menuselection">File ‣ Open File</span>. This will present you with a dialog box that allows you to open files containing geospatial data.</p></li>
-<li><p>Browse for an ESRI shapefile. Look for a file with the .shp extension (e.g. on the LiveDVD under <cite>/home/user/data/natural_earth2/ne_10m_admin_0_countries.shp</cite>).</p></li>
-<li><p>Select the file and click the <span class="guilabel">Finish</span> button on the dialog. After a few moments, you will be able to see the data from your shapefile in the Map View. You will also see a new layer created for your data in the Layer List. The name of the layer will match the name of the shapefile.</p></li>
+<li><p>Sulla barra del menu di livello superiore in OpenJUMP, seleziona <span class="menuselection">File ‣ Open File</span>. Questo ti presenterà una finestra di dialogo che ti permetterà di aprire file contenenti dati geospaziali.</p></li>
+<li><p>Cerca uno shapefile. Cerca un file con estensione .shp (per esempio sul LiveDVD sotto <cite>/home/user/data/natural_earth2/ne_10m_admin_0_countries.shp</cite>).</p></li>
+<li><p>Seleziona il file e clicca sul pulsante <span class="guilabel">Finish</span> della finestra di dialogo. Dopo qualche istante, sarai in grado di vedere i dati del tuo shapefile nella Vista mappa. Vedrai anche un nuovo layer creato per i tuoi dati nella Layer List. Il nome del layer corrisponderà al nome dello shapefile.</p></li>
 </ol>
 <a class="reference internal image-reference" href="../../_images/openjump_ss_02.png"><img alt="../../_images/openjump_ss_02.png" src="../../_images/openjump_ss_02.png" style="width: 563.2px; height: 400.95000000000005px;" /></a>
 <div class="admonition tip">
 <p class="admonition-title">Suggerimento</p>
-<p>Another quicker option is to directly drag and drop your shapefile in the Layer View.</p>
+<p>Un’altra opzione più veloce è quella di trascinare direttamente il tuo shapefile nella Layer View.</p>
 </div>
 </section>
 <section id="style-a-layer">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink">Style a layer</a><a class="headerlink" href="#style-a-layer" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id3" role="doc-backlink">Stile di un layer</a><a class="headerlink" href="#style-a-layer" title="Permalink to this heading">¶</a></h2>
 <ol class="arabic simple">
-<li><p>In the Layer List, right click on the layer name. This will show a pop-up menu.</p></li>
-<li><p>Choose to <span class="menuselection">Style ‣ `Change Styles</span>. The Change Styles dialog has five (5) tabs that allow you to change how the layer is displayed in the Map View. This includes changing the stroke color, the fill color, line style and line thickness, transparency, adding labels, and determining at which maximum and minimum scales the layer is displayed at.</p></li>
+<li><p>Nella lista dei layer, clicca con il tasto destro sul nome del layer. Questo mostrerà un menu a comparsa.</p></li>
+<li><p>Scegli <span class="menuselection">Style ‣ `Change Styles</span>. La finestra di dialogo Cambia stili ha cinque (5) schede che ti permettono di cambiare il modo in cui il layer viene visualizzato nella vista mappa. Questo include la modifica del colore del tratto, il colore di riempimento, lo stile e lo spessore della linea, la trasparenza, l’aggiunta di etichette e la determinazione della scala massima e minima di visualizzazione del layer.</p></li>
 </ol>
 <a class="reference internal image-reference" href="../../_images/openjump_ss_03.png"><img alt="../../_images/openjump_ss_03.png" src="../../_images/openjump_ss_03.png" style="width: 563.2px; height: 400.95000000000005px;" /></a>
 <a class="reference internal image-reference" href="../../_images/openjump_ss_04.png"><img alt="../../_images/openjump_ss_04.png" src="../../_images/openjump_ss_04.png" style="width: 563.2px; height: 400.95000000000005px;" /></a>
 </section>
 <section id="edit-feature-geometries-in-a-layer">
-<h2><a class="toc-backref" href="#id4" role="doc-backlink">Edit feature geometries in a layer</a><a class="headerlink" href="#edit-feature-geometries-in-a-layer" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id4" role="doc-backlink">Modifica le geometrie degli elementi in un layer</a><a class="headerlink" href="#edit-feature-geometries-in-a-layer" title="Permalink to this heading">¶</a></h2>
 <ol class="arabic">
-<li><p>In the Layer List, right click on the layer name. This will show a pop-up menu.</p></li>
-<li><p>Click on the menu entry «Editable» so that a check mark is shown. This will open a new floating toolbar over the Map View on the right side. This toolbar has a set of buttons that you can use to edit the geometry of a geographic feature.</p>
+<li><p>Nella lista dei layer, clicca con il tasto destro sul nome del layer. Questo mostrerà un menu a comparsa.</p></li>
+<li><p>Clicca sulla voce di menu «Editable» in modo che venga mostrato un segno di spunta. Questo aprirà una nuova barra degli strumenti fluttuante sopra la Vista Mappa sul lato destro. Questa barra degli strumenti ha una serie di pulsanti che si possono usare per modificare la geometria di un elemento geografico.</p>
 <a class="reference internal image-reference" href="../../_images/openjump_ss_05.png"><img alt="../../_images/openjump_ss_05.png" src="../../_images/openjump_ss_05.png" style="width: 563.2px; height: 400.95000000000005px;" /></a>
 <a class="reference internal image-reference" href="../../_images/openjump_ss_06.png"><img alt="../../_images/openjump_ss_06.png" src="../../_images/openjump_ss_06.png" style="width: 563.2px; height: 400.95000000000005px;" /></a>
 </li>
-<li><p>Let’s try a quick edit. First we need to select a geometry and then we move a point of the geometry. To do that, we first click the button that shows a mouse cursor in the editing toolbar (top left button).</p></li>
-<li><p>Activate it and click on a single feature in the Map View to select it. If the selection worked, then the features line color should change to yellow and small yellow squares appear at each angle point (vertex) in the feature geometry.</p>
+<li><p>Prova una rapida modifica. Prima devi selezionare una geometria e poi spostare un punto della geometria. Per farlo, clicca prima il pulsante che mostra un cursore del mouse nella barra degli strumenti di modifica (pulsante in alto a sinistra).</p></li>
+<li><p>Attivalo e clicca su un singolo elemento nella Vista mappa per selezionarlo. Se la selezione ha funzionato, allora il colore della linea dell’elemento dovrebbe cambiare in giallo e piccoli quadrati gialli appaiono in ogni punto angolare (vertice) nella geometria dell’elemento.</p>
 <a class="reference internal image-reference" href="../../_images/openjump_ss_07.png"><img alt="../../_images/openjump_ss_07.png" src="../../_images/openjump_ss_07.png" style="width: 563.2px; height: 400.95000000000005px;" /></a>
 </li>
-<li><p>Next, click on the button that shows a blue crosshair with a yellow square in the middle, the <span class="guilabel">Move Vertex Tool</span> (Hoovering over the buttons gives you a button description). You should now see your mouse cursor change to a small black crosshair when you move it over the Map View.</p>
+<li><p>Poi, clicca sul pulsante che mostra un mirino blu con un quadrato giallo nel mezzo, il <span class="guilabel">Move Vertex Tool</span> (passando sopra i pulsanti ti dà una descrizione del pulsante). Ora dovresti vedere il cursore del tuo mouse trasformarsi in un piccolo mirino nero quando lo muovi sulla vista della mappa.</p>
 <a class="reference internal image-reference" href="../../_images/openjump_ss_08.png"><img alt="../../_images/openjump_ss_08.png" src="../../_images/openjump_ss_08.png" style="width: 563.2px; height: 400.95000000000005px;" /></a>
 </li>
-<li><p>Try using this to move one of the vertices/points of the geometry you selected before by clicking on one of the vertices and dragging it (leaving the mouse button pressed).</p>
+<li><p>Prova ad usarlo per spostare uno dei vertici/punti della geometria che hai selezionato prima, cliccando su uno dei vertici e trascinandolo (lasciando premuto il pulsante del mouse).</p>
 <a class="reference internal image-reference" href="../../_images/openjump_ss_09.png"><img alt="../../_images/openjump_ss_09.png" src="../../_images/openjump_ss_09.png" style="width: 563.2px; height: 400.95000000000005px;" /></a>
 </li>
 </ol>
 </section>
 <section id="what-next">
-<h2><a class="toc-backref" href="#id5" role="doc-backlink">What next?</a><a class="headerlink" href="#what-next" title="Permalink to this heading">¶</a></h2>
-<p>This is only the first step on the road to using OpenJUMP. There is a lot more material left for you to discover.</p>
+<h2><a class="toc-backref" href="#id5" role="doc-backlink">E ora?</a><a class="headerlink" href="#what-next" title="Permalink to this heading">¶</a></h2>
+<p>Questo è solo il primo passo sulla strada per usare OpenJUMP. C’è ancora molto altro materiale da scoprire.</p>
 <ul class="simple">
-<li><p>You can download tutorials for the OpenJUMP here: <a class="reference external" href="https://sourceforge.net/projects/jump-pilot/files/Documentation/">https://sourceforge.net/projects/jump-pilot/files/Documentation/</a></p></li>
-<li><p>You can read the OpenJUMP wiki here: <a class="reference external" href="http://ojwiki.soldin.de/index.php?title=Main_Page">http://ojwiki.soldin.de/index.php?title=Main_Page</a></p></li>
-<li><p>You can get help fast on the OpenJUMP users mailing list: <a class="reference external" href="https://groups.google.com/forum/#!forum/openjump-users">https://groups.google.com/forum/#!forum/openjump-users</a></p></li>
-<li><p>The latest OpenJUMP version can be found here: <a class="reference external" href="https://sourceforge.net/projects/jump-pilot/files/OpenJUMP/">https://sourceforge.net/projects/jump-pilot/files/OpenJUMP/</a></p></li>
+<li><p>Puoi scaricare i tutorial per OpenJUMP qui: <a class="reference external" href="https://sourceforge.net/projects/jump-pilot/files/Documentation/">https://sourceforge.net/projects/jump-pilot/files/Documentation/</a></p></li>
+<li><p>Puoi leggere il wiki di OpenJUMP qui: <a class="reference external" href="http://ojwiki.soldin.de/index.php?title=Main_Page">http://ojwiki.soldin.de/index.php?title=Main_Page</a></p></li>
+<li><p>Puoi ottenere aiuto velocemente sulla mailing list degli utenti di OpenJUMP: <a class="reference external" href="https://groups.google.com/forum/#!forum/openjump-users">https://groups.google.com/forum/#!forum/openjump-users</a></p></li>
+<li><p>L’ultima versione di OpenJUMP può essere trovata qui: <a class="reference external" href="https://sourceforge.net/projects/jump-pilot/files/OpenJUMP/">https://sourceforge.net/projects/jump-pilot/files/OpenJUMP/</a></p></li>
 </ul>
 </section>
 </section>

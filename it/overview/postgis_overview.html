@@ -20,8 +20,8 @@
     <link rel="index" title="Indice" href="../genindex.html" />
     <link rel="search" title="Cerca" href="../search.html" />
     <link rel="copyright" title="Copyright" href="../copyright.html" />
-    <link rel="next" title="PostGIS Quickstart" href="../quickstart/postgis_quickstart.html" />
-    <link rel="prev" title="52 North WPS Quickstart" href="../quickstart/52nWPS_quickstart.html" />
+    <link rel="next" title="Guida rapida PostGIS" href="../quickstart/postgis_quickstart.html" />
+    <link rel="prev" title="Guida Rapida 52 North WPS" href="../quickstart/52nWPS_quickstart.html" />
 	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
 
 
@@ -67,50 +67,48 @@
 <section id="postgis">
 <h1>PostGIS<a class="headerlink" href="#postgis" title="Permalink to this heading">¶</a></h1>
 <section id="spatial-database">
-<h2>Spatial Database<a class="headerlink" href="#spatial-database" title="Permalink to this heading">¶</a></h2>
-<p>PostGIS spatially enables the popular PostgreSQL object-relational database, allowing it to be used as a back-end database for geographic information systems (GIS) and web-mapping applications.</p>
-<p>PostGIS is stable, fast, standards compliant, with hundreds of spatial functions and is currently the most widely used Open Source spatial database. PostGIS is used by diverse organisations from around the world, including risk-averse government agencies and organisations storing terabytes of data serving millions of web requests per day.</p>
-<p>Database administration is available for desktop and the web via pgAdmin, phpPgAdmin, and others.
-Data import/export can be done by command line tools (shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgis) or
-from desktop and web GIS clients. These clients can also map and manipulate PostGIS spatial data tables.</p>
-<a class="reference internal image-reference" href="../../_images/postgis_screenshot.png"><img alt="postgis screenshot" class="align-right" src="../../_images/postgis_screenshot.png" style="width: 500px;" /></a>
+<h2>Database spaziale<a class="headerlink" href="#spatial-database" title="Permalink to this heading">¶</a></h2>
+<p>PostGIS abilita spazialmente il popolare database relazionale PostgreSQL, permettendogli di essere usato come database back-end per sistemi informativi geografici (GIS) e applicazioni di web-mapping.</p>
+<p>PostGIS è stabile, veloce, conforme agli standard, con centinaia di funzioni spaziali ed è attualmente il database spaziale Open Source più usato. PostGIS è usato da diverse organizzazioni di tutto il mondo, tra cui agenzie governative avverse al rischio e organizzazioni che immagazzinano terabyte di dati che servono milioni di richieste web al giorno.</p>
+<p>L’amministrazione del database è disponibile per il desktop e il web tramite pgAdmin, phpPgAdmin, e altri. L’importazione/esportazione dei dati può essere fatta da strumenti a linea di comando (shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgis) o da client GIS desktop e web. Questi client possono anche mappare e manipolare le tabelle di dati spaziali PostGIS.</p>
+<a class="reference internal image-reference" href="../../_images/postgis_screenshot.png"><img alt="screenshot di postgis" class="align-right" src="../../_images/postgis_screenshot.png" style="width: 500px;" /></a>
 <section id="core-features">
-<h3>Core Features<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h3>
+<h3>Caratteristiche principali<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h3>
 <ul class="simple">
-<li><p>Hundreds of spatial functions</p>
+<li><p>Centinaia di funzioni spaziali</p>
 <ul>
-<li><p>Buffers, unions, overlays, distance and more</p></li>
+<li><p>Buffer, unioni, sovrappozioni, distanze e molto altro</p></li>
 </ul>
 </li>
-<li><p>ACID transactional integrity</p></li>
-<li><p>R-Tree spatial index</p></li>
-<li><p>Multi-user support</p></li>
-<li><p>Row-level locking</p></li>
-<li><p>Replication</p></li>
-<li><p>Partitioning</p></li>
-<li><p>Role-based security</p></li>
-<li><p>Table-spaces, schemas</p></li>
+<li><p>Integrità transazionale ACID</p></li>
+<li><p>Indice spaziale R-Tree</p></li>
+<li><p>Supporto multi-utente</p></li>
+<li><p>Blocco a livello di riga</p></li>
+<li><p>Replicazione</p></li>
+<li><p>Partizionamento</p></li>
+<li><p>Sicurezza basata sui ruoli</p></li>
+<li><p>Table-spaces, schemi</p></li>
 </ul>
 </section>
 <section id="implemented-standards">
-<h3>Implemented Standards<a class="headerlink" href="#implemented-standards" title="Permalink to this heading">¶</a></h3>
+<h3>Standard implementati<a class="headerlink" href="#implemented-standards" title="Permalink to this heading">¶</a></h3>
 <ul class="simple">
-<li><p>OGC standards compliant (SFSQL)</p></li>
+<li><p>Conformi agli standard OGC (SFSQL)</p></li>
 </ul>
 </section>
 <section id="details">
-<h3>Details<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h3>
-<p><strong>Website:</strong> <a class="reference external" href="http://postgis.net">http://postgis.net</a></p>
-<p><strong>Licence:</strong> GNU General Public License (GPL) version 2</p>
-<p><strong>Software Version:</strong> 3.2.0</p>
-<p><strong>Supported Platforms:</strong> Windows, Linux, Mac</p>
-<p><strong>API Interfaces:</strong> SQL</p>
-<p><strong>Support:</strong> <a class="reference external" href="https://www.osgeo.org/service-providers">OSGeo service providers</a></p>
+<h3>Dettagli<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h3>
+<p><strong>Sito web:</strong> <a class="reference external" href="http://postgis.net">http://postgis.net</a></p>
+<p><strong>Licenza:</strong> GNU General Public License (GPL) version 2</p>
+<p><strong>Versione Software:</strong> 3.2.0</p>
+<p><strong>Piattaforme Supportate:</strong> Windows, Linux, Mac</p>
+<p><strong>Interfacce API:</strong> SQL</p>
+<p><strong>Supporto:</strong> <a class="reference external" href="https://www.osgeo.org/service-providers">OSGeo service providers</a></p>
 </section>
 <section id="quickstart">
-<h3>Quickstart<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h3>
+<h3>Guida rapida<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h3>
 <ul class="simple">
-<li><p><a class="reference internal" href="../quickstart/postgis_quickstart.html"><span class="doc">Quickstart documentation</span></a></p></li>
+<li><p><a class="reference internal" href="../quickstart/postgis_quickstart.html"><span class="doc">Guida rapida</span></a></p></li>
 </ul>
 </section>
 </section>

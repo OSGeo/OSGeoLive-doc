@@ -20,8 +20,8 @@
     <link rel="index" title="Indice" href="../genindex.html" />
     <link rel="search" title="Cerca" href="../search.html" />
     <link rel="copyright" title="Copyright" href="../copyright.html" />
-    <link rel="next" title="pycsw Quickstart" href="../quickstart/pycsw_quickstart.html" />
-    <link rel="prev" title="MapServer Quickstart" href="../quickstart/mapserver_quickstart.html" />
+    <link rel="next" title="Guida rapida pycsw" href="../quickstart/pycsw_quickstart.html" />
+    <link rel="prev" title="Guida rapida MapServer" href="../quickstart/mapserver_quickstart.html" />
 	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
 
 
@@ -67,43 +67,43 @@
 <section id="pycsw">
 <h1>pycsw<a class="headerlink" href="#pycsw" title="Permalink to this heading">¶</a></h1>
 <section id="metadata-catalogue">
-<h2>Metadata Catalogue<a class="headerlink" href="#metadata-catalogue" title="Permalink to this heading">¶</a></h2>
-<p>pycsw enables users to publish a catalogue of dataset descriptions (metadata) to the web, using standards based interfaces and formats, such that it can be queried and updated by catalogue clients. pycsw is simple to setup within an Apache web server (or any WSGI server) and can access metadata records stored as XML files within a database.</p>
-<p>Metadata is “data about data”, storing such things as creation-date, author, title, area-of-interest, etc, and is usually encoded as XML files, following international standards such as ISO 19115, ISO 19139 and FGDC CSDGM.</p>
-<p>pycsw is a <a class="reference external" href="https://www.python.org/">Python</a> implementation of the <a class="reference external" href="https://www.ogc.org/standards/cat">Catalogue Service for the web</a>. The project is certified <a class="reference external" href="https://www.ogc.org/resource/products/details/?pid=1374">OGC Compliant</a>, and is an <a class="reference external" href="https://demo.pycsw.org/">OGC Reference Implementation</a>. The CSW standard defines common interfaces to discover, browse and query metadata about spatial data, web services and related resources.</p>
-<p>pycsw is Open Source, released under an MIT license, and runs on all major platforms (Windows, Linux, Mac OS X).</p>
-<a class="reference internal image-reference" href="../../_images/pycsw_screenshot.png"><img alt="pycsw screenshot" class="align-right" src="../../_images/pycsw_screenshot.png" style="width: 500px;" /></a>
+<h2>Catalogo dei metadati<a class="headerlink" href="#metadata-catalogue" title="Permalink to this heading">¶</a></h2>
+<p>pycsw consente agli utenti di pubblicare un catalogo delle descrizioni dei set di dati (metadati) per il web, utilizzando interfacce e formati basati su standard, tali da poter essere interrogati e aggiornati dai clients del catalogo. pycsw è semplice da configurare all’interno di un server web Apache (o qualsiasi server WSGI) e può accedere ai record dei metadati memorizzati come file XML all’interno di un database.</p>
+<p>Il metadato è un ‘dato sul dato’, memorizzando cose quali la data di creazione, l’autore, il titolo, l’area d’interesse, ecc, e di solito è codificato come file XML, secondo gli standard internazionali quali ISO 19115, ISO 19139 e FGDC CSDGM.</p>
+<p>pycsw è un’implementazione <a class="reference external" href="https://www.python.org/">Python</a> del <a class="reference external" href="https://www.ogc.org/standards/cat">Catalogue Service for the web</a>. Il progetto è certificato <a class="reference external" href="https://www.ogc.org/resource/products/details/?pid=1374">OGC Compliant</a>, ed è una <a class="reference external" href="https://demo.pycsw.org/">OGC Reference Implementation</a>. Lo standard CSW definisce interfacce comuni per scoprire, navigare e interrogare metadati su dati spaziali, servizi web e risorse correlate.</p>
+<p>pycsw e` Open Source, rilasciato con una licenza MIT, e funziona su tutte le principali piattaforme (Windows, Linux, Mac OS X).</p>
+<a class="reference internal image-reference" href="../../_images/pycsw_screenshot.png"><img alt="screenshot di pycsw" class="align-right" src="../../_images/pycsw_screenshot.png" style="width: 500px;" /></a>
 <section id="core-features">
-<h3>Core Features<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h3>
+<h3>Caratteristiche principali<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h3>
 <ul class="simple">
-<li><p>certified OGC Compliant and OGC Reference Implementation for OGC CSW 2.0.2 and CSW 3.0.0</p></li>
-<li><p>harvesting support for WMS, WFS, WCS, WPS, WAF, CSW, SOS</p></li>
-<li><p>implements INSPIRE Discovery Services 3.0</p></li>
-<li><p>implements ISO Metadata Application Profile 1.0.0</p></li>
-<li><p>implements FGDC CSDGM Application Profile for CSW 2.0</p></li>
-<li><p>implements the Search/Retrieval via URL (SRU) search protocol</p></li>
-<li><p>implements Full Text Search capabilities</p></li>
-<li><p>implements OGC OpenSearch Geo/Time extensions</p></li>
-<li><p>implements Open Archives Initiative Protocol for Metadata Harvesting</p></li>
-<li><p>supports ISO, Dublin Core, DIF, FGDC, Atom and GM03 metadata models</p></li>
-<li><p>CGI or WSGI deployment</p></li>
-<li><p>Python 2 and 3 compatible</p></li>
-<li><p>simple configuration</p></li>
-<li><p>transactional capabilities (CSW-T)</p></li>
-<li><p>flexible repository configuration</p></li>
-<li><p>GeoNode connectivity</p></li>
-<li><p>HHypermap connectivity</p></li>
-<li><p>Open Data Catalog connectivity</p></li>
-<li><p>CKAN connectivity</p></li>
-<li><p>federated catalogue distributed searching</p></li>
-<li><p>realtime XML Schema validation</p></li>
-<li><p>extensible profile plugin architecture</p></li>
-<li><p>very lightweight (Python + CGI)</p></li>
+<li><p>certificato OGC Compliant e OGC Reference Implementation per OGC CSW 2.0.2 e CSV 3.0.0</p></li>
+<li><p>supporto per WMS, WFS, WCS, WPS, WAF, CSW, SOS</p></li>
+<li><p>implementa INSPIRE Discovery Services 3.0</p></li>
+<li><p>implementa ISO Metadata Application Profile 1.0.0</p></li>
+<li><p>implementa FGDC CSDGM Application Profile per CSW 2.0</p></li>
+<li><p>implementa il protocollo di ricerca Search/Retrieval attraverso URL (SRU)</p></li>
+<li><p>implementa capabilities di Ricerca Full Text</p></li>
+<li><p>implementa le estensioni OGC OpenSearch Geo/Time</p></li>
+<li><p>implementa il Protocollo Open Archives Initiative per la Raccolta di Metadati</p></li>
+<li><p>supporto ai modelli dei matadati ISO, Dublin Core, DIF, FGDC, Atom e GM03</p></li>
+<li><p>sviluppo CGI o WSGI</p></li>
+<li><p>Compatibile Python 2 e 3</p></li>
+<li><p>configurazione semplice</p></li>
+<li><p>capabilities transazionali (CSW-T)</p></li>
+<li><p>configurazione del repository flessibile</p></li>
+<li><p>connettività con GeoNode</p></li>
+<li><p>connettività con HHypermap</p></li>
+<li><p>connettività con Catalog Open Data</p></li>
+<li><p>connettività con CKAN</p></li>
+<li><p>Catalogo federato di ricerca distribuita</p></li>
+<li><p>validazione dello schema XML in tempo reale</p></li>
+<li><p>architettura dei plugin a profilo estendibile</p></li>
+<li><p>Molto leggero (Python + CGI)</p></li>
 </ul>
 </section>
 <section id="implemented-standards">
-<h3>Implemented Standards<a class="headerlink" href="#implemented-standards" title="Permalink to this heading">¶</a></h3>
-<p>OGC Standards:</p>
+<h3>Standards implementati<a class="headerlink" href="#implemented-standards" title="Permalink to this heading">¶</a></h3>
+<p>Standards OGC:</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://www.ogc.org/standards/cat">Catalogue Service for the web</a>         2.0.2, 3.0.0</p></li>
 <li><p><a class="reference external" href="https://www.ogc.org/standards/filter">Filter Encoding (FE)</a>          1.1.0, 2.0.0</p></li>
@@ -112,7 +112,7 @@
 <li><p><a class="reference external" href="https://www.ogc.org/standards/sfs">Simple Feature Access (SFS)</a>         1.2.1</p></li>
 <li><p>OGC OpenSearch  1.0</p></li>
 </ul>
-<p>Metadata Standards:</p>
+<p>Standard dei Metadati:</p>
 <ul class="simple">
 <li><p>Dublin Core   1.1</p></li>
 <li><p>SOAP  1.2</p></li>
@@ -128,18 +128,18 @@
 </ul>
 </section>
 <section id="details">
-<h3>Details<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h3>
-<p><strong>Website:</strong> <a class="reference external" href="https://pycsw.org/">https://pycsw.org/</a></p>
-<p><strong>Licence:</strong> <a class="reference external" href="https://docs.pycsw.org/en/latest/license.html">MIT</a></p>
-<p><strong>Software Version:</strong> 2.6.0</p>
-<p><strong>Supported Platforms:</strong> Windows, Linux, Mac</p>
-<p><strong>API Interfaces:</strong> Python</p>
-<p><strong>Support:</strong> <a class="reference external" href="https://www.osgeo.org/service-providers">OSGeo service providers</a></p>
+<h3>Dettagli<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h3>
+<p><strong>Sito web:</strong> <a class="reference external" href="https://pycsw.org/">https://pycsw.org/</a></p>
+<p><strong>Licenza:</strong> <a class="reference external" href="https://docs.pycsw.org/en/latest/license.html">MIT</a></p>
+<p><strong>Versione Software:</strong> 2.6.0</p>
+<p><strong>Piattaforme Supportate:</strong> Windows, Linux, Mac</p>
+<p><strong>Interfacce API:</strong> Python</p>
+<p><strong>Supporto:</strong> <a class="reference external" href="https://www.osgeo.org/service-providers">OSGeo service providers</a></p>
 </section>
 <section id="quickstart">
-<h3>Quickstart<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h3>
+<h3>Guida rapida<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h3>
 <ul class="simple">
-<li><p><a class="reference internal" href="../quickstart/pycsw_quickstart.html"><span class="doc">Quickstart documentation</span></a></p></li>
+<li><p><a class="reference internal" href="../quickstart/pycsw_quickstart.html"><span class="doc">Guida rapida</span></a></p></li>
 </ul>
 </section>
 </section>

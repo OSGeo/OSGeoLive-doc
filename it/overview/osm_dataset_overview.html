@@ -71,7 +71,7 @@
 <p>L’aspetto tipico di OSM è l’interfaccia suddivisa in tile del sito web <a class="reference external" href="https://www.openstreetmap.org">https://www.openstreetmap.org</a>, ma le mappe possono anche essere visualizzate, importate, o modificate in molte altre applicazioni  come ad esmpio <a class="reference internal" href="qgis_overview.html"><span class="doc">QGIS</span></a> , <a class="reference internal" href="openlayers_overview.html"><span class="doc">OpenLayers</span></a>, ArcGIS e applicazioni dedicate a OSM.</p>
 <p>Il cuore del progetto sono i dati di base che sono aperti per tutti gli utenti per la modifica, la visualizzazione o per creare rendering di mappe personalizzate. Fondamentalmente l’obiettivo di OSM sono i dati, la mappa così ricca di informazioni è generata proprio da questi.</p>
 <p>La distribuzione di OSGeoLive include un estratto a scala cittadina dei dati OSM che vengono utilizzati come esempi da alcune applicazioni.</p>
-<a class="reference internal image-reference" href="../../_images/osm_dataset_screenshot.png"><img alt="osm_dataset screenshot" class="align-right" src="../../_images/osm_dataset_screenshot.png" style="width: 500px;" /></a>
+<a class="reference internal image-reference" href="../../_images/osm_dataset_screenshot.png"><img alt="screenshot di osm_dataset" class="align-right" src="../../_images/osm_dataset_screenshot.png" style="width: 500px;" /></a>
 <section id="core-features">
 <h3>Caratteristiche principali<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h3>
 <ul class="simple">
@@ -88,7 +88,7 @@
 <li><p>feature_city.osm.bz2: Un grande estratto dell’area più estesa della città come un file di testo XML compresso nel formato BZip2.</p></li>
 <li><p>feature_city_CBD.osm.bz2: Un sottoinsieme che copre solo il distretto economico centrale (Central Business District - CBD).</p></li>
 <li><p>feature_city_poi.db: DB di Sqlite di nodi «punti di interesse» estratto dal precedente estratto cittadino OSM più grande. Contiene la posizione di pubs, stazioni di rifornimento, ristoranti, supermarkets, etc.</p></li>
-<li><p>I files che riportano il nome della città oggetto contengono gli stessi dati dei file sopra descritti. Le guide rapide e le overview utilizzano i nomi generici dei file in modo tale che le città esempio possano cambiare ad ogni rilascio.</p></li>
+<li><p>I file che fanno riferimento al nome della città considerata contengono gli stessi dati dei file precedenti. Le guide rapide e le panoramiche utilizzano i nomi generici dei file, in modo che la città di esempio possa cambiare con ogni nuova versione.</p></li>
 </ul>
 <p>I dati OSM della città oggetto sono stati importati in un database PostGIS chiamato «osm_local» usando lo strumento osm2pgsql. Il sistema di riferimento spaziale utilizzato per questo database è latitudine-longitudine con datum WGS84 (codice EPSG 4326) e può essere riproiettato su richiesta in altri sistemi di tiferimento spaziali (Spatial Reference Systems - SRS), come ad esmpio Sferico-Mercatore. L’estratto più piccolo CBD è stato caricato in un altro database PostGIS chiamato «pgrouting».</p>
 </section>

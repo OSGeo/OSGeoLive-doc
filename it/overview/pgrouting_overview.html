@@ -20,8 +20,8 @@
     <link rel="index" title="Indice" href="../genindex.html" />
     <link rel="search" title="Cerca" href="../search.html" />
     <link rel="copyright" title="Copyright" href="../copyright.html" />
-    <link rel="next" title="pgRouting Quickstart" href="../quickstart/pgrouting_quickstart.html" />
-    <link rel="prev" title="PostGIS Quickstart" href="../quickstart/postgis_quickstart.html" />
+    <link rel="next" title="Guida rapida pgRouting" href="../quickstart/pgrouting_quickstart.html" />
+    <link rel="prev" title="Guida rapida PostGIS" href="../quickstart/postgis_quickstart.html" />
 	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
 
 
@@ -67,57 +67,43 @@
 <section id="pgrouting">
 <h1>pgRouting<a class="headerlink" href="#pgrouting" title="Permalink to this heading">¶</a></h1>
 <section id="gis-tools">
-<h2>GIS Tools<a class="headerlink" href="#gis-tools" title="Permalink to this heading">¶</a></h2>
-<p>pgRouting extends the
-<a class="reference internal" href="postgis_overview.html"><span class="doc">PostGIS</span></a>/<a class="reference external" href="https://www.postgresql.org">PostgreSQL</a>
-geospatial database to provide geospatial routing and other network analysis functionality.</p>
-<p>Advantages of the database routing approach are:</p>
+<h2>Strumenti GIS<a class="headerlink" href="#gis-tools" title="Permalink to this heading">¶</a></h2>
+<p>pgRouting estende il database spaziale <a class="reference internal" href="postgis_overview.html"><span class="doc">PostGIS</span></a>/<a class="reference external" href="https://www.postgresql.org">PostgreSQL</a> per fornire routing geospaziale e altre funzionalità di analisi delle reti.</p>
+<p>I vantaggi dell’approccio di un database di routing sono:</p>
 <ul class="simple">
-<li><p>Data and attributes can be modified by many clients, like <a class="reference internal" href="qgis_overview.html"><span class="doc">QGIS</span></a>
-and <a class="reference internal" href="udig_overview.html"><span class="doc">uDig</span></a> through JDBC, ODBC, or directly using Pl/pgSQL.
-The clients can either be PCs or mobile devices.</p></li>
-<li><p>Data changes can be reflected instantaneously through the routing engine.
-There is no need for precalculation.</p></li>
-<li><p>The «cost» parameter can be dynamically calculated through SQL and its value can come
-from multiple fields or tables.</p></li>
+<li><p>I dati e gli attributi possono essere modificati da molti clients, come <a class="reference internal" href="qgis_overview.html"><span class="doc">QGIS</span></a> e <a class="reference internal" href="udig_overview.html"><span class="doc">uDig</span></a> attraverso JDBC, ODBC, oppure direttamente utilizzando Pl/pgSQL.</p></li>
+<li><p>I cambiamenti dei dati possono essere riflessi istantaneamente attraverso il motore di routing. Non c’è bisogno di calcolarlo precedentemente.</p></li>
+<li><p>Il parametro «costo» può essere calcolato dinamicamente tramite SQL e il suo valore può provenire da più campi o tabelle.</p></li>
 </ul>
-<p>pgRouting is available under the GPLv2+ license and is supported by a growing community
-of individuals, businesses and organizations.</p>
-<a class="reference internal image-reference" href="../../_images/pgrouting_screenshot.png"><img alt="pgrouting screenshot" class="align-right" src="../../_images/pgrouting_screenshot.png" style="width: 500px;" /></a>
+<p>pgRouting è disponibile sotto la licenza GPLv2+ ed è supportato da una comunità crescente di singoli individui, aziende e organizzazioni.</p>
+<a class="reference internal image-reference" href="../../_images/pgrouting_screenshot.png"><img alt="screenshot di pgrouting" class="align-right" src="../../_images/pgrouting_screenshot.png" style="width: 500px;" /></a>
 <section id="core-features">
-<h3>Core Features<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h3>
-<p>pgRouting provides functions for:</p>
+<h3>Caratteristiche principali<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h3>
+<p>pgRouting fornisce funzioni per:</p>
 <ul class="simple">
-<li><p>All Pairs Shortest Path
-* Johnson’s Algorithm
-* Floyd-Warshall Algorithm</p></li>
-<li><p>Shortest Path
-* A* algorithm
-* Dijkstra algorithm</p></li>
-<li><p>Bi-directional Shortest Path
-* A* algorithm
-* Dijkstra algorithm</p></li>
-<li><p>Driving Distance</p></li>
-<li><p>K-Shortest Path
-* Yen’s algorithm</p></li>
-<li><p>Traveling Sales Person</p></li>
-<li><p>And many more</p></li>
+<li><p>Tutti i Percorsi più Brevi a Coppie * Algoritmo di Johnson * Algoritmo di Floyd-Warshall</p></li>
+<li><p>Percorso più breve * algoritmo A*  * algoritmo Dijkstra</p></li>
+<li><p>Percorso più breve bi-direzionale * algoritmo A*  * algoritmo Dijkstra</p></li>
+<li><p>Distanza di guida</p></li>
+<li><p>K-Shortest Path * algorithm Yen’s</p></li>
+<li><p>Commesso viaggiatore</p></li>
+<li><p>E molti altri</p></li>
 </ul>
-<p>Learn more about pgRouting in the <a class="reference external" href="https://docs.pgrouting.org">documentation</a>.</p>
+<p>Per maggiori informazioni guarda la <a class="reference external" href="https://docs.pgrouting.org">documentazione di pgRouting</a>.</p>
 </section>
 <section id="details">
-<h3>Details<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h3>
-<p><strong>Website:</strong> <a class="reference external" href="https://pgrouting.org/">https://pgrouting.org/</a></p>
-<p><strong>Licence:</strong> GNU General Public License (GPL) version 2</p>
-<p><strong>Software Version:</strong> 3.1.0</p>
-<p><strong>Supported Platforms:</strong> Linux, Windows, Mac</p>
-<p><strong>API Interfaces:</strong> SQL</p>
-<p><strong>Commercial Support:</strong> <a class="reference external" href="https://pgrouting.org/support.html">https://pgrouting.org/support.html</a></p>
+<h3>Dettagli<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h3>
+<p><strong>Sito web:</strong> <a class="reference external" href="https://pgrouting.org/">https://pgrouting.org/</a></p>
+<p><strong>Licenza:</strong> GNU General Public License (GPL) version 2</p>
+<p><strong>Versione Software:</strong> 3.1.0</p>
+<p><strong>Piattaforme Supportate:</strong> Linux, Mac, Windows</p>
+<p><strong>Interfacce API:</strong> SQL</p>
+<p><strong>Supporto commerciale:</strong> <a class="reference external" href="https://pgrouting.org/support.html">https://pgrouting.org/support.html</a></p>
 </section>
 <section id="quickstart">
-<h3>Quickstart<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h3>
+<h3>Guida rapida<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h3>
 <ul class="simple">
-<li><p><a class="reference internal" href="../quickstart/pgrouting_quickstart.html"><span class="doc">Quickstart documentation</span></a></p></li>
+<li><p><a class="reference internal" href="../quickstart/pgrouting_quickstart.html"><span class="doc">Guida rapida</span></a></p></li>
 </ul>
 </section>
 </section>

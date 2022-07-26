@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
-    <title>Rasdaman &#8212; OSGeoLive 15.0 Documentation</title>
+    <title>Rasdaman · &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
@@ -20,8 +20,8 @@
     <link rel="index" title="Indice" href="../genindex.html" />
     <link rel="search" title="Cerca" href="../search.html" />
     <link rel="copyright" title="Copyright" href="../copyright.html" />
-    <link rel="next" title="Rasdaman Quickstart" href="../quickstart/rasdaman_quickstart.html" />
-    <link rel="prev" title="pgRouting Quickstart" href="../quickstart/pgrouting_quickstart.html" />
+    <link rel="next" title="Guida rapida Rasdaman" href="../quickstart/rasdaman_quickstart.html" />
+    <link rel="prev" title="Guida rapida pgRouting" href="../quickstart/pgrouting_quickstart.html" />
 	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
 
 
@@ -65,30 +65,27 @@
   <a class="reference external image-reference" href="https://rasdaman.org" id="rasdaman-overview"><img alt="../../_images/logo_rasdaman.png" class="align-right" src="../../_images/logo_rasdaman.png" /></a>
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_incubation.png" class="align-right" src="../../_images/OSGeo_incubation.png" /></a>
 <section id="rasdaman">
-<h1>Rasdaman<a class="headerlink" href="#rasdaman" title="Permalink to this heading">¶</a></h1>
+<h1>Rasdaman ·<a class="headerlink" href="#rasdaman" title="Permalink to this heading">¶</a></h1>
 <section id="multi-dimensional-big-data-analytics-engine">
-<h2>Multi-Dimensional Big Data Analytics Engine<a class="headerlink" href="#multi-dimensional-big-data-analytics-engine" title="Permalink to this heading">¶</a></h2>
-<p>Rasdaman is an Array Database System which provides flexible, fast, scalable geo services for multi-dimensional spatio-temporal sensor, image, simulation, and statistics data of unlimited volume.  Ad-hoc access, extraction, aggregation, as well as remix and analytics is enabled through a NewSQL raster query language with highly effective server-side optimization.  Cloud/cluster parallelization is accomplished in a secure, administrator-controlled way.</p>
-<p>In addition to the raster query language, rasdaman supports OGC’s WMS, WCS and
-WCPS web service standards, as well as C++ and Java APIs.
-At <a class="reference external" href="https://standards.rasdaman.com">https://standards.rasdaman.com</a> a collection of interactive demos is available.
-A rasdaman driver is part of GDAL and MapServer.</p>
-<p>Rasdaman has received a series of international innovation awards, among them the prestigeous European IT Prize and Geospatial Innovation Award.  Technology is mature and stable, being in operational for more than ten years.  Among the operators of rasdaman services are mapping agencies and climate data centers.</p>
-<a class="reference internal image-reference" href="../../_images/rasdaman_screenshot.png"><img alt="rasdaman screenshot" class="align-right" src="../../_images/rasdaman_screenshot.png" style="width: 500px;" /></a>
+<h2>Motore Multi-Dimensionale di Analisi dei Big Data<a class="headerlink" href="#multi-dimensional-big-data-analytics-engine" title="Permalink to this heading">¶</a></h2>
+<p>Rasdaman è un Array Database System che fornisce servizi geografici flessibili, veloci e scalabili per sensori spazio-temporali multidimensionali, immagini, simulazioni e dati statistici di volume illimitato.  L’accesso, l’estrazione, l’aggregazione, nonché il remix e l’analisi ad hoc sono abilitati tramite un linguaggio di query raster NewSQL con ottimizzazione lato server altamente efficace.  La parallelizzazione cloud/cluster viene eseguita in modo sicuro e controllato dall’amministratore.</p>
+<p>Oltre al linguaggio di query raster, rasdaman supporta gli standard dei servizi Web WMS, WCS e WCPS di OGC, nonché le API C++ e Java. Al <a class="reference external" href="https://standards.rasdaman.com">https://standards.rasdaman.com</a> è disponibile una raccolta di demo interattive. Un driver rasdaman fà parte di GDAL e MapServer.</p>
+<p>Rasdaman ha ricevuto una serie di premi internazionali per l’innovazione, tra cui il prestigioso European IT Prize e il Geospatial Innovation Award.  La tecnologia è matura e stabile, essendo operativa da più di dieci anni.  Tra gli operatori dei servizi rasdaman ci sono agenzie di mappatura e data center climatici.</p>
+<a class="reference internal image-reference" href="../../_images/rasdaman_screenshot.png"><img alt="screenshot di rasdaman" class="align-right" src="../../_images/rasdaman_screenshot.png" style="width: 500px;" /></a>
 <section id="core-features">
-<h3>Core Features<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h3>
+<h3>Caratteristiche principali<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h3>
 <blockquote>
 <div><ul class="simple">
-<li><p>truly multi-dimensional - 1-D, 2-D, 3-D, 4-D, and beyond</p></li>
-<li><p>powerful, flexible query language for visualization, classification, convolution, aggregation, and many more geospatial functions</p></li>
-<li><p>spatial indexing and adaptive tiling for fast data access</p></li>
-<li><p>parallelization and «tile streaming» for unlimited scalability from laptop to cluster and cloud</p></li>
-<li><p>support for the raster-relevant OGC standards, Reference Implementation for WCS Core and WCPS</p></li>
+<li><p>veramente multi-dimensionale - 1-D, 2-D, 3-D, 4-D e oltre</p></li>
+<li><p>linguaggio di query potente e flessibile per la visualizzazione, la classificazione, la convoluzione, l’aggregazione e molte altre funzioni geospaziali</p></li>
+<li><p>indicizzazione spaziale e tiling adattivo per un rapido accesso ai dati</p></li>
+<li><p>parallelizzazione e «tile streaming» per una scalabilità illimitata da laptop a cluster e cloud</p></li>
+<li><p>supporto per gli standard OGC rilevanti per i raster, Implementazione di Riferimento per WCS Core e WCPS</p></li>
 </ul>
 </div></blockquote>
 </section>
 <section id="implemented-standards">
-<h3>Implemented Standards<a class="headerlink" href="#implemented-standards" title="Permalink to this heading">¶</a></h3>
+<h3>Standard implementati<a class="headerlink" href="#implemented-standards" title="Permalink to this heading">¶</a></h3>
 <blockquote>
 <div><ul class="simple">
 <li><p>OGC WMS 1.3, WCS 2.0, WCPS 1.0</p></li>
@@ -96,22 +93,22 @@ A rasdaman driver is part of GDAL and MapServer.</p>
 </div></blockquote>
 </section>
 <section id="details">
-<h3>Details<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h3>
-<p><strong>Website:</strong> <a class="reference external" href="https://rasdaman.org">https://rasdaman.org</a></p>
-<p><strong>Licence:</strong></p>
+<h3>Dettagli<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h3>
+<p><strong>Sito web:</strong> <a class="reference external" href="https://rasdaman.org">https://rasdaman.org</a></p>
+<p><strong>Licenza:</strong></p>
 <ul class="simple">
-<li><p>clients and APIs: GNU Lesser General Public License (LGPL) version 3</p></li>
-<li><p>server engine: GNU General Public License (GPL) version 3</p></li>
+<li><p>client e API: GNU Lesser General Public License (LGPL) versione 3</p></li>
+<li><p>motore server: GNU General Public License (GPL) versione 3</p></li>
 </ul>
-<p><strong>Software Version:</strong> 10.0.0</p>
-<p><strong>Supported Platforms:</strong> Linux, MacOS, Solaris</p>
-<p><strong>API Interfaces:</strong> rasql, C++, Java</p>
-<p><strong>Support:</strong>  <a class="reference external" href="https://rasdaman.com">https://rasdaman.com</a></p>
+<p><strong>Versione Software:</strong> 10.0.0</p>
+<p><strong>Piattaforme Supportate:</strong> Linux, MacOS, Solaris</p>
+<p><strong>Interfacce API:</strong> rasql, C++, Java</p>
+<p>** Supporto: ** <a class="reference external" href="https://rasdaman.com">https://rasdaman.com</a></p>
 </section>
 <section id="quickstart">
-<h3>Quickstart<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h3>
+<h3>Guida rapida<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h3>
 <ul class="simple">
-<li><p><a class="reference internal" href="../quickstart/rasdaman_quickstart.html"><span class="doc">Quickstart documentation</span></a></p></li>
+<li><p><a class="reference internal" href="../quickstart/rasdaman_quickstart.html"><span class="doc">Guida rapida</span></a></p></li>
 </ul>
 </section>
 </section>

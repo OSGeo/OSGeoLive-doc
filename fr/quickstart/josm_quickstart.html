@@ -65,14 +65,14 @@
   <a class="reference external image-reference" href="https://josm.openstreetmap.de"><img alt="../../_images/logo_josm.png" class="align-right" src="../../_images/logo_josm.png" /></a>
 <section id="josm-quickstart">
 <h1>JOSM Quickstart<a class="headerlink" href="#josm-quickstart" title="Lien permanent vers cette rubrique">¶</a></h1>
-<p>JOSM is a feature rich, extensible, offline desktop editor for OpenStreetMap (OSM) data, written in Java.</p>
-<p>It supports loading stand-alone GPX tracks and GPX track data as well as editing existing nodes (points), ways (lines), metadata tags (name/value information) and relations (ordered sequence of points and lines) from the OSM database. GPX tracks, are usually downloaded in advance from a GPS receiver or from other sources.</p>
-<p>This quickstart covers basic usage of the Java OpenStreetMap editor.</p>
+<p>JOSM est un éditeur bureautique de données OpenStreetMap (OSM), riche en fonctionnalités, extensible, utilisable hors-ligne, écrit en Java.</p>
+<p>Il permet le chargement de traces GPX seules et des données de trace GPX ainsi que l’édition de <em>nodes</em> (points), <em>ways</em> (lignes), <em>tags</em> (étiquettes sous forme clé/valeur) et relations (séquence ordonnée de points et de lignes) existants à partir de la base de données OSM. Les traces GPX sont généralement téléchargées à l’avance à partir d’un récepteur GPS ou à partir d’autres sources.</p>
+<p>Ce guide de démarrage couvre l’utilisation de base de l’éditeur OpenStreetMap Java.</p>
 <nav class="contents local" id="sommaire">
 <ul class="simple">
-<li><p><a class="reference internal" href="#start-josm" id="id1">Start JOSM</a></p></li>
-<li><p><a class="reference internal" href="#load-a-sample-ficticious-map" id="id2">Load a sample (ficticious) map</a></p></li>
-<li><p><a class="reference internal" href="#navigate-the-map" id="id3">Navigate the map</a></p>
+<li><p><a class="reference internal" href="#start-josm" id="id1">Démarrer JOSM</a></p></li>
+<li><p><a class="reference internal" href="#load-a-sample-ficticious-map" id="id2">Charger un exemple de carte (fictive)</a></p></li>
+<li><p><a class="reference internal" href="#navigate-the-map" id="id3">Naviguez dans la carte</a></p>
 <ul>
 <li><p><a class="reference internal" href="#points-lines-and-shapes" id="id4">Points, lines, and shapes</a></p></li>
 <li><p><a class="reference internal" href="#changing-objects" id="id5">Changing objects</a></p></li>
@@ -82,50 +82,37 @@
 </li>
 <li><p><a class="reference internal" href="#draw-your-own-map" id="id8">Draw your own map</a></p></li>
 <li><p><a class="reference internal" href="#remove-the-sample-layer" id="id9">Remove the sample layer</a></p></li>
-<li><p><a class="reference internal" href="#what-next" id="id10">What next?</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id10">Ensuite ?</a></p></li>
 </ul>
 </nav>
 <section id="start-josm">
-<h2><a class="toc-backref" href="#id1" role="doc-backlink">Start JOSM</a><a class="headerlink" href="#start-josm" title="Lien permanent vers cette rubrique">¶</a></h2>
-<p>From the desktop, choose <span class="menuselection">Navigation and Maps ‣ JOSM</span>. When JOSM starts, it will look something like this:</p>
+<h2><a class="toc-backref" href="#id1" role="doc-backlink">Démarrer JOSM</a><a class="headerlink" href="#start-josm" title="Lien permanent vers cette rubrique">¶</a></h2>
+<p>Sur le bureau, choisissez <span class="menuselection">Navigation et cartes ‣ JOSM</span>. Lorsque JOSM démarre, il ressemblera à ceci:</p>
 <img alt="JOSM splash page" src="../../_images/josm-splash-page.png" />
 </section>
 <section id="load-a-sample-ficticious-map">
-<h2><a class="toc-backref" href="#id2" role="doc-backlink">Load a sample (ficticious) map</a><a class="headerlink" href="#load-a-sample-ficticious-map" title="Lien permanent vers cette rubrique">¶</a></h2>
+<h2><a class="toc-backref" href="#id2" role="doc-backlink">Charger un exemple de carte (fictive)</a><a class="headerlink" href="#load-a-sample-ficticious-map" title="Lien permanent vers cette rubrique">¶</a></h2>
 <ol class="arabic">
-<li><p>Now let’s open up a sample OSM file which we will use to learn the
-basic ways to draw maps with JOSM. Note that this map is not real, in
-that it is not a real map of a real place, so we will not save it on
-OpenStreetMap.</p></li>
-<li><p>Download the file here: <a class="reference external" href="https://learnosm.org/files/sample.osm">sample.osm</a></p></li>
-<li><p>Now let’s open the sample map file in JOSM. Click the “Open” button
-in the upper left.</p>
+<li><p>Ouvrons maintenant un exemple de fichier OSM que nous utiliserons pour apprendre les méthodes de base pour dessiner des cartes avec JOSM. Notez que cette carte n’est pas réelle, en ce qu’elle n’est pas une vraie carte d’un lieu réel, nous ne l’enregistrerons donc pas sur OpenStreetMap.</p></li>
+<li><p>Téléchargez le fichier ici : <a class="reference external" href="https://learnosm.org/files/sample.osm">sample.osm</a></p></li>
+<li><p>Ouvrons maintenant l’exemple de fichier de carte dans JOSM. Cliquez sur le bouton « Ouvrir » en haut à gauche.</p>
 <img alt="Open file" src="../../_images/josm_open-file.png" />
 </li>
-<li><p>Find the file <strong>sample.osm</strong>. It is probably in your Downloads
-folder, unless you saved it somewhere else.</p></li>
-<li><p>Click on it, and then click “Open”. You should now see a sample map that looks like this:</p>
+<li><p>Recherchez le fichier <strong>sample.osm</strong>. Il se trouve probablement dans votre dossier Téléchargements, à moins que vous ne l’ayez enregistré ailleurs.</p></li>
+<li><p>Cliquez dessus, puis cliquez sur « Ouvrir ». Vous devriez maintenant voir un exemple de carte qui ressemble à ceci :</p>
 <img alt="Sample file" src="../../_images/josm_sample-file.png" />
 </li>
 </ol>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>You will use these data in order to try various editing techniques.
-<em>You must however never upload these fictitious data to the
-database.</em></p>
+<p>Vous utiliserez ces données afin d’essayer diverses techniques d’édition. <em>Vous ne devez cependant jamais télécharger ces données fictives dans la base de données.</em></p>
 </div>
 </section>
 <section id="navigate-the-map">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink">Navigate the map</a><a class="headerlink" href="#navigate-the-map" title="Lien permanent vers cette rubrique">¶</a></h2>
+<h2><a class="toc-backref" href="#id3" role="doc-backlink">Naviguez dans la carte</a><a class="headerlink" href="#navigate-the-map" title="Lien permanent vers cette rubrique">¶</a></h2>
 <ul>
-<li><p>To move the map left or right, up or down, hold your right mouse
-button down, and move your mouse.</p></li>
-<li><p>There are several ways to zoom in and out of the map. If you have a
-mouse, you can use your scroll wheel to zoom in and out. If you are
-using a laptop and don’t have a mouse, you can zoom in and out using
-the scale bar in the upper left of the map window. Drag the bar left
-and right by holding your left mouse down and moving the bar left or
-right with your mouse.</p>
+<li><p>Pour déplacer la carte vers la gauche ou la droite, vers le haut ou vers le bas, maintenez le bouton droit de la souris enfoncé et déplacez votre souris.</p></li>
+<li><p>Il existe plusieurs façons d’effectuer un zoom avant et arrière sur la carte. Si vous avez une souris, vous pouvez utiliser votre molette pour effectuer un zoom avant et arrière. Si vous utilisez un ordinateur portable et que vous n’avez pas de souris, vous pouvez effectuer un zoom avant et arrière à l’aide de la barre d’échelle en haut à gauche de la fenêtre de la carte. Faites glisser la barre vers la gauche et la droite en maintenant votre souris gauche enfoncée et en déplaçant la barre vers la gauche ou la droite avec votre souris.</p>
 <img alt="Scale bar" src="../../_images/josm_scale-bar.png" />
 </li>
 <li><p>Look at the sample map. There a few different types of objects here.
@@ -260,7 +247,7 @@ corner of that window. Alternatively you can choose delete from the
 context menu of the layer.</p>
 </section>
 <section id="what-next">
-<h2><a class="toc-backref" href="#id10" role="doc-backlink">What next?</a><a class="headerlink" href="#what-next" title="Lien permanent vers cette rubrique">¶</a></h2>
+<h2><a class="toc-backref" href="#id10" role="doc-backlink">Ensuite ?</a><a class="headerlink" href="#what-next" title="Lien permanent vers cette rubrique">¶</a></h2>
 <ul class="simple">
 <li><p>Try the LearnOSM documentation, from which this quickstart was derived:
 <a class="reference external" href="https://learnosm.org/en/josm/start-josm/">https://learnosm.org/en/josm/start-josm/</a></p></li>

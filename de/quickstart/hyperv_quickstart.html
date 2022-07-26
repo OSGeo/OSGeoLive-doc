@@ -71,7 +71,7 @@ cannot be run simultaneously. This leaves 2 options - disabling the Hyper-V feat
 A free tool <a class="reference external" href="https://unclassified.software/en/apps/hypervswitch">hypervswitch</a> can be used to quickly enable and disable Hyper-V - however it still
 requires a reboot each time the setting is changed. The rest of this page documents how to configure OSGeoLive to run on Hyper-V.</p>
 <section id="system-requirements">
-<h2>System Requirements<a class="headerlink" href="#system-requirements" title="Permalink to this heading">¶</a></h2>
+<h2>Systemvoraussetzungen<a class="headerlink" href="#system-requirements" title="Permalink to this heading">¶</a></h2>
 <p>Hyper-V requirements can be found <a class="reference external" href="https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/reference/hyper-v-requirements">here</a>.
 This link also provides information on checking if your machine is compatible using the <code class="docutils literal notranslate"><span class="pre">systeminfo</span></code> command. In summary the host machine
 needs to have the following hardware requirements:</p>
@@ -134,7 +134,7 @@ ConvertTo-MvmcVirtualHardDisk -SourceLiteralPath .\osgeo-live-11.0-vm.vmdk -VhdF
 <h2>How-To<a class="headerlink" href="#how-to" title="Permalink to this heading">¶</a></h2>
 <p>This guide assumes Hyper-V is already installed and enabled - if this is not the case the more typical approach using
 Virtual Box outlined at <a class="reference internal" href="virtualization_quickstart.html"><span class="doc">Ausführen einer virtuellen Maschine</span></a> can be used.</p>
-<p><strong>Create a Virtual Machine</strong></p>
+<p><strong>Erzeugen einer Virtuellen Maschine</strong></p>
 <ol class="arabic">
 <li><p>Start the Hyper-V Manager application and under Actions select New &gt; Virtual Machine, and then Next. Then enter an appropriate
 name for the virtual machine.</p>
@@ -150,19 +150,19 @@ name for the virtual machine.</p>
 <blockquote>
 <div><img alt="../../_images/osgeolive_hyperv_install2_harddisk.png" src="../../_images/osgeolive_hyperv_install2_harddisk.png" />
 </div></blockquote>
-<p><strong>Running the Virtual Machine</strong></p>
+<p><strong>Start der Virtuellen Maschine</strong></p>
 <ol class="arabic simple">
 <li><p>Select the virtual machine from the Virtual Machines list</p></li>
 <li><p>Right-click and select „Connect“. You will be prompted to start the machine, and a new „Virtual Machine Connection“ window will open.</p></li>
 </ol>
 </section>
 <section id="see-also">
-<h2>See Also:<a class="headerlink" href="#see-also" title="Permalink to this heading">¶</a></h2>
+<h2>Siehe auch:<a class="headerlink" href="#see-also" title="Permalink to this heading">¶</a></h2>
 <blockquote>
 <div><ul class="simple">
 <li><p><a class="reference internal" href="virtualization_quickstart.html"><span class="doc">Ausführen einer virtuellen Maschine</span></a>.</p></li>
 <li><dl class="simple">
-<dt>OSGeo wiki pages:</dt><dd><p><a class="reference external" href="https://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine">Other ways to create a Virtual Machine</a></p>
+<dt>OSGeo Wiki:</dt><dd><p><a class="reference external" href="https://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine">Andere Möglichkeiten, um eine Virtuelle Maschine zu erzeugen</a></p>
 </dd>
 </dl>
 </li>

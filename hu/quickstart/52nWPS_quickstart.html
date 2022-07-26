@@ -82,7 +82,7 @@
 <p>52°North WPS futtatásához a Live DVD-n menjen a  <span class="menuselection">Geospatial ‣ Web Services ‣ 52North ‣ Start 52North WPS</span>-hez vagy használja <a class="reference external" href="http://localhost:8080/52nWPS/">közvetlen linket</a>.</p>
 <p>A 52n WPS üdvözlő kép jelenik meg,</p>
 <blockquote>
-<div><a class="reference internal image-reference" href="../../_images/52nWPS_screenshot.png"><img alt="screenshot" src="../../_images/52nWPS_screenshot.png" style="width: 560.0px; height: 420.0px;" /></a>
+<div><a class="reference internal image-reference" href="../../_images/52nWPS_screenshot.png"><img alt="képernyőkép" src="../../_images/52nWPS_screenshot.png" style="width: 560.0px; height: 420.0px;" /></a>
 </div></blockquote>
 <p>Ha a szolgáltatás nem érhető el próbálja meg elindítani a Tomcat servlet motort a <a class="reference internal" href="52nSOS_quickstart.html"><span class="doc">SOS gyorstalpaló oldal</span></a> alján található lépéseket követve.</p>
 </section>
@@ -97,18 +97,18 @@
 <h2><a class="toc-backref" href="#id3" role="doc-backlink">Adatfeldolgozás</a><a class="headerlink" href="#process-data" title="Permalink to this heading">¶</a></h2>
 <ol class="arabic">
 <li><p>Kattintson a linkre az 52nWPS-TestClient megnyitásához.</p>
-<a class="reference internal image-reference" href="../../_images/52nWPS_welcome_page_2.png"><img alt="screenshot" src="../../_images/52nWPS_welcome_page_2.png" style="width: 560.0px; height: 420.0px;" /></a>
+<a class="reference internal image-reference" href="../../_images/52nWPS_welcome_page_2.png"><img alt="képernyőkép" src="../../_images/52nWPS_welcome_page_2.png" style="width: 560.0px; height: 420.0px;" /></a>
 </li>
 <li><p>Győződjön meg, hogí a <a class="reference internal" href="../overview/geoserver_overview.html"><span class="doc">GeoServer</span></a> fut, mivel a bemutatónak a helyi GeoServer telepítés adataira van szüksége.</p></li>
 <li><p>Ehhez próbálja megnyitni a <a class="reference external" href="http://localhost:8082/geoserver/web">http://localhost:8082/geoserver/web</a> oldalt. Ha az oldal nem található válassza a <span class="menuselection">Geospatial ‣ Web Services ‣ GeoServer ‣ Start GeoServer</span>-t a menüből. A GeoServer-nek futnia kell néhány pillanat múlva.</p></li>
 <li><p>Válassza a „SimpleBuffer_out_wfs.xml” kérést a legördülő listából:</p>
-<a class="reference internal image-reference" href="../../_images/52nWPS_test_client.png"><img alt="screenshot" src="../../_images/52nWPS_test_client.png" style="width: 560.0px; height: 420.0px;" /></a>
+<a class="reference internal image-reference" href="../../_images/52nWPS_test_client.png"><img alt="képernyőkép" src="../../_images/52nWPS_test_client.png" style="width: 560.0px; height: 420.0px;" /></a>
 </li>
 <li><p>Nyomja meg a Send gombot és a kérést elküldi a 2°North WPS-nek, mely egy 0.05 fokos övezetet generál Tasmania főútjai körül és az eredményt a GeoServe-ben tárolja.</p>
-<a class="reference internal image-reference" href="../../_images/52nWPS_output_stored_in_wfs.png"><img alt="screenshot" src="../../_images/52nWPS_output_stored_in_wfs.png" style="width: 560.0px; height: 420.0px;" /></a>
+<a class="reference internal image-reference" href="../../_images/52nWPS_output_stored_in_wfs.png"><img alt="képernyőkép" src="../../_images/52nWPS_output_stored_in_wfs.png" style="width: 560.0px; height: 420.0px;" /></a>
 </li>
 <li><p>Másolja le a ResourceID-t a válaszból. Ez a GeoServer réteg neve. Adja hozzá az ID-t a következő kéréshez: <a class="reference external" href="http://localhost:8082/geoserver/wms?service=WMS&amp;version=1.1.0&amp;request=GetMap&amp;styles=&amp;bbox=145.14757902405984,-43.47330297262748,148.32274986232298,-40.80286290459129&amp;width=512&amp;height=430&amp;srs=EPSG:4326&amp;format=application">http://localhost:8082/geoserver/wms?service=WMS&amp;version=1.1.0&amp;request=GetMap&amp;styles=&amp;bbox=145.14757902405984,-43.47330297262748,148.32274986232298,-40.80286290459129&amp;width=512&amp;height=430&amp;srs=EPSG:4326&amp;format=application</a>/openlayers&amp;layers=ide_írj_az_ID-t. A következő eredményt kell kapnia:</p>
-<a class="reference internal image-reference" href="../../_images/52nWPS_result_in_geoserver.png"><img alt="screenshot" src="../../_images/52nWPS_result_in_geoserver.png" style="width: 560.0px; height: 420.0px;" /></a>
+<a class="reference internal image-reference" href="../../_images/52nWPS_result_in_geoserver.png"><img alt="képernyőkép" src="../../_images/52nWPS_result_in_geoserver.png" style="width: 560.0px; height: 420.0px;" /></a>
 </li>
 </ol>
 </section>

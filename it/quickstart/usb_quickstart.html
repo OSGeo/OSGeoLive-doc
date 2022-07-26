@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
-    <title>Creating an OSGeoLive Bootable USB flash drive &#8212; OSGeoLive 15.0 Documentation</title>
+    <title>Creare un OSGeoLive dispositivo USB avviabile &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
@@ -20,8 +20,8 @@
     <link rel="index" title="Indice" href="../genindex.html" />
     <link rel="search" title="Cerca" href="../search.html" />
     <link rel="copyright" title="Copyright" href="../copyright.html" />
-    <link rel="next" title="Running in a Hyper-V Virtual Machine" href="hyperv_quickstart.html" />
-    <link rel="prev" title="Running in a Virtual Machine" href="virtualization_quickstart.html" />
+    <link rel="next" title="Esecuzione in una Macchina Virtuale Hyper-V" href="hyperv_quickstart.html" />
+    <link rel="prev" title="Esecuzione in una Macchina Virtuale" href="virtualization_quickstart.html" />
 	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
 
 
@@ -63,92 +63,92 @@
           <div class="body" role="main">
             
   <section id="creating-an-osgeolive-bootable-usb-flash-drive">
-<h1>Creating an OSGeoLive Bootable USB flash drive<a class="headerlink" href="#creating-an-osgeolive-bootable-usb-flash-drive" title="Permalink to this heading">¶</a></h1>
-<p>This quickstart describes the preferred method for creating a Bootable OSGeoLive USB flash drive. Booting from a flash drive is faster than from a DVD, and the USB drive can be configured to store data between sessions (called persistence).</p>
-<p>We have found that there are a number of quirks and tricks involved in successfully building a USB drive. We have documented what we know, but there are likely more tricks and issues. Look for latest tips here: <a class="reference external" href="https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB">https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB</a></p>
+<h1>Creare un OSGeoLive dispositivo USB avviabile<a class="headerlink" href="#creating-an-osgeolive-bootable-usb-flash-drive" title="Permalink to this heading">¶</a></h1>
+<p>Questa guida rapida descrive il metodo migliore per creare un dispositivo OSGeoLive USB avviabile. Avviare da una dispositivo flash è più veloce di un DVD, e il dispositivo USB può essere configurato per immagazzinare dati tra le sessioni (denominato persistente).</p>
+<p>Sono stati trovati una serie di stranezze e trucchi al fine di creare con successo un dispositivo USB. È stato documentato quello che si conosce, ma ci sono più trucchi e problemi. Si controlli gli ultimi suggerimenti qui: <a class="reference external" href="https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB">https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB</a></p>
 <section id="requirements">
-<h2>Requirements<a class="headerlink" href="#requirements" title="Permalink to this heading">¶</a></h2>
+<h2>Requisiti<a class="headerlink" href="#requirements" title="Permalink to this heading">¶</a></h2>
 <ul class="simple">
-<li><p>A USB flash drive (8+ Gig is recommended).</p></li>
-<li><p>An OSGeoLive ISO image (downloaded from: <a class="reference internal" href="../download.html"><span class="doc">OSGeoLive downloads</span></a>) or converted from a DVD.</p></li>
+<li><p>Un dispositivo USB (Raccomandati 8+ GB)</p></li>
+<li><p>Un’immagine ISO di OSGeoLive (scaricata da: <a class="reference internal" href="../download.html"><span class="doc">OSGeoLive downloads</span></a>) o convertita da un DVD.</p></li>
 </ul>
 </section>
 <section id="creating-bootable-usb-drive-with-dd-under-linux">
-<h2>Creating bootable USB drive with <code class="docutils literal notranslate"><span class="pre">dd</span></code> under Linux<a class="headerlink" href="#creating-bootable-usb-drive-with-dd-under-linux" title="Permalink to this heading">¶</a></h2>
-<p>ISO images for OSGeoLive 10.5 and later are <em>isohybrid</em> (and for amd64, also support UEFI boot). Under Linux, these images can be written directly to the block device for a USB drive with the <code class="docutils literal notranslate"><span class="pre">dd</span></code> command-line utility:</p>
+<h2>Creare un dispositivo USB avviabile con <code class="docutils literal notranslate"><span class="pre">dd</span></code> sotto Linux<a class="headerlink" href="#creating-bootable-usb-drive-with-dd-under-linux" title="Permalink to this heading">¶</a></h2>
+<p>Le immagini ISO per OSGeoLive 10.5 e successive sono <em>isohybrid</em> (e per amd64, supportano anche l’avvio UEFI). Sotto Linux, queste immagini possono essere scritte direttamente nel block device per un dispositivo USB con lo strumento da linea di comando <code class="docutils literal notranslate"><span class="pre">dd</span></code>:</p>
 <div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">sudo dd if=osgeolive-10.5-amd64.iso of=/dev/sdX bs=4M; sync</span>
 </pre></div>
 </div>
 <ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">/dev/sdX</span></code> is the block device for the USB drive, where <code class="docutils literal notranslate"><span class="pre">X</span></code> might be <code class="docutils literal notranslate"><span class="pre">b</span></code> or <code class="docutils literal notranslate"><span class="pre">c</span></code>.</p></li>
-<li><p>Use <code class="docutils literal notranslate"><span class="pre">lsblk</span></code> to list block devices and <code class="docutils literal notranslate"><span class="pre">dmesg</span></code> to see kernel messages identifying the USB drive when it is connected.</p></li>
-<li><p>The USB drive should not be mounted.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">sudo</span></code> is not required if the command is run as <code class="docutils literal notranslate"><span class="pre">root</span></code>.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">/dev/sdX</span></code> è il block device per il dispositivo USB, dove <code class="docutils literal notranslate"><span class="pre">X</span></code> potrebbe essere <code class="docutils literal notranslate"><span class="pre">b</span></code> o <code class="docutils literal notranslate"><span class="pre">c</span></code>.</p></li>
+<li><p>Usare <code class="docutils literal notranslate"><span class="pre">lsblk</span></code> to mostrare i block devices e <code class="docutils literal notranslate"><span class="pre">dmesg</span></code> per vedere i messaggi del kernel per identificare il dispositivo USB quando è connesso.</p></li>
+<li><p>Il dispositivo USB non dev’essere montato.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">sudo</span></code> non è richiesto se il comando è eseguito da <code class="docutils literal notranslate"><span class="pre">root</span></code>.</p></li>
 </ul>
 <div class="admonition warning">
 <p class="admonition-title">Avvertimento</p>
-<p>Be certain to select the correct block device as <code class="docutils literal notranslate"><span class="pre">dd</span></code> will overwrite it without question, even if it is your primary system drive.</p>
+<p>Essere sicuri il corretto block device siccome <code class="docutils literal notranslate"><span class="pre">dd</span></code> lo sovrascriverrà senza domande, anche se è il vostro dispositivo primario con sistema operativo.</p>
 </div>
 </section>
 <section id="creating-bootable-usb-drive-with-ubuntu-startup-disk-creator">
-<h2>Creating bootable USB drive with Ubuntu Startup Disk Creator<a class="headerlink" href="#creating-bootable-usb-drive-with-ubuntu-startup-disk-creator" title="Permalink to this heading">¶</a></h2>
-<p>(This is the recommended process for creating a USB. It is applicable to Ubuntu and Ubuntu variants such as OSGeoLive.)</p>
+<h2>Creare un dispositivo USB avviabile con Ubuntu Startup Disk Creator<a class="headerlink" href="#creating-bootable-usb-drive-with-ubuntu-startup-disk-creator" title="Permalink to this heading">¶</a></h2>
+<p>(Questo è il processo raccomandato per creare un USB. È disponibile per Ubuntu e le derivate di Ubuntu così come OSGeoLive.)</p>
 <div class="admonition note">
 <p class="admonition-title">Nota</p>
-<p>The version of Ubuntu you are running, needs to be the same or newer than the version of Lubuntu being installed onto your USB.  If installing OSGeoLive 8.0 onto a USB, then you will need to be running Ubuntu 14.04 or newer.</p>
+<p>La versione di Ubuntu che si sta eseguendo deve essere la stessa o più recente della versione di Lubuntu installata sulla USB. Se si installa OSGeoLive 8.0 su una USB, è necessario eseguire Ubuntu 14.04 o più recente.</p>
 </div>
-<p><a class="reference internal" href="../download.html"><span class="doc">Download</span></a> osgeolive or osgeolive-mini to your computer’s hard drive.</p>
-<p>Boot your computer into a recent Ubuntu/Xbuntu distribution. You can do this by running from an OSGeoLive DVD, as explained in <a class="reference internal" href="osgeolive_quickstart.html"><span class="doc">Getting started with OSGeoLive</span></a>.</p>
-<p>Insert the USB flash drive into your computer.</p>
+<p><a class="reference internal" href="../download.html"><span class="doc">Scarica</span></a> osgeo-live o osgeo-live-mini nel disco rigido del tuo computer.</p>
+<p>Avviare il computer in una recente distribuzione Ubuntu/Xbuntu. Puoi farlo eseguendo da un DVD di OSGeoLive, come spiegato in <a class="reference internal" href="osgeolive_quickstart.html"><span class="doc">Cominciare con OSGeoLive</span></a>.</p>
+<p>Inserisci la chiavetta USB nel computer.</p>
 <blockquote>
 <div><a class="reference internal image-reference" href="../../_images/usb_select.png"><img alt="../../_images/usb_select.png" src="../../_images/usb_select.png" style="width: 305.2px; height: 294.0px;" /></a>
 </div></blockquote>
-<p>Select <span class="menuselection">System Tools ‣ Startup Disk Creator</span>, or search for <cite>Startup Disk Creator</cite> from the Unity desktop.</p>
+<p>Seleziona <span class="menuselection">System Tools ‣ Startup Disk Creator</span>, o cerca <cite>Startup Disk Creator</cite> dal desktop di Unity.</p>
 <blockquote>
 <div><a class="reference internal image-reference" href="../../_images/usb_set_params.png"><img alt="../../_images/usb_set_params.png" src="../../_images/usb_set_params.png" style="width: 333.2px; height: 375.2px;" /></a>
 </div></blockquote>
-<p>Select the osgeolive or osgeolive-mini ISO Image that you downloaded earlier.</p>
-<p>Select the USB flash drive. If you have extra room you might adjust the slider to create persistent storage space on the USB drive (recommended). In order for this option to be available you will need an 8+ GB USB flash drive.</p>
-<p>Select <span class="guilabel">Make Startup Disk</span></p>
+<p>Seleziona l’immagine ISO di osgeolive o osgeolive-mini che hai scaricato in precedenza.</p>
+<p>Seleziona l’unità flash USB. Se hai dello spazio in più potresti regolare il cursore per creare uno spazio di archiviazione persistente sulla chiavetta USB (consigliato). Affinché questa opzione sia disponibile, avrai bisogno di una chiavetta USB da 8 o più GB.</p>
+<p>Seleziona <span class="guilabel">Make Startup Disk</span></p>
 <blockquote>
 <div><a class="reference internal image-reference" href="../../_images/usb_installing.png"><img alt="../../_images/usb_installing.png" src="../../_images/usb_installing.png" style="width: 302.4px; height: 100.8px;" /></a>
 </div></blockquote>
-<p>Wait 20 minutes or so for the USB flash drive to be created.</p>
+<p>Attendi circa 20 minuti per la creazione della chiavetta USB.</p>
 </section>
 <section id="booting-from-the-usb-drive">
-<h2>Booting from the USB drive:<a class="headerlink" href="#booting-from-the-usb-drive" title="Permalink to this heading">¶</a></h2>
+<h2>Avvio dal drive USB:<a class="headerlink" href="#booting-from-the-usb-drive" title="Permalink to this heading">¶</a></h2>
 <ol class="arabic simple">
-<li><p>Start with the computer off.</p></li>
-<li><p>Insert the USB drive into an open USB port.</p></li>
-<li><p>Power on the Machine and select to boot from USB:</p>
+<li><p>Inizia con il computer spento.</p></li>
+<li><p>Inserisci il drive USB in una porta USB aperta.</p></li>
+<li><p>Accendi la macchina e seleziona l’avvio da USB:</p>
 <ul class="simple">
-<li><p>Most computers are not set to boot from a USB drive by default.</p></li>
-<li><p>When booting, look for a message indicating a Boot Menu (most commonly you press F12)</p></li>
-<li><p>If your computer does not have a boot menu, then boot into your system BIOS. The button to enter BIOS varies by brand and model of computer. If you can’t figure out yours try this website that lists many BIOS hotkeys. <a class="reference external" href="https://www.mydigitallife.net/comprehensive-list-of-how-key-to-press-to-access-bios-for-various-oem-and-computer-systems/">https://www.mydigitallife.net/comprehensive-list-of-how-key-to-press-to-access-bios-for-various-oem-and-computer-systems/</a></p></li>
+<li><p>La maggior parte dei computer non è impostata di default per l’avvio da un drive USB.</p></li>
+<li><p>All’avvio, cerca un messaggio che indichi un Boot Menu (più comunemente si preme F12)</p></li>
+<li><p>Se il tuo computer non ha un menu di avvio, allora entra nel BIOS del sistema. Il pulsante per entrare nel BIOS varia a seconda della marca e del modello di computer. Se non riesci a capire il tuo, prova questo sito web che elenca molti tasti di scelta rapida del BIOS. <a class="reference external" href="https://www.mydigitallife.net/comprehensive-list-of-how-key-to-press-to-access-bios-for-various-oem-and-computer-systems/">https://www.mydigitallife.net/comprehensive-list-of-how-key-to-press-to-access-bios-for-various-oem-and-computer-systems/</a></p></li>
 </ul>
 </li>
-<li><p>Select to boot from the USB device.</p>
+<li><p>Selezionare per l’avvio dal dispositivo USB.</p>
 <ul class="simple">
-<li><p>Note, that for some computers you will need to have the USB drive inserted into the computer in order to select it.</p></li>
-<li><p>Note also, the USB drive is often listed under hard drives rather than removable devices.</p></li>
-<li><p>This <a class="reference external" href="https://www.youtube.com/watch?v=eQBdVO-n6Mg">Video</a> demonstrates booting from USB.</p></li>
+<li><p>Nota che per alcuni computer è necessario che il drive USB sia inserito nel computer per poterlo selezionare.</p></li>
+<li><p>Nota anche che il drive USB è spesso elencato sotto i dischi rigidi piuttosto che sotto i dispositivi rimovibili.</p></li>
+<li><p>Questo <a class="reference external" href="https://www.youtube.com/watch?v=eQBdVO-n6Mg">video</a> mostra come avviare da USB.</p></li>
 </ul>
 </li>
 </ol>
 </section>
 <section id="run">
-<h2>Run:<a class="headerlink" href="#run" title="Permalink to this heading">¶</a></h2>
-<p>Run as per: <a class="reference internal" href="osgeolive_quickstart.html"><span class="doc">Getting started with OSGeoLive</span></a></p>
+<h2>Eseguire:<a class="headerlink" href="#run" title="Permalink to this heading">¶</a></h2>
+<p>Eseguire secondo: <a class="reference internal" href="osgeolive_quickstart.html"><span class="doc">Cominciare con OSGeoLive</span></a></p>
 </section>
 <section id="see-also">
-<h2>See Also:<a class="headerlink" href="#see-also" title="Permalink to this heading">¶</a></h2>
+<h2>Vedere anche:<a class="headerlink" href="#see-also" title="Permalink to this heading">¶</a></h2>
 <blockquote>
 <div><ul class="simple">
-<li><p><a class="reference internal" href="osgeolive_quickstart.html"><span class="doc">Getting started with OSGeoLive</span></a></p></li>
-<li><p><a class="reference internal" href="virtualization_quickstart.html"><span class="doc">Running in a Virtual Machine</span></a></p></li>
-<li><p><a class="reference internal" href="osgeolive_install_quickstart.html"><span class="doc">Install OSGeoLive to Hard Disk</span></a></p></li>
-<li><p>Alternative USB creation methods and latest tips are collected here: <a class="reference external" href="https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB">wiki</a></p></li>
-<li><p>Questions can be directed to our email list: <a class="reference external" href="https://lists.osgeo.org/pipermail/osgeolive/">https://lists.osgeo.org/pipermail/osgeolive/</a></p></li>
+<li><p><a class="reference internal" href="osgeolive_quickstart.html"><span class="doc">Cominciare con OSGeoLive</span></a></p></li>
+<li><p><a class="reference internal" href="virtualization_quickstart.html"><span class="doc">Esecuzione in una Macchina Virtuale</span></a></p></li>
+<li><p><a class="reference internal" href="osgeolive_install_quickstart.html"><span class="doc">Installa OSGeoLive nel disco rigido</span></a></p></li>
+<li><p>Altri metodi per la creazione di USB e gli ultimi suggerimenti sono raccolti qui: <a class="reference external" href="https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB">wiki</a></p></li>
+<li><p>Domande possono essere fatte nella nostra mailing list: <a class="reference external" href="https://lists.osgeo.org/pipermail/osgeolive/">https://lists.osgeo.org/pipermail/osgeolive/</a></p></li>
 </ul>
 </div></blockquote>
 </section>

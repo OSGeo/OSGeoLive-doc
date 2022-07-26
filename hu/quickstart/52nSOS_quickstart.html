@@ -90,13 +90,13 @@
 </ol>
 <dl>
 <dt>Ez megnyitja az 52°North SOS kliens üdvözlő oldalát a firefoxban itt:</dt><dd><p><a class="reference external" href="http://localhost:8080/52nSOS/">http://localhost:8080/52nSOS/</a> (lásd 1. ábra).</p>
-<a class="reference internal image-reference" href="../../_images/52n_sos_start.png"><img alt="52°North SOS client welcome page" class="align-center" src="../../_images/52n_sos_start.png" style="width: 716.8px; height: 537.5999999999999px;" /></a>
+<a class="reference internal image-reference" href="../../_images/52n_sos_start.png"><img alt="52°North SOS kliens üdvözlő oldal" class="align-center" src="../../_images/52n_sos_start.png" style="width: 716.8px; height: 537.5999999999999px;" /></a>
 <p><strong>1. ábra</strong>: 52°North SOS kliens - üdvözlő oldal.</p>
 </dd>
 </dl>
 <ol class="arabic" start="2">
 <li><p>Kattintson a <span class="guilabel">Client</span>-re a felső menüsorban. Amint megismerte  az <a class="reference external" href="http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&amp;SERVICE=SOS&amp;ACCEPTVERSIONS=2.0.0">SOS szerver képességeit</a>, (lásd 2. ábra), megfelelő lekérdezéseket készíthet. A képességek dokumentumból származó információk felhasználásával módosíthatja a elérhető példa lekérdezéseket.</p>
-<a class="reference internal image-reference" href="../../_images/52n_sos_get_capabilities.png"><img alt="52°North SOS client - test client with GetCapabilities request" class="align-center" src="../../_images/52n_sos_get_capabilities.png" style="width: 717.5px; height: 537.5999999999999px;" /></a>
+<a class="reference internal image-reference" href="../../_images/52n_sos_get_capabilities.png"><img alt="52°North SOS kliens - kliens test a GetCapabilities kéréssel." class="align-center" src="../../_images/52n_sos_get_capabilities.png" style="width: 717.5px; height: 537.5999999999999px;" /></a>
 <p><strong>2. ábra</strong>: 52°North SOS kliens - kliens test a GetCapabilities kéréssel.</p>
 </li>
 <li><p>Az elérhető mérési adatok beszerzéséhez minden idősorhoz a 2018-07-02T23:45:00.000+00:00 - 2018-07-04T23:45:00.000+00:00 intervallumban, írja be a következő kérést a <span class="menuselection">**service** SOS ‣ **version** 2.0.0 ‣ **binding** SOAP ‣ **operation** GetObservation</span> kiválasztása után a <a class="reference external" href="http://localhost:8080/52nSOS/client">teszt kliens</a> kérés mezőjében:</p></li>
@@ -147,7 +147,7 @@
 </ol>
 </li>
 </ul>
-<a class="reference internal image-reference" href="../../_images/52n_sos_viewclient.png"><img alt="52°North SOS client - JavaScript client with time series data" class="align-center" src="../../_images/52n_sos_viewclient.png" style="width: 716.8px; height: 508.9px;" /></a>
+<a class="reference internal image-reference" href="../../_images/52n_sos_viewclient.png"><img alt="52°North SOS kliens - JavaScript kliens idősoros adatokkal" class="align-center" src="../../_images/52n_sos_viewclient.png" style="width: 716.8px; height: 508.9px;" /></a>
 <p><strong>3. ábra</strong> 52°North SOS kliens - JavaScript kliens idősoros adatokkal.</p>
 <ul class="simple">
 <li><p>Próbálja ki a <a class="reference external" href="http://localhost:8080/52nSOS/api/">Sensor Web REST API-t</a> (lásd a 2. listát):</p></li>

@@ -82,7 +82,7 @@
 <p>Pour lancer 52°North WPS dans le Live DVD, àllez à <span class="menuselection">Geospatial ‣ Web Services ‣ 52North ‣ Start 52North WPS</span> ou utilisez le <a class="reference external" href="http://localhost:8080/52nWPS/">lien direct</a>.</p>
 <p>La page d’accueil de52n WPS va apparaître.</p>
 <blockquote>
-<div><a class="reference internal image-reference" href="../../_images/52nWPS_screenshot.png"><img alt="screenshot" src="../../_images/52nWPS_screenshot.png" style="width: 560.0px; height: 420.0px;" /></a>
+<div><a class="reference internal image-reference" href="../../_images/52nWPS_screenshot.png"><img alt="capture d'écran" src="../../_images/52nWPS_screenshot.png" style="width: 560.0px; height: 420.0px;" /></a>
 </div></blockquote>
 <p>(Si le service web n’est pas atteignable, essayez de démarrer l’engin de miniserveur Tomcat  en suivant les étapes à la fin de fin du <a class="reference internal" href="52nSOS_quickstart.html"><span class="doc">gui de démarrage rapide SOS</span></a>.)</p>
 </section>
@@ -97,18 +97,18 @@
 <h2><a class="toc-backref" href="#id3" role="doc-backlink">Traiter les données</a><a class="headerlink" href="#process-data" title="Lien permanent vers cette rubrique">¶</a></h2>
 <ol class="arabic">
 <li><p>Cliquer sur le lien pour ouvrir le client de test de 52nWPS.</p>
-<a class="reference internal image-reference" href="../../_images/52nWPS_welcome_page_2.png"><img alt="screenshot" src="../../_images/52nWPS_welcome_page_2.png" style="width: 560.0px; height: 420.0px;" /></a>
+<a class="reference internal image-reference" href="../../_images/52nWPS_welcome_page_2.png"><img alt="capture d'écran" src="../../_images/52nWPS_welcome_page_2.png" style="width: 560.0px; height: 420.0px;" /></a>
 </li>
 <li><p>Assurez-vous que <a class="reference internal" href="../overview/geoserver_overview.html"><span class="doc">GeoServer</span></a> est lancé puisque que la démonstration requiert des données depuis l’installation locale de GeoServer.</p></li>
 <li><p>Pour cela, essayer d’ouvrir la page <a class="reference external" href="http://localhost:8082/geoserver/web">http://localhost:8082/geoserver/web</a>. Si la page n’est pas accessible, sélectionner <span class="menuselection">Geospatial ‣ Web Services ‣ GeoServer ‣ Start GeoServer</span> dans le menu. GeoServer devrait être fonctionnel après quelques instants.</p></li>
 <li><p>Sélectionner la requête d’exemple « SimpleBuffer_out_wfs.xml » dans la liste déroulante:</p>
-<a class="reference internal image-reference" href="../../_images/52nWPS_test_client.png"><img alt="screenshot" src="../../_images/52nWPS_test_client.png" style="width: 560.0px; height: 420.0px;" /></a>
+<a class="reference internal image-reference" href="../../_images/52nWPS_test_client.png"><img alt="capture d'écran" src="../../_images/52nWPS_test_client.png" style="width: 560.0px; height: 420.0px;" /></a>
 </li>
 <li><p>Pousser le bouton <cite>Send</cite> et la requête sera transmise à 52°North WPS ce qui générera un tampon autour des routes principales de Tasmanie avec une largeur de 0.05 degrés et stockera le résultat dans GeoServer.</p>
-<a class="reference internal image-reference" href="../../_images/52nWPS_output_stored_in_wfs.png"><img alt="screenshot" src="../../_images/52nWPS_output_stored_in_wfs.png" style="width: 560.0px; height: 420.0px;" /></a>
+<a class="reference internal image-reference" href="../../_images/52nWPS_output_stored_in_wfs.png"><img alt="capture d'écran" src="../../_images/52nWPS_output_stored_in_wfs.png" style="width: 560.0px; height: 420.0px;" /></a>
 </li>
 <li><p>Copier le ResourceID de la réponse. C’est le nom de la couche dans GeoServer. Ajouter l’identifiant (ID) à la requête suivante: <a class="reference external" href="http://localhost:8082/geoserver/wms?service=WMS&amp;version=1.1.0&amp;request=GetMap&amp;styles=&amp;bbox=145.14757902405984,-43.47330297262748,148.32274986232298,-40.80286290459129&amp;width=512&amp;height=430&amp;srs=EPSG:4326&amp;format=application/openlayers&amp;layers=Ajouter-ResourceID-ici">http://localhost:8082/geoserver/wms?service=WMS&amp;version=1.1.0&amp;request=GetMap&amp;styles=&amp;bbox=145.14757902405984,-43.47330297262748,148.32274986232298,-40.80286290459129&amp;width=512&amp;height=430&amp;srs=EPSG:4326&amp;format=application/openlayers&amp;layers=Ajouter-ResourceID-ici</a> Vous devriez obtenir le résultat suivant:</p>
-<a class="reference internal image-reference" href="../../_images/52nWPS_result_in_geoserver.png"><img alt="screenshot" src="../../_images/52nWPS_result_in_geoserver.png" style="width: 560.0px; height: 420.0px;" /></a>
+<a class="reference internal image-reference" href="../../_images/52nWPS_result_in_geoserver.png"><img alt="capture d'écran" src="../../_images/52nWPS_result_in_geoserver.png" style="width: 560.0px; height: 420.0px;" /></a>
 </li>
 </ol>
 </section>

@@ -20,8 +20,8 @@
     <link rel="index" title="Indice" href="../genindex.html" />
     <link rel="search" title="Cerca" href="../search.html" />
     <link rel="copyright" title="Copyright" href="../copyright.html" />
-    <link rel="next" title="deegree Quickstart" href="../quickstart/deegree_quickstart.html" />
-    <link rel="prev" title="Leaflet Quickstart" href="../quickstart/leaflet_quickstart.html" />
+    <link rel="next" title="Guida rapida deegree" href="../quickstart/deegree_quickstart.html" />
+    <link rel="prev" title="Guida rapida Leaflet" href="../quickstart/leaflet_quickstart.html" />
 	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
 
 
@@ -67,113 +67,112 @@
 <section id="deegree">
 <h1>deegree<a class="headerlink" href="#deegree" title="Permalink to this heading">¶</a></h1>
 <section id="about">
-<h2>About<a class="headerlink" href="#about" title="Permalink to this heading">¶</a></h2>
-<p>deegree provides geospatial webservices based upon <a class="reference external" href="https://www.ogc.org">Open Geospatial Consortium (OGC)</a> and <a class="reference external" href="https://inspire.ec.europa.eu">INSPIRE Network Services</a>
-specifications. deegree supports:</p>
+<h2>A proposito di<a class="headerlink" href="#about" title="Permalink to this heading">¶</a></h2>
+<p>degree fornisce servizi web geospaziali basati sulle specifiche <a class="reference external" href="https://www.ogc.org">Open Geospatial Consortium (OGC)</a> e <a class="reference external" href="https://inspire.ec.europa.eu">INSPIRE Network Services</a>. degree supporta:</p>
 <ul class="simple">
-<li><p><a class="reference external" href="https://www.ogc.org/standards/wfs">Web Feature Service (WFS)</a>: Serves vector data from geospatial data</p></li>
-<li><p><a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a>: Serves maps rendered from geospatial data</p></li>
-<li><p><a class="reference external" href="https://www.ogc.org/standards/wmts">OpenGIS Web Map Tile ServiceW (WMTS)</a>: Serves pre-rendered map tiles</p></li>
-<li><p><a class="reference external" href="https://www.ogc.org/standards/cat">Catalogue Service for the web</a>: Performs searches for geospatial datasets and services</p></li>
-<li><p><a class="reference external" href="https://www.ogc.org/standards/wps">Web Processing Service (WPS)</a>: Executes geospatial processes</p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wfs">Web Feature Service (WFS)</a>: Fornisce dati vettoriali da dati geospaziali</p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a>: Fornisce mappe disegnate da dati geospaziali</p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wmts">OpenGIS Web Map Tile ServiceW (WMTS)</a>: Fornisce mappe tassellate già disegnate</p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/cat">Catalogue Service for the web</a>: Esegue ricerce per trovare dati e servizi geospaziali</p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wps">Web Processing Service (WPS)</a>: Esegue processi geospaziali</p></li>
 </ul>
-<a class="reference internal image-reference" href="../../_images/deegree_screenshot.png"><img alt="deegree screenshot" class="align-right" src="../../_images/deegree_screenshot.png" style="width: 500px;" /></a>
+<a class="reference internal image-reference" href="../../_images/deegree_screenshot.png"><img alt="screenshot di deegree" class="align-right" src="../../_images/deegree_screenshot.png" style="width: 500px;" /></a>
 </section>
 <section id="core-features">
-<h2>Core Features<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h2>
+<h2>Caratteristiche principali<a class="headerlink" href="#core-features" title="Permalink to this heading">¶</a></h2>
 <p><strong>WFS</strong></p>
 <ul class="simple">
-<li><p>Implements WFS standards 1.0.0, 1.1.0 and 2.0.0</p></li>
+<li><p>Implementa standard WFS 1.0.0, 1.1.0 e 2.0.0</p></li>
 <li><p>Official OGC reference implementation for WFS 1.1.0 (Basic and Transactional) and WFS 2.0.0 (Basic)</p></li>
-<li><p>Fully transactional (even for rich data models)</p></li>
-<li><p>Supports KVP, XML and SOAP requests</p></li>
+<li><p>Completamente transazionale (anche per modelli di dati ricchi)</p></li>
+<li><p>Supporta richieste KVP, XML e SOAP</p></li>
 <li><p>GML 2/3.0/3.1/3.2 output/input</p></li>
-<li><p>Support for GetGmlObject requests and XLinks</p></li>
-<li><p>High performance and excellent scalability</p></li>
-<li><p>On-the-fly coordinate transformation</p></li>
-<li><p>Designed for rich data models from the bottom up</p></li>
-<li><p>Backends support flexible mapping of GML application schemas to relational models</p></li>
-<li><p>ISO 19107-compliant geometry model: Complex geometries (e.g. non-linear curves)</p></li>
-<li><p>Advanced filter expression support based on XPath 1.0</p></li>
-<li><p>Supports numerous backends, such as PostGIS, Oracle Spatial, MS SQL Server, Shapefiles or GML instance documents</p></li>
+<li><p>Supporto per richieste GetGmlObject e XLinks</p></li>
+<li><p>Performance elevate ed eccellente scalabilità</p></li>
+<li><p>Trasformazione di coordinate al volo</p></li>
+<li><p>Progettato per modelli di dati ricchi dal basso verso l’alto</p></li>
+<li><p>I backend supportano la mappatura flessibile degli schemi applicativi GML ai modelli relazionali</p></li>
+<li><p>Modello di geometria conforme a ISO 19107: Geometrie complesse (per esempio curve non lineari)</p></li>
+<li><p>Supporto a espressioni avanzate per i filtri basate su XPath 1.0</p></li>
+<li><p>Supporta numerosi backend, come PostGIS, Oracle Spatial, MS SQL Server, Shapefiles o documenti di istanza GML</p></li>
 </ul>
 <p><strong>WMS</strong></p>
 <ul class="simple">
-<li><p>Implements WMS standards 1.1.1 and 1.3.0</p></li>
+<li><p>Implementa standards WMS 1.1.1 e 1.3.0</p></li>
 <li><p>Official OGC reference implementation for WMS 1.1.1 and WMS 1.1.1</p></li>
-<li><p>Extensive support for styling languages SLD/SE versions 1.0.0 and 1.1.0</p></li>
-<li><p>High performance and excellent scalability</p></li>
-<li><p>High quality rendering</p></li>
-<li><p>Scale dependent styling</p></li>
-<li><p>Support for SE removes the need for a lot of proprietary extensions</p></li>
-<li><p>Easy configuration of HTML and other output formats for GetFeatureInfo responses</p></li>
-<li><p>Uses stream-based data access with minimal memory footprint</p></li>
-<li><p>Nearly complete support for raster symbolizing as defined in SE (with some extensions)</p></li>
-<li><p>Complete support for TIME/ELEVATION and other dimensions for both feature and raster data</p></li>
-<li><p>Supports numerous backends, such as PostGIS, Oracle Spatial, Shapefiles or GML instance documents</p></li>
-<li><p>Can render rich data models directly</p></li>
+<li><p>Supporto esteso per i linguaggi di stile SLD/SE versioni 1.0.0 e 1.1.0</p></li>
+<li><p>Performance elevate ed eccellente scalabilità</p></li>
+<li><p>Rendering di alta qualità</p></li>
+<li><p>Stili in funzione della scala</p></li>
+<li><p>Il supporto per SE rimuove la necessità di molte estensioni proprietarie</p></li>
+<li><p>Facile configurazione di HTML e altri formati di output per le risposte GetFeatureInfo</p></li>
+<li><p>Utilizza un accesso ai dati stream-based con un ingombro minimo della memoria</p></li>
+<li><p>Supporto quasi completo per la simbolizzazione raster come definita in SE (con alcune estensioni)</p></li>
+<li><p>Supporto completo per TEMPO/ALTEZZA e altre dimensioni sia per i vettoriali che per i dati raster</p></li>
+<li><p>Supporta numerosi backend, come PostGIS, Oracle Spatial, Shapefiles o documenti di istanza GML</p></li>
+<li><p>Può renderizzare direttamente modelli di dati complessi</p></li>
 </ul>
 <p><strong>WMTS</strong></p>
 <ul class="simple">
-<li><p>Implements Basic WMTS standard 1.0.0 (KVP)</p></li>
+<li><p>Implementa lo standard WMTS base 1.0.0 (KVP)</p></li>
 <li><p>Official OGC reference implementation for WMS 1.0.0</p></li>
-<li><p>High performance and excellent scalability</p></li>
-<li><p>Supports different backends, such as GeoTIFF, remote WMS or file system tile image hierarchies</p></li>
-<li><p>Supports on-the-fly caching (using EHCache)</p></li>
-<li><p>Supports GetFeatureInfo for remote WMS backends</p></li>
+<li><p>Performance elevate ed eccellente scalabilità</p></li>
+<li><p>Supporta diversi backend, come GeoTIFF, WMS remoti o gerarchie di immagini tile dal file system</p></li>
+<li><p>Supporta cache al volo (usando EHCache)</p></li>
+<li><p>Supporta GetFeatureInfo per backend WMS remoti</p></li>
 </ul>
 <p><strong>CSW</strong></p>
 <ul class="simple">
-<li><p>Implements CSW standard 2.0.2</p></li>
-<li><p>Fully transactional</p></li>
-<li><p>Supports KVP, XML and SOAP requests</p></li>
-<li><p>High performance and excellent scalability</p></li>
+<li><p>Implementa standard CSW 2.0.2</p></li>
+<li><p>Completamente transazionale</p></li>
+<li><p>Supporta richieste KVP, XML e SOAP</p></li>
+<li><p>Performance elevate ed eccellente scalabilità</p></li>
 <li><p>ISO Metadata Application Profile 1.0.0</p></li>
-<li><p>Pluggable and modular dataaccess layer allows to add support for new APs and backends</p></li>
-<li><p>Modular inspector architecture allows to validate records to be inserted against various criteria</p></li>
-<li><p>Standard inspectors: schema validity, identifier integrity, INSPIRE requirements</p></li>
-<li><p>Handles all defined queryable properties (for Dublin Core as well as ISO profile)</p></li>
-<li><p>Complex filter expressions</p></li>
+<li><p>Il livello di accesso ai dati pluggable e modulare permette di aggiungere il supporto per nuovi AP e backend</p></li>
+<li><p>L’architettura modulare dell’inspector permette di convalidare i record da inserire secondo vari criteri</p></li>
+<li><p>Ispettori standard: validità dello schema, integrità degli identificatori, requisiti INSPIRE</p></li>
+<li><p>Gestisce tutte le proprietà interrogabili definite (per Dublin Core e per il profilo ISO)</p></li>
+<li><p>Espressioni filtro complesse</p></li>
 </ul>
 <p><strong>WPS</strong></p>
 <ul class="simple">
-<li><p>Implements WPS standard 1.0.0</p></li>
-<li><p>Supports KVP, XML and SOAP requests</p></li>
-<li><p>Pluggable process provider layer</p></li>
-<li><p>Easy-to-use API for implementing Java processes</p></li>
-<li><p>Supports all variants of input/output parameters: literal, bbox, complex (binary and xml)</p></li>
-<li><p>Streaming access for complex input/output parameters</p></li>
-<li><p>Processing of huge amounts of data with minimal memory footprint</p></li>
-<li><p>Supports storing of response documents/output parameters</p></li>
-<li><p>Supports input parameters given inline and by reference</p></li>
-<li><p>Supports RawDataOutput/ResponseDocument responses</p></li>
-<li><p>Supports asynchronous execution (with polling of process status)</p></li>
+<li><p>Implementa standard WPS 1.0.0</p></li>
+<li><p>Supporta richieste KVP, XML e SOAP</p></li>
+<li><p>Layer del fornitore di processi collegabile</p></li>
+<li><p>API facile da usare per implementare processi Java</p></li>
+<li><p>Supporta tutte le varianti di parametri di input/output: letterale, bbox, complesso (binario e xml)</p></li>
+<li><p>Accesso in streaming per parametri di input/output complessi</p></li>
+<li><p>Elaborazione di enormi quantità di dati con un ingombro minimo di memoria</p></li>
+<li><p>Supporta la memorizzazione di documenti di risposta/parametri di output</p></li>
+<li><p>Supporta parametri di input dati in linea e per riferimento</p></li>
+<li><p>Supporta le risposte RawDataOutput/ResponseDocument</p></li>
+<li><p>Supporta l’esecuzione asincrona (con polling dello stato del processo)</p></li>
 </ul>
 </section>
 <section id="implemented-standards">
-<h2>Implemented Standards<a class="headerlink" href="#implemented-standards" title="Permalink to this heading">¶</a></h2>
+<h2>Standard implementati<a class="headerlink" href="#implemented-standards" title="Permalink to this heading">¶</a></h2>
 <ul class="simple">
-<li><p><a class="reference external" href="https://www.ogc.org/standards/wfs">Web Feature Service (WFS)</a> 1.0.0, 1.1.0 and 2.0.0</p></li>
-<li><p><a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a> 1.1.1 and 1.3.0</p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wfs">Web Feature Service (WFS)</a> 1.0.0, 1.1.0 e 2.0.0</p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a> 1.1.1 e 1.3.0</p></li>
 <li><p><a class="reference external" href="https://www.ogc.org/standards/wmts">OpenGIS Web Map Tile ServiceW (WMTS)</a> 1.1.0</p></li>
 <li><p><a class="reference external" href="https://www.ogc.org/standards/cat">Catalogue Service for the web</a> 2.0.2</p></li>
 <li><p><a class="reference external" href="https://www.ogc.org/standards/wps">Web Processing Service (WPS)</a> 1.0.0</p></li>
-<li><p><a class="reference external" href="https://www.ogc.org/standards/gml">Geography Markup Language (GML)</a> 2.12, 3.0.1, 3.1.1 and 3.2.1</p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/gml">Geography Markup Language (GML)</a> 2.12, 3.0.1, 3.1.1 e 3.2.1</p></li>
 </ul>
 </section>
 <section id="details">
-<h2>Details<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h2>
-<p><strong>Website:</strong> <a class="reference external" href="http://www.deegree.org">http://www.deegree.org</a></p>
-<p><strong>Licence:</strong> GNU Lesser General Public License, Version 2.1 (LGPL 2.1)</p>
-<p><strong>Software Version:</strong> 3.4.1</p>
-<p><strong>Supported Platforms:</strong> Windows, Linux</p>
-<p><strong>API Interfaces:</strong> Java</p>
-<p><strong>Support:</strong> <a class="reference external" href="https://www.deegree.org/community">https://www.deegree.org/community</a></p>
+<h2>Dettagli<a class="headerlink" href="#details" title="Permalink to this heading">¶</a></h2>
+<p><strong>Sito web:</strong> <a class="reference external" href="http://www.deegree.org">http://www.deegree.org</a></p>
+<p><strong>Licenza:</strong> GNU Lesser General Public License, Version 2.1 (LGPL 2.1)</p>
+<p><strong>Versione Software:</strong> 3.4.1</p>
+<p><strong>Piattaforme Supportate:</strong> Windows, Linux</p>
+<p><strong>Interfacce API:</strong> Java</p>
+<p><strong>Supporto:</strong> <a class="reference external" href="https://www.deegree.org/community">https://www.deegree.org/community</a></p>
 </section>
 <section id="quickstart">
-<h2>Quickstart<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h2>
+<h2>Guida rapida<a class="headerlink" href="#quickstart" title="Permalink to this heading">¶</a></h2>
 <ul class="simple">
-<li><p><a class="reference internal" href="../quickstart/deegree_quickstart.html"><span class="doc">Quickstart documentation</span></a></p></li>
+<li><p><a class="reference internal" href="../quickstart/deegree_quickstart.html"><span class="doc">Guida rapida</span></a></p></li>
 </ul>
 </section>
 </section>

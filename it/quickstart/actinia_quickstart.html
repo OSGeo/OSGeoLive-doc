@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
-    <title>actinia Quickstart &#8212; OSGeoLive 15.0 Documentation</title>
+    <title>Guida rapida actinia &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
@@ -65,73 +65,59 @@
   <a class="reference external image-reference" href="https://actinia.mundialis.de/"><img alt="../../_images/logo_actinia.png" class="align-right" src="../../_images/logo_actinia.png" /></a>
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_community.png" class="align-right" src="../../_images/OSGeo_community.png" /></a>
 <section id="actinia-quickstart">
-<h1>actinia Quickstart<a class="headerlink" href="#actinia-quickstart" title="Permalink to this heading">¶</a></h1>
+<h1>Guida rapida actinia<a class="headerlink" href="#actinia-quickstart" title="Permalink to this heading">¶</a></h1>
 <p>Actinia is an open source REST API for scalable, distributed, high performance
 processing of geographical data that uses mainly <a class="reference external" href="https://grass.osgeo.org/">GRASS GIS</a>
 for computational tasks.
 Actinia provides a REST API to process satellite images, time series of
 satellite images, raster and vector data.</p>
 <nav class="contents local" id="contents">
-<p class="topic-title">Contents</p>
+<p class="topic-title">Contenuti</p>
 <ul class="simple">
-<li><p><a class="reference internal" href="#introduction-to-ace-actinia-command-execution" id="id2">Introduction to ace - actinia command execution</a></p></li>
-<li><p><a class="reference internal" href="#setup-your-environment" id="id3">Setup your environment</a></p></li>
-<li><p><a class="reference internal" href="#access-sample-data" id="id4">Access sample data</a></p>
+<li><p><a class="reference internal" href="#introduction-to-ace-actinia-command-execution" id="id2">Introduzione a ace - esecuzione del comando actinia</a></p></li>
+<li><p><a class="reference internal" href="#setup-your-environment" id="id3">Imposta il tuo ambiente</a></p></li>
+<li><p><a class="reference internal" href="#access-sample-data" id="id4">Accesso ai dati campione</a></p>
 <ul>
-<li><p><a class="reference internal" href="#access-data-from-external-sources" id="id5">Access data from external sources</a></p></li>
+<li><p><a class="reference internal" href="#access-data-from-external-sources" id="id5">Accesso ai dati da fonti esterne</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#inspect-the-rest-call-prior-to-submission" id="id6">Inspect the REST call prior to submission</a></p></li>
-<li><p><a class="reference internal" href="#display-a-map-map-rendering" id="id7">Display a map - map rendering</a></p></li>
-<li><p><a class="reference internal" href="#script-examples" id="id8">Script examples</a></p>
+<li><p><a class="reference internal" href="#inspect-the-rest-call-prior-to-submission" id="id6">Ispeziona la chiamata REST prima della sottomissione</a></p></li>
+<li><p><a class="reference internal" href="#display-a-map-map-rendering" id="id7">Visualizza una mappa - rendering della mappa</a></p></li>
+<li><p><a class="reference internal" href="#script-examples" id="id8">Script di esempio</a></p>
 <ul>
-<li><p><a class="reference internal" href="#example-1-computing-slope-and-aspect-and-univariate-statistics-from-an-elevation-model" id="id9">Example 1: computing slope and aspect and univariate statistics from an elevation model</a></p></li>
-<li><p><a class="reference internal" href="#example-2-orthophoto-image-segmentation-with-export" id="id10">Example 2: Orthophoto image segmentation with export</a></p></li>
-<li><p><a class="reference internal" href="#examples-for-persistent-processing" id="id11">Examples for persistent processing</a></p></li>
+<li><p><a class="reference internal" href="#example-1-computing-slope-and-aspect-and-univariate-statistics-from-an-elevation-model" id="id9">Esempio 1: calcolare la pendenza e l’aspetto e le statistiche univariate da un modello di elevazione</a></p></li>
+<li><p><a class="reference internal" href="#example-2-orthophoto-image-segmentation-with-export" id="id10">Esempio 2: Segmentazione dell’immagine ortofoto con esportazione</a></p></li>
+<li><p><a class="reference internal" href="#examples-for-persistent-processing" id="id11">Esempi di elaborazione persistente</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#things-to-try" id="id12">Things to try</a></p>
+<li><p><a class="reference internal" href="#things-to-try" id="id12">Cose da provare</a></p>
 <ul>
-<li><p><a class="reference internal" href="#create-new-locations" id="id13">Create new locations</a></p></li>
-<li><p><a class="reference internal" href="#install-grass-gis-addons-extensions" id="id14">Install GRASS GIS addons (extensions)</a></p></li>
+<li><p><a class="reference internal" href="#create-new-locations" id="id13">Crea nuove location</a></p></li>
+<li><p><a class="reference internal" href="#install-grass-gis-addons-extensions" id="id14">Installa GRASS GIS addons (estensioni)</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#what-next" id="id15">What next?</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id15">E ora?</a></p></li>
 </ul>
 </nav>
-<p>Actinia can be used in different ways:</p>
+<p>L’attinia può essere usata in diversi modi:</p>
 <ul class="simple">
-<li><p><cite>curl</cite> or similar command line tools</p></li>
-<li><p>the <cite>Postman</cite> or <cite>RESTman</cite> extension for browsers</p></li>
-<li><p>open a GRASS GIS session and use the <cite>ace</cite> (actinia command execution) tool</p></li>
-<li><p>other interfaces to REST API</p></li>
+<li><p><cite>curl</cite> o strumenti simili a riga di comando</p></li>
+<li><p>le estensioni per browser <cite>Postman</cite> o <cite>RESTman</cite></p></li>
+<li><p>apri una sessione di GRASS GIS e usa lo strumento <cite>ace</cite> (actinia command execution)</p></li>
+<li><p>altre interfacce per API REST</p></li>
 </ul>
-<p>In this quickstart, we make use of GRASS GIS to conveniently launch
-commands from the session to the actinia server (which itself uses GRASS GIS).
-The idea is to rapidly develop a workflow locally on small data sets to
-then execute it on the server.</p>
+<p>In questa guida rapida, utilizziamo GRASS GIS per lanciare comodamente i comandi dalla sessione al server actinia (che a sua volta utilizza GRASS GIS). L’idea è quella di sviluppare rapidamente un flusso di lavoro a livello locale su piccole serie di dati per poi eseguirlo sul server.</p>
 <section id="introduction-to-ace-actinia-command-execution">
-<h2><a class="toc-backref" href="#id2" role="doc-backlink">Introduction to ace - actinia command execution</a><a class="headerlink" href="#introduction-to-ace-actinia-command-execution" title="Permalink to this heading">¶</a></h2>
-<p>The <code class="docutils literal notranslate"><span class="pre">ace</span></code> tool (<a class="reference external" href="https://neteler.gitlab.io/actinia-introduction/#controlling-actinia-from-a-running-grass-gis-session">details</a>)
-allows the execution of a single GRASS GIS command or a
-list of GRASS GIS commands on an actinia REST service
-(<a class="reference external" href="https://actinia.mundialis.de/">https://actinia.mundialis.de/</a>). In addition it provides job management,
-the ability to list locations, mapsets and map layer the user has access
-to as well as the creation and deletion of mapsets.</p>
-<p>Th <code class="docutils literal notranslate"><span class="pre">ace</span></code> tool must be executed in an active GRASS GIS session. It is
-installed with <code class="docutils literal notranslate"><span class="pre">g.extension</span> <span class="pre">extension=ace</span> <span class="pre">url=https://github.com/mundialis/ace</span></code>.</p>
-<p>All commands will be executed per default in an <strong>ephemeral</strong> database.
-Hence, generated output must be exported using augmented GRASS
-commands.</p>
-<p>The option <code class="docutils literal notranslate"><span class="pre">mapset=MAPSET_NAME</span></code> allows the execution of commands in
-the persistent user database. It can be used with
-<code class="docutils literal notranslate"><span class="pre">location=LOCATION_NAME</span></code> option.</p>
+<h2><a class="toc-backref" href="#id2" role="doc-backlink">Introduzione a ace - esecuzione del comando actinia</a><a class="headerlink" href="#introduction-to-ace-actinia-command-execution" title="Permalink to this heading">¶</a></h2>
+<p>Lo strumento <code class="docutils literal notranslate"><span class="pre">ace</span></code> (<a class="reference external" href="https://github.com/mundialis/actinia_core/tree/master/scripts/README.md">dettagli</a>) permette l’esecuzione di un singolo comando GRASS GIS o di una lista di comandi GRASS GIS su un servizio REST actinia (<a class="reference external" href="https://actinia.mundialis.de/">https://actinia.mundialis.de/</a>). Inoltre fornisce la gestione del lavoro, la possibilità di elencare le località, i set di mappe e i layer di mappe a cui l’utente ha accesso, nonché la creazione e la cancellazione dei set di mappe.</p>
+<p>Lo strumento <code class="docutils literal notranslate"><span class="pre">ace</span></code> deve essere eseguito in una sessione attiva di GRASS GIS. È installato con <code class="docutils literal notranslate"><span class="pre">g.extension</span> <span class="pre">extension=ace</span> <span class="pre">url=https://github.com/mundialis/ace</span></code>.</p>
+<p>Tutti i comandi saranno eseguiti in maniera predefinita in un database <strong>effimero</strong>. Quindi, il risultato deve essere esportato utilizzando i comandi aumentati di GRASS.</p>
+<p>L’opzione <code class="docutils literal notranslate"><span class="pre">mapset=MAPSET_NAME</span></code> permette l’esecuzione di comandi nel database utente persistente. Può essere usata con l’opzione <code class="docutils literal notranslate"><span class="pre">location=LOCATION_NAME</span></code>.</p>
 </section>
 <section id="setup-your-environment">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink">Setup your environment</a><a class="headerlink" href="#setup-your-environment" title="Permalink to this heading">¶</a></h2>
-<p>Be sure to run the following commands in a GRASS GIS session.</p>
-<p>The user must setup the following environmental variables to specify the
-actinia server and credentials:</p>
+<h2><a class="toc-backref" href="#id3" role="doc-backlink">Imposta il tuo ambiente</a><a class="headerlink" href="#setup-your-environment" title="Permalink to this heading">¶</a></h2>
+<p>Assicurati di eseguire i seguenti comandi in una sessione di GRASS GIS.</p>
+<p>L’utente deve impostare le seguenti variabili ambientali per specificare il server actinia e le credenziali:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># set credentials and REST server URL</span>
 <span class="nb">export</span> <span class="nv">ACTINIA_USER</span><span class="o">=</span><span class="s1">&#39;demouser&#39;</span>
 <span class="nb">export</span> <span class="nv">ACTINIA_PASSWORD</span><span class="o">=</span><span class="s1">&#39;gu3st!pa55w0rd&#39;</span>
@@ -140,14 +126,13 @@ actinia server and credentials:</p>
 </div>
 </section>
 <section id="access-sample-data">
-<h2><a class="toc-backref" href="#id4" role="doc-backlink">Access sample data</a><a class="headerlink" href="#access-sample-data" title="Permalink to this heading">¶</a></h2>
-<p>Selected datasets are available to the demo user. To list the locations you have access to, run</p>
+<h2><a class="toc-backref" href="#id4" role="doc-backlink">Accesso ai dati campione</a><a class="headerlink" href="#access-sample-data" title="Permalink to this heading">¶</a></h2>
+<p>Gli insiemi di dati selezionati sono disponibili per l’utente demo. Per elencare le posizioni a cui si ha accesso, eseguire</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ace -l
 <span class="o">[</span><span class="s1">&#39;latlong_wgs84&#39;</span>, <span class="s1">&#39;ECAD&#39;</span>, <span class="s1">&#39;nc_spm_08&#39;</span><span class="o">]</span>
 </pre></div>
 </div>
-<p>The following command lists mapsets of current location in the active
-GRASS GIS session (nc_spm_08):</p>
+<p>Il seguente comando elenca i set di mappe della posizione corrente nella sessione attiva di GRASS GIS (nc_spm_08):</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># running ace in the &quot;nc_spm_08&quot; location</span>
 <span class="c1"># (the current location name is propagated to the server):</span>
 ace <span class="nv">location</span><span class="o">=</span><span class="s2">&quot;nc_spm_08&quot;</span> -m
@@ -155,37 +140,30 @@ ace <span class="nv">location</span><span class="o">=</span><span class="s2">&qu
 </pre></div>
 </div>
 <section id="access-data-from-external-sources">
-<h3><a class="toc-backref" href="#id5" role="doc-backlink">Access data from external sources</a><a class="headerlink" href="#access-data-from-external-sources" title="Permalink to this heading">¶</a></h3>
-<p>GRASS GIS commands can be augmented with actinia specific extensions.
-The <code class="docutils literal notranslate"><span class="pre">&#64;</span></code> operator can be specified for an input parameter to import a
-web located resource and to specify the export of an output parameter.</p>
-<p>Importantly, the name of the local location and mapset must correspond
-to that on the actinia REST server.</p>
-<p>Currently available datasets are (organized by projections):</p>
+<h3><a class="toc-backref" href="#id5" role="doc-backlink">Accesso ai dati da fonti esterne</a><a class="headerlink" href="#access-data-from-external-sources" title="Permalink to this heading">¶</a></h3>
+<p>I comandi di GRASS GIS possono essere aumentati con estensioni specifiche di actinia. L’operatore <code class="docutils literal notranslate"><span class="pre">&#64;</span></code> può essere specificato per un parametro in ingresso per importare una risorsa situata sul web e per specificare l’esportazione di un parametro in uscita.</p>
+<p>È importante che il nome della posizione locale e del mapset corrisponda a quello del server REST di actinia.</p>
+<p>I set di dati attualmente disponibili sono (organizzati per proiezioni):</p>
 <ul class="simple">
-<li><p>North Carolina sample dataset (NC State-Plane metric CRS, EPSG:
-3358):</p>
+<li><p>Serie di dati campione della Carolina del Nord (NC State-Plane metric CRS, EPSG: 3358):</p>
 <ul>
-<li><p>base cartography (<code class="docutils literal notranslate"><span class="pre">nc_spm_08/PERMANENT</span></code>; source:
-<a class="reference external" href="https://grassbook.org/datasets/datasets-3rd-edition/">https://grassbook.org/datasets/datasets-3rd-edition/</a>)</p></li>
+<li><p>cartografia di base (<code class="docutils literal notranslate"><span class="pre">nc_spm_08/PERMANENT</span></code>; fonte: <a class="reference external" href="https://grassbook.org/datasets/datasets-3rd-edition/">https://grassbook.org/datasets/datasets-3rd-edition/</a>)</p></li>
 <li><p>Landsat subscenes (<code class="docutils literal notranslate"><span class="pre">nc_spm_08/landsat</span></code>; source:
 <a class="reference external" href="https://grass.osgeo.org/download/data/">https://grass.osgeo.org/download/data/</a>)</p></li>
 </ul>
 </li>
-<li><p>Latitude-Longitude location (LatLong WGS84, EPSG:4326):</p>
+<li><p>Posizione latitudine-longitudine (LatLong WGS84, EPSG:4326):</p>
 <ul>
 <li><p>empty (<code class="docutils literal notranslate"><span class="pre">latlong_wgs84/PERMANENT/</span></code>)</p></li>
 <li><p>16-days NDVI, MOD13C1, V006, CMG 0.05 deg res.
 (<code class="docutils literal notranslate"><span class="pre">latlong_wgs84/modis_ndvi_global/</span></code>; source:
 <a class="reference external" href="https://lpdaac.usgs.gov/products/mod13c1v006/">https://lpdaac.usgs.gov/products/mod13c1v006/</a>)</p></li>
-<li><p>LST growing degree days asia 2017 (<code class="docutils literal notranslate"><span class="pre">latlong_wgs84/asia_gdd_2017/</span></code>;
-source: <a class="reference external" href="https://www.mundialis.de/en/temperature-data/">https://www.mundialis.de/en/temperature-data/</a>)</p></li>
-<li><p>LST tropical days asia 2017 (<code class="docutils literal notranslate"><span class="pre">latlong_wgs84/asia_tropical_2017/</span></code>)</p></li>
-<li><p>LST temperature daily asia 2017, including min, max and avg
-(<code class="docutils literal notranslate"><span class="pre">latlong_wgs84/asia_lst_daily_2017/</span></code>)</p></li>
+<li><p>LST growing degree days asia 2017 (<code class="docutils literal notranslate"><span class="pre">latlong_wgs84/asia_gdd_2017/</span></code>; fonte: <a class="reference external" href="https://www.mundialis.de/en/temperature-data/">https://www.mundialis.de/en/temperature-data/</a>)</p></li>
+<li><p>LST giorni tropicali asia 2017 (<code class="docutils literal notranslate"><span class="pre">latlong_wgs84/asia_tropical_2017/</span></code>)</p></li>
+<li><p>LST temperatura giornaliera asia 2017, incluso min, max e avg (<code class="docutils literal notranslate"><span class="pre">latlong_wgs84/asia_lst_daily_2017/</span></code>)</p></li>
 </ul>
 </li>
-<li><p>Europe (EU LAEA CRS, EPSG:3035):</p>
+<li><p>Europa (EU LAEA CRS, EPSG:3035):</p>
 <ul>
 <li><p>EU DEM 25m V1.1 (<code class="docutils literal notranslate"><span class="pre">eu_laea/PERMANENT/</span></code>; source:
 <a class="reference external" href="https://land.copernicus.eu/imagery-in-situ/eu-dem">https://land.copernicus.eu/imagery-in-situ/eu-dem</a>)</p></li>
@@ -205,16 +183,15 @@ source:
 </section>
 </section>
 <section id="inspect-the-rest-call-prior-to-submission">
-<h2><a class="toc-backref" href="#id6" role="doc-backlink">Inspect the REST call prior to submission</a><a class="headerlink" href="#inspect-the-rest-call-prior-to-submission" title="Permalink to this heading">¶</a></h2>
-<p>To generate the actinia process chain JSON request simply add the
-<code class="docutils literal notranslate"><span class="pre">-d</span></code> (dry-run) flag:</p>
+<h2><a class="toc-backref" href="#id6" role="doc-backlink">Ispeziona la chiamata REST prima della sottomissione</a><a class="headerlink" href="#inspect-the-rest-call-prior-to-submission" title="Permalink to this heading">¶</a></h2>
+<p>Per generare la richiesta JSON della catena di processo di actinia è sufficiente aggiungere il flag <code class="docutils literal notranslate"><span class="pre">-d</span></code> (dry-run):</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ace <span class="nv">location</span><span class="o">=</span><span class="s2">&quot;nc_spm_08&quot;</span> <span class="nv">grass_command</span><span class="o">=</span><span class="s2">&quot;r.slope.aspect elevation=elevation slope=myslope&quot;</span> -d
 </pre></div>
 </div>
 </section>
 <section id="display-a-map-map-rendering">
-<h2><a class="toc-backref" href="#id7" role="doc-backlink">Display a map - map rendering</a><a class="headerlink" href="#display-a-map-map-rendering" title="Permalink to this heading">¶</a></h2>
-<p>It is very easy (and fast) to render a map:</p>
+<h2><a class="toc-backref" href="#id7" role="doc-backlink">Visualizza una mappa - rendering della mappa</a><a class="headerlink" href="#display-a-map-map-rendering" title="Permalink to this heading">¶</a></h2>
+<p>È molto facile (e veloce) visualizzare una mappa:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># check amount of pixels, just FYI</span>
 <span class="n">ace</span> <span class="n">location</span><span class="o">=</span><span class="s2">&quot;latlong_wgs84&quot;</span> <span class="n">grass_command</span><span class="o">=</span><span class="s2">&quot;r.info globcover@globcover&quot;</span>
 <span class="c1"># render the map ... 7 billion pixels</span>
@@ -222,31 +199,24 @@ source:
 </pre></div>
 </div>
 <figure class="align-default" id="id1">
-<img alt="ESA Globcover map shown by actinia" src="../../_images/esa_globcover_rendered_by_ace.png" />
+<img alt="Mappa ESA Globcover mostrata da actinia" src="../../_images/esa_globcover_rendered_by_ace.png" />
 <figcaption>
-<p><span class="caption-text">ESA Globcover map shown by actinia</span><a class="headerlink" href="#id1" title="Link a questa immagine">¶</a></p>
+<p><span class="caption-text">Mappa ESA Globcover mostrata da actinia</span><a class="headerlink" href="#id1" title="Link a questa immagine">¶</a></p>
 </figcaption>
 </figure>
-<p>Ephemeral processing is the default processing approach of actinia. Commands are executed in an
-ephemeral mapset which will be removed after processing. You can export the
-output of GRASS GIS modules to store the computational result for download and further analysis.
-The following export formats are currently supported:</p>
+<p>L’elaborazione effimera è l’approccio predefinito di elaborazione di actinia. I comandi vengono eseguiti in un mapset effimero che verrà rimosso dopo l’elaborazione. È possibile esportare l’output dei moduli GIS di GRASS per memorizzare il risultato del calcolo per il download e ulteriori analisi. Attualmente sono supportati i seguenti formati di esportazione:</p>
 <ul class="simple">
 <li><p>raster: <code class="docutils literal notranslate"><span class="pre">COG</span></code>, <code class="docutils literal notranslate"><span class="pre">GTiff</span></code></p></li>
-<li><p>vector: <code class="docutils literal notranslate"><span class="pre">GPKG</span></code>, <code class="docutils literal notranslate"><span class="pre">GML</span></code>, <code class="docutils literal notranslate"><span class="pre">GeoJSON</span></code>, <code class="docutils literal notranslate"><span class="pre">ESRI_Shapefile</span></code></p></li>
-<li><p>table: <code class="docutils literal notranslate"><span class="pre">CSV</span></code>, <code class="docutils literal notranslate"><span class="pre">TXT</span></code></p></li>
+<li><p>vettore: <code class="docutils literal notranslate"><span class="pre">GPKG</span></code>, <code class="docutils literal notranslate"><span class="pre">GML</span></code>, <code class="docutils literal notranslate"><span class="pre">GeoJSON</span></code>, <code class="docutils literal notranslate"><span class="pre">ESRI_Shapefile</span></code></p></li>
+<li><p>tabelle: <code class="docutils literal notranslate"><span class="pre">CSV</span></code>, <code class="docutils literal notranslate"><span class="pre">TXT</span></code></p></li>
 </ul>
 </section>
 <section id="script-examples">
-<h2><a class="toc-backref" href="#id8" role="doc-backlink">Script examples</a><a class="headerlink" href="#script-examples" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id8" role="doc-backlink">Script di esempio</a><a class="headerlink" href="#script-examples" title="Permalink to this heading">¶</a></h2>
 <section id="example-1-computing-slope-and-aspect-and-univariate-statistics-from-an-elevation-model">
-<h3><a class="toc-backref" href="#id9" role="doc-backlink">Example 1: computing slope and aspect and univariate statistics from an elevation model</a><a class="headerlink" href="#example-1-computing-slope-and-aspect-and-univariate-statistics-from-an-elevation-model" title="Permalink to this heading">¶</a></h3>
-<p>The following commands (to be stored in a script and executed with
-<code class="docutils literal notranslate"><span class="pre">ace</span></code>) will import a raster layer from an internet source as raster
-map <code class="docutils literal notranslate"><span class="pre">elev</span></code>, sets the computational region to the map and computes the
-slope. Additional information about the raster layer are requested with
-<code class="docutils literal notranslate"><span class="pre">r.info</span></code>.</p>
-<p>Store the following script as text file <code class="docutils literal notranslate"><span class="pre">ace_dtm_statistics.sh</span></code>:</p>
+<h3><a class="toc-backref" href="#id9" role="doc-backlink">Esempio 1: calcolare la pendenza e l’aspetto e le statistiche univariate da un modello di elevazione</a><a class="headerlink" href="#example-1-computing-slope-and-aspect-and-univariate-statistics-from-an-elevation-model" title="Permalink to this heading">¶</a></h3>
+<p>I seguenti comandi (da memorizzare in uno script ed eseguire con <code class="docutils literal notranslate"><span class="pre">ace</span></code>) importano un layer raster da una fonte internet come mappa raster <code class="docutils literal notranslate"><span class="pre">elev</span></code>, impostano la regione di calcolo sulla mappa e calcolano la pendenza. Ulteriori informazioni sul layer sono richieste con <code class="docutils literal notranslate"><span class="pre">r.info</span></code>.</p>
+<p>Memorizza il seguente script come file di testo <code class="docutils literal notranslate"><span class="pre">ace_dtm_statistics.sh</span></code>:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># grass ~/grassdata/nc_spm_08/user1/</span>
 <span class="c1"># Import the web resource and set the region to the imported map</span>
 g.region <span class="nv">raster</span><span class="o">=</span>elev@https://storage.googleapis.com/graas-geodata/elev_ned_30m.tif -ap
@@ -258,18 +228,16 @@ r.slope.aspect <span class="nv">elevation</span><span class="o">=</span>elev <sp
 r.info slope_elev
 </pre></div>
 </div>
-<p>Save the script in the text file to <code class="docutils literal notranslate"><span class="pre">/tmp/ace_dtm_statistics.sh</span></code> and
-run the saved script as</p>
+<p>Salava lo script nel file di testo in <code class="docutils literal notranslate"><span class="pre">/tmp/ace_dtm_statistics.sh</span></code> ed esegui lo script salvato come</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ace --location nc_spm_08 --script ace_dtm_statistics.sh
 </pre></div>
 </div>
-<p>The results (messages, statistics, files) are provided as REST resources.</p>
-<p>To generate the actinia process chain JSON request simply add the
-<code class="docutils literal notranslate"><span class="pre">-d</span></code> (dry-run) flag:</p>
+<p>I risultati (messaggi, statistiche, file) sono forniti come risorse REST.</p>
+<p>Per generare la richiesta JSON della catena di processo di actinia è sufficiente aggiungere il flag <code class="docutils literal notranslate"><span class="pre">-d</span></code> (dry-run):</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ace -d <span class="nv">location</span><span class="o">=</span><span class="s2">&quot;nc_spm_08&quot;</span> <span class="nv">script</span><span class="o">=</span><span class="s2">&quot;/tmp/ace_dtm_statistics.sh&quot;</span>
 </pre></div>
 </div>
-<p>The output should look like this:</p>
+<p>L’output dovrebbe essere simile a questo:</p>
 <div class="highlight-json notranslate"><div class="highlight"><pre><span></span><span class="p">{</span><span class="w"></span>
 <span class="w">  </span><span class="nt">&quot;version&quot;</span><span class="p">:</span><span class="w"> </span><span class="s2">&quot;1&quot;</span><span class="p">,</span><span class="w"></span>
 <span class="w">  </span><span class="nt">&quot;list&quot;</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w"></span>
@@ -368,8 +336,8 @@ run the saved script as</p>
 </div>
 </section>
 <section id="example-2-orthophoto-image-segmentation-with-export">
-<h3><a class="toc-backref" href="#id10" role="doc-backlink">Example 2: Orthophoto image segmentation with export</a><a class="headerlink" href="#example-2-orthophoto-image-segmentation-with-export" title="Permalink to this heading">¶</a></h3>
-<p>Store the following script as text file <code class="docutils literal notranslate"><span class="pre">/tmp/ace_segmentation.sh</span></code>:</p>
+<h3><a class="toc-backref" href="#id10" role="doc-backlink">Esempio 2: Segmentazione dell’immagine ortofoto con esportazione</a><a class="headerlink" href="#example-2-orthophoto-image-segmentation-with-export" title="Permalink to this heading">¶</a></h3>
+<p>Memorizza il seguente script come file di testo <code class="docutils literal notranslate"><span class="pre">/tmp/ace_segmentation.sh</span></code>:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># grass ~/grassdata/nc_spm_08/user1/</span>
 <span class="c1"># Import the web resource and set the region to the imported map</span>
 <span class="c1"># we apply a importer trick for the import of multi-band GeoTIFFs:</span>
@@ -389,52 +357,41 @@ i.segment <span class="nv">group</span><span class="o">=</span>ortho2010 <span c
 r.to.vect <span class="nv">input</span><span class="o">=</span>ortho2010_segment_25 <span class="nv">type</span><span class="o">=</span>area <span class="nv">output</span><span class="o">=</span>ortho2010_segment_25+GeoJSON
 </pre></div>
 </div>
-<p>Run the script saved in a text file as</p>
+<p>Esegui lo script salvato in un file di testo come</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ace <span class="nv">location</span><span class="o">=</span><span class="s2">&quot;nc_spm_08&quot;</span> <span class="nv">script</span><span class="o">=</span><span class="s2">&quot;/tmp/ace_segmentation.sh&quot;</span>
 </pre></div>
 </div>
-<p>The results (messages, statistics, files) are provided as REST resources.</p>
+<p>I risultati (messaggi, statistiche, file) sono forniti come risorse REST.</p>
 </section>
 <section id="examples-for-persistent-processing">
-<h3><a class="toc-backref" href="#id11" role="doc-backlink">Examples for persistent processing</a><a class="headerlink" href="#examples-for-persistent-processing" title="Permalink to this heading">¶</a></h3>
-<p>GRASS GIS commands can be executed in a user specific persistent
-database. The user must create a mapset in an existing location. This
-mapsets can be accessed via <code class="docutils literal notranslate"><span class="pre">ace</span></code>. All processing results of commands
-run in this mapset, will be stored persistently. Be aware that the
-processing will be performed in an ephemeral database that will be moved
-to the persistent storage using the correct name after processing.</p>
-<p>To create a new mapset in the <strong>nc_spm_08</strong> location with the name
-<strong>test_mapset</strong> the following command must be executed</p>
+<h3><a class="toc-backref" href="#id11" role="doc-backlink">Esempi di elaborazione persistente</a><a class="headerlink" href="#examples-for-persistent-processing" title="Permalink to this heading">¶</a></h3>
+<p>I comandi di GRASS GIS possono essere eseguiti in un database persistente specifico dell’utente. L’utente deve creare un mapset in una posizione esistente. Si può accedere a questo mapset tramite <code class="docutils literal notranslate"><span class="pre">ace</span></code>. Tutti i risultati dell’elaborazione dei comandi eseguiti in questo mapset saranno memorizzati in modo persistente. Siate consapevoli che l’elaborazione verrà eseguita in un database effimero che verrà spostato nella memoria persistente usando il nome corretto dopo l’elaborazione.</p>
+<p>Per creare un nuovo mapset nella posizione <strong>nc_spm_08</strong> con il nome <strong>test_mapset</strong> deve essere eseguito il seguente comando</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ace <span class="nv">location</span><span class="o">=</span><span class="s2">&quot;nc_spm_08&quot;</span> <span class="nv">create_mapset</span><span class="o">=</span><span class="s2">&quot;test_mapset&quot;</span>
 </pre></div>
 </div>
-<p>Run the commands from the statistic script in the new persistent mapset</p>
+<p>Esegui i comandi dello script statistico nel nuovo mapset persistente</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ace <span class="nv">location</span><span class="o">=</span><span class="s2">&quot;nc_spm_08&quot;</span> <span class="nv">mapset</span><span class="o">=</span><span class="s2">&quot;test_mapset&quot;</span> <span class="nv">script</span><span class="o">=</span><span class="s2">&quot;/path/to/ace_dtm_statistics.sh&quot;</span>
 </pre></div>
 </div>
-<p>Show all raster maps that have been created with the script in
-test_mapset</p>
+<p>Mostra tutte le mappe raster che sono state create con lo script in test_mapset</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ace <span class="nv">location</span><span class="o">=</span><span class="s2">&quot;nc_spm_08&quot;</span> <span class="nv">mapset</span><span class="o">=</span><span class="s2">&quot;test_mapset&quot;</span> <span class="nv">grass_commmand</span><span class="o">=</span><span class="s2">&quot;g.list type=raster mapset=test_mapset&quot;</span>
 </pre></div>
 </div>
-<p>Show information about raster map elev and slope_elev</p>
+<p>Mostra informazioni sulla mappa raster elev e slope_elev</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ace <span class="nv">location</span><span class="o">=</span><span class="s2">&quot;nc_spm_08&quot;</span> <span class="nv">mapset</span><span class="o">=</span><span class="s2">&quot;test_mapset&quot;</span> <span class="nv">grass_command</span><span class="o">=</span><span class="s2">&quot;r.info elev@test_mapset&quot;</span>
 ace <span class="nv">location</span><span class="o">=</span><span class="s2">&quot;nc_spm_08&quot;</span> <span class="nv">mapset</span><span class="o">=</span><span class="s2">&quot;test_mapset&quot;</span> <span class="nv">grass_command</span><span class="o">=</span><span class="s2">&quot;r.info slope_elev@test_mapset&quot;</span>
 </pre></div>
 </div>
-<p>Delete the test_mapset (always double check names when deleting)</p>
+<p>Cancella il test_mapset (controlla sempre due volte i nomi quando si cancella)</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ace <span class="nv">location</span><span class="o">=</span><span class="s2">&quot;nc_spm_08&quot;</span> <span class="nv">delete_mapset</span><span class="o">=</span><span class="s2">&quot;test_mapset&quot;</span>
 </pre></div>
 </div>
-<p>If the active GRASS GIS session has identical location/mapset names,
-then an alias can be used to avoid the persistent option in each single
-command call:</p>
+<p>Se la sessione attiva di GRASS GIS ha nomi di località/mappe identici, allora si può usare un alias per evitare l’opzione persistente in ogni singola chiamata di comando:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">alias</span> <span class="nv">acp</span><span class="o">=</span><span class="s2">&quot;ace --persistent `g.mapset -p`&quot;</span>
 </pre></div>
 </div>
-<p>We assume that in the active GRASS GIS session the current location is
-<strong>nc_spm_08</strong> and the current mapset is <strong>test_mapset</strong>. Then the
-commands from above can be executed in the following way:</p>
+<p>Assumi che nella sessione attiva di GRASS GIS la località corrente sia <strong>nc_spm_08</strong> e il mapset corrente sia <strong>test_mapset</strong>. Allora i comandi di cui sopra possono essere eseguiti nel modo seguente:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ace <span class="nv">location</span><span class="o">=</span><span class="s2">&quot;nc_spm_08&quot;</span> <span class="nv">create_mapset</span><span class="o">=</span><span class="s2">&quot;test_mapset&quot;</span>
 acp <span class="nv">location</span><span class="o">=</span><span class="s2">&quot;nc_spm_08&quot;</span> <span class="nv">script</span><span class="o">=</span><span class="s2">&quot;/path/to/ace_dtm_statistics.sh&quot;</span>
 acp <span class="nv">location</span><span class="o">=</span><span class="s2">&quot;nc_spm_08&quot;</span> <span class="nv">grass_command</span><span class="o">=</span><span class="s2">&quot;g.list type=raster mapset=test_mapset&quot;</span>
@@ -445,9 +402,9 @@ acp <span class="nv">location</span><span class="o">=</span><span class="s2">&qu
 </section>
 </section>
 <section id="things-to-try">
-<h2><a class="toc-backref" href="#id12" role="doc-backlink">Things to try</a><a class="headerlink" href="#things-to-try" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id12" role="doc-backlink">Cose da provare</a><a class="headerlink" href="#things-to-try" title="Permalink to this heading">¶</a></h2>
 <section id="create-new-locations">
-<h3><a class="toc-backref" href="#id13" role="doc-backlink">Create new locations</a><a class="headerlink" href="#create-new-locations" title="Permalink to this heading">¶</a></h3>
+<h3><a class="toc-backref" href="#id13" role="doc-backlink">Crea nuove location</a><a class="headerlink" href="#create-new-locations" title="Permalink to this heading">¶</a></h3>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># (note: the &quot;demouser&quot; is not enabled for this)</span>
 <span class="c1">#</span>
 <span class="c1"># create new location</span>
@@ -458,7 +415,7 @@ ace <span class="nv">location</span><span class="o">=</span><span class="s2">&qu
 </div>
 </section>
 <section id="install-grass-gis-addons-extensions">
-<h3><a class="toc-backref" href="#id14" role="doc-backlink">Install GRASS GIS addons (extensions)</a><a class="headerlink" href="#install-grass-gis-addons-extensions" title="Permalink to this heading">¶</a></h3>
+<h3><a class="toc-backref" href="#id14" role="doc-backlink">Installa GRASS GIS addons (estensioni)</a><a class="headerlink" href="#install-grass-gis-addons-extensions" title="Permalink to this heading">¶</a></h3>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># (requires elevated user privileges)</span>
 <span class="c1">#</span>
 <span class="c1"># list existing addons, see also</span>
@@ -472,11 +429,11 @@ ace <span class="nv">location</span><span class="o">=</span><span class="s2">&qu
 </section>
 </section>
 <section id="what-next">
-<h2><a class="toc-backref" href="#id15" role="doc-backlink">What next?</a><a class="headerlink" href="#what-next" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id15" role="doc-backlink">E ora?</a><a class="headerlink" href="#what-next" title="Permalink to this heading">¶</a></h2>
 <ul class="simple">
-<li><p>Visit the actinia website at <a class="reference external" href="https://actinia.mundialis.de">https://actinia.mundialis.de</a></p></li>
+<li><p>Visita il sito web di actinia: <a class="reference external" href="https://actinia.mundialis.de">https://actinia.mundialis.de</a></p></li>
 <li><p>actinia tutorial: <a class="reference external" href="https://neteler.gitlab.io/actinia-introduction">https://neteler.gitlab.io/actinia-introduction</a></p></li>
-<li><p>Further reading: Neteler, M., Gebbert, S., Tawalika, C., Bettge, A., Benelcadi, H., Löw, F., Adams, T, Paulsen, H. (2019). Actinia: cloud based geoprocessing. In Proc. of the 2019 conference on Big Data from Space (BiDS’2019) (pp. 41-44). EUR 29660 EN, Publications Office of the European Union 5, Luxembourg: P. Soille, S. Loekken, and S. Albani (Eds.). (<a class="reference external" href="https://zenodo.org/record/2631917">DOI</a>)</p></li>
+<li><p>Ulteriori letture: Neteler, M., Gebbert, S., Tawalika, C., Bettge, A., Benelcadi, H., Löw, F., Adams, T, Paulsen, H. (2019). Actinia: cloud based geoprocessing. In Proc. of the 2019 conference on Big Data from Space (BiDS’2019) (pp. 41-44). EUR 29660 EN, Publications Office of the European Union 5, Luxembourg: P. Soille, S. Loekken, and S. Albani (Eds.). (<a class="reference external" href="https://zenodo.org/record/2631917">DOI</a>)</p></li>
 </ul>
 </section>
 </section>

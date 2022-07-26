@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
 
-    <title>GDAL/OGR Quickstart &#8212; OSGeoLive 15.0 Documentation</title>
+    <title>Guida rapida GDAL/OGR &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
@@ -65,67 +65,61 @@
   <a class="reference external image-reference" href="https://gdal.org/"><img alt="../../_images/logo_gdal.png" class="align-right" src="../../_images/logo_gdal.png" /></a>
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
 <section id="gdal-ogr-quickstart">
-<h1>GDAL/OGR Quickstart<a class="headerlink" href="#gdal-ogr-quickstart" title="Permalink to this heading">¶</a></h1>
-<p>This Quick Start is divided into two parts: GDAL (raster data) and OGR
-(vector data).</p>
-<p>This Quick Start describes how to:</p>
+<h1>Guida rapida GDAL/OGR<a class="headerlink" href="#gdal-ogr-quickstart" title="Permalink to this heading">¶</a></h1>
+<p>Questa Guida Rapida è divisa in due parti: GDAL (dati raster) e OGR (dati vettoriali).</p>
+<p>Questa Guida Rapida descrive come:</p>
 <dl class="simple">
 <dt>GDAL</dt><dd><ul class="simple">
-<li><p>Explore your image data with gdalinfo</p></li>
-<li><p>Format translations with gdal_translate</p></li>
-<li><p>Reproject your data with gdalwarp</p></li>
-<li><p>Mosaic your data with gdal_warp or gdal_merge.py</p></li>
-<li><p>Build a shapefile as a raster tileindex with gdaltindex</p></li>
+<li><p>Esplora i tuoi dati di immagine con gdalinfo</p></li>
+<li><p>Formatta le traduzioni con gdal_translate</p></li>
+<li><p>Riproietta i tuoi dati con gdalwarp</p></li>
+<li><p>Mosaica i tuoi dati con gdal_warp o gdal_merge.py</p></li>
+<li><p>Costruisci uno shapefile come tileindex raster con gdaltindex</p></li>
 </ul>
 </dd>
 <dt>OGR</dt><dd><ul class="simple">
-<li><p>get information about your data with ogrinfo</p></li>
-<li><p>use ogr2ogr to transform your data to other formats</p></li>
+<li><p>ottieni informazioni sui tuoi dati con ogrinfo</p></li>
+<li><p>usa ogr2ogr per trasformare i tuoi dati in altri formati</p></li>
 </ul>
 </dd>
 </dl>
-<p>The only thing you’ll need for this quickstart is a terminal. If you want to
-visualize the results, you can use one of the Desktop GIS Software
-applications on OSGeoLive like <a class="reference internal" href="../overview/qgis_overview.html"><span class="doc">QGIS</span></a>.</p>
+<p>L’unica cosa di cui avrai bisogno per questo quickstart è un terminale. Se vuoi visualizzare i risultati, puoi usare una delle applicazioni Desktop GIS Software su OSGeoLive come <a class="reference internal" href="../overview/qgis_overview.html"><span class="doc">QGIS</span></a>.</p>
 <nav class="contents local" id="contents">
-<p class="topic-title">Contents</p>
+<p class="topic-title">Contenuti</p>
 <ul class="simple">
-<li><p><a class="reference internal" href="#get-to-know-gdal" id="id1">Get to know GDAL</a></p></li>
-<li><p><a class="reference internal" href="#get-information-about-the-raster-data-with-gdalinfo" id="id2">Get information about the raster data with gdalinfo</a></p></li>
-<li><p><a class="reference internal" href="#simple-format-translation" id="id3">Simple format translation</a></p></li>
-<li><p><a class="reference internal" href="#translation" id="id4">Translation</a></p></li>
-<li><p><a class="reference internal" href="#rescaling" id="id5">Rescaling</a></p></li>
-<li><p><a class="reference internal" href="#raster-tileindex-with-gdaltindex" id="id6">Raster tileindex with gdaltindex</a></p></li>
-<li><p><a class="reference internal" href="#reprojecting" id="id7">Reprojecting</a></p></li>
-<li><p><a class="reference internal" href="#mosaicking" id="id8">Mosaicking</a></p></li>
-<li><p><a class="reference internal" href="#get-to-know-ogr" id="id9">Get to know OGR</a></p></li>
-<li><p><a class="reference internal" href="#get-information-about-the-vector-data-with-ogrinfo" id="id10">Get information about the vector data with ogrinfo</a></p></li>
-<li><p><a class="reference internal" href="#use-ogr2ogr-to-convert-data-between-file-formats" id="id11">Use ogr2ogr to convert data between file formats</a></p></li>
-<li><p><a class="reference internal" href="#things-to-try" id="id12">Things to try</a></p></li>
-<li><p><a class="reference internal" href="#what-next" id="id13">What next?</a></p></li>
+<li><p><a class="reference internal" href="#get-to-know-gdal" id="id1">Conosci GDAL</a></p></li>
+<li><p><a class="reference internal" href="#get-information-about-the-raster-data-with-gdalinfo" id="id2">Ottieni informazioni sui dati raster con gdalinfo</a></p></li>
+<li><p><a class="reference internal" href="#simple-format-translation" id="id3">Traduzione del formato semplice</a></p></li>
+<li><p><a class="reference internal" href="#translation" id="id4">Traduzione</a></p></li>
+<li><p><a class="reference internal" href="#rescaling" id="id5">Ridimensionamento</a></p></li>
+<li><p><a class="reference internal" href="#raster-tileindex-with-gdaltindex" id="id6">Raster tileindex con gdaltindex</a></p></li>
+<li><p><a class="reference internal" href="#reprojecting" id="id7">Riproiezione</a></p></li>
+<li><p><a class="reference internal" href="#mosaicking" id="id8">Mosaico</a></p></li>
+<li><p><a class="reference internal" href="#get-to-know-ogr" id="id9">Conosci OGR</a></p></li>
+<li><p><a class="reference internal" href="#get-information-about-the-vector-data-with-ogrinfo" id="id10">Ottieni informazioni sui dati vettoriali con ogrinfo</a></p></li>
+<li><p><a class="reference internal" href="#use-ogr2ogr-to-convert-data-between-file-formats" id="id11">Usa ogr2ogr per convertire dati tra formati di file</a></p></li>
+<li><p><a class="reference internal" href="#things-to-try" id="id12">Cose da provare</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id13">E ora?</a></p></li>
 </ul>
 </nav>
 <section id="get-to-know-gdal">
-<h2><a class="toc-backref" href="#id1" role="doc-backlink">Get to know GDAL</a><a class="headerlink" href="#get-to-know-gdal" title="Permalink to this heading">¶</a></h2>
-<p>You will find the demo data at <code class="file docutils literal notranslate"><span class="pre">/usr/local/share/data</span></code>. We want to have a
-look at the <a class="reference internal" href="../overview/naturalearth_overview.html"><span class="doc">Natural Earth data</span></a> in this quickstart. We want to work with a
-copy of the data. So the first step is to copy the data to your home
-directory.</p>
+<h2><a class="toc-backref" href="#id1" role="doc-backlink">Conosci GDAL</a><a class="headerlink" href="#get-to-know-gdal" title="Permalink to this heading">¶</a></h2>
+<p>Trovi i dati demo in <code class="file docutils literal notranslate"><span class="pre">/usr/local/share/data</span></code>. Guarda <a class="reference internal" href="../overview/naturalearth_overview.html"><span class="doc">Natural Earth</span></a> in questa guida rapida. Lavora con una copia dei dati. Quindi il primo passo è copiare i dati nella tua directory home.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">user</span>
 <span class="n">cp</span> <span class="o">-</span><span class="n">R</span> <span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="n">local</span><span class="o">/</span><span class="n">share</span><span class="o">/</span><span class="n">data</span><span class="o">/</span><span class="n">natural_earth2</span><span class="o">/</span> <span class="o">./</span><span class="n">gdal_natural_earth</span>
 </pre></div>
 </div>
-<p>You will then find a NaturalEarth Raster file and a .tfw World-file at:</p>
+<p>Troverai quindi un file Raster NaturalEarth e un file World .tfw presso:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ls</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">user</span><span class="o">/</span><span class="n">gdal_natural_earth</span><span class="o">/</span><span class="n">HYP_50M_SR_W</span><span class="o">.*</span>
 </pre></div>
 </div>
 <div class="admonition tip">
 <p class="admonition-title">Suggerimento</p>
-<p>Open the file with a Desktop GIS like QGIS, and have a look.</p>
+<p>Apri il file con un Desktop GIS come QGIS e guardalo.</p>
 </div>
 </section>
 <section id="get-information-about-the-raster-data-with-gdalinfo">
-<h2><a class="toc-backref" href="#id2" role="doc-backlink">Get information about the raster data with gdalinfo</a><a class="headerlink" href="#get-information-about-the-raster-data-with-gdalinfo" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id2" role="doc-backlink">Ottieni informazioni sui dati raster con gdalinfo</a><a class="headerlink" href="#get-information-about-the-raster-data-with-gdalinfo" title="Permalink to this heading">¶</a></h2>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>gdalinfo HYP_50M_SR_W.tif
   Driver: GTiff/GeoTIFF
   Files: HYP_50M_SR_W.tif
@@ -154,24 +148,23 @@ directory.</p>
 </pre></div>
 </div>
 <dl class="simple">
-<dt>Note:</dt><dd><ul class="simple">
-<li><p>Driver is «GTiff/GeoTIFF»</p></li>
-<li><p>Size is 10800x5400</p></li>
-<li><p>3 Bands of type Byte.</p></li>
-<li><p>Coordinates</p></li>
-<li><p>no coordinate system</p></li>
+<dt>Nota:</dt><dd><ul class="simple">
+<li><p>Driver è «GTiff/GeoTIFF»</p></li>
+<li><p>La dimensione è 10800x5400</p></li>
+<li><p>3 Bande di tipo Byte.</p></li>
+<li><p>Coordinate</p></li>
+<li><p>nessun sistema di coordinate</p></li>
 </ul>
 </dd>
 </dl>
 </section>
 <section id="simple-format-translation">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink">Simple format translation</a><a class="headerlink" href="#simple-format-translation" title="Permalink to this heading">¶</a></h2>
-<p>First get to know your drivers. The <cite>–formats</cite> commandline switch of
-gdal_translate can be used to see a list of available format drivers.</p>
+<h2><a class="toc-backref" href="#id3" role="doc-backlink">Traduzione del formato semplice</a><a class="headerlink" href="#simple-format-translation" title="Permalink to this heading">¶</a></h2>
+<p>Per prima cosa conosci i tuoi driver. Lo switch a riga di comando <cite>–formats</cite> di gdal_translate può essere usato per vedere una lista di driver di formato disponibili.</p>
 <dl class="simple">
-<dt>Each format reports if it is</dt><dd><ul class="simple">
+<dt>Ogni formato riporta se è</dt><dd><ul class="simple">
 <li><p>read only (ro),</p></li>
-<li><p>read/write (rw) or</p></li>
+<li><p>read/write (rw) o</p></li>
 <li><p>read/write/update (rw+).</p></li>
 </ul>
 </dd>
@@ -179,40 +172,33 @@ gdal_translate can be used to see a list of available format drivers.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdal_translate</span> <span class="o">--</span><span class="n">formats</span>
 </pre></div>
 </div>
-<p>The <cite>–format</cite> commandline switch can be used to query details about a
-particular driver, including creation options, and permitted data types.</p>
+<p>Lo switch da riga di comando <cite>–format</cite> può essere usato per interrogare i dettagli su un particolare driver, incluse le opzioni di creazione e i tipi di dati consentiti.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdalinfo</span> <span class="o">--</span><span class="nb">format</span> <span class="n">jpeg</span>
 <span class="n">gdal_translate</span> <span class="o">--</span><span class="nb">format</span> <span class="n">png</span>
 </pre></div>
 </div>
 </section>
 <section id="translation">
-<h2><a class="toc-backref" href="#id4" role="doc-backlink">Translation</a><a class="headerlink" href="#translation" title="Permalink to this heading">¶</a></h2>
-<p>Translations are accomplished with the gdal_translate command. The
-default output format is GeoTIFF.  The <cite>-of</cite> flag is used to select an
-output format and the -co flag is used to specify a creation option:</p>
+<h2><a class="toc-backref" href="#id4" role="doc-backlink">Traduzione</a><a class="headerlink" href="#translation" title="Permalink to this heading">¶</a></h2>
+<p>Le traduzioni sono effettuate con il comando gdal_translate. Il formato in uscita predefinito è GeoTIFF. Il flag <cite>-of</cite> è usato per selezionare un formato in uscita e il flag -co è usato per specificare un’opzione di creazione:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdal_translate</span> <span class="o">-</span><span class="n">of</span> <span class="n">JPEG</span> <span class="o">-</span><span class="n">co</span> <span class="n">QUALITY</span><span class="o">=</span><span class="mi">40</span> <span class="n">HYP_50M_SR_W</span><span class="o">.</span><span class="n">tif</span> <span class="n">HYP_50M_SR_W</span><span class="o">.</span><span class="n">jpg</span>
 </pre></div>
 </div>
-<p>The <cite>-ot</cite> switch can be used to alter the output data type.</p>
+<p>Lo switch <cite>-ot</cite> può essere usato per modificare il tipo di dati in uscita.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdal_translate</span> <span class="o">-</span><span class="n">ot</span> <span class="n">Int16</span> <span class="n">HYP_50M_SR_W</span><span class="o">.</span><span class="n">tif</span> <span class="n">HYP_50M_SR_W_Int16</span><span class="o">.</span><span class="n">tif</span>
 </pre></div>
 </div>
-<p>Use gdalinfo to verify data type.</p>
+<p>Usa gdalinfo per verificare il tipo di dati.</p>
 </section>
 <section id="rescaling">
-<h2><a class="toc-backref" href="#id5" role="doc-backlink">Rescaling</a><a class="headerlink" href="#rescaling" title="Permalink to this heading">¶</a></h2>
-<p>The <cite>-outsize</cite> switch can be used to set the size of the output file.</p>
+<h2><a class="toc-backref" href="#id5" role="doc-backlink">Ridimensionamento</a><a class="headerlink" href="#rescaling" title="Permalink to this heading">¶</a></h2>
+<p>Lo switch <cite>-outsize</cite> può essere usato per impostare la dimensione del file in uscita.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdal_translate</span> <span class="o">-</span><span class="n">outsize</span> <span class="mi">50</span><span class="o">%</span> <span class="mi">50</span><span class="o">%</span> <span class="n">HYP_50M_SR_W</span><span class="o">.</span><span class="n">tif</span>  <span class="n">HYP_50M_SR_W_small</span><span class="o">.</span><span class="n">tif</span>
 </pre></div>
 </div>
-<p>Use gdalinfo to verify the size.</p>
-<p>The <cite>-scale</cite> switch can be used to rescale data. Explicit control of the
-input and output ranges is also available. The gdalinfo <cite>-mm</cite> switch can
-be used to see pixel min/max values.</p>
-<p>Let’s split our image into two with <cite>-srcwin</cite> which makes a copy based on
-pixel/line location (xoff yoff xsize ysize). You also could use <cite>-projwin</cite>
-and define the corners in georeferenced coordinates (ulx uly lrx lry).</p>
+<p>Usa gdalinfo per verificare la dimensione.</p>
+<p>Lo switch <cite>-scale</cite> può essere usato per ridimensionare i dati. È disponibile anche il controllo esplicito degli intervalli di ingresso e uscita. Lo switch gdalinfo <cite>-mm</cite> può essere usato per vedere i valori min/max dei pixel.</p>
+<p>Dividi la tua immagine in due con <cite>-srcwin</cite> che fa una copia basata sulla posizione dei pixel/linea (xoff yoff xsize ysize). Si potrebbe anche usare <cite>-projwin</cite> e definire gli angoli in coordinate georeferenziate (ulx uly lrx lry).</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdalinfo</span> <span class="o">-</span><span class="n">mm</span> <span class="n">HYP_50M_SR_W</span><span class="o">.</span><span class="n">tif</span>
 <span class="n">gdal_translate</span> <span class="o">-</span><span class="n">srcwin</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">5400</span> <span class="mi">5400</span> <span class="n">HYP_50M_SR_W</span><span class="o">.</span><span class="n">tif</span>  <span class="n">west</span><span class="o">.</span><span class="n">tif</span>
 <span class="n">gdal_translate</span> <span class="o">-</span><span class="n">srcwin</span> <span class="mi">5400</span> <span class="mi">0</span> <span class="mi">5400</span> <span class="mi">5400</span> <span class="n">HYP_50M_SR_W</span><span class="o">.</span><span class="n">tif</span>  <span class="n">east</span><span class="o">.</span><span class="n">tif</span>
@@ -220,15 +206,12 @@ and define the corners in georeferenced coordinates (ulx uly lrx lry).</p>
 </div>
 </section>
 <section id="raster-tileindex-with-gdaltindex">
-<h2><a class="toc-backref" href="#id6" role="doc-backlink">Raster tileindex with gdaltindex</a><a class="headerlink" href="#raster-tileindex-with-gdaltindex" title="Permalink to this heading">¶</a></h2>
-<p>You can build a shapefile as a raster tileindex. For every image a
-polygon is generated with the bounds of the extent of the polygon and
-the path to the file.</p>
+<h2><a class="toc-backref" href="#id6" role="doc-backlink">Raster tileindex con gdaltindex</a><a class="headerlink" href="#raster-tileindex-with-gdaltindex" title="Permalink to this heading">¶</a></h2>
+<p>È possibile costruire uno shapefile come un tileindex raster. Per ogni immagine viene generato un poligono con i limiti dell’estensione del poligono e il percorso del file.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdaltindex</span> <span class="n">index_natural_earth</span><span class="o">.</span><span class="n">shp</span> <span class="o">*</span><span class="n">st</span><span class="o">.</span><span class="n">tif</span>
 </pre></div>
 </div>
-<p>Have a look at your output shapefile with QGIS and ogrinfo (you
-will learn more about ogrinfo later in this tutorial)</p>
+<p>Guarda il tuo shapefile in uscita con QGIS e ogrinfo (imparerai di più su ogrinfo più avanti in questo tutorial)</p>
 <blockquote>
 <div><a class="reference internal image-reference" href="../../_images/gdal_gdaltindex.png"><img alt="../../_images/gdal_gdaltindex.png" src="../../_images/gdal_gdaltindex.png" style="width: 416.0px; height: 212.0px;" /></a>
 </div></blockquote>
@@ -253,58 +236,49 @@ OGRFeature(index_natural_earth):1
 </div>
 </section>
 <section id="reprojecting">
-<h2><a class="toc-backref" href="#id7" role="doc-backlink">Reprojecting</a><a class="headerlink" href="#reprojecting" title="Permalink to this heading">¶</a></h2>
-<p>For this process we assume that HYP_50M_SR_W.tif has been properly
-created with bounds. As we saw before with gdainfo no coordinate system
-was set. So we assign WGS84 as coordinate system to the image in the
-first step.</p>
+<h2><a class="toc-backref" href="#id7" role="doc-backlink">Riproiezione</a><a class="headerlink" href="#reprojecting" title="Permalink to this heading">¶</a></h2>
+<p>Per questo processo assumi che HYP_50M_SR_W.tif sia stato creato correttamente con i limiti. Come hai visto prima con gdainfo nessun sistema di coordinate è stato impostato. Quindi assegna WGS84 come sistema di coordinate all’immagine nel primo passo.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdal_translate</span> <span class="o">-</span><span class="n">a_srs</span> <span class="n">WGS84</span> <span class="n">HYP_50M_SR_W</span><span class="o">.</span><span class="n">tif</span> <span class="n">HYP_50M_SR_W_4326</span><span class="o">.</span><span class="n">tif</span>
 </pre></div>
 </div>
-<p>The gdalwarp command can be used to reproject images. Here we reproject
-the WGS84 geographic image to the Mercator projection:</p>
+<p>Il comando gdalwarp può essere usato per riproiettare le immagini. Qui riproietta l’immagine geografica WGS84 alla proiezione Mercator:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdalwarp</span> <span class="o">-</span><span class="n">t_srs</span> <span class="s1">&#39;+proj=merc +datum=WGS84&#39;</span> <span class="n">HYP_50M_SR_W_4326</span><span class="o">.</span><span class="n">tif</span> <span class="n">mercator</span><span class="o">.</span><span class="n">tif</span>
 </pre></div>
 </div>
-<p>Use gdalinfo to verify the change and have a look at the image.</p>
+<p>Usa gdalinfo per verificare il cambiamento e vedi l’immagine.</p>
 <blockquote>
 <div><a class="reference internal image-reference" href="../../_images/gdal_mercator.png"><img alt="../../_images/gdal_mercator.png" src="../../_images/gdal_mercator.png" style="width: 405.6px; height: 327.20000000000005px;" /></a>
 </div></blockquote>
-<p>Here we reproject to the Ortho projection.</p>
+<p>Qui riproietta alla proiezione Ortho.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdalwarp</span> <span class="o">-</span><span class="n">t_srs</span> <span class="s1">&#39;+proj=ortho +datum=WGS84&#39;</span> <span class="n">HYP_50M_SR_W_4326</span><span class="o">.</span><span class="n">tif</span> <span class="n">ortho</span><span class="o">.</span><span class="n">tif</span>
 </pre></div>
 </div>
 <a class="reference internal image-reference" href="../../_images/gdal_ortho.png"><img alt="../../_images/gdal_ortho.png" src="../../_images/gdal_ortho.png" style="width: 294.40000000000003px; height: 296.8px;" /></a>
-<p>Note how the poles are clipped?  This is because the edges at the pole
-can’t be reprojected gdalwarp does not read all the data.  We can force
-gdalwarp to read a bunch of surplus data around chunks as one way to
-resolve this. Read more about this in the RasterTutorial <a class="reference external" href="https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial">https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial</a>.</p>
+<p>Noti come i poli sono tagliati? Questo perché i bordi al polo non possono essere riproiettati, gdalwarp non legge tutti i dati. Possiamo forzare gdalwarp a leggere un mucchio di dati in eccesso intorno ai pezzi come un modo per risolvere questo. Leggi di più su questo nel RasterTutorial <a class="reference external" href="https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial">https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial</a>.</p>
 </section>
 <section id="mosaicking">
-<h2><a class="toc-backref" href="#id8" role="doc-backlink">Mosaicking</a><a class="headerlink" href="#mosaicking" title="Permalink to this heading">¶</a></h2>
-<p>gdal_merge.py is a python script that can be used for simple mosaicking
-tasks. Mosaic the east.tif and west.tif into a single file:</p>
+<h2><a class="toc-backref" href="#id8" role="doc-backlink">Mosaico</a><a class="headerlink" href="#mosaicking" title="Permalink to this heading">¶</a></h2>
+<p>gdal_merge.py è uno script python che può essere usato per semplici compiti di mosaico. Mosaico di east.tif e west.tif in un unico file:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdal_merge</span><span class="o">.</span><span class="n">py</span>  <span class="n">east</span><span class="o">.</span><span class="n">tif</span> <span class="n">west</span><span class="o">.</span><span class="n">tif</span> <span class="o">-</span><span class="n">o</span> <span class="n">merged</span><span class="o">.</span><span class="n">tif</span>
 </pre></div>
 </div>
-<p>The same task can be accomplished with gdalwarp. gdalwarp has a variety
-of advantages over gdal_merge, but can be slow to merge many files:</p>
+<p>Lo stesso compito può essere svolto con gdalwarp. gdalwarp ha una varietà di vantaggi rispetto a gdal_merge, ma può essere lento per unire molti file:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdalwarp</span> <span class="n">east</span><span class="o">.</span><span class="n">tif</span> <span class="n">west</span><span class="o">.</span><span class="n">tif</span> <span class="n">warpmerged</span><span class="o">.</span><span class="n">tif</span>
 </pre></div>
 </div>
 </section>
 <section id="get-to-know-ogr">
-<h2><a class="toc-backref" href="#id9" role="doc-backlink">Get to know OGR</a><a class="headerlink" href="#get-to-know-ogr" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id9" role="doc-backlink">Conosci OGR</a><a class="headerlink" href="#get-to-know-ogr" title="Permalink to this heading">¶</a></h2>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">user</span><span class="o">/</span><span class="n">gdal_natural_earth</span><span class="o">/</span>
 </pre></div>
 </div>
 <div class="admonition tip">
 <p class="admonition-title">Suggerimento</p>
-<p>Open the shape file with a Desktop GIS like QGIS, and have a look.</p>
+<p>Apri il file shape con un Desktop GIS come QGIS e guardalo.</p>
 </div>
 </section>
 <section id="get-information-about-the-vector-data-with-ogrinfo">
-<h2><a class="toc-backref" href="#id10" role="doc-backlink">Get information about the vector data with ogrinfo</a><a class="headerlink" href="#get-information-about-the-vector-data-with-ogrinfo" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id10" role="doc-backlink">Ottieni informazioni sui dati vettoriali con ogrinfo</a><a class="headerlink" href="#get-information-about-the-vector-data-with-ogrinfo" title="Permalink to this heading">¶</a></h2>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>ogrinfo -ro /home/user/gdal_natural_earth
 INFO: Open of `/home/user/gdal_natural_earth&#39;
       using driver `ESRI Shapefile&#39; successful.
@@ -322,7 +296,7 @@ INFO: Open of `/home/user/gdal_natural_earth&#39;
   12: ne_10m_ocean (3D Polygon)
 </pre></div>
 </div>
-<p>Get a summary about your data with ogrinfo together with <cite>-so</cite>.</p>
+<p>Produci un sommario sui tuoi dati con ogrinfo con l’opzione <cite>-so</cite>.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>ogrinfo -ro -so ne_10m_admin_0_countries.shp ne_10m_admin_0_countries
 INFO: Open of `ne_10m_admin_0_countries.shp&#39;
       using driver `ESRI Shapefile&#39; successful.
@@ -402,11 +376,11 @@ tiny: Real (16.6)
 homepart: Real (16.6)
 </pre></div>
 </div>
-<p>If you run ogrinfo without a parameter you will get a summary about your data and afterwards a section for every dataset.</p>
+<p>Se esegui ogrinfo senza un parametro, otterrai un riassunto dei tuoi dati e poi una sezione per ogni set di dati.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ogrinfo</span> <span class="o">-</span><span class="n">ro</span> <span class="n">ne_10m_admin_0_countries</span><span class="o">.</span><span class="n">shp</span> <span class="n">ne_10m_admin_0_countries</span>
 </pre></div>
 </div>
-<p>You can forward the result from ogrinfo to grep to filter and get only the attribute COUNTRY.</p>
+<p>Puoi inoltrare il risultato da ogrinfo a grep per filtrare e ottenere solo l’attributo COUNTRY.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ogrinfo</span> <span class="n">ne_10m_admin_0_countries</span><span class="o">.</span><span class="n">shp</span> <span class="n">ne_10m_admin_0_countries</span> <span class="o">|</span> <span class="n">grep</span> <span class="s1">&#39;admin &#39;</span>
 
   <span class="n">admin</span> <span class="p">(</span><span class="n">String</span><span class="p">)</span> <span class="o">=</span> <span class="n">Aruba</span>
@@ -419,40 +393,36 @@ homepart: Real (16.6)
 <span class="n">etc</span><span class="o">.</span>
 </pre></div>
 </div>
-<p>You can convert your data to other formats. Get the list of the
-supported formats with <cite>–formats</cite>.</p>
+<p>Puoi convertire i tuoi dati in altri formati. Ottieni la lista dei formati supportati con <cite>–formats</cite>.</p>
 </section>
 <section id="use-ogr2ogr-to-convert-data-between-file-formats">
-<h2><a class="toc-backref" href="#id11" role="doc-backlink">Use ogr2ogr to convert data between file formats</a><a class="headerlink" href="#use-ogr2ogr-to-convert-data-between-file-formats" title="Permalink to this heading">¶</a></h2>
-<p>You can use ogr2ogr to converts simple features data between file
-formats. You can use <cite>–formats</cite> to get the list of the supported formats
-with read/write information.</p>
-<p>Convert the countries to GML.</p>
+<h2><a class="toc-backref" href="#id11" role="doc-backlink">Usa ogr2ogr per convertire dati tra formati di file</a><a class="headerlink" href="#use-ogr2ogr-to-convert-data-between-file-formats" title="Permalink to this heading">¶</a></h2>
+<p>Puoi usare ogr2ogr per convertire semplici dati di elementi tra formati di file. Puoi usare <cite>–formats</cite> per ottenere la lista dei formati supportati con informazioni di lettura/scrittura.</p>
+<p>Coverte i paesi in GML.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ogr2ogr</span> <span class="o">--</span><span class="n">formats</span>
 <span class="n">ogr2ogr</span> <span class="o">-</span><span class="n">f</span> <span class="n">GML</span> <span class="n">countries</span><span class="o">.</span><span class="n">xml</span> <span class="n">ne_10m_admin_0_countries</span><span class="o">.</span><span class="n">shp</span>
 </pre></div>
 </div>
 </section>
 <section id="things-to-try">
-<h2><a class="toc-backref" href="#id12" role="doc-backlink">Things to try</a><a class="headerlink" href="#things-to-try" title="Permalink to this heading">¶</a></h2>
-<p>Here are some additional challenges for you to try:</p>
+<h2><a class="toc-backref" href="#id12" role="doc-backlink">Cose da provare</a><a class="headerlink" href="#things-to-try" title="Permalink to this heading">¶</a></h2>
+<p>Ecco alcune sfide aggiuntive da provare:</p>
 <ul class="simple">
-<li><p>Try gdalwarp or gdal_merge.py to mosaic your data</p></li>
-<li><p>Try gdaladdo to build internal overviews</p></li>
-<li><p>QGIS uses GDAL/OGR too to suport many formats. It also provides the GdalTools Plugin to process raster data. This plugin integrates the gdal-tools into QGIS.</p></li>
-<li><p>Try ogr2ogr to import/export your vector data to other formats like PostGIS. Have a look at the options ogr2ogr provides.</p></li>
-<li><p>Try the QGIS plugin OGR-Layer-Konverter.</p></li>
+<li><p>Prova gdalwarp o gdal_merge.py per mosaicare i tuoi dati</p></li>
+<li><p>Prova gdaladdo per costruire panoramiche interne</p></li>
+<li><p>QGIS usa anche GDAL/OGR per supportare molti formati. Fornisce anche il plugin GdalTools per elaborare i dati raster. Questo plugin integra i gdal-tools in QGIS.</p></li>
+<li><p>Prova ogr2ogr per importare/esportare i tuoi dati vettoriali in altri formati come PostGIS. Guarda le opzioni che ogr2ogr fornisce.</p></li>
+<li><p>Prova il plugin QGIS OGR-Layer-Konverter.</p></li>
 </ul>
 </section>
 <section id="what-next">
-<h2><a class="toc-backref" href="#id13" role="doc-backlink">What next?</a><a class="headerlink" href="#what-next" title="Permalink to this heading">¶</a></h2>
-<p>This is only the first step on the road to using GDAL and OGR. There is
-a lot more functionality you can try.</p>
-<p>GDAL Project home</p>
+<h2><a class="toc-backref" href="#id13" role="doc-backlink">E ora?</a><a class="headerlink" href="#what-next" title="Permalink to this heading">¶</a></h2>
+<p>Questo è solo il primo passo sulla strada per usare GDAL e OGR. Ci sono molte altre funzionalità che puoi provare.</p>
+<p>Sito web del Progetto GDAL</p>
 <blockquote>
 <div><p><a class="reference external" href="https://gdal.org">https://gdal.org</a></p>
 </div></blockquote>
-<p>GDAL Raster Tutorial</p>
+<p>Tutorial GDAL Raster</p>
 <blockquote>
 <div><p><a class="reference external" href="https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial">https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial</a></p>
 </div></blockquote>
