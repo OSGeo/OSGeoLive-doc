@@ -4,7 +4,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>Mapbender Quickstart &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -13,7 +13,6 @@
     <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
@@ -64,7 +63,7 @@
   <a class="reference external image-reference" href="https://mapbender.org"><img alt="../../_images/logo_mapbender.png" class="align-right" src="../../_images/logo_mapbender.png" /></a>
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
 <section id="mapbender-quickstart">
-<h1><a class="toc-backref" href="#id1" role="doc-backlink">Mapbender Quickstart</a><a class="headerlink" href="#mapbender-quickstart" title="Permalink to this heading">¶</a></h1>
+<h1><a class="toc-backref" href="#id1">Mapbender Quickstart</a><a class="headerlink" href="#mapbender-quickstart" title="Permalink to this headline">¶</a></h1>
 <p>Mapbender is a web based geoportal framework to publish, register, view, navigate, monitor and grant secure access to spatial data infrastructure services.</p>
 <p>This Quick Start describes how to:</p>
 <blockquote>
@@ -80,7 +79,7 @@
 <blockquote>
 <div><a class="reference internal image-reference" href="../../_images/mapbender_screenshot.png"><img alt="../../_images/mapbender_screenshot.png" src="../../_images/mapbender_screenshot.png" style="width: 560.0px; height: 353.5px;" /></a>
 </div></blockquote>
-<nav class="contents" id="contents">
+<div class="contents topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#mapbender-quickstart" id="id1">Mapbender Quickstart</a></p>
@@ -96,9 +95,9 @@
 </ul>
 </li>
 </ul>
-</nav>
+</div>
 <section id="start-mapbender">
-<h2><a class="toc-backref" href="#id2" role="doc-backlink">Start Mapbender</a><a class="headerlink" href="#start-mapbender" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id2">Start Mapbender</a><a class="headerlink" href="#start-mapbender" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic">
 <li><p>Choose  <span class="menuselection">Geospatial ‣ Browser Clients ‣ Mapbender</span> from the start menu or visit <a class="reference external" href="http://localhost/mapbender/app.php">http://localhost/mapbender/app.php</a>. The application will take a few moments to start up</p>
 <p>If you have any difficulties running Mapbender, please check whether your Apache web server and your PostgreSQL database are running. Or if you use SQLite as database whether you have write access to the file.</p>
@@ -113,7 +112,7 @@
 </div></blockquote>
 </section>
 <section id="create-an-individual-application">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink">Create an individual application</a><a class="headerlink" href="#create-an-individual-application" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id3">Create an individual application</a><a class="headerlink" href="#create-an-individual-application" title="Permalink to this headline">¶</a></h2>
 <p>Create a new application by providing basic information about your application. After that you use the edit mode to add elements, layers and security.</p>
 <ol class="arabic simple">
 <li><p>Choose <span class="menuselection">Applications ‣ New Application</span></p></li>
@@ -133,7 +132,7 @@
 </div></blockquote>
 </section>
 <section id="loading-web-map-services">
-<h2><a class="toc-backref" href="#id4" role="doc-backlink">Loading Web Map Services</a><a class="headerlink" href="#loading-web-map-services" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id4">Loading Web Map Services</a><a class="headerlink" href="#loading-web-map-services" title="Permalink to this headline">¶</a></h2>
 <p>You can load OGC Web Map Services (WMS) to your application.</p>
 <p>A WMS returns an XML-file when the getCapabilities document is requested. This information is parsed by Mapbender and Mapbender gets all the necessary information about the service from this XML</p>
 <div class="admonition tip">
@@ -154,7 +153,7 @@ Here is a example WMS: WhereGroup OSM WMS <a class="reference external" href="ht
 <p>After successful registration of the service Mapbender will display an overview on the information that was provided by the service.</p>
 </section>
 <section id="add-service-to-application">
-<h2><a class="toc-backref" href="#id5" role="doc-backlink">Add Service to Application</a><a class="headerlink" href="#add-service-to-application" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id5">Add Service to Application</a><a class="headerlink" href="#add-service-to-application" title="Permalink to this headline">¶</a></h2>
 <p>After the successful upload of a WMS you want to add your WMS to an application.</p>
 <ol class="arabic simple">
 <li><p>Choose <span class="menuselection">Applications ‣ edit-Button ‣ Layers ‣ Edit-Button</span>.</p></li>
@@ -167,7 +166,7 @@ Here is a example WMS: WhereGroup OSM WMS <a class="reference external" href="ht
 </div></blockquote>
 </section>
 <section id="configure-your-wms">
-<h2><a class="toc-backref" href="#id6" role="doc-backlink">Configure your WMS</a><a class="headerlink" href="#configure-your-wms" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id6">Configure your WMS</a><a class="headerlink" href="#configure-your-wms" title="Permalink to this headline">¶</a></h2>
 <p>You can configure the WMS for your specific application. Maybe you don’t want to provide all layers or you want to change the order or titles of the layer or disable the feature info or change the maxscale for a layer.</p>
 <ol class="arabic simple">
 <li><p>Choose <span class="menuselection">Applications ‣ edit-Button ‣ Layers ‣ edit-Button</span> to configure the Service Instance.</p></li>
@@ -177,7 +176,7 @@ Here is a example WMS: WhereGroup OSM WMS <a class="reference external" href="ht
 <a class="reference internal image-reference" href="../../_images/mapbender3_wms_application_settings.png"><img alt="../../_images/mapbender3_wms_application_settings.png" src="../../_images/mapbender3_wms_application_settings.png" style="width: 982.0999999999999px; height: 637.0px;" /></a>
 </section>
 <section id="add-elements-to-your-application">
-<h2><a class="toc-backref" href="#id7" role="doc-backlink">Add Elements to your application</a><a class="headerlink" href="#add-elements-to-your-application" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id7">Add Elements to your application</a><a class="headerlink" href="#add-elements-to-your-application" title="Permalink to this headline">¶</a></h2>
 <p>Mapbender offers a set of elements. You can add the elements to your application. You have different regions (Toolbar, Sidepane, Content, Footer) to which you can add elements.</p>
 <blockquote>
 <div><a class="reference internal image-reference" href="../../_images/mapbender3_application_add_element.png"><img alt="../../_images/mapbender3_application_add_element.png" src="../../_images/mapbender3_application_add_element.png" style="width: 1059.8px; height: 607.5999999999999px;" /></a>
@@ -197,7 +196,7 @@ Here is a example WMS: WhereGroup OSM WMS <a class="reference external" href="ht
 <p>You find detailed information on every element in the <a class="reference external" href="https://doc.mapbender.org/en/functions.html">Mapbender element documentation</a>.</p>
 </section>
 <section id="things-to-try">
-<h2><a class="toc-backref" href="#id8" role="doc-backlink">Things to try</a><a class="headerlink" href="#things-to-try" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id8">Things to try</a><a class="headerlink" href="#things-to-try" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p>add a Map Element to the content of your application</p></li>
 <li><p>add a Layertree to the sidepane of your application</p></li>
@@ -217,7 +216,7 @@ Here is a example WMS: WhereGroup OSM WMS <a class="reference external" href="ht
 </ol>
 </section>
 <section id="what-next">
-<h2><a class="toc-backref" href="#id9" role="doc-backlink">What Next?</a><a class="headerlink" href="#what-next" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id9">What Next?</a><a class="headerlink" href="#what-next" title="Permalink to this headline">¶</a></h2>
 <p>This is only the first step on the road to using Mapbender. There is a lot more functionality you can try.</p>
 <ul class="simple">
 <li><p>Mapbender Website <a class="reference external" href="https://mapbender.org/">https://mapbender.org/</a></p></li>

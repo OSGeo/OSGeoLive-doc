@@ -4,7 +4,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>GeoServer Quickstart &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -13,7 +13,6 @@
     <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
@@ -64,7 +63,7 @@
   <a class="reference external image-reference" href="https://geoserver.org/"><img alt="../../_images/logo_geoserver.png" class="align-right" src="../../_images/logo_geoserver.png" /></a>
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
 <section id="geoserver-quickstart">
-<h1>GeoServer Quickstart<a class="headerlink" href="#geoserver-quickstart" title="Permalink to this heading">¶</a></h1>
+<h1>GeoServer Quickstart<a class="headerlink" href="#geoserver-quickstart" title="Permalink to this headline">¶</a></h1>
 <p>GeoServer is a java application for serving maps (and data) for other clients
 (such as web browsers) to draw. GeoServer comes with a browser-based management
 interface and connects to multiple data sources at the back end.</p>
@@ -78,7 +77,7 @@ interface and connects to multiple data sources at the back end.</p>
 <li><p>add a layer from a NetCDF file</p></li>
 </ul>
 </div></blockquote>
-<nav class="contents local" id="contents">
+<div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#start-geoserver" id="id1">Start Geoserver</a></p></li>
@@ -99,9 +98,9 @@ interface and connects to multiple data sources at the back end.</p>
 </li>
 <li><p><a class="reference internal" href="#what-next" id="id11">What next?</a></p></li>
 </ul>
-</nav>
+</div>
 <section id="start-geoserver">
-<h2><a class="toc-backref" href="#id1" role="doc-backlink">Start Geoserver</a><a class="headerlink" href="#start-geoserver" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id1">Start Geoserver</a><a class="headerlink" href="#start-geoserver" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic">
 <li><p>From the Start menu, select <span class="menuselection">Geospatial ‣ Web Services ‣ GeoServer ‣ Start GeoServer</span>. The
 application will take a few moments to start up and will open a web page at
@@ -137,7 +136,7 @@ will zoom in to the box selected (or as near as will fit in the screen).</p></li
 comfortable viewing existing data you can move on to adding some new data.</p>
 </section>
 <section id="loading-data">
-<h2><a class="toc-backref" href="#id2" role="doc-backlink">Loading data</a><a class="headerlink" href="#loading-data" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id2">Loading data</a><a class="headerlink" href="#loading-data" title="Permalink to this headline">¶</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>You will not be able to carry out the following steps if you are
@@ -186,7 +185,7 @@ default style. In the next section we will look at producing a nicer style.</p>
 natural earth store from the drop down box to get back to the store’s page.</p>
 </section>
 <section id="styling-data">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink">Styling data</a><a class="headerlink" href="#styling-data" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id3">Styling data</a><a class="headerlink" href="#styling-data" title="Permalink to this headline">¶</a></h2>
 <p>Styling a data set into a map layer GeoServer uses an OGC standard called <a class="reference external" href="https://www.ogc.org/standards/sld">Styled Layer Descriptor (SLD)</a>.
 These are represented as XML files which describe the rules that are used to
 apply various symbolizers to the data.</p>
@@ -196,7 +195,7 @@ editor is better. There are several options here but uDig allows you to open the
 shapefiles directly and apply simple styles using a GUI. It also provides a
 simple editor to modify the XML if I need to.</p>
 <section id="using-ug-to-create-simple-styles">
-<h3><a class="toc-backref" href="#id4" role="doc-backlink">Using uDig to create simple styles</a><a class="headerlink" href="#using-ug-to-create-simple-styles" title="Permalink to this heading">¶</a></h3>
+<h3><a class="toc-backref" href="#id4">Using uDig to create simple styles</a><a class="headerlink" href="#using-ug-to-create-simple-styles" title="Permalink to this headline">¶</a></h3>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>For more details on how to use uDig see the <a class="reference internal" href="udig_quickstart.html"><span class="doc">uDig Quickstart</span></a></p>
@@ -232,7 +231,7 @@ will match.</p>
 <a class="reference internal image-reference" href="../../_images/geoserver-basic-world.png"><img alt="A basic word map" class="align-center" src="../../_images/geoserver-basic-world.png" style="width: 743.4px; height: 375.2px;" /></a>
 </section>
 <section id="adding-the-style-to-geoserver">
-<h3><a class="toc-backref" href="#id5" role="doc-backlink">Adding the style to GeoServer</a><a class="headerlink" href="#adding-the-style-to-geoserver" title="Permalink to this heading">¶</a></h3>
+<h3><a class="toc-backref" href="#id5">Adding the style to GeoServer</a><a class="headerlink" href="#adding-the-style-to-geoserver" title="Permalink to this headline">¶</a></h3>
 <p>Now we need to transfer these styles to GeoServer.</p>
 <ol class="arabic simple">
 <li><p>On the style window there is an export button which allows you to save the
@@ -252,7 +251,7 @@ don’t do anything).</p></li>
 <a class="reference internal image-reference" href="../../_images/geoserver-add-style.png"><img alt="Adding a Style to GeoServer" class="align-center" src="../../_images/geoserver-add-style.png" style="width: 765.0999999999999px; height: 455.7px;" /></a>
 </section>
 <section id="adding-the-style-to-the-layer">
-<h3><a class="toc-backref" href="#id6" role="doc-backlink">Adding the style to the layer</a><a class="headerlink" href="#adding-the-style-to-the-layer" title="Permalink to this heading">¶</a></h3>
+<h3><a class="toc-backref" href="#id6">Adding the style to the layer</a><a class="headerlink" href="#adding-the-style-to-the-layer" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic simple">
 <li><p>Click on the <span class="guilabel">Layers</span> link in the Menu on the left of the GeoServer
 window.</p></li>
@@ -271,7 +270,7 @@ layers in <code class="file docutils literal notranslate"><span class="pre">/usr
 </section>
 </section>
 <section id="clients-for-wms-layers">
-<h2><a class="toc-backref" href="#id7" role="doc-backlink">Clients for WMS layers</a><a class="headerlink" href="#clients-for-wms-layers" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id7">Clients for WMS layers</a><a class="headerlink" href="#clients-for-wms-layers" title="Permalink to this headline">¶</a></h2>
 <p>The <a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a> layers you are serving from GeoServer can be used with a variety of clients
 on this OSGeoLive distribution, including:</p>
 <ul class="simple">
@@ -281,10 +280,10 @@ on this OSGeoLive distribution, including:</p>
 </ul>
 </section>
 <section id="add-a-layer-from-a-netcdf-file">
-<h2><a class="toc-backref" href="#id8" role="doc-backlink">Add a layer from a NetCDF file</a><a class="headerlink" href="#add-a-layer-from-a-netcdf-file" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id8">Add a layer from a NetCDF file</a><a class="headerlink" href="#add-a-layer-from-a-netcdf-file" title="Permalink to this headline">¶</a></h2>
 <p>The GeoServer NetCDF plugin allows the publication of rasters from NetCDF files.</p>
 <section id="configure-a-netcdf-store">
-<h3><a class="toc-backref" href="#id9" role="doc-backlink">Configure a NetCDF store</a><a class="headerlink" href="#configure-a-netcdf-store" title="Permalink to this heading">¶</a></h3>
+<h3><a class="toc-backref" href="#id9">Configure a NetCDF store</a><a class="headerlink" href="#configure-a-netcdf-store" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic">
 <li><p>After running “Start GeoServer”</p></li>
 <li><p>Login as the administrator.</p></li>
@@ -304,7 +303,7 @@ URL. You can use this sample file:</p>
 </ol>
 </section>
 <section id="preview-the-netcdf-layer">
-<h3><a class="toc-backref" href="#id10" role="doc-backlink">Preview the NetCDF layer</a><a class="headerlink" href="#preview-the-netcdf-layer" title="Permalink to this heading">¶</a></h3>
+<h3><a class="toc-backref" href="#id10">Preview the NetCDF layer</a><a class="headerlink" href="#preview-the-netcdf-layer" title="Permalink to this headline">¶</a></h3>
 <ol class="arabic">
 <li><p>Select “Layer Preview” from the menu on the left</p></li>
 <li><p>Scroll down to find the “cite:O3” entry, and click on the “OpenLayers” link
@@ -323,7 +322,7 @@ directories.</p>
 </section>
 </section>
 <section id="what-next">
-<h2><a class="toc-backref" href="#id11" role="doc-backlink">What next?</a><a class="headerlink" href="#what-next" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id11">What next?</a><a class="headerlink" href="#what-next" title="Permalink to this headline">¶</a></h2>
 <p>This is only the first step on the road to using GeoServer. There is a lot more
 functionality you can try.</p>
 <ul class="simple">

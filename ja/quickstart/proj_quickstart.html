@@ -4,7 +4,7 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>PROJクイックスタート &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -13,7 +13,6 @@
     <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/translations.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
@@ -65,28 +64,28 @@
   <a class="reference external image-reference" href="https://proj.org/"><img alt="../../_images/logo_proj.png" class="align-right" src="../../_images/logo_proj.png" /></a>
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
 <section id="proj-quickstart">
-<h1>PROJクイックスタート<a class="headerlink" href="#proj-quickstart" title="この見出しへのパーマリンク">¶</a></h1>
+<h1>PROJクイックスタート<a class="headerlink" href="#proj-quickstart" title="このヘッドラインへのパーマリンク">¶</a></h1>
 <p>PROJは、地理的な経緯度座標をデカルト座標に(またはその逆に)変換する標準的なUnixのフィルタ関数であり、ソフトウェア開発者が自身のソフトウェアに座標変換を含めるためのC APIです。</p>
-<nav class="contents local" id="this-quick-start-describes-how-to-use-these-tools">
+<div class="contents local topic" id="this-quick-start-describes-how-to-use-these-tools">
 <p class="topic-title">This Quick Start describes how to use these tools :</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#proj" id="id2">PROJ</a></p></li>
 <li><p><a class="reference internal" href="#cs2cs" id="id3">cs2cs</a></p></li>
 <li><p><a class="reference internal" href="#geod" id="id4">geod</a></p></li>
 </ul>
-</nav>
+</div>
 <section id="proj">
-<h2><a class="toc-backref" href="#id2" role="doc-backlink">PROJ</a><a class="headerlink" href="#proj" title="この見出しへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#id2">PROJ</a><a class="headerlink" href="#proj" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <div class="admonition note">
 <p class="admonition-title">注釈</p>
 <p><strong>何を学べますか?</strong> このセクションでは、PROJツールの使用方法を学習します。</p>
 </div>
 <section id="what-is-proj">
-<h3>PROJとは？<a class="headerlink" href="#what-is-proj" title="この見出しへのパーマリンク">¶</a></h3>
+<h3>PROJとは？<a class="headerlink" href="#what-is-proj" title="このヘッドラインへのパーマリンク">¶</a></h3>
 <p>PROJとinvprojは、選択可能なデカルト関数を使用して、投影データとの間で地図データの順変換と逆変換を行います。</p>
 </section>
 <section id="proj-synopsis">
-<h3>proj概要<a class="headerlink" href="#proj-synopsis" title="この見出しへのパーマリンク">¶</a></h3>
+<h3>proj概要<a class="headerlink" href="#proj-synopsis" title="このヘッドラインへのパーマリンク">¶</a></h3>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">proj</span> <span class="p">[</span> <span class="o">-</span><span class="n">bcCeEfiIlmorsStTvVwW</span> <span class="p">[</span> <span class="n">args</span> <span class="p">]</span> <span class="p">]</span> <span class="p">[</span> <span class="o">+</span><span class="n">args</span> <span class="p">]</span> <span class="n">file</span><span class="p">[</span><span class="n">s</span><span class="p">]</span>
 <span class="n">invproj</span> <span class="p">[</span> <span class="o">-</span><span class="n">bcCeEfiIlmorsStTwW</span> <span class="p">[</span> <span class="n">args</span> <span class="p">]</span> <span class="p">]</span> <span class="p">[</span> <span class="o">+</span><span class="n">args</span> <span class="p">]</span> <span class="n">file</span><span class="p">[</span><span class="n">s</span><span class="p">]</span>
 </pre></div>
@@ -94,7 +93,7 @@
 <p>これらのコマンドについては、最新バージョンの  <a class="reference external" href="https://proj.org/apps/proj.html">proj ドキュメント</a> で詳しく説明しています。</p>
 </section>
 <section id="proj-example">
-<h3>PROJの例<a class="headerlink" href="#proj-example" title="この見出しへのパーマリンク">¶</a></h3>
+<h3>PROJの例<a class="headerlink" href="#proj-example" title="このヘッドラインへのパーマリンク">¶</a></h3>
 <p>次のスクリプト</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">proj</span> <span class="o">+</span><span class="n">proj</span><span class="o">=</span><span class="n">utm</span>  <span class="o">+</span><span class="n">lon_0</span><span class="o">=</span><span class="mi">112</span><span class="n">w</span>  <span class="o">+</span><span class="n">ellps</span><span class="o">=</span><span class="n">clrk66</span>
 <span class="o">-</span><span class="n">r</span> <span class="o">&lt;&lt;</span><span class="n">EOF</span>
@@ -111,24 +110,24 @@
 </section>
 </section>
 <section id="cs2cs">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink">cs2cs</a><a class="headerlink" href="#cs2cs" title="この見出しへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#id3">cs2cs</a><a class="headerlink" href="#cs2cs" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <div class="admonition note">
 <p class="admonition-title">注釈</p>
 <p><strong>何を学べますか?</strong> このセクションでは、cs2csツールの使用方法を学習します。</p>
 </div>
 <section id="what-is-cs2cs">
-<h3>cs2csとは？<a class="headerlink" href="#what-is-cs2cs" title="この見出しへのパーマリンク">¶</a></h3>
+<h3>cs2csとは？<a class="headerlink" href="#what-is-cs2cs" title="このヘッドラインへのパーマリンク">¶</a></h3>
 <p><code class="docutils literal notranslate"><span class="pre">cs2cs</span></code> は、一連の入力点上で、変換元と変換先の地図作成座標系間の変換を行います。座標系変換には、投影座標と地理座標との間の平行移動や、データムシフトの適用が含まれます。</p>
 </section>
 <section id="cs2cs-synopsis">
-<h3>cs2cs概要<a class="headerlink" href="#cs2cs-synopsis" title="この見出しへのパーマリンク">¶</a></h3>
+<h3>cs2cs概要<a class="headerlink" href="#cs2cs-synopsis" title="このヘッドラインへのパーマリンク">¶</a></h3>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cs2cs</span> <span class="p">[</span> <span class="o">-</span><span class="n">eEfIlrstvwW</span> <span class="p">[</span> <span class="n">args</span> <span class="p">]</span> <span class="p">]</span> <span class="p">[</span> <span class="o">+</span><span class="n">opts</span><span class="p">[</span><span class="o">=</span><span class="n">arg</span><span class="p">]</span> <span class="p">]</span> <span class="p">[</span> <span class="o">+</span><span class="n">to</span> <span class="p">[</span><span class="o">+</span><span class="n">opts</span><span class="p">[</span><span class="o">=</span><span class="n">arg</span><span class="p">]]</span> <span class="p">]</span> <span class="n">file</span><span class="p">[</span><span class="n">s</span><span class="p">]</span>
 </pre></div>
 </div>
 <p>これらのコマンドについては、最新版の <a class="reference external" href="https://proj.org/apps/cs2cs.html">cs2cs ドキュメント</a> を参照してください。</p>
 </section>
 <section id="cs2cs-example">
-<h3>cs2csの例<a class="headerlink" href="#cs2cs-example" title="この見出しへのパーマリンク">¶</a></h3>
+<h3>cs2csの例<a class="headerlink" href="#cs2cs-example" title="このヘッドラインへのパーマリンク">¶</a></h3>
 <p>次のスクリプト</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cs2cs</span> <span class="o">+</span><span class="n">proj</span><span class="o">=</span><span class="n">latlong</span> <span class="o">+</span><span class="n">datum</span><span class="o">=</span><span class="n">NAD83</span>
       <span class="o">+</span><span class="n">to</span> <span class="o">+</span><span class="n">proj</span><span class="o">=</span><span class="n">utm</span> <span class="o">+</span><span class="n">zone</span><span class="o">=</span><span class="mi">10</span>  <span class="o">+</span><span class="n">datum</span><span class="o">=</span><span class="n">NAD27</span>
@@ -146,18 +145,18 @@
 </section>
 </section>
 <section id="geod">
-<h2><a class="toc-backref" href="#id4" role="doc-backlink">geod</a><a class="headerlink" href="#geod" title="この見出しへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#id4">geod</a><a class="headerlink" href="#geod" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <div class="admonition note">
 <p class="admonition-title">注釈</p>
 <p><strong>何を学べますか?</strong> このセクションでは、geodツールの使用方法を学習します。</p>
 </div>
 <section id="what-is-geod">
-<h3>geod とは?<a class="headerlink" href="#what-is-geod" title="この見出しへのパーマリンク">¶</a></h3>
+<h3>geod とは?<a class="headerlink" href="#what-is-geod" title="このヘッドラインへのパーマリンク">¶</a></h3>
 <p><code class="docutils literal notranslate"><span class="pre">geod</span></code> (直接) と <code class="docutils literal notranslate"><span class="pre">invgeod</span></code> (逆) は、測地線 (&quot;Great Circle&quot;) 計算を実行します。この計算では、最初の点の緯度、経度、方位角、距離 (直接) 、または前後の方位角と最初と最後の点の間の距離 (逆) を指定します。結果は、 <cite>|f| &lt; 1/50</cite> (fは平坦化) の丸めに適しています。</p>
 <p><code class="docutils literal notranslate"><span class="pre">invgeod</span></code> はすべてのプラットフォームで利用できるわけではありません。この場合、-Iオプションを指定してgeodを呼び出してください。</p>
 </section>
 <section id="geod-synopsis">
-<h3>geod概要<a class="headerlink" href="#geod-synopsis" title="この見出しへのパーマリンク">¶</a></h3>
+<h3>geod概要<a class="headerlink" href="#geod-synopsis" title="このヘッドラインへのパーマリンク">¶</a></h3>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">geod</span> <span class="o">+</span><span class="n">ellps</span><span class="o">=&lt;</span><span class="n">ellipse</span><span class="o">&gt;</span> <span class="p">[</span> <span class="o">-</span><span class="n">afFIlptwW</span> <span class="p">[</span> <span class="n">args</span> <span class="p">]</span> <span class="p">]</span> <span class="p">[</span> <span class="o">+</span><span class="n">args</span> <span class="p">]</span> <span class="n">file</span><span class="p">[</span><span class="n">s</span><span class="p">]</span>
 
 <span class="n">invgeod</span> <span class="o">+</span><span class="n">ellps</span><span class="o">=&lt;</span><span class="n">ellipse</span><span class="o">&gt;</span> <span class="p">[</span> <span class="o">-</span><span class="n">afFIlptwW</span> <span class="p">[</span> <span class="n">args</span>  <span class="p">]</span>  <span class="p">]</span>  <span class="p">[</span>  <span class="o">+</span><span class="n">args</span>  <span class="p">]</span> <span class="n">file</span><span class="p">[</span><span class="n">s</span><span class="p">]</span>
@@ -166,7 +165,7 @@
 <p>これらのコマンドについては、最新バージョンの  <a class="reference external" href="https://proj.org/apps/proj.html">proj ドキュメント</a> で詳しく説明しています。</p>
 </section>
 <section id="geod-example">
-<h3>geodの例<a class="headerlink" href="#geod-example" title="この見出しへのパーマリンク">¶</a></h3>
+<h3>geodの例<a class="headerlink" href="#geod-example" title="このヘッドラインへのパーマリンク">¶</a></h3>
 <p>次のスクリプトは、測地線の方位角と距離を計算します。マサチューセッツ州ボストンからオレゴン州ポートランドまでの法定マイル:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">geod</span> <span class="o">+</span><span class="n">ellps</span><span class="o">=</span><span class="n">clrk66</span> <span class="o">&lt;&lt;</span><span class="n">EOF</span> <span class="o">-</span><span class="n">I</span> <span class="o">+</span><span class="n">units</span><span class="o">=</span><span class="n">us</span><span class="o">-</span><span class="n">mi</span>
 <span class="mi">42</span><span class="n">d15</span><span class="s1">&#39;N 71d07&#39;</span><span class="n">W</span> <span class="mi">45</span><span class="n">d31</span><span class="s1">&#39;N 123d41&#39;</span><span class="n">W</span>
@@ -194,7 +193,7 @@
 </div>
 </section>
 <section id="further-reading">
-<h3>さらに読む<a class="headerlink" href="#further-reading" title="この見出しへのパーマリンク">¶</a></h3>
+<h3>さらに読む<a class="headerlink" href="#further-reading" title="このヘッドラインへのパーマリンク">¶</a></h3>
 <ol class="arabic simple">
 <li><p><a class="reference external" href="https://geographiclib.sourceforge.io/">GeographicLib</a></p></li>
 <li><p><a class="reference external" href="https://link.springer.com/article/10.1007/s00190-012-0578-z">C. F. F. Karney, Algorithms for Geodesics, J. Geodesy 87, 43-55 (2013)</a>.

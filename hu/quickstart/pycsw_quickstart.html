@@ -4,7 +4,7 @@
 <html lang="hu">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>pycsw gyorstalpaló &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -13,7 +13,6 @@
     <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/translations.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
@@ -65,9 +64,9 @@
   <a class="reference external image-reference" href="https://pycsw.org/"><img alt="../../_images/logo_pycsw.png" class="align-right" src="../../_images/logo_pycsw.png" /></a>
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
 <section id="pycsw-quickstart">
-<h1>pycsw gyorstalpaló<a class="headerlink" href="#pycsw-quickstart" title="Permalink to this heading">¶</a></h1>
+<h1>pycsw gyorstalpaló<a class="headerlink" href="#pycsw-quickstart" title="Hivatkozás erre a fejezetcímre">¶</a></h1>
 <p>A pycsw egy <a class="reference external" href="https://www.python.org">Pythonban</a> írt  OGC CSW szerver implementáció. A pycsw lehetővé teszi térbeli metaadatok publikálását és felfedezését. Létező térbeli metaadatok feltárhatók OGC:CSW 2.0.2 vagy OGC:CSW 3.0.0 keresztül.</p>
-<nav class="contents local" id="contents">
+<div class="contents local topic" id="contents">
 <p class="topic-title">Tartalom</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#run-the-tester-application" id="id2">Teszt alkalmazás futtatása</a></p></li>
@@ -83,9 +82,9 @@
 <li><p><a class="reference internal" href="#things-to-try" id="id9">Kipróbálandó dolgok</a></p></li>
 <li><p><a class="reference internal" href="#what-next" id="id10">Mi a következő?</a></p></li>
 </ul>
-</nav>
+</div>
 <section id="run-the-tester-application">
-<h2><a class="toc-backref" href="#id2" role="doc-backlink">Teszt alkalmazás futtatása</a><a class="headerlink" href="#run-the-tester-application" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id2">Teszt alkalmazás futtatása</a><a class="headerlink" href="#run-the-tester-application" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <ol class="arabic">
 <li><p>Az asztalon menjen a <cite>Web Services –&gt; pycsw</cite>-re vagy nyissa meg a FireFox-ot és navigáljon a <code class="docutils literal notranslate"><span class="pre">http://localhost/pycsw/tests/index.html</span></code> oldalra:</p>
 <a class="reference internal image-reference" href="../../_images/pycsw_tester_startup.png"><img alt="../../_images/pycsw_tester_startup.png" src="../../_images/pycsw_tester_startup.png" style="width: 481.5px; height: 378.0px;" /></a>
@@ -108,14 +107,14 @@
 <p>Végigmehet az összes elérhető lekérdezésen és a tesztelő alkalmazásból végrehajthat különböző lekérdezéseket.</p>
 </section>
 <section id="understand-capabilities-and-configuration">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink">A képességek és a konfiguráció megértése</a><a class="headerlink" href="#understand-capabilities-and-configuration" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id3">A képességek és a konfiguráció megértése</a><a class="headerlink" href="#understand-capabilities-and-configuration" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>A pycsw telepítés képességei a  <code class="docutils literal notranslate"><span class="pre">http://localhost/pycsw?service=CSW&amp;version=2.0.2&amp;request=GetCapabilities</span></code> oldalon találhatók.  Ha csak a <code class="docutils literal notranslate"><span class="pre">http://localhost/pycsw</span></code> linket használja, akkor a CSW 3.0.0, képességek dokumentumát kapja meg, mivel az a legújabb támogatott változat.</p>
 <p>A képességek dokumentumban található web szolgáltatás metaadatok szerkesztéséhez módisíthatja az <cite>/etc/pycsw/default.cfg`</cite> fájlt a <code class="docutils literal notranslate"><span class="pre">[metadata:main]</span></code> címke alatt.</p>
 <p>Ha engedélyezni akarja az INSPIRE Discovery Service támogatást, töltse ki a metaadatokat a <code class="docutils literal notranslate"><span class="pre">[metadata:inspire]</span></code>  címke alatt és állítsa az  <code class="docutils literal notranslate"><span class="pre">enabled</span></code>  tulajdonságot <code class="docutils literal notranslate"><span class="pre">true</span></code>-ra.</p>
 <p>Kérjük nézze meg a pycsw honlapon a <a class="reference external" href="https://pycsw.org/docs/">dokumentációt</a> a teljes funkcionalitás és konfiguráció beállításokhoz.</p>
 </section>
 <section id="create-metadata">
-<h2><a class="toc-backref" href="#id4" role="doc-backlink">Metaadatok létrehozása</a><a class="headerlink" href="#create-metadata" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id4">Metaadatok létrehozása</a><a class="headerlink" href="#create-metadata" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>A térbeli adatokhoz vagy térbeli webszolgáltatáshoz készült metaadatfájlok a metaadatokra vonatkozó inspire irányelv nyílt forráskódú megvalósításával, az European Open Source Metadata Editor  (EUOSME) segítségével hozhatók létre. Ez az alkalmazás megtalálható a <code class="docutils literal notranslate"><span class="pre">http://inspire-geoportal.ec.europa.eu/editor/</span></code> oldalon. A forráskód a <code class="docutils literal notranslate"><span class="pre">https://joinup.ec.europa.eu/svn/euosme/trunk</span></code> oldalon.</p>
 <p>Kitöltheti a kötelező metaadat mezőket az alkalmazás fülein végighaladva, mint a név, az adat tulajdonos, kulcsszavak, az adatforrás a weben, földrajzi elhelyezkedés (befoglaló téglalap vagy egy ország neve), stb.</p>
 <a class="reference internal image-reference" href="../../_images/pycsw_euosme_metadata_input.png"><img alt="../../_images/pycsw_euosme_metadata_input.png" src="../../_images/pycsw_euosme_metadata_input.png" style="width: 831.75px; height: 485.25px;" /></a>
@@ -124,7 +123,7 @@
 <p>A sikeres ellenőrzés után az XML fájlt elmentheti a helyi lemezre és megnézheti egy szövegszerkesztőben vagy böngészőben.</p>
 </section>
 <section id="load-metadata">
-<h2><a class="toc-backref" href="#id5" role="doc-backlink">Metaadatok betöltése</a><a class="headerlink" href="#load-metadata" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id5">Metaadatok betöltése</a><a class="headerlink" href="#load-metadata" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>pycsw a következő adatbázisokat támogatja:</p>
 <ul class="simple">
 <li><p>SQLite3</p></li>
@@ -133,7 +132,7 @@
 </ul>
 <p>Az OSGeoLive-ban egy egyszerű SQLite beállítást implementáltunk. Az adatbázis itt található <code class="docutils literal notranslate"><span class="pre">/usr/share/pycsw/tests/suites/cite/data/records.db</span></code></p>
 <section id="create-a-new-database">
-<h3><a class="toc-backref" href="#id6" role="doc-backlink">Új adatbázis létrehozása</a><a class="headerlink" href="#create-a-new-database" title="Permalink to this heading">¶</a></h3>
+<h3><a class="toc-backref" href="#id6">Új adatbázis létrehozása</a><a class="headerlink" href="#create-a-new-database" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
 <p>Egy új SQLite adatbázis létrehozásához ezeket kell tennünk:</p>
 <ol class="arabic">
 <li><p>Szerkessze a <code class="docutils literal notranslate"><span class="pre">/etc/pycsw/default.cfg</span></code>:</p>
@@ -161,7 +160,7 @@ $ ogrinfo -al /path/to/records.db
 </div>
 </section>
 <section id="import-metadata">
-<h3><a class="toc-backref" href="#id7" role="doc-backlink">Metaadatok importálása</a><a class="headerlink" href="#import-metadata" title="Permalink to this heading">¶</a></h3>
+<h3><a class="toc-backref" href="#id7">Metaadatok importálása</a><a class="headerlink" href="#import-metadata" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo pycsw-admin -c load_records -f /etc/pycsw/default.cfg -p /path/to/records -r
 </pre></div>
 </div>
@@ -169,7 +168,7 @@ $ ogrinfo -al /path/to/records.db
 </section>
 </section>
 <section id="data-discovery-through-qgis-metasearch-plugin">
-<h2><a class="toc-backref" href="#id8" role="doc-backlink">Adatok felfedezése a QGIS MetaSearch modullal</a><a class="headerlink" href="#data-discovery-through-qgis-metasearch-plugin" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id8">Adatok felfedezése a QGIS MetaSearch modullal</a><a class="headerlink" href="#data-discovery-through-qgis-metasearch-plugin" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <ol class="arabic simple">
 <li><p>Az asztalon válassza a <cite>Desktop GIS –&gt; QGIS</cite>-t a QGIS indításához majd kattintson a <span class="guilabel">MetaSearch</span> gombra (CSW ikon)</p></li>
 </ol>
@@ -188,7 +187,7 @@ $ ogrinfo -al /path/to/records.db
 <a class="reference internal image-reference" href="../../_images/pycsw_qgis_metasearch_search.png"><img alt="../../_images/pycsw_qgis_metasearch_search.png" src="../../_images/pycsw_qgis_metasearch_search.png" style="width: 490.5px; height: 434.25px;" /></a>
 </section>
 <section id="things-to-try">
-<h2><a class="toc-backref" href="#id9" role="doc-backlink">Kipróbálandó dolgok</a><a class="headerlink" href="#things-to-try" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id9">Kipróbálandó dolgok</a><a class="headerlink" href="#things-to-try" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <ul class="simple">
 <li><p>Próbálja meg a tesztelő alkalmazáson keresztül felfedezni az adatokat, egy megfelelő kérés beállításával pl. tetszőleges szöveges keresés az „imagery” szöveggel az EUOSME által létrehozott xml adatok felfedezéséhez</p></li>
 </ul>
@@ -199,7 +198,7 @@ $ ogrinfo -al /path/to/records.db
 </ul>
 </section>
 <section id="what-next">
-<h2><a class="toc-backref" href="#id10" role="doc-backlink">Mi a következő?</a><a class="headerlink" href="#what-next" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id10">Mi a következő?</a><a class="headerlink" href="#what-next" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>Forduljon a pywcs honlapon található <a class="reference external" href="https://pycsw.org/docs/">dokumentációhoz</a>  további információkért a pycsw-ről.</p>
 </section>
 </section>

@@ -4,7 +4,7 @@
 <html lang="hu">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>Indítható OSGeoLive USB meghajtó létrehozása &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -13,7 +13,6 @@
     <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/translations.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
@@ -63,18 +62,18 @@
           <div class="body" role="main">
             
   <section id="creating-an-osgeolive-bootable-usb-flash-drive">
-<h1>Indítható OSGeoLive USB meghajtó létrehozása<a class="headerlink" href="#creating-an-osgeolive-bootable-usb-flash-drive" title="Permalink to this heading">¶</a></h1>
+<h1>Indítható OSGeoLive USB meghajtó létrehozása<a class="headerlink" href="#creating-an-osgeolive-bootable-usb-flash-drive" title="Hivatkozás erre a fejezetcímre">¶</a></h1>
 <p>Ez a gyorstalpaló ismerteti egy betölthető OSGeoLive USB meghajtó preferált létrehozását. Az USB-ről történő rendszer indítás gyorsabb mint a DVD-ről és az USB meghajtó konfigurálható, hogy megőrizze az adatokat két használat között (ezt perzisztenciának nevezzük)</p>
 <p>Úgy tapasztaltuk, hogy számos váratlan fordulat lehet és számos trükk szükséges az USB meghajtó elkészítéséhez. Dokumentáltuk, amit tudunk, de valószínűleg további trükkök és problémák lehetnek. A legújabb trükköket itt találja: <a class="reference external" href="https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB">https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB</a></p>
 <section id="requirements">
-<h2>Követelmények<a class="headerlink" href="#requirements" title="Permalink to this heading">¶</a></h2>
+<h2>Követelmények<a class="headerlink" href="#requirements" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <ul class="simple">
 <li><p>Egy USB meghajtó (8+ GB ajánlott).</p></li>
 <li><p>Egy OSGeoLive ISO kép (a <a class="reference internal" href="../download.html"><span class="doc">OSGeoLive downloads</span></a> címről töltheti le) vagy egy DVD-ről konvertálhatja.</p></li>
 </ul>
 </section>
 <section id="creating-bootable-usb-drive-with-dd-under-linux">
-<h2>Indítható USB meghajtó létrehozása Linux-on <code class="docutils literal notranslate"><span class="pre">dd</span></code> paranccsal<a class="headerlink" href="#creating-bootable-usb-drive-with-dd-under-linux" title="Permalink to this heading">¶</a></h2>
+<h2>Indítható USB meghajtó létrehozása Linux-on <code class="docutils literal notranslate"><span class="pre">dd</span></code> paranccsal<a class="headerlink" href="#creating-bootable-usb-drive-with-dd-under-linux" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>Az OSGeoLive 10.5 és későbbi ISO állományok „isohybrid”-ek (és az amd64-hez az UEFI betöltést is támogatják).  Linux-on ezek az állományok közvetlenül az USB blokk eszközre írhatók a <code class="docutils literal notranslate"><span class="pre">dd</span></code> parancssori segédprogrammal:</p>
 <div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">sudo dd if=osgeolive-10.5-amd64.iso of=/dev/sdX bs=4M; sync</span>
 </pre></div>
@@ -91,7 +90,7 @@
 </div>
 </section>
 <section id="creating-bootable-usb-drive-with-ubuntu-startup-disk-creator">
-<h2>Indítható USB meghajtó létrehozása az Ubuntu Startup Disk Creator-ral<a class="headerlink" href="#creating-bootable-usb-drive-with-ubuntu-startup-disk-creator" title="Permalink to this heading">¶</a></h2>
+<h2>Indítható USB meghajtó létrehozása az Ubuntu Startup Disk Creator-ral<a class="headerlink" href="#creating-bootable-usb-drive-with-ubuntu-startup-disk-creator" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>(Ez a javasolt eljárás az USB létrehozásához. Használható a Ubuntu-hoz és az Ubuntu variánsokhoz mint például az OSGeoLive.)</p>
 <div class="admonition note">
 <p class="admonition-title">Megjegyzés</p>
@@ -116,7 +115,7 @@
 <p>Várjon kb. 20 percig az USB meghajtó elkészítésére.</p>
 </section>
 <section id="booting-from-the-usb-drive">
-<h2>Indítás az USB meghajtóról:<a class="headerlink" href="#booting-from-the-usb-drive" title="Permalink to this heading">¶</a></h2>
+<h2>Indítás az USB meghajtóról:<a class="headerlink" href="#booting-from-the-usb-drive" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <ol class="arabic simple">
 <li><p>Kezdjen kikapcsolt számítógéppel.</p></li>
 <li><p>Dugja meg az USB meghajtót egy szabad USB csatlakozóba.</p></li>
@@ -137,11 +136,11 @@
 </ol>
 </section>
 <section id="run">
-<h2>Futtatás:<a class="headerlink" href="#run" title="Permalink to this heading">¶</a></h2>
+<h2>Futtatás:<a class="headerlink" href="#run" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>Futtassa a leírás szerint: <a class="reference internal" href="osgeolive_quickstart.html"><span class="doc">Első lépések az OSGeoLive-val</span></a></p>
 </section>
 <section id="see-also">
-<h2>Lásd még:<a class="headerlink" href="#see-also" title="Permalink to this heading">¶</a></h2>
+<h2>Lásd még:<a class="headerlink" href="#see-also" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <blockquote>
 <div><ul class="simple">
 <li><p><a class="reference internal" href="osgeolive_quickstart.html"><span class="doc">Első lépések az OSGeoLive-val</span></a></p></li>

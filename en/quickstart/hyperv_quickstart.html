@@ -4,7 +4,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>Running in a Hyper-V Virtual Machine &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -13,7 +13,6 @@
     <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
@@ -62,7 +61,7 @@
           <div class="body" role="main">
             
   <section id="running-in-a-hyper-v-virtual-machine">
-<h1>Running in a Hyper-V Virtual Machine<a class="headerlink" href="#running-in-a-hyper-v-virtual-machine" title="Permalink to this heading">¶</a></h1>
+<h1>Running in a Hyper-V Virtual Machine<a class="headerlink" href="#running-in-a-hyper-v-virtual-machine" title="Permalink to this headline">¶</a></h1>
 <p>This Quick Start describes how to run OSGeoLive using Hyper-V, Microsoft’s virtualisation software. For other methods, follow links from the “See Also” section below.
 Hyper-V is available on both Windows Server, and Windows 10 Professional - it is not part of Windows 10 Home.</p>
 <p>The advantages of using a virtual machine are the same as those outlined at <a class="reference internal" href="virtualization_quickstart.html"><span class="doc">Running in a Virtual Machine</span></a>. Unfortunately Virtual Box and Hyper-V
@@ -70,7 +69,7 @@ cannot be run simultaneously. This leaves 2 options - disabling the Hyper-V feat
 A free tool <a class="reference external" href="https://unclassified.software/en/apps/hypervswitch">hypervswitch</a> can be used to quickly enable and disable Hyper-V - however it still
 requires a reboot each time the setting is changed. The rest of this page documents how to configure OSGeoLive to run on Hyper-V.</p>
 <section id="system-requirements">
-<h2>System Requirements<a class="headerlink" href="#system-requirements" title="Permalink to this heading">¶</a></h2>
+<h2>System Requirements<a class="headerlink" href="#system-requirements" title="Permalink to this headline">¶</a></h2>
 <p>Hyper-V requirements can be found <a class="reference external" href="https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/reference/hyper-v-requirements">here</a>.
 This link also provides information on checking if your machine is compatible using the <code class="docutils literal notranslate"><span class="pre">systeminfo</span></code> command. In summary the host machine
 needs to have the following hardware requirements:</p>
@@ -80,18 +79,18 @@ needs to have the following hardware requirements:</p>
 </ul>
 </section>
 <section id="downloads-and-virtual-machine-conversion">
-<h2>Downloads and Virtual Machine Conversion<a class="headerlink" href="#downloads-and-virtual-machine-conversion" title="Permalink to this heading">¶</a></h2>
+<h2>Downloads and Virtual Machine Conversion<a class="headerlink" href="#downloads-and-virtual-machine-conversion" title="Permalink to this headline">¶</a></h2>
 <p>Download the OSGeoLive VirtualBox virtual hard disk (vmdk) by following the links on <a class="reference internal" href="../download.html"><span class="doc">live.osgeo.org</span></a>.
 Once downloaded unzip the downloaded file (using <a class="reference external" href="https://www.7-zip.org">7zip</a> ).</p>
 <p>The virtual machine image format for Hyper-V differs from the VirtualBox download. The file therefore has to be converted from <code class="docutils literal notranslate"><span class="pre">vmdk</span></code> to
 <code class="docutils literal notranslate"><span class="pre">vhdx</span></code>. There are currently two conversion options available.</p>
 <section id="starwind-v2v-converter">
-<h3>StarWind V2V Converter<a class="headerlink" href="#starwind-v2v-converter" title="Permalink to this heading">¶</a></h3>
+<h3>StarWind V2V Converter<a class="headerlink" href="#starwind-v2v-converter" title="Permalink to this headline">¶</a></h3>
 <p>Use the <a class="reference external" href="https://www.starwindsoftware.com/starwind-v2v-converter">StarWind V2V Converter</a> program. This has a simple user interface allowing you to select the
 <code class="docutils literal notranslate"><span class="pre">osgeo-live-XX.X-vm.vmdk</span></code> file and convert to a <em>Microsoft VHDX</em> image.</p>
 </section>
 <section id="microsoft-virtual-machine-converter-3-0">
-<h3>Microsoft Virtual Machine Converter 3.0<a class="headerlink" href="#microsoft-virtual-machine-converter-3-0" title="Permalink to this heading">¶</a></h3>
+<h3>Microsoft Virtual Machine Converter 3.0<a class="headerlink" href="#microsoft-virtual-machine-converter-3-0" title="Permalink to this headline">¶</a></h3>
 <p>The second more complicated option is as follows.</p>
 <ol class="arabic simple">
 <li><p>Download the <a class="reference external" href="https://www.microsoft.com/en-us/download/details.aspx?id=42497">Microsoft Virtual Machine Converter 3.0</a> and install.</p></li>
@@ -130,7 +129,7 @@ ConvertTo-MvmcVirtualHardDisk -SourceLiteralPath .\osgeo-live-11.0-vm.vmdk -VhdF
 </section>
 </section>
 <section id="how-to">
-<h2>How-To<a class="headerlink" href="#how-to" title="Permalink to this heading">¶</a></h2>
+<h2>How-To<a class="headerlink" href="#how-to" title="Permalink to this headline">¶</a></h2>
 <p>This guide assumes Hyper-V is already installed and enabled - if this is not the case the more typical approach using
 Virtual Box outlined at <a class="reference internal" href="virtualization_quickstart.html"><span class="doc">Running in a Virtual Machine</span></a> can be used.</p>
 <p><strong>Create a Virtual Machine</strong></p>
@@ -156,7 +155,7 @@ name for the virtual machine.</p>
 </ol>
 </section>
 <section id="see-also">
-<h2>See Also:<a class="headerlink" href="#see-also" title="Permalink to this heading">¶</a></h2>
+<h2>See Also:<a class="headerlink" href="#see-also" title="Permalink to this headline">¶</a></h2>
 <blockquote>
 <div><ul class="simple">
 <li><p><a class="reference internal" href="virtualization_quickstart.html"><span class="doc">Running in a Virtual Machine</span></a>.</p></li>

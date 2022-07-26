@@ -4,7 +4,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>istSOS Quickstart &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -13,7 +13,6 @@
     <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
@@ -64,13 +63,13 @@
   <a class="reference external image-reference" href="http://istsos.org"><img alt="../../_images/logo_istsos.png" class="align-right" src="../../_images/logo_istsos.png" /></a>
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_community.png" class="align-right" src="../../_images/OSGeo_community.png" /></a>
 <section id="istsos-quickstart">
-<h1>istSOS Quickstart<a class="headerlink" href="#istsos-quickstart" title="Permalink to this heading">¶</a></h1>
+<h1>istSOS Quickstart<a class="headerlink" href="#istsos-quickstart" title="Permalink to this headline">¶</a></h1>
 <p>istSOS is an OGC <a class="reference external" href="https://www.ogc.org/standards/sos">Sensor Observation Service (SOS)</a> server implementation written in <a class="reference external" href="https://www.python.org/">Python</a>.
 istSOS allows for managing and dispatch observations from monitoring sensors according to the Sensor Observation Service standard.</p>
 <p>The project provides also a Graphical user Interface that allows for easing the daily operations and a RESTFull Web api for automatizing administration procedures.</p>
 <p>istSOS is released under the GPLv2 licence, and runs on all major platforms
 (Windows, Linux, Mac OS X), even though it has been used in production in linux environment only.</p>
-<nav class="contents local" id="contents">
+<div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#create-postgis-database" id="id1">Create postgis database</a></p></li>
@@ -80,9 +79,9 @@ istSOS allows for managing and dispatch observations from monitoring sensors acc
 <li><p><a class="reference internal" href="#add-new-observations" id="id5">Add new observations</a></p></li>
 <li><p><a class="reference internal" href="#what-next" id="id6">What next?</a></p></li>
 </ul>
-</nav>
+</div>
 <section id="create-postgis-database">
-<h2><a class="toc-backref" href="#id1" role="doc-backlink">Create postgis database</a><a class="headerlink" href="#create-postgis-database" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id1">Create postgis database</a><a class="headerlink" href="#create-postgis-database" title="Permalink to this headline">¶</a></h2>
 <p>Open a terminal and execute the following commands:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="o">-</span><span class="n">u</span> <span class="n">postgres</span> <span class="n">createdb</span> <span class="o">-</span><span class="n">E</span> <span class="n">UTF8</span> <span class="n">istsos</span>
 <span class="n">sudo</span> <span class="o">-</span><span class="n">u</span> <span class="n">postgres</span> <span class="n">psql</span> <span class="o">-</span><span class="n">d</span> <span class="n">istsos</span> <span class="o">-</span><span class="n">c</span> <span class="s1">&#39;CREATE EXTENSION postgis&#39;</span>
@@ -90,7 +89,7 @@ istSOS allows for managing and dispatch observations from monitoring sensors acc
 </div>
 </section>
 <section id="set-up-an-istsos-service-instance">
-<h2><a class="toc-backref" href="#id2" role="doc-backlink">Set up an istSOS service instance</a><a class="headerlink" href="#set-up-an-istsos-service-instance" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id2">Set up an istSOS service instance</a><a class="headerlink" href="#set-up-an-istsos-service-instance" title="Permalink to this headline">¶</a></h2>
 <p>With istSOS you can organize your sensor data in different instances. Every instance has its own database schema independent from other instances. You can even deploy other databases over your network according to your needs.</p>
 <p>The first steps into istSOS setup is to configure the default configuration options. These options will then be automatically used for your convenience by every new istSOS instance created.</p>
 <ol class="arabic">
@@ -118,7 +117,7 @@ istSOS allows for managing and dispatch observations from monitoring sensors acc
 </ol>
 </section>
 <section id="create-a-new-service">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink">Create a new service</a><a class="headerlink" href="#create-a-new-service" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id3">Create a new service</a><a class="headerlink" href="#create-a-new-service" title="Permalink to this headline">¶</a></h2>
 <p>Now that you have configured istSOS, it’s time to create a new service instance.</p>
 <ol class="arabic simple">
 <li><p>From the toolbar buttons menu press the “new service” button and click <span class="guilabel">Next</span>.</p></li>
@@ -133,7 +132,7 @@ istSOS allows for managing and dispatch observations from monitoring sensors acc
 </div>
 </section>
 <section id="add-a-new-procedure">
-<h2><a class="toc-backref" href="#id4" role="doc-backlink">Add a new procedure</a><a class="headerlink" href="#add-a-new-procedure" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id4">Add a new procedure</a><a class="headerlink" href="#add-a-new-procedure" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
 <li><p>From the “services” drop down button of the admin interface (<a class="reference external" href="http://localhost/istsos/admin">http://localhost/istsos/admin</a> ) choose the desired instance.</p></li>
 <li><p>From the toolbar buttons menu press the <span class="guilabel">New procedure</span> button.</p></li>
@@ -149,6 +148,9 @@ istSOS allows for managing and dispatch observations from monitoring sensors acc
 </div>
 <p class="rubric"><em>Example</em> (minimal configuration)</p>
 <table class="docutils align-default">
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
 <tbody>
 <tr class="row-odd"><td><p>Name: T_LUGANO</p></td>
 </tr>
@@ -170,6 +172,9 @@ istSOS allows for managing and dispatch observations from monitoring sensors acc
 </table>
 <p><em>Outputs (confirm the outputs pressing the “add” button):</em></p>
 <table class="docutils align-default">
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
 <tbody>
 <tr class="row-odd"><td><p>Observed property: <cite>urn:ogc:def:parameter:x-istsos:1.0:meteo:air:temperature</cite></p></td>
 </tr>
@@ -187,7 +192,7 @@ istSOS allows for managing and dispatch observations from monitoring sensors acc
 </div>
 </section>
 <section id="add-new-observations">
-<h2><a class="toc-backref" href="#id5" role="doc-backlink">Add new observations</a><a class="headerlink" href="#add-new-observations" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id5">Add new observations</a><a class="headerlink" href="#add-new-observations" title="Permalink to this headline">¶</a></h2>
 <p>First we will create a text file with sensor data, formatted according to “text/csv, subtype=istSOS”. The file uses a Comma Separated Values (CSV) format. The first line contains header information, including URI names of the observed properties. The following lines contain the data.</p>
 <ol class="arabic">
 <li><p>Open a text editor by selecting <span class="menuselection">Accessories ‣ FeatherPad</span>.</p></li>
@@ -232,7 +237,7 @@ istSOS allows for managing and dispatch observations from monitoring sensors acc
 <a class="reference internal image-reference" href="../../_images/istsos_viewer.png"><img alt="../../_images/istsos_viewer.png" src="../../_images/istsos_viewer.png" style="width: 512.0px; height: 384.0px;" /></a>
 </section>
 <section id="what-next">
-<h2><a class="toc-backref" href="#id6" role="doc-backlink">What next?</a><a class="headerlink" href="#what-next" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id6">What next?</a><a class="headerlink" href="#what-next" title="Permalink to this headline">¶</a></h2>
 <p>To learn more about istSOS, a starting point is the <a class="reference external" href="http://istsos.org/en/trunk/doc/index.html">istSOS Documentation</a> and the <a class="reference external" href="http://istsos.org/tutorial/">istSOS Tutorial</a>.</p>
 </section>
 </section>

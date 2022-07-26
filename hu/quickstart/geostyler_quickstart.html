@@ -4,7 +4,7 @@
 <html lang="hu">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>GeoStyler gyorstalpaló &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -13,7 +13,6 @@
     <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/translations.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
@@ -65,11 +64,11 @@
   <a class="reference external image-reference" href="https://geostyler.org"><img alt="../../_images/logo_geostyler.png" class="align-right" src="../../_images/logo_geostyler.png" /></a>
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_community.png" class="align-right" src="../../_images/OSGeo_community.png" /></a>
 <section id="geostyler-quickstart">
-<h1>GeoStyler gyorstalpaló<a class="headerlink" href="#geostyler-quickstart" title="Permalink to this heading">¶</a></h1>
+<h1>GeoStyler gyorstalpaló<a class="headerlink" href="#geostyler-quickstart" title="Hivatkozás erre a fejezetcímre">¶</a></h1>
 <p>Ez a gyorstalpaló néhány alapvető lépést ismertet a a munka megkezdéséhez a GeoStyler-ben: a GeoStyler telepítése és az első felhasználói felületi összetevő hozzáadása az alkalmazáshoz.</p>
 <p>A complete beginner tutorial can be found on <a class="reference external" href="http://localhost/geostyler">localhost/geostyler</a>.</p>
 <p>A GeoStyler könnyűvé teszi a geo adatok stílusának beállítását bármely honlapon. Az felhasználói felület független bármely stílus formátumtól  és használható például OpenLayers-hez vagy SLD-hez.</p>
-<nav class="contents local" id="contents">
+<div class="contents local topic" id="contents">
 <p class="topic-title">Tartalom</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#installing-geostyler" id="id1">GeoStyler telepítése</a></p></li>
@@ -78,9 +77,9 @@
 <li><p><a class="reference internal" href="#things-to-try" id="id4">Kipróbálandó dolgok</a></p></li>
 <li><p><a class="reference internal" href="#what-next" id="id5">Mi a következő?</a></p></li>
 </ul>
-</nav>
+</div>
 <section id="installing-geostyler">
-<h2><a class="toc-backref" href="#id1" role="doc-backlink">GeoStyler telepítése</a><a class="headerlink" href="#installing-geostyler" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id1">GeoStyler telepítése</a><a class="headerlink" href="#installing-geostyler" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>A GeoStyler használatához a számítógépére telepíteni kell a <code class="docutils literal notranslate"><span class="pre">node.js</span></code>. Az útmutatót a telepítéshez megtalálhatja a <a class="reference external" href="https://nodejs.org/">node.js honlapon</a>.</p>
 <p>Ajánlott a GeoStyler-t minden projekthez külön-külön telepíteni. Ez a szakasz a szükséges lépéseket ismerteti.</p>
 <p>A GeoStyles legegyszerűbb telepítési módja az  <code class="docutils literal notranslate"><span class="pre">npm</span></code> használata, melyet a <code class="docutils literal notranslate"><span class="pre">node.js</span></code> telepítésével megkapunk. Egyszerűen futtassa az alábbi parancsot projektjének gyökér könyvtárából:</p>
@@ -97,7 +96,7 @@
 </div>
 </section>
 <section id="integrate-geostyler">
-<h2><a class="toc-backref" href="#id2" role="doc-backlink">GeoStyler integráció</a><a class="headerlink" href="#integrate-geostyler" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id2">GeoStyler integráció</a><a class="headerlink" href="#integrate-geostyler" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>Importálja a GeoStyler <cite>Style`</cite> komponensét az alkalmazásába a következők szerint:</p>
 <div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">Style</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s1">&#39;geostyler&#39;</span><span class="p">;</span><span class="w"></span>
 </pre></div>
@@ -113,7 +112,7 @@
 <img alt="../../_images/quickstart_compact.png" src="../../_images/quickstart_compact.png" />
 </section>
 <section id="integrate-geostyler-sld-parser">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink">geostyler-sld-parser integrálása</a><a class="headerlink" href="#integrate-geostyler-sld-parser" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id3">geostyler-sld-parser integrálása</a><a class="headerlink" href="#integrate-geostyler-sld-parser" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>Egy meglévő SLD GeoStylerrel szerkesztéséhez először importálni és példányosítani kell a „geostyler-sld-parser”-t.</p>
 <div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="k">import</span><span class="w"> </span><span class="nx">SLDParser</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s1">&#39;geostyler-sld-parser&#39;</span><span class="p">;</span><span class="w"></span>
 <span class="kd">const</span><span class="w"> </span><span class="nx">parser</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">SLDParser</span><span class="p">();</span><span class="w"></span>
@@ -221,11 +220,11 @@
 </div>
 </section>
 <section id="things-to-try">
-<h2><a class="toc-backref" href="#id4" role="doc-backlink">Kipróbálandó dolgok</a><a class="headerlink" href="#things-to-try" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id4">Kipróbálandó dolgok</a><a class="headerlink" href="#things-to-try" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>A következő lépésben megpróbálhat egy <a class="reference external" href="https://openlayers.org/">OpenLayers</a>  térképet hozzáadni és a <code class="docutils literal notranslate"><span class="pre">Style</span></code> komponenst a térképhez kapcsolni, így közvetlenül láthatja a módosításait  a térképen.</p>
 </section>
 <section id="what-next">
-<h2><a class="toc-backref" href="#id5" role="doc-backlink">Mi a következő?</a><a class="headerlink" href="#what-next" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id5">Mi a következő?</a><a class="headerlink" href="#what-next" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>Tekintse meg ezeket, ezzel az alkalmazással kapcsolatos egyéb forrásokat.</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://geostyler.github.io/geostyler/latest/index.html">GeoStyler dokumentáció</a></p></li>

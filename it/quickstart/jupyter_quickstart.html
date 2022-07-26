@@ -4,7 +4,7 @@
 <html lang="it">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>Guida rapida Notebook Jupyter &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -13,7 +13,6 @@
     <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/translations.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
@@ -64,7 +63,7 @@
             
   <a class="reference external image-reference" href="https://jupyter.org/"><img alt="../../_images/logo_jupyter.png" class="align-right" src="../../_images/logo_jupyter.png" /></a>
 <section id="jupyter-notebook-quickstart">
-<h1><a class="toc-backref" href="#id1" role="doc-backlink">Guida rapida Notebook Jupyter</a><a class="headerlink" href="#jupyter-notebook-quickstart" title="Permalink to this heading">¶</a></h1>
+<h1><a class="toc-backref" href="#id1">Guida rapida Notebook Jupyter</a><a class="headerlink" href="#jupyter-notebook-quickstart" title="Link a questa intestazione">¶</a></h1>
 <p>Notebook Jupyter è un’applicazione web che permette di creare e condividere documenti che contengono codice live, equazioni, visualizzazioni e testo esplicativo. Gli usi includono: pulizia e trasformazione dei dati, simulazioni numeriche, modellazioni statistiche, machine learning e molti altri.</p>
 <p>Questa Guida Rapida descrive come:</p>
 <blockquote>
@@ -74,7 +73,7 @@
 <li><p>Interagisci con codice python</p></li>
 </ul>
 </div></blockquote>
-<nav class="contents" id="contents">
+<div class="contents topic" id="contents">
 <p class="topic-title">Contenuti</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#jupyter-notebook-quickstart" id="id1">Guida rapida Notebook Jupyter</a></p>
@@ -86,9 +85,9 @@
 </ul>
 </li>
 </ul>
-</nav>
+</div>
 <section id="start-the-jupyter-server">
-<h2><a class="toc-backref" href="#id2" role="doc-backlink">Avvia il server Jupyter</a><a class="headerlink" href="#start-the-jupyter-server" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id2">Avvia il server Jupyter</a><a class="headerlink" href="#start-the-jupyter-server" title="Link a questa intestazione">¶</a></h2>
 <p>Dal menu di lancio dell’applicazione in basso a sinistra.</p>
 <ul class="simple">
 <li><p>Scegli  <em>Geospaziale</em> -&gt; <em>Strumenti Spaziali» -&gt; *Notebook Jupyter</em></p></li>
@@ -97,7 +96,7 @@
 <a class="reference internal image-reference" href="../../_images/jupyter1-1.png"><img alt="../../_images/jupyter1-1.png" src="../../_images/jupyter1-1.png" style="width: 716.4px; height: 436.2px;" /></a>
 </section>
 <section id="open-and-execute-an-existing-notebook">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink">Aprire ed eseguire un notebook esistente</a><a class="headerlink" href="#open-and-execute-an-existing-notebook" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id3">Aprire ed eseguire un notebook esistente</a><a class="headerlink" href="#open-and-execute-an-existing-notebook" title="Link a questa intestazione">¶</a></h2>
 <p>Apriamo un notebook esistente. Dalla pagina principale, clicca sulla directory geopandas-tutorial e scegli il notebook Introduction (01-introduction-geospatial-data.ipynb). Si tratta di un’introduzione con molti esempi su come utilizzare i dati vettoriali geospaziali in Python con geopandas, utilizzando i dati di Natural Earth2.</p>
 <a class="reference internal image-reference" href="../../_images/jupyter2-1.png"><img alt="../../_images/jupyter2-1.png" src="../../_images/jupyter2-1.png" style="width: 952.8000000000001px; height: 636.0px;" /></a>
 <p>Il tutorial è composto da testo esplicativo e celle. Le celle contengono in questo caso codice python, che può essere eseguito.</p>
@@ -115,7 +114,7 @@
 <a class="reference internal image-reference" href="../../_images/jupyter2-3.png"><img alt="../../_images/jupyter2-3.png" src="../../_images/jupyter2-3.png" style="width: 716.4px; height: 477.0px;" /></a>
 </section>
 <section id="change-code">
-<h2><a class="toc-backref" href="#id4" role="doc-backlink">Cambia codice</a><a class="headerlink" href="#change-code" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id4">Cambia codice</a><a class="headerlink" href="#change-code" title="Link a questa intestazione">¶</a></h2>
 <p>Ora facciamo delle modifiche del codice:</p>
 <p>In In[10] è definito un filtro per i paesi. Solo il continente <code class="docutils literal notranslate"><span class="pre">Africa</span></code> è selezionato dai paesi:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">In</span> <span class="p">[</span><span class="mi">10</span><span class="p">]:</span>  <span class="n">africa</span> <span class="o">=</span> <span class="n">countries</span><span class="p">[</span><span class="n">countries</span><span class="p">[</span><span class="s1">&#39;continent&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;Africa&#39;</span><span class="p">]</span>
@@ -131,7 +130,7 @@
 <a class="reference internal image-reference" href="../../_images/jupyter3-2.png"><img alt="../../_images/jupyter3-2.png" src="../../_images/jupyter3-2.png" style="width: 704.0px; height: 338.40000000000003px;" /></a>
 </section>
 <section id="what-next">
-<h2><a class="toc-backref" href="#id5" role="doc-backlink">E ora?</a><a class="headerlink" href="#what-next" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id5">E ora?</a><a class="headerlink" href="#what-next" title="Link a questa intestazione">¶</a></h2>
 <ul class="simple">
 <li><p>Scoprite gli altri notebook forniti con OSGeoLive e scoprite come lavorare con Shapely, Rasterio, R, Iris e altri software.</p></li>
 <li><p>For more information about the jupyter notebook, please refer to the <a class="reference external" href="https://docs.jupyter.org">Jupyter

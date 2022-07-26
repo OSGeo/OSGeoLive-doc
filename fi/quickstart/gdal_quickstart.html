@@ -4,7 +4,7 @@
 <html lang="fi">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>GDAL/OGR Pika-aloitus &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -13,7 +13,6 @@
     <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/translations.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
@@ -65,7 +64,7 @@
   <a class="reference external image-reference" href="https://gdal.org/"><img alt="../../_images/logo_gdal.png" class="align-right" src="../../_images/logo_gdal.png" /></a>
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
 <section id="gdal-ogr-quickstart">
-<h1>GDAL/OGR Pika-aloitus<a class="headerlink" href="#gdal-ogr-quickstart" title="Permalink to this heading">¶</a></h1>
+<h1>GDAL/OGR Pika-aloitus<a class="headerlink" href="#gdal-ogr-quickstart" title="Permalink to this headline">¶</a></h1>
 <p>Tämä pika-aloitus on jaettu kahteen osaan: GDAL (rasteritiedot) ja OGR (vektoritiedot).</p>
 <p>Tässä Pika-aloituksessa kuvataan, miten:</p>
 <dl class="simple">
@@ -84,7 +83,7 @@
 </dd>
 </dl>
 <p>Tarvitset vain päätteen. Jos haluat visualisoida tulokset, voit käyttää yhtä DESKTOP GIS Software -sovelluksesta OSGeoLivessä kuten <a class="reference internal" href="../overview/qgis_overview.html"><span class="doc">QGIS</span></a>.</p>
-<nav class="contents local" id="contents">
+<div class="contents local topic" id="contents">
 <p class="topic-title">Sisältö</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#get-to-know-gdal" id="id1">Tutustu GDAL-ohjelmaan</a></p></li>
@@ -101,9 +100,9 @@
 <li><p><a class="reference internal" href="#things-to-try" id="id12">Kokeiltava asiat</a></p></li>
 <li><p><a class="reference internal" href="#what-next" id="id13">Mitä seuraavaksi?</a></p></li>
 </ul>
-</nav>
+</div>
 <section id="get-to-know-gdal">
-<h2><a class="toc-backref" href="#id1" role="doc-backlink">Tutustu GDAL-ohjelmaan</a><a class="headerlink" href="#get-to-know-gdal" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id1">Tutustu GDAL-ohjelmaan</a><a class="headerlink" href="#get-to-know-gdal" title="Permalink to this headline">¶</a></h2>
 <p>Demodata löytyy <code class="file docutils literal notranslate"><span class="pre">/usr/local/share/data</span></code>. Tässä Pika-aloituksessa haluamme vilkaista <a class="reference internal" href="../overview/naturalearth_overview.html"><span class="doc">Natural Earth -aineistoihin</span></a>. Työskentelemme aineistokopion kanssa. Näin ensimmäinen askel on kopioida tiedot kotihakemistoosi.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">user</span>
 <span class="n">cp</span> <span class="o">-</span><span class="n">R</span> <span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="n">local</span><span class="o">/</span><span class="n">share</span><span class="o">/</span><span class="n">data</span><span class="o">/</span><span class="n">natural_earth2</span><span class="o">/</span> <span class="o">./</span><span class="n">gdal_natural_earth</span>
@@ -119,7 +118,7 @@
 </div>
 </section>
 <section id="get-information-about-the-raster-data-with-gdalinfo">
-<h2><a class="toc-backref" href="#id2" role="doc-backlink">Saat tietoja rasteriaineistoista gdalinfon avulla</a><a class="headerlink" href="#get-information-about-the-raster-data-with-gdalinfo" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id2">Saat tietoja rasteriaineistoista gdalinfon avulla</a><a class="headerlink" href="#get-information-about-the-raster-data-with-gdalinfo" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>gdalinfo HYP_50M_SR_W.tif
   Driver: GTiff/GeoTIFF
   Files: HYP_50M_SR_W.tif
@@ -159,7 +158,7 @@
 </dl>
 </section>
 <section id="simple-format-translation">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink">Yksinkertainen käännösmuoto</a><a class="headerlink" href="#simple-format-translation" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id3">Yksinkertainen käännösmuoto</a><a class="headerlink" href="#simple-format-translation" title="Permalink to this headline">¶</a></h2>
 <p>Ensimmäiseksi on tiedettävä ajurit. Komennolla ”–formats” gdal_translate-komennon perässä saat nähtäväksi luettelon kaikista käytettävissä olevista tietoformaateista.</p>
 <dl class="simple">
 <dt>Kukin formaatti kertoo osaltaan, onko se</dt><dd><ul class="simple">
@@ -179,7 +178,7 @@
 </div>
 </section>
 <section id="translation">
-<h2><a class="toc-backref" href="#id4" role="doc-backlink">Käännös</a><a class="headerlink" href="#translation" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id4">Käännös</a><a class="headerlink" href="#translation" title="Permalink to this headline">¶</a></h2>
 <p>Käännökset on suoritettu gdal_translate komennolla. Oletuksena tulostiedoston muoto on GeoTIFF. Muuttujaa  ’-of ’ käytetään valitsemaan tulostiedoston muoto ja -co -muuttujaa taas käytetään määrittämään tiedoston luomisen asetuksia:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdal_translate</span> <span class="o">-</span><span class="n">of</span> <span class="n">JPEG</span> <span class="o">-</span><span class="n">co</span> <span class="n">QUALITY</span><span class="o">=</span><span class="mi">40</span> <span class="n">HYP_50M_SR_W</span><span class="o">.</span><span class="n">tif</span> <span class="n">HYP_50M_SR_W</span><span class="o">.</span><span class="n">jpg</span>
 </pre></div>
@@ -191,7 +190,7 @@
 <p>Tarkista tietotyyppi gdalinfo-komennon avulla.</p>
 </section>
 <section id="rescaling">
-<h2><a class="toc-backref" href="#id5" role="doc-backlink">Uudelleenskaalaus</a><a class="headerlink" href="#rescaling" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id5">Uudelleenskaalaus</a><a class="headerlink" href="#rescaling" title="Permalink to this headline">¶</a></h2>
 <p>Muuttuja ’-outsize ’ voidaan määrittää tulostiedoston koko.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdal_translate</span> <span class="o">-</span><span class="n">outsize</span> <span class="mi">50</span><span class="o">%</span> <span class="mi">50</span><span class="o">%</span> <span class="n">HYP_50M_SR_W</span><span class="o">.</span><span class="n">tif</span>  <span class="n">HYP_50M_SR_W_small</span><span class="o">.</span><span class="n">tif</span>
 </pre></div>
@@ -206,7 +205,7 @@
 </div>
 </section>
 <section id="raster-tileindex-with-gdaltindex">
-<h2><a class="toc-backref" href="#id6" role="doc-backlink">Raster tileindex kanssa gdaltindex</a><a class="headerlink" href="#raster-tileindex-with-gdaltindex" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id6">Raster tileindex kanssa gdaltindex</a><a class="headerlink" href="#raster-tileindex-with-gdaltindex" title="Permalink to this headline">¶</a></h2>
 <p>Voit luoda shapefile-tiedoston rasteri tileiksi. Jokaista kuvaa varten luodaan monikulmio, jossa on monikulmion laajuuden ja tiedoston polun rajat.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdaltindex</span> <span class="n">index_natural_earth</span><span class="o">.</span><span class="n">shp</span> <span class="o">*</span><span class="n">st</span><span class="o">.</span><span class="n">tif</span>
 </pre></div>
@@ -236,7 +235,7 @@ OGRFeature(index_natural_earth):1
 </div>
 </section>
 <section id="reprojecting">
-<h2><a class="toc-backref" href="#id7" role="doc-backlink">Uudelleenheijastaminen</a><a class="headerlink" href="#reprojecting" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id7">Uudelleenheijastaminen</a><a class="headerlink" href="#reprojecting" title="Permalink to this headline">¶</a></h2>
 <p>Tämän prosessin oletetaan, että HYP_50M_SR_W. tif on luotu oikein rajoja. Kuten näimme ennen gdainfo ei koordinoida järjestelmä oli asetettu. Joten me antaa WGS84 koordinaatti järjestelmän kuvan ensimmäisessä vaiheessa.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdal_translate</span> <span class="o">-</span><span class="n">a_srs</span> <span class="n">WGS84</span> <span class="n">HYP_50M_SR_W</span><span class="o">.</span><span class="n">tif</span> <span class="n">HYP_50M_SR_W_4326</span><span class="o">.</span><span class="n">tif</span>
 </pre></div>
@@ -257,7 +256,7 @@ OGRFeature(index_natural_earth):1
 <p>Huomaa, miten pylväät leikataan?  Tämä johtuu siitä, reunat napa ei voida reprojected gdalwarp ei lue kaikkia tietoja.  Voimme pakottaa gdalwarpin lukemaan ylijäämätietoja paloina yhtenä keinona ratkaista tämä. Lue lisää tästä RasterTutorial <a class="reference external" href="https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial">https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial</a>.</p>
 </section>
 <section id="mosaicking">
-<h2><a class="toc-backref" href="#id8" role="doc-backlink">Mosaiikki</a><a class="headerlink" href="#mosaicking" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id8">Mosaiikki</a><a class="headerlink" href="#mosaicking" title="Permalink to this headline">¶</a></h2>
 <p>gdal_merge. py on python-skripti, jota voidaan käyttää yksinkertaisiin mosaicking tehtäviin. Mosaic East. tif ja West. tif yhdeksi tiedostoksi:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdal_merge</span><span class="o">.</span><span class="n">py</span>  <span class="n">east</span><span class="o">.</span><span class="n">tif</span> <span class="n">west</span><span class="o">.</span><span class="n">tif</span> <span class="o">-</span><span class="n">o</span> <span class="n">merged</span><span class="o">.</span><span class="n">tif</span>
 </pre></div>
@@ -268,7 +267,7 @@ OGRFeature(index_natural_earth):1
 </div>
 </section>
 <section id="get-to-know-ogr">
-<h2><a class="toc-backref" href="#id9" role="doc-backlink">Tutustu OGR</a><a class="headerlink" href="#get-to-know-ogr" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id9">Tutustu OGR</a><a class="headerlink" href="#get-to-know-ogr" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">user</span><span class="o">/</span><span class="n">gdal_natural_earth</span><span class="o">/</span>
 </pre></div>
 </div>
@@ -278,7 +277,7 @@ OGRFeature(index_natural_earth):1
 </div>
 </section>
 <section id="get-information-about-the-vector-data-with-ogrinfo">
-<h2><a class="toc-backref" href="#id10" role="doc-backlink">Saat tietoja vektori tiedoista ogrinfo</a><a class="headerlink" href="#get-information-about-the-vector-data-with-ogrinfo" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id10">Saat tietoja vektori tiedoista ogrinfo</a><a class="headerlink" href="#get-information-about-the-vector-data-with-ogrinfo" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>ogrinfo -ro /home/user/gdal_natural_earth
 INFO: Open of `/home/user/gdal_natural_earth&#39;
       using driver `ESRI Shapefile&#39; successful.
@@ -396,7 +395,7 @@ homepart: Real (16.6)
 <p>Voit muuntaa tiedot muihin muotoihin. Hae tuettujen muotojen luettelo ”–formaateilla”.</p>
 </section>
 <section id="use-ogr2ogr-to-convert-data-between-file-formats">
-<h2><a class="toc-backref" href="#id11" role="doc-backlink">Tietojen muuntaminen tiedosto muotojen välillä ogr2ogr avulla</a><a class="headerlink" href="#use-ogr2ogr-to-convert-data-between-file-formats" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id11">Tietojen muuntaminen tiedosto muotojen välillä ogr2ogr avulla</a><a class="headerlink" href="#use-ogr2ogr-to-convert-data-between-file-formats" title="Permalink to this headline">¶</a></h2>
 <p>Voit käyttää ogr2ogr muuntaa yksinkertaisia ominaisuuksia tietojen välillä tiedosto muotoja. Voit käyttää ’–formaatteja ’ saadaksesi luettelon tuetuista muodoista luku-ja kirjoitus tiedoilla.</p>
 <p>Muunna maat GML:ksi.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ogr2ogr</span> <span class="o">--</span><span class="n">formats</span>
@@ -405,7 +404,7 @@ homepart: Real (16.6)
 </div>
 </section>
 <section id="things-to-try">
-<h2><a class="toc-backref" href="#id12" role="doc-backlink">Kokeiltava asiat</a><a class="headerlink" href="#things-to-try" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id12">Kokeiltava asiat</a><a class="headerlink" href="#things-to-try" title="Permalink to this headline">¶</a></h2>
 <p>Seuraavassa on joitakin lisä haasteita, joita voit kokeilla:</p>
 <ul class="simple">
 <li><p>Kokeile gdalwarp tai gdal_merge. py mosaiikki tietosi</p></li>
@@ -416,7 +415,7 @@ homepart: Real (16.6)
 </ul>
 </section>
 <section id="what-next">
-<h2><a class="toc-backref" href="#id13" role="doc-backlink">Mitä seuraavaksi?</a><a class="headerlink" href="#what-next" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id13">Mitä seuraavaksi?</a><a class="headerlink" href="#what-next" title="Permalink to this headline">¶</a></h2>
 <p>Tämä on vasta ensimmäinen askel tiellä käyttää GDAL ja OGR. Paikalla on arpa enemmän funktionalismi te kanisteri koetus.</p>
 <p>GDAL-projektin koti sivu</p>
 <blockquote>

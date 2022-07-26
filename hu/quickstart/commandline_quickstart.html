@@ -4,7 +4,7 @@
 <html lang="hu">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>Parancssori alapok &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -13,7 +13,6 @@
     <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/translations.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
@@ -63,13 +62,13 @@
           <div class="body" role="main">
             
   <section id="command-line-basics">
-<h1>Parancssori alapok<a class="headerlink" href="#command-line-basics" title="Permalink to this heading">¶</a></h1>
+<h1>Parancssori alapok<a class="headerlink" href="#command-line-basics" title="Hivatkozás erre a fejezetcímre">¶</a></h1>
 <p>Amikor GNU/Linux operációs rendszerrel dolgozunkk mint például az OSGeoLive, Ubuntu, stb., jó ha tudjuk hogyan dolgozzunk a parancssorban.</p>
 <p>Ne aggódjon. Nem nehéz megtanulni, és rá fog jönni, hogy szórakoztató és nagyon hatékony.</p>
 <p>Ebben a gyorstalpalóban néhány alapparancsot tanulunk meg.</p>
 <p>A következő parancsok a terminál emulátor ablakban futnak.</p>
 <p>Indítson egy terminál emulátort (aktuálisan <cite>QTerminal</cite>) az <cite>Applications</cite> menü <cite>System Tools</cite> részéből. Ez egy Unix burok parancs promptot ad.</p>
-<nav class="contents local" id="contents">
+<div class="contents local topic" id="contents">
 <p class="topic-title">Tartalom</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#where-am-i" id="id1">Hol vagyok?</a></p></li>
@@ -88,9 +87,9 @@
 <li><p><a class="reference internal" href="#things-to-try" id="id14">Kipróbálandó dolgok</a></p></li>
 <li><p><a class="reference internal" href="#what-next" id="id15">Mi a következő?</a></p></li>
 </ul>
-</nav>
+</div>
 <section id="where-am-i">
-<h2><a class="toc-backref" href="#id1" role="doc-backlink">Hol vagyok?</a><a class="headerlink" href="#where-am-i" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id1">Hol vagyok?</a><a class="headerlink" href="#where-am-i" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p><cite>pwd</cite> megmutatja az útvonalat az aktuális helyhez.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pwd</span>
 <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">user</span>
@@ -117,7 +116,7 @@ pwd: pwd [-LP]
 </div>
 </section>
 <section id="how-to-navigate-in-the-file-system">
-<h2><a class="toc-backref" href="#id2" role="doc-backlink">Hogyan navigálhatunk a fájlrendszerben?</a><a class="headerlink" href="#how-to-navigate-in-the-file-system" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id2">Hogyan navigálhatunk a fájlrendszerben?</a><a class="headerlink" href="#how-to-navigate-in-the-file-system" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>Először meg kell ismernie, hogyan szervezik a fájlrendszert Linux alatt. A fájlrendszert egy fába rendezik. A «/» néven ismert gyökérkönyvtárral kezdődik. Minden fájl és könyvtár a gyökérkönyvtár («/») alatt található.</p>
 <p>Az aktuális felhasználó „<cite>user</cite>”, és a kezdőkönyvtára a <cite>/home/user</cite> helyen található. Bármikor, amikor megnyit egy terminál ablakot az a kezdőkönyvtárban indul (lásd pwd).</p>
 <p>A fájlrendszerben könnyen navigálhat a cd paranccsal.</p>
@@ -129,7 +128,7 @@ pwd: pwd [-LP]
 </div>
 </section>
 <section id="create-a-directory">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink">Egy könyvtár létrehozása</a><a class="headerlink" href="#create-a-directory" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id3">Egy könyvtár létrehozása</a><a class="headerlink" href="#create-a-directory" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>Írási hozzáférése van a felhasználói könyvtárába. Könyvtárakat és fájlokat hozhat létre ott. Ezután egy könyvtárat hozunk létre néhány parancssori teszthez.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">~</span>
 <span class="n">mkdir</span> <span class="n">demo</span> <span class="o">-</span> <span class="n">creates</span> <span class="n">the</span> <span class="n">directory</span> <span class="n">demo</span>
@@ -142,7 +141,7 @@ pwd: pwd [-LP]
 </div>
 </section>
 <section id="how-to-create-a-new-file">
-<h2><a class="toc-backref" href="#id4" role="doc-backlink">Hogyan hozzunk létre egy új fájlt</a><a class="headerlink" href="#how-to-create-a-new-file" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id4">Hogyan hozzunk létre egy új fájlt</a><a class="headerlink" href="#how-to-create-a-new-file" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p><cite>touch</cite> egy új üres fájlt hoz létre.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">~/</span><span class="n">demo</span>
 <span class="n">touch</span> <span class="n">hello</span><span class="o">.</span><span class="n">txt</span>
@@ -157,7 +156,7 @@ pwd: pwd [-LP]
 </div>
 </section>
 <section id="show-me-what-is-in-a-directory">
-<h2><a class="toc-backref" href="#id5" role="doc-backlink">Könyvtár tartalmának megtekintése</a><a class="headerlink" href="#show-me-what-is-in-a-directory" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id5">Könyvtár tartalmának megtekintése</a><a class="headerlink" href="#show-me-what-is-in-a-directory" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>Többet szeretne tudni egy könyvtár tartalmáról. Az <cite>ls</cite> program az, amelyik rengeteg információt szolgáltat önnek.</p>
 <ul class="simple">
 <li><p><cite>ls</cite> listázza az összes fájlt és könyvtárat</p></li>
@@ -176,7 +175,7 @@ pwd: pwd [-LP]
 </div>
 </section>
 <section id="copy-files-and-directories">
-<h2><a class="toc-backref" href="#id6" role="doc-backlink">Fájlok és könyvtárak másolása</a><a class="headerlink" href="#copy-files-and-directories" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id6">Fájlok és könyvtárak másolása</a><a class="headerlink" href="#copy-files-and-directories" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>Fájlokat másolhat az egyik könyvtárból egy másikba.</p>
 <p>Fájl egy új fájlba másolása</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cp</span> <span class="n">hello</span><span class="o">.</span><span class="n">txt</span> <span class="n">hello_again</span><span class="o">.</span><span class="n">txt</span>
@@ -192,11 +191,11 @@ pwd: pwd [-LP]
 </div>
 </section>
 <section id="who-is-sudo">
-<h2><a class="toc-backref" href="#id7" role="doc-backlink">Ki az a sudo?</a><a class="headerlink" href="#who-is-sudo" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id7">Ki az a sudo?</a><a class="headerlink" href="#who-is-sudo" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>A <cite>sudo</cite> segítségével olyan dolgokat csinálhat, melyek normál esetben nem engedélyezettek önnek. A <cite>sudo</cite> a rendszergazda, más néven root jogaival futtatja a parancsot. A <cite>sudo</cite>-val például további szoftvereket telepíthet, szolgáltatásokat adminisztrálhat, hozzáférési jogokat módosíthatja és még másokat. Néhány következő parancsban a <cite>sudo</cite> használatát láthatja.</p>
 </section>
 <section id="search-and-install-programs">
-<h2><a class="toc-backref" href="#id8" role="doc-backlink">Programok keresése és telepítése</a><a class="headerlink" href="#search-and-install-programs" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id8">Programok keresése és telepítése</a><a class="headerlink" href="#search-and-install-programs" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>Információ megjelenítése a programokról</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">apt</span> <span class="n">show</span> <span class="n">postgis</span>
 </pre></div>
@@ -212,7 +211,7 @@ pwd: pwd [-LP]
 <p>Szeretni fogja az <cite>sl</cite> programot. Futtassa az új  <cite>sl</cite> programot, lásd még <cite>apt show sl</cite>.</p>
 </section>
 <section id="services">
-<h2><a class="toc-backref" href="#id9" role="doc-backlink">Szolgáltatások</a><a class="headerlink" href="#services" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id9">Szolgáltatások</a><a class="headerlink" href="#services" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>Néhány program szolgáltatásként fut, mint például  PostgreSQL, tomcat vagy Apache web szerver. Elindíthatja és megállíthatja a szolgáltatásokat.</p>
 <p>Az Apache szolgáltatás újraindítása</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">service</span> <span class="n">apache2</span> <span class="n">restart</span>
@@ -224,7 +223,7 @@ pwd: pwd [-LP]
 </div>
 </section>
 <section id="how-to-edit-files">
-<h2><a class="toc-backref" href="#id10" role="doc-backlink">Hogyan szerkesszünk fájlokat</a><a class="headerlink" href="#how-to-edit-files" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id10">Hogyan szerkesszünk fájlokat</a><a class="headerlink" href="#how-to-edit-files" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>Fájlokat szerkeszthetünk a terminál ablakban vagy megnyithatjuk őket egy külső programmal mint a Geany.</p>
 <p>A terminál ablakban használhatja a <cite>vim</cite> (Vi IMproved) szerkesztőt. <cite>vim</cite>  nagyon hatékony és sok opcióval rendelkezik.</p>
 <p>Lásd még</p>
@@ -246,7 +245,7 @@ pwd: pwd [-LP]
 </ul>
 </section>
 <section id="owner-and-access-rights">
-<h2><a class="toc-backref" href="#id11" role="doc-backlink">Tulajdonos és hozzáférési jogosultságok</a><a class="headerlink" href="#owner-and-access-rights" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id11">Tulajdonos és hozzáférési jogosultságok</a><a class="headerlink" href="#owner-and-access-rights" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>A hozzáférési jogok határozzák meg, hogy egy <cite>user</cite> (felhasználó) vagy <cite>group</cite> (csoport) vagy <cite>others</cite> (mindenki más) hozzáférhetnek-e egy fájlhoz, és hogy milyen hozzáférésük van. Lehet <cite>read</cite> (olvasás), <cite>write</cite> (írás) vagy <cite>excecute</cite> (végrehajtás) hozzáférés.</p>
 <p>A könyvtárakhoz vagy fájlokhoz tartozik egy tulajdonos és egy csoport. Alapértelmezés szerint a fájl/könyvtár létrehozója a tulajdonos. Ez a beállítás megváltoztatható. Megtanuljuk ezt a következő fejezetben.</p>
 <p>Megjelenítheti a tulajdonost és a csoportot az <cite>ls -l</cite> segítségével.</p>
@@ -270,7 +269,7 @@ pwd: pwd [-LP]
 </ul>
 </section>
 <section id="change-the-owner-with-chown">
-<h2><a class="toc-backref" href="#id12" role="doc-backlink">Tulajdon módosítás <cite>chown</cite>-nal</a><a class="headerlink" href="#change-the-owner-with-chown" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id12">Tulajdon módosítás <cite>chown</cite>-nal</a><a class="headerlink" href="#change-the-owner-with-chown" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">chown</span> <span class="o">-</span><span class="n">R</span> <span class="n">user</span><span class="p">:</span><span class="n">www</span><span class="o">-</span><span class="n">data</span> <span class="o">/</span><span class="n">var</span><span class="o">/</span><span class="n">www</span><span class="o">/</span><span class="n">html</span><span class="o">/</span><span class="n">TBD</span>
 </pre></div>
 </div>
@@ -280,7 +279,7 @@ pwd: pwd [-LP]
 </ul>
 </section>
 <section id="change-access-rights-with-chmod">
-<h2><a class="toc-backref" href="#id13" role="doc-backlink">Hozzáférési jog módosítás <cite>chmod</cite>-dal</a><a class="headerlink" href="#change-access-rights-with-chmod" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id13">Hozzáférési jog módosítás <cite>chmod</cite>-dal</a><a class="headerlink" href="#change-access-rights-with-chmod" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">chmod</span> <span class="o">-</span><span class="n">R</span> <span class="mi">777</span> <span class="o">/</span><span class="n">var</span><span class="o">/</span><span class="n">www</span><span class="o">/</span><span class="n">html</span><span class="o">/</span><span class="n">TBD</span>
 </pre></div>
 </div>
@@ -318,7 +317,7 @@ pwd: pwd [-LP]
 </ul>
 </section>
 <section id="things-to-try">
-<h2><a class="toc-backref" href="#id14" role="doc-backlink">Kipróbálandó dolgok</a><a class="headerlink" href="#things-to-try" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id14">Kipróbálandó dolgok</a><a class="headerlink" href="#things-to-try" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>További kipróbálandó parancsok.</p>
 <ul class="simple">
 <li><p>grep - minta keresés szövegben</p></li>
@@ -333,7 +332,7 @@ pwd: pwd [-LP]
 </ul>
 </section>
 <section id="what-next">
-<h2><a class="toc-backref" href="#id15" role="doc-backlink">Mi a következő?</a><a class="headerlink" href="#what-next" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id15">Mi a következő?</a><a class="headerlink" href="#what-next" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>Néhány fontos parancsot tanult és információt kapott a parancssori munkához. Remélhetőleg felismerte milyen hatékony a parancssor.</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://ubuntu.com/tutorials/command-line-for-beginners#1-overview">https://ubuntu.com/tutorials/command-line-for-beginners#1-overview</a></p></li>

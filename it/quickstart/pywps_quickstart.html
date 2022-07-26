@@ -4,7 +4,7 @@
 <html lang="it">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>Guida rapida PyWPS &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -13,7 +13,6 @@
     <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/translations.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
@@ -65,7 +64,7 @@
   <a class="reference external image-reference" href="https://pywps.org/"><img alt="../../_images/logo_pywps.png" class="align-right" src="../../_images/logo_pywps.png" /></a>
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
 <section id="pywps-quickstart">
-<h1>Guida rapida PyWPS<a class="headerlink" href="#pywps-quickstart" title="Permalink to this heading">¶</a></h1>
+<h1>Guida rapida PyWPS<a class="headerlink" href="#pywps-quickstart" title="Link a questa intestazione">¶</a></h1>
 <p>PyWPS è un’implementazione del server OGC WPS (Web Processing Service 1.0.0) scritta in <a class="reference external" href="https://www.python.org">Python</a>.</p>
 <p>La libreria PyWPS 4.0.0 è installata di default su OSGeo-Live. Questa è una libreria di base che non è destinata ad essere eseguita direttamente, ma piuttosto ad essere usata nello sviluppo di servizi WPS. Un <a class="reference external" href="https://github.com/geopython/pywps-flask">esempio di servizio</a> basato su <a class="reference external" href="https://flask.palletsprojects.com">Flask</a> è disponibile su GitHub per facilitare un primo contatto con PyWPS.</p>
 <p>Questa Guida Rapida descrive come:</p>
@@ -74,7 +73,7 @@
 <li><p>Esegui le richieste <code class="docutils literal notranslate"><span class="pre">GetCapabilities</span></code>, <code class="docutils literal notranslate"><span class="pre">DescribeProcess</span></code> e <code class="docutils literal notranslate"><span class="pre">Execute</span></code>.</p></li>
 <li><p>Sviluppa i propri processi WPS</p></li>
 </ul>
-<nav class="contents local" id="contents">
+<div class="contents local topic" id="contents">
 <p class="topic-title">Contenuti</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#installing-pywps-flask" id="id1">Installa pywps-flask</a></p></li>
@@ -82,9 +81,9 @@
 <li><p><a class="reference internal" href="#developing-wps-processes" id="id3">Sviluppo dei processi WPS</a></p></li>
 <li><p><a class="reference internal" href="#what-s-next" id="id4">E ora</a></p></li>
 </ul>
-</nav>
+</div>
 <section id="installing-pywps-flask">
-<h2><a class="toc-backref" href="#id1" role="doc-backlink">Installa pywps-flask</a><a class="headerlink" href="#installing-pywps-flask" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id1">Installa pywps-flask</a><a class="headerlink" href="#installing-pywps-flask" title="Link a questa intestazione">¶</a></h2>
 <p>Poiché il servizio di esempio dipende da Flask, assicurati che sia installato sul tuo OSGeo-Live:</p>
 <p><cite>sudo apt install python-flask</cite></p>
 <p>Poi clona il repository da GitHub:</p>
@@ -99,7 +98,7 @@
 <p><cite>* In esecuzione su http://127.0.0.1:5000/ (premere CTRL+C per uscire)</cite></p>
 </section>
 <section id="testing-available-processes">
-<h2><a class="toc-backref" href="#id2" role="doc-backlink">Test dei processi disponibili</a><a class="headerlink" href="#testing-available-processes" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id2">Test dei processi disponibili</a><a class="headerlink" href="#testing-available-processes" title="Link a questa intestazione">¶</a></h2>
 <p>Apri un browser web e puntalo all’indirizzo dove il servizio di esempio è in ascolto: <a class="reference external" href="http://127.0.0.1:5000/">http://127.0.0.1:5000/</a> Ti verrà presentata la seguente pagina:</p>
 <a class="reference internal image-reference" href="../../_images/pywps-4.0.0_example.png"><img alt="../../_images/pywps-4.0.0_example.png" src="../../_images/pywps-4.0.0_example.png" style="width: 1024.0px; height: 768.0px;" /></a>
 <p>Usa i pulsanti verdi per esplorare il servizio. Fai una richiesta <cite>GetCapabilities</cite> per una panoramica del servizio; fai una richiesta <cite>DescribeProcess</cite> per conoscere i dettagli di un particolare progetto. Nota l’URL della richiesta nell’indirizzo del browser.</p>
@@ -109,7 +108,7 @@
 <a class="reference internal image-reference" href="../../_images/pywps-4.0.0_response.png"><img alt="../../_images/pywps-4.0.0_response.png" src="../../_images/pywps-4.0.0_response.png" style="width: 1024.0px; height: 768.0px;" /></a>
 </section>
 <section id="developing-wps-processes">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink">Sviluppo dei processi WPS</a><a class="headerlink" href="#developing-wps-processes" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id3">Sviluppo dei processi WPS</a><a class="headerlink" href="#developing-wps-processes" title="Link a questa intestazione">¶</a></h2>
 <p>Per sviluppare nuovi processi tutto quello che devi fare è creare nuovi moduli Python all’interno della cartella <cite>processes</cite>. Usa i processi esistenti come modelli per aiutarti a strutturare il tuo codice. Uno sguardo più attento al processo <cite>say_hello</cite> mostra la caratteristica principale di un processo PyWPS:</p>
 <p>1. Import the necessary assets and create a class inheriting from the PyWPS
 <cite>Process</cite> class. In the constructor create the necessary objects for inputs
@@ -152,7 +151,7 @@ outputs.</p>
 </div>
 </section>
 <section id="what-s-next">
-<h2><a class="toc-backref" href="#id4" role="doc-backlink">E ora</a><a class="headerlink" href="#what-s-next" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id4">E ora</a><a class="headerlink" href="#what-s-next" title="Link a questa intestazione">¶</a></h2>
 <p>PyWPS ti dà la libertà e la flessibilità di scrivere i tuoi processi Python ed esporli di conseguenza.</p>
 <ul class="simple">
 <li><p>Documentazione ufficiale - Per ulteriori informazioni sulla configurazione di PyWPS e sulle API, consulta la <a class="reference external" href="https://pywps.org/docs/">documentazione</a> sul sito web di PyWPS.</p></li>

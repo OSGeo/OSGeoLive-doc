@@ -4,7 +4,7 @@
 <html lang="es">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>Crear una unidad flash USB de arranque OSGeoLive &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -13,7 +13,6 @@
     <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/translations.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
@@ -63,18 +62,18 @@
           <div class="body" role="main">
             
   <section id="creating-an-osgeolive-bootable-usb-flash-drive">
-<h1>Crear una unidad flash USB de arranque OSGeoLive<a class="headerlink" href="#creating-an-osgeolive-bootable-usb-flash-drive" title="Enlace permanente a este encabezado">¶</a></h1>
+<h1>Crear una unidad flash USB de arranque OSGeoLive<a class="headerlink" href="#creating-an-osgeolive-bootable-usb-flash-drive" title="Enlazar permanentemente con este título">¶</a></h1>
 <p>Este inicio rápido describe el método preferido para la creación de una unidad flash USB de arranque de OSGeoLive. Arrancar desde una unidad flash es más rápido que desde un DVD, y la unidad USB puede configurarse para almacenar datos entre sesiones (llamados persistencia).</p>
 <p>Hemos encontrado que hay una serie de trucos y peculiaridades involucrados en la construcción de una unidad USB con éxito . Hemos documentado lo que sabemos, pero hay probabilidades de más trucos y temas. Buscar las últimas sugerencias aquí: <a class="reference external" href="https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB">https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB</a></p>
 <section id="requirements">
-<h2>Requisitos<a class="headerlink" href="#requirements" title="Enlace permanente a este encabezado">¶</a></h2>
+<h2>Requisitos<a class="headerlink" href="#requirements" title="Enlazar permanentemente con este título">¶</a></h2>
 <ul class="simple">
 <li><p>Una unidad flash USB (se recomiendan más de 8 Giga).</p></li>
 <li><p>Una imagen ISO de OSGeoLive (descargado de: <a class="reference internal" href="../download.html"><span class="doc">OSGeoLive downloads</span></a>) o convertida a partir de un DVD.</p></li>
 </ul>
 </section>
 <section id="creating-bootable-usb-drive-with-dd-under-linux">
-<h2>Crear unidad USB de arranque con <code class="docutils literal notranslate"><span class="pre">dd</span></code>  bajo Linux<a class="headerlink" href="#creating-bootable-usb-drive-with-dd-under-linux" title="Enlace permanente a este encabezado">¶</a></h2>
+<h2>Crear unidad USB de arranque con <code class="docutils literal notranslate"><span class="pre">dd</span></code>  bajo Linux<a class="headerlink" href="#creating-bootable-usb-drive-with-dd-under-linux" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Las imágenes ISO para OSGeoLive 10.5 y versiones posteriores son * isohybrid * (y para amd64, también soporte de arranque UEFI). Bajo Linux, estas imágenes pueden escribirse directamente en el dispositivo de bloque para una unidad USB con la utilidad de línea de comandos  <code class="docutils literal notranslate"><span class="pre">dd</span></code>:</p>
 <div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">sudo dd if=osgeolive-10.5-amd64.iso of=/dev/sdX bs=4M; sync</span>
 </pre></div>
@@ -91,7 +90,7 @@
 </div>
 </section>
 <section id="creating-bootable-usb-drive-with-ubuntu-startup-disk-creator">
-<h2>Crear unidad USB de arranque con Ubuntu Startup Disk Creator<a class="headerlink" href="#creating-bootable-usb-drive-with-ubuntu-startup-disk-creator" title="Enlace permanente a este encabezado">¶</a></h2>
+<h2>Crear unidad USB de arranque con Ubuntu Startup Disk Creator<a class="headerlink" href="#creating-bootable-usb-drive-with-ubuntu-startup-disk-creator" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>(Este es el proceso recomendado para la creación de un USB. Es aplicable a Ubuntu y variantes de Ubuntu como OSGeoLive.)</p>
 <div class="admonition note">
 <p class="admonition-title">Nota</p>
@@ -116,7 +115,7 @@
 <p>Espere 20 minutos más o menos  para crear el USB flash drive.</p>
 </section>
 <section id="booting-from-the-usb-drive">
-<h2>Arranque desde la unidad USB:<a class="headerlink" href="#booting-from-the-usb-drive" title="Enlace permanente a este encabezado">¶</a></h2>
+<h2>Arranque desde la unidad USB:<a class="headerlink" href="#booting-from-the-usb-drive" title="Enlazar permanentemente con este título">¶</a></h2>
 <ol class="arabic simple">
 <li><p>Empezar con el ordenador apagado.</p></li>
 <li><p>Inserte la unidad USB en un puerto USB libre.</p></li>
@@ -137,11 +136,11 @@
 </ol>
 </section>
 <section id="run">
-<h2>Ejecutar:<a class="headerlink" href="#run" title="Enlace permanente a este encabezado">¶</a></h2>
+<h2>Ejecutar:<a class="headerlink" href="#run" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Ejecutar según: <a class="reference internal" href="osgeolive_quickstart.html"><span class="doc">Cómo empezar con OSGeoLive</span></a></p>
 </section>
 <section id="see-also">
-<h2>Vea también:<a class="headerlink" href="#see-also" title="Enlace permanente a este encabezado">¶</a></h2>
+<h2>Vea también:<a class="headerlink" href="#see-also" title="Enlazar permanentemente con este título">¶</a></h2>
 <blockquote>
 <div><ul class="simple">
 <li><p><a class="reference internal" href="osgeolive_quickstart.html"><span class="doc">Cómo empezar con OSGeoLive</span></a></p></li>

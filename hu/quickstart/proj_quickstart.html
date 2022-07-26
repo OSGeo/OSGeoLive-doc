@@ -4,7 +4,7 @@
 <html lang="hu">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>PROJ gyorstalpaló &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -13,7 +13,6 @@
     <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/translations.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
@@ -65,28 +64,28 @@
   <a class="reference external image-reference" href="https://proj.org/"><img alt="../../_images/logo_proj.png" class="align-right" src="../../_images/logo_proj.png" /></a>
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
 <section id="proj-quickstart">
-<h1>PROJ gyorstalpaló<a class="headerlink" href="#proj-quickstart" title="Permalink to this heading">¶</a></h1>
+<h1>PROJ gyorstalpaló<a class="headerlink" href="#proj-quickstart" title="Hivatkozás erre a fejezetcímre">¶</a></h1>
 <p>A PROJ egy szabványos Unix szűrő, mely földrajzi hosszúság és szélesség koordinátákat derékszögű koordinátákká alakítja (és vissza), ez egy C API a szoftver fejlesztőknek arra, hogy a koordináta transzformációt a saját programjukba illesszék.</p>
-<nav class="contents local" id="this-quick-start-describes-how-to-use-these-tools">
+<div class="contents local topic" id="this-quick-start-describes-how-to-use-these-tools">
 <p class="topic-title">This Quick Start describes how to use these tools :</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#proj" id="id2">PROJ</a></p></li>
 <li><p><a class="reference internal" href="#cs2cs" id="id3">cs2cs</a></p></li>
 <li><p><a class="reference internal" href="#geod" id="id4">geod</a></p></li>
 </ul>
-</nav>
+</div>
 <section id="proj">
-<h2><a class="toc-backref" href="#id2" role="doc-backlink">PROJ</a><a class="headerlink" href="#proj" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id2">PROJ</a><a class="headerlink" href="#proj" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Megjegyzés</p>
 <p><strong>Mit fogunk tanulni ?</strong> Ebben a fejezetben a PROJ eszköz használatát tanuljuk meg.</p>
 </div>
 <section id="what-is-proj">
-<h3>Mi a PROJ?<a class="headerlink" href="#what-is-proj" title="Permalink to this heading">¶</a></h3>
+<h3>Mi a PROJ?<a class="headerlink" href="#what-is-proj" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
 <p>A PROJ és az invproj oda illetve vissza transzformációt hajt végre földrajzi és derékszögű koordináták között, a kiválasztható vetületek széles tartományán.</p>
 </section>
 <section id="proj-synopsis">
-<h3>PROJ összegzés<a class="headerlink" href="#proj-synopsis" title="Permalink to this heading">¶</a></h3>
+<h3>PROJ összegzés<a class="headerlink" href="#proj-synopsis" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">proj</span> <span class="p">[</span> <span class="o">-</span><span class="n">bcCeEfiIlmorsStTvVwW</span> <span class="p">[</span> <span class="n">args</span> <span class="p">]</span> <span class="p">]</span> <span class="p">[</span> <span class="o">+</span><span class="n">args</span> <span class="p">]</span> <span class="n">file</span><span class="p">[</span><span class="n">s</span><span class="p">]</span>
 <span class="n">invproj</span> <span class="p">[</span> <span class="o">-</span><span class="n">bcCeEfiIlmorsStTwW</span> <span class="p">[</span> <span class="n">args</span> <span class="p">]</span> <span class="p">]</span> <span class="p">[</span> <span class="o">+</span><span class="n">args</span> <span class="p">]</span> <span class="n">file</span><span class="p">[</span><span class="n">s</span><span class="p">]</span>
 </pre></div>
@@ -94,7 +93,7 @@
 <p>Ezeket a parancsokat részletesen leírják  <a class="reference external" href="https://proj.org/apps/proj.html">PROJ dokumentáció</a> legújabb verziójában.</p>
 </section>
 <section id="proj-example">
-<h3>PROJ példa<a class="headerlink" href="#proj-example" title="Permalink to this heading">¶</a></h3>
+<h3>PROJ példa<a class="headerlink" href="#proj-example" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
 <p>A következő szkript</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">proj</span> <span class="o">+</span><span class="n">proj</span><span class="o">=</span><span class="n">utm</span>  <span class="o">+</span><span class="n">lon_0</span><span class="o">=</span><span class="mi">112</span><span class="n">w</span>  <span class="o">+</span><span class="n">ellps</span><span class="o">=</span><span class="n">clrk66</span>
 <span class="o">-</span><span class="n">r</span> <span class="o">&lt;&lt;</span><span class="n">EOF</span>
@@ -111,24 +110,24 @@
 </section>
 </section>
 <section id="cs2cs">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink">cs2cs</a><a class="headerlink" href="#cs2cs" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id3">cs2cs</a><a class="headerlink" href="#cs2cs" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Megjegyzés</p>
 <p><strong>Mit fogunk tanulni ?</strong> Ebben a fejezetben a cs2cs eszköz használatát tanuljuk meg.</p>
 </div>
 <section id="what-is-cs2cs">
-<h3>Mi az a cs2cs?<a class="headerlink" href="#what-is-cs2cs" title="Permalink to this heading">¶</a></h3>
+<h3>Mi az a cs2cs?<a class="headerlink" href="#what-is-cs2cs" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
 <p>A <code class="docutils literal notranslate"><span class="pre">cs2cs</span></code> transzformációt hajt végre a forrás és a cél koordináta-rendszer között az input pontok halmazán. A koordináta-rendszer transzformáció tartalmazhat egy eltolást a vetületi és földrajzi koordináták között mint ahogy a dátum eltolást.</p>
 </section>
 <section id="cs2cs-synopsis">
-<h3>cs2cs összefoglaló<a class="headerlink" href="#cs2cs-synopsis" title="Permalink to this heading">¶</a></h3>
+<h3>cs2cs összefoglaló<a class="headerlink" href="#cs2cs-synopsis" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cs2cs</span> <span class="p">[</span> <span class="o">-</span><span class="n">eEfIlrstvwW</span> <span class="p">[</span> <span class="n">args</span> <span class="p">]</span> <span class="p">]</span> <span class="p">[</span> <span class="o">+</span><span class="n">opts</span><span class="p">[</span><span class="o">=</span><span class="n">arg</span><span class="p">]</span> <span class="p">]</span> <span class="p">[</span> <span class="o">+</span><span class="n">to</span> <span class="p">[</span><span class="o">+</span><span class="n">opts</span><span class="p">[</span><span class="o">=</span><span class="n">arg</span><span class="p">]]</span> <span class="p">]</span> <span class="n">file</span><span class="p">[</span><span class="n">s</span><span class="p">]</span>
 </pre></div>
 </div>
 <p>Ezeket a parancsokat részletesen leírják  <a class="reference external" href="https://proj.org/apps/cs2cs.html">cs2cs dokumentációjának</a> legújabb verziójában.</p>
 </section>
 <section id="cs2cs-example">
-<h3>cs2cs példa<a class="headerlink" href="#cs2cs-example" title="Permalink to this heading">¶</a></h3>
+<h3>cs2cs példa<a class="headerlink" href="#cs2cs-example" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
 <p>A következő szkript</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cs2cs</span> <span class="o">+</span><span class="n">proj</span><span class="o">=</span><span class="n">latlong</span> <span class="o">+</span><span class="n">datum</span><span class="o">=</span><span class="n">NAD83</span>
       <span class="o">+</span><span class="n">to</span> <span class="o">+</span><span class="n">proj</span><span class="o">=</span><span class="n">utm</span> <span class="o">+</span><span class="n">zone</span><span class="o">=</span><span class="mi">10</span>  <span class="o">+</span><span class="n">datum</span><span class="o">=</span><span class="n">NAD27</span>
@@ -146,18 +145,18 @@
 </section>
 </section>
 <section id="geod">
-<h2><a class="toc-backref" href="#id4" role="doc-backlink">geod</a><a class="headerlink" href="#geod" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id4">geod</a><a class="headerlink" href="#geod" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Megjegyzés</p>
 <p><strong>Mit fogunk tanulni ?</strong> Ebben a fejezetben a geod eszköz használatát tanuljuk meg.</p>
 </div>
 <section id="what-is-geod">
-<h3>Mi a geod?<a class="headerlink" href="#what-is-geod" title="Permalink to this heading">¶</a></h3>
+<h3>Mi a geod?<a class="headerlink" href="#what-is-geod" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
 <p><code class="docutils literal notranslate"><span class="pre">geod</span></code> (közvetlen) és <code class="docutils literal notranslate"><span class="pre">invgeod</span></code> (inverz) geodéziai („nagy kör”) számításokat hajt végre a szélesség, a hosszúság és a végpont vissza azimutjának meghatározásához egy adott kezdőpont szélesség, hosszúság, azimut, és távolság (közvetlen) vagy az oda és vissza azimut és a távolság, a kezdő és végpont között, szélesség és hosszúság (inverz).   Az eredményekben a kerekítési hiba  <cite>|f| &lt; 1/50</cite>, ahol a f a lapultság.</p>
 <p><code class="docutils literal notranslate"><span class="pre">invgeod</span></code> nem érhető el minden platformon; ebben az esetben használja a geod-t a -l kapcsolóval.</p>
 </section>
 <section id="geod-synopsis">
-<h3>geod összegzés<a class="headerlink" href="#geod-synopsis" title="Permalink to this heading">¶</a></h3>
+<h3>geod összegzés<a class="headerlink" href="#geod-synopsis" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">geod</span> <span class="o">+</span><span class="n">ellps</span><span class="o">=&lt;</span><span class="n">ellipse</span><span class="o">&gt;</span> <span class="p">[</span> <span class="o">-</span><span class="n">afFIlptwW</span> <span class="p">[</span> <span class="n">args</span> <span class="p">]</span> <span class="p">]</span> <span class="p">[</span> <span class="o">+</span><span class="n">args</span> <span class="p">]</span> <span class="n">file</span><span class="p">[</span><span class="n">s</span><span class="p">]</span>
 
 <span class="n">invgeod</span> <span class="o">+</span><span class="n">ellps</span><span class="o">=&lt;</span><span class="n">ellipse</span><span class="o">&gt;</span> <span class="p">[</span> <span class="o">-</span><span class="n">afFIlptwW</span> <span class="p">[</span> <span class="n">args</span>  <span class="p">]</span>  <span class="p">]</span>  <span class="p">[</span>  <span class="o">+</span><span class="n">args</span>  <span class="p">]</span> <span class="n">file</span><span class="p">[</span><span class="n">s</span><span class="p">]</span>
@@ -166,7 +165,7 @@
 <p>Ezeket a parancsokat részletesen leírják  <a class="reference external" href="https://proj.org/apps/proj.html">PROJ dokumentáció</a> legújabb verziójában.</p>
 </section>
 <section id="geod-example">
-<h3>geod példa<a class="headerlink" href="#geod-example" title="Permalink to this heading">¶</a></h3>
+<h3>geod példa<a class="headerlink" href="#geod-example" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
 <p>A következő szkript kiszámítja a geodéziai azimutot és a távolságot U.S történelmi mérföldben Bostonból Portlandbe:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">geod</span> <span class="o">+</span><span class="n">ellps</span><span class="o">=</span><span class="n">clrk66</span> <span class="o">&lt;&lt;</span><span class="n">EOF</span> <span class="o">-</span><span class="n">I</span> <span class="o">+</span><span class="n">units</span><span class="o">=</span><span class="n">us</span><span class="o">-</span><span class="n">mi</span>
 <span class="mi">42</span><span class="n">d15</span><span class="s1">&#39;N 71d07&#39;</span><span class="n">W</span> <span class="mi">45</span><span class="n">d31</span><span class="s1">&#39;N 123d41&#39;</span><span class="n">W</span>
@@ -194,7 +193,7 @@
 </div>
 </section>
 <section id="further-reading">
-<h3>További olvasmányok<a class="headerlink" href="#further-reading" title="Permalink to this heading">¶</a></h3>
+<h3>További olvasmányok<a class="headerlink" href="#further-reading" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
 <ol class="arabic simple">
 <li><p><a class="reference external" href="https://geographiclib.sourceforge.io/">GeographicLib</a></p></li>
 <li><p><a class="reference external" href="https://link.springer.com/article/10.1007/s00190-012-0578-z">C. F. F. Karney, Algorithms for Geodesics, J. Geodesy 87, 43-55 (2013)</a>.

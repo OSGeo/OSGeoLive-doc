@@ -4,7 +4,7 @@
 <html lang="it">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>Guida rapida pgRouting &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -13,7 +13,6 @@
     <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/translations.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
@@ -65,9 +64,9 @@
   <a class="reference external image-reference" href="https://pgrouting.org/"><img alt="../../_images/logo_pgrouting.png" class="align-right" src="../../_images/logo_pgrouting.png" /></a>
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_community.png" class="align-right" src="../../_images/OSGeo_community.png" /></a>
 <section id="pgrouting-quickstart">
-<h1>Guida rapida pgRouting<a class="headerlink" href="#pgrouting-quickstart" title="Permalink to this heading">¶</a></h1>
+<h1>Guida rapida pgRouting<a class="headerlink" href="#pgrouting-quickstart" title="Link a questa intestazione">¶</a></h1>
 <p>pgRouting è un’estensione che aggiunge funzionalità di routing e altre analisi di rete ai database <a class="reference internal" href="../overview/postgis_overview.html"><span class="doc">PostGIS</span></a>/<a class="reference external" href="https://www.postgresql.org">PostgreSQL</a>.</p>
-<nav class="contents local" id="contents">
+<div class="contents local topic" id="contents">
 <p class="topic-title">Contenuti</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#enabling-pgrouting-in-a-database" id="id1">Abilita pgRouting in un database</a></p></li>
@@ -77,9 +76,9 @@
 <li><p><a class="reference internal" href="#pgr-dijkstra" id="id5">pgr_Dijkstra</a></p></li>
 <li><p><a class="reference internal" href="#what-next" id="id6">E ora?</a></p></li>
 </ul>
-</nav>
+</div>
 <section id="enabling-pgrouting-in-a-database">
-<h2><a class="toc-backref" href="#id1" role="doc-backlink">Abilita pgRouting in un database</a><a class="headerlink" href="#enabling-pgrouting-in-a-database" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id1">Abilita pgRouting in un database</a><a class="headerlink" href="#enabling-pgrouting-in-a-database" title="Link a questa intestazione">¶</a></h2>
 <p>In questo esempio creererai un database chiamato <cite>city_routing</cite> e abiliterai pgRouting nel database.</p>
 <ul class="simple">
 <li><p>Apri una finestra <span class="menuselection">System Tools ‣ QTerminal</span> ed eseguire lo strumento a riga di comando confezionato con PostgreSQL <cite>psql</cite>.</p></li>
@@ -110,7 +109,7 @@
 </div>
 </section>
 <section id="loading-osm-data-with-osm2pgrouting">
-<h2><a class="toc-backref" href="#id2" role="doc-backlink">Caricamento dei dati OSM con osm2pgrouting</a><a class="headerlink" href="#loading-osm-data-with-osm2pgrouting" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id2">Caricamento dei dati OSM con osm2pgrouting</a><a class="headerlink" href="#loading-osm-data-with-osm2pgrouting" title="Link a questa intestazione">¶</a></h2>
 <p>osm2pgrouting è uno strumento a riga di comando per caricare file <cite>.osm</cite> nel database con un formato compatibile con pgRouting.</p>
 <p>Controlla la versione installata</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">osm2pgrouting</span> <span class="o">--</span><span class="n">version</span>
@@ -199,7 +198,7 @@
 </div>
 </section>
 <section id="check-the-imported-data">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink">Controlla i dati importati</a><a class="headerlink" href="#check-the-imported-data" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id3">Controlla i dati importati</a><a class="headerlink" href="#check-the-imported-data" title="Link a questa intestazione">¶</a></h2>
 <p>Connetti al database <cite>city_routing</cite></p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">psql</span> <span class="n">city_routing</span>
 </pre></div>
@@ -238,7 +237,7 @@
 </div>
 </section>
 <section id="inner-query">
-<h2><a class="toc-backref" href="#id4" role="doc-backlink">Inner Query</a><a class="headerlink" href="#inner-query" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id4">Inner Query</a><a class="headerlink" href="#inner-query" title="Link a questa intestazione">¶</a></h2>
 <p>La maggior parte delle funzioni pgRouting hanno un parametro che è un’istruzione SQL, si chiama <strong>inner query</strong></p>
 <p>Lo statement SQL interno deve sempre avere i nomi dei campi <cite>id</cite>, <cite>source</cite>, <cite>target</cite>, e <cite>cost</cite> con <cite>reverse_cost</cite> come opzionale.</p>
 <p>Query interna che usa <cite>gid</cite> come identificatore dei segmenti</p>
@@ -257,7 +256,7 @@
 </div>
 </section>
 <section id="pgr-dijkstra">
-<h2><a class="toc-backref" href="#id5" role="doc-backlink">pgr_Dijkstra</a><a class="headerlink" href="#pgr-dijkstra" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id5">pgr_Dijkstra</a><a class="headerlink" href="#pgr-dijkstra" title="Link a questa intestazione">¶</a></h2>
 <p>Esegui la funzione di percorso più breve di Dijkstra basata sul tempo in secondi per attraversare un segmento su un grafo indiretto, usando <cite>id</cite> come identificatore di un vertice</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">SELECT</span> <span class="o">*</span>
 <span class="n">FROM</span> <span class="n">pgr_dijkstra</span><span class="p">(</span>
@@ -357,7 +356,7 @@
 <p>Con il comando <strong class="command">\q</strong> chiudi la shell di PostgreSQL.</p>
 </section>
 <section id="what-next">
-<h2><a class="toc-backref" href="#id6" role="doc-backlink">E ora?</a><a class="headerlink" href="#what-next" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id6">E ora?</a><a class="headerlink" href="#what-next" title="Link a questa intestazione">¶</a></h2>
 <ul class="simple">
 <li><p><strong>sito web di pgRouting</strong> - Visita il sito web del progetto <a class="reference external" href="https://pgrouting.org">https://pgrouting.org</a> per saperne di più su pgRouting.</p></li>
 <li><p><strong>pgRouting Documentazione</strong> - Trova la documentazione più recente in <a class="reference external" href="https://docs.pgrouting.org">https://docs.pgrouting.org</a>.</p></li>

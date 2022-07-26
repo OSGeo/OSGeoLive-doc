@@ -4,7 +4,7 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>Guide de démarrage avec OpenLayers &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -13,7 +13,6 @@
     <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/translations.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
@@ -65,10 +64,10 @@
   <a class="reference external image-reference" href="https://openlayers.org/"><img alt="../../_images/logo_openlayers.png" class="align-right" src="../../_images/logo_openlayers.png" /></a>
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
 <section id="openlayers-quickstart">
-<h1>Guide de démarrage avec OpenLayers<a class="headerlink" href="#openlayers-quickstart" title="Lien permanent vers cette rubrique">¶</a></h1>
+<h1>Guide de démarrage avec OpenLayers<a class="headerlink" href="#openlayers-quickstart" title="Lien permanent vers ce titre">¶</a></h1>
 <p>Ce guide de démarrage rapide décrit quelques étapes de base nécessaires pour commencer à travailler avec OpenLayers : création d’une carte de base, ajout de couches de raster et de vecteurs et de caractéristiques de style.</p>
 <p>OpenLayers facilite la mise en place d’une carte dynamique dans n’importe quelle page Web. Il peut afficher des tuiles de cartes, des données vectorielles et des marqueurs chargés depuis n’importe quelle source. OpenLayers a été développé pour favoriser l’utilisation d’informations géographiques de toutes sortes. C’est une bibliothèque JavaScript totalement gratuite, Open Source, publiée sous licence BSD 2-clause (également connue sous le nom de FreeBSD).</p>
-<nav class="contents local" id="contents">
+<div class="contents local topic" id="contents">
 <p class="topic-title">Contenu</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#core-concepts" id="id1">Concepts de base</a></p></li>
@@ -79,9 +78,9 @@
 <li><p><a class="reference internal" href="#work-with-events" id="id6">Travailler avec les événements</a></p></li>
 <li><p><a class="reference internal" href="#what-next" id="id7">Ensuite ?</a></p></li>
 </ul>
-</nav>
+</div>
 <section id="core-concepts">
-<h2><a class="toc-backref" href="#id1" role="doc-backlink">Concepts de base</a><a class="headerlink" href="#core-concepts" title="Lien permanent vers cette rubrique">¶</a></h2>
+<h2><a class="toc-backref" href="#id1">Concepts de base</a><a class="headerlink" href="#core-concepts" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Avant de commencer à travailler avec OpenLayers, il est utile de comprendre les concepts de base d’OpenLayers :</p>
 <dl class="simple">
 <dt><strong>Map</strong></dt><dd><p>La carte <em>map</em> est le composant principal d’OpenLayers. Pour qu’une <em>map</em> soit rendue, une vue <em>view</em> , une ou plusieurs couches <em>layers</em>, et un conteneur cible sont nécessaires.</p>
@@ -97,7 +96,7 @@
 </dl>
 </section>
 <section id="create-a-basic-map">
-<h2><a class="toc-backref" href="#id2" role="doc-backlink">Créer une carte de base</a><a class="headerlink" href="#create-a-basic-map" title="Lien permanent vers cette rubrique">¶</a></h2>
+<h2><a class="toc-backref" href="#id2">Créer une carte de base</a><a class="headerlink" href="#create-a-basic-map" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Créez un fichier dans par exemple /home/user/ appelé basic-map.html , et copiez le contenu suivant dans le fichier.</p>
 <div class="highlight-html notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;!DOCTYPE html&gt;</span>
 <span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&quot;en&quot;</span><span class="p">&gt;</span>
@@ -158,7 +157,7 @@
 </ul>
 </section>
 <section id="add-raster-layers">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink">Ajouter des couches raster</a><a class="headerlink" href="#add-raster-layers" title="Lien permanent vers cette rubrique">¶</a></h2>
+<h2><a class="toc-backref" href="#id3">Ajouter des couches raster</a><a class="headerlink" href="#add-raster-layers" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Les couches raster les plus utilisées sont les couches tuilées, fournies par des organisations comme OpenStreetMap, Stamen, Bing, etc. Les couches tuilées sont représentées par la classe <code class="docutils literal notranslate"><span class="pre">ol.layer.Tile</span></code> et doivent utiliser une source qui sait charger les tuiles d’un fournisseur donné, comme <code class="docutils literal notranslate"><span class="pre">ol.source.OSM</span></code> ou <code class="docutils literal notranslate"><span class="pre">ol.source.Stamen</span></code>:</p>
 <div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">osm</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">layer</span><span class="p">.</span><span class="nx">Tile</span><span class="p">({</span><span class="w"></span>
 <span class="w">  </span><span class="nx">source</span><span class="o">:</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">source</span><span class="p">.</span><span class="nx">OSM</span><span class="p">()</span><span class="w"></span>
@@ -195,7 +194,7 @@
 </ul>
 </section>
 <section id="add-vector-layers">
-<h2><a class="toc-backref" href="#id4" role="doc-backlink">Ajouter des couches vectorielles</a><a class="headerlink" href="#add-vector-layers" title="Lien permanent vers cette rubrique">¶</a></h2>
+<h2><a class="toc-backref" href="#id4">Ajouter des couches vectorielles</a><a class="headerlink" href="#add-vector-layers" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Les couches vectorielles sont représentées par la classe <code class="docutils literal notranslate"><span class="pre">ol.layer.Vector</span></code> et doivent utiliser une source appropriée pour lire le format vectoriel, comme <code class="docutils literal notranslate"><span class="pre">ol.source.GeoJSON</span></code>, <code class="docutils literal notranslate"><span class="pre">ol.source.KML</span></code> ou <code class="docutils literal notranslate"><span class="pre">ol.source.TopoJSON</span></code>.</p>
 <div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">vectorLayer</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">layer</span><span class="p">.</span><span class="nx">Vector</span><span class="p">({</span><span class="w"></span>
 <span class="w">  </span><span class="nx">source</span><span class="o">:</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">source</span><span class="p">.</span><span class="nx">GeoJSON</span><span class="p">({</span><span class="w"></span>
@@ -240,7 +239,7 @@
 </div>
 </section>
 <section id="apply-style-to-features">
-<h2><a class="toc-backref" href="#id5" role="doc-backlink">Appliquer le style aux entités</a><a class="headerlink" href="#apply-style-to-features" title="Lien permanent vers cette rubrique">¶</a></h2>
+<h2><a class="toc-backref" href="#id5">Appliquer le style aux entités</a><a class="headerlink" href="#apply-style-to-features" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Les entités dans les couches vectorielles peuvent être stylisées. Le style est déterminé par une combinaison de remplissage, trait, texte et image, qui sont tous facultatifs. En outre, un style peut être appliqué à une couche, qui détermine le style de toutes les entités contenues, ou à une entité individuelle.</p>
 <p>Un style est représenté par la classe``ol.style.Style`` qui a des propriétés pour définir les <code class="docutils literal notranslate"><span class="pre">fill</span></code>, <code class="docutils literal notranslate"><span class="pre">stroke</span></code>, <code class="docutils literal notranslate"><span class="pre">text</span></code> et <code class="docutils literal notranslate"><span class="pre">image</span></code> à appliquer. L’exemple suivant montre les limites administratives du jeu de données mondial avec un style utilisant un remplissage et contour verts :</p>
 <a class="reference internal image-reference" href="../../_images/openlayers-styling.png"><img alt="../../_images/openlayers-styling.png" src="../../_images/openlayers-styling.png" style="width: 555.0px; height: 283.0px;" /></a>
@@ -271,7 +270,7 @@
 <p>Dans le code, nous avons chargé un fichier TopoJSON et l’avons coiffé à travers la propriété <code class="docutils literal notranslate"><span class="pre">style`.</span> <span class="pre">Nous</span> <span class="pre">avons</span> <span class="pre">défini</span> <span class="pre">un</span>&#160; <span class="pre">``fill</span></code> et <code class="docutils literal notranslate"><span class="pre">stroke</span></code>, nécessaire pour les lignes et les polygones, et une <code class="docutils literal notranslate"><span class="pre">image</span></code>  (dans ce cas un cercle) utilisé pour les entités ponctuelles.</p>
 </section>
 <section id="work-with-events">
-<h2><a class="toc-backref" href="#id6" role="doc-backlink">Travailler avec les événements</a><a class="headerlink" href="#work-with-events" title="Lien permanent vers cette rubrique">¶</a></h2>
+<h2><a class="toc-backref" href="#id6">Travailler avec les événements</a><a class="headerlink" href="#work-with-events" title="Lien permanent vers ce titre">¶</a></h2>
 <p>La plupart des composants, comme <code class="docutils literal notranslate"><span class="pre">map</span></code>, <code class="docutils literal notranslate"><span class="pre">layers</span></code> ou <code class="docutils literal notranslate"><span class="pre">controls</span></code>, déclenchent des événements pour notifier les modifications. Par exemple, nous pouvons être avertis chaque fois que la souris est déplacée sur la carte, ou lorsqu’une entité est ajoutée à une couche vectorielle, etc.</p>
 <p>Les événements peuvent être facilement enregistrés sur un objet avec la méthode <code class="docutils literal notranslate"><span class="pre">on()</span></code> et non enregistrés avec <code class="docutils literal notranslate"><span class="pre">un()</span></code>.</p>
 <p>Le code suivant enregistre un événement sur une instance de <code class="docutils literal notranslate"><span class="pre">map</span></code> et sera notifié chaque fois que le pointeur est déplacé. Dans la fonction de rappel, nous obtenons les coordonnées du pointeur et les imprimons dans la console de navigateur dans deux projections différentes.</p>
@@ -285,7 +284,7 @@
 </div>
 </section>
 <section id="what-next">
-<h2><a class="toc-backref" href="#id7" role="doc-backlink">Ensuite ?</a><a class="headerlink" href="#what-next" title="Lien permanent vers cette rubrique">¶</a></h2>
+<h2><a class="toc-backref" href="#id7">Ensuite ?</a><a class="headerlink" href="#what-next" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Parfois, la façon la plus rapide de comprendre comment fonctionne OpenLayers est de regarder des exemples et leur code source. Vous pouvez trouver plus d’informations sur OpenLayers ici:</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://localhost/openlayers/apidoc/">API Docs</a></p></li>

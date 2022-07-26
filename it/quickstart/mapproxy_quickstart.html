@@ -4,7 +4,7 @@
 <html lang="it">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>Guida rapida MapProxy &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -13,7 +13,6 @@
     <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/translations.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
@@ -65,11 +64,11 @@
   <a class="reference external image-reference" href="https://mapproxy.org/"><img alt="../../_images/logo_mapproxy.png" class="align-right" src="../../_images/logo_mapproxy.png" /></a>
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_community.png" class="align-right" src="../../_images/OSGeo_community.png" /></a>
 <section id="mapproxy-quickstart">
-<h1>Guida rapida MapProxy<a class="headerlink" href="#mapproxy-quickstart" title="Permalink to this heading">¶</a></h1>
+<h1>Guida rapida MapProxy<a class="headerlink" href="#mapproxy-quickstart" title="Link a questa intestazione">¶</a></h1>
 <p>MapProxy è <em>il</em> coltellino svizzero per tutti i servizi WMS e tile. Mette in cache, accelera e trasforma i dati dai servizi di mappe esistenti e serve qualsiasi client GIS desktop o web.</p>
 <img alt="diagramma di MapProxy" class="align-center" src="../../_images/mapproxy_screenshot.png" />
 <p>MapProxy non è solo una soluzione di tasselli cache, ma offre anche molte funzionalità nuove e innovative come il supporto completo per i client WMS.</p>
-<nav class="contents local" id="contents">
+<div class="contents local topic" id="contents">
 <p class="topic-title">Contenuti</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#start-the-service-and-view-the-demo" id="id2">Avvia il servizio e guarda la demo</a></p></li>
@@ -81,9 +80,9 @@
 <li><p><a class="reference internal" href="#create-you-own-configuration" id="id5">Crea la tua configurazione personale</a></p></li>
 <li><p><a class="reference internal" href="#what-next" id="id6">E ora?</a></p></li>
 </ul>
-</nav>
+</div>
 <section id="start-the-service-and-view-the-demo">
-<h2><a class="toc-backref" href="#id2" role="doc-backlink">Avvia il servizio e guarda la demo</a><a class="headerlink" href="#start-the-service-and-view-the-demo" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id2">Avvia il servizio e guarda la demo</a><a class="headerlink" href="#start-the-service-and-view-the-demo" title="Link a questa intestazione">¶</a></h2>
 <p>MapProxy ha opzioni di distribuzione flessibili e si può integrare in Apache, per esempio. Ma è anche possibile avviare MapProxy come servizio autonomo, che è l’opzione migliore per iniziare.</p>
 <ol class="arabic simple">
 <li><p>Per avviare MapProxy come servizio autonomo clicca su <span class="menuselection">Geospatial ‣ Web Services ‣ MapProxy ‣ Start MapProxy</span>.</p></li>
@@ -92,7 +91,7 @@
 <p>La pagina demo di MapProxy contiene un rudimentale client WMS e tile per ogni strato configurato. Non puoi selezionare la proiezione per gli strati WMS per esempio, ma è sufficiente per verificare rapidamente che la tua installazione funzioni.</p>
 </section>
 <section id="view-in-desktop-gis">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink">Visualizza nel desktop GIS</a><a class="headerlink" href="#view-in-desktop-gis" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id3">Visualizza nel desktop GIS</a><a class="headerlink" href="#view-in-desktop-gis" title="Link a questa intestazione">¶</a></h2>
 <p>Puoi aggiungere MapProxy in qualsiasi WMS Desktop GIS come uDig, QGIS o gvSIG. L’URL del servizio è: <a class="reference external" href="http://localhost:8011/service?">http://localhost:8011/service?</a></p>
 <p>La configurazione di esempio di MapProxy contiene alcuni layer che usano diversi motori di mappe e dati di mappe. Vedi sotto per maggiori dettagli su ogni layer.</p>
 <figure class="align-center" id="id1">
@@ -102,7 +101,7 @@
 </figcaption>
 </figure>
 <section id="available-layers">
-<h3><a class="toc-backref" href="#id4" role="doc-backlink">Layer disponibili</a><a class="headerlink" href="#available-layers" title="Permalink to this heading">¶</a></h3>
+<h3><a class="toc-backref" href="#id4">Layer disponibili</a><a class="headerlink" href="#available-layers" title="Link a questa intestazione">¶</a></h3>
 <dl class="simple">
 <dt><strong>mapnik</strong>:</dt><dd><p>La popolazione mondiale resa da Mapnik. Non è necessario avviare il servizio Mapnik, perché questo layer fa uso del supporto Mapnik integrato in MapProxy.</p>
 </dd>
@@ -118,7 +117,7 @@
 </section>
 </section>
 <section id="create-you-own-configuration">
-<h2><a class="toc-backref" href="#id5" role="doc-backlink">Crea la tua configurazione personale</a><a class="headerlink" href="#create-you-own-configuration" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id5">Crea la tua configurazione personale</a><a class="headerlink" href="#create-you-own-configuration" title="Link a questa intestazione">¶</a></h2>
 <p>Puoi usare <code class="docutils literal notranslate"><span class="pre">mapproxy-util</span></code> per creare nuovi modelli di configurazione e per avviare un server di prova.</p>
 <p>Per creare una nuova configurazione:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mapproxy</span><span class="o">-</span><span class="n">util</span> <span class="n">create</span> <span class="o">-</span><span class="n">t</span> <span class="n">base</span><span class="o">-</span><span class="n">config</span> <span class="o">~/</span><span class="n">mapproxy</span>
@@ -131,7 +130,7 @@
 <p>Ora puoi visitare la pagina demo all’indirizzo <a class="reference external" href="http://127.0.0.1:8011/demo/">http://127.0.0.1:8011/demo/</a>. MapProxy si ricarica automaticamente se si cambia il file di configurazione.</p>
 </section>
 <section id="what-next">
-<h2><a class="toc-backref" href="#id6" role="doc-backlink">E ora?</a><a class="headerlink" href="#what-next" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id6">E ora?</a><a class="headerlink" href="#what-next" title="Link a questa intestazione">¶</a></h2>
 <ul class="simple">
 <li><p>Leggere la <a class="reference external" href="https://localhost/mapproxy/index.html">documentazione di MapProxy</a></p></li>
 <li><p>Leggi la configurazione di esempio (<code class="docutils literal notranslate"><span class="pre">/usr/local/share/mapproxy/mapproxy.yaml</span></code>)</p></li>

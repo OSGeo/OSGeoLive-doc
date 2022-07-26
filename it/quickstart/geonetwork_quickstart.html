@@ -4,7 +4,7 @@
 <html lang="it">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>Guida rapida GeoNetwork &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -13,7 +13,6 @@
     <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/translations.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
@@ -65,9 +64,9 @@
   <a class="reference external image-reference" href="https://geonetwork-opensource.org"><img alt="../../_images/logo_geonetwork.png" class="align-right" src="../../_images/logo_geonetwork.png" /></a>
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
 <section id="geonetwork-quickstart">
-<h1>Guida rapida GeoNetwork<a class="headerlink" href="#geonetwork-quickstart" title="Permalink to this heading">¶</a></h1>
+<h1>Guida rapida GeoNetwork<a class="headerlink" href="#geonetwork-quickstart" title="Link a questa intestazione">¶</a></h1>
 <p>GeoNetwork è un’applicazione di catalogo per gestire risorse spazialmente referenziate. Fornisce potenti funzioni di editing dei metadati e di ricerca, nonché un visualizzatore interattivo di mappe web. È attualmente utilizzato in numerose iniziative di Spatial Data Infrastructure in tutto il mondo.</p>
-<nav class="contents local" id="indice">
+<div class="contents local topic" id="indice">
 <ul class="simple">
 <li><p><a class="reference internal" href="#prerequisites" id="id1">Prerequisiti</a></p></li>
 <li><p><a class="reference internal" href="#access-the-catalog" id="id2">Accedi al catalogo</a></p></li>
@@ -78,14 +77,14 @@
 <li><p><a class="reference internal" href="#add-layers-to-the-map" id="id7">Aggiungi layer alla mappa</a></p></li>
 <li><p><a class="reference internal" href="#what-next" id="id8">E ora?</a></p></li>
 </ul>
-</nav>
+</div>
 <section id="prerequisites">
-<h2><a class="toc-backref" href="#id1" role="doc-backlink">Prerequisiti</a><a class="headerlink" href="#prerequisites" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id1">Prerequisiti</a><a class="headerlink" href="#prerequisites" title="Link a questa intestazione">¶</a></h2>
 <p>GeoNetwork può essere avviato direttamente dal menu di avvio di OSGeo Live e sarà disponibile su <a class="reference external" href="http://localhost:8080/geonetwork">http://localhost:8080/geonetwork</a> qualche istante dopo. Controlla la <a class="reference external" href="https://geonetwork-opensource.org/manuals/trunk/en/install-guide/index.html">Guida all’installazione</a> se stai usando GeoNetwork in qualche altro contesto.</p>
 <p>In questa guida userai l’URL <code class="docutils literal notranslate"><span class="pre">http://localhost:8880/geonetwork</span></code> per riferirsi al catalogo, per favore sostituisci un URL diverso se questo non è corretto per il tuo sistema.</p>
 </section>
 <section id="access-the-catalog">
-<h2><a class="toc-backref" href="#id2" role="doc-backlink">Accedi al catalogo</a><a class="headerlink" href="#access-the-catalog" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id2">Accedi al catalogo</a><a class="headerlink" href="#access-the-catalog" title="Link a questa intestazione">¶</a></h2>
 <p>Nella cartella Web Services sul desktop (o tramite il menu start), fare doppio clic su <strong>start GeoNetwork</strong>. Questo aprirà il browser web Firefox all’URL <code class="docutils literal notranslate"><span class="pre">http://localhost:8880/geonetwork</span></code>. In questo documento ci si riferirà a questo indirizzo come alla <em>homepage</em>.</p>
 <p>È possibile tornare alla homepage in qualsiasi momento selezionando il logo del catalogo in alto a sinistra della barra degli strumenti superiore. Nello screenshot qui sotto, questo è etichettato «Il mio catalogo GeoNetwork», ma potrebbe avere un nome e un logo diverso.</p>
 <figure class="align-default">
@@ -93,7 +92,7 @@
 </figure>
 </section>
 <section id="sign-in">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink">Accedi</a><a class="headerlink" href="#sign-in" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id3">Accedi</a><a class="headerlink" href="#sign-in" title="Link a questa intestazione">¶</a></h2>
 <p>Seleziona <strong>Sign in</strong> in alto a destra della barra degli strumenti in alto nella homepage per visitare la pagina di accesso. Inserisci il nome utente <code class="docutils literal notranslate"><span class="pre">admin</span></code> e la password <code class="docutils literal notranslate"><span class="pre">admin</span></code> e seleziona il pulsante blu <strong>Sign in</strong> per accedere come amministratore del catalogo.</p>
 <figure class="align-default">
 <a class="reference internal image-reference" href="../../_images/geonetwork_signin.png"><img alt="../../_images/geonetwork_signin.png" src="../../_images/geonetwork_signin.png" style="width: 539.0px; height: 161.7px;" /></a>
@@ -104,7 +103,7 @@
 </figure>
 </section>
 <section id="load-sample-data">
-<h2><a class="toc-backref" href="#id4" role="doc-backlink">Carica dati di esempio</a><a class="headerlink" href="#load-sample-data" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id4">Carica dati di esempio</a><a class="headerlink" href="#load-sample-data" title="Link a questa intestazione">¶</a></h2>
 <p>Seleziona <strong>Admin console</strong> nella barra degli strumenti superiore per accedere alle funzioni amministrative del catalogo, quindi seleziona la voce di menu <strong>Metadata and templates</strong> per accedere alla scheda dati campione e modelli.</p>
 <p>Questa pagina elenca tutti gli standard di metadati caricati nel catalogo. Gli standard predefiniti in GeoNetwork sono:</p>
 <ul class="simple">
@@ -121,7 +120,7 @@
 <p><em>Quando questo processo è completo, un avviso apparirà nella parte destra della finestra indicando che sono stati aggiunti 5 record per lo schema “iso19139”.</em></p>
 </section>
 <section id="search-for-spatial-data">
-<h2><a class="toc-backref" href="#id5" role="doc-backlink">Ricerca di dati spaziali</a><a class="headerlink" href="#search-for-spatial-data" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id5">Ricerca di dati spaziali</a><a class="headerlink" href="#search-for-spatial-data" title="Link a questa intestazione">¶</a></h2>
 <p>Torna alla homepage del catalogo selezionando il nome del catalogo in alto a sinistra nella barra degli strumenti superiore. La homepage mostrerà ora delle icone che rappresentano i record caricati, classificati per argomento (in blu) e tipo di risorsa (in verde). Sotto questo ci sono delle schede che classificano i record per data di aggiunta (ultime notizie) e popolarità (più popolari).</p>
 <figure class="align-default">
 <a class="reference internal image-reference" href="../../_images/geonetwork_screenshot.png"><img alt="../../_images/geonetwork_screenshot.png" src="../../_images/geonetwork_screenshot.png" style="width: 716.8px; height: 532.0px;" /></a>
@@ -154,7 +153,7 @@
 </figure>
 </section>
 <section id="display-results">
-<h2><a class="toc-backref" href="#id6" role="doc-backlink">Mostra risultati</a><a class="headerlink" href="#display-results" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id6">Mostra risultati</a><a class="headerlink" href="#display-results" title="Link a questa intestazione">¶</a></h2>
 <p>I risultati della ricerca sono rappresentati come «carte», che mostrano le Categorie con cui i metadati sono classificati, il titolo del record, una miniatura, un abstract (se presente) e link a download e altre risorse (se presente).</p>
 <figure class="align-default">
 <a class="reference internal image-reference" href="../../_images/geonetwork_a-result.png"><img alt="../../_images/geonetwork_a-result.png" src="../../_images/geonetwork_a-result.png" style="width: 315.7px; height: 177.1px;" /></a>
@@ -174,7 +173,7 @@
 <p>Passando a <strong>Full view</strong> verranno mostrati metadati più dettagliati. Per tornare alla vista originale seleziona <strong>Default view</strong> dall’elenco.</p>
 </section>
 <section id="add-layers-to-the-map">
-<h2><a class="toc-backref" href="#id7" role="doc-backlink">Aggiungi layer alla mappa</a><a class="headerlink" href="#add-layers-to-the-map" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id7">Aggiungi layer alla mappa</a><a class="headerlink" href="#add-layers-to-the-map" title="Link a questa intestazione">¶</a></h2>
 <p>Dalla <strong>Search tab</strong>, clicca sulla scheda di <strong>Physiographic Map of North and Central Eurasia (Sample record, please remove!)</strong> per visualizzare i metadati. Muoviti verso il basso della pagina fino a quando la sezione <strong>Download and links</strong> è visibile.</p>
 <p>La sezione <strong>Download and links</strong> mostra le risorse esterne associate al record di metadati, come ad esempio:</p>
 <ul class="simple">
@@ -230,7 +229,7 @@
 </figure>
 </section>
 <section id="what-next">
-<h2><a class="toc-backref" href="#id8" role="doc-backlink">E ora?</a><a class="headerlink" href="#what-next" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id8">E ora?</a><a class="headerlink" href="#what-next" title="Link a questa intestazione">¶</a></h2>
 <p>Visita la <a class="reference external" href="https://geonetwork-opensource.org/manuals/trunk/en/user-guide/index.html">Geonetwork User Guide</a> e prova il capitolo sulla <strong>Descrizione delle informazioni</strong>, per imparare a creare e modificare i record di metadati.</p>
 <p>Continua a visitare i capitoli successivi per imparare come associare le risorse ai tuoi metadati, etichettarle con parole chiave e aggiungerle alle categorie, e pubblicare i tuoi metadati al mondo esterno.</p>
 </section>

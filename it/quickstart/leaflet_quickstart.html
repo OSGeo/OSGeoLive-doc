@@ -4,7 +4,7 @@
 <html lang="it">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>Guida rapida Leaflet &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -13,7 +13,6 @@
     <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/translations.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
@@ -64,9 +63,9 @@
             
   <a class="reference external image-reference" href="https://leafletjs.com"><img alt="../../_images/logo_leaflet.png" class="align-right" src="../../_images/logo_leaflet.png" /></a>
 <section id="leaflet-quickstart">
-<h1><a class="toc-backref" href="#id1" role="doc-backlink">Guida rapida Leaflet</a><a class="headerlink" href="#leaflet-quickstart" title="Permalink to this heading">¶</a></h1>
+<h1><a class="toc-backref" href="#id1">Guida rapida Leaflet</a><a class="headerlink" href="#leaflet-quickstart" title="Link a questa intestazione">¶</a></h1>
 <p>Leaflet è una libreria JavaScript per mappe interattive basate su browser e mobile-friendly. È leggera, ma ha tutte le caratteristiche di cui la maggior parte degli sviluppatori ha bisogno per le mappe online. Leaflet è progettata con semplicità, prestazioni e usabilità in mente.</p>
-<nav class="contents" id="contents">
+<div class="contents topic" id="contents">
 <p class="topic-title">Contenuti</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#leaflet-quickstart" id="id1">Guida rapida Leaflet</a></p>
@@ -81,9 +80,9 @@
 </ul>
 </li>
 </ul>
-</nav>
+</div>
 <section id="running">
-<h2><a class="toc-backref" href="#id2" role="doc-backlink">In esecuzione</a><a class="headerlink" href="#running" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id2">In esecuzione</a><a class="headerlink" href="#running" title="Link a questa intestazione">¶</a></h2>
 <p>Prima di eseguire questa guida rapida è necessario avviare TileStache. Su OSGeoLive è possibile trovarlo in <strong>GeospatialSpatial ToolsStart Mapnik &amp; TileStache</strong>. Questo fornirà i tasselli di sfondo che verranno utilizzati in questa demo.</p>
 <p>Vedi l”<a class="reference external" href="http://localhost/leaflet-demo.html">esempio</a></p>
 <div class="admonition tip">
@@ -92,7 +91,7 @@
 </div>
 </section>
 <section id="preparing-your-page">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink">Prepara la tua pagina</a><a class="headerlink" href="#preparing-your-page" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id3">Prepara la tua pagina</a><a class="headerlink" href="#preparing-your-page" title="Link a questa intestazione">¶</a></h2>
 <p>Prima di scrivere qualsiasi codice per la mappa, devi fare i seguenti passi di preparazione nella tua pagina:</p>
 <ul class="simple">
 <li><p>Includi i file CSS di Leaflet nella sezione di testa del tuo documento</p></li>
@@ -124,7 +123,7 @@
 <p>Ora sei pronto per inizializzare la mappa e fare qualcosa con essa.</p>
 </section>
 <section id="setting-up-the-map">
-<h2><a class="toc-backref" href="#id4" role="doc-backlink">Impostazione della Mappa</a><a class="headerlink" href="#setting-up-the-map" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id4">Impostazione della Mappa</a><a class="headerlink" href="#setting-up-the-map" title="Link a questa intestazione">¶</a></h2>
 <p>Crea una mappa dell’Africa orientale con l’indicazione della conferenza FOSS4G 2018. Per prima cosa inizializza la mappa e imposta la sua vista sulle coordinate geografiche che hai scelto e su un livello di zoom:</p>
 <div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">map</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">L</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="s1">&#39;map&#39;</span><span class="p">).</span><span class="nx">setView</span><span class="p">([</span><span class="mf">44.43743</span><span class="p">,</span><span class="w"> </span><span class="mf">26.104</span><span class="p">],</span><span class="w"> </span><span class="mf">15</span><span class="p">);</span><span class="w"></span>
 </pre></div>
@@ -144,7 +143,7 @@
 <p>Vale la pena notare che Leaflet è «provider-agnostic», il che significa che non impone una particolare scelta di provider per i tasselli, e non contiene nemmeno una singola linea di codice specifica per il provider, quindi sei libero di usare altri provider se ne hai bisogno.</p>
 </section>
 <section id="markers-circles-and-polygons">
-<h2><a class="toc-backref" href="#id5" role="doc-backlink">Simboli, cerchi e poligoni</a><a class="headerlink" href="#markers-circles-and-polygons" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id5">Simboli, cerchi e poligoni</a><a class="headerlink" href="#markers-circles-and-polygons" title="Link a questa intestazione">¶</a></h2>
 <p>Oltre ai layer dei tasselli, puoi facilmente aggiungere altre cose alla tua mappa, inclusi segni, polilinee, poligoni, cerchi e popup. Aggiungi un segno:</p>
 <div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">marker</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">L</span><span class="p">.</span><span class="nx">marker</span><span class="p">([</span><span class="mf">44.437</span><span class="w"> </span><span class="p">,</span><span class="mf">26.104</span><span class="p">]).</span><span class="nx">addTo</span><span class="p">(</span><span class="nx">map</span><span class="p">);</span><span class="w"></span>
 </pre></div>
@@ -167,7 +166,7 @@
 </div>
 </section>
 <section id="working-with-popups">
-<h2><a class="toc-backref" href="#id6" role="doc-backlink">Lavorare con i popup</a><a class="headerlink" href="#working-with-popups" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id6">Lavorare con i popup</a><a class="headerlink" href="#working-with-popups" title="Link a questa intestazione">¶</a></h2>
 <p>I popup sono di solito usati quando si desidera allegare alcune informazioni ad un particolare oggetto su una mappa. Leaflet ha una scorciatoia molto comoda per questo:</p>
 <div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">popup</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">L</span><span class="p">.</span><span class="nx">popup</span><span class="p">()</span><span class="w"></span>
 <span class="w">   </span><span class="p">.</span><span class="nx">setLatLng</span><span class="p">([</span><span class="mf">44.437</span><span class="p">,</span><span class="w"> </span><span class="mf">26.104</span><span class="p">])</span><span class="w"></span>
@@ -178,7 +177,7 @@
 <p>Qui usa <strong>openOn</strong> invece di <strong>addTo</strong> perché gestisce la chiusura automatica di un popup precedentemente aperto quando se ne apre uno nuovo, il che è buono per l’usabilità.</p>
 </section>
 <section id="dealing-with-events">
-<h2><a class="toc-backref" href="#id7" role="doc-backlink">Gestire gli eventi</a><a class="headerlink" href="#dealing-with-events" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id7">Gestire gli eventi</a><a class="headerlink" href="#dealing-with-events" title="Link a questa intestazione">¶</a></h2>
 <p>Ogni volta che succede qualcosa in Leaflet, per esempio l’utente clicca su un segno o lo zoom della mappa cambia, l’oggetto corrispondente invia un evento che puoi sottoscrivere con una funzione. Questo ti permette di reagire all’interazione dell’utente:</p>
 <div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">function</span><span class="w"> </span><span class="nx">onMapClick</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
 <span class="w">   </span><span class="nx">alert</span><span class="p">(</span><span class="s2">&quot;You clicked the map at &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">e</span><span class="p">.</span><span class="nx">latlng</span><span class="p">);</span><span class="w"></span>
@@ -204,8 +203,8 @@
 <p>Prova a cliccare sulla mappa e vedrai le coordinate in un popup. Visualizza l’esempio <a class="reference external" href="http://localhost/leaflet-demo.html">completo</a></p>
 </section>
 <section id="what-next">
-<h2><a class="toc-backref" href="#id8" role="doc-backlink">E ora?</a><a class="headerlink" href="#what-next" title="Permalink to this heading">¶</a></h2>
-<p>Ora hai imparato le basi di Leaflet e puoi iniziare subito a costruire applicazioni per le mappe! Non dimenticare di dare un’occhiata alla documentazione <a class="reference external" href="https://leafletjs.com/reference.html">dettagliata</a> o ad altri <a class="reference external" href="https://leafletjs.com/examples.html">esempi</a>.</p>
+<h2><a class="toc-backref" href="#id8">E ora?</a><a class="headerlink" href="#what-next" title="Link a questa intestazione">¶</a></h2>
+<p>Ora hai imparato le basi di Leaflet e puoi iniziare subito a costruire applicazioni per le mappe! Non dimenticare di dare un’occhiata alla documentazione <a class="reference external" href="https://leafletjs.com/examples.html">dettagliata</a> o ad altri <a class="reference external" href="https://leafletjs.com/reference.html">esempi</a>.</p>
 </section>
 </section>
 

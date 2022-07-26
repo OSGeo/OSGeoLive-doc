@@ -4,7 +4,7 @@
 <html lang="it">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>Guida rapida OTB &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -13,7 +13,6 @@
     <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/translations.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
@@ -65,7 +64,7 @@
   <a class="reference external image-reference" href="https://www.orfeo-toolbox.org/"><img alt="../../_images/logo_otb.png" class="align-right" src="../../_images/logo_otb.png" /></a>
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
 <section id="otb-quickstart">
-<h1>Guida rapida OTB<a class="headerlink" href="#otb-quickstart" title="Permalink to this heading">¶</a></h1>
+<h1>Guida rapida OTB<a class="headerlink" href="#otb-quickstart" title="Link a questa intestazione">¶</a></h1>
 <p>La libreria ORFEO Toolbox (OTB) è una libreria ad alte prestazioni per l’elaborazione delle immagini mirata al telerilevamento.</p>
 <p>Questa Guida Rapida descrive come:</p>
 <blockquote>
@@ -94,7 +93,7 @@
 <blockquote>
 <div><p>cd /home/user/data/north_carolina/rast_geotiff</p>
 </div></blockquote>
-<nav class="contents local" id="contents">
+<div class="contents local topic" id="contents">
 <p class="topic-title">Contenuti</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#display-metadata-information-in-an-image" id="id1">Visualizza le informazioni sui metadati in un’immagine</a></p></li>
@@ -105,16 +104,16 @@
 <li><p><a class="reference internal" href="#developing-with-otb" id="id6">Sviluppa con OTB</a></p></li>
 <li><p><a class="reference internal" href="#what-next" id="id7">E ora?</a></p></li>
 </ul>
-</nav>
+</div>
 <section id="display-metadata-information-in-an-image">
-<h2><a class="toc-backref" href="#id1" role="doc-backlink">Visualizza le informazioni sui metadati in un’immagine</a><a class="headerlink" href="#display-metadata-information-in-an-image" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id1">Visualizza le informazioni sui metadati in un’immagine</a><a class="headerlink" href="#display-metadata-information-in-an-image" title="Link a questa intestazione">¶</a></h2>
 <p>Puoi ottenere tutte le informazioni sui metadati contenute in un’immagine con il comando: <cite>otbcli_ReadImageInfo</cite> Il parametro unico è il nome del file immagine in ingresso, per esempio:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">otbcli_ReadImageInfo</span> <span class="o">-</span><span class="ow">in</span> <span class="n">ortho_2001_t792_1m</span><span class="o">.</span><span class="n">tif</span>
 </pre></div>
 </div>
 </section>
 <section id="calculator-on-image-bands">
-<h2><a class="toc-backref" href="#id2" role="doc-backlink">Calcolatrice su bande di immagini</a><a class="headerlink" href="#calculator-on-image-bands" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id2">Calcolatrice su bande di immagini</a><a class="headerlink" href="#calculator-on-image-bands" title="Link a questa intestazione">¶</a></h2>
 <p>La funzione <cite>otbcli_otbBandMath</cite> fornisce un modo efficiente per eseguire operazioni matematiche sulle bande di immagini. La sintassi è abbastanza semplice. Per esempio, per substratizzare due bande per studiare le differenze di immagine sulle immagini <cite>lsat7_2002_10.tif</cite> e <cite>lsat7_2002_20.tif</cite>, basta usare il comando:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">otbcli_BandMath</span> <span class="o">-</span><span class="n">il</span> <span class="n">lsat7_2002_10</span><span class="o">.</span><span class="n">tif</span> <span class="n">lsat7_2002_20</span><span class="o">.</span><span class="n">tif</span> <span class="o">-</span><span class="n">out</span>  <span class="o">~/</span><span class="n">difference</span><span class="o">.</span><span class="n">tif</span> <span class="o">-</span><span class="n">exp</span> <span class="s2">&quot;im1b1-im2b1&quot;</span>
 </pre></div>
@@ -130,7 +129,7 @@
 </div>
 </section>
 <section id="pixel-based-classification">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink">Classificazione basata sui pixel</a><a class="headerlink" href="#pixel-based-classification" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id3">Classificazione basata sui pixel</a><a class="headerlink" href="#pixel-based-classification" title="Link a questa intestazione">¶</a></h2>
 <p>La classificazione nel framework dell’applicazione fornisce una catena di classificazione supervisionata pixel-wise basata sull’apprendimento da più immagini e utilizzando un metodo di apprendimento automatico specificato come SVM, Bayes, KNN, Random Forests, Artificial Neural Network e altri. Vedi l’aiuto dell’applicazione <cite>TrainImagesClassifier</cite> per ulteriori dettagli su tutti i classificatori disponibili. Supporta immagini enormi attraverso lo streaming e il multi-threading. La catena di classificazione esegue una fase di allenamento basata sulle intensità di ogni pixel come elementi. Nota che tutte le immagini in ingresso devono avere lo stesso numero di bande per essere comparabili.</p>
 <p>Per scoprire questa applicazione, puoi usare il comando</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">otbgui_TrainImagesClassifier</span>
@@ -138,7 +137,7 @@
 </div>
 </section>
 <section id="perform-segmentation">
-<h2><a class="toc-backref" href="#id4" role="doc-backlink">Perform segmentation</a><a class="headerlink" href="#perform-segmentation" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id4">Perform segmentation</a><a class="headerlink" href="#perform-segmentation" title="Link a questa intestazione">¶</a></h2>
 <p>L’applicazione OTB <em>Segmentation</em> permette di produrre un risultato di segmentazione raster con diversi algoritmi e di scalare fino a grandi raster producendo output vettoriali che è possibile importare in un software GIS. Ci sono quattro metodi di segmentazione disponibili nell’applicazione:</p>
 <ul class="simple">
 <li><p>Mean-Shift</p></li>
@@ -175,14 +174,14 @@
 <p>OTB include anche un framework per eseguire la segmentazione tile-wise di immagini molto grandi con garanzie teoriche di ottenere risultati identici a quelli senza tiling chiamato <a class="reference external" href="https://www.orfeo-toolbox.org/CookBook/recipes/improc.html#large-scale-mean-shift-lsms-segmentation">LSMS</a>.</p>
 </section>
 <section id="otb-in-qgis">
-<h2><a class="toc-backref" href="#id5" role="doc-backlink">OTB in QGis</a><a class="headerlink" href="#otb-in-qgis" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id5">OTB in QGis</a><a class="headerlink" href="#otb-in-qgis" title="Link a questa intestazione">¶</a></h2>
 <p>Lo stesso set di applicazioni OTB può anche essere usato dal menu <span class="menuselection">Processing ‣ Toolbox</span> in QGis. Le applicazioni sono ordinate per tag.</p>
 <blockquote>
 <div><img alt="../../_images/otb-processing-qgis.png" src="../../_images/otb-processing-qgis.png" />
 </div></blockquote>
 </section>
 <section id="developing-with-otb">
-<h2><a class="toc-backref" href="#id6" role="doc-backlink">Sviluppa con OTB</a><a class="headerlink" href="#developing-with-otb" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id6">Sviluppa con OTB</a><a class="headerlink" href="#developing-with-otb" title="Link a questa intestazione">¶</a></h2>
 <p>Se vuoi usare la libreria OTB e compilare il tuo codice C++ all’interno di OSGeoLive, dovrai farlo:</p>
 <ul class="simple">
 <li><p>Installa il pacchetto di sviluppo <strong>libotb-dev</strong> e <strong>libqt4-dev</strong> .</p></li>
@@ -192,7 +191,7 @@
 <p>Maggiori informazioni possono essere trovate nella Guida al software.</p>
 </section>
 <section id="what-next">
-<h2><a class="toc-backref" href="#id7" role="doc-backlink">E ora?</a><a class="headerlink" href="#what-next" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id7">E ora?</a><a class="headerlink" href="#what-next" title="Link a questa intestazione">¶</a></h2>
 <ul>
 <li><p>Guida Software OTB</p>
 <p>La principale fonte di informazioni è la OTB Software Guide. Si tratta di una guida completa che comprende circa 600 pagine, che descrive in dettaglio i passi per installare OTB e usarlo. La maggior parte delle classi disponibili sono pesantemente illustrate con risultati di reali elaborazioni di telerilevamento.</p>

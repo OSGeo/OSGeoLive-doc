@@ -4,7 +4,7 @@
 <html lang="de">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>istSOS Quickstart &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -13,7 +13,6 @@
     <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/translations.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
@@ -65,11 +64,11 @@
   <a class="reference external image-reference" href="http://istsos.org"><img alt="../../_images/logo_istsos.png" class="align-right" src="../../_images/logo_istsos.png" /></a>
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_community.png" class="align-right" src="../../_images/OSGeo_community.png" /></a>
 <section id="istsos-quickstart">
-<h1>istSOS Quickstart<a class="headerlink" href="#istsos-quickstart" title="Permalink to this heading">¶</a></h1>
+<h1>istSOS Quickstart<a class="headerlink" href="#istsos-quickstart" title="Link zu dieser Überschrift">¶</a></h1>
 <p>istSOS ist ein OGC-| SOS| Server-Implementierung geschrieben in ‚Python &lt;https: www.python.org/=““&gt;‘__. istSOS ermöglicht die Verwaltung und Dispatch von Beobachtungssensoren nach dem Sensor Observation Service Standard.&lt;/https:&gt;</p>
 <p>Das Projekt bietet auch eine grafische Benutzeroberfläche, die die tägliche Bedienung erleichtert, und eine RESTFull-Web-API zur Automatisierung von Verwaltungsabläufen.</p>
 <p>istSOS wird unter der GPLv2-Lizenz veröffentlicht und läuft auf allen wichtigen Plattformen (Windows, Linux, Mac OS X), obwohl es nur in der Produktion in Linux-Umgebungen verwendet wurde.</p>
-<nav class="contents local" id="contents">
+<div class="contents local topic" id="contents">
 <p class="topic-title">Inhalt</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#create-postgis-database" id="id1">Erstellen einer PostGIS-Datenbank</a></p></li>
@@ -79,9 +78,9 @@
 <li><p><a class="reference internal" href="#add-new-observations" id="id5">Hinzufügen neuer Beobachtungen</a></p></li>
 <li><p><a class="reference internal" href="#what-next" id="id6">Was kommt als Nächstes?</a></p></li>
 </ul>
-</nav>
+</div>
 <section id="create-postgis-database">
-<h2><a class="toc-backref" href="#id1" role="doc-backlink">Erstellen einer PostGIS-Datenbank</a><a class="headerlink" href="#create-postgis-database" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id1">Erstellen einer PostGIS-Datenbank</a><a class="headerlink" href="#create-postgis-database" title="Link zu dieser Überschrift">¶</a></h2>
 <p>Öffnen Sie ein Terminal und führen Sie die folgenden Befehle aus:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="o">-</span><span class="n">u</span> <span class="n">postgres</span> <span class="n">createdb</span> <span class="o">-</span><span class="n">E</span> <span class="n">UTF8</span> <span class="n">istsos</span>
 <span class="n">sudo</span> <span class="o">-</span><span class="n">u</span> <span class="n">postgres</span> <span class="n">psql</span> <span class="o">-</span><span class="n">d</span> <span class="n">istsos</span> <span class="o">-</span><span class="n">c</span> <span class="s1">&#39;CREATE EXTENSION postgis&#39;</span>
@@ -89,7 +88,7 @@
 </div>
 </section>
 <section id="set-up-an-istsos-service-instance">
-<h2><a class="toc-backref" href="#id2" role="doc-backlink">Einrichten einer istSOS-Dienstinstanz</a><a class="headerlink" href="#set-up-an-istsos-service-instance" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id2">Einrichten einer istSOS-Dienstinstanz</a><a class="headerlink" href="#set-up-an-istsos-service-instance" title="Link zu dieser Überschrift">¶</a></h2>
 <p>Mit istSOS können Sie Ihre Sensordaten in verschiedenen Instanzen organisieren. Jede Instanz verfügt über ein eigenes Datenbankschema, das von anderen Instanzen unabhängig ist. Sie können sogar andere Datenbanken über Ihr Netzwerk entsprechend Ihren Anforderungen bereitstellen.</p>
 <p>Die ersten Schritte in istSOS-Setup besteht darin, die Standardkonfigurationsoptionen zu konfigurieren. Diese Optionen werden dann automatisch für jede neue istSOS-Instanz verwendet, die erstellt wird.</p>
 <ol class="arabic">
@@ -117,7 +116,7 @@
 </ol>
 </section>
 <section id="create-a-new-service">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink">Erstellen eines neuen Dienstes</a><a class="headerlink" href="#create-a-new-service" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id3">Erstellen eines neuen Dienstes</a><a class="headerlink" href="#create-a-new-service" title="Link zu dieser Überschrift">¶</a></h2>
 <p>Nachdem Sie istSOS konfiguriert haben, ist es an der Zeit, eine neue Dienstinstanz zu erstellen.</p>
 <ol class="arabic simple">
 <li><p>Drücken Sie im Menü der Buttons die Schaltfläche „Neuer Service“ und klicken Sie auf :guilabel:‘Next‘.</p></li>
@@ -132,7 +131,7 @@
 </div>
 </section>
 <section id="add-a-new-procedure">
-<h2><a class="toc-backref" href="#id4" role="doc-backlink">Hinzufügen einer neuen Prozedur</a><a class="headerlink" href="#add-a-new-procedure" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id4">Hinzufügen einer neuen Prozedur</a><a class="headerlink" href="#add-a-new-procedure" title="Link zu dieser Überschrift">¶</a></h2>
 <ol class="arabic simple">
 <li><p>Wählen Sie aus der Dropdown-Schaltfläche „Dienste“ der Admin-Schnittstelle (<a class="reference external" href="http://localhost/istsos/admin">http://localhost/istsos/admin</a> ) die gewünschte Instanz aus.</p></li>
 <li><p>Drücken Sie im Menü der Buttons die Schaltfläche :guilabel:‘New procedure‘.</p></li>
@@ -148,6 +147,9 @@
 </div>
 <p class="rubric"><em>Beispiel</em> (minimale Konfiguration)</p>
 <table class="docutils align-default">
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
 <tbody>
 <tr class="row-odd"><td><p>Name: T_LUGANO</p></td>
 </tr>
@@ -169,6 +171,9 @@
 </table>
 <p><em>Ausgaben (bestätigen Sie die Ausgaben über den Button „hinzufügen“):</em></p>
 <table class="docutils align-default">
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
 <tbody>
 <tr class="row-odd"><td><p>Observed property: <cite>urn:ogc:def:parameter:x-istsos:1.0:meteo:air:temperature</cite></p></td>
 </tr>
@@ -186,7 +191,7 @@
 </div>
 </section>
 <section id="add-new-observations">
-<h2><a class="toc-backref" href="#id5" role="doc-backlink">Hinzufügen neuer Beobachtungen</a><a class="headerlink" href="#add-new-observations" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id5">Hinzufügen neuer Beobachtungen</a><a class="headerlink" href="#add-new-observations" title="Link zu dieser Überschrift">¶</a></h2>
 <p>Zuerst erstellen wir eine Textdatei mit Sensordaten, formatiert nach „text/csv, subtype=istSOS“. Die Datei verwendet ein CSV-Format (Comma Separated Values). Die erste Zeile enthält Kopfzeileninformationen, einschließlich URI-Namen der beobachteten Eigenschaften. Die folgenden Zeilen enthalten die Daten.</p>
 <ol class="arabic">
 <li><p>Öffnen Sie einen Texteditor, indem Sie :menuselection:‘Zubehör –&gt; FeatherPad‘ auswählen.</p></li>
@@ -231,7 +236,7 @@
 <a class="reference internal image-reference" href="../../_images/istsos_viewer.png"><img alt="../../_images/istsos_viewer.png" src="../../_images/istsos_viewer.png" style="width: 512.0px; height: 384.0px;" /></a>
 </section>
 <section id="what-next">
-<h2><a class="toc-backref" href="#id6" role="doc-backlink">Was kommt als Nächstes?</a><a class="headerlink" href="#what-next" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id6">Was kommt als Nächstes?</a><a class="headerlink" href="#what-next" title="Link zu dieser Überschrift">¶</a></h2>
 <p>Um mehr über istSOS zu erfahren, ist ein Blick in die <a class="reference external" href="http://istsos.org/en/trunk/doc/index.html">istSOS Dokumentation</a> und das <a class="reference external" href="http://istsos.org/tutorial/">istSOS Tutorial</a> zu empfehlen.</p>
 </section>
 </section>

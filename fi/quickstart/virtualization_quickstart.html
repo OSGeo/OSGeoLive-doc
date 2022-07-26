@@ -4,7 +4,7 @@
 <html lang="fi">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>Running in a Virtual Machine &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -13,7 +13,6 @@
     <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/translations.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
@@ -63,9 +62,9 @@
           <div class="body" role="main">
             
   <section id="running-in-a-virtual-machine">
-<h1>Running in a Virtual Machine<a class="headerlink" href="#running-in-a-virtual-machine" title="Permalink to this heading">¶</a></h1>
+<h1>Running in a Virtual Machine<a class="headerlink" href="#running-in-a-virtual-machine" title="Permalink to this headline">¶</a></h1>
 <section id="overview">
-<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this heading">¶</a></h2>
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
 <p>This Quick Start describes one way to run OSGeoLive within a VirtualBox virtual machine (VM). For other methods, follow links from the ”See Also” section below.</p>
 <div class="admonition note">
 <p class="admonition-title">Muista</p>
@@ -73,7 +72,7 @@
 </div>
 </section>
 <section id="prerequisites">
-<h2>Prerequisites<a class="headerlink" href="#prerequisites" title="Permalink to this heading">¶</a></h2>
+<h2>Prerequisites<a class="headerlink" href="#prerequisites" title="Permalink to this headline">¶</a></h2>
 <p><strong>Software</strong></p>
 <ul>
 <li><p>Download <a class="reference external" href="https://www.virtualbox.org/">Virtual Box</a>  for your platform, and install the software. On Windows run the installer, or on Ubuntu-like Linux systems run the following:</p>
@@ -97,7 +96,7 @@
 </div>
 </section>
 <section id="step-1-create-a-virtual-machine">
-<h2>Step 1 : Create a Virtual Machine<a class="headerlink" href="#step-1-create-a-virtual-machine" title="Permalink to this heading">¶</a></h2>
+<h2>Step 1 : Create a Virtual Machine<a class="headerlink" href="#step-1-create-a-virtual-machine" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
 <li><p>Start the VirtualBox application and click <strong>New</strong>. Create Virtual Machine pop up is displayed.</p></li>
 </ol>
@@ -125,7 +124,7 @@
 </div></blockquote>
 </section>
 <section id="step-2-configure-vm">
-<h2>Step 2: Configure VM<a class="headerlink" href="#step-2-configure-vm" title="Permalink to this heading">¶</a></h2>
+<h2>Step 2: Configure VM<a class="headerlink" href="#step-2-configure-vm" title="Permalink to this headline">¶</a></h2>
 <p><strong>VM Settings</strong></p>
 <ol class="arabic simple">
 <li><p>Once the VM is created, click the <strong>Settings</strong> button. In the <strong>User Interface</strong> section, click to select <strong>Show at top of screen</strong> for the Mini toolbar.</p></li>
@@ -149,7 +148,7 @@
 <p>You can choose to make the shared folder read-only, and auto-mounted. Once the ”Folder path” and ”Folder name” are defined, click OK, and again OK to finish and close the settings window.</p>
 </section>
 <section id="step-3-running-the-virtual-machine">
-<h2>Step 3 : Running the Virtual Machine<a class="headerlink" href="#step-3-running-the-virtual-machine" title="Permalink to this heading">¶</a></h2>
+<h2>Step 3 : Running the Virtual Machine<a class="headerlink" href="#step-3-running-the-virtual-machine" title="Permalink to this headline">¶</a></h2>
 <p>Now bootup the VM by clicking the <strong>Start</strong> (green arrow) button.</p>
 <ul>
 <li><p>The OSGeo-Live virtual display (i.e., the window size) may be very small, and will not be able to increase until you install Guest Additions. You should install the virtualbox guest additions, this will allow you to use full-screen mode.</p>
@@ -173,7 +172,7 @@
 </div></blockquote>
 </section>
 <section id="step-4-set-osgeolive-user">
-<h2>Step 4 : Set OSGeoLive user<a class="headerlink" href="#step-4-set-osgeolive-user" title="Permalink to this heading">¶</a></h2>
+<h2>Step 4 : Set OSGeoLive user<a class="headerlink" href="#step-4-set-osgeolive-user" title="Permalink to this headline">¶</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Muista</p>
 <p>Some tools configured on OSGeoLive rely of ”user” to be in the ”users” group so they can write into the data directory. If not set, these tools will fail when run.</p>
@@ -185,7 +184,7 @@
 </ol>
 </section>
 <section id="step-5-access-shared-folders">
-<h2>Step 5: Access shared folders<a class="headerlink" href="#step-5-access-shared-folders" title="Permalink to this heading">¶</a></h2>
+<h2>Step 5: Access shared folders<a class="headerlink" href="#step-5-access-shared-folders" title="Permalink to this headline">¶</a></h2>
 <ul>
 <li><p>Add yourself to the vboxsf group so that the shared folders (defined above) are accessible by running in a terminal window:</p>
 <p><code class="docutils literal notranslate"><span class="pre">user&#64;osgeolive:~$</span> <span class="pre">sudo</span> <span class="pre">usermod</span> <span class="pre">-a</span> <span class="pre">-G</span> <span class="pre">vboxsf</span> <span class="pre">user</span></code></p>
@@ -193,7 +192,7 @@
 </ul>
 </section>
 <section id="step-6-mount-shared-folder">
-<h2>Step 6: Mount shared folder<a class="headerlink" href="#step-6-mount-shared-folder" title="Permalink to this heading">¶</a></h2>
+<h2>Step 6: Mount shared folder<a class="headerlink" href="#step-6-mount-shared-folder" title="Permalink to this headline">¶</a></h2>
 <ul>
 <li><p>In the above example, we defined a Shared Folder path on the host system and named it ”GIS” in the VM Settings. The shared folder will appear in the file system under /media/sf_GIS/. To mount this folder in the user’s home directory, for example, in a terminal run:</p>
 <p><code class="docutils literal notranslate"><span class="pre">user&#64;osgeolive:~$</span> <span class="pre">mkdir</span> <span class="pre">GIS</span></code></p>
@@ -204,11 +203,11 @@
 <p>Congratulations, you should now have OSGeoLive running in a Virtual Machine.</p>
 </section>
 <section id="next-steps">
-<h2>Next steps:<a class="headerlink" href="#next-steps" title="Permalink to this heading">¶</a></h2>
+<h2>Next steps:<a class="headerlink" href="#next-steps" title="Permalink to this headline">¶</a></h2>
 <p>Why don’t you try running some applications, as described in the <a class="reference external" href="https://live.osgeo.org/en/quickstart/osgeolive_quickstart.html">OSGeoLive Quickstart</a></p>
 </section>
 <section id="see-also">
-<h2>Katso myös:<a class="headerlink" href="#see-also" title="Permalink to this heading">¶</a></h2>
+<h2>Katso myös:<a class="headerlink" href="#see-also" title="Permalink to this headline">¶</a></h2>
 <blockquote>
 <div><ul class="simple">
 <li><p>OSGeo wiki pages: <a class="reference external" href="https://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine">Other ways to create a Virtual Machine</a></p></li>

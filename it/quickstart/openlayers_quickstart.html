@@ -4,7 +4,7 @@
 <html lang="it">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>Guida rapida OpenLayers &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -13,7 +13,6 @@
     <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/translations.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
@@ -65,10 +64,10 @@
   <a class="reference external image-reference" href="https://openlayers.org/"><img alt="../../_images/logo_openlayers.png" class="align-right" src="../../_images/logo_openlayers.png" /></a>
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
 <section id="openlayers-quickstart">
-<h1>Guida rapida OpenLayers<a class="headerlink" href="#openlayers-quickstart" title="Permalink to this heading">¶</a></h1>
+<h1>Guida rapida OpenLayers<a class="headerlink" href="#openlayers-quickstart" title="Link a questa intestazione">¶</a></h1>
 <p>Questa guida rapida descrive alcuni passi necessari per cominciare a lavorare con OpenLayers: la creazione di una mappa di base, l’aggiunta di livelli raster e vettoriali e lo styling delle caratteristiche.</p>
 <p>OpenLayers permette in modo semplice di inserire una mappa dinamica in qualsiasi pagina web. Consente di visualizzare tile di mappe, dati vettoriali e marker provenienti da qualsiasi sorgente. OpenLayers è stato sviluppato per promuovere la diffusione di informazione geografica di ogni tipo. È una libreria JavaScript libera e open source, rilasciata sotto la licenza 2-clause BSD (anche conosciuta come FreeBSD).</p>
-<nav class="contents local" id="contents">
+<div class="contents local topic" id="contents">
 <p class="topic-title">Contenuti</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#core-concepts" id="id1">Concetti fondamentali</a></p></li>
@@ -79,9 +78,9 @@
 <li><p><a class="reference internal" href="#work-with-events" id="id6">Lavora con gli eventi</a></p></li>
 <li><p><a class="reference internal" href="#what-next" id="id7">E ora?</a></p></li>
 </ul>
-</nav>
+</div>
 <section id="core-concepts">
-<h2><a class="toc-backref" href="#id1" role="doc-backlink">Concetti fondamentali</a><a class="headerlink" href="#core-concepts" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id1">Concetti fondamentali</a><a class="headerlink" href="#core-concepts" title="Link a questa intestazione">¶</a></h2>
 <p>Prima di iniziare a lavorare con OpenLayers aiuta a capire i concetti fondamentali di OpenLayers:</p>
 <dl class="simple">
 <dt><strong>Map</strong></dt><dd><p>Il <em>map</em> è il componente centrale di OpenLayers. Per rendere una <em>mappa</em> sono necessari una <em>vista</em>, uno o più <em>layers</em> e un contenitore di destinazione.</p>
@@ -97,7 +96,7 @@
 </dl>
 </section>
 <section id="create-a-basic-map">
-<h2><a class="toc-backref" href="#id2" role="doc-backlink">Crea una mappa di base</a><a class="headerlink" href="#create-a-basic-map" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id2">Crea una mappa di base</a><a class="headerlink" href="#create-a-basic-map" title="Link a questa intestazione">¶</a></h2>
 <p>Crea un file ad esempio in /home/user/ chiamato basic-map.html e copia il seguente contenuto nel file.</p>
 <div class="highlight-html notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;!DOCTYPE html&gt;</span>
 <span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&quot;en&quot;</span><span class="p">&gt;</span>
@@ -158,7 +157,7 @@
 </ul>
 </section>
 <section id="add-raster-layers">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink">Aggiungi layer raster</a><a class="headerlink" href="#add-raster-layers" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id3">Aggiungi layer raster</a><a class="headerlink" href="#add-raster-layers" title="Link a questa intestazione">¶</a></h2>
 <p>I raster più usati sono i layer piastrellati, forniti da OpenStreetMap, Stamen, Bing, ecc. I layer piastrellati sono rappresentati dalla classe <code class="docutils literal notranslate"><span class="pre">ol.layer.Tile</span></code> e devono usare una sorgente che sappia come caricare i tasselli da un dato provider, come <code class="docutils literal notranslate"><span class="pre">ol.source.OSM</span></code> o <code class="docutils literal notranslate"><span class="pre">ol.source.Stamen</span></code>:</p>
 <div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">osm</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">layer</span><span class="p">.</span><span class="nx">Tile</span><span class="p">({</span><span class="w"></span>
 <span class="w">  </span><span class="nx">source</span><span class="o">:</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">source</span><span class="p">.</span><span class="nx">OSM</span><span class="p">()</span><span class="w"></span>
@@ -195,7 +194,7 @@
 </ul>
 </section>
 <section id="add-vector-layers">
-<h2><a class="toc-backref" href="#id4" role="doc-backlink">Aggiungi layer vettoriali</a><a class="headerlink" href="#add-vector-layers" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id4">Aggiungi layer vettoriali</a><a class="headerlink" href="#add-vector-layers" title="Link a questa intestazione">¶</a></h2>
 <p>I vettori sono rappresentati dalla classe <code class="docutils literal notranslate"><span class="pre">ol.layer.Vector</span></code> e devono usare una sorgente adatta a leggere il formato vettoriale, come <code class="docutils literal notranslate"><span class="pre">ol.source.GeoJSON</span></code>, <code class="docutils literal notranslate"><span class="pre">ol.source.KML</span></code> o <code class="docutils literal notranslate"><span class="pre">ol.source.TopoJSON</span></code>.</p>
 <div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">vectorLayer</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">layer</span><span class="p">.</span><span class="nx">Vector</span><span class="p">({</span><span class="w"></span>
 <span class="w">  </span><span class="nx">source</span><span class="o">:</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">source</span><span class="p">.</span><span class="nx">GeoJSON</span><span class="p">({</span><span class="w"></span>
@@ -240,7 +239,7 @@
 </div>
 </section>
 <section id="apply-style-to-features">
-<h2><a class="toc-backref" href="#id5" role="doc-backlink">Applica lo stile agli elementi</a><a class="headerlink" href="#apply-style-to-features" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id5">Applica lo stile agli elementi</a><a class="headerlink" href="#apply-style-to-features" title="Link a questa intestazione">¶</a></h2>
 <p>Gli elementi all’interno dei vettori possono essere stilizzati. Lo stile è determinato da una combinazione di riempimento, tratto, testo e immagine, che sono tutti opzionali. Inoltre, uno stile può essere applicato ad un layer, che determina lo stile di tutti gli elementi contenuti, o ad un singolo elemento.</p>
 <p>Uno stile è rappresentato dalla classe <code class="docutils literal notranslate"><span class="pre">ol.style.Style</span></code> che ha proprietà per impostare il <code class="docutils literal notranslate"><span class="pre">fill</span></code>, <code class="docutils literal notranslate"><span class="pre">stroke</span></code>, <code class="docutils literal notranslate"><span class="pre">text</span></code> e <code class="docutils literal notranslate"><span class="pre">image</span></code> da applicare. Il prossimo esempio mostra il dataset World’s administrative limits stilizzato per usare un riempimento e un tratto verde:</p>
 <a class="reference internal image-reference" href="../../_images/openlayers-styling.png"><img alt="../../_images/openlayers-styling.png" src="../../_images/openlayers-styling.png" style="width: 555.0px; height: 283.0px;" /></a>
@@ -271,7 +270,7 @@
 <p>Nel codice, abbiamo caricato un file TopoJSON e lo abbiamo stilizzato attraverso la proprietà <code class="docutils literal notranslate"><span class="pre">style</span></code>. Abbiamo impostato un <code class="docutils literal notranslate"><span class="pre">fill`</span></code> e un <code class="docutils literal notranslate"><span class="pre">stroke</span></code>, necessari per linee e poligoni, e un <code class="docutils literal notranslate"><span class="pre">image</span></code> (in questo caso un cerchio) usato per gli elementi dei punti.</p>
 </section>
 <section id="work-with-events">
-<h2><a class="toc-backref" href="#id6" role="doc-backlink">Lavora con gli eventi</a><a class="headerlink" href="#work-with-events" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id6">Lavora con gli eventi</a><a class="headerlink" href="#work-with-events" title="Link a questa intestazione">¶</a></h2>
 <p>La maggior parte dei componenti, come la mappa, i layer o i controlli, attivano eventi per notificare i cambiamenti. Per esempio possiamo ricevere una notifica ogni volta che il mouse viene spostato sulla mappa, o quando un elemento viene aggiunto ad un vettore, ecc.</p>
 <p>Gli eventi possono essere facilmente registrati su un oggetto con il metodo <code class="docutils literal notranslate"><span class="pre">on()</span></code> e non registrati con <code class="docutils literal notranslate"><span class="pre">un()</span></code>.</p>
 <p>Il codice seguente registra un evento su un’istanza della mappa, e sarà notificato ogni volta che il puntatore viene spostato. All’interno della funzione di callback otteniamo le coordinate del puntatore e le stampiamo nella console del browser in due diverse proiezioni.</p>
@@ -285,7 +284,7 @@
 </div>
 </section>
 <section id="what-next">
-<h2><a class="toc-backref" href="#id7" role="doc-backlink">E ora?</a><a class="headerlink" href="#what-next" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id7">E ora?</a><a class="headerlink" href="#what-next" title="Link a questa intestazione">¶</a></h2>
 <p>A volte il modo più veloce per capire come funziona OpenLayers è guardare gli esempi e il loro codice sorgente. Puoi trovare altre informazioni su OpenLayers qui:</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://localhost/openlayers/apidoc/">Doc API</a></p></li>

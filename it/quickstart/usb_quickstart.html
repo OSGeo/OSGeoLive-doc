@@ -4,7 +4,7 @@
 <html lang="it">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>Creare un OSGeoLive dispositivo USB avviabile &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -13,7 +13,6 @@
     <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/translations.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
@@ -63,18 +62,18 @@
           <div class="body" role="main">
             
   <section id="creating-an-osgeolive-bootable-usb-flash-drive">
-<h1>Creare un OSGeoLive dispositivo USB avviabile<a class="headerlink" href="#creating-an-osgeolive-bootable-usb-flash-drive" title="Permalink to this heading">¶</a></h1>
+<h1>Creare un OSGeoLive dispositivo USB avviabile<a class="headerlink" href="#creating-an-osgeolive-bootable-usb-flash-drive" title="Link a questa intestazione">¶</a></h1>
 <p>Questa guida rapida descrive il metodo migliore per creare un dispositivo OSGeoLive USB avviabile. Avviare da una dispositivo flash è più veloce di un DVD, e il dispositivo USB può essere configurato per immagazzinare dati tra le sessioni (denominato persistente).</p>
 <p>Sono stati trovati una serie di stranezze e trucchi al fine di creare con successo un dispositivo USB. È stato documentato quello che si conosce, ma ci sono più trucchi e problemi. Si controlli gli ultimi suggerimenti qui: <a class="reference external" href="https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB">https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB</a></p>
 <section id="requirements">
-<h2>Requisiti<a class="headerlink" href="#requirements" title="Permalink to this heading">¶</a></h2>
+<h2>Requisiti<a class="headerlink" href="#requirements" title="Link a questa intestazione">¶</a></h2>
 <ul class="simple">
 <li><p>Un dispositivo USB (Raccomandati 8+ GB)</p></li>
 <li><p>Un’immagine ISO di OSGeoLive (scaricata da: <a class="reference internal" href="../download.html"><span class="doc">OSGeoLive downloads</span></a>) o convertita da un DVD.</p></li>
 </ul>
 </section>
 <section id="creating-bootable-usb-drive-with-dd-under-linux">
-<h2>Creare un dispositivo USB avviabile con <code class="docutils literal notranslate"><span class="pre">dd</span></code> sotto Linux<a class="headerlink" href="#creating-bootable-usb-drive-with-dd-under-linux" title="Permalink to this heading">¶</a></h2>
+<h2>Creare un dispositivo USB avviabile con <code class="docutils literal notranslate"><span class="pre">dd</span></code> sotto Linux<a class="headerlink" href="#creating-bootable-usb-drive-with-dd-under-linux" title="Link a questa intestazione">¶</a></h2>
 <p>Le immagini ISO per OSGeoLive 10.5 e successive sono <em>isohybrid</em> (e per amd64, supportano anche l’avvio UEFI). Sotto Linux, queste immagini possono essere scritte direttamente nel block device per un dispositivo USB con lo strumento da linea di comando <code class="docutils literal notranslate"><span class="pre">dd</span></code>:</p>
 <div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">sudo dd if=osgeolive-10.5-amd64.iso of=/dev/sdX bs=4M; sync</span>
 </pre></div>
@@ -91,7 +90,7 @@
 </div>
 </section>
 <section id="creating-bootable-usb-drive-with-ubuntu-startup-disk-creator">
-<h2>Creare un dispositivo USB avviabile con Ubuntu Startup Disk Creator<a class="headerlink" href="#creating-bootable-usb-drive-with-ubuntu-startup-disk-creator" title="Permalink to this heading">¶</a></h2>
+<h2>Creare un dispositivo USB avviabile con Ubuntu Startup Disk Creator<a class="headerlink" href="#creating-bootable-usb-drive-with-ubuntu-startup-disk-creator" title="Link a questa intestazione">¶</a></h2>
 <p>(Questo è il processo raccomandato per creare un USB. È disponibile per Ubuntu e le derivate di Ubuntu così come OSGeoLive.)</p>
 <div class="admonition note">
 <p class="admonition-title">Nota</p>
@@ -116,7 +115,7 @@
 <p>Attendi circa 20 minuti per la creazione della chiavetta USB.</p>
 </section>
 <section id="booting-from-the-usb-drive">
-<h2>Avvio dal drive USB:<a class="headerlink" href="#booting-from-the-usb-drive" title="Permalink to this heading">¶</a></h2>
+<h2>Avvio dal drive USB:<a class="headerlink" href="#booting-from-the-usb-drive" title="Link a questa intestazione">¶</a></h2>
 <ol class="arabic simple">
 <li><p>Inizia con il computer spento.</p></li>
 <li><p>Inserisci il drive USB in una porta USB aperta.</p></li>
@@ -137,11 +136,11 @@
 </ol>
 </section>
 <section id="run">
-<h2>Eseguire:<a class="headerlink" href="#run" title="Permalink to this heading">¶</a></h2>
+<h2>Eseguire:<a class="headerlink" href="#run" title="Link a questa intestazione">¶</a></h2>
 <p>Eseguire secondo: <a class="reference internal" href="osgeolive_quickstart.html"><span class="doc">Cominciare con OSGeoLive</span></a></p>
 </section>
 <section id="see-also">
-<h2>Vedere anche:<a class="headerlink" href="#see-also" title="Permalink to this heading">¶</a></h2>
+<h2>Vedere anche:<a class="headerlink" href="#see-also" title="Link a questa intestazione">¶</a></h2>
 <blockquote>
 <div><ul class="simple">
 <li><p><a class="reference internal" href="osgeolive_quickstart.html"><span class="doc">Cominciare con OSGeoLive</span></a></p></li>

@@ -4,7 +4,7 @@
 <html lang="hu">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>Egy virtuális gép futtatása &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -13,7 +13,6 @@
     <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/translations.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
@@ -63,9 +62,9 @@
           <div class="body" role="main">
             
   <section id="running-in-a-virtual-machine">
-<h1>Egy virtuális gép futtatása<a class="headerlink" href="#running-in-a-virtual-machine" title="Permalink to this heading">¶</a></h1>
+<h1>Egy virtuális gép futtatása<a class="headerlink" href="#running-in-a-virtual-machine" title="Hivatkozás erre a fejezetcímre">¶</a></h1>
 <section id="overview">
-<h2>Összefoglaló<a class="headerlink" href="#overview" title="Permalink to this heading">¶</a></h2>
+<h2>Összefoglaló<a class="headerlink" href="#overview" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>Ez a gyorstalpaló az OSGeoLive egy futtatási módját írja le a VirtualBox virtuális gépben (VM). Más megoldásokhoz kövesse a linkeket a „Lásd még” szakaszt lentebb.</p>
 <div class="admonition note">
 <p class="admonition-title">Megjegyzés</p>
@@ -73,7 +72,7 @@
 </div>
 </section>
 <section id="prerequisites">
-<h2>Előfeltételek<a class="headerlink" href="#prerequisites" title="Permalink to this heading">¶</a></h2>
+<h2>Előfeltételek<a class="headerlink" href="#prerequisites" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p><strong>Szoftver</strong></p>
 <ul>
 <li><p>Töltse le a <a class="reference external" href="https://www.virtualbox.org/">Virtual Box-ot</a> a platformjához és telepítse a szoftvert.  Windowson futtassa a telepítőt vagy Ubuntu típusú Linux rendszereken tegye a következőt:</p>
@@ -97,7 +96,7 @@
 </div>
 </section>
 <section id="step-1-create-a-virtual-machine">
-<h2>1. lépés: Virtuális gép létrehozása<a class="headerlink" href="#step-1-create-a-virtual-machine" title="Permalink to this heading">¶</a></h2>
+<h2>1. lépés: Virtuális gép létrehozása<a class="headerlink" href="#step-1-create-a-virtual-machine" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <ol class="arabic simple">
 <li><p>Indítsa el a VirtualBox alkalmazást és kattintson a <strong>New</strong>-ra. A virtuális gép létrehozása ablak jelenik meg.</p></li>
 </ol>
@@ -125,7 +124,7 @@
 </div></blockquote>
 </section>
 <section id="step-2-configure-vm">
-<h2>2. lépés: VM konfigurálása<a class="headerlink" href="#step-2-configure-vm" title="Permalink to this heading">¶</a></h2>
+<h2>2. lépés: VM konfigurálása<a class="headerlink" href="#step-2-configure-vm" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p><strong>VM beállítások</strong></p>
 <ol class="arabic simple">
 <li><p>Miután a VM-et létrehozta kattintson a <strong>Settings</strong> gombra a <strong>User Interface</strong> részben, kattintson a <strong>Show at top of screen</strong>-re a mini eszközsor kiválasztásához.</p></li>
@@ -149,7 +148,7 @@
 <p>Kiválaszthatja, hogy a megosztott mappa csak olvasható, és automatikusan elérhető (auto-mount) legyen. Miután kitöltötte a „Folder path” és a „Folder name” mezőket, kattintson az OK gombra, majd ismét az OK gombra a beállítások befejezéséhez és az ablak bezárásához.</p>
 </section>
 <section id="step-3-running-the-virtual-machine">
-<h2>3. lépés: Virtuális gép futtatása<a class="headerlink" href="#step-3-running-the-virtual-machine" title="Permalink to this heading">¶</a></h2>
+<h2>3. lépés: Virtuális gép futtatása<a class="headerlink" href="#step-3-running-the-virtual-machine" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>Most töltse be a VM-et a <strong>Start</strong> (zöld nyíl) gombra kattintva.</p>
 <ul>
 <li><p>Az OSGeoLive virtuális képernyője (az ablak mérete) nagyon kicsi lehet és nem lehet növelni a Guest Addition installálása nélkül. Telepítenie kell a virtualbox guest additiont, ez lehetővé teszi a teljes képernyős mód használatát.</p>
@@ -173,7 +172,7 @@
 </div></blockquote>
 </section>
 <section id="step-4-set-osgeolive-user">
-<h2>4. lépés OSGEoLive felhasználó beállítása<a class="headerlink" href="#step-4-set-osgeolive-user" title="Permalink to this heading">¶</a></h2>
+<h2>4. lépés OSGEoLive felhasználó beállítása<a class="headerlink" href="#step-4-set-osgeolive-user" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Megjegyzés</p>
 <p>Egyes az OSGeoLive-ban konfigurált eszközök arra támaszkodnak, hogy a „user” a „users” csoportban legyen és így képesek írni az adat könyvtárakba. Ha nem állítják be, akkor ezek az eszközök nem fognak működni amikor futtatja őket.</p>
@@ -185,7 +184,7 @@
 </ol>
 </section>
 <section id="step-5-access-shared-folders">
-<h2>5. lépés: Osztott mappa elérése<a class="headerlink" href="#step-5-access-shared-folders" title="Permalink to this heading">¶</a></h2>
+<h2>5. lépés: Osztott mappa elérése<a class="headerlink" href="#step-5-access-shared-folders" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <ul>
 <li><p>Adja hozzá magát a vboxfs csoporthoz, hogy az osztott mappákat (fentebb írtunk róla) tartalmát elérje, ehhez egy terminál ablakban futtassa:</p>
 <p><code class="docutils literal notranslate"><span class="pre">user&#64;osgeolive:~$</span> <span class="pre">sudo</span> <span class="pre">usermod</span> <span class="pre">-a</span> <span class="pre">-G</span> <span class="pre">vboxsf</span> <span class="pre">user</span></code></p>
@@ -193,7 +192,7 @@
 </ul>
 </section>
 <section id="step-6-mount-shared-folder">
-<h2>6. lépés: osztott mappa csatlakoztatása<a class="headerlink" href="#step-6-mount-shared-folder" title="Permalink to this heading">¶</a></h2>
+<h2>6. lépés: osztott mappa csatlakoztatása<a class="headerlink" href="#step-6-mount-shared-folder" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <ul>
 <li><p>A fenti példában egy „GIS” nevű osztott mappának az elérési útját adtuk meg a gazda gépen a VM beállításokban. Az osztott mappa a fájl rendszerben a /media/sf_GIS alatt jelenik meg. A felhasználó bejelentkezési könyvtárába a következő parancsokkal illeszthetjük be:</p>
 <p><code class="docutils literal notranslate"><span class="pre">user&#64;osgeolive:~$</span> <span class="pre">mkdir</span> <span class="pre">GIS</span></code></p>
@@ -204,11 +203,11 @@
 <p>Gratulálunk, most van egy futó OSGeoLive-ja egy virtuális gépben.</p>
 </section>
 <section id="next-steps">
-<h2>Következő lépések:<a class="headerlink" href="#next-steps" title="Permalink to this heading">¶</a></h2>
+<h2>Következő lépések:<a class="headerlink" href="#next-steps" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>Miért nem próbál meg futtatni néhány alkalmazást az <a class="reference external" href="https://live.osgeo.org/en/quickstart/osgeolive_quickstart.html">OSGeoLive gyorstalpaló</a> leírás szerint.</p>
 </section>
 <section id="see-also">
-<h2>Lásd még:<a class="headerlink" href="#see-also" title="Permalink to this heading">¶</a></h2>
+<h2>Lásd még:<a class="headerlink" href="#see-also" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <blockquote>
 <div><ul class="simple">
 <li><p>OSGeo wiki oldalak: <a class="reference external" href="https://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine">Other ways to create a Virtual Machine</a></p></li>

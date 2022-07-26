@@ -4,7 +4,7 @@
 <html lang="it">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>Guida rapida MapServer &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -13,7 +13,6 @@
     <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/translations.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
@@ -65,9 +64,9 @@
   <a class="reference external image-reference" href="https://mapserver.org"><img alt="../../_images/logo_mapserver.png" class="align-right" src="../../_images/logo_mapserver.png" /></a>
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
 <section id="mapserver-quickstart">
-<h1>Guida rapida MapServer<a class="headerlink" href="#mapserver-quickstart" title="Permalink to this heading">¶</a></h1>
+<h1>Guida rapida MapServer<a class="headerlink" href="#mapserver-quickstart" title="Link a questa intestazione">¶</a></h1>
 <p>MapServer è un’applicazione basata su server Open Source &lt;<a class="reference external" href="https://opensource.org/">https://opensource.org/</a>&gt;`_ che permette di pubblicare immagini di mappe geografiche e dati vettoriali attraverso internet usando <a class="reference external" href="https://www.ogc.org/standards">OGC Standards</a> come <a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a>, <a class="reference external" href="https://www.ogc.org/standards/wfs">Web Feature Service (WFS)</a> e <a class="reference external" href="https://www.ogc.org/standards/wcs">Web Coverage Service (WCS)</a>.</p>
-<nav class="contents local" id="contents">
+<div class="contents local topic" id="contents">
 <p class="topic-title">Contenuti</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#configure-mapserver-using-the-mapfile-configuration-file" id="id1">Configura MapServer usando il file di configurazione di Mapfile</a></p></li>
@@ -78,19 +77,19 @@
 <li><p><a class="reference internal" href="#publish-your-data-as-ogc-wms-web-map-service" id="id6">Pubblica i tuoi dati come WMS (Web Map Service) OGC</a></p></li>
 <li><p><a class="reference internal" href="#what-next" id="id7">E ora?</a></p></li>
 </ul>
-</nav>
+</div>
 <section id="configure-mapserver-using-the-mapfile-configuration-file">
-<h2><a class="toc-backref" href="#id1" role="doc-backlink">Configura MapServer usando il file di configurazione di Mapfile</a><a class="headerlink" href="#configure-mapserver-using-the-mapfile-configuration-file" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id1">Configura MapServer usando il file di configurazione di Mapfile</a><a class="headerlink" href="#configure-mapserver-using-the-mapfile-configuration-file" title="Link a questa intestazione">¶</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Nota</p>
 <p><strong>Cosa imparerai ?</strong> In questa sezione, imparerai cos’è un Mapfile e come configurarlo per permettere a MapServer di servire uno shapefile come immagini usando richieste WMS.</p>
 </div>
 <section id="what-is-a-mapfile">
-<h3>Che cos’è un Mapfile ?<a class="headerlink" href="#what-is-a-mapfile" title="Permalink to this heading">¶</a></h3>
+<h3>Che cos’è un Mapfile ?<a class="headerlink" href="#what-is-a-mapfile" title="Link a questa intestazione">¶</a></h3>
 <p>Il <a class="reference external" href="https://mapserver.org/mapfile/index.html">Mapfile</a> è il file di configurazione che MapServer usa per rendere i dati geospaziali come immagini o dati vettoriali. Il suo scopo principale è quello di definire i layer che può disegnare, come leggere i dati necessari e come visualizzarli (ad esempio colore, simbolo, etichetta, ecc…).</p>
 </section>
 <section id="creating-my-first-mapfile">
-<h3>Creare il mio primo Mapfile<a class="headerlink" href="#creating-my-first-mapfile" title="Permalink to this heading">¶</a></h3>
+<h3>Creare il mio primo Mapfile<a class="headerlink" href="#creating-my-first-mapfile" title="Link a questa intestazione">¶</a></h3>
 <ol class="arabic">
 <li><p>Aprire un editor di testi (per esempio <span class="menuselection">Applications ‣ Accessories ‣ FeatherPad</span>).</p></li>
 <li><p>Crea il file «mapserver_quickstart.map» nella tua home directory: <code class="file docutils literal notranslate"><span class="pre">/home/user/mapserver_quickstart.map</span></code>.</p>
@@ -163,7 +162,7 @@
 </section>
 </section>
 <section id="render-a-map-image-with-mapserver-using-a-wms-getmap-request">
-<h2><a class="toc-backref" href="#id2" role="doc-backlink">Rendering di un’immagine della mappa con MapServer usando una richiesta WMS <strong>GetMap</strong></a><a class="headerlink" href="#render-a-map-image-with-mapserver-using-a-wms-getmap-request" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id2">Rendering di un’immagine della mappa con MapServer usando una richiesta WMS <strong>GetMap</strong></a><a class="headerlink" href="#render-a-map-image-with-mapserver-using-a-wms-getmap-request" title="Link a questa intestazione">¶</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Nota</p>
 <p><strong>Cosa imparerai ?</strong> Imparerai come utilizzare per visualizzare un’immagine con i layer da un mapfile con MapServer usando una richiesta OGC WMS.</p>
@@ -182,7 +181,7 @@
 </div>
 </section>
 <section id="render-a-map-image-with-mapserver-using-the-command-line">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink">Rendering di un’immagine della mappa con MapServer usando la linea di comando</a><a class="headerlink" href="#render-a-map-image-with-mapserver-using-the-command-line" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id3">Rendering di un’immagine della mappa con MapServer usando la linea di comando</a><a class="headerlink" href="#render-a-map-image-with-mapserver-using-the-command-line" title="Link a questa intestazione">¶</a></h2>
 <p>Anche se MapServer è orientato alle applicazioni web, può anche produrre immagini sulla linea di comando. Questo può essere utile se si sta cercando una mappatura ripetitiva, o durante il debug.</p>
 <p>Apri un terminale (<span class="menuselection">Applications ‣ System Tools ‣ Terminal Emulator</span>) e digita:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">shp2img</span> <span class="o">-</span><span class="n">m</span> <span class="n">mapserver_quickstart</span><span class="o">.</span><span class="n">map</span> <span class="o">-</span><span class="n">o</span> <span class="n">mymap</span><span class="o">.</span><span class="n">png</span>
@@ -191,7 +190,7 @@
 <p>Se questo comando viene eseguito con successo, sei in grado di vedere la tua mappa renderizzata in <a class="reference external" href="file:///home/user/mymap.png">file:///home/user/mymap.png</a>.</p>
 </section>
 <section id="add-a-new-layer-to-the-mapfile-to-serve-a-local-shapefile">
-<h2><a class="toc-backref" href="#id4" role="doc-backlink">Aggiungi un nuovo layer al Mapfile per servire uno Shapefile locale</a><a class="headerlink" href="#add-a-new-layer-to-the-mapfile-to-serve-a-local-shapefile" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id4">Aggiungi un nuovo layer al Mapfile per servire uno Shapefile locale</a><a class="headerlink" href="#add-a-new-layer-to-the-mapfile-to-serve-a-local-shapefile" title="Link a questa intestazione">¶</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Nota</p>
 <p><strong>Cosa imparerai ?</strong> Imparerai come aggiungere una nuova definizione di oggetto layer al tuo Mapfile.</p>
@@ -221,7 +220,7 @@
 </div></blockquote>
 </section>
 <section id="style-a-layer-using-mapfile-configurations">
-<h2><a class="toc-backref" href="#id5" role="doc-backlink">Dai uno stile ad un layer usando le configurazioni di Mapfile</a><a class="headerlink" href="#style-a-layer-using-mapfile-configurations" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id5">Dai uno stile ad un layer usando le configurazioni di Mapfile</a><a class="headerlink" href="#style-a-layer-using-mapfile-configurations" title="Link a questa intestazione">¶</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Nota</p>
 <p><strong>Cosa imparerai ?</strong> Vedrai un esempio di stilizzazione degli elementi all’interno di un layer a seconda di alcune delle sue proprietà di dati.</p>
@@ -260,10 +259,10 @@
 </div>
 </section>
 <section id="publish-your-data-as-ogc-wms-web-map-service">
-<h2><a class="toc-backref" href="#id6" role="doc-backlink">Pubblica i tuoi dati come WMS (Web Map Service) OGC</a><a class="headerlink" href="#publish-your-data-as-ogc-wms-web-map-service" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id6">Pubblica i tuoi dati come WMS (Web Map Service) OGC</a><a class="headerlink" href="#publish-your-data-as-ogc-wms-web-map-service" title="Link a questa intestazione">¶</a></h2>
 <p>MapServer supporta diversi standard OGC come OGC WMS, WFS o WCS. Con OGC WMS puoi pubblicare i tuoi dati come Map Service e integrare il servizio in un Desktop GIS come QGIS o in un Web Client come OpenLayers o Mapbender.</p>
 <section id="using-qgis-desktop-to-load-your-ogc-wms">
-<h3>Usare QGIS Desktop per caricare i tuoi WMS OGC<a class="headerlink" href="#using-qgis-desktop-to-load-your-ogc-wms" title="Permalink to this heading">¶</a></h3>
+<h3>Usare QGIS Desktop per caricare i tuoi WMS OGC<a class="headerlink" href="#using-qgis-desktop-to-load-your-ogc-wms" title="Link a questa intestazione">¶</a></h3>
 <ol class="arabic">
 <li><p>Avvia QGIS tramite <span class="menuselection">Geospatial ‣ Desktop GIS ‣ QGIS Desktop</span>. Vai a <span class="menuselection">Layer ‣ Aggiungi Layer ‣ Aggiungi Layer WMS/WMTS</span>.</p></li>
 <li><p>Fare clic sul pulsante <strong>Nuovo</strong> e aggiungi un nome e l’URL del servizio</p></li>
@@ -276,7 +275,7 @@
 </section>
 </section>
 <section id="what-next">
-<h2><a class="toc-backref" href="#id7" role="doc-backlink">E ora?</a><a class="headerlink" href="#what-next" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id7">E ora?</a><a class="headerlink" href="#what-next" title="Link a questa intestazione">¶</a></h2>
 <p>Questo è un semplice esempio, ma si può fare molto, molto di più. Il sito web del progetto MapServer contiene molte risorse per aiutarti ad iniziare. Qui ci sono alcune risorse da controllare:</p>
 <ul class="simple">
 <li><p>Leggi la <a class="reference external" href="https://mapserver.org/introduction.html#introduction">Introduzione a MapServer</a>.</p></li>

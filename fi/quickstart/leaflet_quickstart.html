@@ -4,7 +4,7 @@
 <html lang="fi">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>Leaflet Quickstart &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -13,7 +13,6 @@
     <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/translations.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
@@ -64,9 +63,9 @@
             
   <a class="reference external image-reference" href="https://leafletjs.com"><img alt="../../_images/logo_leaflet.png" class="align-right" src="../../_images/logo_leaflet.png" /></a>
 <section id="leaflet-quickstart">
-<h1><a class="toc-backref" href="#id1" role="doc-backlink">Leaflet Quickstart</a><a class="headerlink" href="#leaflet-quickstart" title="Permalink to this heading">¶</a></h1>
+<h1><a class="toc-backref" href="#id1">Leaflet Quickstart</a><a class="headerlink" href="#leaflet-quickstart" title="Permalink to this headline">¶</a></h1>
 <p>Leaflet on JavaScript-kirjasto selainpohjaisia, mobiiliystävällisiä, interaktiivisia karttoja varten. Se on kevyt, mutta sisältää kuutenkin suurimman osan ominaisuuksista, joita kehittäjä tarvitsee online-karttoihin. Leafletiä suunnitellessa yksinkertaisuus, suorituskyky ja käytettävyys on pidetty mielessä.</p>
-<nav class="contents" id="contents">
+<div class="contents topic" id="contents">
 <p class="topic-title">Sisältö</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#leaflet-quickstart" id="id1">Leaflet Quickstart</a></p>
@@ -81,9 +80,9 @@
 </ul>
 </li>
 </ul>
-</nav>
+</div>
 <section id="running">
-<h2><a class="toc-backref" href="#id2" role="doc-backlink">Suorittaminen</a><a class="headerlink" href="#running" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id2">Suorittaminen</a><a class="headerlink" href="#running" title="Permalink to this headline">¶</a></h2>
 <p>Prior to running this quick start you should start TileStache. On OSGeoLive this can be found under <strong>Geospatial\Spatial Tools\Start Mapnik &amp; TileStache</strong>.
 This will provide background tiles that will be used in this demo.</p>
 <p>Katso <a class="reference external" href="http://localhost/leaflet-demo.html">esimerkki</a></p>
@@ -93,7 +92,7 @@ This will provide background tiles that will be used in this demo.</p>
 </div>
 </section>
 <section id="preparing-your-page">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink">Sivun valmistelu</a><a class="headerlink" href="#preparing-your-page" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id3">Sivun valmistelu</a><a class="headerlink" href="#preparing-your-page" title="Permalink to this headline">¶</a></h2>
 <p>Before writing any code for the map, you need to do the following preparation steps on your page:</p>
 <ul class="simple">
 <li><p>Include Leaflet CSS files in the head section of your document</p></li>
@@ -125,7 +124,7 @@ This will provide background tiles that will be used in this demo.</p>
 <p>Now you are ready to initialize the map and do some stuff with it.</p>
 </section>
 <section id="setting-up-the-map">
-<h2><a class="toc-backref" href="#id4" role="doc-backlink">Setting up the Map</a><a class="headerlink" href="#setting-up-the-map" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id4">Setting up the Map</a><a class="headerlink" href="#setting-up-the-map" title="Permalink to this headline">¶</a></h2>
 <p>Let’s create a map of eastern Africa with an indication of the 2018 FOSS4G conference. First we’ll initialize the map and set its view to our chosen geographical coordinates and a zoom level:</p>
 <div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">map</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">L</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="s1">&#39;map&#39;</span><span class="p">).</span><span class="nx">setView</span><span class="p">([</span><span class="mf">44.43743</span><span class="p">,</span><span class="w"> </span><span class="mf">26.104</span><span class="p">],</span><span class="w"> </span><span class="mf">15</span><span class="p">);</span><span class="w"></span>
 </pre></div>
@@ -146,7 +145,7 @@ In this case we will be using the tile images provided by TileStache on the live
 <p>It’s worth noting that Leaflet is provider-agnostic, meaning that it doesn’t enforce a particular choice of providers for tiles, and it doesn’t even contain a single provider-specific line of code, so you’re free to use other providers if you need to.</p>
 </section>
 <section id="markers-circles-and-polygons">
-<h2><a class="toc-backref" href="#id5" role="doc-backlink">Merkit, ympyrät ja polygonit</a><a class="headerlink" href="#markers-circles-and-polygons" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id5">Merkit, ympyrät ja polygonit</a><a class="headerlink" href="#markers-circles-and-polygons" title="Permalink to this headline">¶</a></h2>
 <p>Besides tile layers, you can easily add other things to your map, including markers, polylines, polygons, circles and popups.
 Let’s add a marker:</p>
 <div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">marker</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">L</span><span class="p">.</span><span class="nx">marker</span><span class="p">([</span><span class="mf">44.437</span><span class="w"> </span><span class="p">,</span><span class="mf">26.104</span><span class="p">]).</span><span class="nx">addTo</span><span class="p">(</span><span class="nx">map</span><span class="p">);</span><span class="w"></span>
@@ -170,7 +169,7 @@ Let’s add a marker:</p>
 </div>
 </section>
 <section id="working-with-popups">
-<h2><a class="toc-backref" href="#id6" role="doc-backlink">Työskentely ponnahdusikkunoiden kanssa</a><a class="headerlink" href="#working-with-popups" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id6">Työskentely ponnahdusikkunoiden kanssa</a><a class="headerlink" href="#working-with-popups" title="Permalink to this headline">¶</a></h2>
 <p>Ponnahdusikkunoita käytetään yleensä kun halutaan yhdistää tietoa johonkin kohteeseen kartalla. Leafletissä on todella kätevä oikotie tätä varten:</p>
 <div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">popup</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">L</span><span class="p">.</span><span class="nx">popup</span><span class="p">()</span><span class="w"></span>
 <span class="w">   </span><span class="p">.</span><span class="nx">setLatLng</span><span class="p">([</span><span class="mf">44.437</span><span class="p">,</span><span class="w"> </span><span class="mf">26.104</span><span class="p">])</span><span class="w"></span>
@@ -181,7 +180,7 @@ Let’s add a marker:</p>
 <p>Here we use <strong>openOn</strong> instead of <strong>addTo</strong> because it handles automatic closing of a previously opened popup when opening a new one which is good for usability.</p>
 </section>
 <section id="dealing-with-events">
-<h2><a class="toc-backref" href="#id7" role="doc-backlink">Tapahtumien käsittely</a><a class="headerlink" href="#dealing-with-events" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id7">Tapahtumien käsittely</a><a class="headerlink" href="#dealing-with-events" title="Permalink to this headline">¶</a></h2>
 <p>Every time something happens in Leaflet, e.g. user clicks on a marker or map zoom changes, the corresponding object sends an event which you can subscribe to with a function. It allows you to react to user interaction:</p>
 <div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">function</span><span class="w"> </span><span class="nx">onMapClick</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
 <span class="w">   </span><span class="nx">alert</span><span class="p">(</span><span class="s2">&quot;You clicked the map at &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">e</span><span class="p">.</span><span class="nx">latlng</span><span class="p">);</span><span class="w"></span>
@@ -207,8 +206,8 @@ Let’s add a marker:</p>
 <p>Kokeile klikata karttaa niin näet koordinaatit ponnahdusikkunassa. Katso täydellinen <a class="reference external" href="http://localhost/leaflet-demo.html">esimerkki</a></p>
 </section>
 <section id="what-next">
-<h2><a class="toc-backref" href="#id8" role="doc-backlink">Mitä seuraavaksi?</a><a class="headerlink" href="#what-next" title="Permalink to this heading">¶</a></h2>
-<p>Nyt olet oppinut Leafletin perusteet ja voit aloittaa rakentamaan karttasovelluksia saman tien! Muista katsoa myös yksityiskohtaista <a class="reference external" href="https://leafletjs.com/reference.html">dokumentaatiota</a> ja muita <a class="reference external" href="https://leafletjs.com/examples.html">esimerkkejä</a>.</p>
+<h2><a class="toc-backref" href="#id8">Mitä seuraavaksi?</a><a class="headerlink" href="#what-next" title="Permalink to this headline">¶</a></h2>
+<p>Nyt olet oppinut Leafletin perusteet ja voit aloittaa rakentamaan karttasovelluksia saman tien! Muista katsoa myös yksityiskohtaista <a class="reference external" href="https://leafletjs.com/examples.html">dokumentaatiota</a> ja muita <a class="reference external" href="https://leafletjs.com/reference.html">esimerkkejä</a>.</p>
 </section>
 </section>
 

@@ -4,7 +4,7 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>GeoStyler クイックスタート &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -13,7 +13,6 @@
     <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/translations.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
@@ -65,11 +64,11 @@
   <a class="reference external image-reference" href="https://geostyler.org"><img alt="../../_images/logo_geostyler.png" class="align-right" src="../../_images/logo_geostyler.png" /></a>
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_community.png" class="align-right" src="../../_images/OSGeo_community.png" /></a>
 <section id="geostyler-quickstart">
-<h1>GeoStyler クイックスタート<a class="headerlink" href="#geostyler-quickstart" title="この見出しへのパーマリンク">¶</a></h1>
+<h1>GeoStyler クイックスタート<a class="headerlink" href="#geostyler-quickstart" title="このヘッドラインへのパーマリンク">¶</a></h1>
 <p>このクイックスタートでは、GeoStylerをはじめて使うときの基本的な手順について説明します。GeoStylerをインストールし、最初のUIコンポーネントをreactアプリケーションに追加します。</p>
 <p>A complete beginner tutorial can be found on <a class="reference external" href="http://localhost/geostyler">localhost/geostyler</a>.</p>
 <p>GeoStylerを使用すると、あらゆるWebページで地理データのスタイルを簡単に設定できます。UIはどのスタイルフォーマットからも独立しており、OpenLayerやSLDなどで使用できます。</p>
-<nav class="contents local" id="contents">
+<div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#installing-geostyler" id="id1">GeoStylerのインストール</a></p></li>
@@ -78,9 +77,9 @@
 <li><p><a class="reference internal" href="#things-to-try" id="id4">試してみること</a></p></li>
 <li><p><a class="reference internal" href="#what-next" id="id5">次のステップ</a></p></li>
 </ul>
-</nav>
+</div>
 <section id="installing-geostyler">
-<h2><a class="toc-backref" href="#id1" role="doc-backlink">GeoStylerのインストール</a><a class="headerlink" href="#installing-geostyler" title="この見出しへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#id1">GeoStylerのインストール</a><a class="headerlink" href="#installing-geostyler" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>GeoStylerを使用するには、システムに <code class="docutils literal notranslate"><span class="pre">node.js</span></code> をインストールする必要があります。<code class="docutils literal notranslate"><span class="pre">node.js</span></code> のインストール方法については、<a class="reference external" href="https://nodejs.org/">node.js ホームページ</a> を参照してください。</p>
 <p>GeoStylerはプロジェクトごとに個別にインストールすることをお勧めします。ここでは、必要な手順について説明します。</p>
 <p>GeoStylerをインストールする最も簡単な方法は、 <code class="docutils literal notranslate"><span class="pre">node.js</span></code> インストールに付属の <code class="docutils literal notranslate"><span class="pre">npm</span></code> を使用することです。プロジェクトのルートから次のコマンドを実行するだけです。</p>
@@ -97,7 +96,7 @@
 </div>
 </section>
 <section id="integrate-geostyler">
-<h2><a class="toc-backref" href="#id2" role="doc-backlink">GeoStylerを統合</a><a class="headerlink" href="#integrate-geostyler" title="この見出しへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#id2">GeoStylerを統合</a><a class="headerlink" href="#integrate-geostyler" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>GeoStyler <code class="docutils literal notranslate"><span class="pre">Style</span></code> コンポーネントを次のようにアプリケーションにインポートします:</p>
 <div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">Style</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s1">&#39;geostyler&#39;</span><span class="p">;</span><span class="w"></span>
 </pre></div>
@@ -113,7 +112,7 @@
 <img alt="../../_images/quickstart_compact.png" src="../../_images/quickstart_compact.png" />
 </section>
 <section id="integrate-geostyler-sld-parser">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink">geostyler-sld-parserを統合</a><a class="headerlink" href="#integrate-geostyler-sld-parser" title="この見出しへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#id3">geostyler-sld-parserを統合</a><a class="headerlink" href="#integrate-geostyler-sld-parser" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>GeoStylerを使用して既存のSLDを編集するには、まず <code class="docutils literal notranslate"><span class="pre">geostyler-sld-parser</span></code> をインポートしてインスタンス化する必要があります。</p>
 <div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="k">import</span><span class="w"> </span><span class="nx">SLDParser</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s1">&#39;geostyler-sld-parser&#39;</span><span class="p">;</span><span class="w"></span>
 <span class="kd">const</span><span class="w"> </span><span class="nx">parser</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">SLDParser</span><span class="p">();</span><span class="w"></span>
@@ -221,11 +220,11 @@
 </div>
 </section>
 <section id="things-to-try">
-<h2><a class="toc-backref" href="#id4" role="doc-backlink">試してみること</a><a class="headerlink" href="#things-to-try" title="この見出しへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#id4">試してみること</a><a class="headerlink" href="#things-to-try" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>次のステップとして、<a class="reference external" href="https://openlayers.org/">OpenLayers</a> マップを追加し、<code class="docutils literal notranslate"><span class="pre">Style</span></code> コンポーネントをマップに接続して、マップ上で行った変更を直接見ることができます。</p>
 </section>
 <section id="what-next">
-<h2><a class="toc-backref" href="#id5" role="doc-backlink">次のステップ</a><a class="headerlink" href="#what-next" title="この見出しへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#id5">次のステップ</a><a class="headerlink" href="#what-next" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>このアプリケーションに関する他のリソースを確認してください。</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://geostyler.github.io/geostyler/latest/index.html">GeoStyler 文書</a></p></li>

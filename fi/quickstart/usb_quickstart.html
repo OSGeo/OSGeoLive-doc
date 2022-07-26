@@ -4,7 +4,7 @@
 <html lang="fi">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>OSGeoLiven käynnistettävän USB-muistitikun luominen &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -13,7 +13,6 @@
     <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/translations.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
@@ -63,18 +62,18 @@
           <div class="body" role="main">
             
   <section id="creating-an-osgeolive-bootable-usb-flash-drive">
-<h1>OSGeoLiven käynnistettävän USB-muistitikun luominen<a class="headerlink" href="#creating-an-osgeolive-bootable-usb-flash-drive" title="Permalink to this heading">¶</a></h1>
+<h1>OSGeoLiven käynnistettävän USB-muistitikun luominen<a class="headerlink" href="#creating-an-osgeolive-bootable-usb-flash-drive" title="Permalink to this headline">¶</a></h1>
 <p>Tämä pikaohje kuvaa ensisijaisen menetelmän käynnistettävän OSGeoLive USB -muistitikun luomiseksi. USB-aseman käynnistäminen on nopeampaa kuin DVD-levyltä ja USB-asema voidaan konfiguroida tallentamaan tietoja istuntojen välillä (kutsutaan pysyvyydeksi).</p>
 <p>Olemme havainneet, että USB-aseman rakentamiseen onnistuneesti on olemassa monia vinkkejä ja temppuja. Olemme dokumentoineet sen, mitä tiedämme, mutta todennäköisesti on enemmän temppuja ja asioita. Etsi viimeisimmät vinkit täältä: <a class="reference external" href="https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB">https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB</a></p>
 <section id="requirements">
-<h2>Vaatimukset<a class="headerlink" href="#requirements" title="Permalink to this heading">¶</a></h2>
+<h2>Vaatimukset<a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p>A USB flash drive (8+ Gig is recommended).</p></li>
 <li><p>OSGeoLive ISO image (ladattu lähteestä: <a class="reference internal" href="../download.html"><span class="doc">OSGeoLive downloads</span></a>) tai muunnettu DVDltä.</p></li>
 </ul>
 </section>
 <section id="creating-bootable-usb-drive-with-dd-under-linux">
-<h2>USB muistitikun luominen Linuxissa käyttäen <code class="docutils literal notranslate"><span class="pre">dd</span></code>  komentoa<a class="headerlink" href="#creating-bootable-usb-drive-with-dd-under-linux" title="Permalink to this heading">¶</a></h2>
+<h2>USB muistitikun luominen Linuxissa käyttäen <code class="docutils literal notranslate"><span class="pre">dd</span></code>  komentoa<a class="headerlink" href="#creating-bootable-usb-drive-with-dd-under-linux" title="Permalink to this headline">¶</a></h2>
 <p>ISO imaget OSGeoLive 10.5 ja myöhempiä varten ovat <em>isohybrid</em> muotoisia (ja amd64:lle, tukien myös UEFI käynnistystä). Linuxissa , nämä imaget voidaan kirjoittaa suoraan lphkolaitteelle USB asemaan käyttäen komentorivi työkalua <code class="docutils literal notranslate"><span class="pre">dd</span></code> :</p>
 <div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">sudo dd if=osgeolive-10.5-amd64.iso of=/dev/sdX bs=4M; sync</span>
 </pre></div>
@@ -91,7 +90,7 @@
 </div>
 </section>
 <section id="creating-bootable-usb-drive-with-ubuntu-startup-disk-creator">
-<h2>Käynnistettävän USB muistitikun luominen käyttäen Ubuntu Startup Disk Creator<a class="headerlink" href="#creating-bootable-usb-drive-with-ubuntu-startup-disk-creator" title="Permalink to this heading">¶</a></h2>
+<h2>Käynnistettävän USB muistitikun luominen käyttäen Ubuntu Startup Disk Creator<a class="headerlink" href="#creating-bootable-usb-drive-with-ubuntu-startup-disk-creator" title="Permalink to this headline">¶</a></h2>
 <p>(Tämä on suositeltavin menetelmä luotaessa USB muistitikku. Se soveltuu Ubuntu- ja Ubuntu-versioihin, kuten OSGeoLive.)</p>
 <div class="admonition note">
 <p class="admonition-title">Muista</p>
@@ -116,7 +115,7 @@
 <p>Odota noin 20 minuuttia tai silleen jotta USB muistitikku saadaan luoduksi.</p>
 </section>
 <section id="booting-from-the-usb-drive">
-<h2>Käynnistäminen USB muistitikulta:<a class="headerlink" href="#booting-from-the-usb-drive" title="Permalink to this heading">¶</a></h2>
+<h2>Käynnistäminen USB muistitikulta:<a class="headerlink" href="#booting-from-the-usb-drive" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
 <li><p>Aloita tietokone suljettuna.</p></li>
 <li><p>Laita USB muistitikku avoimeen USB asemaan.</p></li>
@@ -137,11 +136,11 @@
 </ol>
 </section>
 <section id="run">
-<h2>Suorita:<a class="headerlink" href="#run" title="Permalink to this heading">¶</a></h2>
+<h2>Suorita:<a class="headerlink" href="#run" title="Permalink to this headline">¶</a></h2>
 <p>Suorita: <a class="reference internal" href="osgeolive_quickstart.html"><span class="doc">Getting started with OSGeoLive</span></a></p>
 </section>
 <section id="see-also">
-<h2>Katso myös:<a class="headerlink" href="#see-also" title="Permalink to this heading">¶</a></h2>
+<h2>Katso myös:<a class="headerlink" href="#see-also" title="Permalink to this headline">¶</a></h2>
 <blockquote>
 <div><ul class="simple">
 <li><p><a class="reference internal" href="osgeolive_quickstart.html"><span class="doc">Getting started with OSGeoLive</span></a></p></li>

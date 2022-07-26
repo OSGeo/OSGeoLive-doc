@@ -4,7 +4,7 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>pygeoapiクイックスタート &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -13,7 +13,6 @@
     <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/translations.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
@@ -65,13 +64,13 @@
   <a class="reference external image-reference" href="https://pygeoapi.io/"><img alt="../../_images/logo_pygeoapi.png" class="align-right" src="../../_images/logo_pygeoapi.png" /></a>
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_community.png" class="align-right" src="../../_images/OSGeo_community.png" /></a>
 <section id="pygeoapi-quickstart">
-<h1>pygeoapiクイックスタート<a class="headerlink" href="#pygeoapi-quickstart" title="この見出しへのパーマリンク">¶</a></h1>
+<h1>pygeoapiクイックスタート<a class="headerlink" href="#pygeoapi-quickstart" title="このヘッドラインへのパーマリンク">¶</a></h1>
 <p>pygeoapiは、OGC Open APIサービスをWeb上で迅速かつ容易に公開するためのツールです。(geo)pythonコミュニティの強力なオープンソースライブラリ上に構築されています。</p>
 <p>このクイックスタートでは、ソフトウェアのセットアップ方法を説明し、特定ケースを想定して使用してみます。pygeoapiはビジネス、ビジネスケースを満たすために他のコンポーネントと組み合わされる製品なので、説明の途中で関連するソフトウェアをいくつか取り上げます。</p>
 <section id="prior-knowledge">
-<h2>前提知識<a class="headerlink" href="#prior-knowledge" title="この見出しへのパーマリンク">¶</a></h2>
+<h2>前提知識<a class="headerlink" href="#prior-knowledge" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>pygeoapiは空間ドメイン用のPython Webアプリケーションであるため、Webアプリケーションの概念と、グリッドおよびベクタフォーマット、OGC標準、投影システムなどの空間処理的側面を意識する必要があります。Pythonの知識が推奨されますが、OSGeoLiveからアプリケーションを実行しなくてもかまいません。</p>
-<nav class="contents local" id="contents">
+<div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#configure-and-start-the-service" id="id1">設定とサービスの開始</a></p></li>
@@ -79,9 +78,9 @@
 <li><p><a class="reference internal" href="#using-a-web-browser-to-query-the-api" id="id3">Webブラウザを使用したAPIのクエリー</a></p></li>
 <li><p><a class="reference internal" href="#using-oapi-features-in-desktop-gis" id="id4">デスクトップGISのOAPI-Featuresを利用する</a></p></li>
 </ul>
-</nav>
+</div>
 <section id="configure-and-start-the-service">
-<h3><a class="toc-backref" href="#id1" role="doc-backlink">設定とサービスの開始</a><a class="headerlink" href="#configure-and-start-the-service" title="この見出しへのパーマリンク">¶</a></h3>
+<h3><a class="toc-backref" href="#id1">設定とサービスの開始</a><a class="headerlink" href="#configure-and-start-the-service" title="このヘッドラインへのパーマリンク">¶</a></h3>
 <ol class="arabic">
 <li><p>スタートメニューから  <span class="menuselection">Structure ‣ osgeolive ‣ appmenupath ‣ pygeoapi</span> を選択します。Webページ <a class="reference external" href="http://localhost:5000">http://localhost:5000</a> でアプリケーションを開きます。</p></li>
 <li><p>ユーザフォルダの <code class="docutils literal notranslate"><span class="pre">/usr/local/share/pygeoapi</span></code> へ行きファイル <code class="docutils literal notranslate"><span class="pre">pygeoapi-config.yml</span></code> を配置します。このファイルには、サービスの構成が含まれています。</p></li>
@@ -93,7 +92,7 @@
 </ol>
 </section>
 <section id="configure-new-service">
-<h3><a class="toc-backref" href="#id2" role="doc-backlink">新しいサービスの構成</a><a class="headerlink" href="#configure-new-service" title="この見出しへのパーマリンク">¶</a></h3>
+<h3><a class="toc-backref" href="#id2">新しいサービスの構成</a><a class="headerlink" href="#configure-new-service" title="このヘッドラインへのパーマリンク">¶</a></h3>
 <p>ここでは、ベクタ・データセットをpygeoapiにデプロイし、その機能をOGC API-Featuresとして公開します。OGC API - Fearures は、ベクタ機能をWebサービスとして公開するためのOGCの標準です。OGC API - Featuresは、WFSの代替となる OpenAPI機能です。</p>
 <p>pygeoapiは、geopackage、PostGIS、Elasticsearch、WFSなど、ベクタソースとして使用する幅広いバックエンドをサポートしています。GDAL OGR プロバイダを経由して、ほぼ無制限に、他のベクタソース一式が追加できます。</p>
 <p>OAPI-Featuresとして公開される興味深いデータセットは、複数の属性と他のリソースへのリンクを持つ実世界のデータで構成されています。OSGeoLiveには使えるデータセットがたくさんあります。例は、<code class="docutils literal notranslate"><span class="pre">/var/www/html/openlayers/examples/data/geojson/countries.geojson</span></code>  にあります。GeoJSONプロバイダーを使用してpygeoapiで設定することができます。</p>
@@ -127,7 +126,7 @@
 <p>ブラウザで <a class="reference external" href="http://localhost:5000/collections/countries">http://localhost:5000/collections/countries</a> を開いて、コレクションの検証をおこなう</p>
 </section>
 <section id="using-a-web-browser-to-query-the-api">
-<h3><a class="toc-backref" href="#id3" role="doc-backlink">Webブラウザを使用したAPIのクエリー</a><a class="headerlink" href="#using-a-web-browser-to-query-the-api" title="この見出しへのパーマリンク">¶</a></h3>
+<h3><a class="toc-backref" href="#id3">Webブラウザを使用したAPIのクエリー</a><a class="headerlink" href="#using-a-web-browser-to-query-the-api" title="このヘッドラインへのパーマリンク">¶</a></h3>
 <p>サービスが利用できるようになったので、さまざまなクライアント・ツールを使ってクエリーを実行できます。コレクションの各機能は、HTML、GeoJSON、GMLなどの共通フォーマットで使用できます。開始するには、Webブラウザを使用してサービスをブラウズします。<a class="reference external" href="http://localhost:5000/collections/countries">http://localhost:5000/collections/countries</a> から各地物をドリルダウンすることができます。このサービスは、Webブラウザーを使用していることを(ヘッダーを受け入れて)自動的に検出し、地物のHTML表現を返します。右上隅には、acceptヘッダーをオーバーライドして地物の特定の表現(?f=geojson)を要求する明示的なリンクがあります。</p>
 <p>各Open APIには、<a class="reference external" href="http://localhost:5000/openapi">http://localhost:5000/openapi</a> にインタラクティブなドキュメントページがあります。このインタラクティブなWebページでは、サービス内のさまざまなメソッドについて読むことができますが、Webフォームを介してそれらのメソッドと直接対話することもできます。</p>
 <blockquote>
@@ -136,7 +135,7 @@
 <p>OGC APIは、<a class="reference external" href="https://w3c.github.io/sdw/bp/#bp-summary">Webベストプラクティスにおける空間データ</a> を意識して開発されています。ベストプラクティスの重要な側面の一つに、検索エンジン最適化があります。Pygeoapiでは、Open API標準の要件に加えて、クロールの最適化が追加されています。コレクションメタデータは、構造化された方法で検索エンジンによってクロールされ、Google Dataset Searchなどのツールでコレクションを検出可能にすることを目的としています。構造化データ機能を評価するには、YandexまたはGoogleのStructured Data Testingツールを使用します。各国コレクションページのhtmlソース(またはオンラインpygeoapiインスタンスのコレクションページのurl)を構造化データテストツールにコピーし、ツールが抽出できる構造化データを評価します。検索エンジンは、その情報をデータセットインデックスで使用します。</p>
 </section>
 <section id="using-oapi-features-in-desktop-gis">
-<h3><a class="toc-backref" href="#id4" role="doc-backlink">デスクトップGISのOAPI-Featuresを利用する</a><a class="headerlink" href="#using-oapi-features-in-desktop-gis" title="この見出しへのパーマリンク">¶</a></h3>
+<h3><a class="toc-backref" href="#id4">デスクトップGISのOAPI-Featuresを利用する</a><a class="headerlink" href="#using-oapi-features-in-desktop-gis" title="このヘッドラインへのパーマリンク">¶</a></h3>
 <p>このクイックスタートでは、QGISを用いてサービスのクエリを行ないますが、例えば ArcGIS, FME, OpenLayers といった他のツールでも、類似のワークフローを実施できます。</p>
 <p>QGIS 3.14 からは、OAPI-Features レイヤをベクタレイヤとして追加できます。<code class="docutils literal notranslate"><span class="pre">add</span> <span class="pre">layer</span></code> メニューから <code class="docutils literal notranslate"><span class="pre">Add</span> <span class="pre">WFS</span> <span class="pre">/</span> <span class="pre">OAPI-Features</span> <span class="pre">layer</span></code> を選択します。</p>
 <blockquote>

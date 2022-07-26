@@ -4,7 +4,7 @@
 <html lang="it">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>Guida rapida PROJ &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -13,7 +13,6 @@
     <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/translations.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
@@ -65,28 +64,28 @@
   <a class="reference external image-reference" href="https://proj.org/"><img alt="../../_images/logo_proj.png" class="align-right" src="../../_images/logo_proj.png" /></a>
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
 <section id="proj-quickstart">
-<h1>Guida rapida PROJ<a class="headerlink" href="#proj-quickstart" title="Permalink to this heading">¶</a></h1>
+<h1>Guida rapida PROJ<a class="headerlink" href="#proj-quickstart" title="Link a questa intestazione">¶</a></h1>
 <p>PROJ è una funzione standard del filtro Unix che converte le coordinate geografiche di longitudine e latitudine in coordinate cartesiane (e viceversa), ed è un’API C per gli sviluppatori di software per includere la trasformazione delle coordinate nel loro software.</p>
-<nav class="contents local" id="this-quick-start-describes-how-to-use-these-tools">
+<div class="contents local topic" id="this-quick-start-describes-how-to-use-these-tools">
 <p class="topic-title">Questa Guida Rapida descrive come: usare questi strumenti</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#proj" id="id2">PROJ</a></p></li>
 <li><p><a class="reference internal" href="#cs2cs" id="id3">cs2cs</a></p></li>
 <li><p><a class="reference internal" href="#geod" id="id4">geod</a></p></li>
 </ul>
-</nav>
+</div>
 <section id="proj">
-<h2><a class="toc-backref" href="#id2" role="doc-backlink">PROJ</a><a class="headerlink" href="#proj" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id2">PROJ</a><a class="headerlink" href="#proj" title="Link a questa intestazione">¶</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Nota</p>
 <p><strong>Cosa imparerai?</strong> In questa sezione, imparerai ad usare lo strumento PROJ.</p>
 </div>
 <section id="what-is-proj">
-<h3>Che cosa è PROJ ?<a class="headerlink" href="#what-is-proj" title="Permalink to this heading">¶</a></h3>
+<h3>Che cosa è PROJ ?<a class="headerlink" href="#what-is-proj" title="Link a questa intestazione">¶</a></h3>
 <p>PROJ e invproj eseguono rispettivamente la trasformazione verso e inversa di dati cartografici da o verso dati cartesiani con una vasta gamma di funzioni di proiezione selezionabili.</p>
 </section>
 <section id="proj-synopsis">
-<h3>Sinossi proj<a class="headerlink" href="#proj-synopsis" title="Permalink to this heading">¶</a></h3>
+<h3>Sinossi proj<a class="headerlink" href="#proj-synopsis" title="Link a questa intestazione">¶</a></h3>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">proj</span> <span class="p">[</span> <span class="o">-</span><span class="n">bcCeEfiIlmorsStTvVwW</span> <span class="p">[</span> <span class="n">args</span> <span class="p">]</span> <span class="p">]</span> <span class="p">[</span> <span class="o">+</span><span class="n">args</span> <span class="p">]</span> <span class="n">file</span><span class="p">[</span><span class="n">s</span><span class="p">]</span>
 <span class="n">invproj</span> <span class="p">[</span> <span class="o">-</span><span class="n">bcCeEfiIlmorsStTwW</span> <span class="p">[</span> <span class="n">args</span> <span class="p">]</span> <span class="p">]</span> <span class="p">[</span> <span class="o">+</span><span class="n">args</span> <span class="p">]</span> <span class="n">file</span><span class="p">[</span><span class="n">s</span><span class="p">]</span>
 </pre></div>
@@ -94,7 +93,7 @@
 <p>Questi comandi sono completamente descritti nella documentazione diPROJ &lt;<a class="reference external" href="https://proj.org/apps/proj.html">https://proj.org/apps/proj.html</a>&gt;`_ per l’ultima versione.</p>
 </section>
 <section id="proj-example">
-<h3>Esempio PROJ<a class="headerlink" href="#proj-example" title="Permalink to this heading">¶</a></h3>
+<h3>Esempio PROJ<a class="headerlink" href="#proj-example" title="Link a questa intestazione">¶</a></h3>
 <p>Il seguente script</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">proj</span> <span class="o">+</span><span class="n">proj</span><span class="o">=</span><span class="n">utm</span>  <span class="o">+</span><span class="n">lon_0</span><span class="o">=</span><span class="mi">112</span><span class="n">w</span>  <span class="o">+</span><span class="n">ellps</span><span class="o">=</span><span class="n">clrk66</span>
 <span class="o">-</span><span class="n">r</span> <span class="o">&lt;&lt;</span><span class="n">EOF</span>
@@ -111,24 +110,24 @@
 </section>
 </section>
 <section id="cs2cs">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink">cs2cs</a><a class="headerlink" href="#cs2cs" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id3">cs2cs</a><a class="headerlink" href="#cs2cs" title="Link a questa intestazione">¶</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Nota</p>
 <p><strong>Cosa imparerai?</strong> In questa sezione, imparerai ad usare lo strumento cs2cs.</p>
 </div>
 <section id="what-is-cs2cs">
-<h3>Che cosa è cs2cs ?<a class="headerlink" href="#what-is-cs2cs" title="Permalink to this heading">¶</a></h3>
+<h3>Che cosa è cs2cs ?<a class="headerlink" href="#what-is-cs2cs" title="Link a questa intestazione">¶</a></h3>
 <p><code class="docutils literal notranslate"><span class="pre">cs2cs</span></code> esegue la trasformazione tra il sistema di coordinate cartografiche di origine e di destinazione su un insieme di punti in ingresso. La trasformazione del sistema di coordinate può includere la traslazione tra coordinate proiettate e geografiche, nonché l’applicazione di spostamenti di dati.</p>
 </section>
 <section id="cs2cs-synopsis">
-<h3>Sinossi cs2cs<a class="headerlink" href="#cs2cs-synopsis" title="Permalink to this heading">¶</a></h3>
+<h3>Sinossi cs2cs<a class="headerlink" href="#cs2cs-synopsis" title="Link a questa intestazione">¶</a></h3>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cs2cs</span> <span class="p">[</span> <span class="o">-</span><span class="n">eEfIlrstvwW</span> <span class="p">[</span> <span class="n">args</span> <span class="p">]</span> <span class="p">]</span> <span class="p">[</span> <span class="o">+</span><span class="n">opts</span><span class="p">[</span><span class="o">=</span><span class="n">arg</span><span class="p">]</span> <span class="p">]</span> <span class="p">[</span> <span class="o">+</span><span class="n">to</span> <span class="p">[</span><span class="o">+</span><span class="n">opts</span><span class="p">[</span><span class="o">=</span><span class="n">arg</span><span class="p">]]</span> <span class="p">]</span> <span class="n">file</span><span class="p">[</span><span class="n">s</span><span class="p">]</span>
 </pre></div>
 </div>
 <p>Questi comandi sono completamente descritti nella documentazione di <a class="reference external" href="https://proj.org/apps/cs2cs.html">cs2cs</a> per l’ultima versione.</p>
 </section>
 <section id="cs2cs-example">
-<h3>Esempio cs2cs<a class="headerlink" href="#cs2cs-example" title="Permalink to this heading">¶</a></h3>
+<h3>Esempio cs2cs<a class="headerlink" href="#cs2cs-example" title="Link a questa intestazione">¶</a></h3>
 <p>Il seguente script</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cs2cs</span> <span class="o">+</span><span class="n">proj</span><span class="o">=</span><span class="n">latlong</span> <span class="o">+</span><span class="n">datum</span><span class="o">=</span><span class="n">NAD83</span>
       <span class="o">+</span><span class="n">to</span> <span class="o">+</span><span class="n">proj</span><span class="o">=</span><span class="n">utm</span> <span class="o">+</span><span class="n">zone</span><span class="o">=</span><span class="mi">10</span>  <span class="o">+</span><span class="n">datum</span><span class="o">=</span><span class="n">NAD27</span>
@@ -146,18 +145,18 @@
 </section>
 </section>
 <section id="geod">
-<h2><a class="toc-backref" href="#id4" role="doc-backlink">geod</a><a class="headerlink" href="#geod" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id4">geod</a><a class="headerlink" href="#geod" title="Link a questa intestazione">¶</a></h2>
 <div class="admonition note">
 <p class="admonition-title">Nota</p>
 <p><strong>Cosa imparerai?</strong> In questa sezione, imparerai come usare lo strumento geod.</p>
 </div>
 <section id="what-is-geod">
-<h3>Che cosa è geod ?<a class="headerlink" href="#what-is-geod" title="Permalink to this heading">¶</a></h3>
+<h3>Che cosa è geod ?<a class="headerlink" href="#what-is-geod" title="Link a questa intestazione">¶</a></h3>
 <p><code class="docutils literal notranslate"><span class="pre">geod</span></code> (diretto) e <code class="docutils literal notranslate"><span class="pre">invgeod</span></code> (inverso) eseguono calcoli geodetici («Grande Cerchio») per determinare la latitudine, la longitudine e l’azimut posteriore di un punto terminale dato un punto iniziale di latitudine, longitudine, azimut e distanza (diretto) o gli azimut in avanti e indietro e la distanza tra le latitudini e longitudini di un punto iniziale e terminale (inverso). I risultati sono precisi fino all’arrotondamento per <cite>|f| &lt; 1/50</cite>, dove f è l’appiattimento.</p>
 <p><code class="docutils literal notranslate"><span class="pre">invgeod</span></code> potrebbe non essere disponibile su tutte le piattaforme; in questo caso chiamate geod con l’opzione -I.</p>
 </section>
 <section id="geod-synopsis">
-<h3>Sinossi geod<a class="headerlink" href="#geod-synopsis" title="Permalink to this heading">¶</a></h3>
+<h3>Sinossi geod<a class="headerlink" href="#geod-synopsis" title="Link a questa intestazione">¶</a></h3>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">geod</span> <span class="o">+</span><span class="n">ellps</span><span class="o">=&lt;</span><span class="n">ellipse</span><span class="o">&gt;</span> <span class="p">[</span> <span class="o">-</span><span class="n">afFIlptwW</span> <span class="p">[</span> <span class="n">args</span> <span class="p">]</span> <span class="p">]</span> <span class="p">[</span> <span class="o">+</span><span class="n">args</span> <span class="p">]</span> <span class="n">file</span><span class="p">[</span><span class="n">s</span><span class="p">]</span>
 
 <span class="n">invgeod</span> <span class="o">+</span><span class="n">ellps</span><span class="o">=&lt;</span><span class="n">ellipse</span><span class="o">&gt;</span> <span class="p">[</span> <span class="o">-</span><span class="n">afFIlptwW</span> <span class="p">[</span> <span class="n">args</span>  <span class="p">]</span>  <span class="p">]</span>  <span class="p">[</span>  <span class="o">+</span><span class="n">args</span>  <span class="p">]</span> <span class="n">file</span><span class="p">[</span><span class="n">s</span><span class="p">]</span>
@@ -166,7 +165,7 @@
 <p>Questi comandi sono completamente descritti nella documentazione diPROJ &lt;<a class="reference external" href="https://proj.org/apps/proj.html">https://proj.org/apps/proj.html</a>&gt;`_ per l’ultima versione.</p>
 </section>
 <section id="geod-example">
-<h3>Esempio geod<a class="headerlink" href="#geod-example" title="Permalink to this heading">¶</a></h3>
+<h3>Esempio geod<a class="headerlink" href="#geod-example" title="Link a questa intestazione">¶</a></h3>
 <p>Il seguente script determina gli azimut geodetici e la distanza in miglia statutarie statunitensi da Boston, MA, a Portland, OR:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">geod</span> <span class="o">+</span><span class="n">ellps</span><span class="o">=</span><span class="n">clrk66</span> <span class="o">&lt;&lt;</span><span class="n">EOF</span> <span class="o">-</span><span class="n">I</span> <span class="o">+</span><span class="n">units</span><span class="o">=</span><span class="n">us</span><span class="o">-</span><span class="n">mi</span>
 <span class="mi">42</span><span class="n">d15</span><span class="s1">&#39;N 71d07&#39;</span><span class="n">W</span> <span class="mi">45</span><span class="n">d31</span><span class="s1">&#39;N 123d41&#39;</span><span class="n">W</span>
@@ -194,7 +193,7 @@
 </div>
 </section>
 <section id="further-reading">
-<h3>Altre letture<a class="headerlink" href="#further-reading" title="Permalink to this heading">¶</a></h3>
+<h3>Altre letture<a class="headerlink" href="#further-reading" title="Link a questa intestazione">¶</a></h3>
 <ol class="arabic simple">
 <li><p><a class="reference external" href="https://geographiclib.sourceforge.io/">GeographicLib</a></p></li>
 <li><p><a class="reference external" href="https://link.springer.com/article/10.1007/s00190-012-0578-z">C. F. F. Karney, Algorithms for Geodesics, J. Geodesy 87, 43-55 (2013)</a>.

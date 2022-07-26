@@ -4,7 +4,7 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>Exécuter dans une machine virtuelle Hyper-V &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -13,7 +13,6 @@
     <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/translations.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
@@ -63,11 +62,11 @@
           <div class="body" role="main">
             
   <section id="running-in-a-hyper-v-virtual-machine">
-<h1>Exécuter dans une machine virtuelle Hyper-V<a class="headerlink" href="#running-in-a-hyper-v-virtual-machine" title="Lien permanent vers cette rubrique">¶</a></h1>
+<h1>Exécuter dans une machine virtuelle Hyper-V<a class="headerlink" href="#running-in-a-hyper-v-virtual-machine" title="Lien permanent vers ce titre">¶</a></h1>
 <p>Ce démarrage rapide décrit comment exécuter  OSGeoLive à l’aide de Hyper-V, le logiciel de virtualisation de Microsoft. Pour les autres méthodes, suivez les liens de la section « See Also » ci-dessous. Hyper-V est disponible sur Windows Server et Windows 10 Professional - il ne fait pas partie de Windows 10 Home.</p>
 <p>Les avantages d’utiliser une machine virtuelle sont les mêmes que celles décrites à <a class="reference internal" href="virtualization_quickstart.html"><span class="doc">Exécuter dans une machine virtuelle</span></a>. Malheureusement  VirtualBox et Hyper-V ne peuvent être exécutés simultanément. Cela laisse 2 options - désactiver la fonctionnalité Hyper-V ou la configuration d’une nouvelle machine de Hyper-V pour exécuter OSGeoLive. L’outil gratuit <a class="reference external" href="https://unclassified.software/en/apps/hypervswitch">hypervswitch</a> peut être utilisé pour rapidement activer et désactiver l’Hyper-V - mais il nécessite toujours un redémarrage chaque fois que le paramètre est modifié. Le reste de cette page explique comment configurer OSGeoLive pour fonctionner sur Hyper-V.</p>
 <section id="system-requirements">
-<h2>Configuration du système requise<a class="headerlink" href="#system-requirements" title="Lien permanent vers cette rubrique">¶</a></h2>
+<h2>Configuration du système requise<a class="headerlink" href="#system-requirements" title="Lien permanent vers ce titre">¶</a></h2>
 <p>La configuration du système requise pour Hyper-V figure <a class="reference external" href="https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/reference/hyper-v-requirements">ici</a>. Ce lien fournit également des informations sur la vérification, si votre machine est compatible à l’aide de la commande  <code class="docutils literal notranslate"><span class="pre">systeminfo</span></code>. En résumé l’ordinateur hôte doit avoir la configuration matérielle suivante:</p>
 <ul class="simple">
 <li><p>RAM: 4 Go minimum</p></li>
@@ -75,15 +74,15 @@
 </ul>
 </section>
 <section id="downloads-and-virtual-machine-conversion">
-<h2>Téléchargement et conversion de la machine virtuelle<a class="headerlink" href="#downloads-and-virtual-machine-conversion" title="Lien permanent vers cette rubrique">¶</a></h2>
+<h2>Téléchargement et conversion de la machine virtuelle<a class="headerlink" href="#downloads-and-virtual-machine-conversion" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Téléchargez le disque dur virtuel VirtualBox  (vmdk)  d’OSGeoLive en suivant le lien <a class="reference internal" href="../download.html"><span class="doc">live.osgeo.org</span></a>. Une fois téléchargé décompressez le fichier téléchargé (en utilisant <a class="reference external" href="https://www.7-zip.org">7zip</a>).</p>
 <p>Le format d’image de machine virtuelle Hyper-v diffère du téléchargement VirtualBox. Donc, le fichier doit être converti de <code class="docutils literal notranslate"><span class="pre">vmdk</span></code> à <code class="docutils literal notranslate"><span class="pre">vhdx</span></code>. Il y a actuellement deux options de conversion disponibles.</p>
 <section id="starwind-v2v-converter">
-<h3>Convertisseur StarWind V2V<a class="headerlink" href="#starwind-v2v-converter" title="Lien permanent vers cette rubrique">¶</a></h3>
+<h3>Convertisseur StarWind V2V<a class="headerlink" href="#starwind-v2v-converter" title="Lien permanent vers ce titre">¶</a></h3>
 <p>Utilisez le programme <a class="reference external" href="https://www.starwindsoftware.com/starwind-v2v-converter">StarWind V2V Converter</a> . Il a une interface simple vous permettant de sélectionner le fichier  <code class="docutils literal notranslate"><span class="pre">osgeo-live-XX.X-vm.vmdk</span></code> et convertir en une image <em>Microsoft VHDX</em>.</p>
 </section>
 <section id="microsoft-virtual-machine-converter-3-0">
-<h3>Microsoft Virtual Machine Converter 3.0<a class="headerlink" href="#microsoft-virtual-machine-converter-3-0" title="Lien permanent vers cette rubrique">¶</a></h3>
+<h3>Microsoft Virtual Machine Converter 3.0<a class="headerlink" href="#microsoft-virtual-machine-converter-3-0" title="Lien permanent vers ce titre">¶</a></h3>
 <p>La deuxième option plus compliquée est la suivante.</p>
 <ol class="arabic simple">
 <li><p>Télécharger le <a class="reference external" href="https://www.microsoft.com/en-us/download/details.aspx?id=42497">Microsoft Virtual Machine Converter 3.0</a> et installer.</p></li>
@@ -121,7 +120,7 @@ ConvertTo-MvmcVirtualHardDisk -SourceLiteralPath .\osgeo-live-11.0-vm.vmdk -VhdF
 </section>
 </section>
 <section id="how-to">
-<h2>Mode d’emploi<a class="headerlink" href="#how-to" title="Lien permanent vers cette rubrique">¶</a></h2>
+<h2>Mode d’emploi<a class="headerlink" href="#how-to" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Ce guide suppose que Hyper-V est installé et activé - si ce n’est pas le cas de l’approche plus classique à l’aide de Virtual Box décrites à <a class="reference internal" href="virtualization_quickstart.html"><span class="doc">Exécuter dans une machine virtuelle</span></a>  peut être utilisé.</p>
 <p><strong>Créer une machine virtuelle</strong></p>
 <ol class="arabic">
@@ -145,7 +144,7 @@ ConvertTo-MvmcVirtualHardDisk -SourceLiteralPath .\osgeo-live-11.0-vm.vmdk -VhdF
 </ol>
 </section>
 <section id="see-also">
-<h2>Voir Aussi:<a class="headerlink" href="#see-also" title="Lien permanent vers cette rubrique">¶</a></h2>
+<h2>Voir Aussi:<a class="headerlink" href="#see-also" title="Lien permanent vers ce titre">¶</a></h2>
 <blockquote>
 <div><ul class="simple">
 <li><p><a class="reference internal" href="virtualization_quickstart.html"><span class="doc">Exécuter dans une machine virtuelle</span></a>.</p></li>

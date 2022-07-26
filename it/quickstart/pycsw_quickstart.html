@@ -4,7 +4,7 @@
 <html lang="it">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>Guida rapida pycsw &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -13,7 +13,6 @@
     <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/translations.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
@@ -65,9 +64,9 @@
   <a class="reference external image-reference" href="https://pycsw.org/"><img alt="../../_images/logo_pycsw.png" class="align-right" src="../../_images/logo_pycsw.png" /></a>
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
 <section id="pycsw-quickstart">
-<h1>Guida rapida pycsw<a class="headerlink" href="#pycsw-quickstart" title="Permalink to this heading">¶</a></h1>
+<h1>Guida rapida pycsw<a class="headerlink" href="#pycsw-quickstart" title="Link a questa intestazione">¶</a></h1>
 <p>pycsw è un’implementazione del server OGC CSW scritta in <a class="reference external" href="https://www.python.org">Python</a>. pycsw permette la pubblicazione e la scoperta di metadati geospaziali. Gli archivi esistenti di metadati geospaziali possono essere esposti tramite OGC:CSW 2.0.2 o OGC:CSW 3.0.0.</p>
-<nav class="contents local" id="contents">
+<div class="contents local topic" id="contents">
 <p class="topic-title">Contenuti</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#run-the-tester-application" id="id2">Esegui l’applicazione del tester</a></p></li>
@@ -83,9 +82,9 @@
 <li><p><a class="reference internal" href="#things-to-try" id="id9">Cose da provare</a></p></li>
 <li><p><a class="reference internal" href="#what-next" id="id10">E ora?</a></p></li>
 </ul>
-</nav>
+</div>
 <section id="run-the-tester-application">
-<h2><a class="toc-backref" href="#id2" role="doc-backlink">Esegui l’applicazione del tester</a><a class="headerlink" href="#run-the-tester-application" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id2">Esegui l’applicazione del tester</a><a class="headerlink" href="#run-the-tester-application" title="Link a questa intestazione">¶</a></h2>
 <ol class="arabic">
 <li><p>Sul desktop vai a <cite>Web Services –&gt; pycsw</cite> o apri Firefox e naviga verso <code class="docutils literal notranslate"><span class="pre">http://localhost/pycsw/tests/index.html</span></code>:</p>
 <a class="reference internal image-reference" href="../../_images/pycsw_tester_startup.png"><img alt="../../_images/pycsw_tester_startup.png" src="../../_images/pycsw_tester_startup.png" style="width: 481.5px; height: 378.0px;" /></a>
@@ -108,14 +107,14 @@
 <p>Puoi passare attraverso tutte le richieste disponibili ed eseguire varie richieste da questa applicazione di test.</p>
 </section>
 <section id="understand-capabilities-and-configuration">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink">Capire le capabilities e la configurazione</a><a class="headerlink" href="#understand-capabilities-and-configuration" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id3">Capire le capabilities e la configurazione</a><a class="headerlink" href="#understand-capabilities-and-configuration" title="Link a questa intestazione">¶</a></h2>
 <p>Le capabilities dell’installazione di pycsw possono essere trovate su <code class="docutils literal notranslate"><span class="pre">http://localhost/pycsw?service=CSW&amp;version=2.0.2&amp;request=GetCapabilities</span></code>. Se usi semplicemente <code class="docutils literal notranslate"><span class="pre">http://localhost/pycsw</span></code> otterrai il documento delle capabilities per CSW 3.0.0, poiché è l’ultima versione supportata.</p>
 <p>Per modificare i metadati del servizio web, inclusi nel documento delle capabilities, puoi modificare il file <code class="docutils literal notranslate"><span class="pre">/etc/pycsw/default.cfg</span></code> sotto il tag <code class="docutils literal notranslate"><span class="pre">[metadata:main]</span></code>.</p>
 <p>Se vuoi abilitare il supporto di INSPIRE Discovery Service, compila i metadati sotto il tag <code class="docutils literal notranslate"><span class="pre">[metadata:inspire]</span></code> e imposta la proprietà <code class="docutils literal notranslate"><span class="pre">enabled</span></code> a <code class="docutils literal notranslate"><span class="pre">true</span></code>.</p>
 <p>Per la funzionalità completa e le opzioni di configurazione, consulta la <a class="reference external" href="https://pycsw.org/docs/">documentazione</a> sul sito web di pycsw.</p>
 </section>
 <section id="create-metadata">
-<h2><a class="toc-backref" href="#id4" role="doc-backlink">Crea metadati</a><a class="headerlink" href="#create-metadata" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id4">Crea metadati</a><a class="headerlink" href="#create-metadata" title="Link a questa intestazione">¶</a></h2>
 <p>I file di metadati per un dataset spaziale o un servizio web spaziale possono essere creati attraverso l’implementazione open source della direttiva di ispirazione per i metadati, European Open Source Metadata Editor (EUOSME). Questa applicazione può essere trovata su <code class="docutils literal notranslate"><span class="pre">http://inspire-geoportal.ec.europa.eu/editor/</span></code>. Il codice sorgente è disponibile su <code class="docutils literal notranslate"><span class="pre">https://joinup.ec.europa.eu/svn/euosme/trunk</span></code>.</p>
 <p>Puoi riempire i campi di metadati obbligatori andando attraverso le schede dell’applicazione, aggiungendo informazioni come il nome del proprietario dei dati, le parole chiave, la posizione della risorsa sul web, la posizione geografica (usando un rettangolo di delimitazione o il nome di un paese), ecc.</p>
 <a class="reference internal image-reference" href="../../_images/pycsw_euosme_metadata_input.png"><img alt="../../_images/pycsw_euosme_metadata_input.png" src="../../_images/pycsw_euosme_metadata_input.png" style="width: 831.75px; height: 485.25px;" /></a>
@@ -124,7 +123,7 @@
 <p>Dopo una convalida riuscita, il file XML può essere salvato sul disco locale e visualizzato attraverso un editor di testo o un browser.</p>
 </section>
 <section id="load-metadata">
-<h2><a class="toc-backref" href="#id5" role="doc-backlink">Carica metadati</a><a class="headerlink" href="#load-metadata" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id5">Carica metadati</a><a class="headerlink" href="#load-metadata" title="Link a questa intestazione">¶</a></h2>
 <p>pycsw supporta i seguenti database:</p>
 <ul class="simple">
 <li><p>SQLite3</p></li>
@@ -133,7 +132,7 @@
 </ul>
 <p>In OSGeoLive è stata implementata una semplice configurazione SQLite. Il database può essere trovato in <code class="docutils literal notranslate"><span class="pre">/usr/share/pycsw/tests/suites/cite/data/records.db</span></code>.</p>
 <section id="create-a-new-database">
-<h3><a class="toc-backref" href="#id6" role="doc-backlink">Crea un nuovo database</a><a class="headerlink" href="#create-a-new-database" title="Permalink to this heading">¶</a></h3>
+<h3><a class="toc-backref" href="#id6">Crea un nuovo database</a><a class="headerlink" href="#create-a-new-database" title="Link a questa intestazione">¶</a></h3>
 <p>Per creare un nuovo database SQLite hai bisogno di:</p>
 <ol class="arabic">
 <li><p>Modifica <code class="docutils literal notranslate"><span class="pre">/etc/pycsw/default.cfg</span></code>:</p>
@@ -161,7 +160,7 @@ $ ogrinfo -al /path/to/records.db
 </div>
 </section>
 <section id="import-metadata">
-<h3><a class="toc-backref" href="#id7" role="doc-backlink">Importa metadati</a><a class="headerlink" href="#import-metadata" title="Permalink to this heading">¶</a></h3>
+<h3><a class="toc-backref" href="#id7">Importa metadati</a><a class="headerlink" href="#import-metadata" title="Link a questa intestazione">¶</a></h3>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ sudo pycsw-admin -c load_records -f /etc/pycsw/default.cfg -p /path/to/records -r
 </pre></div>
 </div>
@@ -169,7 +168,7 @@ $ ogrinfo -al /path/to/records.db
 </section>
 </section>
 <section id="data-discovery-through-qgis-metasearch-plugin">
-<h2><a class="toc-backref" href="#id8" role="doc-backlink">Scoperta dei dati attraverso il plugin QGIS MetaSearch</a><a class="headerlink" href="#data-discovery-through-qgis-metasearch-plugin" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id8">Scoperta dei dati attraverso il plugin QGIS MetaSearch</a><a class="headerlink" href="#data-discovery-through-qgis-metasearch-plugin" title="Link a questa intestazione">¶</a></h2>
 <ol class="arabic simple">
 <li><p>Sul desktop vai a <cite>Desktop GIS –&gt; QGIS</cite> per avviare QGIS, poi clicca sul pulsante <span class="guilabel">MetaSearch</span> (icona CSW)</p></li>
 </ol>
@@ -188,7 +187,7 @@ $ ogrinfo -al /path/to/records.db
 <a class="reference internal image-reference" href="../../_images/pycsw_qgis_metasearch_search.png"><img alt="../../_images/pycsw_qgis_metasearch_search.png" src="../../_images/pycsw_qgis_metasearch_search.png" style="width: 490.5px; height: 434.25px;" /></a>
 </section>
 <section id="things-to-try">
-<h2><a class="toc-backref" href="#id9" role="doc-backlink">Cose da provare</a><a class="headerlink" href="#things-to-try" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id9">Cose da provare</a><a class="headerlink" href="#things-to-try" title="Link a questa intestazione">¶</a></h2>
 <ul class="simple">
 <li><p>Prova a scoprire i dati attraverso l’applicazione Tester impostando le richieste appropriate, ad esempio qualsiasi ricerca di testo con la stringa «imagery» porta a scoprire i dati xml creati in precedenza da EUOSME</p></li>
 </ul>
@@ -199,7 +198,7 @@ $ ogrinfo -al /path/to/records.db
 </ul>
 </section>
 <section id="what-next">
-<h2><a class="toc-backref" href="#id10" role="doc-backlink">E ora?</a><a class="headerlink" href="#what-next" title="Permalink to this heading">¶</a></h2>
+<h2><a class="toc-backref" href="#id10">E ora?</a><a class="headerlink" href="#what-next" title="Link a questa intestazione">¶</a></h2>
 <p>Per maggiori informazioni su pycsw, consulta la <a class="reference external" href="https://pycsw.org/docs/">documentazione</a> sul sito web di pycsw.</p>
 </section>
 </section>

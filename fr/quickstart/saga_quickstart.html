@@ -4,7 +4,7 @@
 <html lang="fr">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
     <title>SAGA Quickstart &#8212; OSGeoLive 15.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
@@ -13,7 +13,6 @@
     <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
     <script src="../../_static/underscore.js"></script>
-    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../_static/doctools.js"></script>
     <script src="../../_static/translations.js"></script>
     <link rel="shortcut icon" href="../../_static/favicon.ico"/>
@@ -64,9 +63,9 @@
             
   <a class="reference external image-reference" href="http://www.saga-gis.org"><img alt="../../_images/logo_saga.png" class="align-right" src="../../_images/logo_saga.png" /></a>
 <section id="saga-quickstart">
-<h1>SAGA Quickstart<a class="headerlink" href="#saga-quickstart" title="Lien permanent vers cette rubrique">¶</a></h1>
+<h1>SAGA Quickstart<a class="headerlink" href="#saga-quickstart" title="Lien permanent vers ce titre">¶</a></h1>
 <p>SAGA (System for Automated Geoscientific Analyses) est un système d’information géographique (SIG) open source utilisé pour l’édition et l’analyse de données spatiales. Il comprend un grand nombre de modules pour l’analyse de données vecteur (point, ligne et polygone), de tables, de grilles et d’images. Entre autres, le package comprend des modules pour la géostatistique, la classification des images, les projections, la simulation de processus dynamiques (hydrologie, aménagement paysager) et l’analyse de terrain. La fonctionnalité est accessible via une interface graphique, la ligne de commande ou en utilisant l’API C++.</p>
-<nav class="contents local" id="contents">
+<div class="contents local topic" id="contents">
 <p class="topic-title">Contenu</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#running" id="id1">Lancement</a></p></li>
@@ -86,9 +85,9 @@
 <li><p><a class="reference internal" href="#importing-exporting-data" id="id9">Importing/Exporting data</a></p></li>
 <li><p><a class="reference internal" href="#what-next" id="id10">Ensuite ?</a></p></li>
 </ul>
-</nav>
+</div>
 <section id="running">
-<h2><a class="toc-backref" href="#id1" role="doc-backlink">Lancement</a><a class="headerlink" href="#running" title="Lien permanent vers cette rubrique">¶</a></h2>
+<h2><a class="toc-backref" href="#id1">Lancement</a><a class="headerlink" href="#running" title="Lien permanent vers ce titre">¶</a></h2>
 <p>To run SAGA GIS on the Live DVD, open the Desktop GIS group on the Desktop and
 click on the SAGA link.</p>
 <p>When opening SAGA for the first time, you are presented with 3 subwindows: the
@@ -106,7 +105,7 @@ closed windows again in the <strong>Window</strong> menu.</p></li>
 </div></blockquote>
 </section>
 <section id="opening-data">
-<h2><a class="toc-backref" href="#id2" role="doc-backlink">Opening data</a><a class="headerlink" href="#opening-data" title="Lien permanent vers cette rubrique">¶</a></h2>
+<h2><a class="toc-backref" href="#id2">Opening data</a><a class="headerlink" href="#opening-data" title="Lien permanent vers ce titre">¶</a></h2>
 <ol class="arabic simple">
 <li><p>Open the SAGA GUI and load the grid
 <cite>/home/user/data/saga/DGM_30m_Mt.St.Helens_SRTM.grd</cite> via the <strong>File|Grid|Load</strong>
@@ -138,7 +137,7 @@ Try this with one of the datasets in the <strong>/home/user/data/gdal_natural_ea
 </div>
 </section>
 <section id="displaying-data">
-<h2><a class="toc-backref" href="#id3" role="doc-backlink">Displaying data</a><a class="headerlink" href="#displaying-data" title="Lien permanent vers cette rubrique">¶</a></h2>
+<h2><a class="toc-backref" href="#id3">Displaying data</a><a class="headerlink" href="#displaying-data" title="Lien permanent vers ce titre">¶</a></h2>
 <p>To display the dataset in a map view:</p>
 <ol class="arabic simple">
 <li><p>Double click on the dataset in the Data tab of the Workspace window. A new Map window
@@ -167,7 +166,7 @@ e.g. to Full Extent.</p>
 Full Extent” button in the toolbar</p>
 </div>
 <section id="creating-a-shaded-relief-map-view">
-<h3><a class="toc-backref" href="#id4" role="doc-backlink">Creating a shaded relief map view</a><a class="headerlink" href="#creating-a-shaded-relief-map-view" title="Lien permanent vers cette rubrique">¶</a></h3>
+<h3><a class="toc-backref" href="#id4">Creating a shaded relief map view</a><a class="headerlink" href="#creating-a-shaded-relief-map-view" title="Lien permanent vers ce titre">¶</a></h3>
 <p>We will enhance the map display by calculating a shaded relief map.</p>
 <ol class="arabic simple">
 <li><p>Switch to the Tools tab of the Manager window and click on the triangle left to the
@@ -212,7 +211,7 @@ button. Now you will see your elevation values shaded by relief.</p></li>
 <a class="reference internal image-reference" href="../../_images/saga_withhillshade.png"><img alt="../../_images/saga_withhillshade.png" src="../../_images/saga_withhillshade.png" style="width: 812.0px; height: 591.2px;" /></a>
 </section>
 <section id="d-visualization">
-<h3><a class="toc-backref" href="#id5" role="doc-backlink">3D visualization</a><a class="headerlink" href="#d-visualization" title="Lien permanent vers cette rubrique">¶</a></h3>
+<h3><a class="toc-backref" href="#id5">3D visualization</a><a class="headerlink" href="#d-visualization" title="Lien permanent vers ce titre">¶</a></h3>
 <p>In a next step, you might like to visualize your map in 3D.</p>
 <ol class="arabic simple">
 <li><p>Be sure your Map window is selected and press the Show 3D-View button in the
@@ -230,7 +229,7 @@ the Close option from the Window menu.</p></li>
 </section>
 </section>
 <section id="creating-contour-lines">
-<h2><a class="toc-backref" href="#id6" role="doc-backlink">Creating contour lines</a><a class="headerlink" href="#creating-contour-lines" title="Lien permanent vers cette rubrique">¶</a></h2>
+<h2><a class="toc-backref" href="#id6">Creating contour lines</a><a class="headerlink" href="#creating-contour-lines" title="Lien permanent vers ce titre">¶</a></h2>
 <p>As a short introduction to SAGA vector capabilities, we will now generate
 Contour Lines from the digital elevation model.</p>
 <ol class="arabic simple">
@@ -252,7 +251,7 @@ this graduated color to the elevation. Press apply, and you are presented with
 coloured contour lines.</p></li>
 </ol>
 <section id="check-your-history">
-<h3><a class="toc-backref" href="#id7" role="doc-backlink">Check your history</a><a class="headerlink" href="#check-your-history" title="Lien permanent vers cette rubrique">¶</a></h3>
+<h3><a class="toc-backref" href="#id7">Check your history</a><a class="headerlink" href="#check-your-history" title="Lien permanent vers ce titre">¶</a></h3>
 <p>If you select a dataset (eg your contour lines) in the data tab of the manager
 window, you can switch the object properties tab to “history” to review which
 module and which options were used to create the dataset. This information is
@@ -267,7 +266,7 @@ run a chain of modules again with fixed options. A tutorial can be found at
 </section>
 </section>
 <section id="saving-data">
-<h2><a class="toc-backref" href="#id8" role="doc-backlink">Saving data</a><a class="headerlink" href="#saving-data" title="Lien permanent vers cette rubrique">¶</a></h2>
+<h2><a class="toc-backref" href="#id8">Saving data</a><a class="headerlink" href="#saving-data" title="Lien permanent vers ce titre">¶</a></h2>
 <p>To save the work you have created you should open the data tab in the
 workspace, and right click on the file you want to save. SAGA will save grid
 files to its own native format (*.sgrd) and shapefiles to the standard ESRI
@@ -276,7 +275,7 @@ shapefile format (*.shp). It is also possible to save the project, by choosing
 settings, as well as offering to save the data files.</p>
 </section>
 <section id="importing-exporting-data">
-<h2><a class="toc-backref" href="#id9" role="doc-backlink">Importing/Exporting data</a><a class="headerlink" href="#importing-exporting-data" title="Lien permanent vers cette rubrique">¶</a></h2>
+<h2><a class="toc-backref" href="#id9">Importing/Exporting data</a><a class="headerlink" href="#importing-exporting-data" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Under the hood SAGA can also use the GDAL library for opening different raster
 and vector formats. The easiest way is to use <strong>File|Grid|Open</strong> for raster
 data and <strong>File|Shapes|Open</strong> for vector data. For rasters among others geotiff
@@ -310,7 +309,7 @@ Range to minimum maximum”.</p>
 explore some of the other modules of SAGA!</p>
 </section>
 <section id="what-next">
-<h2><a class="toc-backref" href="#id10" role="doc-backlink">Ensuite ?</a><a class="headerlink" href="#what-next" title="Lien permanent vers cette rubrique">¶</a></h2>
+<h2><a class="toc-backref" href="#id10">Ensuite ?</a><a class="headerlink" href="#what-next" title="Lien permanent vers ce titre">¶</a></h2>
 <p>More documentation can be found on the SAGA website:
 * <a class="reference external" href="http://www.saga-gis.org">http://www.saga-gis.org</a>
 and specifically in the documentation archive:
