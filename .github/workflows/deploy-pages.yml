@@ -44,6 +44,13 @@ jobs:
           mkdir -p build
           bash ci/build-pages.sh
 
+      - name: Deploy pages
+        if: github.ref == 'refs/heads/master'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: build/_build/html
+
       - name: Update locale
         if: github.ref == 'refs/heads/master'
         run: |
@@ -57,10 +64,3 @@ jobs:
           git restore .  # Remove the unstaged changes before rebasing
           git rebase origin/master
           git push origin master
-
-      - name: Deploy pages
-        if: github.ref == 'refs/heads/master'
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: build/_build/html
