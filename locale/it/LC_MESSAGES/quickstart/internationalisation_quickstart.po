@@ -60,7 +60,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/internationalisation_quickstart.rst:0
 msgid "login screen"
-msgstr ""
+msgstr "schermata di accesso"
 
 #: ../../build/doc/quickstart/internationalisation_quickstart.rst:27
 msgid ""
@@ -118,16 +118,16 @@ msgstr ""
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "Progetto OSGeo"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "Comunità OSGeo"

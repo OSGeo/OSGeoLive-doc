@@ -71,7 +71,7 @@ msgstr "|nologo|"
 #: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "`OGC Standards`_"
@@ -283,7 +283,7 @@ msgstr "|osgeo_project|"
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "Progetto OSGeo"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "MapFish_"
@@ -356,8 +356,8 @@ msgstr "Servizio Web"
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "Comunità OSGeo"

@@ -1,0 +1,507 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Luca Delucchi <lucadeluge@gmail.com>, 2017
+# Antonio Rotundo <anto.rotundo@gmail.com>, 2021
+# Valerio Pinna <pinnavalerio@yahoo.co.uk>, 2021
+# Simone Falceri, 2022
+# Federico Gianoli <fritz4@gmail.com>, 2022
+# Stefano Campus <skampus@gmail.com>, 2022
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"PO-Revision-Date: 2017-09-20 16:05+0000\n"
+"Last-Translator: Stefano Campus <skampus@gmail.com>, 2022\n"
+"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:21
+msgid "OpenStreetMap Quickstart"
+msgstr "Guida rapida OpenStreetMap"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:25
+msgid ""
+"OpenStreetMap is a free street level map of the world, created by an ever "
+"growing community of mappers. Anyone can edit OpenStreetMap. The `Learn OSM "
+"website <https://learnosm.org>`_ provides easy to understand, step-by-step "
+"guides for you to get started with contributing to OpenStreetMap and using "
+"OpenStreetMap and using OpenStreetMap data. The Learn OSM guide at the link "
+"above shows step by step how to navigate the OpenStreetMap website, view and"
+" print maps, and sign up for a user account. After you have your own "
+"username and password, you will be able to add your first points to the map,"
+" learn how to do street surveys and work with aerial imagery."
+msgstr ""
+"OpenStreetMap è una mappa stradale gratuita del mondo, creata da una "
+"comunità di mappatori in continua crescita. Chiunque può modificare "
+"OpenStreetMap. Il sito web `Learn OSM <https://learnosm.org>`_ fornisce "
+"guide facili da capire, passo dopo passo, per iniziare a contribuire a "
+"OpenStreetMap e ad usare OpenStreetMap e ad usare i dati di OpenStreetMap. "
+"La guida Learn OSM al link qui sopra mostra passo dopo passo come navigare "
+"nel sito web di OpenStreetMap, visualizzare e stampare mappe, e registrarsi "
+"per un account utente. Dopo che avrai il tuo nome utente e la tua password, "
+"sarai in grado di aggiungere i tuoi primi punti alla mappa, imparare come "
+"fare rilievi stradali e lavorare con le immagini aeree."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:36
+msgid ""
+"The remainder of this guide introduces some of the online and offline "
+"software used to edit and render OSM data."
+msgstr ""
+"Il resto di questa guida introduce alcuni dei software online e offline "
+"utilizzati per modificare e visualizzare i dati OSM."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:40
+msgid "Contents"
+msgstr "Contenuti"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:43
+msgid "Programs that work with OSM data"
+msgstr "Programmi che lavorano con i dati OSM"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:46
+msgid "iD"
+msgstr "iD"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:48
+msgid ""
+"**iD** is the default on-line editor for OpenStreetMap (OSM). iD is fast and"
+" easy to use, and allows mapping from various data sources such as ground "
+"survey, satellite and aerial imageries, GPS traces or street-level imagery."
+msgstr ""
+"**iD** è l'editor on-line predefinito per OpenStreetMap (OSM). iD è veloce e"
+" facile da usare, e permette la mappatura da varie fonti di dati come "
+"rilievi a terra, immagini satellitari e aeree, tracce GPS o immagini a "
+"livello stradale."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:52
+msgid "Start page: https://www.openstreetmap.org/edit"
+msgstr "Pagina iniziale: https://www.openstreetmap.org/edit"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:53
+msgid "Documentation: https://wiki.openstreetmap.org/wiki/ID"
+msgstr "Documentazione: https://wiki.openstreetmap.org/wiki/ID"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:54
+msgid "Tutorial: https://learnosm.org/en/beginner/id-editor/"
+msgstr "Tutorial: https://learnosm.org/en/beginner/id-editor/"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:58
+msgid "JOSM"
+msgstr "JOSM"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:60
+msgid ""
+"**JOSM** (Java OpenStreetMap Editor) is an advanced editor for OpenStreetMap"
+" (OSM) written in Java. It is more powerful and complex than iD, can be used"
+" for bulk editing, off-line or on an unreliable Internet connection. It can "
+"be extended with plugins, custom presets and more extensions."
+msgstr ""
+"**JOSM** (Java OpenStreetMap Editor) è un editor avanzato per OpenStreetMap "
+"(OSM) scritto in Java. È più potente e complesso di iD, può essere usato per"
+" l'editing di massa, fuori linea o su una connessione Internet inaffidabile."
+" Può essere esteso con plugin, impostazioni personalizzate e altre "
+"estensioni."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:66
+msgid "Homepage: https://josm.openstreetmap.de"
+msgstr "Homepage: https://josm.openstreetmap.de"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:67
+msgid "User guide: https://wiki.openstreetmap.org/wiki/JOSM/Guide"
+msgstr "Guida utente: https://wiki.openstreetmap.org/wiki/JOSM/Guide"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:68
+msgid "Tutorial: https://learnosm.org/en/josm/start-josm/"
+msgstr "Tutorial: https://learnosm.org/en/josm/start-josm/"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:69
+msgid "JOSM plugin collection: https://josm.openstreetmap.de/wiki/Plugins"
+msgstr ""
+"Collezione dei plugin JOSM: https://josm.openstreetmap.de/wiki/Plugins"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:73
+msgid "QGIS"
+msgstr "QGIS"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:75
+msgid ""
+"OpenStreetMap data can be loaded in **QGIS** as vector layer, as a core "
+"functionality or through plugins like QuickOSM."
+msgstr ""
+"I dati di OpenStreetMap possono essere caricati in **QGIS** come layer "
+"vettoriale, come funzionalità di base o attraverso plugin come QuickOSM."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:77
+msgid "QuickOSM: See the `QuickOSM`_ section"
+msgstr "QuickOSM: Vedi `QuickOSM`_ section"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:78
+msgid ""
+"Online help: "
+"https://wiki.openstreetmap.org/wiki/QGIS#QGIS_2:_Importing_OSM_vector_layers"
+msgstr ""
+"Aiuto online: "
+"https://wiki.openstreetmap.org/wiki/QGIS#QGIS_2:_Importing_OSM_vector_layers"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:79
+msgid "Tutorial: https://learnosm.org/en/osm-data/osm-in-qgis/"
+msgstr "Tutorial: https://learnosm.org/en/osm-data/osm-in-qgis/"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:82
+msgid "Osmosis"
+msgstr "Osmosis"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:84
+msgid ""
+"**Osmosis** is a highly capable utility program for performing many tasks at"
+" a raw level on OSM data. This includes data import and export to databases,"
+" sorting, cleaning, and creating data dumps."
+msgstr ""
+"**Osmosis** è un programma di utilità altamente capace per eseguire molte "
+"attività a livello grezzo sui dati OSM. Ciò include l'importazione e "
+"l'esportazione dei dati nei database, l'ordinamento, la pulizia e la "
+"creazione di dump dei dati."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:88
+msgid "Documentation: https://wiki.openstreetmap.org/wiki/Osmosis#Usage"
+msgstr "Documentazione: https://wiki.openstreetmap.org/wiki/Osmosis#Usage"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:89
+msgid "Tutorial: https://learnosm.org/en/osm-data/osmosis/"
+msgstr "Tutorial: https://learnosm.org/en/osm-data/osmosis/"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:94
+msgid "osm2pgsql"
+msgstr "osm2pgsql"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:96
+msgid ""
+"**osm2pgsql** is a utility program that converts OpenStreetMap (.osm) data "
+"into a format that can be loaded into PostgreSQL (PostGIS). It is often used"
+" to render OSM data visually using Mapnik, as Mapnik can query PostgreSQL "
+"for map data, but does not work directly with OSM files."
+msgstr ""
+"**osm2pgsql** è un programma di utilità che converte i dati OpenStreetMap "
+"(.osm) in un formato che può essere caricato in PostgreSQL (PostGIS). È "
+"spesso usato per visualizzare i dati OSM visivamente usando Mapnik, poiché "
+"Mapnik può interrogare PostgreSQL per i dati delle mappe, ma non lavora "
+"direttamente con i file OSM."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:101
+msgid "Homepage: https://wiki.openstreetmap.org/wiki/Osm2pgsql"
+msgstr "Homepage: https://wiki.openstreetmap.org/wiki/Osm2pgsql"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:102
+msgid "Tutorial: https://learnosm.org/en/osm-data/osm2pgsql/"
+msgstr "Tutorial: https://learnosm.org/en/osm-data/osm2pgsql/"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:106
+msgid "Working with OSM data in QGIS"
+msgstr "Lavora con i dati OSM in QGIS"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:108
+msgid ""
+"OSGeoLive comes with OSM data for the city where the global `FOSS4G "
+"conference <https://foss4g.org>`_ takes place. You find the data in the file"
+" system at `/usr/local/share/data/osm/` or in the PostgreSQL database "
+"`osm_local`."
+msgstr ""
+"OSGeoLive viene fornito con i dati OSM per la città dove si svolge la "
+"conferenza globale `FOSS4G <https://foss4g.org>`_. Trovi i dati nel file "
+"system in `/usr/local/share/data/osm/` o nel database PostgreSQL "
+"`osm_local`."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:111
+msgid "Start QGIS and have a look at the data."
+msgstr "Avvia QGIS dai un'occhiata ai dati"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:113
+msgid "Open the `Desktop GIS` folder."
+msgstr "Apri la cartella `Desktop GIS`."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:114
+msgid "Double click on the `QGIS` icon."
+msgstr "Fai doppio clic sull'icona `QGIS`."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:115
+msgid "Go the browser panel on the left of the screen."
+msgstr "Vai al pannello del browser sulla sinistra dello schermo."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:116
+msgid ""
+"Navigate to `PostGIS` and then to the database `osm_local`. You will find "
+"the data in the schema `public`."
+msgstr ""
+"Naviga su `PostGIS` e poi sul database `osm_local`. Troverai i dati nello "
+"schema `public`."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:117
+msgid ""
+"Drag the layers from the `Browser` panel and drop them in the map canvas."
+msgstr "Trascina i layer dal pannello `Browser` e rilasciali nella mappa."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:122
+msgid ""
+"You find a QGIS introduction in the :doc:`QGIS Quickstart "
+"<../quickstart/qgis_quickstart>`"
+msgstr ""
+"Si trova un'introduzione a QGIS nel :doc:`QGIS Quickstart "
+"<../quickstart/qgis_quickstart>`."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:128
+msgid "QuickOSM"
+msgstr "QuickOSM"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:130
+msgid ""
+"`QuickOSM` allows you to work quickly with OSM data in QGIS thanks to "
+"Overpass API."
+msgstr ""
+"`QuickOSM` ti permette di lavorare rapidamente con i dati OSM in QGIS grazie"
+" a Overpass API."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:132
+msgid "Homepage: https://github.com/3liz/QuickOSM"
+msgstr "Homepage: https://github.com/3liz/QuickOSM"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:134
+msgid ""
+"You have to enable the Plugin in QGIS. Search for `QuickOSM` from `Plugins "
+"--> Manage and Install Plugins` in QGIS"
+msgstr ""
+"Devi abilitare il plugin in QGIS. Cerca `QuickOSM` da `Plugins --> Gestisci "
+"e installa plugins` in QGIS"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:135
+msgid "Open QuickOSM from `Vector --> QuickOSM --> QuickOSM`"
+msgstr "Apri QuickOSM da `Vector --> QuickOSM --> QuickOSM`."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:136
+#: ../../build/doc/quickstart/osm_quickstart.rst:195
+msgid "Search for all the pubs in the FOSS4G city"
+msgstr "Cerca tutti i pub della città FOSS4G"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:137
+msgid "Choose key `amenity`, value `pub`, in `Buenos Aires`"
+msgstr "Scegli la chiave `amenità`, il valore `pub`, in `Buenos Aires`."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:138
+msgid "Show the query to see the Overpass query"
+msgstr "Mostra la query per vedere la query Overpass"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:139
+msgid ""
+"Click  `Run query`. The resulting data will be loaded in your QGIS project "
+"as temporal data"
+msgstr ""
+"Clicca su `Esegui query`. I dati risultanti saranno caricati nel tuo "
+"progetto QGIS come dati temporali"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:140
+msgid ""
+"You can now save the data via `Export -> Save as....`. Choose i.e. "
+"Geopackage and save the data as `buenos_aires_pubs`."
+msgstr ""
+"Ora puoi salvare i dati tramite `Esporta -> Salva come....`. Scegli cioè "
+"Geopackage e salva i dati come `buenos_aires_pubs`."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:142
+msgid ""
+"You also find many OSM Plugins for QGIS. Search for `OSM` in the plugin "
+"repository."
+msgstr ""
+"Si trovano anche molti plugin OSM per QGIS. Cerca `OSM` nel repository dei "
+"plugin."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:146
+msgid "Using OSM as basemap in QGIS"
+msgstr "Usa OSM come mappa di base in QGIS"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:149
+msgid "XYZ Tiles"
+msgstr "XYZ Tiles"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:151
+msgid ""
+"By default, QGIS comes with OpenStreetMap basemap layer and is located in "
+"the `Browser Panel` under `XYZ Tiles`."
+msgstr ""
+"Per impostazione predefinita, QGIS viene fornito con il layer della mappa di"
+" base di OpenStreetMap e si trova nel `Pannello del browser` sotto `XYZ "
+"Tiles`."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:157
+msgid "QuickMapServices"
+msgstr "QuickMapServices"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:159
+msgid ""
+"`QuickMapServices` plugin allows you to easily add various map services as "
+"basemaps with one click in QGIS."
+msgstr ""
+"Il plugin `QuickMapServices` permette di aggiungere facilmente vari servizi "
+"di mappe come mappe di base con un clic in QGIS."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:161
+msgid "Homepage: https://github.com/nextgis/quickmapservices"
+msgstr "Homepage: https://github.com/nextgis/quickmapservices"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:163
+msgid ""
+"You have to enable the Plugin in QGIS. Search for `QuickMapServices` from "
+"`Plugins --> Manage and Install Plugins` in QGIS"
+msgstr ""
+"Devi abilitare il plugin in QGIS. Cerca `QuickMapServices` da `Plugins --> "
+"Gestisci e installa plugins` in QGIS"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:164
+msgid "Add an OSM basemap from `Web --> QuickMapServices --> OSM`"
+msgstr "Aggiungi una mappa base OSM da `Web --> QuickMapServices --> OSM`."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:170
+msgid "Start working with OSM data"
+msgstr "Incomincia a lavorare coi dati OSM"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:172
+msgid ""
+"There are several ways to download OpenStreetMap data for your region. You "
+"can get the data in several formats."
+msgstr ""
+"Ci sono diversi modi per scaricare i dati di OpenStreetMap per la tua "
+"regione. Puoi ottenere i dati in diversi formati."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:174
+msgid ""
+"You can use the following tools and services to extract OSM data for your "
+"area of interest."
+msgstr ""
+"Puoi usare i seguenti strumenti e servizi per estrarre i dati OSM per la tua"
+" area di interesse."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:178
+msgid "Geofabrik"
+msgstr "Geofabrik"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:180
+msgid ""
+"`Geofabrik <https://download.geofabrik.de/>`_ provides daily worldwide "
+"OpenStreetMap data extracts by subregion and country. Choose the region or "
+"country you are interested in. Data is provided in three formats: "
+"`.osm.pbf`, `.shp.zip` and `.osm.bz2`. `.osm.pbf` and`.shp.zip` can be "
+"opened directly in QGIS."
+msgstr ""
+"`Geofabrik <https://download.geofabrik.de/>`_ fornisce quotidianamente "
+"estratti di dati OpenStreetMap mondiali per sottoregione e paese. Scegli la "
+"regione o il paese che ti interessa. I dati sono forniti in tre formati: "
+"`.osm.pbf`, `.shp.zip` e `.osm.bz2`. `.osm.pbf` e `.shp.zip` possono essere "
+"aperti direttamente in QGIS."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:184
+msgid ""
+"**.osm.bz2** contains raw OSM XML files `.osm`, `osm2pgsql`_ works well with"
+" them, find out more about working with them here "
+"https://wiki.openstreetmap.org/wiki/OSM_XML"
+msgstr ""
+"**.osm.bz2** contiene file OSM XML grezzi `.osm`, `osm2pgsql`_ funziona bene"
+" con essi, scopri di più su come lavorare con essi qui "
+"https://wiki.openstreetmap.org/wiki/OSM_XML"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:188
+msgid "Overpass turbo"
+msgstr "Overpass turbo"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:190
+msgid ""
+"Overpass turbo is a web based data mining tool for OpenStreetMap based on "
+"the Overpass-API."
+msgstr ""
+"Overpass turbo è uno strumento di data mining basato sul web per "
+"OpenStreetMap basato su Overpass-API."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:192
+msgid ""
+"Have a look at the web client and download all the pubs in the FOSS4G city."
+msgstr ""
+"Dai un'occhiata al client web e scarica tutti i pub della città FOSS4G."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:194
+msgid "Open https://overpass-turbo.eu/"
+msgstr "Apri https://overpass-turbo.eu/"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:196
+msgid ""
+"Click on the button `Wizard` and paste the query to the search column "
+"`amenity=pub in \"Buenos Aires\"`"
+msgstr ""
+"Clicca sul pulsante `Wizard` e incolla la query nella colonna di ricerca "
+"`amenity=pub in \"Buenos Aires\"`."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:197
+msgid "Then click the button `build and run query`"
+msgstr "Poi fai clic sul pulsante `costruisci ed esegui la query`."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:198
+msgid "Click `zoom to data` in the map canvas to navigate to your results"
+msgstr ""
+"Clicca su `zoom to data` nella mappa per navigare verso i tuoi risultati"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:204
+msgid "HOT Export Tool"
+msgstr "HOT Export Tool"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:206
+msgid ""
+"The Humanitarian OpenStreetMap Team (HOT) provides an export tool for "
+"OpenStreetMap too. To use it you need an OSM account. You can download data "
+"in several formats and have history for your downloaded data and exports."
+msgstr ""
+"L'Humanitarian OpenStreetMap Team (HOT) fornisce uno strumento di "
+"esportazione anche per OpenStreetMap. Per usarlo hai bisogno di un account "
+"OSM. Puoi scaricare i dati in diversi formati e avere la cronologia dei dati"
+" scaricati e delle esportazioni."
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:210
+msgid ""
+"Here is a quickstart: https://export.hotosm.org/en/v3/learn/quick_start"
+msgstr ""
+"Ecco una guida rapida: https://export.hotosm.org/en/v3/learn/quick_start"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:214
+msgid "What next?"
+msgstr "E ora?"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:216
+msgid "Find out more about OSM on the website: https://www.openstreetmap.org"
+msgstr ""
+"Per saperne di più su OSM visita il sito: https://www.openstreetmap.org"
+
+#: ../../build/doc/quickstart/osm_quickstart.rst:218
+msgid "Get support: https://www.openstreetmap.org/help"
+msgstr "Ottieni supporto: https://www.openstreetmap.org/help"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr "vmdk"
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr "nologo"
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr "Progetto OSGeo"
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr "Comunità OSGeo"

@@ -38,7 +38,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rstNone
 msgid "MapProxy diagram"
-msgstr ""
+msgstr "Diagrama mapProxy"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:31
 msgid ""
@@ -114,7 +114,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:60
 msgid "MapProxy example in uDig"
-msgstr ""
+msgstr "Ejemplo de MapProxy en uDig"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:60
 msgid ""
@@ -248,6 +248,7 @@ msgid ""
 "Read the `documentation of MapProxy "
 "<https://localhost/mapproxy/index.html>`__"
 msgstr ""
+"Lea la `documentación de MapProxy <https://localhost/mapproxy/index.html>`__"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:106
 msgid ""

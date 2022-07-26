@@ -5,7 +5,7 @@
 # 
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2020
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -65,7 +65,7 @@ msgstr ""
 
 #: ../../build/doc/overview/eoxserver_overview.rstNone
 msgid "eoxserver screenshot"
-msgstr ""
+msgstr "eoxserver képernyőképek"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:40
 msgid "Core Features"
@@ -187,6 +187,8 @@ msgid ""
 "**Licence:** `MIT-style license "
 "<https://docs.eoxserver.org/en/stable/copyright.html#license>`_"
 msgstr ""
+"**Licenc:** `MIT-style licenc "
+"<https://docs.eoxserver.org/en/stable/copyright.html#license>`_"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:85
 msgid "**Software Version:** |version-eoxserver|"
@@ -205,6 +207,8 @@ msgid ""
 "**Support:** https://docs.eoxserver.org/en/stable/users/basics.html#where-"
 "can-i-get-support"
 msgstr ""
+"**Támogatás:** https://docs.eoxserver.org/en/stable/users/basics.html#where-"
+"can-i-get-support"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:96
 msgid "Quickstart"
@@ -216,16 +220,16 @@ msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/eoxserver_quickstart>`
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo közösség"

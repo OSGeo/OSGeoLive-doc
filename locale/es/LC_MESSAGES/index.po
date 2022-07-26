@@ -12,9 +12,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-20 21:55-0500\n"
+"POT-Creation-Date: 2022-06-21 20:07+0000\n"
 "PO-Revision-Date: 2017-01-21 16:46+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
@@ -43,9 +43,9 @@ msgstr ""
 "software libre, lo que le permite ser libremente distribuido, duplicado y "
 "compartido."
 
-#: ../../build/doc/index.rstNone
+#: ../../build/doc/index.rst-1
 msgid "boot select"
-msgstr ""
+msgstr "boot select"
 
 #: ../../build/doc/index.rst:17
 msgid ""
@@ -103,8 +103,7 @@ msgstr "Presentación"
 #: ../../build/doc/index.rst:70
 msgid ""
 "A half hour `presentation <presentation.html>`__, highlighting all OSGeoLive"
-" applications, is available with slides, script, and `abstract "
-"<presentation/abstract.txt>`_."
+" applications, is available with slides, script"
 msgstr ""
 
 #: ../../build/doc/<rst_epilog>:12
@@ -119,6 +118,6 @@ msgstr "nologo"
 msgid "OSGeo Project"
 msgstr "Proyecto OSGeo"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr "OSGeo Comunitario"

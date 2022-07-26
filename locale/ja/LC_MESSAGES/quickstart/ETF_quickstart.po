@@ -1,0 +1,546 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2022, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Hiroshi Miura <miurahr@northside.tokyo>, 2022
+# Ko Nagase <nagase@georepublic.co.jp>, 2022
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-19 14:37+0000\n"
+"PO-Revision-Date: 2022-07-20 18:57+0000\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2022\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:19
+msgid "ETF Quickstart"
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:21
+msgid ""
+"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgstr "このプロジェクトはOSGeoLive仮想マシンディスク(VMDK)にのみ含まれています"
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:23
+msgid ""
+"ETF is an open source testing framework for validating spatial data, "
+"metadata and web services in Spatial Data Infrastructures (SDIs). The design"
+" of ETF is driven by three goals: be user-friendly, consistent with the "
+"standards and capable of testing all resources in an SDI."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:28
+msgid "This Quick Start describes how to:"
+msgstr "このクイックスタートでは、次の方法について説明します:"
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:30
+msgid "navigate through the web application"
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:31
+msgid "start a test"
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:32
+msgid "monitor a test run"
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:33
+msgid "watch and manage test reports"
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:36
+msgid "Contents"
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:39
+msgid "Introduction"
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:41
+msgid ""
+"From the Start menu, select |osgeolive-appmenupath-ETF|. The application "
+"will take a few moments to start up and will open a web page at "
+"http://localhost:9090/ETF"
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:45
+msgid ""
+"In the header, there is a menu with 4 options, each representing different "
+"views and functionalities:"
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:50
+msgid ""
+"The first one is Start test. In this section all available (i.e. installed) "
+"Executable Test Suites are listed. Within this section, an Executable Test "
+"Suite can be selected and run against a Test Object."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:54
+msgid ""
+"The second one is Status. This one shows all tests that are currently being "
+"executed on the system and allows to open a monitor view for single test "
+"runs to check the status of any running test. Moreover, the components "
+"currently loaded are shown below the running tests."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:59
+msgid ""
+"The third one is Test reports. In this one the results of any completed test"
+" can be checked, analysed in detail or downloaded."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:62
+msgid ""
+"The fourth one is Help. This one is a link to the documentation. Inside it, "
+"there are guides on how to use all functionalities of ETF."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:68
+msgid "Start test"
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:70
+msgid "Test Suite Selection"
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:71
+msgid "The landing view shows the available Executable Test Suites."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:77
+msgid ""
+"Additional information about a Test Suite can be accessed by clicking on the"
+" plus button."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:82
+msgid "This information:"
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:84
+msgid "Includes a description of the Test Suite."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:85
+msgid ""
+"May include a link to the Abstract Test Suite from which the Executable Test"
+" Suite has been derived (Source)."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:87
+msgid ""
+"May include the Test Suite dependencies, which are automatically executed "
+"with the Test Suite in a Test Run (Pre-requisite conformance classes)."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:89
+msgid ""
+"May include the name of associated Tags which are used to group the Test "
+"Suites in the view."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:91
+msgid ""
+"The name of applicable Test Object Types (explained in the next section)."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:92
+msgid ""
+"Includes general information like the version, author and last editor, "
+"creation and change dates."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:96
+msgid ""
+"To start a Test Run, a Test Suite must be selected with a click on the use "
+"flip switch on the right-hand side."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:101
+msgid "A Start button appears once at least one Test Suite is selected."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:103
+msgid ""
+"A Test Suite is only applicable to certain Test Object Types, which are "
+"listed in the description. Multiple Test Suites can be selected for one Test"
+" Run, but must be applicable to the same Test Object Type. Once one Test "
+"Suite is selected, the flip switch of all other Test Suites having different"
+" Test Object Types is disabled."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:111
+msgid ""
+"A Test Suite may depend on other Test Suites. The dependencies are also "
+"shown in the description of the Test Suites.  These dependencies are also "
+"automatically executed during the test run."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:115
+msgid ""
+"A click on the Start button will open a new view that asks the user about "
+"the target resource to be tested."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:121
+msgid "Test Run configuration"
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:125
+msgid ""
+"The Label field is mandatory and automatically preset with the current time "
+"and names of the selected Test Suites. The Label will be shown in the Test "
+"reports overview and can be changed in order to help find the report again "
+"after a test run."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:130
+msgid "The style of the view may depend on the selected Test Suites."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:133
+msgid "File-based Tests"
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:134
+msgid ""
+"The following elements are shown when Test Suites have been selected that "
+"test one or multiple test data files."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:137
+msgid ""
+"If File upload is selected as Data source, one or multiple local files can "
+"be selected and uploaded to the ETF. The ETF only accepts files with XML and"
+" GML file ending and ZIP files containing these two file types."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:141
+msgid ""
+"Other files, like schema definition files, cannot be used and are silently "
+"ignored by the ETF!"
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:146
+msgid ""
+"The maximum uploadable file size is displayed when the mouse is moved over "
+"the question mark."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:149
+msgid ""
+"If the data are available on the web, they can be tested by providing one "
+"single URL. After Remote file (URL) has been selected as Data source, an URL"
+" to either one single XML, GML or a ZIP file can be entered."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:156
+msgid ""
+"If the URL requires authentication, username and password can be provided by"
+" clicking on Credentials."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:164
+msgid "Service Tests"
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:166
+msgid ""
+"The following elements are shown when Test Suites have been selected that "
+"test one service."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:169
+msgid ""
+"The URL of a service must be entered beginning with ``http://`` or "
+"``https://``."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:173
+msgid ""
+"If the service requires authentication, username and password can be "
+"provided by clicking on Credentials."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:177
+msgid "Dependencies and Parameters"
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:179
+msgid ""
+"The Test Suites button shows some basic information about the selected Test "
+"Suites and - if applicable - about the direct dependencies."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:184
+msgid ""
+"If the Test accepts parameters, they are shown in the Test Suite Parameters "
+"section. Optional parameters can be displayed by clicking on the Optional "
+"Parameters button. A description of the parameters is displayed when the "
+"mouse is moved over the question mark."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:189
+msgid "In most cases the preset default values can be used."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:193
+msgid ""
+"Finally the test can be started by clicking on the Start button. The view "
+"then changes automatically to the Monitor View."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:197
+msgid "Monitor test runs"
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:199
+msgid "After a Test Run has been started the Monitor View is shown."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:203
+msgid "The blue bar indicates the progress."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:207
+msgid ""
+"The console area shows information and result messages. The Test Run can be "
+"canceled with a click on the Cancel button."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:210
+msgid ""
+"The view can be left, for instance with the X Button in the upper left "
+"corner. Also when the browser is closed, the Test Run execution continues on"
+" the server."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:213
+msgid ""
+"To reopen the Monitor View after it has been closed, select in the menu bar "
+"the Status view. The Status view shows all running tests. A click on the "
+"Test Run opens the Monitor View of that Test Run."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:219
+msgid ""
+"When a Test Run finishes and the Monitor View is opened, the Test Report is "
+"displayed automatically."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:224
+msgid "Test Reports"
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:226
+msgid ""
+"The Test Reports view shows all reports that have been generated from Test "
+"Runs."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:230
+msgid ""
+"By clicking on the plus button information, about the start time, the test "
+"result status, the name of the Test Object and the used Test Suites are "
+"shown."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:233
+msgid ""
+"A Test Report can be opened again by clicking on Open report or can be "
+"downloaded as HTML file by clicking on the Download button."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:236
+msgid ""
+"The log file of the test run can be inspected with the Open log button. By "
+"clicking on the Delete report button, the report will be deleted "
+"permanently."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:241
+msgid "Inspect test reports"
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:243
+msgid ""
+"The top of a Test Report shows general information including the overall "
+"test result Status, the start time, the duration and a table, which "
+"summarizes the status of all tests on several levels."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:249
+msgid ""
+"The Test Reports are interactive. The Show switch can be used to filter Only"
+" failed or Only manual tests. All deactivates the filter."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:252
+msgid ""
+"The Level of detail switch is used to show additional technical information "
+"in the reports."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:257
+msgid ""
+"The test results are summarized hierarchically in a report. At the top level"
+" there are the Test Suites."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:260
+msgid ""
+"By clicking on one test suite, a description and all lower level tests in "
+"that test suite are shown. Failures in a test suite can be immediately "
+"recognized by the red color. The number of failed tests is shown in the top-"
+"right corner."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:266
+msgid ""
+"The green color indicates a passed test. Passed tests, which require "
+"additional manual test steps that could not be automated, are colored "
+"orange. The orange color may also indicate a test that has been skipped "
+"because it depends on another test that has failed. The exact status can be "
+"found below the description."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:272
+msgid ""
+"The number of levels depends on the tested Test Object. If service tests "
+"have been executed the hierarchy is as follows:"
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:275
+msgid "Executable Test Suites"
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:276
+msgid "Test Modules (bundles Test Cases)"
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:277
+msgid "Test Cases (bundles Test Steps)"
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:278
+msgid "Test Steps (interactions with the service, bundles Test Assertions)"
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:279
+msgid "Test Assertions (atomic tests)"
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:281
+msgid ""
+"In a file-based test, Test Modules and Test Steps do not exist and are not "
+"shown in the report."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:284
+msgid ""
+"Each test provides a description on how aspects are tested and lists the "
+"requirements. The test may possess a link to an abstract test suite, from "
+"which the test has been derived (Source)."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:290
+msgid ""
+"Assertions stand for atomic test queries on the lowest level. Failed, red "
+"colored assertions display error messages in the Messages section."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:295
+msgid ""
+"Helpful information may also be found on the next higher level, like for "
+"instance the response from a service on the Test Step level (note the Open "
+"saved response link in the report)."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:302
+msgid "Resources"
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:304
+msgid ""
+"Using the instructions provided above, please find below a predefined set of"
+" resources that you can test in the ETF:"
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:308
+msgid ""
+"GML data sets: some predefined data sets can be downloaded from `here "
+"<https://github.com/etf-validator/OSGeoLive-ETF/tree/main/resources/GML-"
+"data-sets>`__ ."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:310
+msgid ""
+"WMS services: a list of services is available `here <https://github.com/etf-"
+"validator/OSGeoLive-ETF/tree/main/resources/WMS-services>`__."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:312
+msgid ""
+"WFS services: a list of services is available `here <https://github.com/etf-"
+"validator/OSGeoLive-ETF/tree/main/resources/WFS-services>`__."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:315
+msgid ""
+"Some of the resources do not pass all the tests, so you can try to fix them "
+"before validating them again"
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:319
+msgid "What's next?"
+msgstr "次は?"
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:321
+msgid ""
+"This was just a very brief overview of the ETF.  There is more information "
+"in the demo installation and on the `ETF GitHub space`_."
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:326
+msgid "Please also check:"
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:328
+msgid "`User manual`_"
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:329
+msgid "`Administrator manual`_"
+msgstr ""
+
+#: ../../build/doc/quickstart/ETF_quickstart.rst:330
+msgid "`Developer manual`_"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:13
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:16
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

@@ -93,7 +93,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/cesium_quickstart.rstNone
 msgid "Cesium switching between 3D, 2.5D and 2D"
-msgstr ""
+msgstr "Cesium váltás 3D, 2.5D és 2D között"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:48
 msgid "Now the 2D map is selected."
@@ -102,7 +102,7 @@ msgstr "Most a 2D térképet választjuk."
 #: ../../build/doc/quickstart/cesium_quickstart.rstNone
 #: ../../build/doc/quickstart/cesium_quickstart.rstNone
 msgid "Cesium 2D map"
-msgstr ""
+msgstr "Cesium 2D térkép"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:55
 msgid "Select the Image layer"
@@ -152,6 +152,9 @@ msgid ""
 "search for answers to common questions, and to raise questions that haven't "
 "been asked before."
 msgstr ""
+"A `Cesium Fórum <https://community.cesium.com>`_ egy remek hely, a válsz "
+"megkeresésére a gyakori kérdésekre, és korábban még fel nem tett kérdések "
+"beküldésére."
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:74
 msgid ""
@@ -163,16 +166,16 @@ msgstr ""
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo közösség"

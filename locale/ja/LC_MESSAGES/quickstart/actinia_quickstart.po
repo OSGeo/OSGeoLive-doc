@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2022-06-21 20:07+0000\n"
 "PO-Revision-Date: 2019-07-18 21:56+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -29,40 +29,39 @@ msgstr "actinia クイックスタート"
 #: ../../build/doc/quickstart/actinia_quickstart.rst:24
 msgid ""
 "Actinia is an open source REST API for scalable, distributed, high "
-"performance processing of geographical data that uses GRASS GIS for "
-"computational tasks. Actinia provides a REST API to process satellite "
-"images, time series of satellite images, raster and vector data."
+"performance processing of geographical data that uses mainly `GRASS GIS "
+"<https://grass.osgeo.org/>`__ for computational tasks. Actinia provides a "
+"REST API to process satellite images, time series of satellite images, "
+"raster and vector data."
 msgstr ""
-"Actiniaは、地理データのスケーラブルで分散した高パフォーマンス処理のためのオープンソースREST APIであり、計算タスクにGRASS "
-"GISを使用します。Actiniaは、衛星画像、時系列衛星画像データ、ベクタデータを処理するREST APIを提供しています。"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:30
+#: ../../build/doc/quickstart/actinia_quickstart.rst:31
 msgid "Contents"
 msgstr ""
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:32
+#: ../../build/doc/quickstart/actinia_quickstart.rst:33
 msgid "Actinia can be used in different ways:"
 msgstr "Actinia は様々な方法で利用されています。"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:34
+#: ../../build/doc/quickstart/actinia_quickstart.rst:35
 msgid "`curl` or similar command line tools"
 msgstr "`curl` などのコマンドラインツール"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:35
+#: ../../build/doc/quickstart/actinia_quickstart.rst:36
 msgid "the `Postman` or `RESTman` extension for browsers"
 msgstr ""
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:36
+#: ../../build/doc/quickstart/actinia_quickstart.rst:37
 msgid ""
 "open a GRASS GIS session and use the `ace` (actinia command execution) tool"
 msgstr ""
 "GRASS GISセッションを開き、 `ace` (actiniaコマンド実行: actinia command execution)ツールを使用する"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:37
+#: ../../build/doc/quickstart/actinia_quickstart.rst:38
 msgid "other interfaces to REST API"
 msgstr "REST APIに対する他のインターフェース"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:39
+#: ../../build/doc/quickstart/actinia_quickstart.rst:40
 msgid ""
 "In this quickstart, we make use of GRASS GIS to conveniently launch commands"
 " from the session to the actinia server (which itself uses GRASS GIS). The "
@@ -267,7 +266,6 @@ msgid "It is very easy (and fast) to render a map:"
 msgstr "マップのレンダリングは非常に簡単(かつ高速)です:"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:171
-#: ../../build/doc/quickstart/actinia_quickstart.rst:171
 msgid "ESA Globcover map shown by actinia"
 msgstr "actinia による ESA Globcover map の表示"
 
@@ -467,6 +465,6 @@ msgstr ""
 msgid "OSGeo Project"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""

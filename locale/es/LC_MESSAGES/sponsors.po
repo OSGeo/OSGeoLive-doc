@@ -28,7 +28,7 @@ msgstr "Patrocinadores de OSGeoLive"
 
 #: ../../build/doc/sponsors.rstNone ../../build/doc/sponsors_osgeo.rstNone
 msgid "OSGeo"
-msgstr ""
+msgstr "OSGeo"
 
 #: ../../build/doc/sponsors.rst:9
 msgid ""
@@ -45,6 +45,8 @@ msgid ""
 "Information Center for the Environment at the University of California, "
 "Davis"
 msgstr ""
+"Centro de Información para el Medio Ambiente de la Universidad de "
+"California, Davis"
 
 #: ../../build/doc/sponsors.rst:17
 msgid ""
@@ -58,7 +60,7 @@ msgstr ""
 
 #: ../../build/doc/sponsors.rstNone
 msgid "National Technical University of Athens"
-msgstr ""
+msgstr "Universidad Técnica Nacional de Atenas"
 
 #: ../../build/doc/sponsors.rst:26
 msgid ""
@@ -72,7 +74,7 @@ msgstr ""
 
 #: ../../build/doc/sponsors.rstNone
 msgid "The DebianGIS and UbuntuGIS projects"
-msgstr ""
+msgstr "Los proyectos DebianGIS y UbuntuGIS"
 
 #: ../../build/doc/sponsors.rst:34
 msgid ""
@@ -84,7 +86,7 @@ msgstr ""
 
 #: ../../build/doc/sponsors.rstNone
 msgid "The Greek Academic cloud service"
-msgstr ""
+msgstr "El servicio en la nube de la Academia Griega"
 
 #: ../../build/doc/sponsors.rst:41
 msgid ""
@@ -103,7 +105,7 @@ msgstr ""
 
 #: ../../build/doc/sponsors.rstNone
 msgid "Geolocation Technology Company"
-msgstr ""
+msgstr "Empresa de Tecnología de Geolocalización"
 
 #: ../../build/doc/sponsors.rst:52
 msgid ""

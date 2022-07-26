@@ -74,7 +74,7 @@ msgstr "A GeoMoose példány demó interfésze jelenik meg egy honlapon."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:0
 msgid "GeoMoose Screenshot"
-msgstr ""
+msgstr "GeoMoose képernyőkép"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:43
 msgid "The Interfaces presented above shows:"
@@ -364,16 +364,16 @@ msgstr "https://www.geomoose.org/quickstart.html"
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo közösség"

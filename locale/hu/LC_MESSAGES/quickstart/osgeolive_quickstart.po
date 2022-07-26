@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,11 +40,11 @@ msgstr "A számítógépének legalább rendelkeznie kell:"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:18
 msgid "RAM: minimum 2 GB (4 GB recommended)."
-msgstr ""
+msgstr "RAM: minimum 2 GB (4 GB ajánlott)."
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:19
 msgid "CPU: 1 GHz 64 bit."
-msgstr ""
+msgstr "CPU: 1 GHz 64 bit."
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:20
 msgid "Hard Disk:"
@@ -112,10 +112,11 @@ msgid ""
 "Getting started with Lubuntu and the LXQt desktop (which is used by "
 "OSGeoLive):"
 msgstr ""
+"Ismerkedés a Lubuntu-val és az LXQt asztallal (amelyet OSGeoLive használ):"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:54
 msgid "https://lubuntu.me/ and https://lxqt-project.org/"
-msgstr ""
+msgstr "https://lubuntu.me/ és https://lxqt-project.org/"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:56
 msgid "Getting started with the Ubuntu operating system:"
@@ -145,16 +146,16 @@ msgstr ":doc:`usb_quickstart`"
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo közösség"

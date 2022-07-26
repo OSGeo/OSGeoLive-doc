@@ -1,0 +1,237 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2022, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Valerio Pinna <pinnavalerio@yahoo.co.uk>, 2022
+# Simone Falceri, 2022
+# Federico Gianoli <fritz4@gmail.com>, 2022
+# Stefano Campus <skampus@gmail.com>, 2022
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-13 22:52+0000\n"
+"PO-Revision-Date: 2017-09-20 16:02+0000\n"
+"Last-Translator: Stefano Campus <skampus@gmail.com>, 2022\n"
+"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:20
+msgid "Jupyter Notebook Quickstart"
+msgstr "Guida rapida Notebook Jupyter"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:22
+msgid ""
+"The Jupyter Notebook is a web application that allows you to create and "
+"share documents that contain live code, equations, visualizations and "
+"explanatory text. Uses include: data cleaning and transformation, numerical "
+"simulation, statistical modeling, machine learning and much more."
+msgstr ""
+"Notebook Jupyter è un'applicazione web che permette di creare e condividere "
+"documenti che contengono codice live, equazioni, visualizzazioni e testo "
+"esplicativo. Gli usi includono: pulizia e trasformazione dei dati, "
+"simulazioni numeriche, modellazioni statistiche, machine learning e molti "
+"altri."
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:28
+msgid "This Quick Start describes how to:"
+msgstr "Questa Guida Rapida descrive come:"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:30
+msgid "Start a Jupyter Notebook server"
+msgstr "Avvia un server Notebook Jupyter"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:31
+msgid "Load a jupyter notebook"
+msgstr "Carica un notebook jupyter"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:32
+msgid "Interact with python code"
+msgstr "Interagisci con codice python"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:34
+msgid "Contents"
+msgstr "Contenuti"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:37
+msgid "Start the Jupyter server"
+msgstr "Avvia il server Jupyter"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:39
+msgid "From the application launch menu in the lower left corner."
+msgstr "Dal menu di lancio dell'applicazione in basso a sinistra."
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:41
+msgid "Choose  *Geospatial* -> *Spatial Tools* -> *Jupyter Notebook*"
+msgstr "Scegli  *Geospaziale* -> *Strumenti Spaziali\" -> *Notebook Jupyter*"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:43
+msgid ""
+"A terminal window will open and a startup log will begin to scroll. "
+"Afterwards a web browser is launched showing the Jupyter Notebook dashboard."
+" From the Jupyter Notebook dashboard you can navigate the directory tree, "
+"start new notebooks, create files and directories, as well as rename, delete"
+" and upload files."
+msgstr ""
+"Si apre una finestra di terminale e inizia a scorrere un registro di avvio. "
+"Successivamente viene avviato un browser web che mostra la dashboard di "
+"Jupyter Notebook. Dalla dashboard di Jupyter Notebook è possibile navigare "
+"nell'albero delle directory, avviare nuovi notebook, creare file e "
+"directory, nonché rinominare, cancellare e caricare file."
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:57
+msgid "Open and execute an existing notebook"
+msgstr "Aprire ed eseguire un notebook esistente"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:59
+msgid ""
+"Let's open an existing notebook. From the main page click on the directory "
+"geopandas-tutorial and choose the Introduction notebook (01-introduction-"
+"geospatial-data.ipynb). This is an introduction with many examples on how to"
+" use geospatial vector data in Python with geopandas using the Natural "
+"Earth2 data."
+msgstr ""
+"Apriamo un notebook esistente. Dalla pagina principale, clicca sulla "
+"directory geopandas-tutorial e scegli il notebook Introduction "
+"(01-introduction-geospatial-data.ipynb). Si tratta di un'introduzione con "
+"molti esempi su come utilizzare i dati vettoriali geospaziali in Python con "
+"geopandas, utilizzando i dati di Natural Earth2."
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:68
+msgid ""
+"The tutorial is made up with explaining text and cells. The cells contain in"
+" this case python code, that can be run."
+msgstr ""
+"Il tutorial è composto da testo esplicativo e celle. Le celle contengono in "
+"questo caso codice python, che può essere eseguito."
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:71
+msgid ""
+"From the toolbar on top of the notebook you can choose different options:"
+msgstr ""
+"Dalla barra degli strumenti in cima al notebook è possibile scegliere "
+"diverse opzioni:"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:73
+msgid ""
+"Cell-> Run Cells: will run the code in the cell with the focus and will move"
+" to the next cell."
+msgstr ""
+"Cella-> Esegui Celle: esegue il codice nella cella con il focus e passa alla"
+" cella successiva."
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:75
+msgid ""
+"Cell-> Run All:  will run all the cells and show the results If everything "
+"worked as planned you should be able to see the results at the bottom of the"
+" page."
+msgstr ""
+"Cell-> Run All: esegue tutte le celle e mostra i risultati Se tutto ha "
+"funzionato come previsto, i risultati dovrebbero essere visibili in fondo "
+"alla pagina."
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:79
+msgid "Have a look at the results after running all the cells."
+msgstr "Dai un'occhiata ai risultati dopo avere avviato tutte le celle."
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:84
+msgid ""
+"You will see additional Out[] section with different output for example "
+"tables, maps or calculations."
+msgstr ""
+"Verranno visualizzate altre sezioni Out[] con risultati diversi, ad esempio "
+"tabelle, mappe o calcoli."
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:87
+msgid "In Out[3] you can see the country information as a table."
+msgstr "In Out[3] puoi vedere le informazioni del paese come una tabella."
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:93
+msgid "In Out[4] a plot was generated from all the countries."
+msgstr "In Out[4] viene generato un grafico da tutti i paesi."
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:102
+msgid "Change code"
+msgstr "Cambia codice"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:104
+msgid "Now let's change some of the code."
+msgstr "Ora facciamo delle modifiche del codice:"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:107
+msgid ""
+"In In [10] a filter was defined for the countries. Only the continent "
+"``Africa`` is selected from the countries:"
+msgstr ""
+"In In[10] è definito un filtro per i paesi. Solo il continente ``Africa`` è "
+"selezionato dai paesi:"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:114
+msgid "Therefore in the plot there is only the continent ``Africa``."
+msgstr "Pertanto nel grafico c'è solo il continente ``Africa``."
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:119
+msgid "Change the selection to ``Asia`` and rund the two cells again."
+msgstr "Cambia la selezione in ``Asia`` ed esegui di nuovo le due celle."
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:125
+msgid ""
+"As result you will see that instead of ``Africa`` there will be ``Asia`` in "
+"the plot."
+msgstr ""
+"Il risultato è che al posto di ``Africa`` ci sarà ``Asia`` nel grafico."
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:131
+msgid "What Next?"
+msgstr "E ora?"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:133
+msgid ""
+"Discover the other notebooks that are provided with OSGeoLive and find out "
+"how to work with Shapely, Rasterio, R, Iris & other software."
+msgstr ""
+"Scoprite gli altri notebook forniti con OSGeoLive e scoprite come lavorare "
+"con Shapely, Rasterio, R, Iris e altri software."
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:135
+msgid ""
+"For more information about the jupyter notebook, please refer to the "
+"`Jupyter Notebooks official documentation <https://docs.jupyter.org>`__."
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:137
+msgid "More notebook examples are available from the notebook root directory."
+msgstr ""
+"Altri esempi di notebook sono disponibili nella directory principale del "
+"notebook."
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:138
+msgid ""
+"Quick introduction on how to use the Jupyter Notebooks interface: `Get "
+"started with Jupyter Notebook <https://docs.jupyter.org/en/latest/content-"
+"quickstart.html>`__."
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:13
+msgid "vmdk"
+msgstr "vmdk"
+
+#: ../../build/doc/<rst_epilog>:16
+msgid "nologo"
+msgstr "nologo"
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr "Progetto OSGeo"
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr "Comunità OSGeo"

@@ -43,11 +43,11 @@ msgstr "Los requerimientos mínimos del computador son:"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:18
 msgid "RAM: minimum 2 GB (4 GB recommended)."
-msgstr ""
+msgstr "RAM: mínimo 2 GB (se recomiendan 4 GB)."
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:19
 msgid "CPU: 1 GHz 64 bit."
-msgstr ""
+msgstr "CPU: 1 GHz 64 bit."
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:20
 msgid "Hard Disk:"
@@ -96,7 +96,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:0
 msgid "boot"
-msgstr ""
+msgstr "boot"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:42
 msgid "Sit back while the system boots up."
@@ -104,7 +104,7 @@ msgstr "Relájese mientras el sistema arranca."
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:0
 msgid "boot select"
-msgstr ""
+msgstr "boot select"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:48
 msgid "Try the many applications from the :menuselection:`Geospatial` menu."
@@ -119,11 +119,11 @@ msgstr "Vea también:"
 msgid ""
 "Getting started with Lubuntu and the LXQt desktop (which is used by "
 "OSGeoLive):"
-msgstr ""
+msgstr "Introducción a Lubuntu y al escritorio LXQt (que utiliza OSGeoLive):"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:54
 msgid "https://lubuntu.me/ and https://lxqt-project.org/"
-msgstr ""
+msgstr "https://lubuntu.me/ y https://lxqt-project.org/"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:56
 msgid "Getting started with the Ubuntu operating system:"

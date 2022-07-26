@@ -7,9 +7,9 @@
 # julien2512 <moquet.julien@gmail.com>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # MarieSilvestre, 2020
-# Nicolas Roelandt (Personnel), 2021
 # Harrissou Sant-anna, 2021
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2022
+# Nicolas Roelandt (Personnel), 2022
 # 
 #, fuzzy
 msgid ""
@@ -18,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
-"Last-Translator: Thomas Gratier <thomas_gratier@yahoo.fr>, 2022\n"
+"Last-Translator: Nicolas Roelandt (Personnel), 2022\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,7 +32,7 @@ msgstr "Sponsors OSGeoLive"
 
 #: ../../build/doc/sponsors.rstNone ../../build/doc/sponsors_osgeo.rstNone
 msgid "OSGeo"
-msgstr ""
+msgstr "OSGeo"
 
 #: ../../build/doc/sponsors.rst:9
 msgid ""
@@ -49,6 +49,8 @@ msgid ""
 "Information Center for the Environment at the University of California, "
 "Davis"
 msgstr ""
+"Centre d’information pour l’environnement de l’Université de Californie, "
+"Davis"
 
 #: ../../build/doc/sponsors.rst:17
 msgid ""
@@ -62,7 +64,7 @@ msgstr ""
 
 #: ../../build/doc/sponsors.rstNone
 msgid "National Technical University of Athens"
-msgstr ""
+msgstr "Université technique nationale d’Athènes"
 
 #: ../../build/doc/sponsors.rst:26
 msgid ""
@@ -76,7 +78,7 @@ msgstr ""
 
 #: ../../build/doc/sponsors.rstNone
 msgid "The DebianGIS and UbuntuGIS projects"
-msgstr ""
+msgstr "Les projets DebianGIS et UbuntuGIS"
 
 #: ../../build/doc/sponsors.rst:34
 msgid ""
@@ -88,7 +90,7 @@ msgstr ""
 
 #: ../../build/doc/sponsors.rstNone
 msgid "The Greek Academic cloud service"
-msgstr ""
+msgstr "Le service cloud académique grec"
 
 #: ../../build/doc/sponsors.rst:41
 msgid ""
@@ -107,7 +109,7 @@ msgstr ""
 
 #: ../../build/doc/sponsors.rstNone
 msgid "Geolocation Technology Company"
-msgstr ""
+msgstr "Société de technologie de géolocalisation"
 
 #: ../../build/doc/sponsors.rst:52
 msgid ""
@@ -681,15 +683,15 @@ msgstr "danielkastl"
 
 #: ../../build/contributors.csv:1
 msgid "Daniele Francioli"
-msgstr ""
+msgstr "Daniele Francioli"
 
 #: ../../build/contributors.csv:1
 msgid "daniele.francioli outlook com"
-msgstr ""
+msgstr "daniele.francioli outlook com"
 
 #: ../../build/contributors.csv:1
 msgid "danfra"
-msgstr ""
+msgstr "danfra"
 
 #: ../../build/contributors.csv:1
 msgid "Danilo Bretschneider"
@@ -1389,15 +1391,15 @@ msgstr "XJTUmg1007"
 
 #: ../../build/contributors.csv:1 ../../build/translators.csv:1
 msgid "Marco Minghini"
-msgstr ""
+msgstr "Marco Minghini"
 
 #: ../../build/contributors.csv:1 ../../build/translators.csv:1
 msgid "marco.minghini86 gmail com"
-msgstr ""
+msgstr "marco.minghini86 gmail com"
 
 #: ../../build/contributors.csv:1 ../../build/translators.csv:1
 msgid "MarcoMinghini"
-msgstr ""
+msgstr "MarcoMinghini"
 
 #: ../../build/contributors.csv:1 ../../build/translators.csv:1
 msgid "Margherita Di Leo"
@@ -2598,7 +2600,7 @@ msgstr "Roberta Fagandini"
 
 #: ../../build/translators.csv:1
 msgid "Antonio Rotundo"
-msgstr ""
+msgstr "Antonio Rotundo"
 
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1 ../../build/translators.csv:1
@@ -3069,16 +3071,16 @@ msgstr "alindeneanu"
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "Pas de logo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "Projet OSGeo"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "Communauté OSGeo"

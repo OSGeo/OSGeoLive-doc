@@ -59,7 +59,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/internationalisation_quickstart.rst:0
 msgid "login screen"
-msgstr ""
+msgstr "pantalla de inicio de sesión"
 
 #: ../../build/doc/quickstart/internationalisation_quickstart.rst:27
 msgid ""

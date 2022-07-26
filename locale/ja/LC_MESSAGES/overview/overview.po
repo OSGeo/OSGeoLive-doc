@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2022-07-13 22:52+0000\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
@@ -34,17 +34,6 @@ msgstr "記号"
 msgid "|osgeo_project| Is an OSGeo Project"
 msgstr "|osgeo_project| は OSGeo プロジェクト"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
 msgstr ""
@@ -53,11 +42,6 @@ msgstr ""
 msgid "|osgeo_community| Is an OSGeo Community Project"
 msgstr "|osgeo_community| は OSGeo コミュニティプロジェクト"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""
@@ -66,9 +50,7 @@ msgstr ""
 msgid "|vmdk| Included only on OSGeoLive VMDK version"
 msgstr "|vmdk| は OSGeoLive VMDK バージョンにのみ含まれるもの"
 
-#: ../../build/doc/<rst_epilog>:12 ../../build/doc/<rst_epilog>:12
-#: ../../build/doc/<rst_epilog>:12 ../../build/doc/<rst_epilog>:12
-#: ../../build/doc/<rst_epilog>:12 ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr ""
 
@@ -112,22 +94,7 @@ msgstr ""
 "|nologo| :doc:`openjump_overview` - [:doc:`クイックスタート "
 "<../quickstart/openjump_quickstart>`]"
 
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr ""
 
@@ -479,7 +446,7 @@ msgstr "空間ツール"
 msgid "Specific analysis tools"
 msgstr "特定解析ツール:"
 
-#: ../../build/doc/overview/overview.rst:259
+#: ../../build/doc/overview/overview.rst:261
 msgid ""
 "|OSGeo_project| :doc:`otb_overview` - [:doc:`Quickstart "
 "<../quickstart/otb_quickstart>`] - Image Processing"
@@ -487,7 +454,7 @@ msgstr ""
 "|OSGeo_project| :doc:`otb_overview` - [:doc:`クイックスタート "
 "<../quickstart/otb_quickstart>`] - 画像処理"
 
-#: ../../build/doc/overview/overview.rst:261
+#: ../../build/doc/overview/overview.rst:263
 msgid ""
 "|nologo| |vmdk| :doc:`gmt_overview` - [:doc:`Quickstart "
 "<../quickstart/gmt_quickstart>`] - Cartographic Rendering"
@@ -495,7 +462,7 @@ msgstr ""
 "|nologo| |vmdk| :doc:`gmt_overview` - [:doc:`クイックスタート "
 "<../quickstart/gmt_quickstart>`] - Cartographic Rendering"
 
-#: ../../build/doc/overview/overview.rst:263
+#: ../../build/doc/overview/overview.rst:265
 msgid ""
 "|nologo| :doc:`jupyter_overview` - [:doc:`Quickstart "
 "<../quickstart/jupyter_quickstart>`] - Mixing rich media in presentations"
@@ -503,7 +470,7 @@ msgstr ""
 "|nologo| :doc:`jupyter_overview` - [:doc:`クイックスタート "
 "<../quickstart/jupyter_quickstart>`] - プレゼンテーションにリッチメディアを混在させる"
 
-#: ../../build/doc/overview/overview.rst:265
+#: ../../build/doc/overview/overview.rst:267
 msgid ""
 "|nologo| :doc:`mapnik_overview` - [:doc:`Quickstart "
 "<../quickstart/mapnik_quickstart>`] - Cartographic Rendering"
@@ -511,7 +478,7 @@ msgstr ""
 "|nologo| :doc:`mapnik_overview` - [:doc:`クイックスタート "
 "<../quickstart/mapnik_quickstart>`] - 地図レンダリング"
 
-#: ../../build/doc/overview/overview.rst:267
+#: ../../build/doc/overview/overview.rst:269
 msgid ""
 "|nologo| :doc:`R_overview` - [:doc:`Quickstart "
 "<../quickstart/R_quickstart>`] - Statistical Programming"
@@ -520,14 +487,21 @@ msgstr ""
 "- 統計プログラミング"
 
 #: ../../build/doc/overview/overview.rst:271
+msgid ""
+"|nologo| |vmdk| :doc:`ETF_overview` - [:doc:`Quickstart "
+"<../quickstart/ETF_quickstart>`] - Testing framework for validating spatial "
+"data, metadata and web services in Spatial Data Infrastructures (SDIs)"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:275
 msgid "Domain Specific GIS"
 msgstr "特定用途向け GIS"
 
-#: ../../build/doc/overview/overview.rst:273
+#: ../../build/doc/overview/overview.rst:277
 msgid "Applications targeted at a specific domain"
 msgstr "特定の用途向けアプリケーション:"
 
-#: ../../build/doc/overview/overview.rst:281
+#: ../../build/doc/overview/overview.rst:285
 msgid ""
 "|nologo| :doc:`xygrib_overview` - [:doc:`Quickstart "
 "<../quickstart/xygrib_quickstart>`] - Weather Forecast Maps"
@@ -535,38 +509,38 @@ msgstr ""
 "|nologo| :doc:`xygrib_overview` - [:doc:`クイックスタート "
 "<../quickstart/xygrib_quickstart>`] - 気象予想図"
 
-#: ../../build/doc/overview/overview.rst:285
+#: ../../build/doc/overview/overview.rst:289
 msgid "Data"
 msgstr "データ"
 
-#: ../../build/doc/overview/overview.rst:287
+#: ../../build/doc/overview/overview.rst:291
 msgid "Spatial data sets"
 msgstr "空間データセット:"
 
-#: ../../build/doc/overview/overview.rst:297
+#: ../../build/doc/overview/overview.rst:301
 msgid "|nologo| :doc:`naturalearth_overview`  - Global Data Sets"
 msgstr "|nologo| :doc:`naturalearth_overview`  - 全球データセット"
 
-#: ../../build/doc/overview/overview.rst:299
+#: ../../build/doc/overview/overview.rst:303
 msgid "|nologo| :doc:`nc_dataset_overview`"
 msgstr "|nologo| :doc:`nc_dataset_overview`"
 
-#: ../../build/doc/overview/overview.rst:301
+#: ../../build/doc/overview/overview.rst:305
 msgid ""
 "|nologo| :doc:`netcdf_dataset_overview`  - Time series temperature and "
 "precipitation"
 msgstr "|nologo| :doc:`netcdf_dataset_overview`  - 時系列の気温と降水量"
 
-#: ../../build/doc/overview/overview.rst:303
+#: ../../build/doc/overview/overview.rst:307
 msgid ""
 "|nologo| :doc:`osm_dataset_overview`  - Sample extract from OpenStreetMap"
 msgstr "|nologo| :doc:`osm_dataset_overview`  - OpenStreetMap からのサンプル抽出"
 
-#: ../../build/doc/overview/overview.rst:307
+#: ../../build/doc/overview/overview.rst:311
 msgid "Geospatial Libraries"
 msgstr "地理空間ライブラリ"
 
-#: ../../build/doc/overview/overview.rst:322
+#: ../../build/doc/overview/overview.rst:326
 msgid ""
 "|OSGeo_project| :doc:`gdal_overview` - [:doc:`Quickstart "
 "<../quickstart/gdal_quickstart>`] - Geospatial Data Translation Tools"
@@ -574,15 +548,15 @@ msgstr ""
 "|OSGeo_project| :doc:`gdal_overview` - [:doc:`クイックスタート "
 "<../quickstart/gdal_quickstart>`] - 地理空間データ変換ツール"
 
-#: ../../build/doc/overview/overview.rst:324
+#: ../../build/doc/overview/overview.rst:328
 msgid "|OSGeo_project| :doc:`geos_overview`  - C/C++ Spatial Library"
 msgstr "|OSGeo_project| :doc:`geos_overview`  - C/C++ 空間ライブラリ"
 
-#: ../../build/doc/overview/overview.rst:326
+#: ../../build/doc/overview/overview.rst:330
 msgid "|OSGeo_project| :doc:`geotools_overview`  - Java GIS Toolkit"
 msgstr "|OSGeo_project| :doc:`geotools_overview`  - Java GIS ツールキット"
 
-#: ../../build/doc/overview/overview.rst:328
+#: ../../build/doc/overview/overview.rst:332
 msgid ""
 "|OSGeo_project| :doc:`proj_overview` - [:doc:`Quickstart "
 "<../quickstart/proj_quickstart>`] - Coordinate Reference System Libraries"
@@ -590,28 +564,28 @@ msgstr ""
 "|OSGeo_project| :doc:`proj_overview` - [:doc:`クイックスタート "
 "<../quickstart/proj_quickstart>`] - Coordinate Reference System Libraries"
 
-#: ../../build/doc/overview/overview.rst:330
+#: ../../build/doc/overview/overview.rst:334
 msgid "|nologo| :doc:`jts_overview`  - Java Topology Suite"
 msgstr "|nologo| :doc:`jts_overview`  - Java トポロジスイート"
 
-#: ../../build/doc/overview/overview.rst:334
+#: ../../build/doc/overview/overview.rst:338
 msgid "Geospatial Standards"
 msgstr "地理空間標準"
 
-#: ../../build/doc/overview/overview.rst:344
+#: ../../build/doc/overview/overview.rst:348
 msgid "|nologo| :doc:`ogc_overview`  - Open Geospatial Consortium"
 msgstr "|nologo| :doc:`ogc_overview`  - Open Geospatial Consortium"
 
-#: ../../build/doc/overview/overview.rst:346
+#: ../../build/doc/overview/overview.rst:350
 msgid ""
 "|nologo| :doc:`inspire_overview`  - Infrastructure for Spatial Information "
 "in Europe"
 msgstr "|nologo| :doc:`inspire_overview`  - ヨーロッパにおける空間情報インフラストラクチャ"
 
-#: ../../build/doc/overview/overview.rst:350
+#: ../../build/doc/overview/overview.rst:354
 msgid "Available in prior OSGeoLive releases"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:362
+#: ../../build/doc/overview/overview.rst:366
 msgid ":doc:`../prior_applications`"
 msgstr ":doc:`../prior_applications`"

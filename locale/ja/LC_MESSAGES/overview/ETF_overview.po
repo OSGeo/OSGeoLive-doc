@@ -1,0 +1,263 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2022, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# MarPetra <mvergaratrejo@gmail.com>, 2022
+# Ko Nagase <nagase@georepublic.co.jp>, 2022
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-19 19:41+0000\n"
+"PO-Revision-Date: 2022-07-20 18:59+0000\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2022\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/overview/ETF_overview.rst:17
+msgid "ETF"
+msgstr ""
+
+#: ../../build/doc/overview/ETF_overview.rst:20
+msgid ""
+"ETF is an open source testing framework for validating data and APIs in "
+"Spatial Data Infrastructures (SDIs). It is used by software solutions and "
+"data providers to validate the conformity of geospatial data sets, metadata "
+"and APIs."
+msgstr ""
+
+#: ../../build/doc/overview/ETF_overview.rst:26
+msgid "About"
+msgstr "About"
+
+#: ../../build/doc/overview/ETF_overview.rst:28
+msgid ""
+"Goals in designing the ETF software were to create test reports that are "
+"user-friendly and self-explanatory as well as to be able to validate large "
+"amounts of data, which can be several hundred GB in size. In order to cover "
+"different validation tasks and present them in a unified report, the "
+"architecture is modular and different test engines can be used. Currently "
+"the following test engines are supported: SoapUI for testing web services, "
+"BaseX database for testing XML data, TEAM Engine to validate WFS and OGC Web"
+" APIs using the OGC CITE tests, NeoTL Engine for testing WFS, OGC Web APIs "
+"and datasets."
+msgstr ""
+
+#: ../../build/doc/overview/ETF_overview.rst:39
+msgid ""
+"ETF is the underlying framework used by the INSPIRE Reference Validator to "
+"validate metadata, datasets and services against the INSPIRE requirements. "
+"ETF is also used extensively in Germany by the Surveying Authorities of the "
+"Laender to validate their datasets. Other European Union (EU) Member States "
+"are also reusing the ETF to allow their data providers to test resources "
+"against national requirements. Finally, some software tools include "
+"validation based on the ETF API in their workflow."
+msgstr ""
+
+#: ../../build/doc/overview/ETF_overview.rst-1
+msgid "ETF screenshot"
+msgstr ""
+
+#: ../../build/doc/overview/ETF_overview.rst:55
+msgid "Core Features"
+msgstr "主な機能"
+
+#: ../../build/doc/overview/ETF_overview.rst:61
+msgid "Testable resources"
+msgstr ""
+
+#: ../../build/doc/overview/ETF_overview.rst:57
+msgid "datasets (up to multiple hundreds GB): GML"
+msgstr ""
+
+#: ../../build/doc/overview/ETF_overview.rst:58
+msgid "metadata: XML"
+msgstr ""
+
+#: ../../build/doc/overview/ETF_overview.rst:59
+msgid "view services: WMS/WMTS"
+msgstr ""
+
+#: ../../build/doc/overview/ETF_overview.rst:60
+msgid "download services: Atom, WFS, WCS, SOS"
+msgstr ""
+
+#: ../../build/doc/overview/ETF_overview.rst:61
+msgid "catalogue services: CSW"
+msgstr ""
+
+#: ../../build/doc/overview/ETF_overview.rst:67
+msgid "Access"
+msgstr ""
+
+#: ../../build/doc/overview/ETF_overview.rst:64
+msgid "web-based user interface"
+msgstr ""
+
+#: ../../build/doc/overview/ETF_overview.rst:65
+msgid "REST API"
+msgstr ""
+
+#: ../../build/doc/overview/ETF_overview.rst:66
+msgid "OpenAPI Specification"
+msgstr ""
+
+#: ../../build/doc/overview/ETF_overview.rst:67
+msgid "Java client library"
+msgstr ""
+
+#: ../../build/doc/overview/ETF_overview.rst:73
+msgid "Supported test engines"
+msgstr ""
+
+#: ../../build/doc/overview/ETF_overview.rst:70
+msgid "SoapUI for testing web services"
+msgstr ""
+
+#: ../../build/doc/overview/ETF_overview.rst:71
+msgid "BaseX for testing sets of XML documents"
+msgstr ""
+
+#: ../../build/doc/overview/ETF_overview.rst:72
+msgid "TEAM Engine to support CITE tests developed using TestNG"
+msgstr ""
+
+#: ../../build/doc/overview/ETF_overview.rst:73
+msgid "NeoTL for testing OGC WFS and OGC APIs (in development)"
+msgstr ""
+
+#: ../../build/doc/overview/ETF_overview.rst:77
+msgid "Test reports"
+msgstr ""
+
+#: ../../build/doc/overview/ETF_overview.rst:76
+msgid "user-friendly and self-explanatory"
+msgstr ""
+
+#: ../../build/doc/overview/ETF_overview.rst:77
+msgid "downloadable in HTML, XML and JSON"
+msgstr ""
+
+#: ../../build/doc/overview/ETF_overview.rst:90
+msgid "Implemented Standards"
+msgstr "実装されている標準規格"
+
+#: ../../build/doc/overview/ETF_overview.rst:80
+msgid "|CSW|"
+msgstr "|CSW|"
+
+#: ../../build/doc/overview/ETF_overview.rst:81
+msgid "ISO 19105"
+msgstr ""
+
+#: ../../build/doc/overview/ETF_overview.rst:82
+msgid "|SOS|"
+msgstr "|SOS|"
+
+#: ../../build/doc/overview/ETF_overview.rst:83
+msgid "|WFS|"
+msgstr "|WFS|"
+
+#: ../../build/doc/overview/ETF_overview.rst:84
+msgid "|WMTS|"
+msgstr "|WMTS|"
+
+#: ../../build/doc/overview/ETF_overview.rst:85
+msgid "|GML|"
+msgstr "|GML|"
+
+#: ../../build/doc/overview/ETF_overview.rst:86
+msgid "OGC API - Features"
+msgstr ""
+
+#: ../../build/doc/overview/ETF_overview.rst:87
+msgid "|WCS|"
+msgstr "|WCS|"
+
+#: ../../build/doc/overview/ETF_overview.rst:88
+msgid "|WMS|"
+msgstr "|WMS|"
+
+#: ../../build/doc/overview/ETF_overview.rst:93
+msgid "Details"
+msgstr "詳細"
+
+#: ../../build/doc/overview/ETF_overview.rst:95
+msgid "**Website:** https://github.com/etf-validator"
+msgstr ""
+
+#: ../../build/doc/overview/ETF_overview.rst:97
+msgid "**Licence:** EUPL 1.2"
+msgstr ""
+
+#: ../../build/doc/overview/ETF_overview.rst:99
+msgid "**Software Version:** |version-ETF|"
+msgstr ""
+
+#: ../../build/doc/overview/ETF_overview.rst:101
+msgid "**Supported Platforms:** Windows, Linux"
+msgstr "**対応プラットフォーム:** Windows, Linux"
+
+#: ../../build/doc/overview/ETF_overview.rst:103
+msgid ""
+"**API Interfaces:** REST API, OpenAPI Specification, Java client library"
+msgstr ""
+
+#: ../../build/doc/overview/ETF_overview.rst:105
+msgid "**Support:** https://github.com/etf-validator/etf-webapp/issues"
+msgstr ""
+
+#: ../../build/doc/overview/ETF_overview.rst:107
+msgid ""
+"**User manual:** https://docs.etf-"
+"validator.net/v2.0/User_manuals/Simplified_workflows.html"
+msgstr ""
+
+#: ../../build/doc/overview/ETF_overview.rst:109
+msgid ""
+"**Administrator manual:** https://docs.etf-"
+"validator.net/v2.0/index.html#_administrator_manuals"
+msgstr ""
+
+#: ../../build/doc/overview/ETF_overview.rst:111
+msgid ""
+"**Developer manual:** https://docs.etf-"
+"validator.net/v2.0/index.html#_developer_manuals"
+msgstr ""
+
+#: ../../build/doc/overview/ETF_overview.rst:114
+msgid ""
+"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgstr "このプロジェクトはOSGeoLive仮想マシンディスク(VMDK)にのみ含まれています"
+
+#: ../../build/doc/overview/ETF_overview.rst:117
+msgid "Quickstart"
+msgstr "クイックスタート"
+
+#: ../../build/doc/overview/ETF_overview.rst:119
+msgid ":doc:`Quickstart documentation <../quickstart/ETF_quickstart>`"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:13
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:16
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,9 +11,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2022-07-13 22:52+0000\n"
 "PO-Revision-Date: 2018-07-27 22:51+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2021\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
@@ -101,7 +101,7 @@ msgstr ""
 "Ermitteln der Daten), View-Services (um auf die Daten zuzugreifen) und "
 "Download-Dienste (zum Herunterladen der Daten);"
 
-#: ../../build/doc/overview/inspire_overview.rst:25
+#: ../../build/doc/overview/inspire_overview.rst:27
 msgid ""
 "harmonise their spatial datasets in accordance with `common data models "
 "<https://inspire.ec.europa.eu/Data-Models/Data-Specifications/2892>`__ "
@@ -111,11 +111,11 @@ msgstr ""
 "definierten `Daten-Modell <https://inspire.ec.europa.eu/Data-Models/Data-"
 "Specifications/2892>`__."
 
-#: ../../build/doc/overview/inspire_overview.rstNone
+#: ../../build/doc/overview/inspire_overview.rst-1
 msgid "inspire screenshot"
 msgstr ""
 
-#: ../../build/doc/overview/inspire_overview.rst:33
+#: ../../build/doc/overview/inspire_overview.rst:37
 msgid ""
 "Currently, more than 7,000 European public institutions contribute their "
 "data to INSPIRE. A significant share of them make use of OSGeo software "
@@ -139,19 +139,15 @@ msgstr ""
 "Aspekte gibt. Außerdem finden sich hier ausgewählte Anwendungsfälle und ein "
 "Überblick von OSGeo-Werkzeugen, die sich für die Umsetzung anbieten."
 
-#: ../../build/doc/overview/inspire_overview.rst:36
+#: ../../build/doc/overview/inspire_overview.rst:40
 msgid ""
-"The `Joint Research Centre (JRC) of the European Commission "
-"<https://ec.europa.eu/jrc/en>`__ develops and maintains a number of central "
-"software components, which help Member States in the INSPIRE implementation "
-"process:"
+"The `Joint Research Centre (JRC) of the European Commission <https://joint-"
+"research-centre.ec.europa.eu/index_en>`__ develops and maintains a number of"
+" central software components, which help Member States in the INSPIRE "
+"implementation process:"
 msgstr ""
-"Das `Joint Research Centre (JRC) of the European Commission "
-"<https://ec.europa.eu/jrc/en>`__ entwickelt und unterhält einige zentrale "
-"Software Komponenten, die den Mitgliedsstaaten beim INSPIRE-"
-"Implementationprozess helfen:"
 
-#: ../../build/doc/overview/inspire_overview.rst:38
+#: ../../build/doc/overview/inspire_overview.rst:45
 msgid ""
 "the `INSPIRE Registry <https://inspire.ec.europa.eu/registry>`__, based on "
 "the open source :doc:`Re3gistry <re3gistry_overview>` software, manages the "
@@ -163,7 +159,7 @@ msgstr ""
 "verwaltet die Unique Identifiers und Beschreibung der INSPIRE-Quellen wie "
 "Themen, Code-Listen und Anwendungs-Schemata;"
 
-#: ../../build/doc/overview/inspire_overview.rst:39
+#: ../../build/doc/overview/inspire_overview.rst:49
 msgid ""
 "the `INSPIRE Reference Validator "
 "<https://inspire.ec.europa.eu/validator/about/>`__, based on the open source"
@@ -176,7 +172,7 @@ msgstr ""
 "zu testen, ob Metadaten, Datasets und Dienste den INSPIRE-Anforderungen "
 "entsprechen; "
 
-#: ../../build/doc/overview/inspire_overview.rst:40
+#: ../../build/doc/overview/inspire_overview.rst:53
 msgid ""
 "the `INSPIRE Geoportal <https://inspire-geoportal.ec.europa.eu/>`__ allows "
 "to discover, access and download all the datasets made available by Member "
@@ -186,19 +182,19 @@ msgstr ""
 "ermöglicht das Entdecken, den Zugriff und den Download aller Datensätze, die"
 " über die Mitgliedsstaaten über INSPIRE bereitgestellt wurden."
 
-#: ../../build/doc/overview/inspire_overview.rst:48
+#: ../../build/doc/overview/inspire_overview.rst:60
 msgid "Details"
 msgstr "Details"
 
-#: ../../build/doc/overview/inspire_overview.rst:50
+#: ../../build/doc/overview/inspire_overview.rst:62
 msgid "**Website:** https://inspire.ec.europa.eu/about-inspire/563"
 msgstr "**Webseite:** https://inspire.ec.europa.eu/about-inspire/563"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr ""
 
@@ -206,6 +202,6 @@ msgstr ""
 msgid "OSGeo Project"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""

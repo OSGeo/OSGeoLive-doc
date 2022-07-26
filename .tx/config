@@ -674,7 +674,12 @@ file_filter = locale/<lang>/LC_MESSAGES/overview/ETF_overview.po
 source_file = locale/pot/overview/ETF_overview.pot
 source_lang = en
 
-[o:osgeo:p:osgeolive:r:overview--ETF_quickstart]
-file_filter = locale/<lang>/LC_MESSAGES/overview/ETF_quickstart.po
-source_file = locale/pot/overview/ETF_quickstart.pot
+[o:osgeo:p:osgeolive:r:quickstart--ETF_quickstart]
+file_filter = locale/<lang>/LC_MESSAGES/quickstart/ETF_quickstart.po
+source_file = locale/pot/quickstart/ETF_quickstart.pot
+source_lang = en
+
+[o:osgeo:p:osgeolive:r:presentation]
+file_filter = locale/<lang>/LC_MESSAGES/presentation.po
+source_file = locale/pot/presentation.pot
 source_lang = en

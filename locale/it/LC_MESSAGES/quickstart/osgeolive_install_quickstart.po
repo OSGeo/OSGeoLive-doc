@@ -1,0 +1,167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Luca Delucchi <lucadeluge@gmail.com>, 2017
+# Valerio Pinna <pinnavalerio@yahoo.co.uk>, 2021
+# Simone Falceri, 2022
+# Stefano Campus <skampus@gmail.com>, 2022
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"PO-Revision-Date: 2017-09-20 16:06+0000\n"
+"Last-Translator: Stefano Campus <skampus@gmail.com>, 2022\n"
+"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:8
+msgid "Install OSGeoLive to Hard Disk"
+msgstr "Installa OSGeoLive nel disco rigido"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:10
+msgid ""
+"OSGeoLive can be installed onto your hard disk, the same way an Ubuntu "
+"distribution is installed."
+msgstr ""
+"OSGeoLive può essere installato sul disco rigido, nello stesso modo in cui "
+"si installa una distribuzione Ubuntu."
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:13
+msgid ""
+"This process can also be run inside a Virtual Machine to create a permanent "
+"OSGeoLive Virtual Machine from a DVD or ISO image."
+msgstr ""
+"Questo processo può anche essere eseguito all'interno di una macchina "
+"virtuale per creare una macchina virtuale OSGeoLive permanente da un DVD o "
+"un'immagine ISO."
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:17
+msgid "System Requirements"
+msgstr "Requisiti di Sistema"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:19
+msgid "|osgeolive-hdspace| of spare Hard Disk Space"
+msgstr "|osgeolive-hdspace| Spazio Hard Disk di riserva"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:22
+msgid "Install OSGeoLive"
+msgstr "Installa OSGeoLive"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:27
+msgid "Select :guilabel:`Install RELEASE`"
+msgstr "Selezionare :guilabel:`Install RELEASE`"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:32
+msgid "Enter password=\"user\""
+msgstr "Inserire password=\"user\""
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:37
+msgid "Select language"
+msgstr "Selezionare il linguaggio"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:42
+msgid "Select timezone"
+msgstr "Selezionare il fuso orario"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:47
+msgid "Select keyboard"
+msgstr "Selezionare la tastiera"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:52
+msgid ""
+"Specify which disk to want to install on. (Beware, this may delete an "
+"existing installed partition)."
+msgstr ""
+"Specifica su quale disco si vuole installare. (Attenzione, questo potrebbe "
+"cancellare una partizione già installata)."
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:58
+msgid "Defaults for settings are:"
+msgstr "Le impostazioni di base sono:"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:60
+msgid "Name = \"user\""
+msgstr "Nome = \"user\""
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:61
+msgid "username = \"user\""
+msgstr "nome utente = \"user\""
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:62
+msgid "password = \"user\""
+msgstr "password = \"user\""
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:63
+msgid "computer name = \"osgeolive\""
+msgstr "nome del computer = \"osgeolive\""
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:64
+msgid "Log In automatically"
+msgstr "Accesso automatico"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:69
+msgid "Select :guilabel:`Install`"
+msgstr "Selezionare :guilabel:`Install`"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:71
+msgid "Go and get a cup of coffee while installation is in progress."
+msgstr ""
+"Avviare e andare a prendere un tazza di caffè mentre l’installazione è in "
+"avanzamento."
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:73
+msgid "That is it."
+msgstr "Questo è tutto"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:75
+msgid ""
+"Installation Tips In case you are installing using a username other than "
+"\"user\", tomcat applications require to have permission to service command "
+"as described in https://trac.osgeo.org/osgeo/ticket/1153"
+msgstr ""
+"Suggerimenti per l'installazione: Nel caso in cui si stia installando usando"
+" un nome utente diverso da \"utente\", le applicazioni tomcat richiedono di "
+"avere il permesso di eseguire il comando service come descritto in "
+"https://trac.osgeo.org/osgeo/ticket/1153"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:80
+msgid "See Also:"
+msgstr "Vedere anche:"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:82
+msgid ":doc:`osgeolive_quickstart`"
+msgstr ":doc:`osgeolive_quickstart`"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:83
+msgid ":doc:`virtualization_quickstart`"
+msgstr ":doc:`virtualization_quickstart`"
+
+#: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:84
+msgid ":doc:`usb_quickstart`"
+msgstr ":doc:`usb_quickstart`"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr "vmdk"
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr "nologo"
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr "Progetto OSGeo"
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr "Comunità OSGeo"
