@@ -317,8 +317,8 @@ rst_epilog="""
                         :align: middle
                         :height: 18
                         :target: https://localhost/osgeolive/sponsors_osgeo.html
-.. |CAT| replace:: `Catalogue Service for the web <https://www.ogc.org/standards/cat>`__
-.. |CSW| replace:: `Catalogue Service for the web <https://www.ogc.org/standards/cat>`__
+.. |CAT| replace:: `Catalogue Service <https://www.ogc.org/standards/cat>`__
+.. |CSW| replace:: `Catalogue Service for the Web (CSW) <https://www.ogc.org/standards/cat>`__
 .. |GML| replace:: `Geography Markup Language (GML) <https://www.ogc.org/standards/gml>`__
 .. |FE| replace:: `Filter Encoding (FE) <https://www.ogc.org/standards/filter>`__
 .. |KML| replace:: `KML <https://www.ogc.org/standards/kml>`__
@@ -332,7 +332,7 @@ rst_epilog="""
 .. |WCS| replace:: `Web Coverage Service (WCS) <https://www.ogc.org/standards/wcs>`__
 .. |WMC| replace:: `Web Map Context (WMC) <https://www.ogc.org/standards/wmc>`__
 .. |WMS| replace:: `Web Map Service (WMS) <https://www.ogc.org/standards/wms>`__
-.. |WMTS| replace:: `OpenGIS Web Map Tile ServiceW (WMTS) <https://www.ogc.org/standards/wmts>`__
+.. |WMTS| replace:: `OpenGIS Web Map Tile Service (WMTS) <https://www.ogc.org/standards/wmts>`__
 .. |WFS| replace:: `Web Feature Service (WFS) <https://www.ogc.org/standards/wfs>`__
 .. |WPS| replace:: `Web Processing Service (WPS) <https://www.ogc.org/standards/wps>`__
 .. |OGC| replace:: `Open Geospatial Consortium (OGC) <https://www.ogc.org>`__

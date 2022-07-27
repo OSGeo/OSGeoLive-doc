@@ -30,7 +30,7 @@ Y | leaflet | 1.6.0 | Y | Y | Browser Facing GIS | | Mobile Friendly Interactive
 #   Web Services | | | | | | | | | | | |
 ###################### | | | | | | | | | | ||
 #   OSGeo Projects | | | | | | | | | | | |
-Y | deegree | 3.4.1 | Y | Y | Web Services | | OGC Web Services | deegree3 | http://www.deegree.org | OSGeo_project | deegree | Y
+Y | deegree | 3.4.32 | Y | Y | Web Services | | OGC Web Services | deegree3 | http://www.deegree.org | OSGeo_project | deegree | Y
 Y | geonetwork | 3.2.1 | Y | Y | Web Services | | Metadata Catalogue | geonetwork-opensource | https://geonetwork-opensource.org | OSGeo_project | GeoNetwork | Y
 Y | geoserver | 2.21 | Y | Y | Web Services | | OGC Web Services | geoserver | https://geoserver.org/ | OSGeo_project | GeoServer | Y
 Y | mapcache | 1.10.0 | Y | Y | Web Services | | OGC Web Services | mapcache | https://mapserver.org/mapcache | OSGeo_project | MapCache | Y

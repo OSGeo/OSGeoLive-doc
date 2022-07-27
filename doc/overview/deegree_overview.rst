@@ -51,7 +51,7 @@ Core Features
 **WMS**
 
 * Implements WMS standards 1.1.1 and 1.3.0
-* Official OGC reference implementation for WMS 1.1.1 and WMS 1.1.1
+* Official OGC reference implementation for WMS 1.1.1 and WMS 1.3.0
 * Extensive support for styling languages SLD/SE versions 1.0.0 and 1.1.0
 * High performance and excellent scalability
 * High quality rendering
