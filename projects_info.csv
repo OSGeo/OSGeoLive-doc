@@ -51,6 +51,7 @@ Y | re3gistry | 2.0.0 | Y | Y | Web Services | | Management of reference codes |
 Y | t-rex | 0.13.0 | Y | Y | Web Services | | Vector Tile Service | t-rex | https://t-rex.tileserver.ch/ | | t-rex | Y
 Y | 52nSOS | 5.5.1 | Y | Y | Web Services | | Sensor Observation Service | SensorObservationService | https://52north.org/software/software-projects/sos | | 52 North SOS | Y
 Y | 52nWPS | 3.6.3 | Y | Y | Web Services | | Web Processing Service | n52-wps | https://52north.org/software/software-projects/wps | | 52 North WPS | Y
+Y | ETF | 2.0.0 | Y | Y | Web Services | | Testing framework for validating spatial data, metadata and web services in Spatial Data Infrastructures (SDIs) | etf-validator | https://github.com/etf-validator| | ETF | N
 ###################### | | | | | | | | | | | |
 # Data Stores | | | | | | | | | | | |
 ###################### | | | | | | | | | | ||
@@ -85,7 +86,6 @@ Y | gmt | 5.4.5 | Y | Y | Spatial Tools | 11 | Cartographic Rendering | GMT | ht
 Y | jupyter | 4.6.3 | Y | Y | Spatial Tools | | Mixing rich media in presentations | jupyter_notebook | https://jupyter.org/ | | Jupyter Notebook | Y
 Y | mapnik | 3.0.22 | Y | Y | Spatial Tools | | Cartographic Rendering | mapnik | https://mapnik.org/ | | Mapnik | Y
 Y | R | 3.4.4 | Y | Y | Spatial Tools | | Statistical Programming | R_project | https://cran.r-project.org | | R | Y
-Y | ETF | 2.0.0 | Y | Y | Spatial Tools | | Testing framework for validating spatial data, metadata and web services in Spatial Data Infrastructures (SDIs) | etf-validator | https://github.com/etf-validator| | ETF | N
 ###################### | | | | | | | | | | | |
 #   Domain Specific GIS | | | | | | | | | | | |
 ###################### | | | | | | | | | | | |
