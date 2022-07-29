@@ -6,6 +6,7 @@
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2022
 # MarPetra <mvergaratrejo@gmail.com>, 2022
+# Jose Vergara, 2022
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-19 14:37+0000\n"
 "PO-Revision-Date: 2022-07-20 18:57+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2022\n"
+"Last-Translator: Jose Vergara, 2022\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +25,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:19
 msgid "ETF Quickstart"
-msgstr ""
+msgstr "Inicio rápido de ETF"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:21
 msgid ""
@@ -40,6 +41,11 @@ msgid ""
 " of ETF is driven by three goals: be user-friendly, consistent with the "
 "standards and capable of testing all resources in an SDI."
 msgstr ""
+"ETF es un marco de pruebas de código abierto para validar datos espaciales, "
+"metadatos y servicios web en infraestructuras de datos espaciales (SDI). El "
+"diseño de ETF está impulsado por tres objetivos: ser fácil de usar, "
+"consistente con los estándares y capaz de probar todos los recursos en un "
+"SDI."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:28
 msgid "This Quick Start describes how to:"
@@ -47,19 +53,19 @@ msgstr "Esta Guía de Inicio Rápido describe como:"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:30
 msgid "navigate through the web application"
-msgstr ""
+msgstr "Navegar por la aplicación Web"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:31
 msgid "start a test"
-msgstr ""
+msgstr "Iniciar una prueba"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:32
 msgid "monitor a test run"
-msgstr ""
+msgstr "supervisar una ejecución de prueba"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:33
 msgid "watch and manage test reports"
-msgstr ""
+msgstr "ver y administrar informes de pruebas"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:36
 msgid "Contents"
@@ -67,7 +73,7 @@ msgstr "Contenidos"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:39
 msgid "Introduction"
-msgstr ""
+msgstr "Introducción"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:41
 msgid ""
@@ -75,12 +81,17 @@ msgid ""
 "will take a few moments to start up and will open a web page at "
 "http://localhost:9090/ETF"
 msgstr ""
+"En el menú Inicio, seleccione |osgeolive-appmenupath-ETF|. La aplicación "
+"tardará unos minutos en ponerse en marcha y abrirá una página web en "
+"http://localhost:9090/ETF"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:45
 msgid ""
 "In the header, there is a menu with 4 options, each representing different "
 "views and functionalities:"
 msgstr ""
+"En el encabezado, hay un menú con 4 opciones, cada una representando "
+"diferentes vistas y funcionalidades:"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:50
 msgid ""
@@ -88,6 +99,10 @@ msgid ""
 "Executable Test Suites are listed. Within this section, an Executable Test "
 "Suite can be selected and run against a Test Object."
 msgstr ""
+"El primero es start test. En esta sección se enumeran todos los conjuntos de"
+" pruebas ejecutables disponibles (es decir, instalados). Dentro de esta "
+"sección, se puede seleccionar un conjunto de pruebas ejecutables y "
+"ejecutarlo en un objeto de prueba."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:54
 msgid ""
@@ -96,83 +111,111 @@ msgid ""
 "runs to check the status of any running test. Moreover, the components "
 "currently loaded are shown below the running tests."
 msgstr ""
+"El segundo es Status. Este muestra todas las pruebas que se están ejecutando"
+" actualmente en el sistema y permite abrir una vista de monitor para "
+"ejecuciones de pruebas individuales para verificar el estado de cualquier "
+"prueba en ejecución. Además, los componentes cargados actualmente se "
+"muestran debajo de las pruebas en ejecución."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:59
 msgid ""
 "The third one is Test reports. In this one the results of any completed test"
 " can be checked, analysed in detail or downloaded."
 msgstr ""
+"El tercero son los informes de prueba. En este se pueden comprobar, analizar"
+" en detalle o descargar los resultados de cualquier prueba completada."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:62
 msgid ""
 "The fourth one is Help. This one is a link to the documentation. Inside it, "
 "there are guides on how to use all functionalities of ETF."
 msgstr ""
+"El cuarto es Ayuda. Este es un enlace a la documentación. Dentro de él, hay "
+"guías sobre cómo usar todas las funcionalidades de ETF."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:68
 msgid "Start test"
-msgstr ""
+msgstr "Iniciar prueba"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:70
 msgid "Test Suite Selection"
-msgstr ""
+msgstr "Selección del conjunto de pruebas"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:71
 msgid "The landing view shows the available Executable Test Suites."
 msgstr ""
+"La vista de aterrizaje muestra los conjuntos de pruebas ejecutables "
+"disponibles."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:77
 msgid ""
 "Additional information about a Test Suite can be accessed by clicking on the"
 " plus button."
 msgstr ""
+"Se puede acceder a información adicional sobre un Test Suite haciendo clic "
+"en el botón más."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:82
 msgid "This information:"
-msgstr ""
+msgstr "Esta información:"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:84
 msgid "Includes a description of the Test Suite."
-msgstr ""
+msgstr "Incluye una descripción del Conjunto de pruebas."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:85
 msgid ""
 "May include a link to the Abstract Test Suite from which the Executable Test"
 " Suite has been derived (Source)."
 msgstr ""
+"Puede incluir un enlace al conjunto de pruebas abstractas del que se ha "
+"derivado el conjunto de pruebas ejecutables (Fuente)."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:87
 msgid ""
 "May include the Test Suite dependencies, which are automatically executed "
 "with the Test Suite in a Test Run (Pre-requisite conformance classes)."
 msgstr ""
+"Puede incluir las dependencias del conjunto de pruebas, que se ejecutan "
+"automáticamente con el conjunto de pruebas en una ejecución de pruebas "
+"(clases de conformidad de requisitos previos)."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:89
 msgid ""
 "May include the name of associated Tags which are used to group the Test "
 "Suites in the view."
 msgstr ""
+"Puede incluir el nombre de las etiquetas asociadas que se utilizan para "
+"agrupar los conjuntos de pruebas en la vista."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:91
 msgid ""
 "The name of applicable Test Object Types (explained in the next section)."
 msgstr ""
+"El nombre de los tipos de objetos de prueba aplicables (que se explica en la"
+" siguiente sección)."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:92
 msgid ""
 "Includes general information like the version, author and last editor, "
 "creation and change dates."
 msgstr ""
+"Incluye información general como la versión, el autor y el último editor, "
+"las fechas de creación y cambio."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:96
 msgid ""
 "To start a Test Run, a Test Suite must be selected with a click on the use "
 "flip switch on the right-hand side."
 msgstr ""
+"Para iniciar una ejecución de prueba, se debe seleccionar un conjunto de "
+"pruebas con un clic en el interruptor de usar flip en el lado derecho."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:101
 msgid "A Start button appears once at least one Test Suite is selected."
 msgstr ""
+"Aparece un botón Inicio una vez que se selecciona al menos un conjunto de "
+"pruebas."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:103
 msgid ""
@@ -182,6 +225,12 @@ msgid ""
 "Suite is selected, the flip switch of all other Test Suites having different"
 " Test Object Types is disabled."
 msgstr ""
+"Un conjunto de pruebas solo se aplica a ciertos tipos de objetos de prueba, "
+"que se enumeran en la descripción. Se pueden seleccionar varios conjuntos de"
+" pruebas para una ejecución de prueba, pero deben ser aplicables al mismo "
+"tipo de objeto de prueba. Una vez que se selecciona un conjunto de pruebas, "
+"se deshabilita el interruptor de todos los demás conjuntos de pruebas que "
+"tienen diferentes tipos de objetos de prueba."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:111
 msgid ""
@@ -189,16 +238,22 @@ msgid ""
 "shown in the description of the Test Suites.  These dependencies are also "
 "automatically executed during the test run."
 msgstr ""
+"Un conjunto de pruebas puede depender de otros conjuntos de pruebas. Las "
+"dependencias también se muestran en la descripción de los conjuntos de "
+"pruebas.  Estas dependencias también se ejecutan automáticamente durante la "
+"ejecución de la prueba."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:115
 msgid ""
 "A click on the Start button will open a new view that asks the user about "
 "the target resource to be tested."
 msgstr ""
+"Un clic en el botón de Inicio abrirá una nueva vista que pregunta al usuario"
+" sobre el recurso de destino que se va a probar."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:121
 msgid "Test Run configuration"
-msgstr ""
+msgstr "Configuración de ejecución de prueba"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:125
 msgid ""
@@ -207,20 +262,29 @@ msgid ""
 "reports overview and can be changed in order to help find the report again "
 "after a test run."
 msgstr ""
+"El campo Etiqueta es obligatorio y se preestablece automáticamente con la "
+"hora actual y los nombres de los conjuntos de pruebas seleccionados. La "
+"etiqueta se mostrará en la descripción general de los informes de prueba y "
+"se puede cambiar para ayudar a encontrar el informe nuevamente después de "
+"una ejecución de prueba."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:130
 msgid "The style of the view may depend on the selected Test Suites."
 msgstr ""
+"El estilo de la vista puede depender de los conjuntos de pruebas "
+"seleccionados."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:133
 msgid "File-based Tests"
-msgstr ""
+msgstr "Pruebas basadas en archivos"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:134
 msgid ""
 "The following elements are shown when Test Suites have been selected that "
 "test one or multiple test data files."
 msgstr ""
+"Los siguientes elementos se muestran cuando se han seleccionado conjuntos de"
+" pruebas que prueban uno o varios archivos de datos de prueba."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:137
 msgid ""
@@ -228,18 +292,26 @@ msgid ""
 "be selected and uploaded to the ETF. The ETF only accepts files with XML and"
 " GML file ending and ZIP files containing these two file types."
 msgstr ""
+"Si se selecciona Carga de archivos como origen de datos, se pueden "
+"seleccionar uno o varios archivos locales y cargarlos en el ETF. El ETF solo"
+" acepta archivos con terminación de archivo XML y GML y archivos ZIP que "
+"contengan estos dos tipos de archivo."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:141
 msgid ""
 "Other files, like schema definition files, cannot be used and are silently "
 "ignored by the ETF!"
 msgstr ""
+"¡Otros archivos, como los archivos de definición de esquema, no se pueden "
+"usar y el ETF los ignora silenciosamente!"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:146
 msgid ""
 "The maximum uploadable file size is displayed when the mouse is moved over "
 "the question mark."
 msgstr ""
+"El tamaño máximo del archivo cargable se muestra cuando se mueve el ratón "
+"sobre el signo de interrogación."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:149
 msgid ""
@@ -247,44 +319,59 @@ msgid ""
 "single URL. After Remote file (URL) has been selected as Data source, an URL"
 " to either one single XML, GML or a ZIP file can be entered."
 msgstr ""
+"Si los datos están disponibles en la web, se pueden probar proporcionando "
+"una sola URL. Después de seleccionar el archivo remoto (URL) como origen de "
+"datos, se puede introducir una dirección URL a un único archivo XML, GML o "
+"ZIP."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:156
 msgid ""
 "If the URL requires authentication, username and password can be provided by"
 " clicking on Credentials."
 msgstr ""
+"Si la URL requiere autenticación, se puede proporcionar el nombre de usuario"
+" y la contraseña haciendo clic en Credenciales."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:164
 msgid "Service Tests"
-msgstr ""
+msgstr "Pruebas de servicio"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:166
 msgid ""
 "The following elements are shown when Test Suites have been selected that "
 "test one service."
 msgstr ""
+"Los siguientes elementos se muestran cuando se han seleccionado conjuntos de"
+" pruebas que prueban un servicio."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:169
 msgid ""
 "The URL of a service must be entered beginning with ``http://`` or "
 "``https://``."
 msgstr ""
+"La URL de un servicio debe introducirse comenzando por ''http://'' o "
+"''https://''."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:173
 msgid ""
 "If the service requires authentication, username and password can be "
 "provided by clicking on Credentials."
 msgstr ""
+"Si el servicio requiere autenticación, se puede proporcionar el nombre de "
+"usuario y la contraseña haciendo clic en Credenciales."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:177
 msgid "Dependencies and Parameters"
-msgstr ""
+msgstr "Dependencias y parámetros"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:179
 msgid ""
 "The Test Suites button shows some basic information about the selected Test "
 "Suites and - if applicable - about the direct dependencies."
 msgstr ""
+"El botón Conjuntos de pruebas muestra información básica sobre los conjuntos"
+" de pruebas seleccionados y, si corresponde, sobre las dependencias "
+"directas."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:184
 msgid ""
@@ -293,34 +380,45 @@ msgid ""
 "Parameters button. A description of the parameters is displayed when the "
 "mouse is moved over the question mark."
 msgstr ""
+"Si la prueba acepta parámetros, se muestran en la sección Parámetros del "
+"conjunto de pruebas. Los parámetros opcionales se pueden mostrar haciendo "
+"clic en el botón Parámetros opcionales. Se muestra una descripción de los "
+"parámetros cuando se mueve el ratón sobre el signo de interrogación."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:189
 msgid "In most cases the preset default values can be used."
 msgstr ""
+"En la mayoría de los casos se pueden utilizar los valores predeterminados "
+"preestablecidos."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:193
 msgid ""
 "Finally the test can be started by clicking on the Start button. The view "
 "then changes automatically to the Monitor View."
 msgstr ""
+"Finalmente, la prueba se puede iniciar haciendo clic en el botón Inicio. A "
+"continuación, la vista cambia automáticamente a la vista Monitor."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:197
 msgid "Monitor test runs"
-msgstr ""
+msgstr "Supervisar las ejecuciones de prueba"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:199
 msgid "After a Test Run has been started the Monitor View is shown."
 msgstr ""
+"Después de iniciar una ejecución de prueba, se muestra la vista Monitor."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:203
 msgid "The blue bar indicates the progress."
-msgstr ""
+msgstr "La barra azul indica el progreso."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:207
 msgid ""
 "The console area shows information and result messages. The Test Run can be "
 "canceled with a click on the Cancel button."
 msgstr ""
+"El área de la consola muestra información y mensajes de resultados. La "
+"ejecución de prueba se puede cancelar con un clic en el botón Cancelar."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:210
 msgid ""
@@ -328,6 +426,9 @@ msgid ""
 "corner. Also when the browser is closed, the Test Run execution continues on"
 " the server."
 msgstr ""
+"La vista se puede dejar, por ejemplo, con el botón X en la esquina superior "
+"izquierda. Además, cuando se cierra el explorador, la ejecución de la "
+"ejecución de prueba continúa en el servidor."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:213
 msgid ""
@@ -335,22 +436,30 @@ msgid ""
 "the Status view. The Status view shows all running tests. A click on the "
 "Test Run opens the Monitor View of that Test Run."
 msgstr ""
+"Para volver a abrir la vista Monitor después de cerrarla, seleccione en la "
+"barra de menús la vista Estado. La vista Estado muestra todas las pruebas en"
+" ejecución. Al hacer clic en la ejecución de prueba se abre la vista monitor"
+" de esa ejecución de prueba."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:219
 msgid ""
 "When a Test Run finishes and the Monitor View is opened, the Test Report is "
 "displayed automatically."
 msgstr ""
+"Cuando finaliza una ejecución de prueba y se abre la vista Monitor, el "
+"informe de prueba se muestra automáticamente."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:224
 msgid "Test Reports"
-msgstr ""
+msgstr "Informes de prueba"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:226
 msgid ""
 "The Test Reports view shows all reports that have been generated from Test "
 "Runs."
 msgstr ""
+"La vista Informes de prueba muestra todos los informes que se han generado a"
+" partir de ejecuciones de prueba."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:230
 msgid ""
@@ -358,12 +467,17 @@ msgid ""
 "result status, the name of the Test Object and the used Test Suites are "
 "shown."
 msgstr ""
+"Al hacer clic en el botón más, se muestra información sobre la hora de "
+"inicio, el estado del resultado de la prueba, el nombre del objeto de prueba"
+" y los conjuntos de pruebas utilizados."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:233
 msgid ""
 "A Test Report can be opened again by clicking on Open report or can be "
 "downloaded as HTML file by clicking on the Download button."
 msgstr ""
+"Un informe de prueba se puede abrir de nuevo haciendo clic en Abrir informe "
+"o se puede descargar como archivo HTML haciendo clic en el botón Descargar."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:236
 msgid ""
@@ -371,10 +485,13 @@ msgid ""
 "clicking on the Delete report button, the report will be deleted "
 "permanently."
 msgstr ""
+"El archivo de registro de la ejecución de prueba se puede inspeccionar con "
+"el botón Abrir registro. Al hacer clic en el botón Eliminar informe, el "
+"informe se eliminará de forma permanente."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:241
 msgid "Inspect test reports"
-msgstr ""
+msgstr "Inspeccionar informes de prueba"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:243
 msgid ""
@@ -382,24 +499,35 @@ msgid ""
 "test result Status, the start time, the duration and a table, which "
 "summarizes the status of all tests on several levels."
 msgstr ""
+"La parte superior de un informe de prueba muestra información general, "
+"incluido el estado general del resultado de la prueba, la hora de inicio, la"
+" duración y una tabla, que resume el estado de todas las pruebas en varios "
+"niveles."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:249
 msgid ""
 "The Test Reports are interactive. The Show switch can be used to filter Only"
 " failed or Only manual tests. All deactivates the filter."
 msgstr ""
+"Los informes de prueba son interactivos. El interruptor Mostrar se puede "
+"utilizar para filtrar Sólo pruebas fallidas o Sólo pruebas manuales. Todo "
+"desactiva el filtro."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:252
 msgid ""
 "The Level of detail switch is used to show additional technical information "
 "in the reports."
 msgstr ""
+"El modificador Nivel de detalle se utiliza para mostrar información técnica "
+"adicional en los informes."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:257
 msgid ""
 "The test results are summarized hierarchically in a report. At the top level"
 " there are the Test Suites."
 msgstr ""
+"Los resultados de la prueba se resumen jerárquicamente en un informe. En el "
+"nivel superior están las Test Suites."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:260
 msgid ""
@@ -408,6 +536,10 @@ msgid ""
 "recognized by the red color. The number of failed tests is shown in the top-"
 "right corner."
 msgstr ""
+"Al hacer clic en un conjunto de pruebas, se muestra una descripción y todas "
+"las pruebas de nivel inferior en ese conjunto de pruebas. Las fallas en un "
+"conjunto de pruebas pueden ser reconocidas inmediatamente por el color rojo."
+" El número de pruebas fallidas se muestra en la esquina superior derecha."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:266
 msgid ""
@@ -417,38 +549,48 @@ msgid ""
 "because it depends on another test that has failed. The exact status can be "
 "found below the description."
 msgstr ""
+"El color verde indica una prueba superada. Las pruebas aprobadas, que "
+"requieren pasos de prueba manuales adicionales que no se pudieron "
+"automatizar, son de color naranja. El color naranja también puede indicar "
+"una prueba que se ha omitido porque depende de otra prueba que haya fallado."
+" El estado exacto se puede encontrar debajo de la descripción."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:272
 msgid ""
 "The number of levels depends on the tested Test Object. If service tests "
 "have been executed the hierarchy is as follows:"
 msgstr ""
+"El número de niveles depende del objeto de prueba probado. Si se han "
+"ejecutado pruebas de servicio, la jerarquía es la siguiente:"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:275
 msgid "Executable Test Suites"
-msgstr ""
+msgstr "Conjuntos de pruebas ejecutables"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:276
 msgid "Test Modules (bundles Test Cases)"
-msgstr ""
+msgstr "Módulos de prueba (agrupa casos de prueba)"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:277
 msgid "Test Cases (bundles Test Steps)"
-msgstr ""
+msgstr "Casos de prueba (agrupa pasos de prueba)"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:278
 msgid "Test Steps (interactions with the service, bundles Test Assertions)"
 msgstr ""
+"Pasos de prueba (interacciones con el servicio, agrupa aserciones de prueba)"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:279
 msgid "Test Assertions (atomic tests)"
-msgstr ""
+msgstr "Aserciones de prueba (pruebas atómicas)"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:281
 msgid ""
 "In a file-based test, Test Modules and Test Steps do not exist and are not "
 "shown in the report."
 msgstr ""
+"En una prueba basada en archivos, los módulos de prueba y los pasos de "
+"prueba no existen y no se muestran en el informe."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:284
 msgid ""
@@ -456,12 +598,18 @@ msgid ""
 "requirements. The test may possess a link to an abstract test suite, from "
 "which the test has been derived (Source)."
 msgstr ""
+"Cada prueba proporciona una descripción sobre cómo se prueban los aspectos y"
+" enumera los requisitos. La prueba puede poseer un enlace a un conjunto de "
+"pruebas abstractas, de la cual se ha derivado la prueba (Fuente)."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:290
 msgid ""
 "Assertions stand for atomic test queries on the lowest level. Failed, red "
 "colored assertions display error messages in the Messages section."
 msgstr ""
+"Las aserciones representan consultas de prueba atómica en el nivel más bajo."
+" Error, las aserciones de color rojo muestran mensajes de error en la "
+"sección Mensajes."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:295
 msgid ""
@@ -469,16 +617,21 @@ msgid ""
 "instance the response from a service on the Test Step level (note the Open "
 "saved response link in the report)."
 msgstr ""
+"También se puede encontrar información útil en el siguiente nivel superior, "
+"como, por ejemplo, la respuesta de un servicio en el nivel Test Step (tenga "
+"en cuenta el enlace Abrir respuesta guardada en el informe)."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:302
 msgid "Resources"
-msgstr ""
+msgstr "Recursos"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:304
 msgid ""
 "Using the instructions provided above, please find below a predefined set of"
 " resources that you can test in the ETF:"
 msgstr ""
+"Usando las instrucciones proporcionadas anteriormente, encuentre a "
+"continuación un conjunto predefinido de recursos que puede probar en el ETF:"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:308
 msgid ""
@@ -486,24 +639,35 @@ msgid ""
 "<https://github.com/etf-validator/OSGeoLive-ETF/tree/main/resources/GML-"
 "data-sets>`__ ."
 msgstr ""
+"Conjuntos de datos GML: algunos conjuntos de datos predefinidos se pueden "
+"descargar desde  `aqui <https://github.com/etf-validator/OSGeoLive-"
+"ETF/tree/main/resources/GML-data-sets>`__ ."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:310
 msgid ""
 "WMS services: a list of services is available `here <https://github.com/etf-"
 "validator/OSGeoLive-ETF/tree/main/resources/WMS-services>`__."
 msgstr ""
+"Servicios WMS: una lista de servicios está disponible `aquí "
+"<https://github.com/etf-validator/OSGeoLive-ETF/tree/main/resources/WMS-"
+"services>`__."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:312
 msgid ""
 "WFS services: a list of services is available `here <https://github.com/etf-"
 "validator/OSGeoLive-ETF/tree/main/resources/WFS-services>`__."
 msgstr ""
+"Servicios de WFS: una lista de servicios está disponible `aquí "
+"<https://github.com/etf-validator/OSGeoLive-ETF/tree/main/resources/WFS-"
+"services>`__."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:315
 msgid ""
 "Some of the resources do not pass all the tests, so you can try to fix them "
 "before validating them again"
 msgstr ""
+"Algunos de los recursos no pasan todas las pruebas, por lo que puede "
+"intentar corregirlos antes de validarlos nuevamente."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:319
 msgid "What's next?"
@@ -514,22 +678,24 @@ msgid ""
 "This was just a very brief overview of the ETF.  There is more information "
 "in the demo installation and on the `ETF GitHub space`_."
 msgstr ""
+"Esta fue solo una breve descripción del ETF.  Hay más información en la "
+"instalación de demostración y en el 'ETF GitHub space'_."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:326
 msgid "Please also check:"
-msgstr ""
+msgstr "Por favor, compruebe también:"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:328
 msgid "`User manual`_"
-msgstr ""
+msgstr "'Manual de usuario'_"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:329
 msgid "`Administrator manual`_"
-msgstr ""
+msgstr "'Manual del administrador'_"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:330
 msgid "`Developer manual`_"
-msgstr ""
+msgstr "'Manual del desarrollador'_"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"

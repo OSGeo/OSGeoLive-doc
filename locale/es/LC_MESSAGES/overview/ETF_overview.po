@@ -6,6 +6,7 @@
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2022
 # Vicky Vergara <vicky@georepublic.de>, 2022
+# Jose Vergara, 2022
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-19 19:41+0000\n"
 "PO-Revision-Date: 2022-07-20 18:59+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
+"Last-Translator: Jose Vergara, 2022\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +25,7 @@ msgstr ""
 
 #: ../../build/doc/overview/ETF_overview.rst:17
 msgid "ETF"
-msgstr ""
+msgstr "ETF"
 
 #: ../../build/doc/overview/ETF_overview.rst:20
 msgid ""
@@ -33,6 +34,10 @@ msgid ""
 "data providers to validate the conformity of geospatial data sets, metadata "
 "and APIs."
 msgstr ""
+"ETF es un marco de pruebas de código abierto para validar datos y API en "
+"infraestructuras de datos espaciales (SDI). Es utilizado por soluciones de "
+"software y proveedores de datos para validar la conformidad de conjuntos de "
+"datos geoespaciales, metadatos y API."
 
 #: ../../build/doc/overview/ETF_overview.rst:26
 msgid "About"
@@ -50,6 +55,15 @@ msgid ""
 " APIs using the OGC CITE tests, NeoTL Engine for testing WFS, OGC Web APIs "
 "and datasets."
 msgstr ""
+"Los objetivos en el diseño del software ETF fueron crear informes de prueba "
+"que sean fáciles de usar y autoexplicativos, así como poder validar grandes "
+"cantidades de datos, que pueden tener varios cientos de GB de tamaño. Para "
+"cubrir diferentes tareas de validación y presentarlas en un informe "
+"unificado, la arquitectura es modular y se pueden utilizar diferentes "
+"motores de prueba. Actualmente se admiten los siguientes motores de prueba: "
+"SoapUI para probar servicios web, base de datos BaseX para probar datos XML,"
+" TEAM Engine para validar las API web WFS y OGC utilizando las pruebas CITE "
+"de OGC, Motor NeoTL para probar WFS, API web OGC y conjuntos de datos."
 
 #: ../../build/doc/overview/ETF_overview.rst:39
 msgid ""
@@ -61,10 +75,19 @@ msgid ""
 "against national requirements. Finally, some software tools include "
 "validation based on the ETF API in their workflow."
 msgstr ""
+"ETF es el marco subyacente utilizado por el Validador de referencia INSPIRE "
+"para validar metadatos, conjuntos de datos y servicios en relación con los "
+"requisitos de INSPIRE. ETF también se utiliza ampliamente en Alemania por "
+"las autoridades topográficas de Laender para validar sus conjuntos de datos."
+" Otros Estados miembros de la Unión Europea (UE) también están reutilizando "
+"el ETF para permitir que sus proveedores de datos prueben los recursos con "
+"respecto a los requisitos nacionales. Finalmente, algunas herramientas de "
+"software incluyen la validación basada en la API de ETF en su flujo de "
+"trabajo."
 
 #: ../../build/doc/overview/ETF_overview.rst-1
 msgid "ETF screenshot"
-msgstr ""
+msgstr "Captura de pantalla de ETF"
 
 #: ../../build/doc/overview/ETF_overview.rst:55
 msgid "Core Features"
@@ -72,79 +95,79 @@ msgstr "Características Principales"
 
 #: ../../build/doc/overview/ETF_overview.rst:61
 msgid "Testable resources"
-msgstr ""
+msgstr "Recursos comprobables"
 
 #: ../../build/doc/overview/ETF_overview.rst:57
 msgid "datasets (up to multiple hundreds GB): GML"
-msgstr ""
+msgstr "conjuntos de datos (hasta varios cientos de GB): GML"
 
 #: ../../build/doc/overview/ETF_overview.rst:58
 msgid "metadata: XML"
-msgstr ""
+msgstr "metadatos: XML"
 
 #: ../../build/doc/overview/ETF_overview.rst:59
 msgid "view services: WMS/WMTS"
-msgstr ""
+msgstr "ver servicios: WMS/WMTS"
 
 #: ../../build/doc/overview/ETF_overview.rst:60
 msgid "download services: Atom, WFS, WCS, SOS"
-msgstr ""
+msgstr "servicios de descarga: Atom, WFS, WCS, SOS"
 
 #: ../../build/doc/overview/ETF_overview.rst:61
 msgid "catalogue services: CSW"
-msgstr ""
+msgstr "servicios de catálogo: CSW"
 
 #: ../../build/doc/overview/ETF_overview.rst:67
 msgid "Access"
-msgstr ""
+msgstr "Acceso"
 
 #: ../../build/doc/overview/ETF_overview.rst:64
 msgid "web-based user interface"
-msgstr ""
+msgstr "interfaz de usuario basada en web"
 
 #: ../../build/doc/overview/ETF_overview.rst:65
 msgid "REST API"
-msgstr ""
+msgstr "REST API"
 
 #: ../../build/doc/overview/ETF_overview.rst:66
 msgid "OpenAPI Specification"
-msgstr ""
+msgstr "Especificación OpenAPI"
 
 #: ../../build/doc/overview/ETF_overview.rst:67
 msgid "Java client library"
-msgstr ""
+msgstr "Biblioteca de cliente Java"
 
 #: ../../build/doc/overview/ETF_overview.rst:73
 msgid "Supported test engines"
-msgstr ""
+msgstr "Motores de prueba compatibles"
 
 #: ../../build/doc/overview/ETF_overview.rst:70
 msgid "SoapUI for testing web services"
-msgstr ""
+msgstr "SoapUI para probar servicios web"
 
 #: ../../build/doc/overview/ETF_overview.rst:71
 msgid "BaseX for testing sets of XML documents"
-msgstr ""
+msgstr "BaseX para probar conjuntos de documentos XML"
 
 #: ../../build/doc/overview/ETF_overview.rst:72
 msgid "TEAM Engine to support CITE tests developed using TestNG"
-msgstr ""
+msgstr "TEAM Engine apoyará las pruebas CITE desarrolladas con TestNG"
 
 #: ../../build/doc/overview/ETF_overview.rst:73
 msgid "NeoTL for testing OGC WFS and OGC APIs (in development)"
-msgstr ""
+msgstr "NeoTL para probar las API de OGC WFS y OGC (en desarrollo)"
 
 #: ../../build/doc/overview/ETF_overview.rst:77
 msgid "Test reports"
-msgstr ""
+msgstr "Informes de prueba"
 
 #: ../../build/doc/overview/ETF_overview.rst:76
 msgid "user-friendly and self-explanatory"
-msgstr ""
+msgstr "fácil de usar y autoexplicativo"
 
 #: ../../build/doc/overview/ETF_overview.rst:77
 msgid "downloadable in HTML, XML and JSON"
-msgstr ""
+msgstr "descargable en HTML, XML y JSON"
 
 #: ../../build/doc/overview/ETF_overview.rst:90
 msgid "Implemented Standards"
@@ -156,7 +179,7 @@ msgstr "|CSW|"
 
 #: ../../build/doc/overview/ETF_overview.rst:81
 msgid "ISO 19105"
-msgstr ""
+msgstr "ISO 19105"
 
 #: ../../build/doc/overview/ETF_overview.rst:82
 msgid "|SOS|"
@@ -176,7 +199,7 @@ msgstr "|GML|"
 
 #: ../../build/doc/overview/ETF_overview.rst:86
 msgid "OGC API - Features"
-msgstr ""
+msgstr "OGC API - Características"
 
 #: ../../build/doc/overview/ETF_overview.rst:87
 msgid "|WCS|"
@@ -192,15 +215,15 @@ msgstr "Detalles"
 
 #: ../../build/doc/overview/ETF_overview.rst:95
 msgid "**Website:** https://github.com/etf-validator"
-msgstr ""
+msgstr "**Sitio web:** https://github.com/etf-validator"
 
 #: ../../build/doc/overview/ETF_overview.rst:97
 msgid "**Licence:** EUPL 1.2"
-msgstr ""
+msgstr "**Licencia:** EUPL 1.2"
 
 #: ../../build/doc/overview/ETF_overview.rst:99
 msgid "**Software Version:** |version-ETF|"
-msgstr ""
+msgstr "**Versión del software:** |version-ETF|"
 
 #: ../../build/doc/overview/ETF_overview.rst:101
 msgid "**Supported Platforms:** Windows, Linux"
@@ -210,28 +233,36 @@ msgstr "**Plataformas soportadas:** Windows y Linux"
 msgid ""
 "**API Interfaces:** REST API, OpenAPI Specification, Java client library"
 msgstr ""
+"**Interfaces API:** API REST, especificación OpenAPI, biblioteca de cliente "
+"Java"
 
 #: ../../build/doc/overview/ETF_overview.rst:105
 msgid "**Support:** https://github.com/etf-validator/etf-webapp/issues"
-msgstr ""
+msgstr "**Soporte:** https://github.com/etf-validator/etf-webapp/issues"
 
 #: ../../build/doc/overview/ETF_overview.rst:107
 msgid ""
 "**User manual:** https://docs.etf-"
 "validator.net/v2.0/User_manuals/Simplified_workflows.html"
 msgstr ""
+"**Manual del usuario:** https://docs.etf-"
+"validator.net/v2.0/User_manuals/Simplified_workflows.html"
 
 #: ../../build/doc/overview/ETF_overview.rst:109
 msgid ""
 "**Administrator manual:** https://docs.etf-"
 "validator.net/v2.0/index.html#_administrator_manuals"
 msgstr ""
+"**Manual del administrador:** https://docs.etf-"
+"validator.net/v2.0/index.html#_administrator_manuals"
 
 #: ../../build/doc/overview/ETF_overview.rst:111
 msgid ""
 "**Developer manual:** https://docs.etf-"
 "validator.net/v2.0/index.html#_developer_manuals"
 msgstr ""
+"**Manual del desarrollador:** https://docs.etf-"
+"validator.net/v2.0/index.html#_developer_manuals"
 
 #: ../../build/doc/overview/ETF_overview.rst:114
 msgid ""
@@ -247,6 +278,8 @@ msgstr "Guía de Inicio Rápido"
 #: ../../build/doc/overview/ETF_overview.rst:119
 msgid ":doc:`Quickstart documentation <../quickstart/ETF_quickstart>`"
 msgstr ""
+":d oc:'Documentación de inicio rápido <.. "
+"uickstart/etf_quickstart=\"\">'</..>"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"

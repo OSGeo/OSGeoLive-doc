@@ -6,6 +6,7 @@
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2022
 # Vicky Vergara <vicky@georepublic.de>, 2022
+# Jose Vergara, 2022
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
+"Last-Translator: Jose Vergara, 2022\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -80,7 +81,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rstNone
 msgid "EOxServer demonstration start"
-msgstr ""
+msgstr "Inicio de demostración de EOxServer"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:49
 msgid "Work with the Web Client"
@@ -103,7 +104,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rstNone
 msgid "Main view of the EOxServer Web Client"
-msgstr ""
+msgstr "Vista principal del cliente web de EOxServer"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:60
 msgid ""
@@ -124,7 +125,7 @@ msgstr ""
 #: ../../build/doc/quickstart/eoxserver_quickstart.rstNone
 #: ../../build/doc/quickstart/eoxserver_quickstart.rstNone
 msgid "EOxServer demonstration embedded client outlines"
-msgstr ""
+msgstr "Esquemas de cliente integrados de demostración de EOxServer"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:69
 msgid ""
@@ -195,6 +196,10 @@ msgid ""
 "<https://docs.eoxserver.org/en/stable/users/services/webclient.html>`_ for "
 "more information on this topic."
 msgstr ""
+"Esta fue una introducción rápida al cliente web EOxServer. Consulte la "
+"`documentación en línea "
+"<https://docs.eoxserver.org/en/stable/users/services/webclient.html>`_ para "
+"obtener más información sobre este tema."
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:114
 msgid "Work with the Admin Client"
@@ -212,6 +217,7 @@ msgstr ""
 #: ../../build/doc/quickstart/eoxserver_quickstart.rstNone
 msgid "EOxServer demonstration admin client login"
 msgstr ""
+"Inicio de sesión del cliente administrador de demostración de EOxServer"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:123
 msgid ""
@@ -220,10 +226,14 @@ msgid ""
 "can be found in the `operations' guide "
 "<https://docs.eoxserver.org/en/stable/users/operations/index.html>`_."
 msgstr ""
+"El `Admin Client` es el administrador estándar de Djangos y le permite "
+"configurar los datos disponibles. Por favor, siéntase libre de explorar el "
+"cliente. Se puede encontrar más información en la guía `operaciones' "
+"<https://docs.eoxserver.org/en/stable/users/operations/index.html>`_."
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rstNone
 msgid "EOxServer demonstration admin client start"
-msgstr ""
+msgstr "Inicio del cliente de administración de demostración de EOxServer"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:132
 msgid ""
@@ -237,7 +247,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rstNone
 msgid "EOxServer demonstration admin client Dataset Series"
-msgstr ""
+msgstr "EOxServer demostración del cliente de administración Dataset Series"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:139
 msgid ""
@@ -250,6 +260,8 @@ msgstr ""
 #: ../../build/doc/quickstart/eoxserver_quickstart.rstNone
 msgid "EOxServer demonstration admin client Dataset Series Management"
 msgstr ""
+"Demostración del cliente administrador de EOxServer Dataset Series "
+"Management"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:146
 msgid "What Next?"
@@ -278,12 +290,16 @@ msgid ""
 "Read the `EOxServer Operations' Guide "
 "<https://docs.eoxserver.org/en/stable/users/operations/index.html>`_."
 msgstr ""
+"Lea la Guía `Operaciones de EOxServer' "
+"<https://docs.eoxserver.org/en/stable/users/operations/index.html>`_"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:154
 msgid ""
 "Read the `EOxServer Basics "
 "<https://docs.eoxserver.org/en/stable/users/basics.html>`_."
 msgstr ""
+"Lea el `Conceptos básicos de EOxServer "
+"<https://docs.eoxserver.org/en/stable/users/basics.html>`_"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:155
 msgid ""
@@ -292,6 +308,10 @@ msgid ""
 "support>`_ to exchange ideas, discuss potential software improvements, and "
 "ask questions."
 msgstr ""
+"¿Listo para usar EOxServer? Luego únase a la comunidad en las `listas  de "
+"correo <https://docs.eoxserver.org/en/stable/users/basics.html#where-can-i-"
+"get-support>`_  para intercambiar ideas, discutir posibles mejoras de "
+"software y hacer preguntas."
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
