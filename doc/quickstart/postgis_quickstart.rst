@@ -454,9 +454,76 @@ a choropleth map of the sudden infant death syndrome counts (sid74 or sid79 fiel
   :align: center
 
 
+Get to know phpPgAdmin (ISO & VMDK)
+===================================
+
+You can use the graphical database client ``pgAdmin`` from the Databases menu to query and modify your database non-spatially. This is the official client for PostgreSQL.
+
+pgAdmin lets you use SQL to manipulate your data tables. You can find and launch pgAdmin
+from the Databases folder, existing on the OSGeoLive Desktop.
+
+.. image:: /images/projects/postgis/postgis_pgadmin_main_window.png
+  :scale: 50 %
+  :alt: pgAdmin
+  :align: center
+
+Enter the master password  ``user``.
+
+Here, you have the option of creating a new connection to a PostgreSQL server, or connecting to an existing server.
+In this case, we are going to connect to the predefined ``localhost`` server.
 
 
-Get to know pgAdmin (VMDK only)
+After connection established, you can see the list of the databases already existing in the system.
+
+.. image:: /images/projects/postgis/postgis_adminscreen0.png
+  :scale: 75 %
+  :alt: pgAdmin
+  :align: center
+
+The red "X" on the image of most of the databases, denotes that you haven't been yet connected to any of them (you are connected only
+to the default ``postgres`` database).
+At this point you are able only to see the existing databases on the system. You can connect, by double clicking,
+on the name of a database. Do it for the natural_earth2 database.
+
+You can see now that the red X disappeared and a ">" appeared on the left. By pressing it a tree is going to appear,
+displaying the contents of the database.
+
+Navigate at the ``schemas`` subtree, expand it. Afterwards expand the
+``public`` schema. By navigating and expanding the
+``Tables``, you can see all the tables contained within this schema.
+
+
+.. image:: /images/projects/postgis/postgis_adminscreen1.png
+  :scale: 75 %
+  :alt: pgAdmin
+  :align: center
+
+
+
+
+Executing a SQL query from phpPgAdmin (ISO & VMDK)
+==============================================
+
+pgAdmin, offers the capability of executing queries to a relational database.
+
+To perform a query on the database, you have to press the ``Query Tool`` button from the main toolbar (the one at the left with the database symbol).
+
+We are going to find the rate of the SIDS over the births for the 1974 for each city.
+Furthermore we are going to sort the result, based on the computed rate. To do that, we need to perform the following query (submit it
+on the text editor of the SQL Window):
+
+::
+
+ select name, 1000*sid74/bir74 as rate from sids order by rate;
+
+Afterwards, you should press the arrow button, pointing to the right (Execute).
+
+.. image:: /images/projects/postgis/postgis_adminscreen2.png
+  :scale: 75 %
+  :alt: pgAdmin
+  :align: center
+
+Get to know phpPgAdmin (ISO & VMDK)
 ===============================
 
 You can use the graphical database client ``pgAdmin`` from the Databases menu to query and modify your database non-spatially. This is the official client for PostgreSQL.
