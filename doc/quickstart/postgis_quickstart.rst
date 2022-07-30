@@ -454,59 +454,59 @@ a choropleth map of the sudden infant death syndrome counts (sid74 or sid79 fiel
   :align: center
 
 
+.. warning::
+    Depending on the version of OSGeoLive you are using (ISO or VMDK), you will not find the same clients available.
+    ``pgAdmin`` is the official client for PostgreSQL, however, for technical reasons, it can't do in the ISO,
+    so it is only available in the VMDK version.
+    The ISO version has the ``phpPgAdmin`` client which offers the same core functionality.
+
+
 Get to know phpPgAdmin (ISO & VMDK)
 ===================================
 
-You can use the graphical database client ``pgAdmin`` from the Databases menu to query and modify your database non-spatially. This is the official client for PostgreSQL.
+In both version, you can use the graphical database client phpPgAdmin.
 
-pgAdmin lets you use SQL to manipulate your data tables. You can find and launch pgAdmin
+phpPgAdmin lets you use SQL to manipulate your data tables. You can find and launch phpPgAdmin
 from the Databases folder, existing on the OSGeoLive Desktop.
 
-.. image:: /images/projects/postgis/postgis_pgadmin_main_window.png
+.. image:: /images/projects/postgis/postgis_phppgadmin_main_window.png
   :scale: 50 %
-  :alt: pgAdmin
+  :alt: phpPgAdmin main
   :align: center
 
-Enter the master password  ``user``.
-
 Here, you have the option of creating a new connection to a PostgreSQL server, or connecting to an existing server.
-In this case, we are going to connect to the predefined ``localhost`` server.
-
+The red "X" on the  ``PostgreSQL`` server denotes that you haven't been yet connected.
+Click on it  then enter the user name  ``user`` and the master password  ``user``.
 
 After connection established, you can see the list of the databases already existing in the system.
 
-.. image:: /images/projects/postgis/postgis_adminscreen0.png
+.. image:: /images/projects/postgis/postgis_phppgadminscreen0.png
   :scale: 75 %
-  :alt: pgAdmin
+  :alt: phpPgAdmin
   :align: center
 
-The red "X" on the image of most of the databases, denotes that you haven't been yet connected to any of them (you are connected only
-to the default ``postgres`` database).
-At this point you are able only to see the existing databases on the system. You can connect, by double clicking,
-on the name of a database. Do it for the natural_earth2 database.
 
-You can see now that the red X disappeared and a ">" appeared on the left. By pressing it a tree is going to appear,
-displaying the contents of the database.
+At this point you are able only to see the existing databases on the system. You can connect, by clicking,
+on plus sign at the left of the name of a database. Do it for the ``natural_earth2`` database.
 
-Navigate at the ``schemas`` subtree, expand it. Afterwards expand the
-``public`` schema. By navigating and expanding the
-``Tables``, you can see all the tables contained within this schema.
+You can see now that there is only one schema in this database called ``public``.
+Click on the plus at left of ``Tables``to expand it, you can see all the tables contained within this schema.
 
 
-.. image:: /images/projects/postgis/postgis_adminscreen1.png
+.. image:: /images/projects/postgis/postgis_phppgadminscreen1.png
   :scale: 75 %
-  :alt: pgAdmin
+  :alt: phpPgAdmin
   :align: center
 
 
 
 
 Executing a SQL query from phpPgAdmin (ISO & VMDK)
-==============================================
+==================================================
 
-pgAdmin, offers the capability of executing queries to a relational database.
+phpPgAdmin, offers the capability of executing queries to a relational database.
 
-To perform a query on the database, you have to press the ``Query Tool`` button from the main toolbar (the one at the left with the database symbol).
+To perform a query on the database, click back on the ``natural_earth2`` database then press the ``SQL`` button from the main toolbar (the one at the left with the database symbol).
 
 We are going to find the rate of the SIDS over the births for the 1974 for each city.
 Furthermore we are going to sort the result, based on the computed rate. To do that, we need to perform the following query (submit it
@@ -516,14 +516,14 @@ on the text editor of the SQL Window):
 
  select name, 1000*sid74/bir74 as rate from sids order by rate;
 
-Afterwards, you should press the arrow button, pointing to the right (Execute).
+Afterwards, you should press the Execute button.
 
-.. image:: /images/projects/postgis/postgis_adminscreen2.png
+.. image:: /images/projects/postgis/postgis_phppgadminscreen2.png
   :scale: 75 %
-  :alt: pgAdmin
+  :alt: phpPgAdmin
   :align: center
 
-Get to know phpPgAdmin (ISO & VMDK)
+Get to know pgAdmin (VMDK only)
 ===============================
 
 You can use the graphical database client ``pgAdmin`` from the Databases menu to query and modify your database non-spatially. This is the official client for PostgreSQL.
@@ -552,7 +552,7 @@ After connection established, you can see the list of the databases already exis
 The red "X" on the image of most of the databases, denotes that you haven't been yet connected to any of them (you are connected only
 to the default ``postgres`` database).
 At this point you are able only to see the existing databases on the system. You can connect, by double clicking,
-on the name of a database. Do it for the natural_earth2 database.
+on the name of a database. Do it for the ``natural_earth2`` database.
 
 You can see now that the red X disappeared and a ">" appeared on the left. By pressing it a tree is going to appear,
 displaying the contents of the database.
