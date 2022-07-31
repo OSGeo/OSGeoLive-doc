@@ -63,7 +63,7 @@ Now you are ready to initialize the map and do some stuff with it.
 
 Setting up the Map
 ================================================================================
-Let's create a map of eastern Africa with an indication of the 2018 FOSS4G conference. First we'll initialize the map and set its view to our chosen geographical coordinates and a zoom level:
+Let's create a map of Firenze, Italy with an indication of the 2022 FOSS4G conference. First we'll initialize the map and set its view to our chosen geographical coordinates and a zoom level:
 
 .. code-block:: javascript 
 
