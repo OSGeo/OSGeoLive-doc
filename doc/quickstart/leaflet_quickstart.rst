@@ -132,7 +132,7 @@ Popups are usually used when you want to attach some information to a particular
 
  var popup = L.popup()
     .setLatLng([43.77913, 11.24938])
-    .setContent("I am a standalone popup.")
+    .setContent("FOSS4G is here this year!")
     .openOn(map);
 
 Here we use **openOn** instead of **addTo** because it handles automatic closing of a previously opened popup when opening a new one which is good for usability.
