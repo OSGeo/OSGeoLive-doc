@@ -226,6 +226,8 @@ linkcheck_ignore = [
         'https://inspire.ec.europa.eu/validator/about/',
         # TODO this link is failing: RemoteDisconnected('Remote end closed connection without response'))
         'https://www.iso.org',
+        # TODO this link is failing: 502 Bad Gateway
+        'https://spatialreference.org',
 
         # links to the disk internals
         r'http://localhost', r'https://localhost',
