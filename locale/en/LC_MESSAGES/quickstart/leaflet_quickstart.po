@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2022-08-01 13:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:18
 msgid "Leaflet Quickstart"
@@ -94,7 +94,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:69
 msgid ""
-"Let's create a map of eastern Africa with an indication of the 2018 "
+"Let's create a map of Firenze, Italy with an indication of the 2022 "
 "FOSS4G conference. First we'll initialize the map and set its view to our"
 " chosen geographical coordinates and a zoom level:"
 msgstr ""
@@ -228,11 +228,11 @@ msgid ""
 " or other examples_."
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr ""
 

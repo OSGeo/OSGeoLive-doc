@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2022-08-01 13:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -77,7 +77,7 @@ msgid "Setting up the Map"
 msgstr ""
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:69
-msgid "Let's create a map of eastern Africa with an indication of the 2018 FOSS4G conference. First we'll initialize the map and set its view to our chosen geographical coordinates and a zoom level:"
+msgid "Let's create a map of Firenze, Italy with an indication of the 2022 FOSS4G conference. First we'll initialize the map and set its view to our chosen geographical coordinates and a zoom level:"
 msgstr ""
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:75
@@ -164,11 +164,11 @@ msgstr ""
 msgid "Now you've learned Leaflet basics and can start building map apps straight away! Don't forget to take a look at the detailed documentation_ or other examples_."
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr ""
 
