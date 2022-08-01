@@ -100,7 +100,7 @@ Now bootup the VM by clicking the **Start** (green arrow) button.
 
 * The OSGeo-Live virtual display (i.e., the window size) may be very small, and will not be able to increase until you install Guest Additions. You should install the virtualbox guest additions, this will allow you to use full-screen mode.
 
-  ``sudo apt-get install --yes virtualbox-guest-dkms virtualbox-guest-utils virtualbox-guest-x11``
+  ``sudo apt-get install --yes virtualbox-guest-utils virtualbox-guest-x11``
 
 (Alternative) If the above command does not work, use the following alternative:
 
