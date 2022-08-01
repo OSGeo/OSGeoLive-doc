@@ -19,7 +19,7 @@
     <link rel="index" title="Índice" href="../genindex.html" />
     <link rel="search" title="Búsqueda" href="../search.html" />
     <link rel="copyright" title="Copyright" href="../copyright.html" />
-    <link rel="next" title="ETF Quickstart" href="../quickstart/ETF_quickstart.html" />
+    <link rel="next" title="Inicio rápido de ETF" href="../quickstart/ETF_quickstart.html" />
     <link rel="prev" title="Inicio Rápido de EOxServer" href="../quickstart/eoxserver_quickstart.html" />
 	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
 
@@ -64,67 +64,51 @@
   <a class="reference external image-reference" href="https://github.com/etf-validator"><img alt="../../_images/logo_ETF.png" class="align-right" src="../../_images/logo_ETF.png" /></a>
 <section id="etf">
 <h1>ETF<a class="headerlink" href="#etf" title="Enlazar permanentemente con este título">¶</a></h1>
-<p>ETF is an open source testing framework for validating data and APIs in Spatial
-Data Infrastructures (SDIs). It is used by software solutions and data providers
-to validate the conformity of geospatial data sets, metadata and APIs.</p>
+<p>ETF es un marco de pruebas de código abierto para validar datos y API en infraestructuras de datos espaciales (SDI). Es utilizado por soluciones de software y proveedores de datos para validar la conformidad de conjuntos de datos geoespaciales, metadatos y API.</p>
 <section id="about">
 <h2>Acerca de<a class="headerlink" href="#about" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>Goals in designing the ETF software were to create test reports that are
-user-friendly and self-explanatory as well as to be able to validate large
-amounts of data, which can be several hundred GB in size. In order to cover
-different validation tasks and present them in a unified report, the
-architecture is modular and different test engines can be used. Currently the
-following test engines are supported: SoapUI for testing web services, BaseX
-database for testing XML data, TEAM Engine to validate WFS and OGC Web APIs
-using the OGC CITE tests, NeoTL Engine for testing WFS, OGC Web APIs and
-datasets.</p>
-<p>ETF is the underlying framework used by the INSPIRE Reference Validator to
-validate metadata, datasets and services against the INSPIRE requirements. ETF
-is also used extensively in Germany by the Surveying Authorities of the Laender
-to validate their datasets. Other European Union (EU) Member States are also
-reusing the ETF to allow their data providers to test resources against national
-requirements. Finally, some software tools include validation based on the ETF
-API in their workflow.</p>
-<a class="reference internal image-reference" href="../../_images/ETF_screenshot.png"><img alt="ETF screenshot" class="align-right" src="../../_images/ETF_screenshot.png" style="width: 500px;" /></a>
+<p>Los objetivos en el diseño del software ETF fueron crear informes de prueba que sean fáciles de usar y autoexplicativos, así como poder validar grandes cantidades de datos, que pueden tener varios cientos de GB de tamaño. Para cubrir diferentes tareas de validación y presentarlas en un informe unificado, la arquitectura es modular y se pueden utilizar diferentes motores de prueba. Actualmente se admiten los siguientes motores de prueba: SoapUI para probar servicios web, base de datos BaseX para probar datos XML, TEAM Engine para validar las API web WFS y OGC utilizando las pruebas CITE de OGC, Motor NeoTL para probar WFS, API web OGC y conjuntos de datos.</p>
+<p>ETF es el marco subyacente utilizado por el Validador de referencia INSPIRE para validar metadatos, conjuntos de datos y servicios en relación con los requisitos de INSPIRE. ETF también se utiliza ampliamente en Alemania por las autoridades topográficas de Laender para validar sus conjuntos de datos. Otros Estados miembros de la Unión Europea (UE) también están reutilizando el ETF para permitir que sus proveedores de datos prueben los recursos con respecto a los requisitos nacionales. Finalmente, algunas herramientas de software incluyen la validación basada en la API de ETF en su flujo de trabajo.</p>
+<a class="reference internal image-reference" href="../../_images/ETF_screenshot.png"><img alt="Captura de pantalla de ETF" class="align-right" src="../../_images/ETF_screenshot.png" style="width: 500px;" /></a>
 </section>
 <section id="core-features">
 <h2>Características Principales<a class="headerlink" href="#core-features" title="Enlazar permanentemente con este título">¶</a></h2>
 <ul class="simple">
 <li><dl class="simple">
-<dt>Testable resources</dt><dd><ul>
-<li><p>datasets (up to multiple hundreds GB): GML</p></li>
-<li><p>metadata: XML</p></li>
-<li><p>view services: WMS/WMTS</p></li>
-<li><p>download services: Atom, WFS, WCS, SOS</p></li>
-<li><p>catalogue services: CSW</p></li>
+<dt>Recursos comprobables</dt><dd><ul>
+<li><p>conjuntos de datos (hasta varios cientos de GB): GML</p></li>
+<li><p>metadatos: XML</p></li>
+<li><p>ver servicios: WMS/WMTS</p></li>
+<li><p>servicios de descarga: Atom, WFS, WCS, SOS</p></li>
+<li><p>servicios de catálogo: CSW</p></li>
 </ul>
 </dd>
 </dl>
 </li>
 <li><dl class="simple">
-<dt>Access</dt><dd><ul>
-<li><p>web-based user interface</p></li>
+<dt>Acceso</dt><dd><ul>
+<li><p>interfaz de usuario basada en web</p></li>
 <li><p>REST API</p></li>
-<li><p>OpenAPI Specification</p></li>
-<li><p>Java client library</p></li>
+<li><p>Especificación OpenAPI</p></li>
+<li><p>Biblioteca de cliente Java</p></li>
 </ul>
 </dd>
 </dl>
 </li>
 <li><dl class="simple">
-<dt>Supported test engines</dt><dd><ul>
-<li><p>SoapUI for testing web services</p></li>
-<li><p>BaseX for testing sets of XML documents</p></li>
-<li><p>TEAM Engine to support CITE tests developed using TestNG</p></li>
-<li><p>NeoTL for testing OGC WFS and OGC APIs (in development)</p></li>
+<dt>Motores de prueba compatibles</dt><dd><ul>
+<li><p>SoapUI para probar servicios web</p></li>
+<li><p>BaseX para probar conjuntos de documentos XML</p></li>
+<li><p>TEAM Engine apoyará las pruebas CITE desarrolladas con TestNG</p></li>
+<li><p>NeoTL para probar las API de OGC WFS y OGC (en desarrollo)</p></li>
 </ul>
 </dd>
 </dl>
 </li>
 <li><dl class="simple">
-<dt>Test reports</dt><dd><ul>
-<li><p>user-friendly and self-explanatory</p></li>
-<li><p>downloadable in HTML, XML and JSON</p></li>
+<dt>Informes de prueba</dt><dd><ul>
+<li><p>fácil de usar y autoexplicativo</p></li>
+<li><p>descargable en HTML, XML y JSON</p></li>
 </ul>
 </dd>
 </dl>
@@ -137,7 +121,7 @@ API in their workflow.</p>
 <li><p><a class="reference external" href="https://www.ogc.org/standards/wfs">Web Feature Service (WFS)</a></p></li>
 <li><p><a class="reference external" href="https://www.ogc.org/standards/wmts">OpenGIS Web Map Tile Service (WMTS)</a></p></li>
 <li><p><a class="reference external" href="https://www.ogc.org/standards/gml">Geography Markup Language (GML)</a></p></li>
-<li><p>OGC API - Features</p></li>
+<li><p>OGC API - Características</p></li>
 <li><p><a class="reference external" href="https://www.ogc.org/standards/wcs">Web Coverage Service (WCS)</a></p></li>
 <li><p><a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a></p></li>
 </ul>
@@ -148,15 +132,15 @@ API in their workflow.</p>
 </section>
 <section id="details">
 <h2>Detalles<a class="headerlink" href="#details" title="Enlazar permanentemente con este título">¶</a></h2>
-<p><strong>Website:</strong> <a class="reference external" href="https://github.com/etf-validator">https://github.com/etf-validator</a></p>
-<p><strong>Licence:</strong> EUPL 1.2</p>
-<p><strong>Software Version:</strong> 2.0.0</p>
+<p><strong>Sitio web:</strong> <a class="reference external" href="https://github.com/etf-validator">https://github.com/etf-validator</a></p>
+<p><strong>Licencia:</strong> EUPL 1.2</p>
+<p><strong>Versión del software:</strong> 2.0.0</p>
 <p><strong>Plataformas soportadas:</strong> Windows y Linux</p>
-<p><strong>API Interfaces:</strong> REST API, OpenAPI Specification, Java client library</p>
-<p><strong>Support:</strong> <a class="reference external" href="https://github.com/etf-validator/etf-webapp/issues">https://github.com/etf-validator/etf-webapp/issues</a></p>
-<p><strong>User manual:</strong> <a class="reference external" href="https://docs.etf-validator.net/v2.0/User_manuals/Simplified_workflows.html">https://docs.etf-validator.net/v2.0/User_manuals/Simplified_workflows.html</a></p>
-<p><strong>Administrator manual:</strong> <a class="reference external" href="https://docs.etf-validator.net/v2.0/index.html#_administrator_manuals">https://docs.etf-validator.net/v2.0/index.html#_administrator_manuals</a></p>
-<p><strong>Developer manual:</strong> <a class="reference external" href="https://docs.etf-validator.net/v2.0/index.html#_developer_manuals">https://docs.etf-validator.net/v2.0/index.html#_developer_manuals</a></p>
+<p><strong>Interfaces API:</strong> API REST, especificación OpenAPI, biblioteca de cliente Java</p>
+<p><strong>Soporte:</strong> <a class="reference external" href="https://github.com/etf-validator/etf-webapp/issues">https://github.com/etf-validator/etf-webapp/issues</a></p>
+<p><strong>Manual del usuario:</strong> <a class="reference external" href="https://docs.etf-validator.net/v2.0/User_manuals/Simplified_workflows.html">https://docs.etf-validator.net/v2.0/User_manuals/Simplified_workflows.html</a></p>
+<p><strong>Manual del administrador:</strong> <a class="reference external" href="https://docs.etf-validator.net/v2.0/index.html#_administrator_manuals">https://docs.etf-validator.net/v2.0/index.html#_administrator_manuals</a></p>
+<p><strong>Manual del desarrollador:</strong> <a class="reference external" href="https://docs.etf-validator.net/v2.0/index.html#_developer_manuals">https://docs.etf-validator.net/v2.0/index.html#_developer_manuals</a></p>
 <div class="admonition note">
 <p class="admonition-title">Nota</p>
 <p>Este proyecto solo se incluye en el disco de máquina virtual OSGeoLive (VMDK)</p>
@@ -165,7 +149,7 @@ API in their workflow.</p>
 <section id="quickstart">
 <h2>Guía de Inicio Rápido<a class="headerlink" href="#quickstart" title="Enlazar permanentemente con este título">¶</a></h2>
 <ul class="simple">
-<li><p><a class="reference internal" href="../quickstart/ETF_quickstart.html"><span class="doc">Quickstart documentation</span></a></p></li>
+<li><p>:d oc:”Documentación de inicio rápido &lt;.. uickstart/etf_quickstart=»»&gt;”&lt;/..&gt;</p></li>
 </ul>
 </section>
 </section>
