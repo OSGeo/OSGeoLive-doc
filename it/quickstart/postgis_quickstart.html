@@ -76,28 +76,30 @@
 <div class="contents local topic" id="contents">
 <p class="topic-title">Contenuti</p>
 <ul class="simple">
-<li><p><a class="reference internal" href="#client-server-architecture" id="id1">Architettura client-server</a></p></li>
-<li><p><a class="reference internal" href="#creating-a-spatially-enabled-database" id="id2">Creare un database spaziale</a></p></li>
-<li><p><a class="reference internal" href="#creating-a-spatial-table-using-sql" id="id3">Creare una tabella spaziale usando SQL</a></p></li>
-<li><p><a class="reference internal" href="#simple-queries" id="id4">Interrogazioni semplici</a></p></li>
-<li><p><a class="reference internal" href="#spatial-queries" id="id5">Interrogazioni spaziali</a></p></li>
-<li><p><a class="reference internal" href="#mapping" id="id6">Mappatura</a></p></li>
-<li><p><a class="reference internal" href="#importing-spatial-data-into-the-database" id="id7">Importare dati spaziali nel database</a></p></li>
-<li><p><a class="reference internal" href="#get-to-know-pgadmin" id="id8">Conoscere pgAdmin</a></p></li>
-<li><p><a class="reference internal" href="#executing-a-sql-query-from-pgadmin" id="id9">Eseguire una query SQL da pgAdmin</a></p></li>
-<li><p><a class="reference internal" href="#get-to-know-foreign-data-wrappers-fdw" id="id10">Conoscere i Foreign Data Wrappers (FDW)</a></p></li>
-<li><p><a class="reference internal" href="#connect-to-a-remote-ogr-data-source-via-ogr-fdw" id="id11">Connettersi a un’origine dati OGR remota tramite ogr_fdw</a></p></li>
-<li><p><a class="reference internal" href="#things-to-try" id="id12">Cose da provare</a></p></li>
-<li><p><a class="reference internal" href="#what-next" id="id13">E ora?</a></p></li>
+<li><p><a class="reference internal" href="#client-server-architecture" id="id3">Architettura client-server</a></p></li>
+<li><p><a class="reference internal" href="#creating-a-spatially-enabled-database" id="id4">Creare un database spaziale</a></p></li>
+<li><p><a class="reference internal" href="#creating-a-spatial-table-using-sql" id="id5">Creare una tabella spaziale usando SQL</a></p></li>
+<li><p><a class="reference internal" href="#simple-queries" id="id6">Interrogazioni semplici</a></p></li>
+<li><p><a class="reference internal" href="#spatial-queries" id="id7">Interrogazioni spaziali</a></p></li>
+<li><p><a class="reference internal" href="#mapping" id="id8">Mappatura</a></p></li>
+<li><p><a class="reference internal" href="#importing-spatial-data-into-the-database" id="id9">Importare dati spaziali nel database</a></p></li>
+<li><p><a class="reference internal" href="#get-to-know-phppgadmin-iso-vmdk" id="id10">Get to know phpPgAdmin (ISO &amp; VMDK)</a></p></li>
+<li><p><a class="reference internal" href="#executing-a-sql-query-from-phppgadmin-iso-vmdk" id="id11">Executing a SQL query from phpPgAdmin (ISO &amp; VMDK)</a></p></li>
+<li><p><a class="reference internal" href="#get-to-know-pgadmin-vmdk-only" id="id12">Get to know pgAdmin (VMDK only)</a></p></li>
+<li><p><a class="reference internal" href="#executing-a-sql-query-from-pgadmin-vmdk-only" id="id13">Executing a SQL query from pgAdmin (VMDK only)</a></p></li>
+<li><p><a class="reference internal" href="#get-to-know-foreign-data-wrappers-fdw" id="id14">Conoscere i Foreign Data Wrappers (FDW)</a></p></li>
+<li><p><a class="reference internal" href="#connect-to-a-remote-ogr-data-source-via-ogr-fdw" id="id15">Connettersi a un’origine dati OGR remota tramite ogr_fdw</a></p></li>
+<li><p><a class="reference internal" href="#things-to-try" id="id16">Cose da provare</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id17">E ora?</a></p></li>
 </ul>
 </div>
 <section id="client-server-architecture">
-<h2><a class="toc-backref" href="#id1">Architettura client-server</a><a class="headerlink" href="#client-server-architecture" title="Link a questa intestazione">¶</a></h2>
+<h2><a class="toc-backref" href="#id3">Architettura client-server</a><a class="headerlink" href="#client-server-architecture" title="Link a questa intestazione">¶</a></h2>
 <p>PostgreSQL, come molti database, funziona come un server in un sistema client-server. Il client fa una richiesta al server e riceve una risposta. Questo è lo stesso modo in cui funziona internet - il tuo browser è un cliente e un server web rimanda indietro la pagina web. Con PostgreSQL le richieste sono in linguaggio SQL e la risposta è di solito una tabella di dati dal database.</p>
 <p>Non c’è nulla che impedisca al server di essere sullo stesso computer del client, e questo ti permette di usare PostgreSQL su una sola macchina. Il tuo client si connette al server tramite la connessione di rete interna “loopback”, e non è visibile agli altri computer a meno che tu non lo configuri.</p>
 </section>
 <section id="creating-a-spatially-enabled-database">
-<h2><a class="toc-backref" href="#id2">Creare un database spaziale</a><a class="headerlink" href="#creating-a-spatially-enabled-database" title="Link a questa intestazione">¶</a></h2>
+<h2><a class="toc-backref" href="#id4">Creare un database spaziale</a><a class="headerlink" href="#creating-a-spatially-enabled-database" title="Link a questa intestazione">¶</a></h2>
 <p>I client a riga di comando vengono eseguiti da una finestra dell’Emulatore di Terminale.</p>
 <p>Avvia un Emulatore di Terminale (attualmente LXTerminal) dal menu Applicazioni nella sezione Accessori. In questo modo si ottiene un prompt di comandi della shell Unix. Digita:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">psql</span> <span class="o">-</span><span class="n">V</span>
@@ -210,7 +212,7 @@
 <p>Il tipo PostGIS geometry è il primo e ancora il più popolare tipo usato dagli utenti di PostGIS. Concentrerai la tua attenzione su questo tipo.</p>
 </section>
 <section id="creating-a-spatial-table-using-sql">
-<h2><a class="toc-backref" href="#id3">Creare una tabella spaziale usando SQL</a><a class="headerlink" href="#creating-a-spatial-table-using-sql" title="Link a questa intestazione">¶</a></h2>
+<h2><a class="toc-backref" href="#id5">Creare una tabella spaziale usando SQL</a><a class="headerlink" href="#creating-a-spatial-table-using-sql" title="Link a questa intestazione">¶</a></h2>
 <p>Ora che hai un database spaziale, puoi creare alcune tabelle spaziali.</p>
 <p>Per prima cosa crea una normale tabella di database per memorizzare alcuni dati della città. Questa tabella ha tre campi - uno per un ID numerico che identifica la città, uno per il nome della città e un altro per la colonna della geometria:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># CREATE TABLE cities ( id int4 primary key, name varchar(50), geom geometry(POINT,4326) );</span>
@@ -237,7 +239,7 @@
 <p>Come puoi vedere questo diventa sempre più noioso molto rapidamente. Fortunatamente ci sono altri modi per ottenere dati nelle tabelle PostGIS che sono molto più semplici. Ma ora hai tre città nel tuo database, e puoi lavorare con quello.</p>
 </section>
 <section id="simple-queries">
-<h2><a class="toc-backref" href="#id4">Interrogazioni semplici</a><a class="headerlink" href="#simple-queries" title="Link a questa intestazione">¶</a></h2>
+<h2><a class="toc-backref" href="#id6">Interrogazioni semplici</a><a class="headerlink" href="#simple-queries" title="Link a questa intestazione">¶</a></h2>
 <p>Tutte le solite operazioni SQL possono essere applicate per selezionare i dati da una tabella PostGIS:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># SELECT * FROM cities;</span>
  <span class="nb">id</span> <span class="o">|</span>      <span class="n">name</span>       <span class="o">|</span>                      <span class="n">geom</span>
@@ -261,7 +263,7 @@
 </div>
 </section>
 <section id="spatial-queries">
-<h2><a class="toc-backref" href="#id5">Interrogazioni spaziali</a><a class="headerlink" href="#spatial-queries" title="Link a questa intestazione">¶</a></h2>
+<h2><a class="toc-backref" href="#id7">Interrogazioni spaziali</a><a class="headerlink" href="#spatial-queries" title="Link a questa intestazione">¶</a></h2>
 <p>PostGIS aggiunge molte funzioni con funzionalità spaziali a PostgreSQL. Hai già visto ST_GeomFromText che converte WKT in geometria. La maggior parte di esse inizia con ST (per tipo spaziale) e sono elencate in una sezione della documentazione di PostGIS. Ora ne userai una per rispondere a una domanda pratica - quanto distano queste tre Londra l’una dall’altra, in metri, assumendo una terra sferica?</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># SELECT p1.name,p2.name,ST_DistanceSphere(p1.geom,p2.geom) FROM cities AS p1, cities AS p2 WHERE p1.id &gt; p2.id;</span>
       <span class="n">name</span>       <span class="o">|</span>      <span class="n">name</span>       <span class="o">|</span> <span class="n">st_distancesphere</span>
@@ -296,7 +298,7 @@
 </div>
 </section>
 <section id="mapping">
-<h2><a class="toc-backref" href="#id6">Mappatura</a><a class="headerlink" href="#mapping" title="Link a questa intestazione">¶</a></h2>
+<h2><a class="toc-backref" href="#id8">Mappatura</a><a class="headerlink" href="#mapping" title="Link a questa intestazione">¶</a></h2>
 <p>Per produrre una mappa dai dati PostGIS, hai bisogno di un client che possa arrivare ai dati. La maggior parte dei programmi GIS desktop open source possono farlo - QGIS, gvSIG, uDig per esempio. Ora ti mostrerò come fare una mappa da QGIS.</p>
 <p>Avvia QGIS dal menu Desktop GIS e scegli <code class="docutils literal notranslate"><span class="pre">Aggiungi</span> <span class="pre">layer</span> <span class="pre">PostGIS</span></code> dal menu dei layer. I parametri per la connessione ai dati di Natural Earth in PostGIS sono già definiti nel menu a tendina Connessioni. Qui puoi definire nuove connessioni al server e memorizzare le impostazioni per richiamarle facilmente. Clicca sul menu a tendina Connessioni e scegli Natural Earth. Premi <code class="docutils literal notranslate"><span class="pre">Modifica</span></code> se vuoi vedere quali sono questi parametri per Natural Earth, o premi semplicemente <code class="docutils literal notranslate"><span class="pre">Connetti</span></code> per continuare:</p>
 <a class="reference internal image-reference" href="../../_images/postgis_addlayers.png"><img alt="Connettere a Natural Earth" class="align-center" src="../../_images/postgis_addlayers.png" style="width: 706.5px; height: 474.75px;" /></a>
@@ -307,7 +309,7 @@
 <p>Ora dovresti vedere una mappa dei laghi. QGIS non sa che sono laghi, quindi potrebbe non colorarli di blu per te - usa la documentazione di QGIS per capire come cambiare questo. Ingrandisci un famoso gruppo di laghi in Canada.</p>
 </section>
 <section id="importing-spatial-data-into-the-database">
-<h2><a class="toc-backref" href="#id7">Importare dati spaziali nel database</a><a class="headerlink" href="#importing-spatial-data-into-the-database" title="Link a questa intestazione">¶</a></h2>
+<h2><a class="toc-backref" href="#id9">Importare dati spaziali nel database</a><a class="headerlink" href="#importing-spatial-data-into-the-database" title="Link a questa intestazione">¶</a></h2>
 <p>La maggior parte degli strumenti desktop OSGeo hanno funzioni per importare dati spaziali da altri formati (ad es. ESRI Shape) nel database. Ancora una volta userai QGIS per mostrare questo.</p>
 <p>L’importazione di shapefiles in QGIS può essere fatta tramite il pratico QGIS Database Manager. Trovi il manager nel menu. Vai a <code class="docutils literal notranslate"><span class="pre">Database</span> <span class="pre">-&gt;</span> <span class="pre">DB</span> <span class="pre">Manager</span></code>.</p>
 <p>Distribuisce l’oggetto Postgis, poi l’oggetto NaturalEarth. Si collegherà quindi al database di Natural Earth. Lascia la password in bianco se te lo chiede. Nella voce pubblica, c’è l’elenco dei layer forniti dal database. Vedrai la finestra principale del gestore. Sulla sinistra puoi selezionare le tabelle dal database e usare le schede sulla destra per scoprirle. La scheda Anteprima ti mostrerà una piccola mappa.</p>
@@ -320,9 +322,44 @@
 <p>Lascia che il selettore del sistema di riferimento delle coordinate sia predefinito su (WGS 84 EPSG:4326) e premi <code class="docutils literal notranslate"><span class="pre">OK</span></code>. Lo shapefile dovrebbe essere importato in PostGIS senza errori. Chiudi il DB Manager e torna alla finestra principale di QGIS.</p>
 <p>Ora carica i dati della SIDS nella mappa usando l’opzione “Aggiungi Layer PostGIS”. Con un po” di riordino dei layer e qualche colorazione, dovresti essere in grado di produrre una mappa coropleta dei conteggi della sindrome della morte improvvisa del lattante (campi sid74 o sid79) in North Carolina:</p>
 <a class="reference internal image-reference" href="../../_images/postgis_sidsmap.png"><img alt="Mappatura dei dati SIDS" class="align-center" src="../../_images/postgis_sidsmap.png" style="width: 1036.5px; height: 607.5px;" /></a>
+<div class="admonition warning">
+<p class="admonition-title">Avvertimento</p>
+<p>Depending on the version of OSGeoLive you are using (ISO or VMDK), you will not find the same clients available.
+<code class="docutils literal notranslate"><span class="pre">pgAdmin</span></code> is the official client for PostgreSQL, however, for technical reasons, it can’t do in the ISO,
+so it is only available in the VMDK version.
+The ISO version has the <code class="docutils literal notranslate"><span class="pre">phpPgAdmin</span></code> client which offers the same core functionality.</p>
+</div>
 </section>
-<section id="get-to-know-pgadmin">
-<h2><a class="toc-backref" href="#id8">Conoscere pgAdmin</a><a class="headerlink" href="#get-to-know-pgadmin" title="Link a questa intestazione">¶</a></h2>
+<section id="get-to-know-phppgadmin-iso-vmdk">
+<h2><a class="toc-backref" href="#id10">Get to know phpPgAdmin (ISO &amp; VMDK)</a><a class="headerlink" href="#get-to-know-phppgadmin-iso-vmdk" title="Link a questa intestazione">¶</a></h2>
+<p>In both versions, you can use the graphical database client phpPgAdmin.</p>
+<p>phpPgAdmin lets you use SQL to manipulate your data tables. You can find and launch phpPgAdmin
+from the Databases folder, existing on the OSGeoLive Desktop.</p>
+<a class="reference internal image-reference" href="../../_images/postgis_phppgadmin_main_window.png"><img alt="phpPgAdmin main" class="align-center" src="../../_images/postgis_phppgadmin_main_window.png" style="width: 641.0px; height: 495.5px;" /></a>
+<p>Here, you have the option of creating a new connection to a PostgreSQL server, or connecting to an existing server.
+The red «X» on the  <code class="docutils literal notranslate"><span class="pre">PostgreSQL</span></code> server denotes that you haven’t been yet connected.
+Click on it  then enter the user name  <code class="docutils literal notranslate"><span class="pre">user</span></code> and the master password  <code class="docutils literal notranslate"><span class="pre">user</span></code>.</p>
+<p>Dopo aver stabilito la connessione, puoi vedere l’elenco dei database già esistenti nel sistema.</p>
+<a class="reference internal image-reference" href="../../_images/postgis_phppgadminscreen0.png"><img alt="phpPgAdmin" class="align-center" src="../../_images/postgis_phppgadminscreen0.png" style="width: 961.5px; height: 743.25px;" /></a>
+<p>At this point you are able only to see the existing databases on the system. You can connect, by clicking,
+on plus sign at the left of the name of a database. Do it for the <code class="docutils literal notranslate"><span class="pre">natural_earth2</span></code> database.</p>
+<p>You can see now that there is only one schema in this database called <code class="docutils literal notranslate"><span class="pre">public</span></code>.
+Click on the plus at left of <a href="#id1"><span class="problematic" id="id2">``</span></a>Tables``to expand it, you can see all the tables contained within this schema.</p>
+<a class="reference internal image-reference" href="../../_images/postgis_phppgadminscreen1.png"><img alt="phpPgAdmin" class="align-center" src="../../_images/postgis_phppgadminscreen1.png" style="width: 961.5px; height: 743.25px;" /></a>
+</section>
+<section id="executing-a-sql-query-from-phppgadmin-iso-vmdk">
+<h2><a class="toc-backref" href="#id11">Executing a SQL query from phpPgAdmin (ISO &amp; VMDK)</a><a class="headerlink" href="#executing-a-sql-query-from-phppgadmin-iso-vmdk" title="Link a questa intestazione">¶</a></h2>
+<p>phpPgAdmin offers the capability of executing queries to a relational database.</p>
+<p>To perform a query on the database, click back on the <code class="docutils literal notranslate"><span class="pre">natural_earth2</span></code> database then press the <code class="docutils literal notranslate"><span class="pre">SQL</span></code> button from the main toolbar (the one at the left with the database symbol).</p>
+<p>Troverai il tasso di SIDS sulle nascite per il 1974 per ogni città. Inoltre ordinerai il risultato in base al tasso calcolato. Per fare ciò, devi eseguire la seguente query (presentarla nell’editor di testo della finestra SQL):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">select</span> <span class="n">name</span><span class="p">,</span> <span class="mi">1000</span><span class="o">*</span><span class="n">sid74</span><span class="o">/</span><span class="n">bir74</span> <span class="k">as</span> <span class="n">rate</span> <span class="kn">from</span> <span class="nn">sids</span> <span class="n">order</span> <span class="n">by</span> <span class="n">rate</span><span class="p">;</span>
+</pre></div>
+</div>
+<p>Afterwards, you should press the Execute button.</p>
+<a class="reference internal image-reference" href="../../_images/postgis_phppgadminscreen2.png"><img alt="phpPgAdmin" class="align-center" src="../../_images/postgis_phppgadminscreen2.png" style="width: 961.5px; height: 743.25px;" /></a>
+</section>
+<section id="get-to-know-pgadmin-vmdk-only">
+<h2><a class="toc-backref" href="#id12">Get to know pgAdmin (VMDK only)</a><a class="headerlink" href="#get-to-know-pgadmin-vmdk-only" title="Link a questa intestazione">¶</a></h2>
 <p>Puoi usare il client grafico del database <code class="docutils literal notranslate"><span class="pre">pgAdmin</span></code> dal menu Database per interrogare e modificare il tuo database in modo non spaziale. Questo è il client ufficiale per PostgreSQL.</p>
 <p>pgAdmin ti permette di usare SQL per manipolare le tue tabelle di dati. Puoi trovare e lanciare pgAdmin dalla cartella Databases, esistente sul desktop di OSGeoLive.</p>
 <a class="reference internal image-reference" href="../../_images/postgis_pgadmin_main_window.png"><img alt="pgAdmin" class="align-center" src="../../_images/postgis_pgadmin_main_window.png" style="width: 579.5px; height: 423.5px;" /></a>
@@ -330,13 +367,16 @@
 <p>Qui hai la possibilità di creare una nuova connessione a un server PostgreSQL o di connetterti a un server esistente. In questo caso, ci connetteremo al server predefinito <code class="docutils literal notranslate"><span class="pre">localhost</span></code>.</p>
 <p>Dopo aver stabilito la connessione, puoi vedere l’elenco dei database già esistenti nel sistema.</p>
 <a class="reference internal image-reference" href="../../_images/postgis_adminscreen0.png"><img alt="pgAdmin" class="align-center" src="../../_images/postgis_adminscreen0.png" style="width: 871.5px; height: 639.0px;" /></a>
-<p>La «X» rossa sull’immagine della maggior parte dei database, denota che non sei stato ancora connesso a nessuno di essi (sei connesso solo al database di default <code class="docutils literal notranslate"><span class="pre">postgres</span></code>). A questo punto sei in grado di vedere solo i database esistenti sul sistema. Puoi connetterti cliccando due volte sul nome di un database. Fallo per il database natural_earth2.</p>
+<p>The red «X» on the image of most of the databases, denotes that you haven’t been yet connected to any of them (you are connected only
+to the default <code class="docutils literal notranslate"><span class="pre">postgres</span></code> database).
+At this point you are able only to see the existing databases on the system. You can connect, by double clicking,
+on the name of a database. Do it for the <code class="docutils literal notranslate"><span class="pre">natural_earth2</span></code> database.</p>
 <p>Ora puoi vedere che la X rossa è scomparsa e un «&gt;» è apparso sulla sinistra. Premendolo apparirà un albero che mostra il contenuto del database.</p>
 <p>Naviga al sottoalbero <code class="docutils literal notranslate"><span class="pre">schemi</span></code>, espandilo. Poi espandi lo schema <code class="docutils literal notranslate"><span class="pre">public</span></code>. Navigando ed espandendo le <code class="docutils literal notranslate"><span class="pre">Tables</span></code>, puoi vedere tutte le tabelle contenute in questo schema.</p>
 <a class="reference internal image-reference" href="../../_images/postgis_adminscreen1.png"><img alt="pgAdmin" class="align-center" src="../../_images/postgis_adminscreen1.png" style="width: 872.25px; height: 638.25px;" /></a>
 </section>
-<section id="executing-a-sql-query-from-pgadmin">
-<h2><a class="toc-backref" href="#id9">Eseguire una query SQL da pgAdmin</a><a class="headerlink" href="#executing-a-sql-query-from-pgadmin" title="Link a questa intestazione">¶</a></h2>
+<section id="executing-a-sql-query-from-pgadmin-vmdk-only">
+<h2><a class="toc-backref" href="#id13">Executing a SQL query from pgAdmin (VMDK only)</a><a class="headerlink" href="#executing-a-sql-query-from-pgadmin-vmdk-only" title="Link a questa intestazione">¶</a></h2>
 <p>pgAdmin offre la possibilità di eseguire query a un database relazionale.</p>
 <p>Per eseguire una query sul database, devi premere il pulsante <code class="docutils literal notranslate"><span class="pre">Query</span> <span class="pre">Tool</span></code> dalla barra degli strumenti principale (quella a sinistra con il simbolo del database).</p>
 <p>Troverai il tasso di SIDS sulle nascite per il 1974 per ogni città. Inoltre ordinerai il risultato in base al tasso calcolato. Per fare ciò, devi eseguire la seguente query (presentarla nell’editor di testo della finestra SQL):</p>
@@ -347,7 +387,7 @@
 <a class="reference internal image-reference" href="../../_images/postgis_adminscreen2.png"><img alt="pgAdmin" class="align-center" src="../../_images/postgis_adminscreen2.png" style="width: 870.75px; height: 636.75px;" /></a>
 </section>
 <section id="get-to-know-foreign-data-wrappers-fdw">
-<h2><a class="toc-backref" href="#id10">Conoscere i Foreign Data Wrappers (FDW)</a><a class="headerlink" href="#get-to-know-foreign-data-wrappers-fdw" title="Link a questa intestazione">¶</a></h2>
+<h2><a class="toc-backref" href="#id14">Conoscere i Foreign Data Wrappers (FDW)</a><a class="headerlink" href="#get-to-know-foreign-data-wrappers-fdw" title="Link a questa intestazione">¶</a></h2>
 <p>Dal tuo database puoi accedere a oggetti remoti come tabelle da altri database PostgreSQL o connetterti a database remoti come Oracle, MySQL, MS SQL o CouchDB. È anche possibile connettersi via ODBC, connettersi a CSV, dati geospaziali e persino a Twitter.</p>
 <p>Si trova una lista di diversi FDW all’indirizzo:</p>
 <blockquote>
@@ -384,7 +424,7 @@
 </div>
 </section>
 <section id="connect-to-a-remote-ogr-data-source-via-ogr-fdw">
-<h2><a class="toc-backref" href="#id11">Connettersi a un’origine dati OGR remota tramite ogr_fdw</a><a class="headerlink" href="#connect-to-a-remote-ogr-data-source-via-ogr-fdw" title="Link a questa intestazione">¶</a></h2>
+<h2><a class="toc-backref" href="#id15">Connettersi a un’origine dati OGR remota tramite ogr_fdw</a><a class="headerlink" href="#connect-to-a-remote-ogr-data-source-via-ogr-fdw" title="Link a questa intestazione">¶</a></h2>
 <p>L’estensione <code class="docutils literal notranslate"><span class="pre">ogr_fdw</span></code> permette di collegare anche diversi formati di geodati come KML, GeoPackage, WFS, GeoJSON, GPX, GML e altri.</p>
 <p>Leggi di più su <code class="docutils literal notranslate"><span class="pre">ogr_fdw</span></code>:</p>
 <ul class="simple">
@@ -445,7 +485,7 @@
 </div>
 </section>
 <section id="things-to-try">
-<h2><a class="toc-backref" href="#id12">Cose da provare</a><a class="headerlink" href="#things-to-try" title="Link a questa intestazione">¶</a></h2>
+<h2><a class="toc-backref" href="#id16">Cose da provare</a><a class="headerlink" href="#things-to-try" title="Link a questa intestazione">¶</a></h2>
 <p>Ecco alcune sfide aggiuntive da provare:</p>
 <ul class="simple">
 <li><p>Prova alcune altre funzioni spaziali come <code class="docutils literal notranslate"><span class="pre">st_buffer(geom)</span></code>, <code class="docutils literal notranslate"><span class="pre">st_transform(geom,25831)</span></code>, <code class="docutils literal notranslate"><span class="pre">st_x(geom)</span></code> - troverai la documentazione completa su <a class="reference external" href="http://postgis.net/documentation/">http://postgis.net/documentation/</a></p></li>
@@ -456,7 +496,7 @@
 </ul>
 </section>
 <section id="what-next">
-<h2><a class="toc-backref" href="#id13">E ora?</a><a class="headerlink" href="#what-next" title="Link a questa intestazione">¶</a></h2>
+<h2><a class="toc-backref" href="#id17">E ora?</a><a class="headerlink" href="#what-next" title="Link a questa intestazione">¶</a></h2>
 <p>Questo è solo il primo passo sulla strada per usare PostGIS. Ci sono molte altre funzionalità che puoi provare.</p>
 <ul class="simple">
 <li><p>Sito web del Progetto PostGIS - <a class="reference external" href="http://postgis.net">http://postgis.net</a></p></li>
