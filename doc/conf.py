@@ -222,10 +222,12 @@ linkcheck_ignore = [
         'https://cesium.com/docs',
         # TODO change to https://github.com/geoext/geoext
         r'https://github.com/geoext/geoext3',
-        # TODO change to https://inspire.ec.europa.eu/validator/home/index.html
-        'https://inspire.ec.europa.eu/validator/about/',
+        # TODO all links in inspire are failing: RemoteDisconnected('Remote end closed connection without response'))
+        r'https://inspire.ec.europa.eu',
         # TODO this link is failing: RemoteDisconnected('Remote end closed connection without response'))
         'https://www.iso.org',
+        # TODO this link is failing: 502 Bad Gateway
+        'https://spatialreference.org',
 
         # links to the disk internals
         r'http://localhost', r'https://localhost',
