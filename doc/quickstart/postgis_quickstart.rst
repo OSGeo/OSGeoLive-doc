@@ -464,7 +464,7 @@ a choropleth map of the sudden infant death syndrome counts (sid74 or sid79 fiel
 Get to know phpPgAdmin (ISO & VMDK)
 ===================================
 
-In both version, you can use the graphical database client phpPgAdmin.
+In both versions, you can use the graphical database client phpPgAdmin.
 
 phpPgAdmin lets you use SQL to manipulate your data tables. You can find and launch phpPgAdmin
 from the Databases folder, existing on the OSGeoLive Desktop.
@@ -504,7 +504,7 @@ Click on the plus at left of ``Tables``to expand it, you can see all the tables 
 Executing a SQL query from phpPgAdmin (ISO & VMDK)
 ==================================================
 
-phpPgAdmin, offers the capability of executing queries to a relational database.
+phpPgAdmin offers the capability of executing queries to a relational database.
 
 To perform a query on the database, click back on the ``natural_earth2`` database then press the ``SQL`` button from the main toolbar (the one at the left with the database symbol).
 
