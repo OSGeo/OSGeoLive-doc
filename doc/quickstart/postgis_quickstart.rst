@@ -489,8 +489,10 @@ After connection established, you can see the list of the databases already exis
 At this point you are able only to see the existing databases on the system. You can connect, by clicking,
 on plus sign at the left of the name of a database. Do it for the ``natural_earth2`` database.
 
-You can see now that there is only one schema in this database called ``public``.
-Click on the plus at left of ``Tables``to expand it, you can see all the tables contained within this schema.
+You can see now that there is only one schema in this database called
+``public``.
+Click on the plus at left of ``Tables`` to expand it, you can see all the tables
+contained within this schema.
 
 
 .. image:: /images/projects/postgis/postgis_phppgadminscreen1.png
