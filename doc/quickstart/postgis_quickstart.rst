@@ -6,7 +6,7 @@
 :Reviewer: Nicolas Roelandt
 :Reviewer: Angelos Tzotsos, OSGeo
 :Reviewer: Felicity Brand (Google Season of Docs 2019)
-:Version: osgeolive12.0
+:Version: osgeolive15.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
 .. TBD Cameron Review Comment:
@@ -63,7 +63,7 @@ unless you configure it to be so.
 Creating a spatially-enabled database
 =====================================
 
-Command-line clients run from within a Terminal Emulator window. 
+Command-line clients run from within a Terminal Emulator window.
 
 Start a Terminal Emulator (LXTerminal currently) from the Applications menu in the Accessories section. This gives you a Unix shell command prompt. Type::
 
@@ -72,7 +72,7 @@ Start a Terminal Emulator (LXTerminal currently) from the Applications menu in t
 and hit enter to see the PostgreSQL version number.
 
 A single PostgreSQL server lets you organise work by arranging it into separate
-databases. Each database is an independent regime, with its own tables, views, users 
+databases. Each database is an independent regime, with its own tables, views, users
 and so on. When you connect to a PostgreSQL server you have to specify a
 database.
 
@@ -80,45 +80,45 @@ You can get a list of databases on the server with the::
 
    psql -l
 
-command. You should see several databases used by some of the projects on the system. 
+command. You should see several databases used by some of the projects on the system.
 We will create a new one for this quickstart.
 
-.. tip:: 
-   The list uses a standard unix pager - hit space for next page, :kbd:`b` to go back, :kbd:`q` 
+.. tip::
+   The list uses a standard unix pager - hit space for next page, :kbd:`b` to go back, :kbd:`q`
    to quit, h for help.
 
 PostgreSQL gives us a utility program for creating databases, ``createdb``. We need to
-create a database before adding the PostGIS extensions. We'll call our database ``demo``. 
+create a database before adding the PostGIS extensions. We'll call our database ``demo``.
 The command is then:
 
 ::
 
    createdb demo
 
-.. tip:: 
+.. tip::
    You can usually get help for command line tools by using a ``--help`` option.
 
 
 If you now run ``psql -l`` you should see your ``demo`` database in the listing.
 We have not added the PostGIS extension yet, but in the next section you will learn how.
 
-You can create PostGIS databases using the SQL language. First we'll delete the 
+You can create PostGIS databases using the SQL language. First we'll delete the
 database we just created using the ``dropdb`` command, then use the ``psql`` command
 to get an SQL command interpreter:
 
-:: 
+::
 
   dropdb demo
   psql -d postgres
- 
+
 This connects to the core system database called ``postgres``.
 Now enter the SQL to create a new database:
 
-:: 
+::
 
  postgres=# CREATE DATABASE demo;
 
-Now switch your connection from the ``postgres`` database to the new ``demo`` database. 
+Now switch your connection from the ``postgres`` database to the new ``demo`` database.
 In the future you can connect to it directly with ``psql -d demo``, but here's a neat
 way of switching within the ``psql`` command line:
 
@@ -127,12 +127,12 @@ way of switching within the ``psql`` command line:
  postgres=# \c demo
 
 
-.. tip:: 
-   Hit :kbd:`CTRL` + :kbd:`C` if the psql prompt keeps appearing after pressing return. It will clear your 
+.. tip::
+   Hit :kbd:`CTRL` + :kbd:`C` if the psql prompt keeps appearing after pressing return. It will clear your
    input and start again. It is probably waiting for a closing quote mark, semicolon, or something.
 
 You should see an informational message, and the prompt will change to show that you are now
-connected to the ``demo`` database. 
+connected to the ``demo`` database.
 
 Next, add PostGIS extension:
 
@@ -140,19 +140,19 @@ Next, add PostGIS extension:
 
  demo=# create extension postgis;
 
- 
+
 To verify you have postgis now installed, run the following query:
 
 ::
-	
+
 	demo=# SELECT postgis_version();
-	
+
 	           postgis_version
 	---------------------------------------
 	 2.3 USE_GEOS=1 USE_PROJ=1 USE_STATS=1
 	(1 row)
 
-	
+
 PostGIS installs many functions, a table, and several views
 
 Type ``\dt`` to list the
@@ -162,12 +162,12 @@ tables in the database. You should see something like this:
 
   demo=# \dt
                List of relations
-   Schema |       Name       | Type  | Owner 
+   Schema |       Name       | Type  | Owner
   --------+------------------+-------+-------
    public | spatial_ref_sys  | table | user
   (1 row)
 
-The ``spatial_ref_sys`` table is used by PostGIS for converting between different spatial reference systems. 
+The ``spatial_ref_sys`` table is used by PostGIS for converting between different spatial reference systems.
 The ``spatial_ref_sys`` table stores information
 on valid spatial reference systems, and we can use some SQL to have a quick look:
 
@@ -175,7 +175,7 @@ on valid spatial reference systems, and we can use some SQL to have a quick look
 
   demo=# SELECT srid, auth_name, proj4text FROM spatial_ref_sys LIMIT 10;
 
-   srid | auth_name |          proj4text                                            
+   srid | auth_name |          proj4text
   ------+-----------+--------------------------------------
    3819 | EPSG      | +proj=longlat +ellps=bessel +towgs...
    3821 | EPSG      | +proj=longlat +ellps=aust_SA +no_d...
@@ -189,7 +189,7 @@ on valid spatial reference systems, and we can use some SQL to have a quick look
    4005 | EPSG      | +proj=longlat +a=6377492.018 +b=63...
   (10 rows)
 
-This confirms we have a spatially-enabled database. 
+This confirms we have a spatially-enabled database.
 
 In addition to this table, you'll find several views created when you enable postgis in your database.
 
@@ -197,7 +197,7 @@ Type ``\dv`` to list the
 views in the database. You should see something like this:
 
 ::
-	
+
 	demo=# \dv
 									List of relations
 	 Schema |       Name        | Type |  Owner
@@ -211,16 +211,16 @@ views in the database. You should see something like this:
 PostGIS supports several spatial data types:
 
 	`geometry` - is a data type that stores data as vectors drawn on a flat surface
-	
+
 	`geography` - is a data type that stores data as vectors drawn on a spheroidal surface
-	
-	`raster` - is a data type that stores data as an n-dimensional matrix where each position (pixel) represents 
+
+	`raster` - is a data type that stores data as an n-dimensional matrix where each position (pixel) represents
 		an area of space, and each band (dimension) has a value for each pixel space.
-		
-The ``geometry_columns``, ``geography_columns``, and ``raster_columns`` views have the 
+
+The ``geometry_columns``, ``geography_columns``, and ``raster_columns`` views have the
 job of telling PostGIS which tables have PostGIS geometry, geography, and raster columns.
 
-Overviews are lower resolution tables for raster data. 
+Overviews are lower resolution tables for raster data.
 The ``raster_overviews`` lists such tables and their raster column and the table each is an overview for.
 Raster overview tables are used by tools such as QGIS to provide lower resolution versions of raster data for faster loading.
 
@@ -235,7 +235,7 @@ Creating a Spatial Table using SQL
 Now we have a spatial database we can make some spatial tables.
 
 First we create an ordinary database table to store some city data.
-This table has three fields - one for a numeric ID identifying the city, 
+This table has three fields - one for a numeric ID identifying the city,
 one for the city name, and another for the geometry column:
 
 ::
@@ -255,7 +255,7 @@ that the table currently contains no rows.
 ::
 
   demo=# SELECT * from cities;
-   id | name | geom 
+   id | name | geom
   ----+------+----------
   (0 rows)
 
@@ -269,11 +269,11 @@ from a text format that gives the coordinates and a spatial reference system id:
   demo=# INSERT INTO cities (id, geom, name) VALUES (2,ST_GeomFromText('POINT(-81.233 42.983)',4326),'London, Ontario');
   demo=# INSERT INTO cities (id, geom, name) VALUES (3,ST_GeomFromText('POINT(27.91162491 -33.01529)',4326),'East London,SA');
 
-.. tip:: 
+.. tip::
    Use the arrow keys to recall and edit command lines.
 
 As you can see this gets increasingly tedious very quickly. Luckily there are other ways of getting
-data into PostGIS tables that are much easier. But now we have three cities in our database, and we 
+data into PostGIS tables that are much easier. But now we have three cities in our database, and we
 can work with that.
 
 
@@ -285,7 +285,7 @@ All the usual SQL operations can be applied to select data from a PostGIS table:
 ::
 
  demo=# SELECT * FROM cities;
-  id |      name       |                      geom                      
+  id |      name       |                      geom
  ----+-----------------+----------------------------------------------------
    1 | London, England | 0101000020E6100000BBB88D06F016C0BF1B2FDD2406C14940
    2 | London, Ontario | 0101000020E6100000F4FDD478E94E54C0E7FBA9F1D27D4540
@@ -301,7 +301,7 @@ use ST_X(geom), ST_Y(geom) to get the numeric value of the coordinates:
 ::
 
  demo=# SELECT id, ST_AsText(geom), ST_AsEwkt(geom), ST_X(geom), ST_Y(geom) FROM cities;
-  id |          st_astext           |               st_asewkt                |    st_x     |   st_y    
+  id |          st_astext           |               st_asewkt                |    st_x     |   st_y
  ----+------------------------------+----------------------------------------+-------------+-----------
    1 | POINT(-0.1257 51.508)        | SRID=4326;POINT(-0.1257 51.508)        |     -0.1257 |    51.508
    2 | POINT(-81.233 42.983)        | SRID=4326;POINT(-81.233 42.983)        |     -81.233 |    42.983
@@ -318,12 +318,12 @@ PostgreSQL. We've already seen ST_GeomFromText which converts WKT to
 geometry. Most of them start with ST (for spatial type) and are listed in a section of
 the PostGIS documentation. We'll now use one to answer a practical
 question - how far are these three Londons away from each other, in metres,
-assuming a spherical earth? 
+assuming a spherical earth?
 
 ::
 
  demo=# SELECT p1.name,p2.name,ST_DistanceSphere(p1.geom,p2.geom) FROM cities AS p1, cities AS p2 WHERE p1.id > p2.id;
-       name       |      name       | st_distancesphere 
+       name       |      name       | st_distancesphere
  -----------------+-----------------+--------------------
   London, Ontario | London, England |   5875766.85191657
   East London,SA  | London, England |   9789646.96784908
@@ -344,9 +344,9 @@ spheroid name, semi-major axis and inverse flattening parameters:
 
   demo=# SELECT p1.name,p2.name,ST_DistanceSpheroid(
           p1.geom,p2.geom, 'SPHEROID["GRS_1980",6378137,298.257222]'
-          ) 
+          )
          FROM cities AS p1, cities AS p2 WHERE p1.id > p2.id;
-        name       |      name       | st_distancespheroid 
+        name       |      name       | st_distancespheroid
   -----------------+-----------------+----------------------
    London, Ontario | London, England |     5892413.63776489
    East London,SA  | London, England |     9756842.65711931
@@ -368,7 +368,7 @@ You are now back to system console:
 Mapping
 =======
 
-To produce a map from PostGIS data, you need a client that can get at the data. Most 
+To produce a map from PostGIS data, you need a client that can get at the data. Most
 of the open source desktop GIS programs can do this - QGIS, gvSIG, uDig for example. Now we'll
 show you how to make a map from QGIS.
 
@@ -412,7 +412,7 @@ Most of the OSGeo desktop tools have functions for importing spatial data from o
 Importing shapefiles to QGIS can be done via the handy QGIS Database Manager. You find the manager in the menu. Go to ``Database -> DB Manager``.
 
 Deploys the Postgis item, then the NaturalEarth item. It will then  connect to the Natural Earth database. Leave
-the password blank if it asks. In the public item, there is the list of the layers provided by the database. You'll see the main manager window. On the left you can select 
+the password blank if it asks. In the public item, there is the list of the layers provided by the database. You'll see the main manager window. On the left you can select
 tables from the database and use the tabs on the right find out about them. The Preview tab
 will show you a little map.
 
@@ -425,7 +425,7 @@ We will now use the DB Manager to import a shapefile into the database. We'll us
 the North Carolina sudden infant death syndrome (SIDS) data that is included with one
 of the R statistics package add-ons.
 
-From the ``Table`` menu choose the ``Import layer/file`` option. 
+From the ``Table`` menu choose the ``Import layer/file`` option.
 Hit the ``...`` button and browse to the ``sids.shp`` shapefile in the R directory.
 (located in /home/user/data/vector/R/shapes):
 
@@ -454,21 +454,88 @@ a choropleth map of the sudden infant death syndrome counts (sid74 or sid79 fiel
   :align: center
 
 
+.. warning::
+    Depending on the version of OSGeoLive you are using (ISO or VMDK), you will not find the same clients available.
+    ``pgAdmin`` is the official client for PostgreSQL, however, for technical reasons, it can't do in the ISO,
+    so it is only available in the VMDK version.
+    The ISO version has the ``phpPgAdmin`` client which offers the same core functionality.
 
 
-Get to know pgAdmin
-=======================
+Get to know phpPgAdmin (ISO & VMDK)
+===================================
+
+In both versions, you can use the graphical database client phpPgAdmin.
+
+phpPgAdmin lets you use SQL to manipulate your data tables. You can find and launch phpPgAdmin
+from the Databases folder, existing on the OSGeoLive Desktop.
+
+.. image:: /images/projects/postgis/postgis_phppgadmin_main_window.png
+  :scale: 50 %
+  :alt: phpPgAdmin main
+  :align: center
+
+Here, you have the option of creating a new connection to a PostgreSQL server, or connecting to an existing server.
+The red "X" on the  ``PostgreSQL`` server denotes that you haven't been yet connected.
+Click on it  then enter the user name  ``user`` and the master password  ``user``.
+
+After connection established, you can see the list of the databases already existing in the system.
+
+.. image:: /images/projects/postgis/postgis_phppgadminscreen0.png
+  :scale: 75 %
+  :alt: phpPgAdmin
+  :align: center
+
+
+At this point you are able only to see the existing databases on the system. You can connect, by clicking,
+on plus sign at the left of the name of a database. Do it for the ``natural_earth2`` database.
+
+You can see now that there is only one schema in this database called ``public``.
+Click on the plus at left of ``Tables``to expand it, you can see all the tables contained within this schema.
+
+
+.. image:: /images/projects/postgis/postgis_phppgadminscreen1.png
+  :scale: 75 %
+  :alt: phpPgAdmin
+  :align: center
+
+
+
+
+Executing a SQL query from phpPgAdmin (ISO & VMDK)
+==================================================
+
+phpPgAdmin offers the capability of executing queries to a relational database.
+
+To perform a query on the database, click back on the ``natural_earth2`` database then press the ``SQL`` button from the main toolbar (the one at the left with the database symbol).
+
+We are going to find the rate of the SIDS over the births for the 1974 for each city.
+Furthermore we are going to sort the result, based on the computed rate. To do that, we need to perform the following query (submit it
+on the text editor of the SQL Window):
+
+::
+
+ select name, 1000*sid74/bir74 as rate from sids order by rate;
+
+Afterwards, you should press the Execute button.
+
+.. image:: /images/projects/postgis/postgis_phppgadminscreen2.png
+  :scale: 75 %
+  :alt: phpPgAdmin
+  :align: center
+
+Get to know pgAdmin (VMDK only)
+===============================
 
 You can use the graphical database client ``pgAdmin`` from the Databases menu to query and modify your database non-spatially. This is the official client for PostgreSQL.
 
-pgAdmin lets you use SQL to manipulate your data tables. You can find and launch pgAdmin 
-from the Databases folder, existing on the OSGeoLive Desktop. 
+pgAdmin lets you use SQL to manipulate your data tables. You can find and launch pgAdmin
+from the Databases folder, existing on the OSGeoLive Desktop.
 
 .. image:: /images/projects/postgis/postgis_pgadmin_main_window.png
   :scale: 50 %
   :alt: pgAdmin
   :align: center
-  
+
 Enter the master password  ``user``.
 
 Here, you have the option of creating a new connection to a PostgreSQL server, or connecting to an existing server.
@@ -485,13 +552,13 @@ After connection established, you can see the list of the databases already exis
 The red "X" on the image of most of the databases, denotes that you haven't been yet connected to any of them (you are connected only
 to the default ``postgres`` database).
 At this point you are able only to see the existing databases on the system. You can connect, by double clicking,
-on the name of a database. Do it for the natural_earth2 database.
+on the name of a database. Do it for the ``natural_earth2`` database.
 
 You can see now that the red X disappeared and a ">" appeared on the left. By pressing it a tree is going to appear,
 displaying the contents of the database.
 
-Navigate at the ``schemas`` subtree, expand it. Afterwards expand the 
-``public`` schema. By navigating and expanding the 
+Navigate at the ``schemas`` subtree, expand it. Afterwards expand the
+``public`` schema. By navigating and expanding the
 ``Tables``, you can see all the tables contained within this schema.
 
 
@@ -500,11 +567,12 @@ Navigate at the ``schemas`` subtree, expand it. Afterwards expand the
   :alt: pgAdmin
   :align: center
 
-  
 
 
-Executing a SQL query from pgAdmin
-======================================
+
+Executing a SQL query from pgAdmin (VMDK only)
+==============================================
+
 pgAdmin, offers the capability of executing queries to a relational database.
 
 To perform a query on the database, you have to press the ``Query Tool`` button from the main toolbar (the one at the left with the database symbol).
@@ -523,17 +591,17 @@ Afterwards, you should press the arrow button, pointing to the right (Execute).
   :scale: 75 %
   :alt: pgAdmin
   :align: center
-  
+
 
 Get to know Foreign Data Wrappers (FDW)
 ================================================================================
 
-From you database you can access remote objects like tables from other PostgreSQL databases or connect to remote databases like Oracle, MySQL, MS SQL or CouchDB. 
-You also can connect via ODBC, connect to CSV, Geospatial Data and even to twitter. 
+From you database you can access remote objects like tables from other PostgreSQL databases or connect to remote databases like Oracle, MySQL, MS SQL or CouchDB.
+You also can connect via ODBC, connect to CSV, Geospatial Data and even to twitter.
 
 You find a list of different FDW at:
 
- https://wiki.postgresql.org/wiki/Foreign_data_wrappers 
+ https://wiki.postgresql.org/wiki/Foreign_data_wrappers
 
 Let's see how it works! The easiest way is to connect to a different PostgreSQL database.
 
@@ -561,8 +629,8 @@ Define the user that should be used when you connect to the foreign server
   CREATE USER MAPPING FOR user
         SERVER fdw_pg_server_osm_local
         OPTIONS (user 'user', password 'user');
-        
-Now you can create a foreign table. 
+
+Now you can create a foreign table.
 
 ::
 
@@ -571,7 +639,7 @@ Now you can create a foreign table.
     FROM SERVER fdw_pg_server_osm_local
     INTO public;
 
-Find new tables in your database and have a look at the data from a foreign table. 
+Find new tables in your database and have a look at the data from a foreign table.
 
 ::
 
@@ -585,7 +653,7 @@ GeoPackage, WFS, GeoJSON, GPX, GML and more.
 
 Read more about ``ogr_fdw``:
 
-* Repository: https://github.com/pramsey/pgsql-ogr-fdw 
+* Repository: https://github.com/pramsey/pgsql-ogr-fdw
 * New and improved: http://blog.cleverelephant.ca/2016/04/ogr-fdw-update.html
 
 
@@ -602,9 +670,9 @@ On the database prompt type:
 
 Open a terminal and search for ogr_fdw_info:
 
-:: 
+::
 
- locate ogr_fdw_info 
+ locate ogr_fdw_info
  /usr/lib/postgresql/10/bin/ogr_fdw_info -f
 
 Results might look like these:
@@ -621,7 +689,7 @@ Results might look like these:
   -> "ESRI Shapefile" (read/write)
   -> "MapInfo File" (read/write)
   .... many more
-  
+
 
 
 .. rubric:: Create a FDW to a WFS
@@ -630,10 +698,10 @@ Start Geoserver via :menuselection:`Geospatial --> Web Services --> GeoServer --
 
 * Open GeoServer http://localhost:8082/geoserver/web/
 * GeoServer WFS GetCapabilities http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=GetCapabilities
-* GeoServer WFS DescribeFeatureType for topp:states 
-  `http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=DescribeFeatureType&typename=topp:states 
+* GeoServer WFS DescribeFeatureType for topp:states
+  `http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=DescribeFeatureType&typename=topp:states
   <http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=DescribeFeatureType&typename=topp:states>`__
-* GeoServer WFS GetFeature topp:states 
+* GeoServer WFS GetFeature topp:states
   `http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&typename=topp:states
   <http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&typename=topp:states>`__
 
@@ -643,12 +711,12 @@ Start Geoserver via :menuselection:`Geospatial --> Web Services --> GeoServer --
 ::
 
   CREATE SERVER fdw_ogr_server_wfs
-  FOREIGN DATA WRAPPER ogr_fdw 
+  FOREIGN DATA WRAPPER ogr_fdw
   OPTIONS ( datasource 'WFS:http://localhost:8082/geoserver/ows', format 'WFS' );
 
 .. rubric:: Import all WFS feature_types as foreign tables with one command.
 
-After the import you will see several new foreign tables in your schema. 
+After the import you will see several new foreign tables in your schema.
 
 ::
 
@@ -660,7 +728,7 @@ After the import you will see several new foreign tables in your schema.
 
 ::
 
- SELECT * FROM topp_states WHERE state_name = 'Minnesota';  
+ SELECT * FROM topp_states WHERE state_name = 'Minnesota';
 
 
 Things to try
