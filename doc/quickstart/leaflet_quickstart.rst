@@ -63,11 +63,11 @@ Now you are ready to initialize the map and do some stuff with it.
 
 Setting up the Map
 ================================================================================
-Let's create a map of eastern Africa with an indication of the 2018 FOSS4G conference. First we'll initialize the map and set its view to our chosen geographical coordinates and a zoom level:
+Let's create a map of Firenze, Italy with an indication of the 2022 FOSS4G conference. First we'll initialize the map and set its view to our chosen geographical coordinates and a zoom level:
 
 .. code-block:: javascript 
 
- var map = L.map('map').setView([44.43743, 26.104], 15);
+ var map = L.map('map').setView([43.77913, 11.24938], 15);
 
 By default (as we didn't pass any options when creating the map instance), all mouse and touch interactions on the map are enabled, and it has zoom and attribution controls.
 
@@ -100,13 +100,13 @@ Let's add a marker:
 
 .. code-block:: javascript 
 
- var marker = L.marker([44.437 ,26.104]).addTo(map);
+ var marker = L.marker([43.77913, 11.24938]).addTo(map);
 
 Adding a circle is the same (except for specifying the radius in meters as a second argument), but lets you control how it looks by passing options as the last argument when creating the object:
 
 .. code-block:: javascript
 
- var circle = L.circle([44.435, 26.11], 250, {
+ var circle = L.circle([43.777, 11.255], 250, {
     color: 'red',
     fillColor: '#f03',
     fillOpacity: 0.5
@@ -117,9 +117,9 @@ Adding a polygon is as easy:
 .. code-block:: javascript
 
  var polygon = L.polygon([
-     [44.433, 26.102],
-     [44.442, 26.095],
-     [44.436, 26.093]
+     [43.775, 11.247],
+     [43.784, 11.240],
+     [43.778, 11.238]
  ]).addTo(map);
 
 
@@ -131,8 +131,8 @@ Popups are usually used when you want to attach some information to a particular
 .. code-block:: javascript 
 
  var popup = L.popup()
-    .setLatLng([44.437, 26.104])
-    .setContent("I am a standalone popup.")
+    .setLatLng([43.77913, 11.24938])
+    .setContent("FOSS4G is here this year!")
     .openOn(map);
 
 Here we use **openOn** instead of **addTo** because it handles automatic closing of a previously opened popup when opening a new one which is good for usability.
