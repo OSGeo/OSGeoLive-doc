@@ -325,7 +325,7 @@ rst_epilog="""
 .. |FE| replace:: `Filter Encoding (FE) <https://www.ogc.org/standards/filter>`__
 .. |ISO19105| replace:: `ISO 19105 <https://committee.iso.org/sites/tc211/home/projects/projects---complete-list/iso-19105.html>`__
 .. |KML| replace:: `KML <https://www.ogc.org/standards/kml>`__
-.. |OGCAPIFEATURES| replace:: `OGC API-Features <https://www.ogc.org/standards/ogcapi-features>`__
+.. |OGCAPIFEATURES| replace:: `OGC API - Features <https://www.ogc.org/standards/ogcapi-features>`__
 .. |ORM| replace:: `OGC Reference Model (ORM) <https://www.ogc.org/standards/orm>`__
 .. |SENSORML| replace:: `Sensor Model Language (SensorML) <https://www.ogc.org/standards/sensorml>`__
 .. |SFS| replace:: `Simple Feature Access (SFS) <https://www.ogc.org/standards/sfs>`__
