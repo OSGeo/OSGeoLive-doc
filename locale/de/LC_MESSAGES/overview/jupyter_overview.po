@@ -5,7 +5,7 @@
 # 
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2019
-# Astrid Emde <astrid_emde@osgeo.org>, 2021
+# Astrid Emde <astrid_emde@osgeo.org>, 2022
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-13 22:52+0000\n"
 "PO-Revision-Date: 2017-09-20 16:07+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
+"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2022\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -66,13 +66,15 @@ msgstr ""
 
 #: ../../build/doc/overview/jupyter_overview.rst-1
 msgid "jupyter screenshot"
-msgstr ""
+msgstr "Jupyter Screenshot"
 
 #: ../../build/doc/overview/jupyter_overview.rst:37
 msgid ""
 "Notebooks can be shared with others on GitHub, Dropbox, and the `Jupyter "
 "Notebook Viewer <https://nbviewer.org>`__."
 msgstr ""
+"Notebooks können mit anderen auf GitHub, Dropbox und dem `Jupyter Notebook "
+"Viewer <https://nbviewer.org>`__. geteilt werden."
 
 #: ../../build/doc/overview/jupyter_overview.rst:40
 msgid ""
@@ -90,6 +92,7 @@ msgstr "Kernfunktionen"
 #: ../../build/doc/overview/jupyter_overview.rst:47
 msgid "Create Jupyter Notebooks which can contain:"
 msgstr ""
+"Erstellen Sie Jupyter-Notebooks, die folgende Angaben enthalten können:"
 
 #: ../../build/doc/overview/jupyter_overview.rst:49
 msgid "Marked up text (with headings, styles, paragraphs, etc)"
@@ -101,17 +104,20 @@ msgstr "Formeln, Mathematik, Plots, Karten, ..."
 
 #: ../../build/doc/overview/jupyter_overview.rst:51
 msgid "Imported external libraries to add functionality"
-msgstr ""
+msgstr "Importierte externe Bibliotheken, um Funktionalität hinzuzufügen."
 
 #: ../../build/doc/overview/jupyter_overview.rst:52
 msgid ""
 "Code from multiple programming languages, including Python, R, Julia, Bash "
 "and many more."
 msgstr ""
+"Code mehrerer Programmiersprachen, einschließlich Python, R, Julia, Bash und"
+" vielen mehr."
 
 #: ../../build/doc/overview/jupyter_overview.rst:54
 msgid "Jupyter Notebooks on OSGeoLive can use geospatial functions from:"
 msgstr ""
+"Jupyter-Notebooks auf OSGeoLive können räumliche Funktionen verwenden aus:"
 
 #: ../../build/doc/overview/jupyter_overview.rst:56
 msgid ""
@@ -127,11 +133,11 @@ msgstr "Details"
 
 #: ../../build/doc/overview/jupyter_overview.rst:62
 msgid "**Website:** https://jupyter.org/"
-msgstr ""
+msgstr "**Webseite:** https://jupyter.org/"
 
 #: ../../build/doc/overview/jupyter_overview.rst:64
 msgid "**Licence:** The 3-Clause BSD License"
-msgstr ""
+msgstr "**Lizenz:** 3-Clause BSD License"
 
 #: ../../build/doc/overview/jupyter_overview.rst:66
 msgid "**Software Version:** |version-jupyter|"
@@ -147,7 +153,7 @@ msgstr "**API Schnittstellen:** Python"
 
 #: ../../build/doc/overview/jupyter_overview.rst:72
 msgid "**Support:** https://jupyter.org/community.html"
-msgstr ""
+msgstr "**Support:** https://jupyter.org/community.html"
 
 #: ../../build/doc/overview/jupyter_overview.rst:78
 msgid "Quickstart"
@@ -161,16 +167,16 @@ msgstr ""
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Project"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Community"

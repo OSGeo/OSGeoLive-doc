@@ -109,7 +109,7 @@ msgstr "Standards implementati"
 
 #: ../../build/doc/overview/pywps_overview.rst:54
 msgid "OGC Standards:"
-msgstr "Standards OGC:"
+msgstr "Standard OGC:"
 
 #: ../../build/doc/overview/pywps_overview.rst:56
 msgid "WPS 1.0.0"

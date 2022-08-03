@@ -130,7 +130,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:82
 msgid "This information:"
-msgstr ""
+msgstr "Ezt az információt:"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:84
 msgid "Includes a description of the Test Suite."
@@ -427,29 +427,31 @@ msgstr ""
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:275
 msgid "Executable Test Suites"
-msgstr ""
+msgstr "Végrehajtható tesztcsomagok"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:276
 msgid "Test Modules (bundles Test Cases)"
-msgstr ""
+msgstr "Tesztmodulok (tesztesetek összessége)"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:277
 msgid "Test Cases (bundles Test Steps)"
-msgstr ""
+msgstr "Tesztesetek (tesztlépések összessége)"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:278
 msgid "Test Steps (interactions with the service, bundles Test Assertions)"
-msgstr ""
+msgstr "Tesztlépések (interakciók a szolgáltatással, teszt kifejezések)"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:279
 msgid "Test Assertions (atomic tests)"
-msgstr ""
+msgstr "Teszt kifejezések (atomikus tesztek)"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:281
 msgid ""
 "In a file-based test, Test Modules and Test Steps do not exist and are not "
 "shown in the report."
 msgstr ""
+"Fájl alapú teszt esetén nincsenek Tesztmodulok és Tesztlépések és nem "
+"jelennek meg a jelentésben."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:284
 msgid ""
@@ -527,7 +529,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:326
 msgid "Please also check:"
-msgstr ""
+msgstr "Kérjük ellenőrizze még:"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:328
 msgid "`User manual`_"
