@@ -37,7 +37,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rstNone
 msgid "MapProxy diagram"
-msgstr ""
+msgstr "MapProxy diagram"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:31
 msgid ""

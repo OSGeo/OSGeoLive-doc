@@ -124,6 +124,11 @@ msgid ""
 "1.1.0 and 1.0.0) is configured that allows to access the raw vector data, "
 "backed by shapefiles, in GML format."
 msgstr ""
+"A demó munkaterület egy web térkép beállítást tartalmaz, mely Utah állam "
+"adataira épül.és WMS (1.3.0 és 1.1.1) konfigurációt tartalmaz, mely vektor "
+"rétegből és változatos megjelenítési stílusokból áll. Továbbá egy WFS-t "
+"(2.0.0, 1.1.0 és 1.0.0) is konfiguráltak, mely lehetővé teszi a nyers vektor"
+" shape fájl adatok elérését GML formátumban."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:62
 msgid ""
@@ -131,6 +136,9 @@ msgid ""
 "the workspace *deegree-workspace-utah* through the workspace management "
 "(internet connection is required)."
 msgstr ""
+"További raszter adatokat tartalmazó konfiguráció példákhoz a *deegree-"
+"workspace-utah* munkaterületet importálhatja a munkaterület kezelésen "
+"keresztül (internet kapcsolat szükséges)."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:66
 msgid "View a map"

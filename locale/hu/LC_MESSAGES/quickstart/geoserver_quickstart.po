@@ -216,7 +216,7 @@ msgstr "Nyomja meg :guilabel:`save` gombot."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:0
 msgid "The Natural Earth Datastore"
-msgstr ""
+msgstr "A Natural Earth adattár"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:126
 msgid ""
@@ -378,7 +378,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:0
 msgid "The Style Pane"
-msgstr ""
+msgstr "A stílus panel"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:206
 msgid "Click ``OK`` and |UG| will display the changes."
@@ -468,7 +468,7 @@ msgstr "Nyomja meg a :guilabel:`Submit` gombot az oldal alján."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst-1
 msgid "Adding a Style to GeoServer"
-msgstr ""
+msgstr "Stílus hozzáadása GeoServer-hez"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:254
 msgid "Adding the style to the layer"
@@ -611,7 +611,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:0
 msgid "OpenLayers preview of a NetCDF layer"
-msgstr ""
+msgstr "OpenLayers előnézet a NetCDF réteghez"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:339
 msgid ""

@@ -77,7 +77,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rstNone
 msgid "EOxServer demonstration start"
-msgstr ""
+msgstr "EOxServer demonstráció indítás"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:49
 msgid "Work with the Web Client"
@@ -99,7 +99,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rstNone
 msgid "Main view of the EOxServer Web Client"
-msgstr ""
+msgstr "EOxServer Web kliens fő nézet"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:60
 msgid ""
@@ -204,7 +204,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rstNone
 msgid "EOxServer demonstration admin client login"
-msgstr ""
+msgstr "EOxServer bemutató admin kliens bejelentkezés"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:123
 msgid ""
@@ -220,7 +220,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rstNone
 msgid "EOxServer demonstration admin client start"
-msgstr ""
+msgstr "EOxServer bemutató admin kliens indítás"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:132
 msgid ""

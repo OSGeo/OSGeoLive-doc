@@ -584,7 +584,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:0
 msgid "create multipolygon"
-msgstr ""
+msgstr "többrészű zárt alakzat létrehozása"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:207
 msgid ""
@@ -596,7 +596,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:0
 msgid "part of multipolygon"
-msgstr ""
+msgstr "többrészű zárt alakzat része"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:215
 msgid "Saving your changes"

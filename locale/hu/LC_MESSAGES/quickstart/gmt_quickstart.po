@@ -216,10 +216,14 @@ msgid ""
 "examples available in the `src` code. There are 30 example jobs built in, to"
 " test"
 msgstr ""
+"Menjen végig a `GMT oktatóanyagon "
+"<https://gmt.soest.hawaii.edu/doc/latest/GMT_Tutorial.html>` és kövesse az "
+"elérhető példákat az `src` kódban. 30 példafeladatot építettek be a "
+"teszteléshez"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:137
 msgid "Open a terminal, then execute the example"
-msgstr ""
+msgstr "Nyisson egy terminált és hajtsa végre a példát"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:145
 msgid ""

@@ -143,7 +143,7 @@ msgstr "Húzza ki a réteget a böngésző panelból és dobja be a térkép ker
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS browser add vector layer"
-msgstr ""
+msgstr "QGIS böngésző és vektor réteg"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:83
 msgid ""
@@ -167,7 +167,7 @@ msgstr "Válassza a 'HYP_50M_SR_W.tif'-et."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS browser add raster layer"
-msgstr ""
+msgstr "QGIS böngésző és raszter réteg"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:101
 msgid ""
@@ -195,7 +195,7 @@ msgstr "Válassza a :menuselection:`Project --> Save`-t a menüből."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS save"
-msgstr ""
+msgstr "QGIS mentés"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:117
 msgid "Make the location to save the project '/home/user/desktop'."
@@ -226,7 +226,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS saved project"
-msgstr ""
+msgstr "QGIS mentett projekt"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:134
 msgid "Open an existing project"

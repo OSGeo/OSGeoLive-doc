@@ -40,6 +40,8 @@ msgid ""
 "A complete beginner tutorial can be found on `localhost/geostyler "
 "<http://localhost/geostyler>`__."
 msgstr ""
+"Egy teljesen kezdőknek szóló oktatóanyag található itt `localhost/geostyler "
+"<http://localhost/geostyler>`__."
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:23
 msgid ""
