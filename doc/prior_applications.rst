@@ -10,6 +10,10 @@ Previously available applications
     :widths: 5, 15, 15, 10, 30
     :delim: %
 
+    |nologo| % LibLAS_          % `QuickStart <LibLAS_q_>`__     %   13.0 %  LiDAR Data Access
+    |nologo| % MapSlicer_       % `QuickStart <MapSlicer_q_>`__  %   13.0 %  Create Map Tiles
+    |osgeo_project| % Geomajas_ % `QuickStart <Geomajas_q_>`__   %   13.0 %  Browser GIS Client
+    |osgeo_project| % OSSIM_    % `QuickStart <OSSIM_q_>`__      %   11.0 %  Image Processing
     |nologo| % `OGC Standards`_ %                                %   10.5 %  OGC Standards descriptions
     |nologo| % Viking_          % `QuickStart <Viking_q_>`__     %   10.5 %  GPS Data Analysis and Viewer
     |nologo| % Ushahidi_        % `QuickStart <Ushahidi_q_>`__   %   10.5 %  Mapping and Timeline for events
@@ -32,6 +36,10 @@ Previously available applications
     |osgeo_project| % MapGuide_ %  `QuickStart <MapGuide_q_>`__ %   5.0 %   Web Service
 
 
+.. _LibLAS: https://live.osgeo.org/archive/13.0/en/overview/liblas_overview.html
+.. _MapSlicer: https://live.osgeo.org/archive/13.0/en/overview/mapslicer_overview.html
+.. _Geomajas: https://live.osgeo.org/archive/13.0/en/overview/geomajas_overview.html
+.. _OSSIM: https://live.osgeo.org/archive/11.0/en/overview/ossim_overview.html
 .. _OGC Standards: https://live.osgeo.org/archive/10.5/en/standards/standards.html
 .. _Viking: https://live.osgeo.org/archive/10.5/en/overview/viking_overview.html
 .. _Ushahidi: https://live.osgeo.org/archive/10.5/en/overview/ushahidi_overview.html
@@ -54,7 +62,10 @@ Previously available applications
 .. _MapGuide: https://live.osgeo.org/archive/5.0/en/overview/mapguide_overview.html
 
 
-.. _MapGuide_q: https://live.osgeo.org/archive/5.0/en/quickstart/mapguide_quickstart.html
+.. _LibLAS_q: https://live.osgeo.org/archive/13.0/en/quickstart/liblas_quickstart.html
+.. _MapSlicer_q: https://live.osgeo.org/archive/13.0/en/quickstart/mapslicer_quickstart.html
+.. _Geomajas_q: https://live.osgeo.org/archive/13.0/en/quickstart/geomajas_quickstart.html
+.. _OSSIM_q: https://live.osgeo.org/archive/11.0/en/quickstart/ossim_quickstart.html
 .. _Viking_q: https://live.osgeo.org/archive/10.5/en/quickstart/viking_quickstart.html
 .. _Ushahidi_q: https://live.osgeo.org/archive/10.5/en/quickstart/ushahidi_quickstart.html
 .. _TinyOWS_q: https://live.osgeo.org/archive/10.5/en/quickstart/tinyows_quickstart.html
