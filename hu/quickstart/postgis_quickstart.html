@@ -83,10 +83,10 @@
 <li><p><a class="reference internal" href="#spatial-queries" id="id5">Térbeli lekérdezések</a></p></li>
 <li><p><a class="reference internal" href="#mapping" id="id6">Térkép</a></p></li>
 <li><p><a class="reference internal" href="#importing-spatial-data-into-the-database" id="id7">Téradatok importálása az adatbázisba</a></p></li>
-<li><p><a class="reference internal" href="#get-to-know-phppgadmin-iso-vmdk" id="id8">Get to know phpPgAdmin (ISO &amp; VMDK)</a></p></li>
-<li><p><a class="reference internal" href="#executing-a-sql-query-from-phppgadmin-iso-vmdk" id="id9">Executing a SQL query from phpPgAdmin (ISO &amp; VMDK)</a></p></li>
-<li><p><a class="reference internal" href="#get-to-know-pgadmin-vmdk-only" id="id10">Get to know pgAdmin (VMDK only)</a></p></li>
-<li><p><a class="reference internal" href="#executing-a-sql-query-from-pgadmin-vmdk-only" id="id11">Executing a SQL query from pgAdmin (VMDK only)</a></p></li>
+<li><p><a class="reference internal" href="#get-to-know-phppgadmin-iso-vmdk" id="id8">Ismerje meg a phpPgAdmin-t (ISO &amp; VMDK)</a></p></li>
+<li><p><a class="reference internal" href="#executing-a-sql-query-from-phppgadmin-iso-vmdk" id="id9">SQL lekérdezés végrehajtása phpPgAdmin-ból (ISO &amp; VMDK)</a></p></li>
+<li><p><a class="reference internal" href="#get-to-know-pgadmin-vmdk-only" id="id10">Ismerje meg a pgAdmint-t (csak VMDK)</a></p></li>
+<li><p><a class="reference internal" href="#executing-a-sql-query-from-pgadmin-vmdk-only" id="id11">Egy SQL lekérdezés végrehajtása a pgAdmin-ból (csak VMDK)</a></p></li>
 <li><p><a class="reference internal" href="#get-to-know-foreign-data-wrappers-fdw" id="id12">Foreign Data Wrappers (FDW) megismerése</a></p></li>
 <li><p><a class="reference internal" href="#connect-to-a-remote-ogr-data-source-via-ogr-fdw" id="id13">Csatlakozzon egy távoli OGR adatforráshoz az ogr_fdw-n keresztül</a></p></li>
 <li><p><a class="reference internal" href="#things-to-try" id="id14">Kipróbálandó dolgok</a></p></li>
@@ -316,7 +316,7 @@
 <a class="reference internal image-reference" href="../../_images/postgis_managerpreview.png"><img alt="QGIS Manager Preview" class="align-center" src="../../_images/postgis_managerpreview.png" style="width: 929.25px; height: 599.25px;" /></a>
 <p>Most a DB kezelőt használjuk egy shape fájl adatbázisba importálásához. Az észak karolinai hirtelen csecsemőhalál-szindróma adatokat fogjuk használni, melyeket az egyik R statisztikai bővítmény tartalmazza.</p>
 <p>A <code class="docutils literal notranslate"><span class="pre">Table</span></code> menüből válassza az <code class="docutils literal notranslate"><span class="pre">Import</span> <span class="pre">layer/file</span></code> opciót. Kattintson a  <code class="docutils literal notranslate"><span class="pre">...</span></code> gombra és tallózzon a <code class="docutils literal notranslate"><span class="pre">sids.shp</span></code> shape fájlhoz az R könyvtárban (a /usr/local/lib/R/site-library/spData/shapes mappában):</p>
-<a class="reference internal image-reference" href="../../_images/postgis_browsedata.png"><img alt="Find the shapefile" class="align-center" src="../../_images/postgis_browsedata.png" style="width: 631.5px; height: 312.0px;" /></a>
+<a class="reference internal image-reference" href="../../_images/postgis_browsedata.png"><img alt="Shape fájl megkeresés" class="align-center" src="../../_images/postgis_browsedata.png" style="width: 631.5px; height: 312.0px;" /></a>
 <p>Hagyjon minden mást változatlanul és kattintson a <code class="docutils literal notranslate"><span class="pre">Load</span></code>-ra</p>
 <a class="reference internal image-reference" href="../../_images/postgis_importsids.png"><img alt="Egy shape fájl importálása" class="align-center" src="../../_images/postgis_importsids.png" style="width: 346.5px; height: 400.5px;" /></a>
 <p>Hagyja a vetületi rendszer kiválasztását az alapértelmezetten (WGS 84 EPSG:4326) és kattintson az <code class="docutils literal notranslate"><span class="pre">OK</span></code>-ra. A shape fájlt hiba nélkül kellene importálnia a rendszernek. Zárja be a DB kezelőt és térjen vissza a QGIS fő ablakhoz.</p>
@@ -324,44 +324,34 @@
 <a class="reference internal image-reference" href="../../_images/postgis_sidsmap.png"><img alt="SIDS data mapped" class="align-center" src="../../_images/postgis_sidsmap.png" style="width: 1036.5px; height: 607.5px;" /></a>
 <div class="admonition warning">
 <p class="admonition-title">Figyelem</p>
-<p>Depending on the version of OSGeoLive you are using (ISO or VMDK), you will not find the same clients available.
-<code class="docutils literal notranslate"><span class="pre">pgAdmin</span></code> is the official client for PostgreSQL, however, for technical reasons, it can’t do in the ISO,
-so it is only available in the VMDK version.
-The ISO version has the <code class="docutils literal notranslate"><span class="pre">phpPgAdmin</span></code> client which offers the same core functionality.</p>
+<p>Az OSGeoLive verziójától függően (ISO vagy VMDK), nem ugyanazokat a klienseket találják meg. Bár a <code class="docutils literal notranslate"><span class="pre">pgAdmin</span></code> a PostgreSQL hivatalos kliense, technikai okokból nem oldható meg az ISO verzióban, így ez csak VMDK verzióban érhető el. Az ISO vezió a <code class="docutils literal notranslate"><span class="pre">phpPgAdmin</span></code> klienst tartalmazza, mely ugyanazt az alapfunkcionalitást kínálja.</p>
 </div>
 </section>
 <section id="get-to-know-phppgadmin-iso-vmdk">
-<h2><a class="toc-backref" href="#id8">Get to know phpPgAdmin (ISO &amp; VMDK)</a><a class="headerlink" href="#get-to-know-phppgadmin-iso-vmdk" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
-<p>In both versions, you can use the graphical database client phpPgAdmin.</p>
-<p>phpPgAdmin lets you use SQL to manipulate your data tables. You can find and launch phpPgAdmin
-from the Databases folder, existing on the OSGeoLive Desktop.</p>
-<a class="reference internal image-reference" href="../../_images/postgis_phppgadmin_main_window.png"><img alt="phpPgAdmin main" class="align-center" src="../../_images/postgis_phppgadmin_main_window.png" style="width: 396.0px; height: 227.0px;" /></a>
-<p>Here, you have the option of creating a new connection to a PostgreSQL server, or connecting to an existing server.
-The red „X” on the  <code class="docutils literal notranslate"><span class="pre">PostgreSQL</span></code> server denotes that you haven’t been yet connected.
-Click on it  then enter the user name  <code class="docutils literal notranslate"><span class="pre">user</span></code> and the master password  <code class="docutils literal notranslate"><span class="pre">user</span></code>.</p>
+<h2><a class="toc-backref" href="#id8">Ismerje meg a phpPgAdmin-t (ISO &amp; VMDK)</a><a class="headerlink" href="#get-to-know-phppgadmin-iso-vmdk" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<p>Mindkét verzióban használhatja a grafikus adatbázist klienst, a phpPgAdmin-t.</p>
+<p>A pgAdmin lehetővé teszi az adattábláinak kezelését az SQL használatával. Az OSGeoLive asztalán lévő Databases mappában találja és indíthatja a phpPgAdmin-t.</p>
+<a class="reference internal image-reference" href="../../_images/postgis_phppgadmin_main_window.png"><img alt="phpPgAdmin főablak" class="align-center" src="../../_images/postgis_phppgadmin_main_window.png" style="width: 396.0px; height: 227.0px;" /></a>
+<p>Itt lehetősége van új kapcsolatot létrehozni egy PostgreSQL kiszolgálóval, vagy csatlakozhat egy meglévő szerverhez. A piros „X” a <code class="docutils literal notranslate"><span class="pre">PostgreSQL</span></code> szerveren azt jelzi, hogy még nem csatlakozott. Kattintson rá, majd írja be a <code class="docutils literal notranslate"><span class="pre">user</span></code> felhasználónevet és a <code class="docutils literal notranslate"><span class="pre">user</span></code> jelszót.</p>
 <p>A kapcsolat létrejötte után láthatja a rendszerben már meglévő adatbázisok listáját.</p>
 <a class="reference internal image-reference" href="../../_images/postgis_phppgadminscreen0.png"><img alt="phpPgAdmin" class="align-center" src="../../_images/postgis_phppgadminscreen0.png" style="width: 666.75px; height: 353.25px;" /></a>
-<p>At this point you are able only to see the existing databases on the system. You can connect, by clicking,
-on plus sign at the left of the name of a database. Do it for the <code class="docutils literal notranslate"><span class="pre">natural_earth2</span></code> database.</p>
-<p>You can see now that there is only one schema in this database called
-<code class="docutils literal notranslate"><span class="pre">public</span></code>.
-Click on the plus at left of <code class="docutils literal notranslate"><span class="pre">Tables</span></code> to expand it, you can see all the tables
-contained within this schema.</p>
+<p>Ezen a ponton csak a rendszer meglévő adatbázisait láthatja. Az adatbázis nevétől balra található plusz jelre kattintva csatlakozhat. Tegye ezt a <code class="docutils literal notranslate"><span class="pre">natural_earth2</span></code> adatbázisnál.</p>
+<p>Most láthatja, hogy ebben az adatbázisban csak egy séma található, a <code class="docutils literal notranslate"><span class="pre">public</span></code> nevű. Kattintson a <code class="docutils literal notranslate"><span class="pre">Tables</span></code> bal oldalán lévő pluszjelre a kibontásához, megtekintheti a sémán belüli összes táblát.</p>
 <a class="reference internal image-reference" href="../../_images/postgis_phppgadminscreen1.png"><img alt="phpPgAdmin" class="align-center" src="../../_images/postgis_phppgadminscreen1.png" style="width: 848.25px; height: 538.5px;" /></a>
 </section>
 <section id="executing-a-sql-query-from-phppgadmin-iso-vmdk">
-<h2><a class="toc-backref" href="#id9">Executing a SQL query from phpPgAdmin (ISO &amp; VMDK)</a><a class="headerlink" href="#executing-a-sql-query-from-phppgadmin-iso-vmdk" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
-<p>phpPgAdmin offers the capability of executing queries to a relational database.</p>
-<p>To perform a query on the database, click back on the <code class="docutils literal notranslate"><span class="pre">natural_earth2</span></code> database then press the <code class="docutils literal notranslate"><span class="pre">SQL</span></code> button from the main toolbar (the one at the left with the database symbol).</p>
+<h2><a class="toc-backref" href="#id9">SQL lekérdezés végrehajtása phpPgAdmin-ból (ISO &amp; VMDK)</a><a class="headerlink" href="#executing-a-sql-query-from-phppgadmin-iso-vmdk" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<p>phpPgAdmin a lekérdezések végrehajtásának lehetőségét biztosítja a relációs adatbázisból.</p>
+<p>Az adatbázison történő lekérdezés végrehajtásához kattintson vissza a  <code class="docutils literal notranslate"><span class="pre">natural_earth2</span></code> adatbázishoz majd nyomja meg az <code class="docutils literal notranslate"><span class="pre">SQL</span></code> gombot a fő eszközsorból (a bal szélén az adatbázis szimbólumot tartalmazóból).</p>
 <p>Az SIDS arányát keressük a születésekhez minden városban 1974-ben. Továbbá rendezzük az eredményt a számított arányok alapján. Ehhez a következő lekérdezést kell végrehajtanunk (küldje el ezt az SQL ablak szövegszerkesztőjéből):</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">select</span> <span class="n">name</span><span class="p">,</span> <span class="mi">1000</span><span class="o">*</span><span class="n">sid74</span><span class="o">/</span><span class="n">bir74</span> <span class="k">as</span> <span class="n">rate</span> <span class="kn">from</span> <span class="nn">sids</span> <span class="n">order</span> <span class="n">by</span> <span class="n">rate</span><span class="p">;</span>
 </pre></div>
 </div>
-<p>Afterwards, you should press the Execute button.</p>
+<p>Ezután nyomja meg az Execute gombot.</p>
 <a class="reference internal image-reference" href="../../_images/postgis_phppgadminscreen2.png"><img alt="phpPgAdmin" class="align-center" src="../../_images/postgis_phppgadminscreen2.png" style="width: 634.5px; height: 536.25px;" /></a>
 </section>
 <section id="get-to-know-pgadmin-vmdk-only">
-<h2><a class="toc-backref" href="#id10">Get to know pgAdmin (VMDK only)</a><a class="headerlink" href="#get-to-know-pgadmin-vmdk-only" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<h2><a class="toc-backref" href="#id10">Ismerje meg a pgAdmint-t (csak VMDK)</a><a class="headerlink" href="#get-to-know-pgadmin-vmdk-only" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>Használhatja a <code class="docutils literal notranslate"><span class="pre">pgAdmin</span></code> grafikus adatbázis klienst a Databeses menüből a nem térbeli adatok lekérdezéséhez és módosításához. Ez a hivatalos kliens a PostgreSQL-hez.</p>
 <p>A pgAdmin lehetővé teszi az adattábláinak kezelését az SQL használatával. Az OSGeoLive asztalon a Databases mappában találja és indíthatja a pgAdmin-t.</p>
 <a class="reference internal image-reference" href="../../_images/postgis_pgadmin_main_window.png"><img alt="pgAdmin" class="align-center" src="../../_images/postgis_pgadmin_main_window.png" style="width: 574.5px; height: 319.5px;" /></a>
@@ -369,16 +359,13 @@ contained within this schema.</p>
 <p>Itt lehetősége van új kapcsolat létrehozására egy PostgreSQL szerverhez vagy kapcsolódhat egy már ismert szerverhez. Esetünkben az előre definiált <code class="docutils literal notranslate"><span class="pre">localhost</span></code> szerverhez fogunk kapcsolódni.</p>
 <p>A kapcsolat létrejötte után láthatja a rendszerben már meglévő adatbázisok listáját.</p>
 <a class="reference internal image-reference" href="../../_images/postgis_adminscreen0.png"><img alt="pgAdmin" class="align-center" src="../../_images/postgis_adminscreen0.png" style="width: 871.5px; height: 639.0px;" /></a>
-<p>The red „X” on the image of most of the databases, denotes that you haven’t been yet connected to any of them (you are connected only
-to the default <code class="docutils literal notranslate"><span class="pre">postgres</span></code> database).
-At this point you are able only to see the existing databases on the system. You can connect, by double clicking,
-on the name of a database. Do it for the <code class="docutils literal notranslate"><span class="pre">natural_earth2</span></code> database.</p>
+<p>A képen a piros „X” a legtöbb adatbázis előtti azt jelenti, hogy még nem kapcsolódott egyikhez sem (csak az alapértelmezett <code class="docutils literal notranslate"><span class="pre">postgres</span></code> adatbázishoz kapcsolódik). Ezen a ponton csak a létező adatbázisokat látja a rendszerben. Az adatbázis nevére duplán kattintva kapcsolódhat ahhoz. Tegye ezt a natural_earth2 adatbázisnál.</p>
 <p>Most azt láthatja, hogy a piros X eltűnt és egy „&gt;” jelent meg balra. Ezt megnyomva egy fa jelenik meg mely az adatbázis tartalmát mutatja.</p>
 <p>Navigáljon a <code class="docutils literal notranslate"><span class="pre">schemas</span></code> részfára és nyissa szét. Ezután nyissa szét a <code class="docutils literal notranslate"><span class="pre">public</span></code> sémát. A <code class="docutils literal notranslate"><span class="pre">Tables</span></code>-re navigálva és szétnyitva láthatja az összes táblát ebben a sémában.</p>
 <a class="reference internal image-reference" href="../../_images/postgis_adminscreen1.png"><img alt="pgAdmin" class="align-center" src="../../_images/postgis_adminscreen1.png" style="width: 711.0px; height: 629.25px;" /></a>
 </section>
 <section id="executing-a-sql-query-from-pgadmin-vmdk-only">
-<h2><a class="toc-backref" href="#id11">Executing a SQL query from pgAdmin (VMDK only)</a><a class="headerlink" href="#executing-a-sql-query-from-pgadmin-vmdk-only" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<h2><a class="toc-backref" href="#id11">Egy SQL lekérdezés végrehajtása a pgAdmin-ból (csak VMDK)</a><a class="headerlink" href="#executing-a-sql-query-from-pgadmin-vmdk-only" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>pgAdmin a lekérdezések végrehajtásának lehetőségét biztosítja a relációs adatbázisból.</p>
 <p>Az adatbázison történő lekérdezés végrehajtásához nyomja meg az <code class="docutils literal notranslate"><span class="pre">Query</span> <span class="pre">Tool</span></code> gombot a fő eszközsorból (az adatbázis szimbólumot tartalmazót).</p>
 <p>Az SIDS arányát keressük a születésekhez minden városban 1974-ben. Továbbá rendezzük az eredményt a számított arányok alapján. Ehhez a következő lekérdezést kell végrehajtanunk (küldje el ezt az SQL ablak szövegszerkesztőjéből):</p>
