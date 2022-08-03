@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,9 +11,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2022-08-01 12:20-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
 "Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2022\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
@@ -695,11 +695,111 @@ msgstr ""
 msgid "SIDS data mapped"
 msgstr ""
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:466
-msgid "Get to know pgAdmin"
-msgstr "Lernen Sie pgAdmin kennen"
+#: ../../build/doc/quickstart/postgis_quickstart.rst:464
+msgid ""
+"Depending on the version of OSGeoLive you are using (ISO or VMDK), you will "
+"not find the same clients available. ``pgAdmin`` is the official client for "
+"PostgreSQL, however, for technical reasons, it can't do in the ISO, so it is"
+" only available in the VMDK version. The ISO version has the ``phpPgAdmin`` "
+"client which offers the same core functionality."
+msgstr ""
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:468
+#: ../../build/doc/quickstart/postgis_quickstart.rst:471
+msgid "Get to know phpPgAdmin (ISO & VMDK)"
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:473
+msgid ""
+"In both versions, you can use the graphical database client phpPgAdmin."
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:475
+msgid ""
+"phpPgAdmin lets you use SQL to manipulate your data tables. You can find and"
+" launch phpPgAdmin from the Databases folder, existing on the OSGeoLive "
+"Desktop."
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "phpPgAdmin main"
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:483
+msgid ""
+"Here, you have the option of creating a new connection to a PostgreSQL "
+"server, or connecting to an existing server. The red \"X\" on the  "
+"``PostgreSQL`` server denotes that you haven't been yet connected. Click on "
+"it  then enter the user name  ``user`` and the master password  ``user``."
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:487
+#: ../../build/doc/quickstart/postgis_quickstart.rst:553
+msgid ""
+"After connection established, you can see the list of the databases already "
+"existing in the system."
+msgstr ""
+"Nachdem die Verbindung aufgebaut wurde, sehen Sie die Liste der Datenbanken,"
+" die bereits vorliegen."
+
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+msgid "phpPgAdmin"
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:495
+msgid ""
+"At this point you are able only to see the existing databases on the system."
+" You can connect, by clicking, on plus sign at the left of the name of a "
+"database. Do it for the ``natural_earth2`` database."
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:498
+msgid ""
+"You can see now that there is only one schema in this database called "
+"``public``. Click on the plus at left of ``Tables`` to expand it, you can "
+"see all the tables contained within this schema."
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:513
+msgid "Executing a SQL query from phpPgAdmin (ISO & VMDK)"
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:515
+msgid ""
+"phpPgAdmin offers the capability of executing queries to a relational "
+"database."
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:517
+msgid ""
+"To perform a query on the database, click back on the ``natural_earth2`` "
+"database then press the ``SQL`` button from the main toolbar (the one at the"
+" left with the database symbol)."
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:519
+#: ../../build/doc/quickstart/postgis_quickstart.rst:588
+msgid ""
+"We are going to find the rate of the SIDS over the births for the 1974 for "
+"each city. Furthermore we are going to sort the result, based on the "
+"computed rate. To do that, we need to perform the following query (submit it"
+" on the text editor of the SQL Window):"
+msgstr ""
+"Wir wollen die Rate der SIDS anhand der Geburten für 1974 für jede Stadt "
+"ermitteln. Darüber hinaus werden wir das Ergebnis auf der Grundlage der "
+"berechneten Rate sortieren. Dazu müssen wir die folgende Abfrage durchführen"
+" (im Texteditor des SQL-Fensters absenden):"
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:527
+msgid "Afterwards, you should press the Execute button."
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:535
+msgid "Get to know pgAdmin (VMDK only)"
+msgstr ""
+
+#: ../../build/doc/quickstart/postgis_quickstart.rst:537
 msgid ""
 "You can use the graphical database client ``pgAdmin`` from the Databases "
 "menu to query and modify your database non-spatially. This is the official "
@@ -709,7 +809,7 @@ msgstr ""
 "Datenbanken verwenden, um ihre Daten abzufragen und zu ändern. Dies ist der "
 "offizielle Client für PostgreSQL."
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:470
+#: ../../build/doc/quickstart/postgis_quickstart.rst:539
 msgid ""
 "pgAdmin lets you use SQL to manipulate your data tables. You can find and "
 "launch pgAdmin from the Databases folder, existing on the OSGeoLive Desktop."
@@ -725,11 +825,11 @@ msgstr ""
 msgid "pgAdmin"
 msgstr ""
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:478
+#: ../../build/doc/quickstart/postgis_quickstart.rst:547
 msgid "Enter the master password  ``user``."
 msgstr "Geben Sie das Master-Passwort ``user`` ein."
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:480
+#: ../../build/doc/quickstart/postgis_quickstart.rst:549
 msgid ""
 "Here, you have the option of creating a new connection to a PostgreSQL "
 "server, or connecting to an existing server. In this case, we are going to "
@@ -740,30 +840,16 @@ msgstr ""
 "herzustellen. In diesem Fall stellen wir eine Verbindung zum vordefinierten "
 "``localhost``-Server her."
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:484
-msgid ""
-"After connection established, you can see the list of the databases already "
-"existing in the system."
-msgstr ""
-"Nachdem die Verbindung aufgebaut wurde, sehen Sie die Liste der Datenbanken,"
-" die bereits vorliegen."
-
-#: ../../build/doc/quickstart/postgis_quickstart.rst:491
+#: ../../build/doc/quickstart/postgis_quickstart.rst:560
 msgid ""
 "The red \"X\" on the image of most of the databases, denotes that you "
 "haven't been yet connected to any of them (you are connected only to the "
 "default ``postgres`` database). At this point you are able only to see the "
 "existing databases on the system. You can connect, by double clicking, on "
-"the name of a database. Do it for the natural_earth2 database."
+"the name of a database. Do it for the ``natural_earth2`` database."
 msgstr ""
-"Das rote \"X\" vor dem Symbol der meisten Datenbanken zeigt an, dass Sie "
-"sich mit keiner dieser Datenbanken bisher verbunden haben (Sie sind mit der "
-"default Datenbank ``postgres`` verbunden). An dieser Stelle sehen Sie "
-"lediglich die existierenden Datenbanken auf dem System. Sie können sich per "
-"Doppelklick auf dem Namen einer Datenbank mit dieser verbinden. Verbinden "
-"Sie sich mit der Datenbank natural_earth2."
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:496
+#: ../../build/doc/quickstart/postgis_quickstart.rst:565
 msgid ""
 "You can see now that the red X disappeared and a \">\" appeared on the left."
 " By pressing it a tree is going to appear, displaying the contents of the "
@@ -773,7 +859,7 @@ msgstr ""
 " erscheint. Durch Drücken wird eine Baumstruktur angezeigt, in der der "
 "Inhalt der Datenbank angezeigt wird."
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:499
+#: ../../build/doc/quickstart/postgis_quickstart.rst:568
 msgid ""
 "Navigate at the ``schemas`` subtree, expand it. Afterwards expand the "
 "``public`` schema. By navigating and expanding the ``Tables``, you can see "
@@ -783,11 +869,11 @@ msgstr ""
 "danach das Schema ``public``. Öffnen Sie anschließend ``Tabellen``. Sie "
 "sehen hier alle Tabellen dieses Schemas."
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:513
-msgid "Executing a SQL query from pgAdmin"
-msgstr "Ausführen einer SQL-Abfrage über pgAdmin"
+#: ../../build/doc/quickstart/postgis_quickstart.rst:582
+msgid "Executing a SQL query from pgAdmin (VMDK only)"
+msgstr ""
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:514
+#: ../../build/doc/quickstart/postgis_quickstart.rst:584
 msgid ""
 "pgAdmin, offers the capability of executing queries to a relational "
 "database."
@@ -795,7 +881,7 @@ msgstr ""
 "pgAdmin bietet die Möglichkeit, Abfragen an relationale Datenbanken "
 "abzusetzen."
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:516
+#: ../../build/doc/quickstart/postgis_quickstart.rst:586
 msgid ""
 "To perform a query on the database, you have to press the ``Query Tool`` "
 "button from the main toolbar (the one at the left with the database symbol)."
@@ -803,29 +889,17 @@ msgstr ""
 "Um eine Abfrage an die Datenbank zu schicken, müssen Sie den ``Query "
 "Tool``-Button der Hauptwerkzeugleiste klicken (Button mit Datenbanksymbol)."
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:518
-msgid ""
-"We are going to find the rate of the SIDS over the births for the 1974 for "
-"each city. Furthermore we are going to sort the result, based on the "
-"computed rate. To do that, we need to perform the following query (submit it"
-" on the text editor of the SQL Window):"
-msgstr ""
-"Wir wollen die Rate der SIDS anhand der Geburten für 1974 für jede Stadt "
-"ermitteln. Darüber hinaus werden wir das Ergebnis auf der Grundlage der "
-"berechneten Rate sortieren. Dazu müssen wir die folgende Abfrage durchführen"
-" (im Texteditor des SQL-Fensters absenden):"
-
-#: ../../build/doc/quickstart/postgis_quickstart.rst:526
+#: ../../build/doc/quickstart/postgis_quickstart.rst:596
 msgid ""
 "Afterwards, you should press the arrow button, pointing to the right "
 "(Execute)."
 msgstr "Danach sollten Sie die Pfeiltaste drücken (Ausführen)."
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:535
+#: ../../build/doc/quickstart/postgis_quickstart.rst:605
 msgid "Get to know Foreign Data Wrappers (FDW)"
 msgstr "Lernen Sie Foreign Data Wrappers (FDW) kennen"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:537
+#: ../../build/doc/quickstart/postgis_quickstart.rst:607
 msgid ""
 "From you database you can access remote objects like tables from other "
 "PostgreSQL databases or connect to remote databases like Oracle, MySQL, MS "
@@ -838,15 +912,15 @@ msgstr ""
 "sich auch über ODBC verbinden, eine Verbindung zu CSV, räumlichen Daten und "
 "sogar zu Twitter herstellen."
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:540
+#: ../../build/doc/quickstart/postgis_quickstart.rst:610
 msgid "You find a list of different FDW at:"
 msgstr "Eine Liste der verschiedenen FDW finden Sie unter:"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:542
+#: ../../build/doc/quickstart/postgis_quickstart.rst:612
 msgid "https://wiki.postgresql.org/wiki/Foreign_data_wrappers"
 msgstr "https://wiki.postgresql.org/wiki/Foreign_data_wrappers"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:544
+#: ../../build/doc/quickstart/postgis_quickstart.rst:614
 msgid ""
 "Let's see how it works! The easiest way is to connect to a different "
 "PostgreSQL database."
@@ -854,11 +928,11 @@ msgstr ""
 "Schauen wir uns einmal an, wie es funktioniert! Am einfachsten ist es, eine "
 "Verbindung zu einer anderen PostgreSQL-Datenbank herzustellen."
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:546
+#: ../../build/doc/quickstart/postgis_quickstart.rst:616
 msgid "Here are the steps:"
 msgstr "Hier sind die Schritte:"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:548
+#: ../../build/doc/quickstart/postgis_quickstart.rst:618
 msgid ""
 "First load the extension for the Foreign Data Wrapper that you want to use. "
 "For a connection to a different PostgreSQL database you need "
@@ -868,7 +942,7 @@ msgstr ""
 "verwenden möchten. Für eine Verbindung zu einer anderen PostgreSQL-Datenbank"
 " benötigen Sie ``postgres_fdw``"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:555
+#: ../../build/doc/quickstart/postgis_quickstart.rst:625
 msgid ""
 "Create a foreign Server that tells you where to find the data source that "
 "you want to connect"
@@ -876,18 +950,18 @@ msgstr ""
 "Erstellen Sie einen Foreign Server, der Ihnen mitteilt, wo die Datenquelle "
 "liegt, mit der Sie sich verbinden möchten."
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:563
+#: ../../build/doc/quickstart/postgis_quickstart.rst:633
 msgid ""
 "Define the user that should be used when you connect to the foreign server"
 msgstr ""
 "Definieren Sie den Benutzers, der beim Herstellen einer Verbindung mit dem "
 "Foreign Server verwendet werden soll"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:571
+#: ../../build/doc/quickstart/postgis_quickstart.rst:641
 msgid "Now you can create a foreign table."
 msgstr "Jetzt können Sie eine Fremdtabelle (Foreign Table) erstellen."
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:580
+#: ../../build/doc/quickstart/postgis_quickstart.rst:650
 msgid ""
 "Find new tables in your database and have a look at the data from a foreign "
 "table."
@@ -895,11 +969,11 @@ msgstr ""
 "Suchen Sie nach den neuen Tabellen in Ihrer Datenbank, und sehen Sie sich "
 "die Daten aus einer Fremdtabelle an."
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:587
+#: ../../build/doc/quickstart/postgis_quickstart.rst:657
 msgid "Connect to a remote OGR data source via ogr_fdw"
 msgstr "Aufbau einer Verbindung mit einer Remote-OGR-Datenquelle über ogr_fdw"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:589
+#: ../../build/doc/quickstart/postgis_quickstart.rst:659
 msgid ""
 "The extension ``ogr_fdw`` allows connection too several geodata formats like"
 " KML, GeoPackage, WFS, GeoJSON, GPX, GML and more."
@@ -907,46 +981,46 @@ msgstr ""
 "Die Erweiterung ``ogr_fdw`` ermöglicht die Verbindung zu unterschiedlichen "
 "Geodatenformaten wie KML, GeoPackage, WFS, GeoJSON, GPX, GML und mehr."
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:592
+#: ../../build/doc/quickstart/postgis_quickstart.rst:662
 msgid "Read more about ``ogr_fdw``:"
 msgstr "Lesen Sie mehr über ``ogr_fdw``:"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:594
+#: ../../build/doc/quickstart/postgis_quickstart.rst:664
 msgid "Repository: https://github.com/pramsey/pgsql-ogr-fdw"
 msgstr "Repository: https://github.com/pramsey/pgsql-ogr-fdw"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:595
+#: ../../build/doc/quickstart/postgis_quickstart.rst:665
 msgid ""
 "New and improved: http://blog.cleverelephant.ca/2016/04/ogr-fdw-update.html"
 msgstr ""
 "Neu und verbessert: http://blog.cleverelephant.ca/2016/04/ogr-fdw-"
 "update.html"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:599
+#: ../../build/doc/quickstart/postgis_quickstart.rst:669
 msgid "Install the extension ``ogr_fdw`` in your database."
 msgstr "Installieren Sie die Erweiterung ``ogr_fdw`` in Ihrer Datenbank."
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:600
+#: ../../build/doc/quickstart/postgis_quickstart.rst:670
 msgid "On the database prompt type:"
 msgstr "Tippen Sie innerhalb der Datenbankeingabe:"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:608
+#: ../../build/doc/quickstart/postgis_quickstart.rst:678
 msgid "Inspect which formats are supported:"
 msgstr "Prüfen Sie, welche Formate unterstützt werden:"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:609
+#: ../../build/doc/quickstart/postgis_quickstart.rst:679
 msgid "Open a terminal and search for ogr_fdw_info:"
 msgstr "Öffnen Sie ein Terminal und suchen Sie nach ogr_fdw_info:"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:616
+#: ../../build/doc/quickstart/postgis_quickstart.rst:686
 msgid "Results might look like these: ::"
 msgstr "Die Ergebnisse könnten wie folgt aussehen: ::"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:634
+#: ../../build/doc/quickstart/postgis_quickstart.rst:704
 msgid "Create a FDW to a WFS"
 msgstr "Erstellen einer FDW für einen OGC WFS"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:635
+#: ../../build/doc/quickstart/postgis_quickstart.rst:705
 msgid ""
 "Start Geoserver via :menuselection:`Geospatial --> Web Services --> "
 "GeoServer -->  Start GeoServer`"
@@ -954,11 +1028,11 @@ msgstr ""
 "Starten Sie GeoServer über :menuselection starten:`Geospatial --> Web "
 "Services --> GeoServer --> Start GeoServer`"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:637
+#: ../../build/doc/quickstart/postgis_quickstart.rst:707
 msgid "Open GeoServer http://localhost:8082/geoserver/web/"
 msgstr "Öffnen von GeoServer http://localhost:8082/geoserver/web/"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:638
+#: ../../build/doc/quickstart/postgis_quickstart.rst:708
 msgid ""
 "GeoServer WFS GetCapabilities "
 "http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=GetCapabilities"
@@ -966,7 +1040,7 @@ msgstr ""
 "GeoServer WFS GetCapabilities "
 "http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=GetCapabilities"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:639
+#: ../../build/doc/quickstart/postgis_quickstart.rst:709
 msgid ""
 "GeoServer WFS DescribeFeatureType for topp:states "
 "`http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=DescribeFeatureType&typename=topp:states"
@@ -978,7 +1052,7 @@ msgstr ""
 " "
 "<http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=DescribeFeatureType&typename=topp:states>`__"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:642
+#: ../../build/doc/quickstart/postgis_quickstart.rst:712
 msgid ""
 "GeoServer WFS GetFeature topp:states "
 "`http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&typename=topp:states"
@@ -990,36 +1064,36 @@ msgstr ""
 " "
 "<http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&typename=topp:states>`__"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:648
+#: ../../build/doc/quickstart/postgis_quickstart.rst:718
 msgid ""
 "Create a foreign server that refers to the WFS that you want to connect"
 msgstr ""
 "Erstellen Sie einen Foreign Server, der auf den WFS verweist, mit dem Sie "
 "sich verbinden möchten"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:656
+#: ../../build/doc/quickstart/postgis_quickstart.rst:726
 msgid "Import all WFS feature_types as foreign tables with one command."
 msgstr ""
 "Importieren Sie alle WFS feature_types als Fremdtabellen mit einem Befehl."
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:657
+#: ../../build/doc/quickstart/postgis_quickstart.rst:727
 msgid ""
 "After the import you will see several new foreign tables in your schema."
 msgstr "Nach dem Import sehen Sie mehrere neue Fremdtabellen in Ihrem Schema."
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:666
+#: ../../build/doc/quickstart/postgis_quickstart.rst:736
 msgid "Inspect the foreign data table ``topp_states``:"
 msgstr "Überprüfen Sie die Fremdtabelle `topp_states`:"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:673
+#: ../../build/doc/quickstart/postgis_quickstart.rst:743
 msgid "Things to try"
 msgstr "Weitere Aufgaben"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:675
+#: ../../build/doc/quickstart/postgis_quickstart.rst:745
 msgid "Here are some additional challenges for you to try:"
 msgstr "Hier sind ein paar weitere Aufgaben, die Sie lösen können."
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:677
+#: ../../build/doc/quickstart/postgis_quickstart.rst:747
 msgid ""
 "Try some more spatial functions like ``st_buffer(geom)``, "
 "``st_transform(geom,25831)``, ``st_x(geom)`` - you will find full "
@@ -1029,36 +1103,36 @@ msgstr ""
 "``st_transform(geom,25831)``, ``st_x(geom)``. Eine ausführliche "
 "Dokumentation finden Sie unter http://postgis.net/documentation/"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:679
+#: ../../build/doc/quickstart/postgis_quickstart.rst:749
 msgid ""
 "Export your tables to shapefiles with ``pgsql2shp`` on the command line."
 msgstr "Exportieren Sie Ihre Tabellen mit ``pgsql2shp`` in das Shape-Format"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:681
+#: ../../build/doc/quickstart/postgis_quickstart.rst:751
 msgid ""
 "Try ``ogr2ogr`` on the command line to import/export data to your database."
 msgstr ""
 "Nutzen Sie ``ogr2ogr``, um Daten in Ihre Datenbank zu "
 "importieren/exportieren."
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:683
+#: ../../build/doc/quickstart/postgis_quickstart.rst:753
 msgid ""
 "Try to import data with ``shp2pgsql`` on the command line to your database."
 msgstr ""
 "Importieren Sie Daten auf der Kommandozeile mit ``shp2pgsql`` in Ihre "
 "Datenbank."
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:685
+#: ../../build/doc/quickstart/postgis_quickstart.rst:755
 msgid "Try to do road routing using :doc:`../overview/pgrouting_overview`."
 msgstr ""
 "Versuchen Sie ein Routing aufzubauen mit Hilfe von  "
 ":doc:`../overview/pgrouting_overview`."
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:690
+#: ../../build/doc/quickstart/postgis_quickstart.rst:760
 msgid "What next?"
 msgstr "Was kommt als Nächstes?"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:692
+#: ../../build/doc/quickstart/postgis_quickstart.rst:762
 msgid ""
 "This is only the first step on the road to using PostGIS. There is a lot "
 "more functionality you can try."
@@ -1066,26 +1140,26 @@ msgstr ""
 "Dies waren nur die ersten Schritte mit PostGIS. Es gibt viele weitere "
 "Funktionen, die Sie ausprobieren können."
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:694
+#: ../../build/doc/quickstart/postgis_quickstart.rst:764
 msgid "PostGIS Project home -  http://postgis.net"
 msgstr "PostGIS-Webseite - http://postgis.net"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rst:696
+#: ../../build/doc/quickstart/postgis_quickstart.rst:766
 msgid "PostGIS Documentation -  http://postgis.net/documentation/"
 msgstr "PostGIS-Dokumentation - http://postgis.net/documentation/"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Project"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Community"
