@@ -5,9 +5,9 @@
 # 
 # Translators:
 # Luca Delucchi <lucadeluge@gmail.com>, 2022
-# Stefano Campus <skampus@gmail.com>, 2022
 # Federico Gianoli <fritz4@gmail.com>, 2022
 # marcobra <marcobra.ubuntu@gmail.com>, 2022
+# Stefano Campus <skampus@gmail.com>, 2022
 # 
 #, fuzzy
 msgid ""
@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-19 14:37+0000\n"
 "PO-Revision-Date: 2022-07-20 18:57+0000\n"
-"Last-Translator: marcobra <marcobra.ubuntu@gmail.com>, 2022\n"
+"Last-Translator: Stefano Campus <skampus@gmail.com>, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -26,7 +26,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:19
 msgid "ETF Quickstart"
-msgstr ""
+msgstr "Guida rapida ETF"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:21
 msgid ""
@@ -42,6 +42,10 @@ msgid ""
 " of ETF is driven by three goals: be user-friendly, consistent with the "
 "standards and capable of testing all resources in an SDI."
 msgstr ""
+"ETF è un framework di test open source per la validazione di dati spaziali, "
+"metadati e servizi web nelle Spatial Data Infrastructures (SDI). Il progetto"
+" di ETF è guidato da tre obiettivi: essere facile da usare, coerente con gli"
+" standard e in grado di testare tutte le risorse di una SDI."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:28
 msgid "This Quick Start describes how to:"
@@ -49,7 +53,7 @@ msgstr "Questa Guida Rapida descrive come:"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:30
 msgid "navigate through the web application"
-msgstr ""
+msgstr "navigare nell'applicazione web"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:31
 msgid "start a test"
@@ -175,6 +179,7 @@ msgstr ""
 #: ../../build/doc/quickstart/ETF_quickstart.rst:101
 msgid "A Start button appears once at least one Test Suite is selected."
 msgstr ""
+"Una volta selezionata almeno una Suite di Test, appare il pulsante Avvia."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:103
 msgid ""
@@ -242,6 +247,8 @@ msgid ""
 "The maximum uploadable file size is displayed when the mouse is moved over "
 "the question mark."
 msgstr ""
+"La dimensione massima del file caricabile viene visualizzata quando si "
+"sposta il mouse sul punto interrogativo."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:149
 msgid ""
@@ -249,6 +256,9 @@ msgid ""
 "single URL. After Remote file (URL) has been selected as Data source, an URL"
 " to either one single XML, GML or a ZIP file can be entered."
 msgstr ""
+"Se i dati sono disponibili sul web, possono essere testati fornendo un unico"
+" URL. Dopo aver selezionato File remoto (URL) come Origine dati, è possibile"
+" inserire un URL a un singolo file XML, GML o ZIP."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:156
 msgid ""
@@ -267,6 +277,8 @@ msgid ""
 "The following elements are shown when Test Suites have been selected that "
 "test one service."
 msgstr ""
+"I seguenti elementi vengono visualizzati quando sono state selezionate Suite"
+" di Test che testano un servizio."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:169
 msgid ""
@@ -293,6 +305,8 @@ msgid ""
 "The Test Suites button shows some basic information about the selected Test "
 "Suites and - if applicable - about the direct dependencies."
 msgstr ""
+"The Test Suites button shows some basic information about the selected Test "
+"Suites and - if applicable - about the direct dependencies."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:184
 msgid ""
@@ -367,6 +381,9 @@ msgid ""
 "result status, the name of the Test Object and the used Test Suites are "
 "shown."
 msgstr ""
+"Facendo clic sul pulsante maggiori informazioni, vengono visualizzate le "
+"informazioni relative all'ora di inizio, allo stato dei risultati del test, "
+"al nome dell'Oggetto del Test e alle Suite di Test utilizzate."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:233
 msgid ""
@@ -383,7 +400,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:241
 msgid "Inspect test reports"
-msgstr ""
+msgstr "Ispezione dei rapporti di test"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:243
 msgid ""
@@ -391,12 +408,18 @@ msgid ""
 "test result Status, the start time, the duration and a table, which "
 "summarizes the status of all tests on several levels."
 msgstr ""
+"La parte superiore di un Rapporto di Test mostra informazioni generali, tra "
+"cui lo Stato del risultato complessivo del test, l'ora di inizio, la durata "
+"e una tabella che riassume lo stato di tutti i test su diversi livelli."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:249
 msgid ""
 "The Test Reports are interactive. The Show switch can be used to filter Only"
 " failed or Only manual tests. All deactivates the filter."
 msgstr ""
+"I Rapporti di Trova sono interattivi. L'interruttore Mostra può essere usato"
+" per filtrare Solo i test falliti o Solo i test manuali. Tutti disattiva il "
+"filtro."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:252
 msgid ""
@@ -471,6 +494,9 @@ msgid ""
 "Assertions stand for atomic test queries on the lowest level. Failed, red "
 "colored assertions display error messages in the Messages section."
 msgstr ""
+"Le asserzioni rappresentano interrogazioni di test atomiche al livello più "
+"basso. Le asserzioni fallite, di colore rosso, visualizzano messaggi di "
+"errore nella sezione Messaggi."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:295
 msgid ""
@@ -478,10 +504,13 @@ msgid ""
 "instance the response from a service on the Test Step level (note the Open "
 "saved response link in the report)."
 msgstr ""
+"Informazioni utili possono essere trovate anche al livello superiore, come "
+"ad esempio la risposta di un servizio al livello Test Step (notare il link "
+"Apri risposta salvata nel report)."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:302
 msgid "Resources"
-msgstr ""
+msgstr "Risorse"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:304
 msgid ""

@@ -104,7 +104,7 @@ msgstr ""
 
 #: ../../build/doc/overview/geonetwork_overview.rst:40
 msgid "Fine-grained access control"
-msgstr "controllo di accesso raffinato"
+msgstr "Controllo di accesso raffinato"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:41
 msgid "Group and user management"
@@ -116,7 +116,7 @@ msgstr "interfaccia utente multi-lingua"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:45
 msgid "Implemented Standards"
-msgstr "Standards implementati"
+msgstr "Standard implementati"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:47
 msgid "OGC Catalogue Service-Web (CSW) 2.0.2 ISO"
