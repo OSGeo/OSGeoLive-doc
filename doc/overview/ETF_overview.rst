@@ -71,12 +71,12 @@ Core Features
 
 * Implemented Standards
    - |CSW|
-   - ISO 19105
+   - |ISO19105|
    - |SOS|
    - |WFS|
    - |WMTS|
    - |GML|
-   - OGC API - Features
+   - |OGCAPIFEATURES|
    - |WCS|
    - |WMS|
 
