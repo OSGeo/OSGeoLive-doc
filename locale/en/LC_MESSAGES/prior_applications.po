@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-03 18:12+0000\n"
+"POT-Creation-Date: 2022-08-04 08:50+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,11 +70,11 @@ msgid "Create Map Tiles"
 msgstr ""
 
 #: ../../build/doc/prior_applications.rst:1
-msgid "|osgeo_project|"
+msgid "|osgeo_community|"
 msgstr ""
 
 #: ../../build/doc/<rst_epilog>
-msgid "OSGeo Project"
+msgid "OSGeo Community"
 msgstr ""
 
 #: ../../build/doc/prior_applications.rst:1
@@ -370,6 +370,6 @@ msgid "vmdk"
 msgstr ""
 
 #: ../../build/doc/<rst_epilog>
-msgid "OSGeo Community"
+msgid "OSGeo Project"
 msgstr ""
 
