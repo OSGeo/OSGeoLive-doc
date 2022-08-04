@@ -59,7 +59,7 @@ Available layers
 **mapnik**:
   The world population rendered by Mapnik. You don't need to start the Mapnik service, because this layer makes use of the integrated Mapnik support in MapProxy.
 
-**mapnik_tiled**:
+**mapnik_tile**:
   The world population rendered by Mapnik as tile layer.
 
 **geoserver**:
