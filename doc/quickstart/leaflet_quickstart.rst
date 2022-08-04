@@ -21,7 +21,7 @@ Leaflet is a JavaScript library for browser-based, mobile-friendly, interactive 
 Running
 ================================================================================
 
-Prior to running this quick start you should start TileStache. On OSGeoLive this can be found under **Geospatial\\Spatial Tools\\Start Mapnik & TileStache**.
+Prior to running this quick start you should start MapProxy. On OSGeoLive this can be found under **Geospatial\\Web Services\\MapProxy\\Start MapProxy**.
 This will provide background tiles that will be used in this demo. 
 
 View the example_
@@ -37,9 +37,6 @@ Before writing any code for the map, you need to do the following preparation st
 .. code-block:: html
 
  <link rel="stylesheet" href="/leaflet/leaflet.css" />
- <!--[if lte IE 8]>
-     <link rel="stylesheet" href="/leaflet/leaflet.ie.css" />
- <![endif]-->
 
 * Include Leaflet JavaScript file:
 
@@ -74,13 +71,13 @@ By default (as we didn't pass any options when creating the map instance), all m
 Note that setView call also returns the map object - most Leaflet methods act like this when they don't return an explicit value, which allows convenient jQuery-like method chaining.
 
 Next we'll add a tile layer to our map.
-In this case we will be using the tile images provided by TileStache on the live dvd. Note that using nicer background maps such as openstreetmap will result in a much better user experience.
+In this case we will be using the tile images provided by MapProxy on the live dvd. Note that using nicer background maps such as openstreetmap will result in a much better user experience.
 
 Creating a tile layer usually involves setting the URL template for the tile images, the attribution text and the maximum zoom level of the layer:
 
 ::
 
- L.tileLayer('http://localhost:8012/example/{z}/{x}/{y}.png,{}).addTo(map);
+ L.tileLayer('http://localhost:8011/wmts/mapnik_tile/GLOBAL_WEBMERCATOR/{z}/{x}/{y}.png',{}).addTo(map);
 
 If you have online access you may want to use a nicer tilemap as the background:
 

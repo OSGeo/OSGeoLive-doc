@@ -59,9 +59,8 @@ Available layers
 **mapnik**:
   The world population rendered by Mapnik. You don't need to start the Mapnik service, because this layer makes use of the integrated Mapnik support in MapProxy.
 
-**tilestache**:
-  TileStache is a server that delivers tiles from the Mapnik world population service. This layer demonstrates the ability to include existing tile services in MapProxy and to make them available as WMS.
-  You need to start TileStache with *Start Mapnik & TileStache* before accessing this layer.
+**mapnik_tiled**:
+  The world population rendered by Mapnik as tile layer.
 
 **geoserver**:
   The US population rendered by the :doc:`GeoServer <../overview/geoserver_overview>` WMS. This layer also supports ``GetFeatureInfo`` requests which are cascaded to the source WMS.
