@@ -12,8 +12,8 @@ Previously available applications
 
     |nologo| % LibLAS_          % `QuickStart <LibLAS_q_>`__     %   13.0 %  LiDAR Data Access
     |nologo| % MapSlicer_       % `QuickStart <MapSlicer_q_>`__  %   13.0 %  Create Map Tiles
-    |osgeo_project| % Geomajas_ % `QuickStart <Geomajas_q_>`__   %   13.0 %  Browser GIS Client
-    |osgeo_project| % OSSIM_    % `QuickStart <OSSIM_q_>`__      %   11.0 %  Image Processing
+    |osgeo_community| % Geomajas_ % `QuickStart <Geomajas_q_>`__   %   13.0 %  Browser GIS Client
+    |osgeo_community| % OSSIM_    % `QuickStart <OSSIM_q_>`__      %   11.0 %  Image Processing
     |nologo| % `OGC Standards`_ %                                %   10.5 %  OGC Standards descriptions
     |nologo| % Viking_          % `QuickStart <Viking_q_>`__     %   10.5 %  GPS Data Analysis and Viewer
     |nologo| % Ushahidi_        % `QuickStart <Ushahidi_q_>`__   %   10.5 %  Mapping and Timeline for events
@@ -29,11 +29,11 @@ Previously available applications
     |nologo| % TileMill_       %  `QuickStart <TileMill_q_>`__   %   9.5 %   Styling and Publishing
     |nologo| % GpsDrive_       %  `QuickStart <GpsDrive_q_>`__   %   9.0 %   GPS Navigation
     |nologo| % `Map Window`_   %  `QuickStart <Map Window_q_>`__ %   8.0 %   Microsoft Windows based Desktop GIS.
-    |osgeo_project| % MapFish_  %  `QuickStart <MapFish_q_>`__  %   7.9 %   Web Mapping Framework
+    |osgeo_community| % MapFish_  %  `QuickStart <MapFish_q_>`__  %   7.9 %   Web Mapping Framework
     |nologo| % 52NorthWSS_     %  `QuickStart <52NorthWSS_>`__ %   6.5 %   Web Security Service
     |nologo| % Geopublisher_   %                               %   6.0 %   Catalogue
     |nologo| % AtlasStyler_    %                               %   6.0 %   Style Editor
-    |osgeo_project| % MapGuide_ %  `QuickStart <MapGuide_q_>`__ %   5.0 %   Web Service
+    |osgeo_community| % MapGuide_ %  `QuickStart <MapGuide_q_>`__ %   5.0 %   Web Service
 
 
 .. _LibLAS: https://live.osgeo.org/archive/13.0/en/overview/liblas_overview.html
