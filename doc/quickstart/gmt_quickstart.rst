@@ -115,10 +115,8 @@ Things to try
 
 Install the following packages:
 
-*  gmt-doc (and -pdf)
-*  gmt-coast-low
-*  gmt-examples
-*  gmt-tutorial (and -pdf)
+*  gmt-dcw
+*  gmt-gshhg
 
 
 .. TODO the disk has directory /var/www/gmt but is empty (issue
