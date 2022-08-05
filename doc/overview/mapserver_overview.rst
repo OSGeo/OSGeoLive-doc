@@ -102,7 +102,7 @@ Demo
 Documentation
 --------------------------------------------------------------------------------
 
-* `MapServer 7.0 Documentation <https://localhost/mapserver/doc/index.html>`__
+* `MapServer Documentation <//localhost/mapserver/doc/index.html>`__
 
 Details
 --------------------------------------------------------------------------------
