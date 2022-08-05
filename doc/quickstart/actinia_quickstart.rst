@@ -414,6 +414,25 @@ commands from above can be executed in the following way:
 Things to try
 =============
 
+Install on OSGeoLive VM with Docker Compose
+--------------------------------------------------------------------------------
+
+Requirements: docker and docker-compose (already available in OSGeoLive VM version)
+
+To build and deploy actinia, run
+
+.. code:: bash
+
+   git clone https://github.com/mundialis/actinia_core.git
+   cd actinia_core
+   docker-compose -f docker/docker-compose.yml up
+
+Now you have a running actinia instance locally! Check with
+
+.. code:: bash
+
+   curl http://127.0.0.1:8088/api/v3/version
+
 Create new locations
 --------------------------------------------------------------------------------
 
