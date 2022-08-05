@@ -5,6 +5,7 @@ cache:
   - C:\strawberry
 
 environment:
+  VS_VERSION: Visual Studio 17 2022 # required for later CMake build
   matrix:
   - platform: x64
     PYTHON: "C:\\Python310-x64"
