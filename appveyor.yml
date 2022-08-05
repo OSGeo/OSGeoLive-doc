@@ -50,8 +50,8 @@ after_test:
   - 7z a osgeolive-doc.zip ./build/doc/_build/html/* > nul
 
 # Uncomment to enable debugging on the server
-#on_finish:
-#  - ps: $blockRdp = $true; iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))  
+on_finish:
+  - ps: $blockRdp = $true; iex ((new-object net.webclient).DownloadString('https://raw.githubusercontent.com/appveyor/ci/master/scripts/enable-rdp.ps1'))  
 
 artifacts:
   - path: osgeolive-doc.zip
