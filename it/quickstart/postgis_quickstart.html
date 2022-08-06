@@ -83,10 +83,10 @@
 <li><p><a class="reference internal" href="#spatial-queries" id="id5">Interrogazioni spaziali</a></p></li>
 <li><p><a class="reference internal" href="#mapping" id="id6">Mappatura</a></p></li>
 <li><p><a class="reference internal" href="#importing-spatial-data-into-the-database" id="id7">Importare dati spaziali nel database</a></p></li>
-<li><p><a class="reference internal" href="#get-to-know-phppgadmin-iso-vmdk" id="id8">Get to know phpPgAdmin (ISO &amp; VMDK)</a></p></li>
-<li><p><a class="reference internal" href="#executing-a-sql-query-from-phppgadmin-iso-vmdk" id="id9">Executing a SQL query from phpPgAdmin (ISO &amp; VMDK)</a></p></li>
-<li><p><a class="reference internal" href="#get-to-know-pgadmin-vmdk-only" id="id10">Get to know pgAdmin (VMDK only)</a></p></li>
-<li><p><a class="reference internal" href="#executing-a-sql-query-from-pgadmin-vmdk-only" id="id11">Executing a SQL query from pgAdmin (VMDK only)</a></p></li>
+<li><p><a class="reference internal" href="#get-to-know-phppgadmin-iso-vmdk" id="id8">Conoscere phpPgAdmin (ISO e VMDK)</a></p></li>
+<li><p><a class="reference internal" href="#executing-a-sql-query-from-phppgadmin-iso-vmdk" id="id9">Esecuzione di una interrogazione SQL da phpPgAdmin (ISO e VMDK)</a></p></li>
+<li><p><a class="reference internal" href="#get-to-know-pgadmin-vmdk-only" id="id10">Conoscere pgAdmin (solo VMDK)</a></p></li>
+<li><p><a class="reference internal" href="#executing-a-sql-query-from-pgadmin-vmdk-only" id="id11">Esecuzione di una interrogazione SQL da pgAdmin (solo VMDK)</a></p></li>
 <li><p><a class="reference internal" href="#get-to-know-foreign-data-wrappers-fdw" id="id12">Conoscere i Foreign Data Wrappers (FDW)</a></p></li>
 <li><p><a class="reference internal" href="#connect-to-a-remote-ogr-data-source-via-ogr-fdw" id="id13">Connettersi a un’origine dati OGR remota tramite ogr_fdw</a></p></li>
 <li><p><a class="reference internal" href="#things-to-try" id="id14">Cose da provare</a></p></li>
@@ -324,44 +324,34 @@
 <a class="reference internal image-reference" href="../../_images/postgis_sidsmap.png"><img alt="Mappatura dei dati SIDS" class="align-center" src="../../_images/postgis_sidsmap.png" style="width: 1036.5px; height: 607.5px;" /></a>
 <div class="admonition warning">
 <p class="admonition-title">Avvertimento</p>
-<p>Depending on the version of OSGeoLive you are using (ISO or VMDK), you will not find the same clients available.
-<code class="docutils literal notranslate"><span class="pre">pgAdmin</span></code> is the official client for PostgreSQL, however, for technical reasons, it can’t do in the ISO,
-so it is only available in the VMDK version.
-The ISO version has the <code class="docutils literal notranslate"><span class="pre">phpPgAdmin</span></code> client which offers the same core functionality.</p>
+<p>A seconda della versione di OSGeoLive utilizzata (ISO o VMDK), non saranno disponibili gli stessi client. <code class="docutils literal notranslate"><span class="pre">pgAdmin</span></code> è il client ufficiale per PostgreSQL, tuttavia, per motivi tecnici, non può essere presente nella ISO, quindi è disponibile solo nella versione VMDK. La versione ISO ha il client <code class="docutils literal notranslate"><span class="pre">phpPgAdmin</span></code> che offre le stesse funzionalità di base.</p>
 </div>
 </section>
 <section id="get-to-know-phppgadmin-iso-vmdk">
-<h2><a class="toc-backref" href="#id8">Get to know phpPgAdmin (ISO &amp; VMDK)</a><a class="headerlink" href="#get-to-know-phppgadmin-iso-vmdk" title="Link a questa intestazione">¶</a></h2>
+<h2><a class="toc-backref" href="#id8">Conoscere phpPgAdmin (ISO e VMDK)</a><a class="headerlink" href="#get-to-know-phppgadmin-iso-vmdk" title="Link a questa intestazione">¶</a></h2>
 <p>In both versions, you can use the graphical database client phpPgAdmin.</p>
-<p>phpPgAdmin lets you use SQL to manipulate your data tables. You can find and launch phpPgAdmin
-from the Databases folder, existing on the OSGeoLive Desktop.</p>
+<p>phpPgAdmin consente di utilizzare SQL per manipolare le tabelle di dati. È possibile trovare e lanciare phpPgAdmin dalla cartella Databases, presente sul Desktop di OSGeoLive.</p>
 <a class="reference internal image-reference" href="../../_images/postgis_phppgadmin_main_window.png"><img alt="phpPgAdmin main" class="align-center" src="../../_images/postgis_phppgadmin_main_window.png" style="width: 396.0px; height: 227.0px;" /></a>
-<p>Here, you have the option of creating a new connection to a PostgreSQL server, or connecting to an existing server.
-The red «X» on the  <code class="docutils literal notranslate"><span class="pre">PostgreSQL</span></code> server denotes that you haven’t been yet connected.
-Click on it  then enter the user name  <code class="docutils literal notranslate"><span class="pre">user</span></code> and the master password  <code class="docutils literal notranslate"><span class="pre">user</span></code>.</p>
+<p>Qui si ha la possibilità di creare una nuova connessione a un server PostgreSQL o di connettersi a un server esistente. La «X» rossa sul server <code class="docutils literal notranslate"><span class="pre">PostgreSQL</span></code> indica che non si è ancora connessi. Fare clic su di essa e inserire il nome utente <code class="docutils literal notranslate"><span class="pre">user</span></code> e la master password <code class="docutils literal notranslate"><span class="pre">user</span></code>.</p>
 <p>Dopo aver stabilito la connessione, puoi vedere l’elenco dei database già esistenti nel sistema.</p>
 <a class="reference internal image-reference" href="../../_images/postgis_phppgadminscreen0.png"><img alt="phpPgAdmin" class="align-center" src="../../_images/postgis_phppgadminscreen0.png" style="width: 666.75px; height: 353.25px;" /></a>
-<p>At this point you are able only to see the existing databases on the system. You can connect, by clicking,
-on plus sign at the left of the name of a database. Do it for the <code class="docutils literal notranslate"><span class="pre">natural_earth2</span></code> database.</p>
-<p>You can see now that there is only one schema in this database called
-<code class="docutils literal notranslate"><span class="pre">public</span></code>.
-Click on the plus at left of <code class="docutils literal notranslate"><span class="pre">Tables</span></code> to expand it, you can see all the tables
-contained within this schema.</p>
+<p>A questo punto è possibile vedere solo i database esistenti nel sistema. È possibile connettersi facendo clic sul segno più a sinistra del nome di un database. Fatelo per il database <code class="docutils literal notranslate"><span class="pre">natural_earth2</span></code>.</p>
+<p>Ora si può vedere che c’è un solo schema in questo database, chiamato <code class="docutils literal notranslate"><span class="pre">public</span></code>. Facendo clic sul più a sinistra di <a href="#id1"><span class="problematic" id="id2">``</span></a>Tabelle”” per espanderlo, si possono vedere tutte le tabelle contenute in questo schema.</p>
 <a class="reference internal image-reference" href="../../_images/postgis_phppgadminscreen1.png"><img alt="phpPgAdmin" class="align-center" src="../../_images/postgis_phppgadminscreen1.png" style="width: 848.25px; height: 538.5px;" /></a>
 </section>
 <section id="executing-a-sql-query-from-phppgadmin-iso-vmdk">
-<h2><a class="toc-backref" href="#id9">Executing a SQL query from phpPgAdmin (ISO &amp; VMDK)</a><a class="headerlink" href="#executing-a-sql-query-from-phppgadmin-iso-vmdk" title="Link a questa intestazione">¶</a></h2>
-<p>phpPgAdmin offers the capability of executing queries to a relational database.</p>
-<p>To perform a query on the database, click back on the <code class="docutils literal notranslate"><span class="pre">natural_earth2</span></code> database then press the <code class="docutils literal notranslate"><span class="pre">SQL</span></code> button from the main toolbar (the one at the left with the database symbol).</p>
+<h2><a class="toc-backref" href="#id9">Esecuzione di una interrogazione SQL da phpPgAdmin (ISO e VMDK)</a><a class="headerlink" href="#executing-a-sql-query-from-phppgadmin-iso-vmdk" title="Link a questa intestazione">¶</a></h2>
+<p>phpPgAdmin offre la possibilità di eseguire interrogazioni in un database relazionale.</p>
+<p>Per eseguire una interrogazione sul database, clicca nuovamente sul database <code class="docutils literal notranslate"><span class="pre">natural_earth2</span></code> e poi premi il pulsante <code class="docutils literal notranslate"><span class="pre">SQL</span></code> dalla barra degli strumenti principale (quello a sinistra con il simbolo del database).</p>
 <p>Troverai il tasso di SIDS sulle nascite per il 1974 per ogni città. Inoltre ordinerai il risultato in base al tasso calcolato. Per fare ciò, devi eseguire la seguente query (presentarla nell’editor di testo della finestra SQL):</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">select</span> <span class="n">name</span><span class="p">,</span> <span class="mi">1000</span><span class="o">*</span><span class="n">sid74</span><span class="o">/</span><span class="n">bir74</span> <span class="k">as</span> <span class="n">rate</span> <span class="kn">from</span> <span class="nn">sids</span> <span class="n">order</span> <span class="n">by</span> <span class="n">rate</span><span class="p">;</span>
 </pre></div>
 </div>
-<p>Afterwards, you should press the Execute button.</p>
+<p>Successivamente, si deve premere il pulsante Execute.</p>
 <a class="reference internal image-reference" href="../../_images/postgis_phppgadminscreen2.png"><img alt="phpPgAdmin" class="align-center" src="../../_images/postgis_phppgadminscreen2.png" style="width: 634.5px; height: 536.25px;" /></a>
 </section>
 <section id="get-to-know-pgadmin-vmdk-only">
-<h2><a class="toc-backref" href="#id10">Get to know pgAdmin (VMDK only)</a><a class="headerlink" href="#get-to-know-pgadmin-vmdk-only" title="Link a questa intestazione">¶</a></h2>
+<h2><a class="toc-backref" href="#id10">Conoscere pgAdmin (solo VMDK)</a><a class="headerlink" href="#get-to-know-pgadmin-vmdk-only" title="Link a questa intestazione">¶</a></h2>
 <p>Puoi usare il client grafico del database <code class="docutils literal notranslate"><span class="pre">pgAdmin</span></code> dal menu Database per interrogare e modificare il tuo database in modo non spaziale. Questo è il client ufficiale per PostgreSQL.</p>
 <p>pgAdmin ti permette di usare SQL per manipolare le tue tabelle di dati. Puoi trovare e lanciare pgAdmin dalla cartella Databases, esistente sul desktop di OSGeoLive.</p>
 <a class="reference internal image-reference" href="../../_images/postgis_pgadmin_main_window.png"><img alt="pgAdmin" class="align-center" src="../../_images/postgis_pgadmin_main_window.png" style="width: 574.5px; height: 319.5px;" /></a>
@@ -369,16 +359,13 @@ contained within this schema.</p>
 <p>Qui hai la possibilità di creare una nuova connessione a un server PostgreSQL o di connetterti a un server esistente. In questo caso, ci connetteremo al server predefinito <code class="docutils literal notranslate"><span class="pre">localhost</span></code>.</p>
 <p>Dopo aver stabilito la connessione, puoi vedere l’elenco dei database già esistenti nel sistema.</p>
 <a class="reference internal image-reference" href="../../_images/postgis_adminscreen0.png"><img alt="pgAdmin" class="align-center" src="../../_images/postgis_adminscreen0.png" style="width: 871.5px; height: 639.0px;" /></a>
-<p>The red «X» on the image of most of the databases, denotes that you haven’t been yet connected to any of them (you are connected only
-to the default <code class="docutils literal notranslate"><span class="pre">postgres</span></code> database).
-At this point you are able only to see the existing databases on the system. You can connect, by double clicking,
-on the name of a database. Do it for the <code class="docutils literal notranslate"><span class="pre">natural_earth2</span></code> database.</p>
+<p>La «X» rossa sull’immagine della maggior parte dei database, denota che non sei stato ancora connesso a nessuno di essi (sei connesso solo al database predefinito <code class="docutils literal notranslate"><span class="pre">postgres</span></code>). A questo punto sei in grado di vedere solo i database esistenti sul sistema. Puoi connetterti cliccando due volte sul nome di un database. Fallo per il database <code class="docutils literal notranslate"><span class="pre">natural_earth2</span></code>.</p>
 <p>Ora puoi vedere che la X rossa è scomparsa e un «&gt;» è apparso sulla sinistra. Premendolo apparirà un albero che mostra il contenuto del database.</p>
 <p>Naviga al sottoalbero <code class="docutils literal notranslate"><span class="pre">schemi</span></code>, espandilo. Poi espandi lo schema <code class="docutils literal notranslate"><span class="pre">public</span></code>. Navigando ed espandendo le <code class="docutils literal notranslate"><span class="pre">Tables</span></code>, puoi vedere tutte le tabelle contenute in questo schema.</p>
 <a class="reference internal image-reference" href="../../_images/postgis_adminscreen1.png"><img alt="pgAdmin" class="align-center" src="../../_images/postgis_adminscreen1.png" style="width: 711.0px; height: 629.25px;" /></a>
 </section>
 <section id="executing-a-sql-query-from-pgadmin-vmdk-only">
-<h2><a class="toc-backref" href="#id11">Executing a SQL query from pgAdmin (VMDK only)</a><a class="headerlink" href="#executing-a-sql-query-from-pgadmin-vmdk-only" title="Link a questa intestazione">¶</a></h2>
+<h2><a class="toc-backref" href="#id11">Esecuzione di una interrogazione SQL da pgAdmin (solo VMDK)</a><a class="headerlink" href="#executing-a-sql-query-from-pgadmin-vmdk-only" title="Link a questa intestazione">¶</a></h2>
 <p>pgAdmin offre la possibilità di eseguire query a un database relazionale.</p>
 <p>Per eseguire una query sul database, devi premere il pulsante <code class="docutils literal notranslate"><span class="pre">Query</span> <span class="pre">Tool</span></code> dalla barra degli strumenti principale (quella a sinistra con il simbolo del database).</p>
 <p>Troverai il tasso di SIDS sulle nascite per il 1974 per ogni città. Inoltre ordinerai il risultato in base al tasso calcolato. Per fare ciò, devi eseguire la seguente query (presentarla nell’editor di testo della finestra SQL):</p>

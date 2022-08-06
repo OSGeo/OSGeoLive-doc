@@ -74,7 +74,7 @@
 </ul>
 </div></blockquote>
 <div class="contents local topic" id="contents">
-<p class="topic-title">Contents</p>
+<p class="topic-title">目次</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#client-server-architecture" id="id1">クライアント/サーバ・アーキテクチャ</a></p></li>
 <li><p><a class="reference internal" href="#creating-a-spatially-enabled-database" id="id2">空間的に有効なデータベースの作成</a></p></li>
@@ -336,13 +336,10 @@ The ISO version has the <code class="docutils literal notranslate"><span class="
 <p>phpPgAdmin lets you use SQL to manipulate your data tables. You can find and launch phpPgAdmin
 from the Databases folder, existing on the OSGeoLive Desktop.</p>
 <a class="reference internal image-reference" href="../../_images/postgis_phppgadmin_main_window.png"><img alt="phpPgAdmin main" class="align-center" src="../../_images/postgis_phppgadmin_main_window.png" style="width: 396.0px; height: 227.0px;" /></a>
-<p>Here, you have the option of creating a new connection to a PostgreSQL server, or connecting to an existing server.
-The red &quot;X&quot; on the  <code class="docutils literal notranslate"><span class="pre">PostgreSQL</span></code> server denotes that you haven't been yet connected.
-Click on it  then enter the user name  <code class="docutils literal notranslate"><span class="pre">user</span></code> and the master password  <code class="docutils literal notranslate"><span class="pre">user</span></code>.</p>
+<p>ここでは、PostgreSQLサーバへの新しい接続を作成するか、既存のサーバに接続するかを選択できます。The red &quot;X&quot; on the  <code class="docutils literal notranslate"><span class="pre">PostgreSQL</span></code> server denotes that you haven't been yet connected. Click on it  then enter the user name  <code class="docutils literal notranslate"><span class="pre">user</span></code> and the master password  <code class="docutils literal notranslate"><span class="pre">user</span></code>.</p>
 <p>接続が確立されると、システムにすでに存在するデータベースの一覧が表示されます。</p>
 <a class="reference internal image-reference" href="../../_images/postgis_phppgadminscreen0.png"><img alt="phpPgAdmin" class="align-center" src="../../_images/postgis_phppgadminscreen0.png" style="width: 666.75px; height: 353.25px;" /></a>
-<p>At this point you are able only to see the existing databases on the system. You can connect, by clicking,
-on plus sign at the left of the name of a database. Do it for the <code class="docutils literal notranslate"><span class="pre">natural_earth2</span></code> database.</p>
+<p>この時点では、システム上の既存のデータベースしか表示できません。You can connect, by clicking, on plus sign at the left of the name of a database. Do it for the <code class="docutils literal notranslate"><span class="pre">natural_earth2</span></code> database.</p>
 <p>You can see now that there is only one schema in this database called
 <code class="docutils literal notranslate"><span class="pre">public</span></code>.
 Click on the plus at left of <code class="docutils literal notranslate"><span class="pre">Tables</span></code> to expand it, you can see all the tables
@@ -369,10 +366,7 @@ contained within this schema.</p>
 <p>ここでは、PostgreSQLサーバへの新しい接続を作成するか、既存のサーバに接続するかを選択できます。この場合、あらかじめ定義された <code class="docutils literal notranslate"><span class="pre">localhost</span></code> サーバに接続します。</p>
 <p>接続が確立されると、システムにすでに存在するデータベースの一覧が表示されます。</p>
 <a class="reference internal image-reference" href="../../_images/postgis_adminscreen0.png"><img alt="pgAdmin" class="align-center" src="../../_images/postgis_adminscreen0.png" style="width: 871.5px; height: 639.0px;" /></a>
-<p>The red &quot;X&quot; on the image of most of the databases, denotes that you haven't been yet connected to any of them (you are connected only
-to the default <code class="docutils literal notranslate"><span class="pre">postgres</span></code> database).
-At this point you are able only to see the existing databases on the system. You can connect, by double clicking,
-on the name of a database. Do it for the <code class="docutils literal notranslate"><span class="pre">natural_earth2</span></code> database.</p>
+<p>ほとんどのデータベースのイメージ上の赤い &quot;X&quot; は、まだどのデータベースにも接続していないことを示しています(あなたはデフォルトの <code class="docutils literal notranslate"><span class="pre">postgres</span></code> データベースにのみ接続しています)。この時点では、システム上の既存のデータベースしか表示できません。データベースの名前をダブルクリックすることで接続できます。Do it for the <code class="docutils literal notranslate"><span class="pre">natural_earth2</span></code> database.</p>
 <p>赤いXが消え、左側に &quot;&gt;&quot; が表示されています。これを押すとツリーが表示され、データベースの内容が表示されます。</p>
 <p><code class="docutils literal notranslate"><span class="pre">schemas</span></code> サブツリーに移動して展開します。その後、<code class="docutils literal notranslate"><span class="pre">public</span></code> スキーマを展開します。 <code class="docutils literal notranslate"><span class="pre">Tables</span></code> を移動して展開すると、このスキーマに含まれるすべてのテーブルを表示できます。</p>
 <a class="reference internal image-reference" href="../../_images/postgis_adminscreen1.png"><img alt="pgAdmin" class="align-center" src="../../_images/postgis_adminscreen1.png" style="width: 711.0px; height: 629.25px;" /></a>

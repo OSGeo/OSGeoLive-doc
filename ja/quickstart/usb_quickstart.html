@@ -68,13 +68,13 @@
 <section id="requirements">
 <h2>必要なもの<a class="headerlink" href="#requirements" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <ul class="simple">
-<li><p>A USB flash drive (8+ Gig is recommended).</p></li>
-<li><p>OSGeoLive ISOイメージ(<a class="reference internal" href="../download.html"><span class="doc">OSGeoLive downloads</span></a> からダウンロード)またはDVDから変換されたもの。</p></li>
+<li><p>USBフラッシュドライブ (8GB 以上を推奨)。</p></li>
+<li><p>OSGeoLive ISOイメージ(<a class="reference internal" href="../download.html"><span class="doc">OSGeoLive ダウンロード</span></a> からダウンロード)またはDVDから変換されたもの。</p></li>
 </ul>
 </section>
 <section id="creating-bootable-usb-drive-with-dd-under-linux">
 <h2>Linux 環境で <code class="docutils literal notranslate"><span class="pre">dd</span></code> でブータブル USB ドライブの作成<a class="headerlink" href="#creating-bootable-usb-drive-with-dd-under-linux" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p>OS GeoLive10.5以降のISOイメージは <em>isohybrid</em> です(amd64もサポートUEFIブート)。Linuxでは、 <code class="docutils literal notranslate"><span class="pre">dd</span></code> コマンドラインユーティリティを使用して、これらのイメージをUSBドライブのブロックデバイスに直接書き込むことができます。</p>
+<p>OS GeoLive10.5以降のISOイメージは <em>isohybrid</em> です(amd64、UEFIブートもサポート)。Linuxでは、 <code class="docutils literal notranslate"><span class="pre">dd</span></code> コマンドラインユーティリティを使用して、これらのイメージをUSBドライブのブロックデバイスに直接書き込むことができます。</p>
 <div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">sudo dd if=osgeolive-10.5-amd64.iso of=/dev/sdX bs=4M; sync</span>
 </pre></div>
 </div>

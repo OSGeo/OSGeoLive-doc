@@ -65,17 +65,13 @@
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_community.png" class="align-right" src="../../_images/OSGeo_community.png" /></a>
 <div class="admonition note">
 <p class="admonition-title">注釈</p>
-<p>This  project is only included on the OSGeoLive virtual machine disk (VMDK)</p>
+<p>このプロジェクトはOSGeoLive仮想マシンディスク(VMDK)にのみ含まれています</p>
 </div>
 <section id="actinia-quickstart">
 <h1>actinia クイックスタート<a class="headerlink" href="#actinia-quickstart" title="このヘッドラインへのパーマリンク">¶</a></h1>
-<p>Actinia is an open source REST API for scalable, distributed, high performance
-processing of geographical data that uses mainly <a class="reference external" href="https://grass.osgeo.org/">GRASS GIS</a>
-for computational tasks.
-Actinia provides a REST API to process satellite images, time series of
-satellite images, raster and vector data.</p>
+<p>Actiniaは、地理データのスケーラブルな分散・高性能処理のためのオープンソースのREST APIで、計算タスクには主に <a class="reference external" href="https://grass.osgeo.org/">GRASS GIS</a> を使用します。Actiniaは、衛星画像、時系列衛星画像データ、ベクタデータを処理するREST APIを提供しています。</p>
 <div class="contents local topic" id="contents">
-<p class="topic-title">Contents</p>
+<p class="topic-title">目次</p>
 <ul class="simple">
 <li><p><a class="reference internal" href="#introduction-to-ace-actinia-command-execution" id="id2">ace - actinia コマンド実行の概要</a></p></li>
 <li><p><a class="reference internal" href="#setup-your-environment" id="id3">環境のセットアップ</a></p></li>
@@ -106,27 +102,17 @@ satellite images, raster and vector data.</p>
 <p>Actinia は様々な方法で利用されています。</p>
 <ul class="simple">
 <li><p><cite>curl</cite> などのコマンドラインツール</p></li>
-<li><p>the <cite>Postman</cite> or <cite>RESTman</cite> extension for browsers</p></li>
+<li><p>ブラウザ用の <cite>Postman</cite> または <cite>RESTman</cite> 拡張</p></li>
 <li><p>GRASS GISセッションを開き、 <cite>ace</cite> (actiniaコマンド実行: actinia command execution)ツールを使用する</p></li>
 <li><p>REST APIに対する他のインターフェース</p></li>
 </ul>
 <p>このクイックスタートでは、GRASS GISを使用して、セッションから(GRASS GISを使用している) actinia サーバーへのコマンドを便利に起動します。このアイデアは、小さなデータ・セットに対してローカルでワークフローを迅速に開発し、それをサーバー上で実行するというものです。</p>
 <section id="introduction-to-ace-actinia-command-execution">
 <h2><a class="toc-backref" href="#id2">ace - actinia コマンド実行の概要</a><a class="headerlink" href="#introduction-to-ace-actinia-command-execution" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p>The <code class="docutils literal notranslate"><span class="pre">ace</span></code> tool (<a class="reference external" href="https://neteler.gitlab.io/actinia-introduction/#controlling-actinia-from-a-running-grass-gis-session">details</a>)
-allows the execution of a single GRASS GIS command or a
-list of GRASS GIS commands on an actinia REST service
-(<a class="reference external" href="https://actinia.mundialis.de/">https://actinia.mundialis.de/</a>). In addition it provides job management,
-the ability to list locations, mapsets and map layer the user has access
-to as well as the creation and deletion of mapsets.</p>
-<p>Th <code class="docutils literal notranslate"><span class="pre">ace</span></code> tool must be executed in an active GRASS GIS session. It is
-installed with <code class="docutils literal notranslate"><span class="pre">g.extension</span> <span class="pre">extension=ace</span> <span class="pre">url=https://github.com/mundialis/ace</span></code>.</p>
-<p>All commands will be executed per default in an <strong>ephemeral</strong> database.
-Hence, generated output must be exported using augmented GRASS
-commands.</p>
-<p>The option <code class="docutils literal notranslate"><span class="pre">mapset=MAPSET_NAME</span></code> allows the execution of commands in
-the persistent user database. It can be used with
-<code class="docutils literal notranslate"><span class="pre">location=LOCATION_NAME</span></code> option.</p>
+<p><code class="docutils literal notranslate"><span class="pre">ace</span></code> ツール(<a class="reference external" href="https://neteler.gitlab.io/actinia-introduction/#controlling-actinia-from-a-running-grass-gis-session">詳細</a>) は、単一のGRASS GISコマンドあるいはactinia RESTサービス(<a class="reference external" href="https://actinia.mundialis.de/">https://actinia.mundialis.de/</a>) 上のGRASS GISコマンドのリストの実行を可能にします。さらに、ジョブ管理、ユーザがアクセスできる場所、マップセット、マップレイヤのリスト機能、およびマップセットの作成と削除も提供します。</p>
+<p><code class="docutils literal notranslate"><span class="pre">ace</span></code> ツールはアクティブなGRASS GISセッションで実行されなければなりません。<code class="docutils literal notranslate"><span class="pre">g.extension</span> <span class="pre">extension=ace</span> <span class="pre">url=https://github.com/mundialis/ace</span></code> でインストールされます。</p>
+<p>すべてのコマンドは、<strong>ephemeral</strong> データベースでデフォルトごとに実行されます。したがって、生成された出力は、拡張GRASSコマンドを使用してエクスポートする必要があります。</p>
+<p>オプション <code class="docutils literal notranslate"><span class="pre">mapset=MAPSET_NAME</span></code> は、永続的なユーザーデータベースでコマンドを実行できるようにします。これは <code class="docutils literal notranslate"><span class="pre">location=LOCATION_NAME</span></code> オプションと一緒に使用することができます。</p>
 </section>
 <section id="setup-your-environment">
 <h2><a class="toc-backref" href="#id3">環境のセットアップ</a><a class="headerlink" href="#setup-your-environment" title="このヘッドラインへのパーマリンク">¶</a></h2>
@@ -155,42 +141,34 @@ ace <span class="nv">location</span><span class="o">=</span><span class="s2">&qu
 </div>
 <section id="access-data-from-external-sources">
 <h3><a class="toc-backref" href="#id5">外部ソースからデータにアクセスする</a><a class="headerlink" href="#access-data-from-external-sources" title="このヘッドラインへのパーマリンク">¶</a></h3>
-<p>GRASS GIS commands can be augmented with actinia specific extensions.
-The <code class="docutils literal notranslate"><span class="pre">&#64;</span></code> operator can be specified for an input parameter to import a
-web located resource and to specify the export of an output parameter.</p>
+<p>actinia 固有の拡張機能で、GRASS GISコマンドは拡張されています。入力パラメータとして <code class="docutils literal notranslate"><span class="pre">&#64;</span></code> オペレータを指定することで、Webにあるリソースをインポートしたり、出力パラメータのエクスポートを指定することができます。</p>
 <p>重要なことは、ローカルロケーションとマップセットの名前が、RESTサーバの名前と一致する必要があることです。</p>
-<p>現在使用可能なデータセットは次のとおりです(投影によって編成):</p>
+<p>現在使用可能なデータセットは次のとおりです(投影法毎に整理):</p>
 <ul class="simple">
 <li><p>ノースカロライナ州のサンプルデータセット(NC State-Plane metric CRS、EPSG:3358):</p>
 <ul>
-<li><p>ベースのカートグラフィー (<code class="docutils literal notranslate"><span class="pre">nc_spm_08/PERMANENT</span></code>; source: <a class="reference external" href="https://grassbook.org/datasets/datasets-3rd-edition/">https://grassbook.org/datasets/datasets-3rd-edition/</a>)</p></li>
-<li><p>ランドサットのサブシーン (<code class="docutils literal notranslate"><span class="pre">nc_spm_08/landsat</span></code>; source: <a class="reference external" href="https://grass.osgeo.org/download/data/">https://grass.osgeo.org/download/data/</a>)</p></li>
+<li><p>背景地図 (<code class="docutils literal notranslate"><span class="pre">nc_spm_08/PERMANENT</span></code>; ソース: <a class="reference external" href="https://grassbook.org/datasets/datasets-3rd-edition/">https://grassbook.org/datasets/datasets-3rd-edition/</a>)</p></li>
+<li><p>ランドサットのサブシーン (<code class="docutils literal notranslate"><span class="pre">nc_spm_08/landsat</span></code>; ソース: <a class="reference external" href="https://grass.osgeo.org/download/data/">https://grass.osgeo.org/download/data/</a>)</p></li>
 </ul>
 </li>
-<li><p>緯度-経度による位置指定 (LatLong WGS84, EPSG:4326):</p>
+<li><p>緯度-経度による位置指定 (緯経度 WGS84、EPSG:4326):</p>
 <ul>
 <li><p>空 (<code class="docutils literal notranslate"><span class="pre">latlong_wgs84/PERMANENT/</span></code>)</p></li>
-<li><p>16日間の NDVI, MOD13C1, V006, CMG 0.05 deg res. (<code class="docutils literal notranslate"><span class="pre">latlong_wgs84/modis_ndvi_global/</span></code>; source: <a class="reference external" href="https://lpdaac.usgs.gov/products/mod13c1v006/">https://lpdaac.usgs.gov/products/mod13c1v006/</a>)</p></li>
-<li><p>LST growing degree days asia 2017 (<code class="docutils literal notranslate"><span class="pre">latlong_wgs84/asia_gdd_2017/</span></code>;
-source: <a class="reference external" href="https://www.mundialis.de/en/temperature-data/">https://www.mundialis.de/en/temperature-data/</a>)</p></li>
-<li><p>LST tropical days asia 2017 (<code class="docutils literal notranslate"><span class="pre">latlong_wgs84/asia_tropical_2017/</span></code>)</p></li>
-<li><p>LST 日次温度  アジア 2017, 最小、最大、平均を含む (<code class="docutils literal notranslate"><span class="pre">latlong_wgs84/asia_lst_daily_2017/</span></code>)</p></li>
+<li><p>16日間の NDVI、MOD13C1、V006、CMG 0.05 度解像度(<code class="docutils literal notranslate"><span class="pre">latlong_wgs84/modis_ndvi_global/</span></code>; ソース: <a class="reference external" href="https://lpdaac.usgs.gov/products/mod13c1v006/">https://lpdaac.usgs.gov/products/mod13c1v006/</a>)</p></li>
+<li><p>LST 有効積算温度 アジア 2017 (<code class="docutils literal notranslate"><span class="pre">latlong_wgs84/asia_gdd_2017/</span></code>; ソース: <a class="reference external" href="https://www.mundialis.de/en/temperature-data/">https://www.mundialis.de/en/temperature-data/</a>)</p></li>
+<li><p>LST 熱帯日数 アジア 2017 (<code class="docutils literal notranslate"><span class="pre">latlong_wgs84/asia_tropical_2017/</span></code>)</p></li>
+<li><p>LST 日次温度 アジア 2017、最小、最大、平均を含む (<code class="docutils literal notranslate"><span class="pre">latlong_wgs84/asia_lst_daily_2017/</span></code>)</p></li>
 </ul>
 </li>
-<li><p>欧州 (EU LAEA CRS, EPSG:3035):</p>
+<li><p>欧州 (EU LAEA CRS、EPSG:3035):</p>
 <ul>
-<li><p>EU DEM 25m V1.1 (<code class="docutils literal notranslate"><span class="pre">eu_laea/PERMANENT/</span></code>; source:
-<a class="reference external" href="https://land.copernicus.eu/imagery-in-situ/eu-dem">https://land.copernicus.eu/imagery-in-situ/eu-dem</a>)</p></li>
-<li><p>CORINE Landcover 2012, g100_clc12_V18_5 (<code class="docutils literal notranslate"><span class="pre">eu_laea/corine_2012/</span></code>;
-source:
-<a class="reference external" href="https://land.copernicus.eu/pan-european/corine-land-cover/clc-2012">https://land.copernicus.eu/pan-european/corine-land-cover/clc-2012</a>)</p></li>
+<li><p>EU DEM 25m V1.1 (<code class="docutils literal notranslate"><span class="pre">eu_laea/PERMANENT/</span></code>; ソース: <a class="reference external" href="https://land.copernicus.eu/imagery-in-situ/eu-dem">https://land.copernicus.eu/imagery-in-situ/eu-dem</a>)</p></li>
+<li><p>CORINE 土地被覆 2012、g100_clc12_V18_5 (<code class="docutils literal notranslate"><span class="pre">eu_laea/corine_2012/</span></code>; ソース: <a class="reference external" href="https://land.copernicus.eu/pan-european/corine-land-cover/clc-2012">https://land.copernicus.eu/pan-european/corine-land-cover/clc-2012</a>)</p></li>
 </ul>
 </li>
 <li><p>モルワイデ図法の世界地図 (EPSG 54009):</p>
 <ul>
-<li><p>GHS_POP_GPW42015_GLOBE_R2015A_54009_250_v1_0
-(<code class="docutils literal notranslate"><span class="pre">world_mollweide/pop_jrc</span></code>; source:
-<a class="reference external" href="https://ghsl.jrc.ec.europa.eu/ghs_pop.php">https://ghsl.jrc.ec.europa.eu/ghs_pop.php</a>)</p></li>
+<li><p>GHS_POP_GPW42015_GLOBE_R2015A_54009_250_v1_0 (<code class="docutils literal notranslate"><span class="pre">world_mollweide/pop_jrc</span></code>; ソース: <a class="reference external" href="https://ghsl.jrc.ec.europa.eu/ghs_pop.php">https://ghsl.jrc.ec.europa.eu/ghs_pop.php</a>)</p></li>
 </ul>
 </li>
 </ul>
@@ -198,8 +176,7 @@ source:
 </section>
 <section id="inspect-the-rest-call-prior-to-submission">
 <h2><a class="toc-backref" href="#id6">送信前にRESTコールを検査する</a><a class="headerlink" href="#inspect-the-rest-call-prior-to-submission" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p>To generate the actinia process chain JSON request simply add the
-<code class="docutils literal notranslate"><span class="pre">-d</span></code> (dry-run) flag:</p>
+<p>actinia 処理チェインのJSONリクエストを生成するには、 <code class="docutils literal notranslate"><span class="pre">-d</span></code> (ドライラン)フラグを追加するだけです:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ace <span class="nv">location</span><span class="o">=</span><span class="s2">&quot;nc_spm_08&quot;</span> <span class="nv">grass_command</span><span class="o">=</span><span class="s2">&quot;r.slope.aspect elevation=elevation slope=myslope&quot;</span> -d
 </pre></div>
 </div>
@@ -214,16 +191,16 @@ source:
 </pre></div>
 </div>
 <figure class="align-default" id="id1">
-<img alt="actinia による ESA Globcover map の表示" src="../../_images/esa_globcover_rendered_by_ace.png" />
+<img alt="actinia による ESA Globcover マップの表示" src="../../_images/esa_globcover_rendered_by_ace.png" />
 <figcaption>
-<p><span class="caption-text">actinia による ESA Globcover map の表示</span><a class="headerlink" href="#id1" title="この画像へのパーマリンク">¶</a></p>
+<p><span class="caption-text">actinia による ESA Globcover マップの表示</span><a class="headerlink" href="#id1" title="この画像へのパーマリンク">¶</a></p>
 </figcaption>
 </figure>
 <p>一時的処理は、actinia のデフォルトの処理方法です。コマンドは、処理後に削除される一時マップセットで実行されます。GRASS GISモジュールの出力を書き出して、計算結果を保存し、ダウンロードしてさらに解析することができます。現在サポートされているエクスポートフォーマットは次のとおりです:</p>
 <ul class="simple">
-<li><p>ラスタ: <code class="docutils literal notranslate"><span class="pre">COG</span></code>, <code class="docutils literal notranslate"><span class="pre">GTiff</span></code></p></li>
-<li><p>vector: <code class="docutils literal notranslate"><span class="pre">GPKG</span></code>, <code class="docutils literal notranslate"><span class="pre">GML</span></code>, <code class="docutils literal notranslate"><span class="pre">GeoJSON</span></code>, <code class="docutils literal notranslate"><span class="pre">ESRI_Shapefile</span></code></p></li>
-<li><p>表: <code class="docutils literal notranslate"><span class="pre">CSV</span></code>, <code class="docutils literal notranslate"><span class="pre">TXT</span></code></p></li>
+<li><p>ラスタ: <code class="docutils literal notranslate"><span class="pre">COG</span></code>、<code class="docutils literal notranslate"><span class="pre">GTiff</span></code></p></li>
+<li><p>ベクタ: <code class="docutils literal notranslate"><span class="pre">GPKG</span></code>、<code class="docutils literal notranslate"><span class="pre">GML</span></code>、<code class="docutils literal notranslate"><span class="pre">GeoJSON</span></code>、<code class="docutils literal notranslate"><span class="pre">ESRI_Shapefile</span></code></p></li>
+<li><p>表: <code class="docutils literal notranslate"><span class="pre">CSV</span></code>、<code class="docutils literal notranslate"><span class="pre">TXT</span></code></p></li>
 </ul>
 </section>
 <section id="script-examples">
@@ -248,8 +225,7 @@ r.info slope_elev
 </pre></div>
 </div>
 <p>結果(メッセージ、統計、ファイル)はRESTリソースとして提供されます。</p>
-<p>To generate the actinia process chain JSON request simply add the
-<code class="docutils literal notranslate"><span class="pre">-d</span></code> (dry-run) flag:</p>
+<p>actinia 処理チェインのJSONリクエストを生成するには、 <code class="docutils literal notranslate"><span class="pre">-d</span></code> (ドライラン)フラグを追加するだけです:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ace -d <span class="nv">location</span><span class="o">=</span><span class="s2">&quot;nc_spm_08&quot;</span> <span class="nv">script</span><span class="o">=</span><span class="s2">&quot;/tmp/ace_dtm_statistics.sh&quot;</span>
 </pre></div>
 </div>
@@ -463,7 +439,7 @@ ace <span class="nv">location</span><span class="o">=</span><span class="s2">&qu
 <ul class="simple">
 <li><p>actinia webサイト: <a class="reference external" href="https://actinia.mundialis.de">https://actinia.mundialis.de</a></p></li>
 <li><p>actinia チュートリアル: <a class="reference external" href="https://neteler.gitlab.io/actinia-introduction">https://neteler.gitlab.io/actinia-introduction</a></p></li>
-<li><p>追加文献: Neteler, M., Gebbert, S., Tawalika, C., Bettge, A., Benelcadi, H., Löw, F., Adams, T, Paulsen, H. (2019). Actinia:クラウドベースの地理処理。In Proc. of the 2019 conference on Big Data from Space (BiDS'2019) (pp. 41-44). EUR 29660 EN, Publications Office of the European Union 5, Luxembourg: P. Soille, S. Loekken, and S. Albani (Eds.). (<a class="reference external" href="https://zenodo.org/record/2631917">DOI</a>)</p></li>
+<li><p>追加文献: Neteler, M., Gebbert, S., Tawalika, C., Bettge, A., Benelcadi, H., Löw, F., Adams, T, Paulsen, H. (2019). Actinia:cloud based geoprocessing. In Proc. of the 2019 conference on Big Data from Space (BiDS'2019) (pp. 41-44). EUR 29660 EN, Publications Office of the European Union 5, Luxembourg: P. Soille, S. Loekken, and S. Albani (Eds.). (<a class="reference external" href="https://zenodo.org/record/2631917">DOI</a>)</p></li>
 </ul>
 </section>
 </section>

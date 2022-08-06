@@ -64,67 +64,51 @@
   <a class="reference external image-reference" href="https://github.com/etf-validator"><img alt="../../_images/logo_ETF.png" class="align-right" src="../../_images/logo_ETF.png" /></a>
 <section id="etf">
 <h1>ETF<a class="headerlink" href="#etf" title="このヘッドラインへのパーマリンク">¶</a></h1>
-<p>ETF is an open source testing framework for validating data and APIs in Spatial
-Data Infrastructures (SDIs). It is used by software solutions and data providers
-to validate the conformity of geospatial data sets, metadata and APIs.</p>
+<p>ETFは、空間データ基盤(SDI)のデータやAPIを検証するためのオープンソースのテストフレームワークです。ソフトウェアソリューションやデータプロバイダーにより、地理空間データセット、メタデータ、APIの適合性を検証するために使用されます。</p>
 <section id="about">
 <h2>About<a class="headerlink" href="#about" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p>Goals in designing the ETF software were to create test reports that are
-user-friendly and self-explanatory as well as to be able to validate large
-amounts of data, which can be several hundred GB in size. In order to cover
-different validation tasks and present them in a unified report, the
-architecture is modular and different test engines can be used. Currently the
-following test engines are supported: SoapUI for testing web services, BaseX
-database for testing XML data, TEAM Engine to validate WFS and OGC Web APIs
-using the OGC CITE tests, NeoTL Engine for testing WFS, OGC Web APIs and
-datasets.</p>
-<p>ETF is the underlying framework used by the INSPIRE Reference Validator to
-validate metadata, datasets and services against the INSPIRE requirements. ETF
-is also used extensively in Germany by the Surveying Authorities of the Laender
-to validate their datasets. Other European Union (EU) Member States are also
-reusing the ETF to allow their data providers to test resources against national
-requirements. Finally, some software tools include validation based on the ETF
-API in their workflow.</p>
-<a class="reference internal image-reference" href="../../_images/ETF_screenshot.png"><img alt="ETF screenshot" class="align-right" src="../../_images/ETF_screenshot.png" style="width: 500px;" /></a>
+<p>ETFのソフトウェア設計の目標は、ユーザーフレンドリーで分かりやすいテストレポートを作成することと、数百GBにも及ぶ大容量データの検証を可能にすることでした。異なる検証作業をカバーし、統一されたレポートとして提示するために、アーキテクチャはモジュール化され、異なるテストエンジンを使用することができます。現在、以下のテストエンジンがサポートされています。WebサービスをテストするSoapUI、XMLデータをテストするBaseXデータベース、OGC CITEテストを使用してWFSとOGC Web APIの検証を行うTEAMエンジン、WFS、OGC Web APIとデータセットのテストを行うNeoTLエンジンです。</p>
+<p>ETFはINSPIRE Reference Validatorがメタデータ、データセット、サービスをINSPIREの要求事項に照らして検証するために使用する基本的なフレームワークです。また、ドイツでは、各州の測量局がデータセットを検証するために、ETFが広く利用されています。他の欧州連合(EU)加盟国も、データプロバイダーが自国の要件に照らしてリソースをテストできるように、ETFを再利用しています。最後に、ソフトウェアツールの中には、ETF APIに基づく検証をワークフローに組み込んでいるものがあります。</p>
+<a class="reference internal image-reference" href="../../_images/ETF_screenshot.png"><img alt="ETF スクリーンショット" class="align-right" src="../../_images/ETF_screenshot.png" style="width: 500px;" /></a>
 </section>
 <section id="core-features">
 <h2>主な機能<a class="headerlink" href="#core-features" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <ul class="simple">
 <li><dl class="simple">
-<dt>Testable resources</dt><dd><ul>
-<li><p>datasets (up to multiple hundreds GB): GML</p></li>
-<li><p>metadata: XML</p></li>
-<li><p>view services: WMS/WMTS</p></li>
-<li><p>download services: Atom, WFS, WCS, SOS</p></li>
-<li><p>catalogue services: CSW</p></li>
+<dt>テスト可能なリソース</dt><dd><ul>
+<li><p>データセット(最大数百GB): GML</p></li>
+<li><p>メタデータ: XML</p></li>
+<li><p>表示サービス: WMS/WMTS</p></li>
+<li><p>ダウンロードサービス: Atom、WFS、WCS、SOS</p></li>
+<li><p>カタログサービス: CSW</p></li>
 </ul>
 </dd>
 </dl>
 </li>
 <li><dl class="simple">
-<dt>Access</dt><dd><ul>
-<li><p>web-based user interface</p></li>
+<dt>アクセス</dt><dd><ul>
+<li><p>Webベースのユーザインタフェース</p></li>
 <li><p>REST API</p></li>
-<li><p>OpenAPI Specification</p></li>
-<li><p>Java client library</p></li>
+<li><p>OpenAPI仕様</p></li>
+<li><p>Javaクライアントライブラリ</p></li>
 </ul>
 </dd>
 </dl>
 </li>
 <li><dl class="simple">
-<dt>Supported test engines</dt><dd><ul>
-<li><p>SoapUI for testing web services</p></li>
-<li><p>BaseX for testing sets of XML documents</p></li>
-<li><p>TEAM Engine to support CITE tests developed using TestNG</p></li>
-<li><p>NeoTL for testing OGC WFS and OGC APIs (in development)</p></li>
+<dt>対応テストエンジン</dt><dd><ul>
+<li><p>Webサービステスト用のSoapUI</p></li>
+<li><p>XMLドキュメントのセットをテストするBaseX</p></li>
+<li><p>TestNGで開発されたCITEテストに対応するTEAMエンジン</p></li>
+<li><p>OGC WFSおよびOGC APIのテスト用NeoTL(開発中)</p></li>
 </ul>
 </dd>
 </dl>
 </li>
 <li><dl class="simple">
-<dt>Test reports</dt><dd><ul>
-<li><p>user-friendly and self-explanatory</p></li>
-<li><p>downloadable in HTML, XML and JSON</p></li>
+<dt>テストレポート</dt><dd><ul>
+<li><p>ユーザーフレンドリーで分かりやすい</p></li>
+<li><p>HTML、XML、JSONでダウンロード可能</p></li>
 </ul>
 </dd>
 </dl>
@@ -148,15 +132,15 @@ API in their workflow.</p>
 </section>
 <section id="details">
 <h2>詳細<a class="headerlink" href="#details" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p><strong>Website:</strong> <a class="reference external" href="https://github.com/etf-validator">https://github.com/etf-validator</a></p>
-<p><strong>Licence:</strong> EUPL 1.2</p>
-<p><strong>Software Version:</strong> 2.0.0</p>
-<p><strong>対応プラットフォーム:</strong> Windows, Linux</p>
-<p><strong>API Interfaces:</strong> REST API, OpenAPI Specification, Java client library</p>
-<p><strong>Support:</strong> <a class="reference external" href="https://github.com/etf-validator/etf-webapp/issues">https://github.com/etf-validator/etf-webapp/issues</a></p>
-<p><strong>User manual:</strong> <a class="reference external" href="https://docs.etf-validator.net/v2.0/User_manuals/Simplified_workflows.html">https://docs.etf-validator.net/v2.0/User_manuals/Simplified_workflows.html</a></p>
-<p><strong>Administrator manual:</strong> <a class="reference external" href="https://docs.etf-validator.net/v2.0/index.html#_administrator_manuals">https://docs.etf-validator.net/v2.0/index.html#_administrator_manuals</a></p>
-<p><strong>Developer manual:</strong> <a class="reference external" href="https://docs.etf-validator.net/v2.0/index.html#_developer_manuals">https://docs.etf-validator.net/v2.0/index.html#_developer_manuals</a></p>
+<p><strong>Webサイト:</strong> <a class="reference external" href="https://github.com/etf-validator">https://github.com/etf-validator</a></p>
+<p><strong>ライセンス:</strong> EUPL 1.2</p>
+<p><strong>ソフトウェアバージョン:</strong> 2.0.0</p>
+<p><strong>対応プラットフォーム:</strong> Windows、Linux</p>
+<p><strong>API インタフェース:</strong> REST API、OpenAPI仕様、Javaクライアントライブラリ</p>
+<p><strong>サポート:</strong> <a class="reference external" href="https://github.com/etf-validator/etf-webapp/issues">https://github.com/etf-validator/etf-webapp/issues</a></p>
+<p><strong>ユーザマニュアル:</strong> <a class="reference external" href="https://docs.etf-validator.net/v2.0/User_manuals/Simplified_workflows.html">https://docs.etf-validator.net/v2.0/User_manuals/Simplified_workflows.html</a></p>
+<p><strong>管理者マニュアル:</strong> <a class="reference external" href="https://docs.etf-validator.net/v2.0/index.html#_administrator_manuals">https://docs.etf-validator.net/v2.0/index.html#_administrator_manuals</a></p>
+<p><strong>開発者マニュアル:</strong> <a class="reference external" href="https://docs.etf-validator.net/v2.0/index.html#_developer_manuals">https://docs.etf-validator.net/v2.0/index.html#_developer_manuals</a></p>
 <div class="admonition note">
 <p class="admonition-title">注釈</p>
 <p>このプロジェクトはOSGeoLive仮想マシンディスク(VMDK)にのみ含まれています</p>
@@ -165,7 +149,7 @@ API in their workflow.</p>
 <section id="quickstart">
 <h2>クイックスタート<a class="headerlink" href="#quickstart" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <ul class="simple">
-<li><p><a class="reference internal" href="../quickstart/ETF_quickstart.html"><span class="doc">Quickstart documentation</span></a></p></li>
+<li><p><a class="reference internal" href="../quickstart/ETF_quickstart.html"><span class="doc">クイックスタート文書</span></a></p></li>
 </ul>
 </section>
 </section>
