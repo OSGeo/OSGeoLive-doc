@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
-# Vicky Vergara <vicky@georepublic.de>, 2020
 # Astrid Emde <astrid_emde@osgeo.org>, 2022
+# Vicky Vergara <vicky@georepublic.de>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2022-08-03 09:57+0000\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2022\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -239,6 +239,11 @@ msgstr "**Support:** http://udig.refractions.net/users/"
 msgid "**Developers:** http://udig.refractions.net/developers/"
 msgstr "**Entwickler:** http://udig.refractions.net/developers/"
 
+#: ../../build/doc/overview/udig_overview.rst:87
+msgid ""
+"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgstr "Das Projekt ist nur Teil der OSGeoLive Virtuelle Maschine Disk (VMDK)"
+
 #: ../../build/doc/overview/udig_overview.rst:90
 msgid "Quickstart"
 msgstr "Schnellstart"
@@ -247,11 +252,11 @@ msgstr "Schnellstart"
 msgid ":doc:`Quickstart documentation <../quickstart/udig_quickstart>`"
 msgstr ":doc:`Quickstart Dokumentation <../quickstart/udig_quickstart>`"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr "nologo"
 

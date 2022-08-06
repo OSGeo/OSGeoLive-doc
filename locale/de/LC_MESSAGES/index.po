@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-21 20:07+0000\n"
+"POT-Creation-Date: 2022-08-06 09:15-0500\n"
 "PO-Revision-Date: 2017-01-21 16:46+0000\n"
 "Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2022\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
@@ -41,9 +41,9 @@ msgstr ""
 " ausschließlich aus Freier Software, die Sie beliebig weitergeben, verteilen"
 " und vervielfältigen dürfen."
 
-#: ../../build/doc/index.rst-1
+#: ../../build/doc/index.rstNone
 msgid "boot select"
-msgstr ""
+msgstr "Start-Auswahl"
 
 #: ../../build/doc/index.rst:17
 msgid ""
@@ -104,12 +104,15 @@ msgid ""
 "A half hour `presentation <presentation.html>`__, highlighting all OSGeoLive"
 " applications, is available with slides, script"
 msgstr ""
+"Eine halbstündige `Präsentation <presentation.html>`_,  mit Erläuterungen zu"
+" allen OSGeoLive Programmen ist als Folien mit Manuskript und `Einführung "
+"verfügbar."
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr "nologo"
 
@@ -117,6 +120,6 @@ msgstr "nologo"
 msgid "OSGeo Project"
 msgstr "OSGeo Project"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr "OSGeo Community"
