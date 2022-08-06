@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-19 19:41+0000\n"
+"POT-Creation-Date: 2022-08-04 10:12+0000\n"
 "PO-Revision-Date: 2022-07-20 18:59+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
@@ -85,7 +85,7 @@ msgstr ""
 "software incluyen la validación basada en la API de ETF en su flujo de "
 "trabajo."
 
-#: ../../build/doc/overview/ETF_overview.rst-1
+#: ../../build/doc/overview/ETF_overview.rstNone
 msgid "ETF screenshot"
 msgstr "Captura de pantalla de ETF"
 
@@ -178,8 +178,8 @@ msgid "|CSW|"
 msgstr "|CSW|"
 
 #: ../../build/doc/overview/ETF_overview.rst:81
-msgid "ISO 19105"
-msgstr "ISO 19105"
+msgid "|ISO19105|"
+msgstr ""
 
 #: ../../build/doc/overview/ETF_overview.rst:82
 msgid "|SOS|"
@@ -198,8 +198,8 @@ msgid "|GML|"
 msgstr "|GML|"
 
 #: ../../build/doc/overview/ETF_overview.rst:86
-msgid "OGC API - Features"
-msgstr "OGC API - Características"
+msgid "|OGCAPIFEATURES|"
+msgstr ""
 
 #: ../../build/doc/overview/ETF_overview.rst:87
 msgid "|WCS|"
@@ -291,6 +291,6 @@ msgstr "nologo"
 msgid "OSGeo Project"
 msgstr "Proyecto OSGeo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr "OSGeo Comunitario"
