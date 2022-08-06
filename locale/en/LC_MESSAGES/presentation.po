@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-28 19:36-0500\n"
+"POT-Creation-Date: 2022-08-06 09:15-0500\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -100,11 +100,11 @@ msgid "PostGIS 3.2.0,"
 msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:76
-msgid "GRASS  8.0.0,"
+msgid "GRASS  8.2.0,"
 msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:77
-msgid "GeoServer 2.21,"
+msgid "GeoServer 2.21.0,"
 msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:78
@@ -191,7 +191,6 @@ msgstr ""
 msgid "Open Source Geospatial Foundation (OSGeo)"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:-1
 #: ../../build/presentation/revealjs/presentation.rst:209
 #: ../../build/presentation/revealjs/presentation.rst:1226
 msgid "OSGeo"
@@ -221,7 +220,6 @@ msgstr ""
 msgid "Open Data"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:-1
 msgid "\"GNU\""
 msgstr ""
 
@@ -1242,60 +1240,4 @@ msgstr ""
 #: ../../build/presentation/revealjs/presentation.rst:1243
 msgid "Try out OSGeoLive"
 msgstr ""
-
-#~ msgid "Version: 14.0"
-#~ msgstr ""
-
-#~ msgid "Released: August 2021"
-#~ msgstr ""
-
-#~ msgid "`Presentation <https://live.osgeo.org/en/presentation.html#/>`__"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Press ESC to zoom out, SPACE / "
-#~ "arrow keys to navigate, s for "
-#~ "slide notes. Pop-ups are blocked "
-#~ "in some browsers due to security "
-#~ "settings. Try Firefox or Safari."
-#~ msgstr ""
-
-#~ msgid "What is new in 14.0"
-#~ msgstr ""
-
-#~ msgid "Updated to Lubuntu 20.04 LTS"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "QGIS 3.10.13, GDAL 3.2.1, PROJ 7.2.1,"
-#~ " PostGIS 3.1.0, GRASS 7.8.5, GeoServer "
-#~ "2.18.0, MapServer 7.6.1 and many more..."
-#~ msgstr ""
-
-#~ msgid "New projects added: GeoStyler, Re3gistry"
-#~ msgstr ""
-
-#~ msgid "OSM data for Buenos Aires"
-#~ msgstr ""
-
-#~ msgid "Active community"
-#~ msgstr ""
-
-#~ msgid "`Metrics <https://live.osgeo.org/en/metrics.html>`__"
-#~ msgstr ""
-
-#~ msgid "Non Profit for geospatial community, fostering:"
-#~ msgstr ""
-
-#~ msgid "|xygrib_logo|"
-#~ msgstr ""
-
-#~ msgid ""
-#~ "Take part in our weekly `IRC "
-#~ "<https://wiki.osgeo.org/wiki/IRC>`__ meetings (channel "
-#~ "``#osgeolive`` on Libre-)"
-#~ msgstr ""
-
-#~ msgid "Questions?"
-#~ msgstr ""
 
