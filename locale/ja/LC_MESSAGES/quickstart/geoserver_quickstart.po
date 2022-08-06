@@ -6,16 +6,16 @@
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
-# Ko Nagase <nagase@georepublic.co.jp>, 2021
+# Ko Nagase <nagase@georepublic.co.jp>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-13 22:52+0000\n"
+"POT-Creation-Date: 2022-08-06 09:15-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2022\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -62,7 +62,7 @@ msgstr "NetCDFファイルからレイヤを追加する"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:43
 msgid "Contents"
-msgstr ""
+msgstr "目次"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:46
 msgid "Start Geoserver"
@@ -206,7 +206,7 @@ msgid ""
 msgstr ""
 "いずれかのレイヤの横にある :guilabel:`公開` を押して、データの追加を完了します。これにより、 *レイヤ* ページに移動します。"
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst-1
+#: ../../build/doc/quickstart/geoserver_quickstart.rstNone
 msgid "The layer publishing page"
 msgstr ""
 
@@ -322,7 +322,7 @@ msgid ""
 " an artist's palette)."
 msgstr ":ref:`レイヤリスト <Layer_list>` でスタイルボタン(アーティストのパレットのように見えます)を選択します。"
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst-1
+#: ../../build/doc/quickstart/geoserver_quickstart.rstNone
 msgid "The Layer list window"
 msgstr ""
 
@@ -367,7 +367,7 @@ msgstr ""
 msgid "This gives a nice looking basic world map."
 msgstr "これにより、美しい外観の基本的な世界マップが得られます。"
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst-1
+#: ../../build/doc/quickstart/geoserver_quickstart.rstNone
 msgid "A basic word map"
 msgstr ""
 
@@ -419,7 +419,7 @@ msgstr ""
 msgid "Press the :guilabel:`Submit` at the bottom of the page."
 msgstr "ページの下部にある :guilabel:`Submit` を押します。"
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst-1
+#: ../../build/doc/quickstart/geoserver_quickstart.rstNone
 msgid "Adding a Style to GeoServer"
 msgstr ""
 
@@ -523,7 +523,7 @@ msgstr "\"保存\" と \"O3\" レイヤを \"公開\" を押してください�
 msgid "Scroll down to the bottom of the \"Data\" tab and press \"Save\" again."
 msgstr "\"Data\" タブの一番下までスクロールダウンし、もう一度 \"保存\" を押します。"
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:319
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:0
 msgid "Adding a NetCDF store"
 msgstr ""
 
@@ -596,16 +596,16 @@ msgstr ""
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "ロゴなし"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo プロジェクト"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo コミュニティ"

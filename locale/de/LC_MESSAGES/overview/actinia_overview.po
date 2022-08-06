@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Markus Neteler <neteler@osgeo.org>, 2019
-# Vicky Vergara <vicky@georepublic.de>, 2020
 # Astrid Emde <astrid_emde@osgeo.org>, 2022
+# Vicky Vergara <vicky@georepublic.de>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-21 20:07+0000\n"
+"POT-Creation-Date: 2022-08-03 09:57+0000\n"
 "PO-Revision-Date: 2019-07-18 21:56+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2022\n"
+"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
 "Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -52,7 +52,7 @@ msgstr ""
 "von Satellitenbildern, beliebigen Rasterdaten mit geografischen Beziehungen "
 "und Vektordaten."
 
-#: ../../build/doc/overview/actinia_overview.rst-1
+#: ../../build/doc/overview/actinia_overview.rstNone
 msgid "actinia screenshot"
 msgstr "Actinia Screenshot"
 
@@ -109,6 +109,11 @@ msgstr ""
 msgid "**Support:** https://github.com/mundialis/actinia_core"
 msgstr "**Unterstützung:** https://github.com/mundialis/actinia_core"
 
+#: ../../build/doc/overview/actinia_overview.rst:62
+msgid ""
+"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgstr "Das Projekt ist nur Teil der OSGeoLive Virtuelle Maschine Disk (VMDK)"
+
 #: ../../build/doc/overview/actinia_overview.rst:65
 msgid "Quickstart"
 msgstr "Schnelleinstieg"
@@ -118,11 +123,11 @@ msgid ":doc:`Quickstart documentation <../quickstart/actinia_quickstart>`"
 msgstr ""
 ":doc:`Dokumentation Schnelleinstieg <../quickstart/actinia_quickstart>`"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr "nologo"
 
@@ -130,6 +135,6 @@ msgstr "nologo"
 msgid "OSGeo Project"
 msgstr "OSGeo Project"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr "OSGeo Community"

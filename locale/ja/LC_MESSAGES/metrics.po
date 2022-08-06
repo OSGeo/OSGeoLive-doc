@@ -1,19 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ko Nagase <nagase@georepublic.co.jp>, 2021
+# Ko Nagase <nagase@georepublic.co.jp>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2022-08-06 09:15-0500\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2022\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -56,42 +56,42 @@ msgstr "ブラウザ向け GIS"
 msgid "Web Services"
 msgstr "Web サービス"
 
-#: ../../build/doc/metrics.rst:77
+#: ../../build/doc/metrics.rst:78
 msgid "Data Stores"
 msgstr "データストア"
 
-#: ../../build/doc/metrics.rst:88
+#: ../../build/doc/metrics.rst:89
 msgid "Navigation and Maps"
 msgstr "ナビゲーションと地図"
 
-#: ../../build/doc/metrics.rst:101
+#: ../../build/doc/metrics.rst:102
 msgid "Spatial Tools"
 msgstr "空間ツール"
 
-#: ../../build/doc/metrics.rst:113
+#: ../../build/doc/metrics.rst:114
 msgid "Domain Specific GIS"
 msgstr "特定用途向け GIS"
 
-#: ../../build/doc/metrics.rst:121
+#: ../../build/doc/metrics.rst:122
 msgid "Data"
 msgstr "データ"
 
-#: ../../build/doc/metrics.rst:132
+#: ../../build/doc/metrics.rst:133
 msgid "Geospatial Libraries"
 msgstr "地理空間ライブラリ"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "ロゴなし"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo プロジェクト"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo コミュニティ"

@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-05 20:06+0000\n"
+"POT-Creation-Date: 2022-08-06 09:15-0500\n"
 "PO-Revision-Date: 2017-09-20 16:06+0000\n"
 "Last-Translator: Stefano Campus <skampus@gmail.com>, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
@@ -183,6 +183,8 @@ msgid ""
 "You can easily create an application by copying an existing application "
 "using the **Duplicate Application** button."
 msgstr ""
+"È possibile creare facilmente un'applicazione copiando un'applicazione "
+"esistente utilizzando il pulsante **Duplicate Application**."
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:85
 msgid ""
@@ -254,6 +256,8 @@ msgid ""
 "Load another WMS "
 "https://sgx.geodatenzentrum.de/wms_topplus_open?request=GetCapabilities&service=WMS&VERSION=1.3.0"
 msgstr ""
+"Carica un altro WMS "
+"https://sgx.geodatenzentrum.de/wms_topplus_open?request=GetCapabilities&service=WMS&VERSION=1.3.0"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:113
 msgid ""
@@ -499,11 +503,11 @@ msgstr ""
 msgid "Get involved in the project https://mapbender.org/community/"
 msgstr "Partecipa al progetto https://mapbender.org/community/"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr "nologo"
 
@@ -511,6 +515,6 @@ msgstr "nologo"
 msgid "OSGeo Project"
 msgstr "Progetto OSGeo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr "Comunità OSGeo"

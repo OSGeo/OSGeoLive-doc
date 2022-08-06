@@ -1,19 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ko Nagase <nagase@georepublic.co.jp>, 2021
+# Ko Nagase <nagase@georepublic.co.jp>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2022-08-06 09:15-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2022\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,7 +45,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:28
 msgid "Contents"
-msgstr ""
+msgstr "目次"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:31
 msgid "Start GeoMoose"
@@ -225,6 +225,12 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:101
 msgid ""
+"You may need to scroll down in the \"Super Tab\" to find the \"Go\" button "
+"if your browser window is small."
+msgstr ""
+
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:106
+msgid ""
 "Finally, click the \"Go\" button to actually select the features.  GeoMoose "
 "will return a summary of what was selected in the Super Tab as well, "
 "highlight the selected features on the map, and show an attribute table of "
@@ -233,7 +239,7 @@ msgstr ""
 "最後に、 \"Go\" "
 "ボタンをクリックして、地物を実際に選択します。GeoMooseは、スーパータブで選択されたものの概要も返し、マップ上で選択されたフィーチャを強調表示し、選択されたフィーチャの属性テーブルを表示します。"
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:106
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:111
 msgid ""
 "If you hover over a line in the table, the corresponding feature on the map "
 "will be highlighted.  Additionally, you can use the funnel icons in the "
@@ -243,11 +249,11 @@ msgid ""
 msgstr ""
 "テーブルの上にカーソルを置くと、対応する地物が強調表示されます。さらに、テーブルヘッダーのファンネルアイコンを使用して結果をさらにフィルタしたり、テーブルヘッダーの三角形アイコンを使用して結果を並べ替えたりできます。結果は、テーブルの左上にあるダウンロードアイコンを使用してCSVファイルとしてダウンロードできます。"
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:110
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:115
 msgid "Search for features"
 msgstr "地物を検索"
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:112
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:117
 msgid ""
 "You can also search for features by attribute.  To start, hover over the "
 "\"Search\" menu in the toolbar and then click on the \"Search Parcels\" "
@@ -257,27 +263,27 @@ msgstr ""
 "地物を属性で検索することもできます。開始するには、ツールバーの \"検索\" メニューにカーソルを置き、 \"区画検索\" "
 "アイコンをクリックします。Super Tabに検索パラメータを入力し、 \"Go!\" ボタンをクリックします。"
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:116
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:121
 msgid ""
 "The following screenshot demonstrates a search of all parcel owners "
 "containing the name \"frank\"."
 msgstr "次のスクリーンショットは、 \"frank\" という名前を含むすべての区画所有者の検索を示しています。"
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:120
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:125
 msgid "Three results appear in the list and are highlighted on the map."
 msgstr "3つの結果が一覧に表示され、マップ上で強調表示されます。"
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:124
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:129
 msgid ""
 "Clicking the magnifying glass icon/parcel number will zoom you to the "
 "specific parcel as illustrated in the following screenshot."
 msgstr "虫眼鏡アイコン/区画番号をクリックすると、次のスクリーンショットに示すように、特定の区画にズームします。"
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:130
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:135
 msgid "Print the map"
 msgstr "マップを印刷"
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:132
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:137
 msgid ""
 "This next screenshot shows how the Print tool looks as provided with demo "
 "for GeoMoose.  When you click on the Print tool, a dialog appears which asks"
@@ -286,50 +292,50 @@ msgid ""
 msgstr ""
 "次のスクリーンショットは、GeoMooseのデモで提供されている印刷ツールの外観を示しています。印刷ツールをクリックすると、ダイアログが表示され、印刷されるマップのタイトル、ページサイズと回転、印刷解像度、印刷内容のプレビューが表示されます。"
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:136
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:141
 msgid ""
 "Clicking the Print button in the dialog will generate a PDF printout that "
 "you can open or save."
 msgstr "ダイアログの[印刷]ボタンをクリックすると、PDFの印刷出力が生成され、開いたり保存したりできます。"
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:142
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:147
 msgid "What next?"
 msgstr "次のステップ"
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:144
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:149
 msgid ""
 "This is only the first step on the road to using GeoMoose. There is a lot "
 "more functionality you can try."
 msgstr "これは、GeoMooseを使用するための最初のステップにすぎません。他にも多くの機能を試すことができます。"
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:147
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:152
 msgid "GeoMoose Project home"
 msgstr "GeoMooseプロジェクトのホーム"
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:149
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:154
 msgid "https://www.geomoose.org/"
 msgstr "https://www.geomoose.org/"
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:151
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:156
 msgid "GeoMoose Tutorial"
 msgstr "GeoMooseのチュートリアル"
 
-#: ../../build/doc/quickstart/geomoose_quickstart.rst:153
+#: ../../build/doc/quickstart/geomoose_quickstart.rst:158
 msgid "https://www.geomoose.org/quickstart.html"
 msgstr "https://www.geomoose.org/quickstart.html"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "ロゴなし"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo プロジェクト"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo コミュニティ"

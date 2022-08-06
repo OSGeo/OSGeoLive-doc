@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-20 21:55-0500\n"
+"POT-Creation-Date: 2022-08-05 11:21+0000\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -295,9 +295,8 @@ msgstr "Dokumentáció"
 
 #: ../../build/doc/overview/mapserver_overview.rst:115
 msgid ""
-"`MapServer 7.0 Documentation <https://localhost/mapserver/doc/index.html>`__"
+"`MapServer Documentation <http://localhost/mapserver/doc/index.html>`__"
 msgstr ""
-"`MapServer 7.0 Dokumentáció <https://localhost/mapserver/doc/index.html>`__"
 
 #: ../../build/doc/overview/mapserver_overview.rst:118
 msgid "Details"
@@ -339,11 +338,11 @@ msgstr "Gyorstalpaló"
 msgid ":doc:`Quickstart documentation <../quickstart/mapserver_quickstart>`"
 msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/mapserver_quickstart>`"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr "nologo"
 

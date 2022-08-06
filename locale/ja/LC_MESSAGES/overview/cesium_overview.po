@@ -1,21 +1,21 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Toshikazu SETO <tosseto@gmail.com>, 2017
 # Vicky Vergara <vicky@georepublic.de>, 2020
-# Ko Nagase <nagase@georepublic.co.jp>, 2021
+# Ko Nagase <nagase@georepublic.co.jp>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2022-08-06 09:15-0500\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2022\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,7 +46,7 @@ msgstr ""
 
 #: ../../build/doc/overview/cesium_overview.rstNone
 msgid "cesium screenshot"
-msgstr ""
+msgstr "Cesium スクリーンショット"
 
 #: ../../build/doc/overview/cesium_overview.rst:30
 msgid "Core Features"
@@ -85,7 +85,7 @@ msgstr "COLLADAとglTFを使用して3Dモデルを描画します。"
 #: ../../build/doc/overview/cesium_overview.rst:38
 msgid ""
 "Use `plugins <https://cesium.com/platform/cesiumjs/>`_ to extend Cesium."
-msgstr ""
+msgstr "`プラグイン <https://cesium.com/platform/cesiumjs/>`_ を使用してCesiumを拡張します。"
 
 #: ../../build/doc/overview/cesium_overview.rst:40
 msgid "Built for Performance and Precision:"
@@ -166,7 +166,7 @@ msgstr "**対応プラットフォーム:** プラットフォームに依存せ
 
 #: ../../build/doc/overview/cesium_overview.rst:67
 msgid "**Community Support:** Forum at https://community.cesium.com"
-msgstr ""
+msgstr "**コミュニティサポート:** Forum at https://community.cesium.com"
 
 #: ../../build/doc/overview/cesium_overview.rst:72
 msgid "Quickstart"
@@ -176,18 +176,18 @@ msgstr "クイックスタート"
 msgid ":doc:`Quickstart documentation <../quickstart/cesium_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/cesium_quickstart>`"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "ロゴなし"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo プロジェクト"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo コミュニティ"

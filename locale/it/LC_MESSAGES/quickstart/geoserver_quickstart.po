@@ -9,17 +9,17 @@
 # Valerio Pinna <pinnavalerio@yahoo.co.uk>, 2021
 # Simone Falceri, 2022
 # Federico Gianoli <fritz4@gmail.com>, 2022
-# Stefano Campus <skampus@gmail.com>, 2022
 # Vicky Vergara <vicky@georepublic.de>, 2022
+# Stefano Campus <skampus@gmail.com>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-13 22:52+0000\n"
+"POT-Creation-Date: 2022-08-06 09:15-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
+"Last-Translator: Stefano Campus <skampus@gmail.com>, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -230,7 +230,7 @@ msgstr ""
 "Premi :guilabel:`publish` accanto a uno dei layer per finire di aggiungere i"
 " dati. Questo ti porterà alla pagina *Layers*:"
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst-1
+#: ../../build/doc/quickstart/geoserver_quickstart.rstNone
 msgid "The layer publishing page"
 msgstr "La pagina di pubblicazione dei layer"
 
@@ -357,7 +357,7 @@ msgstr ""
 "Nel :ref:`Layer list <Layer_list>` seleziona il pulsante dello stile "
 "(assomiglia alla tavolozza di un artista)."
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst-1
+#: ../../build/doc/quickstart/geoserver_quickstart.rstNone
 msgid "The Layer list window"
 msgstr "La finestra dell'elenco dei Layer"
 
@@ -408,7 +408,7 @@ msgstr "Definizione di un colore del terreno più bello"
 msgid "This gives a nice looking basic world map."
 msgstr "Questo dà una mappa del mondo di base dall'aspetto gradevole."
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst-1
+#: ../../build/doc/quickstart/geoserver_quickstart.rstNone
 msgid "A basic word map"
 msgstr "Una mappa di base del mondo"
 
@@ -470,7 +470,7 @@ msgstr ""
 msgid "Press the :guilabel:`Submit` at the bottom of the page."
 msgstr "Premi :guilabel:`Sottoponi` al fondo della pagina.."
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst-1
+#: ../../build/doc/quickstart/geoserver_quickstart.rstNone
 msgid "Adding a Style to GeoServer"
 msgstr "Aggiungere uno Stile in GeoServer"
 
@@ -585,7 +585,7 @@ msgstr "Premi \"Salva\", \"Pubblica\" il layer \"O3\"."
 msgid "Scroll down to the bottom of the \"Data\" tab and press \"Save\" again."
 msgstr "Scorri fino alla fine della scheda \"Data\" e premi nuovamente \"Save\"."
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:319
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:0
 msgid "Adding a NetCDF store"
 msgstr "Aggiunta di un archivio NetCDF"
 
@@ -641,7 +641,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:349
 msgid "GeoServer Project home - https://geoserver.org/"
-msgstr ""
+msgstr "Home del progetto GeoServer - https://geoserver.org/"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:350
 msgid "GeoServer User Manual - https://docs.geoserver.org/latest/en/user/"
@@ -676,6 +676,6 @@ msgstr "nologo"
 msgid "OSGeo Project"
 msgstr "Progetto OSGeo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr "Comunità OSGeo"

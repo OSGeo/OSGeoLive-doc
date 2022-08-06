@@ -16,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-01 12:20-0500\n"
+"POT-Creation-Date: 2022-08-01 17:51+0000\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
 "Last-Translator: Stefano Campus <skampus@gmail.com>, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
@@ -687,10 +687,15 @@ msgid ""
 " only available in the VMDK version. The ISO version has the ``phpPgAdmin`` "
 "client which offers the same core functionality."
 msgstr ""
+"A seconda della versione di OSGeoLive utilizzata (ISO o VMDK), non saranno "
+"disponibili gli stessi client. ``pgAdmin`` è il client ufficiale per "
+"PostgreSQL, tuttavia, per motivi tecnici, non può essere presente nella ISO,"
+" quindi è disponibile solo nella versione VMDK. La versione ISO ha il client"
+" ``phpPgAdmin`` che offre le stesse funzionalità di base."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:471
 msgid "Get to know phpPgAdmin (ISO & VMDK)"
-msgstr ""
+msgstr "Conoscere phpPgAdmin (ISO e VMDK)"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:473
 msgid ""
@@ -703,6 +708,9 @@ msgid ""
 " launch phpPgAdmin from the Databases folder, existing on the OSGeoLive "
 "Desktop."
 msgstr ""
+"phpPgAdmin consente di utilizzare SQL per manipolare le tabelle di dati. È "
+"possibile trovare e lanciare phpPgAdmin dalla cartella Databases, presente "
+"sul Desktop di OSGeoLive."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rstNone
 msgid "phpPgAdmin main"
@@ -715,6 +723,10 @@ msgid ""
 "``PostgreSQL`` server denotes that you haven't been yet connected. Click on "
 "it  then enter the user name  ``user`` and the master password  ``user``."
 msgstr ""
+"Qui si ha la possibilità di creare una nuova connessione a un server "
+"PostgreSQL o di connettersi a un server esistente. La \"X\" rossa sul server"
+" ``PostgreSQL`` indica che non si è ancora connessi. Fare clic su di essa e "
+"inserire il nome utente ``user`` e la master password ``user``."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:487
 #: ../../build/doc/quickstart/postgis_quickstart.rst:553
@@ -729,7 +741,7 @@ msgstr ""
 #: ../../build/doc/quickstart/postgis_quickstart.rstNone
 #: ../../build/doc/quickstart/postgis_quickstart.rstNone
 msgid "phpPgAdmin"
-msgstr ""
+msgstr "phpPgAdmin"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:495
 msgid ""
@@ -737,6 +749,9 @@ msgid ""
 " You can connect, by clicking, on plus sign at the left of the name of a "
 "database. Do it for the ``natural_earth2`` database."
 msgstr ""
+"A questo punto è possibile vedere solo i database esistenti nel sistema. È "
+"possibile connettersi facendo clic sul segno più a sinistra del nome di un "
+"database. Fatelo per il database ``natural_earth2``."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:498
 msgid ""
@@ -744,16 +759,21 @@ msgid ""
 "``public``. Click on the plus at left of ``Tables`` to expand it, you can "
 "see all the tables contained within this schema."
 msgstr ""
+"Ora si può vedere che c'è un solo schema in questo database, chiamato "
+"``public``. Facendo clic sul più a sinistra di ``Tabelle'' per espanderlo, "
+"si possono vedere tutte le tabelle contenute in questo schema."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:513
 msgid "Executing a SQL query from phpPgAdmin (ISO & VMDK)"
-msgstr ""
+msgstr "Esecuzione di una interrogazione SQL da phpPgAdmin (ISO e VMDK)"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:515
 msgid ""
 "phpPgAdmin offers the capability of executing queries to a relational "
 "database."
 msgstr ""
+"phpPgAdmin offre la possibilità di eseguire interrogazioni in un database "
+"relazionale."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:517
 msgid ""
@@ -761,6 +781,9 @@ msgid ""
 "database then press the ``SQL`` button from the main toolbar (the one at the"
 " left with the database symbol)."
 msgstr ""
+"Per eseguire una interrogazione sul database, clicca nuovamente sul database"
+" ``natural_earth2`` e poi premi il pulsante ``SQL`` dalla barra degli "
+"strumenti principale (quello a sinistra con il simbolo del database)."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:519
 #: ../../build/doc/quickstart/postgis_quickstart.rst:588
@@ -777,11 +800,11 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:527
 msgid "Afterwards, you should press the Execute button."
-msgstr ""
+msgstr "Successivamente, si deve premere il pulsante Execute."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:535
 msgid "Get to know pgAdmin (VMDK only)"
-msgstr ""
+msgstr "Conoscere pgAdmin (solo VMDK)"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:537
 msgid ""
@@ -831,6 +854,11 @@ msgid ""
 "existing databases on the system. You can connect, by double clicking, on "
 "the name of a database. Do it for the ``natural_earth2`` database."
 msgstr ""
+"La \"X\" rossa sull'immagine della maggior parte dei database, denota che "
+"non sei stato ancora connesso a nessuno di essi (sei connesso solo al "
+"database predefinito ``postgres``). A questo punto sei in grado di vedere "
+"solo i database esistenti sul sistema. Puoi connetterti cliccando due volte "
+"sul nome di un database. Fallo per il database ``natural_earth2``."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:565
 msgid ""
@@ -854,7 +882,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:582
 msgid "Executing a SQL query from pgAdmin (VMDK only)"
-msgstr ""
+msgstr "Esecuzione di una interrogazione SQL da pgAdmin (solo VMDK)"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:584
 msgid ""

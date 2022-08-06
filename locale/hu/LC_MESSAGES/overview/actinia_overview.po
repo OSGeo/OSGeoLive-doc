@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-21 20:07+0000\n"
+"POT-Creation-Date: 2022-08-03 09:57+0000\n"
 "PO-Revision-Date: 2019-07-18 21:56+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -49,7 +49,7 @@ msgstr ""
 "Egy REST API-t biztosít a műholdképek, műholdkép idősorok, térbeli "
 "pozícióval bíró tetszőleges raszter adatok és vektor adatok feldolgozására."
 
-#: ../../build/doc/overview/actinia_overview.rst-1
+#: ../../build/doc/overview/actinia_overview.rstNone
 msgid "actinia screenshot"
 msgstr "actinia képernyőképek"
 
@@ -106,6 +106,11 @@ msgstr ""
 msgid "**Support:** https://github.com/mundialis/actinia_core"
 msgstr "**Támogatás:** https://github.com/mundialis/actinia_core"
 
+#: ../../build/doc/overview/actinia_overview.rst:62
+msgid ""
+"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgstr "Ez a projekt csak az OSGeoLive virtuális gépben (VMDK) található meg"
+
 #: ../../build/doc/overview/actinia_overview.rst:65
 msgid "Quickstart"
 msgstr "Gyorstalpaló"
@@ -114,11 +119,11 @@ msgstr "Gyorstalpaló"
 msgid ":doc:`Quickstart documentation <../quickstart/actinia_quickstart>`"
 msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/actinia_quickstart>`"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr "nologo"
 
@@ -126,6 +131,6 @@ msgstr "nologo"
 msgid "OSGeo Project"
 msgstr "OSGeo Projekt"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr "OSGeo közösség"
