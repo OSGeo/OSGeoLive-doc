@@ -1,20 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
-# Ko Nagase <nagase@georepublic.co.jp>, 2021
+# Ko Nagase <nagase@georepublic.co.jp>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-21 20:07+0000\n"
+"POT-Creation-Date: 2022-08-06 09:15-0500\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2022\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,7 +34,7 @@ msgstr "GRASS GIS は、地理空間データの可視化、管理、分析、�
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:29
 msgid "Contents"
-msgstr ""
+msgstr "目次"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:32
 msgid "Start GRASS"
@@ -57,7 +57,14 @@ msgstr ""
 msgid "Click on :guilabel:`Start GRASS session`."
 msgstr ":guilabel:`Start GRASS session` をクリックします。"
 
-#: ../../build/doc/quickstart/grass_quickstart.rst-1
+#: ../../build/doc/quickstart/grass_quickstart.rstNone
+#: ../../build/doc/quickstart/grass_quickstart.rstNone
+#: ../../build/doc/quickstart/grass_quickstart.rstNone
+#: ../../build/doc/quickstart/grass_quickstart.rstNone
+#: ../../build/doc/quickstart/grass_quickstart.rstNone
+#: ../../build/doc/quickstart/grass_quickstart.rstNone
+#: ../../build/doc/quickstart/grass_quickstart.rstNone
+#: ../../build/doc/quickstart/grass_quickstart.rstNone
 msgid "screenshot"
 msgstr ""
 
@@ -503,6 +510,10 @@ msgid ""
 "`Layer Manager` window. Further details can be found in the `wxGUI "
 "<https://grass.osgeo.org/grass-stable/manuals/wxGUI.html>`_ help pages."
 msgstr ""
+"ここでは説明していませんが、カートグラフィックコンポーザーとオブジェクト指向描画モデリングツール(Pythonへのエクスポートを提供)を試してみてください。`Layer"
+" Manager` ウィンドウのアイコンの下の行に、アイコンが表示されています。Further details can be found in the "
+"`wxGUI <https://grass.osgeo.org/grass-stable/manuals/wxGUI.html>`_ help "
+"pages."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:314
 msgid "API"
@@ -596,18 +607,18 @@ msgid ""
 "stable/manuals/addons/>`_"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "ロゴなし"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo プロジェクト"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo コミュニティ"

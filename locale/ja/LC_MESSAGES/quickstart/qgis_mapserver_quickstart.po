@@ -1,19 +1,19 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ko Nagase <nagase@georepublic.co.jp>, 2021
+# Ko Nagase <nagase@georepublic.co.jp>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2022-08-06 09:15-0500\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2022\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -45,7 +45,7 @@ msgstr "新規 QGIS プロジェクトを作成し、WMS をブラウザで直�
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:32
 msgid "Contents"
-msgstr ""
+msgstr "目次"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:35
 msgid "Start GeoExt viewer"
@@ -207,18 +207,18 @@ msgstr "QGIS Web クライアント:"
 msgid "https://github.com/qgis/qgis-web-client"
 msgstr "https://github.com/qgis/qgis-web-client"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "ロゴなし"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo プロジェクト"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo コミュニティ"

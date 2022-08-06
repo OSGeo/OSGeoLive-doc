@@ -1,20 +1,20 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2020
-# Ko Nagase <nagase@georepublic.co.jp>, 2021
+# Ko Nagase <nagase@georepublic.co.jp>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2022-08-06 09:15-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2022\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -56,7 +56,7 @@ msgstr "管理クライアントを使用してEOデータアーカイブを検�
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:36
 msgid "Contents"
-msgstr ""
+msgstr "目次"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:39
 msgid "Start EoxServer"
@@ -162,6 +162,9 @@ msgid ""
 "<https://docs.eoxserver.org/en/stable/users/services/webclient.html>`_ for "
 "more information on this topic."
 msgstr ""
+"これは、EOxServer Web Clientの簡単な説明です。Please refer to the `online documentation "
+"<https://docs.eoxserver.org/en/stable/users/services/webclient.html>`_ for "
+"more information on this topic."
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:114
 msgid "Work with the Admin Client"
@@ -186,6 +189,9 @@ msgid ""
 "can be found in the `operations' guide "
 "<https://docs.eoxserver.org/en/stable/users/operations/index.html>`_."
 msgstr ""
+"`Admin Client` はDjangos標準の管理者であり、利用可能なデータを設定できます。クライアントを自由にご覧ください。More "
+"information can be found in the `operations' guide "
+"<https://docs.eoxserver.org/en/stable/users/operations/index.html>`_."
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rstNone
 msgid "EOxServer demonstration admin client start"
@@ -253,19 +259,23 @@ msgid ""
 "support>`_ to exchange ideas, discuss potential software improvements, and "
 "ask questions."
 msgstr ""
+"EOxServerを使用する準備はできていますか?Then join the community on the `mailing lists "
+"<https://docs.eoxserver.org/en/stable/users/basics.html#where-can-i-get-"
+"support>`_ to exchange ideas, discuss potential software improvements, and "
+"ask questions."
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "ロゴなし"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo プロジェクト"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo コミュニティ"

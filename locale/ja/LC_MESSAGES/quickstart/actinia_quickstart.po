@@ -1,26 +1,31 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
-# Ko Nagase <nagase@georepublic.co.jp>, 2021
+# Ko Nagase <nagase@georepublic.co.jp>, 2022
 # 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-21 20:07+0000\n"
+"POT-Creation-Date: 2022-08-05 15:16+0000\n"
 "PO-Revision-Date: 2019-07-18 21:56+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
+"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2022\n"
 "Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../build/doc/quickstart/actinia_quickstart.rst:16
+msgid ""
+"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgstr "このプロジェクトはOSGeoLive仮想マシンディスク(VMDK)にのみ含まれています"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:22
 msgid "actinia Quickstart"
@@ -34,10 +39,13 @@ msgid ""
 "REST API to process satellite images, time series of satellite images, "
 "raster and vector data."
 msgstr ""
+"Actiniaは、地理データのスケーラブルな分散・高性能処理のためのオープンソースのREST APIで、計算タスクには主に `GRASS GIS "
+"<https://grass.osgeo.org/>`__ "
+"を使用します。Actiniaは、衛星画像、時系列衛星画像データ、ベクタデータを処理するREST APIを提供しています。"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:31
 msgid "Contents"
-msgstr ""
+msgstr "目次"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:33
 msgid "Actinia can be used in different ways:"
@@ -49,7 +57,7 @@ msgstr "`curl` などのコマンドラインツール"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:36
 msgid "the `Postman` or `RESTman` extension for browsers"
-msgstr ""
+msgstr "ブラウザ用の `Postman` または `RESTman` 拡張"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:37
 msgid ""
@@ -85,6 +93,11 @@ msgid ""
 "and map layer the user has access to as well as the creation and deletion of"
 " mapsets."
 msgstr ""
+"``ace`` ツール(`詳細 <https://neteler.gitlab.io/actinia-"
+"introduction/#controlling-actinia-from-a-running-grass-gis-session>`_) "
+"は、単一のGRASS GISコマンドあるいはactinia RESTサービス(https://actinia.mundialis.de/) "
+"上のGRASS "
+"GISコマンドのリストの実行を可能にします。さらに、ジョブ管理、ユーザがアクセスできる場所、マップセット、マップレイヤのリスト機能、およびマップセットの作成と削除も提供します。"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:55
 msgid ""
@@ -92,12 +105,16 @@ msgid ""
 "installed with ``g.extension extension=ace "
 "url=https://github.com/mundialis/ace``."
 msgstr ""
+"``ace`` ツールはアクティブなGRASS GISセッションで実行されなければなりません。``g.extension extension=ace "
+"url=https://github.com/mundialis/ace`` でインストールされます。"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:58
 msgid ""
 "All commands will be executed per default in an **ephemeral** database. "
 "Hence, generated output must be exported using augmented GRASS commands."
 msgstr ""
+"すべてのコマンドは、**ephemeral** "
+"データベースでデフォルトごとに実行されます。したがって、生成された出力は、拡張GRASSコマンドを使用してエクスポートする必要があります。"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:62
 msgid ""
@@ -105,6 +122,8 @@ msgid ""
 "persistent user database. It can be used with ``location=LOCATION_NAME`` "
 "option."
 msgstr ""
+"オプション ``mapset=MAPSET_NAME`` は、永続的なユーザーデータベースでコマンドを実行できるようにします。これは "
+"``location=LOCATION_NAME`` オプションと一緒に使用することができます。"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:67
 msgid "Setup your environment"
@@ -146,6 +165,8 @@ msgid ""
 "``@`` operator can be specified for an input parameter to import a web "
 "located resource and to specify the export of an output parameter."
 msgstr ""
+"actinia 固有の拡張機能で、GRASS GISコマンドは拡張されています。入力パラメータとして ``@`` "
+"オペレータを指定することで、Webにあるリソースをインポートしたり、出力パラメータのエクスポートを指定することができます。"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:107
 msgid ""
@@ -155,7 +176,7 @@ msgstr "重要なことは、ローカルロケーションとマップセット
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:110
 msgid "Currently available datasets are (organized by projections):"
-msgstr "現在使用可能なデータセットは次のとおりです(投影によって編成):"
+msgstr "現在使用可能なデータセットは次のとおりです(投影法毎に整理):"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:112
 msgid "North Carolina sample dataset (NC State-Plane metric CRS, EPSG: 3358):"
@@ -166,7 +187,7 @@ msgid ""
 "base cartography (``nc_spm_08/PERMANENT``; source: "
 "https://grassbook.org/datasets/datasets-3rd-edition/)"
 msgstr ""
-"ベースのカートグラフィー (``nc_spm_08/PERMANENT``; source: "
+"背景地図 (``nc_spm_08/PERMANENT``; ソース: "
 "https://grassbook.org/datasets/datasets-3rd-edition/)"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:117
@@ -174,12 +195,12 @@ msgid ""
 "Landsat subscenes (``nc_spm_08/landsat``; source: "
 "https://grass.osgeo.org/download/data/)"
 msgstr ""
-"ランドサットのサブシーン (``nc_spm_08/landsat``; source: "
+"ランドサットのサブシーン (``nc_spm_08/landsat``; ソース: "
 "https://grass.osgeo.org/download/data/)"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:120
 msgid "Latitude-Longitude location (LatLong WGS84, EPSG:4326):"
-msgstr "緯度-経度による位置指定 (LatLong WGS84, EPSG:4326):"
+msgstr "緯度-経度による位置指定 (緯経度 WGS84、EPSG:4326):"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:122
 msgid "empty (``latlong_wgs84/PERMANENT/``)"
@@ -191,39 +212,38 @@ msgid ""
 "(``latlong_wgs84/modis_ndvi_global/``; source: "
 "https://lpdaac.usgs.gov/products/mod13c1v006/)"
 msgstr ""
-"16日間の NDVI, MOD13C1, V006, CMG 0.05 deg res. "
-"(``latlong_wgs84/modis_ndvi_global/``; source: "
-"https://lpdaac.usgs.gov/products/mod13c1v006/)"
+"16日間の NDVI、MOD13C1、V006、CMG 0.05 度解像度(``latlong_wgs84/modis_ndvi_global/``; "
+"ソース: https://lpdaac.usgs.gov/products/mod13c1v006/)"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:126
 msgid ""
 "LST growing degree days asia 2017 (``latlong_wgs84/asia_gdd_2017/``; source:"
 " https://www.mundialis.de/en/temperature-data/)"
 msgstr ""
-"LST growing degree days asia 2017 (``latlong_wgs84/asia_gdd_2017/``; source:"
-" https://www.mundialis.de/en/temperature-data/)"
+"LST 有効積算温度 アジア 2017 (``latlong_wgs84/asia_gdd_2017/``; ソース: "
+"https://www.mundialis.de/en/temperature-data/)"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:128
 msgid "LST tropical days asia 2017 (``latlong_wgs84/asia_tropical_2017/``)"
-msgstr "LST tropical days asia 2017 (``latlong_wgs84/asia_tropical_2017/``)"
+msgstr "LST 熱帯日数 アジア 2017 (``latlong_wgs84/asia_tropical_2017/``)"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:129
 msgid ""
 "LST temperature daily asia 2017, including min, max and avg "
 "(``latlong_wgs84/asia_lst_daily_2017/``)"
 msgstr ""
-"LST 日次温度  アジア 2017, 最小、最大、平均を含む (``latlong_wgs84/asia_lst_daily_2017/``)"
+"LST 日次温度 アジア 2017、最小、最大、平均を含む (``latlong_wgs84/asia_lst_daily_2017/``)"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:132
 msgid "Europe (EU LAEA CRS, EPSG:3035):"
-msgstr "欧州 (EU LAEA CRS, EPSG:3035):"
+msgstr "欧州 (EU LAEA CRS、EPSG:3035):"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:134
 msgid ""
 "EU DEM 25m V1.1 (``eu_laea/PERMANENT/``; source: "
 "https://land.copernicus.eu/imagery-in-situ/eu-dem)"
 msgstr ""
-"EU DEM 25m V1.1 (``eu_laea/PERMANENT/``; source: "
+"EU DEM 25m V1.1 (``eu_laea/PERMANENT/``; ソース: "
 "https://land.copernicus.eu/imagery-in-situ/eu-dem)"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:136
@@ -231,7 +251,7 @@ msgid ""
 "CORINE Landcover 2012, g100_clc12_V18_5 (``eu_laea/corine_2012/``; source: "
 "https://land.copernicus.eu/pan-european/corine-land-cover/clc-2012)"
 msgstr ""
-"CORINE Landcover 2012, g100_clc12_V18_5 (``eu_laea/corine_2012/``; source: "
+"CORINE 土地被覆 2012、g100_clc12_V18_5 (``eu_laea/corine_2012/``; ソース: "
 "https://land.copernicus.eu/pan-european/corine-land-cover/clc-2012)"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:140
@@ -244,7 +264,7 @@ msgid ""
 "source: https://ghsl.jrc.ec.europa.eu/ghs_pop.php)"
 msgstr ""
 "GHS_POP_GPW42015_GLOBE_R2015A_54009_250_v1_0 (``world_mollweide/pop_jrc``; "
-"source: https://ghsl.jrc.ec.europa.eu/ghs_pop.php)"
+"ソース: https://ghsl.jrc.ec.europa.eu/ghs_pop.php)"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:147
 msgid "Inspect the REST call prior to submission"
@@ -255,7 +275,7 @@ msgstr "送信前にRESTコールを検査する"
 msgid ""
 "To generate the actinia process chain JSON request simply add the ``-d`` "
 "(dry-run) flag:"
-msgstr ""
+msgstr "actinia 処理チェインのJSONリクエストを生成するには、 ``-d`` (ドライラン)フラグを追加するだけです:"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:157
 msgid "Display a map - map rendering"
@@ -266,8 +286,9 @@ msgid "It is very easy (and fast) to render a map:"
 msgstr "マップのレンダリングは非常に簡単(かつ高速)です:"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:171
+#: ../../build/doc/quickstart/actinia_quickstart.rst:171
 msgid "ESA Globcover map shown by actinia"
-msgstr "actinia による ESA Globcover map の表示"
+msgstr "actinia による ESA Globcover マップの表示"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:173
 msgid ""
@@ -282,15 +303,15 @@ msgstr ""
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:178
 msgid "raster: ``COG``, ``GTiff``"
-msgstr "ラスタ: ``COG``, ``GTiff``"
+msgstr "ラスタ: ``COG``、``GTiff``"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:179
 msgid "vector: ``GPKG``, ``GML``, ``GeoJSON``, ``ESRI_Shapefile``"
-msgstr ""
+msgstr "ベクタ: ``GPKG``、``GML``、``GeoJSON``、``ESRI_Shapefile``"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:180
 msgid "table: ``CSV``, ``TXT``"
-msgstr "表: ``CSV``, ``TXT``"
+msgstr "表: ``CSV``、``TXT``"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:184
 msgid "Script examples"
@@ -411,18 +432,36 @@ msgid "Things to try"
 msgstr "試してみること"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:424
+msgid "Install on OSGeoLive VM with Docker Compose"
+msgstr ""
+
+#: ../../build/doc/quickstart/actinia_quickstart.rst:426
+msgid ""
+"Requirements: docker and docker-compose (already available in OSGeoLive VM "
+"version)"
+msgstr ""
+
+#: ../../build/doc/quickstart/actinia_quickstart.rst:428
+msgid "To build and deploy actinia, run"
+msgstr ""
+
+#: ../../build/doc/quickstart/actinia_quickstart.rst:436
+msgid "Now you have a running actinia instance locally! Check with"
+msgstr ""
+
+#: ../../build/doc/quickstart/actinia_quickstart.rst:443
 msgid "Create new locations"
 msgstr "新しい場所の作成"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:436
+#: ../../build/doc/quickstart/actinia_quickstart.rst:455
 msgid "Install GRASS GIS addons (extensions)"
 msgstr "GRASS GISアドオン(拡張機能)のインストール"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:451
+#: ../../build/doc/quickstart/actinia_quickstart.rst:470
 msgid "What next?"
 msgstr "次のステップ"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:452
+#: ../../build/doc/quickstart/actinia_quickstart.rst:471
 msgid ""
 "Visit the actinia website at `https://actinia.mundialis.de "
 "<https://actinia.mundialis.de>`_"
@@ -430,7 +469,7 @@ msgstr ""
 "actinia webサイト: `https://actinia.mundialis.de "
 "<https://actinia.mundialis.de>`_"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:453
+#: ../../build/doc/quickstart/actinia_quickstart.rst:472
 msgid ""
 "actinia tutorial: `https://neteler.gitlab.io/actinia-introduction "
 "<https://neteler.gitlab.io/actinia-introduction>`_"
@@ -438,7 +477,7 @@ msgstr ""
 "actinia チュートリアル: `https://neteler.gitlab.io/actinia-introduction "
 "<https://neteler.gitlab.io/actinia-introduction>`_"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:454
+#: ../../build/doc/quickstart/actinia_quickstart.rst:473
 msgid ""
 "Further reading: Neteler, M., Gebbert, S., Tawalika, C., Bettge, A., "
 "Benelcadi, H., Löw, F., Adams, T, Paulsen, H. (2019). Actinia: cloud based "
@@ -448,23 +487,24 @@ msgid ""
 "<https://zenodo.org/record/2631917>`__)"
 msgstr ""
 "追加文献: Neteler, M., Gebbert, S., Tawalika, C., Bettge, A., Benelcadi, H., "
-"Löw, F., Adams, T, Paulsen, H. (2019). Actinia:クラウドベースの地理処理。In Proc. of the "
-"2019 conference on Big Data from Space (BiDS'2019) (pp. 41-44). EUR 29660 "
-"EN, Publications Office of the European Union 5, Luxembourg: P. Soille, S. "
-"Loekken, and S. Albani (Eds.). (`DOI <https://zenodo.org/record/2631917>`__)"
+"Löw, F., Adams, T, Paulsen, H. (2019). Actinia:cloud based geoprocessing. In"
+" Proc. of the 2019 conference on Big Data from Space (BiDS'2019) (pp. "
+"41-44). EUR 29660 EN, Publications Office of the European Union 5, "
+"Luxembourg: P. Soille, S. Loekken, and S. Albani (Eds.). (`DOI "
+"<https://zenodo.org/record/2631917>`__)"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "ロゴなし"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo プロジェクト"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo コミュニティ"
