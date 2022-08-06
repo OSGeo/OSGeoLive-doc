@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-13 16:00+0000\n"
+"POT-Creation-Date: 2022-08-06 09:15-0500\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
 "Last-Translator: Stefano Campus <skampus@gmail.com>, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
@@ -117,7 +117,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:55
 msgid "Press start on the *deegree-workspace-utah-light*."
-msgstr ""
+msgstr "Premi start su *deegree-workspace-utah-light*."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:57
 msgid ""
@@ -127,6 +127,11 @@ msgid ""
 "1.1.0 and 1.0.0) is configured that allows to access the raw vector data, "
 "backed by shapefiles, in GML format."
 msgstr ""
+"L'area di lavoro demo contiene una configurazione di web mapping basata sui "
+"dati dello stato dello Utah. Contiene una configurazione WMS (1.3.0 e 1.1.1)"
+" composta da layer vettoriali e una varietà di stili di rendering. Inoltre, "
+"è configurato un WFS (2.0.0, 1.1.0 e 1.0.0) che consente di accedere ai dati"
+" vettoriali grezzi, supportati da shapefile, in formato GML."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:62
 msgid ""
@@ -134,6 +139,9 @@ msgid ""
 "the workspace *deegree-workspace-utah* through the workspace management "
 "(internet connection is required)."
 msgstr ""
+"Per ulteriori esempi di configurazione, compresi i dati raster, è possibile "
+"importare lo spazio di lavoro *deegree-workspace-utah* attraverso la "
+"gestione dello spazio di lavoro (è necessaria una connessione a Internet)."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:66
 msgid "View a map"
@@ -155,6 +163,9 @@ msgid ""
 "available  layers. You can activate the a variety of layers served by the "
 "deegree WMS here."
 msgstr ""
+"Fare clic su **+** sul lato destro per aprire un albero dei layer che mostra"
+" tutti i layer disponibili. Qui è possibile attivare una serie di layer "
+"serviti da deegree WMS."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:73
 msgid ""
@@ -188,18 +199,22 @@ msgid ""
 "deegree documentation - Available here: "
 "https://www.deegree.org/documentation/"
 msgstr ""
+"Documentazione di deegree - Disponibile qui: "
+"https://www.deegree.org/documentation/"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:87
 msgid ""
 "deegree docker images - Available here: "
 "https://hub.docker.com/r/deegree/deegree3-docker/"
 msgstr ""
+"immagini docker di deegree - Disponibili qui: "
+"https://hub.docker.com/r/deegree/deegree3-docker/"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr "nologo"
 
@@ -207,6 +222,6 @@ msgstr "nologo"
 msgid "OSGeo Project"
 msgstr "Progetto OSGeo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr "Comunità OSGeo"

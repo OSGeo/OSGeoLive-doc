@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-13 22:52+0000\n"
+"POT-Creation-Date: 2022-08-06 09:15-0500\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
 "Last-Translator: Stefano Campus <skampus@gmail.com>, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
@@ -206,6 +206,9 @@ msgid ""
 "For more information about the jupyter notebook, please refer to the "
 "`Jupyter Notebooks official documentation <https://docs.jupyter.org>`__."
 msgstr ""
+"Per ulteriori informazioni sul notebook jupyter, consultare la "
+"documentazione ufficiale di `Jupyter Notebooks "
+"<https://docs.jupyter.org>`__."
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:137
 msgid "More notebook examples are available from the notebook root directory."
@@ -219,6 +222,9 @@ msgid ""
 "started with Jupyter Notebook <https://docs.jupyter.org/en/latest/content-"
 "quickstart.html>`__."
 msgstr ""
+"Introduzione rapida all'uso dell'interfaccia di Jupyter Notebooks: `Iniziare"
+" con Jupyter Notebook <https://docs.jupyter.org/en/latest/content-"
+"quickstart.html>`__."
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -232,6 +238,6 @@ msgstr "nologo"
 msgid "OSGeo Project"
 msgstr "Progetto OSGeo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr "Comunità OSGeo"
