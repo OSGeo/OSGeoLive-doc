@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2022-08-03 09:57+0000\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
 "Last-Translator: Nicolas Roelandt (Personnel), 2022\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
@@ -163,6 +163,13 @@ msgstr "**Interfaces d'API:** rasql, C++, Java"
 msgid "**Support:**  https://rasdaman.com"
 msgstr "**Support:**  https://rasdaman.com"
 
+#: ../../build/doc/overview/rasdaman_overview.rst:71
+msgid ""
+"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgstr ""
+"Ce projet n’est inclus que sur le disque de machine virtuelle OSGeoLive "
+"(VMDK)"
+
 #: ../../build/doc/overview/rasdaman_overview.rst:74
 msgid "Quickstart"
 msgstr "Guide de démarrage rapide"
@@ -171,11 +178,11 @@ msgstr "Guide de démarrage rapide"
 msgid ":doc:`Quickstart documentation <../quickstart/rasdaman_quickstart>`"
 msgstr ":doc:`Guide de démarrage rapide <../quickstart/rasdaman_quickstart>`"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr "Pas de logo"
 
