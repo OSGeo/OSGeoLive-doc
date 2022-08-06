@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-21 20:07+0000\n"
+"POT-Creation-Date: 2022-08-03 09:57+0000\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -41,7 +41,7 @@ msgstr ""
 "patakban, egy meteorológiai állomáson vagy egy levegőminőség-ellenőrző "
 "állomáson."
 
-#: ../../build/doc/overview/52nSOS_overview.rst-1
+#: ../../build/doc/overview/52nSOS_overview.rstNone
 msgid "52nSOS screenshot"
 msgstr "52nSOS képernyőképek"
 
@@ -408,6 +408,11 @@ msgid ""
 msgstr ""
 "**Más 52°North projektek az OSGeoLive-on:** :doc:`WPS <./52nWPS_overview>`"
 
+#: ../../build/doc/overview/52nSOS_overview.rst:159
+msgid ""
+"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgstr "Ez a projekt csak az OSGeoLive virtuális gépben (VMDK) található meg"
+
 #: ../../build/doc/overview/52nSOS_overview.rst:162
 msgid "Quickstart"
 msgstr "Gyorstalpaló"
@@ -416,11 +421,11 @@ msgstr "Gyorstalpaló"
 msgid ":doc:`Quickstart documentation <../quickstart/52nSOS_quickstart>`"
 msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/52nSOS_quickstart>`"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr "nologo"
 
@@ -428,6 +433,6 @@ msgstr "nologo"
 msgid "OSGeo Project"
 msgstr "OSGeo Projekt"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr "OSGeo közösség"
