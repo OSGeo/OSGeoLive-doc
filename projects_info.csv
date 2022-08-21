@@ -40,7 +40,7 @@ Y | pywps | 4.5.1 | Y | Y | Web Services | | Web Processing Service | pyWPS | ht
 #   OSGeo Community | | | | | | | | | | | |
 Y | istsos | 2.4.0 | Y | Y | Web Services | | Sensor Observation Service | istsos | http://istsos.org | OSGeo_community | istSOS | Y
 Y | mapproxy | 1.15.1 | Y | Y | Web Services | | Proxy WMS & tile services | mapproxy | https://mapproxy.org/ | OSGeo_community | MapProxy | Y
-Y | pygeoapi | 0.12.0 | Y | Y | Web Services | | OGC Web Services | pygeoapi | https://pygeoapi.io/ | OSGeo_community | pygeoapi | Y
+Y | pygeoapi | 0.12.0 | Y | Y | Web Services | | OGC Web Services | pygeoapi | https://pygeoapi.io/ | OSGeo_project | pygeoapi | Y
 Y | zoo-project | 1.9.0 | Y | Y | Web Services | | Web Processing Service | zoo-project | http://zoo-project.org/ | OSGeo_incubation | Zoo Project | Y
 #   Others  | | | | | | | | | | | |
 Y | actinia | 4.2.0 | Y | Y | Web Services | | Processing of Geographical Data | actinia_core | https://actinia.mundialis.de/ | OSGeo_community | actinia | N
