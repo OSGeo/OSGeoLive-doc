@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-01 12:20-0500\n"
+"POT-Creation-Date: 2022-08-01 17:51+0000\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -613,7 +613,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rstNone
 msgid "QGIS Manager Preview"
-msgstr ""
+msgstr "QGIS kezelő előnézet"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:430
 msgid ""
@@ -672,7 +672,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rstNone
 msgid "SIDS data mapped"
-msgstr ""
+msgstr "SIDS adatok a térképen"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:464
 msgid ""

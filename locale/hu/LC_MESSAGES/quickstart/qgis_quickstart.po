@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -9,9 +9,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-20 21:55-0500\n"
+"POT-Creation-Date: 2022-08-06 09:15-0500\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
@@ -207,7 +207,7 @@ msgstr "Legyen a projekt neve 'My QGIS project'."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS project location"
-msgstr ""
+msgstr "QGIS projekt helye"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:124
 msgid "Click 'Save'."
@@ -291,7 +291,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS Open project result"
-msgstr ""
+msgstr "QGIS prjoekt nyitás eredménye"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:160
 msgid ""
@@ -342,7 +342,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS result of layer visibility changes"
-msgstr ""
+msgstr "QGIS réteg láthatóság módosításának eredénye"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:181
 msgid ""
@@ -515,7 +515,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS style dock"
-msgstr ""
+msgstr "QGIS stílus dokk"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:245
 msgid ""
@@ -539,7 +539,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS style dock layer"
-msgstr ""
+msgstr "QGIS stílus dokk réteg"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:255
 msgid ""
@@ -560,7 +560,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS style dock color"
-msgstr ""
+msgstr "QGIS stílus dokk szín"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:264
 msgid ""
@@ -580,7 +580,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS style return"
-msgstr ""
+msgstr "QGIS stílus visszaadás"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:276
 msgid ""
@@ -592,7 +592,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS style result"
-msgstr ""
+msgstr "QGIS stílus eredmény"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:282
 msgid ""
@@ -616,7 +616,7 @@ msgstr "A stílus panelben vigye be a  '0.5' értéket a  'width' mezőbe."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS style width"
-msgstr ""
+msgstr "QGIS stílus szélesség"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:292
 msgid ""
@@ -677,11 +677,11 @@ msgstr ""
 "A további tanuláshoz a QGIS-ről egy jó kiinduló pont a `Documentation page`_"
 " A QGIS honlapon és az `A Gentle Introduction to GIS`_ e-könyv."
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr "nologo"
 

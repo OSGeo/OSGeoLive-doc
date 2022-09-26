@@ -35,22 +35,26 @@ msgstr "OSGeoLive"
 
 #: ../../build/presentation/revealjs/presentation.rst:12
 msgid "Version: 15"
-msgstr ""
+msgstr "Version: 15"
 
 #: ../../build/presentation/revealjs/presentation.rst:14
 msgid "Released: August 2022"
-msgstr ""
+msgstr "Lanzamiento: agosto de 2022"
 
 #: ../../build/presentation/revealjs/presentation.rst:18
 msgid ""
 "Press “s” for slide notes, ESC to zoom out, SPACE / arrow keys to navigate."
 msgstr ""
+"Presione “s”  para las notas de la diapositiva, ESC para alejar, ESPACIO / "
+"teclas de flecha para navegar."
 
 #: ../../build/presentation/revealjs/presentation.rst:19
 msgid ""
 "Pop-ups are blocked in some browsers due to security settings. Try Firefox "
 "or Safari."
 msgstr ""
+"Las ventanas emergentes están bloqueadas en algunos navegadores debido a la "
+"configuración de seguridad. Pruebe Firefox o Safari."
 
 #: ../../build/presentation/revealjs/presentation.rst:22
 #: ../../build/presentation/revealjs/presentation.rst:220
@@ -63,11 +67,11 @@ msgstr "Encuentre esta presentación"
 
 #: ../../build/presentation/revealjs/presentation.rst:41
 msgid "`Presentation <https://live.osgeo.org/en/presentation.html>`__"
-msgstr ""
+msgstr "`Presentación <https://live.osgeo.org/en/presentation.html>`__"
 
 #: ../../build/presentation/revealjs/presentation.rst:43
 msgid "https://live.osgeo.org/en/presentation.html"
-msgstr ""
+msgstr "https://live.osgeo.org/en/presentation.html"
 
 #: ../../build/presentation/revealjs/presentation.rst:45
 msgid ""
@@ -79,16 +83,16 @@ msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:47
 msgid "https://osgeo.github.io/OSGeoLive-doc/en/presentation.html"
-msgstr ""
+msgstr "https://osgeo.github.io/OSGeoLive-doc/en/presentation.html"
 
 #: ../../build/presentation/revealjs/presentation.rst:51
 #: ../../build/presentation/revealjs/presentation.rst:62
 msgid "What is new in 15.0"
-msgstr ""
+msgstr "Novedades de la versión 15.0"
 
 #: ../../build/presentation/revealjs/presentation.rst:64
 msgid "Updated to Lubuntu 22.04 LTS"
-msgstr ""
+msgstr "Actualizado a Lubuntu 22.04 LTS"
 
 #: ../../build/presentation/revealjs/presentation.rst:68
 msgid ""
@@ -100,39 +104,39 @@ msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:72
 msgid "QGIS 3.22.7,"
-msgstr ""
+msgstr "QGIS 3.22.7,"
 
 #: ../../build/presentation/revealjs/presentation.rst:73
 msgid "GDAL 3.4.3,"
-msgstr ""
+msgstr "GDAL 3.4.3,"
 
 #: ../../build/presentation/revealjs/presentation.rst:74
 msgid "PROJ 8.2.1,"
-msgstr ""
+msgstr "PROJ 8.2.1,"
 
 #: ../../build/presentation/revealjs/presentation.rst:75
 msgid "PostGIS 3.2.0,"
-msgstr ""
+msgstr "PostGIS 3.2.0,"
 
 #: ../../build/presentation/revealjs/presentation.rst:76
 msgid "GRASS  8.2.0,"
-msgstr ""
+msgstr "GRASS  8.2.0,"
 
 #: ../../build/presentation/revealjs/presentation.rst:77
 msgid "GeoServer 2.21.0,"
-msgstr ""
+msgstr "GeoServer 2.21.0,"
 
 #: ../../build/presentation/revealjs/presentation.rst:78
 msgid "MapServer 7.6.4,"
-msgstr ""
+msgstr "MapServer 7.6.4,"
 
 #: ../../build/presentation/revealjs/presentation.rst:80
 msgid "and many more..."
-msgstr ""
+msgstr "Y muchos más"
 
 #: ../../build/presentation/revealjs/presentation.rst:84
 msgid "New project added: ETF testing framework software"
-msgstr ""
+msgstr "Nuevo proyecto añadido: Software de marco de pruebas ETF"
 
 #: ../../build/presentation/revealjs/presentation.rst:88
 msgid "Download OSGeoLive ISO or VMDK (with even more software)"
@@ -144,7 +148,7 @@ msgstr "Actualizaciones de la documentación"
 
 #: ../../build/presentation/revealjs/presentation.rst:96
 msgid "OSM data for Firenze"
-msgstr ""
+msgstr "Datos de OSM para Firenze"
 
 #: ../../build/presentation/revealjs/presentation.rst:100
 msgid ""
@@ -202,6 +206,7 @@ msgstr "Software establecido, estable y funcional"
 #: ../../build/presentation/revealjs/presentation.rst:156
 msgid "Active community `Metrics <https://live.osgeo.org/en/metrics.html>`__"
 msgstr ""
+"Comunidad activa `Metricas <https://live.osgeo.org/en/metrics.html>`__"
 
 #: ../../build/presentation/revealjs/presentation.rst:169
 msgid "Production & Marketing Pipeline"
@@ -219,7 +224,7 @@ msgstr "OSGeo"
 
 #: ../../build/presentation/revealjs/presentation.rst:211
 msgid "Non Profit for geospatial community, fostering"
-msgstr ""
+msgstr "Sin fines de lucro para la comunidad geoespacial, fomentando"
 
 #: ../../build/presentation/revealjs/presentation.rst:213
 msgid "Free and Open Source Software"
@@ -648,12 +653,12 @@ msgstr "eoxserver_logo"
 
 #: ../../build/presentation/revealjs/presentation.rst:485
 msgid "|ETF_logo|"
-msgstr ""
+msgstr "|ETF_logo|"
 
 #: ../../build/presentation/revealjs/presentation.rst:1325
 #: ../../build/presentation/revealjs/presentation.rst:1325
 msgid "ETF_logo"
-msgstr ""
+msgstr "ETF_logo"
 
 #: ../../build/presentation/revealjs/presentation.rst:485
 msgid "|ncWMS_logo|"
@@ -979,7 +984,7 @@ msgstr "Dominio específico SIG"
 
 #: ../../build/presentation/revealjs/presentation.rst:997
 msgid "|xygrib_logo| XyGrib"
-msgstr ""
+msgstr "|xygrib_logo| XyGrib"
 
 #: ../../build/presentation/revealjs/presentation.rst:1369
 #: ../../build/presentation/revealjs/presentation.rst:1369
@@ -1205,6 +1210,8 @@ msgid ""
 "Take part in our weekly `IRC <https://wiki.osgeo.org/wiki/IRC>`__ meetings "
 "(channel #osgeolive on Libera.Chat"
 msgstr ""
+"Participe en nuestras reuniones semanales de  `IRC "
+"<https://wiki.osgeo.org/wiki/IRC>`__  (canal #osgeolive en Libera.Chat"
 
 #: ../../build/presentation/revealjs/presentation.rst:1205
 msgid "There are two ways you can help"
@@ -1330,4 +1337,4 @@ msgstr "georepublic_logo"
 
 #: ../../build/presentation/revealjs/presentation.rst:1243
 msgid "Try out OSGeoLive"
-msgstr ""
+msgstr "Pruebe OSGeoLive"

@@ -76,12 +76,17 @@ msgid ""
 "application will take a few moments to start up and will open a web page at "
 "http://localhost:9090/ETF"
 msgstr ""
+"A  *Start* menüből válassza a |osgeolive-appmenupath-ETF|-t. Az alkalmazás "
+"néhány pillanat múlva elindul és megnyitja a http://localhost:9090/ETF web "
+"lapot."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:45
 msgid ""
 "In the header, there is a menu with 4 sections, each representing different "
 "views and functionalities:"
 msgstr ""
+"A fejlécben négy menüfejezet van, mindegyik különböző nézeteket és "
+"funkcionalitást reprezentál"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:50
 msgid ""
@@ -89,6 +94,10 @@ msgid ""
 "installed) Executable Test Suites are listed. Within this section, an "
 "Executable Test Suite can be selected and run against a Test Object."
 msgstr ""
+"Az első a **Start test**. Ebben a fejezetben az összes elérhető (értsd "
+"telepített) végrehajtható tesztkészlet listája látható. Ebben a fejezetben "
+"egy végrehajtható tesztkészlet  választható ki és futtatható a teszt "
+"objektumon."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:54
 msgid ""
@@ -97,18 +106,26 @@ msgid ""
 "test runs to check the status of any running test. Moreover, the components "
 "currently loaded are shown below the running tests."
 msgstr ""
+"A második a **Status**.Ez az összes, a rendszeren aktuálisan futó  tesztet "
+"mutatja meg és lehetővé teszi egy monitor nézet megnyitását egyetlen teszt "
+"futtatáshoz a teszt állapotának ellenőrzésére. Továbbá az aktuálisan "
+"betöltött komponensek jelennek meg a futó tesztek alatt."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:59
 msgid ""
 "The third one is **Test reports**. In this one the results of any completed "
 "test can be checked, analysed in detail or downloaded."
 msgstr ""
+"A harmadik a **Test reports**. Ebben bármelyik befejezett teszt eredménye "
+"részletesen ellenőrizhető, elemezhető  vagy letölthető."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:62
 msgid ""
 "The fourth one is **Help**. This one is a link to the documentation. Inside "
 "it, there are guides on how to use all functionalities of the ETF."
 msgstr ""
+"A negyedik a **Help**.  Ez egy link a dokumentációhoz. Ebben útmutatók "
+"találhatók az ETF összes funkciójának használatához."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:68
 msgid "Start test"
@@ -120,13 +137,13 @@ msgstr "Teszt készlet kiválasztás"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:71
 msgid "The landing view shows the available Executable Test Suites."
-msgstr ""
+msgstr "A megjelenő nézet az elérhető végrehajtható tesztkészleteket mutatja."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:77
 msgid ""
 "Additional information about a Test Suite can be accessed by clicking on the"
 " *+* button."
-msgstr ""
+msgstr "Egy tesztkészletről további információ kapható a \"+\" gombra kattintva."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:82
 msgid "This information:"
@@ -134,47 +151,60 @@ msgstr "Ezt az információt:"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:84
 msgid "Includes a description of the Test Suite."
-msgstr ""
+msgstr "Tartalmazza a tesztkészlet leírását."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:85
 msgid ""
 "May include a link to the Abstract Test Suite from which the Executable Test"
 " Suite has been derived (Source)."
 msgstr ""
+"Tartalmazhat egy hivatkozást az absztrakt tesztkészletre, amelyből a "
+"végrehajtható tesztkészlet származik (forrás)."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:87
 msgid ""
 "May include the Test Suite dependencies, which are automatically executed "
 "with the Test Suite in a Test Run (Pre-requisite conformance classes)."
 msgstr ""
+"Tartalmazhatja a tesztkészlet függőségeket, amelyek automatikusan "
+"végrehajtásra kerülnek a tesztcsomaggal együtt egy tesztfutás során (Pre-"
+"requisite conformance classes)."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:89
 msgid ""
 "May include the name of associated Tags which are used to group the Test "
 "Suites in the view."
 msgstr ""
+"Tartalmazhatja a társított címkék nevét, amelyek a tesztcsomagok "
+"csoportosítására szolgálnak a nézetben."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:91
 msgid ""
 "Includes the name of applicable Test Object Types (explained in the next "
 "section)."
 msgstr ""
+"Tartalmazza az alkalmazható tesztobjektum-típusok nevét (magyarázat a "
+"következő részben)."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:92
 msgid ""
 "Includes general information like the version, author and last editor, "
 "creation and change dates."
 msgstr ""
+"Általános információkat tartalmaz, például a verziót, a szerzőt és az utolsó"
+" módosítót, a létrehozási és módosítási dátumát."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:95
 msgid ""
 "To start a Test Run, a Test Suite must be selected with a click on the *use*"
 " flip switch on the right-hand side."
 msgstr ""
+"Egy teszt futtatásához egy tesztcsomagot ki kell választani a \"use\"-ra "
+"kattintva a kapcsoló a jobb oldalra vált."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:100
 msgid "A *Start* button appears once at least one Test Suite is selected."
-msgstr ""
+msgstr "A \"Start\" gomb megjelenik, ha legalább egy tesztcsomagot kiválasztott."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:102
 msgid ""
@@ -184,6 +214,11 @@ msgid ""
 "Suite is selected, the flip switch of all other Test Suites having different"
 " Test Object Types is disabled."
 msgstr ""
+"Egy tesztcsomag csak bizonyos teszt objektum típusokra alkalmazható, melyek "
+"listája a leírásban található. Több tesztcsomag választható egy teszt "
+"futtatáshoz, de ugyanarra a teszt objektum típusra alkalmazhatónak kell "
+"lennie. Miután egy testcsomagot kiválasztott a többi más teszt objektum "
+"típusra vonatkozó tesztcsomag váltókapcsolóját letiltja a rendszer."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:110
 msgid ""
@@ -191,16 +226,21 @@ msgid ""
 "shown in the description of the Test Suites.  These dependencies are also "
 "automatically executed during the test run."
 msgstr ""
+"Egy tesztcsomag más tesztcsomagoktól függhet. A függőségek szintén "
+"megjelennek a tesztcsomag leírásában. Ezeket a függőségeket automatikusan "
+"lefutnak a teszt futtatása közben."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:114
 msgid ""
 "A click on the *Start* button will open a new view that asks the user about "
 "the target resource to be tested."
 msgstr ""
+"A \"Start\" gombra kattintás egy új nézetet nyit meg, mely megkérdezi a "
+"felhasználótól a tesztelendő erőforrást."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:120
 msgid "Test Run configuration"
-msgstr ""
+msgstr "Teszt futtatási konfiguráció"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:124
 msgid ""
@@ -209,10 +249,14 @@ msgid ""
 "**Test reports** section and can be changed in order to help find the report"
 " again after a test run."
 msgstr ""
+"A \"Label\" mező kötelező és automatikus alapbeállítása az aktuális idő és a"
+" szelektált tesztcsomagok neve. A címke megjelenik a **Test reports** "
+"fejezetben és módosítható, annak érdekében, hogy egy tesztfutás után újra "
+"megtalálhassa a jelentést."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:129
 msgid "The style of the view may depend on the selected Test Suites."
-msgstr ""
+msgstr "A nézet stílusa függhet a kiválasztott tesztcsomagoktól."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:132
 msgid "File-based Tests"
@@ -223,6 +267,8 @@ msgid ""
 "The following elements are shown when Test Suites have been selected that "
 "test one or multiple test data files."
 msgstr ""
+"A következő elemek jelennek meg, ha olyan tesztcsomagokat választottak ki, "
+"amelyek egy vagy több adatfájlt tesztelnek."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:136
 msgid ""
@@ -231,18 +277,26 @@ msgid ""
 " and GML file extensions as well as ZIP files containing these two file "
 "types."
 msgstr ""
+"Ha a *File upload*-ot választották ki, *Adatforrásként*, egy vagy több helyi"
+" fájl kiválasztható és feltölthető az ETF-be. Az ETF csak XML és GML "
+"kiterjesztésű fájlokat, valamint e két fájltípust tartalmazó ZIP fájlokat "
+"fogadja el."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:140
 msgid ""
 "Other files, like schema definition files, cannot be used and are silently "
 "ignored by the ETF!"
 msgstr ""
+"Más fájlok, például sémadefiníciós fájlok, nem használhatók, és az ETF "
+"üzenet nélkül figyelmen kívül hagyja őket!"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:145
 msgid ""
 "The maximum uploadable file size is displayed when the mouse is moved over "
 "the question mark."
 msgstr ""
+"A maximális feltölthető fájlméret akkor jelenik meg, ha az egeret a kérdőjel"
+" fölé mozgatja."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:148
 msgid ""
@@ -251,12 +305,18 @@ msgid ""
 "*Data source*, a *Remote URL* to either one single XML, GML or a ZIP file "
 "can be entered."
 msgstr ""
+"Ha a tesztelendő adatok a weben érhetők el, akkor egyetlen URL megadásával "
+"tesztelhetők. Miután a *Remote file (URL)*-t választotta ki "
+"*Adatforrásként*, egyetlen XML, GML vagy ZIP fájl *Remote URL*-je is "
+"megadható."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:155
 msgid ""
 "If the URL requires authentication, username and password can be provided by"
 " clicking on *Credentials*."
 msgstr ""
+"Ha az URL hitelesítést igényel, a felhasználónevet és a jelszót a "
+"*Credentials*-ra kattintva adhatja meg."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:163
 msgid "Service Tests"
@@ -267,18 +327,24 @@ msgid ""
 "The following elements are shown when Test Suites have been selected that "
 "test one service."
 msgstr ""
+"A következő elemek jelennek meg amikor olyan tesztcsomagot választott, mely "
+"egy szolgáltatást tesztel."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:168
 msgid ""
 "The *Service URL* must be entered beginning with ``http://`` or "
 "``https://``."
 msgstr ""
+"A *szolgáltatás URL*.t kell megadni, mely ``http://`` vagy ``https://`` "
+"résszel kezdődik."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:172
 msgid ""
 "If the service requires authentication, username and password can be "
 "provided by clicking on *Credentials*."
 msgstr ""
+"Ha a szolgáltatás hitelesítést igényel, a felhasználónevet és a jelszót a "
+"*Credentials*-ra kattintva adhatja meg."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:176
 msgid "Dependencies and Parameters"
@@ -289,6 +355,8 @@ msgid ""
 "The *Test Suites* button shows some basic information about the selected "
 "Test Suites and - if applicable - about the direct dependencies."
 msgstr ""
+"A *Test Suites* gomb néhány alap információt jelenít meg a kiválasztott "
+"tesztkészletekről és - ha alkalmazható - a közvetlen függőségekről."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:183
 msgid ""
@@ -297,16 +365,23 @@ msgid ""
 " *Optional Parameters* button. A description of the parameters is displayed "
 "when the mouse is moved over the question mark."
 msgstr ""
+"Ha a teszt paramétereket vár, azok a *Test Suite Parameters* részben "
+"jelennek meg. Az opcionális paraméterek  az *Optional Parameters* gombra "
+"kattintva jelennek meg. A paraméterek leírása az egeret a kérdőjelre "
+"mozgatva jelennek meg."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:188
 msgid "In most cases the preset default values can be used."
 msgstr ""
+"A legtöbb esetben az előre beállított alapértelmezett értékeke használhatók."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:192
 msgid ""
 "Finally the test can be started by clicking on the *Start* button. The view "
 "then changes automatically to the *Monitor Test Run* view."
 msgstr ""
+"Végül a test a *Start* gombra kattintva indítható el. Ezután a nézet "
+"automatikusan átvált a *Monitor Test Run* nézetre."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:196
 msgid "Monitor test runs"
@@ -316,16 +391,19 @@ msgstr "Test futások monitorozása"
 msgid ""
 "After a Test Run has been started the *Monitor Test Run* view is shown."
 msgstr ""
+"Egy teszt futtatás elindítása után a *Monitor Test Run* nézet jelenik meg."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:202
 msgid "The blue bar indicates the progress."
-msgstr ""
+msgstr "A kék oszlop jelzi az előrehaladást."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:206
 msgid ""
 "The console area shows information and result messages. The Test Run can be "
 "canceled with a click on the *Cancel* button."
 msgstr ""
+"A konzol terület információs és eredmény üzeneteket jelenít meg. A teszt "
+"futtatás megszakítható  a *Cancel* gombra kattintva."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:209
 msgid ""
@@ -333,6 +411,8 @@ msgid ""
 "corner. Also when the browser is closed, the Test Run execution continues on"
 " the server."
 msgstr ""
+"A nézet bezárható például az *X* gombbal az bal felső sarokban. A böngésző "
+"bezárásakor is folytatódik a tesztfutás a szerveren."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:212
 msgid ""
@@ -341,12 +421,18 @@ msgid ""
 "running tests. A click on the Test Run opens the *Monitor Test Run* view of "
 "that Test Run."
 msgstr ""
+"A *Monitor Test Run* nézet bezárása utáni újranyitásához válassza ki a "
+"menüsorban a **Status** részt. Az **Status** szakasz az összes futó tesztet "
+"mutatja. A Test Run gombra kattintva megnyílik az adott tesztfutás *Monitor "
+"Test Run* nézete."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:218
 msgid ""
 "When a Test Run finishes and the *Monitor Test Run* view is opened, the Test"
 " Report is displayed automatically."
 msgstr ""
+"Amikor egy teszt futtatás befejeződik, és a *Monitor Test Run* nézet "
+"megnyílik, a teszt jelentés automatikusan megjelenik."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:223
 msgid "Test Reports"
@@ -357,6 +443,8 @@ msgid ""
 "The **Test Reports** section shows all reports that have been generated from"
 " Test Runs."
 msgstr ""
+"A **Test Reports** rész az összes jelentést megjeleníti, melyeket a teszt "
+"futtatás során generált a rendszer."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:229
 msgid ""
@@ -364,12 +452,17 @@ msgid ""
 "the test result status, the name of the Test Object and the used Test Suites"
 " are shown."
 msgstr ""
+"A *+* gombra kattintva megjelennek a teszt futtatás információk, az indítás "
+"időpontja, az eredmény állapot, a teszt objektum neve és a használt "
+"tesztkészlet."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:232
 msgid ""
 "A Test Report can be opened again by clicking on the *Open report* button or"
 " can be downloaded as HTML file by clicking on the *Download report* button."
 msgstr ""
+"A teszt jelentés megnyitható újra az *Open report* gombra kattintva vagy "
+"HTML fájlként letölthető a *Download report* gombra kattintva."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:235
 msgid ""
@@ -377,6 +470,8 @@ msgid ""
 " clicking on the *Delete report* button, the report will be deleted "
 "permanently."
 msgstr ""
+"A teszt futtatás napló fájlja megtekinthető az *Open log* gombbal. A *Delete"
+" report* gombra kattintva a jelentés véglegesen törölhető."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:240
 msgid "Inspect test reports"
@@ -388,6 +483,9 @@ msgid ""
 "test result status, the start time, the duration and a table, which "
 "summarizes the status of all tests on several levels."
 msgstr ""
+"A tesztjelentés tetején általános információk jelennek meg, beleértve a "
+"teszteredmények általános állapotát, a kezdési időpontot, az időtartamot és "
+"egy táblázatot, amely több szinten összegzi az összes teszt állapotát."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:248
 msgid ""
@@ -395,18 +493,25 @@ msgid ""
 "*Only failed* or *Only manual* tests. The option *All* deactivates the "
 "filter."
 msgstr ""
+"A teszt jelentések interaktívak. A Show* kapcsoló használható az *Only "
+"failed* vagy *Only manual* tesztek szűrésére. Az *All* opció kikapcsolja a "
+"szűrőt."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:251
 msgid ""
 "The *Level of detail* switch is used to show more or less information in the"
 " reports."
 msgstr ""
+"A *Level of detail* kapcsoló használható több vagy kevesebb információ "
+"megjelenítésére a jelentésből."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:256
 msgid ""
 "The test results are summarized hierarchically in a report. At the top level"
 " there are the Test Suites."
 msgstr ""
+"A jelentésben a teszt eredményeket hierarchikusan összegzik. A legfelső "
+"szinten a tesztkészletek vannak."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:259
 msgid ""
@@ -415,6 +520,10 @@ msgid ""
 "recognized by the red color. The number of failed tests is shown in the top-"
 "right corner."
 msgstr ""
+"Ha rákattint egy tesztcsomagra, megjelenik a leírás és az összes alacsonyabb"
+" szintű teszt az adott tesztcsomagban. A hibák  tesztcsomagban  azonnal "
+"felismerhetők a piros színről. A sikertelen tesztek száma a jobb felső "
+"sarokban látható."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:265
 msgid ""
@@ -424,12 +533,19 @@ msgid ""
 "because it depends on another test that has failed. The exact status can be "
 "found below the description."
 msgstr ""
+"A zöld szín a sikeres tesztet jelzi. Azok a sikeres tesztek, amelyek további"
+" manuális tesztlépéseket igényelnek, amelyeket nem lehetett automatizálni, "
+"narancssárga színűek. A narancssárga szín egy olyan tesztet is jelezhet, "
+"amelyet kihagytak, mert egy másik teszttől függ, amely sikertelen volt. A "
+"pontos állapot a leírás alatt található."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:271
 msgid ""
 "The number of levels depends on the tested Test Object. If service tests "
 "have been executed, the hierarchy is as follows:"
 msgstr ""
+"A szintek száma a tesztelt teszt objektumtól függ. Ha szolgáltatás tesztet "
+"hajtott végre, a hierarchia a következő:"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:274
 msgid "Executable Test Suites"
@@ -465,6 +581,9 @@ msgid ""
 "tested. The test may include a link to an Abstract Test Suite, from which "
 "the test has been derived (*Source*)."
 msgstr ""
+"Minden teszt felsorolja a követelményeket, és leírást ad a tesztelés "
+"módjáról. A teszt tartalmazhat egy hivatkozást egy Abstract Test Suite-ra, "
+"amelyből a teszt származik (*Source*)."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:288
 msgid ""
@@ -478,6 +597,9 @@ msgid ""
 "instance the response from a service on the Test Step level (note the *Open "
 "saved response* link in the report)."
 msgstr ""
+"Hasznos információk találhatók a következő magasabb szinten is, mint például"
+" egy szolgáltatás válasza a tesztlépés szintjén (figyelje meg a *Open saved "
+"response* hivatkozást a jelentésben)."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:300
 msgid "Resources"
@@ -488,6 +610,8 @@ msgid ""
 "Using the instructions provided above, please find below a predefined set of"
 " resources that you can test in the ETF:"
 msgstr ""
+"A fenti utasításokat követve az alábbiakban találhat egy előre meghatározott"
+" forráskészletet, amelyet tesztelhet az ETF-ben:"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:305
 msgid ""
@@ -495,6 +619,9 @@ msgid ""
 "<https://github.com/etf-validator/OSGeoLive-ETF/tree/main/resources/GML-"
 "data-sets>`__."
 msgstr ""
+"GML adathalmazok: néhány előkészített adathalmaz letölthető `innen "
+"<https://github.com/etf-validator/OSGeoLive-ETF/tree/main/resources/GML-"
+"data-sets>`__."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:307
 msgid ""
@@ -520,6 +647,9 @@ msgid ""
 "can try to fix them (based on the errors reported in the test report) before"
 " validating them again until all tests succeed."
 msgstr ""
+"A fent megadott GML-adatkészletek némelyike nem megy át az összes teszten, "
+"ezért megpróbálhatja kijavítani őket (a tesztjelentésben közölt hibák "
+"alapján), mielőtt újra érvényesítené őket, amíg minden teszt sikeres lesz."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:315
 msgid "What's next?"
@@ -530,6 +660,8 @@ msgid ""
 "This was just a very brief overview of the ETF. There is more information in"
 " the demo installation and on the `ETF GitHub space`_."
 msgstr ""
+"Ez csak egy rövid áttekintés volt az ETF-ről. További információ tartalmaz a"
+" demó telepítés és az `ETF GitHub space`_."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:321
 msgid "Please also check:"

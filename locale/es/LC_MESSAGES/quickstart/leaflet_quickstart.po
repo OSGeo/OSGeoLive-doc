@@ -6,6 +6,7 @@
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2022
 # Vicky Vergara <vicky@georepublic.de>, 2022
+# Jose Vergara, 2022
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-04 13:45+0000\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
+"Last-Translator: Jose Vergara, 2022\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -54,6 +55,10 @@ msgid ""
 "MapProxy**. This will provide background tiles that will be used in this "
 "demo."
 msgstr ""
+"Antes de ejecutar este inicio rápido, debe iniciar MapProxy. En OSGeoLive "
+"esto se puede encontrar en **Geospatial\\\\Web Services\\\\MapProxy\\\\Start"
+" MapProxy**. Esto proporcionará mosaicos de fondo que se utilizarán en esta "
+"demostración."
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:30
 msgid "View the example_"
@@ -119,6 +124,9 @@ msgid ""
 "conference. First we'll initialize the map and set its view to our chosen "
 "geographical coordinates and a zoom level:"
 msgstr ""
+"Vamos a crear un mapa de Florencia, Italia con una indicación de la "
+"conferencia FOSS4G 2022. Primero inicializaremos el mapa y estableceremos su"
+" vista en las coordenadas geográficas elegidas y un nivel de zoom:"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:72
 msgid ""
@@ -148,6 +156,11 @@ msgid ""
 "background maps such as openstreetmap will result in a much better user "
 "experience."
 msgstr ""
+"A continuación, agregaremos una capa de mosaico a nuestro mapa. En este "
+"caso, utilizaremos las imágenes de mosaico proporcionadas por MapProxy en el"
+" DVD en vivo. Tenga en cuenta que el uso de mapas de fondo más agradables, "
+"como openstreetmap, dará como resultado una experiencia de usuario mucho "
+"mejor."
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:79
 msgid ""

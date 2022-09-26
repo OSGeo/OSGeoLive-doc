@@ -7,6 +7,7 @@
 # David Mateos, 2020
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2022
+# Jose Vergara, 2022
 # 
 #, fuzzy
 msgid ""
@@ -15,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-06 09:15-0500\n"
 "PO-Revision-Date: 2020-10-21 15:59+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
+"Last-Translator: Jose Vergara, 2022\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -72,6 +73,17 @@ msgid ""
 "WFS, Shapefiles and GeoJSON files. We plan on developing a data reader for "
 "the Geopackage format."
 msgstr ""
+"Además, GeoStyler permite la traducción entre múltiples formatos de estilo, "
+"como los de SLD, OpenLayers, QGIS, Mapbox. Dado que estamos siguiendo el "
+"concepto de micro paquetes, estos traductores (los llamamos analizadores) se"
+" pueden usar como bibliotecas independientes, sin la necesidad de incluir "
+"los componentes de la interfaz de usuario como una dependencia. Actualmente "
+"disponemos de analizadores para SLD, QGIS-styles, mapbox styles, openLayers "
+"styles y Mapfiles. Por favor, eche un vistazo a las Implementaciones de "
+"StyleParser. Dado que el estilo atributivo de los geodatos es más fácil "
+"cuando se pueden ver los datos que se van a diseñar, podemos conectarnos a "
+"varias fuentes de datos como WFS, Shapefiles y archivos GeoJSON. Planeamos "
+"desarrollar un lector de datos para el formato Geopackage."
 
 #: ../../build/doc/overview/geostyler_overview.rstNone
 msgid "geostyler screenshot"

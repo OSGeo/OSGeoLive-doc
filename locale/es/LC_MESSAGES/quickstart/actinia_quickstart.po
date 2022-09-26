@@ -6,6 +6,7 @@
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2022
 # MarPetra <mvergaratrejo@gmail.com>, 2022
+# Jose Vergara, 2022
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-05 15:16+0000\n"
 "PO-Revision-Date: 2019-07-18 21:56+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2022\n"
+"Last-Translator: Jose Vergara, 2022\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -492,21 +493,24 @@ msgstr "Cosas para probar"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:424
 msgid "Install on OSGeoLive VM with Docker Compose"
-msgstr ""
+msgstr "Instalar en OSGeoLive VM con Docker Compose"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:426
 msgid ""
 "Requirements: docker and docker-compose (already available in OSGeoLive VM "
 "version)"
 msgstr ""
+"Requisitos: docker y docker-compose (ya disponible en la versión OSGeoLive "
+"VM)"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:428
 msgid "To build and deploy actinia, run"
-msgstr ""
+msgstr "Para crear e implementar actinia, ejecute"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:436
 msgid "Now you have a running actinia instance locally! Check with"
 msgstr ""
+"¡Ahora tiene una instancia de actinia en ejecución localmente! Consulte con"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:443
 msgid "Create new locations"

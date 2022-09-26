@@ -301,6 +301,7 @@ msgstr "Documentación"
 msgid ""
 "`MapServer Documentation <http://localhost/mapserver/doc/index.html>`__"
 msgstr ""
+"`Documentation de MapServer <http://localhost/mapserver/doc/index.html>`__"
 
 #: ../../build/doc/overview/mapserver_overview.rst:118
 msgid "Details"
