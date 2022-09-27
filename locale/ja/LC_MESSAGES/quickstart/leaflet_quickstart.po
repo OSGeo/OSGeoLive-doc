@@ -52,6 +52,9 @@ msgid ""
 "MapProxy**. This will provide background tiles that will be used in this "
 "demo."
 msgstr ""
+"このクイックスタートを開始する前に、MapProxyを開始します。OSGeoLiveでは **Geospatial\\\\Web "
+"Services\\\\MapProxy\\\\Start MapProxy** "
+"にあります。これで、このデモで必要な背景タイルを提供できるようになります。"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:30
 msgid "View the example_"
@@ -109,6 +112,7 @@ msgid ""
 "conference. First we'll initialize the map and set its view to our chosen "
 "geographical coordinates and a zoom level:"
 msgstr ""
+"では、2022年のFOSS4Gカンファレンスが開催されたイタリア・フィレンツェの地図を作成してみましょう。最初に地図の初期化をおこないます。ビューを設定し投影法とズームレベルを選択します:"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:72
 msgid ""
@@ -135,6 +139,8 @@ msgid ""
 "background maps such as openstreetmap will result in a much better user "
 "experience."
 msgstr ""
+"次に、地図にレイヤを追加します。この例では、LiveDVDでMapProxyから提供されたタイルイメージを使用します。OpenStreetMap "
+"などの、より良い背景地図を使用すると、ユーザ体験を向上させられることに注意してください。"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:79
 msgid ""

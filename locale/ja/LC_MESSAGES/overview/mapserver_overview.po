@@ -279,7 +279,7 @@ msgstr "ドキュメント"
 #: ../../build/doc/overview/mapserver_overview.rst:115
 msgid ""
 "`MapServer Documentation <http://localhost/mapserver/doc/index.html>`__"
-msgstr ""
+msgstr "`MapServerドキュメント <http://localhost/mapserver/doc/index.html>`__"
 
 #: ../../build/doc/overview/mapserver_overview.rst:118
 msgid "Details"

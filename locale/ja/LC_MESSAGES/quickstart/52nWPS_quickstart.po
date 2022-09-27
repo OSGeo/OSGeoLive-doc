@@ -64,7 +64,7 @@ msgstr ""
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:0
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:0
 msgid "screenshot"
-msgstr ""
+msgstr "スクリーンショット"
 
 #: ../../build/doc/quickstart/52nWPS_quickstart.rst:40
 msgid ""

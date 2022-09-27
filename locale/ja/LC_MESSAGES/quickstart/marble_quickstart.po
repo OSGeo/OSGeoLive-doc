@@ -168,9 +168,7 @@ msgstr "試してみること"
 msgid ""
 "Try to use the Routing feature. See the `Marble documentation "
 "<https://marble.kde.org>`_ for help."
-msgstr ""
-"ルーティング機能を使用してみます。See the `Marble documentation <https://marble.kde.org>`_ "
-"for help."
+msgstr "ルーティング機能を使用してみます。`Marble ドキュメント <https://marble.kde.org>`_ を参照してください。"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:104
 msgid "What next?"

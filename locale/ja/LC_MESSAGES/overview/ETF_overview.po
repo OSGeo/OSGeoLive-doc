@@ -163,7 +163,7 @@ msgstr "|CSW|"
 
 #: ../../build/doc/overview/ETF_overview.rst:81
 msgid "|ISO19105|"
-msgstr ""
+msgstr "|ISO19105|"
 
 #: ../../build/doc/overview/ETF_overview.rst:82
 msgid "|SOS|"
@@ -183,7 +183,7 @@ msgstr "|GML|"
 
 #: ../../build/doc/overview/ETF_overview.rst:86
 msgid "|OGCAPIFEATURES|"
-msgstr ""
+msgstr "|OGCAPIFEATURES|"
 
 #: ../../build/doc/overview/ETF_overview.rst:87
 msgid "|WCS|"

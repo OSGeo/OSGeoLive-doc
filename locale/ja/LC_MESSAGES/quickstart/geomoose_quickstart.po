@@ -70,7 +70,7 @@ msgstr "Webページが表示され、GeoMooseインスタンスのデモイン�
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:0
 msgid "GeoMoose Screenshot"
-msgstr ""
+msgstr "GeoMoose スクリーンショット"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:43
 msgid "The Interfaces presented above shows:"
@@ -227,7 +227,7 @@ msgstr ""
 msgid ""
 "You may need to scroll down in the \"Super Tab\" to find the \"Go\" button "
 "if your browser window is small."
-msgstr ""
+msgstr "ブラウザのウィンドウが小さい場合、\"Super Tab\" をスクロールして \"Go\" ボタンを見つける必要があるかもしれません。"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:106
 msgid ""

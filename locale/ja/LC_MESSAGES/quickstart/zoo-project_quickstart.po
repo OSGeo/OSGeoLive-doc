@@ -62,7 +62,7 @@ msgstr "FirefoxはZOOプロジェクトのデモランディングページを�
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:0
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:0
 msgid "screenshot"
-msgstr ""
+msgstr "スクリーンショット"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:45
 msgid "OGR spatial tools demo"

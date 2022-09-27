@@ -272,25 +272,27 @@ msgstr "Coordinates: x: 8.96127 y: 46.02723 z: 344.1"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:136
 msgid "*Outputs (confirm the outputs pressing the \"add\" button):*"
-msgstr "*出力(\"add\" ボタンを押して出力を確認):*"
+msgstr "*Outputs (\"add\" ボタンを押して出力を確認):*"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:139
 msgid ""
 "Observed property: "
 "`urn:ogc:def:parameter:x-istsos:1.0:meteo:air:temperature`"
 msgstr ""
+"Observed property: "
+"`urn:ogc:def:parameter:x-istsos:1.0:meteo:air:temperature`"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:141
 msgid "Unit of measure: °C"
-msgstr "単位:°C"
+msgstr "Unit of measure:°C"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:143
 msgid "Description (optional): conversion from resistance to tempera"
-msgstr ""
+msgstr "Description (オプション): conversion from resistance to tempera"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:145
 msgid "quality index check (optional): Between / from -40 to +60"
-msgstr "品質指数チェック(オプション):-40から+60まで"
+msgstr "quality index check (オプション):-40から+60まで"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:149
 msgid "Register the new sensor (procedure) pressing the \"submit\" button."
@@ -334,7 +336,7 @@ msgstr ":menuselection:`System Tools --> LXTerminal` を選択して端末を開
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:180
 msgid "In the terminal, enter: \"cd /usr/share/istsos/\" and press ENTER."
-msgstr "端末で: \"cd/usr/share/istSOS/\" と入力し、ENTERを押します。"
+msgstr "端末で: \"cd /usr/share/istSOS/\" と入力し、ENTERを押します。"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:182
 msgid ""
@@ -342,7 +344,7 @@ msgid ""
 "-s demo -w ~/Desktop\" and press ENTER"
 msgstr ""
 "\"python scripts/csv2istsos.py -p T_LUGANO -u http://localhost/istsos -s "
-"demo -w ~/Desktop\" とうちこんで、ENTERを押します"
+"demo -w ~/Desktop\" と入力し、ENTERを押します"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:184
 msgid "You should see a message \"Insert observation success: True\""

@@ -433,21 +433,21 @@ msgstr "試してみること"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:424
 msgid "Install on OSGeoLive VM with Docker Compose"
-msgstr ""
+msgstr "Docker ComposeでOSGeoLive VMにインストール"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:426
 msgid ""
 "Requirements: docker and docker-compose (already available in OSGeoLive VM "
 "version)"
-msgstr ""
+msgstr "必要条件: docker と docker-compose (OSGeoLive VM版ではすでに利用可能)"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:428
 msgid "To build and deploy actinia, run"
-msgstr ""
+msgstr "actiniaをビルド・デプロイするには、以下を実行します"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:436
 msgid "Now you have a running actinia instance locally! Check with"
-msgstr ""
+msgstr "これでローカル環境でactiniaインスタンスが動作するようになりました！確認してみましょう"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:443
 msgid "Create new locations"

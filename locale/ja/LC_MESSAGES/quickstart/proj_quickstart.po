@@ -37,7 +37,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/proj_quickstart.rst:31
 msgid "This Quick Start describes how to use these tools :"
-msgstr ""
+msgstr "このクイックスタートでは以下のツールの使用方法について説明します:"
 
 #: ../../build/doc/quickstart/proj_quickstart.rst:34
 msgid "PROJ"

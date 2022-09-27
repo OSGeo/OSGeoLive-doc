@@ -35,7 +35,7 @@ msgid ""
 "uDig (User Friendly Internet Desktop GIS), is a GIS Desktop client for "
 "editing and viewing Geospatial data."
 msgstr ""
-"uDig(User Friendly Internet Desktop "
+"uDig (User Friendly Internet Desktop "
 "GIS)は、地理空間データを編集および表示するためのGISデスクトップクライアントです。"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:34
@@ -269,7 +269,7 @@ msgstr "|ZOOM| ズームツールはデフォルトで利用可能です"
 #: ../../build/doc/quickstart/udig_quickstart.rst:169
 #: ../../build/doc/quickstart/udig_quickstart.rst:169
 msgid "ZOOM"
-msgstr ""
+msgstr "ZOOM"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:171
 msgid ""
@@ -292,7 +292,7 @@ msgstr "|PAN| Panツールを使用すると、スケールを変更せずにマ
 #: ../../build/doc/quickstart/udig_quickstart.rst:178
 #: ../../build/doc/quickstart/udig_quickstart.rst:178
 msgid "PAN"
-msgstr ""
+msgstr "PAN"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:180
 msgid ""
@@ -307,7 +307,7 @@ msgstr "|SHOWALL| 全表示。いつでも全範囲に戻るために使用で�
 #: ../../build/doc/quickstart/udig_quickstart.rst:184
 #: ../../build/doc/quickstart/udig_quickstart.rst:184
 msgid "SHOWALL"
-msgstr ""
+msgstr "SHOWALL"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:186
 msgid ""
@@ -318,12 +318,12 @@ msgstr "|ZOOM_IN| Zoom In と |ZOOM_OUT| Zoom Out を使用すると、スケー
 #: ../../build/doc/quickstart/udig_quickstart.rst:188
 #: ../../build/doc/quickstart/udig_quickstart.rst:188
 msgid "ZOOM_IN"
-msgstr ""
+msgstr "ZOOM_IN"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:189
 #: ../../build/doc/quickstart/udig_quickstart.rst:189
 msgid "ZOOM_OUT"
-msgstr ""
+msgstr "ZOOM_OUT"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:191
 msgid ""
@@ -334,12 +334,12 @@ msgstr "メニューバーのナビゲーション |BNAV| 戻ると |FNAV| 進�
 #: ../../build/doc/quickstart/udig_quickstart.rst:194
 #: ../../build/doc/quickstart/udig_quickstart.rst:194
 msgid "BNAV"
-msgstr ""
+msgstr "BNAV"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:195
 #: ../../build/doc/quickstart/udig_quickstart.rst:195
 msgid "FNAV"
-msgstr ""
+msgstr "FNAV"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:197
 msgid ""
@@ -437,7 +437,7 @@ msgstr "|INFO| Info Toolに切り替えて、公園の1つをクリックする�
 #: ../../build/doc/quickstart/udig_quickstart.rst:247
 #: ../../build/doc/quickstart/udig_quickstart.rst:247
 msgid "INFO"
-msgstr ""
+msgstr "INFO"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:249
 msgid ""

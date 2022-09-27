@@ -147,7 +147,7 @@ msgstr "WMS標準1.1.1および1.3.0を実装"
 
 #: ../../build/doc/overview/deegree_overview.rst:64
 msgid "Official OGC reference implementation for WMS 1.1.1 and WMS 1.3.0"
-msgstr ""
+msgstr "WMS 1.1.1とWMS 1.3.0の公式OGC参照実装"
 
 #: ../../build/doc/overview/deegree_overview.rst:65
 msgid ""
