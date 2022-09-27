@@ -116,7 +116,7 @@ msgstr "**背景設定** ボタンをクリックするか、 *ショートカ�
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:287
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:287
 msgid "image14"
-msgstr ""
+msgstr "image14"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:67
 msgid "|image15|"
@@ -125,7 +125,7 @@ msgstr "|image15|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:289
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:289
 msgid "image15"
-msgstr ""
+msgstr "image15"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:69
 msgid ""
@@ -138,7 +138,7 @@ msgstr ""
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:290
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:290
 msgid "image16"
-msgstr ""
+msgstr "image16"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:72
 msgid ""
@@ -163,7 +163,7 @@ msgstr "|image17|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:292
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:292
 msgid "image17"
-msgstr ""
+msgstr "image17"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:78
 msgid ""
@@ -196,13 +196,13 @@ msgstr "|osm gps traces|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:293
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:293
 msgid "osm gps traces"
-msgstr ""
+msgstr "osm gps traces"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:87
 msgid ""
 "If there is imagery offset, it can be **corrected** by clicking **Fix "
 "Alignment**."
-msgstr ""
+msgstr "背景画像オフセットがある場合は、 **画像の位置を調整** をクリックして **修正** することが可能です。"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:90
 msgid "|image18|"
@@ -211,7 +211,7 @@ msgstr "|image18|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:294
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:294
 msgid "image18"
-msgstr ""
+msgstr "image18"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:92
 msgid ""
@@ -223,7 +223,7 @@ msgstr ""
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:295
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:295
 msgid "image20"
-msgstr ""
+msgstr "image20"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:96
 msgid "Adding points"
@@ -236,7 +236,7 @@ msgstr "新しい点を追加するには、 **[ポイント]** ボタンをク�
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:264
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:264
 msgid "image3"
-msgstr ""
+msgstr "image3"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:100
 msgid ""
@@ -253,7 +253,7 @@ msgstr "|image21|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:296
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:296
 msgid "image21"
-msgstr ""
+msgstr "image21"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:107
 msgid ""
@@ -271,7 +271,7 @@ msgstr "|image22|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:297
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:297
 msgid "image22"
-msgstr ""
+msgstr "image22"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:113
 msgid ""
@@ -297,7 +297,7 @@ msgstr ""
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:298
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:298
 msgid "image23"
-msgstr ""
+msgstr "image23"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:124
 msgid ""
@@ -316,7 +316,7 @@ msgstr "新しいラインを追加するには、 **ライン** ボタンをク
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:266
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:266
 msgid "image4"
-msgstr ""
+msgstr "image4"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:132
 msgid ""
@@ -334,7 +334,7 @@ msgstr "|image24|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:300
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:300
 msgid "image24"
-msgstr ""
+msgstr "image24"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:140
 msgid "Just as with a point, select the appropriate tags for your line."
@@ -356,7 +356,7 @@ msgstr "ライン全体を移動するには、ラインを選択して **移動
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:301
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:301
 msgid "image30"
-msgstr ""
+msgstr "image30"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:145
 msgid ""
@@ -377,7 +377,7 @@ msgstr "ポイントをラインから切断します。|image26|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:303
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:303
 msgid "image26"
-msgstr ""
+msgstr "image26"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:150
 msgid "Split a line into two lines from the point you’ve selected. |image27|"
@@ -386,7 +386,7 @@ msgstr "選択したポイントから2本のラインに分割します。|imag
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:305
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:305
 msgid "image27"
-msgstr ""
+msgstr "image27"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:152
 msgid ""
@@ -406,7 +406,7 @@ msgstr "線分から円を作成する(ラインが閉じている場合にの�
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:307
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:307
 msgid "image29"
-msgstr ""
+msgstr "image29"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:157
 msgid "Move line |image30|"
@@ -421,7 +421,7 @@ msgstr "線分から四角形を作成する(ラインが閉じている場合�
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:309
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:309
 msgid "image31"
-msgstr ""
+msgstr "image31"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:160
 msgid "Reverse line direction (good for rivers & one-way streets) |image32|"
@@ -430,7 +430,7 @@ msgstr "ラインの方向を逆転 (河川や一方通行の設定に便利) |i
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:311
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:311
 msgid "image32"
-msgstr ""
+msgstr "image32"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:163
 msgid "A \"line\" created in the iD editor is actually a \"way\" with \"tags\" on it."
@@ -466,7 +466,7 @@ msgstr "|image34|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:313
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:313
 msgid "image34"
-msgstr ""
+msgstr "image34"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:182
 msgid ""
@@ -483,7 +483,7 @@ msgstr "形状色は、割り当てるアトリビュートに応じて変化し
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:315
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:315
 msgid "image35"
-msgstr ""
+msgstr "image35"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:186
 msgid ""
@@ -516,7 +516,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:0
 msgid "create multipolygon"
-msgstr ""
+msgstr "マルチポリゴン作成"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:207
 msgid ""
@@ -526,7 +526,7 @@ msgstr "新しく作成したマルチポリゴンのいずれかの輪郭を選
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:0
 msgid "part of multipolygon"
-msgstr ""
+msgstr "マルチポリゴンのパート"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:215
 msgid "Saving your changes"
@@ -546,7 +546,7 @@ msgstr "|image36|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:316
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:316
 msgid "image36"
-msgstr ""
+msgstr "image36"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:222
 msgid "Enter a comment about your edits and click **Save**."
@@ -584,7 +584,7 @@ msgstr "標高の追加 |image37|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:317
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:317
 msgid "image37"
-msgstr ""
+msgstr "image37"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:241
 msgid "Add notes |image38|"
@@ -593,7 +593,7 @@ msgstr "ノートの追加 |image38|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:319
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:319
 msgid "image38"
-msgstr ""
+msgstr "image38"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:242
 msgid "Add contacts / phone number |image39|"
@@ -602,7 +602,7 @@ msgstr "連絡先/電話番号の追加 |image39|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:321
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:321
 msgid "image39"
-msgstr ""
+msgstr "image39"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:243
 msgid "Add source tag |image40|"
@@ -611,7 +611,7 @@ msgstr "sourceタグの追加 |image40|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:323
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:323
 msgid "image40"
-msgstr ""
+msgstr "image40"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:244
 msgid "Add website |image41|"
@@ -620,7 +620,7 @@ msgstr "websiteの追加 |image41|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:325
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:325
 msgid "image41"
-msgstr ""
+msgstr "image41"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:245
 msgid "Add accessibility information |image42|"
@@ -629,7 +629,7 @@ msgstr "アクセスのしやすさ情報を追加 |image42|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:327
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:327
 msgid "image42"
-msgstr ""
+msgstr "image42"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:246
 msgid "Add Wikipedia link |image43|"
@@ -638,7 +638,7 @@ msgstr "Wikipediaリンクを追加 |image43|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:329
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:329
 msgid "image43"
-msgstr ""
+msgstr "image43"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:248
 msgid "Or, you can add custom tags by clicking **All tags**. |image44|"
@@ -647,7 +647,7 @@ msgstr "または、カスタムタグを **全タグ** をクリックして追
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:331
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:331
 msgid "image44"
-msgstr ""
+msgstr "image44"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:250
 msgid "This will show all the tags attached to the feature."
@@ -660,7 +660,7 @@ msgstr "|image45|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:333
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:333
 msgid "image45"
-msgstr ""
+msgstr "image45"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:254
 msgid ""
@@ -686,35 +686,35 @@ msgstr "Webサイト: https://wiki.openstreetmap.org/wiki/ID"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:268
 msgid "image5"
-msgstr ""
+msgstr "image5"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:270
 msgid "image6"
-msgstr ""
+msgstr "image6"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:272
 msgid "image7"
-msgstr ""
+msgstr "image7"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:274
 msgid "image8"
-msgstr ""
+msgstr "image8"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:276
 msgid "image9"
-msgstr ""
+msgstr "image9"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:278
 msgid "image10"
-msgstr ""
+msgstr "image10"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:280
 msgid "image11"
-msgstr ""
+msgstr "image11"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:282
 msgid "image12"
-msgstr ""
+msgstr "image12"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:284
 msgid "Map Data"
@@ -722,7 +722,7 @@ msgstr "地図データ"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:285
 msgid "image13"
-msgstr ""
+msgstr "image13"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"

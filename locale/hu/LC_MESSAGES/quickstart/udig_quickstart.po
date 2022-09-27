@@ -301,7 +301,7 @@ msgstr "A |ZOOM| nagyító eszköz alapértelmezésben elérhető"
 #: ../../build/doc/quickstart/udig_quickstart.rst:169
 #: ../../build/doc/quickstart/udig_quickstart.rst:169
 msgid "ZOOM"
-msgstr ""
+msgstr "NAGYÍTÁS"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:171
 msgid ""
@@ -330,7 +330,7 @@ msgstr ""
 #: ../../build/doc/quickstart/udig_quickstart.rst:178
 #: ../../build/doc/quickstart/udig_quickstart.rst:178
 msgid "PAN"
-msgstr ""
+msgstr "ELTOLÁS"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:180
 msgid ""
@@ -346,7 +346,7 @@ msgstr ""
 #: ../../build/doc/quickstart/udig_quickstart.rst:184
 #: ../../build/doc/quickstart/udig_quickstart.rst:184
 msgid "SHOWALL"
-msgstr ""
+msgstr "MINDENT MUTAT"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:186
 msgid ""
@@ -359,12 +359,12 @@ msgstr ""
 #: ../../build/doc/quickstart/udig_quickstart.rst:188
 #: ../../build/doc/quickstart/udig_quickstart.rst:188
 msgid "ZOOM_IN"
-msgstr ""
+msgstr "NAGYÍTÁS"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:189
 #: ../../build/doc/quickstart/udig_quickstart.rst:189
 msgid "ZOOM_OUT"
-msgstr ""
+msgstr "KICSINYÍTÉS"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:191
 msgid ""
@@ -493,7 +493,7 @@ msgstr ""
 #: ../../build/doc/quickstart/udig_quickstart.rst:247
 #: ../../build/doc/quickstart/udig_quickstart.rst:247
 msgid "INFO"
-msgstr ""
+msgstr "INFO"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:249
 msgid ""

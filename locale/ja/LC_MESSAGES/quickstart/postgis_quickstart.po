@@ -444,7 +444,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rstNone
 msgid "Connect to Natural Earth"
-msgstr ""
+msgstr "Natural Earthへの接続"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:392
 msgid "You will now get a list of the spatial tables in the database:"
@@ -452,7 +452,7 @@ msgstr "データベース内の空間テーブルのリストが表示されま
 
 #: ../../build/doc/quickstart/postgis_quickstart.rstNone
 msgid "Natural Earth Layers"
-msgstr ""
+msgstr "Natural Earthレイヤ"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:399
 msgid ""
@@ -465,7 +465,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rstNone
 msgid "My First PostGIS layer"
-msgstr ""
+msgstr "最初のPostGISレイヤ"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:408
 msgid ""
@@ -511,7 +511,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rstNone
 msgid "QGIS Manager Preview"
-msgstr ""
+msgstr "QGISマネージャプレビュー"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:430
 msgid ""
@@ -535,7 +535,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rstNone
 msgid "Find the shapefile"
-msgstr ""
+msgstr "シェープファイルを見つける"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:443
 msgid "Leave everything else as it is and hit ``Load``"
@@ -543,7 +543,7 @@ msgstr "他のものはすべてそのままにして、 ``Load`` を押しま�
 
 #: ../../build/doc/quickstart/postgis_quickstart.rstNone
 msgid "Import a shapefile"
-msgstr ""
+msgstr "シェープファイルのインポート"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:450
 msgid ""
@@ -567,7 +567,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rstNone
 msgid "SIDS data mapped"
-msgstr ""
+msgstr "SIDSデータのマッピング"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:464
 msgid ""
@@ -577,15 +577,18 @@ msgid ""
 " only available in the VMDK version. The ISO version has the ``phpPgAdmin`` "
 "client which offers the same core functionality."
 msgstr ""
+"利用中のOSGeoLiveのバージョン(ISO または VMDK)によっては、同じクライアントが利用できない場合があります。``pgAdmin`` "
+"はPostgreSQLの公式クライアントですが、技術的な理由でISOでは利用できないため、VMDK版でのみ利用可能です。ISO版には "
+"``phpPgAdmin`` クライアントがあり、同じコア機能を提供します。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:471
 msgid "Get to know phpPgAdmin (ISO & VMDK)"
-msgstr ""
+msgstr "phpPgAdminを知る (ISO & VMDK)"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:473
 msgid ""
 "In both versions, you can use the graphical database client phpPgAdmin."
-msgstr ""
+msgstr "どちらのバージョンでも、グラフィカルなデータベースクライアントphpPgAdminを使用することができます。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:475
 msgid ""
@@ -593,10 +596,11 @@ msgid ""
 " launch phpPgAdmin from the Databases folder, existing on the OSGeoLive "
 "Desktop."
 msgstr ""
+"phpPgAdminでは、SQLを使用してデータテーブルを操作することができます。OSGeoLiveのデスクトップにあるDatabasesフォルダからphpPgAdminを起動することができます。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rstNone
 msgid "phpPgAdmin main"
-msgstr ""
+msgstr "phpPgAdminメイン"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:483
 msgid ""
@@ -605,9 +609,8 @@ msgid ""
 "``PostgreSQL`` server denotes that you haven't been yet connected. Click on "
 "it  then enter the user name  ``user`` and the master password  ``user``."
 msgstr ""
-"ここでは、PostgreSQLサーバへの新しい接続を作成するか、既存のサーバに接続するかを選択できます。The red \"X\" on the  "
-"``PostgreSQL`` server denotes that you haven't been yet connected. Click on "
-"it  then enter the user name  ``user`` and the master password  ``user``."
+"ここでは、PostgreSQLサーバへの新しい接続を作成するか、既存のサーバに接続するかを選択できます。``PostgreSQL`` サーバーの赤い "
+"\"X\" は、まだ接続されていないことを意味します。クリックしてユーザ名 ``user`` とマスタパスワード ``user`` を入力します。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:487
 #: ../../build/doc/quickstart/postgis_quickstart.rst:553
@@ -620,7 +623,7 @@ msgstr "接続が確立されると、システムにすでに存在するデー
 #: ../../build/doc/quickstart/postgis_quickstart.rstNone
 #: ../../build/doc/quickstart/postgis_quickstart.rstNone
 msgid "phpPgAdmin"
-msgstr ""
+msgstr "phpPgAdmin"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:495
 msgid ""
@@ -628,9 +631,8 @@ msgid ""
 " You can connect, by clicking, on plus sign at the left of the name of a "
 "database. Do it for the ``natural_earth2`` database."
 msgstr ""
-"この時点では、システム上の既存のデータベースしか表示できません。You can connect, by clicking, on plus sign "
-"at the left of the name of a database. Do it for the ``natural_earth2`` "
-"database."
+"この時点では、システム上の既存のデータベースしか表示できません。データベース名の左にあるプラス記号をクリックすると、接続することができます。データベース"
+" ``natural_earth2`` に対して実行してみましょう。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:498
 msgid ""
@@ -638,16 +640,18 @@ msgid ""
 "``public``. Click on the plus at left of ``Tables`` to expand it, you can "
 "see all the tables contained within this schema."
 msgstr ""
+"このデータベースには ``public`` という名前のスキーマが一つだけ存在することが分かります。``Tables`` "
+"の左側にあるプラスをクリックして展開すると、このスキーマに含まれるすべてのテーブルを見ることができます。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:513
 msgid "Executing a SQL query from phpPgAdmin (ISO & VMDK)"
-msgstr ""
+msgstr "phpPgAdminからのSQLクエリの実行 (ISO & VMDK)"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:515
 msgid ""
 "phpPgAdmin offers the capability of executing queries to a relational "
 "database."
-msgstr ""
+msgstr "phpPgAdminは、リレーショナルデータベースへのクエリを実行する機能を提供します。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:517
 msgid ""
@@ -655,6 +659,8 @@ msgid ""
 "database then press the ``SQL`` button from the main toolbar (the one at the"
 " left with the database symbol)."
 msgstr ""
+"データベースにクエリを実行するには、 ``natural_earth2`` データベースをクリックして戻り、メインツールバーの ``SQL`` ボタン "
+"(左側のデータベースシンボルのあるボタン) を押します。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:519
 #: ../../build/doc/quickstart/postgis_quickstart.rst:588
@@ -668,11 +674,11 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:527
 msgid "Afterwards, you should press the Execute button."
-msgstr ""
+msgstr "その後、実行ボタンを押します。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:535
 msgid "Get to know pgAdmin (VMDK only)"
-msgstr ""
+msgstr "pgAdminを知る (VMDKのみ)"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:537
 msgid ""
@@ -695,7 +701,7 @@ msgstr ""
 #: ../../build/doc/quickstart/postgis_quickstart.rstNone
 #: ../../build/doc/quickstart/postgis_quickstart.rstNone
 msgid "pgAdmin"
-msgstr ""
+msgstr "pgAdmin"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:547
 msgid "Enter the master password  ``user``."
@@ -720,8 +726,8 @@ msgid ""
 msgstr ""
 "ほとんどのデータベースのイメージ上の赤い \"X\" は、まだどのデータベースにも接続していないことを示しています(あなたはデフォルトの "
 "``postgres`` "
-"データベースにのみ接続しています)。この時点では、システム上の既存のデータベースしか表示できません。データベースの名前をダブルクリックすることで接続できます。Do"
-" it for the ``natural_earth2`` database."
+"データベースにのみ接続しています)。この時点では、システム上の既存のデータベースしか表示できません。データベースの名前をダブルクリックすることで接続できます。データベース"
+" ``natural_earth2`` に対して実行してみましょう。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:565
 msgid ""
@@ -741,7 +747,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:582
 msgid "Executing a SQL query from pgAdmin (VMDK only)"
-msgstr ""
+msgstr "pgAdminからのSQLクエリの実行 (VMDKのみ)"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:584
 msgid ""

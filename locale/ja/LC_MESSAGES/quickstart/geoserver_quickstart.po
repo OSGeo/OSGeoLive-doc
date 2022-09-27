@@ -169,7 +169,7 @@ msgstr ":guilabel:`Add new Store` をクリックします。次のページが�
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:0
 msgid "The New Store page"
-msgstr ""
+msgstr "新規ストアページ"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:108
 msgid ""
@@ -179,7 +179,7 @@ msgstr ":guilabel:`Directory of spatial files` を選択します。次のよう
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:0
 msgid "Filling in the New Store page"
-msgstr ""
+msgstr "新規ストアページの入力"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:115
 msgid ""
@@ -197,7 +197,7 @@ msgstr ":guilabel:`保存` を押します。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:0
 msgid "The Natural Earth Datastore"
-msgstr ""
+msgstr "Natural Earthデータストア"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:126
 msgid ""
@@ -208,7 +208,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rstNone
 msgid "The layer publishing page"
-msgstr ""
+msgstr "レイヤ公開ページ"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:134
 msgid ""
@@ -314,7 +314,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:0
 msgid "Default Styling in uDig"
-msgstr ""
+msgstr "uDigのデフォルトスタイル"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:184
 msgid ""
@@ -324,7 +324,7 @@ msgstr ":ref:`レイヤリスト <Layer_list>` でスタイルボタン(アー�
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rstNone
 msgid "The Layer list window"
-msgstr ""
+msgstr "レイヤリストウィンドウ"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:193
 msgid "This will open the :ref:`Style Pane <Style_Pane>`."
@@ -342,7 +342,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:0
 msgid "The Style Pane"
-msgstr ""
+msgstr "スタイルペイン"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:206
 msgid "Click ``OK`` and |UG| will display the changes."
@@ -350,7 +350,7 @@ msgstr "``OK`` をクリックすると、 |UG| が変更を表示します。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:0
 msgid "Blue Oceans"
-msgstr ""
+msgstr "ブルーオーシャン"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:213
 msgid ""
@@ -361,7 +361,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:0
 msgid "Defining a nicer land color"
-msgstr ""
+msgstr "より美しい土地の色の定義"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:221
 msgid "This gives a nice looking basic world map."
@@ -369,7 +369,7 @@ msgstr "これにより、美しい外観の基本的な世界マップが得ら
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rstNone
 msgid "A basic word map"
-msgstr ""
+msgstr "基本的な世界地図"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:229
 msgid "Adding the style to GeoServer"
@@ -421,7 +421,7 @@ msgstr "ページの下部にある :guilabel:`Submit` を押します。"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rstNone
 msgid "Adding a Style to GeoServer"
-msgstr ""
+msgstr "GeoServerへのスタイル追加"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:254
 msgid "Adding the style to the layer"
@@ -525,7 +525,7 @@ msgstr "\"Data\" タブの一番下までスクロールダウンし、もう一
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:0
 msgid "Adding a NetCDF store"
-msgstr ""
+msgstr "NetCDFストアの追加"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:325
 msgid "Preview the NetCDF layer"
@@ -549,7 +549,7 @@ msgstr "点をクリックすると、 \"オゾン濃度\" の値がマップの
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:0
 msgid "OpenLayers preview of a NetCDF layer"
-msgstr ""
+msgstr "NetCDFレイヤのOpenLayersプレビュー"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:339
 msgid ""
@@ -572,7 +572,7 @@ msgstr "これは、GeoServerを使用するための最初のステップにす
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:349
 msgid "GeoServer Project home - https://geoserver.org/"
-msgstr ""
+msgstr "GeoServer プロジェクトホーム - https://geoserver.org/"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:350
 msgid "GeoServer User Manual - https://docs.geoserver.org/latest/en/user/"

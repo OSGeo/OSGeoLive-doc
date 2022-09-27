@@ -158,7 +158,7 @@ msgstr "出力されるps文書は次のようになります:"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rstNone
 msgid "North Caroline - sample elevation data"
-msgstr ""
+msgstr "ノースカロライナ - サンプル標高データ"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:117
 msgid "Things to try"
@@ -166,19 +166,19 @@ msgstr "試してみること"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:119
 msgid "Install the following packages:"
-msgstr ""
+msgstr "以下のパッケージをインストールします:"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:121
 msgid "gmt-dcw"
-msgstr ""
+msgstr "gmt-dcw"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:122
 msgid "gmt-gshhg"
-msgstr ""
+msgstr "gmt-gshhg"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:128
 msgid "Examples will be found in: `/usr/share/doc/gmt/examples`"
-msgstr ""
+msgstr "サンプルはこちらにあります: `/usr/share/doc/gmt/examples`"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:130
 msgid ""
@@ -187,10 +187,12 @@ msgid ""
 "examples available in the `src` code. There are 30 example jobs built in, to"
 " test"
 msgstr ""
+"`GMT チュートリアル <https://gmt.soest.hawaii.edu/doc/latest/GMT_Tutorial.html>` "
+"を見て `src` コードで利用可能なサンプルに従ってください。30種類のサンプルジョブが組み込まれていて、テストが可能です。"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:135
 msgid "Open a terminal, then execute the example"
-msgstr ""
+msgstr "端末を開き、サンプルを実行します"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:143
 msgid ""
@@ -206,7 +208,7 @@ msgstr "次のステップ"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:155
 msgid "Documentation: https://www.soest.hawaii.edu/gmt/"
-msgstr ""
+msgstr "ドキュメント: https://www.soest.hawaii.edu/gmt/"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:156
 msgid "Website: https://gmt.soest.hawaii.edu"

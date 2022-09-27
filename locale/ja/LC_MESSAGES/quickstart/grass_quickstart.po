@@ -52,6 +52,8 @@ msgid ""
 "From the \"Welcome to GRASS GIS\" window, select the \"nc_basic_spm_grass7\""
 " dataset for the location, and \"user1\" for the mapset"
 msgstr ""
+"\"Welcome to GRASS GIS \" ウインドウから、ロケーションに nc_basic_spm_grass7 データセット、マップセットに"
+" \"user1\" を選択します。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:39
 msgid "Click on :guilabel:`Start GRASS session`."
@@ -66,13 +68,15 @@ msgstr ":guilabel:`Start GRASS session` をクリックします。"
 #: ../../build/doc/quickstart/grass_quickstart.rstNone
 #: ../../build/doc/quickstart/grass_quickstart.rstNone
 msgid "screenshot"
-msgstr ""
+msgstr "スクリーンショット"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:46
 msgid ""
 "This will launch GRASS into the `graphical user interface (written in "
 "wxPython) <http://localhost/grass/wxGUI.html>`_."
 msgstr ""
+"GRASS が `(wsPythonで書かれた)グラフィカルユーザインタフェース "
+"<http://localhost/grass/wxGUI.html>`_ として起動します。"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:49
 msgid ""
@@ -598,6 +602,8 @@ msgid ""
 "A `synopsis of the GRASS GIS modules <https://grass.osgeo.org/grass-"
 "stable/manuals/full_index.html>`_"
 msgstr ""
+"`GRASS GISモジュールの概要 <https://grass.osgeo.org/grass-"
+"stable/manuals/full_index.html>`_"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:346
 msgid ""
@@ -606,6 +612,9 @@ msgid ""
 "stable/manuals/addons/ <https://grass.osgeo.org/grass-"
 "stable/manuals/addons/>`_"
 msgstr ""
+"GRASSに付属する400個の GIS モジュールで不足する場合、 `https://grass.osgeo.org/grass-"
+"stable/manuals/addons/ <https://grass.osgeo.org/grass-"
+"stable/manuals/addons/>`_ に大量のアドオンがあります。"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"

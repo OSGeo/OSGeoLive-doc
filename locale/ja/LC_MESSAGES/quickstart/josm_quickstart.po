@@ -64,7 +64,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/josm_quickstart.rstNone
 msgid "JOSM splash page"
-msgstr ""
+msgstr "JOSM 起動画面"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:41
 msgid "Load a sample (ficticious) map"
@@ -93,7 +93,7 @@ msgstr "次に、JOSMでサンプルの地図を開きます。JOSMの左上に�
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:0
 msgid "Open file"
-msgstr ""
+msgstr "ファイルを開く"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:54
 msgid ""
@@ -109,7 +109,7 @@ msgstr "ファイルをクリックして、もう一度 \"Open\" をクリッ�
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:0
 msgid "Sample file"
-msgstr ""
+msgstr "サンプルファイル"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:62
 msgid ""
@@ -139,7 +139,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:0
 msgid "Scale bar"
-msgstr ""
+msgstr "スケールバー"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:82
 msgid ""
@@ -274,7 +274,7 @@ msgstr "ここまでの操作では、”選択”ツールを使用してきて
 #: ../../build/doc/quickstart/josm_quickstart.rstNone
 #: ../../build/doc/quickstart/josm_quickstart.rst:0
 msgid "Select tool"
-msgstr ""
+msgstr "選択ツール"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:153
 msgid "Before you draw, you need to make sure that nothing is selected."
@@ -292,7 +292,7 @@ msgstr "2番目のボタン”描画”をクリックしてみましょう。"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:0
 msgid "Draw tool"
-msgstr ""
+msgstr "描画ツール"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:163
 msgid ""

@@ -53,7 +53,7 @@ msgstr "Cesiumの開始"
 msgid ""
 "Open the browser and point it to "
 "http://localhost/cesium/Apps/HelloWorld.html"
-msgstr "ブラウザを開き、http://localhost/cesium/Apps/HelloWorld.htmlを開く"
+msgstr "ブラウザを開き、http://localhost/cesium/Apps/HelloWorld.html を開く"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:33
 msgid "Search for a location"
@@ -63,11 +63,11 @@ msgstr "場所を検索"
 msgid ""
 "Click on the magnifying glass and type in the location you are looking for. "
 "In the following display, we look for India."
-msgstr "虫眼鏡をクリックして、探している位置を入力します。次の表示では、インドを探します。"
+msgstr "虫眼鏡をクリックして、探している位置を入力します。以下の表示では、インドを探しています。"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rstNone
 msgid "Cesium Searching Location"
-msgstr ""
+msgstr "Cesium での位置検索"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:41
 msgid "Switch between 3D, 2.5D and 2D"
@@ -77,11 +77,11 @@ msgstr "3D、2.5D、2Dの切り替え"
 msgid ""
 "Click on the wire framed globe icon to select your preferred view.  Here the"
 " 2.5D Columbus view has been selected."
-msgstr "ワイヤーで囲まれたビューアイコンをクリックして、希望の地球儀を選択します。ここでは、2.5D Columbusビューが選択されています。"
+msgstr "ワイヤーで囲まれたビューアイコンをクリックして、希望のビューを選択します。ここでは、2.5D コロンブスビューが選択されています。"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rstNone
 msgid "Cesium switching between 3D, 2.5D and 2D"
-msgstr ""
+msgstr "Cesium での3D、2.5D、2Dの切り替え"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:48
 msgid "Now the 2D map is selected."
@@ -90,7 +90,7 @@ msgstr "これで、2Dマップが選択されました。"
 #: ../../build/doc/quickstart/cesium_quickstart.rstNone
 #: ../../build/doc/quickstart/cesium_quickstart.rstNone
 msgid "Cesium 2D map"
-msgstr ""
+msgstr "Cesium 2Dマップ"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:55
 msgid "Select the Image layer"
@@ -101,8 +101,8 @@ msgid ""
 "Click on the last icon and select a type of image service.  Here the Natural"
 " Earth II is selected and you can see how the map's image layer has changed."
 msgstr ""
-"最後のアイコンをクリックして、イメージサービスの種類を選択します。ここでNatural Earth "
-"IIが選択され、マップのイメージレイヤがどのように変化したかを見ることができます。"
+"最後のアイコンをクリックして、イメージサービスの種類を選択します。ここでは Natural Earth II "
+"が選択され、マップのイメージレイヤがどのように変化したかを見ることができます。"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:65
 msgid "What next?"
@@ -136,6 +136,8 @@ msgid ""
 "search for answers to common questions, and to raise questions that haven't "
 "been asked before."
 msgstr ""
+"`Cesiumフォーラム <https://community.cesium.com>`_ "
+"は、よくある質問に対する答えを探したり、これまでになかった質問を提起したりするのに最適な場所です。"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:74
 msgid ""

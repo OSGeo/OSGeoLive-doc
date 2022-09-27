@@ -148,6 +148,8 @@ msgid ""
 "|nologo| |vmdk| :doc:`udig_overview` - [:doc:`Quickstart "
 "<../quickstart/udig_quickstart>`]"
 msgstr ""
+"|nologo| |vmdk| :doc:`udig_overview` - [:doc:`クイックスタート "
+"<../quickstart/udig_quickstart>`]"
 
 #: ../../build/doc/overview/overview.rst:53
 msgid "Browser Facing GIS"
@@ -322,6 +324,8 @@ msgid ""
 "|OSGeo_community| |vmdk| :doc:`actinia_overview` - [:doc:`Quickstart "
 "<../quickstart/actinia_quickstart>`] - Processing of Geographical Data"
 msgstr ""
+"|OSGeo_community| |vmdk| :doc:`actinia_overview` - [:doc:`クイックスタート "
+"<../quickstart/actinia_quickstart>`] - 地理データの処理"
 
 #: ../../build/doc/overview/overview.rst:167
 msgid ""
@@ -378,6 +382,8 @@ msgid ""
 "|nologo| |vmdk| :doc:`52nSOS_overview` - [:doc:`Quickstart "
 "<../quickstart/52nSOS_quickstart>`] - Sensor Observation Service"
 msgstr ""
+"|nologo| |vmdk| :doc:`52nSOS_overview` - [:doc:`クイックスタート "
+"<../quickstart/52nSOS_quickstart>`] - Sensor Observation Service"
 
 #: ../../build/doc/overview/overview.rst:181
 msgid ""
@@ -416,6 +422,8 @@ msgid ""
 "|OSGeo_incubation| |vmdk| :doc:`rasdaman_overview` - [:doc:`Quickstart "
 "<../quickstart/rasdaman_quickstart>`] - Multi-Dimensional Raster Database"
 msgstr ""
+"|OSGeo_incubation| |vmdk| :doc:`rasdaman_overview` - [:doc:`クイックスタート "
+"<../quickstart/rasdaman_quickstart>`] - 多次元ラスタデータベース"
 
 #: ../../build/doc/overview/overview.rst:207
 msgid ""

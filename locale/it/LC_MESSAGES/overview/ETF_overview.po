@@ -101,7 +101,7 @@ msgstr "Risorse testabili"
 
 #: ../../build/doc/overview/ETF_overview.rst:57
 msgid "datasets (up to multiple hundreds GB): GML"
-msgstr "dataset (fino a molteplici centinaia di GB): GML"
+msgstr "dataset (fino a diverse centinaia di GB): GML"
 
 #: ../../build/doc/overview/ETF_overview.rst:58
 msgid "metadata: XML"
@@ -109,11 +109,11 @@ msgstr "metadati: XML"
 
 #: ../../build/doc/overview/ETF_overview.rst:59
 msgid "view services: WMS/WMTS"
-msgstr "servizi di visualizzazione: WMS/WTS"
+msgstr "servizi di visualizzazione: WMS/WMTS"
 
 #: ../../build/doc/overview/ETF_overview.rst:60
 msgid "download services: Atom, WFS, WCS, SOS"
-msgstr "servizi di scarico: Atom, WFS, WCS, SOS"
+msgstr "servizi di download: Atom, WFS, WCS, SOS"
 
 #: ../../build/doc/overview/ETF_overview.rst:61
 msgid "catalogue services: CSW"
@@ -161,7 +161,7 @@ msgstr "NeoTL per testare servizi OGC WFS e OGC API (in sviluppo)"
 
 #: ../../build/doc/overview/ETF_overview.rst:77
 msgid "Test reports"
-msgstr "Test report"
+msgstr "Report dei test"
 
 #: ../../build/doc/overview/ETF_overview.rst:76
 msgid "user-friendly and self-explanatory"
@@ -181,7 +181,7 @@ msgstr "|CSW|"
 
 #: ../../build/doc/overview/ETF_overview.rst:81
 msgid "|ISO19105|"
-msgstr ""
+msgstr "|ISO19105|"
 
 #: ../../build/doc/overview/ETF_overview.rst:82
 msgid "|SOS|"
@@ -201,7 +201,7 @@ msgstr "|GML|"
 
 #: ../../build/doc/overview/ETF_overview.rst:86
 msgid "|OGCAPIFEATURES|"
-msgstr ""
+msgstr "|OGCAPIFEATURES|"
 
 #: ../../build/doc/overview/ETF_overview.rst:87
 msgid "|WCS|"
@@ -235,7 +235,7 @@ msgstr "**Piattaforme Supportate:** Windows, Linux"
 msgid ""
 "**API Interfaces:** REST API, OpenAPI Specification, Java client library"
 msgstr ""
-"**Interfacce API:** REST API, Specifiche OpenAPI, libreria client Java"
+"**Interfacce API:** API REST, Specifiche OpenAPI, libreria client Java"
 
 #: ../../build/doc/overview/ETF_overview.rst:105
 msgid "**Support:** https://github.com/etf-validator/etf-webapp/issues"
@@ -254,7 +254,7 @@ msgid ""
 "**Administrator manual:** https://docs.etf-"
 "validator.net/v2.0/index.html#_administrator_manuals"
 msgstr ""
-"**Manuale dell'amministratore:** https://docs.etf-"
+"**Manuale amministratore:** https://docs.etf-"
 "validator.net/v2.0/index.html#_administrator_manuals"
 
 #: ../../build/doc/overview/ETF_overview.rst:111
@@ -262,7 +262,7 @@ msgid ""
 "**Developer manual:** https://docs.etf-"
 "validator.net/v2.0/index.html#_developer_manuals"
 msgstr ""
-"**Manuale dello sviluppatore:** https://docs.etf-"
+"**Manuale sviluppatore:** https://docs.etf-"
 "validator.net/v2.0/index.html#_developer_manuals"
 
 #: ../../build/doc/overview/ETF_overview.rst:114

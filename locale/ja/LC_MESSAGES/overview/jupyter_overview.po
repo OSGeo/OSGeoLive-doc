@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../build/doc/overview/jupyter_overview.rst:16
 msgid "Jupyter Notebook"
-msgstr "Jupyterノートブック"
+msgstr "Jupyter Notebook"
 
 #: ../../build/doc/overview/jupyter_overview.rst:19
 msgid "Mixing rich media in documentation"
@@ -36,7 +36,7 @@ msgid ""
 "share documents that contain live code, equations, visualizations and "
 "explanatory text."
 msgstr ""
-"Jupyterノートブックは、ライブコード、数式、視覚化、および説明テキストを含むドキュメントを作成および共有できるWebアプリケーションです。"
+"Jupyter Notebookは、ライブコード、数式、視覚化、および説明テキストを含むドキュメントを作成および共有できるWebアプリケーションです。"
 
 #: ../../build/doc/overview/jupyter_overview.rst:25
 msgid "It combines two components:"
@@ -66,7 +66,7 @@ msgid ""
 "Notebooks can be shared with others on GitHub, Dropbox, and the `Jupyter "
 "Notebook Viewer <https://nbviewer.org>`__."
 msgstr ""
-"ノートブックはGitHub、Dropbox、 `Jupyterノートブックビューア <https://nbviewer.org>`__ "
+"ノートブックはGitHub、Dropbox、 `Jupyter Notebookビューア <https://nbviewer.org>`__ "
 "で他のユーザに共有できます。"
 
 #: ../../build/doc/overview/jupyter_overview.rst:40
@@ -81,7 +81,7 @@ msgstr "主な機能"
 
 #: ../../build/doc/overview/jupyter_overview.rst:47
 msgid "Create Jupyter Notebooks which can contain:"
-msgstr "以下を含むJupyterノートブックの作成:"
+msgstr "以下を含むJupyter Notebookの作成:"
 
 #: ../../build/doc/overview/jupyter_overview.rst:49
 msgid "Marked up text (with headings, styles, paragraphs, etc)"
@@ -103,7 +103,7 @@ msgstr "Python、R、Julia、Bashなど、複数のプログラミング言語�
 
 #: ../../build/doc/overview/jupyter_overview.rst:54
 msgid "Jupyter Notebooks on OSGeoLive can use geospatial functions from:"
-msgstr "OSGeoLive上のJupyterノートブックは、以下の地理空間関数を使用可能:"
+msgstr "OSGeoLive上のJupyter Notebookは、以下の地理空間関数を使用可能:"
 
 #: ../../build/doc/overview/jupyter_overview.rst:56
 msgid ""

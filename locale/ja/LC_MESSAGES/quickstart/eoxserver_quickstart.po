@@ -73,7 +73,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rstNone
 msgid "EOxServer demonstration start"
-msgstr ""
+msgstr "EOxServer デモ開始"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:49
 msgid "Work with the Web Client"
@@ -92,7 +92,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rstNone
 msgid "Main view of the EOxServer Web Client"
-msgstr ""
+msgstr "EOxServer Web Clientのメインビュー"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:60
 msgid ""
@@ -109,7 +109,7 @@ msgstr ""
 #: ../../build/doc/quickstart/eoxserver_quickstart.rstNone
 #: ../../build/doc/quickstart/eoxserver_quickstart.rstNone
 msgid "EOxServer demonstration embedded client outlines"
-msgstr ""
+msgstr "EOxServerデモ組込みクライアントの概要"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:69
 msgid ""
@@ -162,9 +162,9 @@ msgid ""
 "<https://docs.eoxserver.org/en/stable/users/services/webclient.html>`_ for "
 "more information on this topic."
 msgstr ""
-"これは、EOxServer Web Clientの簡単な説明です。Please refer to the `online documentation "
-"<https://docs.eoxserver.org/en/stable/users/services/webclient.html>`_ for "
-"more information on this topic."
+"これは、EOxServer Web Clientの簡単な説明です。このトピックの詳細については `オンラインドキュメント "
+"<https://docs.eoxserver.org/en/stable/users/services/webclient.html>`_ "
+"を参照してください。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:114
 msgid "Work with the Admin Client"
@@ -180,7 +180,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rstNone
 msgid "EOxServer demonstration admin client login"
-msgstr ""
+msgstr "EOxServerデモの管理クライアントログイン"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:123
 msgid ""
@@ -189,13 +189,13 @@ msgid ""
 "can be found in the `operations' guide "
 "<https://docs.eoxserver.org/en/stable/users/operations/index.html>`_."
 msgstr ""
-"`Admin Client` はDjangos標準の管理者であり、利用可能なデータを設定できます。クライアントを自由にご覧ください。More "
-"information can be found in the `operations' guide "
-"<https://docs.eoxserver.org/en/stable/users/operations/index.html>`_."
+"`Admin Client` はDjangos標準の管理者であり、利用可能なデータを設定できます。クライアントを自由にご覧ください。より詳しい情報は "
+"`操作ガイド <https://docs.eoxserver.org/en/stable/users/operations/index.html>`_ "
+"に記載されています。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rstNone
 msgid "EOxServer demonstration admin client start"
-msgstr ""
+msgstr "EOxServerデモの管理クライアント起動"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:132
 msgid ""
@@ -208,7 +208,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rstNone
 msgid "EOxServer demonstration admin client Dataset Series"
-msgstr ""
+msgstr "EOxServerデモの管理クライアントデータセットシリーズ"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:139
 msgid ""
@@ -218,7 +218,7 @@ msgstr "\"Coverages\" リンクをクリックすると、カバレッジをプ�
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rstNone
 msgid "EOxServer demonstration admin client Dataset Series Management"
-msgstr ""
+msgstr "EOxServerデモの管理クライアントデータセットシリーズ管理"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:146
 msgid "What Next?"
@@ -245,12 +245,17 @@ msgid ""
 "Read the `EOxServer Operations' Guide "
 "<https://docs.eoxserver.org/en/stable/users/operations/index.html>`_."
 msgstr ""
+"`EOxServer操作ガイド "
+"<https://docs.eoxserver.org/en/stable/users/operations/index.html>`_ "
+"をお読みください。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:154
 msgid ""
 "Read the `EOxServer Basics "
 "<https://docs.eoxserver.org/en/stable/users/basics.html>`_."
 msgstr ""
+"`EOxServerの基礎知識 <https://docs.eoxserver.org/en/stable/users/basics.html>`_ "
+"をお読みください。"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:155
 msgid ""
@@ -259,10 +264,9 @@ msgid ""
 "support>`_ to exchange ideas, discuss potential software improvements, and "
 "ask questions."
 msgstr ""
-"EOxServerを使用する準備はできていますか?Then join the community on the `mailing lists "
+"EOxServerを使用する準備はできていますか?その後、 `メーリングリスト "
 "<https://docs.eoxserver.org/en/stable/users/basics.html#where-can-i-get-"
-"support>`_ to exchange ideas, discuss potential software improvements, and "
-"ask questions."
+"support>`_ でコミュニティに参加し、アイデアを交換したり、ソフトウェアの改善点について議論したり、質問をしたりしてください。"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"

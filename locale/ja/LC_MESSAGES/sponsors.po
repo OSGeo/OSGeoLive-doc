@@ -634,11 +634,11 @@ msgstr "camerons"
 
 #: ../../build/contributors.csv:1
 msgid "Carsten Hollmann"
-msgstr ""
+msgstr "Carsten Hollmann"
 
 #: ../../build/contributors.csv:1
 msgid "c.hollmann 52north.org"
-msgstr ""
+msgstr "c.hollmann 52north.org"
 
 #: ../../build/contributors.csv:1
 msgid "Dane Springmeyer"

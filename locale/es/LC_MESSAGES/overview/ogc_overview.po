@@ -6,6 +6,7 @@
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2022
+# Jose Vergara, 2022
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-06 09:15-0500\n"
 "PO-Revision-Date: 2018-07-27 22:51+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
+"Last-Translator: Jose Vergara, 2022\n"
 "Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,6 +35,12 @@ msgid ""
 "information and services FAIR - Findable, Accessible, Interoperable, and "
 "Reusable."
 msgstr ""
+"El Open Geospatial Consortium (OGC) es una comunidad colectiva de resolución"
+" de problemas de más de 550 expertos que representan a la industria, el "
+"gobierno, la investigación y la academia, que colaboran para hacer que la "
+"información y los servicios geoespaciales (ubicación) sean JUSTOS(FAIR): "
+"encontrables (Findable), accesibles (Accessible), interoperables "
+"(Interoperable) y reutilizables (Reusable)."
 
 #: ../../build/doc/overview/ogc_overview.rst:17
 msgid ""
@@ -42,6 +49,11 @@ msgid ""
 "practices; collaborating on problem solving in agile innovation initiatives;"
 " participating in member meetings, events, and workshops; and more."
 msgstr ""
+"La comunidad global de OGC participa en una combinación de actividades "
+"relacionadas con las tecnologías basadas en la ubicación: desarrollando "
+"estándares abiertos basados en el consenso y mejores prácticas; colaborando "
+"en la resolución de problemas en iniciativas de innovación ágil; "
+"participando en reuniones, eventos y talleres de miembros; y más."
 
 #: ../../build/doc/overview/ogc_overview.rst:21
 msgid ""
@@ -53,6 +65,13 @@ msgid ""
 "at all levels. OGC is committed to creating an inclusive and sustainable "
 "future."
 msgstr ""
+"El proceso de desarrollo de estándares único de OGC se mueve al ritmo de la "
+"innovación, con aportes constantes de pronósticos tecnológicos, prototipos "
+"prácticos, pruebas del mundo real y participación de la comunidad. OGC une "
+"sectores dispares, dominios y tendencias tecnológicas, y fomenta la "
+"polinización cruzada de ideas entre diferentes comunidades de práctica para "
+"mejorar la toma de decisiones en todos los niveles. OGC se compromete a "
+"crear un futuro inclusivo y sostenible."
 
 #: ../../build/doc/overview/ogc_overview.rst:24
 msgid ""
@@ -60,6 +79,9 @@ msgid ""
 "<https://www.ogc.org/projects/groups/wg>`_ shows the wide scope of current "
 "activity in the OGC."
 msgstr ""
+"Una mirada a los  `Grupos de Trabajo de Dominio OGC "
+"<https://www.ogc.org/projects/groups/wg>`_ muestra el amplio alcance de la "
+"actividad actual en el OGC."
 
 #: ../../build/doc/overview/ogc_overview.rst:26
 msgid ""
@@ -70,6 +92,12 @@ msgid ""
 "overview of OGC standards and serves as a useful resource for defining "
 "architectures for specific applications."
 msgstr ""
+"La línea de base de los estándares OGC consiste en el Consorcio Geoespacial "
+"Abierto |OGC| estándares para interfaces, codificaciones, perfiles, esquemas"
+" de aplicación y documentos de mejores prácticas. El |ORM| describe estas "
+"normas y las relaciones entre ellas y las normas ISO relacionadas. El ORM "
+"proporciona una visión general de los estándares OGC y sirve como un recurso"
+" útil para definir arquitecturas para aplicaciones específicas."
 
 #: ../../build/doc/overview/ogc_overview.rst:33
 msgid ""

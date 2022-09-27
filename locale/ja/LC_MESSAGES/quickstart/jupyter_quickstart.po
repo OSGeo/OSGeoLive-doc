@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:20
 msgid "Jupyter Notebook Quickstart"
-msgstr "Jupyterノートブック・クイックスタート"
+msgstr "Jupyter Notebook クイックスタート"
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:22
 msgid ""
@@ -33,7 +33,8 @@ msgid ""
 "explanatory text. Uses include: data cleaning and transformation, numerical "
 "simulation, statistical modeling, machine learning and much more."
 msgstr ""
-"Jupyterノートブックは、ライブコード、数式、視覚化、および説明テキストを含むドキュメントを作成および共有できるWebアプリケーションです。データの消去と変換、数値シミュレーション、統計モデリング、機械学習などの用途があります。"
+"Jupyter "
+"Notebookは、ライブコード、数式、視覚化、および説明テキストを含むドキュメントを作成および共有できるWebアプリケーションです。データの消去と変換、数値シミュレーション、統計モデリング、機械学習などの用途があります。"
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:28
 msgid "This Quick Start describes how to:"
@@ -41,11 +42,11 @@ msgstr "このクイックスタートでは、次の方法について説明し
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:30
 msgid "Start a Jupyter Notebook server"
-msgstr "Jupyterノートブックサーバーを起動する"
+msgstr "Jupyter Notebookサーバーを起動する"
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:31
 msgid "Load a jupyter notebook"
-msgstr "Jupyterノートブックをロードする"
+msgstr "Jupyter Notebookをロードする"
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:32
 msgid "Interact with python code"
@@ -75,10 +76,9 @@ msgid ""
 "start new notebooks, create files and directories, as well as rename, delete"
 " and upload files."
 msgstr ""
-"ターミナルウィンドウが開き、起動ログがスクロールし始めます。Webブラウザが起動し、Jupyterノートブックのダッシュボードが表示されます。From "
-"the Jupyter Notebook dashboard you can navigate the directory tree, start "
-"new notebooks, create files and directories, as well as rename, delete and "
-"upload files."
+"ターミナルウィンドウが開き、起動ログがスクロールし始めます。Webブラウザが起動し、Jupyter "
+"Notebookのダッシュボードが表示されます。Jupyter "
+"Notebookのダッシュボードから、ディレクトリツリーの移動、新しいノートブックの開始、ファイルやディレクトリの作成、ファイルの名前変更、削除、アップロードが可能です。"
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:57
 msgid "Open and execute an existing notebook"
@@ -183,6 +183,8 @@ msgid ""
 "For more information about the jupyter notebook, please refer to the "
 "`Jupyter Notebooks official documentation <https://docs.jupyter.org>`__."
 msgstr ""
+"Jypyter Notebookについての詳細は、 `Jupyter Notebookオフィシャルドキュメント "
+"<https://docs.jupyter.org>`__ を参照してください。"
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:137
 msgid "More notebook examples are available from the notebook root directory."
@@ -194,6 +196,8 @@ msgid ""
 "started with Jupyter Notebook <https://docs.jupyter.org/en/latest/content-"
 "quickstart.html>`__."
 msgstr ""
+"Jupyter Notebookのインターフェイスの使い方を簡単に紹介: `Get started with Jupyter Notebook "
+"<https://docs.jupyter.org/en/latest/content-quickstart.html>`__."
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"

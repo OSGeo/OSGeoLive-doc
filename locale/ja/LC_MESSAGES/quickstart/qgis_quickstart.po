@@ -58,7 +58,7 @@ msgstr "QGISが空プロジェクトで起動します。QGISインタフェー�
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "Open a QGIS project"
-msgstr ""
+msgstr "QGISプロジェクトを開く"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:57
 msgid ""
@@ -98,13 +98,13 @@ msgstr "新しいプロジェクトを作成するには、 :menuselection:`Proj
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS new project"
-msgstr ""
+msgstr "QGISの新しいプロジェクト"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:72
 msgid ""
 "Let's start by adding a vector layer to the map. Layers can be added to QGIS"
 " using the browser panel, located on the left of the screen."
-msgstr "まず、ベクトルレイヤをマップに追加します。レイヤは、画面の左側にあるブラウザパネルを使用してQGISに追加できます。"
+msgstr "まず、ベクタレイヤをマップに追加します。レイヤは、画面の左側にあるブラウザパネルを使用してQGISに追加できます。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:74
 #: ../../build/doc/quickstart/qgis_quickstart.rst:92
@@ -127,7 +127,7 @@ msgstr "ブラウザパネルから画層をドラッグし、マップフレー
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS browser add vector layer"
-msgstr ""
+msgstr "QGISブラウザからベクタレイヤを追加"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:83
 msgid ""
@@ -137,7 +137,7 @@ msgstr "レイヤをマップフレームにドラッグすると、レイヤに
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS vector layer"
-msgstr ""
+msgstr "QGISベクタレイヤ"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:90
 msgid "Now let's try adding a raster layer to the project."
@@ -149,7 +149,7 @@ msgstr "[HYP_50M_SR_W.tif] を選択します。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS browser add raster layer"
-msgstr ""
+msgstr "QGISブラウザからラスタレイヤを追加"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:101
 msgid ""
@@ -159,7 +159,7 @@ msgstr "レイヤをマップフレームにドラッグすると、土地被覆
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS raster layer"
-msgstr ""
+msgstr "QGISラスタレイヤ"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:108
 msgid ""
@@ -173,7 +173,7 @@ msgstr ":menuselection:`Project-->Save` を選択します。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS save"
-msgstr ""
+msgstr "QGISの保存"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:117
 msgid "Make the location to save the project '/home/user/desktop'."
@@ -185,7 +185,7 @@ msgstr "このプロジェクトを 'My QGIS project' と呼びます。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS project location"
-msgstr ""
+msgstr "QGISプロジェクトの場所"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:124
 msgid "Click 'Save'."
@@ -204,7 +204,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS saved project"
-msgstr ""
+msgstr "QGISプロジェクトの保存"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:134
 msgid "Open an existing project"
@@ -249,7 +249,7 @@ msgstr "[開く]をクリックします。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS Open project"
-msgstr ""
+msgstr "QGISプロジェクトを開く"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:152
 msgid ""
@@ -262,7 +262,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS Open project result"
-msgstr ""
+msgstr "QGISプロジェクトを開いた結果"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:160
 msgid ""
@@ -275,7 +275,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS layer panel"
-msgstr ""
+msgstr "QGISレイヤパネル"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:168
 msgid ""
@@ -305,7 +305,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS result of layer visibility changes"
-msgstr ""
+msgstr "QGISレイヤの表示/非表示変更結果"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:181
 msgid ""
@@ -336,7 +336,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS modified the order of layers"
-msgstr ""
+msgstr "QGISレイヤの順序変更"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:196
 msgid ""
@@ -356,7 +356,7 @@ msgstr "ナビゲーションツールバーを使用すると、マップを移
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS navigation toolbar"
-msgstr ""
+msgstr "QGISナビゲーションツールバー"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:208
 msgid "[1] Pan: Allows the map to be dragged ('panned') to a new location."
@@ -454,7 +454,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS style dock"
-msgstr ""
+msgstr "QGISスタイルドック"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:245
 msgid ""
@@ -473,7 +473,7 @@ msgstr "スタイル枠を開くと、スタイル枠の最上部に表示され
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS style dock layer"
-msgstr ""
+msgstr "QGISスタイルドックレイヤ"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:255
 msgid ""
@@ -492,7 +492,7 @@ msgstr "下に表示されている[カラー]をクリックします。これ�
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS style dock color"
-msgstr ""
+msgstr "QGISスタイルドックカラー"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:264
 msgid ""
@@ -501,7 +501,7 @@ msgstr "[色選択]パレットで、十字を希望の色に移動します。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS color palette"
-msgstr ""
+msgstr "QGISカラーパレット"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:270
 msgid "Then click the back arrow to return to the symbol render preview."
@@ -509,7 +509,7 @@ msgstr "次に、戻る矢印をクリックしてシンボルレンダリング
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS style return"
-msgstr ""
+msgstr "QGISスタイルに戻る"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:276
 msgid ""
@@ -519,7 +519,7 @@ msgstr "シンボルプレビューが新しい色で更新され、レイヤフ
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS style result"
-msgstr ""
+msgstr "QGISスタイルの結果"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:282
 msgid ""
@@ -539,7 +539,7 @@ msgstr "スタイルパネルで、入力値 'width' に値 '0.5' を入力し�
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS style width"
-msgstr ""
+msgstr "QGISスタイル幅"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:292
 msgid ""
@@ -584,9 +584,9 @@ msgid ""
 "<../overview/qgis_mapserver_overview>`. in the :menuselection:`Geospatial "
 "--> Web Services` menu."
 msgstr ""
-"Try publishing your QGIS map to the web using :doc:`QGIS Map Server "
-"<../overview/qgis_mapserver_overview>`. :menuselection:`Geospatial --> Web "
-"Services` メニューにあります。"
+":doc:`QGIS マップサーバ <../overview/qgis_mapserver_overview>` "
+"を使用して、QGISマップをWebに公開してみてください。:menuselection:`Geospatial --> Web Services` "
+"メニューにあります。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:309
 msgid "What next?"

@@ -5,7 +5,6 @@
 # 
 # Translators:
 # Toshikazu SETO <tosseto@gmail.com>, 2022
-# Hiroshi Miura <miurahr@northside.tokyo>, 2022
 # Takayuki Nuimura <nuimura@nagoya-u.jp>, 2022
 # MarPetra <mvergaratrejo@gmail.com>, 2022
 # Ko Nagase <nagase@georepublic.co.jp>, 2022
@@ -31,22 +30,22 @@ msgstr "OSGeoLive"
 
 #: ../../build/presentation/revealjs/presentation.rst:12
 msgid "Version: 15"
-msgstr ""
+msgstr "バージョン: 15"
 
 #: ../../build/presentation/revealjs/presentation.rst:14
 msgid "Released: August 2022"
-msgstr ""
+msgstr "リリース: 2022年8月"
 
 #: ../../build/presentation/revealjs/presentation.rst:18
 msgid ""
 "Press “s” for slide notes, ESC to zoom out, SPACE / arrow keys to navigate."
-msgstr ""
+msgstr "sキーでスライドノート表示、ESCキーで縮小、スペース/矢印キーで移動します。"
 
 #: ../../build/presentation/revealjs/presentation.rst:19
 msgid ""
 "Pop-ups are blocked in some browsers due to security settings. Try Firefox "
 "or Safari."
-msgstr ""
+msgstr "セキュリティの設定により、一部のブラウザでポップアップがブロックされることがあります。FirefoxやSafariで試してみてください。"
 
 #: ../../build/presentation/revealjs/presentation.rst:22
 #: ../../build/presentation/revealjs/presentation.rst:220
@@ -59,11 +58,11 @@ msgstr "このプレゼンテーションを見つける"
 
 #: ../../build/presentation/revealjs/presentation.rst:41
 msgid "`Presentation <https://live.osgeo.org/en/presentation.html>`__"
-msgstr ""
+msgstr "`プレゼンテーション <https://live.osgeo.org/en/presentation.html>`__"
 
 #: ../../build/presentation/revealjs/presentation.rst:43
 msgid "https://live.osgeo.org/en/presentation.html"
-msgstr ""
+msgstr "https://live.osgeo.org/en/presentation.html"
 
 #: ../../build/presentation/revealjs/presentation.rst:45
 msgid ""
@@ -75,16 +74,16 @@ msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:47
 msgid "https://osgeo.github.io/OSGeoLive-doc/en/presentation.html"
-msgstr ""
+msgstr "https://osgeo.github.io/OSGeoLive-doc/en/presentation.html"
 
 #: ../../build/presentation/revealjs/presentation.rst:51
 #: ../../build/presentation/revealjs/presentation.rst:62
 msgid "What is new in 15.0"
-msgstr ""
+msgstr "15.0での新機能"
 
 #: ../../build/presentation/revealjs/presentation.rst:64
 msgid "Updated to Lubuntu 22.04 LTS"
-msgstr ""
+msgstr "Lubuntu 22.04 LTSへのアップデート"
 
 #: ../../build/presentation/revealjs/presentation.rst:68
 msgid ""
@@ -95,39 +94,39 @@ msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:72
 msgid "QGIS 3.22.7,"
-msgstr ""
+msgstr "QGIS 3.22.7、"
 
 #: ../../build/presentation/revealjs/presentation.rst:73
 msgid "GDAL 3.4.3,"
-msgstr ""
+msgstr "GDAL 3.4.3、"
 
 #: ../../build/presentation/revealjs/presentation.rst:74
 msgid "PROJ 8.2.1,"
-msgstr ""
+msgstr "PROJ 8.2.1、"
 
 #: ../../build/presentation/revealjs/presentation.rst:75
 msgid "PostGIS 3.2.0,"
-msgstr ""
+msgstr "PostGIS 3.2.0、"
 
 #: ../../build/presentation/revealjs/presentation.rst:76
 msgid "GRASS  8.2.0,"
-msgstr ""
+msgstr "GRASS  8.2.0、"
 
 #: ../../build/presentation/revealjs/presentation.rst:77
 msgid "GeoServer 2.21.0,"
-msgstr ""
+msgstr "GeoServer 2.21.0、"
 
 #: ../../build/presentation/revealjs/presentation.rst:78
 msgid "MapServer 7.6.4,"
-msgstr ""
+msgstr "MapServer 7.6.4、"
 
 #: ../../build/presentation/revealjs/presentation.rst:80
 msgid "and many more..."
-msgstr ""
+msgstr "などなど..."
 
 #: ../../build/presentation/revealjs/presentation.rst:84
 msgid "New project added: ETF testing framework software"
-msgstr ""
+msgstr "新しいプロジェクトの追加: ETFテストフレームワークソフトウェア"
 
 #: ../../build/presentation/revealjs/presentation.rst:88
 msgid "Download OSGeoLive ISO or VMDK (with even more software)"
@@ -139,7 +138,7 @@ msgstr "ドキュメントの更新"
 
 #: ../../build/presentation/revealjs/presentation.rst:96
 msgid "OSM data for Firenze"
-msgstr ""
+msgstr "フィレンツェのOSMデータ"
 
 #: ../../build/presentation/revealjs/presentation.rst:100
 msgid ""
@@ -195,7 +194,7 @@ msgstr "確立され、安定し、動作するソフトウェア"
 
 #: ../../build/presentation/revealjs/presentation.rst:156
 msgid "Active community `Metrics <https://live.osgeo.org/en/metrics.html>`__"
-msgstr ""
+msgstr "活発なコミュニティの `メトリクス <https://live.osgeo.org/en/metrics.html>`__"
 
 #: ../../build/presentation/revealjs/presentation.rst:169
 msgid "Production & Marketing Pipeline"
@@ -213,7 +212,7 @@ msgstr "OSGeo"
 
 #: ../../build/presentation/revealjs/presentation.rst:211
 msgid "Non Profit for geospatial community, fostering"
-msgstr ""
+msgstr "地理空間コミュニティのための非営利団体で、以下を育成"
 
 #: ../../build/presentation/revealjs/presentation.rst:213
 msgid "Free and Open Source Software"
@@ -642,12 +641,12 @@ msgstr "eoxserver_logo"
 
 #: ../../build/presentation/revealjs/presentation.rst:485
 msgid "|ETF_logo|"
-msgstr ""
+msgstr "|ETF_logo|"
 
 #: ../../build/presentation/revealjs/presentation.rst:1325
 #: ../../build/presentation/revealjs/presentation.rst:1325
 msgid "ETF_logo"
-msgstr ""
+msgstr "ETF_logo"
 
 #: ../../build/presentation/revealjs/presentation.rst:485
 msgid "|ncWMS_logo|"
@@ -946,7 +945,7 @@ msgstr "GMT"
 #: ../../build/presentation/revealjs/presentation.rst:921
 #: ../../build/presentation/revealjs/presentation.rst:956
 msgid "Jupyter Notebook"
-msgstr "Jupyterノートブック"
+msgstr "Jupyter Notebook"
 
 #: ../../build/presentation/revealjs/presentation.rst:921
 #: ../../build/presentation/revealjs/presentation.rst:968
@@ -973,7 +972,7 @@ msgstr "特定用途向け GIS"
 
 #: ../../build/presentation/revealjs/presentation.rst:997
 msgid "|xygrib_logo| XyGrib"
-msgstr ""
+msgstr "|xygrib_logo| XyGrib"
 
 #: ../../build/presentation/revealjs/presentation.rst:1369
 #: ../../build/presentation/revealjs/presentation.rst:1369
@@ -1199,6 +1198,8 @@ msgid ""
 "Take part in our weekly `IRC <https://wiki.osgeo.org/wiki/IRC>`__ meetings "
 "(channel #osgeolive on Libera.Chat"
 msgstr ""
+"毎週開催される `IRC <https://wiki.osgeo.org/wiki/IRC>`__ ミーティング (Lebera.Chatの "
+"#osgeolive チャンネル)に参加する"
 
 #: ../../build/presentation/revealjs/presentation.rst:1205
 msgid "There are two ways you can help"
@@ -1322,4 +1323,4 @@ msgstr "georepublic_logo"
 
 #: ../../build/presentation/revealjs/presentation.rst:1243
 msgid "Try out OSGeoLive"
-msgstr ""
+msgstr "OSGeoLiveを試してみましょう"

@@ -38,7 +38,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rstNone
 msgid "MapProxy diagram"
-msgstr ""
+msgstr "MapProxy ダイアグラム"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:31
 msgid ""
@@ -105,7 +105,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:60
 msgid "MapProxy example in uDig"
-msgstr ""
+msgstr "uDigでのMapProxyサンプル"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:60
 msgid ""
@@ -127,15 +127,15 @@ msgid ""
 "service, because this layer makes use of the integrated Mapnik support in "
 "MapProxy."
 msgstr ""
-"Mapnikが描いた世界人口。Mapnikサービスを開始する必要はありません。なぜなら、このレイヤはMapProxyで統合されたMapnikサポートを利用しているからです。"
+"Mapnikによりレンダリングされた世界人口。Mapnikサービスを開始する必要はありません。なぜなら、このレイヤはMapProxyで統合されたMapnikサポートを利用しているからです。"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:69
 msgid "**mapnik_tile**:"
-msgstr ""
+msgstr "**mapnik_tile**:"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:69
 msgid "The world population rendered by Mapnik as tile layer."
-msgstr ""
+msgstr "Mapnikによりタイルレイヤ形式でレンダリングされた世界人口。"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:73
 msgid "**geoserver**:"
@@ -216,7 +216,7 @@ msgstr "次のステップ"
 msgid ""
 "Read the `documentation of MapProxy "
 "<https://localhost/mapproxy/index.html>`__"
-msgstr ""
+msgstr "`MapProxyのドキュメント <https://localhost/mapproxy/index.html>`__ を読む。"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:105
 msgid ""
