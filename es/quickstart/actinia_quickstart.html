@@ -91,7 +91,7 @@
 </li>
 <li><p><a class="reference internal" href="#things-to-try" id="id12">Cosas para probar</a></p>
 <ul>
-<li><p><a class="reference internal" href="#install-on-osgeolive-vm-with-docker-compose" id="id13">Install on OSGeoLive VM with Docker Compose</a></p></li>
+<li><p><a class="reference internal" href="#install-on-osgeolive-vm-with-docker-compose" id="id13">Instalar en OSGeoLive VM con Docker Compose</a></p></li>
 <li><p><a class="reference internal" href="#create-new-locations" id="id14">Crear nuevas ubicaciones</a></p></li>
 <li><p><a class="reference internal" href="#install-grass-gis-addons-extensions" id="id15">Instalar complementos GRASS GIS (extensiones)</a></p></li>
 </ul>
@@ -396,15 +396,15 @@ acp <span class="nv">location</span><span class="o">=</span><span class="s2">&qu
 <section id="things-to-try">
 <h2><a class="toc-backref" href="#id12">Cosas para probar</a><a class="headerlink" href="#things-to-try" title="Enlazar permanentemente con este título">¶</a></h2>
 <section id="install-on-osgeolive-vm-with-docker-compose">
-<h3><a class="toc-backref" href="#id13">Install on OSGeoLive VM with Docker Compose</a><a class="headerlink" href="#install-on-osgeolive-vm-with-docker-compose" title="Enlazar permanentemente con este título">¶</a></h3>
-<p>Requirements: docker and docker-compose (already available in OSGeoLive VM version)</p>
-<p>To build and deploy actinia, run</p>
+<h3><a class="toc-backref" href="#id13">Instalar en OSGeoLive VM con Docker Compose</a><a class="headerlink" href="#install-on-osgeolive-vm-with-docker-compose" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Requisitos: docker y docker-compose (ya disponible en la versión OSGeoLive VM)</p>
+<p>Para crear e implementar actinia, ejecute</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git clone https://github.com/mundialis/actinia_core.git
 <span class="nb">cd</span> actinia_core
 docker-compose -f docker/docker-compose.yml up
 </pre></div>
 </div>
-<p>Now you have a running actinia instance locally! Check with</p>
+<p>¡Ahora tiene una instancia de actinia en ejecución localmente! Consulte con</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>curl http://127.0.0.1:8088/api/v3/version
 </pre></div>
 </div>

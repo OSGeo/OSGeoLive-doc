@@ -67,12 +67,7 @@
 <h1>GeoStyler<a class="headerlink" href="#geostyler" title="このヘッドラインへのパーマリンク">¶</a></h1>
 <p>GeoStylerはオープンソースのJavaScriptライブラリで、グラフィカルユーザインタフェースを使用してマップのスタイルを設定できます。GeoStylerの目的は、SLD、QML、OpenLayersなど、任意のスタイルフォーマットで動作する、普遍的に適用可能なGUIです。</p>
 <p>GeoStylerは、マップスタイル用のUIコンポーネントのセットを提供します。モジュラー・ビルディング・ブロック・システムと同様に、すべてのコンポーネントをスタックして、Webアプリケーション用の優れたUIを作成することができます。セットアップを単純化するために、我々は、我々のビルディングブロックに基づいて、既にあなたのために作業をしているいくつかの高レベルのコンポーネントも提供しています。これらには、Symbolizer編集者、RuleTables、そしてフィルタとスケール分母を含む完全なStyleEditorが含まれます。</p>
-<p>Furthermore, GeoStyler allows for the translation between multiple styling formats, i.e. SLD, OpenLayers, QGIS, Mapbox. Since we are
-following the concept of micro packages, these translators (we call them parsers) can be used as standalone libraries, without the need to
-include the UI components as a dependency. Currently we have parsers for SLD, QGIS-styles, Mapbox styles, OpenLayers styles and Mapfiles.
-Please take a look at StyleParser Implementations. Since attributively styling geodata is easier when you can look
-at the data to be styled, we can connect to several datasources like WFS, Shapefiles and GeoJSON files. We plan on developing a data reader for
-the Geopackage format.</p>
+<p>さらに、GeoStylerでは、SLD、OpenLayers、QGIS、Mapboxなど、複数のスタイルフォーマット間の変換が可能です。私たちはマイクロパッケージの概念に従っているので、これらの変換器(私たちはパーサーと呼んでいます)は、依存関係としてUIコンポーネントを含める必要なく、スタンドアロンのライブラリとして使用することができます。現在、SLD、QGISスタイル、Mapboxスタイル、OpenLayersスタイル、Mapfileのパーサーがあります。StyleParserの実装を見てみてください。スタイル設定するデータを見られれば、地理データの属性スタイル設定が簡単になるため、WFS、Shapefiles、GeoJSONファイルなどの複数のデータソースに接続できるようになっています。Geopackageフォーマットのデータよみこみの開発を計画しています。</p>
 <a class="reference internal image-reference" href="../../_images/geostyler_screenshot.png"><img alt="GeoStyler スクリーンショット" class="align-right" src="../../_images/geostyler_screenshot.png" style="width: 500px;" /></a>
 <section id="core-features">
 <h2>主な機能<a class="headerlink" href="#core-features" title="このヘッドラインへのパーマリンク">¶</a></h2>

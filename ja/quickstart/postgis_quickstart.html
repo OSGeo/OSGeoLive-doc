@@ -83,10 +83,10 @@
 <li><p><a class="reference internal" href="#spatial-queries" id="id5">空間クエリー</a></p></li>
 <li><p><a class="reference internal" href="#mapping" id="id6">マッピング</a></p></li>
 <li><p><a class="reference internal" href="#importing-spatial-data-into-the-database" id="id7">空間データをデータベースに読み込む</a></p></li>
-<li><p><a class="reference internal" href="#get-to-know-phppgadmin-iso-vmdk" id="id8">Get to know phpPgAdmin (ISO &amp; VMDK)</a></p></li>
-<li><p><a class="reference internal" href="#executing-a-sql-query-from-phppgadmin-iso-vmdk" id="id9">Executing a SQL query from phpPgAdmin (ISO &amp; VMDK)</a></p></li>
-<li><p><a class="reference internal" href="#get-to-know-pgadmin-vmdk-only" id="id10">Get to know pgAdmin (VMDK only)</a></p></li>
-<li><p><a class="reference internal" href="#executing-a-sql-query-from-pgadmin-vmdk-only" id="id11">Executing a SQL query from pgAdmin (VMDK only)</a></p></li>
+<li><p><a class="reference internal" href="#get-to-know-phppgadmin-iso-vmdk" id="id8">phpPgAdminを知る (ISO &amp; VMDK)</a></p></li>
+<li><p><a class="reference internal" href="#executing-a-sql-query-from-phppgadmin-iso-vmdk" id="id9">phpPgAdminからのSQLクエリの実行 (ISO &amp; VMDK)</a></p></li>
+<li><p><a class="reference internal" href="#get-to-know-pgadmin-vmdk-only" id="id10">pgAdminを知る (VMDKのみ)</a></p></li>
+<li><p><a class="reference internal" href="#executing-a-sql-query-from-pgadmin-vmdk-only" id="id11">pgAdminからのSQLクエリの実行 (VMDKのみ)</a></p></li>
 <li><p><a class="reference internal" href="#get-to-know-foreign-data-wrappers-fdw" id="id12">外部データラッパー(FDW)について知る</a></p></li>
 <li><p><a class="reference internal" href="#connect-to-a-remote-ogr-data-source-via-ogr-fdw" id="id13">ogr_fdw経由でリモートOGRデータソースに接続</a></p></li>
 <li><p><a class="reference internal" href="#things-to-try" id="id14">試してみること</a></p></li>
@@ -301,11 +301,11 @@
 <h2><a class="toc-backref" href="#id6">マッピング</a><a class="headerlink" href="#mapping" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>PostGISデータからマップを作成するには、データを取得できるクライアントが必要です。QGIS、gvSIG、uDigなど、オープンソースのデスクトップGISプログラムのほとんどがこれを実行できます。では、QGISから地図を作る方法を説明しましょう。</p>
 <p>デスクトップGISメニューからQGISを起動し、レイヤメニューから <code class="docutils literal notranslate"><span class="pre">PostGISレイヤを追加</span></code> を選択します。PostGISでNatural Earthデータに接続するためのパラメータは、[接続]ドロップダウンメニューで既に定義されています。ここで新しいサーバ接続を定義し、簡単に呼び出せるように設定を保存できます。[接続]ドロップダウンメニューをクリックし、[Natural Earth]を選択します。これらのパラメータがNatural Earthのパラメータであることを確認するには、 <code class="docutils literal notranslate"><span class="pre">[編集]</span></code> をクリックします。続行するには、 <code class="docutils literal notranslate"><span class="pre">[接続]</span></code> をクリックします。</p>
-<a class="reference internal image-reference" href="../../_images/postgis_addlayers.png"><img alt="Connect to Natural Earth" class="align-center" src="../../_images/postgis_addlayers.png" style="width: 705.75px; height: 254.25px;" /></a>
+<a class="reference internal image-reference" href="../../_images/postgis_addlayers.png"><img alt="Natural Earthへの接続" class="align-center" src="../../_images/postgis_addlayers.png" style="width: 705.75px; height: 254.25px;" /></a>
 <p>データベース内の空間テーブルのリストが表示されます:</p>
-<a class="reference internal image-reference" href="../../_images/postgis_listtables.png"><img alt="Natural Earth Layers" class="align-center" src="../../_images/postgis_listtables.png" style="width: 709.5px; height: 394.5px;" /></a>
+<a class="reference internal image-reference" href="../../_images/postgis_listtables.png"><img alt="Natural Earthレイヤ" class="align-center" src="../../_images/postgis_listtables.png" style="width: 709.5px; height: 394.5px;" /></a>
 <p>ne_10m_lakesテーブルを選択し、一番下にある <code class="docutils literal notranslate"><span class="pre">[追加]</span></code> をクリックします(データベース接続パラメータをロードする <code class="docutils literal notranslate"><span class="pre">[読み込み]</span></code> をクリックするのではなく)。QGISにロードする必要があります。</p>
-<a class="reference internal image-reference" href="../../_images/postgis_lakesmap.png"><img alt="My First PostGIS layer" class="align-center" src="../../_images/postgis_lakesmap.png" style="width: 1029.0px; height: 605.25px;" /></a>
+<a class="reference internal image-reference" href="../../_images/postgis_lakesmap.png"><img alt="最初のPostGISレイヤ" class="align-center" src="../../_images/postgis_lakesmap.png" style="width: 1029.0px; height: 605.25px;" /></a>
 <p>これで湖の地図が表示されます。QGISはそれらが湖であることを知らないので、あなたのためにそれらを青にしないかもしれません - QGISドキュメントを参照して、これを変更する方法を調べてください。カナダの有名な湖のグループを拡大表示します。</p>
 </section>
 <section id="importing-spatial-data-into-the-database">
@@ -313,52 +313,45 @@
 <p>ほとんどのOSGeoデスクトップツールには、他の形式(例 ESRI Shape)から空間データをデータベースに読み込むための機能があります。ここでもQGISを使って説明します</p>
 <p>シェープファイルをQGISに読み込むには、QGISデータベースマネージャを使用します。マネージャーはメニューにあります。<code class="docutils literal notranslate"><span class="pre">Database</span> <span class="pre">-&gt;</span> <span class="pre">DB</span> <span class="pre">Manager</span></code> に移動します。</p>
 <p>Postgisアイテムを展開し、次にNaturalEarthアイテムを展開します。その後、Natural Earthデータベースに接続します。パスワードを確認するメッセージが表示されたら、空白のままにします。パブリックアイテムには、データベースによって提供されるレイヤのリストがあります。メインマネージャウィンドウが表示されます。左側では、データベースからテーブルを選択し、右側のタブを使用してテーブルについて調べることができます。[プレビュー]タブに小さなマップが表示されます。</p>
-<a class="reference internal image-reference" href="../../_images/postgis_managerpreview.png"><img alt="QGIS Manager Preview" class="align-center" src="../../_images/postgis_managerpreview.png" style="width: 929.25px; height: 599.25px;" /></a>
+<a class="reference internal image-reference" href="../../_images/postgis_managerpreview.png"><img alt="QGISマネージャプレビュー" class="align-center" src="../../_images/postgis_managerpreview.png" style="width: 929.25px; height: 599.25px;" /></a>
 <p>次に、DBマネージャを使用して、シェープファイルをデータベースにインポートします。ここでは、R Statistics Packageアドオンの1つに含まれているNorth Carolina Sudden Infant Death Syndrome(SIDS)データを使用します。</p>
 <p><code class="docutils literal notranslate"><span class="pre">Table</span></code> メニューから <code class="docutils literal notranslate"><span class="pre">Import</span> <span class="pre">layer/file</span></code> オプションを選択します。<code class="docutils literal notranslate"><span class="pre">...</span></code> ボタンを押して、R ディレクトリにある <code class="docutils literal notranslate"><span class="pre">sids.shp</span></code> シェープファイルを参照します。(/home/user/data/vector/R/shapes にあります):</p>
-<a class="reference internal image-reference" href="../../_images/postgis_browsedata.png"><img alt="Find the shapefile" class="align-center" src="../../_images/postgis_browsedata.png" style="width: 631.5px; height: 312.0px;" /></a>
+<a class="reference internal image-reference" href="../../_images/postgis_browsedata.png"><img alt="シェープファイルを見つける" class="align-center" src="../../_images/postgis_browsedata.png" style="width: 631.5px; height: 312.0px;" /></a>
 <p>他のものはすべてそのままにして、 <code class="docutils literal notranslate"><span class="pre">Load</span></code> を押します。</p>
-<a class="reference internal image-reference" href="../../_images/postgis_importsids.png"><img alt="Import a shapefile" class="align-center" src="../../_images/postgis_importsids.png" style="width: 346.5px; height: 400.5px;" /></a>
+<a class="reference internal image-reference" href="../../_images/postgis_importsids.png"><img alt="シェープファイルのインポート" class="align-center" src="../../_images/postgis_importsids.png" style="width: 346.5px; height: 400.5px;" /></a>
 <p>座標参照系セレクタのデフォルト値を(WGS 84 EPSG:4326)にして、 <code class="docutils literal notranslate"><span class="pre">OK</span></code> を押します。シェープファイルは、エラーなしでPostGISにインポートする必要があります。DB Manager を閉じて、メインの QGIS ウィンドウに戻ります。</p>
 <p>次に、 'PostGISマップを追加' オプションを使用して、SIDSデータをレイヤにロードします。レイヤの再配置と若干の色付けを行うことで、North Carolinaの乳幼児突然死症候群の発生数 (sid74またはsid79フィールド)の階級区分図を作成できるようになります。</p>
-<a class="reference internal image-reference" href="../../_images/postgis_sidsmap.png"><img alt="SIDS data mapped" class="align-center" src="../../_images/postgis_sidsmap.png" style="width: 1036.5px; height: 607.5px;" /></a>
+<a class="reference internal image-reference" href="../../_images/postgis_sidsmap.png"><img alt="SIDSデータのマッピング" class="align-center" src="../../_images/postgis_sidsmap.png" style="width: 1036.5px; height: 607.5px;" /></a>
 <div class="admonition warning">
 <p class="admonition-title">警告</p>
-<p>Depending on the version of OSGeoLive you are using (ISO or VMDK), you will not find the same clients available.
-<code class="docutils literal notranslate"><span class="pre">pgAdmin</span></code> is the official client for PostgreSQL, however, for technical reasons, it can't do in the ISO,
-so it is only available in the VMDK version.
-The ISO version has the <code class="docutils literal notranslate"><span class="pre">phpPgAdmin</span></code> client which offers the same core functionality.</p>
+<p>利用中のOSGeoLiveのバージョン(ISO または VMDK)によっては、同じクライアントが利用できない場合があります。<code class="docutils literal notranslate"><span class="pre">pgAdmin</span></code> はPostgreSQLの公式クライアントですが、技術的な理由でISOでは利用できないため、VMDK版でのみ利用可能です。ISO版には <code class="docutils literal notranslate"><span class="pre">phpPgAdmin</span></code> クライアントがあり、同じコア機能を提供します。</p>
 </div>
 </section>
 <section id="get-to-know-phppgadmin-iso-vmdk">
-<h2><a class="toc-backref" href="#id8">Get to know phpPgAdmin (ISO &amp; VMDK)</a><a class="headerlink" href="#get-to-know-phppgadmin-iso-vmdk" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p>In both versions, you can use the graphical database client phpPgAdmin.</p>
-<p>phpPgAdmin lets you use SQL to manipulate your data tables. You can find and launch phpPgAdmin
-from the Databases folder, existing on the OSGeoLive Desktop.</p>
-<a class="reference internal image-reference" href="../../_images/postgis_phppgadmin_main_window.png"><img alt="phpPgAdmin main" class="align-center" src="../../_images/postgis_phppgadmin_main_window.png" style="width: 396.0px; height: 227.0px;" /></a>
-<p>ここでは、PostgreSQLサーバへの新しい接続を作成するか、既存のサーバに接続するかを選択できます。The red &quot;X&quot; on the  <code class="docutils literal notranslate"><span class="pre">PostgreSQL</span></code> server denotes that you haven't been yet connected. Click on it  then enter the user name  <code class="docutils literal notranslate"><span class="pre">user</span></code> and the master password  <code class="docutils literal notranslate"><span class="pre">user</span></code>.</p>
+<h2><a class="toc-backref" href="#id8">phpPgAdminを知る (ISO &amp; VMDK)</a><a class="headerlink" href="#get-to-know-phppgadmin-iso-vmdk" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>どちらのバージョンでも、グラフィカルなデータベースクライアントphpPgAdminを使用することができます。</p>
+<p>phpPgAdminでは、SQLを使用してデータテーブルを操作することができます。OSGeoLiveのデスクトップにあるDatabasesフォルダからphpPgAdminを起動することができます。</p>
+<a class="reference internal image-reference" href="../../_images/postgis_phppgadmin_main_window.png"><img alt="phpPgAdminメイン" class="align-center" src="../../_images/postgis_phppgadmin_main_window.png" style="width: 396.0px; height: 227.0px;" /></a>
+<p>ここでは、PostgreSQLサーバへの新しい接続を作成するか、既存のサーバに接続するかを選択できます。<code class="docutils literal notranslate"><span class="pre">PostgreSQL</span></code> サーバーの赤い &quot;X&quot; は、まだ接続されていないことを意味します。クリックしてユーザ名 <code class="docutils literal notranslate"><span class="pre">user</span></code> とマスタパスワード <code class="docutils literal notranslate"><span class="pre">user</span></code> を入力します。</p>
 <p>接続が確立されると、システムにすでに存在するデータベースの一覧が表示されます。</p>
 <a class="reference internal image-reference" href="../../_images/postgis_phppgadminscreen0.png"><img alt="phpPgAdmin" class="align-center" src="../../_images/postgis_phppgadminscreen0.png" style="width: 666.75px; height: 353.25px;" /></a>
-<p>この時点では、システム上の既存のデータベースしか表示できません。You can connect, by clicking, on plus sign at the left of the name of a database. Do it for the <code class="docutils literal notranslate"><span class="pre">natural_earth2</span></code> database.</p>
-<p>You can see now that there is only one schema in this database called
-<code class="docutils literal notranslate"><span class="pre">public</span></code>.
-Click on the plus at left of <code class="docutils literal notranslate"><span class="pre">Tables</span></code> to expand it, you can see all the tables
-contained within this schema.</p>
+<p>この時点では、システム上の既存のデータベースしか表示できません。データベース名の左にあるプラス記号をクリックすると、接続することができます。データベース <code class="docutils literal notranslate"><span class="pre">natural_earth2</span></code> に対して実行してみましょう。</p>
+<p>このデータベースには <code class="docutils literal notranslate"><span class="pre">public</span></code> という名前のスキーマが一つだけ存在することが分かります。<code class="docutils literal notranslate"><span class="pre">Tables</span></code> の左側にあるプラスをクリックして展開すると、このスキーマに含まれるすべてのテーブルを見ることができます。</p>
 <a class="reference internal image-reference" href="../../_images/postgis_phppgadminscreen1.png"><img alt="phpPgAdmin" class="align-center" src="../../_images/postgis_phppgadminscreen1.png" style="width: 848.25px; height: 538.5px;" /></a>
 </section>
 <section id="executing-a-sql-query-from-phppgadmin-iso-vmdk">
-<h2><a class="toc-backref" href="#id9">Executing a SQL query from phpPgAdmin (ISO &amp; VMDK)</a><a class="headerlink" href="#executing-a-sql-query-from-phppgadmin-iso-vmdk" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p>phpPgAdmin offers the capability of executing queries to a relational database.</p>
-<p>To perform a query on the database, click back on the <code class="docutils literal notranslate"><span class="pre">natural_earth2</span></code> database then press the <code class="docutils literal notranslate"><span class="pre">SQL</span></code> button from the main toolbar (the one at the left with the database symbol).</p>
+<h2><a class="toc-backref" href="#id9">phpPgAdminからのSQLクエリの実行 (ISO &amp; VMDK)</a><a class="headerlink" href="#executing-a-sql-query-from-phppgadmin-iso-vmdk" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>phpPgAdminは、リレーショナルデータベースへのクエリを実行する機能を提供します。</p>
+<p>データベースにクエリを実行するには、 <code class="docutils literal notranslate"><span class="pre">natural_earth2</span></code> データベースをクリックして戻り、メインツールバーの <code class="docutils literal notranslate"><span class="pre">SQL</span></code> ボタン (左側のデータベースシンボルのあるボタン) を押します。</p>
 <p>各都市の1974年の乳幼児突然死症候群の発生率を求めます。さらに、計算されたレートに基づいて結果を並べ替えます。そのためには、次のクエリを実行する必要があります(SQLウィンドウのテキストエディタで送信)。</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">select</span> <span class="n">name</span><span class="p">,</span> <span class="mi">1000</span><span class="o">*</span><span class="n">sid74</span><span class="o">/</span><span class="n">bir74</span> <span class="k">as</span> <span class="n">rate</span> <span class="kn">from</span> <span class="nn">sids</span> <span class="n">order</span> <span class="n">by</span> <span class="n">rate</span><span class="p">;</span>
 </pre></div>
 </div>
-<p>Afterwards, you should press the Execute button.</p>
+<p>その後、実行ボタンを押します。</p>
 <a class="reference internal image-reference" href="../../_images/postgis_phppgadminscreen2.png"><img alt="phpPgAdmin" class="align-center" src="../../_images/postgis_phppgadminscreen2.png" style="width: 634.5px; height: 536.25px;" /></a>
 </section>
 <section id="get-to-know-pgadmin-vmdk-only">
-<h2><a class="toc-backref" href="#id10">Get to know pgAdmin (VMDK only)</a><a class="headerlink" href="#get-to-know-pgadmin-vmdk-only" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#id10">pgAdminを知る (VMDKのみ)</a><a class="headerlink" href="#get-to-know-pgadmin-vmdk-only" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>「データベース」メニューからグラフィカルデータベースクライアント <code class="docutils literal notranslate"><span class="pre">pgAdmin</span></code> を使って、非空間的にデータベースのクエリと変更を行うことができます。これはPostgreSQLの公式クライアントです。</p>
 <p>pgAdminでは、SQLを使用してデータテーブルを操作できます。pgAdminは、OSGeoLiveのデスクトップにあるDatabasesフォルダから検索して起動できます。</p>
 <a class="reference internal image-reference" href="../../_images/postgis_pgadmin_main_window.png"><img alt="pgAdmin" class="align-center" src="../../_images/postgis_pgadmin_main_window.png" style="width: 574.5px; height: 319.5px;" /></a>
@@ -366,13 +359,13 @@ contained within this schema.</p>
 <p>ここでは、PostgreSQLサーバへの新しい接続を作成するか、既存のサーバに接続するかを選択できます。この場合、あらかじめ定義された <code class="docutils literal notranslate"><span class="pre">localhost</span></code> サーバに接続します。</p>
 <p>接続が確立されると、システムにすでに存在するデータベースの一覧が表示されます。</p>
 <a class="reference internal image-reference" href="../../_images/postgis_adminscreen0.png"><img alt="pgAdmin" class="align-center" src="../../_images/postgis_adminscreen0.png" style="width: 871.5px; height: 639.0px;" /></a>
-<p>ほとんどのデータベースのイメージ上の赤い &quot;X&quot; は、まだどのデータベースにも接続していないことを示しています(あなたはデフォルトの <code class="docutils literal notranslate"><span class="pre">postgres</span></code> データベースにのみ接続しています)。この時点では、システム上の既存のデータベースしか表示できません。データベースの名前をダブルクリックすることで接続できます。Do it for the <code class="docutils literal notranslate"><span class="pre">natural_earth2</span></code> database.</p>
+<p>ほとんどのデータベースのイメージ上の赤い &quot;X&quot; は、まだどのデータベースにも接続していないことを示しています(あなたはデフォルトの <code class="docutils literal notranslate"><span class="pre">postgres</span></code> データベースにのみ接続しています)。この時点では、システム上の既存のデータベースしか表示できません。データベースの名前をダブルクリックすることで接続できます。データベース <code class="docutils literal notranslate"><span class="pre">natural_earth2</span></code> に対して実行してみましょう。</p>
 <p>赤いXが消え、左側に &quot;&gt;&quot; が表示されています。これを押すとツリーが表示され、データベースの内容が表示されます。</p>
 <p><code class="docutils literal notranslate"><span class="pre">schemas</span></code> サブツリーに移動して展開します。その後、<code class="docutils literal notranslate"><span class="pre">public</span></code> スキーマを展開します。 <code class="docutils literal notranslate"><span class="pre">Tables</span></code> を移動して展開すると、このスキーマに含まれるすべてのテーブルを表示できます。</p>
 <a class="reference internal image-reference" href="../../_images/postgis_adminscreen1.png"><img alt="pgAdmin" class="align-center" src="../../_images/postgis_adminscreen1.png" style="width: 711.0px; height: 629.25px;" /></a>
 </section>
 <section id="executing-a-sql-query-from-pgadmin-vmdk-only">
-<h2><a class="toc-backref" href="#id11">Executing a SQL query from pgAdmin (VMDK only)</a><a class="headerlink" href="#executing-a-sql-query-from-pgadmin-vmdk-only" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#id11">pgAdminからのSQLクエリの実行 (VMDKのみ)</a><a class="headerlink" href="#executing-a-sql-query-from-pgadmin-vmdk-only" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p>pgAdminは、リレーショナルデータベースに対してクエリを実行する機能を提供します。</p>
 <p>データベースに対してクエリを実行するには、メインツールバーの <code class="docutils literal notranslate"><span class="pre">Query</span> <span class="pre">Tool</span></code> ボタン(左側にデータベースシンボルがある)を押す必要があります。</p>
 <p>各都市の1974年の乳幼児突然死症候群の発生率を求めます。さらに、計算されたレートに基づいて結果を並べ替えます。そのためには、次のクエリを実行する必要があります(SQLウィンドウのテキストエディタで送信)。</p>

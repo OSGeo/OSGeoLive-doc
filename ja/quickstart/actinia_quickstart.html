@@ -91,7 +91,7 @@
 </li>
 <li><p><a class="reference internal" href="#things-to-try" id="id12">試してみること</a></p>
 <ul>
-<li><p><a class="reference internal" href="#install-on-osgeolive-vm-with-docker-compose" id="id13">Install on OSGeoLive VM with Docker Compose</a></p></li>
+<li><p><a class="reference internal" href="#install-on-osgeolive-vm-with-docker-compose" id="id13">Docker ComposeでOSGeoLive VMにインストール</a></p></li>
 <li><p><a class="reference internal" href="#create-new-locations" id="id14">新しい場所の作成</a></p></li>
 <li><p><a class="reference internal" href="#install-grass-gis-addons-extensions" id="id15">GRASS GISアドオン(拡張機能)のインストール</a></p></li>
 </ul>
@@ -396,15 +396,15 @@ acp <span class="nv">location</span><span class="o">=</span><span class="s2">&qu
 <section id="things-to-try">
 <h2><a class="toc-backref" href="#id12">試してみること</a><a class="headerlink" href="#things-to-try" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <section id="install-on-osgeolive-vm-with-docker-compose">
-<h3><a class="toc-backref" href="#id13">Install on OSGeoLive VM with Docker Compose</a><a class="headerlink" href="#install-on-osgeolive-vm-with-docker-compose" title="このヘッドラインへのパーマリンク">¶</a></h3>
-<p>Requirements: docker and docker-compose (already available in OSGeoLive VM version)</p>
-<p>To build and deploy actinia, run</p>
+<h3><a class="toc-backref" href="#id13">Docker ComposeでOSGeoLive VMにインストール</a><a class="headerlink" href="#install-on-osgeolive-vm-with-docker-compose" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>必要条件: docker と docker-compose (OSGeoLive VM版ではすでに利用可能)</p>
+<p>actiniaをビルド・デプロイするには、以下を実行します</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git clone https://github.com/mundialis/actinia_core.git
 <span class="nb">cd</span> actinia_core
 docker-compose -f docker/docker-compose.yml up
 </pre></div>
 </div>
-<p>Now you have a running actinia instance locally! Check with</p>
+<p>これでローカル環境でactiniaインスタンスが動作するようになりました！確認してみましょう</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>curl http://127.0.0.1:8088/api/v3/version
 </pre></div>
 </div>
