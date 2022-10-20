@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-03 09:57+0000\n"
+"POT-Creation-Date: 2022-10-20 11:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,6 +51,7 @@ msgstr ""
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
 msgstr ""
 
@@ -58,7 +59,6 @@ msgstr ""
 msgid "|osgeo_community| Is an OSGeo Community Project"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
@@ -243,7 +243,7 @@ msgid "|OSGeo_community| :doc:`mapproxy_overview` - [:doc:`Quickstart <../quicks
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:161
-msgid "|OSGeo_community| :doc:`pygeoapi_overview` - [:doc:`Quickstart <../quickstart/pygeoapi_quickstart>`] - OGC Web Services"
+msgid "|OSGeo_project| :doc:`pygeoapi_overview` - [:doc:`Quickstart <../quickstart/pygeoapi_quickstart>`] - OGC Web Services"
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:163
