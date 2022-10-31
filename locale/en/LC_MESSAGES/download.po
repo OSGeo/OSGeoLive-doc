@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2022-10-31 09:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: ../../build/doc/download.rst:7
 msgid "Download"
@@ -33,26 +33,32 @@ msgid ""
 "only|/"
 msgstr ""
 
-#: ../../build/doc/download.rst:14
-msgid "Picking the right image for you:"
+#: ../../build/doc/download.rst:13
+msgid ""
+"https://download.osgeo.org/livedvd/releases/|osgeolive-version-only|/ "
+"(.vmdk)"
 msgstr ""
 
 #: ../../build/doc/download.rst:16
-msgid "**osgeolive iso**: |osgeolive-iso-size|"
+msgid "Picking the right image for you:"
 msgstr ""
 
 #: ../../build/doc/download.rst:18
+msgid "**osgeolive iso**: |osgeolive-iso-size|"
+msgstr ""
+
+#: ../../build/doc/download.rst:20
 msgid ""
 "A Lubuntu based bootable image, which can be copied to an 8 Gig USB thumb"
 " drive (faster and recommended) or DVD (cheaper). It can also be used to "
 "build a virtual machine from scratch."
 msgstr ""
 
-#: ../../build/doc/download.rst:20
+#: ../../build/doc/download.rst:22
 msgid "**osgeolive-vm**: |osgeolive-vm-7z-size|"
 msgstr ""
 
-#: ../../build/doc/download.rst:22
+#: ../../build/doc/download.rst:24
 msgid ""
 "This is a pre-made virtual machine (.vmdk), based on osgeolive, suitable "
 "for use in VirtualBox, VMWare, KVM and other virtual machine "
@@ -60,40 +66,40 @@ msgid ""
 "<https://www.7-zip.org/>`_."
 msgstr ""
 
-#: ../../build/doc/download.rst:24
+#: ../../build/doc/download.rst:26
 msgid "**amd64 or i386 architecture**"
 msgstr ""
 
-#: ../../build/doc/download.rst:26
+#: ../../build/doc/download.rst:28
 msgid ""
 "ISO images are available for recent amd64 hardware (recommended) as well "
 "as older i386 hardware."
 msgstr ""
 
-#: ../../build/doc/download.rst:28
+#: ../../build/doc/download.rst:30
 msgid "**md5 checksum**"
 msgstr ""
 
-#: ../../build/doc/download.rst:30
+#: ../../build/doc/download.rst:32
 msgid "You can use the md5 checksum to verify the image downloaded successfully."
 msgstr ""
 
-#: ../../build/doc/download.rst:32
+#: ../../build/doc/download.rst:34
 msgid "**System Requirements**"
 msgstr ""
 
-#: ../../build/doc/download.rst:34
+#: ../../build/doc/download.rst:36
 msgid ""
 "`Minimum suggested system resources: 1 GB RAM (2 GB are better for trying"
 " Java based applications), 1GHz i386 or amd64 compatible CPU. No hard "
 "drive required. Mac users will benefit from a 3-button USB mouse.`"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr ""
 
