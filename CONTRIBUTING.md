@@ -1,6 +1,6 @@
 # Contributing
 
-When contributing to this repository, read the Pull Request Process section and if necessary,discuss the change you wish to make via [issue on our bug tracker](https://trac.osgeo.org/osgeolive/report/1),
+When contributing to this repository, read the Pull Request Process section and if necessary, discuss the change you wish to make via [issue on our bug tracker](https://trac.osgeo.org/osgeolive/report/1),
 [OSGeoLive mailing list](https://lists.osgeo.org/mailman/listinfo/osgeolive), or any other method with the owners of this repository before making a change. 
 
 By submitting you are agreeing to make your content available via our [open license policy](https://live.osgeo.org/en/copyright.html).
@@ -19,7 +19,7 @@ Please note we have a code of conduct, please follow it in all your interactions
 
 ### Evaluate the change
 
-In the OSGeoLive, we see 2 type of contribution.
+In the OSGeoLive, we see two types of contribution.
 
 #### What qualifies as an OBVIOUS FIX?
 An obvious fix is a pull request that does not contain creative work. We rely on your judgment to determine what is “obvious”; if you’re not sure, just ask by sending an email to the [OSGeoLive mailing list](https://lists.osgeo.org/mailman/listinfo/osgeolive).
@@ -86,7 +86,7 @@ Whenever you invoke the Obvious Fix Rule, please say so in your commit message. 
 1. Create an account or login on [Transifex](https://www.transifex.com/osgeo/osgeolive/)
 2. Request joining a translation team
 3. Translate ! 
-4. Please consider adding your self to our [contributor list](https://github.com/OSGeo/OSGeoLive-doc/blob/master/contributors.csv), if you don't know how to use git, please contact a maintainer.
+4. Please consider adding yourself to our [contributor list](https://github.com/OSGeo/OSGeoLive-doc/blob/master/contributors.csv), if you don't know how to use git, please contact a maintainer.
 
 ### Request a new language
 
