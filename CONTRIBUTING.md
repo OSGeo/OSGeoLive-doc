@@ -5,7 +5,7 @@ When contributing to this repository, read the Pull Request Process section and 
 
 By submitting you are agreeing to make your content available via our [open license policy](https://live.osgeo.org/en/copyright.html).
 
-In the same manner, when translating on Transifex, you are agreeing to make your translations following those licence terms.
+In the same manner, when translating on [Transifex](https://explore.transifex.com/osgeo/osgeolive/), you are agreeing to make your translations following those licence terms.
 
 Please note we have a code of conduct, please follow it in all your interactions with the project.
 
