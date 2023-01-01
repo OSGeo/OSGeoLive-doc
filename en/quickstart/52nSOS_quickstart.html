@@ -114,29 +114,29 @@ in the <a class="reference external" href="http://localhost:8080/52nSOS/client">
 </ol>
 <div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</span>
 <span class="nt">&lt;env:Envelope</span>
-    <span class="na">xmlns:env=</span><span class="s">&quot;http://www.w3.org/2003/05/soap-envelope&quot;</span>
-    <span class="na">xmlns:xsi=</span><span class="s">&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span>
-    <span class="na">xsi:schemaLocation=</span><span class="s">&quot;http://www.w3.org/2003/05/soap-envelope http://www.w3.org/2003/05/soap-envelope/soap-envelope.xsd&quot;</span><span class="nt">&gt;</span>
-    <span class="nt">&lt;env:Body&gt;</span>
-        <span class="nt">&lt;sos:GetObservation</span> <span class="na">service=</span><span class="s">&quot;SOS&quot;</span> <span class="na">version=</span><span class="s">&quot;2.0.0&quot;</span>
-            <span class="na">xmlns:sos=</span><span class="s">&quot;http://www.opengis.net/sos/2.0&quot;</span>
-            <span class="na">xmlns:fes=</span><span class="s">&quot;http://www.opengis.net/fes/2.0&quot;</span>
-            <span class="na">xmlns:gml=</span><span class="s">&quot;http://www.opengis.net/gml/3.2&quot;</span>
-            <span class="na">xmlns:swe=</span><span class="s">&quot;http://www.opengis.net/swe/2.0&quot;</span>
-            <span class="na">xmlns:xlink=</span><span class="s">&quot;http://www.w3.org/1999/xlink&quot;</span>
-            <span class="na">xmlns:swes=</span><span class="s">&quot;http://www.opengis.net/swes/2.0&quot;</span>
-            <span class="na">xsi:schemaLocation=</span><span class="s">&quot;http://www.opengis.net/sos/2.0 http://schemas.opengis.net/sos/2.0/sos.xsd&quot;</span><span class="nt">&gt;</span>
-            <span class="nt">&lt;sos:temporalFilter&gt;</span>
-                <span class="nt">&lt;fes:During&gt;</span>
-                    <span class="nt">&lt;fes:ValueReference&gt;</span>phenomenonTime<span class="nt">&lt;/fes:ValueReference&gt;</span>
-                    <span class="nt">&lt;gml:TimePeriod</span> <span class="na">gml:id=</span><span class="s">&quot;tp_1&quot;</span><span class="nt">&gt;</span>
-                        <span class="nt">&lt;gml:beginPosition&gt;</span>2018-07-02T23:45:00.000+00:00<span class="nt">&lt;/gml:beginPosition&gt;</span>
-                        <span class="nt">&lt;gml:endPosition&gt;</span>2018-07-04T23:45:00.000+00:00<span class="nt">&lt;/gml:endPosition&gt;</span>
-                    <span class="nt">&lt;/gml:TimePeriod&gt;</span>
-                <span class="nt">&lt;/fes:During&gt;</span>
-            <span class="nt">&lt;/sos:temporalFilter&gt;</span>
-        <span class="nt">&lt;/sos:GetObservation&gt;</span>
-    <span class="nt">&lt;/env:Body&gt;</span>
+<span class="w">    </span><span class="na">xmlns:env=</span><span class="s">&quot;http://www.w3.org/2003/05/soap-envelope&quot;</span>
+<span class="w">    </span><span class="na">xmlns:xsi=</span><span class="s">&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span>
+<span class="w">    </span><span class="na">xsi:schemaLocation=</span><span class="s">&quot;http://www.w3.org/2003/05/soap-envelope http://www.w3.org/2003/05/soap-envelope/soap-envelope.xsd&quot;</span><span class="nt">&gt;</span>
+<span class="w">    </span><span class="nt">&lt;env:Body&gt;</span>
+<span class="w">        </span><span class="nt">&lt;sos:GetObservation</span><span class="w"> </span><span class="na">service=</span><span class="s">&quot;SOS&quot;</span><span class="w"> </span><span class="na">version=</span><span class="s">&quot;2.0.0&quot;</span>
+<span class="w">            </span><span class="na">xmlns:sos=</span><span class="s">&quot;http://www.opengis.net/sos/2.0&quot;</span>
+<span class="w">            </span><span class="na">xmlns:fes=</span><span class="s">&quot;http://www.opengis.net/fes/2.0&quot;</span>
+<span class="w">            </span><span class="na">xmlns:gml=</span><span class="s">&quot;http://www.opengis.net/gml/3.2&quot;</span>
+<span class="w">            </span><span class="na">xmlns:swe=</span><span class="s">&quot;http://www.opengis.net/swe/2.0&quot;</span>
+<span class="w">            </span><span class="na">xmlns:xlink=</span><span class="s">&quot;http://www.w3.org/1999/xlink&quot;</span>
+<span class="w">            </span><span class="na">xmlns:swes=</span><span class="s">&quot;http://www.opengis.net/swes/2.0&quot;</span>
+<span class="w">            </span><span class="na">xsi:schemaLocation=</span><span class="s">&quot;http://www.opengis.net/sos/2.0 http://schemas.opengis.net/sos/2.0/sos.xsd&quot;</span><span class="nt">&gt;</span>
+<span class="w">            </span><span class="nt">&lt;sos:temporalFilter&gt;</span>
+<span class="w">                </span><span class="nt">&lt;fes:During&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;fes:ValueReference&gt;</span>phenomenonTime<span class="nt">&lt;/fes:ValueReference&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;gml:TimePeriod</span><span class="w"> </span><span class="na">gml:id=</span><span class="s">&quot;tp_1&quot;</span><span class="nt">&gt;</span>
+<span class="w">                        </span><span class="nt">&lt;gml:beginPosition&gt;</span>2018-07-02T23:45:00.000+00:00<span class="nt">&lt;/gml:beginPosition&gt;</span>
+<span class="w">                        </span><span class="nt">&lt;gml:endPosition&gt;</span>2018-07-04T23:45:00.000+00:00<span class="nt">&lt;/gml:endPosition&gt;</span>
+<span class="w">                    </span><span class="nt">&lt;/gml:TimePeriod&gt;</span>
+<span class="w">                </span><span class="nt">&lt;/fes:During&gt;</span>
+<span class="w">            </span><span class="nt">&lt;/sos:temporalFilter&gt;</span>
+<span class="w">        </span><span class="nt">&lt;/sos:GetObservation&gt;</span>
+<span class="w">    </span><span class="nt">&lt;/env:Body&gt;</span>
 <span class="nt">&lt;/env:Envelope&gt;</span>
 </pre></div>
 </div>
@@ -168,58 +168,58 @@ again and explore the generated sample data.</p></li>
 <ul class="simple">
 <li><p>Try the <a class="reference external" href="http://localhost:8080/52nSOS/api/">Sensor Web REST API</a> (see Listing 2):</p></li>
 </ul>
-<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="p">[</span><span class="w"></span>
-<span class="w">    </span><span class="p">{</span><span class="w"></span>
-<span class="w">        </span><span class="nx">id</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;services&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nx">label</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Service Provider&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;A service provider offers timeseries data.&quot;</span><span class="w"></span>
-<span class="w">    </span><span class="p">},</span><span class="w"></span>
-<span class="w">    </span><span class="p">{</span><span class="w"></span>
-<span class="w">        </span><span class="nx">id</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;stations&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nx">label</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Station&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;A station is the place where measurement takes place.&quot;</span><span class="w"></span>
-<span class="w">    </span><span class="p">},</span><span class="w"></span>
-<span class="w">    </span><span class="p">{</span><span class="w"></span>
-<span class="w">        </span><span class="nx">id</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;timeseries&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nx">label</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Timeseries&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Represents a sequence of data values measured over time.&quot;</span><span class="w"></span>
-<span class="w">    </span><span class="p">},</span><span class="w"></span>
-<span class="w">    </span><span class="p">{</span><span class="w"></span>
-<span class="w">        </span><span class="nx">id</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;categories&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nx">label</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Category&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;A category group available timeseries.&quot;</span><span class="w"></span>
-<span class="w">    </span><span class="p">},</span><span class="w"></span>
-<span class="w">    </span><span class="p">{</span><span class="w"></span>
-<span class="w">        </span><span class="nx">id</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;offerings&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nx">label</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Offering&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;An organizing unit to filter resources.&quot;</span><span class="w"></span>
-<span class="w">    </span><span class="p">},</span><span class="w"></span>
-<span class="w">    </span><span class="p">{</span><span class="w"></span>
-<span class="w">        </span><span class="nx">id</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;features&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nx">label</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Feature&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;An organizing unit to filter resources.&quot;</span><span class="w"></span>
-<span class="w">    </span><span class="p">},</span><span class="w"></span>
-<span class="w">    </span><span class="p">{</span><span class="w"></span>
-<span class="w">        </span><span class="nx">id</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;procedures&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nx">label</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Procedure&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;An organizing unit to filter resources.&quot;</span><span class="w"></span>
-<span class="w">    </span><span class="p">},</span><span class="w"></span>
-<span class="w">    </span><span class="p">{</span><span class="w"></span>
-<span class="w">        </span><span class="nx">id</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;phenomena&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nx">label</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Phenomenon&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;An organizing unit to filter resources.&quot;</span><span class="w"></span>
-<span class="w">    </span><span class="p">},</span><span class="w"></span>
-<span class="w">    </span><span class="p">{</span><span class="w"></span>
-<span class="w">        </span><span class="nx">id</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;platforms&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nx">label</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Platforms&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;A sensor platform where observations are made.&quot;</span><span class="w"></span>
-<span class="w">    </span><span class="p">},</span><span class="w"></span>
-<span class="w">    </span><span class="p">{</span><span class="w"></span>
-<span class="w">        </span><span class="nx">id</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;geometries&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nx">label</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Geometries&quot;</span><span class="p">,</span><span class="w"></span>
-<span class="w">        </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;A geometry where observations are made or that was observed.&quot;</span><span class="w"></span>
-<span class="w">    </span><span class="p">}</span><span class="w"></span>
-<span class="p">]</span><span class="w"></span>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="p">[</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="nx">id</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;services&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nx">label</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Service Provider&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;A service provider offers timeseries data.&quot;</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="nx">id</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;stations&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nx">label</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Station&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;A station is the place where measurement takes place.&quot;</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="nx">id</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;timeseries&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nx">label</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Timeseries&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Represents a sequence of data values measured over time.&quot;</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="nx">id</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;categories&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nx">label</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Category&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;A category group available timeseries.&quot;</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="nx">id</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;offerings&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nx">label</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Offering&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;An organizing unit to filter resources.&quot;</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="nx">id</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;features&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nx">label</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Feature&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;An organizing unit to filter resources.&quot;</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="nx">id</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;procedures&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nx">label</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Procedure&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;An organizing unit to filter resources.&quot;</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="nx">id</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;phenomena&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nx">label</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Phenomenon&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;An organizing unit to filter resources.&quot;</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="nx">id</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;platforms&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nx">label</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Platforms&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;A sensor platform where observations are made.&quot;</span>
+<span class="w">    </span><span class="p">},</span>
+<span class="w">    </span><span class="p">{</span>
+<span class="w">        </span><span class="nx">id</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;geometries&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nx">label</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;Geometries&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="nx">description</span><span class="o">:</span><span class="w"> </span><span class="s2">&quot;A geometry where observations are made or that was observed.&quot;</span>
+<span class="w">    </span><span class="p">}</span>
+<span class="p">]</span>
 </pre></div>
 </div>
 <p><strong>Listing 2:</strong> Output of Sensor Web REST API endpoint.</p>

@@ -85,32 +85,32 @@ The example uses the OSGeoLive demo MapServer application of Itasca County in th
 <p>In this quick start we will set up tile caching for an additional WMS layer and display the tiles in a simple HTML page containing an OpenLayers map.</p>
 <p>First let’s open the MapCache configuration file in FeatherPad - a text editor. Open FeatherPad from the command line with elevated permissions, so you can save the file,
 using System Tools &gt; QTerminal and then running run the command below:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo featherpad
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>featherpad
 </pre></div>
 </div>
 <p>We can see which layers are available in our source WMS server by opening the following link: <a class="reference external" href="http://localhost/itasca/?service=wms&amp;request=getcapabilities">http://localhost/itasca/?service=wms&amp;request=getcapabilities</a>
 MapCache is configured to forward on any requests it can’t handle, such as GetCapabilities, to MapServer with the rule shown below:</p>
-<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;forwarding_rule</span> <span class="na">name=</span><span class="s">&quot;catch all&quot;</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;http&gt;</span>
-    <span class="nt">&lt;url&gt;</span>http://localhost/cgi-bin/mapserv?map=/usr/local/www/docs_maps/mapserver_demos/itasca/itasca.map<span class="nt">&lt;/url&gt;</span>
-  <span class="nt">&lt;/http&gt;</span>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;forwarding_rule</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;catch all&quot;</span><span class="nt">&gt;</span>
+<span class="w">  </span><span class="nt">&lt;http&gt;</span>
+<span class="w">    </span><span class="nt">&lt;url&gt;</span>http://localhost/cgi-bin/mapserv?map=/usr/local/www/docs_maps/mapserver_demos/itasca/itasca.map<span class="nt">&lt;/url&gt;</span>
+<span class="w">  </span><span class="nt">&lt;/http&gt;</span>
 <span class="nt">&lt;/forwarding_rule&gt;</span>
 </pre></div>
 </div>
 <p>One of the layer names listed in the WMS Capabilities document is <code class="docutils literal notranslate"><span class="pre">dlgstln2</span></code> - streams for Itasca county. We will add this as a new tileset to the
 MapCache service. First we add a <code class="docutils literal notranslate"><span class="pre">&lt;source&gt;</span></code> block - this is the configuration to retrieve data from the WMS server. Add the following XML block after the
 existing <code class="docutils literal notranslate"><span class="pre">&lt;source</span> <span class="pre">name=&quot;lake_source&quot;</span> <span class="pre">type=&quot;wms&quot;&gt;...&lt;/source&gt;</span></code> block used for the lakes to <code class="docutils literal notranslate"><span class="pre">mapcache-quickstart.xml</span></code>:</p>
-<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;source</span> <span class="na">name=</span><span class="s">&quot;streams_source&quot;</span> <span class="na">type=</span><span class="s">&quot;wms&quot;</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;getmap&gt;</span>
-    <span class="nt">&lt;params&gt;</span>
-      <span class="nt">&lt;FORMAT&gt;</span>image/png<span class="nt">&lt;/FORMAT&gt;</span>
-      <span class="nt">&lt;LAYERS&gt;</span>dlgstln2<span class="nt">&lt;/LAYERS&gt;</span>
-      <span class="nt">&lt;MAP&gt;</span>/usr/local/www/docs_maps/mapserver_demos/itasca/itasca.map<span class="nt">&lt;/MAP&gt;</span>
-    <span class="nt">&lt;/params&gt;</span>
-  <span class="nt">&lt;/getmap&gt;</span>
-  <span class="nt">&lt;http&gt;</span>
-    <span class="nt">&lt;url&gt;</span>http://localhost/cgi-bin/mapserv?<span class="nt">&lt;/url&gt;</span>
-  <span class="nt">&lt;/http&gt;</span>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;source</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;streams_source&quot;</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;wms&quot;</span><span class="nt">&gt;</span>
+<span class="w">  </span><span class="nt">&lt;getmap&gt;</span>
+<span class="w">    </span><span class="nt">&lt;params&gt;</span>
+<span class="w">      </span><span class="nt">&lt;FORMAT&gt;</span>image/png<span class="nt">&lt;/FORMAT&gt;</span>
+<span class="w">      </span><span class="nt">&lt;LAYERS&gt;</span>dlgstln2<span class="nt">&lt;/LAYERS&gt;</span>
+<span class="w">      </span><span class="nt">&lt;MAP&gt;</span>/usr/local/www/docs_maps/mapserver_demos/itasca/itasca.map<span class="nt">&lt;/MAP&gt;</span>
+<span class="w">    </span><span class="nt">&lt;/params&gt;</span>
+<span class="w">  </span><span class="nt">&lt;/getmap&gt;</span>
+<span class="w">  </span><span class="nt">&lt;http&gt;</span>
+<span class="w">    </span><span class="nt">&lt;url&gt;</span>http://localhost/cgi-bin/mapserv?<span class="nt">&lt;/url&gt;</span>
+<span class="w">  </span><span class="nt">&lt;/http&gt;</span>
 <span class="nt">&lt;/source&gt;</span>
 </pre></div>
 </div>
@@ -119,11 +119,11 @@ existing <code class="docutils literal notranslate"><span class="pre">&lt;source
 see the <a class="reference external" href="https://mapserver.org/mapcache/config.html">Configuration Documentation</a>.</p>
 <p>Next we will add a <code class="docutils literal notranslate"><span class="pre">&lt;tileset&gt;</span></code> block, which defines how the source will be stored and served as tiles. Place the following block after
 the existing <code class="docutils literal notranslate"><span class="pre">&lt;tileset</span> <span class="pre">name=&quot;lakes&quot;&gt;...&lt;/tileset&gt;</span></code> block.</p>
-<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;tileset</span> <span class="na">name=</span><span class="s">&quot;streams&quot;</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;source&gt;</span>streams_source<span class="nt">&lt;/source&gt;</span>
-  <span class="nt">&lt;cache&gt;</span>disk<span class="nt">&lt;/cache&gt;</span>
-  <span class="nt">&lt;grid&gt;</span>GoogleMapsCompatible<span class="nt">&lt;/grid&gt;</span>
-  <span class="nt">&lt;format&gt;</span>PNG<span class="nt">&lt;/format&gt;</span>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;tileset</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;streams&quot;</span><span class="nt">&gt;</span>
+<span class="w">  </span><span class="nt">&lt;source&gt;</span>streams_source<span class="nt">&lt;/source&gt;</span>
+<span class="w">  </span><span class="nt">&lt;cache&gt;</span>disk<span class="nt">&lt;/cache&gt;</span>
+<span class="w">  </span><span class="nt">&lt;grid&gt;</span>GoogleMapsCompatible<span class="nt">&lt;/grid&gt;</span>
+<span class="w">  </span><span class="nt">&lt;format&gt;</span>PNG<span class="nt">&lt;/format&gt;</span>
 <span class="nt">&lt;/tileset&gt;</span>
 </pre></div>
 </div>
@@ -132,21 +132,21 @@ The <code class="docutils literal notranslate"><span class="pre">name=streams</s
 a cloud environment).</p>
 <p>Anytime you modify the MapCache configuration file you need to reload Apache for the changes to come into effect. This can be
 run from the command line as follows:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo apachectl -k graceful
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>apachectl<span class="w"> </span>-k<span class="w"> </span>graceful
 </pre></div>
 </div>
 <p>You should now be able to access a tile with the following URL: <a class="reference external" href="http://localhost/itasca/gmaps/streams&#64;GoogleMapsCompatible/12/987/1433.png">http://localhost/itasca/gmaps/streams&#64;GoogleMapsCompatible/12/987/1433.png</a></p>
 <img alt="../../_images/stream_tile.png" src="../../_images/stream_tile.png" />
 <p>Now let’s add the tileset to our OpenLayers map. Open the HTML page using the following command:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo featherpad /var/www/html/mapcache-quickstart/index.html
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>featherpad<span class="w"> </span>/var/www/html/mapcache-quickstart/index.html
 </pre></div>
 </div>
 <p>Uncomment out the JavaScript code below:</p>
-<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="p">,</span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">layer</span><span class="p">.</span><span class="nx">Tile</span><span class="p">({</span><span class="w"></span>
-<span class="w">    </span><span class="nx">source</span><span class="o">:</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">source</span><span class="p">.</span><span class="nx">XYZ</span><span class="p">({</span><span class="w"></span>
-<span class="w">        </span><span class="nx">url</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;http://localhost/itasca/gmaps/streams@GoogleMapsCompatible/{z}/{x}/{y}.png&#39;</span><span class="w"></span>
-<span class="w">    </span><span class="p">})</span><span class="w"></span>
-<span class="p">})</span><span class="w"></span>
+<div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="p">,</span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">layer</span><span class="p">.</span><span class="nx">Tile</span><span class="p">({</span>
+<span class="w">    </span><span class="nx">source</span><span class="o">:</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">source</span><span class="p">.</span><span class="nx">XYZ</span><span class="p">({</span>
+<span class="w">        </span><span class="nx">url</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;http://localhost/itasca/gmaps/streams@GoogleMapsCompatible/{z}/{x}/{y}.png&#39;</span>
+<span class="w">    </span><span class="p">})</span>
+<span class="p">})</span>
 </pre></div>
 </div>
 <p>Now refresh the page at <a class="reference external" href="http://localhost/mapcache-quickstart/">http://localhost/mapcache-quickstart/</a> - you should see the new streams layer being served by MapCache.</p>
@@ -154,9 +154,9 @@ run from the command line as follows:</p>
 <p>As you browse the map you will see the tile cache folders in <code class="docutils literal notranslate"><span class="pre">/var/cache/mapcache</span></code> fill with PNG images.</p>
 <img alt="../../_images/tilecache.png" src="../../_images/tilecache.png" />
 <p>The location and type of the cache is set by the following block in the configuration file:</p>
-<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;cache</span> <span class="na">name=</span><span class="s">&quot;disk&quot;</span> <span class="na">type=</span><span class="s">&quot;disk&quot;</span><span class="nt">&gt;</span>
-  <span class="nt">&lt;base&gt;</span>/var/cache/mapcache<span class="nt">&lt;/base&gt;</span>
-  <span class="nt">&lt;symlink_blank/&gt;</span>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;cache</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;disk&quot;</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;disk&quot;</span><span class="nt">&gt;</span>
+<span class="w">  </span><span class="nt">&lt;base&gt;</span>/var/cache/mapcache<span class="nt">&lt;/base&gt;</span>
+<span class="w">  </span><span class="nt">&lt;symlink_blank/&gt;</span>
 <span class="nt">&lt;/cache&gt;</span>
 </pre></div>
 </div>
@@ -166,24 +166,24 @@ run from the command line as follows:</p>
 <p>You can configure Apache to run as many different MapCache services, each with its own configuration file by editing the
 <code class="docutils literal notranslate"><span class="pre">/etc/apache2/conf-enabled/mapcache.conf</span></code> file. As this requires super user permissions you can open it for editing in FeatherPad by
 running the command below:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo featherpad /etc/apache2/conf-enabled/mapcache.conf
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>featherpad<span class="w"> </span>/etc/apache2/conf-enabled/mapcache.conf
 </pre></div>
 </div>
 <p>OSGeoLive has two MapCache services, each with an alias and a configuration file.
 The alias is the URL to use on the server, e.g. <a class="reference external" href="http://localhost/mapcache">http://localhost/mapcache</a> and <a class="reference external" href="http://localhost/itasca">http://localhost/itasca</a></p>
-<div class="highlight-apache notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;IfModule</span><span class="w"> </span><span class="s">mapcache_module</span><span class="nt">&gt;</span><span class="w"></span>
-<span class="w">   </span><span class="nt">&lt;Directory</span><span class="w"> </span><span class="s">/path/to/directory</span><span class="nt">&gt;</span><span class="w"></span>
-<span class="w">      </span><span class="nb">Order</span><span class="w"> </span>Allow,Deny<span class="w"></span>
-<span class="w">      </span><span class="nb">Allow</span><span class="w"> </span>from<span class="w"> </span><span class="k">all</span><span class="w"></span>
-<span class="w">   </span><span class="nt">&lt;/Directory&gt;</span><span class="w"></span>
-<span class="w">   </span><span class="nb">MapCacheAlias</span><span class="w"> </span><span class="sx">/mapcache</span><span class="w"> </span><span class="s2">&quot;/usr/share/doc/libapache2-mod-mapcache/examples/mapcache.xml&quot;</span><span class="w"></span>
-<span class="w">   </span><span class="nb">MapCacheAlias</span><span class="w"> </span><span class="sx">/itasca</span><span class="w"> </span><span class="s2">&quot;/home/user/mapcache.xml&quot;</span><span class="w"></span>
-<span class="nt">&lt;/IfModule&gt;</span><span class="w"></span>
+<div class="highlight-apache notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;IfModule</span><span class="w"> </span><span class="s">mapcache_module</span><span class="nt">&gt;</span>
+<span class="w">   </span><span class="nt">&lt;Directory</span><span class="w"> </span><span class="s">/path/to/directory</span><span class="nt">&gt;</span>
+<span class="w">      </span><span class="nb">Order</span><span class="w"> </span>Allow,Deny
+<span class="w">      </span><span class="nb">Allow</span><span class="w"> </span>from<span class="w"> </span><span class="k">all</span>
+<span class="w">   </span><span class="nt">&lt;/Directory&gt;</span>
+<span class="w">   </span><span class="nb">MapCacheAlias</span><span class="w"> </span><span class="sx">/mapcache</span><span class="w"> </span><span class="s2">&quot;/usr/share/doc/libapache2-mod-mapcache/examples/mapcache.xml&quot;</span>
+<span class="w">   </span><span class="nb">MapCacheAlias</span><span class="w"> </span><span class="sx">/itasca</span><span class="w"> </span><span class="s2">&quot;/home/user/mapcache.xml&quot;</span>
+<span class="nt">&lt;/IfModule&gt;</span>
 </pre></div>
 </div>
 <p>To add a new service simply add a new line in the following format, replacing WEB_PATH and PATH_TO_CONFIG_FILE with the
 relevant parameters:</p>
-<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span>MapCacheAlias WEB_PATH &quot;PATH_TO_CONFIG_FILE&quot;
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span>MapCacheAlias<span class="w"> </span>WEB_PATH<span class="w"> </span>&quot;PATH_TO_CONFIG_FILE&quot;
 </pre></div>
 </div>
 <p>See the <a class="reference external" href="https://mapserver.org/mapcache/install.html#apache-module-specific-instructions">Apache Module Instructions</a> for further details
@@ -204,14 +204,14 @@ configuration file</p></li>
 <li><p><em>zoom</em>: <code class="docutils literal notranslate"><span class="pre">0,5</span></code> - this is the range of zoom levels we are going to seed, from zoom level 0 (the extent of the world
 in a single tile) to zoom level 5</p></li>
 </ul>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo -u www-data mapcache_seed --config /home/user/mapcache/mapcache-quickstart.xml --tileset lakes --zoom <span class="m">0</span>,5
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>-u<span class="w"> </span>www-data<span class="w"> </span>mapcache_seed<span class="w"> </span>--config<span class="w"> </span>/home/user/mapcache/mapcache-quickstart.xml<span class="w"> </span>--tileset<span class="w"> </span>lakes<span class="w"> </span>--zoom<span class="w"> </span><span class="m">0</span>,5
 </pre></div>
 </div>
 <p>For the many other <code class="docutils literal notranslate"><span class="pre">mapcache_seed</span></code> options please see the
 <a class="reference external" href="https://mapserver.org/mapcache/seed.html">Seeder Documentation</a>.</p>
 <img alt="../../_images/seeder.png" src="../../_images/seeder.png" />
 <p>If you want to remove a cache folder you can run the following command:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo rm -r /var/cache/mapcache/lakes
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>rm<span class="w"> </span>-r<span class="w"> </span>/var/cache/mapcache/lakes
 </pre></div>
 </div>
 </section>

@@ -114,7 +114,7 @@ This will provide background tiles that will be used in this demo.</p>
 <ul class="simple">
 <li><p>Make sure the map container has a defined height, for example by setting it in CSS:</p></li>
 </ul>
-<div class="highlight-css notranslate"><div class="highlight"><pre><span></span><span class="p">#</span><span class="nn">map</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">height</span><span class="p">:</span><span class="w"> </span><span class="mi">180</span><span class="kt">px</span><span class="p">;</span><span class="w"> </span><span class="p">}</span><span class="w"></span>
+<div class="highlight-css notranslate"><div class="highlight"><pre><span></span><span class="p">#</span><span class="nn">map</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="k">height</span><span class="p">:</span><span class="w"> </span><span class="mi">180</span><span class="kt">px</span><span class="p">;</span><span class="w"> </span><span class="p">}</span>
 </pre></div>
 </div>
 <p>Now you are ready to initialize the map and do some stuff with it.</p>
@@ -122,7 +122,7 @@ This will provide background tiles that will be used in this demo.</p>
 <section id="setting-up-the-map">
 <h2><a class="toc-backref" href="#id4">Setting up the Map</a><a class="headerlink" href="#setting-up-the-map" title="Permalink to this headline">¶</a></h2>
 <p>Let’s create a map of Firenze, Italy with an indication of the 2022 FOSS4G conference. First we’ll initialize the map and set its view to our chosen geographical coordinates and a zoom level:</p>
-<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">map</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">L</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="s1">&#39;map&#39;</span><span class="p">).</span><span class="nx">setView</span><span class="p">([</span><span class="mf">43.77913</span><span class="p">,</span><span class="w"> </span><span class="mf">11.24938</span><span class="p">],</span><span class="w"> </span><span class="mf">15</span><span class="p">);</span><span class="w"></span>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">map</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">L</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="s1">&#39;map&#39;</span><span class="p">).</span><span class="nx">setView</span><span class="p">([</span><span class="mf">43.77913</span><span class="p">,</span><span class="w"> </span><span class="mf">11.24938</span><span class="p">],</span><span class="w"> </span><span class="mf">15</span><span class="p">);</span>
 </pre></div>
 </div>
 <p>By default (as we didn’t pass any options when creating the map instance), all mouse and touch interactions on the map are enabled, and it has zoom and attribution controls.</p>
@@ -144,33 +144,33 @@ In this case we will be using the tile images provided by MapProxy on the live d
 <h2><a class="toc-backref" href="#id5">Markers, circles and polygons</a><a class="headerlink" href="#markers-circles-and-polygons" title="Permalink to this headline">¶</a></h2>
 <p>Besides tile layers, you can easily add other things to your map, including markers, polylines, polygons, circles and popups.
 Let’s add a marker:</p>
-<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">marker</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">L</span><span class="p">.</span><span class="nx">marker</span><span class="p">([</span><span class="mf">43.77913</span><span class="p">,</span><span class="w"> </span><span class="mf">11.24938</span><span class="p">]).</span><span class="nx">addTo</span><span class="p">(</span><span class="nx">map</span><span class="p">);</span><span class="w"></span>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">marker</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">L</span><span class="p">.</span><span class="nx">marker</span><span class="p">([</span><span class="mf">43.77913</span><span class="p">,</span><span class="w"> </span><span class="mf">11.24938</span><span class="p">]).</span><span class="nx">addTo</span><span class="p">(</span><span class="nx">map</span><span class="p">);</span>
 </pre></div>
 </div>
 <p>Adding a circle is the same (except for specifying the radius in meters as a second argument), but lets you control how it looks by passing options as the last argument when creating the object:</p>
-<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">circle</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">L</span><span class="p">.</span><span class="nx">circle</span><span class="p">([</span><span class="mf">43.777</span><span class="p">,</span><span class="w"> </span><span class="mf">11.255</span><span class="p">],</span><span class="w"> </span><span class="mf">250</span><span class="p">,</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-<span class="w">   </span><span class="nx">color</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;red&#39;</span><span class="p">,</span><span class="w"></span>
-<span class="w">   </span><span class="nx">fillColor</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;#f03&#39;</span><span class="p">,</span><span class="w"></span>
-<span class="w">   </span><span class="nx">fillOpacity</span><span class="o">:</span><span class="w"> </span><span class="mf">0.5</span><span class="w"></span>
-<span class="p">}).</span><span class="nx">addTo</span><span class="p">(</span><span class="nx">map</span><span class="p">);</span><span class="w"></span>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">circle</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">L</span><span class="p">.</span><span class="nx">circle</span><span class="p">([</span><span class="mf">43.777</span><span class="p">,</span><span class="w"> </span><span class="mf">11.255</span><span class="p">],</span><span class="w"> </span><span class="mf">250</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
+<span class="w">   </span><span class="nx">color</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;red&#39;</span><span class="p">,</span>
+<span class="w">   </span><span class="nx">fillColor</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;#f03&#39;</span><span class="p">,</span>
+<span class="w">   </span><span class="nx">fillOpacity</span><span class="o">:</span><span class="w"> </span><span class="mf">0.5</span>
+<span class="p">}).</span><span class="nx">addTo</span><span class="p">(</span><span class="nx">map</span><span class="p">);</span>
 </pre></div>
 </div>
 <p>Adding a polygon is as easy:</p>
-<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">polygon</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">L</span><span class="p">.</span><span class="nx">polygon</span><span class="p">([</span><span class="w"></span>
-<span class="w">    </span><span class="p">[</span><span class="mf">43.775</span><span class="p">,</span><span class="w"> </span><span class="mf">11.247</span><span class="p">],</span><span class="w"></span>
-<span class="w">    </span><span class="p">[</span><span class="mf">43.784</span><span class="p">,</span><span class="w"> </span><span class="mf">11.240</span><span class="p">],</span><span class="w"></span>
-<span class="w">    </span><span class="p">[</span><span class="mf">43.778</span><span class="p">,</span><span class="w"> </span><span class="mf">11.238</span><span class="p">]</span><span class="w"></span>
-<span class="p">]).</span><span class="nx">addTo</span><span class="p">(</span><span class="nx">map</span><span class="p">);</span><span class="w"></span>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">polygon</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">L</span><span class="p">.</span><span class="nx">polygon</span><span class="p">([</span>
+<span class="w">    </span><span class="p">[</span><span class="mf">43.775</span><span class="p">,</span><span class="w"> </span><span class="mf">11.247</span><span class="p">],</span>
+<span class="w">    </span><span class="p">[</span><span class="mf">43.784</span><span class="p">,</span><span class="w"> </span><span class="mf">11.240</span><span class="p">],</span>
+<span class="w">    </span><span class="p">[</span><span class="mf">43.778</span><span class="p">,</span><span class="w"> </span><span class="mf">11.238</span><span class="p">]</span>
+<span class="p">]).</span><span class="nx">addTo</span><span class="p">(</span><span class="nx">map</span><span class="p">);</span>
 </pre></div>
 </div>
 </section>
 <section id="working-with-popups">
 <h2><a class="toc-backref" href="#id6">Working with popups</a><a class="headerlink" href="#working-with-popups" title="Permalink to this headline">¶</a></h2>
 <p>Popups are usually used when you want to attach some information to a particular object on a map. Leaflet has a very handy shortcut for this:</p>
-<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">popup</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">L</span><span class="p">.</span><span class="nx">popup</span><span class="p">()</span><span class="w"></span>
-<span class="w">   </span><span class="p">.</span><span class="nx">setLatLng</span><span class="p">([</span><span class="mf">43.77913</span><span class="p">,</span><span class="w"> </span><span class="mf">11.24938</span><span class="p">])</span><span class="w"></span>
-<span class="w">   </span><span class="p">.</span><span class="nx">setContent</span><span class="p">(</span><span class="s2">&quot;FOSS4G is here this year!&quot;</span><span class="p">)</span><span class="w"></span>
-<span class="w">   </span><span class="p">.</span><span class="nx">openOn</span><span class="p">(</span><span class="nx">map</span><span class="p">);</span><span class="w"></span>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">popup</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">L</span><span class="p">.</span><span class="nx">popup</span><span class="p">()</span>
+<span class="w">   </span><span class="p">.</span><span class="nx">setLatLng</span><span class="p">([</span><span class="mf">43.77913</span><span class="p">,</span><span class="w"> </span><span class="mf">11.24938</span><span class="p">])</span>
+<span class="w">   </span><span class="p">.</span><span class="nx">setContent</span><span class="p">(</span><span class="s2">&quot;FOSS4G is here this year!&quot;</span><span class="p">)</span>
+<span class="w">   </span><span class="p">.</span><span class="nx">openOn</span><span class="p">(</span><span class="nx">map</span><span class="p">);</span>
 </pre></div>
 </div>
 <p>Here we use <strong>openOn</strong> instead of <strong>addTo</strong> because it handles automatic closing of a previously opened popup when opening a new one which is good for usability.</p>
@@ -178,25 +178,25 @@ Let’s add a marker:</p>
 <section id="dealing-with-events">
 <h2><a class="toc-backref" href="#id7">Dealing with events</a><a class="headerlink" href="#dealing-with-events" title="Permalink to this headline">¶</a></h2>
 <p>Every time something happens in Leaflet, e.g. user clicks on a marker or map zoom changes, the corresponding object sends an event which you can subscribe to with a function. It allows you to react to user interaction:</p>
-<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">function</span><span class="w"> </span><span class="nx">onMapClick</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-<span class="w">   </span><span class="nx">alert</span><span class="p">(</span><span class="s2">&quot;You clicked the map at &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">e</span><span class="p">.</span><span class="nx">latlng</span><span class="p">);</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">function</span><span class="w"> </span><span class="nx">onMapClick</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">   </span><span class="nx">alert</span><span class="p">(</span><span class="s2">&quot;You clicked the map at &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">e</span><span class="p">.</span><span class="nx">latlng</span><span class="p">);</span>
+<span class="p">}</span>
 
-<span class="nx">map</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;click&#39;</span><span class="p">,</span><span class="w"> </span><span class="nx">onMapClick</span><span class="p">);</span><span class="w"></span>
+<span class="nx">map</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;click&#39;</span><span class="p">,</span><span class="w"> </span><span class="nx">onMapClick</span><span class="p">);</span>
 </pre></div>
 </div>
 <p>Each object has its own set of events - see <a class="reference external" href="https://leafletjs.com/reference.html">documentation</a> for details. The first argument of the listener function is an event object - it contains useful information about the event that happened. For example, map click event object (e in the example above) has latlng property which is a location at which the click occured.</p>
 <p>Let’s improve our example by using a popup instead of an alert:</p>
-<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">popup</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">L</span><span class="p">.</span><span class="nx">popup</span><span class="p">();</span><span class="w"></span>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">popup</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">L</span><span class="p">.</span><span class="nx">popup</span><span class="p">();</span>
 
-<span class="kd">function</span><span class="w"> </span><span class="nx">onMapClick</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w"></span>
-<span class="w">   </span><span class="nx">popup</span><span class="w"></span>
-<span class="w">        </span><span class="p">.</span><span class="nx">setLatLng</span><span class="p">(</span><span class="nx">e</span><span class="p">.</span><span class="nx">latlng</span><span class="p">)</span><span class="w"></span>
-<span class="w">        </span><span class="p">.</span><span class="nx">setContent</span><span class="p">(</span><span class="s2">&quot;You clicked the map at &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">e</span><span class="p">.</span><span class="nx">latlng</span><span class="p">.</span><span class="nx">toString</span><span class="p">())</span><span class="w"></span>
-<span class="w">         </span><span class="p">.</span><span class="nx">openOn</span><span class="p">(</span><span class="nx">map</span><span class="p">);</span><span class="w"></span>
-<span class="p">}</span><span class="w"></span>
+<span class="kd">function</span><span class="w"> </span><span class="nx">onMapClick</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">   </span><span class="nx">popup</span>
+<span class="w">        </span><span class="p">.</span><span class="nx">setLatLng</span><span class="p">(</span><span class="nx">e</span><span class="p">.</span><span class="nx">latlng</span><span class="p">)</span>
+<span class="w">        </span><span class="p">.</span><span class="nx">setContent</span><span class="p">(</span><span class="s2">&quot;You clicked the map at &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">e</span><span class="p">.</span><span class="nx">latlng</span><span class="p">.</span><span class="nx">toString</span><span class="p">())</span>
+<span class="w">         </span><span class="p">.</span><span class="nx">openOn</span><span class="p">(</span><span class="nx">map</span><span class="p">);</span>
+<span class="p">}</span>
 
-<span class="nx">map</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;click&#39;</span><span class="p">,</span><span class="w"> </span><span class="nx">onMapClick</span><span class="p">);</span><span class="w"></span>
+<span class="nx">map</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;click&#39;</span><span class="p">,</span><span class="w"> </span><span class="nx">onMapClick</span><span class="p">);</span>
 </pre></div>
 </div>
 <p>Try clicking on the map and you will see the coordinates in a popup. View the full <a class="reference external" href="http://localhost/leaflet-demo.html">example</a></p>
