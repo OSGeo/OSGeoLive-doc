@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-27 17:58+0000\n"
+"POT-Creation-Date: 2023-01-01 11:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -54,18 +54,10 @@ msgid "The DebianGIS and UbuntuGIS projects provide and quality-assure many of t
 msgstr ""
 
 #: ../../build/doc/sponsors.rst:None
-msgid "The Greek Academic cloud service"
-msgstr ""
-
-#: ../../build/doc/sponsors.rst:41
-msgid "Okeanos is the Greek Academic cloud service (IaaS) which is providing virtualized computing resources free of charge to the Greek Universities and public Research Centres. Okeanos is build on top of existing proven open source software (e.g. Synnefo, Google Ganeti). Okeanos is kindly providing Virtual Machines for building the OSGeoLive iso images."
-msgstr ""
-
-#: ../../build/doc/sponsors.rst:None
 msgid "Geolocation Technology Company"
 msgstr ""
 
-#: ../../build/doc/sponsors.rst:52
+#: ../../build/doc/sponsors.rst:41
 msgid "Georepublic is a Geolocation Technology Company, that embraces the idea of Free Software, and provide support and custom development for Open Source GIS software."
 msgstr ""
 
@@ -101,7 +93,7 @@ msgstr ""
 msgid "`FOSS4G <https://foss4g.org>`_: Annual, international conference for *Free and Open Source Software for Geospatial*, as well as many regional and local `events <https://www.osgeo.org/events>`_."
 msgstr ""
 
-#: ../../build/doc/sponsors.rst:58
+#: ../../build/doc/sponsors.rst:47
 msgid "Contributors"
 msgstr ""
 
@@ -2051,7 +2043,7 @@ msgstr ""
 msgid "Siki"
 msgstr ""
 
-#: ../../build/doc/sponsors.rst:68
+#: ../../build/doc/sponsors.rst:57
 msgid "Translators"
 msgstr ""
 
