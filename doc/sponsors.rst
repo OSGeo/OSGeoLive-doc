@@ -34,17 +34,6 @@ provides hardware resources and development support to the OSGeoLive project.
 The DebianGIS and UbuntuGIS projects provide and quality-assure many of
 the core packages.
 
-.. image:: /images/logos/okeanos-logo.jpg
-  :alt: The Greek Academic cloud service
-  :target: https://okeanos.grnet.gr/home/
-
-Okeanos is the Greek Academic cloud service (IaaS) which is providing 
-virtualized computing resources free of charge to the Greek Universities 
-and public Research Centres. Okeanos is build on top of existing proven 
-open source software (e.g. Synnefo, Google Ganeti). Okeanos is kindly 
-providing Virtual Machines for building the OSGeoLive iso images.
-
-
 .. image:: /images/logos/georepublic.png
   :alt:  Geolocation Technology Company
   :target: https://georepublic.info
