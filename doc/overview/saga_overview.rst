@@ -63,7 +63,7 @@ Details
 
 **API Interfaces:** C++, Python, R
 
-**Support:** http://www.saga-gis.org
+**Support:** https://sourceforge.net/p/saga-gis/mailman/
 
 
 @VMDK_saga@

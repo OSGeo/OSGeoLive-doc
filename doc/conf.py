@@ -187,26 +187,10 @@ linkcheck_ignore = [
         # TODO remove this line when the CERT is fixed
         r'https://www.rspatial.org',
 
-        # bad gateway
-        # TODO remove line when page is reachable
-        'https://demo.pycsw.org/',
-
-        # Leaflet moved the documentation temporarly due to the Ucrania situation
-        # TODO hope for the war to be over and remove this line
-        r'https://leafletjs.com',
-
         # link exists but does not accept robots and linkchecker is a robot
         # used in overview/mapserver_overview
         'http://www.dnr.state.mn.us/maps/compass.html',
 
-        # Link does not exist anymore
-        # Used in overview/liblas_overview
-        # TODO remove link from documentation
-        'https://www.asprs.org/divisions-committees/lidar-division/laser-las-file-format-exchange-activities.html',
-
-        # Link changed locations
-        # TODO change to https://saga-gis.sourceforge.io
-        r'http://www.saga-gis.org',
         # TODO change to https://52north.org/research/scope/geospatial-sensing/
         'https://52north.org/research/research-labs/sensor-web/',
         # TODO change to https://cesium.com/learn/
