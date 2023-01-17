@@ -29,7 +29,7 @@ Core Features
 --------------------------------------------------------------------------------
 
 * REST API to process satellite images, time series of satellite images, raster and vector data.
-* Explore the `tutorial <https://mundialis.github.io/actinia_core/>`_.
+* Explore the `tutorial <https://actinia-org.github.io/actinia-core/>`_.
 
 Details
 --------------------------------------------------------------------------------
@@ -45,7 +45,6 @@ Details
 **API Interfaces:** REST API, Python
 
 **API documentation:** https://redocly.github.io/redoc/?url=https://actinia.mundialis.de/latest/swagger.json
-
 
 **Support:** https://github.com/mundialis/actinia_core
 
