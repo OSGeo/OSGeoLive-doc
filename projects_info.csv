@@ -82,7 +82,7 @@ N | ossim | 2.9.1 | Y | Y | Spatial Tools | | Image Processing | ossim | http://
 Y | otb | 8.0.1 | Y | Y | Spatial Tools | | Image Processing | otb | https://www.orfeo-toolbox.org/ | OSGeo_project | OTB | Y
 #   OSGeo Community | | | | | | | | | | | |
 #   Others  | | | | | | | | | | | |
-Y | gmt | 6.3.0 | Y | Y | Spatial Tools | 11 | Cartographic Rendering | GMT | https://gmt.soest.hawaii.edu | | GMT | N
+Y | gmt | 6.3.0 | Y | Y | Spatial Tools | 11 | Cartographic Rendering | GMT | https://www.generic-mapping-tools.org | | GMT | N
 Y | jupyter | 4.9.1 | Y | Y | Spatial Tools | | Mixing rich media in presentations | jupyter_notebook | https://jupyter.org/ | | Jupyter Notebook | Y
 Y | mapnik | 3.1.0 | Y | Y | Spatial Tools | | Cartographic Rendering | mapnik | https://mapnik.org/ | | Mapnik | Y
 Y | R | 4.1.2 | Y | Y | Spatial Tools | | Statistical Programming | R_project | https://cran.r-project.org | | R | Y

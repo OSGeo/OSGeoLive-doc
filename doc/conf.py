@@ -183,10 +183,6 @@ latex_documents = [
 # Linkcheck configuration, see http://sphinx.pocoo.org/latest/config.html#options-for-the-linkcheck-builder
 
 linkcheck_ignore = [
-        # The project you're trying to access has been archived.
-        # TODO Verify what happened to gmt because its for gmt_overview and gmt_quickstart
-        r'https://gmt.soest.hawaii.edu',
-
         # currently SSL_ERROR_BAD_CERT_DOMAIN
         # TODO remove this line when the CERT is fixed
         r'https://www.rspatial.org',
