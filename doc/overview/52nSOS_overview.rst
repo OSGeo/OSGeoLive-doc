@@ -1,4 +1,4 @@
-﻿
+
 :Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org)
 :Author: Daniel Nüst (d.nuest@52north.org)
 :Author: Simon Jirka (s.jirka@52north.org)
@@ -143,7 +143,7 @@ Details
 
 **Community Support:** https://list.52north.org/mailman/listinfo/sensorweb
 
-**Community Website:** https://52north.org/research/research-labs/sensor-web/
+**Community Website:** https://52north.org/research/scope/geospatial-sensing/
 
 **Other 52°North projects on OSGeoLive:** :doc:`WPS <./52nWPS_overview>`
 

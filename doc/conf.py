@@ -191,8 +191,6 @@ linkcheck_ignore = [
         # used in overview/mapserver_overview
         'http://www.dnr.state.mn.us/maps/compass.html',
 
-        # TODO change to https://52north.org/research/scope/geospatial-sensing/
-        'https://52north.org/research/research-labs/sensor-web/',
         # TODO change to https://cesium.com/learn/
         'https://cesium.com/docs',
         # TODO change to https://github.com/geoext/geoext

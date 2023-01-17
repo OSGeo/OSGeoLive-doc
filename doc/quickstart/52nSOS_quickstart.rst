@@ -1,4 +1,4 @@
-﻿:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org)
+:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org)
 :Author: Simon Jirka (s.jirka@52north.org)
 :Author: Ann Hitchcock (a.hitchcock@52north.org)
 :Reviewer: Felicity Brand (Google Season of Docs 2019)
@@ -189,7 +189,7 @@ potential starting points are:
 
 * 52°North :doc:`SOS overview <../overview/52nSOS_overview>`
 * 52°North Sensor Web mailing list: sensorweb@52north.org
-* 52°North `Sensor Web community <https://52north.org/research/research-labs/sensor-web/>`_
+* 52°North `Sensor Web community <https://52north.org/research/scope/geospatial-sensing/>`_
 * 52°North `SOS Client <https://sensorweb.demo.52north.org/sensorwebclient-webapp-stable/>`_
 * 52°North `SOS Web site <https://52north.org/software/software-projects/sos>`_
 
