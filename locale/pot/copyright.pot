@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2023-01-17 21:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -365,7 +365,7 @@ msgid "cartaro_overview"
 msgstr ""
 
 #: ../../build/licenses.csv:1
-msgid "Friedjoff Trautwein, https://geops.de; Patric Hafner, https://geops.de"
+msgid "Friedjoff Trautwein, https://geops.com; Patric Hafner, https://geops.com"
 msgstr ""
 
 #: ../../build/licenses.csv:1
@@ -1007,7 +1007,7 @@ msgid "cartaro_quickstart"
 msgstr ""
 
 #: ../../build/licenses.csv:1
-msgid "Friedjoff Trautwein (https://geops.de); Augustus Kling (https://geops.de); Patric Hafner (https://geops.de)"
+msgid "Friedjoff Trautwein (https://geops.com); Augustus Kling (https://geops.com); Patric Hafner (https://geops.com)"
 msgstr ""
 
 #: ../../build/licenses.csv:1
@@ -1492,11 +1492,11 @@ msgstr ""
 msgid "*The contents of OSGeoLive are provided by the copyright holders and contributors \"as is\" and any express or implied warranties, including, but not limited to, the implied warranties of the merchantability and fitness for a particular purpose are disclaimed. In no event shall the copyright owner or contributors be liable for any direct, indirect, incidental, special, exemplary, or consequential damages (including, but not limited to, procurement of substitute goods or services; loss of use, date, or profits; or business interruption) however caused and on any theory of liability, whether in contract, strict liablity, or tort (including negligence or otherwise) arising in any way out of the use of this software, even if advised of the possibility of such damage.*"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr ""
 
