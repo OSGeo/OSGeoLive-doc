@@ -27,7 +27,7 @@ accessed through a GUI, the command line or by using the C++ API.
 
 .. contents:: Contents
    :local:
-   
+
 Running
 =======
 
@@ -50,19 +50,19 @@ window.
 Opening data
 ============
 
-#. Open the SAGA GUI and load the grid 
+#. Open the SAGA GUI and load the grid
    `/home/user/data/saga/DGM_30m_Mt.St.Helens_SRTM.grd` via the **File|Grid|Load**
-   menu. 
+   menu.
 #. You will get a message in the General tab of the Messages window regarding
    the success or failure of this task. You should see something like `Load
-   Grid: DGM_30m_Mt.St.Helens_SRTM.grd...okay`. 
+   Grid: DGM_30m_Mt.St.Helens_SRTM.grd...okay`.
    Once you loaded the dataset, it will show up in the Data tab of the
    Workspace window. It will be listed under Grids and the grid system it
-   belongs to. 
+   belongs to.
 #. In this case, the grid system information will look like **30;312x 458y; 557970x
    5108130y**. The first number is the cell size (30 meters), the next two numbers show
-   the number of cells in x and y direction respectively, and the last two numbers are 
-   the origin of the grid. 
+   the number of cells in x and y direction respectively, and the last two numbers are
+   the origin of the grid.
 
 .. note:: SAGA's grid systems are referenced by the bottom left corner. This,
     and some more useful information on the dataset show up if you select the
@@ -71,26 +71,26 @@ Opening data
     Type of the grid (here FLOAT), the Value Range, some statistical measures and
     the Memory Size.
 
-.. tip:: You can also load data by dragging and dropping it on the application. 
+.. tip:: You can also load data by dragging and dropping it on the application.
    Try this with one of the datasets in the **/home/user/data/gdal_natural_earth/** folder.
 
 Displaying data
 ===============
 
-To display the dataset in a map view: 
+To display the dataset in a map view:
 
 #. Double click on the dataset in the Data tab of the Workspace window. A new Map window
-   will open up with the dataset displayed. The canvas is framed: top and left the x- and 
-   y-world coordinates are displayed. Bottom and right you see rulers in map units. 
+   will open up with the dataset displayed. The canvas is framed: top and left the x- and
+   y-world coordinates are displayed. Bottom and right you see rulers in map units.
 #. Try moving the mouse pointer over the map and watch the x-, y- and z-coordinates displayed
    in the bottom bar of the SAGA GUI window. The z-coordinates displayed correspond to the
-   elevation values of the dataset (be aware that the values displayed are always those 
+   elevation values of the dataset (be aware that the values displayed are always those
    of the dataset selected in the Data or Maps tab).
 
-#. Now use the navigation tools to zoom and pan. The Zoom tool is selected by default. 
-   A left click on the map zooms in, a right click zooms out. Holding the left mouse 
-   button down, dragging to the opposite corner and letting the mouse button up allows 
-   you to zoom to an area of interest. 
+#. Now use the navigation tools to zoom and pan. The Zoom tool is selected by default.
+   A left click on the map zooms in, a right click zooms out. Holding the left mouse
+   button down, dragging to the opposite corner and letting the mouse button up allows
+   you to zoom to an area of interest.
 
 .. note:: If you zoom in a lot and turn on Show cell values on Settings tab, you will see
    that the cell values are getting displayed. To pan, select the Pan tool and click and drag
@@ -104,18 +104,18 @@ To display the dataset in a map view:
 
 Creating a shaded relief map view
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-We will enhance the map display by calculating a shaded relief map. 
+We will enhance the map display by calculating a shaded relief map.
 
 #. Switch to the Tools tab of the Manager window and click on the triangle left to the
    **Terrain Analysis - Lighting, Visibility** module library: the list with the modules of
-   this library will show up. 
+   this library will show up.
 #. Now select the Analytical Hillshading module and then select the Settings
    tab of the Properties window. This will show up the module parameters (also
    have a look at the Description tab, which will display more information about
-   the module and its parameters). 
+   the module and its parameters).
 #. Click in the right column of the Grid system
    parameter (where [not set] is displayed) and select the grid system of the Mt.
-   St. Helens dataset (**30; 312x 458y; 557970x 5108130y**). 
+   St. Helens dataset (**30; 312x 458y; 557970x 5108130y**).
 #. Next click into the right column of the Elevation parameter and select the
    dataset. Click in the right column of the Shading Method option and select
    Standard. Now press the Apply and then the Execute button. A new dataset
@@ -140,21 +140,24 @@ We will enhance the map display by calculating a shaded relief map.
    order is top to bottom. Now do a right click on the 'Analytical Hillshading'
    dataset and select Move To Bottom from the context menu popping up. This will
    change the drawing order, placing the hillshade beneath the elevation dataset
-   (which now shows up again in the map view). 
+   (which now shows up again in the map view).
 #. Now select the elevation dataset
    (by left clicking) and have a look at the Settings tab of the Properties
    window. Find the Display section of the parameters and click in the right
    column of the Transparency option. Enter a value of 30 and press the Apply
    button. Now you will see your elevation values shaded by relief.
 
-Feel free to try other Transparency settings or even try other Shading Methods in the Analytical Hillshading module (in case you do not change the output dataset parameter, the changes will be written to the grid already created, i.e. you will see the changes in the map view immediately).
+Feel free to try other Transparency settings or even try other Shading Methods
+in the Analytical Hillshading module (in case you do not change the output
+dataset parameter, the changes will be written to the grid already created, i.e.
+you will see the changes in the map view immediately).
 
 .. image:: /images/projects/saga/saga_withhillshade.png
     :scale: 80
 
 3D visualization
 ~~~~~~~~~~~~~~~~
-In a next step, you might like to visualize your map in 3D. 
+In a next step, you might like to visualize your map in 3D.
 
 #. Be sure your Map window is selected and press the Show 3D-View button in the
    tool bar. In the dialog popping up, select the grid system containing your
@@ -173,19 +176,19 @@ In a next step, you might like to visualize your map in 3D.
 
 Creating contour lines
 ======================
-As a short introduction to SAGA vector capabilities, we will now generate 
-Contour Lines from the digital elevation model. 
+As a short introduction to SAGA vector capabilities, we will now generate
+Contour Lines from the digital elevation model.
 
 #. This can be done by using the **Shapes - Grid | Contour Lines From Grid** if
    you open the tools tab in the manager, or you can equally well open the
-   module using the menu: **Geoprocessing|Shapes|Grid|Vectorization**. 
+   module using the menu: **Geoprocessing|Shapes|Grid|Vectorization**.
 #. Choose your grid system and grid (this has to be the elevation). You can
    leave the options as they are, but perhaps it is better to choose an
-   equidistance of 50m instead of the standard 10m. 
+   equidistance of 50m instead of the standard 10m.
 #. A few seconds later your contour map has been generated and you should find
-   it back under the data tab in the workspace. 
+   it back under the data tab in the workspace.
    Try opening your contour map in a new map. All contour lines now have the
-   same colour, which is not that attractive. 
+   same colour, which is not that attractive.
 #. If you select your data set (in the workspace, data tab) and check the
    Settings in the Object Properties window, you can find a section: Display:
    color classification. You can change the classification from 'Unique symbol' to
@@ -221,7 +224,7 @@ Importing/Exporting data
 Under the hood SAGA can also use the GDAL library for opening different raster
 and vector formats. The easiest way is to use **File|Grid|Open** for raster
 data and **File|Shapes|Open** for vector data. For rasters among others geotiff
-is supported. Note that you can also just drag and drop files on SAGA. 
+is supported. Note that you can also just drag and drop files on SAGA.
 More advanced options and modules are present under
 **Geoprocessing|File|Grid**.
 
@@ -232,10 +235,10 @@ More advanced options and modules are present under
 In this example we will use the digital elevation (SRTM) data from the region
 around Barcelona as you would download it from the web.
 
-The data file we want to use is `SRTM_u03_n041e002.tif` and can be found 
+The data file we want to use is `SRTM_u03_n041e002.tif` and can be found
 under `/home/user/data/raster` . You can import this using the Import/Export
 GDAL/OGR module, which can also be found in the **Geoprocessing|file|import
-raster**. 
+raster**.
 
 After importing this dataset and opening it in a new window, you will most
 likely be disappointed: It looks all gray! Let's check what might be the cause:
@@ -257,6 +260,4 @@ What next?
 ==========
 More documentation can be found on the SAGA website:
 * @WEB_saga@
-and specifically in the documentation archive:
-* http://www.saga-gis.org/en/about/references.html 
 * https://sourceforge.net/p/saga-gis/wiki/Documentation/

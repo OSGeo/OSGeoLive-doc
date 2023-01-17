@@ -9,9 +9,9 @@
   Finish off with "Things to Try" and "What Next?" sections.
   Assume the user has very little domain expertise, so spell everything out.
 
-:Author: Friedjoff Trautwein (http://www.geops.de)
-:Author: Augustus Kling (http://www.geops.de)
-:Author: Patric Hafner (http://www.geops.de)
+:Author: Friedjoff Trautwein (http://www.geops.com)
+:Author: Augustus Kling (http://www.geops.com)
+:Author: Patric Hafner (http://www.geops.com)
 :Version: osgeolive7.0draft
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 

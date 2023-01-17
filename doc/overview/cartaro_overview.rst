@@ -1,5 +1,5 @@
-:Author: Friedjoff Trautwein, http://www.geops.de
-:Author: Patric Hafner, http://www.geops.de
+:Author: Friedjoff Trautwein, http://www.geops.com
+:Author: Patric Hafner, http://www.geops.com
 :Reviewer: Cameron Shorter, http://jirotech.com
 :Version: osgeolive7.9
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
@@ -66,7 +66,7 @@ Details
 
 **API Interfaces:** JavaScript, PHP
 
-**Support:** http://www.geops.de
+**Support:** http://www.geops.com
 
 @VMDK_cartaro@
 @QUICKSTART_cartaro@

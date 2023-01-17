@@ -183,51 +183,17 @@ latex_documents = [
 # Linkcheck configuration, see http://sphinx.pocoo.org/latest/config.html#options-for-the-linkcheck-builder
 
 linkcheck_ignore = [
-        # link changed name to https://geops.ch
-        # mostly used on the contibutors list.
-        # TODO need to verify the change is correct
-        r'https://geops.de',
-
-        # The project you're trying to access has been archived.
-        # TODO Verify what happened to gmt because its for gmt_overview and gmt_quickstart
-        r'https://gmt.soest.hawaii.edu',
-
         # currently SSL_ERROR_BAD_CERT_DOMAIN
         # TODO remove this line when the CERT is fixed
         r'https://www.rspatial.org',
-
-        # bad gateway
-        # TODO remove line when page is reachable
-        'https://demo.pycsw.org/',
-
-        # Leaflet moved the documentation temporarly due to the Ucrania situation
-        # TODO hope for the war to be over and remove this line
-        r'https://leafletjs.com',
 
         # link exists but does not accept robots and linkchecker is a robot
         # used in overview/mapserver_overview
         'http://www.dnr.state.mn.us/maps/compass.html',
 
-        # Link does not exist anymore
-        # Used in overview/liblas_overview
-        # TODO remove link from documentation
-        'https://www.asprs.org/divisions-committees/lidar-division/laser-las-file-format-exchange-activities.html',
-
-        # Link changed locations
-        # TODO change to https://saga-gis.sourceforge.io
-        r'http://www.saga-gis.org',
-        # TODO change to https://52north.org/research/scope/geospatial-sensing/
-        'https://52north.org/research/research-labs/sensor-web/',
-        # TODO change to https://cesium.com/learn/
-        'https://cesium.com/docs',
-        # TODO change to https://github.com/geoext/geoext
-        r'https://github.com/geoext/geoext3',
-        # TODO all links in inspire are failing: RemoteDisconnected('Remote end closed connection without response'))
-        r'https://inspire.ec.europa.eu',
         # TODO this link is failing: RemoteDisconnected('Remote end closed connection without response'))
+        # ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
         'https://www.iso.org',
-        # TODO this link is failing: 502 Bad Gateway
-        'https://spatialreference.org',
 
         # links to the disk internals
         r'http://localhost', r'https://localhost',
