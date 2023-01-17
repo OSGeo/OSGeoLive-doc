@@ -183,11 +183,6 @@ latex_documents = [
 # Linkcheck configuration, see http://sphinx.pocoo.org/latest/config.html#options-for-the-linkcheck-builder
 
 linkcheck_ignore = [
-        # link changed name to https://geops.ch
-        # mostly used on the contibutors list.
-        # TODO need to verify the change is correct
-        r'https://geops.de',
-
         # The project you're trying to access has been archived.
         # TODO Verify what happened to gmt because its for gmt_overview and gmt_quickstart
         r'https://gmt.soest.hawaii.edu',
