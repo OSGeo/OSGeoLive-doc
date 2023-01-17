@@ -191,16 +191,9 @@ linkcheck_ignore = [
         # used in overview/mapserver_overview
         'http://www.dnr.state.mn.us/maps/compass.html',
 
-        # TODO change to https://cesium.com/learn/
-        'https://cesium.com/docs',
-        # TODO change to https://github.com/geoext/geoext
-        r'https://github.com/geoext/geoext3',
-        # TODO all links in inspire are failing: RemoteDisconnected('Remote end closed connection without response'))
-        r'https://inspire.ec.europa.eu',
         # TODO this link is failing: RemoteDisconnected('Remote end closed connection without response'))
+        # ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
         'https://www.iso.org',
-        # TODO this link is failing: 502 Bad Gateway
-        'https://spatialreference.org',
 
         # links to the disk internals
         r'http://localhost', r'https://localhost',
