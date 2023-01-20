@@ -26,6 +26,7 @@ set(OSGeoLiveDoc_SUBDIRS
     )
 
 
+  file(READ ${CMAKE_SOURCE_DIR}/menuselections.conf OSGeoLiveDoc_menuselections)
 
 #---------------------------------------------
 # Adding the documentation subdirectories & files

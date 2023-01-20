@@ -212,30 +212,10 @@ linkcheck_ignore = [
         # Used in sponsors.rst
         'https://www.ntua.gr/en',
 
-        # Used in overview/inspire_overview
-        # Error message: broken    https://etf-validator.net - 503 Server Error: Service Temporarily Unavailable for url: https://etf-validator.net/
-        'https://etf-validator.net',
-
-        # Link does not exist anymore
-        # Used in quickstart/geoserver_quickstart
-        r'http://prj2epsg.org',
-
-        # Link with error 404 Client Error
-        # Used in quickstart/hyperv_quickstart
-        r'https://www.microsoft.com/en-us/download',
-
-        # Link does not exist anymore
-        # Used in quickstart/mapslicer_quickstart
-        'https://maps.yahoo.com/',
-
         # Link with certiciate problems
         # Used in quickstart/liblas_quickstart
-        'https://epsg.org/home.html',
+        #'https://epsg.org/home.html',
         'https://www.epsg.org/',
-
-        # Link with error 400 Client Error
-        # Used in contact
-        r'https://mobile.twitter.com/osgeolive',
 
         # Link to the presentation
         r'presentation.html'
@@ -310,6 +290,8 @@ rst_epilog="""
 .. |SUPPORT| replace:: `OSGeo service providers <https://www.osgeo.org/service-providers>`__
 .. |CC BY 3.0| replace:: `CC BY 3.0 <https://creativecommons.org/licenses/by/3.0/>`__
 .. |CC BY-SA 3.0| replace:: `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <https://creativecommons.org/licenses/by-sa/3.0/>`__
+@OSGeoLiveDoc_menuselections@
+
 
 @OSGeoLiveDoc_PROJECTS_LOGOS@
 @OSGeoLiveDoc_PROJECTS_VERSIONS@""" % {
