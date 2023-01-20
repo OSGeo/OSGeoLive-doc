@@ -29,7 +29,7 @@ Setting up your charts
 Before running OpenCPN on the LiveDVD you should activate the sample data.
 This is a condition of redistributing NOAA's free nautical charts. The first time you open OpenCPN you are presented with the option to do this automatically.
 
-#. From the Start menu, select :menuselection:`Geospatial --> Navigation and Maps --> OpenCPN`.
+#. From the Start menu, select |menu_opencpn|.
 #. Click :guilabel:`I agree` to the NOAA Nautical Chart Data Agreement.
 #. Click :guilabel:`OK` to agree to the OpenCPN license.
 

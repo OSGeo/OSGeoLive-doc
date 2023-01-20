@@ -23,7 +23,7 @@ ncWMS is a Web Map Service which allows the fast visualisation of data from NetC
 Start ncWMS and understand the workspace
 ========================================
 
-Select :menuselection:`Geospatial --> Web Services --> ncWMS --> Start ncWMS`.
+Select |menu_ncWMS-Start|.
 
 After a few moments the application will start up and open a web browser at http://localhost:8080/ncWMS2/Godiva3.html
 
@@ -31,8 +31,8 @@ After a few moments the application will start up and open a web browser at http
     :scale: 55 %
 
 
-* Use the left-hand menu to choose a dataset to view.  
-* Clicking a dataset (or the + icon to the left of it) will expand the dataset to show the available variables to plot.  
+* Use the left-hand menu to choose a dataset to view.
+* Clicking a dataset (or the + icon to the left of it) will expand the dataset to show the available variables to plot.
 * Choose a variable by clicking on it. The data displays on the interactive map after a short delay (a progress bar may display showing the progress of loading image tiles from the WMS servers).
 
 Navigating the map
@@ -48,7 +48,7 @@ If the variable you are viewing has a vertical dimension you will be able to sel
 Selecting the timestep
 ----------------------
 
-If the displayed variable has a time dimension a date control will appear above the map. Click on this control to select the date you want to focus on. If there are several timesteps available for this day, use the drop-down box above the map to select the time. 
+If the displayed variable has a time dimension a date control will appear above the map. Click on this control to select the date you want to focus on. If there are several timesteps available for this day, use the drop-down box above the map to select the time.
 
 Finding the data value at a point
 ---------------------------------
@@ -98,10 +98,10 @@ Creating a timeseries plot uses a similar wizard to that used to create animatio
 Vertical sections and transects along arbitrary paths
 -----------------------------------------------------
 
-#. At the top of the map, click the icon that looks like a line joining four points. 
-#. Click on the map to start drawing a line. 
-#. Add "waypoints" along this line by single-clicking at each point. 
-#. Double-click to finish the line. 
+#. At the top of the map, click the icon that looks like a line joining four points.
+#. Click on the map to start drawing a line.
+#. Add "waypoints" along this line by single-clicking at each point.
+#. Double-click to finish the line.
    A new browser window opens showing the variation of the viewed variable along the line (i.e. a transect plot). If the variable has a vertical dimension, a vertical section plot will display under the transect plot.
 
 
@@ -121,11 +121,11 @@ The map projection is changed by selecting a new background map as above. If the
 Saving and emailing the view
 ============================
 
-You may want to save the current view to return to it later or share it with a colleague. The "Permalink" under the bottom right-hand corner of the map links to a complete URL that recreates the current view. 
+You may want to save the current view to return to it later or share it with a colleague. The "Permalink" under the bottom right-hand corner of the map links to a complete URL that recreates the current view.
 
-* Left-click on the permalink to bring up a new window with an identical view. 
+* Left-click on the permalink to bring up a new window with an identical view.
 
-* Right-click on the permalink and select "Copy link location" or the equivalent for your web browser. You can then paste the link into a report, your notes or an email. 
+* Right-click on the permalink and select "Copy link location" or the equivalent for your web browser. You can then paste the link into a report, your notes or an email.
 
 * You can click on "Email Link" to start a new email message in your default email client with the permalink already included in the message body.
 

@@ -696,7 +696,7 @@ Results might look like these:
 
 .. rubric:: Create a FDW to a WFS
 
-Start Geoserver via :menuselection:`Geospatial --> Web Services --> GeoServer -->  Start GeoServer`
+Start Geoserver via |menu_geoserver-Start|.
 
 * Open GeoServer http://localhost:8082/geoserver/web/
 * GeoServer WFS GetCapabilities http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=GetCapabilities

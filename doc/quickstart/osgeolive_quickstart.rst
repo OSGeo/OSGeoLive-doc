@@ -17,12 +17,12 @@ Your computer should have at least:
 
 * RAM: minimum 2 GB (4 GB recommended).
 * CPU: 1 GHz 64 bit.
-* Hard Disk: 
+* Hard Disk:
 
- * None required if running directly from the DVD 
- * |osgeolive-hdspace| if you wish to install the operating system. 
+ * None required if running directly from the DVD
+ * |osgeolive-hdspace| if you wish to install the operating system.
 
-* Mouse: a 3-button mouse is useful, especially for Mac trackpad users. 
+* Mouse: a 3-button mouse is useful, especially for Mac trackpad users.
 
 Run:
 --------------------------------------------------------------------------------
@@ -45,7 +45,7 @@ Run:
      :scale: 70 %
      :alt: boot select
 
-  Try the many applications from the :menuselection:`Geospatial` menu. 
+  Try the many applications from the :menuselection:`Geospatial` menu.
 
 See Also:
 --------------------------------------------------------------------------------

@@ -39,7 +39,7 @@ This is how a Mapbender application can look like:
 Start Mapbender
 ================================================================================
 
-#. Choose  :menuselection:`Geospatial --> Browser Clients --> Mapbender` from the start menu or visit http://localhost/mapbender/app.php. The application will take a few moments to start up
+#. Choose  |menu_mapbender| from the start menu or visit http://localhost/mapbender/app.php. The application will take a few moments to start up
 
    If you have any difficulties running Mapbender, please check whether your Apache web server and your PostgreSQL database are running. Or if you use SQLite as database whether you have write access to the file.
 
@@ -73,10 +73,10 @@ Create a new application by providing basic information about your application. 
 
 #. Choose the button **Create** to create the application
 
-.. tip:: You can easily create an application by copying an existing application using the **Duplicate Application** button. 
+.. tip:: You can easily create an application by copying an existing application using the **Duplicate Application** button.
 
 
-Your application is set up. Next you need a WMS to be displayed in your application. 
+Your application is set up. Next you need a WMS to be displayed in your application.
 
   .. image:: /images/projects/mapbender/mapbender3_create_application.png
      :scale: 70 %
@@ -92,7 +92,7 @@ A WMS returns an XML-file when the getCapabilities document is requested. This i
 
 #. Choose menu item :menuselection:`Services --> Add Service` or use the +-Button.
 
-#. Link to the WMS getCapabilities URL in the text field :menuselection:`Serviceurl`. 
+#. Link to the WMS getCapabilities URL in the text field :menuselection:`Serviceurl`.
    Here is a example WMS: WhereGroup OSM WMS https://osm-demo.wheregroup.com/service?SERVICE=WMS&VERSION=1.3.0&REQUEST=getCapabilities
 
 #. Enter username and password if your service needs authentication.

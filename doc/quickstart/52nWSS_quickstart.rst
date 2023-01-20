@@ -9,7 +9,7 @@
 @VMDK_52nWSS@
 
 
-  
+
 ********************************************************************************
 @NAME_52nWSS@ Quickstart
 ********************************************************************************
@@ -35,14 +35,14 @@ For this OSGeoLive distribution, the 52°North WSS is already set up to protect 
 
 To get a list of protected services follow these steps:
 
-#. Go to :menuselection:`Geospatial --> Web Services --> 52North --> Start 52North WSS` to start the 52°North WSS or use this `direct link <http://localhost:8080/wss/site/manage.html>`_.
-  
+#. Go to :|menu_52nWSS-Start| to start the 52°North WSS or use this `direct link <http://localhost:8080/wss/site/manage.html>`_.
+
 #. The 52°North WSS management interface will open in a browser window. Click *Manage WSS* (**1**) to get a list of those services, that can be connected using the WSS.
 
    .. image:: /images/projects/52nWSS/52nWSS_start_manager.png
      :scale: 70 %
-     
-.. tip:: 
+
+.. tip::
   If it's requested, authenticate as user/user
 
 
@@ -57,7 +57,7 @@ The table has the following columns:
      :scale: 70 %
 
 * Enforcement Point Identifier
- 
+
 * Protected OGC Service base URL
 
 * OGC Service Type
@@ -71,7 +71,7 @@ The table has the following columns:
 Secure a WMS
 ================================================================================
 
-In this section we're going to protect a local WMS instance. 
+In this section we're going to protect a local WMS instance.
 
 
 Create a new enforcement point
@@ -102,9 +102,9 @@ Create a new enforcement point
 
 
 Create a new user
---------------------------------------------------------------------------------     
-     
-#. Open a new terminal emulator by selecting the menu option :menuselection:`Applications --> Accessories --> Terminal Emulator` 
+--------------------------------------------------------------------------------
+
+#. Open a new terminal emulator by selecting the menu option :menuselection:`Applications --> Accessories --> Terminal Emulator`
 
 #. Edit the file :file:`users.xml` present at the directory :file:`/var/lib/tomcat6/webapps/wss/WEB-INF/classes/`::
 
@@ -133,7 +133,7 @@ Now we will set up the following access policies for the newly protected WMS:
 
 * User `livedvd` -> Full access to all the layers from the WMS
 * Users `bob` and `guest` -> Access only to the layer `tasmania`
-* Other users -> Access not authorized to the WMS 
+* Other users -> Access not authorized to the WMS
 
 #. Return to the terminal emulator window.
 
@@ -185,7 +185,7 @@ In order to load the users and permissions changes, it's necessary to restart th
 Load a protected OGC Service
 ================================================================================
 
-In order to request the capabilities of the protected Geoserver WMS, follow the next steps:  
+In order to request the capabilities of the protected Geoserver WMS, follow the next steps:
 
 #. Type http://localhost:8080/wss/service/geoserver_localhost/httpauth?SERVICE=WMS&REQUEST=GetCapabilities in a browser
 
@@ -201,7 +201,7 @@ In order to request the capabilities of the protected Geoserver WMS, follow the 
 To further test the protected service, load http://localhost:8080/wss/service/geoserver_localhost/httpauth as WMS into any desktop mapping client that supports HTTP
 Basic Authentication. Follow the next steps for :doc:`QGis <../overview/qgis_overview>`:
 
-#. From the start menu, select :menuselection:`Geospatial --> Desktop GIS --> Quantum GIS` 
+#. From the start menu, select :menuselection:`Geospatial --> Desktop GIS --> Quantum GIS`
 
 #. The application will take a few seconds to start (a splash screen is shown while loading)
 

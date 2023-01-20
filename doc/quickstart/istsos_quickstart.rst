@@ -43,7 +43,7 @@ With istSOS you can organize your sensor data in different instances. Every inst
 
 The first steps into istSOS setup is to configure the default configuration options. These options will then be automatically used for your convenience by every new istSOS instance created.
 
-#. Click :menuselection:`Geospatial --> Webservices --> istSOS` to open the Web Admin interface. Alternatively, open a browser and go to `<http://localhost/istsos/admin>`_
+#. Click |menu_istsos| to open the Web Admin interface. Alternatively, open a browser and go to `<http://localhost/istsos/admin>`_
 
 #. Click the :guilabel:`Enter` button in the administration page.
 

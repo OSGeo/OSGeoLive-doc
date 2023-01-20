@@ -296,7 +296,7 @@ Things to try
 
 * Try publishing your QGIS map to the web using :doc:`QGIS Map Server
   <../overview/qgis_mapserver_overview>`. in the
-  :menuselection:`Geospatial --> Web Services` menu.
+  |menu_qgis-server|
 
 
 What next?
