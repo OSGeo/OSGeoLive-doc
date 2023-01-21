@@ -21,12 +21,12 @@ A WPS provides web access to functions which run spatial algorithms.
 
 .. contents:: Contents
    :local:
-  
+
 
 Start ZOO-Project
 =================
 
-From the Start menu, select :menuselection:`Geospatial --> Web Services --> ZOO Project`.
+From the Start menu, select |menu_zoo-project|.
 
 Firefox will open the ZOO Project demonstration landing page. From here, you can select a demon application.
 
@@ -46,7 +46,7 @@ OGR spatial tools demo
     :scale: 50 %
     :alt: screenshot
     :align: center
-  
+
 
 #. Now select another feature near the first you've selected, then click on a multiple geometries process button like Union, Intersection, Symmetric Difference or Difference to get the result displayed in red on the map.
 
@@ -72,8 +72,8 @@ OTB Applications demo
 =====================
 
 #. On the ZOO Project demonstration landing page, click :guilabel:`view` on OTB application.
-#. Fill the form on the left to configure the WPS service execution. 
-#. Once you have selected the values for your processing, press the :guilabel:`Execute` button at the bottom of the left form. 
+#. Fill the form on the left to configure the WPS service execution.
+#. Once you have selected the values for your processing, press the :guilabel:`Execute` button at the bottom of the left form.
 #. If you chose image/png as the output format, you will see the result of your processing displayed on the map. You can see below a sample KMeansClassification execution when selecting the image/png output format.
 
    .. image:: /images/projects/zoo-project/zoo-demo-1.png
@@ -88,6 +88,6 @@ What next?
 
 *	You can access the capabilities of the ZOO WPS Server:
 		http://localhost/cgi-bin/zoo_loader.cgi?Request=GetCapabilities&Service=WPS
-	
+
 *	For further questions you can contact the ZOO Project mailing list:
 	zoo-discuss@lists.osgeo.org

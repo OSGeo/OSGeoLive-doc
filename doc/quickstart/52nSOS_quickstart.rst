@@ -32,7 +32,7 @@ This Quick Start describes how to:
 Getting Started
 ===============
 
-1. Select :menuselection:`Geospatial --> Web Services --> 52North --> Start 52North SOS` to start the 52°North SOS.
+1. Select :|menu_52nSOS-Start| to start the 52°North SOS.
 
 This will open the 52°North SOS client welcome page in firefox at
    http://localhost:8080/52nSOS/ (see Fig. 1).

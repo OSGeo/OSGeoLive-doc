@@ -32,7 +32,7 @@ Start the service and view the demo
 
 MapProxy has flexible deployment options and you can integrate it in Apache for example. But you can also start MapProxy as a standalone service, which is the best option to get started.
 
-#. To start MapProxy as a standalone service click on :menuselection:`Geospatial --> Web Services --> MapProxy --> Start MapProxy`.
+#. To start MapProxy as a standalone service click on |menu_mapproxy-Start|.
 
 #. Open Firefox and navigate to `<http://localhost:8011/demo>`_
 

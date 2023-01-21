@@ -31,7 +31,7 @@ Mapnik and its python bindings are installed and ready to be used for scripting 
 Creating maps in python is easy with Mapnik. Open a terminal window and type `python3` on the command line to enter a python interpreter. Then try this::
 
 ::
-  
+
     import mapnik, os
     m = mapnik.Map(600,400)
     style = '/usr/local/share/mapnik/world_population.xml'
@@ -42,7 +42,7 @@ Creating maps in python is easy with Mapnik. Open a terminal window and type `py
 
 
 .. note::
-    
+
       The above code depends on having an XML stylesheet that Mapnik can read (world_population.xml), defining the layers
       to read data from and the styles to apply to those layers.
 
@@ -52,9 +52,9 @@ Mapnik & MapProxy
 
 A basic demo application is available which demonstrates using Mapnik with MapProxy
 
-The demo uses the world_population.xml from the Mapnik demo. 
+The demo uses the world_population.xml from the Mapnik demo.
 
-#. Click :menuselection:`Geospatial --> Web Services --> MapProxy --> Start MapProxy`. The server starts in a terminal window (which stays open and outputs basic debugging information).
+#. Click |menu_mapnik|. The server starts in a terminal window (which stays open and outputs basic debugging information).
 
 #. Open the MapProxy demo application http://0.0.0.0:8011/demo/
 
@@ -62,7 +62,7 @@ The demo uses the world_population.xml from the Mapnik demo.
 
 
 #. You can use the MapProxy WMS in other applications for example in QGIS or in Mapbender (http://localhost/mapbender/application/mapbender_user).
- 
+
 
 #. Observe the output in the server terminal window.
 

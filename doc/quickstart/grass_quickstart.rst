@@ -28,7 +28,7 @@ Start GRASS
 .. author's note: Update in osgeolive8.5: light NC dataset is included, tutorial
  rewritten
 
-#. Click on the GRASS link in the :menuselection:`Geospatial --> Desktop GIS` menu.
+#. Click on |menu_grass82|.
 #. From the "Welcome to GRASS GIS" window, select the "nc_basic_spm_grass7" dataset for the location, and "user1" for the mapset
 #. Click on :guilabel:`Start GRASS session`.
 

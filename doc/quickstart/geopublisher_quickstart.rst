@@ -38,18 +38,18 @@ Manuals
 Geopublisher (Create and export atlases)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * `Geopublisher manual, French, Created for version 1.2 <../../geopublishing/Geopublisher_v1.2_FR_Handbuch_090803.pdf>`_
-* `Geopublisher manual, German, Created for version 1.2 <../../geopublishing/Geopublisher_v1.2_DE_Handbuch_090801.pdf>`_    
+* `Geopublisher manual, German, Created for version 1.2 <../../geopublishing/Geopublisher_v1.2_DE_Handbuch_090801.pdf>`_
 
 AtlasStyler (Styling layers with SLD)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-* `AtlasStyler manual, German, Created for version 1.2 <../../geopublishing/AtlasStyler_v1.2_DE_Handbuch_090601.pdf>`_  
+* `AtlasStyler manual, German, Created for version 1.2 <../../geopublishing/AtlasStyler_v1.2_DE_Handbuch_090601.pdf>`_
 
 AtlasViewer (How to use atlases created with Geopublisher)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * `AtlasViewer manual, French, Created for version 1.3 <../../geopublishing/AtlasViewer_v1.3_FR_Manual_090522.pdf>`_
-* `AtlasViewer manual, English, Created for version 1.3 <../../geopublishing/AtlasViewer_v1.3_EN_Manual_090522.pdf>`_ 
-* `AtlasViewer manual, German, Created for version 1.3 <../../geopublishing/AtlasViewer_v1.3_DE_Handbuch_090522.pdf>`_  
+* `AtlasViewer manual, English, Created for version 1.3 <../../geopublishing/AtlasViewer_v1.3_EN_Manual_090522.pdf>`_
+* `AtlasViewer manual, German, Created for version 1.3 <../../geopublishing/AtlasViewer_v1.3_DE_Handbuch_090522.pdf>`_
 
 
 Running
@@ -60,11 +60,11 @@ Getting Started
 
 Geopublisher is an end-user application, that allows you to compile and style your geodata and publish it to the world quickly. This DVD contains a small demo atlas, that you can use as a base before adding you own data.
 
-#) The OSGeoLive DVD uses the Lubuntu Operating system which has a temporary small problem with Java-based applications: As a solution please right-click on menu-bar (Where 'Applications' and 'Places' is listed) and select 'Customize Panel'. There check the 'Autohide' option. The menubar is now hidden unless your mouse reaches the top of the screen. 
+#) The OSGeoLive DVD uses the Lubuntu Operating system which has a temporary small problem with Java-based applications: As a solution please right-click on menu-bar (Where 'Applications' and 'Places' is listed) and select 'Customize Panel'. There check the 'Autohide' option. The menubar is now hidden unless your mouse reaches the top of the screen.
 
 #) Uncompress the demo atlas: Click on `this link <../../geopublishing/ChartDemoAtlas_WorkingCopy.zip>`_ and select 'Open with Archive Manager (default)'. This will open the ZIP file. Next select the third icon in the toolbar to extract and choose 'Desktop' as the target folder. Now you should have a folder 'ChartDemoAtlas' on your desktop. You can close the Archive Manager application.
 
-#) Now start the Geopublisher application. :menuselection:`Geospatial --> Desktop GIS --> Geopublisher`. Geopublisher starts and will ask you which atlas to open. Select 'atlas.gpa' from folder 'ChartDemoAtlas'. It now loads the atlas. You should see a triparted GUI with a map-pool, data-pool and menu area. This GUI allows you to create and organize multiple multi-language maps.
+#) Now start the Geopublisher application. |menu_geopublisher|. Geopublisher starts and will ask you which atlas to open. Select 'atlas.gpa' from folder 'ChartDemoAtlas'. It now loads the atlas. You should see a triparted GUI with a map-pool, data-pool and menu area. This GUI allows you to create and organize multiple multi-language maps.
 
 #) Add a Shapefile to the atlas: Select :menuselection:`File --> Import... --> Import files` and select '/home/user/data/natural_earth2/ne_10m_lakes.shp'. Geopublisher will ask you to describe that new layer with a title and a description. If that atlas would be configured to be multilingual, this information would be asked for every language. You will see the new layer appearing the DataPool section.
 
@@ -72,7 +72,7 @@ Geopublisher is an end-user application, that allows you to compile and style yo
 
 #) Export the atlas: :menuselection:`File --> Export` and follow the wizard: Export online and offline version of the atlas to a new directory 'Desktop/ChartAtlasExported'. When the export finished, click the "open folder" button. You see the exported and stand-alone versions of the atlas, that you were just editing.
 
-#) Try the exported atlas: Go into the `Desktop/ChartAtlasExported/DISK` folder and run `start.sh`. 
+#) Try the exported atlas: Go into the `Desktop/ChartAtlasExported/DISK` folder and run `start.sh`.
 
 #) Geopublisher has many more possibilities of course. Go to :menuselection:`Applications --> Education --> Geopublishing documentation` and look at all the documentation provided.
 

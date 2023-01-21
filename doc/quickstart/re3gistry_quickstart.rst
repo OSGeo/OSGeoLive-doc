@@ -30,8 +30,8 @@ This Quick Start describes how to:
 Start the Re3gistry
 ================================================================================
 
-Choose *'Start Re3gistry'* from the :menuselection:`Geospatial --> Web Services
---> Re3gistry` menu.  The application will take a few moments to start up.
+Choose *'Start Re3gistry'* from the |menu_re3gistry-Start|
+menu.  The application will take a few moments to start up.
 Firefox opens the *Re3gistry landing page* (you can also open this manually by
 pointing your browser to http://localhost:8080/re3gistry2).
 

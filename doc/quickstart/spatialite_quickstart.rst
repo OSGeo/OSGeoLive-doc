@@ -8,7 +8,7 @@
 
 
 .. TBD: Cameron Review
-  We need to explain in words what we aim to achieve by each 
+  We need to explain in words what we aim to achieve by each
   step. Eg: "Let's find all Villas which include have a geometry and ..."
   This will require an extra sentence for most steps.
 
@@ -23,7 +23,7 @@
 @NAME_spatialite@ Quickstart
 ********************************************************************************
 
-SpatiaLite is an SQLite database engine with spatial functions added. 
+SpatiaLite is an SQLite database engine with spatial functions added.
 
 SQLite is a Database Management System (DBMS) which is simple, robust, easy to use and very lightweight. Each SQLite database is simply a file. You can freely copy it, compress it, and port it between Windows, Linux, MacOs etc.
 
@@ -31,7 +31,7 @@ This Quick Start describes how to open a spatialite database from both GUI appli
 
 .. contents:: Contents
    :local:
-  
+
 Start Spatialite and load a database
 ====================================
 
@@ -40,7 +40,7 @@ spatialite database. You can easily see the structure of the tables and data
 contents using point and click functions, many of which construct
 common SQL queries, or craft your own SQL queries.
 
-#. Open the Spatialite GUI by selecting :menuselection:`Geospatial->Databases->Spatialite GUI`.
+#. Open the Spatialite GUI by selecting |menu_spatialite-gui|
 
    .. TBD: Cameron Review Comment: We should have continuity in our examples. Ie, Use the same scenario for all   spaital-gui steps. Use the same table, where each step builds upon the previous step. I'd suggest our examples should aim to have a GIS focus to them too.
 
@@ -96,7 +96,7 @@ Run an SQL query
 Run spatialite from the command line
 ====================================
 
-Users needing to script or automate queries will learn the advantages of working with a spatialite database from the command line interface. In this example, we will load a shapefile, and search for schools which are near highway 42. 
+Users needing to script or automate queries will learn the advantages of working with a spatialite database from the command line interface. In this example, we will load a shapefile, and search for schools which are near highway 42.
 
 #. Before working from the command line, we need to open a terminal window: :menuselection:`System Tools -> LXTerminal`.
 
@@ -106,7 +106,7 @@ Users needing to script or automate queries will learn the advantages of working
 
 
    Helpful commands from the command line::
-    
+
      .help
      .tables
      .quit
@@ -114,7 +114,7 @@ Users needing to script or automate queries will learn the advantages of working
 
 Create a new spatialite database and load a shapefile
 =====================================================
-  
+
 #. Let's create a new, empty spatialite database, and load two shapefiles from the north_carolina dataset::
 
       user@osgeo-6:~$ spatialite test.sqlite
@@ -146,7 +146,7 @@ Create a new spatialite database and load a shapefile
       SQLite version 3.31.1 2020-01-27 19:55:54
       Enter ".help" for instructions
       Enter SQL statements terminated with a ";"
-      spatialite>       
+      spatialite>
       spatialite> .loadshp data/north_carolina/shape/schools_wake schools utf-8 3358
       spatialite> .loadshp data/north_carolina/shape/roadsmajor roads utf-8 3358
 
@@ -154,7 +154,7 @@ Create a new spatialite database and load a shapefile
    Note the format of the .loadshp command: first the shapefile without the .shp extension, then the name of the new spatialite table, next the character encoding, and finally the EPSG code of the shapefile's CRS.
 
 #. Now we'll query for schools near to highway 42.::
- 
+
       spatialite> SELECT s.NAMESHORT, s.ADDRNUMBER, s.ADDRROOT
            ...> FROM schools AS s, roads AS r
            ...> WHERE r.ROAD_NAME = "NC-42" AND
@@ -173,7 +173,7 @@ Create a new spatialite database and load a shapefile
           ...> WHERE r.ROAD_NAME = "NC-42" AND
           ...> ST_Distance(s.Geometry, r.Geometry) < 1000;
       spatialite>.q
- 
+
 
 
 Things to try

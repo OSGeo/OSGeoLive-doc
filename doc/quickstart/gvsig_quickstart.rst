@@ -44,7 +44,7 @@ gvSIG into the ideal tool for users working in the land realm.
 Start gvSIG and create a view
 =============================
 
-#. Select gvSIG from the application menu, :menuselection:`Geospatial --> Desktop GIS --> gvSIG`. The application usually takes about a minute to startup.
+#. Select gvSIG from the application menu, |menu_gvsig|. The application usually takes about a minute to startup.
 
 #. By default gvSIG opens with an empty project file with the 'View' document
    type selected. However, on OSGeoLive, gvSIG has been configured to
@@ -306,13 +306,13 @@ View the result
    :scale: 55
 
 
-Create a new map 
+Create a new map
 ================
 
 #. Select the *Map* document type in the **Project Manager**.
 #. Click on the :guilabel:`New` button to create a map.
-#. A new window is shown, where you can select the view to insert on the Map. 
-   Select the only view that you have and press *Accept*. 
+#. A new window is shown, where you can select the view to insert on the Map.
+   Select the only view that you have and press *Accept*.
 #. The map will appear with the view selected.
 
 Work with the map
@@ -355,7 +355,7 @@ Open the add-ons manager
 Find an add-on
 --------------
 
-#. At the add-ons manager we can find plugins and symbol libraries. 
+#. At the add-ons manager we can find plugins and symbol libraries.
 #. Type 'Forestry' in the *Fast filter* text box.
 #. Check the add-on called *Symbols: Forestry* (it's a symbol library).
 #. Click on *Next*.
@@ -370,7 +370,7 @@ Finish the installation
 #. Then click on *Next*.
 #. Finally click on *Finish*.
 
-Although the new message indicates that a restart is needed, for symbol libraries it's not necessary. We only have to restart when we install plugins. 
+Although the new message indicates that a restart is needed, for symbol libraries it's not necessary. We only have to restart when we install plugins.
 
 
 Add an OpenStreetMap layer

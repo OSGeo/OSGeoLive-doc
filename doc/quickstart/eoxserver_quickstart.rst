@@ -35,7 +35,7 @@ This Quick Start describes how to:
 Start EoxServer
 ===============
 
-Choose :menuselection:`Geospatial --> Web Services --> EOxServer`. This launches a
+Choose |menu_eoxserver|. This launches a
 browser showing the demonstration instance available at http://localhost/eoxserver/
 
 .. image:: /images/projects/eoxserver/eoxserver_start.png
@@ -54,7 +54,7 @@ demonstration instance is filled with ENVISAT MERIS scenes.
   :scale: 50 %
   :alt: Main view of the EOxServer Web Client
 
-The client consists of the map view and widgets that contain the main interactions. 
+The client consists of the map view and widgets that contain the main interactions.
 The main area is the map widget of the client with a set of datasets already displayed.
 On the bottom, you'll find the timeslider widget, that allows you to explore the
 contents in the temporal dimension.
@@ -133,7 +133,7 @@ clicking the "Collections" link and then the "MER_FRS_1P_RGB_reduced" link.
   :scale: 50 %
   :alt: EOxServer demonstration admin client Dataset Series
 
-You can preview the coverages by going back and clicking on the "Coverages" link. 
+You can preview the coverages by going back and clicking on the "Coverages" link.
 
 .. image:: /images/projects/eoxserver/eoxserver_adminclient4.png
   :scale: 50 %

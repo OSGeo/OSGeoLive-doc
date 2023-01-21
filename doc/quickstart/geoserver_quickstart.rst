@@ -130,9 +130,7 @@ that is included on OSGeoLive (:file:`/usr/local/share/data/natural_earth2/`).
    will notice that under *Native SRS* it says UNKNOWN you will need to fill in
    the next box (*declared SRS*) to make sure |GS| knows where the data is.
 
-#. You can type epsg:4326 in the box, or go to `http://prj2epsg.org/search
-   <http://prj2epsg.org/search>`_ and paste in the string you see if you click
-   on the link next to "UNKNOWN".
+#. You can type epsg:4326 in the box
 #. Click on :guilabel:`Compute from data` and :guilabel:`Compute from native
    bounds` to fill in the Bounding Boxes.
 #. Finally hit :guilabel:`save` and you have published your first layer.
