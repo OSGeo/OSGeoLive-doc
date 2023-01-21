@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-17 21:23+0000\n"
+"POT-Creation-Date: 2023-01-21 20:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,7 +57,7 @@ msgid "Getting Started"
 msgstr ""
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:38
-msgid "Select :menuselection:`Geospatial --> Web Services --> 52North --> Start 52North SOS` to start the 52°North SOS."
+msgid "Select :|menu_52nSOS-Start| to start the 52°North SOS."
 msgstr ""
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:48

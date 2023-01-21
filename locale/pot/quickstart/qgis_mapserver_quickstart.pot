@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2023-01-21 20:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -49,7 +49,7 @@ msgid "OSGeoLive contains an example of web map viewer based on the GeoExt Javas
 msgstr ""
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:39
-msgid "Click :menuselection:`Geospatial --> Web Services --> QGIS Server`. You should see a browser window with a web map viewer showing a world map."
+msgid "Click |menu_qgis|. You should see a browser window with a web map viewer showing a world map."
 msgstr ""
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:43
@@ -65,7 +65,7 @@ msgid "We will now change the map styling using QGIS."
 msgstr ""
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:52
-msgid "Click :menuselection:`Geospatial --> Desktop GIS --> QGIS`."
+msgid "Click |menu_qgis|"
 msgstr ""
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:54
@@ -173,11 +173,11 @@ msgstr ""
 msgid "https://github.com/qgis/qgis-web-client"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr ""
 

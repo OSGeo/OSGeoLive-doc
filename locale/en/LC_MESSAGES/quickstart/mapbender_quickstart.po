@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-05 20:06+0000\n"
+"POT-Creation-Date: 2023-01-21 20:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:24
 msgid "Mapbender Quickstart"
@@ -66,9 +66,9 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:48
 msgid ""
-"Choose  :menuselection:`Geospatial --> Browser Clients --> Mapbender` "
-"from the start menu or visit http://localhost/mapbender/app.php. The "
-"application will take a few moments to start up"
+"Choose  |menu_mapbender| from the start menu or visit "
+"http://localhost/mapbender/app.php. The application will take a few "
+"moments to start up"
 msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:50
@@ -409,11 +409,11 @@ msgstr ""
 msgid "Get involved in the project https://mapbender.org/community/"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr ""
 

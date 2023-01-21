@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 15.0\n"
+"Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-04 13:45+0000\n"
+"POT-Creation-Date: 2023-01-21 20:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,7 +45,7 @@ msgid "MapProxy has flexible deployment options and you can integrate it in Apac
 msgstr ""
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:41
-msgid "To start MapProxy as a standalone service click on :menuselection:`Geospatial --> Web Services --> MapProxy --> Start MapProxy`."
+msgid "To start MapProxy as a standalone service click on |menu_mapproxy-Start|."
 msgstr ""
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:43

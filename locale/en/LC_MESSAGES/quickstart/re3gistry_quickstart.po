@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2023-01-21 20:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:12
 msgid "Re3gistry Quickstart"
@@ -57,11 +57,10 @@ msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:36
 msgid ""
-"Choose *'Start Re3gistry'* from the :menuselection:`Geospatial --> Web "
-"Services --> Re3gistry` menu.  The application will take a few moments to"
-" start up. Firefox opens the *Re3gistry landing page* (you can also open "
-"this manually by pointing your browser to "
-"http://localhost:8080/re3gistry2)."
+"Choose *'Start Re3gistry'* from the |menu_re3gistry-Start| menu.  The "
+"application will take a few moments to start up. Firefox opens the "
+"*Re3gistry landing page* (you can also open this manually by pointing "
+"your browser to http://localhost:8080/re3gistry2)."
 msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:41
@@ -320,11 +319,11 @@ msgid ""
 "jrc/re3gistry/blob/master/documentation/developer-manual.md>`__"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr ""
 

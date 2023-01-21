@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2023-01-21 20:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -209,54 +209,58 @@ msgid "Using QGIS Desktop to load your OGC WMS"
 msgstr ""
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:302
-msgid "Start QGIS via :menuselection:`Geospatial --> Desktop GIS --> QGIS Desktop`. Go to :menuselection:`Layer --> Add Layer --> Add WMS/WMTS Layer`."
+msgid "Start QGIS via |menu_qgis|"
 msgstr ""
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:304
-msgid "Click button **New** and add a name and your Service URL"
+msgid "Go to :menuselection:`Layer --> Add Layer --> Add WMS/WMTS Layer`."
 msgstr ""
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:306
-msgid "Save your settings:"
+msgid "Click button **New** and add a name and your Service URL"
 msgstr ""
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:308
-msgid "http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0"
+msgid "Save your settings:"
 msgstr ""
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:310
+msgid "http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0"
+msgstr ""
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:312
 msgid "Then you can connect to your service and add one or more layers of the service to your QGIS project. If you choose the layer with the ID 0 you can load the whole service with all layers at once."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:317
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:319
 msgid "What Next?"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:319
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:321
 msgid "This is a simple example, but you can do much, much more. The MapServer project website contains many resources to help you get started. Here's a few resources to check out next:"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:323
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:325
 msgid "Read the `Introduction to MapServer <https://mapserver.org/introduction.html#introduction>`_."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:325
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:327
 msgid "Have a look at the `MapServer Tutorial <https://www.mapserver.org/tutorial/index.html>`_ which contains more Mapfile examples."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:328
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:330
 msgid "Check the `OGC Support and Configuration <https://www.mapserver.org/ogc/index.html>`_ to learn more about OGC standards in MapServer (WMS, WFS, SLD, WFS Filter Encoding, WCS, SOS, etc.)."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:331
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:333
 msgid "Ready to use MapServer? Then join the community on the `Mailing Lists <https://www.mapserver.org/community/lists.html>`_ to exchange ideas, discuss potential software improvements and ask questions."
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr ""
 
