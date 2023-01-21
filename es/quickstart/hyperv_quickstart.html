@@ -67,7 +67,9 @@
 <p>Las ventajas de usar una máquina virtual son las mismas que se describen en <a class="reference internal" href="virtualization_quickstart.html"><span class="doc">Ejecución en una máquina virtual</span></a>. Lamentablemente, Virtual Box e Hyper-V no se pueden ejecutar simultáneamente. Esto deja 2 opciones - deshabilitar la característica Hyper-V o configurar una nueva máquina Hyper-V para ejecutar OSGeoLive. Se puede usar una herramienta gratuita <cite>hypervswitch &lt;https://unclassified.software/en/apps/hypervswitch&gt;</cite> _ para habilitar e inhabilitar Hyper-V rápidamente, sin embargo, todavía se requiere reiniciar cada vez que se cambia la configuración. El resto de esta página documenta cómo configurar OSGeoLive para que se ejecute en Hyper-V.</p>
 <section id="system-requirements">
 <h2>Requerimientos del Sistema<a class="headerlink" href="#system-requirements" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>Los requisitos de Hyper-V pueden encontrarse <cite>aquí &lt; https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/reference/hyper-v-requirements &gt;</cite> _. Este enlace también proporciona información sobre comprobar si tu máquina es compatible con el comando `` systeminfo``. En resumen el equipo host debe tener los siguientes requisitos de hardware:</p>
+<p>Hyper-V requirements can be found <a class="reference external" href="https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v">here</a>.
+This link also provides information on checking if your machine is compatible using the <code class="docutils literal notranslate"><span class="pre">systeminfo</span></code> command. In summary the host machine
+needs to have the following hardware requirements:</p>
 <ul class="simple">
 <li><p>RAM: 4 GB mínimo</p></li>
 <li><p>Procesador 64-bit</p></li>
@@ -85,7 +87,8 @@
 <h3>Convertidor de máquina Virtual de Microsoft 3.0<a class="headerlink" href="#microsoft-virtual-machine-converter-3-0" title="Enlazar permanentemente con este título">¶</a></h3>
 <p>La segunda opción más complicada es la siguiente.</p>
 <ol class="arabic simple">
-<li><p>Descargue el <a class="reference external" href="https://www.microsoft.com/en-us/download/details.aspx?id=42497">Convertidor de Máquina Virtual de Microsoft 3.0</a> e instale.</p></li>
+<li><p>Download the <a class="reference external" href="https://techcommunity.microsoft.com/t5/system-center-blog/microsoft-virtual-machine-converter-3-0-is-now-available-for/ba-p/349874">Microsoft Virtual Machine Converter 3.0</a>
+and install.</p></li>
 <li><p>Descargue el Kit de Operaciones de archivos DS y descomprima.</p></li>
 <li><p>Open PowerShell (con derechos de administrador)</p></li>
 <li><p>Ejecute el siguiente comando para obtener el descriptor de disco del OSGeoLive vmdk. Esto guarda la descripción del disco en el archivo «descriptor1.txt».</p></li>

@@ -67,7 +67,9 @@
 <p>A virtuális gép használatának előnyei ugyanazok, melyeket a <a class="reference internal" href="virtualization_quickstart.html"><span class="doc">Egy virtuális gép futtatása</span></a>-ban kiemeltünk. Sajnos a Virtual Box és a Hyper-V nem futtatható párhuzamosan. Ez két lehetőséget hagy - a Hyper-V letiltása vagy egy új Hyper-V gép konfigurálása az OSGeoLive futtatásához. Egy szabad eszköz hypervswitch &lt;<a class="reference external" href="https://unclassified.software/en/apps/hypervswitch">https://unclassified.software/en/apps/hypervswitch</a>&gt;`_ használható a Hyper-V gyors engedélyezéséhez és letiltásához - bár ez egy újraindítást igényel a beállítás minden módosítása után. Az oldal további része az OSGeoLive Hyper-V-n futtatását dokumentálja.</p>
 <section id="system-requirements">
 <h2>Rendszer követelmények<a class="headerlink" href="#system-requirements" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
-<p>A Hyper-V követelmények <a class="reference external" href="https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/reference/hyper-v-requirements">itt találhatók</a>. Ez a link információt tartalmaz a gép kompatibilitásnak ellenőrzéséről a <code class="docutils literal notranslate"><span class="pre">systeminfo</span></code> paranccsal. Összefoglalóan a gazda gépnek a következő hardver feltételeknek kell megfelelnie:</p>
+<p>Hyper-V requirements can be found <a class="reference external" href="https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v">here</a>.
+This link also provides information on checking if your machine is compatible using the <code class="docutils literal notranslate"><span class="pre">systeminfo</span></code> command. In summary the host machine
+needs to have the following hardware requirements:</p>
 <ul class="simple">
 <li><p>RAM: 4 GB minimum</p></li>
 <li><p>64-bit Processor</p></li>
@@ -85,7 +87,8 @@
 <h3>Microsoft Virtual Machine Converter 3.0<a class="headerlink" href="#microsoft-virtual-machine-converter-3-0" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
 <p>A második, komplikáltabb lehetőség a következő.</p>
 <ol class="arabic simple">
-<li><p>Töltse le a <a class="reference external" href="https://www.microsoft.com/en-us/download/details.aspx?id=42497">Microsoft Virtual Machine Converter 3.0-t</a> és telepítse.</p></li>
+<li><p>Download the <a class="reference external" href="https://techcommunity.microsoft.com/t5/system-center-blog/microsoft-virtual-machine-converter-3-0-is-now-available-for/ba-p/349874">Microsoft Virtual Machine Converter 3.0</a>
+and install.</p></li>
 <li><p>Töltse le a DS File Ops Kit-et és tömörítse ki.</p></li>
 <li><p>Nyissa meg a PowerShell-t (adminisztrátori jogokkal)</p></li>
 <li><p>Futtassa a következő parancsot az OSGeoLive vmdk lemez leírójának beszerzéséhez. Ez elmenti a lemez leírót a descriptor1.txt” fájlba.</p></li>

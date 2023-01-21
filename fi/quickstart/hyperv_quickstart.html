@@ -67,7 +67,9 @@
 <p>Virtuaalikoneen käyttämisen edut ovat samat kuin ne, jotka on kuvattu kohdassa <a class="reference internal" href="virtualization_quickstart.html"><span class="doc">Running in a Virtual Machine</span></a>. valitettavasti Virtual Boxia ja Hyper-V ei voi suorittaa saman aikaisesti.  Tämä - poistetaan jättää 2 vaihtoehtoa - Hyper-V ominaisuus, tai konfiguroidaan uusi Hyper-V kone suorittamaan OSGeoLiveä. Vapaata työkalua <a class="reference external" href="https://unclassified.software/en/apps/hypervswitch">hypervswitch</a> voidaan käyttää nopeasti ottamaan tai poistamaan Hyper-V käytöstä - se kuitenkin edellyttää tietokoneen uudelleen käynnistystä joka kerta kun asetuksia muutetaan. Loppu tästä sivusta dokumentoi kuinka konfiguroida OSGeolive suoritettavaksi Hyper-V:llä</p>
 <section id="system-requirements">
 <h2>Järjestelmävaatimukset<a class="headerlink" href="#system-requirements" title="Permalink to this headline">¶</a></h2>
-<p>Hyper-V vaatimukset voit löytää <a class="reference external" href="https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/reference/hyper-v-requirements">täältä</a>. Tästä linkistä löydät myös tiedon tarkastamisesta onko koneesi yhteensopiva käyttäen <code class="docutils literal notranslate"><span class="pre">systeminfo</span></code> komentoa. Yhteenvedoksi koneesi tulee täyttää seuraavat laitteisto edellytykset:</p>
+<p>Hyper-V requirements can be found <a class="reference external" href="https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v">here</a>.
+This link also provides information on checking if your machine is compatible using the <code class="docutils literal notranslate"><span class="pre">systeminfo</span></code> command. In summary the host machine
+needs to have the following hardware requirements:</p>
 <ul class="simple">
 <li><p>RAM: 4 GB vähintään</p></li>
 <li><p>64-bit Prosessori</p></li>
@@ -85,7 +87,8 @@
 <h3>Microsoft Virtual Machine Converter 3.0<a class="headerlink" href="#microsoft-virtual-machine-converter-3-0" title="Permalink to this headline">¶</a></h3>
 <p>Toinen monimutkaisempi vaihtoehto on seuraava.</p>
 <ol class="arabic simple">
-<li><p>Lataa <a class="reference external" href="https://www.microsoft.com/en-us/download/details.aspx?id=42497">Microsoft Virtual Machine Converter 3.0</a> ja asenna se.</p></li>
+<li><p>Download the <a class="reference external" href="https://techcommunity.microsoft.com/t5/system-center-blog/microsoft-virtual-machine-converter-3-0-is-now-available-for/ba-p/349874">Microsoft Virtual Machine Converter 3.0</a>
+and install.</p></li>
 <li><p>Lataa DS File Ops Kit ja pura se.</p></li>
 <li><p>Avaa PowerShell (järjestelmänvalvojan oikeuksin)</p></li>
 <li><p>Suorita seuraava komento saadaksesi levyn kuvauksen OSGeoLive vmdk:sta. Tämä tallentaa levyn kuvauksen ”descriptor1.txt” tiedostoon.</p></li>

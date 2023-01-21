@@ -67,7 +67,9 @@
 <p>仮想マシンを利用する利点は、 <a class="reference internal" href="virtualization_quickstart.html"><span class="doc">仮想マシンで動作させる</span></a> にまとまっています。残念ですが、VirtualBoxと、Hyper-Vの両方を同時に試すことはできません。つまり、二つの選択肢のどちらかだけです。Hyper-Vを無効にするか、OSGeoLiveをHyper-Vで起動できるように設定するか、です。無料ツールの <a class="reference external" href="https://unclassified.software/en/apps/hypervswitch">hypervswitch</a> を使えば、簡単にすぐにHyper-Vの有効/無効を切りかえできます。しかし、設定を変更したときは再起動が必要です。このページのこれ以降は、OSGeoLiveをHyper-Vで稼動させる方法を説明します。</p>
 <section id="system-requirements">
 <h2>動作環境<a class="headerlink" href="#system-requirements" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p>Hyper-V の必要要件は <a class="reference external" href="https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/reference/hyper-v-requirements">ここ</a> で確認できます。このリンク先には、あなたが利用しているPCが、Hyper-Vをサポートできるかをチェックするツールの <code class="docutils literal notranslate"><span class="pre">systeminfo</span></code> コマンドの情報もあります。簡単にまとめると、ホストマシンは次のハードウエア要件を満す必要があります:</p>
+<p>Hyper-V requirements can be found <a class="reference external" href="https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v">here</a>.
+This link also provides information on checking if your machine is compatible using the <code class="docutils literal notranslate"><span class="pre">systeminfo</span></code> command. In summary the host machine
+needs to have the following hardware requirements:</p>
 <ul class="simple">
 <li><p>RAM: 最低4 GB</p></li>
 <li><p>64-bitプロセッサ</p></li>
@@ -85,7 +87,8 @@
 <h3>Microsoft Virtual Machine Converter 3.0<a class="headerlink" href="#microsoft-virtual-machine-converter-3-0" title="このヘッドラインへのパーマリンク">¶</a></h3>
 <p>二つ目の選択肢は、以下に示すように少し複雑です。</p>
 <ol class="arabic simple">
-<li><p><a class="reference external" href="https://www.microsoft.com/en-us/download/details.aspx?id=42497">Microsoft Virtual Machine Converter 3.0</a> をダウンロードしてインストールします。</p></li>
+<li><p>Download the <a class="reference external" href="https://techcommunity.microsoft.com/t5/system-center-blog/microsoft-virtual-machine-converter-3-0-is-now-available-for/ba-p/349874">Microsoft Virtual Machine Converter 3.0</a>
+and install.</p></li>
 <li><p>DS File Ops Kit をダウンロードして、unzipします。</p></li>
 <li><p>PowerShellを管理者権限で開きます。</p></li>
 <li><p>OSGeoLiveのvmdkファイルから、ディスクの記述子を取得するため、次のコマンドを実行します。 &quot;descriptor1.txt&quot; に仮想ディスクの情報が保存されます。</p></li>
