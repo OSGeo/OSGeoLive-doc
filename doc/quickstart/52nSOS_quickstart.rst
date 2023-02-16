@@ -190,7 +190,7 @@ potential starting points are:
 * 52°North :doc:`SOS overview <../overview/52nSOS_overview>`
 * 52°North Sensor Web mailing list: sensorweb@52north.org
 * 52°North `Sensor Web community <https://52north.org/research/scope/geospatial-sensing/>`_
-* 52°North `SOS Client <https://sensorweb.demo.52north.org/sensorwebclient-webapp-stable/>`_
+* 52°North `SOS Client <https://sensorweb.demo.52north.org>`__
 * 52°North `SOS Web site <https://52north.org/software/software-projects/sos>`_
 
 The development of this version of the 52°North SOS was supported by different
