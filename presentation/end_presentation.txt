@@ -65,8 +65,8 @@ Sponsors
 =============== ================ ====================
 OSGeo            UCD ICE          NTUA
 |osgeo_logo|     |ucdice_logo|    |ntua_logo|
-DebianGIS        okeanos          Georepublic
-|debian_logo|    |okeanos_logo|   |georepublic_logo|
+DebianGIS        okeanos
+|debian_logo|    |okeanos_logo|
 =============== ================ ====================
 
 
@@ -76,8 +76,7 @@ DebianGIS        okeanos          Georepublic
   the Information Center for the Environment at the University of California,
   the Remote Sensing Laboratory at the National Technical University of Athens,
   the DebianGIS and UbuntuGIS projects,
-  the Okeanos IaaS service
-  and Georepublic geomatics company.
+  and the Okeanos IaaS service
 
 Try out OSGeoLive
 --------------------------------------------------------------------------------

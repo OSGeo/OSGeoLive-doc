@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 15.0\n"
+"Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-01 11:04+0000\n"
+"POT-Creation-Date: 2023-02-15 20:42-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,14 +53,6 @@ msgstr ""
 msgid "The DebianGIS and UbuntuGIS projects provide and quality-assure many of the core packages."
 msgstr ""
 
-#: ../../build/doc/sponsors.rst:None
-msgid "Geolocation Technology Company"
-msgstr ""
-
-#: ../../build/doc/sponsors.rst:41
-msgid "Georepublic is a Geolocation Technology Company, that embraces the idea of Free Software, and provide support and custom development for Open Source GIS software."
-msgstr ""
-
 #: ../../build/doc/sponsors_osgeo.rst:7
 msgid "The OSGeo Foundation"
 msgstr ""
@@ -93,7 +85,7 @@ msgstr ""
 msgid "`FOSS4G <https://foss4g.org>`_: Annual, international conference for *Free and Open Source Software for Geospatial*, as well as many regional and local `events <https://www.osgeo.org/events>`_."
 msgstr ""
 
-#: ../../build/doc/sponsors.rst:47
+#: ../../build/doc/sponsors.rst:40
 msgid "Contributors"
 msgstr ""
 
@@ -2043,7 +2035,7 @@ msgstr ""
 msgid "Siki"
 msgstr ""
 
-#: ../../build/doc/sponsors.rst:57
+#: ../../build/doc/sponsors.rst:50
 msgid "Translators"
 msgstr ""
 

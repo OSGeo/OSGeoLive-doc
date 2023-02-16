@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-21 20:28+0000\n"
+"POT-Creation-Date: 2023-02-15 20:52-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -216,9 +216,7 @@ msgid ""
 msgstr ""
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:196
-msgid ""
-"52°North `SOS Client <https://sensorweb.demo.52north.org/sensorwebclient-"
-"webapp-stable/>`_"
+msgid "52°North `SOS Client <https://sensorweb.demo.52north.org>`__"
 msgstr ""
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:197
