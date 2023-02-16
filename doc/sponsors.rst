@@ -34,13 +34,6 @@ provides hardware resources and development support to the OSGeoLive project.
 The DebianGIS and UbuntuGIS projects provide and quality-assure many of
 the core packages.
 
-.. image:: /images/logos/georepublic.png
-  :alt:  Geolocation Technology Company
-  :target: https://georepublic.info
-
-Georepublic is a Geolocation Technology Company, that embraces the idea of Free Software,
-and provide support and custom development for Open Source GIS software.
-
 .. include:: sponsors_osgeo.rst
 
 Contributors
