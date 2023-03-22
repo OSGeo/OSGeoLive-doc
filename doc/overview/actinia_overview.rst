@@ -46,7 +46,7 @@ Details
 
 **API documentation:** https://redocly.github.io/redoc/?url=https://actinia.mundialis.de/latest/swagger.json
 
-**Support:** https://github.com/mundialis/actinia_core
+**Support:** https://github.com/actinia-org/actinia-core
 
 @VMDK_actinia@
 @QUICKSTART_actinia@

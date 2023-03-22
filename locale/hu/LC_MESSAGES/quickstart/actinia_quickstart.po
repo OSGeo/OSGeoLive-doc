@@ -110,11 +110,11 @@ msgstr ""
 msgid ""
 "Th ``ace`` tool must be executed in an active GRASS GIS session. It is "
 "installed with ``g.extension extension=ace "
-"url=https://github.com/mundialis/ace``."
+"url=https://github.com/actinia-org/ace``."
 msgstr ""
 "Az ``ace`` eszközt egy aktív GRASS GIS munkamenetből kell végrehajtani. "
 "Ezzel a paranccsal telepíthető ``g.extension extension=ace "
-"url=https://github.com/mundialis/ace``."
+"url=https://github.com/actinia-org/ace``."
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:58
 msgid ""
