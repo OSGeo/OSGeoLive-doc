@@ -1,7 +1,7 @@
 :Author: Markus Neteler, mundialis
 :Reviewer: Astrid Emde
 :Reviewer: Felicity Brand (Google Season of Docs 2019)
-:Version: osgeolive15.0
+:Version: osgeolive16.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 :Copyright: 2019-2022 by The OSGeo Foundation
 
