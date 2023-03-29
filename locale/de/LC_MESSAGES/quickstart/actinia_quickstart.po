@@ -93,7 +93,7 @@ msgstr ""
 msgid ""
 "Th ``ace`` tool must be executed in an active GRASS GIS session. It is "
 "installed with ``g.extension extension=ace "
-"url=https://github.com/mundialis/ace``."
+"url=https://github.com/actinia-org/ace``."
 msgstr ""
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:58
