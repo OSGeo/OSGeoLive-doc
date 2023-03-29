@@ -7,20 +7,22 @@
 # Vicky Vergara <vicky@georepublic.de>, 2018
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
-"PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"PO-Revision-Date: 2023-03-10 20:56+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"geomajas_overview/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: ../../build/doc/overview/geomajas_overview.rst:17
 msgid "Geomajas"
@@ -140,11 +142,11 @@ msgstr "**Versión de software:** |version-geomajas|"
 
 #: ../../build/doc/overview/geomajas_overview.rst:59
 msgid "**Supported Platforms:** Windows, Linux, Mac"
-msgstr "**Plataformas compatibles:** GNU/Linux, Mac OSX, MS Windows"
+msgstr "**Plataformas compatibles:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/geomajas_overview.rst:61
 msgid "**API Interfaces:** Java and Javascript"
-msgstr "**Interfaces API:**  Java yJavascript"
+msgstr "**Interfaces API:** Java y Javascript"
 
 #: ../../build/doc/overview/geomajas_overview.rst:63
 msgid "**Support:** https://www.osgeo.org/service-providers"

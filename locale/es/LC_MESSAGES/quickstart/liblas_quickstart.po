@@ -7,20 +7,22 @@
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
-"PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"PO-Revision-Date: 2023-02-17 06:23+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"liblas_quickstart/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: ../../build/doc/quickstart/liblas_quickstart.rst:18
 msgid "libLAS Quickstart"
@@ -134,7 +136,7 @@ msgid ""
 "``lasinfo output.las`` we see a problem:"
 msgstr ""
 "Nuestro proceso tiene éxito, pero después de una inspección rápida de los "
-"datos con ``lasinfo output.las``  vemos un problema:"
+"datos con ``lasinfo output.las`` se ve un problema:"
 
 #: ../../build/doc/quickstart/liblas_quickstart.rst:102
 msgid ""
