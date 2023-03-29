@@ -77,14 +77,14 @@
 </div>
 <section id="create-an-html-page">
 <h2><a class="toc-backref" href="#id1">Erstellen einer HTML-Seite</a><a class="headerlink" href="#create-an-html-page" title="Link zu dieser Überschrift">¶</a></h2>
-<p>In diesem Schritt richten wir eine leere HTML-Seite ein, die die Anwendung enthält. Wir verwenden den auf OSGeoLive installierten Texteditor FeatherPad, um eine neue HTML-Datei unter ‚‘/var/www/html/geoext/demo.html‘‘ zu erstellen.</p>
+<p>In diesem Schritt richten wir eine leere HTML-Seite ein, die die Anwendung enthält. Wir verwenden den auf OSGeoLive installierten Texteditor FeatherPad, um eine neue HTML-Datei unter ‚‘/var/www/html/geoext/demo.html‘‘ zu erstellen</p>
 <ol class="arabic">
 <li><p>Öffnen Sie FeatherPad über die Befehlszeile mit erhöhten Berechtigungen, so dass Sie die Datei mit System Tools &gt; QTerminal speichern und dann den folgenden Befehl ausführen können:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>featherpad
 </pre></div>
 </div>
 </li>
-<li><p>Fügen Sie den folgenden HTML-Code ein und speichern Sie die Datei als  <code class="docutils literal notranslate"><span class="pre">/var/www/html/geoext/demo.html</span></code>. Dieser enthält Links zu den JavaScript-Bibliotheken ExtJS und OpenLayers sowie zwei CSS-Dateien, die zum Formatieren von ExtJS- und OpenLayers-Komponenten verwendet werden.</p>
+<li><p>Fügen Sie den folgenden HTML-Code ein und speichern Sie die Datei als <code class="docutils literal notranslate"><span class="pre">/var/www/html/geoext/demo.html</span></code>. Dieser enthält Links zu den JavaScript-Bibliotheken ExtJS und OpenLayers sowie zwei CSS-Dateien, die zum Formatieren von ExtJS- und OpenLayers-Komponenten verwendet werden.</p>
 <p>Wir verwenden die Klasse ‚‘Ext.Loader‘‘, um in GeoExt JavaScript-Quelldateien zu laden. Diese befinden sich alle im Ordner ‚‘src‘‘ in ‚‘/var/www/html/geoext/‘‘.</p>
 <div class="highlight-html notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;!DOCTYPE html&gt;</span>
 <span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
@@ -116,7 +116,7 @@
 </div>
 </li>
 </ol>
-<p>Sie sollten nun eine leere HTML-Seite im Firefox unter <a class="reference external" href="http://localhost/geoext/demo.html">http://localhost/geoext/demo.html</a> aufrufen können.</p>
+<p>Sie sollten nun eine leere HTML-Seite im Firefox unter <a class="reference external" href="http://localhost/geoext/demo.html">http://localhost/geoext/demo.html</a> aufrufen können</p>
 <p>Der gesamte JavaScript-Code der folgenden Sektion sollte nach dem folgenden Kommentar <code class="docutils literal notranslate"><span class="pre">//</span> <span class="pre">all</span> <span class="pre">JavaScript</span> <span class="pre">application</span> <span class="pre">code</span> <span class="pre">should</span> <span class="pre">go</span> <span class="pre">here</span></code> eingefügt werden. An dieser Stelle wird gewährleistet, dass die JavaScript-Bibliotheken geladen wurden, bevor benutzerdefinierter JavaScript-Code ausgeführt wird.</p>
 </section>
 <section id="configure-openlayers-objects">
@@ -199,7 +199,7 @@
 <h2><a class="toc-backref" href="#id3">Arbeiten mit GeoExt-Komponenten</a><a class="headerlink" href="#work-with-geoext-components" title="Link zu dieser Überschrift">¶</a></h2>
 <p>Jetzt sind die Karte und die Layer konfiguriert, wir werden nun unsere GeoExt-Komponenten erstellen und konfigurieren.</p>
 <ol class="arabic">
-<li><p>Zuallererst erstellen wir eine ‚‘GeoExt.component.Map‘‘. Diese verwendet die OpenLayers-Karte, die wir erstellt haben, und wird im Bereich „center“ unserer Anwendung positioniert</p>
+<li><p>Zuallererst erstellen wir eine ‚‘GeoExt.component.Map‘‘. Diese verwendet die OpenLayers-Karte, die wir erstellt haben, und wird im Bereich „center“ unserer Anwendung positioniert.</p>
 <div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">mapComponent</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">Ext</span><span class="p">.</span><span class="nx">create</span><span class="p">(</span><span class="s1">&#39;GeoExt.component.Map&#39;</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
 <span class="w">    </span><span class="nx">map</span><span class="o">:</span><span class="w"> </span><span class="nx">map</span><span class="p">,</span>
 <span class="w">    </span><span class="nx">region</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;center&#39;</span>

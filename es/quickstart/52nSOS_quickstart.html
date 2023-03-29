@@ -68,14 +68,14 @@
 </div>
 <section id="north-sos-quickstart">
 <h1>Inicio Rápido 52 North SOS<a class="headerlink" href="#north-sos-quickstart" title="Enlazar permanentemente con este título">¶</a></h1>
-<p>52°North SOS es un servicio Web, que permite acceso interoperable  a datos de observación (espaciales) y los metadatos asociados.</p>
+<p>52°North SOS es un servicio Web, que permite acceso interoperable a datos de observación (espaciales) y los metadatos asociados.</p>
 <p>Esta Guía de Inicio Rápido describe cómo:</p>
 <blockquote>
 <div><ul class="simple">
 <li><p>Consulta las capacidades del 52°North SOS para determinar qué consultas apoya y que los datos ofrece.</p></li>
 <li><p>Consulta los detalles sobre una observación de SOS.</p></li>
-<li><p>Utilice la herramienta ligera de visualización  «Helgoland» entregado con SOS para explorar los datos disponibles.</p></li>
-<li><p>Explorar el endpoint  REST de API para desarrolladores de cliente.</p></li>
+<li><p>Utilice la herramienta ligera de visualización «Helgoland» entregado con SOS para explorar los datos disponibles.</p></li>
+<li><p>Explorar el endpoint REST de API para desarrolladores de cliente.</p></li>
 </ul>
 </div></blockquote>
 <div class="contents local topic" id="contents">
@@ -92,9 +92,9 @@
 <li><p>Select :<span class="menuselection">Geospatial ‣ Web Services ‣ 52North ‣ Start 52NorthSOS</span> to start the 52°North SOS.</p></li>
 </ol>
 <dl>
-<dt>Se abrirá la página en firefox de recepción de clientes del 52°North SOS  en</dt><dd><p><a class="reference external" href="http://localhost:8080/52nSOS/">http://localhost:8080/52nSOS/</a> (ver Fig. 1).</p>
+<dt>Se abrirá la página en firefox de recepción de clientes del 52°North SOS en</dt><dd><p><a class="reference external" href="http://localhost:8080/52nSOS/">http://localhost:8080/52nSOS/</a> (ver Fig. 1).</p>
 <a class="reference internal image-reference" href="../../_images/52n_sos_start.png"><img alt="Página de bienvenida al cliente 52°North SOS" class="align-center" src="../../_images/52n_sos_start.png" style="width: 716.8px; height: 537.5999999999999px;" /></a>
-<p><strong>Fig. 1</strong>: página de bienvenida de cliente de 52°North SOS-</p>
+<p><strong>Fig. 1</strong>: página de bienvenida de cliente de 52°North SOS.</p>
 </dd>
 </dl>
 <ol class="arabic" start="2">
@@ -102,7 +102,7 @@
 <a class="reference internal image-reference" href="../../_images/52n_sos_get_capabilities.png"><img alt="Cliente 52°North SOS - cliente de prueba con solicitud GetCapabilities" class="align-center" src="../../_images/52n_sos_get_capabilities.png" style="width: 717.5px; height: 537.5999999999999px;" /></a>
 <p><strong>Fig. 2</strong>: Cliente de 52°North SOS - cliente de prueba con petición GetCapabilities.</p>
 </li>
-<li><p>Para obtener los datos de observación disponibles dentro del intervalo de tiempo desde 2018-07-02T23:45:00.000+00:00  a 2018-07-04T23:45:00.000+00:00 para cada serie de tiempo, inserte la siguiente solicitud después de seleccionar <span class="menuselection">**servicio** SOS ‣ **versión** 2.0.0 ‣ **unión ** SOAP ‣ **operación** GetObservation</span> en el campo de solicitud  <a class="reference external" href="http://localhost:8080/52nSOS/client">cliente de prueba</a> :</p></li>
+<li><p>Para obtener los datos de observación disponibles dentro del intervalo de tiempo desde 2018-07-02T23:45:00.000+00:00 a 2018-07-04T23:45:00.000+00:00 para cada serie de tiempo, inserte la siguiente solicitud después de seleccionar <span class="menuselection">**servicio** SOS ‣ **versión** 2.0.0 ‣ **unión ** SOAP ‣ **operación** GetObservation</span> en el campo de solicitud <a class="reference external" href="http://localhost:8080/52nSOS/client">cliente de prueba</a> :</p></li>
 </ol>
 <div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</span>
 <span class="nt">&lt;env:Envelope</span>
@@ -138,22 +138,22 @@
 <h2><a class="toc-backref" href="#id2">Cosas para probar</a><a class="headerlink" href="#things-to-try" title="Enlazar permanentemente con este título">¶</a></h2>
 <ul class="simple">
 <li><p>Pruebe algunas de las otras consultas de ejemplo de la lista desplegable.</p></li>
-<li><p>Intente ajustar algunas de estas consultas para obtener información diferente</p></li>
-<li><p>Pruebe el  <a class="reference external" href="http://localhost:8080/52nSOS/admin/index">SOS administrator</a> con el nombre de usuario <code class="code docutils literal notranslate"><span class="pre">user</span></code> y la contraseña <code class="code docutils literal notranslate"><span class="pre">user</span></code>.</p></li>
-<li><p>Pruebe Helgoland - el  <a class="reference external" href="http://localhost:8080/52nSOS/static/client/helgoland/#/map">Visor de Cliente</a> (véase Fig. 3).</p></li>
+<li><p>Intente ajustar algunas de estas consultas para obtener información diferente.</p></li>
+<li><p>Pruebe el <a class="reference external" href="http://localhost:8080/52nSOS/admin/index">SOS administrator</a> con el nombre de usuario <code class="code docutils literal notranslate"><span class="pre">user</span></code> y la contraseña <code class="code docutils literal notranslate"><span class="pre">user</span></code>.</p></li>
+<li><p>Pruebe Helgoland - el <a class="reference external" href="http://localhost:8080/52nSOS/static/client/helgoland/#/map">Visor de Cliente</a> (véase Fig. 3).</p></li>
 <li><p>Pruebe otros datos de la muestra realizando los siguientes pasos:</p>
 <ol class="arabic simple">
-<li><p>Abra el administrador SOS  <a class="reference external" href="http://localhost:8080/52nSOS/admin/datasource">página de mantenimiento de la base de datos</a>.</p></li>
+<li><p>Abra el administrador SOS <a class="reference external" href="http://localhost:8080/52nSOS/admin/datasource">página de mantenimiento de la base de datos</a>.</p></li>
 <li><p>Vaciar la base de datos utilizando el botón de «Fuente de Datos Clara» (esto borrará los datos de ejemplo. Puede reiniciar OSGeoLive para recuperar los datos.).</p></li>
 <li><p>Insertar datos de la muestra generada de forma dinámica haciendo click en el botón «Insertar datos de muestra». Le informamos de que esta operación puede tardar algunos minutos.</p></li>
-<li><p>Abra  <a class="reference external" href="http://localhost:8080/52nSOS/static/client/helgoland/#/map">Helgoland</a>  de nuevo y explore la muestra de datos generada.</p></li>
+<li><p>Abra <a class="reference external" href="http://localhost:8080/52nSOS/static/client/helgoland/#/map">Helgoland</a> de nuevo y explore la muestra de datos generada.</p></li>
 </ol>
 </li>
 </ul>
 <a class="reference internal image-reference" href="../../_images/52n_sos_viewclient.png"><img alt="Cliente 52°North SOS - Cliente JavaScript con datos de series de tiempo" class="align-center" src="../../_images/52n_sos_viewclient.png" style="width: 716.8px; height: 508.9px;" /></a>
 <p><strong>Fig. 3</strong>: Cliente de 52°North SOS- Cliente JavaScript con daros de series de tiempo.</p>
 <ul class="simple">
-<li><p>Pruebe el  <a class="reference external" href="http://localhost:8080/52nSOS/api/">Sensor Web REST API</a> (Véase Listado 2):</p></li>
+<li><p>Pruebe el <a class="reference external" href="http://localhost:8080/52nSOS/api/">Sensor Web REST API</a> (Véase Listado 2):</p></li>
 </ul>
 <div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="p">[</span>
 <span class="w">    </span><span class="p">{</span>
@@ -221,7 +221,7 @@
 <li><p>52°North <a class="reference external" href="https://sensorweb.demo.52north.org">SOS Client</a></p></li>
 <li><p>52°North <a class="reference external" href="https://52north.org/software/software-projects/sos">sitio Web SOS</a></p></li>
 </ul>
-<p>El desarrollo de esta versión de 52 ° North SOS fue apoyado por diferentes proyectos, organizaciones y personas. Más detalles pueden encontrarse en <a class="reference external" href="http://localhost:8080/52nSOS/index">52°North SOS client</a>.</p>
+<p>El desarrollo de esta versión de 52°North SOS fue apoyado por distintos proyectos, organizaciones y personas. Más detalles en <a class="reference external" href="http://localhost:8080/52nSOS/index">52°North SOS client</a>.</p>
 <p>Nos gustaría agradecer a la Agencia Ambielntal Interregional Belga (<a class="reference external" href="https://www.irceline.be/en/">IRCEL - CELINE</a>) por porporcionar los datos de demostración utilizados en esta instalación de SOS. Estos datos de demostración se publican bajo una licencia <a class="reference external" href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
 <p>Cuando SOS no está disponible, por favor, revise si el motor tomcat servlet se está ejecutando. Utilice los sigueintes comandos:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>user@osgeolive:~$ sudo systemctl status tomcat8.service | grep Active
@@ -232,7 +232,7 @@ user@osgeolive:~$ sudo systemctl start tomcat8.service
 Active: active (running) since Wed 2017-06-21 12:52:42 UTC; 3s ago     &lt;-- Tomcat is running, now
 </pre></div>
 </div>
-<p><strong>Listado 3:</strong> Estatus e Inicio de Tomcat  (contraseña para  sudo: <code class="code docutils literal notranslate"><span class="pre">user</span></code>).</p>
+<p><strong>Listado 3:</strong> Estatus e Inicio de Tomcat (contraseña para sudo: <code class="code docutils literal notranslate"><span class="pre">user</span></code>).</p>
 </section>
 </section>
 
