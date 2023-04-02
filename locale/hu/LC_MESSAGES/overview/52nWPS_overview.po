@@ -6,20 +6,21 @@
 # Translators:
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:07+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"PO-Revision-Date: 2023-04-02 18:08+0000\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"52nwps_overview/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:15
 msgid "52 North WPS"
@@ -38,10 +39,10 @@ msgid ""
 " climate change model."
 msgstr ""
 "Az 52°North |WPS| webes hozzáférést tesz lehetővé a Sextante, ArcGIS "
-"szerver, R, GRASS 7  által biztosított és egyedileg kidolgozott feldolgozási"
-" algoritmusokhoz. Az algoritmus olyan egyszerű is lehet mint az influenzás "
+"szerver, R, GRASS 7 által biztosított és egyedileg kidolgozott feldolgozási "
+"algoritmusokhoz. Az algoritmus olyan egyszerű is lehet mint az influenzás "
 "esetek különbsége két különböző időszakban vagy olyan komplikált mint egy "
-"globális klímaváltozási modell. "
+"globális klímaváltozási modell."
 
 #: ../../build/doc/overview/52nWPS_overview.rstNone
 msgid "52nWPS screenshot"

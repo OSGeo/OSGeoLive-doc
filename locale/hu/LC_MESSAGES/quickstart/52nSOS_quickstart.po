@@ -6,20 +6,21 @@
 # Translators:
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-03 09:57+0000\n"
-"PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"PO-Revision-Date: 2023-04-02 18:08+0000\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"52nsos_quickstart/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:13
 msgid ""
@@ -60,7 +61,7 @@ msgid ""
 "to explore the available data."
 msgstr ""
 "Használja az SOS-el együtt szállított, könnyűsúlyú \"Helgoland\" "
-"vizualizációs eszközt,  az elérhető adatok felfedezéséhez."
+"vizualizációs eszközt, az elérhető adatok felfedezéséhez."
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:29
 msgid "Explore the REST API endpoint for client developers."
@@ -84,7 +85,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:48
 msgid "This will open the 52°North SOS client welcome page in firefox at"
-msgstr "Ez megnyitja az 52°North SOS kliens üdvözlő oldalát a firefoxban itt:"
+msgstr "Ez megnyitja az 52°North SOS kliens üdvözlő oldalát a firefoxban itt"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:41
 msgid "http://localhost:8080/52nSOS/ (see Fig. 1)."
@@ -107,16 +108,16 @@ msgid ""
 "selecting sample queries. Using the information from the capabilities "
 "document, you can adjust the available example queries."
 msgstr ""
-"Kattintson a :guilabel:`Client`-re a felső menüsorban. Amint megismerte  az "
-"`SOS szerver képességeit "
-"<http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=2.0.0>`_,"
-" (lásd 2. ábra), megfelelő lekérdezéseket készíthet. A képességek "
-"dokumentumból származó információk felhasználásával módosíthatja a elérhető "
-"példa lekérdezéseket."
+"Kattintson a :guilabel:`Client`-re a felső menüsorban. Amint megismerte az `"
+"SOS szerver képességeit <http://localhost:8080/52nSOS/"
+"sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=2.0.0>`_, (lásd 2. "
+"ábra), megfelelő lekérdezéseket készíthet. A képességek dokumentumból "
+"származó információk felhasználásával módosíthatja a elérhető példa "
+"lekérdezéseket."
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rstNone
 msgid "52°North SOS client - test client with GetCapabilities request"
-msgstr "52°North SOS kliens - kliens test a GetCapabilities kéréssel."
+msgstr "52°North SOS kliens - kliens test a GetCapabilities kéréssel"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:61
 msgid ""
@@ -201,7 +202,7 @@ msgid ""
 "data\" button. Please be informed that this operation might take some "
 "minutes."
 msgstr ""
-"Szúrja be a dinamikusan generált mintaadatokat az \"Insert sample data\"  "
+"Szúrja be a dinamikusan generált mintaadatokat az \"Insert sample data\" "
 "gombra kattintva. Tájékoztatjuk, hogy ez a művelet eltarthat néhány percig."
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:117
@@ -286,8 +287,8 @@ msgid ""
 " the `52°North SOS client <http://localhost:8080/52nSOS/index>`_."
 msgstr ""
 "Az 52°North SOS ezen verziójának a fejlesztését különböző projektek, "
-"szervezetek és személyek támogatták. További részletek találhatók a  "
-"`52°North SOS kliensben <http://localhost:8080/52nSOS/index>`_."
+"szervezetek és személyek támogatták. További részletek találhatók a `52°"
+"North SOS kliensben <http://localhost:8080/52nSOS/index>`_."
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:203
 msgid ""

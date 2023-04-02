@@ -6,20 +6,21 @@
 # Translators:
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-20 21:55-0500\n"
-"PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"PO-Revision-Date: 2023-04-01 08:08+0000\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"ideditor_quickstart/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:20
 msgid "iD editor Quickstart"
@@ -94,12 +95,12 @@ msgstr ""
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:52
 msgid "selected on the map. You can add or edit tags from this panel."
-msgstr " Tegeket hozzáadhat és szerkeszthet ebből a panelből."
+msgstr "Tegeket hozzáadhat és szerkeszthet ebből a panelből."
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:54
 msgid "[2] **Tools:** This panel shows basic editing tools."
 msgstr ""
-"[2] ***Tools:** Ez a panel az alapvető szerkesztő eszközöket tartalmazza:"
+"[2] ***Tools:** Ez a panel az alapvető szerkesztő eszközöket tartalmazza."
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:56
 msgid "[3] **Map panel:** This panel show various configuration functions."
@@ -190,7 +191,7 @@ msgid ""
 "Enter your **FieldPaper snapshot URL**, which will be something like this: "
 "http://fieldpapers.org/snapshots/cqhmf2v9#18/37.80593/-122.22715"
 msgstr ""
-"Írja be a  **FieldPaper snapshot URL**-jét ami valami ilyesmi: "
+"Írja be a **FieldPaper snapshot URL**-jét ami valami ilyesmi: "
 "http://fieldpapers.org/snapshots/cqhmf2v9#18/37.80593/-122.22715"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:81
@@ -224,7 +225,7 @@ msgstr "osm gps nyomvonalak"
 msgid ""
 "If there is imagery offset, it can be **corrected** by clicking **Fix "
 "Alignment**."
-msgstr ""
+msgstr "Ha képeltolódás van, az **javítható** a **Fix Alignment**-re kattintva."
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:90
 msgid "|image18|"
@@ -307,8 +308,10 @@ msgid ""
 "each feature will have different options, depending on what tag you choose "
 "from the feature panel."
 msgstr ""
-"Az űrlapokat használhatja a pont részletes adatainak megadására. Kitöltheti a kórház nevét, címét és/vagy más további információt. Ne feledje, hogy minden elemnek különböző beállításai lesznek, attól függően, hogy melyik címkét választja a funkciópanelből.\n"
-" "
+"Az űrlapokat használhatja a pont részletes adatainak megadására. Kitöltheti "
+"a kórház nevét, címét és/vagy más további információt. Ne feledje, hogy "
+"minden elemnek különböző beállításai lesznek, attól függően, hogy melyik "
+"címkét választja a funkciópanelből."
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:117
 msgid ""
@@ -575,9 +578,9 @@ msgid ""
 msgstr ""
 "Időnként egy olyan zárt idomot kell rajzolnia, mely nem csak egy külső "
 "határral, hanem egy vagy több belső határral rendelkezik. Gondoljon egy "
-"épületekre belső udvarral vagy tavakra szigetekkel. *Ne rajzolja ezeket  egy"
-" vonallal*, úgy hogy a belső körvonalat ráakasztja a külsőre. Inkább ezeket "
-"a körvonalakat rajzolja meg külön, kapcsolja a címkéket csak a külső "
+"épületekre belső udvarral vagy tavakra szigetekkel. *Ne rajzolja ezeket egy "
+"vonallal*, úgy hogy a belső körvonalat ráakasztja a külsőre. Inkább ezeket a "
+"körvonalakat rajzolja meg külön, kapcsolja a címkéket csak a külső "
 "körvonalhoz, válassza ki az összes körvonalat és nyomja meg a **c** "
 "billentyűt, hogy egy többszörös körvonallal rendelkező elemmé tegye őket "
 "össze."
@@ -760,8 +763,8 @@ msgid ""
 "Try the LearnOSM documentation, from which this quickstart was derived: "
 "https://learnosm.org/en/beginner/id-editor/"
 msgstr ""
-"Próbálja ki a LearnOSM dokumentációt, melyből ezt a gyorstalpaló származik:"
-"  https://learnosm.org/en/beginner/id-editor/"
+"Próbálja ki a LearnOSM dokumentációt, melyből ezt a gyorstalpaló származik: "
+"https://learnosm.org/en/beginner/id-editor/"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:262
 msgid "Website: https://wiki.openstreetmap.org/wiki/ID"
@@ -801,7 +804,7 @@ msgstr "image12"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:284
 msgid "Map Data"
-msgstr "Térkép adatok"
+msgstr "Térképi adatok"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:285
 msgid "image13"

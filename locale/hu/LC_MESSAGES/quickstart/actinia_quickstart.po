@@ -6,20 +6,21 @@
 # Translators:
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-05 15:16+0000\n"
-"PO-Revision-Date: 2019-07-18 21:56+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"PO-Revision-Date: 2023-04-01 08:08+0000\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"actinia_quickstart/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:16
 msgid ""
@@ -38,9 +39,9 @@ msgid ""
 "REST API to process satellite images, time series of satellite images, "
 "raster and vector data."
 msgstr ""
-"Az actinia egy nyílt forráskódú REST API  térinformatikai adatok skálázható,"
-" megosztott, nagy teljesítményű feldolgozásához, mely többnyire `GRASS GIS-t"
-" <https://grass.osgeo.org/>`__ használ a számítási feladatokhoz. Az actinia "
+"Az actinia egy nyílt forráskódú REST API térinformatikai adatok skálázható, "
+"megosztott, nagy teljesítményű feldolgozásához, mely többnyire `GRASS GIS-t "
+"<https://grass.osgeo.org/>`__ használ a számítási feladatokhoz. Az actinia "
 "egy REST API-t biztosít műholdképek, műholdkép idősorok. raszter és vektor "
 "adatok feldolgozásához."
 
@@ -123,7 +124,7 @@ msgid ""
 msgstr ""
 "Minden parancsot egy **tiszavirág életű** adatbázisban hajtunk végre "
 "alapértelmezés szerint. Ezért az elkészített outputot exportálni kell a "
-"kibővített GRASS parancsok használatával. "
+"kibővített GRASS parancsok használatával."
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:62
 msgid ""
@@ -162,8 +163,8 @@ msgid ""
 "Selected datasets are available to the demo user. To list the locations you "
 "have access to, run"
 msgstr ""
-"A kiválasztott adatok elérhetők a demo felhasználó számára. A helyek "
-"listája, melyekhez hozzáférhet "
+"A kiválasztott adatok elérhetők a demó felhasználó számára. A helyek "
+"listája, melyekhez hozzáférhet"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:91
 msgid ""
@@ -184,8 +185,8 @@ msgid ""
 "located resource and to specify the export of an output parameter."
 msgstr ""
 "A GRASS GIS parancsok kibővíthetők az actinia specifikus kiterjesztésekkel. "
-"a  ``@`` művelet adható meg egy input vagy output paraméterhez, hogy egy web"
-" helyről importálja az erőforrást illetve, hogy exportálja."
+"a ``@`` művelet adható meg egy input vagy output paraméterhez, hogy egy web "
+"helyről importálja az erőforrást illetve, hogy exportálja."
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:107
 msgid ""
@@ -217,8 +218,8 @@ msgid ""
 "Landsat subscenes (``nc_spm_08/landsat``; source: "
 "https://grass.osgeo.org/download/data/)"
 msgstr ""
-"Landsat subscenes (``nc_spm_08/landsat``; source: "
-"https://grass.osgeo.org/download/data/)"
+"Landsat képek (``nc_spm_08/landsat``; source: https://grass.osgeo.org/"
+"download/data/)"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:120
 msgid "Latitude-Longitude location (LatLong WGS84, EPSG:4326):"
@@ -243,24 +244,24 @@ msgid ""
 "LST growing degree days asia 2017 (``latlong_wgs84/asia_gdd_2017/``; source:"
 " https://www.mundialis.de/en/temperature-data/)"
 msgstr ""
-"LST growing degree days asia 2017 (``latlong_wgs84/asia_gdd_2017/``; source:"
-" https://www.mundialis.de/en/temperature-data/)"
+"LST növekvő hőmérsékletű napok Ázsia 2017 (``latlong_wgs84/asia_gdd_2017/``; "
+"source: https://www.mundialis.de/en/temperature-data/)"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:128
 msgid "LST tropical days asia 2017 (``latlong_wgs84/asia_tropical_2017/``)"
-msgstr "LST tropical days asia 2017 (``latlong_wgs84/asia_tropical_2017/``)"
+msgstr "LST tropikus napok Ázsia 2017 (``latlong_wgs84/asia_tropical_2017/``)"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:129
 msgid ""
 "LST temperature daily asia 2017, including min, max and avg "
 "(``latlong_wgs84/asia_lst_daily_2017/``)"
 msgstr ""
-"LST temperature daily asia 2017, including min, max and avg "
-"(``latlong_wgs84/asia_lst_daily_2017/``)"
+"LST napi hőmérséklet Ázsia 2017, min, max és átlag is (``latlong_wgs84/"
+"asia_lst_daily_2017/``)"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:132
 msgid "Europe (EU LAEA CRS, EPSG:3035):"
-msgstr "Europe (EU LAEA CRS, EPSG:3035):"
+msgstr "Európa (EU LAEA CRS, EPSG:3035):"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:134
 msgid ""
@@ -280,7 +281,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:140
 msgid "World Mollweide (EPSG 54009):"
-msgstr "World Mollweide (EPSG 54009):"
+msgstr "Világ Mollweide vetület (EPSG 54009):"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:142
 msgid ""
@@ -327,7 +328,7 @@ msgstr ""
 "Az efemer feldolgozás az actinia alapértelmezett feldolgozási módszere. A "
 "parancsokat egy efemer térképhalmazban hajtunk végre, amit a feldolgozás "
 "után eltávolítunk. A GRASS GIS modulok outputját exportálhatja, a számítási "
-"eredmények  tárolására, letöltésére vagy további elemzéshez. A következő "
+"eredmények tárolására, letöltésére vagy további elemzéshez. A következő "
 "export formátumokat támogatjuk:"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:178
@@ -361,10 +362,10 @@ msgid ""
 "sets the computational region to the map and computes the slope. Additional "
 "information about the raster layer are requested with ``r.info``."
 msgstr ""
-"A következő parancsok (egy szkriptben tárolandó és ``ace``-val "
-"végrehajtandó) egy raszter réteget importálnak egy internetes forrásból  "
-"``elev`` névvel, beállítják a számítási régiót a térképhez és kiszámítja a "
-"lejtést. További információt kérünk az ``r.info``.val."
+"A következő parancsok (egy szkriptben tárolandó és ``ace``-val végrehajtandó)"
+" egy raszter réteget importálnak egy internetes forrásból ``elev`` névvel, "
+"beállítják a számítási régiót a térképhez és kiszámítja a lejtést. További "
+"információt kérünk az ``r.info``.val."
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:195
 msgid "Store the following script as text file ``ace_dtm_statistics.sh``:"
@@ -438,8 +439,7 @@ msgstr ""
 msgid ""
 "Run the commands from the statistic script in the new persistent mapset"
 msgstr ""
-"Futtassa a parancsokat a statisztika szkriptből  egy új tartós "
-"térképhalmazban "
+"Futtassa a parancsokat a statisztika szkriptből egy új tartós térképhalmazban"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:380
 msgid ""
@@ -473,7 +473,7 @@ msgid ""
 "**nc_spm_08** and the current mapset is **test_mapset**. Then the commands "
 "from above can be executed in the following way:"
 msgstr ""
-"Feltételezzük, hogy az aktív GRASS GIS munkamenetben az aktuális hely  "
+"Feltételezzük, hogy az aktív GRASS GIS munkamenetben az aktuális hely "
 "**nc_spm_08** és az aktuális térképhalmaz **test_mapset**.  Ekkor a fenti "
 "parancsok a következő módon hajthatók végre:"
 
@@ -483,21 +483,23 @@ msgstr "Kipróbálandó dolgok"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:424
 msgid "Install on OSGeoLive VM with Docker Compose"
-msgstr ""
+msgstr "Telepítés az OSGeoLive VM-en Docker Compose-al"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:426
 msgid ""
 "Requirements: docker and docker-compose (already available in OSGeoLive VM "
 "version)"
 msgstr ""
+"Követelmények: docker és docker-compose (már rendelkezésre áll az OSGeoLive "
+"VM verzióban)"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:428
 msgid "To build and deploy actinia, run"
-msgstr ""
+msgstr "Az actinia elkészítéséhez és telepítéséhez futtassa"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:436
 msgid "Now you have a running actinia instance locally! Check with"
-msgstr ""
+msgstr "Most van egy helyi, futó actinia példánya! Ellenőrizze"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:443
 msgid "Create new locations"

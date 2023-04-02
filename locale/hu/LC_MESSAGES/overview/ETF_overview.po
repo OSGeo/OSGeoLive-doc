@@ -7,20 +7,21 @@
 # Vicky Vergara <vicky@georepublic.de>, 2022
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-04 10:12+0000\n"
-"PO-Revision-Date: 2022-07-20 18:59+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"PO-Revision-Date: 2023-04-01 08:08+0000\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"etf_overview/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: ../../build/doc/overview/ETF_overview.rst:17
 msgid "ETF"
@@ -149,11 +150,11 @@ msgstr "BaseX XML dokumentumok halmazok tesztelésére"
 
 #: ../../build/doc/overview/ETF_overview.rst:72
 msgid "TEAM Engine to support CITE tests developed using TestNG"
-msgstr ""
+msgstr "TestNG használatával a CITE test támogatására fejlesztett TEAM motor"
 
 #: ../../build/doc/overview/ETF_overview.rst:73
 msgid "NeoTL for testing OGC WFS and OGC APIs (in development)"
-msgstr ""
+msgstr "NeoTL az OGC WFS és OGC API-k teszteléséhez (fejlesztés alatt)"
 
 #: ../../build/doc/overview/ETF_overview.rst:77
 msgid "Test reports"
@@ -177,7 +178,7 @@ msgstr "|CSW|"
 
 #: ../../build/doc/overview/ETF_overview.rst:81
 msgid "|ISO19105|"
-msgstr ""
+msgstr "|ISO19105|"
 
 #: ../../build/doc/overview/ETF_overview.rst:82
 msgid "|SOS|"
@@ -197,7 +198,7 @@ msgstr "|GML|"
 
 #: ../../build/doc/overview/ETF_overview.rst:86
 msgid "|OGCAPIFEATURES|"
-msgstr ""
+msgstr "|OGCAPIFEATURES|"
 
 #: ../../build/doc/overview/ETF_overview.rst:87
 msgid "|WCS|"
