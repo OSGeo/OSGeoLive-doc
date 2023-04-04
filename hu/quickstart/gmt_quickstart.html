@@ -89,11 +89,11 @@
 </pre></div>
 </div>
 <p>Láthatjuk, hogy a DTM vetületi koordináta-rendszerben van és az adatok terjedelme 50 és 160 méter közötti.</p>
-<p>A DTM-et egy GMT kompatibilis netCDF fájlformátumba konvertálhatjuk a  <cite>gdal_translate</cite> paranccsal így:</p>
+<p>A DTM-et egy GMT kompatibilis netCDF fájlformátumba konvertálhatjuk a <cite>gdal_translate</cite> paranccsal így:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdal_translate</span> <span class="o">-</span><span class="n">of</span> <span class="n">GMT</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">user</span><span class="o">/</span><span class="n">grassdata</span><span class="o">/</span><span class="n">nc_basic_spm_grass7</span><span class="o">/</span><span class="n">PERMANENT</span><span class="o">/</span><span class="n">cellhd</span><span class="o">/</span><span class="n">elevation</span> <span class="n">elevation</span><span class="o">.</span><span class="n">gmt</span>
 </pre></div>
 </div>
-<p>A GMT példánkhoz először a az adathalmazt földrajzi koordinátákba alakítjuk át, hosszúság-szélesség (EPSG:4326), a  <cite>gdalwarp</cite> parancsot használva:</p>
+<p>A GMT példánkhoz először a az adathalmazt földrajzi koordinátákba alakítjuk át, hosszúság-szélesség (EPSG:4326), a <cite>gdalwarp</cite> parancsot használva:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdalwarp</span> <span class="n">elevation</span><span class="o">.</span><span class="n">gmt</span> <span class="n">geo_elevation</span><span class="o">.</span><span class="n">gmt</span> <span class="o">-</span><span class="n">t_srs</span> <span class="n">EPSG</span><span class="p">:</span><span class="mi">4326</span>
 </pre></div>
 </div>
@@ -104,15 +104,15 @@
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gmt</span> <span class="n">makecpt</span> <span class="o">-</span><span class="n">Chaxby</span> <span class="o">-</span><span class="n">T50</span><span class="o">/</span><span class="mi">160</span><span class="o">/</span><span class="mi">10</span> <span class="o">-</span><span class="n">Z</span> <span class="o">&gt;</span> <span class="n">elevation</span><span class="o">.</span><span class="n">cpt</span>
 </pre></div>
 </div>
-<p>Kísérletezhet más színtáblákkal, lásd a  <cite>man gmt makecpt</cite> parancsot a teljes listához.</p>
+<p>Kísérletezhet más színtáblákkal, lásd a <cite>man gmt makecpt</cite> parancsot a teljes listához.</p>
 </section>
 <section id="define-the-gradient">
 <h2><a class="toc-backref" href="#id3">Gradiens meghatározása</a><a class="headerlink" href="#define-the-gradient" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
-<p>Az árnyékolt domborzat példánkhoz meg kell adnunk hogyan változik a szín intenzitás a rács mentén. Ehhez kiszámoljuk az irány szerinti deriváltat vagy gradienst a rácsunkból a <cite>grdgradient</cite> parancs segítségével.  A <cite>grdgradient</cite> parancshoz használjuk a <cite>-Ne</cite> kapcsolót az output normalizálásához a kumulatív Laplace elosztást használva és a <cite>-A</cite> kapcsolót az irány szerinti deriváltak északtól mért irányához.</p>
+<p>Az árnyékolt domborzat példánkhoz meg kell adnunk hogyan változik a szín intenzitás a rács mentén. Ehhez kiszámoljuk az irány szerinti deriváltat vagy gradienst a rácsunkból a <cite>grdgradient</cite> parancs segítségével. A <cite>grdgradient</cite> parancshoz használjuk a <cite>-Ne</cite> kapcsolót az output normalizálásához a kumulatív Laplace elosztást használva és a <cite>-A</cite> kapcsolót az irány szerinti deriváltak északtól mért irányához.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gmt</span> <span class="n">grdgradient</span> <span class="n">geo_elevation</span><span class="o">.</span><span class="n">gmt</span> <span class="o">-</span><span class="n">Ne0</span><span class="mf">.8</span> <span class="o">-</span><span class="n">A100</span> <span class="o">-</span><span class="n">fg</span> <span class="o">-</span><span class="n">Ggradient</span><span class="o">.</span><span class="n">nc</span>
 </pre></div>
 </div>
-<p>Az output egy netCDF fájl, mely a következőképpen használható mint szín intenzitás a  <cite>grdimage</cite> parancshoz:</p>
+<p>Az output egy netCDF fájl, mely a következőképpen használható mint szín intenzitás a <cite>grdimage</cite> parancshoz:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gmt</span> <span class="n">grdimage</span> <span class="n">geo_elevation</span><span class="o">.</span><span class="n">gmt</span> <span class="o">-</span><span class="n">Igradient</span><span class="o">.</span><span class="n">nc</span> <span class="o">-</span><span class="n">JM6i</span> <span class="o">-</span><span class="n">P</span> <span class="o">-</span><span class="n">Ba</span> <span class="o">-</span><span class="n">Celevation</span><span class="o">.</span><span class="n">cpt</span> <span class="o">-</span><span class="n">K</span> <span class="o">&gt;</span> <span class="n">GMT_tut_OSGeoLive</span><span class="o">.</span><span class="n">ps</span>
 </pre></div>
 </div>

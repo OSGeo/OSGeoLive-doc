@@ -74,7 +74,7 @@
 <div><ul class="simple">
 <li><p>Az 52°North SOS képességeinek lekérdezése, hogy meghatározza milyen lekérdezéseket támogat és milyen adatokat biztosít.</p></li>
 <li><p>Észlelési részletek lekérdezése egy SOS-ből.</p></li>
-<li><p>Használja az SOS-el együtt szállított, könnyűsúlyú „Helgoland” vizualizációs eszközt,  az elérhető adatok felfedezéséhez.</p></li>
+<li><p>Használja az SOS-el együtt szállított, könnyűsúlyú „Helgoland” vizualizációs eszközt, az elérhető adatok felfedezéséhez.</p></li>
 <li><p>Fedezze fel a REST API végpontot a kliens fejlesztéshez.</p></li>
 </ul>
 </div></blockquote>
@@ -92,14 +92,14 @@
 <li><p>Select :<span class="menuselection">Geospatial ‣ Web Services ‣ 52North ‣ Start 52NorthSOS</span> to start the 52°North SOS.</p></li>
 </ol>
 <dl>
-<dt>Ez megnyitja az 52°North SOS kliens üdvözlő oldalát a firefoxban itt:</dt><dd><p><a class="reference external" href="http://localhost:8080/52nSOS/">http://localhost:8080/52nSOS/</a> (lásd 1. ábra).</p>
+<dt>Ez megnyitja az 52°North SOS kliens üdvözlő oldalát a firefoxban itt</dt><dd><p><a class="reference external" href="http://localhost:8080/52nSOS/">http://localhost:8080/52nSOS/</a> (lásd 1. ábra).</p>
 <a class="reference internal image-reference" href="../../_images/52n_sos_start.png"><img alt="52°North SOS kliens üdvözlő oldal" class="align-center" src="../../_images/52n_sos_start.png" style="width: 716.8px; height: 537.5999999999999px;" /></a>
 <p><strong>1. ábra</strong>: 52°North SOS kliens - üdvözlő oldal.</p>
 </dd>
 </dl>
 <ol class="arabic" start="2">
-<li><p>Kattintson a <span class="guilabel">Client</span>-re a felső menüsorban. Amint megismerte  az <a class="reference external" href="http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&amp;SERVICE=SOS&amp;ACCEPTVERSIONS=2.0.0">SOS szerver képességeit</a>, (lásd 2. ábra), megfelelő lekérdezéseket készíthet. A képességek dokumentumból származó információk felhasználásával módosíthatja a elérhető példa lekérdezéseket.</p>
-<a class="reference internal image-reference" href="../../_images/52n_sos_get_capabilities.png"><img alt="52°North SOS kliens - kliens test a GetCapabilities kéréssel." class="align-center" src="../../_images/52n_sos_get_capabilities.png" style="width: 717.5px; height: 537.5999999999999px;" /></a>
+<li><p>Kattintson a <span class="guilabel">Client</span>-re a felső menüsorban. Amint megismerte az <a class="reference external" href="http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&amp;SERVICE=SOS&amp;ACCEPTVERSIONS=2.0.0">SOS szerver képességeit</a>, (lásd 2. ábra), megfelelő lekérdezéseket készíthet. A képességek dokumentumból származó információk felhasználásával módosíthatja a elérhető példa lekérdezéseket.</p>
+<a class="reference internal image-reference" href="../../_images/52n_sos_get_capabilities.png"><img alt="52°North SOS kliens - kliens test a GetCapabilities kéréssel" class="align-center" src="../../_images/52n_sos_get_capabilities.png" style="width: 717.5px; height: 537.5999999999999px;" /></a>
 <p><strong>2. ábra</strong>: 52°North SOS kliens - kliens test a GetCapabilities kéréssel.</p>
 </li>
 <li><p>Az elérhető mérési adatok beszerzéséhez minden idősorhoz a 2018-07-02T23:45:00.000+00:00 - 2018-07-04T23:45:00.000+00:00 intervallumban, írja be a következő kérést a <span class="menuselection">**service** SOS ‣ **version** 2.0.0 ‣ **binding** SOAP ‣ **operation** GetObservation</span> kiválasztása után a <a class="reference external" href="http://localhost:8080/52nSOS/client">teszt kliens</a> kérés mezőjében:</p></li>
@@ -145,7 +145,7 @@
 <ol class="arabic simple">
 <li><p>Nyissa meg az SOS adminisztrátor <a class="reference external" href="http://localhost:8080/52nSOS/admin/datasource">adatbázis karbantartás oldalt</a>.</p></li>
 <li><p>Ürítse ki az adatbázist az „Adatforrás törlése” gombbal (ezzel törli a példaadatokat. Indítsa újra az OSGeoLive-ot az adatok visszakapásához.).</p></li>
-<li><p>Szúrja be a dinamikusan generált mintaadatokat az „Insert sample data”  gombra kattintva. Tájékoztatjuk, hogy ez a művelet eltarthat néhány percig.</p></li>
+<li><p>Szúrja be a dinamikusan generált mintaadatokat az „Insert sample data” gombra kattintva. Tájékoztatjuk, hogy ez a művelet eltarthat néhány percig.</p></li>
 <li><p>Nyissa meg a <a class="reference external" href="http://localhost:8080/52nSOS/static/client/helgoland/#/map">Helgoland-ot</a> ismét és fedezze fel a generált minta adatokat.</p></li>
 </ol>
 </li>
@@ -221,7 +221,7 @@
 <li><p>52°North <a class="reference external" href="https://sensorweb.demo.52north.org">SOS Client</a></p></li>
 <li><p>52°North <a class="reference external" href="https://52north.org/software/software-projects/sos">SOS honlap</a></p></li>
 </ul>
-<p>Az 52°North SOS ezen verziójának a fejlesztését különböző projektek, szervezetek és személyek támogatták. További részletek találhatók a  <a class="reference external" href="http://localhost:8080/52nSOS/index">52°North SOS kliensben</a>.</p>
+<p>Az 52°North SOS ezen verziójának a fejlesztését különböző projektek, szervezetek és személyek támogatták. További részletek találhatók a <a class="reference external" href="http://localhost:8080/52nSOS/index">52°North SOS kliensben</a>.</p>
 <p>Köszönetet szeretnénk mondani a <a class="reference external" href="https://www.irceline.be/en/">Belgian Interregional Environment Agency-nek (`IRCEL - CELINE</a>), ebben az SOS telepítésben használt minta adatokért. A minta adatokat a <a class="reference external" href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a> licenc alatt publikáljuk.</p>
 <p>Amikor az SOS nem érhető el, kérjük ellenőrizze, hogy a tomcat servlet motor fut-e. Használja a következő parancsot:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>user@osgeolive:~$ sudo systemctl status tomcat8.service | grep Active

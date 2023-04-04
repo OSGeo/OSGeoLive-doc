@@ -67,7 +67,7 @@
 <h1>GeoServer<a class="headerlink" href="#geoserver" title="Hivatkozás erre a fejezetcímre">¶</a></h1>
 <section id="web-service">
 <h2>Web szolgáltatás<a class="headerlink" href="#web-service" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
-<p>A GeoServer egy web szerver, mely  lehetővé teszi önnek, hogy különböző formátumú térképeket és adatokat szolgáltasson szabványos klienseknek mint például web böngészők és asztali GIS programok. Az adatokat szabványokon alapuló interfészeken keresztül publikálja, mint például WMS, WFS, WCS, WPS, Tile Cache és továbbiak. A GeoServer böngésző alapú kezelő felülettel érkezik és több adatforráshoz kapcsolódik a szerver oldalon.</p>
+<p>A GeoServer egy web szerver, mely lehetővé teszi önnek, hogy különböző formátumú térképeket és adatokat szolgáltasson szabványos klienseknek mint például web böngészők és asztali GIS programok. Az adatokat szabványokon alapuló interfészeken keresztül publikálja, mint például WMS, WFS, WCS, WPS, Tile Cache és továbbiak. A GeoServer böngésző alapú kezelő felülettel érkezik és több adatforráshoz kapcsolódik a szerver oldalon.</p>
 <a class="reference internal image-reference" href="../../_images/geoserver_screenshot.png"><img alt="geoserver képernyőképek" class="align-right" src="../../_images/geoserver_screenshot.png" style="width: 500px;" /></a>
 <section id="core-features">
 <h3>Alapfunkciók<a class="headerlink" href="#core-features" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
@@ -90,17 +90,17 @@
 </li>
 </ul>
 </dd>
-<dt><strong>Az adatokat biztonságosan és gyorsan képként szolgáltatja WMS és WMTS protokollok használatával:</strong></dt><dd><p>Mivel az adatokat képként szolgáltatjuk, az adatai teljes biztonságban vannak. Hacsak nem digitalizálják újra  nincs lehetőség az adatainak ellopására. Az egyes térképi rétegek megjelenése SLD szabvány felhasználásával vezérelhető, mely lehetővé teszi az elemek színezését és címkézését. Ezeket a szabályokat az OGC szűrőkkel kombinálva , méretarány függő stílusokat implementálhatunk, lehető téve, hogy több részlet jelenjen meg ahogy a felhasználó nagyít. Címke ütközést, csoportosítást és prioritást is implementálták.</p>
+<dt><strong>Az adatokat biztonságosan és gyorsan képként szolgáltatja WMS és WMTS protokollok használatával:</strong></dt><dd><p>Mivel az adatokat képként szolgáltatjuk, az adatai teljes biztonságban vannak. Hacsak nem digitalizálják újra nincs lehetőség az adatainak ellopására. Az egyes térképi rétegek megjelenése SLD szabvány felhasználásával vezérelhető, mely lehetővé teszi az elemek színezését és címkézését. Ezeket a szabályokat az OGC szűrőkkel kombinálva , méretarány függő stílusokat implementálhatunk, lehető téve, hogy több részlet jelenjen meg ahogy a felhasználó nagyít. Címke ütközést, csoportosítást és prioritást is implementálták.</p>
 </dd>
-<dt><strong>Vektor adatok küldhetők a kliensnek a WFS protokoll használatával:</strong></dt><dd><p>WFS kliens vektor adatokat tud letölteni és térkép megjelenítéshez, térinformatikai elemzéshez és más műveletekhez használja azok. Ha engedélyezett a felhasználó módosíthatja is az adatokat, és  a WFS-T protokoll segítségével visszaküldi a kiszolgálónak, hogy frissítse a tárolt adatok. Az adatok GML (tömörített) valamint más szabványos formátumokban mint például shape fájl és json  továbbíthatók.</p>
+<dt><strong>Vektor adatok küldhetők a kliensnek a WFS protokoll használatával:</strong></dt><dd><p>WFS kliens vektor adatokat tud letölteni és térkép megjelenítéshez, térinformatikai elemzéshez és más műveletekhez használja azok. Ha engedélyezett a felhasználó módosíthatja is az adatokat, és a WFS-T protokoll segítségével visszaküldi a kiszolgálónak, hogy frissítse a tárolt adatok. Az adatok GML (tömörített) valamint más szabványos formátumokban mint például shape fájl és json továbbíthatók.</p>
 </dd>
 <dt><strong>Raszter adatok a WCS protokoll felhasználásával küldhetők a kliensnek:</strong></dt><dd><p>A GIS kliens kérheti az aktuális raszter adatokat térbeli elemzésekhez. Ez lehetővé teszi a felhasználónak, hogy alkalmazásokat hozzon létre, mely az adatok által leírt feldolgozást modellezi.</p>
 </dd>
 <dt><strong>Vetületi átszámítás röptében:</strong></dt><dd><p>GeoServer támogatja az EPSG vetületi adatbázisok többségét és bármelyikre át tud vetíteni igény esetén, így korlátozott vetületi számításokkal rendelkező kliensek a szervernek adhatják át a feladatot.</p>
 </dd>
-<dt><strong>Csempe Cache</strong></dt><dd><p><a class="reference external" href="https://www.geowebcache.org">GeoWebCache</a>, melyet integráltak a GeoServer-be, csempékre bontja és gyorstárazza a legkülönbözőbb forrásokból származó a térkép képeket, mint például a WMS. Különböző szolgáltatás interfészeket  (például WMS-C, WMTS, TMS, Google Maps KML, Virtual Earth) implementál, hogy  felgyorsítsa és optimalizálja a térkép képek letöltését. Ez újrakészítheti csempékkel is, hogy a szokásos WMS kliensekkel együttműködjön.</p>
+<dt><strong>Csempe Cache</strong></dt><dd><p><a class="reference external" href="https://www.geowebcache.org">GeoWebCache</a>, melyet integráltak a GeoServer-be, csempékre bontja és gyorstárazza a legkülönbözőbb forrásokból származó a térkép képeket, mint például a WMS. Különböző szolgáltatás interfészeket (például WMS-C, WMTS, TMS, Google Maps KML, Virtual Earth) implementál, hogy felgyorsítsa és optimalizálja a térkép képek letöltését. Ez újrakészítheti csempékkel is, hogy a szokásos WMS kliensekkel együttműködjön.</p>
 </dd>
-<dt><strong>Web Processing Service (WPS)</strong></dt><dd><p>Térinformatikai algoritmusok, melyeket a <a class="reference internal" href="jts_overview.html"><span class="doc">JTS</span></a> tartalmaz a GeoServer <a class="reference external" href="https://www.ogc.org/standards/wps">Web Processing Service (WPS)</a> interfészen keresztül meghívhatók. Ez magában foglalja a folyamatok láncolatát, és a megjelenítési transzformációk használatával  hatékony vizualizációkat hozhatunk létre a WMS interfészen keresztül.</p>
+<dt><strong>Web Processing Service (WPS)</strong></dt><dd><p>Térinformatikai algoritmusok, melyeket a <a class="reference internal" href="jts_overview.html"><span class="doc">JTS</span></a> tartalmaz a GeoServer <a class="reference external" href="https://www.ogc.org/standards/wps">Web Processing Service (WPS)</a> interfészen keresztül meghívhatók. Ez magában foglalja a folyamatok láncolatát, és a megjelenítési transzformációk használatával hatékony vizualizációkat hozhatunk létre a WMS interfészen keresztül.</p>
 </dd>
 </dl>
 </section>
@@ -123,7 +123,7 @@
 <p><strong>Honlap:</strong> <a class="reference external" href="https://geoserver.org/">https://geoserver.org/</a></p>
 <p><strong>Licenc:</strong> GNU General Public License (GPL) version 2</p>
 <p><strong>Szoftver verzió:</strong> 2.21.0</p>
-<p><strong>Támogatott platformok:</strong> Java 8 (Oracle JDK és OpenJDK)  Windows-on, Linux-on, és Mac-en</p>
+<p><strong>Támogatott platformok:</strong> Java 8 (Oracle JDK és OpenJDK) Windows-on, Linux-on, és Mac-en</p>
 <p><strong>API Interfészek:</strong> WMS, WFS, WCS, REST</p>
 <p><strong>Támogatás:</strong> <a class="reference external" href="https://geoserver.org/support/">https://geoserver.org/support/</a></p>
 </section>
