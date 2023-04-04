@@ -6,20 +6,21 @@
 # Translators:
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-03 09:57+0000\n"
-"PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"PO-Revision-Date: 2023-04-01 08:08+0000\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"overview/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: ../../build/doc/overview/overview.rst:6
 msgid "|osgeolive-version| Contents"
@@ -147,6 +148,8 @@ msgid ""
 "|nologo| |vmdk| :doc:`udig_overview` - [:doc:`Quickstart "
 "<../quickstart/udig_quickstart>`]"
 msgstr ""
+"|nologo| |vmdk| :doc:`udig_overview` - [:doc:`gyorstalpaló <../quickstart/"
+"udig_quickstart>`]"
 
 #: ../../build/doc/overview/overview.rst:53
 msgid "Browser Facing GIS"
@@ -324,6 +327,8 @@ msgid ""
 "|OSGeo_community| |vmdk| :doc:`actinia_overview` - [:doc:`Quickstart "
 "<../quickstart/actinia_quickstart>`] - Processing of Geographical Data"
 msgstr ""
+"|OSGeo_community| |vmdk| :doc:`actinia_overview` - [:doc:`Gyorstalpaló <../"
+"quickstart/actinia_quickstart>`] - Földrajzi adatok feldolgozása"
 
 #: ../../build/doc/overview/overview.rst:167
 msgid ""
@@ -381,6 +386,8 @@ msgid ""
 "|nologo| |vmdk| :doc:`52nSOS_overview` - [:doc:`Quickstart "
 "<../quickstart/52nSOS_quickstart>`] - Sensor Observation Service"
 msgstr ""
+"|nologo| |vmdk| :doc:`52nSOS_overview` - [:doc:`Gyorstalpaló <../quickstart/"
+"52nSOS_quickstart>`] - Szenzor észlelés szolgáltatás"
 
 #: ../../build/doc/overview/overview.rst:181
 msgid ""
@@ -419,6 +426,8 @@ msgid ""
 "|OSGeo_incubation| |vmdk| :doc:`rasdaman_overview` - [:doc:`Quickstart "
 "<../quickstart/rasdaman_quickstart>`] - Multi-Dimensional Raster Database"
 msgstr ""
+"|OSGeo_incubation| |vmdk| :doc:`rasdaman_overview` - [:doc:`Gyorstalpaló <../"
+"quickstart/rasdaman_quickstart>`] - Többdimenziós raszter adatbázis"
 
 #: ../../build/doc/overview/overview.rst:207
 msgid ""
@@ -519,8 +528,8 @@ msgid ""
 "|nologo| :doc:`mapnik_overview` - [:doc:`Quickstart "
 "<../quickstart/mapnik_quickstart>`] - Cartographic Rendering"
 msgstr ""
-"|nologo| :doc:`mapnik_overview` - [:doc:`Gyorstalpaló <../quickstart/mapnik_quickstart>`] - k\n"
-"Kartografált megjelenítés"
+"|nologo| :doc:`mapnik_overview` - [:doc:`Gyorstalpaló <../quickstart/"
+"mapnik_quickstart>`] - Kartografált megjelenítés"
 
 #: ../../build/doc/overview/overview.rst:271
 msgid ""

@@ -7,20 +7,21 @@
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-13 22:52+0000\n"
-"PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"PO-Revision-Date: 2023-04-01 08:08+0000\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"geoserver_quickstart/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:28
 msgid "GeoServer Quickstart"
@@ -32,7 +33,7 @@ msgid ""
 "clients (such as web browsers) to draw. GeoServer comes with a browser-based"
 " management interface and connects to multiple data sources at the back end."
 msgstr ""
-"A GeoServer egy java alkalmazás  térképek (és adatok) szolgáltatására más "
+"A GeoServer egy java alkalmazás térképek (és adatok) szolgáltatására más "
 "klienseknek (mint például web böngészők) a megjelenítéshez. A GeoServer egy "
 "böngésző alapú kezelőfelülettel rendelkezik és több adatforráshoz "
 "csatlakozik a háttérben."
@@ -77,8 +78,8 @@ msgid ""
 "http://localhost:8082/geoserver/web"
 msgstr ""
 "A start menüből válassza a |osgeolive-appmenupath-geoserver|-t. Az "
-"alkalmazás néhány pillanat múlva elindul és megnyitja a "
-"http://localhost:8082/geoserver/web web lapot."
+"alkalmazás néhány pillanat múlva elindul és megnyitja a http://localhost:"
+"8082/geoserver/web lapot"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:55
 msgid ""
@@ -93,7 +94,7 @@ msgid ""
 "Select the **Layer Preview** link at the top of the *Data* section in the "
 "left hand menu to see a preview of the layers that are loaded on the server."
 msgstr ""
-"Válassza ki a **Layer Preview** linket a baloldali menüből a *Data*  rész "
+"Válassza ki a **Layer Preview** linket a baloldali menüből a *Data* rész "
 "tetején, hogy a szerver által betöltött rétegek előnézetét lássuk."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:67
@@ -166,9 +167,9 @@ msgid ""
 "<../overview/naturalearth_overview>` that is included on OSGeoLive "
 "(:file:`/usr/local/share/data/natural_earth2/`)."
 msgstr ""
-"Ebben a példában a  :doc:`Natural Earth adatokat "
-"<../overview/naturalearth_overview>`  használjuk, melyeket tartalmaz az "
-"OSGeoLive (:file:`/usr/local/share/data/natural_earth2/`)."
+"Ebben a példában a :doc:`Natural Earth adatokat <../overview/"
+"naturalearth_overview>` használjuk, melyeket tartalmaz az OSGeoLive (:file:`/"
+"usr/local/share/data/natural_earth2/`)."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:100
 msgid ""
@@ -184,7 +185,7 @@ msgstr "Kattintson az :guilabel:`Add new Store`-ra. Ezt az oldalt látja:"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:0
 msgid "The New Store page"
-msgstr ""
+msgstr "Angol"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:108
 msgid ""
@@ -196,7 +197,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:0
 msgid "Filling in the New Store page"
-msgstr ""
+msgstr "A New Store lap kitöltése"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:115
 msgid ""
@@ -205,10 +206,10 @@ msgid ""
 ":file:`/usr/local/share/data/natural_earth2/`. You can use the browse button"
 " to find the directory if your data is somewhere else."
 msgstr ""
-"Írja be a Data Store nevét  (például  *Natural Earth*)  és töltse ki az "
-"adatok URL-jét - ebben az esetben "
-":file:`/usr/local/share/data/natural_earth2/`. Használhatja a tallóz gombot "
-"a könyvtár megtalálására, ha az adatai máshol vannak."
+"Írja be a Data Store nevét (például *Natural Earth*) és töltse ki az adatok "
+"URL-jét - ebben az esetben :file:`/usr/local/share/data/natural_earth2/`. "
+"Használhatja a tallóz gombot a könyvtár megtalálására, ha az adatai máshol "
+"vannak."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:119
 msgid "Press :guilabel:`save`."
@@ -239,8 +240,8 @@ msgid ""
 msgstr ""
 "Ahogy lentebb görgeti az oldalt láthatja, hogy a |GS| sok mezőt kitöltött "
 "már. Amikor a :guilabel:`Coordinate Reference System`-hez ér láthatja, hogy "
-"a *Native SRS* alatt UNKNOWN áll, ki kell töltenie a következő mezőt "
-"(*declared SRS*), hogy a |GS| tudja hol vannak az adatok,"
+"a *Native SRS* alatt UNKNOWN áll, ki kell töltenie a következő mezőt (*"
+"declared SRS*), hogy a |GS| tudja hol vannak az adatok."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:139
 msgid ""
@@ -295,9 +296,9 @@ msgid ""
 "These are represented as XML files which describe the rules that are used to"
 " apply various symbolizers to the data."
 msgstr ""
-"Egy adatállomány stílusának beállítására a  |GS| az |SLD| nevű  OGC "
-"szabványt használja. Ezek XML fájlként jelennek meg, melyek az adatokra "
-"alkalmazott megjelenítési szabályokat írják le."
+"Egy adatállomány stílusának beállítására a |GS| az |SLD| nevű OGC szabványt "
+"használja. Ezek XML fájlként jelennek meg, melyek az adatokra alkalmazott "
+"megjelenítési szabályokat írják le."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:161
 msgid ""
@@ -307,9 +308,9 @@ msgid ""
 "shapefiles directly and apply simple styles using a GUI. It also provides a "
 "simple editor to modify the XML if I need to."
 msgstr ""
-"Indulásként a Land and Ocean adatállomány stílusát állítsuk be. Egy egyszerű"
-" szövegszerkesztővel létrehozhatja az SLD fájlt, de időnként egy grafikus "
-"szerkesztő jobb. Sok lehetőség van itt, de a |UG|  lehetővé teszi shape "
+"Indulásként a Land and Ocean adatállomány stílusát állítsuk be. Egy egyszerű "
+"szövegszerkesztővel létrehozhatja az SLD fájlt, de időnként egy grafikus "
+"szerkesztő jobb. Sok lehetőség van itt, de a |UG| lehetővé teszi shape "
 "fájlok közvetlen megnyitását és egy GUI felhasználásával egyszerű stílusok "
 "alkalmazását. Emellett egy egyszerű szerkesztőt is biztosít az XML "
 "módosítására, ha szükség van rá."
@@ -323,8 +324,8 @@ msgid ""
 "For more details on how to use |UG| see the :doc:`uDig Quickstart "
 "<../quickstart/udig_quickstart>`"
 msgstr ""
-"Az |UG| használatáról további részleteket a  :doc:`uDig gyorstalpalóban  "
-"<../quickstart/udig_quickstart>` találhat."
+"Az |UG| használatáról további részleteket a :doc:`uDig gyorstalpalóban <../"
+"quickstart/udig_quickstart>` találhat"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:174
 msgid ""
@@ -344,14 +345,14 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:0
 msgid "Default Styling in uDig"
-msgstr ""
+msgstr "Alapértelmezett stílus uDig-ben"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:184
 msgid ""
 "In the :ref:`Layer list <Layer_list>` select the style button (it looks like"
 " an artist's palette)."
 msgstr ""
-"A :ref:`Layer list <Layer_list>`  válassza ki a stílus gombot (úgy néz ki "
+"A :ref:`Layer list <Layer_list>` válassza ki a stílus gombot (úgy néz ki "
 "mint egy festőpaletta)."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst-1
@@ -398,7 +399,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:0
 msgid "Defining a nicer land color"
-msgstr ""
+msgstr "Szebb talajszín definiálás"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:221
 msgid "This gives a nice looking basic world map."
@@ -563,7 +564,7 @@ msgstr "Jelentkezzen be mint adminisztrátor."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:310
 msgid "Click on :guilabel:`Add stores` then :guilabel:`NetCDF`."
-msgstr "Kattintson az :guilabel:`Add stores`-ra majd  :guilabel:`NetCDF`-re."
+msgstr "Kattintson az :guilabel:`Add stores`-ra majd :guilabel:`NetCDF`-re."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:311
 msgid ""
@@ -583,7 +584,7 @@ msgstr "Görgessen le a \"Data\" fül aljára és nyomja meg a \"Save\"-t ismét
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:319
 msgid "Adding a NetCDF store"
-msgstr ""
+msgstr "NetCDF tár hozzáadás"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:325
 msgid "Preview the NetCDF layer"

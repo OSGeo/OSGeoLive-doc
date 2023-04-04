@@ -10,20 +10,22 @@
 # Stefano Campus <skampus@gmail.com>, 2022
 # Vicky Vergara <vicky@georepublic.de>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-03 09:57+0000\n"
-"PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
-"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
+"PO-Revision-Date: 2023-04-02 18:08+0000\n"
+"Last-Translator: stefano <stefano.campus@regione.piemonte.it>\n"
+"Language-Team: Italian <https://weblate.osgeo.org/projects/osgeolive/"
+"overview/it/>\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: it\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: ../../build/doc/overview/overview.rst:6
 msgid "|osgeolive-version| Contents"
@@ -151,6 +153,8 @@ msgid ""
 "|nologo| |vmdk| :doc:`udig_overview` - [:doc:`Quickstart "
 "<../quickstart/udig_quickstart>`]"
 msgstr ""
+"|nologo| |vmdk| :doc:`udig_overview` - [:doc:`Quickstart <../quickstart/"
+"udig_quickstart>`]"
 
 #: ../../build/doc/overview/overview.rst:53
 msgid "Browser Facing GIS"
@@ -326,6 +330,8 @@ msgid ""
 "|OSGeo_community| |vmdk| :doc:`actinia_overview` - [:doc:`Quickstart "
 "<../quickstart/actinia_quickstart>`] - Processing of Geographical Data"
 msgstr ""
+"|OSGeo_community| |vmdk| :doc:`actinia_overview` - [:doc:`Quickstart <../"
+"quickstart/actinia_quickstart>`] - Processing of Geographical Data"
 
 #: ../../build/doc/overview/overview.rst:167
 msgid ""
@@ -383,6 +389,8 @@ msgid ""
 "|nologo| |vmdk| :doc:`52nSOS_overview` - [:doc:`Quickstart "
 "<../quickstart/52nSOS_quickstart>`] - Sensor Observation Service"
 msgstr ""
+"|nologo| |vmdk| :doc:`52nSOS_overview` - [:doc:`Quickstart <../quickstart/"
+"52nSOS_quickstart>`] - Sensor Observation Service"
 
 #: ../../build/doc/overview/overview.rst:181
 msgid ""
@@ -421,6 +429,8 @@ msgid ""
 "|OSGeo_incubation| |vmdk| :doc:`rasdaman_overview` - [:doc:`Quickstart "
 "<../quickstart/rasdaman_quickstart>`] - Multi-Dimensional Raster Database"
 msgstr ""
+"|OSGeo_incubation| |vmdk| :doc:`rasdaman_overview` - [:doc:`Quickstart <../"
+"quickstart/rasdaman_quickstart>`] - Multi-Dimensional Raster Database"
 
 #: ../../build/doc/overview/overview.rst:207
 msgid ""
