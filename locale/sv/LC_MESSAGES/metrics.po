@@ -1,0 +1,101 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2022, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Anne Ylinen, 2019
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-15 20:42-0600\n"
+"PO-Revision-Date: 2017-09-20 16:02+0000\n"
+"Last-Translator: Anne Ylinen, 2019\n"
+"Language-Team: Swedish (https://app.transifex.com/osgeo/teams/66156/sv/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../../build/doc/metrics.rst:6
+msgid "|osgeolive-version| Project Metrics"
+msgstr "|osgeolive-version| Projektmetrik"
+
+#: ../../build/doc/metrics.rst:8
+msgid ""
+"Metrics provided by `OpenHUB <https://www.openhub.net/>`_ which are derived "
+"from the projects' code repositories. Note these metrics have known "
+"deficiencies (such as caused by repositories moving), and only provide "
+"partial indications about the projects' development. Lack of change in "
+"smaller, concise packages and libraries may simply reflect a level of "
+"maturity and completeness."
+msgstr ""
+"Metrik som tillhandahålls av `OpenHUB <https://www.openhub.net/>`_ härleds "
+"från projektens kodförvaring. Metriken har kända brister (orsakas till "
+"exempel av förvaring som flyttar) och ger endast partiella indikationer om "
+"projektens utveckling. Brist på förändring i mindre, koncisa paket och "
+"bibliotek kan helt enkelt återspegla en mognadsnivå och fullständighet."
+
+#: ../../build/doc/metrics.rst:14
+msgid ""
+"Viewing the metrics requires an Internet connection and Javascript to be "
+"enabled."
+msgstr ""
+"För att kunna se metriken krävs en Internet-anslutning och att JavaScript är"
+" aktiverat."
+
+#: ../../build/doc/metrics.rst:23
+msgid "Desktop GIS"
+msgstr "Desktop GIS"
+
+#: ../../build/doc/metrics.rst:36
+msgid "Browser Facing GIS"
+msgstr "Webbläsarvänd GIS"
+
+#: ../../build/doc/metrics.rst:51
+msgid "Web Services"
+msgstr "Webbtjänster"
+
+#: ../../build/doc/metrics.rst:78
+msgid "Data Stores"
+msgstr "Data Stores"
+
+#: ../../build/doc/metrics.rst:89
+msgid "Navigation and Maps"
+msgstr "Navigering och kartor"
+
+#: ../../build/doc/metrics.rst:102
+msgid "Spatial Tools"
+msgstr "Spatiala verktyg"
+
+#: ../../build/doc/metrics.rst:114
+msgid "Domain Specific GIS"
+msgstr "Domänspecifik GIS"
+
+#: ../../build/doc/metrics.rst:122
+msgid "Data"
+msgstr "Data"
+
+#: ../../build/doc/metrics.rst:133
+msgid "Geospatial Libraries"
+msgstr "Geospatiala bibliotek"
+
+#: ../../build/doc/<rst_epilog>:13
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:16
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

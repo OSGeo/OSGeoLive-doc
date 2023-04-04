@@ -63,7 +63,7 @@ today_fmt = '%B %d, %Y'
 
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = 'en'
 
 # If true, sectionauthor and moduleauthor directives will be shown in the
 # output. They are ignored by default.
@@ -201,6 +201,10 @@ linkcheck_ignore = [
         r'http://0.0.0.0',
         'http://geonode',
 
+        # 403 Client Error
+        r'https://docs.etf-validator.net',
+        r'https://etf-validator.net',
+        r'https://www.ogc.org',
 
         # link exists but when many link checks are done link checker fails
         # ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
