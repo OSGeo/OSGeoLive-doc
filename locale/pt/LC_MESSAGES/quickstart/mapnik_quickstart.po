@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2022, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-21 20:28+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../build/doc/quickstart/mapnik_quickstart.rst:21
+msgid "Mapnik Quickstart"
+msgstr ""
+
+#: ../../build/doc/quickstart/mapnik_quickstart.rst:23
+msgid "Mapnik is an toolkit for developing mapping applications. Above all Mapnik is about making beautiful maps. It is easily extensible and suitable for both desktop and web development."
+msgstr ""
+
+#: ../../build/doc/quickstart/mapnik_quickstart.rst:27
+msgid "Contents"
+msgstr ""
+
+#: ../../build/doc/quickstart/mapnik_quickstart.rst:30
+msgid "Mapnik & Python"
+msgstr ""
+
+#: ../../build/doc/quickstart/mapnik_quickstart.rst:32
+msgid "Mapnik and its python bindings are installed and ready to be used for scripting on this machine."
+msgstr ""
+
+#: ../../build/doc/quickstart/mapnik_quickstart.rst:34
+msgid "Creating maps in python is easy with Mapnik. Open a terminal window and type `python3` on the command line to enter a python interpreter. Then try this::"
+msgstr ""
+
+#: ../../build/doc/quickstart/mapnik_quickstart.rst:38
+msgid "import mapnik, os m = mapnik.Map(600,400) style = '/usr/local/share/mapnik/world_population.xml' mapnik.load_map(m,style) m.zoom_all() mapnik.render_to_file(m,'world_population.png') os.system('xdg-open world_population.png')"
+msgstr ""
+
+#: ../../build/doc/quickstart/mapnik_quickstart.rst:49
+msgid "The above code depends on having an XML stylesheet that Mapnik can read (world_population.xml), defining the layers to read data from and the styles to apply to those layers."
+msgstr ""
+
+#: ../../build/doc/quickstart/mapnik_quickstart.rst:54
+msgid "Mapnik & MapProxy"
+msgstr ""
+
+#: ../../build/doc/quickstart/mapnik_quickstart.rst:56
+msgid "A basic demo application is available which demonstrates using Mapnik with MapProxy"
+msgstr ""
+
+#: ../../build/doc/quickstart/mapnik_quickstart.rst:58
+msgid "The demo uses the world_population.xml from the Mapnik demo."
+msgstr ""
+
+#: ../../build/doc/quickstart/mapnik_quickstart.rst:60
+msgid "Click |menu_mapnik|. The server starts in a terminal window (which stays open and outputs basic debugging information)."
+msgstr ""
+
+#: ../../build/doc/quickstart/mapnik_quickstart.rst:62
+msgid "Open the MapProxy demo application http://0.0.0.0:8011/demo/"
+msgstr ""
+
+#: ../../build/doc/quickstart/mapnik_quickstart.rst:64
+msgid "You find the world population demo by Mapnik as a WMS layer and also the world population in combination with a the GeoServer layer topp:states (make sure GeoServer is running)"
+msgstr ""
+
+#: ../../build/doc/quickstart/mapnik_quickstart.rst:67
+msgid "You can use the MapProxy WMS in other applications for example in QGIS or in Mapbender (http://localhost/mapbender/application/mapbender_user)."
+msgstr ""
+
+#: ../../build/doc/quickstart/mapnik_quickstart.rst:70
+msgid "Observe the output in the server terminal window."
+msgstr ""
+
+#: ../../build/doc/quickstart/mapnik_quickstart.rst:74
+msgid "What next?"
+msgstr ""
+
+#: ../../build/doc/quickstart/mapnik_quickstart.rst:76
+msgid "Follow the tutorials to learn more about Mapnik: https://github.com/mapnik/mapnik/wiki/MapnikTutorials"
+msgstr ""
+
+#: ../../build/doc/quickstart/mapnik_quickstart.rst:78
+msgid "Explore the included files on the latest OSGeoLive distribution, in this directory: file:///usr/local/share/mapnik/"
+msgstr ""
+
+#: ../../build/doc/quickstart/mapnik_quickstart.rst:80
+msgid "Visit the Mapnik website: https://mapnik.org"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:13
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:16
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""
