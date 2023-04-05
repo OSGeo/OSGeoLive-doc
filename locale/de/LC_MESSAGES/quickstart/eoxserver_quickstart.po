@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2023-03-29 19:22+0000\n"
+"PO-Revision-Date: 2023-04-05 04:45+0000\n"
 "Last-Translator: Astrid Emde <astrid.emde@posteo.de>\n"
 "Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
 "eoxserver_quickstart/de/>\n"
@@ -48,7 +48,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:30
 msgid "This Quick Start describes how to:"
-msgstr "Dieses Quickstart beschreibt wie:"
+msgstr "Dieser Quickstart beschreibt, wie Sie:"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:32
 msgid "Use the Web Client to view, filter, subset, and download EO data"
@@ -250,7 +250,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:146
 msgid "What Next?"
-msgstr "Was nun?"
+msgstr "Was kommt als Nächstes?"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:148
 msgid ""

@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-03 09:57+0000\n"
-"PO-Revision-Date: 2023-03-29 19:22+0000\n"
+"PO-Revision-Date: 2023-04-05 04:45+0000\n"
 "Last-Translator: Astrid Emde <astrid.emde@posteo.de>\n"
 "Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
 "52nsos_quickstart/de/>\n"
@@ -46,7 +46,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:24
 msgid "This Quick Start describes how to:"
-msgstr "Dieses Quickstart-Dokument umfasst:"
+msgstr "Dieser Quickstart beschreibt, wie Sie:"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:26
 msgid ""

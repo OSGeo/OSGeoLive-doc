@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-01 12:20-0500\n"
-"PO-Revision-Date: 2023-03-29 19:22+0000\n"
+"PO-Revision-Date: 2023-04-05 04:45+0000\n"
 "Last-Translator: Astrid Emde <astrid.emde@posteo.de>\n"
 "Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
 "postgis_quickstart/de/>\n"
@@ -44,7 +44,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:46
 msgid "This Quick Start describes how to:"
-msgstr "Diese Kurzeinführung beschreibt:"
+msgstr "Dieser Quickstart beschreibt, wie Sie:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:48
 msgid ""
@@ -1088,7 +1088,7 @@ msgstr "Überprüfen Sie die Fremdtabelle `topp_states`:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:743
 msgid "Things to try"
-msgstr "Weitere Aufgaben"
+msgstr "Was Sie noch ausprobieren können"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:745
 msgid "Here are some additional challenges for you to try:"

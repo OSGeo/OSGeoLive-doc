@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-13 22:52+0000\n"
-"PO-Revision-Date: 2023-03-29 19:22+0000\n"
+"PO-Revision-Date: 2023-04-05 04:45+0000\n"
 "Last-Translator: Astrid Emde <astrid.emde@posteo.de>\n"
 "Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
 "jupyter_quickstart/de/>\n"
@@ -167,7 +167,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:131
 msgid "What Next?"
-msgstr "Was nun?"
+msgstr "Was kommt als Nächstes?"
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:133
 msgid ""
