@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2023-03-29 19:22+0000\n"
+"PO-Revision-Date: 2023-04-05 04:45+0000\n"
 "Last-Translator: Astrid Emde <astrid.emde@posteo.de>\n"
 "Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
 "qgis_mapserver_quickstart/de/>\n"
@@ -38,7 +38,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:25
 msgid "This Quick Start describes how to:"
-msgstr "Dieses Quickstart beschreibt die"
+msgstr "Dieser Quickstart beschreibt, wie Sie:"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:27
 msgid "update an existing QGIS project and render it with QGIS Server"

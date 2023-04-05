@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-13 22:52+0000\n"
-"PO-Revision-Date: 2023-03-29 19:22+0000\n"
+"PO-Revision-Date: 2023-04-05 04:45+0000\n"
 "Last-Translator: Astrid Emde <astrid.emde@posteo.de>\n"
 "Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
 "geoserver_quickstart/de/>\n"
@@ -41,7 +41,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:34
 msgid "This Quick Start describes how to:"
-msgstr "Dieser Quickstart beschreibt, wie:"
+msgstr "Dieser Quickstart beschreibt, wie Sie:"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:36
 msgid "add a vector and raster data source to GeoServer"

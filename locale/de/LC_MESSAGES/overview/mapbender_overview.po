@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-06 09:15-0500\n"
-"PO-Revision-Date: 2023-03-29 19:22+0000\n"
+"PO-Revision-Date: 2023-04-05 04:45+0000\n"
 "Last-Translator: Astrid Emde <astrid.emde@posteo.de>\n"
 "Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
 "mapbender_overview/de/>\n"
@@ -42,7 +42,7 @@ msgstr ""
 "`Mapbender <https://mapbender.org>`_ ist ein graduiertes OSGeo Projekt. "
 "Mapbender ist ein web-basiertes Geoportal Framework zum Veröffentlichen, "
 "Anzeigen und Überwachen von OGC Diensten, mit der Möglichkeit Dienste "
-"gesichert anzubieten. "
+"gesichert anzubieten."
 
 #: ../../build/doc/overview/mapbender_overview.rst:21
 msgid ""
@@ -108,7 +108,7 @@ msgstr "Erzeugung von mobilen Anwendungen"
 
 #: ../../build/doc/overview/mapbender_overview.rst:41
 msgid "Print high-quality maps using your own PDF templates."
-msgstr "Hochqualitativer Druck unter Verwendung eigener PDF-Vorlagen"
+msgstr "Hochqualitativer Druck unter Verwendung eigener PDF-Vorlagen."
 
 #: ../../build/doc/overview/mapbender_overview.rst:42
 msgid "Digitizing via SQL"
@@ -118,7 +118,7 @@ msgstr "Nutzung von SQL-Abfragen für die Digitalisierung"
 msgid "Upload and share remote OGC WMS (Capabilities caching)"
 msgstr ""
 "Laden und Verwalten von OGC WMS-Diensten (Speicherung der GetCapabilities "
-"Parameter) "
+"Parameter)"
 
 #: ../../build/doc/overview/mapbender_overview.rst:46
 msgid "arrange uploaded WMS for overlay"

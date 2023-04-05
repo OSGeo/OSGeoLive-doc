@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-13 22:52+0000\n"
-"PO-Revision-Date: 2023-03-29 19:22+0000\n"
+"PO-Revision-Date: 2023-04-05 04:45+0000\n"
 "Last-Translator: Astrid Emde <astrid.emde@posteo.de>\n"
 "Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
 "geoserver_overview/de/>\n"
@@ -207,7 +207,7 @@ msgstr "Unterstützung zahlreicher Open Geospatial Consortium (OGC) Standards:"
 
 #: ../../build/doc/overview/geoserver_overview.rst:71
 msgid "|WMS| (client/server)"
-msgstr "|WMS| (Client/Server)"
+msgstr "|WMS| (client/server)"
 
 #: ../../build/doc/overview/geoserver_overview.rst:72
 msgid "|WMTS|"
