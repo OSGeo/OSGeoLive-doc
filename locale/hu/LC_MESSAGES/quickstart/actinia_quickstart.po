@@ -1,30 +1,30 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
 # Translators:
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-05 15:16+0000\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
 "PO-Revision-Date: 2023-04-01 08:08+0000\n"
 "Last-Translator: Zoltan Siki <siki@agt.bme.hu>\n"
-"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
-"actinia_quickstart/hu/>\n"
 "Language: hu\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Hungarian "
+"<https://weblate.osgeo.org/projects/osgeolive/actinia_quickstart/hu/>\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:16
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+"This  project is only included on the OSGeoLive virtual machine disk "
+"(VMDK)"
 msgstr "Ez a projekt csak az OSGeoLive virtuális gépben (VMDK) található meg"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:22
@@ -35,15 +35,15 @@ msgstr "actinia gyorstalpaló"
 msgid ""
 "Actinia is an open source REST API for scalable, distributed, high "
 "performance processing of geographical data that uses mainly `GRASS GIS "
-"<https://grass.osgeo.org/>`__ for computational tasks. Actinia provides a "
-"REST API to process satellite images, time series of satellite images, "
+"<https://grass.osgeo.org/>`__ for computational tasks. Actinia provides a"
+" REST API to process satellite images, time series of satellite images, "
 "raster and vector data."
 msgstr ""
-"Az actinia egy nyílt forráskódú REST API térinformatikai adatok skálázható, "
-"megosztott, nagy teljesítményű feldolgozásához, mely többnyire `GRASS GIS-t "
-"<https://grass.osgeo.org/>`__ használ a számítási feladatokhoz. Az actinia "
-"egy REST API-t biztosít műholdképek, műholdkép idősorok. raszter és vektor "
-"adatok feldolgozásához."
+"Az actinia egy nyílt forráskódú REST API térinformatikai adatok "
+"skálázható, megosztott, nagy teljesítményű feldolgozásához, mely "
+"többnyire `GRASS GIS-t <https://grass.osgeo.org/>`__ használ a számítási "
+"feladatokhoz. Az actinia egy REST API-t biztosít műholdképek, műholdkép "
+"idősorok. raszter és vektor adatok feldolgozásához."
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:31
 msgid "Contents"
@@ -58,66 +58,91 @@ msgid "`curl` or similar command line tools"
 msgstr "curl vagy hasonló parancsori eszköz"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:36
-msgid "the `Postman` or `RESTman` extension for browsers"
-msgstr "a `Postman` vagy `RESTman` bövítmény a böngészőkhöz"
+msgid ""
+"through `Jupyter notebooks <https://github.com/actinia-org/actinia-"
+"jupyter>`__"
+msgstr ""
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:37
 msgid ""
-"open a GRASS GIS session and use the `ace` (actinia command execution) tool"
+"the `Python interface <https://github.com/actinia-org/actinia-python-"
+"client>`__"
+msgstr ""
+
+#: ../../build/doc/quickstart/actinia_quickstart.rst:38
+msgid "the `Postman` or `RESTman` extension for browsers"
+msgstr "a `Postman` vagy `RESTman` bövítmény a böngészőkhöz"
+
+#: ../../build/doc/quickstart/actinia_quickstart.rst:39
+msgid ""
+"open a GRASS GIS session and use the `ace` (actinia command execution) "
+"tool"
 msgstr ""
 "GRASS GIS munkafolyamat nyitása és az `ace` (actinia command execution) "
 "eszköz használata"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:38
+#: ../../build/doc/quickstart/actinia_quickstart.rst:40
 msgid "other interfaces to REST API"
 msgstr "más interfész REST API-hoz"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:40
+#: ../../build/doc/quickstart/actinia_quickstart.rst:42
 msgid ""
-"In this quickstart, we make use of GRASS GIS to conveniently launch commands"
-" from the session to the actinia server (which itself uses GRASS GIS). The "
-"idea is to rapidly develop a workflow locally on small data sets to then "
-"execute it on the server."
+"In this quickstart, we make use of GRASS GIS to conveniently launch "
+"commands from the session to the actinia server (which itself uses GRASS "
+"GIS). The idea is to rapidly develop a workflow locally on small data "
+"sets to then execute it on the server."
 msgstr ""
-"Ebben a gyorstalpalóban a GRASS GIS-t használjuk a parancsok indítására a "
-"munkamenetből az actinia szerver felé (mely maga is GRASS GIS-t használ). Az"
-" elképzelés az, hogy gyorsan dolgozzunk ki egy munkafolyamatot helyben, kis "
-"adathalmazzal,majd hajtsuk végre a szerveren."
+"Ebben a gyorstalpalóban a GRASS GIS-t használjuk a parancsok indítására a"
+" munkamenetből az actinia szerver felé (mely maga is GRASS GIS-t "
+"használ). Az elképzelés az, hogy gyorsan dolgozzunk ki egy "
+"munkafolyamatot helyben, kis adathalmazzal,majd hajtsuk végre a "
+"szerveren."
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:46
+#: ../../build/doc/quickstart/actinia_quickstart.rst:48
+msgid "Using actinia with a Jupyter notebook"
+msgstr ""
+
+#: ../../build/doc/quickstart/actinia_quickstart.rst:50
+msgid ""
+"Numerous Jupyter notebooks for actinia are available from "
+"`https://github.com/actinia-org/actinia-jupyter <https://github.com"
+"/actinia-org/actinia-jupyter>`_"
+msgstr ""
+
+#: ../../build/doc/quickstart/actinia_quickstart.rst:54
 msgid "Introduction to ace - actinia command execution"
 msgstr "Bevezetés az ac-ba - actinia parancs végrehajtás"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:48
+#: ../../build/doc/quickstart/actinia_quickstart.rst:56
 msgid ""
 "The ``ace`` tool (`details <https://neteler.gitlab.io/actinia-"
 "introduction/#controlling-actinia-from-a-running-grass-gis-session>`_) "
-"allows the execution of a single GRASS GIS command or a list of GRASS GIS "
-"commands on an actinia REST service (https://actinia.mundialis.de/). In "
-"addition it provides job management, the ability to list locations, mapsets "
-"and map layer the user has access to as well as the creation and deletion of"
-" mapsets."
+"allows the execution of a single GRASS GIS command or a list of GRASS GIS"
+" commands on an actinia REST service (https://actinia.mundialis.de/). In "
+"addition it provides job management, the ability to list locations, "
+"mapsets and map layer the user has access to as well as the creation and "
+"deletion of mapsets."
 msgstr ""
 "Az ``ace`` eszköz (részletek <https://neteler.gitlab.io/actinia-"
 "introduction/#controlling-actinia-from-a-running-grass-gis-session>`_)) "
-"lehetővé teszi egy GRASS GIS parancs vagy a GRASS GIS parancsok listájának "
-"végrehajtását egy actinia REST szolgáltatáson "
+"lehetővé teszi egy GRASS GIS parancs vagy a GRASS GIS parancsok "
+"listájának végrehajtását egy actinia REST szolgáltatáson "
 "(https://actinia.mundialis.de/). Továbbá munkakezelést is biztosít, a "
-"képesség, hogy a felhasználó által elérhető helyeket, térképhalmazokat, és "
-"térkép rétegeket listázzon továbbá térképhalmazokat hozzon létre és "
+"képesség, hogy a felhasználó által elérhető helyeket, térképhalmazokat, "
+"és térkép rétegeket listázzon továbbá térképhalmazokat hozzon létre és "
 "töröljön."
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:55
+#: ../../build/doc/quickstart/actinia_quickstart.rst:63
 msgid ""
 "Th ``ace`` tool must be executed in an active GRASS GIS session. It is "
-"installed with ``g.extension extension=ace "
-"url=https://github.com/actinia-org/ace``."
+"installed with ``g.extension extension=ace url=https://github.com"
+"/actinia-org/ace``."
 msgstr ""
 "Az ``ace`` eszközt egy aktív GRASS GIS munkamenetből kell végrehajtani. "
 "Ezzel a paranccsal telepíthető ``g.extension extension=ace "
 "url=https://github.com/actinia-org/ace``."
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:58
+#: ../../build/doc/quickstart/actinia_quickstart.rst:66
 msgid ""
 "All commands will be executed per default in an **ephemeral** database. "
 "Hence, generated output must be exported using augmented GRASS commands."
@@ -126,27 +151,27 @@ msgstr ""
 "alapértelmezés szerint. Ezért az elkészített outputot exportálni kell a "
 "kibővített GRASS parancsok használatával."
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:62
+#: ../../build/doc/quickstart/actinia_quickstart.rst:70
 msgid ""
-"The option ``mapset=MAPSET_NAME`` allows the execution of commands in the "
-"persistent user database. It can be used with ``location=LOCATION_NAME`` "
-"option."
+"The option ``mapset=MAPSET_NAME`` allows the execution of commands in the"
+" persistent user database. It can be used with ``location=LOCATION_NAME``"
+" option."
 msgstr ""
-"A ``mapset=MAPSET_NAME`` beállítás lehetővé teszi a parancsok végrehajtását "
-"az állandó felhasználói adatbázisban. Ez használható a "
+"A ``mapset=MAPSET_NAME`` beállítás lehetővé teszi a parancsok "
+"végrehajtását az állandó felhasználói adatbázisban. Ez használható a "
 "``location=LOCATION_NAME`` paraméterrel együtt."
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:67
+#: ../../build/doc/quickstart/actinia_quickstart.rst:75
 msgid "Setup your environment"
 msgstr "A környezet beállítása"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:69
+#: ../../build/doc/quickstart/actinia_quickstart.rst:77
 msgid "Be sure to run the following commands in a GRASS GIS session."
 msgstr ""
-"Győződjön meg róla, hogy egy GRASS GIS munkamenetben futtatja a következő "
-"parancsokat."
+"Győződjön meg róla, hogy egy GRASS GIS munkamenetben futtatja a következő"
+" parancsokat."
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:71
+#: ../../build/doc/quickstart/actinia_quickstart.rst:79
 msgid ""
 "The user must setup the following environmental variables to specify the "
 "actinia server and credentials:"
@@ -154,58 +179,58 @@ msgstr ""
 "A felhasználónak a következő környezeti változókat kell beállítania az "
 "actinia szerverhez és a hitelesítő adatokhoz:"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:82
+#: ../../build/doc/quickstart/actinia_quickstart.rst:90
 msgid "Access sample data"
 msgstr "Hozzáférés a példa adatokhoz"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:84
+#: ../../build/doc/quickstart/actinia_quickstart.rst:92
 msgid ""
-"Selected datasets are available to the demo user. To list the locations you "
-"have access to, run"
+"Selected datasets are available to the demo user. To list the locations "
+"you have access to, run"
 msgstr ""
 "A kiválasztott adatok elérhetők a demó felhasználó számára. A helyek "
 "listája, melyekhez hozzáférhet"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:91
+#: ../../build/doc/quickstart/actinia_quickstart.rst:99
 msgid ""
-"The following command lists mapsets of current location in the active GRASS "
-"GIS session (nc_spm_08):"
+"The following command lists mapsets of current location in the active "
+"GRASS GIS session (nc_spm_08):"
 msgstr ""
 "A kövtkező parancs az aktuális hely térképhalmazait listázza az aktuális "
 "GRASS GIS munkamenetben (nc_spm_08):"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:102
+#: ../../build/doc/quickstart/actinia_quickstart.rst:110
 msgid "Access data from external sources"
 msgstr "Adatok elérése külső forrásokból"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:103
+#: ../../build/doc/quickstart/actinia_quickstart.rst:111
 msgid ""
-"GRASS GIS commands can be augmented with actinia specific extensions. The "
-"``@`` operator can be specified for an input parameter to import a web "
+"GRASS GIS commands can be augmented with actinia specific extensions. The"
+" ``@`` operator can be specified for an input parameter to import a web "
 "located resource and to specify the export of an output parameter."
 msgstr ""
-"A GRASS GIS parancsok kibővíthetők az actinia specifikus kiterjesztésekkel. "
-"a ``@`` művelet adható meg egy input vagy output paraméterhez, hogy egy web "
-"helyről importálja az erőforrást illetve, hogy exportálja."
+"A GRASS GIS parancsok kibővíthetők az actinia specifikus "
+"kiterjesztésekkel. a ``@`` művelet adható meg egy input vagy output "
+"paraméterhez, hogy egy web helyről importálja az erőforrást illetve, hogy"
+" exportálja."
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:107
+#: ../../build/doc/quickstart/actinia_quickstart.rst:115
 msgid ""
-"Importantly, the name of the local location and mapset must correspond to "
-"that on the actinia REST server."
+"Importantly, the name of the local location and mapset must correspond to"
+" that on the actinia REST server."
 msgstr ""
 "Fontos, hogy a lokális hely és térképhalmaz egyezzen meg a actinia REST "
 "szerverével."
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:110
+#: ../../build/doc/quickstart/actinia_quickstart.rst:118
 msgid "Currently available datasets are (organized by projections):"
 msgstr "Aktuálisan elérhető adathalmazok (vetület szerint csoportosítva):"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:112
+#: ../../build/doc/quickstart/actinia_quickstart.rst:120
 msgid "North Carolina sample dataset (NC State-Plane metric CRS, EPSG: 3358):"
-msgstr ""
-"Észak Carolina minta adathalmaz (NC State-Plane metric CRS, EPSG: 3358):"
+msgstr "Észak Carolina minta adathalmaz (NC State-Plane metric CRS, EPSG: 3358):"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:115
+#: ../../build/doc/quickstart/actinia_quickstart.rst:123
 msgid ""
 "base cartography (``nc_spm_08/PERMANENT``; source: "
 "https://grassbook.org/datasets/datasets-3rd-edition/)"
@@ -213,23 +238,23 @@ msgstr ""
 "alap kartogáfia (``nc_spm_08/PERMANENT``; forrás: "
 "https://grassbook.org/datasets/datasets-3rd-edition/)"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:117
+#: ../../build/doc/quickstart/actinia_quickstart.rst:125
 msgid ""
 "Landsat subscenes (``nc_spm_08/landsat``; source: "
 "https://grass.osgeo.org/download/data/)"
 msgstr ""
-"Landsat képek (``nc_spm_08/landsat``; source: https://grass.osgeo.org/"
-"download/data/)"
+"Landsat képek (``nc_spm_08/landsat``; source: "
+"https://grass.osgeo.org/download/data/)"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:120
+#: ../../build/doc/quickstart/actinia_quickstart.rst:128
 msgid "Latitude-Longitude location (LatLong WGS84, EPSG:4326):"
 msgstr "Szélesség-hosszúság (LatLong WGS84, EPSG:4326):"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:122
+#: ../../build/doc/quickstart/actinia_quickstart.rst:130
 msgid "empty (``latlong_wgs84/PERMANENT/``)"
 msgstr "empty (``latlong_wgs84/PERMANENT/``)"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:123
+#: ../../build/doc/quickstart/actinia_quickstart.rst:131
 msgid ""
 "16-days NDVI, MOD13C1, V006, CMG 0.05 deg res. "
 "(``latlong_wgs84/modis_ndvi_global/``; source: "
@@ -239,31 +264,32 @@ msgstr ""
 "(``latlong_wgs84/modis_ndvi_global/``; forrás: "
 "https://lpdaac.usgs.gov/products/mod13c1v006)"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:126
+#: ../../build/doc/quickstart/actinia_quickstart.rst:134
 msgid ""
-"LST growing degree days asia 2017 (``latlong_wgs84/asia_gdd_2017/``; source:"
-" https://www.mundialis.de/en/temperature-data/)"
-msgstr ""
-"LST növekvő hőmérsékletű napok Ázsia 2017 (``latlong_wgs84/asia_gdd_2017/``; "
+"LST growing degree days asia 2017 (``latlong_wgs84/asia_gdd_2017/``; "
 "source: https://www.mundialis.de/en/temperature-data/)"
+msgstr ""
+"LST növekvő hőmérsékletű napok Ázsia 2017 "
+"(``latlong_wgs84/asia_gdd_2017/``; source: https://www.mundialis.de/en"
+"/temperature-data/)"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:128
+#: ../../build/doc/quickstart/actinia_quickstart.rst:136
 msgid "LST tropical days asia 2017 (``latlong_wgs84/asia_tropical_2017/``)"
 msgstr "LST tropikus napok Ázsia 2017 (``latlong_wgs84/asia_tropical_2017/``)"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:129
+#: ../../build/doc/quickstart/actinia_quickstart.rst:137
 msgid ""
 "LST temperature daily asia 2017, including min, max and avg "
 "(``latlong_wgs84/asia_lst_daily_2017/``)"
 msgstr ""
-"LST napi hőmérséklet Ázsia 2017, min, max és átlag is (``latlong_wgs84/"
-"asia_lst_daily_2017/``)"
+"LST napi hőmérséklet Ázsia 2017, min, max és átlag is "
+"(``latlong_wgs84/asia_lst_daily_2017/``)"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:132
+#: ../../build/doc/quickstart/actinia_quickstart.rst:140
 msgid "Europe (EU LAEA CRS, EPSG:3035):"
 msgstr "Európa (EU LAEA CRS, EPSG:3035):"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:134
+#: ../../build/doc/quickstart/actinia_quickstart.rst:142
 msgid ""
 "EU DEM 25m V1.1 (``eu_laea/PERMANENT/``; source: "
 "https://land.copernicus.eu/imagery-in-situ/eu-dem)"
@@ -271,83 +297,86 @@ msgstr ""
 "EU DEM 25m V1.1 (``eu_laea/PERMANENT/``; source: "
 "https://land.copernicus.eu/imagery-in-situ/eu-dem)"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:136
+#: ../../build/doc/quickstart/actinia_quickstart.rst:144
 msgid ""
-"CORINE Landcover 2012, g100_clc12_V18_5 (``eu_laea/corine_2012/``; source: "
-"https://land.copernicus.eu/pan-european/corine-land-cover/clc-2012)"
+"CORINE Landcover 2012, g100_clc12_V18_5 (``eu_laea/corine_2012/``; "
+"source: https://land.copernicus.eu/pan-european/corine-land-"
+"cover/clc-2012)"
 msgstr ""
 "CORINE felszínborítás 2012, g100_clc12_V18_5 (``eu_laea/corine_2012/``; "
-"source: https://land.copernicus.eu/pan-european/corine-land-cover/clc-2012)"
+"source: https://land.copernicus.eu/pan-european/corine-land-"
+"cover/clc-2012)"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:140
+#: ../../build/doc/quickstart/actinia_quickstart.rst:148
 msgid "World Mollweide (EPSG 54009):"
 msgstr "Világ Mollweide vetület (EPSG 54009):"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:142
+#: ../../build/doc/quickstart/actinia_quickstart.rst:150
 msgid ""
-"GHS_POP_GPW42015_GLOBE_R2015A_54009_250_v1_0 (``world_mollweide/pop_jrc``; "
-"source: https://ghsl.jrc.ec.europa.eu/ghs_pop.php)"
+"GHS_POP_GPW42015_GLOBE_R2015A_54009_250_v1_0 "
+"(``world_mollweide/pop_jrc``; source: "
+"https://ghsl.jrc.ec.europa.eu/ghs_pop.php)"
 msgstr ""
-"GHS_POP_GPW42015_GLOBE_R2015A_54009_250_v1_0 (``world_mollweide/pop_jrc``; "
-"source: https://ghsl.jrc.ec.europa.eu/ghs_pop.php)"
+"GHS_POP_GPW42015_GLOBE_R2015A_54009_250_v1_0 "
+"(``world_mollweide/pop_jrc``; source: "
+"https://ghsl.jrc.ec.europa.eu/ghs_pop.php)"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:147
+#: ../../build/doc/quickstart/actinia_quickstart.rst:155
 msgid "Inspect the REST call prior to submission"
 msgstr "A REST-hívás ellenőrzése az elküldés előtt"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:149
-#: ../../build/doc/quickstart/actinia_quickstart.rst:218
+#: ../../build/doc/quickstart/actinia_quickstart.rst:157
+#: ../../build/doc/quickstart/actinia_quickstart.rst:226
 msgid ""
 "To generate the actinia process chain JSON request simply add the ``-d`` "
 "(dry-run) flag:"
 msgstr ""
-"Az actinia feldolgozás lánc JSON kérés generálásához adja meg a ``-d`` (dry-"
-"run) kapcsolót:"
+"Az actinia feldolgozás lánc JSON kérés generálásához adja meg a ``-d`` "
+"(dry-run) kapcsolót:"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:157
+#: ../../build/doc/quickstart/actinia_quickstart.rst:165
 msgid "Display a map - map rendering"
 msgstr "Egy térkép megjelenítése - térképrajzolás"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:159
+#: ../../build/doc/quickstart/actinia_quickstart.rst:167
 msgid "It is very easy (and fast) to render a map:"
 msgstr "Nagyon egyszerű (és gyors) a térképrajzolás:"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:171
-#: ../../build/doc/quickstart/actinia_quickstart.rst:171
+#: ../../build/doc/quickstart/actinia_quickstart.rst:179
 msgid "ESA Globcover map shown by actinia"
 msgstr "ESA Globcover térkép actinia-val megjelenítve"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:173
+#: ../../build/doc/quickstart/actinia_quickstart.rst:181
 msgid ""
-"Ephemeral processing is the default processing approach of actinia. Commands"
-" are executed in an ephemeral mapset which will be removed after processing."
-" You can export the output of GRASS GIS modules to store the computational "
-"result for download and further analysis. The following export formats are "
-"currently supported:"
+"Ephemeral processing is the default processing approach of actinia. "
+"Commands are executed in an ephemeral mapset which will be removed after "
+"processing. You can export the output of GRASS GIS modules to store the "
+"computational result for download and further analysis. The following "
+"export formats are currently supported:"
 msgstr ""
-"Az efemer feldolgozás az actinia alapértelmezett feldolgozási módszere. A "
-"parancsokat egy efemer térképhalmazban hajtunk végre, amit a feldolgozás "
-"után eltávolítunk. A GRASS GIS modulok outputját exportálhatja, a számítási "
-"eredmények tárolására, letöltésére vagy további elemzéshez. A következő "
-"export formátumokat támogatjuk:"
+"Az efemer feldolgozás az actinia alapértelmezett feldolgozási módszere. A"
+" parancsokat egy efemer térképhalmazban hajtunk végre, amit a feldolgozás"
+" után eltávolítunk. A GRASS GIS modulok outputját exportálhatja, a "
+"számítási eredmények tárolására, letöltésére vagy további elemzéshez. A "
+"következő export formátumokat támogatjuk:"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:178
+#: ../../build/doc/quickstart/actinia_quickstart.rst:186
 msgid "raster: ``COG``, ``GTiff``"
 msgstr "raszter: ``COG``, ``GTiff``"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:179
+#: ../../build/doc/quickstart/actinia_quickstart.rst:187
 msgid "vector: ``GPKG``, ``GML``, ``GeoJSON``, ``ESRI_Shapefile``"
 msgstr "vektor: ``GPKG``, ``GML``, ``GeoJSON``, ``ESRI_Shapefile``"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:180
+#: ../../build/doc/quickstart/actinia_quickstart.rst:188
 msgid "table: ``CSV``, ``TXT``"
 msgstr "tábla: ``CSV``, ``TXT``"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:184
+#: ../../build/doc/quickstart/actinia_quickstart.rst:192
 msgid "Script examples"
 msgstr "Szkript példák"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:187
+#: ../../build/doc/quickstart/actinia_quickstart.rst:195
 msgid ""
 "Example 1: computing slope and aspect and univariate statistics from an "
 "elevation model"
@@ -355,165 +384,164 @@ msgstr ""
 "1. példa: lejtés, kitettség és egyváltozós statisztikák számítása egy "
 "magasság modellből"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:189
+#: ../../build/doc/quickstart/actinia_quickstart.rst:197
 msgid ""
-"The following commands (to be stored in a script and executed with ``ace``) "
-"will import a raster layer from an internet source as raster map ``elev``, "
-"sets the computational region to the map and computes the slope. Additional "
-"information about the raster layer are requested with ``r.info``."
+"The following commands (to be stored in a script and executed with "
+"``ace``) will import a raster layer from an internet source as raster map"
+" ``elev``, sets the computational region to the map and computes the "
+"slope. Additional information about the raster layer are requested with "
+"``r.info``."
 msgstr ""
-"A következő parancsok (egy szkriptben tárolandó és ``ace``-val végrehajtandó)"
-" egy raszter réteget importálnak egy internetes forrásból ``elev`` névvel, "
-"beállítják a számítási régiót a térképhez és kiszámítja a lejtést. További "
-"információt kérünk az ``r.info``.val."
+"A következő parancsok (egy szkriptben tárolandó és ``ace``-val "
+"végrehajtandó) egy raszter réteget importálnak egy internetes forrásból "
+"``elev`` névvel, beállítják a számítási régiót a térképhez és kiszámítja "
+"a lejtést. További információt kérünk az ``r.info``.val."
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:195
+#: ../../build/doc/quickstart/actinia_quickstart.rst:203
 msgid "Store the following script as text file ``ace_dtm_statistics.sh``:"
 msgstr ""
-"Tárolja a következő szkriptet mint egy szövegfájl ``ace_dtm_statistics.sh``:"
+"Tárolja a következő szkriptet mint egy szövegfájl "
+"``ace_dtm_statistics.sh``:"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:209
+#: ../../build/doc/quickstart/actinia_quickstart.rst:217
 msgid ""
-"Save the script in the text file to ``/tmp/ace_dtm_statistics.sh`` and run "
-"the saved script as"
+"Save the script in the text file to ``/tmp/ace_dtm_statistics.sh`` and "
+"run the saved script as"
 msgstr ""
 "Mentse el a szkriptet a ``/tmp/ace_dtm_statistics.sh`` szövegfájlba és "
 "futtassa a mentett szkriptet"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:216
-#: ../../build/doc/quickstart/actinia_quickstart.rst:356
-msgid ""
-"The results (messages, statistics, files) are provided as REST resources."
+#: ../../build/doc/quickstart/actinia_quickstart.rst:224
+#: ../../build/doc/quickstart/actinia_quickstart.rst:364
+msgid "The results (messages, statistics, files) are provided as REST resources."
 msgstr ""
 "Az eredményeket (üzenetek, statisztikák, fájlok) mint REST erőforrásokat "
 "kapjuk meg."
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:225
+#: ../../build/doc/quickstart/actinia_quickstart.rst:233
 msgid "The output should look like this:"
 msgstr "Így kell kinéznie az outputnak:"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:326
+#: ../../build/doc/quickstart/actinia_quickstart.rst:334
 msgid "Example 2: Orthophoto image segmentation with export"
 msgstr "Példa 2: ortofotó kép szegmentáció exporttal"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:328
+#: ../../build/doc/quickstart/actinia_quickstart.rst:336
 msgid "Store the following script as text file ``/tmp/ace_segmentation.sh``:"
 msgstr ""
 "Tárolja a következő szkriptet mint egy szövegfájlt "
 "``/tmp/ace_segmentation.sh``:"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:350
+#: ../../build/doc/quickstart/actinia_quickstart.rst:358
 msgid "Run the script saved in a text file as"
 msgstr "Futtassa a szövegfájlba mentett parancsfájlt"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:359
+#: ../../build/doc/quickstart/actinia_quickstart.rst:367
 msgid "Examples for persistent processing"
 msgstr "Példák az állandó feldolgozásra"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:360
+#: ../../build/doc/quickstart/actinia_quickstart.rst:368
 msgid ""
-"GRASS GIS commands can be executed in a user specific persistent database. "
-"The user must create a mapset in an existing location. This mapsets can be "
-"accessed via ``ace``. All processing results of commands run in this mapset,"
-" will be stored persistently. Be aware that the processing will be performed"
-" in an ephemeral database that will be moved to the persistent storage using"
-" the correct name after processing."
+"GRASS GIS commands can be executed in a user specific persistent "
+"database. The user must create a mapset in an existing location. This "
+"mapsets can be accessed via ``ace``. All processing results of commands "
+"run in this mapset, will be stored persistently. Be aware that the "
+"processing will be performed in an ephemeral database that will be moved "
+"to the persistent storage using the correct name after processing."
 msgstr ""
-"A GRASS GIS parancsok végrehajthatóak egy felhasználó által megadott állandó"
-" adatbázisban. A felhasználónak létre kell hoznia egy térképhalmazt egy "
-"létező helyen. Ezt a térképhalmazt elérhetjük a ``ace``-n keresztül. Ebben a"
-" térképhalmazban futtatott parancsok összes feldolgozási eredményét tartósan"
-" tároljuk. Ne felejtse el, hogy a feldolgozást egy efemer adatbázisban "
-"hajtjuk végre, amelyet a feldolgozás után a helyes névvel áthelyezzük a "
-"tartós tárhelyre."
+"A GRASS GIS parancsok végrehajthatóak egy felhasználó által megadott "
+"állandó adatbázisban. A felhasználónak létre kell hoznia egy "
+"térképhalmazt egy létező helyen. Ezt a térképhalmazt elérhetjük a "
+"``ace``-n keresztül. Ebben a térképhalmazban futtatott parancsok összes "
+"feldolgozási eredményét tartósan tároljuk. Ne felejtse el, hogy a "
+"feldolgozást egy efemer adatbázisban hajtjuk végre, amelyet a feldolgozás"
+" után a helyes névvel áthelyezzük a tartós tárhelyre."
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:367
+#: ../../build/doc/quickstart/actinia_quickstart.rst:375
 msgid ""
 "To create a new mapset in the **nc_spm_08** location with the name "
 "**test_mapset** the following command must be executed"
 msgstr ""
-"Egy új térképhalmaz létrehozásához az **nc_spm_08** helyen, **test_mapset** "
-"névvel a következő parancsot kell végrehajtania"
+"Egy új térképhalmaz létrehozásához az **nc_spm_08** helyen, "
+"**test_mapset** névvel a következő parancsot kell végrehajtania"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:374
-msgid ""
-"Run the commands from the statistic script in the new persistent mapset"
+#: ../../build/doc/quickstart/actinia_quickstart.rst:382
+msgid "Run the commands from the statistic script in the new persistent mapset"
 msgstr ""
-"Futtassa a parancsokat a statisztika szkriptből egy új tartós térképhalmazban"
+"Futtassa a parancsokat a statisztika szkriptből egy új tartós "
+"térképhalmazban"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:380
-msgid ""
-"Show all raster maps that have been created with the script in test_mapset"
+#: ../../build/doc/quickstart/actinia_quickstart.rst:388
+msgid "Show all raster maps that have been created with the script in test_mapset"
 msgstr ""
 "A test_mapset-ben lévő parancsfájllal létrehozott rasztertérképek "
 "megjelenítése"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:387
+#: ../../build/doc/quickstart/actinia_quickstart.rst:395
 msgid "Show information about raster map elev and slope_elev"
 msgstr "Az elev és slope_elev térképekről információ megjelenítése"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:394
+#: ../../build/doc/quickstart/actinia_quickstart.rst:402
 msgid "Delete the test_mapset (always double check names when deleting)"
-msgstr ""
-"Törölje a test_mapset-et (mindig ellenőrizze duplán a neveket a törlésnél)"
-
-#: ../../build/doc/quickstart/actinia_quickstart.rst:400
-msgid ""
-"If the active GRASS GIS session has identical location/mapset names, then an"
-" alias can be used to avoid the persistent option in each single command "
-"call:"
-msgstr ""
-"Ha az aktív GRASS GIS munkamenet azonos hely/térképcsoport beállításokkal "
-"rendelkezik, akkor egy aliast lehet használni, hogy elkerülje a tartós "
-"beállítást minden egyes parancs hívásban:"
+msgstr "Törölje a test_mapset-et (mindig ellenőrizze duplán a neveket a törlésnél)"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:408
 msgid ""
+"If the active GRASS GIS session has identical location/mapset names, then"
+" an alias can be used to avoid the persistent option in each single "
+"command call:"
+msgstr ""
+"Ha az aktív GRASS GIS munkamenet azonos hely/térképcsoport beállításokkal"
+" rendelkezik, akkor egy aliast lehet használni, hogy elkerülje a tartós "
+"beállítást minden egyes parancs hívásban:"
+
+#: ../../build/doc/quickstart/actinia_quickstart.rst:416
+msgid ""
 "We assume that in the active GRASS GIS session the current location is "
-"**nc_spm_08** and the current mapset is **test_mapset**. Then the commands "
-"from above can be executed in the following way:"
+"**nc_spm_08** and the current mapset is **test_mapset**. Then the "
+"commands from above can be executed in the following way:"
 msgstr ""
 "Feltételezzük, hogy az aktív GRASS GIS munkamenetben az aktuális hely "
-"**nc_spm_08** és az aktuális térképhalmaz **test_mapset**.  Ekkor a fenti "
-"parancsok a következő módon hajthatók végre:"
+"**nc_spm_08** és az aktuális térképhalmaz **test_mapset**.  Ekkor a fenti"
+" parancsok a következő módon hajthatók végre:"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:421
+#: ../../build/doc/quickstart/actinia_quickstart.rst:429
 msgid "Things to try"
 msgstr "Kipróbálandó dolgok"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:424
+#: ../../build/doc/quickstart/actinia_quickstart.rst:432
 msgid "Install on OSGeoLive VM with Docker Compose"
 msgstr "Telepítés az OSGeoLive VM-en Docker Compose-al"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:426
+#: ../../build/doc/quickstart/actinia_quickstart.rst:434
 msgid ""
-"Requirements: docker and docker-compose (already available in OSGeoLive VM "
-"version)"
+"Requirements: docker and docker-compose (already available in OSGeoLive "
+"VM version)"
 msgstr ""
-"Követelmények: docker és docker-compose (már rendelkezésre áll az OSGeoLive "
-"VM verzióban)"
+"Követelmények: docker és docker-compose (már rendelkezésre áll az "
+"OSGeoLive VM verzióban)"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:428
+#: ../../build/doc/quickstart/actinia_quickstart.rst:436
 msgid "To build and deploy actinia, run"
 msgstr "Az actinia elkészítéséhez és telepítéséhez futtassa"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:436
+#: ../../build/doc/quickstart/actinia_quickstart.rst:444
 msgid "Now you have a running actinia instance locally! Check with"
 msgstr "Most van egy helyi, futó actinia példánya! Ellenőrizze"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:443
+#: ../../build/doc/quickstart/actinia_quickstart.rst:451
 msgid "Create new locations"
 msgstr "Új helyek létrehozása"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:455
+#: ../../build/doc/quickstart/actinia_quickstart.rst:463
 msgid "Install GRASS GIS addons (extensions)"
 msgstr "GRASS GIS bővítmények telepítése"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:470
+#: ../../build/doc/quickstart/actinia_quickstart.rst:478
 msgid "What next?"
 msgstr "Mi a következő?"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:471
+#: ../../build/doc/quickstart/actinia_quickstart.rst:480
 msgid ""
 "Visit the actinia website at `https://actinia.mundialis.de "
 "<https://actinia.mundialis.de>`_"
@@ -521,7 +549,7 @@ msgstr ""
 "Látogassa meg az actinia honlapot `https://actinia.mundialis.de "
 "<https://actinia.mundialis.de>`_"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:472
+#: ../../build/doc/quickstart/actinia_quickstart.rst:481
 msgid ""
 "actinia tutorial: `https://neteler.gitlab.io/actinia-introduction "
 "<https://neteler.gitlab.io/actinia-introduction>`_"
@@ -529,21 +557,21 @@ msgstr ""
 "actinia oktatóanyag: `https://neteler.gitlab.io/actinia-introduction "
 "<https://neteler.gitlab.io/actinia-introduction>`_"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:473
+#: ../../build/doc/quickstart/actinia_quickstart.rst:482
 msgid ""
 "Further reading: Neteler, M., Gebbert, S., Tawalika, C., Bettge, A., "
-"Benelcadi, H., Löw, F., Adams, T, Paulsen, H. (2019). Actinia: cloud based "
-"geoprocessing. In Proc. of the 2019 conference on Big Data from Space "
-"(BiDS'2019) (pp. 41-44). EUR 29660 EN, Publications Office of the European "
-"Union 5, Luxembourg: P. Soille, S. Loekken, and S. Albani (Eds.). (`DOI "
-"<https://zenodo.org/record/2631917>`__)"
+"Benelcadi, H., Löw, F., Adams, T, Paulsen, H. (2019). Actinia: cloud "
+"based geoprocessing. In Proc. of the 2019 conference on Big Data from "
+"Space (BiDS'2019) (pp. 41-44). EUR 29660 EN, Publications Office of the "
+"European Union 5, Luxembourg: P. Soille, S. Loekken, and S. Albani "
+"(Eds.). (`DOI <https://zenodo.org/record/2631917>`__)"
 msgstr ""
 "További olvasmányok: Neteler, M., Gebbert, S., Tawalika, C., Bettge, A., "
-"Benelcadi, H., Löw, F., Adams, T, Paulsen, H. (2019). Actinia: cloud based "
-"geoprocessing. In Proc. of the 2019 conference on Big Data from Space "
-"(BiDS'2019) (pp. 41-44). EUR 29660 EN, Publications Office of the European "
-"Union 5, Luxembourg: P. Soille, S. Loekken, and S. Albani (Eds.). (`DOI "
-"<https://zenodo.org/record/2631917>`__)"
+"Benelcadi, H., Löw, F., Adams, T, Paulsen, H. (2019). Actinia: cloud "
+"based geoprocessing. In Proc. of the 2019 conference on Big Data from "
+"Space (BiDS'2019) (pp. 41-44). EUR 29660 EN, Publications Office of the "
+"European Union 5, Luxembourg: P. Soille, S. Loekken, and S. Albani "
+"(Eds.). (`DOI <https://zenodo.org/record/2631917>`__)"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -553,10 +581,11 @@ msgstr "vmdk"
 msgid "nologo"
 msgstr "nologo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "OSGeo Projekt"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo közösség"
+

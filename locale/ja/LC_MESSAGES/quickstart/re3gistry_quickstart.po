@@ -1,25 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
 # Translators:
 # Ko Nagase <nagase@georepublic.co.jp>, 2022
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-06 09:15-0500\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
 "PO-Revision-Date: 2020-10-21 15:59+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2022\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: ja\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)"
+"\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:12
 msgid "Re3gistry Quickstart"
@@ -27,20 +28,21 @@ msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:14
 msgid ""
-"The Re3gistry 2 is a reusable open source solution for managing and sharing "
-"\"reference codes\". It provides a consistent central access point where "
-"labels and descriptions for reference codes can be easily browsed by humans "
-"and retrieved by machines.  Reference codes are exchanged between "
-"applications to uniquely reference some ‘thing’. They can be used to define "
-"sets of permissible values for a data field or to provide a reference or "
-"context for the data being exchanged. Examples are enumerations, controlled "
-"vocabularies, taxonomies, thesauri or, simply, ‘lists of things’.  The "
-"Re3gistry 2 supports organisations in managing and updating reference codes "
-"in a consistent way."
+"The Re3gistry 2 is a reusable open source solution for managing and "
+"sharing \"reference codes\". It provides a consistent central access "
+"point where labels and descriptions for reference codes can be easily "
+"browsed by humans and retrieved by machines.  Reference codes are "
+"exchanged between applications to uniquely reference some ‘thing’. They "
+"can be used to define sets of permissible values for a data field or to "
+"provide a reference or context for the data being exchanged. Examples are"
+" enumerations, controlled vocabularies, taxonomies, thesauri or, simply, "
+"‘lists of things’.  The Re3gistry 2 supports organisations in managing "
+"and updating reference codes in a consistent way."
 msgstr ""
-"Re3gistry 2は、 \"リファレンスコード\" を管理および共有するための再利用可能なオープンソースソリューションです。It provides "
-"a consistent central access point where labels and descriptions for "
-"reference codes can be easily browsed by humans and retrieved by machines.  "
+"Re3gistry 2は、 \"リファレンスコード\" を管理および共有するための再利用可能なオープンソースソリューションです。It "
+"provides a consistent central access point where labels and descriptions "
+"for reference codes can be easily browsed by humans and retrieved by "
+"machines.  "
 "リファレンスコードは、何らかの「もの」を一意に参照するためにアプリケーション間で交換されます。これらを使用して、データフィールドの許容値のセットを定義したり、交換されるデータの参照またはコンテキストを提供したりできます。例としては、列挙、統制された語彙、分類法、シソーラス、あるいは単に「ものの一覧」があります。Re3gistry"
 " 2は、組織が一貫した方法で参照コードを管理し更新することを支援しています。"
 
@@ -65,22 +67,23 @@ msgid "Start the Re3gistry"
 msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:36
+#, fuzzy
 msgid ""
-"Choose *'Start Re3gistry'* from the :menuselection:`Geospatial --> Web "
-"Services --> Re3gistry` menu.  The application will take a few moments to "
-"start up. Firefox opens the *Re3gistry landing page* (you can also open this"
-" manually by pointing your browser to http://localhost:8080/re3gistry2)."
+"Choose *'Start Re3gistry'* from the |menu_re3gistry-Start| menu.  The "
+"application will take a few moments to start up. Firefox opens the "
+"*Re3gistry landing page* (you can also open this manually by pointing "
+"your browser to http://localhost:8080/re3gistry2)."
 msgstr ""
 "Choose *'Start Re3gistry'* from the :menuselection:`Geospatial --> Web "
 "Services --> Re3gistry` menu.  アプリケーションの起動には少し時間がかかります。Firefox opens the "
-"*Re3gistry landing page* (you can also open this manually by pointing your "
-"browser to http://localhost:8080/re3gistry2)."
+"*Re3gistry landing page* (you can also open this manually by pointing "
+"your browser to http://localhost:8080/re3gistry2)."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:41
 msgid ""
 "If this is the first start, the Re3gistry will launch the installation "
-"wizard. This wizard will guide the user to the setup and first run of the "
-"tool."
+"wizard. This wizard will guide the user to the setup and first run of the"
+" tool."
 msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:45
@@ -90,8 +93,8 @@ msgstr ""
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:46
 msgid ""
 "The \"Registry manager\" page allows you to define the account for the "
-"system administration (Registry manager). Insert a valid e-mail address and "
-"a password. Then click on \"Save and continue\"."
+"system administration (Registry manager). Insert a valid e-mail address "
+"and a password. Then click on \"Save and continue\"."
 msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:49
@@ -107,9 +110,9 @@ msgstr ""
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:54
 msgid ""
 "Migration: choose this option if you want to upgrade a pre-existing "
-"Re3gistry instance. This option will keep your settings and content. Note "
-"that this option will only work on an existing instance running on Re3gistry"
-" version 1.3.X."
+"Re3gistry instance. This option will keep your settings and content. Note"
+" that this option will only work on an existing instance running on "
+"Re3gistry version 1.3.X."
 msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:59
@@ -118,8 +121,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:61
 msgid ""
-"In case the \"Installation\" option is chosen, the basic configuration for "
-"the new registry will be requested."
+"In case the \"Installation\" option is chosen, the basic configuration "
+"for the new registry will be requested."
 msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:64
@@ -131,21 +134,21 @@ msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:66
 msgid ""
-"Master language: the master language is the one used by the Re3gistry 2 to "
-"handle multilingualism. Note that this will require all content to be "
+"Master language: the master language is the one used by the Re3gistry 2 "
+"to handle multilingualism. Note that this will require all content to be "
 "available in the chosen master language."
 msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:69
 msgid ""
-"Base URI: the base URI will be part of the public URL, generally this should"
-" match with your own domain name: `**http://example.com**/registry`"
+"Base URI: the base URI will be part of the public URL, generally this "
+"should match with your own domain name: `**http://example.com**/registry`"
 msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:71
 msgid ""
-"Local ID: the local ID will be part of the public URL, generally the path "
-"following the domain name: `http://example.com/**registry**`"
+"Local ID: the local ID will be part of the public URL, generally the path"
+" following the domain name: `http://example.com/**registry**`"
 msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:73
@@ -156,9 +159,9 @@ msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:75
 msgid ""
-"Content summary: this text should shortly describe what would be available "
-"under your Re3gistry 2 instance. It will be shown in the registry’s landing "
-"page."
+"Content summary: this text should shortly describe what would be "
+"available under your Re3gistry 2 instance. It will be shown in the "
+"registry’s landing page."
 msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:79
@@ -167,9 +170,10 @@ msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:81
 msgid ""
-"The next step will present a summary of the information inserted. If all the"
-" fields are correct, click on \"Install\" to begin the installation.  Once "
-"the installation is finished, the user is redirected to the login page."
+"The next step will present a summary of the information inserted. If all "
+"the fields are correct, click on \"Install\" to begin the installation.  "
+"Once the installation is finished, the user is redirected to the login "
+"page."
 msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:85
@@ -178,8 +182,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:87
 msgid ""
-"In case the \"Migration\" option is chosen, the details of the database from"
-" the existing Re3gistry installation are requested."
+"In case the \"Migration\" option is chosen, the details of the database "
+"from the existing Re3gistry installation are requested."
 msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:90
@@ -188,8 +192,9 @@ msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:91
 msgid ""
-"click the \"Save and continue\" button. You will then get a page containing "
-"a summary of the data retrieved from the existing instance of the Re3gistry."
+"click the \"Save and continue\" button. You will then get a page "
+"containing a summary of the data retrieved from the existing instance of "
+"the Re3gistry."
 msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:93
@@ -210,21 +215,21 @@ msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:101
 msgid ""
-"The Re3gistry editing interface allows to graphically manage the complete "
-"life-cycle of reference codes, such as code lists, enumerations, controlled "
-"vocabularies, taxonomies, thesauri or, simply, 'lists of things'.  If you "
-"choose the \"installation mode\" from the wizard, the first time you log in "
-"to the system, you will have an empty registry. You can then start "
-"populating it using the tools provided by the editing interface.  If you "
-"choose the \"migration mode\" from the wizard, you will find the registers "
-"imported from the older version of the tool."
+"The Re3gistry editing interface allows to graphically manage the complete"
+" life-cycle of reference codes, such as code lists, enumerations, "
+"controlled vocabularies, taxonomies, thesauri or, simply, 'lists of "
+"things'.  If you choose the \"installation mode\" from the wizard, the "
+"first time you log in to the system, you will have an empty registry. You"
+" can then start populating it using the tools provided by the editing "
+"interface.  If you choose the \"migration mode\" from the wizard, you "
+"will find the registers imported from the older version of the tool."
 msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:110
 msgid ""
-"For detailed documentation on the editing interface, please read the `user "
-"manual <https://github.com/ec-jrc/re3gistry/blob/master/documentation/user-"
-"manual.md>`__."
+"For detailed documentation on the editing interface, please read the "
+"`user manual <https://github.com/ec-"
+"jrc/re3gistry/blob/master/documentation/user-manual.md>`__."
 msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:115
@@ -233,8 +238,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:117
 msgid ""
-"The Re3gistry 2 follows the `ISO 19135 Standard \"Geographic information — "
-"Procedures for item registration\" "
+"The Re3gistry 2 follows the `ISO 19135 Standard \"Geographic information "
+"— Procedures for item registration\" "
 "<https://www.iso.org/standard/54721.html>`__."
 msgstr ""
 
@@ -264,8 +269,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:128
 msgid ""
-"The registry manager has the highest privileges in the system. This role can"
-" perform three different tasks:"
+"The registry manager has the highest privileges in the system. This role "
+"can perform three different tasks:"
 msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:131
@@ -295,8 +300,7 @@ msgid "Manage the fields of the registry, registers, reference codes."
 msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:141
-msgid ""
-"These structural changes do not need to have the approval workflow, and"
+msgid "These structural changes do not need to have the approval workflow, and"
 msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:143
@@ -339,10 +343,11 @@ msgstr "vmdk"
 msgid "nologo"
 msgstr "ロゴなし"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "OSGeo プロジェクト"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo コミュニティ"
+

@@ -1,25 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
 # Translators:
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-03 09:57+0000\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
 "PO-Revision-Date: 2019-07-18 21:56+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: hu\n"
+"Language-Team: Hungarian "
+"(https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/overview/actinia_overview.rst:18
 msgid "actinia"
@@ -31,25 +32,27 @@ msgstr "Nagy teljesítményű térinformatikai feldolgozás"
 
 #: ../../build/doc/overview/actinia_overview.rst:23
 msgid ""
-"`Actinia <https://actinia.mundialis.de/>`__ is an open source REST API for "
-"scalable, distributed, high performance processing of geographical data that"
-" uses mainly `GRASS GIS <https://grass.osgeo.org/>`__ for computational "
-"tasks."
+"`Actinia <https://actinia.mundialis.de/>`__ is an open source REST API "
+"for scalable, distributed, high performance processing of geographical "
+"data that uses mainly `GRASS GIS <https://grass.osgeo.org/>`__ for "
+"computational tasks."
 msgstr ""
-"Az `Actinia <https://actinia.mundialis.de/>`__ egy nyílt forráskódú REST API"
-"  térinformatikai adatok skálázható, megosztott, nagy teljesítményű "
-"feldolgozásához, mely `GRASS GIS-t <https://grass.osgeo.org/>`__ használ a "
-"számítási feladatokhoz."
+"Az `Actinia <https://actinia.mundialis.de/>`__ egy nyílt forráskódú REST "
+"API  térinformatikai adatok skálázható, megosztott, nagy teljesítményű "
+"feldolgozásához, mely `GRASS GIS-t <https://grass.osgeo.org/>`__ használ "
+"a számítási feladatokhoz."
 
 #: ../../build/doc/overview/actinia_overview.rst:28
 msgid ""
-"It provides a REST API to process satellite images, time series of satellite"
-" images, arbitrary raster data with geographical relations and vector data."
+"It provides a REST API to process satellite images, time series of "
+"satellite images, arbitrary raster data with geographical relations and "
+"vector data."
 msgstr ""
 "Egy REST API-t biztosít a műholdképek, műholdkép idősorok, térbeli "
-"pozícióval bíró tetszőleges raszter adatok és vektor adatok feldolgozására."
+"pozícióval bíró tetszőleges raszter adatok és vektor adatok "
+"feldolgozására."
 
-#: ../../build/doc/overview/actinia_overview.rstNone
+#: ../../build/doc/overview/actinia_overview.rst:-1
 msgid "actinia screenshot"
 msgstr "actinia képernyőképek"
 
@@ -62,13 +65,15 @@ msgid ""
 "REST API to process satellite images, time series of satellite images, "
 "raster and vector data."
 msgstr ""
-" REST API műholdképek, műholdkép idősorok,  raszter adatok és vektor adatok "
-"feldolgozására."
+" REST API műholdképek, műholdkép idősorok,  raszter adatok és vektor "
+"adatok feldolgozására."
 
 #: ../../build/doc/overview/actinia_overview.rst:42
-msgid "Explore the `tutorial <https://mundialis.github.io/actinia_core/>`_."
+#, fuzzy
+msgid "Explore the `tutorial <https://actinia-org.github.io/actinia-core/>`_."
 msgstr ""
-"Fedezze fel az `oktatóanyagot <https://mundialis.github.io/actinia_core/>`_"
+"Fedezze fel az `oktatóanyagot "
+"<https://mundialis.github.io/actinia_core/>`_"
 
 #: ../../build/doc/overview/actinia_overview.rst:45
 msgid "Details"
@@ -102,20 +107,21 @@ msgstr ""
 "**API dokumentáció:** "
 "https://redocly.github.io/redoc/?url=https://actinia.mundialis.de/latest/swagger.json"
 
-#: ../../build/doc/overview/actinia_overview.rst:60
+#: ../../build/doc/overview/actinia_overview.rst:59
 msgid "**Support:** https://github.com/actinia-org/actinia-core"
 msgstr "**Támogatás:** https://github.com/actinia-org/actinia-core"
 
-#: ../../build/doc/overview/actinia_overview.rst:62
+#: ../../build/doc/overview/actinia_overview.rst:61
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+"This  project is only included on the OSGeoLive virtual machine disk "
+"(VMDK)"
 msgstr "Ez a projekt csak az OSGeoLive virtuális gépben (VMDK) található meg"
 
-#: ../../build/doc/overview/actinia_overview.rst:65
+#: ../../build/doc/overview/actinia_overview.rst:64
 msgid "Quickstart"
 msgstr "Gyorstalpaló"
 
-#: ../../build/doc/overview/actinia_overview.rst:67
+#: ../../build/doc/overview/actinia_overview.rst:66
 msgid ":doc:`Quickstart documentation <../quickstart/actinia_quickstart>`"
 msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/actinia_quickstart>`"
 
@@ -127,10 +133,11 @@ msgstr "vmdk"
 msgid "nologo"
 msgstr "nologo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "OSGeo Projekt"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo közösség"
+

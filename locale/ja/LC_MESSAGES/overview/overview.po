@@ -1,26 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2019
 # Ko Nagase <nagase@georepublic.co.jp>, 2022
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-03 09:57+0000\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2022\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: ja\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)"
+"\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/overview/overview.rst:6
 msgid "|osgeolive-version| Contents"
@@ -34,18 +35,7 @@ msgstr "記号"
 msgid "|osgeo_project| Is an OSGeo Project"
 msgstr "|osgeo_project| は OSGeo プロジェクト"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "OSGeo プロジェクト"
 
@@ -53,12 +43,7 @@ msgstr "OSGeo プロジェクト"
 msgid "|osgeo_community| Is an OSGeo Community Project"
 msgstr "|osgeo_community| は OSGeo コミュニティプロジェクト"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo コミュニティ"
 
@@ -66,11 +51,6 @@ msgstr "OSGeo コミュニティ"
 msgid "|vmdk| Included only on OSGeoLive VMDK version"
 msgstr "|vmdk| は OSGeoLive VMDK バージョンにのみ含まれるもの"
 
-#: ../../build/doc/<rst_epilog>:13 ../../build/doc/<rst_epilog>:13
-#: ../../build/doc/<rst_epilog>:13 ../../build/doc/<rst_epilog>:13
-#: ../../build/doc/<rst_epilog>:13 ../../build/doc/<rst_epilog>:13
-#: ../../build/doc/<rst_epilog>:13 ../../build/doc/<rst_epilog>:13
-#: ../../build/doc/<rst_epilog>:13 ../../build/doc/<rst_epilog>:13
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr "vmdk"
@@ -115,22 +95,6 @@ msgstr ""
 "|nologo| :doc:`openjump_overview` - [:doc:`クイックスタート "
 "<../quickstart/openjump_quickstart>`]"
 
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
 #: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr "ロゴなし"
@@ -170,7 +134,8 @@ msgstr ""
 #: ../../build/doc/overview/overview.rst:79
 msgid ""
 "|OSGeo_project| :doc:`geonode_overview` - [:doc:`Quickstart "
-"<../quickstart/geonode_quickstart>`] - Geospatial Content Management System"
+"<../quickstart/geonode_quickstart>`] - Geospatial Content Management "
+"System"
 msgstr ""
 "|OSGeo_project| :doc:`geonode_overview` - [:doc:`クイックスタート "
 "<../quickstart/geonode_quickstart>`] - 地理空間コンテンツ管理システム"
@@ -304,8 +269,9 @@ msgstr ""
 "<../quickstart/mapproxy_quickstart>`] - プロキシ WMS & タイルサービス"
 
 #: ../../build/doc/overview/overview.rst:161
+#, fuzzy
 msgid ""
-"|OSGeo_community| :doc:`pygeoapi_overview` - [:doc:`Quickstart "
+"|OSGeo_project| :doc:`pygeoapi_overview` - [:doc:`Quickstart "
 "<../quickstart/pygeoapi_quickstart>`] - OGC Web Services"
 msgstr ""
 "|OSGeo_community| :doc:`pygeoapi_overview` - [:doc:`クイックスタート "
@@ -338,8 +304,9 @@ msgstr ""
 #: ../../build/doc/overview/overview.rst:169
 msgid ""
 "|nologo| |vmdk| :doc:`ETF_overview` - [:doc:`Quickstart "
-"<../quickstart/ETF_quickstart>`] - Testing framework for validating spatial "
-"data, metadata and web services in Spatial Data Infrastructures (SDIs)"
+"<../quickstart/ETF_quickstart>`] - Testing framework for validating "
+"spatial data, metadata and web services in Spatial Data Infrastructures "
+"(SDIs)"
 msgstr ""
 "|nologo| |vmdk| :doc:`ETF_overview` - [:doc:`クイックスタート "
 "<../quickstart/ETF_quickstart>`] - 空間データインフラ "
@@ -530,8 +497,8 @@ msgid ""
 "|nologo| :doc:`R_overview` - [:doc:`Quickstart "
 "<../quickstart/R_quickstart>`] - Statistical Programming"
 msgstr ""
-"|nologo| :doc:`R_overview` - [:doc:`クイックスタート <../quickstart/R_quickstart>`] "
-"- 統計プログラミング"
+"|nologo| :doc:`R_overview` - [:doc:`クイックスタート "
+"<../quickstart/R_quickstart>`] - 統計プログラミング"
 
 #: ../../build/doc/overview/overview.rst:275
 msgid "Domain Specific GIS"
@@ -572,8 +539,7 @@ msgid ""
 msgstr "|nologo| :doc:`netcdf_dataset_overview`  - 時系列の気温と降水量"
 
 #: ../../build/doc/overview/overview.rst:307
-msgid ""
-"|nologo| :doc:`osm_dataset_overview`  - Sample extract from OpenStreetMap"
+msgid "|nologo| :doc:`osm_dataset_overview`  - Sample extract from OpenStreetMap"
 msgstr "|nologo| :doc:`osm_dataset_overview`  - OpenStreetMap からのサンプル抽出"
 
 #: ../../build/doc/overview/overview.rst:311
@@ -618,8 +584,8 @@ msgstr "|nologo| :doc:`ogc_overview`  - Open Geospatial Consortium"
 
 #: ../../build/doc/overview/overview.rst:350
 msgid ""
-"|nologo| :doc:`inspire_overview`  - Infrastructure for Spatial Information "
-"in Europe"
+"|nologo| :doc:`inspire_overview`  - Infrastructure for Spatial "
+"Information in Europe"
 msgstr "|nologo| :doc:`inspire_overview`  - ヨーロッパにおける空間情報インフラストラクチャ"
 
 #: ../../build/doc/overview/overview.rst:354
@@ -629,3 +595,4 @@ msgstr "以前の OSGeoLive リリースで利用可能"
 #: ../../build/doc/overview/overview.rst:366
 msgid ":doc:`../prior_applications`"
 msgstr ":doc:`../prior_applications`"
+

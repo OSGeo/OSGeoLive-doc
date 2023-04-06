@@ -1,25 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # Ko Nagase <nagase@georepublic.co.jp>, 2022
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-06 09:15-0500\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2022\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: ja\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)"
+"\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:21
 msgid "QGIS Server Quickstart"
@@ -60,9 +61,10 @@ msgstr ""
 "サーバをつかって地図をレンダリングしましょう。"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:39
+#, fuzzy
 msgid ""
-"Click :menuselection:`Geospatial --> Web Services --> QGIS Server`. You "
-"should see a browser window with a web map viewer showing a world map."
+"Click |menu_qgis|. You should see a browser window with a web map viewer "
+"showing a world map."
 msgstr ""
 ":menuselection:`Geospatial --> Web Services --> QGIS Server` "
 "をクリックします。ブラウザウィンドウに、世界のマップを表示するWebマップビューアが表示されます。"
@@ -82,28 +84,25 @@ msgid "We will now change the map styling using QGIS."
 msgstr "さて、これで QGIS で地図スタイルを変更できるようになりました。"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:52
-msgid "Click :menuselection:`Geospatial --> Desktop GIS --> QGIS`."
-msgstr ":menuselection:`Geospatial --> Desktop GIS --> QGIS` をクリックします。"
+msgid "Click |menu_qgis|"
+msgstr ""
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:54
 msgid "Choose :menuselection:`Project --> Open` from the menu bar."
 msgstr "メニューバーから、 :menuselection:`Project --> Open` を選択します。"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:56
-msgid ""
-"Select :file:`QGIS-NaturalEarth-Example.qgs` and press :guilabel:`Open`."
-msgstr ""
-":file:`QGIS-NaturalEarth-Example.qgs` を選択して、 :guilabel:`Open` をクリックします。"
+msgid "Select :file:`QGIS-NaturalEarth-Example.qgs` and press :guilabel:`Open`."
+msgstr ":file:`QGIS-NaturalEarth-Example.qgs` を選択して、 :guilabel:`Open` をクリックします。"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:58
 msgid ""
-"You should see the same world map rendered by QGIS. We will now change river"
-" styling and look at the result in the web map viewer."
+"You should see the same world map rendered by QGIS. We will now change "
+"river styling and look at the result in the web map viewer."
 msgstr "QGIS でレンダリングされた同じ地図が表示されるはずです。さて、河川のスタイルを変更してWebマップビューアで確認してみましょう。"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:61
-msgid ""
-"Double click :file:`ne_10m_rivers_lake_centerlines` in the Layers tree."
+msgid "Double click :file:`ne_10m_rivers_lake_centerlines` in the Layers tree."
 msgstr "レイヤツリーから、 :file:`ne_10m_rivers_lake_centerlines` をダブルクリックします。"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:63
@@ -148,7 +147,8 @@ msgid ""
 "Browse to dataset "
 ":file:`/home/user/data/natural_earth2/ne_10m_admin_0_countries.shp`."
 msgstr ""
-"データセット :file:`/home/user/data/natural_earth2/ne_10m_admin_0_countries.shp` "
+"データセット "
+":file:`/home/user/data/natural_earth2/ne_10m_admin_0_countries.shp` "
 "をさがします。"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:85
@@ -175,8 +175,8 @@ msgstr "次のステップ"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:97
 msgid ""
-"To learn more about QGIS Server, a good starting point is the `QGIS Server "
-"Guide`_."
+"To learn more about QGIS Server, a good starting point is the `QGIS "
+"Server Guide`_."
 msgstr "QGIS サーバの詳細については、`QGIS Server Guide`_ を参照してください。"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:103
@@ -215,10 +215,11 @@ msgstr "vmdk"
 msgid "nologo"
 msgstr "ロゴなし"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "OSGeo プロジェクト"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo コミュニティ"
+

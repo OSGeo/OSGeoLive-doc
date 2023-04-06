@@ -1,27 +1,28 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # Ko Nagase <nagase@georepublic.co.jp>, 2022
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-06 09:15-0500\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2022\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: ja\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)"
+"\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:27
 msgid "SpatiaLite Quickstart"
@@ -33,19 +34,20 @@ msgstr "SpatiaLite は空間を扱う関数を追加した SQLite データベ�
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:31
 msgid ""
-"SQLite is a Database Management System (DBMS) which is simple, robust, easy "
-"to use and very lightweight. Each SQLite database is simply a file. You can "
-"freely copy it, compress it, and port it between Windows, Linux, MacOs etc."
+"SQLite is a Database Management System (DBMS) which is simple, robust, "
+"easy to use and very lightweight. Each SQLite database is simply a file. "
+"You can freely copy it, compress it, and port it between Windows, Linux, "
+"MacOs etc."
 msgstr ""
 "SQLite は動作が軽く、シンプルで堅牢、簡単に使える人気のあるデータベース管理システム (DBMS) "
-"です。それぞれのデータベースは一つのファイルに格納されます。コピー、圧縮や、Windows、Linux、MacOS などのOS間の移行も簡単にできます。"
+"です。それぞれのデータベースは一つのファイルに格納されます。コピー、圧縮や、Windows、Linux、MacOS "
+"などのOS間の移行も簡単にできます。"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:33
 msgid ""
-"This Quick Start describes how to open a spatialite database from both GUI "
-"applications and the command line. Some sample SQL queries are shown."
-msgstr ""
-"このクイックスタートでは、GUIアプリケーションとコマンドラインの両方からspatialiteデータベースを開く方法について説明します。いくつかのサンプルSQLクエリも示します。"
+"This Quick Start describes how to open a spatialite database from both "
+"GUI applications and the command line. Some sample SQL queries are shown."
+msgstr "このクイックスタートでは、GUIアプリケーションとコマンドラインの両方からspatialiteデータベースを開く方法について説明します。いくつかのサンプルSQLクエリも示します。"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:36
 msgid "Contents"
@@ -58,17 +60,16 @@ msgstr "Spatialiteを起動してデータベースを読み込む"
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:41
 msgid ""
 "Spatialite-gui provides a visual interface for viewing and maintaining a "
-"spatialite database. You can easily see the structure of the tables and data"
-" contents using point and click functions, many of which construct common "
-"SQL queries, or craft your own SQL queries."
+"spatialite database. You can easily see the structure of the tables and "
+"data contents using point and click functions, many of which construct "
+"common SQL queries, or craft your own SQL queries."
 msgstr ""
 "Spatialite-"
 "guiは、spatialiteデータベースを表示および維持するためのビジュアルインタフェースを提供します。ポイント・アンド・クリック機能を使用すると、テーブルとデータコンテンツの構造を簡単に確認できます。その多くは一般的なSQLクエリーを構築したり、独自のSQLクエリーを作成したりします。"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:46
-msgid ""
-"Open the Spatialite GUI by selecting "
-":menuselection:`Geospatial->Databases->Spatialite GUI`."
+#, fuzzy
+msgid "Open the Spatialite GUI by selecting |menu_spatialite-gui|"
 msgstr ""
 ":menuselection:`Geospatial->Databases->Spatialite GUI` を選択して、Spatialite "
 "GUIを開きます。"
@@ -95,16 +96,15 @@ msgstr "表示が3つの領域に分割されていることがわかります�
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:65
 msgid ""
-"The left panel displays the database hierarchy, such as a list of tables, "
-"and columns within the table. Right click on elements of the left panel to "
-"select from a list of common database actions."
-msgstr ""
-"左側のパネルには、テーブルのリストやテーブル内のカラムなど、データベースの階層が表示されます。左側のパネルの要素を右クリックして、一般的なデータベースアクションのリストから選択します。"
+"The left panel displays the database hierarchy, such as a list of tables,"
+" and columns within the table. Right click on elements of the left panel "
+"to select from a list of common database actions."
+msgstr "左側のパネルには、テーブルのリストやテーブル内のカラムなど、データベースの階層が表示されます。左側のパネルの要素を右クリックして、一般的なデータベースアクションのリストから選択します。"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:67
 msgid ""
-"The top right panel shows SQL for the action selected. You can enter your "
-"own customised SQL into this panel."
+"The top right panel shows SQL for the action selected. You can enter your"
+" own customised SQL into this panel."
 msgstr "右上のパネルには、選択したアクションのSQLが表示されます。このパネルには、独自にカスタマイズしたSQLを入力できます。"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:69
@@ -114,8 +114,8 @@ msgstr "右下のパネルには、SQLクエリの結果が表示されます。
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:71
 msgid ""
 "Right Click on the MunicipalHalls table and select \"Edit table rows\". "
-"Notice the SQL query which has been created for you in the top right pane, "
-"and results in the bottom right.::"
+"Notice the SQL query which has been created for you in the top right "
+"pane, and results in the bottom right.::"
 msgstr ""
 "MunicipalHallsテーブルを右クリックして、\"Edit table "
 "rows\"を選択します。右上のペインに作成されたSQLクエリが表示され、結果が右下に表示されます。::"
@@ -129,13 +129,12 @@ msgid ""
 "Now let's try tweaking this SQL statement to get NOME and (Lat,Long) for "
 "only the NOME_PROV fields include \"BRESCIA\", this time using the "
 "MunicipalHallsView.  In the upper right SQL pane type::"
-msgstr ""
-"次に、このSQL文を調整して、NOME_PROVフィールドだけのNOMEと(Lat,Long)を取得してみましょう。NOME_PROVフィールドには\"BRESCIA\"が含まれます。今度はMunicipalHallsViewを使用します。右上のSQLペインで、次のように入力します::"
+msgstr "次に、このSQL文を調整して、NOME_PROVフィールドだけのNOMEと(Lat,Long)を取得してみましょう。NOME_PROVフィールドには\"BRESCIA\"が含まれます。今度はMunicipalHallsViewを使用します。右上のSQLペインで、次のように入力します::"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:93
 msgid ""
-"Click the \"Execute SQL\" button at the right, and see the results in the "
-"bottom right pane."
+"Click the \"Execute SQL\" button at the right, and see the results in the"
+" bottom right pane."
 msgstr "右側の\"Execute SQL\"ボタンをクリックすると、右下のペインに結果が表示されます。"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:100
@@ -145,9 +144,9 @@ msgstr "コマンドラインからspatialiteを実行する"
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:102
 msgid ""
 "Users needing to script or automate queries will learn the advantages of "
-"working with a spatialite database from the command line interface. In this "
-"example, we will load a shapefile, and search for schools which are near "
-"highway 42."
+"working with a spatialite database from the command line interface. In "
+"this example, we will load a shapefile, and search for schools which are "
+"near highway 42."
 msgstr ""
 "スクリプトを使用したりクエリを自動化したりする必要があるユーザは、コマンドラインインタフェースからspatialiteデータベースを操作する利点を学習します。この例では、シェープファイルをロードし、highway"
 " 42の近くにある学校を検索します。"
@@ -174,10 +173,9 @@ msgstr "新しいspatialiteデータベースを作成し、シェープファ�
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:121
 msgid ""
-"Let's create a new, empty spatialite database, and load two shapefiles from "
-"the north_carolina dataset::"
-msgstr ""
-"新しい空のspatialiteデータベースを作成し、north_carolinaデータセットから2つのシェープファイルをロードしてみましょう::"
+"Let's create a new, empty spatialite database, and load two shapefiles "
+"from the north_carolina dataset::"
+msgstr "新しい空のspatialiteデータベースを作成し、north_carolinaデータセットから2つのシェープファイルをロードしてみましょう::"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:157
 msgid ""
@@ -220,8 +218,8 @@ msgstr "次のステップ"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:193
 msgid ""
-"To learn more about SpatiaLite, a starting point is the `SpatiaLite project "
-"page`_."
+"To learn more about SpatiaLite, a starting point is the `SpatiaLite "
+"project page`_."
 msgstr "Spatialiteの詳細については、 `Spatialite project page`_ を参照してください。"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:197
@@ -236,10 +234,11 @@ msgstr "vmdk"
 msgid "nologo"
 msgstr "ロゴなし"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "OSGeo プロジェクト"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo コミュニティ"
+

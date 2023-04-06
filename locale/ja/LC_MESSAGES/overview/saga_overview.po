@@ -1,25 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # Ko Nagase <nagase@georepublic.co.jp>, 2022
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-06 09:15-0500\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2022\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: ja\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)"
+"\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/overview/saga_overview.rst:14
 msgid "SAGA"
@@ -32,26 +33,25 @@ msgstr "デスクトップ GIS"
 #: ../../build/doc/overview/saga_overview.rst:19
 msgid ""
 "SAGA (System for Automated Geoscientific Analyses) is an open source "
-"geographic information system (GIS) used for editing and analysing spatial "
-"data. It includes a large number of modules for the analysis of vector "
-"(point, line and polygon), table, grid and image data. Among others the "
-"package includes modules for geostatistics, image classification, "
-"projections, simulation of dynamic processes (hydrology, landscape "
-"development) and terrain analysis. The functionality can be accessed through"
-" a GUI, the command line or by using the C++ API."
+"geographic information system (GIS) used for editing and analysing "
+"spatial data. It includes a large number of modules for the analysis of "
+"vector (point, line and polygon), table, grid and image data. Among "
+"others the package includes modules for geostatistics, image "
+"classification, projections, simulation of dynamic processes (hydrology, "
+"landscape development) and terrain analysis. The functionality can be "
+"accessed through a GUI, the command line or by using the C++ API."
 msgstr ""
 "SAGA (System for Automated Geoscientific Analyses) "
 "は,空間データの編集と解析に使用されるオープンソースの地理情報システム(GIS)である。これはベクトル(点,線,多角形),表,格子,画像データの解析のための多数のモジュールを含みます。このパッケージには、地球統計学、画像分類、投影、動的プロセスのシミュレーション(水文学、景観開発)、地形解析などのモジュールが含まれています。この機能には、GUI、コマンドライン、またはC++APIを使用してアクセスできます。"
 
 #: ../../build/doc/overview/saga_overview.rst:28
 msgid ""
-"SAGA has been in development since 2001, and the centre of SAGA development "
-"is located in the Institute of Geography at the University of Hamburg, with "
-"contributions from the growing world wide community."
-msgstr ""
-"SAGAは2001年から開発を行われており、SAGAの開発の中心はハンブルク大学の地理学研究所にあり、世界中のコミュニティからの貢献を受けています。"
+"SAGA has been in development since 2001, and the centre of SAGA "
+"development is located in the Institute of Geography at the University of"
+" Hamburg, with contributions from the growing world wide community."
+msgstr "SAGAは2001年から開発を行われており、SAGAの開発の中心はハンブルク大学の地理学研究所にあり、世界中のコミュニティからの貢献を受けています。"
 
-#: ../../build/doc/overview/saga_overview.rstNone
+#: ../../build/doc/overview/saga_overview.rst:-1
 msgid "saga screenshot"
 msgstr "SAGA スクリーンショット"
 
@@ -86,8 +86,7 @@ msgid "Raster data: interpolation, cost analysis, ..."
 msgstr "ラスタデータ: 補間、コスト分析 ..."
 
 #: ../../build/doc/overview/saga_overview.rst:48
-msgid ""
-"Image analysis: filters, edge detection, cluster analysis, segmentation"
+msgid "Image analysis: filters, edge detection, cluster analysis, segmentation"
 msgstr "イメージ分析: フィルタ、エッジ検出、クラスター分析、セグメンテーション"
 
 #: ../../build/doc/overview/saga_overview.rst:49
@@ -127,7 +126,8 @@ msgid "Details"
 msgstr "詳細"
 
 #: ../../build/doc/overview/saga_overview.rst:63
-msgid "**Website:** http://www.saga-gis.org"
+#, fuzzy
+msgid "**Website:** https://saga-gis.sourceforge.io/en/index.html"
 msgstr "**Webサイト:** http://www.saga-gis.org"
 
 #: ../../build/doc/overview/saga_overview.rst:65
@@ -147,7 +147,8 @@ msgid "**API Interfaces:** C++, Python, R"
 msgstr "**API インタフェース:** C++, Python, R"
 
 #: ../../build/doc/overview/saga_overview.rst:73
-msgid "**Support:** http://www.saga-gis.org"
+#, fuzzy
+msgid "**Support:** https://sourceforge.net/p/saga-gis/mailman/"
 msgstr "**サポート:** http://www.saga-gis.org"
 
 #: ../../build/doc/overview/saga_overview.rst:79
@@ -166,10 +167,11 @@ msgstr "vmdk"
 msgid "nologo"
 msgstr "ロゴなし"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "OSGeo プロジェクト"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo コミュニティ"
+

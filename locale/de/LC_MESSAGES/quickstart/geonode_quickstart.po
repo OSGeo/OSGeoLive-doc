@@ -1,27 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2019
 # Astrid Emde <astrid_emde@osgeo.org>, 2022
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
 "PO-Revision-Date: 2023-03-29 19:22+0000\n"
 "Last-Translator: Astrid Emde <astrid.emde@posteo.de>\n"
-"Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
-"geonode_quickstart/de/>\n"
 "Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: German "
+"<https://weblate.osgeo.org/projects/osgeolive/geonode_quickstart/de/>\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:22
 msgid "GeoNode Quickstart"
@@ -33,12 +32,12 @@ msgstr "Open Source Geospatial Content Management System"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:26
 msgid ""
-"GeoNode is a web-based application and platform for developing geospatial "
-"information systems (GIS) and for deploying spatial data infrastructures "
-"(SDI)."
+"GeoNode is a web-based application and platform for developing geospatial"
+" information systems (GIS) and for deploying spatial data infrastructures"
+" (SDI)."
 msgstr ""
-"GeoNode ist eine webbasierte Anwendung und Plattform für die Entwicklung von"
-" Geodateninformationssystemen (GIS) und für die Bereitstellung von "
+"GeoNode ist eine webbasierte Anwendung und Plattform für die Entwicklung "
+"von Geodateninformationssystemen (GIS) und für die Bereitstellung von "
 "Geodateninfrastrukturen (SDI)."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:31
@@ -50,360 +49,367 @@ msgid "Start GeoNode"
 msgstr "GeoNode starten"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:36
+#, fuzzy
 msgid ""
-"To start GeoNode on your OSGeoLive DVD you have to choose "
-":menuselection:`Geospatial --> Browser Clients --> GeoNode --> Start "
-"GeoNode` and after a few moments the GeoNode webpage will automatically open"
-" at http://geonode. The page will look like the image below."
+"To start GeoNode on your OSGeoLive DVD you have to choose |menu_geonode-"
+"Start| and after a few moments the GeoNode webpage will automatically "
+"open at http://geonode. The page will look like the image below."
 msgstr ""
-"Um GeoNode auf OSGeoLive zu starten, müssen Sie :menuselection:`Geospatial "
-"--> Browser Clients --> GeoNode --> Start GeoNode` auswählen und nach "
-"wenigen Augenblicken wird die GeoNode-Webseite automatisch bei "
-"http://geonode geöffnet. Die Seite sieht wie das Bild unten aus."
+"Um GeoNode auf OSGeoLive zu starten, müssen Sie "
+":menuselection:`Geospatial --> Browser Clients --> GeoNode --> Start "
+"GeoNode` auswählen und nach wenigen Augenblicken wird die GeoNode-"
+"Webseite automatisch bei http://geonode geöffnet. Die Seite sieht wie das"
+" Bild unten aus."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:46
+#: ../../build/doc/quickstart/geonode_quickstart.rst:45
 msgid "Sign in as a registered user"
 msgstr "Anmelden als registrierter Benutzer"
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:48
+#: ../../build/doc/quickstart/geonode_quickstart.rst:47
 msgid ""
 "From the interface shown above, one can view and modify existing spatial "
-"layers and maps, as well as find information on other GeoNode users. But, "
-"without being logged in, you are limited to read-only access of public "
-"layers. In order to create a map and add layers to it, you have to sign in "
-"first."
+"layers and maps, as well as find information on other GeoNode users. But,"
+" without being logged in, you are limited to read-only access of public "
+"layers. In order to create a map and add layers to it, you have to sign "
+"in first."
 msgstr ""
-"Über die oben gezeigte Schnittstelle können vorhandene räumliche Layer und "
-"Karten angezeigt und geändert werden sowie Informationen zu anderen GeoNode-"
-"Benutzern gefunden werden. Ohne angemeldet zu sein, sind Sie jedoch auf den "
-"schreibgeschützten Zugriff auf öffentlicher Ebenen beschränkt. Um eine Karte"
-" zu erstellen und Layer hinzuzufügen, müssen Sie sich zuerst anmelden."
+"Über die oben gezeigte Schnittstelle können vorhandene räumliche Layer "
+"und Karten angezeigt und geändert werden sowie Informationen zu anderen "
+"GeoNode-Benutzern gefunden werden. Ohne angemeldet zu sein, sind Sie "
+"jedoch auf den schreibgeschützten Zugriff auf öffentlicher Ebenen "
+"beschränkt. Um eine Karte zu erstellen und Layer hinzuzufügen, müssen Sie"
+" sich zuerst anmelden."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:50
+#: ../../build/doc/quickstart/geonode_quickstart.rst:49
 msgid ""
 "From any page in the web interface, you will see a *Sign in* link on the "
 "top-right of the page. Click that link, and in the dialog that displays, "
-"fill in the user credentials. Try \"admin\" and \"admin\" for the Username "
-"and Password."
+"fill in the user credentials. Try \"admin\" and \"admin\" for the "
+"Username and Password."
 msgstr ""
-"Von jeder Seite in der Web-Oberfläche sehen Sie einen *Anmelden*-Link oben "
-"rechts auf der Seite. Klicken Sie auf diesen Link, und geben Sie im "
-"angezeigten Dialogfeld die Benutzeranmeldeinformationen ein. Probieren Sie "
-"\"admin\" und \"admin\" für den Benutzernamen und das Kennwort aus."
+"Von jeder Seite in der Web-Oberfläche sehen Sie einen *Anmelden*-Link "
+"oben rechts auf der Seite. Klicken Sie auf diesen Link, und geben Sie im "
+"angezeigten Dialogfeld die Benutzeranmeldeinformationen ein. Probieren "
+"Sie \"admin\" und \"admin\" für den Benutzernamen und das Kennwort aus."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:57
+#: ../../build/doc/quickstart/geonode_quickstart.rst:56
 msgid "Add a new layer"
 msgstr "Hinzufügen einer neuen Ebene"
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:59
+#: ../../build/doc/quickstart/geonode_quickstart.rst:58
 msgid ""
-"Layers are a published resource representing a raster or vector spatial data"
-" source. Layers also can be associated with metadata, ratings, and comments."
+"Layers are a published resource representing a raster or vector spatial "
+"data source. Layers also can be associated with metadata, ratings, and "
+"comments."
 msgstr ""
-"Layer sind eine veröffentlichte Ressource, die eine räumliche Raster- oder "
-"Vektordatenquelle darstellen. Layern können auch Metadaten, Bewertungen und "
-"Kommentaren zugeordnet werden."
+"Layer sind eine veröffentlichte Ressource, die eine räumliche Raster- "
+"oder Vektordatenquelle darstellen. Layern können auch Metadaten, "
+"Bewertungen und Kommentaren zugeordnet werden."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:61
+#: ../../build/doc/quickstart/geonode_quickstart.rst:60
 msgid ""
 "To see existing layers, from the navigation bar on the top of any page, "
 "select *Data* menu and click on the *Layers* link."
 msgstr ""
-"Um vorhandene Layer anzuzeigen, wählen Sie in der Navigationsleiste oben auf"
-" einer beliebigen Seite das Menü *Daten* aus und klicken Sie auf den Link "
-"*Layer*."
+"Um vorhandene Layer anzuzeigen, wählen Sie in der Navigationsleiste oben "
+"auf einer beliebigen Seite das Menü *Daten* aus und klicken Sie auf den "
+"Link *Layer*."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:66
+#: ../../build/doc/quickstart/geonode_quickstart.rst:65
 msgid "The result will look like this:"
 msgstr "Das Ergebnis sieht wie folgt aus:"
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:71
+#: ../../build/doc/quickstart/geonode_quickstart.rst:70
 msgid ""
-"To add a layer to your account, select the *Upload* button on the top right "
-"of the *Layers* page:"
+"To add a layer to your account, select the *Upload* button on the top "
+"right of the *Layers* page:"
 msgstr ""
 "Um Ihrem Konto einen Layer hinzuzufügen, wählen Sie oben rechts auf der "
 "Seite *Layer* die Schaltfläche *Upload* aus:"
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:76
+#: ../../build/doc/quickstart/geonode_quickstart.rst:75
 msgid ""
 "In case you want to upload data from any other page, from the navigation "
 "bar, select *Data* menu and click on the *Upload Layers* link."
 msgstr ""
-"Falls Sie Daten von einer anderen Seite hochladen möchten, wählen Sie in der"
-" Navigationsleiste das Menü *Daten* aus und klicken Sie auf den Link *Layer "
-"hochladen*."
+"Falls Sie Daten von einer anderen Seite hochladen möchten, wählen Sie in "
+"der Navigationsleiste das Menü *Daten* aus und klicken Sie auf den Link "
+"*Layer hochladen*."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:81
+#: ../../build/doc/quickstart/geonode_quickstart.rst:80
 msgid ""
 "By clicking one of the above *Upload* links you will be brought to the "
 "upload page."
 msgstr ""
-"Wenn Sie auf einen der oben genannten *Upload*-Links klicken, gelangen Sie "
-"zur Upload-Seite."
+"Wenn Sie auf einen der oben genannten *Upload*-Links klicken, gelangen "
+"Sie zur Upload-Seite."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:86
+#: ../../build/doc/quickstart/geonode_quickstart.rst:85
 msgid ""
 "You have two possibilities to add your files. You can either do that by "
-"using *drag & drop* on the *Drop Files Here* area or you can use the *Choose"
-" Files* button to select them. Be aware that you have to upload a complete "
-"set of files, consisting of a *shp*, a *prj*, a *dbf* and a *shx* file. If "
-"one of them is missing, GeoNode will warn you before you upload them."
+"using *drag & drop* on the *Drop Files Here* area or you can use the "
+"*Choose Files* button to select them. Be aware that you have to upload a "
+"complete set of files, consisting of a *shp*, a *prj*, a *dbf* and a "
+"*shx* file. If one of them is missing, GeoNode will warn you before you "
+"upload them."
 msgstr ""
 "Sie haben zwei Möglichkeiten, Ihre Dateien hinzuzufügen. Sie können dies "
 "entweder tun, indem Sie *drag & drop* im Bereich *Drop Files Here* "
-"verwenden, oder Sie können die Schaltfläche *Dateien auswählen* verwenden, "
-"um sie auszuwählen. Beachten Sie, dass Sie einen vollständigen Satz von "
-"Dateien hochladen müssen, bestehend aus einem *shp*-, einem *prj*-, einem "
-"*dbf*- und einer *shx*-Datei. Wenn eine dieser Dateien fehlt, wird GeoNode "
-"Sie warnen, bevor Sie sie hochladen."
+"verwenden, oder Sie können die Schaltfläche *Dateien auswählen* "
+"verwenden, um sie auszuwählen. Beachten Sie, dass Sie einen vollständigen"
+" Satz von Dateien hochladen müssen, bestehend aus einem *shp*-, einem "
+"*prj*-, einem *dbf*- und einer *shx*-Datei. Wenn eine dieser Dateien "
+"fehlt, wird GeoNode Sie warnen, bevor Sie sie hochladen."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:90
+#: ../../build/doc/quickstart/geonode_quickstart.rst:89
 msgid ""
 "Now click *Choose Files* button and you'll see a file selection window. "
-"Navigate to :file:`/home/user/data/natural_earth2` folder and select all the"
-" :file:`ne_10m_admin_0_countries` files."
+"Navigate to :file:`/home/user/data/natural_earth2` folder and select all "
+"the :file:`ne_10m_admin_0_countries` files."
 msgstr ""
 "Klicken Sie nun auf *Dateien auswählen*. Es wird ein Dateiauswahlfenster "
 "angezeigt. Navigieren Sie zu :file:`/home/user/data/natural_earth2`, und "
 "wählen Sie alle :file:`ne_10m_admin_0_countries` Dateien aus."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:95
+#: ../../build/doc/quickstart/geonode_quickstart.rst:94
 msgid "You should now be able to see all the files you want to upload."
 msgstr ""
-"Sie sollten nun in der Lage sein, alle Dateien anzuzeigen, die Sie hochladen"
-" möchten."
+"Sie sollten nun in der Lage sein, alle Dateien anzuzeigen, die Sie "
+"hochladen möchten."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:100
+#: ../../build/doc/quickstart/geonode_quickstart.rst:99
 msgid ""
-"GeoNode has the ability to restrict who can view, edit, and manage layers. "
-"On the right side of the page you can see the *Permission* section, where "
-"you can limit the access on your layer. Under *Who can view and download "
-"this data*, select *Any registered user*. This will ensure that anonymous "
-"view access is disabled. In the same area, under *Who can edit this data*, "
-"select your username. This will ensure that only you are able to edit the "
-"data in the layer."
+"GeoNode has the ability to restrict who can view, edit, and manage "
+"layers. On the right side of the page you can see the *Permission* "
+"section, where you can limit the access on your layer. Under *Who can "
+"view and download this data*, select *Any registered user*. This will "
+"ensure that anonymous view access is disabled. In the same area, under "
+"*Who can edit this data*, select your username. This will ensure that "
+"only you are able to edit the data in the layer."
 msgstr ""
 "GeoNode kann einschränken, wer Layer anzeigen, bearbeiten und verwalten "
-"kann. Auf der rechten Seite sehen Sie den Abschnitt *Berechtigung*, in dem "
-"Sie den Zugriff auf Ihre Layer einschränken können. Wählen Sie unter *Wer "
-"diese Daten anzeigen und herunterladen* kann, wählen Sie *Jeder registrierte"
-" Benutzer*. Dadurch wird sichergestellt, dass der anonyme Ansichtszugriff "
-"deaktiviert ist. Wählen Sie im gleichen Bereich unter *Wer diese Daten "
-"bearbeiten kann*, wählen Sie Ihren Benutzernamen aus. Dadurch wird "
-"sichergestellt, dass nur Sie die Daten des Layers bearbeiten können."
+"kann. Auf der rechten Seite sehen Sie den Abschnitt *Berechtigung*, in "
+"dem Sie den Zugriff auf Ihre Layer einschränken können. Wählen Sie unter "
+"*Wer diese Daten anzeigen und herunterladen* kann, wählen Sie *Jeder "
+"registrierte Benutzer*. Dadurch wird sichergestellt, dass der anonyme "
+"Ansichtszugriff deaktiviert ist. Wählen Sie im gleichen Bereich unter "
+"*Wer diese Daten bearbeiten kann*, wählen Sie Ihren Benutzernamen aus. "
+"Dadurch wird sichergestellt, dass nur Sie die Daten des Layers bearbeiten"
+" können."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:107
+#: ../../build/doc/quickstart/geonode_quickstart.rst:106
 msgid "To upload data, click the *Upload* button at the bottom."
-msgstr ""
-"Um Daten hochzuladen, klicken Sie unten auf die Schaltfläche *Upload*."
+msgstr "Um Daten hochzuladen, klicken Sie unten auf die Schaltfläche *Upload*."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:112
+#: ../../build/doc/quickstart/geonode_quickstart.rst:111
 msgid ""
-"After the layer upload is completed, you can either preview the layer with "
-"*Layer Info* button, or edit the layer metadata with *Edit Metadata* or edit"
-" layer style on GeoServer with *Manage Styles* button."
+"After the layer upload is completed, you can either preview the layer "
+"with *Layer Info* button, or edit the layer metadata with *Edit Metadata*"
+" or edit layer style on GeoServer with *Manage Styles* button."
 msgstr ""
 "Nachdem der Layer-Upload abgeschlossen ist, können Sie entweder eine "
 "Vorschau des Layers mit der Schaltfläche *Layer Info* anzeigen oder die "
-"Layer-Metadaten mit *Metadaten bearbeiten* oder den Layer-Stil auf GeoServer"
-" mit der Schaltfläche *Stile verwalten* bearbeiten."
+"Layer-Metadaten mit *Metadaten bearbeiten* oder den Layer-Stil auf "
+"GeoServer mit der Schaltfläche *Stile verwalten* bearbeiten."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:117
+#: ../../build/doc/quickstart/geonode_quickstart.rst:116
 msgid "Press the *Layer Info* button to see the layer page"
-msgstr ""
-"Drücken Sie die Schaltfläche *Layer Info*, um die Ebenenseite anzuzeigen"
+msgstr "Drücken Sie die Schaltfläche *Layer Info*, um die Ebenenseite anzuzeigen"
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:124
+#: ../../build/doc/quickstart/geonode_quickstart.rst:123
 msgid "Create a new map"
 msgstr "Erstellen Sie eine neue Karte und öffnen Sie diese"
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:126
+#: ../../build/doc/quickstart/geonode_quickstart.rst:125
 msgid ""
-"The next step for you is to create a map and add the newly created layers to"
-" this map."
+"The next step for you is to create a map and add the newly created layers"
+" to this map."
 msgstr ""
 "Der nächste Schritt besteht darin, eine Karte zu erstellen und die neu "
 "erstellten Layer zu dieser Karte hinzuzufügen."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:128
+#: ../../build/doc/quickstart/geonode_quickstart.rst:127
 msgid ""
-"Click the *Explore Maps* link on the *Maps* toolbar. This will bring up the "
-"list of maps."
+"Click the *Explore Maps* link on the *Maps* toolbar. This will bring up "
+"the list of maps."
 msgstr ""
 "Klicken Sie auf der Symbolleiste *Karten*auf den Link *Karten erkunden*. "
 "Dadurch wird die Liste der Karten angezeigt."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:133
+#: ../../build/doc/quickstart/geonode_quickstart.rst:132
 msgid ""
-"Currently, there aren't any maps here. To add one click the *Create a New "
-"Map* button."
+"Currently, there aren't any maps here. To add one click the *Create a New"
+" Map* button."
 msgstr ""
-"Momentan gibt es hier keine Karten. Um eine hinzuzufügen, klicken Sie auf "
-"die Schaltfläche *Neue Karte erstellen*."
+"Momentan gibt es hier keine Karten. Um eine hinzuzufügen, klicken Sie auf"
+" die Schaltfläche *Neue Karte erstellen*."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:138
+#: ../../build/doc/quickstart/geonode_quickstart.rst:137
 msgid "A map composition interface will display."
 msgstr "Eine Kartenkompositionsschnittstelle wird angezeigt."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:143
+#: ../../build/doc/quickstart/geonode_quickstart.rst:142
 msgid ""
 "If a 404 popup message appears, ignore it, this is due to a missing "
 "GeoServer plugin that is not installed on OSGeoLive."
 msgstr ""
-"Wenn eine 404 Popup-Nachricht angezeigt wird, ignorieren Sie sie, dies ist "
-"auf ein fehlendes GeoServer-Plugin zurückzuführen, das nicht auf OSGeoLive "
-"installiert ist."
+"Wenn eine 404 Popup-Nachricht angezeigt wird, ignorieren Sie sie, dies "
+"ist auf ein fehlendes GeoServer-Plugin zurückzuführen, das nicht auf "
+"OSGeoLive installiert ist."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:145
+#: ../../build/doc/quickstart/geonode_quickstart.rst:144
 msgid ""
-"In this interface there is a toolbar, layer list, and map window. The map "
-"window contains the OpenStreetMap layer by default."
+"In this interface there is a toolbar, layer list, and map window. The map"
+" window contains the OpenStreetMap layer by default."
 msgstr ""
-"In dieser Schnittstelle gibt es eine Symbolleiste, eine Layer-Liste und ein "
-"Kartenfenster. Das Kartenfenster enthält standardmäßig den Layer "
+"In dieser Schnittstelle gibt es eine Symbolleiste, eine Layer-Liste und "
+"ein Kartenfenster. Das Kartenfenster enthält standardmäßig den Layer "
 "OpenStreetMap."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:147
+#: ../../build/doc/quickstart/geonode_quickstart.rst:146
 msgid "Click on the *New Layers* button and select *Add Layers*."
 msgstr ""
 "Klicken Sie auf die Schaltfläche *Neue Ebenen* und wählen Sie *Layer "
 "hinzufügen*."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:153
+#: ../../build/doc/quickstart/geonode_quickstart.rst:152
 msgid ""
-"Now you should be able to see all the available layers. In this case, this "
-"should include the ones you've added before."
+"Now you should be able to see all the available layers. In this case, "
+"this should include the ones you've added before."
 msgstr ""
 "Jetzt sollten Sie in der Lage sein, alle verfügbaren Layer zu sehen. Es "
-"sollten nun auch die Layer enthalten sein, die Sie zuvor hinzugefügt haben."
+"sollten nun auch die Layer enthalten sein, die Sie zuvor hinzugefügt "
+"haben."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:155
+#: ../../build/doc/quickstart/geonode_quickstart.rst:154
 msgid ""
-"Select some layers by clicking the first entry and Ctrl-clicking the rest. "
-"Click *Add Layers* to add them all to the map."
+"Select some layers by clicking the first entry and Ctrl-clicking the "
+"rest. Click *Add Layers* to add them all to the map."
 msgstr ""
-"Wählen Sie einige Layer aus, indem Sie auf den ersten Eintrag klicken und "
-"Strg auf den Rest klicken. Klicken Sie auf *Layer hinzufügen*, um sie alle "
-"zur Karte hinzuzufügen."
+"Wählen Sie einige Layer aus, indem Sie auf den ersten Eintrag klicken und"
+" Strg auf den Rest klicken. Klicken Sie auf *Layer hinzufügen*, um sie "
+"alle zur Karte hinzuzufügen."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:160
+#: ../../build/doc/quickstart/geonode_quickstart.rst:159
 msgid "The layers will be added to the map."
 msgstr "Die Layer werden der Karte hinzugefügt."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:162
+#: ../../build/doc/quickstart/geonode_quickstart.rst:161
 msgid ""
-"To save the map click on the *Map* button in the toolbar, and select *Save "
-"Map*."
+"To save the map click on the *Map* button in the toolbar, and select "
+"*Save Map*."
 msgstr ""
-"Um die Karte zu speichern, klicken Sie auf die Schaltfläche *Karte* in der "
-"Symbolleiste, und wählen Sie *Karte speichern*."
+"Um die Karte zu speichern, klicken Sie auf die Schaltfläche *Karte* in "
+"der Symbolleiste, und wählen Sie *Karte speichern*."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:168
+#: ../../build/doc/quickstart/geonode_quickstart.rst:167
 msgid "Enter a title and abstract for your map."
 msgstr "Geben Sie einen Titel und eine Zusammenfassung für die Karte ein."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:174
+#: ../../build/doc/quickstart/geonode_quickstart.rst:173
 msgid ""
-"Click *Save*. Notice that the link on the top right of the page changed to "
-"reflect the map's name."
+"Click *Save*. Notice that the link on the top right of the page changed "
+"to reflect the map's name."
 msgstr ""
-"Klicken Sie auf *Speichern*. Beachten Sie, dass sich der Link oben rechts "
-"auf der Seite geändert hat, um den Namen der Karte widerzuspiegeln."
+"Klicken Sie auf *Speichern*. Beachten Sie, dass sich der Link oben rechts"
+" auf der Seite geändert hat, um den Namen der Karte widerzuspiegeln."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:180
+#: ../../build/doc/quickstart/geonode_quickstart.rst:179
 msgid ""
-"This link contains a permalink to your map. If you open this link in a new "
-"window, your map will appear exactly as it was saved."
+"This link contains a permalink to your map. If you open this link in a "
+"new window, your map will appear exactly as it was saved."
 msgstr ""
-"Dieser Link enthält einen Permalink zu Ihrer Karte. Wenn Sie diesen Link in "
-"einem neuen Fenster öffnen, wird die Karte genau so angezeigt, wie sie "
-"gespeichert wurde."
+"Dieser Link enthält einen Permalink zu Ihrer Karte. Wenn Sie diesen Link "
+"in einem neuen Fenster öffnen, wird die Karte genau so angezeigt, wie sie"
+" gespeichert wurde."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:182
+#: ../../build/doc/quickstart/geonode_quickstart.rst:181
 msgid ""
-"Click *Done* next to the *Add Layers* button to see the legend of your map."
+"Click *Done* next to the *Add Layers* button to see the legend of your "
+"map."
 msgstr ""
-"Klicken Sie auf *Fertig* neben der Schaltfläche *Layer hinzufügen*, um die "
-"Legende Ihrer Karte anzuzeigen."
+"Klicken Sie auf *Fertig* neben der Schaltfläche *Layer hinzufügen*, um "
+"die Legende Ihrer Karte anzuzeigen."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:185
+#: ../../build/doc/quickstart/geonode_quickstart.rst:184
 msgid "Share your map"
 msgstr "Teilen Sie Ihre Karte"
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:187
+#: ../../build/doc/quickstart/geonode_quickstart.rst:186
 msgid "Now let's finish our map."
 msgstr "Lassen Sie uns nun unsere Karte fertigstellen."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:189
+#: ../../build/doc/quickstart/geonode_quickstart.rst:188
 msgid ""
-"Right click on the *USA Population* layer and select *Zoom to layer extend*"
+"Right click on the *USA Population* layer and select *Zoom to layer "
+"extend*"
 msgstr ""
 "Rechtsklick auf den Layer *USA Population* und wählen Sie *Zoom to layer "
 "extend*"
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:195
+#: ../../build/doc/quickstart/geonode_quickstart.rst:194
 msgid ""
-"Make any final adjustments to the map composition as desired, including zoom"
-" and pan settings."
+"Make any final adjustments to the map composition as desired, including "
+"zoom and pan settings."
 msgstr ""
 "Nehmen Sie alle endgültigen Anpassungen an der Kartenzusammensetzung wie "
 "gewünscht vor, einschließlich Zoom- und Pan-Einstellungen."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:197
+#: ../../build/doc/quickstart/geonode_quickstart.rst:196
 msgid "Click the *Map* button in the toolbar, and then click *Publish Map*."
 msgstr ""
-"Klicken Sie in der Symbolleiste auf die Schaltfläche *Karte*, und klicken "
-"Sie dann auf *Karte veröffentlichen*."
+"Klicken Sie in der Symbolleiste auf die Schaltfläche *Karte*, und klicken"
+" Sie dann auf *Karte veröffentlichen*."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:203
+#: ../../build/doc/quickstart/geonode_quickstart.rst:202
 msgid ""
-"The title and abstract as previously created should still be there. Make any"
-" adjustments as necessary, and click *Save*."
+"The title and abstract as previously created should still be there. Make "
+"any adjustments as necessary, and click *Save*."
 msgstr ""
-"Der Titel und die Zusammenfassung, wie sie zuvor erstellt wurden, sollten "
-"immer noch vorhanden sein. Nehmen Sie ggf. alle Anpassungen vor, und klicken"
-" Sie auf *Speichern*."
+"Der Titel und die Zusammenfassung, wie sie zuvor erstellt wurden, sollten"
+" immer noch vorhanden sein. Nehmen Sie ggf. alle Anpassungen vor, und "
+"klicken Sie auf *Speichern*."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:205
+#: ../../build/doc/quickstart/geonode_quickstart.rst:204
 msgid ""
 "A new dialog will appear with instructions on how to embed this map in a "
 "webpage, including a code snippet. You can adjust the parameters as "
 "necessary."
 msgstr ""
-"Es wird ein neues Dialogfeld mit Anweisungen zum Einbetten dieser Karte in "
-"eine Webseite angezeigt, einschließlich eines Codeausschnitts. Sie können "
-"die Parameter bei Bedarf anpassen."
+"Es wird ein neues Dialogfeld mit Anweisungen zum Einbetten dieser Karte "
+"in eine Webseite angezeigt, einschließlich eines Codeausschnitts. Sie "
+"können die Parameter bei Bedarf anpassen."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:211
+#: ../../build/doc/quickstart/geonode_quickstart.rst:210
 msgid "Your map can now be shared."
 msgstr "Ihre Karte kann jetzt freigegeben werden."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:215
+#: ../../build/doc/quickstart/geonode_quickstart.rst:214
 msgid "What next?"
 msgstr "Was kommt als Nächstes?"
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:217
+#: ../../build/doc/quickstart/geonode_quickstart.rst:216
 msgid ""
-"Now you've gotten a quick insight in the possibilities of GeoNode. To learn "
-"more about GeoNode and its features, visit our webpage www.geonode.org."
+"Now you've gotten a quick insight in the possibilities of GeoNode. To "
+"learn more about GeoNode and its features, visit our webpage "
+"www.geonode.org."
 msgstr ""
-"Jetzt haben Sie einen schnellen Einblick in die Möglichkeiten von GeoNode "
-"erhalten. Um mehr über GeoNode und seine Funktionen zu erfahren, besuchen "
-"Sie unsere Webseite www.geonode.org."
+"Jetzt haben Sie einen schnellen Einblick in die Möglichkeiten von GeoNode"
+" erhalten. Um mehr über GeoNode und seine Funktionen zu erfahren, "
+"besuchen Sie unsere Webseite www.geonode.org."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:219
+#: ../../build/doc/quickstart/geonode_quickstart.rst:218
 msgid ""
-"To install GeoNode on your own server, follow our `Quick Installation Guide "
-"<https://docs.geonode.org/en/master/start/index.html#quick-installation-"
-"guide>`_ ."
+"To install GeoNode on your own server, follow our `Quick Installation "
+"Guide <https://docs.geonode.org/en/master/start/index.html#quick-"
+"installation-guide>`_ ."
 msgstr ""
 "Um GeoNode auf Ihrem eigenen Server zu installieren, folgen Sie unserem "
 "`Quick Installation Guide "
 "<https://docs.geonode.org/en/master/start/index.html#quick-installation-"
 "guide>`_ ."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:221
+#: ../../build/doc/quickstart/geonode_quickstart.rst:220
 msgid ""
 "In order to get started with GeoNode our `documentation "
 "<https://docs.geonode.org/en/master/>`_ might be useful."
@@ -411,34 +417,35 @@ msgstr ""
 "Um mit GeoNode zu beginnen, könnte unsere `Dokumentation "
 "<https://docs.geonode.org/en/master/>`_  nützlich sein."
 
-#: ../../build/doc/quickstart/geonode_quickstart.rst:223
+#: ../../build/doc/quickstart/geonode_quickstart.rst:222
 msgid ""
 "If you need help or want to get some information about a specific topic "
-"please don't hasitate to ask us! You can do this through the #geonode IRC "
-"channel using https://webchat.freenode.net/, through the `GeoNode Gitter "
-"channel <https://gitter.im/GeoNode/general>`_ or by asking your question in "
-"our `mailing list <https://lists.osgeo.org/cgi-bin/mailman/listinfo/geonode-"
-"users>`_ !"
+"please don't hasitate to ask us! You can do this through the #geonode IRC"
+" channel using https://webchat.freenode.net/, through the `GeoNode Gitter"
+" channel <https://gitter.im/GeoNode/general>`_ or by asking your question"
+" in our `mailing list <https://lists.osgeo.org/cgi-bin/mailman/listinfo"
+"/geonode-users>`_ !"
 msgstr ""
 "Wenn Sie Hilfe benötigen oder Informationen zu einem bestimmten Thema "
 "erhalten möchten, zögern Sie bitte nicht, uns zu fragen! Sie können dies "
 "über den #geonode IRC-Kanal mit https://webchat.freenode.net/, über den "
-"'GeoNode Gitter Kanal <https://gitter.im/GeoNode/general>`_ oder indem Sie "
-"Ihre Frage in unserer `Mailingliste <https://lists.osgeo.org/cgi-"
+"'GeoNode Gitter Kanal <https://gitter.im/GeoNode/general>`_ oder indem "
+"Sie Ihre Frage in unserer `Mailingliste <https://lists.osgeo.org/cgi-"
 "bin/mailman/listinfo/geonode-users>`_  stellen."
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr "nologo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "OSGeo Projekt"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo Community"
+

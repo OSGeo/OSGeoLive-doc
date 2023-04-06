@@ -1,26 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2022
 # Vicky Vergara <vicky@georepublic.de>, 2022
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
 "Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 "
+"? 1 : 2;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:21
 msgid "Mapnik Quickstart"
@@ -28,13 +29,14 @@ msgstr "Guía de Inicio Rapido de Mapnik "
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:23
 msgid ""
-"Mapnik is an toolkit for developing mapping applications. Above all Mapnik "
-"is about making beautiful maps. It is easily extensible and suitable for "
-"both desktop and web development."
+"Mapnik is an toolkit for developing mapping applications. Above all "
+"Mapnik is about making beautiful maps. It is easily extensible and "
+"suitable for both desktop and web development."
 msgstr ""
 "Mapnik es un conjunto de herramientas para desarrollar aplicaciones de "
-"mapeo. Sobre todo, Mapnik trata sobre la elaboración de mapas hermosos. Es "
-"fácilmente extensible y adecuado para el desarrollo web y en escritorio."
+"mapeo. Sobre todo, Mapnik trata sobre la elaboración de mapas hermosos. "
+"Es fácilmente extensible y adecuado para el desarrollo web y en "
+"escritorio."
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:27
 msgid "Contents"
@@ -49,40 +51,40 @@ msgid ""
 "Mapnik and its python bindings are installed and ready to be used for "
 "scripting on this machine."
 msgstr ""
-"Mapnik y sus enlaces de python están instalados y listos para ser utilizados"
-" para scripting en esta máquina."
+"Mapnik y sus enlaces de python están instalados y listos para ser "
+"utilizados para scripting en esta máquina."
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:34
 msgid ""
-"Creating maps in python is easy with Mapnik. Open a terminal window and type"
-" `python3` on the command line to enter a python interpreter. Then try "
-"this::"
+"Creating maps in python is easy with Mapnik. Open a terminal window and "
+"type `python3` on the command line to enter a python interpreter. Then "
+"try this::"
 msgstr ""
-"Crear mapas en python es fácil con Mapnik. Abra una ventana de terminal y "
-"escriba `python3` en la línea de comandos para introducir un intérprete de "
-"Python. Después pruebe esto::"
+"Crear mapas en python es fácil con Mapnik. Abra una ventana de terminal y"
+" escriba `python3` en la línea de comandos para introducir un intérprete "
+"de Python. Después pruebe esto::"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:38
 msgid ""
 "import mapnik, os m = mapnik.Map(600,400) style = "
 "'/usr/local/share/mapnik/world_population.xml' mapnik.load_map(m,style) "
-"m.zoom_all() mapnik.render_to_file(m,'world_population.png') os.system('xdg-"
-"open world_population.png')"
+"m.zoom_all() mapnik.render_to_file(m,'world_population.png') os.system"
+"('xdg-open world_population.png')"
 msgstr ""
 "importar mapnik, os m = mapnik.Map(600,400) style = "
 "'/usr/local/share/mapnik/world_population.xml' mapnik.load_map(m,style) "
-"m.zoom_all() mapnik.render_to_file(m,'world_population.png') os.system('xdg-"
-"open world_population.png')"
+"m.zoom_all() mapnik.render_to_file(m,'world_population.png') os.system"
+"('xdg-open world_population.png')"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:49
 msgid ""
 "The above code depends on having an XML stylesheet that Mapnik can read "
-"(world_population.xml), defining the layers to read data from and the styles"
-" to apply to those layers."
+"(world_population.xml), defining the layers to read data from and the "
+"styles to apply to those layers."
 msgstr ""
-"El código anterior depende de tener una hoja de estilos XML que Mapnik pueda"
-" leer (world_population.xml), definiendo las capas desde las que leer datos "
-"y los estilos que se aplicarán a esas capas."
+"El código anterior depende de tener una hoja de estilos XML que Mapnik "
+"pueda leer (world_population.xml), definiendo las capas desde las que "
+"leer datos y los estilos que se aplicarán a esas capas."
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:54
 msgid "Mapnik & MapProxy"
@@ -90,22 +92,21 @@ msgstr "Mapnik y MapProxy"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:56
 msgid ""
-"A basic demo application is available which demonstrates using Mapnik with "
-"MapProxy"
+"A basic demo application is available which demonstrates using Mapnik "
+"with MapProxy"
 msgstr ""
 "Una aplicación de demostración básica que muestra el uso de Mapnik con "
 "MapProxy está disponible"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:58
 msgid "The demo uses the world_population.xml from the Mapnik demo."
-msgstr ""
-"La demostración utiliza el world_population.xml de la demostración Mapnik."
+msgstr "La demostración utiliza el world_population.xml de la demostración Mapnik."
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:60
+#, fuzzy
 msgid ""
-"Click :menuselection:`Geospatial --> Web Services --> MapProxy --> Start "
-"MapProxy`. The server starts in a terminal window (which stays open and "
-"outputs basic debugging information)."
+"Click |menu_mapnik|. The server starts in a terminal window (which stays "
+"open and outputs basic debugging information)."
 msgstr ""
 "Clic en :menuselection:`Geospatial --> Servicios Web --> MapProxy --> "
 "Iniciar MapProxy`. El servidor se inicia en una ventana de terminal (que "
@@ -118,20 +119,20 @@ msgstr "Abra la aplicación de demostración MapProxy http://0.0.0.0:8011/demo/"
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:64
 msgid ""
 "You find the world population demo by Mapnik as a WMS layer and also the "
-"world population in combination with a the GeoServer layer topp:states (make"
-" sure GeoServer is running)"
+"world population in combination with a the GeoServer layer topp:states "
+"(make sure GeoServer is running)"
 msgstr ""
-"Encontrará la demostración de población mundial de Mapnik como una capa WMS "
-"y también la población mundial en combinación con una capa GeoServer "
+"Encontrará la demostración de población mundial de Mapnik como una capa "
+"WMS y también la población mundial en combinación con una capa GeoServer "
 "topp:states (asegúrese de que GeoServer se está ejecutando)"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:67
 msgid ""
-"You can use the MapProxy WMS in other applications for example in QGIS or in"
-" Mapbender (http://localhost/mapbender/application/mapbender_user)."
+"You can use the MapProxy WMS in other applications for example in QGIS or"
+" in Mapbender (http://localhost/mapbender/application/mapbender_user)."
 msgstr ""
-"Puede utilizar mapproxy WMS en otras aplicaciones, por ejemplo, en QGIS o en"
-" Mapbender (http://localhost/mapbender/application/mapbender_user)."
+"Puede utilizar mapproxy WMS en otras aplicaciones, por ejemplo, en QGIS o"
+" en Mapbender (http://localhost/mapbender/application/mapbender_user)."
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:70
 msgid "Observe the output in the server terminal window."
@@ -154,25 +155,26 @@ msgid ""
 "Explore the included files on the latest OSGeoLive distribution, in this "
 "directory: file:///usr/local/share/mapnik/"
 msgstr ""
-"Explore los archivos incluidos en la última distribución de OSGeoLive, en "
-"este directorio:  file:///usr/local/share/mapnik/"
+"Explore los archivos incluidos en la última distribución de OSGeoLive, en"
+" este directorio:  file:///usr/local/share/mapnik/"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:80
 msgid "Visit the Mapnik website: https://mapnik.org"
 msgstr "Visite el sitio web de Mapnik: https://mapnik.org"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr "nologo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "Proyecto OSGeo"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo Comunitario"
+

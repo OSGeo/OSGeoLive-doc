@@ -1,8 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # Lorenzo Stucchi <lorenzostucchi95@outlook.it>, 2021
 # Anisa Kuci <anisakuci9@gmail.com>, 2021
@@ -11,41 +11,42 @@
 # Simone Falceri, 2022
 # Luca Delucchi <lucadeluge@gmail.com>, 2022
 # Stefano Campus <skampus@gmail.com>, 2022
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
 "Last-Translator: Stefano Campus <skampus@gmail.com>, 2022\n"
-"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 "
+"? 1 : 2;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/sponsors.rst:1
 msgid "OSGeoLive Sponsors"
 msgstr "Sponsor OSGeoLive"
 
-#: ../../build/doc/sponsors.rstNone ../../build/doc/sponsors_osgeo.rstNone
+#: ../../build/doc/sponsors.rst:-1 ../../build/doc/sponsors_osgeo.rst:-1
 msgid "OSGeo"
 msgstr "OSGeo"
 
 #: ../../build/doc/sponsors.rst:9
 msgid ""
 "The Open Source Geospatial Foundation (OSGeo) provides the primary "
-"development & hosting infrastructure and personnel for the project, and for "
-"many of the software teams which contribute to it."
+"development & hosting infrastructure and personnel for the project, and "
+"for many of the software teams which contribute to it."
 msgstr ""
 "Open Source Geospatial Foundation (OSGeo) fornisce il personale e "
-"l’infrastruttura per l’hosting e lo sviluppo per il progetto, e per molte "
-"delle comunità dei software che contrinuiscono a questo."
+"l’infrastruttura per l’hosting e lo sviluppo per il progetto, e per molte"
+" delle comunità dei software che contrinuiscono a questo."
 
-#: ../../build/doc/sponsors.rstNone
+#: ../../build/doc/sponsors.rst:-1
 msgid ""
 "Information Center for the Environment at the University of California, "
 "Davis"
@@ -56,68 +57,37 @@ msgstr ""
 #: ../../build/doc/sponsors.rst:17
 msgid ""
 "Information Center for the Environment at the University of California, "
-"Davis provides hardware resources and development support to the OSGeoLive "
-"project."
+"Davis provides hardware resources and development support to the "
+"OSGeoLive project."
 msgstr ""
 "Information Center for the Environment dell’Universita della California, "
 "Davis fornisce risorse hardware e di sviluppo al progetto OSGeo-Live."
 
-#: ../../build/doc/sponsors.rstNone
+#: ../../build/doc/sponsors.rst:-1
 msgid "National Technical University of Athens"
 msgstr "National Technical University of Athens"
 
 #: ../../build/doc/sponsors.rst:26
 msgid ""
-"Remote Sensing Laboratory at the National Technical University of Athens, "
-"provides hardware resources and development support to the OSGeoLive "
+"Remote Sensing Laboratory at the National Technical University of Athens,"
+" provides hardware resources and development support to the OSGeoLive "
 "project."
 msgstr ""
-"Laboratorio di Telerilevamento all’Università Nazionale Tecnica di Atene, "
-"fornisce risorse hardware e supporto allo sviluppo del progetto OSGeo-Live."
+"Laboratorio di Telerilevamento all’Università Nazionale Tecnica di Atene,"
+" fornisce risorse hardware e supporto allo sviluppo del progetto OSGeo-"
+"Live."
 
-#: ../../build/doc/sponsors.rstNone
+#: ../../build/doc/sponsors.rst:-1
 msgid "The DebianGIS and UbuntuGIS projects"
 msgstr "The DebianGIS and UbuntuGIS projects"
 
 #: ../../build/doc/sponsors.rst:34
 msgid ""
-"The DebianGIS and UbuntuGIS projects provide and quality-assure many of the "
-"core packages."
+"The DebianGIS and UbuntuGIS projects provide and quality-assure many of "
+"the core packages."
 msgstr ""
-"I progetti DebianGIS e UbuntuGIS forniscono e grantiscono qualità di molti "
-"dei pacchetti base."
-
-#: ../../build/doc/sponsors.rstNone
-msgid "The Greek Academic cloud service"
-msgstr "The Greek Academic cloud service"
-
-#: ../../build/doc/sponsors.rst:41
-msgid ""
-"Okeanos is the Greek Academic cloud service (IaaS) which is providing "
-"virtualized computing resources free of charge to the Greek Universities and"
-" public Research Centres. Okeanos is build on top of existing proven open "
-"source software (e.g. Synnefo, Google Ganeti). Okeanos is kindly providing "
-"Virtual Machines for building the OSGeoLive iso images."
-msgstr ""
-"Okeanos è l’Accademia Greca dei servizi cloud (IaaS) che fornisce risorse "
-"per computer virtualizzati gratuitamente alle Università Greche e ai Centri "
-"di Ricerca pubblici. Okeanos è costruita su collaudati software open source "
-"(per esempio Synnefo, Google Ganeti). Okeanos fornisce le Macchine Virtuali "
-"per la creazione delle immagini iso di OSGeoLive."
-
-#: ../../build/doc/sponsors.rstNone
-msgid "Geolocation Technology Company"
-msgstr "Geolocation Technology Company"
-
-#: ../../build/doc/sponsors.rst:52
-msgid ""
-"Georepublic is a Geolocation Technology Company, that embraces the idea of "
-"Free Software, and provide support and custom development for Open Source "
-"GIS software."
-msgstr ""
-"Georepublic è un ditta di tecnologia di geolocation, che sposa l'idea del "
-"software libero, e fornisce supporto e sviluppo personalizzato per software "
-"libero GIS."
+"I progetti DebianGIS e UbuntuGIS forniscono e grantiscono qualità di "
+"molti dei pacchetti base."
 
 #: ../../build/doc/sponsors_osgeo.rst:7
 msgid "The OSGeo Foundation"
@@ -129,17 +99,17 @@ msgstr "*Potenziare tutti con l'open source geospaziale*"
 
 #: ../../build/doc/sponsors_osgeo.rst:11
 msgid ""
-"The `Open Source Geospatial Foundation (OSGeo) <https://www.osgeo.org>`__ is"
-" a not-for-profit organization whose mission is to foster global adoption of"
-" open geospatial technology by being an inclusive software foundation "
-"devoted to an open philosophy and participatory community driven "
-"development."
+"The `Open Source Geospatial Foundation (OSGeo) <https://www.osgeo.org>`__"
+" is a not-for-profit organization whose mission is to foster global "
+"adoption of open geospatial technology by being an inclusive software "
+"foundation devoted to an open philosophy and participatory community "
+"driven development."
 msgstr ""
-"La `Open Source Geospatial Foundation (OSGeo) <https://www.osgeo.org>`__ è "
-"un'organizzazione senza scopo di lucro la cui missione è quella di "
-"promuovere l'adozione globale della tecnologia geospaziale aperta essendo "
-"una fondazione software inclusiva dedicata a una filosofia aperta e allo "
-"sviluppo partecipativo guidato dalla comunità."
+"La `Open Source Geospatial Foundation (OSGeo) <https://www.osgeo.org>`__ "
+"è un'organizzazione senza scopo di lucro la cui missione è quella di "
+"promuovere l'adozione globale della tecnologia geospaziale aperta essendo"
+" una fondazione software inclusiva dedicata a una filosofia aperta e allo"
+" sviluppo partecipativo guidato dalla comunità."
 
 #: ../../build/doc/sponsors_osgeo.rst:17
 msgid "OSGeo outreach and activities include:"
@@ -147,11 +117,11 @@ msgstr "Le attività di OSGeo includono:"
 
 #: ../../build/doc/sponsors_osgeo.rst:19
 msgid ""
-"`Local Chapters <https://www.osgeo.org/local-chapters>`__: Local, regional "
-"and language groups support grass roots activities."
+"`Local Chapters <https://www.osgeo.org/local-chapters>`__: Local, "
+"regional and language groups support grass roots activities."
 msgstr ""
-"`Capitoli Locali <https://www.osgeo.org/local-chapters>`__: I gruppi locali,"
-" regionali e linguistici sostengono le attività di base."
+"`Capitoli Locali <https://www.osgeo.org/local-chapters>`__: I gruppi "
+"locali, regionali e linguistici sostengono le attività di base."
 
 #: ../../build/doc/sponsors_osgeo.rst:20
 msgid ""
@@ -159,9 +129,9 @@ msgid ""
 "educational labs from around the world who work with partners to make "
 "geospatial education and opportunities accessible to all."
 msgstr ""
-"`GeoPerTutti <https://www.osgeo.org/initiatives/geo-for-all>`__: Oltre 100 "
-"laboratori educativi da tutto il mondo che lavorano con i partner per "
-"rendere l'educazione e le opportunità geospaziali accessibili a tutti."
+"`GeoPerTutti <https://www.osgeo.org/initiatives/geo-for-all>`__: Oltre "
+"100 laboratori educativi da tutto il mondo che lavorano con i partner per"
+" rendere l'educazione e le opportunità geospaziali accessibili a tutti."
 
 #: ../../build/doc/sponsors_osgeo.rst:21
 msgid ""
@@ -169,21 +139,21 @@ msgid ""
 "geospatial open source software, pre-configured with sample data and "
 "quickstarts, ready to try out."
 msgstr ""
-"`OSGeoLive <https://live.osgeo.org>`__: Una distribuzione di software open "
-"source geospaziali stabili, pre-configurati con dati di esempio e guide "
-"rapide, pronti per essere provati."
+"`OSGeoLive <https://live.osgeo.org>`__: Una distribuzione di software "
+"open source geospaziali stabili, pre-configurati con dati di esempio e "
+"guide rapide, pronti per essere provati."
 
 #: ../../build/doc/sponsors_osgeo.rst:22
 msgid ""
-"`FOSS4G <https://foss4g.org>`_: Annual, international conference for *Free "
-"and Open Source Software for Geospatial*, as well as many regional and local"
-" `events <https://www.osgeo.org/events>`_."
+"`FOSS4G <https://foss4g.org>`_: Annual, international conference for "
+"*Free and Open Source Software for Geospatial*, as well as many regional "
+"and local `events <https://www.osgeo.org/events>`_."
 msgstr ""
 "`FOSS4G <https://foss4g.org>`_: La conferenza internazionale annuale per "
-"*Free and Open Source Software for Geospatial*, così come diversi `eventi "
-"<https://www.osgeo.org/events>`_ regionali e locali."
+"*Free and Open Source Software for Geospatial*, così come diversi `eventi"
+" <https://www.osgeo.org/events>`_ regionali e locali."
 
-#: ../../build/doc/sponsors.rst:58
+#: ../../build/doc/sponsors.rst:40
 msgid "Contributors"
 msgstr "Contributori"
 
@@ -211,8 +181,6 @@ msgstr "Activity Workshop"
 msgid "mail activityworkshop net"
 msgstr "mail activityworkshop net"
 
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
 #: ../../build/contributors.csv:1
 msgid "Switzerland"
 msgstr "Switzerland"
@@ -229,27 +197,11 @@ msgstr "Alan Beccati"
 msgid "a.beccati jacobs-university de"
 msgstr "a.beccati jacobs-university de"
 
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
 #: ../../build/contributors.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
 msgid "Germany"
 msgstr "Germania"
 
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
+#: ../../build/contributors.csv:1
 msgid "rasdaman"
 msgstr "rasdaman"
 
@@ -261,10 +213,6 @@ msgstr "Alan Boudreault"
 msgid "aboudreault mapgears.com"
 msgstr "aboudreault mapgears.com"
 
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
 #: ../../build/contributors.csv:1 ../../build/translators.csv:1
 msgid "Canada"
 msgstr "Canada"
@@ -281,12 +229,6 @@ msgstr "Alex Mandel"
 msgid "tech wildintellect com"
 msgstr "tech wildintellect com"
 
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
 #: ../../build/contributors.csv:1
 msgid "USA"
 msgstr "USA"
@@ -315,18 +257,7 @@ msgstr "Alexander Kotsev"
 msgid "alexander.kotsev ec.europa eu"
 msgstr "alexander.kotsev ec.europa eu"
 
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1
+#: ../../build/contributors.csv:1 ../../build/translators.csv:1
 msgid "Italy"
 msgstr "Italia"
 
@@ -342,10 +273,7 @@ msgstr "Amy Gao"
 msgid "amy spatialfront com"
 msgstr "amy spatialfront com"
 
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
 #: ../../build/contributors.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1
 msgid "China"
 msgstr "China"
 
@@ -373,10 +301,7 @@ msgstr "Angelos Tzotsos"
 msgid "tzotsos gmail com"
 msgstr "tzotsos gmail com"
 
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1
+#: ../../build/contributors.csv:1 ../../build/translators.csv:1
 msgid "Greece"
 msgstr "Grecia"
 
@@ -392,13 +317,7 @@ msgstr "Anton Patrushev"
 msgid "anton.patrushev gmail com"
 msgstr "anton.patrushev gmail com"
 
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
 #: ../../build/contributors.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
 msgid "Japan"
 msgstr "Giappone"
 
@@ -430,21 +349,7 @@ msgstr "Antonio Santiago"
 msgid "asantiagop gmail com"
 msgstr "asantiagop gmail com"
 
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1
+#: ../../build/contributors.csv:1 ../../build/translators.csv:1
 msgid "Spain"
 msgstr "Spagna"
 
@@ -516,10 +421,7 @@ msgstr "Barry Rowlingson"
 msgid "b.rowlingson gmail com"
 msgstr "b.rowlingson gmail com"
 
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/translators.csv:1
+#: ../../build/contributors.csv:1 ../../build/translators.csv:1
 msgid "UK"
 msgstr "GB"
 
@@ -535,7 +437,7 @@ msgstr "Bart van den Eijnden"
 msgid "bartvde boundlessgeo com"
 msgstr "bartvde boundlessgeo com"
 
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
+#: ../../build/contributors.csv:1
 msgid "The Netherlands"
 msgstr "Paesi Bassi"
 
@@ -551,7 +453,6 @@ msgstr "Ben Caradoc-Davies"
 msgid "ben transient nz"
 msgstr "ben transient nz"
 
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
 #: ../../build/contributors.csv:1
 msgid "New Zealand"
 msgstr "Nuova Zelanda"
@@ -580,16 +481,7 @@ msgstr "Benoît Fournier"
 msgid "ben.fournier gmail com"
 msgstr "ben.fournier gmail com"
 
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
 #: ../../build/contributors.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1
 msgid "France"
 msgstr "Francia"
 
@@ -641,17 +533,22 @@ msgstr "Cameron Shorter"
 msgid "Cameron.Shorter jirotech com"
 msgstr "Cameron.Shorter jirotech com"
 
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
+#: ../../build/contributors.csv:1
 msgid "Australia"
 msgstr "Australia"
 
 #: ../../build/contributors.csv:1
 msgid "camerons"
 msgstr "camerons"
+
+#: ../../build/contributors.csv:1
+msgid "Carsten Hollmann"
+msgstr ""
+
+#: ../../build/contributors.csv:1
+#, fuzzy
+msgid "c.hollmann 52north.org"
+msgstr "b.pross 52north org"
 
 #: ../../build/contributors.csv:1
 msgid "Dane Springmeyer"
@@ -721,8 +618,7 @@ msgstr "Dirk Frigne"
 msgid "dirk.frigne geosparc com"
 msgstr "dirk.frigne geosparc com"
 
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
+#: ../../build/contributors.csv:1
 msgid "Belgium"
 msgstr "Belgio"
 
@@ -762,9 +658,7 @@ msgstr "Eliot Guarini"
 msgid "eliotg geosparc com"
 msgstr "eliotg geosparc com"
 
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
+#: ../../build/contributors.csv:1
 msgid "?"
 msgstr "?"
 
@@ -776,7 +670,7 @@ msgstr "Enock Seth Nyamador"
 msgid "open enockseth co"
 msgstr "open enockseth co"
 
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
+#: ../../build/contributors.csv:1
 msgid "Ghana"
 msgstr "Ghana"
 
@@ -852,7 +746,7 @@ msgstr "Fabian Schindler"
 msgid "fabian.schindler eox at"
 msgstr "fabian.schindler eox at"
 
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
+#: ../../build/contributors.csv:1
 msgid "Austria"
 msgstr "Austria"
 
@@ -1037,7 +931,6 @@ msgid "lholivera gmail com"
 msgstr "lholivera gmail com"
 
 #: ../../build/contributors.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1
 msgid "Argentina"
 msgstr "Argentina"
 
@@ -1329,7 +1222,7 @@ msgstr "Luís de Sousa"
 msgid "luis.de.sousa protonmail ch"
 msgstr "luis.de.sousa protonmail ch"
 
-#: ../../build/contributors.csv:1 ../../build/contributors.csv:1
+#: ../../build/contributors.csv:1
 msgid "Portugal"
 msgstr "Portogallo"
 
@@ -1718,13 +1611,6 @@ msgid "sergobot256 gmail com"
 msgstr "sergobot256 gmail com"
 
 #: ../../build/contributors.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1
 msgid "Russia"
 msgstr "Russia"
 
@@ -1960,7 +1846,7 @@ msgstr "Ungheria"
 msgid "Siki"
 msgstr "Siki"
 
-#: ../../build/doc/sponsors.rst:68
+#: ../../build/doc/sponsors.rst:50
 msgid "Translators"
 msgstr "Traduttori"
 
@@ -1972,29 +1858,23 @@ msgstr "Lingua"
 msgid "i18n code"
 msgstr "i18n code"
 
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
+#: ../../build/translators.csv:1
 msgid "Catalan"
 msgstr "Catalano"
 
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
+#: ../../build/translators.csv:1
 msgid "ca"
 msgstr "ca"
 
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
+#: ../../build/translators.csv:1
 msgid "Òscar Fonts"
 msgstr "Òscar Fonts"
 
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
+#: ../../build/translators.csv:1
 msgid "oscar.fonts gmail com"
 msgstr "oscar.fonts gmail com"
 
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
+#: ../../build/translators.csv:1
 msgid "oscarfonts"
 msgstr "oscarfonts"
 
@@ -2054,19 +1934,11 @@ msgstr "Roger Veciana"
 msgid "rveciana gmail.com"
 msgstr "rveciana gmail.com"
 
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
+#: ../../build/translators.csv:1
 msgid "German"
 msgstr "Tedesco"
 
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
+#: ../../build/translators.csv:1
 msgid "de"
 msgstr "de"
 
@@ -2126,14 +1998,10 @@ msgstr "info thomas-baschetti de"
 msgid "tbaschett"
 msgstr "tbaschett"
 
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1
 msgid "Greek"
 msgstr "Greco"
 
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1
 msgid "el"
 msgstr "el"
@@ -2178,30 +2046,10 @@ msgstr "mariavak8 hotmail com"
 msgid "mariavak"
 msgstr "mariavak"
 
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1
 msgid "Spanish"
 msgstr "Spagnolo"
 
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1
 msgid "es"
 msgstr "es"
@@ -2394,16 +2242,10 @@ msgstr "vicky at georepublic dot de"
 msgid "cvvergara"
 msgstr "cvvergara"
 
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1
 msgid "French"
 msgstr "Francese"
 
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1
 msgid "fr"
 msgstr "fr"
@@ -2460,11 +2302,11 @@ msgstr "hu"
 msgid "siki"
 msgstr "siki"
 
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
+#: ../../build/translators.csv:1
 msgid "Indonesian"
 msgstr "Indonesiano"
 
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
+#: ../../build/translators.csv:1
 msgid "id"
 msgstr "id"
 
@@ -2472,7 +2314,7 @@ msgstr "id"
 msgid "M Iqnaul Haq Siregar"
 msgstr "M Iqnaul Haq Siregar"
 
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
+#: ../../build/translators.csv:1
 msgid "Indonesia"
 msgstr "Indonesia"
 
@@ -2496,24 +2338,10 @@ msgstr "rustanto.id gmail com"
 msgid "andry"
 msgstr "andry"
 
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1
 msgid "Italian"
 msgstr "Italiano"
 
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1
 msgid "it"
 msgstr "it"
@@ -2598,18 +2426,10 @@ msgstr "Roberta Fagandini"
 msgid "Antonio Rotundo"
 msgstr "Antonio Rotundo"
 
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1
 msgid "Japanese"
 msgstr "Giapponese"
 
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1
 msgid "ja"
 msgstr "ja"
@@ -2706,11 +2526,11 @@ msgstr "hychoe ucdavis.edu"
 msgid "hychoe"
 msgstr "hychoe"
 
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
+#: ../../build/translators.csv:1
 msgid "Polish"
 msgstr "Polacco"
 
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
+#: ../../build/translators.csv:1
 msgid "pl"
 msgstr "pl"
 
@@ -2718,7 +2538,7 @@ msgstr "pl"
 msgid "Milena Nowotarska"
 msgstr "Milena Nowotarska"
 
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
+#: ../../build/translators.csv:1
 msgid "Poland"
 msgstr "Polonia"
 
@@ -2742,27 +2562,11 @@ msgstr "damian wojslaw pl"
 msgid "trochej"
 msgstr "trochej"
 
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
+#: ../../build/translators.csv:1
 msgid "Russian"
 msgstr "Russo"
 
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
+#: ../../build/translators.csv:1
 msgid "ru"
 msgstr "ru"
 
@@ -2770,7 +2574,6 @@ msgstr "ru"
 msgid "Alexander Bruy"
 msgstr "Alexander Bruy"
 
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
 #: ../../build/translators.csv:1
 msgid "Ukraine"
 msgstr "Ucraina"
@@ -2843,7 +2646,7 @@ msgstr "d.svidzinska gmail.com"
 msgid "darsvid"
 msgstr "darsvid"
 
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
+#: ../../build/translators.csv:1
 msgid "Denis Rykov"
 msgstr "Denis Rykov"
 
@@ -2899,7 +2702,7 @@ msgstr "grozhentsov gispro.ru"
 msgid "grozhentso"
 msgstr "grozhentso"
 
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
+#: ../../build/translators.csv:1
 msgid "Maxim Dubinin"
 msgstr "Maxim Dubinin"
 
@@ -2919,7 +2722,7 @@ msgstr "Nadiia.gorash gmail.com"
 msgid "Nadiia"
 msgstr "Nadiia"
 
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
+#: ../../build/translators.csv:1
 msgid "Pavel"
 msgstr "Pavel"
 
@@ -2963,7 +2766,7 @@ msgstr "a.hast mail ru"
 msgid "HasT"
 msgstr "HasT"
 
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
+#: ../../build/translators.csv:1
 msgid "kuzkok"
 msgstr "kuzkok"
 
@@ -2971,13 +2774,11 @@ msgstr "kuzkok"
 msgid "kuzkok gmail.com"
 msgstr "kuzkok gmail.com"
 
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
+#: ../../build/translators.csv:1
 msgid "Chinese"
 msgstr "Cinese"
 
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
+#: ../../build/translators.csv:1
 msgid "zh"
 msgstr "zh"
 
@@ -3029,11 +2830,11 @@ msgstr "aeylinen gmail.com"
 msgid "Aeylinen"
 msgstr "Aeylinen"
 
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
+#: ../../build/translators.csv:1
 msgid "Romanian"
 msgstr "Rumeno"
 
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
+#: ../../build/translators.csv:1
 msgid "ro"
 msgstr "ro"
 
@@ -3041,7 +2842,7 @@ msgstr "ro"
 msgid "Ionut Ungurianu"
 msgstr "Ionut Ungurianu"
 
-#: ../../build/translators.csv:1 ../../build/translators.csv:1
+#: ../../build/translators.csv:1
 msgid "Romania"
 msgstr "Romania"
 
@@ -3065,18 +2866,19 @@ msgstr "alin.deneanu gmail com"
 msgid "alindeneanu"
 msgstr "alindeneanu"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr "nologo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "Progetto OSGeo"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "Comunità OSGeo"
+

@@ -1,25 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # Ko Nagase <nagase@georepublic.co.jp>, 2022
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-06 09:15-0500\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2022\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: ja\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)"
+"\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/overview/gmt_overview.rst:15
 msgid "GMT"
@@ -32,11 +33,11 @@ msgstr "包括的な地図化ツール"
 #: ../../build/doc/overview/gmt_overview.rst:20
 msgid ""
 "GMT is a collection of tools that allow users to manipulate (x,y) and "
-"(x,y,z) data sets (including filtering, trend fitting, gridding, projecting,"
-" etc.) and produce Encapsulated PostScript File (EPS) illustrations ranging "
-"from simple x-y plots through contour maps to artificially illuminated "
-"surfaces and 3-D perspective views in black and white, gray tone, hachure "
-"patterns, and 24-bit color."
+"(x,y,z) data sets (including filtering, trend fitting, gridding, "
+"projecting, etc.) and produce Encapsulated PostScript File (EPS) "
+"illustrations ranging from simple x-y plots through contour maps to "
+"artificially illuminated surfaces and 3-D perspective views in black and "
+"white, gray tone, hachure patterns, and 24-bit color."
 msgstr ""
 "GMT は、(x,y) および (x,y,z) のデータセット (フィルタリングや、トレンドフィッティング、グリッド化、投影などを含む) "
 "を操作して、Encapsulated PostScript File (EPS) イラストレーションを生成するためのツール群です。EPS "
@@ -52,7 +53,7 @@ msgstr ""
 "GMT "
 "は、多くの一般的な地図投影法に加えて、線形、対数、および冪乗スケールをサポートし、海岸線、河川、および政治的境界などのサポートデータが付属しています。"
 
-#: ../../build/doc/overview/gmt_overview.rstNone
+#: ../../build/doc/overview/gmt_overview.rst:-1
 msgid "gmt screenshot"
 msgstr "GMT スクリーンショット"
 
@@ -73,8 +74,8 @@ msgid "Details"
 msgstr "詳細"
 
 #: ../../build/doc/overview/gmt_overview.rst:46
-msgid "**Website:** https://gmt.soest.hawaii.edu"
-msgstr "**Webサイト:** https://gmt.soest.hawaii.edu"
+msgid "**Website:** https://www.generic-mapping-tools.org"
+msgstr ""
 
 #: ../../build/doc/overview/gmt_overview.rst:48
 msgid "**Licence:** GNU General Public License (GPL) version 2"
@@ -93,12 +94,13 @@ msgid "**API Interfaces:** Command line"
 msgstr "**API インタフェース:** コマンドライン"
 
 #: ../../build/doc/overview/gmt_overview.rst:56
-msgid "**Support:** https://gmt.soest.hawaii.edu/projects/gmt/boards/1"
-msgstr "**サポート:** https://gmt.soest.hawaii.edu/projects/gmt/boards/1"
+msgid "**Support:** https://forum.generic-mapping-tools.org/"
+msgstr ""
 
 #: ../../build/doc/overview/gmt_overview.rst:59
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+"This  project is only included on the OSGeoLive virtual machine disk "
+"(VMDK)"
 msgstr "このプロジェクトはOSGeoLive仮想マシンディスク(VMDK)にのみ含まれています"
 
 #: ../../build/doc/overview/gmt_overview.rst:62
@@ -117,10 +119,11 @@ msgstr "vmdk"
 msgid "nologo"
 msgstr "ロゴなし"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "OSGeo プロジェクト"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo コミュニティ"
+

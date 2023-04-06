@@ -1,27 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # Santtu Pyykkönen, 2019
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2022
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
 "Last-Translator: Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2022\n"
-"Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: fi\n"
+"Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:21
 msgid "QGIS Server Quickstart"
@@ -61,8 +61,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:39
 msgid ""
-"Click :menuselection:`Geospatial --> Web Services --> QGIS Server`. You "
-"should see a browser window with a web map viewer showing a world map."
+"Click |menu_qgis|. You should see a browser window with a web map viewer "
+"showing a world map."
 msgstr ""
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:43
@@ -80,7 +80,7 @@ msgid "We will now change the map styling using QGIS."
 msgstr ""
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:52
-msgid "Click :menuselection:`Geospatial --> Desktop GIS --> QGIS`."
+msgid "Click |menu_qgis|"
 msgstr ""
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:54
@@ -88,19 +88,17 @@ msgid "Choose :menuselection:`Project --> Open` from the menu bar."
 msgstr ""
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:56
-msgid ""
-"Select :file:`QGIS-NaturalEarth-Example.qgs` and press :guilabel:`Open`."
+msgid "Select :file:`QGIS-NaturalEarth-Example.qgs` and press :guilabel:`Open`."
 msgstr ""
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:58
 msgid ""
-"You should see the same world map rendered by QGIS. We will now change river"
-" styling and look at the result in the web map viewer."
+"You should see the same world map rendered by QGIS. We will now change "
+"river styling and look at the result in the web map viewer."
 msgstr ""
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:61
-msgid ""
-"Double click :file:`ne_10m_rivers_lake_centerlines` in the Layers tree."
+msgid "Double click :file:`ne_10m_rivers_lake_centerlines` in the Layers tree."
 msgstr ""
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:63
@@ -167,8 +165,8 @@ msgstr "Mitä seuraavaksi?"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:97
 msgid ""
-"To learn more about QGIS Server, a good starting point is the `QGIS Server "
-"Guide`_."
+"To learn more about QGIS Server, a good starting point is the `QGIS "
+"Server Guide`_."
 msgstr ""
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:103
@@ -199,18 +197,19 @@ msgstr ""
 msgid "https://github.com/qgis/qgis-web-client"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr ""
+

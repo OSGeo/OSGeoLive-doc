@@ -1,26 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2017
 # Nicolas Roelandt (Personnel), 2022
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
 "PO-Revision-Date: 2017-09-20 16:08+0000\n"
 "Last-Translator: Nicolas Roelandt (Personnel), 2022\n"
-"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
+"1000000 == 0 ? 1 : 2;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/overview/gmt_overview.rst:15
 msgid "GMT"
@@ -33,19 +34,19 @@ msgstr "Les \"Generic Mapping Tools\""
 #: ../../build/doc/overview/gmt_overview.rst:20
 msgid ""
 "GMT is a collection of tools that allow users to manipulate (x,y) and "
-"(x,y,z) data sets (including filtering, trend fitting, gridding, projecting,"
-" etc.) and produce Encapsulated PostScript File (EPS) illustrations ranging "
-"from simple x-y plots through contour maps to artificially illuminated "
-"surfaces and 3-D perspective views in black and white, gray tone, hachure "
-"patterns, and 24-bit color."
+"(x,y,z) data sets (including filtering, trend fitting, gridding, "
+"projecting, etc.) and produce Encapsulated PostScript File (EPS) "
+"illustrations ranging from simple x-y plots through contour maps to "
+"artificially illuminated surfaces and 3-D perspective views in black and "
+"white, gray tone, hachure patterns, and 24-bit color."
 msgstr ""
-"GMT est une collection d'outils qui permet aux utilisateurs de manipuler des"
-" jeux de données (x,y) et (x,y,z) (incluant les filtres, les courbes de "
-"tendances, les grilles, la projection, etc.) et de produire des "
-"illustrations au format Encapsulated PostScript File (EPS) sur une échelle "
-"depuis l'affichage simple x-y à travers des cartes de contour des surfaces "
-"artificiellement éclairées et des vues en perspective en 3-D en noir et "
-"blanc, teintes de gris, modèles d'hachurage, et couleur 24 bits."
+"GMT est une collection d'outils qui permet aux utilisateurs de manipuler "
+"des jeux de données (x,y) et (x,y,z) (incluant les filtres, les courbes "
+"de tendances, les grilles, la projection, etc.) et de produire des "
+"illustrations au format Encapsulated PostScript File (EPS) sur une "
+"échelle depuis l'affichage simple x-y à travers des cartes de contour des"
+" surfaces artificiellement éclairées et des vues en perspective en 3-D en"
+" noir et blanc, teintes de gris, modèles d'hachurage, et couleur 24 bits."
 
 #: ../../build/doc/overview/gmt_overview.rst:27
 msgid ""
@@ -53,11 +54,11 @@ msgid ""
 "scaling, and comes with support data such as coastlines, rivers, and "
 "political boundaries."
 msgstr ""
-"GMT supporte de nombreux systèmes communs de projections linéaires, logs, et"
-" échelle de puissance, et est fournit avec des données de support tels que "
-"des lignes de côtes, des rivières, et de limites politiques."
+"GMT supporte de nombreux systèmes communs de projections linéaires, logs,"
+" et échelle de puissance, et est fournit avec des données de support tels"
+" que des lignes de côtes, des rivières, et de limites politiques."
 
-#: ../../build/doc/overview/gmt_overview.rstNone
+#: ../../build/doc/overview/gmt_overview.rst:-1
 msgid "gmt screenshot"
 msgstr "Capture d’écran de gmt"
 
@@ -78,8 +79,8 @@ msgid "Details"
 msgstr "Détails"
 
 #: ../../build/doc/overview/gmt_overview.rst:46
-msgid "**Website:** https://gmt.soest.hawaii.edu"
-msgstr "**Site web:** https://gmt.soest.hawaii.edu"
+msgid "**Website:** https://www.generic-mapping-tools.org"
+msgstr ""
 
 #: ../../build/doc/overview/gmt_overview.rst:48
 msgid "**Licence:** GNU General Public License (GPL) version 2"
@@ -98,12 +99,13 @@ msgid "**API Interfaces:** Command line"
 msgstr "**Interfaces de l'API:** Ligne de commande"
 
 #: ../../build/doc/overview/gmt_overview.rst:56
-msgid "**Support:** https://gmt.soest.hawaii.edu/projects/gmt/boards/1"
-msgstr "**Support:** https://gmt.soest.hawaii.edu/projects/gmt/boards/1"
+msgid "**Support:** https://forum.generic-mapping-tools.org/"
+msgstr ""
 
 #: ../../build/doc/overview/gmt_overview.rst:59
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+"This  project is only included on the OSGeoLive virtual machine disk "
+"(VMDK)"
 msgstr ""
 "Ce projet n’est inclus que sur le disque de machine virtuelle OSGeoLive "
 "(VMDK)"
@@ -118,18 +120,19 @@ msgstr ""
 ":doc:`Documentation du guide de démarrage rapide "
 "<../quickstart/gmt_quickstart>`"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr "Pas de logo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "Projet OSGeo"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "Communauté OSGeo"
+
