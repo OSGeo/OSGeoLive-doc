@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-15 20:42-0600\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -205,8 +205,6 @@ msgid "The |ZOOM| Zoom tool is available by default"
 msgstr ""
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:169
-#: ../../build/doc/quickstart/udig_quickstart.rst:169
-#: ../../build/doc/quickstart/udig_quickstart.rst:169
 msgid "ZOOM"
 msgstr ""
 
@@ -223,7 +221,6 @@ msgid "The |PAN| Pan tool can be used to scroll around your map with out changin
 msgstr ""
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:178
-#: ../../build/doc/quickstart/udig_quickstart.rst:178
 msgid "PAN"
 msgstr ""
 
@@ -236,7 +233,6 @@ msgid "|SHOWALL| Show All, can be used to return to the full extents at any time
 msgstr ""
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:184
-#: ../../build/doc/quickstart/udig_quickstart.rst:184
 msgid "SHOWALL"
 msgstr ""
 
@@ -245,11 +241,9 @@ msgid "|ZOOM_IN| Zoom In and |ZOOM_OUT| Zoom Out can be used to change the scale
 msgstr ""
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:188
-#: ../../build/doc/quickstart/udig_quickstart.rst:188
 msgid "ZOOM_IN"
 msgstr ""
 
-#: ../../build/doc/quickstart/udig_quickstart.rst:189
 #: ../../build/doc/quickstart/udig_quickstart.rst:189
 msgid "ZOOM_OUT"
 msgstr ""
@@ -259,11 +253,9 @@ msgid "You can use Navigation Back |BNAV| and Forward |FNAV| in the menu bar to 
 msgstr ""
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:194
-#: ../../build/doc/quickstart/udig_quickstart.rst:194
 msgid "BNAV"
 msgstr ""
 
-#: ../../build/doc/quickstart/udig_quickstart.rst:195
 #: ../../build/doc/quickstart/udig_quickstart.rst:195
 msgid "FNAV"
 msgstr ""
@@ -328,7 +320,6 @@ msgstr ""
 msgid "Switch to the |INFO| Info Tool and click on one the parks to learn more about it"
 msgstr ""
 
-#: ../../build/doc/quickstart/udig_quickstart.rst:247
 #: ../../build/doc/quickstart/udig_quickstart.rst:247
 msgid "INFO"
 msgstr ""
@@ -441,7 +432,6 @@ msgstr ""
 msgid "OSGeo Project"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""

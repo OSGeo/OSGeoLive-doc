@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-15 20:42-0600\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,7 +36,7 @@ msgstr ""
 msgid "OTB has been funded the French Space Agency (CNES) in the frame of the Methodological Part of the ORFEO/Pleiades Accompaniement Program and has been actively developed since 2006. It is based on the ITK image processing library and is distributed as open source."
 msgstr ""
 
-#: ../../build/doc/overview/otb_overview.rst:None
+#: ../../build/doc/overview/otb_overview.rst:-1
 msgid "otb screenshot"
 msgstr ""
 
@@ -156,7 +156,6 @@ msgstr ""
 msgid "OSGeo Project"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""

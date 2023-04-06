@@ -89,6 +89,5 @@ msgid "OSGeo Project"
 msgstr ""
 
 #: ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-15 20:42-0600\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,7 +36,7 @@ msgstr ""
 msgid "ETF is the underlying framework used by the INSPIRE Reference Validator to validate metadata, datasets and services against the INSPIRE requirements. ETF is also used extensively in Germany by the Surveying Authorities of the Laender to validate their datasets. Other European Union (EU) Member States are also reusing the ETF to allow their data providers to test resources against national requirements. Finally, some software tools include validation based on the ETF API in their workflow."
 msgstr ""
 
-#: ../../build/doc/overview/ETF_overview.rst:None
+#: ../../build/doc/overview/ETF_overview.rst:-1
 msgid "ETF screenshot"
 msgstr ""
 
@@ -224,7 +224,6 @@ msgstr ""
 msgid "OSGeo Project"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-15 20:42-0600\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,48 +33,9 @@ msgid "Description"
 msgstr ""
 
 #: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
 msgid "|nologo|"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
 #: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr ""
@@ -87,8 +48,6 @@ msgstr ""
 msgid "`QuickStart <LibLAS_q_>`__"
 msgstr ""
 
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
 #: ../../build/doc/prior_applications.rst:1
 msgid "13.0"
 msgstr ""
@@ -110,17 +69,9 @@ msgid "Create Map Tiles"
 msgstr ""
 
 #: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
 msgid "|osgeo_community|"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""
@@ -157,16 +108,6 @@ msgstr ""
 msgid "`OGC Standards`_"
 msgstr ""
 
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
 #: ../../build/doc/prior_applications.rst:1
 msgid "10.5"
 msgstr ""
@@ -391,7 +332,6 @@ msgstr ""
 msgid "Geopublisher_"
 msgstr ""
 
-#: ../../build/doc/prior_applications.rst:1
 #: ../../build/doc/prior_applications.rst:1
 msgid "6.0"
 msgstr ""
