@@ -28,7 +28,7 @@ msgstr ""
 msgid "The 52°North |SOS| supports the interoperable provision of live and archived sensor observation data. A sensor could be a water level meter in a stream, a weather station, or an air quality monitoring station."
 msgstr ""
 
-#: ../../build/doc/overview/52nSOS_overview.rst:None
+#: ../../build/doc/overview/52nSOS_overview.rst:-1
 msgid "52nSOS screenshot"
 msgstr ""
 
@@ -260,7 +260,6 @@ msgstr ""
 msgid "OSGeo Project"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""

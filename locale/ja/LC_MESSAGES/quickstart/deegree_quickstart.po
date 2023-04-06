@@ -1,26 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # Ko Nagase <nagase@georepublic.co.jp>, 2022
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-06 09:15-0500\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2022\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: ja\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)"
+"\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:23
 msgid "deegree Quickstart"
@@ -28,9 +29,9 @@ msgstr "deegreeクイックスタート"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:25
 msgid ""
-"*deegree* is open source software for spatial data infrastructures and the "
-"geospatial web. *deegree* is a Java application for serving maps (and vector"
-" data) for other clients to show."
+"*deegree* is open source software for spatial data infrastructures and "
+"the geospatial web. *deegree* is a Java application for serving maps (and"
+" vector data) for other clients to show."
 msgstr ""
 "*deegree* は、空間データインフラストラクチャと地理空間Webのためのオープンソースソフトウェアです。*deegree* "
 "は、他のクライアントが表示するマップ(およびベクタデータ)を提供するJavaアプリケーションです。"
@@ -46,8 +47,8 @@ msgstr "Webサービス: WFS、WMS、WMTS、CSW、WPS"
 #: ../../build/doc/quickstart/deegree_quickstart.rst:32
 msgid ""
 "*deegree 3* is the new generation of the deegree Java framework for GIS "
-"applications and OGC-service implementations. It can be used to build web-"
-"based geospatial-data-infrastructures (GDI)."
+"applications and OGC-service implementations. It can be used to build "
+"web-based geospatial-data-infrastructures (GDI)."
 msgstr ""
 "*deegree3* は、deegree "
 "Javaフレームワークの新世代であり、GISアプリケーションとOGCサービス実装のためのものです。Webベースの地理空間データインフラストラクチャ(GDI)の構築に使用できます。"
@@ -62,12 +63,9 @@ msgstr "deegree3 webサービスを開始"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:42
 msgid ""
-"Choose *'Start deegree'* from the :menuselection:`Geospatial --> Web "
-"Services --> deegree` menu. The application will take a few moments to start"
-" up."
+"Choose |menu_deegree-Start|. The application will take a few moments to "
+"start up."
 msgstr ""
-":menuselection:`Geospatial --> Web Services --> deegree` メニューから *'Start "
-"deegree'* を選択します。アプリケーションの起動には少し時間がかかります。"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:45
 msgid ""
@@ -94,10 +92,10 @@ msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:53
 msgid ""
-"To manage the included and ready-to-use workspaces, click *'workspaces'* on "
-"the left side. You are now in the workspace management of the running "
-"*deegree* instance. You can see which workspace is currently active (only "
-"one can be active at a time) workspace, inactive locally available "
+"To manage the included and ready-to-use workspaces, click *'workspaces'* "
+"on the left side. You are now in the workspace management of the running "
+"*deegree* instance. You can see which workspace is currently active (only"
+" one can be active at a time) workspace, inactive locally available "
 "workspaces and offical workspaces which can be imported if you have a "
 "internet connection."
 msgstr ""
@@ -110,11 +108,11 @@ msgstr "*deegree-workspace-utah-light* の Start を押します。"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:57
 msgid ""
-"The demo workspace contains a web mapping setup based on data from the state"
-" of Utah. It contains a WMS configuration (1.3.0 and 1.1.1) consisting of "
-"vector layers and a variety of render styles. Additionally, a WFS (2.0.0, "
-"1.1.0 and 1.0.0) is configured that allows to access the raw vector data, "
-"backed by shapefiles, in GML format."
+"The demo workspace contains a web mapping setup based on data from the "
+"state of Utah. It contains a WMS configuration (1.3.0 and 1.1.1) "
+"consisting of vector layers and a variety of render styles. Additionally,"
+" a WFS (2.0.0, 1.1.0 and 1.0.0) is configured that allows to access the "
+"raw vector data, backed by shapefiles, in GML format."
 msgstr ""
 "デモ用ワークスペースには、ユタ州のデータを元にしたWebマッピングのセットアップが含まれています。ベクターレイヤーと様々なレンダースタイルからなるWMS設定"
 " (1.3.0と1.1.1)が含まれています。さらに、シェイプファイル形式の生のベクターデータにGML形式でアクセスできるWFS (2.0.0, "
@@ -122,9 +120,9 @@ msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:62
 msgid ""
-"For additional configuration examples including raster data, you can import "
-"the workspace *deegree-workspace-utah* through the workspace management "
-"(internet connection is required)."
+"For additional configuration examples including raster data, you can "
+"import the workspace *deegree-workspace-utah* through the workspace "
+"management (internet connection is required)."
 msgstr ""
 "ラスターデータを含む追加設定例については、ワークスペース管理からワークスペース *deegree-workspace-utah* "
 "をインポートすることができます（インターネット接続が必要です）"
@@ -136,26 +134,28 @@ msgstr "マップビュー"
 #: ../../build/doc/quickstart/deegree_quickstart.rst:68
 msgid ""
 "Click on *'see layers'* to open a simple map-client. The service is "
-"configured to visualize the data and a basemap (rendered by `OpenStreetMap "
-"<https://www.openstreetmap.org/>`_)."
+"configured to visualize the data and a basemap (rendered by "
+"`OpenStreetMap <https://www.openstreetmap.org/>`_)."
 msgstr ""
-"*'see layers'* をクリックして、簡単なマップクライアントを開きます。このサービスは、データとベースマップ(`OpenStreetMap "
+"*'see layers'* "
+"をクリックして、簡単なマップクライアントを開きます。このサービスは、データとベースマップ(`OpenStreetMap "
 "<https://www.openstreetmap.org/>`_)を視覚化するように設定されています。"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:70
 msgid ""
 "Click on the **+** on the right side to open a layer tree showing all "
-"available  layers. You can activate the a variety of layers served by the "
-"deegree WMS here."
+"available  layers. You can activate the a variety of layers served by the"
+" deegree WMS here."
 msgstr ""
 "右側の **+** をクリックすると、レイヤツリーが開き、利用可能なすべてのレイヤが表示されます。deegree "
 "WMSが提供する様々なレイヤーをここで有効にすることができます。"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:73
 msgid ""
-"The map client is based on `OpenLayers <https://openlayers.org/>`_. You can "
-"pan through the map holding the left mouse button and drag the map. Zooming "
-"is possible via mouse wheel or the navigation elements on the left side."
+"The map client is based on `OpenLayers <https://openlayers.org/>`_. You "
+"can pan through the map holding the left mouse button and drag the map. "
+"Zooming is possible via mouse wheel or the navigation elements on the "
+"left side."
 msgstr ""
 "マップクライアントは、 `OpenLayers <https://openlayers.org/>`_ "
 "に基づいています。マウスの左ボタンを押したままマップを移動し、マップをドラッグできます。ズームは、マウスホイールまたは左側のナビゲーション要素を使用して可能です。"
@@ -166,8 +166,8 @@ msgstr "次のステップ"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:80
 msgid ""
-"This was just a short introduction to the features of deegree 3. There is "
-"more information in the demo installations and on the deegree website."
+"This was just a short introduction to the features of deegree 3. There is"
+" more information in the demo installations and on the deegree website."
 msgstr "これはdeegree3の機能を簡単に紹介したものです。詳細については、デモインストールとdeegree Webサイトを参照してください。"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:83
@@ -196,10 +196,11 @@ msgstr "vmdk"
 msgid "nologo"
 msgstr "ロゴなし"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "OSGeo プロジェクト"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo コミュニティ"
+

@@ -1,25 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
 # Translators:
 # Anne Ylinen, 2019
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-17 21:23+0000\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
 "PO-Revision-Date: 2019-07-18 21:56+0000\n"
 "Last-Translator: Anne Ylinen, 2019\n"
-"Language-Team: Swedish (https://app.transifex.com/osgeo/teams/66156/sv/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: sv\n"
+"Language-Team: Swedish (https://app.transifex.com/osgeo/teams/66156/sv/)\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/overview/actinia_overview.rst:18
 msgid "actinia"
@@ -31,19 +31,20 @@ msgstr ""
 
 #: ../../build/doc/overview/actinia_overview.rst:23
 msgid ""
-"`Actinia <https://actinia.mundialis.de/>`__ is an open source REST API for "
-"scalable, distributed, high performance processing of geographical data that"
-" uses mainly `GRASS GIS <https://grass.osgeo.org/>`__ for computational "
-"tasks."
+"`Actinia <https://actinia.mundialis.de/>`__ is an open source REST API "
+"for scalable, distributed, high performance processing of geographical "
+"data that uses mainly `GRASS GIS <https://grass.osgeo.org/>`__ for "
+"computational tasks."
 msgstr ""
 
 #: ../../build/doc/overview/actinia_overview.rst:28
 msgid ""
-"It provides a REST API to process satellite images, time series of satellite"
-" images, arbitrary raster data with geographical relations and vector data."
+"It provides a REST API to process satellite images, time series of "
+"satellite images, arbitrary raster data with geographical relations and "
+"vector data."
 msgstr ""
 
-#: ../../build/doc/overview/actinia_overview.rstNone
+#: ../../build/doc/overview/actinia_overview.rst:-1
 msgid "actinia screenshot"
 msgstr ""
 
@@ -92,12 +93,13 @@ msgid ""
 msgstr ""
 
 #: ../../build/doc/overview/actinia_overview.rst:59
-msgid "**Support:** https://github.com/mundialis/actinia_core"
+msgid "**Support:** https://github.com/actinia-org/actinia-core"
 msgstr ""
 
 #: ../../build/doc/overview/actinia_overview.rst:61
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+"This  project is only included on the OSGeoLive virtual machine disk "
+"(VMDK)"
 msgstr ""
 
 #: ../../build/doc/overview/actinia_overview.rst:64
@@ -116,10 +118,11 @@ msgstr ""
 msgid "nologo"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr ""
+

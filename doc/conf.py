@@ -194,6 +194,7 @@ linkcheck_ignore = [
         # TODO this link is failing: RemoteDisconnected('Remote end closed connection without response'))
         # ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
         'https://www.iso.org',
+        r'https://inspire.ec.europa.eu',
 
         # links to the disk internals
         r'http://localhost', r'https://localhost',

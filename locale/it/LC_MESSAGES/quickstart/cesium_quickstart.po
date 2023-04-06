@@ -1,29 +1,30 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # Antonio Rotundo <anto.rotundo@gmail.com>, 2021
 # Valerio Pinna <pinnavalerio@yahoo.co.uk>, 2021
 # Simone Falceri, 2022
 # Federico Gianoli <fritz4@gmail.com>, 2022
 # Stefano Campus <skampus@gmail.com>, 2022
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
 "Last-Translator: Stefano Campus <skampus@gmail.com>, 2022\n"
-"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 "
+"? 1 : 2;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:19
 msgid "Cesium Quickstart"
@@ -31,20 +32,20 @@ msgstr "Guida rapida Cesium"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:20
 msgid ""
-"Cesium is a JavaScript library for creating 3D globes and 2D maps in a web "
-"browser without any plugins. It uses WebGL for hardware-accelerated "
-"graphics, and is cross-platform, cross-browser, and tuned for time-dynamic "
-"data visualization."
+"Cesium is a JavaScript library for creating 3D globes and 2D maps in a "
+"web browser without any plugins. It uses WebGL for hardware-accelerated "
+"graphics, and is cross-platform, cross-browser, and tuned for time-"
+"dynamic data visualization."
 msgstr ""
 "Cesium è una libreria JavaScript per creare globi 3D e mappe 2D in un "
 "browser web senza alcun plugin. Utilizza WebGL per la grafica con "
-"accelerazione hardware, ed è multipiattaforma, cross-browser, e sintonizzata"
-" per la visualizzazione di dati dinamici nel tempo."
+"accelerazione hardware, ed è multipiattaforma, cross-browser, e "
+"sintonizzata per la visualizzazione di dati dinamici nel tempo."
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:22
 msgid ""
-"This guide shows how to use the Cesium with the 3D (Globe), 2.5D (Columbus "
-"View) and 2D (map)."
+"This guide shows how to use the Cesium with the 3D (Globe), 2.5D "
+"(Columbus View) and 2D (map)."
 msgstr ""
 "Questa guida mostra come utilizzare il Cesium con il 3D (Globe), 2.5D "
 "(Columbus View) e 2D (mappa)."
@@ -61,8 +62,7 @@ msgstr "Avvia Cesium"
 msgid ""
 "Open the browser and point it to "
 "http://localhost/cesium/Apps/HelloWorld.html"
-msgstr ""
-"Apri il browser e punta a http://localhost/cesium/Apps/HelloWorld.html"
+msgstr "Apri il browser e punta a http://localhost/cesium/Apps/HelloWorld.html"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:33
 msgid "Search for a location"
@@ -70,13 +70,13 @@ msgstr "Cerca una località"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:34
 msgid ""
-"Click on the magnifying glass and type in the location you are looking for. "
-"In the following display, we look for India."
+"Click on the magnifying glass and type in the location you are looking "
+"for. In the following display, we look for India."
 msgstr ""
-"Clicca sulla lente d'ingrandimento e digita la località che stai cercando. "
-"Nella seguente visualizzazione, cerca l'India."
+"Clicca sulla lente d'ingrandimento e digita la località che stai "
+"cercando. Nella seguente visualizzazione, cerca l'India."
 
-#: ../../build/doc/quickstart/cesium_quickstart.rstNone
+#: ../../build/doc/quickstart/cesium_quickstart.rst:-1
 msgid "Cesium Searching Location"
 msgstr "Ricerca Posizione di Cesium"
 
@@ -86,13 +86,13 @@ msgstr "Passa tra 3D, 2.5D e 2D"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:42
 msgid ""
-"Click on the wire framed globe icon to select your preferred view.  Here the"
-" 2.5D Columbus view has been selected."
+"Click on the wire framed globe icon to select your preferred view.  Here "
+"the 2.5D Columbus view has been selected."
 msgstr ""
 "Clicca sull'icona del globo in wireframe per selezionare la tua vista "
 "preferita. Qui è stata selezionata la vista 2.5D Columbus."
 
-#: ../../build/doc/quickstart/cesium_quickstart.rstNone
+#: ../../build/doc/quickstart/cesium_quickstart.rst:-1
 msgid "Cesium switching between 3D, 2.5D and 2D"
 msgstr "Commutazione di Cesium tra 3D, 2,5D e 2D"
 
@@ -100,8 +100,7 @@ msgstr "Commutazione di Cesium tra 3D, 2,5D e 2D"
 msgid "Now the 2D map is selected."
 msgstr "Ora la mappa 2D è selezionata."
 
-#: ../../build/doc/quickstart/cesium_quickstart.rstNone
-#: ../../build/doc/quickstart/cesium_quickstart.rstNone
+#: ../../build/doc/quickstart/cesium_quickstart.rst:-1
 msgid "Cesium 2D map"
 msgstr "Mappa 2D Cesium"
 
@@ -111,12 +110,13 @@ msgstr "Seleziona il layer Immagine"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:56
 msgid ""
-"Click on the last icon and select a type of image service.  Here the Natural"
-" Earth II is selected and you can see how the map's image layer has changed."
+"Click on the last icon and select a type of image service.  Here the "
+"Natural Earth II is selected and you can see how the map's image layer "
+"has changed."
 msgstr ""
-"Clicca sull'ultima icona e seleziona un tipo di servizio di immagini. Qui è "
-"selezionato Natural Earth II e puoi vedere come è cambiato il layer di "
-"immagine della mappa."
+"Clicca sull'ultima icona e seleziona un tipo di servizio di immagini. Qui"
+" è selezionato Natural Earth II e puoi vedere come è cambiato il layer di"
+" immagine della mappa."
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:65
 msgid "What next?"
@@ -124,58 +124,60 @@ msgstr "E ora?"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:66
 msgid ""
-"Watch our `video tutorials <https://www.youtube.com/playlist?list=PLBk_Dtk-"
-"_Tlm4STvXKFEdfUWylPemo-9V>`_."
+"Watch our `video tutorials <https://www.youtube.com/playlist?list"
+"=PLBk_Dtk-_Tlm4STvXKFEdfUWylPemo-9V>`_."
 msgstr ""
 "Guarda i `tutorial video <https://www.youtube.com/playlist?list=PLBk_Dtk-"
 "_Tlm4STvXKFEdfUWylPemo-9V>`_."
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:68
-msgid "Read our written `tutorials <https://cesium.com/docs>`_."
+#, fuzzy
+msgid "Read our written `tutorials <https://cesium.com/learn>`_."
 msgstr "Leggi i `tutorial scritti <https://cesium.com/docs>`_."
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:70
 msgid ""
 "You can develop some quick applications using the `Sandcastle website "
-"<https://sandcastle.cesium.com/index.html>`_. Sandcastle is generally one of"
-" the best ways to learn about Cesium, and all the code examples are useful "
-"for this purpose."
+"<https://sandcastle.cesium.com/index.html>`_. Sandcastle is generally one"
+" of the best ways to learn about Cesium, and all the code examples are "
+"useful for this purpose."
 msgstr ""
-"Puoi sviluppare alcune applicazioni veloci usando il `sito web Sandcastle "
-"<https://sandcastle.cesium.com/index.html>`_. Sandcastle è generalmente uno "
-"dei modi migliori per imparare il cesio, e tutti gli esempi di codice sono "
-"utili a questo scopo."
+"Puoi sviluppare alcune applicazioni veloci usando il `sito web Sandcastle"
+" <https://sandcastle.cesium.com/index.html>`_. Sandcastle è generalmente "
+"uno dei modi migliori per imparare il cesio, e tutti gli esempi di codice"
+" sono utili a questo scopo."
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:72
 msgid ""
 "The `Cesium Forum <https://community.cesium.com>`_ is a great place to "
-"search for answers to common questions, and to raise questions that haven't "
-"been asked before."
+"search for answers to common questions, and to raise questions that "
+"haven't been asked before."
 msgstr ""
-"Il `Forum di Cesio <https://community.cesium.com>`_ è un ottimo posto per "
-"cercare risposte a domande comuni, e per sollevare domande che non sono "
+"Il `Forum di Cesio <https://community.cesium.com>`_ è un ottimo posto per"
+" cercare risposte a domande comuni, e per sollevare domande che non sono "
 "state fatte prima."
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:74
 msgid ""
-"In-depth documentation is available `locally <http://localhost/cesium/>`_ on"
-" the OSGeoLive package."
+"In-depth documentation is available `locally <http://localhost/cesium/>`_"
+" on the OSGeoLive package."
 msgstr ""
 "Una documentazione approfondita è disponibile `localmente "
 "<http://localhost/cesium/>`_ sul pacchetto OSGeoLive."
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr "nologo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "Progetto OSGeo"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "Comunità OSGeo"
+

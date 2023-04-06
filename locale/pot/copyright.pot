@@ -81,7 +81,6 @@ msgid "|CC-By-SA-med| This document includes content from the \"gvSIG Quickstart
 msgstr ""
 
 #: ../../build/doc/copyright.rst:0
-#: ../../build/doc/copyright.rst:0
 msgid "CC-By-SA-med"
 msgstr ""
 
@@ -101,7 +100,6 @@ msgstr ""
 msgid "|CC-By-small| © 2011 [Your Name]. [Derived from|Includes|Extends] :doc:`OSGeoLive <index>` Project Overviews by :doc:`OSGeoLive contributors <copyright>`."
 msgstr ""
 
-#: ../../build/doc/copyright.rst:0
 #: ../../build/doc/copyright.rst:0
 msgid "CC-By-small"
 msgstr ""
@@ -151,85 +149,9 @@ msgid "Eike Hinderk Jürrens (e.h.juerrens@52north.org); Daniel Nüst (d.nuest@5
 msgstr ""
 
 #: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
 msgid "Angelos Tzotsos, OSGeo"
 msgstr ""
 
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
 #: ../../build/licenses.csv:1
 msgid "Creative Commons Attribution 3.0 Unported (CC BY 3.0)"
 msgstr ""
@@ -243,24 +165,6 @@ msgid "Bastian Schaeffer, Kristof Lange, Benjamin Pross"
 msgstr ""
 
 #: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
 msgid "Cameron Shorter, Jirotech; Angelos Tzotsos, OSGeo"
 msgstr ""
 
@@ -269,63 +173,9 @@ msgid "52nWSS_overview"
 msgstr ""
 
 #: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
 msgid "Jan Drewnak (j.drewnak@52north.org)"
 msgstr ""
 
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
 #: ../../build/licenses.csv:1
 msgid "Cameron Shorter, Jirotech"
 msgstr ""
@@ -335,17 +185,6 @@ msgid "R_overview"
 msgstr ""
 
 #: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
 msgid "OSGeoLive"
 msgstr ""
 
@@ -353,9 +192,6 @@ msgstr ""
 msgid "atlasstyler_overview"
 msgstr ""
 
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
 #: ../../build/licenses.csv:1
 msgid "Stefan Tzeggai"
 msgstr ""
@@ -377,79 +213,9 @@ msgid "cesium_overview"
 msgstr ""
 
 #: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
 msgid "Balasubramaniam Natarajan"
 msgstr ""
 
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
 #: ../../build/licenses.csv:1
 msgid "Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)"
 msgstr ""
@@ -486,7 +252,6 @@ msgstr ""
 msgid "geomajas_overview"
 msgstr ""
 
-#: ../../build/licenses.csv:1
 #: ../../build/licenses.csv:1
 msgid "Pieter De Graef"
 msgstr ""
@@ -528,7 +293,6 @@ msgid "geoserver_overview"
 msgstr ""
 
 #: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
 msgid "Ian Turton; Frank Gasdorf"
 msgstr ""
 
@@ -536,7 +300,6 @@ msgstr ""
 msgid "geotools_overview"
 msgstr ""
 
-#: ../../build/licenses.csv:1
 #: ../../build/licenses.csv:1
 msgid "Jody Garnett"
 msgstr ""
@@ -550,9 +313,6 @@ msgid "Hamish Bowman; Paul Wessel"
 msgstr ""
 
 #: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
 msgid "Creative Commons Attribution 3.0 Unported  (CC BY 3.0)"
 msgstr ""
 
@@ -561,20 +321,6 @@ msgid "gpsdrive_overview"
 msgstr ""
 
 #: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
 msgid "Hamish Bowman"
 msgstr ""
 
@@ -582,7 +328,6 @@ msgstr ""
 msgid "gpsprune_overview"
 msgstr ""
 
-#: ../../build/licenses.csv:1
 #: ../../build/licenses.csv:1
 msgid "activityworkshop"
 msgstr ""
@@ -608,7 +353,6 @@ msgid "iris_overview"
 msgstr ""
 
 #: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
 msgid "darkblueb"
 msgstr ""
 
@@ -624,7 +368,6 @@ msgstr ""
 msgid "josm_overview"
 msgstr ""
 
-#: ../../build/licenses.csv:1
 #: ../../build/licenses.csv:1
 msgid "OSGeoLive; Javier Sanchez, GeoNaTec"
 msgstr ""
@@ -646,7 +389,6 @@ msgid "kosmo_overview"
 msgstr ""
 
 #: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
 msgid "Sergio Baños Calvo"
 msgstr ""
 
@@ -666,7 +408,6 @@ msgstr ""
 msgid "liblas_overview"
 msgstr ""
 
-#: ../../build/licenses.csv:1
 #: ../../build/licenses.csv:1
 msgid "Howard Butler"
 msgstr ""
@@ -692,7 +433,6 @@ msgid "mapguide_overview"
 msgstr ""
 
 #: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
 msgid "Trevor Wekel"
 msgstr ""
 
@@ -708,7 +448,6 @@ msgstr ""
 msgid "mapproxy_overview"
 msgstr ""
 
-#: ../../build/licenses.csv:1
 #: ../../build/licenses.csv:1
 msgid "Oliver Tonnhofer"
 msgstr ""
@@ -750,9 +489,6 @@ msgid "mb-system_overview"
 msgstr ""
 
 #: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
 msgid "Creative Commons"
 msgstr ""
 
@@ -765,14 +501,9 @@ msgid "ncWMS_overview"
 msgstr ""
 
 #: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
 msgid "Guy Griffiths (guy.griffiths@the-iea.org)"
 msgstr ""
 
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
 #: ../../build/licenses.csv:1
 msgid "Cameron Shorter"
 msgstr ""
@@ -813,7 +544,6 @@ msgstr ""
 msgid "osgearth_overview"
 msgstr ""
 
-#: ../../build/licenses.csv:1
 #: ../../build/licenses.csv:1
 msgid "Pirmin Kalberer"
 msgstr ""
@@ -863,7 +593,6 @@ msgid "pycsw_overview"
 msgstr ""
 
 #: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
 msgid "OSGeoLive; Tom Kralidis; Angelos Tzotsos, OSGeo"
 msgstr ""
 
@@ -904,7 +633,6 @@ msgid "sahana_overview"
 msgstr ""
 
 #: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
 msgid "Gavin Treadgold"
 msgstr ""
 
@@ -929,7 +657,6 @@ msgid "ushahidi_overview"
 msgstr ""
 
 #: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
 msgid "Henry Addo"
 msgstr ""
 
@@ -942,9 +669,6 @@ msgid "webworldwind_overview"
 msgstr ""
 
 #: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
 msgid "Gabriele Prestifilippo"
 msgstr ""
 
@@ -956,7 +680,6 @@ msgstr ""
 msgid "zoo-project_overview"
 msgstr ""
 
-#: ../../build/licenses.csv:1
 #: ../../build/licenses.csv:1
 msgid "Gérald Fenoy"
 msgstr ""
@@ -985,7 +708,6 @@ msgstr ""
 msgid "52nWSS_quickstart"
 msgstr ""
 
-#: ../../build/licenses.csv:1
 #: ../../build/licenses.csv:1
 msgid "Sergio Baños Calvo; Cameron Shorter, Jirotech"
 msgstr ""
@@ -1267,8 +989,6 @@ msgid "osgearth_quickstart"
 msgstr ""
 
 #: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
 msgid "OSGeoLive; Pirmin Kalberer"
 msgstr ""
 
@@ -1276,7 +996,6 @@ msgstr ""
 msgid "osgeolive_install_quickstart"
 msgstr ""
 
-#: ../../build/licenses.csv:1
 #: ../../build/licenses.csv:1
 msgid "OSGeoLive; Cameron Shorter"
 msgstr ""
@@ -1402,8 +1121,6 @@ msgid "spatialite_quickstart"
 msgstr ""
 
 #: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
 msgid "OSGeoLive; Micha Silver"
 msgstr ""
 
@@ -1464,7 +1181,6 @@ msgid "webworldwind_quickstart"
 msgstr ""
 
 #: ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1
 msgid "`NASA OPEN SOURCE AGREEMENT VERSION 1.3 <https://opensource.org/license/nasa1-3-php>`__"
 msgstr ""
 
@@ -1504,7 +1220,6 @@ msgstr ""
 msgid "OSGeo Project"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""

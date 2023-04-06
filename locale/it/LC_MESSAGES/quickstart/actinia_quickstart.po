@@ -1,8 +1,8 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
 # Translators:
 # Antonio Rotundo <anto.rotundo@gmail.com>, 2021
 # Valerio Pinna <pinnavalerio@yahoo.co.uk>, 2021
@@ -10,25 +10,27 @@
 # Federico Gianoli <fritz4@gmail.com>, 2022
 # Stefano Campus <skampus@gmail.com>, 2022
 # Luca Delucchi <lucadeluge@gmail.com>, 2022
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-05 15:16+0000\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
 "PO-Revision-Date: 2019-07-18 21:56+0000\n"
 "Last-Translator: Luca Delucchi <lucadeluge@gmail.com>, 2022\n"
-"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 "
+"? 1 : 2;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:16
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+"This  project is only included on the OSGeoLive virtual machine disk "
+"(VMDK)"
 msgstr ""
 "Questo progetto è incluso solo nel disco della macchina virtuale (VMDK) "
 "OSGeoLive"
@@ -41,15 +43,15 @@ msgstr "Guida rapida actinia"
 msgid ""
 "Actinia is an open source REST API for scalable, distributed, high "
 "performance processing of geographical data that uses mainly `GRASS GIS "
-"<https://grass.osgeo.org/>`__ for computational tasks. Actinia provides a "
-"REST API to process satellite images, time series of satellite images, "
+"<https://grass.osgeo.org/>`__ for computational tasks. Actinia provides a"
+" REST API to process satellite images, time series of satellite images, "
 "raster and vector data."
 msgstr ""
-"Actinia è un'API REST open source per l'elaborazione scalabile, distribuita "
-"e ad alte prestazioni di dati geografici che utilizza principalmente `GRASS "
-"GIS <https://grass.osgeo.org/>`__ per compiti di calcolo. Actinia fornisce "
-"un'API REST per elaborare immagini satellitari, serie temporali di immagini "
-"satellitari, dati raster e vettoriali."
+"Actinia è un'API REST open source per l'elaborazione scalabile, "
+"distribuita e ad alte prestazioni di dati geografici che utilizza "
+"principalmente `GRASS GIS <https://grass.osgeo.org/>`__ per compiti di "
+"calcolo. Actinia fornisce un'API REST per elaborare immagini satellitari,"
+" serie temporali di immagini satellitari, dati raster e vettoriali."
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:31
 msgid "Contents"
@@ -64,66 +66,89 @@ msgid "`curl` or similar command line tools"
 msgstr "`curl` o strumenti simili a riga di comando"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:36
-msgid "the `Postman` or `RESTman` extension for browsers"
-msgstr "le estensioni per browser `Postman` o `RESTman`"
+msgid ""
+"through `Jupyter notebooks <https://github.com/actinia-org/actinia-"
+"jupyter>`__"
+msgstr ""
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:37
 msgid ""
-"open a GRASS GIS session and use the `ace` (actinia command execution) tool"
+"the `Python interface <https://github.com/actinia-org/actinia-python-"
+"client>`__"
+msgstr ""
+
+#: ../../build/doc/quickstart/actinia_quickstart.rst:38
+msgid "the `Postman` or `RESTman` extension for browsers"
+msgstr "le estensioni per browser `Postman` o `RESTman`"
+
+#: ../../build/doc/quickstart/actinia_quickstart.rst:39
+msgid ""
+"open a GRASS GIS session and use the `ace` (actinia command execution) "
+"tool"
 msgstr ""
 "apri una sessione di GRASS GIS e usa lo strumento `ace` (actinia command "
 "execution)"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:38
+#: ../../build/doc/quickstart/actinia_quickstart.rst:40
 msgid "other interfaces to REST API"
 msgstr "altre interfacce per API REST"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:40
+#: ../../build/doc/quickstart/actinia_quickstart.rst:42
 msgid ""
-"In this quickstart, we make use of GRASS GIS to conveniently launch commands"
-" from the session to the actinia server (which itself uses GRASS GIS). The "
-"idea is to rapidly develop a workflow locally on small data sets to then "
-"execute it on the server."
+"In this quickstart, we make use of GRASS GIS to conveniently launch "
+"commands from the session to the actinia server (which itself uses GRASS "
+"GIS). The idea is to rapidly develop a workflow locally on small data "
+"sets to then execute it on the server."
 msgstr ""
 "In questa guida rapida, utilizziamo GRASS GIS per lanciare comodamente i "
 "comandi dalla sessione al server actinia (che a sua volta utilizza GRASS "
 "GIS). L'idea è quella di sviluppare rapidamente un flusso di lavoro a "
 "livello locale su piccole serie di dati per poi eseguirlo sul server."
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:46
+#: ../../build/doc/quickstart/actinia_quickstart.rst:48
+msgid "Using actinia with a Jupyter notebook"
+msgstr ""
+
+#: ../../build/doc/quickstart/actinia_quickstart.rst:50
+msgid ""
+"Numerous Jupyter notebooks for actinia are available from "
+"`https://github.com/actinia-org/actinia-jupyter <https://github.com"
+"/actinia-org/actinia-jupyter>`_"
+msgstr ""
+
+#: ../../build/doc/quickstart/actinia_quickstart.rst:54
 msgid "Introduction to ace - actinia command execution"
 msgstr "Introduzione a ace - esecuzione del comando actinia"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:48
+#: ../../build/doc/quickstart/actinia_quickstart.rst:56
 msgid ""
 "The ``ace`` tool (`details <https://neteler.gitlab.io/actinia-"
 "introduction/#controlling-actinia-from-a-running-grass-gis-session>`_) "
-"allows the execution of a single GRASS GIS command or a list of GRASS GIS "
-"commands on an actinia REST service (https://actinia.mundialis.de/). In "
-"addition it provides job management, the ability to list locations, mapsets "
-"and map layer the user has access to as well as the creation and deletion of"
-" mapsets."
+"allows the execution of a single GRASS GIS command or a list of GRASS GIS"
+" commands on an actinia REST service (https://actinia.mundialis.de/). In "
+"addition it provides job management, the ability to list locations, "
+"mapsets and map layer the user has access to as well as the creation and "
+"deletion of mapsets."
 msgstr ""
-"Lo strumento ``ace`` (`dettagli "
-"<https://github.com/actinia-org/actinia-core/tree/master/scripts/README.md>`_)"
-" permette l'esecuzione di un singolo comando GRASS GIS o di una lista di "
-"comandi GRASS GIS su un servizio REST actinia "
-"(https://actinia.mundialis.de/). Inoltre fornisce la gestione del lavoro, la"
-" possibilità di elencare le località, i set di mappe e i layer di mappe a "
-"cui l'utente ha accesso, nonché la creazione e la cancellazione dei set di "
-"mappe."
+"Lo strumento ``ace`` (`dettagli <https://github.com/actinia-org/actinia-"
+"core/tree/master/scripts/README.md>`_) permette l'esecuzione di un "
+"singolo comando GRASS GIS o di una lista di comandi GRASS GIS su un "
+"servizio REST actinia (https://actinia.mundialis.de/). Inoltre fornisce "
+"la gestione del lavoro, la possibilità di elencare le località, i set di "
+"mappe e i layer di mappe a cui l'utente ha accesso, nonché la creazione e"
+" la cancellazione dei set di mappe."
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:55
+#: ../../build/doc/quickstart/actinia_quickstart.rst:63
 msgid ""
 "Th ``ace`` tool must be executed in an active GRASS GIS session. It is "
-"installed with ``g.extension extension=ace "
-"url=https://github.com/actinia-org/ace``."
+"installed with ``g.extension extension=ace url=https://github.com"
+"/actinia-org/ace``."
 msgstr ""
-"Lo strumento ``ace`` deve essere eseguito in una sessione attiva di GRASS "
-"GIS. È installato con ``g.extension extension=ace "
-"url=https://github.com/actinia-org/ace``."
+"Lo strumento ``ace`` deve essere eseguito in una sessione attiva di GRASS"
+" GIS. È installato con ``g.extension extension=ace url=https://github.com"
+"/actinia-org/ace``."
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:58
+#: ../../build/doc/quickstart/actinia_quickstart.rst:66
 msgid ""
 "All commands will be executed per default in an **ephemeral** database. "
 "Hence, generated output must be exported using augmented GRASS commands."
@@ -132,88 +157,86 @@ msgstr ""
 "**effimero**. Quindi, il risultato deve essere esportato utilizzando i "
 "comandi aumentati di GRASS."
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:62
+#: ../../build/doc/quickstart/actinia_quickstart.rst:70
 msgid ""
-"The option ``mapset=MAPSET_NAME`` allows the execution of commands in the "
-"persistent user database. It can be used with ``location=LOCATION_NAME`` "
-"option."
+"The option ``mapset=MAPSET_NAME`` allows the execution of commands in the"
+" persistent user database. It can be used with ``location=LOCATION_NAME``"
+" option."
 msgstr ""
 "L'opzione ``mapset=MAPSET_NAME`` permette l'esecuzione di comandi nel "
 "database utente persistente. Può essere usata con l'opzione "
 "``location=LOCATION_NAME``."
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:67
+#: ../../build/doc/quickstart/actinia_quickstart.rst:75
 msgid "Setup your environment"
 msgstr "Imposta il tuo ambiente"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:69
+#: ../../build/doc/quickstart/actinia_quickstart.rst:77
 msgid "Be sure to run the following commands in a GRASS GIS session."
-msgstr ""
-"Assicurati di eseguire i seguenti comandi in una sessione di GRASS GIS."
+msgstr "Assicurati di eseguire i seguenti comandi in una sessione di GRASS GIS."
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:71
+#: ../../build/doc/quickstart/actinia_quickstart.rst:79
 msgid ""
 "The user must setup the following environmental variables to specify the "
 "actinia server and credentials:"
 msgstr ""
-"L'utente deve impostare le seguenti variabili ambientali per specificare il "
-"server actinia e le credenziali:"
+"L'utente deve impostare le seguenti variabili ambientali per specificare "
+"il server actinia e le credenziali:"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:82
+#: ../../build/doc/quickstart/actinia_quickstart.rst:90
 msgid "Access sample data"
 msgstr "Accesso ai dati campione"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:84
+#: ../../build/doc/quickstart/actinia_quickstart.rst:92
 msgid ""
-"Selected datasets are available to the demo user. To list the locations you "
-"have access to, run"
+"Selected datasets are available to the demo user. To list the locations "
+"you have access to, run"
 msgstr ""
 "Gli insiemi di dati selezionati sono disponibili per l'utente demo. Per "
 "elencare le posizioni a cui si ha accesso, eseguire"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:91
+#: ../../build/doc/quickstart/actinia_quickstart.rst:99
 msgid ""
-"The following command lists mapsets of current location in the active GRASS "
-"GIS session (nc_spm_08):"
+"The following command lists mapsets of current location in the active "
+"GRASS GIS session (nc_spm_08):"
 msgstr ""
 "Il seguente comando elenca i set di mappe della posizione corrente nella "
 "sessione attiva di GRASS GIS (nc_spm_08):"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:102
+#: ../../build/doc/quickstart/actinia_quickstart.rst:110
 msgid "Access data from external sources"
 msgstr "Accesso ai dati da fonti esterne"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:103
+#: ../../build/doc/quickstart/actinia_quickstart.rst:111
 msgid ""
-"GRASS GIS commands can be augmented with actinia specific extensions. The "
-"``@`` operator can be specified for an input parameter to import a web "
+"GRASS GIS commands can be augmented with actinia specific extensions. The"
+" ``@`` operator can be specified for an input parameter to import a web "
 "located resource and to specify the export of an output parameter."
 msgstr ""
-"I comandi di GRASS GIS possono essere aumentati con estensioni specifiche di"
-" actinia. L'operatore ``@`` può essere specificato per un parametro in "
-"ingresso per importare una risorsa situata sul web e per specificare "
+"I comandi di GRASS GIS possono essere aumentati con estensioni specifiche"
+" di actinia. L'operatore ``@`` può essere specificato per un parametro in"
+" ingresso per importare una risorsa situata sul web e per specificare "
 "l'esportazione di un parametro in uscita."
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:107
+#: ../../build/doc/quickstart/actinia_quickstart.rst:115
 msgid ""
-"Importantly, the name of the local location and mapset must correspond to "
-"that on the actinia REST server."
+"Importantly, the name of the local location and mapset must correspond to"
+" that on the actinia REST server."
 msgstr ""
-"È importante che il nome della posizione locale e del mapset corrisponda a "
-"quello del server REST di actinia."
+"È importante che il nome della posizione locale e del mapset corrisponda "
+"a quello del server REST di actinia."
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:110
+#: ../../build/doc/quickstart/actinia_quickstart.rst:118
 msgid "Currently available datasets are (organized by projections):"
-msgstr ""
-"I set di dati attualmente disponibili sono (organizzati per proiezioni):"
+msgstr "I set di dati attualmente disponibili sono (organizzati per proiezioni):"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:112
+#: ../../build/doc/quickstart/actinia_quickstart.rst:120
 msgid "North Carolina sample dataset (NC State-Plane metric CRS, EPSG: 3358):"
 msgstr ""
-"Serie di dati campione della Carolina del Nord (NC State-Plane metric CRS, "
-"EPSG: 3358):"
+"Serie di dati campione della Carolina del Nord (NC State-Plane metric "
+"CRS, EPSG: 3358):"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:115
+#: ../../build/doc/quickstart/actinia_quickstart.rst:123
 msgid ""
 "base cartography (``nc_spm_08/PERMANENT``; source: "
 "https://grassbook.org/datasets/datasets-3rd-edition/)"
@@ -221,7 +244,7 @@ msgstr ""
 "cartografia di base (``nc_spm_08/PERMANENT``; fonte: "
 "https://grassbook.org/datasets/datasets-3rd-edition/)"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:117
+#: ../../build/doc/quickstart/actinia_quickstart.rst:125
 msgid ""
 "Landsat subscenes (``nc_spm_08/landsat``; source: "
 "https://grass.osgeo.org/download/data/)"
@@ -229,15 +252,15 @@ msgstr ""
 "Landsat subscenes (``nc_spm_08/landsat``; source: "
 "https://grass.osgeo.org/download/data/)"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:120
+#: ../../build/doc/quickstart/actinia_quickstart.rst:128
 msgid "Latitude-Longitude location (LatLong WGS84, EPSG:4326):"
 msgstr "Posizione latitudine-longitudine (LatLong WGS84, EPSG:4326):"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:122
+#: ../../build/doc/quickstart/actinia_quickstart.rst:130
 msgid "empty (``latlong_wgs84/PERMANENT/``)"
 msgstr "empty (``latlong_wgs84/PERMANENT/``)"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:123
+#: ../../build/doc/quickstart/actinia_quickstart.rst:131
 msgid ""
 "16-days NDVI, MOD13C1, V006, CMG 0.05 deg res. "
 "(``latlong_wgs84/modis_ndvi_global/``; source: "
@@ -247,20 +270,19 @@ msgstr ""
 "(``latlong_wgs84/modis_ndvi_global/``; source: "
 "https://lpdaac.usgs.gov/products/mod13c1v006/)"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:126
+#: ../../build/doc/quickstart/actinia_quickstart.rst:134
 msgid ""
-"LST growing degree days asia 2017 (``latlong_wgs84/asia_gdd_2017/``; source:"
-" https://www.mundialis.de/en/temperature-data/)"
+"LST growing degree days asia 2017 (``latlong_wgs84/asia_gdd_2017/``; "
+"source: https://www.mundialis.de/en/temperature-data/)"
 msgstr ""
-"LST growing degree days asia 2017 (``latlong_wgs84/asia_gdd_2017/``; fonte: "
-"https://www.mundialis.de/en/temperature-data/)"
+"LST growing degree days asia 2017 (``latlong_wgs84/asia_gdd_2017/``; "
+"fonte: https://www.mundialis.de/en/temperature-data/)"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:128
+#: ../../build/doc/quickstart/actinia_quickstart.rst:136
 msgid "LST tropical days asia 2017 (``latlong_wgs84/asia_tropical_2017/``)"
-msgstr ""
-"LST giorni tropicali asia 2017 (``latlong_wgs84/asia_tropical_2017/``)"
+msgstr "LST giorni tropicali asia 2017 (``latlong_wgs84/asia_tropical_2017/``)"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:129
+#: ../../build/doc/quickstart/actinia_quickstart.rst:137
 msgid ""
 "LST temperature daily asia 2017, including min, max and avg "
 "(``latlong_wgs84/asia_lst_daily_2017/``)"
@@ -268,11 +290,11 @@ msgstr ""
 "LST temperatura giornaliera asia 2017, incluso min, max e avg "
 "(``latlong_wgs84/asia_lst_daily_2017/``)"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:132
+#: ../../build/doc/quickstart/actinia_quickstart.rst:140
 msgid "Europe (EU LAEA CRS, EPSG:3035):"
 msgstr "Europa (EU LAEA CRS, EPSG:3035):"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:134
+#: ../../build/doc/quickstart/actinia_quickstart.rst:142
 msgid ""
 "EU DEM 25m V1.1 (``eu_laea/PERMANENT/``; source: "
 "https://land.copernicus.eu/imagery-in-situ/eu-dem)"
@@ -280,32 +302,36 @@ msgstr ""
 "EU DEM 25m V1.1 (``eu_laea/PERMANENT/``; source: "
 "https://land.copernicus.eu/imagery-in-situ/eu-dem)"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:136
+#: ../../build/doc/quickstart/actinia_quickstart.rst:144
 msgid ""
-"CORINE Landcover 2012, g100_clc12_V18_5 (``eu_laea/corine_2012/``; source: "
-"https://land.copernicus.eu/pan-european/corine-land-cover/clc-2012)"
+"CORINE Landcover 2012, g100_clc12_V18_5 (``eu_laea/corine_2012/``; "
+"source: https://land.copernicus.eu/pan-european/corine-land-"
+"cover/clc-2012)"
 msgstr ""
-"CORINE Landcover 2012, g100_clc12_V18_5 (``eu_laea/corine_2012/``; source: "
-"https://land.copernicus.eu/pan-european/corine-land-cover/clc-2012)"
+"CORINE Landcover 2012, g100_clc12_V18_5 (``eu_laea/corine_2012/``; "
+"source: https://land.copernicus.eu/pan-european/corine-land-"
+"cover/clc-2012)"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:140
+#: ../../build/doc/quickstart/actinia_quickstart.rst:148
 msgid "World Mollweide (EPSG 54009):"
 msgstr "World Mollweide (EPSG 54009):"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:142
+#: ../../build/doc/quickstart/actinia_quickstart.rst:150
 msgid ""
-"GHS_POP_GPW42015_GLOBE_R2015A_54009_250_v1_0 (``world_mollweide/pop_jrc``; "
-"source: https://ghsl.jrc.ec.europa.eu/ghs_pop.php)"
+"GHS_POP_GPW42015_GLOBE_R2015A_54009_250_v1_0 "
+"(``world_mollweide/pop_jrc``; source: "
+"https://ghsl.jrc.ec.europa.eu/ghs_pop.php)"
 msgstr ""
-"GHS_POP_GPW42015_GLOBE_R2015A_54009_250_v1_0 (``world_mollweide/pop_jrc``; "
-"source: https://ghsl.jrc.ec.europa.eu/ghs_pop.php)"
+"GHS_POP_GPW42015_GLOBE_R2015A_54009_250_v1_0 "
+"(``world_mollweide/pop_jrc``; source: "
+"https://ghsl.jrc.ec.europa.eu/ghs_pop.php)"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:147
+#: ../../build/doc/quickstart/actinia_quickstart.rst:155
 msgid "Inspect the REST call prior to submission"
 msgstr "Ispeziona la chiamata REST prima della sottomissione"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:149
-#: ../../build/doc/quickstart/actinia_quickstart.rst:218
+#: ../../build/doc/quickstart/actinia_quickstart.rst:157
+#: ../../build/doc/quickstart/actinia_quickstart.rst:226
 msgid ""
 "To generate the actinia process chain JSON request simply add the ``-d`` "
 "(dry-run) flag:"
@@ -313,129 +339,127 @@ msgstr ""
 "Per generare la richiesta JSON della catena di processo di actinia è "
 "sufficiente aggiungere il flag ``-d`` (dry-run):"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:157
+#: ../../build/doc/quickstart/actinia_quickstart.rst:165
 msgid "Display a map - map rendering"
 msgstr "Visualizza una mappa - rendering della mappa"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:159
+#: ../../build/doc/quickstart/actinia_quickstart.rst:167
 msgid "It is very easy (and fast) to render a map:"
 msgstr "È molto facile (e veloce) visualizzare una mappa:"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:171
-#: ../../build/doc/quickstart/actinia_quickstart.rst:171
+#: ../../build/doc/quickstart/actinia_quickstart.rst:179
 msgid "ESA Globcover map shown by actinia"
 msgstr "Mappa ESA Globcover mostrata da actinia"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:173
+#: ../../build/doc/quickstart/actinia_quickstart.rst:181
 msgid ""
-"Ephemeral processing is the default processing approach of actinia. Commands"
-" are executed in an ephemeral mapset which will be removed after processing."
-" You can export the output of GRASS GIS modules to store the computational "
-"result for download and further analysis. The following export formats are "
-"currently supported:"
+"Ephemeral processing is the default processing approach of actinia. "
+"Commands are executed in an ephemeral mapset which will be removed after "
+"processing. You can export the output of GRASS GIS modules to store the "
+"computational result for download and further analysis. The following "
+"export formats are currently supported:"
 msgstr ""
 "L'elaborazione effimera è l'approccio predefinito di elaborazione di "
-"actinia. I comandi vengono eseguiti in un mapset effimero che verrà rimosso "
-"dopo l'elaborazione. È possibile esportare l'output dei moduli GIS di GRASS "
-"per memorizzare il risultato del calcolo per il download e ulteriori "
-"analisi. Attualmente sono supportati i seguenti formati di esportazione:"
+"actinia. I comandi vengono eseguiti in un mapset effimero che verrà "
+"rimosso dopo l'elaborazione. È possibile esportare l'output dei moduli "
+"GIS di GRASS per memorizzare il risultato del calcolo per il download e "
+"ulteriori analisi. Attualmente sono supportati i seguenti formati di "
+"esportazione:"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:178
+#: ../../build/doc/quickstart/actinia_quickstart.rst:186
 msgid "raster: ``COG``, ``GTiff``"
 msgstr "raster: ``COG``, ``GTiff``"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:179
+#: ../../build/doc/quickstart/actinia_quickstart.rst:187
 msgid "vector: ``GPKG``, ``GML``, ``GeoJSON``, ``ESRI_Shapefile``"
 msgstr "vettore: ``GPKG``, ``GML``, ``GeoJSON``, ``ESRI_Shapefile``"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:180
+#: ../../build/doc/quickstart/actinia_quickstart.rst:188
 msgid "table: ``CSV``, ``TXT``"
 msgstr "tabelle: ``CSV``, ``TXT``"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:184
+#: ../../build/doc/quickstart/actinia_quickstart.rst:192
 msgid "Script examples"
 msgstr "Script di esempio"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:187
+#: ../../build/doc/quickstart/actinia_quickstart.rst:195
 msgid ""
 "Example 1: computing slope and aspect and univariate statistics from an "
 "elevation model"
 msgstr ""
-"Esempio 1: calcolare la pendenza e l'aspetto e le statistiche univariate da "
-"un modello di elevazione"
+"Esempio 1: calcolare la pendenza e l'aspetto e le statistiche univariate "
+"da un modello di elevazione"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:189
+#: ../../build/doc/quickstart/actinia_quickstart.rst:197
 msgid ""
-"The following commands (to be stored in a script and executed with ``ace``) "
-"will import a raster layer from an internet source as raster map ``elev``, "
-"sets the computational region to the map and computes the slope. Additional "
-"information about the raster layer are requested with ``r.info``."
+"The following commands (to be stored in a script and executed with "
+"``ace``) will import a raster layer from an internet source as raster map"
+" ``elev``, sets the computational region to the map and computes the "
+"slope. Additional information about the raster layer are requested with "
+"``r.info``."
 msgstr ""
-"I seguenti comandi (da memorizzare in uno script ed eseguire con ``ace``) "
-"importano un layer raster da una fonte internet come mappa raster ``elev``, "
-"impostano la regione di calcolo sulla mappa e calcolano la pendenza. "
-"Ulteriori informazioni sul layer sono richieste con ``r.info``."
+"I seguenti comandi (da memorizzare in uno script ed eseguire con ``ace``)"
+" importano un layer raster da una fonte internet come mappa raster "
+"``elev``, impostano la regione di calcolo sulla mappa e calcolano la "
+"pendenza. Ulteriori informazioni sul layer sono richieste con ``r.info``."
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:195
+#: ../../build/doc/quickstart/actinia_quickstart.rst:203
 msgid "Store the following script as text file ``ace_dtm_statistics.sh``:"
-msgstr ""
-"Memorizza il seguente script come file di testo ``ace_dtm_statistics.sh``:"
+msgstr "Memorizza il seguente script come file di testo ``ace_dtm_statistics.sh``:"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:209
+#: ../../build/doc/quickstart/actinia_quickstart.rst:217
 msgid ""
-"Save the script in the text file to ``/tmp/ace_dtm_statistics.sh`` and run "
-"the saved script as"
+"Save the script in the text file to ``/tmp/ace_dtm_statistics.sh`` and "
+"run the saved script as"
 msgstr ""
 "Salava lo script nel file di testo in ``/tmp/ace_dtm_statistics.sh`` ed "
 "esegui lo script salvato come"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:216
-#: ../../build/doc/quickstart/actinia_quickstart.rst:356
-msgid ""
-"The results (messages, statistics, files) are provided as REST resources."
-msgstr ""
-"I risultati (messaggi, statistiche, file) sono forniti come risorse REST."
+#: ../../build/doc/quickstart/actinia_quickstart.rst:224
+#: ../../build/doc/quickstart/actinia_quickstart.rst:364
+msgid "The results (messages, statistics, files) are provided as REST resources."
+msgstr "I risultati (messaggi, statistiche, file) sono forniti come risorse REST."
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:225
+#: ../../build/doc/quickstart/actinia_quickstart.rst:233
 msgid "The output should look like this:"
 msgstr "L'output dovrebbe essere simile a questo:"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:326
+#: ../../build/doc/quickstart/actinia_quickstart.rst:334
 msgid "Example 2: Orthophoto image segmentation with export"
 msgstr "Esempio 2: Segmentazione dell'immagine ortofoto con esportazione"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:328
+#: ../../build/doc/quickstart/actinia_quickstart.rst:336
 msgid "Store the following script as text file ``/tmp/ace_segmentation.sh``:"
 msgstr ""
 "Memorizza il seguente script come file di testo "
 "``/tmp/ace_segmentation.sh``:"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:350
+#: ../../build/doc/quickstart/actinia_quickstart.rst:358
 msgid "Run the script saved in a text file as"
 msgstr "Esegui lo script salvato in un file di testo come"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:359
+#: ../../build/doc/quickstart/actinia_quickstart.rst:367
 msgid "Examples for persistent processing"
 msgstr "Esempi di elaborazione persistente"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:360
+#: ../../build/doc/quickstart/actinia_quickstart.rst:368
 msgid ""
-"GRASS GIS commands can be executed in a user specific persistent database. "
-"The user must create a mapset in an existing location. This mapsets can be "
-"accessed via ``ace``. All processing results of commands run in this mapset,"
-" will be stored persistently. Be aware that the processing will be performed"
-" in an ephemeral database that will be moved to the persistent storage using"
-" the correct name after processing."
+"GRASS GIS commands can be executed in a user specific persistent "
+"database. The user must create a mapset in an existing location. This "
+"mapsets can be accessed via ``ace``. All processing results of commands "
+"run in this mapset, will be stored persistently. Be aware that the "
+"processing will be performed in an ephemeral database that will be moved "
+"to the persistent storage using the correct name after processing."
 msgstr ""
-"I comandi di GRASS GIS possono essere eseguiti in un database persistente "
-"specifico dell'utente. L'utente deve creare un mapset in una posizione "
+"I comandi di GRASS GIS possono essere eseguiti in un database persistente"
+" specifico dell'utente. L'utente deve creare un mapset in una posizione "
 "esistente. Si può accedere a questo mapset tramite ``ace``. Tutti i "
-"risultati dell'elaborazione dei comandi eseguiti in questo mapset saranno "
-"memorizzati in modo persistente. Siate consapevoli che l'elaborazione verrà "
-"eseguita in un database effimero che verrà spostato nella memoria "
+"risultati dell'elaborazione dei comandi eseguiti in questo mapset saranno"
+" memorizzati in modo persistente. Siate consapevoli che l'elaborazione "
+"verrà eseguita in un database effimero che verrà spostato nella memoria "
 "persistente usando il nome corretto dopo l'elaborazione."
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:367
+#: ../../build/doc/quickstart/actinia_quickstart.rst:375
 msgid ""
 "To create a new mapset in the **nc_spm_08** location with the name "
 "**test_mapset** the following command must be executed"
@@ -443,86 +467,83 @@ msgstr ""
 "Per creare un nuovo mapset nella posizione **nc_spm_08** con il nome "
 "**test_mapset** deve essere eseguito il seguente comando"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:374
-msgid ""
-"Run the commands from the statistic script in the new persistent mapset"
+#: ../../build/doc/quickstart/actinia_quickstart.rst:382
+msgid "Run the commands from the statistic script in the new persistent mapset"
 msgstr "Esegui i comandi dello script statistico nel nuovo mapset persistente"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:380
-msgid ""
-"Show all raster maps that have been created with the script in test_mapset"
+#: ../../build/doc/quickstart/actinia_quickstart.rst:388
+msgid "Show all raster maps that have been created with the script in test_mapset"
 msgstr ""
 "Mostra tutte le mappe raster che sono state create con lo script in "
 "test_mapset"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:387
+#: ../../build/doc/quickstart/actinia_quickstart.rst:395
 msgid "Show information about raster map elev and slope_elev"
 msgstr "Mostra informazioni sulla mappa raster elev e slope_elev"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:394
+#: ../../build/doc/quickstart/actinia_quickstart.rst:402
 msgid "Delete the test_mapset (always double check names when deleting)"
 msgstr ""
 "Cancella il test_mapset (controlla sempre due volte i nomi quando si "
 "cancella)"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:400
+#: ../../build/doc/quickstart/actinia_quickstart.rst:408
 msgid ""
-"If the active GRASS GIS session has identical location/mapset names, then an"
-" alias can be used to avoid the persistent option in each single command "
-"call:"
+"If the active GRASS GIS session has identical location/mapset names, then"
+" an alias can be used to avoid the persistent option in each single "
+"command call:"
 msgstr ""
 "Se la sessione attiva di GRASS GIS ha nomi di località/mappe identici, "
 "allora si può usare un alias per evitare l'opzione persistente in ogni "
 "singola chiamata di comando:"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:408
+#: ../../build/doc/quickstart/actinia_quickstart.rst:416
 msgid ""
 "We assume that in the active GRASS GIS session the current location is "
-"**nc_spm_08** and the current mapset is **test_mapset**. Then the commands "
-"from above can be executed in the following way:"
+"**nc_spm_08** and the current mapset is **test_mapset**. Then the "
+"commands from above can be executed in the following way:"
 msgstr ""
 "Assumi che nella sessione attiva di GRASS GIS la località corrente sia "
-"**nc_spm_08** e il mapset corrente sia **test_mapset**. Allora i comandi di "
-"cui sopra possono essere eseguiti nel modo seguente:"
+"**nc_spm_08** e il mapset corrente sia **test_mapset**. Allora i comandi "
+"di cui sopra possono essere eseguiti nel modo seguente:"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:421
+#: ../../build/doc/quickstart/actinia_quickstart.rst:429
 msgid "Things to try"
 msgstr "Cose da provare"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:424
+#: ../../build/doc/quickstart/actinia_quickstart.rst:432
 msgid "Install on OSGeoLive VM with Docker Compose"
 msgstr "Installazione su una macchina virtuale OSGeoLive con Docker Compose"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:426
+#: ../../build/doc/quickstart/actinia_quickstart.rst:434
 msgid ""
-"Requirements: docker and docker-compose (already available in OSGeoLive VM "
-"version)"
+"Requirements: docker and docker-compose (already available in OSGeoLive "
+"VM version)"
 msgstr ""
-"Requisiti: docker e docker-compose (già disponibili nella versione OSGeoLive"
-" VM)"
+"Requisiti: docker e docker-compose (già disponibili nella versione "
+"OSGeoLive VM)"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:428
+#: ../../build/doc/quickstart/actinia_quickstart.rst:436
 msgid "To build and deploy actinia, run"
 msgstr "Per compilare ed utilizzare actinia, eseguire"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:436
+#: ../../build/doc/quickstart/actinia_quickstart.rst:444
 msgid "Now you have a running actinia instance locally! Check with"
-msgstr ""
-"Ora avete un'istanza di Actinia funzionante in locale! Controllare con"
+msgstr "Ora avete un'istanza di Actinia funzionante in locale! Controllare con"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:443
+#: ../../build/doc/quickstart/actinia_quickstart.rst:451
 msgid "Create new locations"
 msgstr "Crea nuove location"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:455
+#: ../../build/doc/quickstart/actinia_quickstart.rst:463
 msgid "Install GRASS GIS addons (extensions)"
 msgstr "Installa GRASS GIS addons (estensioni)"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:470
+#: ../../build/doc/quickstart/actinia_quickstart.rst:478
 msgid "What next?"
 msgstr "E ora?"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:471
+#: ../../build/doc/quickstart/actinia_quickstart.rst:480
 msgid ""
 "Visit the actinia website at `https://actinia.mundialis.de "
 "<https://actinia.mundialis.de>`_"
@@ -530,7 +551,7 @@ msgstr ""
 "Visita il sito web di actinia: `https://actinia.mundialis.de "
 "<https://actinia.mundialis.de>`_"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:472
+#: ../../build/doc/quickstart/actinia_quickstart.rst:481
 msgid ""
 "actinia tutorial: `https://neteler.gitlab.io/actinia-introduction "
 "<https://neteler.gitlab.io/actinia-introduction>`_"
@@ -538,21 +559,21 @@ msgstr ""
 "actinia tutorial: `https://neteler.gitlab.io/actinia-introduction "
 "<https://neteler.gitlab.io/actinia-introduction>`_"
 
-#: ../../build/doc/quickstart/actinia_quickstart.rst:473
+#: ../../build/doc/quickstart/actinia_quickstart.rst:482
 msgid ""
 "Further reading: Neteler, M., Gebbert, S., Tawalika, C., Bettge, A., "
-"Benelcadi, H., Löw, F., Adams, T, Paulsen, H. (2019). Actinia: cloud based "
-"geoprocessing. In Proc. of the 2019 conference on Big Data from Space "
-"(BiDS'2019) (pp. 41-44). EUR 29660 EN, Publications Office of the European "
-"Union 5, Luxembourg: P. Soille, S. Loekken, and S. Albani (Eds.). (`DOI "
-"<https://zenodo.org/record/2631917>`__)"
+"Benelcadi, H., Löw, F., Adams, T, Paulsen, H. (2019). Actinia: cloud "
+"based geoprocessing. In Proc. of the 2019 conference on Big Data from "
+"Space (BiDS'2019) (pp. 41-44). EUR 29660 EN, Publications Office of the "
+"European Union 5, Luxembourg: P. Soille, S. Loekken, and S. Albani "
+"(Eds.). (`DOI <https://zenodo.org/record/2631917>`__)"
 msgstr ""
 "Ulteriori letture: Neteler, M., Gebbert, S., Tawalika, C., Bettge, A., "
-"Benelcadi, H., Löw, F., Adams, T, Paulsen, H. (2019). Actinia: cloud based "
-"geoprocessing. In Proc. of the 2019 conference on Big Data from Space "
-"(BiDS'2019) (pp. 41-44). EUR 29660 EN, Publications Office of the European "
-"Union 5, Luxembourg: P. Soille, S. Loekken, and S. Albani (Eds.). (`DOI "
-"<https://zenodo.org/record/2631917>`__)"
+"Benelcadi, H., Löw, F., Adams, T, Paulsen, H. (2019). Actinia: cloud "
+"based geoprocessing. In Proc. of the 2019 conference on Big Data from "
+"Space (BiDS'2019) (pp. 41-44). EUR 29660 EN, Publications Office of the "
+"European Union 5, Luxembourg: P. Soille, S. Loekken, and S. Albani "
+"(Eds.). (`DOI <https://zenodo.org/record/2631917>`__)"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -562,10 +583,11 @@ msgstr "vmdk"
 msgid "nologo"
 msgstr "nologo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "Progetto OSGeo"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "Comunità OSGeo"
+

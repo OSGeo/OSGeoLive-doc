@@ -1,5 +1,5 @@
 # ------------------------------------------------------------------------------
-# GitHub Actions scripts 
+# GitHub Actions scripts
 # Copyright(c) OSGeoLive Contributors
 #
 # Main configuration
@@ -14,6 +14,9 @@ cmake -DLOCALE=ON ..
 make locale
 popd
 
+scripts/remove_obsolete_entries.sh
+exit 0
+
 # clean .tx/config
 head -4 .tx/config > tmp.out && mv tmp.out .tx/config
 # update .tx/config to add all the new/missing resources or fixing old resources naming
@@ -22,13 +25,12 @@ perl -pi -e 's/\[osgeolive\./\[o:osgeo:p:osgeolive:r:/' .tx/config
 # add the changes
 git add .tx/config
 
-# List all the files that need to be committed in build/doc/locale_changes.txt                                
+# List all the files that need to be committed in build/doc/locale_changes.txt
 awk '/^Update|^Create/{print $2}' build/doc/locale_changes.txt > tmp && mv tmp build/doc/locale_changes.txt        # .po files
 cat build/doc/locale_changes.txt | perl -pe 's/(.*)en\/LC_MESSAGES(.*)/$1pot$2t/' >> build/doc/locale_changes.txt  # .pot files
 #cat build/doc/locale_changes.txt
 
 # Remove obsolete entries #~ from .po files
-scripts/remove_obsolete_entries.sh
 
 # Add the files, commit and push
 for line in `cat build/doc/locale_changes.txt`; do git add "$line"; done

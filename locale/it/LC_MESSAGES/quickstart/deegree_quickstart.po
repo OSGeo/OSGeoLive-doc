@@ -1,29 +1,30 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # Antonio Rotundo <anto.rotundo@gmail.com>, 2021
 # Valerio Pinna <pinnavalerio@yahoo.co.uk>, 2022
 # Simone Falceri, 2022
 # Federico Gianoli <fritz4@gmail.com>, 2022
 # Stefano Campus <skampus@gmail.com>, 2022
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-06 09:15-0500\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
 "Last-Translator: Stefano Campus <skampus@gmail.com>, 2022\n"
-"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: it\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 "
+"? 1 : 2;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:23
 msgid "deegree Quickstart"
@@ -31,13 +32,13 @@ msgstr "Guida rapida deegree"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:25
 msgid ""
-"*deegree* is open source software for spatial data infrastructures and the "
-"geospatial web. *deegree* is a Java application for serving maps (and vector"
-" data) for other clients to show."
+"*deegree* is open source software for spatial data infrastructures and "
+"the geospatial web. *deegree* is a Java application for serving maps (and"
+" vector data) for other clients to show."
 msgstr ""
-"*deegree* è un software open source per infrastrutture di dati spaziali e il"
-" web geospaziale. *deegree* è un'applicazione Java per servire mappe (e dati"
-" vettoriali) da mostrare ad altri client."
+"*deegree* è un software open source per infrastrutture di dati spaziali e"
+" il web geospaziale. *deegree* è un'applicazione Java per servire mappe "
+"(e dati vettoriali) da mostrare ad altri client."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:28
 msgid "Available components are:"
@@ -50,8 +51,8 @@ msgstr "Web-Services: WFS, WMS, WMTS, CSW, WPS"
 #: ../../build/doc/quickstart/deegree_quickstart.rst:32
 msgid ""
 "*deegree 3* is the new generation of the deegree Java framework for GIS "
-"applications and OGC-service implementations. It can be used to build web-"
-"based geospatial-data-infrastructures (GDI)."
+"applications and OGC-service implementations. It can be used to build "
+"web-based geospatial-data-infrastructures (GDI)."
 msgstr ""
 "*deegree 3* è la nuova generazione del framework deegree Java per "
 "applicazioni GIS e implementazioni di servizi OGC. Può essere usato per "
@@ -67,13 +68,9 @@ msgstr "Avvia i webservice di deegree 3"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:42
 msgid ""
-"Choose *'Start deegree'* from the :menuselection:`Geospatial --> Web "
-"Services --> deegree` menu. The application will take a few moments to start"
-" up."
+"Choose |menu_deegree-Start|. The application will take a few moments to "
+"start up."
 msgstr ""
-"Scegli *'Start deegree'* dal menu :menuselection:`Geospatial --> Web "
-"Services --> deegree`. L'applicazione impiegherà qualche istante per "
-"avviarsi."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:45
 msgid ""
@@ -83,8 +80,8 @@ msgid ""
 "workspace*."
 msgstr ""
 "Firefox apre la *console dei servizi deegree 3*. (Puoi anche aprirla "
-"manualmente puntando il tuo browser su http://localhost:8033). Questa è una "
-"semplice interfaccia grafica basata sul web per modificare i file di "
+"manualmente puntando il tuo browser su http://localhost:8033). Questa è "
+"una semplice interfaccia grafica basata sul web per modificare i file di "
 "configurazione dello spazio di lavoro *deegree*."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:49
@@ -97,23 +94,25 @@ msgid ""
 "webservices. Those configurations are stored in the workspace."
 msgstr ""
 "*deegree 3* usa configurazioni conformi a tutti i webservice basati su "
-"*deegree 3*. Queste configurazioni sono memorizzate nello spazio di lavoro."
+"*deegree 3*. Queste configurazioni sono memorizzate nello spazio di "
+"lavoro."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:53
 msgid ""
-"To manage the included and ready-to-use workspaces, click *'workspaces'* on "
-"the left side. You are now in the workspace management of the running "
-"*deegree* instance. You can see which workspace is currently active (only "
-"one can be active at a time) workspace, inactive locally available "
+"To manage the included and ready-to-use workspaces, click *'workspaces'* "
+"on the left side. You are now in the workspace management of the running "
+"*deegree* instance. You can see which workspace is currently active (only"
+" one can be active at a time) workspace, inactive locally available "
 "workspaces and offical workspaces which can be imported if you have a "
 "internet connection."
 msgstr ""
-"Per gestire gli spazi di lavoro inclusi e pronti all'uso, clicca su *'spazi "
-"di lavoro'* sul lato sinistro. Ora sei nella gestione degli spazi di lavoro "
-"dell'istanza di *deegree* in esecuzione. Puoi vedere quale spazio di lavoro "
-"è attualmente attivo (solo uno può essere attivo alla volta), gli spazi di "
-"lavoro inattivi disponibili localmente e gli spazi di lavoro ufficiali che "
-"possono essere importati se hai una connessione internet."
+"Per gestire gli spazi di lavoro inclusi e pronti all'uso, clicca su "
+"*'spazi di lavoro'* sul lato sinistro. Ora sei nella gestione degli spazi"
+" di lavoro dell'istanza di *deegree* in esecuzione. Puoi vedere quale "
+"spazio di lavoro è attualmente attivo (solo uno può essere attivo alla "
+"volta), gli spazi di lavoro inattivi disponibili localmente e gli spazi "
+"di lavoro ufficiali che possono essere importati se hai una connessione "
+"internet."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:55
 msgid "Press start on the *deegree-workspace-utah-light*."
@@ -121,27 +120,29 @@ msgstr "Premi start su *deegree-workspace-utah-light*."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:57
 msgid ""
-"The demo workspace contains a web mapping setup based on data from the state"
-" of Utah. It contains a WMS configuration (1.3.0 and 1.1.1) consisting of "
-"vector layers and a variety of render styles. Additionally, a WFS (2.0.0, "
-"1.1.0 and 1.0.0) is configured that allows to access the raw vector data, "
-"backed by shapefiles, in GML format."
+"The demo workspace contains a web mapping setup based on data from the "
+"state of Utah. It contains a WMS configuration (1.3.0 and 1.1.1) "
+"consisting of vector layers and a variety of render styles. Additionally,"
+" a WFS (2.0.0, 1.1.0 and 1.0.0) is configured that allows to access the "
+"raw vector data, backed by shapefiles, in GML format."
 msgstr ""
-"L'area di lavoro demo contiene una configurazione di web mapping basata sui "
-"dati dello stato dello Utah. Contiene una configurazione WMS (1.3.0 e 1.1.1)"
-" composta da layer vettoriali e una varietà di stili di rendering. Inoltre, "
-"è configurato un WFS (2.0.0, 1.1.0 e 1.0.0) che consente di accedere ai dati"
-" vettoriali grezzi, supportati da shapefile, in formato GML."
+"L'area di lavoro demo contiene una configurazione di web mapping basata "
+"sui dati dello stato dello Utah. Contiene una configurazione WMS (1.3.0 e"
+" 1.1.1) composta da layer vettoriali e una varietà di stili di rendering."
+" Inoltre, è configurato un WFS (2.0.0, 1.1.0 e 1.0.0) che consente di "
+"accedere ai dati vettoriali grezzi, supportati da shapefile, in formato "
+"GML."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:62
 msgid ""
-"For additional configuration examples including raster data, you can import "
-"the workspace *deegree-workspace-utah* through the workspace management "
-"(internet connection is required)."
+"For additional configuration examples including raster data, you can "
+"import the workspace *deegree-workspace-utah* through the workspace "
+"management (internet connection is required)."
 msgstr ""
-"Per ulteriori esempi di configurazione, compresi i dati raster, è possibile "
-"importare lo spazio di lavoro *deegree-workspace-utah* attraverso la "
-"gestione dello spazio di lavoro (è necessaria una connessione a Internet)."
+"Per ulteriori esempi di configurazione, compresi i dati raster, è "
+"possibile importare lo spazio di lavoro *deegree-workspace-utah* "
+"attraverso la gestione dello spazio di lavoro (è necessaria una "
+"connessione a Internet)."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:66
 msgid "View a map"
@@ -150,33 +151,35 @@ msgstr "Vedi una mappa"
 #: ../../build/doc/quickstart/deegree_quickstart.rst:68
 msgid ""
 "Click on *'see layers'* to open a simple map-client. The service is "
-"configured to visualize the data and a basemap (rendered by `OpenStreetMap "
-"<https://www.openstreetmap.org/>`_)."
+"configured to visualize the data and a basemap (rendered by "
+"`OpenStreetMap <https://www.openstreetmap.org/>`_)."
 msgstr ""
-"Clicca su *'see layers'* per aprire un semplice map-client. Il servizio è "
-"configurato per visualizzare i dati e una mappa di base (resa da "
+"Clicca su *'see layers'* per aprire un semplice map-client. Il servizio è"
+" configurato per visualizzare i dati e una mappa di base (resa da "
 "`OpenStreetMap <https://www.openstreetmap.org/>`_)."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:70
 msgid ""
 "Click on the **+** on the right side to open a layer tree showing all "
-"available  layers. You can activate the a variety of layers served by the "
-"deegree WMS here."
+"available  layers. You can activate the a variety of layers served by the"
+" deegree WMS here."
 msgstr ""
-"Fare clic su **+** sul lato destro per aprire un albero dei layer che mostra"
-" tutti i layer disponibili. Qui è possibile attivare una serie di layer "
-"serviti da deegree WMS."
+"Fare clic su **+** sul lato destro per aprire un albero dei layer che "
+"mostra tutti i layer disponibili. Qui è possibile attivare una serie di "
+"layer serviti da deegree WMS."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:73
 msgid ""
-"The map client is based on `OpenLayers <https://openlayers.org/>`_. You can "
-"pan through the map holding the left mouse button and drag the map. Zooming "
-"is possible via mouse wheel or the navigation elements on the left side."
+"The map client is based on `OpenLayers <https://openlayers.org/>`_. You "
+"can pan through the map holding the left mouse button and drag the map. "
+"Zooming is possible via mouse wheel or the navigation elements on the "
+"left side."
 msgstr ""
-"Il client della mappa è basato su `OpenLayers <https://openlayers.org/>`_. "
-"Puoi fare una panoramica della mappa tenendo premuto il tasto sinistro del "
-"mouse e trascinando la mappa. Lo zoom è possibile tramite la rotella del "
-"mouse o gli elementi di navigazione sul lato sinistro."
+"Il client della mappa è basato su `OpenLayers "
+"<https://openlayers.org/>`_. Puoi fare una panoramica della mappa tenendo"
+" premuto il tasto sinistro del mouse e trascinando la mappa. Lo zoom è "
+"possibile tramite la rotella del mouse o gli elementi di navigazione sul "
+"lato sinistro."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:78
 msgid "What next?"
@@ -184,11 +187,12 @@ msgstr "E ora?"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:80
 msgid ""
-"This was just a short introduction to the features of deegree 3. There is "
-"more information in the demo installations and on the deegree website."
+"This was just a short introduction to the features of deegree 3. There is"
+" more information in the demo installations and on the deegree website."
 msgstr ""
-"Questa era solo una breve introduzione alle caratteristiche di deegree 3. Ci"
-" sono più informazioni nelle installazioni demo e sul sito web di deegree."
+"Questa era solo una breve introduzione alle caratteristiche di deegree 3."
+" Ci sono più informazioni nelle installazioni demo e sul sito web di "
+"deegree."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:83
 msgid "deegree website - Available here: https://www.deegree.org"
@@ -218,10 +222,11 @@ msgstr "vmdk"
 msgid "nologo"
 msgstr "nologo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "Progetto OSGeo"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "Comunità OSGeo"
+

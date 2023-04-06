@@ -1,27 +1,28 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2017
 # Vicky Vergara <vicky@georepublic.de>, 2017
 # Nicolas Roelandt (Personnel), 2022
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-13 16:00+0000\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
 "Last-Translator: Nicolas Roelandt (Personnel), 2022\n"
-"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
+"1000000 == 0 ? 1 : 2;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/overview/deegree_overview.rst:21
 msgid "deegree"
@@ -34,243 +35,241 @@ msgstr "A propos"
 #: ../../build/doc/overview/deegree_overview.rst:27
 msgid ""
 "deegree provides geospatial webservices based upon |OGC| and `INSPIRE "
-"Network Services <https://inspire.ec.europa.eu>`_ specifications. deegree "
-"supports:"
+"Network Services <https://inspire.ec.europa.eu>`_ specifications. deegree"
+" supports:"
 msgstr ""
-"deegree fournit des services web géospatiaux basés sur les standards |OGC| "
-"et les spécifications `INSPIRE Network Services "
+"deegree fournit des services web géospatiaux basés sur les standards "
+"|OGC| et les spécifications `INSPIRE Network Services "
 "<https://inspire.ec.europa.eu>`_. deegree prend en charge:"
 
-#: ../../build/doc/overview/deegree_overview.rst:29
+#: ../../build/doc/overview/deegree_overview.rst:30
 msgid "|WFS|: Serves vector data from geospatial data"
 msgstr "|WFS|: Sert les données vectorielles à partir de données géospatiales"
 
-#: ../../build/doc/overview/deegree_overview.rst:30
+#: ../../build/doc/overview/deegree_overview.rst:31
 msgid "|WMS|: Serves maps rendered from geospatial data"
 msgstr "|WMS|: Sert les cartes rendues à partir de données géospatiales"
 
-#: ../../build/doc/overview/deegree_overview.rst:31
+#: ../../build/doc/overview/deegree_overview.rst:32
 msgid "|WMTS|: Serves pre-rendered map tiles"
 msgstr "|WMTS|: Sert des tuiles de carte pré-calculées"
 
-#: ../../build/doc/overview/deegree_overview.rst:32
-msgid "|CSW|: Performs searches for geospatial datasets and services"
-msgstr ""
-"|CSW|: Effectue des recherches de jeux de données et services géospatiaux"
-
 #: ../../build/doc/overview/deegree_overview.rst:33
+msgid "|CSW|: Performs searches for geospatial datasets and services"
+msgstr "|CSW|: Effectue des recherches de jeux de données et services géospatiaux"
+
+#: ../../build/doc/overview/deegree_overview.rst:34
 msgid "|WPS|: Executes geospatial processes"
 msgstr "|WPS|: Exécute des processus de géotraitement"
 
-#: ../../build/doc/overview/deegree_overview.rst-1
+#: ../../build/doc/overview/deegree_overview.rst:-1
 msgid "deegree screenshot"
 msgstr "Capture d'écran de deegree"
 
-#: ../../build/doc/overview/deegree_overview.rst:42
+#: ../../build/doc/overview/deegree_overview.rst:43
 msgid "Core Features"
 msgstr "Caractéristiques principales"
 
-#: ../../build/doc/overview/deegree_overview.rst:44
+#: ../../build/doc/overview/deegree_overview.rst:45
 msgid "**WFS**"
 msgstr "**WFS**"
 
-#: ../../build/doc/overview/deegree_overview.rst:46
+#: ../../build/doc/overview/deegree_overview.rst:47
 msgid "Implements WFS standards 1.0.0, 1.1.0 and 2.0.0"
 msgstr "Implémente les standards WFS 1.0.0, 1.1.0 et 2.0.0"
 
-#: ../../build/doc/overview/deegree_overview.rst:47
+#: ../../build/doc/overview/deegree_overview.rst:48
 msgid ""
 "Official OGC reference implementation for WFS 1.1.0 (Basic and "
 "Transactional) and WFS 2.0.0 (Basic)"
 msgstr ""
 
-#: ../../build/doc/overview/deegree_overview.rst:48
+#: ../../build/doc/overview/deegree_overview.rst:49
 msgid "Fully transactional (even for rich data models)"
 msgstr "Complètement transactionnel (même pour les modèles de données riches)"
 
-#: ../../build/doc/overview/deegree_overview.rst:49
-#: ../../build/doc/overview/deegree_overview.rst:89
-#: ../../build/doc/overview/deegree_overview.rst:101
+#: ../../build/doc/overview/deegree_overview.rst:50
+#: ../../build/doc/overview/deegree_overview.rst:90
+#: ../../build/doc/overview/deegree_overview.rst:102
 msgid "Supports KVP, XML and SOAP requests"
 msgstr "Supporte des requêtes de type KVP, XML et SOAP"
 
-#: ../../build/doc/overview/deegree_overview.rst:50
+#: ../../build/doc/overview/deegree_overview.rst:51
 msgid "GML 2/3.0/3.1/3.2 output/input"
 msgstr "Entrées/sorties GML 2/3.0/3.1/3.2"
 
-#: ../../build/doc/overview/deegree_overview.rst:51
+#: ../../build/doc/overview/deegree_overview.rst:52
 msgid "Support for GetGmlObject requests and XLinks"
 msgstr "Support des requêtes GetGmlObject et XLinks"
 
-#: ../../build/doc/overview/deegree_overview.rst:52
-#: ../../build/doc/overview/deegree_overview.rst:65
-#: ../../build/doc/overview/deegree_overview.rst:80
-#: ../../build/doc/overview/deegree_overview.rst:90
+#: ../../build/doc/overview/deegree_overview.rst:53
+#: ../../build/doc/overview/deegree_overview.rst:66
+#: ../../build/doc/overview/deegree_overview.rst:81
+#: ../../build/doc/overview/deegree_overview.rst:91
 msgid "High performance and excellent scalability"
 msgstr "Hautes performances et scalabilité excellente"
 
-#: ../../build/doc/overview/deegree_overview.rst:53
+#: ../../build/doc/overview/deegree_overview.rst:54
 msgid "On-the-fly coordinate transformation"
 msgstr "Transformation de coordonnées à la volée"
 
-#: ../../build/doc/overview/deegree_overview.rst:54
+#: ../../build/doc/overview/deegree_overview.rst:55
 msgid "Designed for rich data models from the bottom up"
 msgstr "Conçu dès le départ pour des modèles de données riches"
 
-#: ../../build/doc/overview/deegree_overview.rst:55
-msgid ""
-"Backends support flexible mapping of GML application schemas to relational "
-"models"
-msgstr ""
-"Backend supporte un mapping flexible des applications GML avec des modèles "
-"relationnels"
-
 #: ../../build/doc/overview/deegree_overview.rst:56
+msgid ""
+"Backends support flexible mapping of GML application schemas to "
+"relational models"
+msgstr ""
+"Backend supporte un mapping flexible des applications GML avec des "
+"modèles relationnels"
+
+#: ../../build/doc/overview/deegree_overview.rst:57
 msgid ""
 "ISO 19107-compliant geometry model: Complex geometries (e.g. non-linear "
 "curves)"
 msgstr ""
-"Modèle géométrique conforme à la norme ISO 19107: géométries complexes (par "
-"ex. courbes non linéaires)"
-
-#: ../../build/doc/overview/deegree_overview.rst:57
-msgid "Advanced filter expression support based on XPath 1.0"
-msgstr ""
-"Prise en charge avancée de l'expression des filtres basée sur XPath 1.0"
+"Modèle géométrique conforme à la norme ISO 19107: géométries complexes "
+"(par ex. courbes non linéaires)"
 
 #: ../../build/doc/overview/deegree_overview.rst:58
-msgid ""
-"Supports numerous backends, such as PostGIS, Oracle Spatial, MS SQL Server, "
-"Shapefiles or GML instance documents"
-msgstr ""
-"Prend en charge de nombreux backends, tels que PostGIS, Oracle Spatial, MS "
-"SQL Server, Shapefiles ou documents d'instance GML."
+msgid "Advanced filter expression support based on XPath 1.0"
+msgstr "Prise en charge avancée de l'expression des filtres basée sur XPath 1.0"
 
-#: ../../build/doc/overview/deegree_overview.rst:60
+#: ../../build/doc/overview/deegree_overview.rst:59
+msgid ""
+"Supports numerous backends, such as PostGIS, Oracle Spatial, MS SQL "
+"Server, Shapefiles or GML instance documents"
+msgstr ""
+"Prend en charge de nombreux backends, tels que PostGIS, Oracle Spatial, "
+"MS SQL Server, Shapefiles ou documents d'instance GML."
+
+#: ../../build/doc/overview/deegree_overview.rst:61
 msgid "**WMS**"
 msgstr "**WMS**"
 
-#: ../../build/doc/overview/deegree_overview.rst:62
+#: ../../build/doc/overview/deegree_overview.rst:63
 msgid "Implements WMS standards 1.1.1 and 1.3.0"
 msgstr "Implémente les standards WMS 1.1.1 et 1.3.0"
 
-#: ../../build/doc/overview/deegree_overview.rst:63
-msgid "Official OGC reference implementation for WMS 1.1.1 and WMS 1.1.1"
-msgstr ""
-
 #: ../../build/doc/overview/deegree_overview.rst:64
-msgid ""
-"Extensive support for styling languages SLD/SE versions 1.0.0 and 1.1.0"
+msgid "Official OGC reference implementation for WMS 1.1.1 and WMS 1.3.0"
 msgstr ""
-"Prise en charge étendue des langages de style SLD/SE versions 1.0.0 et 1.1.0"
 
-#: ../../build/doc/overview/deegree_overview.rst:66
+#: ../../build/doc/overview/deegree_overview.rst:65
+msgid "Extensive support for styling languages SLD/SE versions 1.0.0 and 1.1.0"
+msgstr ""
+"Prise en charge étendue des langages de style SLD/SE versions 1.0.0 et "
+"1.1.0"
+
+#: ../../build/doc/overview/deegree_overview.rst:67
 msgid "High quality rendering"
 msgstr "Rendu haute qualité"
 
-#: ../../build/doc/overview/deegree_overview.rst:67
+#: ../../build/doc/overview/deegree_overview.rst:68
 msgid "Scale dependent styling"
 msgstr "Style en fonction de l'échelle"
 
-#: ../../build/doc/overview/deegree_overview.rst:68
+#: ../../build/doc/overview/deegree_overview.rst:69
 msgid "Support for SE removes the need for a lot of proprietary extensions"
 msgstr ""
 "Le support de SE supprime le besoin d'un grand nombre d'extensions "
 "propriétaires"
 
-#: ../../build/doc/overview/deegree_overview.rst:69
+#: ../../build/doc/overview/deegree_overview.rst:70
 msgid ""
 "Easy configuration of HTML and other output formats for GetFeatureInfo "
 "responses"
 msgstr ""
-"Configuration facile du format HTML et d'autres formats de sortie pour les "
-"réponses GetFeatureInfo"
+"Configuration facile du format HTML et d'autres formats de sortie pour "
+"les réponses GetFeatureInfo"
 
-#: ../../build/doc/overview/deegree_overview.rst:70
+#: ../../build/doc/overview/deegree_overview.rst:71
 msgid "Uses stream-based data access with minimal memory footprint"
 msgstr "Utilise l’accès aux flux de données avec empreinte mémoire minimale"
 
-#: ../../build/doc/overview/deegree_overview.rst:71
+#: ../../build/doc/overview/deegree_overview.rst:72
 msgid ""
-"Nearly complete support for raster symbolizing as defined in SE (with some "
-"extensions)"
+"Nearly complete support for raster symbolizing as defined in SE (with "
+"some extensions)"
 msgstr ""
 "Prise en charge presque complète de la symbolisation raster telle que "
 "définie par SE (avec quelques extensions)"
 
-#: ../../build/doc/overview/deegree_overview.rst:72
-msgid ""
-"Complete support for TIME/ELEVATION and other dimensions for both feature "
-"and raster data"
-msgstr ""
-"Prise en charge complète de TIME/ELEVATION et d'autres dimensions pour les "
-"objets géographiques et les données raster"
-
 #: ../../build/doc/overview/deegree_overview.rst:73
 msgid ""
-"Supports numerous backends, such as PostGIS, Oracle Spatial, Shapefiles or "
-"GML instance documents"
+"Complete support for TIME/ELEVATION and other dimensions for both feature"
+" and raster data"
 msgstr ""
-"Supporte de nombreux backends, tels que PostGIS, Oracle Spatial, Shapefiles "
-"ou des documents d'instance GML."
+"Prise en charge complète de TIME/ELEVATION et d'autres dimensions pour "
+"les objets géographiques et les données raster"
 
 #: ../../build/doc/overview/deegree_overview.rst:74
+msgid ""
+"Supports numerous backends, such as PostGIS, Oracle Spatial, Shapefiles "
+"or GML instance documents"
+msgstr ""
+"Supporte de nombreux backends, tels que PostGIS, Oracle Spatial, "
+"Shapefiles ou des documents d'instance GML."
+
+#: ../../build/doc/overview/deegree_overview.rst:75
 msgid "Can render rich data models directly"
 msgstr "Peut faire des rendus de modèles de données riches directement"
 
-#: ../../build/doc/overview/deegree_overview.rst:76
+#: ../../build/doc/overview/deegree_overview.rst:77
 msgid "**WMTS**"
 msgstr "**WMTS**"
 
-#: ../../build/doc/overview/deegree_overview.rst:78
+#: ../../build/doc/overview/deegree_overview.rst:79
 msgid "Implements Basic WMTS standard 1.0.0 (KVP)"
 msgstr "Implémente le standard basique WMTS 1.0.0 (KVP)"
 
-#: ../../build/doc/overview/deegree_overview.rst:79
+#: ../../build/doc/overview/deegree_overview.rst:80
 msgid "Official OGC reference implementation for WMS 1.0.0"
 msgstr ""
 
-#: ../../build/doc/overview/deegree_overview.rst:81
-msgid ""
-"Supports different backends, such as GeoTIFF, remote WMS or file system tile"
-" image hierarchies"
-msgstr ""
-"Supporte différents backends, tels que les GeoTIFF, les WMS à distance ou "
-"les hiérarchies d'images de tuiles de système de fichiers."
-
 #: ../../build/doc/overview/deegree_overview.rst:82
+msgid ""
+"Supports different backends, such as GeoTIFF, remote WMS or file system "
+"tile image hierarchies"
+msgstr ""
+"Supporte différents backends, tels que les GeoTIFF, les WMS à distance ou"
+" les hiérarchies d'images de tuiles de système de fichiers."
+
+#: ../../build/doc/overview/deegree_overview.rst:83
 msgid "Supports on-the-fly caching (using EHCache)"
 msgstr "Supporte la mise en cache à la volée (en utilisant EHCache)"
 
-#: ../../build/doc/overview/deegree_overview.rst:83
+#: ../../build/doc/overview/deegree_overview.rst:84
 msgid "Supports GetFeatureInfo for remote WMS backends"
 msgstr "Supporte GetFeatureInfo pour des backends WMS distants"
 
-#: ../../build/doc/overview/deegree_overview.rst:85
+#: ../../build/doc/overview/deegree_overview.rst:86
 msgid "**CSW**"
 msgstr "**CSW**"
 
-#: ../../build/doc/overview/deegree_overview.rst:87
+#: ../../build/doc/overview/deegree_overview.rst:88
 msgid "Implements CSW standard 2.0.2"
 msgstr "Implémente le standard CSW 2.0.2"
 
-#: ../../build/doc/overview/deegree_overview.rst:88
+#: ../../build/doc/overview/deegree_overview.rst:89
 msgid "Fully transactional"
 msgstr "Complètement transactionnel"
 
-#: ../../build/doc/overview/deegree_overview.rst:91
+#: ../../build/doc/overview/deegree_overview.rst:92
 msgid "ISO Metadata Application Profile 1.0.0"
 msgstr "Profil d'application des métadonnées ISO 1.0.0"
 
-#: ../../build/doc/overview/deegree_overview.rst:92
-msgid ""
-"Pluggable and modular dataaccess layer allows to add support for new APs and"
-" backends"
-msgstr ""
-"La couche d'accès aux données enfichable et modulaire permet d'ajouter le "
-"support de nouveaux AP et backends."
-
 #: ../../build/doc/overview/deegree_overview.rst:93
+msgid ""
+"Pluggable and modular dataaccess layer allows to add support for new APs "
+"and backends"
+msgstr ""
+"La couche d'accès aux données enfichable et modulaire permet d'ajouter le"
+" support de nouveaux AP et backends."
+
+#: ../../build/doc/overview/deegree_overview.rst:94
 msgid ""
 "Modular inspector architecture allows to validate records to be inserted "
 "against various criteria"
@@ -278,43 +277,43 @@ msgstr ""
 "L'architecture modulaire de l'inspecteur permet de valider les "
 "enregistrements à insérer en fonction de différents critères"
 
-#: ../../build/doc/overview/deegree_overview.rst:94
+#: ../../build/doc/overview/deegree_overview.rst:95
 msgid ""
 "Standard inspectors: schema validity, identifier integrity, INSPIRE "
 "requirements"
 msgstr ""
-"Inspecteurs de standards: validité du schéma, intégrité de l'identificateur,"
-" exigences INSPIRE."
+"Inspecteurs de standards: validité du schéma, intégrité de "
+"l'identificateur, exigences INSPIRE."
 
-#: ../../build/doc/overview/deegree_overview.rst:95
+#: ../../build/doc/overview/deegree_overview.rst:96
 msgid ""
 "Handles all defined queryable properties (for Dublin Core as well as ISO "
 "profile)"
 msgstr ""
-"Gère toutes les propriétés interrogeables définies (pour Dublin Core ainsi "
-"que le profil ISO)"
+"Gère toutes les propriétés interrogeables définies (pour Dublin Core "
+"ainsi que le profil ISO)"
 
-#: ../../build/doc/overview/deegree_overview.rst:96
+#: ../../build/doc/overview/deegree_overview.rst:97
 msgid "Complex filter expressions"
 msgstr "Expressions de filtres complexes"
 
-#: ../../build/doc/overview/deegree_overview.rst:98
+#: ../../build/doc/overview/deegree_overview.rst:99
 msgid "**WPS**"
 msgstr "**WPS**"
 
-#: ../../build/doc/overview/deegree_overview.rst:100
+#: ../../build/doc/overview/deegree_overview.rst:101
 msgid "Implements WPS standard 1.0.0"
 msgstr "Implémente le standard WPS 1.0.0"
 
-#: ../../build/doc/overview/deegree_overview.rst:102
+#: ../../build/doc/overview/deegree_overview.rst:103
 msgid "Pluggable process provider layer"
 msgstr "Couche connectable pour fournisseur de traitement"
 
-#: ../../build/doc/overview/deegree_overview.rst:103
+#: ../../build/doc/overview/deegree_overview.rst:104
 msgid "Easy-to-use API for implementing Java processes"
 msgstr "API facile à utiliser pour implémenter des traitements Java"
 
-#: ../../build/doc/overview/deegree_overview.rst:104
+#: ../../build/doc/overview/deegree_overview.rst:105
 msgid ""
 "Supports all variants of input/output parameters: literal, bbox, complex "
 "(binary and xml)"
@@ -322,111 +321,113 @@ msgstr ""
 "Prise en charge de toutes les variantes des paramètres d'entrée/sortie: "
 "littérale, bbox, complexe (binaire et xml)"
 
-#: ../../build/doc/overview/deegree_overview.rst:105
+#: ../../build/doc/overview/deegree_overview.rst:106
 msgid "Streaming access for complex input/output parameters"
 msgstr "Accès par flux pour les paramètres d'entrée/sortie complexes"
 
-#: ../../build/doc/overview/deegree_overview.rst:106
+#: ../../build/doc/overview/deegree_overview.rst:107
 msgid "Processing of huge amounts of data with minimal memory footprint"
 msgstr ""
 "Traitement d'énormes quantités de données avec une empreinte mémoire "
 "minimale"
 
-#: ../../build/doc/overview/deegree_overview.rst:107
+#: ../../build/doc/overview/deegree_overview.rst:108
 msgid "Supports storing of response documents/output parameters"
 msgstr "Supporte le stockage des documents de réponse/paramètres de sortie"
 
-#: ../../build/doc/overview/deegree_overview.rst:108
+#: ../../build/doc/overview/deegree_overview.rst:109
 msgid "Supports input parameters given inline and by reference"
 msgstr "Supporte les paramètres d'entrée fournis 'inline' et par référence"
 
-#: ../../build/doc/overview/deegree_overview.rst:109
+#: ../../build/doc/overview/deegree_overview.rst:110
 msgid "Supports RawDataOutput/ResponseDocument responses"
 msgstr "Supporte des réponses RawDataOutput/ResponseDocument"
 
-#: ../../build/doc/overview/deegree_overview.rst:110
+#: ../../build/doc/overview/deegree_overview.rst:111
 msgid "Supports asynchronous execution (with polling of process status)"
 msgstr ""
-"supporte l'exécution asynchrone (avec interrogation du statut de traitement)"
+"supporte l'exécution asynchrone (avec interrogation du statut de "
+"traitement)"
 
-#: ../../build/doc/overview/deegree_overview.rst:113
+#: ../../build/doc/overview/deegree_overview.rst:114
 msgid "Implemented Standards"
 msgstr "Standards implémentés"
 
-#: ../../build/doc/overview/deegree_overview.rst:115
+#: ../../build/doc/overview/deegree_overview.rst:116
 msgid "|WFS| 1.0.0, 1.1.0 and 2.0.0"
 msgstr "|WFS| 1.0.0, 1.1.0 et 2.0.0"
 
-#: ../../build/doc/overview/deegree_overview.rst:116
+#: ../../build/doc/overview/deegree_overview.rst:117
 msgid "|WMS| 1.1.1 and 1.3.0"
 msgstr "|WMS| 1.1.1 et 1.3.0"
 
-#: ../../build/doc/overview/deegree_overview.rst:117
+#: ../../build/doc/overview/deegree_overview.rst:118
 msgid "|WMTS| 1.1.0"
 msgstr "|WMTS| 1.1.0"
 
-#: ../../build/doc/overview/deegree_overview.rst:118
+#: ../../build/doc/overview/deegree_overview.rst:119
 msgid "|CSW| 2.0.2"
 msgstr ""
 
-#: ../../build/doc/overview/deegree_overview.rst:119
+#: ../../build/doc/overview/deegree_overview.rst:120
 msgid "|WPS| 1.0.0"
 msgstr "|WPS| 1.0.0"
 
-#: ../../build/doc/overview/deegree_overview.rst:120
+#: ../../build/doc/overview/deegree_overview.rst:121
 msgid "|GML| 2.12, 3.0.1, 3.1.1 and 3.2.1"
 msgstr "|GML| 2.12, 3.0.1, 3.1.1 et 3.2.1"
 
-#: ../../build/doc/overview/deegree_overview.rst:123
+#: ../../build/doc/overview/deegree_overview.rst:124
 msgid "Details"
 msgstr "Détails"
 
-#: ../../build/doc/overview/deegree_overview.rst:125
+#: ../../build/doc/overview/deegree_overview.rst:126
 msgid "**Website:** http://www.deegree.org"
 msgstr "**Site web:** http://www.deegree.org"
 
-#: ../../build/doc/overview/deegree_overview.rst:127
+#: ../../build/doc/overview/deegree_overview.rst:128
 msgid "**Licence:** GNU Lesser General Public License, Version 2.1 (LGPL 2.1)"
 msgstr ""
 
-#: ../../build/doc/overview/deegree_overview.rst:129
+#: ../../build/doc/overview/deegree_overview.rst:130
 msgid "**Software Version:** |version-deegree|"
 msgstr "**Version du logiciel:** |version-deegree|"
 
-#: ../../build/doc/overview/deegree_overview.rst:131
+#: ../../build/doc/overview/deegree_overview.rst:132
 msgid "**Supported Platforms:** Windows, Linux"
 msgstr "**Plates-formes supportées:** Windows, Linux"
 
-#: ../../build/doc/overview/deegree_overview.rst:133
+#: ../../build/doc/overview/deegree_overview.rst:134
 msgid "**API Interfaces:** Java"
 msgstr "**Interface de l'API:** Java"
 
-#: ../../build/doc/overview/deegree_overview.rst:135
+#: ../../build/doc/overview/deegree_overview.rst:136
 msgid "**Support:** https://www.deegree.org/community"
 msgstr "**Support:** https://www.deegree.org/community"
 
-#: ../../build/doc/overview/deegree_overview.rst:141
+#: ../../build/doc/overview/deegree_overview.rst:142
 msgid "Quickstart"
 msgstr "Guide de démarrage rapide"
 
-#: ../../build/doc/overview/deegree_overview.rst:143
+#: ../../build/doc/overview/deegree_overview.rst:144
 msgid ":doc:`Quickstart documentation <../quickstart/deegree_quickstart>`"
 msgstr ""
 ":doc:`Documentation du guide de démarrage rapide "
 "<../quickstart/deegree_quickstart>`"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr "Pas de logo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "Projet OSGeo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "Communauté OSGeo"
+

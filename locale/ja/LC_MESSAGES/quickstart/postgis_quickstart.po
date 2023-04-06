@@ -1,26 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Ko Nagase <nagase@georepublic.co.jp>, 2022
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-01 17:51+0000\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
 "PO-Revision-Date: 2017-09-20 16:04+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2022\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: ja\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)"
+"\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:39
 msgid "PostGIS Quickstart"
@@ -28,11 +29,11 @@ msgstr "PostGIS クイックスタート"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:41
 msgid ""
-"PostGIS adds spatial capabilities to the PostgreSQL relational database. It "
-"extends PostgreSQL so it can store, query, and manipulate spatial data. In "
-"this Quickstart we will use 'PostgreSQL' when describing general database "
-"functions, and 'PostGIS' when describing the additional spatial "
-"functionality provided by PostGIS."
+"PostGIS adds spatial capabilities to the PostgreSQL relational database. "
+"It extends PostgreSQL so it can store, query, and manipulate spatial "
+"data. In this Quickstart we will use 'PostgreSQL' when describing general"
+" database functions, and 'PostGIS' when describing the additional spatial"
+" functionality provided by PostGIS."
 msgstr ""
 "PostGISは、PostgreSQLリレーショナルデータベースに空間機能を追加します。PostgreSQLを拡張して、空間データを格納、問い合わせ、操作できるようにします。このクイックスタートでは、一般的なデータベース関数を記述する場合は"
 " 'PostgreSQL' を使用し、PostGISによって提供される追加の空間機能を記述する場合は 'PostGIS' を使用します。"
@@ -64,21 +65,20 @@ msgstr "クライアント/サーバ・アーキテクチャ"
 #: ../../build/doc/quickstart/postgis_quickstart.rst:58
 msgid ""
 "PostgreSQL, like many databases, works as a server in a client-server "
-"system. The client makes a request to the server and gets back a response. "
-"This is the same way that the internet works - your browser is a client and "
-"a web server sends back the web page. With PostgreSQL the requests are in "
-"the SQL language and the response is usually a table of data from the "
-"database."
-msgstr ""
-"PostgreSQLは、多くのデータベースと同様に、クライアント/サーバシステムのサーバとして機能します。クライアントはサーバーに要求を行い、応答を受け取ります。これは、インターネットが動作するのと同じ方法です。つまり、ブラウザがクライアントで、WebサーバはWebページを送り返します。PostgreSQLでは、要求はSQL言語で行われ、応答は通常データベースからのデータのテーブルです。"
+"system. The client makes a request to the server and gets back a "
+"response. This is the same way that the internet works - your browser is "
+"a client and a web server sends back the web page. With PostgreSQL the "
+"requests are in the SQL language and the response is usually a table of "
+"data from the database."
+msgstr "PostgreSQLは、多くのデータベースと同様に、クライアント/サーバシステムのサーバとして機能します。クライアントはサーバーに要求を行い、応答を受け取ります。これは、インターネットが動作するのと同じ方法です。つまり、ブラウザがクライアントで、WebサーバはWebページを送り返します。PostgreSQLでは、要求はSQL言語で行われ、応答は通常データベースからのデータのテーブルです。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:64
 msgid ""
 "There is nothing to stop the server being on the same computer as the "
 "client, and this enables you to use PostgreSQL on a single machine. Your "
 "client connects to the server via the internal 'loopback' network "
-"connection, and is not visible to other computers unless you configure it to"
-" be so."
+"connection, and is not visible to other computers unless you configure it"
+" to be so."
 msgstr ""
 "サーバがクライアントと同じコンピュータ上にあることを止めるものは何もありません。これにより、単一のマシン上でPostgreSQLを使用することができます。クライアントは、内部の"
 " 'ループバック' ネットワーク接続を介してサーバに接続し、そのように設定しない限り、他のコンピュータからは見えません。"
@@ -93,11 +93,10 @@ msgstr "コマンドラインクライアントは、ターミナルエミュレ
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:74
 msgid ""
-"Start a Terminal Emulator (LXTerminal currently) from the Applications menu "
-"in the Accessories section. This gives you a Unix shell command prompt. "
-"Type::"
-msgstr ""
-"「システムツール」メニューからターミナルエミュレータ(現在はLXTerminal)を起動します。これにより、Unixシェルのコマンドプロンプトが表示されます。以下を入力し::"
+"Start a Terminal Emulator (LXTerminal currently) from the Applications "
+"menu in the Accessories section. This gives you a Unix shell command "
+"prompt. Type::"
+msgstr "「システムツール」メニューからターミナルエミュレータ(現在はLXTerminal)を起動します。これにより、Unixシェルのコマンドプロンプトが表示されます。以下を入力し::"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:78
 msgid "and hit enter to see the PostgreSQL version number."
@@ -107,10 +106,9 @@ msgstr "Enterを押してPostgreSQLのバージョン番号を確認します。
 msgid ""
 "A single PostgreSQL server lets you organise work by arranging it into "
 "separate databases. Each database is an independent regime, with its own "
-"tables, views, users and so on. When you connect to a PostgreSQL server you "
-"have to specify a database."
-msgstr ""
-"単一のPostgreSQLサーバでは、作業を別々のデータベースに整理することができます。各データベースは、独自のテーブル、ビュー、ユーザなどを持つ独立したシステムです。PostgreSQLサーバに接続する場合、データベースを指定する必要があります。"
+"tables, views, users and so on. When you connect to a PostgreSQL server "
+"you have to specify a database."
+msgstr "単一のPostgreSQLサーバでは、作業を別々のデータベースに整理することができます。各データベースは、独自のテーブル、ビュー、ユーザなどを持つ独立したシステムです。PostgreSQLサーバに接続する場合、データベースを指定する必要があります。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:85
 msgid "You can get a list of databases on the server with the::"
@@ -118,23 +116,23 @@ msgstr "次のコマンドを使用すると、サーバ上のデータベース
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:89
 msgid ""
-"command. You should see several databases used by some of the projects on "
-"the system. We will create a new one for this quickstart."
+"command. You should see several databases used by some of the projects on"
+" the system. We will create a new one for this quickstart."
 msgstr ". システム上の一部のプロジェクトで使用されている複数のデータベースが表示されます。このクイックスタート用に新しいものを作成します。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:93
 msgid ""
-"The list uses a standard unix pager - hit space for next page, :kbd:`b` to "
-"go back, :kbd:`q` to quit, h for help."
+"The list uses a standard unix pager - hit space for next page, :kbd:`b` "
+"to go back, :kbd:`q` to quit, h for help."
 msgstr ""
-"このリストでは標準的なUNIXのページャの使いかたを示します - スペースで次のページ、 :kbd:`b` は戻る、 :kbd:`q` は終了、h "
-"はヘルプを表示します。"
+"このリストでは標準的なUNIXのページャの使いかたを示します - スペースで次のページ、 :kbd:`b` は戻る、 :kbd:`q` は終了、h"
+" はヘルプを表示します。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:96
 msgid ""
-"PostgreSQL gives us a utility program for creating databases, ``createdb``. "
-"We need to create a database before adding the PostGIS extensions. We'll "
-"call our database ``demo``. The command is then:"
+"PostgreSQL gives us a utility program for creating databases, "
+"``createdb``. We need to create a database before adding the PostGIS "
+"extensions. We'll call our database ``demo``. The command is then:"
 msgstr ""
 "PostgreSQLは、データベースを作成するためのユーティリティプログラム ``createdb`` "
 "を提供します。PostGIS拡張を追加する前に、データベースを作成する必要があります。私たちのデータベースを ``demo`` "
@@ -157,42 +155,42 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:111
 msgid ""
-"You can create PostGIS databases using the SQL language. First we'll delete "
-"the database we just created using the ``dropdb`` command, then use the "
-"``psql`` command to get an SQL command interpreter:"
+"You can create PostGIS databases using the SQL language. First we'll "
+"delete the database we just created using the ``dropdb`` command, then "
+"use the ``psql`` command to get an SQL command interpreter:"
 msgstr ""
 "PostGISデータベースは、SQL言語を使用して作成できます。最初に ``dropdb`` コマンドを使って作成したデータベースを削除し、次に "
 "``psql`` コマンドを使ってSQLコマンドインタプリタを取得します。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:120
 msgid ""
-"This connects to the core system database called ``postgres``. Now enter the"
-" SQL to create a new database:"
+"This connects to the core system database called ``postgres``. Now enter "
+"the SQL to create a new database:"
 msgstr "これは ``postgres`` と呼ばれるコアシステムデータベースに接続します。次に、SQLを入力して新しいデータベースを作成します。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:127
 msgid ""
 "Now switch your connection from the ``postgres`` database to the new "
-"``demo`` database. In the future you can connect to it directly with ``psql "
-"-d demo``, but here's a neat way of switching within the ``psql`` command "
-"line:"
+"``demo`` database. In the future you can connect to it directly with "
+"``psql -d demo``, but here's a neat way of switching within the ``psql`` "
+"command line:"
 msgstr ""
-"``postgres`` データベースから新しい ``demo`` データベースに接続を切り替えます。将来的には ``psql -d demo`` "
-"で直接接続することもできますが、 ``psql`` コマンドラインで切り替えるには、次のような便利な方法があります。"
+"``postgres`` データベースから新しい ``demo`` データベースに接続を切り替えます。将来的には ``psql -d demo``"
+" で直接接続することもできますが、 ``psql`` コマンドラインで切り替えるには、次のような便利な方法があります。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:137
 msgid ""
-"Hit :kbd:`CTRL` + :kbd:`C` if the psql prompt keeps appearing after pressing"
-" return. It will clear your input and start again. It is probably waiting "
-"for a closing quote mark, semicolon, or something."
+"Hit :kbd:`CTRL` + :kbd:`C` if the psql prompt keeps appearing after "
+"pressing return. It will clear your input and start again. It is probably"
+" waiting for a closing quote mark, semicolon, or something."
 msgstr ""
 "returnを押してもpsqlプロンプトが表示され続ける場合は、 :kbd:`CTRL` + :kbd:`C` "
 "を押します。入力がクリアされ、再び起動します。おそらく、閉じる引用符やセミコロンなどを待っているのでしょう。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:140
 msgid ""
-"You should see an informational message, and the prompt will change to show "
-"that you are now connected to the ``demo`` database."
+"You should see an informational message, and the prompt will change to "
+"show that you are now connected to the ``demo`` database."
 msgstr "情報メッセージが表示され、 ``demo`` データベースに接続したことを示すプロンプトが表示されます。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:143
@@ -209,19 +207,19 @@ msgstr "PostGISは、多くの関数、テーブル、および複数のビュ�
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:164
 msgid ""
-"Type ``\\dt`` to list the tables in the database. You should see something "
-"like this:"
+"Type ``\\dt`` to list the tables in the database. You should see "
+"something like this:"
 msgstr "``\\dt`` と入力し、データベース内のテーブルを一覧表示します。次のように表示されます。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:176
 msgid ""
 "The ``spatial_ref_sys`` table is used by PostGIS for converting between "
-"different spatial reference systems. The ``spatial_ref_sys`` table stores "
-"information on valid spatial reference systems, and we can use some SQL to "
-"have a quick look:"
+"different spatial reference systems. The ``spatial_ref_sys`` table stores"
+" information on valid spatial reference systems, and we can use some SQL "
+"to have a quick look:"
 msgstr ""
-"``spatial_ref_sys`` テーブルは、PostGISが異なる空間参照システム間の変換に使用します。 ``spatial_ref_sys``"
-" テーブルには、有効な空間参照システムに関する情報が格納されています。SQLを使用して簡単に確認できます。"
+"``spatial_ref_sys`` テーブルは、PostGISが異なる空間参照システム間の変換に使用します。 "
+"``spatial_ref_sys`` テーブルには、有効な空間参照システムに関する情報が格納されています。SQLを使用して簡単に確認できます。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:198
 msgid "This confirms we have a spatially-enabled database."
@@ -229,14 +227,14 @@ msgstr "これにより、空間的に有効なデータベースがあること
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:200
 msgid ""
-"In addition to this table, you'll find several views created when you enable"
-" postgis in your database."
+"In addition to this table, you'll find several views created when you "
+"enable postgis in your database."
 msgstr "この表に加えて、データベースでpostgisを有効にしたときに作成されるいくつかのビューがあります。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:202
 msgid ""
-"Type ``\\dv`` to list the views in the database. You should see something "
-"like this:"
+"Type ``\\dv`` to list the views in the database. You should see something"
+" like this:"
 msgstr "``\\dv`` と入力すると、データベース内のビューの一覧が表示されます。次のように表示されます。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:217
@@ -257,8 +255,8 @@ msgstr "`geography` - 回転楕円面上に描かれたベクトルとしてデ�
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:224
 msgid ""
-"`raster` - is a data type that stores data as an n-dimensional matrix where "
-"each position (pixel) represents"
+"`raster` - is a data type that stores data as an n-dimensional matrix "
+"where each position (pixel) represents"
 msgstr "`raster` - データをn次元の行列として格納するデータ型で、各位置(ピクセル)は"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:224
@@ -270,8 +268,8 @@ msgstr "空間の領域を示し、各バンド(次元)は各ピクセル空間�
 #: ../../build/doc/quickstart/postgis_quickstart.rst:226
 msgid ""
 "The ``geometry_columns``, ``geography_columns``, and ``raster_columns`` "
-"views have the job of telling PostGIS which tables have PostGIS geometry, "
-"geography, and raster columns."
+"views have the job of telling PostGIS which tables have PostGIS geometry,"
+" geography, and raster columns."
 msgstr ""
 "``geometry_columns`` と、``geography_columns``、``raster_columns`` "
 "ビューは、PostGISのジオメトリ、地理、およびラスター列を持つテーブルをPostGIS に伝える役割をもっています。"
@@ -279,9 +277,10 @@ msgstr ""
 #: ../../build/doc/quickstart/postgis_quickstart.rst:229
 msgid ""
 "Overviews are lower resolution tables for raster data. The "
-"``raster_overviews`` lists such tables and their raster column and the table"
-" each is an overview for. Raster overview tables are used by tools such as "
-"QGIS to provide lower resolution versions of raster data for faster loading."
+"``raster_overviews`` lists such tables and their raster column and the "
+"table each is an overview for. Raster overview tables are used by tools "
+"such as QGIS to provide lower resolution versions of raster data for "
+"faster loading."
 msgstr ""
 "概要(Overviews)は、ラスタデータの低解像度テーブルです。``raster_overviews`` "
 "このようなテーブルとそのラスタ列がリストされ、それぞれのテーブルが概要を示しています。ラスタ概要テーブルは、QGISなどのツールで使用され、ラスタデータの低解像度バージョンを提供して、読み込みを高速化します。"
@@ -303,19 +302,18 @@ msgstr "これで空間データベースが完成し、空間テーブルを作
 #: ../../build/doc/quickstart/postgis_quickstart.rst:243
 msgid ""
 "First we create an ordinary database table to store some city data. This "
-"table has three fields - one for a numeric ID identifying the city, one for "
-"the city name, and another for the geometry column:"
-msgstr ""
-"まず、都市データを保存するための通常のデータベーステーブルを作成します。このテーブルには3つのフィールドがあります。1つは都市を識別する数値ID用、1つは都市名用、もう1つはジオメトリ列用です。"
+"table has three fields - one for a numeric ID identifying the city, one "
+"for the city name, and another for the geometry column:"
+msgstr "まず、都市データを保存するための通常のデータベーステーブルを作成します。このテーブルには3つのフィールドがあります。1つは都市を識別する数値ID用、1つは都市名用、もう1つはジオメトリ列用です。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:251
 msgid ""
 "Conventionally this geometry column is named ``geom`` (the older PostGIS "
-"convention was ``the_geom``). This tells PostGIS what kind of geometry each "
-"feature has (points, lines, polygons etc), how many dimensions (in this case"
-" 2, if it had 3 or 4 dimensions we would use POINTZ, POINTM, or POINTZM), "
-"and the spatial reference system. We used EPSG:4326 coordinates for our "
-"cities."
+"convention was ``the_geom``). This tells PostGIS what kind of geometry "
+"each feature has (points, lines, polygons etc), how many dimensions (in "
+"this case 2, if it had 3 or 4 dimensions we would use POINTZ, POINTM, or "
+"POINTZM), and the spatial reference system. We used EPSG:4326 coordinates"
+" for our cities."
 msgstr ""
 "従来、このジオメトリカラムには ``geom`` という名前(古いPostGISでは ``the_geom`` "
 "でした)を使います。これにより、PostGISに、各フィーチャが持つジオメトリの種類(ポイント、ライン、ポリゴンなど)、次元の数(この場合は2、次元が3または4の場合はPOINTZ、POINTM、またはPOINTZMを使用)、および空間参照システムが通知されます。私たちの都市には、EPSG:4326座標を使用しました。"
@@ -329,8 +327,8 @@ msgstr "citiesテーブルをチェックすると、新しい列が表示され
 #: ../../build/doc/quickstart/postgis_quickstart.rst:268
 msgid ""
 "To add rows to the table we use some SQL statements. To get the geometry "
-"into the geometry column we use the PostGIS ``ST_GeomFromText`` function to "
-"convert from a text format that gives the coordinates and a spatial "
+"into the geometry column we use the PostGIS ``ST_GeomFromText`` function "
+"to convert from a text format that gives the coordinates and a spatial "
 "reference system id:"
 msgstr ""
 "テーブルに行を追加するには、いくつかのSQL文を使用します。ジオメトリ列にジオメトリを取得するには、PostGISの "
@@ -342,11 +340,10 @@ msgstr "矢印キーを使用して、コマンドラインを呼び出したり
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:281
 msgid ""
-"As you can see this gets increasingly tedious very quickly. Luckily there "
-"are other ways of getting data into PostGIS tables that are much easier. But"
-" now we have three cities in our database, and we can work with that."
-msgstr ""
-"ご覧のように、これは非常に時間のかかる作業になります。幸いなことに、PostGISテーブルにデータを取り込む方法は他にもあり、その方がずっと簡単です。しかし今では3つの都市がデータベースに登録されています。"
+"As you can see this gets increasingly tedious very quickly. Luckily there"
+" are other ways of getting data into PostGIS tables that are much easier."
+" But now we have three cities in our database, and we can work with that."
+msgstr "ご覧のように、これは非常に時間のかかる作業になります。幸いなことに、PostGISテーブルにデータを取り込む方法は他にもあり、その方がずっと簡単です。しかし今では3つの都市がデータベースに登録されています。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:287
 msgid "Simple queries"
@@ -354,8 +351,8 @@ msgstr "単純なクエリー"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:289
 msgid ""
-"All the usual SQL operations can be applied to select data from a PostGIS "
-"table:"
+"All the usual SQL operations can be applied to select data from a PostGIS"
+" table:"
 msgstr "通常のすべてのSQL操作を適用して、PostGISテーブルからデータを選択できます。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:301
@@ -366,11 +363,10 @@ msgstr "これにより、座標のエンコードされた16進数バージョ�
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:303
 msgid ""
-"If you want to have a look at your geometry in WKT format again, you can use"
-" the functions ST_AsText(geom) or ST_AsEwkt(geom). You can also use "
+"If you want to have a look at your geometry in WKT format again, you can "
+"use the functions ST_AsText(geom) or ST_AsEwkt(geom). You can also use "
 "ST_X(geom), ST_Y(geom) to get the numeric value of the coordinates:"
-msgstr ""
-"ジオメトリを再びWKT形式で表示する場合は、関数ST_AsText(geom)またはST_AsEwkt(geom)を使用できます。ST_X(geom)、ST_Y(geom)を使用して、座標の数値を取得することもできます。"
+msgstr "ジオメトリを再びWKT形式で表示する場合は、関数ST_AsText(geom)またはST_AsEwkt(geom)を使用できます。ST_X(geom)、ST_Y(geom)を使用して、座標の数値を取得することもできます。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:320
 msgid "Spatial queries"
@@ -378,23 +374,22 @@ msgstr "空間クエリー"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:322
 msgid ""
-"PostGIS adds many functions with spatial functionality to PostgreSQL. We've "
-"already seen ST_GeomFromText which converts WKT to geometry. Most of them "
-"start with ST (for spatial type) and are listed in a section of the PostGIS "
-"documentation. We'll now use one to answer a practical question - how far "
-"are these three Londons away from each other, in metres, assuming a "
-"spherical earth?"
-msgstr ""
-"PostGISはPostgreSQLに空間機能を持つ多くの関数を追加します。WKTをジオメトリに変換するST_GeomFromTextについては、すでに説明しました。そのほとんどはST(空間タイプ)で始まり、PostGISドキュメントのセクションにリストされています。ここでは、球形の地球を仮定して、これら3つのロンドンの場所が互いにどのくらい離れているのかという現実的な疑問に答えるために1つを使うことにしましょう。"
+"PostGIS adds many functions with spatial functionality to PostgreSQL. "
+"We've already seen ST_GeomFromText which converts WKT to geometry. Most "
+"of them start with ST (for spatial type) and are listed in a section of "
+"the PostGIS documentation. We'll now use one to answer a practical "
+"question - how far are these three Londons away from each other, in "
+"metres, assuming a spherical earth?"
+msgstr "PostGISはPostgreSQLに空間機能を持つ多くの関数を追加します。WKTをジオメトリに変換するST_GeomFromTextについては、すでに説明しました。そのほとんどはST(空間タイプ)で始まり、PostGISドキュメントのセクションにリストされています。ここでは、球形の地球を仮定して、これら3つのロンドンの場所が互いにどのくらい離れているのかという現実的な疑問に答えるために1つを使うことにしましょう。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:339
 msgid ""
-"This gives us the distance, in metres, between each pair of cities. Notice "
-"how the 'WHERE' part of the line stops us getting back distances of a city "
-"to itself (which will all be zero) or the reverse distances to the ones in "
-"the table above (London, England to London, Ontario is the same distance as "
-"London, Ontario to London, England). Try it without the 'WHERE' part and see"
-" what happens."
+"This gives us the distance, in metres, between each pair of cities. "
+"Notice how the 'WHERE' part of the line stops us getting back distances "
+"of a city to itself (which will all be zero) or the reverse distances to "
+"the ones in the table above (London, England to London, Ontario is the "
+"same distance as London, Ontario to London, England). Try it without the "
+"'WHERE' part and see what happens."
 msgstr ""
 "これにより、都市間の距離がメートル単位でわかります。SQL行の 'WHERE' "
 "部分が、都市からそれ自体までの距離(すべて0)または上記の表の逆方向の距離(英国ロンドンからオンタリオロンドンまでは、オンタリオロンドンからイギリスロンドンまでと同じ距離)を取得するのを停止することに注意してください。"
@@ -421,28 +416,28 @@ msgstr "マッピング"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:377
 msgid ""
-"To produce a map from PostGIS data, you need a client that can get at the "
-"data. Most of the open source desktop GIS programs can do this - QGIS, "
+"To produce a map from PostGIS data, you need a client that can get at the"
+" data. Most of the open source desktop GIS programs can do this - QGIS, "
 "gvSIG, uDig for example. Now we'll show you how to make a map from QGIS."
-msgstr ""
-"PostGISデータからマップを作成するには、データを取得できるクライアントが必要です。QGIS、gvSIG、uDigなど、オープンソースのデスクトップGISプログラムのほとんどがこれを実行できます。では、QGISから地図を作る方法を説明しましょう。"
+msgstr "PostGISデータからマップを作成するには、データを取得できるクライアントが必要です。QGIS、gvSIG、uDigなど、オープンソースのデスクトップGISプログラムのほとんどがこれを実行できます。では、QGISから地図を作る方法を説明しましょう。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:381
 msgid ""
-"Start QGIS from the Desktop GIS menu and choose ``Add PostGIS layers`` from "
-"the layer menu. The parameters for connecting to the Natural Earth data in "
-"PostGIS are already defined in the Connections drop-down menu. You can "
-"define new server connections here, and store the settings for easy recall. "
-"Click on Connections drop down menu and choose Natural Earth. Hit ``Edit`` "
-"if you want to see what those parameters are for Natural Earth, or just hit "
-"``Connect`` to continue:"
+"Start QGIS from the Desktop GIS menu and choose ``Add PostGIS layers`` "
+"from the layer menu. The parameters for connecting to the Natural Earth "
+"data in PostGIS are already defined in the Connections drop-down menu. "
+"You can define new server connections here, and store the settings for "
+"easy recall. Click on Connections drop down menu and choose Natural "
+"Earth. Hit ``Edit`` if you want to see what those parameters are for "
+"Natural Earth, or just hit ``Connect`` to continue:"
 msgstr ""
-"デスクトップGISメニューからQGISを起動し、レイヤメニューから ``PostGISレイヤを追加`` を選択します。PostGISでNatural "
+"デスクトップGISメニューからQGISを起動し、レイヤメニューから ``PostGISレイヤを追加`` "
+"を選択します。PostGISでNatural "
 "Earthデータに接続するためのパラメータは、[接続]ドロップダウンメニューで既に定義されています。ここで新しいサーバ接続を定義し、簡単に呼び出せるように設定を保存できます。[接続]ドロップダウンメニューをクリックし、[Natural"
 " Earth]を選択します。これらのパラメータがNatural Earthのパラメータであることを確認するには、 ``[編集]`` "
 "をクリックします。続行するには、 ``[接続]`` をクリックします。"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+#: ../../build/doc/quickstart/postgis_quickstart.rst:-1
 msgid "Connect to Natural Earth"
 msgstr "Natural Earthへの接続"
 
@@ -450,28 +445,29 @@ msgstr "Natural Earthへの接続"
 msgid "You will now get a list of the spatial tables in the database:"
 msgstr "データベース内の空間テーブルのリストが表示されます:"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+#: ../../build/doc/quickstart/postgis_quickstart.rst:-1
 msgid "Natural Earth Layers"
 msgstr "Natural Earthレイヤ"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:399
 msgid ""
-"Choose the ne_10m_lakes table and hit ``Add`` at the bottom (not ``Load`` at"
-" the top - that loads database connection parameters), and it should be "
-"loaded into QGIS:"
+"Choose the ne_10m_lakes table and hit ``Add`` at the bottom (not ``Load``"
+" at the top - that loads database connection parameters), and it should "
+"be loaded into QGIS:"
 msgstr ""
-"ne_10m_lakesテーブルを選択し、一番下にある ``[追加]`` をクリックします(データベース接続パラメータをロードする ``[読み込み]``"
-" をクリックするのではなく)。QGISにロードする必要があります。"
+"ne_10m_lakesテーブルを選択し、一番下にある ``[追加]`` をクリックします(データベース接続パラメータをロードする "
+"``[読み込み]`` をクリックするのではなく)。QGISにロードする必要があります。"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+#: ../../build/doc/quickstart/postgis_quickstart.rst:-1
 msgid "My First PostGIS layer"
 msgstr "最初のPostGISレイヤ"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:408
 msgid ""
-"You should now see a map of the lakes. QGIS doesn't know they are lakes, so "
-"might not colour them blue for you - use the QGIS documentation to work out "
-"how to change this. Zoom in to a famous group of lakes in Canada."
+"You should now see a map of the lakes. QGIS doesn't know they are lakes, "
+"so might not colour them blue for you - use the QGIS documentation to "
+"work out how to change this. Zoom in to a famous group of lakes in "
+"Canada."
 msgstr ""
 "これで湖の地図が表示されます。QGISはそれらが湖であることを知らないので、あなたのためにそれらを青にしないかもしれません - "
 "QGISドキュメントを参照して、これを変更する方法を調べてください。カナダの有名な湖のグループを拡大表示します。"
@@ -482,9 +478,9 @@ msgstr "空間データをデータベースに読み込む"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:416
 msgid ""
-"Most of the OSGeo desktop tools have functions for importing spatial data "
-"from other formats (f.e. ESRI Shape) into the database. Again we'll use QGIS"
-" to show this."
+"Most of the OSGeo desktop tools have functions for importing spatial data"
+" from other formats (f.e. ESRI Shape) into the database. Again we'll use "
+"QGIS to show this."
 msgstr ""
 "ほとんどのOSGeoデスクトップツールには、他の形式(例 ESRI "
 "Shape)から空間データをデータベースに読み込むための機能があります。ここでもQGISを使って説明します"
@@ -492,32 +488,33 @@ msgstr ""
 #: ../../build/doc/quickstart/postgis_quickstart.rst:418
 msgid ""
 "Importing shapefiles to QGIS can be done via the handy QGIS Database "
-"Manager. You find the manager in the menu. Go to ``Database -> DB Manager``."
+"Manager. You find the manager in the menu. Go to ``Database -> DB "
+"Manager``."
 msgstr ""
-"シェープファイルをQGISに読み込むには、QGISデータベースマネージャを使用します。マネージャーはメニューにあります。``Database -> DB"
-" Manager`` に移動します。"
+"シェープファイルをQGISに読み込むには、QGISデータベースマネージャを使用します。マネージャーはメニューにあります。``Database ->"
+" DB Manager`` に移動します。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:420
 msgid ""
-"Deploys the Postgis item, then the NaturalEarth item. It will then  connect "
-"to the Natural Earth database. Leave the password blank if it asks. In the "
-"public item, there is the list of the layers provided by the database. "
-"You'll see the main manager window. On the left you can select tables from "
-"the database and use the tabs on the right find out about them. The Preview "
-"tab will show you a little map."
+"Deploys the Postgis item, then the NaturalEarth item. It will then  "
+"connect to the Natural Earth database. Leave the password blank if it "
+"asks. In the public item, there is the list of the layers provided by the"
+" database. You'll see the main manager window. On the left you can select"
+" tables from the database and use the tabs on the right find out about "
+"them. The Preview tab will show you a little map."
 msgstr ""
 "Postgisアイテムを展開し、次にNaturalEarthアイテムを展開します。その後、Natural "
 "Earthデータベースに接続します。パスワードを確認するメッセージが表示されたら、空白のままにします。パブリックアイテムには、データベースによって提供されるレイヤのリストがあります。メインマネージャウィンドウが表示されます。左側では、データベースからテーブルを選択し、右側のタブを使用してテーブルについて調べることができます。[プレビュー]タブに小さなマップが表示されます。"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+#: ../../build/doc/quickstart/postgis_quickstart.rst:-1
 msgid "QGIS Manager Preview"
 msgstr "QGISマネージャプレビュー"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:430
 msgid ""
 "We will now use the DB Manager to import a shapefile into the database. "
-"We'll use the North Carolina sudden infant death syndrome (SIDS) data that "
-"is included with one of the R statistics package add-ons."
+"We'll use the North Carolina sudden infant death syndrome (SIDS) data "
+"that is included with one of the R statistics package add-ons."
 msgstr ""
 "次に、DBマネージャを使用して、シェープファイルをデータベースにインポートします。ここでは、R Statistics "
 "Packageアドオンの1つに含まれているNorth Carolina Sudden Infant Death "
@@ -526,14 +523,14 @@ msgstr ""
 #: ../../build/doc/quickstart/postgis_quickstart.rst:434
 msgid ""
 "From the ``Table`` menu choose the ``Import layer/file`` option. Hit the "
-"``...`` button and browse to the ``sids.shp`` shapefile in the R directory. "
-"(located in /home/user/data/vector/R/shapes):"
+"``...`` button and browse to the ``sids.shp`` shapefile in the R "
+"directory. (located in /home/user/data/vector/R/shapes):"
 msgstr ""
 "``Table`` メニューから ``Import layer/file`` オプションを選択します。``...`` ボタンを押して、R "
 "ディレクトリにある ``sids.shp`` シェープファイルを参照します。(/home/user/data/vector/R/shapes "
 "にあります):"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+#: ../../build/doc/quickstart/postgis_quickstart.rst:-1
 msgid "Find the shapefile"
 msgstr "シェープファイルを見つける"
 
@@ -541,15 +538,16 @@ msgstr "シェープファイルを見つける"
 msgid "Leave everything else as it is and hit ``Load``"
 msgstr "他のものはすべてそのままにして、 ``Load`` を押します。"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+#: ../../build/doc/quickstart/postgis_quickstart.rst:-1
 msgid "Import a shapefile"
 msgstr "シェープファイルのインポート"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:450
 msgid ""
-"Let the Coordinate Reference System Selector default to (WGS 84 EPSG:4326) "
-"and hit ``OK``. The shapefile should be imported into PostGIS with no "
-"errors. Close the DB Manager and get back to the main QGIS window."
+"Let the Coordinate Reference System Selector default to (WGS 84 "
+"EPSG:4326) and hit ``OK``. The shapefile should be imported into PostGIS "
+"with no errors. Close the DB Manager and get back to the main QGIS "
+"window."
 msgstr ""
 "座標参照系セレクタのデフォルト値を(WGS 84 EPSG:4326)にして、 ``OK`` "
 "を押します。シェープファイルは、エラーなしでPostGISにインポートする必要があります。DB Manager を閉じて、メインの QGIS "
@@ -557,28 +555,29 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:453
 msgid ""
-"Now load the SIDS data into the map using the 'Add PostGIS Layer' option. "
-"With a bit of rearranging of the layers and some colouring, you should be "
-"able to produce a choropleth map of the sudden infant death syndrome counts "
-"(sid74 or sid79 fields) in North Carolina:"
+"Now load the SIDS data into the map using the 'Add PostGIS Layer' option."
+" With a bit of rearranging of the layers and some colouring, you should "
+"be able to produce a choropleth map of the sudden infant death syndrome "
+"counts (sid74 or sid79 fields) in North Carolina:"
 msgstr ""
-"次に、 'PostGISマップを追加' オプションを使用して、SIDSデータをレイヤにロードします。レイヤの再配置と若干の色付けを行うことで、North"
-" Carolinaの乳幼児突然死症候群の発生数 (sid74またはsid79フィールド)の階級区分図を作成できるようになります。"
+"次に、 'PostGISマップを追加' "
+"オプションを使用して、SIDSデータをレイヤにロードします。レイヤの再配置と若干の色付けを行うことで、North "
+"Carolinaの乳幼児突然死症候群の発生数 (sid74またはsid79フィールド)の階級区分図を作成できるようになります。"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+#: ../../build/doc/quickstart/postgis_quickstart.rst:-1
 msgid "SIDS data mapped"
 msgstr "SIDSデータのマッピング"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:464
 msgid ""
-"Depending on the version of OSGeoLive you are using (ISO or VMDK), you will "
-"not find the same clients available. ``pgAdmin`` is the official client for "
-"PostgreSQL, however, for technical reasons, it can't do in the ISO, so it is"
-" only available in the VMDK version. The ISO version has the ``phpPgAdmin`` "
-"client which offers the same core functionality."
+"Depending on the version of OSGeoLive you are using (ISO or VMDK), you "
+"will not find the same clients available. ``pgAdmin`` is the official "
+"client for PostgreSQL, however, for technical reasons, it can't do in the"
+" ISO, so it is only available in the VMDK version. The ISO version has "
+"the ``phpPgAdmin`` client which offers the same core functionality."
 msgstr ""
-"利用中のOSGeoLiveのバージョン(ISO または VMDK)によっては、同じクライアントが利用できない場合があります。``pgAdmin`` "
-"はPostgreSQLの公式クライアントですが、技術的な理由でISOでは利用できないため、VMDK版でのみ利用可能です。ISO版には "
+"利用中のOSGeoLiveのバージョン(ISO または VMDK)によっては、同じクライアントが利用できない場合があります。``pgAdmin``"
+" はPostgreSQLの公式クライアントですが、技術的な理由でISOでは利用できないため、VMDK版でのみ利用可能です。ISO版には "
 "``phpPgAdmin`` クライアントがあり、同じコア機能を提供します。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:471
@@ -586,19 +585,17 @@ msgid "Get to know phpPgAdmin (ISO & VMDK)"
 msgstr "phpPgAdminを知る (ISO & VMDK)"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:473
-msgid ""
-"In both versions, you can use the graphical database client phpPgAdmin."
+msgid "In both versions, you can use the graphical database client phpPgAdmin."
 msgstr "どちらのバージョンでも、グラフィカルなデータベースクライアントphpPgAdminを使用することができます。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:475
 msgid ""
-"phpPgAdmin lets you use SQL to manipulate your data tables. You can find and"
-" launch phpPgAdmin from the Databases folder, existing on the OSGeoLive "
-"Desktop."
-msgstr ""
-"phpPgAdminでは、SQLを使用してデータテーブルを操作することができます。OSGeoLiveのデスクトップにあるDatabasesフォルダからphpPgAdminを起動することができます。"
+"phpPgAdmin lets you use SQL to manipulate your data tables. You can find "
+"and launch phpPgAdmin from the Databases folder, existing on the "
+"OSGeoLive Desktop."
+msgstr "phpPgAdminでは、SQLを使用してデータテーブルを操作することができます。OSGeoLiveのデスクトップにあるDatabasesフォルダからphpPgAdminを起動することができます。"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+#: ../../build/doc/quickstart/postgis_quickstart.rst:-1
 msgid "phpPgAdmin main"
 msgstr "phpPgAdminメイン"
 
@@ -606,30 +603,30 @@ msgstr "phpPgAdminメイン"
 msgid ""
 "Here, you have the option of creating a new connection to a PostgreSQL "
 "server, or connecting to an existing server. The red \"X\" on the  "
-"``PostgreSQL`` server denotes that you haven't been yet connected. Click on "
-"it  then enter the user name  ``user`` and the master password  ``user``."
+"``PostgreSQL`` server denotes that you haven't been yet connected. Click "
+"on it  then enter the user name  ``user`` and the master password  "
+"``user``."
 msgstr ""
-"ここでは、PostgreSQLサーバへの新しい接続を作成するか、既存のサーバに接続するかを選択できます。``PostgreSQL`` サーバーの赤い "
-"\"X\" は、まだ接続されていないことを意味します。クリックしてユーザ名 ``user`` とマスタパスワード ``user`` を入力します。"
+"ここでは、PostgreSQLサーバへの新しい接続を作成するか、既存のサーバに接続するかを選択できます。``PostgreSQL`` "
+"サーバーの赤い \"X\" は、まだ接続されていないことを意味します。クリックしてユーザ名 ``user`` とマスタパスワード ``user``"
+" を入力します。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:487
 #: ../../build/doc/quickstart/postgis_quickstart.rst:553
 msgid ""
-"After connection established, you can see the list of the databases already "
-"existing in the system."
+"After connection established, you can see the list of the databases "
+"already existing in the system."
 msgstr "接続が確立されると、システムにすでに存在するデータベースの一覧が表示されます。"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rstNone
-#: ../../build/doc/quickstart/postgis_quickstart.rstNone
-#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+#: ../../build/doc/quickstart/postgis_quickstart.rst:-1
 msgid "phpPgAdmin"
 msgstr "phpPgAdmin"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:495
 msgid ""
-"At this point you are able only to see the existing databases on the system."
-" You can connect, by clicking, on plus sign at the left of the name of a "
-"database. Do it for the ``natural_earth2`` database."
+"At this point you are able only to see the existing databases on the "
+"system. You can connect, by clicking, on plus sign at the left of the "
+"name of a database. Do it for the ``natural_earth2`` database."
 msgstr ""
 "この時点では、システム上の既存のデータベースしか表示できません。データベース名の左にあるプラス記号をクリックすると、接続することができます。データベース"
 " ``natural_earth2`` に対して実行してみましょう。"
@@ -637,8 +634,8 @@ msgstr ""
 #: ../../build/doc/quickstart/postgis_quickstart.rst:498
 msgid ""
 "You can see now that there is only one schema in this database called "
-"``public``. Click on the plus at left of ``Tables`` to expand it, you can "
-"see all the tables contained within this schema."
+"``public``. Click on the plus at left of ``Tables`` to expand it, you can"
+" see all the tables contained within this schema."
 msgstr ""
 "このデータベースには ``public`` という名前のスキーマが一つだけ存在することが分かります。``Tables`` "
 "の左側にあるプラスをクリックして展開すると、このスキーマに含まれるすべてのテーブルを見ることができます。"
@@ -656,21 +653,20 @@ msgstr "phpPgAdminは、リレーショナルデータベースへのクエリ�
 #: ../../build/doc/quickstart/postgis_quickstart.rst:517
 msgid ""
 "To perform a query on the database, click back on the ``natural_earth2`` "
-"database then press the ``SQL`` button from the main toolbar (the one at the"
-" left with the database symbol)."
+"database then press the ``SQL`` button from the main toolbar (the one at "
+"the left with the database symbol)."
 msgstr ""
-"データベースにクエリを実行するには、 ``natural_earth2`` データベースをクリックして戻り、メインツールバーの ``SQL`` ボタン "
-"(左側のデータベースシンボルのあるボタン) を押します。"
+"データベースにクエリを実行するには、 ``natural_earth2`` データベースをクリックして戻り、メインツールバーの ``SQL`` "
+"ボタン (左側のデータベースシンボルのあるボタン) を押します。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:519
 #: ../../build/doc/quickstart/postgis_quickstart.rst:588
 msgid ""
-"We are going to find the rate of the SIDS over the births for the 1974 for "
-"each city. Furthermore we are going to sort the result, based on the "
-"computed rate. To do that, we need to perform the following query (submit it"
-" on the text editor of the SQL Window):"
-msgstr ""
-"各都市の1974年の乳幼児突然死症候群の発生率を求めます。さらに、計算されたレートに基づいて結果を並べ替えます。そのためには、次のクエリを実行する必要があります(SQLウィンドウのテキストエディタで送信)。"
+"We are going to find the rate of the SIDS over the births for the 1974 "
+"for each city. Furthermore we are going to sort the result, based on the "
+"computed rate. To do that, we need to perform the following query (submit"
+" it on the text editor of the SQL Window):"
+msgstr "各都市の1974年の乳幼児突然死症候群の発生率を求めます。さらに、計算されたレートに基づいて結果を並べ替えます。そのためには、次のクエリを実行する必要があります(SQLウィンドウのテキストエディタで送信)。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:527
 msgid "Afterwards, you should press the Execute button."
@@ -683,23 +679,20 @@ msgstr "pgAdminを知る (VMDKのみ)"
 #: ../../build/doc/quickstart/postgis_quickstart.rst:537
 msgid ""
 "You can use the graphical database client ``pgAdmin`` from the Databases "
-"menu to query and modify your database non-spatially. This is the official "
-"client for PostgreSQL."
+"menu to query and modify your database non-spatially. This is the "
+"official client for PostgreSQL."
 msgstr ""
 "「データベース」メニューからグラフィカルデータベースクライアント ``pgAdmin`` "
 "を使って、非空間的にデータベースのクエリと変更を行うことができます。これはPostgreSQLの公式クライアントです。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:539
 msgid ""
-"pgAdmin lets you use SQL to manipulate your data tables. You can find and "
-"launch pgAdmin from the Databases folder, existing on the OSGeoLive Desktop."
-msgstr ""
-"pgAdminでは、SQLを使用してデータテーブルを操作できます。pgAdminは、OSGeoLiveのデスクトップにあるDatabasesフォルダから検索して起動できます。"
+"pgAdmin lets you use SQL to manipulate your data tables. You can find and"
+" launch pgAdmin from the Databases folder, existing on the OSGeoLive "
+"Desktop."
+msgstr "pgAdminでは、SQLを使用してデータテーブルを操作できます。pgAdminは、OSGeoLiveのデスクトップにあるDatabasesフォルダから検索して起動できます。"
 
-#: ../../build/doc/quickstart/postgis_quickstart.rstNone
-#: ../../build/doc/quickstart/postgis_quickstart.rstNone
-#: ../../build/doc/quickstart/postgis_quickstart.rstNone
-#: ../../build/doc/quickstart/postgis_quickstart.rstNone
+#: ../../build/doc/quickstart/postgis_quickstart.rst:-1
 msgid "pgAdmin"
 msgstr "pgAdmin"
 
@@ -710,8 +703,8 @@ msgstr "マスターパスワードは  ``user`` です。"
 #: ../../build/doc/quickstart/postgis_quickstart.rst:549
 msgid ""
 "Here, you have the option of creating a new connection to a PostgreSQL "
-"server, or connecting to an existing server. In this case, we are going to "
-"connect to the predefined ``localhost`` server."
+"server, or connecting to an existing server. In this case, we are going "
+"to connect to the predefined ``localhost`` server."
 msgstr ""
 "ここでは、PostgreSQLサーバへの新しい接続を作成するか、既存のサーバに接続するかを選択できます。この場合、あらかじめ定義された "
 "``localhost`` サーバに接続します。"
@@ -720,9 +713,10 @@ msgstr ""
 msgid ""
 "The red \"X\" on the image of most of the databases, denotes that you "
 "haven't been yet connected to any of them (you are connected only to the "
-"default ``postgres`` database). At this point you are able only to see the "
-"existing databases on the system. You can connect, by double clicking, on "
-"the name of a database. Do it for the ``natural_earth2`` database."
+"default ``postgres`` database). At this point you are able only to see "
+"the existing databases on the system. You can connect, by double "
+"clicking, on the name of a database. Do it for the ``natural_earth2`` "
+"database."
 msgstr ""
 "ほとんどのデータベースのイメージ上の赤い \"X\" は、まだどのデータベースにも接続していないことを示しています(あなたはデフォルトの "
 "``postgres`` "
@@ -731,16 +725,16 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:565
 msgid ""
-"You can see now that the red X disappeared and a \">\" appeared on the left."
-" By pressing it a tree is going to appear, displaying the contents of the "
-"database."
+"You can see now that the red X disappeared and a \">\" appeared on the "
+"left. By pressing it a tree is going to appear, displaying the contents "
+"of the database."
 msgstr "赤いXが消え、左側に \">\" が表示されています。これを押すとツリーが表示され、データベースの内容が表示されます。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:568
 msgid ""
 "Navigate at the ``schemas`` subtree, expand it. Afterwards expand the "
-"``public`` schema. By navigating and expanding the ``Tables``, you can see "
-"all the tables contained within this schema."
+"``public`` schema. By navigating and expanding the ``Tables``, you can "
+"see all the tables contained within this schema."
 msgstr ""
 "``schemas`` サブツリーに移動して展開します。その後、``public`` スキーマを展開します。 ``Tables`` "
 "を移動して展開すると、このスキーマに含まれるすべてのテーブルを表示できます。"
@@ -758,7 +752,8 @@ msgstr "pgAdminは、リレーショナルデータベースに対してクエ�
 #: ../../build/doc/quickstart/postgis_quickstart.rst:586
 msgid ""
 "To perform a query on the database, you have to press the ``Query Tool`` "
-"button from the main toolbar (the one at the left with the database symbol)."
+"button from the main toolbar (the one at the left with the database "
+"symbol)."
 msgstr ""
 "データベースに対してクエリを実行するには、メインツールバーの ``Query Tool`` "
 "ボタン(左側にデータベースシンボルがある)を押す必要があります。"
@@ -776,9 +771,9 @@ msgstr "外部データラッパー(FDW)について知る"
 #: ../../build/doc/quickstart/postgis_quickstart.rst:607
 msgid ""
 "From you database you can access remote objects like tables from other "
-"PostgreSQL databases or connect to remote databases like Oracle, MySQL, MS "
-"SQL or CouchDB. You also can connect via ODBC, connect to CSV, Geospatial "
-"Data and even to twitter."
+"PostgreSQL databases or connect to remote databases like Oracle, MySQL, "
+"MS SQL or CouchDB. You also can connect via ODBC, connect to CSV, "
+"Geospatial Data and even to twitter."
 msgstr ""
 "データベースから、他のPostgreSQLデータベースからテーブルなどのリモートオブジェクトにアクセスしたり、Oracle、MySQL、MS "
 "SQL、CouchDBなどのリモートデータベースに接続したりできます。ODBC経由で接続したり、CSVや地理空間データに接続したり、Twitterに接続することもできます。"
@@ -803,22 +798,21 @@ msgstr "次の手順に従います。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:618
 msgid ""
-"First load the extension for the Foreign Data Wrapper that you want to use. "
-"For a connection to a different PostgreSQL database you need "
+"First load the extension for the Foreign Data Wrapper that you want to "
+"use. For a connection to a different PostgreSQL database you need "
 "``postgres_fdw``"
 msgstr ""
-"最初に、使用する外部データラッパーの拡張機能をロードします。異なるPostgreSQLデータベースへの接続には、 ``postgres_fdw`` "
-"が必要です。"
+"最初に、使用する外部データラッパーの拡張機能をロードします。異なるPostgreSQLデータベースへの接続には、 ``postgres_fdw``"
+" が必要です。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:625
 msgid ""
-"Create a foreign Server that tells you where to find the data source that "
-"you want to connect"
+"Create a foreign Server that tells you where to find the data source that"
+" you want to connect"
 msgstr "接続するデータソースの場所を通知する外部サーバーを作成"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:633
-msgid ""
-"Define the user that should be used when you connect to the foreign server"
+msgid "Define the user that should be used when you connect to the foreign server"
 msgstr "外部サーバに接続するときに使用するユーザを定義"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:641
@@ -827,8 +821,8 @@ msgstr "これで、外部テーブルを作成できます。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:650
 msgid ""
-"Find new tables in your database and have a look at the data from a foreign "
-"table."
+"Find new tables in your database and have a look at the data from a "
+"foreign table."
 msgstr "データベース内の新しいテーブルを検索し、外部テーブルのデータを参照します。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:657
@@ -837,8 +831,8 @@ msgstr "ogr_fdw経由でリモートOGRデータソースに接続"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:659
 msgid ""
-"The extension ``ogr_fdw`` allows connection too several geodata formats like"
-" KML, GeoPackage, WFS, GeoJSON, GPX, GML and more."
+"The extension ``ogr_fdw`` allows connection too several geodata formats "
+"like KML, GeoPackage, WFS, GeoJSON, GPX, GML and more."
 msgstr ""
 "拡張 ``ogr_fdw`` "
 "は、KML、GeoPackage、WFS、GeoJSON、GPX、GMLなどのいくつかの地理データフォーマットの接続を可能にします。"
@@ -853,7 +847,8 @@ msgstr "リポジトリ: https://github.com/pramsey/pgsql-ogr-fdw"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:665
 msgid ""
-"New and improved: http://blog.cleverelephant.ca/2016/04/ogr-fdw-update.html"
+"New and improved: http://blog.cleverelephant.ca/2016/04/ogr-fdw-"
+"update.html"
 msgstr "新しく改善された機能: http://blog.cleverelephant.ca/2016/04/ogr-fdw-update.html"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:669
@@ -881,12 +876,8 @@ msgid "Create a FDW to a WFS"
 msgstr "WFSへのFDWの作成"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:705
-msgid ""
-"Start Geoserver via :menuselection:`Geospatial --> Web Services --> "
-"GeoServer -->  Start GeoServer`"
+msgid "Start Geoserver via |menu_geoserver-Start|."
 msgstr ""
-"Geoserverの起動 :menuselection:`Geospatial --> Web Services --> GeoServer --> "
-"Start GeoServer`"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:707
 msgid "Open GeoServer http://localhost:8082/geoserver/web/"
@@ -925,8 +916,7 @@ msgstr ""
 "<http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&typename=topp:states>`__"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:718
-msgid ""
-"Create a foreign server that refers to the WFS that you want to connect"
+msgid "Create a foreign server that refers to the WFS that you want to connect"
 msgstr "接続するWFSを参照する外部サーバーを作成する"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:726
@@ -934,8 +924,7 @@ msgid "Import all WFS feature_types as foreign tables with one command."
 msgstr "1つのコマンドで、すべてのWFS地物_タイプを外部テーブルとしてインポートします。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:727
-msgid ""
-"After the import you will see several new foreign tables in your schema."
+msgid "After the import you will see several new foreign tables in your schema."
 msgstr "インポート後、スキーマに新しい外部テーブルがいくつか表示されます。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:736
@@ -960,18 +949,19 @@ msgstr ""
 "のようないくつかの空間関数を試してください。完全なドキュメントは http://postgis.net/documentation/"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:749
-msgid ""
-"Export your tables to shapefiles with ``pgsql2shp`` on the command line."
+msgid "Export your tables to shapefiles with ``pgsql2shp`` on the command line."
 msgstr "コマンドラインで ``pgsql2shp`` を使用して、テーブルをシェープファイルにエクスポートします。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:751
 msgid ""
-"Try ``ogr2ogr`` on the command line to import/export data to your database."
+"Try ``ogr2ogr`` on the command line to import/export data to your "
+"database."
 msgstr "データベースにデータをインポート/エクスポートするには、コマンドラインで ``ogr2ogr`` を試してください。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:753
 msgid ""
-"Try to import data with ``shp2pgsql`` on the command line to your database."
+"Try to import data with ``shp2pgsql`` on the command line to your "
+"database."
 msgstr "コマンドラインで ``shp2pgsql`` を使用して、データベースにデータをインポートしてみてください。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:755
@@ -1004,10 +994,11 @@ msgstr "vmdk"
 msgid "nologo"
 msgstr "ロゴなし"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "OSGeo プロジェクト"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo コミュニティ"
+

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-15 20:52-0600\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -80,7 +80,7 @@ msgstr ""
 msgid "Click :guilabel:`Client` from the top menu bar. Once you know `the capabilities of an SOS Server <http://localhost:8080/52nSOS/sos?REQUEST=GetCapabilities&SERVICE=SOS&ACCEPTVERSIONS=2.0.0>`_, (see Fiq. 2) you can craft appropriate queries. This is made easier by selecting sample queries. Using the information from the capabilities document, you can adjust the available example queries."
 msgstr ""
 
-#: ../../build/doc/quickstart/52nSOS_quickstart.rst:None
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:-1
 msgid "52°North SOS client - test client with GetCapabilities request"
 msgstr ""
 
@@ -136,7 +136,7 @@ msgstr ""
 msgid "Open `Helgoland <http://localhost:8080/52nSOS/static/client/helgoland/#/map>`_ again and explore the generated sample data."
 msgstr ""
 
-#: ../../build/doc/quickstart/52nSOS_quickstart.rst:None
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:-1
 msgid "52°North SOS client - JavaScript client with time series data"
 msgstr ""
 
@@ -208,7 +208,6 @@ msgstr ""
 msgid "OSGeo Project"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""

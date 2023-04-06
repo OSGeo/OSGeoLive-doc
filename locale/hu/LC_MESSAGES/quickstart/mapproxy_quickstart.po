@@ -1,26 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
 # Translators:
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-04 13:45+0000\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
 "PO-Revision-Date: 2023-04-01 08:08+0000\n"
 "Last-Translator: Zoltan Siki <siki@agt.bme.hu>\n"
-"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
-"mapproxy_quickstart/hu/>\n"
 "Language: hu\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Hungarian "
+"<https://weblate.osgeo.org/projects/osgeolive/mapproxy_quickstart/hu/>\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:22
 msgid "MapProxy Quickstart"
@@ -28,15 +27,15 @@ msgstr "MapProxy gyorstalpaló"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:24
 msgid ""
-"MapProxy is *the* swiss army knife for all WMS and tile services. It caches,"
-" accelerates and transforms data from existing map services and serves any "
-"desktop or web GIS client."
+"MapProxy is *the* swiss army knife for all WMS and tile services. It "
+"caches, accelerates and transforms data from existing map services and "
+"serves any desktop or web GIS client."
 msgstr ""
-"A MapProxy a svájci bicska minden WMS és csempe szolgáltatáshoz. Átmeneti "
-"tárazza, gyorsítja és transzformálja az adatokat egy létező térkép "
+"A MapProxy a svájci bicska minden WMS és csempe szolgáltatáshoz. Átmeneti"
+" tárazza, gyorsítja és transzformálja az adatokat egy létező térkép "
 "szolgáltatásból és bármelyik asztali vagy web GIS klienst kiszolgálja."
 
-#: ../../build/doc/quickstart/mapproxy_quickstart.rstNone
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:-1
 msgid "MapProxy diagram"
 msgstr "MapProxy diagram"
 
@@ -45,8 +44,8 @@ msgid ""
 "MapProxy is not only a tile cache solution, but also offers many new and "
 "innovative features like full support for WMS clients."
 msgstr ""
-"A MapProxy nem csak egy csempe tároló megoldás, sok új és innovatív funkciót "
-"kínál mint a teljes támogatás WMS kliensekhez."
+"A MapProxy nem csak egy csempe tároló megoldás, sok új és innovatív "
+"funkciót kínál mint a teljes támogatás WMS kliensekhez."
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:34
 msgid "Contents"
@@ -58,19 +57,17 @@ msgstr "Indítsa el a szolgáltatást és nézze meg a demót"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:39
 msgid ""
-"MapProxy has flexible deployment options and you can integrate it in Apache "
-"for example. But you can also start MapProxy as a standalone service, which "
-"is the best option to get started."
+"MapProxy has flexible deployment options and you can integrate it in "
+"Apache for example. But you can also start MapProxy as a standalone "
+"service, which is the best option to get started."
 msgstr ""
-"A MapProxy rugalmas telepítési beállításokkal bír és például integrálható "
-"Apache szerverbe. De önálló szolgáltatásként is elindíthatja a MapProxy-t, "
-"ami a legjobb lehetőség az induláshoz."
+"A MapProxy rugalmas telepítési beállításokkal bír és például integrálható"
+" Apache szerverbe. De önálló szolgáltatásként is elindíthatja a "
+"MapProxy-t, ami a legjobb lehetőség az induláshoz."
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:41
-msgid ""
-"To start MapProxy as a standalone service click on "
-":menuselection:`Geospatial --> Web Services --> MapProxy --> Start "
-"MapProxy`."
+#, fuzzy
+msgid "To start MapProxy as a standalone service click on |menu_mapproxy-Start|."
 msgstr ""
 "A MapProxy önálló szolgáltatásként elindításához kattintson a "
 ":menuselection:`Geospatial --> Web Services --> MapProxy --> Start "
@@ -84,13 +81,14 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:45
 msgid ""
-"The MapProxy demo page contains a rudimentary WMS and tile client for each "
-"configured layer. You can't select the projection for WMS layers for "
-"example, but it is enough to quickly verify that your installation works."
+"The MapProxy demo page contains a rudimentary WMS and tile client for "
+"each configured layer. You can't select the projection for WMS layers for"
+" example, but it is enough to quickly verify that your installation "
+"works."
 msgstr ""
 "A MapProxy demó oldal tartalmaz egy kezdetleges WMS és csempe klienst az "
-"összes konfigurált rétegre. Nem választhat vetületet a WMS rétegekhez, de "
-"elég a gyors ellenőrzésre, hogy a telepítés működik."
+"összes konfigurált rétegre. Nem választhat vetületet a WMS rétegekhez, de"
+" elég a gyors ellenőrzésre, hogy a telepítés működik."
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:49
 msgid "View in desktop GIS"
@@ -98,8 +96,8 @@ msgstr "Megtekintés asztali GIS-ben"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:51
 msgid ""
-"You can add MapProxy in any WMS Desktop GIS like uDig, QGIS or gvSIG. The "
-"service URL is: `<http://localhost:8011/service?>`_"
+"You can add MapProxy in any WMS Desktop GIS like uDig, QGIS or gvSIG. The"
+" service URL is: `<http://localhost:8011/service?>`_"
 msgstr ""
 "Bármelyik WMS asztali GIS-hez, mint például uDig, QGIS vagy "
 "gvSIG,hozzáadhatja a MapProxy-t. A szolgáltatás URL-je: "
@@ -107,8 +105,9 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:53
 msgid ""
-"The MapProxy example configuration contains a few layers that use different "
-"map engines and map data. See below for more details about each layer."
+"The MapProxy example configuration contains a few layers that use "
+"different map engines and map data. See below for more details about each"
+" layer."
 msgstr ""
 "A MapProxy minta konfiguráció kevés réteget tartalmaz, melyek különböző "
 "térkép motorokat és térkép adatokat használnak. Lentebb találhat több "
@@ -134,9 +133,9 @@ msgstr "**mapnik**:"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:66
 msgid ""
-"The world population rendered by Mapnik. You don't need to start the Mapnik "
-"service, because this layer makes use of the integrated Mapnik support in "
-"MapProxy."
+"The world population rendered by Mapnik. You don't need to start the "
+"Mapnik service, because this layer makes use of the integrated Mapnik "
+"support in MapProxy."
 msgstr ""
 "Mapnikkel megjelenített világ népesség. Nem kell elindítania a Mapnik "
 "szolgáltatást, mert ez a réteg a MapProxy-ba integrált Mapnik támogatást "
@@ -158,14 +157,14 @@ msgstr "**geoserver**:"
 msgid ""
 "The US population rendered by the :doc:`GeoServer "
 "<../overview/geoserver_overview>` WMS. This layer also supports "
-"``GetFeatureInfo`` requests which are cascaded to the source WMS. You need "
-"to start GeoServer with |osgeolive-appmenupath-geoserver| before accessing "
-"this layer."
+"``GetFeatureInfo`` requests which are cascaded to the source WMS. You "
+"need to start GeoServer with |osgeolive-appmenupath-geoserver| before "
+"accessing this layer."
 msgstr ""
 "Az US népesség :doc:`GeoServer <../overview/geoserver_overview>`  WMS "
-"megjelenítése. Ez a réteg támogatja a ``GetFeatureInfo`` kéréseket, melyeket "
-"a forrás WMS felé továbbít. El kell indítania a GeoServert |osgeolive-"
-"appmenupath-geoserver| mielőtt használná ezt a réteget."
+"megjelenítése. Ez a réteg támogatja a ``GetFeatureInfo`` kéréseket, "
+"melyeket a forrás WMS felé továbbít. El kell indítania a GeoServert "
+"|osgeolive-appmenupath-geoserver| mielőtt használná ezt a réteget."
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:77
 msgid "**mapnik_geoserver**:"
@@ -174,16 +173,16 @@ msgstr "**mapnik_geoserver**:"
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:76
 msgid ""
 "This layer demonstrates the ability to combine multiple sources into one "
-"layer. It combines the world population from Mapnik with the US population "
-"from GeoServer. The ``GetFeatureInfo`` support for the US population is "
-"still available. You need to start GeoServer with |osgeolive-appmenupath-"
-"geoserver| before accessing this layer."
+"layer. It combines the world population from Mapnik with the US "
+"population from GeoServer. The ``GetFeatureInfo`` support for the US "
+"population is still available. You need to start GeoServer with "
+"|osgeolive-appmenupath-geoserver| before accessing this layer."
 msgstr ""
-"Ez a réteg több forrás egy rétegbe összerakásának képességét mutatja be. A "
-"Mapnik világ népességet kombinálja a GeoServer US népességgel. Az US "
+"Ez a réteg több forrás egy rétegbe összerakásának képességét mutatja be. "
+"A Mapnik világ népességet kombinálja a GeoServer US népességgel. Az US "
 "népességre vonatkozó ``GetFeatureInfo`` támogatás még elérhető. El kell "
-"indítani a GeoServert |osgeolive-appmenupath-geoserver| mielőtt használná "
-"ezt a réteget."
+"indítani a GeoServert |osgeolive-appmenupath-geoserver| mielőtt használná"
+" ezt a réteget."
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:81
 msgid "**mapserver**:"
@@ -191,8 +190,8 @@ msgstr "**mapserver**:"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:80
 msgid ""
-"This layer uses Mapserver Itasca demo dataset. It is a local dataset and it "
-"uses the *coverage* feature to limit the BBOX to Itasca, IL."
+"This layer uses Mapserver Itasca demo dataset. It is a local dataset and "
+"it uses the *coverage* feature to limit the BBOX to Itasca, IL."
 msgstr ""
 "Ez a réteg a MapServer Itasca demó adatokat használja. Ez egy helyi "
 "adathalmaz és a *coverage* funkciót használja a befoglaló téglalap "
@@ -204,11 +203,11 @@ msgstr "Hozza létre saját konfigurációját"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:86
 msgid ""
-"You can use ``mapproxy-util`` to create new configuration templates and to "
-"start a test server."
+"You can use ``mapproxy-util`` to create new configuration templates and "
+"to start a test server."
 msgstr ""
-"A ``mapproxy-util``-t használhatja új konfiguráció sablon létrehozására és a"
-" teszt szerver elindítására."
+"A ``mapproxy-util``-t használhatja új konfiguráció sablon létrehozására "
+"és a teszt szerver elindítására."
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:88
 msgid "To create a new configuration::"
@@ -216,16 +215,16 @@ msgstr "Új konfiguráció létrehozása::"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:92
 msgid "To start the test server on port 8011 with the created configuration::"
-msgstr ""
-"A test szerver elindítása a 8011 porton a létrehozott konfigurációval::"
+msgstr "A test szerver elindítása a 8011 porton a létrehozott konfigurációval::"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:96
 msgid ""
 "You can now visit the demo page at http://127.0.0.1:8011/demo/. MapProxy "
 "will automatically reload if you change your configuration file."
 msgstr ""
-"Most meglátogathatja a demó oldalt http://127.0.0.1:8011/demo/. A MapProxy "
-"automatikusan újratölti magát, ha módosítja a konfiguráció fájlt."
+"Most meglátogathatja a demó oldalt http://127.0.0.1:8011/demo/. A "
+"MapProxy automatikusan újratölti magát, ha módosítja a konfiguráció "
+"fájlt."
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:101
 msgid "What next?"
@@ -241,7 +240,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:105
 msgid ""
-"Read the example configuration (``/usr/local/share/mapproxy/mapproxy.yaml``)"
+"Read the example configuration "
+"(``/usr/local/share/mapproxy/mapproxy.yaml``)"
 msgstr ""
 "Olvassa el a példa konfigurációt "
 "(``/usr/local/share/mapproxy/mapproxy.yaml``)"
@@ -254,10 +254,11 @@ msgstr "vmdk"
 msgid "nologo"
 msgstr "nologo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "OSGeo Projekt"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo közösség"
+

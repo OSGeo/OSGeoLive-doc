@@ -1,26 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-13 16:00+0000\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: hu\n"
+"Language-Team: Hungarian "
+"(https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:23
 msgid "deegree Quickstart"
@@ -28,9 +29,9 @@ msgstr "deegree gyorstalpaló"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:25
 msgid ""
-"*deegree* is open source software for spatial data infrastructures and the "
-"geospatial web. *deegree* is a Java application for serving maps (and vector"
-" data) for other clients to show."
+"*deegree* is open source software for spatial data infrastructures and "
+"the geospatial web. *deegree* is a Java application for serving maps (and"
+" vector data) for other clients to show."
 msgstr ""
 "*deegree* egí nyílt forráskódú szoftver a térinformatikai adat "
 "infrastruktúrákhoz és a térinformatikai web-hez. A *deegree* egy Java "
@@ -48,12 +49,12 @@ msgstr "Web szolgáltatások: WFS, WMS, WMTS, CSW, WPS"
 #: ../../build/doc/quickstart/deegree_quickstart.rst:32
 msgid ""
 "*deegree 3* is the new generation of the deegree Java framework for GIS "
-"applications and OGC-service implementations. It can be used to build web-"
-"based geospatial-data-infrastructures (GDI)."
+"applications and OGC-service implementations. It can be used to build "
+"web-based geospatial-data-infrastructures (GDI)."
 msgstr ""
-"*deegree 3* a deegree Java keretrendszer új generációja GIS alkalmazásokhoz "
-"és OGC szolgáltatások implementációjához. Web alapú téradat infrastruktúra "
-"(GDI) építésére használható."
+"*deegree 3* a deegree Java keretrendszer új generációja GIS "
+"alkalmazásokhoz és OGC szolgáltatások implementációjához. Web alapú "
+"téradat infrastruktúra (GDI) építésére használható."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:37
 msgid "Contents"
@@ -65,12 +66,9 @@ msgstr "deegree3 web szolgáltatások indítása"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:42
 msgid ""
-"Choose *'Start deegree'* from the :menuselection:`Geospatial --> Web "
-"Services --> deegree` menu. The application will take a few moments to start"
-" up."
+"Choose |menu_deegree-Start|. The application will take a few moments to "
+"start up."
 msgstr ""
-"Válassza a  *'Start deegree'*-t a :menuselection:`Geospatial --> Web "
-"Services --> deegree` menüből. Az alkalmazás néhány pillanat múlva elindul."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:45
 msgid ""
@@ -79,10 +77,10 @@ msgid ""
 "simple web-based GUI for editing the configuration files of the *deegree "
 "workspace*."
 msgstr ""
-"A Firefox megnyitja a *deegree 3 szolgáltatás konzolt*. (Ezt manuálisan is "
-"megnyithatja a http://localhost:8033 címre irányítva a böngészőt). Ez egy "
-"egyszerű web alapú GUI a *deegree munkaterületnek* nevezett konfiguráció "
-"fájlok szerkesztéséhez."
+"A Firefox megnyitja a *deegree 3 szolgáltatás konzolt*. (Ezt manuálisan "
+"is megnyithatja a http://localhost:8033 címre irányítva a böngészőt). Ez "
+"egy egyszerű web alapú GUI a *deegree munkaterületnek* nevezett "
+"konfiguráció fájlok szerkesztéséhez."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:49
 msgid "Load a workspace"
@@ -93,24 +91,24 @@ msgid ""
 "*deegree 3* uses configurations conformant to all *deegree 3* based "
 "webservices. Those configurations are stored in the workspace."
 msgstr ""
-"A *deegree 3* olyan konfigurációkat használ, mely megfelel minden *deegree "
-"3* alapú web szolgáltatásnak. A konfigurációkat úgynevezett "
+"A *deegree 3* olyan konfigurációkat használ, mely megfelel minden "
+"*deegree 3* alapú web szolgáltatásnak. A konfigurációkat úgynevezett "
 "munkaterületekben tároljuk."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:53
 msgid ""
-"To manage the included and ready-to-use workspaces, click *'workspaces'* on "
-"the left side. You are now in the workspace management of the running "
-"*deegree* instance. You can see which workspace is currently active (only "
-"one can be active at a time) workspace, inactive locally available "
+"To manage the included and ready-to-use workspaces, click *'workspaces'* "
+"on the left side. You are now in the workspace management of the running "
+"*deegree* instance. You can see which workspace is currently active (only"
+" one can be active at a time) workspace, inactive locally available "
 "workspaces and offical workspaces which can be imported if you have a "
 "internet connection."
 msgstr ""
 "A használatra kész és telepített munkaterületek kezeléséhez kattintson a "
-"\"workspaces\"-re a bal oldalon. Most a futó *deegree* példány munkaterület "
-"kezelőjében van. Láthatja melyik workspace aktív (csak egy lehet aktív "
-"egyidőben), inaktív lokálisan elérhető workspace-ket és hivatalos workspace-"
-"ket importálhat, ha van internet kapcsolata."
+"\"workspaces\"-re a bal oldalon. Most a futó *deegree* példány "
+"munkaterület kezelőjében van. Láthatja melyik workspace aktív (csak egy "
+"lehet aktív egyidőben), inaktív lokálisan elérhető workspace-ket és "
+"hivatalos workspace-ket importálhat, ha van internet kapcsolata."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:55
 msgid "Press start on the *deegree-workspace-utah-light*."
@@ -118,23 +116,23 @@ msgstr "Nyomja meg a start-ot a *deegree-workspace-utah-light*-on."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:57
 msgid ""
-"The demo workspace contains a web mapping setup based on data from the state"
-" of Utah. It contains a WMS configuration (1.3.0 and 1.1.1) consisting of "
-"vector layers and a variety of render styles. Additionally, a WFS (2.0.0, "
-"1.1.0 and 1.0.0) is configured that allows to access the raw vector data, "
-"backed by shapefiles, in GML format."
+"The demo workspace contains a web mapping setup based on data from the "
+"state of Utah. It contains a WMS configuration (1.3.0 and 1.1.1) "
+"consisting of vector layers and a variety of render styles. Additionally,"
+" a WFS (2.0.0, 1.1.0 and 1.0.0) is configured that allows to access the "
+"raw vector data, backed by shapefiles, in GML format."
 msgstr ""
 "A demó munkaterület egy web térkép beállítást tartalmaz, mely Utah állam "
-"adataira épül.és WMS (1.3.0 és 1.1.1) konfigurációt tartalmaz, mely vektor "
-"rétegből és változatos megjelenítési stílusokból áll. Továbbá egy WFS-t "
-"(2.0.0, 1.1.0 és 1.0.0) is konfiguráltak, mely lehetővé teszi a nyers vektor"
-" shape fájl adatok elérését GML formátumban."
+"adataira épül.és WMS (1.3.0 és 1.1.1) konfigurációt tartalmaz, mely "
+"vektor rétegből és változatos megjelenítési stílusokból áll. Továbbá egy "
+"WFS-t (2.0.0, 1.1.0 és 1.0.0) is konfiguráltak, mely lehetővé teszi a "
+"nyers vektor shape fájl adatok elérését GML formátumban."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:62
 msgid ""
-"For additional configuration examples including raster data, you can import "
-"the workspace *deegree-workspace-utah* through the workspace management "
-"(internet connection is required)."
+"For additional configuration examples including raster data, you can "
+"import the workspace *deegree-workspace-utah* through the workspace "
+"management (internet connection is required)."
 msgstr ""
 "További raszter adatokat tartalmazó konfiguráció példákhoz a *deegree-"
 "workspace-utah* munkaterületet importálhatja a munkaterület kezelésen "
@@ -147,8 +145,8 @@ msgstr "Egy térkép megtekintése"
 #: ../../build/doc/quickstart/deegree_quickstart.rst:68
 msgid ""
 "Click on *'see layers'* to open a simple map-client. The service is "
-"configured to visualize the data and a basemap (rendered by `OpenStreetMap "
-"<https://www.openstreetmap.org/>`_)."
+"configured to visualize the data and a basemap (rendered by "
+"`OpenStreetMap <https://www.openstreetmap.org/>`_)."
 msgstr ""
 "Kattintson a *'see layers'*-re egy egyszerű térkép megnyitásához. A "
 "szolgáltatást az adatok és egy alaptérkép (`OpenStreetMap "
@@ -157,23 +155,24 @@ msgstr ""
 #: ../../build/doc/quickstart/deegree_quickstart.rst:70
 msgid ""
 "Click on the **+** on the right side to open a layer tree showing all "
-"available  layers. You can activate the a variety of layers served by the "
-"deegree WMS here."
+"available  layers. You can activate the a variety of layers served by the"
+" deegree WMS here."
 msgstr ""
 "A jobb oldali **+**-ra kattintva megnyitja az összes elérhető réteget "
-"tartalmazó réteg fát. Itt kapcsolhatja be a deegree WMS által szolgáltatott "
-"INSPIRE réteget."
+"tartalmazó réteg fát. Itt kapcsolhatja be a deegree WMS által "
+"szolgáltatott INSPIRE réteget."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:73
 msgid ""
-"The map client is based on `OpenLayers <https://openlayers.org/>`_. You can "
-"pan through the map holding the left mouse button and drag the map. Zooming "
-"is possible via mouse wheel or the navigation elements on the left side."
+"The map client is based on `OpenLayers <https://openlayers.org/>`_. You "
+"can pan through the map holding the left mouse button and drag the map. "
+"Zooming is possible via mouse wheel or the navigation elements on the "
+"left side."
 msgstr ""
-"A térkép kliens az `OpenLayers-re <https://openlayers.org/>`_ épül. A térkép"
-" eltolásához tartsa a  egér bal gombját lenyomva és húzza a térképet. A "
-"nagyítás az egérgörgő vagy a bal oldali navigációs elemek segítségével "
-"lehetséges."
+"A térkép kliens az `OpenLayers-re <https://openlayers.org/>`_ épül. A "
+"térkép eltolásához tartsa a  egér bal gombját lenyomva és húzza a "
+"térképet. A nagyítás az egérgörgő vagy a bal oldali navigációs elemek "
+"segítségével lehetséges."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:78
 msgid "What next?"
@@ -181,11 +180,11 @@ msgstr "Mi a következő?"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:80
 msgid ""
-"This was just a short introduction to the features of deegree 3. There is "
-"more information in the demo installations and on the deegree website."
+"This was just a short introduction to the features of deegree 3. There is"
+" more information in the demo installations and on the deegree website."
 msgstr ""
-"Ez csak egy rövid bemutatkozás volt a deegree 3 funkcióiról. Több információ"
-" érhető el a demó telepítésben és a deegree honlapon."
+"Ez csak egy rövid bemutatkozás volt a deegree 3 funkcióiról. Több "
+"információ érhető el a demó telepítésben és a deegree honlapon."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:83
 msgid "deegree website - Available here: https://www.deegree.org"
@@ -196,7 +195,8 @@ msgid ""
 "deegree documentation - Available here: "
 "https://www.deegree.org/documentation/"
 msgstr ""
-"deegree dokumentáció - elérhető itt: https://www.deegree.org/documentation/"
+"deegree dokumentáció - elérhető itt: "
+"https://www.deegree.org/documentation/"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:87
 msgid ""
@@ -206,18 +206,19 @@ msgstr ""
 "deegree docker images - elérhető itt: "
 "https://hub.docker.com/r/deegree/deegree3-docker/"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr "nologo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "OSGeo Projekt"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo közösség"
+

@@ -1,26 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
 # Translators:
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-03 09:57+0000\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
 "PO-Revision-Date: 2023-04-01 08:08+0000\n"
 "Last-Translator: Zoltan Siki <siki@agt.bme.hu>\n"
-"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
-"overview/hu/>\n"
 "Language: hu\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Hungarian "
+"<https://weblate.osgeo.org/projects/osgeolive/overview/hu/>\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/overview/overview.rst:6
 msgid "|osgeolive-version| Contents"
@@ -34,18 +33,7 @@ msgstr "Jelmagyarázat"
 msgid "|osgeo_project| Is an OSGeo Project"
 msgstr "|osgeo_project| egy OSGeo projekt"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "OSGeo Projekt"
 
@@ -53,12 +41,7 @@ msgstr "OSGeo Projekt"
 msgid "|osgeo_community| Is an OSGeo Community Project"
 msgstr "|osgeo_community| egy OSGeo közösségi projekt"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo közösség"
 
@@ -66,11 +49,6 @@ msgstr "OSGeo közösség"
 msgid "|vmdk| Included only on OSGeoLive VMDK version"
 msgstr "|vmdk| csak az OSGeoLive VMDK (virtuális gép) verzió tartalmazza"
 
-#: ../../build/doc/<rst_epilog>:13 ../../build/doc/<rst_epilog>:13
-#: ../../build/doc/<rst_epilog>:13 ../../build/doc/<rst_epilog>:13
-#: ../../build/doc/<rst_epilog>:13 ../../build/doc/<rst_epilog>:13
-#: ../../build/doc/<rst_epilog>:13 ../../build/doc/<rst_epilog>:13
-#: ../../build/doc/<rst_epilog>:13 ../../build/doc/<rst_epilog>:13
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr "vmdk"
@@ -115,22 +93,6 @@ msgstr ""
 "|nologo| :doc:`openjump_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/openjump_quickstart>`]"
 
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
 #: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr "nologo"
@@ -148,8 +110,8 @@ msgid ""
 "|nologo| |vmdk| :doc:`udig_overview` - [:doc:`Quickstart "
 "<../quickstart/udig_quickstart>`]"
 msgstr ""
-"|nologo| |vmdk| :doc:`udig_overview` - [:doc:`gyorstalpaló <../quickstart/"
-"udig_quickstart>`]"
+"|nologo| |vmdk| :doc:`udig_overview` - [:doc:`gyorstalpaló "
+"<../quickstart/udig_quickstart>`]"
 
 #: ../../build/doc/overview/overview.rst:53
 msgid "Browser Facing GIS"
@@ -170,7 +132,8 @@ msgstr ""
 #: ../../build/doc/overview/overview.rst:79
 msgid ""
 "|OSGeo_project| :doc:`geonode_overview` - [:doc:`Quickstart "
-"<../quickstart/geonode_quickstart>`] - Geospatial Content Management System"
+"<../quickstart/geonode_quickstart>`] - Geospatial Content Management "
+"System"
 msgstr ""
 "|OSGeo_project| :doc:`geonode_overview` - [:doc:`Gyorstalpaló "
 "<../quickstart/geonode_quickstart>`] - Térinformatikai tartalom kezelő "
@@ -216,7 +179,8 @@ msgid ""
 "<../quickstart/geoext_quickstart>`] - JavaScript Toolkit Web Mapping"
 msgstr ""
 "|nologo| :doc:`geoext_overview` - [:doc:`Gyorstalpaló "
-"<../quickstart/geoext_quickstart>`] - JavaScript eszköztár webes térképekhez"
+"<../quickstart/geoext_quickstart>`] - JavaScript eszköztár webes "
+"térképekhez"
 
 #: ../../build/doc/overview/overview.rst:91
 msgid ""
@@ -304,11 +268,13 @@ msgid ""
 "<../quickstart/mapproxy_quickstart>`] - Proxy WMS & tile services"
 msgstr ""
 "|OSGeo_community| :doc:`mapproxy_overview` - [:doc:`Gyorstalpaló "
-"<../quickstart/mapproxy_quickstart>`] - Proxy WMS és csempe szolgáltatások"
+"<../quickstart/mapproxy_quickstart>`] - Proxy WMS és csempe "
+"szolgáltatások"
 
 #: ../../build/doc/overview/overview.rst:161
+#, fuzzy
 msgid ""
-"|OSGeo_community| :doc:`pygeoapi_overview` - [:doc:`Quickstart "
+"|OSGeo_project| :doc:`pygeoapi_overview` - [:doc:`Quickstart "
 "<../quickstart/pygeoapi_quickstart>`] - OGC Web Services"
 msgstr ""
 "|OSGeo_community| :doc:`pygeoapi_overview` - [:doc:`Gyorstalpaló "
@@ -327,8 +293,8 @@ msgid ""
 "|OSGeo_community| |vmdk| :doc:`actinia_overview` - [:doc:`Quickstart "
 "<../quickstart/actinia_quickstart>`] - Processing of Geographical Data"
 msgstr ""
-"|OSGeo_community| |vmdk| :doc:`actinia_overview` - [:doc:`Gyorstalpaló <../"
-"quickstart/actinia_quickstart>`] - Földrajzi adatok feldolgozása"
+"|OSGeo_community| |vmdk| :doc:`actinia_overview` - [:doc:`Gyorstalpaló "
+"<../quickstart/actinia_quickstart>`] - Földrajzi adatok feldolgozása"
 
 #: ../../build/doc/overview/overview.rst:167
 msgid ""
@@ -341,8 +307,9 @@ msgstr ""
 #: ../../build/doc/overview/overview.rst:169
 msgid ""
 "|nologo| |vmdk| :doc:`ETF_overview` - [:doc:`Quickstart "
-"<../quickstart/ETF_quickstart>`] - Testing framework for validating spatial "
-"data, metadata and web services in Spatial Data Infrastructures (SDIs)"
+"<../quickstart/ETF_quickstart>`] - Testing framework for validating "
+"spatial data, metadata and web services in Spatial Data Infrastructures "
+"(SDIs)"
 msgstr ""
 "|nologo| |vmdk| :doc:`ETF_overview` - [:doc:`gyorstalpaló "
 "<../quickstart/ETF_quickstart>`] - Teszt keretrendszer térbeli adatok, "
@@ -386,8 +353,8 @@ msgid ""
 "|nologo| |vmdk| :doc:`52nSOS_overview` - [:doc:`Quickstart "
 "<../quickstart/52nSOS_quickstart>`] - Sensor Observation Service"
 msgstr ""
-"|nologo| |vmdk| :doc:`52nSOS_overview` - [:doc:`Gyorstalpaló <../quickstart/"
-"52nSOS_quickstart>`] - Szenzor észlelés szolgáltatás"
+"|nologo| |vmdk| :doc:`52nSOS_overview` - [:doc:`Gyorstalpaló "
+"<../quickstart/52nSOS_quickstart>`] - Szenzor észlelés szolgáltatás"
 
 #: ../../build/doc/overview/overview.rst:181
 msgid ""
@@ -426,8 +393,8 @@ msgid ""
 "|OSGeo_incubation| |vmdk| :doc:`rasdaman_overview` - [:doc:`Quickstart "
 "<../quickstart/rasdaman_quickstart>`] - Multi-Dimensional Raster Database"
 msgstr ""
-"|OSGeo_incubation| |vmdk| :doc:`rasdaman_overview` - [:doc:`Gyorstalpaló <../"
-"quickstart/rasdaman_quickstart>`] - Többdimenziós raszter adatbázis"
+"|OSGeo_incubation| |vmdk| :doc:`rasdaman_overview` - [:doc:`Gyorstalpaló "
+"<../quickstart/rasdaman_quickstart>`] - Többdimenziós raszter adatbázis"
 
 #: ../../build/doc/overview/overview.rst:207
 msgid ""
@@ -528,8 +495,8 @@ msgid ""
 "|nologo| :doc:`mapnik_overview` - [:doc:`Quickstart "
 "<../quickstart/mapnik_quickstart>`] - Cartographic Rendering"
 msgstr ""
-"|nologo| :doc:`mapnik_overview` - [:doc:`Gyorstalpaló <../quickstart/"
-"mapnik_quickstart>`] - Kartografált megjelenítés"
+"|nologo| :doc:`mapnik_overview` - [:doc:`Gyorstalpaló "
+"<../quickstart/mapnik_quickstart>`] - Kartografált megjelenítés"
 
 #: ../../build/doc/overview/overview.rst:271
 msgid ""
@@ -576,11 +543,11 @@ msgid ""
 "|nologo| :doc:`netcdf_dataset_overview`  - Time series temperature and "
 "precipitation"
 msgstr ""
-"|nologo| :doc:`netcdf_dataset_overview`  - Hőmérséklet és csapadék idősorok"
+"|nologo| :doc:`netcdf_dataset_overview`  - Hőmérséklet és csapadék "
+"idősorok"
 
 #: ../../build/doc/overview/overview.rst:307
-msgid ""
-"|nologo| :doc:`osm_dataset_overview`  - Sample extract from OpenStreetMap"
+msgid "|nologo| :doc:`osm_dataset_overview`  - Sample extract from OpenStreetMap"
 msgstr "|nologo| :doc:`osm_dataset_overview`  - Minta OpenStreetMap kivonat"
 
 #: ../../build/doc/overview/overview.rst:311
@@ -593,12 +560,12 @@ msgid ""
 "<../quickstart/gdal_quickstart>`] - Geospatial Data Translation Tools"
 msgstr ""
 "|OSGeo_project| :doc:`gdal_overview` - [:doc:`Gyorstalpaló "
-"<../quickstart/gdal_quickstart>`] - Térinformatikai adatátalakító eszközök"
+"<../quickstart/gdal_quickstart>`] - Térinformatikai adatátalakító "
+"eszközök"
 
 #: ../../build/doc/overview/overview.rst:328
 msgid "|OSGeo_project| :doc:`geos_overview`  - C/C++ Spatial Library"
-msgstr ""
-"|OSGeo_project| :doc:`geos_overview`  - C/C++ térinformatikai könyvtár"
+msgstr "|OSGeo_project| :doc:`geos_overview`  - C/C++ térinformatikai könyvtár"
 
 #: ../../build/doc/overview/overview.rst:330
 msgid "|OSGeo_project| :doc:`geotools_overview`  - Java GIS Toolkit"
@@ -626,11 +593,11 @@ msgstr "|nologo| :doc:`ogc_overview`  - Open Geospatial Consortium"
 
 #: ../../build/doc/overview/overview.rst:350
 msgid ""
-"|nologo| :doc:`inspire_overview`  - Infrastructure for Spatial Information "
-"in Europe"
+"|nologo| :doc:`inspire_overview`  - Infrastructure for Spatial "
+"Information in Europe"
 msgstr ""
-"|nologo| :doc:`inspire_overview`  - Infrastructure for Spatial Information "
-"in Europe"
+"|nologo| :doc:`inspire_overview`  - Infrastructure for Spatial "
+"Information in Europe"
 
 #: ../../build/doc/overview/overview.rst:354
 msgid "Available in prior OSGeoLive releases"
@@ -639,3 +606,4 @@ msgstr "Elérhető az OSGeo-Live korábbi verzióiban"
 #: ../../build/doc/overview/overview.rst:366
 msgid ":doc:`../prior_applications`"
 msgstr ":doc:`../prior_applications`"
+

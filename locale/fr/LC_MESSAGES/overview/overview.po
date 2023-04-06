@@ -1,29 +1,30 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2017
 # Vicky Vergara <vicky@georepublic.de>, 2018
 # Harrissou Sant-anna, 2021
 # Pierre Vivet <pierre.v.vivet@gmail.com>, 2021
 # Nicolas Roelandt (Personnel), 2022
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-03 09:57+0000\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
 "Last-Translator: Nicolas Roelandt (Personnel), 2022\n"
-"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
+"1000000 == 0 ? 1 : 2;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/overview/overview.rst:6
 msgid "|osgeolive-version| Contents"
@@ -37,18 +38,7 @@ msgstr "Symbologie"
 msgid "|osgeo_project| Is an OSGeo Project"
 msgstr "|osgeo_project| est un projet OSGeo"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "Projet OSGeo"
 
@@ -56,12 +46,7 @@ msgstr "Projet OSGeo"
 msgid "|osgeo_community| Is an OSGeo Community Project"
 msgstr "|osgeo_community| est un projet de la communauté OSGeo"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "Communauté OSGeo"
 
@@ -69,11 +54,6 @@ msgstr "Communauté OSGeo"
 msgid "|vmdk| Included only on OSGeoLive VMDK version"
 msgstr "|vmdk| Inclus seulement dans la version VMDK d'OSGeoLive"
 
-#: ../../build/doc/<rst_epilog>:13 ../../build/doc/<rst_epilog>:13
-#: ../../build/doc/<rst_epilog>:13 ../../build/doc/<rst_epilog>:13
-#: ../../build/doc/<rst_epilog>:13 ../../build/doc/<rst_epilog>:13
-#: ../../build/doc/<rst_epilog>:13 ../../build/doc/<rst_epilog>:13
-#: ../../build/doc/<rst_epilog>:13 ../../build/doc/<rst_epilog>:13
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr "vmdk"
@@ -118,22 +98,6 @@ msgstr ""
 "|nologo| :doc:`openjump_overview` - [:doc:`Quickstart "
 "<../quickstart/openjump_quickstart>`]"
 
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
 #: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr "Pas de logo"
@@ -158,8 +122,7 @@ msgstr "Interface SIG dans le navigateur"
 
 #: ../../build/doc/overview/overview.rst:55
 msgid "General GIS viewing, editing and analysis in the browser"
-msgstr ""
-"Visualisation SIG en général, édition, et analyse dans le navigateur web"
+msgstr "Visualisation SIG en général, édition, et analyse dans le navigateur web"
 
 #: ../../build/doc/overview/overview.rst:77
 msgid ""
@@ -172,7 +135,8 @@ msgstr ""
 #: ../../build/doc/overview/overview.rst:79
 msgid ""
 "|OSGeo_project| :doc:`geonode_overview` - [:doc:`Quickstart "
-"<../quickstart/geonode_quickstart>`] - Geospatial Content Management System"
+"<../quickstart/geonode_quickstart>`] - Geospatial Content Management "
+"System"
 msgstr ""
 "|OSGeo_project| :doc:`geonode_overview` - [:doc:`Quickstart "
 "<../quickstart/geonode_quickstart>`] - Système de management de contenu "
@@ -210,8 +174,8 @@ msgid ""
 "<../quickstart/cesium_quickstart>`] - 3D globes and 2D maps in a browser"
 msgstr ""
 "|nologo| :doc:`cesium_overview` - [:doc:`Quickstart "
-"<../quickstart/cesium_quickstart>`] - Globes 3D globes et cartes 2D dans le "
-"navigateur"
+"<../quickstart/cesium_quickstart>`] - Globes 3D globes et cartes 2D dans "
+"le navigateur"
 
 #: ../../build/doc/overview/overview.rst:89
 msgid ""
@@ -228,8 +192,8 @@ msgid ""
 "<../quickstart/leaflet_quickstart>`] - Mobile Friendly Interactive Maps"
 msgstr ""
 "|nologo| :doc:`leaflet_overview` - [:doc:`Quickstart "
-"<../quickstart/leaflet_quickstart>`] - Cartes Interactives compatibles pour "
-"Mobiles"
+"<../quickstart/leaflet_quickstart>`] - Cartes Interactives compatibles "
+"pour Mobiles"
 
 #: ../../build/doc/overview/overview.rst:95
 msgid "Web Services"
@@ -312,8 +276,9 @@ msgstr ""
 "<../quickstart/mapproxy_quickstart>`] - Proxy WMS et services de tuiles"
 
 #: ../../build/doc/overview/overview.rst:161
+#, fuzzy
 msgid ""
-"|OSGeo_community| :doc:`pygeoapi_overview` - [:doc:`Quickstart "
+"|OSGeo_project| :doc:`pygeoapi_overview` - [:doc:`Quickstart "
 "<../quickstart/pygeoapi_quickstart>`] - OGC Web Services"
 msgstr ""
 "|OSGeo_community| :doc:`pygeoapi_overview` - [:doc:`Guide de démarrage "
@@ -325,8 +290,8 @@ msgid ""
 "<../quickstart/zoo-project_quickstart>`] - Web Processing Service"
 msgstr ""
 "|OSGeo_incubation| :doc:`zoo-project_overview` - [:doc:`Quickstart "
-"<../quickstart/zoo-project_quickstart>`] -  Service de géotraitement via le "
-"Web"
+"<../quickstart/zoo-project_quickstart>`] -  Service de géotraitement via "
+"le Web"
 
 #: ../../build/doc/overview/overview.rst:165
 msgid ""
@@ -345,8 +310,9 @@ msgstr ""
 #: ../../build/doc/overview/overview.rst:169
 msgid ""
 "|nologo| |vmdk| :doc:`ETF_overview` - [:doc:`Quickstart "
-"<../quickstart/ETF_quickstart>`] - Testing framework for validating spatial "
-"data, metadata and web services in Spatial Data Infrastructures (SDIs)"
+"<../quickstart/ETF_quickstart>`] - Testing framework for validating "
+"spatial data, metadata and web services in Spatial Data Infrastructures "
+"(SDIs)"
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:171
@@ -393,7 +359,8 @@ msgid ""
 "<../quickstart/52nWPS_quickstart>`] - Web Processing Service"
 msgstr ""
 "|nologo| :doc:`52nWPS_overview` - [:doc:`Quickstart "
-"<../quickstart/52nWPS_quickstart>`] -  Service de géotraitement via le Web"
+"<../quickstart/52nWPS_quickstart>`] -  Service de géotraitement via le "
+"Web"
 
 #: ../../build/doc/overview/overview.rst:185
 msgid "Data Stores"
@@ -459,7 +426,8 @@ msgid ""
 "<../quickstart/josm_quickstart>`] - OpenStreetMap Desktop Editor"
 msgstr ""
 "|nologo| :doc:`josm_overview` - [:doc:`Quickstart "
-"<../quickstart/josm_quickstart>`] - Éditeur bureautique pour OpenStreetMap"
+"<../quickstart/josm_quickstart>`] - Éditeur bureautique pour "
+"OpenStreetMap"
 
 #: ../../build/doc/overview/overview.rst:237
 msgid ""
@@ -467,8 +435,8 @@ msgid ""
 "<../quickstart/gpsprune_quickstart>`] - View, Edit and Convert GPS Tracks"
 msgstr ""
 "|nologo| :doc:`gpsprune_overview` - [:doc:`Quickstart "
-"<../quickstart/gpsprune_quickstart>`] - Voir, éditer et convertir des traces"
-" GPS"
+"<../quickstart/gpsprune_quickstart>`] - Voir, éditer et convertir des "
+"traces GPS"
 
 #: ../../build/doc/overview/overview.rst:239
 msgid ""
@@ -476,7 +444,8 @@ msgid ""
 "<../quickstart/opencpn_quickstart>`] - Marine GPS Chartplotter"
 msgstr ""
 "|nologo| :doc:`opencpn_overview` - [:doc:`Quickstart "
-"<../quickstart/opencpn_quickstart>`] - Traceur de courses pour GPS Marins "
+"<../quickstart/opencpn_quickstart>`] - Traceur de courses pour GPS Marins"
+" "
 
 #: ../../build/doc/overview/overview.rst:241
 msgid ""
@@ -516,8 +485,8 @@ msgid ""
 "<../quickstart/jupyter_quickstart>`] - Mixing rich media in presentations"
 msgstr ""
 "|nologo| :doc:`jupyter_overview` - [:doc:`Quickstart "
-"<../quickstart/jupyter_quickstart>`] - Mélange des contenus médias dans les "
-"présentations"
+"<../quickstart/jupyter_quickstart>`] - Mélange des contenus médias dans "
+"les présentations"
 
 #: ../../build/doc/overview/overview.rst:269
 msgid ""
@@ -549,7 +518,8 @@ msgid ""
 "<../quickstart/xygrib_quickstart>`] - Weather Forecast Maps"
 msgstr ""
 "|nologo| :doc:`xygrib_overview` - [:doc:`Quickstart "
-"<../quickstart/xygrib_quickstart>`] - Cartes de prévisions météorologiques"
+"<../quickstart/xygrib_quickstart>`] - Cartes de prévisions "
+"météorologiques"
 
 #: ../../build/doc/overview/overview.rst:289
 msgid "Data"
@@ -576,10 +546,10 @@ msgstr ""
 "températures et précipitations"
 
 #: ../../build/doc/overview/overview.rst:307
-msgid ""
-"|nologo| :doc:`osm_dataset_overview`  - Sample extract from OpenStreetMap"
+msgid "|nologo| :doc:`osm_dataset_overview`  - Sample extract from OpenStreetMap"
 msgstr ""
-"|nologo| :doc:`osm_dataset_overview`  - Échantillon extrait de OpenStreetMap"
+"|nologo| :doc:`osm_dataset_overview`  - Échantillon extrait de "
+"OpenStreetMap"
 
 #: ../../build/doc/overview/overview.rst:311
 msgid "Geospatial Libraries"
@@ -608,8 +578,8 @@ msgid ""
 "<../quickstart/proj_quickstart>`] - Coordinate Reference System Libraries"
 msgstr ""
 "|OSGeo_project| :doc:`proj_overview` - [:doc:`Quickstart "
-"<../quickstart/proj_quickstart>`] - Bibliothèques de système de référence de"
-" coordonnées"
+"<../quickstart/proj_quickstart>`] - Bibliothèques de système de référence"
+" de coordonnées"
 
 #: ../../build/doc/overview/overview.rst:334
 msgid "|nologo| :doc:`jts_overview`  - Java Topology Suite"
@@ -625,11 +595,11 @@ msgstr "|nologo| :doc:`ogc_overview`  - Open Geospatial Consortium"
 
 #: ../../build/doc/overview/overview.rst:350
 msgid ""
-"|nologo| :doc:`inspire_overview`  - Infrastructure for Spatial Information "
-"in Europe"
+"|nologo| :doc:`inspire_overview`  - Infrastructure for Spatial "
+"Information in Europe"
 msgstr ""
-"|nologo| :doc:`inspire_overview`  - Infrastructure for Spatial Information "
-"in Europe (Inspire)"
+"|nologo| :doc:`inspire_overview`  - Infrastructure for Spatial "
+"Information in Europe (Inspire)"
 
 #: ../../build/doc/overview/overview.rst:354
 msgid "Available in prior OSGeoLive releases"
@@ -638,3 +608,4 @@ msgstr "Disponible dans les versions précédentes d’OSGeoLive"
 #: ../../build/doc/overview/overview.rst:366
 msgid ":doc:`../prior_applications`"
 msgstr ":doc:`../prior_applications`"
+

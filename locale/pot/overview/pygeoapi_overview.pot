@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-15 20:42-0600\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgstr ""
 msgid "`pygeoapi`_ is a `Python`_ server implementation of the OGC API suite of standards. The project emerged as part of the next generation `OGC API`_ efforts in 2018 and provides the capability for organizations to deploy a RESTful OGC API endpoint using OpenAPI, GeoJSON, and HTML. pygeoapi is `open source <https://opensource.org>`_ and released under an `MIT`_ license."
 msgstr ""
 
-#: ../../build/doc/overview/pygeoapi_overview.rst:None
+#: ../../build/doc/overview/pygeoapi_overview.rst:-1
 msgid "pygeoapi screenshot"
 msgstr ""
 
@@ -125,11 +125,6 @@ msgid "`OGC API - Coverages`_"
 msgstr ""
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:1
-#: ../../build/doc/overview/pygeoapi_overview.rst:1
-#: ../../build/doc/overview/pygeoapi_overview.rst:1
-#: ../../build/doc/overview/pygeoapi_overview.rst:1
-#: ../../build/doc/overview/pygeoapi_overview.rst:1
-#: ../../build/doc/overview/pygeoapi_overview.rst:1
 msgid "Implementing"
 msgstr ""
 
@@ -201,7 +196,6 @@ msgstr ""
 msgid "OSGeo Project"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""

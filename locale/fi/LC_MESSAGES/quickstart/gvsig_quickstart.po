@@ -1,30 +1,31 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2022
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
 "Last-Translator: Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2022\n"
-"Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: fi\n"
+"Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:18
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+"This  project is only included on the OSGeoLive virtual machine disk "
+"(VMDK)"
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:24
@@ -35,13 +36,13 @@ msgstr ""
 msgid ""
 "gvSIG is a Geographic Information System (GIS), that is, a desktop "
 "application designed for capturing, storing, handling, analyzing and "
-"deploying any kind of referenced geographic information in order to solve "
-"complex management and planning problems. gvSIG is known for having a user-"
-"friendly interface, being able to access the most common formats, both "
-"vector and raster ones. It features a wide range of tools for working with "
-"geographic-like information (query tools, layout creation, geoprocessing, "
-"networks, etc.), which turns gvSIG into the ideal tool for users working in "
-"the land realm."
+"deploying any kind of referenced geographic information in order to solve"
+" complex management and planning problems. gvSIG is known for having a "
+"user-friendly interface, being able to access the most common formats, "
+"both vector and raster ones. It features a wide range of tools for "
+"working with geographic-like information (query tools, layout creation, "
+"geoprocessing, networks, etc.), which turns gvSIG into the ideal tool for"
+" users working in the land realm."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:36
@@ -50,20 +51,20 @@ msgstr "Sisältö"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:38
 msgid ""
-"If gvSIG user interface becomes unresponsive, try :kbd:`Alt+f` to open the "
-"file menu for example. User interface should work again, then. This bug only"
-" happens in the gvSIG distro for OSGeoLive. It doesn't appear in a normal "
-"gvSIG installation."
+"If gvSIG user interface becomes unresponsive, try :kbd:`Alt+f` to open "
+"the file menu for example. User interface should work again, then. This "
+"bug only happens in the gvSIG distro for OSGeoLive. It doesn't appear in "
+"a normal gvSIG installation."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:43
 msgid ""
-"Note for version gvSIG 2.3.1: To load raster files the user must have write "
-"permission in the folder where the file is. Otherwise the application will "
-"ask for a valid folder (with write permission). Since the \"user\" user "
-"doesn't have write permission in the \"data\" folder, it will be necessary "
-"to select, when asked, a folder where the user does have write permission, "
-"like for example, \"/home/user\"."
+"Note for version gvSIG 2.3.1: To load raster files the user must have "
+"write permission in the folder where the file is. Otherwise the "
+"application will ask for a valid folder (with write permission). Since "
+"the \"user\" user doesn't have write permission in the \"data\" folder, "
+"it will be necessary to select, when asked, a folder where the user does "
+"have write permission, like for example, \"/home/user\"."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:51
@@ -72,18 +73,18 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:53
 msgid ""
-"Select gvSIG from the application menu, :menuselection:`Geospatial --> "
-"Desktop GIS --> gvSIG`. The application usually takes about a minute to "
-"startup."
+"Select gvSIG from the application menu, |menu_gvsig|. The application "
+"usually takes about a minute to startup."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:55
 msgid ""
-"By default gvSIG opens with an empty project file with the 'View' document "
-"type selected. However, on OSGeoLive, gvSIG has been configured to start "
-"with a default project. Click on the :guilabel:`New Project` button or go to"
-" :menuselection:`File --> New Project`. When prompted, you can select "
-":guilabel:`Discard Changes` as we won't be using the last project."
+"By default gvSIG opens with an empty project file with the 'View' "
+"document type selected. However, on OSGeoLive, gvSIG has been configured "
+"to start with a default project. Click on the :guilabel:`New Project` "
+"button or go to :menuselection:`File --> New Project`. When prompted, you"
+" can select :guilabel:`Discard Changes` as we won't be using the last "
+"project."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:61
@@ -102,8 +103,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:74
 msgid ""
-"For the :guilabel:`Current projection`, click on the :guilabel:`...` button."
-" This will open the **New CRS** dialog."
+"For the :guilabel:`Current projection`, click on the :guilabel:`...` "
+"button. This will open the **New CRS** dialog."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:76
@@ -112,16 +113,16 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:77
 msgid ""
-"Enter the EPSG code for the Coordinate Reference System. For this example we"
-" are using EPSG=4326, which is the WGS84 2D Geographic Projection. Then "
-"click on the :guilabel:`Search` button. This will list the selected CRS in "
-"the table below the search input field."
+"Enter the EPSG code for the Coordinate Reference System. For this example"
+" we are using EPSG=4326, which is the WGS84 2D Geographic Projection. "
+"Then click on the :guilabel:`Search` button. This will list the selected "
+"CRS in the table below the search input field."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:81
 msgid ""
-"Select :guilabel:`OK` to return to the **View Properties** dialog. The EPSG "
-"code is now 4326 and that the map units have changed to degrees."
+"Select :guilabel:`OK` to return to the **View Properties** dialog. The "
+"EPSG code is now 4326 and that the map units have changed to degrees."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:82
@@ -134,8 +135,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:88
 msgid ""
-"(2) The top-left cell contains a list of vector or raster layers being used "
-"in the view (i.e. Table-of-Contents)."
+"(2) The top-left cell contains a list of vector or raster layers being "
+"used in the view (i.e. Table-of-Contents)."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:90
@@ -146,8 +147,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:92
 msgid ""
-"(4) The right cell is the main display area where raster and vector data is "
-"rendered."
+"(4) The right cell is the main display area where raster and vector data "
+"is rendered."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:99
@@ -162,8 +163,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:102
 msgid ""
-"Select :guilabel:`Add` in the **Add layer** dialog. By default the first tab"
-" is :guilabel:`File` so the **Open** file dialog will appear."
+"Select :guilabel:`Add` in the **Add layer** dialog. By default the first "
+"tab is :guilabel:`File` so the **Open** file dialog will appear."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:104
@@ -181,14 +182,13 @@ msgid ""
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:112
-msgid ""
-"Click on the :guilabel:`OK` button to return to the **Add layer** dialog."
+msgid "Click on the :guilabel:`OK` button to return to the **Add layer** dialog."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:113
 msgid ""
-"Click on the :guilabel:`OK` button on the **Add layer** dialog to return to "
-"the view."
+"Click on the :guilabel:`OK` button on the **Add layer** dialog to return "
+"to the view."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:117
@@ -196,20 +196,19 @@ msgid "Configure the view display"
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:119
-msgid ""
-"Click on the :guilabel:`Maximize` icon for a better viewing of the data."
+msgid "Click on the :guilabel:`Maximize` icon for a better viewing of the data."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:120
 msgid ""
-"The size of the Table-of-Contents column can be adjusted using the mouse to "
-"help see long file names."
+"The size of the Table-of-Contents column can be adjusted using the mouse "
+"to help see long file names."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:122
 msgid ""
-"In case the raster layer is on the top it should be moved manually to the "
-"bottom."
+"In case the raster layer is on the top it should be moved manually to the"
+" bottom."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:128
@@ -222,11 +221,11 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:131
 msgid ""
-"Use the mouse pointer to draw a bounding box around South-east Australia. Do"
-" this by selecting the top-left corner of the bounding box, holding down the"
-" left-mouse-button, and dragging the bottom-right corner of the bounding box"
-" over the selected area. Release the left-mouse button once you have the "
-"approximate area defined."
+"Use the mouse pointer to draw a bounding box around South-east Australia."
+" Do this by selecting the top-left corner of the bounding box, holding "
+"down the left-mouse-button, and dragging the bottom-right corner of the "
+"bounding box over the selected area. Release the left-mouse button once "
+"you have the approximate area defined."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:141
@@ -257,14 +256,14 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:157
 msgid ""
-"Select the :guilabel:`Symbols` tab at the top of the **Layers properties** "
-"dialog."
+"Select the :guilabel:`Symbols` tab at the top of the **Layers "
+"properties** dialog."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:158
 msgid ""
-"Select :guilabel:`Choose symbol` button so the **Symbol selector** dialog "
-"appears."
+"Select :guilabel:`Choose symbol` button so the **Symbol selector** dialog"
+" appears."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:161
@@ -272,8 +271,7 @@ msgid "Remove the fill symbol and changing the border color"
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:163
-msgid ""
-"Uncheck the :guilabel:`Fill color` box so the polygons are transparent."
+msgid "Uncheck the :guilabel:`Fill color` box so the polygons are transparent."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:164
@@ -292,8 +290,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:167
 msgid ""
-"Click on the :guilabel:`OK` button to return to the **Layers properties** "
-"dialog."
+"Click on the :guilabel:`OK` button to return to the **Layers properties**"
+" dialog."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:173
@@ -302,14 +300,14 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:175
 msgid ""
-"Select the :guilabel:`Labelling` tab at the top of the **Layers properties**"
-" dialog."
+"Select the :guilabel:`Labelling` tab at the top of the **Layers "
+"properties** dialog."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:176
 msgid ""
-"Change the text attributes to those shown on the image, then click on the "
-":guilabel:`Accept` button."
+"Change the text attributes to those shown on the image, then click on the"
+" :guilabel:`Accept` button."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:183
@@ -320,10 +318,10 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:185
 msgid ""
-"Note that this is a very basic view showing a point, a line and a polygon "
-"vector file superimposed over a raster file. It is just as easy to have an "
-"aerial photograph or Digital Terrain Model as a backdrop to your vector "
-"data, or to show other vector data stored in different formats."
+"Note that this is a very basic view showing a point, a line and a polygon"
+" vector file superimposed over a raster file. It is just as easy to have "
+"an aerial photograph or Digital Terrain Model as a backdrop to your "
+"vector data, or to show other vector data stored in different formats."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:194
@@ -347,13 +345,11 @@ msgid "Select the ``HYP_50M_SR_W.tif`` layer."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:205
-msgid ""
-"Click on the :guilabel:`Open` button to return to the Add layer window."
+msgid "Click on the :guilabel:`Open` button to return to the Add layer window."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:206
-msgid ""
-"Click on the :guilabel:`Ok` button and close the Configure locator window."
+msgid "Click on the :guilabel:`Ok` button and close the Configure locator window."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:212
@@ -424,8 +420,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:249
 msgid ""
-"Select the :guilabel:`Cancel` button in the **Selection by Layer** dialog to"
-" return to the view."
+"Select the :guilabel:`Cancel` button in the **Selection by Layer** dialog"
+" to return to the view."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:256
@@ -437,8 +433,7 @@ msgid "Select the 'Clear selection' icon in the main toolbar."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:260
-msgid ""
-"You can now see that only those towns within New South Wales are selected."
+msgid "You can now see that only those towns within New South Wales are selected."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:266
@@ -493,8 +488,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:297
 msgid ""
-"Choose the option *Selected features* in order to export only the towns of "
-"New South Wales."
+"Choose the option *Selected features* in order to export only the towns "
+"of New South Wales."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:299
@@ -507,8 +502,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:308
 msgid ""
-"In order to check that the export was ok set the original file as invisible."
-" Only the towns of New South Wales should be shown."
+"In order to check that the export was ok set the original file as "
+"invisible. Only the towns of New South Wales should be shown."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:316
@@ -525,8 +520,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:320
 msgid ""
-"A new window is shown, where you can select the view to insert on the Map. "
-"Select the only view that you have and press *Accept*."
+"A new window is shown, where you can select the view to insert on the "
+"Map. Select the only view that you have and press *Accept*."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:322
@@ -546,8 +541,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:329
 msgid ""
-"The map can be printed or exported to PDF or Postscript for incorporation "
-"into other works."
+"The map can be printed or exported to PDF or Postscript for incorporation"
+" into other works."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:331
@@ -562,14 +557,14 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:339
 msgid ""
-"Projects can be saved for use later by using the :menuselection:`File --> "
-"Save as...` menu option, or"
+"Projects can be saved for use later by using the :menuselection:`File -->"
+" Save as...` menu option, or"
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:341
 msgid ""
-"Projects can be exited or closed by using the :menuselection:`File --> Exit`"
-" menu option."
+"Projects can be exited or closed by using the :menuselection:`File --> "
+"Exit` menu option."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:347
@@ -588,8 +583,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:354
 msgid ""
-"Within the *Install package* window, select the option *Installation from "
-"URL*."
+"Within the *Install package* window, select the option *Installation from"
+" URL*."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:355
@@ -717,8 +712,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:437
 msgid ""
-"Select *EPSG:4326* (notice that the view must have the same SRS. If not then"
-" cancel, change it and start again)."
+"Select *EPSG:4326* (notice that the view must have the same SRS. If not "
+"then cancel, change it and start again)."
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:439
@@ -747,26 +742,27 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:454
 msgid ""
-"`Learning gvSIG in 30 minutes <https://blog.gvsig.org/2017/05/23/learning-"
-"gvsig-in-30-minutes/>`_"
+"`Learning gvSIG in 30 minutes <https://blog.gvsig.org/2017/05/23"
+"/learning-gvsig-in-30-minutes/>`_"
 msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:455
 msgid "`gvSIG Blog <https://blog.gvsig.org/category/languages/english/>`_"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr ""
+
