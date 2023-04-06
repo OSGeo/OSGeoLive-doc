@@ -7,20 +7,22 @@
 # Vicky Vergara <vicky@georepublic.de>, 2022
 # MarPetra <mvergaratrejo@gmail.com>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-03 09:57+0000\n"
-"PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2022\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"PO-Revision-Date: 2023-04-06 19:08+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"rasdaman_overview/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:19
 msgid "Rasdaman"
@@ -88,7 +90,7 @@ msgstr "Características Principales"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:42
 msgid "truly multi-dimensional - 1-D, 2-D, 3-D, 4-D, and beyond"
-msgstr "verdaderamente multidimensional - 1-D, 2-D, 3-D, 4-D,  y más allá"
+msgstr "verdaderamente multidimensional - 1-D, 2-D, 3-D, 4-D, y más allá"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:43
 msgid ""
@@ -109,7 +111,7 @@ msgid ""
 " to cluster and cloud"
 msgstr ""
 "paralelización y \"transmisión de mosaicos\" para una escalabilidad "
-"ilimitada de laptop a agrupación y nube."
+"ilimitada de laptop a agrupación y nube"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:46
 msgid ""

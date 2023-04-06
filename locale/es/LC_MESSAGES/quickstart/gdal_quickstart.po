@@ -7,20 +7,22 @@
 # MarPetra <mvergaratrejo@gmail.com>, 2022
 # Vicky Vergara <vicky@georepublic.de>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"PO-Revision-Date: 2023-04-06 19:08+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"gdal_quickstart/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:21
 msgid "GDAL/OGR Quickstart"
@@ -173,7 +175,7 @@ msgstr "Lectura/escritura (rw) o"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:118
 msgid "read/write/update (rw+)."
-msgstr "leer/escribir/actualizar(rw+). "
+msgstr "leer/escribir/actualizar(rw+)."
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:124
 msgid ""
@@ -384,9 +386,9 @@ msgid ""
 "You can use `--formats` to get the list of the supported formats with "
 "read/write information."
 msgstr ""
-"Puede utilizar ogr2ogr para convertir datos de características simples entre"
-" formatos de archivo. Puede utilizar `--formats`  para obtener la lista de "
-"los formatos soportados con información de lectura/escritura"
+"Puede utilizar ogr2ogr para convertir datos de características simples entre "
+"formatos de archivo. Puede utilizar `--formats`  para obtener la lista de "
+"los formatos soportados con información de lectura/escritura."
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:426
 msgid "Convert the countries to GML."
@@ -428,7 +430,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:447
 msgid "Try the QGIS plugin OGR-Layer-Konverter."
-msgstr "Pruebe el plugin OGR-Layer-Konverter de QGIS. "
+msgstr "Pruebe el plugin OGR-Layer-Konverter de QGIS."
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:451
 msgid "What next?"
