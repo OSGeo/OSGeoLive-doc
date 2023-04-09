@@ -5,21 +5,21 @@
 #
 # Translators:
 # Ko Nagase <nagase@georepublic.co.jp>, 2022
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2019-07-18 21:56+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2022\n"
+"PO-Revision-Date: 2023-04-09 03:08+0000\n"
+"Last-Translator: Ko Nagase <geosanak@gmail.com>\n"
+"Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
+"actinia_overview/ja/>\n"
 "Language: ja\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)"
-"\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/overview/actinia_overview.rst:18
@@ -37,9 +37,9 @@ msgid ""
 "data that uses mainly `GRASS GIS <https://grass.osgeo.org/>`__ for "
 "computational tasks."
 msgstr ""
-"`Actinia <https://actinia.mundialis.de/>`__ "
-"は、地理データのスケーラブルで分散した高パフォーマンス処理のためのオープンソースREST APIであり、計算タスクに  `GRASS GIS "
-"<https://grass.osgeo.org/>`__  を使用します。"
+"`Actinia <https://actinia.mundialis.de/>`__ は、地理データのスケーラブルで分"
+"散した高パフォーマンス処理のためのオープンソースREST APIであり、計算タスクに "
+"`GRASS GIS <https://grass.osgeo.org/>`__ を使用します。"
 
 #: ../../build/doc/overview/actinia_overview.rst:28
 msgid ""
@@ -63,9 +63,9 @@ msgid ""
 msgstr "衛星画像、時系列の衛星画像、ラスタおよびベクタデータを処理するREST API。"
 
 #: ../../build/doc/overview/actinia_overview.rst:42
-#, fuzzy
 msgid "Explore the `tutorial <https://actinia-org.github.io/actinia-core/>`_."
-msgstr "`チュートリアル <https://mundialis.github.io/actinia_core/>`_ をご覧ください。"
+msgstr "`チュートリアル <https://actinia-org.github.io/actinia_core/>`_ "
+"をご覧ください。"
 
 #: ../../build/doc/overview/actinia_overview.rst:45
 msgid "Details"
@@ -132,4 +132,3 @@ msgstr "OSGeo プロジェクト"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo コミュニティ"
-
