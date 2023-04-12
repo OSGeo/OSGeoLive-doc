@@ -206,6 +206,7 @@ linkcheck_ignore = [
         r'https://docs.etf-validator.net',
         r'https://etf-validator.net',
         r'https://www.ogc.org',
+        r'https://www.safe.com',
 
         # link exists but when many link checks are done link checker fails
         # ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
