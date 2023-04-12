@@ -115,6 +115,8 @@ Information about how to document the projects on OSGeoLive can be found on the 
 * `How to configure project documentation <https://trac.osgeo.org/osgeolive/wiki/How%20to%20configure%20a%20project%20documentation>`__
 * `How to document the overview file <https://trac.osgeo.org/osgeolive/wiki/How%20to%20document%20the%20overview%20file>`__
 * `How to document the quickstart file <https://trac.osgeo.org/osgeolive/wiki/How%20to%20document%20the%20quickstart%20file>`__
+* `Weblate translation platform <https://osgeo.github.io/OSGeoLive-doc/en/index.html>`__
+
 
 References:
 ~~~~~~~~~~~
