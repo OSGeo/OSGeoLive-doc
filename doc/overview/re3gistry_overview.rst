@@ -3,10 +3,10 @@
 :Author: Marco Minghini
 :Reviewer:
 :Reviewer:
-:Version: osgeolive14.0
+:Version: osgeolive16.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
-@LOGO_inspire@
+@LOGO_re3gistry@
 @OSGEO_KIND_re3gistry@
 
 
@@ -42,7 +42,7 @@ Core Features
 * Support for versioning
 * RESTful API with content negotiation (including OpenAPI 3 descriptor)
 * Free-text search
-* Supported formats: HTML, ISO 19135 XML, JSON
+* Supported formats: HTML, ISO 19135 XML, JSON, RDF/XML, Re3gistry XML, CSV, ATOM 
 * Service formats can be easily added or customised (default formats: JSON and ISO 19135 XML)
 * Multiple authentication options
 * Externally governed items referenced through URIs
