@@ -1,8 +1,8 @@
 :Author: Alexander Kotsev :Author: Daniele Francioli :Author: Marco Minghini
-         :Reviewer: :Version: osgeolive14.0 :License: Creative Commons
+         :Reviewer: :Version: osgeolive16.0 :License: Creative Commons
          Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-@LOGO_inspire@ @OSGEO_KIND_re3gistry@
+@LOGO_re3gistry@ @OSGEO_KIND_re3gistry@
 
 ********************************************************************************
 @NAME_re3gistry@ Quickstart
