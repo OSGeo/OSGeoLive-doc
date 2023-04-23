@@ -1,3 +1,9 @@
+osgeolive-docs (16.0~alpha3) jammy; urgency=medium
+
+  * Preparing 16.0 alpha3 release.
+
+ -- Angelos Tzotsos <gcpp.kalxas@gmail.com>  Sun, 23 Apr 2023 19:00:00 +0300
+
 osgeolive-docs (16.0~alpha2) jammy; urgency=medium
 
   * Preparing 16.0 alpha2 release.
