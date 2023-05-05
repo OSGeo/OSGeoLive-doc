@@ -43,6 +43,7 @@ Can we reuse an existing / pre-installed .qgs project? where from?
 
 Navigation
 ==========
+
 - pan by holding n dragging
 - zooming with mouse wheel
 - rotating by holding middle click down
