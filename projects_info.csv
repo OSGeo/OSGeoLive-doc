@@ -10,7 +10,7 @@ Y | qgis | 3.22.7 | Y | Y | Desktop GIS | | | qgis | https://www.qgis.org/en/sit
 #   OSGeo Community | | | | | | | | | | | |
 #   Others  | | | | | | | | | | | |
 Y | openjump | 1.15.1 | Y | Y | Desktop GIS | | | openjump_gis | http://www.openjump.org | | OpenJUMP GIS | Y
-Y | qfield | 2.7.6 | Y | Y | Mobile GIS | | | qfield | https://qfield.org/ | | QField | N
+Y | qfield | 2.7.6 | Y | Y | Desktop GIS | | | qfield | https://qfield.org/ | | QField | N
 Y | saga | 7.3.0 | Y | Y | Desktop GIS | | | saga-gis | https://saga-gis.sourceforge.io/en/index.html | | SAGA | Y
 Y | udig | 2.0.0RC1 | Y | Y | Desktop GIS | | | udig | http://udig.refractions.net/ | | uDig | N
 ###################### | | | | | | | | | | | |
