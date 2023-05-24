@@ -94,10 +94,10 @@ available for each layer.
 Close the legend by clicking the white arrow on the top left or by clicking anywhere on the canvas
 outside the legend panel.
 
-Edit Data
-=========
+Digitize Data
+=============
 
-By default, QField opens in read only mode and you are not able to make any changes to the data.
+By default, QField opens in read/view mode and you are not able to make any changes to preexisting geometries or add new features.
 To go into digitize mode:
 
 #. Click the hamburger menu on the top left corner, so you see the legend.
@@ -109,7 +109,7 @@ To go into digitize mode:
 
 Next, we will create a new airport.
 
-#. Activate the airports layer by clicking on the `airports` layer
+#. Activate the airports layer by clicking on the `airports` layer. The current layer within which digitizing will occur is highlighted using a green background in the legend.
 #. Close the layer panel
 #. You will see a crosshair appear. This will follow your mouse or stay in the center of the screen if you are working with a touch screen.
   #. If you have a mouse: click to create a new airport.
