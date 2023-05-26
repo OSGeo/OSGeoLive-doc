@@ -123,5 +123,6 @@ What next?
 
 * Documentation: http://datacube-core.readthedocs.io/en/latest/
 * Website: @WEB_odc@
-* Support: Slack https://slack.opendatacube.org
+* Support: https://www.opendatacube.org/faq
+
 
