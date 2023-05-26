@@ -45,8 +45,8 @@ to managing data.
 Core Features
 --------------------------------------------------------------------------------
 
-* Journal quality cartography.
-* Gridding and contouring functions.
+* storing, processing and analyzing large collections of earth observation data
+* Gridding and contouring functions
 
 Details
 --------------------------------------------------------------------------------
@@ -61,11 +61,11 @@ Details
 
 **API Interfaces:** Command line
 
-**Support:** https:///
+**Support:** https://www.opendatacube.org/faq
 
 
 @VMDK_odc@
 @QUICKSTART_odc@
 
 .. presentation-note
-    Generic Mapping Tools, or GMT is a collection of tools that allow users to manipulate (x,y) and (x,y,z) data sets
+    Open Data Cube was originally written in Australia.
