@@ -121,7 +121,7 @@ Things to try
 What next?
 ==========
 
-* Documentation: http://datacube-core.readthedocs.io/en/latest/
+* Documentation: http://datacube-core.readthedocs.io/en/stable/
 * Website: @WEB_odc@
 * Support: https://www.opendatacube.org/faq
 
