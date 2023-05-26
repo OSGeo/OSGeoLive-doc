@@ -60,6 +60,7 @@ Y | postgis | 3.2.0 | Y | Y | Data Stores | | Spatial Database | postgis | http:
 #   OSGeo Community | | | | | | | | | | | |
 Y | pgrouting | 3.3.0 | Y | Y | Data Stores | | Routing for PostGIS | pgrouting | https://pgrouting.org/ | OSGeo_community | pgRouting | Y
 Y | rasdaman | 10.0.0 | Y | Y | Data Stores | | Multi-Dimensional Raster Database | rasdaman | https://rasdaman.org | OSGeo_incubation | Rasdaman | N
+Y | odc | 1.8.9 | Y | Y | Data Stores | | Time-Series Database | odc | https://www.opendatacube.org | OSGeo_community | Open Data Cube | Y
 #   Others  | | | | | | | | | | | |
 Y | spatialite | 5.0.0 | Y | Y | Data Stores | | Lightweight Database | spatialite | http://www.gaia-gis.it/gaia-sins/ | | SpatiaLite | Y
 ###################### | | | | | | | | | | | |
