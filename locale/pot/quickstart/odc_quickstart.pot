@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-26 18:26+0000\n"
+"POT-Creation-Date: 2023-05-27 00:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -125,7 +125,7 @@ msgid "What next?"
 msgstr ""
 
 #: ../../build/doc/quickstart/odc_quickstart.rst:130
-msgid "Documentation: http://datacube-core.readthedocs.io/en/latest/"
+msgid "Documentation: http://datacube-core.readthedocs.io/en/stable/"
 msgstr ""
 
 #: ../../build/doc/quickstart/odc_quickstart.rst:131
