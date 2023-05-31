@@ -1,0 +1,221 @@
+
+<!DOCTYPE html>
+
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>QField Quickstart &#8212; OSGeoLive 16.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Indice" href="../genindex.html" />
+    <link rel="search" title="Cerca" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="SAGA" href="../overview/saga_overview.html" />
+    <link rel="prev" title="QField" href="../overview/qfield_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://qfield.org/"><img alt="images/projects/qfield/logo_qfield.png" class="align-right" src="images/projects/qfield/logo_qfield.png" /></a>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>This  project is only included on the OSGeoLive virtual machine disk (VMDK)</p>
+</div>
+<section id="qfield-quickstart">
+<h1>QField Quickstart<a class="headerlink" href="#qfield-quickstart" title="Link a questa intestazione">¶</a></h1>
+<p>QField is a powerful tool to collect data in the field for usage with QGIS.</p>
+<div class="contents local topic" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#start-qfield" id="id1">Start QField</a></p></li>
+<li><p><a class="reference internal" href="#open-a-project" id="id2">Open a project</a></p></li>
+<li><p><a class="reference internal" href="#navigation" id="id3">Navigation</a></p></li>
+<li><p><a class="reference internal" href="#basic-canvas-interaction" id="id4">Basic canvas interaction</a></p></li>
+<li><p><a class="reference internal" href="#legend" id="id5">Legend</a></p></li>
+<li><p><a class="reference internal" href="#digitize-data" id="id6">Digitize Data</a></p></li>
+<li><p><a class="reference internal" href="#things-to-try" id="id7">Things to try</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id8">What next?</a></p></li>
+</ul>
+</div>
+<section id="start-qfield">
+<h2><a class="toc-backref" href="#id1">Start QField</a><a class="headerlink" href="#start-qfield" title="Link a questa intestazione">¶</a></h2>
+<ol class="arabic">
+<li><p>Click the menu button at the bottom left</p></li>
+<li><p>Click the QField icon in the Education menu</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/00_menu.png"><img alt="Find QField in the menu" src="../../_images/00_menu.png" style="width: 461.99999999999994px; height: 642.5999999999999px;" /></a>
+</div></blockquote>
+</li>
+</ol>
+<p>You will see QField launch and show the changelog of the release.
+Close the screen by clicking on the arrow button on the top left.</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/01_welcome_screen.png"><img alt="The changelog is shown once" src="../../_images/01_welcome_screen.png" style="width: 849.8px; height: 614.5999999999999px;" /></a>
+</div></blockquote>
+</section>
+<section id="open-a-project">
+<h2><a class="toc-backref" href="#id2">Open a project</a><a class="headerlink" href="#open-a-project" title="Link a questa intestazione">¶</a></h2>
+<p>You can open any QGIS project with QField.</p>
+<ol class="arabic">
+<li><p>Click the <cite>Open local file</cite> button</p></li>
+<li><p>Open the <cite>qgis-examples</cite> folder</p></li>
+<li><p>Click the <cite>QGIS-Itasca-Example.qgz</cite> project file to open the project</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/02_open_project.png"><img alt="Choose the Itasca project to open" src="../../_images/02_open_project.png" style="width: 813.4px; height: 735.0px;" /></a>
+</div></blockquote>
+</li>
+</ol>
+</section>
+<section id="navigation">
+<h2><a class="toc-backref" href="#id3">Navigation</a><a class="headerlink" href="#navigation" title="Link a questa intestazione">¶</a></h2>
+<p>You can navigate on the map by</p>
+<ol class="arabic simple">
+<li><p>Pan: hold and drag the mouse cursor or by moving your finger on a touch screen</p></li>
+<li><p>Zoom: with the mouse wheel or with the zoom buttons. On a touch screen it is also possible to use pinch gestures</p></li>
+<li><p>Rotate: by holding the middle mouse button down or by rotating on the screen with two fingers on a touch screen</p></li>
+</ol>
+<p>Please keep in mind that the interaction design for QField was always done with touch screens in mind
+and is therefore best served on a touch screen.</p>
+</section>
+<section id="basic-canvas-interaction">
+<h2><a class="toc-backref" href="#id4">Basic canvas interaction</a><a class="headerlink" href="#basic-canvas-interaction" title="Link a questa intestazione">¶</a></h2>
+<p>You can identify features by clicking on them.
+In the itasca project, there are multiple layers identifiable, so you will get results from multiple layers, in this case here «airports» and «County Boundaries».</p>
+<p>To inspect the attributes of one of the features, click on the feature in the identification panel.
+You will see all attributes of this feature appear.</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/03_identify.png"><img alt="The hamburger menu" src="../../_images/03_identify.png" style="width: 803.5999999999999px; height: 711.1999999999999px;" /></a>
+</div></blockquote>
+</section>
+<section id="legend">
+<h2><a class="toc-backref" href="#id5">Legend</a><a class="headerlink" href="#legend" title="Link a questa intestazione">¶</a></h2>
+<p>To see which layers are loaded and to inspect the layer legends, click the hamburger menu on the top left corner.</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/04_hamburger_menu.png"><img alt="The hamburger menu" src="../../_images/04_hamburger_menu.png" style="width: 57.4px; height: 56.0px;" /></a>
+</div></blockquote>
+<p>You will see all layers in the project listed.
+By right clicking on the layer (or long pressing on a touch screen) you will have additional actions
+available for each layer.</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/05_legend.png"><img alt="The legend" src="../../_images/05_legend.png" style="width: 712.5999999999999px; height: 803.5999999999999px;" /></a>
+</div></blockquote>
+<p>Close the legend by clicking the white arrow on the top left or by clicking anywhere on the canvas
+outside the legend panel.</p>
+</section>
+<section id="digitize-data">
+<h2><a class="toc-backref" href="#id6">Digitize Data</a><a class="headerlink" href="#digitize-data" title="Link a questa intestazione">¶</a></h2>
+<p>By default, QField opens in read/view mode and you are not able to make any changes to preexisting geometries or add new features.
+To go into digitize mode:</p>
+<ol class="arabic">
+<li><p>Click the hamburger menu on the top left corner, so you see the legend.</p></li>
+<li><p>Click the pencil switch to go into digitize mode.</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/06_digitize_mode.png"><img alt="Switch to the digitize mode" src="../../_images/06_digitize_mode.png" style="width: 319.2px; height: 61.599999999999994px;" /></a>
+</div></blockquote>
+</li>
+</ol>
+<p>Next, we will create a new airport.</p>
+<ol class="arabic simple">
+<li><p>Activate the airports layer by clicking on the <cite>airports</cite> layer. The current layer within which digitizing will occur is highlighted using a green background in the legend.</p></li>
+<li><p>Close the layer panel</p></li>
+<li><p>You will see a crosshair appear. This will follow your mouse or stay in the center of the screen if you are working with a touch screen.</p></li>
+</ol>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>If you have a mouse: click to create a new airport.</p></li>
+<li><p>If you have a touchscreen, move the map until the crosshair is on the desired location and click the plus button at the bottom right of the screen to create a point.</p></li>
+</ol>
+</div></blockquote>
+<ol class="arabic simple">
+<li><p>A panel appears, where you can enter all the desired attributes for the new airport</p></li>
+<li><p>Click the checkbox to confirm the new airport.</p></li>
+<li><p>The data is saved immediately.</p></li>
+</ol>
+</section>
+<section id="things-to-try">
+<h2><a class="toc-backref" href="#id7">Things to try</a><a class="headerlink" href="#things-to-try" title="Link a questa intestazione">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Show and hide a layer via the layer options (long click in the legend)</p></li>
+<li><p>On the legend panel, check the cog wheel symbol for more actions like measuring and printing</p></li>
+<li><p>Download the <a class="reference external" href="https://docs.qfield.org/get-started/sample-projects/">QField sample projects</a> for more inspiration</p></li>
+<li><p>Open a project file in QGIS, add layers to it and change the configuration</p></li>
+<li><p>Install QField on your mobile device through the app store or via the <a class="reference external" href="https://docs.qfield.org/get-started/">Download page</a>.</p></li>
+</ol>
+</section>
+<section id="what-next">
+<h2><a class="toc-backref" href="#id8">What next?</a><a class="headerlink" href="#what-next" title="Link a questa intestazione">¶</a></h2>
+<p>To learn more about QField, a good starting point is the <a class="reference external" href="https://docs.qfield.org/">Documentation page</a>.</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>
