@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-26 18:26+0000\n"
+"POT-Creation-Date: 2023-05-31 08:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,25 +57,25 @@ msgstr ""
 msgid "General GIS viewing, editing, and analysis on the desktop"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:39
+#: ../../build/doc/overview/overview.rst:41
 msgid ""
 "|OSGeo_project| :doc:`grass_overview` - [:doc:`Quickstart "
 "<../quickstart/grass_quickstart>`]"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:41
+#: ../../build/doc/overview/overview.rst:43
 msgid ""
 "|OSGeo_project| |vmdk| :doc:`gvsig_overview` - [:doc:`Quickstart "
 "<../quickstart/gvsig_quickstart>`]"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:43
+#: ../../build/doc/overview/overview.rst:45
 msgid ""
 "|OSGeo_project| :doc:`qgis_overview` - [:doc:`Quickstart "
 "<../quickstart/qgis_quickstart>`]"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:45
+#: ../../build/doc/overview/overview.rst:47
 msgid ""
 "|nologo| :doc:`openjump_overview` - [:doc:`Quickstart "
 "<../quickstart/openjump_quickstart>`]"
@@ -85,162 +85,168 @@ msgstr ""
 msgid "nologo"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:47
+#: ../../build/doc/overview/overview.rst:49
+msgid ""
+"|nologo| |vmdk| :doc:`qfield_overview` - [:doc:`Quickstart "
+"<../quickstart/qfield_quickstart>`]"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:51
 msgid ""
 "|nologo| :doc:`saga_overview` - [:doc:`Quickstart "
 "<../quickstart/saga_quickstart>`]"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:49
+#: ../../build/doc/overview/overview.rst:53
 msgid ""
 "|nologo| |vmdk| :doc:`udig_overview` - [:doc:`Quickstart "
 "<../quickstart/udig_quickstart>`]"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:53
+#: ../../build/doc/overview/overview.rst:57
 msgid "Browser Facing GIS"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:55
+#: ../../build/doc/overview/overview.rst:59
 msgid "General GIS viewing, editing and analysis in the browser"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:77
+#: ../../build/doc/overview/overview.rst:81
 msgid ""
 "|OSGeo_project| :doc:`geomoose_overview` - [:doc:`Quickstart "
 "<../quickstart/geomoose_quickstart>`] - Web GIS Portal"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:79
+#: ../../build/doc/overview/overview.rst:83
 msgid ""
 "|OSGeo_project| :doc:`geonode_overview` - [:doc:`Quickstart "
 "<../quickstart/geonode_quickstart>`] - Geospatial Content Management "
 "System"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:81
+#: ../../build/doc/overview/overview.rst:85
 msgid ""
 "|OSGeo_project| :doc:`mapbender_overview` - [:doc:`Quickstart "
 "<../quickstart/mapbender_quickstart>`] - Geoportal Framework"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:83
+#: ../../build/doc/overview/overview.rst:87
 msgid ""
 "|OSGeo_project| :doc:`openlayers_overview` - [:doc:`Quickstart "
 "<../quickstart/openlayers_quickstart>`] - Browser Mapping Library"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:85
+#: ../../build/doc/overview/overview.rst:89
 msgid ""
 "|OSGeo_community| :doc:`geostyler_overview` - [:doc:`Quickstart "
 "<../quickstart/geostyler_quickstart>`] - Generic Styler For Geodata"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:87
+#: ../../build/doc/overview/overview.rst:91
 msgid ""
 "|nologo| :doc:`cesium_overview` - [:doc:`Quickstart "
 "<../quickstart/cesium_quickstart>`] - 3D globes and 2D maps in a browser"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:89
+#: ../../build/doc/overview/overview.rst:93
 msgid ""
 "|nologo| :doc:`geoext_overview` - [:doc:`Quickstart "
 "<../quickstart/geoext_quickstart>`] - JavaScript Toolkit Web Mapping"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:91
+#: ../../build/doc/overview/overview.rst:95
 msgid ""
 "|nologo| :doc:`leaflet_overview` - [:doc:`Quickstart "
 "<../quickstart/leaflet_quickstart>`] - Mobile Friendly Interactive Maps"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:95
+#: ../../build/doc/overview/overview.rst:99
 msgid "Web Services"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:97
+#: ../../build/doc/overview/overview.rst:101
 msgid "Publishing spatial data to the internet"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:143
+#: ../../build/doc/overview/overview.rst:147
 msgid ""
 "|OSGeo_project| :doc:`deegree_overview` - [:doc:`Quickstart "
 "<../quickstart/deegree_quickstart>`] - OGC Web Services"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:145
+#: ../../build/doc/overview/overview.rst:149
 msgid ""
 "|OSGeo_project| :doc:`geonetwork_overview` - [:doc:`Quickstart "
 "<../quickstart/geonetwork_quickstart>`] - Metadata Catalogue"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:147
+#: ../../build/doc/overview/overview.rst:151
 msgid ""
 "|OSGeo_project| :doc:`geoserver_overview` - [:doc:`Quickstart "
 "<../quickstart/geoserver_quickstart>`] - OGC Web Services"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:149
+#: ../../build/doc/overview/overview.rst:153
 msgid ""
 "|OSGeo_project| :doc:`mapcache_overview` - [:doc:`Quickstart "
 "<../quickstart/mapcache_quickstart>`] - OGC Web Services"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:151
+#: ../../build/doc/overview/overview.rst:155
 msgid ""
 "|OSGeo_project| :doc:`mapserver_overview` - [:doc:`Quickstart "
 "<../quickstart/mapserver_quickstart>`] - OGC Web Services"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:153
+#: ../../build/doc/overview/overview.rst:157
 msgid ""
 "|OSGeo_project| :doc:`pycsw_overview` - [:doc:`Quickstart "
 "<../quickstart/pycsw_quickstart>`] - Metadata Catalogue"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:155
+#: ../../build/doc/overview/overview.rst:159
 msgid ""
 "|OSGeo_project| :doc:`pywps_overview` - [:doc:`Quickstart "
 "<../quickstart/pywps_quickstart>`] - Web Processing Service"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:157
+#: ../../build/doc/overview/overview.rst:161
 msgid ""
 "|OSGeo_community| :doc:`istsos_overview` - [:doc:`Quickstart "
 "<../quickstart/istsos_quickstart>`] - Sensor Observation Service"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:159
+#: ../../build/doc/overview/overview.rst:163
 msgid ""
 "|OSGeo_community| :doc:`mapproxy_overview` - [:doc:`Quickstart "
 "<../quickstart/mapproxy_quickstart>`] - Proxy WMS & tile services"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:161
+#: ../../build/doc/overview/overview.rst:165
 msgid ""
 "|OSGeo_project| :doc:`pygeoapi_overview` - [:doc:`Quickstart "
 "<../quickstart/pygeoapi_quickstart>`] - OGC Web Services"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:163
+#: ../../build/doc/overview/overview.rst:167
 msgid ""
 "|OSGeo_incubation| :doc:`zoo-project_overview` - [:doc:`Quickstart "
 "<../quickstart/zoo-project_quickstart>`] - Web Processing Service"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:165
+#: ../../build/doc/overview/overview.rst:169
 msgid ""
 "|OSGeo_community| |vmdk| :doc:`actinia_overview` - [:doc:`Quickstart "
 "<../quickstart/actinia_quickstart>`] - Processing of Geographical Data"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:167
+#: ../../build/doc/overview/overview.rst:171
 msgid ""
 "|nologo| :doc:`eoxserver_overview` - [:doc:`Quickstart "
 "<../quickstart/eoxserver_quickstart>`] - Web Coverage Service"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:169
+#: ../../build/doc/overview/overview.rst:173
 msgid ""
 "|nologo| |vmdk| :doc:`ETF_overview` - [:doc:`Quickstart "
 "<../quickstart/ETF_quickstart>`] - Testing framework for validating "
@@ -248,245 +254,245 @@ msgid ""
 "(SDIs)"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:171
+#: ../../build/doc/overview/overview.rst:175
 msgid ""
 "|nologo| |vmdk| :doc:`ncWMS_overview` - [:doc:`Quickstart "
 "<../quickstart/ncWMS_quickstart>`] - Web Map Service"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:173
+#: ../../build/doc/overview/overview.rst:177
 msgid ""
 "|nologo| :doc:`qgis_mapserver_overview` - [:doc:`Quickstart "
 "<../quickstart/qgis_mapserver_quickstart>`] - Web Map Service"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:175
+#: ../../build/doc/overview/overview.rst:179
 msgid ""
 "|nologo| |vmdk| :doc:`re3gistry_overview` - [:doc:`Quickstart "
 "<../quickstart/re3gistry_quickstart>`] - Management of reference codes"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:177
+#: ../../build/doc/overview/overview.rst:181
 msgid ""
 "|nologo| :doc:`t-rex_overview` - [:doc:`Quickstart "
 "<../quickstart/t-rex_quickstart>`] - Vector Tile Service"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:179
+#: ../../build/doc/overview/overview.rst:183
 msgid ""
 "|nologo| |vmdk| :doc:`52nSOS_overview` - [:doc:`Quickstart "
 "<../quickstart/52nSOS_quickstart>`] - Sensor Observation Service"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:181
+#: ../../build/doc/overview/overview.rst:185
 msgid ""
 "|nologo| :doc:`52nWPS_overview` - [:doc:`Quickstart "
 "<../quickstart/52nWPS_quickstart>`] - Web Processing Service"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:185
+#: ../../build/doc/overview/overview.rst:189
 msgid "Data Stores"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:187
+#: ../../build/doc/overview/overview.rst:191
 msgid "Storing spatial data"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:203
+#: ../../build/doc/overview/overview.rst:207
 msgid ""
 "|OSGeo_project| :doc:`postgis_overview` - [:doc:`Quickstart "
 "<../quickstart/postgis_quickstart>`] - Spatial Database"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:205
+#: ../../build/doc/overview/overview.rst:209
 msgid ""
 "|OSGeo_community| :doc:`pgrouting_overview` - [:doc:`Quickstart "
 "<../quickstart/pgrouting_quickstart>`] - Routing for PostGIS"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:207
+#: ../../build/doc/overview/overview.rst:211
 msgid ""
 "|OSGeo_incubation| |vmdk| :doc:`rasdaman_overview` - [:doc:`Quickstart "
 "<../quickstart/rasdaman_quickstart>`] - Multi-Dimensional Raster Database"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:209
+#: ../../build/doc/overview/overview.rst:213
 msgid ""
 "|OSGeo_community| :doc:`odc_overview` - [:doc:`Quickstart "
 "<../quickstart/odc_quickstart>`] - Time-Series Database"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:211
+#: ../../build/doc/overview/overview.rst:215
 msgid ""
 "|nologo| :doc:`spatialite_overview` - [:doc:`Quickstart "
 "<../quickstart/spatialite_quickstart>`] - Lightweight Database"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:215
+#: ../../build/doc/overview/overview.rst:219
 msgid "Navigation and Maps"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:235
+#: ../../build/doc/overview/overview.rst:239
 msgid ""
 "|OSGeo_project| :doc:`marble_overview` - [:doc:`Quickstart "
 "<../quickstart/marble_quickstart>`] - Virtual Globe"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:237
+#: ../../build/doc/overview/overview.rst:241
 msgid ""
 "|nologo| :doc:`ideditor_overview` - [:doc:`Quickstart "
 "<../quickstart/ideditor_quickstart>`] - OpenStreetMap Web Editor"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:239
+#: ../../build/doc/overview/overview.rst:243
 msgid ""
 "|nologo| :doc:`josm_overview` - [:doc:`Quickstart "
 "<../quickstart/josm_quickstart>`] - OpenStreetMap Desktop Editor"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:241
+#: ../../build/doc/overview/overview.rst:245
 msgid ""
 "|nologo| :doc:`gpsprune_overview` - [:doc:`Quickstart "
 "<../quickstart/gpsprune_quickstart>`] - View, Edit and Convert GPS Tracks"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:243
+#: ../../build/doc/overview/overview.rst:247
 msgid ""
 "|nologo| :doc:`opencpn_overview` - [:doc:`Quickstart "
 "<../quickstart/opencpn_quickstart>`] - Marine GPS Chartplotter"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:245
+#: ../../build/doc/overview/overview.rst:249
 msgid ""
 "|nologo| :doc:`osm_overview` - [:doc:`Quickstart "
 "<../quickstart/osm_quickstart>`] - OpenStreetMap Tools"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:249
+#: ../../build/doc/overview/overview.rst:253
 msgid "Spatial Tools"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:251
+#: ../../build/doc/overview/overview.rst:255
 msgid "Specific analysis tools"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:267
+#: ../../build/doc/overview/overview.rst:271
 msgid ""
 "|OSGeo_project| :doc:`otb_overview` - [:doc:`Quickstart "
 "<../quickstart/otb_quickstart>`] - Image Processing"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:269
+#: ../../build/doc/overview/overview.rst:273
 msgid ""
 "|nologo| |vmdk| :doc:`gmt_overview` - [:doc:`Quickstart "
 "<../quickstart/gmt_quickstart>`] - Cartographic Rendering"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:271
+#: ../../build/doc/overview/overview.rst:275
 msgid ""
 "|nologo| :doc:`jupyter_overview` - [:doc:`Quickstart "
 "<../quickstart/jupyter_quickstart>`] - Mixing rich media in presentations"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:273
+#: ../../build/doc/overview/overview.rst:277
 msgid ""
 "|nologo| :doc:`mapnik_overview` - [:doc:`Quickstart "
 "<../quickstart/mapnik_quickstart>`] - Cartographic Rendering"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:275
+#: ../../build/doc/overview/overview.rst:279
 msgid ""
 "|nologo| :doc:`R_overview` - [:doc:`Quickstart "
 "<../quickstart/R_quickstart>`] - Statistical Programming"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:279
+#: ../../build/doc/overview/overview.rst:283
 msgid "Domain Specific GIS"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:281
+#: ../../build/doc/overview/overview.rst:285
 msgid "Applications targeted at a specific domain"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:289
+#: ../../build/doc/overview/overview.rst:293
 msgid ""
 "|nologo| :doc:`xygrib_overview` - [:doc:`Quickstart "
 "<../quickstart/xygrib_quickstart>`] - Weather Forecast Maps"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:293
+#: ../../build/doc/overview/overview.rst:297
 msgid "Data"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:295
+#: ../../build/doc/overview/overview.rst:299
 msgid "Spatial data sets"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:305
+#: ../../build/doc/overview/overview.rst:309
 msgid "|nologo| :doc:`naturalearth_overview`  - Global Data Sets"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:307
+#: ../../build/doc/overview/overview.rst:311
 msgid "|nologo| :doc:`nc_dataset_overview`"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:309
+#: ../../build/doc/overview/overview.rst:313
 msgid ""
 "|nologo| :doc:`netcdf_dataset_overview`  - Time series temperature and "
 "precipitation"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:311
+#: ../../build/doc/overview/overview.rst:315
 msgid "|nologo| :doc:`osm_dataset_overview`  - Sample extract from OpenStreetMap"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:315
+#: ../../build/doc/overview/overview.rst:319
 msgid "Geospatial Libraries"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:330
+#: ../../build/doc/overview/overview.rst:334
 msgid ""
 "|OSGeo_project| :doc:`gdal_overview` - [:doc:`Quickstart "
 "<../quickstart/gdal_quickstart>`] - Geospatial Data Translation Tools"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:332
+#: ../../build/doc/overview/overview.rst:336
 msgid "|OSGeo_project| :doc:`geos_overview`  - C/C++ Spatial Library"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:334
+#: ../../build/doc/overview/overview.rst:338
 msgid "|OSGeo_project| :doc:`geotools_overview`  - Java GIS Toolkit"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:336
+#: ../../build/doc/overview/overview.rst:340
 msgid ""
 "|OSGeo_project| :doc:`proj_overview` - [:doc:`Quickstart "
 "<../quickstart/proj_quickstart>`] - Coordinate Reference System Libraries"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:338
+#: ../../build/doc/overview/overview.rst:342
 msgid "|nologo| :doc:`jts_overview`  - Java Topology Suite"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:342
+#: ../../build/doc/overview/overview.rst:346
 msgid "Geospatial Standards"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:352
+#: ../../build/doc/overview/overview.rst:356
 msgid "|nologo| :doc:`ogc_overview`  - Open Geospatial Consortium"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:354
+#: ../../build/doc/overview/overview.rst:358
 msgid ""
 "|nologo| :doc:`inspire_overview`  - Infrastructure for Spatial "
 "Information in Europe"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:358
+#: ../../build/doc/overview/overview.rst:362
 msgid "Available in prior OSGeoLive releases"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:370
+#: ../../build/doc/overview/overview.rst:374
 msgid ":doc:`../prior_applications`"
 msgstr ""
 
