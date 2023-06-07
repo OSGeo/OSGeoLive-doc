@@ -39,8 +39,18 @@ From a quick look at the base file, open a terminal and use the GDAL command `gd
 
 ::
 
-  gdalinfo /home/user/odc/esa_10m_2021_prizren.tif
+  $ gdalinfo /home/user/odc/esa_10m_2021_prizren.tif
 
+..
+
+Datacube core commands quickstart :
+
+::
+
+  $ datacube system check
+  $ datacube product show
+  $ datacube dataset search
+  
 ..
 
 
@@ -61,7 +71,7 @@ Things to try
 What next?
 ==========
 
-* Documentation: http://datacube-core.readthedocs.io/en/stable/
+* Documentation: https://datacube-core.readthedocs.io/en/stable/
 * Website: @WEB_odc@
 * Support: https://www.opendatacube.org/faq
 
