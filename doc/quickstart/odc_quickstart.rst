@@ -30,8 +30,11 @@ Analyze a Base Map
 ==================
 
 As our input dataset we will use Prizren from esa_worldview_2021 land use / landcover dataset;
+
 Start:
+
 Open menu Geospatial : Spatial Tools : Jupyter Notebook;  
+
 Open folder OpenDataCube, open Notebook, choose "Run All" from the kernel menu.
  
 
@@ -42,6 +45,11 @@ From a quick look at the base file, open a terminal and use the GDAL command `gd
   $ gdalinfo /home/user/odc/esa_10m_2021_prizren.tif
 
 ..
+
+
+Things to try
+================================================================================
+
 
 Datacube core commands quickstart :
 
@@ -54,17 +62,10 @@ Datacube core commands quickstart :
 ..
 
 
-Things to try
-================================================================================
-
 .. Documentation Links
    https://datacube-core.readthedocs.io/en/stable/
    https://docs.xarray.dev/en/v0.16.1/
 
-* Install the following packages:
-
-  *  datacube-core
-  *  python3-pystac
 
 * `TODO tutorial <tutorial>`
 
