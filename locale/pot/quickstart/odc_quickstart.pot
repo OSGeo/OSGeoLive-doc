@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-27 00:45+0000\n"
+"POT-Creation-Date: 2023-06-08 13:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -24,115 +24,71 @@ msgstr ""
 msgid "The Open Data Cube Core provides an integrated gridded data analysis environment for decades of analysis ready earth observation satellite and related data from multiple satellite and other acquisition systems."
 msgstr ""
 
-#: ../../build/doc/quickstart/odc_quickstart.rst:27
-msgid "In this quick Open Data Cube tutorial we will use tools."
+#: ../../build/doc/quickstart/odc_quickstart.rst:30
+msgid "This Open Data Cube tutorial section"
 msgstr ""
 
-#: ../../build/doc/quickstart/odc_quickstart.rst:30
-msgid "Contents"
+#: ../../build/doc/quickstart/odc_quickstart.rst:28
+msgid "use Jupyter Notebook to examine data"
+msgstr ""
+
+#: ../../build/doc/quickstart/odc_quickstart.rst:29
+msgid "basic command line tools"
 msgstr ""
 
 #: ../../build/doc/quickstart/odc_quickstart.rst:33
-msgid "Create a map"
+msgid "Contents"
 msgstr ""
 
-#: ../../build/doc/quickstart/odc_quickstart.rst:35
-msgid "As our input dataset we will use TODO from TODO dataset, which is accessible by GDAL using the GDAL-GRASS driver."
+#: ../../build/doc/quickstart/odc_quickstart.rst:36
+msgid "Analyze a Base Map"
 msgstr ""
 
-#: ../../build/doc/quickstart/odc_quickstart.rst:37
-msgid "From a quick look at the DTM metadata, open a terminal and use the GDAL command `gdalinfo`:"
+#: ../../build/doc/quickstart/odc_quickstart.rst:38
+msgid "As our input dataset we will use Prizren from esa_worldview_2021 land use / landcover dataset;"
 msgstr ""
 
-#: ../../build/doc/quickstart/odc_quickstart.rst:49
-msgid "We can see the DTM is in a projected coordinate system and the data range is between 50 and 160 meters."
+#: ../../build/doc/quickstart/odc_quickstart.rst:40
+msgid "Start:"
 msgstr ""
 
-#: ../../build/doc/quickstart/odc_quickstart.rst:51
-msgid "We can convert the DTM in a GMT Compatible netCDF file format with `gdal_translate` as follow:"
+#: ../../build/doc/quickstart/odc_quickstart.rst:42
+msgid "Open menu Geospatial : Spatial Tools : Jupyter Notebook;"
+msgstr ""
+
+#: ../../build/doc/quickstart/odc_quickstart.rst:44
+msgid "Open folder OpenDataCube, open Notebook, choose \"Run All\" from the kernel menu."
+msgstr ""
+
+#: ../../build/doc/quickstart/odc_quickstart.rst:47
+msgid "From a quick look at the base file, open a terminal and use the GDAL command `gdalinfo`:"
 msgstr ""
 
 #: ../../build/doc/quickstart/odc_quickstart.rst:57
-msgid "For our GMT example we will first transform the dataset into geographic coordinates Longitude-Latitude (EPSG:4326) using the `gdalwarp` command:"
-msgstr ""
-
-#: ../../build/doc/quickstart/odc_quickstart.rst:64
-msgid "Make a color palette"
-msgstr ""
-
-#: ../../build/doc/quickstart/odc_quickstart.rst:66
-msgid "To assign a color map to our grid we can make a GMT color palette tables with the `makecpt` command. We will set the range and number of colors with the flag `-T` and assign a colormap with the flag `-C`."
-msgstr ""
-
-#: ../../build/doc/quickstart/odc_quickstart.rst:74
-msgid "You can experiment with other colortables, see `man gmt makecpt` for a complete list."
-msgstr ""
-
-#: ../../build/doc/quickstart/odc_quickstart.rst:77
-msgid "Define the gradient"
-msgstr ""
-
-#: ../../build/doc/quickstart/odc_quickstart.rst:79
-msgid "For our shaded relief example we need to specify show how the color intensity is distributed along the grid. To do so, we will compute the directional derivative, or gradient, from our grid using the `grdgradient` command. In `grdgradient` we will use the `-Ne` flag to normalize the output using a cumulative Laplace distribution and the `-A` flag for Azimuthal direction for a directional derivative."
-msgstr ""
-
-#: ../../build/doc/quickstart/odc_quickstart.rst:87
-msgid "The output is a netCDF file which can then be used as color intensity by the `grdimage` command as follow:"
-msgstr ""
-
-#: ../../build/doc/quickstart/odc_quickstart.rst:94
-msgid "Display the color bar"
-msgstr ""
-
-#: ../../build/doc/quickstart/odc_quickstart.rst:96
-msgid "Finally we can add a colorbar with `psscale`:"
-msgstr ""
-
-#: ../../build/doc/quickstart/odc_quickstart.rst:103
-msgid "Here the flag `-D` is used to select the colorbar position `TC: Top Center`, the size `5x0.25` expressed in inches `i` the orientation by `h: horizontal` and the flag `-By` to set a label `m` on the `y axis`."
-msgstr ""
-
-#: ../../build/doc/quickstart/odc_quickstart.rst:106
-msgid "The output ps document should look like:"
-msgstr ""
-
-#: ../../build/doc/quickstart/odc_quickstart.rst:None
-msgid "North Caroline - sample elevation data"
-msgstr ""
-
-#: ../../build/doc/quickstart/odc_quickstart.rst:115
 msgid "Things to try"
 msgstr ""
 
-#: ../../build/doc/quickstart/odc_quickstart.rst:120
-msgid "Install the following packages:"
+#: ../../build/doc/quickstart/odc_quickstart.rst:60
+msgid "Datacube core commands quickstart :"
 msgstr ""
 
-#: ../../build/doc/quickstart/odc_quickstart.rst:122
-msgid "datacube-core"
+#: ../../build/doc/quickstart/odc_quickstart.rst:76
+msgid "`TODO tutorial <tutorial>`"
 msgstr ""
 
-#: ../../build/doc/quickstart/odc_quickstart.rst:123
-msgid "python3-pystac"
-msgstr ""
-
-#: ../../build/doc/quickstart/odc_quickstart.rst:125
-msgid "`TODO tutorial <https://docs.generic-mapping-tools.org/latest/tutorial>`"
-msgstr ""
-
-#: ../../build/doc/quickstart/odc_quickstart.rst:128
+#: ../../build/doc/quickstart/odc_quickstart.rst:79
 msgid "What next?"
 msgstr ""
 
-#: ../../build/doc/quickstart/odc_quickstart.rst:130
-msgid "Documentation: http://datacube-core.readthedocs.io/en/stable/"
+#: ../../build/doc/quickstart/odc_quickstart.rst:81
+msgid "Documentation: https://datacube-core.readthedocs.io/en/stable/"
 msgstr ""
 
-#: ../../build/doc/quickstart/odc_quickstart.rst:131
+#: ../../build/doc/quickstart/odc_quickstart.rst:82
 msgid "Website: https://www.opendatacube.org"
 msgstr ""
 
-#: ../../build/doc/quickstart/odc_quickstart.rst:132
+#: ../../build/doc/quickstart/odc_quickstart.rst:83
 msgid "Support: https://www.opendatacube.org/faq"
 msgstr ""
 
