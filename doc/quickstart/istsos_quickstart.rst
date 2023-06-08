@@ -248,5 +248,5 @@ What next?
 
 To learn more about istSOS, a starting point is the `istSOS Documentation`_ and the `istSOS Tutorial`_.
 
-.. _`istSOS Documentation`: http://istsos.org/en/trunk/doc/index.html
-.. _`istSOS Tutorial`: http://istsos.org/tutorial/
+.. _`istSOS Documentation`: https://istsos.org/en/trunk/doc/index.html
+.. _`istSOS Tutorial`: https://istsos.org/tutorial/
