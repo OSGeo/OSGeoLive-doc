@@ -91,7 +91,8 @@ systems.</p>
 <p>Open menu Geospatial : Spatial Tools : Jupyter Notebook;</p>
 <p>Open folder OpenDataCube, open Notebook, choose «Run All» from the kernel menu.</p>
 <p>From a quick look at the base file, open a terminal and use the GDAL command <cite>gdalinfo</cite>:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ gdalinfo /home/user/odc/esa_10m_2021_prizren.tif
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>#------
+$ gdalinfo /usr/local/share/odc/esa_10m_2021_prizren.tif
 </pre></div>
 </div>
 </section>
@@ -99,7 +100,9 @@ systems.</p>
 <h2><a class="toc-backref" href="#id2">Things to try</a><a class="headerlink" href="#things-to-try" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Datacube core commands quickstart :</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ datacube system check
+#--
 $ datacube product show
+#--
 $ datacube dataset search
 </pre></div>
 </div>
