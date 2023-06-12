@@ -42,10 +42,10 @@ From a quick look at the base file, open a terminal and use the GDAL command `gd
 
 ::
 
-  $ gdalinfo /home/user/odc/esa_10m_2021_prizren.tif
+  #------
+  $ gdalinfo /usr/local/share/odc/esa_10m_2021_prizren.tif
 
 ..
-
 
 Things to try
 ================================================================================
@@ -56,7 +56,9 @@ Datacube core commands quickstart :
 ::
 
   $ datacube system check
+  #--
   $ datacube product show
+  #--
   $ datacube dataset search
   
 ..
