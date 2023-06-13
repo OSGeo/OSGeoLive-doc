@@ -35,15 +35,15 @@ Start:
 
 Open menu Geospatial : Spatial Tools : Jupyter Notebook;  
 
-Open folder OpenDataCube, open Notebook, choose "Run All" from the kernel menu.
+On the Jupyter Home page, click to open folder OpenDataCube, click to open Notebook, choose "Run All" from the kernel menu.
  
 
-From a quick look at the base file, open a terminal and use the GDAL command `gdalinfo`:
+For a quick look at a base data file, open a terminal and use the GDAL command `gdalinfo`:
 
 ::
 
   #------
-  $ gdalinfo /usr/local/share/odc/esa_10m_2021_prizren.tif
+  $ gdalinfo /usr/local/share/data/odc/esa_10m_2021_prizren.tif
 
 ..
 
