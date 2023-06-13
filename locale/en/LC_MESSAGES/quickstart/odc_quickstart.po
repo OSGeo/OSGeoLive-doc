@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-08 13:16+0000\n"
+"POT-Creation-Date: 2023-06-13 01:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -66,13 +66,13 @@ msgstr ""
 
 #: ../../build/doc/quickstart/odc_quickstart.rst:44
 msgid ""
-"Open folder OpenDataCube, open Notebook, choose \"Run All\" from the "
-"kernel menu."
+"On the Jupyter Home page, click to open folder OpenDataCube, click to "
+"open Notebook, choose \"Run All\" from the kernel menu."
 msgstr ""
 
 #: ../../build/doc/quickstart/odc_quickstart.rst:47
 msgid ""
-"From a quick look at the base file, open a terminal and use the GDAL "
+"For a quick look at a base data file, open a terminal and use the GDAL "
 "command `gdalinfo`:"
 msgstr ""
 
@@ -84,23 +84,23 @@ msgstr ""
 msgid "Datacube core commands quickstart :"
 msgstr ""
 
-#: ../../build/doc/quickstart/odc_quickstart.rst:76
+#: ../../build/doc/quickstart/odc_quickstart.rst:78
 msgid "`TODO tutorial <tutorial>`"
 msgstr ""
 
-#: ../../build/doc/quickstart/odc_quickstart.rst:79
+#: ../../build/doc/quickstart/odc_quickstart.rst:81
 msgid "What next?"
 msgstr ""
 
-#: ../../build/doc/quickstart/odc_quickstart.rst:81
+#: ../../build/doc/quickstart/odc_quickstart.rst:83
 msgid "Documentation: https://datacube-core.readthedocs.io/en/stable/"
 msgstr ""
 
-#: ../../build/doc/quickstart/odc_quickstart.rst:82
+#: ../../build/doc/quickstart/odc_quickstart.rst:84
 msgid "Website: https://www.opendatacube.org"
 msgstr ""
 
-#: ../../build/doc/quickstart/odc_quickstart.rst:83
+#: ../../build/doc/quickstart/odc_quickstart.rst:85
 msgid "Support: https://www.opendatacube.org/faq"
 msgstr ""
 
