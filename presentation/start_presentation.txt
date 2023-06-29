@@ -5,9 +5,9 @@ OSGeoLive
 .. image:: /images/osgeolive-logo/osgeolive-banner.png
 
 
-Version: @OSGeoLiveDoc_VERSION_MAJOR@
+Version: 16.0beta1
 
-Released: August 2022
+Released: June 2023
 
 |
 
