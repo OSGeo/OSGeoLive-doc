@@ -57,6 +57,25 @@ Improving OSGeoLive Documentation
 * Local Chapters can easily get involved here
 * No technical experience necessary
 
+Try out OSGeoLive
+--------------------------------------------------------------------------------
+
+* Cloud deployments
+* `remote.osgeo.org <https://remote.osgeo.org/>`__
+
+.. revealjs-break::
+
+.. image:: /images/presentation/remote_osgeo_org_vm_list.png
+    :height: 400
+    :align: center
+
+.. revealjs-break::
+
+.. image:: /images/presentation/remote_osgeo_org_desktop.png
+    :height: 400
+    :align: center
+
+
 Join us at the FOSS4G 2023 Community Sprint 
 --------------------------------------------------------------------------------
 
