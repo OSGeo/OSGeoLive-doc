@@ -53,7 +53,7 @@ Improving OSGeoLive Documentation
 * Proof-read, test and correct Quickstarts and Overviews
 * There is a good possibility to get to know cool software!
 * Translate and improve the documentation
-* Translation is made in `Transifex <https://www.transifex.com/osgeo/osgeolive>`__
+* Translation is made in `OSGeo Weblate <https://weblate.osgeo.org/projects/osgeolive/>`__
 * Local Chapters can easily get involved here
 * No technical experience necessary
 
