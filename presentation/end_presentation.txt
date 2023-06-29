@@ -63,10 +63,8 @@ Sponsors
 
 =============== ================ ====================
 =============== ================ ====================
-OSGeo            UCD ICE          NTUA
-|osgeo_logo|     |ucdice_logo|    |ntua_logo|
-DebianGIS        okeanos
-|debian_logo|    |okeanos_logo|
+OSGeo            UCD ICE          DebianGIS
+|osgeo_logo|     |ucdice_logo|    |debian_logo|
 =============== ================ ====================
 
 
@@ -74,9 +72,7 @@ DebianGIS        okeanos
   And we'd also like to acknowledge the contributions of sponsors and supporting organisations:
   The OSGeo Foundation,
   the Information Center for the Environment at the University of California,
-  the Remote Sensing Laboratory at the National Technical University of Athens,
   the DebianGIS and UbuntuGIS projects,
-  and the Okeanos IaaS service
 
 Try out OSGeoLive
 --------------------------------------------------------------------------------
@@ -97,11 +93,5 @@ Try out OSGeoLive
                         :height: 50
 .. |ucdice_logo| image:: /images/logos/ucd_ice_logo.png
                         :height: 50
-.. |ntua_logo| image:: /images/logos/ntua_logo.jpg
-                        :height: 50
 .. |debian_logo| image:: /images/logos/debiangis_mollweide.png
-                        :height: 50
-.. |georepublic_logo| image:: /images/logos/georepublic.png
-                        :height: 50
-.. |okeanos_logo| image:: /images/logos/okeanos-logo.jpg
                         :height: 50
