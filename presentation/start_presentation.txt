@@ -50,14 +50,14 @@ What is new in @OSGeoLiveDoc_VERSION_MAJOR@.0
 
 .. speaker note
   In OSGeoLive Version .@OSGeoLiveDoc_VERSION_MAJOR@.0 we've updated our core packages to the latest
-  stable, added new projects (EFT), improved our documentation
+  stable, added new projects (ODC and QField), improved our documentation
   and translations. We've also updated many existing applications and moved to
-  the latest Lubuntu 22.04 Long Term Support release.
+  the latest Lubuntu 22.04.2 Long Term Support release.
 
 What is new in @OSGeoLiveDoc_VERSION_MAJOR@.0
 --------------------------------------------------------------------------------
 
-Updated to Lubuntu 22.04 LTS
+Updated to Lubuntu 22.04.2 LTS
 
 .. revealjs-break::
 
@@ -77,7 +77,7 @@ and many more...
 
 .. revealjs-break::
 
-New project added: ETF testing framework software
+New projects added: OpenDataCube and QField
 
 .. revealjs-break::
 
@@ -89,7 +89,7 @@ Documentation updates
 
 .. revealjs-break::
 
-OSM data for Firenze
+OSM data for Prizren
 
 .. revealjs-break::
 
