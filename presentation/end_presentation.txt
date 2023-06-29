@@ -57,6 +57,11 @@ Improving OSGeoLive Documentation
 * Local Chapters can easily get involved here
 * No technical experience necessary
 
+Join us at the FOSS4G 2023 Community Sprint 
+--------------------------------------------------------------------------------
+
+* 01.-02. of July 2023 
+* https://wiki.osgeo.org/wiki/FOSS4G_2023_Community_Sprint
 
 Sponsors
 --------------------------------------------------------------------------------
