@@ -132,9 +132,6 @@ Translations
   about key OGC spatial standards.
   The Quickstarts use sample datasets that are provided.
   Overviews and Quickstarts are translated in several languages.
-  The USB is ideal for
-  handing out at conferences, using in workshops, and trialling a range of Open
-  Source Software.
 
 DVD / USB / Virtual Machine
 --------------------------------------------------------------------------------
@@ -147,6 +144,9 @@ DVD / USB / Virtual Machine
    lightning overview of all applications installed on OSGeoLive, which
    effectively gives you a birds eye view of the breadth of robust GeoSpatial
    Open Source Software available.
+   The USB stick is ideal for
+   handing out at conferences, using in workshops, and trialling a range of Open
+   Source Software.
 
 Quality Criteria
 --------------------------------------------------------------------------------
