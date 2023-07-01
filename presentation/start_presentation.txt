@@ -187,8 +187,8 @@ Production & Marketing Pipeline
     giving away an OSGeoLive DVD or USB.
   * Geospatial educators and workshop presenters use the stable OGeo-Live
     Virtual Machine or USB for practical class room settings.
-  * Which all leads to Architects and Developers discovering, and then incorporating Open Source Geospatial software in
-    their projects.
+  * Which all leads to Architects and Developers discovering, and then incorporating
+    Open Source Geospatial software in their projects.
 
 
 Open Source Geospatial Foundation (OSGeo)
