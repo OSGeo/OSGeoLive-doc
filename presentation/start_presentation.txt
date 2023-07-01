@@ -116,9 +116,10 @@ Components on OSGeoLive
 
 50+ Open Source Geospatial Applications
 
+Consistent Overviews & Quickstarts
+
 Sample Datasets
 
-Consistent Overviews & Quickstarts
 
 Translations
 
@@ -126,9 +127,11 @@ Translations
 .. speaker notes
   OSGeoLive is a self-contained bootable USB, based on the Lubuntu Linux
   distribution, that is pre-installed and pre-configured with over 50 of the
-  best GeoSpatial Open Source applications along with sample datasets.  It
-  contains overview and quickstart documentation for each application, as well
-  as documentation about key OGC spatial standards.  The USB is ideal for
+  best GeoSpatial Open Source applications along It contains overview and
+  quickstart documentation for each application, as well as documentation
+  about key OGC spatial standards.
+  The Quickstarts use sample datasets that are provided.
+  The USB is ideal for
   handing out at conferences, using in workshops, and trialling a range of Open
   Source Software.
 
