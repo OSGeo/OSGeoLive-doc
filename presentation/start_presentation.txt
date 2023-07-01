@@ -131,6 +131,7 @@ Translations
   quickstart documentation for each application, as well as documentation
   about key OGC spatial standards.
   The Quickstarts use sample datasets that are provided.
+  Overviews and Quickstarts are translated in several languages.
   The USB is ideal for
   handing out at conferences, using in workshops, and trialling a range of Open
   Source Software.
