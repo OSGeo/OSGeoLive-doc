@@ -92,7 +92,7 @@
 <p>Con istSOS puede organizar los datos de su sensor en diferentes instancias. Cada instancia tiene su propio esquema de base de datos independiente de otras instancias. Incluso puede implementar otras bases de datos en su red según sus necesidades.</p>
 <p>Los primeros pasos en la configuración de istSOS es configurar las opciones de configuración predeterminadas. Estas opciones serán utilizadas automáticamente para su conveniencia por cada nueva instancia de istSOS creada.</p>
 <ol class="arabic">
-<li><p>Click <span class="menuselection">Geospatial ‣ Web Services ‣ istSOS</span> to open the Web Admin interface. Alternatively, open a browser and go to <a class="reference external" href="http://localhost/istsos/admin">http://localhost/istsos/admin</a></p></li>
+<li><p>Click en <span class="menuselection">Geospatial ‣ Web Services ‣ istSOS</span> para abrir la interfaz de Web Admin. Alternativamente, abrir un navegador e ir a <a class="reference external" href="http://localhost/istsos/admin">http://localhost/istsos/admin</a></p></li>
 <li><p>Click en el botón <span class="guilabel">Enter</span> en la página de administración.</p></li>
 <li><p>Configure la conexión de la base de datos. En el menú de botones de la barra de herramientas, pulse el botón «Base de datos» y rellene las opciones de configuración de la base de datos:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">user</span><span class="p">:</span> <span class="n">postgres</span>
@@ -103,7 +103,7 @@
 </pre></div>
 </div>
 </li>
-<li><p>Press the «Service provider» button and fill it using your institutional information.</p></li>
+<li><p>Presione el botón «Service provider» y complételo con su información institucional.</p></li>
 <li><p>Presione el botón «Service identification» y complete con metadatos personalizados que describan el uso del servicio.</p></li>
 <li><p>Presione el botón «Coordinates system» para administrar el Sistema de referencia de coordenadas (CRS).</p>
 <ul class="simple">
@@ -145,27 +145,27 @@
 <p class="admonition-title">Nota</p>
 <p>Parámetros opcionales: llene según sus propias necesidades y dispocisiones</p>
 </div>
-<p class="rubric"><em>Example</em> (minimal configuration)</p>
+<p class="rubric"><em>Ejemplo</em> (configuración mínima)</p>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 100%" />
 </colgroup>
 <tbody>
-<tr class="row-odd"><td><p>Name: T_LUGANO</p></td>
+<tr class="row-odd"><td><p>Nombre: T_LUGANO</p></td>
 </tr>
 <tr class="row-even"><td><p>Description: estación meteorológica de temperatura en Lugano</p></td>
 </tr>
 <tr class="row-odd"><td><p>Keywords: clima, meteorología, IST</p></td>
 </tr>
-<tr class="row-even"><td><p>System type: insitu-fixed-point</p></td>
+<tr class="row-even"><td><p>Tipo de sistema: insitu-fixed-point</p></td>
 </tr>
 <tr class="row-odd"><td><p>Sensor type: termistores PTC del tipo «conmutación»</p></td>
 </tr>
-<tr class="row-even"><td><p>FOI name: LUGANO</p></td>
+<tr class="row-even"><td><p>Nombre FOI: LUGANO</p></td>
 </tr>
 <tr class="row-odd"><td><p>EPSG: 4326</p></td>
 </tr>
-<tr class="row-even"><td><p>Coordinates: x: 8.96127 y: 46.02723 z: 344.1</p></td>
+<tr class="row-even"><td><p>Coordenadas: x: 8.96127 y: 46.02723 z: 344.1</p></td>
 </tr>
 </tbody>
 </table>
@@ -177,7 +177,7 @@
 <tbody>
 <tr class="row-odd"><td><p>Propiedad observada: <cite>urn:ogc:def:parameter:x-istsos:1.0:meteo:air:temperature</cite></p></td>
 </tr>
-<tr class="row-even"><td><p>Unit of measure: °C</p></td>
+<tr class="row-even"><td><p>Unidad de medida: °C</p></td>
 </tr>
 <tr class="row-odd"><td><p>Descripción (opcional): conversión de resistencia a témpera</p></td>
 </tr>
@@ -192,7 +192,7 @@
 </section>
 <section id="add-new-observations">
 <h2><a class="toc-backref" href="#id5">Agregar nuevas observaciones</a><a class="headerlink" href="#add-new-observations" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>Primero crearemos un archivo de texto con datos del sensor, formateado de acuerdo con  «text/csv, subtype=istSOS».  El archivo utiliza un formato de valores separados por comas (CSV). La primera línea contiene información de encabezado, incluidos los nombres de URI de las propiedades observadas. Las siguientes líneas contienen los datos.</p>
+<p>Primero crearemos un archivo de texto con datos del sensor, formateado de acuerdo con «text/csv, subtype=istSOS». El archivo utiliza un formato de valores separados por comas (CSV). La primera línea contiene información de encabezado, incluidos los nombres de URI de las propiedades observadas. Las siguientes líneas contienen los datos.</p>
 <ol class="arabic">
 <li><p>Abra un editor de texto seleccionando <span class="menuselection">Accessories ‣ FeatherPad</span>.</p></li>
 <li><p>Copie y pegue el texto siguiente en la ventana del editor de texto:</p>
@@ -213,7 +213,7 @@
 </div>
 </div></blockquote>
 </li>
-<li><p>Save the file as «T_LUGANO_20140603161000000.dat» on the Desktop. The filename convention being used is: PROCEDURENAME_YYYYMMDDhhmmssfff.dat</p></li>
+<li><p>Guarde el archivo como «T_LUGANO_20140603161000000.dat» en el escritorio. La convención de nombre de archivo que se usa es: PROCEDURENAME_YYYYMMDDhhmmssfff.dat</p></li>
 <li><p>Abra un terminal seleccionando <span class="menuselection">System Tools ‣ LXTerminal</span>.</p></li>
 <li><p>En la terminal, escriba: «cd /usr/share/istsos/» y pulse ENTER.</p></li>
 <li><p>Escriba «python scripts/csv2istsos.py -p T_LUGANO -u <a class="reference external" href="http://localhost/istsos">http://localhost/istsos</a> -s demo -w ~/Desktop» y presione ENTER</p></li>

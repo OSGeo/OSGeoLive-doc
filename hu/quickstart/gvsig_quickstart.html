@@ -108,7 +108,7 @@
 <li><p><a class="reference internal" href="#id1" id="id25">Eredmény megtekintése</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#create-a-new-map" id="id26">Új térkép létrehozása</a></p>
+<li><p><a class="reference internal" href="#create-a-new-map" id="id26">Egy új térkép létrehozása</a></p>
 <ul>
 <li><p><a class="reference internal" href="#work-with-the-map" id="id27">Munka a térképekkel</a></p></li>
 </ul>
@@ -142,12 +142,12 @@
 </div>
 <div class="admonition note">
 <p class="admonition-title">Megjegyzés</p>
-<p>Megjegzés a gvSIG 2.3.1 verzióhoz: Raszter fájlok betöltéséhez a felhasználónak írási joggal kell rendelkeznie ahhoz  a mappához, melyben a fájl van. Különben az alkalmazás egy megfelelő mappát (írási joggal) fog kérni. Mivel a „user” felhasználó nem rendelkezik írási joggal a „data” mappában, szükséges egy egy olyan mappa kiválasztása ahová a felhasználó rendelkezik írási joggal, például „/home/user”.</p>
+<p>Megjegzés a gvSIG 2.3.1 verzióhoz: Raszter fájlok betöltéséhez a felhasználónak írási joggal kell rendelkeznie ahhoz a mappához, melyben a fájl van. Különben az alkalmazás egy megfelelő mappát (írási joggal) fog kérni. Mivel a „user” felhasználó nem rendelkezik írási joggal a „data” mappában, szükséges egy egy olyan mappa kiválasztása ahová a felhasználó rendelkezik írási joggal, például „/home/user”.</p>
 </div>
 <section id="start-gvsig-and-create-a-view">
 <h2><a class="toc-backref" href="#id3">gvSIG indítása és egy nézet létrehozása</a><a class="headerlink" href="#start-gvsig-and-create-a-view" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <ol class="arabic simple">
-<li><p>Select gvSIG from the application menu, <span class="menuselection">Geospatial ‣ Desktop GIS ‣ gvSIG desktop</span>. The application usually takes about a minute to startup.</p></li>
+<li><p>Válassza a gvSIG-et az alkalmazás menüből, <span class="menuselection">Geospatial ‣ Desktop GIS ‣ gvSIG desktop</span>. Általában az alkalmazás elindulása egy percbe telik.</p></li>
 <li><p>Alapértelmezés szerint a gvSIG egy üres projektet fájlt nyit meg és a «View» dokumentum típust választja. Habár az OSGeoLive-on a gvSIG-et úgy konfiguráltuk, hogy egy alapértelmezett projekttel induljon. Kattintson a <span class="guilabel">New Project</span> gombra vagy menjen a menüben a <span class="menuselection">File ‣ New Project</span>-re. Válassza a <span class="guilabel">Discard Changes</span>, mivel nem akarjuk az legutóbbi projektet használni.</p></li>
 <li><p>Kattintson a <span class="guilabel">New</span> gombra egy nézet létrehozásához. Automatikusan megnyílik.</p></li>
 </ol>
@@ -161,14 +161,14 @@
 </li>
 <li><p>Az <span class="guilabel">aktuális vetülethez</span>, kattintson a guilabel:<cite>…</cite> gombra. Ez a <strong>New CRS</strong>  párbeszédablakot nyitja meg.</p></li>
 <li><p>A legördülő lista használata <span class="guilabel">Type</span>, EPSG kiválasztásra.</p></li>
-<li><p>Írja be a a koordináta referencia rendszer EPSG kódját. Ehhez a példához EPSG=4326 értéket használunk, mely a WGS84 2D földrajzi koordináták. Ezután kattintson a guilabel:<cite>Search</cite> gombra.  Ezt kilistázza a kiválasztott CRS-t a keresés mező alatti táblában.</p></li>
+<li><p>Írja be a a koordináta referencia rendszer EPSG kódját. Ehhez a példához EPSG=4326 értéket használunk, mely a WGS84 2D földrajzi koordináták. Ezután kattintson a guilabel:<cite>Search</cite> gombra. Ezt kilistázza a kiválasztott CRS-t a keresés mező alatti táblában.</p></li>
 <li><p>Válassza az guilabel:<cite>OK</cite> gombot, hogy visszatérjen <strong>View Properties</strong> párbeszédablakhoz. Az EPSG kód most 4326 és a térképi egységek fokokra változott.</p></li>
 <li><p>Válassza a <span class="guilabel">OK</span> gombot a <strong>Project Manager</strong>-hez visszatéréshez.</p></li>
 </ol>
 <a class="reference internal image-reference" href="../../_images/gvsig_qs_003_.png"><img alt="../../_images/gvsig_qs_003_.png" src="../../_images/gvsig_qs_003_.png" style="width: 561.5500000000001px; height: 407.55px;" /></a>
 <ul class="simple">
 <li><ol class="arabic simple">
-<li><p>A nézet ablak három részből áll</p></li>
+<li><p>A nézet ablak három részből áll.</p></li>
 </ol>
 </li>
 <li><p>(2) The top-left cell contains a list of vector or raster layers being used in
@@ -209,7 +209,7 @@ rendered.</p></li>
 <section id="zoom-into-a-region">
 <h3><a class="toc-backref" href="#id7">Nagyítás egy régióra</a><a class="headerlink" href="#zoom-into-a-region" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
 <ol class="arabic simple">
-<li><p>Alapértelmezés szerint a  <em>Zoom in</em> eszköz a kiválasztott a fő eszköztárban.</p></li>
+<li><p>Alapértelmezés szerint a <em>Zoom in</em> eszköz a kiválasztott a fő eszköztárban.</p></li>
 <li><p>Használja az egeret dél-kelet Ausztrália köré egy befoglaló téglalap rajzolásához. Úgy csinálja ezt, hogy a téglalap bal-felső sarkát kijelöli az egérrel, majd az egérgombot nyomva tartva húzza a kiválasztott terület felett a téglalap jobb-alsó sarkáig. Engedje el a bal egérgombot amikor a megfelelő területet megadta.</p></li>
 </ol>
 <a class="reference internal image-reference" href="../../_images/gvsig_qs_009_.png"><img alt="../../_images/gvsig_qs_009_.png" src="../../_images/gvsig_qs_009_.png" style="width: 563.2px; height: 408.65000000000003px;" /></a>
@@ -221,7 +221,7 @@ rendered.</p></li>
 <h3><a class="toc-backref" href="#id9">Felület átlátszóvá tétele</a><a class="headerlink" href="#make-a-polygon-transparent" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
 <ol class="arabic simple">
 <li><p>Válassza ki a <code class="docutils literal notranslate"><span class="pre">ne_10m_admin_1_states_provinces.shp</span></code> réteget a bal egérgombbal és kattintson ismét a jobb egérgombbal.</p></li>
-<li><p>Válassza a  <span class="menuselection">Properties</span> almenüt.</p></li>
+<li><p>Válassza a <span class="menuselection">Properties</span> almenüt.</p></li>
 <li><p>A <strong>Layer properties</strong> párbeszédablak jelenik meg.</p></li>
 </ol>
 <a class="reference internal image-reference" href="../../_images/gvsig_qs_010_.png"><img alt="../../_images/gvsig_qs_010_.png" src="../../_images/gvsig_qs_010_.png" style="width: 563.2px; height: 408.65000000000003px;" /></a>
@@ -248,7 +248,7 @@ rendered.</p></li>
 <h3><a class="toc-backref" href="#id12">Vektor réteg címkézésének módosítása</a><a class="headerlink" href="#change-the-labelling-of-a-vector-layer" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
 <ol class="arabic simple">
 <li><p>Válassza a <span class="guilabel">Labelling</span> fület a <strong>Layers properties</strong> párbeszédablak tetején.</p></li>
-<li><p>Módosítsa a szöveg attribútumokat  képen láthatókra, majd kattintson a <span class="guilabel">Accept</span> gombra.</p></li>
+<li><p>Módosítsa a szöveg attribútumokat képen láthatókra, majd kattintson a <span class="guilabel">Accept</span> gombra.</p></li>
 </ol>
 <a class="reference internal image-reference" href="../../_images/gvsig_qs_013_.png"><img alt="../../_images/gvsig_qs_013_.png" src="../../_images/gvsig_qs_013_.png" style="width: 563.2px; height: 408.65000000000003px;" /></a>
 </section>
@@ -270,7 +270,7 @@ rendered.</p></li>
 <li><p>Kattintson az <span class="guilabel">Ok</span> gombra és zárja le a lokátor konfiguráció ablakot.</p></li>
 </ol>
 <a class="reference internal image-reference" href="../../_images/gvsig_qs_017_.png"><img alt="../../_images/gvsig_qs_017_.png" src="../../_images/gvsig_qs_017_.png" style="width: 562.1px; height: 407.00000000000006px;" /></a>
-<p>Most könnyen megtudhatjuk a nézetünk hol helyezkedik el a világban,</p>
+<p>Most könnyen megtudhatjuk a nézetünk hol helyezkedik el a világban.</p>
 <a class="reference internal image-reference" href="../../_images/gvsig_qs_018_.png"><img alt="../../_images/gvsig_qs_018_.png" src="../../_images/gvsig_qs_018_.png" style="width: 563.2px; height: 408.65000000000003px;" /></a>
 </section>
 <section id="select-towns-within-a-region">
@@ -288,7 +288,7 @@ rendered.</p></li>
 <h3><a class="toc-backref" href="#id17">Nyissa meg a réteggel szelektálás eszközt</a><a class="headerlink" href="#open-the-selection-by-layer-tool" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
 <ol class="arabic simple">
 <li><p>Válassza az <code class="docutils literal notranslate"><span class="pre">ne_10m_populated_places.shp</span></code> réteget a bal egérgombbal.</p></li>
-<li><p>Válassza a <span class="menuselection">Selection ‣ Select by layer</span>-t a  <strong>Selection by Layer</strong> párbeszédablak megnyitásához</p></li>
+<li><p>Válassza a <span class="menuselection">Selection ‣ Select by layer</span>-t a <strong>Selection by Layer</strong> párbeszédablak megnyitásához</p></li>
 </ol>
 <a class="reference internal image-reference" href="../../_images/gvsig_qs_020_.png"><img alt="../../_images/gvsig_qs_020_.png" src="../../_images/gvsig_qs_020_.png" style="width: 563.2px; height: 408.65000000000003px;" /></a>
 </section>
@@ -335,14 +335,14 @@ rendered.</p></li>
 <section id="reference-system">
 <h3><a class="toc-backref" href="#id23">Referencia rendszer</a><a class="headerlink" href="#reference-system" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
 <ol class="arabic simple">
-<li><p>Válassza az  <em>Original (EPSG:4326)</em> beállítást a nézet referencia rendszerének megőrzéséhez.</p></li>
+<li><p>Válassza az <em>Original (EPSG:4326)</em> beállítást a nézet referencia rendszerének megőrzéséhez.</p></li>
 <li><p>Kattintson a <em>Next</em>-re.</p></li>
 </ol>
 </section>
 <section id="export-options">
 <h3><a class="toc-backref" href="#id24">Export beállítások</a><a class="headerlink" href="#export-options" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
 <ol class="arabic simple">
-<li><p>Válassza a  <em>Selected features</em>, hogy csak az Új dél Wales-be eső városokat exportálja.</p></li>
+<li><p>Válassza a <em>Selected features</em>, hogy csak az Új dél Wales-be eső városokat exportálja.</p></li>
 <li><p>Kattintson az <em>Export</em>-ra.</p></li>
 </ol>
 <a class="reference internal image-reference" href="../../_images/gvsig_qs_025_.png"><img alt="../../_images/gvsig_qs_025_.png" src="../../_images/gvsig_qs_025_.png" style="width: 563.2px; height: 408.65000000000003px;" /></a>
@@ -357,7 +357,7 @@ rendered.</p></li>
 </section>
 </section>
 <section id="create-a-new-map">
-<h2><a class="toc-backref" href="#id26">Új térkép létrehozása</a><a class="headerlink" href="#create-a-new-map" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<h2><a class="toc-backref" href="#id26">Egy új térkép létrehozása</a><a class="headerlink" href="#create-a-new-map" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <ol class="arabic simple">
 <li><p>Válassza a <em>Map</em> dokumentum típust a <strong>Project Manager</strong>-ben.</p></li>
 <li><p>Kattintson a <span class="guilabel">New</span> gombra egy térkép létrehozásához.</p></li>
@@ -367,9 +367,9 @@ rendered.</p></li>
 <section id="work-with-the-map">
 <h3><a class="toc-backref" href="#id27">Munka a térképekkel</a><a class="headerlink" href="#work-with-the-map" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
 <ol class="arabic simple">
-<li><p>A fő eszköztár ikonjaival vagy a  <span class="menuselection">Map</span> menü almenüivel további elemeket adhat hozzá a térképhez, például egy léptéket és egy északi nyilat.</p></li>
+<li><p>A fő eszköztár ikonjaival vagy a <span class="menuselection">Map</span> menü almenüivel további elemeket adhat hozzá a térképhez, például egy léptéket és egy északi nyilat.</p></li>
 <li><p>A térképet kinyomtathatja vagy exportálhatja PDF-be vagy Postscriptbe, hogy más munkába beillessze.</p></li>
-<li><p>Válassza a <span class="guilabel">Close window</span> ikont a  <strong>Project manager</strong>-hez visszatéréshez</p></li>
+<li><p>Válassza a <span class="guilabel">Close window</span> ikont a <strong>Project manager</strong>-hez visszatéréshez</p></li>
 </ol>
 <a class="reference internal image-reference" href="../../_images/gvsig_qs_029_.png"><img alt="../../_images/gvsig_qs_029_.png" src="../../_images/gvsig_qs_029_.png" style="width: 563.2px; height: 408.65000000000003px;" /></a>
 </section>
@@ -399,7 +399,7 @@ rendered.</p></li>
 <ol class="arabic simple">
 <li><p>A bővítmény kezelőben modulokat és szimbólum könyvtárakat találunk.</p></li>
 <li><p>Gépelje be a <em>Fast filter</em> szövegmezőbe «Forestry».</p></li>
-<li><p>Kattintson a <em>Symbols: Forestry</em> bővítményre (ez egy szimbólum könyvtár)</p></li>
+<li><p>Kattintson a <em>Symbols: Forestry</em> bővítményre (ez egy szimbólum könyvtár).</p></li>
 <li><p>Kattintson a <em>Next</em>-re.</p></li>
 </ol>
 <a class="reference internal image-reference" href="../../_images/gvsig_qs_032__.png"><img alt="../../_images/gvsig_qs_032__.png" src="../../_images/gvsig_qs_032__.png" style="width: 563.2px; height: 333.85px;" /></a>
@@ -436,7 +436,7 @@ rendered.</p></li>
 <section id="select-a-server">
 <h3><a class="toc-backref" href="#id36">Válasszon egy szervert</a><a class="headerlink" href="#select-a-server" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
 <ol class="arabic simple">
-<li><p>Egy nézeten belül kattintson a  <span class="guilabel">Add layer…</span> gombra.</p></li>
+<li><p>Egy nézeten belül kattintson a <span class="guilabel">Add layer…</span> gombra.</p></li>
 <li><p>Válassza a <em>WMTS</em> fület.</p></li>
 <li><p>Válassza a képen látható URL-t.</p></li>
 <li><p>Kattintson a <em>Connect</em>-re.</p></li>

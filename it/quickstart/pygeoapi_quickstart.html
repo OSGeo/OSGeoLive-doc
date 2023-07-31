@@ -65,7 +65,7 @@
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
 <section id="pygeoapi-quickstart">
 <h1>Guida rapida pygeoapi<a class="headerlink" href="#pygeoapi-quickstart" title="Link a questa intestazione">¶</a></h1>
-<p>pygeoapi è uno strumento per pubblicare in modo veloce e semplice servizi OGC Open API sul web. È costruito sulle potenti librerie open source fornite dalla comunità (geo)python</p>
+<p>pygeoapi è uno strumento per pubblicare in modo veloce e semplice servizi OGC Open API sul web. È costruito sulle potenti librerie open source fornite dalla comunità (geo)python.</p>
 <p>In questa guida rapida ti guideremo nella configurazione ed uso del software in qualche caso specifico. ungo la strada ci impegneremo con alcuni software correlati, perché pygeoapi è un prodotto che è tipicamente combinato con altre componenti per soddisfare un caso aziendale.</p>
 <section id="prior-knowledge">
 <h2>Conoscenza preliminare<a class="headerlink" href="#prior-knowledge" title="Link a questa intestazione">¶</a></h2>
@@ -76,7 +76,7 @@
 <li><p><a class="reference internal" href="#configure-and-start-the-service" id="id1">Configura e avvia il servizio</a></p></li>
 <li><p><a class="reference internal" href="#configure-new-service" id="id2">Configura un nuovo servizio</a></p></li>
 <li><p><a class="reference internal" href="#using-a-web-browser-to-query-the-api" id="id3">Usa un browser web per interrogare l’API</a></p></li>
-<li><p><a class="reference internal" href="#using-ogc-api-features-in-desktop-gis" id="id4">Using OGC API - Features in Desktop GIS</a></p></li>
+<li><p><a class="reference internal" href="#using-ogc-api-features-in-desktop-gis" id="id4">Usare OGC API - Features nel Desktop GIS</a></p></li>
 </ul>
 </div>
 <section id="configure-and-start-the-service">
@@ -95,12 +95,10 @@
 <h3><a class="toc-backref" href="#id2">Configura un nuovo servizio</a><a class="headerlink" href="#configure-new-service" title="Link a questa intestazione">¶</a></h3>
 <p>Ora distribuisci un dataset vettoriale in pygeoapi ed esponi gli elementi come OGC API - Features. OGC API - Features è uno standard di OGC per esporre gli elementi vettoriali come webservice. OGC API - Features è l’alternativa OpenAPI a WFS.</p>
 <p>pygeoapi supporta una vasta gamma di backend da usare come sorgente vettoriale, ad esempio geopackage, PostGIS, Elasticsearch, WFS, ecc. Tramite il provider GDAL OGR si può aggiungere un insieme quasi illimitato di altre fonti vettoriali.</p>
-<p>Interesting datasets to expose as OGC API - Features consist of real world data having multiple attributes and links to other resources.
-OSGeoLive contains a number of datasets we can use. An example is <code class="docutils literal notranslate"><span class="pre">/var/www/html/openlayers/examples/data/geojson/countries.geojson</span></code>.
-You can configure it in pygeoapi using the GeoJSON provider.</p>
+<p>I set di dati interessanti da esporre come OGC API-Features consistono in dati del mondo reale che hanno attributi multipli e collegamenti ad altre risorse. OSGeoLive contiene un certo numero di set di dati che puoi usare. Un esempio è <code class="docutils literal notranslate"><span class="pre">/var/www/html/openlayers/examples/data/geojson/countries.geojson</span></code>. Puoi configurarlo in pygeoapi usando il provider GeoJSON.</p>
 <ol class="arabic simple">
 <li><p>Scarica il file GeoJSON e mettilo nella cartella test/data.</p></li>
-<li><p>Update <code class="docutils literal notranslate"><span class="pre">pygeoapi-config.yml</span></code> to add <code class="docutils literal notranslate"><span class="pre">countries</span></code> as a new collection to pygeoapi (insert snippet below between the other collections. Mind the nesting, nesting is important in YAML syntax).</p></li>
+<li><p>Aggiorna <code class="docutils literal notranslate"><span class="pre">pygeoapi-config.yml</span></code> per aggiungere <code class="docutils literal notranslate"><span class="pre">paesi</span></code> come nuova collezione a pygeoapi (inserire lo snippet sotto tra le altre collezioni. Attenzione alla nidificazione, la nidificazione è importante nella sintassi YAML).</p></li>
 </ol>
 <div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">countries</span><span class="p">:</span>
 <span class="w">   </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">collection</span>
@@ -131,8 +129,7 @@ You can configure it in pygeoapi using the GeoJSON provider.</p>
 </section>
 <section id="using-a-web-browser-to-query-the-api">
 <h3><a class="toc-backref" href="#id3">Usa un browser web per interrogare l’API</a><a class="headerlink" href="#using-a-web-browser-to-query-the-api" title="Link a questa intestazione">¶</a></h3>
-<p>Now that we have the service available we can query it using various client tooling.
-Each of the features of the collection is available in common formats, such as HTML, GeoJSON and GML. To start we can use a web browser to browse through the service. From <a class="reference external" href="http://localhost:5000/collections/countries">http://localhost:5000/collections/countries</a>, drill down to individual features. The service will automatically detect (accept header) that you are using a web browser and will return the HTML representation of features. Notice in the top right corner explicit links to override the accept header and request specific representations of the feature (<code class="docutils literal notranslate"><span class="pre">?f=json</span></code>).</p>
+<p>Ora che hai il servizio disponibile puoi interrogarlo usando vari strumenti client. Ogni elemento della collezione è disponibile in formati comuni, come HTML, GeoJSON e GML. Per iniziare puoi usare un browser web per navigare attraverso il servizio. Dal sito <a class="reference external" href="http://localhost:5000/collections/countries">http://localhost:5000/collections/countries</a>, si può scendere fino ai singoli elementi. Il servizio rileverà automaticamente (accetta l’intestazione) che stai usando un browser web e restituirà la rappresentazione HTML degli elementi. Nota nell’angolo in alto a destra i link espliciti per sovrascrivere l’intestazione di accettazione e richiedere rappresentazioni specifiche dell’elemento (<code class="docutils literal notranslate"><span class="pre">?f=json</span></code>).</p>
 <p>Ogni Open API ha una pagina di documentazione interattiva su <a class="reference external" href="http://localhost:5000/openapi">http://localhost:5000/openapi</a>. In questa pagina web interattiva puoi leggere i vari metodi del servizio, ma anche interagire direttamente con essi tramite moduli web.</p>
 <blockquote>
 <div><a class="reference internal image-reference" href="../../_images/openapidoc.png"><img alt="../../_images/openapidoc.png" src="../../_images/openapidoc.png" style="width: 1009.4px; height: 368.2px;" /></a>
@@ -140,9 +137,9 @@ Each of the features of the collection is available in common formats, such as H
 <p>OGC API’s have been developed with the <a class="reference external" href="https://www.w3.org/TR/sdw-bp">W3C Spatial Data on the Web Best Practices</a> in mind. An important aspect of these best practices is search engine optimization. Pygeoapi adds some crawl optimizations on top of the requirements of the Open API standards; collection metadata can be crawled by search engines in a structured way, with the goal to make the collections discoverable in tools like Google Dataset Search. To evaluate the structured data capabilities you can use the Structured Data Testing tools of Yandex or Google. Copy the html source of the countries collection page (or the url of a collection page of an online pygeoapi instance) into a structured data testing tool and evaluate what structured data the tool is able to extract from it. The search engine will use that information in its datasets index.</p>
 </section>
 <section id="using-ogc-api-features-in-desktop-gis">
-<h3><a class="toc-backref" href="#id4">Using OGC API - Features in Desktop GIS</a><a class="headerlink" href="#using-ogc-api-features-in-desktop-gis" title="Link a questa intestazione">¶</a></h3>
+<h3><a class="toc-backref" href="#id4">Usare OGC API - Features nel Desktop GIS</a><a class="headerlink" href="#using-ogc-api-features-in-desktop-gis" title="Link a questa intestazione">¶</a></h3>
 <p>In questa guida rapida usa QGIS per interrogare il servizio, ma un flusso di lavoro simile è possibile in altri strumenti GIS, per esempio ArcGIS, FME, OpenLayers.</p>
-<p>Starting from QGIS 3.14 you can add an OGC API - Features layer as vector layer. From the <code class="docutils literal notranslate"><span class="pre">Layer</span> <span class="pre">/</span> <span class="pre">Add</span> <span class="pre">Layer</span></code> menu select <code class="docutils literal notranslate"><span class="pre">Add</span> <span class="pre">WFS</span> <span class="pre">Layer...</span></code>.</p>
+<p>A partire da QGIS 3.14 è possibile aggiungere un layer OGC API - Features come layer vettoriale. Dal menu <code class="docutils literal notranslate"><span class="pre">Layer</span> <span class="pre">/</span> <span class="pre">Aggiungi</span> <span class="pre">layer</span></code> seleziona <code class="docutils literal notranslate"><span class="pre">Aggiungi</span> <span class="pre">layer</span> <span class="pre">WFS...</span></code>.</p>
 <blockquote>
 <div><a class="reference internal image-reference" href="../../_images/qgis-wfs.png"><img alt="../../_images/qgis-wfs.png" src="../../_images/qgis-wfs.png" style="width: 277.9px; height: 243.6px;" /></a>
 </div></blockquote>

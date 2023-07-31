@@ -160,7 +160,7 @@ pwd: pwd [-LP]
 <p>Többet szeretne tudni egy könyvtár tartalmáról. Az <cite>ls</cite> program az, amelyik rengeteg információt szolgáltat önnek.</p>
 <ul class="simple">
 <li><p><cite>ls</cite> listázza az összes fájlt és könyvtárat</p></li>
-<li><p><cite>ls -l</cite> a fájlok és könyvtárak részletesebb listáját adja időponttal és felhasználói hozzáférési jogokkal.</p></li>
+<li><p><cite>ls -l</cite> a fájlok és könyvtárak részletesebb listáját adja időponttal és felhasználói hozzáférési jogokkal</p></li>
 <li><p><cite>ls -a</cite> a rejtett fájlokat is megmutatja</p></li>
 <li><p><cite>ls -al</cite> a különböző opciókat kombinálhatjuk</p></li>
 <li><p><cite>ls -1</cite> csak a fáj neveket mutatja</p></li>
@@ -196,7 +196,7 @@ pwd: pwd [-LP]
 </section>
 <section id="search-and-install-programs">
 <h2><a class="toc-backref" href="#id8">Programok keresése és telepítése</a><a class="headerlink" href="#search-and-install-programs" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
-<p>Információ megjelenítése a programokról</p>
+<p>Információ megjelenítése a programokról.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">apt</span> <span class="n">show</span> <span class="n">postgis</span>
 </pre></div>
 </div>
@@ -208,11 +208,11 @@ pwd: pwd [-LP]
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">sl</span>
 </pre></div>
 </div>
-<p>Szeretni fogja az <cite>sl</cite> programot. Futtassa az új  <cite>sl</cite> programot, lásd még <cite>apt show sl</cite>.</p>
+<p>Szeretni fogja az <cite>sl</cite> programot. Futtassa az új <cite>sl</cite> programot, lásd még <cite>apt show sl</cite>.</p>
 </section>
 <section id="services">
 <h2><a class="toc-backref" href="#id9">Szolgáltatások</a><a class="headerlink" href="#services" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
-<p>Néhány program szolgáltatásként fut, mint például  PostgreSQL, tomcat vagy Apache web szerver. Elindíthatja és megállíthatja a szolgáltatásokat.</p>
+<p>Néhány program szolgáltatásként fut, mint például PostgreSQL, tomcat vagy Apache web szerver. Elindíthatja és megállíthatja a szolgáltatásokat.</p>
 <p>Az Apache szolgáltatás újraindítása</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">service</span> <span class="n">apache2</span> <span class="n">restart</span>
 
@@ -225,7 +225,7 @@ pwd: pwd [-LP]
 <section id="how-to-edit-files">
 <h2><a class="toc-backref" href="#id10">Hogyan szerkesszünk fájlokat</a><a class="headerlink" href="#how-to-edit-files" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>Fájlokat szerkeszthetünk a terminál ablakban vagy megnyithatjuk őket egy külső programmal mint a Geany.</p>
-<p>A terminál ablakban használhatja a <cite>vim</cite> (Vi IMproved) szerkesztőt. <cite>vim</cite>  nagyon hatékony és sok opcióval rendelkezik.</p>
+<p>A terminál ablakban használhatja a <cite>vim</cite> (Vi IMproved) szerkesztőt. <cite>vim</cite> nagyon hatékony és sok opcióval rendelkezik.</p>
 <p>Lásd még</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://help.ubuntu.com/community/VimHowto">https://help.ubuntu.com/community/VimHowto</a></p></li>
@@ -248,7 +248,7 @@ pwd: pwd [-LP]
 <h2><a class="toc-backref" href="#id11">Tulajdonos és hozzáférési jogosultságok</a><a class="headerlink" href="#owner-and-access-rights" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>A hozzáférési jogok határozzák meg, hogy egy <cite>user</cite> (felhasználó) vagy <cite>group</cite> (csoport) vagy <cite>others</cite> (mindenki más) hozzáférhetnek-e egy fájlhoz, és hogy milyen hozzáférésük van. Lehet <cite>read</cite> (olvasás), <cite>write</cite> (írás) vagy <cite>excecute</cite> (végrehajtás) hozzáférés.</p>
 <p>A könyvtárakhoz vagy fájlokhoz tartozik egy tulajdonos és egy csoport. Alapértelmezés szerint a fájl/könyvtár létrehozója a tulajdonos. Ez a beállítás megváltoztatható. Megtanuljuk ezt a következő fejezetben.</p>
-<p>Megjelenítheti a tulajdonost és a csoportot az <cite>ls -l</cite> segítségével.</p>
+<p>Megjelenítheti a tulajdonost és a csoportot az <cite>ls -l</cite> segítségével</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">user</span><span class="o">/</span><span class="n">demo</span>
 <span class="n">ls</span> <span class="o">-</span><span class="n">l</span>
 <span class="o">-</span><span class="n">rw</span><span class="o">-</span><span class="n">rw</span><span class="o">-</span><span class="n">r</span><span class="o">--</span> <span class="mi">1</span> <span class="n">user</span> <span class="n">user</span> <span class="mi">122</span> <span class="n">Dec</span> <span class="mi">26</span> <span class="mi">16</span><span class="p">:</span><span class="mi">11</span> <span class="n">history</span><span class="o">.</span><span class="n">txt</span>

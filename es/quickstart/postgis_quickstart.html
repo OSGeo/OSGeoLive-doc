@@ -116,7 +116,7 @@
 <p class="admonition-title">Truco</p>
 <p>La lista utiliza un localizador estándar de unix - pulsa space para página siguiente, <kbd class="kbd docutils literal notranslate">b</kbd> para volver, <kbd class="kbd docutils literal notranslate">q</kbd> para cerrar, h para obtener ayuda.</p>
 </div>
-<p>PostgreSQL nos ofrece un programa de utilidad para la creación de bases de datos,``createdb``.  Necesitamos crear una base de datos antes de agregar las extensiones de PostGIS. Llamaremos a nuestra base de datos <code class="docutils literal notranslate"><span class="pre">demo</span></code>. El comando es entonces:</p>
+<p>PostgreSQL nos ofrece un programa de utilidad para la creación de bases de datos,``createdb``. Necesitamos crear una base de datos antes de agregar las extensiones de PostGIS. Llamaremos a nuestra base de datos <code class="docutils literal notranslate"><span class="pre">demo</span></code>. El comando es entonces:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">createdb</span> <span class="n">demo</span>
 </pre></div>
 </div>
@@ -125,16 +125,16 @@
 <p>Generalmente puede obtener ayuda para las herramientas de línea de comandos mediante la opción``–help`` .</p>
 </div>
 <p>Si ahora ejecuta <code class="docutils literal notranslate"><span class="pre">psql</span> <span class="pre">-l</span></code> debería ver su base de datos <code class="docutils literal notranslate"><span class="pre">demo</span></code> en la lista. No hemos añadido la extensión PostGIS todavía, pero en la siguiente sección te explicamos cómo.</p>
-<p>Puede crear bases de datos PostGIS usando el lenguaje SQL. Primero elimine la base de datos que acabamos de crear utilizando el comando <code class="docutils literal notranslate"><span class="pre">dropdb</span></code>, luego use el comando <code class="docutils literal notranslate"><span class="pre">psql</span></code>  para conseguir un intérprete de comandos SQL:</p>
+<p>Puede crear bases de datos PostGIS usando el lenguaje SQL. Primero elimine la base de datos que acabamos de crear utilizando el comando <code class="docutils literal notranslate"><span class="pre">dropdb</span></code>, luego use el comando <code class="docutils literal notranslate"><span class="pre">psql</span></code> para conseguir un intérprete de comandos SQL:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">dropdb</span> <span class="n">demo</span>
 <span class="n">psql</span> <span class="o">-</span><span class="n">d</span> <span class="n">postgres</span>
 </pre></div>
 </div>
-<p>Esto conecta a la base de datos de sistema de núcleo llamado  <code class="docutils literal notranslate"><span class="pre">postgres</span></code>.  Ahora introduzca el código SQL para crear una nueva base de datos:</p>
+<p>Esto conecta a la base de datos de sistema de núcleo llamado <code class="docutils literal notranslate"><span class="pre">postgres</span></code>. Ahora introduzca el código SQL para crear una nueva base de datos:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">postgres</span><span class="o">=</span><span class="c1"># CREATE DATABASE demo;</span>
 </pre></div>
 </div>
-<p>Ahora cambie la conexión de la base de datos de <code class="docutils literal notranslate"><span class="pre">postgres</span></code> a la nueva base de datos de  <code class="docutils literal notranslate"><span class="pre">demo</span></code>. En el futuro usted puede conectarse a él directamente con  <code class="docutils literal notranslate"><span class="pre">psql</span> <span class="pre">-d</span> <span class="pre">demo</span></code>, pero aquí hay una forma clara de cambiar dentro de la línea de comando de `` psql``:</p>
+<p>Ahora cambie la conexión de la base de datos de <code class="docutils literal notranslate"><span class="pre">postgres</span></code> a la nueva base de datos de <code class="docutils literal notranslate"><span class="pre">demo</span></code>. En el futuro usted puede conectarse a él directamente con <code class="docutils literal notranslate"><span class="pre">psql</span> <span class="pre">-d</span> <span class="pre">demo</span></code>, pero aquí hay una forma clara de cambiar dentro de la línea de comando de <code class="docutils literal notranslate"><span class="pre">psql</span></code>:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">postgres</span><span class="o">=</span><span class="c1"># \c demo</span>
 </pre></div>
 </div>
@@ -157,7 +157,7 @@
 </pre></div>
 </div>
 <p>PostGIS instala muchas funciones, una tabla y varias vistas</p>
-<p>Teclee <code class="docutils literal notranslate"><span class="pre">\dt</span></code>  para enlistar las tablas en la base de datos. Debería ver algo como esto:</p>
+<p>Teclee <code class="docutils literal notranslate"><span class="pre">\dt</span></code> para enlistar las tablas en la base de datos. Debería ver algo como esto:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># \dt</span>
              <span class="n">List</span> <span class="n">of</span> <span class="n">relations</span>
  <span class="n">Schema</span> <span class="o">|</span>       <span class="n">Name</span>       <span class="o">|</span> <span class="n">Type</span>  <span class="o">|</span> <span class="n">Owner</span>
@@ -201,13 +201,13 @@
 <p>PostGIS soporta varios tipos de datos espaciales:</p>
 <blockquote>
 <div><p><cite>geometry</cite> - es un tipo de datos que almacena datos como vectores dibujados sobre una superficie plana</p>
-<p><cite>geography</cite>  - es un tipo de datos que almacena datos como vectores dibujados sobre una superficie esferoidal</p>
+<p><cite>geography</cite> - es un tipo de datos que almacena datos como vectores dibujados sobre una superficie esferoidal</p>
 <dl class="simple">
 <dt><cite>raster</cite> - es un tipo de datos que almacena los datos como una matriz n-dimensional que representa cada posición (píxel)</dt><dd><p>un área de espacio y cada banda (dimensión) tiene un valor para cada espacio de píxeles.</p>
 </dd>
 </dl>
 </div></blockquote>
-<p>Las vistas  <code class="docutils literal notranslate"><span class="pre">geometry_columns</span></code>, <code class="docutils literal notranslate"><span class="pre">geography_columns</span></code> y <code class="docutils literal notranslate"><span class="pre">raster_columns</span></code>  tienen el trabajo de decirle a PostGIS qué tablas tienen geometría PostGIS, geografía y columnas de ráster.</p>
+<p>Las vistas <code class="docutils literal notranslate"><span class="pre">geometry_columns</span></code>, <code class="docutils literal notranslate"><span class="pre">geography_columns</span></code> y <code class="docutils literal notranslate"><span class="pre">raster_columns</span></code> tienen el trabajo de decirle a PostGIS qué tablas tienen geometría PostGIS, geografía y columnas de ráster.</p>
 <p>Descripciones son mesas de resolución más baja para datos ráster. Las <code class="docutils literal notranslate"><span class="pre">raster_overviews</span></code> enlistan dichas tablas y sus columnas de ráster y la tabla para la que es una vista general. Las tablas de vistas generales de ráster se utilizan herramientas como QGIS para proporcionar versiones baja resolución de datos ráster para cargar más rápido.</p>
 <p>El tipo de geometría PostGIS es el primero y aún más popular utilizado por los usuarios de PostGIS. Enfocaremos nuestra atención en ese tipo.</p>
 </section>
@@ -218,7 +218,7 @@
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># CREATE TABLE cities ( id int4 primary key, name varchar(50), geom geometry(POINT,4326) );</span>
 </pre></div>
 </div>
-<p>Convencionalmente esta columna de geometría se denomina <code class="docutils literal notranslate"><span class="pre">geom</span></code> (la más vieja convención de PostGIS era <code class="docutils literal notranslate"><span class="pre">the_geom</span></code>). Esto le indica a PostGIS qué tipo de geometría, tiene cada función  (puntos, líneas, polígonos, etcetera), cuántas dimensiones (en este caso 2, si tuviese 3 o 4 dimensiones utilizaríamos POINTZ, POINTM o POINTZM), y el sistema de referencia espacial. Utilizamos EPSG:4326 coordenadas para nuestras ciudades.</p>
+<p>Convencionalmente esta columna de geometría se denomina <code class="docutils literal notranslate"><span class="pre">geom</span></code> (la más vieja convención de PostGIS era <code class="docutils literal notranslate"><span class="pre">the_geom</span></code>). Esto le indica a PostGIS qué tipo de geometría, tiene cada función (puntos, líneas, polígonos, etcetera), cuántas dimensiones (en este caso 2, si tuviese 3 o 4 dimensiones utilizaríamos POINTZ, POINTM o POINTZM), y el sistema de referencia espacial. Utilizamos EPSG:4326 coordenadas para nuestras ciudades.</p>
 <p>Ahora si revisas la tabla ciudades usted debería ver la nueva columna y se informó que la tabla no contiene actualmente ninguna fila.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># SELECT * from cities;</span>
  <span class="nb">id</span> <span class="o">|</span> <span class="n">name</span> <span class="o">|</span> <span class="n">geom</span>
@@ -226,7 +226,7 @@
 <span class="p">(</span><span class="mi">0</span> <span class="n">rows</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>Para agregar filas a la tabla que utilizamos algunas sentencias SQL. Para obtener la geometría en la columna de geometría usamos la función PostGIS  <code class="docutils literal notranslate"><span class="pre">ST_GeomFromText</span></code> para convertir de un formato de texto que le da las coordenadas y un id de sistema de referencia espacial:</p>
+<p>Para agregar filas a la tabla que utilizamos algunas sentencias SQL. Para obtener la geometría en la columna de geometría usamos la función PostGIS <code class="docutils literal notranslate"><span class="pre">ST_GeomFromText</span></code> para convertir de un formato de texto que le da las coordenadas y un id de sistema de referencia espacial:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># INSERT INTO cities (id, geom, name) VALUES (1,ST_GeomFromText(&#39;POINT(-0.1257 51.508)&#39;,4326),&#39;London, England&#39;);</span>
 <span class="n">demo</span><span class="o">=</span><span class="c1"># INSERT INTO cities (id, geom, name) VALUES (2,ST_GeomFromText(&#39;POINT(-81.233 42.983)&#39;,4326),&#39;London, Ontario&#39;);</span>
 <span class="n">demo</span><span class="o">=</span><span class="c1"># INSERT INTO cities (id, geom, name) VALUES (3,ST_GeomFromText(&#39;POINT(27.91162491 -33.01529)&#39;,4326),&#39;East London,SA&#39;);</span>
@@ -274,7 +274,7 @@
  <span class="p">(</span><span class="mi">3</span> <span class="n">rows</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>Esto nos da la distancia, en metros, entre cada par de ciudades. Observe cómo la parte de “Dónde” en la línea detiene nosotros devolviendo  distancias de una ciudad hacia sí mismo (que serán todas cero) o las distancias inversas a las de la tabla anterior (Londres, Inglaterra a Londres, Ontario es la misma distancia que Londres, Ontario a Londres, Inglaterra). Pruébalo sin la parte de “Dónde” y ver qué pasa.</p>
+<p>Esto nos da la distancia, en metros, entre cada par de ciudades. Observe cómo la parte <cite>WHERE</cite> en la línea detiene de regresar distancias de una ciudad hacia sí misma (que serán todas cero) o las distancias inversas a las de la tabla anterior (Londres, Inglaterra a Londres, Ontario es la misma distancia que Londres, Ontario a Londres, Inglaterra). Pruébarlo sin la parte <cite>WHERE</cite> y ver qué pasa.</p>
 <p>También podemos calcular la distancia usando un esferoide usando una diversa función y especificando el nombre de esferoide, eje semi mayor y parámetros aplanar inversos:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># SELECT p1.name,p2.name,ST_DistanceSpheroid(</span>
         <span class="n">p1</span><span class="o">.</span><span class="n">geom</span><span class="p">,</span><span class="n">p2</span><span class="o">.</span><span class="n">geom</span><span class="p">,</span> <span class="s1">&#39;SPHEROID[&quot;GRS_1980&quot;,6378137,298.257222]&#39;</span>
@@ -300,13 +300,13 @@
 <section id="mapping">
 <h2><a class="toc-backref" href="#id6">Mapeo</a><a class="headerlink" href="#mapping" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Para producir un mapa de datos de PostGIS, necesita a un cliente que puede obtener los datos. La mayoría de los programas de código abierto GIS pueden hacerlo - gvSIG, QGIS, uDig por ejemplo. Ahora te mostramos cómo hacer un mapa de QGIS.</p>
-<p>Iniciar QGIS desde el menú de escritorio SIG y elija  <code class="docutils literal notranslate"><span class="pre">Add</span> <span class="pre">PostGIS</span> <span class="pre">layers</span></code>  en el menú de capa. Los parámetros para la conexión a los datos de Natural Earth en PostGIS ya están definidos en el menú  desplegable de Conexiones. Puede definir nuevas conexiones con servidores aquí y almacenar los ajustes para una fácil recuperación. Haga click en el menú desplegable de conexiones y escoja la Natural Earth. Presione <code class="docutils literal notranslate"><span class="pre">editar</span></code> si usted quiere ver lo que esos parámetros son para  Natural Earth, o sólo presione <code class="docutils literal notranslate"><span class="pre">Connect</span></code> para continuar:</p>
+<p>Iniciar QGIS desde el menú de escritorio SIG y elija <code class="docutils literal notranslate"><span class="pre">Add</span> <span class="pre">PostGIS</span> <span class="pre">layers</span></code> en el menú de capa. Los parámetros para la conexión a los datos de Natural Earth en PostGIS ya están definidos en el menú desplegable de Conexiones. Puede definir nuevas conexiones con servidores aquí y almacenar los ajustes para una fácil recuperación. Haga click en el menú desplegable de conexiones y escoja la Natural Earth. Presione <code class="docutils literal notranslate"><span class="pre">editar</span></code> si usted quiere ver lo que esos parámetros son para Natural Earth, o sólo presione <code class="docutils literal notranslate"><span class="pre">Connect</span></code> para continuar:</p>
 <a class="reference internal image-reference" href="../../_images/postgis_addlayers.png"><img alt="Conectarse a Natural Earth" class="align-center" src="../../_images/postgis_addlayers.png" style="width: 705.75px; height: 254.25px;" /></a>
 <p>Ahora obtendrá una lista de las tablas espaciales en la base de datos:</p>
 <a class="reference internal image-reference" href="../../_images/postgis_listtables.png"><img alt="Capas de Natural Earth" class="align-center" src="../../_images/postgis_listtables.png" style="width: 709.5px; height: 394.5px;" /></a>
 <p>Elegir la tabla ne_10m_lakes y presione <code class="docutils literal notranslate"><span class="pre">Add</span></code> en la parte inferior (no <code class="docutils literal notranslate"><span class="pre">Load</span></code> en la parte superior - que carga los parámetros de conexión de base de datos), y se debe cargar en QGIS:</p>
 <a class="reference internal image-reference" href="../../_images/postgis_lakesmap.png"><img alt="Mi primera capa PostGIS" class="align-center" src="../../_images/postgis_lakesmap.png" style="width: 1029.0px; height: 605.25px;" /></a>
-<p>Ahora debería ver un mapa de los lagos. QGIS no sabe que son los lagos, así que no podría azul les color para usted - utilizar la documentación de QGIS para trabajar la manera de cambiar esto. Haga un acercamiento sobre  un famoso grupo de lagos en Canadá.</p>
+<p>Ahora debería ver un mapa de los lagos. QGIS no sabe que son los lagos, así que no podría azul les color para usted - utilizar la documentación de QGIS para trabajar la manera de cambiar esto. Haga un acercamiento sobre un famoso grupo de lagos en Canadá.</p>
 </section>
 <section id="importing-spatial-data-into-the-database">
 <h2><a class="toc-backref" href="#id7">Importación de datos espaciales a la base de datos</a><a class="headerlink" href="#importing-spatial-data-into-the-database" title="Enlazar permanentemente con este título">¶</a></h2>
@@ -315,7 +315,7 @@
 <p>Despliega el ítem de Postgis, luego el ítem de  NaturalEarth. Luego se conectará a la base de datos de Natural Earth. Dejar la contraseña en blanco si le pide. En el ítem público, hay la lista de las capas de la base de datos. Verás la ventana principal del administrador. A la izquierda puede seleccionar tablas de la base de datos y usar las pestañas de la derecha para conocerlas. La pestaña Vista previa le mostrará un pequeño mapa.</p>
 <a class="reference internal image-reference" href="../../_images/postgis_managerpreview.png"><img alt="Vista previa de QGIS Manager" class="align-center" src="../../_images/postgis_managerpreview.png" style="width: 929.25px; height: 599.25px;" /></a>
 <p>Ahora usaremos el administrador de DB para importar un archivo de formas en la base de datos. Usaremos los datos de síndrome de muerte súbita del lactante (SMSL) de Carolina del norte que se incluye en uno de los complementos de paquete de estadísticas R.</p>
-<p>En el menú <code class="docutils literal notranslate"><span class="pre">Table</span></code> elija la opción  <code class="docutils literal notranslate"><span class="pre">Import</span> <span class="pre">layer/file</span></code> . Pulse el botón <code class="docutils literal notranslate"><span class="pre">...</span></code> y busque el shapefile  <code class="docutils literal notranslate"><span class="pre">sids.shp</span></code> en el el directorio de R (ubicado en /home/user/data/vector/R/shapes):</p>
+<p>En el menú <code class="docutils literal notranslate"><span class="pre">Table</span></code> elijir la opción <code class="docutils literal notranslate"><span class="pre">Import</span> <span class="pre">layer/file</span></code> . Pulsar el botón <code class="docutils literal notranslate"><span class="pre">...</span></code> y buscar el shapefile <code class="docutils literal notranslate"><span class="pre">sids.shp</span></code> en el directorio de R (ubicado en /home/user/data/vector/R/shapes):</p>
 <a class="reference internal image-reference" href="../../_images/postgis_browsedata.png"><img alt="Buscar el shapefile" class="align-center" src="../../_images/postgis_browsedata.png" style="width: 631.5px; height: 312.0px;" /></a>
 <p>Deja todo lo demás como está y presione <code class="docutils literal notranslate"><span class="pre">Load</span></code></p>
 <a class="reference internal image-reference" href="../../_images/postgis_importsids.png"><img alt="Importar un shapefile" class="align-center" src="../../_images/postgis_importsids.png" style="width: 346.5px; height: 400.5px;" /></a>
@@ -332,7 +332,7 @@
 <p>En ambas versiones, puede utilizar el cliente de base de datos gráfica phpPgAdmin.</p>
 <p>phpPgAdmin le permite usar SQL para manipular sus tablas de datos. Puede encontrar e iniciar phpPgAdmin desde la carpeta Bases de datos, existente en el escritorio de OSGeoLive.</p>
 <a class="reference internal image-reference" href="../../_images/postgis_phppgadmin_main_window.png"><img alt="phpPgAdmin principal" class="align-center" src="../../_images/postgis_phppgadmin_main_window.png" style="width: 396.0px; height: 227.0px;" /></a>
-<p>Aquí, tiene la opción de crear una nueva conexión a un servidor PostgreSQL o conectarse a un servidor existente. La «X» roja en el servidor “”PostgreSQL”” denota que aún no se ha conectado. Haga clic en él y luego ingrese el nombre de usuario “”usuario”” y la contraseña maestra “”usuario””.</p>
+<p>Aquí, se tiene la opción de crear una nueva conexión a un servidor PostgreSQL o conectarse a un servidor existente. La «X» roja en el servidor “”PostgreSQL”” denota que aún no se ha conectado. Hacer clic en él y luego ingresar el nombre de usuario <cite>user</cite> y la contraseña maestra <cite>user</cite>.</p>
 <p>Después de la conexión establecida, puede ver la lista de las bases de datos ya existentes en el sistema.</p>
 <a class="reference internal image-reference" href="../../_images/postgis_phppgadminscreen0.png"><img alt="phpPgAdmin" class="align-center" src="../../_images/postgis_phppgadminscreen0.png" style="width: 666.75px; height: 353.25px;" /></a>
 <p>En este punto, solo puede ver las bases de datos existentes en el sistema. Puede conectarse, haciendo clic, en el signo más a la izquierda del nombre de una base de datos. Hazlo para la base de datos “”natural_earth2””.</p>
@@ -356,12 +356,12 @@
 <p>pgAdmin III le permite utilizar SQL para manipular las tablas de datos. Puede encontrar e iniciar pgAdmin desde la carpeta Bases de Datos, existente en OSGeoLive Desktop.</p>
 <a class="reference internal image-reference" href="../../_images/postgis_pgadmin_main_window.png"><img alt="pgAdmin" class="align-center" src="../../_images/postgis_pgadmin_main_window.png" style="width: 574.5px; height: 319.5px;" /></a>
 <p>Introduzca la contraseña <code class="docutils literal notranslate"><span class="pre">user</span></code></p>
-<p>Aquí, usted tiene la opción de crear una nueva conexión a un servidor PostgreSQL, o se conecta a un servidor existente. En este caso, conectaremos el servidor  <code class="docutils literal notranslate"><span class="pre">localhost</span></code> predefinido.</p>
+<p>Aquí, usted tiene la opción de crear una nueva conexión a un servidor PostgreSQL, o se conecta a un servidor existente. En este caso, conectaremos el servidor <code class="docutils literal notranslate"><span class="pre">localhost</span></code> predefinido.</p>
 <p>Después de la conexión establecida, puede ver la lista de las bases de datos ya existentes en el sistema.</p>
 <a class="reference internal image-reference" href="../../_images/postgis_adminscreen0.png"><img alt="pgAdmin" class="align-center" src="../../_images/postgis_adminscreen0.png" style="width: 871.5px; height: 639.0px;" /></a>
 <p>La «X» roja en la imagen de la mayoría de las bases de datos, denota que aún no ha estado conectado a ninguna de ellas (está conectado solo a la base de datos predeterminada “”postgres””). En este punto, solo puede ver las bases de datos existentes en el sistema. Puede conectarse, haciendo doble clic, en el nombre de una base de datos. Hazlo para la base de datos “”natural_earth2””.</p>
 <p>Usted puede ver ahora que desapareció la X roja y un «» apareció a la izquierda. Presionándolo, un árbol va a aparecer, mostrando el contenido de la base de datos.</p>
-<p>Navegar en el subárbol <code class="docutils literal notranslate"><span class="pre">esquemas</span></code>, expandirla. Luego ampliar el esquema de <code class="docutils literal notranslate"><span class="pre">public</span></code>.  Navegando y ampliando <code class="docutils literal notranslate"><span class="pre">Tables</span></code> puedes ver todas las tablas dentro de este esquema.</p>
+<p>Navegar en el subárbol <code class="docutils literal notranslate"><span class="pre">esquemas</span></code>, expandirla. Luego ampliar el esquema de <code class="docutils literal notranslate"><span class="pre">public</span></code>. Navegando y ampliando <code class="docutils literal notranslate"><span class="pre">Tables</span></code> puedes ver todas las tablas dentro de este esquema.</p>
 <a class="reference internal image-reference" href="../../_images/postgis_adminscreen1.png"><img alt="pgAdmin" class="align-center" src="../../_images/postgis_adminscreen1.png" style="width: 711.0px; height: 629.25px;" /></a>
 </section>
 <section id="executing-a-sql-query-from-pgadmin-vmdk-only">
@@ -468,7 +468,7 @@
    <span class="n">INTO</span> <span class="n">public</span><span class="p">;</span>
 </pre></div>
 </div>
-<p class="rubric">Inspeccione la tabla de datos externos  <code class="docutils literal notranslate"><span class="pre">topp_states</span></code>:</p>
+<p class="rubric">Inspeccione la tabla de datos externos <code class="docutils literal notranslate"><span class="pre">topp_states</span></code>:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">SELECT</span> <span class="o">*</span> <span class="n">FROM</span> <span class="n">topp_states</span> <span class="n">WHERE</span> <span class="n">state_name</span> <span class="o">=</span> <span class="s1">&#39;Minnesota&#39;</span><span class="p">;</span>
 </pre></div>
 </div>
@@ -477,10 +477,10 @@
 <h2><a class="toc-backref" href="#id14">Cosas para probar</a><a class="headerlink" href="#things-to-try" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Aquí están algunos retos adicionales para probar:</p>
 <ul class="simple">
-<li><p>Pruebe algunas otras funciones espaciales como <code class="docutils literal notranslate"><span class="pre">st_buffer(geom)</span></code>, <code class="docutils literal notranslate"><span class="pre">st_transform(geom,25831)</span></code>, <code class="docutils literal notranslate"><span class="pre">st_x(geom)</span></code> - cuya  documentación encontrará completa en <a class="reference external" href="http://postgis.net/documentation/">http://postgis.net/documentation/</a></p></li>
+<li><p>Pruebe algunas otras funciones espaciales como <code class="docutils literal notranslate"><span class="pre">st_buffer(geom)</span></code>, <code class="docutils literal notranslate"><span class="pre">st_transform(geom,25831)</span></code>, <code class="docutils literal notranslate"><span class="pre">st_x(geom)</span></code> - cuya documentación encontrará completa en <a class="reference external" href="http://postgis.net/documentation/">http://postgis.net/documentation/</a></p></li>
 <li><p>Exportar las tablas a shapefiles con “” pgsql2shp”” en la línea de comandos.</p></li>
-<li><p>Pruebe <code class="docutils literal notranslate"><span class="pre">ogr2ogr</span></code> en la línea de comandos para importar/exportar datos a su  base de datos.</p></li>
-<li><p>Intente importar datos con  <code class="docutils literal notranslate"><span class="pre">shp2pgsql</span></code> en la línea de comandos a su base de datos.</p></li>
+<li><p>Pruebe <code class="docutils literal notranslate"><span class="pre">ogr2ogr</span></code> en la línea de comandos para importar/exportar datos a su base de datos.</p></li>
+<li><p>Intente importar datos con <code class="docutils literal notranslate"><span class="pre">shp2pgsql</span></code> en la línea de comandos a su base de datos.</p></li>
 <li><p>Trate de hacer el ruteo de camino utilizando <a class="reference internal" href="../overview/pgrouting_overview.html"><span class="doc">pgRouting</span></a>.</p></li>
 </ul>
 </section>

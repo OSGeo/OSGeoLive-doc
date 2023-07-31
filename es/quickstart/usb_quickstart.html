@@ -73,16 +73,16 @@
 </ul>
 </section>
 <section id="creating-bootable-usb-drive-with-dd-under-linux">
-<h2>Crear unidad USB de arranque con <code class="docutils literal notranslate"><span class="pre">dd</span></code>  bajo Linux<a class="headerlink" href="#creating-bootable-usb-drive-with-dd-under-linux" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>Las imágenes ISO para OSGeoLive 10.5 y versiones posteriores son * isohybrid * (y para amd64, también soporte de arranque UEFI). Bajo Linux, estas imágenes pueden escribirse directamente en el dispositivo de bloque para una unidad USB con la utilidad de línea de comandos  <code class="docutils literal notranslate"><span class="pre">dd</span></code>:</p>
+<h2>Crear unidad USB de arranque con <code class="docutils literal notranslate"><span class="pre">dd</span></code> bajo Linux<a class="headerlink" href="#creating-bootable-usb-drive-with-dd-under-linux" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Las imágenes ISO para OSGeoLive 10.5 y versiones posteriores son * isohybrid * (y para amd64, también soporte de arranque UEFI). Bajo Linux, estas imágenes pueden escribirse directamente en el dispositivo de bloque para una unidad USB con la utilidad de línea de comandos <code class="docutils literal notranslate"><span class="pre">dd</span></code>:</p>
 <div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">sudo dd if=osgeolive-10.5-amd64.iso of=/dev/sdX bs=4M; sync</span>
 </pre></div>
 </div>
 <ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">/dev/sdX</span></code>  es el dispositivo de bloque para la impulsión del USB, donde  <code class="docutils literal notranslate"><span class="pre">X</span></code> puede ser <code class="docutils literal notranslate"><span class="pre">b</span></code> or <code class="docutils literal notranslate"><span class="pre">c</span></code>.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">/dev/sdX</span></code> es el dispositivo de bloque para la impulsión del USB, donde <code class="docutils literal notranslate"><span class="pre">X</span></code> puede ser <code class="docutils literal notranslate"><span class="pre">b</span></code> or <code class="docutils literal notranslate"><span class="pre">c</span></code>.</p></li>
 <li><p>Usar <code class="docutils literal notranslate"><span class="pre">lsblk</span></code> y <code class="docutils literal notranslate"><span class="pre">dmesg</span></code> dispositivos de bloque de la lista para ver mensajes del núcleo identificando la unidad USB cuando está conectado.</p></li>
 <li><p>No se debe montar la unidad USB.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">sudo</span></code>  no es necesario si se ejecuta el comando como <code class="docutils literal notranslate"><span class="pre">root</span></code>.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">sudo</span></code> no es necesario si se ejecuta el comando como <code class="docutils literal notranslate"><span class="pre">root</span></code>.</p></li>
 </ul>
 <div class="admonition warning">
 <p class="admonition-title">Advertencia</p>
@@ -102,7 +102,7 @@
 <blockquote>
 <div><a class="reference internal image-reference" href="../../_images/usb_select.png"><img alt="../../_images/usb_select.png" src="../../_images/usb_select.png" style="width: 305.2px; height: 294.0px;" /></a>
 </div></blockquote>
-<p>Seleccione <span class="menuselection">System Tools ‣ Startup Disk Creator</span> ,  o la bucar <cite>Startup Disk Creator</cite> desde el escritorio Unity.</p>
+<p>Seleccione <span class="menuselection">System Tools ‣ Startup Disk Creator</span> , o la bucar <cite>Startup Disk Creator</cite> desde el escritorio Unity.</p>
 <blockquote>
 <div><a class="reference internal image-reference" href="../../_images/usb_set_params.png"><img alt="../../_images/usb_set_params.png" src="../../_images/usb_set_params.png" style="width: 333.2px; height: 375.2px;" /></a>
 </div></blockquote>
@@ -112,7 +112,7 @@
 <blockquote>
 <div><a class="reference internal image-reference" href="../../_images/usb_installing.png"><img alt="../../_images/usb_installing.png" src="../../_images/usb_installing.png" style="width: 302.4px; height: 100.8px;" /></a>
 </div></blockquote>
-<p>Espere 20 minutos más o menos  para crear el USB flash drive.</p>
+<p>Espere 20 minutos más o menos para crear el USB flash drive.</p>
 </section>
 <section id="booting-from-the-usb-drive">
 <h2>Arranque desde la unidad USB:<a class="headerlink" href="#booting-from-the-usb-drive" title="Enlazar permanentemente con este título">¶</a></h2>
