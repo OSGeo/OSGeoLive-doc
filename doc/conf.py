@@ -217,6 +217,7 @@ linkcheck_ignore = [
         # SSL: CERTIFICATE_VERIFY_FAILED
         # Used in sponsors.rst
         'https://www.ntua.gr/en',
+        'https://www.ice.ucdavis.edu/',
 
         # Link with certiciate problems
         # Used in quickstart/liblas_quickstart
