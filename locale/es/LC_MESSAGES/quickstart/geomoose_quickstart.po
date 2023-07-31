@@ -6,26 +6,27 @@
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2022
 # Vicky Vergara <vicky@georepublic.de>, 2022
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
+"PO-Revision-Date: 2023-07-31 19:39+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"geomoose_quickstart/es/>\n"
 "Language: es\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 "
-"? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:21
 msgid "GeoMoose Quickstart"
-msgstr "Guía de Inicio Rápido de GeoMoose "
+msgstr "Guía de Inicio Rápido de GeoMoose"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:23
 msgid ""
@@ -89,7 +90,7 @@ msgstr "Las Interfaces presentadas arriba muestran:"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:45
 msgid "A banner bar"
-msgstr "Una barra de banner "
+msgstr "Una barra de banner"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:46
 msgid "A tool bar"
@@ -105,7 +106,7 @@ msgstr "Un menú lateral con:"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:50
 msgid "A \"Jump to\" location pull down list"
-msgstr "Una \"Saltar a\" lista desplegable de ubicación "
+msgstr "Una \"Saltar a\" lista desplegable de ubicación"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:51
 msgid ""
@@ -381,7 +382,7 @@ msgstr "https://www.geomoose.org/"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:156
 msgid "GeoMoose Tutorial"
-msgstr "Tutorial de GeoMoose "
+msgstr "Tutorial de GeoMoose"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:158
 msgid "https://www.geomoose.org/quickstart.html"
@@ -402,4 +403,3 @@ msgstr "Proyecto OSGeo"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo Comunitario"
-

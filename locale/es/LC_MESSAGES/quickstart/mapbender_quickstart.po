@@ -11,16 +11,17 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2023-03-10 20:56+0000\n"
+"PO-Revision-Date: 2023-07-31 19:39+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"mapbender_quickstart/es/>\n"
 "Language: es\n"
-"Language-Team: Spanish "
-"<https://weblate.osgeo.org/projects/osgeolive/mapbender_quickstart/es/>\n"
-"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 "
-"== 0) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:24
@@ -71,7 +72,7 @@ msgstr "Contenidos"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:46
 msgid "Start Mapbender"
-msgstr "Iniciar Mapbender "
+msgstr "Iniciar Mapbender"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:48
 #, fuzzy
@@ -198,7 +199,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:92
 msgid "Loading Web Map Services"
-msgstr "Cargar Servicios Mapas Web "
+msgstr "Cargar Servicios Mapas Web"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:93
 msgid "You can load OGC Web Map Services (WMS) to your application."
@@ -361,9 +362,8 @@ msgid ""
 "Choose :menuselection:`Applications --> edit-Button --> Layers --> Button"
 " +` to get an overview over the elements Mapbender3 provides."
 msgstr ""
-"Elija :menuselection:`Applications --> edit-Button --> Layers --> Button "
-"+` para obtener una Vista General de los elementos que Mapbender3  "
-"proporciona "
+"Elija :menuselection:`Applications --> edit-Button --> Layers --> Button +` "
+"para obtener una Vista General de los elementos que Mapbender3 proporciona."
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:153
 msgid "Choose an element from the list."
@@ -487,8 +487,8 @@ msgid ""
 "This is only the first step on the road to using Mapbender. There is a "
 "lot more functionality you can try."
 msgstr ""
-"Esto es sólo el primer paso en el camino al uso de Mapbender. Hay mucha "
-"más funcionalidad que puede probar. "
+"Esto es sólo el primer paso en el camino al uso de Mapbender. Hay mucha más "
+"funcionalidad que puede probar."
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:198
 msgid "Mapbender Website https://mapbender.org/"
@@ -525,4 +525,3 @@ msgstr "Proyecto OSGeo"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo Comunitario"
-

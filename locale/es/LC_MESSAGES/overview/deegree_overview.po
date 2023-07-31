@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-27 11:42+0000\n"
-"PO-Revision-Date: 2023-03-29 19:22+0000\n"
+"PO-Revision-Date: 2023-07-31 19:39+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "deegree_overview/es/>\n"
@@ -356,7 +356,7 @@ msgstr "Soporta ejecución asincrónica (con sondeo del estado del proceso)"
 
 #: ../../build/doc/overview/deegree_overview.rst:114
 msgid "Implemented Standards"
-msgstr "Estándares  implementados"
+msgstr "Estándares implementados"
 
 #: ../../build/doc/overview/deegree_overview.rst:116
 msgid "|WFS| 1.0.0, 1.1.0 and 2.0.0"

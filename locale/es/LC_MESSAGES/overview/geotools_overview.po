@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2023-04-06 19:08+0000\n"
+"PO-Revision-Date: 2023-07-31 19:39+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "geotools_overview/es/>\n"
@@ -72,7 +72,7 @@ msgid ""
 "Integrated Geometry support provided by `JTS Topology Suite (JTS) "
 "<https://sourceforge.net/projects/jts-topo-suite/>`_"
 msgstr ""
-"Compatibilidad integrada con geometría proporcionada por  `JTS Suite de "
+"Compatibilidad integrada con geometría proporcionada por `JTS Suite de "
 "Topología (JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_"
 
 #: ../../build/doc/overview/geotools_overview.rst:36
@@ -125,7 +125,7 @@ msgid ""
 "Powerful *schema assisted* parsing technology using XML Schema to bind to "
 "GML content"
 msgstr ""
-"Potente análisis tecnología de *esquema asistido*  usando esquemas XML para "
+"Potente análisis tecnología de *esquema asistido* usando esquemas XML para "
 "enlazar a contenido GML"
 
 #: ../../build/doc/overview/geotools_overview.rst:51
@@ -134,7 +134,7 @@ msgid ""
 "standards including GML, Filter, KML, SLD, and SE."
 msgstr ""
 "Enlaces de muchos estándares OGC incluyendo GML, filtro, KML, SLD y SE para "
-"la  tecnología de análisis / codificación."
+"la tecnología de análisis / codificación."
 
 #: ../../build/doc/overview/geotools_overview.rst:53
 msgid ""
@@ -266,21 +266,20 @@ msgstr "Estándares implementados"
 
 #: ../../build/doc/overview/geotools_overview.rst:97
 msgid "Support of numerous Open Geospatial Consortium (OGC) standards:"
-msgstr ""
-"Apoyo de numerosos estándares del Consortium Abierto Geospatial  (OGC):"
+msgstr "Apoyo de numerosos estándares del Consortium Abierto Geospatial (OGC):"
 
 #: ../../build/doc/overview/geotools_overview.rst:99
 msgid ""
 "OGC Style Layer Descriptor / Symbology Encoding data structures and "
 "rendering engine"
 msgstr ""
-"OGC Descriptor de Estilo de Capa  / Codificación de Simbología  de "
-"estructuras de datos y motor de renderizado"
+"OGC Descriptor de Estilo de Capa / Codificación de Simbología de estructuras "
+"de datos y motor de renderizado"
 
 #: ../../build/doc/overview/geotools_overview.rst:100
 msgid "OGC General Feature Model including Simple Feature support"
 msgstr ""
-"Modelo de Características Generales de OGC  incluyendo  Soporte a  "
+"Modelo de Características Generales de OGC incluyendo Soporte a  "
 "Características Simples"
 
 #: ../../build/doc/overview/geotools_overview.rst:101
@@ -297,8 +296,8 @@ msgid ""
 "experimental support for Web Process Service (WPS)"
 msgstr ""
 "Clientes para Servicio de Objetos Espaciales del Web (WFS), Service de "
-"Cartografía Web  (WMS) y soporte experimental para el Servicio de Proceso de"
-" Web (WPS)"
+"Cartografía Web (WMS) y soporte experimental para el Servicio de Proceso de "
+"Web (WPS)"
 
 #: ../../build/doc/overview/geotools_overview.rst:104
 msgid "ISO 19107 Geometry"

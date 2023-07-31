@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-13 22:52+0000\n"
-"PO-Revision-Date: 2023-04-01 08:08+0000\n"
+"PO-Revision-Date: 2023-06-24 20:08+0000\n"
 "Last-Translator: Zoltan Siki <siki@agt.bme.hu>\n"
 "Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
 "jupyter_quickstart/hu/>\n"
@@ -185,7 +185,7 @@ msgstr "Eredményként ``Africa`` helyett ``Asia``-t láthatja a rajzon."
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:131
 msgid "What Next?"
-msgstr "Mi következik?"
+msgstr "Mi a következő?"
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:133
 msgid ""

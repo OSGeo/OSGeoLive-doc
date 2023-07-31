@@ -10,15 +10,16 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2023-04-02 18:08+0000\n"
+"PO-Revision-Date: 2023-04-16 19:08+0000\n"
 "Last-Translator: Zoltan Siki <siki@agt.bme.hu>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"52nsos_quickstart/hu/>\n"
 "Language: hu\n"
-"Language-Team: Hungarian "
-"<https://weblate.osgeo.org/projects/osgeolive/52nsos_quickstart/hu/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:13
@@ -78,7 +79,7 @@ msgstr "Kezdjen neki"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:38
 msgid "Select :|menu_52nSOS-Start| to start the 52°North SOS."
-msgstr ""
+msgstr "Válassza :|menu_52nSOS-Start| az 52°North SOS elindításához."
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:48
 msgid "This will open the 52°North SOS client welcome page in firefox at"
@@ -255,20 +256,18 @@ msgid "52°North Sensor Web mailing list: sensorweb@52north.org"
 msgstr "52°North Szenzor Web levelezőlista: sensorweb@52north.org"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:195
-#, fuzzy
 msgid ""
 "52°North `Sensor Web community <https://52north.org/research/scope"
 "/geospatial-sensing/>`_"
 msgstr ""
-"52°North `Szenzor Web közösség <https://52north.org/research/research-"
-"labs/sensor-web/>`_"
+"52°North `Szenzor Web közösség <https://52north.org/research/research-labs/"
+"sensor-web/>`_"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:196
-#, fuzzy
 msgid "52°North `SOS Client <https://sensorweb.demo.52north.org>`__"
 msgstr ""
-"52°North `SOSkKliens <https://sensorweb.demo.52north.org/sensorwebclient-"
-"webapp-stable/>`_"
+"52°North `SOS Kliens <https://sensorweb.demo.52north.org/"
+"sensorwebclient-webapp-stable/>`_"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:197
 msgid ""
@@ -327,4 +326,3 @@ msgstr "OSGeo Projekt"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo közösség"
-

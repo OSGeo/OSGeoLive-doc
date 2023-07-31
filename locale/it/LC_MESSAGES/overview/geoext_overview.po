@@ -6,21 +6,22 @@
 # Translators:
 # Luca Delucchi <lucadeluge@gmail.com>, 2021
 # Stefano Campus <skampus@gmail.com>, 2022
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2019-07-17 15:40+0000\n"
-"Last-Translator: Stefano Campus <skampus@gmail.com>, 2022\n"
+"PO-Revision-Date: 2023-04-13 20:08+0000\n"
+"Last-Translator: luca <lucadeluge@gmail.com>\n"
+"Language-Team: Italian <https://weblate.osgeo.org/projects/osgeolive/"
+"geoext_overview/it/>\n"
 "Language: it\n"
-"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 "
-"? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/overview/geoext_overview.rst:14
@@ -134,21 +135,19 @@ msgstr "Varie"
 
 #: ../../build/doc/overview/geoext_overview.rst:64
 msgid "Integration with"
-msgstr ""
+msgstr "Integrazione con"
 
 #: ../../build/doc/overview/geoext_overview.rst:66
 msgid "`MapFish Print <http://mapfish.github.io/mapfish-print-doc/>`_"
-msgstr ""
+msgstr "`Stampa tramite MapFish <http://mapfish.github.io/mapfish-print-doc/>`_"
 
 #: ../../build/doc/overview/geoext_overview.rst:67
-#, fuzzy
 msgid ""
 "and `GeoServer Printing Module "
 "<https://docs.geoserver.org/latest/en/user/extensions/printing/index.html>`_"
 msgstr ""
-"Integrazione con  `MapFish Print <http://mapfish.github.io/mapfish-print-"
-"doc/>`_ e `GeoServer Printing Module "
-"<https://docs.geoserver.org/latest/en/user/extensions/printing/index.html>`_"
+"e il`modulo di stampa di GeoServer <https://docs.geoserver.org/latest/en/"
+"user/extensions/printing/index.html>`_"
 
 #: ../../build/doc/overview/geoext_overview.rst:69
 msgid "Layer Serializers (WMS, WMTS, XYZ)"
@@ -159,23 +158,25 @@ msgid "Details"
 msgstr "Dettagli"
 
 #: ../../build/doc/overview/geoext_overview.rst:74
-#, fuzzy
 msgid "**Website:** https://geoext.github.io/geoext"
-msgstr "**Sito web:** https://geoext.github.io/geoext3"
+msgstr "**Sito web:** https://geoext.github.io/geoext"
 
 #: ../../build/doc/overview/geoext_overview.rst:76
 msgid "**License:** GPLv3 or BSD License dependent on ExtJS license"
-msgstr ""
+msgstr "**Licenza:** Licenza GPLv3 o BSD che dipende dalla licenza di ExtJS"
 
 #: ../../build/doc/overview/geoext_overview.rst:78
 msgid "see `License <https://github.com/geoext/geoext/blob/master/LICENSE>`_"
 msgstr ""
+"vedere `Licenza <https://github.com/geoext/geoext/blob/master/LICENSE>`_"
 
 #: ../../build/doc/overview/geoext_overview.rst:79
 msgid ""
 "and `License FAQ <https://github.com/geoext/geoext/blob/master/LICENSE-"
 "FAQ.md>`_"
 msgstr ""
+"e `FAQ sulla licenza <https://github.com/geoext/geoext/blob/master/LICENSE-"
+"FAQ.md>`_"
 
 #: ../../build/doc/overview/geoext_overview.rst:81
 msgid "**Software Version:** |version-geoext|"
@@ -187,15 +188,15 @@ msgstr "**Interfaccia API:** JavaScript"
 
 #: ../../build/doc/overview/geoext_overview.rst:85
 msgid "**Support:** Mailing lists"
-msgstr ""
+msgstr "**Supporto:** Mailing lists"
 
 #: ../../build/doc/overview/geoext_overview.rst:87
 msgid "https://www.geoext.org/cgi-bin/mailman/listinfo/users"
-msgstr ""
+msgstr "https://www.geoext.org/cgi-bin/mailman/listinfo/users"
 
 #: ../../build/doc/overview/geoext_overview.rst:88
 msgid "and https://stackoverflow.com/questions/tagged/geoext"
-msgstr ""
+msgstr "e https://stackoverflow.com/questions/tagged/geoext"
 
 #: ../../build/doc/overview/geoext_overview.rst:94
 msgid "Quickstart"
@@ -220,4 +221,3 @@ msgstr "Progetto OSGeo"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "Comunità OSGeo"
-

@@ -5,21 +5,21 @@
 #
 # Translators:
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
+"PO-Revision-Date: 2023-06-24 20:08+0000\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"gvsig_quickstart/hu/>\n"
 "Language: hu\n"
-"Language-Team: Hungarian "
-"(https://www.transifex.com/osgeo/teams/66156/hu/)\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:18
@@ -80,25 +80,23 @@ msgid ""
 "have write permission, like for example, \"/home/user\"."
 msgstr ""
 "Megjegzés a gvSIG 2.3.1 verzióhoz: Raszter fájlok betöltéséhez a "
-"felhasználónak írási joggal kell rendelkeznie ahhoz  a mappához, melyben "
-"a fájl van. Különben az alkalmazás egy megfelelő mappát (írási joggal) "
-"fog kérni. Mivel a \"user\" felhasználó nem rendelkezik írási joggal a "
-"\"data\" mappában, szükséges egy egy olyan mappa kiválasztása ahová a "
-"felhasználó rendelkezik írási joggal, például \"/home/user\"."
+"felhasználónak írási joggal kell rendelkeznie ahhoz a mappához, melyben a "
+"fájl van. Különben az alkalmazás egy megfelelő mappát (írási joggal) fog "
+"kérni. Mivel a \"user\" felhasználó nem rendelkezik írási joggal a \"data\" "
+"mappában, szükséges egy egy olyan mappa kiválasztása ahová a felhasználó "
+"rendelkezik írási joggal, például \"/home/user\"."
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:51
 msgid "Start gvSIG and create a view"
 msgstr "gvSIG indítása és egy nézet létrehozása"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:53
-#, fuzzy
 msgid ""
 "Select gvSIG from the application menu, |menu_gvsig|. The application "
 "usually takes about a minute to startup."
 msgstr ""
-"Válassza a gvSIG-et az alkalmazás menüből, :menuselection:`Geospatial -->"
-" Desktop GIS --> gvSIG`. Általában az alkalmazás elindulása egy percbe "
-"telik."
+"Válassza a gvSIG-et az alkalmazás menüből, |menu_gvsig|. Általában az "
+"alkalmazás elindulása egy percbe telik."
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:55
 msgid ""
@@ -152,9 +150,9 @@ msgid ""
 "CRS in the table below the search input field."
 msgstr ""
 "Írja be a a koordináta referencia rendszer EPSG kódját. Ehhez a példához "
-"EPSG=4326 értéket használunk, mely a WGS84 2D földrajzi koordináták. "
-"Ezután kattintson a guilabel:`Search` gombra.  Ezt kilistázza a "
-"kiválasztott CRS-t a keresés mező alatti táblában."
+"EPSG=4326 értéket használunk, mely a WGS84 2D földrajzi koordináták. Ezután "
+"kattintson a guilabel:`Search` gombra. Ezt kilistázza a kiválasztott CRS-t a "
+"keresés mező alatti táblában."
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:81
 msgid ""
@@ -171,7 +169,7 @@ msgstr "Válassza a :guilabel:`OK` gombot a **Project Manager**-hez visszatéré
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:87
 msgid "The view window consists of three zones."
-msgstr "A nézet ablak három részből áll"
+msgstr "A nézet ablak három részből áll."
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:88
 msgid ""
@@ -277,8 +275,7 @@ msgstr "Nagyítás egy régióra"
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:130
 msgid "By default the *Zoom in* tool is selected on the main toolbar."
 msgstr ""
-"Alapértelmezés szerint a  *Zoom in* eszköz a kiválasztott a fő "
-"eszköztárban."
+"Alapértelmezés szerint a *Zoom in* eszköz a kiválasztott a fő eszköztárban."
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:131
 msgid ""
@@ -312,7 +309,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:148
 msgid "Select the :menuselection:`Properties` submenu."
-msgstr "Válassza a  :menuselection:`Properties` almenüt."
+msgstr "Válassza a :menuselection:`Properties` almenüt."
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:149
 msgid "The **Layer properties** dialog box will appear."
@@ -389,7 +386,7 @@ msgid ""
 "Change the text attributes to those shown on the image, then click on the"
 " :guilabel:`Accept` button."
 msgstr ""
-"Módosítsa a szöveg attribútumokat  képen láthatókra, majd kattintson a "
+"Módosítsa a szöveg attribútumokat képen láthatókra, majd kattintson a "
 ":guilabel:`Accept` gombra."
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:183
@@ -445,7 +442,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:212
 msgid "Now we can easily know where the view is located in the world."
-msgstr "Most könnyen megtudhatjuk a nézetünk hol helyezkedik el a világban,"
+msgstr "Most könnyen megtudhatjuk a nézetünk hol helyezkedik el a világban."
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:219
 msgid "Select towns within a region"
@@ -493,8 +490,8 @@ msgid ""
 "Select :menuselection:`Selection --> Select by layer` to open the "
 "**Selection by Layer** dialog"
 msgstr ""
-"Válassza a :menuselection:`Selection --> Select by layer`-t a  "
-"**Selection by Layer** párbeszédablak megnyitásához"
+"Válassza a :menuselection:`Selection --> Select by layer`-t a **Selection by "
+"Layer** párbeszédablak megnyitásához"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:243
 msgid "Select the towns contained within a region"
@@ -587,7 +584,7 @@ msgid ""
 "Choose the option *Original (EPSG:4326)* in order to keep the reference "
 "system of the view."
 msgstr ""
-"Válassza az  *Original (EPSG:4326)* beállítást a nézet referencia "
+"Válassza az *Original (EPSG:4326)* beállítást a nézet referencia "
 "rendszerének megőrzéséhez."
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:295
@@ -599,8 +596,8 @@ msgid ""
 "Choose the option *Selected features* in order to export only the towns "
 "of New South Wales."
 msgstr ""
-"Válassza a  *Selected features*, hogy csak az Új dél Wales-be eső "
-"városokat exportálja."
+"Válassza a *Selected features*, hogy csak az Új dél Wales-be eső városokat "
+"exportálja."
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:299
 msgid "Click on *Export*."
@@ -621,7 +618,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:316
 msgid "Create a new map"
-msgstr "Új térkép létrehozása"
+msgstr "Egy új térkép létrehozása"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:318
 msgid "Select the *Map* document type in the **Project Manager**."
@@ -654,9 +651,9 @@ msgid ""
 "using the icons in the main toolbar or with the submenus in the "
 ":menuselection:`Map` menu."
 msgstr ""
-"A fő eszköztár ikonjaival vagy a  :menuselection:`Map` menü almenüivel "
-"további elemeket adhat hozzá a térképhez, például egy léptéket és egy "
-"északi nyilat."
+"A fő eszköztár ikonjaival vagy a :menuselection:`Map` menü almenüivel "
+"további elemeket adhat hozzá a térképhez, például egy léptéket és egy északi "
+"nyilat."
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:329
 msgid ""
@@ -671,7 +668,7 @@ msgid ""
 "Select the :guilabel:`Close window` icon to return to the **Project "
 "manager**"
 msgstr ""
-"Válassza a :guilabel:`Close window` ikont a  **Project manager**-hez "
+"Válassza a :guilabel:`Close window` ikont a **Project manager**-hez "
 "visszatéréshez"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:337
@@ -740,7 +737,8 @@ msgstr "Gépelje be a *Fast filter* szövegmezőbe 'Forestry'."
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:366
 msgid "Check the add-on called *Symbols: Forestry* (it's a symbol library)."
-msgstr "Kattintson a *Symbols: Forestry* bővítményre (ez egy szimbólum könyvtár)"
+msgstr ""
+"Kattintson a *Symbols: Forestry* bővítményre (ez egy szimbólum könyvtár)."
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:373
 msgid "Finish the installation"
@@ -816,7 +814,7 @@ msgstr "Válasszon egy szervert"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:414
 msgid "Within a view, click on the :guilabel:`Add layer…` button."
-msgstr "Egy nézeten belül kattintson a  :guilabel:`Add layer…` gombra."
+msgstr "Egy nézeten belül kattintson a :guilabel:`Add layer…` gombra."
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:415
 msgid "Choose the *WMTS* tab."
@@ -914,4 +912,3 @@ msgstr "OSGeo Projekt"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo közösség"
-

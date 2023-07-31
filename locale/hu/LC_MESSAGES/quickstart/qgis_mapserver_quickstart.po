@@ -5,21 +5,21 @@
 #
 # Translators:
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
+"PO-Revision-Date: 2023-04-16 19:08+0000\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"qgis_mapserver_quickstart/hu/>\n"
 "Language: hu\n"
-"Language-Team: Hungarian "
-"(https://www.transifex.com/osgeo/teams/66156/hu/)\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:21
@@ -66,22 +66,20 @@ msgstr ""
 " megjelenítésre."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:39
-#, fuzzy
 msgid ""
 "Click |menu_qgis|. You should see a browser window with a web map viewer "
 "showing a world map."
 msgstr ""
-"Kattinson ide :menuselection:`Geospatial --> Web Services --> QGIS "
-"Server`. Egy böngésző ablakot kellene látnia egy webes térkép "
-"megjelenítővel, mely a világtérképet jeleníti meg."
+"Kattintson ide |menu_qgis|. Egy böngésző ablakot kellene látnia egy webes "
+"térkép megjelenítővel, mely a világtérképet jeleníti meg."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:43
 msgid ""
 "Alternatively, you can access the application using a browser through "
 "http://localhost/qgis_server"
 msgstr ""
-"Alternatív megoldásként a böngészőből is elérheti az alkalmazást a "
-"http://localhost/qgis_server címen."
+"Alternatív megoldásként a böngészőből is elérheti az alkalmazást a http://"
+"localhost/qgis_server címen"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:48
 msgid "Edit QGIS project"
@@ -93,7 +91,7 @@ msgstr "Most megváltoztatjuk a térkép stílusát a QGIS használatával."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:52
 msgid "Click |menu_qgis|"
-msgstr ""
+msgstr "Kattintson |menu_qgis|"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:54
 msgid "Choose :menuselection:`Project --> Open` from the menu bar."
@@ -193,8 +191,7 @@ msgid ""
 "To learn more about QGIS Server, a good starting point is the `QGIS "
 "Server Guide`_."
 msgstr ""
-"További QGIS Server tanuláshoz a  `QGIS Server Guide`_ egy jó kiindulási "
-"pont."
+"További QGIS Server tanuláshoz a `QGIS Server Guide`_ egy jó kiindulási pont."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:103
 msgid "Documentation:"
@@ -239,4 +236,3 @@ msgstr "OSGeo Projekt"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo közösség"
-

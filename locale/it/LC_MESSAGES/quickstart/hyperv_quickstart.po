@@ -7,21 +7,22 @@
 # Simone Falceri, 2022
 # Luca Delucchi <lucadeluge@gmail.com>, 2022
 # Stefano Campus <skampus@gmail.com>, 2022
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2018-06-09 16:37+0000\n"
-"Last-Translator: Stefano Campus <skampus@gmail.com>, 2022\n"
+"PO-Revision-Date: 2023-04-13 20:08+0000\n"
+"Last-Translator: luca <lucadeluge@gmail.com>\n"
+"Language-Team: Italian <https://weblate.osgeo.org/projects/osgeolive/"
+"hyperv_quickstart/it/>\n"
 "Language: it\n"
-"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 "
-"? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:8
@@ -149,6 +150,10 @@ msgid ""
 "virtual-machine-converter-3-0-is-now-available-for/ba-p/349874>`_ and "
 "install."
 msgstr ""
+"Scarica `Microsoft Virtual Machine Converter 3.0 <https://techcommunity."
+"microsoft.com/t5/system-center-blog/"
+"microsoft-virtual-machine-converter-3-0-is-now-available-for/ba-p/349874>`_ "
+"e installalo."
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:51
 msgid "Download the DS File Ops Kit and unzip."
@@ -320,4 +325,3 @@ msgstr "Progetto OSGeo"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "Comunità OSGeo"
-

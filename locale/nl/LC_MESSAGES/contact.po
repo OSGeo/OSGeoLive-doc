@@ -7,20 +7,21 @@
 # Steven De Vriendt <gisaalter@gmail.com>, 2017
 # Celine Vilain, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2017-09-20 16:02+0000\n"
-"Last-Translator: Celine Vilain, 2022\n"
-"Language-Team: Dutch (https://app.transifex.com/osgeo/teams/66156/nl/)\n"
+"PO-Revision-Date: 2023-07-27 07:08+0000\n"
+"Last-Translator: Michel Stuyts <michel.stuyts@gmail.com>\n"
+"Language-Team: Dutch <https://weblate.osgeo.org/projects/osgeolive/contact/"
+"nl/>\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: nl\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: ../../build/doc/contact.rst:2
 msgid "Contact Us"
@@ -32,9 +33,9 @@ msgid ""
 "detailed on the `OSGeoLive Wiki "
 "<https://trac.osgeo.org/osgeolive#Communication>`_."
 msgstr ""
-"OSGeoLive ontwikkeling wordt gecoördineerd via e-mail en internet chat (IRC)"
-" zoals beschreven op de  `OSGeoLive Wiki "
-"<https://trac.osgeo.org/osgeolive#Communication>`_."
+"OSGeoLive ontwikkeling wordt gecoördineerd via e-mail en internet chat (IRC) "
+"zoals beschreven op de `OSGeoLive Wiki <https://trac.osgeo.org/"
+"osgeolive#Communication>`_."
 
 #: ../../build/doc/contact.rst:9
 msgid "Disclaimer"
@@ -96,6 +97,9 @@ msgid ""
 " <https://libera.chat/>`_ for real-time assistance. You also can meet us at "
 "Slack, Matrix or Gitter."
 msgstr ""
+"IRC gebbruikers kunen het #osgeolive of #osgeo kanaal gebruiken op `"
+"Libera.chat network <https://libera.chat/>`_ voor realtime hulp.Je kan ons "
+"ook vinden op Slack, Matrix en Gitter."
 
 #: ../../build/doc/contact.rst:32
 msgid ""
@@ -127,7 +131,7 @@ msgid ""
 msgstr ""
 "De meeste applicaties beschikken over zowel community- als commerciële "
 "ondersteuningsaanbiedingen. Raadpleeg de project-specifieke beschrijvingen "
-"waarnaar wordt verwezen in :doc:`Contents <./overview/overview>`  voor meer "
+"waarnaar wordt verwezen in :doc:`Contents <./overview/overview>` voor meer "
 "details."
 
 #: ../../build/doc/contact.rst:43
@@ -155,4 +159,4 @@ msgstr "OSGeo Project"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr "OSGeo Community"
+msgstr "OSGeo Gemeenschap"

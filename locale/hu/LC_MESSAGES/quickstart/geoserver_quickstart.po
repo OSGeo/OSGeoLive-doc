@@ -11,15 +11,16 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2023-04-01 08:08+0000\n"
+"PO-Revision-Date: 2023-06-24 20:08+0000\n"
 "Last-Translator: Zoltan Siki <siki@agt.bme.hu>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"geoserver_quickstart/hu/>\n"
 "Language: hu\n"
-"Language-Team: Hungarian "
-"<https://weblate.osgeo.org/projects/osgeolive/geoserver_quickstart/hu/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:28
@@ -248,7 +249,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:139
 msgid "You can type epsg:4326 in the box"
-msgstr ""
+msgstr "Írja be a mezőbe epsg:4326"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:140
 msgid ""
@@ -385,7 +386,7 @@ msgstr "Kattintson az ``OK``-ra és a |UG| megjeleníti a módosításokat."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst
 msgid "Blue Oceans"
-msgstr ""
+msgstr "Kék óceán"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:211
 msgid ""
@@ -674,4 +675,3 @@ msgstr "OSGeo Projekt"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo közösség"
-

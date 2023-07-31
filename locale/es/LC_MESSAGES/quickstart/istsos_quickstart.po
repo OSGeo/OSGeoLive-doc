@@ -6,21 +6,22 @@
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2022
 # Vicky Vergara <vicky@georepublic.de>, 2022
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
+"PO-Revision-Date: 2023-07-31 19:39+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"istsos_quickstart/es/>\n"
 "Language: es\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 "
-"? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:21
@@ -99,18 +100,17 @@ msgstr ""
 "de istSOS creada."
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:52
-#, fuzzy
 msgid ""
 "Click |menu_istsos| to open the Web Admin interface. Alternatively, open "
 "a browser and go to `<http://localhost/istsos/admin>`_"
 msgstr ""
-"Click en :menuselection:`Geospatial --> Webservices --> istSOS` para "
-"abrir la interfaz de Web Admin. Alternativamente, abra un navegador y "
-"vaya a `<http://localhost/istsos/admin>`_"
+"Click en |menu_istsos| para abrir la interfaz de Web Admin. "
+"Alternativamente, abrir un navegador e ir a `<http://localhost/istsos/"
+"admin>`_"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:54
 msgid "Click the :guilabel:`Enter` button in the administration page."
-msgstr "Click en el botón :guilabel:`Enter` en la página de administración. "
+msgstr "Click en el botón :guilabel:`Enter` en la página de administración."
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:56
 msgid ""
@@ -126,7 +126,7 @@ msgid ""
 "Press the \"Service provider\" button and fill it using your "
 "institutional information."
 msgstr ""
-" Presione el botón \"Service provider\" y complételo con su información "
+"Presione el botón \"Service provider\" y complételo con su información "
 "institucional."
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:69
@@ -242,7 +242,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:102
 msgid "Add a new procedure"
-msgstr "Agregar un nuevo procedimiento "
+msgstr "Agregar un nuevo procedimiento"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:104
 msgid ""
@@ -276,11 +276,11 @@ msgstr "Parámetros opcionales: llene según sus propias necesidades y dispocisi
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:117
 msgid "*Example* (minimal configuration)"
-msgstr " Ejemplo (configuración mínima)"
+msgstr "*Ejemplo* (configuración mínima)"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:119
 msgid "Name: T_LUGANO"
-msgstr "Name: T_LUGANO"
+msgstr "Nombre: T_LUGANO"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:121
 msgid "Description: temperature weather station in Lugano"
@@ -292,7 +292,7 @@ msgstr "Keywords: clima, meteorología, IST"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:125
 msgid "System type: insitu-fixed-point"
-msgstr "System type: insitu-fixed-point"
+msgstr "Tipo de sistema: insitu-fixed-point"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:127
 msgid "Sensor type: PTC thermistors of the \"switching\" type"
@@ -300,7 +300,7 @@ msgstr "Sensor type: termistores PTC del tipo \"conmutación\""
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:129
 msgid "FOI name: LUGANO"
-msgstr "FOI name: LUGANO"
+msgstr "Nombre FOI: LUGANO"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:131
 msgid "EPSG: 4326"
@@ -308,7 +308,7 @@ msgstr "EPSG: 4326"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:133
 msgid "Coordinates: x: 8.96127 y: 46.02723 z: 344.1"
-msgstr "Coordinates: x: 8.96127 y: 46.02723 z: 344.1"
+msgstr "Coordenadas: x: 8.96127 y: 46.02723 z: 344.1"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:136
 msgid "*Outputs (confirm the outputs pressing the \"add\" button):*"
@@ -324,7 +324,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:141
 msgid "Unit of measure: °C"
-msgstr "Unit of measure: °C"
+msgstr "Unidad de medida: °C"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:143
 msgid "Description (optional): conversion from resistance to tempera"
@@ -340,7 +340,7 @@ msgstr "Registre el nuevo sensor (procedimiento) presionando el botón \"submit\
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:153
 msgid "Add new observations"
-msgstr "Agregar nuevas observaciones "
+msgstr "Agregar nuevas observaciones"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:155
 msgid ""
@@ -349,11 +349,11 @@ msgid ""
 "(CSV) format. The first line contains header information, including URI "
 "names of the observed properties. The following lines contain the data."
 msgstr ""
-"Primero crearemos un archivo de texto con datos del sensor, formateado de"
-" acuerdo con  \"text/csv, subtype=istSOS\".  El archivo utiliza un "
-"formato de valores separados por comas (CSV). La primera línea contiene "
-"información de encabezado, incluidos los nombres de URI de las "
-"propiedades observadas. Las siguientes líneas contienen los datos."
+"Primero crearemos un archivo de texto con datos del sensor, formateado de "
+"acuerdo con \"text/csv, subtype=istSOS\". El archivo utiliza un formato de "
+"valores separados por comas (CSV). La primera línea contiene información de "
+"encabezado, incluidos los nombres de URI de las propiedades observadas. Las "
+"siguientes líneas contienen los datos."
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:157
 msgid ""
@@ -372,8 +372,8 @@ msgid ""
 "Save the file as \"T_LUGANO_20140603161000000.dat\" on the Desktop. The "
 "filename convention being used is: PROCEDURENAME_YYYYMMDDhhmmssfff.dat"
 msgstr ""
-" Guarde el archivo como \"T_LUGANO_20140603161000000.dat\" en el "
-"escritorio. La convención de nombre de archivo que se usa es: "
+"Guarde el archivo como \"T_LUGANO_20140603161000000.dat\" en el escritorio. "
+"La convención de nombre de archivo que se usa es: "
 "PROCEDURENAME_YYYYMMDDhhmmssfff.dat"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:178
@@ -465,4 +465,3 @@ msgstr "Proyecto OSGeo"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo Comunitario"
-

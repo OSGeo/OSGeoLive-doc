@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2023-03-10 20:56+0000\n"
+"PO-Revision-Date: 2023-07-31 19:39+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "mapcache_overview/es/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: ../../build/doc/overview/mapcache_overview.rst:16
 msgid "MapCache"
@@ -67,7 +67,7 @@ msgstr "Características Principales"
 
 #: ../../build/doc/overview/mapcache_overview.rst:36
 msgid "Allows tile caches to be stored in"
-msgstr " Permite almacenar cachés de mosaico en"
+msgstr "Permite almacenar cachés de mosaico en"
 
 #: ../../build/doc/overview/mapcache_overview.rst:38
 msgid "on disk"
@@ -127,7 +127,7 @@ msgstr "na interfaz de demostración incorporada"
 
 #: ../../build/doc/overview/mapcache_overview.rst:54
 msgid "Implemented Standards"
-msgstr "Estándares  implementados"
+msgstr "Estándares implementados"
 
 #: ../../build/doc/overview/mapcache_overview.rst:56
 msgid "Support of numerous Open Geospatial Consortium  (OGC) standards"
@@ -172,7 +172,7 @@ msgstr "Documentación"
 
 #: ../../build/doc/overview/mapcache_overview.rst:75
 msgid "`MapCache Documentation <https://mapserver.org/mapcache/>`_"
-msgstr "`Documentación de MapCache  <https://mapserver.org/mapcache/>`_"
+msgstr "`Documentación de MapCache <https://mapserver.org/mapcache/>`_"
 
 #: ../../build/doc/overview/mapcache_overview.rst:78
 msgid "Details"

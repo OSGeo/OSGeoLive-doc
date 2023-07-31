@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-04 10:12+0000\n"
-"PO-Revision-Date: 2023-03-29 19:22+0000\n"
+"PO-Revision-Date: 2023-07-31 19:39+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "etf_overview/es/>\n"
@@ -173,7 +173,7 @@ msgstr "descargable en HTML, XML y JSON"
 
 #: ../../build/doc/overview/ETF_overview.rst:90
 msgid "Implemented Standards"
-msgstr "Estándares Implementados"
+msgstr "Estándares implementados"
 
 #: ../../build/doc/overview/ETF_overview.rst:80
 msgid "|CSW|"

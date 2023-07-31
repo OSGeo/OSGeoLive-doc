@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2023-03-10 20:56+0000\n"
+"PO-Revision-Date: 2023-07-31 19:39+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "geomoose_overview/es/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: ../../build/doc/overview/geomoose_overview.rst:19
 msgid "GeoMoose"
@@ -42,13 +42,12 @@ msgid ""
 "and organising many layers, selection operations and dataset searches."
 msgstr ""
 "GeoMoose es un marco de mapeo basado en navegador para mostrar datos "
-"cartográficos distribuidos. Es particularmente útil para la gestión de datos"
-" espaciales y no espaciales dentro de las oficinas municipales, municipales "
-"y de condado (a partir de las cuales se originó GeoMoose). Amplía la "
-"funcionalidad de MapServer y OpenLayers para proporcionar servicios "
-"incorporados, como operaciones de identificación detallada para visualizar y"
-" organizar muchas capas, operaciones de selección y búsquedas de conjuntos "
-"de datos."
+"cartográficos distribuidos. Es particularmente útil para la gestión de datos "
+"espaciales y no espaciales dentro de las oficinas municipales y de condado ("
+"a partir de las cuales se originó GeoMoose). Amplía la funcionalidad de "
+"MapServer y OpenLayers para proporcionar servicios incorporados, como "
+"operaciones de identificación detallada para visualizar y organizar muchas "
+"capas, operaciones de selección y búsquedas de conjuntos de datos."
 
 #: ../../build/doc/overview/geomoose_overview.rst:26
 msgid ""
@@ -58,8 +57,11 @@ msgid ""
 "configuration files for publishing, symbols, templates as well as source "
 "data."
 msgstr ""
-"GeoMoose es rápido y funciona bien con cientos de capas y/o servicios a la vez. Los datos de múltiples guardianes pueden ser mantenidos con diferentes herramientas y en horarios diferentes, ya que cada capa de mapa tiene su propio conjunto de archivos de configuración para editoriales, símbolos, plantillas, así como datos de origen.\n"
-"horarios"
+"GeoMoose es rápido y funciona bien con cientos de capas y/o servicios a la "
+"vez. Los datos de múltiples guardianes pueden ser mantenidos con diferentes "
+"herramientas y en horarios diferentes, ya que cada capa de mapa tiene su "
+"propio conjunto de archivos de configuración para editoriales, símbolos, "
+"plantillas, así como datos de origen."
 
 #: ../../build/doc/overview/geomoose_overview.rst:28
 msgid ""
@@ -83,7 +85,7 @@ msgstr "Mantenimiento de datos distribuidos entre múltiples propietarios."
 
 #: ../../build/doc/overview/geomoose_overview.rst:40
 msgid "Access maps from: MapServer, Tilecache, ArcGIS REST, WMS, WFS."
-msgstr "Acceso a mapas de:  MapServer, Tilecache, ArcGIS REST, WMS, WFS."
+msgstr "Acceso a mapas de: MapServer, Tilecache, ArcGIS REST, WMS, WFS."
 
 #: ../../build/doc/overview/geomoose_overview.rst:41
 msgid "Configure multiple views of data sources."
@@ -190,7 +192,7 @@ msgstr "Inicio Rápido"
 
 #: ../../build/doc/overview/geomoose_overview.rst:77
 msgid ":doc:`Quickstart documentation <../quickstart/geomoose_quickstart>`"
-msgstr ":doc:`Quickstart documentation <../quickstart/geomoose_quickstart>`"
+msgstr ":doc:`Guía rápida <../quickstart/geomoose_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"

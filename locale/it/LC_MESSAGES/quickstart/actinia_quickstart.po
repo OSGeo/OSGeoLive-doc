@@ -10,21 +10,22 @@
 # Federico Gianoli <fritz4@gmail.com>, 2022
 # Stefano Campus <skampus@gmail.com>, 2022
 # Luca Delucchi <lucadeluge@gmail.com>, 2022
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2019-07-18 21:56+0000\n"
-"Last-Translator: Luca Delucchi <lucadeluge@gmail.com>, 2022\n"
+"PO-Revision-Date: 2023-04-13 20:08+0000\n"
+"Last-Translator: luca <lucadeluge@gmail.com>\n"
+"Language-Team: Italian <https://weblate.osgeo.org/projects/osgeolive/"
+"actinia_quickstart/it/>\n"
 "Language: it\n"
-"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 "
-"? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:16
@@ -70,12 +71,16 @@ msgid ""
 "through `Jupyter notebooks <https://github.com/actinia-org/actinia-"
 "jupyter>`__"
 msgstr ""
+"attraverso `Jupyter notebooks <https://github.com/actinia-org/actinia-"
+"jupyter>`__"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:37
 msgid ""
 "the `Python interface <https://github.com/actinia-org/actinia-python-"
 "client>`__"
 msgstr ""
+"l' `interfaccia Python <https://github.com/actinia-org/actinia-python-"
+"client>`__"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:38
 msgid "the `Postman` or `RESTman` extension for browsers"
@@ -107,7 +112,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:48
 msgid "Using actinia with a Jupyter notebook"
-msgstr ""
+msgstr "Usare actinia con un Jupyter notebook"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:50
 msgid ""
@@ -115,6 +120,9 @@ msgid ""
 "`https://github.com/actinia-org/actinia-jupyter <https://github.com"
 "/actinia-org/actinia-jupyter>`_"
 msgstr ""
+"Numerosi Jupyter notebooks per actinia sono disponibili `https://github.com/"
+"actinia-org/actinia-jupyter <https://github.com/actinia-org/actinia-"
+"jupyter>`_"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:54
 msgid "Introduction to ace - actinia command execution"
@@ -590,4 +598,3 @@ msgstr "Progetto OSGeo"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "Comunità OSGeo"
-
