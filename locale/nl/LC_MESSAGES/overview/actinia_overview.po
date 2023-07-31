@@ -5,20 +5,21 @@
 #
 # Translators:
 # Celine Vilain, 2022
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2019-07-18 21:56+0000\n"
-"Last-Translator: Celine Vilain, 2022\n"
+"PO-Revision-Date: 2023-07-03 08:33+0000\n"
+"Last-Translator: Michel Stuyts <michel.stuyts@gmail.com>\n"
+"Language-Team: Dutch <https://weblate.osgeo.org/projects/osgeolive/"
+"actinia_overview/nl/>\n"
 "Language: nl\n"
-"Language-Team: Dutch (https://app.transifex.com/osgeo/teams/66156/nl/)\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/overview/actinia_overview.rst:18
@@ -50,7 +51,7 @@ msgstr ""
 
 #: ../../build/doc/overview/actinia_overview.rst:39
 msgid "Core Features"
-msgstr ""
+msgstr "Kernmogelijkheden"
 
 #: ../../build/doc/overview/actinia_overview.rst:41
 msgid ""
@@ -64,7 +65,7 @@ msgstr ""
 
 #: ../../build/doc/overview/actinia_overview.rst:45
 msgid "Details"
-msgstr ""
+msgstr "Details"
 
 #: ../../build/doc/overview/actinia_overview.rst:47
 msgid "**Website:** https://actinia.mundialis.de/"
@@ -104,7 +105,7 @@ msgstr ""
 
 #: ../../build/doc/overview/actinia_overview.rst:64
 msgid "Quickstart"
-msgstr ""
+msgstr "Snelstart"
 
 #: ../../build/doc/overview/actinia_overview.rst:66
 msgid ":doc:`Quickstart documentation <../quickstart/actinia_quickstart>`"
@@ -124,5 +125,4 @@ msgstr "OSGeo Project"
 
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
-msgstr "OSGeo Community"
-
+msgstr "OSGeo Gemeenschap"

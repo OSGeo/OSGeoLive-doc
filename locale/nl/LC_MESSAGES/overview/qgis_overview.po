@@ -6,20 +6,21 @@
 # Translators:
 # Celine Vilain, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Celine Vilain, 2022\n"
-"Language-Team: Dutch (https://app.transifex.com/osgeo/teams/66156/nl/)\n"
+"PO-Revision-Date: 2023-07-03 08:33+0000\n"
+"Last-Translator: Michel Stuyts <michel.stuyts@gmail.com>\n"
+"Language-Team: Dutch <https://weblate.osgeo.org/projects/osgeolive/"
+"qgis_overview/nl/>\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: nl\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: ../../build/doc/overview/qgis_overview.rst:20
 msgid "QGIS"
@@ -39,192 +40,218 @@ msgid ""
 "providers. It runs on Linux, Unix, Mac OSX, and Windows and supports "
 "numerous vector, raster and database formats and functionality."
 msgstr ""
+"QGIS is een gebruiksvriendelijke Open Source GIS client waarmee je data kan "
+"visualiseren, bewerken en analyseren, en ook afdrukbare kaarten "
+"samenstellen. Het bevat krachtige analytische functionaliteit door de "
+"integratie met :doc:`GRASS <grass_overview>`, :doc:`SAGA <saga_overview>`, "
+":doc:`Orfeo Toolbox <otb_overview>` , :doc:`GDAL/OGR <gdal_overview>` en "
+"veel andere algoritme providers. Het draait op Linux, Unix, Mac OSX, en "
+"Windows en ondersteund talrijke vector, raster en database formaten en "
+"functionaliteiten."
 
 #: ../../build/doc/overview/qgis_overview.rstNone
 msgid "qgis screenshot"
-msgstr ""
+msgstr "qgis schermafbeelding"
 
 #: ../../build/doc/overview/qgis_overview.rst:36
 msgid "Core Features"
-msgstr ""
+msgstr "Kernmogelijkheden"
 
 #: ../../build/doc/overview/qgis_overview.rst:38
 msgid "Friendly graphical user interface:"
-msgstr ""
+msgstr "Gebruiksvriendelijke grafische gebruikersinterface:"
 
 #: ../../build/doc/overview/qgis_overview.rst:40
 msgid "identify/select features"
-msgstr ""
+msgstr "identificeer/selecteer objecten"
 
 #: ../../build/doc/overview/qgis_overview.rst:41
 msgid "edit/view/search attributes"
-msgstr ""
+msgstr "bewerk/bekijk/zoek attributen"
 
 #: ../../build/doc/overview/qgis_overview.rst:42
 msgid "on the fly projection"
-msgstr ""
+msgstr "\"direct\" opnieuw projecteren"
 
 #: ../../build/doc/overview/qgis_overview.rst:43
 msgid "print composer"
-msgstr ""
+msgstr "afdruklay-out"
 
 #: ../../build/doc/overview/qgis_overview.rst:44
 msgid "feature labeling"
-msgstr ""
+msgstr "labelen van objecten"
 
 #: ../../build/doc/overview/qgis_overview.rst:45
 msgid "change vector and raster symbology"
-msgstr ""
+msgstr "pas vector en raster symbologie aan"
 
 #: ../../build/doc/overview/qgis_overview.rst:46
 msgid "add a graticule layer"
-msgstr ""
+msgstr "voeg een raster toe"
 
 #: ../../build/doc/overview/qgis_overview.rst:47
 msgid "and more ..."
-msgstr ""
+msgstr "en meer..."
 
 #: ../../build/doc/overview/qgis_overview.rst:49
 msgid "Easy Viewing of many Vector and Raster Formats"
-msgstr ""
+msgstr "Eenvoudig bekijken van vele vector- en rasterformaten"
 
 #: ../../build/doc/overview/qgis_overview.rst:51
 msgid ""
 "database tables: PostgreSQL/PostGIS, Oracle Spatial, MS SQL Spatial, "
 "SpatiaLite"
 msgstr ""
+"database tabellen: PostgreSQL/PostGIS, Oracle Spatial, MS SQL Spatial, "
+"SpatiaLite"
 
 #: ../../build/doc/overview/qgis_overview.rst:52
 msgid ""
 "most vector formats: including ESRI shapefiles, MapInfo, SDTS and GML, "
 "OpenStreetMap vectors"
 msgstr ""
+"de meeste vector formaten: inclusief ESRI shapefiles, MapInfo, SDTS en GML, "
+"OpenStreetMap vectors"
 
 #: ../../build/doc/overview/qgis_overview.rst:53
 msgid ""
 "raster formats such as digital elevation models, aerial photography or "
 "landsat imagery"
 msgstr ""
+"raster formaten zoals digitale hoogtemodellen, luchtfotografie of landsat "
+"beelden"
 
 #: ../../build/doc/overview/qgis_overview.rst:54
 msgid "GRASS locations and mapsets"
-msgstr ""
+msgstr "GRASS locaties en mapsets"
 
 #: ../../build/doc/overview/qgis_overview.rst:55
 msgid "online spatial data served as OGC-compliant WMS, WMTS, WFS or WCS"
 msgstr ""
+"online ruimtelijke data aangeboden als OGC conforme WMS, WMTS, WSF of WCS"
 
 #: ../../build/doc/overview/qgis_overview.rst:56
 msgid "2.5D rendering support"
-msgstr ""
+msgstr "2.5D weergave ondersteuning"
 
 #: ../../build/doc/overview/qgis_overview.rst:58
 msgid "Create, edit and export spatial data using:"
-msgstr ""
+msgstr "Aanmaken, bewerken en exporteren van ruimtelijke data met behulp van:"
 
 #: ../../build/doc/overview/qgis_overview.rst:60
 msgid "digitizing tools for GRASS and shapefile formats"
-msgstr ""
+msgstr "digitaliseer gereedschappen voor GRASS en shapefile formaten"
 
 #: ../../build/doc/overview/qgis_overview.rst:61
 msgid "the georeferencer plugin"
-msgstr ""
+msgstr "de georeferencer plugin"
 
 #: ../../build/doc/overview/qgis_overview.rst:62
 msgid ""
 "GPS tools to import and export GPX format, convert other GPS formats to GPX,"
 " or down/upload directly to a GPS unit"
 msgstr ""
+"GPS gereedschappen om GPX formaat te importeren of exporteren, om GPS "
+"formaten te converteren naar GPX of om rechtstreeks te downloaden of "
+"uploaden naar een GPS toestel"
 
 #: ../../build/doc/overview/qgis_overview.rst:64
 msgid ""
 "Perform spatial analysis using integrated support for SAGA, OTB, MMGIS and "
 "GRASS"
 msgstr ""
+"Ruimtelijke analyses uitvoeren met behulp van geïntegreerde ondersteuning "
+"van SAGA, OTB, MMGIS en GRASS"
 
 #: ../../build/doc/overview/qgis_overview.rst:66
 msgid "map algebra"
-msgstr ""
+msgstr "kaart algebra"
 
 #: ../../build/doc/overview/qgis_overview.rst:67
 msgid "terrain analysis"
-msgstr ""
+msgstr "terreinanalyses"
 
 #: ../../build/doc/overview/qgis_overview.rst:68
 msgid "hydrologic modeling"
-msgstr ""
+msgstr "hydrologische modellering"
 
 #: ../../build/doc/overview/qgis_overview.rst:69
 msgid "network analysis"
-msgstr ""
+msgstr "netwerk analyses"
 
 #: ../../build/doc/overview/qgis_overview.rst:70
 msgid "comprehensive searchable toolbox of functions"
-msgstr ""
+msgstr "volledig zoekbare toolbox met functies"
 
 #: ../../build/doc/overview/qgis_overview.rst:71
 msgid ""
 "define and run reusable analysis routines by chaining functions using a "
 "graphical modelling tool"
 msgstr ""
+"definieer en voer herbruikbare analyse routines uit door functies te "
+"koppelen met behulp van een grafisch modelleer gereedschap"
 
 #: ../../build/doc/overview/qgis_overview.rst:72
 msgid "and many others"
-msgstr ""
+msgstr "en vele andere"
 
 #: ../../build/doc/overview/qgis_overview.rst:74
 msgid "Publish to the internet"
-msgstr ""
+msgstr "Publiceer naar het internet"
 
 #: ../../build/doc/overview/qgis_overview.rst:75
 msgid "Extensible plugin architecture"
-msgstr ""
+msgstr "Uitbreidbare plugin architectuur"
 
 #: ../../build/doc/overview/qgis_overview.rst:78
 msgid "Implemented Standards"
-msgstr ""
+msgstr "Geïmplementeerde standaarden"
 
 #: ../../build/doc/overview/qgis_overview.rst:80
 msgid "OGC standards compliant (WMS, WFS, ... )"
-msgstr ""
+msgstr "Voldoet aan de OGC standaarden (WMS, WFS, ... )"
 
 #: ../../build/doc/overview/qgis_overview.rst:83
 msgid "Details"
-msgstr ""
+msgstr "Details"
 
 #: ../../build/doc/overview/qgis_overview.rst:85
 msgid "**Website:** https://www.qgis.org/en/site/"
-msgstr ""
+msgstr "**Website:** https://www.qgis.org/en/site/"
 
 #: ../../build/doc/overview/qgis_overview.rst:87
 msgid "**Licence:** GNU General Public License (GPL) version 2"
-msgstr ""
+msgstr "**Licentie:** GNU General Public License (GPL) versie 2"
 
 #: ../../build/doc/overview/qgis_overview.rst:89
 msgid "**Software Version:** |version-qgis|"
-msgstr ""
+msgstr "**Software versie:** |version-qgis|"
 
 #: ../../build/doc/overview/qgis_overview.rst:91
 msgid "**Supported Platforms:** Windows, Linux, Mac, Unix"
-msgstr ""
+msgstr "**Ondersteunde platformen=** Windows, Linux, Mac, Unix"
 
 #: ../../build/doc/overview/qgis_overview.rst:93
 msgid "**Community Support:** https://qgis.org/en/site/forusers/support.html"
 msgstr ""
+"**Ondersteuning door de gemeenschap:** https://qgis.org/en/site/forusers/"
+"support.html"
 
 #: ../../build/doc/overview/qgis_overview.rst:95
 msgid ""
 "**Commercial Support:** "
 "https://qgis.org/en/site/forusers/commercial_support.html"
 msgstr ""
+"**Commerciële ondersteuning:** https://qgis.org/en/site/forusers/"
+"commercial_support.html"
 
 #: ../../build/doc/overview/qgis_overview.rst:101
 msgid "Quickstart"
-msgstr ""
+msgstr "Snelstart"
 
 #: ../../build/doc/overview/qgis_overview.rst:103
 msgid ":doc:`Quickstart documentation <../quickstart/qgis_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snelstart documentatie <../quickstart/qgis_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -240,4 +267,4 @@ msgstr "OSGeo Project"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr "OSGeo Community"
+msgstr "OSGeo Gemeenschap"

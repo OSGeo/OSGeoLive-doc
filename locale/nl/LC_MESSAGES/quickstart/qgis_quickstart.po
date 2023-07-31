@@ -6,187 +6,210 @@
 # Translators:
 # Celine Vilain, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-21 20:28+0000\n"
-"PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Celine Vilain, 2022\n"
-"Language-Team: Dutch (https://app.transifex.com/osgeo/teams/66156/nl/)\n"
+"PO-Revision-Date: 2023-07-03 08:33+0000\n"
+"Last-Translator: Michel Stuyts <michel.stuyts@gmail.com>\n"
+"Language-Team: Dutch <https://weblate.osgeo.org/projects/osgeolive/"
+"qgis_quickstart/nl/>\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: nl\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:36
 msgid "QGIS Quickstart"
-msgstr ""
+msgstr "QGIS Snelstart"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:38
 msgid ""
 "QGIS is a user-friendly Desktop GIS client which lets you visualize, manage,"
 " edit, analyse data and compose printable maps."
 msgstr ""
+"QGIS is een gebruiksvriendelijke Open Source GIS client waarmee je data kan "
+"visualiseren, bewerken en analyseren, en ook afdrukbare kaarten samenstellen."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:43
 msgid "Contents"
-msgstr ""
+msgstr "Inhoud"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:46
 msgid "Start QGIS"
-msgstr ""
+msgstr "Start QGIS"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:48
 msgid "Open the 'Desktop GIS' folder."
-msgstr ""
+msgstr "Open de 'Desktop GIS' map."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:49
 msgid "Double click on the 'QGIS' icon."
-msgstr ""
+msgstr "Dubbelklik op het 'QGIS' icoon."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:51
 msgid ""
 "You will see QGIS launch with an empty project. The various parts of the "
 "QGIS Interface are listed below."
 msgstr ""
+"Je zal QGIS zien starten met een leeg project. De verschillende onderdelen "
+"van de QGIS interface staan in de lijst hieronder."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "Open a QGIS project"
-msgstr ""
+msgstr "Open een QGIS project"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:57
 msgid ""
 "[1] Menu bar: Access to various QGIS features using a standard hierarchical "
 "menu."
 msgstr ""
+"[1] Menubalk: Toegang tot verschillende QGIS mogelijkheden met behulp van "
+"een standaard hiërarchisch menu."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:58
 msgid ""
 "[2] Toolbars: For interaction with the map, layers, attributes and "
 "selections."
 msgstr ""
+"[2] Werkbalken: Voor interactie met de kaart, lagen, attributen en selecties."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:59
 msgid ""
 "[3] Browser Panel: A spatial file browser allowing drag and drop content "
 "into the map frame."
 msgstr ""
+"[3] Paneel Browser: Een ruimtelijke bestanden browser om inhoud te slepen en "
+"neer te zetten in het kaartvenster."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:60
 msgid "[4] Layer Panel: Controls the map layers, their order, and visibility."
-msgstr ""
+msgstr "[4] Paneel Lagen: Beheert de kaartlagen, hun volgorde en zichtbaarheid."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:61
 msgid ""
 "[5] Status Bar: General information about the map and access to a universal "
 "search bar."
 msgstr ""
+"[5] Statusbalk: Algemene informatie over de kaart en toegang tot de "
+"universele zoekbalk."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:64
 msgid "Create a project"
-msgstr ""
+msgstr "Maak een project aan"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:66
 msgid "To create a new project, choose :menuselection:`Project --> New`."
 msgstr ""
+"Om een nieuw project aan te maken, kies :menuselection:`Project --> Nieuw`."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS new project"
-msgstr ""
+msgstr "QGIS nieuw project"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:72
 msgid ""
 "Let's start by adding a vector layer to the map. Layers can be added to QGIS"
 " using the browser panel, located on the left of the screen."
 msgstr ""
+"We beginnen met het toevoegen van een vector kaartlaag aan de kaart. Lagen "
+"kunnen toegevoegd worden met behulp van het browser paneel aan de linkerkant "
+"van het scherm."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:74
 #: ../../build/doc/quickstart/qgis_quickstart.rst:92
 msgid "Go the browser panel on the left of the screen."
-msgstr ""
+msgstr "Ga naar het browserpaneel aan de linkerkant van het scherm."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:75
 #: ../../build/doc/quickstart/qgis_quickstart.rst:93
 msgid "Navigate the folder tree to 'home/data/natural_earth2'."
-msgstr ""
+msgstr "Navigeer in de mappenstructuur naar 'home/data/natural_earth2'."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:76
 msgid "Select 'ne_10m_admin_0_countries.shp'."
-msgstr ""
+msgstr "Selecteer 'ne_10m_admin_0_countries.shp'."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:77
 #: ../../build/doc/quickstart/qgis_quickstart.rst:95
 msgid "Drag the layer from the browser panel and drop it in the map frame."
 msgstr ""
+"Sleep de laag van het browserpaneel en laat het los in het kaartvenster."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS browser add vector layer"
-msgstr ""
+msgstr "QGIS browser voeg vector laag toe"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:83
 msgid ""
 "Once the layer has been dragged onto the map frame, you will see a layer "
 "showing countries."
 msgstr ""
+"Eens de laag naar het kaartvenster is versleept, zal je een laag met landen "
+"zien."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS vector layer"
-msgstr ""
+msgstr "QGIS vector laag"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:90
 msgid "Now let's try adding a raster layer to the project."
-msgstr ""
+msgstr "Laten we nu proberen om een raster laag toe te voegen aan het project."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:94
 msgid "Select 'HYP_50M_SR_W.tif'."
-msgstr ""
+msgstr "Selecteer 'HYP_50M_SR_W.tif'."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS browser add raster layer"
-msgstr ""
+msgstr "QGIS browser voeg raster laag toe"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:101
 msgid ""
 "Once the layer has been dragged onto the map frame, you will see a raster "
 "layer showing land cover and bathymetry."
 msgstr ""
+"Eens de laag naar het kaartvenster is versleept, zal je een rasterlaag zien "
+"met landgebruik en bathymetrie."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS raster layer"
-msgstr ""
+msgstr "QGIS raster laag"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:108
 msgid ""
 "Now that we have added some content to our project we can save this project "
 "so that we can come back to it at a later time."
 msgstr ""
+"Nu dat we wat inhoud toegevoegd hebben aan ons project, kunnen we dit "
+"project opslaan zodat we er op een later moment naar terug kunnen gaan."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:111
 msgid "Choose :menuselection:`Project --> Save`."
-msgstr ""
+msgstr "Kies :menuselection:`Project --> Opslaan`."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS save"
-msgstr ""
+msgstr "QGIS opslaan"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:117
 msgid "Make the location to save the project '/home/user/desktop'."
-msgstr ""
+msgstr "Sla het project op in '/home/user/desktop'."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:118
 msgid "Call the project 'My QGIS project'."
-msgstr ""
+msgstr "Noem het project 'Mijn QGIS project'."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS project location"
-msgstr ""
+msgstr "QGIS project locatie"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:124
 msgid "Click 'Save'."
-msgstr ""
+msgstr "Klik op 'Opslaan'."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:126
 msgid ""
@@ -195,14 +218,18 @@ msgid ""
 "document will no longer read as 'untitled' but instead will read as 'My QGIS"
 " project'."
 msgstr ""
+"Je merkt dat het project opgeslagen is, omdat er een projectbestand staat op "
+"het bureaublad met de naam 'Mijn QGIS project' en bovenaan het project "
+"document staat er niet langer 'Naamloos project', maar in plaats daarvan "
+"staat er \"Mijn QGIS project'."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS saved project"
-msgstr ""
+msgstr "QGIS opgeslagen project"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:134
 msgid "Open an existing project"
-msgstr ""
+msgstr "Open een bestaand project"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:136
 msgid ""
@@ -211,10 +238,14 @@ msgid ""
 "extension of '.qgs' or '.qgz', with '.qgz' being the default file format in "
 "QGIS going into the future."
 msgstr ""
+"Een QGIS project slaat de kaartlagen, opmaak, kaartbereik en instellingen op "
+"voor later gebruik. Deze informatie wordt opgelsagen als een QGIS "
+"projectbestand met de extensie '.qgs' of '.qgz', waarbij '.qgz' het "
+"standaard bestandsformaat in QGIS voor de toekomst is."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:140
 msgid "Let's open an existing QGIS project and have a look at how it works."
-msgstr ""
+msgstr "Laten we een bestaand QGIS project openen en kijken hoe dat werkt."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:142
 msgid ""
@@ -222,26 +253,29 @@ msgid ""
 "of recent projects to chose from. This is a convenient way to open a project"
 " you have used recently."
 msgstr ""
+"Open QGIS. Merk op dat als QGIS geopend is, je een lijst met recent geopende "
+"projecten voorgeschoteld krijgt om uit te kiezen. Dit is een handige manier "
+"om een project te openen dat je recent gebruikt hebt."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:143
 msgid "Choose :menuselection:`Project --> Open`."
-msgstr ""
+msgstr "Kies :menuselection:`Project --> Openen`."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:144
 msgid "Navigate to '/home/user/qgis-example'."
-msgstr ""
+msgstr "Navigeer naar '/home/user/qgis-example'."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:145
 msgid "Select the project 'QGIS-NaturalEarth-Example.qgs'."
-msgstr ""
+msgstr "Selecteer het project 'QGIS-NaturalEarth-Example.qgs'."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:146
 msgid "Click 'Open'."
-msgstr ""
+msgstr "Klik op 'Openen'."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rstNone
 msgid "QGIS Open project"
-msgstr ""
+msgstr "QGIS project openen"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:152
 msgid ""
@@ -579,4 +613,4 @@ msgstr "OSGeo Project"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr "OSGeo Community"
+msgstr "OSGeo Gemeenschap"
