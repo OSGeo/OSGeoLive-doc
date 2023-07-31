@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-26 18:26+0000\n"
+"POT-Creation-Date: 2023-07-31 20:23+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,83 +29,71 @@ msgstr ""
 msgid "The objective of the ODC is to increase the impact of satellite data by providing an open and freely accessible exploitation tool, and to foster a community to develop, sustain, and grow the breadth and depth of applications."
 msgstr ""
 
-#: ../../build/doc/overview/odc_overview.rst:31
+#: ../../build/doc/overview/odc_overview.rst:30
 msgid "At a technical level, an implementation of the ODC is made up of three things: data, an index and software:"
 msgstr ""
 
-#: ../../build/doc/overview/odc_overview.rst:34
-msgid "Data is usually file based, either in local directories of GeoTIFFs or NetCDF files,"
+#: ../../build/doc/overview/odc_overview.rst:33
+msgid "Data is usually file based, either in local directories of GeoTIFFs or NetCDF files, but data can be anything that GDAL can read, including Cloud Optimised GeoTIFFs stored on AWS’ S3."
 msgstr ""
 
-#: ../../build/doc/overview/odc_overview.rst:35
-msgid "but data can be anything that GDAL can read, including Cloud Optimised GeoTIFFs stored on AWS’ S3."
+#: ../../build/doc/overview/odc_overview.rst:36
+msgid "For the Index, the ODC uses PostgreSQL as a database to store a list of Products (a specific data type, like Landsat 8 Analysis Ready Data) and Datasets (a single instance of a Product, for example, a single Landsat 8 scene). The index enables a user to ask for data at a time and location, without needing to know specifically where the required files are stored and how to access them."
 msgstr ""
 
-#: ../../build/doc/overview/odc_overview.rst:37
-msgid "For the Index, the ODC uses PostgreSQL as a database to store a list of Products"
-msgstr ""
-
-#: ../../build/doc/overview/odc_overview.rst:38
-msgid "(a specific data type, like Landsat 8 Analysis Ready Data) and Datasets (a single instance of a Product, for example, a single Landsat 8 scene). The index enables a user to ask for data at a time and location, without needing to know specifically where the required files are stored and how to access them."
-msgstr ""
-
-#: ../../build/doc/overview/odc_overview.rst:43
-msgid "The Software at the core of the ODC is a Python library that enables a user to index data"
-msgstr ""
-
-#: ../../build/doc/overview/odc_overview.rst:44
-msgid "(add records to the Index), to ingest data (optimise indexed data for performance), to query data (returning data in a standard data format) and a wide range of other functions related to managing data."
+#: ../../build/doc/overview/odc_overview.rst:42
+msgid "The Software at the core of the ODC is a Python library that enables a user to index data (add records to the Index), to ingest data (optimise indexed data for performance), to query data (returning data in a standard data format) and a wide range of other functions related to managing data."
 msgstr ""
 
 #: ../../build/doc/overview/odc_overview.rst:None
 msgid "odc screenshot"
 msgstr ""
 
-#: ../../build/doc/overview/odc_overview.rst:56
+#: ../../build/doc/overview/odc_overview.rst:55
 msgid "Core Features"
 msgstr ""
 
-#: ../../build/doc/overview/odc_overview.rst:58
+#: ../../build/doc/overview/odc_overview.rst:57
 msgid "storing, processing and analyzing large collections of earth observation data"
 msgstr ""
 
-#: ../../build/doc/overview/odc_overview.rst:59
+#: ../../build/doc/overview/odc_overview.rst:58
 msgid "Gridding and contouring functions"
 msgstr ""
 
-#: ../../build/doc/overview/odc_overview.rst:62
+#: ../../build/doc/overview/odc_overview.rst:61
 msgid "Details"
 msgstr ""
 
-#: ../../build/doc/overview/odc_overview.rst:64
+#: ../../build/doc/overview/odc_overview.rst:63
 msgid "**Website:** https://www.opendatacube.org"
 msgstr ""
 
-#: ../../build/doc/overview/odc_overview.rst:66
+#: ../../build/doc/overview/odc_overview.rst:65
 msgid "**Licence:** Apache License Version 2"
 msgstr ""
 
-#: ../../build/doc/overview/odc_overview.rst:68
+#: ../../build/doc/overview/odc_overview.rst:67
 msgid "**Software Version:** |version-odc|"
 msgstr ""
 
-#: ../../build/doc/overview/odc_overview.rst:70
+#: ../../build/doc/overview/odc_overview.rst:69
 msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
 msgstr ""
 
-#: ../../build/doc/overview/odc_overview.rst:72
+#: ../../build/doc/overview/odc_overview.rst:71
 msgid "**API Interfaces:** Command line"
 msgstr ""
 
-#: ../../build/doc/overview/odc_overview.rst:74
+#: ../../build/doc/overview/odc_overview.rst:73
 msgid "**Support:** https://www.opendatacube.org/faq"
 msgstr ""
 
-#: ../../build/doc/overview/odc_overview.rst:80
+#: ../../build/doc/overview/odc_overview.rst:79
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/odc_overview.rst:82
+#: ../../build/doc/overview/odc_overview.rst:81
 msgid ":doc:`Quickstart documentation <../quickstart/odc_quickstart>`"
 msgstr ""
 
