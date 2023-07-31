@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-04 08:50+0000\n"
-"PO-Revision-Date: 2023-04-02 18:08+0000\n"
+"PO-Revision-Date: 2023-06-24 20:08+0000\n"
 "Last-Translator: Zoltan Siki <siki@agt.bme.hu>\n"
 "Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
 "prior_applications/hu/>\n"
@@ -86,7 +86,6 @@ msgstr "`Gyorstalpaló <LibLAS_q_>`__"
 #: ../../build/doc/prior_applications.rst:1
 #: ../../build/doc/prior_applications.rst:1
 #: ../../build/doc/prior_applications.rst:1
-#, fuzzy
 msgid "13.0"
 msgstr "13.0"
 
@@ -95,7 +94,6 @@ msgid "LiDAR Data Access"
 msgstr "LiDAR adat hozzáférés"
 
 #: ../../build/doc/prior_applications.rst:1
-#, fuzzy
 msgid "MapSlicer_"
 msgstr "MapSlicer_"
 
@@ -121,7 +119,6 @@ msgid "OSGeo Community"
 msgstr "OSGeo közösség"
 
 #: ../../build/doc/prior_applications.rst:1
-#, fuzzy
 msgid "Geomajas_"
 msgstr "Geomajas_"
 
@@ -134,7 +131,6 @@ msgid "Browser GIS Client"
 msgstr "Böngésző GIS kliens"
 
 #: ../../build/doc/prior_applications.rst:1
-#, fuzzy
 msgid "OSSIM_"
 msgstr "OSSIM_"
 
@@ -143,7 +139,6 @@ msgid "`QuickStart <OSSIM_q_>`__"
 msgstr "`Gyorstalpaló <OSSIM_q_>`__"
 
 #: ../../build/doc/prior_applications.rst:1
-#, fuzzy
 msgid "11.0"
 msgstr "11.0"
 

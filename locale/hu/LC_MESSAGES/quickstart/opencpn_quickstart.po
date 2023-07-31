@@ -6,21 +6,21 @@
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
+"PO-Revision-Date: 2023-06-24 20:08+0000\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"opencpn_quickstart/hu/>\n"
 "Language: hu\n"
-"Language-Team: Hungarian "
-"(https://www.transifex.com/osgeo/teams/66156/hu/)\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:19
@@ -52,14 +52,13 @@ msgid ""
 "The first time you open OpenCPN you are presented with the option to do "
 "this automatically."
 msgstr ""
-"Mielőtt az OpenCPN a LiveDVD-ről futtatná, aktiválnia kell a minta "
-"adatokat. Ennek feltétele a NOAA ingyenes tengeri térképek megosztása. "
-"Amikor először megnyitja,  egy beállítás jelenik meg, mellyel ezt "
-"automatikusan megteheti."
+"Mielőtt az OpenCPN a LiveDVD-ről futtatná, aktiválnia kell a minta adatokat. "
+"Ennek feltétele a NOAA ingyenes tengeri térképek megosztása. Amikor először "
+"megnyitja, egy beállítás jelenik meg, mellyel ezt automatikusan megteheti."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:35
 msgid "From the Start menu, select |menu_opencpn|."
-msgstr ""
+msgstr "A Start mrnüből válassza az |menu_opencpn|-t."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:36
 msgid "Click :guilabel:`I agree` to the NOAA Nautical Chart Data Agreement."
@@ -74,8 +73,8 @@ msgid ""
 "You can download additional US nautical charts from NOAA at "
 "https://www.charts.noaa.gov/"
 msgstr ""
-"További US tengeri térképeket tölthet le a NOAA-tól a "
-"https://www.charts.noaa.gov címről."
+"További US tengeri térképeket tölthet le a NOAA-tól a https://"
+"www.charts.noaa.gov címről"
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:45
 msgid "Setting up your GPS"
@@ -160,10 +159,10 @@ msgid ""
 "hidden files, including the ``.xygrib`` directory that contains the GRIB "
 "download files."
 msgstr ""
-"Ha a XyGrib fájlt a bejelentkezési könyvtárába mentette, akkor navigáljon"
-" a :file:`/home` mappába és válassza a  ``user`` könyvtárat mint a GRIB "
-"adatkönyvtár. Majd jobb kattintás a fájl lista hátterébe a rejtett fájlok"
-" megjelenítéséhez, a ``.xygrib`` könyvtár tartalmazza a letöltött GRIB "
+"Ha a XyGrib fájlt a bejelentkezési könyvtárába mentette, akkor navigáljon a "
+":file:`/home` mappába és válassza a ``user`` könyvtárat mint a GRIB "
+"adatkönyvtár. Majd jobb kattintás a fájl lista hátterébe a rejtett fájlok "
+"megjelenítéséhez, a ``.xygrib`` könyvtár tartalmazza a letöltött GRIB "
 "fájlokat."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:84
@@ -209,4 +208,3 @@ msgstr "OSGeo Projekt"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo közösség"
-

@@ -6,26 +6,26 @@
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2018-06-09 16:37+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
+"PO-Revision-Date: 2023-06-24 20:08+0000\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"hyperv_quickstart/hu/>\n"
 "Language: hu\n"
-"Language-Team: Hungarian "
-"(https://www.transifex.com/osgeo/teams/66156/hu/)\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:8
 msgid "Running in a Hyper-V Virtual Machine"
-msgstr "Egy  Hyper-V virtuális gép futtatása"
+msgstr "Egy Hyper-V virtuális gép futtatása"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:10
 msgid ""
@@ -67,7 +67,6 @@ msgid "System Requirements"
 msgstr "Rendszer követelmények"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:21
-#, fuzzy
 msgid ""
 "Hyper-V requirements can be found `here <https://learn.microsoft.com/en-"
 "us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v>`_. This "
@@ -75,11 +74,11 @@ msgid ""
 "using the ``systeminfo`` command. In summary the host machine needs to "
 "have the following hardware requirements:"
 msgstr ""
-"A Hyper-V követelmények `itt találhatók <https://docs.microsoft.com/en-"
-"us/virtualization/hyper-v-on-windows/reference/hyper-v-requirements>`_. "
-"Ez a link információt tartalmaz a gép kompatibilitásnak ellenőrzéséről a "
-"``systeminfo`` paranccsal. Összefoglalóan a gazda gépnek a következő "
-"hardver feltételeknek kell megfelelnie:"
+"A Hyper-V követelmények `itt találhatók <https://learn.microsoft.com/en-us/"
+"virtualization/hyper-v-on-windows/quick-start/enable-hyper-v>`_. Ez a link "
+"információt tartalmaz a gép kompatibilitásnak ellenőrzéséről a ``systeminfo``"
+" paranccsal. Összefoglalóan a gazda gépnek a következő hardver feltételeknek "
+"kell megfelelnie:"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:25
 msgid "RAM: 4 GB minimum"
@@ -87,7 +86,7 @@ msgstr "RAM: 4 GB minimum"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:26
 msgid "64-bit Processor"
-msgstr "64-bit Processor"
+msgstr "64-bites processzor"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:29
 msgid "Downloads and Virtual Machine Conversion"
@@ -124,10 +123,10 @@ msgid ""
 "allowing you to select the ``osgeo-live-XX.X-vm.vmdk`` file and convert "
 "to a *Microsoft VHDX* image."
 msgstr ""
-"Használja a `StarWind V2V Converter <https://www.starwindsoftware.com"
-"/starwind-v2v-converter>`_ programot. Egy egyszerű felhasználói felülete "
-"van, megengedi az ``osgeo-live-XX.X-vm.vmdk`` fájl kiválasztását és a  "
-"*Microsoft VHDX* képbe konvertálását."
+"Használja a `StarWind V2V Converter <https://www.starwindsoftware.com/"
+"starwind-v2v-converter>`_ programot. Egy egyszerű felhasználói felülete van, "
+"megengedi az ``osgeo-live-XX.X-vm.vmdk`` fájl kiválasztását és a *Microsoft "
+"VHDX* képbe konvertálását."
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:44
 msgid "Microsoft Virtual Machine Converter 3.0"
@@ -144,6 +143,10 @@ msgid ""
 "virtual-machine-converter-3-0-is-now-available-for/ba-p/349874>`_ and "
 "install."
 msgstr ""
+"Töltse le a `Microsoft Virtual Machine Converter 3.0 <https://techcommunity."
+"microsoft.com/t5/system-center-blog/"
+"microsoft-virtual-machine-converter-3-0-is-now-available-for/ba-p/349874>`_ -"
+"t és telepítse."
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:51
 msgid "Download the DS File Ops Kit and unzip."
@@ -167,9 +170,9 @@ msgid ""
 "following lines using hashes (this metadata is VirtualBox specific and is"
 " not recognised by the converter):"
 msgstr ""
-"Nyissa meg ezt egy szövegszerkesztőben (pl. Jegyzettömb) és kommentezze "
-"ki a következő sorokat a dupla-kereszt használatával (ezek a metaadatok "
-"VirtualBox specifikusak és a konverter nem is meri fel őket)"
+"Nyissa meg ezt egy szövegszerkesztőben (pl. Jegyzettömb) és kommentezze ki a "
+"következő sorokat a dupla-kereszt használatával (ezek a metaadatok "
+"VirtualBox specifikusak és a konverter nem is meri fel őket):"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:72
 msgid ""
@@ -262,7 +265,7 @@ msgid ""
 "Right-click and select \"Connect\". You will be prompted to start the "
 "machine, and a new \"Virtual Machine Connection\" window will open."
 msgstr ""
-"Jobb kattintás és válassza a \"Connect\"et.  A rendszer rákérdez a gép "
+"Jobb kattintás és válassza a \"Connect\"et. A rendszer rákérdez a gép "
 "elindítására és egy új \"Virtual Machine Connection\" ablak nyílik meg."
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:121
@@ -312,4 +315,3 @@ msgstr "OSGeo Projekt"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo közösség"
-

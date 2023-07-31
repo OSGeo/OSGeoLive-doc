@@ -5,21 +5,21 @@
 #
 # Translators:
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
+"PO-Revision-Date: 2023-06-24 20:08+0000\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"mapnik_quickstart/hu/>\n"
 "Language: hu\n"
-"Language-Team: Hungarian "
-"(https://www.transifex.com/osgeo/teams/66156/hu/)\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:21
@@ -80,9 +80,9 @@ msgid ""
 "(world_population.xml), defining the layers to read data from and the "
 "styles to apply to those layers."
 msgstr ""
-"A fenti kód egy XML stíluslap meglététől függ, melyet a Mapnik olvasni "
-"tud (world_population.xml), a rétegek definíciója melyekből az adatok "
-"jönnek és azokhoz a rétegekhez alkalmazandó stílusok. "
+"A fenti kód egy XML stíluslap meglététől függ, melyet a Mapnik olvasni tud "
+"(world_population.xml), a rétegek definíciója melyekből az adatok jönnek és "
+"azokhoz a rétegekhez alkalmazandó stílusok."
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:54
 msgid "Mapnik & MapProxy"
@@ -98,17 +98,15 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:58
 msgid "The demo uses the world_population.xml from the Mapnik demo."
-msgstr "A demó a world_population.xml-t használja a Mapnik demóból"
+msgstr "A demó a world_population.xml-t használja a Mapnik demóból."
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:60
-#, fuzzy
 msgid ""
 "Click |menu_mapnik|. The server starts in a terminal window (which stays "
 "open and outputs basic debugging information)."
 msgstr ""
-"Kattintson a :menuselection:`Geospatial --> Web Services --> MapProxy -->"
-" Start MapProxy`. menüpontra. A szerver egy terminál ablakban indul (mely"
-" nyitva marad és alap nyomkövetési információk jelennek meg benne)."
+"Kattintson a |menu_mapnik|-re. A szerver egy terminál ablakban indul (mely "
+"nyitva marad és alap nyomkövetési információk jelennek meg benne)."
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:62
 msgid "Open the MapProxy demo application http://0.0.0.0:8011/demo/"
@@ -175,4 +173,3 @@ msgstr "OSGeo Projekt"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo közösség"
-

@@ -6,21 +6,21 @@
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
+"PO-Revision-Date: 2023-06-24 20:08+0000\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"deegree_quickstart/hu/>\n"
 "Language: hu\n"
-"Language-Team: Hungarian "
-"(https://www.transifex.com/osgeo/teams/66156/hu/)\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:23
@@ -35,7 +35,7 @@ msgid ""
 msgstr ""
 "*deegree* egí nyílt forráskódú szoftver a térinformatikai adat "
 "infrastruktúrákhoz és a térinformatikai web-hez. A *deegree* egy Java "
-"alkalmazás térkép  (és vektor adat) szolgáltatáshoz más kliensekben "
+"alkalmazás térkép (és vektor adat) szolgáltatáshoz más kliensekben "
 "megjelenítéshez."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:28
@@ -69,6 +69,8 @@ msgid ""
 "Choose |menu_deegree-Start|. The application will take a few moments to "
 "start up."
 msgstr ""
+"Válassza a |menu_deegree-Start|-ot. Az alkalmazás néhány pillanat múlva "
+"elindul."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:45
 msgid ""
@@ -169,10 +171,10 @@ msgid ""
 "Zooming is possible via mouse wheel or the navigation elements on the "
 "left side."
 msgstr ""
-"A térkép kliens az `OpenLayers-re <https://openlayers.org/>`_ épül. A "
-"térkép eltolásához tartsa a  egér bal gombját lenyomva és húzza a "
-"térképet. A nagyítás az egérgörgő vagy a bal oldali navigációs elemek "
-"segítségével lehetséges."
+"A térkép kliens az `OpenLayers-re <https://openlayers.org/>`_ épül. A térkép "
+"eltolásához tartsa a egér bal gombját lenyomva és húzza a térképet. A "
+"nagyítás az egérgörgő vagy a bal oldali navigációs elemek segítségével "
+"lehetséges."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:78
 msgid "What next?"
@@ -221,4 +223,3 @@ msgstr "OSGeo Projekt"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo közösség"
-

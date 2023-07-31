@@ -5,21 +5,21 @@
 #
 # Translators:
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
+"PO-Revision-Date: 2023-06-24 20:08+0000\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"qgis_quickstart/hu/>\n"
 "Language: hu\n"
-"Language-Team: Hungarian "
-"(https://www.transifex.com/osgeo/teams/66156/hu/)\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:36
@@ -222,8 +222,8 @@ msgid ""
 "document will no longer read as 'untitled' but instead will read as 'My "
 "QGIS project'."
 msgstr ""
-"Abból tudhatja, hogy a projektet elmentette, hogy az asztalom megjelenik "
-"a 'My QGIS project' nevű projekt fájl az asztalon és a  projekt már nem "
+"Abból tudhatja, hogy a projektet elmentette, hogy az asztalom megjelenik a "
+"'My QGIS project' nevű projekt fájl az asztalon és a projekt már nem "
 "'untitled', hanem 'My QGIS project' névvel jelenik meg."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:-1
@@ -256,9 +256,9 @@ msgid ""
 "list of recent projects to chose from. This is a convenient way to open a"
 " project you have used recently."
 msgstr ""
-"Nyissa meg a QGIS-t.  Vegye észre, hogy amikor a QGIS megnyílik a korábbi"
-" projektek listáját látja, melyekből választhat. Ez egy kényelmes módszer"
-" a nemrégiben használt projektek megnyitására."
+"Nyissa meg a QGIS-t. Vegye észre, hogy amikor a QGIS megnyílik a korábbi "
+"projektek listáját látja, melyekből választhat. Ez egy kényelmes módszer a "
+"nemrégiben használt projektek megnyitására."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:143
 msgid "Choose :menuselection:`Project --> Open`."
@@ -315,8 +315,8 @@ msgid ""
 "Let's interact with the layer panel and change the visibility of some map"
 " layers."
 msgstr ""
-"Dogozzunk  réteg panellel és változtassuk meg néhány térképi réteg "
-"láthatóságát-"
+"Dogozzunk réteg panellel és változtassuk meg néhány térképi réteg "
+"láthatóságát."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:170
 msgid ""
@@ -337,10 +337,9 @@ msgid ""
 " but can no longer see the rivers and lakes which are within the 'Waters'"
 " layer."
 msgstr ""
-"Vegye észre, hogy a térkép frissült, hogy tükrözze a módosításokat a "
-"réteg listában.  Most láthatjuk az 'ne_10m_populated_places' réteget mint"
-" pontok, de nem látjuk többet  folyókat és tavakat, melyek a 'Waters' "
-"rétegen vannak."
+"Vegye észre, hogy a térkép frissült, hogy tükrözze a módosításokat a réteg "
+"listában. Most láthatjuk az 'ne_10m_populated_places' réteget mint pontok, "
+"de nem látjuk többet folyókat és tavakat, melyek a 'Waters' rétegen vannak."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:-1
 msgid "QGIS result of layer visibility changes"
@@ -354,11 +353,11 @@ msgid ""
 " that the layers appear in the layer list is the order which they will "
 "draw on in the map frame."
 msgstr ""
-"A réteg láthatóság vezérlése mellett  a sorrendet is módosíthatjuk, "
-"melyben  rétegek a réteg panelen megjelennek. Ezt megtehetjük s réteg "
-"kiválasztásával a réteg listában és fel- vagy lehúzásával a listában. A "
-"sorrend, ahogy a rétegek megjelennek a réteglistában megegyezik  térképre"
-" rajzolásuk sorrendjével."
+"A réteg láthatóság vezérlése mellett a sorrendet is módosíthatjuk, melyben "
+"rétegek a réteg panelen megjelennek. Ezt megtehetjük s réteg kiválasztásával "
+"a réteg listában és fel- vagy lehúzásával a listában. A sorrend, ahogy a "
+"rétegek megjelennek a réteglistában megegyezik térképre rajzolásuk "
+"sorrendjével."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:186
 msgid "Left-Click on the layer 'HYP_50M_SR_W'."
@@ -387,7 +386,7 @@ msgid ""
 "Try moving the 'HYP_50M_SR_W' layer to the bottom of the layer list. This"
 " would be a more appropriate position for a map layer like this."
 msgstr ""
-"Próbálja a  'HYP_50M_SR_W' réteget a réteglista aljár mozgatni. Ez egy "
+"Próbálja a 'HYP_50M_SR_W' réteget a réteglista aljár mozgatni. Ez egy "
 "megfelelőbb pozíció az ilyen rétegeknek."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:200
@@ -524,10 +523,10 @@ msgid ""
 "enabled it will appear on the right-hand side of the screen ready to "
 "style the active layer highlighted in the layer panel."
 msgstr ""
-"A fenti gomb mint egy kapcsoló működik, így a stílus dokk könnyen "
-"elrejthető ugyanarra a gombra kattintva ismét. Amikor a stílus dokkot "
-"bekapcsoljuk  a képernyő jobb-felső sarkában jelenik meg, készen arra, "
-"hogy az aktív réteg stílusát beállítsuk."
+"A fenti gomb mint egy kapcsoló működik, így a stílus dokk könnyen elrejthető "
+"ugyanarra a gombra kattintva ismét. Amikor a stílus dokkot bekapcsoljuk a "
+"képernyő jobb-felső sarkában jelenik meg, készen arra, hogy az aktív réteg "
+"stílusát beállítsuk."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:249
 msgid ""
@@ -615,7 +614,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:286
 msgid "In the style panel enter the value '0.5' in the 'width' input."
-msgstr "A stílus panelben vigye be a  '0.5' értéket a  'width' mezőbe."
+msgstr "A stílus panelben vigye be a '0.5' értéket a 'width' mezőbe."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst
 msgid "QGIS style width"
@@ -659,14 +658,13 @@ msgstr ""
 " tartalmának megtekintésére."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:303
-#, fuzzy
 msgid ""
 "Try publishing your QGIS map to the web using :doc:`QGIS Map Server "
 "<../overview/qgis_mapserver_overview>`. in the |menu_qgis-server|"
 msgstr ""
-"Próbálja meg a QGIS térképét a weben publikálni  a  :doc:`QGIS Map Server"
-" <../overview/qgis_mapserver_overview>` felhasználásával a "
-"menuselection:`Geospatial --> Web Services` menüben."
+"Próbálja meg a QGIS térképét a weben publikálni a :doc:`QGIS Map Server <../"
+"overview/qgis_mapserver_overview>` felhasználásával a menuselection:`"
+"Geospatial --> Web Services` menüben"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:309
 msgid "What next?"
@@ -695,4 +693,3 @@ msgstr "OSGeo Projekt"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo közösség"
-

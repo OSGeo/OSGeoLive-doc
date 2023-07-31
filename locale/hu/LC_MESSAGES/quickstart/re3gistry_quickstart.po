@@ -11,15 +11,16 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2023-04-01 08:08+0000\n"
+"PO-Revision-Date: 2023-06-24 20:08+0000\n"
 "Last-Translator: Zoltan Siki <siki@agt.bme.hu>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"re3gistry_quickstart/hu/>\n"
 "Language: hu\n"
-"Language-Team: Hungarian "
-"<https://weblate.osgeo.org/projects/osgeolive/re3gistry_quickstart/hu/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:12
@@ -74,17 +75,15 @@ msgid "Start the Re3gistry"
 msgstr "Re3gistry indítása"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:36
-#, fuzzy
 msgid ""
 "Choose *'Start Re3gistry'* from the |menu_re3gistry-Start| menu.  The "
 "application will take a few moments to start up. Firefox opens the "
 "*Re3gistry landing page* (you can also open this manually by pointing "
 "your browser to http://localhost:8080/re3gistry2)."
 msgstr ""
-"Válassza a *'Start Re3gistry'*-t a :menuselection:`Geospatial --> Web "
-"Services --> Re3gistry` menüből. Az alkalmazás elindítása néhány "
-"pillanatig tarthat. A Firefox megnyitja a *Re3gistry landing page*-t (ezt"
-" manuálisan is megnyithatja a böngészővel a "
+"Válassza a *'Start Re3gistry'*-t a |menu_re3gistry-Start| menüből. Az "
+"alkalmazás elindítása néhány pillanatig tarthat. A Firefox megnyitja a *"
+"Re3gistry landing page*-t (ezt manuálisan is megnyithatja a böngészővel a "
 "http://localhost:8080/re3gistry2 címen)."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:41
@@ -107,8 +106,8 @@ msgid ""
 "system administration (Registry manager). Insert a valid e-mail address "
 "and a password. Then click on \"Save and continue\"."
 msgstr ""
-"A \"Registry manager\" oldal lehetővé teszi a rendszergazda bejelentkezés"
-" megadását  (Registry manager). Írjon be egy elő emailcímet és jelszót. "
+"A \"Registry manager\" oldal lehetővé teszi a rendszergazda bejelentkezés "
+"megadását (Registry manager). Írjon be egy elő emailcímet és jelszót. "
 "Kattintson a \"Save and continue\"-ra."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:49
@@ -358,12 +357,12 @@ msgstr "A rendszer strukturális elemeinek kezelése."
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:137
 msgid "Change and edit information related to the registry and the registers,"
 msgstr ""
-"A regisztrivel és a regiszterekkel kapcsolatos információk "
-"megváltoztatása és szerkesztése."
+"A regisztrivel és a regiszterekkel kapcsolatos információk megváltoztatása "
+"és szerkesztése,"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:138
 msgid "Add new registers,"
-msgstr "Új regiszter hozzáadása."
+msgstr "Új regiszter hozzáadása,"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:139
 msgid "Manage the fields of the registry, registers, reference codes."
@@ -430,4 +429,3 @@ msgstr "OSGeo Projekt"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo közösség"
-

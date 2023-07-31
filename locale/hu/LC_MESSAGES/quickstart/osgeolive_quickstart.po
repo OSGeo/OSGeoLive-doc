@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2023-04-01 08:08+0000\n"
+"PO-Revision-Date: 2023-06-24 20:12+0000\n"
 "Last-Translator: Zoltan Siki <siki@agt.bme.hu>\n"
 "Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
 "osgeolive_quickstart/hu/>\n"
@@ -72,9 +72,8 @@ msgid ""
 "Source an OSGeoLive DVD, ISO available from: [:doc:`Download <../download>`]"
 " Put the DVD into your computer's CD drive, then reboot your computer."
 msgstr ""
-"Az OSGeoLive DVD forrása, ISO elérhető itt:  [:doc:`Letöltés "
-"<../download>`]. Helyezze a DVD-t a számtógép CD meghajtójába és indítsa "
-"újra a gépet."
+"Az OSGeoLive DVD forrása, ISO elérhető itt: [:doc:`Letöltés <../download>`]. "
+"Helyezze a DVD-t a számtógép CD meghajtójába és indítsa újra a gépet."
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:33
 msgid ""
@@ -98,7 +97,7 @@ msgstr "Dőljön hátra amíg a rendszer betölt."
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:0
 msgid "boot select"
-msgstr ""
+msgstr "boot select"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:48
 msgid "Try the many applications from the :menuselection:`Geospatial` menu."
