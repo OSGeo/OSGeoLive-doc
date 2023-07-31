@@ -76,29 +76,21 @@ and freely accessible exploitation tool, and to foster a community to develop, s
 and grow the breadth and depth of applications.</p>
 <p>At a technical level, an implementation of the ODC is made up of three things:
 data, an index and software:</p>
-<blockquote>
-<div><ul class="simple">
-<li><p>Data is usually file based, either in local directories of GeoTIFFs or NetCDF files,</p></li>
+<ul class="simple">
+<li><p>Data is usually file based, either in local directories of GeoTIFFs or NetCDF
+files, but data can be anything that GDAL can read, including Cloud Optimised
+GeoTIFFs stored on AWS’ S3.</p></li>
+<li><p>For the Index, the ODC uses PostgreSQL as a database to store a list of
+Products (a specific data type, like Landsat 8 Analysis Ready Data) and
+Datasets (a single instance of a Product, for example, a single Landsat 8
+scene). The index enables a user to ask for data at a time and location,
+without needing to know specifically where the required files are stored and
+how to access them.</p></li>
+<li><p>The Software at the core of the ODC is a Python library that enables a user to
+index data (add records to the Index), to ingest data (optimise indexed data
+for performance), to query data (returning data in a standard data format) and
+a wide range of other functions related to managing data.</p></li>
 </ul>
-</div></blockquote>
-<p>but data can be anything that GDAL can read, including Cloud Optimised GeoTIFFs stored on AWS’ S3.</p>
-<blockquote>
-<div><ul class="simple">
-<li><p>For the Index, the ODC uses PostgreSQL as a database to store a list of Products</p></li>
-</ul>
-</div></blockquote>
-<p>(a specific data type, like Landsat 8 Analysis Ready Data) and Datasets (a single instance
-of a Product, for example, a single Landsat 8 scene). The index enables a user to ask for
-data at a time and location, without needing to know specifically where the required files
-are stored and how to access them.</p>
-<blockquote>
-<div><ul class="simple">
-<li><p>The Software at the core of the ODC is a Python library that enables a user to index data</p></li>
-</ul>
-</div></blockquote>
-<p>(add records to the Index), to ingest data (optimise indexed data for performance), to query data
-(returning data in a standard data format) and a wide range of other functions related
-to managing data.</p>
 <a class="reference internal image-reference" href="../../_images/odc_screenshot.png"><img alt="odc screenshot" class="align-right" src="../../_images/odc_screenshot.png" style="width: 500px;" /></a>
 <section id="core-features">
 <h3>Core Features<a class="headerlink" href="#core-features" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
