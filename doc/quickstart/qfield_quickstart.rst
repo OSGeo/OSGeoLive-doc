@@ -112,8 +112,10 @@ Next, we will create a new airport.
 #. Activate the airports layer by clicking on the `airports` layer. The current layer within which digitizing will occur is highlighted using a green background in the legend.
 #. Close the layer panel
 #. You will see a crosshair appear. This will follow your mouse or stay in the center of the screen if you are working with a touch screen.
+
   #. If you have a mouse: click to create a new airport.
   #. If you have a touchscreen, move the map until the crosshair is on the desired location and click the plus button at the bottom right of the screen to create a point.
+
 #. A panel appears, where you can enter all the desired attributes for the new airport
 #. Click the checkbox to confirm the new airport.
 #. The data is saved immediately.
