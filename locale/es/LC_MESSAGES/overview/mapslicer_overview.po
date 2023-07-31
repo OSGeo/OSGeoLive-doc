@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-10-21 10:22-0500\n"
-"PO-Revision-Date: 2023-03-10 20:56+0000\n"
+"PO-Revision-Date: 2023-07-31 19:39+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "mapslicer_overview/es/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: ../../build/doc/overview/mapslicer_overview.rst:15
 msgid "MapSlicer"
@@ -30,7 +30,7 @@ msgstr "MapSlicer"
 
 #: ../../build/doc/overview/mapslicer_overview.rst:18
 msgid "Proxy WMS & tile services"
-msgstr "Proxy WMS & Servicios de mosaicos cartográficos"
+msgstr "Proxy de WMS & servicios de mosaicos"
 
 #: ../../build/doc/overview/mapslicer_overview.rst:21
 msgid "Map Publishing"

@@ -7,21 +7,22 @@
 # MarPetra <mvergaratrejo@gmail.com>, 2022
 # Vicky Vergara <vicky@georepublic.de>, 2022
 # Jose Vergara, 2022
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Jose Vergara, 2022\n"
+"PO-Revision-Date: 2023-07-31 19:39+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"eoxserver_quickstart/es/>\n"
 "Language: es\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 "
-"? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:19
@@ -39,13 +40,12 @@ msgid ""
 ":doc:`PostGIS <../overview/postgis_overview>` database."
 msgstr ""
 "EOxServer es un servidor para presentar archivos de datos y metadatos de "
-"Observación de la Tierra (EO) a través de Estándares Abiertos. Se basa en"
-" una pila de software de código abierto que incluye Python, "
-":doc:`MapServer <../overview/mapserver_overview>`, Django/GeoDjango, "
-":doc:`GDAL <../overview/gdal_overview>`, :doc:`PROJ "
-"<../overview/proj_overview>` and a :doc:`SpatiaLite "
-"<../overview/spatialite_overview>` o base de datos de :doc:`PostGIS "
-"<../overview/postgis_overview>`"
+"Observación de la Tierra (EO) a través de Estándares Abiertos. Se basa en "
+"una pila de software de código abierto que incluye Python, :doc:`MapServer "
+"<../overview/mapserver_overview>`, Django/GeoDjango, :doc:`GDAL <../overview/"
+"gdal_overview>`, :doc:`PROJ <../overview/proj_overview>` and a :doc:`"
+"SpatiaLite <../overview/spatialite_overview>` o base de datos de :doc:`"
+"PostGIS <../overview/postgis_overview>`."
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:30
 msgid "This Quick Start describes how to:"
@@ -72,14 +72,13 @@ msgid "Start EoxServer"
 msgstr "Iniciar EoxServer"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:41
-#, fuzzy
 msgid ""
 "Choose |menu_eoxserver|. This launches a browser showing the "
 "demonstration instance available at http://localhost/eoxserver/"
 msgstr ""
-"Elija  :menuselection:`Geospatial --> Web Services --> EOxServer`. Esto "
-"lanza un explorador que muestra la instancia de demostración disponible "
-"en http://localhost/eoxserver/"
+"Elija :menuselection:`Geospatial --> Web Services --> EOxServer`. Esto lanza "
+"un explorador que muestra la instancia de demostración disponible en http://"
+"localhost/eoxserver/"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:-1
 msgid "EOxServer demonstration start"
@@ -272,9 +271,9 @@ msgid ""
 "The project website contains a lot of resources to help you get started. "
 "Here’s a few resources to check out next:"
 msgstr ""
-"Esto es una demostración sencilla, pero puede hacer mucho más con "
-"EOxServer. El sitio web del proyecto contiene muchos recursos para "
-"ayudarle a comenzar. A continuación, algunos recursos para revisar: "
+"Esto es una demostración sencilla, pero puede hacer mucho más con EOxServer. "
+"El sitio web del proyecto contiene muchos recursos para ayudarle a comenzar. "
+"A continuación, algunos recursos para revisar:"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:152
 msgid ""
@@ -289,16 +288,16 @@ msgid ""
 "Read the `EOxServer Operations' Guide "
 "<https://docs.eoxserver.org/en/stable/users/operations/index.html>`_."
 msgstr ""
-"Lea la Guía `Operaciones de EOxServer' "
-"<https://docs.eoxserver.org/en/stable/users/operations/index.html>`_"
+"Lea la Guía `Operaciones de EOxServer' <https://docs.eoxserver.org/en/stable/"
+"users/operations/index.html>`_."
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:154
 msgid ""
 "Read the `EOxServer Basics "
 "<https://docs.eoxserver.org/en/stable/users/basics.html>`_."
 msgstr ""
-"Lea el `Conceptos básicos de EOxServer "
-"<https://docs.eoxserver.org/en/stable/users/basics.html>`_"
+"Lea el `Conceptos básicos de EOxServer <https://docs.eoxserver.org/en/stable/"
+"users/basics.html>`_."
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:155
 msgid ""
@@ -307,10 +306,10 @@ msgid ""
 "support>`_ to exchange ideas, discuss potential software improvements, "
 "and ask questions."
 msgstr ""
-"¿Listo para usar EOxServer? Luego únase a la comunidad en las `listas  de"
-" correo <https://docs.eoxserver.org/en/stable/users/basics.html#where-"
-"can-i-get-support>`_  para intercambiar ideas, discutir posibles mejoras "
-"de software y hacer preguntas."
+"¿Listo para usar EOxServer? Luego únase a la comunidad en las `listas de "
+"correo <https://docs.eoxserver.org/en/stable/users/basics.html#where-can-i"
+"-get-support>`_ para intercambiar ideas, discutir posibles mejoras de "
+"software y hacer preguntas."
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -327,4 +326,3 @@ msgstr "Proyecto OSGeo"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo Comunitario"
-

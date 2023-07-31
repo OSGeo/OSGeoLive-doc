@@ -7,20 +7,22 @@
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"PO-Revision-Date: 2023-07-31 19:39+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"naturalearth_overview/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:15
 msgid "Natural Earth"
@@ -28,7 +30,7 @@ msgstr "Natural Earth"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:18
 msgid "Map Data"
-msgstr "Datos de Mapa"
+msgstr "Datos del Mapa"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:20
 msgid ""
@@ -114,7 +116,7 @@ msgstr "Conjuntos de datos"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:44
 msgid "Cultural Vector Data Themes:"
-msgstr "Temas de Datos Vectoriales Culturales:"
+msgstr "Temas de Datos Culturales Vectoriales:"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:44
 msgid ""
@@ -131,7 +133,7 @@ msgstr ""
 
 #: ../../build/doc/overview/naturalearth_overview.rst:47
 msgid "Physical Vector Data Themes:"
-msgstr "Temas de Datos Vectoriales Físicos:"
+msgstr "Temas de Datos Físicos Vectoriales:"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:47
 msgid ""

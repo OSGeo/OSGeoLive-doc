@@ -7,20 +7,22 @@
 # Vicky Vergara <vicky@georepublic.de>, 2022
 # MarPetra <mvergaratrejo@gmail.com>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-03 09:57+0000\n"
-"PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2022\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"PO-Revision-Date: 2023-07-31 19:39+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"udig_quickstart/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:14
 msgid ""
@@ -67,7 +69,7 @@ msgstr "Iniciar uDig"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:54
 msgid "Choose |osgeolive-appmenupath-udig| from menu"
-msgstr "Elija |osgeolive-appmenupath-udig| del menú "
+msgstr "Elija |osgeolive-appmenupath-udig| del menú"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:55
 msgid "The application will take a few moments to start up"
@@ -108,7 +110,7 @@ msgid ""
 "You can return to the Welcome view at any time by selecting the "
 ":menuselection:`Help --> Welcome` from the menu bar."
 msgstr ""
-"Puede volver a la vista de Bienvenida en cualquier momento seleccionando  "
+"Puede volver a la vista de Bienvenida en cualquier momento seleccionando "
 ":menuselection:`Help --> Welcome` en la barra de menú."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:82
@@ -133,7 +135,7 @@ msgstr "Vista de capas (1),"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:93
 msgid "Projects view (2),"
-msgstr "Vista de proyectos  (2),"
+msgstr "Vista de proyectos (2),"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:94
 msgid "Catalog view (3) and"
@@ -165,11 +167,11 @@ msgid ""
 " Data** wizard"
 msgstr ""
 "Elegir :menuselection:`Layer --> Add` en la barra de menú para abrir el "
-"asistente  **Add Data**"
+"asistente **Add Data**"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:106
 msgid "Select **Files** from the list of data sources"
-msgstr "Seleccione  **Files** de la lista de orígenes de datos"
+msgstr "Seleccione **Files** de la lista de orígenes de datos"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:108
 msgid "Press :guilabel:`Next` to open up a file dialog"
@@ -185,8 +187,7 @@ msgstr ":file:`~/data` (atajo de :file:`/usr/local/share/data`)"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:114
 msgid "Select the following file from the :file:`natural_earth2` folder:"
-msgstr ""
-"Seleccione el archivo siguiente de la carpeta  :file:`natural_earth2` :"
+msgstr "Seleccione el archivo siguiente de la carpeta :file:`natural_earth2` :"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:116
 msgid ":file:`ne_10m_admin_0_countries.shp`"
@@ -236,14 +237,14 @@ msgstr ""
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:132
 msgid "Open up the :file:`~/data/natural_earth2/` folder on the desktop"
-msgstr "Abre la carpeta  :file:`~/data/natural_earth2/` en el escritorio"
+msgstr "Abre la carpeta :file:`~/data/natural_earth2/` en el escritorio"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:134
 msgid ""
 "Drag :file:`HYP_50M_SR_W.tif` onto the Map Editor, a new layer is added to "
 "to the map."
 msgstr ""
-"Arrastrar  :file:`HYP_50M_SR_W.tif` al Editor de mapas, se agrega una nueva "
+"Arrastrar :file:`HYP_50M_SR_W.tif` al Editor de mapas, se agrega una nueva "
 "capa al mapa."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:136
@@ -253,16 +254,16 @@ msgid ""
 "layer."
 msgstr ""
 "Puedes ver el orden en que se dibujan las capas en la vista de capas. En "
-"este momento, la capa `HYP_50M_SR_W` se dibuja sobre la capa `ne 10m admin 0"
-" countries` "
+"este momento, la capa `HYP_50M_SR_W` se dibuja sobre la capa `ne 10m admin 0 "
+"countries`."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:139
 msgid ""
 "Select the `HYP_50M_SR_W` layer in the catalog view and drag it to the "
 "bottom of the list"
 msgstr ""
-"Seleccione la capa  `HYP_50M_SR_W`  en la vista de catálogo y arrástrelo a "
-"la parte inferior de la lista"
+"Seleccione la capa `HYP_50M_SR_W` en la vista de catálogo y arrástrelo a la "
+"parte inferior de la lista"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:150
 msgid ""
@@ -362,7 +363,7 @@ msgid ""
 "|ZOOM_IN| Zoom In and |ZOOM_OUT| Zoom Out can be used to change the scale by"
 " a fixed amount."
 msgstr ""
-"|ZOOM_IN| Acercar y |ZOOM_OUT|  Alejar pueden usarse para cambiar la escala "
+"|ZOOM_IN| Acercar y |ZOOM_OUT| Alejar pueden usarse para cambiar la escala "
 "en una cantidad fija."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:188
@@ -438,16 +439,16 @@ msgid ""
 "(:menuselection:`Layer --> Add...`) Wizard and paste WMS URL right there."
 msgstr ""
 "Puede copiar una URL de WMS (por ejemplo, para `WMS 1.1.1`_) desde el panel "
-"derecho de la `GeoServer Welcome page`_ y \"pegarla\" en la vista de "
-"**Mapa** o en la vista de **Capas**. Un asistente le muestra las capas que "
-"puede agregar al **Mapa**. También puede conectarse a los Servidores de "
-"Mapas Web utilizando el Asistente  **Agregar Datos** (:menuselection:`Layer "
-"--> Add...`) y pegar la URL del WMS ahí mismo."
+"derecho de la `GeoServer Welcome page`_ y \"pegarla\" en la vista de **Mapa**"
+" o en la vista de **Capas**. Un asistente le muestra las capas que puede "
+"agregar al **Mapa**. También puede conectarse a los Servidores de Mapas Web "
+"utilizando el Asistente **Agregar Datos** (:menuselection:`Layer --> Add...`)"
+" y pegar la URL del WMS ahí mismo."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:216
 msgid "Select :menuselection:`File --> New --> New Map` from the menu bar"
 msgstr ""
-"Seleccione  :menuselection:`File --> New --> New Map` en la barra de menús"
+"Seleccione :menuselection:`File --> New --> New Map` en la barra de menús"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:218
 msgid ""
@@ -498,8 +499,8 @@ msgid ""
 "Switch to the |INFO| Info Tool and click on one the parks to learn more "
 "about it"
 msgstr ""
-"Cambiar a la Herramienta de información |INFO|  y haga clic en uno de los "
-"parques para obtener más información."
+"Cambiar a la Herramienta de información |INFO| y haga clic en uno de los "
+"parques para obtener más información"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:247
 #: ../../build/doc/quickstart/udig_quickstart.rst:247
@@ -511,8 +512,8 @@ msgid ""
 "You can switch between the zoom and info tools by pressing `Z` and `I` on "
 "the keyboard."
 msgstr ""
-" Puede alternar entre las herramientas de zoom e información presionando `Z`"
-" e `I` en el teclado."
+"Puede alternar entre las herramientas de zoom e información presionando `Z` "
+"e `I` en el teclado."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:252
 msgid "Style"
@@ -523,8 +524,8 @@ msgid ""
 "Select the `project > ne 10m admin 0 countries`, you can double click to "
 "open this Map, or Right Click and choose Open Map"
 msgstr ""
-" Seleccione el `proyecto> ne 10m admin 0 países`, puede hacer doble clic "
-"para abrir este Mapa, o haga Clic Derecho y elija Abrir Mapa"
+"Seleccione el `proyecto> ne 10m admin 0 países`, puede hacer doble clic para "
+"abrir este Mapa, o haga Clic Derecho y elija Abrir Mapa"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:256
 msgid "Select the countries layer in the Layer view"
@@ -535,8 +536,8 @@ msgid ""
 "Open up the **Style Editor** by right clicking on `ne 10m admin 0 countries`"
 " layer and choosing :guilabel:`Change Style`"
 msgstr ""
-"Abra el **Editor de Estilos** haciendo clic derecho en la capa  `ne 10m "
-"admin 0 countries` y eligiendo  :guilabel:`Change Style`"
+"Abra el **Editor de Estilos** haciendo clic derecho en la capa `ne 10m admin "
+"0 countries` y eligiendo :guilabel:`Change Style`"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:260
 msgid "We are going to change a few things about how countries are displayed"
@@ -555,8 +556,8 @@ msgid ""
 "Fill: On Tab :guilabel:`Fill` uncheck the box :guilabel:`enable/disable "
 "fill` to turn off fill"
 msgstr ""
-"Relleno: en la pestaña  :guilabel:`Fill` desmarque la casilla "
-":guilabel:`enable/disable fill` para desactivar el relleno"
+"Relleno: en la pestaña :guilabel:`Fill` desmarque la casilla :guilabel:`"
+"enable/disable fill` para desactivar el relleno"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:266
 msgid ""
@@ -653,7 +654,7 @@ msgid ""
 "data from a Web Feature Server and explore the use of **Themes** with our "
 "powerful `Color Brewer` technology."
 msgstr ""
-"Pruebe el uso de  :doc:`PostGIS <../overview/postgis_overview>`, extraiga "
+"Pruebe el uso de :doc:`PostGIS <../overview/postgis_overview>`, extraiga "
 "datos de un Servidor de Características Web y explore el uso de **temas** "
 "con nuestra poderosa tecnología `Color Brewer`."
 
@@ -668,9 +669,9 @@ msgid ""
 "<../overview/geoserver_overview>` and editing with a Web Feature Server."
 msgstr ""
 "Tutorial 2 - aprender a crear archivos y utilizar las herramientas de "
-"edición para manipular los datos de función, abarca la instalación de "
-":doc:`GeoServer <../overview/geoserver_overview>`  y la edición con un "
-"servidor de la característica de Web."
+"edición para manipular los datos de función, abarca la instalación de :doc:`"
+"GeoServer <../overview/geoserver_overview>` y la edición con un servidor de "
+"la característica de Web."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:320
 msgid "Available on http://udig.refractions.net/"

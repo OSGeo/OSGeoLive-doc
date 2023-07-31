@@ -7,21 +7,22 @@
 # Vicky Vergara <vicky@georepublic.de>, 2022
 # MarPetra <mvergaratrejo@gmail.com>, 2022
 # Jose Vergara, 2022
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2019-07-18 21:56+0000\n"
-"Last-Translator: Jose Vergara, 2022\n"
+"PO-Revision-Date: 2023-07-31 19:39+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"actinia_quickstart/es/>\n"
 "Language: es\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 "
-"? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:16
@@ -68,12 +69,15 @@ msgid ""
 "through `Jupyter notebooks <https://github.com/actinia-org/actinia-"
 "jupyter>`__"
 msgstr ""
+"a través de `Jupyter notebooks <https://github.com/actinia-org/actinia-"
+"jupyter>`__"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:37
 msgid ""
 "the `Python interface <https://github.com/actinia-org/actinia-python-"
 "client>`__"
 msgstr ""
+"la interfaz `Python <https://github.com/actinia-org/actinia-python-client>`__"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:38
 msgid "the `Postman` or `RESTman` extension for browsers"
@@ -106,7 +110,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:48
 msgid "Using actinia with a Jupyter notebook"
-msgstr ""
+msgstr "Uso de actinia con un cuaderno Jupyter"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:50
 msgid ""
@@ -114,6 +118,9 @@ msgid ""
 "`https://github.com/actinia-org/actinia-jupyter <https://github.com"
 "/actinia-org/actinia-jupyter>`_"
 msgstr ""
+"Numerosos cuadernos Jupyter para actinia están disponibles en `https://github"
+".com/actinia-org/actinia-jupyter <https://github.com/actinia-org/actinia-"
+"jupyter>`_"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:54
 msgid "Introduction to ace - actinia command execution"
@@ -162,8 +169,8 @@ msgid ""
 " persistent user database. It can be used with ``location=LOCATION_NAME``"
 " option."
 msgstr ""
-"La opción  ``mapset=MAPSET_NAME`` permite la ejecución de comandos en la "
-"base de datos de usuario **persistente**. Se puede usar con la opción "
+"La opción ``mapset=MAPSET_NAME`` permite la ejecución de comandos en la base "
+"de datos de usuario persistente Se puede usar con la opción "
 "``location=LOCATION_NAME``."
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:75
@@ -213,10 +220,10 @@ msgid ""
 " ``@`` operator can be specified for an input parameter to import a web "
 "located resource and to specify the export of an output parameter."
 msgstr ""
-"Los comandos GRASS GIS  se pueden aumentar con extensiones específicas de"
-" actinia. El operador ``@`` se puede especificar para un parámetro de "
-"entrada para importar un recurso ubicado en la web y para especificar la "
-"exportación de un parámetro de salida."
+"Los comandos GRASS GIS se pueden aumentar con extensiones específicas de "
+"actinia. El operador ``@`` se puede especificar para un parámetro de entrada "
+"para importar un recurso ubicado en la web y para especificar la exportación "
+"de un parámetro de salida."
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:115
 msgid ""
@@ -235,8 +242,8 @@ msgstr ""
 #: ../../build/doc/quickstart/actinia_quickstart.rst:120
 msgid "North Carolina sample dataset (NC State-Plane metric CRS, EPSG: 3358):"
 msgstr ""
-"Conjunto de datos de muestra de Carolina del Norte  (NC State-Plane "
-"metric CRS, EPSG: 3358):"
+"Conjunto de datos de muestra de Carolina del Norte (NC State-Plane metric "
+"CRS, EPSG: 3358):"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:123
 msgid ""
@@ -268,9 +275,8 @@ msgid ""
 "(``latlong_wgs84/modis_ndvi_global/``; source: "
 "https://lpdaac.usgs.gov/products/mod13c1v006/)"
 msgstr ""
-"16-days NDVI, MOD13C1, V006, CMG 0.05 deg res. "
-"(``latlong_wgs84/modis_ndvi_global/``; fuente:  "
-"https://lpdaac.usgs.gov/products/mod13c1v006/)"
+"16-days NDVI, MOD13C1, V006, CMG 0.05 deg res. (``latlong_wgs84/"
+"modis_ndvi_global/``; fuente: https://lpdaac.usgs.gov/products/mod13c1v006/)"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:134
 msgid ""
@@ -282,7 +288,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:136
 msgid "LST tropical days asia 2017 (``latlong_wgs84/asia_tropical_2017/``)"
-msgstr "LST tropical days asia 2017 (``latlong_wgs84/asia_tropical_2017/``)"
+msgstr ""
+"LST días tropicales de asia 2017 (``latlong_wgs84/asia_tropical_2017/``)"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:137
 msgid ""
@@ -382,7 +389,7 @@ msgstr "tabla: ``CSV``, ``TXT``"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:192
 msgid "Script examples"
-msgstr "Ejemplos de script "
+msgstr "Ejemplos de script"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:195
 msgid ""
@@ -472,8 +479,8 @@ msgid ""
 "To create a new mapset in the **nc_spm_08** location with the name "
 "**test_mapset** the following command must be executed"
 msgstr ""
-"Para crear un nuevo conjunto de mapas en la ubicación **nc_spm_08** con "
-"el nombre **test_mapset**, se debe ejecutar el siguiente comando "
+"Para crear un nuevo conjunto de mapas en la ubicación **nc_spm_08** con el "
+"nombre **test_mapset**, se debe ejecutar el siguiente comando"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:382
 msgid "Run the commands from the statistic script in the new persistent mapset"
@@ -512,10 +519,8 @@ msgid ""
 "commands from above can be executed in the following way:"
 msgstr ""
 "Suponemos que en la sesión activa de GRASS GIS la ubicación actual es "
-"**nc_spm_08** y el conjunto de mapas actual es **test_mapset**. Luego, "
-"los comandos de arriba se pueden ejecutar de la siguiente manera:\n"
-"\n"
-" "
+"**nc_spm_08** y el conjunto de mapas actual es **test_mapset**. Luego, los "
+"comandos de arriba se pueden ejecutar de la siguiente manera:"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:429
 msgid "Things to try"
@@ -602,4 +607,3 @@ msgstr "Proyecto OSGeo"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo Comunitario"
-

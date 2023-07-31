@@ -6,21 +6,22 @@
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2022
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2017-11-07 03:17+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
+"PO-Revision-Date: 2023-07-31 19:39+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"download/es/>\n"
 "Language: es\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 "
-"? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/download.rst:7
@@ -44,13 +45,12 @@ msgstr ""
 "only|/"
 
 #: ../../build/doc/download.rst:13
-#, fuzzy
 msgid ""
 "https://download.osgeo.org/livedvd/releases/|osgeolive-version-only|/ "
 "(.vmdk)"
 msgstr ""
-"https://sourceforge.net/projects/osgeo-live/files/|osgeolive-version-"
-"only|/"
+"https://sourceforge.net/projects/osgeo-live/files/|osgeolive-version-only|/ ("
+".vmdk)"
 
 #: ../../build/doc/download.rst:16
 msgid "Picking the right image for you:"
@@ -66,9 +66,9 @@ msgid ""
 " drive (faster and recommended) or DVD (cheaper). It can also be used to "
 "build a virtual machine from scratch."
 msgstr ""
-"Un Lubuntu basado en imagen de arranque, que puede copiarse a una  unidad"
-" flash USB de 8 Gig (más rápido y recomendado) o DVD (más barato). "
-"También puede utilizarse para crear una máquina virtual desde cero."
+"Un Lubuntu basado en imagen de arranque, que puede copiarse a una unidad "
+"flash USB de 8 Gig (más rápido y recomendado) o DVD (más barato). También "
+"puede utilizarse para crear una máquina virtual desde cero."
 
 #: ../../build/doc/download.rst:22
 msgid "**osgeolive-vm**: |osgeolive-vm-7z-size|"
@@ -88,15 +88,15 @@ msgstr ""
 
 #: ../../build/doc/download.rst:26
 msgid "**amd64 or i386 architecture**"
-msgstr "**amd64 or i386 architecture**"
+msgstr "**Arquitectura amd64 or i386**"
 
 #: ../../build/doc/download.rst:28
 msgid ""
 "ISO images are available for recent amd64 hardware (recommended) as well "
 "as older i386 hardware."
 msgstr ""
-"Imágenes ISO están disponibles para reciente hardware amd64 (recomendado)"
-" así como  hardware anteriores i386."
+"Imágenes ISO están disponibles para reciente hardware amd64 (recomendado) "
+"así como hardware anteriores i386."
 
 #: ../../build/doc/download.rst:30
 msgid "**md5 checksum**"
@@ -105,14 +105,11 @@ msgstr "**md5 checksum**"
 #: ../../build/doc/download.rst:32
 msgid "You can use the md5 checksum to verify the image downloaded successfully."
 msgstr ""
-"Puede utilizar la  checksum md5 para comprobar la imagen descargada con "
-"éxito."
+"Puede utilizar la checksum md5 para comprobar la imagen descargada con éxito."
 
 #: ../../build/doc/download.rst:34
 msgid "**System Requirements**"
-msgstr ""
-"**System Requirements** \n"
-"** Requisitos del Sistema **"
+msgstr "**Requisitos del Sistema**"
 
 #: ../../build/doc/download.rst:36
 msgid ""
@@ -140,4 +137,3 @@ msgstr "Proyecto OSGeo"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo Comunitario"
-

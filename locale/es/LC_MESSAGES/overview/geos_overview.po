@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2023-03-10 20:56+0000\n"
+"PO-Revision-Date: 2023-07-31 19:39+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "geos_overview/es/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: ../../build/doc/overview/geos_overview.rst:18
 msgid "GEOS"
@@ -39,11 +39,11 @@ msgid ""
 "includes the OpenGIS Simple Features for SQL spatial predicate functions and"
 " spatial operators, as well as specific JTS enhanced topology functions."
 msgstr ""
-"GEOS (Motor de Geometría - Open Source) es un puerto C++  de  `Suite de "
-"Topología JTS  (JTS) <https://projects.eclipse.org/projects/locationtech>`_."
-" Incluye las Características Simples de OpenGIS para funciones de predicado "
+"GEOS (Motor de Geometría - Open Source) es un puerto C++ de `Suite de "
+"Topología JTS (JTS) <https://projects.eclipse.org/projects/locationtech>`_. "
+"Incluye las Características Simples de OpenGIS para funciones de predicado "
 "espacial SQL y operadores espaciales, así como funciones de topología "
-"específicas mejoradas JTS. "
+"específicas mejoradas JTS."
 
 #: ../../build/doc/overview/geos_overview.rst:26
 msgid ""
@@ -55,9 +55,9 @@ msgid ""
 msgstr ""
 "GEOS es la biblioteca de geometría C ++ geoespacial más utilizada, incluso "
 "por proyectos de código abierto como :doc:`PostGIS <postgis_overview>`, "
-":doc:`QGIS <qgis_overview>`, :doc:`GDAL/OGR <gdal_overview>`  y "
-":doc:`MapServer <mapserver_overview>`,  y por productos patentados que "
-"incluyen `FME <https://www.safe.com/fme>`_."
+":doc:`QGIS <qgis_overview>`, :doc:`GDAL/OGR <gdal_overview>` y :doc:`"
+"MapServer <mapserver_overview>`,  y por productos patentados que incluyen `"
+"FME <https://www.safe.com/fme>`_."
 
 #: ../../build/doc/overview/geos_overview.rst:32
 msgid "Implemented Standards"
@@ -66,8 +66,7 @@ msgstr "Estándares implementados"
 #: ../../build/doc/overview/geos_overview.rst:34
 msgid "OpenGIS |SFSQL| spatial predicate functions and spatial operators"
 msgstr ""
-" Funciones de predicado espaciale y operadores espaciales de OpenGIS OpenGIS"
-" |SFSQL|"
+"Funciones de predicado espaciales y operadores espaciales de OpenGIS |SFSQL|"
 
 #: ../../build/doc/overview/geos_overview.rst:43
 msgid "Core Features"
@@ -114,7 +113,7 @@ msgstr ""
 
 #: ../../build/doc/overview/geos_overview.rst:51
 msgid "C and C++ API (C API gives long term ABI stability)"
-msgstr "C y C++ API (API de C da estabilidad a largo plazo al ABI)"
+msgstr "API de C y C++ (API de C da estabilidad a largo plazo al ABI)"
 
 #: ../../build/doc/overview/geos_overview.rst:52
 msgid "Thread safe (using the reentrant API)"
@@ -126,7 +125,7 @@ msgstr "Detalles"
 
 #: ../../build/doc/overview/geos_overview.rst:57
 msgid "**Website:** https://trac.osgeo.org/geos"
-msgstr "*Sitio web:**  https://trac.osgeo.org/geos"
+msgstr "*Sitio web:** https://trac.osgeo.org/geos"
 
 #: ../../build/doc/overview/geos_overview.rst:59
 msgid "**Licence:** LGPL"
