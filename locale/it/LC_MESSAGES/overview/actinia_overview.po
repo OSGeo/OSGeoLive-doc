@@ -7,21 +7,22 @@
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # Stefano Campus <skampus@gmail.com>, 2022
 # Luca Delucchi <lucadeluge@gmail.com>, 2022
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2019-07-18 21:56+0000\n"
-"Last-Translator: Luca Delucchi <lucadeluge@gmail.com>, 2022\n"
+"PO-Revision-Date: 2023-04-13 20:08+0000\n"
+"Last-Translator: luca <lucadeluge@gmail.com>\n"
+"Language-Team: Italian <https://weblate.osgeo.org/projects/osgeolive/"
+"actinia_overview/it/>\n"
 "Language: it\n"
-"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 "
-"? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/overview/actinia_overview.rst:18
@@ -39,10 +40,10 @@ msgid ""
 "data that uses mainly `GRASS GIS <https://grass.osgeo.org/>`__ for "
 "computational tasks."
 msgstr ""
-"`Actinia <https://actinia.mundialis.de/>`__ è una API REST a codice "
-"aperto per il processamento scalabile, distribuito ad alte prestazioni di"
-" dati geografici che usa principalmente `GRASS GIS "
-"<https://grass.osgeo.org/>`__ per i compiti computazionali. "
+"`Actinia <https://actinia.mundialis.de/>`__ è una API REST a codice aperto "
+"per il processamento scalabile, distribuito ad alte prestazioni di dati "
+"geografici che usa principalmente `GRASS GIS <https://grass.osgeo.org/>`__ "
+"per i compiti computazionali."
 
 #: ../../build/doc/overview/actinia_overview.rst:28
 msgid ""
@@ -50,9 +51,9 @@ msgid ""
 "satellite images, arbitrary raster data with geographical relations and "
 "vector data."
 msgstr ""
-"Fornisce un API REST per processare immagini satellitari, serie temporali"
-" di immagini satellitari, qualsiasi raster con relazione geografica e "
-"dati vettoriali. "
+"Fornisce un API REST per processare immagini satellitari, serie temporali di "
+"immagini satellitari, qualsiasi raster con relazione geografica e dati "
+"vettoriali."
 
 #: ../../build/doc/overview/actinia_overview.rst:-1
 msgid "actinia screenshot"
@@ -71,7 +72,6 @@ msgstr ""
 " satellitari, dati raster e vettoriali."
 
 #: ../../build/doc/overview/actinia_overview.rst:42
-#, fuzzy
 msgid "Explore the `tutorial <https://actinia-org.github.io/actinia-core/>`_."
 msgstr "Visualizza il `tutorial <https://mundialis.github.io/actinia_core/>`_."
 
@@ -142,4 +142,3 @@ msgstr "Progetto OSGeo"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "Comunità OSGeo"
-

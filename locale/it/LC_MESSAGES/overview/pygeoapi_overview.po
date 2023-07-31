@@ -9,21 +9,22 @@
 # Luca Delucchi <lucadeluge@gmail.com>, 2022
 # Simone Falceri, 2022
 # Stefano Campus <skampus@gmail.com>, 2022
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2020-11-29 04:49+0000\n"
-"Last-Translator: Stefano Campus <skampus@gmail.com>, 2022\n"
+"PO-Revision-Date: 2023-04-13 20:08+0000\n"
+"Last-Translator: luca <lucadeluge@gmail.com>\n"
+"Language-Team: Italian <https://weblate.osgeo.org/projects/osgeolive/"
+"pygeoapi_overview/it/>\n"
 "Language: it\n"
-"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 "
-"? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:18
@@ -60,14 +61,11 @@ msgstr "Caratteristiche principali"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:35
 msgid "out of the box modern OGC API server"
-msgstr "server OGC API moderno fuori dalla scatola"
+msgstr "moderno server OGC API pronto all'use"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:36
-#, fuzzy
 msgid "certified OGC Compliant and Reference Implementation"
-msgstr ""
-"Certificato conforme a OGC e Implementazione di Riferimento per OGC API -"
-" Caratteristiche"
+msgstr "certificato conforme a OGC e Implementazione di Riferimento"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:37
 msgid ""
@@ -75,6 +73,9 @@ msgid ""
 "- Tiles, OGC API - Processes, OGC API - Records, OGC API - Environmental "
 "Data Retrieval and SpatioTemporal Asset Library"
 msgstr ""
+"inoltre implementa OGC API - Features, OGC API - Coverages, OGC API - Tiles, "
+"OGC API - Processes, OGC API - Records, OGC API - Environmental Data "
+"Retrieval e SpatioTemporal Asset Library"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:38
 msgid ""
@@ -184,7 +185,7 @@ msgstr "`OGC API - Tiles`_"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:1
 msgid "`OGC API - Records`_"
-msgstr ""
+msgstr "`OGC API - Records`_"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:1
 msgid "`OGC API - Processes`_"
@@ -192,7 +193,7 @@ msgstr "`OGC API - Processes`_"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:1
 msgid "`OGC API - Environmental Data Retrieval`_"
-msgstr ""
+msgstr "`OGC API - Environmental Data Retrieval`_"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:1
 msgid "`SpatioTemporal Asset Catalog`_"
@@ -223,9 +224,8 @@ msgid "**API Interfaces:** Python"
 msgstr "**Interfacce API:** Python"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:84
-#, fuzzy
 msgid "**Support:** https://pygeoapi.io/community/service-providers"
-msgstr "**Sito web:** https://pygeoapi.io/"
+msgstr "**Supporto:** https://pygeoapi.io/community/service-providers"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:102
 msgid "Quickstart"
@@ -250,4 +250,3 @@ msgstr "Progetto OSGeo"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "Comunità OSGeo"
-
