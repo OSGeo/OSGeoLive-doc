@@ -1,3 +1,9 @@
+osgeolive-docs (16.0.0) jammy; urgency=medium
+
+  * Preparing 16.0 final release.
+
+ -- Angelos Tzotsos <gcpp.kalxas@gmail.com>  Sat, 05 Aug 2023 15:00:00 +0300
+
 osgeolive-docs (16.0~beta1) jammy; urgency=medium
 
   * Preparing 16.0 beta1 release.
