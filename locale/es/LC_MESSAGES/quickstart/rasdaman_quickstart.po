@@ -7,20 +7,22 @@
 # Vicky Vergara <vicky@georepublic.de>, 2022
 # MarPetra <mvergaratrejo@gmail.com>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-03 09:57+0000\n"
-"PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2022\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"PO-Revision-Date: 2024-01-29 15:45+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"rasdaman_quickstart/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.3\n"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:15
 msgid ""
@@ -263,7 +265,7 @@ msgstr ""
 "Visite la `demo multi-dimensional <http://localhost/rasdaman-demo>`_ para "
 "explorar los demos interactivos 1-D a 4-D. Los más pequeños son parte de "
 "OSGeoLive, aquellos que utilizan conjuntos más grandes (más allá de la "
-"capacidad de este disco), avanzan hacia el `sitio de de normas de OGC "
+"capacidad de este disco), avanzan hacia el `sitio de normas de OGC "
 "<https://standards.rasdaman.com>`_ ."
 
 #: ../../build/doc/<rst_epilog>:13

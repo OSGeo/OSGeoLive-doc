@@ -8,20 +8,22 @@
 # Vicky Vergara <vicky@georepublic.de>, 2022
 # Jose Vergara, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-04 10:12+0000\n"
-"PO-Revision-Date: 2022-07-20 18:57+0000\n"
-"Last-Translator: Jose Vergara, 2022\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"PO-Revision-Date: 2024-01-29 15:45+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"etf_quickstart/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.3\n"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:19
 msgid "ETF Quickstart"
@@ -331,8 +333,8 @@ msgid ""
 "If the URL requires authentication, username and password can be provided by"
 " clicking on *Credentials*."
 msgstr ""
-"Si la URL requiere autenticación, se puede proporcionar el nombre de usuario"
-" y la contraseña haciendo clic en  *Credentials*."
+"Si la URL requiere autenticación, se puede proporcionar el nombre de usuario "
+"y la contraseña haciendo clic en *Credentials*."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:163
 msgid "Service Tests"
@@ -351,8 +353,7 @@ msgid ""
 "The *Service URL* must be entered beginning with ``http://`` or "
 "``https://``."
 msgstr ""
-"La *Service URL*  debe introducirse comenzando por ``http://`` o "
-"``https://``."
+"La *Service URL* debe introducirse comenzando por ``http://`` o ``https://``."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:172
 msgid ""
@@ -472,8 +473,8 @@ msgid ""
 "the test result status, the name of the Test Object and the used Test Suites"
 " are shown."
 msgstr ""
-"Al hacer clic en el botón *+*,  se muestra información para una ejecución de"
-" prueba, la hora de inicio, el estado del resultado de la prueba, el nombre "
+"Al hacer clic en el botón *+*, se muestra información para una ejecución de "
+"prueba, la hora de inicio, el estado del resultado de la prueba, el nombre "
 "del objeto de prueba y los conjuntos de pruebas utilizados."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:232
@@ -689,7 +690,7 @@ msgid ""
 " the demo installation and on the `ETF GitHub space`_."
 msgstr ""
 "Esta fue solo una breve descripción del ETF. Hay más información en la "
-"instalación de demostración y en el  `ETF GitHub space`_."
+"instalación de demostración y en el `ETF GitHub space`_."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:321
 msgid "Please also check:"

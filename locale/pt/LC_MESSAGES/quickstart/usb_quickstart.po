@@ -7,20 +7,22 @@
 # Eduardo G. S. Pereira <edu_vcd@hotmail.com>, 2017
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
-"Language-Team: Portuguese (Brazil) (https://app.transifex.com/osgeo/teams/66156/pt_BR/)\n"
+"PO-Revision-Date: 2024-01-29 15:45+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Portuguese <https://weblate.osgeo.org/projects/osgeolive/"
+"usb_quickstart/pt/>\n"
+"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pt_BR\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.3\n"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:9
 msgid "Creating an OSGeoLive Bootable USB flash drive"
@@ -120,7 +122,7 @@ msgid ""
 "Ubuntu and Ubuntu variants such as OSGeoLive.)"
 msgstr ""
 "(Este é o processo recomendado para criar um USB bootavél. É aplicável para "
-"Ubuntu e variações do Ubuntu como é o caso do OSGeoLive)."
+"Ubuntu e variações do Ubuntu como é o caso do OSGeoLive.)"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:45
 msgid ""
@@ -252,8 +254,8 @@ msgid ""
 "Note also, the USB drive is often listed under hard drives rather than "
 "removable devices."
 msgstr ""
-"Outra nota, os dispositivos USB muitas vezes são listados na parte de HDs ao"
-" invés de dispositivos removíveis"
+"Outra nota, os dispositivos USB muitas vezes são listados na parte de HDs ao "
+"invés de dispositivos removíveis."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:88
 msgid ""
@@ -306,11 +308,11 @@ msgstr ""
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
@@ -318,4 +320,4 @@ msgstr ""
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "Comunidade OSGeo"

@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2023-07-31 19:39+0000\n"
+"PO-Revision-Date: 2024-01-29 15:45+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "52nwps_overview/es/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.3\n"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:15
 msgid "52 North WPS"
@@ -40,10 +40,10 @@ msgid ""
 "influenza cases between two different seasons, or as complicated as a global"
 " climate change model."
 msgstr ""
-"El |WPS| 52°North  permite el acceso enables web web a algoritmos de "
-"procesamiento geoespacial proporcionados por Sextante, ArcGIS Server, R, "
-"GRASS 7 o funciones personalizadas desarrolladas. Los algoritmos pueden ser "
-"tan simples como determinar la diferencia en casos de influencia entre dos "
+"El |WPS| 52°North permite el acceso web a algoritmos de procesamiento "
+"geoespacial proporcionados por Sextante, ArcGIS Server, R, GRASS 7 o "
+"funciones personalizadas desarrolladas. Los algoritmos pueden ser tan "
+"simples como determinar la diferencia en casos de influencia entre dos "
 "temporadas diferentes, o tan complicados como un modelo de cambio climático "
 "global."
 
@@ -61,28 +61,27 @@ msgstr "Principales funciones de GIS:"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:36
 msgid "SimpleBufferAlgorithm"
-msgstr "SimpleBufferAlgorithm o Algoritmo Simple de Búfer "
+msgstr "SimpleBufferAlgorithm"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:37
 msgid "DouglasPeuckerAlgorithm"
-msgstr "DouglasPeuckerAlgorithm o Algoritmo de Douglas Peucker"
+msgstr "DouglasPeuckerAlgorithm"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:38
 msgid "IntersectionAlgorithm"
-msgstr "IntersectionAlgorithm o Algoritmo de Intersección"
+msgstr "IntersectionAlgorithm"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:39
 msgid "AddRasterValuesAlgorithm"
-msgstr "AddRasterValuesAlgorithm o Agregar Algoritmo de Valores de Ráster"
+msgstr "AddRasterValuesAlgorithm"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:40
 msgid "CoordinateTransformAlgorithm"
-msgstr ""
-"CoordinateTransformAlgorithm o Algoritmo de Transformación de Coordenadas"
+msgstr "CoordinateTransformAlgorithm"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:42
 msgid "Backend algorithms available through:"
-msgstr "algoritmos Backend  disponibles a través de:"
+msgstr "Algoritmos de backend disponibles a través de:"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:44
 msgid "Sextante"
@@ -90,7 +89,7 @@ msgstr "Sextante"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:45
 msgid "ArcGIS Server"
-msgstr "Servidor ArcGIS "
+msgstr "Servidor ArcGIS"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:46
 msgid "R"
@@ -102,7 +101,7 @@ msgstr "GRASS 7"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:49
 msgid "Input and Output formats supported:"
-msgstr "Formatos de entrada y  de salida compatibles:"
+msgstr "Formatos de entrada y de salida compatibles:"
 
 #: ../../build/doc/overview/52nWPS_overview.rst:51
 msgid ""

@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2023-07-31 19:39+0000\n"
+"PO-Revision-Date: 2024-01-29 15:45+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "openjump_overview/es/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.3\n"
 
 #: ../../build/doc/overview/openjump_overview.rst:14
 msgid "OpenJUMP GIS"
@@ -171,8 +171,8 @@ msgstr "internacionalización (cz, de, en, es, fi, fr, hu, él, ja, pt, ta, zh)"
 #: ../../build/doc/overview/openjump_overview.rst:62
 msgid "provides an API, scripting via BeanShell and Java Python/Ython"
 msgstr ""
-"proporciona una API de  de secuencias de comandos, via  BeanShell y Java "
-"Python/Ython"
+"proporciona una API de secuencias de comandos, via BeanShell y Java Python/"
+"Ython"
 
 #: ../../build/doc/overview/openjump_overview.rst:63
 msgid "(Java) plugin-system"

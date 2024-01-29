@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2023-07-31 19:39+0000\n"
+"PO-Revision-Date: 2024-01-29 15:45+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "gdal_quickstart/es/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.3\n"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:21
 msgid "GDAL/OGR Quickstart"
@@ -126,7 +126,7 @@ msgstr "Obtenga información acerca de los datos ráster con gdalinfo"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:107
 msgid "Note:"
-msgstr "Nota: "
+msgstr "Nota:"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:101
 msgid "Driver is \"GTiff/GeoTIFF\""

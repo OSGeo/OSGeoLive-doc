@@ -6,20 +6,22 @@
 # Translators:
 # Eduardo G. S. Pereira <edu_vcd@hotmail.com>, 2019
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-21 20:28+0000\n"
-"PO-Revision-Date: 2018-06-09 16:37+0000\n"
-"Last-Translator: Eduardo G. S. Pereira <edu_vcd@hotmail.com>, 2019\n"
-"Language-Team: Portuguese (Brazil) (https://app.transifex.com/osgeo/teams/66156/pt_BR/)\n"
+"PO-Revision-Date: 2024-01-29 15:45+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Portuguese <https://weblate.osgeo.org/projects/osgeolive/"
+"hyperv_quickstart/pt/>\n"
+"Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pt_BR\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.3\n"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:8
 msgid "Running in a Hyper-V Virtual Machine"
@@ -240,11 +242,11 @@ msgstr ":doc:`usb_quickstart`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
@@ -252,4 +254,4 @@ msgstr ""
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "Comunidade OSGeo"

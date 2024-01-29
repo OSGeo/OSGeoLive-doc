@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2023-07-03 08:33+0000\n"
+"PO-Revision-Date: 2023-11-23 15:44+0000\n"
 "Last-Translator: Michel Stuyts <michel.stuyts@gmail.com>\n"
 "Language-Team: Dutch <https://weblate.osgeo.org/projects/osgeolive/"
 "josm_overview/nl/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.0\n"
 
 #: ../../build/doc/overview/josm_overview.rst:15
 msgid "JOSM"
@@ -28,13 +28,15 @@ msgstr "JOSM"
 
 #: ../../build/doc/overview/josm_overview.rst:18
 msgid "Desktop Editor for OpenStreetMap data"
-msgstr ""
+msgstr "Desktop-editor voor OpenstreetMap gegevens"
 
 #: ../../build/doc/overview/josm_overview.rst:20
 msgid ""
 "JOSM is a feature rich, extensible, offline desktop editor for OpenStreetMap"
 " (OSM) data, written in Java."
 msgstr ""
+"JOSM is een uitgebreide, uitbreidbare, offline desktop-editor voor "
+"OpenStreetMap (OSM) gegevens, geschreven in Java."
 
 #: ../../build/doc/overview/josm_overview.rst:22
 msgid ""
