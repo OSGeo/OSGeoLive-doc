@@ -7,20 +7,22 @@
 # MarPetra <mvergaratrejo@gmail.com>, 2021
 # Vicky Vergara <vicky@georepublic.de>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:11+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"PO-Revision-Date: 2024-01-29 15:45+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"pgrouting_overview/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.3\n"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:19
 msgid "pgRouting"
@@ -36,9 +38,9 @@ msgid ""
 "<https://www.postgresql.org>`__ geospatial database to provide geospatial "
 "routing and other network analysis functionality."
 msgstr ""
-"pgRouting extends the :doc:`postgis_overview`/`PostgreSQL "
-"<https://www.postgresql.org>`__ geospatial database to provide geospatial "
-"routing and other network analysis functionality."
+"pgRouting extiende a la base de datos geoespacial :doc:`postgis_overview`/`"
+"PostgreSQL <https://www.postgresql.org>`__ para proporcionmar ruteo "
+"geoespacial y otras funcionalidades de análisis de redes."
 
 #: ../../build/doc/overview/pgrouting_overview.rst:28
 msgid "Advantages of the database routing approach are:"
@@ -100,7 +102,7 @@ msgstr ""
 
 #: ../../build/doc/overview/pgrouting_overview.rst:55
 msgid "Shortest Path * A* algorithm * Dijkstra algorithm"
-msgstr "Ruta Más Corta * Algoritmo A  * Algoritmo Dijkstra"
+msgstr "Ruta Más Corta * Algoritmo A * Algoritmo Dijkstra"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:58
 msgid "Bi-directional Shortest Path * A* algorithm * Dijkstra algorithm"
