@@ -3,7 +3,7 @@ Welcome to |osgeolive-version|
 ================================================================================
 
 `OSGeoLive <https://live.osgeo.org>`_ is a self-contained bootable DVD, USB
-thumb drive or Virtual Machine based on `Lubuntu <https://lubuntu.net>`_,
+thumb drive or Virtual Machine based on `Lubuntu <https://lubuntu.me>`_,
 that allows you to try a wide variety of open
 source geospatial software without installing anything. It is composed
 entirely of free software, allowing it to be freely distributed, duplicated
