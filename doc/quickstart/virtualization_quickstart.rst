@@ -15,6 +15,7 @@ Overview
 This Quick Start describes one way to run OSGeoLive within a VirtualBox virtual machine (VM). For other methods, follow links from the "See Also" section below.
 
 .. note::
+
     To learn more about the benefits of virtualization, see `Virtualization <https://en.wikipedia.org/wiki/Virtualization>`_ in Wiki
 
 Prerequisites
@@ -26,17 +27,16 @@ Prerequisites
   
   ``apt-get install virtualbox-ose``
 
-* Download the OSGeo Virtual disk file (vmdk) from :doc:`live.osgeo.org <../download>`.
-
-  * Under **osgeolive-vm**, download the 7-zip file. Then unzip the downloaded file (using `7zip <https://www.7-zip.org>`_ ).
+* Download the OSGeo Virtual disk file (vmdk) from the links at :doc:`live.osgeo.org <../download>`. Then unzip the downloaded file (using `7-Zip <https://www.7-zip.org>`_ ).
 
 **Hardware**
 
 * **RAM**: Minimum 2 GB. The Lubuntu system runs well with 1 GB of RAM, and you'll need to keep at least the same amount of memory for some of your applications (such as GeoServer). So a total of 2 GB is recommended for a smooth operation. 
-* **Spare**: Minimum 20 GB Hard Disk Space. The virtual disk file (vmdk) from :doc:`live.osgeo.org <../download>`  unzips to almost 10 GB. You'll also want more space to allow some room to work on the virtual machine. So a total of 20 GB is a good recommendation.
+* **Spare**: Minimum 30 GB Hard Disk Space. The virtual disk file (vmdk) from :doc:`live.osgeo.org <../download>`  unzips to |osgeolive-hdspace|. You'll also want more space to allow some room to work on the virtual machine. So a total of 30 GB is a good recommendation.
 * **CPU**: Any CPU will do, but a processor which supports "Virtualization Technology" will be faster. Check if your computer supports `Virtualization Technology <https://www.intel.com/content/www/us/en/support/articles/000005486/processors.html>`_
 
 .. note::
+
     Most machines produced after 2010 will meet these requirements.
 
 
@@ -98,7 +98,9 @@ Step 3 : Running the Virtual Machine
 
 Now bootup the VM by clicking the **Start** (green arrow) button.
 
-* The OSGeo-Live virtual display (i.e., the window size) may be very small, and will not be able to increase until you install Guest Additions. You should install the virtualbox guest additions, this will allow you to use full-screen mode.
+* The OSGeo-Live virtual display (i.e., the window size) may be very small, and will not be able to increase until you install Guest Additions.
+  You should install the virtualbox guest additions, this will allow you to use full-screen mode and scaled mode. These can be installed by running the command below in a terminal.
+  When prompted for a password, you should use the default ``user``.
 
   ``sudo apt-get install --yes virtualbox-guest-utils virtualbox-guest-x11``
 
@@ -106,18 +108,20 @@ Now bootup the VM by clicking the **Start** (green arrow) button.
 
   1. From the VirtualBox Devices menu, select **Insert Guest Additions CD Image**
   2. Click **OK** when prompted to open the removable media in **File Manager**.
-  3. In **File Manager**, select **Tools** → **Open Current Folder** in terminal.
+  3. In **File Manager**, select **Tools** → **Open Terminal**.
   4. In the terminal type:
     
     ``sudo ./VBoxLinuxAdditions.run``
 
   5. Press ENTER.
+  6. When prompted for a password, you should use the default ``user``.
 
 
 Step 4 : Set OSGeoLive user
 --------------------------------------------------------------------------------
 
 .. note::
+
    Some tools configured on OSGeoLive rely of "user" to be in the "users" group so they can write into the data directory. If not set, these tools will fail when run.
 
 1. Start a terminal.
