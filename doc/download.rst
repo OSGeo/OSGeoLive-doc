@@ -8,9 +8,9 @@ Download
 
 The latest stable release is |osgeolive-version| and can be downloaded from:
 
-https://sourceforge.net/projects/osgeo-live/files/|osgeolive-version-only|/
+|sourceforge-download|
 
-https://download.osgeo.org/livedvd/releases/|osgeolive-version-only|/ (.vmdk)
+|osgeo-download| (.vmdk)
 
 
 Picking the right image for you:
