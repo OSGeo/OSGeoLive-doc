@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-05 11:21+0000\n"
-"PO-Revision-Date: 2023-03-10 20:56+0000\n"
+"PO-Revision-Date: 2024-01-29 15:45+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "mapserver_overview/es/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 5.3\n"
 
 #: ../../build/doc/overview/mapserver_overview.rst:18
 msgid "MapServer"
@@ -30,7 +30,7 @@ msgstr "MapServer"
 
 #: ../../build/doc/overview/mapserver_overview.rst:21
 msgid "Web Service"
-msgstr "Servicio web"
+msgstr "Servicio Web"
 
 #: ../../build/doc/overview/mapserver_overview.rst:23
 msgid ""
@@ -331,7 +331,7 @@ msgstr "**Plataformas compatibles:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/mapserver_overview.rst:128
 msgid "**API Interfaces:** C, PHP, Python, Perl, Ruby, Java, and .NET"
-msgstr "**Interfaces API:** C, C++, Python, Java, Ruby"
+msgstr "**Interfaces API:** C, C++, Python, Java, Ruby y .NET"
 
 #: ../../build/doc/overview/mapserver_overview.rst:130
 msgid "**Support:** https://mapserver.org/community/"

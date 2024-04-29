@@ -15,21 +15,22 @@
 # Valerio Pinna <pinnavalerio@yahoo.co.uk>, 2022
 # Stefano Campus <skampus@gmail.com>, 2022
 # Luca Delucchi <lucadeluge@gmail.com>, 2022
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2017-09-20 16:02+0000\n"
-"Last-Translator: Luca Delucchi <lucadeluge@gmail.com>, 2022\n"
+"PO-Revision-Date: 2023-12-27 23:45+0000\n"
+"Last-Translator: luca <lucadeluge@gmail.com>\n"
+"Language-Team: Italian <https://weblate.osgeo.org/projects/osgeolive/"
+"presentation/it/>\n"
 "Language: it\n"
-"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 "
-"? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.3\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/presentation/revealjs/presentation.rst:7
@@ -37,9 +38,8 @@ msgid "OSGeoLive"
 msgstr "OSGeoLive"
 
 #: ../../build/presentation/revealjs/presentation.rst:12
-#, fuzzy
 msgid "Version: 16"
-msgstr "Versione: 15"
+msgstr "Versione: 16"
 
 #: ../../build/presentation/revealjs/presentation.rst:14
 msgid "Released: August 2022"
@@ -211,6 +211,7 @@ msgstr "Software consolidati, stabili e funzionanti"
 #: ../../build/presentation/revealjs/presentation.rst:156
 msgid "Active community `Metrics <https://live.osgeo.org/en/metrics.html>`__"
 msgstr ""
+"`Metriche della comunità <https://live.osgeo.org/en/metrics.html>`__ attive"
 
 #: ../../build/presentation/revealjs/presentation.rst:169
 msgid "Production & Marketing Pipeline"
@@ -1269,4 +1270,3 @@ msgstr "Prova OSGeoLive"
 #: ../../build/presentation/revealjs/presentation.rst:1266
 msgid "georepublic_logo"
 msgstr "georepublic_logo"
-
