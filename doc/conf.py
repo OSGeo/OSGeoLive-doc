@@ -22,7 +22,6 @@
 import sys, os
 
 iso_size = @iso_size@
-iso_mini_size = @iso_mini_size@
 vm_7z_size = @vm_7z_size@
 req_hd_size = @req_hd_size@
 
@@ -242,10 +241,10 @@ linkcheck_anchors = False
 rst_epilog="""
 .. |osgeolive-project| replace:: %(projectname)s
 .. |osgeolive-version| replace:: %(projectname)s %(projectversion)s
-.. |osgeolive-version-only| replace:: %(projectversion)s
+.. |sourceforge-download| replace:: https://sourceforge.net/projects/osgeo-live/files/%(projectversion)s/
+.. |osgeo-download| replace:: https://download.osgeo.org/livedvd/releases/%(projectversion)s/
 .. |osgeolive-hdspace| replace:: %(required_hd_space)02d GB
 .. |osgeolive-iso-size| replace:: %(iso_size).1f GB
-.. |osgeolive-iso-mini-size| replace:: %(iso_mini_size).1f GB
 .. |osgeolive-vm-7z-size| replace:: %(vm_7z_size).1f GB
 .. |osgeolive-appmenupath-geoserver| replace:: :menuselection:`Geospatial --> Web Services --> GeoServer --> Start GeoServer`
 .. |osgeolive-appmenupath-udig| replace:: :menuselection:`Geospatial --> Desktop GIS --> uDig`
@@ -306,6 +305,5 @@ rst_epilog="""
   'projectversion': version,
   'required_hd_space': req_hd_size,
   'iso_size': iso_size,
-  'iso_mini_size': iso_mini_size,
   'vm_7z_size': vm_7z_size
 }
