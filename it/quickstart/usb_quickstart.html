@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Creare un OSGeoLive dispositivo USB avviabile &#8212; OSGeoLive 16.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Indice" href="../genindex.html" />
+    <link rel="search" title="Cerca" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="Esecuzione in una Macchina Virtuale Hyper-V" href="hyperv_quickstart.html" />
+    <link rel="prev" title="Esecuzione in una Macchina Virtuale" href="virtualization_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <section id="creating-an-osgeolive-bootable-usb-flash-drive">
+<h1>Creare un OSGeoLive dispositivo USB avviabile<a class="headerlink" href="#creating-an-osgeolive-bootable-usb-flash-drive" title="Link a questa intestazione">¶</a></h1>
+<p>Questa guida rapida descrive il metodo migliore per creare un dispositivo OSGeoLive USB avviabile. Avviare da una dispositivo flash è più veloce di un DVD, e il dispositivo USB può essere configurato per immagazzinare dati tra le sessioni (denominato persistente).</p>
+<p>Sono stati trovati una serie di stranezze e trucchi al fine di creare con successo un dispositivo USB. È stato documentato quello che si conosce, ma ci sono più trucchi e problemi. Si controlli gli ultimi suggerimenti qui: <a class="reference external" href="https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB">https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB</a></p>
+<section id="requirements">
+<h2>Requisiti<a class="headerlink" href="#requirements" title="Link a questa intestazione">¶</a></h2>
+<ul class="simple">
+<li><p>Un dispositivo USB (Raccomandati 8+ GB)</p></li>
+<li><p>Un’immagine ISO di OSGeoLive (scaricata da: <a class="reference internal" href="../download.html"><span class="doc">OSGeoLive downloads</span></a>) o convertita da un DVD.</p></li>
+</ul>
+</section>
+<section id="creating-bootable-usb-drive-with-dd-under-linux">
+<h2>Creare un dispositivo USB avviabile con <code class="docutils literal notranslate"><span class="pre">dd</span></code> sotto Linux<a class="headerlink" href="#creating-bootable-usb-drive-with-dd-under-linux" title="Link a questa intestazione">¶</a></h2>
+<p>Le immagini ISO per OSGeoLive 10.5 e successive sono <em>isohybrid</em> (e per amd64, supportano anche l’avvio UEFI). Sotto Linux, queste immagini possono essere scritte direttamente nel block device per un dispositivo USB con lo strumento da linea di comando <code class="docutils literal notranslate"><span class="pre">dd</span></code>:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">sudo dd if=osgeolive-10.5-amd64.iso of=/dev/sdX bs=4M; sync</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">/dev/sdX</span></code> è il block device per il dispositivo USB, dove <code class="docutils literal notranslate"><span class="pre">X</span></code> potrebbe essere <code class="docutils literal notranslate"><span class="pre">b</span></code> o <code class="docutils literal notranslate"><span class="pre">c</span></code>.</p></li>
+<li><p>Usare <code class="docutils literal notranslate"><span class="pre">lsblk</span></code> to mostrare i block devices e <code class="docutils literal notranslate"><span class="pre">dmesg</span></code> per vedere i messaggi del kernel per identificare il dispositivo USB quando è connesso.</p></li>
+<li><p>Il dispositivo USB non dev’essere montato.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">sudo</span></code> non è richiesto se il comando è eseguito da <code class="docutils literal notranslate"><span class="pre">root</span></code>.</p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Avvertimento</p>
+<p>Essere sicuri il corretto block device siccome <code class="docutils literal notranslate"><span class="pre">dd</span></code> lo sovrascriverrà senza domande, anche se è il vostro dispositivo primario con sistema operativo.</p>
+</div>
+</section>
+<section id="creating-bootable-usb-drive-with-ubuntu-startup-disk-creator">
+<h2>Creare un dispositivo USB avviabile con Ubuntu Startup Disk Creator<a class="headerlink" href="#creating-bootable-usb-drive-with-ubuntu-startup-disk-creator" title="Link a questa intestazione">¶</a></h2>
+<p>(Questo è il processo raccomandato per creare un USB. È disponibile per Ubuntu e le derivate di Ubuntu così come OSGeoLive.)</p>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>La versione di Ubuntu che si sta eseguendo deve essere la stessa o più recente della versione di Lubuntu installata sulla USB. Se si installa OSGeoLive 8.0 su una USB, è necessario eseguire Ubuntu 14.04 o più recente.</p>
+</div>
+<p><a class="reference internal" href="../download.html"><span class="doc">Scarica</span></a> osgeo-live o osgeo-live-mini nel disco rigido del tuo computer.</p>
+<p>Avviare il computer in una recente distribuzione Ubuntu/Xbuntu. Puoi farlo eseguendo da un DVD di OSGeoLive, come spiegato in <a class="reference internal" href="osgeolive_quickstart.html"><span class="doc">Cominciare con OSGeoLive</span></a>.</p>
+<p>Inserisci la chiavetta USB nel computer.</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/usb_select.png"><img alt="../../_images/usb_select.png" src="../../_images/usb_select.png" style="width: 305.2px; height: 294.0px;" /></a>
+</div></blockquote>
+<p>Seleziona <span class="menuselection">System Tools ‣ Startup Disk Creator</span>, o cerca <cite>Startup Disk Creator</cite> dal desktop di Unity.</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/usb_set_params.png"><img alt="../../_images/usb_set_params.png" src="../../_images/usb_set_params.png" style="width: 333.2px; height: 375.2px;" /></a>
+</div></blockquote>
+<p>Seleziona l’immagine ISO di osgeolive o osgeolive-mini che hai scaricato in precedenza.</p>
+<p>Seleziona l’unità flash USB. Se hai dello spazio in più potresti regolare il cursore per creare uno spazio di archiviazione persistente sulla chiavetta USB (consigliato). Affinché questa opzione sia disponibile, avrai bisogno di una chiavetta USB da 8 o più GB.</p>
+<p>Seleziona <span class="guilabel">Make Startup Disk</span></p>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/usb_installing.png"><img alt="../../_images/usb_installing.png" src="../../_images/usb_installing.png" style="width: 302.4px; height: 100.8px;" /></a>
+</div></blockquote>
+<p>Attendi circa 20 minuti per la creazione della chiavetta USB.</p>
+</section>
+<section id="booting-from-the-usb-drive">
+<h2>Avvio dal drive USB:<a class="headerlink" href="#booting-from-the-usb-drive" title="Link a questa intestazione">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Inizia con il computer spento.</p></li>
+<li><p>Inserisci il drive USB in una porta USB aperta.</p></li>
+<li><p>Accendi la macchina e seleziona l’avvio da USB:</p>
+<ul class="simple">
+<li><p>La maggior parte dei computer non è impostata di default per l’avvio da un drive USB.</p></li>
+<li><p>All’avvio, cerca un messaggio che indichi un Boot Menu (più comunemente si preme F12)</p></li>
+<li><p>Se il tuo computer non ha un menu di avvio, allora entra nel BIOS del sistema. Il pulsante per entrare nel BIOS varia a seconda della marca e del modello di computer. Se non riesci a capire il tuo, prova questo sito web che elenca molti tasti di scelta rapida del BIOS. <a class="reference external" href="https://www.mydigitallife.net/comprehensive-list-of-how-key-to-press-to-access-bios-for-various-oem-and-computer-systems/">https://www.mydigitallife.net/comprehensive-list-of-how-key-to-press-to-access-bios-for-various-oem-and-computer-systems/</a></p></li>
+</ul>
+</li>
+<li><p>Selezionare per l’avvio dal dispositivo USB.</p>
+<ul class="simple">
+<li><p>Nota che per alcuni computer è necessario che il drive USB sia inserito nel computer per poterlo selezionare.</p></li>
+<li><p>Nota anche che il drive USB è spesso elencato sotto i dischi rigidi piuttosto che sotto i dispositivi rimovibili.</p></li>
+<li><p>Questo <a class="reference external" href="https://www.youtube.com/watch?v=eQBdVO-n6Mg">video</a> mostra come avviare da USB.</p></li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="run">
+<h2>Eseguire:<a class="headerlink" href="#run" title="Link a questa intestazione">¶</a></h2>
+<p>Eseguire secondo: <a class="reference internal" href="osgeolive_quickstart.html"><span class="doc">Cominciare con OSGeoLive</span></a></p>
+</section>
+<section id="see-also">
+<h2>Vedere anche:<a class="headerlink" href="#see-also" title="Link a questa intestazione">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li><p><a class="reference internal" href="osgeolive_quickstart.html"><span class="doc">Cominciare con OSGeoLive</span></a></p></li>
+<li><p><a class="reference internal" href="virtualization_quickstart.html"><span class="doc">Esecuzione in una Macchina Virtuale</span></a></p></li>
+<li><p><a class="reference internal" href="osgeolive_install_quickstart.html"><span class="doc">Installa OSGeoLive nel disco rigido</span></a></p></li>
+<li><p>Altri metodi per la creazione di USB e gli ultimi suggerimenti sono raccolti qui: <a class="reference external" href="https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB">wiki</a></p></li>
+<li><p>Domande possono essere fatte nella nostra mailing list: <a class="reference external" href="https://lists.osgeo.org/pipermail/osgeolive/">https://lists.osgeo.org/pipermail/osgeolive/</a></p></li>
+</ul>
+</div></blockquote>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

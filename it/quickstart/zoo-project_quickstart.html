@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Guida rapida Zoo Project &#8212; OSGeoLive 16.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Indice" href="../genindex.html" />
+    <link rel="search" title="Cerca" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="actinia" href="../overview/actinia_overview.html" />
+    <link rel="prev" title="Zoo Project" href="../overview/zoo-project_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="http://zoo-project.org/"><img alt="../../_images/logo_zoo-project.png" class="align-right" src="../../_images/logo_zoo-project.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_incubation.png" class="align-right" src="../../_images/OSGeo_incubation.png" /></a>
+<section id="zoo-project-quickstart">
+<h1>Guida rapida Zoo Project<a class="headerlink" href="#zoo-project-quickstart" title="Link a questa intestazione">¶</a></h1>
+<p>ZOO-Project fornisce un ambiente di sviluppo amichevole per Web Processing Service (WPS) per creare e concatenare Web Processing Services. Un WPS fornisce accesso web a funzioni che eseguono algoritmi spaziali.</p>
+<div class="contents local topic" id="contents">
+<p class="topic-title">Contenuti</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#start-zoo-project" id="id1">Avvia ZOO-Project</a></p></li>
+<li><p><a class="reference internal" href="#ogr-spatial-tools-demo" id="id2">Demo strumento spaziale OGR</a></p></li>
+<li><p><a class="reference internal" href="#cgal-triangulations-demo" id="id3">Demo triangolazioni GCAL</a></p></li>
+<li><p><a class="reference internal" href="#otb-applications-demo" id="id4">Demo applicazioni OTB</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id5">E ora?</a></p></li>
+</ul>
+</div>
+<section id="start-zoo-project">
+<h2><a class="toc-backref" href="#id1">Avvia ZOO-Project</a><a class="headerlink" href="#start-zoo-project" title="Link a questa intestazione">¶</a></h2>
+<p>Dal menu principale, select <span class="menuselection">Geospatial ‣ Web Services ‣ ZOO Project</span>.</p>
+<p>Firefox sarà aperto con la pagina principale di dimostrazione di ZOO Project. Da qui, si può selezionare un’applicazione demo.</p>
+<a class="reference internal image-reference" href="../../_images/zoo-project_screenshot.png"><img alt="screenshot" class="align-center" src="../../_images/zoo-project_screenshot.png" style="width: 512.0px; height: 296.5px;" /></a>
+</section>
+<section id="ogr-spatial-tools-demo">
+<h2><a class="toc-backref" href="#id2">Demo strumento spaziale OGR</a><a class="headerlink" href="#ogr-spatial-tools-demo" title="Link a questa intestazione">¶</a></h2>
+<ol class="arabic">
+<li><p>Sulla pagina principale delle demo del ZOO Project, cliccare <span class="guilabel">visualizza</span> su strumenti spaziali OGR.</p></li>
+<li><p>Clicca sulla mappa per selezionare un elemento dal Server WFS di <a class="reference internal" href="../overview/geoserver_overview.html"><span class="doc">GeoServer</span></a>, l’elemento sarà visualizzato in blu.</p></li>
+<li><p>Cliccare su un processo con geometry semplice come Buffer, Centroid, ConvexHull o Boundary e il risultato sarà visualizzato in giallo.</p>
+<a class="reference internal image-reference" href="../../_images/zoo-demo-3.png"><img alt="screenshot" class="align-center" src="../../_images/zoo-demo-3.png" style="width: 512.0px; height: 289.0px;" /></a>
+</li>
+<li><p>Ora selezionare un altro elemento vicino il primo già selezionato, quindi cliccare su un processo a geometrie multiple come Union, Intersection, Symmetric Differences o Differences per ottenere il risultato visualizzato in rosso nella mappa</p>
+<a class="reference internal image-reference" href="../../_images/zoo-demo-4.png"><img alt="screenshot" class="align-center" src="../../_images/zoo-demo-4.png" style="width: 512.0px; height: 287.5px;" /></a>
+</li>
+</ol>
+</section>
+<section id="cgal-triangulations-demo">
+<h2><a class="toc-backref" href="#id3">Demo triangolazioni GCAL</a><a class="headerlink" href="#cgal-triangulations-demo" title="Link a questa intestazione">¶</a></h2>
+<ol class="arabic">
+<li><p>Sulla pagina principale delle demo del ZOO Project, cliccare <span class="guilabel">visualizza</span> su strumenti spaziali GCAL.</p></li>
+<li><p>Premere il bottone Voronoy o Delaunay per visualizzare sulla mappa il risultato del servizio WPS in esecuzione, come mostrato sotto.</p>
+<a class="reference internal image-reference" href="../../_images/zoo-demo-5.png"><img alt="screenshot" class="align-center" src="../../_images/zoo-demo-5.png" style="width: 512.0px; height: 288.0px;" /></a>
+</li>
+</ol>
+</section>
+<section id="otb-applications-demo">
+<h2><a class="toc-backref" href="#id4">Demo applicazioni OTB</a><a class="headerlink" href="#otb-applications-demo" title="Link a questa intestazione">¶</a></h2>
+<ol class="arabic">
+<li><p>Sulla pagina principale delle demo del ZOO Project, cliccare <span class="guilabel">visualizza</span> su strumenti spaziali OTB.</p></li>
+<li><p>Compila il modulo sulla sinistra per configurate l’esecuzione del servizio WPS.</p></li>
+<li><p>Quando sono stati selezionati i valori per il processamento, premere il pulsante <span class="guilabel">Esecuzione</span> in basso nel modulo di sinistra.</p></li>
+<li><p>Se si seleziona image/png come formato di uscita, si vedranno il risultato del processo visualizzato sulla mappa. Si può vedere sotto un esempio dell’esecuzione di KMeansClassification quando si seleziona il formato di uscita image/png.</p>
+<a class="reference internal image-reference" href="../../_images/zoo-demo-1.png"><img alt="screenshot" class="align-center" src="../../_images/zoo-demo-1.png" style="width: 512.0px; height: 289.0px;" /></a>
+</li>
+</ol>
+</section>
+<section id="what-next">
+<h2><a class="toc-backref" href="#id5">E ora?</a><a class="headerlink" href="#what-next" title="Link a questa intestazione">¶</a></h2>
+<ul class="simple">
+<li><dl class="simple">
+<dt>Si può accedere la capabilities del Server ZOO WPS:</dt><dd><p><a class="reference external" href="http://localhost/cgi-bin/zoo_loader.cgi?Request=GetCapabilities&amp;Service=WPS">http://localhost/cgi-bin/zoo_loader.cgi?Request=GetCapabilities&amp;Service=WPS</a></p>
+</dd>
+</dl>
+</li>
+<li><p>Per maggiori informazioni puoi contattare la mailing list di ZOO Project:  <a class="reference external" href="mailto:zoo-discuss&#37;&#52;&#48;lists&#46;osgeo&#46;org">zoo-discuss<span>&#64;</span>lists<span>&#46;</span>osgeo<span>&#46;</span>org</a></p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

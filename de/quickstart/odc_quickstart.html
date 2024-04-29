@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Open Data Cube Quickstart &#8212; OSGeoLive 16.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Stichwortverzeichnis" href="../genindex.html" />
+    <link rel="search" title="Suche" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="SpatiaLite" href="../overview/spatialite_overview.html" />
+    <link rel="prev" title="Open Data Cube" href="../overview/odc_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://www.opendatacube.org"><img alt="../../_images/logo_odc.png" class="align-right" src="../../_images/logo_odc.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_community.png" class="align-right" src="../../_images/OSGeo_community.png" /></a>
+<section id="open-data-cube-quickstart">
+<h1>Open Data Cube Quickstart<a class="headerlink" href="#open-data-cube-quickstart" title="Link zu dieser Überschrift">¶</a></h1>
+<p>The Open Data Cube Core provides an integrated gridded data
+analysis environment for decades of analysis ready earth observation
+satellite and related data from multiple satellite and other acquisition
+systems.</p>
+<dl class="simple">
+<dt>This Open Data Cube tutorial section</dt><dd><ol class="arabic simple">
+<li><p>use Jupyter Notebook to examine data</p></li>
+<li><p>basic command line tools</p></li>
+</ol>
+</dd>
+</dl>
+<div class="contents local topic" id="contents">
+<p class="topic-title">Contents</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#analyze-a-base-map" id="id1">Analyze a Base Map</a></p></li>
+<li><p><a class="reference internal" href="#things-to-try" id="id2">Things to try</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id3">What next?</a></p></li>
+</ul>
+</div>
+<section id="analyze-a-base-map">
+<h2><a class="toc-backref" href="#id1">Analyze a Base Map</a><a class="headerlink" href="#analyze-a-base-map" title="Link zu dieser Überschrift">¶</a></h2>
+<p>As our input dataset we will use Prizren from esa_worldview_2021 land use / landcover dataset;</p>
+<p>Start:</p>
+<p>Open menu Geospatial : Spatial Tools : Jupyter Notebook;</p>
+<p>On the Jupyter Home page, click to open folder OpenDataCube, click to open Notebook, choose „Run All“ from the kernel menu.</p>
+<p>For a quick look at a base data file, open a terminal and use the GDAL command <cite>gdalinfo</cite>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>#------
+$ gdalinfo /usr/local/share/data/odc/esa_10m_2021_prizren.tif
+</pre></div>
+</div>
+</section>
+<section id="things-to-try">
+<h2><a class="toc-backref" href="#id2">Things to try</a><a class="headerlink" href="#things-to-try" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Datacube core commands quickstart :</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ datacube system check
+#--
+$ datacube product show
+#--
+$ datacube dataset search
+</pre></div>
+</div>
+<ul class="simple">
+<li><p><cite>TODO tutorial &lt;tutorial&gt;</cite></p></li>
+</ul>
+</section>
+<section id="what-next">
+<h2><a class="toc-backref" href="#id3">What next?</a><a class="headerlink" href="#what-next" title="Link zu dieser Überschrift">¶</a></h2>
+<ul class="simple">
+<li><p>Documentation: <a class="reference external" href="https://datacube-core.readthedocs.io/en/stable/">https://datacube-core.readthedocs.io/en/stable/</a></p></li>
+<li><p>Website: <a class="reference external" href="https://www.opendatacube.org">https://www.opendatacube.org</a></p></li>
+<li><p>Support: <a class="reference external" href="https://www.opendatacube.org/faq">https://www.opendatacube.org/faq</a></p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

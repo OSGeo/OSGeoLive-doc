@@ -1,0 +1,267 @@
+
+<!DOCTYPE html>
+
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Guida rapida iD editor &#8212; OSGeoLive 16.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Indice" href="../genindex.html" />
+    <link rel="search" title="Cerca" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="JOSM" href="../overview/josm_overview.html" />
+    <link rel="prev" title="iD editor" href="../overview/ideditor_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://wiki.openstreetmap.org/wiki/ID"><img alt="../../_images/logo_ideditor.png" class="align-right" src="../../_images/logo_ideditor.png" /></a>
+<section id="id-editor-quickstart">
+<h1>Guida rapida iD editor<a class="headerlink" href="#id-editor-quickstart" title="Link a questa intestazione">¶</a></h1>
+<p>L’editor iD è di fatto l’editor di OpenStreetMap basato su browser. iD è veloce e facile da usare, e permette la mappatura da varie fonti di dati come immagini satellitari e aeree, GPS, Field Papers o Mapillary.</p>
+<p>L’editor iD è un ottimo modo di modificare per piccoli e facili cambiamenti che non richiedono le funzioni avanzate di JOSM (un editor di mappatura più avanzato). Questo capitolo mostra le basi della modifica con iD.</p>
+<div class="contents local topic" id="contents">
+<p class="topic-title">Contenuti</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#starting-the-id-editor" id="id1">Avviare l’Editor iD</a></p></li>
+<li><p><a class="reference internal" href="#configuring-the-background-layer" id="id2">Configura il layer di sfondo</a></p></li>
+<li><p><a class="reference internal" href="#adding-points" id="id3">Aggiungi punti</a></p></li>
+<li><p><a class="reference internal" href="#drawing-lines" id="id4">Disegna linee</a></p></li>
+<li><p><a class="reference internal" href="#drawing-shapes-polygons" id="id5">Disegna forme (poligoni)</a></p></li>
+<li><p><a class="reference internal" href="#drawing-multipolygons" id="id6">Disegna multipoligoni</a></p></li>
+<li><p><a class="reference internal" href="#saving-your-changes" id="id7">Salvare le modifiche</a></p></li>
+<li><p><a class="reference internal" href="#add-additional-information-and-custom-tags" id="id8">Aggiungi informazioni aggiuntive e tag personalizzati</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id9">E ora?</a></p></li>
+</ul>
+</div>
+<section id="starting-the-id-editor">
+<h2><a class="toc-backref" href="#id1">Avviare l’Editor iD</a><a class="headerlink" href="#starting-the-id-editor" title="Link a questa intestazione">¶</a></h2>
+<p>L’editor iD richiede una connessione attiva a Internet.</p>
+<ol class="arabic simple">
+<li><p>Apri il tuo browser Internet e vai al sito web di OpenStreetMap all’indirizzo <a class="reference external" href="https://www.openstreetmap.org">https://www.openstreetmap.org</a>.</p></li>
+<li><p><strong>Login</strong> usando il tuo account OpenStreetMap.</p></li>
+<li><p>Scorri e ingrandisci la mappa fino all’area che vuoi modificare. Puoi fare una panoramica tenendo premuto il tasto sinistro del mouse e trascinando la mappa nell’area desiderata.</p></li>
+<li><p>Clicca sulla piccola freccia accanto a <strong>Modifica</strong>, poi clicca su <strong>Modifica con iD (in-browser editor)</strong>.</p></li>
+</ol>
+<blockquote>
+<div><img alt="../../_images/id-editor_image1.png" src="../../_images/id-editor_image1.png" />
+<img alt="../../_images/id-editor_image2.png" src="../../_images/id-editor_image2.png" />
+</div></blockquote>
+<ul class="simple">
+<li><dl class="simple">
+<dt>[1] <strong>Edit Feature Panel:</strong> Questo pannello mostra i tag dell’oggetto</dt><dd><p>selezionato sulla mappa. Puoi aggiungere o modificare i tag da questo pannello.</p>
+</dd>
+</dl>
+</li>
+<li><p>[2] <strong>Tools:</strong> Questo pannello mostra gli strumenti di editing di base.</p></li>
+<li><p>[3] <strong>Map panel:</strong> Questo pannello mostra varie funzioni di configurazione.</p></li>
+<li><dl class="simple">
+<dt>[4] <strong>Information panel:</strong> Questo pannello mostra varie informazioni, come</dt><dd><p>la barra della scala e quali utenti hanno contribuito all’area.</p>
+</dd>
+</dl>
+</li>
+</ul>
+</section>
+<section id="configuring-the-background-layer">
+<h2><a class="toc-backref" href="#id2">Configura il layer di sfondo</a><a class="headerlink" href="#configuring-the-background-layer" title="Link a questa intestazione">¶</a></h2>
+<ol class="arabic">
+<li><p>Clicca sul pulsante <strong>Impostazioni di sfondo</strong> o usa il <em>tasto di scelta rapida</em> <strong>b</strong>. <a class="reference internal" href="../../_images/id-editor_image14.png"><img alt="immagine14" src="../../_images/id-editor_image14.png" style="height: 24px;" /></a></p>
+<p><img alt="immagine15" src="../../_images/id-editor_image15.png" /></p>
+</li>
+<li><p>Per cambiare il <strong>livello di luminosità</strong> clicca su una di queste caselle, i livelli sono 100%, 75%, 50% e 25% <a class="reference internal" href="../../_images/id-editor_image16.png"><img alt="immagine16" src="../../_images/id-editor_image16.png" style="height: 24px;" /></a></p></li>
+<li><p>Puoi anche <strong>cambiare il layer di sfondo</strong> in base al tuo fornitore di tasselli desiderato (l’impostazione predefinita è Bing Aerial Imagery).</p></li>
+<li><p>Puoi aggiungere i tuoi tasselli mappa cliccando su <strong>Custom</strong>. Per esempio, se vuoi <strong>aggiungere una carta geografica</strong> [1], clicca su <strong>Custom</strong> poi clicca sull’icona della lente di ingrandimento (ricerca) per aprire la seguente finestra:</p>
+<p><img alt="immagine17" src="../../_images/id-editor_image17.png" /></p>
+</li>
+<li><p>Inserisci il tuo <strong>FieldPaper snapshot URL</strong>, che sarà qualcosa come questo: <a class="reference external" href="http://fieldpapers.org/snapshots/cqhmf2v9#18/37.80593/-122.22715">http://fieldpapers.org/snapshots/cqhmf2v9#18/37.80593/-122.22715</a></p></li>
+<li><p>Per <strong>visualizzare le tracce GPS dal tuo computer</strong> (formato GPX), trascina il file GPX nell’editor iD.</p></li>
+<li><p>Per attivare le <strong>Tracce GPS OpenStreetMap</strong> clicca sulla casella. Nell’immagine qui sotto, le tracce GPS pubbliche sono mostrate in vari colori, indicando la direzione del viaggio.</p>
+<p><img alt="tracce gps osm" src="../../_images/id-editor_gps_public.png" /></p>
+</li>
+<li><p>Se è presente un offset delle immagini, è possibile <strong>correggerlo</strong> facendo clic su <strong>Fix Alignment</strong>.</p>
+<p><img alt="immagine18" src="../../_images/id-editor_image18.png" /></p>
+</li>
+<li><p>Clicca i pulsanti di navigazione per spostare le immagini. Fai clic sul pulsante di ripristino per tornare alla posizione predefinita. <img alt="immagine20" src="../../_images/id-editor_image20.png" /></p></li>
+</ol>
+</section>
+<section id="adding-points">
+<h2><a class="toc-backref" href="#id3">Aggiungi punti</a><a class="headerlink" href="#adding-points" title="Link a questa intestazione">¶</a></h2>
+<p>Per aggiungere un nuovo punto, clicca sul pulsante <strong>Punto</strong>. <a class="reference internal" href="../../_images/id-editor_image3.png"><img alt="immagine3" src="../../_images/id-editor_image3.png" style="height: 24px;" /></a></p>
+<ul>
+<li><p>Il cursore del mouse si trasformerà in un segno più (+). Ora, clicca su una posizione che conosci per marcare una posizione. Per esempio, se sai che c’è un ospedale nella tua zona, clicca sulla posizione dell’edificio dell’ospedale.</p>
+<p><img alt="immagine21" src="../../_images/id-editor_image21.png" /></p>
+</li>
+<li><p>Nota che viene aggiunto un nuovo punto. Allo stesso tempo, il pannello di sinistra cambierà per mostrare un modulo dove è possibile selezionare gli attributi per l’oggetto. Clicca su <strong>Hospital Grounds</strong> per etichettare il punto come ospedale.</p>
+<p><img alt="immagine22" src="../../_images/id-editor_image22.png" /></p>
+</li>
+<li><p>Puoi usare i moduli per riempire le informazioni dettagliate sul tuo punto. Puoi riempire il nome dell’ospedale, l’indirizzo e/o altre informazioni aggiuntive. Nota che ogni elemento avrà opzioni diverse, a seconda dell’etichetta che scegli dal pannello degli elementi.</p></li>
+<li><p>Se fai un errore, come una posizione sbagliata, puoi spostare il tuo punto in una nuova posizione tenendo il tasto sinistro del mouse sul tuo punto e trascinandolo. Oppure, se vuoi cancellare il punto, clicca con il tasto sinistro del mouse sul punto, attiva il menu contestuale cliccando con il tasto destro del mouse e poi clicca sul pulsante che sembra un cestino. <a class="reference internal" href="../../_images/id-editor_image23.png"><img alt="immagine23" src="../../_images/id-editor_image23.png" style="height: 24px;" /></a></p>
+<p>Un «punto» creato nell’editor iD è in realtà un «nodo» autonomo con un insieme di «tag» su di esso.</p>
+</li>
+</ul>
+</section>
+<section id="drawing-lines">
+<h2><a class="toc-backref" href="#id4">Disegna linee</a><a class="headerlink" href="#drawing-lines" title="Link a questa intestazione">¶</a></h2>
+<p>Per aggiungere una nuova linea, clicca sul pulsante <strong>Line</strong>. <a class="reference internal" href="../../_images/id-editor_image4.png"><img alt="immagine4" src="../../_images/id-editor_image4.png" style="height: 24px;" /></a></p>
+<ul>
+<li><p>Il cursore del mouse si trasformerà in un segno più (+). Trova una strada che non è stata disegnata sulla mappa e tracciala. Clicca una volta su un punto dove inizia il segmento di strada, muovi il mouse e clicca per aggiungere altri punti. Fai doppio clic per terminare il processo di disegno. Nota il pannello sulla sinistra.</p>
+<p><img alt="immagine24" src="../../_images/id-editor_image24.png" /></p>
+</li>
+<li><p>Proprio come con un punto, seleziona i tag appropriati per la tua linea.</p></li>
+<li><p>Puoi trascinare dei punti dalla linea cliccando il tasto sinistro del mouse su un punto e trascinandolo.</p></li>
+<li><p>Puoi anche spostare l’intera linea selezionandola e scegliendo lo strumento <strong>Move tool</strong>. Poi trascinare la linea in una nuova posizione. <a class="reference internal" href="../../_images/id-editor_image30.png"><img alt="immagine30" src="../../_images/id-editor_image30.png" style="height: 24px;" /></a></p></li>
+<li><p>Quando clicchi con il tasto sinistro del mouse su un singolo punto (nodo) della linea e clicchi con il tasto destro del mouse per attivare il menu di contesto, vedrai questi strumenti:</p></li>
+<li><p>Elimina il punto dalla linea. <a class="reference internal" href="../../_images/id-editor_image23.png"><img alt="immagine23" src="../../_images/id-editor_image23.png" style="height: 24px;" /></a></p></li>
+<li><p>Scollega il punto dalla linea. <a class="reference internal" href="../../_images/id-editor_image26.png"><img alt="immagine26" src="../../_images/id-editor_image26.png" style="height: 24px;" /></a></p></li>
+<li><p>Dividi una linea in due linee dal punto che hai selezionato. <a class="reference internal" href="../../_images/id-editor_image27.png"><img alt="immagine27" src="../../_images/id-editor_image27.png" style="height: 24px;" /></a></p></li>
+<li><p>Quando clicchi con il tasto sinistro del mouse su una linea (ma non su un punto), vedrai questi strumenti:</p></li>
+<li><p>Elimina linea. <a class="reference internal" href="../../_images/id-editor_image23.png"><img alt="immagine23" src="../../_images/id-editor_image23.png" style="height: 24px;" /></a></p></li>
+<li><p>Crea un cerchio da una linea (attivo solo se la linea è chiusa) <a class="reference internal" href="../../_images/id-editor_image29.png"><img alt="immagine29" src="../../_images/id-editor_image29.png" style="height: 24px;" /></a></p></li>
+<li><p>Muovi linea <a class="reference internal" href="../../_images/id-editor_image30.png"><img alt="immagine30" src="../../_images/id-editor_image30.png" style="height: 24px;" /></a></p></li>
+<li><p>Forma una forma quadrata da una linea (attivo solo se la linea è chiusa) <a class="reference internal" href="../../_images/id-editor_image31.png"><img alt="immagine31" src="../../_images/id-editor_image31.png" style="height: 24px;" /></a></p></li>
+<li><p>Inverti la direzione della linea (buona per fiumi e strade a senso unico) <a class="reference internal" href="../../_images/id-editor_image32.png"><img alt="immagine32" src="../../_images/id-editor_image32.png" style="height: 24px;" /></a></p></li>
+</ul>
+<p>Una «linea» creata nell’editor iD è in realtà una «via» con dei «tag» su di essa.</p>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Una nota speciale sulla <strong>Cancellazione</strong>: In generale dovresti evitare di cancellare la mappatura di altre persone se ha solo bisogno di miglioramenti. Puoi cancellare i tuoi errori, ma dovresti cercare di <em>adeguare</em> gli oggetti mappati di altre persone se hanno bisogno di modifiche. Questo preserva la storia degli oggetti nel database OSM ed è rispettoso dei colleghi mappatori. Se pensi davvero che qualcosa debba essere cancellato, considera di chiedere prima al mappatore originale o ad una delle liste di posta elettronica OSM.</p>
+</div>
+</section>
+<section id="drawing-shapes-polygons">
+<h2><a class="toc-backref" href="#id5">Disegna forme (poligoni)</a><a class="headerlink" href="#drawing-shapes-polygons" title="Link a questa intestazione">¶</a></h2>
+<p>Per aggiungere una nuova forma a più lati, clicca sul pulsante <strong>Area</strong>.</p>
+<blockquote>
+<div><p><a class="reference internal" href="../../_images/id-editor_image34.png"><img alt="immagine34" src="../../_images/id-editor_image34.png" style="height: 24px;" /></a></p>
+</div></blockquote>
+<ul class="simple">
+<li><p>Il cursore del mouse si trasformerà nel segno più (+). Prova a tracciare un edificio usando le immagini come guida.</p></li>
+<li><p>Noterai che il colore della forma cambierà a seconda degli attributi che gli assegni. <img alt="immagine35" src="../../_images/id-editor_image35.png" /></p></li>
+<li><p>Gli strumenti disponibili quando si seleziona una forma e si attiva il menu contestuale con il tasto destro del mouse sono simili a quelli di quando si clicca su una linea.</p></li>
+</ul>
+<p>Un «poligono» nell’editor iD è in realtà una «linea chiusa» con delle etichette sopra.</p>
+</section>
+<section id="drawing-multipolygons">
+<h2><a class="toc-backref" href="#id6">Disegna multipoligoni</a><a class="headerlink" href="#drawing-multipolygons" title="Link a questa intestazione">¶</a></h2>
+<p>A volte devi disegnare un poligono che non ha solo un contorno esterno ma anche uno o più contorni interni. Basti pensare agli edifici con cortili interni o ai laghi con isole. <em>Non disegnare tutti questi modi in un’unica linea</em> in modo che i contorni interni siano sospesi dal contorno esterno. Piuttosto disegna questi contorni separati, attacca delle etichette solo al contorno esterno, seleziona tutti i contorni e premi <strong>C</strong> per combinarli in quello che si chiama un multipoligono.</p>
+<blockquote>
+<div><img alt="crea multipolygon" src="../../_images/id-editor_create_multipolygon.png" />
+</div></blockquote>
+<p>Quando si seleziona uno qualsiasi dei contorni del multipoligono appena creato si può vedere sulla sinistra a quali multipoligoni appartiene</p>
+<blockquote>
+<div><img alt="parte di multipolygon" src="../../_images/id-editor_part_of_multipolygon.png" />
+</div></blockquote>
+</section>
+<section id="saving-your-changes">
+<h2><a class="toc-backref" href="#id7">Salvare le modifiche</a><a class="headerlink" href="#saving-your-changes" title="Link a questa intestazione">¶</a></h2>
+<ol class="arabic">
+<li><p>Quando (e se) vuoi salvare le tue modifiche su OpenStreetMap, clicca sul pulsante <strong>Save</strong>. Il pannello sulla sinistra mostrerà il pannello di caricamento.</p>
+<p><img alt="immagine36" src="../../_images/id-editor_image36.png" /></p>
+</li>
+<li><p>Inserisci un commento sulle tue modifiche e clicca su <strong>Save</strong>.</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Se hai modificato lo stesso elemento (punto, via o area) nello stesso momento in cui un’altra persona la stava modificando, riceverai un avviso che le tue modifiche non possono essere caricate finché non hai risolto i <strong>conflitti</strong> - scegli di chi accettare le modifiche e carica le tue modifiche. <em>Risolvere i conflitti spesso implica accettare le modifiche dell’altra persona, nel qual caso probabilmente vorrai tornare all’elemento in questione e modificarlo di nuovo (**questa volta salva subito dopo la modifica per cercare di evitare di nuovo un conflitto!*</em>).*</p>
+</div>
+</section>
+<section id="add-additional-information-and-custom-tags">
+<h2><a class="toc-backref" href="#id8">Aggiungi informazioni aggiuntive e tag personalizzati</a><a class="headerlink" href="#add-additional-information-and-custom-tags" title="Link a questa intestazione">¶</a></h2>
+<p>Quando stai modificando un oggetto, vedrai una striscia di icone nella parte inferiore del pannello degli attributi. Puoi aggiungere ulteriori informazioni cliccando su queste icone:</p>
+<ul class="simple">
+<li><p>Aggiungi l’elevazione <a class="reference internal" href="../../_images/id-editor_image37.png"><img alt="immagine37" src="../../_images/id-editor_image37.png" style="height: 24px;" /></a></p></li>
+<li><p>Aggiungi note <a class="reference internal" href="../../_images/id-editor_image38.png"><img alt="immagine38" src="../../_images/id-editor_image38.png" style="height: 24px;" /></a></p></li>
+<li><p>Aggiungi contatti / numero di telefono <a class="reference internal" href="../../_images/id-editor_image39.png"><img alt="immagine39" src="../../_images/id-editor_image39.png" style="height: 24px;" /></a></p></li>
+<li><p>Aggiungi tag sorgente <a class="reference internal" href="../../_images/id-editor_image40.png"><img alt="immagine40" src="../../_images/id-editor_image40.png" style="height: 24px;" /></a></p></li>
+<li><p>Aggiungi sito web <a class="reference internal" href="../../_images/id-editor_image41.png"><img alt="immagine41" src="../../_images/id-editor_image41.png" style="height: 24px;" /></a></p></li>
+<li><p>Aggiungi informazioni sull’accessibilità <a class="reference internal" href="../../_images/id-editor_image42.png"><img alt="immagine42" src="../../_images/id-editor_image42.png" style="height: 24px;" /></a></p></li>
+<li><p>Aggiungi link Wikipedia <a class="reference internal" href="../../_images/id-editor_image43.png"><img alt="immagine43" src="../../_images/id-editor_image43.png" style="height: 24px;" /></a></p></li>
+</ul>
+<p>Oppure, puoi aggiungere tag personalizzati cliccando su <strong>All tags</strong>. <a class="reference internal" href="../../_images/id-editor_image44.png"><img alt="immagine44" src="../../_images/id-editor_image44.png" style="height: 24px;" /></a></p>
+<ul>
+<li><p>Questo mostrerà tutti i tag collegati all’elemento.</p>
+<p><img alt="immagine45" src="../../_images/id-editor_image45.png" /></p>
+</li>
+<li><p>Clicca sul segno più (+) per aggiungere chiavi e valori o clicca sull’icona del cestino per cancellare i tag.</p></li>
+</ul>
+</section>
+<section id="what-next">
+<h2><a class="toc-backref" href="#id9">E ora?</a><a class="headerlink" href="#what-next" title="Link a questa intestazione">¶</a></h2>
+<ul class="simple">
+<li><p>Prova la documentazione di LearnOSM, da cui è stata tratta questa guida rapida: <a class="reference external" href="https://learnosm.org/en/beginner/id-editor/">https://learnosm.org/en/beginner/id-editor/</a></p></li>
+<li><p>Sito web: <a class="reference external" href="https://wiki.openstreetmap.org/wiki/ID">https://wiki.openstreetmap.org/wiki/ID</a></p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

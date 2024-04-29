@@ -1,0 +1,247 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Ejecución en una máquina virtual &#8212; OSGeoLive 16.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="Crear una unidad flash USB de arranque OSGeoLive" href="usb_quickstart.html" />
+    <link rel="prev" title="Instalar OSGeoLive en el Disco Duro" href="osgeolive_install_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <section id="running-in-a-virtual-machine">
+<h1>Ejecución en una máquina virtual<a class="headerlink" href="#running-in-a-virtual-machine" title="Enlazar permanentemente con este título">¶</a></h1>
+<section id="overview">
+<h2>Vista General<a class="headerlink" href="#overview" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Este inicio rápido describe una forma de ejecutar OSGeoLive dentro de una máquina virtual (VM) virtualBox. Para otros métodos, siga los enlaces de la sección «Ver también» a continuación.</p>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Para obtener más información sobre los beneficios de la virtualización, consulte <a class="reference external" href="https://en.wikipedia.org/wiki/Virtualization">Virtualización</a> en Wiki</p>
+</div>
+</section>
+<section id="prerequisites">
+<h2>Prerequisitos<a class="headerlink" href="#prerequisites" title="Enlazar permanentemente con este título">¶</a></h2>
+<p><strong>Software</strong></p>
+<ul>
+<li><p>Descargue <a class="reference external" href="https://www.virtualbox.org/">Virtual Box</a>  para su plataforma e instale el software. En Windows, ejecute el instalador o en sistemas Linux similares a Ubuntu, ejecute lo siguiente:</p>
+<p><code class="docutils literal notranslate"><span class="pre">apt-get</span> <span class="pre">install</span> <span class="pre">virtualbox-ose</span></code></p>
+</li>
+<li><p>Descargue el archivo de disco virtual OSGeo (vmdk) desde <a class="reference internal" href="../download.html"><span class="doc">live.osgeo.org</span></a>.</p>
+<ul class="simple">
+<li><p>En <strong>osgeolive-vm</strong>, descargue el archivo 7-zip. A continuación, descomprima el archivo descargado (usando <a class="reference external" href="https://www.7-zip.org">7zip</a> ).</p></li>
+</ul>
+</li>
+</ul>
+<p><strong>Hardware</strong></p>
+<ul class="simple">
+<li><p><strong>RAM</strong>: Mínimo 2 GB. El sistema Lubuntu funciona bien con 1 GB de RAM, y deberá mantener al menos la misma cantidad de memoria para algunas de sus aplicaciones (como GeoServer). Por lo tanto, se recomienda un total de 2 GB para un funcionamiento sin problemas.</p></li>
+<li><p><strong>Repuesto</strong>: Mínimo 20 GB de espacio en disco duro. El archivo de disco virtual (vmdk) de <a class="reference internal" href="../download.html"><span class="doc">live.osgeo.org</span></a> se descomprime a casi 10 GB. También querrá más espacio para permitir algo de espacio para trabajar en la máquina virtual. Así que un total de 20 GB es una buena recomendación.</p></li>
+<li><p><strong>CPU</strong>: Cualquier CPU servirá, pero un procesador que admita «Tecnología de virtualización» será más rápido. Compruebe si su ordenador es compatible con “Tecnología de Virtualización  &lt;<a class="reference external" href="https://www.intel.com/content/www/us/en/support/articles/000005486/processors.html">https://www.intel.com/content/www/us/en/support/articles/000005486/processors.html</a>&gt;`_</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>La mayoría de las máquinas producidas después de 2010 cumplirán con estos requisitos.</p>
+</div>
+</section>
+<section id="step-1-create-a-virtual-machine">
+<h2>Paso 1 : Crear una máquina virtual<a class="headerlink" href="#step-1-create-a-virtual-machine" title="Enlazar permanentemente con este título">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Inicie la aplicación VirtualBox y haga clic en <strong>Nuevo</strong>. Se muestra la ventana emergente Crear máquina virtual.</p></li>
+</ol>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/virtualbox.png"><img alt="../../_images/virtualbox.png" src="../../_images/virtualbox.png" style="width: 386.5px; height: 291.5px;" /></a>
+</div></blockquote>
+<ol class="arabic simple" start="2">
+<li><p>Ingrese un nombre como OSGeoLive, y seleccione Linux como el «Sistema operativo», y Ubuntu como la «Versión», y luego haga clic en <strong>Siguiente</strong>.</p></li>
+</ol>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/virtualbox_select_name.png"><img alt="../../_images/virtualbox_select_name.png" src="../../_images/virtualbox_select_name.png" style="width: 247.79999999999998px; height: 280.0px;" /></a>
+</div></blockquote>
+<ol class="arabic simple" start="3">
+<li><p>En la siguiente pantalla, configure la memoria en al menos 1024 MB (o más si su computadora host tiene más de 4 GB, como en la captura de pantalla a continuación).</p></li>
+</ol>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/vmdk_memory.png"><img alt="../../_images/vmdk_memory.png" src="../../_images/vmdk_memory.png" style="width: 228.8px; height: 261.3px;" /></a>
+</div></blockquote>
+<ol class="arabic simple" start="4">
+<li><p>Continúe con la siguiente pantalla y seleccione <strong>Usar un archivo de disco duro virtual existente</strong>. Haga clic en el icono de carpeta para buscar dónde guardó el archivo vmdk de OSGeoLive. Seleccione el archivo, haga clic en <strong>Siguiente</strong> y <strong>Crear</strong>.</p></li>
+</ol>
+<blockquote>
+<div><p>Ahora debería poder ver el <strong>OSGeoLive</strong> que aparece en su cuadro virtual.</p>
+<a class="reference internal image-reference" href="../../_images/vmdk_disk.png"><img alt="../../_images/vmdk_disk.png" src="../../_images/vmdk_disk.png" style="width: 229.45000000000002px; height: 261.3px;" /></a>
+</div></blockquote>
+</section>
+<section id="step-2-configure-vm">
+<h2>Paso 2: Configurar la máquina virtual<a class="headerlink" href="#step-2-configure-vm" title="Enlazar permanentemente con este título">¶</a></h2>
+<p><strong>Configuración de VM</strong></p>
+<ol class="arabic simple">
+<li><p>Una vez creada la máquina virtual, haga clic en el botón <strong>Configuración</strong>. En la sección <strong>Interfaz de usuario</strong>, haga clic para seleccionar <strong>Mostrar en la parte superior de la pantalla</strong> para la mini barra de herramientas.</p></li>
+</ol>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/vmdk_user_interface.png"><img alt="../../_images/vmdk_user_interface.png" src="../../_images/vmdk_user_interface.png" style="width: 451.75px; height: 378.3px;" /></a>
+</div></blockquote>
+<ol class="arabic simple" start="2">
+<li><p>Vaya a la sección <strong>Pantalla</strong> y aumente la memoria de vídeo a 32 o 64 MB. En algunos sistemas operativos host, es posible que sea necesario «Habilitar la aceleración 3D» para que la pantalla funcione correctamente.</p></li>
+</ol>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/vmdk_display.png"><img alt="../../_images/vmdk_display.png" src="../../_images/vmdk_display.png" style="width: 424.45px; height: 282.1px;" /></a>
+</div></blockquote>
+<p><strong>Agregar carpetas compartidas para acceder a los archivos desde el host</strong></p>
+<ol class="arabic simple" start="3">
+<li><p>Vaya a la sección <strong>Carpetas compartidas</strong> y haga clic en la sección <strong>Agregar carpeta</strong> (icono verde + a la derecha) para encontrar un directorio en su equipo host que desee compartir dentro de la máquina virtual.</p></li>
+</ol>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/vmdk_shared_folders.png"><img alt="../../_images/vmdk_shared_folders.png" src="../../_images/vmdk_shared_folders.png" style="width: 423.15000000000003px; height: 280.8px;" /></a>
+</div></blockquote>
+<p>Puede elegir que la carpeta compartida sea de solo lectura y montada automáticamente. Una vez definidas la «Ruta de carpeta» y el «Nombre de carpeta», haga clic en Aceptar y, de nuevo, en Aceptar para finalizar y cerrar la ventana de configuración.</p>
+</section>
+<section id="step-3-running-the-virtual-machine">
+<h2>Paso 3 : Ejecución de la máquina virtual<a class="headerlink" href="#step-3-running-the-virtual-machine" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Ahora inicie la máquina virtual haciendo clic en el botón <strong>Inicio</strong> (flecha verde).</p>
+<ul>
+<li><p>La pantalla virtual OSGeo-Live (es decir, el tamaño de la ventana) puede ser muy pequeña y no podrá aumentar hasta que instale Guest Additions. Debe instalar las adiciones de invitado virtualbox, esto le permitirá usar el modo de pantalla completa.</p>
+<p><code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">apt-get</span> <span class="pre">install</span> <span class="pre">--yes</span> <span class="pre">virtualbox-guest-utils</span> <span class="pre">virtualbox-guest-x11</span></code></p>
+</li>
+</ul>
+<p>(Alternativa) Si el comando anterior no funciona, utilice la siguiente alternativa:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>En el menú Dispositivos VirtualBox, seleccione <strong>Insertar imagen de CD de adiciones de invitados</strong></p></li>
+<li><p>Haga clic en <strong>Aceptar</strong> cuando se le pida que abra el medio extraíble en <strong>Administrador de archivos</strong>.</p></li>
+<li><p>En <strong>Administrador de archivos</strong>, seleccione <strong>Herramientas</strong> → <strong>Abrir carpeta actual</strong> en el terminal.</p></li>
+<li><p>En el tipo de terminal:</p></li>
+</ol>
+<blockquote>
+<div><p>“”sudo ./VBoxLinuxAdditions.run””</p>
+</div></blockquote>
+<ol class="arabic simple" start="5">
+<li><p>Presione ENTRAR.</p></li>
+</ol>
+</div></blockquote>
+</section>
+<section id="step-4-set-osgeolive-user">
+<h2>Paso 4 : Establecer el usuario de OSGeoLive<a class="headerlink" href="#step-4-set-osgeolive-user" title="Enlazar permanentemente con este título">¶</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Algunas herramientas configuradas en OSGeoLive dependen de que «usuario» esté en el grupo «usuarios» para que puedan escribir en el directorio de datos. Si no se establecen, estas herramientas fallarán cuando se ejecuten.</p>
+</div>
+<ol class="arabic simple">
+<li><p>Inicie una terminal.</p></li>
+<li><p>Ejecute “”sudo adduser user users””.</p></li>
+<li><p>Aplique este cambio iniciando una nueva sesión de escritorio: reinicie la máquina virtual o cierre la sesión y vuelva a iniciarla (nombre de usuario «user», contraseña «user»).</p></li>
+</ol>
+</section>
+<section id="step-5-access-shared-folders">
+<h2>Paso 5: Acceder a carpetas compartidas<a class="headerlink" href="#step-5-access-shared-folders" title="Enlazar permanentemente con este título">¶</a></h2>
+<ul>
+<li><p>Agréguese al grupo vboxsf para que las carpetas compartidas (definidas anteriormente) sean accesibles ejecutándose en una ventana de terminal:</p>
+<p><code class="docutils literal notranslate"><span class="pre">user&#64;osgeolive:~$</span> <span class="pre">sudo</span> <span class="pre">usermod</span> <span class="pre">-a</span> <span class="pre">-G</span> <span class="pre">vboxsf</span> <span class="pre">user</span></code></p>
+</li>
+</ul>
+</section>
+<section id="step-6-mount-shared-folder">
+<h2>Paso 6: Montar carpeta compartida<a class="headerlink" href="#step-6-mount-shared-folder" title="Enlazar permanentemente con este título">¶</a></h2>
+<ul>
+<li><p>En el ejemplo anterior, definimos una ruta de acceso de Carpeta Compartida en el sistema host y la denominamos «GIS» en la configuración de la máquina virtual. La carpeta compartida aparecerá en el sistema de archivos en /media/sf_GIS/. Para montar esta carpeta en el directorio principal del usuario, por ejemplo, en una ejecución de terminal:</p>
+<p><code class="docutils literal notranslate"><span class="pre">user&#64;osgeolive:~$</span> <span class="pre">mkdir</span> <span class="pre">GIS</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">user&#64;osgeolive:~$</span> <span class="pre">sudo</span> <span class="pre">mount</span> <span class="pre">-t</span> <span class="pre">vboxsf</span> <span class="pre">-o</span> <span class="pre">uid=user,rw</span> <span class="pre">GIS</span> <span class="pre">/home/user/GIS</span></code></p>
+</li>
+</ul>
+<p>Ahora los archivos en su máquina host en la carpeta elegida también estarán disponibles en la máquina virtual en la carpeta «GIS» en el directorio de inicio del usuario.</p>
+<p>Felicitaciones, ahora debería tener OSGeoLive ejecutándose en una máquina virtual.</p>
+</section>
+<section id="next-steps">
+<h2>Próximos pasos:<a class="headerlink" href="#next-steps" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>¿Por qué no intenta ejecutar algunas aplicaciones, como se describe en el “Inicio rápido de OSGeoLive &lt;<a class="reference external" href="https://live.osgeo.org/en/quickstart/osgeolive_quickstart.html">https://live.osgeo.org/en/quickstart/osgeolive_quickstart.html</a>&gt;`_</p>
+</section>
+<section id="see-also">
+<h2>Ver también:<a class="headerlink" href="#see-also" title="Enlazar permanentemente con este título">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li><p>Páginas wiki de OSGeo: <a class="reference external" href="https://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine">Otras formas de crear una máquina virtual</a></p></li>
+<li><p><a class="reference internal" href="osgeolive_quickstart.html"><span class="doc">Cómo empezar con OSGeoLive</span></a></p></li>
+<li><p><a class="reference internal" href="osgeolive_install_quickstart.html"><span class="doc">Instalar OSGeoLive en el Disco Duro</span></a></p></li>
+<li><p><a class="reference internal" href="usb_quickstart.html"><span class="doc">Crear una unidad flash USB de arranque OSGeoLive</span></a></p></li>
+</ul>
+</div></blockquote>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

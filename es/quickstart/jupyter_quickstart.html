@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Guía Rápida de Jupyter Notebook &#8212; OSGeoLive 16.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="Mapnik" href="../overview/mapnik_overview.html" />
+    <link rel="prev" title="Jupyter Notebook" href="../overview/jupyter_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://jupyter.org/"><img alt="../../_images/logo_jupyter.png" class="align-right" src="../../_images/logo_jupyter.png" /></a>
+<section id="jupyter-notebook-quickstart">
+<h1><a class="toc-backref" href="#id1">Guía Rápida de Jupyter Notebook</a><a class="headerlink" href="#jupyter-notebook-quickstart" title="Enlazar permanentemente con este título">¶</a></h1>
+<p>Jupyter Notebook es una aplicación web que permite crear y compartir documentos que contienen código en vivo, ecuaciones, visualizaciones y texto explicativo. Los usos incluyen: limpieza y transformación de datos, simulación numérica, modelado estadístico, aprendizaje automático y mucho más.</p>
+<p>Esta Guía de Inicio Rápido describe cómo:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Iniciar un servidor de Cuaderno Jupyter</p></li>
+<li><p>Cargar un cuaderno jupyter</p></li>
+<li><p>Interactuar con código python</p></li>
+</ul>
+</div></blockquote>
+<div class="contents topic" id="contents">
+<p class="topic-title">Contenidos</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#jupyter-notebook-quickstart" id="id1">Guía Rápida de Jupyter Notebook</a></p>
+<ul>
+<li><p><a class="reference internal" href="#start-the-jupyter-server" id="id2">Inicie el servidor de Jupyter</a></p></li>
+<li><p><a class="reference internal" href="#open-and-execute-an-existing-notebook" id="id3">Abrir y ejecutar un cuaderno existente</a></p></li>
+<li><p><a class="reference internal" href="#change-code" id="id4">Cambiar código</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id5">¿Qué sigue?</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<section id="start-the-jupyter-server">
+<h2><a class="toc-backref" href="#id2">Inicie el servidor de Jupyter</a><a class="headerlink" href="#start-the-jupyter-server" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Desde el menú de inicio de la aplicación en la esquina inferior izquierda.</p>
+<ul class="simple">
+<li><p>Elejir <em>Geoespacial</em> -&gt; <em>Herramientas espaciales</em> -&gt; <em>Jupyter Notebook</em></p></li>
+</ul>
+<p>Se abrirá una ventana de terminal y un registro de inicio comenzará a desplazarse. Posteriormente se inicia un navegador web que muestra el panel de control de Jupyter Notebook. Desde el panel de Control de Jupyter Notebook puede navegar por el árbol de directorios, iniciar nuevos blocs de notas, crear archivos y directorios, así como cambiar el nombre, eliminar y cargar archivos.</p>
+<a class="reference internal image-reference" href="../../_images/jupyter1-1.png"><img alt="../../_images/jupyter1-1.png" src="../../_images/jupyter1-1.png" style="width: 716.4px; height: 436.2px;" /></a>
+</section>
+<section id="open-and-execute-an-existing-notebook">
+<h2><a class="toc-backref" href="#id3">Abrir y ejecutar un cuaderno existente</a><a class="headerlink" href="#open-and-execute-an-existing-notebook" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Abramos un bloc de notas existente. Desde la página principal haga clic en el directorio geopandas-tutorial y elija el cuaderno de introducción (01-introduction-geospatial-data.ipynb). Esta es una introducción con muchos ejemplos sobre cómo usar datos vectoriales geoespaciales en Python con geopandas utilizando los datos de Natural Earth2.</p>
+<a class="reference internal image-reference" href="../../_images/jupyter2-1.png"><img alt="../../_images/jupyter2-1.png" src="../../_images/jupyter2-1.png" style="width: 952.8000000000001px; height: 636.0px;" /></a>
+<p>El tutorial se compone de texto explicativo y celdas. Las celdas contienen en este caso código python, que se puede ejecutar.</p>
+<p>Desde la barra de herramientas en la parte superior del cuaderno puede elegir diferentes opciones:</p>
+<ul class="simple">
+<li><p>Cell-&gt; Run Cells: ejecutará el código en la celda con el foco y se moverá a la siguiente celda.</p></li>
+<li><p>Cell-&gt; Run All: ejecutará todas las celdas y mostrará los resultados Si todo funcionó según lo planeado, debería poder ver los resultados en la parte inferior de la página.</p></li>
+</ul>
+<p>Eche un vistazo a los resultados después de ejecutar todas las celdas.</p>
+<a class="reference internal image-reference" href="../../_images/jupyter2-2.png"><img alt="../../_images/jupyter2-2.png" src="../../_images/jupyter2-2.png" style="width: 712.1999999999999px; height: 477.0px;" /></a>
+<p>Verá una sección adicional Out[] con diferentes resultados, por ejemplo, tablas, mapas o cálculos.</p>
+<p>En Out[3] puedes ver la información del país como una tabla.</p>
+<a class="reference internal image-reference" href="../../_images/jupyter2-2.png"><img alt="../../_images/jupyter2-2.png" src="../../_images/jupyter2-2.png" style="width: 712.1999999999999px; height: 477.0px;" /></a>
+<p>En Out[4] se generó una trama de todos los países.</p>
+<a class="reference internal image-reference" href="../../_images/jupyter2-3.png"><img alt="../../_images/jupyter2-3.png" src="../../_images/jupyter2-3.png" style="width: 716.4px; height: 477.0px;" /></a>
+</section>
+<section id="change-code">
+<h2><a class="toc-backref" href="#id4">Cambiar código</a><a class="headerlink" href="#change-code" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Ahora cambiemos parte del código.</p>
+<p>En In [10] se definió un filtro para los países. Solo el continente <code class="docutils literal notranslate"><span class="pre">África</span></code> se selecciona de los países:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">In</span> <span class="p">[</span><span class="mi">10</span><span class="p">]:</span>  <span class="n">africa</span> <span class="o">=</span> <span class="n">countries</span><span class="p">[</span><span class="n">countries</span><span class="p">[</span><span class="s1">&#39;continent&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;Africa&#39;</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>Por lo tanto, en la trama solo existe el continente <code class="docutils literal notranslate"><span class="pre">Africa</span></code>.</p>
+<a class="reference internal image-reference" href="../../_images/jupyter3-1.png"><img alt="../../_images/jupyter3-1.png" src="../../_images/jupyter3-1.png" style="width: 712.0px; height: 332.0px;" /></a>
+<p>Cambie la selección a <code class="docutils literal notranslate"><span class="pre">Asia</span></code> y vuelva a ejecutar las dos celdas.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">In</span> <span class="p">[</span><span class="mi">10</span><span class="p">]:</span>  <span class="n">africa</span> <span class="o">=</span> <span class="n">countries</span><span class="p">[</span><span class="n">countries</span><span class="p">[</span><span class="s1">&#39;continent&#39;</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;Asia&#39;</span><span class="p">]</span>
+</pre></div>
+</div>
+<p>Como resultado, verás que en lugar de <code class="docutils literal notranslate"><span class="pre">África</span></code> habrá <code class="docutils literal notranslate"><span class="pre">Asia</span></code> en la trama.</p>
+<a class="reference internal image-reference" href="../../_images/jupyter3-2.png"><img alt="../../_images/jupyter3-2.png" src="../../_images/jupyter3-2.png" style="width: 704.0px; height: 338.40000000000003px;" /></a>
+</section>
+<section id="what-next">
+<h2><a class="toc-backref" href="#id5">¿Qué sigue?</a><a class="headerlink" href="#what-next" title="Enlazar permanentemente con este título">¶</a></h2>
+<ul class="simple">
+<li><p>Descubra los otros cuadernos proporcionados con OSGeoLive y descubra cómo trabajar con Shapely, Rasterio, R, Iris y otros softwares.</p></li>
+<li><p>Para obtener más información sobre el cuaderno jupyter, consulte la documentación oficial de <a class="reference external" href="https://docs.jupyter.org">Cuadernos Jupyter</a>.</p></li>
+<li><p>Hay más ejemplos de cuadernos están disponibles desde la raíz</p></li>
+<li><p>Introducción rápida sobre cómo usar la interfaz de Jupyter Notebooks: <a class="reference external" href="https://docs.jupyter.org/en/latest/content-quickstart.html">Introducción a Cuadernos Jupyter</a>.</p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

@@ -1,0 +1,280 @@
+
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Inicio rápido de ETF &#8212; OSGeoLive 16.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Índice" href="../genindex.html" />
+    <link rel="search" title="Búsqueda" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="Servidor QGIS" href="../overview/qgis_mapserver_overview.html" />
+    <link rel="prev" title="ETF" href="../overview/ETF_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://github.com/etf-validator"><img alt="../../_images/logo_ETF.png" class="align-right" src="../../_images/logo_ETF.png" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<section id="etf-quickstart">
+<h1>Inicio rápido de ETF<a class="headerlink" href="#etf-quickstart" title="Enlazar permanentemente con este título">¶</a></h1>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Este proyecto solo se incluye en el disco de máquina virtual OSGeoLive (VMDK)</p>
+</div>
+<p>ETF es un marco de pruebas de código abierto para validar datos espaciales, metadatos y servicios web en infraestructuras de datos espaciales (SDI). El diseño de ETF está impulsado por tres objetivos: ser fácil de usar, consistente con los estándares y capaz de probar todos los recursos en un SDI.</p>
+<p>Esta Guía de Inicio Rápido describe cómo:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Navegar por la aplicación Web</p></li>
+<li><p>Iniciar una prueba</p></li>
+<li><p>supervisar una ejecución de prueba</p></li>
+<li><p>ver y administrar informes de pruebas</p></li>
+</ul>
+</div></blockquote>
+<div class="contents local topic" id="contents">
+<p class="topic-title">Contenidos</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#introduction" id="id1">Introducción</a></p></li>
+<li><p><a class="reference internal" href="#start-test" id="id2">Iniciar prueba</a></p>
+<ul>
+<li><p><a class="reference internal" href="#test-suite-selection" id="id3">Selección del conjunto de pruebas</a></p></li>
+<li><p><a class="reference internal" href="#test-run-configuration" id="id4">Configuración de ejecución de prueba</a></p></li>
+<li><p><a class="reference internal" href="#file-based-tests" id="id5">Pruebas basadas en archivos</a></p></li>
+<li><p><a class="reference internal" href="#service-tests" id="id6">Pruebas de servicio</a></p></li>
+<li><p><a class="reference internal" href="#dependencies-and-parameters" id="id7">Dependencias y parámetros</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#monitor-test-runs" id="id8">Supervisar las ejecuciones de prueba</a></p></li>
+<li><p><a class="reference internal" href="#test-reports" id="id9">Informes de prueba</a></p></li>
+<li><p><a class="reference internal" href="#inspect-test-reports" id="id10">Inspeccionar informes de prueba</a></p></li>
+<li><p><a class="reference internal" href="#resources" id="id11">Recursos</a></p></li>
+<li><p><a class="reference internal" href="#what-s-next" id="id12">¿Qué sigue?</a></p></li>
+</ul>
+</div>
+<section id="introduction">
+<h2><a class="toc-backref" href="#id1">Introducción</a><a class="headerlink" href="#introduction" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>En el menú <em>Start</em> de OSGeoLive, seleccione <span class="menuselection">Geospatial ‣ Spatial tools ‣ ETF</span>. La aplicación tardará unos minutos en ponerse en marcha y abrirá una página web en <a class="reference external" href="http://localhost:9090/ETF">http://localhost:9090/ETF</a></p>
+<p>En el encabezado, hay un menú con 4 secciones, cada una de las cuales representa diferentes vistas y funcionalidades:</p>
+<img alt="../../_images/etf-introduction.png" src="../../_images/etf-introduction.png" />
+<ol class="arabic simple">
+<li><p>El primero es <strong>Start Test</strong>. En esta sección se enumeran todos los conjuntos de pruebas ejecutables disponibles (es decir, instalados). Dentro de esta sección, se puede seleccionar un conjunto de pruebas ejecutables y ejecutarlo en un objeto de prueba.</p></li>
+<li><p>El segundo es <strong>Status</strong>. Este muestra todas las pruebas que se están ejecutando actualmente en el sistema y permite abrir una vista de monitor para ejecuciones de pruebas individuales para verificar el estado de cualquier prueba en ejecución. Además, los componentes cargados actualmente se muestran debajo de las pruebas en ejecución.</p></li>
+<li><p>El tercero es <strong>Test reports</strong>. En este se pueden comprobar, analizar en detalle o descargar los resultados de cualquier prueba completada.</p></li>
+<li><p>El cuarto es <strong>Help</strong>. Este es un enlace a la documentación. Dentro de él, hay guías sobre cómo usar todas las funcionalidades del ETF.</p></li>
+</ol>
+</section>
+<section id="start-test">
+<h2><a class="toc-backref" href="#id2">Iniciar prueba</a><a class="headerlink" href="#start-test" title="Enlazar permanentemente con este título">¶</a></h2>
+<section id="test-suite-selection">
+<h3><a class="toc-backref" href="#id3">Selección del conjunto de pruebas</a><a class="headerlink" href="#test-suite-selection" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>La vista de aterrizaje muestra los conjuntos de pruebas ejecutables disponibles.</p>
+<img alt="../../_images/etf-test-suite-selection-1.png" src="../../_images/etf-test-suite-selection-1.png" />
+<p>Se puede acceder a información adicional sobre un Test Suite haciendo clic en el botón <em>+</em>.</p>
+<img alt="../../_images/etf-test-suite-selection-2.png" src="../../_images/etf-test-suite-selection-2.png" />
+<p>Esta información:</p>
+<ul class="simple">
+<li><p>Incluye una descripción del Conjunto de pruebas.</p></li>
+<li><p>Puede incluir un enlace al conjunto de pruebas abstractas del que se ha derivado el conjunto de pruebas ejecutables (Fuente).</p></li>
+<li><p>Puede incluir las dependencias del conjunto de pruebas, que se ejecutan automáticamente con el conjunto de pruebas en una ejecución de pruebas (clases de conformidad de requisitos previos).</p></li>
+<li><p>Puede incluir el nombre de las etiquetas asociadas que se utilizan para agrupar los conjuntos de pruebas en la vista.</p></li>
+<li><p>Incluye el nombre de los tipos de objetos de prueba aplicables (que se explican en la siguiente sección).</p></li>
+<li><p>Incluye información general como la versión, el autor y el último editor, las fechas de creación y cambio.</p></li>
+</ul>
+<p>Para iniciar una ejecución de prueba, se debe seleccionar un conjunto de pruebas con un clic en el interruptor de giro <em>use</em> en el lado derecho.</p>
+<img alt="../../_images/ETF_screenshot.png" src="../../_images/ETF_screenshot.png" />
+<p>Aparece un botón <em>Start</em> una vez que se selecciona al menos un conjunto de pruebas.</p>
+<p>Un conjunto de pruebas solo se aplica a ciertos tipos de objetos de prueba, que se enumeran en la descripción. Se pueden seleccionar varios conjuntos de pruebas para una ejecución de prueba, pero deben ser aplicables al mismo tipo de objeto de prueba. Una vez que se selecciona un conjunto de pruebas, se deshabilita el interruptor de todos los demás conjuntos de pruebas que tienen diferentes tipos de objetos de prueba.</p>
+<img alt="../../_images/etf-test-suite-selection-4.png" src="../../_images/etf-test-suite-selection-4.png" />
+<p>Un conjunto de pruebas puede depender de otros conjuntos de pruebas. Las dependencias también se muestran en la descripción de los conjuntos de pruebas.  Estas dependencias también se ejecutan automáticamente durante la ejecución de la prueba.</p>
+<p>Un clic en el botón Start* abrirá una nueva vista que pregunta al usuario sobre el recurso de destino que se va a probar.</p>
+</section>
+<section id="test-run-configuration">
+<h3><a class="toc-backref" href="#id4">Configuración de ejecución de prueba</a><a class="headerlink" href="#test-run-configuration" title="Enlazar permanentemente con este título">¶</a></h3>
+<img alt="../../_images/etf-test-run-configuration-1.png" src="../../_images/etf-test-run-configuration-1.png" />
+<p>El campo <em>Label</em> es obligatorio y se preestablece automáticamente con la hora y los nombres actuales de los conjuntos de pruebas seleccionados. La etiqueta se mostrará en la sección <strong>Test Reports</strong> y se puede cambiar para ayudar a encontrar el informe nuevamente después de una ejecución de prueba.</p>
+<p>El estilo de la vista puede depender de los conjuntos de pruebas seleccionados.</p>
+</section>
+<section id="file-based-tests">
+<h3><a class="toc-backref" href="#id5">Pruebas basadas en archivos</a><a class="headerlink" href="#file-based-tests" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Los siguientes elementos se muestran cuando se han seleccionado conjuntos de pruebas que prueban uno o varios archivos de datos de prueba.</p>
+<p>Si <em>File Upload</em> se selecciona como <em>Data Sources</em>, se pueden seleccionar uno o varios archivos locales y cargarlos en el ETF. El ETF solo acepta archivos con extensiones de archivo XML y GML, así como archivos ZIP que contengan estos dos tipos de archivos.</p>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>¡Otros archivos, como los archivos de definición de esquema, no se pueden usar y el ETF los ignora silenciosamente!</p>
+</div>
+<img alt="../../_images/etf-file-based-tests-1.png" src="../../_images/etf-file-based-tests-1.png" />
+<p>El tamaño máximo del archivo cargable se muestra cuando se mueve el ratón sobre el signo de interrogación.</p>
+<p>Si los datos a probar están disponibles en la web, se pueden probar proporcionando una sola URL. Después de seleccionar <em>Remote file (URL)</em> como <em>Data source</em>, se puede introducir una <em>Remote URL</em> a un único archivo XML, GML o ZIP.</p>
+<img alt="../../_images/etf-file-based-tests-2.png" src="../../_images/etf-file-based-tests-2.png" />
+<p>Si la URL requiere autenticación, se puede proporcionar el nombre de usuario y la contraseña haciendo clic en <em>Credentials</em>.</p>
+<img alt="../../_images/etf-file-based-tests-3.png" src="../../_images/etf-file-based-tests-3.png" />
+</section>
+<section id="service-tests">
+<h3><a class="toc-backref" href="#id6">Pruebas de servicio</a><a class="headerlink" href="#service-tests" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>Los siguientes elementos se muestran cuando se han seleccionado conjuntos de pruebas que prueban un servicio.</p>
+<p>La <em>Service URL</em> debe introducirse comenzando por <code class="docutils literal notranslate"><span class="pre">http://</span></code> o <code class="docutils literal notranslate"><span class="pre">https://</span></code>.</p>
+<img alt="../../_images/etf-service-test-1.png" src="../../_images/etf-service-test-1.png" />
+<p>Si el servicio requiere autenticación, se puede proporcionar el nombre de usuario y la contraseña haciendo clic en <em>Credentials</em>.</p>
+</section>
+<section id="dependencies-and-parameters">
+<h3><a class="toc-backref" href="#id7">Dependencias y parámetros</a><a class="headerlink" href="#dependencies-and-parameters" title="Enlazar permanentemente con este título">¶</a></h3>
+<p>El botón <em>Test Suites</em> muestra información básica sobre los conjuntos de pruebas seleccionados y, si corresponde, sobre las dependencias directas.</p>
+<img alt="../../_images/etf-dependencies-and-parameters-1.png" src="../../_images/etf-dependencies-and-parameters-1.png" />
+<p>Si la prueba acepta parámetros, se muestran en la sección*Test Suite Parameters*. Los parámetros opcionales se pueden mostrar haciendo clic en el botón <em>Optional Parameters</em>. Se muestra una descripción de los parámetros cuando se mueve el ratón sobre el signo de interrogación.</p>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>En la mayoría de los casos se pueden utilizar los valores predeterminados preestablecidos.</p>
+</div>
+<img alt="../../_images/etf-dependencies-and-parameters-2.png" src="../../_images/etf-dependencies-and-parameters-2.png" />
+<p>Finalmente, la prueba se puede iniciar haciendo clic en el botón <em>Start</em>. A continuación, la vista cambia automáticamente a la vista <em>Monitor Test Run</em>.</p>
+</section>
+</section>
+<section id="monitor-test-runs">
+<h2><a class="toc-backref" href="#id8">Supervisar las ejecuciones de prueba</a><a class="headerlink" href="#monitor-test-runs" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Después de iniciar una ejecución de prueba, se muestra la vista <em>Monitor Test Run</em>.</p>
+<img alt="../../_images/etf-monitor-test-runs-1.png" src="../../_images/etf-monitor-test-runs-1.png" />
+<p>La barra azul indica el progreso.</p>
+<img alt="../../_images/etf-monitor-test-runs-2.png" src="../../_images/etf-monitor-test-runs-2.png" />
+<p>El área de la consola muestra información y mensajes de resultados. La ejecución de prueba se puede cancelar con un clic en el botón <em>Cancel</em>.</p>
+<p>La vista se puede cerrar, por ejemplo, con el botón <em>X</em> en la esquina superior izquierda. Además, cuando se cierra el explorador, la ejecución de Test Run continúa en el servidor.</p>
+<p>Para volver a abrir la vista <em>Monitor Test Run</em> después de que se haya cerrado, seleccione en la barra de menús la sección <strong>Status</strong>. La sección <strong>Status</strong> muestra todas las pruebas en ejecución. Al hacer clic en la ejecución de prueba se abre la vista <em>Monitor Test Run</em> de esa ejecución de prueba.</p>
+<img alt="../../_images/etf-monitor-test-runs-3.png" src="../../_images/etf-monitor-test-runs-3.png" />
+<p>Cuando finaliza una ejecución de prueba y se abre la vista <em>Monitor Test Run</em>, el informe de prueba se muestra automáticamente.</p>
+</section>
+<section id="test-reports">
+<h2><a class="toc-backref" href="#id9">Informes de prueba</a><a class="headerlink" href="#test-reports" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>La sección <strong>Test Reports</strong> muestra todos los informes que se han generado a partir de ejecuciones de prueba.</p>
+<img alt="../../_images/etf-test-reports-1.png" src="../../_images/etf-test-reports-1.png" />
+<p>Al hacer clic en el botón <em>+</em>, se muestra información para una ejecución de prueba, la hora de inicio, el estado del resultado de la prueba, el nombre del objeto de prueba y los conjuntos de pruebas utilizados.</p>
+<p>Un informe de prueba se puede abrir de nuevo haciendo clic en el botón <em>Open Report</em> o se puede descargar como archivo HTML haciendo clic en el botón <em>Download report</em>.</p>
+<p>El archivo de registro de la ejecución de prueba se puede inspeccionar con el botón <em>Open log</em>. Al hacer clic en el botón <em>Delete Report</em>, el informe se eliminará de forma permanente.</p>
+</section>
+<section id="inspect-test-reports">
+<h2><a class="toc-backref" href="#id10">Inspeccionar informes de prueba</a><a class="headerlink" href="#inspect-test-reports" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>La parte superior de un informe de prueba muestra información general, incluido el estado general del resultado de la prueba, la hora de inicio, la duración y una tabla, que resume el estado de todas las pruebas en varios niveles.</p>
+<img alt="../../_images/etf-inspect-test-reports-1.png" src="../../_images/etf-inspect-test-reports-1.png" />
+<p>Los informes de prueba son interactivos. El interruptor <em>Show</em> se puede utilizar para filtrar las pruebas <em>Only failed</em> o <em>Only manual</em>. La opción <em>All</em> desactiva el filtro.</p>
+<p>El modificador <em>Level of detail</em> se utiliza para mostrar más o menos información en los informes.</p>
+<img alt="../../_images/etf-inspect-test-reports-2.png" src="../../_images/etf-inspect-test-reports-2.png" />
+<p>Los resultados de la prueba se resumen jerárquicamente en un informe. En el nivel superior están las Test Suites.</p>
+<p>Al hacer clic en un conjunto de pruebas, se muestra una descripción y todas las pruebas de nivel inferior en ese conjunto de pruebas. Los errores en un conjunto de pruebas pueden ser reconocidos inmediatamente por el color rojo. El número de pruebas fallidas se muestra en la esquina superior derecha.</p>
+<img alt="../../_images/etf-inspect-test-reports-3.png" src="../../_images/etf-inspect-test-reports-3.png" />
+<p>El color verde indica una prueba superada. Las pruebas aprobadas, que requieren pasos de prueba manuales adicionales que no se pudieron automatizar, son de color naranja. El color naranja también puede indicar una prueba que se ha omitido porque depende de otra prueba que haya fallado. El estado exacto se puede encontrar debajo de la descripción.</p>
+<p>El número de niveles depende del objeto de prueba probado. Si se han ejecutado pruebas de servicio, la jerarquía es la siguiente:</p>
+<ul class="simple">
+<li><p>Conjuntos de pruebas ejecutables</p></li>
+<li><p>Módulos de prueba (agrupa casos de prueba)</p></li>
+<li><p>Casos de prueba (agrupa pasos de prueba)</p></li>
+<li><p>Pasos de prueba (interacciones con el servicio, agrupa aserciones de prueba)</p></li>
+<li><p>Aserciones de prueba (pruebas atómicas)</p></li>
+</ul>
+<p>En una prueba basada en archivos, los módulos de prueba y los pasos de prueba no existen y no se muestran en el informe.</p>
+<p>Cada prueba enumera los requisitos y proporciona una descripción sobre cómo se prueban. La prueba puede incluir un enlace a un conjunto de pruebas abstractas, de la que se ha derivado la prueba (<em>Source</em>).</p>
+<img alt="../../_images/etf-inspect-test-reports-4.png" src="../../_images/etf-inspect-test-reports-4.png" />
+<p>Las aserciones representan consultas de prueba atómica en el nivel más bajo. Error, las aserciones de color rojo muestran mensajes de error en la sección <em>Messages</em>.</p>
+<img alt="../../_images/etf-inspect-test-reports-5.png" src="../../_images/etf-inspect-test-reports-5.png" />
+<p>También se puede encontrar información útil en el siguiente nivel superior, como, por ejemplo, la respuesta de un servicio en el nivel Test Step (tenga en cuenta el enlace <em>Open saved response</em> en el informe).</p>
+<img alt="../../_images/etf-inspect-test-reports-6.png" src="../../_images/etf-inspect-test-reports-6.png" />
+</section>
+<section id="resources">
+<h2><a class="toc-backref" href="#id11">Recursos</a><a class="headerlink" href="#resources" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Usando las instrucciones proporcionadas anteriormente, encuentre a continuación un conjunto predefinido de recursos que puede probar en el ETF:</p>
+<ul class="simple">
+<li><p>Conjuntos de datos GML: algunos conjuntos de datos predefinidos se pueden descargar desde <a class="reference external" href="https://github.com/etf-validator/OSGeoLive-ETF/tree/main/resources/GML-data-sets">aquí</a>.</p></li>
+<li><p>Servicios WMS: una lista de servicios está disponible <a class="reference external" href="https://github.com/etf-validator/OSGeoLive-ETF/tree/main/resources/WMS-services">aquí</a>.</p></li>
+<li><p>Servicios de WFS: una lista de servicios está disponible <a class="reference external" href="https://github.com/etf-validator/OSGeoLive-ETF/tree/main/resources/WFS-services">aquí</a>.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Nota</p>
+<p>Algunos de los conjuntos de datos GML proporcionados anteriormente no pasan todas las pruebas, por lo que puede intentar corregirlos (en función de los errores informados en el informe de prueba) antes de validarlos nuevamente hasta que todas las pruebas se realicen correctamente.</p>
+</div>
+</section>
+<section id="what-s-next">
+<h2><a class="toc-backref" href="#id12">¿Qué sigue?</a><a class="headerlink" href="#what-s-next" title="Enlazar permanentemente con este título">¶</a></h2>
+<p>Esta fue solo una breve descripción del ETF. Hay más información en la instalación de demostración y en el <a class="reference external" href="https://github.com/etf-validator">ETF GitHub space</a>.</p>
+<p>Por favor, compruebe también:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://docs.etf-validator.net/v2.0/User_manuals/Simplified_workflows.html">Manual de usuario</a></p></li>
+<li><p><a class="reference external" href="https://docs.etf-validator.net/v2.0/Admin_manuals/index.html">Manual del administrador</a></p></li>
+<li><p><a class="reference external" href="https://docs.etf-validator.net/v2.0/#_developer_manuals">Manual del desarrollador</a></p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>
