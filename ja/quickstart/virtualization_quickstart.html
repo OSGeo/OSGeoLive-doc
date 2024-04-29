@@ -78,16 +78,12 @@
 <li><p><a class="reference external" href="https://www.virtualbox.org/">Virtual Box</a> をダウンロードし、ソフトウェアをインストールしてください。Windowsではインストーラを実行します。もしくは、UbuntuのようなLinuxシステムでは以下を実行します:</p>
 <p><code class="docutils literal notranslate"><span class="pre">apt-get</span> <span class="pre">install</span> <span class="pre">virtualbox-ose</span></code></p>
 </li>
-<li><p>OSGeoの仮想ディスクファイル(vmdk)を <a class="reference internal" href="../download.html"><span class="doc">live.osgeo.org</span></a> からダウンロードします。</p>
-<ul class="simple">
-<li><p><strong>osgeolive-vm</strong> で、7-zipファイルをダウンロードします。次に、ダウンロードしたファイルを解凍します(<a class="reference external" href="https://www7-zip.org">7zip</a> を使用します)。</p></li>
-</ul>
-</li>
+<li><p>Download the OSGeo Virtual disk file (vmdk) from the links at <a class="reference internal" href="../download.html"><span class="doc">live.osgeo.org</span></a>. Then unzip the downloaded file (using <a class="reference external" href="https://www.7-zip.org">7-Zip</a> ).</p></li>
 </ul>
 <p><strong>ハードウェア</strong></p>
 <ul class="simple">
 <li><p><strong>RAM</strong>: 最低2GB。Lubuntuシステムは1GBのRAMでよく動作しますが、いくつかのアプリケーション(GeoServerなど)は少なくとも同じ量のメモリーを確保する必要があります。このため、スムーズに動作させるために合計2GBを推奨します。</p></li>
-<li><p><strong>予備</strong>: 最低20GBのハードディスクスペースが必要です。<a class="reference internal" href="../download.html"><span class="doc">live.osgeo.org</span></a> の仮想ディスクファイル(vmdk)は、解凍するとだいたい10GBとなります。また、仮想マシン上で作業できるスペースを確保するために、より多くのスペースが必要になります。このため、合計20GBを推奨します。</p></li>
+<li><p><strong>Spare</strong>: Minimum 30 GB Hard Disk Space. The virtual disk file (vmdk) from <a class="reference internal" href="../download.html"><span class="doc">live.osgeo.org</span></a>  unzips to 22 GB. You'll also want more space to allow some room to work on the virtual machine. So a total of 30 GB is a good recommendation.</p></li>
 <li><p><strong>CPU</strong>: どのようなCPUでも構いませんが、&quot;仮想化技術&quot; をサポートしたプロセッサの方が高速です。お手持ちのコンピュータが <a class="reference external" href="https://www.intel.com/content/www/us/en/support/articles/000005486/processors.html">仮想化技術</a> に対応しているか確認してみてください。</p></li>
 </ul>
 <div class="admonition note">
@@ -107,20 +103,20 @@
 <li><p>OSGeoLiveのような名前を入力し、&quot;タイプ&quot; にLinux、&quot;バージョン&quot; にUbuntu (64-bit)を選択して、 <strong>次へ</strong> をクリックします。</p></li>
 </ol>
 <blockquote>
-<div><a class="reference internal image-reference" href="../../_images/virtualbox_select_name.png"><img alt="../../_images/virtualbox_select_name.png" src="../../_images/virtualbox_select_name.png" style="width: 247.79999999999998px; height: 280.0px;" /></a>
+<div><a class="reference internal image-reference" href="../../_images/virtualbox_select_name.png"><img alt="../../_images/virtualbox_select_name.png" src="../../_images/virtualbox_select_name.png" style="width: 508.2px; height: 263.2px;" /></a>
 </div></blockquote>
 <ol class="arabic simple" start="3">
 <li><p>次の画面でメモリを少なくとも1024MBに設定します (以下のスクリーンショットのように、ホストコンピュータが4GB以上の場合はより大きな値を設定できます)。</p></li>
 </ol>
 <blockquote>
-<div><a class="reference internal image-reference" href="../../_images/vmdk_memory.png"><img alt="../../_images/vmdk_memory.png" src="../../_images/vmdk_memory.png" style="width: 228.8px; height: 261.3px;" /></a>
+<div><a class="reference internal image-reference" href="../../_images/vmdk_memory.png"><img alt="../../_images/vmdk_memory.png" src="../../_images/vmdk_memory.png" style="width: 471.90000000000003px; height: 244.4px;" /></a>
 </div></blockquote>
 <ol class="arabic simple" start="4">
 <li><p>続けて、次の画面で <strong>すでにある仮想ハードディスクファイルを使用する</strong> を選択します。フォルダアイコンをクリックし、&quot;追加&quot; から保存したOSGeoLiveのvmdkファイルをブラウズします。ファイルを選択し、 <strong>選択</strong> をクリックしてから <strong>作成</strong> をクリックします。</p></li>
 </ol>
 <blockquote>
 <div><p>これで、Virtual Boxに <strong>OSGeoLive</strong> が表示されるはずです。</p>
-<a class="reference internal image-reference" href="../../_images/vmdk_disk.png"><img alt="../../_images/vmdk_disk.png" src="../../_images/vmdk_disk.png" style="width: 229.45000000000002px; height: 261.3px;" /></a>
+<a class="reference internal image-reference" href="../../_images/vmdk_disk.png"><img alt="../../_images/vmdk_disk.png" src="../../_images/vmdk_disk.png" style="width: 471.90000000000003px; height: 244.4px;" /></a>
 </div></blockquote>
 </section>
 <section id="step-2-configure-vm">
@@ -136,14 +132,14 @@
 <li><p><strong>ディスプレイ</strong> セクションに移動し、ビデオメモリーを32か64MBに増やします。一部のホストオペレーティングシステムでは、表示を正しく機能させるために &quot;3Dアクセラレータを有効化&quot; が必要になる場合があります。</p></li>
 </ol>
 <blockquote>
-<div><a class="reference internal image-reference" href="../../_images/vmdk_display.png"><img alt="../../_images/vmdk_display.png" src="../../_images/vmdk_display.png" style="width: 424.45px; height: 282.1px;" /></a>
+<div><a class="reference internal image-reference" href="../../_images/vmdk_display.png"><img alt="../../_images/vmdk_display.png" src="../../_images/vmdk_display.png" style="width: 408.85px; height: 332.15000000000003px;" /></a>
 </div></blockquote>
 <p><strong>ホストからのファイルアクセスのための共有フォルダの追加</strong></p>
 <ol class="arabic simple" start="3">
 <li><p><strong>共有フォルダー</strong> セクションに移動し、<strong>フォルダー追加</strong> (右側の緑の+アイコン)をクリックし、仮想マシン内部で共有したいホストコンピュータのディレクトリを指定します。</p></li>
 </ol>
 <blockquote>
-<div><a class="reference internal image-reference" href="../../_images/vmdk_shared_folders.png"><img alt="../../_images/vmdk_shared_folders.png" src="../../_images/vmdk_shared_folders.png" style="width: 423.15000000000003px; height: 280.8px;" /></a>
+<div><a class="reference internal image-reference" href="../../_images/vmdk_shared_folders.png"><img alt="../../_images/vmdk_shared_folders.png" src="../../_images/vmdk_shared_folders.png" style="width: 409.5px; height: 334.1px;" /></a>
 </div></blockquote>
 <p>共有フォルダを読み取り専用にし、自動マウントすることもできます。 &quot;フォルダーのパス&quot; と &quot;フォルダー名&quot; を定義したら、OKをクリックし、もう一度OKをクリックして設定ウィンドウを閉じます。</p>
 </section>
@@ -151,7 +147,9 @@
 <h2>ステップ3: 仮想マシンの起動<a class="headerlink" href="#step-3-running-the-virtual-machine" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <p><strong>起動</strong> (緑の矢印) ボタンをクリックして、仮想マシンを起動しましょう。</p>
 <ul>
-<li><p>OSGeoLiveの仮想ディスプレイ(ウィンドウサイズなど)は非常に小さく、Guest Additionsをインストールするまで大きくすることができない場合があります。VirtualBox Guest Additionをインストールしておくと、フルスクリーンモードを利用できるようになります。</p>
+<li><p>The OSGeo-Live virtual display (i.e., the window size) may be very small, and will not be able to increase until you install Guest Additions.
+You should install the virtualbox guest additions, this will allow you to use full-screen mode and scaled mode. These can be installed by running the command below in a terminal.
+When prompted for a password, you should use the default <code class="docutils literal notranslate"><span class="pre">user</span></code>.</p>
 <p><code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">apt-get</span> <span class="pre">install</span> <span class="pre">--yes</span> <span class="pre">virtualbox-guest-utils</span> <span class="pre">virtualbox-guest-x11</span></code></p>
 </li>
 </ul>
@@ -160,7 +158,7 @@
 <div><ol class="arabic simple">
 <li><p>VirtualBoxのデバイスメニューから、 <strong>Guest Additions CD イメージの挿入</strong> を選択します</p></li>
 <li><p>リムーバブルメディアを <strong>File Manager</strong> で開くよう表示されたら、 <strong>OK</strong> をクリックします。</p></li>
-<li><p><strong>File Manager</strong> で <strong>Tools</strong> → <strong>Open Terminal</strong> メニューを選択します。</p></li>
+<li><p>In <strong>File Manager</strong>, select <strong>Tools</strong> → <strong>Open Terminal</strong>.</p></li>
 <li><p>端末で以下を入力します:</p></li>
 </ol>
 <blockquote>
@@ -168,6 +166,7 @@
 </div></blockquote>
 <ol class="arabic simple" start="5">
 <li><p>ENTERを押下します。</p></li>
+<li><p>When prompted for a password, you should use the default <code class="docutils literal notranslate"><span class="pre">user</span></code>.</p></li>
 </ol>
 </div></blockquote>
 </section>
