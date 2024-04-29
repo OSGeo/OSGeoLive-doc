@@ -159,7 +159,7 @@ Now you should get an idea how easy it is to change a Mapbender application with
   .. image:: /images/projects/mapbender/mapbender3_application_elements.png
      :scale: 70 %
 
-You find detailed information on every element in the `Mapbender element documentation <https://doc.mapbender.org/en/functions.html>`_.
+You find detailed information on every element in the `Mapbender element documentation <https://doc.mapbender.org/en/elements.html>`_.
 
 
 Things to try
