@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-16 13:49+0000\n"
+"POT-Creation-Date: 2024-04-29 02:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.14.0\n"
 
 #: ../../build/doc/contact.rst:2
 msgid "Contact Us"
@@ -83,8 +83,8 @@ msgstr ""
 
 #: ../../build/doc/contact.rst:35
 msgid ""
-"Stay tuned and follow OSGeoLive on Twitter `@osgeolive "
-"<https://mobile.twitter.com/osgeolive>`_."
+"Stay tuned and follow OSGeoLive on Mastodon `@osgeolive "
+"<https://fosstodon.org/@osgeolive>`_."
 msgstr ""
 
 #: ../../build/doc/contact.rst:38

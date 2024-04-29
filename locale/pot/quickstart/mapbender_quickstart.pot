@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"POT-Creation-Date: 2024-04-29 02:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -245,7 +245,7 @@ msgid "Now you should get an idea how easy it is to change a Mapbender applicati
 msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:168
-msgid "You find detailed information on every element in the `Mapbender element documentation <https://doc.mapbender.org/en/functions.html>`_."
+msgid "You find detailed information on every element in the `Mapbender element documentation <https://doc.mapbender.org/en/elements.html>`_."
 msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:172
@@ -340,6 +340,7 @@ msgstr ""
 msgid "OSGeo Project"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""

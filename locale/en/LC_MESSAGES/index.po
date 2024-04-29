@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-21 20:07+0000\n"
+"POT-Creation-Date: 2024-04-29 02:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.14.0\n"
 
 #: ../../build/doc/index.rst:3
 msgid "Welcome to |osgeolive-version|"
@@ -25,13 +25,12 @@ msgstr ""
 msgid ""
 "`OSGeoLive <https://live.osgeo.org>`_ is a self-contained bootable DVD, "
 "USB thumb drive or Virtual Machine based on `Lubuntu "
-"<https://lubuntu.net>`_, that allows you to try a wide variety of open "
+"<https://lubuntu.me>`_, that allows you to try a wide variety of open "
 "source geospatial software without installing anything. It is composed "
 "entirely of free software, allowing it to be freely distributed, "
 "duplicated and passed around."
 msgstr ""
 
-#: ../../build/doc/index.rst:-1
 msgid "boot select"
 msgstr ""
 
@@ -84,11 +83,11 @@ msgid ""
 "OSGeoLive applications, is available with slides, script"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr ""
 
