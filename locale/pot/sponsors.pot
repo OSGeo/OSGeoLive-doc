@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"POT-Creation-Date: 2024-04-29 07:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,8 +20,8 @@ msgstr ""
 msgid "OSGeoLive Sponsors"
 msgstr ""
 
-#: ../../build/doc/sponsors.rst:-1
-#: ../../build/doc/sponsors_osgeo.rst:-1
+#: ../../build/doc/sponsors.rst:None
+#: ../../build/doc/sponsors_osgeo.rst:None
 msgid "OSGeo"
 msgstr ""
 
@@ -29,7 +29,7 @@ msgstr ""
 msgid "The Open Source Geospatial Foundation (OSGeo) provides the primary development & hosting infrastructure and personnel for the project, and for many of the software teams which contribute to it."
 msgstr ""
 
-#: ../../build/doc/sponsors.rst:-1
+#: ../../build/doc/sponsors.rst:None
 msgid "Information Center for the Environment at the University of California, Davis"
 msgstr ""
 
@@ -37,7 +37,7 @@ msgstr ""
 msgid "Information Center for the Environment at the University of California, Davis provides hardware resources and development support to the OSGeoLive project."
 msgstr ""
 
-#: ../../build/doc/sponsors.rst:-1
+#: ../../build/doc/sponsors.rst:None
 msgid "National Technical University of Athens"
 msgstr ""
 
@@ -45,7 +45,7 @@ msgstr ""
 msgid "Remote Sensing Laboratory at the National Technical University of Athens, provides hardware resources and development support to the OSGeoLive project."
 msgstr ""
 
-#: ../../build/doc/sponsors.rst:-1
+#: ../../build/doc/sponsors.rst:None
 msgid "The DebianGIS and UbuntuGIS projects"
 msgstr ""
 
@@ -2761,7 +2761,7 @@ msgid "Alexander Kleshnin"
 msgstr ""
 
 #: ../../build/translators.csv:1
-msgid "a.hast mail ru"
+msgid "kleshnin.alexander gmail.com"
 msgstr ""
 
 #: ../../build/translators.csv:1

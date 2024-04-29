@@ -50,17 +50,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: build/_build/html
-
-      - name: Update locale
-        if: github.ref == 'refs/heads/master'
-        run: |
-          mkdir -p build
-          bash tools/transifex/update_locale.sh
-
-          # Add the files, commit and push
-          for line in `cat build/doc/locale_changes_po_pot.txt`; do git add "$line"; done
-          git diff --staged --quiet || git commit -m "Update locale: commit ${{ env.GIT_HASH }}"
-          git fetch origin master
-          git restore .  # Remove the unstaged changes before rebasing
-          git rebase origin/master
-          git push origin master
