@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-10-31 09:19+0000\n"
+"POT-Creation-Date: 2024-04-29 07:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.14.0\n"
 
 #: ../../build/doc/download.rst:7
 msgid "Download"
@@ -28,15 +28,11 @@ msgid ""
 msgstr ""
 
 #: ../../build/doc/download.rst:11
-msgid ""
-"https://sourceforge.net/projects/osgeo-live/files/|osgeolive-version-"
-"only|/"
+msgid "|sourceforge-download|"
 msgstr ""
 
 #: ../../build/doc/download.rst:13
-msgid ""
-"https://download.osgeo.org/livedvd/releases/|osgeolive-version-only|/ "
-"(.vmdk)"
+msgid "|osgeo-download| (.vmdk)"
 msgstr ""
 
 #: ../../build/doc/download.rst:16

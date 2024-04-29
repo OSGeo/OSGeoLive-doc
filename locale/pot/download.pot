@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-15 20:42-0600\n"
+"POT-Creation-Date: 2024-04-29 07:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,11 +25,11 @@ msgid "The latest stable release is |osgeolive-version| and can be downloaded fr
 msgstr ""
 
 #: ../../build/doc/download.rst:11
-msgid "https://sourceforge.net/projects/osgeo-live/files/|osgeolive-version-only|/"
+msgid "|sourceforge-download|"
 msgstr ""
 
 #: ../../build/doc/download.rst:13
-msgid "https://download.osgeo.org/livedvd/releases/|osgeolive-version-only|/ (.vmdk)"
+msgid "|osgeo-download| (.vmdk)"
 msgstr ""
 
 #: ../../build/doc/download.rst:16
