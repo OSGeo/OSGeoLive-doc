@@ -12,6 +12,7 @@ endif()
 project(OSGeoLiveDoc LANGUAGES NONE)
 set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
 
+
 set(iso_size "4.4" CACHE STRING "for osgeolive-X.X.iso")
 set(vm_7z_size "7.0" CACHE STRING "for osgeo-vm-X.X.7z")
 set(req_hd_size "22" CACHE STRING "required hard disk space")
