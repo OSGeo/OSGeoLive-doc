@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2023-04-13 20:08+0000\n"
+"PO-Revision-Date: 2024-05-02 06:45+0000\n"
 "Last-Translator: luca <lucadeluge@gmail.com>\n"
 "Language-Team: Italian <https://weblate.osgeo.org/projects/osgeolive/"
 "re3gistry_quickstart/it/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:12
@@ -80,17 +80,15 @@ msgid "Start the Re3gistry"
 msgstr "Avvia il Re3gistry"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:36
-#, fuzzy
 msgid ""
 "Choose *'Start Re3gistry'* from the |menu_re3gistry-Start| menu.  The "
 "application will take a few moments to start up. Firefox opens the "
 "*Re3gistry landing page* (you can also open this manually by pointing "
 "your browser to http://localhost:8080/re3gistry2)."
 msgstr ""
-"Scegli *'Start Re3gistry'* dal menu :menuselection:`Geospatial --> Web "
-"Services --> Re3gistry`. L'applicazione impiegherà alcuni istanti per "
-"avviarsi. Firefox apre la *pagina di accesso del Re3gistry* (puoi anche "
-"aprirla manualmente collegandosi con il browser a "
+"Scegli *'Start Re3gistry'* dal menu |menu_re3gistry-Start|. L'applicazione "
+"impiegherà alcuni istanti per avviarsi. Firefox apre la *pagina di accesso "
+"del Re3gistry* (puoi anche aprirla manualmente collegandosi con il browser a "
 "http://localhost:8080/re3gistry2)."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:41

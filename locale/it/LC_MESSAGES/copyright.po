@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2023-12-27 23:45+0000\n"
+"PO-Revision-Date: 2024-05-02 06:45+0000\n"
 "Last-Translator: luca <lucadeluge@gmail.com>\n"
 "Language-Team: Italian <https://weblate.osgeo.org/projects/osgeolive/"
 "copyright/it/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/copyright.rst:2
@@ -74,26 +74,24 @@ msgstr ""
 "riassunti di seguito in questa pagina."
 
 #: ../../build/doc/copyright.rst:21
-#, fuzzy
 msgid ""
 "Project Overviews and Overview Translations, are provided under a "
 "`Creative Commons Attribution 3.0 Unported License "
 "<https://creativecommons.org/licenses/by/3.0/>`__."
 msgstr ""
-"Le Panoramiche dei Progetti e le loro Traduzioni, sono distribuite sotto "
-"la licenza `Creative Commons Attribution 3.0 Unported "
-"<https://creativecommons.org/licenses/by/3.0/>`_."
+"Le Panoramiche dei Progetti e le loro Traduzioni, sono distribuite sotto la `"
+"Licenza Creative Commons Attribution 3.0 Unported <https://creativecommons."
+"org/licenses/by/3.0/>`_."
 
 #: ../../build/doc/copyright.rst:24
-#, fuzzy
 msgid ""
 "Quickstarts and Quickstart Translations, are provided under a `Creative "
 "Commons Attribution-ShareAlike 3.0 Unported License "
 "<https://creativecommons.org/licenses/by-sa/3.0/>`__."
 msgstr ""
-"Le Guide Rapide e loro traduzioni sono distribuite sotto la licenza "
-"Creative Commons Attribution-ShareAlike 3.0 Unported License "
-"<https://creativecommons.org/licenses/by-sa/3.0/>`_."
+"Le Guide Rapide e loro traduzioni sono distribuite sotto la `Licenza "
+"Creative Commons Attribution-ShareAlike 3.0 Unported <https://creativecommons"
+".org/licenses/by-sa/3.0/>`_."
 
 #: ../../build/doc/copyright.rst:27
 msgid ""
@@ -123,7 +121,6 @@ msgid "Attributing OSGeoLive Documentation"
 msgstr "Attribuire la documentazione di OSGeoLive"
 
 #: ../../build/doc/copyright.rst:34
-#, fuzzy
 msgid ""
 "As per the `terms of the Creative Commons license "
 "<https://creativecommons.org/faq/#How_do_I_properly_attribute_a_Creative_Commons_licensed_work.3F>`__,"
@@ -134,13 +131,13 @@ msgid ""
 "new document will also need to be licenced under the `CC By-SA "
 "<https://creativecommons.org/licenses/by-sa/3.0/>`__."
 msgstr ""
-"Secondo i `termini della licenza Creative Commons "
-"<https://creativecommons.org/faq/#How_do_I_properly_attribute_a_Creative_Commons_licensed_work.3F>`_,"
-"  se si include la documentazione di OSGeoLive in un nuovo documento, "
-"sarà necessario attribuire i collaboratori. Inoltre, se si includono i "
+"Secondo i `termini della licenza Creative Commons <https://creativecommons."
+"org/faq/#How_do_I_properly_attribute_a_Creative_Commons_licensed_work.3F>`_, "
+"se si include la documentazione di OSGeoLive in un nuovo documento, sarà "
+"necessario attribuire i collaboratori. Inoltre, se si includono i "
 "Quickstart, che sono rilasciati sotto la licenza `CC By-SA "
-"<https://creativecommons.org/licenses/by-sa/3.0/>`_, allora anche il "
-"nuovo documento dovrà essere rilasciato sotto la licenza `CC By-SA "
+"<https://creativecommons.org/licenses/by-sa/3.0/>`_, allora anche il nuovo "
+"documento dovrà essere rilasciato sotto la licenza `CC By-SA "
 "<https://creativecommons.org/licenses/by-sa/3.0/>`_."
 
 #: ../../build/doc/copyright.rst:43
@@ -160,7 +157,6 @@ msgid "**Verbose, suitable for a 100 page thesis:**"
 msgstr "**Verboso, adatto a una tesi di 100 pagine:**"
 
 #: ../../build/doc/copyright.rst:50
-#, fuzzy
 msgid ""
 "|CC-By-SA-med| This document includes content from the \"gvSIG "
 "Quickstart\" created by Simon Cropper under the `Creative Commons "
@@ -169,12 +165,12 @@ msgid ""
 "OSGeoLive project, :doc:`quickstart/gvsig_quickstart`, and downloaded on "
 "25 July 2011. The original work was translated from English to German."
 msgstr ""
-"|CC-By-SA-med| Questo documento include contenuti del \"gvSIG "
-"Quickstart\" creato da Simon Cropper sotto la licenza Creative Commons "
-"Attribution-ShareAlike 3.0 Unported licence, "
-"https://creativecommons.org/licenses/by-sa/3.0/ disponibile dal progetto "
-"OSGeoLive, :doc:`quickstart/gvsig_quickstart`, e scaricato il 25 luglio "
-"2011. Il lavoro originale è stato tradotto dall'inglese al tedesco."
+"|CC-By-SA-med| Questo documento include contenuti del \"gvSIG Quickstart\" "
+"creato da Simon Cropper sotto la licenza Creative Commons Attribution-"
+"ShareAlike 3.0 Unported licence, https://creativecommons.org/licenses/by-sa/3"
+".0/ disponibile dal progetto OSGeoLive, :doc:`quickstart/gvsig_quickstart`, "
+"e scaricato il 25 luglio 2011. Il lavoro originale è stato tradotto "
+"dall'inglese al tedesco."
 
 #: ../../build/doc/copyright.rst
 msgid "CC-By-SA-med"
@@ -185,7 +181,6 @@ msgid "**Concise CC-By-SA and attribution:**"
 msgstr "**CC-By-SA concisa ed attribuzione:**"
 
 #: ../../build/doc/copyright.rst:62
-#, fuzzy
 msgid ""
 "© 2011 [Your Name] under a `CC By SA License "
 "<https://creativecommons.org/licenses/by-sa/3.0/>`__.  [Derived "
@@ -193,9 +188,9 @@ msgid ""
 ":doc:`OSGeoLive contributors <copyright>`."
 msgstr ""
 "© 2011 [Il tuo nome] sotto una licenza `CC By SA License "
-"<https://creativecommons.org/licenses/by-sa/3.0/>`_. [Derivato "
-"da|Include|Estende] :doc:`OSGeoLive <index>` documentazione da "
-":doc:`OSGeoLive contributorscontributors <copyright>`."
+"<https://creativecommons.org/licenses/by-sa/3.0/>`_.  [Derivato "
+"da|Include|Estende] :doc:`OSGeoLive <index>` documentazione da :doc:`"
+"OSGeoLive contributorscontributors <copyright>`."
 
 #: ../../build/doc/copyright.rst:67
 msgid "**Alternative Concise CC-By and attribution:**"
@@ -324,9 +319,9 @@ msgid "cartaro_overview"
 msgstr "cartaro_overview"
 
 #: ../../build/licenses.csv:1
-#, fuzzy
 msgid "Friedjoff Trautwein, https://geops.com; Patric Hafner, https://geops.com"
-msgstr "Friedjoff Trautwein, https://geops.de; Patric Hafner, https://geops.de"
+msgstr ""
+"Friedjoff Trautwein, https://geops.com; Patric Hafner, https://geops.com"
 
 #: ../../build/licenses.csv:1
 msgid "Cameron Shorter, https://www.jirotech.com"
@@ -857,13 +852,12 @@ msgid "cartaro_quickstart"
 msgstr "cartaro_quickstart"
 
 #: ../../build/licenses.csv:1
-#, fuzzy
 msgid ""
 "Friedjoff Trautwein (https://geops.com); Augustus Kling "
 "(https://geops.com); Patric Hafner (https://geops.com)"
 msgstr ""
-"Friedjoff Trautwein (https://geops.de); Augustus Kling "
-"(https://geops.de); Patric Hafner (https://geops.de)"
+"Friedjoff Trautwein (https://geops.com); Augustus Kling (https://geops.com); "
+"Patric Hafner (https://geops.com)"
 
 #: ../../build/licenses.csv:1
 msgid "cesium_quickstart"

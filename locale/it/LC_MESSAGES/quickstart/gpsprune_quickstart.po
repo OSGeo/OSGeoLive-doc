@@ -8,21 +8,22 @@
 # Simone Falceri, 2022
 # Federico Gianoli <fritz4@gmail.com>, 2022
 # Stefano Campus <skampus@gmail.com>, 2022
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Stefano Campus <skampus@gmail.com>, 2022\n"
+"PO-Revision-Date: 2024-05-02 06:45+0000\n"
+"Last-Translator: luca <lucadeluge@gmail.com>\n"
+"Language-Team: Italian <https://weblate.osgeo.org/projects/osgeolive/"
+"gpsprune_quickstart/it/>\n"
 "Language: it\n"
-"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 "
-"? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:17
@@ -60,13 +61,12 @@ msgid "Start GpsPrune"
 msgstr "Avvia GpsPrune"
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:28
-#, fuzzy
 msgid ""
 "From the Start menu, choose |menu_gpsprune|.  This will then give you the"
 " empty window shown below."
 msgstr ""
-"Dal menu Start, scegli :menuselection:`Geospatial --> Navigation and Maps"
-" --> GpsPrune`. Questo ti darà la finestra vuota mostrata qui sotto."
+"Dal menu Start, |menu_gpsprune|.  Questo ti darà la finestra vuota mostrata "
+"qui sotto."
 
 #: ../../build/doc/quickstart/gpsprune_quickstart.rst:33
 msgid ""
@@ -409,4 +409,3 @@ msgstr "Progetto OSGeo"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "Comunità OSGeo"
-
