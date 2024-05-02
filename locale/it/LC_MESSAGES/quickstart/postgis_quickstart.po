@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2023-12-27 23:45+0000\n"
+"PO-Revision-Date: 2024-05-02 06:45+0000\n"
 "Last-Translator: luca <lucadeluge@gmail.com>\n"
 "Language-Team: Italian <https://weblate.osgeo.org/projects/osgeolive/"
 "postgis_quickstart/it/>\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:39
@@ -723,7 +723,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:-1
 msgid "phpPgAdmin main"
-msgstr ""
+msgstr "phpPgAdmin main"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:483
 msgid ""
