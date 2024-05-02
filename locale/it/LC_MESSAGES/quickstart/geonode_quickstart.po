@@ -10,21 +10,22 @@
 # Simone Falceri, 2022
 # Federico Gianoli <fritz4@gmail.com>, 2022
 # Stefano Campus <skampus@gmail.com>, 2022
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Stefano Campus <skampus@gmail.com>, 2022\n"
+"PO-Revision-Date: 2024-05-02 06:45+0000\n"
+"Last-Translator: luca <lucadeluge@gmail.com>\n"
+"Language-Team: Italian <https://weblate.osgeo.org/projects/osgeolive/"
+"geonode_quickstart/it/>\n"
 "Language: it\n"
-"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 "
-"? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:22
@@ -54,15 +55,13 @@ msgid "Start GeoNode"
 msgstr "Avvia GeoNode"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:36
-#, fuzzy
 msgid ""
 "To start GeoNode on your OSGeoLive DVD you have to choose |menu_geonode-"
 "Start| and after a few moments the GeoNode webpage will automatically "
 "open at http://geonode. The page will look like the image below."
 msgstr ""
-"Per avviare GeoNode sul tuo DVD OSGeoLive devi selezionare  "
-":menuselection:`Geospatial --> Browser Clients --> GeoNode --> Start "
-"GeoNode` e dopo pochi secondi la homepage di GeoNode si aprirà "
+"Per avviare GeoNode sul tuo DVD OSGeoLive devi selezionare |menu_geonode-"
+"Start| e dopo pochi secondi la pagina internet di GeoNode si aprirà "
 "automaticamente all'indirizzo http://geonode. La pagina apparirà come "
 "nell'immagine qui sotto."
 
@@ -437,4 +436,3 @@ msgstr "Progetto OSGeo"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "Comunità OSGeo"
-

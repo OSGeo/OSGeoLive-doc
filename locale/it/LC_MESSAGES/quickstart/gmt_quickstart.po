@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2023-12-27 23:45+0000\n"
+"PO-Revision-Date: 2024-05-02 06:45+0000\n"
 "Last-Translator: luca <lucadeluge@gmail.com>\n"
 "Language-Team: Italian <https://weblate.osgeo.org/projects/osgeolive/"
 "gmt_quickstart/it/>\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:14
@@ -199,12 +199,10 @@ msgid "Install the following packages:"
 msgstr "Installare i seguenti pacchetti:"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:124
-#, fuzzy
 msgid "gmt-dcw"
 msgstr "gmt-dcw"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:125
-#, fuzzy
 msgid "gmt-gshhg"
 msgstr "gmt-gshhg"
 

@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2023-12-27 23:45+0000\n"
+"PO-Revision-Date: 2024-05-02 06:45+0000\n"
 "Last-Translator: luca <lucadeluge@gmail.com>\n"
 "Language-Team: Italian <https://weblate.osgeo.org/projects/osgeolive/"
 "presentation/it/>\n"
@@ -30,7 +30,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/presentation/revealjs/presentation.rst:7
@@ -92,9 +92,8 @@ msgstr "https://osgeo.github.io/OSGeoLive-doc/en/presentation.html"
 
 #: ../../build/presentation/revealjs/presentation.rst:51
 #: ../../build/presentation/revealjs/presentation.rst:62
-#, fuzzy
 msgid "What is new in 16.0"
-msgstr "Cosa c'è di nuovo nella 15.0"
+msgstr "Cosa c'è di nuovo nella 16.0"
 
 #: ../../build/presentation/revealjs/presentation.rst:64
 msgid "Updated to Lubuntu 22.04 LTS"
@@ -229,7 +228,7 @@ msgstr "OSGeo"
 
 #: ../../build/presentation/revealjs/presentation.rst:211
 msgid "Non Profit for geospatial community, fostering"
-msgstr ""
+msgstr "Non Profit per la comunità geospaziale, che promuove"
 
 #: ../../build/presentation/revealjs/presentation.rst:213
 msgid "Free and Open Source Software"
@@ -265,7 +264,7 @@ msgstr "Interoperabilità"
 
 #: ../../build/presentation/revealjs/presentation.rst:234
 msgid "Future Proof"
-msgstr ""
+msgstr "A prova di futuro"
 
 #: ../../build/presentation/revealjs/presentation.rst:235
 msgid "Return on Investment"
