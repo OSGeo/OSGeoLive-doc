@@ -40,7 +40,7 @@ jobs:
           language: [de,en,es,fi,fr,hu,ja,it,nl,pt,sv,tr]
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 2
 
