@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2023-04-13 20:08+0000\n"
-"Last-Translator: luca <lucadeluge@gmail.com>\n"
+"PO-Revision-Date: 2024-05-06 03:49+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Italian <https://weblate.osgeo.org/projects/osgeolive/"
 "actinia_overview/it/>\n"
 "Language: it\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/overview/actinia_overview.rst:18
@@ -73,7 +73,8 @@ msgstr ""
 
 #: ../../build/doc/overview/actinia_overview.rst:42
 msgid "Explore the `tutorial <https://actinia-org.github.io/actinia-core/>`_."
-msgstr "Visualizza il `tutorial <https://mundialis.github.io/actinia_core/>`_."
+msgstr ""
+"Visualizza il `tutorial <https://actinia-org.github.io/actinia-core/>`_."
 
 #: ../../build/doc/overview/actinia_overview.rst:45
 msgid "Details"
