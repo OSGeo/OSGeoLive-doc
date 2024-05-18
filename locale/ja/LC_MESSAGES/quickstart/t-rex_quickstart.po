@@ -6,21 +6,21 @@
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # Ko Nagase <nagase@georepublic.co.jp>, 2022
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2019-07-18 21:56+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2022\n"
+"PO-Revision-Date: 2024-05-18 20:46+0000\n"
+"Last-Translator: Yoichi Kayama <yoichi.kayama@gmail.com>\n"
+"Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
+"t-rex_quickstart/ja/>\n"
 "Language: ja\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)"
-"\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:20
@@ -57,7 +57,7 @@ msgstr "T-Rexを起動"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:35
 msgid "Choose |menu_t-rex|."
-msgstr ""
+msgstr "|menu_t-rex| を選択してください."
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:37
 msgid ""
@@ -111,7 +111,8 @@ msgstr "任意のテキストエディタを開きます(例: :menuselection:`�
 msgid ""
 "Create the file \"ne.toml\" in your home directory: "
 ":file:`/home/user/ne.toml`"
-msgstr "ファイル \"ne.toml\" をホームディレクトリ: :file:`/home/user/ne.toml` に作成します。"
+msgstr "ファイル \"ne.toml\" をホームディレクトリ: :file:`/home/user/ne.toml` "
+"に作成して下さい"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:68
 msgid "Put the following content in it::"
@@ -127,7 +128,7 @@ msgstr "生成されたタイルを検査するには、次のように入力し
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:121
 msgid "What next?"
-msgstr "次のステップ"
+msgstr "次のステップは何?"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:123
 msgid ""
@@ -166,4 +167,3 @@ msgstr "OSGeo プロジェクト"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo コミュニティ"
-
