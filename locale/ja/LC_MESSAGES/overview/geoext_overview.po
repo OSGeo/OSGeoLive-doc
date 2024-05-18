@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2023-04-09 03:08+0000\n"
-"Last-Translator: Ko Nagase <geosanak@gmail.com>\n"
+"PO-Revision-Date: 2024-05-18 20:46+0000\n"
+"Last-Translator: Yoichi Kayama <yoichi.kayama@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
 "geoext_overview/ja/>\n"
 "Language: ja\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/overview/geoext_overview.rst:14
@@ -73,7 +73,7 @@ msgstr "GeoExt スクリーンショット"
 
 #: ../../build/doc/overview/geoext_overview.rst:46
 msgid "Core Features"
-msgstr "主な機能"
+msgstr "主要機能"
 
 #: ../../build/doc/overview/geoext_overview.rst:48
 msgid "UI Components"
