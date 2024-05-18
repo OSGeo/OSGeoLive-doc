@@ -6,21 +6,21 @@
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Ko Nagase <nagase@georepublic.co.jp>, 2022
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2022\n"
+"PO-Revision-Date: 2024-05-18 20:46+0000\n"
+"Last-Translator: Yoichi Kayama <yoichi.kayama@gmail.com>\n"
+"Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
+"mapproxy_quickstart/ja/>\n"
 "Language: ja\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)"
-"\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:22
@@ -206,7 +206,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:101
 msgid "What next?"
-msgstr "次のステップ"
+msgstr "次のステップは何?"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:103
 msgid ""
@@ -235,4 +235,3 @@ msgstr "OSGeo プロジェクト"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo コミュニティ"
-
