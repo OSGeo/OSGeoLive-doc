@@ -8,20 +8,21 @@
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # Ko Nagase <nagase@georepublic.co.jp>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-06 09:15-0500\n"
-"PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2022\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"PO-Revision-Date: 2024-05-18 20:46+0000\n"
+"Last-Translator: Yoichi Kayama <yoichi.kayama@gmail.com>\n"
+"Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
+"gdal_quickstart/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:21
 msgid "GDAL/OGR Quickstart"
@@ -153,7 +154,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:118
 msgid "Each format reports if it is"
-msgstr "各フォーマットは、次の場合にレポートします。"
+msgstr "各フォーマットは、次の場合にレポートします"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:116
 msgid "read only (ro),"
@@ -243,7 +244,8 @@ msgid ""
 "Have a look at your output shapefile with QGIS and ogrinfo (you will learn "
 "more about ogrinfo later in this tutorial)"
 msgstr ""
-"QGISとogrinfoを使用して、出力シェープファイルを見てみましょう(ogrinfoについては、このチュートリアルの後半で詳しく説明します)。"
+"QGISとogrinfoを使用して、出力シェープファイルを見てみましょう(ogrinfoについて"
+"は、このチュートリアルの後半で詳しく説明します)"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:217
 msgid "Reprojecting"
@@ -391,7 +393,7 @@ msgstr "QGISプラグインOGR-Layer-Konverterを試してみてください。"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:451
 msgid "What next?"
-msgstr "次のステップ"
+msgstr "次のステップは何?"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:453
 msgid ""
