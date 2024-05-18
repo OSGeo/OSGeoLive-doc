@@ -6,20 +6,21 @@
 # Translators:
 # Ko Nagase <nagase@georepublic.co.jp>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-06 09:15-0500\n"
-"PO-Revision-Date: 2017-09-20 16:11+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2022\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"PO-Revision-Date: 2024-05-18 20:46+0000\n"
+"Last-Translator: Yoichi Kayama <yoichi.kayama@gmail.com>\n"
+"Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
+"osm_overview/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/osm_overview.rst:15
 msgid "OpenStreetMap"
@@ -58,7 +59,7 @@ msgstr "OSM スクリーンショット"
 
 #: ../../build/doc/overview/osm_overview.rst:38
 msgid "Core Features"
-msgstr "主な特徴"
+msgstr "主要機能"
 
 #: ../../build/doc/overview/osm_overview.rst:40
 msgid "Global massively crowd-sourced dataset"
