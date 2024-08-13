@@ -32,6 +32,7 @@ Core Features
 * Create applications with digitize functionality
 * Create mobile Applications
 * Print high-quality maps using your own PDF templates.
+* Create individual search configurations
 * Digitizing via SQL
 
 * Upload and share remote OGC WMS (Capabilities caching) 
@@ -49,6 +50,8 @@ Implemented Standards
 --------------------------------------------------------------------------------
 
 * OGC Web Map Service (WMS) 1.1.1, 1.3.0
+* OGC Web Map Tile Service (WMTS) 1.0.0
+* Tile Map Service (TMS)
 
 Details
 --------------------------------------------------------------------------------
