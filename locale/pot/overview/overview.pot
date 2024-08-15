@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-02 13:37+0000\n"
+"POT-Creation-Date: 2024-08-15 15:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -52,6 +52,7 @@ msgstr ""
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
 msgstr ""
 
@@ -59,7 +60,6 @@ msgstr ""
 msgid "|osgeo_community| Is an OSGeo Community Project"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
@@ -252,7 +252,7 @@ msgid "|OSGeo_project| :doc:`pygeoapi_overview` - [:doc:`Quickstart <../quicksta
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:165
-msgid "|OSGeo_incubation| :doc:`zoo-project_overview` - [:doc:`Quickstart <../quickstart/zoo-project_quickstart>`] - Web Processing Service"
+msgid "|OSGeo_project| :doc:`zoo-project_overview` - [:doc:`Quickstart <../quickstart/zoo-project_quickstart>`] - Web Processing Service"
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:167
