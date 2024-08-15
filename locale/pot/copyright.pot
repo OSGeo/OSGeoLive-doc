@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-15 17:27+0000\n"
+"POT-Creation-Date: 2024-08-15 17:53+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -370,14 +370,6 @@ msgstr ""
 
 #: ../../build/licenses.csv:1
 msgid "jupyter developers team; Massimo Di Stefano"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "kosmo_overview"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "Sergio Baños Calvo"
 msgstr ""
 
 #: ../../build/licenses.csv:1
@@ -846,10 +838,6 @@ msgstr ""
 
 #: ../../build/licenses.csv:1
 msgid "Massimo Di Stefano"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "kosmo_quickstart"
 msgstr ""
 
 #: ../../build/licenses.csv:1
