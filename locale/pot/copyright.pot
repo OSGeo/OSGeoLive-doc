@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-15 20:42-0600\n"
+"POT-Creation-Date: 2024-08-15 17:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -194,18 +194,6 @@ msgstr ""
 
 #: ../../build/licenses.csv:1
 msgid "Stefan Tzeggai"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "cartaro_overview"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "Friedjoff Trautwein, https://geops.com; Patric Hafner, https://geops.com"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "Cameron Shorter, https://www.jirotech.com"
 msgstr ""
 
 #: ../../build/licenses.csv:1
@@ -722,14 +710,6 @@ msgstr ""
 
 #: ../../build/licenses.csv:1
 msgid "atlasstyler_quickstart"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "cartaro_quickstart"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "Friedjoff Trautwein (https://geops.com); Augustus Kling (https://geops.com); Patric Hafner (https://geops.com)"
 msgstr ""
 
 #: ../../build/licenses.csv:1
