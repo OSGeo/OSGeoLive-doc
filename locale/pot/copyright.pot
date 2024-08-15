@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-15 17:10+0000\n"
+"POT-Creation-Date: 2024-08-15 17:27+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -629,10 +629,6 @@ msgid "spatialite_overview"
 msgstr ""
 
 #: ../../build/licenses.csv:1
-msgid "tilemill_overview"
-msgstr ""
-
-#: ../../build/licenses.csv:1
 msgid "tinyows_overview"
 msgstr ""
 
@@ -1102,14 +1098,6 @@ msgstr ""
 
 #: ../../build/licenses.csv:1
 msgid "OSGeoLive; Micha Silver"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "tilemill_quickstart"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "OSGeoLive; Javier Sanchez"
 msgstr ""
 
 #: ../../build/licenses.csv:1
