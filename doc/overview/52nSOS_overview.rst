@@ -145,10 +145,6 @@ Details
 
 **Community Website:** https://52north.org/research/scope/geospatial-sensing/
 
-**Other 52°North projects on OSGeoLive:** :doc:`WPS <./52nWPS_overview>`
-
-
-
 @VMDK_52nSOS@
 @QUICKSTART_52nSOS@
 
