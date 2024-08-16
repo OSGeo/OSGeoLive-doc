@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"POT-Creation-Date: 2024-08-16 19:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,6 +38,22 @@ msgstr ""
 
 #: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "52nWPS_"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <52nWPS_q_>`__"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "16.0"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Web Processing Services"
 msgstr ""
 
 #: ../../build/doc/prior_applications.rst:1
