@@ -105,7 +105,7 @@ Types is disabled.
 .. image:: /images/projects/ETF/etf-test-suite-selection-4.png
 
 A Test Suite may depend on other Test Suites. The dependencies are also shown in
-the description of the Test Suites.  These dependencies are also automatically
+the description of the Test Suites. These dependencies are also automatically
 executed during the test run.
 
 A click on the *Start* button will open a new view that asks the user about the

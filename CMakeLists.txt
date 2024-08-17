@@ -298,7 +298,7 @@ MACRO(INSERT_INTO_MAP_VMDK _KEY _TARGET)
     if ("${_TARGET}" STREQUAL "Y")
         set(_NOTE  " ")
     else()
-	set(_NOTE ".. note:: This  project is only included on the OSGeoLive virtual machine disk (VMDK)")
+	set(_NOTE ".. note:: This project is only included on the OSGeoLive virtual machine disk (VMDK)")
     endif()
 
     SET("VMDK_${_KEY}" "${_NOTE}")
