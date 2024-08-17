@@ -126,7 +126,7 @@ Y | inspire | NA | N | Y | Geospatial Standards | | Infrastructure for Spatial I
 ###################### | | | | | | | | | | | |
 N | mapslicer | 1.0rc2 | Y | Y | Spatial Tools | | Create Map Tiles | | https://mapproxy.org/ | | MapSlicer | Y
 N | geomajas | 2.4.0 | Y | Y | Browser Facing GIS | 14 | Browser GIS Client | geomajas | http://www.geomajas.org | OSGeo_project | Geomajas | Y
-N | liblas | 1.8.1 | Y | Y | Geospatial Libraries | | LiDAR Data Access | liblas | https://liblas.org/ | | libLAS | N
+N | liblas | retired | Y | Y | Geospatial Libraries | 14 | LiDAR Data Access | liblas | https://liblas.org/ | | libLAS | N
 N | 52nWSS | retired | Y | Y | | 6.5 | Web Security Service, retired after OSGeoLive 6.5 | | http://52north.org/security | | 52 North WSS | N
 N | atlasstyler | retired | Y | Y | | 6 | Style Editor, retired after OSGeoLive 6.0 | Geopublishing | http://en.geopublishing.org/AtlasStyler | | AtlasStyler | N
 N | cartaro | retired | Y | Y | | 10 | Geospatial CMS | | http://cartaro.org | | Cartaro | N
