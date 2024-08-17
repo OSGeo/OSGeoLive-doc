@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-17 15:20+0000\n"
+"POT-Creation-Date: 2024-08-17 15:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -277,14 +277,6 @@ msgid "Creative Commons Attribution 3.0 Unported  (CC BY 3.0)"
 msgstr ""
 
 #: ../../build/licenses.csv:1
-msgid "gpsdrive_overview"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "Hamish Bowman"
-msgstr ""
-
-#: ../../build/licenses.csv:1
 msgid "gpsprune_overview"
 msgstr ""
 
@@ -294,6 +286,10 @@ msgstr ""
 
 #: ../../build/licenses.csv:1
 msgid "grass_overview"
+msgstr ""
+
+#: ../../build/licenses.csv:1
+msgid "Hamish Bowman"
 msgstr ""
 
 #: ../../build/licenses.csv:1
@@ -698,10 +694,6 @@ msgstr ""
 
 #: ../../build/licenses.csv:1
 msgid "gmt_quickstart"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "gpsdrive_quickstart"
 msgstr ""
 
 #: ../../build/licenses.csv:1
