@@ -137,7 +137,7 @@ N | mapguide | retired | Y | Y | | 5 | Web Service, not included after OSGeoLive
 N | mapwindow | retired | Y | Y | Other software of interest (not available Live) | 8.5 | Microsoft Windows based Desktop GIS | mapwindow | | | MapWindow GIS Lite | N
 N | tilemill | retired | Y | Y | | 9.5 | Styling and Publishing, retired after OSGeoLive 9.5 | | http://www.tilemill.com | | TileMill | N
 N | tomcat | | N | N | | | | | | | | N
-N | webworldwind | | Y | Y | | | | | http://webworldwind.org/ | | WebWorldWind | N
+N | webworldwind | retired | Y | Y | | 12 | | | http://webworldwind.org/ | | WebWorldWind | N
 N | geokettle | retired | Y | Y | Spatial Tools | 11 | ETL (Extract, Transform and Load) Tool | geokettle | http://www.geokettle.org/ | | GeoKettle | N
 N | iris | retired | Y | Y | Geospatial Libraries | 11 | Meteorology and Climatology | python-iris | http://scitools.org.uk/iris/ | | Iris | N
 N | metacrs | retired | N | Y | Geospatial Libraries | 11 | Coordinate Reference System Transformations | | http://trac.osgeo.org/metacrs/wiki | OSGeo_incubation | metaCRS | N
