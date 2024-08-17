@@ -27,7 +27,7 @@ The workshop is based on OSGeoLive, which is a self-contained DVD, USB thumb dri
 
 The workshop covers:
 * Getting set up with OSGeoLive, either from a USB, or from a pre-installed virtual machine.
-* Introduction to the use of the Linux windows environment. 
+* Introduction to the use of the Linux windows environment.
 * Introduction to the key OGC spatial standards and common stack of software used by Open Source spatial systems.
 * An overview of the categories of applications installed on OSGeoLive.
 * A hands on walk-though of the quickstarts for key popular applications within each category, including:

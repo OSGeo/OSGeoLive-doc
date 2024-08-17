@@ -83,7 +83,7 @@ OssimPlanet
   tree will zoom back out to a view of the whole planet, resetting the view.
 
 
-What Next?
+What next?
 ================================================================================
 
 * We have prepared a number of tutorials_ demonstrating more of

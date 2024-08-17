@@ -1,6 +1,6 @@
 #!/bin/sh
 #################################################
-# 
+#
 # Purpose: Create a CSV table of licenses for OSGeoLive documentation
 # Author:  Cameron Shorter
 #
@@ -9,7 +9,7 @@
 # Copyright (c) 2011 Jirotech
 #
 # Licensed under the GNU LGPL.
-# 
+#
 # This library is free software; you can redistribute it and/or modify it
 # under the terms of the GNU Lesser General Public License as published
 # by the Free Software Foundation, either version 2.1 of the License,

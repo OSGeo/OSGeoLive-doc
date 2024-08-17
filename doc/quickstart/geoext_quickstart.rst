@@ -298,7 +298,7 @@ your browser and see a complete GeoExt application similar to the image below.
   :scale: 100 %
 
 
-What's Next?
+What next?
 ============
 
 * The `GeoExt homepage <https://geoext.github.io/geoext/>`_ contains full `API

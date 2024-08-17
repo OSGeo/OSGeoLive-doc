@@ -2,10 +2,10 @@
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Supaplex <bejokeup@gmail.com>, 2022
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""

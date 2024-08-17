@@ -124,7 +124,7 @@ As result you will see that instead of ``Africa`` there will be ``Asia`` in the 
 .. image:: /images/projects/jupyter/jupyter3-2.png
    :scale: 80 %
 
-What Next?
+What next?
 ================================================================================
 
 * Discover the other notebooks that are provided with OSGeoLive and find out how

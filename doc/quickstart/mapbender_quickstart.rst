@@ -219,7 +219,7 @@ Here are some additional challenges for you to try:
 #. Create users and groups, and assign an application to the new users/groups.
 
 
-What Next?
+What next?
 ================================================================================
 
 This is only the first step on the road to using Mapbender. There is a lot more

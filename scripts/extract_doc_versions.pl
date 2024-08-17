@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 ###############################################################################
-# 
+#
 # Purpose: Provide translation status of OSGeoLive docs, extracted from git
 # Author:  Cameron Shorter
 # Usage: extract_doc_versions -o outputfile.html
@@ -11,7 +11,7 @@
 # Copyright (c) 2012 Cameron Shorter
 #
 # Licensed under the GNU LGPL.
-# 
+#
 # This library is free software; you can redistribute it and/or modify it
 # under the terms of the GNU Lesser General Public License as published
 # by the Free Software Foundation, either version 2.1 of the License,
@@ -110,7 +110,7 @@ sub extract_git_info() {
       } else {
         $dir=".";
       }
-      
+
       # Extract the name of the application
       my $app;
       if ($file =~ m#(^.+)(_overview.rst)# ) {
@@ -148,7 +148,7 @@ sub extract_app_version() {
   if (!-d "_build") {
     print STDERR "Warning: Docs haven't been built yet. Doc version has not been extracted. Run 'make html' from root directory\n";
   } else {
-  
+
     my @lines = `grep " Version:" _build/html/en/overview/*`;
     foreach (@lines) {
       $_ =~ m#(^.*overview/)(.+)(_overview.html.* Version:.+strong>*) *(.*)(</p>.*)#;
