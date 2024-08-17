@@ -195,6 +195,13 @@ linkcheck_ignore = [
         'https://www.iso.org',
         r'https://inspire.ec.europa.eu',
 
+        #  403 Client Error: Forbidden for url
+        r'https://www.intel.com/',
+        r'https://www.mydigitallife.net/',
+
+        # HTTPSConnectionPool
+        r'https://worldwind.arc.nasa.gov/java/',
+
         # links to the disk internals
         r'http://localhost', r'https://localhost',
         r'http://127.0.0.1', r'https://127.0.0.1',
