@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-17 16:35+0000\n"
+"POT-Creation-Date: 2024-08-17 16:46+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -525,14 +525,6 @@ msgid "saga_overview"
 msgstr ""
 
 #: ../../build/licenses.csv:1
-msgid "sahana_overview"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "Gavin Treadgold"
-msgstr ""
-
-#: ../../build/licenses.csv:1
 msgid "spatialite_overview"
 msgstr ""
 
@@ -914,10 +906,6 @@ msgstr ""
 
 #: ../../build/licenses.csv:1
 msgid "Angelos Tzotsos"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "sahana_quickstart"
 msgstr ""
 
 #: ../../build/licenses.csv:1
