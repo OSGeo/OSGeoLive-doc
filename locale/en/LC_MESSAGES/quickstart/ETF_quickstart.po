@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-17 20:25+0000\n"
+"POT-Creation-Date: 2024-08-17 21:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,9 +22,7 @@ msgid "ETF Quickstart"
 msgstr ""
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:21
-msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk "
-"(VMDK)"
+msgid "This project is only included on the OSGeoLive virtual machine disk (VMDK)"
 msgstr ""
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:23
@@ -181,8 +179,8 @@ msgstr ""
 #: ../../build/doc/quickstart/ETF_quickstart.rst:110
 msgid ""
 "A Test Suite may depend on other Test Suites. The dependencies are also "
-"shown in the description of the Test Suites.  These dependencies are also"
-" automatically executed during the test run."
+"shown in the description of the Test Suites. These dependencies are also "
+"automatically executed during the test run."
 msgstr ""
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:114
