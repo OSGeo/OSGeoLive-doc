@@ -1,6 +1,6 @@
 #!/bin/sh
 #################################################
-# 
+#
 # Purpose: Remove unused project images
 # repository to OSGeoLive-doc git repository, keeping git history.
 #
@@ -10,7 +10,7 @@
 # Copyright (c) 2017 Vicky Vergara
 #
 # Licensed under the GNU GPL v2.
-# 
+#
 # This library is free software; you can redistribute it and/or modify it
 # under the terms of the GNU Lesser General Public License as published
 # by the Free Software Foundation, either version 2.1 of the License,
@@ -50,14 +50,14 @@ function print_usage {
     echo To show this help:
     echo "bash bin/remove_unsused_images.sh help"
     echo
-    echo 
+    echo
     echo To only show whch files are to be deleted:
     echo "bash bin/remove_unsused_images.sh dry-run"
     echo
-    echo 
+    echo
     echo To remove the files:
     echo "bash bin/remove_unsused_images.sh"
-    echo 
+    echo
     echo This script will not make any commit.
     echo How commits are handled is up to the user
     echo
@@ -109,7 +109,7 @@ fi
 HASCHANGES=`git ls-files --modified`
 echo $HASCHANGES
 
-if [[ -n "$HASCHANGES" ]]; then 
+if [[ -n "$HASCHANGES" ]]; then
     print_error "ERROR: Repository has changes"
     print_usage
 fi
@@ -126,7 +126,7 @@ sort -u bin/__onlylinks.txt > bin/__uniquelinks.txt
 for line in `cat bin/__images.txt` ; do
     cmd="grep '$line'  bin/__uniquelinks.txt"
     found=$(eval $cmd)
-    if [[ "$line" != "$found" ]] ; then 
+    if [[ "$line" != "$found" ]] ; then
         if [[ -n "$DRYRUN" ]]; then
             echo git rm $line
         else

@@ -1,6 +1,6 @@
 #!/bin/sh
 #################################################
-# 
+#
 # Purpose: Provide a csv list of document version numbers and related fields
 # Author:  Cameron Shorter
 #
@@ -9,7 +9,7 @@
 # Copyright (c) 2009 Jirotech
 #
 # Licensed under the GNU LGPL.
-# 
+#
 # This library is free software; you can redistribute it and/or modify it
 # under the terms of the GNU Lesser General Public License as published
 # by the Free Software Foundation, either version 2.1 of the License,

@@ -3,7 +3,7 @@
 ###############################################################################
 #  Copyright (c) 2016-2018, Vicky Vergara <vicky_vergara@hotmail.com>
 #
-#  Licence:  GPL-2.0  
+#  Licence:  GPL-2.0
 #
 #  Permission is hereby granted, free of charge, to any person obtaining a
 #  copy of this software and associated documentation files (the "Software"),
@@ -62,11 +62,11 @@ function print_usage {
     echo This script is to be executed from the root of the repository where the files are needed
     echo
     echo "bash path/to/fetch_file_from_exterbal_repo_with_history.sh <repository> <path/to/files/> <files>"
-    echo 
+    echo
     echo repository: name of external repository repository
     echo path/to/files/: path from root of external repository to directory of the file
     echo files: file names located on external repository on the path indicated
-    
+
     echo
     exit 1
 }
@@ -87,9 +87,9 @@ if [  "$#" -lt 2 ] ; then
     print_usage
 fi
 
-REPOSITORY=$1 
+REPOSITORY=$1
 shift
-PATHTOFILE=$1 
+PATHTOFILE=$1
 shift
 
 cd ..
@@ -156,13 +156,13 @@ echo ---------------------------------------------
 echo ---------------------------------------------
 echo
 echo -- Check that all expected files are there
-echo 
+echo
 echo ls
 echo
 echo -- If a file is missing:
 echo
 echo "git checkout $REPOSITORY-temp/$CURRENTBRANCH <missing-file>"
-echo 
+echo
 echo -- make a commit before changing names or moving files
 echo
 echo "git blame <file>"
