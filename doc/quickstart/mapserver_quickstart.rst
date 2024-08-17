@@ -309,7 +309,7 @@ Then you can connect to your service and add one or more layers of the service t
  :scale: 70 %
 
 
-What Next?
+What next?
 ==========
 
 This is a simple example, but you can do much, much more. The MapServer

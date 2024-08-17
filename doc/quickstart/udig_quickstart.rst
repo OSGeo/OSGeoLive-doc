@@ -295,7 +295,7 @@ Here are some additional challenges for you to try:
 #. Try viewing your own GIS map layers, or try adding a layer from a |WFS| 
 #. Try styling the WFS layer.
 
-What Next?
+What next?
 ================================================================================
 
 .. Writing tip

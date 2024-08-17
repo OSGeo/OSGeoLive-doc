@@ -310,7 +310,7 @@ resources that you can test in the ETF:
    you can try to fix them (based on the errors reported in the test report)
    before validating them again until all tests succeed.
 
-What's Next?
+What next?
 ============
 
 This was just a very brief overview of the ETF. There is more information in the

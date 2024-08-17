@@ -139,7 +139,7 @@ You can preview the coverages by going back and clicking on the "Coverages" link
   :scale: 50 %
   :alt: EOxServer demonstration admin client Dataset Series Management
 
-What Next?
+What next?
 ==========
 
 This is a simple demonstration, but you can do much more with EOxServer. The

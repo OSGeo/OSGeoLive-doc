@@ -166,7 +166,7 @@ Let's improve our example by using a popup instead of an alert:
 
 Try clicking on the map and you will see the coordinates in a popup. View the full example_
 
-What Next?
+What next?
 ================================================================================
 
 Now you've learned Leaflet basics and can start building map apps straight away! Don't forget to take a look at the detailed documentation_ or other examples_.
