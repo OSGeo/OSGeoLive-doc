@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-17 16:59+0000\n"
+"POT-Creation-Date: 2024-08-17 17:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -592,14 +592,6 @@ msgid "udig_overview"
 msgstr ""
 
 #: ../../build/licenses.csv:1
-msgid "worldwindjava_overview"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "Gabriele Prestifilippo"
-msgstr ""
-
-#: ../../build/licenses.csv:1
 msgid "zoo-project_overview"
 msgstr ""
 
@@ -999,16 +991,6 @@ msgstr ""
 
 #: ../../build/licenses.csv:1
 msgid "vmware_quickstart"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "worldwindjava_quickstart"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid ""
-"`NASA OPEN SOURCE AGREEMENT VERSION 1.3 "
-"<https://opensource.org/license/nasa1-3-php>`__"
 msgstr ""
 
 #: ../../build/licenses.csv:1
