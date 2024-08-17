@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-17 15:35+0000\n"
+"POT-Creation-Date: 2024-08-17 15:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -210,14 +210,6 @@ msgstr ""
 
 #: ../../build/licenses.csv:1
 msgid "gdal_overview"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "geokettle_overview"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "Thierry Badard"
 msgstr ""
 
 #: ../../build/licenses.csv:1
@@ -642,18 +634,6 @@ msgstr ""
 
 #: ../../build/licenses.csv:1
 msgid "Astrid Emde, material from Frank Warmedam's RasterTutorial"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "geokettle_quickstart"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "Jean Mathieu; Thierry Badard"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "Sergio Baños Calvo; Cameron Shorter, Jirotech"
 msgstr ""
 
 #: ../../build/licenses.csv:1
