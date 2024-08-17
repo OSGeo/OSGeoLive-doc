@@ -70,7 +70,7 @@
 <h1>ETF gyorstalpaló<a class="headerlink" href="#etf-quickstart" title="Hivatkozás erre a fejezetcímre">¶</a></h1>
 <div class="admonition note">
 <p class="admonition-title">Megjegyzés</p>
-<p>Ez a projekt csak az OSGeoLive virtuális gépben (VMDK) található meg</p>
+<p>This project is only included on the OSGeoLive virtual machine disk (VMDK)</p>
 </div>
 <p>Az ETF egy nyílt forráskódú tesztelési keretrendszer a téradatok, metaadatok és webszolgáltatások érvényesítésére a téradat-infrastruktúrákban (SDI). Az ETF tervezését három cél vezérelte: legyen felhasználóbarát, konzisztens a szabványokkal, és képes legyen tesztelni az összes erőforrást az SDI-ben.</p>
 <p>Ez a gyorstalpaló leírja:</p>
@@ -136,7 +136,9 @@
 <p>A „Start” gomb megjelenik, ha legalább egy tesztcsomagot kiválasztott.</p>
 <p>Egy tesztcsomag csak bizonyos teszt objektum típusokra alkalmazható, melyek listája a leírásban található. Több tesztcsomag választható egy teszt futtatáshoz, de ugyanarra a teszt objektum típusra alkalmazhatónak kell lennie. Miután egy testcsomagot kiválasztott a többi más teszt objektum típusra vonatkozó tesztcsomag váltókapcsolóját letiltja a rendszer.</p>
 <img alt="../../_images/etf-test-suite-selection-4.png" src="../../_images/etf-test-suite-selection-4.png" />
-<p>Egy tesztcsomag más tesztcsomagoktól függhet. A függőségek szintén megjelennek a tesztcsomag leírásában. Ezeket a függőségeket automatikusan lefutnak a teszt futtatása közben.</p>
+<p>A Test Suite may depend on other Test Suites. The dependencies are also shown in
+the description of the Test Suites. These dependencies are also automatically
+executed during the test run.</p>
 <p>A „Start” gombra kattintás egy új nézetet nyit meg, mely megkérdezi a felhasználótól a tesztelendő erőforrást.</p>
 </section>
 <section id="test-run-configuration">
