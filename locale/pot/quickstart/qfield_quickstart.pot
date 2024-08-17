@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-31 08:10+0000\n"
+"POT-Creation-Date: 2024-08-17 21:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:9
-msgid "This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgid "This project is only included on the OSGeoLive virtual machine disk (VMDK)"
 msgstr ""
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:16
@@ -177,55 +177,55 @@ msgstr ""
 msgid "You will see a crosshair appear. This will follow your mouse or stay in the center of the screen if you are working with a touch screen."
 msgstr ""
 
-#: ../../build/doc/quickstart/qfield_quickstart.rst:118
+#: ../../build/doc/quickstart/qfield_quickstart.rst:119
 msgid "If you have a mouse: click to create a new airport."
 msgstr ""
 
-#: ../../build/doc/quickstart/qfield_quickstart.rst:119
+#: ../../build/doc/quickstart/qfield_quickstart.rst:120
 msgid "If you have a touchscreen, move the map until the crosshair is on the desired location and click the plus button at the bottom right of the screen to create a point."
 msgstr ""
 
-#: ../../build/doc/quickstart/qfield_quickstart.rst:120
+#: ../../build/doc/quickstart/qfield_quickstart.rst:122
 msgid "A panel appears, where you can enter all the desired attributes for the new airport"
 msgstr ""
 
-#: ../../build/doc/quickstart/qfield_quickstart.rst:121
+#: ../../build/doc/quickstart/qfield_quickstart.rst:123
 msgid "Click the checkbox to confirm the new airport."
 msgstr ""
 
-#: ../../build/doc/quickstart/qfield_quickstart.rst:122
+#: ../../build/doc/quickstart/qfield_quickstart.rst:124
 msgid "The data is saved immediately."
 msgstr ""
 
-#: ../../build/doc/quickstart/qfield_quickstart.rst:125
+#: ../../build/doc/quickstart/qfield_quickstart.rst:127
 msgid "Things to try"
 msgstr ""
 
-#: ../../build/doc/quickstart/qfield_quickstart.rst:127
+#: ../../build/doc/quickstart/qfield_quickstart.rst:129
 msgid "Show and hide a layer via the layer options (long click in the legend)"
 msgstr ""
 
-#: ../../build/doc/quickstart/qfield_quickstart.rst:128
+#: ../../build/doc/quickstart/qfield_quickstart.rst:130
 msgid "On the legend panel, check the cog wheel symbol for more actions like measuring and printing"
 msgstr ""
 
-#: ../../build/doc/quickstart/qfield_quickstart.rst:129
+#: ../../build/doc/quickstart/qfield_quickstart.rst:131
 msgid "Download the `QField sample projects`_ for more inspiration"
 msgstr ""
 
-#: ../../build/doc/quickstart/qfield_quickstart.rst:130
+#: ../../build/doc/quickstart/qfield_quickstart.rst:132
 msgid "Open a project file in QGIS, add layers to it and change the configuration"
 msgstr ""
 
-#: ../../build/doc/quickstart/qfield_quickstart.rst:131
+#: ../../build/doc/quickstart/qfield_quickstart.rst:133
 msgid "Install QField on your mobile device through the app store or via the `Download page`_."
 msgstr ""
 
-#: ../../build/doc/quickstart/qfield_quickstart.rst:134
+#: ../../build/doc/quickstart/qfield_quickstart.rst:136
 msgid "What next?"
 msgstr ""
 
-#: ../../build/doc/quickstart/qfield_quickstart.rst:136
+#: ../../build/doc/quickstart/qfield_quickstart.rst:138
 msgid "To learn more about QField, a good starting point is the `Documentation page`_."
 msgstr ""
 

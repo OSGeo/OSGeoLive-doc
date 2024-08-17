@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"POT-Creation-Date: 2024-08-17 21:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,7 +48,7 @@ msgstr ""
 msgid "being available for Windows and Linux (there are also non-oficial Mac OS X versions)."
 msgstr ""
 
-#: ../../build/doc/overview/gvsig_overview.rst:-1
+#: ../../build/doc/overview/gvsig_overview.rst:None
 msgid "gvsig screenshot"
 msgstr ""
 
@@ -245,7 +245,7 @@ msgid "**Support:** http://www.gvsig.com/en/gvsig-association, http://www.gvsig.
 msgstr ""
 
 #: ../../build/doc/overview/gvsig_overview.rst:116
-msgid "This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgid "This project is only included on the OSGeoLive virtual machine disk (VMDK)"
 msgstr ""
 
 #: ../../build/doc/overview/gvsig_overview.rst:119
@@ -268,6 +268,7 @@ msgstr ""
 msgid "OSGeo Project"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""
