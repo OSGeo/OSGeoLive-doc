@@ -306,12 +306,15 @@ resources that you can test in the ETF:
 * WFS services: a list of services is available `here
   <https://github.com/etf-validator/OSGeoLive-ETF/tree/main/resources/WFS-services>`__.
 
-.. note::	Some of the GML data sets provided above do not pass all the tests, so you can try to fix them (based on the errors reported in the test report) before validating them again until all tests succeed.
+.. note::	Some of the GML data sets provided above do not pass all the tests, so
+   you can try to fix them (based on the errors reported in the test report)
+   before validating them again until all tests succeed.
 
-What's next?
+What's Next?
 ============
 
-This was just a very brief overview of the ETF. There is more information in the demo installation and on the `ETF GitHub space`_.
+This was just a very brief overview of the ETF. There is more information in the
+demo installation and on the `ETF GitHub space`_.
 
 .. _ETF GitHub space: https://github.com/etf-validator
 

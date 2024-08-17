@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"POT-Creation-Date: 2024-08-17 19:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -360,27 +360,27 @@ msgstr ""
 msgid "Some of the GML data sets provided above do not pass all the tests, so you can try to fix them (based on the errors reported in the test report) before validating them again until all tests succeed."
 msgstr ""
 
-#: ../../build/doc/quickstart/ETF_quickstart.rst:315
-msgid "What's next?"
+#: ../../build/doc/quickstart/ETF_quickstart.rst:317
+msgid "What's Next?"
 msgstr ""
 
-#: ../../build/doc/quickstart/ETF_quickstart.rst:317
+#: ../../build/doc/quickstart/ETF_quickstart.rst:319
 msgid "This was just a very brief overview of the ETF. There is more information in the demo installation and on the `ETF GitHub space`_."
 msgstr ""
 
-#: ../../build/doc/quickstart/ETF_quickstart.rst:321
+#: ../../build/doc/quickstart/ETF_quickstart.rst:324
 msgid "Please also check:"
 msgstr ""
 
-#: ../../build/doc/quickstart/ETF_quickstart.rst:323
+#: ../../build/doc/quickstart/ETF_quickstart.rst:326
 msgid "`User manual`_"
 msgstr ""
 
-#: ../../build/doc/quickstart/ETF_quickstart.rst:324
+#: ../../build/doc/quickstart/ETF_quickstart.rst:327
 msgid "`Administrator manual`_"
 msgstr ""
 
-#: ../../build/doc/quickstart/ETF_quickstart.rst:325
+#: ../../build/doc/quickstart/ETF_quickstart.rst:328
 msgid "`Developer manual`_"
 msgstr ""
 
@@ -396,6 +396,7 @@ msgstr ""
 msgid "OSGeo Project"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""

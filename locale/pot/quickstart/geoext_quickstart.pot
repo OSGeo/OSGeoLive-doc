@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"POT-Creation-Date: 2024-08-17 19:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,95 +40,95 @@ msgstr ""
 msgid "Open FeatherPad from the command line with elevated permissions, so you can save the file, using System Tools > QTerminal and then running run the command below:"
 msgstr ""
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:43
+#: ../../build/doc/quickstart/geoext_quickstart.rst:45
 msgid "Next paste in the HTML below, and save the file as ``/var/www/html/geoext/demo.html``. The file contains links to the ExtJS and OpenLayers JavaScript libraries, and two CSS files used to style ExtJS and OpenLayers components."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:48
+#: ../../build/doc/quickstart/geoext_quickstart.rst:50
 msgid "We will use the ``Ext.Loader`` class to load in GeoExt JavaScript source files. These are all in the ``src`` folder in ``/var/www/html/geoext/``."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:80
+#: ../../build/doc/quickstart/geoext_quickstart.rst:82
 msgid "You should now be able to view an empty HTML page in Firefox at http://localhost/geoext/demo.html"
 msgstr ""
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:82
+#: ../../build/doc/quickstart/geoext_quickstart.rst:84
 msgid "All the JavaScript in the following sections should be pasted after the ``// all JavaScript application code should go here`` comment in the ``Ext.onReady`` function. Placing code here ensures the JavaScript libraries have been loaded before running any custom JavaScript code."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:88
+#: ../../build/doc/quickstart/geoext_quickstart.rst:90
 msgid "Configure OpenLayers objects"
 msgstr ""
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:90
+#: ../../build/doc/quickstart/geoext_quickstart.rst:92
 msgid "Next we will configure some OpenLayers objects used by the application."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:92
+#: ../../build/doc/quickstart/geoext_quickstart.rst:94
 msgid "First lets create a map tile layer using OpenStreetMap, and some WMS layers that are available from the MapServer Itasca demo on OSGeoLive."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:129
+#: ../../build/doc/quickstart/geoext_quickstart.rst:131
 msgid "Next we are going to add in a WFS vector layer - this is a little more complicated, but follows the same approach of creating a source and then a layer as the previous layers:"
 msgstr ""
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:151
+#: ../../build/doc/quickstart/geoext_quickstart.rst:153
 msgid "Now we are going to create our OpenLayers map object configured with the layers we just created. We will also set the center and zoom level of the map, and add in a select interaction so we can select features in our vector layer."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:171
+#: ../../build/doc/quickstart/geoext_quickstart.rst:174
 msgid "Work with GeoExt components"
 msgstr ""
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:173
+#: ../../build/doc/quickstart/geoext_quickstart.rst:176
 msgid "Now the map and layers have been configured we are going to create and configure our GeoExt components."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:176
+#: ../../build/doc/quickstart/geoext_quickstart.rst:179
 msgid "First of all we will create a ``GeoExt.component.Map``. This uses the OpenLayers map we created, and will be positioned in the 'center' region of our application."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:188
+#: ../../build/doc/quickstart/geoext_quickstart.rst:191
 msgid "Next we will create a layer tree component. The tree has its own data store - ``GeoExt.data.store.LayersTree``, which we will fill with layers from our OpenLayers map. The store will then be used to populate our tree panel. We will also add in a plugin to the tree to allow the map layer order to be changed by dragging and dropping the layers. The ``flex`` property causes the tree panel to fill up all available space in its region of the screen."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:213
+#: ../../build/doc/quickstart/geoext_quickstart.rst:216
 msgid "We are also going to create a grid component to display the attributes of features in our WFS layer. Similar to the layer tree store and tree panel, we create a ``GeoExt.data.store.Features`` store and a grid panel."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:244
+#: ../../build/doc/quickstart/geoext_quickstart.rst:248
 msgid "Our final GeoExt component is an overview map - ``GeoExt.component.OverviewMap``. We will configure this to display the OpenStreetMap layer we created earlier, and place it in an ExtJS panel."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:267
+#: ../../build/doc/quickstart/geoext_quickstart.rst:271
 msgid "Create a viewport"
 msgstr ""
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:269
+#: ../../build/doc/quickstart/geoext_quickstart.rst:273
 msgid "The final step in creating our application is to create a viewport - a container representing the application which will display all the components we created above."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:293
+#: ../../build/doc/quickstart/geoext_quickstart.rst:297
 msgid "You should now be able to refresh the link http://localhost/geoext/demo.html in your browser and see a complete GeoExt application similar to the image below."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:301
-msgid "What's next?"
-msgstr ""
-
-#: ../../build/doc/quickstart/geoext_quickstart.rst:303
-msgid "The `GeoExt homepage <https://geoext.github.io/geoext/>`_ contains full `API documentation <https://geoext.github.io/geoext/v3.1.0/docs>`_ and examples"
-msgstr ""
-
 #: ../../build/doc/quickstart/geoext_quickstart.rst:305
-msgid "A `GeoExt workshop <https://github.com/geoext/geoext3-ws>`_ details all the steps for configuring and using GeoExt3 in your ExtJS applications"
+msgid "What's Next?"
 msgstr ""
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:307
+msgid "The `GeoExt homepage <https://geoext.github.io/geoext/>`_ contains full `API documentation <https://geoext.github.io/geoext/v3.1.0/docs>`_ and examples"
+msgstr ""
+
+#: ../../build/doc/quickstart/geoext_quickstart.rst:309
+msgid "A `GeoExt workshop <https://github.com/geoext/geoext3-ws>`_ details all the steps for configuring and using GeoExt3 in your ExtJS applications"
+msgstr ""
+
+#: ../../build/doc/quickstart/geoext_quickstart.rst:311
 msgid "The `OpenLayers v4.6.5 API docs <https://openlayers.org/en/v4.6.5/apidoc>`_"
 msgstr ""
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:308
+#: ../../build/doc/quickstart/geoext_quickstart.rst:312
 msgid "The `ExtJS 6.2.0 API docs <https://docs.sencha.com/extjs/6.2.0/>`_"
 msgstr ""
 
@@ -144,6 +144,7 @@ msgstr ""
 msgid "OSGeo Project"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""
