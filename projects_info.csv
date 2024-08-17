@@ -130,7 +130,7 @@ N | liblas | retired | Y | Y | Geospatial Libraries | 14 | LiDAR Data Access | l
 N | 52nWSS | retired | Y | Y | | 6.5 | Web Security Service, retired after OSGeoLive 6.5 | | http://52north.org/security | | 52 North WSS | N
 N | atlasstyler | retired | Y | Y | | 7 | Style Editor, retired after OSGeoLive 6.0 | Geopublishing | http://en.geopublishing.org/AtlasStyler | | AtlasStyler | N
 N | cartaro | retired | Y | Y | | 10 | Geospatial CMS | | http://cartaro.org | | Cartaro | N
-N | geopublisher | retired | Y | Y | | 6 | Catalogue, retired after OSGeoLive 6.0 | Geopublishing | | | Geopublisher | N
+N | geopublisher | retired | Y | Y | | 7 | Catalogue, retired after OSGeoLive 6.0 | Geopublishing | | | Geopublisher | N
 N | gpsdrive | retired | Y | Y | | 9 | GPS Navigation, retired after OSGeoLive 9.0 | | http://www.gpsdrive.de | | GpsDrive | N
 N | mapfish | retired | Y | Y | | 7.9 | Web Mapping Framework, retired after OSGeoLive 7.9 | mapfish | http://www.mapfish.org | OSGeo_project | MapFish | N
 N | mapguide | retired | Y | Y | | 5 | Web Service, not included after OSGeoLive 5.0 (to save disk space) | mapguide | https://mapguide.osgeo.org/ | OSGeo_project | MapGuide Open Source | N
