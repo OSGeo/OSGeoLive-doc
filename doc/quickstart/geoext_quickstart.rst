@@ -31,7 +31,9 @@ In this step we will set-up an empty HTML page which will contain the
 application. We'll use the text editor FeatherPad installed on OSGeoLive to
 create a new HTML file at ``/var/www/html/geoext/demo.html``
 
-#. Open FeatherPad from the command line with elevated permissions, so you can save the file, using System Tools > QTerminal and then running run the command below:
+#. Open FeatherPad from the command line with elevated permissions, so you can
+   save the file, using System Tools > QTerminal and then running run the
+   command below:
 
    .. code-block:: bash
 
@@ -147,7 +149,8 @@ Next we will configure some OpenLayers objects used by the application.
 
 #. Now we are going to create our OpenLayers map object configured with the
    layers we just created. We will also set the center
-   and zoom level of the map, and add in a select interaction so we can select features in our vector layer.
+   and zoom level of the map, and add in a select interaction so we can select
+   features in our vector layer.
 
    .. code-block:: js
 
@@ -209,7 +212,8 @@ our GeoExt components.
 
 #. We are also going to create a grid component to display the attributes of
    features in our WFS layer.
-   Similar to the layer tree store and tree panel, we create a ``GeoExt.data.store.Features`` store and a grid panel.
+   Similar to the layer tree store and tree panel, we create a
+   ``GeoExt.data.store.Features`` store and a grid panel.
 
    .. code-block:: js
 
@@ -294,7 +298,7 @@ your browser and see a complete GeoExt application similar to the image below.
   :scale: 100 %
 
 
-What's next?
+What's Next?
 ============
 
 * The `GeoExt homepage <https://geoext.github.io/geoext/>`_ contains full `API
