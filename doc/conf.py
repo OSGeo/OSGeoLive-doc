@@ -201,6 +201,10 @@ linkcheck_ignore = [
         r'http://0.0.0.0',
         'http://geonode',
 
+        # links to old versions
+        r'https://live.osgeo.org/archive/15.0',
+        r'https://live.osgeo.org/archive/16.0',
+
         # 403 Client Error
         r'https://docs.etf-validator.net',
         r'https://etf-validator.net',

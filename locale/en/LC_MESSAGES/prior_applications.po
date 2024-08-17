@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-04 08:50+0000\n"
+"POT-Creation-Date: 2024-08-16 19:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/prior_applications.rst:5
 msgid "Previously available applications"
@@ -39,6 +39,22 @@ msgstr ""
 
 #: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "52nWPS_"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <52nWPS_q_>`__"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "16.0"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Web Processing Services"
 msgstr ""
 
 #: ../../build/doc/prior_applications.rst:1

@@ -51,7 +51,6 @@ Y | qgis_mapserver | 3.22.7 | Y | Y | Web Services | | Web Map Service | | https
 Y | re3gistry | 2.4.2 | Y | Y | Web Services | | Management of reference codes | re3gistry | https://github.com/ec-jrc/re3gistry | | Re3gistry | N
 Y | t-rex | 0.14.3 | Y | Y | Web Services | | Vector Tile Service | t-rex | https://t-rex.tileserver.ch/ | | t-rex | Y
 Y | 52nSOS | 5.5.1 | Y | Y | Web Services | | Sensor Observation Service | SensorObservationService | https://52north.org/software/software-projects/sos | | 52 North SOS | N
-Y | 52nWPS | 3.6.3 | Y | Y | Web Services | | Web Processing Service | n52-wps | https://52north.org/software/software-projects/wps | | 52 North WPS | Y
 ###################### | | | | | | | | | | | |
 # Data Stores | | | | | | | | | | | |
 ###################### | | | | | | | | | | | |
@@ -151,3 +150,4 @@ N | worldwindjava | | Y | Y | Navigation and Maps | 11 | Desktop Virtual Globe |
 N | kosmo | retired | Y | Y | Desktop GIS | 11 | | kosmo_desktop | http://www.opengis.es/index.php?lang=en | | Kosmo_desktop | N
 N | tinyows | retire? | Y | Y | Web Services | | WFS-T Service | tinyows | https://mapserver.org/tinyows/ | OSGeo_project | TinyOWS | N
 N | ncWMS | 2.4.2 | Y | Y | Web Services | 15 | Web Map Service | ncwms | https://reading-escience-centre.gitbooks.io/ncwms-user-guide/content/ | 15 | ncWMS | N
+N | 52nWPS | 3.6.3 | Y | Y | Web Services | 17 | Web Processing Service | n52-wps | https://52north.org/software/software-projects/wps | | 52 North WPS | Y

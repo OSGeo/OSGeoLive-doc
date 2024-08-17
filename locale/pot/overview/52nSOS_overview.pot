@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-01-17 21:23+0000\n"
+"POT-Creation-Date: 2024-08-16 20:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgstr ""
 msgid "The 52°North |SOS| supports the interoperable provision of live and archived sensor observation data. A sensor could be a water level meter in a stream, a weather station, or an air quality monitoring station."
 msgstr ""
 
-#: ../../build/doc/overview/52nSOS_overview.rst:-1
+#: ../../build/doc/overview/52nSOS_overview.rst:None
 msgid "52nSOS screenshot"
 msgstr ""
 
@@ -233,18 +233,14 @@ msgid "**Community Website:** https://52north.org/research/scope/geospatial-sens
 msgstr ""
 
 #: ../../build/doc/overview/52nSOS_overview.rst:155
-msgid "**Other 52°North projects on OSGeoLive:** :doc:`WPS <./52nWPS_overview>`"
-msgstr ""
-
-#: ../../build/doc/overview/52nSOS_overview.rst:159
 msgid "This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
 msgstr ""
 
-#: ../../build/doc/overview/52nSOS_overview.rst:162
+#: ../../build/doc/overview/52nSOS_overview.rst:158
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/52nSOS_overview.rst:164
+#: ../../build/doc/overview/52nSOS_overview.rst:160
 msgid ":doc:`Quickstart documentation <../quickstart/52nSOS_quickstart>`"
 msgstr ""
 
@@ -260,6 +256,7 @@ msgstr ""
 msgid "OSGeo Project"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""
