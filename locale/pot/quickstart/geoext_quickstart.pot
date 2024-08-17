@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-17 19:49+0000\n"
+"POT-Creation-Date: 2024-08-17 20:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -113,7 +113,7 @@ msgid "You should now be able to refresh the link http://localhost/geoext/demo.h
 msgstr ""
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:305
-msgid "What's Next?"
+msgid "What next?"
 msgstr ""
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:307

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-17 19:49+0000\n"
+"POT-Creation-Date: 2024-08-17 20:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -305,7 +305,7 @@ msgid "Create users and groups, and assign an application to the new users/group
 msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:229
-msgid "What Next?"
+msgid "What next?"
 msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:231
