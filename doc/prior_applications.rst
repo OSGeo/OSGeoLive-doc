@@ -13,7 +13,7 @@ Previously available applications
     |nologo| % 52nWPS_          % `QuickStart <52nWPS_q_>`__     %   16.0 %  Web Processing Services
     |nologo| % LibLAS_          % `QuickStart <LibLAS_q_>`__     %   13.0 %  LiDAR Data Access
     |nologo| % MapSlicer_       % `QuickStart <MapSlicer_q_>`__  %   13.0 %  Create Map Tiles
-    |osgeo_community| % Geomajas_ % `QuickStart <Geomajas_q_>`__   %   13.0 %  Browser GIS Client
+    |nologo| % Geomajas_        % `QuickStart <Geomajas_q_>`__   %   13.0 %  Browser GIS Client
     |osgeo_community| % OSSIM_    % `QuickStart <OSSIM_q_>`__      %   11.0 %  Image Processing
     |nologo| % `OGC Standards`_ %                                %   10.5 %  OGC Standards descriptions
     |nologo| % Viking_          % `QuickStart <Viking_q_>`__     %   10.5 %  GPS Data Analysis and Viewer
