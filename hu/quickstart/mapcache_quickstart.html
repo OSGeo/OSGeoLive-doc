@@ -73,7 +73,7 @@
 <li><p><a class="reference internal" href="#adding-a-new-tileset-and-displaying-in-openlayers" id="id1">Új csempekészlet hozzáadása és megjelenítése OpenLayers-ben</a></p></li>
 <li><p><a class="reference internal" href="#adding-new-services" id="id2">Új szolgáltatás hozzáadása</a></p></li>
 <li><p><a class="reference internal" href="#the-seeder-application" id="id3">A feltöltő alkalmazás</a></p></li>
-<li><p><a class="reference internal" href="#what-next" id="id4">Mi a következő?</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id4">What next?</a></p></li>
 </ul>
 </div>
 <section id="adding-a-new-tileset-and-displaying-in-openlayers">
@@ -107,8 +107,13 @@
 <span class="nt">&lt;/source&gt;</span>
 </pre></div>
 </div>
-<p>Az <code class="docutils literal notranslate"><span class="pre">&lt;params&gt;</span></code> blokkot használjuk a WMS rétegnév és a képformátum átadására a WMS szerverhez, a MapServer specifikus <code class="docutils literal notranslate"><span class="pre">&lt;map&gt;</span></code> paraméterrel. A WMS szerver URL-je a <code class="docutils literal notranslate"><span class="pre">&lt;http&gt;</span></code> blokkban van. Az összes konfiguráció fájl elem dokumentációjához nézze meg a <a class="reference external" href="https://mapserver.org/mapcache/config.html">Konfiguráció documentációt</a>.</p>
-<p>Ezután hozzáadunk egy <code class="docutils literal notranslate"><span class="pre">&lt;tileset&gt;</span></code> blokkot, mely megadja, hogyan tároljuk a forrást és hogyan szolgáltatjuk csempeként. Helyezze el a következő blokkot a létező <code class="docutils literal notranslate"><span class="pre">&lt;tileset</span> <span class="pre">name=&quot;lakes&quot;&gt;...&lt;/tileset&gt;</span></code> blokk után.</p>
+<p>We use the <code class="docutils literal notranslate"><span class="pre">&lt;params&gt;</span></code> block to pass the WMS layer name, and the image format
+back to the WMS server, along with the MapServer specific <code class="docutils literal notranslate"><span class="pre">&lt;map&gt;</span></code> parameter.
+The URL to the WMS server is in the <code class="docutils literal notranslate"><span class="pre">&lt;http&gt;</span></code> block. For documentation on all
+configuration file elements see the <a class="reference external" href="https://mapserver.org/mapcache/config.html">Configuration Documentation</a>.  Next we will add a
+<code class="docutils literal notranslate"><span class="pre">&lt;tileset&gt;</span></code> block, which defines how the source will be stored and served as
+tiles. Place the following block after the existing <code class="docutils literal notranslate"><span class="pre">&lt;tileset</span>
+<span class="pre">name=&quot;lakes&quot;&gt;...&lt;/tileset&gt;</span></code> block.</p>
 <div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;tileset</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;streams&quot;</span><span class="nt">&gt;</span>
 <span class="w">  </span><span class="nt">&lt;source&gt;</span>streams_source<span class="nt">&lt;/source&gt;</span>
 <span class="w">  </span><span class="nt">&lt;cache&gt;</span>disk<span class="nt">&lt;/cache&gt;</span>
@@ -117,7 +122,10 @@
 <span class="nt">&lt;/tileset&gt;</span>
 </pre></div>
 </div>
-<p>A rács típust a beépített  <code class="docutils literal notranslate"><span class="pre">GoogleMapsCompatible</span></code> rácsra állítjuk, melyet sok web térkép alkalmazás alapértelmezett csempe sémaként használ. A <code class="docutils literal notranslate"><span class="pre">name=streams</span></code>-et használja a kliens alkalmazás a csempekészlet eléréséhez. Lemez alapú gyorsítótárat használunk (inkább mint adatbázisban tárolt csempéket vagy felhő környezetet).</p>
+<p>We set the grid type to the inbuilt <code class="docutils literal notranslate"><span class="pre">GoogleMapsCompatible</span></code> grid used as the
+default tiling scheme in many web mapping applications.  The <code class="docutils literal notranslate"><span class="pre">name=streams</span></code> is
+used by client applications to access the tileset. We are using a disk-based
+cache (rather than storing tiles in a database or in a cloud environment).</p>
 <p>Bármikor a MapCache konfiguráció fájl módosítása után a módosítások érvényesítése érdekében újra be kell tölteni az Apache-t. Ez a parancssorból futtatható a következőképpen:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>apachectl<span class="w"> </span>-k<span class="w"> </span>graceful
 </pre></div>
@@ -154,7 +162,9 @@
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>featherpad<span class="w"> </span>/etc/apache2/conf-enabled/mapcache.conf
 </pre></div>
 </div>
-<p>Az OSGeoLive két MapCache szolgáltatással rendelkezik, mindegyikhez tartozik egy alias és egy konfigurációs fájl. Az alias a szerveren használandó URL pl. <a class="reference external" href="http://localhost/mapcache">http://localhost/mapcache</a> and <a class="reference external" href="http://localhost/itasca">http://localhost/itasca</a></p>
+<p>OSGeoLive has two MapCache services, each with an alias and a configuration
+file.  The alias is the URL to use on the server, e.g. <a class="reference external" href="http://localhost/mapcache">http://localhost/mapcache</a>
+and <a class="reference external" href="http://localhost/itasca">http://localhost/itasca</a></p>
 <div class="highlight-apache notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;IfModule</span><span class="w"> </span><span class="s">mapcache_module</span><span class="nt">&gt;</span>
 <span class="w">   </span><span class="nt">&lt;Directory</span><span class="w"> </span><span class="s">/path/to/directory</span><span class="nt">&gt;</span>
 <span class="w">      </span><span class="nb">Order</span><span class="w"> </span>Allow,Deny
@@ -178,8 +188,10 @@
 <p>Az alábbi példában három paramétert adunk át a <code class="docutils literal notranslate"><span class="pre">mapcache_seed</span></code>-nek:</p>
 <ul class="simple">
 <li><p><em>config</em>: <code class="docutils literal notranslate"><span class="pre">/home/user/mapcache/mapcache-quickstart.xml</span></code> - ez az elérési út a MapCache konfigurációs fájlhoz</p></li>
-<li><p><em>tileset</em>: <code class="docutils literal notranslate"><span class="pre">lakes</span></code> - ez a csempe készlet neve, melyet feltöltünk és a <code class="docutils literal notranslate"><span class="pre">mapcache-quickstart.xml</span></code>-ben található</p></li>
-<li><p><em>zoom</em>: <code class="docutils literal notranslate"><span class="pre">0,5</span></code> - ez a nagyítási szintek tartománya, melyet feltöltünk, a 0-s nagyítási szinttől (a világ terjedelme egyetlen csempében) az 5-ös nagyítási szintig</p></li>
+<li><p><em>tileset</em>: <code class="docutils literal notranslate"><span class="pre">lakes</span></code> - this is the tileset name we are going to seed, and is
+found in <code class="docutils literal notranslate"><span class="pre">mapcache-quickstart.xml</span></code> - <em>zoom</em>: <code class="docutils literal notranslate"><span class="pre">0,5</span></code> - this is the range of
+zoom levels we are going to seed, from zoom level 0 (the extent of the world
+in a single tile) to zoom level 5</p></li>
 </ul>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>-u<span class="w"> </span>www-data<span class="w"> </span>mapcache_seed<span class="w"> </span>--config<span class="w"> </span>/home/user/mapcache/mapcache-quickstart.xml<span class="w"> </span>--tileset<span class="w"> </span>lakes<span class="w"> </span>--zoom<span class="w"> </span><span class="m">0</span>,5
 </pre></div>
@@ -192,7 +204,7 @@
 </div>
 </section>
 <section id="what-next">
-<h2><a class="toc-backref" href="#id4">Mi a következő?</a><a class="headerlink" href="#what-next" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<h2><a class="toc-backref" href="#id4">What next?</a><a class="headerlink" href="#what-next" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <ul class="simple">
 <li><p>Olvassa el a <a class="reference external" href="https://mapserver.org/mapcache/index.html">MapCache Dokumentációt</a>.</p></li>
 <li><p>Csatlakozzon a MapServer közösséghez, melynek része a MapCache a <a class="reference external" href="https://www.mapserver.org/community/lists.html">levelező listákon</a> az elképzelések megosztásához, a lehetséges fejlesztések megvitatásához és kérdések feltételéhez.</p></li>

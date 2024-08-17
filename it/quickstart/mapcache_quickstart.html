@@ -73,7 +73,7 @@
 <li><p><a class="reference internal" href="#adding-a-new-tileset-and-displaying-in-openlayers" id="id1">Aggiungi un nuovo Tileset e visualizzalo in OpenLayers</a></p></li>
 <li><p><a class="reference internal" href="#adding-new-services" id="id2">Aggiunta di Nuovi Servizi</a></p></li>
 <li><p><a class="reference internal" href="#the-seeder-application" id="id3">L’applicazione Seeder</a></p></li>
-<li><p><a class="reference internal" href="#what-next" id="id4">E ora?</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id4">What next?</a></p></li>
 </ul>
 </div>
 <section id="adding-a-new-tileset-and-displaying-in-openlayers">
@@ -107,8 +107,13 @@
 <span class="nt">&lt;/source&gt;</span>
 </pre></div>
 </div>
-<p>Usa il blocco <code class="docutils literal notranslate"><span class="pre">&lt;params&gt;</span></code> per passare il nome del layer WMS e il formato dell’immagine al server WMS, insieme al parametro specifico di MapServer <code class="docutils literal notranslate"><span class="pre">&lt;map&gt;</span></code>. L’URL al server WMS è nel blocco <code class="docutils literal notranslate"><span class="pre">&lt;http&gt;</span></code>. Per la documentazione su tutti gli elementi del file di configurazione si veda la <a class="reference external" href="https://mapserver.org/mapcache/config.html">Documentazione di configurazione</a>.</p>
-<p>Poi aggiungerai un blocco <code class="docutils literal notranslate"><span class="pre">&lt;tileset&gt;</span></code>, che definisce come il sorgente sarà memorizzato e servito come tasselli. Posizionare il seguente blocco dopo il blocco <code class="docutils literal notranslate"><span class="pre">&lt;tileset</span> <span class="pre">name=&quot;lakes&quot;&gt;...&lt;/tileset&gt;</span></code> esistente.</p>
+<p>We use the <code class="docutils literal notranslate"><span class="pre">&lt;params&gt;</span></code> block to pass the WMS layer name, and the image format
+back to the WMS server, along with the MapServer specific <code class="docutils literal notranslate"><span class="pre">&lt;map&gt;</span></code> parameter.
+The URL to the WMS server is in the <code class="docutils literal notranslate"><span class="pre">&lt;http&gt;</span></code> block. For documentation on all
+configuration file elements see the <a class="reference external" href="https://mapserver.org/mapcache/config.html">Configuration Documentation</a>.  Next we will add a
+<code class="docutils literal notranslate"><span class="pre">&lt;tileset&gt;</span></code> block, which defines how the source will be stored and served as
+tiles. Place the following block after the existing <code class="docutils literal notranslate"><span class="pre">&lt;tileset</span>
+<span class="pre">name=&quot;lakes&quot;&gt;...&lt;/tileset&gt;</span></code> block.</p>
 <div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;tileset</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;streams&quot;</span><span class="nt">&gt;</span>
 <span class="w">  </span><span class="nt">&lt;source&gt;</span>streams_source<span class="nt">&lt;/source&gt;</span>
 <span class="w">  </span><span class="nt">&lt;cache&gt;</span>disk<span class="nt">&lt;/cache&gt;</span>
@@ -117,7 +122,10 @@
 <span class="nt">&lt;/tileset&gt;</span>
 </pre></div>
 </div>
-<p>Imposta il tipo di griglia alla griglia integrata <code class="docutils literal notranslate"><span class="pre">GoogleMapsCompatible</span></code> usata come schema di piastrellatura predefinito in molte applicazioni di web mapping. Il <code class="docutils literal notranslate"><span class="pre">name=streams</span></code> è usato dalle applicazioni client per accedere al tileset. Stai usando una cache basata su disco (piuttosto che memorizzare i tasselli in un database o in un ambiente cloud).</p>
+<p>We set the grid type to the inbuilt <code class="docutils literal notranslate"><span class="pre">GoogleMapsCompatible</span></code> grid used as the
+default tiling scheme in many web mapping applications.  The <code class="docutils literal notranslate"><span class="pre">name=streams</span></code> is
+used by client applications to access the tileset. We are using a disk-based
+cache (rather than storing tiles in a database or in a cloud environment).</p>
 <p>Ogni volta che si modifica il file di configurazione di MapCache è necessario ricaricare Apache perché le modifiche abbiano effetto. Questo può essere eseguito dalla linea di comando come segue:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>apachectl<span class="w"> </span>-k<span class="w"> </span>graceful
 </pre></div>
@@ -154,7 +162,9 @@
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>featherpad<span class="w"> </span>/etc/apache2/conf-enabled/mapcache.conf
 </pre></div>
 </div>
-<p>OSGeoLive ha due servizi MapCache, ognuno con un alias e un file di configurazione. L’alias è l’URL da utilizzare sul server, ad esempio <a class="reference external" href="http://localhost/mapcache">http://localhost/mapcache</a> e <a class="reference external" href="http://localhost/itasca">http://localhost/itasca</a></p>
+<p>OSGeoLive has two MapCache services, each with an alias and a configuration
+file.  The alias is the URL to use on the server, e.g. <a class="reference external" href="http://localhost/mapcache">http://localhost/mapcache</a>
+and <a class="reference external" href="http://localhost/itasca">http://localhost/itasca</a></p>
 <div class="highlight-apache notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;IfModule</span><span class="w"> </span><span class="s">mapcache_module</span><span class="nt">&gt;</span>
 <span class="w">   </span><span class="nt">&lt;Directory</span><span class="w"> </span><span class="s">/path/to/directory</span><span class="nt">&gt;</span>
 <span class="w">      </span><span class="nb">Order</span><span class="w"> </span>Allow,Deny
@@ -178,8 +188,10 @@
 <p>Nell’esempio seguente passi tre opzioni a <code class="docutils literal notranslate"><span class="pre">mapcache_seed</span></code>:</p>
 <ul class="simple">
 <li><p><em>config</em>: <code class="docutils literal notranslate"><span class="pre">/home/user/mapcache/mapcache-quickstart.xml</span></code> - questo è il percorso del file di configurazione di MapCache</p></li>
-<li><p><em>tileset</em>: <code class="docutils literal notranslate"><span class="pre">lakes</span></code> - questo è il nome del tileset che stiamo per seminare, e si trova in <code class="docutils literal notranslate"><span class="pre">mapcache-quickstart.xml</span></code>.</p></li>
-<li><p><em>zoom</em>: <code class="docutils literal notranslate"><span class="pre">0,5</span></code> - questo è l’intervallo di livelli di zoom che stai per seminare, dal livello di zoom 0 (l’estensione del mondo in un singolo tassello) al livello di zoom 5</p></li>
+<li><p><em>tileset</em>: <code class="docutils literal notranslate"><span class="pre">lakes</span></code> - this is the tileset name we are going to seed, and is
+found in <code class="docutils literal notranslate"><span class="pre">mapcache-quickstart.xml</span></code> - <em>zoom</em>: <code class="docutils literal notranslate"><span class="pre">0,5</span></code> - this is the range of
+zoom levels we are going to seed, from zoom level 0 (the extent of the world
+in a single tile) to zoom level 5</p></li>
 </ul>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>-u<span class="w"> </span>www-data<span class="w"> </span>mapcache_seed<span class="w"> </span>--config<span class="w"> </span>/home/user/mapcache/mapcache-quickstart.xml<span class="w"> </span>--tileset<span class="w"> </span>lakes<span class="w"> </span>--zoom<span class="w"> </span><span class="m">0</span>,5
 </pre></div>
@@ -192,7 +204,7 @@
 </div>
 </section>
 <section id="what-next">
-<h2><a class="toc-backref" href="#id4">E ora?</a><a class="headerlink" href="#what-next" title="Link a questa intestazione">¶</a></h2>
+<h2><a class="toc-backref" href="#id4">What next?</a><a class="headerlink" href="#what-next" title="Link a questa intestazione">¶</a></h2>
 <ul class="simple">
 <li><p>Leggi la <a class="reference external" href="https://mapserver.org/mapcache/index.html">Documentazione MapCache</a>.</p></li>
 <li><p>Allora unisciti alla comunità MapServer, di cui MapCache fa parte, sulla <a class="reference external" href="https://www.mapserver.org/community/lists.html">Mailing Lists</a> per scambiare idee, discutere potenziali miglioramenti del software e fare domande.</p></li>
