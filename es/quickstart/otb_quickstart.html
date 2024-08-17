@@ -70,7 +70,7 @@
 <blockquote>
 <div><ul class="simple">
 <li><p>Obtener información de metadatos de una imagen</p></li>
-<li><p>Realizar operaciones matemáticas entre bandas de imágenes.</p></li>
+<li><p>Realizar operaciones matemáticas entre bandas de imágenes</p></li>
 <li><p>Abra imágenes ráster con la aplicación monteverdi, realice la segmentación (agrupación de desplazamiento medio) y visualice el resultado</p></li>
 <li><p>Realizar una clasificación supervisada basada en el algoritmo de Máquina de Vectores de Soporte</p></li>
 </ul>
@@ -122,7 +122,7 @@
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">otbcli_BandMath</span> <span class="o">-</span><span class="n">il</span> <span class="n">lsat7_2002_30</span><span class="o">.</span><span class="n">tif</span> <span class="n">lsat7_2002_40</span><span class="o">.</span><span class="n">tif</span> <span class="o">-</span><span class="n">out</span> <span class="o">~/</span><span class="n">ndvi</span><span class="o">.</span><span class="n">tif</span> <span class="o">-</span><span class="n">exp</span> <span class="s2">&quot;ndvi(im1b1,im2b1)&quot;</span>
 </pre></div>
 </div>
-<p>El archivo  <cite>lsat7_2002_30.tif</cite> corresponde al canal rojo Landsat 7, <cite>lsat7_2002_40.tif</cite> corresponde con Infra-Rojo Cercano.</p>
+<p>El archivo <cite>lsat7_2002_30.tif</cite> corresponde al canal rojo Landsat 7, <cite>lsat7_2002_40.tif</cite> corresponde con Infra-Rojo Cercano.</p>
 <p>Luego puede visualizar las imágenes de entrada y el resultado con el comando</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">monteverdi</span> <span class="n">lsat7_2002_30</span><span class="o">.</span><span class="n">tif</span> <span class="n">lsat7_2002_40</span><span class="o">.</span><span class="n">tif</span> <span class="o">~/</span><span class="n">ndvi</span><span class="o">.</span><span class="n">tif</span>
 </pre></div>
@@ -159,7 +159,7 @@
 </pre></div>
 </div>
 <ul class="simple">
-<li><p>Generar colores en lugar de etiquetas.</p></li>
+<li><p>Generar colores en lugar de etiquetas</p></li>
 </ul>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">otbcli_ColorMapping</span> <span class="o">-</span><span class="ow">in</span> <span class="o">~/</span><span class="n">segmentation</span><span class="o">.</span><span class="n">tif</span> <span class="o">-</span><span class="n">out</span> <span class="o">~/</span><span class="n">segmentation_colored</span><span class="o">.</span><span class="n">tif</span> <span class="o">-</span><span class="n">method</span> <span class="n">image</span> <span class="o">-</span><span class="n">method</span><span class="o">.</span><span class="n">image</span><span class="o">.</span><span class="ow">in</span> <span class="o">~/</span><span class="n">lsat7_rgbn</span><span class="o">.</span><span class="n">tif</span>
 </pre></div>

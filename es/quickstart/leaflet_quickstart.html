@@ -126,18 +126,18 @@
 </pre></div>
 </div>
 <p>De manera predeterminada (al no pasar cualquier opción al crear la instancia de mapa), todas las interacciones con el mouse y el tacto en el mapa están habilitadas, y tiene controles de zoom y de atribución.</p>
-<p>Tenga en cuenta que la llamada a setView también devuelve el objeto de mapa - la mayoría de los métodos de Leaflet actúan de esta manera cuando no devuelven un valor explícito, lo que permite  el conveniente encadenamiento del método jQuery-like.</p>
+<p>Tenga en cuenta que la llamada a setView también devuelve el objeto de mapa - la mayoría de los métodos de Leaflet actúan de esta manera cuando no devuelven un valor explícito, lo que permite el conveniente encadenamiento del método jQuery-like.</p>
 <p>A continuación, agregaremos una capa de mosaico a nuestro mapa. En este caso, utilizaremos las imágenes de mosaico proporcionadas por MapProxy en el DVD en vivo. Tenga en cuenta que el uso de mapas de fondo más agradables, como openstreetmap, dará como resultado una experiencia de usuario mucho mejor.</p>
 <p>La creación de una capa de teselas generalmente implica configurar la plantilla de la URL de las imágenes de azulejo, el texto de atribución y el máximo nivel de acercamiento de la capa:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">L</span><span class="o">.</span><span class="n">tileLayer</span><span class="p">(</span><span class="s1">&#39;http://localhost:8011/wmts/mapnik_tile/GLOBAL_WEBMERCATOR/</span><span class="si">{z}</span><span class="s1">/</span><span class="si">{x}</span><span class="s1">/</span><span class="si">{y}</span><span class="s1">.png&#39;</span><span class="p">,{})</span><span class="o">.</span><span class="n">addTo</span><span class="p">(</span><span class="nb">map</span><span class="p">);</span>
 </pre></div>
 </div>
-<p>Si usted tiene acceso en línea, puede que desee utilizar un tilemap mejor como  fondo:</p>
+<p>Si usted tiene acceso en línea, puede que desee utilizar un tilemap mejor como fondo:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">L</span><span class="o">.</span><span class="n">tileLayer</span><span class="p">(</span><span class="s1">&#39;http://</span><span class="si">{s}</span><span class="s1">.tile.openstreetmap.org/</span><span class="si">{z}</span><span class="s1">/</span><span class="si">{x}</span><span class="s1">/</span><span class="si">{y}</span><span class="s1">.png&#39;</span><span class="p">,{</span><span class="n">maxZoom</span><span class="p">:</span><span class="mi">18</span><span class="p">,</span> <span class="n">attribution</span><span class="p">:</span> <span class="s1">&#39;© &lt;a href=&quot;https://www.openstreetmap.org/copyright&quot;&gt;OpenStreetMap&lt;/a&gt; contributors&#39;</span><span class="p">})</span><span class="o">.</span><span class="n">addTo</span><span class="p">(</span><span class="nb">map</span><span class="p">);</span>
 </pre></div>
 </div>
-<p>Asegúrese de después de la inclusión  <strong>div</strong> and <strong>leaflet.js</strong>. ¡Eso es!. Ahora usted tiene un mapa de folleto en funcionamiento.</p>
-<p>Cabe destacar que Leaflet es independiente del proveedor, lo que significa que no impone una opción particular de proveedores para las teselas  y ni siquiera contiene una sola línea de código específica del proveedor, por lo que puede usar otros proveedores si lo necesita.</p>
+<p>Asegúrese de después de la inclusión <strong>div</strong> and <strong>leaflet.js</strong>. ¡Eso es!. Ahora usted tiene un mapa de folleto en funcionamiento.</p>
+<p>Cabe destacar que Leaflet es independiente del proveedor, lo que significa que no impone una opción particular de proveedores para las teselas y ni siquiera contiene una sola línea de código específica del proveedor, por lo que puede usar otros proveedores si lo necesita.</p>
 </section>
 <section id="markers-circles-and-polygons">
 <h2><a class="toc-backref" href="#id5">Marcadores, círculos y polígonos</a><a class="headerlink" href="#markers-circles-and-polygons" title="Enlazar permanentemente con este título">¶</a></h2>
@@ -201,7 +201,7 @@
 </section>
 <section id="what-next">
 <h2><a class="toc-backref" href="#id8">What next?</a><a class="headerlink" href="#what-next" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>Ahora usted ha aprendido lo básico sobre Leaflet y puede empezar a construir aplicaciones mapa enseguida! No te olvides de echar un vistazo a la documentation <a class="reference external" href="https://leafletjs.com/examples.html">detallada</a>  u otros <a class="reference external" href="https://leafletjs.com/reference.html">ejemplos</a>.</p>
+<p>Ahora usted ha aprendido lo básico sobre Leaflet y puede empezar a construir aplicaciones mapa enseguida! No te olvides de echar un vistazo a la documentation <a class="reference external" href="https://leafletjs.com/examples.html">detallada</a> u otros <a class="reference external" href="https://leafletjs.com/reference.html">ejemplos</a>.</p>
 </section>
 </section>
 
