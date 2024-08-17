@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2024-01-29 15:45+0000\n"
+"PO-Revision-Date: 2024-08-17 19:57+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "proj_overview/es/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/proj_overview.rst:17
 msgid "PROJ"
@@ -39,9 +39,9 @@ msgstr ""
 "PROJ es una biblioteca que proporciona métodos para transformar entre "
 "sistemas de referencia de coordenadas diferentes. Un sistema de referencia "
 "de coordenadas geográficas permite que todos los puntos de la tierra puedan "
-"ser descritos como   un conjuntos de coordenadas (como latitud, longitud y "
+"ser descritos como un conjuntos de coordenadas (como latitud, longitud y "
 "altitud). Diversos sistemas se utilizan para representar la tierra "
-"tridimensional  en un plano o mapa bidimensional."
+"tridimensional en un plano o mapa bidimensional."
 
 #: ../../build/doc/overview/proj_overview.rst:25
 msgid ""
@@ -172,8 +172,7 @@ msgstr "Inicio Rápido"
 
 #: ../../build/doc/overview/proj_overview.rst:78
 msgid ":doc:`Quickstart documentation <../quickstart/proj_quickstart>`"
-msgstr ""
-":doc:`Documentación de inicio rápido  <../quickstart/proj_quickstart>`"
+msgstr ":doc:`Documentación de inicio rápido <../quickstart/proj_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"

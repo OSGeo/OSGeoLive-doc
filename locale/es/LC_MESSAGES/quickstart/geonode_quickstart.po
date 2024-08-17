@@ -6,21 +6,22 @@
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2022
 # Vicky Vergara <vicky@georepublic.de>, 2022
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
+"PO-Revision-Date: 2024-08-17 19:57+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"geonode_quickstart/es/>\n"
 "Language: es\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 "
-"? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:22
@@ -417,12 +418,12 @@ msgid ""
 " in our `mailing list <https://lists.osgeo.org/cgi-bin/mailman/listinfo"
 "/geonode-users>`_ !"
 msgstr ""
-"Si necesita ayuda o desea obtener información sobre un tema específico, "
-"¡no dude en preguntarnos! ¡Puede hacerlo a través del canal #geonode IRC "
-"usando https://webchat.freenode.net/, a través del `canal GeoNode de "
-"Gitter  <https://gitter.im/GeoNode/general>`_ o haciendo su pregunta en "
-"nuestra `lista de correo <https://lists.osgeo.org/cgi-"
-"bin/mailman/listinfo/geonode-users>`_ !"
+"Si necesita ayuda o desea obtener información sobre un tema específico, ¡no "
+"dude en preguntarnos! ¡Puede hacerlo a través del canal #geonode IRC usando "
+"https://webchat.freenode.net/, a través del `canal GeoNode de Gitter "
+"<https://gitter.im/GeoNode/general>`_ o haciendo su pregunta en nuestra `"
+"lista de correo <https://lists.osgeo.org/cgi-bin/mailman/listinfo/geonode-"
+"users>`_ !"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -439,4 +440,3 @@ msgstr "Proyecto OSGeo"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo Comunitario"
-

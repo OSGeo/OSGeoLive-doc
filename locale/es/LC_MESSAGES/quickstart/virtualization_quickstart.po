@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-01 17:00+0000\n"
-"PO-Revision-Date: 2024-01-29 15:45+0000\n"
+"PO-Revision-Date: 2024-08-17 19:57+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "virtualization_quickstart/es/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:10
 msgid "Running in a Virtual Machine"
@@ -32,7 +32,7 @@ msgstr "Ejecución en una máquina virtual"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:13
 msgid "Overview"
-msgstr "Vista General "
+msgstr "Vista General"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:15
 msgid ""
@@ -128,9 +128,9 @@ msgid ""
 "<https://www.intel.com/content/www/us/en/support/articles/000005486/processors.html>`_"
 msgstr ""
 "**CPU**: Cualquier CPU servirá, pero un procesador que admita \"Tecnología "
-"de virtualización\" será más rápido. Compruebe si su ordenador es compatible"
-" con 'Tecnología de Virtualización  "
-"<https://www.intel.com/content/www/us/en/support/articles/000005486/processors.html>`_"
+"de virtualización\" será más rápido. Compruebe si su ordenador es compatible "
+"con 'Tecnología de Virtualización <https://www.intel.com/content/www/us/en/"
+"support/articles/000005486/processors.html>`_"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:40
 msgid "Most machines produced after 2010 will meet these requirements."

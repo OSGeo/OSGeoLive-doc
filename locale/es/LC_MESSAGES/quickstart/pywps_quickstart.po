@@ -7,20 +7,22 @@
 # MarPetra <mvergaratrejo@gmail.com>, 2022
 # Vicky Vergara <vicky@georepublic.de>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"PO-Revision-Date: 2024-08-17 19:57+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"pywps_quickstart/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:23
 msgid "PyWPS Quickstart"
@@ -62,7 +64,7 @@ msgstr "Instalar y configurar el servicio de ejemplo de pywps-flask"
 msgid ""
 "Perform ``GetCapabilities``, ``DescribeProcess`` and ``Execute`` requests"
 msgstr ""
-"Realizar requerimientos de ``GetCapabilities``, ``DescribeProcess``  y "
+"Realizar requerimientos de ``GetCapabilities``, ``DescribeProcess`` y "
 "``Execute``"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:38
@@ -128,7 +130,7 @@ msgstr "`database=sqlite:////home/user/pywps-flask/logs/pywps-logs.sqlite3`"
 msgid ""
 "Save the configuration file and exit `nano` you can now run the service:"
 msgstr ""
-"Guardar el archivo de configuración y salir de `nano`  ahora puede ejecutar "
+"Guardar el archivo de configuración y salir de `nano` ahora puede ejecutar "
 "el servicio:"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:68
@@ -153,8 +155,8 @@ msgid ""
 "listening: `http://127.0.0.1:5000/ <http://127.0.0.1:5000/>`_ You will be "
 "presented with the following page:"
 msgstr ""
-"Abra un navegador web y diríjase a la dirección donde escuche el servicio de"
-" ejemplo:  `http://127.0.0.1:5000/ <http://127.0.0.1:5000/>`_ y se le "
+"Abra un navegador web y diríjase a la dirección donde escuche el servicio de "
+"ejemplo: `http://127.0.0.1:5000/ <http://127.0.0.1:5000/>`_ y se le "
 "presentará la siguiente página:"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:84
@@ -175,9 +177,9 @@ msgid ""
 "process, which is fairly simple. Direct your web browser to the following "
 "address:"
 msgstr ""
-"hora es el momento de probar una solicitud de  `Execute` . Puede probar el "
+"hora es el momento de probar una solicitud de `Execute` . Puede probar el "
 "proceso `say_hello` , que es bastante simple. Dirija su navegador web a la "
-"siguiente dirección: "
+"siguiente dirección:"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:92
 msgid ""

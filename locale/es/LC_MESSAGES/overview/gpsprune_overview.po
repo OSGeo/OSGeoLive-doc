@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2023-07-31 19:39+0000\n"
+"PO-Revision-Date: 2024-08-17 19:57+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "gpsprune_overview/es/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:15
 msgid "GpsPrune"
@@ -123,7 +123,7 @@ msgid ""
 "Save data to text files, gpx files, kml/kmz files, or directly to a GPS "
 "receiver"
 msgstr ""
-"Guardar datos en archivos de texto, archivos gpx  kml/kmz, o directamente a "
+"Guardar datos en archivos de texto, archivos gpx kml/kmz, o directamente a "
 "un GPS receiver"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:50
@@ -180,7 +180,7 @@ msgstr "Inicio Rápido"
 #: ../../build/doc/overview/gpsprune_overview.rst:72
 msgid ":doc:`Quickstart documentation <../quickstart/gpsprune_quickstart>`"
 msgstr ""
-":doc:`Documentación de inicio rápido  <../quickstart/gpsprune_quickstart>`"
+":doc:`Documentación de inicio rápido <../quickstart/gpsprune_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"

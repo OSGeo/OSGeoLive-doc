@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2024-01-29 15:45+0000\n"
+"PO-Revision-Date: 2024-08-17 19:57+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "postgis_quickstart/es/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:39
@@ -847,7 +847,7 @@ msgstr "pgAdmin"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:547
 msgid "Enter the master password  ``user``."
-msgstr "Introduzca la contraseña ``user``"
+msgstr "Introduzca la contraseña ``user``."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:549
 msgid ""
@@ -1011,7 +1011,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:662
 msgid "Read more about ``ogr_fdw``:"
-msgstr "Leer más sobre ``ogr_fdw``"
+msgstr "Leer más sobre ``ogr_fdw``:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:664
 msgid "Repository: https://github.com/pramsey/pgsql-ogr-fdw"

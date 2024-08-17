@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2023-07-31 19:39+0000\n"
+"PO-Revision-Date: 2024-08-17 19:57+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "copyright/es/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/copyright.rst:2
@@ -49,16 +49,15 @@ msgid "License of OSGeo-Live"
 msgstr "Licencia de OSGeo-Live"
 
 #: ../../build/doc/copyright.rst:11
-#, fuzzy
 msgid ""
 "The OSGeo-Live project is distributed under `LGPL license v2.1 "
 "<http://www.gnu.de/documents/lgpl-2.1.en.html>`__. All documentation is "
 "provided under a `Creative Commons Attribution 3.0 Unported License "
 "<https://creativecommons.org/licenses/by/3.0/>`__."
 msgstr ""
-"El proyecto OSGeo-Live se distribuye bajo la `Licencia LGPL v2.1 "
-"<http://www.gnu.de/documents/lgpl-2.1.en.html>`__. Toda la documentación "
-"se proporciona bajo `Creative Commons Attribution 3.0 Unported License "
+"El proyecto OSGeo-Live se distribuye bajo la `Licencia LGPL v2.1 <http://www."
+"gnu.de/documents/lgpl-2.1.en.html>`__. Toda la documentación se proporciona "
+"bajo `Creative Commons Attribution 3.0 Unported License "
 "<https://creativecommons.org/licenses/by/3.0/>`_."
 
 #: ../../build/doc/copyright.rst:16
@@ -74,18 +73,16 @@ msgstr ""
 "los proyectos empaquetados se resumen más en esta página."
 
 #: ../../build/doc/copyright.rst:21
-#, fuzzy
 msgid ""
 "Project Overviews and Overview Translations, are provided under a "
 "`Creative Commons Attribution 3.0 Unported License "
 "<https://creativecommons.org/licenses/by/3.0/>`__."
 msgstr ""
-"Las Vistas Generales de los proyectos y sus Traducciones son "
-"proporcionadas bajo licencia `Creative Commons Attribution 3.0 Unported "
-"License <https://creativecommons.org/licenses/by/3.0/>`_."
+"Las Vistas Generales de los proyectos y sus Traducciones son proporcionadas "
+"bajo licencia `Creative Commons Attribution 3.0 Unported License "
+"<https://creativecommons.org/licenses/by/3.0/>`_."
 
 #: ../../build/doc/copyright.rst:24
-#, fuzzy
 msgid ""
 "Quickstarts and Quickstart Translations, are provided under a `Creative "
 "Commons Attribution-ShareAlike 3.0 Unported License "
@@ -157,7 +154,6 @@ msgid "**Verbose, suitable for a 100 page thesis:**"
 msgstr "**Detallado, adecuado para una tesis de 100 páginas:**"
 
 #: ../../build/doc/copyright.rst:50
-#, fuzzy
 msgid ""
 "|CC-By-SA-med| This document includes content from the \"gvSIG "
 "Quickstart\" created by Simon Cropper under the `Creative Commons "
@@ -167,11 +163,11 @@ msgid ""
 "25 July 2011. The original work was translated from English to German."
 msgstr ""
 "|CC-By-SA-med| Este documento incluye contenido de la \"Guía de Inicio "
-"Rápido de gvSIG\" creada por Simon Cropper bajo la licenciaCreative "
-"Commons Attribution-ShareAlike 3.0 Unported, "
-"https://creativecommons.org/licenses/by-sa/3.0/ disponible en el proyecto"
-" OSGeoLive, :doc:`quickstart/gvsig_quickstart`, y descargado el 25 de "
-"Julio de 2011. El trabajo original fue traducido del inglés al español."
+"Rápido de gvSIG\" creada por Simon Cropper bajo la licencia`Creative Commons "
+"Attribution-ShareAlike 3.0 Unported licence <https://creativecommons.org/"
+"licenses/by-sa/3.0/>`__ disponible en el proyecto OSGeoLive, :doc:`"
+"quickstart/gvsig_quickstart`, y descargado el 25 de Julio de 2011. El "
+"trabajo original fue traducido del inglés al español."
 
 #: ../../build/doc/copyright.rst
 msgid "CC-By-SA-med"
@@ -182,17 +178,16 @@ msgid "**Concise CC-By-SA and attribution:**"
 msgstr "**Conciso CC-By-SA y reconocimiento:**"
 
 #: ../../build/doc/copyright.rst:62
-#, fuzzy
 msgid ""
 "© 2011 [Your Name] under a `CC By SA License "
 "<https://creativecommons.org/licenses/by-sa/3.0/>`__.  [Derived "
 "from|Includes|Extends] :doc:`OSGeoLive <index>` documentation by "
 ":doc:`OSGeoLive contributors <copyright>`."
 msgstr ""
-"© 2011 [Su nombre] bajo una `Licencia CC By SA "
-"<https://creativecommons.org/licenses/by-sa/3.0/>`_. [Derivado de | "
-"Incluye | Extiende] la documentación de :doc:`OSGeoLive <index>`  por los"
-" :doc:`Contribuidores de OSGeoLive <copyright>`."
+"© 2011 [Su nombre] bajo una `Licencia CC By SA <https://creativecommons.org/"
+"licenses/by-sa/3.0/>`_. [Derivado de | Incluye | Extiende] la documentación "
+"de :doc:`OSGeoLive <index>` por los :doc:`Contribuidores de OSGeoLive "
+"<copyright>`."
 
 #: ../../build/doc/copyright.rst:67
 msgid "**Alternative Concise CC-By and attribution:**"

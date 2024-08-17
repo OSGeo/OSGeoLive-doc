@@ -7,20 +7,22 @@
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-13 22:52+0000\n"
-"PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"PO-Revision-Date: 2024-08-17 19:57+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"geoserver_overview/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/geoserver_overview.rst:19
 msgid "GeoServer"
@@ -67,7 +69,7 @@ msgstr "Shapefiles, WFS externos"
 
 #: ../../build/doc/overview/geoserver_overview.rst:42
 msgid "PostGIS, ArcSDE, DB2, Oracle Spatial, MySql, SQL Server"
-msgstr "Servidor de PostGIS, ArcSDE, DB2, Oracle Spatial, MySql, SQL "
+msgstr "Servidor de PostGIS, ArcSDE, DB2, Oracle Spatial, MySql, SQL"
 
 #: ../../build/doc/overview/geoserver_overview.rst:44
 msgid "Raster"
@@ -101,8 +103,8 @@ msgstr ""
 "Como los datos se muestran como una imagen, sus datos están completamente "
 "seguros. A menos que redigitalicen sus datos, no hay forma de robarlos. La "
 "apariencia de cada capa de mapa se puede controlar utilizando el estándar "
-"SLD que permite que las características se coloreen y etiqueten. Al combinar"
-" estas reglas con los filtros OGC,  un estilo dependiente de la escala se "
+"SLD que permite que las características se coloreen y etiqueten. Al combinar "
+"estas reglas con los filtros OGC, un estilo dependiente de la escala se "
 "puede implementar, lo que permite agregar más detalles a medida que el "
 "usuario amplía. También se implementan la gestión de colisiones de "
 "etiquetas, la agrupación y las prioridades."
@@ -190,8 +192,8 @@ msgid ""
 " processes, and using rendering transformations to create powerful "
 "visualisations through the WMS interface."
 msgstr ""
-"Algoritmos geoespaciales, incluidos los de :doc:`JTS <jts_overview>`,  puede"
-" ser invocado a través de la interfaz |WPS| de  GeoServer. Esto incluye el "
+"Algoritmos geoespaciales, incluidos los de :doc:`JTS <jts_overview>`,  puede "
+"ser invocado a través de la interfaz |WPS| de GeoServer. Esto incluye el "
 "encadenamiento de procesos y el uso de transformaciones de renderización "
 "para crear visualizaciones potentes a través de la interfaz WMS."
 
@@ -257,7 +259,7 @@ msgid ""
 "**Supported Platforms:** Java 8 (Oracle JDK and OpenJDK) on Windows, Linux, "
 "and Mac"
 msgstr ""
-"**Plataformas compatibles:** Java 8 (Oracle JDK and OpenJDK)  en GNU/Linux, "
+"**Plataformas compatibles:** Java 8 (Oracle JDK and OpenJDK) en GNU/Linux, "
 "Mac OSX, MS Windows"
 
 #: ../../build/doc/overview/geoserver_overview.rst:91
@@ -275,7 +277,7 @@ msgstr "Inicio Rápido"
 #: ../../build/doc/overview/geoserver_overview.rst:100
 msgid ":doc:`Quickstart documentation <../quickstart/geoserver_quickstart>`"
 msgstr ""
-":doc:`Documentación de inicio rápido  <../quickstart/geoserver_quickstart>`"
+":doc:`Documentación de inicio rápido <../quickstart/geoserver_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"

@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-27 11:42+0000\n"
-"PO-Revision-Date: 2024-01-29 15:45+0000\n"
+"PO-Revision-Date: 2024-08-17 19:57+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "deegree_overview/es/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/deegree_overview.rst:21
 msgid "deegree"
@@ -147,7 +147,7 @@ msgid ""
 "Shapefiles or GML instance documents"
 msgstr ""
 "Soporta varios backends, como PostGIS, Oracle Spatial, MS SQL Server, "
-"Shapefiles o documentos de instancia GML."
+"Shapefiles o documentos de instancia GML"
 
 #: ../../build/doc/overview/deegree_overview.rst:61
 msgid "**WMS**"
@@ -155,7 +155,7 @@ msgstr "**WMS**"
 
 #: ../../build/doc/overview/deegree_overview.rst:63
 msgid "Implements WMS standards 1.1.1 and 1.3.0"
-msgstr "Implementa los estándarres  WMS  1.1.1 y 1.3.0"
+msgstr "Implementa los estándarres WMS 1.1.1 y 1.3.0"
 
 #: ../../build/doc/overview/deegree_overview.rst:64
 msgid "Official OGC reference implementation for WMS 1.1.1 and WMS 1.3.0"
@@ -180,7 +180,7 @@ msgstr "Estilo dependiente de la escala"
 msgid "Support for SE removes the need for a lot of proprietary extensions"
 msgstr ""
 "El soporte para SE elimina la necesidad de una gran cantidad de extensiones "
-"de propietario."
+"de propietario"
 
 #: ../../build/doc/overview/deegree_overview.rst:70
 msgid ""
@@ -230,7 +230,7 @@ msgstr "**WMTS**"
 
 #: ../../build/doc/overview/deegree_overview.rst:79
 msgid "Implements Basic WMTS standard 1.0.0 (KVP)"
-msgstr "Implementa el  estándar básico WMTS 1.0.0 (KVP)"
+msgstr "Implementa el estándar básico WMTS 1.0.0 (KVP)"
 
 #: ../../build/doc/overview/deegree_overview.rst:80
 msgid "Official OGC reference implementation for WMS 1.0.0"
@@ -273,8 +273,8 @@ msgid ""
 "Pluggable and modular dataaccess layer allows to add support for new APs and"
 " backends"
 msgstr ""
-"La capa enchufable  y modular de acceso a datos permite agregar soporte para"
-" nuevos APs y backends"
+"La capa enchufable y modular de acceso a datos permite agregar soporte para "
+"nuevos APs y backends"
 
 #: ../../build/doc/overview/deegree_overview.rst:94
 msgid ""

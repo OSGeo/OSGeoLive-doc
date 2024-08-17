@@ -6,21 +6,22 @@
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2022
 # Vicky Vergara <vicky@georepublic.de>, 2022
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2020-11-29 04:49+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
+"PO-Revision-Date: 2024-08-17 19:57+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"pygeoapi_quickstart/es/>\n"
 "Language: es\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 "
-"? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:23
@@ -93,8 +94,8 @@ msgid ""
 " service."
 msgstr ""
 "vaya a la carpeta de usuario ``/usr/local/share/pygeoapi`` y busque un "
-"archivo  ``pygeoapi-config.yml``. Este archivo contiene la configuración "
-"del servicio."
+"archivo ``pygeoapi-config.yml``. Este archivo contiene la configuración del "
+"servicio."
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:44
 msgid "Open the file ``sudo nano pygeoapi-config.yml``."
@@ -145,7 +146,6 @@ msgstr ""
 "casi ilimitado de otras fuentes vectoriales."
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:60
-#, fuzzy
 msgid ""
 "Interesting datasets to expose as OGC API - Features consist of real "
 "world data having multiple attributes and links to other resources. "
@@ -153,28 +153,27 @@ msgid ""
 "``/var/www/html/openlayers/examples/data/geojson/countries.geojson``. You"
 " can configure it in pygeoapi using the GeoJSON provider."
 msgstr ""
-"Los conjuntos de datos interesantes para exponer como Características-"
-"OAPI consisten en datos del mundo real que tienen múltiples atributos y "
-"enlaces a otros recursos. OSGeo Live contiene una serie de conjuntos de "
-"datos que podemos usar. Un ejemplo "
-"es``/var/www/html/openlayers/examples/data/geojson/countries.geojson``. "
-"Puede configurarlo en pygeoapi utilizando el proveedor GeoJSON."
+"Los conjuntos de datos interesantes para exponer como Características de la "
+"API de OGC consisten en datos del mundo real que tienen múltiples atributos "
+"y enlaces a otros recursos. OSGeoLive contiene una serie de conjuntos de "
+"datos que podemos usar. Un ejemplo es``/var/www/html/openlayers/examples/"
+"data/geojson/countries.geojson``. Puede configurarlo en pygeoapi utilizando "
+"el proveedor GeoJSON."
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:64
 msgid "Download the GeoJSON file and place it in the tests/data folder."
 msgstr "Descargue el archivo GeoJSON y colóquelo en la carpeta tests/data."
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:66
-#, fuzzy
 msgid ""
 "Update ``pygeoapi-config.yml`` to add ``countries`` as a new collection "
 "to pygeoapi (insert snippet below between the other collections. Mind the"
 " nesting, nesting is important in YAML syntax)."
 msgstr ""
-"Actualice pygeoapi-config.yml para agregar ``países`` como una nueva "
-"colección a pygeoapi (inserte un fragmento de código a continuación entre"
-" las otras colecciones. Tenga en cuenta el anidamiento, el anidamiento es"
-" importante en la sintaxis YAML)."
+"Actualice pygeoapi-config.yml para agregar ``countries`` como una nueva "
+"colección a pygeoapi (inserte un fragmento de código a continuación entre "
+"las otras colecciones. Tenga en cuenta el anidamiento, el anidamiento es "
+"importante en la sintaxis YAML)."
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:92
 msgid "Restart pygeoapi"
@@ -193,7 +192,6 @@ msgid "Using a web browser to query the API"
 msgstr "Uso de un explorador web para consultar la API"
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:99
-#, fuzzy
 msgid ""
 "Now that we have the service available we can query it using various "
 "client tooling. Each of the features of the collection is available in "
@@ -206,17 +204,16 @@ msgid ""
 "accept header and request specific representations of the feature "
 "(``?f=json``)."
 msgstr ""
-"Ahora que tenemos el servicio disponible podemos consultarlo usando "
-"varias herramientas de cliente. Cada una de las características de la "
-"colección está disponible en formatos comunes, como HTML, GeoJSON y GML. "
-"Para empezar podemos utilizar un navegador web para navegar por el "
-"servicio. Desde http://localhost:5000/collections/countries, desglose "
-"hasta operaciones individuales. El servicio detectará automáticamente "
-"(aceptar encabezado) que está utilizando un navegador web y devolverá la "
-"representación HTML de las características. Observe en la esquina "
-"superior derecha vínculos explícitos para invalidar el encabezado de "
-"aceptación y solicitar representaciones específicas de la entidad "
-"(?f=geojson)."
+"Ahora que tenemos el servicio disponible podemos consultarlo usando varias "
+"herramientas de cliente. Cada una de las características de la colección "
+"está disponible en formatos comunes, como HTML, GeoJSON y GML. Para empezar "
+"podemos utilizar un navegador web para navegar por el servicio. Desde "
+"http://localhost:5000/collections/countries, desglose hasta operaciones "
+"individuales. El servicio detectará automáticamente (aceptar encabezado) que "
+"está utilizando un navegador web y devolverá la representación HTML de las "
+"características. Observe en la esquina superior derecha vínculos explícitos "
+"para invalidar el encabezado de aceptación y solicitar representaciones "
+"específicas de la entidad (``?f=json``)."
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:102
 msgid ""
@@ -231,7 +228,6 @@ msgstr ""
 "directamente con ellos a través de formularios web."
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:107
-#, fuzzy
 msgid ""
 "OGC API’s have been developed with the `W3C Spatial Data on the Web Best "
 "Practices <https://www.w3.org/TR/sdw-bp>`_ in mind. An important aspect "
@@ -247,26 +243,25 @@ msgid ""
 "extract from it. The search engine will use that information in its "
 "datasets index."
 msgstr ""
-"Las API de OGC se han desarrollado teniendo en cuenta los `datos "
-"espaciales en las mejores prácticas web <https://w3c.github.io/sdw/bp"
-"/#bp-summary>`_. Un aspecto importante de estas mejores prácticas es la "
-"optimización de motores de búsqueda. Pygeoapi agrega algunas "
-"optimizaciones de rastreo además de los requisitos de los estándares de "
-"API abierta; Los motores de búsqueda pueden rastrear los metadatos de la "
-"colección de una manera estructurada, con el objetivo de que las "
-"colecciones sean detectables en herramientas como Google Dataset Search. "
-"Para evaluar las capacidades de datos estructurados, puede utilizar las "
-"herramientas de prueba de datos estructurados de Yandex o Google. Copie "
-"la fuente html de la página de recopilación de países (o la URL de una "
-"página de recopilación de una instancia de pygeoapi en línea) en una "
-"herramienta de prueba de datos estructurados y evalúe qué datos "
-"estructurados la herramienta puede extraer de ella. El motor de búsqueda "
-"utilizará esa información en su índice de conjuntos de datos."
+"Las API del OGC han sido desarrolladas teniendo en cuenta las `W3C Spatial "
+"Data on the Web Best Practices <https://www.w3.org/TR/sdw-bp>`_. Un aspecto "
+"importante de estas buenas prácticas es la optimización para los motores de "
+"búsqueda. Pygeoapi añade algunas optimizaciones de rastreo además de los "
+"requisitos de los estándares de la API abierta; los metadatos de las "
+"colecciones pueden ser rastreados por los motores de búsqueda de forma "
+"estructurada, con el objetivo de que las colecciones sean descubribles en "
+"herramientas como Google Dataset Search. Para evaluar las capacidades de los "
+"datos estructurados, puede utilizar las herramientas de prueba de datos "
+"estructurados de Yandex o Google. Copie la fuente html de la página de la "
+"colección de países (o la url de una página de colección de una instancia de "
+"pygeoapi en línea) en una herramienta de prueba de datos estructurados y "
+"evalúe qué datos estructurados es capaz de extraer de ella la herramienta. "
+"El motor de búsqueda utilizará esa información en su índice de conjuntos de "
+"datos."
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:110
-#, fuzzy
 msgid "Using OGC API - Features in Desktop GIS"
-msgstr "Uso de OAPI-Características en SIG de escritorio"
+msgstr "Uso de API de OGC - Características en SIG de escritorio"
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:112
 msgid ""
@@ -278,13 +273,12 @@ msgstr ""
 "por ejemplo, ArcGIS, FME, OpenLayers."
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:114
-#, fuzzy
 msgid ""
 "Starting from QGIS 3.14 you can add an OGC API - Features layer as vector"
 " layer. From the ``Layer / Add Layer`` menu select ``Add WFS Layer...``."
 msgstr ""
-"A partir de QGIS 3.14 puede agregar una capa OAPI-Features como capa "
-"vectorial. En el menú ``añadir capa`` seleccione ``Agregar capa WFS / "
+"A partir de QGIS 3.14 puede agregar una capa de API de OGC - Features como "
+"capa vectorial. En el menú ``añadir capa`` seleccione ``Agregar capa WFS / "
 "OAPI-Features``."
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:119
@@ -326,4 +320,3 @@ msgstr "Proyecto OSGeo"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo Comunitario"
-

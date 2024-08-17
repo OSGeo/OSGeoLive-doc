@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2024-01-29 15:45+0000\n"
+"PO-Revision-Date: 2024-08-17 19:57+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "pycsw_overview/es/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/pycsw_overview.rst:19
 msgid "pycsw"
@@ -41,7 +41,7 @@ msgid ""
 "metadata records stored as XML files within a database."
 msgstr ""
 "pycsw permite a los usuarios publicar un catálogo de descripciones de "
-"conjunto de datos (metadatos) en la web, utilizando interfaces  y formatos "
+"conjunto de datos (metadatos) en la web, utilizando interfaces y formatos "
 "basados en estándares, de modo que pueda ser consultado y actualizado por "
 "los clientes del catálogo. pycsw es fácil de configurar dentro de un "
 "servidor web Apache (o cualquier servidor WSGI) y puede acceder a registros "
@@ -66,9 +66,9 @@ msgid ""
 "standard defines common interfaces to discover, browse and query metadata "
 "about spatial data, web services and related resources."
 msgstr ""
-"pycsw es una implementación `Python`_  de el |CSW|. Es un proyecto "
-"certificado por `OGC Compliant`_,  y es una `OGC Reference Implementation`_."
-" El estándar de CSW define interfaces comunes para descubrir, navegar y "
+"pycsw es una implementación `Python`_ de el |CSW|. Es un proyecto "
+"certificado por `OGC Compliant`_, y es una `OGC Reference Implementation`_. "
+"El estándar de CSW define interfaces comunes para descubrir, navegar y "
 "consultar metadatos sobre datos espaciales, sevicios web y recursos "
 "relacionados."
 
@@ -93,8 +93,8 @@ msgid ""
 "certified OGC Compliant and OGC Reference Implementation for OGC CSW 2.0.2 "
 "and CSW 3.0.0"
 msgstr ""
-"Certificación OGC Compliant y OGC  Implementación de Referencia para OGC CSW"
-" 2.0.2 y CSW 3.0.0"
+"Certificación OGC Compliant y OGC Implementación de Referencia para OGC CSW "
+"2.0.2 y CSW 3.0.0"
 
 #: ../../build/doc/overview/pycsw_overview.rst:42
 msgid "harvesting support for WMS, WFS, WCS, WPS, WAF, CSW, SOS"
@@ -125,7 +125,7 @@ msgstr "implementa las Capacidades de Búsqueda de Texto"
 
 #: ../../build/doc/overview/pycsw_overview.rst:48
 msgid "implements OGC OpenSearch Geo/Time extensions"
-msgstr "implementa extensiones de OGC OpenSearch Geo/Time "
+msgstr "implementa extensiones de OGC OpenSearch Geo/Time"
 
 #: ../../build/doc/overview/pycsw_overview.rst:49
 msgid "implements Open Archives Initiative Protocol for Metadata Harvesting"
@@ -135,8 +135,7 @@ msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:50
 msgid "supports ISO, Dublin Core, DIF, FGDC, Atom and GM03 metadata models"
-msgstr ""
-"Soporta modelos de metadatos  ISO, Dublin Core, DIF, FGDC, Atom y GM03 "
+msgstr "Soporta modelos de metadatos ISO, Dublin Core, DIF, FGDC, Atom y GM03"
 
 #: ../../build/doc/overview/pycsw_overview.rst:51
 msgid "CGI or WSGI deployment"
@@ -180,7 +179,7 @@ msgstr "Búsqueda en catálogos federales distribuidos"
 
 #: ../../build/doc/overview/pycsw_overview.rst:61
 msgid "realtime XML Schema validation"
-msgstr "validación en tiempo real  de esquema XML"
+msgstr "validación en tiempo real de esquema XML"
 
 #: ../../build/doc/overview/pycsw_overview.rst:62
 msgid "extensible profile plugin architecture"
@@ -304,8 +303,7 @@ msgstr "Inicio Rápido"
 
 #: ../../build/doc/overview/pycsw_overview.rst:117
 msgid ":doc:`Quickstart documentation <../quickstart/pycsw_quickstart>`"
-msgstr ""
-":doc:`Documentación de inicio rápido  <../quickstart/pycsw_quickstart>`"
+msgstr ":doc:`Documentación de inicio rápido <../quickstart/pycsw_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
