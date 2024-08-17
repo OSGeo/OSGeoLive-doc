@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-17 16:28+0000\n"
+"POT-Creation-Date: 2024-08-17 16:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -496,14 +496,6 @@ msgid ""
 msgstr ""
 
 #: ../../build/licenses.csv:1
-msgid "osgearth_overview"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "Pirmin Kalberer"
-msgstr ""
-
-#: ../../build/licenses.csv:1
 msgid "osm_dataset_overview"
 msgstr ""
 
@@ -597,6 +589,10 @@ msgstr ""
 
 #: ../../build/licenses.csv:1
 msgid "spatialite_overview"
+msgstr ""
+
+#: ../../build/licenses.csv:1
+msgid "Pirmin Kalberer"
 msgstr ""
 
 #: ../../build/licenses.csv:1
@@ -852,14 +848,6 @@ msgid "Antonio Santiago; Chris Schmidt; Bart van den Eijnden"
 msgstr ""
 
 #: ../../build/licenses.csv:1
-msgid "osgearth_quickstart"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "OSGeoLive; Pirmin Kalberer"
-msgstr ""
-
-#: ../../build/licenses.csv:1
 msgid "osgeolive_install_quickstart"
 msgstr ""
 
@@ -947,6 +935,10 @@ msgstr ""
 
 #: ../../build/licenses.csv:1
 msgid "qgis_mapserver_quickstart"
+msgstr ""
+
+#: ../../build/licenses.csv:1
+msgid "OSGeoLive; Pirmin Kalberer"
 msgstr ""
 
 #: ../../build/licenses.csv:1
