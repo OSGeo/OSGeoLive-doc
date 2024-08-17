@@ -201,6 +201,7 @@ linkcheck_ignore = [
 
         # HTTPSConnectionPool
         r'https://worldwind.arc.nasa.gov/java/',
+        r'https://r-spatial.org',
 
         # links to the disk internals
         r'http://localhost', r'https://localhost',
