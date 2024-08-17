@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-17 14:13+0000\n"
+"POT-Creation-Date: 2024-08-17 14:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -414,14 +414,6 @@ msgstr ""
 
 #: ../../build/licenses.csv:1
 msgid "Alan Boudreault, Steve Lime"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "mapslicer_overview"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "Klokan Petr Pridal, Angelos Tzotsos"
 msgstr ""
 
 #: ../../build/licenses.csv:1
@@ -842,14 +834,6 @@ msgstr ""
 
 #: ../../build/licenses.csv:1
 msgid "Stephan Meissl; Cameron Shorter, Jirotech; Angelos Tzotsos, OSGeo"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "mapslicer_quickstart"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "OSGeoLive; Petr Pridal; Christopher Fleet; Angelos Tzotsos"
 msgstr ""
 
 #: ../../build/licenses.csv:1
