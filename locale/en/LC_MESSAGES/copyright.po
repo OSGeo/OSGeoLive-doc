@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-17 16:05+0000\n"
+"POT-Creation-Date: 2024-08-17 16:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -446,14 +446,6 @@ msgid "Hamish Bowman, Sergey Popov"
 msgstr ""
 
 #: ../../build/licenses.csv:1
-msgid "mb-system_overview"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "Creative Commons"
-msgstr ""
-
-#: ../../build/licenses.csv:1
 msgid "naturalearth_overview"
 msgstr ""
 
@@ -517,6 +509,10 @@ msgstr ""
 
 #: ../../build/licenses.csv:1
 msgid "osm_overview"
+msgstr ""
+
+#: ../../build/licenses.csv:1
+msgid "Creative Commons"
 msgstr ""
 
 #: ../../build/licenses.csv:1
@@ -829,10 +825,6 @@ msgstr ""
 
 #: ../../build/licenses.csv:1
 msgid "Sergey Popov"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "mb-system_quickstart"
 msgstr ""
 
 #: ../../build/licenses.csv:1
