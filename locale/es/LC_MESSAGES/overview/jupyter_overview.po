@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-13 22:52+0000\n"
-"PO-Revision-Date: 2023-02-17 06:23+0000\n"
+"PO-Revision-Date: 2024-08-17 19:57+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "jupyter_overview/es/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/jupyter_overview.rst:16
 msgid "Jupyter Notebook"
@@ -61,7 +61,7 @@ msgid ""
 "explanatory text, mathematics, code, images, videos, graphs, maps, and other"
 " rich media representations of objects."
 msgstr ""
-"Documentos de cuadernos que  almacenan una representación de todo el "
+"Documentos de cuadernos que almacenan una representación de todo el "
 "contenido visible en la aplicación web, incluidas entradas y salidas de "
 "cálculos, texto explicativo, matemáticas, código, imágenes, vídeos, "
 "gráficos, mapas y otras representaciones multimedia enriquecidas de objetos."
@@ -92,7 +92,7 @@ msgstr "Características Principales"
 
 #: ../../build/doc/overview/jupyter_overview.rst:47
 msgid "Create Jupyter Notebooks which can contain:"
-msgstr "Crear cuadernos jupyter  que puedan contener:"
+msgstr "Crear cuadernos jupyter que puedan contener:"
 
 #: ../../build/doc/overview/jupyter_overview.rst:49
 msgid "Marked up text (with headings, styles, paragraphs, etc)"
@@ -154,7 +154,7 @@ msgstr "**Interfaces API:** Python"
 
 #: ../../build/doc/overview/jupyter_overview.rst:72
 msgid "**Support:** https://jupyter.org/community.html"
-msgstr "**Soporte:**  https://jupyter.org/community.html"
+msgstr "**Soporte:** https://jupyter.org/community.html"
 
 #: ../../build/doc/overview/jupyter_overview.rst:78
 msgid "Quickstart"

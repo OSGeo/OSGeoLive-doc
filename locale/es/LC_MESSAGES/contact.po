@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-01-29 15:45+0000\n"
+"PO-Revision-Date: 2024-08-17 19:57+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/contact/"
 "es/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/contact.rst:2
@@ -95,14 +95,13 @@ msgstr ""
 "<https://lists.osgeo.org/mailman/listinfo/osgeolive>`_."
 
 #: ../../build/doc/contact.rst:29
-#, fuzzy
 msgid ""
 "IRC users might try the #osgeolive or #osgeo channel at `Libera.chat "
 "network <https://libera.chat/>`_ for real-time assistance. You also can "
 "meet us at Slack, Matrix or Gitter."
 msgstr ""
-"Los usuarios de IRC pueden probar el canal  #osgeolive en Freenode.net "
-"para obtener asistencia en tiempo real."
+"Los usuarios de IRC pueden probar el canal #osgeolive en Freenode.net para "
+"obtener asistencia en tiempo real."
 
 #: ../../build/doc/contact.rst:32
 msgid ""
@@ -110,9 +109,9 @@ msgid ""
 "<https://trac.osgeo.org/osgeolive/wiki>`_, and a `bug and wish tracking "
 "system <https://trac.osgeo.org/osgeolive/report/10>`_ is also available."
 msgstr ""
-"Una gran cantidad de información está disponible en nuestro `sitio Wiki  "
-"<https://trac.osgeo.org/osgeolive/wiki>`_, y también hay un `seguimiento "
-"de errores de sistema <https://trac.osgeo.org/osgeolive/report/10>`_."
+"Una gran cantidad de información está disponible en nuestro `sitio Wiki "
+"<https://trac.osgeo.org/osgeolive/wiki>`_, y también hay un `seguimiento de "
+"errores de sistema <https://trac.osgeo.org/osgeolive/report/10>`_."
 
 #: ../../build/doc/contact.rst:35
 msgid ""

@@ -12,16 +12,17 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2023-02-17 06:23+0000\n"
+"PO-Revision-Date: 2024-08-17 19:57+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"actinia_overview/es/>\n"
 "Language: es\n"
-"Language-Team: Spanish "
-"<https://weblate.osgeo.org/projects/osgeolive/actinia_overview/es/>\n"
-"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 "
-"== 0) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/overview/actinia_overview.rst:18
@@ -30,7 +31,7 @@ msgstr "actinia"
 
 #: ../../build/doc/overview/actinia_overview.rst:21
 msgid "High Performance Geospatial Processing"
-msgstr "Procesamiento geoespacial de alto rendimiento "
+msgstr "Procesamiento geoespacial de alto rendimiento"
 
 #: ../../build/doc/overview/actinia_overview.rst:23
 msgid ""
@@ -71,9 +72,8 @@ msgstr ""
 "imágenes satelitales, datos ráster y vectoriales."
 
 #: ../../build/doc/overview/actinia_overview.rst:42
-#, fuzzy
 msgid "Explore the `tutorial <https://actinia-org.github.io/actinia-core/>`_."
-msgstr "Explora el `tutorial <https://mundialis.github.io/actinia_core/>`_."
+msgstr "Explorar el `tutorial <https://actinia-org.github.io/actinia-core/>`_."
 
 #: ../../build/doc/overview/actinia_overview.rst:45
 msgid "Details"
@@ -142,4 +142,3 @@ msgstr "Proyecto OSGeo"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo Comunitario"
-

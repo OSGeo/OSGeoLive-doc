@@ -6,21 +6,22 @@
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2022
 # Vicky Vergara <vicky@georepublic.de>, 2022
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
+"PO-Revision-Date: 2024-08-17 19:57+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"cesium_quickstart/es/>\n"
 "Language: es\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 "
-"? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:19
@@ -105,7 +106,7 @@ msgstr "Cesium mapa 2D"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:55
 msgid "Select the Image layer"
-msgstr "Seleccionar la capa  imagen"
+msgstr "Seleccionar la capa imagen"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:56
 msgid ""
@@ -130,9 +131,8 @@ msgstr ""
 "=PLBk_Dtk-_Tlm4STvXKFEdfUWylPemo-9V>`_."
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:68
-#, fuzzy
 msgid "Read our written `tutorials <https://cesium.com/learn>`_."
-msgstr "Leer nuestros `tutoriales <https://cesium.com/docs>`_ escritos."
+msgstr "Leer nuestros `tutoriales <https://cesium.com/learn>`_."
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:70
 msgid ""
@@ -141,10 +141,10 @@ msgid ""
 " of the best ways to learn about Cesium, and all the code examples are "
 "useful for this purpose."
 msgstr ""
-"Puede desarrollar algunas aplicaciones rápidas utilizando el  `sitio web "
+"Puede desarrollar algunas aplicaciones rápidas utilizando el `sitio web "
 "Sandcastle <https://sandcastle.cesium.com/index.html>`_. Sandcastle es "
-"generalmente una de las mejores maneras de aprender sobre Cesium, y todos"
-" los ejemplos de código son útiles para este propósito."
+"generalmente una de las mejores maneras de aprender sobre Cesium, y todos "
+"los ejemplos de código son útiles para este propósito."
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:72
 msgid ""
@@ -179,4 +179,3 @@ msgstr "Proyecto OSGeo"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo Comunitario"
-

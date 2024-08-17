@@ -10,20 +10,22 @@
 # Vicky Vergara <vicky@georepublic.de>, 2022
 # Jose Vergara, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-21 20:07+0000\n"
-"PO-Revision-Date: 2017-01-21 16:46+0000\n"
-"Last-Translator: Jose Vergara, 2022\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"PO-Revision-Date: 2024-08-17 19:57+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/index/"
+"es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/index.rst:3
 msgid "Welcome to |osgeolive-version|"
@@ -106,7 +108,7 @@ msgid ""
 "A half hour `presentation <presentation.html>`__, highlighting all OSGeoLive"
 " applications, is available with slides, script"
 msgstr ""
-"Una  `presentación de media hora <presentation.html>`__ , destacando todas "
+"Una `presentación de media hora <presentation.html>`__ , destacando todas "
 "las aplicaciones de OSGeoLive, está disponible con diapositivas, script"
 
 #: ../../build/doc/<rst_epilog>:12

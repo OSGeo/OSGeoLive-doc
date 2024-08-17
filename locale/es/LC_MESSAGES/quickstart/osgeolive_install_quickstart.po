@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2024-01-29 15:45+0000\n"
+"PO-Revision-Date: 2024-08-17 19:57+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "osgeolive_install_quickstart/es/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:8
 msgid "Install OSGeoLive to Hard Disk"
@@ -43,7 +43,7 @@ msgid ""
 msgstr ""
 "Este proceso también se puede ejecutar dentro de una Máquina Virtual para "
 "crear una Máquina Virtual permanente de OSGeoLive a partir de un de DVD o "
-"una imagen  ISO."
+"una imagen ISO."
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:17
 msgid "System Requirements"
@@ -67,7 +67,7 @@ msgstr "Introduzca la contraseña=\"user\""
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:37
 msgid "Select language"
-msgstr "Seleccione el lenguaje "
+msgstr "Seleccione el lenguaje"
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:42
 msgid "Select timezone"
@@ -75,7 +75,7 @@ msgstr "Seleccione la zona horaria"
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:47
 msgid "Select keyboard"
-msgstr "Seleccione el teclado "
+msgstr "Seleccione el teclado"
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:52
 msgid ""
@@ -107,7 +107,7 @@ msgstr "nombre de la computadora = \"osgeolive\""
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:64
 msgid "Log In automatically"
-msgstr "Iniciar sesión automáticamente "
+msgstr "Iniciar sesión automáticamente"
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:69
 msgid "Select :guilabel:`Install`"

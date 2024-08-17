@@ -7,21 +7,22 @@
 # David Mateos, 2019
 # MarPetra <mvergaratrejo@gmail.com>, 2022
 # Vicky Vergara <vicky@georepublic.de>, 2022
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
+"PO-Revision-Date: 2024-08-17 19:57+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"r_quickstart/es/>\n"
 "Language: es\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 "
-"? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:18
@@ -235,9 +236,9 @@ msgid ""
 "EPSG:27700 which is the Ordnance Survey of Great Britain grid system:"
 msgstr ""
 "Necesitamos asignar un CRS al objeto antes de poder transformarlo con la "
-"función sf::st_transform del paquete sf. Lo transformamos a EPSG:27700, "
-"que es  sistema de referencia de coordenadas del Servicio Cartográfico de"
-" Reino Unido"
+"función sf::st_transform del paquete sf. Lo transformamos a EPSG:27700, que "
+"es sistema de referencia de coordenadas del Servicio Cartográfico de Reino "
+"Unido:"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:222
 msgid ""
@@ -310,10 +311,9 @@ msgid ""
 "documentation from the main `R Project <https://www.r-project.org/>`_ "
 "page."
 msgstr ""
-"Para información general sobre R, consulte la `Introducción a R "
-"<https://cran.r-project.org/doc/manuals/R-intro.html>`_ o cualquier "
-"documentación de la página principal del  `Proyecto R "
-"<https://www.r-project.org/>`_."
+"Para información general sobre R, consulte la `Introducción a R <https://cran"
+".r-project.org/doc/manuals/R-intro.html>`_ o cualquier documentación de la "
+"página principal del `Proyecto R <https://www.r-project.org/>`_."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:273
 msgid ""
@@ -348,4 +348,3 @@ msgstr "Proyecto OSGeo"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo Comunitario"
-

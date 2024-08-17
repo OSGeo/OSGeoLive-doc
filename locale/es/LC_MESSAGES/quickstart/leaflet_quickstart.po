@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-04 13:45+0000\n"
-"PO-Revision-Date: 2024-01-29 15:45+0000\n"
+"PO-Revision-Date: 2024-08-17 19:57+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "leaflet_quickstart/es/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:18
 msgid "Leaflet Quickstart"
@@ -48,7 +48,7 @@ msgstr "Contenidos"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:25
 msgid "Running"
-msgstr "Ejecución "
+msgstr "Ejecución"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:27
 msgid ""
@@ -101,7 +101,7 @@ msgstr "Incluye archivo Leaflet JavaScript:"
 msgid ""
 "put a **div** element with a certain **id** where you want your map to be:"
 msgstr ""
-"Ponga un elemento **div** con cierto **id** donde quiera que esté su mapa: "
+"Ponga un elemento **div** con cierto **id** donde quiera que esté su mapa:"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:56
 msgid ""
@@ -146,9 +146,9 @@ msgid ""
 "act like this when they don't return an explicit value, which allows "
 "convenient jQuery-like method chaining."
 msgstr ""
-"Tenga en cuenta que la llamada a setView también devuelve el objeto de mapa "
-"- la mayoría de los métodos de Leaflet actúan de esta manera cuando no "
-"devuelven un valor explícito, lo que permite  el conveniente encadenamiento "
+"Tenga en cuenta que la llamada a setView también devuelve el objeto de mapa -"
+" la mayoría de los métodos de Leaflet actúan de esta manera cuando no "
+"devuelven un valor explícito, lo que permite el conveniente encadenamiento "
 "del método jQuery-like."
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:76
@@ -179,14 +179,14 @@ msgid ""
 "background:"
 msgstr ""
 "Si usted tiene acceso en línea, puede que desee utilizar un tilemap mejor "
-"como  fondo:"
+"como fondo:"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:91
 msgid ""
 "Make sure all the code is called after the **div** and **leaflet.js** "
 "inclusion. That's it! You have a working Leaflet map now."
 msgstr ""
-"Asegúrese de después de la inclusión  **div** and **leaflet.js**. ¡Eso es!. "
+"Asegúrese de después de la inclusión **div** and **leaflet.js**. ¡Eso es!. "
 "Ahora usted tiene un mapa de folleto en funcionamiento."
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:93
@@ -197,7 +197,7 @@ msgid ""
 " providers if you need to."
 msgstr ""
 "Cabe destacar que Leaflet es independiente del proveedor, lo que significa "
-"que no impone una opción particular de proveedores para las teselas  y ni "
+"que no impone una opción particular de proveedores para las teselas y ni "
 "siquiera contiene una sola línea de código específica del proveedor, por lo "
 "que puede usar otros proveedores si lo necesita."
 
@@ -292,7 +292,7 @@ msgid ""
 "the full example_"
 msgstr ""
 "Pruebe haciendo click en el mapa y verá las coordenadas en una ventana "
-"emergente. Ver el ejemplo completo_ "
+"emergente. Ver el ejemplo completo_"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:173
 msgid "What Next?"
@@ -304,9 +304,9 @@ msgid ""
 "away! Don't forget to take a look at the detailed documentation_ or other "
 "examples_."
 msgstr ""
-"Ahora usted ha aprendido lo básico sobre Leaflet y puede empezar a construir"
-" aplicaciones mapa enseguida! No te olvides de echar un vistazo a la "
-"documentation detallada_  u otros ejemplos_."
+"Ahora usted ha aprendido lo básico sobre Leaflet y puede empezar a construir "
+"aplicaciones mapa enseguida! No te olvides de echar un vistazo a la "
+"documentation detallada_ u otros ejemplos_."
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"

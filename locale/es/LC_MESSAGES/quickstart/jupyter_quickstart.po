@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-13 22:52+0000\n"
-"PO-Revision-Date: 2023-03-24 15:23+0000\n"
+"PO-Revision-Date: 2024-08-17 19:57+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "jupyter_quickstart/es/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:20
 msgid "Jupyter Notebook Quickstart"
@@ -217,7 +217,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:137
 msgid "More notebook examples are available from the notebook root directory."
-msgstr "Hay más ejemplos de cuadernos están disponibles desde la raíz"
+msgstr "Hay más ejemplos de cuadernos están disponibles desde la raíz."
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:138
 msgid ""

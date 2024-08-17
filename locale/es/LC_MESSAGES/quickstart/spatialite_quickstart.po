@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2023-07-31 19:39+0000\n"
+"PO-Revision-Date: 2024-08-17 19:57+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "spatialite_quickstart/es/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:27
@@ -77,15 +77,13 @@ msgstr ""
 "consultas SQL."
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:46
-#, fuzzy
 msgid "Open the Spatialite GUI by selecting |menu_spatialite-gui|"
 msgstr ""
-"Abra la GUI de Spatialite seleccionando "
-":menuselection:`Geoespacial->Bases de Datos->Spatialite GUI`."
+"Abra la interfaz gráfica de Spatialite seleccionando |menu_spatialite-gui|"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:50
 msgid "Select :menuselection:`File->Connecting an existing SQLite DB`"
-msgstr "Seleccione  :menuselection:`File->Connecting an existing SQLite DB`"
+msgstr "Seleccione :menuselection:`File->Connecting an existing SQLite DB`"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:51
 msgid ""

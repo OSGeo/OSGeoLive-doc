@@ -10,20 +10,22 @@
 # Stefano Campus <skampus@gmail.com>, 2022
 # Luca Delucchi <lucadeluge@gmail.com>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-27 11:42+0000\n"
-"PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Luca Delucchi <lucadeluge@gmail.com>, 2022\n"
-"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
+"PO-Revision-Date: 2024-08-17 15:51+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Italian <https://weblate.osgeo.org/projects/osgeolive/"
+"deegree_overview/it/>\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: it\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/deegree_overview.rst:21
 msgid "deegree"
@@ -39,9 +41,8 @@ msgid ""
 "Network Services <https://inspire.ec.europa.eu>`_ specifications. deegree "
 "supports:"
 msgstr ""
-"degree fornisce servizi web geospaziali basati sulle specifiche |OGC| e "
-"`INSPIRE Network Services <https://inspire.ec.europa.eu>`_. degree supporta:"
-" "
+"degree fornisce servizi web geospaziali basati sulle specifiche |OGC| e `"
+"INSPIRE Network Services <https://inspire.ec.europa.eu>`_. degree supporta:"
 
 #: ../../build/doc/overview/deegree_overview.rst:30
 msgid "|WFS|: Serves vector data from geospatial data"

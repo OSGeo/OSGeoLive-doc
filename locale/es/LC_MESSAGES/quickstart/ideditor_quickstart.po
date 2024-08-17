@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-20 21:55-0500\n"
-"PO-Revision-Date: 2023-07-31 19:39+0000\n"
+"PO-Revision-Date: 2024-08-17 19:57+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "ideditor_quickstart/es/>\n"
@@ -22,11 +22,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:20
 msgid "iD editor Quickstart"
-msgstr "Guías de Inicio Rápido de iD Editor "
+msgstr "Guías de Inicio Rápido de iD Editor"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:22
 msgid ""
@@ -58,7 +58,7 @@ msgstr "Iniciar el iD Editor"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:36
 msgid "The iD editor requires an active connection to the Internet."
-msgstr "El iD editor requiere una conección activa a Internet "
+msgstr "El iD editor requiere una conección activa a Internet."
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:38
 msgid ""
@@ -532,7 +532,7 @@ msgstr "Formas de dibujo (polígonos)"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:178
 msgid "To add a new multi-sided shape, click on the **Area** button."
 msgstr ""
-"Para agregar una nueva forma de múltiples lados, haga click en el  botón "
+"Para agregar una nueva forma de múltiples lados, haga click en el botón "
 "**Área**."
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:180
