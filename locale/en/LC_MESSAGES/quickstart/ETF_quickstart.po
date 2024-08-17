@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-04 10:12+0000\n"
+"POT-Creation-Date: 2024-08-17 19:49+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:19
 msgid "ETF Quickstart"
@@ -506,29 +506,29 @@ msgid ""
 " before validating them again until all tests succeed."
 msgstr ""
 
-#: ../../build/doc/quickstart/ETF_quickstart.rst:315
-msgid "What's next?"
+#: ../../build/doc/quickstart/ETF_quickstart.rst:317
+msgid "What's Next?"
 msgstr ""
 
-#: ../../build/doc/quickstart/ETF_quickstart.rst:317
+#: ../../build/doc/quickstart/ETF_quickstart.rst:319
 msgid ""
 "This was just a very brief overview of the ETF. There is more information"
 " in the demo installation and on the `ETF GitHub space`_."
 msgstr ""
 
-#: ../../build/doc/quickstart/ETF_quickstart.rst:321
+#: ../../build/doc/quickstart/ETF_quickstart.rst:324
 msgid "Please also check:"
 msgstr ""
 
-#: ../../build/doc/quickstart/ETF_quickstart.rst:323
+#: ../../build/doc/quickstart/ETF_quickstart.rst:326
 msgid "`User manual`_"
 msgstr ""
 
-#: ../../build/doc/quickstart/ETF_quickstart.rst:324
+#: ../../build/doc/quickstart/ETF_quickstart.rst:327
 msgid "`Administrator manual`_"
 msgstr ""
 
-#: ../../build/doc/quickstart/ETF_quickstart.rst:325
+#: ../../build/doc/quickstart/ETF_quickstart.rst:328
 msgid "`Developer manual`_"
 msgstr ""
 
