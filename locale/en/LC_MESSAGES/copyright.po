@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-17 15:09+0000\n"
+"POT-Creation-Date: 2024-08-17 15:20+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -291,14 +291,6 @@ msgstr ""
 
 #: ../../build/licenses.csv:1
 msgid "Barbara Angerer, Angelos Tzotsos"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "geopublisher_overview"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "Stefan Tzeggai"
 msgstr ""
 
 #: ../../build/licenses.csv:1
@@ -749,10 +741,6 @@ msgstr ""
 
 #: ../../build/licenses.csv:1
 msgid "Barbara Angerer"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "geopublisher_quickstart"
 msgstr ""
 
 #: ../../build/licenses.csv:1
