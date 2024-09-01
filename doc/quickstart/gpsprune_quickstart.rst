@@ -22,7 +22,7 @@ In this Quick Start, we will load and view a data file included on this live ima
 Start @NAME_gpsprune@
 ================================================================================
 
-From the Start menu, choose |menu_gpsprune|.  This will then give you the empty window shown below.
+From the Start menu, choose |menu_gpsprune|. This will then give you the empty window shown below.
 
 .. image:: /images/projects/gpsprune/gpsprune_emptywindow.png
    :scale: 55
