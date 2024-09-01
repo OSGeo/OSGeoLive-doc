@@ -19,7 +19,7 @@ utilities to translate and process a wide range of raster and vector
 geospatial data formats.
 
 The utilities are based upon a cross platform, C++ library, accessible
-via numerous programming languages.  As a library, it presents a single
+via numerous programming languages. As a library, it presents a single
 abstract data model to the calling application for all supported formats.
 
 GDAL/OGR is the most widely used geospatial data access library. It provides

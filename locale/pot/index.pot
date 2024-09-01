@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-29 07:28+0000\n"
+"POT-Creation-Date: 2024-09-01 23:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "`OSGeoLive <https://live.osgeo.org>`_ is a self-contained bootable DVD, U
 msgstr ""
 
 #: ../../build/doc/index.rst:None
-msgid "boot select"
+msgid "Menu"
 msgstr ""
 
 #: ../../build/doc/index.rst:21

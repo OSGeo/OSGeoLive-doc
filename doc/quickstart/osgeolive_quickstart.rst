@@ -43,7 +43,7 @@ Run:
 
    .. image:: /images/projects/osgeolive/osgeolive_menu.png
      :scale: 70 %
-     :alt: boot select
+     :alt: menu
 
   Try the many applications from the :menuselection:`Geospatial` menu.
 

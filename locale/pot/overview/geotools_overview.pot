@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-17 13:25+0000\n"
+"POT-Creation-Date: 2024-09-01 23:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -217,7 +217,7 @@ msgid "**Support:** `Communication and Support <http://docs.geotools.org/latest/
 msgstr ""
 
 #: ../../build/doc/overview/geotools_overview.rst:120
-msgid "GeoTools_Support"
+msgid "GeoTools Support"
 msgstr ""
 
 #: ../../build/doc/overview/geotools_overview.rst:122

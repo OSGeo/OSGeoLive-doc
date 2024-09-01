@@ -29,7 +29,7 @@ cp build/presentation/locale_changes_po.txt build/presentation/locale_changes_po
 perl -pe 's/(.*)en\/LC_MESSAGES(.*)/$1pot$2t/' < build/presentation/locale_changes_po.txt >> build/presentation/locale_changes_po_pot.txt  # .pot files
 
 # Remove obsolete entries #~ from .po files
-bash tools/transifex/remove_obsolete_entries.sh
+bash scripts/remove_obsolete_entries.sh
 
 # Remove duplicate string locations
 perl -i -ne 'print unless (defined($prev) && ($_ eq $prev)); $prev=$_' locale/pot/*.pot

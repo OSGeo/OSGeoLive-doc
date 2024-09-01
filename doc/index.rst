@@ -15,7 +15,7 @@ and passed around.
 
 .. image:: /images/projects/osgeolive/osgeolive_menu.png
   :scale: 70 %
-  :alt: boot select
+  :alt: Menu
   :align: right
 
 It provides pre-configured applications for a range of geospatial use cases,

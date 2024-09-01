@@ -106,7 +106,7 @@ Details
 
 **Support:** `Communication and Support <http://docs.geotools.org/latest/userguide/welcome/support.html>`_
 
-GeoTools_Support
+GeoTools Support
 --------------------------------------------------------------------------------
 
 * `Quickstart documentation <http://docs.geotools.org/latest/userguide/tutorial/quickstart/index.html>`_
