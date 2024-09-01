@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"POT-Creation-Date: 2024-09-01 23:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,7 +45,7 @@ msgid "Start the Re3gistry"
 msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:36
-msgid "Choose *'Start Re3gistry'* from the |menu_re3gistry-Start| menu.  The application will take a few moments to start up. Firefox opens the *Re3gistry landing page* (you can also open this manually by pointing your browser to http://localhost:8080/re3gistry2)."
+msgid "Choose *'Start Re3gistry'* from the |menu_re3gistry-Start| menu. The application will take a few moments to start up. Firefox opens the *Re3gistry landing page* (you can also open this manually by pointing your browser to http://localhost:8080/re3gistry2)."
 msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:41
@@ -248,6 +248,7 @@ msgstr ""
 msgid "OSGeo Project"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""

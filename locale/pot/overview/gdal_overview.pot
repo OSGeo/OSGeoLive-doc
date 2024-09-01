@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"POT-Creation-Date: 2024-09-01 23:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,14 +29,14 @@ msgid "Geospatial Data Abstraction Library (GDAL/OGR) provides command-line util
 msgstr ""
 
 #: ../../build/doc/overview/gdal_overview.rst:27
-msgid "The utilities are based upon a cross platform, C++ library, accessible via numerous programming languages.  As a library, it presents a single abstract data model to the calling application for all supported formats."
+msgid "The utilities are based upon a cross platform, C++ library, accessible via numerous programming languages. As a library, it presents a single abstract data model to the calling application for all supported formats."
 msgstr ""
 
 #: ../../build/doc/overview/gdal_overview.rst:31
 msgid "GDAL/OGR is the most widely used geospatial data access library. It provides the primary data access engine for many applications including MapServer, GRASS, QGIS, and OpenEV. It is also utilized by packages such as OSSIM, Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide and ArcGIS."
 msgstr ""
 
-#: ../../build/doc/overview/gdal_overview.rst:-1
+#: ../../build/doc/overview/gdal_overview.rst:None
 msgid "gdal screenshot"
 msgstr ""
 
@@ -140,6 +140,7 @@ msgstr ""
 msgid "OSGeo Project"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""
