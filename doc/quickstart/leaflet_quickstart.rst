@@ -22,7 +22,7 @@ Running
 ================================================================================
 
 Prior to running this quick start you should start MapProxy. On OSGeoLive this can be found under **Geospatial\\Web Services\\MapProxy\\Start MapProxy**.
-This will provide background tiles that will be used in this demo. 
+This will provide background tiles that will be used in this demo.
 
 View the example_
 
@@ -62,7 +62,7 @@ Setting up the Map
 ================================================================================
 Let's create a map of Firenze, Italy with an indication of the 2022 FOSS4G conference. First we'll initialize the map and set its view to our chosen geographical coordinates and a zoom level:
 
-.. code-block:: javascript 
+.. code-block:: javascript
 
  var map = L.map('map').setView([43.77913, 11.24938], 15);
 
@@ -95,7 +95,7 @@ Markers, circles and polygons
 Besides tile layers, you can easily add other things to your map, including markers, polylines, polygons, circles and popups.
 Let's add a marker:
 
-.. code-block:: javascript 
+.. code-block:: javascript
 
  var marker = L.marker([43.77913, 11.24938]).addTo(map);
 
@@ -125,7 +125,7 @@ Working with popups
 
 Popups are usually used when you want to attach some information to a particular object on a map. Leaflet has a very handy shortcut for this:
 
-.. code-block:: javascript 
+.. code-block:: javascript
 
  var popup = L.popup()
     .setLatLng([43.77913, 11.24938])
@@ -144,7 +144,7 @@ Every time something happens in Leaflet, e.g. user clicks on a marker or map zoo
  function onMapClick(e) {
     alert("You clicked the map at " + e.latlng);
  }
- 
+
  map.on('click', onMapClick);
 
 Each object has its own set of events - see documentation_ for details. The first argument of the listener function is an event object - it contains useful information about the event that happened. For example, map click event object (e in the example above) has latlng property which is a location at which the click occured.
@@ -160,8 +160,8 @@ Let's improve our example by using a popup instead of an alert:
          .setLatLng(e.latlng)
          .setContent("You clicked the map at " + e.latlng.toString())
           .openOn(map);
- } 
- 
+ }
+
  map.on('click', onMapClick);
 
 Try clicking on the map and you will see the coordinates in a popup. View the full example_

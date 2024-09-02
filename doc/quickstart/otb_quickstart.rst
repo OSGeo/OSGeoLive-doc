@@ -32,16 +32,16 @@ The OTB applications provide lots of interesting tools which facilitate the mani
 
 Sample data used in this quickstart can be found in :
   * /home/user/data/north_carolina/rast_geotiff
-  
+
 Start a Terminal Emulator (LXTerminal currently) from the Applications menu in the Accessories section. This gives you a Unix shell command prompt. Go to the data directory.
 
   cd /home/user/data/north_carolina/rast_geotiff
-  
+
 
 .. contents:: Contents
    :local:
 
-Display metadata information in an image 
+Display metadata information in an image
 ========================================
 
 You can get all the metadata information contained in an image with the command : `otbcli_ReadImageInfo`
@@ -71,14 +71,14 @@ You can then visualize input images and the result with the command ::
 Pixel based classification
 ==========================
 The classification in the application framework provides a supervised pixel-wise
-classification chain based on learning from multiple images, and using a 
-specified machine learning method like SVM, Bayes, KNN, Random Forests, Artificial 
-Neural Network, and others. See the application help of 
-`TrainImagesClassifier` for further details about all the available 
-classifiers. 
-It supports huge images through streaming and multi-threading. The 
-classification chain performs a training step based on the intensities of each 
-pixel as features. Please note that all the input images must have the same number 
+classification chain based on learning from multiple images, and using a
+specified machine learning method like SVM, Bayes, KNN, Random Forests, Artificial
+Neural Network, and others. See the application help of
+`TrainImagesClassifier` for further details about all the available
+classifiers.
+It supports huge images through streaming and multi-threading. The
+classification chain performs a training step based on the intensities of each
+pixel as features. Please note that all the input images must have the same number
 of bands to be comparable.
 
 To discover this application, you can use the command ::
@@ -148,7 +148,7 @@ you will need to:
 * Install development package **libotb-dev** and **libqt4-dev** .
 * Check that **cmake** is installed.
 
-The OTB_DIR location should be found automatically (usually in */usr/lib/x86_64-linux-gnu/cmake/OTB-...*). In your CMake configuration, you should link the libraries in the variable OTB_LIBRARIES. 
+The OTB_DIR location should be found automatically (usually in */usr/lib/x86_64-linux-gnu/cmake/OTB-...*). In your CMake configuration, you should link the libraries in the variable OTB_LIBRARIES.
 
 More information can be found in the Software Guide.
 
@@ -162,8 +162,8 @@ What next?
   comprehensive guide which comprises about 600 pages, detailing the
   steps to install OTB and use it. Most of the classes available are
   heavily illustrated with results from real remote sensing
-  processing. 
-  
+  processing.
+
 .. TODO pdf link is broken
 
   * `OTBSoftwareGuide.pdf <https://www.orfeo-toolbox.org/packages/OTBSoftwareGuide.pdf>`_
@@ -174,8 +174,8 @@ What next?
   A guide for OTB-Applications and Monteverdi dedicated for
   non-developers is also available.This guide is composed of a brief
   tour of of OTB-Applications and Monteverdi, followed by a set of
-  recipes to perform usual remote sensing tasks with both tools. 
-  
+  recipes to perform usual remote sensing tasks with both tools.
+
 .. TODO pdf link is broken
 
   * `OTBCookBook.pdf <http://orfeo-toolbox.org/packages/OTBCookBook.pdf>`_

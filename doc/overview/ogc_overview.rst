@@ -11,8 +11,8 @@
 
 The Open Geospatial Consortium (OGC) is a collective problem-solving community of more than 550 experts representing industry, government, research and academia, collaborating to make geospatial (location) information and services FAIR - Findable, Accessible, Interoperable, and Reusable.
 
-The global OGC Community engages in a mix of activities related to location-based technologies: 
-developing consensus-based open standards and best-practices; 
+The global OGC Community engages in a mix of activities related to location-based technologies:
+developing consensus-based open standards and best-practices;
 collaborating on problem solving in agile innovation initiatives; participating in member meetings, events, and workshops; and more.
 
 OGC's unique standards development process moves at the pace of innovation, with constant input from technology forecasting, practical prototyping, real-world testing, and community engagement.

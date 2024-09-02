@@ -61,6 +61,6 @@ Details
 
 @VMDK_geomoose@
 @QUICKSTART_geomoose@
-    
+
 .. presentation-note
     GeoMOOSE is a mapping framework built upon OpenLayers and MapServer which is particularly useful for managing spatial and non-spatial data within county, city and municipal offices (from which GeoMoose originated). It provides services for viewing and organising many layers, selection operations and dataset searches.

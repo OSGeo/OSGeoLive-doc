@@ -28,7 +28,7 @@ Run the tester application
    .. image:: /images/projects/pycsw/pycsw_tester_startup.png
      :scale: 75 %
 
-  By selecting the left drop-down list, the user can see various predefined POST requests, encoded as XML, that can be sent to pycsw. 
+  By selecting the left drop-down list, the user can see various predefined POST requests, encoded as XML, that can be sent to pycsw.
 
 2. Select "apiso/DescribeRecord" and press the "Send" button. A description of the ISO Application Profile record is presented on the right panel.
 
@@ -50,7 +50,7 @@ You can go through all the available requests and perform various requests from 
 Understand capabilities and configuration
 =========================================
 
-The capabilities of the pycsw installation can be found at ``http://localhost/pycsw?service=CSW&version=2.0.2&request=GetCapabilities``. 
+The capabilities of the pycsw installation can be found at ``http://localhost/pycsw?service=CSW&version=2.0.2&request=GetCapabilities``.
 If you just use ``http://localhost/pycsw`` you will get the capabilities document for CSW 3.0.0, since that is the latest version supported.
 
 To edit the web service metadata, included in the capabilities document, you can modify the file ``/etc/pycsw/default.cfg`` under the tag ``[metadata:main]``.
@@ -64,12 +64,12 @@ Create metadata
 
 Metadata files for a spatial dataset or a spatial web service can be created through the open source implementation of inspire directive for metadata, European Open Source Metadata Editor (EUOSME). This application can be found at ``http://inspire-geoportal.ec.europa.eu/editor/``. Source code is available at ``https://joinup.ec.europa.eu/svn/euosme/trunk``
 
-You can fill the mandatory metadata fields by going through the application tabs, adding information like the name of the data owner, keywords, resource location on the web, geographic location (using a bounding box or the name of a country), etc. 
+You can fill the mandatory metadata fields by going through the application tabs, adding information like the name of the data owner, keywords, resource location on the web, geographic location (using a bounding box or the name of a country), etc.
 
 .. image:: /images/projects/pycsw/pycsw_euosme_metadata_input.png
-  :scale: 75 % 
+  :scale: 75 %
 
-After you have added all the information available, press the :guilabel:`validation` button on top of the page to check for consistency with the INSPIRE directive. 
+After you have added all the information available, press the :guilabel:`validation` button on top of the page to check for consistency with the INSPIRE directive.
 
 .. image:: /images/projects/pycsw/pycsw_euosme_save_metadata.png
   :scale: 75 %

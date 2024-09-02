@@ -65,11 +65,11 @@ Use the measuring tool
 The GeoMoose measure tool allows you to:
 * measure a point (return the coordinates of a picked point)
 * measure the distance along a potentially multi-segment line
-* measure the area of a polygon.  
+* measure the area of a polygon.
 
 #. Click the double ended arrow icon in the top toolbar to start the measuring tool.
 #. Choose to measure a point, line, or polygon.
-#. Click on the map where you want to measure.  To measure a point, just click the point on the map you want to measure.  To measure a line or polygon click on the map for each vertex a of the line/polygon.  
+#. Click on the map where you want to measure.  To measure a point, just click the point on the map you want to measure.  To measure a line or polygon click on the map for each vertex a of the line/polygon.
 #. Double click to end the line/polygon.
 
   .. image:: /images/projects/geomoose/geomoose-quickstart-02a.png
@@ -77,8 +77,8 @@ The GeoMoose measure tool allows you to:
   .. image:: /images/projects/geomoose/geomoose-quickstart-02b.png
 
   .. image:: /images/projects/geomoose/geomoose-quickstart-02c.png
-		
-.. Note:: you can also measure a pre-existing feature on the map (if it is from a vector layer, including previous query results) without having to manually trace over it.  
+
+.. Note:: you can also measure a pre-existing feature on the map (if it is from a vector layer, including previous query results) without having to manually trace over it.
 
 
 Select features
@@ -102,7 +102,7 @@ Finally, click the "Go" button to actually select the features.  GeoMoose will r
 
   .. image:: /images/projects/geomoose/geomoose-quickstart-03b.png
 
-If you hover over a line in the table, the corresponding feature on the map will be highlighted.  Additionally, you can use the funnel icons in the table header to further filter results, and use the triangle icons in the table header to sort results.  The results can be downloaded as a CSV file using the download icon to the top and left of the table. 
+If you hover over a line in the table, the corresponding feature on the map will be highlighted.  Additionally, you can use the funnel icons in the table header to further filter results, and use the triangle icons in the table header to sort results.  The results can be downloaded as a CSV file using the download icon to the top and left of the table.
 
 
 Search for features
@@ -116,15 +116,15 @@ The following screenshot demonstrates a search of all parcel owners containing t
 
   .. image:: /images/projects/geomoose/geomoose-quickstart-04b.png
 
-Three results appear in the list and are highlighted on the map. 
+Three results appear in the list and are highlighted on the map.
 
   .. image:: /images/projects/geomoose/geomoose-quickstart-04c.png
-  
-Clicking the magnifying glass icon/parcel number will zoom you to the specific parcel as illustrated in the following screenshot. 
+
+Clicking the magnifying glass icon/parcel number will zoom you to the specific parcel as illustrated in the following screenshot.
 
   .. image:: /images/projects/geomoose/geomoose-quickstart-04d.png
-  
-  
+
+
 Print the map
 =============
 

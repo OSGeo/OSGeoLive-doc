@@ -24,14 +24,14 @@ Prerequisites
 **Software**
 
 * Download `Virtual Box <https://www.virtualbox.org/>`_  for your platform, and install the software. On Windows run the installer, or on Ubuntu-like Linux systems run the following:
-  
+
   ``apt-get install virtualbox-ose``
 
 * Download the OSGeo Virtual disk file (vmdk) from the links at :doc:`live.osgeo.org <../download>`. Then unzip the downloaded file (using `7-Zip <https://www.7-zip.org>`_ ).
 
 **Hardware**
 
-* **RAM**: Minimum 2 GB. The Lubuntu system runs well with 1 GB of RAM, and you'll need to keep at least the same amount of memory for some of your applications (such as GeoServer). So a total of 2 GB is recommended for a smooth operation. 
+* **RAM**: Minimum 2 GB. The Lubuntu system runs well with 1 GB of RAM, and you'll need to keep at least the same amount of memory for some of your applications (such as GeoServer). So a total of 2 GB is recommended for a smooth operation.
 * **Spare**: Minimum 30 GB Hard Disk Space. The virtual disk file (vmdk) from :doc:`live.osgeo.org <../download>`  unzips to |osgeolive-hdspace|. You'll also want more space to allow some room to work on the virtual machine. So a total of 30 GB is a good recommendation.
 * **CPU**: Any CPU will do, but a processor which supports "Virtualization Technology" will be faster. Check if your computer supports `Virtualization Technology <https://www.intel.com/content/www/us/en/support/articles/000005486/processors.html>`_
 
@@ -110,7 +110,7 @@ Now bootup the VM by clicking the **Start** (green arrow) button.
   2. Click **OK** when prompted to open the removable media in **File Manager**.
   3. In **File Manager**, select **Tools** → **Open Terminal**.
   4. In the terminal type:
-    
+
     ``sudo ./VBoxLinuxAdditions.run``
 
   5. Press ENTER.

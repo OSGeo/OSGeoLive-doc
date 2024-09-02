@@ -7,7 +7,7 @@
 Command Line basics
 ********************************************************************************
 
-When you work with GNU/Linux Operating Systems such as OSGeoLive, Ubuntu, etc., it is good to know how to work on the command line. 
+When you work with GNU/Linux Operating Systems such as OSGeoLive, Ubuntu, etc., it is good to know how to work on the command line.
 
 Don't worry. It is not difficult to learn and you will discover that it is fun and very powerful.
 
@@ -26,30 +26,30 @@ Where am I?
 
 `pwd` shows the path of your current location.
 
-:: 
+::
 
  pwd
  /home/user
 
 
-.. tip:: 
+.. tip::
    You can ask all commands for help and get information on how they can be used and find out about additional options.
 
 
-:: 
+::
 
 
   pwd --help
   pwd: pwd [-LP]
     Print the name of the current working directory.
-    
+
     Options:
       -L        print the value of $PWD if it names the current working
                 directory
       -P        print the physical directory, without any symbolic links
-    
+
     By default, `pwd' behaves as if `-L' were specified.
-    
+
     Exit Status:
     Returns 0 unless an invalid option is given or the current directory cannot be read.
 
@@ -64,16 +64,16 @@ The current user is "`user`" and has a home directory located at `/home/user`. A
 
 You can easily navigate in the file system with the command cd.
 
-cd / navigated to the root directory 
+cd / navigated to the root directory
 cd /home/user goes to your home directory
 same as
 cd ~
 
-`cd ..` moves you one directory to the top, 
+`cd ..` moves you one directory to the top,
 `cd` user goes from your current location to the home directory of user. This is not the same as `/user`
 
-.. tip:: 
-   Use the tab key to autocomplete the path while you are typing. 
+.. tip::
+   Use the tab key to autocomplete the path while you are typing.
 
 
 Create a directory
@@ -81,13 +81,13 @@ Create a directory
 
 You have write access in your user-directory. You can create files and directories there. Next we will create a directory for some command line tests.
 
-:: 
+::
 
  cd ~
- mkdir demo - creates the directory demo 
+ mkdir demo - creates the directory demo
  cd demo
 
-.. tip:: 
+.. tip::
    You have a command history. You can navigate in the history with the arrow up and down key.
 
 
@@ -96,16 +96,16 @@ How to create a new file
 
 `touch` creates a new empty file.
 
-:: 
- 
+::
+
  cd ~/demo
  touch hello.txt
 
-.. tip:: 
+.. tip::
    You can pipe the information from a command to a file i.e. the command history. `history` displays the command history. With the following command it can be saved in a file.
 
 ::
- 
+
  history > history.txt
 
 
@@ -120,15 +120,15 @@ You would like to know more about the content of a directory. `ls` is the progra
 * `ls -al` you can combine the different options
 * `ls -1` shows only the file names
 
-:: 
+::
 
  cd ~/demo
  ls -l
- 
+
  total 4
  -rw-rw-r-- 1 user user   0 Dec 26 16:23 hello.txt
  -rw-rw-r-- 1 user user 255 Dec 26 16:24 history.txt
-                                                                         
+
 
 
 
@@ -139,24 +139,24 @@ You can copy files from one location to another.
 
 
 Copy a file to a new file
- 
-:: 
+
+::
 
  cp hello.txt hello_again.txt
 
 
 Copy a file to another directory
 
-:: 
+::
 
- cp hello.txt /home/user/ 
+ cp hello.txt /home/user/
 
 
 Copy a whole directory to a new location (-R recursive)
 
-:: 
+::
 
- cp -R /home/user/demo /tmp 
+ cp -R /home/user/demo /tmp
 
 
 
@@ -173,20 +173,20 @@ Search and install programs
 
 Show information about programs.
 
-:: 
+::
 
  apt show postgis
 
-Search for programs 
+Search for programs
 
-:: 
+::
 
  apt search postgis
 
 
 Install programs
 
-:: 
+::
 
  sudo apt-get install sl
 
@@ -201,12 +201,12 @@ Some programms run as services like PostgreSQL, tomcat or Apache Webserver. You 
 
 Restart your Apache Service
 
-:: 
+::
 
  sudo service apache2 restart
- 
+
  sudo service apache2 --help
- 
+
  sudo service apache2 status
 
 
@@ -225,7 +225,7 @@ See also
 
 Open a file with `vim`:
 
-:: 
+::
 
  vim /home/user/demo/hello.txt
 
@@ -247,7 +247,7 @@ Directories or files have an owner and a group definition. By default the creato
 
 You can show the owner and group via `ls -l`
 
-:: 
+::
 
  cd /home/user/demo
  ls -l
@@ -264,13 +264,13 @@ Access rights are listed at the beginning of the row:
 
 * first 3 letters for the owner
 * then next 3 letters for the group
-* followed by the last 3 letters for others 
+* followed by the last 3 letters for others
 
 
 Change the owner with `chown`
 =============================
 
-:: 
+::
 
  sudo chown -R user:www-data /var/www/html/TBD
 
@@ -281,15 +281,15 @@ Change the owner with `chown`
 Change access rights with `chmod`
 =================================
 
-:: 
+::
 
- sudo chmod -R 777 /var/www/html/TBD 
- 
+ sudo chmod -R 777 /var/www/html/TBD
+
 
 * 777 everyone can do everything
 * `-R` recursive
 
-* 1. number: owner (u) 
+* 1. number: owner (u)
 * 2. number: group (g)
 * 3. number: other (o)
 
@@ -302,14 +302,14 @@ Change access rights with `chmod`
 
 or use it like this
 
-:: 
+::
 
- sudo chmod -R u+rwx /var/www/html/TBD 
+ sudo chmod -R u+rwx /var/www/html/TBD
 
-* u = user 
-* g = group 
-* o = other 
-* a = all 
+* u = user
+* g = group
+* o = other
+* a = all
 * +/- right: r = read / w = write / x = execute
 
 

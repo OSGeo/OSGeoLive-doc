@@ -10,7 +10,7 @@
 @NAME_xygrib@
 ================================================================================
 
-Weather forecasting 
+Weather forecasting
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 XyGrib is a Grib file reader and visualizes meteorological data providing an off-line capability to analyse weather forecasts or hindcasts. XyGrib is the continuation of the zyGrib software package with a new team of volunteers.

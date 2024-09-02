@@ -22,7 +22,7 @@
 
 GeoNetwork is a catalog application to manage spatially referenced resources. It provides powerful metadata editing and search functions as well as an interactive web map viewer. It is currently used in numerous Spatial Data Infrastructure initiatives across the world.
 
-.. contents:: 
+.. contents::
    :local:
 
 Prerequisites
@@ -36,7 +36,7 @@ Throughout this guide we will use the URL ``http://localhost:8880/geonetwork`` t
 Access the catalog
 ==================
 
-In the Web Services folder on the Desktop (or via the start menu), double-click **start GeoNetwork**. This will open the Firefox web browser at the URL ``http://localhost:8880/geonetwork``. This will be referred to throughout this document as the *homepage*. 
+In the Web Services folder on the Desktop (or via the start menu), double-click **start GeoNetwork**. This will open the Firefox web browser at the URL ``http://localhost:8880/geonetwork``. This will be referred to throughout this document as the *homepage*.
 
 You can return to the  homepage at any point by selecting the catalogue logo in the top left of the top toolbar. In the screenshot below, this is labelled  “My GeoNetwork catalogue” but it may have a different name and logo.
 
@@ -48,7 +48,7 @@ You can return to the  homepage at any point by selecting the catalogue logo in 
 Sign in
 =======
 
-Select **Sign in** in the top right of the top toolbar in the homepage to visit the sign in page. Enter the username ``admin`` and password ``admin`` and select the blue **Sign in** button to sign in as the catalog administrator. 
+Select **Sign in** in the top right of the top toolbar in the homepage to visit the sign in page. Enter the username ``admin`` and password ``admin`` and select the blue **Sign in** button to sign in as the catalog administrator.
 
 .. figure:: /images/projects/geonetwork/geonetwork_signin.png
   :scale: 70 %
@@ -186,13 +186,13 @@ They are as follows:
 
 Additionally there is a geographic search tool in the top left.
 
-Using the Manage Layers tool, select the cog symbol next to **Physiography of North and Central Eurasia Landform** and select **Zoom to layer**. 
+Using the Manage Layers tool, select the cog symbol next to **Physiography of North and Central Eurasia Landform** and select **Zoom to layer**.
 
 .. figure:: /images/projects/geonetwork/geonetwork_manage_layers_cog.png
   :scale: 70 %
 
 
-The map will zoom to the extent of this layer. 
+The map will zoom to the extent of this layer.
 
 .. figure:: /images/projects/geonetwork/geonetwork_zoom_to_layer.png
   :scale: 70 %
@@ -212,7 +212,7 @@ Select a feature on the map corresponding to a category in the legend, such as a
 What next?
 ==========
 
-Visit the `Geonetwork User Guide <https://geonetwork-opensource.org/manuals/trunk/en/user-guide/index.html>`_ and try the chapter on **Describing Information**, to learn how to create and edit metadata records. 
+Visit the `Geonetwork User Guide <https://geonetwork-opensource.org/manuals/trunk/en/user-guide/index.html>`_ and try the chapter on **Describing Information**, to learn how to create and edit metadata records.
 
 Follow up by visiting subsequent chapters to learn how to associate resources with your metadata, tag it with keywords and add it to categories, and publish your metadata to the outside world.
 

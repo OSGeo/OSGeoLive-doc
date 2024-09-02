@@ -3,10 +3,10 @@
 #TODO Fix file
 message(STATUS "${CMAKE_CURRENT_SOURCE_DIR}: OSGeoLiveDoc_BUILD_LANGUAGES = ${OSGeoLiveDoc_BUILD_LANGUAGES}")
 # -----------------------------------------
-#  <a href="javascript:defaultRedirect('en')">English</a> 
+#  <a href="javascript:defaultRedirect('en')">English</a>
 # BUilding:
-#  | <a href="javascript:defaultRedirect('XX')">Language</a> 
-#  
+#  | <a href="javascript:defaultRedirect('XX')">Language</a>
+#
 # Needed in page.html
 # -----------------------------------------
 
@@ -27,7 +27,7 @@ if(FALSE)
 #
 # BUilding:
 # | <a href="{{ pathto('en/index') }}">Español</a>
-#  
+#
 # Needed in page.html
 # -----------------------------------------
 

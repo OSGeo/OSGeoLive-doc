@@ -40,7 +40,7 @@ Core Features
   * images (.jpg)
 
 * Imagery:
-  
+
   * Visualize basemaps from OSM, Bingsat, Lansat, MapBox satellite, MapQuest Open Aerial or any other WMS sources.
 
 * Editing Tools:
@@ -52,7 +52,7 @@ Core Features
 * Audio mapping: survey recording management.
 
 * Photo mapping: survey pictures management.
- 
+
 * Plugins: A list of specialized plugins are available for download.
 
 
@@ -78,6 +78,6 @@ Details
 
 @VMDK_josm@
 @QUICKSTART_josm@
- 
+
 .. presentation-note
     JOSM is a desktop OpenStreetMap editor which provides many advanced features and can also be used offline.

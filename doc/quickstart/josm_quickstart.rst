@@ -1,5 +1,5 @@
 :Source: https://github.com/hotosm/learnosm/blob/gh-pages/_posts/en/1900-12-21-start-josm.md
-:Source Reviewed: 2016-03-30  
+:Source Reviewed: 2016-03-30
 :Author: Nick Allen
 :Reviewer: Felicity Brand (Google Season of Docs 2019)
 :Version: osgeolive 11
@@ -22,7 +22,7 @@ It supports loading stand-alone GPX tracks and GPX track data as well as editing
 
 This quickstart covers basic usage of the Java OpenStreetMap editor.
 
-.. contents:: 
+.. contents::
    :local:
 
 Start JOSM
@@ -49,7 +49,7 @@ Load a sample (ficticious) map
     :alt: Open file
 
 #. Find the file **sample.osm**. It is probably in your Downloads
-   folder, unless you saved it somewhere else. 
+   folder, unless you saved it somewhere else.
 #. Click on it, and then click “Open”. You should now see a sample map that looks like this:
 
    .. image:: /images/projects/josm/josm_sample-file.png
@@ -123,7 +123,7 @@ Changing objects
 ~~~~~~~~~~~~~~~~
 
 #. Select the forest on the left side of the map. Be sure to click on
-   the line around the forest, not one of the points on the line. 
+   the line around the forest, not one of the points on the line.
 #. Now hold your left mouse button down and drag your mouse. You should be able to move the forest to a new location on the map.
 #. Click on one of the points on the line around the forest. Hold your
    left mouse button down and drag your mouse. You should be able to
@@ -159,7 +159,7 @@ Before you draw, you need to make sure that nothing is selected.
 
 #. Find an empty area on the map, and double-click with your mouse. This
    will draw a single point.
-   
+
 -  To draw a line, single-click with your mouse. Move your mouse and
    click again. Continue until you are happy with your line. To end the
    line, double-click your mouse.
@@ -177,7 +177,7 @@ Now we know how to draw points, lines and shapes, but we still haven’t defined
     :alt: Select tool
 
 
-#. Select one of the objects that you drew with the Draw tool. 
+#. Select one of the objects that you drew with the Draw tool.
 #. On the top menu, click “Presets” and choose the type of location you would like to define.
 #. When you choose on a preset, a form will pop up asking you for more
    information. You do not have to fill in every field, but you may wish
@@ -214,9 +214,9 @@ context menu of the layer.
 What next?
 ==========
 
--  Try the LearnOSM documentation, from which this quickstart was derived: 
+-  Try the LearnOSM documentation, from which this quickstart was derived:
    https://learnosm.org/en/josm/start-josm/
--  In order to continue editing you first need to download real data. 
-   This is explained in the next chapter: 
+-  In order to continue editing you first need to download real data.
+   This is explained in the next chapter:
    https://learnosm.org/en/josm/more-about-josm/
 -  Website: https://josm.openstreetmap.de/

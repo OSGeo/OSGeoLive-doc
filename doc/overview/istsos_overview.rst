@@ -56,6 +56,6 @@ Details
 
 @VMDK_istsos@
 @QUICKSTART_istsos@
-    
+
 .. presentation-note
     istSOS is sensor data management tool that allows collection, maintenance and publishing of monitoring observations using the Open Geospatial Consortium (OGC) Sensor Observation Service (SOS) standard.

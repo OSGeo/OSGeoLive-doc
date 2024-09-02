@@ -3,17 +3,17 @@
 // e.g. en/overview/overview.html -> select Catalan -> new page is ca/overview/overview.html
 
 /**
- * the supported languages for osgeolive DVD, 
+ * the supported languages for osgeolive DVD,
  * update if an other translation is available
  */
 var supported_languages= ["ca", "de", "el", "en", "es", "fr", "it", "jp", "pl", "zh"];
 
 /**
- * creates a location object from url string 
+ * creates a location object from url string
  * to work with pathname (<object>.pathname)
- * 
+ *
  * @param {theStringURL} - the url as string presentation
- */ 
+ */
 var createHrefFromString = function(theStringURL) {
     var tmpLink = document.createElement('a');
     // the current context, independent from adhoc or live deployment
@@ -22,11 +22,11 @@ var createHrefFromString = function(theStringURL) {
 }
 
 /**
- * public accessable function to redirect from 
+ * public accessable function to redirect from
  * the main menu (see page.html)
  * usage : ...href="javascript:defaultRedirect('de')"
- * 
- * @param {newLanguage} - the new language to direct to 
+ *
+ * @param {newLanguage} - the new language to direct to
  *                        eg. 'en', 'de', 'ja', etc
  */
 var defaultRedirect = function(newLanguage) {
@@ -34,9 +34,9 @@ var defaultRedirect = function(newLanguage) {
 }
 
 /**
- * internal function that redirects from url 
+ * internal function that redirects from url
  * to the given language
- * 
+ *
  * @param {url} - the url to change for redirect
  * @param {lang} - the new language key, eg. 'en', 'de', 'ja', etc
  */
@@ -48,23 +48,23 @@ var redirectFromUrlToLang = function(url, lang) {
         language = lang.toLowerCase();
     }
     var pathName = url.pathname;
-    
+
     var currentContext = createContextObject(pathName);
 
     var newPathName = new contextObj(currentContext.prefix, language, currentContext.suffix);
-    
+
     var newPage = url.href.replace(currentContext.getAsPathName(), newPathName.getAsPathName());
 
     window.location.href = newPage;
 }
 
 /**
- * redirect to the navigator language index page 
- * if its one of the supported. If users haven 
- * browser or environment settings for the prefered 
+ * redirect to the navigator language index page
+ * if its one of the supported. If users haven
+ * browser or environment settings for the prefered
  * language thats not it the supported list, the fallback
  * language is used.
- * 
+ *
  * @param {fallback} - the fallback language string (should be 'en' for osgeolive)
  */
 var redirectIndex = function(fallback) {
@@ -80,7 +80,7 @@ var redirectIndex = function(fallback) {
 }
 
 /**
- * convenient method for redirectIndex 
+ * convenient method for redirectIndex
  * with default fallback language 'en'
  */
 var redirectToUserLanguage = function() {
@@ -90,11 +90,11 @@ var redirectToUserLanguage = function() {
 /**
  * simple function to check, whether it's one of the supported
  * languages, see supported_languages above
- * 
+ *
  * @return true if the language is supported, otherwise false
- * @param {lang} - language key to check, 
- *                 whether its supported by 
- *                 osgeolive (as a translation 
+ * @param {lang} - language key to check,
+ *                 whether its supported by
+ *                 osgeolive (as a translation
  *                 or the origin language (en))
  */
 var isLanguageSupported = function(lang) {
@@ -161,14 +161,14 @@ var createContextObject = function(pathname) {
         return;
     }
     var idxInPath = pathname.lastIndexOf("/" + lang + "/");
-    
+
     var contextPrefix;
     if (idxInPath > 0) {
         contextPrefix = pathname.substring(0, idxInPath);
     } else {
         contextPrefix = "";
     }
-    
+
     contextSuffix = pathname.substr(idxInPath + 2 + lang.length)
 
     return new contextObj(contextPrefix, lang, contextSuffix)
