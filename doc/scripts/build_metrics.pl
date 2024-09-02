@@ -36,7 +36,7 @@ die "ERROR: Failed to find: '$projects_info_file'\n" unless -f $projects_info_fi
 
 
 ######################################################
-# process section 
+# process section
 ######################################################
 
 print "\nBuilding the 'metrics.rst' file\n" if $DEBUG;
@@ -123,7 +123,7 @@ sub get_section {
         s{^\s+|\s+$}{}g foreach @values;
 
 
-        
+
         if(defined($values[8]) && ($values[8] !~ "NA")) {
             ++$count;
             $contents .= "    <script type=\"text/javascript\" src=\"https://www.openhub.net/p/$values[8]/widgets/project_factoids_stats?format=js\"></script>\n";

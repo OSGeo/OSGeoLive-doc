@@ -18,7 +18,7 @@ GPS Track-Editing
 editing and converting coordinate data from GPS systems.  It can be used for planning
 trips in advance, or for analysing the tracks recorded by GPS receivers.
 
-It uses :doc:`OpenStreetMap <osm_dataset_overview>` 
+It uses :doc:`OpenStreetMap <osm_dataset_overview>`
 imagery to show recorded tracks and waypoints, and provides a variety of tools
 to let you edit, crop and prune the data points.  It also has functions for
 correlating photos and audio files to the coordinates using the file timestamps.

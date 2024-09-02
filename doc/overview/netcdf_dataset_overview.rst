@@ -17,7 +17,7 @@ NetCDF (Network Common Data Form) is a set of software libraries and self-descri
 
 This sample dataset supplies annual maximum of daily high temperature, and annual maximum consecutive five-day precipitation, both historical and predicted, for the years 1850-2012 and 2006-2100 (see accompanying text files for details).
 
-Data courtesy of the University of Victoria PCIC (Pacific Climate Impacts Consortium), in cooperation with AORI (Atmosphere and Ocean Research Institute, The University of Tokyo, Chiba, Japan), NIES (National Institute for Environmental Studies, Ibaraki, Japan), JAMSTEC (Japan Agency for Marine-Earth Science and Technology, Kanagawa, Japan). 
+Data courtesy of the University of Victoria PCIC (Pacific Climate Impacts Consortium), in cooperation with AORI (Atmosphere and Ocean Research Institute, The University of Tokyo, Chiba, Japan), NIES (National Institute for Environmental Studies, Ibaraki, Japan), JAMSTEC (Japan Agency for Marine-Earth Science and Technology, Kanagawa, Japan).
 
 @SCREENSHOT_netcdf_dataset@
 

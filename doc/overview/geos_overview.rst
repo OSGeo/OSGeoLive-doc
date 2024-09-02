@@ -31,10 +31,10 @@ Implemented Standards
 
 Core Features
 --------------------------------------------------------------------------------
-    
+
 * Geometries: Point, LineString, Polygon, MultiPoint, MultiLineString, MultiPolygon, GeometryCollection
 * Predicates: Intersects, Touches, Disjoint, Crosses, Within, Contains, Overlaps, Equals, Covers
-* Operations: Union, Distance, Intersection, Symmetric Difference, Convex Hull, Envelope, Buffer, Simplify, Polygon Assembly, Valid, Area, Length, 
+* Operations: Union, Distance, Intersection, Symmetric Difference, Convex Hull, Envelope, Buffer, Simplify, Polygon Assembly, Valid, Area, Length,
 * Prepared geometries (pre-spatially indexed)
 * STR spatial index
 * OGC Well Known Text (WKT) and Well Known Binary (WKB) encoders and decoders.

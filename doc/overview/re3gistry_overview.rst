@@ -42,7 +42,7 @@ Core Features
 * Support for versioning
 * RESTful API with content negotiation (including OpenAPI 3 descriptor)
 * Free-text search
-* Supported formats: HTML, ISO 19135 XML, JSON, RDF/XML, Re3gistry XML, CSV, ATOM 
+* Supported formats: HTML, ISO 19135 XML, JSON, RDF/XML, Re3gistry XML, CSV, ATOM
 * Service formats can be easily added or customised (default formats: JSON and ISO 19135 XML)
 * Multiple authentication options
 * Externally governed items referenced through URIs

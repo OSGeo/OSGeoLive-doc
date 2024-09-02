@@ -16,26 +16,26 @@
 
 
 This Quick Start is divided into two parts: GDAL (raster data) and OGR
-(vector data). 
+(vector data).
 
 This Quick Start describes how to:
 
 GDAL
   * Explore your image data with gdalinfo
-  * Format translations with gdal_translate 
+  * Format translations with gdal_translate
   * Reproject your data with gdalwarp
   * Mosaic your data with gdal_warp or gdal_merge.py
   * Build a shapefile as a raster tileindex with gdaltindex
-   
+
 
 OGR
-  * get information about your data with ogrinfo 
+  * get information about your data with ogrinfo
   * use ogr2ogr to transform your data to other formats
-  
+
 The only thing you'll need for this quickstart is a terminal. If you want to
 visualize the results, you can use one of the Desktop GIS Software
-applications on OSGeoLive like :doc:`../overview/qgis_overview`. 
- 
+applications on OSGeoLive like :doc:`../overview/qgis_overview`.
+
 .. contents:: Contents
    :local:
 
@@ -47,14 +47,14 @@ look at the :doc:`Natural Earth data <../overview/naturalearth_overview>` in thi
 copy of the data. So the first step is to copy the data to your home
 directory.
 
-:: 
-  
-  cd /home/user
-  cp -R /usr/local/share/data/natural_earth2/ ./gdal_natural_earth 
+::
 
- 
+  cd /home/user
+  cp -R /usr/local/share/data/natural_earth2/ ./gdal_natural_earth
+
+
 You will then find a NaturalEarth Raster file and a .tfw World-file at:
-:: 
+::
 
  ls /home/user/gdal_natural_earth/HYP_50M_SR_W.*
 
@@ -63,9 +63,9 @@ You will then find a NaturalEarth Raster file and a .tfw World-file at:
 
 Get information about the raster data with gdalinfo
 ===================================================
-:: 
-  
-      gdalinfo HYP_50M_SR_W.tif 
+::
+
+      gdalinfo HYP_50M_SR_W.tif
 	Driver: GTiff/GeoTIFF
 	Files: HYP_50M_SR_W.tif
 	       HYP_50M_SR_W.tfw
@@ -82,19 +82,19 @@ Get information about the raster data with gdalinfo
 	Image Structure Metadata:
 	  INTERLEAVE=PIXEL
 	Corner Coordinates:
-	Upper Left  (-180.0000000,  90.0000000) 
-	Lower Left  (-180.0000000, -90.0000000) 
-	Upper Right ( 180.0000000,  90.0000000) 
-	Lower Right ( 180.0000000, -90.0000000) 
-	Center      (  -0.0000000,   0.0000000) 
+	Upper Left  (-180.0000000,  90.0000000)
+	Lower Left  (-180.0000000, -90.0000000)
+	Upper Right ( 180.0000000,  90.0000000)
+	Lower Right ( 180.0000000, -90.0000000)
+	Center      (  -0.0000000,   0.0000000)
 	Band 1 Block=10800x1 Type=Byte, ColorInterp=Red
 	Band 2 Block=10800x1 Type=Byte, ColorInterp=Green
 	Band 3 Block=10800x1 Type=Byte, ColorInterp=Blue
 
-Note: 
+Note:
   * Driver is "GTiff/GeoTIFF"
   * Size is 10800x5400
-  * 3 Bands of type Byte. 
+  * 3 Bands of type Byte.
   * Coordinates
   * no coordinate system
 
@@ -104,11 +104,11 @@ Simple format translation
 =========================
 
 First get to know your drivers. The `--formats` commandline switch of
-gdal_translate can be used to see a list of available format drivers.  
+gdal_translate can be used to see a list of available format drivers.
 
-Each format reports if it is 
-  * read only (ro), 
-  * read/write (rw) or 
+Each format reports if it is
+  * read only (ro),
+  * read/write (rw) or
   * read/write/update (rw+).
 
 ::
@@ -121,23 +121,23 @@ particular driver, including creation options, and permitted data types.
 ::
 
  gdalinfo --format jpeg
- gdal_translate --format png 
+ gdal_translate --format png
 
 Translation
 ===========
 
 Translations are accomplished with the gdal_translate command. The
-default output format is GeoTIFF.  The `-of` flag is used to select an 
+default output format is GeoTIFF.  The `-of` flag is used to select an
 output format and the -co flag is used to specify a creation option:
 
 ::
 
   gdal_translate -of JPEG -co QUALITY=40 HYP_50M_SR_W.tif HYP_50M_SR_W.jpg
 
-The `-ot` switch can be used to alter the output data type.  
+The `-ot` switch can be used to alter the output data type.
 
 ::
- 
+
    gdal_translate -ot Int16 HYP_50M_SR_W.tif HYP_50M_SR_W_Int16.tif
 
 Use gdalinfo to verify data type.
@@ -146,7 +146,7 @@ Use gdalinfo to verify data type.
 Rescaling
 =========
 
-The `-outsize` switch can be used to set the size of the output file. 
+The `-outsize` switch can be used to set the size of the output file.
 
 ::
 
@@ -156,7 +156,7 @@ Use gdalinfo to verify the size.
 
 The `-scale` switch can be used to rescale data. Explicit control of the
 input and output ranges is also available. The gdalinfo `-mm` switch can
-be used to see pixel min/max values. 
+be used to see pixel min/max values.
 
 Let's split our image into two with `-srcwin` which makes a copy based on
 pixel/line location (xoff yoff xsize ysize). You also could use `-projwin`
@@ -164,7 +164,7 @@ and define the corners in georeferenced coordinates (ulx uly lrx lry).
 
 ::
 
-    gdalinfo -mm HYP_50M_SR_W.tif 
+    gdalinfo -mm HYP_50M_SR_W.tif
     gdal_translate -srcwin 0 0 5400 5400 HYP_50M_SR_W.tif  west.tif
     gdal_translate -srcwin 5400 0 5400 5400 HYP_50M_SR_W.tif  east.tif
 
@@ -205,13 +205,13 @@ will learn more about ogrinfo later in this tutorial)
   OGRFeature(index_natural_earth):1
     location (String) = west.tif
     POLYGON ((-179.999999999999972 90.0,-0.00000000001796 90.0,-0.00000000001796 -89.999999999982009,-179.999999999999972 -89.999999999982009,-179.999999999999972 90.0))
-  
+
 
 Reprojecting
 ============
 
 For this process we assume that HYP_50M_SR_W.tif has been properly
-created with bounds. As we saw before with gdainfo no coordinate system 
+created with bounds. As we saw before with gdainfo no coordinate system
 was set. So we assign WGS84 as coordinate system to the image in the
 first step.
 
@@ -231,7 +231,7 @@ Use gdalinfo to verify the change and have a look at the image.
   .. image:: /images/projects/gdal/gdal_mercator.png
      :scale: 80
 
-Here we reproject to the Ortho projection.  
+Here we reproject to the Ortho projection.
 
 ::
 
@@ -243,7 +243,7 @@ Here we reproject to the Ortho projection.
 
 Note how the poles are clipped?  This is because the edges at the pole
 can't be reprojected gdalwarp does not read all the data.  We can force
-gdalwarp to read a bunch of surplus data around chunks as one way to 
+gdalwarp to read a bunch of surplus data around chunks as one way to
 resolve this. Read more about this in the RasterTutorial https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial.
 
 
@@ -271,8 +271,8 @@ of advantages over gdal_merge, but can be slow to merge many files:
 Get to know OGR
 ===============
 
-:: 
-  
+::
+
   cd /home/user/gdal_natural_earth/
 
 
@@ -282,7 +282,7 @@ Get to know OGR
 Get information about the vector data with ogrinfo
 ==================================================
 
-:: 
+::
 
   ogrinfo -ro /home/user/gdal_natural_earth
   INFO: Open of `/home/user/gdal_natural_earth'
@@ -396,7 +396,7 @@ You can forward the result from ogrinfo to grep to filter and get only the attri
 ::
 
 	ogrinfo ne_10m_admin_0_countries.shp ne_10m_admin_0_countries | grep 'admin '
-	
+
 	  admin (String) = Aruba
 	  admin (String) = Afghanistan
 	  admin (String) = Angola
@@ -410,19 +410,19 @@ You can forward the result from ogrinfo to grep to filter and get only the attri
 You can convert your data to other formats. Get the list of the
 supported formats with `--formats`.
 
-Use ogr2ogr to convert data between file formats 
+Use ogr2ogr to convert data between file formats
 ================================================
 
 You can use ogr2ogr to converts simple features data between file
 formats. You can use `--formats` to get the list of the supported formats
-with read/write information. 
+with read/write information.
 
 Convert the countries to GML.
 
 ::
 
   ogr2ogr --formats
-  ogr2ogr -f GML countries.xml ne_10m_admin_0_countries.shp	  
+  ogr2ogr -f GML countries.xml ne_10m_admin_0_countries.shp
 
 
 Things to try
@@ -434,7 +434,7 @@ Here are some additional challenges for you to try:
 
 * Try gdaladdo to build internal overviews
 
-* QGIS uses GDAL/OGR too to suport many formats. It also provides the GdalTools Plugin to process raster data. This plugin integrates the gdal-tools into QGIS. 
+* QGIS uses GDAL/OGR too to suport many formats. It also provides the GdalTools Plugin to process raster data. This plugin integrates the gdal-tools into QGIS.
 
 * Try ogr2ogr to import/export your vector data to other formats like PostGIS. Have a look at the options ogr2ogr provides.
 

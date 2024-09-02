@@ -42,7 +42,7 @@ Programs that work with OSM data
 iD
 --
 
-**iD** is the default on-line editor for OpenStreetMap (OSM). iD is fast and 
+**iD** is the default on-line editor for OpenStreetMap (OSM). iD is fast and
 easy to use, and allows mapping from various data sources such as ground survey,
 satellite and aerial imageries, GPS traces or street-level imagery.
 
@@ -54,9 +54,9 @@ satellite and aerial imageries, GPS traces or street-level imagery.
 JOSM
 ----
 
-**JOSM** (Java OpenStreetMap Editor) is an advanced editor for OpenStreetMap 
-(OSM) written in Java. It is more powerful and complex than iD, can be used 
-for bulk editing, off-line or on an unreliable Internet connection. It can be 
+**JOSM** (Java OpenStreetMap Editor) is an advanced editor for OpenStreetMap
+(OSM) written in Java. It is more powerful and complex than iD, can be used
+for bulk editing, off-line or on an unreliable Internet connection. It can be
 extended with plugins, custom presets and more extensions.
 
 

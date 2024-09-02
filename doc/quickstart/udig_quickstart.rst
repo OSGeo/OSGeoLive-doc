@@ -35,7 +35,7 @@ This Quick Start describes how to:
   * apply colour to map features using styling
 
 .. contents:: Contents
-  
+
 start uDig
 ================================================================================
 
@@ -69,10 +69,10 @@ Welcome View
    has links to tutorials, documentation and the project website.
 
 #. Click the arrow labelled Workbench in the upper right corner, to reveal the contents of the uDig workbench.
-  
+
   .. image:: /images/projects/udig/udig_welcome.png
    :scale: 70 %
-   
+
 You can return to the Welcome view at any time by selecting the :menuselection:`Help --> Welcome` from the menu bar.
 
 Workbench
@@ -84,12 +84,12 @@ information about the current Map).
   .. image:: /images/projects/udig/udig_workbench.png
    :scale: 70 %
 
-Shown above is a typical uDig session with the 
+Shown above is a typical uDig session with the
 
-	#. Layers view (1), 
-	#. Projects view (2), 
-	#. Catalog view (3) and 
-	#. Map editor (4). 
+	#. Layers view (1),
+	#. Projects view (2),
+	#. Catalog view (3) and
+	#. Map editor (4).
 
 These views will be described further as we demonstrate their use.
 
@@ -105,24 +105,24 @@ To start out with we are going to load some of the sample data included on the D
 #. Press :guilabel:`Next` to open up a file dialog
 
 #. The OSGeoLive DVD contains sample data in:
-   
+
    * :file:`~/data` (a short cut to :file:`/usr/local/share/data`)
 
 #. Select the following file from the :file:`natural_earth2` folder:
-   
+
    * :file:`ne_10m_admin_0_countries.shp`
-   
+
 #. Press :guilabel:`Open`
-   
+
    * A new Map editor will be opened based on the contents of your shapefile. The default name and
      projection of the Map has been taken from your shapefile.
-   
+
    * You can see the **Catalog view** has been updated with an entry for :file:`ne_10m_admin_0_countries.shp`. This
      view is used to track the use of resources by the uDig application.
-   
+
    * The **Layers** view shows a single layer is displayed on this map. This view is used to change
      the order and appearance of information in your Map.
-   
+
    * The **Projects** view has been updated to show that your map is stored in `projects > ne 10m admin 0 countries`.
      You can have multiple projects open at a time, each project can have several maps.
 
@@ -134,7 +134,7 @@ To start out with we are going to load some of the sample data included on the D
    on top of the `ne 10m admin 0 countries` layer.
 
 #. Select the `HYP_50M_SR_W` layer in the catalog view and drag it to the bottom of the list
-  
+
   .. image:: /images/projects/udig/udig_QuickstartCountriesMap.png
    :scale: 70 %
 
@@ -150,7 +150,7 @@ To start out with we are going to load some of the sample data included on the D
    like this shapefile onto the screen as needed.
 
 .. Writing Tip:
-  Tips are used to provide extra useful information, and will 
+  Tips are used to provide extra useful information, and will
   likely be rendered in the margin in some printed formats.
 
 .. tip:: You can also drag and drop shapefiles directly into the uDig application!
@@ -162,22 +162,22 @@ You can control where in the world the Map Editor is looking by using the naviga
 
 
 #. The |ZOOM| Zoom tool is available by default
-   
+
    .. |ZOOM| image:: /images/projects/udig/udig_zoom_mode.png
-   
+
    * Use the zoom tool by drawing a box using the left mouse button around the area of the world you wish
      to see.
    * To zoom out draw a box with the right mouse button. The current map extents will be located within
      the box you draw.
 
 #. The |PAN| Pan tool can be used to scroll around your map with out changing scale.
-  
+
    .. |PAN| image:: /images/projects/udig/udig_pan_mode.png
 
 #. There are also several navigation buttons that can be used at any time:
- 
+
    * |SHOWALL| Show All, can be used to return to the full extents at any time
-   
+
      .. |SHOWALL| image:: /images/projects/udig/udig_zoom_extent_co.png
 
    * |ZOOM_IN| Zoom In and |ZOOM_OUT| Zoom Out can be used to change the scale by a fixed amount.
@@ -201,10 +201,10 @@ One of the reasons to use an application like uDig is to access all the great fr
 information available on the web. This section covers the use of Web Map Servers which make
 available layers of information that you can mix into your own maps.
 
-.. note:: If you are not connected to the Internet run |osgeolive-appmenupath-geoserver| 
-   for a local WMS. The script will open a page with a "Service Capabilities" section and two links for WMS Services 
+.. note:: If you are not connected to the Internet run |osgeolive-appmenupath-geoserver|
+   for a local WMS. The script will open a page with a "Service Capabilities" section and two links for WMS Services
    you can drag into your empty map.
-   
+
 .. tip:: You can copy a WMS URL (e.g. for `WMS 1.1.1`_) from right panel of `GeoServer Welcome page`_ and "paste" it either on the **Map** view or the **Layers** view. A wizard shows you the layers you can add to the **Map**. You can also connect to Web Map Servers using the **Add Data** (:menuselection:`Layer --> Add...`) Wizard and paste WMS URL right there.
 
 	.. _GeoServer Welcome page: http://localhost:8082/geoserver/web
@@ -228,12 +228,12 @@ available layers of information that you can mix into your own maps.
    * Elevation/Bathymetry
    * Parks
    * Cities
-   
+
 	.. image:: /images/projects/udig/udig_AddWMSLayers.png
 		:scale: 70 %
 
 #. Press :guilabel:`Finish` to add these layers to your map
-   
+
 	.. image:: /images/projects/udig/udig_WMSMap.png
 		:scale: 70 %
 
@@ -255,11 +255,11 @@ Style
 #. Open up the **Style Editor** by right clicking on `ne 10m admin 0 countries` layer and choosing :guilabel:`Change Style`
 
 #. We are going to change a few things about how countries are displayed
-   
+
    * Line: Click :guilabel:`Border`, click on the Color button and change the color to BLACK
-   
+
    * Fill: On Tab :guilabel:`Fill` uncheck the box :guilabel:`enable/disable fill` to turn off fill
-   
+
    * Label: On Tab :guilabel:`Labels` check the box :guilabel:`enable/disable labeling`, and choose the attribute **NAME** from the list of attributes
 
    .. image:: /images/projects/udig/udig_StyleEditor.png
@@ -270,10 +270,10 @@ Style
 
 #. When you are happy with the result you can press :guilabel:`Close` to dismiss the dialog
 
-.. note:: Some files include style settings. The Style definition can be found in files with the :file:`*.sld` extension. The name itself should be equal to the file containing the data. If such a |SLD| file exists, the style will be applied automatically. 
+.. note:: Some files include style settings. The Style definition can be found in files with the :file:`*.sld` extension. The name itself should be equal to the file containing the data. If such a |SLD| file exists, the style will be applied automatically.
 
 Sometimes it is a bit hard to see what is going on with layer providing much details. To get focused on the task you like to work on, you can choose :menuselection:`Map --> Mylar` from the menu bar. Using the *Layer* view select different layers in turn to see the effect. You can turn off this effect at any time using :menuselection:`Map --> Mylar` from the menu bar.
-  
+
 	.. image:: /images/projects/udig/udig_MapMylar.png
 		:scale: 70 %
 
@@ -292,7 +292,7 @@ Things to Try
 
 Here are some additional challenges for you to try:
 
-#. Try viewing your own GIS map layers, or try adding a layer from a |WFS| 
+#. Try viewing your own GIS map layers, or try adding a layer from a |WFS|
 #. Try styling the WFS layer.
 
 What next?

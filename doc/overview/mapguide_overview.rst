@@ -38,9 +38,9 @@ Core Features
 
 **Interactive Map Viewing**
 
-* Dynamic browser-based viewer 
-* Feature selection and properties 
-* Buffering, querying 
+* Dynamic browser-based viewer
+* Feature selection and properties
+* Buffering, querying
 * Printing and Plotting
 
 **Quality Cartographic Output**
@@ -48,7 +48,7 @@ Core Features
 * Scale-dependent detail
 * Rule-driven thematic stylization
 * Anti-aliased image rendering
-* True color support 
+* True color support
 
 **Build-in Resource Database for Manageability**
 
@@ -89,14 +89,14 @@ Core Features
 Implemented Standards
 --------------------------------------------------------------------------------
 
-* OGC Web Map Service 1.1.1 
+* OGC Web Map Service 1.1.1
 
 Details
 --------------------------------------------------------------------------------
 
 **Website:** http://mapguide.osgeo.org/
 
-**Licence:** GNU Lesser General Public License (LGPL) 
+**Licence:** GNU Lesser General Public License (LGPL)
 
 **Software Version:** 2.4.0 Pre-Release
 

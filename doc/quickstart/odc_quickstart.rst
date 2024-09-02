@@ -18,7 +18,7 @@ analysis environment for decades of analysis ready earth observation
 satellite and related data from multiple satellite and other acquisition
 systems.
 
-This Open Data Cube tutorial section 
+This Open Data Cube tutorial section
   1) use Jupyter Notebook to examine data
   2) basic command line tools
 
@@ -33,10 +33,10 @@ As our input dataset we will use Prizren from esa_worldview_2021 land use / land
 
 Start:
 
-Open menu Geospatial : Spatial Tools : Jupyter Notebook;  
+Open menu Geospatial : Spatial Tools : Jupyter Notebook;
 
 On the Jupyter Home page, click to open folder OpenDataCube, click to open Notebook, choose "Run All" from the kernel menu.
- 
+
 
 For a quick look at a base data file, open a terminal and use the GDAL command `gdalinfo`:
 
@@ -60,7 +60,7 @@ Datacube core commands quickstart :
   $ datacube product show
   #--
   $ datacube dataset search
-  
+
 ..
 
 

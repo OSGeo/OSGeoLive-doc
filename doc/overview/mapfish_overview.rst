@@ -16,7 +16,7 @@ Web Mapping Framework
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 MapFish is a flexible and complete framework for building rich web-mapping
-applications. It emphasizes high productivity, and high-quality development. 
+applications. It emphasizes high productivity, and high-quality development.
 
 MapFish is based on the `Pylons <http://pylonshq.com>`_ Python web framework.
 MapFish extends Pylons with geospatial-specific functionality. For example

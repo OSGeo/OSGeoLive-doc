@@ -36,7 +36,7 @@ the main menu. (Requires an internet connection).
 Keyboard Support
 --------------------------------------------------------------------------------
 International keyboard support is installed, but you will need to configure the
-system for your specific keyboard. 
+system for your specific keyboard.
 To change settings open :menuselection:`Preferences --> Keyboard Input Methods` from
 the main menu and click on the :guilabel:`Input Method` tab. Next click
 on :guilabel:`Customize active input methods` and then on

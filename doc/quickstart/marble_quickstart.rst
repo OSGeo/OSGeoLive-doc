@@ -19,7 +19,7 @@ Marble is an open source KDE Education Project program similar to NASA World Win
 
 .. contents:: Contents
    :local:
-   
+
 Start Marble
 ============
 
@@ -32,10 +32,10 @@ On the desktop, choose :menuselection:`Navigation and Maps --> Marble`. You will
 Change the display
 ==================
 
-* Scale the globe by rotating the wheel of your mouse. 
+* Scale the globe by rotating the wheel of your mouse.
 * To move around press the left button of your mouse and move it.
 
-Marble has 11 different views (themes): 
+Marble has 11 different views (themes):
 
     - Atlas
     - OpenStreetMap
@@ -59,21 +59,21 @@ Marble has 11 different views (themes):
   .. image:: /images/projects/marble/marble-quickstart-3.png
     :scale: 70 %
 
-	
-Find a location
-===============	
 
-To find a location, enter its name into the search line on the top of "Search" panel. 
+Find a location
+===============
+
+To find a location, enter its name into the search line on the top of "Search" panel.
 As you start typing, suggestions below the search line will appear like this:
 
   .. image:: /images/projects/marble/marble-quickstart-5.png
     :scale: 70 %
-	
-	
+
+
 Add a bookmark
 ==============
 
-Use bookmarks in Marble to remember the location of something. 
+Use bookmarks in Marble to remember the location of something.
 
 #. To add a bookmark, press the left button of your mouse and click "Add bookmark". A window will appear like this:
 
@@ -81,9 +81,9 @@ Use bookmarks in Marble to remember the location of something.
      :scale: 70 %
 
 #. Write the name, description and destination folder of the bookmark
-#. Click the "Ok" button. Then the bookmark will appear. 
+#. Click the "Ok" button. Then the bookmark will appear.
 
-To manage bookmarks, go to "Bookmarks->Manage Bookmarks". 
+To manage bookmarks, go to "Bookmarks->Manage Bookmarks".
 
   .. image:: /images/projects/marble/marble-quickstart-7.png
     :scale: 70 %

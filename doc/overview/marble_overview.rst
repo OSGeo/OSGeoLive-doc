@@ -20,16 +20,16 @@ Google Earth. Besides choosing any number of maps to view on your
 globe (including `OpenStreetMaps <https://www.openstreetmap.org>`_), you are
 encouraged to include a KDE Marble widget in your application.
 
-Explore the neighborhood with Marble's rich set of city and street 
-level maps. Search for addresses and places of interest. Marble takes 
-care of querying various search backends and presents their results in 
-a unified view. Calculate pedestrian, bike and motorcar routes with 
+Explore the neighborhood with Marble's rich set of city and street
+level maps. Search for addresses and places of interest. Marble takes
+care of querying various search backends and presents their results in
+a unified view. Calculate pedestrian, bike and motorcar routes with
 ease - online and offline, with an arbitrary number of via points.
 
-Start exploring the world. View clouds and sun shadow, follow satellites 
-and space stations and display their orbits, all updated in real-time. 
-Travel back in time and learn about historic views of our planet using 
-maps from past centuries. Earth is not enough? Marble also offers maps 
+Start exploring the world. View clouds and sun shadow, follow satellites
+and space stations and display their orbits, all updated in real-time.
+Travel back in time and learn about historic views of our planet using
+maps from past centuries. Earth is not enough? Marble also offers maps
 of the moon and other planets.
 
 @SCREENSHOT_marble@
