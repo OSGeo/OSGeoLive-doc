@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"POT-Creation-Date: 2024-09-02 00:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 msgid "pycsw is Open Source, released under an MIT license, and runs on all major platforms (Windows, Linux, Mac OS X)."
 msgstr ""
 
-#: ../../build/doc/overview/pycsw_overview.rst:-1
+#: ../../build/doc/overview/pycsw_overview.rst:None
 msgid "pycsw screenshot"
 msgstr ""
 
@@ -149,27 +149,27 @@ msgid "OGC Standards:"
 msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:71
-msgid "|CSW|         2.0.2, 3.0.0"
+msgid "|CSW| 2.0.2, 3.0.0"
 msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:72
-msgid "|FE|          1.1.0, 2.0.0"
+msgid "|FE| 1.1.0, 2.0.0"
 msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:73
-msgid "OWS Common    1.0.0, 2.0.0"
+msgid "OWS Common 1.0.0, 2.0.0"
 msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:74
-msgid "|GML|         3.1.1"
+msgid "|GML| 3.1.1"
 msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:75
-msgid "|SFS|         1.2.1"
+msgid "|SFS| 1.2.1"
 msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:76
-msgid "OGC OpenSearch  1.0"
+msgid "OGC OpenSearch 1.0"
 msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:78
@@ -177,11 +177,11 @@ msgid "Metadata Standards:"
 msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:80
-msgid "Dublin Core   1.1"
+msgid "Dublin Core 1.1"
 msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:81
-msgid "SOAP  1.2"
+msgid "SOAP 1.2"
 msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:82
@@ -205,19 +205,19 @@ msgid "FGDC CSDGM 1998"
 msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:87
-msgid "GM03  2.1"
+msgid "GM03 2.1"
 msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:88
-msgid "SRU   1.1"
+msgid "SRU 1.1"
 msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:89
-msgid "OAI-PMH   2.0"
+msgid "OAI-PMH 2.0"
 msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:90
-msgid "A9 OpenSearch         1.1"
+msgid "A9 OpenSearch 1.1"
 msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:93
@@ -268,6 +268,7 @@ msgstr ""
 msgid "OSGeo Project"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""
