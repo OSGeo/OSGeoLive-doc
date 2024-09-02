@@ -67,17 +67,17 @@ OGC Standards:
 
 Metadata Standards:
 
-* Dublin Core 	1.1
-* SOAP 	1.2
+* Dublin Core 1.1
+* SOAP 1.2
 * ISO 19115:2003
 * ISO 19139:2007
 * ISO 19119:2005
 * NASA DIF 9.7
 * FGDC CSDGM 1998
-* GM03  2.1
-* SRU 	1.1
-* OAI-PMH   2.0
-* A9 OpenSearch 	1.1
+* GM03 2.1
+* SRU 1.1
+* OAI-PMH 2.0
+* A9 OpenSearch 1.1
 
 Details
 --------------------------------------------------------------------------------
