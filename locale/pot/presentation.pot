@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-16 19:30+0000\n"
+"POT-Creation-Date: 2024-09-08 14:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -75,31 +75,31 @@ msgid "Updated core packages based on `DebianGIS <href=\"https://wiki.debian.org
 msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:72
-msgid "QGIS 3.28.5,"
+msgid "QGIS 3.34.9,"
 msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:73
-msgid "GDAL 3.6.4,"
+msgid "GDAL 3.9.2,"
 msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:74
-msgid "PROJ 9.1.1,"
+msgid "PROJ 9.4.1,"
 msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:75
-msgid "PostGIS 3.3.3,"
+msgid "PostGIS 3.4.2,"
 msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:76
-msgid "GRASS  8.2.1,"
+msgid "GRASS  8.4.0,"
 msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:77
-msgid "GeoServer 2.22.2,"
+msgid "GeoServer 2.25.3,"
 msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:78
-msgid "MapServer 8.0.1,"
+msgid "MapServer 8.2.2,"
 msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:80
