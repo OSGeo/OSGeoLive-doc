@@ -4,14 +4,14 @@
 # Desktop GIS | | | | | | | | | | | |
 ###################### | | | | | | | | | | | |
 # OSGeo Projects | | | | | | | | | | | |
-Y | grass | 8.2.1 | Y | Y | Desktop GIS | | | grass_gis | https://grass.osgeo.org/ | OSGeo_project | GRASS GIS | Y
+Y | grass | 8.4.0 | Y | Y | Desktop GIS | | | grass_gis | https://grass.osgeo.org/ | OSGeo_project | GRASS GIS | Y
 Y | gvsig | 2.4.0 | Y | Y | Desktop GIS | | | gvsig-desktop-2 | http://www.gvsig.com/es | OSGeo_project | gvSIG Desktop | N
-Y | qgis | 3.28.5 | Y | Y | Desktop GIS | | | qgis | https://www.qgis.org/en/site/ | OSGeo_project | QGIS | Y
+Y | qgis | 3.34.9 | Y | Y | Desktop GIS | | | qgis | https://www.qgis.org/en/site/ | OSGeo_project | QGIS | Y
 # OSGeo Community | | | | | | | | | | | |
 # Others | | | | | | | | | | | |
 Y | openjump | 1.15.1 | Y | Y | Desktop GIS | | | openjump_gis | http://www.openjump.org | | OpenJUMP GIS | Y
 Y | qfield | 2.7.6 | Y | Y | Desktop GIS | | | qfield | https://qfield.org/ | | QField | N
-Y | saga | 8.2.2 | Y | Y | Desktop GIS | | | saga-gis | https://saga-gis.sourceforge.io/en/index.html | | SAGA | Y
+Y | saga | 9.5.1 | Y | Y | Desktop GIS | | | saga-gis | https://saga-gis.sourceforge.io/en/index.html | | SAGA | Y
 Y | udig | 2.0.0RC1 | Y | Y | Desktop GIS | | | udig | http://udig.refractions.net/ | | uDig | N
 ###################### | | | | | | | | | | | |
 # Browser Facing GIS | | | | | | | | | | | |
@@ -24,7 +24,7 @@ Y | openlayers | 6.14.1 | Y | Y | Browser Facing GIS | | Browser Mapping Library
 # OSGeo Community | | | | | | | | | | | |
 Y | geostyler | 9.0.0 | Y | Y | Browser Facing GIS | | Generic Styler For Geodata | GeoStyler | https://geostyler.org | OSGeo_community | GeoStyler | Y
 # Others | | | | | | | | | | | |
-Y | cesium | 1.106 | Y | Y | Browser Facing GIS | | 3D globes and 2D maps in a browser | cesiumjs | https://cesium.com/ | | Cesium | Y
+Y | cesium | 1.121 | Y | Y | Browser Facing GIS | | 3D globes and 2D maps in a browser | cesiumjs | https://cesium.com/ | | Cesium | Y
 Y | geoext | 3.4.0 | Y | Y | Browser Facing GIS | | JavaScript Toolkit Web Mapping | geoext | https://geoext.github.io/geoext | | GeoExt | Y
 Y | leaflet | 1.7.1 | Y | Y | Browser Facing GIS | | Mobile Friendly Interactive Maps | Leaflet | https://leafletjs.com | | Leaflet | Y
 ###################### | | | | | | | | | | | |
@@ -33,21 +33,21 @@ Y | leaflet | 1.7.1 | Y | Y | Browser Facing GIS | | Mobile Friendly Interactive
 # OSGeo Projects | | | | | | | | | | | |
 Y | deegree | 3.4.32 | Y | Y | Web Services | | OGC Web Services | deegree3 | http://www.deegree.org | OSGeo_project | deegree | Y
 Y | geonetwork | 3.2.1 | Y | Y | Web Services | | Metadata Catalogue | geonetwork-opensource | https://geonetwork-opensource.org | OSGeo_project | GeoNetwork | Y
-Y | geoserver | 2.22.2 | Y | Y | Web Services | | OGC Web Services | geoserver | https://geoserver.org/ | OSGeo_project | GeoServer | Y
-Y | mapcache | 1.12.0 | Y | Y | Web Services | | OGC Web Services | mapcache | https://mapserver.org/mapcache | OSGeo_project | MapCache | Y
-Y | mapserver | 8.0.1 | Y | Y | Web Services | | OGC Web Services | mapserver | https://mapserver.org | OSGeo_project | MapServer | Y
+Y | geoserver | 2.25.3 | Y | Y | Web Services | | OGC Web Services | geoserver | https://geoserver.org/ | OSGeo_project | GeoServer | Y
+Y | mapcache | 1.14.0 | Y | Y | Web Services | | OGC Web Services | mapcache | https://mapserver.org/mapcache | OSGeo_project | MapCache | Y
+Y | mapserver | 8.2.2 | Y | Y | Web Services | | OGC Web Services | mapserver | https://mapserver.org | OSGeo_project | MapServer | Y
 Y | pycsw | 2.6.1 | Y | Y | Web Services | | Metadata Catalogue | pycsw | https://pycsw.org/ | OSGeo_project | pycsw | Y
 Y | pywps | 4.5.1 | Y | Y | Web Services | | Web Processing Service | pyWPS | https://pywps.org/ | OSGeo_project | PyWPS | Y
 # OSGeo Community | | | | | | | | | | | |
 Y | istsos | 2.4.0 | Y | Y | Web Services | | Sensor Observation Service | istsos | http://istsos.org | OSGeo_community | istSOS | Y
 Y | mapproxy | 1.15.1 | Y | Y | Web Services | | Proxy WMS & tile services | mapproxy | https://mapproxy.org/ | OSGeo_community | MapProxy | Y
-Y | pygeoapi | 0.15.0 | Y | Y | Web Services | | OGC Web Services | pygeoapi | https://pygeoapi.io/ | OSGeo_project | pygeoapi | Y
+Y | pygeoapi | 0.16.1 | Y | Y | Web Services | | OGC Web Services | pygeoapi | https://pygeoapi.io/ | OSGeo_project | pygeoapi | Y
 Y | zoo-project | 1.9.0 | Y | Y | Web Services | | Web Processing Service | zoo-project | http://zoo-project.org/ | OSGeo_project | Zoo Project | Y
 # Others | | | | | | | | | | | |
 Y | actinia | 4.2.0 | Y | Y | Web Services | | Processing of Geographical Data | actinia_core | https://actinia.mundialis.de/ | OSGeo_community | actinia | N
 Y | eoxserver | 1.1.2 | Y | Y | Web Services | | Web Coverage Service | eoxserver | https://docs.eoxserver.org/en/stable/ | | EOxServer | Y
 Y | ETF | 2.0.0 | Y | Y | Web Services | | Testing framework for validating spatial data, metadata and web services in Spatial Data Infrastructures (SDIs) | etf-validator | https://github.com/etf-validator| | ETF | N
-Y | qgis_mapserver | 3.22.7 | Y | Y | Web Services | | Web Map Service | | https://www.qgis.org/en/site/ | | QGIS Server | Y
+Y | qgis_mapserver | 3.34.9 | Y | Y | Web Services | | Web Map Service | | https://www.qgis.org/en/site/ | | QGIS Server | Y
 Y | re3gistry | 2.4.2 | Y | Y | Web Services | | Management of reference codes | re3gistry | https://github.com/ec-jrc/re3gistry | | Re3gistry | N
 Y | t-rex | 0.14.3 | Y | Y | Web Services | | Vector Tile Service | t-rex | https://t-rex.tileserver.ch/ | | t-rex | Y
 Y | 52nSOS | 5.5.1 | Y | Y | Web Services | | Sensor Observation Service | SensorObservationService | https://52north.org/software/software-projects/sos | | 52 North SOS | N
@@ -55,25 +55,25 @@ Y | 52nSOS | 5.5.1 | Y | Y | Web Services | | Sensor Observation Service | Senso
 # Data Stores | | | | | | | | | | | |
 ###################### | | | | | | | | | | | |
 # OSGeo Projects | | | | | | | | | | | |
-Y | postgis | 3.3.3 | Y | Y | Data Stores | | Spatial Database | postgis | http://postgis.net | OSGeo_project | PostGIS | Y
+Y | postgis | 3.4.2 | Y | Y | Data Stores | | Spatial Database | postgis | http://postgis.net | OSGeo_project | PostGIS | Y
 # OSGeo Community | | | | | | | | | | | |
-Y | pgrouting | 3.4.2 | Y | Y | Data Stores | | Routing for PostGIS | pgrouting | https://pgrouting.org/ | OSGeo_community | pgRouting | Y
+Y | pgrouting | 3.6.2 | Y | Y | Data Stores | | Routing for PostGIS | pgrouting | https://pgrouting.org/ | OSGeo_community | pgRouting | Y
 Y | rasdaman | 10.0.0 | Y | Y | Data Stores | | Multi-Dimensional Raster Database | rasdaman | https://rasdaman.org | OSGeo_community | Rasdaman | N
 Y | odc | 1.8.9 | Y | Y | Data Stores | | Time-Series Database | odc | https://www.opendatacube.org | OSGeo_community | Open Data Cube | Y
 # Others | | | | | | | | | | | |
-Y | spatialite | 5.0.0 | Y | Y | Data Stores | | Lightweight Database | spatialite | http://www.gaia-gis.it/gaia-sins/ | | SpatiaLite | Y
+Y | spatialite | 5.1.0 | Y | Y | Data Stores | | Lightweight Database | spatialite | http://www.gaia-gis.it/gaia-sins/ | | SpatiaLite | Y
 ###################### | | | | | | | | | | | |
 # Navigation and Maps | | | | | | | | | | | |
 ###################### | | | | | | | | | | | |
 # OSGeo Projects | | | | | | | | | | | |
-Y | marble | 21.12.3 | Y | Y | Navigation and Maps | | Virtual Globe | marble | https://marble.kde.org/ | OSGeo_project | Marble | Y
+Y | marble | 23.08.5 | Y | Y | Navigation and Maps | | Virtual Globe | marble | https://marble.kde.org/ | OSGeo_project | Marble | Y
 # OSGeo Community | | | | | | | | | | | |
 # Others | | | | | | | | | | | |
 Y | ideditor | 2.21.1 | Y | Y | Navigation and Maps | | OpenStreetMap Web Editor | iD_OSM | https://wiki.openstreetmap.org/wiki/ID | | iD editor | Y
-Y | josm | svn18360 | Y | Y | Navigation and Maps | | OpenStreetMap Desktop Editor | josm | https://josm.openstreetmap.de | | JOSM | Y
-Y | gpsprune | 21.1.0 | Y | Y | Navigation and Maps | | View, Edit and Convert GPS Tracks | gpsprune | https://activityworkshop.net/software/gpsprune | | GpsPrune | Y
-Y | opencpn | 5.6.2 | Y | Y | Navigation and Maps | | Marine GPS Chartplotter | opencpn | https://www.opencpn.org | | OpenCPN | Y
-Y | osm | josm (svn15937) | Y | Y | Navigation and Maps | | OpenStreetMap Tools | | https://www.openstreetmap.org/ | | OpenStreetMap | Y
+Y | josm | svn18969 | Y | Y | Navigation and Maps | | OpenStreetMap Desktop Editor | josm | https://josm.openstreetmap.de | | JOSM | Y
+Y | gpsprune | 23.2.0 | Y | Y | Navigation and Maps | | View, Edit and Convert GPS Tracks | gpsprune | https://activityworkshop.net/software/gpsprune | | GpsPrune | Y
+Y | opencpn | 5.8.4 | Y | Y | Navigation and Maps | | Marine GPS Chartplotter | opencpn | https://www.opencpn.org | | OpenCPN | Y
+Y | osm | josm (svn18969) | Y | Y | Navigation and Maps | | OpenStreetMap Tools | | https://www.openstreetmap.org/ | | OpenStreetMap | Y
 ###################### | | | | | | | | | | | |
 # Spatial Tools | | | | | | | | | | | |
 ###################### | | | | | | | | | | | |
@@ -82,9 +82,9 @@ N | ossim | 2.9.1 | Y | Y | Spatial Tools | | Image Processing | ossim | http://
 Y | otb | 8.1.0 | Y | Y | Spatial Tools | | Image Processing | otb | https://www.orfeo-toolbox.org/ | OSGeo_project | OTB | Y
 # OSGeo Community | | | | | | | | | | | |
 # Others | | | | | | | | | | | |
-Y | gmt | 6.3.0 | Y | Y | Spatial Tools | 11 | Cartographic Rendering | GMT | https://www.generic-mapping-tools.org | | GMT | N
-Y | jupyter | 4.9.1 | Y | Y | Spatial Tools | | Mixing rich media in presentations | jupyter_notebook | https://jupyter.org/ | | Jupyter Notebook | Y
-Y | mapnik | 3.1.0 | Y | Y | Spatial Tools | | Cartographic Rendering | mapnik | https://mapnik.org/ | | Mapnik | Y
+Y | gmt | 6.5.0 | Y | Y | Spatial Tools | 11 | Cartographic Rendering | GMT | https://www.generic-mapping-tools.org | | GMT | N
+Y | jupyter | 5.3.2 | Y | Y | Spatial Tools | | Mixing rich media in presentations | jupyter_notebook | https://jupyter.org/ | | Jupyter Notebook | Y
+Y | mapnik | 4.0.0 | Y | Y | Spatial Tools | | Cartographic Rendering | mapnik | https://mapnik.org/ | | Mapnik | Y
 Y | R | 4.1.2 | Y | Y | Spatial Tools | | Statistical Programming | R_project | https://cran.r-project.org | | R | Y
 ###################### | | | | | | | | | | | |
 # Domain Specific GIS | | | | | | | | | | | |
@@ -107,14 +107,14 @@ Y | osm_dataset | | N | Y | Data | | Sample extract from OpenStreetMap | | https
 # Geospatial Libraries | | | | | | | | | | | |
 ###################### | | | | | | | | | | | |
 # OSGeo Projects | | | | | | | | | | | |
-Y | gdal | 3.6.4 | Y | Y | Geospatial Libraries | | Geospatial Data Translation Tools | gdal | https://gdal.org/ | OSGeo_project | GDAL/OGR | Y
-Y | geos | 3.11.1 | N | Y | Geospatial Libraries | | C/C++ Spatial Library | geos | https://trac.osgeo.org/geos | OSGeo_project | GEOS | Y
+Y | gdal | 3.9.2 | Y | Y | Geospatial Libraries | | Geospatial Data Translation Tools | gdal | https://gdal.org/ | OSGeo_project | GDAL/OGR | Y
+Y | geos | 3.12.2 | N | Y | Geospatial Libraries | | C/C++ Spatial Library | geos | https://trac.osgeo.org/geos | OSGeo_project | GEOS | Y
 Y | geotools | NA | N | Y | Geospatial Libraries | | Java GIS Toolkit | geotools | https://geotools.org/ | OSGeo_project | GeoTools | Y
-Y | proj | 9.1.1 | Y | Y | Geospatial Libraries | | Coordinate Reference System Libraries | proj | https://proj.org/ | OSGeo_project | PROJ | Y
+Y | proj | 9.4.1 | Y | Y | Geospatial Libraries | | Coordinate Reference System Libraries | proj | https://proj.org/ | OSGeo_project | PROJ | Y
 # OSGeo Community | | | | | | | | | | | |
 # Others | | | | | | | | | | | |
 Y | jts | NA | N | Y | Geospatial Libraries | | Java Topology Suite | jts-topo-suite | https://projects.eclipse.org/projects/locationtech.jts | | JTS | Y
-N | pdal | 2.5.0 | Y | Y | Geospatial Libraries | | Pointcloud and LiDAR Data Access | pdal | https://pdal.io | | PDAL | Y
+N | pdal | 2.6.2 | Y | Y | Geospatial Libraries | | Pointcloud and LiDAR Data Access | pdal | https://pdal.io | | PDAL | Y
 ###################### | | | | | | | | | | | |
 # Geospatial Standards | | | | | | | | | | | |
 ###################### | | | | | | | | | | | |
