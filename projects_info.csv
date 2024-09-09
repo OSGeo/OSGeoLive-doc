@@ -9,8 +9,8 @@ Y | gvsig | 2.4.0 | Y | Y | Desktop GIS | | | gvsig-desktop-2 | http://www.gvsig
 Y | qgis | 3.34.9 | Y | Y | Desktop GIS | | | qgis | https://www.qgis.org/en/site/ | OSGeo_project | QGIS | Y
 # OSGeo Community | | | | | | | | | | | |
 # Others | | | | | | | | | | | |
-Y | openjump | 1.15.1 | Y | Y | Desktop GIS | | | openjump_gis | http://www.openjump.org | | OpenJUMP GIS | Y
-Y | qfield | 2.7.6 | Y | Y | Desktop GIS | | | qfield | https://qfield.org/ | | QField | N
+Y | openjump | 2.2.1 | Y | Y | Desktop GIS | | | openjump_gis | http://www.openjump.org | | OpenJUMP GIS | Y
+Y | qfield | 3.3.11 | Y | Y | Desktop GIS | | | qfield | https://qfield.org/ | | QField | N
 Y | saga | 9.5.1 | Y | Y | Desktop GIS | | | saga-gis | https://saga-gis.sourceforge.io/en/index.html | | SAGA | Y
 Y | udig | 2.0.0RC1 | Y | Y | Desktop GIS | | | udig | http://udig.refractions.net/ | | uDig | N
 ###################### | | | | | | | | | | | |
@@ -37,10 +37,10 @@ Y | geoserver | 2.25.3 | Y | Y | Web Services | | OGC Web Services | geoserver |
 Y | mapcache | 1.14.0 | Y | Y | Web Services | | OGC Web Services | mapcache | https://mapserver.org/mapcache | OSGeo_project | MapCache | Y
 Y | mapserver | 8.2.2 | Y | Y | Web Services | | OGC Web Services | mapserver | https://mapserver.org | OSGeo_project | MapServer | Y
 Y | pycsw | 2.6.1 | Y | Y | Web Services | | Metadata Catalogue | pycsw | https://pycsw.org/ | OSGeo_project | pycsw | Y
-Y | pywps | 4.5.1 | Y | Y | Web Services | | Web Processing Service | pyWPS | https://pywps.org/ | OSGeo_project | PyWPS | Y
+Y | pywps | 4.6.0 | Y | Y | Web Services | | Web Processing Service | pyWPS | https://pywps.org/ | OSGeo_project | PyWPS | Y
 # OSGeo Community | | | | | | | | | | | |
 Y | istsos | 2.4.0 | Y | Y | Web Services | | Sensor Observation Service | istsos | http://istsos.org | OSGeo_community | istSOS | Y
-Y | mapproxy | 1.15.1 | Y | Y | Web Services | | Proxy WMS & tile services | mapproxy | https://mapproxy.org/ | OSGeo_community | MapProxy | Y
+Y | mapproxy | 2.1.1 | Y | Y | Web Services | | Proxy WMS & tile services | mapproxy | https://mapproxy.org/ | OSGeo_community | MapProxy | Y
 Y | pygeoapi | 0.16.1 | Y | Y | Web Services | | OGC Web Services | pygeoapi | https://pygeoapi.io/ | OSGeo_project | pygeoapi | Y
 Y | zoo-project | 1.9.0 | Y | Y | Web Services | | Web Processing Service | zoo-project | http://zoo-project.org/ | OSGeo_project | Zoo Project | Y
 # Others | | | | | | | | | | | |
@@ -85,14 +85,14 @@ Y | otb | 8.1.0 | Y | Y | Spatial Tools | | Image Processing | otb | https://www
 Y | gmt | 6.5.0 | Y | Y | Spatial Tools | 11 | Cartographic Rendering | GMT | https://www.generic-mapping-tools.org | | GMT | N
 Y | jupyter | 5.3.2 | Y | Y | Spatial Tools | | Mixing rich media in presentations | jupyter_notebook | https://jupyter.org/ | | Jupyter Notebook | Y
 Y | mapnik | 4.0.0 | Y | Y | Spatial Tools | | Cartographic Rendering | mapnik | https://mapnik.org/ | | Mapnik | Y
-Y | R | 4.1.2 | Y | Y | Spatial Tools | | Statistical Programming | R_project | https://cran.r-project.org | | R | Y
+Y | R | 4.3.3 | Y | Y | Spatial Tools | | Statistical Programming | R_project | https://cran.r-project.org | | R | Y
 ###################### | | | | | | | | | | | |
 # Domain Specific GIS | | | | | | | | | | | |
 ###################### | | | | | | | | | | | |
 # OSGeo Projects | | | | | | | | | | | |
 # OSGeo Community | | | | | | | | | | | |
 # Others | | | | | | | | | | | |
-Y | xygrib | 1.2.6 | Y | Y | Domain Specific GIS | | Weather Forecast Maps | | https://opengribs.org/en | | XyGrib | Y
+Y | xygrib | 2.6.1 | Y | Y | Domain Specific GIS | | Weather Forecast Maps | | https://opengribs.org/en | | XyGrib | Y
 ###################### | | | | | | | | | | | |
 # Data | | | | | | | | | | | |
 ###################### | | | | | | | | | | | |
