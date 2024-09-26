@@ -126,7 +126,7 @@ Currently available datasets are (organized by projections):
       (``latlong_wgs84/modis_ndvi_global/``; source:
       https://lpdaac.usgs.gov/products/mod13c1v006/)
    -  LST growing degree days asia 2017 (``latlong_wgs84/asia_gdd_2017/``;
-      source: https://www.mundialis.de/en/temperature-data/)
+      source: https://www.mundialis.de/en/products/surface-temperature-data/)
    -  LST tropical days asia 2017 (``latlong_wgs84/asia_tropical_2017/``)
    -  LST temperature daily asia 2017, including min, max and avg
       (``latlong_wgs84/asia_lst_daily_2017/``)
@@ -134,10 +134,10 @@ Currently available datasets are (organized by projections):
 -  Europe (EU LAEA CRS, EPSG:3035):
 
    -  EU DEM 25m V1.1 (``eu_laea/PERMANENT/``; source:
-      https://land.copernicus.eu/imagery-in-situ/eu-dem)
+      https://land.copernicus.eu/en/products/products-that-are-no-longer-disseminated-on-the-clms-website)
    -  CORINE Landcover 2012, g100_clc12_V18_5 (``eu_laea/corine_2012/``;
       source:
-      https://land.copernicus.eu/pan-european/corine-land-cover/clc-2012)
+      https://land.copernicus.eu/en/products/corine-land-cover/clc-2012)
 
 -  World Mollweide (EPSG 54009):
 
@@ -473,4 +473,4 @@ What next?
 
 * Visit the actinia website at `https://actinia.mundialis.de <https://actinia.mundialis.de>`_
 * actinia tutorial: `https://neteler.gitlab.io/actinia-introduction <https://neteler.gitlab.io/actinia-introduction>`_
-* Further reading: Neteler, M., Gebbert, S., Tawalika, C., Bettge, A., Benelcadi, H., Löw, F., Adams, T, Paulsen, H. (2019). Actinia: cloud based geoprocessing. In Proc. of the 2019 conference on Big Data from Space (BiDS'2019) (pp. 41-44). EUR 29660 EN, Publications Office of the European Union 5, Luxembourg: P. Soille, S. Loekken, and S. Albani (Eds.). (`DOI <https://zenodo.org/record/2631917>`__)
+* Further reading: Neteler, M., Gebbert, S., Tawalika, C., Bettge, A., Benelcadi, H., Löw, F., Adams, T, Paulsen, H. (2019). Actinia: cloud based geoprocessing. In Proc. of the 2019 conference on Big Data from Space (BiDS'2019) (pp. 41-44). EUR 29660 EN, Publications Office of the European Union 5, Luxembourg: P. Soille, S. Loekken, and S. Albani (Eds.). (`DOI <https://zenodo.org/records/2631917>`__)

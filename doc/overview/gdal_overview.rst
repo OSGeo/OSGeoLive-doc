@@ -58,7 +58,7 @@ Details
 
 **Website:** @WEB_gdal@
 
-**Licence:** `X/MIT style Open Source license <https://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_
+**License:** `X/MIT style Open Source license <https://gdal.org/en/latest/license.html>`_
 
 **Software Version:** |version-gdal|
 

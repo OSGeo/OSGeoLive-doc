@@ -56,7 +56,7 @@ to start up.
    red circles to highlight any particular areas of note on the user interface
    (if required).
    Store images here:
-   https://github.com/OSGeo/OSGeoLive-doc/tree/master/images/projects/1024x768/
+   https://github.com/OSGeo/OSGeoLive-doc/tree/master/doc/images/projects
 
 
 Procedure

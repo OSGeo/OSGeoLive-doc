@@ -266,8 +266,7 @@ msgstr ""
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:196
 msgid "52°North `SOS Client <https://sensorweb.demo.52north.org>`__"
 msgstr ""
-"52°North `SOS Kliens <https://sensorweb.demo.52north.org/"
-"sensorwebclient-webapp-stable/>`_"
+"52°North `SOS Kliens <https://sensorweb.demo.52north.org/>`__"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:197
 msgid ""

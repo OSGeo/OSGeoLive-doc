@@ -43,7 +43,7 @@ Details
 
 **Website:** http://www.ossim.org
 
-**Licence:** GNU General Public License (GPL) version 3
+**License:** GNU General Public License (GPL) version 3
 
 **Software Version:** |version-ossim|
 
@@ -51,7 +51,7 @@ Details
 
 **API Interfaces:** C++
 
-**Commercial Support:** https://www.osgeo.org/search_profile
+**Commercial Support:** https://www.osgeo.org/service-providers/
 
 
 @VMDK_ossim@

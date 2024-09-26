@@ -181,6 +181,8 @@ latex_documents = [
 
 # Linkcheck configuration, see http://sphinx.pocoo.org/latest/config.html#options-for-the-linkcheck-builder
 
+linkcheck_retries = 3  # default is 1
+
 linkcheck_ignore = [
         # currently SSL_ERROR_BAD_CERT_DOMAIN
         # TODO remove this line when the CERT is fixed
@@ -189,6 +191,9 @@ linkcheck_ignore = [
         # link exists but does not accept robots and linkchecker is a robot
         # used in overview/mapserver_overview
         'http://www.dnr.state.mn.us/maps/compass.html',
+
+        # intermittent 502 server errors
+        r'https://demo.pycsw.org',
 
         # TODO this link is failing: RemoteDisconnected('Remote end closed connection without response'))
         # ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
@@ -227,19 +232,27 @@ linkcheck_ignore = [
         # Used in quickstart/osm_quickstart
         'https://www.openstreetmap.org/edit',
 
-        # link exists but link check failes
+        # link exists but link check fails
         # SSL: CERTIFICATE_VERIFY_FAILED
         # Used in sponsors.rst
         'https://www.ntua.gr/en',
         'https://www.ice.ucdavis.edu/',
 
-        # Link with certiciate problems
+        # link exists, with strange redirects, but checks fail
+        'https://webchat.freenode.net/',
+
+        # Link with certificate problems
         # Used in quickstart/liblas_quickstart
         #'https://epsg.org/home.html',
         'https://www.epsg.org/',
 
         # Link to the presentation
-        r'presentation.html'
+        r'presentation.html',
+
+        # Ignore all Stack Overflow links
+        # as they return 429 Client Error: Too Many Requests for url
+        # due to rate limiting
+        r'https://stackoverflow\.com/.*'
         ]
 
 linkcheck_anchors = False

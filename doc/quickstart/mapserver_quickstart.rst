@@ -232,7 +232,7 @@ Style a layer using Mapfile configurations
 In a Mapfile, a LAYER object can contain an infinite number of CLASS
 objects. These are used to style the elements contained in the spatial data
 file (DATA). For example, if we look closer at our "ne_10m_lakes" data file
-using a tool such as `ogrinfo <https://gdal.org/ogrinfo.html>`_, we'll
+using a tool such as `ogrinfo <https://gdal.org/en/latest/programs/ogrinfo.html>`_, we'll
 see the geometry and attribute definitions it contains. These attribute
 values can be used as a way to draw the elements inside a dataset
 differently using multiple CLASS objects.

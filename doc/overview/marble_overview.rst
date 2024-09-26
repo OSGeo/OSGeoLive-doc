@@ -69,7 +69,7 @@ Details
 
 **Support:** https://techbase.kde.org/Projects/Marble
 
-**More Info:** https://www.slideshare.net/marbleglobe/marble-1-6en
+**More Info:** https://www.slideshare.net/slideshow/marble-1-6en/26862346
 
 
 @VMDK_marble@
