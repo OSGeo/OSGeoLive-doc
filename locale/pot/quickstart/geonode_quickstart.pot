@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"POT-Creation-Date: 2024-09-26 14:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -221,7 +221,7 @@ msgid "In order to get started with GeoNode our `documentation <https://docs.geo
 msgstr ""
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:222
-msgid "If you need help or want to get some information about a specific topic please don't hasitate to ask us! You can do this through the #geonode IRC channel using https://webchat.freenode.net/, through the `GeoNode Gitter channel <https://gitter.im/GeoNode/general>`_ or by asking your question in our `mailing list <https://lists.osgeo.org/cgi-bin/mailman/listinfo/geonode-users>`_ !"
+msgid "If you need help or want to get some information about a specific topic please don't hesitate to ask us! You can do this through the #geonode IRC channel using https://webchat.freenode.net/, through the `GeoNode Gitter channel <https://app.gitter.im/#/room/#GeoNode_general:gitter.im>`_ or by asking your question in our `mailing list <https://lists.osgeo.org/cgi-bin/mailman/listinfo/geonode-users>`_ !"
 msgstr ""
 
 #: ../../build/doc/<rst_epilog>:13
@@ -236,6 +236,7 @@ msgstr ""
 msgid "OSGeo Project"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""

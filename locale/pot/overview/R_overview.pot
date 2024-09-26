@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"POT-Creation-Date: 2024-09-26 14:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,14 +33,14 @@ msgid "Users can accomplish a broad array of tasks such as: image classification
 msgstr ""
 
 #: ../../build/doc/overview/R_overview.rst:36
-msgid "The core R interface is a command line window which provides excellent flexibility and control but tends to lengthen the time required to become a proficient user when compared to software with a graphical user interface (GUI). Fortunately R is well documented on the web site which eases the learning process. Scripts are often used to automate processing steps but there are GUIs, the leading one being RStudio (https://www.rstudio.com)."
+msgid "The core R interface is a command line window which provides excellent flexibility and control but tends to lengthen the time required to become a proficient user when compared to software with a graphical user interface (GUI). Fortunately R is well documented on the web site which eases the learning process. Scripts are often used to automate processing steps but there are GUIs, the leading one being RStudio (https://posit.co/)."
 msgstr ""
 
 #: ../../build/doc/overview/R_overview.rst:44
 msgid "R is an implementation of the S programming language and there is significant compatibility between R and legacy S and S-Plus code as well as between R and the modern commercial version of S, TIBCO Spotfire S+. This makes it possible to convert different versions of S code to run on R without major code modifications."
 msgstr ""
 
-#: ../../build/doc/overview/R_overview.rst:-1
+#: ../../build/doc/overview/R_overview.rst:None
 msgid "R screenshot"
 msgstr ""
 
@@ -148,6 +148,7 @@ msgstr ""
 msgid "OSGeo Project"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""

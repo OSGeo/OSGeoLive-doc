@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-17 21:19+0000\n"
+"POT-Creation-Date: 2024-09-26 14:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -229,7 +229,7 @@ msgid "**Community Support:** https://list.52north.org/mailman/listinfo/sensorwe
 msgstr ""
 
 #: ../../build/doc/overview/52nSOS_overview.rst:153
-msgid "**Community Website:** https://52north.org/research/scope/geospatial-sensing/"
+msgid "**Community Website:** https://52north.org/research/scope/research-data-infrastructures/"
 msgstr ""
 
 #: ../../build/doc/overview/52nSOS_overview.rst:155

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-17 20:25+0000\n"
+"POT-Creation-Date: 2024-09-26 14:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -177,7 +177,7 @@ msgid "**What will I learn ?** You will see an example of styling elements insid
 msgstr ""
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:238
-msgid "In a Mapfile, a LAYER object can contain an infinite number of CLASS objects. These are used to style the elements contained in the spatial data file (DATA). For example, if we look closer at our \"ne_10m_lakes\" data file using a tool such as `ogrinfo <https://gdal.org/ogrinfo.html>`_, we'll see the geometry and attribute definitions it contains. These attribute values can be used as a way to draw the elements inside a dataset differently using multiple CLASS objects."
+msgid "In a Mapfile, a LAYER object can contain an infinite number of CLASS objects. These are used to style the elements contained in the spatial data file (DATA). For example, if we look closer at our \"ne_10m_lakes\" data file using a tool such as `ogrinfo <https://gdal.org/en/latest/programs/ogrinfo.html>`_, we'll see the geometry and attribute definitions it contains. These attribute values can be used as a way to draw the elements inside a dataset differently using multiple CLASS objects."
 msgstr ""
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:246

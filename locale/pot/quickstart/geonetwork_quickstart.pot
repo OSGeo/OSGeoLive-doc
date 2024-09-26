@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"POT-Creation-Date: 2024-09-26 14:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "Prerequisites"
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:37
-msgid "GeoNetwork can directly be started from the OSGeo Live start menu and will be available at http://localhost:8080/geonetwork some moments later. Check the `Installation Guide <https://geonetwork-opensource.org/manuals/trunk/en/install-guide/index.html>`__ if you are using GeoNetwork in some other context."
+msgid "GeoNetwork can directly be started from the OSGeo Live start menu and will be available at http://localhost:8080/geonetwork some moments later. Check the `Installation Guide <https://docs.geonetwork-opensource.org/3.12/install-guide/>`__ if you are using GeoNetwork in some other context."
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:39
@@ -297,7 +297,7 @@ msgid "What next?"
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:221
-msgid "Visit the `Geonetwork User Guide <https://geonetwork-opensource.org/manuals/trunk/en/user-guide/index.html>`_ and try the chapter on **Describing Information**, to learn how to create and edit metadata records."
+msgid "Visit the `Geonetwork User Guide <https://docs.geonetwork-opensource.org/3.12/user-guide/>`_ and try the chapter on **Describing Information**, to learn how to create and edit metadata records."
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:223
@@ -316,6 +316,7 @@ msgstr ""
 msgid "OSGeo Project"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""
