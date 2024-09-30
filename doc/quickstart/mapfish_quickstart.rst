@@ -97,7 +97,7 @@ application that includes a map with two `OSM layers
 
 The MapFish framework offers more than that. In particular it allows easily
 creating RESTful web services for creating, reading, updating and deleting
-features. Please visit http://www.mapfish.org//doc/2.2/quickstart.html to learn
+features. Please visit http://www.mapfish.org/doc/2.2/quickstart.html to learn
 how to create such RESTful web services and http://www.mapfish.org/ to learn more
 about MapFish.
 
