@@ -41,7 +41,7 @@ Core Features
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://www.ossim.org
+**Website:** https://trac.osgeo.org/ossim/
 
 **License:** GNU General Public License (GPL) version 3
 
