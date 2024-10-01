@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-01-29 15:45+0000\n"
+"PO-Revision-Date: 2024-10-01 09:17+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Portuguese <https://weblate.osgeo.org/projects/osgeolive/"
 "internationalisation_quickstart/pt/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
 "1000000 == 0) ? 1 : 2);\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/internationalisation_quickstart.rst:10
 msgid "Change language or keyboard type"
@@ -80,8 +80,8 @@ msgid ""
 "For additional languages see :menuselection:`Preferences --> Language "
 "Support` from the main menu. (Requires an internet connection)."
 msgstr ""
-"Para idioma adicionais veja  :menuselection:`Preferences --> Language "
-"Support` no menu principal. (Requer uma conexão com a internet)."
+"Para idioma adicionais veja :menuselection:`Preferences --> Language Support`"
+" no menu principal. (Requer uma conexão com a internet)."
 
 #: ../../build/doc/quickstart/internationalisation_quickstart.rst:37
 msgid "Keyboard Support"
@@ -125,7 +125,7 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "Projeto OSGeo"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"

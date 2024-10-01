@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2024-08-17 19:57+0000\n"
+"PO-Revision-Date: 2024-09-01 23:50+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "gdal_quickstart/es/>\n"
@@ -288,8 +288,8 @@ msgid ""
 "The gdalwarp command can be used to reproject images. Here we reproject the "
 "WGS84 geographic image to the Mercator projection:"
 msgstr ""
-"The gdalwarp command can be used to reproject images. Here we reproject the "
-"WGS84 geographic image to the Mercator projection:"
+"El comando gdalwarp puede ser usado para proyectar imágenes. Aquí "
+"proyectamos la imagen geográfica WGS84 al la proyección Mercator:"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:235
 msgid "Use gdalinfo to verify the change and have a look at the image."
@@ -454,7 +454,7 @@ msgstr "https://gdal.org"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:460
 msgid "GDAL Raster Tutorial"
-msgstr "GDAL Raster Tutorial"
+msgstr "Tutorial de GDAL Raster"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:462
 msgid "https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial"
@@ -462,7 +462,7 @@ msgstr "https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:464
 msgid "GDAL Workshop"
-msgstr "GDAL Workshop"
+msgstr "Taller de GDAL"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:466
 msgid ""

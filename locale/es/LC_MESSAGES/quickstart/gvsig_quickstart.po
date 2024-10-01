@@ -11,16 +11,17 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2023-03-24 15:23+0000\n"
+"PO-Revision-Date: 2024-08-20 16:45+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"gvsig_quickstart/es/>\n"
 "Language: es\n"
-"Language-Team: Spanish "
-"<https://weblate.osgeo.org/projects/osgeolive/gvsig_quickstart/es/>\n"
-"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 "
-"== 0) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:18
@@ -96,14 +97,13 @@ msgid "Start gvSIG and create a view"
 msgstr "Iniciar gvSIG y crear una vista"
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:53
-#, fuzzy
 msgid ""
 "Select gvSIG from the application menu, |menu_gvsig|. The application "
 "usually takes about a minute to startup."
 msgstr ""
-"Seleccione gvSIG en el menú aplicación, :menuselection:`Geospatial --> "
-"Desktop GIS --> gvSIG`. Normalmente, la aplicación demora aproximadamente"
-" un minuto en iniciarse."
+"Seleccionar gvSIG en el menú aplicación, :menuselection:`Geospatial --> "
+"Desktop GIS --> gvSIG`. Normalmente, la aplicación demora aproximadamente un "
+"minuto en iniciarse."
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:55
 msgid ""
@@ -944,4 +944,3 @@ msgstr "Proyecto OSGeo"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo Comunitario"
-

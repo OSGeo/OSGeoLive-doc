@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2024-08-17 19:57+0000\n"
+"PO-Revision-Date: 2024-09-01 23:50+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "osm_overview/es/>\n"
@@ -107,7 +107,7 @@ msgstr "Datos de OpenStreetMap: https://www.openstreetmap.org/copyright"
 
 #: ../../build/doc/overview/osm_overview.rst:60
 msgid "JOSM: GNU General Public License (GPL) version 2"
-msgstr "JOSM: GNU General Public License (GPL) version 2"
+msgstr "JOSM: Licencia pública general GNU (GPL) versión 2"
 
 #: ../../build/doc/overview/osm_overview.rst:64
 msgid "JOSM plugins collection: Ranging from Public Domain to GPLv3"
@@ -115,7 +115,7 @@ msgstr "Colección de plugins JOSM: oscilan entre dominio público y GPLv3"
 
 #: ../../build/doc/overview/osm_overview.rst:66
 msgid "Merkaartor: GNU General Public License (GPL) version 2"
-msgstr "Merkaartor: GNU General Public License (GPL) version 2"
+msgstr "Merkaartor: Licencia pública general GNU (GPL) versión 2"
 
 #: ../../build/doc/overview/osm_overview.rst:69
 msgid "**Software Versions:**"

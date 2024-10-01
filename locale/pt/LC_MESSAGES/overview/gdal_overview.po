@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-01-29 15:45+0000\n"
+"PO-Revision-Date: 2024-09-27 22:36+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Portuguese <https://weblate.osgeo.org/projects/osgeolive/"
 "gdal_overview/pt/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
 "1000000 == 0) ? 1 : 2);\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/gdal_overview.rst:18
 msgid "GDAL/OGR"
@@ -65,7 +65,7 @@ msgstr ""
 
 #: ../../build/doc/overview/gdal_overview.rstNone
 msgid "gdal screenshot"
-msgstr ""
+msgstr "captura de tela do gdal"
 
 #: ../../build/doc/overview/gdal_overview.rst:43
 msgid "Core Features"
@@ -84,8 +84,8 @@ msgid ""
 "Highly efficient raster data access, taking advantage of tiling and "
 "overviews"
 msgstr ""
-"Acesso aos dados raster de modo eficiente, tomando vantagem dos tilings e "
-"pirâmides."
+"Acesso aos dados raster de modo eficiente, fazendo uso vantagem do mecanismo "
+"de tiling e pirâmides"
 
 #: ../../build/doc/overview/gdal_overview.rst:47
 msgid "Support for large files - larger than 4GB"
@@ -101,7 +101,7 @@ msgid ""
 "system descriptions"
 msgstr ""
 "Mecanismo de sistema de coordenadas construídos utilizando o PROJ.4 e OGC "
-"Well Know Text descrições de sistema de coordenadas."
+"Well Know Text descrições de sistema de coordenadas"
 
 #: ../../build/doc/overview/gdal_overview.rst:52
 msgid "Popular Supported Formats"
@@ -123,7 +123,7 @@ msgid ""
 "DTED, NITF, GeoPackage and more ..."
 msgstr ""
 "**Raster:** GeoTIFF, Erdas Imagine, SDTS, ESRI Grids, ECW, MrSID, JPEG2000, "
-"DTED, NITF, GeoPackage and more ..."
+"DTED, NITF, GeoPackage e mais ..."
 
 #: ../../build/doc/overview/gdal_overview.rst:59
 msgid ""
@@ -131,9 +131,9 @@ msgid ""
 "(tab and mid/mif), ESRI Coverages, ESRI Personal Geodatabase, DGN, PostGIS, "
 "Oracle Spatial, and more ..."
 msgstr ""
-"**Vetor:** GeoPackage, ESRI Shapefile, GML, GeoJSON, AutoCAD DWG, MapInfo "
-"(tab and mid/mif), ESRI Coverages, ESRI Personal Geodatabase, DGN, PostGIS, "
-"Oracle Spatial, and more ..."
+"**Vetor:** GeoPackage, ESRI Shapefile, GML, GeoJSON, AutoCAD DWG, MapInfo ("
+"tab and mid/mif), ESRI Coverages, ESRI Personal Geodatabase, DGN, PostGIS, "
+"Oracle Spatial, e mais ..."
 
 #: ../../build/doc/overview/gdal_overview.rst:62
 msgid "Implemented Standards"
@@ -153,17 +153,19 @@ msgstr "Detalhes"
 
 #: ../../build/doc/overview/gdal_overview.rst:69
 msgid "**Website:** https://gdal.org/"
-msgstr ""
+msgstr "**Website:** https://gdal.org/"
 
 #: ../../build/doc/overview/gdal_overview.rst:71
 msgid ""
 "**Licence:** `X/MIT style Open Source license "
 "<https://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_"
 msgstr ""
+"**Licença:** ` no estilo X/MIT Open Source <https://trac.osgeo.org/gdal/wiki/"
+"FAQGeneral#WhatlicensedoesGDALOGRuse>`_"
 
 #: ../../build/doc/overview/gdal_overview.rst:73
 msgid "**Software Version:** |version-gdal|"
-msgstr "**Software Version:** |version-gdal|"
+msgstr "**Versão:** |version-gdal|"
 
 #: ../../build/doc/overview/gdal_overview.rst:75
 msgid "**Supported Platforms:** Windows, Linux, Mac"
@@ -171,21 +173,23 @@ msgstr "**Plataformas suportadas:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/gdal_overview.rst:77
 msgid "**API Interfaces:** C, C++, Python, Java, C#, Ruby, VB6 and Perl"
-msgstr ""
+msgstr "**Interface da API :** C, C++, Python, Java, C#, Ruby, VB6 e Perl"
 
 #: ../../build/doc/overview/gdal_overview.rst:79
 msgid ""
 "**Support:** https://lists.osgeo.org/mailman/listinfo/gdal-dev, "
 "https://www.osgeo.org/service-providers/"
 msgstr ""
+"**Suporte e ajuda:** https://lists.osgeo.org/mailman/listinfo/gdal-dev, "
+"https://www.osgeo.org/service-providers/"
 
 #: ../../build/doc/overview/gdal_overview.rst:84
 msgid "Quickstart"
-msgstr "Quickstart"
+msgstr "Início Rápido"
 
 #: ../../build/doc/overview/gdal_overview.rst:86
 msgid ":doc:`Quickstart documentation <../quickstart/gdal_quickstart>`"
-msgstr ""
+msgstr ":doc:`Início rápido da documentação <../quickstart/gdal_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -197,7 +201,7 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "Projeto OSGeo"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"

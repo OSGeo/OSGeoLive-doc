@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2024-08-17 19:57+0000\n"
+"PO-Revision-Date: 2024-09-01 23:50+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "gmt_quickstart/es/>\n"
@@ -210,6 +210,7 @@ msgstr "gmt-gshhg"
 #: ../../build/doc/quickstart/gmt_quickstart.rst:127
 msgid "`GMT tutorial <https://docs.generic-mapping-tools.org/latest/tutorial>`"
 msgstr ""
+"`Tutorial de GMT <https://docs.generic-mapping-tools.org/latest/tutorial>`"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:130
 msgid "What next?"
@@ -217,15 +218,15 @@ msgstr "¿Qué sigue?"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:132
 msgid "Documentation: https://docs.generic-mapping-tools.org/latest/"
-msgstr ""
+msgstr "Documentación: https://docs.generic-mapping-tools.org/latest/"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:133
 msgid "Website: https://www.generic-mapping-tools.org"
-msgstr ""
+msgstr "Sitio web: https://www.generic-mapping-tools.org"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:134
 msgid "Support: https://forum.generic-mapping-tools.org/"
-msgstr ""
+msgstr "Soporte: https://forum.generic-mapping-tools.org/"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"

@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2024-08-17 19:57+0000\n"
+"PO-Revision-Date: 2024-09-27 22:36+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "gpsprune_overview/es/>\n"
@@ -171,7 +171,7 @@ msgstr "**Versión de software:** |version-gpsprune|"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:64
 msgid "**Supported Platforms:** GNU/Linux, Mac OSX, Windows"
-msgstr "**Plataformas compatibles:** GNU/Linux, Mac OSX, MS Windows"
+msgstr "**Plataformas compatibles:** GNU/Linux, Mac OSX, Windows"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:70
 msgid "Quickstart"

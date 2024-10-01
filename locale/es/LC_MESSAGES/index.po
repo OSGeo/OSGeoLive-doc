@@ -15,7 +15,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-06-21 20:07+0000\n"
-"PO-Revision-Date: 2024-08-17 19:57+0000\n"
+"PO-Revision-Date: 2024-09-02 00:20+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/index/"
 "es/>\n"
@@ -48,7 +48,7 @@ msgstr ""
 
 #: ../../build/doc/index.rst-1
 msgid "boot select"
-msgstr "boot select"
+msgstr "menú"
 
 #: ../../build/doc/index.rst:17
 msgid ""
