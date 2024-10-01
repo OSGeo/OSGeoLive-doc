@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-06 09:15-0500\n"
-"PO-Revision-Date: 2023-07-31 19:39+0000\n"
+"PO-Revision-Date: 2024-08-20 16:45+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "geostyler_overview/es/>\n"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/geostyler_overview.rst:18
 msgid "GeoStyler"
@@ -139,7 +139,7 @@ msgstr "|FE|"
 
 #: ../../build/doc/overview/geostyler_overview.rst:54
 msgid "Geographic JSON (GeoJSON)"
-msgstr "Geographic JSON (GeoJSON)"
+msgstr "JSON Geográfico (GeoJSON)"
 
 #: ../../build/doc/overview/geostyler_overview.rst:55
 msgid "|OGC|"

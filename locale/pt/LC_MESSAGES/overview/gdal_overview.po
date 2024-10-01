@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-01-29 15:45+0000\n"
+"PO-Revision-Date: 2024-09-27 19:28+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Portuguese <https://weblate.osgeo.org/projects/osgeolive/"
 "gdal_overview/pt/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
 "1000000 == 0) ? 1 : 2);\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/gdal_overview.rst:18
 msgid "GDAL/OGR"
@@ -65,7 +65,7 @@ msgstr ""
 
 #: ../../build/doc/overview/gdal_overview.rstNone
 msgid "gdal screenshot"
-msgstr ""
+msgstr "captura de tela do gdal"
 
 #: ../../build/doc/overview/gdal_overview.rst:43
 msgid "Core Features"
@@ -153,7 +153,7 @@ msgstr "Detalhes"
 
 #: ../../build/doc/overview/gdal_overview.rst:69
 msgid "**Website:** https://gdal.org/"
-msgstr ""
+msgstr "**Website:** https://gdal.org/"
 
 #: ../../build/doc/overview/gdal_overview.rst:71
 msgid ""
@@ -171,7 +171,7 @@ msgstr "**Plataformas suportadas:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/gdal_overview.rst:77
 msgid "**API Interfaces:** C, C++, Python, Java, C#, Ruby, VB6 and Perl"
-msgstr ""
+msgstr "**Interface da API :** C, C++, Python, Java, C#, Ruby, VB6 e Perl"
 
 #: ../../build/doc/overview/gdal_overview.rst:79
 msgid ""

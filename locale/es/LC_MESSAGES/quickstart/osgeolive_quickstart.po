@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2024-08-17 19:57+0000\n"
+"PO-Revision-Date: 2024-09-02 00:20+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "osgeolive_quickstart/es/>\n"
@@ -106,7 +106,7 @@ msgstr "Relájese mientras el sistema arranca."
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:0
 msgid "boot select"
-msgstr "boot select"
+msgstr "menú"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:48
 msgid "Try the many applications from the :menuselection:`Geospatial` menu."

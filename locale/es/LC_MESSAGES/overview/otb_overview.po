@@ -7,20 +7,22 @@
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"PO-Revision-Date: 2024-09-27 22:36+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"otb_overview/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/otb_overview.rst:17
 msgid "OTB"
@@ -146,8 +148,8 @@ msgid ""
 "regression using machine learning methods from OpenCV (SVM, Random Forest, "
 "...)"
 msgstr ""
-"regression using machine learning methods from OpenCV (SVM, Random Forest, "
-"...)"
+"regresión utilizando métodos de aprendizaje automático de OpenCV (SVM, "
+"Bosque aleatorio, ...)"
 
 #: ../../build/doc/overview/otb_overview.rst:63
 msgid "object-based image analysis"
@@ -187,7 +189,7 @@ msgstr "**Versión de software:** |version-otb|"
 
 #: ../../build/doc/overview/otb_overview.rst:78
 msgid "**Supported Platforms:** Linux, Mac, Windows"
-msgstr "**Plataformas compatibles:** GNU/Linux, Mac OSX, MS Windows"
+msgstr "**Plataformas compatibles:** Linux, Mac, Windows"
 
 #: ../../build/doc/overview/otb_overview.rst:80
 msgid "**API Interfaces:** C++"

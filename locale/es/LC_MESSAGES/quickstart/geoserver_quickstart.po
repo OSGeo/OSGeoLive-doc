@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2024-08-17 19:57+0000\n"
+"PO-Revision-Date: 2024-08-20 16:45+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "geoserver_quickstart/es/>\n"
@@ -251,7 +251,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:139
 msgid "You can type epsg:4326 in the box"
-msgstr ""
+msgstr "Puede escribir epsg:4326 en la casilla"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:140
 msgid ""
