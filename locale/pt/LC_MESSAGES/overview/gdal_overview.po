@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-09-27 19:28+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2024-09-27 19:35+0000\n"
+"Last-Translator: Kaue de Moraes Vestena <kauemv2@gmail.com>\n"
 "Language-Team: Portuguese <https://weblate.osgeo.org/projects/osgeolive/"
 "gdal_overview/pt/>\n"
 "Language: pt\n"
@@ -84,8 +84,8 @@ msgid ""
 "Highly efficient raster data access, taking advantage of tiling and "
 "overviews"
 msgstr ""
-"Acesso aos dados raster de modo eficiente, tomando vantagem dos tilings e "
-"pirâmides."
+"Acesso aos dados raster de modo eficiente, fazendo uso vantagem do mecanismo "
+"de tiling e pirâmides."
 
 #: ../../build/doc/overview/gdal_overview.rst:47
 msgid "Support for large files - larger than 4GB"
@@ -123,7 +123,7 @@ msgid ""
 "DTED, NITF, GeoPackage and more ..."
 msgstr ""
 "**Raster:** GeoTIFF, Erdas Imagine, SDTS, ESRI Grids, ECW, MrSID, JPEG2000, "
-"DTED, NITF, GeoPackage and more ..."
+"DTED, NITF, GeoPackage e mais ..."
 
 #: ../../build/doc/overview/gdal_overview.rst:59
 msgid ""
@@ -131,9 +131,9 @@ msgid ""
 "(tab and mid/mif), ESRI Coverages, ESRI Personal Geodatabase, DGN, PostGIS, "
 "Oracle Spatial, and more ..."
 msgstr ""
-"**Vetor:** GeoPackage, ESRI Shapefile, GML, GeoJSON, AutoCAD DWG, MapInfo "
-"(tab and mid/mif), ESRI Coverages, ESRI Personal Geodatabase, DGN, PostGIS, "
-"Oracle Spatial, and more ..."
+"**Vetor:** GeoPackage, ESRI Shapefile, GML, GeoJSON, AutoCAD DWG, MapInfo ("
+"tab and mid/mif), ESRI Coverages, ESRI Personal Geodatabase, DGN, PostGIS, "
+"Oracle Spatial, e mais ..."
 
 #: ../../build/doc/overview/gdal_overview.rst:62
 msgid "Implemented Standards"
@@ -160,10 +160,12 @@ msgid ""
 "**Licence:** `X/MIT style Open Source license "
 "<https://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_"
 msgstr ""
+"**Licença:** ` no estilo X/MIT Open Source <https://trac.osgeo.org/gdal/wiki/"
+"FAQGeneral#WhatlicensedoesGDALOGRuse>`_"
 
 #: ../../build/doc/overview/gdal_overview.rst:73
 msgid "**Software Version:** |version-gdal|"
-msgstr "**Software Version:** |version-gdal|"
+msgstr "**Versão:** |version-gdal|"
 
 #: ../../build/doc/overview/gdal_overview.rst:75
 msgid "**Supported Platforms:** Windows, Linux, Mac"
@@ -178,14 +180,16 @@ msgid ""
 "**Support:** https://lists.osgeo.org/mailman/listinfo/gdal-dev, "
 "https://www.osgeo.org/service-providers/"
 msgstr ""
+"**Suporte e ajuda:** https://lists.osgeo.org/mailman/listinfo/gdal-dev, "
+"https://www.osgeo.org/service-providers/"
 
 #: ../../build/doc/overview/gdal_overview.rst:84
 msgid "Quickstart"
-msgstr "Quickstart"
+msgstr "Início Rápido"
 
 #: ../../build/doc/overview/gdal_overview.rst:86
 msgid ":doc:`Quickstart documentation <../quickstart/gdal_quickstart>`"
-msgstr ""
+msgstr ":doc:`Início rápido da documentação <../quickstart/gdal_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -197,7 +201,7 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "Projeto OSGeo"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
