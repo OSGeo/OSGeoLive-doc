@@ -238,9 +238,6 @@ linkcheck_ignore = [
         'https://www.ntua.gr/en',
         'https://www.ice.ucdavis.edu/',
 
-        # link exists, with strange redirects, but checks fail
-        'https://webchat.freenode.net/',
-
         # Link with certificate problems
         # Used in quickstart/liblas_quickstart
         #'https://epsg.org/home.html',

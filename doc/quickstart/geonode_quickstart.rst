@@ -215,7 +215,7 @@ In order to get started with GeoNode our `documentation <https://docs.geonode.or
 
 If you need help or want to get some information about a specific topic please
 don't hesitate to ask us! You can do this through the #geonode IRC channel using
-https://webchat.freenode.net/, through the `GeoNode Gitter channel <https://app.gitter.im/#/room/#GeoNode_general:gitter.im>`_
+https://web.libera.chat/, through the `GeoNode Gitter channel <https://app.gitter.im/#/room/#GeoNode_general:gitter.im>`_
 or by asking your question in our `mailing list <https://lists.osgeo.org/cgi-bin/mailman/listinfo/geonode-users>`_ !
 
 
