@@ -58,7 +58,7 @@ Details
 
 **Website:** @WEB_mapbender@
 
-**Licence:** `MIT license <https://opensource.org/licenses/MIT>`_
+**Licence:** `MIT license <https://opensource.org/license/MIT>`_
 
 **Software Version:** |version-mapbender|
 

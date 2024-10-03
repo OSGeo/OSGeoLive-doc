@@ -68,7 +68,7 @@ Details
 
 **API Interfaces:** C, Python, Bourne Shell
 
-**Support:** https://grass.osgeo.org/about/community/
+**Support:** https://grass.osgeo.org/support/community/
 
 
 @VMDK_grass@

@@ -80,9 +80,9 @@ Details
 
 **Supported Platforms:** Windows, Linux, Mac, Unix
 
-**Community Support:** https://qgis.org/en/site/forusers/support.html
+**Community Support:** https://qgis.org/resources/support/
 
-**Commercial Support:** https://qgis.org/en/site/forusers/commercial_support.html
+**Commercial Support:** https://qgis.org/resources/support/commercial-support/
 
 
 @VMDK_qgis@

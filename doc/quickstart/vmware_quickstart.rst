@@ -29,11 +29,11 @@ Software
 ----------------
 Download the VM version of OSGeoLive. You will need the 7-zip compression program to unzip this file. And of course the VMWare Player software for running the virtual machine. Note that VMWare Player, while offered as a cost-free download, is not open source. You must register on the VMWare website, and agree to their licence in order to use the software.:
 
-`The OSGeo virtual machine  <http://download.osgeo.org/livedvd/release/5.5/osgeolive-vm-5.5.7z>`_
+`The OSGeo virtual machine  <https://download.osgeo.org/livedvd/releases/5.5/>`_
 
-`7 zip download page <http://www.7-zip.org/download.html>`_
+`7 zip download page <https://7-zip.org/download.html>`_
 
-`VMWare Player registration: <https://www.vmware.com/tryvmware/?p=player&lp=1>`_
+`VMWare: <https://www.vmware.com/>`_
 
 
 Unzip the osgeolive-vm using the command
@@ -49,7 +49,7 @@ Setting up the VM
 ================================================================================
 In order to run the OSGeo virtual machine, we first need to create a virtual machine configuration file **vmx**. The quick way is to browse to:
 
-`EasyVMX web site: <http://www.easyvmx.com/easyvmx.shtml>`_
+`EasyVMX web site: <http://www.easyvmx.com/>`_
 
 Click on the easyvmx button and enter these configuration options in the form:
         - Virtual Machine Name: osgeolive-5.5 (choose same name as the vmdk file)

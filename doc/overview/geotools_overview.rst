@@ -104,12 +104,12 @@ Details
 
 **API Interfaces:** Java
 
-**Support:** `Communication and Support <http://docs.geotools.org/latest/userguide/welcome/support.html>`_
+**Support:** `Communication and Support <https://docs.geotools.org/latest/userguide/welcome/support.html>`_
 
 GeoTools Support
 --------------------------------------------------------------------------------
 
-* `Quickstart documentation <http://docs.geotools.org/latest/userguide/tutorial/quickstart/index.html>`_
+* `Quickstart documentation <https://docs.geotools.org/latest/userguide/tutorial/quickstart/index.html>`_
 
 @VMDK_geotools@
 @QUICKSTART_geotools@

@@ -106,7 +106,7 @@ Details
 
 **Supported Platforms:** Linux, Mac, Windows
 
-**Support:** https://mapproxy.org/support
+**Support:** https://www.mapproxy.org/support
 
 
 @VMDK_mapproxy@

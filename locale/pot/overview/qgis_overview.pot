@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"POT-Creation-Date: 2024-09-26 14:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgstr ""
 msgid "QGIS is a user friendly, Open Source, GIS client where you can visualize, manage, edit, analyse data, and compose printable maps. It includes powerful analytical functionality through integration with :doc:`GRASS <grass_overview>`, :doc:`SAGA <saga_overview>`, :doc:`Orfeo Toolbox <otb_overview>` , :doc:`GDAL/OGR <gdal_overview>` and many other algorithm providers. It runs on Linux, Unix, Mac OSX, and Windows and supports numerous vector, raster and database formats and functionality."
 msgstr ""
 
-#: ../../build/doc/overview/qgis_overview.rst:-1
+#: ../../build/doc/overview/qgis_overview.rst:None
 msgid "qgis screenshot"
 msgstr ""
 
@@ -185,11 +185,11 @@ msgid "**Supported Platforms:** Windows, Linux, Mac, Unix"
 msgstr ""
 
 #: ../../build/doc/overview/qgis_overview.rst:93
-msgid "**Community Support:** https://qgis.org/en/site/forusers/support.html"
+msgid "**Community Support:** https://qgis.org/resources/support/"
 msgstr ""
 
 #: ../../build/doc/overview/qgis_overview.rst:95
-msgid "**Commercial Support:** https://qgis.org/en/site/forusers/commercial_support.html"
+msgid "**Commercial Support:** https://qgis.org/resources/support/commercial-support/"
 msgstr ""
 
 #: ../../build/doc/overview/qgis_overview.rst:101
@@ -212,6 +212,7 @@ msgstr ""
 msgid "OSGeo Project"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""

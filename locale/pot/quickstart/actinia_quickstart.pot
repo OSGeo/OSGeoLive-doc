@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-17 21:19+0000\n"
+"POT-Creation-Date: 2024-09-26 14:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -157,7 +157,7 @@ msgid "16-days NDVI, MOD13C1, V006, CMG 0.05 deg res. (``latlong_wgs84/modis_ndv
 msgstr ""
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:134
-msgid "LST growing degree days asia 2017 (``latlong_wgs84/asia_gdd_2017/``; source: https://www.mundialis.de/en/temperature-data/)"
+msgid "LST growing degree days asia 2017 (``latlong_wgs84/asia_gdd_2017/``; source: https://www.mundialis.de/en/products/surface-temperature-data/)"
 msgstr ""
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:136
@@ -173,11 +173,11 @@ msgid "Europe (EU LAEA CRS, EPSG:3035):"
 msgstr ""
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:142
-msgid "EU DEM 25m V1.1 (``eu_laea/PERMANENT/``; source: https://land.copernicus.eu/imagery-in-situ/eu-dem)"
+msgid "EU DEM 25m V1.1 (``eu_laea/PERMANENT/``; source: https://land.copernicus.eu/en/products/products-that-are-no-longer-disseminated-on-the-clms-website)"
 msgstr ""
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:144
-msgid "CORINE Landcover 2012, g100_clc12_V18_5 (``eu_laea/corine_2012/``; source: https://land.copernicus.eu/pan-european/corine-land-cover/clc-2012)"
+msgid "CORINE Landcover 2012, g100_clc12_V18_5 (``eu_laea/corine_2012/``; source: https://land.copernicus.eu/en/products/corine-land-cover/clc-2012)"
 msgstr ""
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:148
@@ -344,7 +344,7 @@ msgid "actinia tutorial: `https://neteler.gitlab.io/actinia-introduction <https:
 msgstr ""
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:482
-msgid "Further reading: Neteler, M., Gebbert, S., Tawalika, C., Bettge, A., Benelcadi, H., Löw, F., Adams, T, Paulsen, H. (2019). Actinia: cloud based geoprocessing. In Proc. of the 2019 conference on Big Data from Space (BiDS'2019) (pp. 41-44). EUR 29660 EN, Publications Office of the European Union 5, Luxembourg: P. Soille, S. Loekken, and S. Albani (Eds.). (`DOI <https://zenodo.org/record/2631917>`__)"
+msgid "Further reading: Neteler, M., Gebbert, S., Tawalika, C., Bettge, A., Benelcadi, H., Löw, F., Adams, T, Paulsen, H. (2019). Actinia: cloud based geoprocessing. In Proc. of the 2019 conference on Big Data from Space (BiDS'2019) (pp. 41-44). EUR 29660 EN, Publications Office of the European Union 5, Luxembourg: P. Soille, S. Loekken, and S. Albani (Eds.). (`DOI <https://doi.org/10.5281/zenodo.2631917>`__)"
 msgstr ""
 
 #: ../../build/doc/<rst_epilog>:13

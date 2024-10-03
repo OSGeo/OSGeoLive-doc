@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-01 23:33+0000\n"
+"POT-Creation-Date: 2024-09-26 14:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -260,7 +260,7 @@ msgstr ""
 #: ../../build/doc/overview/geotools_overview.rst:117
 msgid ""
 "**Support:** `Communication and Support "
-"<http://docs.geotools.org/latest/userguide/welcome/support.html>`_"
+"<https://docs.geotools.org/latest/userguide/welcome/support.html>`_"
 msgstr ""
 
 #: ../../build/doc/overview/geotools_overview.rst:120
@@ -270,7 +270,7 @@ msgstr ""
 #: ../../build/doc/overview/geotools_overview.rst:122
 msgid ""
 "`Quickstart documentation "
-"<http://docs.geotools.org/latest/userguide/tutorial/quickstart/index.html>`_"
+"<https://docs.geotools.org/latest/userguide/tutorial/quickstart/index.html>`_"
 msgstr ""
 
 #: ../../build/doc/<rst_epilog>:13

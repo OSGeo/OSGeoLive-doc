@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"POT-Creation-Date: 2024-09-26 14:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,7 +36,7 @@ msgstr ""
 msgid "Start exploring the world. View clouds and sun shadow, follow satellites and space stations and display their orbits, all updated in real-time. Travel back in time and learn about historic views of our planet using maps from past centuries. Earth is not enough? Marble also offers maps of the moon and other planets."
 msgstr ""
 
-#: ../../build/doc/overview/marble_overview.rst:-1
+#: ../../build/doc/overview/marble_overview.rst:None
 msgid "marble screenshot"
 msgstr ""
 
@@ -133,7 +133,7 @@ msgid "**Support:** https://techbase.kde.org/Projects/Marble"
 msgstr ""
 
 #: ../../build/doc/overview/marble_overview.rst:82
-msgid "**More Info:** https://www.slideshare.net/marbleglobe/marble-1-6en"
+msgid "**More Info:** https://www.slideshare.net/slideshow/marble-1-6en/26862346"
 msgstr ""
 
 #: ../../build/doc/overview/marble_overview.rst:88
@@ -156,6 +156,7 @@ msgstr ""
 msgid "OSGeo Project"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""

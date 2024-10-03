@@ -244,7 +244,8 @@ Here we reproject to the Ortho projection.
 Note how the poles are clipped?  This is because the edges at the pole
 can't be reprojected gdalwarp does not read all the data.  We can force
 gdalwarp to read a bunch of surplus data around chunks as one way to
-resolve this. Read more about this in the RasterTutorial https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial.
+resolve this. Read more about this in the
+`Raster Tutorial <http://web.archive.org/web/20240812222113/https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial>`__.
 
 
 
@@ -453,7 +454,7 @@ GDAL Project home
 
 GDAL Raster Tutorial
 
-  https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial
+  https://gdal.org/en/latest/tutorials/raster_api_tut.html
 
 GDAL Workshop
 

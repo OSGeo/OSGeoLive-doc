@@ -71,7 +71,7 @@ msgstr ""
 #: ../../build/doc/overview/actinia_overview.rst:42
 msgid "Explore the `tutorial <https://actinia-org.github.io/actinia-core/>`_."
 msgstr ""
-"Fedezze fel az `oktatóanyagot <https://mundialis.github.io/actinia_core/>`_."
+"Fedezze fel az `oktatóanyagot <https://actinia-org.github.io/actinia-core/>`_."
 
 #: ../../build/doc/overview/actinia_overview.rst:45
 msgid "Details"

@@ -51,7 +51,7 @@ Details
 
 **Supported Platforms:** Windows, Linux
 
-**Commercial Support:** https://www.qgis.org/en/site/forusers/commercial_support.html
+**Commercial Support:** https://www.qgis.org/resources/support/commercial-support/
 
 
 @VMDK_qgis_mapserver@

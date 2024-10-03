@@ -41,7 +41,7 @@ Implemented Standards
 --------------------------------------------------------------------------------
 
 PROJ uses coordinate system definitions defined by the
-`European Petroleum Survey Group (EPSG) <https://www.epsg.org/>`_.
+`European Petroleum Survey Group (EPSG) <https://epsg.org/>`_.
 Well Known Text (WKT) format.
 
 

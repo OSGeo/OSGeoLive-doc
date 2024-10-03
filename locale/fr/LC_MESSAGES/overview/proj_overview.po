@@ -129,10 +129,10 @@ msgstr "Standards implémentés"
 #: ../../build/doc/overview/proj_overview.rst:53
 msgid ""
 "PROJ uses coordinate system definitions defined by the `European Petroleum "
-"Survey Group (EPSG) <https://www.epsg.org/>`_. Well Known Text (WKT) format."
+"Survey Group (EPSG) <https://epsg.org/>`_. Well Known Text (WKT) format."
 msgstr ""
 "PROJ utilise les définitions de système de coordonnées définies par le "
-"`European Petroleum Survey Group (EPSG) <https://www.epsg.org/>` au format "
+"`European Petroleum Survey Group (EPSG) <https://epsg.org/>` au format "
 "WKT (Well Known Text)."
 
 #: ../../build/doc/overview/proj_overview.rst:59

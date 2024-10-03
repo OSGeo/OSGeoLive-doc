@@ -28,7 +28,7 @@ GeoNetwork is a catalog application to manage spatially referenced resources. It
 Prerequisites
 =============
 
-GeoNetwork can directly be started from the OSGeo Live start menu and will be available at http://localhost:8080/geonetwork some moments later. Check the `Installation Guide <https://geonetwork-opensource.org/manuals/trunk/en/install-guide/index.html>`__ if you are using GeoNetwork in some other context.
+GeoNetwork can directly be started from the OSGeo Live start menu and will be available at http://localhost:8080/geonetwork some moments later. Check the `Installation Guide <https://docs.geonetwork-opensource.org/3.12/install-guide/>`__ if you are using GeoNetwork in some other context.
 
 Throughout this guide we will use the URL ``http://localhost:8880/geonetwork`` to refer to the catalog, please substitute a different URL if this is not correct for your system.
 
@@ -212,7 +212,7 @@ Select a feature on the map corresponding to a category in the legend, such as a
 What next?
 ==========
 
-Visit the `Geonetwork User Guide <https://geonetwork-opensource.org/manuals/trunk/en/user-guide/index.html>`_ and try the chapter on **Describing Information**, to learn how to create and edit metadata records.
+Visit the `Geonetwork User Guide <https://docs.geonetwork-opensource.org/3.12/user-guide/>`_ and try the chapter on **Describing Information**, to learn how to create and edit metadata records.
 
 Follow up by visiting subsequent chapters to learn how to associate resources with your metadata, tag it with keywords and add it to categories, and publish your metadata to the outside world.
 

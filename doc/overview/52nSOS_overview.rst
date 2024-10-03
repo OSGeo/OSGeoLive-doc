@@ -143,7 +143,7 @@ Details
 
 **Community Support:** https://list.52north.org/mailman/listinfo/sensorweb
 
-**Community Website:** https://52north.org/research/scope/geospatial-sensing/
+**Community Website:** https://52north.org/research/scope/research-data-infrastructures/
 
 @VMDK_52nSOS@
 @QUICKSTART_52nSOS@

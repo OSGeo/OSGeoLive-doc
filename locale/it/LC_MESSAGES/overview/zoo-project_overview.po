@@ -186,8 +186,8 @@ msgid "Details"
 msgstr "Dettagli"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:84
-msgid "**Website:** http://zoo-project.org/"
-msgstr "**Sito web:** http://zoo-project.org/"
+msgid "**Website:** https://zoo-project.org/"
+msgstr "**Sito web:** https://zoo-project.org/"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:86
 msgid "**Licence:** MIT x/11"
@@ -210,8 +210,8 @@ msgstr ""
 "Javascript, C#, Ruby"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:94
-msgid "**Support:** http://zoo-project.org/"
-msgstr "**Supporto:** http://zoo-project.org/"
+msgid "**Support:** https://zoo-project.org/"
+msgstr "**Supporto:** https://zoo-project.org/"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:100
 msgid "Quickstart"
