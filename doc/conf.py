@@ -238,11 +238,6 @@ linkcheck_ignore = [
         'https://www.ntua.gr/en',
         'https://www.ice.ucdavis.edu/',
 
-        # Link with certificate problems
-        # Used in quickstart/liblas_quickstart
-        #'https://epsg.org/home.html',
-        'https://www.epsg.org/',
-
         # Link to the presentation
         r'presentation.html',
 
