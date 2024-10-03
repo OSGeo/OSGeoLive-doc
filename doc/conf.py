@@ -241,10 +241,10 @@ linkcheck_ignore = [
         # Link to the presentation
         r'presentation.html',
 
-        # Ignore all Stack Overflow links
+        # Ignore Stack Overflow links
         # as they return 429 Client Error: Too Many Requests for url
         # due to rate limiting
-        r'https://stackoverflow\.com/.*'
+        r'https://stackoverflow'
         ]
 
 linkcheck_anchors = False
