@@ -42,7 +42,7 @@ Start Mapbender
 ================================================================================
 
 #. Choose |menu_mapbender| from the start menu or visit
-   http://localhost/mapbender/app.php. The application will take a few moments
+   http://localhost/mapbender/. The application will take a few moments
    to start up
 
    If you have any difficulties running Mapbender, please check whether your
