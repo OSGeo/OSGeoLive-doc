@@ -218,7 +218,7 @@ msgid "Details"
 msgstr "Détails"
 
 #: ../../build/doc/overview/qgis_overview.rst:85
-msgid "**Website:** https://www.qgis.org/en/site/"
+msgid "**Website:** https://www.qgis.org/"
 msgstr "**Site Internet:** https://www.qgis.org/fr/site/"
 
 #: ../../build/doc/overview/qgis_overview.rst:87
@@ -241,10 +241,10 @@ msgstr ""
 #: ../../build/doc/overview/qgis_overview.rst:95
 msgid ""
 "**Commercial Support:** "
-"https://qgis.org/en/site/forusers/commercial_support.html"
+"https://qgis.org/en/site/resources/support/commercial-support"
 msgstr ""
 "**Support commercial:** "
-"https://qgis.org/en/site/forusers/commercial_support.html"
+"https://qgis.org/en/site/resources/support/commercial-support"
 
 #: ../../build/doc/overview/qgis_overview.rst:101
 msgid "Quickstart"

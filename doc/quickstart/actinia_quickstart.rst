@@ -473,4 +473,4 @@ What next?
 
 * Visit the actinia website at `https://actinia.mundialis.de <https://actinia.mundialis.de>`_
 * actinia tutorial: `https://neteler.gitlab.io/actinia-introduction <https://neteler.gitlab.io/actinia-introduction>`_
-* Further reading: Neteler, M., Gebbert, S., Tawalika, C., Bettge, A., Benelcadi, H., Löw, F., Adams, T, Paulsen, H. (2019). Actinia: cloud based geoprocessing. In Proc. of the 2019 conference on Big Data from Space (BiDS'2019) (pp. 41-44). EUR 29660 EN, Publications Office of the European Union 5, Luxembourg: P. Soille, S. Loekken, and S. Albani (Eds.). (`DOI <https://doi.org/10.5281/zenodo.2631917>`__)
+* Further reading: Neteler, M., Gebbert, S., Tawalika, C., Bettge, A., Benelcadi, H., Löw, F., Adams, T, Paulsen, H. (2019). Actinia: cloud based geoprocessing. In Proc. of the 2019 conference on Big Data from Space (BiDS'2019) (pp. 41-44). EUR 29660 EN, Publications Office of the European Union 5, Luxembourg: P. Soille, S. Loekken, and S. Albani (Eds.). (`DOI <https://zenodo.org/records/2631917>`__)

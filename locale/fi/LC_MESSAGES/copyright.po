@@ -301,9 +301,9 @@ msgid "cartaro_overview"
 msgstr "cartaro_overview"
 
 #: ../../build/licenses.csv:1
-#, fuzzy
 msgid "Friedjoff Trautwein, https://geops.com; Patric Hafner, https://geops.com"
-msgstr "Friedjoff Trautwein, https://geops.de; Patric Hafner, https://geops.de"
+msgstr ""
+"Friedjoff Trautwein, https://geops.com; Patric Hafner, https://geops.com"
 
 #: ../../build/licenses.csv:1
 msgid "Cameron Shorter, https://www.jirotech.com"
@@ -834,13 +834,12 @@ msgid "cartaro_quickstart"
 msgstr "cartaro_quickstart"
 
 #: ../../build/licenses.csv:1
-#, fuzzy
 msgid ""
 "Friedjoff Trautwein (https://geops.com); Augustus Kling "
 "(https://geops.com); Patric Hafner (https://geops.com)"
 msgstr ""
-"Friedjoff Trautwein (https://geops.de); Augustus Kling "
-"(https://geops.de); Patric Hafner (https://geops.de)"
+"Friedjoff Trautwein (https://geops.com); Augustus Kling (https://geops.com); "
+"Patric Hafner (https://geops.com)"
 
 #: ../../build/licenses.csv:1
 msgid "cesium_quickstart"
@@ -1305,6 +1304,8 @@ msgid ""
 "`NASA OPEN SOURCE AGREEMENT VERSION 1.3 "
 "<https://opensource.org/license/nasa1-3-php>`__"
 msgstr ""
+"`NASA OPEN SOURCE AGREEMENT VERSION 1.3 <https://opensource.org/license/"
+"nasa1-3-php>`__"
 
 #: ../../build/licenses.csv:1
 msgid "worldwindjava_quickstart"
@@ -1357,11 +1358,11 @@ msgstr ""
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"

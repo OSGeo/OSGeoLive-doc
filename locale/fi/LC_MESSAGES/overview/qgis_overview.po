@@ -221,8 +221,8 @@ msgid "Details"
 msgstr "Lisätiedot."
 
 #: ../../build/doc/overview/qgis_overview.rst:85
-msgid "**Website:** https://www.qgis.org/en/site/"
-msgstr "**Verkkosivusto:** https://www.qgis.org/en/site/"
+msgid "**Website:** https://www.qgis.org/"
+msgstr "**Verkkosivusto:** https://www.qgis.org/"
 
 #: ../../build/doc/overview/qgis_overview.rst:87
 msgid "**Licence:** GNU General Public License (GPL) version 2"
@@ -243,10 +243,10 @@ msgstr "**Yhteisön tuki:** https://qgis.org/en/site/forusers/support.html"
 #: ../../build/doc/overview/qgis_overview.rst:95
 msgid ""
 "**Commercial Support:** "
-"https://qgis.org/en/site/forusers/commercial_support.html"
+"https://qgis.org/en/site/resources/support/commercial-support"
 msgstr ""
 "**Kaupallinen tuki:** "
-"https://qgis.org/en/site/forusers/commercial_support.html"
+"https://qgis.org/en/site/resources/support/commercial-support"
 
 #: ../../build/doc/overview/qgis_overview.rst:101
 msgid "Quickstart"

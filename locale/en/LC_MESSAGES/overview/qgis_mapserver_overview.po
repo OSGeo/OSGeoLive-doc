@@ -100,7 +100,7 @@ msgid "Details"
 msgstr ""
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:53
-msgid "**Website:** https://www.qgis.org/en/site/"
+msgid "**Website:** https://www.qgis.org/"
 msgstr ""
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:55
