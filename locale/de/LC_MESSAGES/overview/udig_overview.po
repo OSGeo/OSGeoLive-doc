@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-03 09:57+0000\n"
-"PO-Revision-Date: 2023-03-29 19:22+0000\n"
-"Last-Translator: Astrid Emde <astrid.emde@posteo.de>\n"
+"PO-Revision-Date: 2024-10-14 15:25+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
 "udig_overview/de/>\n"
 "Language: de\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/udig_overview.rst:15
 msgid "uDig"
@@ -111,7 +111,7 @@ msgstr ""
 
 #: ../../build/doc/overview/udig_overview.rst:43
 msgid "Work with local files: Shapefile, jpeg, png, tiff and more."
-msgstr "Arbeit mit lokalen Dateien: shp, jpeg, png, tiff und mehr"
+msgstr "Arbeit mit lokalen Dateien: shp, jpeg, png, tiff und mehr."
 
 #: ../../build/doc/overview/udig_overview.rst:44
 msgid "Work with advanced spatial raster formats: ECW, MrSID, JPEG 2000"
@@ -165,7 +165,7 @@ msgid ""
 "Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_"
 msgstr ""
 "Java-Application mit Hilfe von :doc:`GeoTools <geotools_overview>`, `JTS "
-"Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_ "
+"Topology Suite (JTS) <https://sourceforge.net/projects/jts-topo-suite/>`_"
 
 #: ../../build/doc/overview/udig_overview.rst:56
 msgid ""

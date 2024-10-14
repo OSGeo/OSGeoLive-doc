@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:44-0600\n"
-"PO-Revision-Date: 2024-10-01 09:17+0000\n"
+"PO-Revision-Date: 2024-10-14 13:51+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Portuguese <https://weblate.osgeo.org/projects/osgeolive/"
 "presentation/pt/>\n"
@@ -338,7 +338,7 @@ msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:352
 msgid "Browser Facing GIS"
-msgstr "GIS para Browsers"
+msgstr "GIS voltado para navegador"
 
 #: ../../build/presentation/revealjs/presentation.rst:357
 msgid "|geomoose_logo|"
@@ -454,7 +454,7 @@ msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:476
 msgid "Web Services"
-msgstr "Web Services"
+msgstr "Serviços Web"
 
 #: ../../build/presentation/revealjs/presentation.rst:481
 msgid "|deegree_logo|"

@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-17 21:23+0000\n"
-"PO-Revision-Date: 2024-09-27 19:35+0000\n"
-"Last-Translator: Kaue de Moraes Vestena <kauemv2@gmail.com>\n"
+"PO-Revision-Date: 2024-10-14 13:51+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Portuguese <https://weblate.osgeo.org/projects/osgeolive/"
 "52nsos_overview/pt/>\n"
 "Language: pt\n"
@@ -154,7 +154,7 @@ msgstr "Operações SOS"
 
 #: ../../build/doc/overview/52nSOS_overview.rst:88
 msgid "**Queries**:"
-msgstr "**Queries**:"
+msgstr "**Consultas**:"
 
 #: ../../build/doc/overview/52nSOS_overview.rst:90
 msgid "GetCapabilities: for requesting a self-description of the service."
@@ -306,7 +306,7 @@ msgstr ""
 
 #: ../../build/doc/overview/52nSOS_overview.rst:137
 msgid "**Licence:** GNU General Public License (GPL) version 2"
-msgstr "**Licence:** GNU General Public License (GPL) version 2"
+msgstr "**Licença:** GNU General Public License (GPL) version 2"
 
 #: ../../build/doc/overview/52nSOS_overview.rst:139
 msgid "**Software Version:** |version-52nSOS|"

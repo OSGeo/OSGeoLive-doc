@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-20 21:55-0500\n"
-"PO-Revision-Date: 2023-03-29 19:22+0000\n"
-"Last-Translator: Astrid Emde <astrid.emde@posteo.de>\n"
+"PO-Revision-Date: 2024-10-14 15:25+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
 "geostyler_quickstart/de/>\n"
 "Language: de\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:16
 msgid "GeoStyler Quickstart"
@@ -196,7 +196,7 @@ msgstr "Was kommt als Nächstes?"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:211
 msgid "Check out these other resources about this application."
-msgstr "Weitere GeoStyler Informationen finden Sie hier:"
+msgstr "Weitere GeoStyler Informationen finden Sie hier."
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:213
 msgid ""

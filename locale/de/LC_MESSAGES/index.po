@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-06 09:15-0500\n"
-"PO-Revision-Date: 2023-03-29 19:22+0000\n"
-"Last-Translator: Astrid Emde <astrid.emde@posteo.de>\n"
+"PO-Revision-Date: 2024-10-14 15:25+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/index/de/"
 ">\n"
 "Language: de\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/index.rst:3
 msgid "Welcome to |osgeolive-version|"
@@ -72,7 +72,7 @@ msgstr ""
 
 #: ../../build/doc/index.rst:28
 msgid "Reboot computer. (verify boot device order if necessary)"
-msgstr "Computer neu starten (Achten Sie auf die Boot-Reihenfolge)."
+msgstr "Computer neu starten (Achten Sie auf die Boot-Reihenfolge)"
 
 #: ../../build/doc/index.rst:29
 msgid "Press \"Enter\" to startup & login."
@@ -108,9 +108,9 @@ msgid ""
 "A half hour `presentation <presentation.html>`__, highlighting all "
 "OSGeoLive applications, is available with slides, script"
 msgstr ""
-"Eine halbstündige `Präsentation <presentation.html>`__,  mit Erläuterungen zu"
-" allen OSGeoLive Programmen ist als Folien mit Manuskript und Einführung "
-"verfügbar."
+"Eine halbstündige `Präsentation <presentation.html>`__, mit Erläuterungen zu "
+"allen OSGeoLive Programmen ist als Folien mit Manuskript und Einführung "
+"verfügbar"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"

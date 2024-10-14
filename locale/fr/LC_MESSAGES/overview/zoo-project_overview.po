@@ -7,20 +7,22 @@
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2017
 # Nicolas Roelandt (Personnel), 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2022\n"
-"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
+"PO-Revision-Date: 2024-10-14 14:30+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: French <https://weblate.osgeo.org/projects/osgeolive/"
+"zoo-project_overview/fr/>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:16
 msgid "Zoo Project"
@@ -70,9 +72,8 @@ msgid ""
 "*ZOO Kernel* : A powerful server-side C Kernel which makes it possible to "
 "manage and chain Web services coded in different programming languages."
 msgstr ""
-"*Kernel ZOO* : Un noyau côté serveur en C qui rend possible le fait de gérer"
-" et chaîner des webservices codés dans différents langages de programmation."
-" "
+"*Kernel ZOO* : Un noyau côté serveur en C qui rend possible le fait de gérer "
+"et chaîner des webservices codés dans différents langages de programmation."
 
 #: ../../build/doc/overview/zoo-project_overview.rst:34
 msgid ""

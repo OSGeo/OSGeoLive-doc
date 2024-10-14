@@ -17,8 +17,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-27 11:42+0000\n"
-"PO-Revision-Date: 2023-07-03 08:33+0000\n"
-"Last-Translator: Ester Scheck <ester.scheck@tuwien.ac.at>\n"
+"PO-Revision-Date: 2024-10-14 15:25+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
 "deegree_overview/de/>\n"
 "Language: de\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/deegree_overview.rst:21
 msgid "deegree"
@@ -149,7 +149,7 @@ msgid ""
 "Shapefiles or GML instance documents"
 msgstr ""
 "Unterstützt eine Vielzahl von Datenquellen, wie beispielsweise PostGIS, "
-"Oracle Spatial, MS SQL Server, Shapefile oder GML-Dokumente."
+"Oracle Spatial, MS SQL Server, Shapefile oder GML-Dokumente"
 
 #: ../../build/doc/overview/deegree_overview.rst:61
 msgid "**WMS**"
@@ -222,7 +222,7 @@ msgstr ""
 
 #: ../../build/doc/overview/deegree_overview.rst:75
 msgid "Can render rich data models directly"
-msgstr "Rich-data-models können direkt angezeigt werden."
+msgstr "Rich-data-models können direkt angezeigt werden"
 
 #: ../../build/doc/overview/deegree_overview.rst:77
 msgid "**WMTS**"
@@ -274,7 +274,7 @@ msgid ""
 " backends"
 msgstr ""
 "Erweiterbare und modulare Data-Access-Layer ermöglichen die Unterstützung "
-"von neuen APs und Backends."
+"von neuen APs und Backends"
 
 #: ../../build/doc/overview/deegree_overview.rst:94
 msgid ""

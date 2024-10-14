@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2023-03-29 19:22+0000\n"
-"Last-Translator: Astrid Emde <astrid.emde@posteo.de>\n"
+"PO-Revision-Date: 2024-10-14 15:25+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
 "nc_dataset_overview/de/>\n"
 "Language: de\n"
@@ -22,11 +22,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:14
 msgid "North Carolina USA Educational dataset"
-msgstr "North Carolina, USA Schulungsdatensatz "
+msgstr "North Carolina, USA Schulungsdatensatz"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:17
 msgid "Map Data"
@@ -59,7 +59,7 @@ msgstr "Zur Verfügung gestellt werden drei hierarchische Ebenen:"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:27
 msgid "entire NC state with raster data at 500m resolution;"
-msgstr "Rasterdaten mit einer Auflösung von 500m des kompletten Staates NC"
+msgstr "Rasterdaten mit einer Auflösung von 500m des kompletten Staates NC;"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:29
 msgid "South-west Wake County with raster data at resolutions 30m-10m; and"

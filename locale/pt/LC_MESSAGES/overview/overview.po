@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-09-27 22:36+0000\n"
-"Last-Translator: Kaue de Moraes Vestena <kauemv2@gmail.com>\n"
+"PO-Revision-Date: 2024-10-14 13:51+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Portuguese <https://weblate.osgeo.org/projects/osgeolive/"
 "overview/pt/>\n"
 "Language: pt\n"
@@ -159,7 +159,7 @@ msgstr ""
 
 #: ../../build/doc/overview/overview.rst:53
 msgid "Browser Facing GIS"
-msgstr "GIS para Browsers"
+msgstr "GIS voltado para navegador"
 
 #: ../../build/doc/overview/overview.rst:55
 msgid "General GIS viewing, editing and analysis in the browser"
@@ -232,7 +232,7 @@ msgstr ""
 
 #: ../../build/doc/overview/overview.rst:95
 msgid "Web Services"
-msgstr "Web Services"
+msgstr "Serviços Web"
 
 #: ../../build/doc/overview/overview.rst:97
 msgid "Publishing spatial data to the internet"

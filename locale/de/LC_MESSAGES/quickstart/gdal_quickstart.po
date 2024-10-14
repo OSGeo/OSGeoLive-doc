@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2023-04-05 04:45+0000\n"
-"Last-Translator: Astrid Emde <astrid.emde@posteo.de>\n"
+"PO-Revision-Date: 2024-10-14 15:25+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
 "gdal_quickstart/de/>\n"
 "Language: de\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:21
 msgid "GDAL/OGR Quickstart"
@@ -165,7 +165,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:118
 msgid "Each format reports if it is"
-msgstr "Zu jedem Format wird ausgegeben, welche Operationen verfügbar sind:"
+msgstr "Zu jedem Format wird ausgegeben, welche Operationen verfügbar sind"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:116
 msgid "read only (ro),"
@@ -200,7 +200,7 @@ msgid ""
 msgstr ""
 "Formatumwandlungen erfolgen mit gdal_translate. Das Standardausgabeformat "
 "ist GeoTIFF. Über die Angabe `-of` kann ein Ausgabeformat angegeben werden. "
-"Über `-co` können weitere Optionen für die Erzeugung gesetzt werden."
+"Über `-co` können weitere Optionen für die Erzeugung gesetzt werden:"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:143
 msgid "The `-ot` switch can be used to alter the output data type."
@@ -268,7 +268,7 @@ msgid ""
 "more about ogrinfo later in this tutorial)"
 msgstr ""
 "Schauen Sie sich Ihre Ausgabe-Shapedatei mit QGIS und ogrinfo an (später "
-"werden Sie noch mehr über ogrinfo erfahren)."
+"werden Sie noch mehr über ogrinfo erfahren)"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:217
 msgid "Reprojecting"
@@ -302,7 +302,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:240
 msgid "Here we reproject to the Ortho projection."
-msgstr "Nun projizieren wir in die Orthoprojektion. "
+msgstr "Nun projizieren wir in die Orthoprojektion."
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:250
 msgid ""
@@ -329,7 +329,7 @@ msgid ""
 msgstr ""
 "gdal_merge.py ist ein Python Skript, das für einfache Zusammenfassungen "
 "verwendet werden kann. Fassen Sie die Dateien east.tif und west.tif in eine "
-"Datei zusammen."
+"Datei zusammen:"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:268
 msgid ""

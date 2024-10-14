@@ -6,20 +6,21 @@
 # Translators:
 # Santtu Pyykkönen, 2019
 # Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2022
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2022\n"
+"PO-Revision-Date: 2024-10-14 14:30+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Finnish <https://weblate.osgeo.org/projects/osgeolive/"
+"eoxserver_quickstart/fi/>\n"
 "Language: fi\n"
-"Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:19
@@ -39,7 +40,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:30
 msgid "This Quick Start describes how to:"
-msgstr "Tässä Pika-aloituksessa kuvataan, miten:"
+msgstr "Tässä Pika-aloitusnäytössä kuvataan, miten:"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:32
 msgid "Use the Web Client to view, filter, subset, and download EO data"
@@ -245,4 +246,3 @@ msgstr ""
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr ""
-

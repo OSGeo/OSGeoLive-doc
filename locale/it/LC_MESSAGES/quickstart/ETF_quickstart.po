@@ -10,20 +10,22 @@
 # Luca Delucchi <lucadeluge@gmail.com>, 2022
 # Marco Minghini <marco.minghini86@gmail.com>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-04 10:12+0000\n"
-"PO-Revision-Date: 2022-07-20 18:57+0000\n"
-"Last-Translator: Marco Minghini <marco.minghini86@gmail.com>, 2022\n"
-"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
+"PO-Revision-Date: 2024-10-14 13:51+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Italian <https://weblate.osgeo.org/projects/osgeolive/"
+"etf_quickstart/it/>\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: it\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:19
 msgid "ETF Quickstart"
@@ -393,7 +395,7 @@ msgid ""
 "then changes automatically to the *Monitor Test Run* view."
 msgstr ""
 "Il test si può finalmente lanciare cliccando il pulsante *Start*. La vista "
-"passa automaticamente alla finestra  *Monitor Test Run*."
+"passa automaticamente alla finestra *Monitor Test Run*."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:196
 msgid "Monitor test runs"
@@ -517,8 +519,8 @@ msgid ""
 "The *Level of detail* switch is used to show more or less information in the"
 " reports."
 msgstr ""
-"Si può utilizzare il pulsante di switch *Level of detail*  per mostrare più "
-"o meno informazioni nei report."
+"Si può utilizzare il pulsante di switch *Level of detail* per mostrare più o "
+"meno informazioni nei report."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:256
 msgid ""

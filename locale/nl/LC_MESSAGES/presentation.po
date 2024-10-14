@@ -6,20 +6,21 @@
 # Translators:
 # Celine Vilain, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:44-0600\n"
-"PO-Revision-Date: 2017-09-20 16:02+0000\n"
-"Last-Translator: Celine Vilain, 2022\n"
-"Language-Team: Dutch (https://app.transifex.com/osgeo/teams/66156/nl/)\n"
+"PO-Revision-Date: 2024-10-14 14:30+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Dutch <https://weblate.osgeo.org/projects/osgeolive/"
+"presentation/nl/>\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: nl\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/presentation/revealjs/presentation.rst:7
 msgid "OSGeoLive"
@@ -216,7 +217,7 @@ msgstr "OsGeo"
 #: ../../build/presentation/revealjs/presentation.rst:211
 msgid "Non Profit for geospatial community, fostering"
 msgstr ""
-"Non-profitorganisatie voor de geospatiale community, dat zich inzet voor:"
+"Non-profitorganisatie voor de geospatiale community, dat zich inzet voor"
 
 #: ../../build/presentation/revealjs/presentation.rst:213
 msgid "Free and Open Source Software"

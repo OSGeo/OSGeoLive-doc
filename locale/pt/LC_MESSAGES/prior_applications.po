@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-01 09:17+0000\n"
+"PO-Revision-Date: 2024-10-14 13:51+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Portuguese <https://weblate.osgeo.org/projects/osgeolive/"
 "prior_applications/pt/>\n"
@@ -199,11 +199,11 @@ msgstr "TinyOWS_"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "`QuickStart <TinyOWS_q_>`__"
-msgstr "`QuickStart <TinyOWS_q_>`__"
+msgstr "`Início rápido <TinyOWS_q_>`__"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "WFS-T Service"
-msgstr "WFS-T Service"
+msgstr "Serviço WFS-T"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "osgEarth_"
@@ -235,7 +235,7 @@ msgstr "`QuickStart <WorldWind Java_q_>`__"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "Desktop Virtual Globe"
-msgstr "Desktop Virtual Globe"
+msgstr "Globo Virtual de Desktop"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "Iris_"
@@ -255,7 +255,7 @@ msgstr "GeoKettle_"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "`QuickStart <GeoKettle_q_>`__"
-msgstr "`QuickStart <GeoKettle_q_>`__"
+msgstr "`Início rápido <GeoKettle_q_>`__"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "ETL (Extract, Transform and Load) Tool"
@@ -267,7 +267,7 @@ msgstr "Sahana_"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "`QuickStart <Sahana_q_>`__"
-msgstr "`QuickStart <Sahana_q_>`__"
+msgstr "`Início rápido <Sahana_q_>`__"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "Disaster management"
@@ -279,7 +279,7 @@ msgstr "`MB System`_"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "`QuickStart <MB System_q_>`__"
-msgstr "`QuickStart <MB System_q_>`__"
+msgstr "`Início rápido <MB System_q_>`__"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "Sea Floor Mapping"
@@ -291,7 +291,7 @@ msgstr "Cartaro_"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "`QuickStart <Cartaro_q_>`__"
-msgstr "`QuickStart <Cartaro_q_>`__"
+msgstr "`Início rápido <Cartaro_q_>`__"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "10.0"
@@ -307,7 +307,7 @@ msgstr "TileMill_"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "`QuickStart <TileMill_q_>`__"
-msgstr "`QuickStart <TileMill_q_>`__"
+msgstr "`Início rápido <TileMill_q_>`__"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "9.5"
@@ -315,7 +315,7 @@ msgstr "9.5"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "Styling and Publishing"
-msgstr "Styling and Publishing"
+msgstr "Estilização e publicação"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "GpsDrive_"
@@ -323,7 +323,7 @@ msgstr "GpsDrive_"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "`QuickStart <GpsDrive_q_>`__"
-msgstr "`QuickStart <GpsDrive_q_>`__"
+msgstr "`Início rápido <GpsDrive_q_>`__"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "9.0"
@@ -339,7 +339,7 @@ msgstr "`Map Window`_"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "`QuickStart <Map Window_q_>`__"
-msgstr "`QuickStart <Map Window_q_>`__"
+msgstr "`Início rápido <Map Window_q_>`__"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "8.0"
@@ -355,7 +355,7 @@ msgstr "MapFish_"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "`QuickStart <MapFish_q_>`__"
-msgstr "`QuickStart <MapFish_q_>`__"
+msgstr "`Início rápido <MapFish_q_>`__"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "7.9"
@@ -363,7 +363,7 @@ msgstr "7.9"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "Web Mapping Framework"
-msgstr "Web Mapping Framework"
+msgstr "Estrutura de mapeamento da Web"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "52NorthWSS_"
@@ -371,7 +371,7 @@ msgstr "52NorthWSS_"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "`QuickStart <52NorthWSS_>`__"
-msgstr "`QuickStart <52NorthWSS_>`__"
+msgstr "`Início rápido <52NorthWSS_>`__"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "6.5"
@@ -379,7 +379,7 @@ msgstr "6.5"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "Web Security Service"
-msgstr "Web Security Service"
+msgstr "Serviço de segurança da Web"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "Geopublisher_"
@@ -408,7 +408,7 @@ msgstr "MapGuide_"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "`QuickStart <MapGuide_q_>`__"
-msgstr "`QuickStart <MapGuide_q_>`__"
+msgstr "`Início rápido <MapGuide_q_>`__"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "5.0"

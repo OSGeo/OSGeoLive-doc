@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2024-09-03 00:45+0000\n"
+"PO-Revision-Date: 2024-10-14 15:25+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
 "re3gistry_overview/de/>\n"
@@ -75,8 +75,8 @@ msgid ""
 "User-friendly editing interface to easily add, edit and manage the registers"
 " and reference codes"
 msgstr ""
-"Benutzerfreundliche Maske zum einfachen Hinzufügen, Bearbeiten und Verwalten"
-" der Listen und Referenz-Codes."
+"Benutzerfreundliche Maske zum einfachen Hinzufügen, Bearbeiten und Verwalten "
+"der Listen und Referenz-Codes"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:46
 msgid ""
@@ -88,7 +88,7 @@ msgstr ""
 
 #: ../../build/doc/overview/re3gistry_overview.rst:47
 msgid "Highly flexible and customisable data models"
-msgstr "Hoch flexible und anpassbare Datenmodelle."
+msgstr "Hoch flexible und anpassbare Datenmodelle"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:48
 msgid "Multi-lingual content support"

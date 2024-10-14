@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2023-07-03 08:33+0000\n"
-"Last-Translator: Michel Stuyts <michel.stuyts@gmail.com>\n"
+"PO-Revision-Date: 2024-10-14 14:30+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Dutch <https://weblate.osgeo.org/projects/osgeolive/"
 "internationalisation_quickstart/nl/>\n"
 "Language: nl\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/internationalisation_quickstart.rst:10
 msgid "Change language or keyboard type"
@@ -49,7 +49,7 @@ msgstr "Selecteer een andere taal in het menu van het bovenste paneel."
 
 #: ../../build/doc/quickstart/internationalisation_quickstart.rst:20
 msgid "Press the :guilabel:`Log in` button."
-msgstr "Druk op de knop :guilabel:`Log in`"
+msgstr "Druk op de knop :guilabel:`Log in`."
 
 #: ../../build/doc/quickstart/internationalisation_quickstart.rst:21
 msgid "Repeat the process if needed or if you wish to change languages again."
