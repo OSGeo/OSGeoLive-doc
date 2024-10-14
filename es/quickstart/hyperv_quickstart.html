@@ -67,9 +67,7 @@
 <p>Las ventajas de usar una máquina virtual son las mismas que se describen en <a class="reference internal" href="virtualization_quickstart.html"><span class="doc">Ejecución en una máquina virtual</span></a>. Lamentablemente, Virtual Box e Hyper-V no se pueden ejecutar simultáneamente. Esto deja 2 opciones - deshabilitar la característica Hyper-V o configurar una nueva máquina Hyper-V para ejecutar OSGeoLive. Se puede usar una herramienta gratuita <cite>hypervswitch &lt;https://unclassified.software/en/apps/hypervswitch&gt;</cite> _ para habilitar e inhabilitar Hyper-V rápidamente, sin embargo, todavía se requiere reiniciar cada vez que se cambia la configuración. El resto de esta página documenta cómo configurar OSGeoLive para que se ejecute en Hyper-V.</p>
 <section id="system-requirements">
 <h2>Requerimientos del Sistema<a class="headerlink" href="#system-requirements" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>Hyper-V requirements can be found <a class="reference external" href="https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v">here</a>.
-This link also provides information on checking if your machine is compatible using the <code class="docutils literal notranslate"><span class="pre">systeminfo</span></code> command. In summary the host machine
-needs to have the following hardware requirements:</p>
+<p>Los requisitos de Hyper-V pueden encontrarse <cite>aquí &lt;https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v&gt;</cite> _. Este enlace también proporciona información sobre comprobar si tu máquina es compatible con el comando `` systeminfo``. En resumen el equipo host debe tener los siguientes requisitos de hardware:</p>
 <ul class="simple">
 <li><p>RAM: 4 GB mínimo</p></li>
 <li><p>Procesador 64-bit</p></li>
@@ -80,15 +78,14 @@ needs to have the following hardware requirements:</p>
 <p>Descargar el VirtualBox de Disco Duro virtual (vmdk) de OSGeoLive siguiendo los enlaces en <a class="reference internal" href="../download.html"><span class="doc">live.osgeo.org</span></a>. Una vez descargado, descomprimir el archivo descargado (usando <a class="reference external" href="https://www.7-zip.org">7zip</a> ).</p>
 <p>El formato de imagen de máquina virtual de Hyper-V difiere de la descarga de VirtualBox. El archivo por lo tanto tiene que ser convertido de “” vmdk”” a “” vhdx””. Actualmente hay dos opciones de conversión disponibles.</p>
 <section id="starwind-v2v-converter">
-<h3>StarWind V2V Converter<a class="headerlink" href="#starwind-v2v-converter" title="Enlazar permanentemente con este título">¶</a></h3>
+<h3>Convertidor StarWind V2V<a class="headerlink" href="#starwind-v2v-converter" title="Enlazar permanentemente con este título">¶</a></h3>
 <p>Use el programa <a class="reference external" href="https://www.starwindsoftware.com/starwind-v2v-converter">StarWind V2V Converter</a>.Posee una sencilla interfaz de usuario que le permite seleccionar el archivo <code class="docutils literal notranslate"><span class="pre">osgeo-live-XX.X-vm.vmdk</span></code> y convertirlo a imagen <em>Microsoft VHDX</em>.</p>
 </section>
 <section id="microsoft-virtual-machine-converter-3-0">
 <h3>Convertidor de máquina Virtual de Microsoft 3.0<a class="headerlink" href="#microsoft-virtual-machine-converter-3-0" title="Enlazar permanentemente con este título">¶</a></h3>
 <p>La segunda opción más complicada es la siguiente.</p>
 <ol class="arabic simple">
-<li><p>Download the <a class="reference external" href="https://techcommunity.microsoft.com/t5/system-center-blog/microsoft-virtual-machine-converter-3-0-is-now-available-for/ba-p/349874">Microsoft Virtual Machine Converter 3.0</a>
-and install.</p></li>
+<li><p>Descargar el <a class="reference external" href="https://techcommunity.microsoft.com/t5/system-center-blog/microsoft-virtual-machine-converter-3-0-is-now-available-for/ba-p/349874">Convertidor de Máquina Vitual de Microsoft 3.0</a> e instalar.</p></li>
 <li><p>Descargue el Kit de Operaciones de archivos DS y descomprima.</p></li>
 <li><p>Open PowerShell (con derechos de administrador)</p></li>
 <li><p>Ejecute el siguiente comando para obtener el descriptor de disco del OSGeoLive vmdk. Esto guarda la descripción del disco en el archivo «descriptor1.txt».</p></li>

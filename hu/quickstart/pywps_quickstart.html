@@ -65,8 +65,8 @@
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
 <section id="pywps-quickstart">
 <h1>PyWPS gyorstalpaló<a class="headerlink" href="#pywps-quickstart" title="Hivatkozás erre a fejezetcímre">¶</a></h1>
-<p>A PyWPS egy <a class="reference external" href="https://www.python.org">Python-ban</a> írt OGC WPS  (Web Processing Service 1.0.0) szerver implementáció.</p>
-<p>APyWPS 4.0.0. könyvtárat telepítették az OSGeoLive-on. Ez egy alap könyvtár nem a közvetlen végrehajtás a cél, hanem inkább WPS szolgáltatások fejlesztésére használható. Egy  <a class="reference external" href="https://flask.palletsprojects.com">Flask</a>  alapú <a class="reference external" href="https://github.com/geopython/pywps-flask">példa szolgáltatás</a> elérhető a GitHub-on az első PyWPS találkozás megkönnyítése érdekében.</p>
+<p>A PyWPS egy <a class="reference external" href="https://www.python.org">Python-ban</a> írt OGC WPS (Web Processing Service 1.0.0) szerver implementáció.</p>
+<p>APyWPS 4.0.0. könyvtárat telepítették az OSGeoLive-on. Ez egy alap könyvtár nem a közvetlen végrehajtás a cél, hanem inkább WPS szolgáltatások fejlesztésére használható. Egy <a class="reference external" href="https://flask.palletsprojects.com">Flask</a> alapú <a class="reference external" href="https://github.com/geopython/pywps-flask">példa szolgáltatás</a> elérhető a GitHub-on az első PyWPS találkozás megkönnyítése érdekében.</p>
 <p>Ez a gyorstalpaló leírja:</p>
 <ul class="simple">
 <li><p>A pywps-flask  példa szolgáltatás telepítése és konfigurálása</p></li>
@@ -88,7 +88,7 @@
 <p><cite>sudo apt install python-flask</cite></p>
 <p>Majd klónozza a GitHub-ról a tárházat:</p>
 <p><cite>git clone https://github.com/geopython/pywps-flask.git</cite></p>
-<p>Mozogjon a tárház mappába  és módosítsa a konfigurációs fájlt. Ezt megteheti a <cite>nano</cite> programmal:</p>
+<p>Mozogjon a tárház mappába és módosítsa a konfigurációs fájlt. Ezt megteheti a <cite>nano</cite> programmal:</p>
 <p><cite>nano pywps.cfg</cite></p>
 <p>Az egyetelen kritikus, ellenőrizendő dolog a napló adatbázis helye. A <cite>Pywps-flask</cite>  gondoskodik egy minta adatbázisról, mely használható erre a célra. Győződjön meg róla, hogy a <cite>database</cite> beállítás így néz ki:</p>
 <p><cite>database=sqlite:////home/user/pywps-flask/logs/pywps-logs.sqlite3</cite></p>
@@ -99,7 +99,7 @@
 </section>
 <section id="testing-available-processes">
 <h2><a class="toc-backref" href="#id2">Elérhető feldolgozások tesztelése</a><a class="headerlink" href="#testing-available-processes" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
-<p>Nyisson meg egy web böngészőt és mutasson arra a címre, ahol a példa szolgáltatás figyel: <a class="reference external" href="http://127.0.0.1:5000/">http://127.0.0.1:5000/</a>  A következő lap jelenik meg:</p>
+<p>Nyisson meg egy web böngészőt és mutasson arra a címre, ahol a példa szolgáltatás figyel: <a class="reference external" href="http://127.0.0.1:5000/">http://127.0.0.1:5000/</a> A következő lap jelenik meg:</p>
 <a class="reference internal image-reference" href="../../_images/pywps-4.0.0_example.png"><img alt="../../_images/pywps-4.0.0_example.png" src="../../_images/pywps-4.0.0_example.png" style="width: 1024.0px; height: 768.0px;" /></a>
 <p>Használja a zöld gombokat a szolgáltatás felfedezéséhez. Adjon ki egy <cite>GetCapabilities</cite> kérést a szolgáltatás áttekintéséhez; adjon ki egy <cite>DescribeProcess</cite> kérést egy adott projekt részleteinek megismeréséhez. Nézze meg a kérés URL-jét a böngésző cím sorában.</p>
 <p>It az ideje, hogy az <cite>Execute</cite> kérést teszteljük. Megpróbálhatja a <cite>say_hello</cite> feldolgozást, mely egészen egyszerű. Irányítsa a böngészőjét a következő címre:</p>
@@ -153,7 +153,7 @@ and outputs:</p>
 <p>PyWPS szabadságot és rugalmasságot biztosít, hogy saját Python folyamatokat írjon és ennek megfelelően kifejtse.</p>
 <ul class="simple">
 <li><p>Hivatalos dokumentáció - További információkért a PyWPS konfigurációról és az API-ról olvassa a <a class="reference external" href="https://pywps.org/docs/">documentation</a> a PyWPS honlapon.</p></li>
-<li><p>Próbálja ki a  <a class="reference external" href="https://github.com/PyWPS/pywps-workshop">workshop</a>-ot, ami egy workshop oktatóanyag az új felhasználóknak a PyWPS 4 bemutatásáról.</p></li>
+<li><p>Próbálja ki a <a class="reference external" href="https://github.com/PyWPS/pywps-workshop">workshop</a>-ot, ami egy workshop oktatóanyag az új felhasználóknak a PyWPS 4 bemutatásáról.</p></li>
 <li><p>A <cite>pywps-flask</cite> szolgáltatás csak egy példa, nem terveztük komoly használatra. Egy lehetséges alternatíva a Django alapú szolgáltatás, <a class="reference external" href="https://github.com/jorgejesus/pywps-django">pywps-django</a>. A dokumentáció további részleteket tartalmaz hogyan <a class="reference external" href="https://pywps.readthedocs.io/en/latest/deployment.html">állítsunk fel egy produktív szolgáltatást</a> Apache-val &lt;<a class="reference external" href="https://httpd.apache.org/">https://httpd.apache.org/</a>&gt;`_ vagy <a class="reference external" href="https://nginx.org/">nginx-el</a> és <a class="reference external" href="https://gunicorn.org/">Gunicorn-nal</a>.</p></li>
 </ul>
 </section>

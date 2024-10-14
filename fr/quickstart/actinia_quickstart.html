@@ -77,9 +77,9 @@ satellite images, raster and vector data.</p>
 <div class="contents local topic" id="contents">
 <p class="topic-title">Contenu</p>
 <ul class="simple">
-<li><p><a class="reference internal" href="#using-actinia-with-a-jupyter-notebook" id="id2">Using actinia with a Jupyter notebook</a></p></li>
+<li><p><a class="reference internal" href="#using-actinia-with-a-jupyter-notebook" id="id2">Utiliser actinia avec un notebook Jupyter</a></p></li>
 <li><p><a class="reference internal" href="#introduction-to-ace-actinia-command-execution" id="id3">Introduction to ace - actinia command execution</a></p></li>
-<li><p><a class="reference internal" href="#setup-your-environment" id="id4">Setup your environment</a></p></li>
+<li><p><a class="reference internal" href="#setup-your-environment" id="id4">Configurer votre environnement</a></p></li>
 <li><p><a class="reference internal" href="#access-sample-data" id="id5">Access sample data</a></p>
 <ul>
 <li><p><a class="reference internal" href="#access-data-from-external-sources" id="id6">Access data from external sources</a></p></li>
@@ -87,7 +87,7 @@ satellite images, raster and vector data.</p>
 </li>
 <li><p><a class="reference internal" href="#inspect-the-rest-call-prior-to-submission" id="id7">Inspect the REST call prior to submission</a></p></li>
 <li><p><a class="reference internal" href="#display-a-map-map-rendering" id="id8">Display a map - map rendering</a></p></li>
-<li><p><a class="reference internal" href="#script-examples" id="id9">Script examples</a></p>
+<li><p><a class="reference internal" href="#script-examples" id="id9">Exemples de scripts</a></p>
 <ul>
 <li><p><a class="reference internal" href="#example-1-computing-slope-and-aspect-and-univariate-statistics-from-an-elevation-model" id="id10">Example 1: computing slope and aspect and univariate statistics from an elevation model</a></p></li>
 <li><p><a class="reference internal" href="#example-2-orthophoto-image-segmentation-with-export" id="id11">Example 2: Orthophoto image segmentation with export</a></p></li>
@@ -104,7 +104,7 @@ satellite images, raster and vector data.</p>
 <li><p><a class="reference internal" href="#what-next" id="id17">Ensuite ?</a></p></li>
 </ul>
 </div>
-<p>Actinia can be used in different ways:</p>
+<p>Actinia peut être utilisé de plusieurs façons :</p>
 <ul class="simple">
 <li><p><cite>curl</cite> or similar command line tools</p></li>
 <li><p>through <a class="reference external" href="https://github.com/actinia-org/actinia-jupyter">Jupyter notebooks</a></p></li>
@@ -118,7 +118,7 @@ commands from the session to the actinia server (which itself uses GRASS GIS).
 The idea is to rapidly develop a workflow locally on small data sets to
 then execute it on the server.</p>
 <section id="using-actinia-with-a-jupyter-notebook">
-<h2><a class="toc-backref" href="#id2">Using actinia with a Jupyter notebook</a><a class="headerlink" href="#using-actinia-with-a-jupyter-notebook" title="Lien permanent vers ce titre">¶</a></h2>
+<h2><a class="toc-backref" href="#id2">Utiliser actinia avec un notebook Jupyter</a><a class="headerlink" href="#using-actinia-with-a-jupyter-notebook" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Numerous Jupyter notebooks for actinia are available from
 <a class="reference external" href="https://github.com/actinia-org/actinia-jupyter">https://github.com/actinia-org/actinia-jupyter</a></p>
 </section>
@@ -132,15 +132,13 @@ the ability to list locations, mapsets and map layer the user has access
 to as well as the creation and deletion of mapsets.</p>
 <p>Th <code class="docutils literal notranslate"><span class="pre">ace</span></code> tool must be executed in an active GRASS GIS session. It is
 installed with <code class="docutils literal notranslate"><span class="pre">g.extension</span> <span class="pre">extension=ace</span> <span class="pre">url=https://github.com/actinia-org/ace</span></code>.</p>
-<p>All commands will be executed per default in an <strong>ephemeral</strong> database.
-Hence, generated output must be exported using augmented GRASS
-commands.</p>
+<p>Toutes les commandes seront exécutées dans une base de données <strong>éphémère</strong> par défaut. Ainsi, les sorties générées doivent être exportées en utilisant des commandes GRASS augmentées.</p>
 <p>The option <code class="docutils literal notranslate"><span class="pre">mapset=MAPSET_NAME</span></code> allows the execution of commands in
 the persistent user database. It can be used with
 <code class="docutils literal notranslate"><span class="pre">location=LOCATION_NAME</span></code> option.</p>
 </section>
 <section id="setup-your-environment">
-<h2><a class="toc-backref" href="#id4">Setup your environment</a><a class="headerlink" href="#setup-your-environment" title="Lien permanent vers ce titre">¶</a></h2>
+<h2><a class="toc-backref" href="#id4">Configurer votre environnement</a><a class="headerlink" href="#setup-your-environment" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Be sure to run the following commands in a GRASS GIS session.</p>
 <p>The user must setup the following environmental variables to specify the
 actinia server and credentials:</p>
@@ -173,7 +171,7 @@ The <code class="docutils literal notranslate"><span class="pre">&#64;</span></c
 web located resource and to specify the export of an output parameter.</p>
 <p>Importantly, the name of the local location and mapset must correspond
 to that on the actinia REST server.</p>
-<p>Currently available datasets are (organized by projections):</p>
+<p>Les jeux de données actuellement disponibles sont (regroupées par projections) :</p>
 <ul class="simple">
 <li><p>North Carolina sample dataset (NC State-Plane metric CRS, EPSG:
 3358):</p>
@@ -250,7 +248,7 @@ The following export formats are currently supported:</p>
 </ul>
 </section>
 <section id="script-examples">
-<h2><a class="toc-backref" href="#id9">Script examples</a><a class="headerlink" href="#script-examples" title="Lien permanent vers ce titre">¶</a></h2>
+<h2><a class="toc-backref" href="#id9">Exemples de scripts</a><a class="headerlink" href="#script-examples" title="Lien permanent vers ce titre">¶</a></h2>
 <section id="example-1-computing-slope-and-aspect-and-univariate-statistics-from-an-elevation-model">
 <h3><a class="toc-backref" href="#id10">Example 1: computing slope and aspect and univariate statistics from an elevation model</a><a class="headerlink" href="#example-1-computing-slope-and-aspect-and-univariate-statistics-from-an-elevation-model" title="Lien permanent vers ce titre">¶</a></h3>
 <p>The following commands (to be stored in a script and executed with

@@ -64,7 +64,7 @@
   <a class="reference external image-reference" href="https://geoext.github.io/geoext"><img alt="../../_images/logo_geoext.png" class="align-right" src="../../_images/logo_geoext.png" /></a>
 <section id="geoext-quickstart">
 <h1>GeoExt gyorstalpaló<a class="headerlink" href="#geoext-quickstart" title="Hivatkozás erre a fejezetcímre">¶</a></h1>
-<p>A GeoExt egy JavaScript könyvtár, mely a böngészőben fut, kombinálja és kiterjeszti az ExtJS keretrendszert és az OpenLayers könyvtárat. Ez a gyorstalpaló egy 200 sor kódból álló gazdag web alkalmazás létrehozását részletezi.  Az OSGeoLive-ra telepített MapServer webes szolgáltatásait fogjuk használni a térképi rétegek szolgáltatásához az alkalmazáshoz. Az alábbi lépések befejezése után egy demó GeoExt alkalmazást kapunk a <a class="reference external" href="http://localhost/geoext/">http://localhost/geoext/</a> címen.</p>
+<p>A GeoExt egy JavaScript könyvtár, mely a böngészőben fut, kombinálja és kiterjeszti az ExtJS keretrendszert és az OpenLayers könyvtárat. Ez a gyorstalpaló egy 200 sor kódból álló gazdag web alkalmazás létrehozását részletezi. Az OSGeoLive-ra telepített MapServer webes szolgáltatásait fogjuk használni a térképi rétegek szolgáltatásához az alkalmazáshoz. Az alábbi lépések befejezése után egy demó GeoExt alkalmazást kapunk a <a class="reference external" href="http://localhost/geoext/">http://localhost/geoext/</a> címen.</p>
 <div class="contents local topic" id="contents">
 <p class="topic-title">Tartalom</p>
 <ul class="simple">
@@ -79,7 +79,7 @@
 <h2><a class="toc-backref" href="#id1">Egy HTML oldal létrehozása</a><a class="headerlink" href="#create-an-html-page" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <p>Ebben a lépésben egy üres HTML oldalt készítünk el, mely az alkalmazást fogja tartalmazni. Az OSGeoLive-ra telepített FeatherPad szövegszerkesztőt fogjuk használni az új HTML fájl létrehozására itt <code class="docutils literal notranslate"><span class="pre">/var/www/html/geoext/demo.html</span></code></p>
 <ol class="arabic">
-<li><p>Nyissa meg a parancssorból a FeatherPad megnövelt jogosultsággal,  így el tudja menteni a fájlt, az alábbi paranccsal:</p>
+<li><p>Nyissa meg a parancssorból a FeatherPad megnövelt jogosultsággal, így el tudja menteni a fájlt, az alábbi paranccsal:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>featherpad
 </pre></div>
 </div>
@@ -116,7 +116,7 @@
 </div>
 </li>
 </ol>
-<p>Most egy üres HTML oldalt kell látnia a Firefox-ban a <a class="reference external" href="http://localhost/geoext/demo.html">http://localhost/geoext/demo.html</a> címen.</p>
+<p>Most egy üres HTML oldalt kell látnia a Firefox-ban a <a class="reference external" href="http://localhost/geoext/demo.html">http://localhost/geoext/demo.html</a> címen</p>
 <p>Az összes JavaScriptet a következő fejezetekben az <cite>Ext.onReady`</cite> függvényben található <code class="docutils literal notranslate"><span class="pre">//</span> <span class="pre">all</span> <span class="pre">JavaScript</span> <span class="pre">application</span> <span class="pre">code</span> <span class="pre">should</span> <span class="pre">go</span> <span class="pre">here</span></code> megjegyzés után kell beilleszteni. A kód ide helyezésével biztosítjuk, hogy a JavaScript könyvtárakat betöltöttük mielőtt bármelyik saját kód lefutna.</p>
 </section>
 <section id="configure-openlayers-objects">
@@ -225,7 +225,7 @@
 </pre></div>
 </div>
 </li>
-<li><p>Egy rács komponenst is létrehozunk a WFS rétegünk attribútumainak  megjelenítésére. Hasonlóan a rétegfa tárhoz és fa panelhez, létrehozunk egy <code class="docutils literal notranslate"><span class="pre">GeoExt.data.store.Features</span></code>  tárat és egy rács panelt.</p>
+<li><p>Egy rács komponenst is létrehozunk a WFS rétegünk attribútumainak megjelenítésére. Hasonlóan a rétegfa tárhoz és fa panelhez, létrehozunk egy <code class="docutils literal notranslate"><span class="pre">GeoExt.data.store.Features</span></code>  tárat és egy rács panelt.</p>
 <div class="highlight-js notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">featureStore</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">Ext</span><span class="p">.</span><span class="nx">create</span><span class="p">(</span><span class="s1">&#39;GeoExt.data.store.Features&#39;</span><span class="p">,</span><span class="w"> </span><span class="p">{</span>
 <span class="w">    </span><span class="nx">layer</span><span class="o">:</span><span class="w"> </span><span class="nx">vectorLayer</span><span class="p">,</span>
 <span class="w">    </span><span class="nx">map</span><span class="o">:</span><span class="w"> </span><span class="nx">map</span>
@@ -301,7 +301,7 @@
 <h2><a class="toc-backref" href="#id5">What next?</a><a class="headerlink" href="#what-next" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
 <ul class="simple">
 <li><p>A <a class="reference external" href="https://geoext.github.io/geoext/">GeoExt honlap</a> tartalmazza a teljes <a class="reference external" href="https://geoext.github.io/geoext/v3.1.0/docs">API dokumentációt</a> és példákat</p></li>
-<li><p>Egy <a class="reference external" href="https://github.com/geoext/geoext3-ws">GeoExt workshop</a> az összes lépést leírja a GeoExt3 konfigurálásához és használatához az ön ExtJS alkalmazásában.</p></li>
+<li><p>Egy <a class="reference external" href="https://github.com/geoext/geoext3-ws">GeoExt workshop</a> az összes lépést leírja a GeoExt3 konfigurálásához és használatához az ön ExtJS alkalmazásában</p></li>
 <li><p>Az <a class="reference external" href="https://openlayers.org/en/v4.6.5/apidoc">OpenLayers v4.6.5 API doksik</a></p></li>
 <li><p>Az <a class="reference external" href="https://docs.sencha.com/extjs/6.2.0/">ExtJS 6.2.0 API doksik</a></p></li>
 </ul>

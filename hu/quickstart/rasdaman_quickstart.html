@@ -69,7 +69,7 @@
 </div>
 <section id="rasdaman-quickstart">
 <span id="id1"></span><h1>Rasdaman gyorstalpaló<a class="headerlink" href="#rasdaman-quickstart" title="Hivatkozás erre a fejezetcímre">¶</a></h1>
-<p>A Rasdaman egy big data motor rugalmas ad-hoc elemzésekhez több dimenziós tér-idő szenzorokhoz, képekhez, szimulációhoz és statisztikai adatokhoz, a méret korlátozása nélkül. A Web Coverage Processing Service (WCPS) lekérdező nyelv egy  Open Geospatial Consortium (OGC) szabvány, mely lehetővé teszi több dimenziós raszter fedvények, mint szenzorok, szimuláció, kép és statisztikai adat szűrését és feldolgozását  web szolgáltatás használatával. A WCPS lekérdezéseket átfordítjuk rasdaman lekérdezés lenyvre és végrehajtjuk a rasdaman-on. Ez  a gyorstalpaló bemutatja hogyan érjünk el és manipuláljunk egy minta 2D fedvényt a WCPS nyelv használatával.</p>
+<p>A Rasdaman egy big data motor rugalmas ad-hoc elemzésekhez több dimenziós tér-idő szenzorokhoz, képekhez, szimulációhoz és statisztikai adatokhoz, a méret korlátozása nélkül. A Web Coverage Processing Service (WCPS) lekérdező nyelv egy Open Geospatial Consortium (OGC) szabvány, mely lehetővé teszi több dimenziós raszter fedvények, mint szenzorok, szimuláció, kép és statisztikai adat szűrését és feldolgozását web szolgáltatás használatával. A WCPS lekérdezéseket átfordítjuk rasdaman lekérdezés lenyvre és végrehajtjuk a rasdaman-on. Ez a gyorstalpaló bemutatja hogyan érjünk el és manipuláljunk egy minta 2D fedvényt a WCPS nyelv használatával.</p>
 <div class="contents local topic" id="contents">
 <p class="topic-title">Tartalom</p>
 <ul class="simple">
@@ -85,7 +85,7 @@
 </div>
 <section id="setup">
 <h2><a class="toc-backref" href="#id3">Beállítás</a><a class="headerlink" href="#setup" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
-<p>Az első lépés mielőtt a következő lekérdezések bármelyikét kipróbálná a rasdaman és a Tomcat elindítása. Nyissa meg a <em>Databases</em> könyvtárat az asztalon és utána  <em>Start Rasdaman Server</em>. Hagyjon két-három percet a rasdaman-nak és különösen a a Tomcat-nek, hogy teljesen elinduljon (a <a class="reference external" href="http://localhost:8080/rasdaman/ows">rasdaman web kliest</a> a böngésző betöltse).</p>
+<p>Az első lépés mielőtt a következő lekérdezések bármelyikét kipróbálná a rasdaman és a Tomcat elindítása. Nyissa meg a <em>Databases</em> könyvtárat az asztalon és utána <em>Start Rasdaman Server</em>. Hagyjon két-három percet a rasdaman-nak és különösen a a Tomcat-nek, hogy teljesen elinduljon (a <a class="reference external" href="http://localhost:8080/rasdaman/ows">rasdaman web kliest</a> a böngésző betöltse).</p>
 <p>Ezután megnyithatja a <em>Rasdaman-Earthlook Demo</em>-t ugyanabból a könyvtárból, mely egy helyi bemutatót indít el a böngészőben. További gyakorlati oktatáshoz folytassa a következő példákkal itt.</p>
 </section>
 <section id="running-wcps-queries">
@@ -132,7 +132,7 @@
 </section>
 <section id="arithmetic-operation-extracting-ndvi-of-the-coverage">
 <h2><a class="toc-backref" href="#id9">Aritmetikai művelet: NDVI a fedvényből</a><a class="headerlink" href="#arithmetic-operation-extracting-ndvi-of-the-coverage" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
-<p>Az NDVI (normalizált növényzet különbség index) egy  mérőszám, a növényzet valószínűségére a távérzékelésben, azaz minél közelebb van a pixel +1-hez, annál valószínűbb, hogy a növényzet. A WCPS  lekérdezés az NDVI levezetéséhez a fedvényből a következő:</p>
+<p>Az NDVI (normalizált növényzet különbség index) egy mérőszám, a növényzet valószínűségére a távérzékelésben, azaz minél közelebb van a pixel +1-hez, annál valószínűbb, hogy a növényzet. A WCPS lekérdezés az NDVI levezetéséhez a fedvényből a következő:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="p">(</span> <span class="n">NIR</span> <span class="p">)</span> <span class="k">return</span>
 <span class="n">encode</span><span class="p">(</span>
   <span class="p">(</span><span class="n">unsigned</span> <span class="n">char</span><span class="p">)</span> <span class="p">(</span>
@@ -150,7 +150,7 @@
 <li><p>A <a class="reference external" href="https://tutorial.rasdaman.org">rasdaman oktatóanyag</a> egy tömör bevezetés a rasdaman hátterében lévő koncepcióhoz, a rasql-hez és az OGC web szolgáltaltás támogatáshoz.</p></li>
 <li><p>Tanuljon meg többet az OGC <a class="reference external" href="https://www.ogc.org/standards/wcps">Web Coverage Processing Service</a> nyelvi szabványról (melyet erősen inspirált a rasdaman); egy jó kezdőpont a  <a class="reference external" href="http://standards.rasdaman.com/">dokumentáció és oktató oldalak</a> és a <a class="reference external" href="http://localhost/rasdaman-demo/demo/client/query-sandbox.html">WCPS lekérdezés homokozó</a>.</p></li>
 <li><p>Érdeklik a fedvény adatok és szolgáltatások általában? Látogassa meg az OGC <a class="reference external" href="https://external.ogc.org/twiki_public/CoveragesDWG/WebHome">Coverages Domain Working Group wiki-t</a>.</p></li>
-<li><p>Fedezze fel a <a class="reference external" href="https://doc.rasdaman.org">rasdaman dokumentációt</a> , hogy megismerje a  rasdaman adminisztrációt, a lekérdező nyelvet, és az adatbetöltést.</p></li>
+<li><p>Fedezze fel a <a class="reference external" href="https://doc.rasdaman.org">rasdaman dokumentációt</a> , hogy megismerje a rasdaman adminisztrációt, a lekérdező nyelvet, és az adatbetöltést.</p></li>
 <li><p>Menjen a <a class="reference external" href="http://localhost/rasdaman-demo">több dimenziós menüre</a> az 1-D-től 4-D-ig tartó rasdaman demókhoz. A kisebbek az OSGeoLive részei, azok melyek több adatotot használnak (a meghajtó kapacitást meghaladót) az <a class="reference external" href="https://standards.rasdaman.com">OGC szabványok bemutató oldalára</a> tettük fel.</p></li>
 </ul>
 </section>

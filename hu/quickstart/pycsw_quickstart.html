@@ -100,7 +100,7 @@
 <li><p>A „GetCapabilities-SOAP” kiválasztása után nyomj meg a „Send” gombot. Egy SOAP kérést küldünk a szerverhez a web szolgáltatási képességek közzétételéhez.</p>
 <a class="reference internal image-reference" href="../../_images/pycsw_tester_soap_capabillities.png"><img alt="../../_images/pycsw_tester_soap_capabillities.png" src="../../_images/pycsw_tester_soap_capabillities.png" style="width: 746.25px; height: 408.0px;" /></a>
 </li>
-<li><p>Adat rekordokat kereshet egy befoglaló téglalap térbeli lekérdezés végrehajtásával,  válassza ki a „GetRecords-filter-bbox”-ot és módosítsa a koordinátákat az XML lekérdezésben.</p>
+<li><p>Adat rekordokat kereshet egy befoglaló téglalap térbeli lekérdezés végrehajtásával, válassza ki a „GetRecords-filter-bbox”-ot és módosítsa a koordinátákat az XML lekérdezésben.</p>
 <a class="reference internal image-reference" href="../../_images/pycsw_tester_getrecords_bbox_filter.png"><img alt="../../_images/pycsw_tester_getrecords_bbox_filter.png" src="../../_images/pycsw_tester_getrecords_bbox_filter.png" style="width: 749.25px; height: 399.0px;" /></a>
 </li>
 </ol>
@@ -108,14 +108,14 @@
 </section>
 <section id="understand-capabilities-and-configuration">
 <h2><a class="toc-backref" href="#id3">A képességek és a konfiguráció megértése</a><a class="headerlink" href="#understand-capabilities-and-configuration" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
-<p>A pycsw telepítés képességei a  <code class="docutils literal notranslate"><span class="pre">http://localhost/pycsw?service=CSW&amp;version=2.0.2&amp;request=GetCapabilities</span></code> oldalon találhatók.  Ha csak a <code class="docutils literal notranslate"><span class="pre">http://localhost/pycsw</span></code> linket használja, akkor a CSW 3.0.0, képességek dokumentumát kapja meg, mivel az a legújabb támogatott változat.</p>
+<p>A pycsw telepítés képességei a <code class="docutils literal notranslate"><span class="pre">http://localhost/pycsw?service=CSW&amp;version=2.0.2&amp;request=GetCapabilities</span></code> oldalon találhatók. Ha csak a <code class="docutils literal notranslate"><span class="pre">http://localhost/pycsw</span></code> linket használja, akkor a CSW 3.0.0, képességek dokumentumát kapja meg, mivel az a legújabb támogatott változat.</p>
 <p>A képességek dokumentumban található web szolgáltatás metaadatok szerkesztéséhez módisíthatja az <cite>/etc/pycsw/default.cfg`</cite> fájlt a <code class="docutils literal notranslate"><span class="pre">[metadata:main]</span></code> címke alatt.</p>
-<p>Ha engedélyezni akarja az INSPIRE Discovery Service támogatást, töltse ki a metaadatokat a <code class="docutils literal notranslate"><span class="pre">[metadata:inspire]</span></code>  címke alatt és állítsa az  <code class="docutils literal notranslate"><span class="pre">enabled</span></code>  tulajdonságot <code class="docutils literal notranslate"><span class="pre">true</span></code>-ra.</p>
+<p>Ha engedélyezni akarja az INSPIRE Discovery Service támogatást, töltse ki a metaadatokat a <code class="docutils literal notranslate"><span class="pre">[metadata:inspire]</span></code>  címke alatt és állítsa az <code class="docutils literal notranslate"><span class="pre">enabled</span></code>  tulajdonságot <code class="docutils literal notranslate"><span class="pre">true</span></code>-ra.</p>
 <p>Kérjük nézze meg a pycsw honlapon a <a class="reference external" href="https://pycsw.org/docs/">dokumentációt</a> a teljes funkcionalitás és konfiguráció beállításokhoz.</p>
 </section>
 <section id="create-metadata">
 <h2><a class="toc-backref" href="#id4">Metaadatok létrehozása</a><a class="headerlink" href="#create-metadata" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
-<p>A térbeli adatokhoz vagy térbeli webszolgáltatáshoz készült metaadatfájlok a metaadatokra vonatkozó inspire irányelv nyílt forráskódú megvalósításával, az European Open Source Metadata Editor  (EUOSME) segítségével hozhatók létre. Ez az alkalmazás megtalálható a <code class="docutils literal notranslate"><span class="pre">http://inspire-geoportal.ec.europa.eu/editor/</span></code> oldalon. A forráskód a <code class="docutils literal notranslate"><span class="pre">https://joinup.ec.europa.eu/svn/euosme/trunk</span></code> oldalon.</p>
+<p>A térbeli adatokhoz vagy térbeli webszolgáltatáshoz készült metaadatfájlok a metaadatokra vonatkozó inspire irányelv nyílt forráskódú megvalósításával, az European Open Source Metadata Editor (EUOSME) segítségével hozhatók létre. Ez az alkalmazás megtalálható a <code class="docutils literal notranslate"><span class="pre">http://inspire-geoportal.ec.europa.eu/editor/</span></code> oldalon. A forráskód a <code class="docutils literal notranslate"><span class="pre">https://joinup.ec.europa.eu/svn/euosme/trunk</span></code> oldalon``</p>
 <p>Kitöltheti a kötelező metaadat mezőket az alkalmazás fülein végighaladva, mint a név, az adat tulajdonos, kulcsszavak, az adatforrás a weben, földrajzi elhelyezkedés (befoglaló téglalap vagy egy ország neve), stb.</p>
 <a class="reference internal image-reference" href="../../_images/pycsw_euosme_metadata_input.png"><img alt="../../_images/pycsw_euosme_metadata_input.png" src="../../_images/pycsw_euosme_metadata_input.png" style="width: 831.75px; height: 485.25px;" /></a>
 <p>Miután minden elérhető információt megadott nyomja meg a <span class="guilabel">validation</span> gombot az oldal tetején, hogy ellenőrizze a konzisztenciát az INSPIRE direktívával.</p>
@@ -142,13 +142,13 @@
 <li><p><strong>table</strong>: a táblázat név a metaadat rekordokhoz (az alapértelmezett <code class="docutils literal notranslate"><span class="pre">records</span></code>)</p></li>
 </ul>
 </li>
-<li><p>Az adatbázis beállítása</p>
+<li><p>Az adatbázis beállítása:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>pycsw-admin<span class="w"> </span>-c<span class="w"> </span>setup_db<span class="w"> </span>-f<span class="w"> </span>/etc/pycsw/default.cfg
 </pre></div>
 </div>
 </li>
 </ol>
-<p>Ez létrehozza a szükséges táblákat  és értékeket a tárházhoz.</p>
+<p>Ez létrehozza a szükséges táblákat és értékeket a tárházhoz.</p>
 <p>A létrehozott adatbázis <a class="reference external" href="https://www.ogc.org/standards/sfs">Simple Feature Access (SFS)</a> megfelelőségű adatbázis és használható bármelyik implementációs szoftverben. Például használja az <a class="reference external" href="https://gdal.org/ogrinfo.html">OGR</a>-el:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>ogrinfo<span class="w"> </span>/path/to/records.db
 INFO:<span class="w"> </span>Open<span class="w"> </span>of<span class="w"> </span><span class="s1">&#39;records.db&#39;</span>
@@ -178,7 +178,7 @@ $<span class="w"> </span>ogrinfo<span class="w"> </span>-al<span class="w"> </sp
 </ol>
 <a class="reference internal image-reference" href="../../_images/pycsw_qgis_metasearch_add.png"><img alt="../../_images/pycsw_qgis_metasearch_add.png" src="../../_images/pycsw_qgis_metasearch_add.png" style="width: 489.75px; height: 432.0px;" /></a>
 <ol class="arabic simple" start="3">
-<li><p>Adjon hozzá néhány alapértelmezett szervert a <span class="guilabel">Add default servers</span> gombbal és szerezze be a szerver képességeit is a <span class="guilabel">Server info</span> gomb segítségével.</p></li>
+<li><p>Adjon hozzá néhány alapértelmezett szervert a <span class="guilabel">Add default servers</span> gombbal és szerezze be a szerver képességeit is a <span class="guilabel">Server info</span> gomb segítségével</p></li>
 </ol>
 <a class="reference internal image-reference" href="../../_images/pycsw_qgis_metasearch_server_info.png"><img alt="../../_images/pycsw_qgis_metasearch_server_info.png" src="../../_images/pycsw_qgis_metasearch_server_info.png" style="width: 490.5px; height: 432.0px;" /></a>
 <ol class="arabic simple" start="4">
@@ -194,12 +194,12 @@ $<span class="w"> </span>ogrinfo<span class="w"> </span>-al<span class="w"> </sp
 <a class="reference internal image-reference" href="../../_images/pycsw_tester_discovery.png"><img alt="../../_images/pycsw_tester_discovery.png" src="../../_images/pycsw_tester_discovery.png" style="width: 786.75px; height: 342.0px;" /></a>
 <ul class="simple">
 <li><p>Próbálja meg felfedezni a az adatokat a Python <a class="reference external" href="https://geopython.github.io/OWSLib/#csw">OWSLib CSW</a> interfészen keresztül.</p></li>
-<li><p>Próbálja meg felfedezni  az adatokat a GeoNode-ból, melyeket szintén tartalmaz az OSGeoLiveés a pycsw-t használja mint az alapértelmezett CSW motor,</p></li>
+<li><p>Próbálja meg felfedezni az adatokat a GeoNode-ból, melyeket szintén tartalmaz az OSGeoLiveés a pycsw-t használja mint az alapértelmezett CSW motor.</p></li>
 </ul>
 </section>
 <section id="what-next">
 <h2><a class="toc-backref" href="#id10">Mi a következő?</a><a class="headerlink" href="#what-next" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
-<p>Forduljon a pywcs honlapon található <a class="reference external" href="https://pycsw.org/docs/">dokumentációhoz</a>  további információkért a pycsw-ről.</p>
+<p>Forduljon a pywcs honlapon található <a class="reference external" href="https://pycsw.org/docs/">dokumentációhoz</a> további információkért a pycsw-ről.</p>
 </section>
 </section>
 
