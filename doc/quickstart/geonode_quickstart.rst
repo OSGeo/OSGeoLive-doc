@@ -214,8 +214,8 @@ To install GeoNode on your own server, follow our `Quick Installation Guide <htt
 In order to get started with GeoNode our `documentation <https://docs.geonode.org/en/master/>`_ might be useful.
 
 If you need help or want to get some information about a specific topic please
-don't hasitate to ask us! You can do this through the #geonode IRC channel using
-https://webchat.freenode.net/, through the `GeoNode Gitter channel <https://gitter.im/GeoNode/general>`_
+don't hesitate to ask us! You can do this through the #geonode IRC channel using
+https://web.libera.chat/, through the `GeoNode Gitter channel <https://app.gitter.im/#/room/#GeoNode_general:gitter.im>`_
 or by asking your question in our `mailing list <https://lists.osgeo.org/cgi-bin/mailman/listinfo/geonode-users>`_ !
 
 

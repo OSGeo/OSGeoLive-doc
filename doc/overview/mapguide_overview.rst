@@ -14,7 +14,7 @@
 Web Service
 --------------------------------------------------------------------------------
 
-`MapGuide Open Source <http://mapguide.osgeo.org/>`_ is a web-based platform that enables users to develop and deploy web mapping applications and geospatial web services. MapGuide features an interactive viewer that includes support for feature selection, property inspection, map tips, and operations such as buffer, select within, and measure.
+`MapGuide Open Source <https://www.osgeo.org/projects/mapguide-open-source/>`_ is a web-based platform that enables users to develop and deploy web mapping applications and geospatial web services. MapGuide features an interactive viewer that includes support for feature selection, property inspection, map tips, and operations such as buffer, select within, and measure.
 
 MapGuide includes an XML database for managing content. Maestro allows users to edit the XML database and build a website without writing a single line of code. MapGuide also supports most popular geospatial file formats, databases, and standards.
 
@@ -94,15 +94,15 @@ Implemented Standards
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://mapguide.osgeo.org/
+**Website:** https://www.osgeo.org/projects/mapguide-open-source/
 
-**Licence:** GNU Lesser General Public License (LGPL)
+**License:** GNU Lesser General Public License (LGPL)
 
 **Software Version:** 2.4.0 Pre-Release
 
 **Supported Platforms:** Linux, Windows
 
-**Commercial Support:** https://www.osgeo.org/search_profile
+**Commercial Support:** https://www.osgeo.org/service-providers/
 
 
 @VMDK_mapguide@

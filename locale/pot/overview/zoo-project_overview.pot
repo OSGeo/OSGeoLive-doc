@@ -109,7 +109,7 @@ msgid "Details"
 msgstr ""
 
 #: ../../build/doc/overview/zoo-project_overview.rst:84
-msgid "**Website:** http://zoo-project.org/"
+msgid "**Website:** https://zoo-project.org/"
 msgstr ""
 
 #: ../../build/doc/overview/zoo-project_overview.rst:86
@@ -129,7 +129,7 @@ msgid "**Programing language support:** C, Python, Java, PHP, Fortran, Javascrip
 msgstr ""
 
 #: ../../build/doc/overview/zoo-project_overview.rst:94
-msgid "**Support:** http://zoo-project.org/"
+msgid "**Support:** https://zoo-project.org/"
 msgstr ""
 
 #: ../../build/doc/overview/zoo-project_overview.rst:100

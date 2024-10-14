@@ -72,7 +72,7 @@ msgstr ""
 #: ../../build/doc/overview/actinia_overview.rst:42
 #, fuzzy
 msgid "Explore the `tutorial <https://actinia-org.github.io/actinia-core/>`_."
-msgstr "Entdecken Sie das `Tutorial <https://mundialis.github.io/actinia_core/>`_"
+msgstr "Entdecken Sie das `Tutorial <https://actinia-org.github.io/actinia-core/>`_"
 
 #: ../../build/doc/overview/actinia_overview.rst:45
 msgid "Details"

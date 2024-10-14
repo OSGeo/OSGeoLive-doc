@@ -191,8 +191,8 @@ msgid "Details"
 msgstr "Details"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:84
-msgid "**Website:** http://zoo-project.org/"
-msgstr "**Webseite:** http://zoo-project.org/"
+msgid "**Website:** https://zoo-project.org/"
+msgstr "**Webseite:** https://zoo-project.org/"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:86
 msgid "**Licence:** MIT x/11"
@@ -214,8 +214,8 @@ msgstr ""
 "**API Schnittstellen:** C, Python, Java, PHP, Fortran, Javascript, C#, Ruby"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:94
-msgid "**Support:** http://zoo-project.org/"
-msgstr "**Support:** http://zoo-project.org/"
+msgid "**Support:** https://zoo-project.org/"
+msgstr "**Support:** https://zoo-project.org/"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:100
 msgid "Quickstart"

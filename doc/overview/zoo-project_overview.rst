@@ -81,7 +81,7 @@ Details
 
 **Programing language support:** C, Python, Java, PHP, Fortran, Javascript, C#, Ruby
 
-**Support:** http://zoo-project.org/
+**Support:** https://zoo-project.org/
 
 
 @VMDK_zoo-project@

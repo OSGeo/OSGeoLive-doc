@@ -167,8 +167,8 @@ msgid "Details"
 msgstr "詳細"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:84
-msgid "**Website:** http://zoo-project.org/"
-msgstr "**Webサイト:** http://zoo-project.org/"
+msgid "**Website:** https://zoo-project.org/"
+msgstr "**Webサイト:** https://zoo-project.org/"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:86
 msgid "**Licence:** MIT x/11"
@@ -189,8 +189,8 @@ msgid ""
 msgstr "**プログラム言語サポート:** C, Python, Java, PHP, Fortran, Javascript, C#, Ruby"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:94
-msgid "**Support:** http://zoo-project.org/"
-msgstr "**サポート:** http://zoo-project.org/"
+msgid "**Support:** https://zoo-project.org/"
+msgstr "**サポート:** https://zoo-project.org/"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:100
 msgid "Quickstart"

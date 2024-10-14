@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-01 23:33+0000\n"
+"POT-Creation-Date: 2024-09-26 14:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -101,7 +101,7 @@ msgid "**Website:** https://gdal.org/"
 msgstr ""
 
 #: ../../build/doc/overview/gdal_overview.rst:71
-msgid "**Licence:** `X/MIT style Open Source license <https://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_"
+msgid "**License:** `X/MIT style Open Source license <https://gdal.org/en/latest/license.html>`_"
 msgstr ""
 
 #: ../../build/doc/overview/gdal_overview.rst:73
