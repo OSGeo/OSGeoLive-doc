@@ -169,7 +169,7 @@ msgid "Details"
 msgstr ""
 
 #: ../../build/doc/overview/qgis_overview.rst:85
-msgid "**Website:** https://www.qgis.org/"
+msgid "**Website:** https://www.qgis.org/en/site/"
 msgstr ""
 
 #: ../../build/doc/overview/qgis_overview.rst:87

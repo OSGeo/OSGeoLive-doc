@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"POT-Creation-Date: 2024-08-17 15:05-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgstr ""
 msgid "XyGrib is a Grib file reader and visualizes meteorological data providing an off-line capability to analyse weather forecasts or hindcasts. XyGrib is the continuation of the zyGrib software package with a new team of volunteers. It is intended to be used as a capable weather work station for anyone with a serious interest in examining weather. This would include members of the sailing community, private and sport aviators, farmers, weather buffs and many more."
 msgstr ""
 
-#: ../../build/doc/overview/xygrib_overview.rst:-1
+#: ../../build/doc/overview/xygrib_overview.rst:None
 msgid "xygrib screenshot"
 msgstr ""
 
@@ -104,6 +104,7 @@ msgstr ""
 msgid "OSGeo Project"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""
