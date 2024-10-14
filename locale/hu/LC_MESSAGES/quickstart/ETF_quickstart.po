@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-04 10:12+0000\n"
-"PO-Revision-Date: 2023-06-24 20:08+0000\n"
-"Last-Translator: Zoltan Siki <siki@agt.bme.hu>\n"
+"PO-Revision-Date: 2024-10-14 00:38+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
 "etf_quickstart/hu/>\n"
 "Language: hu\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:19
 msgid "ETF Quickstart"
@@ -437,7 +437,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:223
 msgid "Test Reports"
-msgstr "Teszt jelentések"
+msgstr "Teszt Jelentések"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:225
 msgid ""

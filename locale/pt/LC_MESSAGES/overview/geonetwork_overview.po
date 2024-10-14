@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-09-27 19:35+0000\n"
-"Last-Translator: Kaue de Moraes Vestena <kauemv2@gmail.com>\n"
+"PO-Revision-Date: 2024-09-27 22:36+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Portuguese <https://weblate.osgeo.org/projects/osgeolive/"
 "geonetwork_overview/pt/>\n"
 "Language: pt\n"
@@ -54,7 +54,7 @@ msgstr "Principais Funções"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:33
 msgid "Immediate search access to local and distributed geospatial catalogues"
-msgstr "Busca imediata para catálogos geoespaciais locais e distribuídos."
+msgstr "Busca imediata para catálogos geoespaciais locais e distribuídos"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:34
 msgid ""
@@ -62,7 +62,7 @@ msgid ""
 "content type"
 msgstr ""
 "Upload e download de dados, gráficos, documentos, arquivos pdfs e qualquer "
-"outro tipo de arquivo."
+"outro tipo de arquivo"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:35
 msgid ""

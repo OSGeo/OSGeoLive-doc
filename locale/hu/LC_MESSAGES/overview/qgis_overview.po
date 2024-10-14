@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2023-06-24 20:08+0000\n"
-"Last-Translator: Zoltan Siki <siki@agt.bme.hu>\n"
+"PO-Revision-Date: 2024-10-14 00:38+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
 "qgis_overview/hu/>\n"
 "Language: hu\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/qgis_overview.rst:20
 msgid "QGIS"
@@ -42,11 +42,11 @@ msgid ""
 msgstr ""
 "A QGIS egy felhasználóbarát, nyílt forráskódú GIS kliens melyben adatokat "
 "jeleníthet meg, kezelhet, szerkeszthet, elemezhet és nyomtatható térképeket "
-"állíthat össze. Hatékony elemző funkciókat tartalmaz a  "
+"állíthat össze. Hatékony elemző funkciókat tartalmaz a "
 ":doc:`GRASS<grass_overview>`, :doc:`SAGA <saga_overview>`, :doc:`Orfeo "
 "Toolbox <otb_overview>` , :doc:`GDAL/OGR <gdal_overview>` és még további "
-"algoritmus szolgáltatók integrációján keresztül. Futtatható Linux-on Mac "
-"OSX-en és Windows-on és számos vektor, raszter és adatbázis formátumot és "
+"algoritmus szolgáltatók integrációján keresztül. Futtatható Linux-on Mac OSX-"
+"en és Windows-on és számos vektor, raszter és adatbázis formátumot és "
 "funkcionalitást támogat."
 
 #: ../../build/doc/overview/qgis_overview.rstNone
@@ -59,7 +59,7 @@ msgstr "Alapfunkciók"
 
 #: ../../build/doc/overview/qgis_overview.rst:38
 msgid "Friendly graphical user interface:"
-msgstr "Barátságos grafikus felhasználói felület."
+msgstr "Barátságos grafikus felhasználói felület:"
 
 #: ../../build/doc/overview/qgis_overview.rst:40
 msgid "identify/select features"
@@ -134,7 +134,7 @@ msgstr "2.5D megjelenítés támogatása"
 
 #: ../../build/doc/overview/qgis_overview.rst:58
 msgid "Create, edit and export spatial data using:"
-msgstr "Térbeli adatok létrehozása, szerkesztése és exportálása"
+msgstr "Térbeli adatok létrehozása, szerkesztése és exportálása:"
 
 #: ../../build/doc/overview/qgis_overview.rst:60
 msgid "digitizing tools for GRASS and shapefile formats"
