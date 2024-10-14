@@ -8,20 +8,22 @@
 # MarieSilvestre, 2022
 # Nicolas Roelandt (Personnel), 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-01 17:00+0000\n"
-"PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2022\n"
-"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
+"PO-Revision-Date: 2024-10-01 09:17+0000\n"
+"Last-Translator: Edouard Choinière <echoix@users.noreply.weblate.osgeo.org>\n"
+"Language-Team: French <https://weblate.osgeo.org/projects/osgeolive/"
+"virtualization_quickstart/fr/>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:10
 msgid "Running in a Virtual Machine"
@@ -229,7 +231,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:110
 msgid "In the terminal type:"
-msgstr ""
+msgstr "Tapez dans le terminal :"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:112
 msgid "``sudo ./VBoxLinuxAdditions.run``"

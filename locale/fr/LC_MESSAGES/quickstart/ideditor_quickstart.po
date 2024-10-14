@@ -8,20 +8,22 @@
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2022
 # Nicolas Roelandt (Personnel), 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-20 21:55-0500\n"
-"PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2022\n"
-"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
+"PO-Revision-Date: 2024-10-01 09:17+0000\n"
+"Last-Translator: Edouard Choinière <echoix@users.noreply.weblate.osgeo.org>\n"
+"Language-Team: French <https://weblate.osgeo.org/projects/osgeolive/"
+"ideditor_quickstart/fr/>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:20
 msgid "iD editor Quickstart"
@@ -213,7 +215,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:96
 msgid "Adding points"
-msgstr ""
+msgstr "Ajout de points"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:98
 msgid "To add a new point, click on the **Point** button. |image3|"
@@ -222,8 +224,9 @@ msgstr ""
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:264
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:264
+#, fuzzy
 msgid "image3"
-msgstr ""
+msgstr "image3"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:100
 msgid ""
