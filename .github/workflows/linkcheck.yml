@@ -37,7 +37,7 @@ jobs:
     strategy:
         fail-fast: false
         matrix:
-          language: [de,en,es,fi,fr,hu,ja,it,nl,pt,sv,tr]
+          language: [de,en,es,fi,fr,hu,ja,it,nl,pt,sv,tr,zh_Hans]
 
     steps:
       - uses: actions/checkout@v4
@@ -82,7 +82,7 @@ jobs:
         run: |
           mkdir build
           cd build
-          cmake -DLINKCHECK=ON -DDE=ON -DES=ON -DFI=ON -DFR=ON -DHU=ON -DJA=ON -DIT=ON -DPT=ON -DSV=ON -DTR=ON -DNL=ON -DZH=ON ..
+          cmake -DLINKCHECK=ON -DDE=ON -DES=ON -DFI=ON -DFR=ON -DHU=ON -DJA=ON -DIT=ON -DPT=ON -DSV=ON -DTR=ON -DNL=ON -DZH_HANS=ON ..
 
       - name: Check Links languages
         if: env.PROCESS == 'true'
