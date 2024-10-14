@@ -65,7 +65,7 @@
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
 <section id="postgis-quickstart">
 <h1>PostGIS Quickstart<a class="headerlink" href="#postgis-quickstart" title="Link zu dieser Überschrift">¶</a></h1>
-<p>PostGIS ist die räumliche Erweiterung der relationalen Datenbank PostgreSQL. PostGIS ermöglicht die Speicherung, Abfrage und Bearbeitung von räumlichen Daten. In diesem Zusammenhang werden wir ‚PostgreSQL‘ verwenden, wenn wir über generelle Datenbankfunktionen sprechen und ‚PostGIS‘, wenn wir über die zusätzlichen Funktionalitäten, die die Erweiterung bereitstellt, reden.</p>
+<p>PostGIS ist die räumliche Erweiterung der relationalen Datenbank PostgreSQL. PostGIS ermöglicht die Speicherung, Abfrage und Bearbeitung von räumlichen Daten. In diesem Zusammenhang werden wir ‚PostgreSQL‘ verwenden, wenn wir über generelle Datenbankfunktionen sprechen und ‚PostGIS‘, wenn wir über die zusätzlichen Funktionalitäten, die Erweiterung bereitstellt, reden.</p>
 <p>Dieser Quickstart beschreibt, wie Sie:</p>
 <blockquote>
 <div><ul class="simple">
@@ -147,7 +147,7 @@
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># create extension postgis;</span>
 </pre></div>
 </div>
-<p>Lassen Sie sich die PostGIS Version ausgeben, um sich zu vergewissern, dass PostGIS installiert wurde.</p>
+<p>Lassen Sie sich die PostGIS Version ausgeben, um sich zu vergewissern, dass PostGIS installiert wurde:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># SELECT postgis_version();</span>
 
            <span class="n">postgis_version</span>
@@ -156,7 +156,7 @@
 <span class="p">(</span><span class="mi">1</span> <span class="n">row</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>PostGIS erzeugt viele Funktionen, eine Tabelle und einige Sichten.</p>
+<p>PostGIS erzeugt viele Funktionen, eine Tabelle und einige Sichten</p>
 <p>Über <code class="docutils literal notranslate"><span class="pre">\dt</span></code> können Sie dies prüfen und die Liste der Tabellen in der Datenbank ausgeben lassen. Es sollte diese Ausgabe erfolgen:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># \dt</span>
              <span class="n">List</span> <span class="n">of</span> <span class="n">relations</span>
@@ -186,7 +186,7 @@
 </div>
 <p>Die Ausgabe bestätigt, dass wir eine Datenbank mit räumlicher Erweiterung vorliegen haben.</p>
 <p>Zusätzlich wurden einige Sichten bei der PostGIS Aktivierung erzeugt.</p>
-<p>Über <code class="docutils literal notranslate"><span class="pre">\dv</span></code> können die Sichten aufgelistet werden.</p>
+<p>Über <code class="docutils literal notranslate"><span class="pre">\dv</span></code> können die Sichten aufgelistet werden:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># \dv</span>
                                                                 <span class="n">List</span> <span class="n">of</span> <span class="n">relations</span>
  <span class="n">Schema</span> <span class="o">|</span>       <span class="n">Name</span>        <span class="o">|</span> <span class="n">Type</span> <span class="o">|</span>  <span class="n">Owner</span>
@@ -240,7 +240,7 @@
 </section>
 <section id="simple-queries">
 <h2><a class="toc-backref" href="#id4">Einfache Abfragen</a><a class="headerlink" href="#simple-queries" title="Link zu dieser Überschrift">¶</a></h2>
-<p>Alle üblichen SQL-Operationen können angewendet werden, um Daten aus einer PostGIS-Tabelle abzufragen.</p>
+<p>Alle üblichen SQL-Operationen können angewendet werden, um Daten aus einer PostGIS-Tabelle abzufragen:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># SELECT * FROM cities;</span>
  <span class="nb">id</span> <span class="o">|</span>      <span class="n">name</span>       <span class="o">|</span>                      <span class="n">geom</span>
 <span class="o">----+-----------------+----------------------------------------------------</span>
@@ -264,7 +264,7 @@
 </section>
 <section id="spatial-queries">
 <h2><a class="toc-backref" href="#id5">Räumliche Abfragen</a><a class="headerlink" href="#spatial-queries" title="Link zu dieser Überschrift">¶</a></h2>
-<p>PostGIS erweitert PostgreSQL um zahlreiche räumliche Funktionen. Die Funktion ST_GeomFromText zur Konvertierung von WKT in eine Geometrie haben wir schon kennen gelernt. Die meisten Funktionen starten mit ST (Abkürzung für spatial type) und werden in der PostGIS-Dokumentation sehr gut beschrieben. Wir werden nun eine PostGIS-Funktion zur Beantwortung einer praktischen Frage verwenden. Wie weit sind diese 3 Londons voneinander entfernt? Die Ausgabe soll in Metern erfolgen und wir gehen von einer sphärischen Erde aus.</p>
+<p>PostGIS erweitert PostgreSQL um zahlreiche räumliche Funktionen. Die Funktion ST_GeomFromText zur Konvertierung von WKT in eine Geometrie haben wir schon kennen gelernt. Die meisten Funktionen starten mit ST (Abkürzung für spatial type) und werden in der PostGIS-Dokumentation sehr gut beschrieben. Wir werden nun eine PostGIS-Funktion zur Beantwortung einer praktischen Frage verwenden. Wie weit sind diese 3 Londons voneinander entfernt? Die Ausgabe soll in Metern erfolgen und wir gehen von einer sphärischen Erde aus?</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># SELECT p1.name,p2.name,ST_DistanceSphere(p1.geom,p2.geom) FROM cities AS p1, cities AS p2 WHERE p1.id &gt; p2.id;</span>
       <span class="n">name</span>       <span class="o">|</span>      <span class="n">name</span>       <span class="o">|</span> <span class="n">st_distancesphere</span>
 <span class="o">-----------------+-----------------+--------------------</span>
@@ -373,7 +373,7 @@ contained within this schema.</p>
 to the default <code class="docutils literal notranslate"><span class="pre">postgres</span></code> database).
 At this point you are able only to see the existing databases on the system. You can connect, by double clicking,
 on the name of a database. Do it for the <code class="docutils literal notranslate"><span class="pre">natural_earth2</span></code> database.</p>
-<p>Sie können jetzt sehen, dass das rote X verschwunden ist und links ein „&gt;“ erscheint. Durch Drücken wird eine Baumstruktur angezeigt, in der der Inhalt der Datenbank angezeigt wird.</p>
+<p>Sie können jetzt sehen, dass das rote X verschwunden ist und links ein „&gt;“ erscheint. Durch Drücken wird eine Baumstruktur angezeigt, in der Inhalt der Datenbank angezeigt wird.</p>
 <p>Navigieren Sie zu <code class="docutils literal notranslate"><span class="pre">Schemata</span></code> und öffnen Sie den Unterbaum. Öffnen Sie danach das Schema <code class="docutils literal notranslate"><span class="pre">public</span></code>. Öffnen Sie anschließend <code class="docutils literal notranslate"><span class="pre">Tabellen</span></code>. Sie sehen hier alle Tabellen dieses Schemas.</p>
 <a class="reference internal image-reference" href="../../_images/postgis_adminscreen1.png"><img alt="pgAdmin" class="align-center" src="../../_images/postgis_adminscreen1.png" style="width: 711.0px; height: 629.25px;" /></a>
 </section>
@@ -401,7 +401,7 @@ on the name of a database. Do it for the <code class="docutils literal notransla
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">CREATE</span> <span class="n">EXTENSION</span> <span class="n">postgres_fdw</span><span class="p">;</span>
 </pre></div>
 </div>
-<p>Erstellen Sie einen Foreign Server, der Ihnen mitteilt, wo die Datenquelle liegt, mit der Sie sich verbinden möchten.</p>
+<p>Erstellen Sie einen Foreign Server, der Ihnen mitteilt, wo die Datenquelle liegt, mit der Sie sich verbinden möchten</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">CREATE</span> <span class="n">SERVER</span> <span class="n">fdw_pg_server_osm_local</span>
  <span class="n">FOREIGN</span> <span class="n">DATA</span> <span class="n">WRAPPER</span> <span class="n">postgres_fdw</span>
  <span class="n">OPTIONS</span> <span class="p">(</span><span class="n">host</span> <span class="s1">&#39;127.0.0.1&#39;</span><span class="p">,</span> <span class="n">port</span> <span class="s1">&#39;5432&#39;</span><span class="p">,</span> <span class="n">dbname</span> <span class="s1">&#39;osm_local&#39;</span><span class="p">);</span>
@@ -487,10 +487,10 @@ on the name of a database. Do it for the <code class="docutils literal notransla
 </section>
 <section id="things-to-try">
 <h2><a class="toc-backref" href="#id14">Was Sie noch ausprobieren können</a><a class="headerlink" href="#things-to-try" title="Link zu dieser Überschrift">¶</a></h2>
-<p>Hier sind ein paar weitere Aufgaben, die Sie lösen können.</p>
+<p>Hier sind ein paar weitere Aufgaben, die Sie lösen können:</p>
 <ul class="simple">
 <li><p>Testen Sie weitere räumliche Funktionen beispielsweise <code class="docutils literal notranslate"><span class="pre">st_buffer(geom)</span></code>, <code class="docutils literal notranslate"><span class="pre">st_transform(geom,25831)</span></code>, <code class="docutils literal notranslate"><span class="pre">st_x(geom)</span></code>. Eine ausführliche Dokumentation finden Sie unter <a class="reference external" href="http://postgis.net/documentation/">http://postgis.net/documentation/</a></p></li>
-<li><p>Exportieren Sie Ihre Tabellen mit <code class="docutils literal notranslate"><span class="pre">pgsql2shp</span></code> in das Shape-Format</p></li>
+<li><p>Exportieren Sie Ihre Tabellen mit <code class="docutils literal notranslate"><span class="pre">pgsql2shp</span></code> in das Shape-Format.</p></li>
 <li><p>Nutzen Sie <code class="docutils literal notranslate"><span class="pre">ogr2ogr</span></code>, um Daten in Ihre Datenbank zu importieren/exportieren.</p></li>
 <li><p>Importieren Sie Daten auf der Kommandozeile mit <code class="docutils literal notranslate"><span class="pre">shp2pgsql</span></code> in Ihre Datenbank.</p></li>
 <li><p>Versuchen Sie ein Routing aufzubauen mit Hilfe von  <a class="reference internal" href="../overview/pgrouting_overview.html"><span class="doc">pgRouting</span></a>.</p></li>

@@ -84,10 +84,10 @@
 <section id="data-sets-included-in-osgeo-live">
 <h3>Jeux de données inclus dans OSGeo Live<a class="headerlink" href="#data-sets-included-in-osgeo-live" title="Lien permanent vers ce titre">¶</a></h3>
 <ul class="simple">
-<li><p>feature_city.osm.bz2: Un large extrait de la surface de l’agglomération dans un fichier text XML compressé dans un BZip2</p></li>
+<li><p>feature_city.osm.bz2: Un large extrait de la surface de l’agglomération dans un fichier text XML compressé dans un BZip2.</p></li>
 <li><p>feature_city_CBD.osm.bz2: Un sous-ensemble couvrant juste le centre-ville.</p></li>
 <li><p>feature_city_poi.db: Base de données Sqlite de nœuds de « positions d’intérêt » extraite de l’extrait OSM cité ci-dessus. Contient des emplacements de pubs, stations-service, restaurants, supermarchés, etc.</p></li>
-<li><p>Les fichiers référençant le nom de la ville en en exergue contiennent les mêmes données que les fichiers ci-dessus. Les guides de démarrage rapide et les aperçus utilisent les noms de fichiers génériques pour que la ville exemple puisse changer à chaque nouvelle version.</p></li>
+<li><p>Les fichiers référençant le nom de la ville en exergue contiennent les mêmes données que les fichiers ci-dessus. Les guides de démarrage rapide et les aperçus utilisent les noms de fichiers génériques pour que la ville exemple puisse changer à chaque nouvelle version.</p></li>
 </ul>
 <p>Les données de la ville avec les objets géographiques OSM ont été importées dans une base de données PostGIS appelée « osm_local » en utilisant l’outil osm2pgsql. Le système de référence spatiale utilisé pour cette base de données est la latitude-longitude avec le datum WGS84 (code EPSG 4326) et peut être reprojeté dans d’autres Systèmes de Référence Spatiale (SRS), tels que Spherical-Mercator, sur demande. L’extrait du centre-ville plus petit est chargé dans une autre base de données PostGIS appelée « pgrouting ».</p>
 </section>

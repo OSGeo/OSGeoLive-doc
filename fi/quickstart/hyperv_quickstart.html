@@ -64,7 +64,7 @@
   <section id="running-in-a-hyper-v-virtual-machine">
 <h1>Running in a Hyper-V Virtual Machine<a class="headerlink" href="#running-in-a-hyper-v-virtual-machine" title="Permalink to this headline">¶</a></h1>
 <p>Tämä pika-aloitus kuvailee kuinka suorittaa OSGeoLive käytettäessä Hyper-V, Microsoftinvirtualisointi ohjelmistoa. Tutustuaksesi muihin menetelmiin seuraa linkkejä ”Katso myös” osiosta alempana. Hyper-V on saataville sekä Windows Serverille kuin Windows 10 Professional järjestelmille - se ei ole osa Windows 10 Home järjestelmää.</p>
-<p>Virtuaalikoneen käyttämisen edut ovat samat kuin ne, jotka on kuvattu kohdassa <a class="reference internal" href="virtualization_quickstart.html"><span class="doc">Running in a Virtual Machine</span></a>. valitettavasti Virtual Boxia ja Hyper-V ei voi suorittaa saman aikaisesti.  Tämä - poistetaan jättää 2 vaihtoehtoa - Hyper-V ominaisuus, tai konfiguroidaan uusi Hyper-V kone suorittamaan OSGeoLiveä. Vapaata työkalua <a class="reference external" href="https://unclassified.software/en/apps/hypervswitch">hypervswitch</a> voidaan käyttää nopeasti ottamaan tai poistamaan Hyper-V käytöstä - se kuitenkin edellyttää tietokoneen uudelleen käynnistystä joka kerta kun asetuksia muutetaan. Loppu tästä sivusta dokumentoi kuinka konfiguroida OSGeolive suoritettavaksi Hyper-V:llä</p>
+<p>Virtuaalikoneen käyttämisen edut ovat samat kuin ne, jotka on kuvattu kohdassa <a class="reference internal" href="virtualization_quickstart.html"><span class="doc">Running in a Virtual Machine</span></a>. valitettavasti Virtual Boxia ja Hyper-V ei voi suorittaa saman aikaisesti.  Tämä - poistetaan jättää 2 vaihtoehtoa - Hyper-V ominaisuus, tai konfiguroidaan uusi Hyper-V kone suorittamaan OSGeoLiveä. Vapaata työkalua <a class="reference external" href="https://unclassified.software/en/apps/hypervswitch">hypervswitch</a> voidaan käyttää nopeasti ottamaan tai poistamaan Hyper-V käytöstä - se kuitenkin edellyttää tietokoneen uudelleen käynnistystä joka kerta kun asetuksia muutetaan. Loppu tästä sivusta dokumentoi kuinka konfiguroida OSGeolive suoritettavaksi Hyper-V:llä.</p>
 <section id="system-requirements">
 <h2>Järjestelmävaatimukset<a class="headerlink" href="#system-requirements" title="Permalink to this headline">¶</a></h2>
 <p>Hyper-V requirements can be found <a class="reference external" href="https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v">here</a>.
@@ -127,7 +127,7 @@ ConvertTo-MvmcVirtualHardDisk -SourceLiteralPath .\osgeo-live-11.0-vm.vmdk -VhdF
 <p>Tämä opas olettaa Hyper-V jo asennetuksi ja käytettäväksi - jos näin ei ole laita tyypillisempi lähestyminen on käyttää VirtualBoxia on kuvailtu dokumentissa  <a class="reference internal" href="virtualization_quickstart.html"><span class="doc">Running in a Virtual Machine</span></a> .</p>
 <p><strong>Luo virtuaalikone</strong></p>
 <ol class="arabic">
-<li><p>Käynnistä Hyper-V Manager ohjelma ja Actions valinnasta valitse New -&gt; Virtual Machine, ja sitten Next. Tämän jälkeen anna sopiva nimi virtuaalikoneelle,</p>
+<li><p>Käynnistä Hyper-V Manager ohjelma ja Actions valinnasta valitse New -&gt; Virtual Machine, ja sitten Next. Tämän jälkeen anna sopiva nimi virtuaalikoneelle.</p>
 <img alt="../../_images/osgeolive_hyperv_install1_start.png" src="../../_images/osgeolive_hyperv_install1_start.png" />
 </li>
 <li><p>Valitse ”Generation 1”  Specify Generation vaihtoehdoista.</p>
@@ -142,7 +142,7 @@ ConvertTo-MvmcVirtualHardDisk -SourceLiteralPath .\osgeo-live-11.0-vm.vmdk -VhdF
 </div></blockquote>
 <p><strong>Virtuaalikoneen suorittaminen</strong></p>
 <ol class="arabic simple">
-<li><p>Valitse virtuaalikone Virtual Machines listasta.</p></li>
+<li><p>Valitse virtuaalikone Virtual Machines listasta</p></li>
 <li><p>Klikkaa oikealla ja valitse  ”Connect”.  Sinua kehotetaan käynnistämään kone ja uusi ”Virtual Machine Connection”  ikkuna aukeaa.</p></li>
 </ol>
 </section>

@@ -93,7 +93,7 @@
 <section id="view-in-desktop-gis">
 <h2><a class="toc-backref" href="#id3">Anzeige im Desktop-GIS</a><a class="headerlink" href="#view-in-desktop-gis" title="Link zu dieser Überschrift">¶</a></h2>
 <p>Die Dienste, die über MapProxy zu Verfügung gestellt werden, können Sie in das Desktop GIS Ihrer Wahl zum Beispiel uDig, QGIS oder gvSIG einbinden. Die WMS-URL lautet: <a class="reference external" href="http://localhost:8011/service?">http://localhost:8011/service?</a></p>
-<p>Die Beispiel-Konfiguration des MapProxy beinhaltet einige Layer die unterschiedliche Kartenserver und Kartendaten verwenden. Im Folgenden sind nähere Einzelheiten zu den einzelnen Layern beschrieben:</p>
+<p>Die Beispiel-Konfiguration des MapProxy beinhaltet einige Layer die unterschiedliche Kartenserver und Kartendaten verwenden. Im Folgenden sind nähere Einzelheiten zu den einzelnen Layern beschrieben.</p>
 <figure class="align-center" id="id1">
 <a class="reference internal image-reference" href="../../_images/mapproxy_udig.png"><img alt="MapProxy example in uDig" src="../../_images/mapproxy_udig.png" style="width: 627.1999999999999px; height: 451.49999999999994px;" /></a>
 <figcaption>
@@ -107,8 +107,7 @@
 </dd>
 <dt><strong>mapnik_tile</strong>:</dt><dd><p>The world population rendered by Mapnik as tile layer.</p>
 </dd>
-<dt><strong>geoserver</strong>:</dt><dd><p>The US population rendered by the <a class="reference internal" href="../overview/geoserver_overview.html"><span class="doc">GeoServer</span></a> WMS. This layer also supports <code class="docutils literal notranslate"><span class="pre">GetFeatureInfo</span></code> requests which are cascaded to the source WMS.
-You need to start GeoServer with <span class="menuselection">Geospatial ‣ Web Services ‣ GeoServer ‣ Start GeoServer</span> before accessing this layer.</p>
+<dt><strong>geoserver</strong>:</dt><dd><p>In diesem Layer wird die US Bevölkerung mit Hilfe des <a class="reference internal" href="../overview/geoserver_overview.html"><span class="doc">GeoServer</span></a> WMS dargestellt. Der Layer unterstützt <code class="docutils literal notranslate"><span class="pre">GetFeatureInfo</span></code> Anfragen, welche von mehreren Quellen zusammengefasst wurden. Um den Layer anzuzeigen müssen Sie GeoServer über <span class="menuselection">Geospatial ‣ Web Services ‣ GeoServer ‣ Start GeoServer</span> starten.</p>
 </dd>
 <dt><strong>mapnik_geoserver</strong>:</dt><dd><p>Dieser Layer demonstriert die Fähigkeit, unterschiedliche Quellen in einem Layer zu kombinieren. Der Layer kombiniert die Weltbevölkerung vom Mapnik mit der US Bevölkerung vom GeoServer. Die Unterstützung vom <code class="docutils literal notranslate"><span class="pre">GetFeatureInfo</span></code> für den US Bevölkerungs-Layer ist weiterhin verfügbar. Um den Layer anzuzeigen, müssen Sie GeoServer über <span class="menuselection">Geospatial ‣ Web Services ‣ GeoServer ‣ Start GeoServer</span> starten.</p>
 </dd>

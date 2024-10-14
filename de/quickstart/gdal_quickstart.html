@@ -161,7 +161,7 @@
 <h2><a class="toc-backref" href="#id3">gdal_translate zur einfachen Formatumwandlung</a><a class="headerlink" href="#simple-format-translation" title="Link zu dieser Überschrift">¶</a></h2>
 <p>Als Erstes lassen wir uns die verfügbaren Treiber ausgeben. Über die Angabe des zusätzlichen Parameters <cite>–formats</cite> gibt gdal_translate die Liste der verfügbaren Formate aus.</p>
 <dl class="simple">
-<dt>Zu jedem Format wird ausgegeben, welche Operationen verfügbar sind:</dt><dd><ul class="simple">
+<dt>Zu jedem Format wird ausgegeben, welche Operationen verfügbar sind</dt><dd><ul class="simple">
 <li><p>read only (ro) - nur lesend,</p></li>
 <li><p>read/write (rw) - lesend/schreibend oder</p></li>
 <li><p>read/write/update (rw+) - lesend/schreibend/Aktualisierung.</p></li>
@@ -179,7 +179,7 @@
 </section>
 <section id="translation">
 <h2><a class="toc-backref" href="#id4">Formatumwandlung</a><a class="headerlink" href="#translation" title="Link zu dieser Überschrift">¶</a></h2>
-<p>Formatumwandlungen erfolgen mit gdal_translate. Das Standardausgabeformat ist GeoTIFF. Über die Angabe <cite>-of</cite> kann ein Ausgabeformat angegeben werden. Über <cite>-co</cite> können weitere Optionen für die Erzeugung gesetzt werden.</p>
+<p>Formatumwandlungen erfolgen mit gdal_translate. Das Standardausgabeformat ist GeoTIFF. Über die Angabe <cite>-of</cite> kann ein Ausgabeformat angegeben werden. Über <cite>-co</cite> können weitere Optionen für die Erzeugung gesetzt werden:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdal_translate</span> <span class="o">-</span><span class="n">of</span> <span class="n">JPEG</span> <span class="o">-</span><span class="n">co</span> <span class="n">QUALITY</span><span class="o">=</span><span class="mi">40</span> <span class="n">HYP_50M_SR_W</span><span class="o">.</span><span class="n">tif</span> <span class="n">HYP_50M_SR_W</span><span class="o">.</span><span class="n">jpg</span>
 </pre></div>
 </div>
@@ -210,7 +210,7 @@
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdaltindex</span> <span class="n">index_natural_earth</span><span class="o">.</span><span class="n">shp</span> <span class="o">*</span><span class="n">st</span><span class="o">.</span><span class="n">tif</span>
 </pre></div>
 </div>
-<p>Schauen Sie sich Ihre Ausgabe-Shapedatei mit QGIS und ogrinfo an (später werden Sie noch mehr über ogrinfo erfahren).</p>
+<p>Schauen Sie sich Ihre Ausgabe-Shapedatei mit QGIS und ogrinfo an (später werden Sie noch mehr über ogrinfo erfahren)</p>
 <blockquote>
 <div><a class="reference internal image-reference" href="../../_images/gdal_gdaltindex.png"><img alt="../../_images/gdal_gdaltindex.png" src="../../_images/gdal_gdaltindex.png" style="width: 416.0px; height: 212.0px;" /></a>
 </div></blockquote>
@@ -260,7 +260,7 @@ resolve this.</p>
 </section>
 <section id="mosaicking">
 <h2><a class="toc-backref" href="#id8">Zusammenfassen von Daten</a><a class="headerlink" href="#mosaicking" title="Link zu dieser Überschrift">¶</a></h2>
-<p>gdal_merge.py ist ein Python Skript, das für einfache Zusammenfassungen verwendet werden kann. Fassen Sie die Dateien east.tif und west.tif in eine Datei zusammen.</p>
+<p>gdal_merge.py ist ein Python Skript, das für einfache Zusammenfassungen verwendet werden kann. Fassen Sie die Dateien east.tif und west.tif in eine Datei zusammen:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdal_merge</span><span class="o">.</span><span class="n">py</span>  <span class="n">east</span><span class="o">.</span><span class="n">tif</span> <span class="n">west</span><span class="o">.</span><span class="n">tif</span> <span class="o">-</span><span class="n">o</span> <span class="n">merged</span><span class="o">.</span><span class="n">tif</span>
 </pre></div>
 </div>
