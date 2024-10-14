@@ -70,7 +70,7 @@ msgid ""
 "Choose |menu_deegree-Start|. The application will take a few moments to "
 "start up."
 msgstr ""
-"Elijir |menu_deegree-Inicio|. La aplicación tardará unos momentos en "
+"Elijir |menu_deegree-Start|. La aplicación tardará unos momentos en "
 "iniciarse."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:45

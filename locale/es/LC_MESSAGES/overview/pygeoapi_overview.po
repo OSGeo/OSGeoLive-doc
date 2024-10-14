@@ -222,7 +222,7 @@ msgstr "**Interfaces API:** Python"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:84
 msgid "**Support:** https://pygeoapi.io/community/service-providers"
-msgstr "**Soporte:**https://pygeoapi.io/community/service-providers"
+msgstr "**Soporte:** https://pygeoapi.io/community/service-providers"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:102
 msgid "Quickstart"

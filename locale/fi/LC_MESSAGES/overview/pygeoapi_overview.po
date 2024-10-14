@@ -189,7 +189,7 @@ msgstr ""
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:80
 msgid "**Supported Platforms:** Windows, Linux, Mac"
-msgstr "* * Tuetut käyttöjärjestelmät: * * Windows, Linux, Mac"
+msgstr "**Tuetut käyttöjärjestelmät:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:82
 msgid "**API Interfaces:** Python"

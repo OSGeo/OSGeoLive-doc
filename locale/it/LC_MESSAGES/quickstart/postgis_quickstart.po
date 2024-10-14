@@ -768,7 +768,7 @@ msgid ""
 " see all the tables contained within this schema."
 msgstr ""
 "Ora si può vedere che c'è un solo schema in questo database, chiamato "
-"``public``. Facendo clic sul più a sinistra di ``Tabelle'' per "
+"``public``. Facendo clic sul più a sinistra di ``Tabelle`` per "
 "espanderlo, si possono vedere tutte le tabelle contenute in questo "
 "schema."
 
