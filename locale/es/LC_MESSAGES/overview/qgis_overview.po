@@ -217,8 +217,8 @@ msgid "Details"
 msgstr "Detalles"
 
 #: ../../build/doc/overview/qgis_overview.rst:85
-msgid "**Website:** https://www.qgis.org/en/site/"
-msgstr "**Sitio web:** https://www.qgis.org/en/site/"
+msgid "**Website:** https://www.qgis.org/"
+msgstr "**Sitio web:** https://www.qgis.org/"
 
 #: ../../build/doc/overview/qgis_overview.rst:87
 msgid "**Licence:** GNU General Public License (GPL) version 2"
@@ -240,10 +240,10 @@ msgstr ""
 #: ../../build/doc/overview/qgis_overview.rst:95
 msgid ""
 "**Commercial Support:** "
-"https://qgis.org/en/site/forusers/commercial_support.html"
+"https://qgis.org/en/site/resources/support/commercial-support"
 msgstr ""
 "**Soporte Comercial:** "
-"https://qgis.org/en/site/forusers/commercial_support.html"
+"https://qgis.org/en/site/resources/support/commercial-support"
 
 #: ../../build/doc/overview/qgis_overview.rst:101
 msgid "Quickstart"

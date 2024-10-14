@@ -114,8 +114,8 @@ msgid "Details"
 msgstr "Részletek"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:53
-msgid "**Website:** https://www.qgis.org/en/site/"
-msgstr "**Honlap:** https://www.qgis.org/en/site/"
+msgid "**Website:** https://www.qgis.org/"
+msgstr "**Honlap:** https://www.qgis.org/"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:55
 msgid "**Licence:** GPL"
@@ -132,10 +132,10 @@ msgstr "**Támogatott platformok:** Windows, Linux"
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:61
 msgid ""
 "**Commercial Support:** "
-"https://www.qgis.org/en/site/forusers/commercial_support.html"
+"https://www.qgis.org/resources/support/commercial-support"
 msgstr ""
 "**Kereskedelmi támogatás:** "
-"https://www.qgis.org/en/site/forusers/commercial_support.html"
+"https://www.qgis.org/resources/support/commercial-support"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:67
 msgid "Quickstart"

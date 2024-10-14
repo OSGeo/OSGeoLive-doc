@@ -196,7 +196,7 @@ msgid "Details"
 msgstr "Detalhes"
 
 #: ../../build/doc/overview/qgis_overview.rst:85
-msgid "**Website:** https://www.qgis.org/en/site/"
+msgid "**Website:** https://www.qgis.org/"
 msgstr ""
 
 #: ../../build/doc/overview/qgis_overview.rst:87
@@ -218,7 +218,7 @@ msgstr ""
 #: ../../build/doc/overview/qgis_overview.rst:95
 msgid ""
 "**Commercial Support:** "
-"https://qgis.org/en/site/forusers/commercial_support.html"
+"https://qgis.org/en/site/resources/support/commercial-support"
 msgstr ""
 
 #: ../../build/doc/overview/qgis_overview.rst:101

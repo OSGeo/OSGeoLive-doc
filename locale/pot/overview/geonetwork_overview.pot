@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"POT-Creation-Date: 2024-08-17 15:05-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgstr ""
 msgid "GeoNetwork OpenSource is a catalog application for managing spatially referenced resources. It provides powerful metadata editing and search functions, an embedded interactive web map viewer, and is based upon Open Standards."
 msgstr ""
 
-#: ../../build/doc/overview/geonetwork_overview.rst:-1
+#: ../../build/doc/overview/geonetwork_overview.rst:None
 msgid "geonetwork screenshot"
 msgstr ""
 
@@ -156,6 +156,7 @@ msgstr ""
 msgid "OSGeo Project"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""

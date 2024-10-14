@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"POT-Creation-Date: 2024-08-17 15:05-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -140,7 +140,7 @@ msgstr ""
 msgid "Press :guilabel:`publish` next to one of the layers to finish adding the data. This will take you to the *Layers* page:"
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:-1
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:None
 msgid "The layer publishing page"
 msgstr ""
 
@@ -204,7 +204,7 @@ msgstr ""
 msgid "In the :ref:`Layer list <Layer_list>` select the style button (it looks like an artist's palette)."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:-1
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:None
 msgid "The Layer list window"
 msgstr ""
 
@@ -240,7 +240,7 @@ msgstr ""
 msgid "This gives a nice looking basic world map."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:-1
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:None
 msgid "A basic word map"
 msgstr ""
 
@@ -280,7 +280,7 @@ msgstr ""
 msgid "Press the :guilabel:`Submit` at the bottom of the page."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:-1
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:None
 msgid "Adding a Style to GeoServer"
 msgstr ""
 
@@ -364,7 +364,7 @@ msgstr ""
 msgid "Scroll down to the bottom of the \"Data\" tab and press \"Save\" again."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:317
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:0
 msgid "Adding a NetCDF store"
 msgstr ""
 
@@ -428,6 +428,7 @@ msgstr ""
 msgid "OSGeo Project"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""

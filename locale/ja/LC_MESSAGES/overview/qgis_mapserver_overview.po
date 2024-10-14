@@ -113,8 +113,8 @@ msgid "Details"
 msgstr "詳細"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:53
-msgid "**Website:** https://www.qgis.org/en/site/"
-msgstr "**Webサイト:** https://www.qgis.org/en/site/"
+msgid "**Website:** https://www.qgis.org/"
+msgstr "**Webサイト:** https://www.qgis.org/"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:55
 msgid "**Licence:** GPL"
@@ -131,9 +131,9 @@ msgstr "**対応プラットフォーム:** Windows、Linux"
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:61
 msgid ""
 "**Commercial Support:** "
-"https://www.qgis.org/en/site/forusers/commercial_support.html"
+"https://www.qgis.org/resources/support/commercial-support"
 msgstr ""
-"**商用サポート:** https://www.qgis.org/en/site/forusers/commercial_support.html"
+"**商用サポート:** https://www.qgis.org/resources/support/commercial-support"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:67
 msgid "Quickstart"

@@ -37,7 +37,7 @@ jobs:
     strategy:
         fail-fast: false
         matrix:
-          language: [de,en,es,fi,fr,hu,ja,it,nl,pt,sv,tr]
+          language: [de,en,es,fi,fr,hu,ja,it,nl,pt,sv,tr,zh_Hans]
 
     steps:
       - uses: actions/checkout@v4
@@ -48,44 +48,46 @@ jobs:
         id: check_files
         run: |
           # allways processing english, no matter what the change was
-          if [[ "${{ matrix.language }}" == "en" ]]; then echo "PROCESS=true" >> $GITHUB_ENV; exit 0; fi
-
-          # when this file changes  all languages are tested
-          if git diff --name-only HEAD^ HEAD | grep -q '.github/workflows/linkcheck.yml' ; then  echo "PROCESS=true" >> $GITHUB_ENV; exit 0; fi
-
-          # when there is a change on the way the build is done all languages are tested
-          if git diff --name-only HEAD^ HEAD | grep -q '^CMakeLists.txt' ; then  echo "PROCESS=true" >> $GITHUB_ENV; exit 0; fi
-          if git diff --name-only HEAD^ HEAD | grep -q '^doc/CMakeLists.txt' ; then  echo "PROCESS=true" >> $GITHUB_ENV; exit 0; fi
-          if git diff --name-only HEAD^ HEAD | grep -q '^doc/conf.py' ; then  echo "PROCESS=true" >> $GITHUB_ENV; exit 0; fi
+          if [[ "${{ matrix.language }}" == "en" ]]; then echo "PROCESS=true" >> $GITHUB_ENV; fi
 
           # if there is a change on the translation
-          if git diff --name-only HEAD^ HEAD | grep -q "^locale/${{ matrix.language }}" ; then  echo "PROCESS=true" >> $GITHUB_ENV; echo "CHK_LINK=true" >> $GITHUB_ENV; exit 0; fi
+          if git diff --name-only HEAD^ HEAD | grep -q "^locale/${{ matrix.language }}" ; then echo "PROCESS=true" >> $GITHUB_ENV; fi
+          # if the change involves a link
+          if git diff HEAD^ "locale/${{ matrix.language }}" | grep "http" | grep -q "+" ; then echo "CHK_LINK=true" >> $GITHUB_ENV; fi
 
       - name: Install python
-        if: env.PROCESS == 'true'
+        if: env.PROCESS == 'true' || env.CHK_LINK == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
 
       - name: Install dependencies
-        if: env.PROCESS == 'true'
+        if: env.PROCESS == 'true' || env.CHK_LINK == 'true'
         run: |
           sudo apt-get update
           sudo apt-get install -y \
-            graphviz
+            graphviz cmake cpanminus
+          sudo cpanm Text::SimpleTable::AutoWidth
           pip install -r requirements.txt
           pip list
 
       - name: Configure link checks
-        if: env.PROCESS == 'true'
+        if: env.PROCESS == 'true' || env.CHK_LINK == 'true'
         run: |
           mkdir build
           cd build
-          cmake -DLINKCHECK=ON -DDE=ON -DES=ON -DFI=ON -DFR=ON -DHU=ON -DJA=ON -DIT=ON -DPT=ON -DSV=ON -DTR=ON -DNL=ON -DZH=ON ..
+          cmake -DHTML=ON -DLINKCHECK=ON -DDE=ON -DES=ON -DFI=ON -DFR=ON -DHU=ON -DJA=ON -DIT=ON -DPT=ON -DSV=ON -DTR=ON -DNL=ON -DZH_HANS=ON ..
+
+      - name: test documentation
+        if: env.PROCESS == 'true'
+        run: |
+          cd build
+          make html-${{ matrix.language }}
+          make presentation-html-${{ matrix.language }}
 
       - name: Check Links languages
-        if: env.PROCESS == 'true'
+        if: env.CHK_LINK == 'true'
         run: |
           cd build
           make linkcheck-${{ matrix.language }}

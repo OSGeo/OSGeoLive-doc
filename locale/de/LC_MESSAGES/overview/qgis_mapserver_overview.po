@@ -117,7 +117,7 @@ msgid "Details"
 msgstr "Details"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:53
-msgid "**Website:** https://www.qgis.org/en/site/"
+msgid "**Website:** https://www.qgis.org/"
 msgstr "**Webseite:** https://www.qgis.org/de/site/"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:55
@@ -135,10 +135,10 @@ msgstr "**Unterstützte Plattformen:** Windows, Linux"
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:61
 msgid ""
 "**Commercial Support:** "
-"https://www.qgis.org/en/site/forusers/commercial_support.html"
+"https://www.qgis.org/resources/support/commercial-support"
 msgstr ""
 "**Kommerzieller Support:** "
-"https://www.qgis.org/en/site/forusers/commercial_support.html"
+"https://www.qgis.org/resources/support/commercial-support"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:67
 msgid "Quickstart"

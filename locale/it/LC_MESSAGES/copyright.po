@@ -337,7 +337,7 @@ msgstr "Balasubramaniam Natarajan"
 
 #: ../../build/licenses.csv:1
 msgid "Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)"
-msgstr "Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)"
+msgstr "Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)"
 
 #: ../../build/licenses.csv:1
 msgid "deegree_overview"
@@ -433,7 +433,7 @@ msgstr "Hamish Bowman; Paul Wessel"
 
 #: ../../build/licenses.csv:1
 msgid "Creative Commons Attribution 3.0 Unported  (CC BY 3.0)"
-msgstr "Creative Commons Attribution 3.0 Unported  (CC BY 3.0)"
+msgstr "Creative Commons Attribution 3.0 Unported (CC BY 3.0)"
 
 #: ../../build/licenses.csv:1
 msgid "gpsdrive_overview"
@@ -1211,7 +1211,7 @@ msgstr "OSGeoLive; Jachym Cepicky, Tom Kralidis"
 
 #: ../../build/licenses.csv:1
 msgid "Creative Commons Attribution"
-msgstr "Attribuzione Creative Commons"
+msgstr "Creative Commons Attribution"
 
 #: ../../build/licenses.csv:1
 msgid "qgis_mapserver_quickstart"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"POT-Creation-Date: 2024-08-17 15:05-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgstr ""
 msgid "GeoServer is a web server that allows you to serve maps and data from a variety of formats to standard clients such as web browsers and desktop GIS programs. Data is published via standards based interfaces, such as WMS, WFS, WCS, WPS, Tile Caching and more. GeoServer comes with a browser-based management interface and connects to multiple data sources at the back end."
 msgstr ""
 
-#: ../../build/doc/overview/geoserver_overview.rst:-1
+#: ../../build/doc/overview/geoserver_overview.rst:None
 msgid "geoserver screenshot"
 msgstr ""
 
@@ -196,6 +196,7 @@ msgstr ""
 msgid "OSGeo Project"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""

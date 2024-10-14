@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"POT-Creation-Date: 2024-08-17 15:05-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,7 +48,7 @@ msgstr ""
 msgid "Click on the magnifying glass and type in the location you are looking for. In the following display, we look for India."
 msgstr ""
 
-#: ../../build/doc/quickstart/cesium_quickstart.rst:-1
+#: ../../build/doc/quickstart/cesium_quickstart.rst:None
 msgid "Cesium Searching Location"
 msgstr ""
 
@@ -60,7 +60,7 @@ msgstr ""
 msgid "Click on the wire framed globe icon to select your preferred view.  Here the 2.5D Columbus view has been selected."
 msgstr ""
 
-#: ../../build/doc/quickstart/cesium_quickstart.rst:-1
+#: ../../build/doc/quickstart/cesium_quickstart.rst:None
 msgid "Cesium switching between 3D, 2.5D and 2D"
 msgstr ""
 
@@ -68,7 +68,8 @@ msgstr ""
 msgid "Now the 2D map is selected."
 msgstr ""
 
-#: ../../build/doc/quickstart/cesium_quickstart.rst:-1
+#: ../../build/doc/quickstart/cesium_quickstart.rst:None
+#: ../../build/doc/quickstart/cesium_quickstart.rst:None
 msgid "Cesium 2D map"
 msgstr ""
 
@@ -116,6 +117,7 @@ msgstr ""
 msgid "OSGeo Project"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""

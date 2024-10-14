@@ -106,8 +106,8 @@ msgid "Details"
 msgstr "Ayrıntılar"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:53
-msgid "**Website:** https://www.qgis.org/en/site/"
-msgstr "**Web sitesi:** https://www.qgis.org/en/site/"
+msgid "**Website:** https://www.qgis.org/"
+msgstr "**Web sitesi:** https://www.qgis.org/"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:55
 msgid "**Licence:** GPL"
@@ -124,10 +124,10 @@ msgstr "**Desteklenen Ortamlar:** Windows, Linux"
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:61
 msgid ""
 "**Commercial Support:** "
-"https://www.qgis.org/en/site/forusers/commercial_support.html"
+"https://www.qgis.org/resources/support/commercial-support"
 msgstr ""
 "**Ticari Destek:** "
-"https://www.qgis.org/en/site/forusers/commercial_support.html"
+"https://www.qgis.org/resources/support/commercial-support"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:67
 msgid "Quickstart"

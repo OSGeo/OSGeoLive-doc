@@ -110,7 +110,7 @@ msgid ""
 "Click |menu_mapnik|. The server starts in a terminal window (which stays "
 "open and outputs basic debugging information)."
 msgstr ""
-"Clicca su |menu_mapnuk|. Il server si avvia in una finestra di terminale ("
+"Clicca su |menu_mapnik|. Il server si avvia in una finestra di terminale ("
 "che rimane aperta e fornisce informazioni di debug di base)."
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:62

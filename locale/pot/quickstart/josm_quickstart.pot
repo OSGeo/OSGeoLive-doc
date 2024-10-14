@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"POT-Creation-Date: 2024-08-17 15:05-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -40,7 +40,7 @@ msgstr ""
 msgid "From the desktop, choose :menuselection:`Navigation and Maps --> JOSM`. When JOSM starts, it will look something like this:"
 msgstr ""
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:-1
+#: ../../build/doc/quickstart/josm_quickstart.rst:None
 msgid "JOSM splash page"
 msgstr ""
 
@@ -164,7 +164,7 @@ msgstr ""
 msgid "Until now, you have been using the Select tool, which looks like this:"
 msgstr ""
 
-#: ../../build/doc/quickstart/josm_quickstart.rst:-1
+#: ../../build/doc/quickstart/josm_quickstart.rst:None
 #: ../../build/doc/quickstart/josm_quickstart.rst:0
 msgid "Select tool"
 msgstr ""
@@ -289,6 +289,7 @@ msgstr ""
 msgid "OSGeo Project"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""

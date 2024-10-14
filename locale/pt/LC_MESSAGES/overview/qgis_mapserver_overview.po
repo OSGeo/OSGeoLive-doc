@@ -108,7 +108,7 @@ msgid "Details"
 msgstr "Detalhes"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:53
-msgid "**Website:** https://www.qgis.org/en/site/"
+msgid "**Website:** https://www.qgis.org/"
 msgstr ""
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:55
@@ -126,7 +126,7 @@ msgstr ""
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:61
 msgid ""
 "**Commercial Support:** "
-"https://www.qgis.org/en/site/forusers/commercial_support.html"
+"https://www.qgis.org/resources/support/commercial-support"
 msgstr ""
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:67
