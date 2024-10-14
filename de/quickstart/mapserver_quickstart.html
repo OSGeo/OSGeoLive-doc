@@ -225,7 +225,13 @@
 <p class="admonition-title">Bemerkung</p>
 <p><strong>Was werden wir lernen ?</strong> Sie sehen ein Beispiel für die Darstellungselemente eines Layers in Abhängigkeit von seinen Eigenschaften.</p>
 </div>
-<p>In einer Mapdatei kann ein Layer-Objekt eine zahlreiche CLASS-Objekten enthalten. Diese werden verwendet, um die Darstellung von Elementen eines Layers (DATA) zu definieren. Zum Beispiel, wenn wir uns die „10m_lakes“ Datei mit einem Werkzeug wie <a class="reference external" href="https://gdal.org/ogrinfo.html">ogrinfo</a> anzeigen lassen, sehen wir die Geometrie und Attribut-Definitionen der Objekte. Diese Attributwerte können verwendet werden, um die Objekte innerhalb eines Datensatzes mit mehreren unterschiedlichen CLASS-Objekten unterschiedlich darzustellen.</p>
+<p>In a Mapfile, a LAYER object can contain an infinite number of CLASS
+objects. These are used to style the elements contained in the spatial data
+file (DATA). For example, if we look closer at our „ne_10m_lakes“ data file
+using a tool such as <a class="reference external" href="https://gdal.org/en/latest/programs/ogrinfo.html">ogrinfo</a>, we’ll
+see the geometry and attribute definitions it contains. These attribute
+values can be used as a way to draw the elements inside a dataset
+differently using multiple CLASS objects.</p>
 <p>In unserem „ne_10m_lakes“-Datensatz haben wir ein Attribut <em>ScaleRank</em>, das mit der Größe der Seen zusammenhängt. Wir können dies nutzen, um die Seen unterschiedlich darzustellen. Im LAYER-Objekt fügen wir ein weiteres CLASS-Objekt kurz vor unserem aktuellen hinzu:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">LAYER</span>
   <span class="n">NAME</span> <span class="s2">&quot;Lakes&quot;</span>

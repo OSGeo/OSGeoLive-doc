@@ -225,7 +225,13 @@
 <p class="admonition-title">Megjegyzés</p>
 <p><strong>Mit fogok tanulni?</strong> Egy példát lát majd a rétegen belüli elemek stílusának beállítására az adataik alapján.</p>
 </div>
-<p>A Map fájlban a LAYER objektum tetszőleges számú CLASS objektumot tartalmazhat. Ezeket használjuk a téradatokat tartalmazó adatfájl (DATA) elemek stílusának a beállítására. Például, ha közelebbről megnézzük a „ne_10m_lakes” adatfájlt az <a class="reference external" href="httsp://www.gdal.org/ogrinfo.html">ogrinfo</a> eszközzel, látni fogjuk a benne lévő geometriát és attribútum definíciókat. Ezeket az attribútum értékeket használhatjuk, hogy az térképi elemeket különböző módon jelenítsük meg több CLASS objektum használatával.</p>
+<p>In a Mapfile, a LAYER object can contain an infinite number of CLASS
+objects. These are used to style the elements contained in the spatial data
+file (DATA). For example, if we look closer at our „ne_10m_lakes” data file
+using a tool such as <a class="reference external" href="https://gdal.org/en/latest/programs/ogrinfo.html">ogrinfo</a>, we’ll
+see the geometry and attribute definitions it contains. These attribute
+values can be used as a way to draw the elements inside a dataset
+differently using multiple CLASS objects.</p>
 <p>A „ne_10m_lakes” adatállományunkban van egy <em>ScaleRank</em> attribútum, mely a tavak méretéhez kapcsolódik. Ezt használhatjuk, hogy a tavakat különbözőképpen jelenítsük meg. A LAYER objektumhoz egy másik CLASS objektumot adunk az aktuális elé:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">LAYER</span>
   <span class="n">NAME</span> <span class="s2">&quot;Lakes&quot;</span>

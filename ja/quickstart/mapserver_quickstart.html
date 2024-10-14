@@ -225,7 +225,13 @@
 <p class="admonition-title">注釈</p>
 <p><strong>何を学ベますか?</strong> レイヤ内の要素のスタイル設定の例が、データプロパティの一部に応じて表示されます。</p>
 </div>
-<p>Mapfileでは、LAYERオブジェクトに無限個のCLASSオブジェクトを含めることができます。これらは、空間データファイル(DATA)に含まれる要素のスタイルを設定するために使用されます。たとえば、 <a class="reference external" href="https://gdal.org/ogrinfo.html">ogrinfo</a> などのツールを使用して &quot;ne_10m_lakes&quot; データファイルを詳しく調べると、このファイルに含まれるジオメトリと属性定義がわかります。 これらの属性値は、複数のCLASSオブジェクトを使用してデータセット内の要素を異なる方法で描画する方法として使用できます。</p>
+<p>In a Mapfile, a LAYER object can contain an infinite number of CLASS
+objects. These are used to style the elements contained in the spatial data
+file (DATA). For example, if we look closer at our &quot;ne_10m_lakes&quot; data file
+using a tool such as <a class="reference external" href="https://gdal.org/en/latest/programs/ogrinfo.html">ogrinfo</a>, we'll
+see the geometry and attribute definitions it contains. These attribute
+values can be used as a way to draw the elements inside a dataset
+differently using multiple CLASS objects.</p>
 <p>&quot;ne_10m_lakes&quot; データセットには、湖の大きさに関係すると思われる <em>ScaleRank</em> 属性がある。これを使って湖を違った形にレンダリングすることができます。LAYERオブジェクトでは、現在のオブジェクトの直前に別のCLASSオブジェクトを追加します。</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">LAYER</span>
   <span class="n">NAME</span> <span class="s2">&quot;Lakes&quot;</span>

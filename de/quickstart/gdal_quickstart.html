@@ -253,7 +253,11 @@ OGRFeature(index_natural_earth):1
 </pre></div>
 </div>
 <a class="reference internal image-reference" href="../../_images/gdal_ortho.png"><img alt="../../_images/gdal_ortho.png" src="../../_images/gdal_ortho.png" style="width: 294.40000000000003px; height: 296.8px;" /></a>
-<p>Beachten Sie, wie die Pole abgeschnitten werden. Weil die Ecken an den Polen nicht umprojiziert werden können, kann gdalwarp nicht alle Daten lesen. Als Lösung können wir gdalwarp zwingen, ein wenig zusätzliche Daten zu lesen. Zu diesem Thema erfahren Sie mehr im Raster-Tutorial <a class="reference external" href="https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial">https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial</a>.</p>
+<p>Note how the poles are clipped?  This is because the edges at the pole
+can’t be reprojected gdalwarp does not read all the data.  We can force
+gdalwarp to read a bunch of surplus data around chunks as one way to
+resolve this. Read more about this in the
+<a class="reference external" href="http://web.archive.org/web/20240812222113/https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial">Raster Tutorial</a>.</p>
 </section>
 <section id="mosaicking">
 <h2><a class="toc-backref" href="#id8">Zusammenfassen von Daten</a><a class="headerlink" href="#mosaicking" title="Link zu dieser Überschrift">¶</a></h2>
@@ -423,7 +427,7 @@ homepart: Real (16.6)
 </div></blockquote>
 <p>GDAL Tutorial</p>
 <blockquote>
-<div><p><a class="reference external" href="https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial">https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial</a></p>
+<div><p><a class="reference external" href="https://gdal.org/en/latest/tutorials/raster_api_tut.html">https://gdal.org/en/latest/tutorials/raster_api_tut.html</a></p>
 </div></blockquote>
 <p>GDAL Workshop</p>
 <blockquote>

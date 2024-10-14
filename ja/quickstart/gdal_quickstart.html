@@ -253,7 +253,11 @@ OGRFeature(index_natural_earth):1
 </pre></div>
 </div>
 <a class="reference internal image-reference" href="../../_images/gdal_ortho.png"><img alt="../../_images/gdal_ortho.png" src="../../_images/gdal_ortho.png" style="width: 294.40000000000003px; height: 296.8px;" /></a>
-<p>極がどのようにクリップされているかご注意ください。これは、極のエッジを再投影できないためです。gdalwarpはすべてのデータを読み取りません。 これを解決する1つの方法として、gdalwarpにチャンク周辺の余剰データを強制的に読み取らせることができます。 詳細については、RasterTutorial <a class="reference external" href="https://trac.osgeo.org/gdal/wiki/UserDocs">https://trac.osgeo.org/gdal/wiki/UserDocs</a>/RasterProcTutorialをご覧ください。</p>
+<p>Note how the poles are clipped?  This is because the edges at the pole
+can't be reprojected gdalwarp does not read all the data.  We can force
+gdalwarp to read a bunch of surplus data around chunks as one way to
+resolve this. Read more about this in the
+<a class="reference external" href="http://web.archive.org/web/20240812222113/https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial">Raster Tutorial</a>.</p>
 </section>
 <section id="mosaicking">
 <h2><a class="toc-backref" href="#id8">モザイク</a><a class="headerlink" href="#mosaicking" title="このヘッドラインへのパーマリンク">¶</a></h2>
@@ -423,7 +427,7 @@ homepart: Real (16.6)
 </div></blockquote>
 <p>GDAL ラスターのチュートリアル</p>
 <blockquote>
-<div><p><a class="reference external" href="https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial">https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial</a></p>
+<div><p><a class="reference external" href="https://gdal.org/en/latest/tutorials/raster_api_tut.html">https://gdal.org/en/latest/tutorials/raster_api_tut.html</a></p>
 </div></blockquote>
 <p>GDALワークショップ</p>
 <blockquote>
