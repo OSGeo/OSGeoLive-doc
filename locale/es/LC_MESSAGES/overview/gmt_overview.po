@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2024-08-17 19:57+0000\n"
+"PO-Revision-Date: 2024-09-01 23:50+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "gmt_overview/es/>\n"
@@ -81,7 +81,7 @@ msgstr "Detalles"
 
 #: ../../build/doc/overview/gmt_overview.rst:46
 msgid "**Website:** https://www.generic-mapping-tools.org"
-msgstr ""
+msgstr "**Sitio Web:** https://www.generic-mapping-tools.org"
 
 #: ../../build/doc/overview/gmt_overview.rst:48
 msgid "**Licence:** GNU General Public License (GPL) version 2"
@@ -101,7 +101,7 @@ msgstr "**Interfaces API:** Lineas de comando"
 
 #: ../../build/doc/overview/gmt_overview.rst:56
 msgid "**Support:** https://forum.generic-mapping-tools.org/"
-msgstr ""
+msgstr "**Soporte:** https://forum.generic-mapping-tools.org/"
 
 #: ../../build/doc/overview/gmt_overview.rst:59
 msgid ""

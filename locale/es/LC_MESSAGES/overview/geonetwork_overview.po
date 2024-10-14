@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2023-03-10 20:56+0000\n"
+"PO-Revision-Date: 2024-08-20 16:45+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "geonetwork_overview/es/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
 " ? 1 : 2);\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:18
 msgid "GeoNetwork"
@@ -141,7 +141,7 @@ msgstr "Estándares de Metadatos:"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:53
 msgid "ISO19115/ISO19119/ISO19139/ISO19110 and ISO Profiles"
-msgstr "ISO19115/ISO19119/ISO19139/ISO19110 and ISO Profiles"
+msgstr "Perfiles ISO: ISO19115/ISO19119/ISO19139/ISO19110"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:54
 msgid "Dublin Core"

@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2024-08-17 19:57+0000\n"
+"PO-Revision-Date: 2024-09-01 23:50+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "pygeoapi_overview/es/>\n"
@@ -61,11 +61,8 @@ msgid "out of the box modern OGC API server"
 msgstr "servidor API OGC moderno listo para usar"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:36
-#, fuzzy
 msgid "certified OGC Compliant and Reference Implementation"
-msgstr ""
-"Implementación de Referencia y Compatibilidad con OGC certificada para "
-"API OGC - Características"
+msgstr "Implementación de referencia y compatible con OGC certificada"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:37
 msgid ""
@@ -73,6 +70,9 @@ msgid ""
 "- Tiles, OGC API - Processes, OGC API - Records, OGC API - Environmental "
 "Data Retrieval and SpatioTemporal Asset Library"
 msgstr ""
+"implementa adicionalmente API OGC - Funciones, API OGC - Coberturas, API OGC "
+"- Mosaicos, API OGC - Procesos, API OGC - Registros, API OGC - Recuperación "
+"de datos ambientales y Biblioteca de activos espacio temporales"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:38
 msgid ""
@@ -182,7 +182,7 @@ msgstr "`OGC API - Azulejos`_"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:1
 msgid "`OGC API - Records`_"
-msgstr ""
+msgstr "`OGC API - Records`_"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:1
 msgid "`OGC API - Processes`_"
@@ -190,7 +190,7 @@ msgstr "`OGC API - Procesos`_"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:1
 msgid "`OGC API - Environmental Data Retrieval`_"
-msgstr ""
+msgstr "`OGC API - Environmental Data Retrieval`_"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:1
 msgid "`SpatioTemporal Asset Catalog`_"
@@ -221,9 +221,8 @@ msgid "**API Interfaces:** Python"
 msgstr "**Interfaces API:** Python"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:84
-#, fuzzy
 msgid "**Support:** https://pygeoapi.io/community/service-providers"
-msgstr "**Sitio web:** https://pygeoapi.io/"
+msgstr "**Soporte:**https://pygeoapi.io/community/service-providers"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:102
 msgid "Quickstart"

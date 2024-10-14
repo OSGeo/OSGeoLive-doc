@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-27 11:42+0000\n"
-"PO-Revision-Date: 2023-04-01 08:08+0000\n"
-"Last-Translator: Zoltan Siki <siki@agt.bme.hu>\n"
+"PO-Revision-Date: 2024-10-14 00:38+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
 "deegree_overview/hu/>\n"
 "Language: hu\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/deegree_overview.rst:21
 msgid "deegree"
@@ -395,7 +395,7 @@ msgstr "**Támogatott platformok:** Windows, Linux"
 
 #: ../../build/doc/overview/deegree_overview.rst:134
 msgid "**API Interfaces:** Java"
-msgstr "**API interfészek:** Java"
+msgstr "**API Interfészek:** Java"
 
 #: ../../build/doc/overview/deegree_overview.rst:136
 msgid "**Support:** https://www.deegree.org/community"

@@ -2,25 +2,26 @@
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2021
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
-# 
-#, fuzzy
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2021-01-26 00:35+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"PO-Revision-Date: 2024-10-14 01:41+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"proj_overview/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/proj_overview.rst:17
 msgid "PROJ"
@@ -30,16 +31,16 @@ msgstr "PROJ"
 msgid ""
 "PROJ is a library that provides methods to transform between different "
 "coordinate reference systems. A geographic coordinate reference system "
-"allows all points on the earth to be described as a set of coordinates (such"
-" as latitude, longitude and elevation). Different systems are used to "
+"allows all points on the earth to be described as a set of coordinates (such "
+"as latitude, longitude and elevation). Different systems are used to "
 "represent the tridimensional earth on a flat, bidimensional map."
 msgstr ""
 "A PROJ egy könyvtár, mely a különböző koordináta referencia rendszerek "
 "közötti transzformációs módszereket biztosít. Egy földrajzi koordináta "
-"referencia rendszer lehetővé teszi valamennyi pont leírását a koordinátákkal"
-" (úgy mint hosszúság, szélesség és magasság). Különböző rendszereket "
-"használunk a háromdimenziós föld reprezentációjára egy síkbeli, kétdimenziós"
-" térképen."
+"referencia rendszer lehetővé teszi valamennyi pont leírását a koordinátákkal "
+"(úgy mint hosszúság, szélesség és magasság). Különböző rendszereket "
+"használunk a háromdimenziós föld reprezentációjára egy síkbeli, kétdimenziós "
+"térképen."
 
 #: ../../build/doc/overview/proj_overview.rst:25
 msgid ""
@@ -48,24 +49,23 @@ msgid ""
 "<mapnik_overview>`, Thuban, OGDI, TopoCad, OGRCoordinateTransformation and "
 "various others."
 msgstr ""
-"A PROJ-et használja a :doc:`MapServer <mapserver_overview>`, :doc:`GRASS GIS"
-" <grass_overview>`, :doc:`PostGIS <postgis_overview>`, :doc:`Mapnik "
+"A PROJ-et használja a :doc:`MapServer <mapserver_overview>`, :doc:`GRASS GIS "
+"<grass_overview>`, :doc:`PostGIS <postgis_overview>`, :doc:`Mapnik "
 "<mapnik_overview>`, Thuban, OGDI, TopoCad, OGRCoordinateTransformation és "
 "még továbbiak."
 
 #: ../../build/doc/overview/proj_overview.rst:27
 msgid ""
-"PROJ has been translated from C to `other languages "
-"<https://trac.osgeo.org/metacrs/wiki>`_. These sub-projects include:"
+"PROJ has been translated from C to `other languages <https://trac.osgeo.org/"
+"metacrs/wiki>`_. These sub-projects include:"
 msgstr ""
-"A PROJ-t C-ről átfordítottál `más nyelvekre "
-"<https://trac.osgeo.org/metacrs/wiki>`_. Ezek alprojektek között van:"
+"A PROJ-t C-ről átfordítottál `más nyelvekre <https://trac.osgeo.org/metacrs/"
+"wiki>`_. Ezek alprojektek között van:"
 
 #: ../../build/doc/overview/proj_overview.rst:29
-msgid ""
-"Proj4js (JavaScript) - used in :doc:`OpenLayers <openlayers_overview>`."
+msgid "Proj4js (JavaScript) - used in :doc:`OpenLayers <openlayers_overview>`."
 msgstr ""
-"Proj4js (JavaScript) -  :doc:`OpenLayers <openlayers_overview>` használja."
+"Proj4js (JavaScript) - :doc:`OpenLayers <openlayers_overview>` használja."
 
 #: ../../build/doc/overview/proj_overview.rst:30
 msgid "CS-Map (C++) - used in MapGuide."
@@ -106,8 +106,7 @@ msgstr "Alapfunkciók"
 msgid ""
 "Provides point transformation from one coordinate reference system to "
 "another."
-msgstr ""
-"Pont transzformációt biztosít az egyik vetületi rendszerből a másikba."
+msgstr "Pont transzformációt biztosít az egyik vetületi rendszerből a másikba."
 
 #: ../../build/doc/overview/proj_overview.rst:46
 msgid "Includes transformation between datums."
@@ -126,8 +125,8 @@ msgid ""
 "PROJ uses coordinate system definitions defined by the `European Petroleum "
 "Survey Group (EPSG) <https://epsg.org/>`_. Well Known Text (WKT) format."
 msgstr ""
-"A PROJ az  `European Petroleum Survey Group (EPSG) <https://epsg.org/>` "
-"vetületi definícióját használja.  Well Known Text (WKT) formátum."
+"A PROJ az `European Petroleum Survey Group (EPSG) <https://epsg.org/>` "
+"vetületi definícióját használja. Well Known Text (WKT) formátum."
 
 #: ../../build/doc/overview/proj_overview.rst:59
 msgid "Details"
@@ -139,11 +138,10 @@ msgstr "**Honlap:** https://proj.org/"
 
 #: ../../build/doc/overview/proj_overview.rst:63
 msgid ""
-"**Licence:** `X/MIT Open Source license "
-"<https://proj.org/about.html#license>`_"
+"**Licence:** `X/MIT Open Source license <https://proj.org/about."
+"html#license>`_"
 msgstr ""
-"**Licenc:** `X/MIT Open Source licenc "
-"<https://proj.org/about.html#license>`_"
+"**Licenc:** `X/MIT Open Source licenc <https://proj.org/about.html#license>`_"
 
 #: ../../build/doc/overview/proj_overview.rst:65
 msgid "**Software Version:** |version-proj|"
@@ -181,6 +179,14 @@ msgstr "nologo"
 msgid "OSGeo Project"
 msgstr "OSGeo Projekt"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr "OSGeo közösség"
+
+#: ../../build/doc/overview/proj_overview.rst:53
+msgid ""
+"PROJ uses coordinate system definitions defined by the `European Petroleum "
+"Survey Group (EPSG) <https://www.epsg.org/>`_. Well Known Text (WKT) format."
+msgstr ""
+"A PROJ az `European Petroleum Survey Group (EPSG) <https://www.epsg.org/>` "
+"vetületi definícióját használja. Well Known Text (WKT) formátum."

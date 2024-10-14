@@ -7,21 +7,22 @@
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2022
 # MarieSilvestre, 2022
 # Nicolas Roelandt (Personnel), 2022
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2022-07-20 18:59+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2022\n"
+"PO-Revision-Date: 2024-10-01 09:17+0000\n"
+"Last-Translator: Edouard Choinière <echoix@users.noreply.weblate.osgeo.org>\n"
+"Language-Team: French <https://weblate.osgeo.org/projects/osgeolive/"
+"etf_overview/fr/>\n"
 "Language: fr\n"
-"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
-"1000000 == 0 ? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/overview/ETF_overview.rst:17
@@ -194,11 +195,11 @@ msgstr "Détails"
 
 #: ../../build/doc/overview/ETF_overview.rst:95
 msgid "**Website:** https://github.com/etf-validator"
-msgstr ""
+msgstr "**Site web :** https://github.com/etf-validator"
 
 #: ../../build/doc/overview/ETF_overview.rst:97
 msgid "**Licence:** EUPL 1.2"
-msgstr ""
+msgstr "**License :** EUPL 1.2"
 
 #: ../../build/doc/overview/ETF_overview.rst:99
 msgid "**Software Version:** |version-ETF|"
@@ -265,4 +266,3 @@ msgstr "Projet OSGeo"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "Communauté OSGeo"
-

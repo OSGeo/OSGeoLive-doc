@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2023-06-24 20:08+0000\n"
-"Last-Translator: Zoltan Siki <siki@agt.bme.hu>\n"
+"PO-Revision-Date: 2024-10-14 00:38+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
 "mapbender_quickstart/hu/>\n"
 "Language: hu\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:24
@@ -448,7 +448,7 @@ msgstr "méretarány választó és vetület választó hozzáadása a lábléch
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:184
 msgid "Here are some additional challenges for you to try:"
-msgstr "Itt van néhány további kipróbálandó kihívás önnek:"
+msgstr "Íme néhány további kipróbálandó kihívás önnek:"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:186
 msgid "Try to load some WMS in your application. Try to configure your WMS."

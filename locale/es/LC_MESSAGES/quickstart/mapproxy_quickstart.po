@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2024-08-17 19:57+0000\n"
+"PO-Revision-Date: 2024-09-01 23:50+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "mapproxy_quickstart/es/>\n"
@@ -71,12 +71,10 @@ msgstr ""
 "como un servicio independiente, que es la mejor opción para comenzar."
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:41
-#, fuzzy
 msgid "To start MapProxy as a standalone service click on |menu_mapproxy-Start|."
 msgstr ""
-"Para empezar MapProxy como un servicio independiente, haga click en "
-":menuselection:`Geospatial --> Web Services --> MapProxy --> Start "
-"MapProxy`."
+"Para empezar MapProxy como un servicio independiente, hacer click en "
+"|menu_mapproxy-Start|."
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:43
 msgid "Open Firefox and navigate to `<http://localhost:8011/demo>`_"

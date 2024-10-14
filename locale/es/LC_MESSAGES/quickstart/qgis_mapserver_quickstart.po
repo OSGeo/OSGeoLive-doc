@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2024-08-17 19:57+0000\n"
+"PO-Revision-Date: 2024-09-01 23:50+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "qgis_mapserver_quickstart/es/>\n"
@@ -67,14 +67,12 @@ msgstr ""
 "GeoExt Javascript y utilizando servidor de QGIS para representar el mapa."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:39
-#, fuzzy
 msgid ""
 "Click |menu_qgis|. You should see a browser window with a web map viewer "
 "showing a world map."
 msgstr ""
-"Haga click en :menuselection:`Geospatial --> Servicios Web --> Servidor "
-"QGIS`. Debería ver una ventana del navegador con un visor de mapas web "
-"que muestra un mapa mundial."
+"Hacer click en |menu_qgis|. Debera ver una ventana del navegador con un "
+"visor de mapas web que muestra un mapa mundial."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:43
 msgid ""
@@ -94,7 +92,7 @@ msgstr "Ahora vamos a cambiar el estilo del mapa utilizando QGIS."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:52
 msgid "Click |menu_qgis|"
-msgstr ""
+msgstr "Hacer click en |menu_qgis|"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:54
 msgid "Choose :menuselection:`Project --> Open` from the menu bar."

@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2024-08-17 19:57+0000\n"
+"PO-Revision-Date: 2024-09-01 23:50+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "geoext_overview/es/>\n"
@@ -67,7 +67,6 @@ msgstr ""
 "ExtJS y que se serialicen varios tipos de capas de mapa."
 
 #: ../../build/doc/overview/geoext_overview.rst:32
-#, fuzzy
 msgid ""
 "GeoExt is dual licensed. The license you choose depends on the license of"
 " the framework ExtJS you use with it. If you are using the GPL v3 version"
@@ -75,11 +74,10 @@ msgid ""
 "ExtJS Commercial License, you have the right to use GeoExt under the BSD "
 "License."
 msgstr ""
-"GeoExt3 tiene doble licencia. La licencia que elija depende de la "
-"licencia del mar o de trabajo ExtJS que use con él. Si está utilizando la"
-" versión GPL v3 del marco ExtJS, la usará en GPLv3. Si posee una licencia"
-" comercial Sencha ExtJS, tiene derecho a usar GeoExt3 bajo la licencia "
-"BSD."
+"GeoExt tiene doble licencia. La licencia que elija depende de la licencia "
+"del mar o de trabajo ExtJS que use con él. Si está utilizando la versión GPL "
+"v3 del marco ExtJS, la usará bajo GPLv3. Si posee una licencia comercial "
+"Sencha ExtJS, tiene derecho a usar GeoExt3 bajo la licencia BSD."
 
 #: ../../build/doc/overview/geoext_overview.rst:-1
 msgid "geoext screenshot"
@@ -136,21 +134,19 @@ msgstr "Varios"
 
 #: ../../build/doc/overview/geoext_overview.rst:64
 msgid "Integration with"
-msgstr ""
+msgstr "Integración con"
 
 #: ../../build/doc/overview/geoext_overview.rst:66
 msgid "`MapFish Print <http://mapfish.github.io/mapfish-print-doc/>`_"
-msgstr ""
+msgstr "`MapFish Imprimir <http://mapfish.github.io/mapfish-print-doc/>`_"
 
 #: ../../build/doc/overview/geoext_overview.rst:67
-#, fuzzy
 msgid ""
 "and `GeoServer Printing Module "
 "<https://docs.geoserver.org/latest/en/user/extensions/printing/index.html>`_"
 msgstr ""
-"Integración con `Impresión de MapFish <http://mapfish.github.io/mapfish-"
-"print-doc/>`_ y el `Módulo de Impresión GeoServer "
-"<https://docs.geoserver.org/latest/en/user/extensions/printing/index.html>`_"
+"y el `Módulo de Impresión GeoServer <https://docs.geoserver.org/latest/en/"
+"user/extensions/printing/index.html>`_"
 
 #: ../../build/doc/overview/geoext_overview.rst:69
 msgid "Layer Serializers (WMS, WMTS, XYZ)"
@@ -161,23 +157,24 @@ msgid "Details"
 msgstr "Detalles"
 
 #: ../../build/doc/overview/geoext_overview.rst:74
-#, fuzzy
 msgid "**Website:** https://geoext.github.io/geoext"
-msgstr "**Sitio web:** https://geoext.github.io/geoext3"
+msgstr "**Sitio web:** https://geoext.github.io/geoext"
 
 #: ../../build/doc/overview/geoext_overview.rst:76
 msgid "**License:** GPLv3 or BSD License dependent on ExtJS license"
-msgstr ""
+msgstr "**Licencia:** Licencia GPLv3 o BSD que depende de la licencia ExtJS"
 
 #: ../../build/doc/overview/geoext_overview.rst:78
 msgid "see `License <https://github.com/geoext/geoext/blob/master/LICENSE>`_"
-msgstr ""
+msgstr "ver `License <https://github.com/geoext/geoext/blob/master/LICENSE>`_"
 
 #: ../../build/doc/overview/geoext_overview.rst:79
 msgid ""
 "and `License FAQ <https://github.com/geoext/geoext/blob/master/LICENSE-"
 "FAQ.md>`_"
 msgstr ""
+"y `License FAQ <https://github.com/geoext/geoext/blob/master/LICENSE-FAQ."
+"md>`_"
 
 #: ../../build/doc/overview/geoext_overview.rst:81
 msgid "**Software Version:** |version-geoext|"
@@ -189,15 +186,15 @@ msgstr "**Interfaces API:** Javascript"
 
 #: ../../build/doc/overview/geoext_overview.rst:85
 msgid "**Support:** Mailing lists"
-msgstr ""
+msgstr "**Support:** Listas de correo"
 
 #: ../../build/doc/overview/geoext_overview.rst:87
 msgid "https://www.geoext.org/cgi-bin/mailman/listinfo/users"
-msgstr ""
+msgstr "https://www.geoext.org/cgi-bin/mailman/listinfo/users"
 
 #: ../../build/doc/overview/geoext_overview.rst:88
 msgid "and https://stackoverflow.com/questions/tagged/geoext"
-msgstr ""
+msgstr "y https://stackoverflow.com/questions/tagged/geoext"
 
 #: ../../build/doc/overview/geoext_overview.rst:94
 msgid "Quickstart"

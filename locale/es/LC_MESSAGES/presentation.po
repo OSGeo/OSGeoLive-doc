@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2024-08-17 20:46+0000\n"
+"PO-Revision-Date: 2024-09-01 23:50+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "presentation/es/>\n"
@@ -91,9 +91,8 @@ msgstr "https://osgeo.github.io/OSGeoLive-doc/en/presentation.html"
 
 #: ../../build/presentation/revealjs/presentation.rst:51
 #: ../../build/presentation/revealjs/presentation.rst:62
-#, fuzzy
 msgid "What is new in 16.0"
-msgstr "Novedades de la versión 15.0"
+msgstr "Novedades de la versión 16.0"
 
 #: ../../build/presentation/revealjs/presentation.rst:64
 msgid "Updated to Lubuntu 22.04 LTS"

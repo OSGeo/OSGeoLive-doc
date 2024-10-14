@@ -6,20 +6,21 @@
 # Translators:
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"PO-Revision-Date: 2024-10-14 00:38+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"otb_overview/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/otb_overview.rst:17
 msgid "OTB"
@@ -41,12 +42,12 @@ msgid ""
 msgstr ""
 "Az ORFEO Toolbox Library (OTB) egy nagy teljesítményű képfeldolgozó "
 "könyvtár. Elsősorban nagyméretű távérzékelésben alkalmazott képek "
-"feldolgozására használják, melyeket például  radarokkal, műholdakkal és légi"
-" fényképezéssel gyűjtenek. Az OTB eszközei optikai és radarképekhez "
-"nyújtanak eszközöket (háromdimenziós vonatkozások, szegmentálás, "
-"osztályozás, változások észlelése, textúraelemzés, mintázat illesztés és "
-"optikai / radar kiegészítők) , amelyek közül sok korlátozott erőforrásokkal "
-"rendelkező laptopokon is futtatható."
+"feldolgozására használják, melyeket például radarokkal, műholdakkal és légi "
+"fényképezéssel gyűjtenek. Az OTB eszközei optikai és radarképekhez nyújtanak "
+"eszközöket (háromdimenziós vonatkozások, szegmentálás, osztályozás, "
+"változások észlelése, textúraelemzés, mintázat illesztés és optikai / radar "
+"kiegészítők) , amelyek közül sok korlátozott erőforrásokkal rendelkező "
+"laptopokon is futtatható."
 
 #: ../../build/doc/overview/otb_overview.rst:29
 msgid ""
@@ -56,8 +57,8 @@ msgid ""
 "layers, and call OTB processing tools from a menu entry."
 msgstr ""
 "Az OTB-t együtt szállítják a klasszikus távérzékelési feladatokra azonnal "
-"felhasználható kibővíthető eszközökkel  valamint egy teljesen integrált "
-"Monteverdi nevű alkalmazással, amely  egy gyors megjelenítő, amely lehetővé "
+"felhasználható kibővíthető eszközökkel valamint egy teljesen integrált "
+"Monteverdi nevű alkalmazással, amely egy gyors megjelenítő, amely lehetővé "
 "teszi a felhasználók számára több réteg megjelenítését és az OTB-feldolgozó "
 "eszközök használatát a menüből ."
 
@@ -163,7 +164,7 @@ msgstr "SAR adatelemzés: kalibrálás, polarimetry elemzés"
 
 #: ../../build/doc/overview/otb_overview.rst:67
 msgid "change detection."
-msgstr "változás észlelés"
+msgstr "változás észlelés."
 
 #: ../../build/doc/overview/otb_overview.rst:70
 msgid "Details"

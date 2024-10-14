@@ -7,20 +7,21 @@
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"PO-Revision-Date: 2024-10-14 00:38+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"josm_quickstart/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:20
 msgid "JOSM Quickstart"
@@ -31,8 +32,8 @@ msgid ""
 "JOSM is a feature rich, extensible, offline desktop editor for OpenStreetMap"
 " (OSM) data, written in Java."
 msgstr ""
-"JOSM egy funkció gazdag, bővíthető, offline asztali szerkesztő OpenStreetMap"
-" (OSM) adatokhoz,  melyet Javaban írtak"
+"JOSM egy funkció gazdag, bővíthető, offline asztali szerkesztő OpenStreetMap "
+"(OSM) adatokhoz, melyet Javaban írtak."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:24
 msgid ""
@@ -111,7 +112,7 @@ msgid ""
 "unless you saved it somewhere else."
 msgstr ""
 "Keresse meg a **sample.osm** fájlt. Valószínűleg a letöltések mappájában "
-"van, hacsak nem mentette valahová máshová. "
+"van, hacsak nem mentette valahová máshová."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:56
 msgid ""
@@ -156,9 +157,9 @@ msgid ""
 msgstr ""
 "Több lehetőség van a térkép nagyítására, kicsinyítésére. Ha vagy egy egere, "
 "használhatja az egérgörgőt a nagyításra és kicsinyítésre. Ha egy laptopot "
-"használ és nincs egere, akkor a térkép ablak bal-felső  részén található "
-"léptékvonalzót használhatja. Húzza a vonalzót jobbra és balra a bal egérgomb"
-" nyomvatartása mellett."
+"használ és nincs egere, akkor a térkép ablak bal-felső részén található "
+"léptékvonalzót használhatja. Húzza a vonalzót jobbra és balra a bal egérgomb "
+"nyomvatartása mellett."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:0
 msgid "Scale bar"
@@ -197,7 +198,7 @@ msgid ""
 msgstr ""
 "A pontok egy szimbólummal reprezentált pozíciók. Ezen a minta térképen két "
 "pont van egy cipőbolt és egy áruház. A cipőboltot a cipő szimbólummal "
-"jelöltük, az áruházat egy bevásárló  kocsival."
+"jelöltük, az áruházat egy bevásárló kocsival."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:96
 msgid ""
@@ -208,7 +209,7 @@ msgid ""
 msgstr ""
 "Sok vonal is található a térképen, melyek az utakat ábrázolják. Ha "
 "közelebbről megtekinti láthatja, hogy a vonalakon pontok is vannak. Ezekhez "
-"a pontokhoz nem tartozik szimbólum vagy más  információ, a vonal helyét "
+"a pontokhoz nem tartozik szimbólum vagy más információ, a vonal helyét "
 "határozzák meg csupán."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:101
@@ -278,7 +279,7 @@ msgid ""
 "around the forest, not one of the points on the line."
 msgstr ""
 "Válassza ki az erdőt a térkép bal oldalán. Győződjön meg róla, hogy az erdő "
-"körüli vonalra kattint és nem az egyik pontra a vonalon. "
+"körüli vonalra kattint és nem az egyik pontra a vonalon."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:130
 msgid ""
@@ -367,7 +368,7 @@ msgid ""
 "click your mouse."
 msgstr ""
 "Egy vonal rajzolásához kattintson egyszer. Mozgassa az egerét és kattintson "
-"ismét. Folytassa amíg elégedett lesz a vonalával.  vonal lezárásához "
+"ismét. Folytassa amíg elégedett lesz a vonalával. vonal lezárásához "
 "kattintson duplán az egerével."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:169
@@ -426,7 +427,7 @@ msgid ""
 "everything went well, your point, line, or shape should change colors or "
 "show a symbol. This is because you have defined what it is."
 msgstr ""
-"Amikor befejezte a az adatok bevitelét kattintson az  “Apply Preset”-re. Ha "
+"Amikor befejezte a az adatok bevitelét kattintson az “Apply Preset”-re. Ha "
 "minden jól ment a pont, a vonal vagy alakzat színe megváltozik vagy egy "
 "szimbólum jelenik meg. Ez azért történik, mert megadta, hogy mi az."
 

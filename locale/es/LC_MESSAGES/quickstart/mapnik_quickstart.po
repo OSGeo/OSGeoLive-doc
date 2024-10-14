@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2024-08-17 19:57+0000\n"
+"PO-Revision-Date: 2024-09-01 23:50+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "mapnik_quickstart/es/>\n"
@@ -104,14 +104,12 @@ msgid "The demo uses the world_population.xml from the Mapnik demo."
 msgstr "La demostración utiliza el world_population.xml de la demostración Mapnik."
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:60
-#, fuzzy
 msgid ""
 "Click |menu_mapnik|. The server starts in a terminal window (which stays "
 "open and outputs basic debugging information)."
 msgstr ""
-"Clic en :menuselection:`Geospatial --> Servicios Web --> MapProxy --> "
-"Iniciar MapProxy`. El servidor se inicia en una ventana de terminal (que "
-"permanece abierta y genera información básica de depuración)."
+"Hacer click en |menu_mapnik|. El servidor se inicia en una ventana de "
+"terminal (que permanece abierta y genera información básica de depuración)."
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:62
 msgid "Open the MapProxy demo application http://0.0.0.0:8011/demo/"

@@ -7,20 +7,21 @@
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"PO-Revision-Date: 2024-10-14 00:38+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"pywps_quickstart/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:23
 msgid "PyWPS Quickstart"
@@ -31,7 +32,7 @@ msgid ""
 "PyWPS is an OGC WPS (Web Processing Service 1.0.0) server implementation "
 "written in `Python <https://www.python.org>`_."
 msgstr ""
-"A PyWPS egy `Python-ban <https://www.python.org>`_ írt OGC WPS  (Web "
+"A PyWPS egy `Python-ban <https://www.python.org>`_ írt OGC WPS (Web "
 "Processing Service 1.0.0) szerver implementáció."
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:28
@@ -45,8 +46,8 @@ msgid ""
 msgstr ""
 "APyWPS 4.0.0. könyvtárat telepítették az OSGeoLive-on. Ez egy alap könyvtár "
 "nem a közvetlen végrehajtás a cél, hanem inkább WPS szolgáltatások "
-"fejlesztésére használható. Egy  `Flask <https://flask.palletsprojects.com>`_"
-"  alapú `példa szolgáltatás  <https://github.com/geopython/pywps-flask>`_ "
+"fejlesztésére használható. Egy `Flask <https://flask.palletsprojects.com>`_ "
+"alapú `példa szolgáltatás <https://github.com/geopython/pywps-flask>`_ "
 "elérhető a GitHub-on az első PyWPS találkozás megkönnyítése érdekében."
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:34
@@ -101,8 +102,8 @@ msgid ""
 "Now move into the repository folder and edit the configuration file. This "
 "can be done with a program like `nano`:"
 msgstr ""
-"Mozogjon a tárház mappába  és módosítsa a konfigurációs fájlt. Ezt megteheti"
-" a `nano` programmal:"
+"Mozogjon a tárház mappába és módosítsa a konfigurációs fájlt. Ezt megteheti "
+"a `nano` programmal:"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:58
 msgid "`nano pywps.cfg`"
@@ -152,7 +153,7 @@ msgid ""
 "presented with the following page:"
 msgstr ""
 "Nyisson meg egy web böngészőt és mutasson arra a címre, ahol a példa "
-"szolgáltatás figyel: `http://127.0.0.1:5000/ <http://127.0.0.1:5000/>`_  A "
+"szolgáltatás figyel: `http://127.0.0.1:5000/ <http://127.0.0.1:5000/>`_ A "
 "következő lap jelenik meg:"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:84
@@ -259,7 +260,7 @@ msgid ""
 "Tutorial - Try out the `workshop`_, a tutorial used in workshops to "
 "introduce new users to PyWPS 4."
 msgstr ""
-"Próbálja ki a  `workshop`_-ot, ami egy workshop oktatóanyag az új "
+"Próbálja ki a `workshop`_-ot, ami egy workshop oktatóanyag az új "
 "felhasználóknak a PyWPS 4 bemutatásáról."
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:163

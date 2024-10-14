@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2024-08-17 19:57+0000\n"
+"PO-Revision-Date: 2024-09-01 23:50+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "zoo-project_quickstart/es/>\n"
@@ -49,7 +49,7 @@ msgstr "Iniciar ZOO-Project"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:35
 msgid "From the Start menu, select |menu_zoo-project|."
-msgstr ""
+msgstr "Del menú de inicio, seleccionar |menu_zoo-project|."
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:37
 msgid ""

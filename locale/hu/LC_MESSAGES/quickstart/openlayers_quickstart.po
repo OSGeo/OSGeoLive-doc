@@ -6,20 +6,21 @@
 # Translators:
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-20 21:55-0500\n"
-"PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"PO-Revision-Date: 2024-10-14 00:38+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"openlayers_quickstart/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:23
 msgid "OpenLayers Quickstart"
@@ -32,8 +33,8 @@ msgid ""
 "styling features."
 msgstr ""
 "Ez a gyorstalpaló a munka elkezdéséhez szükséges alapvető lépéseket "
-"tartalmazza az OpenLayers-el: alaptérkép létrehozása,  raszter és vektor "
-"réteg hozzáadása és az elemek stílusának beállítása"
+"tartalmazza az OpenLayers-el: alaptérkép létrehozása, raszter és vektor "
+"réteg hozzáadása és az elemek stílusának beállítása."
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:27
 msgid ""
@@ -43,12 +44,12 @@ msgid ""
 "of all kinds. It is completely free, Open Source JavaScript, released under "
 "the 2-clause BSD License (also known as the FreeBSD)."
 msgstr ""
-"Az OpenLayers egyszerűvé teszi dinamikus térképek hozzáadását bármelyik "
-"honlaphoz. Térkép csempéket, vektor adatokat és szimbólumokat tud "
-"megjeleníteni tetszőleges forrásból. Az OpenLayers-t mindenféle "
-"térinformatikai adat használatára fejlesztették. Teljesen szabad, nyílt "
-"forráskódú JavaScript, melyet a 2-záradék BSD licenc (úgyis ismert mint "
-"FreeBSD) alatt bocsájtanak ki."
+"Az OpenLayers egyszerűvé teszi dinamikus térképek elhelyezését bármilyen "
+"honlapon. Megjeleníthet térkép csempéket, vektor adatokat és pont "
+"szimbólumokat tetszőleges forrásból betöltve. Az OpenLayerst "
+"továbbfejlesztették mindenféle térinformatikai adat használatára. Teljesen "
+"ingyenes nyílt forráskódú JavaScript, melyet BSD 2 licenc alatt adnak ki ("
+"úgy is ismert mint FreeBSD)."
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:30
 msgid "Contents"
@@ -235,12 +236,11 @@ msgstr "Kétféle módon adhatunk rétegeket a térképhez:"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:152
 msgid "When constructing the ``ol.Map``, use the ``layers`` property:"
-msgstr ""
-"Az ``ol.Map`` létrehozatalánál a  ``layers`` tulajdonság használatával:"
+msgstr "Az ``ol.Map`` létrehozatalánál a ``layers`` tulajdonság használatával:"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:163
 msgid "Add them manually with the ``map.addLayer()`` method:"
-msgstr "Manuális hozzáadás a  ``map.addLayer()`` metódussal:"
+msgstr "Manuális hozzáadás a ``map.addLayer()`` metódussal:"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:172
 msgid "Add vector layers"
@@ -253,8 +253,8 @@ msgid ""
 " ``ol.source.KML`` or ``ol.source.TopoJSON``."
 msgstr ""
 "A vektor rétegeket az ``ol.layer.Vector`` osztály reprezentálja és a vektor "
-"formátum olvasására alkalmas forrást kell használnia mint például  "
-"``ol.source.GeoJSON``, ``ol.source.KML`` vagy ``ol.source.TopoJSON``."
+"formátum olvasására alkalmas forrást kell használnia mint például ``ol.source"
+".GeoJSON``, ``ol.source.KML`` vagy ``ol.source.TopoJSON``."
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:193
 msgid ""
@@ -263,10 +263,10 @@ msgid ""
 "prevent sourcing of datasets from an external URL on a different domain / "
 "port (a.k.a. same-origin policy)."
 msgstr ""
-"Megjegyzés, az előző kódban az  ``url_to_file`` meg kell változtatnunk, hogy"
-" egy megfelelő GeoJSON fájlra mutasson, melyet a szerverünkön helyeztünk el."
-" Vegye figyelembe, hogy a JavaScript biztonsági előírások megakadályozzák az"
-" adatok külső URL-ről, egy másik szerverről vagy portról betöltését (más "
+"Megjegyzés, az előző kódban az ``url_to_file`` meg kell változtatnunk, hogy "
+"egy megfelelő GeoJSON fájlra mutasson, melyet a szerverünkön helyeztünk el. "
+"Vegye figyelembe, hogy a JavaScript biztonsági előírások megakadályozzák az "
+"adatok külső URL-ről, egy másik szerverről vagy portról betöltését (más "
 "néven: ugyanaz a forrás szabály)."
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:197
@@ -301,10 +301,10 @@ msgid ""
 "next example shows the World's administrative limits dataset styled to use a"
 " green fill and stroke:"
 msgstr ""
-"A stílust az ``ol.style.Style``  osztály reprezentálja, melynek ``fill``, "
+"A stílust az ``ol.style.Style`` osztály reprezentálja, melynek ``fill``, "
 "``stroke``, ``text`` és ``image`` beállítható tulajdonságai vannak. A "
 "következő példa a világ országait zöld kitöltéssel és zöld határvonalakkal "
-"mutatja be."
+"mutatja be:"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:266
 msgid ""
@@ -338,8 +338,8 @@ msgid ""
 "Events can be easily registered on an object with the ``on()`` method and "
 "unregistered with ``un()``."
 msgstr ""
-"Eseményekre könnyen regisztrálhatunk egy objektummal az  ``on()`` metódussal"
-" és visszavonhatjuk a regisztrációt az ``un()`` metódussal."
+"Eseményekre könnyen regisztrálhatunk egy objektummal az ``on()`` metódussal "
+"és visszavonhatjuk a regisztrációt az ``un()`` metódussal."
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:277
 msgid ""

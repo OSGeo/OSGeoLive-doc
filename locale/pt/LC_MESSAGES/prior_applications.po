@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-01-29 15:45+0000\n"
+"PO-Revision-Date: 2024-10-01 09:17+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Portuguese <https://weblate.osgeo.org/projects/osgeolive/"
 "prior_applications/pt/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
 "1000000 == 0) ? 1 : 2);\n"
-"X-Generator: Weblate 5.3\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/prior_applications.rst:5
 msgid "Previously available applications"
@@ -347,7 +347,7 @@ msgstr "8.0"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "Microsoft Windows based Desktop GIS."
-msgstr "Desktop GIS baseado no Microsoft Windows"
+msgstr "Desktop GIS baseado no Microsoft Windows."
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "MapFish_"
@@ -424,4 +424,4 @@ msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "Projeto OSGeo"
