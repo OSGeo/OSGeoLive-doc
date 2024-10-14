@@ -157,7 +157,7 @@ message(STATUS "OSGeoLiveDoc_DOC_TARGETS = ${OSGeoLiveDoc_DOC_TARGETS}")
 # TODO: figure out how to support this
 #  "el"   "hu"  "id"  "zh")
 #---------------------------------------------
-set(OSGeoLiveDoc_SUPPORTED_LANGUAGES "de" "es" "fi" "fr" "hu" "it" "ja" "nl" "pt" "sv" "tr" "zh")
+set(OSGeoLiveDoc_SUPPORTED_LANGUAGES "de" "es" "fi" "fr" "hu" "it" "ja" "nl" "pt" "sv" "tr" "zh_Hans")
 set(OSGeoLiveDoc_ENGLISH "en")
 
 #---------------------------------------------
@@ -222,7 +222,7 @@ INSERT_INTO_MAP("ru" "Русский")
 INSERT_INTO_MAP("sv" "Swidish")
 INSERT_INTO_MAP("nl" "Dutch")
 INSERT_INTO_MAP("tr" "Turkish")
-INSERT_INTO_MAP("zh" "中文")
+INSERT_INTO_MAP("zh_Hans" "中文")
 
 
 message(STATUS "OSGeoLiveDoc_BUILD_LANGUAGES = ${OSGeoLiveDoc_BUILD_LANGUAGES}")
