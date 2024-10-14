@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2024-08-17 19:57+0000\n"
+"PO-Revision-Date: 2024-09-02 00:20+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "saga_quickstart/es/>\n"
@@ -619,16 +619,14 @@ msgid "What next?"
 msgstr "¿Qué sigue?"
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:264
-#, fuzzy
 msgid ""
 "More documentation can be found on the SAGA website: * https://saga-"
 "gis.sourceforge.io/en/index.html * https://sourceforge.net/p/saga-"
 "gis/wiki/Documentation/"
 msgstr ""
-"Puede encontrar más documentación en el sitio web de SAGA: * http://www"
-".saga-gis.org y específicamente en el archivo de documentación: * "
-"http://www.saga-gis.org/en/about/references.html * "
-"https://sourceforge.net/p/saga-gis/wiki/Documentation/"
+"Puede encontrar más documentación en el sitio web de SAGA: \n"
+"* https://saga-gis.sourceforge.io/en/index.html\n"
+"* https://sourceforge.net/p/saga-gis/wiki/Documentation/"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"

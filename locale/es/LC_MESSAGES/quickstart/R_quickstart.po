@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2024-08-17 19:57+0000\n"
+"PO-Revision-Date: 2024-09-01 23:50+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "r_quickstart/es/>\n"
@@ -85,11 +85,9 @@ msgstr ""
 "errores. Presione CTRL-C si se atasca y debe obtener el mensaje de nuevo."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:43
-#, fuzzy
 msgid "Choose |menu_R Statistics|. A terminal window opens running R."
 msgstr ""
-"Elija :menuselection:`Geoespacial --> Herramientas Espaciales --> R "
-"Estadística`. Se abre una ventana de terminal que ejecuta R."
+"Elijir |menu_R Statistics|. Se abre una ventana de terminal que ejecuta R."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:45
 msgid "You can start with simple arithmetic."

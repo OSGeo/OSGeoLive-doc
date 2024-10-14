@@ -14,8 +14,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2024-05-02 06:45+0000\n"
-"Last-Translator: luca <lucadeluge@gmail.com>\n"
+"PO-Revision-Date: 2024-08-18 22:45+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Italian <https://weblate.osgeo.org/projects/osgeolive/"
 "overview/it/>\n"
 "Language: it\n"
@@ -125,7 +125,7 @@ msgstr "Client WebGIS"
 
 #: ../../build/doc/overview/overview.rst:55
 msgid "General GIS viewing, editing and analysis in the browser"
-msgstr "GIS generali per visualizzazione, modifiche, e analisi sul browser:"
+msgstr "GIS generali per visualizzazione, modifiche, e analisi sul browser"
 
 #: ../../build/doc/overview/overview.rst:77
 msgid ""
@@ -201,7 +201,7 @@ msgstr "Servizi Web"
 
 #: ../../build/doc/overview/overview.rst:97
 msgid "Publishing spatial data to the internet"
-msgstr "Publicare dati spaziali su internet:"
+msgstr "Publicare dati spaziali su internet"
 
 #: ../../build/doc/overview/overview.rst:143
 msgid ""
@@ -374,7 +374,7 @@ msgstr "Database"
 
 #: ../../build/doc/overview/overview.rst:187
 msgid "Storing spatial data"
-msgstr "Archiviare dati spaziali:"
+msgstr "Archiviare dati spaziali"
 
 #: ../../build/doc/overview/overview.rst:201
 msgid ""
@@ -516,7 +516,7 @@ msgstr "GIS per un uso specifico"
 
 #: ../../build/doc/overview/overview.rst:277
 msgid "Applications targeted at a specific domain"
-msgstr "Applicazioni mirate ad uno specifico campo:"
+msgstr "Applicazioni mirate ad uno specifico campo"
 
 #: ../../build/doc/overview/overview.rst:285
 msgid ""

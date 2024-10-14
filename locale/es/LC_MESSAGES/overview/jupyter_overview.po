@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-13 22:52+0000\n"
-"PO-Revision-Date: 2024-08-17 19:57+0000\n"
+"PO-Revision-Date: 2024-09-27 22:36+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "jupyter_overview/es/>\n"
@@ -146,7 +146,7 @@ msgstr "**Versión de Software:** |version-jupyter|"
 
 #: ../../build/doc/overview/jupyter_overview.rst:68
 msgid "**Supported Platforms:** Linux, Mac, Windows"
-msgstr "**Plataformas compatibles:** GNU/Linux, Mac OSX, MS Windows"
+msgstr "**Plataformas compatibles:** Linux, Mac, Windows"
 
 #: ../../build/doc/overview/jupyter_overview.rst:70
 msgid "**API Interfaces:** Python"
@@ -162,7 +162,8 @@ msgstr "Inicio Rápido"
 
 #: ../../build/doc/overview/jupyter_overview.rst:80
 msgid ":doc:`Quickstart documentation <../quickstart/jupyter_quickstart>`"
-msgstr ":doc:`Quickstart documentation <../quickstart/jupyter_quickstart>`"
+msgstr ""
+":doc:`Documentación de inicio rápido <../quickstart/jupyter_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"

@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-13 22:52+0000\n"
-"PO-Revision-Date: 2024-08-17 19:57+0000\n"
+"PO-Revision-Date: 2024-09-02 00:20+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
 "geoserver_overview/es/>\n"
@@ -73,7 +73,7 @@ msgstr "Servidor de PostGIS, ArcSDE, DB2, Oracle Spatial, MySql, SQL"
 
 #: ../../build/doc/overview/geoserver_overview.rst:44
 msgid "Raster"
-msgstr "Raster"
+msgstr "Trama"
 
 #: ../../build/doc/overview/geoserver_overview.rst:44
 msgid ""

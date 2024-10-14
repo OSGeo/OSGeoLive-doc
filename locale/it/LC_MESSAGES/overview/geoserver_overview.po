@@ -8,20 +8,22 @@
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # Stefano Campus <skampus@gmail.com>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-07-13 22:52+0000\n"
-"PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Stefano Campus <skampus@gmail.com>, 2022\n"
-"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
+"PO-Revision-Date: 2024-08-18 22:45+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Italian <https://weblate.osgeo.org/projects/osgeolive/"
+"geoserver_overview/it/>\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: it\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/geoserver_overview.rst:19
 msgid "GeoServer"
@@ -201,7 +203,7 @@ msgstr "Standard implementati"
 
 #: ../../build/doc/overview/geoserver_overview.rst:69
 msgid "Support of numerous Open Geospatial Consortium  (OGC) standards:"
-msgstr "Supporto di numerosi standard Open Geospatial Consortium (OGC)"
+msgstr "Supporto di numerosi standard Open Geospatial Consortium (OGC):"
 
 #: ../../build/doc/overview/geoserver_overview.rst:71
 msgid "|WMS| (client/server)"
