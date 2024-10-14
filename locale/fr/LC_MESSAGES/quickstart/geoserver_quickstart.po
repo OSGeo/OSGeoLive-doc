@@ -7,21 +7,22 @@
 # MarieSilvestre, 2019
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # Nicolas Roelandt (Personnel), 2022
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2022\n"
+"PO-Revision-Date: 2024-10-14 15:25+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: French <https://weblate.osgeo.org/projects/osgeolive/"
+"geoserver_quickstart/fr/>\n"
 "Language: fr\n"
-"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
-"1000000 == 0 ? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:28
@@ -360,8 +361,8 @@ msgid ""
 "In the :ref:`Layer list <Layer_list>` select the style button (it looks "
 "like an artist's palette)."
 msgstr ""
-"Dans la liste :ref:`Layer list <Layer_list>` sélectionnez le bouton de "
-"style (il ressemble à la palette d’un artiste)"
+"Dans la liste :ref:`Layer list <Layer_list>` sélectionnez le bouton de style "
+"(il ressemble à la palette d’un artiste)."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:-1
 msgid "The Layer list window"
@@ -695,4 +696,3 @@ msgstr "Projet OSGeo"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "Communauté OSGeo"
-

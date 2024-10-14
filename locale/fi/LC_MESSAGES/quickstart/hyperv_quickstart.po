@@ -6,20 +6,21 @@
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2021
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2018-06-09 16:37+0000\n"
-"Last-Translator: Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2021\n"
+"PO-Revision-Date: 2024-10-14 14:30+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Finnish <https://weblate.osgeo.org/projects/osgeolive/"
+"hyperv_quickstart/fi/>\n"
 "Language: fi\n"
-"Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:8
@@ -52,15 +53,14 @@ msgid ""
 "configure OSGeoLive to run on Hyper-V."
 msgstr ""
 "Virtuaalikoneen käyttämisen edut ovat samat kuin ne, jotka on kuvattu "
-"kohdassa :doc:`virtualization_quickstart`. valitettavasti Virtual Boxia "
-"ja Hyper-V ei voi suorittaa saman aikaisesti.  Tämä - poistetaan jättää 2"
-" vaihtoehtoa - Hyper-V ominaisuus, tai konfiguroidaan uusi Hyper-V kone "
-"suorittamaan OSGeoLiveä. Vapaata työkalua `hypervswitch "
-"<https://unclassified.software/en/apps/hypervswitch>`_ voidaan käyttää "
-"nopeasti ottamaan tai poistamaan Hyper-V käytöstä - se kuitenkin "
-"edellyttää tietokoneen uudelleen käynnistystä joka kerta kun asetuksia "
-"muutetaan. Loppu tästä sivusta dokumentoi kuinka konfiguroida OSGeolive "
-"suoritettavaksi Hyper-V:llä"
+"kohdassa :doc:`virtualization_quickstart`. valitettavasti Virtual Boxia ja "
+"Hyper-V ei voi suorittaa saman aikaisesti.  Tämä - poistetaan jättää 2 "
+"vaihtoehtoa - Hyper-V ominaisuus, tai konfiguroidaan uusi Hyper-V kone "
+"suorittamaan OSGeoLiveä. Vapaata työkalua `hypervswitch <https://unclassified"
+".software/en/apps/hypervswitch>`_ voidaan käyttää nopeasti ottamaan tai "
+"poistamaan Hyper-V käytöstä - se kuitenkin edellyttää tietokoneen uudelleen "
+"käynnistystä joka kerta kun asetuksia muutetaan. Loppu tästä sivusta "
+"dokumentoi kuinka konfiguroida OSGeolive suoritettavaksi Hyper-V:llä."
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:19
 msgid "System Requirements"
@@ -220,7 +220,7 @@ msgid ""
 msgstr ""
 "Käynnistä Hyper-V Manager ohjelma ja Actions valinnasta valitse New -> "
 "Virtual Machine, ja sitten Next. Tämän jälkeen anna sopiva nimi "
-"virtuaalikoneelle,"
+"virtuaalikoneelle."
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:105
 msgid "Select \"Generation 1\" from the Specify Generation options."
@@ -256,7 +256,7 @@ msgstr "**Virtuaalikoneen suorittaminen**"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:117
 msgid "Select the virtual machine from the Virtual Machines list"
-msgstr "Valitse virtuaalikone Virtual Machines listasta."
+msgstr "Valitse virtuaalikone Virtual Machines listasta"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:118
 msgid ""
@@ -313,4 +313,3 @@ msgstr ""
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr ""
-

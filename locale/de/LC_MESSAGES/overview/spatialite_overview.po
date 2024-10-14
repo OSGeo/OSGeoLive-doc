@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2023-03-29 19:22+0000\n"
-"Last-Translator: Astrid Emde <astrid.emde@posteo.de>\n"
+"PO-Revision-Date: 2024-10-14 15:25+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
 "spatialite_overview/de/>\n"
 "Language: de\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/spatialite_overview.rst:15
 msgid "SpatiaLite"
@@ -82,7 +82,7 @@ msgid ""
 "SQL spatial functions such as AsText(), GeomFromText(), Area(), PointN() ..."
 msgstr ""
 "Implementierung von räumlichen Funktionen wie AsText(), GeomFromText(), "
-"Area(), PointN() und ähnlichen"
+"Area(), PointN() und ähnlichen ..."
 
 #: ../../build/doc/overview/spatialite_overview.rst:42
 msgid ""
@@ -152,7 +152,7 @@ msgstr ""
 
 #: ../../build/doc/overview/spatialite_overview.rst:52
 msgid "Query external WFS servers."
-msgstr "Abfrage externer WFS"
+msgstr "Abfrage externer WFS."
 
 #: ../../build/doc/overview/spatialite_overview.rst:53
 msgid ""
@@ -160,7 +160,7 @@ msgid ""
 "found."
 msgstr ""
 "Parsen externer DXF Dateien (alle Versionen) und Speichern der Themen und "
-"Geometrien"
+"Geometrien."
 
 #: ../../build/doc/overview/spatialite_overview.rst:54
 msgid "Generate and Export DXF files"

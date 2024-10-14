@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2023-03-29 19:22+0000\n"
-"Last-Translator: Astrid Emde <astrid.emde@posteo.de>\n"
+"PO-Revision-Date: 2024-10-14 15:25+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
 "usb_quickstart/de/>\n"
 "Language: de\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:9
 msgid "Creating an OSGeoLive Bootable USB flash drive"
@@ -179,7 +179,7 @@ msgid ""
 "earlier."
 msgstr ""
 "Wählen Sie das ISO-Image osgeo-live oder osgeo-live-mini, das Sie zuvor "
-"heruntergeladen haben. "
+"heruntergeladen haben."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:63
 msgid ""
@@ -229,7 +229,7 @@ msgid ""
 "press F12)"
 msgstr ""
 "Um dies zu ändern starten Sie Ihren Rechner und drücken Sie die "
-"entsprechende Taste um ins Boot-Menü zu gelangen (üblicherweise durch F12)."
+"entsprechende Taste um ins Boot-Menü zu gelangen (üblicherweise durch F12)"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:82
 msgid ""
@@ -279,7 +279,7 @@ msgstr "Starten:"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:93
 msgid "Run as per: :doc:`osgeolive_quickstart`"
-msgstr "Starten Sie wie unter: :doc:`osgeolive_quickstart` beschrieben."
+msgstr "Starten Sie wie unter: :doc:`osgeolive_quickstart` beschrieben"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:96
 msgid "See Also:"
@@ -303,8 +303,8 @@ msgid ""
 "<https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB>`_"
 msgstr ""
 "Alternative Methoden zur Erstellung eines USB Sticks und aktuelle Hinweise "
-"finden Sie hier: `wiki "
-"<https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB>`_ "
+"finden Sie hier: `wiki <https://wiki.osgeo.org/wiki/"
+"Live_GIS_Disc_Quick_Start_for_USB>`_"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:102
 msgid ""

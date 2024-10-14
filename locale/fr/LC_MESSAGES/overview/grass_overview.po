@@ -8,20 +8,22 @@
 # Harrissou Sant-anna, 2021
 # Nicolas Roelandt (Personnel), 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2022\n"
-"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
+"PO-Revision-Date: 2024-10-14 15:25+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: French <https://weblate.osgeo.org/projects/osgeolive/"
+"grass_overview/fr/>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/grass_overview.rst:21
 msgid "GRASS GIS"
@@ -71,7 +73,7 @@ msgstr ""
 "académiques que commerciaux, et est aussi utilisé par de nombreuses agences "
 "gouvernementales et agences pour l'environnement. Ils fonctionnent sur la "
 "plupart des systèmes d'exploitation et c'est un logiciel libre proposé sous "
-"les termes de la GNU-GPL (General Public License)"
+"les termes de la GNU-GPL (General Public License)."
 
 #: ../../build/doc/overview/grass_overview.rst:45
 msgid ""
@@ -89,8 +91,8 @@ msgstr ""
 "de développements continus, GRASS est à la fois le plus vieux et le plus "
 "gros projet SIG libre disponible. Il est facilement scriptable et "
 "suffisamment polyvalent pour être utilisé tant pour traiter des données par "
-"lots sur ​​des supercalculateurs massivement parallélisés que pour être "
-"utilisé sur des SIG de bureau, des PDA ou sur des netbooks"
+"lots sur des supercalculateurs massivement parallélisés que pour être "
+"utilisé sur des SIG de bureau, des PDA ou sur des netbooks."
 
 #: ../../build/doc/overview/grass_overview.rstNone
 msgid "grass screenshot"

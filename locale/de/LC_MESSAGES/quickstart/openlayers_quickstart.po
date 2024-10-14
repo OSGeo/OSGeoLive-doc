@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-20 21:55-0500\n"
-"PO-Revision-Date: 2023-03-29 19:22+0000\n"
-"Last-Translator: Astrid Emde <astrid.emde@posteo.de>\n"
+"PO-Revision-Date: 2024-10-14 15:25+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
 "openlayers_quickstart/de/>\n"
 "Language: de\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:23
 msgid "OpenLayers Quickstart"
@@ -237,7 +237,7 @@ msgstr "Es gibt zwei Möglichkeiten, um einen Layer zur Karte hinzuzufügen:"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:152
 msgid "When constructing the ``ol.Map``, use the ``layers`` property:"
-msgstr "Nutzen Sie die ''layers''-Eigenschaft: beim Aufbau der ''ol. Map'.'"
+msgstr "Nutzen Sie die ``layers``- Eigenschaft: beim Aufbau der ``ol. Map``:"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:163
 msgid "Add them manually with the ``map.addLayer()`` method:"

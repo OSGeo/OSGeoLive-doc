@@ -7,20 +7,22 @@
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2017
 # Nicolas Roelandt (Personnel), 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2022\n"
-"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
+"PO-Revision-Date: 2024-10-14 15:25+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: French <https://weblate.osgeo.org/projects/osgeolive/"
+"openlayers_overview/fr/>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/openlayers_overview.rst:21
 msgid "OpenLayers"
@@ -150,16 +152,16 @@ msgstr "Divers"
 
 #: ../../build/doc/overview/openlayers_overview.rst:67
 msgid "Mobile browser support."
-msgstr "Support de navigateurs mobiles"
+msgstr "Support de navigateurs mobiles."
 
 #: ../../build/doc/overview/openlayers_overview.rst:68
 msgid "Raster reprojection."
-msgstr "Reprojection Raster"
+msgstr "Reprojection Raster."
 
 #: ../../build/doc/overview/openlayers_overview.rst:69
 msgid "Light-weight library. Build customized packages to reduce size."
 msgstr ""
-"Bibliothèque légère. Paquets customisées de build pour réduire la taille"
+"Bibliothèque légère. Paquets customisées de build pour réduire la taille."
 
 #: ../../build/doc/overview/openlayers_overview.rst:70
 msgid "Render maps using different technologies: Canvas, WebGL."
@@ -167,7 +169,7 @@ msgstr "Rendu de cartes utilisant plusieurs technologies: Canvas, WebGL."
 
 #: ../../build/doc/overview/openlayers_overview.rst:71
 msgid "Raster analysis (change hue/saturation)."
-msgstr "Analyse Raster (changement de teinte/saturation)"
+msgstr "Analyse Raster (changement de teinte/saturation)."
 
 #: ../../build/doc/overview/openlayers_overview.rst:74
 msgid "Details"

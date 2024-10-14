@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2023-03-29 19:22+0000\n"
-"Last-Translator: Astrid Emde <astrid.emde@posteo.de>\n"
+"PO-Revision-Date: 2024-10-14 15:25+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
 "pgrouting_quickstart/de/>\n"
 "Language: de\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:23
 msgid "pgRouting Quickstart"
@@ -90,7 +90,7 @@ msgid ""
 "database with a pgRouting compatible format."
 msgstr ""
 "osm2pgrouting ist ein Befehlszeilenwerkzeug zum Laden von `.osm`-Dateien in "
-"das pgRouting-kompatible Format. "
+"das pgRouting-kompatible Format."
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:80
 msgid "Check the installed version"
@@ -120,7 +120,7 @@ msgstr "Bauen Sie eine Verbindung zu der Datenbank `city_routing` auf"
 msgid "The :command:`\\\\d` command will list all available tables and sequences"
 msgstr ""
 "Über den Befehl:`\\\\d` werden alle verfügbaren Tabellen und Sequenzen "
-"auflisten."
+"auflisten"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:207
 msgid ""
@@ -169,7 +169,7 @@ msgid ""
 "`cost` without the optional `reverse_cost`"
 msgstr ""
 "Innere Abfrage, die `gid` als Bezeichner der Segmente verwendet und Länge "
-"als `cost` ohne die optionale `reverse_cost`."
+"als `cost` ohne die optionale `reverse_cost`"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:257
 msgid "pgr_Dijkstra"
@@ -184,7 +184,7 @@ msgstr ""
 "Führen Sie die Dijkstra-Funktion für den kürzesten Pfad (Dijkstra shortest "
 "path) basierend auf der Zeit in Sekunden aus, um ein Segment in einem "
 "ungerichteten Graphen zu durchlaufen, und verwenden Sie `id` als Bezeichner "
-"eines Knotens."
+"eines Knotens"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:298
 msgid "A query that use the OSM identifier becomes:"
@@ -209,7 +209,7 @@ msgstr "Die Kosten sind die gleichen wie bei der ersten Abfrage"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:339
 msgid "A query to get the geometry of the path"
-msgstr "Eine Abfrage, um die Geometrie des Weges zu ermitteln."
+msgstr "Eine Abfrage, um die Geometrie des Weges zu ermitteln"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:340
 msgid "The results of `pgr_dijkstra` need to be joined with the table ways."
@@ -223,7 +223,7 @@ msgid ""
 " longer than shown"
 msgstr ""
 "Die Ergebnisse sind hier zur besseren Darstellung abgeschnitten, die "
-"Geometrien sind viel länger als angezeigt."
+"Geometrien sind viel länger als angezeigt"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:379
 msgid "With :command:`\\\\q` command leave the PostgreSQL shell."

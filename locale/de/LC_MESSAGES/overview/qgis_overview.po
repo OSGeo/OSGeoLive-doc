@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2023-03-29 19:22+0000\n"
-"Last-Translator: Astrid Emde <astrid.emde@posteo.de>\n"
+"PO-Revision-Date: 2024-10-14 15:25+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
 "qgis_overview/de/>\n"
 "Language: de\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/qgis_overview.rst:20
 msgid "QGIS"
@@ -98,7 +98,7 @@ msgstr "und viel mehr ..."
 
 #: ../../build/doc/overview/qgis_overview.rst:49
 msgid "Easy Viewing of many Vector and Raster Formats"
-msgstr "Einfaches Anzeigen zahlreicher Vektor- and Rasterformate:"
+msgstr "Einfaches Anzeigen zahlreicher Vektor- and Rasterformate"
 
 #: ../../build/doc/overview/qgis_overview.rst:51
 msgid ""
@@ -156,13 +156,13 @@ msgid ""
 " or down/upload directly to a GPS unit"
 msgstr ""
 "einem GPS Werkzeug zum Im- und Export von GPX Formaten, Konvertierung "
-"anderer GPS Formate nach GPX und direkte Kommunikation mit einem GPS Gerät."
+"anderer GPS Formate nach GPX und direkte Kommunikation mit einem GPS Gerät"
 
 #: ../../build/doc/overview/qgis_overview.rst:64
 msgid ""
 "Perform spatial analysis using integrated support for SAGA, OTB, MMGIS and "
 "GRASS"
-msgstr "Räumliche Analysen für alle Datenformate:"
+msgstr ""
 
 #: ../../build/doc/overview/qgis_overview.rst:66
 msgid "map algebra"

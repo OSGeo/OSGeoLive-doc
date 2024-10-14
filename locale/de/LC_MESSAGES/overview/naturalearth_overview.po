@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-06 09:15-0500\n"
-"PO-Revision-Date: 2023-03-29 19:22+0000\n"
-"Last-Translator: Astrid Emde <astrid.emde@posteo.de>\n"
+"PO-Revision-Date: 2024-10-14 15:25+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
 "naturalearth_overview/de/>\n"
 "Language: de\n"
@@ -21,7 +21,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:15
 msgid "Natural Earth"
@@ -170,7 +170,7 @@ msgstr "**Webseite:** https://www.naturalearthdata.com/"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:58
 msgid "**License:** None, the data is public domain."
-msgstr "**Lizenz:** lizenzfrei, die Daten sind für jedermann zugänglich"
+msgstr "**Lizenz:** lizenzfrei, die Daten sind für jedermann zugänglich."
 
 #: ../../build/doc/overview/naturalearth_overview.rst:60
 msgid "**Data Version:** 2.0"

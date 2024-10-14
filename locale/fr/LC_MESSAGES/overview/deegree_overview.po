@@ -7,21 +7,22 @@
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2017
 # Vicky Vergara <vicky@georepublic.de>, 2017
 # Nicolas Roelandt (Personnel), 2022
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2022\n"
+"PO-Revision-Date: 2024-10-14 15:25+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: French <https://weblate.osgeo.org/projects/osgeolive/"
+"deegree_overview/fr/>\n"
 "Language: fr\n"
-"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
-"1000000 == 0 ? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/overview/deegree_overview.rst:21
@@ -142,8 +143,8 @@ msgid ""
 "Supports numerous backends, such as PostGIS, Oracle Spatial, MS SQL "
 "Server, Shapefiles or GML instance documents"
 msgstr ""
-"Prend en charge de nombreux backends, tels que PostGIS, Oracle Spatial, "
-"MS SQL Server, Shapefiles ou documents d'instance GML."
+"Prend en charge de nombreux backends, tels que PostGIS, Oracle Spatial, MS "
+"SQL Server, Shapefiles ou documents d'instance GML"
 
 #: ../../build/doc/overview/deegree_overview.rst:61
 msgid "**WMS**"
@@ -210,8 +211,8 @@ msgid ""
 "Supports numerous backends, such as PostGIS, Oracle Spatial, Shapefiles "
 "or GML instance documents"
 msgstr ""
-"Supporte de nombreux backends, tels que PostGIS, Oracle Spatial, "
-"Shapefiles ou des documents d'instance GML."
+"Supporte de nombreux backends, tels que PostGIS, Oracle Spatial, Shapefiles "
+"ou des documents d'instance GML"
 
 #: ../../build/doc/overview/deegree_overview.rst:75
 msgid "Can render rich data models directly"
@@ -234,8 +235,8 @@ msgid ""
 "Supports different backends, such as GeoTIFF, remote WMS or file system "
 "tile image hierarchies"
 msgstr ""
-"Supporte différents backends, tels que les GeoTIFF, les WMS à distance ou"
-" les hiérarchies d'images de tuiles de système de fichiers."
+"Supporte différents backends, tels que les GeoTIFF, les WMS à distance ou "
+"les hiérarchies d'images de tuiles de système de fichiers"
 
 #: ../../build/doc/overview/deegree_overview.rst:83
 msgid "Supports on-the-fly caching (using EHCache)"
@@ -266,8 +267,8 @@ msgid ""
 "Pluggable and modular dataaccess layer allows to add support for new APs "
 "and backends"
 msgstr ""
-"La couche d'accès aux données enfichable et modulaire permet d'ajouter le"
-" support de nouveaux AP et backends."
+"La couche d'accès aux données enfichable et modulaire permet d'ajouter le "
+"support de nouveaux AP et backends"
 
 #: ../../build/doc/overview/deegree_overview.rst:94
 msgid ""
@@ -282,8 +283,8 @@ msgid ""
 "Standard inspectors: schema validity, identifier integrity, INSPIRE "
 "requirements"
 msgstr ""
-"Inspecteurs de standards: validité du schéma, intégrité de "
-"l'identificateur, exigences INSPIRE."
+"Inspecteurs de standards: validité du schéma, intégrité de l'identificateur, "
+"exigences INSPIRE"
 
 #: ../../build/doc/overview/deegree_overview.rst:96
 msgid ""
@@ -430,4 +431,3 @@ msgstr "Projet OSGeo"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "Communauté OSGeo"
-

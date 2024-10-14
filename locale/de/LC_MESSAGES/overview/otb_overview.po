@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2023-03-29 19:22+0000\n"
-"Last-Translator: Astrid Emde <astrid.emde@posteo.de>\n"
+"PO-Revision-Date: 2024-10-14 15:25+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
 "otb_overview/de/>\n"
 "Language: de\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/otb_overview.rst:17
 msgid "OTB"
@@ -90,7 +90,7 @@ msgid ""
 msgstr ""
 "Bildzugriff: optimierter Lese-/Schreibzugriff für die meisten "
 "Fernerkundungsrasterdatenformate (inklusive Jpeg2000), Metadatenzugriff und "
-"Visualisierung"
+"Visualisierung;"
 
 #: ../../build/doc/overview/otb_overview.rst:51
 msgid ""
@@ -107,11 +107,11 @@ msgstr "Bildfusion"
 
 #: ../../build/doc/overview/otb_overview.rst:54
 msgid "filtering: blurring, denoising, enhancement..."
-msgstr "Filtern: Blurring, Denoising, Verbesserungen"
+msgstr "Filtern: Blurring, Denoising, Verbesserungen..."
 
 #: ../../build/doc/overview/otb_overview.rst:55
 msgid "feature extraction: interest points, alignments, lines..."
-msgstr "Erzeugen von Objekten: Einfügen von Punkten, Anpassungen, Linien"
+msgstr "Erzeugen von Objekten: Einfügen von Punkten, Anpassungen, Linien..."
 
 #: ../../build/doc/overview/otb_overview.rst:56
 msgid "object detection"
@@ -123,7 +123,7 @@ msgid ""
 " sets..."
 msgstr ""
 "Bildsegmentierung: Region Growing, Watershed, Niveaumengenmethoden (Level "
-"Sets)"
+"Sets)..."
 
 #: ../../build/doc/overview/otb_overview.rst:58
 msgid "sample selection framework for training"
@@ -162,7 +162,7 @@ msgstr "SAR Datenanalyse: Kalibrierung, polarimetry analysis"
 
 #: ../../build/doc/overview/otb_overview.rst:67
 msgid "change detection."
-msgstr "Änderungsverfolgung"
+msgstr "Änderungsverfolgung."
 
 #: ../../build/doc/overview/otb_overview.rst:70
 msgid "Details"

@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-06 09:15-0500\n"
-"PO-Revision-Date: 2023-03-29 19:22+0000\n"
-"Last-Translator: Astrid Emde <astrid.emde@posteo.de>\n"
+"PO-Revision-Date: 2024-10-14 15:25+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
 "osgeolive_quickstart/de/>\n"
 "Language: de\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:9
 msgid "Getting started with OSGeoLive"
@@ -56,7 +56,7 @@ msgstr "Festplatte:"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:22
 msgid "None required if running directly from the DVD"
-msgstr "Nicht benötigt, wenn sie direkt von DVD läuft."
+msgstr "Nicht benötigt, wenn sie direkt von DVD läuft"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:23
 msgid "|osgeolive-hdspace| if you wish to install the operating system."
@@ -109,7 +109,7 @@ msgstr "Start-Auswahl"
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:48
 msgid "Try the many applications from the :menuselection:`Geospatial` menu."
 msgstr ""
-"Testen Sie die vielen Anwendungen aus dem :menuselection:`Geospatial` Menü. "
+"Testen Sie die vielen Anwendungen aus dem :menuselection:`Geospatial` Menü."
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:51
 msgid "See Also:"

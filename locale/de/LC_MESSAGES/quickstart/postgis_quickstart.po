@@ -12,15 +12,16 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2023-04-05 04:45+0000\n"
-"Last-Translator: Astrid Emde <astrid.emde@posteo.de>\n"
+"PO-Revision-Date: 2024-10-14 15:25+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
+"postgis_quickstart/de/>\n"
 "Language: de\n"
-"Language-Team: German "
-"<https://weblate.osgeo.org/projects/osgeolive/postgis_quickstart/de/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:39
@@ -35,12 +36,11 @@ msgid ""
 " database functions, and 'PostGIS' when describing the additional spatial"
 " functionality provided by PostGIS."
 msgstr ""
-"PostGIS ist die räumliche Erweiterung der relationalen Datenbank "
-"PostgreSQL. PostGIS ermöglicht die Speicherung, Abfrage und Bearbeitung "
-"von räumlichen Daten. In diesem Zusammenhang werden wir 'PostgreSQL' "
-"verwenden, wenn wir über generelle Datenbankfunktionen sprechen und "
-"'PostGIS', wenn wir über die zusätzlichen Funktionalitäten, die die "
-"Erweiterung bereitstellt, reden."
+"PostGIS ist die räumliche Erweiterung der relationalen Datenbank PostgreSQL. "
+"PostGIS ermöglicht die Speicherung, Abfrage und Bearbeitung von räumlichen "
+"Daten. In diesem Zusammenhang werden wir 'PostgreSQL' verwenden, wenn wir "
+"über generelle Datenbankfunktionen sprechen und 'PostGIS', wenn wir über die "
+"zusätzlichen Funktionalitäten, die Erweiterung bereitstellt, reden."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:46
 msgid "This Quick Start describes how to:"
@@ -239,8 +239,8 @@ msgid ""
 "You should see an informational message, and the prompt will change to "
 "show that you are now connected to the ``demo`` database."
 msgstr ""
-"Sie sollten eine Meldung sehen, die Eingabe wechselt und zeigt an, dass "
-"Sie mit der Datenbank ``demo`` verbunden sind. "
+"Sie sollten eine Meldung sehen, die Eingabe wechselt und zeigt an, dass Sie "
+"mit der Datenbank ``demo`` verbunden sind."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:143
 msgid "Next, add PostGIS extension:"
@@ -249,12 +249,12 @@ msgstr "Fügen Sie nun die PostGIS Erweiterung hinzu:"
 #: ../../build/doc/quickstart/postgis_quickstart.rst:150
 msgid "To verify you have postgis now installed, run the following query:"
 msgstr ""
-"Lassen Sie sich die PostGIS Version ausgeben, um sich zu vergewissern, "
-"dass PostGIS installiert wurde."
+"Lassen Sie sich die PostGIS Version ausgeben, um sich zu vergewissern, dass "
+"PostGIS installiert wurde:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:162
 msgid "PostGIS installs many functions, a table, and several views"
-msgstr "PostGIS erzeugt viele Funktionen, eine Tabelle und einige Sichten."
+msgstr "PostGIS erzeugt viele Funktionen, eine Tabelle und einige Sichten"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:164
 msgid ""
@@ -293,7 +293,7 @@ msgstr "Zusätzlich wurden einige Sichten bei der PostGIS Aktivierung erzeugt."
 msgid ""
 "Type ``\\dv`` to list the views in the database. You should see something"
 " like this:"
-msgstr "Über ``\\dv`` können die Sichten aufgelistet werden."
+msgstr "Über ``\\dv`` können die Sichten aufgelistet werden:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:217
 msgid "PostGIS supports several spatial data types:"
@@ -444,8 +444,8 @@ msgid ""
 "All the usual SQL operations can be applied to select data from a PostGIS"
 " table:"
 msgstr ""
-"Alle üblichen SQL-Operationen können angewendet werden, um Daten aus "
-"einer PostGIS-Tabelle abzufragen."
+"Alle üblichen SQL-Operationen können angewendet werden, um Daten aus einer "
+"PostGIS-Tabelle abzufragen:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:301
 msgid ""
@@ -480,13 +480,13 @@ msgid ""
 "metres, assuming a spherical earth?"
 msgstr ""
 "PostGIS erweitert PostgreSQL um zahlreiche räumliche Funktionen. Die "
-"Funktion ST_GeomFromText zur Konvertierung von WKT in eine Geometrie "
-"haben wir schon kennen gelernt. Die meisten Funktionen starten mit ST "
-"(Abkürzung für spatial type) und werden in der PostGIS-Dokumentation sehr"
-" gut beschrieben. Wir werden nun eine PostGIS-Funktion zur Beantwortung "
-"einer praktischen Frage verwenden. Wie weit sind diese 3 Londons "
-"voneinander entfernt? Die Ausgabe soll in Metern erfolgen und wir gehen "
-"von einer sphärischen Erde aus."
+"Funktion ST_GeomFromText zur Konvertierung von WKT in eine Geometrie haben "
+"wir schon kennen gelernt. Die meisten Funktionen starten mit ST (Abkürzung "
+"für spatial type) und werden in der PostGIS-Dokumentation sehr gut "
+"beschrieben. Wir werden nun eine PostGIS-Funktion zur Beantwortung einer "
+"praktischen Frage verwenden. Wie weit sind diese 3 Londons voneinander "
+"entfernt? Die Ausgabe soll in Metern erfolgen und wir gehen von einer "
+"sphärischen Erde aus?"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:339
 msgid ""
@@ -865,9 +865,9 @@ msgid ""
 "left. By pressing it a tree is going to appear, displaying the contents "
 "of the database."
 msgstr ""
-"Sie können jetzt sehen, dass das rote X verschwunden ist und links ein "
-"\">\" erscheint. Durch Drücken wird eine Baumstruktur angezeigt, in der "
-"der Inhalt der Datenbank angezeigt wird."
+"Sie können jetzt sehen, dass das rote X verschwunden ist und links ein \">\" "
+"erscheint. Durch Drücken wird eine Baumstruktur angezeigt, in der Inhalt der "
+"Datenbank angezeigt wird."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:568
 msgid ""
@@ -959,8 +959,8 @@ msgid ""
 "Create a foreign Server that tells you where to find the data source that"
 " you want to connect"
 msgstr ""
-"Erstellen Sie einen Foreign Server, der Ihnen mitteilt, wo die "
-"Datenquelle liegt, mit der Sie sich verbinden möchten."
+"Erstellen Sie einen Foreign Server, der Ihnen mitteilt, wo die Datenquelle "
+"liegt, mit der Sie sich verbinden möchten"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:633
 msgid "Define the user that should be used when you connect to the foreign server"
@@ -1097,7 +1097,7 @@ msgstr "Was Sie noch ausprobieren können"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:745
 msgid "Here are some additional challenges for you to try:"
-msgstr "Hier sind ein paar weitere Aufgaben, die Sie lösen können."
+msgstr "Hier sind ein paar weitere Aufgaben, die Sie lösen können:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:747
 msgid ""
@@ -1112,7 +1112,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:749
 msgid "Export your tables to shapefiles with ``pgsql2shp`` on the command line."
-msgstr "Exportieren Sie Ihre Tabellen mit ``pgsql2shp`` in das Shape-Format"
+msgstr "Exportieren Sie Ihre Tabellen mit ``pgsql2shp`` in das Shape-Format."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:751
 msgid ""
@@ -1171,4 +1171,3 @@ msgstr "OSGeo Projekt"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo Community"
-

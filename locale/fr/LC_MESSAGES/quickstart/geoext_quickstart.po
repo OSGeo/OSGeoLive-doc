@@ -5,21 +5,22 @@
 #
 # Translators:
 # Nicolas Roelandt (Personnel), 2022
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2019-07-17 15:40+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2022\n"
+"PO-Revision-Date: 2024-10-14 15:25+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: French <https://weblate.osgeo.org/projects/osgeolive/"
+"geoext_quickstart/fr/>\n"
 "Language: fr\n"
-"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
-"1000000 == 0 ? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:17
@@ -251,24 +252,23 @@ msgid "What's next?"
 msgstr "Et ensuite ?"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:303
-#, fuzzy
 msgid ""
 "The `GeoExt homepage <https://geoext.github.io/geoext/>`_ contains full "
 "`API documentation <https://geoext.github.io/geoext/v3.1.0/docs>`_ and "
 "examples"
 msgstr ""
-"La `page d’accueil GeoExt <https://geoext.github.io/geoext3/>`_ contient "
-"la `documentation complète de l'API "
-"<https://geoext.github.io/geoext3/v3.1.0/docs>`_ et des exemples."
+"La `page d’accueil GeoExt <https://geoext.github.io/geoext3/>`_ contient la `"
+"documentation complète de l'API <https://geoext.github.io/geoext3/v3.1.0/"
+"docs>`_ et des exemples"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:305
 msgid ""
 "A `GeoExt workshop <https://github.com/geoext/geoext3-ws>`_ details all "
 "the steps for configuring and using GeoExt3 in your ExtJS applications"
 msgstr ""
-"Un `atelier GeoExt <https://github.com/geoext/geoext3-ws>`_ détaille "
-"toutes les étapes de la configuration et de l’utilisation de GeoExt3 dans"
-" vos applications ExtJS."
+"Un `atelier GeoExt <https://github.com/geoext/geoext3-ws>`_ détaille toutes "
+"les étapes de la configuration et de l’utilisation de GeoExt3 dans vos "
+"applications ExtJS"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:307
 msgid ""
@@ -299,4 +299,3 @@ msgstr "Projet OSGeo"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "Communauté OSGeo"
-

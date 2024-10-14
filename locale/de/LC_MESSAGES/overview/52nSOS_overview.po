@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-17 21:23+0000\n"
-"PO-Revision-Date: 2024-10-01 09:17+0000\n"
+"PO-Revision-Date: 2024-10-14 15:25+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
 "52nsos_overview/de/>\n"
@@ -295,7 +295,7 @@ msgid ""
 "observation."
 msgstr ""
 "DeleteObservation (aus der Spezifikationsversion 2.0) zum Löschen von "
-"Messdaten via Messdaten-Identifier"
+"Messdaten via Messdaten-Identifier."
 
 #: ../../build/doc/overview/52nSOS_overview.rst:110
 msgid ""
@@ -314,15 +314,15 @@ msgstr ""
 
 #: ../../build/doc/overview/52nSOS_overview.rst:112
 msgid "InsertFeatureOfInterest for feature insertion"
-msgstr "InsertFeatureOfInterest um Features einzufügen."
+msgstr "InsertFeatureOfInterest um Features einzufügen"
 
 #: ../../build/doc/overview/52nSOS_overview.rst:113
 msgid ""
 "DeleteResultTemplate for the deletion of resultTemplates by identifier or"
 " offering/observedProperty pairs"
 msgstr ""
-"DeleteResultTemplate um resultTemplates anhand des Identifiers oder eines"
-" offering observedProperty Paares zu löschen."
+"DeleteResultTemplate um resultTemplates anhand des Identifiers oder eines "
+"offering observedProperty Paares zu löschen"
 
 #: ../../build/doc/overview/52nSOS_overview.rst:116
 msgid ""

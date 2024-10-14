@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2024-08-18 22:45+0000\n"
+"PO-Revision-Date: 2024-10-14 14:30+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Italian <https://weblate.osgeo.org/projects/osgeolive/"
 "naturalearth_overview/it/>\n"
@@ -180,7 +180,7 @@ msgstr "**Formato dei dati:** SHP e TIF+TFW"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:64
 msgid "**Spatial coordinate system:** WGS84."
-msgstr "**Sistema di coordinate spaziali:**  WGS84"
+msgstr "**Sistema di coordinate spaziali:** WGS84."
 
 #: ../../build/doc/overview/naturalearth_overview.rst:66
 msgid "**Support:** https://www.naturalearthdata.com/about"

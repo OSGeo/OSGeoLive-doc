@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2023-03-29 19:22+0000\n"
-"Last-Translator: Astrid Emde <astrid.emde@posteo.de>\n"
+"PO-Revision-Date: 2024-10-14 15:25+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
 "postgis_overview/de/>\n"
 "Language: de\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/postgis_overview.rst:37
 msgid "PostGIS"
@@ -38,10 +38,10 @@ msgid ""
 " allowing it to be used as a back-end database for geographic information "
 "systems (GIS) and web-mapping applications."
 msgstr ""
-"PostGIS erweitert das bekannte objekt-relationale Datanbanksystem PostgreSQL"
-" um räumliche Funktionen. Damit wird es möglich, PostgreSQL als zentrale "
+"PostGIS erweitert das bekannte objekt-relationale Datanbanksystem PostgreSQL "
+"um räumliche Funktionen. Damit wird es möglich, PostgreSQL als zentrale "
 "Datenbank für geographische Informationssysteme (GIS), "
-"Geodateninfrastrukturen oder Webmaps zu nutzen. "
+"Geodateninfrastrukturen oder Webmaps zu nutzen."
 
 #: ../../build/doc/overview/postgis_overview.rst:60
 msgid ""
@@ -56,7 +56,7 @@ msgstr ""
 "räumliche Datenbank. Viele Organisationen weltweit setzen PostGIS ein. "
 "Darunter sind auch sicherheitsbewusste Organisationen, die sehr große "
 "Datenmenge speichern und täglich viele Millionen Datenbankabfragen "
-"bearbeiten können. "
+"bearbeiten können."
 
 #: ../../build/doc/overview/postgis_overview.rst:62
 msgid ""
@@ -70,7 +70,7 @@ msgstr ""
 "möglich. Der Im- und Export von Daten wird mit verschiedenen "
 "Konvertierungswerkzeugen (shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgis) "
 "durchgeführt. Es gibt zahlreiche Desktop-GIS- und Browser-Anwendungen die "
-"PostGIS-Daten visualisieren können. "
+"PostGIS-Daten visualisieren können."
 
 #: ../../build/doc/overview/postgis_overview.rstNone
 msgid "postgis screenshot"
@@ -96,7 +96,7 @@ msgstr "ACID transaktionale Integrität"
 
 #: ../../build/doc/overview/postgis_overview.rst:88
 msgid "R-Tree spatial index"
-msgstr "R-Tree als räumlichen Index "
+msgstr "R-Tree als räumlichen Index"
 
 #: ../../build/doc/overview/postgis_overview.rst:89
 msgid "Multi-user support"

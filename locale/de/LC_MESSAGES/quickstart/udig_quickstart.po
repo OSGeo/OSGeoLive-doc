@@ -16,8 +16,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-03 09:57+0000\n"
-"PO-Revision-Date: 2023-04-05 04:45+0000\n"
-"Last-Translator: Astrid Emde <astrid.emde@posteo.de>\n"
+"PO-Revision-Date: 2024-10-14 15:25+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
 "udig_quickstart/de/>\n"
 "Language: de\n"
@@ -25,7 +25,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:14
 msgid ""
@@ -141,7 +141,7 @@ msgstr "dem Katalog Catalog (3) sowie"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:95
 msgid "Map editor (4)."
-msgstr "der Karte (4)"
+msgstr "der Karte (4)."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:97
 msgid "These views will be described further as we demonstrate their use."
@@ -167,17 +167,17 @@ msgid ""
 " Data** wizard"
 msgstr ""
 "Wählen Sie :menuselection:`Layer --> Add` vom Applikationsmenü. Es öffnet "
-"sich der Wizard **Add Data**."
+"sich der Wizard **Add Data**"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:106
 msgid "Select **Files** from the list of data sources"
-msgstr "Wählen Sie in der Liste der Datenquellentypen **Files** aus."
+msgstr "Wählen Sie in der Liste der Datenquellentypen **Files** aus"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:108
 msgid "Press :guilabel:`Next` to open up a file dialog"
 msgstr ""
-"Klicken Sie auf die Schaltfläche :guilabel:`Next`. Es öffnet sich ein Dialog"
-" zur Auswahl von Dateien."
+"Klicken Sie auf die Schaltfläche :guilabel:`Next`. Es öffnet sich ein Dialog "
+"zur Auswahl von Dateien"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:110
 msgid "The OSGeoLive DVD contains sample data in:"
@@ -207,7 +207,7 @@ msgid ""
 msgstr ""
 "Eine neue Karte wird geöffnet, die den Inhalt des Shapefiles anzeigt. Der "
 "Name und die Projektion für die Karte wurden vom Shapefile übernommen "
-"(Standardverhalten)"
+"(Standardverhalten)."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:123
 msgid ""
@@ -533,8 +533,7 @@ msgstr "Weitere Aufgaben"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:296
 msgid "Here are some additional challenges for you to try:"
-msgstr ""
-"Hier sind einige zusätzliche Herausforderungen für Sie zum Ausprobieren:"
+msgstr "Hier sind ein paar weitere Aufgaben, die Sie lösen können:"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:298
 msgid ""
