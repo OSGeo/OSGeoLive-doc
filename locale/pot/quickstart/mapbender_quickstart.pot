@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-17 15:05-0600\n"
+"POT-Creation-Date: 2024-10-16 20:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,7 +61,7 @@ msgid "Start Mapbender"
 msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:50
-msgid "Choose |menu_mapbender| from the start menu or visit http://localhost/mapbender/app.php. The application will take a few moments to start up"
+msgid "Choose |menu_mapbender| from the start menu or visit http://localhost/mapbender/. The application will take a few moments to start up"
 msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:54
