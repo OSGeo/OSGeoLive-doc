@@ -198,7 +198,7 @@ msgstr "クイックスタート"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:102
 msgid ":doc:`Quickstart documentation <../quickstart/zoo-project_quickstart>`"
-msgstr ":doc:`クイックスタート文書  <../quickstart/zoo-project_quickstart>`"
+msgstr ":doc:`クイックスタート文書 <../quickstart/zoo-project_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"

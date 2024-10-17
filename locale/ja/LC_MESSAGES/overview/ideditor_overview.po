@@ -102,7 +102,7 @@ msgstr "**ソフトウェアバージョン:** |version-ideditor|"
 msgid ""
 "**Supported Platforms:** Anything that supports a browser: Windows, "
 "GNU/Linux, Mac, Android, iOS"
-msgstr "**対応プラットフォーム:**  Windows, GNU/Linux, Mac, Android, iOSのブラウザならどれでも"
+msgstr "**対応プラットフォーム:** Windows, GNU/Linux, Mac, Android, iOSのブラウザならどれでも"
 
 #: ../../build/doc/overview/ideditor_overview.rst:54
 msgid "**Support:** https://help.openstreetmap.org/"

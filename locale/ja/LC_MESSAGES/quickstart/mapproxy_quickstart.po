@@ -163,7 +163,7 @@ msgid ""
 "|osgeolive-appmenupath-geoserver| before accessing this layer."
 msgstr ""
 "このレイヤは、複数のソースを1つのレイヤに結合する機能を示しています。Mapnikの世界人口とGeoServerの米国人口を組み合わせたものです。USの人口統計についての"
-"  ``GetFeatureInfo`` サポートは引き続き利用可能です。このレイヤにアクセスする前に、 |osgeolive-"
+" ``GetFeatureInfo`` サポートは引き続き利用可能です。このレイヤにアクセスする前に、 |osgeolive-"
 "appmenupath-geoserver| でGeoServerを起動する必要があります。"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:81
@@ -201,7 +201,7 @@ msgid ""
 "You can now visit the demo page at http://127.0.0.1:8011/demo/. MapProxy "
 "will automatically reload if you change your configuration file."
 msgstr ""
-"http://127.0.0.1:8011/demo/  "
+"http://127.0.0.1:8011/demo/ "
 "でデモページを見ることができます。設定ファイルを変更すると、MapProxyが自動的にリロードされます。"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:101

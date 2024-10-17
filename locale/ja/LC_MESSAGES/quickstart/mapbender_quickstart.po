@@ -73,11 +73,11 @@ msgstr ""
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:48
 #, fuzzy
 msgid ""
-"Choose  |menu_mapbender| from the start menu or visit "
+"Choose |menu_mapbender| from the start menu or visit "
 "http://localhost/mapbender/app.php. The application will take a few "
 "moments to start up"
 msgstr ""
-"Choose  :menuselection:`Geospatial --> Browser Clients --> Mapbender` "
+"Choose :menuselection:`Geospatial --> Browser Clients --> Mapbender` "
 "from the start menu or visit http://localhost/mapbender/app.php. "
 "アプリケーションの起動にはしばらくかかります"
 

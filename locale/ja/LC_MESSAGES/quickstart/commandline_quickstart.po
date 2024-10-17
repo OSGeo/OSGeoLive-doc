@@ -54,7 +54,7 @@ msgid ""
 "menu in the `System Tools` section. This gives you a Unix shell command "
 "prompt."
 msgstr ""
-"`アプリケーション` メニューの `システムツール`  から、ターミナルエミュレータ (現在は `QTerminal` "
+"`アプリケーション` メニューの `システムツール` から、ターミナルエミュレータ (現在は `QTerminal` "
 ")を起動します。これにより、Unixシェルのコマンドプロンプトが表示されます。"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:22
@@ -105,7 +105,7 @@ msgstr "cdコマンドを使用すると、ファイルシステム内を簡単�
 msgid ""
 "cd / navigated to the root directory cd /home/user goes to your home "
 "directory same as cd ~"
-msgstr "cd / では、ルートディレクトリに移動します。 cd  /home/user  は、cd ~ と同じで、ホームディレクトリに移動します。"
+msgstr "cd / では、ルートディレクトリに移動します。 cd /home/user は、cd ~ と同じで、ホームディレクトリに移動します。"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:72
 msgid ""
@@ -339,7 +339,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:248
 msgid "You can show the owner and group via `ls -l`"
-msgstr "所有者と所有グループを  `ls -l` で見ることができます。"
+msgstr "所有者と所有グループを `ls -l` で見ることができます。"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:256
 msgid "the initial character can be `-` for a file or `d` for directory"

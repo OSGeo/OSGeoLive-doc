@@ -133,7 +133,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:83
 msgid ""
-"Experiment with this view and look at some of the other previews.  Once "
+"Experiment with this view and look at some of the other previews. Once "
 "you are comfortable viewing existing data you can move on to adding some "
 "new data."
 msgstr "このビューを試して、他のプレビューをいくつか見てみましょう。既存のデータを見やすくなったら、新しいデータを追加することができます。"
@@ -574,7 +574,7 @@ msgstr "GeoServer プロジェクトホーム - https://geoserver.org/"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:348
 msgid "GeoServer User Manual - https://docs.geoserver.org/latest/en/user/"
-msgstr "GeoServer ユーザマニュアル -  https://docs.geoserver.org/latest/en/user/"
+msgstr "GeoServer ユーザマニュアル - https://docs.geoserver.org/latest/en/user/"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:349
 msgid ""

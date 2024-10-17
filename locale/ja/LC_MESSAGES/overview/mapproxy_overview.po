@@ -213,7 +213,7 @@ msgstr "強力なツール:"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:84
 msgid ""
-"efficient seed tool for cache pre-filling that can seed polygon areas  with "
+"efficient seed tool for cache pre-filling that can seed polygon areas with "
 "Shapefiles, GeoJSON, PostGIS or WKT geometries"
 msgstr ""
 "シェープファイル、GeoJSON、PostGIS、WKT ジオメトリのポリゴン領域へのシードが可能な事前タイルキャッシュのための効率的なシードツール。"
