@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"POT-Creation-Date: 2024-10-17 17:51+0000\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
 "Last-Translator: Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2022\n"
 "Language: fi\n"
@@ -21,13 +21,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/sponsors.rst:1
 msgid "OSGeoLive Sponsors"
 msgstr "OSGeoLive tukijat"
 
-#: ../../build/doc/sponsors.rst:-1 ../../build/doc/sponsors_osgeo.rst:-1
 msgid "OSGeo"
 msgstr ""
 
@@ -41,7 +40,6 @@ msgstr ""
 "palveluntarjoajan ympäristön sekä henkilöstön projektille, ja monille "
 "ohjelmistotiimeille jotka avustavat projektia."
 
-#: ../../build/doc/sponsors.rst:-1
 msgid ""
 "Information Center for the Environment at the University of California, "
 "Davis"
@@ -56,7 +54,6 @@ msgstr ""
 "Ympäristöinformaation keskus University of Californiassa, Davis tarjoaa "
 "laitteistoresurssit sekä kehitystuen OSGeoLive projektille."
 
-#: ../../build/doc/sponsors.rst:-1
 msgid "National Technical University of Athens"
 msgstr ""
 
@@ -69,7 +66,6 @@ msgstr ""
 "National Technical University of Athens kaukokartoitus laboratorio , "
 "tarjoaa laitteistoresurssit sekä kehitystuen OSGeoLive projektille."
 
-#: ../../build/doc/sponsors.rst:-1
 msgid "The DebianGIS and UbuntuGIS projects"
 msgstr ""
 
@@ -97,8 +93,8 @@ msgid ""
 "foundation devoted to an open philosophy and participatory community "
 "driven development."
 msgstr ""
-"`Open Source Geospatial Foundation (OSGeo) < <https://www.osgeo.org>` __"
-" tehtävä on voittoa tavoittelematomasti edistää maailmanlaajuista "
+"`Open Source Geospatial Foundation (OSGeo) < <https://www.osgeo.org>` __ "
+"tehtävä on voittoa tavoittelematomasti edistää maailmanlaajuista "
 "hyväksymistä avoimeen paikkatieto teknologiaan olemalla osallistava "
 "ohjelmistojärjestö joka on keskittynyt avoimuuden filosofiaan ja "
 "osallistavaan kehitysyhteisöön."
@@ -2754,8 +2750,9 @@ msgid "Alexander Kleshnin"
 msgstr "Alexander Kleshnin"
 
 #: ../../build/translators.csv:1
-msgid "a.hast mail ru"
-msgstr "a.hast mail ru"
+#, fuzzy
+msgid "kleshnin.alexander gmail.com"
+msgstr "aeylinen gmail.com"
 
 #: ../../build/translators.csv:1
 msgid "HasT"

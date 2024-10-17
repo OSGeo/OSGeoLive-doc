@@ -11,19 +11,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"POT-Creation-Date: 2024-08-17 15:05-0600\n"
 "PO-Revision-Date: 2023-07-31 19:39+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
-"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
-"eoxserver_quickstart/es/>\n"
 "Language: es\n"
+"Language-Team: Spanish "
+"<https://weblate.osgeo.org/projects/osgeolive/eoxserver_quickstart/es/>\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 "
+"== 0) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
-" ? 1 : 2);\n"
-"X-Generator: Weblate 4.16.4\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:19
 msgid "EOxServer Quickstart"
@@ -35,17 +34,18 @@ msgid ""
 "archives and metadata via Open Standards. It builds upon an Open Source "
 "stack of software which includes Python, :doc:`MapServer "
 "<../overview/mapserver_overview>`, Django/GeoDjango, :doc:`GDAL "
-"<../overview/gdal_overview>`, :doc:`PROJ <../overview/proj_overview>` "
-"and a :doc:`SpatiaLite <../overview/spatialite_overview>` or "
-":doc:`PostGIS <../overview/postgis_overview>` database."
+"<../overview/gdal_overview>`, :doc:`PROJ <../overview/proj_overview>` and"
+" a :doc:`SpatiaLite <../overview/spatialite_overview>` or :doc:`PostGIS "
+"<../overview/postgis_overview>` database."
 msgstr ""
 "EOxServer es un servidor para presentar archivos de datos y metadatos de "
-"Observación de la Tierra (EO) a través de Estándares Abiertos. Se basa en "
-"una pila de software de código abierto que incluye Python, :doc:`MapServer "
-"<../overview/mapserver_overview>`, Django/GeoDjango, :doc:`GDAL <../overview/"
-"gdal_overview>`, :doc:`PROJ <../overview/proj_overview>` and a :doc:`"
-"SpatiaLite <../overview/spatialite_overview>` o base de datos de :doc:`"
-"PostGIS <../overview/postgis_overview>`."
+"Observación de la Tierra (EO) a través de Estándares Abiertos. Se basa en"
+" una pila de software de código abierto que incluye Python, "
+":doc:`MapServer <../overview/mapserver_overview>`, Django/GeoDjango, "
+":doc:`GDAL <../overview/gdal_overview>`, :doc:`PROJ "
+"<../overview/proj_overview>` and a :doc:`SpatiaLite "
+"<../overview/spatialite_overview>` o base de datos de :doc:`PostGIS "
+"<../overview/postgis_overview>`."
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:30
 msgid "This Quick Start describes how to:"
@@ -76,11 +76,10 @@ msgid ""
 "Choose |menu_eoxserver|. This launches a browser showing the "
 "demonstration instance available at http://localhost/eoxserver/"
 msgstr ""
-"Elija :menuselection:`Geospatial --> Web Services --> EOxServer`. Esto lanza "
-"un explorador que muestra la instancia de demostración disponible en http://"
-"localhost/eoxserver/"
+"Elija :menuselection:`Geospatial --> Web Services --> EOxServer`. Esto "
+"lanza un explorador que muestra la instancia de demostración disponible "
+"en http://localhost/eoxserver/"
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:-1
 msgid "EOxServer demonstration start"
 msgstr "Inicio de demostración de EOxServer"
 
@@ -103,7 +102,6 @@ msgstr ""
 "EOxServer. La instancia de demostración está llena de escenas de ENVISAT "
 "MERIS."
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:-1
 msgid "Main view of the EOxServer Web Client"
 msgstr "Vista principal del cliente web de EOxServer"
 
@@ -121,7 +119,6 @@ msgstr ""
 "inferior, encontrará el widget de timeslider, que le permite explorar el "
 "contenido en la dimensión temporal."
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:-1
 msgid "EOxServer demonstration embedded client outlines"
 msgstr "Esquemas de cliente integrados de demostración de EOxServer"
 
@@ -213,7 +210,6 @@ msgstr ""
 " Administrador** e inicie sesión con el usuario `admin` y la contraseña "
 "`admin`."
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:-1
 msgid "EOxServer demonstration admin client login"
 msgstr "Inicio de sesión del cliente administrador de demostración de EOxServer"
 
@@ -229,7 +225,6 @@ msgstr ""
 "el cliente. Se puede encontrar más información en la guía `operaciones' "
 "<https://docs.eoxserver.org/en/stable/users/operations/index.html>`_."
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:-1
 msgid "EOxServer demonstration admin client start"
 msgstr "Inicio del cliente de administración de demostración de EOxServer"
 
@@ -243,7 +238,6 @@ msgstr ""
 "predeterminada haciendo clic en el vínculo \"Colecciones\" y, a "
 "continuación, en el vínculo \"MER_FRS_1P_RGB_reduced\"."
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:-1
 msgid "EOxServer demonstration admin client Dataset Series"
 msgstr "EOxServer demostración del cliente de administración Dataset Series"
 
@@ -255,14 +249,14 @@ msgstr ""
 "Puede obtener una vista previa de las coberturas volviendo y haciendo "
 "clic en el enlace \"Coberturas\"."
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:-1
 msgid "EOxServer demonstration admin client Dataset Series Management"
 msgstr ""
 "Demostración del cliente administrador de EOxServer Dataset Series "
 "Management"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:146
-msgid "What Next?"
+#, fuzzy
+msgid "What next?"
 msgstr "¿Qué sigue?"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:148
@@ -271,9 +265,9 @@ msgid ""
 "The project website contains a lot of resources to help you get started. "
 "Here’s a few resources to check out next:"
 msgstr ""
-"Esto es una demostración sencilla, pero puede hacer mucho más con EOxServer. "
-"El sitio web del proyecto contiene muchos recursos para ayudarle a comenzar. "
-"A continuación, algunos recursos para revisar:"
+"Esto es una demostración sencilla, pero puede hacer mucho más con "
+"EOxServer. El sitio web del proyecto contiene muchos recursos para "
+"ayudarle a comenzar. A continuación, algunos recursos para revisar:"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:152
 msgid ""
@@ -288,16 +282,16 @@ msgid ""
 "Read the `EOxServer Operations' Guide "
 "<https://docs.eoxserver.org/en/stable/users/operations/index.html>`_."
 msgstr ""
-"Lea la Guía `Operaciones de EOxServer' <https://docs.eoxserver.org/en/stable/"
-"users/operations/index.html>`_."
+"Lea la Guía `Operaciones de EOxServer' "
+"<https://docs.eoxserver.org/en/stable/users/operations/index.html>`_."
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:154
 msgid ""
 "Read the `EOxServer Basics "
 "<https://docs.eoxserver.org/en/stable/users/basics.html>`_."
 msgstr ""
-"Lea el `Conceptos básicos de EOxServer <https://docs.eoxserver.org/en/stable/"
-"users/basics.html>`_."
+"Lea el `Conceptos básicos de EOxServer "
+"<https://docs.eoxserver.org/en/stable/users/basics.html>`_."
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:155
 msgid ""
@@ -307,9 +301,9 @@ msgid ""
 "and ask questions."
 msgstr ""
 "¿Listo para usar EOxServer? Luego únase a la comunidad en las `listas de "
-"correo <https://docs.eoxserver.org/en/stable/users/basics.html#where-can-i"
-"-get-support>`_ para intercambiar ideas, discutir posibles mejoras de "
-"software y hacer preguntas."
+"correo <https://docs.eoxserver.org/en/stable/users/basics.html#where-"
+"can-i-get-support>`_ para intercambiar ideas, discutir posibles mejoras "
+"de software y hacer preguntas."
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -326,3 +320,4 @@ msgstr "Proyecto OSGeo"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo Comunitario"
+

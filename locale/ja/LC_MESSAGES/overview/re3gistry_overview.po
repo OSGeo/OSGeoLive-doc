@@ -1,27 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # Ko Nagase <nagase@georepublic.co.jp>, 2022
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-06 09:15-0500\n"
+"POT-Creation-Date: 2024-08-17 15:05-0600\n"
 "PO-Revision-Date: 2024-05-18 20:46+0000\n"
 "Last-Translator: Yoichi Kayama <yoichi.kayama@gmail.com>\n"
-"Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
-"re3gistry_overview/ja/>\n"
 "Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Japanese "
+"<https://weblate.osgeo.org/projects/osgeolive/re3gistry_overview/ja/>\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.4.3\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:18
 msgid "Re3gistry"
@@ -33,18 +32,19 @@ msgstr "About"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:23
 msgid ""
-"The Re3gistry 2 is a reusable open source solution for managing and sharing "
-"\"reference codes\". Initially developed as a central component of the EU's "
-":doc:`INSPIRE <inspire_overview>` infrastructure, it provides a consistent "
-"central access point where labels and descriptions for reference codes can "
-"be easily browsed by humans and retrieved by machines. Reference codes are "
-"exchanged between applications to uniquely reference some ‘thing’. They can "
-"be used to define sets of permissible values for a data field or to provide "
-"a reference or context for the data being exchanged. Examples are "
-"enumerations, controlled vocabularies, taxonomies, thesauri or, simply, "
-"‘lists of things’. The Re3gistry 2 supports organisations in managing and "
-"updating reference codes in a consistent way. The Re3gistry software version"
-" numbers comply with the Semantic Versioning Specification 2.0.0."
+"The Re3gistry 2 is a reusable open source solution for managing and "
+"sharing \"reference codes\". Initially developed as a central component "
+"of the EU's :doc:`INSPIRE <inspire_overview>` infrastructure, it provides"
+" a consistent central access point where labels and descriptions for "
+"reference codes can be easily browsed by humans and retrieved by "
+"machines. Reference codes are exchanged between applications to uniquely "
+"reference some ‘thing’. They can be used to define sets of permissible "
+"values for a data field or to provide a reference or context for the data"
+" being exchanged. Examples are enumerations, controlled vocabularies, "
+"taxonomies, thesauri or, simply, ‘lists of things’. The Re3gistry 2 "
+"supports organisations in managing and updating reference codes in a "
+"consistent way. The Re3gistry software version numbers comply with the "
+"Semantic Versioning Specification 2.0.0."
 msgstr ""
 "Re3gistry 2は、 \"リファレンスコード\" を管理および共有するための再利用可能なオープンソースソリューションです。当初はEUの "
 ":doc:`INSPIRE <inspire_overview>` "
@@ -52,7 +52,6 @@ msgstr ""
 " "
 "2は、組織が一貫した方法で参照コードを管理し更新することを支援しています。Re3gistryソフトウェアのバージョン番号は、セマンティック・バージョン付与標準2.0.0に準拠しています。"
 
-#: ../../build/doc/overview/re3gistry_overview.rstNone
 msgid "re3gistry screenshot"
 msgstr "Re3gistry スクリーンショット"
 
@@ -62,14 +61,14 @@ msgstr "主要機能"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:45
 msgid ""
-"User-friendly editing interface to easily add, edit and manage the registers"
-" and reference codes"
+"User-friendly editing interface to easily add, edit and manage the "
+"registers and reference codes"
 msgstr "登録者とリファレンスコードの追加、編集、管理を容易にする使いやすい編集インタフェース"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:46
 msgid ""
-"Management of the full lifecycle of the reference codes (based on the ISO "
-"19135 Standard)"
+"Management of the full lifecycle of the reference codes (based on the ISO"
+" 19135 Standard)"
 msgstr "(ISO19135規格に基づく)リファレンスコードのライフサイクル全体の管理"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:47
@@ -93,13 +92,16 @@ msgid "Free-text search"
 msgstr "自由文検索"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:52
-msgid "Supported formats: HTML, ISO 19135 XML, JSON"
+#, fuzzy
+msgid ""
+"Supported formats: HTML, ISO 19135 XML, JSON, RDF/XML, Re3gistry XML, "
+"CSV, ATOM"
 msgstr "サポートされるフォーマット:HTML、ISO19135XML、JSON"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:53
 msgid ""
-"Service formats can be easily added or customised (default formats: JSON and"
-" ISO 19135 XML)"
+"Service formats can be easily added or customised (default formats: JSON "
+"and ISO 19135 XML)"
 msgstr "サービスフォーマットは簡単に追加またはカスタマイズできる(デフォルトフォーマット:JSONとISO19135XML)"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:54
@@ -112,8 +114,8 @@ msgstr "URIを通じて参照される外部的に管理される項目"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:56
 msgid ""
-"INSPIRE register federation format support (option to automatically create "
-"the RoR format)"
+"INSPIRE register federation format support (option to automatically "
+"create the RoR format)"
 msgstr "INSPIREレジスタフェデレーションフォーマットのサポート(RoRフォーマットを自動的に作成するオプション)"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:57
@@ -188,10 +190,11 @@ msgstr "vmdk"
 msgid "nologo"
 msgstr "ロゴなし"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "OSGeo プロジェクト"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo コミュニティ"
+

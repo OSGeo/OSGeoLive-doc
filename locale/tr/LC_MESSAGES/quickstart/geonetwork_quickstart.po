@@ -1,26 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
 # Translators:
 # abc Def <hdogan1974@gmail.com>, 2020
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-15 20:42-0600\n"
+"POT-Creation-Date: 2024-09-26 14:03+0000\n"
 "PO-Revision-Date: 2024-10-14 14:30+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
-"Language-Team: Turkish <https://weblate.osgeo.org/projects/osgeolive/"
-"geonetwork_quickstart/tr/>\n"
 "Language: tr\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Turkish "
+"<https://weblate.osgeo.org/projects/osgeolive/geonetwork_quickstart/tr/>"
+"\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Weblate 5.4.3\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:27
 msgid "GeoNetwork Quickstart"
@@ -40,11 +40,11 @@ msgstr "Önkoşullar"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:37
 msgid ""
-"GeoNetwork can directly be started from the OSGeo Live start menu and will "
-"be available at http://localhost:8080/geonetwork some moments later. Check "
-"the `Installation Guide <https://geonetwork-"
-"opensource.org/manuals/trunk/en/install-guide/index.html>`__ if you are "
-"using GeoNetwork in some other context."
+"GeoNetwork can directly be started from the OSGeo Live start menu and "
+"will be available at http://localhost:8080/geonetwork some moments later."
+" Check the `Installation Guide <https://docs.geonetwork-"
+"opensource.org/3.12/install-guide/>`__ if you are using GeoNetwork in "
+"some other context."
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:39
@@ -60,17 +60,17 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:45
 msgid ""
-"In the Web Services folder on the Desktop (or via the start menu), double-"
-"click **start GeoNetwork**. This will open the Firefox web browser at the "
-"URL ``http://localhost:8880/geonetwork``. This will be referred to "
-"throughout this document as the *homepage*."
+"In the Web Services folder on the Desktop (or via the start menu), "
+"double-click **start GeoNetwork**. This will open the Firefox web browser"
+" at the URL ``http://localhost:8880/geonetwork``. This will be referred "
+"to throughout this document as the *homepage*."
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:47
 msgid ""
-"You can return to the homepage at any point by selecting the catalogue logo"
-" in the top left of the top toolbar. In the screenshot below, this is "
-"labelled “My GeoNetwork catalogue” but it may have a different name and "
+"You can return to the homepage at any point by selecting the catalogue "
+"logo in the top left of the top toolbar. In the screenshot below, this is"
+" labelled “My GeoNetwork catalogue” but it may have a different name and "
 "logo."
 msgstr ""
 
@@ -80,10 +80,10 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:57
 msgid ""
-"Select **Sign in** in the top right of the top toolbar in the homepage to "
-"visit the sign in page. Enter the username ``admin`` and password ``admin`` "
-"and select the blue **Sign in** button to sign in as the catalog "
-"administrator."
+"Select **Sign in** in the top right of the top toolbar in the homepage to"
+" visit the sign in page. Enter the username ``admin`` and password "
+"``admin`` and select the blue **Sign in** button to sign in as the "
+"catalog administrator."
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:63
@@ -133,15 +133,16 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:82
 msgid ""
-"For the purposes of this Quick Start Guide, select ``Geographic information "
-"- Metadata (iso19139:2007)`` and then select first the **Load samples for "
-"selected standards** button below the list."
+"For the purposes of this Quick Start Guide, select ``Geographic "
+"information - Metadata (iso19139:2007)`` and then select first the **Load"
+" samples for selected standards** button below the list."
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:87
 msgid ""
 "*When this process is complete, a notice will appear in the right of the "
-"window indicating that 5 record(s) have been added for schema ‘iso19139’.*"
+"window indicating that 5 record(s) have been added for schema "
+"‘iso19139’.*"
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:90
@@ -150,11 +151,11 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:92
 msgid ""
-"Return to the catalog homepage by selecting the catalog name in the top left"
-" of the top toolbar. The homepage will now show icons representing the "
-"loaded records, classified by topic (in blue) and resource type (in green). "
-"Below this are tabs classifying the records by date added (latest news) and "
-"popularity (most popular)."
+"Return to the catalog homepage by selecting the catalog name in the top "
+"left of the top toolbar. The homepage will now show icons representing "
+"the loaded records, classified by topic (in blue) and resource type (in "
+"green). Below this are tabs classifying the records by date added (latest"
+" news) and popularity (most popular)."
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:97
@@ -171,21 +172,22 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:107
 msgid ""
-"*Search facets*, or filters, that provide ways of narrowing down the search"
-" results, such as *Type of Resource*, *Topic*, *Keywords*,"
+"*Search facets*, or filters, that provide ways of narrowing down the "
+"search results, such as *Type of Resource*, *Topic*, *Keywords*,"
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:112
 msgid ""
-"An overview map, where you can draw a box to filter results spatially (Hint-"
-" if you can’t see this, select MAP in the bottom right corner of your page)"
+"An overview map, where you can draw a box to filter results spatially "
+"(Hint- if you can’t see this, select MAP in the bottom right corner of "
+"your page)"
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:117
 msgid ""
 "By selecting the vertical ellipsis in the search box you can access the "
-"**advanced search** panel and search by *category*, *keyword*, *contact*, or"
-" records within a specific time period."
+"**advanced search** panel and search by *category*, *keyword*, *contact*,"
+" or records within a specific time period."
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:124
@@ -203,8 +205,8 @@ msgstr ""
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:131
 msgid ""
 "Select a card to take you to a page showing the full details for that "
-"record. Select the blue **Back to search** button to return to the Search "
-"page when you’re done."
+"record. Select the blue **Back to search** button to return to the Search"
+" page when you’re done."
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:137
@@ -235,8 +237,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:145
 msgid ""
-"Switching to **Full view** will show more detailed metadata. To switch back "
-"to the original view select **Default view** from the list."
+"Switching to **Full view** will show more detailed metadata. To switch "
+"back to the original view select **Default view** from the list."
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:148
@@ -245,15 +247,16 @@ msgstr "Haritaya katman ekleme"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:150
 msgid ""
-"From the **Search tab**, click on the card for **Physiographic Map of North "
-"and Central Eurasia (Sample record, please remove!)** to view the metadata. "
-"Move down the page until the **Download and links** section is visible."
+"From the **Search tab**, click on the card for **Physiographic Map of "
+"North and Central Eurasia (Sample record, please remove!)** to view the "
+"metadata. Move down the page until the **Download and links** section is "
+"visible."
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:152
 msgid ""
-"The **Download and links** section shows external resources associated with "
-"the metadata record, such as:"
+"The **Download and links** section shows external resources associated "
+"with the metadata record, such as:"
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:154
@@ -265,14 +268,13 @@ msgid "Further information such as a web page,"
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:156
-msgid ""
-"A Web Mapping Service (WMS) or Web Feature Service (WFS) link to the data."
+msgid "A Web Mapping Service (WMS) or Web Feature Service (WFS) link to the data."
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:158
 msgid ""
-"Locate the link labelled as **This dataset is published in the view service "
-"(WMS) available at http://data.fao.org/maps/wms with layer name "
+"Locate the link labelled as **This dataset is published in the view "
+"service (WMS) available at http://data.fao.org/maps/wms with layer name "
 "GEONETWORK:phy_landf_7386.** and select **Add to map**."
 msgstr ""
 
@@ -284,8 +286,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:162
 msgid ""
-"Tools for using the Map are arranged in two groups in the right-hand side of"
-" the map. The top group looks like this:"
+"Tools for using the Map are arranged in two groups in the right-hand side"
+" of the map. The top group looks like this:"
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:168
@@ -294,8 +296,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:170
 msgid ""
-"Add new layers to the map. You can search the catalog, add layers from web "
-"services, or KML,"
+"Add new layers to the map. You can search the catalog, add layers from "
+"web services, or KML,"
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:171
@@ -310,9 +312,9 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:173
 msgid ""
-"Manage the Map, by setting it back to default settings, loading a new map "
-"definition, downloading the current map, or saving the map configuration as "
-"a layer in the catalog,"
+"Manage the Map, by setting it back to default settings, loading a new map"
+" definition, downloading the current map, or saving the map configuration"
+" as a layer in the catalog,"
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:174
@@ -365,8 +367,9 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:195
 msgid ""
-"Using the Manage Layers tool, select the cog symbol next to **Physiography "
-"of North and Central Eurasia Landform** and select **Zoom to layer**."
+"Using the Manage Layers tool, select the cog symbol next to "
+"**Physiography of North and Central Eurasia Landform** and select **Zoom "
+"to layer**."
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:201
@@ -375,17 +378,18 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:206
 msgid ""
-"Select the **paintbrush** icon next to the layer to see the legend, showing "
-"you the classification used for the display. You can dismiss this dialog by "
-"selecting the **X** in the top right corner."
+"Select the **paintbrush** icon next to the layer to see the legend, "
+"showing you the classification used for the display. You can dismiss this"
+" dialog by selecting the **X** in the top right corner."
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:211
 msgid ""
-"Select a feature on the map corresponding to a category in the legend, such "
-"as an area of water. Zoom and pan around the map as needed to identify a "
-"suitable area. Clicking on the feature will bring up an identification box "
-"at the bottom of the map showing details about the area selected."
+"Select a feature on the map corresponding to a category in the legend, "
+"such as an area of water. Zoom and pan around the map as needed to "
+"identify a suitable area. Clicking on the feature will bring up an "
+"identification box at the bottom of the map showing details about the "
+"area selected."
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:219
@@ -394,17 +398,16 @@ msgstr "Sıradaki Ne?"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:221
 msgid ""
-"Visit the `Geonetwork User Guide <https://geonetwork-"
-"opensource.org/manuals/trunk/en/user-guide/index.html>`_ and try the chapter"
-" on **Describing Information**, to learn how to create and edit metadata "
-"records."
+"Visit the `Geonetwork User Guide <https://docs.geonetwork-"
+"opensource.org/3.12/user-guide/>`_ and try the chapter on **Describing "
+"Information**, to learn how to create and edit metadata records."
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:223
 msgid ""
 "Follow up by visiting subsequent chapters to learn how to associate "
-"resources with your metadata, tag it with keywords and add it to categories,"
-" and publish your metadata to the outside world."
+"resources with your metadata, tag it with keywords and add it to "
+"categories, and publish your metadata to the outside world."
 msgstr ""
 
 #: ../../build/doc/<rst_epilog>:13
@@ -415,10 +418,11 @@ msgstr ""
 msgid "nologo"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr ""
+

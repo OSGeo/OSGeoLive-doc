@@ -1,28 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # Astrid Emde <astrid_emde@osgeo.org>, 2022
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2024-09-26 14:03+0000\n"
 "PO-Revision-Date: 2023-03-29 19:22+0000\n"
 "Last-Translator: Astrid Emde <astrid.emde@posteo.de>\n"
-"Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
-"gdal_overview/de/>\n"
 "Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: German "
+"<https://weblate.osgeo.org/projects/osgeolive/gdal_overview/de/>\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/overview/gdal_overview.rst:18
 msgid "GDAL/OGR"
@@ -39,15 +38,15 @@ msgid ""
 "geospatial data formats."
 msgstr ""
 "Die Geospatial Data Abstraction Library (GDAL/OGR) stellt "
-"komandozeilenbasierte Hilfsprogramme zur Verfügung. Über diese können eine "
-"Vielzahl von Raster- und Vektorgeodatenformate umgewandelt und prozessiert "
-"werden."
+"komandozeilenbasierte Hilfsprogramme zur Verfügung. Über diese können "
+"eine Vielzahl von Raster- und Vektorgeodatenformate umgewandelt und "
+"prozessiert werden."
 
 #: ../../build/doc/overview/gdal_overview.rst:27
 msgid ""
-"The utilities are based upon a cross platform, C++ library, accessible via "
-"numerous programming languages. As a library, it presents a single abstract"
-" data model to the calling application for all supported formats."
+"The utilities are based upon a cross platform, C++ library, accessible "
+"via numerous programming languages. As a library, it presents a single "
+"abstract data model to the calling application for all supported formats."
 msgstr ""
 "Die Hilfsprogramme basieren auf einer plattformübergreifenden C++ "
 "Bibliothek, die über zahlreiche Programmiersprachen angesprochen werden "
@@ -56,18 +55,18 @@ msgstr ""
 
 #: ../../build/doc/overview/gdal_overview.rst:31
 msgid ""
-"GDAL/OGR is the most widely used geospatial data access library. It provides"
-" the primary data access engine for many applications including MapServer, "
-"GRASS, QGIS, and OpenEV. It is also utilized by packages such as OSSIM, "
-"Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide and ArcGIS."
+"GDAL/OGR is the most widely used geospatial data access library. It "
+"provides the primary data access engine for many applications including "
+"MapServer, GRASS, QGIS, and OpenEV. It is also utilized by packages such "
+"as OSSIM, Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide "
+"and ArcGIS."
 msgstr ""
 "GDAL/OGR ist die am weitesten verbreitete Bibliothek für den Zugriff auf "
-"räumliche Daten. Viele Anwendungen einschließlich MapServer, GRASS, QGIS und"
-" OpenEV nutzen überwiegend GDAL/OGR für den Datenzugriff. GDAL/OGR wird auch"
-" von OSSIM, Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide und"
-" ArcGIS genutzt."
+"räumliche Daten. Viele Anwendungen einschließlich MapServer, GRASS, QGIS "
+"und OpenEV nutzen überwiegend GDAL/OGR für den Datenzugriff. GDAL/OGR "
+"wird auch von OSSIM, Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, "
+"MapGuide und ArcGIS genutzt."
 
-#: ../../build/doc/overview/gdal_overview.rstNone
 msgid "gdal screenshot"
 msgstr ""
 
@@ -77,12 +76,12 @@ msgstr "Kernfunktionen"
 
 #: ../../build/doc/overview/gdal_overview.rst:45
 msgid ""
-"Command-line utilities for data translation, image warping, subsetting, and "
-"various other common tasks"
+"Command-line utilities for data translation, image warping, subsetting, "
+"and various other common tasks"
 msgstr ""
-"kommandozeilen-basierte Hilfsprogramme zur Datenumwandlung, Bildanpassung, "
-"Generierung von Bildausschnitten und für zahlreiche andere gängige "
-"Bildbearbeitungsaufgaben"
+"kommandozeilen-basierte Hilfsprogramme zur Datenumwandlung, "
+"Bildanpassung, Generierung von Bildausschnitten und für zahlreiche andere"
+" gängige Bildbearbeitungsaufgaben"
 
 #: ../../build/doc/overview/gdal_overview.rst:46
 msgid ""
@@ -102,11 +101,11 @@ msgstr "Zugriff auf die Bibliothek über Python, Java, C#, Ruby, VB6 und Perl"
 
 #: ../../build/doc/overview/gdal_overview.rst:49
 msgid ""
-"Coordinate system engine built on PROJ.4 and OGC Well Known Text coordinate "
-"system descriptions"
+"Coordinate system engine built on PROJ.4 and OGC Well Known Text "
+"coordinate system descriptions"
 msgstr ""
-"Die Umrechung in andere Koordinatenreferenzsysteme baut auf die PROJ.4 und "
-"OGC Well Known Text Beschreibung auf"
+"Die Umrechung in andere Koordinatenreferenzsysteme baut auf die PROJ.4 "
+"und OGC Well Known Text Beschreibung auf"
 
 #: ../../build/doc/overview/gdal_overview.rst:52
 msgid "Popular Supported Formats"
@@ -124,21 +123,21 @@ msgstr "Diese beinhalten:"
 
 #: ../../build/doc/overview/gdal_overview.rst:58
 msgid ""
-"**Raster:** GeoTIFF, Erdas Imagine, SDTS, ESRI Grids, ECW, MrSID, JPEG2000, "
-"DTED, NITF, GeoPackage and more ..."
+"**Raster:** GeoTIFF, Erdas Imagine, SDTS, ESRI Grids, ECW, MrSID, "
+"JPEG2000, DTED, NITF, GeoPackage and more ..."
 msgstr ""
-"**Raster:** GeoTIFF, Erdas Imagine, SDTS, ESRI Grids, ECW, MrSID, JPEG2000, "
-"DTED, NITF, GeoPackage und weitere ..."
+"**Raster:** GeoTIFF, Erdas Imagine, SDTS, ESRI Grids, ECW, MrSID, "
+"JPEG2000, DTED, NITF, GeoPackage und weitere ..."
 
 #: ../../build/doc/overview/gdal_overview.rst:59
 msgid ""
-"**Vector:** GeoPackage, ESRI Shapefile, GML, GeoJSON, AutoCAD DWG, MapInfo "
-"(tab and mid/mif), ESRI Coverages, ESRI Personal Geodatabase, DGN, PostGIS, "
-"Oracle Spatial, and more ..."
+"**Vector:** GeoPackage, ESRI Shapefile, GML, GeoJSON, AutoCAD DWG, "
+"MapInfo (tab and mid/mif), ESRI Coverages, ESRI Personal Geodatabase, "
+"DGN, PostGIS, Oracle Spatial, and more ..."
 msgstr ""
-"**Vector:** GeoPackage, ESRI Shapefile, GML, GeoJSON, AutoCAD DWG, MapInfo "
-"(tab und mid/mif), ESRI Coverages, ESRI Personal Geodatabase, DGN, PostGIS, "
-"Oracle Spatial und weitere ..."
+"**Vector:** GeoPackage, ESRI Shapefile, GML, GeoJSON, AutoCAD DWG, "
+"MapInfo (tab und mid/mif), ESRI Coverages, ESRI Personal Geodatabase, "
+"DGN, PostGIS, Oracle Spatial und weitere ..."
 
 #: ../../build/doc/overview/gdal_overview.rst:62
 msgid "Implemented Standards"
@@ -148,8 +147,7 @@ msgstr "Implementierte Standards"
 msgid ""
 "The OGR vector data model is compliant with the OGC Simple Features "
 "specification."
-msgstr ""
-"Das OGR Vektor Datenmodell folgt der OGC Simple Features Spezifikation."
+msgstr "Das OGR Vektor Datenmodell folgt der OGC Simple Features Spezifikation."
 
 #: ../../build/doc/overview/gdal_overview.rst:67
 msgid "Details"
@@ -160,9 +158,10 @@ msgid "**Website:** https://gdal.org/"
 msgstr "**Webseite:** https://gdal.org/"
 
 #: ../../build/doc/overview/gdal_overview.rst:71
+#, fuzzy
 msgid ""
-"**Licence:** `X/MIT style Open Source license "
-"<https://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_"
+"**License:** `X/MIT style Open Source license "
+"<https://gdal.org/en/latest/license.html>`_"
 msgstr ""
 "**Lizenz:** `X/MIT style Open Source license "
 "<https://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_"
@@ -195,18 +194,19 @@ msgstr "Quickstart"
 msgid ":doc:`Quickstart documentation <../quickstart/gdal_quickstart>`"
 msgstr ":doc:`Quickstart documentation <../quickstart/gdal_quickstart>`"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr "nologo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "OSGeo Projekt"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo Community"
+

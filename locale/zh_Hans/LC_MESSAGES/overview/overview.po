@@ -1,25 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # Supaplex <bejokeup@gmail.com>, 2022
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-15 20:42-0600\n"
+"POT-Creation-Date: 2024-08-17 15:05-0600\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
 "Last-Translator: Supaplex <bejokeup@gmail.com>, 2022\n"
-"Language-Team: Chinese (https://app.transifex.com/osgeo/teams/66156/zh/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: zh\n"
+"Language-Team: Chinese (https://app.transifex.com/osgeo/teams/66156/zh/)\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/overview/overview.rst:6
 msgid "|osgeolive-version| Contents"
@@ -33,18 +33,7 @@ msgstr "系統生物學"
 msgid "|osgeo_project| Is an OSGeo Project"
 msgstr "|osgeo_project| 是 OSGeo 的專案"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr ""
 
@@ -52,11 +41,7 @@ msgstr ""
 msgid "|osgeo_community| Is an OSGeo Community Project"
 msgstr "|osgeo_community| 是 OSGeo 的社群專案"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr ""
 
@@ -64,11 +49,6 @@ msgstr ""
 msgid "|vmdk| Included only on OSGeoLive VMDK version"
 msgstr "|vmdk| 只有包含在 OSGeoLive VMDK 版本"
 
-#: ../../build/doc/<rst_epilog>:13 ../../build/doc/<rst_epilog>:13
-#: ../../build/doc/<rst_epilog>:13 ../../build/doc/<rst_epilog>:13
-#: ../../build/doc/<rst_epilog>:13 ../../build/doc/<rst_epilog>:13
-#: ../../build/doc/<rst_epilog>:13 ../../build/doc/<rst_epilog>:13
-#: ../../build/doc/<rst_epilog>:13 ../../build/doc/<rst_epilog>:13
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr ""
@@ -81,7 +61,7 @@ msgstr "桌面 GIS"
 msgid "General GIS viewing, editing, and analysis on the desktop"
 msgstr "一般的桌面端 GIS 檢視、編輯和分析。"
 
-#: ../../build/doc/overview/overview.rst:39
+#: ../../build/doc/overview/overview.rst:41
 msgid ""
 "|OSGeo_project| :doc:`grass_overview` - [:doc:`Quickstart "
 "<../quickstart/grass_quickstart>`]"
@@ -89,7 +69,7 @@ msgstr ""
 "|OSGeo_project| :doc:`grass_overview` - [:doc:`快速指南 "
 "<../quickstart/grass_quickstart>`]"
 
-#: ../../build/doc/overview/overview.rst:41
+#: ../../build/doc/overview/overview.rst:43
 msgid ""
 "|OSGeo_project| |vmdk| :doc:`gvsig_overview` - [:doc:`Quickstart "
 "<../quickstart/gvsig_quickstart>`]"
@@ -97,7 +77,7 @@ msgstr ""
 "|OSGeo_project| |vmdk| :doc:`gvsig_overview` - [:doc:`快速指南 "
 "<../quickstart/gvsig_quickstart>`]"
 
-#: ../../build/doc/overview/overview.rst:43
+#: ../../build/doc/overview/overview.rst:45
 msgid ""
 "|OSGeo_project| :doc:`qgis_overview` - [:doc:`Quickstart "
 "<../quickstart/qgis_quickstart>`]"
@@ -105,7 +85,7 @@ msgstr ""
 "|OSGeo_project| :doc:`qgis_overview` - [:doc:`快速指南 "
 "<../quickstart/qgis_quickstart>`]"
 
-#: ../../build/doc/overview/overview.rst:45
+#: ../../build/doc/overview/overview.rst:47
 msgid ""
 "|nologo| :doc:`openjump_overview` - [:doc:`Quickstart "
 "<../quickstart/openjump_quickstart>`]"
@@ -113,27 +93,20 @@ msgstr ""
 "|nologo| :doc:`openjump_overview` - [:doc:`快速指南 "
 "<../quickstart/openjump_quickstart>`]"
 
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
 #: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:47
+#: ../../build/doc/overview/overview.rst:49
+#, fuzzy
+msgid ""
+"|nologo| |vmdk| :doc:`qfield_overview` - [:doc:`Quickstart "
+"<../quickstart/qfield_quickstart>`]"
+msgstr ""
+"|nologo| :doc:`saga_overview` - [:doc:`快速指南 "
+"<../quickstart/saga_quickstart>`]"
+
+#: ../../build/doc/overview/overview.rst:51
 msgid ""
 "|nologo| :doc:`saga_overview` - [:doc:`Quickstart "
 "<../quickstart/saga_quickstart>`]"
@@ -141,21 +114,21 @@ msgstr ""
 "|nologo| :doc:`saga_overview` - [:doc:`快速指南 "
 "<../quickstart/saga_quickstart>`]"
 
-#: ../../build/doc/overview/overview.rst:49
+#: ../../build/doc/overview/overview.rst:53
 msgid ""
 "|nologo| |vmdk| :doc:`udig_overview` - [:doc:`Quickstart "
 "<../quickstart/udig_quickstart>`]"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:53
+#: ../../build/doc/overview/overview.rst:57
 msgid "Browser Facing GIS"
 msgstr "瀏覽器的 GIS "
 
-#: ../../build/doc/overview/overview.rst:55
+#: ../../build/doc/overview/overview.rst:59
 msgid "General GIS viewing, editing and analysis in the browser"
 msgstr "一般在瀏覽器上的 GIS 瀏覽，編輯和分析"
 
-#: ../../build/doc/overview/overview.rst:77
+#: ../../build/doc/overview/overview.rst:81
 msgid ""
 "|OSGeo_project| :doc:`geomoose_overview` - [:doc:`Quickstart "
 "<../quickstart/geomoose_quickstart>`] - Web GIS Portal"
@@ -163,15 +136,16 @@ msgstr ""
 "|OSGeo_project| :doc:`geomoose_overview` - [:doc:`快速指南 "
 "<../quickstart/geomoose_quickstart>`] - 網路 GIS 入口"
 
-#: ../../build/doc/overview/overview.rst:79
+#: ../../build/doc/overview/overview.rst:83
 msgid ""
 "|OSGeo_project| :doc:`geonode_overview` - [:doc:`Quickstart "
-"<../quickstart/geonode_quickstart>`] - Geospatial Content Management System"
+"<../quickstart/geonode_quickstart>`] - Geospatial Content Management "
+"System"
 msgstr ""
 "|OSGeo_project| :doc:`geonode_overview` - [:doc:`快速指南 "
 "<../quickstart/geonode_quickstart>`] - 地理空間內容管理系統"
 
-#: ../../build/doc/overview/overview.rst:81
+#: ../../build/doc/overview/overview.rst:85
 msgid ""
 "|OSGeo_project| :doc:`mapbender_overview` - [:doc:`Quickstart "
 "<../quickstart/mapbender_quickstart>`] - Geoportal Framework"
@@ -179,7 +153,7 @@ msgstr ""
 "|OSGeo_project| :doc:`mapbender_overview` - [:doc:`快速指南 "
 "<../quickstart/mapbender_quickstart>`] -空間概念架構"
 
-#: ../../build/doc/overview/overview.rst:83
+#: ../../build/doc/overview/overview.rst:87
 msgid ""
 "|OSGeo_project| :doc:`openlayers_overview` - [:doc:`Quickstart "
 "<../quickstart/openlayers_quickstart>`] - Browser Mapping Library"
@@ -187,7 +161,7 @@ msgstr ""
 "|OSGeo_project| :doc:`openlayers_overview` - [:doc:`快速指南 "
 "<../quickstart/openlayers_quickstart>`] - 瀏覽器地圖函式庫"
 
-#: ../../build/doc/overview/overview.rst:85
+#: ../../build/doc/overview/overview.rst:89
 msgid ""
 "|OSGeo_community| :doc:`geostyler_overview` - [:doc:`Quickstart "
 "<../quickstart/geostyler_quickstart>`] - Generic Styler For Geodata"
@@ -195,7 +169,7 @@ msgstr ""
 "|OSGeo_community| :doc:`geostyler_overview` - [:doc:`快速指南 "
 "<../quickstart/geostyler_quickstart>`] - 一般地理資料的樣式選擇器"
 
-#: ../../build/doc/overview/overview.rst:87
+#: ../../build/doc/overview/overview.rst:91
 msgid ""
 "|nologo| :doc:`cesium_overview` - [:doc:`Quickstart "
 "<../quickstart/cesium_quickstart>`] - 3D globes and 2D maps in a browser"
@@ -203,7 +177,7 @@ msgstr ""
 "|nologo| :doc:`cesium_overview` - [:doc:`快速指南 "
 "<../quickstart/cesium_quickstart>`] - 瀏覽器 3D 全球和 2D 地圖"
 
-#: ../../build/doc/overview/overview.rst:89
+#: ../../build/doc/overview/overview.rst:93
 msgid ""
 "|nologo| :doc:`geoext_overview` - [:doc:`Quickstart "
 "<../quickstart/geoext_quickstart>`] - JavaScript Toolkit Web Mapping"
@@ -211,7 +185,7 @@ msgstr ""
 "|nologo| :doc:`geoext_overview` - [:doc:`快速指南 "
 "<../quickstart/geoext_quickstart>`] - JavaScript 工具包網頁地圖"
 
-#: ../../build/doc/overview/overview.rst:91
+#: ../../build/doc/overview/overview.rst:95
 msgid ""
 "|nologo| :doc:`leaflet_overview` - [:doc:`Quickstart "
 "<../quickstart/leaflet_quickstart>`] - Mobile Friendly Interactive Maps"
@@ -219,11 +193,11 @@ msgstr ""
 "|nologo| :doc:`leaflet_overview` - [:doc:`快速指南 "
 "<../quickstart/leaflet_quickstart>`] - 行動友善互動地圖"
 
-#: ../../build/doc/overview/overview.rst:95
+#: ../../build/doc/overview/overview.rst:99
 msgid "Web Services"
 msgstr "網站服務 "
 
-#: ../../build/doc/overview/overview.rst:97
+#: ../../build/doc/overview/overview.rst:101
 msgid "Publishing spatial data to the internet"
 msgstr "出版空間資料到網路上面"
 
@@ -306,8 +280,9 @@ msgid ""
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:163
+#, fuzzy
 msgid ""
-"|OSGeo_incubation| :doc:`zoo-project_overview` - [:doc:`Quickstart "
+"|OSGeo_project| :doc:`zoo-project_overview` - [:doc:`Quickstart "
 "<../quickstart/zoo-project_quickstart>`] - Web Processing Service"
 msgstr ""
 "|OSGeo_incubation| :doc:`zoo-project_overview` - [:doc:`快速指南 "
@@ -330,19 +305,12 @@ msgstr ""
 #: ../../build/doc/overview/overview.rst:169
 msgid ""
 "|nologo| |vmdk| :doc:`ETF_overview` - [:doc:`Quickstart "
-"<../quickstart/ETF_quickstart>`] - Testing framework for validating spatial "
-"data, metadata and web services in Spatial Data Infrastructures (SDIs)"
+"<../quickstart/ETF_quickstart>`] - Testing framework for validating "
+"spatial data, metadata and web services in Spatial Data Infrastructures "
+"(SDIs)"
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:171
-msgid ""
-"|nologo| |vmdk| :doc:`ncWMS_overview` - [:doc:`Quickstart "
-"<../quickstart/ncWMS_quickstart>`] - Web Map Service"
-msgstr ""
-"|nologo| |vmdk| :doc:`ncWMS_overview` - [:doc:`Quickstart "
-"<../quickstart/ncWMS_quickstart>`] - 網路地圖服務"
-
-#: ../../build/doc/overview/overview.rst:173
 msgid ""
 "|nologo| :doc:`qgis_mapserver_overview` - [:doc:`Quickstart "
 "<../quickstart/qgis_mapserver_quickstart>`] - Web Map Service"
@@ -350,7 +318,7 @@ msgstr ""
 "|nologo| :doc:`qgis_mapserver_overview` - [:doc:`Quickstart "
 "<../quickstart/qgis_mapserver_quickstart>`] - 網路地圖服務"
 
-#: ../../build/doc/overview/overview.rst:175
+#: ../../build/doc/overview/overview.rst:173
 msgid ""
 "|nologo| |vmdk| :doc:`re3gistry_overview` - [:doc:`Quickstart "
 "<../quickstart/re3gistry_quickstart>`] - Management of reference codes"
@@ -358,7 +326,7 @@ msgstr ""
 "|nologo| |vmdk| :doc:`re3gistry_overview` - [:doc:`Quickstart "
 "<../quickstart/re3gistry_quickstart>`] - 參考代碼管理"
 
-#: ../../build/doc/overview/overview.rst:177
+#: ../../build/doc/overview/overview.rst:175
 msgid ""
 "|nologo| :doc:`t-rex_overview` - [:doc:`Quickstart "
 "<../quickstart/t-rex_quickstart>`] - Vector Tile Service"
@@ -366,29 +334,21 @@ msgstr ""
 "|nologo| :doc:`t-rex_overview` - [:doc:`快速指南 "
 "<../quickstart/t-rex_quickstart>`] - 向量圖磚服務"
 
-#: ../../build/doc/overview/overview.rst:179
+#: ../../build/doc/overview/overview.rst:177
 msgid ""
 "|nologo| |vmdk| :doc:`52nSOS_overview` - [:doc:`Quickstart "
 "<../quickstart/52nSOS_quickstart>`] - Sensor Observation Service"
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:181
-msgid ""
-"|nologo| :doc:`52nWPS_overview` - [:doc:`Quickstart "
-"<../quickstart/52nWPS_quickstart>`] - Web Processing Service"
-msgstr ""
-"|nologo| :doc:`52nWPS_overview` - [:doc:`快速指南 "
-"<../quickstart/52nWPS_quickstart>`] - 網站處理服務"
-
-#: ../../build/doc/overview/overview.rst:185
 msgid "Data Stores"
 msgstr "資料倉儲 "
 
-#: ../../build/doc/overview/overview.rst:187
+#: ../../build/doc/overview/overview.rst:183
 msgid "Storing spatial data"
 msgstr "儲存空間資料"
 
-#: ../../build/doc/overview/overview.rst:201
+#: ../../build/doc/overview/overview.rst:199
 msgid ""
 "|OSGeo_project| :doc:`postgis_overview` - [:doc:`Quickstart "
 "<../quickstart/postgis_quickstart>`] - Spatial Database"
@@ -396,7 +356,7 @@ msgstr ""
 "|OSGeo_project| :doc:`postgis_overview` - [:doc:`快速指南 "
 "<../quickstart/postgis_quickstart>`] - 空間指南"
 
-#: ../../build/doc/overview/overview.rst:203
+#: ../../build/doc/overview/overview.rst:201
 msgid ""
 "|OSGeo_community| :doc:`pgrouting_overview` - [:doc:`Quickstart "
 "<../quickstart/pgrouting_quickstart>`] - Routing for PostGIS"
@@ -404,11 +364,23 @@ msgstr ""
 "|OSGeo_community| :doc:`pgrouting_overview` - [:doc:`快速指南 "
 "<../quickstart/pgrouting_quickstart>`] - PostGIS 導航"
 
-#: ../../build/doc/overview/overview.rst:205
+#: ../../build/doc/overview/overview.rst:203
+#, fuzzy
 msgid ""
-"|OSGeo_incubation| |vmdk| :doc:`rasdaman_overview` - [:doc:`Quickstart "
+"|OSGeo_community| |vmdk| :doc:`rasdaman_overview` - [:doc:`Quickstart "
 "<../quickstart/rasdaman_quickstart>`] - Multi-Dimensional Raster Database"
 msgstr ""
+"|OSGeo_community| :doc:`pgrouting_overview` - [:doc:`快速指南 "
+"<../quickstart/pgrouting_quickstart>`] - PostGIS 導航"
+
+#: ../../build/doc/overview/overview.rst:205
+#, fuzzy
+msgid ""
+"|OSGeo_community| :doc:`odc_overview` - [:doc:`Quickstart "
+"<../quickstart/odc_quickstart>`] - Time-Series Database"
+msgstr ""
+"|OSGeo_project| :doc:`postgis_overview` - [:doc:`快速指南 "
+"<../quickstart/postgis_quickstart>`] - 空間指南"
 
 #: ../../build/doc/overview/overview.rst:207
 msgid ""
@@ -467,8 +439,8 @@ msgid ""
 "|nologo| :doc:`osm_overview` - [:doc:`Quickstart "
 "<../quickstart/osm_quickstart>`] - OpenStreetMap Tools"
 msgstr ""
-"|nologo| :doc:`osm_overview` - [:doc:`快速指南 <../quickstart/osm_quickstart>`] "
-"- 開放街圖工具"
+"|nologo| :doc:`osm_overview` - [:doc:`快速指南 "
+"<../quickstart/osm_quickstart>`] - 開放街圖工具"
 
 #: ../../build/doc/overview/overview.rst:245
 msgid "Spatial Tools"
@@ -515,8 +487,8 @@ msgid ""
 "|nologo| :doc:`R_overview` - [:doc:`Quickstart "
 "<../quickstart/R_quickstart>`] - Statistical Programming"
 msgstr ""
-"|nologo| :doc:`R_overview` - [:doc:`快速指南 <../quickstart/R_quickstart>`] - "
-"統計程式"
+"|nologo| :doc:`R_overview` - [:doc:`快速指南 <../quickstart/R_quickstart>`] -"
+" 統計程式"
 
 #: ../../build/doc/overview/overview.rst:275
 msgid "Domain Specific GIS"
@@ -543,7 +515,8 @@ msgid "Spatial data sets"
 msgstr "空間資料集"
 
 #: ../../build/doc/overview/overview.rst:301
-msgid "|nologo| :doc:`naturalearth_overview` - Global Data Sets"
+#, fuzzy
+msgid "|nologo| :doc:`naturalearth_overview`  - Global Data Sets"
 msgstr "|nologo| :doc:`naturalearth_overview` - 全球資料集"
 
 #: ../../build/doc/overview/overview.rst:303
@@ -551,14 +524,15 @@ msgid "|nologo| :doc:`nc_dataset_overview`"
 msgstr "|nologo| :doc:`nc_dataset_overview`"
 
 #: ../../build/doc/overview/overview.rst:305
+#, fuzzy
 msgid ""
-"|nologo| :doc:`netcdf_dataset_overview` - Time series temperature and "
+"|nologo| :doc:`netcdf_dataset_overview`  - Time series temperature and "
 "precipitation"
 msgstr "|nologo| :doc:`netcdf_dataset_overview` - 時間序列溫度和氣壓資料"
 
 #: ../../build/doc/overview/overview.rst:307
-msgid ""
-"|nologo| :doc:`osm_dataset_overview` - Sample extract from OpenStreetMap"
+#, fuzzy
+msgid "|nologo| :doc:`osm_dataset_overview`  - Sample extract from OpenStreetMap"
 msgstr "|nologo| :doc:`osm_dataset_overview` - 開放街圖截取範例資料"
 
 #: ../../build/doc/overview/overview.rst:311
@@ -574,11 +548,13 @@ msgstr ""
 "<../quickstart/gdal_quickstart>`] - 地理空間資料轉換工具"
 
 #: ../../build/doc/overview/overview.rst:328
-msgid "|OSGeo_project| :doc:`geos_overview` - C/C++ Spatial Library"
+#, fuzzy
+msgid "|OSGeo_project| :doc:`geos_overview`  - C/C++ Spatial Library"
 msgstr "|OSGeo_project| :doc:`geos_overview` - C/C++ 空間函式庫"
 
 #: ../../build/doc/overview/overview.rst:330
-msgid "|OSGeo_project| :doc:`geotools_overview` - Java GIS Toolkit"
+#, fuzzy
+msgid "|OSGeo_project| :doc:`geotools_overview`  - Java GIS Toolkit"
 msgstr "|OSGeo_project| :doc:`geotools_overview` - Java GIS 工具集"
 
 #: ../../build/doc/overview/overview.rst:332
@@ -590,7 +566,8 @@ msgstr ""
 "<../quickstart/proj_quickstart>`] - 參考座標系統函式庫"
 
 #: ../../build/doc/overview/overview.rst:334
-msgid "|nologo| :doc:`jts_overview` - Java Topology Suite"
+#, fuzzy
+msgid "|nologo| :doc:`jts_overview`  - Java Topology Suite"
 msgstr "|nologo| :doc:`jts_overview` - Java 拓撲套件"
 
 #: ../../build/doc/overview/overview.rst:338
@@ -598,13 +575,15 @@ msgid "Geospatial Standards"
 msgstr "地理空間標準"
 
 #: ../../build/doc/overview/overview.rst:348
-msgid "|nologo| :doc:`ogc_overview` - Open Geospatial Consortium"
+#, fuzzy
+msgid "|nologo| :doc:`ogc_overview`  - Open Geospatial Consortium"
 msgstr "|nologo| :doc:`ogc_overview` - Open Geospatial Consortium"
 
 #: ../../build/doc/overview/overview.rst:350
+#, fuzzy
 msgid ""
-"|nologo| :doc:`inspire_overview` - Infrastructure for Spatial Information "
-"in Europe"
+"|nologo| :doc:`inspire_overview`  - Infrastructure for Spatial "
+"Information in Europe"
 msgstr "|nologo| :doc:`inspire_overview` - 歐洲的空間資訊架構"
 
 #: ../../build/doc/overview/overview.rst:354
@@ -614,3 +593,4 @@ msgstr ""
 #: ../../build/doc/overview/overview.rst:366
 msgid ":doc:`../prior_applications`"
 msgstr ":doc:`../prior_applications`"
+

@@ -1,25 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
 # Translators:
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2024-08-17 15:05-0600\n"
 "PO-Revision-Date: 2020-10-21 15:59+0000\n"
 "Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: hu\n"
+"Language-Team: Hungarian "
+"(https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:18
 msgid "Re3gistry"
@@ -31,35 +32,35 @@ msgstr "Névjegy"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:23
 msgid ""
-"The Re3gistry 2 is a reusable open source solution for managing and sharing "
-"\"reference codes\". Initially developed as a central component of the EU's "
-":doc:`INSPIRE <inspire_overview>` infrastructure, it provides a consistent "
-"central access point where labels and descriptions for reference codes can "
-"be easily browsed by humans and retrieved by machines. Reference codes are "
-"exchanged between applications to uniquely reference some ‘thing’. They can "
-"be used to define sets of permissible values for a data field or to provide "
-"a reference or context for the data being exchanged. Examples are "
-"enumerations, controlled vocabularies, taxonomies, thesauri or, simply, "
-"‘lists of things’. The Re3gistry 2 supports organisations in managing and "
-"updating reference codes in a consistent way. The Re3gistry software version"
-" numbers comply with the Semantic Versioning Specification 2.0.0."
+"The Re3gistry 2 is a reusable open source solution for managing and "
+"sharing \"reference codes\". Initially developed as a central component "
+"of the EU's :doc:`INSPIRE <inspire_overview>` infrastructure, it provides"
+" a consistent central access point where labels and descriptions for "
+"reference codes can be easily browsed by humans and retrieved by "
+"machines. Reference codes are exchanged between applications to uniquely "
+"reference some ‘thing’. They can be used to define sets of permissible "
+"values for a data field or to provide a reference or context for the data"
+" being exchanged. Examples are enumerations, controlled vocabularies, "
+"taxonomies, thesauri or, simply, ‘lists of things’. The Re3gistry 2 "
+"supports organisations in managing and updating reference codes in a "
+"consistent way. The Re3gistry software version numbers comply with the "
+"Semantic Versioning Specification 2.0.0."
 msgstr ""
 "A Re3gistry 2 egy újrafelhasználható nyílt forráskódú megoldás a "
 "\"referenciakódok\" kezelésére és megosztására. Az eredetileg az EU "
 ":doc:`INSPIRE <inspire_overview>` infrastruktúrájának központi elemeként "
-"fejlesztették ki, és egy konzisztens központi hozzáférési pontot biztosít, "
-"ahol a referenciakódok címkéi és leírásai könnyen böngészhetők az emberek és"
-" a gépek számára. A referenciakódokat az alkalmazások között cserélik ki, "
-"hogy egyedileg hivatkoznak 'valamire'. Felhasználhatók egy adatmező "
-"megengedett értékkészleteinek meghatározására, illetve a kicserélt adatokra "
-"vonatkozó hivatkozás vagy környezet megadására. Ilyenek például a "
-"felsorolások, az ellenőrzött szótárak, a taxonómiák, a szinonima szótárak "
-"vagy egyszerűen a 'dolgok listája'. A Re3gistry 2 támogatja az intézményeket"
-" a referenciakódok következetes kezelésében és frissítésében. A Re3gistry "
-"szoftver verziószámai megfelelnek a szemantikus verziószámozási specifikáció"
-" 2.0.0-nak."
+"fejlesztették ki, és egy konzisztens központi hozzáférési pontot "
+"biztosít, ahol a referenciakódok címkéi és leírásai könnyen böngészhetők "
+"az emberek és a gépek számára. A referenciakódokat az alkalmazások között"
+" cserélik ki, hogy egyedileg hivatkoznak 'valamire'. Felhasználhatók egy "
+"adatmező megengedett értékkészleteinek meghatározására, illetve a "
+"kicserélt adatokra vonatkozó hivatkozás vagy környezet megadására. "
+"Ilyenek például a felsorolások, az ellenőrzött szótárak, a taxonómiák, a "
+"szinonima szótárak vagy egyszerűen a 'dolgok listája'. A Re3gistry 2 "
+"támogatja az intézményeket a referenciakódok következetes kezelésében és "
+"frissítésében. A Re3gistry szoftver verziószámai megfelelnek a "
+"szemantikus verziószámozási specifikáció 2.0.0-nak."
 
-#: ../../build/doc/overview/re3gistry_overview.rstNone
 msgid "re3gistry screenshot"
 msgstr "re3gistry képernyőképek"
 
@@ -69,16 +70,16 @@ msgstr "Alapfunkciók"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:45
 msgid ""
-"User-friendly editing interface to easily add, edit and manage the registers"
-" and reference codes"
+"User-friendly editing interface to easily add, edit and manage the "
+"registers and reference codes"
 msgstr ""
-"Felhasználóbarát szerkesztőfelület a regiszterek és referenciakódok egyszerű"
-" hozzáadásához, szerkesztéséhez és kezeléséhez"
+"Felhasználóbarát szerkesztőfelület a regiszterek és referenciakódok "
+"egyszerű hozzáadásához, szerkesztéséhez és kezeléséhez"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:46
 msgid ""
-"Management of the full lifecycle of the reference codes (based on the ISO "
-"19135 Standard)"
+"Management of the full lifecycle of the reference codes (based on the ISO"
+" 19135 Standard)"
 msgstr ""
 "A referenciakódok teljes életciklusának kezelése (az ISO 19135 szabvány "
 "alapján)"
@@ -104,13 +105,16 @@ msgid "Free-text search"
 msgstr "Szabad szöveg keresés"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:52
-msgid "Supported formats: HTML, ISO 19135 XML, JSON"
+#, fuzzy
+msgid ""
+"Supported formats: HTML, ISO 19135 XML, JSON, RDF/XML, Re3gistry XML, "
+"CSV, ATOM"
 msgstr "Támogatott formátumok: HTML, ISO 19135 XML, JSON"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:53
 msgid ""
-"Service formats can be easily added or customised (default formats: JSON and"
-" ISO 19135 XML)"
+"Service formats can be easily added or customised (default formats: JSON "
+"and ISO 19135 XML)"
 msgstr ""
 "A szolgáltatás formátumok könnyen hozzáadhatók vagy testre szabhatók "
 "(alapértelmezett formátumok: JSON és ISO 19135 XML)"
@@ -125,8 +129,8 @@ msgstr "Az URI-k által hivatkozott külső vezérlésű elemek"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:56
 msgid ""
-"INSPIRE register federation format support (option to automatically create "
-"the RoR format)"
+"INSPIRE register federation format support (option to automatically "
+"create the RoR format)"
 msgstr ""
 "INSPIRE regiszter szövetségi formátum támogatása (az RoR formátum "
 "automatikus létrehozásának lehetősége)"
@@ -197,18 +201,19 @@ msgstr "Gyorstalpaló"
 msgid ":doc:`Quickstart documentation <../quickstart/re3gistry_quickstart>`"
 msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/re3gistry_quickstart>`"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr "nologo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "OSGeo Projekt"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo közösség"
+

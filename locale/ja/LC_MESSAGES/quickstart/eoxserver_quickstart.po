@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"POT-Creation-Date: 2024-08-17 15:05-0600\n"
 "PO-Revision-Date: 2017-09-20 16:03+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2022\n"
 "Language: ja\n"
@@ -21,7 +21,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:19
 msgid "EOxServer Quickstart"
@@ -33,9 +33,9 @@ msgid ""
 "archives and metadata via Open Standards. It builds upon an Open Source "
 "stack of software which includes Python, :doc:`MapServer "
 "<../overview/mapserver_overview>`, Django/GeoDjango, :doc:`GDAL "
-"<../overview/gdal_overview>`, :doc:`PROJ <../overview/proj_overview>` "
-"and a :doc:`SpatiaLite <../overview/spatialite_overview>` or "
-":doc:`PostGIS <../overview/postgis_overview>` database."
+"<../overview/gdal_overview>`, :doc:`PROJ <../overview/proj_overview>` and"
+" a :doc:`SpatiaLite <../overview/spatialite_overview>` or :doc:`PostGIS "
+"<../overview/postgis_overview>` database."
 msgstr ""
 "EOxServerは、大規模な地球観測(EO)データアーカイブとメタデータをオープン標準で提供するサーバです。これは、Python、:doc:`MapServer"
 " <../overview/mapserver_overview>`、 Django/GeoDjango、:doc:`GDAL "
@@ -72,7 +72,6 @@ msgstr ""
 "メニューから :menuselection:`Geospatial --> Web Services --> EOxServer` "
 "を選択します。これによりブラウザが起動し、 http://localhost/eoxserver/ で利用可能なデモインスタンスが表示されます"
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:-1
 msgid "EOxServer demonstration start"
 msgstr "EOxServer デモ開始"
 
@@ -90,7 +89,6 @@ msgid ""
 "instance. The demonstration instance is filled with ENVISAT MERIS scenes."
 msgstr "このクライアントでは、EOxServerインスタンスの内容を表示できます。デモインスタンスはENVISAT MERISのシーンで構成されています。"
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:-1
 msgid "Main view of the EOxServer Web Client"
 msgstr "EOxServer Web Clientのメインビュー"
 
@@ -103,7 +101,6 @@ msgid ""
 "dimension."
 msgstr "クライアントは、マップ・ビューと、主要な相互作用を含むウィジェットで構成されています。主な領域は、クライアントのマップウィジェットで、一連のデータセットがすでに表示されています。下部にはタイムスライダウィジェットが表示され、時間次元のコンテンツを表示できます。"
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:-1
 msgid "EOxServer demonstration embedded client outlines"
 msgstr "EOxServerデモ組込みクライアントの概要"
 
@@ -170,7 +167,6 @@ msgstr ""
 "EOxServerのメインページで **Admin Client** リンクをクリックし、ユーザ `admin` とパスワード `admin` "
 "でログインします。"
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:-1
 msgid "EOxServer demonstration admin client login"
 msgstr "EOxServerデモの管理クライアントログイン"
 
@@ -186,7 +182,6 @@ msgstr ""
 "<https://docs.eoxserver.org/en/stable/users/operations/index.html>`_ "
 "に記載されています。"
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:-1
 msgid "EOxServer demonstration admin client start"
 msgstr "EOxServerデモの管理クライアント起動"
 
@@ -199,7 +194,6 @@ msgstr ""
 "たとえば、デフォルトでロードされているコレクションを検査するには、 \"コレクション\" リンクをクリックし、 "
 "\"MER_FRS_1P_RGB_reduced\" リンクをクリックします。"
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:-1
 msgid "EOxServer demonstration admin client Dataset Series"
 msgstr "EOxServerデモの管理クライアントデータセットシリーズ"
 
@@ -209,12 +203,12 @@ msgid ""
 "\"Coverages\" link."
 msgstr "\"Coverages\" リンクをクリックすると、カバレッジをプレビューできます。"
 
-#: ../../build/doc/quickstart/eoxserver_quickstart.rst:-1
 msgid "EOxServer demonstration admin client Dataset Series Management"
 msgstr "EOxServerデモの管理クライアントデータセットシリーズ管理"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:146
-msgid "What Next?"
+#, fuzzy
+msgid "What next?"
 msgstr "次のステップ"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:148

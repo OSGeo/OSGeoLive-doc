@@ -10,23 +10,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"POT-Creation-Date: 2024-10-14 03:30+0000\n"
 "PO-Revision-Date: 2024-05-18 20:46+0000\n"
 "Last-Translator: Yoichi Kayama <yoichi.kayama@gmail.com>\n"
-"Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
-"actinia_quickstart/ja/>\n"
 "Language: ja\n"
+"Language-Team: Japanese "
+"<https://weblate.osgeo.org/projects/osgeolive/actinia_quickstart/ja/>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.4.3\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:16
-msgid ""
-"This project is only included on the OSGeoLive virtual machine disk "
-"(VMDK)"
+msgid "This project is only included on the OSGeoLive virtual machine disk (VMDK)"
 msgstr "このプロジェクトはOSGeoLive仮想マシンディスク(VMDK)にのみ含まれています"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:22
@@ -243,9 +240,10 @@ msgstr ""
 "https://lpdaac.usgs.gov/products/mod13c1v006/)"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:134
+#, fuzzy
 msgid ""
 "LST growing degree days asia 2017 (``latlong_wgs84/asia_gdd_2017/``; "
-"source: https://www.mundialis.de/en/temperature-data/)"
+"source: https://www.mundialis.de/en/products/surface-temperature-data/)"
 msgstr ""
 "LST 有効積算温度 アジア 2017 (``latlong_wgs84/asia_gdd_2017/``; ソース: "
 "https://www.mundialis.de/en/temperature-data/)"
@@ -265,17 +263,20 @@ msgid "Europe (EU LAEA CRS, EPSG:3035):"
 msgstr "欧州 (EU LAEA CRS、EPSG:3035):"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:142
+#, fuzzy
 msgid ""
 "EU DEM 25m V1.1 (``eu_laea/PERMANENT/``; source: "
-"https://land.copernicus.eu/imagery-in-situ/eu-dem)"
+"https://land.copernicus.eu/en/products/products-that-are-no-longer-"
+"disseminated-on-the-clms-website)"
 msgstr ""
 "EU DEM 25m V1.1 (``eu_laea/PERMANENT/``; ソース: https://land.copernicus.eu"
 "/imagery-in-situ/eu-dem)"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:144
+#, fuzzy
 msgid ""
 "CORINE Landcover 2012, g100_clc12_V18_5 (``eu_laea/corine_2012/``; "
-"source: https://land.copernicus.eu/pan-european/corine-land-"
+"source: https://land.copernicus.eu/en/products/corine-land-"
 "cover/clc-2012)"
 msgstr ""
 "CORINE 土地被覆 2012、g100_clc12_V18_5 (``eu_laea/corine_2012/``; ソース: "
@@ -504,13 +505,14 @@ msgstr ""
 "<https://neteler.gitlab.io/actinia-introduction>`_"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:482
+#, fuzzy
 msgid ""
 "Further reading: Neteler, M., Gebbert, S., Tawalika, C., Bettge, A., "
 "Benelcadi, H., Löw, F., Adams, T, Paulsen, H. (2019). Actinia: cloud "
 "based geoprocessing. In Proc. of the 2019 conference on Big Data from "
 "Space (BiDS'2019) (pp. 41-44). EUR 29660 EN, Publications Office of the "
 "European Union 5, Luxembourg: P. Soille, S. Loekken, and S. Albani "
-"(Eds.). (`DOI <https://zenodo.org/record/2631917>`__)"
+"(Eds.). (`DOI <https://zenodo.org/records/2631917>`__)"
 msgstr ""
 "追加文献: Neteler, M., Gebbert, S., Tawalika, C., Bettge, A., Benelcadi, H., "
 "Löw, F., Adams, T, Paulsen, H. (2019). Actinia:cloud based geoprocessing."
@@ -534,3 +536,4 @@ msgstr "OSGeo プロジェクト"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo コミュニティ"
+

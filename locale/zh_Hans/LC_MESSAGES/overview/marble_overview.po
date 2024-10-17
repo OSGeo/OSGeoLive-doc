@@ -1,20 +1,22 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-15 20:42-0600\n"
+"POT-Creation-Date: 2024-09-26 14:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
 "Language: zh_Hans\n"
+"Language-Team: none\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/overview/marble_overview.rst:18
 msgid "Marble"
@@ -25,18 +27,32 @@ msgid "Virtual globe and world atlas"
 msgstr ""
 
 #: ../../build/doc/overview/marble_overview.rst:23
-msgid "Marble is an open source KDE Education Project program similar to `NASA World Wind <https://worldwind.arc.nasa.gov/java/>`_ or Google Earth. Besides choosing any number of maps to view on your globe (including `OpenStreetMaps <https://www.openstreetmap.org>`_), you are encouraged to include a KDE Marble widget in your application."
+msgid ""
+"Marble is an open source KDE Education Project program similar to `NASA "
+"World Wind <https://worldwind.arc.nasa.gov/java/>`_ or Google Earth. "
+"Besides choosing any number of maps to view on your globe (including "
+"`OpenStreetMaps <https://www.openstreetmap.org>`_), you are encouraged to"
+" include a KDE Marble widget in your application."
 msgstr ""
 
 #: ../../build/doc/overview/marble_overview.rst:29
-msgid "Explore the neighborhood with Marble's rich set of city and street level maps. Search for addresses and places of interest. Marble takes care of querying various search backends and presents their results in a unified view. Calculate pedestrian, bike and motorcar routes with ease - online and offline, with an arbitrary number of via points."
+msgid ""
+"Explore the neighborhood with Marble's rich set of city and street level "
+"maps. Search for addresses and places of interest. Marble takes care of "
+"querying various search backends and presents their results in a unified "
+"view. Calculate pedestrian, bike and motorcar routes with ease - online "
+"and offline, with an arbitrary number of via points."
 msgstr ""
 
 #: ../../build/doc/overview/marble_overview.rst:35
-msgid "Start exploring the world. View clouds and sun shadow, follow satellites and space stations and display their orbits, all updated in real-time. Travel back in time and learn about historic views of our planet using maps from past centuries. Earth is not enough? Marble also offers maps of the moon and other planets."
+msgid ""
+"Start exploring the world. View clouds and sun shadow, follow satellites "
+"and space stations and display their orbits, all updated in real-time. "
+"Travel back in time and learn about historic views of our planet using "
+"maps from past centuries. Earth is not enough? Marble also offers maps of"
+" the moon and other planets."
 msgstr ""
 
-#: ../../build/doc/overview/marble_overview.rst:None
 msgid "marble screenshot"
 msgstr ""
 
@@ -57,7 +73,9 @@ msgid "A great solution for the geography lessons"
 msgstr ""
 
 #: ../../build/doc/overview/marble_overview.rst:53
-msgid "Map Presentation (Atlas View, Street Maps, Satellite Maps, Topographic Maps, Educational Maps)"
+msgid ""
+"Map Presentation (Atlas View, Street Maps, Satellite Maps, Topographic "
+"Maps, Educational Maps)"
 msgstr ""
 
 #: ../../build/doc/overview/marble_overview.rst:54
@@ -69,7 +87,9 @@ msgid "3 different projections are available (3D Globe, Flat Map, Mercator)"
 msgstr ""
 
 #: ../../build/doc/overview/marble_overview.rst:56
-msgid "Information layers (Weather, Real-time clouds, Day/Night View, Real-time Satellites, Wikipedia Articles, Photos, Postal Codes, Earthquakes)"
+msgid ""
+"Information layers (Weather, Real-time clouds, Day/Night View, Real-time "
+"Satellites, Wikipedia Articles, Photos, Postal Codes, Earthquakes)"
 msgstr ""
 
 #: ../../build/doc/overview/marble_overview.rst:57
@@ -81,7 +101,10 @@ msgid "Positioning & Tracking (GPS and WLAN localization, Track export in KML)"
 msgstr ""
 
 #: ../../build/doc/overview/marble_overview.rst:59
-msgid "Routing & Navigation (Voice navigation, Online motorcar routing, Online bike routing, Online pedestrian routing, Offline routing optional download, Turn-by-turn navigation)"
+msgid ""
+"Routing & Navigation (Voice navigation, Online motorcar routing, Online "
+"bike routing, Online pedestrian routing, Offline routing optional "
+"download, Turn-by-turn navigation)"
 msgstr ""
 
 #: ../../build/doc/overview/marble_overview.rst:60
@@ -89,7 +112,9 @@ msgid "Interactive KML tours (Creating, editing, viewing)"
 msgstr ""
 
 #: ../../build/doc/overview/marble_overview.rst:61
-msgid "Integration with many online services (Amateur Radio Aprs, OpenCaching.com, etc.)"
+msgid ""
+"Integration with many online services (Amateur Radio Aprs, "
+"OpenCaching.com, etc.)"
 msgstr ""
 
 #: ../../build/doc/overview/marble_overview.rst:62
@@ -133,7 +158,7 @@ msgid "**Support:** https://techbase.kde.org/Projects/Marble"
 msgstr ""
 
 #: ../../build/doc/overview/marble_overview.rst:82
-msgid "**More Info:** https://www.slideshare.net/marbleglobe/marble-1-6en"
+msgid "**More Info:** https://www.slideshare.net/slideshow/marble-1-6en/26862346"
 msgstr ""
 
 #: ../../build/doc/overview/marble_overview.rst:88
@@ -152,11 +177,11 @@ msgstr ""
 msgid "nologo"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr ""
+

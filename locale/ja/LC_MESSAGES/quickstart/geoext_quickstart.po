@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"POT-Creation-Date: 2024-08-17 15:05-0600\n"
 "PO-Revision-Date: 2019-07-17 15:40+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2022\n"
 "Language: ja\n"
@@ -21,7 +21,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:17
 msgid "GeoExt Quickstart"
@@ -67,7 +67,7 @@ msgstr ""
 "管理者特権でコマンドラインからFeatherPadを開くことで、ファイルを保存することができるようになります。[システムツール] > "
 "[QTerminal]を使用して、次のコマンドを実行します。"
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:43
+#: ../../build/doc/quickstart/geoext_quickstart.rst:45
 msgid ""
 "Next paste in the HTML below, and save the file as "
 "``/var/www/html/geoext/demo.html``. The file contains links to the ExtJS "
@@ -78,7 +78,7 @@ msgstr ""
 "として保存します。このファイルには、ExtJSおよびOpenLayers "
 "JavaScriptライブラリへのリンクと、ExtJSおよびOpenLayersコンポーネントのスタイル設定に使用される2つのCSSファイルが含まれています。"
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:48
+#: ../../build/doc/quickstart/geoext_quickstart.rst:50
 msgid ""
 "We will use the ``Ext.Loader`` class to load in GeoExt JavaScript source "
 "files. These are all in the ``src`` folder in ``/var/www/html/geoext/``."
@@ -86,13 +86,13 @@ msgstr ""
 "``Ext.Loader`` クラスを使用して、GeoExtのJavaScriptソースファイルをロードします。これらはすべて "
 "``/var/www/html/geoext/`` の ``src`` フォルダにあります。"
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:80
+#: ../../build/doc/quickstart/geoext_quickstart.rst:82
 msgid ""
 "You should now be able to view an empty HTML page in Firefox at "
 "http://localhost/geoext/demo.html"
 msgstr "http://localhost/geoext/demo.html でFirefoxの空のHTMLページを見ることができるようになりましたね。"
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:82
+#: ../../build/doc/quickstart/geoext_quickstart.rst:84
 msgid ""
 "All the JavaScript in the following sections should be pasted after the "
 "``// all JavaScript application code should go here`` comment in the "
@@ -103,15 +103,15 @@ msgstr ""
 "application code should go here`` "
 "コメントの後に貼り付ける必要があります。ここにコードを配置すると、カスタムJavaScriptコードを実行する前に、JavaScriptライブラリが確実にロードされます。"
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:88
+#: ../../build/doc/quickstart/geoext_quickstart.rst:90
 msgid "Configure OpenLayers objects"
 msgstr "OpenLayersオブジェクトを設定する"
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:90
+#: ../../build/doc/quickstart/geoext_quickstart.rst:92
 msgid "Next we will configure some OpenLayers objects used by the application."
 msgstr "次に、アプリケーションが使用するOpenLayersオブジェクトを設定します。"
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:92
+#: ../../build/doc/quickstart/geoext_quickstart.rst:94
 msgid ""
 "First lets create a map tile layer using OpenStreetMap, and some WMS "
 "layers that are available from the MapServer Itasca demo on OSGeoLive."
@@ -119,14 +119,14 @@ msgstr ""
 "まず、OpenStreetMapを使用してマップタイル画層を作成し、OSGeoLiveのMapServer "
 "Itascaデモで使用できるWMS画層をいくつか作成します。"
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:129
+#: ../../build/doc/quickstart/geoext_quickstart.rst:131
 msgid ""
 "Next we are going to add in a WFS vector layer - this is a little more "
 "complicated, but follows the same approach of creating a source and then "
 "a layer as the previous layers:"
 msgstr "次に、WFSベクタレイヤを追加します。これは少し複雑ですが、前のレイヤと同じ方法でソースとレイヤを作成します。"
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:151
+#: ../../build/doc/quickstart/geoext_quickstart.rst:153
 msgid ""
 "Now we are going to create our OpenLayers map object configured with the "
 "layers we just created. We will also set the center and zoom level of the"
@@ -134,17 +134,17 @@ msgid ""
 "vector layer."
 msgstr "次に、作成した画層で設定されたOpenLayersマップオブジェクトを作成します。また、マップの中心とズームレベルを設定し、ベクタライヤでフィーチャを選択できるように選択インタラクションに追加します。"
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:171
+#: ../../build/doc/quickstart/geoext_quickstart.rst:174
 msgid "Work with GeoExt components"
 msgstr "GeoExtコンポーネントを操作する"
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:173
+#: ../../build/doc/quickstart/geoext_quickstart.rst:176
 msgid ""
 "Now the map and layers have been configured we are going to create and "
 "configure our GeoExt components."
 msgstr "これで、マップと画層が設定されました。次に、GeoExtコンポーネントを作成して設定します。"
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:176
+#: ../../build/doc/quickstart/geoext_quickstart.rst:179
 msgid ""
 "First of all we will create a ``GeoExt.component.Map``. This uses the "
 "OpenLayers map we created, and will be positioned in the 'center' region "
@@ -153,7 +153,7 @@ msgstr ""
 "まず、 ``GeoExt.component.Map`` を作成します。これは、作成したOpenLayersマップを使用し、アプリケーションの "
 "'中央' 領域に配置されます。"
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:188
+#: ../../build/doc/quickstart/geoext_quickstart.rst:191
 msgid ""
 "Next we will create a layer tree component. The tree has its own data "
 "store - ``GeoExt.data.store.LayersTree``, which we will fill with layers "
@@ -167,7 +167,7 @@ msgstr ""
 "があり、OpenLayersマップのレイヤで埋めます。このストアは、ツリー・パネルへの入力に使用されます。また、ツリーにプラグインを追加して、レイヤをドラッグアンドドロップして地図レイヤの順序を変更できるようにします。``flex``"
 " プロパティーを指定すると、ツリー・パネルは画面の領域内の使用可能なスペースをすべて埋めます。"
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:213
+#: ../../build/doc/quickstart/geoext_quickstart.rst:216
 msgid ""
 "We are also going to create a grid component to display the attributes of"
 " features in our WFS layer. Similar to the layer tree store and tree "
@@ -176,7 +176,7 @@ msgstr ""
 "また、WFSレイヤのフィーチャの属性を表示するグリッドコンポーネントを作成します。レイヤツリーストアとツリーパネルと同様に、 "
 "``GeoExt.data.store.Features`` ストアとグリッドパネルを作成します。"
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:244
+#: ../../build/doc/quickstart/geoext_quickstart.rst:248
 msgid ""
 "Our final GeoExt component is an overview map - "
 "``GeoExt.component.OverviewMap``. We will configure this to display the "
@@ -185,18 +185,18 @@ msgstr ""
 "我々の最後のGeoExtコンポーネントは概観地図- ``GeoExt.componnet.OverviewMap`` "
 "である。先ほど作成したOpenStreetMapレイヤを表示するように設定し、ExtJSパネルに配置します。"
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:267
+#: ../../build/doc/quickstart/geoext_quickstart.rst:271
 msgid "Create a viewport"
 msgstr "ビューポートを作成する"
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:269
+#: ../../build/doc/quickstart/geoext_quickstart.rst:273
 msgid ""
 "The final step in creating our application is to create a viewport - a "
 "container representing the application which will display all the "
 "components we created above."
 msgstr "アプリケーションを作成する最後のステップは、ビューポートを作成することです。ビューポートとは、上記で作成したすべてのコンポーネントを表示するアプリケーションを表すコンテナです。"
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:293
+#: ../../build/doc/quickstart/geoext_quickstart.rst:297
 msgid ""
 "You should now be able to refresh the link "
 "http://localhost/geoext/demo.html in your browser and see a complete "
@@ -205,11 +205,12 @@ msgstr ""
 "ブラウザでリンク http://localhost/geoext/demo.html "
 "を更新すると、下の画像のような完全なGeoExtアプリケーションが表示されます。"
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:301
-msgid "What's next?"
+#: ../../build/doc/quickstart/geoext_quickstart.rst:305
+#, fuzzy
+msgid "What next?"
 msgstr "次は?"
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:303
+#: ../../build/doc/quickstart/geoext_quickstart.rst:307
 #, fuzzy
 msgid ""
 "The `GeoExt homepage <https://geoext.github.io/geoext/>`_ contains full "
@@ -219,7 +220,7 @@ msgstr ""
 "`GeoExtのホームページ <https://geoext.github.io/geoext3/>`_ には完全な `APIドキュメント "
 "<https://geoext.github.io/geoext3/v3.1.0/docs>`_ と例があります。"
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:305
+#: ../../build/doc/quickstart/geoext_quickstart.rst:309
 msgid ""
 "A `GeoExt workshop <https://github.com/geoext/geoext3-ws>`_ details all "
 "the steps for configuring and using GeoExt3 in your ExtJS applications"
@@ -227,13 +228,13 @@ msgstr ""
 "`GeoExtワークショップ <https://github.com/geoext/GeoExt3-ws>`_ "
 "では、ExtJSアプリケーションでGeoExt3を設定および使用するためのすべての手順について詳しく説明しています。"
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:307
+#: ../../build/doc/quickstart/geoext_quickstart.rst:311
 msgid ""
 "The `OpenLayers v4.6.5 API docs "
 "<https://openlayers.org/en/v4.6.5/apidoc>`_"
 msgstr "`OpenLayers v4.6.5 APIドキュメント <https://openlayers.org/en/v4.6.5/apidoc>`_"
 
-#: ../../build/doc/quickstart/geoext_quickstart.rst:308
+#: ../../build/doc/quickstart/geoext_quickstart.rst:312
 msgid "The `ExtJS 6.2.0 API docs <https://docs.sencha.com/extjs/6.2.0/>`_"
 msgstr "`ExtJS 6.2.0 API ドキュメント <https://docs.sencha.com/extjs/6.2.0/>`_"
 

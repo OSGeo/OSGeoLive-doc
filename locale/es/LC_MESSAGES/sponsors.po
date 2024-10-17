@@ -10,25 +10,23 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"POT-Creation-Date: 2024-10-17 17:51+0000\n"
 "PO-Revision-Date: 2023-07-31 19:39+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
-"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
-"sponsors/es/>\n"
 "Language: es\n"
+"Language-Team: Spanish "
+"<https://weblate.osgeo.org/projects/osgeolive/sponsors/es/>\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 "
+"== 0) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
-" ? 1 : 2);\n"
-"X-Generator: Weblate 4.16.4\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/sponsors.rst:1
 msgid "OSGeoLive Sponsors"
 msgstr "Patrocinadores de OSGeoLive"
 
-#: ../../build/doc/sponsors.rst:-1 ../../build/doc/sponsors_osgeo.rst:-1
 msgid "OSGeo"
 msgstr "OSGeo"
 
@@ -43,7 +41,6 @@ msgstr ""
 "personal para el proyecto y para muchos de los equipos de software que "
 "contribuyen a ello."
 
-#: ../../build/doc/sponsors.rst:-1
 msgid ""
 "Information Center for the Environment at the University of California, "
 "Davis"
@@ -61,7 +58,6 @@ msgstr ""
 "Davis proporciona recursos de hardware y soporte de desarrollo para el "
 "proyecto OSGeoLive."
 
-#: ../../build/doc/sponsors.rst:-1
 msgid "National Technical University of Athens"
 msgstr "Universidad Técnica Nacional de Atenas"
 
@@ -75,7 +71,6 @@ msgstr ""
 "Atenas ofrece recursos de hardware y soporte de desarrollo para el "
 "proyecto OSGeoLive."
 
-#: ../../build/doc/sponsors.rst:-1
 msgid "The DebianGIS and UbuntuGIS projects"
 msgstr "Los proyectos DebianGIS y UbuntuGIS"
 
@@ -127,9 +122,10 @@ msgid ""
 "educational labs from around the world who work with partners to make "
 "geospatial education and opportunities accessible to all."
 msgstr ""
-"`GeoForAll <https://www.osgeo.org/initiatives/geo-for-all>`__: Más de 100 "
-"laboratorios educativos de todo el mundo que trabajan con socios para hacer "
-"que la educación geoespacial y las oportunidades sean accesibles para todos."
+"`GeoForAll <https://www.osgeo.org/initiatives/geo-for-all>`__: Más de 100"
+" laboratorios educativos de todo el mundo que trabajan con socios para "
+"hacer que la educación geoespacial y las oportunidades sean accesibles "
+"para todos."
 
 #: ../../build/doc/sponsors_osgeo.rst:21
 msgid ""
@@ -147,9 +143,9 @@ msgid ""
 "*Free and Open Source Software for Geospatial*, as well as many regional "
 "and local `events <https://www.osgeo.org/events>`_."
 msgstr ""
-"`FOSS4G <https://foss4g.org>`_: Conferencia anual e internacional para *"
-"Software Libre y de Código Abierto Geoespacial*, así como muchos programas "
-"regionales y `eventos <https://www.osgeo.org/events>`_ locales."
+"`FOSS4G <https://foss4g.org>`_: Conferencia anual e internacional para "
+"*Software Libre y de Código Abierto Geoespacial*, así como muchos "
+"programas regionales y `eventos <https://www.osgeo.org/events>`_ locales."
 
 #: ../../build/doc/sponsors.rst:40
 msgid "Contributors"
@@ -2756,8 +2752,9 @@ msgid "Alexander Kleshnin"
 msgstr "Alexander Kleshnin"
 
 #: ../../build/translators.csv:1
-msgid "a.hast mail ru"
-msgstr "a.hast mail ru"
+#, fuzzy
+msgid "kleshnin.alexander gmail.com"
+msgstr "aeylinen gmail.com"
 
 #: ../../build/translators.csv:1
 msgid "HasT"
@@ -2878,3 +2875,4 @@ msgstr "Proyecto OSGeo"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo Comunitario"
+

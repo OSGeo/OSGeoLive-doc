@@ -1,26 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
 # Translators:
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2024-09-01 23:33+0000\n"
 "PO-Revision-Date: 2023-06-24 20:12+0000\n"
 "Last-Translator: Zoltan Siki <siki@agt.bme.hu>\n"
-"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
-"osgeolive_quickstart/hu/>\n"
 "Language: hu\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Hungarian "
+"<https://weblate.osgeo.org/projects/osgeolive/osgeolive_quickstart/hu/>\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:9
 msgid "Getting started with OSGeoLive"
@@ -28,8 +27,7 @@ msgstr "Első lépések az OSGeoLive-val"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:11
 msgid "This Quick Start describes how to start OSGeoLive from a DVD or USB."
-msgstr ""
-"Ez a gyorstalpaló az OSGeoLive DVD-ről vagy USB-ről indítását írja le."
+msgstr "Ez a gyorstalpaló az OSGeoLive DVD-ről vagy USB-ről indítását írja le."
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:14
 msgid "System Requirements"
@@ -69,25 +67,27 @@ msgstr "Futtatás:"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:30
 msgid ""
-"Source an OSGeoLive DVD, ISO available from: [:doc:`Download <../download>`]"
-" Put the DVD into your computer's CD drive, then reboot your computer."
+"Source an OSGeoLive DVD, ISO available from: [:doc:`Download "
+"<../download>`] Put the DVD into your computer's CD drive, then reboot "
+"your computer."
 msgstr ""
-"Az OSGeoLive DVD forrása, ISO elérhető itt: [:doc:`Letöltés <../download>`]. "
-"Helyezze a DVD-t a számtógép CD meghajtójába és indítsa újra a gépet."
+"Az OSGeoLive DVD forrása, ISO elérhető itt: [:doc:`Letöltés "
+"<../download>`]. Helyezze a DVD-t a számtógép CD meghajtójába és indítsa "
+"újra a gépet."
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:33
 msgid ""
-"If your computer is set to boot from CD (as is often the case) you should "
-"boot up into a Lubuntu system, with Geospatial applications installed. "
+"If your computer is set to boot from CD (as is often the case) you should"
+" boot up into a Lubuntu system, with Geospatial applications installed. "
 "Otherwise you'll have to adjust the BIOS boot settings or press the boot "
 "menu button just after powering-up."
 msgstr ""
-"Ha a számítógépét a CD-ről indításra állították (ami gyakori eset), akkor az"
-" Lubuntu rendszert tölt be a telepített térinformatikai alkalmazásokkal. Más"
-" esetben a BIOS rendszer betöltési beállításait kell módosítania vagy a boot"
-" menüt kell választania a gép indításánál."
+"Ha a számítógépét a CD-ről indításra állították (ami gyakori eset), akkor"
+" az Lubuntu rendszert tölt be a telepített térinformatikai "
+"alkalmazásokkal. Más esetben a BIOS rendszer betöltési beállításait kell "
+"módosítania vagy a boot menüt kell választania a gép indításánál."
 
-#: ../../build/doc/quickstart/osgeolive_quickstart.rst:0
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst
 msgid "boot"
 msgstr "betöltés"
 
@@ -95,9 +95,9 @@ msgstr "betöltés"
 msgid "Sit back while the system boots up."
 msgstr "Dőljön hátra amíg a rendszer betölt."
 
-#: ../../build/doc/quickstart/osgeolive_quickstart.rst:0
-msgid "boot select"
-msgstr "boot select"
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst
+msgid "menu"
+msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:48
 msgid "Try the many applications from the :menuselection:`Geospatial` menu."
@@ -111,8 +111,7 @@ msgstr "Lásd még:"
 msgid ""
 "Getting started with Lubuntu and the LXQt desktop (which is used by "
 "OSGeoLive):"
-msgstr ""
-"Ismerkedés a Lubuntu-val és az LXQt asztallal (amelyet OSGeoLive használ):"
+msgstr "Ismerkedés a Lubuntu-val és az LXQt asztallal (amelyet OSGeoLive használ):"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:54
 msgid "https://lubuntu.me/ and https://lxqt-project.org/"
@@ -125,8 +124,8 @@ msgstr "Első lépések az Ubuntu operációs rendszerben:"
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:57
 msgid ""
 "`local eBook "
-"<file:///usr/local/share/doc/Getting_Started_with_Ubuntu_13.10.pdf>`_ and "
-"`extended online help <https://help.ubuntu.com>`_"
+"<file:///usr/local/share/doc/Getting_Started_with_Ubuntu_13.10.pdf>`_ and"
+" `extended online help <https://help.ubuntu.com>`_"
 msgstr ""
 "`helyi ekönyv "
 "<file:///usr/local/share/doc/Getting_Started_with_Ubuntu_13.10.pdf>`_ és "
@@ -144,18 +143,19 @@ msgstr ":doc:`osgeolive_install_quickstart`"
 msgid ":doc:`usb_quickstart`"
 msgstr ":doc:`usb_quickstart`"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr "nologo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "OSGeo Projekt"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo közösség"
+

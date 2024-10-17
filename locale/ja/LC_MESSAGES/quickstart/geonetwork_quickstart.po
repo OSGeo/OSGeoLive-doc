@@ -1,26 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
 # Translators:
 # Ko Nagase <nagase@georepublic.co.jp>, 2022
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-06 09:15-0500\n"
+"POT-Creation-Date: 2024-09-26 14:03+0000\n"
 "PO-Revision-Date: 2024-05-18 20:46+0000\n"
 "Last-Translator: Yoichi Kayama <yoichi.kayama@gmail.com>\n"
-"Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
-"geonetwork_quickstart/ja/>\n"
 "Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Japanese "
+"<https://weblate.osgeo.org/projects/osgeolive/geonetwork_quickstart/ja/>"
+"\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.4.3\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:27
 msgid "GeoNetwork Quickstart"
@@ -41,16 +41,18 @@ msgid "Prerequisites"
 msgstr "前提条件"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:37
+#, fuzzy
 msgid ""
-"GeoNetwork can directly be started from the OSGeo Live start menu and will "
-"be available at http://localhost:8080/geonetwork some moments later. Check "
-"the `Installation Guide <https://geonetwork-"
-"opensource.org/manuals/trunk/en/install-guide/index.html>`__ if you are "
-"using GeoNetwork in some other context."
+"GeoNetwork can directly be started from the OSGeo Live start menu and "
+"will be available at http://localhost:8080/geonetwork some moments later."
+" Check the `Installation Guide <https://docs.geonetwork-"
+"opensource.org/3.12/install-guide/>`__ if you are using GeoNetwork in "
+"some other context."
 msgstr ""
-"GeoNetworkは、OSGeo Liveのスタートメニューから直接起動できます。http://localhost:8080/geonetwork "
-"には、しばらく後に接続可能になります。GeoNetwork を他のコンテキストで使用する場合は、 `インストールガイド "
-"<https://geonetwork-opensource.org/manuals/trunk/en/install-"
+"GeoNetworkは、OSGeo "
+"Liveのスタートメニューから直接起動できます。http://localhost:8080/geonetwork "
+"には、しばらく後に接続可能になります。GeoNetwork を他のコンテキストで使用する場合は、 `インストールガイド <https"
+"://geonetwork-opensource.org/manuals/trunk/en/install-"
 "guide/index.html>`__ を確認してください。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:39
@@ -68,24 +70,24 @@ msgstr "カタログへのアクセス"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:45
 msgid ""
-"In the Web Services folder on the Desktop (or via the start menu), double-"
-"click **start GeoNetwork**. This will open the Firefox web browser at the "
-"URL ``http://localhost:8880/geonetwork``. This will be referred to "
-"throughout this document as the *homepage*."
+"In the Web Services folder on the Desktop (or via the start menu), "
+"double-click **start GeoNetwork**. This will open the Firefox web browser"
+" at the URL ``http://localhost:8880/geonetwork``. This will be referred "
+"to throughout this document as the *homepage*."
 msgstr ""
 "デスクトップのWeb Servicesフォルダで、 **GeoNetworkを開始** をダブルクリックします。これにより、URL "
-"``http://localhost:8880/geonetwork`` でFirefox Webブラウザが開きます。これは、このドキュメント全体で "
-"*ホームページ* と呼ばれます。"
+"``http://localhost:8880/geonetwork`` でFirefox "
+"Webブラウザが開きます。これは、このドキュメント全体で *ホームページ* と呼ばれます。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:47
 msgid ""
-"You can return to the homepage at any point by selecting the catalogue logo"
-" in the top left of the top toolbar. In the screenshot below, this is "
-"labelled “My GeoNetwork catalogue” but it may have a different name and "
+"You can return to the homepage at any point by selecting the catalogue "
+"logo in the top left of the top toolbar. In the screenshot below, this is"
+" labelled “My GeoNetwork catalogue” but it may have a different name and "
 "logo."
 msgstr ""
-"上部ツールバーの左上に表示されているカタログロゴを選択すると、ホームページにいつでも戻ることができます。下のスクリーンショットでは、これに \"My "
-"GeoNetwork catalog\" というラベルが付いていますが、名前とロゴが異なる場合があります。"
+"上部ツールバーの左上に表示されているカタログロゴを選択すると、ホームページにいつでも戻ることができます。下のスクリーンショットでは、これに "
+"\"My GeoNetwork catalog\" というラベルが付いていますが、名前とロゴが異なる場合があります。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:55
 msgid "Sign in"
@@ -93,13 +95,13 @@ msgstr "サインイン"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:57
 msgid ""
-"Select **Sign in** in the top right of the top toolbar in the homepage to "
-"visit the sign in page. Enter the username ``admin`` and password ``admin`` "
-"and select the blue **Sign in** button to sign in as the catalog "
-"administrator."
+"Select **Sign in** in the top right of the top toolbar in the homepage to"
+" visit the sign in page. Enter the username ``admin`` and password "
+"``admin`` and select the blue **Sign in** button to sign in as the "
+"catalog administrator."
 msgstr ""
-"ホームページの上部ツールバーの右上にある **サインイン** を選択して、サインインページを表示します。ユーザ名 ``admin`` とパスワード "
-"``admin`` を入力し、青い **[サインイン]** ボタンを選択してカタログ管理者としてサインインします。"
+"ホームページの上部ツールバーの右上にある **サインイン** を選択して、サインインページを表示します。ユーザ名 ``admin`` とパスワード"
+" ``admin`` を入力し、青い **[サインイン]** ボタンを選択してカタログ管理者としてサインインします。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:63
 msgid ""
@@ -107,8 +109,7 @@ msgid ""
 "elements, namely a link to the Admin console, the name of the signed in "
 "user, a link to Sign out, and a dropdown box for changing the interface "
 "language."
-msgstr ""
-"サインインすると、上部ツールバーが変更され、管理コンソールへのリンク、サインインしたユーザの名前、サインアウトへのリンク、インタフェース言語を変更するためのドロップダウンボックスなどの追加要素が表示されます。"
+msgstr "サインインすると、上部ツールバーが変更され、管理コンソールへのリンク、サインインしたユーザの名前、サインアウトへのリンク、インタフェース言語を変更するためのドロップダウンボックスなどの追加要素が表示されます。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:70
 msgid "Load sample data"
@@ -149,14 +150,13 @@ msgstr "Dublin Core (dublin core)"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:80
 msgid "Geographic information - Methodology for feature cataloguing (iso9110)"
-msgstr ""
-"Geographic information - Methodology for feature cataloguing (iso9110)"
+msgstr "Geographic information - Methodology for feature cataloguing (iso9110)"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:82
 msgid ""
-"For the purposes of this Quick Start Guide, select ``Geographic information "
-"- Metadata (iso19139:2007)`` and then select first the **Load samples for "
-"selected standards** button below the list."
+"For the purposes of this Quick Start Guide, select ``Geographic "
+"information - Metadata (iso19139:2007)`` and then select first the **Load"
+" samples for selected standards** button below the list."
 msgstr ""
 "このクイックスタートガイドでは、 ``Geographic information - Metadata (iso19139:2007)`` "
 "を選択し、一覧の下にある **Load samples for selected standards** ボタンをクリックします。"
@@ -164,7 +164,8 @@ msgstr ""
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:87
 msgid ""
 "*When this process is complete, a notice will appear in the right of the "
-"window indicating that 5 record(s) have been added for schema ‘iso19139’.*"
+"window indicating that 5 record(s) have been added for schema "
+"‘iso19139’.*"
 msgstr "*このプロセスが完了すると、ウィンドウの右側に、スキーマ「iso19139」に5つのレコードが追加されたことを示す通知が表示されます。*"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:90
@@ -173,13 +174,12 @@ msgstr "空間データを検索"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:92
 msgid ""
-"Return to the catalog homepage by selecting the catalog name in the top left"
-" of the top toolbar. The homepage will now show icons representing the "
-"loaded records, classified by topic (in blue) and resource type (in green). "
-"Below this are tabs classifying the records by date added (latest news) and "
-"popularity (most popular)."
-msgstr ""
-"上部ツールバーの左上に表示されているカタログ名を選択して、カタログのホームページに戻ります。ホームページには、トピック(青)とリソースタイプ(緑)で分類された読み込んだレコードを表すアイコンが表示されます。この下には、追加された日付(最新ニュース)と人気(最も一般的)でレコードを分類するタブがあります。"
+"Return to the catalog homepage by selecting the catalog name in the top "
+"left of the top toolbar. The homepage will now show icons representing "
+"the loaded records, classified by topic (in blue) and resource type (in "
+"green). Below this are tabs classifying the records by date added (latest"
+" news) and popularity (most popular)."
+msgstr "上部ツールバーの左上に表示されているカタログ名を選択して、カタログのホームページに戻ります。ホームページには、トピック(青)とリソースタイプ(緑)で分類された読み込んだレコードを表すアイコンが表示されます。この下には、追加された日付(最新ニュース)と人気(最も一般的)でレコードを分類するタブがあります。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:97
 msgid "Select **Search** in the top toolbar to access the Search page."
@@ -195,22 +195,22 @@ msgstr "入力時に提案を表示する全文検索ボックス"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:107
 msgid ""
-"*Search facets*, or filters, that provide ways of narrowing down the search"
-" results, such as *Type of Resource*, *Topic*, *Keywords*,"
+"*Search facets*, or filters, that provide ways of narrowing down the "
+"search results, such as *Type of Resource*, *Topic*, *Keywords*,"
 msgstr "検索結果を絞り込む *リソースタイプ* 、 *トピック* 、 *キーワード* などを提供する *検索ファセット* 、またはフィルタ。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:112
 msgid ""
-"An overview map, where you can draw a box to filter results spatially (Hint-"
-" if you can’t see this, select MAP in the bottom right corner of your page)"
-msgstr ""
-"概要のマップで、結果を空間的にフィルタリングするためのボックスを描画できます(ヒントが表示されない場合は、ページの右下隅にあるマップを選択してください)。"
+"An overview map, where you can draw a box to filter results spatially "
+"(Hint- if you can’t see this, select MAP in the bottom right corner of "
+"your page)"
+msgstr "概要のマップで、結果を空間的にフィルタリングするためのボックスを描画できます(ヒントが表示されない場合は、ページの右下隅にあるマップを選択してください)。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:117
 msgid ""
 "By selecting the vertical ellipsis in the search box you can access the "
-"**advanced search** panel and search by *category*, *keyword*, *contact*, or"
-" records within a specific time period."
+"**advanced search** panel and search by *category*, *keyword*, *contact*,"
+" or records within a specific time period."
 msgstr ""
 "検索ボックスの垂直方向の省略記号を選択すると、 **高度な検索** パネルにアクセスして、 *カテゴリ* 、 *キーワード* 、 *連絡先* "
 "、または指定された期間内のレコードで検索できます。"
@@ -232,10 +232,11 @@ msgstr ""
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:131
 msgid ""
 "Select a card to take you to a page showing the full details for that "
-"record. Select the blue **Back to search** button to return to the Search "
-"page when you’re done."
+"record. Select the blue **Back to search** button to return to the Search"
+" page when you’re done."
 msgstr ""
-"カードを選択すると、そのレコードの詳細全体が表示されるページに移動します。青色の **[検索に戻る]** ボタンをクリックすると、検索ページに戻ります。"
+"カードを選択すると、そのレコードの詳細全体が表示されるページに移動します。青色の **[検索に戻る]** "
+"ボタンをクリックすると、検索ページに戻ります。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:137
 msgid "In the top right of the record are icons for:"
@@ -265,10 +266,9 @@ msgstr "**完全なビュー** または **XMLビュー** に切り替える"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:145
 msgid ""
-"Switching to **Full view** will show more detailed metadata. To switch back "
-"to the original view select **Default view** from the list."
-msgstr ""
-"**完全なビュー** に切り替えると、より詳細なメタデータが表示されます。元のビューに戻すには、一覧から **デフォルトのビュー** を選択します。"
+"Switching to **Full view** will show more detailed metadata. To switch "
+"back to the original view select **Default view** from the list."
+msgstr "**完全なビュー** に切り替えると、より詳細なメタデータが表示されます。元のビューに戻すには、一覧から **デフォルトのビュー** を選択します。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:148
 msgid "Add layers to the map"
@@ -276,9 +276,10 @@ msgstr "マップにレイヤを追加"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:150
 msgid ""
-"From the **Search tab**, click on the card for **Physiographic Map of North "
-"and Central Eurasia (Sample record, please remove!)** to view the metadata. "
-"Move down the page until the **Download and links** section is visible."
+"From the **Search tab**, click on the card for **Physiographic Map of "
+"North and Central Eurasia (Sample record, please remove!)** to view the "
+"metadata. Move down the page until the **Download and links** section is "
+"visible."
 msgstr ""
 "**検索タブ** から、 **Physiographic Region of North and Central Eurasia "
 "(これはサンプルです。削除できます!)** のカードをクリックしてメタデータをビューに移動します。マップページを下へ移動して、 "
@@ -286,8 +287,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:152
 msgid ""
-"The **Download and links** section shows external resources associated with "
-"the metadata record, such as:"
+"The **Download and links** section shows external resources associated "
+"with the metadata record, such as:"
 msgstr "**ダウンロードとリンク** セクションには、メタデータレコードに関連付けられた次のような外部リソースが表示されます。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:154
@@ -299,15 +300,13 @@ msgid "Further information such as a web page,"
 msgstr "Webページなどの詳細情報"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:156
-msgid ""
-"A Web Mapping Service (WMS) or Web Feature Service (WFS) link to the data."
-msgstr ""
-"Web Mapping Service (WMS) または Web Feature Service (WFS) がデータにリンクしています。"
+msgid "A Web Mapping Service (WMS) or Web Feature Service (WFS) link to the data."
+msgstr "Web Mapping Service (WMS) または Web Feature Service (WFS) がデータにリンクしています。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:158
 msgid ""
-"Locate the link labelled as **This dataset is published in the view service "
-"(WMS) available at http://data.fao.org/maps/wms with layer name "
+"Locate the link labelled as **This dataset is published in the view "
+"service (WMS) available at http://data.fao.org/maps/wms with layer name "
 "GEONETWORK:phy_landf_7386.** and select **Add to map**."
 msgstr ""
 "**このデータセットは、http://data.fao.org/maps/wms にある GEONETWORK:phy_landf_7386. "
@@ -321,8 +320,8 @@ msgstr "この手順により、カタログの **マップ** タブに切り替
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:162
 msgid ""
-"Tools for using the Map are arranged in two groups in the right-hand side of"
-" the map. The top group looks like this:"
+"Tools for using the Map are arranged in two groups in the right-hand side"
+" of the map. The top group looks like this:"
 msgstr "マップを使用するためのツールは、マップの右側に2つのグループで配置されています。一番上のグループは次のようになります。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:168
@@ -331,8 +330,8 @@ msgstr "ツールは次のとおりです。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:170
 msgid ""
-"Add new layers to the map. You can search the catalog, add layers from web "
-"services, or KML,"
+"Add new layers to the map. You can search the catalog, add layers from "
+"web services, or KML,"
 msgstr "マップにレイヤを追加カタログを検索したり、WebサービスやKMLからレイヤを追加したりできます。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:171
@@ -347,11 +346,10 @@ msgstr "マップ上のレイヤをフィルタ(設定されている場合)"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:173
 msgid ""
-"Manage the Map, by setting it back to default settings, loading a new map "
-"definition, downloading the current map, or saving the map configuration as "
-"a layer in the catalog,"
-msgstr ""
-"マップを管理します。デフォルト設定に戻すか、新しいマップ定義を読み込むか、現在のマップをダウンロードするか、マップの設定をレイヤとしてカタログに保存します。"
+"Manage the Map, by setting it back to default settings, loading a new map"
+" definition, downloading the current map, or saving the map configuration"
+" as a layer in the catalog,"
+msgstr "マップを管理します。デフォルト設定に戻すか、新しいマップ定義を読み込むか、現在のマップをダウンロードするか、マップの設定をレイヤとしてカタログに保存します。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:174
 msgid "Print the map,"
@@ -403,8 +401,9 @@ msgstr "さらに、左上に地理検索ツールがあります。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:195
 msgid ""
-"Using the Manage Layers tool, select the cog symbol next to **Physiography "
-"of North and Central Eurasia Landform** and select **Zoom to layer**."
+"Using the Manage Layers tool, select the cog symbol next to "
+"**Physiography of North and Central Eurasia Landform** and select **Zoom "
+"to layer**."
 msgstr ""
 "レイヤを管理ツールを使用して、 **Physiography of North and Central Eurasia Landform** "
 "の横にあるcogシンボルを選択し、 **レイヤへズーム** を選択します。"
@@ -415,44 +414,43 @@ msgstr "マップはこのレイヤの範囲にズームします。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:206
 msgid ""
-"Select the **paintbrush** icon next to the layer to see the legend, showing "
-"you the classification used for the display. You can dismiss this dialog by "
-"selecting the **X** in the top right corner."
+"Select the **paintbrush** icon next to the layer to see the legend, "
+"showing you the classification used for the display. You can dismiss this"
+" dialog by selecting the **X** in the top right corner."
 msgstr ""
-"レイヤの横にある **ペイントブラシ** アイコンを選択すると、凡例が表示され、表示に使用された分類が表示されます。このダイアログを閉じるには、右上隅の"
-" **X** を選択します。"
+"レイヤの横にある **ペイントブラシ** "
+"アイコンを選択すると、凡例が表示され、表示に使用された分類が表示されます。このダイアログを閉じるには、右上隅の **X** を選択します。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:211
 msgid ""
-"Select a feature on the map corresponding to a category in the legend, such "
-"as an area of water. Zoom and pan around the map as needed to identify a "
-"suitable area. Clicking on the feature will bring up an identification box "
-"at the bottom of the map showing details about the area selected."
-msgstr ""
-"水域など、凡例のカテゴリに対応する地物を地図上で選択します。適切な領域を特定するために、必要に応じてマップをズームおよびパンします。地物をクリックすると、マップの下部に識別ボックスが表示され、選択された領域の詳細が表示されます。"
+"Select a feature on the map corresponding to a category in the legend, "
+"such as an area of water. Zoom and pan around the map as needed to "
+"identify a suitable area. Clicking on the feature will bring up an "
+"identification box at the bottom of the map showing details about the "
+"area selected."
+msgstr "水域など、凡例のカテゴリに対応する地物を地図上で選択します。適切な領域を特定するために、必要に応じてマップをズームおよびパンします。地物をクリックすると、マップの下部に識別ボックスが表示され、選択された領域の詳細が表示されます。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:219
 msgid "What next?"
 msgstr "次のステップは何?"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:221
+#, fuzzy
 msgid ""
-"Visit the `Geonetwork User Guide <https://geonetwork-"
-"opensource.org/manuals/trunk/en/user-guide/index.html>`_ and try the chapter"
-" on **Describing Information**, to learn how to create and edit metadata "
-"records."
+"Visit the `Geonetwork User Guide <https://docs.geonetwork-"
+"opensource.org/3.12/user-guide/>`_ and try the chapter on **Describing "
+"Information**, to learn how to create and edit metadata records."
 msgstr ""
-"`Geonetwork ユーザガイド <https://geonetwork-opensource.org/manuals/trunk/en/user-"
-"guide/index.html>`_ にアクセスし、 **Describing Information** "
+"`Geonetwork ユーザガイド <https://geonetwork-opensource.org/manuals/trunk/en"
+"/user-guide/index.html>`_ にアクセスし、 **Describing Information** "
 "の章を参照して、メタデータレコードの作成と編集方法を学んでください。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:223
 msgid ""
 "Follow up by visiting subsequent chapters to learn how to associate "
-"resources with your metadata, tag it with keywords and add it to categories,"
-" and publish your metadata to the outside world."
-msgstr ""
-"後続の章へ進んで、リソースをメタデータに関連付け、キーワードでタグ付けしてカテゴリに追加し、メタデータを外部に公開する方法を学習しましょう。"
+"resources with your metadata, tag it with keywords and add it to "
+"categories, and publish your metadata to the outside world."
+msgstr "後続の章へ進んで、リソースをメタデータに関連付け、キーワードでタグ付けしてカテゴリに追加し、メタデータを外部に公開する方法を学習しましょう。"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -462,10 +460,11 @@ msgstr "vmdk"
 msgid "nologo"
 msgstr "ロゴなし"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "OSGeo プロジェクト"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo コミュニティ"
+

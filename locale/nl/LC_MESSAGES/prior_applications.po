@@ -1,26 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
 # Translators:
 # Celine Vilain, 2022
-#
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-15 20:42-0600\n"
+"POT-Creation-Date: 2024-10-17 17:51+0000\n"
 "PO-Revision-Date: 2023-07-03 08:33+0000\n"
 "Last-Translator: Michel Stuyts <michel.stuyts@gmail.com>\n"
-"Language-Team: Dutch <https://weblate.osgeo.org/projects/osgeolive/"
-"prior_applications/nl/>\n"
 "Language: nl\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Dutch "
+"<https://weblate.osgeo.org/projects/osgeolive/prior_applications/nl/>\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/prior_applications.rst:5
 msgid "Previously available applications"
@@ -39,41 +38,32 @@ msgid "Description"
 msgstr "Beschrijving"
 
 #: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
 msgid "|nologo|"
 msgstr "|nologo|"
 
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
 #: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr "nologo"
+
+#: ../../build/doc/prior_applications.rst:1
+#, fuzzy
+msgid "52nWPS_"
+msgstr "52NorthWSS_"
+
+#: ../../build/doc/prior_applications.rst:1
+#, fuzzy
+msgid "`QuickStart <52nWPS_q_>`__"
+msgstr "`QuickStart <TinyOWS_q_>`__"
+
+#: ../../build/doc/prior_applications.rst:1
+#, fuzzy
+msgid "16.0"
+msgstr "6.0"
+
+#: ../../build/doc/prior_applications.rst:1
+#, fuzzy
+msgid "Web Processing Services"
+msgstr "Web Security Service"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "LibLAS_"
@@ -83,8 +73,6 @@ msgstr "LibLAS_"
 msgid "`QuickStart <LibLAS_q_>`__"
 msgstr "`QuickStart <LibLAS_q_>`__"
 
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
 #: ../../build/doc/prior_applications.rst:1
 msgid "13.0"
 msgstr "13.0"
@@ -106,19 +94,6 @@ msgid "Create Map Tiles"
 msgstr "Maken van Map tiles"
 
 #: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-msgid "|osgeo_community|"
-msgstr "|osgeo_community|"
-
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-msgid "OSGeo Community"
-msgstr "OSGeo Gemeenschap"
-
-#: ../../build/doc/prior_applications.rst:1
 msgid "Geomajas_"
 msgstr "Geomajas_"
 
@@ -129,6 +104,14 @@ msgstr "`QuickStart <Geomajas_q_>`__"
 #: ../../build/doc/prior_applications.rst:1
 msgid "Browser GIS Client"
 msgstr "Browser GIS Client"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "|osgeo_community|"
+msgstr "|osgeo_community|"
+
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Community"
+msgstr "OSGeo Gemeenschap"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "OSSIM_"
@@ -150,16 +133,6 @@ msgstr "Beeldverwerking"
 msgid "`OGC Standards`_"
 msgstr "`OGC Standards`_"
 
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
 #: ../../build/doc/prior_applications.rst:1
 msgid "10.5"
 msgstr "10.5"
@@ -385,7 +358,6 @@ msgid "Geopublisher_"
 msgstr "Geopublisher_"
 
 #: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
 msgid "6.0"
 msgstr "6.0"
 
@@ -421,6 +393,7 @@ msgstr "Web Service"
 msgid "vmdk"
 msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "OSGeo Project"
+

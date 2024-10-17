@@ -1,25 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
 #
 # Translators:
 # Anne Ylinen, 2019
-#
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-15 20:42-0600\n"
+"POT-Creation-Date: 2024-10-17 17:51+0000\n"
 "PO-Revision-Date: 2017-11-07 03:17+0000\n"
 "Last-Translator: Anne Ylinen, 2019\n"
-"Language-Team: Swedish (https://app.transifex.com/osgeo/teams/66156/sv/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: sv\n"
+"Language-Team: Swedish (https://app.transifex.com/osgeo/teams/66156/sv/)\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/download.rst:7
 msgid "Download"
@@ -27,20 +27,18 @@ msgstr "Ladda ner"
 
 #: ../../build/doc/download.rst:9
 msgid ""
-"The latest stable release is |osgeolive-version| and can be downloaded from:"
+"The latest stable release is |osgeolive-version| and can be downloaded "
+"from:"
 msgstr ""
-"Den senaste stabila utgåvan är |osgeolive-version| och den kan laddas ner "
-"från:"
+"Den senaste stabila utgåvan är |osgeolive-version| och den kan laddas ner"
+" från:"
 
 #: ../../build/doc/download.rst:11
-msgid ""
-"https://sourceforge.net/projects/osgeo-live/files/|osgeolive-version-only|/"
+msgid "|sourceforge-download|"
 msgstr ""
 
 #: ../../build/doc/download.rst:13
-msgid ""
-"https://download.osgeo.org/livedvd/releases/|osgeolive-version-only|/ "
-"(.vmdk)"
+msgid "|osgeo-download| (.vmdk)"
 msgstr ""
 
 #: ../../build/doc/download.rst:16
@@ -53,13 +51,13 @@ msgstr "**osgeolive iso**: |osgeolive-iso-size|"
 
 #: ../../build/doc/download.rst:20
 msgid ""
-"A Lubuntu based bootable image, which can be copied to an 8 Gig USB thumb "
-"drive (faster and recommended) or DVD (cheaper). It can also be used to "
+"A Lubuntu based bootable image, which can be copied to an 8 Gig USB thumb"
+" drive (faster and recommended) or DVD (cheaper). It can also be used to "
 "build a virtual machine from scratch."
 msgstr ""
-"En Lubuntu baserat startbar bild, som kan kopieras till ett 8 Gig USB minne "
-"(snabbare och rekommenderas) eller en DVD (billigare). Den kan också "
-"användas för att bygga en virtuell maskin från grunden."
+"En Lubuntu baserat startbar bild, som kan kopieras till ett 8 Gig USB "
+"minne (snabbare och rekommenderas) eller en DVD (billigare). Den kan "
+"också användas för att bygga en virtuell maskin från grunden."
 
 #: ../../build/doc/download.rst:22
 msgid "**osgeolive-vm**: |osgeolive-vm-7z-size|"
@@ -67,9 +65,10 @@ msgstr "**osgeolive-vm**: |osgeolive-vm-7z-size|"
 
 #: ../../build/doc/download.rst:24
 msgid ""
-"This is a pre-made virtual machine (.vmdk), based on osgeolive, suitable for"
-" use in VirtualBox, VMWare, KVM and other virtual machine applications. It "
-"has been compressed using `7-Zip <https://www.7-zip.org/>`_."
+"This is a pre-made virtual machine (.vmdk), based on osgeolive, suitable "
+"for use in VirtualBox, VMWare, KVM and other virtual machine "
+"applications. It has been compressed using `7-Zip "
+"<https://www.7-zip.org/>`_."
 msgstr ""
 
 #: ../../build/doc/download.rst:26
@@ -78,22 +77,21 @@ msgstr "**amd64 eller i386 arkitektur**"
 
 #: ../../build/doc/download.rst:28
 msgid ""
-"ISO images are available for recent amd64 hardware (recommended) as well as "
-"older i386 hardware."
+"ISO images are available for recent amd64 hardware (recommended) as well "
+"as older i386 hardware."
 msgstr ""
-"ISO-avbildningar är tillgängliga för senaste amd64-hårdvara (rekommenderas) "
-"samt äldre i386-hårdvara."
+"ISO-avbildningar är tillgängliga för senaste amd64-hårdvara "
+"(rekommenderas) samt äldre i386-hårdvara."
 
 #: ../../build/doc/download.rst:30
 msgid "**md5 checksum**"
 msgstr "**md5 kontrollsumma**"
 
 #: ../../build/doc/download.rst:32
-msgid ""
-"You can use the md5 checksum to verify the image downloaded successfully."
+msgid "You can use the md5 checksum to verify the image downloaded successfully."
 msgstr ""
-"Du kan använda md5-kontrollsumman för att kontrollera att avbildningen har "
-"hämtats framgångsrikt."
+"Du kan använda md5-kontrollsumman för att kontrollera att avbildningen "
+"har hämtats framgångsrikt."
 
 #: ../../build/doc/download.rst:34
 msgid "**System Requirements**"
@@ -101,13 +99,14 @@ msgstr "**Systemkrav**"
 
 #: ../../build/doc/download.rst:36
 msgid ""
-"`Minimum suggested system resources: 1 GB RAM (2 GB are better for trying "
-"Java based applications), 1GHz i386 or amd64 compatible CPU. No hard drive "
-"required. Mac users will benefit from a 3-button USB mouse.`"
+"`Minimum suggested system resources: 1 GB RAM (2 GB are better for trying"
+" Java based applications), 1GHz i386 or amd64 compatible CPU. No hard "
+"drive required. Mac users will benefit from a 3-button USB mouse.`"
 msgstr ""
-"`Minsta föreslagna systemresurser: 1 GB RAM (2 GB är bättre för att prova "
-"Java-baserade program), 1GHz i386 eller amd64-kompatibel CPU. Ingen hårddisk"
-" krävs. Mac-användare kommer att ha nytta av en 3-knapps USB-mus.`"
+"`Minsta föreslagna systemresurser: 1 GB RAM (2 GB är bättre för att prova"
+" Java-baserade program), 1GHz i386 eller amd64-kompatibel CPU. Ingen "
+"hårddisk krävs. Mac-användare kommer att ha nytta av en 3-knapps USB-"
+"mus.`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -117,10 +116,11 @@ msgstr ""
 msgid "nologo"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr ""
+

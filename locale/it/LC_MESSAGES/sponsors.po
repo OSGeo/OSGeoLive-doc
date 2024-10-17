@@ -15,25 +15,23 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"POT-Creation-Date: 2024-10-17 17:51+0000\n"
 "PO-Revision-Date: 2024-05-02 06:45+0000\n"
 "Last-Translator: luca <lucadeluge@gmail.com>\n"
-"Language-Team: Italian <https://weblate.osgeo.org/projects/osgeolive/"
-"sponsors/it/>\n"
 "Language: it\n"
+"Language-Team: Italian "
+"<https://weblate.osgeo.org/projects/osgeolive/sponsors/it/>\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 "
+"== 0) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
-" ? 1 : 2);\n"
-"X-Generator: Weblate 5.4.3\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/sponsors.rst:1
 msgid "OSGeoLive Sponsors"
 msgstr "Sponsor OSGeoLive"
 
-#: ../../build/doc/sponsors.rst:-1 ../../build/doc/sponsors_osgeo.rst:-1
 msgid "OSGeo"
 msgstr "OSGeo"
 
@@ -47,7 +45,6 @@ msgstr ""
 "l’infrastruttura per l’hosting e lo sviluppo per il progetto, e per molte"
 " delle comunità dei software che contrinuiscono a questo."
 
-#: ../../build/doc/sponsors.rst:-1
 msgid ""
 "Information Center for the Environment at the University of California, "
 "Davis"
@@ -64,7 +61,6 @@ msgstr ""
 "Information Center for the Environment dell’Universita della California, "
 "Davis fornisce risorse hardware e di sviluppo al progetto OSGeo-Live."
 
-#: ../../build/doc/sponsors.rst:-1
 msgid "National Technical University of Athens"
 msgstr "National Technical University of Athens"
 
@@ -78,7 +74,6 @@ msgstr ""
 " fornisce risorse hardware e supporto allo sviluppo del progetto OSGeo-"
 "Live."
 
-#: ../../build/doc/sponsors.rst:-1
 msgid "The DebianGIS and UbuntuGIS projects"
 msgstr "The DebianGIS and UbuntuGIS projects"
 
@@ -2759,8 +2754,9 @@ msgid "Alexander Kleshnin"
 msgstr "Alexander Kleshnin"
 
 #: ../../build/translators.csv:1
-msgid "a.hast mail ru"
-msgstr "a.hast mail ru"
+#, fuzzy
+msgid "kleshnin.alexander gmail.com"
+msgstr "aeylinen gmail.com"
 
 #: ../../build/translators.csv:1
 msgid "HasT"
@@ -2881,3 +2877,4 @@ msgstr "Progetto OSGeo"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "Comunità OSGeo"
+

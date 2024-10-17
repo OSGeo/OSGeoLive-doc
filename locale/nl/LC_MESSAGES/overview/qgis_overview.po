@@ -1,26 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
 # Translators:
 # Celine Vilain, 2022
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-15 20:42-0600\n"
+"POT-Creation-Date: 2024-10-14 03:30+0000\n"
 "PO-Revision-Date: 2023-07-03 08:33+0000\n"
 "Last-Translator: Michel Stuyts <michel.stuyts@gmail.com>\n"
-"Language-Team: Dutch <https://weblate.osgeo.org/projects/osgeolive/"
-"qgis_overview/nl/>\n"
 "Language: nl\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Dutch "
+"<https://weblate.osgeo.org/projects/osgeolive/qgis_overview/nl/>\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/overview/qgis_overview.rst:20
 msgid "QGIS"
@@ -32,24 +31,23 @@ msgstr "Desktop GIS"
 
 #: ../../build/doc/overview/qgis_overview.rst:25
 msgid ""
-"QGIS is a user friendly, Open Source, GIS client where you can visualize, "
-"manage, edit, analyse data, and compose printable maps. It includes powerful"
-" analytical functionality through integration with :doc:`GRASS "
+"QGIS is a user friendly, Open Source, GIS client where you can visualize,"
+" manage, edit, analyse data, and compose printable maps. It includes "
+"powerful analytical functionality through integration with :doc:`GRASS "
 "<grass_overview>`, :doc:`SAGA <saga_overview>`, :doc:`Orfeo Toolbox "
-"<otb_overview>` , :doc:`GDAL/OGR <gdal_overview>` and many other algorithm "
-"providers. It runs on Linux, Unix, Mac OSX, and Windows and supports "
-"numerous vector, raster and database formats and functionality."
+"<otb_overview>` , :doc:`GDAL/OGR <gdal_overview>` and many other "
+"algorithm providers. It runs on Linux, Unix, Mac OSX, and Windows and "
+"supports numerous vector, raster and database formats and functionality."
 msgstr ""
-"QGIS is een gebruiksvriendelijke Open Source GIS client waarmee je data kan "
-"visualiseren, bewerken en analyseren, en ook afdrukbare kaarten "
+"QGIS is een gebruiksvriendelijke Open Source GIS client waarmee je data "
+"kan visualiseren, bewerken en analyseren, en ook afdrukbare kaarten "
 "samenstellen. Het bevat krachtige analytische functionaliteit door de "
-"integratie met :doc:`GRASS <grass_overview>`, :doc:`SAGA <saga_overview>`, "
-":doc:`Orfeo Toolbox <otb_overview>` , :doc:`GDAL/OGR <gdal_overview>` en "
-"veel andere algoritme providers. Het draait op Linux, Unix, Mac OSX, en "
-"Windows en ondersteund talrijke vector, raster en database formaten en "
-"functionaliteiten."
+"integratie met :doc:`GRASS <grass_overview>`, :doc:`SAGA "
+"<saga_overview>`, :doc:`Orfeo Toolbox <otb_overview>` , :doc:`GDAL/OGR "
+"<gdal_overview>` en veel andere algoritme providers. Het draait op Linux,"
+" Unix, Mac OSX, en Windows en ondersteund talrijke vector, raster en "
+"database formaten en functionaliteiten."
 
-#: ../../build/doc/overview/qgis_overview.rstNone
 msgid "qgis screenshot"
 msgstr "qgis schermafbeelding"
 
@@ -110,16 +108,16 @@ msgid ""
 "most vector formats: including ESRI shapefiles, MapInfo, SDTS and GML, "
 "OpenStreetMap vectors"
 msgstr ""
-"de meeste vector formaten: inclusief ESRI shapefiles, MapInfo, SDTS en GML, "
-"OpenStreetMap vectors"
+"de meeste vector formaten: inclusief ESRI shapefiles, MapInfo, SDTS en "
+"GML, OpenStreetMap vectors"
 
 #: ../../build/doc/overview/qgis_overview.rst:53
 msgid ""
 "raster formats such as digital elevation models, aerial photography or "
 "landsat imagery"
 msgstr ""
-"raster formaten zoals digitale hoogtemodellen, luchtfotografie of landsat "
-"beelden"
+"raster formaten zoals digitale hoogtemodellen, luchtfotografie of landsat"
+" beelden"
 
 #: ../../build/doc/overview/qgis_overview.rst:54
 msgid "GRASS locations and mapsets"
@@ -127,8 +125,7 @@ msgstr "GRASS locaties en mapsets"
 
 #: ../../build/doc/overview/qgis_overview.rst:55
 msgid "online spatial data served as OGC-compliant WMS, WMTS, WFS or WCS"
-msgstr ""
-"online ruimtelijke data aangeboden als OGC conforme WMS, WMTS, WSF of WCS"
+msgstr "online ruimtelijke data aangeboden als OGC conforme WMS, WMTS, WSF of WCS"
 
 #: ../../build/doc/overview/qgis_overview.rst:56
 msgid "2.5D rendering support"
@@ -148,8 +145,8 @@ msgstr "de georeferencer plugin"
 
 #: ../../build/doc/overview/qgis_overview.rst:62
 msgid ""
-"GPS tools to import and export GPX format, convert other GPS formats to GPX,"
-" or down/upload directly to a GPS unit"
+"GPS tools to import and export GPX format, convert other GPS formats to "
+"GPX, or down/upload directly to a GPS unit"
 msgstr ""
 "GPS gereedschappen om GPX formaat te importeren of exporteren, om GPS "
 "formaten te converteren naar GPX of om rechtstreeks te downloaden of "
@@ -157,11 +154,11 @@ msgstr ""
 
 #: ../../build/doc/overview/qgis_overview.rst:64
 msgid ""
-"Perform spatial analysis using integrated support for SAGA, OTB, MMGIS and "
-"GRASS"
+"Perform spatial analysis using integrated support for SAGA, OTB, MMGIS "
+"and GRASS"
 msgstr ""
-"Ruimtelijke analyses uitvoeren met behulp van geïntegreerde ondersteuning "
-"van SAGA, OTB, MMGIS en GRASS"
+"Ruimtelijke analyses uitvoeren met behulp van geïntegreerde ondersteuning"
+" van SAGA, OTB, MMGIS en GRASS"
 
 #: ../../build/doc/overview/qgis_overview.rst:66
 msgid "map algebra"
@@ -232,18 +229,20 @@ msgid "**Supported Platforms:** Windows, Linux, Mac, Unix"
 msgstr "**Ondersteunde platformen=** Windows, Linux, Mac, Unix"
 
 #: ../../build/doc/overview/qgis_overview.rst:93
-msgid "**Community Support:** https://qgis.org/en/site/forusers/support.html"
+#, fuzzy
+msgid "**Community Support:** https://qgis.org/resources/support/"
 msgstr ""
-"**Ondersteuning door de gemeenschap:** https://qgis.org/en/site/forusers/"
-"support.html"
+"**Ondersteuning door de gemeenschap:** "
+"https://qgis.org/en/site/forusers/support.html"
 
 #: ../../build/doc/overview/qgis_overview.rst:95
+#, fuzzy
 msgid ""
-"**Commercial Support:** "
-"https://qgis.org/en/site/resources/support/commercial-support"
+"**Commercial Support:** https://qgis.org/resources/support/commercial-"
+"support/"
 msgstr ""
-"**Commerciële ondersteuning:** https://qgis.org/en/site/forusers/"
-"commercial_support.html"
+"**Commerciële ondersteuning:** "
+"https://qgis.org/en/site/forusers/commercial_support.html"
 
 #: ../../build/doc/overview/qgis_overview.rst:101
 msgid "Quickstart"
@@ -261,10 +260,11 @@ msgstr "vmdk"
 msgid "nologo"
 msgstr "nologo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "OSGeo Project"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo Gemeenschap"
+

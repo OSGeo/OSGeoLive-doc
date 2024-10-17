@@ -1,26 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
 # Translators:
 # Celine Vilain, 2022
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-15 20:42-0600\n"
+"POT-Creation-Date: 2024-08-17 15:05-0600\n"
 "PO-Revision-Date: 2023-07-03 08:33+0000\n"
 "Last-Translator: Michel Stuyts <michel.stuyts@gmail.com>\n"
-"Language-Team: Dutch <https://weblate.osgeo.org/projects/osgeolive/"
-"jupyter_quickstart/nl/>\n"
 "Language: nl\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Dutch "
+"<https://weblate.osgeo.org/projects/osgeolive/jupyter_quickstart/nl/>\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:20
 msgid "Jupyter Notebook Quickstart"
@@ -30,8 +29,9 @@ msgstr ""
 msgid ""
 "The Jupyter Notebook is a web application that allows you to create and "
 "share documents that contain live code, equations, visualizations and "
-"explanatory text. Uses include: data cleaning and transformation, numerical "
-"simulation, statistical modeling, machine learning and much more."
+"explanatory text. Uses include: data cleaning and transformation, "
+"numerical simulation, statistical modeling, machine learning and much "
+"more."
 msgstr ""
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:28
@@ -69,10 +69,10 @@ msgstr ""
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:43
 msgid ""
 "A terminal window will open and a startup log will begin to scroll. "
-"Afterwards a web browser is launched showing the Jupyter Notebook dashboard."
-" From the Jupyter Notebook dashboard you can navigate the directory tree, "
-"start new notebooks, create files and directories, as well as rename, delete"
-" and upload files."
+"Afterwards a web browser is launched showing the Jupyter Notebook "
+"dashboard. From the Jupyter Notebook dashboard you can navigate the "
+"directory tree, start new notebooks, create files and directories, as "
+"well as rename, delete and upload files."
 msgstr ""
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:57
@@ -81,35 +81,34 @@ msgstr ""
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:59
 msgid ""
-"Let's open an existing notebook. From the main page click on the directory "
-"geopandas-tutorial and choose the Introduction notebook (01-introduction-"
-"geospatial-data.ipynb). This is an introduction with many examples on how to"
-" use geospatial vector data in Python with geopandas using the Natural "
-"Earth2 data."
+"Let's open an existing notebook. From the main page click on the "
+"directory geopandas-tutorial and choose the Introduction notebook (01"
+"-introduction-geospatial-data.ipynb). This is an introduction with many "
+"examples on how to use geospatial vector data in Python with geopandas "
+"using the Natural Earth2 data."
 msgstr ""
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:68
 msgid ""
-"The tutorial is made up with explaining text and cells. The cells contain in"
-" this case python code, that can be run."
+"The tutorial is made up with explaining text and cells. The cells contain"
+" in this case python code, that can be run."
 msgstr ""
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:71
-msgid ""
-"From the toolbar on top of the notebook you can choose different options:"
+msgid "From the toolbar on top of the notebook you can choose different options:"
 msgstr ""
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:73
 msgid ""
-"Cell-> Run Cells: will run the code in the cell with the focus and will move"
-" to the next cell."
+"Cell-> Run Cells: will run the code in the cell with the focus and will "
+"move to the next cell."
 msgstr ""
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:75
 msgid ""
-"Cell-> Run All: will run all the cells and show the results If everything "
-"worked as planned you should be able to see the results at the bottom of the"
-" page."
+"Cell-> Run All: will run all the cells and show the results If everything"
+" worked as planned you should be able to see the results at the bottom of"
+" the page."
 msgstr ""
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:79
@@ -154,18 +153,18 @@ msgstr ""
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:125
 msgid ""
-"As result you will see that instead of ``Africa`` there will be ``Asia`` in "
-"the plot."
+"As result you will see that instead of ``Africa`` there will be ``Asia`` "
+"in the plot."
 msgstr ""
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:131
-msgid "What Next?"
+msgid "What next?"
 msgstr ""
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:133
 msgid ""
-"Discover the other notebooks that are provided with OSGeoLive and find out "
-"how to work with Shapely, Rasterio, R, Iris & other software."
+"Discover the other notebooks that are provided with OSGeoLive and find "
+"out how to work with Shapely, Rasterio, R, Iris & other software."
 msgstr ""
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:135
@@ -181,8 +180,8 @@ msgstr ""
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:138
 msgid ""
 "Quick introduction on how to use the Jupyter Notebooks interface: `Get "
-"started with Jupyter Notebook <https://docs.jupyter.org/en/latest/content-"
-"quickstart.html>`__."
+"started with Jupyter Notebook <https://docs.jupyter.org/en/latest"
+"/content-quickstart.html>`__."
 msgstr ""
 
 #: ../../build/doc/<rst_epilog>:13
@@ -193,10 +192,11 @@ msgstr "vmdk"
 msgid "nologo"
 msgstr "nologo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "OSGeo Project"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo Gemeenschap"
+

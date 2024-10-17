@@ -1,28 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2022
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2024-09-26 14:03+0000\n"
 "PO-Revision-Date: 2024-09-27 22:36+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
-"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
-"mapproxy_overview/es/>\n"
 "Language: es\n"
+"Language-Team: Spanish "
+"<https://weblate.osgeo.org/projects/osgeolive/mapproxy_overview/es/>\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 "
+"== 0) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
-" ? 1 : 2);\n"
-"X-Generator: Weblate 5.4.3\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:18
 msgid "MapProxy"
@@ -35,29 +34,28 @@ msgstr "Proxy de WMS & servicios de mosaicos"
 #: ../../build/doc/overview/mapproxy_overview.rst:23
 msgid ""
 "MapProxy speeds up mapping applications by pre-rendering and integrating "
-"maps from multiple sources and storing in a local cache. Layers can be made "
-"transparent, projections can be changed, multiple map layers can be "
+"maps from multiple sources and storing in a local cache. Layers can be "
+"made transparent, projections can be changed, multiple map layers can be "
 "transformed into one, watermarks can be added, and more..."
 msgstr ""
-"MapProxy acelera las aplicaciones de mapeo al preprocesar e integrar mapas "
-"de múltiples fuentes y almacenarlos en un caché local. Las capas se pueden "
-"hacer transparentes, las proyecciones se pueden cambiar, las capas de mapas "
-"múltiples se pueden transformar en una, se pueden agregar marcas de agua y "
-"más ..."
+"MapProxy acelera las aplicaciones de mapeo al preprocesar e integrar "
+"mapas de múltiples fuentes y almacenarlos en un caché local. Las capas se"
+" pueden hacer transparentes, las proyecciones se pueden cambiar, las "
+"capas de mapas múltiples se pueden transformar en una, se pueden agregar "
+"marcas de agua y más ..."
 
 #: ../../build/doc/overview/mapproxy_overview.rst:26
 msgid ""
 "MapProxy is flexible and scales from simple to complex use-cases: from a "
-"single tile cache for an :doc:`OpenLayers <openlayers_overview>` web client "
-"to a central SDI node that combines, unifies and accelerates dozens of "
-"distributed WMS services."
+"single tile cache for an :doc:`OpenLayers <openlayers_overview>` web "
+"client to a central SDI node that combines, unifies and accelerates "
+"dozens of distributed WMS services."
 msgstr ""
-"MapProxy es flexible y escala casos de uso de simples a complejos: desde un "
-"solo caché de teselas para un :doc:`OpenLayers <openlayers_overview>` "
+"MapProxy es flexible y escala casos de uso de simples a complejos: desde "
+"un solo caché de teselas para un :doc:`OpenLayers <openlayers_overview>` "
 "cliente web, hasta un nodo SDI central que combina, unifica y acelera "
 "docenas de servicios WMS distribuidos."
 
-#: ../../build/doc/overview/mapproxy_overview.rstNone
 msgid "mapproxy screenshot"
 msgstr "pantalla de mapproxy"
 
@@ -65,7 +63,6 @@ msgstr "pantalla de mapproxy"
 msgid "Core Features"
 msgstr "Características Principales"
 
-#: ../../build/doc/overview/mapproxy_overview.rstNone
 msgid "MapProxy demo"
 msgstr "Demostración de MapProxy"
 
@@ -123,16 +120,15 @@ msgstr "Cache de tiles:"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:58
 msgid "stores identical images just once (e.g. ocean tiles)"
-msgstr ""
-"almacena imágenes idénticas una sola vez (por ejemplo teselas del océano)"
+msgstr "almacena imágenes idénticas una sola vez (por ejemplo teselas del océano)"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:59
 msgid ""
 "cache tiles in the filesystem, MBTiles/SQLite, ArcGIS Compact Cache, S3, "
 "Redis, Riak, or CouchDB"
 msgstr ""
-"mosaicos de caché en el sistema de archivos, MBTiles/SQLite, ArcGIS Compact "
-"Cache, S3, Redis, Riak, o CouchDB"
+"mosaicos de caché en el sistema de archivos, MBTiles/SQLite, ArcGIS "
+"Compact Cache, S3, Redis, Riak, o CouchDB"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:60
 msgid "add watermark to tiles"
@@ -168,11 +164,11 @@ msgstr "construcción de árboles de capas desde fuentes diferentes"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:70
 msgid ""
-"create ``GetMap`` responses from cache with support for free-zooming and any"
-" projection (for any Desktop GIS)"
+"create ``GetMap`` responses from cache with support for free-zooming and "
+"any projection (for any Desktop GIS)"
 msgstr ""
-"crear respuestas ``GetMap`` de cache con soporte para zoom libre y cualquier"
-" proyección (para cualquier SIG de escritorio)"
+"crear respuestas ``GetMap`` de cache con soporte para zoom libre y "
+"cualquier proyección (para cualquier SIG de escritorio)"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:71
 msgid "accelerates existing WMS 10 to 100 times"
@@ -226,11 +222,12 @@ msgstr "Poderosas herramientas:"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:84
 msgid ""
-"efficient seed tool for cache pre-filling that can seed polygon areas with "
-"Shapefiles, GeoJSON, PostGIS or WKT geometries"
+"efficient seed tool for cache pre-filling that can seed polygon areas "
+"with Shapefiles, GeoJSON, PostGIS or WKT geometries"
 msgstr ""
 "herramienta germinal eficiente para el pre-llenado de caché que puede "
-"sembrar áreas de polígono con Shapefiles, GeoJSON, PostGIS o geometrías WKT"
+"sembrar áreas de polígono con Shapefiles, GeoJSON, PostGIS o geometrías "
+"WKT"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:85
 msgid "export cached tiles to other formats"
@@ -311,8 +308,8 @@ msgid ""
 "**Licence:** `Apache Software License 2.0 "
 "<https://www.apache.org/licenses/LICENSE-2.0.html>`_"
 msgstr ""
-"**Licencia:** `Apache Software License 2.0 <https://www.apache.org/licenses/"
-"LICENSE-2.0.html>`_"
+"**Licencia:** `Apache Software License 2.0 "
+"<https://www.apache.org/licenses/LICENSE-2.0.html>`_"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:115
 msgid "**Software Version:** |version-mapproxy|"
@@ -323,7 +320,8 @@ msgid "**Supported Platforms:** Linux, Mac, Windows"
 msgstr "**Plataformas compatibles:** Linux, Mac, Windows"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:119
-msgid "**Support:** https://mapproxy.org/support"
+#, fuzzy
+msgid "**Support:** https://www.mapproxy.org/support"
 msgstr "**Support:** https://mapproxy.org/support"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:125
@@ -332,21 +330,21 @@ msgstr "Inicio Rápido"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:127
 msgid ":doc:`Quickstart documentation <../quickstart/mapproxy_quickstart>`"
-msgstr ""
-":doc:`Documentación de inicio rápido <../quickstart/mapproxy_quickstart>`"
+msgstr ":doc:`Documentación de inicio rápido <../quickstart/mapproxy_quickstart>`"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr "nologo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "Proyecto OSGeo"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo Comunitario"
+

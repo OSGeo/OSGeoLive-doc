@@ -1,27 +1,28 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # Harrissou Sant-anna, 2017
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2017
 # Nicolas Roelandt (Personnel), 2022
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2024-09-26 14:03+0000\n"
 "PO-Revision-Date: 2017-09-20 16:10+0000\n"
 "Last-Translator: Nicolas Roelandt (Personnel), 2022\n"
-"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
+"1000000 == 0 ? 1 : 2;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/overview/gdal_overview.rst:18
 msgid "GDAL/OGR"
@@ -37,33 +38,36 @@ msgid ""
 "utilities to translate and process a wide range of raster and vector "
 "geospatial data formats."
 msgstr ""
-"Geospatial Data Abstraction Library (GDAL/OGR) fournit des utilitaires en "
-"ligne de commande pour traduire et traiter un large éventail de formats de "
-"données géospatiales raster et vecteur."
+"Geospatial Data Abstraction Library (GDAL/OGR) fournit des utilitaires en"
+" ligne de commande pour traduire et traiter un large éventail de formats "
+"de données géospatiales raster et vecteur."
 
 #: ../../build/doc/overview/gdal_overview.rst:27
 msgid ""
-"The utilities are based upon a cross platform, C++ library, accessible via "
-"numerous programming languages. As a library, it presents a single abstract"
-" data model to the calling application for all supported formats."
+"The utilities are based upon a cross platform, C++ library, accessible "
+"via numerous programming languages. As a library, it presents a single "
+"abstract data model to the calling application for all supported formats."
 msgstr ""
-"Les utilitaires sont basées sur une bibliothèque en C++, multi plates-formes, accessible\n"
-"par de nombreux langages de programmation. Comme une bibliothèque, elle s'appuie sur un seul modèle de données abstrait pour les applications qui se connectent dessus pour tous les formats supportés."
+"Les utilitaires sont basées sur une bibliothèque en C++, multi plates-"
+"formes, accessible\n"
+"par de nombreux langages de programmation. Comme une bibliothèque, elle "
+"s'appuie sur un seul modèle de données abstrait pour les applications qui"
+" se connectent dessus pour tous les formats supportés."
 
 #: ../../build/doc/overview/gdal_overview.rst:31
 msgid ""
-"GDAL/OGR is the most widely used geospatial data access library. It provides"
-" the primary data access engine for many applications including MapServer, "
-"GRASS, QGIS, and OpenEV. It is also utilized by packages such as OSSIM, "
-"Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide and ArcGIS."
+"GDAL/OGR is the most widely used geospatial data access library. It "
+"provides the primary data access engine for many applications including "
+"MapServer, GRASS, QGIS, and OpenEV. It is also utilized by packages such "
+"as OSSIM, Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide "
+"and ArcGIS."
 msgstr ""
 "GDAL/OGR est la bibliothèque la plus utilisée pour l'accès aux données "
 "spatiales. Il fournit le moteur d'accès principal aux données pour de "
-"nombreuses applications dont MapServer, GRASS, QGIS, et OpenEV. Il est aussi"
-" utilisé par des logiciels comme OSSIM, Cadcorp SIS, FME, Google Earth, VTP,"
-" Thuban, ILWIS, MapGuide et ArcGIS."
+"nombreuses applications dont MapServer, GRASS, QGIS, et OpenEV. Il est "
+"aussi utilisé par des logiciels comme OSSIM, Cadcorp SIS, FME, Google "
+"Earth, VTP, Thuban, ILWIS, MapGuide et ArcGIS."
 
-#: ../../build/doc/overview/gdal_overview.rstNone
 msgid "gdal screenshot"
 msgstr "Capture d'écran de gdal"
 
@@ -73,8 +77,8 @@ msgstr "Caractéristiques principales"
 
 #: ../../build/doc/overview/gdal_overview.rst:45
 msgid ""
-"Command-line utilities for data translation, image warping, subsetting, and "
-"various other common tasks"
+"Command-line utilities for data translation, image warping, subsetting, "
+"and various other common tasks"
 msgstr ""
 "Utilitaires en ligne de commande pour la transformation de données, la "
 "déformation d'images, leur extraction et de nombreuses autres tâches "
@@ -85,8 +89,8 @@ msgid ""
 "Highly efficient raster data access, taking advantage of tiling and "
 "overviews"
 msgstr ""
-"Accès aux données raster très performant, prenant avantage du tuilage et de "
-"mécanisme de prévisualisation"
+"Accès aux données raster très performant, prenant avantage du tuilage et "
+"de mécanisme de prévisualisation"
 
 #: ../../build/doc/overview/gdal_overview.rst:47
 msgid "Support for large files - larger than 4GB"
@@ -98,11 +102,11 @@ msgstr "Bibliothèque d'accès à partir de Python, Java, C#, Ruby, VB6 et Perl"
 
 #: ../../build/doc/overview/gdal_overview.rst:49
 msgid ""
-"Coordinate system engine built on PROJ.4 and OGC Well Known Text coordinate "
-"system descriptions"
+"Coordinate system engine built on PROJ.4 and OGC Well Known Text "
+"coordinate system descriptions"
 msgstr ""
-"Moteur de gestion des systèmes de coordonnées s'appuyant sur PROJ.4 et les "
-"descriptions de coordonnées système OGC Well Known Text (WKT)"
+"Moteur de gestion des systèmes de coordonnées s'appuyant sur PROJ.4 et "
+"les descriptions de coordonnées système OGC Well Known Text (WKT)"
 
 #: ../../build/doc/overview/gdal_overview.rst:52
 msgid "Popular Supported Formats"
@@ -120,21 +124,21 @@ msgstr "Cela inclut:"
 
 #: ../../build/doc/overview/gdal_overview.rst:58
 msgid ""
-"**Raster:** GeoTIFF, Erdas Imagine, SDTS, ESRI Grids, ECW, MrSID, JPEG2000, "
-"DTED, NITF, GeoPackage and more ..."
+"**Raster:** GeoTIFF, Erdas Imagine, SDTS, ESRI Grids, ECW, MrSID, "
+"JPEG2000, DTED, NITF, GeoPackage and more ..."
 msgstr ""
-"**Raster:** GeoTIFF, Erdas Imagine, SDTS, ESRI Grids, ECW, MrSID, JPEG2000, "
-"DTED, NITF, GeoPackage et plus encore ..."
+"**Raster:** GeoTIFF, Erdas Imagine, SDTS, ESRI Grids, ECW, MrSID, "
+"JPEG2000, DTED, NITF, GeoPackage et plus encore ..."
 
 #: ../../build/doc/overview/gdal_overview.rst:59
 msgid ""
-"**Vector:** GeoPackage, ESRI Shapefile, GML, GeoJSON, AutoCAD DWG, MapInfo "
-"(tab and mid/mif), ESRI Coverages, ESRI Personal Geodatabase, DGN, PostGIS, "
-"Oracle Spatial, and more ..."
+"**Vector:** GeoPackage, ESRI Shapefile, GML, GeoJSON, AutoCAD DWG, "
+"MapInfo (tab and mid/mif), ESRI Coverages, ESRI Personal Geodatabase, "
+"DGN, PostGIS, Oracle Spatial, and more ..."
 msgstr ""
-"**Vecteur:** GeoPackage, Shapefile ESRI, GML, GeoJSON, DWG AutoCAD, MapInfo "
-"(tab et mid/mif), couvertures ESRI, Geodatabase Personnelle ESRI, DGN, "
-"PostGIS, Oracle Spatial, et plus encore ..."
+"**Vecteur:** GeoPackage, Shapefile ESRI, GML, GeoJSON, DWG AutoCAD, "
+"MapInfo (tab et mid/mif), couvertures ESRI, Geodatabase Personnelle ESRI,"
+" DGN, PostGIS, Oracle Spatial, et plus encore ..."
 
 #: ../../build/doc/overview/gdal_overview.rst:62
 msgid "Implemented Standards"
@@ -145,8 +149,8 @@ msgid ""
 "The OGR vector data model is compliant with the OGC Simple Features "
 "specification."
 msgstr ""
-"Le modèle de données vecteur d'OGR est conforme avec la spécification OGC "
-"Simple Features."
+"Le modèle de données vecteur d'OGR est conforme avec la spécification OGC"
+" Simple Features."
 
 #: ../../build/doc/overview/gdal_overview.rst:67
 msgid "Details"
@@ -157,9 +161,10 @@ msgid "**Website:** https://gdal.org/"
 msgstr "**Site Internet:** https://gdal.org/"
 
 #: ../../build/doc/overview/gdal_overview.rst:71
+#, fuzzy
 msgid ""
-"**Licence:** `X/MIT style Open Source license "
-"<https://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_"
+"**License:** `X/MIT style Open Source license "
+"<https://gdal.org/en/latest/license.html>`_"
 msgstr ""
 "**Licence:** `license opensource style X/MIT "
 "<https://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_"
@@ -194,18 +199,19 @@ msgstr ""
 ":doc:`Documentation du guide de démarrage rapide "
 "<../quickstart/gdal_quickstart>`"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr "Pas de logo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "Projet OSGeo"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "Communauté OSGeo"
+

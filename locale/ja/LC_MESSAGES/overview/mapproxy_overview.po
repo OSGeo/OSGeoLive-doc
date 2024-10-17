@@ -1,27 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Ko Nagase <nagase@georepublic.co.jp>, 2022
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-06 09:15-0500\n"
+"POT-Creation-Date: 2024-09-26 14:03+0000\n"
 "PO-Revision-Date: 2024-05-18 20:46+0000\n"
 "Last-Translator: Yoichi Kayama <yoichi.kayama@gmail.com>\n"
-"Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
-"mapproxy_overview/ja/>\n"
 "Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Japanese "
+"<https://weblate.osgeo.org/projects/osgeolive/mapproxy_overview/ja/>\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.4.3\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:18
 msgid "MapProxy"
@@ -34,8 +33,8 @@ msgstr "Proxy WMS & タイル サービス"
 #: ../../build/doc/overview/mapproxy_overview.rst:23
 msgid ""
 "MapProxy speeds up mapping applications by pre-rendering and integrating "
-"maps from multiple sources and storing in a local cache. Layers can be made "
-"transparent, projections can be changed, multiple map layers can be "
+"maps from multiple sources and storing in a local cache. Layers can be "
+"made transparent, projections can be changed, multiple map layers can be "
 "transformed into one, watermarks can be added, and more..."
 msgstr ""
 "MapProxy "
@@ -44,15 +43,14 @@ msgstr ""
 #: ../../build/doc/overview/mapproxy_overview.rst:26
 msgid ""
 "MapProxy is flexible and scales from simple to complex use-cases: from a "
-"single tile cache for an :doc:`OpenLayers <openlayers_overview>` web client "
-"to a central SDI node that combines, unifies and accelerates dozens of "
-"distributed WMS services."
+"single tile cache for an :doc:`OpenLayers <openlayers_overview>` web "
+"client to a central SDI node that combines, unifies and accelerates "
+"dozens of distributed WMS services."
 msgstr ""
 "MapProxy は柔軟で、単純なものから複雑なユースケースまでスケールします: 例えば、 :doc:`OpenLayers "
 "<openlayers_overview>` Web クライアントのための単一のタイルキャッシュから、数十の分散型 WMS "
 "サービスの結合、統合、高速化を行う、中央の空間データインフラストラクチャ SDI ノードまでスケールします。"
 
-#: ../../build/doc/overview/mapproxy_overview.rstNone
 msgid "mapproxy screenshot"
 msgstr "MapProxy スクリーンショット"
 
@@ -60,7 +58,6 @@ msgstr "MapProxy スクリーンショット"
 msgid "Core Features"
 msgstr "主要機能"
 
-#: ../../build/doc/overview/mapproxy_overview.rstNone
 msgid "MapProxy demo"
 msgstr "MapProxy デモ"
 
@@ -162,10 +159,9 @@ msgstr "異なるソースからのレイヤツリーの構築"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:70
 msgid ""
-"create ``GetMap`` responses from cache with support for free-zooming and any"
-" projection (for any Desktop GIS)"
-msgstr ""
-"(あらゆるデスクトップ GIS のための) 自由なズームや、あらゆる座標系のサポートを伴う、キャッシュからの ``GetMap`` レスポンス生成"
+"create ``GetMap`` responses from cache with support for free-zooming and "
+"any projection (for any Desktop GIS)"
+msgstr "(あらゆるデスクトップ GIS のための) 自由なズームや、あらゆる座標系のサポートを伴う、キャッシュからの ``GetMap`` レスポンス生成"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:71
 msgid "accelerates existing WMS 10 to 100 times"
@@ -213,10 +209,11 @@ msgstr "強力なツール:"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:84
 msgid ""
-"efficient seed tool for cache pre-filling that can seed polygon areas with "
-"Shapefiles, GeoJSON, PostGIS or WKT geometries"
+"efficient seed tool for cache pre-filling that can seed polygon areas "
+"with Shapefiles, GeoJSON, PostGIS or WKT geometries"
 msgstr ""
-"シェープファイル、GeoJSON、PostGIS、WKT ジオメトリのポリゴン領域へのシードが可能な事前タイルキャッシュのための効率的なシードツール。"
+"シェープファイル、GeoJSON、PostGIS、WKT "
+"ジオメトリのポリゴン領域へのシードが可能な事前タイルキャッシュのための効率的なシードツール。"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:85
 msgid "export cached tiles to other formats"
@@ -307,7 +304,8 @@ msgid "**Supported Platforms:** Linux, Mac, Windows"
 msgstr "**対応プラットフォーム:** Linux, Mac, Windows"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:119
-msgid "**Support:** https://mapproxy.org/support"
+#, fuzzy
+msgid "**Support:** https://www.mapproxy.org/support"
 msgstr "**サポート:** https://mapproxy.org/support"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:125
@@ -326,10 +324,11 @@ msgstr "vmdk"
 msgid "nologo"
 msgstr "ロゴなし"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "OSGeo プロジェクト"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo コミュニティ"
+

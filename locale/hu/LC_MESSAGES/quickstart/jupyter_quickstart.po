@@ -1,26 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
 # Translators:
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-13 22:52+0000\n"
+"POT-Creation-Date: 2024-08-17 15:05-0600\n"
 "PO-Revision-Date: 2023-06-24 20:08+0000\n"
 "Last-Translator: Zoltan Siki <siki@agt.bme.hu>\n"
-"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
-"jupyter_quickstart/hu/>\n"
 "Language: hu\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Hungarian "
+"<https://weblate.osgeo.org/projects/osgeolive/jupyter_quickstart/hu/>\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:20
 msgid "Jupyter Notebook Quickstart"
@@ -30,14 +29,15 @@ msgstr "Jupyter jegyzettömb gyorstalpaló"
 msgid ""
 "The Jupyter Notebook is a web application that allows you to create and "
 "share documents that contain live code, equations, visualizations and "
-"explanatory text. Uses include: data cleaning and transformation, numerical "
-"simulation, statistical modeling, machine learning and much more."
+"explanatory text. Uses include: data cleaning and transformation, "
+"numerical simulation, statistical modeling, machine learning and much "
+"more."
 msgstr ""
 "A Jupyter jegyzettömb egy web alkalmazás, mely lehetővé teszi élő kódot, "
-"egyenleteket, vizualizációt és magyarázó szöveget tartalmazó dokumentumok "
-"létrehozását és megosztását. A felhasználás kiterjed a következőkre: "
-"adattisztítás és transzformáció, numerikus modellezés, gépi tanulás és még "
-"továbbiak."
+"egyenleteket, vizualizációt és magyarázó szöveget tartalmazó dokumentumok"
+" létrehozását és megosztását. A felhasználás kiterjed a következőkre: "
+"adattisztítás és transzformáció, numerikus modellezés, gépi tanulás és "
+"még továbbiak."
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:28
 msgid "This Quick Start describes how to:"
@@ -74,16 +74,16 @@ msgstr "Válassza a *Geospatial* -> *Spatial Tools* -> *Jupyter Notebook*-ot"
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:43
 msgid ""
 "A terminal window will open and a startup log will begin to scroll. "
-"Afterwards a web browser is launched showing the Jupyter Notebook dashboard."
-" From the Jupyter Notebook dashboard you can navigate the directory tree, "
-"start new notebooks, create files and directories, as well as rename, delete"
-" and upload files."
+"Afterwards a web browser is launched showing the Jupyter Notebook "
+"dashboard. From the Jupyter Notebook dashboard you can navigate the "
+"directory tree, start new notebooks, create files and directories, as "
+"well as rename, delete and upload files."
 msgstr ""
 "Megnyílik egy terminálablak, és egy indítási napló látszik benne. Ezután "
 "elindul egy webböngésző, amely megjeleníti a Jupyter Notebook "
 "irányítópultját. A Jupyter Notebook irányítópultjáról navigálhat a "
-"könyvtárfában, új jegyzetfüzeteket indíthat, fájlokat és könyvtárakat hozhat"
-" létre, valamint átnevezhet, törölhet és feltölthet fájlokat."
+"könyvtárfában, új jegyzetfüzeteket indíthat, fájlokat és könyvtárakat "
+"hozhat létre, valamint átnevezhet, törölhet és feltölthet fájlokat."
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:57
 msgid "Open and execute an existing notebook"
@@ -91,47 +91,47 @@ msgstr "Létező jegyzettömb megnyitása és végrehajtása"
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:59
 msgid ""
-"Let's open an existing notebook. From the main page click on the directory "
-"geopandas-tutorial and choose the Introduction notebook (01-introduction-"
-"geospatial-data.ipynb). This is an introduction with many examples on how to"
-" use geospatial vector data in Python with geopandas using the Natural "
-"Earth2 data."
+"Let's open an existing notebook. From the main page click on the "
+"directory geopandas-tutorial and choose the Introduction notebook (01"
+"-introduction-geospatial-data.ipynb). This is an introduction with many "
+"examples on how to use geospatial vector data in Python with geopandas "
+"using the Natural Earth2 data."
 msgstr ""
-"Nyissunk meg egy meglévő jegyzetfüzetet. A főoldalon kattintson a geopandas-"
-"tutorial könyvtárra, és válassza ki a Bevezetés jegyzetfüzetet "
-"(01-introduction-geospatial-data.ipynb). Ez egy bevezető számos példával a "
-"térinformatikai vektoradatok Pythonban történő használatához geopands-al, "
-"Natural Earth2 adatait használva."
+"Nyissunk meg egy meglévő jegyzetfüzetet. A főoldalon kattintson a "
+"geopandas-tutorial könyvtárra, és válassza ki a Bevezetés jegyzetfüzetet "
+"(01-introduction-geospatial-data.ipynb). Ez egy bevezető számos példával "
+"a térinformatikai vektoradatok Pythonban történő használatához geopands-"
+"al, Natural Earth2 adatait használva."
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:68
 msgid ""
-"The tutorial is made up with explaining text and cells. The cells contain in"
-" this case python code, that can be run."
+"The tutorial is made up with explaining text and cells. The cells contain"
+" in this case python code, that can be run."
 msgstr ""
 "Az oktatóanyag magyarázó szövegekből és cellákból áll. A cellák ebben az "
 "esetben a futtatható Python kódot tartalmazzák."
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:71
-msgid ""
-"From the toolbar on top of the notebook you can choose different options:"
+msgid "From the toolbar on top of the notebook you can choose different options:"
 msgstr "A jegyzettömb feletti eszközsorból különböző opciók közül választhat:"
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:73
 msgid ""
-"Cell-> Run Cells: will run the code in the cell with the focus and will move"
-" to the next cell."
+"Cell-> Run Cells: will run the code in the cell with the focus and will "
+"move to the next cell."
 msgstr ""
 "Cell-> Run Cells: futtatja a kódot az aktuális cellában és a következő "
 "cellára lép."
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:75
 msgid ""
-"Cell-> Run All: will run all the cells and show the results If everything "
-"worked as planned you should be able to see the results at the bottom of the"
-" page."
+"Cell-> Run All: will run all the cells and show the results If everything"
+" worked as planned you should be able to see the results at the bottom of"
+" the page."
 msgstr ""
-"Cell-> Run All: futtatja az összes cellát és megjeleníti az eredményeket, ha"
-" minden a terv szerint működik a lap alján látnia kell az eredményeket."
+"Cell-> Run All: futtatja az összes cellát és megjeleníti az eredményeket,"
+" ha minden a terv szerint működik a lap alján látnia kell az "
+"eredményeket."
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:79
 msgid "Have a look at the results after running all the cells."
@@ -179,21 +179,22 @@ msgstr "Módosítsa a kiválasztást `Asia``-ra és futtassa a két cellát ism�
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:125
 msgid ""
-"As result you will see that instead of ``Africa`` there will be ``Asia`` in "
-"the plot."
+"As result you will see that instead of ``Africa`` there will be ``Asia`` "
+"in the plot."
 msgstr "Eredményként ``Africa`` helyett ``Asia``-t láthatja a rajzon."
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:131
-msgid "What Next?"
+#, fuzzy
+msgid "What next?"
 msgstr "Mi a következő?"
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:133
 msgid ""
-"Discover the other notebooks that are provided with OSGeoLive and find out "
-"how to work with Shapely, Rasterio, R, Iris & other software."
+"Discover the other notebooks that are provided with OSGeoLive and find "
+"out how to work with Shapely, Rasterio, R, Iris & other software."
 msgstr ""
-"Fedezze fel az OSGeoLive-val szállított többi notebookot, és ismerje meg, "
-"hogyan dolgozhat Shapely, Rasterio, R, Iris és egyéb szoftverekkel."
+"Fedezze fel az OSGeoLive-val szállított többi notebookot, és ismerje meg,"
+" hogyan dolgozhat Shapely, Rasterio, R, Iris és egyéb szoftverekkel."
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:135
 msgid ""
@@ -205,14 +206,13 @@ msgstr ""
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:137
 msgid "More notebook examples are available from the notebook root directory."
-msgstr ""
-"További jegyzetfüzet példák érhetők el a jegyzettömb gyökér könyvtárából."
+msgstr "További jegyzetfüzet példák érhetők el a jegyzettömb gyökér könyvtárából."
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:138
 msgid ""
 "Quick introduction on how to use the Jupyter Notebooks interface: `Get "
-"started with Jupyter Notebook <https://docs.jupyter.org/en/latest/content-"
-"quickstart.html>`__."
+"started with Jupyter Notebook <https://docs.jupyter.org/en/latest"
+"/content-quickstart.html>`__."
 msgstr ""
 "Gyors bemutatkozás a Jupyter Notebook használatához `Get started with "
 "Jupyter Notebook <https://docs.jupyter.org/en/latest/content-"
@@ -226,10 +226,11 @@ msgstr "vmdk"
 msgid "nologo"
 msgstr "nologo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "OSGeo Projekt"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo közösség"
+

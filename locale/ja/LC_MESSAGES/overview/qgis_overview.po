@@ -1,28 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
 # Translators:
 # Takayuki Nuimura <nuimura@nagoya-u.jp>, 2018
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Ko Nagase <nagase@georepublic.co.jp>, 2022
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-06 09:15-0500\n"
+"POT-Creation-Date: 2024-10-14 03:30+0000\n"
 "PO-Revision-Date: 2024-05-18 20:46+0000\n"
 "Last-Translator: Yoichi Kayama <yoichi.kayama@gmail.com>\n"
-"Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
-"qgis_overview/ja/>\n"
 "Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Japanese "
+"<https://weblate.osgeo.org/projects/osgeolive/qgis_overview/ja/>\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.4.3\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/overview/qgis_overview.rst:20
 msgid "QGIS"
@@ -34,13 +33,13 @@ msgstr "デスクトップ GIS"
 
 #: ../../build/doc/overview/qgis_overview.rst:25
 msgid ""
-"QGIS is a user friendly, Open Source, GIS client where you can visualize, "
-"manage, edit, analyse data, and compose printable maps. It includes powerful"
-" analytical functionality through integration with :doc:`GRASS "
+"QGIS is a user friendly, Open Source, GIS client where you can visualize,"
+" manage, edit, analyse data, and compose printable maps. It includes "
+"powerful analytical functionality through integration with :doc:`GRASS "
 "<grass_overview>`, :doc:`SAGA <saga_overview>`, :doc:`Orfeo Toolbox "
-"<otb_overview>` , :doc:`GDAL/OGR <gdal_overview>` and many other algorithm "
-"providers. It runs on Linux, Unix, Mac OSX, and Windows and supports "
-"numerous vector, raster and database formats and functionality."
+"<otb_overview>` , :doc:`GDAL/OGR <gdal_overview>` and many other "
+"algorithm providers. It runs on Linux, Unix, Mac OSX, and Windows and "
+"supports numerous vector, raster and database formats and functionality."
 msgstr ""
 "QGISはユーザフレンドリなデスクトップGISクライアントで、データの視覚化、管理、編集、分析、印刷可能なマップの作成を行うことができます。 "
 ":doc:`GRASS <grass_overview>`, :doc:`SAGA <saga_overview>`, :doc:`Orfeo "
@@ -48,7 +47,6 @@ msgstr ""
 "などを始めとする多くのアルゴリズムを統合した強力な分析機能を含んでいます。Linux、Unix、Mac OSX、Windows "
 "上で動作し、多くのベクタ、ラスタ、データベースのフォーマットと機能に対応しています。"
 
-#: ../../build/doc/overview/qgis_overview.rstNone
 msgid "qgis screenshot"
 msgstr "QGIS スクリーンショット"
 
@@ -100,8 +98,7 @@ msgstr "様々なベクタとラスタフォーマットの容易な表示"
 msgid ""
 "database tables: PostgreSQL/PostGIS, Oracle Spatial, MS SQL Spatial, "
 "SpatiaLite"
-msgstr ""
-"データベーステーブル: PostgreSQL/PostGIS、Oracle Spatial、MS SQL Spatial、SpatiaLite"
+msgstr "データベーステーブル: PostgreSQL/PostGIS、Oracle Spatial、MS SQL Spatial、SpatiaLite"
 
 #: ../../build/doc/overview/qgis_overview.rst:52
 msgid ""
@@ -141,15 +138,16 @@ msgstr "幾何補正プラグイン"
 
 #: ../../build/doc/overview/qgis_overview.rst:62
 msgid ""
-"GPS tools to import and export GPX format, convert other GPS formats to GPX,"
-" or down/upload directly to a GPS unit"
+"GPS tools to import and export GPX format, convert other GPS formats to "
+"GPX, or down/upload directly to a GPS unit"
 msgstr ""
-"GPX フォーマットのインポートとエクスポート、他の GPS フォーマットの GPX への変換、または GPS 機器からの直接ダウンロード・アップロード"
+"GPX フォーマットのインポートとエクスポート、他の GPS フォーマットの GPX への変換、または GPS "
+"機器からの直接ダウンロード・アップロード"
 
 #: ../../build/doc/overview/qgis_overview.rst:64
 msgid ""
-"Perform spatial analysis using integrated support for SAGA, OTB, MMGIS and "
-"GRASS"
+"Perform spatial analysis using integrated support for SAGA, OTB, MMGIS "
+"and GRASS"
 msgstr "統合された SAGA、OTB、MMGIS、GRASS を利用した空間解析の実行"
 
 #: ../../build/doc/overview/qgis_overview.rst:66
@@ -219,13 +217,15 @@ msgid "**Supported Platforms:** Windows, Linux, Mac, Unix"
 msgstr "**対応プラットフォーム:** Windows, Linux, Mac, Unix"
 
 #: ../../build/doc/overview/qgis_overview.rst:93
-msgid "**Community Support:** https://qgis.org/en/site/forusers/support.html"
+#, fuzzy
+msgid "**Community Support:** https://qgis.org/resources/support/"
 msgstr "**コミュニティサポート:** https://qgis.org/en/site/forusers/support.html"
 
 #: ../../build/doc/overview/qgis_overview.rst:95
+#, fuzzy
 msgid ""
-"**Commercial Support:** "
-"https://qgis.org/en/site/resources/support/commercial-support"
+"**Commercial Support:** https://qgis.org/resources/support/commercial-"
+"support/"
 msgstr "**商用サポート:** https://qgis.org/en/site/resources/support/commercial-support"
 
 #: ../../build/doc/overview/qgis_overview.rst:101
@@ -244,10 +244,11 @@ msgstr "vmdk"
 msgid "nologo"
 msgstr "ロゴなし"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "OSGeo プロジェクト"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo コミュニティ"
+
