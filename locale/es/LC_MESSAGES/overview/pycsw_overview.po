@@ -198,40 +198,40 @@ msgid "OGC Standards:"
 msgstr "Estándares OGC:"
 
 #: ../../build/doc/overview/pycsw_overview.rst:71
-msgid "|CSW|         2.0.2, 3.0.0"
-msgstr "|CSW|         2.0.2, 3.0.0"
+msgid "|CSW|     2.0.2, 3.0.0"
+msgstr "|CSW|     2.0.2, 3.0.0"
 
 #: ../../build/doc/overview/pycsw_overview.rst:72
-msgid "|FE|          1.1.0, 2.0.0"
-msgstr "|FE|          1.1.0, 2.0.0"
+msgid "|FE|     1.1.0, 2.0.0"
+msgstr "|FE|     1.1.0, 2.0.0"
 
 #: ../../build/doc/overview/pycsw_overview.rst:73
-msgid "OWS Common    1.0.0, 2.0.0"
-msgstr "OWS Common    1.0.0, 2.0.0"
+msgid "OWS Common  1.0.0, 2.0.0"
+msgstr "OWS Common  1.0.0, 2.0.0"
 
 #: ../../build/doc/overview/pycsw_overview.rst:74
-msgid "|GML|         3.1.1"
-msgstr "|GML|         3.1.1"
+msgid "|GML|     3.1.1"
+msgstr "|GML|     3.1.1"
 
 #: ../../build/doc/overview/pycsw_overview.rst:75
-msgid "|SFS|         1.2.1"
-msgstr "|SFS|         1.2.1"
+msgid "|SFS|     1.2.1"
+msgstr "|SFS|     1.2.1"
 
 #: ../../build/doc/overview/pycsw_overview.rst:76
-msgid "OGC OpenSearch  1.0"
-msgstr "OGC OpenSearch  1.0"
+msgid "OGC OpenSearch 1.0"
+msgstr "OGC OpenSearch 1.0"
 
 #: ../../build/doc/overview/pycsw_overview.rst:78
 msgid "Metadata Standards:"
 msgstr "Estándares de metadatos:"
 
 #: ../../build/doc/overview/pycsw_overview.rst:80
-msgid "Dublin Core   1.1"
-msgstr "Dublin Core   1.1"
+msgid "Dublin Core  1.1"
+msgstr "Dublin Core  1.1"
 
 #: ../../build/doc/overview/pycsw_overview.rst:81
-msgid "SOAP  1.2"
-msgstr "SOAP  1.2"
+msgid "SOAP 1.2"
+msgstr "SOAP 1.2"
 
 #: ../../build/doc/overview/pycsw_overview.rst:82
 msgid "ISO 19115:2003"
@@ -254,20 +254,20 @@ msgid "FGDC CSDGM 1998"
 msgstr "FGDC CSDGM 1998"
 
 #: ../../build/doc/overview/pycsw_overview.rst:87
-msgid "GM03  2.1"
-msgstr "GM03  2.1"
+msgid "GM03 2.1"
+msgstr "GM03 2.1"
 
 #: ../../build/doc/overview/pycsw_overview.rst:88
-msgid "SRU   1.1"
-msgstr "SRU   1.1"
+msgid "SRU  1.1"
+msgstr "SRU  1.1"
 
 #: ../../build/doc/overview/pycsw_overview.rst:89
-msgid "OAI-PMH   2.0"
-msgstr "OAI-PMH   2.0"
+msgid "OAI-PMH  2.0"
+msgstr "OAI-PMH  2.0"
 
 #: ../../build/doc/overview/pycsw_overview.rst:90
-msgid "A9 OpenSearch         1.1"
-msgstr "A9 OpenSearch         1.1"
+msgid "A9 OpenSearch     1.1"
+msgstr "A9 OpenSearch     1.1"
 
 #: ../../build/doc/overview/pycsw_overview.rst:93
 msgid "Details"
