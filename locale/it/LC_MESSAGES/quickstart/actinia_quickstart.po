@@ -30,7 +30,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:16
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+"This project is only included on the OSGeoLive virtual machine disk (VMDK)"
 msgstr ""
 "Questo progetto è incluso solo nel disco della macchina virtuale (VMDK) "
 "OSGeoLive"

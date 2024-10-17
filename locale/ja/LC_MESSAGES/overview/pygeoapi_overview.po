@@ -43,7 +43,7 @@ msgstr ""
 "`pygeoapi`_ は `Python`_ で実装されている 各種OGC API標準のサーバです。このプロジェクトは、 2018年の次世代の "
 "`OGC API`_ の取り組みの一環として登場し、各組織が、OpenAPI、 GeoJSON、 HTMLを使用して RESTful な OGC "
 "API エンドポイントを設置できるようにするのが目的です。pygeoapi は `オープンソース "
-"<https://opensource.org>`_ で  `MIT`_ ライセンスでリリースされています。"
+"<https://opensource.org>`_ で `MIT`_ ライセンスでリリースされています。"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:-1
 msgid "pygeoapi screenshot"
@@ -60,7 +60,7 @@ msgstr "すぐに使用可能な最新の OGC API サーバー"
 #: ../../build/doc/overview/pygeoapi_overview.rst:36
 #, fuzzy
 msgid "certified OGC Compliant and Reference Implementation"
-msgstr "OGC API  - 機能の、 OGC 準拠および参照実装認定"
+msgstr "OGC API - 機能の、 OGC 準拠および参照実装認定"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:37
 msgid ""
@@ -119,7 +119,7 @@ msgstr "実装されている標準規格"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:52
 msgid ""
-"Standards are at the core of pygeoapi.  Below is the project's standards "
+"Standards are at the core of pygeoapi. Below is the project's standards "
 "support matrix."
 msgstr "標準は、pygeoapiの中核になります。以下に、プロジェクトの標準サポート表を示します。"
 

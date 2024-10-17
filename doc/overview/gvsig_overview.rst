@@ -33,7 +33,7 @@ Core Features
 
 * Interoperable: able to work with most known data formats:
 
-  * raster : ecw,  ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, NetCDF...
+  * raster : ecw, ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, NetCDF...
   * vector & CAD: shapefile, NetCDF, GML, KML, DGN, DXF, DWG
   * databases: PostGIS, MySQL, Oracle, ArcSDE
   * remote: OGC standards (WMS, WMTS, WFS, WCS), OSM, ECWP, ArcIMS
@@ -84,7 +84,7 @@ Advanced client support of numerous Open Geospatial Consortium (OGC) standards
 * Load WMS, WMTS, WFS and WCS layers
 * Export/import of SLD legends
 * Export/import of Web Map Context (WMC)
-* Search on catalogues with  CSW (ISO/19115 and ebRIM)
+* Search on catalogues with CSW (ISO/19115 and ebRIM)
 * Search on gazetteers using WFS-G recommendation
 
 Details

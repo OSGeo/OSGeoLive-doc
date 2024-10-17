@@ -129,7 +129,7 @@ msgid "Implemented Standards"
 msgstr "Implementierte Standards"
 
 #: ../../build/doc/overview/mapcache_overview.rst:56
-msgid "Support of numerous Open Geospatial Consortium  (OGC) standards"
+msgid "Support of numerous Open Geospatial Consortium (OGC) standards"
 msgstr "Unterstützung zahlreicher Open Geospatial Consortium (OGC) Standards"
 
 #: ../../build/doc/overview/mapcache_overview.rst:58

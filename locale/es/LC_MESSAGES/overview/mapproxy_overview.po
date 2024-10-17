@@ -226,7 +226,7 @@ msgstr "Poderosas herramientas:"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:84
 msgid ""
-"efficient seed tool for cache pre-filling that can seed polygon areas  with "
+"efficient seed tool for cache pre-filling that can seed polygon areas with "
 "Shapefiles, GeoJSON, PostGIS or WKT geometries"
 msgstr ""
 "herramienta germinal eficiente para el pre-llenado de caché que puede "

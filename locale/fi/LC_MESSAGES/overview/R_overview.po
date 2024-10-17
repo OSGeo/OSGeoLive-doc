@@ -161,7 +161,7 @@ msgstr "**Licence:** GPL"
 
 #: ../../build/doc/overview/R_overview.rst:80
 msgid "**Software Version:** |version-R|"
-msgstr "**Ohjelmistoversio:**  |version-R|"
+msgstr "**Ohjelmistoversio:** |version-R|"
 
 #: ../../build/doc/overview/R_overview.rst:82
 msgid "**Supported Platforms:** Windows, Linux, Mac, Unix"

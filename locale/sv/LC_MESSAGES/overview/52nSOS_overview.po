@@ -58,7 +58,7 @@ msgstr ""
 
 #: ../../build/doc/overview/52nSOS_overview.rst:41
 msgid ""
-"**Helgoland**: The SOS contains the Helgoland application for  the "
+"**Helgoland**: The SOS contains the Helgoland application for the "
 "exploration, analysis and visualization of Sensor Web data in various fields"
 " of use, e.g. hydrology, meteorology, environmental monitoring, traffic "
 "management."
@@ -74,7 +74,7 @@ msgid ""
 "operations). Implemented operations for each standard version are listed "
 "below."
 msgstr ""
-"**Specifikationer**:  52°North SOS implementerar den aktuella "
+"**Specifikationer**: 52°North SOS implementerar den aktuella "
 "specifikationsversionen 2.0.0 och den tidigare versionen 1.0.0 (här inga "
 "transaktionsoperationer). Implementerade operationer för varje "
 "standardversion listas nedan."
@@ -366,11 +366,11 @@ msgstr ""
 msgid ""
 "**Other 52°North projects on OSGeoLive:** :doc:`WPS <./52nWPS_overview>`"
 msgstr ""
-"**Övriga 52°North  projekt på  OSGeoLive:** :doc:`WPS <./52nWPS_overview>`"
+"**Övriga 52°North projekt på OSGeoLive:** :doc:`WPS <./52nWPS_overview>`"
 
 #: ../../build/doc/overview/52nSOS_overview.rst:159
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+"This project is only included on the OSGeoLive virtual machine disk (VMDK)"
 msgstr ""
 
 #: ../../build/doc/overview/52nSOS_overview.rst:162

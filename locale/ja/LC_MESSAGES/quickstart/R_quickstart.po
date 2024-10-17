@@ -103,7 +103,7 @@ msgid ""
 "``+``, which appears if R expects more input to make a valid expression. "
 "You'll see this if you forget a closing bracket or parenthesis."
 msgstr ""
-"Rのメインプロンプトは  ``>`` ですが、継続プロンプト ``+`` "
+"Rのメインプロンプトは ``>`` ですが、継続プロンプト ``+`` "
 "もあります。これは、Rが有効な式を作るためにさらに多くの入力を期待する場合に表示されます。閉じ括弧や閉じ括弧を忘れた場合に表示されます。"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:79
@@ -276,7 +276,7 @@ msgstr ""
 msgid ""
 "You might also want to check out the `R-Spatial "
 "<https://www.rspatial.org>`_ page."
-msgstr "`R-Spatial <https://www.rspatial.org>`_  ページもチェックしてみてください。"
+msgstr "`R-Spatial <https://www.rspatial.org>`_ ページもチェックしてみてください。"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"

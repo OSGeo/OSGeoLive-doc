@@ -144,12 +144,12 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:83
 msgid ""
-"Experiment with this view and look at some of the other previews.  Once "
+"Experiment with this view and look at some of the other previews. Once "
 "you are comfortable viewing existing data you can move on to adding some "
 "new data."
 msgstr ""
 "Expérimentez avec cette vue et regardez quelques-uns des autres aperçus."
-"  Une fois que vous êtes à l’aise d’afficher les données existantes, vous"
+" Une fois que vous êtes à l’aise d’afficher les données existantes, vous"
 " pouvez passer à l’ajout de nouvelles données."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:87
@@ -262,8 +262,8 @@ msgid ""
 "Click on :guilabel:`Compute from data` and :guilabel:`Compute from native"
 " bounds` to fill in the Bounding Boxes."
 msgstr ""
-"Cliquez sur  :guilabel:`Compute from data` et :guilabel:`Compute from "
-"native bounds`  pour remplir les zones de délimitation."
+"Cliquez sur :guilabel:`Compute from data` et :guilabel:`Compute from "
+"native bounds` pour remplir les zones de délimitation."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:142
 msgid "Finally hit :guilabel:`save` and you have published your first layer."
@@ -340,7 +340,7 @@ msgid ""
 "Open |UG| and add the shapefiles (using the add data button in the top "
 "left hand corner)."
 msgstr ""
-"Ouvert |UG|  et ajouter les fichiers shape (en utilisant le bouton "
+"Ouvert |UG| et ajouter les fichiers shape (en utilisant le bouton "
 "ajouter des données dans le coin supérieur gauche)."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:174
@@ -384,7 +384,7 @@ msgstr ""
 " pour les océans en cliquant sur la boîte colorée sur l’onglet de "
 "remplissage et en choisissant parmi le sélecteur de couleur produit. Nous"
 " pouvons également augmenter l’opacité du remplissage à 100% pour rendre "
-"la couleur plus jolie. Choisissez le même bleu pour la  bordure afin "
+"la couleur plus jolie. Choisissez le même bleu pour la bordure afin "
 "qu’elle corresponde."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst
@@ -405,7 +405,7 @@ msgid ""
 " the ``define custom colors`` section to create your preferred color."
 msgstr ""
 "Répétez les étapes ci-dessus pour modifier la couleur de la couche "
-"terrestre. Vous pouvez utiliser la section``define custom colors``  pour "
+"terrestre. Vous pouvez utiliser la section``define custom colors`` pour "
 "créer votre couleur préférée."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst
@@ -539,7 +539,7 @@ msgid ""
 "The |WMS| layers you are serving from |GS| can be used with a variety of "
 "clients on this OSGeoLive distribution, including:"
 msgstr ""
-"Les couches |WMS|  que vous servez à partir |GS| peut être utilisées avec"
+"Les couches |WMS| que vous servez à partir |GS| peut être utilisées avec"
 " une variété de clients dans cette distribution OSGeoLive, y compris:"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:294
@@ -593,7 +593,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:314
 msgid "Press \"Save\", \"Publish\" the \"O3\" layer."
-msgstr "Appuyez sur  \"Save\", \"Publish\" la couche \"O3\"."
+msgstr "Appuyez sur \"Save\", \"Publish\" la couche \"O3\"."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:315
 msgid "Scroll down to the bottom of the \"Data\" tab and press \"Save\" again."

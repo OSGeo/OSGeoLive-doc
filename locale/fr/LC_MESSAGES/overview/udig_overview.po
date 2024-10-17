@@ -38,7 +38,7 @@ msgid ""
 msgstr ""
 "Le SIG \"User-friendly Desktop Internet GIS\" (uDig) est un "
 "visualisateur/éditeur de données spatiales Open Source, avec un accent "
-"spécial sur les standards OpenGIS  pour les SIG en ligne, les standards "
+"spécial sur les standards OpenGIS pour les SIG en ligne, les standards "
 "\"Web Map Server\" (WMS) et \"Web Feature Server\" (WFS)."
 
 #: ../../build/doc/overview/udig_overview.rst:23
@@ -248,7 +248,7 @@ msgstr "**Développeurs:** http://udig.refractions.net/developers/"
 
 #: ../../build/doc/overview/udig_overview.rst:87
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+"This project is only included on the OSGeoLive virtual machine disk (VMDK)"
 msgstr ""
 "Ce projet n’est inclus que sur le disque de machine virtuelle OSGeoLive "
 "(VMDK)"

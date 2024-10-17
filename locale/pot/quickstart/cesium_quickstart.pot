@@ -57,7 +57,7 @@ msgid "Switch between 3D, 2.5D and 2D"
 msgstr ""
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:42
-msgid "Click on the wire framed globe icon to select your preferred view.  Here the 2.5D Columbus view has been selected."
+msgid "Click on the wire framed globe icon to select your preferred view. Here the 2.5D Columbus view has been selected."
 msgstr ""
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:None
@@ -78,7 +78,7 @@ msgid "Select the Image layer"
 msgstr ""
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:56
-msgid "Click on the last icon and select a type of image service.  Here the Natural Earth II is selected and you can see how the map's image layer has changed."
+msgid "Click on the last icon and select a type of image service. Here the Natural Earth II is selected and you can see how the map's image layer has changed."
 msgstr ""
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:65

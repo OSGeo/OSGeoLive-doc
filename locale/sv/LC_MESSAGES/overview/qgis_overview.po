@@ -224,7 +224,7 @@ msgstr "Snabbstart"
 
 #: ../../build/doc/overview/qgis_overview.rst:103
 msgid ":doc:`Quickstart documentation <../quickstart/qgis_quickstart>`"
-msgstr ":doc:`Dokumentation för snabbstart  <../quickstart/qgis_quickstart>`"
+msgstr ":doc:`Dokumentation för snabbstart <../quickstart/qgis_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"

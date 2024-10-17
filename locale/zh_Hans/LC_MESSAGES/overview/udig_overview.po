@@ -173,7 +173,7 @@ msgid "**Developers:** http://udig.refractions.net/developers/"
 msgstr ""
 
 #: ../../build/doc/overview/udig_overview.rst:87
-msgid "This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgid "This project is only included on the OSGeoLive virtual machine disk (VMDK)"
 msgstr ""
 
 #: ../../build/doc/overview/udig_overview.rst:90

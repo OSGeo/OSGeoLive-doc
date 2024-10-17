@@ -104,7 +104,7 @@ msgstr ""
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:107
 msgid ""
 "Each object in a Mapfile starts with its name (for example **MAP**) and "
-"ends with an **END**.  A Mapfile always starts with the **MAP** object "
+"ends with an **END**. A Mapfile always starts with the **MAP** object "
 "and should contain a list of **LAYER** objects the Mapfile can read and "
 "draw. In our Mapfile, we currently have only one layer defined."
 msgstr ""
@@ -124,7 +124,7 @@ msgstr "EXTENT:この設定のデフォルトの空間境界ボックスを設�
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:116
 msgid ""
-"LAYER: defines access and display properties for a spatial dataset.  "
+"LAYER: defines access and display properties for a spatial dataset. "
 "We'll add another layer later."
 msgstr "LAYER: 空間データセットのアクセスプロパティと表示プロパティを定義します。レイヤは後で追加します。"
 
@@ -195,11 +195,11 @@ msgstr "Webブラウザを開き、次のURLを入力します。"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:153
 msgid ""
-"What does the above mean?  If we put it in simple words, it's a |WMS| "
+"What does the above mean? If we put it in simple words, it's a |WMS| "
 "**GetMap** request that tells MapServer to \"*use the following Mapfile "
 "to render the specified layers as a png image based on some user-supplied"
 " parameters such as image size, geographical extent, projection, etc.*\"."
-"  All layers specified in the \"*&LAYERS=...*\" property having *STATUS "
+" All layers specified in the \"*&LAYERS=...*\" property having *STATUS "
 "ON* in the Mapfile will be rendered in addition to all layers with "
 "*STATUS DEFAULT*. The result looks like the following:"
 msgstr ""
@@ -421,7 +421,7 @@ msgid ""
 "Read the `Introduction to MapServer "
 "<https://mapserver.org/introduction.html#introduction>`_."
 msgstr ""
-"`MapServerの概要  <https://mapserver.org/introduction.html#introduction>`_ "
+"`MapServerの概要 <https://mapserver.org/introduction.html#introduction>`_ "
 "を読む"
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:327

@@ -64,7 +64,7 @@ msgstr ""
 
 #: ../../build/doc/overview/52nSOS_overview.rst:41
 msgid ""
-"**Helgoland**: The SOS contains the Helgoland application for  the "
+"**Helgoland**: The SOS contains the Helgoland application for the "
 "exploration, analysis and visualization of Sensor Web data in various "
 "fields of use, e.g. hydrology, meteorology, environmental monitoring, "
 "traffic management."
@@ -410,7 +410,7 @@ msgstr "**Más 52°North projektek az OSGeoLive-on:** :doc:`WPS <./52nWPS_overvi
 
 #: ../../build/doc/overview/52nSOS_overview.rst:159
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk "
+"This project is only included on the OSGeoLive virtual machine disk "
 "(VMDK)"
 msgstr "Ez a projekt csak az OSGeoLive virtuális gépben (VMDK) található meg"
 

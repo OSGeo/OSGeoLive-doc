@@ -103,7 +103,7 @@ msgid "PostGIS 3.2.0,"
 msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:76
-msgid "GRASS  8.2.0,"
+msgid "GRASS 8.2.0,"
 msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:77

@@ -43,7 +43,7 @@ Core Features
 Implemented Standards
 --------------------------------------------------------------------------------
 
-* Support of numerous Open Geospatial Consortium  (OGC) standards
+* Support of numerous Open Geospatial Consortium (OGC) standards
 
   * |WMS|
   * |WMTS|

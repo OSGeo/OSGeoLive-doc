@@ -135,12 +135,12 @@ msgstr ""
 #: ../../build/doc/quickstart/usb_quickstart.rst:45
 msgid ""
 "The version of Ubuntu you are running, needs to be the same or newer than "
-"the version of Lubuntu being installed onto your USB.  If installing "
+"the version of Lubuntu being installed onto your USB. If installing "
 "OSGeoLive 8.0 onto a USB, then you will need to be running Ubuntu 14.04 or "
 "newer."
 msgstr ""
 "La version d'Ubuntu que vous exécutez doit être la même ou plus récente que "
-"la version de Lubuntu étant installée sur votre clé USB.  Si vous installez "
+"la version de Lubuntu étant installée sur votre clé USB. Si vous installez "
 "l'OSGeoLive 8.0 sur une clé USB, alors vous aurez besoin d'exécuter Ubuntu "
 "14.04 ou plus récent."
 
@@ -229,7 +229,7 @@ msgid ""
 "When booting, look for a message indicating a Boot Menu (most commonly you "
 "press F12)"
 msgstr ""
-"Quand vous démarrez, regardez un message indiquant un menu de démarrage  (le"
+"Quand vous démarrez, regardez un message indiquant un menu de démarrage (le"
 " plus courant étant de presser la touche F12)"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:82

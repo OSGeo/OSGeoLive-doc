@@ -102,7 +102,7 @@ msgid ""
 msgstr ""
 "Les utilisateurs IRC peuvent essayer le chan #osgeolive ou #osgeo sur "
 "Freenode.net pour une assistance en ligne en temps-réel. Vous pouvez "
-"aussi nous retrouver sur  Slack, Matrix ou Glitter."
+"aussi nous retrouver sur Slack, Matrix ou Glitter."
 
 #: ../../build/doc/contact.rst:32
 msgid ""
@@ -111,7 +111,7 @@ msgid ""
 "system <https://trac.osgeo.org/osgeolive/report/10>`_ is also available."
 msgstr ""
 "Une foule d'information est disponible sur notre `Wiki "
-"<https://trac.osgeo.org/osgeolive/wiki>`_, et un  `système de suivi de "
+"<https://trac.osgeo.org/osgeolive/wiki>`_, et un `système de suivi de "
 "bugs et de souhaits <https://trac.osgeo.org/osgeolive/report/10>`_ est "
 "aussi disponible."
 
@@ -120,7 +120,7 @@ msgid ""
 "Stay tuned and follow OSGeoLive on Twitter `@osgeolive "
 "<https://mobile.twitter.com/osgeolive>`_."
 msgstr ""
-"Restez à l'écoute et suivez OSGeoLive sur Twitter  `@osgeolive "
+"Restez à l'écoute et suivez OSGeoLive sur Twitter `@osgeolive "
 "<https://mobile.twitter.com/osgeolive>`_."
 
 #: ../../build/doc/contact.rst:38

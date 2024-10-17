@@ -10,7 +10,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version:  sphinx-revealjs\n"
+"Project-Id-Version: sphinx-revealjs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
@@ -106,7 +106,7 @@ msgid "PostGIS 3.2.0,"
 msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:76
-msgid "GRASS  8.2.0,"
+msgid "GRASS 8.2.0,"
 msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:77

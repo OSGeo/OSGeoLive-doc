@@ -58,11 +58,11 @@ msgstr "**Software**"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:25
 msgid ""
-"Download `Virtual Box <https://www.virtualbox.org/>`_  for your platform, "
+"Download `Virtual Box <https://www.virtualbox.org/>`_ for your platform, "
 "and install the software. On Windows run the installer, or on Ubuntu-like "
 "Linux systems run the following:"
 msgstr ""
-"Download `Virtual Box <https://www.virtualbox.org/>`_  voor uw platform en "
+"Download `Virtual Box <https://www.virtualbox.org/>`_ voor uw platform en "
 "installeer de software. Voer op Windows het installatieprogramma uit of op "
 "Ubuntu-achtige Linux-systemen voert u het volgende uit:"
 
@@ -105,13 +105,13 @@ msgstr ""
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:36
 msgid ""
 "**Spare**: Minimum 20 GB Hard Disk Space. The virtual disk file (vmdk) from "
-":doc:`live.osgeo.org <../download>`  unzips to almost 10 GB. You'll also "
+":doc:`live.osgeo.org <../download>` unzips to almost 10 GB. You'll also "
 "want more space to allow some room to work on the virtual machine. So a "
 "total of 20 GB is a good recommendation."
 msgstr ""
 "**Reserve**: Minimaal 20 GB ruimte op de harde schijf. Het virtuele "
 "schijfbestand (vmdk) van :doc:`live.osgeo.org <../download>` wordt uitgepakt"
-" tot bijna 10 GB. U wilt ook meer ruimte  om op de virtuele machine te "
+" tot bijna 10 GB. U wilt ook meer ruimte om op de virtuele machine te "
 "werken. Dus een totaal van 20 GB is een goede aanbeveling."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:37

@@ -122,8 +122,8 @@ msgstr ""
 "conocidos:"
 
 #: ../../build/doc/overview/gvsig_overview.rst:46
-msgid "raster : ecw,  ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, NetCDF..."
-msgstr "raster: ecw,  ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, NetCDF..."
+msgid "raster : ecw, ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, NetCDF..."
+msgstr "raster: ecw, ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, NetCDF..."
 
 #: ../../build/doc/overview/gvsig_overview.rst:47
 msgid "vector & CAD: shapefile, NetCDF, GML, KML, DGN, DXF, DWG"
@@ -283,7 +283,7 @@ msgid "Export/import of Web Map Context (WMC)"
 msgstr "Exportación/importación de Web mapa contexto (WMC)"
 
 #: ../../build/doc/overview/gvsig_overview.rst:97
-msgid "Search on catalogues with  CSW (ISO/19115 and ebRIM)"
+msgid "Search on catalogues with CSW (ISO/19115 and ebRIM)"
 msgstr "Búsqueda en catálogos con CSW (ISO/19115 y ebRIM)"
 
 #: ../../build/doc/overview/gvsig_overview.rst:98
@@ -320,7 +320,7 @@ msgstr ""
 
 #: ../../build/doc/overview/gvsig_overview.rst:116
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+"This project is only included on the OSGeoLive virtual machine disk (VMDK)"
 msgstr ""
 "Este proyecto solo se incluye en el disco de máquina virtual OSGeoLive "
 "(VMDK)"

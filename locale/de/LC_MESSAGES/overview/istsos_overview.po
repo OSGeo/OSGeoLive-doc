@@ -40,7 +40,7 @@ msgid ""
 msgstr ""
 "istSOS ist ein Managementwerkzeug für Sensordaten, das das Sammeln, Pflegen "
 "und Monitoren von Beobachtungen mit Hilfe der Standards des Open Geospatial "
-"Consortium (OGC)` |SOS|  ermöglicht."
+"Consortium (OGC)` |SOS| ermöglicht."
 
 #: ../../build/doc/overview/istsos_overview.rst:26
 msgid ""

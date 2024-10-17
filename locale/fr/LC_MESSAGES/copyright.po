@@ -57,7 +57,7 @@ msgid ""
 msgstr ""
 "Le projet OSGeo-Live est distibué sous `licence LGPL v2.1 "
 "<http://www.gnu.de/documents/lgpl-2.1.en.html>`__. Toute la documentation"
-" est fournie sous  une licence `Creative Commons Attribution 3.0 Unported"
+" est fournie sous une licence `Creative Commons Attribution 3.0 Unported"
 " License <https://creativecommons.org/licenses/by/3.0/>`_."
 
 #: ../../build/doc/copyright.rst:16
@@ -70,7 +70,7 @@ msgstr ""
 "OSGeo-Live est composé entièrement de logiciels libres, de données libres"
 " et d'une documentation libre, permettant de la distribuer, dupliquer et "
 "donner librement. Les licenses de tous les projects empaquetés sont "
-"résumées plus loin sur cette  page."
+"résumées plus loin sur cette page."
 
 #: ../../build/doc/copyright.rst:21
 #, fuzzy
@@ -108,7 +108,7 @@ msgid ""
 "licenses, as listed in the Project Overviews."
 msgstr ""
 "Les logiciels présents dans OSGeoLive sont disponibles sous diverses "
-"licences Libres et  Open Source, comme indiqué dans les aperçus de "
+"licences Libres et Open Source, comme indiqué dans les aperçus de "
 "projet."
 
 #: ../../build/doc/copyright.rst:30
@@ -190,12 +190,12 @@ msgstr "**CC-By-SA concise et attribution:**"
 #, fuzzy
 msgid ""
 "© 2011 [Your Name] under a `CC By SA License "
-"<https://creativecommons.org/licenses/by-sa/3.0/>`__.  [Derived "
+"<https://creativecommons.org/licenses/by-sa/3.0/>`__. [Derived "
 "from|Includes|Extends] :doc:`OSGeoLive <index>` documentation by "
 ":doc:`OSGeoLive contributors <copyright>`."
 msgstr ""
 "© 2011 [Votre Nom] sous la `licence CC By SA "
-"<https://creativecommons.org/licenses/by-sa/3.0/>`_.  [dérivée "
+"<https://creativecommons.org/licenses/by-sa/3.0/>`_. [dérivée "
 "de|Incluant|Étendant] la documentation :doc:`OSGeoLive <index>` par les "
 ":doc:`contributeurs OSGeoLive <copyright>`."
 
@@ -227,7 +227,7 @@ msgid ""
 ":doc:`OSGeoLive contributors <copyright>`."
 msgstr ""
 "Ce document inclut les guides de démarrage rapide du projet "
-":doc:`OSGeoLive <index>`  par les :doc:`contributeurs OSGeoLive "
+":doc:`OSGeoLive <index>` par les :doc:`contributeurs OSGeoLive "
 "<copyright>`."
 
 #: ../../build/doc/copyright.rst:82
@@ -344,7 +344,7 @@ msgid "Balasubramaniam Natarajan"
 msgstr "Balasubramaniam Natarajan"
 
 #: ../../build/licenses.csv:1
-msgid "Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)"
+msgid "Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)"
 msgstr "Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)"
 
 #: ../../build/licenses.csv:1
@@ -440,7 +440,7 @@ msgid "Hamish Bowman; Paul Wessel"
 msgstr "Hamish Bowman; Paul Wessel"
 
 #: ../../build/licenses.csv:1
-msgid "Creative Commons Attribution 3.0 Unported  (CC BY 3.0)"
+msgid "Creative Commons Attribution 3.0 Unported (CC BY 3.0)"
 msgstr "Creative Commons Attribution 3.0 Unported (CC BY 3.0)"
 
 #: ../../build/licenses.csv:1

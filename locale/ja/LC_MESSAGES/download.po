@@ -33,7 +33,7 @@ msgstr "ダウンロード"
 msgid ""
 "The latest stable release is |osgeolive-version| and can be downloaded "
 "from:"
-msgstr "最新の安定版リリースは  |osgeolive-version| でこちらからダウンロード可能です:"
+msgstr "最新の安定版リリースは |osgeolive-version| でこちらからダウンロード可能です:"
 
 #: ../../build/doc/download.rst:11
 msgid ""

@@ -145,11 +145,11 @@ msgstr "Ejecutar una consulta SQL"
 msgid ""
 "Now let's try tweaking this SQL statement to get NOME and (Lat,Long) for "
 "only the NOME_PROV fields include \"BRESCIA\", this time using the "
-"MunicipalHallsView.  In the upper right SQL pane type::"
+"MunicipalHallsView. In the upper right SQL pane type::"
 msgstr ""
 "Ahora trate de afinar esta sentencia SQL para obtener NOME y (Lat, Long) "
 "para sólo los campos NOME_PROV incluyendo \"BRESCIA\", esta vez usando el"
-" MunicipalHallsView.  En el panel superior derecho SQL teclee:"
+" MunicipalHallsView. En el panel superior derecho SQL teclee:"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:93
 msgid ""

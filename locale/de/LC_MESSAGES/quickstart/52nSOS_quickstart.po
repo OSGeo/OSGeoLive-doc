@@ -28,7 +28,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:13
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk "
+"This project is only included on the OSGeoLive virtual machine disk "
 "(VMDK)"
 msgstr "Das Projekt ist nur Teil der OSGeoLive Virtuelle Maschine Disk (VMDK)"
 
@@ -304,7 +304,7 @@ msgid ""
 "published under a |CC BY 3.0| license."
 msgstr ""
 "Wir möchten der belgischen belgischen Interregional Environment Agency "
-"(`IRCEL - CELINE <https://www.irceline.be/de/>`_)  für die Bereitstellung"
+"(`IRCEL - CELINE <https://www.irceline.be/de/>`_) für die Bereitstellung"
 " der Demodaten dieser SOS-Installation danken. Die Demo-Daten sind unter "
 "einer |CC BY 3.0| veröffentlicht."
 

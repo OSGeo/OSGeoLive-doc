@@ -125,7 +125,7 @@ msgid "**Software Version:** |version-cesium|"
 msgstr ""
 
 #: ../../build/doc/overview/cesium_overview.rst:65
-msgid "**Supported Platforms:**  Platform independent, depends only on a browser which supports WebGL"
+msgid "**Supported Platforms:** Platform independent, depends only on a browser which supports WebGL"
 msgstr ""
 
 #: ../../build/doc/overview/cesium_overview.rst:67

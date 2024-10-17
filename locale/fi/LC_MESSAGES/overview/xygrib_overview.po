@@ -52,11 +52,11 @@ msgstr "Keskeiset ominaisuudet"
 #: ../../build/doc/overview/xygrib_overview.rst:31
 msgid "Visualization of meteorologic data from files in GRIB format"
 msgstr ""
-"Meteorologisen datan visualisointi  tiedostoista jotka ovat GRIB formaatissa"
+"Meteorologisen datan visualisointi tiedostoista jotka ovat GRIB formaatissa"
 
 #: ../../build/doc/overview/xygrib_overview.rst:32
 msgid "Automatic download of weather and wave forecasts"
-msgstr "Sää-  ja aaltoennusteiden automaattinen lataus"
+msgstr "Sää- ja aaltoennusteiden automaattinen lataus"
 
 #: ../../build/doc/overview/xygrib_overview.rst:33
 msgid "Automatic download from IAC (fleetcode) data"

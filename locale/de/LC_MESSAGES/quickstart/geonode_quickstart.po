@@ -416,7 +416,7 @@ msgid ""
 "<https://docs.geonode.org/en/master/>`_ might be useful."
 msgstr ""
 "Um mit GeoNode zu beginnen, könnte unsere `Dokumentation "
-"<https://docs.geonode.org/en/master/>`_  nützlich sein."
+"<https://docs.geonode.org/en/master/>`_ nützlich sein."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:222
 msgid ""

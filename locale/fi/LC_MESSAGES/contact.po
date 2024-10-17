@@ -113,14 +113,14 @@ msgstr ""
 "Informaatiota löytyy laajalti `Wiki sivustoltamme "
 "<https://trac.osgeo.org/osgeolive/wiki>`_, ja `virhe ja toive "
 "seurantajärjestelmästämme <https://trac.osgeo.org/osgeolive/report/10>`_ "
-"joka  on myös käytössäsi."
+"joka on myös käytössäsi."
 
 #: ../../build/doc/contact.rst:35
 msgid ""
 "Stay tuned and follow OSGeoLive on Twitter `@osgeolive "
 "<https://mobile.twitter.com/osgeolive>`_."
 msgstr ""
-"Pysy ajan tasalla ja seuraa OSGeoLiveä Twitterissä  `@osgeolive "
+"Pysy ajan tasalla ja seuraa OSGeoLiveä Twitterissä `@osgeolive "
 "<https://mobile.twitter.com/osgeolive>`_."
 
 #: ../../build/doc/contact.rst:38

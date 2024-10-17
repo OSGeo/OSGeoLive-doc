@@ -86,7 +86,7 @@ msgstr ""
 #, fuzzy
 msgid "Choose |menu_R Statistics|. A terminal window opens running R."
 msgstr ""
-"Choisissez  :menuselection:`Geospatial --> Spatial Tools --> R "
+"Choisissez :menuselection:`Geospatial --> Spatial Tools --> R "
 "Statistics`. Une fenêtre terminale s’ouvre exécutant R."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:45
@@ -138,7 +138,7 @@ msgid ""
 "Now you can see that the ``[9]`` is telling us that 4.555 is the ninth "
 "value in the vector."
 msgstr ""
-"Maintenant, vous pouvez voir que le  ``[9]`` nous dit que 4.555 est la "
+"Maintenant, vous pouvez voir que le ``[9]`` nous dit que 4.555 est la "
 "neuvième valeur dans le vecteur."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:96
@@ -315,7 +315,7 @@ msgid ""
 "documentation from the main `R Project <https://www.r-project.org/>`_ "
 "page."
 msgstr ""
-"Pour plus d’informations générales sur R, essayez  l'`introduction à R "
+"Pour plus d’informations générales sur R, essayez l'`introduction à R "
 "<https://cran.r-project.org/doc/manuals/R-intro.html>`_ ou l’une des "
 "documentations de la page principale `R Project "
 "<https://www.r-project.org/>`_."

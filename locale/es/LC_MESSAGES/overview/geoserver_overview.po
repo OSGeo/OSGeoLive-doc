@@ -202,7 +202,7 @@ msgid "Implemented Standards"
 msgstr "Estándares implementados"
 
 #: ../../build/doc/overview/geoserver_overview.rst:69
-msgid "Support of numerous Open Geospatial Consortium  (OGC) standards:"
+msgid "Support of numerous Open Geospatial Consortium (OGC) standards:"
 msgstr ""
 "Apoyo de numerosos estándares del Consortium Abierto Geospatial (OGC):"
 

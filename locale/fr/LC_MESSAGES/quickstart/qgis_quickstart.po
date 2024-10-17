@@ -133,7 +133,7 @@ msgstr "Allez dans le panneau du navigateur sur la gauche de l'écran."
 #: ../../build/doc/quickstart/qgis_quickstart.rst:75
 #: ../../build/doc/quickstart/qgis_quickstart.rst:93
 msgid "Navigate the folder tree to 'home/data/natural_earth2'."
-msgstr "Naviguez dans l'arbre de dossier  jusqu'à 'home/data/natural-earth2'."
+msgstr "Naviguez dans l'arbre de dossier jusqu'à 'home/data/natural-earth2'."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:76
 msgid "Select 'ne_10m_admin_0_countries.shp'."
@@ -333,7 +333,7 @@ msgid ""
 " on."
 msgstr ""
 "Cliquez sur la case à cocher à côté de la couche "
-"'ne_10m_populated_places'  pour l'afficher."
+"'ne_10m_populated_places' pour l'afficher."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:171
 msgid "Click the checkbox next to the 'Water' layer to turn the layer off."
@@ -701,7 +701,7 @@ msgid ""
 "page`_ on the QGIS homepage and `A Gentle Introduction to GIS`_ eBook."
 msgstr ""
 "Pour en savoir plus sur QGIS, un bon point de départ est la "
-"`Documentation page`_ sur la page d’accueil QGIS et le ebook  `A Gentle "
+"`Documentation page`_ sur la page d’accueil QGIS et le ebook `A Gentle "
 "Introduction to GIS`_ ."
 
 #: ../../build/doc/<rst_epilog>:13

@@ -127,7 +127,7 @@ msgid ""
 "`FeatureInformation` from one source."
 msgstr ""
 "Einzelner WMS Layer mit Daten von zwei zusammengefassten Quellen und "
-"`FeatureInformation`  von einer Quelle."
+"`FeatureInformation` von einer Quelle."
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:63
 msgid "Available layers"

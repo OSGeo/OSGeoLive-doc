@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:14
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+"This project is only included on the OSGeoLive virtual machine disk (VMDK)"
 msgstr ""
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:20

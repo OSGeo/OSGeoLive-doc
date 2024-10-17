@@ -126,7 +126,7 @@ msgid ""
 msgstr ""
 "Asennus vinkki siinä tapauksessa kun käytät eri käyttäjänimeä kuin \"user\","
 " tomcat sovellutukset tarvitsevat luvan palvelukomentoon kuten on kuvattu "
-"ohjeessa  https://trac.osgeo.org/osgeo/ticket/1153"
+"ohjeessa https://trac.osgeo.org/osgeo/ticket/1153"
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:80
 msgid "See Also:"

@@ -82,7 +82,7 @@ msgid ""
 "appmenupath --> pygeoapi`. The application will open a web page at "
 "http://localhost:5000"
 msgstr ""
-"À partir du menu Démarrer, sélectionnez  :menuselection:`Structure --> "
+"À partir du menu Démarrer, sélectionnez :menuselection:`Structure --> "
 "osgeolive --> appmenupath --> pygeoapi`. L’application ouvrira une page "
 "Web à l'adresse http://localhost:5000"
 
@@ -220,7 +220,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:102
 msgid ""
-"Each Open API has an interactive documentation page at  "
+"Each Open API has an interactive documentation page at "
 "http://localhost:5000/openapi. In this interactive webpage you can read "
 "about the various methods in the service, but also directly interact with"
 " them via web forms."
@@ -283,7 +283,7 @@ msgid ""
 " layer. From the ``Layer / Add Layer`` menu select ``Add WFS Layer...``."
 msgstr ""
 "À partir de QGIS 3.14, vous pouvez ajouter une couche OAPI-Features comme"
-" couche vectorielle. Dans le menu ``add layer``  sélectionnez ``Add WFS /"
+" couche vectorielle. Dans le menu ``add layer`` sélectionnez ``Add WFS /"
 " OAPI-Features layer``."
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:119

@@ -84,7 +84,7 @@ msgid ""
 msgstr ""
 "Tämä on esivalmisteltu virtuaalikone (.vmdk) joka pohjautuu osgeo-liveen,"
 " ja sopii käytettäväksi VirtualBoxin, VMWare, KVM ja muiden virtuaalikone"
-" sovellutusten kanssa. Se on pakattu käyttäen  `7-Zip "
+" sovellutusten kanssa. Se on pakattu käyttäen `7-Zip "
 "<https://www.7-zip.org/>`_."
 
 #: ../../build/doc/download.rst:26

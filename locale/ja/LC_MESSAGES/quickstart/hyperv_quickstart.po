@@ -189,7 +189,7 @@ msgid ""
 ":doc:`virtualization_quickstart` can be used."
 msgstr ""
 "このガイドでは、Hyper-V "
-"がすでに導入されており、有効化されていることを前提にしています。まだ有効でない場合のより一般的なVirtualBoxをつかう方法が  "
+"がすでに導入されており、有効化されていることを前提にしています。まだ有効でない場合のより一般的なVirtualBoxをつかう方法が "
 ":doc:`virtualization_quickstart` に文書があり、利用できます。"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:98

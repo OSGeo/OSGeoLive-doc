@@ -71,7 +71,7 @@ msgstr ""
 "parallélisation par agent peut réduire considérablement le temps de calcul "
 "et étendre les possibilités Plusieurs paquets fournissent des connections "
 "avec d'autres outils et logiciels OSGeo. Vous pouvez facilement connecté R "
-"avec  GRASS-GIS, Qgis, postgreSQL et postGIS."
+"avec GRASS-GIS, Qgis, postgreSQL et postGIS."
 
 #: ../../build/doc/overview/R_overview.rst:36
 msgid ""

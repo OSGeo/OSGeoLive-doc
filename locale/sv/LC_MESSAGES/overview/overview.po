@@ -532,7 +532,7 @@ msgid "Spatial data sets"
 msgstr "Spatiella datamängder"
 
 #: ../../build/doc/overview/overview.rst:301
-msgid "|nologo| :doc:`naturalearth_overview`  - Global Data Sets"
+msgid "|nologo| :doc:`naturalearth_overview` - Global Data Sets"
 msgstr "|nologo| :doc:`naturalearth_overview` - globala datasets"
 
 #: ../../build/doc/overview/overview.rst:303
@@ -541,14 +541,14 @@ msgstr "|nologo| :doc:`nc_dataset_overview`"
 
 #: ../../build/doc/overview/overview.rst:305
 msgid ""
-"|nologo| :doc:`netcdf_dataset_overview`  - Time series temperature and "
+"|nologo| :doc:`netcdf_dataset_overview` - Time series temperature and "
 "precipitation"
 msgstr ""
 "|nologo| :doc:`netcdf_dataset_overview` - tidsserie temperatur och nederbörd"
 
 #: ../../build/doc/overview/overview.rst:307
 msgid ""
-"|nologo| :doc:`osm_dataset_overview`  - Sample extract from OpenStreetMap"
+"|nologo| :doc:`osm_dataset_overview` - Sample extract from OpenStreetMap"
 msgstr "|nologo| :doc:`osm_dataset_overview` - Exempel från OpenStreetMap"
 
 #: ../../build/doc/overview/overview.rst:311
@@ -564,11 +564,11 @@ msgstr ""
 "<../quickstart/gdal_quickstart>`] - translationsverktyg för geospatial data"
 
 #: ../../build/doc/overview/overview.rst:328
-msgid "|OSGeo_project| :doc:`geos_overview`  - C/C++ Spatial Library"
+msgid "|OSGeo_project| :doc:`geos_overview` - C/C++ Spatial Library"
 msgstr "|OSGeo_project| :doc:`geos_overview` - C/C++ Spatialt bibliotek"
 
 #: ../../build/doc/overview/overview.rst:330
-msgid "|OSGeo_project| :doc:`geotools_overview`  - Java GIS Toolkit"
+msgid "|OSGeo_project| :doc:`geotools_overview` - Java GIS Toolkit"
 msgstr "|OSGeo_project| :doc:`geotools_overview` - Java GIS verktygslåda"
 
 #: ../../build/doc/overview/overview.rst:332
@@ -578,7 +578,7 @@ msgid ""
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:334
-msgid "|nologo| :doc:`jts_overview`  - Java Topology Suite"
+msgid "|nologo| :doc:`jts_overview` - Java Topology Suite"
 msgstr "|nologo| :doc:`jts_overview` - Java topologiuppsättning"
 
 #: ../../build/doc/overview/overview.rst:338
@@ -586,12 +586,12 @@ msgid "Geospatial Standards"
 msgstr "Geospatiala standarder"
 
 #: ../../build/doc/overview/overview.rst:348
-msgid "|nologo| :doc:`ogc_overview`  - Open Geospatial Consortium"
+msgid "|nologo| :doc:`ogc_overview` - Open Geospatial Consortium"
 msgstr "|nologo| :doc:`ogc_overview` - Öppen geospatial konsortium"
 
 #: ../../build/doc/overview/overview.rst:350
 msgid ""
-"|nologo| :doc:`inspire_overview`  - Infrastructure for Spatial Information "
+"|nologo| :doc:`inspire_overview` - Infrastructure for Spatial Information "
 "in Europe"
 msgstr ""
 "nologo| :doc:`inspire_overview` - infrastruktur för spatial information i "

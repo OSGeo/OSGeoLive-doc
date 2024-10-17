@@ -501,8 +501,8 @@ msgid "Spatial data sets"
 msgstr "Paikkatiedon tietojoukot"
 
 #: ../../build/doc/overview/overview.rst:301
-msgid "|nologo| :doc:`naturalearth_overview`  - Global Data Sets"
-msgstr "|nologo| :doc:`naturalearth_overview`  - Globaalit datajoukot"
+msgid "|nologo| :doc:`naturalearth_overview` - Global Data Sets"
+msgstr "|nologo| :doc:`naturalearth_overview` - Globaalit datajoukot"
 
 #: ../../build/doc/overview/overview.rst:303
 msgid "|nologo| :doc:`nc_dataset_overview`"
@@ -510,15 +510,15 @@ msgstr "|nologo| :doc:`nc_dataset_overview`"
 
 #: ../../build/doc/overview/overview.rst:305
 msgid ""
-"|nologo| :doc:`netcdf_dataset_overview`  - Time series temperature and "
+"|nologo| :doc:`netcdf_dataset_overview` - Time series temperature and "
 "precipitation"
 msgstr ""
-"|nologo| :doc:`netcdf_dataset_overview`  - Aikasarjoja lämpötilasta ja "
+"|nologo| :doc:`netcdf_dataset_overview` - Aikasarjoja lämpötilasta ja "
 "sademääristä"
 
 #: ../../build/doc/overview/overview.rst:307
-msgid "|nologo| :doc:`osm_dataset_overview`  - Sample extract from OpenStreetMap"
-msgstr "|nologo| :doc:`osm_dataset_overview`  - Otteita OpenStreetMapista"
+msgid "|nologo| :doc:`osm_dataset_overview` - Sample extract from OpenStreetMap"
+msgstr "|nologo| :doc:`osm_dataset_overview` - Otteita OpenStreetMapista"
 
 #: ../../build/doc/overview/overview.rst:311
 msgid "Geospatial Libraries"
@@ -533,13 +533,13 @@ msgstr ""
 "<../quickstart/gdal_quickstart>`] - Paikkadatan muunnostyökalut"
 
 #: ../../build/doc/overview/overview.rst:328
-msgid "|OSGeo_project| :doc:`geos_overview`  - C/C++ Spatial Library"
-msgstr "|OSGeo_project| :doc:`geos_overview`  - C/C++ paikkatietokirjasto"
+msgid "|OSGeo_project| :doc:`geos_overview` - C/C++ Spatial Library"
+msgstr "|OSGeo_project| :doc:`geos_overview` - C/C++ paikkatietokirjasto"
 
 #: ../../build/doc/overview/overview.rst:330
-msgid "|OSGeo_project| :doc:`geotools_overview`  - Java GIS Toolkit"
+msgid "|OSGeo_project| :doc:`geotools_overview` - Java GIS Toolkit"
 msgstr ""
-"|OSGeo_project| :doc:`geotools_overview`  - Java pohjaiset paikkatiedon "
+"|OSGeo_project| :doc:`geotools_overview` - Java pohjaiset paikkatiedon "
 "työkalut"
 
 #: ../../build/doc/overview/overview.rst:332
@@ -549,23 +549,23 @@ msgid ""
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:334
-msgid "|nologo| :doc:`jts_overview`  - Java Topology Suite"
-msgstr "|nologo| :doc:`jts_overview`  - Java Topologinen kirjasto"
+msgid "|nologo| :doc:`jts_overview` - Java Topology Suite"
+msgstr "|nologo| :doc:`jts_overview` - Java Topologinen kirjasto"
 
 #: ../../build/doc/overview/overview.rst:338
 msgid "Geospatial Standards"
 msgstr "Paikkatietostandardit"
 
 #: ../../build/doc/overview/overview.rst:348
-msgid "|nologo| :doc:`ogc_overview`  - Open Geospatial Consortium"
-msgstr "|nologo| :doc:`ogc_overview`  - Open Geospatial Consortium"
+msgid "|nologo| :doc:`ogc_overview` - Open Geospatial Consortium"
+msgstr "|nologo| :doc:`ogc_overview` - Open Geospatial Consortium"
 
 #: ../../build/doc/overview/overview.rst:350
 msgid ""
-"|nologo| :doc:`inspire_overview`  - Infrastructure for Spatial "
+"|nologo| :doc:`inspire_overview` - Infrastructure for Spatial "
 "Information in Europe"
 msgstr ""
-"|nologo| :doc:`inspire_overview`  - Paikkatiedon infrastruktuuri "
+"|nologo| :doc:`inspire_overview` - Paikkatiedon infrastruktuuri "
 "Euroopassa"
 
 #: ../../build/doc/overview/overview.rst:354

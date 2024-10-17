@@ -89,7 +89,7 @@ msgid ""
 "`EPSG.io <https://epsg.io/>`_ - website to retrieve coordinate system "
 "definitions"
 msgstr ""
-"`EPSG.io <https://epsg.io/>`_  - pour récupérer les définitions des systèmes "
+"`EPSG.io <https://epsg.io/>`_ - pour récupérer les définitions des systèmes "
 "de coordonnées"
 
 #: ../../build/doc/overview/proj_overview.rst:34
@@ -143,7 +143,7 @@ msgstr "Détails"
 
 #: ../../build/doc/overview/proj_overview.rst:61
 msgid "**Website:** https://proj.org/"
-msgstr "**Site web:**  https://proj.org/"
+msgstr "**Site web:** https://proj.org/"
 
 #: ../../build/doc/overview/proj_overview.rst:63
 msgid ""

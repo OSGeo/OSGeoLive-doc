@@ -26,7 +26,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:14
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+"This project is only included on the OSGeoLive virtual machine disk (VMDK)"
 msgstr ""
 "Questo progetto è incluso solo nel disco della macchina virtuale (VMDK) "
 "OSGeoLive"

@@ -85,7 +85,7 @@ msgid ""
 "http://localhost/qgis_server"
 msgstr ""
 "Alternativ kann auf die Anwendung auch mit Hilfe eines Browsers "
-"zugegriffen werden  http://localhost/qgis_server"
+"zugegriffen werden http://localhost/qgis_server"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:48
 msgid "Edit QGIS project"
@@ -168,7 +168,7 @@ msgid ""
 "Browse to dataset "
 ":file:`/home/user/data/natural_earth2/ne_10m_admin_0_countries.shp`."
 msgstr ""
-"Navigieren Sie zur Datei  "
+"Navigieren Sie zur Datei "
 ":file:`/home/user/data/natural_earth2/ne_10m_admin_0_countries.shp`."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:85

@@ -80,7 +80,7 @@ msgid ""
 "image access: optimized read/write access for most remote sensing raster "
 "formats (also JPEG2000 formats), meta-data access and visualization;"
 msgstr ""
-"画像アクセス:  ほとんどのリモートセンシングラスターフォーマット ( JPEG2000 "
+"画像アクセス: ほとんどのリモートセンシングラスターフォーマット ( JPEG2000 "
 "形式を含む)、メタデータアクセス、および視覚化のための最適化された読み取り/書き込みアクセス"
 
 #: ../../build/doc/overview/otb_overview.rst:51
@@ -102,7 +102,7 @@ msgstr "フィルタリング: ぼかし、ノイズ除去、強調..."
 
 #: ../../build/doc/overview/otb_overview.rst:55
 msgid "feature extraction: interest points, alignments, lines..."
-msgstr "フィーチャー抽出:  POI、整列、線分..."
+msgstr "フィーチャー抽出: POI、整列、線分..."
 
 #: ../../build/doc/overview/otb_overview.rst:56
 msgid "object detection"

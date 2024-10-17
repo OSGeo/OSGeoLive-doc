@@ -106,7 +106,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:41
 msgid ""
-"Again,  mark out a box of interest with a left-click drag, but this time "
+"Again, mark out a box of interest with a left-click drag, but this time "
 "covering most or all of the zoomed-in map canvas."
 msgstr ""
 "Una vez más, marque un cuadro de interés con un arrastre del botón izquierdo"

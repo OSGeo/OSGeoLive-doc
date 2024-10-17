@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:16
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk "
+"This project is only included on the OSGeoLive virtual machine disk "
 "(VMDK)"
 msgstr "このプロジェクトはOSGeoLive仮想マシンディスク(VMDK)にのみ含まれています"
 

@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:13
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+"This project is only included on the OSGeoLive virtual machine disk (VMDK)"
 msgstr ""
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:19

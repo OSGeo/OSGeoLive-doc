@@ -31,7 +31,7 @@ msgstr "Inicio rápido de ETF"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:21
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+"This project is only included on the OSGeoLive virtual machine disk (VMDK)"
 msgstr ""
 "Este proyecto solo se incluye en el disco de máquina virtual OSGeoLive "
 "(VMDK)"
@@ -238,12 +238,12 @@ msgstr ""
 #: ../../build/doc/quickstart/ETF_quickstart.rst:110
 msgid ""
 "A Test Suite may depend on other Test Suites. The dependencies are also "
-"shown in the description of the Test Suites.  These dependencies are also "
+"shown in the description of the Test Suites. These dependencies are also "
 "automatically executed during the test run."
 msgstr ""
 "Un conjunto de pruebas puede depender de otros conjuntos de pruebas. Las "
 "dependencias también se muestran en la descripción de los conjuntos de "
-"pruebas.  Estas dependencias también se ejecutan automáticamente durante la "
+"pruebas. Estas dependencias también se ejecutan automáticamente durante la "
 "ejecución de la prueba."
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:114

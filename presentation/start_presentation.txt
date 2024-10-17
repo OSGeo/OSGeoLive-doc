@@ -69,7 +69,7 @@ Updated core packages based on `DebianGIS <href="https://wiki.debian.org/DebianG
 * GDAL @VERSION_gdal@,
 * PROJ @VERSION_proj@,
 * PostGIS @VERSION_postgis@,
-* GRASS  @VERSION_grass@,
+* GRASS @VERSION_grass@,
 * GeoServer @VERSION_geoserver@,
 * MapServer @VERSION_mapserver@,
 

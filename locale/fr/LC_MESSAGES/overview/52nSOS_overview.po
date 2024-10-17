@@ -67,7 +67,7 @@ msgstr ""
 
 #: ../../build/doc/overview/52nSOS_overview.rst:41
 msgid ""
-"**Helgoland**: The SOS contains the Helgoland application for  the "
+"**Helgoland**: The SOS contains the Helgoland application for the "
 "exploration, analysis and visualization of Sensor Web data in various "
 "fields of use, e.g. hydrology, meteorology, environmental monitoring, "
 "traffic management."
@@ -140,7 +140,7 @@ msgstr ""
 "packagée est disponible, qui fournit directement l'`API RESTful "
 "<https://wiki.52north.org/SensorWeb/SensorWebClientRESTInterface>`_. "
 "Ainsi, les données d'observation peuvent être requêtées de manière "
-"RESTful et les réponses sont  encodées en JSON. Plus de détails sont "
+"RESTful et les réponses sont encodées en JSON. Plus de détails sont "
 "inclus dans la documentation `de l'application web SOS "
 "<http://localhost:8080/52nSOS/static/doc/api-doc/>`_."
 
@@ -182,7 +182,7 @@ msgid ""
 msgstr ""
 "Le développement de cette version du 52 ° Nord SOS a été pris en charge "
 "par différents projets, des organisations et des personnes. On trouvera "
-"plus de détails dans le`client SOS 52°North  "
+"plus de détails dans le`client SOS 52°North "
 "<http://localhost:8080/52nSOS/index>`_."
 
 #: ../../build/doc/overview/52nSOS_overview.rst:78
@@ -193,7 +193,7 @@ msgid ""
 "published under a |CC BY 3.0| License."
 msgstr ""
 "Nous tenons à remercier l’Agence belge de l’environnement Interregional "
-"(`IRCEL - CELINE <https://www.irceline.be/en/>`_)  pour fournir les "
+"(`IRCEL - CELINE <https://www.irceline.be/en/>`_) pour fournir les "
 "données de démonstration utilisées dans cette installation de SOS. Les "
 "données de démo sont publiées sous une licence |CC BY 3.0|."
 
@@ -229,7 +229,7 @@ msgstr "GetObservationById / GetObservation: pour demander des observations."
 #: ../../build/doc/overview/52nSOS_overview.rst:95
 msgid "GetResult (from specification version 2.0): for requesting sensor data."
 msgstr ""
-"GetResult (depuis la spécification version 2.0):  pour demander des "
+"GetResult (depuis la spécification version 2.0): pour demander des "
 "données au capteur."
 
 #: ../../build/doc/overview/52nSOS_overview.rst:96
@@ -238,7 +238,7 @@ msgid ""
 "template of the result structure that will be returned by a GetResult "
 "request."
 msgstr ""
-"GetResultTemplate (depuis la spécification version 2.0): pour demander  "
+"GetResultTemplate (depuis la spécification version 2.0): pour demander "
 "un modèle de la structure du résultat qui sera retourné par une requête "
 "GetResult."
 
@@ -269,7 +269,7 @@ msgid ""
 "InsertObservation (from specification version 2.0): for inserting new "
 "observations."
 msgstr ""
-"InsertObservation (depuis la spécification version 2.0):  pour ajouter de"
+"InsertObservation (depuis la spécification version 2.0): pour ajouter de"
 " nouvelles observations."
 
 #: ../../build/doc/overview/52nSOS_overview.rst:106
@@ -419,7 +419,7 @@ msgstr ""
 
 #: ../../build/doc/overview/52nSOS_overview.rst:159
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk "
+"This project is only included on the OSGeoLive virtual machine disk "
 "(VMDK)"
 msgstr ""
 "Ce projet n’est inclus que sur le disque de machine virtuelle OSGeoLive "

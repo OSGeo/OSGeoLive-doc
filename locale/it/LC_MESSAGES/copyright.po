@@ -183,12 +183,12 @@ msgstr "**CC-By-SA concisa ed attribuzione:**"
 #: ../../build/doc/copyright.rst:62
 msgid ""
 "© 2011 [Your Name] under a `CC By SA License "
-"<https://creativecommons.org/licenses/by-sa/3.0/>`__.  [Derived "
+"<https://creativecommons.org/licenses/by-sa/3.0/>`__. [Derived "
 "from|Includes|Extends] :doc:`OSGeoLive <index>` documentation by "
 ":doc:`OSGeoLive contributors <copyright>`."
 msgstr ""
 "© 2011 [Il tuo nome] sotto una licenza `CC By SA License "
-"<https://creativecommons.org/licenses/by-sa/3.0/>`_.  [Derivato "
+"<https://creativecommons.org/licenses/by-sa/3.0/>`_. [Derivato "
 "da|Include|Estende] :doc:`OSGeoLive <index>` documentazione da :doc:`"
 "OSGeoLive contributorscontributors <copyright>`."
 
@@ -336,7 +336,7 @@ msgid "Balasubramaniam Natarajan"
 msgstr "Balasubramaniam Natarajan"
 
 #: ../../build/licenses.csv:1
-msgid "Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)"
+msgid "Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)"
 msgstr "Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)"
 
 #: ../../build/licenses.csv:1
@@ -432,7 +432,7 @@ msgid "Hamish Bowman; Paul Wessel"
 msgstr "Hamish Bowman; Paul Wessel"
 
 #: ../../build/licenses.csv:1
-msgid "Creative Commons Attribution 3.0 Unported  (CC BY 3.0)"
+msgid "Creative Commons Attribution 3.0 Unported (CC BY 3.0)"
 msgstr "Creative Commons Attribution 3.0 Unported (CC BY 3.0)"
 
 #: ../../build/licenses.csv:1

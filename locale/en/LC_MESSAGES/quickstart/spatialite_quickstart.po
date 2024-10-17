@@ -111,7 +111,7 @@ msgstr ""
 msgid ""
 "Now let's try tweaking this SQL statement to get NOME and (Lat,Long) for "
 "only the NOME_PROV fields include \"BRESCIA\", this time using the "
-"MunicipalHallsView.  In the upper right SQL pane type::"
+"MunicipalHallsView. In the upper right SQL pane type::"
 msgstr ""
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:93

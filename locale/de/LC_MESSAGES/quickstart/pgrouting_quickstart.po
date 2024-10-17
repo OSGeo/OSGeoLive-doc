@@ -34,7 +34,7 @@ msgid ""
 "<https://www.postgresql.org>`_ databases."
 msgstr ""
 "pgRouting ist eine Erweiterung, die Routing und andere "
-"Netzwerkanalysefunktionen zu  :doc:`PostGIS "
+"Netzwerkanalysefunktionen zu :doc:`PostGIS "
 "<../overview/postgis_overview>`/`PostgreSQL <https://www.postgresql.org>`_ "
 "-Datenbanken hinzufügt."
 

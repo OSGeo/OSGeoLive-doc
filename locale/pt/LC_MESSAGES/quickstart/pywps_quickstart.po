@@ -214,7 +214,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:163
 msgid ""
-"Deployment to production -   The `pywps-flask` service is just an example "
+"Deployment to production -  The `pywps-flask` service is just an example "
 "and not designed for production. One possible alternative is a Django based "
 "service, `pywps-django <https://github.com/jorgejesus/pywps-django>`_. The "
 "documentation provides further details on how to `set up a production "

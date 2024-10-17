@@ -35,7 +35,7 @@ Start the Jupyter server
 
 From the application launch menu in the lower left corner.
 
-* Choose  *Geospatial* -> *Spatial Tools* -> *Jupyter Notebook*
+* Choose *Geospatial* -> *Spatial Tools* -> *Jupyter Notebook*
 
 A terminal window will open and a startup log will begin to scroll. Afterwards a
 web browser is launched showing the Jupyter Notebook dashboard.
@@ -69,7 +69,7 @@ From the toolbar on top of the notebook you can choose different options:
 
 * Cell-> Run Cells: will run the code in the cell with the focus and will move
   to the next cell.
-* Cell-> Run All:  will run all the cells and show the results If everything
+* Cell-> Run All: will run all the cells and show the results If everything
   worked as planned you should be able to see the results at the bottom of the
   page.
 

@@ -163,12 +163,12 @@ msgstr "**簡潔な CC-By-SA と帰属:**"
 #, fuzzy
 msgid ""
 "© 2011 [Your Name] under a `CC By SA License "
-"<https://creativecommons.org/licenses/by-sa/3.0/>`__.  [Derived "
+"<https://creativecommons.org/licenses/by-sa/3.0/>`__. [Derived "
 "from|Includes|Extends] :doc:`OSGeoLive <index>` documentation by "
 ":doc:`OSGeoLive contributors <copyright>`."
 msgstr ""
 "© 2011 [あなたの名前] under a `CC By SA License "
-"<https://creativecommons.org/licenses/by-sa/3.0/>`_.  [Derived "
+"<https://creativecommons.org/licenses/by-sa/3.0/>`_. [Derived "
 "from|Includes|Extends] :doc:`OSGeoLive <index>` documentation by "
 ":doc:`OSGeoLive contributors <copyright>`."
 
@@ -314,8 +314,8 @@ msgid "Balasubramaniam Natarajan"
 msgstr "Balasubramaniam Natarajan"
 
 #: ../../build/licenses.csv:1
-msgid "Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)"
-msgstr "クリエイティブ・コモンズ 表示 - 継承 3.0 非移植 ライセンス  (CC BY-SA 3.0)"
+msgid "Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)"
+msgstr "クリエイティブ・コモンズ 表示 - 継承 3.0 非移植 ライセンス (CC BY-SA 3.0)"
 
 #: ../../build/licenses.csv:1
 msgid "deegree_overview"
@@ -410,8 +410,8 @@ msgid "Hamish Bowman; Paul Wessel"
 msgstr "Hamish Bowman; Paul Wessel"
 
 #: ../../build/licenses.csv:1
-msgid "Creative Commons Attribution 3.0 Unported  (CC BY 3.0)"
-msgstr "クリエイティブ・コモンズ 表示 3.0 非移植  (CC BY 3.0)"
+msgid "Creative Commons Attribution 3.0 Unported (CC BY 3.0)"
+msgstr "クリエイティブ・コモンズ 表示 3.0 非移植 (CC BY 3.0)"
 
 #: ../../build/licenses.csv:1
 msgid "gpsdrive_overview"

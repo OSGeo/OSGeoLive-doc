@@ -38,7 +38,7 @@ Access the catalog
 
 In the Web Services folder on the Desktop (or via the start menu), double-click **start GeoNetwork**. This will open the Firefox web browser at the URL ``http://localhost:8880/geonetwork``. This will be referred to throughout this document as the *homepage*.
 
-You can return to the  homepage at any point by selecting the catalogue logo in the top left of the top toolbar. In the screenshot below, this is labelled  “My GeoNetwork catalogue” but it may have a different name and logo.
+You can return to the homepage at any point by selecting the catalogue logo in the top left of the top toolbar. In the screenshot below, this is labelled “My GeoNetwork catalogue” but it may have a different name and logo.
 
 
 .. figure:: /images/projects/geonetwork/geonetwork_home-page.png
@@ -98,7 +98,7 @@ The Search page provides different ways for search:
 .. figure:: /images/projects/geonetwork/geonetwork_full-text.png
   :scale: 70 %
 
-- *Search facets*, or  filters, that provide ways of narrowing down the search results, such as *Type of Resource*, *Topic*, *Keywords*,
+- *Search facets*, or filters, that provide ways of narrowing down the search results, such as *Type of Resource*, *Topic*, *Keywords*,
 
 .. figure:: /images/projects/geonetwork/geonetwork_facets.png
   :scale: 70 %

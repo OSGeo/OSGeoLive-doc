@@ -535,8 +535,8 @@ msgid "Spatial data sets"
 msgstr "Conjuntos de datos espaciales"
 
 #: ../../build/doc/overview/overview.rst:301
-msgid "|nologo| :doc:`naturalearth_overview`  - Global Data Sets"
-msgstr "|nologo| :doc:`naturalearth_overview`  - Conjunto de Datos Globales"
+msgid "|nologo| :doc:`naturalearth_overview` - Global Data Sets"
+msgstr "|nologo| :doc:`naturalearth_overview` - Conjunto de Datos Globales"
 
 #: ../../build/doc/overview/overview.rst:303
 msgid "|nologo| :doc:`nc_dataset_overview`"
@@ -544,15 +544,15 @@ msgstr "|nologo| :doc:`nc_dataset_overview`"
 
 #: ../../build/doc/overview/overview.rst:305
 msgid ""
-"|nologo| :doc:`netcdf_dataset_overview`  - Time series temperature and "
+"|nologo| :doc:`netcdf_dataset_overview` - Time series temperature and "
 "precipitation"
 msgstr ""
-"|nologo| :doc:`netcdf_dataset_overview`  - Series de tiempo de "
+"|nologo| :doc:`netcdf_dataset_overview` - Series de tiempo de "
 "temperatura y precipitación"
 
 #: ../../build/doc/overview/overview.rst:307
-msgid "|nologo| :doc:`osm_dataset_overview`  - Sample extract from OpenStreetMap"
-msgstr "|nologo| :doc:`osm_dataset_overview`  - Muestra extraída de OpenStreetMap"
+msgid "|nologo| :doc:`osm_dataset_overview` - Sample extract from OpenStreetMap"
+msgstr "|nologo| :doc:`osm_dataset_overview` - Muestra extraída de OpenStreetMap"
 
 #: ../../build/doc/overview/overview.rst:311
 msgid "Geospatial Libraries"
@@ -568,12 +568,12 @@ msgstr ""
 "Geospaciales"
 
 #: ../../build/doc/overview/overview.rst:328
-msgid "|OSGeo_project| :doc:`geos_overview`  - C/C++ Spatial Library"
-msgstr "|OSGeo_project| :doc:`geos_overview`  - Librería Espacial C/C++"
+msgid "|OSGeo_project| :doc:`geos_overview` - C/C++ Spatial Library"
+msgstr "|OSGeo_project| :doc:`geos_overview` - Librería Espacial C/C++"
 
 #: ../../build/doc/overview/overview.rst:330
-msgid "|OSGeo_project| :doc:`geotools_overview`  - Java GIS Toolkit"
-msgstr "|OSGeo_project| :doc:`geotools_overview`  - Java SIG Toolkit"
+msgid "|OSGeo_project| :doc:`geotools_overview` - Java GIS Toolkit"
+msgstr "|OSGeo_project| :doc:`geotools_overview` - Java SIG Toolkit"
 
 #: ../../build/doc/overview/overview.rst:332
 msgid ""
@@ -585,23 +585,23 @@ msgstr ""
 "coordenadas"
 
 #: ../../build/doc/overview/overview.rst:334
-msgid "|nologo| :doc:`jts_overview`  - Java Topology Suite"
-msgstr "|nologo| :doc:`jts_overview`  - Java Topology Suite"
+msgid "|nologo| :doc:`jts_overview` - Java Topology Suite"
+msgstr "|nologo| :doc:`jts_overview` - Java Topology Suite"
 
 #: ../../build/doc/overview/overview.rst:338
 msgid "Geospatial Standards"
 msgstr "Estándares Geoespaciales"
 
 #: ../../build/doc/overview/overview.rst:348
-msgid "|nologo| :doc:`ogc_overview`  - Open Geospatial Consortium"
-msgstr "|nologo| :doc:`ogc_overview`  - Open Geospatial Consortium"
+msgid "|nologo| :doc:`ogc_overview` - Open Geospatial Consortium"
+msgstr "|nologo| :doc:`ogc_overview` - Open Geospatial Consortium"
 
 #: ../../build/doc/overview/overview.rst:350
 msgid ""
-"|nologo| :doc:`inspire_overview`  - Infrastructure for Spatial "
+"|nologo| :doc:`inspire_overview` - Infrastructure for Spatial "
 "Information in Europe"
 msgstr ""
-"|nologo| :doc:`inspire_overview`  - Infraestructura para Información "
+"|nologo| :doc:`inspire_overview` - Infraestructura para Información "
 "Espacial en Europa"
 
 #: ../../build/doc/overview/overview.rst:354

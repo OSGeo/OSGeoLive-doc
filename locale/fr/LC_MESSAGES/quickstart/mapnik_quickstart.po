@@ -60,7 +60,7 @@ msgid ""
 "try this::"
 msgstr ""
 "Créer des cartes en python est facile avec Mapnik. Ouvrez une fenêtre "
-"terminale et tapez `python3`  dans la ligne de commande pour entrer dans "
+"terminale et tapez `python3` dans la ligne de commande pour entrer dans "
 "un interpréteur python. Ensuite, essayez ceci::"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:38
@@ -107,7 +107,7 @@ msgid ""
 "Click |menu_mapnik|. The server starts in a terminal window (which stays "
 "open and outputs basic debugging information)."
 msgstr ""
-"Cliquez sur  :menuselection:`Geospatial --> Web Services --> MapProxy -->"
+"Cliquez sur :menuselection:`Geospatial --> Web Services --> MapProxy -->"
 " Start MapProxy`. Le serveur démarre dans une fenêtre de terminal (qui "
 "reste ouverte et produit des informations de débogage de base)."
 

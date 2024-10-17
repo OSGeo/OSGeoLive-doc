@@ -87,7 +87,7 @@ msgstr "3D-, 2.5 D-ja 2D-näkymien vaihtaminen"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:42
 msgid ""
-"Click on the wire framed globe icon to select your preferred view.  Here "
+"Click on the wire framed globe icon to select your preferred view. Here "
 "the 2.5D Columbus view has been selected."
 msgstr ""
 "Voit napsauttaa ruudukoilla kehystettyjä maapallo-kuvakkeita valitaksesi "
@@ -111,11 +111,11 @@ msgstr "Valitse kuvataso"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:56
 msgid ""
-"Click on the last icon and select a type of image service.  Here the "
+"Click on the last icon and select a type of image service. Here the "
 "Natural Earth II is selected and you can see how the map's image layer "
 "has changed."
 msgstr ""
-"Napsauta viimeistä kuvaketta ja valitse kuvapalvelun tyyppi.  Tässä "
+"Napsauta viimeistä kuvaketta ja valitse kuvapalvelun tyyppi. Tässä "
 "Natural Earth II on valittu ja näet, miten kartan kuvataso on muuttunut."
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:65

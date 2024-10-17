@@ -543,7 +543,7 @@ msgid "Spatial data sets"
 msgstr "空間資料集"
 
 #: ../../build/doc/overview/overview.rst:301
-msgid "|nologo| :doc:`naturalearth_overview`  - Global Data Sets"
+msgid "|nologo| :doc:`naturalearth_overview` - Global Data Sets"
 msgstr "|nologo| :doc:`naturalearth_overview` - 全球資料集"
 
 #: ../../build/doc/overview/overview.rst:303
@@ -552,13 +552,13 @@ msgstr "|nologo| :doc:`nc_dataset_overview`"
 
 #: ../../build/doc/overview/overview.rst:305
 msgid ""
-"|nologo| :doc:`netcdf_dataset_overview`  - Time series temperature and "
+"|nologo| :doc:`netcdf_dataset_overview` - Time series temperature and "
 "precipitation"
 msgstr "|nologo| :doc:`netcdf_dataset_overview` - 時間序列溫度和氣壓資料"
 
 #: ../../build/doc/overview/overview.rst:307
 msgid ""
-"|nologo| :doc:`osm_dataset_overview`  - Sample extract from OpenStreetMap"
+"|nologo| :doc:`osm_dataset_overview` - Sample extract from OpenStreetMap"
 msgstr "|nologo| :doc:`osm_dataset_overview` - 開放街圖截取範例資料"
 
 #: ../../build/doc/overview/overview.rst:311
@@ -574,11 +574,11 @@ msgstr ""
 "<../quickstart/gdal_quickstart>`] - 地理空間資料轉換工具"
 
 #: ../../build/doc/overview/overview.rst:328
-msgid "|OSGeo_project| :doc:`geos_overview`  - C/C++ Spatial Library"
+msgid "|OSGeo_project| :doc:`geos_overview` - C/C++ Spatial Library"
 msgstr "|OSGeo_project| :doc:`geos_overview` - C/C++ 空間函式庫"
 
 #: ../../build/doc/overview/overview.rst:330
-msgid "|OSGeo_project| :doc:`geotools_overview`  - Java GIS Toolkit"
+msgid "|OSGeo_project| :doc:`geotools_overview` - Java GIS Toolkit"
 msgstr "|OSGeo_project| :doc:`geotools_overview` - Java GIS 工具集"
 
 #: ../../build/doc/overview/overview.rst:332
@@ -590,7 +590,7 @@ msgstr ""
 "<../quickstart/proj_quickstart>`] - 參考座標系統函式庫"
 
 #: ../../build/doc/overview/overview.rst:334
-msgid "|nologo| :doc:`jts_overview`  - Java Topology Suite"
+msgid "|nologo| :doc:`jts_overview` - Java Topology Suite"
 msgstr "|nologo| :doc:`jts_overview` - Java 拓撲套件"
 
 #: ../../build/doc/overview/overview.rst:338
@@ -598,12 +598,12 @@ msgid "Geospatial Standards"
 msgstr "地理空間標準"
 
 #: ../../build/doc/overview/overview.rst:348
-msgid "|nologo| :doc:`ogc_overview`  - Open Geospatial Consortium"
+msgid "|nologo| :doc:`ogc_overview` - Open Geospatial Consortium"
 msgstr "|nologo| :doc:`ogc_overview` - Open Geospatial Consortium"
 
 #: ../../build/doc/overview/overview.rst:350
 msgid ""
-"|nologo| :doc:`inspire_overview`  - Infrastructure for Spatial Information "
+"|nologo| :doc:`inspire_overview` - Infrastructure for Spatial Information "
 "in Europe"
 msgstr "|nologo| :doc:`inspire_overview` - 歐洲的空間資訊架構"
 

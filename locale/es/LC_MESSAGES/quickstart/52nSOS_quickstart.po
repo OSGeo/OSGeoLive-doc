@@ -26,7 +26,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:13
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk "
+"This project is only included on the OSGeoLive virtual machine disk "
 "(VMDK)"
 msgstr ""
 "Este proyecto solo se incluye en el disco de máquina virtual OSGeoLive "

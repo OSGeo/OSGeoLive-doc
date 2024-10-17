@@ -269,6 +269,6 @@ For general information about R, try the official `Introduction to R <https://cr
 
 For more information on spatial aspects of R, the best place to start is probably the `R Spatial Task View <https://cran.r-project.org/web/views/Spatial.html>`_
 
-You might also want to check out the  `R-Spatial <https://r-spatial.org>`_ and `RSpatial <https://rspatial.org>`_
+You might also want to check out the `R-Spatial <https://r-spatial.org>`_ and `RSpatial <https://rspatial.org>`_
 pages.
 

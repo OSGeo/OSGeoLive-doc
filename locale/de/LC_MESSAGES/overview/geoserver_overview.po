@@ -193,7 +193,7 @@ msgid ""
 "visualisations through the WMS interface."
 msgstr ""
 "Räumliche Algorithmen, inklusive der :doc:`JTS <jts_overview>` Algorithme, "
-"können über GeoServer's |WPS|  Interface aufgerufen werden. Dies beinhaltet "
+"können über GeoServer's |WPS| Interface aufgerufen werden. Dies beinhaltet "
 "das Verketten von Prozessen und verwendet Renderingtransformationen, um eine"
 " beeindruckende Darstellung durch das WMS Interface zu erzeugen."
 
@@ -202,7 +202,7 @@ msgid "Implemented Standards"
 msgstr "Implementierte Standards"
 
 #: ../../build/doc/overview/geoserver_overview.rst:69
-msgid "Support of numerous Open Geospatial Consortium  (OGC) standards:"
+msgid "Support of numerous Open Geospatial Consortium (OGC) standards:"
 msgstr "Unterstützung zahlreicher Open Geospatial Consortium (OGC) Standards:"
 
 #: ../../build/doc/overview/geoserver_overview.rst:71

@@ -78,7 +78,7 @@ msgstr "Démarrer Mapbender"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:48
 msgid ""
-"Choose  |menu_mapbender| from the start menu or visit "
+"Choose |menu_mapbender| from the start menu or visit "
 "http://localhost/mapbender/app.php. The application will take a few "
 "moments to start up"
 msgstr ""
@@ -90,7 +90,7 @@ msgid ""
 "use SQLite as database whether you have write access to the file."
 msgstr ""
 "Si vous avez des difficultés en cours de l’exécution de Mapbender, s’il "
-"vous plaît vérifiez si votre serveur web  Apache  et votre base de "
+"vous plaît vérifiez si votre serveur web Apache et votre base de "
 "données PostgreSQL sont en cours d’exécution. Ou si vous utilisez SQLite "
 "comme base de données si vous avez un accès en écriture au fichier."
 
@@ -152,7 +152,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:70
 msgid "Choose :menuselection:`Applications --> New Application`"
-msgstr "Choisir  :menuselection:`Applications --> New Application`"
+msgstr "Choisir :menuselection:`Applications --> New Application`"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:72
 msgid "Define a title and description for your application"
@@ -278,7 +278,7 @@ msgid ""
 "Click on the :menuselection:`+-button` to add a layerset, which "
 "represents a collection of layers (a possible name could be main)"
 msgstr ""
-"Cliquez sur le  :menuselection:`+-button` pour ajouter un *layerset*, ce "
+"Cliquez sur le :menuselection:`+-button` pour ajouter un *layerset*, ce "
 "qui représente une collection de couches (un nom possible pourrait être "
 "principal)"
 

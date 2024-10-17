@@ -31,7 +31,7 @@ msgid ""
 "detailed on the `OSGeoLive Wiki "
 "<https://trac.osgeo.org/osgeolive#Communication>`_."
 msgstr ""
-"OSGeoLive 的開發是經由郵件或是網路聊天 (IRC) 來協調，詳情請見  `OSGeo Wiki "
+"OSGeoLive 的開發是經由郵件或是網路聊天 (IRC) 來協調，詳情請見 `OSGeo Wiki "
 "<https://trac.osgeo.org/osgeolive#Communication>`_。"
 
 #: ../../build/doc/contact.rst:9

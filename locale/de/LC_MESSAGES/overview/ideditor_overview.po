@@ -41,7 +41,7 @@ msgstr ""
 "Der iD Editor ist ein browserbasierter `OpenStreetMap "
 "<https://www.openstreetmap.org>`_ Editor. iD ist schnell und leicht zu "
 "handhaben und erlaubt das Erfassen auf Basis von unterschiedlichen "
-"Datenquellen z.B. Satelliten und  Luftbildern, GPS, Field Papers oder "
+"Datenquellen z.B. Satelliten und Luftbildern, GPS, Field Papers oder "
 "Mapillary."
 
 #: ../../build/doc/overview/ideditor_overview.rst:21

@@ -86,11 +86,11 @@ msgstr "Cambiar entre 2D, 2.5D y 3D"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:42
 msgid ""
-"Click on the wire framed globe icon to select your preferred view.  Here "
+"Click on the wire framed globe icon to select your preferred view. Here "
 "the 2.5D Columbus view has been selected."
 msgstr ""
 "Hacer click en el icono de malla de globo para seleccionar su vista "
-"preferida.  Aquí se ha seleccionado la Vista de Colón 2.5D."
+"preferida. Aquí se ha seleccionado la Vista de Colón 2.5D."
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:-1
 msgid "Cesium switching between 3D, 2.5D and 2D"
@@ -110,12 +110,12 @@ msgstr "Seleccionar la capa imagen"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:56
 msgid ""
-"Click on the last icon and select a type of image service.  Here the "
+"Click on the last icon and select a type of image service. Here the "
 "Natural Earth II is selected and you can see how the map's image layer "
 "has changed."
 msgstr ""
-"Hacer click en el  último ícono y seleccione el tipo de servicio de  "
-"imagen que requerimos.  Aquí se selecciona Natural Earth II y se puede "
+"Hacer click en el último ícono y seleccione el tipo de servicio de "
+"imagen que requerimos. Aquí se selecciona Natural Earth II y se puede "
 "ver cómo ha cambiado la capa de la imagen del mapa."
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:65
