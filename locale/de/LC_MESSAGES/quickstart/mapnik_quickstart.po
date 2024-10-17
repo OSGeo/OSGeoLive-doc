@@ -61,7 +61,7 @@ msgid ""
 "try this::"
 msgstr ""
 "Das Erstellen von Karten in Python ist mit Mapnik ganz einfach. Öffnen "
-"Sie  ein Terminalfenster, und geben Sie `python3` in der Befehlszeile "
+"Sie ein Terminalfenster, und geben Sie `python3` in der Befehlszeile "
 "ein, um zum Python-Interpreter zu gelangen. Probieren Sie dann:"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:38

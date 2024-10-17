@@ -625,7 +625,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:420
 msgid ""
-"Deploys the Postgis item, then the NaturalEarth item. It will then  "
+"Deploys the Postgis item, then the NaturalEarth item. It will then "
 "connect to the Natural Earth database. Leave the password blank if it "
 "asks. In the public item, there is the list of the layers provided by the"
 " database. You'll see the main manager window. On the left you can select"
@@ -739,9 +739,9 @@ msgstr ""
 #: ../../build/doc/quickstart/postgis_quickstart.rst:483
 msgid ""
 "Here, you have the option of creating a new connection to a PostgreSQL "
-"server, or connecting to an existing server. The red \"X\" on the  "
+"server, or connecting to an existing server. The red \"X\" on the "
 "``PostgreSQL`` server denotes that you haven't been yet connected. Click "
-"on it  then enter the user name  ``user`` and the master password  "
+"on it then enter the user name ``user`` and the master password "
 "``user``."
 msgstr ""
 
@@ -835,7 +835,7 @@ msgid "pgAdmin"
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:547
-msgid "Enter the master password  ``user``."
+msgid "Enter the master password ``user``."
 msgstr "Geben Sie das Master-Passwort ``user`` ein."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:549
@@ -1133,7 +1133,7 @@ msgstr ""
 #: ../../build/doc/quickstart/postgis_quickstart.rst:755
 msgid "Try to do road routing using :doc:`../overview/pgrouting_overview`."
 msgstr ""
-"Versuchen Sie ein Routing aufzubauen mit Hilfe von  "
+"Versuchen Sie ein Routing aufzubauen mit Hilfe von "
 ":doc:`../overview/pgrouting_overview`."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:760
@@ -1149,11 +1149,11 @@ msgstr ""
 "Funktionen, die Sie ausprobieren können."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:764
-msgid "PostGIS Project home -  http://postgis.net"
+msgid "PostGIS Project home - http://postgis.net"
 msgstr "PostGIS-Webseite - http://postgis.net"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:766
-msgid "PostGIS Documentation -  http://postgis.net/documentation/"
+msgid "PostGIS Documentation - http://postgis.net/documentation/"
 msgstr "PostGIS-Dokumentation - http://postgis.net/documentation/"
 
 #: ../../build/doc/<rst_epilog>:13

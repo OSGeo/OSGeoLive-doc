@@ -56,7 +56,7 @@ msgid ""
 "You will see QGIS launch with an empty project. The various parts of the "
 "QGIS Interface are listed below."
 msgstr ""
-"QGIS startet mit einem leeren Projekt. Die verschiedenen Bereiche der  "
+"QGIS startet mit einem leeren Projekt. Die verschiedenen Bereiche der "
 "QGIS-Anwendung werden unten aufgeführt."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:53
@@ -228,7 +228,7 @@ msgid ""
 "QGIS project'."
 msgstr ""
 "Auf dem Desktop befindet sich nun eine Projektdatei mit dem Namen \"Mein "
-"QGIS-Projekt\" und im oberen Teil ihres Projektes wird nun  nicht mehr "
+"QGIS-Projekt\" und im oberen Teil ihres Projektes wird nun nicht mehr "
 "\"untitled\" angezeigt, sondern \"Mein QGIS-Projekt\"."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:-1

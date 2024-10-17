@@ -262,7 +262,7 @@ msgid ""
 "character to a solid blob:"
 msgstr ""
 "Wir fügen diese Punkte zur Basiskarte hinzu, skalieren ihre Größe nach "
-"der  by scaled square root of der Einwohner (da dies ein Symbol mit der "
+"der by scaled square root of der Einwohner (da dies ein Symbol mit der "
 "Fläche proportional zur Bevölkerung erzeugt), setzen die Farbe auf rot "
 "und the plotting character to a solid blob:"
 
@@ -280,7 +280,7 @@ msgstr ""
 "Um R zu beenden, geben Sie ``q()`` ein und drücken Sie return. R fragt "
 "Sie, ob Sie Ihren Arbeitsbereich als R-Data-Image-Datei speichern "
 "möchten. Wenn Sie R erneut aus einem Verzeichnis mit einer "
-"``.RData``-Datei starten,  wird R alle seine Daten daraus "
+"``.RData``-Datei starten, wird R alle seine Daten daraus "
 "wiederherstellen."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:260
