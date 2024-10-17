@@ -54,7 +54,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:25
 msgid ""
-"Download `Virtual Box <https://www.virtualbox.org/>`_  for your platform, "
+"Download `Virtual Box <https://www.virtualbox.org/>`_ for your platform, "
 "and install the software. On Windows run the installer, or on Ubuntu-like "
 "Linux systems run the following:"
 msgstr ""
@@ -90,7 +90,7 @@ msgstr ""
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:36
 msgid ""
 "**Spare**: Minimum 20 GB Hard Disk Space. The virtual disk file (vmdk) from "
-":doc:`live.osgeo.org <../download>`  unzips to almost 10 GB. You'll also "
+":doc:`live.osgeo.org <../download>` unzips to almost 10 GB. You'll also "
 "want more space to allow some room to work on the virtual machine. So a "
 "total of 20 GB is a good recommendation."
 msgstr ""
