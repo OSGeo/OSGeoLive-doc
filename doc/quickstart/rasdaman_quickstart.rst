@@ -121,9 +121,9 @@ What next?
 ==========
 
 * The `rasdaman tutorial <https://tutorial.rasdaman.org/>`_ provides a condensed introduction to the concepts behind rasdaman, rasql and the OGC web services support.
-* Learn more about the OGC  |WCPS| Language standard (which was heavily inspired
+* Learn more about the OGC |WCPS| Language standard (which was heavily inspired
   by rasdaman); a good starting point is the
-  `documentation and tutorials page <https://standards.rasdaman.com/>`_  and `WCPS Query SandBox <http://localhost/rasdaman-demo/demo/client/query-sandbox.html>`_.
+  `documentation and tutorials page <https://standards.rasdaman.com/>`_ and `WCPS Query SandBox <http://localhost/rasdaman-demo/demo/client/query-sandbox.html>`_.
 * Interested in coverage data and services in general? Visit OGC's `Coverages Domain Working Group wiki <https://external.ogc.org/twiki_public/CoveragesDWG/WebHome>`_.
 * Explore the `rasdaman documentation <https://doc.rasdaman.org>`_ to learn about rasdaman administration, its query language, and data ingestion.
 * Go to the `multi-dimensional demo <http://localhost/rasdaman-demo>`_ to explore interactive 1-D to 4-D rasdaman demos.

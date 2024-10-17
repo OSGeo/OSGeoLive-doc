@@ -60,11 +60,11 @@ msgstr ""
 msgid ""
 "Proj4js (JavaScript) - used in :doc:`OpenLayers <openlayers_overview>`."
 msgstr ""
-"Proj4js (JavaScript) -  :doc:`OpenLayers <openlayers_overview>` で使われている。"
+"Proj4js (JavaScript) - :doc:`OpenLayers <openlayers_overview>` で使われている。"
 
 #: ../../build/doc/overview/proj_overview.rst:30
 msgid "CS-Map (C++) - used in MapGuide."
-msgstr "CS-Map (C++) -   MapGuide に採用"
+msgstr "CS-Map (C++) -  MapGuide に採用"
 
 #: ../../build/doc/overview/proj_overview.rst:31
 msgid "GeoTIFF/libgeotiff (C++)."
@@ -78,14 +78,14 @@ msgstr "Proj4J (Java)。"
 msgid ""
 "`EPSG.io <https://epsg.io/>`_ - website to retrieve coordinate system "
 "definitions"
-msgstr "`EPSG.io <https://epsg.io/>`_  - 座標系定義を取得するためのWebサイトです"
+msgstr "`EPSG.io <https://epsg.io/>`_ - 座標系定義を取得するためのWebサイトです"
 
 #: ../../build/doc/overview/proj_overview.rst:34
 msgid ""
 "`SpatialReference.org <https://spatialreference.org/>`_ - website to "
 "retrieve coordinate system definitions (obsolete)."
 msgstr ""
-"`SpatialReference.org <https://spatialreference.org/>`_  - "
+"`SpatialReference.org <https://spatialreference.org/>`_ - "
 "座標系定義を取得するためのWebサイトです(旧式)"
 
 #: ../../build/doc/overview/proj_overview.rstNone

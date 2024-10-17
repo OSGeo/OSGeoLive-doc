@@ -1,99 +1,102 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
 # Translators:
 # Toshikazu SETO <tosseto@gmail.com>, 2017
 # Ko Nagase <nagase@georepublic.co.jp>, 2022
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-06 09:15-0500\n"
+"POT-Creation-Date: 2024-10-17 17:51+0000\n"
 "PO-Revision-Date: 2024-05-01 03:45+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
-"Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/index/"
-"ja/>\n"
 "Language: ja\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Japanese "
+"<https://weblate.osgeo.org/projects/osgeolive/index/ja/>\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.4.3\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/index.rst:3
 msgid "Welcome to |osgeolive-version|"
 msgstr "|osgeolive-version| へようこそ"
 
-#: ../../build/doc/index.rst:5
+#, fuzzy
+msgid "Logo"
+msgstr "ロゴなし"
+
+#: ../../build/doc/index.rst:9
+#, fuzzy
 msgid ""
-"`OSGeoLive <https://live.osgeo.org>`_ is a self-contained bootable DVD, USB "
-"thumb drive or Virtual Machine based on `Lubuntu <https://lubuntu.net>`_, "
-"that allows you to try a wide variety of open source geospatial software "
-"without installing anything. It is composed entirely of free software, "
-"allowing it to be freely distributed, duplicated and passed around."
+"`OSGeoLive <https://live.osgeo.org>`_ is a self-contained bootable DVD, "
+"USB thumb drive or Virtual Machine based on `Lubuntu "
+"<https://lubuntu.me>`_, that allows you to try a wide variety of open "
+"source geospatial software without installing anything. It is composed "
+"entirely of free software, allowing it to be freely distributed, "
+"duplicated and passed around."
 msgstr ""
-"`OSGeoLive <https://live.osgeo.org>`_ は、 `Lubuntu <https://lubuntu.net>`_ "
+"`OSGeoLive <https://live.osgeo.org>`_ は、 `Lubuntu <https://lubuntu.net>`_"
+" "
 "をベースにした、自己完結型のブータブルDVD、USBサムドライブまたは仮想マシンで、何もインストールせずに、さまざまなオープンソースの地理空間ソフトウェアを試すことができます。完全にフリーソフトウェアで構成されており、自由に配布、複製、譲渡することができます。"
 
-#: ../../build/doc/index.rstNone
-msgid "boot select"
-msgstr "起動後の選択"
-
-#: ../../build/doc/index.rst:17
-msgid ""
-"It provides pre-configured applications for a range of geospatial use cases,"
-" including storage, publishing, viewing, analysis and manipulation of data. "
-"It also contains sample datasets and documentation."
+msgid "Menu"
 msgstr ""
-"データの保存、公開、表示、分析、操作など、さまざまな地理空間の用途に合わせて事前構成されたアプリケーションを提供します。また、サンプルデータセットやドキュメントも含んでいます。"
 
 #: ../../build/doc/index.rst:21
+msgid ""
+"It provides pre-configured applications for a range of geospatial use "
+"cases, including storage, publishing, viewing, analysis and manipulation "
+"of data. It also contains sample datasets and documentation."
+msgstr "データの保存、公開、表示、分析、操作など、さまざまな地理空間の用途に合わせて事前構成されたアプリケーションを提供します。また、サンプルデータセットやドキュメントも含んでいます。"
+
+#: ../../build/doc/index.rst:25
 msgid "To try out the applications, simply:"
 msgstr "アプリケーションを試すには、シンプルに:"
 
-#: ../../build/doc/index.rst:23
+#: ../../build/doc/index.rst:27
 msgid "Insert DVD or USB thumb drive in computer or virtual machine."
 msgstr "DVDまたはUSBドライブをコンピュータもしくは仮想マシンにマウント"
 
-#: ../../build/doc/index.rst:24
+#: ../../build/doc/index.rst:28
 msgid "Reboot computer. (verify boot device order if necessary)"
 msgstr "コンピュータを再起動 (必要に応じてデバイスの起動順序を確認)"
 
-#: ../../build/doc/index.rst:25
+#: ../../build/doc/index.rst:29
 msgid "Press \"Enter\" to startup & login."
 msgstr "\"Enter\" キーを押して起動し、ログイン"
 
-#: ../../build/doc/index.rst:26
+#: ../../build/doc/index.rst:30
 msgid "Select and run applications from the \"Geospatial\" menu."
 msgstr "\"Geospatial\" メニューからアプリケーションを選択し、実行"
 
-#: ../../build/doc/index.rst:28
+#: ../../build/doc/index.rst:32
 msgid ""
-"OSGeoLive is an `OSGeo Foundation <https://www.osgeo.org/>`_ project. The "
-"OSGeo Foundation is a not-for-profit supporting Geospatial Open Source "
+"OSGeoLive is an `OSGeo Foundation <https://www.osgeo.org/>`_ project. The"
+" OSGeo Foundation is a not-for-profit supporting Geospatial Open Source "
 "Software development, promotion and `education "
 "<https://www.osgeo.org/initiatives/geo-for-all/>`_."
 msgstr ""
-"OSGeoLive は `OSGeo財団 <https://www.osgeo.org/>`_ のプロジェクトです。OSGeo"
-"財団は、非営利で地理空間のオープンソースソフトウェアの開発、プロモーション、"
-"及び `教育 <https://www.osgeo.org/initiatives/geo-for-all/>`_ "
-"をサポートしています。"
+"OSGeoLive は `OSGeo財団 <https://www.osgeo.org/>`_ "
+"のプロジェクトです。OSGeo財団は、非営利で地理空間のオープンソースソフトウェアの開発、プロモーション、及び `教育 "
+"<https://www.osgeo.org/initiatives/geo-for-all/>`_ をサポートしています。"
 
-#: ../../build/doc/index.rst:34
+#: ../../build/doc/index.rst:38
 msgid "Quick Starts"
 msgstr "クイックスタート"
 
-#: ../../build/doc/index.rst:68
+#: ../../build/doc/index.rst:72
 msgid "Presentation"
 msgstr "プレゼンテーション"
 
-#: ../../build/doc/index.rst:70
+#: ../../build/doc/index.rst:74
 msgid ""
-"A half hour `presentation <presentation.html>`__, highlighting all OSGeoLive"
-" applications, is available with slides, script"
+"A half hour `presentation <presentation.html>`__, highlighting all "
+"OSGeoLive applications, is available with slides, script"
 msgstr ""
 "全ての OSGeoLive アプリケーションを取り上げた30分間の `プレゼンテーション <presentation.html>`__ "
 "がスライドや原稿とともに、利用可能です。"
@@ -106,10 +109,11 @@ msgstr "vmdk"
 msgid "nologo"
 msgstr "ロゴなし"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "OSGeo プロジェクト"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo コミュニティ"
+

@@ -148,7 +148,7 @@ msgid ""
 "<https://docs.geoserver.org/latest/en/user/extensions/printing/index.html>`_"
 msgstr ""
 "Intégration avec `MapFish Print <http://mapfish.github.io/mapfish-print-"
-"doc/>`_ et  `GeoServer Printing Module "
+"doc/>`_ et `GeoServer Printing Module "
 "<https://docs.geoserver.org/latest/en/user/extensions/printing/index.html>`_"
 
 #: ../../build/doc/overview/geoext_overview.rst:69

@@ -92,7 +92,7 @@ msgstr ""
 
 #: ../../build/doc/overview/gmt_overview.rst:59
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+"This project is only included on the OSGeoLive virtual machine disk (VMDK)"
 msgstr ""
 
 #: ../../build/doc/overview/gmt_overview.rst:62

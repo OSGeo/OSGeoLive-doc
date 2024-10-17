@@ -80,7 +80,7 @@ Run an SQL query
   MunicipalHalls table, but how about constrain by a GIS query, such as
   a Bounding Box query instead.
 
-#. Now let's try tweaking this SQL statement to get NOME and (Lat,Long) for only the NOME_PROV fields include "BRESCIA", this time using the MunicipalHallsView.  In the upper right SQL pane type::
+#. Now let's try tweaking this SQL statement to get NOME and (Lat,Long) for only the NOME_PROV fields include "BRESCIA", this time using the MunicipalHallsView. In the upper right SQL pane type::
 
     SELECT NOME, X(Geometry) AS Longitude, Y(Geometry) AS Latitude
         FROM "MunicipalHallsView"

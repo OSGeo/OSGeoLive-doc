@@ -240,7 +240,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/R_quickstart.rst:275
 msgid ""
-"You might also want to check out the  `R-Spatial "
+"You might also want to check out the `R-Spatial "
 "<https://r-spatial.org>`_ and `RSpatial <https://rspatial.org>`_ pages."
 msgstr ""
 

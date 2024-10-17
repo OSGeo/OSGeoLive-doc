@@ -123,7 +123,7 @@ msgid ""
 "including photogrammetry models, 3D buildings, CAD and BIM exterior and "
 "interiors, and point clouds."
 msgstr ""
-"Utilisez des `tuiles 3D  <https://cesium.com/blog/2017/07/12/the-next-"
+"Utilisez des `tuiles 3D <https://cesium.com/blog/2017/07/12/the-next-"
 "generation-of-3d-tiles/>`_ pour diffuser, styliser et interagir avec des "
 "données 3D hétérogènes, incluant des modèles photogrammétriques, des "
 "bâtiments 3D , des intérieurs et extérieurs CAO ou BIM et des nuages de "
@@ -179,10 +179,10 @@ msgstr "**Version du logiciel:** |version-cesium|"
 
 #: ../../build/doc/overview/cesium_overview.rst:65
 msgid ""
-"**Supported Platforms:**  Platform independent, depends only on a browser "
+"**Supported Platforms:** Platform independent, depends only on a browser "
 "which supports WebGL"
 msgstr ""
-"**Plates-formes supportées:**  Plateforme indépendant, dépend seulement d'un"
+"**Plates-formes supportées:** Plateforme indépendant, dépend seulement d'un"
 " navigateur qui supporte WebGL"
 
 #: ../../build/doc/overview/cesium_overview.rst:67

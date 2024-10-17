@@ -1,27 +1,28 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # Hiroshi Miura <miurahr@northside.tokyo>, 2021
 # Ko Nagase <nagase@georepublic.co.jp>, 2022
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-06 09:15-0500\n"
+"POT-Creation-Date: 2024-09-01 23:33+0000\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2022\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: ja\n"
+"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)"
+"\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:9
 msgid "Getting started with OSGeoLive"
@@ -69,23 +70,24 @@ msgstr "実行"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:30
 msgid ""
-"Source an OSGeoLive DVD, ISO available from: [:doc:`Download <../download>`]"
-" Put the DVD into your computer's CD drive, then reboot your computer."
+"Source an OSGeoLive DVD, ISO available from: [:doc:`Download "
+"<../download>`] Put the DVD into your computer's CD drive, then reboot "
+"your computer."
 msgstr ""
-"OSGeoLive DVD、ISO のソースは以下から利用可能です: [:doc:`Download <../download>`] コンピュータの "
-"CD ドライブに DVD を挿入して、コンピュータを再起動します。"
+"OSGeoLive DVD、ISO のソースは以下から利用可能です: [:doc:`Download <../download>`] "
+"コンピュータの CD ドライブに DVD を挿入して、コンピュータを再起動します。"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:33
 msgid ""
-"If your computer is set to boot from CD (as is often the case) you should "
-"boot up into a Lubuntu system, with Geospatial applications installed. "
+"If your computer is set to boot from CD (as is often the case) you should"
+" boot up into a Lubuntu system, with Geospatial applications installed. "
 "Otherwise you'll have to adjust the BIOS boot settings or press the boot "
 "menu button just after powering-up."
 msgstr ""
 "コンピューターが CD から起動可能になっていれば、地理空間アプリケーションをインストールした Lubuntu のシステムが起動します。CD "
 "から起動可能になっていない場合には BIOS の設定を変更するか、電源投入時に起動メニューボタンを押してください。"
 
-#: ../../build/doc/quickstart/osgeolive_quickstart.rst:0
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst
 msgid "boot"
 msgstr "起動"
 
@@ -93,9 +95,9 @@ msgstr "起動"
 msgid "Sit back while the system boots up."
 msgstr "システムが起動されるまで待ちます"
 
-#: ../../build/doc/quickstart/osgeolive_quickstart.rst:0
-msgid "boot select"
-msgstr "起動後の選択"
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst
+msgid "menu"
+msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:48
 msgid "Try the many applications from the :menuselection:`Geospatial` menu."
@@ -122,8 +124,8 @@ msgstr "Ubuntu オペレーティングシステム入門:"
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:57
 msgid ""
 "`local eBook "
-"<file:///usr/local/share/doc/Getting_Started_with_Ubuntu_13.10.pdf>`_ and "
-"`extended online help <https://help.ubuntu.com>`_"
+"<file:///usr/local/share/doc/Getting_Started_with_Ubuntu_13.10.pdf>`_ and"
+" `extended online help <https://help.ubuntu.com>`_"
 msgstr ""
 "`ローカルの eBook "
 "<file:///usr/local/share/doc/Getting_Started_with_Ubuntu_13.10.pdf>`_ と "
@@ -149,10 +151,11 @@ msgstr "vmdk"
 msgid "nologo"
 msgstr "ロゴなし"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "OSGeo プロジェクト"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo コミュニティ"
+

@@ -55,7 +55,7 @@ Details
 
 **Software Version:** |version-cesium|
 
-**Supported Platforms:**  Platform independent, depends only on a browser which supports WebGL
+**Supported Platforms:** Platform independent, depends only on a browser which supports WebGL
 
 **Community Support:** Forum at https://community.cesium.com
 

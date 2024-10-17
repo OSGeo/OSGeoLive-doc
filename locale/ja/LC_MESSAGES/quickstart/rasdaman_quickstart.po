@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:15
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+"This project is only included on the OSGeoLive virtual machine disk (VMDK)"
 msgstr "このプロジェクトはOSGeoLive仮想マシンディスク(VMDK)にのみ含まれています"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:23
@@ -100,7 +100,7 @@ msgid ""
 "http://localhost:8080/rasdaman/ows?query=your_query and run it using a "
 "browser."
 msgstr ""
-"クエリーを次のURLに追加し、ブラウザーを使って実行します:  "
+"クエリーを次のURLに追加し、ブラウザーを使って実行します: "
 "http://localhost:8080/rasdaman/ows?query=your_query "
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:56
@@ -146,7 +146,7 @@ msgid ""
 msgstr ""
 "ブラウザで実行するには、 `サブセットリクエスト "
 "<http://localhost:8080/rasdaman/ows?query=for%20c%20 in%20(NIR)%20 return%20"
-" encode%28c[i(0:500), j(0:500)],%20%22 png%22%29>`_  をクリックします。"
+" encode%28c[i(0:500), j(0:500)],%20%22 png%22%29>`_ をクリックします。"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:86
 msgid "The query result is an image as follows:"
@@ -200,13 +200,13 @@ msgstr ""
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:130
 msgid ""
-"Learn more about the OGC  |WCPS| Language standard (which was heavily "
+"Learn more about the OGC |WCPS| Language standard (which was heavily "
 "inspired by rasdaman); a good starting point is the `documentation and "
-"tutorials page <https://standards.rasdaman.com/>`_  and `WCPS Query SandBox "
+"tutorials page <https://standards.rasdaman.com/>`_ and `WCPS Query SandBox "
 "<http://localhost/rasdaman-demo/demo/client/query-sandbox.html>`_."
 msgstr ""
-"OGC  |WCPS| 言語標準 (rasdamanに影響されて制定された)について、学んでください。 `ドキュメントとチュートリアルのページ "
-"<https://standards.rasdaman.com/>`_  そして、 `WCPS Query SandBox "
+"OGC |WCPS| 言語標準 (rasdamanに影響されて制定された)について、学んでください。 `ドキュメントとチュートリアルのページ "
+"<https://standards.rasdaman.com/>`_ そして、 `WCPS Query SandBox "
 "<http://localhost/rasdaman-demo/demo/client/query-sandbox.html>`_ "
 "が良い出発点になるでしょう。 "
 
@@ -237,7 +237,7 @@ msgid ""
 msgstr ""
 "インタラクティブな1-Dから4-Dのrasdamanのデモを見るには、 `多次元デモ <http://localhost/rasdaman-"
 "demo>`_ をご覧ください。OSGeoLive に含まれているのは小さい例です。 `OGC標準ショーケースサイト "
-"<https://standards.rasdaman.com>`_  "
+"<https://standards.rasdaman.com>`_ "
 "では、(ドライブ容量をこえるような)大きなデータセットを使っている例を見ることができます。"
 
 #: ../../build/doc/<rst_epilog>:13

@@ -114,7 +114,7 @@ msgid ""
 "Visualize basemaps from OSM, Bingsat, Lansat, MapBox satellite, MapQuest "
 "Open Aerial or any other WMS sources."
 msgstr ""
-"Visualiser  les fonds de carte à partir d'OSM, Bingsat, Landsat, MapBox "
+"Visualiser les fonds de carte à partir d'OSM, Bingsat, Landsat, MapBox "
 "satellite, MapQuest Open Aerial ou n'importe quelle source WMS."
 
 #: ../../build/doc/overview/josm_overview.rst:53
@@ -127,7 +127,7 @@ msgid ""
 " node to way, and more."
 msgstr ""
 "Noeuds: fusionner, joindre, séparer, distribuer, aligner dans un cercle, "
-"aligner sur un ligne, joindre  un noeud à une ligne, et plus."
+"aligner sur un ligne, joindre un noeud à une ligne, et plus."
 
 #: ../../build/doc/overview/josm_overview.rst:56
 msgid "Ways: split, combine, reverse, simplify, unglue ways, and more."
@@ -146,7 +146,7 @@ msgstr "Cartographie audio: gestion des enregistrements de levés."
 
 #: ../../build/doc/overview/josm_overview.rst:61
 msgid "Photo mapping: survey pictures management."
-msgstr "Photos de cartographie:  gestion des photographies de levés."
+msgstr "Photos de cartographie: gestion des photographies de levés."
 
 #: ../../build/doc/overview/josm_overview.rst:63
 msgid "Plugins: A list of specialized plugins are available for download."

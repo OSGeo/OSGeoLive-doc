@@ -128,7 +128,7 @@ msgstr "SQLクエリを実行する"
 msgid ""
 "Now let's try tweaking this SQL statement to get NOME and (Lat,Long) for "
 "only the NOME_PROV fields include \"BRESCIA\", this time using the "
-"MunicipalHallsView.  In the upper right SQL pane type::"
+"MunicipalHallsView. In the upper right SQL pane type::"
 msgstr "次に、このSQL文を調整して、NOME_PROVフィールドだけのNOMEと(Lat,Long)を取得してみましょう。NOME_PROVフィールドには\"BRESCIA\"が含まれます。今度はMunicipalHallsViewを使用します。右上のSQLペインで、次のように入力します::"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:93

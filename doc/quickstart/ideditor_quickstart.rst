@@ -68,7 +68,7 @@ Configuring the background layer
 
 #. You also can **change the background layer** based on your desired tile provider (the default is Bing Aerial Imagery).
 
-#. You can add your own map tiles by clicking on **Custom**. For example,   if you want to **add a Field Paper**  [1], click **Custom** then   click on the magnifying glass (search) icon to open the following window:
+#. You can add your own map tiles by clicking on **Custom**. For example, if you want to **add a Field Paper** [1], click **Custom** then click on the magnifying glass (search) icon to open the following window:
 
    |image17|
 

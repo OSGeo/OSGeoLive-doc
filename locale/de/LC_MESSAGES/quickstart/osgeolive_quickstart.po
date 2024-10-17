@@ -1,28 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # Astrid Emde <astrid_emde@osgeo.org>, 2022
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-06 09:15-0500\n"
+"POT-Creation-Date: 2024-09-01 23:33+0000\n"
 "PO-Revision-Date: 2024-10-14 15:25+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
-"Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
-"osgeolive_quickstart/de/>\n"
 "Language: de\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: German "
+"<https://weblate.osgeo.org/projects/osgeolive/osgeolive_quickstart/de/>\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4.3\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:9
 msgid "Getting started with OSGeoLive"
@@ -61,13 +60,14 @@ msgstr "Nicht benötigt, wenn sie direkt von DVD läuft"
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:23
 msgid "|osgeolive-hdspace| if you wish to install the operating system."
 msgstr ""
-"|osgeolive-hdspace| , wenn Sie das System auf der Festplatte installieren "
-"möchten."
+"|osgeolive-hdspace| , wenn Sie das System auf der Festplatte installieren"
+" möchten."
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:25
 msgid "Mouse: a 3-button mouse is useful, especially for Mac trackpad users."
 msgstr ""
-"Maus: eine 3-Button Maus ist nützlich, vor allem für Mac Trackpad Benutzer."
+"Maus: eine 3-Button Maus ist nützlich, vor allem für Mac Trackpad "
+"Benutzer."
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:28
 msgid "Run:"
@@ -75,8 +75,9 @@ msgstr "Starten:"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:30
 msgid ""
-"Source an OSGeoLive DVD, ISO available from: [:doc:`Download <../download>`]"
-" Put the DVD into your computer's CD drive, then reboot your computer."
+"Source an OSGeoLive DVD, ISO available from: [:doc:`Download "
+"<../download>`] Put the DVD into your computer's CD drive, then reboot "
+"your computer."
 msgstr ""
 "Erstellen Sie eine OSGeoLive DVD von: [:doc:`Download <../download>`]. "
 "Brennen Sie das Abbild auf eine DVD und legen Sie diese in das Laufwerk "
@@ -84,17 +85,18 @@ msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:33
 msgid ""
-"If your computer is set to boot from CD (as is often the case) you should "
-"boot up into a Lubuntu system, with Geospatial applications installed. "
+"If your computer is set to boot from CD (as is often the case) you should"
+" boot up into a Lubuntu system, with Geospatial applications installed. "
 "Otherwise you'll have to adjust the BIOS boot settings or press the boot "
 "menu button just after powering-up."
 msgstr ""
-"Wenn ihr Computer entsprechend eingestellt ist (wie es häufig der Fall ist) "
-"startet er jetzt von der DVD ein Lubuntu mit installierten Geodaten-"
-"Anwendungen. Ansonsten müssen Sie im BIOS die Starteinstellungen ändern oder"
-" den Bootmenü-Button (sofern vorhanden) direkt nach dem Einschalten drücken."
+"Wenn ihr Computer entsprechend eingestellt ist (wie es häufig der Fall "
+"ist) startet er jetzt von der DVD ein Lubuntu mit installierten Geodaten-"
+"Anwendungen. Ansonsten müssen Sie im BIOS die Starteinstellungen ändern "
+"oder den Bootmenü-Button (sofern vorhanden) direkt nach dem Einschalten "
+"drücken."
 
-#: ../../build/doc/quickstart/osgeolive_quickstart.rst:0
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst
 msgid "boot"
 msgstr ""
 
@@ -102,14 +104,15 @@ msgstr ""
 msgid "Sit back while the system boots up."
 msgstr "Lehnen Sie sich zurück, während das System startet."
 
-#: ../../build/doc/quickstart/osgeolive_quickstart.rst:0
-msgid "boot select"
-msgstr "Start-Auswahl"
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst
+msgid "menu"
+msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:48
 msgid "Try the many applications from the :menuselection:`Geospatial` menu."
 msgstr ""
-"Testen Sie die vielen Anwendungen aus dem :menuselection:`Geospatial` Menü."
+"Testen Sie die vielen Anwendungen aus dem :menuselection:`Geospatial` "
+"Menü."
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:51
 msgid "See Also:"
@@ -132,12 +135,12 @@ msgstr "Einstieg in das Ubuntu Betriebssystem:"
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:57
 msgid ""
 "`local eBook "
-"<file:///usr/local/share/doc/Getting_Started_with_Ubuntu_13.10.pdf>`_ and "
-"`extended online help <https://help.ubuntu.com>`_"
+"<file:///usr/local/share/doc/Getting_Started_with_Ubuntu_13.10.pdf>`_ and"
+" `extended online help <https://help.ubuntu.com>`_"
 msgstr ""
 "`local eBook "
-"<file:///usr/local/share/doc/Getting_Started_with_Ubuntu_13.10.pdf>`_ und "
-"`Erweiterte Online Hilfe <https://help.ubuntu.com>`_"
+"<file:///usr/local/share/doc/Getting_Started_with_Ubuntu_13.10.pdf>`_ und"
+" `Erweiterte Online Hilfe <https://help.ubuntu.com>`_"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:58
 msgid ":doc:`virtualization_quickstart`"
@@ -159,10 +162,11 @@ msgstr "vmdk"
 msgid "nologo"
 msgstr "nologo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "OSGeo Projekt"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo Community"
+

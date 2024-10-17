@@ -30,7 +30,7 @@ msgstr ""
 msgid ""
 "pycsw is an OGC CSW server implementation written in `Python "
 "<https://www.python.org>`_. pycsw allows for the publishing and discovery of"
-" geospatial metadata.  Existing repositories of geospatial metadata can be "
+" geospatial metadata. Existing repositories of geospatial metadata can be "
 "exposed via OGC:CSW 2.0.2 or OGC:CSW 3.0.0."
 msgstr ""
 
@@ -210,7 +210,7 @@ msgstr ""
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:117
 msgid ""
 "The database created is an |SFS| compliant database, and can be used with "
-"any implementing software.  For example, to use with `OGR`_:"
+"any implementing software. For example, to use with `OGR`_:"
 msgstr ""
 
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:129

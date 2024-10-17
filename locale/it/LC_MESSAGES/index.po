@@ -1,125 +1,131 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
 # Translators:
 # Luca Delucchi <lucadeluge@gmail.com>, 2017
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # Stefano Campus <skampus@gmail.com>, 2022
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-21 20:07+0000\n"
+"POT-Creation-Date: 2024-10-17 17:51+0000\n"
 "PO-Revision-Date: 2024-10-14 13:51+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
-"Language-Team: Italian <https://weblate.osgeo.org/projects/osgeolive/index/"
-"it/>\n"
 "Language: it\n"
+"Language-Team: Italian "
+"<https://weblate.osgeo.org/projects/osgeolive/index/it/>\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 "
+"== 0) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
-" ? 1 : 2);\n"
-"X-Generator: Weblate 5.4.3\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/index.rst:3
 msgid "Welcome to |osgeolive-version|"
 msgstr "Benvenuti in |osgeolive-version|"
 
-#: ../../build/doc/index.rst:5
+#, fuzzy
+msgid "Logo"
+msgstr "nologo"
+
+#: ../../build/doc/index.rst:9
+#, fuzzy
 msgid ""
-"`OSGeoLive <https://live.osgeo.org>`_ is a self-contained bootable DVD, USB "
-"thumb drive or Virtual Machine based on `Lubuntu <https://lubuntu.net>`_, "
-"that allows you to try a wide variety of open source geospatial software "
-"without installing anything. It is composed entirely of free software, "
-"allowing it to be freely distributed, duplicated and passed around."
+"`OSGeoLive <https://live.osgeo.org>`_ is a self-contained bootable DVD, "
+"USB thumb drive or Virtual Machine based on `Lubuntu "
+"<https://lubuntu.me>`_, that allows you to try a wide variety of open "
+"source geospatial software without installing anything. It is composed "
+"entirely of free software, allowing it to be freely distributed, "
+"duplicated and passed around."
 msgstr ""
-"`OSGeoLive <https://live.osgeo.org>`_ è un DVD, unità USB o Virtual Machine "
-"avviabile basato su `Lubuntu <https://lubuntu.net>`_, che permette di "
-"provare una grande varietà di software a sorgente aperta senza installare "
-"nulla. È composta interamente di software libero, che permette di "
-"distribuirlo, duplicarlo e passarlo in giro liberamente."
+"`OSGeoLive <https://live.osgeo.org>`_ è un DVD, unità USB o Virtual "
+"Machine avviabile basato su `Lubuntu <https://lubuntu.net>`_, che "
+"permette di provare una grande varietà di software a sorgente aperta "
+"senza installare nulla. È composta interamente di software libero, che "
+"permette di distribuirlo, duplicarlo e passarlo in giro liberamente."
 
-#: ../../build/doc/index.rst-1
-msgid "boot select"
-msgstr "selezione del boot"
+msgid "Menu"
+msgstr ""
 
-#: ../../build/doc/index.rst:17
+#: ../../build/doc/index.rst:21
 msgid ""
-"It provides pre-configured applications for a range of geospatial use cases,"
-" including storage, publishing, viewing, analysis and manipulation of data. "
-"It also contains sample datasets and documentation."
+"It provides pre-configured applications for a range of geospatial use "
+"cases, including storage, publishing, viewing, analysis and manipulation "
+"of data. It also contains sample datasets and documentation."
 msgstr ""
 "Fornisce software preconfigurati per una serie di utilizzi nel campo "
 "geospaziale, includendo archiviazione, pubblicazione, visualizzazione, "
 "analisi e gestione dei dati. Inolte contiene dati di esempio e "
 "documentazione."
 
-#: ../../build/doc/index.rst:21
+#: ../../build/doc/index.rst:25
 msgid "To try out the applications, simply:"
 msgstr "Per provare i software bisogna semplicemente:"
 
-#: ../../build/doc/index.rst:23
+#: ../../build/doc/index.rst:27
 msgid "Insert DVD or USB thumb drive in computer or virtual machine."
 msgstr "Inserire il DVD o l’unità USB nel computer o nella macchina virtuale."
 
-#: ../../build/doc/index.rst:24
+#: ../../build/doc/index.rst:28
 msgid "Reboot computer. (verify boot device order if necessary)"
 msgstr ""
-"Riavviare il computer. (controllare l’ordine delle periferiche per l’avvio "
-"se necessario)"
+"Riavviare il computer. (controllare l’ordine delle periferiche per "
+"l’avvio se necessario)"
 
-#: ../../build/doc/index.rst:25
+#: ../../build/doc/index.rst:29
 msgid "Press \"Enter\" to startup & login."
 msgstr "Premere “Invio” per avviare e fare il login."
 
-#: ../../build/doc/index.rst:26
+#: ../../build/doc/index.rst:30
 msgid "Select and run applications from the \"Geospatial\" menu."
 msgstr "Provare le applicazioni dal menu “Geospatial”."
 
-#: ../../build/doc/index.rst:28
+#: ../../build/doc/index.rst:32
 msgid ""
-"OSGeoLive is an `OSGeo Foundation <https://www.osgeo.org/>`_ project. The "
-"OSGeo Foundation is a not-for-profit supporting Geospatial Open Source "
+"OSGeoLive is an `OSGeo Foundation <https://www.osgeo.org/>`_ project. The"
+" OSGeo Foundation is a not-for-profit supporting Geospatial Open Source "
 "Software development, promotion and `education "
 "<https://www.osgeo.org/initiatives/geo-for-all/>`_."
 msgstr ""
-"OSGeoLive è un progetto della `Fondazione OSGeo <https://www.osgeo.org/>`_. "
-"La Fondazione OSGeo è un'associazione no profit che supporta lo sviluppo, la"
-" promozione e `educazione <https://www.osgeo.org/initiatives/geo-for-all/>`_"
-" del software geografico libero e open source "
+"OSGeoLive è un progetto della `Fondazione OSGeo "
+"<https://www.osgeo.org/>`_. La Fondazione OSGeo è un'associazione no "
+"profit che supporta lo sviluppo, la promozione e `educazione "
+"<https://www.osgeo.org/initiatives/geo-for-all/>`_ del software "
+"geografico libero e open source "
 
-#: ../../build/doc/index.rst:34
+#: ../../build/doc/index.rst:38
 msgid "Quick Starts"
 msgstr "Guide rapide"
 
-#: ../../build/doc/index.rst:68
+#: ../../build/doc/index.rst:72
 msgid "Presentation"
 msgstr "Presentazione"
 
-#: ../../build/doc/index.rst:70
+#: ../../build/doc/index.rst:74
 msgid ""
-"A half hour `presentation <presentation.html>`__, highlighting all OSGeoLive"
-" applications, is available with slides, script"
+"A half hour `presentation <presentation.html>`__, highlighting all "
+"OSGeoLive applications, is available with slides, script"
 msgstr ""
-"Una `presentazione <presentation.html>`__, di mezz’ora, che evidenzia tutti "
-"i software di OSGeoLive, è disponibile insieme alle slides, script"
+"Una `presentazione <presentation.html>`__, di mezz’ora, che evidenzia "
+"tutti i software di OSGeoLive, è disponibile insieme alle slides, script"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr "nologo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "Progetto OSGeo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "Comunità OSGeo"
+

@@ -114,7 +114,7 @@ msgid "Implemented Standards"
 msgstr "Padrões Implementados"
 
 #: ../../build/doc/overview/mapcache_overview.rst:56
-msgid "Support of numerous Open Geospatial Consortium  (OGC) standards"
+msgid "Support of numerous Open Geospatial Consortium (OGC) standards"
 msgstr ""
 
 #: ../../build/doc/overview/mapcache_overview.rst:58

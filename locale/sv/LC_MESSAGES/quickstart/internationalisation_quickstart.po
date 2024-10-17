@@ -48,7 +48,7 @@ msgstr "Välj ett annat språk från menyn på den översta panelen."
 
 #: ../../build/doc/quickstart/internationalisation_quickstart.rst:20
 msgid "Press the :guilabel:`Log in` button."
-msgstr "Tryck på  :guilabel:`Log in` knappen."
+msgstr "Tryck på :guilabel:`Log in` knappen."
 
 #: ../../build/doc/quickstart/internationalisation_quickstart.rst:21
 msgid "Repeat the process if needed or if you wish to change languages again."

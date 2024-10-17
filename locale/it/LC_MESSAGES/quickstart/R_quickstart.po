@@ -12,19 +12,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"POT-Creation-Date: 2024-08-17 15:05-0600\n"
 "PO-Revision-Date: 2024-05-02 06:45+0000\n"
 "Last-Translator: luca <lucadeluge@gmail.com>\n"
-"Language-Team: Italian <https://weblate.osgeo.org/projects/osgeolive/"
-"r_quickstart/it/>\n"
 "Language: it\n"
+"Language-Team: Italian "
+"<https://weblate.osgeo.org/projects/osgeolive/r_quickstart/it/>\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 "
+"== 0) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
-" ? 1 : 2);\n"
-"X-Generator: Weblate 5.4.3\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:18
 msgid "R Quickstart"
@@ -85,7 +84,8 @@ msgstr ""
 #: ../../build/doc/quickstart/R_quickstart.rst:43
 msgid "Choose |menu_R Statistics|. A terminal window opens running R."
 msgstr ""
-"Scegli |menu_R Statistics|. Si apre una finestra di terminale che esegue R."
+"Scegli |menu_R Statistics|. Si apre una finestra di terminale che esegue "
+"R."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:45
 msgid "You can start with simple arithmetic."
@@ -323,9 +323,10 @@ msgstr ""
 "<https://cran.r-project.org/web/views/Spatial.html>`_"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:275
+#, fuzzy
 msgid ""
-"You might also want to check out the `R-Spatial "
-"<https://www.rspatial.org>`_ page."
+"You might also want to check out the `R-Spatial <https://r-spatial.org>`_"
+" and `RSpatial <https://rspatial.org>`_ pages."
 msgstr ""
 "Potresti anche voler controllare la pagina `R-Spatial "
 "<https://www.rspatial.org>`_."
@@ -345,3 +346,4 @@ msgstr "Progetto OSGeo"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "Comunità OSGeo"
+

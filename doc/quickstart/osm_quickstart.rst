@@ -133,7 +133,7 @@ QuickOSM
 #. Search for all the pubs in the FOSS4G city
 #. Choose key `amenity`, value `pub`, in `Buenos Aires`
 #. Show the query to see the Overpass query
-#. Click  `Run query`. The resulting data will be loaded in your QGIS project as temporal data
+#. Click `Run query`. The resulting data will be loaded in your QGIS project as temporal data
 #. You can now save the data via `Export -> Save as....`. Choose i.e. Geopackage and save the data as `buenos_aires_pubs`.
 
 .. tip:: You also find many OSM Plugins for QGIS. Search for `OSM` in the plugin repository.

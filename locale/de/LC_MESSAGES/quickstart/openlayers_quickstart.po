@@ -285,7 +285,7 @@ msgstr "Anwenden eines Stils auf Objekte"
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:233
 msgid ""
 "Features within vector layers can be styled. The style is determined by a "
-"combination of fill, stroke, text  and image, which are all optional. In "
+"combination of fill, stroke, text and image, which are all optional. In "
 "addition, a style can be applied to a layer, which determines the style of "
 "all contained features, or to an individual feature."
 msgstr ""

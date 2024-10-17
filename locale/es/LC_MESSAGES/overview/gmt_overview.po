@@ -105,7 +105,7 @@ msgstr "**Soporte:** https://forum.generic-mapping-tools.org/"
 
 #: ../../build/doc/overview/gmt_overview.rst:59
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk "
+"This project is only included on the OSGeoLive virtual machine disk "
 "(VMDK)"
 msgstr ""
 "Este proyecto solo se incluye en el disco de máquina virtual OSGeoLive "

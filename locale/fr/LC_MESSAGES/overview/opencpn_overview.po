@@ -95,7 +95,7 @@ msgstr "décodage d'entrées AIS"
 msgid ""
 "NMEA GPS or `Gpsd <https://www.berlios.de/software/gpsd/>`_ daemon input"
 msgstr ""
-"entrée de données GPS NMEA GPS ou  `Gpsd "
+"entrée de données GPS NMEA GPS ou `Gpsd "
 "<https://www.berlios.de/software/gpsd/>`_"
 
 #: ../../build/doc/overview/opencpn_overview.rst:41

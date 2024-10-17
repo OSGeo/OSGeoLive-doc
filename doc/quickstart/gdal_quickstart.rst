@@ -127,7 +127,7 @@ Translation
 ===========
 
 Translations are accomplished with the gdal_translate command. The
-default output format is GeoTIFF.  The `-of` flag is used to select an
+default output format is GeoTIFF. The `-of` flag is used to select an
 output format and the -co flag is used to specify a creation option:
 
 ::
@@ -241,8 +241,8 @@ Here we reproject to the Ortho projection.
 .. image:: /images/projects/gdal/gdal_ortho.png
      :scale: 80
 
-Note how the poles are clipped?  This is because the edges at the pole
-can't be reprojected gdalwarp does not read all the data.  We can force
+Note how the poles are clipped? This is because the edges at the pole
+can't be reprojected gdalwarp does not read all the data. We can force
 gdalwarp to read a bunch of surplus data around chunks as one way to
 resolve this.
 

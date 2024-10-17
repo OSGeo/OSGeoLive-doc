@@ -59,7 +59,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:49
 msgid "Manage data from the ``pgAdmin`` client."
-msgstr "Hallitse tietoja  \"pgAdmin\"-client-ohjelmistosta."
+msgstr "Hallitse tietoja \"pgAdmin\"-client-ohjelmistosta."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:53
 msgid "Contents"
@@ -149,7 +149,7 @@ msgid ""
 "The list uses a standard unix pager - hit space for next page, :kbd:`b` "
 "to go back, :kbd:`q` to quit, h for help."
 msgstr ""
-"Luettelo käyttää standardinomaisesti UNIX:ia  - paina space-näppäintä "
+"Luettelo käyttää standardinomaisesti UNIX:ia - paina space-näppäintä "
 "päästäksesi seuraavalle sivulle,: KBD: ' b ' mennäksesi takaisin,: KBD: '"
 " q ' lopettaaksesi, h löytääksesi apuja."
 
@@ -303,7 +303,7 @@ msgid ""
 "`geography` - is a data type that stores data as vectors drawn on a "
 "spheroidal surface"
 msgstr ""
-"`geography` - on tietotyyppi, joka tallentaa vektoritietoja piirrettynä  "
+"`geography` - on tietotyyppi, joka tallentaa vektoritietoja piirrettynä "
 "pallopinnalle (maantieteelliset koordinaatit)"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:224
@@ -569,7 +569,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:420
 msgid ""
-"Deploys the Postgis item, then the NaturalEarth item. It will then  "
+"Deploys the Postgis item, then the NaturalEarth item. It will then "
 "connect to the Natural Earth database. Leave the password blank if it "
 "asks. In the public item, there is the list of the layers provided by the"
 " database. You'll see the main manager window. On the left you can select"
@@ -658,9 +658,9 @@ msgstr ""
 #: ../../build/doc/quickstart/postgis_quickstart.rst:483
 msgid ""
 "Here, you have the option of creating a new connection to a PostgreSQL "
-"server, or connecting to an existing server. The red \"X\" on the  "
+"server, or connecting to an existing server. The red \"X\" on the "
 "``PostgreSQL`` server denotes that you haven't been yet connected. Click "
-"on it  then enter the user name  ``user`` and the master password  "
+"on it then enter the user name ``user`` and the master password "
 "``user``."
 msgstr ""
 
@@ -742,7 +742,7 @@ msgid "pgAdmin"
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:547
-msgid "Enter the master password  ``user``."
+msgid "Enter the master password ``user``."
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:549
@@ -965,7 +965,7 @@ msgid ""
 "documentation at http://postgis.net/documentation/"
 msgstr ""
 "Kokeile joitain enemmän tilatoimintoja, kuten``st_buffer(geom)``, "
-"``st_transform(geom,25831)``, ``st_x(geom)`` -  löydät täydelliset ohjeet"
+"``st_transform(geom,25831)``, ``st_x(geom)`` - löydät täydelliset ohjeet"
 " osoitteesta http://postgis.net/documentation/"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:749
@@ -1001,12 +1001,12 @@ msgid ""
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:764
-msgid "PostGIS Project home -  http://postgis.net"
-msgstr "PostGIS-projektin koti -  http://postgis.net"
+msgid "PostGIS Project home - http://postgis.net"
+msgstr "PostGIS-projektin koti - http://postgis.net"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:766
-msgid "PostGIS Documentation -  http://postgis.net/documentation/"
-msgstr "PostGIS-dokumentaatio -  http://postgis.net/documentation/"
+msgid "PostGIS Documentation - http://postgis.net/documentation/"
+msgstr "PostGIS-dokumentaatio - http://postgis.net/documentation/"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"

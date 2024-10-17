@@ -1,25 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # abc Def <hdogan1974@gmail.com>, 2020
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-15 20:42-0600\n"
+"POT-Creation-Date: 2024-09-01 23:33+0000\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
 "Last-Translator: abc Def <hdogan1974@gmail.com>, 2020\n"
-"Language-Team: Turkish (Turkey) (https://app.transifex.com/osgeo/teams/66156/tr_TR/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: tr_TR\n"
+"Language-Team: Turkish (Turkey) "
+"(https://app.transifex.com/osgeo/teams/66156/tr_TR/)\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:9
 msgid "Getting started with OSGeoLive"
@@ -67,19 +68,20 @@ msgstr "Çalıştır:"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:30
 msgid ""
-"Source an OSGeoLive DVD, ISO available from: [:doc:`Download <../download>`]"
-" Put the DVD into your computer's CD drive, then reboot your computer."
+"Source an OSGeoLive DVD, ISO available from: [:doc:`Download "
+"<../download>`] Put the DVD into your computer's CD drive, then reboot "
+"your computer."
 msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:33
 msgid ""
-"If your computer is set to boot from CD (as is often the case) you should "
-"boot up into a Lubuntu system, with Geospatial applications installed. "
+"If your computer is set to boot from CD (as is often the case) you should"
+" boot up into a Lubuntu system, with Geospatial applications installed. "
 "Otherwise you'll have to adjust the BIOS boot settings or press the boot "
 "menu button just after powering-up."
 msgstr ""
 
-#: ../../build/doc/quickstart/osgeolive_quickstart.rst:0
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst
 msgid "boot"
 msgstr ""
 
@@ -87,8 +89,8 @@ msgstr ""
 msgid "Sit back while the system boots up."
 msgstr ""
 
-#: ../../build/doc/quickstart/osgeolive_quickstart.rst:0
-msgid "boot select"
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst
+msgid "menu"
 msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:48
@@ -116,8 +118,8 @@ msgstr ""
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:57
 msgid ""
 "`local eBook "
-"<file:///usr/local/share/doc/Getting_Started_with_Ubuntu_13.10.pdf>`_ and "
-"`extended online help <https://help.ubuntu.com>`_"
+"<file:///usr/local/share/doc/Getting_Started_with_Ubuntu_13.10.pdf>`_ and"
+" `extended online help <https://help.ubuntu.com>`_"
 msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:58
@@ -140,10 +142,11 @@ msgstr ""
 msgid "nologo"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr ""
+

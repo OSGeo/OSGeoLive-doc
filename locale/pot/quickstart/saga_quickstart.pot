@@ -229,7 +229,7 @@ msgid "After importing this dataset and opening it in a new window, you will mos
 msgstr ""
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:252
-msgid "These pixels actually have no data, so we should adjust the nodata settings: in the object properties window (after selecting the dataset in the workspace window), set the maximum no data value to -32768 and apply.  After doing that, we can reset our color scale to fit the range of the data. An easy method is right clicking on the grid in the workspace and choosing 'Classification|Set Range to minimum maximum'."
+msgid "These pixels actually have no data, so we should adjust the nodata settings: in the object properties window (after selecting the dataset in the workspace window), set the maximum no data value to -32768 and apply. After doing that, we can reset our color scale to fit the range of the data. An easy method is right clicking on the grid in the workspace and choosing 'Classification|Set Range to minimum maximum'."
 msgstr ""
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:259

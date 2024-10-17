@@ -411,7 +411,7 @@ Most of the OSGeo desktop tools have functions for importing spatial data from o
 
 Importing shapefiles to QGIS can be done via the handy QGIS Database Manager. You find the manager in the menu. Go to ``Database -> DB Manager``.
 
-Deploys the Postgis item, then the NaturalEarth item. It will then  connect to the Natural Earth database. Leave
+Deploys the Postgis item, then the NaturalEarth item. It will then connect to the Natural Earth database. Leave
 the password blank if it asks. In the public item, there is the list of the layers provided by the database. You'll see the main manager window. On the left you can select
 tables from the database and use the tabs on the right find out about them. The Preview tab
 will show you a little map.
@@ -475,8 +475,8 @@ from the Databases folder, existing on the OSGeoLive Desktop.
   :align: center
 
 Here, you have the option of creating a new connection to a PostgreSQL server, or connecting to an existing server.
-The red "X" on the  ``PostgreSQL`` server denotes that you haven't been yet connected.
-Click on it  then enter the user name  ``user`` and the master password  ``user``.
+The red "X" on the ``PostgreSQL`` server denotes that you haven't been yet connected.
+Click on it then enter the user name ``user`` and the master password ``user``.
 
 After connection established, you can see the list of the databases already existing in the system.
 
@@ -538,7 +538,7 @@ from the Databases folder, existing on the OSGeoLive Desktop.
   :alt: pgAdmin
   :align: center
 
-Enter the master password  ``user``.
+Enter the master password ``user``.
 
 Here, you have the option of creating a new connection to a PostgreSQL server, or connecting to an existing server.
 In this case, we are going to connect to the predefined ``localhost`` server.
@@ -755,6 +755,6 @@ What next?
 
 This is only the first step on the road to using PostGIS. There is a lot more functionality you can try.
 
-* PostGIS Project home -  http://postgis.net
+* PostGIS Project home - http://postgis.net
 
-* PostGIS Documentation -  http://postgis.net/documentation/
+* PostGIS Documentation - http://postgis.net/documentation/

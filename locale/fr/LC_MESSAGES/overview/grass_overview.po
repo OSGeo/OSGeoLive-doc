@@ -1,29 +1,28 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
 # Translators:
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2017
 # Harrissou Sant-anna, 2021
 # Nicolas Roelandt (Personnel), 2022
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2024-09-26 14:03+0000\n"
 "PO-Revision-Date: 2024-10-14 15:25+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
-"Language-Team: French <https://weblate.osgeo.org/projects/osgeolive/"
-"grass_overview/fr/>\n"
 "Language: fr\n"
+"Language-Team: French "
+"<https://weblate.osgeo.org/projects/osgeolive/grass_overview/fr/>\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n %"
+" 1000000 == 0) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
-"1000000 == 0) ? 1 : 2);\n"
-"X-Generator: Weblate 5.4.3\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/overview/grass_overview.rst:21
 msgid "GRASS GIS"
@@ -35,66 +34,68 @@ msgstr "SIG complet"
 
 #: ../../build/doc/overview/grass_overview.rst:26
 msgid ""
-"The Geographic Resources Analysis Support System, commonly referred to as "
-"GRASS, is a Geographic Information System (GIS) providing powerful raster, "
-"vector, and geospatial processing engines in a single integrated software "
-"suite. GRASS GIS includes tools for spatial modeling, visualization of "
-"raster and vector data, management and analysis of geospatial data, and the "
-"processing of satellite and aerial imagery. It comes with a temporal "
-"framework for advanced time series processing and a Python API for rapid "
-"geospatial programming. GRASS GIS has been optimized for performance and "
-"large geospatial data analysis. It also can produce sophisticated "
-"presentation graphics and hardcopy maps. GRASS GIS has been translated into "
-"many languages and supports a huge array of data formats."
+"The Geographic Resources Analysis Support System, commonly referred to as"
+" GRASS, is a Geographic Information System (GIS) providing powerful "
+"raster, vector, and geospatial processing engines in a single integrated "
+"software suite. GRASS GIS includes tools for spatial modeling, "
+"visualization of raster and vector data, management and analysis of "
+"geospatial data, and the processing of satellite and aerial imagery. It "
+"comes with a temporal framework for advanced time series processing and a"
+" Python API for rapid geospatial programming. GRASS GIS has been "
+"optimized for performance and large geospatial data analysis. It also can"
+" produce sophisticated presentation graphics and hardcopy maps. GRASS GIS"
+" has been translated into many languages and supports a huge array of "
+"data formats."
 msgstr ""
 "Le \"Geographic Resources Analysis Support System\", communément appelé "
 "GRASS est un Système d'Information Géographique (SIG) qui propose un "
 "puissant moteur de traitement raster, vecteur et traitement géospatial "
-"regroupé dans une suite logicielle unique. GRASS intègre des outils pour la "
-"modélisation spatiale, la visualisation de rasters et de vecteurs, la "
+"regroupé dans une suite logicielle unique. GRASS intègre des outils pour "
+"la modélisation spatiale, la visualisation de rasters et de vecteurs, la "
 "gestion et l'analyse de données géospatiales, et le traitement d'images "
-"satellites et aériennes. Il est fournit avec un framework temporel pour le "
-"traitement avancé de séries temporelles et une API Python pour la "
+"satellites et aériennes. Il est fournit avec un framework temporel pour "
+"le traitement avancé de séries temporelles et une API Python pour la "
 "programmation géospatiale rapide. Grass a été optimisé pour l'analyse de "
-"données géospatiales importante et performante. Il est également capable de "
-"produire des représentations graphiques sophistiquées pour l'impression "
-"papier. GRASS est aujourd'hui traduit dans de nombreuses langues et supporte"
-" un très grand nombre de formats de données."
+"données géospatiales importante et performante. Il est également capable "
+"de produire des représentations graphiques sophistiquées pour "
+"l'impression papier. GRASS est aujourd'hui traduit dans de nombreuses "
+"langues et supporte un très grand nombre de formats de données."
 
 #: ../../build/doc/overview/grass_overview.rst:40
 msgid ""
-"GRASS GIS is used around the world in academic and commercial settings as "
-"well as by many governmental agencies and environmental consulting "
-"companies. It runs on a variety of popular hardware platforms and is Free "
-"open-source software released under the terms of the GNU General Public "
+"GRASS GIS is used around the world in academic and commercial settings as"
+" well as by many governmental agencies and environmental consulting "
+"companies. It runs on a variety of popular hardware platforms and is Free"
+" open-source software released under the terms of the GNU General Public "
 "License."
 msgstr ""
 "GRASS est utilisé dans le monde entier aussi bien pour des usages "
-"académiques que commerciaux, et est aussi utilisé par de nombreuses agences "
-"gouvernementales et agences pour l'environnement. Ils fonctionnent sur la "
-"plupart des systèmes d'exploitation et c'est un logiciel libre proposé sous "
-"les termes de la GNU-GPL (General Public License)."
+"académiques que commerciaux, et est aussi utilisé par de nombreuses "
+"agences gouvernementales et agences pour l'environnement. Ils "
+"fonctionnent sur la plupart des systèmes d'exploitation et c'est un "
+"logiciel libre proposé sous les termes de la GNU-GPL (General Public "
+"License)."
 
 #: ../../build/doc/overview/grass_overview.rst:45
 msgid ""
 "The GRASS GIS software includes more than 400 built-in analysis modules. "
 "Additionally, over 100 community supplied modules and toolboxes are "
-"available for free from the Add-on repository. After more than 30 years of "
-"continuous development GRASS GIS is both the longest maintained and largest "
-"Open Source GIS available. It is easily scriptable and versatile enough to "
-"be used both for batch data processing on massively-parallel supercomputers "
-"as well as a handy desktop GIS for handheld PDAs or netbooks."
+"available for free from the Add-on repository. After more than 30 years "
+"of continuous development GRASS GIS is both the longest maintained and "
+"largest Open Source GIS available. It is easily scriptable and versatile "
+"enough to be used both for batch data processing on massively-parallel "
+"supercomputers as well as a handy desktop GIS for handheld PDAs or "
+"netbooks."
 msgstr ""
 "Le logiciel GRASS intègre nativement plus de 400 modules d'analyses. De "
 "plus, plus de 100 modules et outils fournis par la communautés sont "
-"disponibles gratuitement à partir du dépôt de plugins. Après plus de 30 ans "
-"de développements continus, GRASS est à la fois le plus vieux et le plus "
-"gros projet SIG libre disponible. Il est facilement scriptable et "
-"suffisamment polyvalent pour être utilisé tant pour traiter des données par "
-"lots sur des supercalculateurs massivement parallélisés que pour être "
-"utilisé sur des SIG de bureau, des PDA ou sur des netbooks."
+"disponibles gratuitement à partir du dépôt de plugins. Après plus de 30 "
+"ans de développements continus, GRASS est à la fois le plus vieux et le "
+"plus gros projet SIG libre disponible. Il est facilement scriptable et "
+"suffisamment polyvalent pour être utilisé tant pour traiter des données "
+"par lots sur des supercalculateurs massivement parallélisés que pour être"
+" utilisé sur des SIG de bureau, des PDA ou sur des netbooks."
 
-#: ../../build/doc/overview/grass_overview.rstNone
 msgid "grass screenshot"
 msgstr "capture d’écran de grass"
 
@@ -143,7 +144,8 @@ msgid "**API Interfaces:** C, Python, Bourne Shell"
 msgstr "**Interfaces de l'API :** C, Python, Bourne Shell"
 
 #: ../../build/doc/overview/grass_overview.rst:81
-msgid "**Support:** https://grass.osgeo.org/about/community/"
+#, fuzzy
+msgid "**Support:** https://grass.osgeo.org/support/community/"
 msgstr "**Support:** https://grass.osgeo.org/about/community/"
 
 #: ../../build/doc/overview/grass_overview.rst:87
@@ -156,18 +158,19 @@ msgstr ""
 ":doc:`Documentation du guide de démarrage rapide "
 "<../quickstart/grass_quickstart>`"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr "Pas de logo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "Projet OSGeo"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "Communauté OSGeo"
+

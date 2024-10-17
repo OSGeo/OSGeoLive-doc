@@ -1,25 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # Supaplex <bejokeup@gmail.com>, 2022
-# 
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-15 20:42-0600\n"
+"POT-Creation-Date: 2024-09-01 23:33+0000\n"
 "PO-Revision-Date: 2017-09-20 16:05+0000\n"
 "Last-Translator: Supaplex <bejokeup@gmail.com>, 2022\n"
-"Language-Team: Chinese (https://app.transifex.com/osgeo/teams/66156/zh/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
 "Language: zh\n"
+"Language-Team: Chinese (https://app.transifex.com/osgeo/teams/66156/zh/)\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:9
 msgid "Getting started with OSGeoLive"
@@ -67,23 +67,24 @@ msgstr "執行："
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:30
 msgid ""
-"Source an OSGeoLive DVD, ISO available from: [:doc:`Download <../download>`]"
-" Put the DVD into your computer's CD drive, then reboot your computer."
+"Source an OSGeoLive DVD, ISO available from: [:doc:`Download "
+"<../download>`] Put the DVD into your computer's CD drive, then reboot "
+"your computer."
 msgstr ""
 "OSGeoLive DVD、ISO 的來源在這裡： [:doc:`Download <../download>`] 將 DVD "
 "放入你電腦的光碟機，接著重新開機。"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:33
 msgid ""
-"If your computer is set to boot from CD (as is often the case) you should "
-"boot up into a Lubuntu system, with Geospatial applications installed. "
+"If your computer is set to boot from CD (as is often the case) you should"
+" boot up into a Lubuntu system, with Geospatial applications installed. "
 "Otherwise you'll have to adjust the BIOS boot settings or press the boot "
 "menu button just after powering-up."
 msgstr ""
-"如果你的電腦已經設定從 CD 開機的話 (常遇到的情境)，你應該會進入 Lubuntu 系統，而且安裝相關的地理空間應用程式。不然的話你要調整 BIOS"
-" 的啟動設定，或者在開機時按開機選單按鈕。"
+"如果你的電腦已經設定從 CD 開機的話 (常遇到的情境)，你應該會進入 Lubuntu 系統，而且安裝相關的地理空間應用程式。不然的話你要調整 "
+"BIOS 的啟動設定，或者在開機時按開機選單按鈕。"
 
-#: ../../build/doc/quickstart/osgeolive_quickstart.rst:0
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst
 msgid "boot"
 msgstr ""
 
@@ -91,8 +92,8 @@ msgstr ""
 msgid "Sit back while the system boots up."
 msgstr "系統啟動時坐好了。"
 
-#: ../../build/doc/quickstart/osgeolive_quickstart.rst:0
-msgid "boot select"
+#: ../../build/doc/quickstart/osgeolive_quickstart.rst
+msgid "menu"
 msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:48
@@ -120,11 +121,12 @@ msgstr "Ubuntu 作業系統入門"
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:57
 msgid ""
 "`local eBook "
-"<file:///usr/local/share/doc/Getting_Started_with_Ubuntu_13.10.pdf>`_ and "
-"`extended online help <https://help.ubuntu.com>`_"
+"<file:///usr/local/share/doc/Getting_Started_with_Ubuntu_13.10.pdf>`_ and"
+" `extended online help <https://help.ubuntu.com>`_"
 msgstr ""
-"`本地電子書 <file:///usr/local/share/doc/Getting_Started_with_Ubuntu_13.10.pdf>`_"
-" 和 `延伸線上說明 <https://help.ubuntu.com>`_"
+"`本地電子書 "
+"<file:///usr/local/share/doc/Getting_Started_with_Ubuntu_13.10.pdf>`_ 和 "
+"`延伸線上說明 <https://help.ubuntu.com>`_"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:58
 msgid ":doc:`virtualization_quickstart`"
@@ -146,10 +148,11 @@ msgstr ""
 msgid "nologo"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr ""
+

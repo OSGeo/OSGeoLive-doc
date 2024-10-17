@@ -1,0 +1,144 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2022, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-17 15:05-0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: tr\n"
+"Language-Team: tr <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../build/doc/overview/odc_overview.rst:16
+#: ../../build/doc/overview/odc_overview.rst:19
+msgid "Open Data Cube"
+msgstr ""
+
+#: ../../build/doc/overview/odc_overview.rst:21
+msgid ""
+"The Open Data Cube (ODC) is a community of people and organisations "
+"building capability for working with earth observation data. At the core,"
+" the ODC is a software library and set of command line tools. And keeping"
+" the core together we have a group of organisations collaborating on "
+"strategy and who may maintain specific implementations of the ODC."
+msgstr ""
+
+#: ../../build/doc/overview/odc_overview.rst:26
+msgid ""
+"The objective of the ODC is to increase the impact of satellite data by "
+"providing an open and freely accessible exploitation tool, and to foster "
+"a community to develop, sustain, and grow the breadth and depth of "
+"applications."
+msgstr ""
+
+#: ../../build/doc/overview/odc_overview.rst:30
+msgid ""
+"At a technical level, an implementation of the ODC is made up of three "
+"things: data, an index and software:"
+msgstr ""
+
+#: ../../build/doc/overview/odc_overview.rst:33
+msgid ""
+"Data is usually file based, either in local directories of GeoTIFFs or "
+"NetCDF files, but data can be anything that GDAL can read, including "
+"Cloud Optimised GeoTIFFs stored on AWS’ S3."
+msgstr ""
+
+#: ../../build/doc/overview/odc_overview.rst:36
+msgid ""
+"For the Index, the ODC uses PostgreSQL as a database to store a list of "
+"Products (a specific data type, like Landsat 8 Analysis Ready Data) and "
+"Datasets (a single instance of a Product, for example, a single Landsat 8"
+" scene). The index enables a user to ask for data at a time and location,"
+" without needing to know specifically where the required files are stored"
+" and how to access them."
+msgstr ""
+
+#: ../../build/doc/overview/odc_overview.rst:42
+msgid ""
+"The Software at the core of the ODC is a Python library that enables a "
+"user to index data (add records to the Index), to ingest data (optimise "
+"indexed data for performance), to query data (returning data in a "
+"standard data format) and a wide range of other functions related to "
+"managing data."
+msgstr ""
+
+msgid "odc screenshot"
+msgstr ""
+
+#: ../../build/doc/overview/odc_overview.rst:55
+msgid "Core Features"
+msgstr ""
+
+#: ../../build/doc/overview/odc_overview.rst:57
+msgid ""
+"storing, processing and analyzing large collections of earth observation "
+"data"
+msgstr ""
+
+#: ../../build/doc/overview/odc_overview.rst:58
+msgid "Gridding and contouring functions"
+msgstr ""
+
+#: ../../build/doc/overview/odc_overview.rst:61
+msgid "Details"
+msgstr ""
+
+#: ../../build/doc/overview/odc_overview.rst:63
+msgid "**Website:** https://www.opendatacube.org"
+msgstr ""
+
+#: ../../build/doc/overview/odc_overview.rst:65
+msgid "**Licence:** Apache License Version 2"
+msgstr ""
+
+#: ../../build/doc/overview/odc_overview.rst:67
+msgid "**Software Version:** |version-odc|"
+msgstr ""
+
+#: ../../build/doc/overview/odc_overview.rst:69
+msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
+msgstr ""
+
+#: ../../build/doc/overview/odc_overview.rst:71
+msgid "**API Interfaces:** Command line"
+msgstr ""
+
+#: ../../build/doc/overview/odc_overview.rst:73
+msgid "**Support:** https://www.opendatacube.org/faq"
+msgstr ""
+
+#: ../../build/doc/overview/odc_overview.rst:79
+msgid "Quickstart"
+msgstr ""
+
+#: ../../build/doc/overview/odc_overview.rst:81
+msgid ":doc:`Quickstart documentation <../quickstart/odc_quickstart>`"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:13
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:16
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Community"
+msgstr ""
+

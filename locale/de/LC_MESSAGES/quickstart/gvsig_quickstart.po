@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:18
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk "
+"This project is only included on the OSGeoLive virtual machine disk "
 "(VMDK)"
 msgstr "Das Project ist nur Teil der OSGeoLive Virtual Machine Disk (VMDK)"
 
@@ -109,11 +109,11 @@ msgid ""
 "project."
 msgstr ""
 "In der Standardeinstellung startet gvSIG mit einem leeren Projekt sowie "
-"einer leeren ausgewählten  Ansicht. In diesem Fall jedoch startet gvSIG "
-"mit einem vorkonfiguriertem Projekt. Klicken Sie auf  :guilabel:`New "
+"einer leeren ausgewählten Ansicht. In diesem Fall jedoch startet gvSIG "
+"mit einem vorkonfiguriertem Projekt. Klicken Sie auf :guilabel:`New "
 "Project` oder legen sie ein neuse Projekt über :menuselection:`File --> "
-"New Project`  an. Sollte eine Nachfrage zur Speicherung des aktuellen "
-"Projektes kommen, können diese mit  :guilabel:`Discard Changes` verworfen"
+"New Project` an. Sollte eine Nachfrage zur Speicherung des aktuellen "
+"Projektes kommen, können diese mit :guilabel:`Discard Changes` verworfen"
 " werden."
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:61

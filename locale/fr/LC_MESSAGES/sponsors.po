@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"POT-Creation-Date: 2024-10-17 17:51+0000\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
 "Last-Translator: Nicolas Roelandt (Personnel), 2022\n"
 "Language: fr\n"
@@ -25,13 +25,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/sponsors.rst:1
 msgid "OSGeoLive Sponsors"
 msgstr "Sponsors OSGeoLive"
 
-#: ../../build/doc/sponsors.rst:-1 ../../build/doc/sponsors_osgeo.rst:-1
 msgid "OSGeo"
 msgstr "OSGeo"
 
@@ -45,7 +44,6 @@ msgstr ""
 "principale de développement et d'hébergement ainsi que le personnel pour "
 "le projet, et pour de nombreuses équipes logicielles qui y contribuent."
 
-#: ../../build/doc/sponsors.rst:-1
 msgid ""
 "Information Center for the Environment at the University of California, "
 "Davis"
@@ -63,7 +61,6 @@ msgstr ""
 "Davis fournit des ressources matérielles et un support au développement "
 "du projet OSGeoLive."
 
-#: ../../build/doc/sponsors.rst:-1
 msgid "National Technical University of Athens"
 msgstr "Université technique nationale d’Athènes"
 
@@ -77,7 +74,6 @@ msgstr ""
 "Athens, fournit des ressources matérielles et un support au développement"
 " du projet OSGeoLive."
 
-#: ../../build/doc/sponsors.rst:-1
 msgid "The DebianGIS and UbuntuGIS projects"
 msgstr "Les projets DebianGIS et UbuntuGIS"
 
@@ -2761,8 +2757,9 @@ msgid "Alexander Kleshnin"
 msgstr "Alexander Kleshnin"
 
 #: ../../build/translators.csv:1
-msgid "a.hast mail ru"
-msgstr "a.hast mail ru"
+#, fuzzy
+msgid "kleshnin.alexander gmail.com"
+msgstr "aeylinen gmail.com"
 
 #: ../../build/translators.csv:1
 msgid "HasT"

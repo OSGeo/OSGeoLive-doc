@@ -15,7 +15,7 @@
 @NAME_pycsw@ Quickstart
 ********************************************************************************
 
-pycsw is an OGC CSW server implementation written in `Python <https://www.python.org>`_. pycsw allows for the publishing and discovery of geospatial metadata.  Existing repositories of geospatial metadata can be exposed via OGC:CSW 2.0.2 or OGC:CSW 3.0.0.
+pycsw is an OGC CSW server implementation written in `Python <https://www.python.org>`_. pycsw allows for the publishing and discovery of geospatial metadata. Existing repositories of geospatial metadata can be exposed via OGC:CSW 2.0.2 or OGC:CSW 3.0.0.
 
 .. contents:: Contents
    :local:
@@ -108,7 +108,7 @@ In order to create a new SQLite database we need to:
 
 This will create the necessary tables and values for the repository.
 
-The database created is an |SFS| compliant database, and can be used with any implementing software.  For example, to use with `OGR`_:
+The database created is an |SFS| compliant database, and can be used with any implementing software. For example, to use with `OGR`_:
 
 .. code-block:: bash
 

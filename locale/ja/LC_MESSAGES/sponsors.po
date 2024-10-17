@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"POT-Creation-Date: 2024-10-17 17:51+0000\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
 "Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2022\n"
 "Language: ja\n"
@@ -22,13 +22,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/sponsors.rst:1
 msgid "OSGeoLive Sponsors"
 msgstr "OSGeoLive スポンサー"
 
-#: ../../build/doc/sponsors.rst:-1 ../../build/doc/sponsors_osgeo.rst:-1
 msgid "OSGeo"
 msgstr "OSGeo"
 
@@ -41,7 +40,6 @@ msgstr ""
 "オープンソース地理空間財団 (OSGeo) "
 "は、プロジェクトと、プロジェクトに貢献する多くのソフトウェアチームのための主要な開発およびホスティングインフラストラクチャと人員を提供します。"
 
-#: ../../build/doc/sponsors.rst:-1
 msgid ""
 "Information Center for the Environment at the University of California, "
 "Davis"
@@ -54,7 +52,6 @@ msgid ""
 "OSGeoLive project."
 msgstr "カリフォルニア大学デービス校環境情報センターは、OSGeoLiveプロジェクトにハードウェアリソースと開発支援を提供しています。"
 
-#: ../../build/doc/sponsors.rst:-1
 msgid "National Technical University of Athens"
 msgstr "アテネ工科大学"
 
@@ -65,7 +62,6 @@ msgid ""
 "project."
 msgstr "アテネ工科大学リモートセンシング研究室は、OSGeoLiveプロジェクトにハードウェアリソースと開発支援を提供しています。"
 
-#: ../../build/doc/sponsors.rst:-1
 msgid "The DebianGIS and UbuntuGIS projects"
 msgstr "DebianGISとUbuntuGISプロジェクト"
 
@@ -2739,8 +2735,9 @@ msgid "Alexander Kleshnin"
 msgstr "Alexander Kleshnin"
 
 #: ../../build/translators.csv:1
-msgid "a.hast mail ru"
-msgstr "a.hast mail ru"
+#, fuzzy
+msgid "kleshnin.alexander gmail.com"
+msgstr "aeylinen gmail.com"
 
 #: ../../build/translators.csv:1
 msgid "HasT"

@@ -72,7 +72,7 @@ msgid ""
 "appmenupath --> pygeoapi`. The application will open a web page at "
 "http://localhost:5000"
 msgstr ""
-"スタートメニューから  :menuselection:`Structure --> osgeolive --> appmenupath --> "
+"スタートメニューから :menuselection:`Structure --> osgeolive --> appmenupath --> "
 "pygeoapi` を選択します。Webページ http://localhost:5000 でアプリケーションを開きます。"
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:42
@@ -135,7 +135,7 @@ msgid ""
 msgstr ""
 "OAPI-"
 "Featuresとして公開される興味深いデータセットは、複数の属性と他のリソースへのリンクを持つ実世界のデータで構成されています。OSGeoLiveには使えるデータセットがたくさんあります。例は、``/var/www/html/openlayers/examples/data/geojson/countries.geojson``"
-"  にあります。GeoJSONプロバイダーを使用してpygeoapiで設定することができます。"
+" にあります。GeoJSONプロバイダーを使用してpygeoapiで設定することができます。"
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:64
 msgid "Download the GeoJSON file and place it in the tests/data folder."
@@ -185,7 +185,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:102
 msgid ""
-"Each Open API has an interactive documentation page at  "
+"Each Open API has an interactive documentation page at "
 "http://localhost:5000/openapi. In this interactive webpage you can read "
 "about the various methods in the service, but also directly interact with"
 " them via web forms."
@@ -257,7 +257,7 @@ msgstr "OKをクリックして、サービスで使えるコレクションを�
 msgid ""
 "Select the ``countries`` collection and click ‘Add’ to add the layer in "
 "the QGIS map."
-msgstr "``countries`` コレクションを選択して、 ‘Add’  をクリックしてQGISマップにレイヤを追加します。"
+msgstr "``countries`` コレクションを選択して、 ‘Add’ をクリックしてQGISマップにレイヤを追加します。"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"

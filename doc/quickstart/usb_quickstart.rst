@@ -42,7 +42,7 @@ Creating bootable USB drive with Ubuntu Startup Disk Creator
 (This is the recommended process for creating a USB. It is applicable to Ubuntu and Ubuntu variants such as OSGeoLive.)
 
 .. note::
-   The version of Ubuntu you are running, needs to be the same or newer than the version of Lubuntu being installed onto your USB.  If installing OSGeoLive 8.0 onto a USB, then you will need to be running Ubuntu 14.04 or newer.
+   The version of Ubuntu you are running, needs to be the same or newer than the version of Lubuntu being installed onto your USB. If installing OSGeoLive 8.0 onto a USB, then you will need to be running Ubuntu 14.04 or newer.
 
 :doc:`Download <../download>` osgeolive or osgeolive-mini to your computer's hard drive.
 

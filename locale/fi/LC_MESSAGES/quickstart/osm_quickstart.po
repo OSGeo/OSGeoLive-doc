@@ -181,7 +181,7 @@ msgstr ""
 "muotoon, jolla se pystytään lataamaan PostgreSQL:ään (PostGIS). Sitä "
 "käytetään usein visualisoimaan OSM-dataa Mapnikin avulla, koska Mapnik "
 "pystyy kyselemään PostgreSQL:ästä paikkatietoja. Osm-tiedostojen "
-"hyödyntäminen suoraan Mapnikista ei  nimittäin onnistu."
+"hyödyntäminen suoraan Mapnikista ei nimittäin onnistu."
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:101
 msgid "Homepage: https://wiki.openstreetmap.org/wiki/Osm2pgsql"
@@ -275,7 +275,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:139
 msgid ""
-"Click  `Run query`. The resulting data will be loaded in your QGIS project "
+"Click `Run query`. The resulting data will be loaded in your QGIS project "
 "as temporal data"
 msgstr ""
 

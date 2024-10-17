@@ -135,7 +135,7 @@ msgstr "Standard implementati"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:52
 msgid ""
-"Standards are at the core of pygeoapi.  Below is the project's standards "
+"Standards are at the core of pygeoapi. Below is the project's standards "
 "support matrix."
 msgstr ""
 "Gli standard sono al core di pygeoapi. Qui sotto c'è la matrice di "

@@ -301,7 +301,7 @@ msgid "Importing shapefiles to QGIS can be done via the handy QGIS Database Mana
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:420
-msgid "Deploys the Postgis item, then the NaturalEarth item. It will then  connect to the Natural Earth database. Leave the password blank if it asks. In the public item, there is the list of the layers provided by the database. You'll see the main manager window. On the left you can select tables from the database and use the tabs on the right find out about them. The Preview tab will show you a little map."
+msgid "Deploys the Postgis item, then the NaturalEarth item. It will then connect to the Natural Earth database. Leave the password blank if it asks. In the public item, there is the list of the layers provided by the database. You'll see the main manager window. On the left you can select tables from the database and use the tabs on the right find out about them. The Preview tab will show you a little map."
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:None
@@ -361,7 +361,7 @@ msgid "phpPgAdmin main"
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:483
-msgid "Here, you have the option of creating a new connection to a PostgreSQL server, or connecting to an existing server. The red \"X\" on the  ``PostgreSQL`` server denotes that you haven't been yet connected. Click on it  then enter the user name  ``user`` and the master password  ``user``."
+msgid "Here, you have the option of creating a new connection to a PostgreSQL server, or connecting to an existing server. The red \"X\" on the ``PostgreSQL`` server denotes that you haven't been yet connected. Click on it then enter the user name ``user`` and the master password ``user``."
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:487
@@ -424,7 +424,7 @@ msgid "pgAdmin"
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:547
-msgid "Enter the master password  ``user``."
+msgid "Enter the master password ``user``."
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:549
@@ -620,11 +620,11 @@ msgid "This is only the first step on the road to using PostGIS. There is a lot 
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:764
-msgid "PostGIS Project home -  http://postgis.net"
+msgid "PostGIS Project home - http://postgis.net"
 msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:766
-msgid "PostGIS Documentation -  http://postgis.net/documentation/"
+msgid "PostGIS Documentation - http://postgis.net/documentation/"
 msgstr ""
 
 #: ../../build/doc/<rst_epilog>:13

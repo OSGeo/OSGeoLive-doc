@@ -52,7 +52,7 @@ msgstr "Paina :guilabel:`Log in` näppäintä."
 #: ../../build/doc/quickstart/internationalisation_quickstart.rst:21
 msgid "Repeat the process if needed or if you wish to change languages again."
 msgstr ""
-"Toista prosessi tarvittaessa tai jos haluat vaihtaa kielen  uudestaan."
+"Toista prosessi tarvittaessa tai jos haluat vaihtaa kielen uudestaan."
 
 #: ../../build/doc/quickstart/internationalisation_quickstart.rst:0
 msgid "login screen"
@@ -98,11 +98,11 @@ msgstr ""
 "Kansainvälinen näppäimistön tuki on asennettu, mutta Sinun tulee "
 "konfiguroida järjestelmä erityiselle näppäimistölle. Muuttaaksesi asetuksia "
 "avaa :menuselection:`Valinnat --> Näppäimistön syöttö menetelmät` "
-"päävalikosta  ja klikkaa guilabel:`Syöttö menetelmä` kielekettä. Seuraavaksi"
+"päävalikosta ja klikkaa guilabel:`Syöttö menetelmä` kielekettä. Seuraavaksi"
 " klikkaa :guilabel:`Kustomoi aktiivisia syöttö menetelmiä` ja sitten "
 ":guilabel:`Valitse syöttö menetelmä` näppäintä. Nyt klikkaa "
 ":guilabel:`Lisää` näppäintä oikealla lisätäksesi uuden näppäimistölayout ja "
-"sitten :guilabel:`Sulje`  IBus Valintojen ikkuna."
+"sitten :guilabel:`Sulje` IBus Valintojen ikkuna."
 
 #: ../../build/doc/quickstart/internationalisation_quickstart.rst:47
 msgid ""

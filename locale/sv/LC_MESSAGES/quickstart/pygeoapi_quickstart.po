@@ -105,7 +105,7 @@ msgid "Now that we have the service available we can query it using various clie
 msgstr ""
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:102
-msgid "Each Open API has an interactive documentation page at  http://localhost:5000/openapi. In this interactive webpage you can read about the various methods in the service, but also directly interact with them via web forms."
+msgid "Each Open API has an interactive documentation page at http://localhost:5000/openapi. In this interactive webpage you can read about the various methods in the service, but also directly interact with them via web forms."
 msgstr ""
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:107

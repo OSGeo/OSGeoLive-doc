@@ -118,7 +118,7 @@ msgstr ""
 #: ../../build/doc/quickstart/usb_quickstart.rst:45
 msgid ""
 "The version of Ubuntu you are running, needs to be the same or newer than "
-"the version of Lubuntu being installed onto your USB.  If installing "
+"the version of Lubuntu being installed onto your USB. If installing "
 "OSGeoLive 8.0 onto a USB, then you will need to be running Ubuntu 14.04 or "
 "newer."
 msgstr ""

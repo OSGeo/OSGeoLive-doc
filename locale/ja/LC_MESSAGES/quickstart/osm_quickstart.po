@@ -130,7 +130,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:77
 msgid "QuickOSM: See the `QuickOSM`_ section"
-msgstr "QuickOSM:  `QuickOSM`_ の章を参照ください"
+msgstr "QuickOSM: `QuickOSM`_ の章を参照ください"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:78
 msgid ""
@@ -276,7 +276,7 @@ msgstr "Overpassのクエリを表示する"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:139
 msgid ""
-"Click  `Run query`. The resulting data will be loaded in your QGIS project "
+"Click `Run query`. The resulting data will be loaded in your QGIS project "
 "as temporal data"
 msgstr "`クエリの実行` をクリックします。結果のデータは、時系列データとしてQGISプロジェクトにロードされます。"
 
@@ -365,7 +365,7 @@ msgid ""
 "`.osm.pbf`, `.shp.zip` and `.osm.bz2`. `.osm.pbf` and`.shp.zip` can be "
 "opened directly in QGIS."
 msgstr ""
-"`Geofabrik <https://download.geofabrik.de/>`_  は、地域や国ごとに、世界中の OpenStreetMap "
+"`Geofabrik <https://download.geofabrik.de/>`_ は、地域や国ごとに、世界中の OpenStreetMap "
 "データを抽出して提供しています。興味のある地域または国を選択してください。データは次の3つのフォーマットで提供されています: `.osm.pbf`, "
 "`.shp.zip` and `.osm.bz2`. `.osm.pbf` と`.shp.zip` は、QGISで直接開くことができます。"
 

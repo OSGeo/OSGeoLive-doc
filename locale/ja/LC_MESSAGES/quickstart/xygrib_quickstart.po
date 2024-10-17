@@ -90,7 +90,7 @@ msgstr "地図にボックスを描画した状態で、タスクバーのボッ
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:41
 msgid ""
-"Again,  mark out a box of interest with a left-click drag, but this time "
+"Again, mark out a box of interest with a left-click drag, but this time "
 "covering most or all of the zoomed-in map canvas."
 msgstr "再度、左クリックドラッグで対象のボックスをマークします。ただし、今回は拡大されたマップキャンバスのほとんどまたはすべてをカバーしています。"
 
@@ -136,7 +136,7 @@ msgid ""
 "select :menuselection:`Weather map --> Cloud cover` and the view should "
 "change."
 msgstr ""
-"``Weather map`` メニューから、視覚化する変数を選択します。たとえば、  :menuselection:`Weather map --> "
+"``Weather map`` メニューから、視覚化する変数を選択します。たとえば、 :menuselection:`Weather map --> "
 "Cloud cover` を選択すると、ビューが変更されます。"
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:55
@@ -201,7 +201,7 @@ msgid ""
 "<../quickstart/opencpn_quickstart>` for details."
 msgstr ""
 ":doc:`OpenCPNソフトウェア <../overview/opencpn_overview>` "
-"(このディスクにもあります)にはGRIBオーバーレイプラグインがあり、新しくダウンロードしたGRIBファイルで試すことができます。詳細は、  "
+"(このディスクにもあります)にはGRIBオーバーレイプラグインがあり、新しくダウンロードしたGRIBファイルで試すことができます。詳細は、 "
 ":doc:`クイックスタート文書 <../quickstart/opencpn_quickstart>` を参照してください。"
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:79

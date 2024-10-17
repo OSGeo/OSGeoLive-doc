@@ -1,27 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
 # Translators:
 # Steven De Vriendt <gisaalter@gmail.com>, 2017
 # Celine Vilain, 2022
-# 
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-15 20:42-0600\n"
+"POT-Creation-Date: 2024-10-17 17:51+0000\n"
 "PO-Revision-Date: 2023-07-27 07:08+0000\n"
 "Last-Translator: Michel Stuyts <michel.stuyts@gmail.com>\n"
-"Language-Team: Dutch <https://weblate.osgeo.org/projects/osgeolive/contact/"
-"nl/>\n"
 "Language: nl\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Dutch "
+"<https://weblate.osgeo.org/projects/osgeolive/contact/nl/>\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.4\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/contact.rst:2
 msgid "Contact Us"
@@ -29,13 +28,13 @@ msgstr "Contacteer ons"
 
 #: ../../build/doc/contact.rst:4
 msgid ""
-"OSGeoLive development is coordinated via email and internet chat (IRC) as "
-"detailed on the `OSGeoLive Wiki "
+"OSGeoLive development is coordinated via email and internet chat (IRC) as"
+" detailed on the `OSGeoLive Wiki "
 "<https://trac.osgeo.org/osgeolive#Communication>`_."
 msgstr ""
-"OSGeoLive ontwikkeling wordt gecoördineerd via e-mail en internet chat (IRC) "
-"zoals beschreven op de `OSGeoLive Wiki <https://trac.osgeo.org/"
-"osgeolive#Communication>`_."
+"OSGeoLive ontwikkeling wordt gecoördineerd via e-mail en internet chat "
+"(IRC) zoals beschreven op de `OSGeoLive Wiki "
+"<https://trac.osgeo.org/osgeolive#Communication>`_."
 
 #: ../../build/doc/contact.rst:9
 msgid "Disclaimer"
@@ -43,26 +42,27 @@ msgstr "Disclaimer"
 
 #: ../../build/doc/contact.rst:11
 msgid ""
-"This Live GIS disc and virtual-machine has been put together by members of "
-"the OSGeo community to showcase their favourite Free and Open Source (FOSS) "
-"geospatial software. We've included a number of non-OSGeo software packages,"
-" from both the spatial and non-spatial realms, which we hope you will find "
-"to be as useful as we do. The OSGeo Foundation does not recommend or "
-"guarantee any associated software, projects, or companies found within."
+"This Live GIS disc and virtual-machine has been put together by members "
+"of the OSGeo community to showcase their favourite Free and Open Source "
+"(FOSS) geospatial software. We've included a number of non-OSGeo software"
+" packages, from both the spatial and non-spatial realms, which we hope "
+"you will find to be as useful as we do. The OSGeo Foundation does not "
+"recommend or guarantee any associated software, projects, or companies "
+"found within."
 msgstr ""
-"Deze Live GIS-schijf en virtuele machine is opgezet door leden van de OSGeo-"
-"gemeenschap om de aandacht te vestigen op hun favoriete vrije en open source"
-" geospatiale software. We hebben een aantal niet-OSGeo-softwarepakketten "
-"opgenomen, zowel uit de ruimtelijke als niet-ruimtelijke domeinen, waarvan "
-"we hopen dat u ze net zo nuttig zult vinden als wij. De OSGeo Foundation "
-"neemt een neutraal standpunt in ten aanzien van de gebruikte software, "
-"projecten of bedrijven."
+"Deze Live GIS-schijf en virtuele machine is opgezet door leden van de "
+"OSGeo-gemeenschap om de aandacht te vestigen op hun favoriete vrije en "
+"open source geospatiale software. We hebben een aantal niet-OSGeo-"
+"softwarepakketten opgenomen, zowel uit de ruimtelijke als niet-"
+"ruimtelijke domeinen, waarvan we hopen dat u ze net zo nuttig zult vinden"
+" als wij. De OSGeo Foundation neemt een neutraal standpunt in ten aanzien"
+" van de gebruikte software, projecten of bedrijven."
 
 #: ../../build/doc/contact.rst:16
 msgid ""
-"`These programs are distributed in the hope that they will be useful, but "
-"WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
-"or FITNESS FOR A PARTICULAR PURPOSE.`"
+"`These programs are distributed in the hope that they will be useful, but"
+" WITHOUT ANY WARRANTY; without even the implied warranty of "
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.`"
 msgstr ""
 "`Deze programma's worden verspreid in de hoop dat ze nuttig zullen zijn, "
 "maar ZONDER ENIGE GARANTIE - uitgedrukt of geïmpliceerd, met inbegrip de "
@@ -71,11 +71,11 @@ msgstr ""
 
 #: ../../build/doc/contact.rst:20
 msgid ""
-"For additional information on the distribution of each program review their "
-"license as indicated on the page for each program."
+"For additional information on the distribution of each program review "
+"their license as indicated on the page for each program."
 msgstr ""
-"Bekijk de licentie van ieder programma op hun respectievelijke pagina voor "
-"bijkomende informatie omtrent de distributie."
+"Bekijk de licentie van ieder programma op hun respectievelijke pagina "
+"voor bijkomende informatie omtrent de distributie."
 
 #: ../../build/doc/contact.rst:24
 msgid "Community Support"
@@ -83,23 +83,23 @@ msgstr "Community ondersteuning"
 
 #: ../../build/doc/contact.rst:26
 msgid ""
-"If you have any questions, comments, or run into any problems, please drop "
-"us a note on `our mailing list "
+"If you have any questions, comments, or run into any problems, please "
+"drop us a note on `our mailing list "
 "<https://lists.osgeo.org/mailman/listinfo/osgeolive>`_."
 msgstr ""
-"Als u vragen, opmerkingen of problemen ondervindt, stuur ons dan een bericht"
-" op `onze mailinglijst "
+"Als u vragen, opmerkingen of problemen ondervindt, stuur ons dan een "
+"bericht op `onze mailinglijst "
 "<https://lists.osgeo.org/mailman/listinfo/osgeolive>`_."
 
 #: ../../build/doc/contact.rst:29
 msgid ""
-"IRC users might try the #osgeolive or #osgeo channel at `Libera.chat network"
-" <https://libera.chat/>`_ for real-time assistance. You also can meet us at "
-"Slack, Matrix or Gitter."
+"IRC users might try the #osgeolive or #osgeo channel at `Libera.chat "
+"network <https://libera.chat/>`_ for real-time assistance. You also can "
+"meet us at Slack, Matrix or Gitter."
 msgstr ""
-"IRC gebbruikers kunen het #osgeolive of #osgeo kanaal gebruiken op `"
-"Libera.chat network <https://libera.chat/>`_ voor realtime hulp.Je kan ons "
-"ook vinden op Slack, Matrix en Gitter."
+"IRC gebbruikers kunen het #osgeolive of #osgeo kanaal gebruiken op "
+"`Libera.chat network <https://libera.chat/>`_ voor realtime hulp.Je kan "
+"ons ook vinden op Slack, Matrix en Gitter."
 
 #: ../../build/doc/contact.rst:32
 msgid ""
@@ -112,9 +112,10 @@ msgstr ""
 "system <https://trac.osgeo.org/osgeolive/report/10>`_ is ook beschikbaar."
 
 #: ../../build/doc/contact.rst:35
+#, fuzzy
 msgid ""
-"Stay tuned and follow OSGeoLive on Twitter `@osgeolive "
-"<https://mobile.twitter.com/osgeolive>`_."
+"Stay tuned and follow OSGeoLive on Mastodon `@osgeolive "
+"<https://fosstodon.org/@osgeolive>`_."
 msgstr ""
 "Blijf op de hoogte en volg OSGeoLive op Twitter `@osgeolive "
 "<https://mobile.twitter.com/osgeolive>`_."
@@ -126,24 +127,23 @@ msgstr "Commerciële ondersteuning"
 #: ../../build/doc/contact.rst:40
 msgid ""
 "Most packaged applications have both community and commercial support "
-"offerings for them. Refer to specific application descriptions linked from "
-"the :doc:`Contents <./overview/overview>` for details."
+"offerings for them. Refer to specific application descriptions linked "
+"from the :doc:`Contents <./overview/overview>` for details."
 msgstr ""
 "De meeste applicaties beschikken over zowel community- als commerciële "
-"ondersteuningsaanbiedingen. Raadpleeg de project-specifieke beschrijvingen "
-"waarnaar wordt verwezen in :doc:`Contents <./overview/overview>` voor meer "
-"details."
+"ondersteuningsaanbiedingen. Raadpleeg de project-specifieke "
+"beschrijvingen waarnaar wordt verwezen in :doc:`Contents "
+"<./overview/overview>` voor meer details."
 
 #: ../../build/doc/contact.rst:43
 msgid ""
-"In addition, there are a large number of consultancy firms world wide who "
-"provide support for OSGeo member projects. See "
-"https://www.osgeo.org/service-providers/ for one that meets your needs."
+"In addition, there are a large number of consultancy firms world wide who"
+" provide support for OSGeo member projects. See https://www.osgeo.org"
+"/service-providers/ for one that meets your needs."
 msgstr ""
 "Daarnaast zijn er wereldwijd een groot aantal adviesbureaus die "
-"ondersteuning bieden aan OSGeo-ledenprojecten. Zie "
-"https://www.osgeo.org/service-providers/ voor een die aan uw behoeften "
-"voldoet."
+"ondersteuning bieden aan OSGeo-ledenprojecten. Zie https://www.osgeo.org"
+"/service-providers/ voor een die aan uw behoeften voldoet."
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -153,10 +153,11 @@ msgstr "vmdk"
 msgid "nologo"
 msgstr "nologo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "OSGeo Project"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo Gemeenschap"
+

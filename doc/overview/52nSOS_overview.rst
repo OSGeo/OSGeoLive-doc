@@ -31,7 +31,7 @@ Core Features
   This provides means for administration and configuration of the service
   instance, as well as sending test requests for SOS operations; appropriate
   sample requests are included.
-* **Helgoland**: The SOS contains the Helgoland application for  the exploration,
+* **Helgoland**: The SOS contains the Helgoland application for the exploration,
   analysis and visualization of Sensor Web data in various fields of use, e.g.
   hydrology, meteorology, environmental monitoring, traffic management.
 * **Specifications**: The 52°North SOS implements the current specification version 2.0.0 and the

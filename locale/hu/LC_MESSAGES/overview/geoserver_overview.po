@@ -198,7 +198,7 @@ msgid "Implemented Standards"
 msgstr "Implementált szabványok"
 
 #: ../../build/doc/overview/geoserver_overview.rst:69
-msgid "Support of numerous Open Geospatial Consortium  (OGC) standards:"
+msgid "Support of numerous Open Geospatial Consortium (OGC) standards:"
 msgstr "Számos Open Geospatial Consortium (OGC) szabvány támogatása:"
 
 #: ../../build/doc/overview/geoserver_overview.rst:71

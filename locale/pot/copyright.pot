@@ -89,7 +89,7 @@ msgid "**Concise CC-By-SA and attribution:**"
 msgstr ""
 
 #: ../../build/doc/copyright.rst:62
-msgid "© 2011 [Your Name] under a `CC By SA License <https://creativecommons.org/licenses/by-sa/3.0/>`__.  [Derived from|Includes|Extends] :doc:`OSGeoLive <index>` documentation by :doc:`OSGeoLive contributors <copyright>`."
+msgid "© 2011 [Your Name] under a `CC By SA License <https://creativecommons.org/licenses/by-sa/3.0/>`__. [Derived from|Includes|Extends] :doc:`OSGeoLive <index>` documentation by :doc:`OSGeoLive contributors <copyright>`."
 msgstr ""
 
 #: ../../build/doc/copyright.rst:67

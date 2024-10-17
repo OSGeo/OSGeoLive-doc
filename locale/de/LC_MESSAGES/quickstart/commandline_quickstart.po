@@ -97,7 +97,7 @@ msgstr ""
 "Zuerst sollten Sie erfahren, wie das Dateisystem unter Linux organisiert "
 "ist. Das Dateisystem ist in einer Baumstruktur organisiert. Diese beginnt "
 "mit `/` als Root-Verzeichnis. Alle Dateien und Verzeichnisse befinden sich "
-"unter dem Wurzelverzeichnis  (`/`)."
+"unter dem Wurzelverzeichnis (`/`)."
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:63
 msgid ""
@@ -119,7 +119,7 @@ msgid ""
 "directory same as cd ~"
 msgstr ""
 "cd / navigiert zum Wurzelverzeichnis cd /home/user geht zu Ihrem Home-"
-"Verzeichnis, ebenso  wie cd ~"
+"Verzeichnis, ebenso wie cd ~"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:72
 msgid ""
