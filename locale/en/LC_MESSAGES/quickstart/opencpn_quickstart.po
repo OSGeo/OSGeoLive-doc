@@ -136,7 +136,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:84
 msgid ""
-"There is no need to uncompress the file.  Click on the \">\" to the left "
+"There is no need to uncompress the file. Click on the \">\" to the left "
 "of the filename and select from the list of available forecast times."
 msgstr ""
 
