@@ -86,7 +86,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:41
 msgid ""
-"Again,  mark out a box of interest with a left-click drag, but this time "
+"Again, mark out a box of interest with a left-click drag, but this time "
 "covering most or all of the zoomed-in map canvas."
 msgstr ""
 
@@ -191,7 +191,7 @@ msgid ""
 msgstr ""
 ":doc:`OpenCPN ohjelmistossa <../overview/opencpn_overview>` (myös tällä "
 "levyllä) on GRIB-tason plugin, jota voit kokeilla juuri lataamasi GRIB-"
-"tiedoston avulla.  Katso :doc:`OpenCPN pika-aloitus "
+"tiedoston avulla. Katso :doc:`OpenCPN pika-aloitus "
 "<../quickstart/opencpn_quickstart>` yksityiskohdista."
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:79
