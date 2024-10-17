@@ -72,8 +72,8 @@ msgid "From the application launch menu in the lower left corner."
 msgstr "Dal menu di lancio dell'applicazione in basso a sinistra."
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:41
-msgid "Choose  *Geospatial* -> *Spatial Tools* -> *Jupyter Notebook*"
-msgstr "Scegli  *Geospaziale* -> *Strumenti Spaziali\" -> *Notebook Jupyter*"
+msgid "Choose *Geospatial* -> *Spatial Tools* -> *Jupyter Notebook*"
+msgstr "Scegli *Geospaziale* -> *Strumenti Spaziali\" -> *Notebook Jupyter*"
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:43
 msgid ""
@@ -132,7 +132,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:75
 msgid ""
-"Cell-> Run All:  will run all the cells and show the results If everything "
+"Cell-> Run All: will run all the cells and show the results If everything "
 "worked as planned you should be able to see the results at the bottom of the"
 " page."
 msgstr ""
