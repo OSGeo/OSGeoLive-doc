@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:23
 msgid "deegree Quickstart"
-msgstr "deegree  Hızlı başlangıç"
+msgstr "deegree Hızlı başlangıç"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:25
 msgid ""
@@ -123,7 +123,7 @@ msgstr ""
 #: ../../build/doc/quickstart/deegree_quickstart.rst:70
 msgid ""
 "Click on the **+** on the right side to open a layer tree showing all "
-"available  layers. You can activate the a variety of layers served by the "
+"available layers. You can activate the a variety of layers served by the "
 "deegree WMS here."
 msgstr ""
 

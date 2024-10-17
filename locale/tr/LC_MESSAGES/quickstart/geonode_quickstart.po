@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:22
 msgid "GeoNode Quickstart"
-msgstr "GeoNode  Hızlı başlangıç"
+msgstr "GeoNode Hızlı başlangıç"
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:24
 msgid "Open Source Geospatial Content Management System"

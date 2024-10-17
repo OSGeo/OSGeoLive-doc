@@ -33,10 +33,10 @@ msgstr ""
 msgid ""
 "Rasdaman is an Array Database System which provides flexible, fast, scalable"
 " geo services for multi-dimensional spatio-temporal sensor, image, "
-"simulation, and statistics data of unlimited volume.  Ad-hoc access, "
+"simulation, and statistics data of unlimited volume. Ad-hoc access, "
 "extraction, aggregation, as well as remix and analytics is enabled through a"
 " NewSQL raster query language with highly effective server-side "
-"optimization.  Cloud/cluster parallelization is accomplished in a secure, "
+"optimization. Cloud/cluster parallelization is accomplished in a secure, "
 "administrator-controlled way."
 msgstr ""
 
@@ -51,9 +51,9 @@ msgstr ""
 #: ../../build/doc/overview/rasdaman_overview.rst:31
 msgid ""
 "Rasdaman has received a series of international innovation awards, among "
-"them the prestigeous European IT Prize and Geospatial Innovation Award.  "
+"them the prestigeous European IT Prize and Geospatial Innovation Award. "
 "Technology is mature and stable, being in operational for more than ten "
-"years.  Among the operators of rasdaman services are mapping agencies and "
+"years. Among the operators of rasdaman services are mapping agencies and "
 "climate data centers."
 msgstr ""
 
@@ -132,12 +132,12 @@ msgid "**API Interfaces:** rasql, C++, Java"
 msgstr "**API Arayüzleri:** rasql, C++, Java"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:69
-msgid "**Support:**  https://rasdaman.com"
-msgstr "**Destek:**  https://rasdaman.com"
+msgid "**Support:** https://rasdaman.com"
+msgstr "**Destek:** https://rasdaman.com"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:71
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+"This project is only included on the OSGeoLive virtual machine disk (VMDK)"
 msgstr ""
 
 #: ../../build/doc/overview/rasdaman_overview.rst:74
