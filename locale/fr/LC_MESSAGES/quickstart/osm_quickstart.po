@@ -304,7 +304,7 @@ msgstr "'Montrer la requête' pour voir la requête Overpass"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:139
 msgid ""
-"Click  `Run query`. The resulting data will be loaded in your QGIS project "
+"Click `Run query`. The resulting data will be loaded in your QGIS project "
 "as temporal data"
 msgstr ""
 "Cliquer sur 'Exécuter la requête'. Les données correspondantes vont être "

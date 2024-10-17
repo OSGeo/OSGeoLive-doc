@@ -291,7 +291,7 @@ msgid ""
 "<../quickstart/zoo-project_quickstart>`] - Web Processing Service"
 msgstr ""
 "|OSGeo_incubation| :doc:`zoo-project_overview` - [:doc:`Quickstart "
-"<../quickstart/zoo-project_quickstart>`] -  Service de géotraitement via "
+"<../quickstart/zoo-project_quickstart>`] - Service de géotraitement via "
 "le Web"
 
 #: ../../build/doc/overview/overview.rst:165
@@ -360,7 +360,7 @@ msgid ""
 "<../quickstart/52nWPS_quickstart>`] - Web Processing Service"
 msgstr ""
 "|nologo| :doc:`52nWPS_overview` - [:doc:`Quickstart "
-"<../quickstart/52nWPS_quickstart>`] -  Service de géotraitement via le "
+"<../quickstart/52nWPS_quickstart>`] - Service de géotraitement via le "
 "Web"
 
 #: ../../build/doc/overview/overview.rst:185
@@ -530,7 +530,7 @@ msgid "Spatial data sets"
 msgstr "Jeux de données spatiales"
 
 #: ../../build/doc/overview/overview.rst:301
-msgid "|nologo| :doc:`naturalearth_overview`  - Global Data Sets"
+msgid "|nologo| :doc:`naturalearth_overview` - Global Data Sets"
 msgstr "|nologo| :doc:`naturalearth_overview` - Jeux de données globaux"
 
 #: ../../build/doc/overview/overview.rst:303
@@ -539,16 +539,16 @@ msgstr "|nologo| :doc:`nc_dataset_overview`"
 
 #: ../../build/doc/overview/overview.rst:305
 msgid ""
-"|nologo| :doc:`netcdf_dataset_overview`  - Time series temperature and "
+"|nologo| :doc:`netcdf_dataset_overview` - Time series temperature and "
 "precipitation"
 msgstr ""
-"|nologo| :doc:`netcdf_dataset_overview`  - Séries temporelles de "
+"|nologo| :doc:`netcdf_dataset_overview` - Séries temporelles de "
 "températures et précipitations"
 
 #: ../../build/doc/overview/overview.rst:307
-msgid "|nologo| :doc:`osm_dataset_overview`  - Sample extract from OpenStreetMap"
+msgid "|nologo| :doc:`osm_dataset_overview` - Sample extract from OpenStreetMap"
 msgstr ""
-"|nologo| :doc:`osm_dataset_overview`  - Échantillon extrait de "
+"|nologo| :doc:`osm_dataset_overview` - Échantillon extrait de "
 "OpenStreetMap"
 
 #: ../../build/doc/overview/overview.rst:311
@@ -561,16 +561,16 @@ msgid ""
 "<../quickstart/gdal_quickstart>`] - Geospatial Data Translation Tools"
 msgstr ""
 "|OSGeo_project| :doc:`gdal_overview` - [:doc:`Quickstart "
-"<../quickstart/gdal_quickstart>`] -  Outils de translation de données "
+"<../quickstart/gdal_quickstart>`] - Outils de translation de données "
 "géospatiales"
 
 #: ../../build/doc/overview/overview.rst:328
-msgid "|OSGeo_project| :doc:`geos_overview`  - C/C++ Spatial Library"
+msgid "|OSGeo_project| :doc:`geos_overview` - C/C++ Spatial Library"
 msgstr "|OSGeo_project| :doc:`geos_overview` - Bibliothèque spatiale C/C++"
 
 #: ../../build/doc/overview/overview.rst:330
-msgid "|OSGeo_project| :doc:`geotools_overview`  - Java GIS Toolkit"
-msgstr "|OSGeo_project| :doc:`geotools_overview`  - Boîte à outils SIG Java"
+msgid "|OSGeo_project| :doc:`geotools_overview` - Java GIS Toolkit"
+msgstr "|OSGeo_project| :doc:`geotools_overview` - Boîte à outils SIG Java"
 
 #: ../../build/doc/overview/overview.rst:332
 msgid ""
@@ -582,7 +582,7 @@ msgstr ""
 " de coordonnées"
 
 #: ../../build/doc/overview/overview.rst:334
-msgid "|nologo| :doc:`jts_overview`  - Java Topology Suite"
+msgid "|nologo| :doc:`jts_overview` - Java Topology Suite"
 msgstr "|nologo| :doc:`jts_overview` - Suite d'outils topologiques Java"
 
 #: ../../build/doc/overview/overview.rst:338
@@ -590,15 +590,15 @@ msgid "Geospatial Standards"
 msgstr "Normes géospatiales"
 
 #: ../../build/doc/overview/overview.rst:348
-msgid "|nologo| :doc:`ogc_overview`  - Open Geospatial Consortium"
-msgstr "|nologo| :doc:`ogc_overview`  - Open Geospatial Consortium"
+msgid "|nologo| :doc:`ogc_overview` - Open Geospatial Consortium"
+msgstr "|nologo| :doc:`ogc_overview` - Open Geospatial Consortium"
 
 #: ../../build/doc/overview/overview.rst:350
 msgid ""
-"|nologo| :doc:`inspire_overview`  - Infrastructure for Spatial "
+"|nologo| :doc:`inspire_overview` - Infrastructure for Spatial "
 "Information in Europe"
 msgstr ""
-"|nologo| :doc:`inspire_overview`  - Infrastructure for Spatial "
+"|nologo| :doc:`inspire_overview` - Infrastructure for Spatial "
 "Information in Europe (Inspire)"
 
 #: ../../build/doc/overview/overview.rst:354

@@ -263,7 +263,7 @@ msgstr "Standards implémentés"
 
 #: ../../build/doc/overview/geotools_overview.rst:97
 msgid "Support of numerous Open Geospatial Consortium (OGC) standards:"
-msgstr "Support de nombreux standards de l'Open Geospatial Consortium  (OGC):"
+msgstr "Support de nombreux standards de l'Open Geospatial Consortium (OGC):"
 
 #: ../../build/doc/overview/geotools_overview.rst:99
 msgid ""
