@@ -245,7 +245,7 @@ msgstr "**Fejlesztők:** http://udig.refractions.net/developers/"
 
 #: ../../build/doc/overview/udig_overview.rst:87
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+"This project is only included on the OSGeoLive virtual machine disk (VMDK)"
 msgstr "Ez a projekt csak az OSGeoLive virtuális gépben (VMDK) található meg"
 
 #: ../../build/doc/overview/udig_overview.rst:90

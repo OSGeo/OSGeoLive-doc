@@ -111,7 +111,7 @@ msgstr "**Támogatás:** https://github.com/actinia-org/actinia-core"
 
 #: ../../build/doc/overview/actinia_overview.rst:61
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk "
+"This project is only included on the OSGeoLive virtual machine disk "
 "(VMDK)"
 msgstr "Ez a projekt csak az OSGeoLive virtuális gépben (VMDK) található meg"
 

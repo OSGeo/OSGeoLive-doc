@@ -117,7 +117,7 @@ msgid "Interoperable: able to work with most known data formats:"
 msgstr "Interoperábilis: a legtöbb ismert adatformátummal képes dolgozni:"
 
 #: ../../build/doc/overview/gvsig_overview.rst:46
-msgid "raster : ecw,  ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, NetCDF..."
+msgid "raster : ecw, ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, NetCDF..."
 msgstr "raszter : ecw, ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, NetCDF..."
 
 #: ../../build/doc/overview/gvsig_overview.rst:47
@@ -276,7 +276,7 @@ msgid "Export/import of Web Map Context (WMC)"
 msgstr "Web térkép kontextus (WMC) export/import"
 
 #: ../../build/doc/overview/gvsig_overview.rst:97
-msgid "Search on catalogues with  CSW (ISO/19115 and ebRIM)"
+msgid "Search on catalogues with CSW (ISO/19115 and ebRIM)"
 msgstr "CSW keresés katalógusokban (ISO/19115 és ebRIM)"
 
 #: ../../build/doc/overview/gvsig_overview.rst:98
@@ -313,7 +313,7 @@ msgstr ""
 
 #: ../../build/doc/overview/gvsig_overview.rst:116
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+"This project is only included on the OSGeoLive virtual machine disk (VMDK)"
 msgstr "Ez a projekt csak az OSGeoLive virtuális gépben (VMDK) található meg"
 
 #: ../../build/doc/overview/gvsig_overview.rst:119
