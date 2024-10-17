@@ -225,7 +225,7 @@ Apply style to features
 =======================
 
 Features within vector layers can be styled.
-The style is determined by a combination of fill, stroke, text  and image, which are all optional. In addition, a style can be applied to a layer, which determines the style of all contained features, or to an individual feature.
+The style is determined by a combination of fill, stroke, text and image, which are all optional. In addition, a style can be applied to a layer, which determines the style of all contained features, or to an individual feature.
 
 A style is represented by the ``ol.style.Style`` class which has properties to set the ``fill``, ``stroke``, ``text`` and ``image`` to be applied. The next example shows the World's administrative limits dataset styled to use a green fill and stroke:
 

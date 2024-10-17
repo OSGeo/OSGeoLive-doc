@@ -23,7 +23,7 @@ Prerequisites
 
 **Software**
 
-* Download `Virtual Box <https://www.virtualbox.org/>`_  for your platform, and install the software. On Windows run the installer, or on Ubuntu-like Linux systems run the following:
+* Download `Virtual Box <https://www.virtualbox.org/>`_ for your platform, and install the software. On Windows run the installer, or on Ubuntu-like Linux systems run the following:
 
   ``apt-get install virtualbox-ose``
 
@@ -32,7 +32,7 @@ Prerequisites
 **Hardware**
 
 * **RAM**: Minimum 2 GB. The Lubuntu system runs well with 1 GB of RAM, and you'll need to keep at least the same amount of memory for some of your applications (such as GeoServer). So a total of 2 GB is recommended for a smooth operation.
-* **Spare**: Minimum 30 GB Hard Disk Space. The virtual disk file (vmdk) from :doc:`live.osgeo.org <../download>`  unzips to |osgeolive-hdspace|. You'll also want more space to allow some room to work on the virtual machine. So a total of 30 GB is a good recommendation.
+* **Spare**: Minimum 30 GB Hard Disk Space. The virtual disk file (vmdk) from :doc:`live.osgeo.org <../download>` unzips to |osgeolive-hdspace|. You'll also want more space to allow some room to work on the virtual machine. So a total of 30 GB is a good recommendation.
 * **CPU**: Any CPU will do, but a processor which supports "Virtualization Technology" will be faster. Check if your computer supports `Virtualization Technology <https://www.intel.com/content/www/us/en/support/articles/000005486/processors.html>`_
 
 .. note::
