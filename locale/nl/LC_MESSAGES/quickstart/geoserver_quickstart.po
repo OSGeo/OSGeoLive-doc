@@ -115,7 +115,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:83
 msgid ""
-"Experiment with this view and look at some of the other previews.  Once you "
+"Experiment with this view and look at some of the other previews. Once you "
 "are comfortable viewing existing data you can move on to adding some new "
 "data."
 msgstr ""
