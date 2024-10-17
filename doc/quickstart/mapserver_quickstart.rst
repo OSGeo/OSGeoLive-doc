@@ -54,7 +54,7 @@ Creating my first Mapfile
 #. Open any text editor (e.g. :menuselection:`Applications --> Accessories -->
    FeatherPad`).
 #. Create the file "mapserver_quickstart.map" at the following location:
-   :file:`/usr/local/share/mapserver/mapserver_quickstart.map`
+   :file:`/home/user/mapserver_quickstart.map`
 
 
    Put the following content in it::
@@ -143,7 +143,7 @@ Render a map image with MapServer using a WMS **GetMap** request
 
 Open a web browser and enter the following URL::
 
-  http://localhost/cgi-bin/mapserv?map=/usr/local/share/mapserver/mapserver_quickstart.map&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&LAYERS=Countries&STYLES=&SRS=EPSG:4326&BBOX=-137,29,-53,88&FORMAT=PNG&WIDTH=800&HEIGHT=600
+  http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&LAYERS=Countries&STYLES=&SRS=EPSG:4326&BBOX=-137,29,-53,88&FORMAT=PNG&WIDTH=800&HEIGHT=600
 
 What does the above mean?  If we put it in simple words, it's a |WMS|
 **GetMap**
@@ -160,7 +160,7 @@ result looks like the following:
 .. note::
 
   All parameters of the request are WMS-specific, except
-  "*?map=/usr/local/share/mapserver/mapserver_quickstart.map*", which is MapServer-specific.
+  "*?map=/home/user/mapserver_quickstart.map*", which is MapServer-specific.
 
 
 
@@ -174,7 +174,7 @@ repetitive mapping, or while debugging.
 Open a terminal (:menuselection:`Applications --> System Tools --> Terminal
 Emulator`) and type::
 
-  map2img -m /usr/local/share/mapserver/mapserver_quickstart.map -o /home/user/Documents/mymap.png
+  map2img -m /home/user/mapserver_quickstart.map -o /home/user/Documents/mymap.png
 
 If this command runs successfully, you are able to see your rendered map at
 file:///home/user/mymap.png.
@@ -211,7 +211,7 @@ Let's take our previous WMS **GetMap** request and add our new "Lakes" layer
 to the image rendered. We simply need to add the new layer name to the
 "LAYERS" property list::
 
-  http://localhost/cgi-bin/mapserv?map=/usr/local/share/mapserver/mapserver_quickstart.map&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&LAYERS=Countries,Lakes&STYLES=&SRS=EPSG:4326&BBOX=-137,29,-53,88&FORMAT=PNG&WIDTH=800&HEIGHT=600
+  http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&LAYERS=Countries,Lakes&STYLES=&SRS=EPSG:4326&BBOX=-137,29,-53,88&FORMAT=PNG&WIDTH=800&HEIGHT=600
 
 The image rendered by MapServer looks like our previous map, but with the
 addition of the lakes from our new layer:
@@ -301,7 +301,7 @@ Using QGIS Desktop to load your OGC WMS
 
 #. Save your settings:
 
-   http://localhost/cgi-bin/mapserv?map=/usr/local/share/mapserver/mapserver_quickstart.map&SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0
+   http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=GetCapabilities&VERSION=1.3.0
 
 Then you can connect to your service and add one or more layers of the service to your QGIS project. If you choose the layer with the ID 0 you can load the whole service with all layers at once.
 
