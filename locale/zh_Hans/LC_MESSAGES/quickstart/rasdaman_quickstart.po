@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:15
-msgid "This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgid "This project is only included on the OSGeoLive virtual machine disk (VMDK)"
 msgstr ""
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:23
@@ -125,7 +125,7 @@ msgid "The `rasdaman tutorial <https://tutorial.rasdaman.org/>`_ provides a cond
 msgstr ""
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:130
-msgid "Learn more about the OGC  |WCPS| Language standard (which was heavily inspired by rasdaman); a good starting point is the `documentation and tutorials page <https://standards.rasdaman.com/>`_  and `WCPS Query SandBox <http://localhost/rasdaman-demo/demo/client/query-sandbox.html>`_."
+msgid "Learn more about the OGC |WCPS| Language standard (which was heavily inspired by rasdaman); a good starting point is the `documentation and tutorials page <https://standards.rasdaman.com/>`_ and `WCPS Query SandBox <http://localhost/rasdaman-demo/demo/client/query-sandbox.html>`_."
 msgstr ""
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:133

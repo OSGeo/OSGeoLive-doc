@@ -49,7 +49,7 @@ msgid "Large polygons are split for more efficient data handling such as bathyme
 msgstr ""
 
 #: ../../build/doc/overview/naturalearth_overview.rst:35
-msgid "Projection friendly vectors precisely match at 180 degrees longitude. Lines contain enough data  points for smooth bending in conic projections, but not so many that computer processing speed suffers."
+msgid "Projection friendly vectors precisely match at 180 degrees longitude. Lines contain enough data points for smooth bending in conic projections, but not so many that computer processing speed suffers."
 msgstr ""
 
 #: ../../build/doc/overview/naturalearth_overview.rst:36

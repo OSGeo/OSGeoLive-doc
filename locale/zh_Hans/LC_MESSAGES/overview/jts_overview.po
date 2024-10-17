@@ -21,7 +21,7 @@ msgid "JTS"
 msgstr ""
 
 #: ../../build/doc/overview/jts_overview.rst:16
-msgid "JTS is an open source library of spatial predicates and functions for processing geometries.  It provides a complete, consistent, and robust implementation of fundamental algorithms for processing linear geometry on the 2-dimensional Cartesian plane."
+msgid "JTS is an open source library of spatial predicates and functions for processing geometries. It provides a complete, consistent, and robust implementation of fundamental algorithms for processing linear geometry on the 2-dimensional Cartesian plane."
 msgstr ""
 
 #: ../../build/doc/overview/jts_overview.rst:20
@@ -29,7 +29,7 @@ msgid "JTS includes the \"JTS Test Builder\" which allows users to run tests and
 msgstr ""
 
 #: ../../build/doc/overview/jts_overview.rst:24
-msgid "JTS is used by most java based Open Source geospatial applications, and :doc:`geos_overview`, which is a C++ port of JTS, is used by most C based applications.  Additional ports are available for C# and JavaScript."
+msgid "JTS is used by most java based Open Source geospatial applications, and :doc:`geos_overview`, which is a C++ port of JTS, is used by most C based applications. Additional ports are available for C# and JavaScript."
 msgstr ""
 
 #: ../../build/doc/overview/jts_overview.rst:None
