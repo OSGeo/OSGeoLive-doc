@@ -149,7 +149,7 @@ msgid "Translation"
 msgstr ""
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:135
-msgid "Translations are accomplished with the gdal_translate command. The default output format is GeoTIFF.  The `-of` flag is used to select an output format and the -co flag is used to specify a creation option:"
+msgid "Translations are accomplished with the gdal_translate command. The default output format is GeoTIFF. The `-of` flag is used to select an output format and the -co flag is used to specify a creation option:"
 msgstr ""
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:143
@@ -213,7 +213,7 @@ msgid "Here we reproject to the Ortho projection."
 msgstr ""
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:250
-msgid "Note how the poles are clipped?  This is because the edges at the pole can't be reprojected gdalwarp does not read all the data.  We can force gdalwarp to read a bunch of surplus data around chunks as one way to resolve this. Read more about this in the RasterTutorial https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial."
+msgid "Note how the poles are clipped? This is because the edges at the pole can't be reprojected gdalwarp does not read all the data. We can force gdalwarp to read a bunch of surplus data around chunks as one way to resolve this. Read more about this in the RasterTutorial https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial."
 msgstr ""
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:258

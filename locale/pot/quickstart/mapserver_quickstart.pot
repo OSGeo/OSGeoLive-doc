@@ -64,8 +64,8 @@ msgstr ""
 msgid "The example uses the natural earth dataset, which is already on OSGeoLive at :file:`~/data/natural_earth2` (a short cut to :file:`/usr/local/share/data/natural_earth2`)."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:109
-msgid "Each object in a Mapfile starts with its name (for example **MAP**) and ends with an **END**.  A Mapfile always starts with the **MAP** object and should contain a list of **LAYER** objects the Mapfile can read and draw. In our Mapfile, we currently have only one layer defined."
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:107
+msgid "Each object in a Mapfile starts with its name (for example **MAP**) and ends with an **END**. A Mapfile always starts with the **MAP** object and should contain a list of **LAYER** objects the Mapfile can read and draw. In our Mapfile, we currently have only one layer defined."
 msgstr ""
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:114
@@ -76,8 +76,9 @@ msgstr ""
 msgid "EXTENT: sets the default geospatial bounding box for this configuration."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:118
-msgid "LAYER: defines access and display properties for a spatial dataset.  We'll add another layer later."
+
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:116
+msgid "LAYER: defines access and display properties for a spatial dataset. We'll add another layer later."
 msgstr ""
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:120
@@ -120,8 +121,8 @@ msgstr ""
 msgid "Open a web browser and enter the following URL::"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapserver_quickstart.rst:154
-msgid "What does the above mean?  If we put it in simple words, it's a |WMS| **GetMap** request that tells MapServer to \"*use the following Mapfile to render the specified layers as a png image based on some user-supplied parameters such as image size, geographical extent, projection, etc.*\".  All layers specified in the \"*&LAYERS=...*\" property having *STATUS ON* in the Mapfile will be rendered in addition to all layers with *STATUS DEFAULT*. The result looks like the following:"
+#: ../../build/doc/quickstart/mapserver_quickstart.rst:153
+msgid "What does the above mean? If we put it in simple words, it's a |WMS| **GetMap** request that tells MapServer to \"*use the following Mapfile to render the specified layers as a png image based on some user-supplied parameters such as image size, geographical extent, projection, etc.*\". All layers specified in the \"*&LAYERS=...*\" property having *STATUS ON* in the Mapfile will be rendered in addition to all layers with *STATUS DEFAULT*. The result looks like the following:"
 msgstr ""
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:168

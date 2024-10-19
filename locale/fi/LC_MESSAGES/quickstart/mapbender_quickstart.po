@@ -74,7 +74,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:48
 msgid ""
-"Choose  |menu_mapbender| from the start menu or visit "
+"Choose |menu_mapbender| from the start menu or visit "
 "http://localhost/mapbender/app.php. The application will take a few "
 "moments to start up"
 msgstr ""

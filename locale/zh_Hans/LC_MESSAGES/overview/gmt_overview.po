@@ -77,7 +77,7 @@ msgid "**Support:** https://forum.generic-mapping-tools.org/"
 msgstr ""
 
 #: ../../build/doc/overview/gmt_overview.rst:59
-msgid "This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgid "This project is only included on the OSGeoLive virtual machine disk (VMDK)"
 msgstr ""
 
 #: ../../build/doc/overview/gmt_overview.rst:62

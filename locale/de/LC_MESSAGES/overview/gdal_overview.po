@@ -46,7 +46,7 @@ msgstr ""
 #: ../../build/doc/overview/gdal_overview.rst:27
 msgid ""
 "The utilities are based upon a cross platform, C++ library, accessible via "
-"numerous programming languages.  As a library, it presents a single abstract"
+"numerous programming languages. As a library, it presents a single abstract"
 " data model to the calling application for all supported formats."
 msgstr ""
 "Die Hilfsprogramme basieren auf einer plattformübergreifenden C++ "

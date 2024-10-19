@@ -61,7 +61,7 @@ View a map
 
 #. Click on *'see layers'* to open a simple map-client. The service is configured to visualize the data and a basemap (rendered by `OpenStreetMap <https://www.openstreetmap.org/>`_).
 
-#. Click on the **+** on the right side to open a layer tree showing all available  layers. You can activate the a variety of layers served by the deegree WMS here.
+#. Click on the **+** on the right side to open a layer tree showing all available layers. You can activate the a variety of layers served by the deegree WMS here.
 
 .. tip::
    The map client is based on `OpenLayers <https://openlayers.org/>`_.

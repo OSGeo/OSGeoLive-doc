@@ -220,7 +220,7 @@ msgstr "Hatékony eszközök:"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:84
 msgid ""
-"efficient seed tool for cache pre-filling that can seed polygon areas  with "
+"efficient seed tool for cache pre-filling that can seed polygon areas with "
 "Shapefiles, GeoJSON, PostGIS or WKT geometries"
 msgstr ""
 "hatékony eszköz a gyorsítótár előzetes feltöltésére, amely sokszög "

@@ -81,7 +81,7 @@ msgid "**Support:** https://github.com/actinia-org/actinia-core"
 msgstr ""
 
 #: ../../build/doc/overview/actinia_overview.rst:61
-msgid "This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgid "This project is only included on the OSGeoLive virtual machine disk (VMDK)"
 msgstr ""
 
 #: ../../build/doc/overview/actinia_overview.rst:64

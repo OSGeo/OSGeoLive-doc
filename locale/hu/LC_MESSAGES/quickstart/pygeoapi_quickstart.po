@@ -213,7 +213,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:102
 msgid ""
-"Each Open API has an interactive documentation page at  "
+"Each Open API has an interactive documentation page at "
 "http://localhost:5000/openapi. In this interactive webpage you can read "
 "about the various methods in the service, but also directly interact with"
 " them via web forms."

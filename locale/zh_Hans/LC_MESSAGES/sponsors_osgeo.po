@@ -53,7 +53,7 @@ msgstr "OSGeo 推廣和活動包括："
 msgid ""
 "`Local Chapters <https://www.osgeo.org/local-chapters>`__: Local, regional "
 "and language groups support grass roots activities."
-msgstr "`在地分會  <https://www.osgeo.org/local-chapters>`__: 在地、區域或是語言群組支援草根活動。"
+msgstr "`在地分會 <https://www.osgeo.org/local-chapters>`__: 在地、區域或是語言群組支援草根活動。"
 
 #: ../../build/doc/sponsors_osgeo.rst:20
 msgid ""

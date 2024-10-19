@@ -114,7 +114,7 @@ msgid ""
 "`Local Chapters <https://www.osgeo.org/local-chapters>`__: Local, regional "
 "and language groups support grass roots activities."
 msgstr ""
-"\"Lokale afdelingen  <https://www.osgeo.org/local-chapters>`__: Lokale, "
+"\"Lokale afdelingen <https://www.osgeo.org/local-chapters>`__: Lokale, "
 "regionale en taalgroepen ondersteunen activiteiten aan de basis."
 
 #: ../../build/doc/sponsors_osgeo.rst:20
@@ -134,7 +134,7 @@ msgid ""
 "geospatial open source software, pre-configured with sample data and "
 "quickstarts, ready to try out."
 msgstr ""
-"`OSGeoLive  <https://live.osgeo.org>`__: Een distributie van gevestigde "
+"`OSGeoLive <https://live.osgeo.org>`__: Een distributie van gevestigde "
 "geospatiale open source software, vooraf geconfigureerd met "
 "voorbeeldgegevens en quickstarts, klaar om uit te proberen."
 

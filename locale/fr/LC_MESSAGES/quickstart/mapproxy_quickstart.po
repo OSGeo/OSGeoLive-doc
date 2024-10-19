@@ -103,7 +103,7 @@ msgid ""
 " service URL is: `<http://localhost:8011/service?>`_"
 msgstr ""
 "Vous pouvez ajouter MapProxy dans n’importe quel SIG de bureau WMS comme "
-"uDig, QGIS ou gvSIG. L’URL du service est:  "
+"uDig, QGIS ou gvSIG. L’URL du service est: "
 "`<http://localhost:8011/service?>`_"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:53
@@ -199,7 +199,7 @@ msgid ""
 "This layer uses Mapserver Itasca demo dataset. It is a local dataset and "
 "it uses the *coverage* feature to limit the BBOX to Itasca, IL."
 msgstr ""
-"Cette couche utilisele  jeu de données de démonstration Itasca de "
+"Cette couche utilisele jeu de données de démonstration Itasca de "
 "Mapserver. Il s’agit d’un ensemble de données local et il utilise la "
 "fonction *coverage* pour limiter la boite englobante à Itasca, Illinois."
 

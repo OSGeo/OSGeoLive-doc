@@ -27,7 +27,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:13
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk "
+"This project is only included on the OSGeoLive virtual machine disk "
 "(VMDK)"
 msgstr ""
 "Ce projet n’est inclus que sur le disque de machine virtuelle OSGeoLive "
@@ -55,7 +55,7 @@ msgid ""
 "Query the 52°North SOS Capabilities to determine what queries it supports"
 " and which data it offers."
 msgstr ""
-"Interroger les capacités de  52°North SOS pour déterminer les requêtes "
+"Interroger les capacités de 52°North SOS pour déterminer les requêtes "
 "supportées et quelles données sont proposées."
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:27
@@ -128,7 +128,7 @@ msgid ""
 "**Fig. 2**: 52°North SOS client - test client with GetCapabilities "
 "request."
 msgstr ""
-"**Fig. 2**: Client 52°North SOS  - client de test avec une requête "
+"**Fig. 2**: Client 52°North SOS - client de test avec une requête "
 "GetCapabilities."
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:63
@@ -145,7 +145,7 @@ msgstr ""
 "2018-07-04T23:45:00.000 + 00:00 pour chaque série chronologique, insérer "
 "la demande suivante après avoir sélectionné :menuselection:`**service** "
 "SOS --> **version** 2.0.0 --> **binding** SOAP --> **operation** "
-"GetObservation`  dans le champ de requête du `client de test  "
+"GetObservation`  dans le champ de requête du `client de test "
 "<http://localhost:8080/52nSOS/client>`_ :"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:98
@@ -194,7 +194,7 @@ msgid ""
 "Open the SOS administrator `database maintenance page "
 "<http://localhost:8080/52nSOS/admin/datasource>`_."
 msgstr ""
-"Ouvrir en mode administrateur SOS  `la page de maintenance de la base de "
+"Ouvrir en mode administrateur SOS `la page de maintenance de la base de "
 "données <http://localhost:8080/52nSOS/admin/datasource>`_."
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:112
@@ -233,7 +233,7 @@ msgstr ""
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:125
 msgid "**Fig. 3**: 52°North SOS client - JavaScript client with time series data."
 msgstr ""
-"**Fig. 3**:  Client 52°North SOS - client JavaScript avec des données de "
+"**Fig. 3**: Client 52°North SOS - client JavaScript avec des données de "
 "séries temporelles."
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:127
@@ -262,7 +262,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:193
 msgid "52°North :doc:`SOS overview <../overview/52nSOS_overview>`"
-msgstr "52°North :doc:`présentation de SOS  <../overview/52nSOS_overview>`"
+msgstr "52°North :doc:`présentation de SOS <../overview/52nSOS_overview>`"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:194
 msgid "52°North Sensor Web mailing list: sensorweb@52north.org"
@@ -296,7 +296,7 @@ msgid ""
 "different projects, organizations, and persons. More details can be found"
 " in the `52°North SOS client <http://localhost:8080/52nSOS/index>`_."
 msgstr ""
-"Le développement de cette version de  52°North SOS a été supporté par "
+"Le développement de cette version de 52°North SOS a été supporté par "
 "différents projets, organisations et personnes. Plus de détails peuvent "
 "être trouvés dans le `client 52°North SOS "
 "<http://localhost:8080/52nSOS/index>`_."
@@ -309,7 +309,7 @@ msgid ""
 "published under a |CC BY 3.0| license."
 msgstr ""
 "Nous tenons à remercier l’Agence belge de l’environnement Interregional "
-"(`IRCEL - CELINE <https://www.irceline.be/en/>`_)  pour fournir les "
+"(`IRCEL - CELINE <https://www.irceline.be/en/>`_) pour fournir les "
 "données de démonstration utilisées dans cette installation de SOS. Les "
 "données de démo sont publiées sous une licence |CC BY 3.0|."
 

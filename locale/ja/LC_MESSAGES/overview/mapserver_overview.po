@@ -222,8 +222,8 @@ msgid "Implemented Standards"
 msgstr "実装されている標準規格"
 
 #: ../../build/doc/overview/mapserver_overview.rst:93
-msgid "Support of numerous Open Geospatial Consortium  (OGC) standards"
-msgstr "多数の Open Geospatial Consortium  (OGC) 標準規格のサポート"
+msgid "Support of numerous Open Geospatial Consortium (OGC) standards"
+msgstr "多数の Open Geospatial Consortium (OGC) 標準規格のサポート"
 
 #: ../../build/doc/overview/mapserver_overview.rst:95
 msgid "|WMS| (client/server)"

@@ -23,12 +23,12 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:14
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+"This project is only included on the OSGeoLive virtual machine disk (VMDK)"
 msgstr ""
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:20
 msgid "GMT Quickstart"
-msgstr "GMT  Hızlı başlangıç"
+msgstr "GMT Hızlı başlangıç"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:22
 msgid ""

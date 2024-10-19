@@ -70,7 +70,7 @@ msgid ""
 "These commands are fully describe in `PROJ documentation "
 "<https://proj.org/apps/proj.html>`_ for the latest version."
 msgstr ""
-"これらのコマンドについては、最新バージョンの  `proj ドキュメント <https://proj.org/apps/proj.html>`_ "
+"これらのコマンドについては、最新バージョンの `proj ドキュメント <https://proj.org/apps/proj.html>`_ "
 "で詳しく説明しています。"
 
 #: ../../build/doc/quickstart/proj_quickstart.rst:56

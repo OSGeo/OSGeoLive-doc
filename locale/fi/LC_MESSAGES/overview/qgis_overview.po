@@ -256,7 +256,7 @@ msgstr "Lähtöohjeistus"
 #: ../../build/doc/overview/qgis_overview.rst:103
 msgid ":doc:`Quickstart documentation <../quickstart/qgis_quickstart>`"
 msgstr ""
-":doc:`Lähtöohjeistuksen dokumentaatio  <../quickstart/qgis_quickstart>`"
+":doc:`Lähtöohjeistuksen dokumentaatio <../quickstart/qgis_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"

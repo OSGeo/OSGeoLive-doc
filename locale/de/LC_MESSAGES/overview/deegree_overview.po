@@ -80,7 +80,7 @@ msgstr "**WFS**"
 
 #: ../../build/doc/overview/deegree_overview.rst:47
 msgid "Implements WFS standards 1.0.0, 1.1.0 and 2.0.0"
-msgstr "Implementiert  WFS standards 1.0.0, 1.1.0 and 2.0.0"
+msgstr "Implementiert WFS standards 1.0.0, 1.1.0 and 2.0.0"
 
 #: ../../build/doc/overview/deegree_overview.rst:48
 msgid ""

@@ -11,7 +11,7 @@
 ================================================================================
 
 JTS is an open source library of spatial predicates and functions for
-processing geometries.  It provides a complete, consistent, and robust implementation of fundamental
+processing geometries. It provides a complete, consistent, and robust implementation of fundamental
 algorithms for processing linear geometry on the 2-dimensional Cartesian plane.
 
 JTS includes the "JTS Test Builder" which allows users to
@@ -20,7 +20,7 @@ JTS stability is ensured through an extensive test suite.
 
 JTS is used by most java based Open Source geospatial applications, and
 :doc:`geos_overview`, which is a C++ port of JTS, is used by most
-C based applications.  Additional ports are available for C# and JavaScript.
+C based applications. Additional ports are available for C# and JavaScript.
 
 @SCREENSHOT_jts@
 

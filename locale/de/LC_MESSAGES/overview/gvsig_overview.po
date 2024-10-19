@@ -118,7 +118,7 @@ msgid "Interoperable: able to work with most known data formats:"
 msgstr "Interoperabilität: Verarbeitung gängiger Datenformate:"
 
 #: ../../build/doc/overview/gvsig_overview.rst:46
-msgid "raster : ecw,  ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, NetCDF..."
+msgid "raster : ecw, ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, NetCDF..."
 msgstr "Raster: ecw, ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, NetCDF,..."
 
 #: ../../build/doc/overview/gvsig_overview.rst:47
@@ -284,7 +284,7 @@ msgid "Export/import of Web Map Context (WMC)"
 msgstr "Export/Import von Web Map Context (WMC)"
 
 #: ../../build/doc/overview/gvsig_overview.rst:97
-msgid "Search on catalogues with  CSW (ISO/19115 and ebRIM)"
+msgid "Search on catalogues with CSW (ISO/19115 and ebRIM)"
 msgstr "Suchfunktion nach Katalog-Diensten durch CSW (ISO/19115 und ebRIM)"
 
 #: ../../build/doc/overview/gvsig_overview.rst:98
@@ -321,7 +321,7 @@ msgstr ""
 
 #: ../../build/doc/overview/gvsig_overview.rst:116
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+"This project is only included on the OSGeoLive virtual machine disk (VMDK)"
 msgstr ""
 "Das Projekt ist lediglich auf der OSGeoLive Virtual Machine Disk (VMDK)"
 

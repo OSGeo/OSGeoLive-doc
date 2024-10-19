@@ -47,7 +47,7 @@ msgstr "從頂端選單選擇其他語言。"
 
 #: ../../build/doc/quickstart/internationalisation_quickstart.rst:20
 msgid "Press the :guilabel:`Log in` button."
-msgstr "按  :guilabel:`Log in` 按鈕。"
+msgstr "按 :guilabel:`Log in` 按鈕。"
 
 #: ../../build/doc/quickstart/internationalisation_quickstart.rst:21
 msgid "Repeat the process if needed or if you wish to change languages again."

@@ -183,10 +183,20 @@ latex_documents = [
 
 linkcheck_retries = 3  # default is 1
 
+# About User-Agent:
+# https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent
+linkcheck_request_headers = {
+    "*": { 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:25.0) Gecko/20100101 Firefox/25.0' },
+}
+
 linkcheck_ignore = [
         # currently SSL_ERROR_BAD_CERT_DOMAIN
         # TODO remove this line when the CERT is fixed
         r'https://www.rspatial.org',
+
+
+        # NewConnectionError looks like information is wrong
+        r'http://udig.refractions.net',
 
         # link exists but does not accept robots and linkchecker is a robot
         # used in overview/mapserver_overview
@@ -199,10 +209,6 @@ linkcheck_ignore = [
         # ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
         'https://www.iso.org',
         r'https://inspire.ec.europa.eu',
-
-        #  403 Client Error: Forbidden for url
-        r'https://www.intel.com/',
-        r'https://www.mydigitallife.net/',
 
         # HTTPSConnectionPool
         r'https://worldwind.arc.nasa.gov/java/',
@@ -218,14 +224,15 @@ linkcheck_ignore = [
         r'https://live.osgeo.org/archive/15.0',
         r'https://live.osgeo.org/archive/16.0',
 
+        # For the following an appropiate user agent is needed
         # 403 Client Error
+        r'https://www.intel.com',
+        r'https://www.mydigitallife.net',
         r'https://docs.etf-validator.net',
         r'https://etf-validator.net',
         r'https://www.ogc.org',
-        r'https://external.ogc.org',
-        r'https://www.safe.com',
-        r'https://www.geowebcache.org',
-        r'https://www.geoext.org',
+        r'https://sourceforge.net',
+        r'https://opensource.org',
 
         # link exists but when many link checks are done link checker fails
         # ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))

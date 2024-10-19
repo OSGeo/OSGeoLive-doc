@@ -220,7 +220,7 @@ msgstr "**対応プラットフォーム:** Windows, Linux, Mac, Unix"
 
 #: ../../build/doc/overview/qgis_overview.rst:93
 msgid "**Community Support:** https://qgis.org/en/site/forusers/support.html"
-msgstr "**コミュニティサポート:**  https://qgis.org/en/site/forusers/support.html"
+msgstr "**コミュニティサポート:** https://qgis.org/en/site/forusers/support.html"
 
 #: ../../build/doc/overview/qgis_overview.rst:95
 msgid ""

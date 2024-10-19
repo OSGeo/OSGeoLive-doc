@@ -307,7 +307,7 @@ msgid ""
 "new window, your map will appear exactly as it was saved."
 msgstr ""
 "Tämä linkki sisältää pysyvän linkin kartallesi. Jos avaat tämän linkin "
-"uudessa ikkunassa,  karttasi aukeaa näkyviin juuri sellaisena kuin se oli"
+"uudessa ikkunassa, karttasi aukeaa näkyviin juuri sellaisena kuin se oli"
 " tallennettu."
 
 #: ../../build/doc/quickstart/geonode_quickstart.rst:181
@@ -414,7 +414,7 @@ msgstr ""
 "Jos tarvitset apua tai haluat saada tietoa tietystä aiheesta, älä "
 "kiirehdi kysyä meiltä! Voit tehdä tämän #geonode IRC -kanavan kautta "
 "käyttämällä https://web.libera.chat/, `GeoNode Gitter -kanavan "
-"kautta <https://gitter.im/GeoNode/general>`_   tai esittämällä "
+"kautta <https://gitter.im/GeoNode/general>`_  tai esittämällä "
 "kysymyksesi `postituslistallemme <https://lists.osgeo.org/cgi-"
 "bin/mailman/listinfo/geonode-users>`_ !"
 

@@ -84,11 +84,11 @@ msgstr "Váltás 3D, 2.5D és 2D között"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:42
 msgid ""
-"Click on the wire framed globe icon to select your preferred view.  Here "
+"Click on the wire framed globe icon to select your preferred view. Here "
 "the 2.5D Columbus view has been selected."
 msgstr ""
 "A drótvázas földgömb ikonra kattintva kiválaszthatja a megfelelő nézetet."
-"  Itt a 2,5 D Columbus nézetet választottuk."
+" Itt a 2,5 D Columbus nézetet választottuk."
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:-1
 msgid "Cesium switching between 3D, 2.5D and 2D"
@@ -108,7 +108,7 @@ msgstr "Kép réteg kiválasztása"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:56
 msgid ""
-"Click on the last icon and select a type of image service.  Here the "
+"Click on the last icon and select a type of image service. Here the "
 "Natural Earth II is selected and you can see how the map's image layer "
 "has changed."
 msgstr ""

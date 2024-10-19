@@ -85,7 +85,7 @@ msgid "Click on *'see layers'* to open a simple map-client. The service is confi
 msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:70
-msgid "Click on the **+** on the right side to open a layer tree showing all available  layers. You can activate the a variety of layers served by the deegree WMS here."
+msgid "Click on the **+** on the right side to open a layer tree showing all available layers. You can activate the a variety of layers served by the deegree WMS here."
 msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:73

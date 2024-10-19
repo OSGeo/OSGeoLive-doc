@@ -25,7 +25,7 @@ Core Features
 
 * Vector features include name and other attributes
 * Large polygons are split for more efficient data handling such as bathymetric layers.
-* Projection friendly vectors precisely match at 180 degrees longitude. Lines contain enough data  points for smooth bending in conic projections, but not so many that computer processing speed suffers.
+* Projection friendly vectors precisely match at 180 degrees longitude. Lines contain enough data points for smooth bending in conic projections, but not so many that computer processing speed suffers.
 * Raster data includes grayscale-shaded relief and cross-blended hypsometric tints derived from the latest NASA SRTM Plus elevation data and tailored to register with Natural Earth Vector.
 * Optimized for use in web mapping applications, such as Google or Yahoo, with built-in scale attributes to direct features to be shown at different zoom levels.
 

@@ -39,7 +39,7 @@ Core Features
 Implemented Standards
 --------------------------------------------------------------------------------
 
-Standards are at the core of pygeoapi.  Below is the project's standards support matrix.
+Standards are at the core of pygeoapi. Below is the project's standards support matrix.
 
 - Implementing: implements standard (good)
 - Compliant: conforms to OGC compliance requirements (great)

@@ -101,7 +101,7 @@ Creating my first Mapfile
   :file:`/usr/local/share/data/natural_earth2`).
 
 Each object in a Mapfile starts with its name (for example **MAP**) and ends
-with an **END**.  A Mapfile always starts with the **MAP** object and should
+with an **END**. A Mapfile always starts with the **MAP** object and should
 contain a list of **LAYER** objects the Mapfile can read and draw. In our
 Mapfile, we currently have only one layer defined.
 
@@ -109,7 +109,7 @@ Let's take a look at some of the objects (and properties) defined in our
 Mapfile:
 
  * EXTENT: sets the default geospatial bounding box for this configuration.
- * LAYER: defines access and display properties for a spatial dataset.  We'll
+ * LAYER: defines access and display properties for a spatial dataset. We'll
    add another layer later.
  * SHAPEPATH: sets a base path for file-based data (e.g. shapefiles or GeoTIFF
    images).
@@ -145,11 +145,11 @@ Open a web browser and enter the following URL::
 
   http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&LAYERS=Countries&STYLES=&SRS=EPSG:4326&BBOX=-137,29,-53,88&FORMAT=PNG&WIDTH=800&HEIGHT=600
 
-What does the above mean?  If we put it in simple words, it's a |WMS|
+What does the above mean? If we put it in simple words, it's a |WMS|
 **GetMap**
 request that tells MapServer to "*use the following Mapfile to render the
 specified layers as a png image based on some user-supplied parameters such
-as image size, geographical extent, projection, etc.*".  All layers
+as image size, geographical extent, projection, etc.*". All layers
 specified in the "*&LAYERS=...*" property having *STATUS ON* in the Mapfile
 will be rendered in addition to all layers with *STATUS DEFAULT*. The
 result looks like the following:

@@ -112,7 +112,7 @@ msgstr ""
 msgid ""
 "Click the :guilabel:`Options` icon on the toolbar. The Options window "
 "displays."
-msgstr "ツールバーの :guilabel:`Options`  アイコンをクリックします。オプションウィンドウが表示されます。"
+msgstr "ツールバーの :guilabel:`Options` アイコンをクリックします。オプションウィンドウが表示されます。"
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:75
 msgid "Select the :guilabel:`Plugins` tab."
@@ -149,7 +149,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:84
 msgid ""
-"There is no need to uncompress the file.  Click on the \">\" to the left "
+"There is no need to uncompress the file. Click on the \">\" to the left "
 "of the filename and select from the list of available forecast times."
 msgstr "ファイルを解凍する必要はありません。ファイル名の左側にある \">\" をクリックし、利用可能な予測時間のリストから選択します。"
 

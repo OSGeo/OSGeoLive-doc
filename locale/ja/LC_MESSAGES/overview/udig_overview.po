@@ -218,7 +218,7 @@ msgstr "**開発情報:** http://udig.refractions.net/developers/"
 
 #: ../../build/doc/overview/udig_overview.rst:87
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+"This project is only included on the OSGeoLive virtual machine disk (VMDK)"
 msgstr "このプロジェクトはOSGeoLive仮想マシンディスク(VMDK)にのみ含まれています"
 
 #: ../../build/doc/overview/udig_overview.rst:90
@@ -227,7 +227,7 @@ msgstr "クイックスタート"
 
 #: ../../build/doc/overview/udig_overview.rst:92
 msgid ":doc:`Quickstart documentation <../quickstart/udig_quickstart>`"
-msgstr ":doc:`クイックスタート文書  <../quickstart/udig_quickstart>`"
+msgstr ":doc:`クイックスタート文書 <../quickstart/udig_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"

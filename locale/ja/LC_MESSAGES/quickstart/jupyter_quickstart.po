@@ -65,7 +65,7 @@ msgid "From the application launch menu in the lower left corner."
 msgstr "左下隅のアプリケーション起動メニューから。"
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:41
-msgid "Choose  *Geospatial* -> *Spatial Tools* -> *Jupyter Notebook*"
+msgid "Choose *Geospatial* -> *Spatial Tools* -> *Jupyter Notebook*"
 msgstr "*Geospatial* -> *Spatial Tools* -> *Jupyter Notebook* を選択する"
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:43
@@ -115,11 +115,11 @@ msgstr "Cell-> Run Cells: フォーカスのあるセルでコードを実行し
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:75
 msgid ""
-"Cell-> Run All:  will run all the cells and show the results If everything "
+"Cell-> Run All: will run all the cells and show the results If everything "
 "worked as planned you should be able to see the results at the bottom of the"
 " page."
 msgstr ""
-"Cell-> Run All:  すべてのセルを実行し、結果を表示します。すべてが計画どおりに動作した場合は、ページの下部に結果が表示されます。"
+"Cell-> Run All: すべてのセルを実行し、結果を表示します。すべてが計画どおりに動作した場合は、ページの下部に結果が表示されます。"
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:79
 msgid "Have a look at the results after running all the cells."

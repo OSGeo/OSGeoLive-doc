@@ -140,11 +140,11 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:83
 msgid ""
-"Experiment with this view and look at some of the other previews.  Once "
+"Experiment with this view and look at some of the other previews. Once "
 "you are comfortable viewing existing data you can move on to adding some "
 "new data."
 msgstr ""
-"Kokeile tätä näkymää ja katso joitakin muita esikatseluita.  Kun olet "
+"Kokeile tätä näkymää ja katso joitakin muita esikatseluita. Kun olet "
 "tyytyväinen tarkastelemaan olemassa olevia tietoja, voit lisätä uusia "
 "tietoja."
 

@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "`pygeoapi`_ est une implémentation serveur en `Python`_ de la suite de "
 "standards OGC API. Le projet a vu le jour dans le cadre des efforts de la"
-" prochaine génération de l’ `OGC API`_  en 2018 et permet aux "
+" prochaine génération de l’ `OGC API`_ en 2018 et permet aux "
 "organisations de déployer un point de terminaison d’API OGC RESTful à "
 "l’aide d’OpenAPI, GeoJSON et HTML. pygeoapi est `open source "
 "<https://opensource.org>`_ et publié sous une licence `MIT`_."
@@ -131,10 +131,10 @@ msgstr "Standards implémentés"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:52
 msgid ""
-"Standards are at the core of pygeoapi.  Below is the project's standards "
+"Standards are at the core of pygeoapi. Below is the project's standards "
 "support matrix."
 msgstr ""
-"Les standards sont au cœur du pygeoapi.  Vous trouverez ci-dessous la "
+"Les standards sont au cœur du pygeoapi. Vous trouverez ci-dessous la "
 "matrice de supports des normes du projet."
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:54

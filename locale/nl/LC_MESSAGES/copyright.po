@@ -151,7 +151,7 @@ msgstr "**Beknopte CC-By-SA en naamsvermelding:**"
 #: ../../build/doc/copyright.rst:62
 msgid ""
 "© 2011 [Your Name] under a `CC By SA License "
-"<https://creativecommons.org/licenses/by-sa/3.0/>`__.  [Derived "
+"<https://creativecommons.org/licenses/by-sa/3.0/>`__. [Derived "
 "from|Includes|Extends] :doc:`OSGeoLive <index>` documentation by "
 ":doc:`OSGeoLive contributors <copyright>`."
 msgstr ""
@@ -412,8 +412,8 @@ msgstr "Balasubramaniam Natarajan"
 #: ../../build/licenses.csv:1 ../../build/licenses.csv:1
 #: ../../build/licenses.csv:1 ../../build/licenses.csv:1
 #: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-msgid "Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)"
-msgstr "Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)"
+msgid "Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)"
+msgstr "Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)"
 
 #: ../../build/licenses.csv:1
 msgid "deegree_overview"
@@ -508,7 +508,7 @@ msgid "Hamish Bowman; Paul Wessel"
 msgstr "Hamish Bowman; Paul Wessel"
 
 #: ../../build/licenses.csv:1
-msgid "Creative Commons Attribution 3.0 Unported  (CC BY 3.0)"
+msgid "Creative Commons Attribution 3.0 Unported (CC BY 3.0)"
 msgstr "Creative Commons Attribution 3.0 Unported (CC BY 3.0)"
 
 #: ../../build/licenses.csv:1
@@ -1447,7 +1447,7 @@ msgstr ""
 "bedrijfsonderbreking) wat de oorzaak ook is en op welke theorie van "
 "aansprakelijkheid dan ook, hetzij in contract, strikte aansprakelijkheid of "
 "onrechtmatige daad (inclusief nalatigheid of anderszins) die op enigerlei "
-"wijze voortvloeit uit het gebruik van deze software,  zelfs indien een "
+"wijze voortvloeit uit het gebruik van deze software, zelfs indien een "
 "houder van auteursrechten of een bijdrager op de hoogte was gebracht van de "
 "mogelijkheid van dergelijke schade.*"
 

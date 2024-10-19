@@ -45,7 +45,7 @@ msgid "In the Web Services folder on the Desktop (or via the start menu), double
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:47
-msgid "You can return to the  homepage at any point by selecting the catalogue logo in the top left of the top toolbar. In the screenshot below, this is labelled  “My GeoNetwork catalogue” but it may have a different name and logo."
+msgid "You can return to the homepage at any point by selecting the catalogue logo in the top left of the top toolbar. In the screenshot below, this is labelled “My GeoNetwork catalogue” but it may have a different name and logo."
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:55
@@ -121,7 +121,7 @@ msgid "a full text search box providing suggestions as you type,"
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:107
-msgid "*Search facets*, or  filters, that provide ways of narrowing down the search results, such as *Type of Resource*, *Topic*, *Keywords*,"
+msgid "*Search facets*, or filters, that provide ways of narrowing down the search results, such as *Type of Resource*, *Topic*, *Keywords*,"
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:112

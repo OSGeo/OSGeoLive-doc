@@ -210,7 +210,7 @@ msgid "Implemented Standards"
 msgstr "Toteutetut standardit"
 
 #: ../../build/doc/overview/mapserver_overview.rst:93
-msgid "Support of numerous Open Geospatial Consortium  (OGC) standards"
+msgid "Support of numerous Open Geospatial Consortium (OGC) standards"
 msgstr ""
 
 #: ../../build/doc/overview/mapserver_overview.rst:95
