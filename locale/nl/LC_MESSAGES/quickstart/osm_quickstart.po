@@ -251,7 +251,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:139
 msgid ""
-"Click  `Run query`. The resulting data will be loaded in your QGIS project "
+"Click `Run query`. The resulting data will be loaded in your QGIS project "
 "as temporal data"
 msgstr ""
 

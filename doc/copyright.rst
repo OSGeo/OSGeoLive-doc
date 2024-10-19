@@ -60,7 +60,7 @@ You may use attribution text similar to one of the following:
 **Concise CC-By-SA and attribution:**
 
   © 2011 [Your Name] under a `CC By SA License
-  <https://creativecommons.org/licenses/by-sa/3.0/>`__.  [Derived
+  <https://creativecommons.org/licenses/by-sa/3.0/>`__. [Derived
   from|Includes|Extends] :doc:`OSGeoLive <index>` documentation by
   :doc:`OSGeoLive contributors <copyright>`.
 

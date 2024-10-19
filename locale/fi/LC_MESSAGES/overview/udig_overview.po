@@ -211,7 +211,7 @@ msgstr ""
 
 #: ../../build/doc/overview/udig_overview.rst:87
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk "
+"This project is only included on the OSGeoLive virtual machine disk "
 "(VMDK)"
 msgstr ""
 

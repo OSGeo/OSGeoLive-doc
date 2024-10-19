@@ -205,8 +205,8 @@ msgid "Implemented Standards"
 msgstr "Standards implémentés"
 
 #: ../../build/doc/overview/geoserver_overview.rst:69
-msgid "Support of numerous Open Geospatial Consortium  (OGC) standards:"
-msgstr "Support de nombreux standards de l'Open Geospatial Consortium  (OGC):"
+msgid "Support of numerous Open Geospatial Consortium (OGC) standards:"
+msgstr "Support de nombreux standards de l'Open Geospatial Consortium (OGC):"
 
 #: ../../build/doc/overview/geoserver_overview.rst:71
 msgid "|WMS| (client/server)"

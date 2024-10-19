@@ -93,7 +93,7 @@ Using a web browser to query the API
 Now that we have the service available we can query it using various client tooling.
 Each of the features of the collection is available in common formats, such as HTML, GeoJSON and GML. To start we can use a web browser to browse through the service. From http://localhost:5000/collections/countries, drill down to individual features. The service will automatically detect (accept header) that you are using a web browser and will return the HTML representation of features. Notice in the top right corner explicit links to override the accept header and request specific representations of the feature (``?f=json``).
 
-Each Open API has an interactive documentation page at  http://localhost:5000/openapi. In this interactive webpage you can read about the various methods in the service, but also directly interact with them via web forms.
+Each Open API has an interactive documentation page at http://localhost:5000/openapi. In this interactive webpage you can read about the various methods in the service, but also directly interact with them via web forms.
 
    .. image:: /images/projects/pygeoapi/openapidoc.png
     :scale: 70 %

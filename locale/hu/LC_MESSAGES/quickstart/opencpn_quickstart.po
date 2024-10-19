@@ -167,10 +167,10 @@ msgstr ""
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:84
 msgid ""
-"There is no need to uncompress the file.  Click on the \">\" to the left "
+"There is no need to uncompress the file. Click on the \">\" to the left "
 "of the filename and select from the list of available forecast times."
 msgstr ""
-"Nincs szükség a fájl kitömörítésére. Kattintson a \">\"-ra  a fájlnév bal"
+"Nincs szükség a fájl kitömörítésére. Kattintson a \">\"-ra a fájlnév bal"
 " oldalán és válasszon a elérhető előrejelzési időpontok közül."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:88

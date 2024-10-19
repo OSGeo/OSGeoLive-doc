@@ -156,7 +156,7 @@ msgstr ""
 msgid ""
 "For further questions you can contact the ZOO Project mailing list: zoo-"
 "discuss@lists.osgeo.org"
-msgstr "詳細については、ZOO Projectメーリングリスト: zoo-discuss@lists.osgeo.org  に問い合わせてください。"
+msgstr "詳細については、ZOO Projectメーリングリスト: zoo-discuss@lists.osgeo.org に問い合わせてください。"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"

@@ -66,7 +66,7 @@ msgstr "Unterstützte Standards"
 
 #: ../../build/doc/overview/geos_overview.rst:34
 msgid "OpenGIS |SFSQL| spatial predicate functions and spatial operators"
-msgstr "OpenGIS |SFSQL|  räumliche Prädikate und Operatoren"
+msgstr "OpenGIS |SFSQL| räumliche Prädikate und Operatoren"
 
 #: ../../build/doc/overview/geos_overview.rst:43
 msgid "Core Features"

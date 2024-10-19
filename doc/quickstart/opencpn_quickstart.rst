@@ -78,7 +78,7 @@ Run through the :doc:`XyGrib quickstart <../quickstart/xygrib_quickstart>` and l
 
 .. Note:: If you saved the XyGrib file into your home directory, navigate to :file:`/home` and select your ``user`` directory as the GRIB data directory. Then right click on the file listing's background to show hidden files, including the ``.xygrib`` directory that contains the GRIB download files.
 
-  There is no need to uncompress the file.  Click on the ">" to the left of the filename and select from the list of available forecast times.
+   There is no need to uncompress the file. Click on the ">" to the left of the filename and select from the list of available forecast times.
 
 
 What next?

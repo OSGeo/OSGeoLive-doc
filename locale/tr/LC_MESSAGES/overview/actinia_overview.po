@@ -100,7 +100,7 @@ msgstr "**Destek:** https://github.com/mundialis/actinia_core"
 
 #: ../../build/doc/overview/actinia_overview.rst:61
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk "
+"This project is only included on the OSGeoLive virtual machine disk "
 "(VMDK)"
 msgstr ""
 

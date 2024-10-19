@@ -76,7 +76,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:49
 msgid "View in desktop GIS"
-msgstr "Masaüstü GIS'te  görüntüle"
+msgstr "Masaüstü GIS'te görüntüle"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:51
 msgid ""

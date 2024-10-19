@@ -81,7 +81,7 @@ We use the ``<params>`` block to pass the WMS layer name, and the image format
 back to the WMS server, along with the MapServer specific ``<map>`` parameter.
 The URL to the WMS server is in the ``<http>`` block. For documentation on all
 configuration file elements see the `Configuration Documentation
-<https://mapserver.org/mapcache/config.html>`_.  Next we will add a
+<https://mapserver.org/mapcache/config.html>`_. Next we will add a
 ``<tileset>`` block, which defines how the source will be stored and served as
 tiles. Place the following block after the existing ``<tileset
 name="lakes">...</tileset>`` block.
@@ -96,7 +96,7 @@ name="lakes">...</tileset>`` block.
   </tileset>
 
 We set the grid type to the inbuilt ``GoogleMapsCompatible`` grid used as the
-default tiling scheme in many web mapping applications.  The ``name=streams`` is
+default tiling scheme in many web mapping applications. The ``name=streams`` is
 used by client applications to access the tileset. We are using a disk-based
 cache (rather than storing tiles in a database or in a cloud environment).
 
@@ -163,7 +163,7 @@ below:
     sudo featherpad /etc/apache2/conf-enabled/mapcache.conf
 
 OSGeoLive has two MapCache services, each with an alias and a configuration
-file.  The alias is the URL to use on the server, e.g. http://localhost/mapcache
+file. The alias is the URL to use on the server, e.g. http://localhost/mapcache
 and http://localhost/itasca
 
 .. code-block:: apache

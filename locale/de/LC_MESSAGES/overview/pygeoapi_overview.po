@@ -131,7 +131,7 @@ msgstr "Unterstützte Standards"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:52
 msgid ""
-"Standards are at the core of pygeoapi.  Below is the project's standards "
+"Standards are at the core of pygeoapi. Below is the project's standards "
 "support matrix."
 msgstr ""
 "Standards sind die Basis von pygeoapi aufbauend auf der Standard-Support-"

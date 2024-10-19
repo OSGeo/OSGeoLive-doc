@@ -50,7 +50,7 @@ msgid ""
 "IIS, Nginx, and Jetty."
 msgstr ""
 "MapCache は MapServer ファミリーの一部ですが、 "
-"WMSを使用するすべての地理空間サーバーのデータをキャッシュできます。MapCache は Apache  "
+"WMSを使用するすべての地理空間サーバーのデータをキャッシュできます。MapCache は Apache "
 "httpdのモジュールとして利用できるほか、IIS、 Nginx、 Jetty などの CGI/FastCGI をサポートする任意の Web "
 "サーバーでも実行できます。"
 
@@ -121,8 +121,8 @@ msgid "Implemented Standards"
 msgstr "実装されている標準規格"
 
 #: ../../build/doc/overview/mapcache_overview.rst:56
-msgid "Support of numerous Open Geospatial Consortium  (OGC) standards"
-msgstr "多数の Open Geospatial Consortium  (OGC) 標準規格のサポート"
+msgid "Support of numerous Open Geospatial Consortium (OGC) standards"
+msgstr "多数の Open Geospatial Consortium (OGC) 標準規格のサポート"
 
 #: ../../build/doc/overview/mapcache_overview.rst:58
 msgid "|WMS|"

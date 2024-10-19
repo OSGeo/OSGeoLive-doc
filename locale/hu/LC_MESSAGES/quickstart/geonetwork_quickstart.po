@@ -85,9 +85,9 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:47
 msgid ""
-"You can return to the  homepage at any point by selecting the catalogue logo"
+"You can return to the homepage at any point by selecting the catalogue logo"
 " in the top left of the top toolbar. In the screenshot below, this is "
-"labelled  “My GeoNetwork catalogue” but it may have a different name and "
+"labelled “My GeoNetwork catalogue” but it may have a different name and "
 "logo."
 msgstr ""
 "Bármikor visszatérhet a honlapra a katalógus logót kiválasztva a bal-felső "
@@ -216,7 +216,7 @@ msgstr "egy szabad szöveges keresőmező, amely gépelés közben javaslatokat 
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:107
 msgid ""
-"*Search facets*, or  filters, that provide ways of narrowing down the search"
+"*Search facets*, or filters, that provide ways of narrowing down the search"
 " results, such as *Type of Resource*, *Topic*, *Keywords*,"
 msgstr ""
 "*Search facets* vagy szűrök a keresési eredmények szűkítését biztosítják, "

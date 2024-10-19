@@ -154,7 +154,7 @@ accordingly.
 * Tutorial - Try out the `workshop`_, a tutorial used in workshops to introduce new users
   to PyWPS 4.
 
-* Deployment to production -   The `pywps-flask` service is just an example and not designed for production.
+* Deployment to production - The `pywps-flask` service is just an example and not designed for production.
   One possible alternative is a Django based service, `pywps-django <https://github.com/jorgejesus/pywps-django>`_. The
   documentation provides further details on how to `set up a production service <https://pywps.readthedocs.io/en/latest/deployment.html>`_
   with `Apache <https://httpd.apache.org/>`_ or `nginx <https://nginx.org/>`_ and `Gunicorn <https://gunicorn.org/>`_.

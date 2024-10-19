@@ -175,7 +175,7 @@ msgstr "**対応プラットフォーム:** Windows, Linux, Mac, Unix"
 #: ../../build/doc/overview/R_overview.rst:84
 msgid ""
 "**Community Support:** https://cran.r-project.org/web/views/Spatial.html"
-msgstr "**コミュニティサポート:**  https://cran.r-project.org/web/views/Spatial.html"
+msgstr "**コミュニティサポート:** https://cran.r-project.org/web/views/Spatial.html"
 
 #: ../../build/doc/overview/R_overview.rst:86
 msgid ""

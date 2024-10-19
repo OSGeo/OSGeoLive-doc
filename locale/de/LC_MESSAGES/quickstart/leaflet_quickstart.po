@@ -30,12 +30,12 @@ msgstr "Leaflet Quickstart"
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:20
 msgid ""
 "Leaflet is a JavaScript library for browser-based, mobile-friendly, "
-"interactive maps.  It is lightweight, yet has all the features most "
+"interactive maps. It is lightweight, yet has all the features most "
 "developers ever need for online maps. Leaflet is designed with simplicity, "
 "performance and usability in mind."
 msgstr ""
 "Leaflet ist eine JavaScript-Bibliothek für Browser-basierte, mobil-"
-"freundliche, interaktive Karten.  Leaflet ist leicht, verfügt über alle "
+"freundliche, interaktive Karten. Leaflet ist leicht, verfügt über alle "
 "Funktionen, die die meisten Entwicker für Online-Karten benötigen. Leaflet "
 "ist mit einfach, performant und benutzerfreundlich."
 
@@ -281,7 +281,7 @@ msgid ""
 "Try clicking on the map and you will see the coordinates in a popup. View "
 "the full example_"
 msgstr ""
-"Klicken Sie, in  die Karte und Sie werden die Koordinaten in einem Popup "
+"Klicken Sie, in die Karte und Sie werden die Koordinaten in einem Popup "
 "sehen. Lassen Sie sich das vollständige Beispiel anzeigen_"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:173

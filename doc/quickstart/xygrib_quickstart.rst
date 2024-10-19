@@ -35,7 +35,7 @@ Download data
 
 #. Use the mouse to click and drag a box on the map canvas on a part of the world you are interested in. The Gulf of Mexico or the southern tip of Africa often have dynamic winds.
 #. With your box drawn on the map, click the zoom-to-box icon on the taskbar (the magnifying glass with a small box underneath it)
-#. Again,  mark out a box of interest with a left-click drag, but this time covering most or all of the zoomed-in map canvas.
+#. Again, mark out a box of interest with a left-click drag, but this time covering most or all of the zoomed-in map canvas.
 #. Select :menuselection:`File --> Download GRIB` and select the features you want to download. If in doubt, accept the defaults.
 #. When ready click the ``Download`` button, and save the file to disk.
 

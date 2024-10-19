@@ -164,7 +164,7 @@ msgstr ""
 #: ../../build/doc/quickstart/deegree_quickstart.rst:70
 msgid ""
 "Click on the **+** on the right side to open a layer tree showing all "
-"available  layers. You can activate the a variety of layers served by the"
+"available layers. You can activate the a variety of layers served by the"
 " deegree WMS here."
 msgstr ""
 "Fare clic su **+** sul lato destro per aprire un albero dei layer che "

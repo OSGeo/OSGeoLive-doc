@@ -181,7 +181,7 @@ msgid ""
 "gives you a button description). You should now see your mouse cursor change"
 " to a small black crosshair when you move it over the Map View."
 msgstr ""
-"次に、中央に黄色の正方形がある青い十字が表示されているボタンをクリックします。 :guilabel:`Move Vertex Tool`  "
+"次に、中央に黄色の正方形がある青い十字が表示されているボタンをクリックします。 :guilabel:`Move Vertex Tool` "
 "(ボタンの上にマウスカーソルを置くとボタンの説明が表示されます)。これで、マップのビュー上にマウスカーソルを移動すると、マウスカーソルが小さな黒い十字に変わります。"
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:93
@@ -214,7 +214,7 @@ msgid ""
 "You can read the OpenJUMP wiki here: "
 "http://ojwiki.soldin.de/index.php?title=Main_Page"
 msgstr ""
-"OpenJUMPのウィキは: http://ojwiki.soldin.de/index.php?title=Main_Page   "
+"OpenJUMPのウィキは: http://ojwiki.soldin.de/index.php?title=Main_Page  "
 "からアクセスできます。"
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:107
@@ -222,7 +222,7 @@ msgid ""
 "You can get help fast on the OpenJUMP users mailing list: "
 "https://groups.google.com/forum/#!forum/openjump-users"
 msgstr ""
-"OpenJUMPユーザメーリングリスト:  https://groups.google.com/forum/#!forum/openjump-users"
+"OpenJUMPユーザメーリングリスト: https://groups.google.com/forum/#!forum/openjump-users"
 " で、すばやくヘルプを見ることができます。"
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:109
@@ -230,7 +230,7 @@ msgid ""
 "The latest OpenJUMP version can be found here: "
 "https://sourceforge.net/projects/jump-pilot/files/OpenJUMP/"
 msgstr ""
-"OpenJUMPの最新バージョンはこちら:  https://sourceforge.net/projects/jump-"
+"OpenJUMPの最新バージョンはこちら: https://sourceforge.net/projects/jump-"
 "pilot/files/OpenJUMP/"
 
 #: ../../build/doc/<rst_epilog>:13

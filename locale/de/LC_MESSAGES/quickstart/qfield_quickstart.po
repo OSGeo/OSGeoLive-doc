@@ -1,0 +1,295 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2022, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-17 21:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: de\n"
+"Language-Team: de <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:9
+msgid "This project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:16
+msgid "QField Quickstart"
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:18
+msgid ""
+"QField is a powerful tool to collect data in the field for usage with "
+"QGIS."
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:22
+msgid "Contents"
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:25
+msgid "Start QField"
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:27
+msgid "Click the menu button at the bottom left"
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:28
+msgid "Click the QField icon in the Education menu"
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst
+msgid "Find QField in the menu"
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:34
+msgid ""
+"You will see QField launch and show the changelog of the release. Close "
+"the screen by clicking on the arrow button on the top left."
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst
+msgid "The changelog is shown once"
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:43
+msgid "Open a project"
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:45
+msgid "You can open any QGIS project with QField."
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:47
+msgid "Click the `Open local file` button"
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:48
+msgid "Open the `qgis-examples` folder"
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:49
+msgid "Click the `QGIS-Itasca-Example.qgz` project file to open the project"
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst
+msgid "Choose the Itasca project to open"
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:56
+msgid "Navigation"
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:58
+msgid "You can navigate on the map by"
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:60
+msgid ""
+"Pan: hold and drag the mouse cursor or by moving your finger on a touch "
+"screen"
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:61
+msgid ""
+"Zoom: with the mouse wheel or with the zoom buttons. On a touch screen it"
+" is also possible to use pinch gestures"
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:62
+msgid ""
+"Rotate: by holding the middle mouse button down or by rotating on the "
+"screen with two fingers on a touch screen"
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:64
+msgid ""
+"Please keep in mind that the interaction design for QField was always "
+"done with touch screens in mind and is therefore best served on a touch "
+"screen."
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:68
+msgid "Basic canvas interaction"
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:70
+msgid ""
+"You can identify features by clicking on them. In the itasca project, "
+"there are multiple layers identifiable, so you will get results from "
+"multiple layers, in this case here \"airports\" and \"County "
+"Boundaries\"."
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:73
+msgid ""
+"To inspect the attributes of one of the features, click on the feature in"
+" the identification panel. You will see all attributes of this feature "
+"appear."
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst
+msgid "The hamburger menu"
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:81
+msgid "Legend"
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:83
+msgid ""
+"To see which layers are loaded and to inspect the layer legends, click "
+"the hamburger menu on the top left corner."
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:89
+msgid ""
+"You will see all layers in the project listed. By right clicking on the "
+"layer (or long pressing on a touch screen) you will have additional "
+"actions available for each layer."
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst
+msgid "The legend"
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:97
+msgid ""
+"Close the legend by clicking the white arrow on the top left or by "
+"clicking anywhere on the canvas outside the legend panel."
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:101
+msgid "Digitize Data"
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:103
+msgid ""
+"By default, QField opens in read/view mode and you are not able to make "
+"any changes to preexisting geometries or add new features. To go into "
+"digitize mode:"
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:106
+msgid "Click the hamburger menu on the top left corner, so you see the legend."
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:107
+msgid "Click the pencil switch to go into digitize mode."
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst
+msgid "Switch to the digitize mode"
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:113
+msgid "Next, we will create a new airport."
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:115
+msgid ""
+"Activate the airports layer by clicking on the `airports` layer. The "
+"current layer within which digitizing will occur is highlighted using a "
+"green background in the legend."
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:116
+msgid "Close the layer panel"
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:117
+msgid ""
+"You will see a crosshair appear. This will follow your mouse or stay in "
+"the center of the screen if you are working with a touch screen."
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:119
+msgid "If you have a mouse: click to create a new airport."
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:120
+msgid ""
+"If you have a touchscreen, move the map until the crosshair is on the "
+"desired location and click the plus button at the bottom right of the "
+"screen to create a point."
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:122
+msgid ""
+"A panel appears, where you can enter all the desired attributes for the "
+"new airport"
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:123
+msgid "Click the checkbox to confirm the new airport."
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:124
+msgid "The data is saved immediately."
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:127
+msgid "Things to try"
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:129
+msgid "Show and hide a layer via the layer options (long click in the legend)"
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:130
+msgid ""
+"On the legend panel, check the cog wheel symbol for more actions like "
+"measuring and printing"
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:131
+msgid "Download the `QField sample projects`_ for more inspiration"
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:132
+msgid "Open a project file in QGIS, add layers to it and change the configuration"
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:133
+msgid ""
+"Install QField on your mobile device through the app store or via the "
+"`Download page`_."
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:136
+msgid "What next?"
+msgstr ""
+
+#: ../../build/doc/quickstart/qfield_quickstart.rst:138
+msgid ""
+"To learn more about QField, a good starting point is the `Documentation "
+"page`_."
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:13
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:16
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Community"
+msgstr ""
+

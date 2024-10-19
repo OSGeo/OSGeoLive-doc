@@ -74,7 +74,7 @@ msgstr "Téléchargement automatique à partir de données IAC (code flottant)"
 
 #: ../../build/doc/overview/xygrib_overview.rst:34
 msgid "Play animations of 8-day forecasts"
-msgstr "Animations de prévisions de  8 jours"
+msgstr "Animations de prévisions de 8 jours"
 
 #: ../../build/doc/overview/xygrib_overview.rst:35
 msgid ""

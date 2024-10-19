@@ -545,7 +545,7 @@ msgid "Spatial data sets"
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:301
-msgid "|nologo| :doc:`naturalearth_overview`  - Global Data Sets"
+msgid "|nologo| :doc:`naturalearth_overview` - Global Data Sets"
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:303
@@ -554,13 +554,13 @@ msgstr ""
 
 #: ../../build/doc/overview/overview.rst:305
 msgid ""
-"|nologo| :doc:`netcdf_dataset_overview`  - Time series temperature and "
+"|nologo| :doc:`netcdf_dataset_overview` - Time series temperature and "
 "precipitation"
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:307
 msgid ""
-"|nologo| :doc:`osm_dataset_overview`  - Sample extract from OpenStreetMap"
+"|nologo| :doc:`osm_dataset_overview` - Sample extract from OpenStreetMap"
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:311
@@ -574,11 +574,11 @@ msgid ""
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:328
-msgid "|OSGeo_project| :doc:`geos_overview`  - C/C++ Spatial Library"
+msgid "|OSGeo_project| :doc:`geos_overview` - C/C++ Spatial Library"
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:330
-msgid "|OSGeo_project| :doc:`geotools_overview`  - Java GIS Toolkit"
+msgid "|OSGeo_project| :doc:`geotools_overview` - Java GIS Toolkit"
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:332
@@ -588,7 +588,7 @@ msgid ""
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:334
-msgid "|nologo| :doc:`jts_overview`  - Java Topology Suite"
+msgid "|nologo| :doc:`jts_overview` - Java Topology Suite"
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:338
@@ -596,12 +596,12 @@ msgid "Geospatial Standards"
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:348
-msgid "|nologo| :doc:`ogc_overview`  - Open Geospatial Consortium"
+msgid "|nologo| :doc:`ogc_overview` - Open Geospatial Consortium"
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:350
 msgid ""
-"|nologo| :doc:`inspire_overview`  - Infrastructure for Spatial Information "
+"|nologo| :doc:`inspire_overview` - Infrastructure for Spatial Information "
 "in Europe"
 msgstr ""
 

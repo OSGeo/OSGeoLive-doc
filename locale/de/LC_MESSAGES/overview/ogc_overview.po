@@ -103,7 +103,7 @@ msgid ""
 "For further details, check the `comprehensive list of OGC standards "
 "<https://www.ogc.org/standards/>`__."
 msgstr ""
-"Weitere Informationen  finden sich in der `Liste der OGC Standards "
+"Weitere Informationen finden sich in der `Liste der OGC Standards "
 "<https://www.ogc.org/standards/>`__."
 
 #: ../../build/doc/overview/ogc_overview.rst:39

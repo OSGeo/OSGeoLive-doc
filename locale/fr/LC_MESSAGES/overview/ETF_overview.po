@@ -237,7 +237,7 @@ msgstr ""
 
 #: ../../build/doc/overview/ETF_overview.rst:114
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk "
+"This project is only included on the OSGeoLive virtual machine disk "
 "(VMDK)"
 msgstr ""
 "Ce projet n’est inclus que sur le disque de machine virtuelle OSGeoLive "

@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:16
-msgid "This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgid "This project is only included on the OSGeoLive virtual machine disk (VMDK)"
 msgstr ""
 
 #: ../../build/doc/quickstart/actinia_quickstart.rst:22

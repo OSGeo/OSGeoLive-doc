@@ -175,7 +175,7 @@ msgstr "**Ohjelmistoversio:** |version-cesium|"
 
 #: ../../build/doc/overview/cesium_overview.rst:65
 msgid ""
-"**Supported Platforms:**  Platform independent, depends only on a browser "
+"**Supported Platforms:** Platform independent, depends only on a browser "
 "which supports WebGL"
 msgstr ""
 "**Tuetut alustat:** Järjestelmäriippumaton; vaatiin vain selaimen, joka "

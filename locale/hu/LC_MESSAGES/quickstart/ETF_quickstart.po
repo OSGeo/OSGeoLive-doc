@@ -28,7 +28,7 @@ msgstr "ETF gyorstalpaló"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:21
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+"This project is only included on the OSGeoLive virtual machine disk (VMDK)"
 msgstr "Ez a projekt csak az OSGeoLive virtuális gépben (VMDK) található meg"
 
 #: ../../build/doc/quickstart/ETF_quickstart.rst:23
@@ -224,7 +224,7 @@ msgstr ""
 #: ../../build/doc/quickstart/ETF_quickstart.rst:110
 msgid ""
 "A Test Suite may depend on other Test Suites. The dependencies are also "
-"shown in the description of the Test Suites.  These dependencies are also "
+"shown in the description of the Test Suites. These dependencies are also "
 "automatically executed during the test run."
 msgstr ""
 "Egy tesztcsomag más tesztcsomagoktól függhet. A függőségek szintén "

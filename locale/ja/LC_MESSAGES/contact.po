@@ -121,7 +121,7 @@ msgid ""
 "from the :doc:`Contents <./overview/overview>` for details."
 msgstr ""
 "ほとんどのパッケージ・アプリケーションには、コミュニティ・サポートと商用サポートの両方が用意されています。詳細については、 "
-":doc:`Contents <./overview/overview>`  からリンクされている特定のアプリケーションの説明を参照してください。"
+":doc:`Contents <./overview/overview>` からリンクされている特定のアプリケーションの説明を参照してください。"
 
 #: ../../build/doc/contact.rst:43
 msgid ""
@@ -130,7 +130,7 @@ msgid ""
 "/service-providers/ for one that meets your needs."
 msgstr ""
 "また、OSGeoメンバーのプロジェクトをサポートするコンサルタント会社も世界中に多数存在します。あなたのニーズを満たすために、 "
-"https://www.osgeo.org/service-providers/  をご覧ください。"
+"https://www.osgeo.org/service-providers/ をご覧ください。"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"

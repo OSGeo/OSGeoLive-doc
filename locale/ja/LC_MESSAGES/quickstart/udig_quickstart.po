@@ -23,7 +23,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:14
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+"This project is only included on the OSGeoLive virtual machine disk (VMDK)"
 msgstr "このプロジェクトはOSGeoLive仮想マシンディスク(VMDK)にのみ含まれています"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:20
@@ -477,14 +477,14 @@ msgstr "国の表示方法について、いくつかの点を変更します。
 msgid ""
 "Line: Click :guilabel:`Border`, click on the Color button and change the "
 "color to BLACK"
-msgstr "ライン:  :guilabel:`Border` をクリックし、色ボタンをクリックして、色を黒色に変更します。"
+msgstr "ライン: :guilabel:`Border` をクリックし、色ボタンをクリックして、色を黒色に変更します。"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:264
 msgid ""
 "Fill: On Tab :guilabel:`Fill` uncheck the box :guilabel:`enable/disable "
 "fill` to turn off fill"
 msgstr ""
-"ぬりつぶし: ぬりつぶしをオフにするには、タブ  :guilabel:`Fill` のチェックボックス   "
+"ぬりつぶし: ぬりつぶしをオフにするには、タブ :guilabel:`Fill` のチェックボックス  "
 ":guilabel:`enable/disable fill` のチェックをはずす"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:266
@@ -492,7 +492,7 @@ msgid ""
 "Label: On Tab :guilabel:`Labels` check the box :guilabel:`enable/disable "
 "labeling`, and choose the attribute **NAME** from the list of attributes"
 msgstr ""
-"ラベル:  タブ :guilabel:`Labels` のチェックボックス :guilabel:`enable/disable labeling` "
+"ラベル: タブ :guilabel:`Labels` のチェックボックス :guilabel:`enable/disable labeling` "
 "のチェックを いれ、一覧からアトリビュート **NAME** を選択します。"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:271

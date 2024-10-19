@@ -76,7 +76,7 @@ msgstr "Iniciar Mapbender"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:48
 msgid ""
-"Choose  |menu_mapbender| from the start menu or visit "
+"Choose |menu_mapbender| from the start menu or visit "
 "http://localhost/mapbender/app.php. The application will take a few "
 "moments to start up"
 msgstr ""
@@ -411,7 +411,7 @@ msgid ""
 "documentation <https://doc.mapbender.org/en/functions.html>`_."
 msgstr ""
 "Encontrará información detallada sobre cada elemento de la 'Documentación"
-" de elementos de Mapbender  "
+" de elementos de Mapbender "
 "<https://doc.mapbender.org/en/functions.html>`_."
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:172

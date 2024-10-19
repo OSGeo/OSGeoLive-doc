@@ -41,7 +41,7 @@ msgstr ""
 "GeoExt ist Open Source und ermöglicht das Erstellen von Desktop-ähnlichen"
 " GIS-Anwendungen über das Web. Es ist ein JavaScript-Framework, das die "
 "GIS-Funktionalität von `OpenLayers <https://openlayers.org/>`_ mit der "
-"Benutzeroberfläche der  `ExtJS <https://www.sencha.com/products/extjs/>`_"
+"Benutzeroberfläche der `ExtJS <https://www.sencha.com/products/extjs/>`_"
 " -Bibliothek von `Sencha <https://www.sencha.com>`_ kombiniert."
 
 #: ../../build/doc/overview/geoext_overview.rst:25
