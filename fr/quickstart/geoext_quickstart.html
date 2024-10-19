@@ -64,7 +64,7 @@
   <a class="reference external image-reference" href="https://geoext.github.io/geoext"><img alt="../../_images/logo_geoext.png" class="align-right" src="../../_images/logo_geoext.png" /></a>
 <section id="geoext-quickstart">
 <h1>Guide de démarrage avec GeoExt<a class="headerlink" href="#geoext-quickstart" title="Lien permanent vers ce titre">¶</a></h1>
-<p>GeoExt est une bibliothèque JavaScript qui s’exécute dans le navigateur, il combine et améliore le cadre ExtJS et la bibliothèque OpenLayers. Ce guide de démarrage rapide détaille les étapes de création d’une application Web riche utilisant des composants GeoExt dans moins de 200 lignes de code. Nous utiliserons les services Web MapServer installés sur OSGeoLive pour fournir des couches de carte à l’application. La réalisation des étapes ci-dessous mènera à la démonstration  de l’application GeoExt visible à <a class="reference external" href="http://localhost/geoext/">http://localhost/geoext/</a>.</p>
+<p>GeoExt est une bibliothèque JavaScript qui s’exécute dans le navigateur, il combine et améliore le cadre ExtJS et la bibliothèque OpenLayers. Ce guide de démarrage rapide détaille les étapes de création d’une application Web riche utilisant des composants GeoExt dans moins de 200 lignes de code. Nous utiliserons les services Web MapServer installés sur OSGeoLive pour fournir des couches de carte à l’application. La réalisation des étapes ci-dessous mènera à la démonstration de l’application GeoExt visible à <a class="reference external" href="http://localhost/geoext/">http://localhost/geoext/</a>.</p>
 <div class="contents local topic" id="contents">
 <p class="topic-title">Contenu</p>
 <ul class="simple">
@@ -84,7 +84,7 @@
 </pre></div>
 </div>
 </li>
-<li><p>Coller ensuite dans le HTML ci-dessous, et enregistrer le fichier comme  <code class="docutils literal notranslate"><span class="pre">/var/www/html/geoext/demo.html</span></code>. Le fichier contient des liens vers les bibliothèques ExtJS et OpenLayers JavaScript, ainsi que deux fichiers CSS utilisés pour le style des composants ExtJS et OpenLayers.</p>
+<li><p>Coller ensuite dans le HTML ci-dessous, et enregistrer le fichier comme <code class="docutils literal notranslate"><span class="pre">/var/www/html/geoext/demo.html</span></code>. Le fichier contient des liens vers les bibliothèques ExtJS et OpenLayers JavaScript, ainsi que deux fichiers CSS utilisés pour le style des composants ExtJS et OpenLayers.</p>
 <p>Nous utiliserons la classe <code class="docutils literal notranslate"><span class="pre">Ext.Loader</span></code> pour charger les fichiers source JavaScript GeoExt. Ceux-ci sont tous dans le dossier <code class="docutils literal notranslate"><span class="pre">src</span></code> dans <code class="docutils literal notranslate"><span class="pre">/var/www/html/geoext/</span></code>.</p>
 <div class="highlight-html notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;!DOCTYPE html&gt;</span>
 <span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
@@ -117,7 +117,7 @@
 </li>
 </ol>
 <p>Vous devriez maintenant être en mesure de voir une page HTML vide dans Firefox à <a class="reference external" href="http://localhost/geoext/demo.html">http://localhost/geoext/demo.html</a></p>
-<p>Tout le code JavaScript dans les sections suivantes doit être collé après le  commentaire <code class="docutils literal notranslate"><span class="pre">//</span> <span class="pre">all</span> <span class="pre">JavaScript</span> <span class="pre">application</span> <span class="pre">code</span> <span class="pre">should</span> <span class="pre">go</span> <span class="pre">here</span></code> dans la fonction <cite>Ext.onReady`</cite>. Placer du code ici garantit que les bibliothèques JavaScript ont été chargées avant d’exécuter n’importe quel code JavaScript personnalisé.</p>
+<p>Tout le code JavaScript dans les sections suivantes doit être collé après le commentaire <code class="docutils literal notranslate"><span class="pre">//</span> <span class="pre">all</span> <span class="pre">JavaScript</span> <span class="pre">application</span> <span class="pre">code</span> <span class="pre">should</span> <span class="pre">go</span> <span class="pre">here</span></code> dans la fonction <cite>Ext.onReady`</cite>. Placer du code ici garantit que les bibliothèques JavaScript ont été chargées avant d’exécuter n’importe quel code JavaScript personnalisé.</p>
 </section>
 <section id="configure-openlayers-objects">
 <h2><a class="toc-backref" href="#id2">Configurer les objets OpenLayers</a><a class="headerlink" href="#configure-openlayers-objects" title="Lien permanent vers ce titre">¶</a></h2>

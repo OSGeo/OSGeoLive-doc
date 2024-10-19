@@ -113,7 +113,7 @@ common SQL queries, or craft your own SQL queries.</p>
 <section id="run-an-sql-query">
 <h2><a class="toc-backref" href="#id2">Run an SQL query</a><a class="headerlink" href="#run-an-sql-query" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic">
-<li><p>Now let’s try tweaking this SQL statement to get NOME and (Lat,Long) for only the NOME_PROV fields include ”BRESCIA”, this time using the MunicipalHallsView.  In the upper right SQL pane type:</p>
+<li><p>Now let’s try tweaking this SQL statement to get NOME and (Lat,Long) for only the NOME_PROV fields include ”BRESCIA”, this time using the MunicipalHallsView. In the upper right SQL pane type:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">SELECT</span> <span class="n">NOME</span><span class="p">,</span> <span class="n">X</span><span class="p">(</span><span class="n">Geometry</span><span class="p">)</span> <span class="n">AS</span> <span class="n">Longitude</span><span class="p">,</span> <span class="n">Y</span><span class="p">(</span><span class="n">Geometry</span><span class="p">)</span> <span class="n">AS</span> <span class="n">Latitude</span>
     <span class="n">FROM</span> <span class="s2">&quot;MunicipalHallsView&quot;</span>
     <span class="n">WHERE</span> <span class="n">NOME_PROV</span> <span class="n">LIKE</span> <span class="s2">&quot;BRESCIA&quot;</span><span class="p">;</span>

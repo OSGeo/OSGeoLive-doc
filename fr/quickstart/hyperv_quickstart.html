@@ -63,8 +63,8 @@
             
   <section id="running-in-a-hyper-v-virtual-machine">
 <h1>Exécuter dans une machine virtuelle Hyper-V<a class="headerlink" href="#running-in-a-hyper-v-virtual-machine" title="Lien permanent vers ce titre">¶</a></h1>
-<p>Ce démarrage rapide décrit comment exécuter  OSGeoLive à l’aide de Hyper-V, le logiciel de virtualisation de Microsoft. Pour les autres méthodes, suivez les liens de la section « See Also » ci-dessous. Hyper-V est disponible sur Windows Server et Windows 10 Professional - il ne fait pas partie de Windows 10 Home.</p>
-<p>Les avantages d’utiliser une machine virtuelle sont les mêmes que celles décrites à <a class="reference internal" href="virtualization_quickstart.html"><span class="doc">Exécuter dans une machine virtuelle</span></a>. Malheureusement  VirtualBox et Hyper-V ne peuvent être exécutés simultanément. Cela laisse 2 options - désactiver la fonctionnalité Hyper-V ou la configuration d’une nouvelle machine de Hyper-V pour exécuter OSGeoLive. L’outil gratuit <a class="reference external" href="https://unclassified.software/en/apps/hypervswitch">hypervswitch</a> peut être utilisé pour rapidement activer et désactiver l’Hyper-V - mais il nécessite toujours un redémarrage chaque fois que le paramètre est modifié. Le reste de cette page explique comment configurer OSGeoLive pour fonctionner sur Hyper-V.</p>
+<p>Ce démarrage rapide décrit comment exécuter OSGeoLive à l’aide de Hyper-V, le logiciel de virtualisation de Microsoft. Pour les autres méthodes, suivez les liens de la section « See Also » ci-dessous. Hyper-V est disponible sur Windows Server et Windows 10 Professional - il ne fait pas partie de Windows 10 Home.</p>
+<p>Les avantages d’utiliser une machine virtuelle sont les mêmes que celles décrites à <a class="reference internal" href="virtualization_quickstart.html"><span class="doc">Exécuter dans une machine virtuelle</span></a>. Malheureusement VirtualBox et Hyper-V ne peuvent être exécutés simultanément. Cela laisse 2 options - désactiver la fonctionnalité Hyper-V ou la configuration d’une nouvelle machine de Hyper-V pour exécuter OSGeoLive. L’outil gratuit <a class="reference external" href="https://unclassified.software/en/apps/hypervswitch">hypervswitch</a> peut être utilisé pour rapidement activer et désactiver l’Hyper-V - mais il nécessite toujours un redémarrage chaque fois que le paramètre est modifié. Le reste de cette page explique comment configurer OSGeoLive pour fonctionner sur Hyper-V.</p>
 <section id="system-requirements">
 <h2>Configuration du système requise<a class="headerlink" href="#system-requirements" title="Lien permanent vers ce titre">¶</a></h2>
 <p>Hyper-V requirements can be found <a class="reference external" href="https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v">here</a>.
@@ -77,11 +77,11 @@ needs to have the following hardware requirements:</p>
 </section>
 <section id="downloads-and-virtual-machine-conversion">
 <h2>Téléchargement et conversion de la machine virtuelle<a class="headerlink" href="#downloads-and-virtual-machine-conversion" title="Lien permanent vers ce titre">¶</a></h2>
-<p>Téléchargez le disque dur virtuel VirtualBox  (vmdk)  d’OSGeoLive en suivant le lien <a class="reference internal" href="../download.html"><span class="doc">live.osgeo.org</span></a>. Une fois téléchargé décompressez le fichier téléchargé (en utilisant <a class="reference external" href="https://www.7-zip.org">7zip</a>).</p>
+<p>Téléchargez le disque dur virtuel VirtualBox (vmdk) d’OSGeoLive en suivant le lien <a class="reference internal" href="../download.html"><span class="doc">live.osgeo.org</span></a>. Une fois téléchargé décompressez le fichier téléchargé (en utilisant <a class="reference external" href="https://www.7-zip.org">7zip</a>).</p>
 <p>Le format d’image de machine virtuelle Hyper-v diffère du téléchargement VirtualBox. Donc, le fichier doit être converti de <code class="docutils literal notranslate"><span class="pre">vmdk</span></code> à <code class="docutils literal notranslate"><span class="pre">vhdx</span></code>. Il y a actuellement deux options de conversion disponibles.</p>
 <section id="starwind-v2v-converter">
 <h3>Convertisseur StarWind V2V<a class="headerlink" href="#starwind-v2v-converter" title="Lien permanent vers ce titre">¶</a></h3>
-<p>Utilisez le programme <a class="reference external" href="https://www.starwindsoftware.com/starwind-v2v-converter">StarWind V2V Converter</a> . Il a une interface simple vous permettant de sélectionner le fichier  <code class="docutils literal notranslate"><span class="pre">osgeo-live-XX.X-vm.vmdk</span></code> et convertir en une image <em>Microsoft VHDX</em>.</p>
+<p>Utilisez le programme <a class="reference external" href="https://www.starwindsoftware.com/starwind-v2v-converter">StarWind V2V Converter</a> . Il a une interface simple vous permettant de sélectionner le fichier <code class="docutils literal notranslate"><span class="pre">osgeo-live-XX.X-vm.vmdk</span></code> et convertir en une image <em>Microsoft VHDX</em>.</p>
 </section>
 <section id="microsoft-virtual-machine-converter-3-0">
 <h3>Microsoft Virtual Machine Converter 3.0<a class="headerlink" href="#microsoft-virtual-machine-converter-3-0" title="Lien permanent vers ce titre">¶</a></h3>
@@ -94,7 +94,7 @@ and install.</p></li>
 <li><p>Exécutez la commande suivante pour obtenir le descripteur de disque depuis le vmdk d’OSGeoLive. Cela enregistre la description du disque dans le fichier « descriptor1.txt ».</p></li>
 </ol>
 <ol class="arabic">
-<li><p>Ouvrir dans un éditeur de texte (tel que le Notepad) et commentez les lignes suivantes à l’aide de croisillons (ces métadonnées sont  spécifiques à VirtualBox et ne sont pas reconnue par le convertisseur) :</p>
+<li><p>Ouvrir dans un éditeur de texte (tel que le Notepad) et commentez les lignes suivantes à l’aide de croisillons (ces métadonnées sont spécifiques à VirtualBox et ne sont pas reconnue par le convertisseur) :</p>
 <div class="highlight-bat notranslate"><div class="highlight"><pre><span></span>#ddb.uuid.image=<span class="s2">&quot;0247ca9d-f9aa-4910-9e8c-1c14d83a7749&quot;</span>
 #ddb.uuid.parent=<span class="s2">&quot;00000000-0000-0000-0000-000000000000&quot;</span>
 #ddb.uuid.modification=<span class="s2">&quot;81a1d704-3e4a-443d-a5ca-2fd085ba086a&quot;</span>
@@ -103,13 +103,13 @@ and install.</p></li>
 </pre></div>
 </div>
 </li>
-<li><p>Exécutez la commande suivante pour insérer le descripteur de disque dans le fichier  <code class="docutils literal notranslate"><span class="pre">vmdk</span></code> :</p>
+<li><p>Exécutez la commande suivante pour insérer le descripteur de disque dans le fichier <code class="docutils literal notranslate"><span class="pre">vmdk</span></code> :</p>
 <div class="highlight-bat notranslate"><div class="highlight"><pre><span></span>D<span class="p">:</span><span class="nl">\tools\dsfi.exe</span><span class="c1"> .\osgeo-live-11.0-vm.vmdk 512 1024 descriptor1.txt</span>
 </pre></div>
 </div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Faute de quoi les étapes ci-dessus se traduira par l’erreur  <em>« ConvertTo-MvmcVirtualHardDisk : The entry 0247ca9d-f9aa-4910-9e8c-1c14d83a7749 is not a supported disk database entry for the descriptor. »</em></p>
+<p>Faute de quoi les étapes ci-dessus se traduira par l’erreur <em>« ConvertTo-MvmcVirtualHardDisk : The entry 0247ca9d-f9aa-4910-9e8c-1c14d83a7749 is not a supported disk database entry for the descriptor. »</em></p>
 </div>
 </li>
 <li><p>Enfin, exécutez le processus de conversion :</p>
@@ -130,11 +130,11 @@ ConvertTo-MvmcVirtualHardDisk -SourceLiteralPath .\osgeo-live-11.0-vm.vmdk -VhdF
 <li><p>Démarrez l’application Gestionnaire Hyper-V et sous Actions, sélectionnez Nouveau &gt; Machine virtuelle, puis sur suivant. Puis entrez un nom approprié pour la machine virtuelle.</p>
 <img alt="../../_images/osgeolive_hyperv_install1_start.png" src="../../_images/osgeolive_hyperv_install1_start.png" />
 </li>
-<li><p>Sélectionnez « Generation 1 »  dans les options de <cite>Specify Generation</cite>.</p>
+<li><p>Sélectionnez « Generation 1 » dans les options de <cite>Specify Generation</cite>.</p>
 <img alt="../../_images/osgeolive_hyperv_install2_generation.png" src="../../_images/osgeolive_hyperv_install2_generation.png" />
 </li>
 <li><p>Lors de l’affectation de mémoire, vous pouvez sélectionner « Utilisation de mémoire dynamique pour cet ordinateur virtuel ».</p></li>
-<li><p>Si vous avez besoin de la machine virtuelle pour avoir accès à Internet, vous devrez mettre en place ceci vers le haut sur l’écran  « Configuration réseau ».</p></li>
+<li><p>Si vous avez besoin de la machine virtuelle pour avoir accès à Internet, vous devrez mettre en place ceci vers le haut sur l’écran « Configuration réseau ».</p></li>
 <li><p>Sur le « Connect Virtual Hard Disk », sélectionnez « Use an existing virtual hard disk » et sélectionnez le fichier <code class="docutils literal notranslate"><span class="pre">.vhdx</span></code> vous avez dézippé plus tôt.</p></li>
 </ol>
 <blockquote>

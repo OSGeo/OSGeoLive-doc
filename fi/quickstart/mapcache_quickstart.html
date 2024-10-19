@@ -128,7 +128,7 @@ the lakes to <code class="docutils literal notranslate"><span class="pre">mapcac
 <p>We use the <code class="docutils literal notranslate"><span class="pre">&lt;params&gt;</span></code> block to pass the WMS layer name, and the image format
 back to the WMS server, along with the MapServer specific <code class="docutils literal notranslate"><span class="pre">&lt;map&gt;</span></code> parameter.
 The URL to the WMS server is in the <code class="docutils literal notranslate"><span class="pre">&lt;http&gt;</span></code> block. For documentation on all
-configuration file elements see the <a class="reference external" href="https://mapserver.org/mapcache/config.html">Configuration Documentation</a>.  Next we will add a
+configuration file elements see the <a class="reference external" href="https://mapserver.org/mapcache/config.html">Configuration Documentation</a>. Next we will add a
 <code class="docutils literal notranslate"><span class="pre">&lt;tileset&gt;</span></code> block, which defines how the source will be stored and served as
 tiles. Place the following block after the existing <code class="docutils literal notranslate"><span class="pre">&lt;tileset</span>
 <span class="pre">name=&quot;lakes&quot;&gt;...&lt;/tileset&gt;</span></code> block.</p>
@@ -141,7 +141,7 @@ tiles. Place the following block after the existing <code class="docutils litera
 </pre></div>
 </div>
 <p>We set the grid type to the inbuilt <code class="docutils literal notranslate"><span class="pre">GoogleMapsCompatible</span></code> grid used as the
-default tiling scheme in many web mapping applications.  The <code class="docutils literal notranslate"><span class="pre">name=streams</span></code> is
+default tiling scheme in many web mapping applications. The <code class="docutils literal notranslate"><span class="pre">name=streams</span></code> is
 used by client applications to access the tileset. We are using a disk-based
 cache (rather than storing tiles in a database or in a cloud environment).</p>
 <p>Anytime you modify the MapCache configuration file you need to reload Apache for
@@ -191,7 +191,7 @@ below:</p>
 </pre></div>
 </div>
 <p>OSGeoLive has two MapCache services, each with an alias and a configuration
-file.  The alias is the URL to use on the server, e.g. <a class="reference external" href="http://localhost/mapcache">http://localhost/mapcache</a>
+file. The alias is the URL to use on the server, e.g. <a class="reference external" href="http://localhost/mapcache">http://localhost/mapcache</a>
 and <a class="reference external" href="http://localhost/itasca">http://localhost/itasca</a></p>
 <div class="highlight-apache notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;IfModule</span><span class="w"> </span><span class="s">mapcache_module</span><span class="nt">&gt;</span>
 <span class="w">   </span><span class="nt">&lt;Directory</span><span class="w"> </span><span class="s">/path/to/directory</span><span class="nt">&gt;</span>

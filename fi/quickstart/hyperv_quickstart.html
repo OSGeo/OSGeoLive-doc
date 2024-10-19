@@ -64,7 +64,7 @@
   <section id="running-in-a-hyper-v-virtual-machine">
 <h1>Running in a Hyper-V Virtual Machine<a class="headerlink" href="#running-in-a-hyper-v-virtual-machine" title="Permalink to this headline">¶</a></h1>
 <p>Tämä pika-aloitus kuvailee kuinka suorittaa OSGeoLive käytettäessä Hyper-V, Microsoftinvirtualisointi ohjelmistoa. Tutustuaksesi muihin menetelmiin seuraa linkkejä ”Katso myös” osiosta alempana. Hyper-V on saataville sekä Windows Serverille kuin Windows 10 Professional järjestelmille - se ei ole osa Windows 10 Home järjestelmää.</p>
-<p>Virtuaalikoneen käyttämisen edut ovat samat kuin ne, jotka on kuvattu kohdassa <a class="reference internal" href="virtualization_quickstart.html"><span class="doc">Running in a Virtual Machine</span></a>. valitettavasti Virtual Boxia ja Hyper-V ei voi suorittaa saman aikaisesti.  Tämä - poistetaan jättää 2 vaihtoehtoa - Hyper-V ominaisuus, tai konfiguroidaan uusi Hyper-V kone suorittamaan OSGeoLiveä. Vapaata työkalua <a class="reference external" href="https://unclassified.software/en/apps/hypervswitch">hypervswitch</a> voidaan käyttää nopeasti ottamaan tai poistamaan Hyper-V käytöstä - se kuitenkin edellyttää tietokoneen uudelleen käynnistystä joka kerta kun asetuksia muutetaan. Loppu tästä sivusta dokumentoi kuinka konfiguroida OSGeolive suoritettavaksi Hyper-V:llä.</p>
+<p>Virtuaalikoneen käyttämisen edut ovat samat kuin ne, jotka on kuvattu kohdassa <a class="reference internal" href="virtualization_quickstart.html"><span class="doc">Running in a Virtual Machine</span></a>. valitettavasti Virtual Boxia ja Hyper-V ei voi suorittaa saman aikaisesti. Tämä - poistetaan jättää 2 vaihtoehtoa - Hyper-V ominaisuus, tai konfiguroidaan uusi Hyper-V kone suorittamaan OSGeoLiveä. Vapaata työkalua <a class="reference external" href="https://unclassified.software/en/apps/hypervswitch">hypervswitch</a> voidaan käyttää nopeasti ottamaan tai poistamaan Hyper-V käytöstä - se kuitenkin edellyttää tietokoneen uudelleen käynnistystä joka kerta kun asetuksia muutetaan. Loppu tästä sivusta dokumentoi kuinka konfiguroida OSGeolive suoritettavaksi Hyper-V:llä.</p>
 <section id="system-requirements">
 <h2>Järjestelmävaatimukset<a class="headerlink" href="#system-requirements" title="Permalink to this headline">¶</a></h2>
 <p>Hyper-V requirements can be found <a class="reference external" href="https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v">here</a>.
@@ -77,8 +77,8 @@ needs to have the following hardware requirements:</p>
 </section>
 <section id="downloads-and-virtual-machine-conversion">
 <h2>Lataukset ja virtuaalikone konversiot<a class="headerlink" href="#downloads-and-virtual-machine-conversion" title="Permalink to this headline">¶</a></h2>
-<p>Lataa OSGeoLive VirtualBox virtuaali kovalevy (vmdk) seuraamalla linkkejä osoitteessa  <a class="reference internal" href="../download.html"><span class="doc">live.osgeo.org</span></a>. Kun olet ladannut pura ladattu tiedosto (käyttäen <a class="reference external" href="https://www.7-zip.org">7zip</a> ).</p>
-<p>Virtuaalikoneen imagen kuva eroaa Hyper-V:ssä ladatusta VirtualBoxin imagesta. Tiedosto on siksi konvertoitava  <code class="docutils literal notranslate"><span class="pre">vmdk</span></code> muodosta <code class="docutils literal notranslate"><span class="pre">vhdx</span></code>. muotoon  On olemassa kaksi vaihtoehtoa konversioon.</p>
+<p>Lataa OSGeoLive VirtualBox virtuaali kovalevy (vmdk) seuraamalla linkkejä osoitteessa <a class="reference internal" href="../download.html"><span class="doc">live.osgeo.org</span></a>. Kun olet ladannut pura ladattu tiedosto (käyttäen <a class="reference external" href="https://www.7-zip.org">7zip</a> ).</p>
+<p>Virtuaalikoneen imagen kuva eroaa Hyper-V:ssä ladatusta VirtualBoxin imagesta. Tiedosto on siksi konvertoitava <code class="docutils literal notranslate"><span class="pre">vmdk</span></code> muodosta <code class="docutils literal notranslate"><span class="pre">vhdx</span></code>. muotoon  On olemassa kaksi vaihtoehtoa konversioon.</p>
 <section id="starwind-v2v-converter">
 <h3>StarWind V2V konvertoija<a class="headerlink" href="#starwind-v2v-converter" title="Permalink to this headline">¶</a></h3>
 <p>Käytä <a class="reference external" href="https://www.starwindsoftware.com/starwind-v2v-converter">StarWind V2V Converter</a> ohjelmaa. Tällä on yksinkertainen käyttäjäliitäntä joka sallii Sinun valita <code class="docutils literal notranslate"><span class="pre">osgeo-live-XX.X-vm.vmdk</span></code> tiedoston ja konvertoida sen <em>Microsoft VHDX</em> imageksi.</p>
@@ -103,7 +103,7 @@ and install.</p></li>
 </pre></div>
 </div>
 </li>
-<li><p>Suorita seuraava komento tallettaaksesi levyn kuvauksen takaisin  <code class="docutils literal notranslate"><span class="pre">vmdk</span></code> tiedostoon:</p>
+<li><p>Suorita seuraava komento tallettaaksesi levyn kuvauksen takaisin <code class="docutils literal notranslate"><span class="pre">vmdk</span></code> tiedostoon:</p>
 <div class="highlight-bat notranslate"><div class="highlight"><pre><span></span>D<span class="p">:</span><span class="nl">\tools\dsfi.exe</span><span class="c1"> .\osgeo-live-11.0-vm.vmdk 512 1024 descriptor1.txt</span>
 </pre></div>
 </div>
@@ -124,16 +124,16 @@ ConvertTo-MvmcVirtualHardDisk -SourceLiteralPath .\osgeo-live-11.0-vm.vmdk -VhdF
 </section>
 <section id="how-to">
 <h2>Kuinka teen<a class="headerlink" href="#how-to" title="Permalink to this headline">¶</a></h2>
-<p>Tämä opas olettaa Hyper-V jo asennetuksi ja käytettäväksi - jos näin ei ole laita tyypillisempi lähestyminen on käyttää VirtualBoxia on kuvailtu dokumentissa  <a class="reference internal" href="virtualization_quickstart.html"><span class="doc">Running in a Virtual Machine</span></a> .</p>
+<p>Tämä opas olettaa Hyper-V jo asennetuksi ja käytettäväksi - jos näin ei ole laita tyypillisempi lähestyminen on käyttää VirtualBoxia on kuvailtu dokumentissa <a class="reference internal" href="virtualization_quickstart.html"><span class="doc">Running in a Virtual Machine</span></a> .</p>
 <p><strong>Luo virtuaalikone</strong></p>
 <ol class="arabic">
 <li><p>Käynnistä Hyper-V Manager ohjelma ja Actions valinnasta valitse New -&gt; Virtual Machine, ja sitten Next. Tämän jälkeen anna sopiva nimi virtuaalikoneelle.</p>
 <img alt="../../_images/osgeolive_hyperv_install1_start.png" src="../../_images/osgeolive_hyperv_install1_start.png" />
 </li>
-<li><p>Valitse ”Generation 1”  Specify Generation vaihtoehdoista.</p>
+<li><p>Valitse ”Generation 1” Specify Generation vaihtoehdoista.</p>
 <img alt="../../_images/osgeolive_hyperv_install2_generation.png" src="../../_images/osgeolive_hyperv_install2_generation.png" />
 </li>
-<li><p>Määritettäessä muistia voit valita  ”Use Dynamic Memory for this virtual machine”.</p></li>
+<li><p>Määritettäessä muistia voit valita ”Use Dynamic Memory for this virtual machine”.</p></li>
 <li><p>Jos virtuaalikoneesi tarvitsee Internet yhteyttä tulee Sinun asentaa se ”Configure Networking” näytöllä.</p></li>
 <li><p>Valinnassa ”Connect Virtual Hard Disk”, valitse ”Use an existing virtual hard disk” ja valitse <code class="docutils literal notranslate"><span class="pre">.vhdx</span></code> tiedosto jonka purit aiemmin.</p></li>
 </ol>
@@ -143,7 +143,7 @@ ConvertTo-MvmcVirtualHardDisk -SourceLiteralPath .\osgeo-live-11.0-vm.vmdk -VhdF
 <p><strong>Virtuaalikoneen suorittaminen</strong></p>
 <ol class="arabic simple">
 <li><p>Valitse virtuaalikone Virtual Machines listasta</p></li>
-<li><p>Klikkaa oikealla ja valitse  ”Connect”.  Sinua kehotetaan käynnistämään kone ja uusi ”Virtual Machine Connection”  ikkuna aukeaa.</p></li>
+<li><p>Klikkaa oikealla ja valitse ”Connect”.  Sinua kehotetaan käynnistämään kone ja uusi ”Virtual Machine Connection”  ikkuna aukeaa.</p></li>
 </ol>
 </section>
 <section id="see-also">

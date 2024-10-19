@@ -149,7 +149,7 @@ FeatherPad</span>).</p></li>
 </li>
 </ol>
 <p>Each object in a Mapfile starts with its name (for example <strong>MAP</strong>) and ends
-with an <strong>END</strong>.  A Mapfile always starts with the <strong>MAP</strong> object and should
+with an <strong>END</strong>. A Mapfile always starts with the <strong>MAP</strong> object and should
 contain a list of <strong>LAYER</strong> objects the Mapfile can read and draw. In our
 Mapfile, we currently have only one layer defined.</p>
 <p>Let’s take a look at some of the objects (and properties) defined in our
@@ -157,7 +157,7 @@ Mapfile:</p>
 <blockquote>
 <div><ul class="simple">
 <li><p>EXTENT: sets the default geospatial bounding box for this configuration.</p></li>
-<li><p>LAYER: defines access and display properties for a spatial dataset.  We’ll
+<li><p>LAYER: defines access and display properties for a spatial dataset. We’ll
 add another layer later.</p></li>
 <li><p>SHAPEPATH: sets a base path for file-based data (e.g. shapefiles or tiff
 images).</p></li>
@@ -195,11 +195,11 @@ layers from a Mapfile with MapServer using an OGC WMS request.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&amp;SERVICE=WMS&amp;REQUEST=Getmap&amp;VERSION=1.1.1&amp;LAYERS=Countries&amp;SRS=EPSG:4326&amp;BBOX=-137,29,-53,88&amp;FORMAT=PNG&amp;WIDTH=800&amp;HEIGHT=600
 </pre></div>
 </div>
-<p>What does the above mean?  If we put it in simple words, it’s a <a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a>
+<p>What does the above mean? If we put it in simple words, it’s a <a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a>
 <strong>GetMap</strong>
 request that tells MapServer to « <em>use the following Mapfile to render the
 specified layers as a png image based on some user-supplied parameters such
-as image size, geographical extent, projection, etc.</em> ».  All layers
+as image size, geographical extent, projection, etc.</em> ». All layers
 specified in the « <em>&amp;LAYERS=…</em> » property having <em>STATUS ON</em> in the Mapfile
 will be rendered in addition to all layers with <em>STATUS DEFAULT</em>. The
 result looks like the following:</p>

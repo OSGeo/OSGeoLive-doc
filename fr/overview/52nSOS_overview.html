@@ -77,15 +77,15 @@
 <li><p><strong>Spécifications</strong>: 52°North SOS implémente la spécifications actuelle version 2.0.0 et la version 1.0.0 précédente (sans opération transactionnelle). Les opérations implémentées pour chaque version du standard sont listées ci-dessous.</p></li>
 <li><p><strong>Extension de téléchargement INSPIRE</strong>: A partir de la version 4.2.0, une extension disponible permet à SOS d’être utilisé comme service de téléchargement INSPIRE. Des informations de contexte sont fournis sur <a class="reference external" href="https://blog.52north.org/2014/01/30/52north-supports-the-jrc-in-developing-an-inspire-download-service-based-on-sos/">le post de blog</a> et dans le <a class="reference external" href="https://wiki.52north.org/SensorWeb/SensorObservationServiceIVDocumentation#INSPIRE_Download_Service_extensi">wiki</a> .</p></li>
 <li><p><strong>Extension e-Reporting de données de qualité de l’air</strong>: A partir de la version 4.3.0, une extension est disponible pour fournir des flux de données sur la qualité de l’air conformes à E1a, E1b et E2a (l’instance d’OSGeoLive n’est toutefois pas configurée pour). L”<a class="reference external" href="https://wiki.52north.org/SensorWeb/AqdEReporting#Installation">installation et la configuration</a> sont documentées dans le wiki de 52°North.</p></li>
-<li><p><strong>Sensor Web API REST</strong>: A compter de la version 4.1.1., une version packagée est disponible, qui fournit directement l”<a class="reference external" href="https://wiki.52north.org/SensorWeb/SensorWebClientRESTInterface">API RESTful</a>. Ainsi, les données d’observation peuvent être requêtées de manière RESTful et les réponses sont  encodées en JSON. Plus de détails sont inclus dans la documentation <a class="reference external" href="http://localhost:8080/52nSOS/static/doc/api-doc/">de l’application web SOS</a>.</p></li>
+<li><p><strong>Sensor Web API REST</strong>: A compter de la version 4.1.1., une version packagée est disponible, qui fournit directement l”<a class="reference external" href="https://wiki.52north.org/SensorWeb/SensorWebClientRESTInterface">API RESTful</a>. Ainsi, les données d’observation peuvent être requêtées de manière RESTful et les réponses sont encodées en JSON. Plus de détails sont inclus dans la documentation <a class="reference external" href="http://localhost:8080/52nSOS/static/doc/api-doc/">de l’application web SOS</a>.</p></li>
 <li><p><strong>INSPIRE Specialized Observations</strong>: Support for the INSPIRE Specialized
 Observations defined in Guidelines for the use of <a class="reference external" href="https://inspire.ec.europa.eu/id/document/tg/d2.9-o%26m-swe">Observations &amp; Measurements and
 Sensor Web Enablement-related standards in INSPIRE (D2.9)</a>
 (<a class="reference external" href="https://wiki.52north.org/SensorWeb/InspireSpecialisedObservations">detailed information about the implementation</a>).</p></li>
 <li><p><strong>Filtrage des résultats</strong>: Support pour le filtrage des observations (GetObservation) et les disponibilités des données (GetDataAvailability) par la valeur de l’observation.</p></li>
 <li><p><strong>Lire plus</strong>: les <a class="reference external" href="https://wiki.52north.org/SensorWeb/SensorObservationServiceIVDocumentation#Features">détails des fonctionnalités implémentées</a> peuvent être trouvés sur le wiki de 52°North.</p></li>
-<li><p>Le développement de cette version du 52 ° Nord SOS a été pris en charge par différents projets, des organisations et des personnes. On trouvera plus de détails dans le`client SOS 52°North  &lt;<a class="reference external" href="http://localhost:8080/52nSOS/index">http://localhost:8080/52nSOS/index</a>&gt;`_.</p></li>
-<li><p>Nous tenons à remercier l’Agence belge de l’environnement Interregional (<a class="reference external" href="https://www.irceline.be/en/">IRCEL - CELINE</a>)  pour fournir les données de démonstration utilisées dans cette installation de SOS. Les données de démo sont publiées sous une licence <a class="reference external" href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p></li>
+<li><p>Le développement de cette version du 52 ° Nord SOS a été pris en charge par différents projets, des organisations et des personnes. On trouvera plus de détails dans le`client SOS 52°North &lt;<a class="reference external" href="http://localhost:8080/52nSOS/index">http://localhost:8080/52nSOS/index</a>&gt;`_.</p></li>
+<li><p>Nous tenons à remercier l’Agence belge de l’environnement Interregional (<a class="reference external" href="https://www.irceline.be/en/">IRCEL - CELINE</a>) pour fournir les données de démonstration utilisées dans cette installation de SOS. Les données de démo sont publiées sous une licence <a class="reference external" href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p></li>
 </ul>
 <section id="sos-operations">
 <h3>Opérations SOS<a class="headerlink" href="#sos-operations" title="Lien permanent vers ce titre">¶</a></h3>
@@ -95,14 +95,14 @@ Sensor Web Enablement-related standards in INSPIRE (D2.9)</a>
 <li><p>DescribeSensor: pour demander les informations sur le capteur.</p></li>
 <li><p>GetFeatureOfInterest/ GetFeatureOfInterestTime (depuis la 1.0): pour demander des entités (par exemple la localisation des capteurs / mesures).</p></li>
 <li><p>GetObservationById / GetObservation: pour demander des observations.</p></li>
-<li><p>GetResult (depuis la spécification version 2.0):  pour demander des données au capteur.</p></li>
-<li><p>GetResultTemplate (depuis la spécification version 2.0): pour demander  un modèle de la structure du résultat qui sera retourné par une requête GetResult.</p></li>
+<li><p>GetResult (depuis la spécification version 2.0): pour demander des données au capteur.</p></li>
+<li><p>GetResultTemplate (depuis la spécification version 2.0): pour demander un modèle de la structure du résultat qui sera retourné par une requête GetResult.</p></li>
 <li><p>GetDataAvailability (à partir du <a class="reference external" href="https://docs.ogc.org/bp/14-004r1/14-004r1.html#38">profil hydrologie SOS 2.0 -Meilleures pratiques OGC</a>): pour demander la disponibilité des données pour certaines configurations.</p></li>
 </ul>
 <p><strong>Transactions</strong>:</p>
 <ul class="simple">
 <li><p>InsertSensor (depuis la spécification version 2.0): pour insérer les métadonnées de nouveaux capteurs.</p></li>
-<li><p>InsertObservation (depuis la spécification version 2.0):  pour ajouter de nouvelles observations.</p></li>
+<li><p>InsertObservation (depuis la spécification version 2.0): pour ajouter de nouvelles observations.</p></li>
 <li><p>UpdateSensorDescription (depuis la spécification version 2.0): pour la mise à jour de la description d’un capteur.</p></li>
 <li><p>DeleteSensor (depuis la spécification version 2.0): pour supprimer un capteur/procédure et toutes les propositions et observations liées.</p></li>
 <li><p>DeleteObservation (depuis la spécification version 2.0): pour supprimer une observation.</p></li>
@@ -141,7 +141,7 @@ Sensor Web Enablement-related standards in INSPIRE (D2.9)</a>
 <p><strong>Community Website:</strong> <a class="reference external" href="https://52north.org/research/scope/research-data-infrastructures/">https://52north.org/research/scope/research-data-infrastructures/</a></p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>This project is only included on the OSGeoLive virtual machine disk (VMDK)</p>
+<p>Ce projet n’est inclus que sur le disque de machine virtuelle OSGeoLive (VMDK)</p>
 </div>
 </section>
 <section id="quickstart">

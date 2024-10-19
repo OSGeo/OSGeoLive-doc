@@ -110,7 +110,7 @@
 <section id="run-an-sql-query">
 <h2><a class="toc-backref" href="#id2">Exécuter une requête SQL</a><a class="headerlink" href="#run-an-sql-query" title="Lien permanent vers ce titre">¶</a></h2>
 <ol class="arabic">
-<li><p>Maintenant, essayons de peaufiner cette instruction SQL pour obtenir NOME et (Lat,Long) pour seulement les entités dont le champ NOME_PROV contient « BRESCIA », cette fois en utilisant la table MunicipalHallsView.  Dans le type de volet SQL supérieur droit</p>
+<li><p>Maintenant, essayons de peaufiner cette instruction SQL pour obtenir NOME et (Lat,Long) pour seulement les entités dont le champ NOME_PROV contient « BRESCIA », cette fois en utilisant la table MunicipalHallsView. Dans le type de volet SQL supérieur droit</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">SELECT</span> <span class="n">NOME</span><span class="p">,</span> <span class="n">X</span><span class="p">(</span><span class="n">Geometry</span><span class="p">)</span> <span class="n">AS</span> <span class="n">Longitude</span><span class="p">,</span> <span class="n">Y</span><span class="p">(</span><span class="n">Geometry</span><span class="p">)</span> <span class="n">AS</span> <span class="n">Latitude</span>
     <span class="n">FROM</span> <span class="s2">&quot;MunicipalHallsView&quot;</span>
     <span class="n">WHERE</span> <span class="n">NOME_PROV</span> <span class="n">LIKE</span> <span class="s2">&quot;BRESCIA&quot;</span><span class="p">;</span>

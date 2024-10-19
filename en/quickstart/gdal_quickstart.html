@@ -187,7 +187,7 @@ particular driver, including creation options, and permitted data types.</p>
 <section id="translation">
 <h2><a class="toc-backref" href="#id4">Translation</a><a class="headerlink" href="#translation" title="Permalink to this headline">¶</a></h2>
 <p>Translations are accomplished with the gdal_translate command. The
-default output format is GeoTIFF.  The <cite>-of</cite> flag is used to select an
+default output format is GeoTIFF. The <cite>-of</cite> flag is used to select an
 output format and the -co flag is used to specify a creation option:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdal_translate</span> <span class="o">-</span><span class="n">of</span> <span class="n">JPEG</span> <span class="o">-</span><span class="n">co</span> <span class="n">QUALITY</span><span class="o">=</span><span class="mi">40</span> <span class="n">HYP_50M_SR_W</span><span class="o">.</span><span class="n">tif</span> <span class="n">HYP_50M_SR_W</span><span class="o">.</span><span class="n">jpg</span>
 </pre></div>
@@ -273,8 +273,8 @@ the WGS84 geographic image to the Mercator projection:</p>
 </pre></div>
 </div>
 <a class="reference internal image-reference" href="../../_images/gdal_ortho.png"><img alt="../../_images/gdal_ortho.png" src="../../_images/gdal_ortho.png" style="width: 294.40000000000003px; height: 296.8px;" /></a>
-<p>Note how the poles are clipped?  This is because the edges at the pole
-can’t be reprojected gdalwarp does not read all the data.  We can force
+<p>Note how the poles are clipped? This is because the edges at the pole
+can’t be reprojected gdalwarp does not read all the data. We can force
 gdalwarp to read a bunch of surplus data around chunks as one way to
 resolve this.</p>
 </section>

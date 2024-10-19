@@ -79,7 +79,7 @@
 </div>
 <section id="enabling-pgrouting-in-a-database">
 <h2><a class="toc-backref" href="#id1">Activer pgRouting dans une base de données</a><a class="headerlink" href="#enabling-pgrouting-in-a-database" title="Lien permanent vers ce titre">¶</a></h2>
-<p>Dans cet exemple, nous allons créer une base de données appelée  <cite>city_routing</cite> et activer pgRouting dans la base de données.</p>
+<p>Dans cet exemple, nous allons créer une base de données appelée <cite>city_routing</cite> et activer pgRouting dans la base de données.</p>
 <ul class="simple">
 <li><p>Ouvrez une fenêtre <span class="menuselection">System Tools ‣ QTerminal</span> et exécutez psql: (psql est l’outil en ligne de commande fourni avec PostgreSQL)</p></li>
 </ul>
@@ -239,7 +239,7 @@
 <section id="inner-query">
 <h2><a class="toc-backref" href="#id4">Requête interne</a><a class="headerlink" href="#inner-query" title="Lien permanent vers ce titre">¶</a></h2>
 <p>La plupart des fonctions pgRouting ont un paramètre qui est une instruction SQL, il est appelé <strong>requête interne</strong></p>
-<p>L’instruction SQL interne doit toujours avoir des noms de champ  <cite>id</cite>, <cite>source</cite>, <cite>target</cite> et <cite>cost</cite> ayant <cite>reverse_cost</cite> en option.</p>
+<p>L’instruction SQL interne doit toujours avoir des noms de champ <cite>id</cite>, <cite>source</cite>, <cite>target</cite> et <cite>cost</cite> ayant <cite>reverse_cost</cite> en option.</p>
 <p>Requête intérieure qui utilise <cite>gid</cite> comme identificateur des segments</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">SELECT</span> <span class="n">gid</span> <span class="k">as</span> <span class="nb">id</span><span class="p">,</span>
        <span class="n">source</span><span class="p">,</span> <span class="n">target</span><span class="p">,</span>
@@ -257,7 +257,7 @@
 </section>
 <section id="pgr-dijkstra">
 <h2><a class="toc-backref" href="#id5">pgr_Dijkstra</a><a class="headerlink" href="#pgr-dijkstra" title="Lien permanent vers ce titre">¶</a></h2>
-<p>Exécutez la fonction de plus court chemin  de Dijkstra basée sur le temps en quelques secondes pour parcourir un segment sur un graphe non dirigé, en utilisant <cite>id</cite> comme identificateur d’un sommet</p>
+<p>Exécutez la fonction de plus court chemin de Dijkstra basée sur le temps en quelques secondes pour parcourir un segment sur un graphe non dirigé, en utilisant <cite>id</cite> comme identificateur d’un sommet</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">SELECT</span> <span class="o">*</span>
 <span class="n">FROM</span> <span class="n">pgr_dijkstra</span><span class="p">(</span>
   <span class="s1">&#39;SELECT gid as id,</span>
@@ -360,7 +360,7 @@
 <ul class="simple">
 <li><p><strong>Site Web de pgRouting</strong> - Visitez le site Web du projet <a class="reference external" href="https://pgrouting.org">https://pgrouting.org</a> pour en savoir plus sur pgRouting.</p></li>
 <li><p><strong>Documentation de pgRouting</strong> - Trouvez la documentation la plus récente à l’adresse : <a class="reference external" href="https://docs.pgrouting.org">https://docs.pgrouting.org</a>.</p></li>
-<li><p><strong>Atelier  pgRouting</strong> - L’atelier <cite>« FOSS4G routing with pgRouting tools and OpenStreetMap road data »</cite> est disponible à l’adresse : <a class="reference external" href="https://workshop.pgrouting.org">https://workshop.pgrouting.org</a>.</p></li>
+<li><p><strong>Atelier pgRouting</strong> - L’atelier <cite>« FOSS4G routing with pgRouting tools and OpenStreetMap road data »</cite> est disponible à l’adresse : <a class="reference external" href="https://workshop.pgrouting.org">https://workshop.pgrouting.org</a>.</p></li>
 <li><p><strong>Chargement de données osm2pgRouting</strong> - <a class="reference external" href="https://github.com/pgRouting/osm2pgrouting/wiki/Documentation-for-osm2pgrouting-v2.3">https://github.com/pgRouting/osm2pgrouting/wiki/Documentation-for-osm2pgrouting-v2.3</a></p></li>
 </ul>
 </section>

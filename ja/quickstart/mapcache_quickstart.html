@@ -84,7 +84,7 @@
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>featherpad
 </pre></div>
 </div>
-<p>リンク  <a class="reference external" href="http://localhost/itasca/?service=wms&amp;request=getcapabilities">http://localhost/itasca/?service=wms&amp;request=getcapabilities</a> を開くと、ソースWMSサーバで使用可能なレイヤを確認できます。MapCacheは、GetCapabilitiesなど、処理できない要求をMapServerに転送するように設定されています。このとき、次に示す規則が適用されます。</p>
+<p>リンク <a class="reference external" href="http://localhost/itasca/?service=wms&amp;request=getcapabilities">http://localhost/itasca/?service=wms&amp;request=getcapabilities</a> を開くと、ソースWMSサーバで使用可能なレイヤを確認できます。MapCacheは、GetCapabilitiesなど、処理できない要求をMapServerに転送するように設定されています。このとき、次に示す規則が適用されます。</p>
 <div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;forwarding_rule</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;catch all&quot;</span><span class="nt">&gt;</span>
 <span class="w">  </span><span class="nt">&lt;http&gt;</span>
 <span class="w">    </span><span class="nt">&lt;url&gt;</span>http://localhost/cgi-bin/mapserv?map=/usr/local/www/docs_maps/mapserver_demos/itasca/itasca.map<span class="nt">&lt;/url&gt;</span>
@@ -110,7 +110,7 @@
 <p>We use the <code class="docutils literal notranslate"><span class="pre">&lt;params&gt;</span></code> block to pass the WMS layer name, and the image format
 back to the WMS server, along with the MapServer specific <code class="docutils literal notranslate"><span class="pre">&lt;map&gt;</span></code> parameter.
 The URL to the WMS server is in the <code class="docutils literal notranslate"><span class="pre">&lt;http&gt;</span></code> block. For documentation on all
-configuration file elements see the <a class="reference external" href="https://mapserver.org/mapcache/config.html">Configuration Documentation</a>.  Next we will add a
+configuration file elements see the <a class="reference external" href="https://mapserver.org/mapcache/config.html">Configuration Documentation</a>. Next we will add a
 <code class="docutils literal notranslate"><span class="pre">&lt;tileset&gt;</span></code> block, which defines how the source will be stored and served as
 tiles. Place the following block after the existing <code class="docutils literal notranslate"><span class="pre">&lt;tileset</span>
 <span class="pre">name=&quot;lakes&quot;&gt;...&lt;/tileset&gt;</span></code> block.</p>
@@ -122,10 +122,7 @@ tiles. Place the following block after the existing <code class="docutils litera
 <span class="nt">&lt;/tileset&gt;</span>
 </pre></div>
 </div>
-<p>We set the grid type to the inbuilt <code class="docutils literal notranslate"><span class="pre">GoogleMapsCompatible</span></code> grid used as the
-default tiling scheme in many web mapping applications.  The <code class="docutils literal notranslate"><span class="pre">name=streams</span></code> is
-used by client applications to access the tileset. We are using a disk-based
-cache (rather than storing tiles in a database or in a cloud environment).</p>
+<p>グリッドタイプを、多くのWebマッピングアプリケーションでデフォルトのタイリングスキームとして使用される組み込み <code class="docutils literal notranslate"><span class="pre">GoogleMapsCompatible</span></code> グリッドに設定します。<code class="docutils literal notranslate"><span class="pre">name=streams</span></code> は、クライアントアプリケーションがタイルセットにアクセスするためにつかわれます。データベースやクラウド環境にタイルを保存するのではなく、ディスク・ベースのキャッシュを使用しています。</p>
 <p>MapCache設定ファイルを変更した場合は、変更を有効にするためにApacheをリロードする必要があります。これは、次のようにコマンドラインから実行できます:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>apachectl<span class="w"> </span>-k<span class="w"> </span>graceful
 </pre></div>
@@ -144,7 +141,7 @@ cache (rather than storing tiles in a database or in a cloud environment).</p>
 <span class="p">})</span>
 </pre></div>
 </div>
-<p>次のページをリフレッシュします:  <a class="reference external" href="http://localhost/mapcache-quickstart/">http://localhost/mapcache-quickstart/</a> - MapCacheが提供するあたらしいストリームレイヤが見えるようになりました。</p>
+<p>次のページをリフレッシュします: <a class="reference external" href="http://localhost/mapcache-quickstart/">http://localhost/mapcache-quickstart/</a> - MapCacheが提供するあたらしいストリームレイヤが見えるようになりました。</p>
 <img alt="../../_images/openlayers.png" src="../../_images/openlayers.png" />
 <p>マップをブラウズしていきますと、タイルキャッシュフォルダの <code class="docutils literal notranslate"><span class="pre">/var/cache/mapcache</span></code> がPNGイメージで埋められている様子が確認できます。</p>
 <img alt="../../_images/tilecache.png" src="../../_images/tilecache.png" />
@@ -162,9 +159,7 @@ cache (rather than storing tiles in a database or in a cloud environment).</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>featherpad<span class="w"> </span>/etc/apache2/conf-enabled/mapcache.conf
 </pre></div>
 </div>
-<p>OSGeoLive has two MapCache services, each with an alias and a configuration
-file.  The alias is the URL to use on the server, e.g. <a class="reference external" href="http://localhost/mapcache">http://localhost/mapcache</a>
-and <a class="reference external" href="http://localhost/itasca">http://localhost/itasca</a></p>
+<p>OSGeoLiveには2つのMapCacheサービスがあり、それぞれにエイリアスと設定ファイルがあります。エイリアスはサーバ上で使用するURLです。例 <a class="reference external" href="http://localhost/mapcache">http://localhost/mapcache</a> と <a class="reference external" href="http://localhost/itasca">http://localhost/itasca</a></p>
 <div class="highlight-apache notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;IfModule</span><span class="w"> </span><span class="s">mapcache_module</span><span class="nt">&gt;</span>
 <span class="w">   </span><span class="nt">&lt;Directory</span><span class="w"> </span><span class="s">/path/to/directory</span><span class="nt">&gt;</span>
 <span class="w">      </span><span class="nb">Order</span><span class="w"> </span>Allow,Deny
@@ -179,7 +174,7 @@ and <a class="reference external" href="http://localhost/itasca">http://localhos
 <div class="highlight-xml notranslate"><div class="highlight"><pre><span></span>MapCacheAlias<span class="w"> </span>WEB_PATH<span class="w"> </span>&quot;PATH_TO_CONFIG_FILE&quot;
 </pre></div>
 </div>
-<p>Apacheモジュールの設定の詳細は、 <a class="reference external" href="https://mapserver.org/mapcache/install.html#apache-module-specific-instructions">Apache Module Instructions</a>  を参照してください。</p>
+<p>Apacheモジュールの設定の詳細は、 <a class="reference external" href="https://mapserver.org/mapcache/install.html#apache-module-specific-instructions">Apache Module Instructions</a> を参照してください。</p>
 </section>
 <section id="the-seeder-application">
 <h2><a class="toc-backref" href="#id3">シーダー・アプリケーション</a><a class="headerlink" href="#the-seeder-application" title="このヘッドラインへのパーマリンク">¶</a></h2>
@@ -207,7 +202,7 @@ in a single tile) to zoom level 5</p></li>
 <h2><a class="toc-backref" href="#id4">What next?</a><a class="headerlink" href="#what-next" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <ul class="simple">
 <li><p><a class="reference external" href="https://mapserver.org/mapcache/index.html">MapCache 文書</a> を読む。</p></li>
-<li><p><a class="reference external" href="https://www.mapserver.org/community/lists.html">メーリングリスト</a>  のコミュニティ(ここではMapCacheがその対象の一部です)に参加して、アイデアを交換したり、ソフトウェアの改善点について話し合ったり、質問したりできます。</p></li>
+<li><p><a class="reference external" href="https://www.mapserver.org/community/lists.html">メーリングリスト</a> のコミュニティ(ここではMapCacheがその対象の一部です)に参加して、アイデアを交換したり、ソフトウェアの改善点について話し合ったり、質問したりできます。</p></li>
 </ul>
 </section>
 </section>

@@ -101,14 +101,14 @@
 <div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="k">import</span><span class="w"> </span><span class="p">{</span><span class="w"> </span><span class="nx">Style</span><span class="w"> </span><span class="p">}</span><span class="w"> </span><span class="kr">from</span><span class="w"> </span><span class="s1">&#39;geostyler&#39;</span><span class="p">;</span>
 </pre></div>
 </div>
-<p>Le composant <code class="docutils literal notranslate"><span class="pre">Style</span></code>  offre une variété de fonctionnalités de style.</p>
+<p>Le composant <code class="docutils literal notranslate"><span class="pre">Style</span></code> offre une variété de fonctionnalités de style.</p>
 <p>Après importation, vous pouvez l’utiliser dans votre méthode de rendu comme ceci :</p>
 <div class="highlight-html notranslate"><div class="highlight"><pre><span></span><span class="p">&lt;</span><span class="nt">Style</span>
     <span class="na">compact</span><span class="o">=</span><span class="s">{true}</span>
 <span class="p">/&gt;</span>
 </pre></div>
 </div>
-<p>Le composant <code class="docutils literal notranslate"><span class="pre">Style</span></code>  doit maintenant être visible dans le navigateur.</p>
+<p>Le composant <code class="docutils literal notranslate"><span class="pre">Style</span></code> doit maintenant être visible dans le navigateur.</p>
 <img alt="../../_images/quickstart_compact.png" src="../../_images/quickstart_compact.png" />
 </section>
 <section id="integrate-geostyler-sld-parser">
@@ -180,7 +180,7 @@
 </pre></div>
 </div>
 <p>L’interface utilisateur GeoStyler doit maintenant correspondre au style défini comme SLD.</p>
-<p>Pour obtenir le style édité en tant que SLD à partir du composant  <code class="docutils literal notranslate"><span class="pre">Style</span></code>, vous pouvez utiliser la méthode <code class="docutils literal notranslate"><span class="pre">writeStyle()</span></code> du geostyler-sld-parser au sein de la méthode  <code class="docutils literal notranslate"><span class="pre">onStyleChange()</span></code> du composant <code class="docutils literal notranslate"><span class="pre">Style</span></code>.</p>
+<p>Pour obtenir le style édité en tant que SLD à partir du composant <code class="docutils literal notranslate"><span class="pre">Style</span></code>, vous pouvez utiliser la méthode <code class="docutils literal notranslate"><span class="pre">writeStyle()</span></code> du geostyler-sld-parser au sein de la méthode <code class="docutils literal notranslate"><span class="pre">onStyleChange()</span></code> du composant <code class="docutils literal notranslate"><span class="pre">Style</span></code>.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">parser</span><span class="o">.</span><span class="n">readStyle</span><span class="p">(</span><span class="s1">&#39;&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#39;</span> <span class="o">+</span>
                     <span class="s1">&#39;&lt;sld:StyledLayerDescriptor xmlns:sld=&quot;http://www.opengis.net/sld&quot; xmlns=&quot;http://www.opengis.net/sld&quot; xmlns:gml=&quot;http://www.opengis.net/gml&quot; xmlns:ogc=&quot;http://www.opengis.net/ogc&quot; version=&quot;1.0.0&quot;&gt;&#39;</span> <span class="o">+</span>
                         <span class="s1">&#39;&lt;sld:NamedLayer&gt;&#39;</span> <span class="o">+</span>

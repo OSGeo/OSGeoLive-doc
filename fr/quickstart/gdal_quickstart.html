@@ -197,7 +197,7 @@
 </div>
 <p>Utilisez gdalinfo pour vérifier la taille.</p>
 <p>L’option <cite>-scale</cite> peut être utilisée pour ré-échantillonner un raster. Un contrôle explicite des valeurs d’entrée et de sortie est également possible. L’option <cite>-mm</cite> de gdalinfo permet d’obtenir les valeurs min/max des pixels.</p>
-<p>Découpons notre raster en deux avec l’option  <cite>-srcwin</cite> qui permet de faire une copie en se basant sur la localisation des pixels/lignes (décalage en x, décalage en y, nombre de pixels en x, nombre de pixels en y). Vous pouvez également utiliser <cite>-projwin</cite> et définir les coordonnées des coins dans le système de coordonnées du raster (coordonnée en x du pixel supérieur gauche puis en y, coordonnée en x du pixel inférieur droit puis en y).</p>
+<p>Découpons notre raster en deux avec l’option <cite>-srcwin</cite> qui permet de faire une copie en se basant sur la localisation des pixels/lignes (décalage en x, décalage en y, nombre de pixels en x, nombre de pixels en y). Vous pouvez également utiliser <cite>-projwin</cite> et définir les coordonnées des coins dans le système de coordonnées du raster (coordonnée en x du pixel supérieur gauche puis en y, coordonnée en x du pixel inférieur droit puis en y).</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdalinfo</span> <span class="o">-</span><span class="n">mm</span> <span class="n">HYP_50M_SR_W</span><span class="o">.</span><span class="n">tif</span>
 <span class="n">gdal_translate</span> <span class="o">-</span><span class="n">srcwin</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">5400</span> <span class="mi">5400</span> <span class="n">HYP_50M_SR_W</span><span class="o">.</span><span class="n">tif</span>  <span class="n">west</span><span class="o">.</span><span class="n">tif</span>
 <span class="n">gdal_translate</span> <span class="o">-</span><span class="n">srcwin</span> <span class="mi">5400</span> <span class="mi">0</span> <span class="mi">5400</span> <span class="mi">5400</span> <span class="n">HYP_50M_SR_W</span><span class="o">.</span><span class="n">tif</span>  <span class="n">east</span><span class="o">.</span><span class="n">tif</span>
@@ -253,8 +253,8 @@ OGRFeature(index_natural_earth):1
 </pre></div>
 </div>
 <a class="reference internal image-reference" href="../../_images/gdal_ortho.png"><img alt="../../_images/gdal_ortho.png" src="../../_images/gdal_ortho.png" style="width: 294.40000000000003px; height: 296.8px;" /></a>
-<p>Note how the poles are clipped?  This is because the edges at the pole
-can’t be reprojected gdalwarp does not read all the data.  We can force
+<p>Note how the poles are clipped? This is because the edges at the pole
+can’t be reprojected gdalwarp does not read all the data. We can force
 gdalwarp to read a bunch of surplus data around chunks as one way to
 resolve this.</p>
 </section>

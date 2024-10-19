@@ -65,7 +65,7 @@
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_community.png" class="align-right" src="../../_images/OSGeo_community.png" /></a>
 <div class="admonition note">
 <p class="admonition-title">注釈</p>
-<p>This project is only included on the OSGeoLive virtual machine disk (VMDK)</p>
+<p>このプロジェクトはOSGeoLive仮想マシンディスク(VMDK)にのみ含まれています</p>
 </div>
 <section id="rasdaman-quickstart">
 <span id="id1"></span><h1>Rasdaman クイックスタート<a class="headerlink" href="#rasdaman-quickstart" title="このヘッドラインへのパーマリンク">¶</a></h1>
@@ -93,7 +93,7 @@
 <dl class="simple">
 <dt>次のいずれか：</dt><dd><ul class="simple">
 <li><p><a class="reference external" href="http://localhost:8080/rasdaman/ows">rasdamanウェブクライアント</a> に行って <em>ProcessCoverages</em> タブに切り替え、クエリボックスにクエリを入力して送信を押してください。</p></li>
-<li><p>クエリーを次のURLに追加し、ブラウザーを使って実行します:  <a class="reference external" href="http://localhost:8080/rasdaman/ows?query=your_query">http://localhost:8080/rasdaman/ows?query=your_query</a></p></li>
+<li><p>クエリーを次のURLに追加し、ブラウザーを使って実行します: <a class="reference external" href="http://localhost:8080/rasdaman/ows?query=your_query">http://localhost:8080/rasdaman/ows?query=your_query</a></p></li>
 </ul>
 </dd>
 </dl>
@@ -117,7 +117,7 @@
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="p">(</span><span class="n">NIR</span><span class="p">)</span> <span class="k">return</span> <span class="n">encode</span><span class="p">(</span><span class="n">c</span><span class="p">[</span><span class="n">i</span><span class="p">(</span><span class="mi">0</span><span class="p">:</span><span class="mi">500</span><span class="p">),</span><span class="n">j</span><span class="p">(</span><span class="mi">0</span><span class="p">:</span><span class="mi">500</span><span class="p">)],</span> <span class="s2">&quot;png&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>ブラウザで実行するには、 <a class="reference external" href="http://localhost:8080/rasdaman/ows?query=for%20c%20in%20(NIR)%20return%20encode%28c[i(0:500),j(0:500)],%20%22png%22%29">サブセットリクエスト</a>  をクリックします。</p>
+<p>ブラウザで実行するには、 <a class="reference external" href="http://localhost:8080/rasdaman/ows?query=for%20c%20in%20(NIR)%20return%20encode%28c[i(0:500),j(0:500)],%20%22png%22%29">サブセットリクエスト</a> をクリックします。</p>
 <p>クエリー結果は次のようなイメージです:</p>
 <a class="reference internal image-reference" href="../../_images/rasdaman_ndvi2.png"><img alt="../../_images/rasdaman_ndvi2.png" src="../../_images/rasdaman_ndvi2.png" style="width: 479.0px; height: 125.25px;" /></a>
 </section>
@@ -148,10 +148,10 @@
 <h2><a class="toc-backref" href="#id10">次のステップは何?</a><a class="headerlink" href="#what-next" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <ul class="simple">
 <li><p>rasdamanや rasql そして、OGC Webサービスサポートの背景にある概念を要約して <a class="reference external" href="https://tutorial.rasdaman.org/">rasdaman チュートリアル</a> で紹介しています。</p></li>
-<li><p>OGC  <a class="reference external" href="https://www.ogc.org/standards/wcps">Web Coverage Processing Service</a> 言語標準 (rasdamanに影響されて制定された)について、学んでください。 <a class="reference external" href="https://standards.rasdaman.com/">ドキュメントとチュートリアルのページ</a>  そして、 <a class="reference external" href="http://localhost/rasdaman-demo/demo/client/query-sandbox.html">WCPS Query SandBox</a> が良い出発点になるでしょう。</p></li>
+<li><p>OGC <a class="reference external" href="https://www.ogc.org/standards/wcps">Web Coverage Processing Service</a> 言語標準 (rasdamanに影響されて制定された)について、学んでください。 <a class="reference external" href="https://standards.rasdaman.com/">ドキュメントとチュートリアルのページ</a> そして、 <a class="reference external" href="http://localhost/rasdaman-demo/demo/client/query-sandbox.html">WCPS Query SandBox</a> が良い出発点になるでしょう。</p></li>
 <li><p>カバレッジデータおよびサービス全般に興味がありますか? OGCの <a class="reference external" href="https://external.ogc.org/twiki_public/CoveragesDWG/WebHome">Coverages Domain Working Group wiki</a> を参照してみましょう。</p></li>
 <li><p><a class="reference external" href="https://doc.rasdaman.org">rasdaman 文書</a> にアクセスできる方は、 rasdaman の管理、その問い合わせ言語、データの取り込み方法も学べます。</p></li>
-<li><p>インタラクティブな1-Dから4-Dのrasdamanのデモを見るには、 <a class="reference external" href="http://localhost/rasdaman-demo">多次元デモ</a> をご覧ください。OSGeoLive に含まれているのは小さい例です。 <a class="reference external" href="https://standards.rasdaman.com">OGC標準ショーケースサイト</a>  では、(ドライブ容量をこえるような)大きなデータセットを使っている例を見ることができます。</p></li>
+<li><p>インタラクティブな1-Dから4-Dのrasdamanのデモを見るには、 <a class="reference external" href="http://localhost/rasdaman-demo">多次元デモ</a> をご覧ください。OSGeoLive に含まれているのは小さい例です。 <a class="reference external" href="https://standards.rasdaman.com">OGC標準ショーケースサイト</a> では、(ドライブ容量をこえるような)大きなデータセットを使っている例を見ることができます。</p></li>
 </ul>
 </section>
 </section>

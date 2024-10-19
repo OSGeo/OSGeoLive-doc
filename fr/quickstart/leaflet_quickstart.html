@@ -64,7 +64,7 @@
   <a class="reference external image-reference" href="https://leafletjs.com"><img alt="../../_images/logo_leaflet.png" class="align-right" src="../../_images/logo_leaflet.png" /></a>
 <section id="leaflet-quickstart">
 <h1><a class="toc-backref" href="#id1">Guide de démarrage rapide de Leaflet</a><a class="headerlink" href="#leaflet-quickstart" title="Lien permanent vers ce titre">¶</a></h1>
-<p>Leaflet est une bibliothèque JavaScript pour la création de cartes intéractives dans navigateur web ou un environnement mobile.  Elle est légère, mais possède toutes les caractéristiques dont la plupart des développeurs ont besoin pour créer des cartes en ligne. Leaflet est conçu avec la simplicité, la performance et la convivialité à l’esprit.</p>
+<p>Leaflet est une bibliothèque JavaScript pour la création de cartes intéractives dans navigateur web ou un environnement mobile. Elle est légère, mais possède toutes les caractéristiques dont la plupart des développeurs ont besoin pour créer des cartes en ligne. Leaflet est conçu avec la simplicité, la performance et la convivialité à l’esprit.</p>
 <div class="contents topic" id="contents">
 <p class="topic-title">Contenu</p>
 <ul class="simple">
@@ -127,7 +127,7 @@ This will provide background tiles that will be used in this demo.</p>
 </pre></div>
 </div>
 <p>Par défaut (comme nous n’avons pas passé toutes les options lors de la création de l’instance de carte), toutes les interactions de souris et de touché sur la carte sont activées et il y a des contrôles de zoom et d’attribution.</p>
-<p>Notez que l’appel setView renvoie également l’objet carte - la plupart des méthodes de Leaflet agissent comme ça quand ils ne retournent pas une valeur explicite, qui permet d’utiliser une méthode de chaînage similaire à  jQuery.</p>
+<p>Notez que l’appel setView renvoie également l’objet carte - la plupart des méthodes de Leaflet agissent comme ça quand ils ne retournent pas une valeur explicite, qui permet d’utiliser une méthode de chaînage similaire à jQuery.</p>
 <p>Next we’ll add a tile layer to our map.
 In this case we will be using the tile images provided by MapProxy on the live dvd. Note that using nicer background maps such as openstreetmap will result in a much better user experience.</p>
 <p>La création d’une couche tuilée implique habituellement de définir le modèle d’URL pour les images tuilées, le texte d’attribution et le niveau de zoom maximal de la couche :</p>
@@ -177,7 +177,7 @@ In this case we will be using the tile images provided by MapProxy on the live d
 </section>
 <section id="dealing-with-events">
 <h2><a class="toc-backref" href="#id7">Gérer les événements</a><a class="headerlink" href="#dealing-with-events" title="Lien permanent vers ce titre">¶</a></h2>
-<p>Chaque fois que quelque chose se passe dans Leaflet, par exemple quand l’utilisateur clique sur un marqueur ou le zoom de la carte change, l’objet correspondant envoie un événement aucquel vous pouvez abonner  une fonction. Il vous permet de réagir à l’intervention de l’utilisateur :</p>
+<p>Chaque fois que quelque chose se passe dans Leaflet, par exemple quand l’utilisateur clique sur un marqueur ou le zoom de la carte change, l’objet correspondant envoie un événement aucquel vous pouvez abonner une fonction. Il vous permet de réagir à l’intervention de l’utilisateur :</p>
 <div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">function</span><span class="w"> </span><span class="nx">onMapClick</span><span class="p">(</span><span class="nx">e</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
 <span class="w">   </span><span class="nx">alert</span><span class="p">(</span><span class="s2">&quot;You clicked the map at &quot;</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nx">e</span><span class="p">.</span><span class="nx">latlng</span><span class="p">);</span>
 <span class="p">}</span>
@@ -185,7 +185,7 @@ In this case we will be using the tile images provided by MapProxy on the live d
 <span class="nx">map</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;click&#39;</span><span class="p">,</span><span class="w"> </span><span class="nx">onMapClick</span><span class="p">);</span>
 </pre></div>
 </div>
-<p>Chaque objet possède son propre ensemble d’événements - voir la <a class="reference external" href="https://leafletjs.com/reference.html">documentation</a> pour plus de détails. Le premier argument de la fonction d’écouteur est un objet <em>event</em> - il contient des informations utiles sur l’événement qui s’est passé. Par exemple, l’événement Clic sur l’objet de la carte (<em>e</em> dans l’exemple ci-dessus) a une propriété latlng  qui est l’emplacement où le clic s’est produit en coordonnées géographiques (latitude longitude).</p>
+<p>Chaque objet possède son propre ensemble d’événements - voir la <a class="reference external" href="https://leafletjs.com/reference.html">documentation</a> pour plus de détails. Le premier argument de la fonction d’écouteur est un objet <em>event</em> - il contient des informations utiles sur l’événement qui s’est passé. Par exemple, l’événement Clic sur l’objet de la carte (<em>e</em> dans l’exemple ci-dessus) a une propriété latlng qui est l’emplacement où le clic s’est produit en coordonnées géographiques (latitude longitude).</p>
 <p>Nous allons améliorer notre exemple en utilisant une infobulle au lieu d’une alerte :</p>
 <div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">popup</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">L</span><span class="p">.</span><span class="nx">popup</span><span class="p">();</span>
 

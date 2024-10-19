@@ -179,7 +179,7 @@
 </section>
 <section id="translation">
 <h2><a class="toc-backref" href="#id4">Traducción</a><a class="headerlink" href="#translation" title="Enlazar permanentemente con este título">¶</a></h2>
-<p>Las traducciones se logran con el comando gdal_translate. El formato de salida predeterminado es GeoTIFF.  La bandera  <cite>-of</cite>  se utiliza para seleccionar un formato de salida y la bandera -co se utiliza para especificar una opción de creación:</p>
+<p>Las traducciones se logran con el comando gdal_translate. El formato de salida predeterminado es GeoTIFF. La bandera <cite>-of</cite> se utiliza para seleccionar un formato de salida y la bandera -co se utiliza para especificar una opción de creación:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdal_translate</span> <span class="o">-</span><span class="n">of</span> <span class="n">JPEG</span> <span class="o">-</span><span class="n">co</span> <span class="n">QUALITY</span><span class="o">=</span><span class="mi">40</span> <span class="n">HYP_50M_SR_W</span><span class="o">.</span><span class="n">tif</span> <span class="n">HYP_50M_SR_W</span><span class="o">.</span><span class="n">jpg</span>
 </pre></div>
 </div>
@@ -253,8 +253,8 @@ OGRFeature(index_natural_earth):1
 </pre></div>
 </div>
 <a class="reference internal image-reference" href="../../_images/gdal_ortho.png"><img alt="../../_images/gdal_ortho.png" src="../../_images/gdal_ortho.png" style="width: 294.40000000000003px; height: 296.8px;" /></a>
-<p>Note how the poles are clipped?  This is because the edges at the pole
-can’t be reprojected gdalwarp does not read all the data.  We can force
+<p>Note how the poles are clipped? This is because the edges at the pole
+can’t be reprojected gdalwarp does not read all the data. We can force
 gdalwarp to read a bunch of surplus data around chunks as one way to
 resolve this.</p>
 </section>

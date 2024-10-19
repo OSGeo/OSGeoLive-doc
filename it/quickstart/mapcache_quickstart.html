@@ -110,7 +110,7 @@
 <p>We use the <code class="docutils literal notranslate"><span class="pre">&lt;params&gt;</span></code> block to pass the WMS layer name, and the image format
 back to the WMS server, along with the MapServer specific <code class="docutils literal notranslate"><span class="pre">&lt;map&gt;</span></code> parameter.
 The URL to the WMS server is in the <code class="docutils literal notranslate"><span class="pre">&lt;http&gt;</span></code> block. For documentation on all
-configuration file elements see the <a class="reference external" href="https://mapserver.org/mapcache/config.html">Configuration Documentation</a>.  Next we will add a
+configuration file elements see the <a class="reference external" href="https://mapserver.org/mapcache/config.html">Configuration Documentation</a>. Next we will add a
 <code class="docutils literal notranslate"><span class="pre">&lt;tileset&gt;</span></code> block, which defines how the source will be stored and served as
 tiles. Place the following block after the existing <code class="docutils literal notranslate"><span class="pre">&lt;tileset</span>
 <span class="pre">name=&quot;lakes&quot;&gt;...&lt;/tileset&gt;</span></code> block.</p>
@@ -122,10 +122,7 @@ tiles. Place the following block after the existing <code class="docutils litera
 <span class="nt">&lt;/tileset&gt;</span>
 </pre></div>
 </div>
-<p>We set the grid type to the inbuilt <code class="docutils literal notranslate"><span class="pre">GoogleMapsCompatible</span></code> grid used as the
-default tiling scheme in many web mapping applications.  The <code class="docutils literal notranslate"><span class="pre">name=streams</span></code> is
-used by client applications to access the tileset. We are using a disk-based
-cache (rather than storing tiles in a database or in a cloud environment).</p>
+<p>Imposta il tipo di griglia alla griglia integrata <code class="docutils literal notranslate"><span class="pre">GoogleMapsCompatible</span></code> usata come schema di piastrellatura predefinito in molte applicazioni di web mapping. Il <code class="docutils literal notranslate"><span class="pre">name=streams</span></code> è usato dalle applicazioni client per accedere al tileset. Stai usando una cache basata su disco (piuttosto che memorizzare i tasselli in un database o in un ambiente cloud).</p>
 <p>Ogni volta che si modifica il file di configurazione di MapCache è necessario ricaricare Apache perché le modifiche abbiano effetto. Questo può essere eseguito dalla linea di comando come segue:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>apachectl<span class="w"> </span>-k<span class="w"> </span>graceful
 </pre></div>
@@ -162,9 +159,7 @@ cache (rather than storing tiles in a database or in a cloud environment).</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>featherpad<span class="w"> </span>/etc/apache2/conf-enabled/mapcache.conf
 </pre></div>
 </div>
-<p>OSGeoLive has two MapCache services, each with an alias and a configuration
-file.  The alias is the URL to use on the server, e.g. <a class="reference external" href="http://localhost/mapcache">http://localhost/mapcache</a>
-and <a class="reference external" href="http://localhost/itasca">http://localhost/itasca</a></p>
+<p>OSGeoLive ha due servizi MapCache, ognuno con un alias e un file di configurazione. L’alias è l’URL da utilizzare sul server, ad esempio <a class="reference external" href="http://localhost/mapcache">http://localhost/mapcache</a> e <a class="reference external" href="http://localhost/itasca">http://localhost/itasca</a></p>
 <div class="highlight-apache notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;IfModule</span><span class="w"> </span><span class="s">mapcache_module</span><span class="nt">&gt;</span>
 <span class="w">   </span><span class="nt">&lt;Directory</span><span class="w"> </span><span class="s">/path/to/directory</span><span class="nt">&gt;</span>
 <span class="w">      </span><span class="nb">Order</span><span class="w"> </span>Allow,Deny
