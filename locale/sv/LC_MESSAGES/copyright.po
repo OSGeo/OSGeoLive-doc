@@ -2,10 +2,10 @@
 # Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Anne Ylinen, 2019
-# 
+#
 #, fuzzy
 msgid ""
 msgstr ""
@@ -224,10 +224,6 @@ msgid "Angelos Tzotsos, OSGeo"
 msgstr "Angelos Tzotsos, OSGeo"
 
 #: ../../build/licenses.csv:1
-msgid "Creative Commons Attribution 3.0 Unported (CC BY 3.0)"
-msgstr "Creative Commons Attribution 3.0 Unported (CC BY 3.0)"
-
-#: ../../build/licenses.csv:1
 msgid "52nWPS_overview"
 msgstr "52nWPS_overview"
 
@@ -287,10 +283,6 @@ msgstr "cesium_overview"
 #: ../../build/licenses.csv:1
 msgid "Balasubramaniam Natarajan"
 msgstr "Balasubramaniam Natarajan"
-
-#: ../../build/licenses.csv:1
-msgid "Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)"
-msgstr "Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)"
 
 #: ../../build/licenses.csv:1
 msgid "deegree_overview"
