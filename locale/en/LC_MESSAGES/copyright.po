@@ -206,10 +206,6 @@ msgid "Angelos Tzotsos, OSGeo"
 msgstr ""
 
 #: ../../build/licenses.csv:1
-msgid "Creative Commons Attribution 3.0 Unported (CC BY 3.0)"
-msgstr ""
-
-#: ../../build/licenses.csv:1
 msgid "52nWPS_overview"
 msgstr ""
 
@@ -239,10 +235,6 @@ msgstr ""
 
 #: ../../build/licenses.csv:1
 msgid "Balasubramaniam Natarajan"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)"
 msgstr ""
 
 #: ../../build/licenses.csv:1

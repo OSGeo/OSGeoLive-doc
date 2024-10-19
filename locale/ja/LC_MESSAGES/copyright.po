@@ -249,10 +249,6 @@ msgid "Angelos Tzotsos, OSGeo"
 msgstr "Angelos Tzotsos, OSGeo"
 
 #: ../../build/licenses.csv:1
-msgid "Creative Commons Attribution 3.0 Unported (CC BY 3.0)"
-msgstr "クリエイティブ・コモンズ 表示 3.0 非移植 (CC BY 3.0)"
-
-#: ../../build/licenses.csv:1
 msgid "52nWPS_overview"
 msgstr "52nWPS_overview"
 
@@ -312,10 +308,6 @@ msgstr "cesium_overview"
 #: ../../build/licenses.csv:1
 msgid "Balasubramaniam Natarajan"
 msgstr "Balasubramaniam Natarajan"
-
-#: ../../build/licenses.csv:1
-msgid "Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)"
-msgstr "クリエイティブ・コモンズ 表示 - 継承 3.0 非移植 ライセンス (CC BY-SA 3.0)"
 
 #: ../../build/licenses.csv:1
 msgid "deegree_overview"
