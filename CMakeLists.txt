@@ -25,10 +25,10 @@ set(req_hd_size "22" CACHE STRING "required hard disk space")
 #---------------------------------------------
 # Setting the version number
 #---------------------------------------------
-set(OSGeoLiveDoc_VERSION_MAJOR "16")
+set(OSGeoLiveDoc_VERSION_MAJOR "17")
 set(OSGeoLiveDoc_VERSION_MINOR "0")
 set(OSGeoLiveDoc_VERSION_PATCH "0")
-set(OSGeoLiveDoc_VERSION_DEV "-dev")
+set(OSGeoLiveDoc_VERSION_DEV "")
 set(OSGeoLiveDoc_VERSION "${OSGeoLiveDoc_VERSION_MAJOR}.${OSGeoLiveDoc_VERSION_MINOR}.${OSGeoLiveDoc_VERSION_MINOR}${OSGeoLiveDoc_VERSION_DEV}")
 set(OSGeoLiveDoc_NAME "OSGeoLive")
 
