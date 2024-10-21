@@ -8,7 +8,7 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 16.0\n"
+"Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-17 21:23+0000\n"
 "PO-Revision-Date: 2023-07-03 08:33+0000\n"

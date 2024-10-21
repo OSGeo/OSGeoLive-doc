@@ -7,7 +7,7 @@
 # Eduardo G. S. Pereira <edu_vcd@hotmail.com>, 2019
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 16.0\n"
+"Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
 "PO-Revision-Date: 2024-09-27 19:35+0000\n"
