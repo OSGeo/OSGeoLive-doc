@@ -6,6 +6,7 @@
 :Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Angelos Tzotsos, OSGeo
 :Reviewer: Felicity Brand (Google Season of Docs 2019)
+:Reviewer: Seth Girvin
 :Version: osgeolive13.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
@@ -22,7 +23,7 @@
 
 MapServer is an `Open Source <https://opensource.org/>`_ server based
 application that allows you to publish geographic map images and vector data
-through the internet using |OGCS|
+through the Internet using |OGCS|
 such as |WMS|, |WFS| and |WCS|.
 
 .. contents:: Contents
@@ -52,8 +53,9 @@ Creating my first Mapfile
 
 #. Open any text editor (e.g. :menuselection:`Applications --> Accessories -->
    FeatherPad`).
-#. Create the file "mapserver_quickstart.map" in your home directory:
+#. Create the file "mapserver_quickstart.map" at the following location:
    :file:`/home/user/mapserver_quickstart.map`
+
 
    Put the following content in it::
 
@@ -61,7 +63,7 @@ Creating my first Mapfile
        NAME "MAPSERVER_QUICKSTART"
        EXTENT -137 29 -53 88
        UNITS DD
-       SHAPEPATH "/home/user/data/natural_earth2/"
+       SHAPEPATH "/usr/local/share/data/natural_earth2/"
        SIZE 800 600
 
        IMAGETYPE PNG24
@@ -93,10 +95,10 @@ Creating my first Mapfile
 
      END
 
-   .. note::
+.. note::
 
-     The example uses the natural earth dataset, which is already on OSGeoLive at :file:`~/data/natural_earth2` (a short cut to
-     :file:`/usr/local/share/data/natural_earth2`).
+  The example uses the natural earth dataset, which is already on OSGeoLive at :file:`~/data/natural_earth2` (a short cut to
+  :file:`/usr/local/share/data/natural_earth2`).
 
 Each object in a Mapfile starts with its name (for example **MAP**) and ends
 with an **END**. A Mapfile always starts with the **MAP** object and should
@@ -109,7 +111,7 @@ Mapfile:
  * EXTENT: sets the default geospatial bounding box for this configuration.
  * LAYER: defines access and display properties for a spatial dataset. We'll
    add another layer later.
- * SHAPEPATH: sets a base path for file-based data (e.g. shapefiles or tiff
+ * SHAPEPATH: sets a base path for file-based data (e.g. shapefiles or GeoTIFF
    images).
 
 If we look closer at the **LAYER** in our Mapfile, we'll see that it
@@ -131,7 +133,6 @@ contains a bunch of properties and objects too. Among them are:
   <https://mapserver.org/mapfile/index.html>`_.
 
 
-
 Render a map image with MapServer using a WMS **GetMap** request
 ================================================================
 
@@ -142,7 +143,7 @@ Render a map image with MapServer using a WMS **GetMap** request
 
 Open a web browser and enter the following URL::
 
-  http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&LAYERS=Countries&SRS=EPSG:4326&BBOX=-137,29,-53,88&FORMAT=PNG&WIDTH=800&HEIGHT=600
+  http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&LAYERS=Countries&STYLES=&SRS=EPSG:4326&BBOX=-137,29,-53,88&FORMAT=PNG&WIDTH=800&HEIGHT=600
 
 What does the above mean? If we put it in simple words, it's a |WMS|
 **GetMap**
@@ -173,11 +174,10 @@ repetitive mapping, or while debugging.
 Open a terminal (:menuselection:`Applications --> System Tools --> Terminal
 Emulator`) and type::
 
-  shp2img -m mapserver_quickstart.map -o mymap.png
+  map2img -m /home/user/mapserver_quickstart.map -o /home/user/Documents/mymap.png
 
 If this command runs successfully, you are able to see your rendered map at
 file:///home/user/mymap.png.
-
 
 
 Add a new layer to the Mapfile to serve a local Shapefile
@@ -211,7 +211,7 @@ Let's take our previous WMS **GetMap** request and add our new "Lakes" layer
 to the image rendered. We simply need to add the new layer name to the
 "LAYERS" property list::
 
-  http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&LAYERS=Countries,Lakes&SRS=EPSG:4326&BBOX=-137,29,-53,88&FORMAT=PNG&WIDTH=800&HEIGHT=600
+  http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&SERVICE=WMS&REQUEST=Getmap&VERSION=1.1.1&LAYERS=Countries,Lakes&STYLES=&SRS=EPSG:4326&BBOX=-137,29,-53,88&FORMAT=PNG&WIDTH=800&HEIGHT=600
 
 The image rendered by MapServer looks like our previous map, but with the
 addition of the lakes from our new layer:
@@ -237,8 +237,8 @@ see the geometry and attribute definitions it contains. These attribute
 values can be used as a way to draw the elements inside a dataset
 differently using multiple CLASS objects.
 
-In our "ne_10m_lakes" dataset, we have a *ScaleRank* attribute, which seems
-to be related to the size of the lakes. We can use this as a way to render
+In our "ne_10m_lakes" dataset, we have a *ScaleRank* attribute, which defines
+the significance of the lakes. We can use this as a way to render
 the lakes differently. In the LAYER object, we'll add another CLASS object
 just before our current one::
 
@@ -318,6 +318,8 @@ few resources to check out next:
 
 * Read the `Introduction to MapServer
   <https://mapserver.org/introduction.html#introduction>`_.
+* Run through the `Getting Started with MapServer workshop
+  <https://geographika.github.io/getting-started-with-mapserver/>`_.
 * Have a look at the `MapServer Tutorial
   <https://www.mapserver.org/tutorial/index.html>`_ which contains more Mapfile
   examples.
