@@ -65,7 +65,10 @@
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
 <section id="mapserver-quickstart">
 <h1>Inicio Rápido de MapServer<a class="headerlink" href="#mapserver-quickstart" title="Enlazar permanentemente con este título">¶</a></h1>
-<p>MapServer es una aplicación basada en servidor de <a class="reference external" href="https://opensource.org/">Código Abierto</a> que le permite publicar ned application that allows you to publish imágenes de mapas geográficos y datos vectoriales a través de Internet usando <a class="reference external" href="https://www.ogc.org/standards">OGC Standards</a> como <a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a>, <a class="reference external" href="https://www.ogc.org/standards/wfs">Web Feature Service (WFS)</a> y <a class="reference external" href="https://www.ogc.org/standards/wcs">Web Coverage Service (WCS)</a>.</p>
+<p>MapServer is an <a class="reference external" href="https://opensource.org/">Open Source</a> server based
+application that allows you to publish geographic map images and vector data
+through the Internet using <a class="reference external" href="https://www.ogc.org/standards">OGC Standards</a>
+such as <a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a>, <a class="reference external" href="https://www.ogc.org/standards/wfs">Web Feature Service (WFS)</a> and <a class="reference external" href="https://www.ogc.org/standards/wcs">Web Coverage Service (WCS)</a>.</p>
 <div class="contents local topic" id="contents">
 <p class="topic-title">Contenidos</p>
 <ul class="simple">
@@ -92,13 +95,14 @@
 <h3>Creación de mi primer archivo Map<a class="headerlink" href="#creating-my-first-mapfile" title="Enlazar permanentemente con este título">¶</a></h3>
 <ol class="arabic">
 <li><p>Abra cualquier editor de texto (por ejemplo <span class="menuselection">Applications ‣ Accessories ‣ FeatherPad</span>).</p></li>
-<li><p>Crear el archivo «mapserver_quickstart.map» en tu directorio raiz: <code class="file docutils literal notranslate"><span class="pre">/home/user/mapserver_quickstart.map</span></code></p>
+<li><p>Create the file «mapserver_quickstart.map» at the following location:
+<code class="file docutils literal notranslate"><span class="pre">/home/user/mapserver_quickstart.map</span></code></p>
 <p>Poner el siguiente contenido en él:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">MAP</span>
   <span class="n">NAME</span> <span class="s2">&quot;MAPSERVER_QUICKSTART&quot;</span>
   <span class="n">EXTENT</span> <span class="o">-</span><span class="mi">137</span> <span class="mi">29</span> <span class="o">-</span><span class="mi">53</span> <span class="mi">88</span>
   <span class="n">UNITS</span> <span class="n">DD</span>
-  <span class="n">SHAPEPATH</span> <span class="s2">&quot;/home/user/data/natural_earth2/&quot;</span>
+  <span class="n">SHAPEPATH</span> <span class="s2">&quot;/usr/local/share/data/natural_earth2/&quot;</span>
   <span class="n">SIZE</span> <span class="mi">800</span> <span class="mi">600</span>
 
   <span class="n">IMAGETYPE</span> <span class="n">PNG24</span>
@@ -131,19 +135,20 @@
 <span class="n">END</span>
 </pre></div>
 </div>
+</li>
+</ol>
 <div class="admonition note">
 <p class="admonition-title">Nota</p>
 <p>El ejemplo utiliza el conjunto de datos de Natural Earth, que ya está instalado en OSGeoLive en <code class="file docutils literal notranslate"><span class="pre">~/data/natural_earth2</span></code> (atajo para <code class="file docutils literal notranslate"><span class="pre">/usr/local/share/data/natural_earth2</span></code>).</p>
 </div>
-</li>
-</ol>
 <p>Cada objeto en un archivo Map comienza con su nombre (por ejemplo <strong>MAP</strong>) y termina con un <strong>END</strong>. Un archivi Map siempre comienza con el objeto <strong>MAP</strong> y debe contener una lista de objetos <strong>LAYER</strong> que el archivo Map puede leer y dibujar. En nuestro archivo Map, actualmente solo tenemos una capa definida.</p>
 <p>Echemos un vistazo a algunos de los objetos (y propiedades) definidos en nuestro archivo Map:</p>
 <blockquote>
 <div><ul class="simple">
 <li><p>EXTENSIÓN: establece el cuadro delimitador geoespacial predeterminado para esta configuración.</p></li>
 <li><p>CAPA: define las propiedades de acceso y visualización de un conjunto de datos espacial. Vamos a añadir otra capa más tarde.</p></li>
-<li><p>SHAPEPATH: establece una ruta de base de datos basados en archivos (por ejemplo imágenes de shapefiles o tiff).</p></li>
+<li><p>SHAPEPATH: sets a base path for file-based data (e.g. shapefiles or GeoTIFF
+images).</p></li>
 </ul>
 </div></blockquote>
 <p>Si miramos más de cerca la <strong>CAPA</strong> en nuestro archivo Map, veremos que contiene un montón de propiedades y objetos también. Entre ellos se encuentran:</p>
@@ -168,7 +173,7 @@
 <p><strong>¿Qué aprenderé?</strong> Aprenderá a renderizar una imagen con capas de un archivo Map con MapServer utilizando una solicitud de OGC WMS.</p>
 </div>
 <p>Abra un navegador web e introduzca la siguiente URL:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&amp;SERVICE=WMS&amp;REQUEST=Getmap&amp;VERSION=1.1.1&amp;LAYERS=Countries&amp;SRS=EPSG:4326&amp;BBOX=-137,29,-53,88&amp;FORMAT=PNG&amp;WIDTH=800&amp;HEIGHT=600
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&amp;SERVICE=WMS&amp;REQUEST=Getmap&amp;VERSION=1.1.1&amp;LAYERS=Countries&amp;STYLES=&amp;SRS=EPSG:4326&amp;BBOX=-137,29,-53,88&amp;FORMAT=PNG&amp;WIDTH=800&amp;HEIGHT=600
 </pre></div>
 </div>
 <p>¿Qué significa lo anterior? Si lo ponemos en palabras simples, es una solicitud <a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a> de <strong>GetMap</strong> que indica a MapServer que «<em>utilice el siguiente archivo Map para representar las capas especificadas como una imagen png basada en algunos parámetros proporcionados por el usuario, como el tamaño de la imagen, la extensión geográfica, la proyección, etc.</em>». Todas las capas especificadas en la propiedad «<em>&amp;A LAYERS…</em>» que tengan <em>STATUS ON</em> en el archivo Map se representarán además de todas las capas con <em>STATUS DEFAULT</em>. El resultado es el siguiente:</p>
@@ -184,7 +189,7 @@
 <h2><a class="toc-backref" href="#id3">Renderice una imagen del mapa con MapServer usando la línea de comando</a><a class="headerlink" href="#render-a-map-image-with-mapserver-using-the-command-line" title="Enlazar permanentemente con este título">¶</a></h2>
 <p>Aunque MapServer está orientado a aplicaciones web, también puede producir imágenes en la línea de comandos. Esto puede ser útil si está buscando mapeo repetitivo o durante la depuración.</p>
 <p>Abra una terminal(<span class="menuselection">Applications ‣ System Tools ‣ Terminal Emulator</span>) y tecleé:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">shp2img</span> <span class="o">-</span><span class="n">m</span> <span class="n">mapserver_quickstart</span><span class="o">.</span><span class="n">map</span> <span class="o">-</span><span class="n">o</span> <span class="n">mymap</span><span class="o">.</span><span class="n">png</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">map2img</span> <span class="o">-</span><span class="n">m</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">user</span><span class="o">/</span><span class="n">mapserver_quickstart</span><span class="o">.</span><span class="n">map</span> <span class="o">-</span><span class="n">o</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">user</span><span class="o">/</span><span class="n">Documents</span><span class="o">/</span><span class="n">mymap</span><span class="o">.</span><span class="n">png</span>
 </pre></div>
 </div>
 <p>Si este comando se ejecuta con éxito, puede ver su mapa renderizado en <a class="reference external" href="file:///home/user/mymap.png">file:///home/user/mymap.png</a>.</p>
@@ -211,7 +216,7 @@
 </div>
 <p>Ahora tenemos 2 definiciones de capa en nuestro archivo Map. Tenga en cuenta que el nuevo que acabamos de agregar tiene la propiedad «STATUS» establecida en «ON». Eso significa que a menos que lo solicitemos específicamente, no se representará.</p>
 <p>Tomemos nuestra anterior solicitud WMS <strong>GetMap</strong> agreguemos la nueva capa de «Lagos» a la imagen renderizada. Simplemente tenemos que añadir el nuevo nombre de la capa a la lista de propiedades de «CAPAS»:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&amp;SERVICE=WMS&amp;REQUEST=Getmap&amp;VERSION=1.1.1&amp;LAYERS=Countries,Lakes&amp;SRS=EPSG:4326&amp;BBOX=-137,29,-53,88&amp;FORMAT=PNG&amp;WIDTH=800&amp;HEIGHT=600
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&amp;SERVICE=WMS&amp;REQUEST=Getmap&amp;VERSION=1.1.1&amp;LAYERS=Countries,Lakes&amp;STYLES=&amp;SRS=EPSG:4326&amp;BBOX=-137,29,-53,88&amp;FORMAT=PNG&amp;WIDTH=800&amp;HEIGHT=600
 </pre></div>
 </div>
 <p>La imagen de MapServer se ve como el mapa anterior, pero con la adición de los lagos de nuestra nueva capa:</p>
@@ -232,7 +237,10 @@ using a tool such as <a class="reference external" href="https://gdal.org/en/lat
 see the geometry and attribute definitions it contains. These attribute
 values can be used as a way to draw the elements inside a dataset
 differently using multiple CLASS objects.</p>
-<p>En nuestro conjunto de datos «ne_10m_lakes», tenemos un atributo de <em>ScaleRank</em> , que parece estar relacionado al tamaño de los lagos. Podemos utilizar esto como una forma de representar los lagos de manera diferente. En el objeto LAYER, vamos a añadir otra CLASE de objeto justo antes del el actual:</p>
+<p>In our «ne_10m_lakes» dataset, we have a <em>ScaleRank</em> attribute, which defines
+the significance of the lakes. We can use this as a way to render
+the lakes differently. In the LAYER object, we’ll add another CLASS object
+just before our current one:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">LAYER</span>
   <span class="n">NAME</span> <span class="s2">&quot;Lakes&quot;</span>
   <span class="n">STATUS</span> <span class="n">ON</span>
@@ -286,6 +294,7 @@ differently using multiple CLASS objects.</p>
 <p>Este es un ejemplo simple, pero usted puede hacer mucho, mucho más. La página web del proyecto MapServer contiene muchos recursos para ayudarle a comenzar. Aquí hay algunos recursos para comprobar hacia fuera el siguiente:</p>
 <ul class="simple">
 <li><p>Leer la <a class="reference external" href="https://mapserver.org/introduction.html#introduction">Introduction to MapServer</a>.</p></li>
+<li><p>Run through the <a class="reference external" href="https://geographika.github.io/getting-started-with-mapserver/">Getting Started with MapServer workshop</a>.</p></li>
 <li><p>Echa un vistazo al <a class="reference external" href="https://www.mapserver.org/tutorial/index.html">Tutorial de MapServer</a> que contiene más ejemplos de archivos Map.</p></li>
 <li><p>Revise <a class="reference external" href="https://www.mapserver.org/ogc/index.html">Soporte y Configuración de OGC</a> para aprender más sobre los estándares de OGC en MapServer (WMS, WFS, SLD, WFS Filter Encoding, WCS, SOS, etc.).</p></li>
 <li><p>¿Listo para usar MapServer? Entonces únase a la comunidad en las <a class="reference external" href="https://www.mapserver.org/community/lists.html">Listas de Correo</a> para intercambiar ideas, discutir sobre perfeccionamiento del potencial del software y resolver dudas.</p></li>

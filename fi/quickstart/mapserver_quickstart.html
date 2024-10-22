@@ -67,7 +67,7 @@
 <h1>MapServer Quickstart<a class="headerlink" href="#mapserver-quickstart" title="Permalink to this headline">¶</a></h1>
 <p>MapServer is an <a class="reference external" href="https://opensource.org/">Open Source</a> server based
 application that allows you to publish geographic map images and vector data
-through the internet using <a class="reference external" href="https://www.ogc.org/standards">OGC Standards</a>
+through the Internet using <a class="reference external" href="https://www.ogc.org/standards">OGC Standards</a>
 such as <a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a>, <a class="reference external" href="https://www.ogc.org/standards/wfs">Web Feature Service (WFS)</a> and <a class="reference external" href="https://www.ogc.org/standards/wcs">Web Coverage Service (WCS)</a>.</p>
 <div class="contents local topic" id="contents">
 <p class="topic-title">Sisältö</p>
@@ -101,14 +101,14 @@ read necessary data, and how to render it (e.g. color, symbol, label, etc…).</
 <ol class="arabic">
 <li><p>Open any text editor (e.g. <span class="menuselection">Applications ‣ Accessories ‣
 FeatherPad</span>).</p></li>
-<li><p>Create the file ”mapserver_quickstart.map” in your home directory:
+<li><p>Create the file ”mapserver_quickstart.map” at the following location:
 <code class="file docutils literal notranslate"><span class="pre">/home/user/mapserver_quickstart.map</span></code></p>
 <p>Put the following content in it:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">MAP</span>
   <span class="n">NAME</span> <span class="s2">&quot;MAPSERVER_QUICKSTART&quot;</span>
   <span class="n">EXTENT</span> <span class="o">-</span><span class="mi">137</span> <span class="mi">29</span> <span class="o">-</span><span class="mi">53</span> <span class="mi">88</span>
   <span class="n">UNITS</span> <span class="n">DD</span>
-  <span class="n">SHAPEPATH</span> <span class="s2">&quot;/home/user/data/natural_earth2/&quot;</span>
+  <span class="n">SHAPEPATH</span> <span class="s2">&quot;/usr/local/share/data/natural_earth2/&quot;</span>
   <span class="n">SIZE</span> <span class="mi">800</span> <span class="mi">600</span>
 
   <span class="n">IMAGETYPE</span> <span class="n">PNG24</span>
@@ -141,13 +141,13 @@ FeatherPad</span>).</p></li>
 <span class="n">END</span>
 </pre></div>
 </div>
+</li>
+</ol>
 <div class="admonition note">
 <p class="admonition-title">Muista</p>
 <p>The example uses the natural earth dataset, which is already on OSGeoLive at <code class="file docutils literal notranslate"><span class="pre">~/data/natural_earth2</span></code> (a short cut to
 <code class="file docutils literal notranslate"><span class="pre">/usr/local/share/data/natural_earth2</span></code>).</p>
 </div>
-</li>
-</ol>
 <p>Each object in a Mapfile starts with its name (for example <strong>MAP</strong>) and ends
 with an <strong>END</strong>. A Mapfile always starts with the <strong>MAP</strong> object and should
 contain a list of <strong>LAYER</strong> objects the Mapfile can read and draw. In our
@@ -159,7 +159,7 @@ Mapfile:</p>
 <li><p>EXTENT: sets the default geospatial bounding box for this configuration.</p></li>
 <li><p>LAYER: defines access and display properties for a spatial dataset. We’ll
 add another layer later.</p></li>
-<li><p>SHAPEPATH: sets a base path for file-based data (e.g. shapefiles or tiff
+<li><p>SHAPEPATH: sets a base path for file-based data (e.g. shapefiles or GeoTIFF
 images).</p></li>
 </ul>
 </div></blockquote>
@@ -192,7 +192,7 @@ can be found in the <a class="reference external" href="https://mapserver.org/ma
 layers from a Mapfile with MapServer using an OGC WMS request.</p>
 </div>
 <p>Open a web browser and enter the following URL:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&amp;SERVICE=WMS&amp;REQUEST=Getmap&amp;VERSION=1.1.1&amp;LAYERS=Countries&amp;SRS=EPSG:4326&amp;BBOX=-137,29,-53,88&amp;FORMAT=PNG&amp;WIDTH=800&amp;HEIGHT=600
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&amp;SERVICE=WMS&amp;REQUEST=Getmap&amp;VERSION=1.1.1&amp;LAYERS=Countries&amp;STYLES=&amp;SRS=EPSG:4326&amp;BBOX=-137,29,-53,88&amp;FORMAT=PNG&amp;WIDTH=800&amp;HEIGHT=600
 </pre></div>
 </div>
 <p>What does the above mean? If we put it in simple words, it’s a <a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a>
@@ -219,7 +219,7 @@ images on the command line. This can be useful if you are looking for
 repetitive mapping, or while debugging.</p>
 <p>Open a terminal (<span class="menuselection">Applications ‣ System Tools ‣ Terminal
 Emulator</span>) and type:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">shp2img</span> <span class="o">-</span><span class="n">m</span> <span class="n">mapserver_quickstart</span><span class="o">.</span><span class="n">map</span> <span class="o">-</span><span class="n">o</span> <span class="n">mymap</span><span class="o">.</span><span class="n">png</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">map2img</span> <span class="o">-</span><span class="n">m</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">user</span><span class="o">/</span><span class="n">mapserver_quickstart</span><span class="o">.</span><span class="n">map</span> <span class="o">-</span><span class="n">o</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">user</span><span class="o">/</span><span class="n">Documents</span><span class="o">/</span><span class="n">mymap</span><span class="o">.</span><span class="n">png</span>
 </pre></div>
 </div>
 <p>If this command runs successfully, you are able to see your rendered map at
@@ -253,7 +253,7 @@ specifically request it, it won’t be rendered.</p>
 <p>Let’s take our previous WMS <strong>GetMap</strong> request and add our new ”Lakes” layer
 to the image rendered. We simply need to add the new layer name to the
 ”LAYERS” property list:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&amp;SERVICE=WMS&amp;REQUEST=Getmap&amp;VERSION=1.1.1&amp;LAYERS=Countries,Lakes&amp;SRS=EPSG:4326&amp;BBOX=-137,29,-53,88&amp;FORMAT=PNG&amp;WIDTH=800&amp;HEIGHT=600
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&amp;SERVICE=WMS&amp;REQUEST=Getmap&amp;VERSION=1.1.1&amp;LAYERS=Countries,Lakes&amp;STYLES=&amp;SRS=EPSG:4326&amp;BBOX=-137,29,-53,88&amp;FORMAT=PNG&amp;WIDTH=800&amp;HEIGHT=600
 </pre></div>
 </div>
 <p>The image rendered by MapServer looks like our previous map, but with the
@@ -276,8 +276,8 @@ using a tool such as <a class="reference external" href="https://gdal.org/en/lat
 see the geometry and attribute definitions it contains. These attribute
 values can be used as a way to draw the elements inside a dataset
 differently using multiple CLASS objects.</p>
-<p>In our ”ne_10m_lakes” dataset, we have a <em>ScaleRank</em> attribute, which seems
-to be related to the size of the lakes. We can use this as a way to render
+<p>In our ”ne_10m_lakes” dataset, we have a <em>ScaleRank</em> attribute, which defines
+the significance of the lakes. We can use this as a way to render
 the lakes differently. In the LAYER object, we’ll add another CLASS object
 just before our current one:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">LAYER</span>
@@ -345,6 +345,7 @@ project website contains many resources to help you get started. Here’s a
 few resources to check out next:</p>
 <ul class="simple">
 <li><p>Read the <a class="reference external" href="https://mapserver.org/introduction.html#introduction">Introduction to MapServer</a>.</p></li>
+<li><p>Run through the <a class="reference external" href="https://geographika.github.io/getting-started-with-mapserver/">Getting Started with MapServer workshop</a>.</p></li>
 <li><p>Have a look at the <a class="reference external" href="https://www.mapserver.org/tutorial/index.html">MapServer Tutorial</a> which contains more Mapfile
 examples.</p></li>
 <li><p>Check the <a class="reference external" href="https://www.mapserver.org/ogc/index.html">OGC Support and Configuration</a> to learn more about OGC

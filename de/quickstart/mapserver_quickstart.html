@@ -65,7 +65,10 @@
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
 <section id="mapserver-quickstart">
 <h1>MapServer Quickstart<a class="headerlink" href="#mapserver-quickstart" title="Link zu dieser Überschrift">¶</a></h1>
-<p>MapServer ist eine serverbasierte <a class="reference external" href="https://opensource.org/">Open Source</a>-Anwendung, mit der Sie Kartenbilder und Vektordaten über das Internet mit Hilfe <a class="reference external" href="https://www.ogc.org/standards">OGC Standards</a> wie <a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a>, <a class="reference external" href="https://www.ogc.org/standards/wfs">Web Feature Service (WFS)</a> und <a class="reference external" href="https://www.ogc.org/standards/wcs">Web Coverage Service (WCS)</a> veröffentlichen können.</p>
+<p>MapServer is an <a class="reference external" href="https://opensource.org/">Open Source</a> server based
+application that allows you to publish geographic map images and vector data
+through the Internet using <a class="reference external" href="https://www.ogc.org/standards">OGC Standards</a>
+such as <a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a>, <a class="reference external" href="https://www.ogc.org/standards/wfs">Web Feature Service (WFS)</a> and <a class="reference external" href="https://www.ogc.org/standards/wcs">Web Coverage Service (WCS)</a>.</p>
 <div class="contents local topic" id="contents">
 <p class="topic-title">Inhalt</p>
 <ul class="simple">
@@ -92,13 +95,14 @@
 <h3>Erstellen meines erstes Mapfiles<a class="headerlink" href="#creating-my-first-mapfile" title="Link zu dieser Überschrift">¶</a></h3>
 <ol class="arabic">
 <li><p>Öffnen Sie einen beliebigen Texteditor (z.B. <span class="menuselection">Applications ‣ Zubehör ‣ FeatherPad</span>).</p></li>
-<li><p>Erstellen Sie eine Datei „mapserver_quickstart.map“ in Ihrem Home-Verzeichnis: <code class="file docutils literal notranslate"><span class="pre">/home/user/mapserver_quickstart.map</span></code></p>
+<li><p>Create the file „mapserver_quickstart.map“ at the following location:
+<code class="file docutils literal notranslate"><span class="pre">/home/user/mapserver_quickstart.map</span></code></p>
 <p>Fügen Sie folgenden Text ein:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">MAP</span>
   <span class="n">NAME</span> <span class="s2">&quot;MAPSERVER_QUICKSTART&quot;</span>
   <span class="n">EXTENT</span> <span class="o">-</span><span class="mi">137</span> <span class="mi">29</span> <span class="o">-</span><span class="mi">53</span> <span class="mi">88</span>
   <span class="n">UNITS</span> <span class="n">DD</span>
-  <span class="n">SHAPEPATH</span> <span class="s2">&quot;/home/user/data/natural_earth2/&quot;</span>
+  <span class="n">SHAPEPATH</span> <span class="s2">&quot;/usr/local/share/data/natural_earth2/&quot;</span>
   <span class="n">SIZE</span> <span class="mi">800</span> <span class="mi">600</span>
 
   <span class="n">IMAGETYPE</span> <span class="n">PNG24</span>
@@ -131,19 +135,20 @@
 <span class="n">END</span>
 </pre></div>
 </div>
+</li>
+</ol>
 <div class="admonition note">
 <p class="admonition-title">Bemerkung</p>
 <p>Das Beispiel verwendet den Natural-Earth-Datensatz, der sich bereits auf OSGeoLive unter <code class="file docutils literal notranslate"><span class="pre">/data/natural_earth2</span></code> befindet (Abkürzung zu <code class="file docutils literal notranslate"><span class="pre">/usr/local/share/data/natural_earth2</span></code>).</p>
 </div>
-</li>
-</ol>
 <p>Jedes Objekt in der Mapdatei beginnt mit seinem Namen (z.B. <strong>MAP</strong>) und endet mit einem <strong>END</strong>. Eine Mapdatei beginnt immer mit dem Objekt <strong>MAP</strong> und sollte eine Liste von <strong>LAYER</strong> Objekten enthalten, die MapServer lesen und zeichnen kann. In unserer Mapdatei haben wir nur einen Layer definiert.</p>
 <p>Werfen wir einen Blick auf einige der Objekte (und Eigenschaften), die in unserem Mapfile definiert sind:</p>
 <blockquote>
 <div><ul class="simple">
 <li><p>EXTENT : definiert die BoundingBox für diese Konfiguration.</p></li>
 <li><p>LAYER : definiert den Zugriff und die Anzeige-Eigenschaften für einen räumlichen Datensatz. Wir werden weitere Layer später hinzufügen.</p></li>
-<li><p>SHAPEPATH : definiert einen Basispfad für Datei-basierte Daten (z.B. Shapedateien oder TIFF-Dateien).</p></li>
+<li><p>SHAPEPATH: sets a base path for file-based data (e.g. shapefiles or GeoTIFF
+images).</p></li>
 </ul>
 </div></blockquote>
 <p>Wenn wir genauer auf das Objekt <strong>LAYER</strong> schauen, sehen wir, dass es eine Reihe von Objekten und Eigenschaften enthält:</p>
@@ -168,7 +173,7 @@
 <p><strong>Was werden wir lernen ?</strong> Sie werden lernen, wie mit Hilfe eines OGC WMS Request über MapServer ein Bild von Layern einer Mapdatei angefordert werden kann.</p>
 </div>
 <p>Öffnen Sie den Webbrowser mit folgender URL:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&amp;SERVICE=WMS&amp;REQUEST=Getmap&amp;VERSION=1.1.1&amp;LAYERS=Countries&amp;SRS=EPSG:4326&amp;BBOX=-137,29,-53,88&amp;FORMAT=PNG&amp;WIDTH=800&amp;HEIGHT=600
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&amp;SERVICE=WMS&amp;REQUEST=Getmap&amp;VERSION=1.1.1&amp;LAYERS=Countries&amp;STYLES=&amp;SRS=EPSG:4326&amp;BBOX=-137,29,-53,88&amp;FORMAT=PNG&amp;WIDTH=800&amp;HEIGHT=600
 </pre></div>
 </div>
 <p>Was bedeutet dieser Aufruf? Einfach gesagt, es ist ein Web Map Service <a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a> <strong>GetMap</strong>-Request, der MapServer sagt, dass er die angegebene Mapdatei verwenden soll, um bestimmte Layer als PNG Bild mit festgelegten Eigenschaften wie Bildgröße, Ausdehnung, Projektion, etc.* darzustellen. Alle Layer im „<em>&amp;LAYERS=…</em>“-Bereich, die <em>STATUS ON</em> oder <em>STATUS DEFAULT</em> in der Mapdatei haben, werden nun dargestellt. Das Ergebnis sieht wie folgt aus:</p>
@@ -184,7 +189,7 @@
 <h2><a class="toc-backref" href="#id3">Erzeugen eines Kartenbildes über die Kommandozeile</a><a class="headerlink" href="#render-a-map-image-with-mapserver-using-the-command-line" title="Link zu dieser Überschrift">¶</a></h2>
 <p>Obwohl MapServer für den Einsatz in Webanwendungen ausgerichtet ist, können Bilder auch über die Kommandozeile erzeugt werden. Dies kann beispielsweise bei sich wiederholenden Kartendarstellungen oder beim Debuggen hilfreich sein.</p>
 <p>Öffnen Sie ein Terminal (<span class="menuselection">Applications ‣ System Tools ‣ Terminal Emulator</span>) und geben Sie ein:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">shp2img</span> <span class="o">-</span><span class="n">m</span> <span class="n">mapserver_quickstart</span><span class="o">.</span><span class="n">map</span> <span class="o">-</span><span class="n">o</span> <span class="n">mymap</span><span class="o">.</span><span class="n">png</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">map2img</span> <span class="o">-</span><span class="n">m</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">user</span><span class="o">/</span><span class="n">mapserver_quickstart</span><span class="o">.</span><span class="n">map</span> <span class="o">-</span><span class="n">o</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">user</span><span class="o">/</span><span class="n">Documents</span><span class="o">/</span><span class="n">mymap</span><span class="o">.</span><span class="n">png</span>
 </pre></div>
 </div>
 <p>Wenn dieser Aufruf erfolgreich ausgeführt wird, finden Sie unter <a class="reference external" href="file:///home/user/mymap.png">file:///home/user/mymap.png</a> ein generiertes Kartenbild.</p>
@@ -211,7 +216,7 @@
 </div>
 <p>Nun haben wir 2 Layer-Definitionen in unserer Mapdatei. Der neue Layer hat die „STATUS ON“ Eigenschaft. Das heißt, solange wir ihn nicht explizit anfragen, wird er nicht dargestellt.</p>
 <p>Nehmen wir nun unseren vorherigen WMS <strong>GetMap</strong> Request und ergänzen den neuen Layer „Lakes“ zu dem erzeugten Bild. Dazu müssen wir einfach nur den neuen layer Namen zur „LAYERS“-Liste hinzufügen:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&amp;SERVICE=WMS&amp;REQUEST=Getmap&amp;VERSION=1.1.1&amp;LAYERS=Countries,Lakes&amp;SRS=EPSG:4326&amp;BBOX=-137,29,-53,88&amp;FORMAT=PNG&amp;WIDTH=800&amp;HEIGHT=600
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>http://localhost/cgi-bin/mapserv?map=/home/user/mapserver_quickstart.map&amp;SERVICE=WMS&amp;REQUEST=Getmap&amp;VERSION=1.1.1&amp;LAYERS=Countries,Lakes&amp;STYLES=&amp;SRS=EPSG:4326&amp;BBOX=-137,29,-53,88&amp;FORMAT=PNG&amp;WIDTH=800&amp;HEIGHT=600
 </pre></div>
 </div>
 <p>Das Bild, das nun vom MapServer dargestellt wird sieht aus wie das vorherige, nur mit dem zusätzlichen neuen lake-Layer:</p>
@@ -232,7 +237,10 @@ using a tool such as <a class="reference external" href="https://gdal.org/en/lat
 see the geometry and attribute definitions it contains. These attribute
 values can be used as a way to draw the elements inside a dataset
 differently using multiple CLASS objects.</p>
-<p>In unserem „ne_10m_lakes“-Datensatz haben wir ein Attribut <em>ScaleRank</em>, das mit der Größe der Seen zusammenhängt. Wir können dies nutzen, um die Seen unterschiedlich darzustellen. Im LAYER-Objekt fügen wir ein weiteres CLASS-Objekt kurz vor unserem aktuellen hinzu:</p>
+<p>In our „ne_10m_lakes“ dataset, we have a <em>ScaleRank</em> attribute, which defines
+the significance of the lakes. We can use this as a way to render
+the lakes differently. In the LAYER object, we’ll add another CLASS object
+just before our current one:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">LAYER</span>
   <span class="n">NAME</span> <span class="s2">&quot;Lakes&quot;</span>
   <span class="n">STATUS</span> <span class="n">ON</span>
@@ -286,6 +294,7 @@ differently using multiple CLASS objects.</p>
 <p>Dies ist ein einfaches Beispiel und Sie können noch viel, viel mehr machen. Die MapServer Projekt Webseite enthält zahlreiche Hilfen, um Ihnen einen einfachen Einstieg zu ermöglichen. Hier sind ein paar Tipps, wo sie als nächstes nachschauen können:</p>
 <ul class="simple">
 <li><p>Lesen Sie die <a class="reference external" href="https://mapserver.org/introduction.html#introduction">Introduction to MapServer</a>.</p></li>
+<li><p>Run through the <a class="reference external" href="https://geographika.github.io/getting-started-with-mapserver/">Getting Started with MapServer workshop</a>.</p></li>
 <li><p>Schauen Sie sich das <a class="reference external" href="https://www.mapserver.org/tutorial/index.html">MapServer Tutorial</a> an, es enthält weitere Mapdatei-Beispiele.</p></li>
 <li><p>Lesen Sie über <a class="reference external" href="https://www.mapserver.org/ogc/index.html">OGC Support and Configuration</a> um mehr über OGC Standards im MapServer (WMS, WFS, SLD, WFS Filter Encoding, WCS, SOS, etc.) zu lernen.</p></li>
 <li><p>Bereit, mit dem MapServer zu arbeiten? Dann tragen Sie sich in die <a class="reference external" href="https://www.mapserver.org/community/lists.html">Mailing Listen</a> der Community ein, um Ideen auszutauschen, Verbesserungen zu diskutieren und Fragen zu stellen.</p></li>
