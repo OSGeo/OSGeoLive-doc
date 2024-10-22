@@ -5,20 +5,21 @@
 #
 # Translators:
 # Anne Ylinen, 2019
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2019-07-18 21:56+0000\n"
-"Last-Translator: Anne Ylinen, 2019\n"
+"PO-Revision-Date: 2024-10-22 05:45+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
+"actinia_overview/sv/>\n"
 "Language: sv\n"
-"Language-Team: Swedish (https://app.transifex.com/osgeo/teams/66156/sv/)\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/overview/actinia_overview.rst:18
@@ -112,11 +113,11 @@ msgstr ""
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
@@ -125,4 +126,3 @@ msgstr ""
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr ""
-
