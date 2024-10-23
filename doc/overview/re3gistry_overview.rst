@@ -44,7 +44,7 @@ Details
 
 * **Licence:** EUPL
 
-* **Software Version:** |version-re3gistry|
+* **Software Version:** |version-re3gistry| (latest version installed in OSGEO; newer versions may be available on GitHub)
 
 * **Supported Platforms:** Windows, Linux
 
