@@ -12,7 +12,7 @@ Y | qgis | 3.34.9 | Y | Y | Desktop GIS | | | qgis | https://www.qgis.org/ | OSG
 Y | openjump | 2.2.1 | Y | Y | Desktop GIS | | | openjump_gis | http://www.openjump.org | | OpenJUMP GIS | Y
 Y | qfield | 3.3.11 | Y | Y | Desktop GIS | | | qfield | https://qfield.org/ | | QField | N
 Y | saga | 9.5.1 | Y | Y | Desktop GIS | | | saga-gis | https://saga-gis.sourceforge.io/en/index.html | | SAGA | Y
-Y | udig | 2.0.0RC1 | Y | Y | Desktop GIS | | | udig | http://udig.refractions.net/ | | uDig | N
+N | udig | 2.0.0RC1 | N | N | Desktop GIS | | | udig | http://udig.refractions.net/ | | uDig | N
 ###################### | | | | | | | | | | | |
 # Browser Facing GIS | | | | | | | | | | | |
 ###################### | | | | | | | | | | | |
