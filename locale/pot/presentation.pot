@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-19 05:04+0000\n"
+"POT-Creation-Date: 2024-10-29 17:18+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -180,7 +180,7 @@ msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:None
 #: ../../build/presentation/revealjs/presentation.rst:213
-#: ../../build/presentation/revealjs/presentation.rst:1259
+#: ../../build/presentation/revealjs/presentation.rst:1246
 msgid "OSGeo"
 msgstr ""
 
@@ -236,7 +236,7 @@ msgstr ""
 msgid "|grass_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1293
+#: ../../build/presentation/revealjs/presentation.rst:1280
 msgid "grass_logo"
 msgstr ""
 
@@ -244,7 +244,7 @@ msgstr ""
 msgid "|gvsig_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1295
+#: ../../build/presentation/revealjs/presentation.rst:1282
 msgid "gvsig_logo"
 msgstr ""
 
@@ -252,7 +252,7 @@ msgstr ""
 msgid "|qgis_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1297
+#: ../../build/presentation/revealjs/presentation.rst:1284
 msgid "qgis_logo"
 msgstr ""
 
@@ -260,7 +260,7 @@ msgstr ""
 msgid "|openjump_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1299
+#: ../../build/presentation/revealjs/presentation.rst:1286
 msgid "openjump_logo"
 msgstr ""
 
@@ -288,7 +288,7 @@ msgstr ""
 msgid "|qfield_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1301
+#: ../../build/presentation/revealjs/presentation.rst:1288
 msgid "qfield_logo"
 msgstr ""
 
@@ -296,16 +296,8 @@ msgstr ""
 msgid "|saga_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1303
+#: ../../build/presentation/revealjs/presentation.rst:1290
 msgid "saga_logo"
-msgstr ""
-
-#: ../../build/presentation/revealjs/presentation.rst:260
-msgid "|udig_logo|"
-msgstr ""
-
-#: ../../build/presentation/revealjs/presentation.rst:1305
-msgid "udig_logo"
 msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:261
@@ -318,892 +310,887 @@ msgstr ""
 msgid "SAGA"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:261
-#: ../../build/presentation/revealjs/presentation.rst:355
-msgid "uDig"
-msgstr ""
-
-#: ../../build/presentation/revealjs/presentation.rst:369
+#: ../../build/presentation/revealjs/presentation.rst:356
 msgid "Browser Facing GIS"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:374
+#: ../../build/presentation/revealjs/presentation.rst:361
 msgid "|geomoose_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1307
+#: ../../build/presentation/revealjs/presentation.rst:1292
 msgid "geomoose_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:374
+#: ../../build/presentation/revealjs/presentation.rst:361
 msgid "|geonode_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1309
+#: ../../build/presentation/revealjs/presentation.rst:1294
 msgid "geonode_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:374
+#: ../../build/presentation/revealjs/presentation.rst:361
 msgid "|mapbender_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1311
+#: ../../build/presentation/revealjs/presentation.rst:1296
 msgid "mapbender_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:374
+#: ../../build/presentation/revealjs/presentation.rst:361
 msgid "|openlayers_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1313
+#: ../../build/presentation/revealjs/presentation.rst:1298
 msgid "openlayers_logo"
 msgstr ""
 
+#: ../../build/presentation/revealjs/presentation.rst:362
 #: ../../build/presentation/revealjs/presentation.rst:375
-#: ../../build/presentation/revealjs/presentation.rst:388
 msgid "GeoMoose"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:375
-#: ../../build/presentation/revealjs/presentation.rst:400
+#: ../../build/presentation/revealjs/presentation.rst:362
+#: ../../build/presentation/revealjs/presentation.rst:387
 msgid "GeoNode"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:375
-#: ../../build/presentation/revealjs/presentation.rst:412
+#: ../../build/presentation/revealjs/presentation.rst:362
+#: ../../build/presentation/revealjs/presentation.rst:399
 msgid "Mapbender"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:375
-#: ../../build/presentation/revealjs/presentation.rst:426
+#: ../../build/presentation/revealjs/presentation.rst:362
+#: ../../build/presentation/revealjs/presentation.rst:413
 msgid "OpenLayers"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:376
+#: ../../build/presentation/revealjs/presentation.rst:363
 msgid "|geostyler_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1315
+#: ../../build/presentation/revealjs/presentation.rst:1300
 msgid "geostyler_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:376
+#: ../../build/presentation/revealjs/presentation.rst:363
 msgid "|cesium_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1317
+#: ../../build/presentation/revealjs/presentation.rst:1302
 msgid "cesium_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:376
+#: ../../build/presentation/revealjs/presentation.rst:363
 msgid "|geoext_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1319
+#: ../../build/presentation/revealjs/presentation.rst:1304
 msgid "geoext_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:376
+#: ../../build/presentation/revealjs/presentation.rst:363
 msgid "|leaflet_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1321
+#: ../../build/presentation/revealjs/presentation.rst:1306
 msgid "leaflet_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:377
-#: ../../build/presentation/revealjs/presentation.rst:438
+#: ../../build/presentation/revealjs/presentation.rst:364
+#: ../../build/presentation/revealjs/presentation.rst:425
 msgid "GeoStyler"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:377
-#: ../../build/presentation/revealjs/presentation.rst:450
+#: ../../build/presentation/revealjs/presentation.rst:364
+#: ../../build/presentation/revealjs/presentation.rst:437
 msgid "Cesium"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:377
-#: ../../build/presentation/revealjs/presentation.rst:463
+#: ../../build/presentation/revealjs/presentation.rst:364
+#: ../../build/presentation/revealjs/presentation.rst:450
 msgid "GeoExt"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:377
-#: ../../build/presentation/revealjs/presentation.rst:478
+#: ../../build/presentation/revealjs/presentation.rst:364
+#: ../../build/presentation/revealjs/presentation.rst:465
 msgid "Leaflet"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:493
+#: ../../build/presentation/revealjs/presentation.rst:480
 msgid "Web Services"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:498
+#: ../../build/presentation/revealjs/presentation.rst:485
 msgid "|deegree_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1323
+#: ../../build/presentation/revealjs/presentation.rst:1308
 msgid "deegree_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:498
+#: ../../build/presentation/revealjs/presentation.rst:485
 msgid "|geonetwork_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1325
+#: ../../build/presentation/revealjs/presentation.rst:1310
 msgid "geonetwork_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:498
+#: ../../build/presentation/revealjs/presentation.rst:485
 msgid "|geoserver_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1327
+#: ../../build/presentation/revealjs/presentation.rst:1312
 msgid "geoserver_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:498
+#: ../../build/presentation/revealjs/presentation.rst:485
 msgid "|mapcache_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1329
+#: ../../build/presentation/revealjs/presentation.rst:1314
 msgid "mapcache_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:499
-#: ../../build/presentation/revealjs/presentation.rst:520
+#: ../../build/presentation/revealjs/presentation.rst:486
+#: ../../build/presentation/revealjs/presentation.rst:507
 msgid "deegree"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:499
-#: ../../build/presentation/revealjs/presentation.rst:534
+#: ../../build/presentation/revealjs/presentation.rst:486
+#: ../../build/presentation/revealjs/presentation.rst:521
 msgid "GeoNetwork"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:499
-#: ../../build/presentation/revealjs/presentation.rst:547
+#: ../../build/presentation/revealjs/presentation.rst:486
+#: ../../build/presentation/revealjs/presentation.rst:534
 msgid "GeoServer"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:499
-#: ../../build/presentation/revealjs/presentation.rst:560
+#: ../../build/presentation/revealjs/presentation.rst:486
+#: ../../build/presentation/revealjs/presentation.rst:547
 msgid "MapCache"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:500
+#: ../../build/presentation/revealjs/presentation.rst:487
 msgid "|mapserver_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1331
+#: ../../build/presentation/revealjs/presentation.rst:1316
 msgid "mapserver_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:500
+#: ../../build/presentation/revealjs/presentation.rst:487
 msgid "|pycsw_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1333
+#: ../../build/presentation/revealjs/presentation.rst:1318
 msgid "pycsw_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:500
+#: ../../build/presentation/revealjs/presentation.rst:487
 msgid "|pywps_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1335
+#: ../../build/presentation/revealjs/presentation.rst:1320
 msgid "pywps_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:500
+#: ../../build/presentation/revealjs/presentation.rst:487
 msgid "|istsos_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1337
+#: ../../build/presentation/revealjs/presentation.rst:1322
 msgid "istsos_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:501
-#: ../../build/presentation/revealjs/presentation.rst:573
+#: ../../build/presentation/revealjs/presentation.rst:488
+#: ../../build/presentation/revealjs/presentation.rst:560
 msgid "MapServer"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:501
-#: ../../build/presentation/revealjs/presentation.rst:585
+#: ../../build/presentation/revealjs/presentation.rst:488
+#: ../../build/presentation/revealjs/presentation.rst:572
 msgid "pycsw"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:501
-#: ../../build/presentation/revealjs/presentation.rst:597
+#: ../../build/presentation/revealjs/presentation.rst:488
+#: ../../build/presentation/revealjs/presentation.rst:584
 msgid "PyWPS"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:501
-#: ../../build/presentation/revealjs/presentation.rst:607
+#: ../../build/presentation/revealjs/presentation.rst:488
+#: ../../build/presentation/revealjs/presentation.rst:594
 msgid "istSOS"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:502
+#: ../../build/presentation/revealjs/presentation.rst:489
 msgid "|mapproxy_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1339
+#: ../../build/presentation/revealjs/presentation.rst:1324
 msgid "mapproxy_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:502
+#: ../../build/presentation/revealjs/presentation.rst:489
 msgid "|pygeoapi_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1341
+#: ../../build/presentation/revealjs/presentation.rst:1326
 msgid "pygeoapi_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:502
+#: ../../build/presentation/revealjs/presentation.rst:489
 msgid "|zoo-project_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1343
+#: ../../build/presentation/revealjs/presentation.rst:1328
 msgid "zoo-project_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:502
+#: ../../build/presentation/revealjs/presentation.rst:489
 msgid "|actinia_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1345
+#: ../../build/presentation/revealjs/presentation.rst:1330
 msgid "actinia_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:503
-#: ../../build/presentation/revealjs/presentation.rst:619
+#: ../../build/presentation/revealjs/presentation.rst:490
+#: ../../build/presentation/revealjs/presentation.rst:606
 msgid "MapProxy"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:503
-#: ../../build/presentation/revealjs/presentation.rst:631
+#: ../../build/presentation/revealjs/presentation.rst:490
+#: ../../build/presentation/revealjs/presentation.rst:618
 msgid "pygeoapi"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:503
-#: ../../build/presentation/revealjs/presentation.rst:643
+#: ../../build/presentation/revealjs/presentation.rst:490
+#: ../../build/presentation/revealjs/presentation.rst:630
 msgid "Zoo Project"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:503
-#: ../../build/presentation/revealjs/presentation.rst:655
+#: ../../build/presentation/revealjs/presentation.rst:490
+#: ../../build/presentation/revealjs/presentation.rst:642
 msgid "actinia"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:504
+#: ../../build/presentation/revealjs/presentation.rst:491
 msgid "|eoxserver_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1347
+#: ../../build/presentation/revealjs/presentation.rst:1332
 msgid "eoxserver_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:504
+#: ../../build/presentation/revealjs/presentation.rst:491
 msgid "|ETF_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1349
+#: ../../build/presentation/revealjs/presentation.rst:1334
 msgid "ETF_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:504
+#: ../../build/presentation/revealjs/presentation.rst:491
 msgid "|qgis_mapserver_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1351
+#: ../../build/presentation/revealjs/presentation.rst:1336
 msgid "qgis_mapserver_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:504
+#: ../../build/presentation/revealjs/presentation.rst:491
 msgid "|re3gistry_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1353
+#: ../../build/presentation/revealjs/presentation.rst:1338
 msgid "re3gistry_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:505
-#: ../../build/presentation/revealjs/presentation.rst:670
+#: ../../build/presentation/revealjs/presentation.rst:492
+#: ../../build/presentation/revealjs/presentation.rst:657
 msgid "EOxServer"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:505
-#: ../../build/presentation/revealjs/presentation.rst:682
+#: ../../build/presentation/revealjs/presentation.rst:492
+#: ../../build/presentation/revealjs/presentation.rst:669
 msgid "ETF"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:505
-#: ../../build/presentation/revealjs/presentation.rst:698
+#: ../../build/presentation/revealjs/presentation.rst:492
+#: ../../build/presentation/revealjs/presentation.rst:685
 msgid "QGIS Server"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:505
-#: ../../build/presentation/revealjs/presentation.rst:710
+#: ../../build/presentation/revealjs/presentation.rst:492
+#: ../../build/presentation/revealjs/presentation.rst:697
 msgid "Re3gistry"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:506
+#: ../../build/presentation/revealjs/presentation.rst:493
 msgid "|t-rex_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1355
+#: ../../build/presentation/revealjs/presentation.rst:1340
 msgid "t-rex_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:506
+#: ../../build/presentation/revealjs/presentation.rst:493
 msgid "|52nSOS_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1357
+#: ../../build/presentation/revealjs/presentation.rst:1342
 msgid "52nSOS_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:507
-#: ../../build/presentation/revealjs/presentation.rst:724
+#: ../../build/presentation/revealjs/presentation.rst:494
+#: ../../build/presentation/revealjs/presentation.rst:711
 msgid "t-rex"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:507
-#: ../../build/presentation/revealjs/presentation.rst:736
+#: ../../build/presentation/revealjs/presentation.rst:494
+#: ../../build/presentation/revealjs/presentation.rst:723
 msgid "52 North SOS"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:749
+#: ../../build/presentation/revealjs/presentation.rst:736
 msgid "Data Stores"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:754
+#: ../../build/presentation/revealjs/presentation.rst:741
 msgid "|postgis_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1359
+#: ../../build/presentation/revealjs/presentation.rst:1344
 msgid "postgis_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:754
+#: ../../build/presentation/revealjs/presentation.rst:741
 msgid "|pgrouting_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1361
+#: ../../build/presentation/revealjs/presentation.rst:1346
 msgid "pgrouting_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:754
+#: ../../build/presentation/revealjs/presentation.rst:741
 msgid "|rasdaman_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1363
+#: ../../build/presentation/revealjs/presentation.rst:1348
 msgid "rasdaman_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:754
+#: ../../build/presentation/revealjs/presentation.rst:741
 msgid "|odc_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1365
+#: ../../build/presentation/revealjs/presentation.rst:1350
 msgid "odc_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:755
-#: ../../build/presentation/revealjs/presentation.rst:766
+#: ../../build/presentation/revealjs/presentation.rst:742
+#: ../../build/presentation/revealjs/presentation.rst:753
 msgid "PostGIS"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:755
-#: ../../build/presentation/revealjs/presentation.rst:781
+#: ../../build/presentation/revealjs/presentation.rst:742
+#: ../../build/presentation/revealjs/presentation.rst:768
 msgid "pgRouting"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:755
-#: ../../build/presentation/revealjs/presentation.rst:795
+#: ../../build/presentation/revealjs/presentation.rst:742
+#: ../../build/presentation/revealjs/presentation.rst:782
 msgid "Rasdaman"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:755
-#: ../../build/presentation/revealjs/presentation.rst:808
+#: ../../build/presentation/revealjs/presentation.rst:742
+#: ../../build/presentation/revealjs/presentation.rst:795
 msgid "Open Data Cube"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:756
+#: ../../build/presentation/revealjs/presentation.rst:743
 msgid "|spatialite_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1367
+#: ../../build/presentation/revealjs/presentation.rst:1352
 msgid "spatialite_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:757
-#: ../../build/presentation/revealjs/presentation.rst:820
+#: ../../build/presentation/revealjs/presentation.rst:744
+#: ../../build/presentation/revealjs/presentation.rst:807
 msgid "SpatiaLite"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:834
+#: ../../build/presentation/revealjs/presentation.rst:821
 msgid "Navigation and Maps"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:839
+#: ../../build/presentation/revealjs/presentation.rst:826
 msgid "|marble_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1369
+#: ../../build/presentation/revealjs/presentation.rst:1354
 msgid "marble_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:839
+#: ../../build/presentation/revealjs/presentation.rst:826
 msgid "|ideditor_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1371
+#: ../../build/presentation/revealjs/presentation.rst:1356
 msgid "ideditor_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:839
+#: ../../build/presentation/revealjs/presentation.rst:826
 msgid "|josm_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1373
+#: ../../build/presentation/revealjs/presentation.rst:1358
 msgid "josm_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:839
+#: ../../build/presentation/revealjs/presentation.rst:826
 msgid "|gpsprune_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1375
+#: ../../build/presentation/revealjs/presentation.rst:1360
 msgid "gpsprune_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:840
-#: ../../build/presentation/revealjs/presentation.rst:851
+#: ../../build/presentation/revealjs/presentation.rst:827
+#: ../../build/presentation/revealjs/presentation.rst:838
 msgid "Marble"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:840
-#: ../../build/presentation/revealjs/presentation.rst:863
+#: ../../build/presentation/revealjs/presentation.rst:827
+#: ../../build/presentation/revealjs/presentation.rst:850
 msgid "iD editor"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:840
-#: ../../build/presentation/revealjs/presentation.rst:876
+#: ../../build/presentation/revealjs/presentation.rst:827
+#: ../../build/presentation/revealjs/presentation.rst:863
 msgid "JOSM"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:840
-#: ../../build/presentation/revealjs/presentation.rst:888
+#: ../../build/presentation/revealjs/presentation.rst:827
+#: ../../build/presentation/revealjs/presentation.rst:875
 msgid "GpsPrune"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:841
+#: ../../build/presentation/revealjs/presentation.rst:828
 msgid "|opencpn_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1377
+#: ../../build/presentation/revealjs/presentation.rst:1362
 msgid "opencpn_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:841
+#: ../../build/presentation/revealjs/presentation.rst:828
 msgid "|osm_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1379
+#: ../../build/presentation/revealjs/presentation.rst:1364
 msgid "osm_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:842
-#: ../../build/presentation/revealjs/presentation.rst:900
+#: ../../build/presentation/revealjs/presentation.rst:829
+#: ../../build/presentation/revealjs/presentation.rst:887
 msgid "OpenCPN"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:842
-#: ../../build/presentation/revealjs/presentation.rst:913
-#: ../../build/presentation/revealjs/presentation.rst:1034
-#: ../../build/presentation/revealjs/presentation.rst:1081
+#: ../../build/presentation/revealjs/presentation.rst:829
+#: ../../build/presentation/revealjs/presentation.rst:900
+#: ../../build/presentation/revealjs/presentation.rst:1021
+#: ../../build/presentation/revealjs/presentation.rst:1068
 msgid "OpenStreetMap"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:924
+#: ../../build/presentation/revealjs/presentation.rst:911
 msgid "Spatial Tools"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:929
+#: ../../build/presentation/revealjs/presentation.rst:916
 msgid "|otb_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1381
+#: ../../build/presentation/revealjs/presentation.rst:1366
 msgid "otb_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:929
+#: ../../build/presentation/revealjs/presentation.rst:916
 msgid "|gmt_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1383
+#: ../../build/presentation/revealjs/presentation.rst:1368
 msgid "gmt_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:929
+#: ../../build/presentation/revealjs/presentation.rst:916
 msgid "|jupyter_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1385
+#: ../../build/presentation/revealjs/presentation.rst:1370
 msgid "jupyter_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:929
+#: ../../build/presentation/revealjs/presentation.rst:916
 msgid "|mapnik_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1387
+#: ../../build/presentation/revealjs/presentation.rst:1372
 msgid "mapnik_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:930
-#: ../../build/presentation/revealjs/presentation.rst:941
+#: ../../build/presentation/revealjs/presentation.rst:917
+#: ../../build/presentation/revealjs/presentation.rst:928
 msgid "OTB"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:930
-#: ../../build/presentation/revealjs/presentation.rst:953
+#: ../../build/presentation/revealjs/presentation.rst:917
+#: ../../build/presentation/revealjs/presentation.rst:940
 msgid "GMT"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:930
-#: ../../build/presentation/revealjs/presentation.rst:965
+#: ../../build/presentation/revealjs/presentation.rst:917
+#: ../../build/presentation/revealjs/presentation.rst:952
 msgid "Jupyter Notebook"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:930
-#: ../../build/presentation/revealjs/presentation.rst:977
+#: ../../build/presentation/revealjs/presentation.rst:917
+#: ../../build/presentation/revealjs/presentation.rst:964
 msgid "Mapnik"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:931
+#: ../../build/presentation/revealjs/presentation.rst:918
 msgid "|R_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1389
+#: ../../build/presentation/revealjs/presentation.rst:1374
 msgid "R_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:932
-#: ../../build/presentation/revealjs/presentation.rst:989
+#: ../../build/presentation/revealjs/presentation.rst:919
+#: ../../build/presentation/revealjs/presentation.rst:976
 msgid "R"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1004
+#: ../../build/presentation/revealjs/presentation.rst:991
 msgid "Domain Specific GIS"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1006
+#: ../../build/presentation/revealjs/presentation.rst:993
 msgid "|xygrib_logo| XyGrib"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1391
+#: ../../build/presentation/revealjs/presentation.rst:1376
 msgid "xygrib_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1015
+#: ../../build/presentation/revealjs/presentation.rst:1002
 msgid "XyGrib"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1028
+#: ../../build/presentation/revealjs/presentation.rst:1015
 msgid "Data"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1033
+#: ../../build/presentation/revealjs/presentation.rst:1020
 msgid "|naturalearth_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1393
+#: ../../build/presentation/revealjs/presentation.rst:1378
 msgid "naturalearth_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1033
+#: ../../build/presentation/revealjs/presentation.rst:1020
 msgid "|nc_dataset_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1395
+#: ../../build/presentation/revealjs/presentation.rst:1380
 msgid "nc_dataset_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1033
+#: ../../build/presentation/revealjs/presentation.rst:1020
 msgid "|netcdf_dataset_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1397
+#: ../../build/presentation/revealjs/presentation.rst:1382
 msgid "netcdf_dataset_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1033
+#: ../../build/presentation/revealjs/presentation.rst:1020
 msgid "|osm_dataset_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1399
+#: ../../build/presentation/revealjs/presentation.rst:1384
 msgid "osm_dataset_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1034
-#: ../../build/presentation/revealjs/presentation.rst:1044
+#: ../../build/presentation/revealjs/presentation.rst:1021
+#: ../../build/presentation/revealjs/presentation.rst:1031
 msgid "Natural Earth"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1034
-#: ../../build/presentation/revealjs/presentation.rst:1057
+#: ../../build/presentation/revealjs/presentation.rst:1021
+#: ../../build/presentation/revealjs/presentation.rst:1044
 msgid "North Carolina USA Educational dataset"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1034
-#: ../../build/presentation/revealjs/presentation.rst:1069
+#: ../../build/presentation/revealjs/presentation.rst:1021
+#: ../../build/presentation/revealjs/presentation.rst:1056
 msgid "NetCDF Data Set"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1095
+#: ../../build/presentation/revealjs/presentation.rst:1082
 msgid "Geospatial Libraries"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1100
+#: ../../build/presentation/revealjs/presentation.rst:1087
 msgid "|gdal_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1401
+#: ../../build/presentation/revealjs/presentation.rst:1386
 msgid "gdal_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1100
+#: ../../build/presentation/revealjs/presentation.rst:1087
 msgid "|geos_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1403
+#: ../../build/presentation/revealjs/presentation.rst:1388
 msgid "geos_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1100
+#: ../../build/presentation/revealjs/presentation.rst:1087
 msgid "|geotools_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1405
+#: ../../build/presentation/revealjs/presentation.rst:1390
 msgid "geotools_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1100
+#: ../../build/presentation/revealjs/presentation.rst:1087
 msgid "|proj_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1407
+#: ../../build/presentation/revealjs/presentation.rst:1392
 msgid "proj_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1101
-#: ../../build/presentation/revealjs/presentation.rst:1112
+#: ../../build/presentation/revealjs/presentation.rst:1088
+#: ../../build/presentation/revealjs/presentation.rst:1099
 msgid "GDAL/OGR"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1101
-#: ../../build/presentation/revealjs/presentation.rst:1124
+#: ../../build/presentation/revealjs/presentation.rst:1088
+#: ../../build/presentation/revealjs/presentation.rst:1111
 msgid "GEOS"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1101
-#: ../../build/presentation/revealjs/presentation.rst:1136
+#: ../../build/presentation/revealjs/presentation.rst:1088
+#: ../../build/presentation/revealjs/presentation.rst:1123
 msgid "GeoTools"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1101
-#: ../../build/presentation/revealjs/presentation.rst:1148
+#: ../../build/presentation/revealjs/presentation.rst:1088
+#: ../../build/presentation/revealjs/presentation.rst:1135
 msgid "PROJ"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1102
+#: ../../build/presentation/revealjs/presentation.rst:1089
 msgid "|jts_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1409
+#: ../../build/presentation/revealjs/presentation.rst:1394
 msgid "jts_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1103
-#: ../../build/presentation/revealjs/presentation.rst:1160
+#: ../../build/presentation/revealjs/presentation.rst:1090
+#: ../../build/presentation/revealjs/presentation.rst:1147
 msgid "JTS"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1171
+#: ../../build/presentation/revealjs/presentation.rst:1158
 msgid "Credits"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1173
+#: ../../build/presentation/revealjs/presentation.rst:1160
 msgid "Developers and project maintainers"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1174
+#: ../../build/presentation/revealjs/presentation.rst:1161
 msgid "Authors and reviewers of the documentation"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1175
+#: ../../build/presentation/revealjs/presentation.rst:1162
 msgid "Translators"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1176
+#: ../../build/presentation/revealjs/presentation.rst:1163
 msgid "https://live.osgeo.org/en/sponsors.html"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1186
+#: ../../build/presentation/revealjs/presentation.rst:1173
 msgid "Project Steering Committee"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1188
+#: ../../build/presentation/revealjs/presentation.rst:1175
 msgid "Angelos Tzotsos (Chair)"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1189
+#: ../../build/presentation/revealjs/presentation.rst:1176
 msgid "Brian M Hamlin"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1190
+#: ../../build/presentation/revealjs/presentation.rst:1177
 msgid "Alex Mandel"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1191
+#: ../../build/presentation/revealjs/presentation.rst:1178
 msgid "Johan Van de Wauw"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1192
+#: ../../build/presentation/revealjs/presentation.rst:1179
 msgid "Bas Couwenberg"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1193
+#: ../../build/presentation/revealjs/presentation.rst:1180
 msgid "Massimo De Stefano"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1194
+#: ../../build/presentation/revealjs/presentation.rst:1181
 msgid "Astrid Emde"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1195
+#: ../../build/presentation/revealjs/presentation.rst:1182
 msgid "Nicolas Roelandt"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1196
+#: ../../build/presentation/revealjs/presentation.rst:1183
 msgid "Vicky Vergara"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1197
+#: ../../build/presentation/revealjs/presentation.rst:1184
 msgid "Enock Seth Nyamador"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1207
+#: ../../build/presentation/revealjs/presentation.rst:1194
 msgid "Get involved"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1209
+#: ../../build/presentation/revealjs/presentation.rst:1196
 msgid "Become a member of our team"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1211
+#: ../../build/presentation/revealjs/presentation.rst:1198
 msgid "Join our `Mailing List <https://lists.osgeo.org/mailman/listinfo/osgeolive>`__ and introduce yourself"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1212
+#: ../../build/presentation/revealjs/presentation.rst:1199
 msgid "Take part in our weekly `IRC <https://wiki.osgeo.org/wiki/IRC>`__ meetings (channel #osgeolive on Libera.Chat"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1214
+#: ../../build/presentation/revealjs/presentation.rst:1201
 msgid "There are two ways you can help"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1216
+#: ../../build/presentation/revealjs/presentation.rst:1203
 msgid "Help improve OSGeoLive website and documentation"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1217
+#: ../../build/presentation/revealjs/presentation.rst:1204
 msgid "Submit new projects"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1220
+#: ../../build/presentation/revealjs/presentation.rst:1207
 msgid "Improving OSGeoLive Documentation"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1222
+#: ../../build/presentation/revealjs/presentation.rst:1209
 msgid "Proof-read, test and correct Quickstarts and Overviews"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1223
+#: ../../build/presentation/revealjs/presentation.rst:1210
 msgid "There is a good possibility to get to know cool software!"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1224
+#: ../../build/presentation/revealjs/presentation.rst:1211
 msgid "Translate and improve the documentation"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1225
+#: ../../build/presentation/revealjs/presentation.rst:1212
 msgid "Translation is made in `OSGeo Weblate <https://weblate.osgeo.org/projects/osgeolive/>`__"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1226
+#: ../../build/presentation/revealjs/presentation.rst:1213
 msgid "Local Chapters can easily get involved here"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1227
+#: ../../build/presentation/revealjs/presentation.rst:1214
 msgid "No technical experience necessary"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1230
-#: ../../build/presentation/revealjs/presentation.rst:1271
+#: ../../build/presentation/revealjs/presentation.rst:1217
+#: ../../build/presentation/revealjs/presentation.rst:1258
 msgid "Try out OSGeoLive"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1232
+#: ../../build/presentation/revealjs/presentation.rst:1219
 msgid "Cloud deployments"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1233
+#: ../../build/presentation/revealjs/presentation.rst:1220
 msgid "`remote.osgeo.org <https://remote.osgeo.org/>`__"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1249
+#: ../../build/presentation/revealjs/presentation.rst:1236
 msgid "Join us at the FOSS4G 2023 Community Sprint"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1251
+#: ../../build/presentation/revealjs/presentation.rst:1238
 msgid "01.-02. of July 2023"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1252
+#: ../../build/presentation/revealjs/presentation.rst:1239
 msgid "https://wiki.osgeo.org/wiki/FOSS4G_2023_Community_Sprint"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1255
+#: ../../build/presentation/revealjs/presentation.rst:1242
 msgid "Sponsors"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1259
+#: ../../build/presentation/revealjs/presentation.rst:1246
 msgid "UCD ICE"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1259
+#: ../../build/presentation/revealjs/presentation.rst:1246
 msgid "DebianGIS"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1260
+#: ../../build/presentation/revealjs/presentation.rst:1247
 msgid "|osgeo_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1285
+#: ../../build/presentation/revealjs/presentation.rst:1272
 msgid "osgeo_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1260
+#: ../../build/presentation/revealjs/presentation.rst:1247
 msgid "|ucdice_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1287
+#: ../../build/presentation/revealjs/presentation.rst:1274
 msgid "ucdice_logo"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1260
+#: ../../build/presentation/revealjs/presentation.rst:1247
 msgid "|debian_logo|"
 msgstr ""
 
-#: ../../build/presentation/revealjs/presentation.rst:1289
+#: ../../build/presentation/revealjs/presentation.rst:1276
 msgid "debian_logo"
 msgstr ""
