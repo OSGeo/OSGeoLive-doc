@@ -197,6 +197,7 @@ linkcheck_ignore = [
 
         # NewConnectionError looks like information is wrong
         r'http://udig.refractions.net',
+        r'https://sgx.geodatenzentrum.de',
 
         # link exists but does not accept robots and linkchecker is a robot
         # used in overview/mapserver_overview
@@ -244,6 +245,10 @@ linkcheck_ignore = [
         # Used in sponsors.rst
         'https://www.ntua.gr/en',
         'https://www.ice.ucdavis.edu/',
+
+        # redirect exists but link check fails
+        # SSL: CERTIFICATE_VERIFY_FAILED
+        r'https://ghsl.jrc.ec.europa.eu/ghs_pop.php',
 
         # Link to the presentation
         r'presentation.html',
