@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-06 09:15-0500\n"
-"PO-Revision-Date: 2024-05-18 20:46+0000\n"
-"Last-Translator: Yoichi Kayama <yoichi.kayama@gmail.com>\n"
+"PO-Revision-Date: 2024-11-02 13:09+0000\n"
+"Last-Translator: Ko Nagase <geosanak@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
 "mapbender_overview/ja/>\n"
 "Language: ja\n"
@@ -29,7 +29,7 @@ msgstr "Mapbender"
 
 #: ../../build/doc/overview/mapbender_overview.rst:17
 msgid "Geoportal Framework"
-msgstr "Geoportalフレームワーク"
+msgstr "ジオポータルフレームワーク"
 
 #: ../../build/doc/overview/mapbender_overview.rst:19
 msgid ""
@@ -37,9 +37,10 @@ msgid ""
 "a web based geoportal framework to publish, register, view, navigate, "
 "monitor and grant secure access to spatial data infrastructure services."
 msgstr ""
-"`Mapbender <https://mapbender.org/en>`_ "
-"は卒業したOSGeoプロジェクトです。これは、空間データインフラストラクチャサービスへの安全なアクセスを公開、登録、ビュー、ナビゲート、監視、および付与するためのWebベースのGeoportal"
-" フレームワークです。"
+"`Mapbender <https://mapbender.org/en>`_ は卒業したOSGeoプロジェクトです。これ"
+"は、空間データインフラストラクチャサービスへの安全なアクセスを公開、登録、ビ"
+"ュー、ナビゲート、監視、および付与するためのWebベースのジオポータルフレームワ"
+"ークです。"
 
 #: ../../build/doc/overview/mapbender_overview.rst:21
 msgid ""

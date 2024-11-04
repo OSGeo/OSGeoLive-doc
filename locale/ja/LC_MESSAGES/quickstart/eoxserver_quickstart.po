@@ -6,21 +6,21 @@
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # Ko Nagase <nagase@georepublic.co.jp>, 2022
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2022\n"
+"PO-Revision-Date: 2024-11-02 13:09+0000\n"
+"Last-Translator: Ko Nagase <geosanak@gmail.com>\n"
+"Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
+"eoxserver_quickstart/ja/>\n"
 "Language: ja\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)"
-"\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:19
@@ -64,13 +64,12 @@ msgid "Start EoxServer"
 msgstr "EoxServerを起動"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:41
-#, fuzzy
 msgid ""
 "Choose |menu_eoxserver|. This launches a browser showing the "
 "demonstration instance available at http://localhost/eoxserver/"
 msgstr ""
-"メニューから :menuselection:`Geospatial --> Web Services --> EOxServer` "
-"を選択します。これによりブラウザが起動し、 http://localhost/eoxserver/ で利用可能なデモインスタンスが表示されます"
+"メニューから |menu_eoxserver| を選択します。これによりブラウザが起動し、 "
+"http://localhost/eoxserver/ で利用可能なデモインスタンスが表示されます"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:-1
 msgid "EOxServer demonstration start"
@@ -275,4 +274,3 @@ msgstr "OSGeo プロジェクト"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo コミュニティ"
-

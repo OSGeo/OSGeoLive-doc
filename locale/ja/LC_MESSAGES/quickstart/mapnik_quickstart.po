@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2024-05-18 20:46+0000\n"
-"Last-Translator: Yoichi Kayama <yoichi.kayama@gmail.com>\n"
+"PO-Revision-Date: 2024-11-02 13:09+0000\n"
+"Last-Translator: Ko Nagase <geosanak@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
 "mapnik_quickstart/ja/>\n"
 "Language: ja\n"
@@ -90,14 +90,12 @@ msgid "The demo uses the world_population.xml from the Mapnik demo."
 msgstr "このデモでは、Mapnikデモのworld_population.xmlを使用します。"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:60
-#, fuzzy
 msgid ""
 "Click |menu_mapnik|. The server starts in a terminal window (which stays "
 "open and outputs basic debugging information)."
 msgstr ""
-":menuselection:`Geospatial --> Web Services --> MapProxy --> Start "
-"MapProxy` "
-"をクリックします。サーバはターミナルウィンドウで起動します(ターミナルウィンドウは開いたままになり、基本的なデバッグ情報を出力します)。"
+"|menu_mapnik| をクリックします。サーバはターミナルウィンドウで起動します(ター"
+"ミナルウィンドウは開いたままになり、基本的なデバッグ情報を出力します)。"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:62
 msgid "Open the MapProxy demo application http://0.0.0.0:8011/demo/"

@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2024-05-18 20:46+0000\n"
-"Last-Translator: Yoichi Kayama <yoichi.kayama@gmail.com>\n"
+"PO-Revision-Date: 2024-11-02 13:09+0000\n"
+"Last-Translator: Ko Nagase <geosanak@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
 "qgis_quickstart/ja/>\n"
 "Language: ja\n"
@@ -572,14 +572,13 @@ msgstr ""
 " からコンテンツをビューするのにQGISを使用してみます。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:303
-#, fuzzy
 msgid ""
 "Try publishing your QGIS map to the web using :doc:`QGIS Map Server "
 "<../overview/qgis_mapserver_overview>`. in the |menu_qgis-server|"
 msgstr ""
-":doc:`QGIS マップサーバ <../overview/qgis_mapserver_overview>` "
-"を使用して、QGISマップをWebに公開してみてください。:menuselection:`Geospatial --> Web Services`"
-" メニューにあります。"
+":doc:`QGIS Server <../overview/qgis_mapserver_overview>` "
+"を使用して、QGISマップをWebに公開してみてください。 |menu_qgis-server| "
+"メニューにあります。"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:309
 msgid "What next?"

@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-06 09:15-0500\n"
-"PO-Revision-Date: 2024-05-18 20:46+0000\n"
-"Last-Translator: Yoichi Kayama <yoichi.kayama@gmail.com>\n"
+"PO-Revision-Date: 2024-11-02 13:09+0000\n"
+"Last-Translator: Ko Nagase <geosanak@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
 "qgis_mapserver_overview/ja/>\n"
 "Language: ja\n"
@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:14
 msgid "QGIS Server"
-msgstr "QGIS サーバ"
+msgstr "QGIS Server"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:17
 msgid "Web Service"
@@ -40,14 +40,17 @@ msgid ""
 "exactly the same as in the desktop. QGIS Server is usually run as "
 "CGI/FastCGI module within the Apache Webserver."
 msgstr ""
-"QGIS サーバは、GIS (QGIS) デスクトップアプリケーションと同じライブラリを使用して、Webマップおよびフィーチャサービス(WMS & "
-"WFS)を提供します。QGIS のデスクトップで作成されたマップと印刷テンプレートは、QGIS "
-"プロジェクトファイルをサーバディレクトリにコピーするだけで、Webマップとしてパブリッシュできます。作成されるWebマップは、デスクトップとまったく同じように表示されます。QGIS"
-" サーバは通常、Apache Webserver 内で CGI/FastCGI モジュールとして実行されます。"
+"QGIS Serverは、GIS (QGIS) デスクトップアプリケーションと同じライブラリを使用"
+"して、Webマップおよびフィーチャサービス(WMS & WFS)を提供します。QGIS "
+"のデスクトップで作成されたマップと印刷テンプレートは、QGIS プロジェクトファイ"
+"ルをサーバディレクトリにコピーするだけで、Webマップとしてパブリッシュできます"
+"。作成されるWebマップは、デスクトップとまったく同じように表示されます。QGIS "
+"Serverは通常、Apache Webserver 内で CGI/FastCGI "
+"モジュールとして実行されます。"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rstNone
 msgid "qgis_mapserver screenshot"
-msgstr "QGIS サーバ スクリーンショット"
+msgstr "QGIS Server スクリーンショット"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:30
 msgid "Core Features"

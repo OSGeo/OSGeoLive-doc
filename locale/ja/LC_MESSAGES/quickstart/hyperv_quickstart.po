@@ -6,21 +6,21 @@
 # Translators:
 # Hiroshi Miura <miurahr@northside.tokyo>, 2021
 # Ko Nagase <nagase@georepublic.co.jp>, 2022
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2018-06-09 16:37+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2022\n"
+"PO-Revision-Date: 2024-11-02 13:09+0000\n"
+"Last-Translator: Ko Nagase <geosanak@gmail.com>\n"
+"Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
+"hyperv_quickstart/ja/>\n"
 "Language: ja\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)"
-"\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:8
@@ -60,7 +60,6 @@ msgid "System Requirements"
 msgstr "動作環境"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:21
-#, fuzzy
 msgid ""
 "Hyper-V requirements can be found `here <https://learn.microsoft.com/en-"
 "us/virtualization/hyper-v-on-windows/quick-start/enable-hyper-v>`_. This "
@@ -68,10 +67,12 @@ msgid ""
 "using the ``systeminfo`` command. In summary the host machine needs to "
 "have the following hardware requirements:"
 msgstr ""
-"Hyper-V の必要要件は `ここ <https://docs.microsoft.com/en-"
-"us/virtualization/hyper-v-on-windows/reference/hyper-v-requirements>`_ "
-"で確認できます。このリンク先には、あなたが利用しているPCが、Hyper-Vをサポートできるかをチェックするツールの ``systeminfo``"
-" コマンドの情報もあります。簡単にまとめると、ホストマシンは次のハードウエア要件を満す必要があります:"
+"Hyper-V の必要要件は `ここ <https://learn.microsoft.com/en-us/virtualization/"
+"hyper-v-on-windows/quick-start/enable-hyper-v>`_ "
+"で確認できます。このリンク先には、あなたが利用しているPCが、Hyper-"
+"Vをサポートできるかをチェックするツールの ``systeminfo`` コマンドの情報もあり"
+"ます。簡単にまとめると、ホストマシンは次のハードウエア要件を満す必要がありま"
+"す:"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:25
 msgid "RAM: 4 GB minimum"
@@ -134,6 +135,10 @@ msgid ""
 "virtual-machine-converter-3-0-is-now-available-for/ba-p/349874>`_ and "
 "install."
 msgstr ""
+"`Microsoft Virtual Machine Converter 3.0 <https://techcommunity.microsoft."
+"com/t5/system-center-blog/"
+"microsoft-virtual-machine-converter-3-0-is-now-available-for/ba-p/349874>`_ "
+"をダウンロードしてインストールします。"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:51
 msgid "Download the DS File Ops Kit and unzip."
@@ -284,4 +289,3 @@ msgstr "OSGeo プロジェクト"
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo コミュニティ"
-

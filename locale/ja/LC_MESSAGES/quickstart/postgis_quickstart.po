@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2024-05-18 20:46+0000\n"
-"Last-Translator: Yoichi Kayama <yoichi.kayama@gmail.com>\n"
+"PO-Revision-Date: 2024-11-02 13:09+0000\n"
+"Last-Translator: Ko Nagase <geosanak@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
 "postgis_quickstart/ja/>\n"
 "Language: ja\n"
@@ -877,7 +877,7 @@ msgstr "WFSへのFDWの作成"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:705
 msgid "Start Geoserver via |menu_geoserver-Start|."
-msgstr ""
+msgstr "|menu_geoserver-Start| からGeoServerを起動します。"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:707
 msgid "Open GeoServer http://localhost:8082/geoserver/web/"

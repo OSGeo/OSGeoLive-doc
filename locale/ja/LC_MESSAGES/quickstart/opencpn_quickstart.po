@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2024-05-18 20:46+0000\n"
-"Last-Translator: Yoichi Kayama <yoichi.kayama@gmail.com>\n"
+"PO-Revision-Date: 2024-11-02 13:09+0000\n"
+"Last-Translator: Ko Nagase <geosanak@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
 "opencpn_quickstart/ja/>\n"
 "Language: ja\n"
@@ -54,7 +54,7 @@ msgstr "LiveDVDでOpenCPNを実行する前に、サンプルデータを有効�
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:35
 msgid "From the Start menu, select |menu_opencpn|."
-msgstr ""
+msgstr "Startメニューから、 |menu_opencpn| を選択します。"
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:36
 msgid "Click :guilabel:`I agree` to the NOAA Nautical Chart Data Agreement."

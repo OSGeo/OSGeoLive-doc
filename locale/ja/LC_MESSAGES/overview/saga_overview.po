@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2024-05-18 20:46+0000\n"
-"Last-Translator: Yoichi Kayama <yoichi.kayama@gmail.com>\n"
+"PO-Revision-Date: 2024-11-02 13:09+0000\n"
+"Last-Translator: Ko Nagase <geosanak@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
 "saga_overview/ja/>\n"
 "Language: ja\n"
@@ -126,9 +126,8 @@ msgid "Details"
 msgstr "詳細"
 
 #: ../../build/doc/overview/saga_overview.rst:63
-#, fuzzy
 msgid "**Website:** https://saga-gis.sourceforge.io/en/index.html"
-msgstr "**Webサイト:** http://www.saga-gis.org"
+msgstr "**Webサイト:** https://saga-gis.sourceforge.io/en/index.html"
 
 #: ../../build/doc/overview/saga_overview.rst:65
 msgid "**Licence:** LGPL v2.1 (api); GPLv2 (GUI and modules)"
@@ -147,9 +146,8 @@ msgid "**API Interfaces:** C++, Python, R"
 msgstr "**API インタフェース:** C++, Python, R"
 
 #: ../../build/doc/overview/saga_overview.rst:73
-#, fuzzy
 msgid "**Support:** https://sourceforge.net/p/saga-gis/mailman/"
-msgstr "**サポート:** http://www.saga-gis.org"
+msgstr "**サポート:** https://sourceforge.net/p/saga-gis/mailman/"
 
 #: ../../build/doc/overview/saga_overview.rst:79
 msgid "Quickstart"
