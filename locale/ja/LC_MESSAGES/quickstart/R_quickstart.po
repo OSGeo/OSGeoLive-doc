@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2024-05-18 20:46+0000\n"
-"Last-Translator: Yoichi Kayama <yoichi.kayama@gmail.com>\n"
+"PO-Revision-Date: 2024-11-02 13:09+0000\n"
+"Last-Translator: Ko Nagase <geosanak@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
 "r_quickstart/ja/>\n"
 "Language: ja\n"
@@ -78,11 +78,9 @@ msgstr ""
 " CTRL-C を入力することで復帰することができます。"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:43
-#, fuzzy
 msgid "Choose |menu_R Statistics|. A terminal window opens running R."
-msgstr ""
-":menuselection:`Geospatial --> Spatial Tools --> R Statistics` "
-"を選択します。ターミナルウィンドウが開き、R が実行されます。"
+msgstr "|menu_R Statistics| を選択します。ターミナルウィンドウが開き、R "
+"が実行されます。"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:45
 msgid "You can start with simple arithmetic."

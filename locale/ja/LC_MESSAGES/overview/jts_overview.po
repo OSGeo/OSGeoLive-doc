@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-06 09:15-0500\n"
-"PO-Revision-Date: 2024-05-18 20:46+0000\n"
-"Last-Translator: Yoichi Kayama <yoichi.kayama@gmail.com>\n"
+"PO-Revision-Date: 2024-11-02 13:09+0000\n"
+"Last-Translator: Ko Nagase <geosanak@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
 "jts_overview/ja/>\n"
 "Language: ja\n"
@@ -124,7 +124,7 @@ msgstr "Java Swing/AWT 書き込み"
 
 #: ../../build/doc/overview/jts_overview.rst:56
 msgid "Implemented Standards"
-msgstr "準拠している標準規格"
+msgstr "実装されている標準規格"
 
 #: ../../build/doc/overview/jts_overview.rst:58
 msgid "OGC Simple Features for SQL (SFSQL)"

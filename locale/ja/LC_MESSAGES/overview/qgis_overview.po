@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-06 09:15-0500\n"
-"PO-Revision-Date: 2024-05-18 20:46+0000\n"
-"Last-Translator: Yoichi Kayama <yoichi.kayama@gmail.com>\n"
+"PO-Revision-Date: 2024-11-02 13:09+0000\n"
+"Last-Translator: Ko Nagase <geosanak@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
 "qgis_overview/ja/>\n"
 "Language: ja\n"
@@ -58,15 +58,15 @@ msgstr "主要機能"
 
 #: ../../build/doc/overview/qgis_overview.rst:38
 msgid "Friendly graphical user interface:"
-msgstr "使いやすいグラフィカルなユーザインタフェース:"
+msgstr "使いやすいグラフィカル・ユーザー・インターフェース:"
 
 #: ../../build/doc/overview/qgis_overview.rst:40
 msgid "identify/select features"
-msgstr "地物の選択と特定"
+msgstr "地物情報の表示/地物選択"
 
 #: ../../build/doc/overview/qgis_overview.rst:41
 msgid "edit/view/search attributes"
-msgstr "属性の編集、表示、検索"
+msgstr "属性の編集/表示/検索"
 
 #: ../../build/doc/overview/qgis_overview.rst:42
 msgid "on the fly projection"
@@ -94,7 +94,7 @@ msgstr "などなど ..."
 
 #: ../../build/doc/overview/qgis_overview.rst:49
 msgid "Easy Viewing of many Vector and Raster Formats"
-msgstr "様々なベクタとラスタフォーマットの容易な表示"
+msgstr "多くのベクターおよびラスター形式の画像を簡単に表示"
 
 #: ../../build/doc/overview/qgis_overview.rst:51
 msgid ""
@@ -107,13 +107,14 @@ msgstr ""
 msgid ""
 "most vector formats: including ESRI shapefiles, MapInfo, SDTS and GML, "
 "OpenStreetMap vectors"
-msgstr "ほとんどのベクタフォーマット: ESRI シェープファイル、MapInfo、SDTS、GML、OpenStreetMap ベクタデータ"
+msgstr "ほとんどのベクター形式: "
+"ESRIシェープファイル、MapInfo、SDTSおよびGML、OpenStreetMapベクターを含む"
 
 #: ../../build/doc/overview/qgis_overview.rst:53
 msgid ""
 "raster formats such as digital elevation models, aerial photography or "
 "landsat imagery"
-msgstr "デジタル標高モデル (DEM)、空中写真、ランドサット画像などのラスタフォーマット"
+msgstr "デジタル標高モデル、航空写真、ランドサット画像などのラスター形式"
 
 #: ../../build/doc/overview/qgis_overview.rst:54
 msgid "GRASS locations and mapsets"

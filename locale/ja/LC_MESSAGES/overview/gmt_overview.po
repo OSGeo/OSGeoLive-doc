@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2024-05-18 20:46+0000\n"
-"Last-Translator: Yoichi Kayama <yoichi.kayama@gmail.com>\n"
+"PO-Revision-Date: 2024-11-02 13:09+0000\n"
+"Last-Translator: Ko Nagase <geosanak@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
 "gmt_overview/ja/>\n"
 "Language: ja\n"
@@ -75,7 +75,7 @@ msgstr "詳細"
 
 #: ../../build/doc/overview/gmt_overview.rst:46
 msgid "**Website:** https://www.generic-mapping-tools.org"
-msgstr ""
+msgstr "**Webサイト:** https://www.generic-mapping-tools.org"
 
 #: ../../build/doc/overview/gmt_overview.rst:48
 msgid "**Licence:** GNU General Public License (GPL) version 2"
@@ -95,7 +95,7 @@ msgstr "**API インタフェース:** コマンドライン"
 
 #: ../../build/doc/overview/gmt_overview.rst:56
 msgid "**Support:** https://forum.generic-mapping-tools.org/"
-msgstr ""
+msgstr "**サポート:** https://forum.generic-mapping-tools.org/"
 
 #: ../../build/doc/overview/gmt_overview.rst:59
 msgid ""

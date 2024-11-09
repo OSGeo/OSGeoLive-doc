@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2024-05-18 20:46+0000\n"
-"Last-Translator: Yoichi Kayama <yoichi.kayama@gmail.com>\n"
+"PO-Revision-Date: 2024-11-02 13:09+0000\n"
+"Last-Translator: Ko Nagase <geosanak@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
 "geoext_overview/ja/>\n"
 "Language: ja\n"
@@ -119,22 +119,19 @@ msgstr "その他"
 
 #: ../../build/doc/overview/geoext_overview.rst:64
 msgid "Integration with"
-msgstr ""
+msgstr "以下との統合"
 
 #: ../../build/doc/overview/geoext_overview.rst:66
 msgid "`MapFish Print <http://mapfish.github.io/mapfish-print-doc/>`_"
-msgstr ""
+msgstr "`MapFish Print <http://mapfish.github.io/mapfish-print-doc/>`_"
 
 #: ../../build/doc/overview/geoext_overview.rst:67
-#, fuzzy
 msgid ""
 "and `GeoServer Printing Module "
 "<https://docs.geoserver.org/latest/en/user/extensions/printing/index.html>`_"
 msgstr ""
-"`MapFish Print <http://mapfish.github.io/mapfish-print-doc/>`_ および "
-"`GeoServer Printing Module "
-"<https://docs.geoserver.org/latest/en/user/extensions/printing/index.html>`_"
-" との統合"
+"および `GeoServer Printing Module <https://docs.geoserver.org/latest/en/user/"
+"extensions/printing/index.html>`_"
 
 #: ../../build/doc/overview/geoext_overview.rst:69
 msgid "Layer Serializers (WMS, WMTS, XYZ)"
@@ -145,23 +142,24 @@ msgid "Details"
 msgstr "詳細"
 
 #: ../../build/doc/overview/geoext_overview.rst:74
-#, fuzzy
 msgid "**Website:** https://geoext.github.io/geoext"
-msgstr "**Webサイト:** https://geoext.github.io/geoext3"
+msgstr "**Webサイト:** https://geoext.github.io/geoext"
 
 #: ../../build/doc/overview/geoext_overview.rst:76
 msgid "**License:** GPLv3 or BSD License dependent on ExtJS license"
-msgstr ""
+msgstr "**ライセンス:** ExtJSライセンスに従い、GPLv3 もしくは BSD License"
 
 #: ../../build/doc/overview/geoext_overview.rst:78
 msgid "see `License <https://github.com/geoext/geoext/blob/master/LICENSE>`_"
-msgstr ""
+msgstr "`ライセンス <https://github.com/geoext/geoext/blob/master/LICENSE>`_"
 
 #: ../../build/doc/overview/geoext_overview.rst:79
 msgid ""
 "and `License FAQ <https://github.com/geoext/geoext/blob/master/LICENSE-"
 "FAQ.md>`_"
 msgstr ""
+"および `ライセンス FAQ <https://github.com/geoext/geoext/blob/master/LICENSE-"
+"FAQ.md>`_ を参照"
 
 #: ../../build/doc/overview/geoext_overview.rst:81
 msgid "**Software Version:** |version-geoext|"
@@ -173,15 +171,15 @@ msgstr "**API インタフェース:** JavaScript"
 
 #: ../../build/doc/overview/geoext_overview.rst:85
 msgid "**Support:** Mailing lists"
-msgstr ""
+msgstr "**サポート:** メーリングリスト"
 
 #: ../../build/doc/overview/geoext_overview.rst:87
 msgid "https://www.geoext.org/cgi-bin/mailman/listinfo/users"
-msgstr ""
+msgstr "https://www.geoext.org/cgi-bin/mailman/listinfo/users"
 
 #: ../../build/doc/overview/geoext_overview.rst:88
 msgid "and https://stackoverflow.com/questions/tagged/geoext"
-msgstr ""
+msgstr "および https://stackoverflow.com/questions/tagged/geoext"
 
 #: ../../build/doc/overview/geoext_overview.rst:94
 msgid "Quickstart"

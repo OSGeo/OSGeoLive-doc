@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2024-05-18 20:46+0000\n"
-"Last-Translator: Yoichi Kayama <yoichi.kayama@gmail.com>\n"
+"PO-Revision-Date: 2024-11-02 13:09+0000\n"
+"Last-Translator: Ko Nagase <geosanak@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
 "mapproxy_quickstart/ja/>\n"
 "Language: ja\n"
@@ -63,11 +63,9 @@ msgid ""
 msgstr "MapProxyには柔軟な配置オプションがあり、例えばApacheに統合することができます。さらに、スタンドアロンサービスとしてMapProxyを開始することもできます。"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:41
-#, fuzzy
 msgid "To start MapProxy as a standalone service click on |menu_mapproxy-Start|."
-msgstr ""
-"MapProxy をスタンドアロンサービスとして起動するには、 :menuselection:`Geospatial --> Web "
-"Services --> MapProxy --> Start MapProxy` をクリックします。"
+msgstr "MapProxy をスタンドアロンサービスとして起動するには、 |menu_mapproxy-Start| "
+"をクリックします。"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:43
 msgid "Open Firefox and navigate to `<http://localhost:8011/demo>`_"

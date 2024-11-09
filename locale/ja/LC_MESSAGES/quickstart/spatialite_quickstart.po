@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2024-05-18 20:46+0000\n"
-"Last-Translator: Yoichi Kayama <yoichi.kayama@gmail.com>\n"
+"PO-Revision-Date: 2024-11-02 13:09+0000\n"
+"Last-Translator: Ko Nagase <geosanak@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
 "spatialite_quickstart/ja/>\n"
 "Language: ja\n"
@@ -68,11 +68,8 @@ msgstr ""
 "guiは、spatialiteデータベースを表示および維持するためのビジュアルインタフェースを提供します。ポイント・アンド・クリック機能を使用すると、テーブルとデータコンテンツの構造を簡単に確認できます。その多くは一般的なSQLクエリーを構築したり、独自のSQLクエリーを作成したりします。"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:46
-#, fuzzy
 msgid "Open the Spatialite GUI by selecting |menu_spatialite-gui|"
-msgstr ""
-":menuselection:`Geospatial->Databases->Spatialite GUI` を選択して、Spatialite "
-"GUIを開きます。"
+msgstr "|menu_spatialite-gui| を選択して、Spatialite GUIを開きます。"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:50
 msgid "Select :menuselection:`File->Connecting an existing SQLite DB`"
