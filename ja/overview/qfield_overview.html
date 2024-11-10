@@ -19,7 +19,7 @@
     <link rel="index" title="索引" href="../genindex.html" />
     <link rel="search" title="検索" href="../search.html" />
     <link rel="copyright" title="著作権" href="../copyright.html" />
-    <link rel="next" title="QField Quickstart" href="../quickstart/qfield_quickstart.html" />
+    <link rel="next" title="QField クイックスタート" href="../quickstart/qfield_quickstart.html" />
     <link rel="prev" title="OpenJUMP GISクイックスタート" href="../quickstart/openjump_quickstart.html" />
 	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
 
@@ -65,59 +65,54 @@
 <section id="qfield">
 <h1>QField<a class="headerlink" href="#qfield" title="このヘッドラインへのパーマリンク">¶</a></h1>
 <section id="mobile-gis">
-<h2>Mobile GIS<a class="headerlink" href="#mobile-gis" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p><a class="reference external" href="https://qfield.org">QField for QGIS</a> is a simplified touch optimized interface for QGIS in the field.
-It includes professional tools for data acquisition with surveying grade positioning
-device integration as well as support for a wide variety of advanced attribute
-capturing and mobile mapping functionalities.
-QField is available for Android, iOS, Linux, MacOS and Windows.</p>
-<p>It is perfectly integrated with <a class="reference internal" href="qgis_overview.html"><span class="doc">QGIS</span></a> and the development of the two projects
-collaborate closely.</p>
-<a class="reference internal image-reference" href="../../_images/qfield_screenshot.png"><img alt="qfield screenshot" class="align-right" src="../../_images/qfield_screenshot.png" style="width: 500px;" /></a>
+<h2>モバイルGIS<a class="headerlink" href="#mobile-gis" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p><a href="#id1"><span class="problematic" id="id2">`</span></a>QField for QGIS &lt;<a class="reference external" href="https://qfield.org">https://qfield.org</a>&gt;`_は、フィールドでの使用に最適化されたシンプルなタッチ操作のインターフェースです。測量用機器との統合によるデータ取得用のプロフェッショナルツールが含まれており、さまざまな高度な属性取得やモバイルマッピング機能にも対応しています。QFieldは、Android、iOS、Linux、MacOS、Windowsで利用可能です。</p>
+<p><a class="reference internal" href="qgis_overview.html"><span class="doc">QGIS</span></a> と完全に統合されており、2つのプロジェクトの開発は密接に連携しています。</p>
+<a class="reference internal image-reference" href="../../_images/qfield_screenshot.png"><img alt="QFieldのスクリーンショット" class="align-right" src="../../_images/qfield_screenshot.png" style="width: 500px;" /></a>
 <section id="core-features">
-<h3>Core Features<a class="headerlink" href="#core-features" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<h3>主要機能<a class="headerlink" href="#core-features" title="このヘッドラインへのパーマリンク">¶</a></h3>
 <ul class="simple">
 <li><dl class="simple">
-<dt>Friendly graphical user interface:</dt><dd><ul>
-<li><p>identify/select features</p></li>
-<li><p>edit/view/search attributes</p></li>
-<li><p>on the fly reprojection</p></li>
-<li><p>beautiful cartography</p></li>
-<li><p>photo and multimedia capturing</p></li>
-<li><p>live feedback on data quality via constraints</p></li>
+<dt>使いやすいグラフィカル・ユーザー・インターフェース:</dt><dd><ul>
+<li><p>地物情報の表示/地物選択</p></li>
+<li><p>属性の編集/表示/検索</p></li>
+<li><p>オンザフライ投影変換</p></li>
+<li><p>美しい地図製作</p></li>
+<li><p>写真とマルチメディアのキャプチャ</p></li>
+<li><p>制約によるデータ品質のライブフィードバック</p></li>
 </ul>
 </dd>
 </dl>
 </li>
 <li><dl class="simple">
-<dt>Easy Viewing of many Vector and Raster Formats</dt><dd><ul>
-<li><p>most vector formats: including ESRI shapefiles, MapInfo, SDTS and GML, OpenStreetMap vectors</p></li>
-<li><p>raster formats such as digital elevation models, aerial photography or landsat imagery</p></li>
-<li><p>online web services: WMS, WFS and OGC API</p></li>
+<dt>多くのベクターおよびラスター形式の画像を簡単に表示</dt><dd><ul>
+<li><p>ほとんどのベクター形式: ESRIシェープファイル、MapInfo、SDTSおよびGML、OpenStreetMapベクターを含む</p></li>
+<li><p>デジタル標高モデル、航空写真、ランドサット画像などのラスター形式</p></li>
+<li><p>オンラインWebサービス：WMS、WFS、OGC API</p></li>
 </ul>
 </dd>
 </dl>
 </li>
 <li><dl class="simple">
-<dt>Exporting data</dt><dd><ul>
-<li><p>printing to pdf</p></li>
+<dt>データのエクスポート</dt><dd><ul>
+<li><p>PDFへの印刷</p></li>
 </ul>
 </dd>
 </dl>
 </li>
 <li><dl class="simple">
-<dt>Sensor integration</dt><dd><ul>
-<li><p>internal positioning sensors (GNSS)</p></li>
-<li><p>external positioning sensors via NMEA (bluetooth, UDP, TPC)</p></li>
-<li><p>NTRIP correction (RTK) can be enabled dependening on the device</p></li>
-<li><p>external sensor integration (radiation, gas, ...)</p></li>
+<dt>センサーとの統合</dt><dd><ul>
+<li><p>内部測位センサー（GNSS）</p></li>
+<li><p>NMEA経由の外部測位センサー（Bluetooth、UDP、TPC）</p></li>
+<li><p>NTRIP補正（RTK）は、デバイスに応じて有効にすることが可能</p></li>
+<li><p>外部センサーとの統合（放射線、ガスなど）</p></li>
 </ul>
 </dd>
 </dl>
 </li>
 <li><dl class="simple">
-<dt>Synchronization</dt><dd><ul>
-<li><p>Data synchronization via <cite>QFieldCloud &lt;https://qfield.cloud&gt;</cite></p></li>
+<dt>同期</dt><dd><ul>
+<li><p><cite>QFieldCloud &lt;https://qfield.cloud&gt;</cite> 経由でのデータ同期</p></li>
 </ul>
 </dd>
 </dl>
@@ -125,28 +120,28 @@ collaborate closely.</p>
 </ul>
 </section>
 <section id="implemented-standards">
-<h3>Implemented Standards<a class="headerlink" href="#implemented-standards" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<h3>実装されている標準規格<a class="headerlink" href="#implemented-standards" title="このヘッドラインへのパーマリンク">¶</a></h3>
 <ul class="simple">
-<li><p>OGC standards compliant (WMS, WFS, ... )</p></li>
+<li><p>OGC標準に準拠 (WMS、WFS など)</p></li>
 </ul>
 </section>
 <section id="details">
-<h3>Details<a class="headerlink" href="#details" title="このヘッドラインへのパーマリンク">¶</a></h3>
-<p><strong>Website:</strong> <a class="reference external" href="https://qfield.org/">https://qfield.org/</a></p>
-<p><strong>Licence:</strong> GNU General Public License (GPL) version 2</p>
-<p><strong>Software Version:</strong> 3.3.11</p>
-<p><strong>Supported Platforms:</strong> Windows, Linux, Mac, Unix, iOS, Android</p>
-<p><strong>Community Support:</strong> <a class="reference external" href="https://docs.qfield.org/get-started/support/">https://docs.qfield.org/get-started/support/</a></p>
-<p><strong>Commercial Support:</strong> <a class="reference external" href="https://docs.qfield.org/get-started/support/">https://docs.qfield.org/get-started/support/</a></p>
+<h3>詳細<a class="headerlink" href="#details" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p><strong>Webサイト:</strong> <a class="reference external" href="https://qfield.org/">https://qfield.org/</a></p>
+<p><strong>ライセンス:</strong> GNU General Public License (GPL) version 2</p>
+<p><strong>ソフトウェアバージョン:</strong> 3.3.11</p>
+<p><strong>対応プラットフォーム:</strong> Windows、Linux、Mac、Unix、iOS、Android</p>
+<p><strong>コミュニティサポート:</strong> <a class="reference external" href="https://docs.qfield.org/get-started/support/">https://docs.qfield.org/get-started/support/</a></p>
+<p><strong>商用サポート:</strong> <a class="reference external" href="https://docs.qfield.org/get-started/support/">https://docs.qfield.org/get-started/support/</a></p>
 <div class="admonition note">
 <p class="admonition-title">注釈</p>
-<p>This project is only included on the OSGeoLive virtual machine disk (VMDK)</p>
+<p>このプロジェクトはOSGeoLive仮想マシンディスク(VMDK)にのみ含まれています</p>
 </div>
 </section>
 <section id="quickstart">
-<h3>Quickstart<a class="headerlink" href="#quickstart" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<h3>クイックスタート<a class="headerlink" href="#quickstart" title="このヘッドラインへのパーマリンク">¶</a></h3>
 <ul class="simple">
-<li><p><a class="reference internal" href="../quickstart/qfield_quickstart.html"><span class="doc">Quickstart documentation</span></a></p></li>
+<li><p><a class="reference internal" href="../quickstart/qfield_quickstart.html"><span class="doc">クイックスタート文書</span></a></p></li>
 </ul>
 </section>
 </section>

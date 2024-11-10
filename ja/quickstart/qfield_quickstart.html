@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>QField Quickstart &#8212; OSGeoLive 17.0 Documentation</title>
+    <title>QField クイックスタート &#8212; OSGeoLive 17.0 Documentation</title>
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
     <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
@@ -64,132 +64,124 @@
   <a class="reference external image-reference" href="https://qfield.org/"><img alt="../../_images/logo_qfield.png" class="align-right" src="../../_images/logo_qfield.png" /></a>
 <div class="admonition note">
 <p class="admonition-title">注釈</p>
-<p>This project is only included on the OSGeoLive virtual machine disk (VMDK)</p>
+<p>このプロジェクトはOSGeoLive仮想マシンディスク(VMDK)にのみ含まれています</p>
 </div>
 <section id="qfield-quickstart">
-<h1>QField Quickstart<a class="headerlink" href="#qfield-quickstart" title="このヘッドラインへのパーマリンク">¶</a></h1>
-<p>QField is a powerful tool to collect data in the field for usage with QGIS.</p>
+<h1>QField クイックスタート<a class="headerlink" href="#qfield-quickstart" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<p>QFieldは、QGISで使用するためのフィールドデータを収集する強力なツールです。</p>
 <div class="contents local topic" id="contents">
-<p class="topic-title">Contents</p>
+<p class="topic-title">目次</p>
 <ul class="simple">
-<li><p><a class="reference internal" href="#start-qfield" id="id1">Start QField</a></p></li>
-<li><p><a class="reference internal" href="#open-a-project" id="id2">Open a project</a></p></li>
-<li><p><a class="reference internal" href="#navigation" id="id3">Navigation</a></p></li>
-<li><p><a class="reference internal" href="#basic-canvas-interaction" id="id4">Basic canvas interaction</a></p></li>
-<li><p><a class="reference internal" href="#legend" id="id5">Legend</a></p></li>
-<li><p><a class="reference internal" href="#digitize-data" id="id6">Digitize Data</a></p></li>
-<li><p><a class="reference internal" href="#things-to-try" id="id7">Things to try</a></p></li>
-<li><p><a class="reference internal" href="#what-next" id="id8">What next?</a></p></li>
+<li><p><a class="reference internal" href="#start-qfield" id="id1">QFieldを起動</a></p></li>
+<li><p><a class="reference internal" href="#open-a-project" id="id2">プロジェクトを開く</a></p></li>
+<li><p><a class="reference internal" href="#navigation" id="id3">ナビゲーション</a></p></li>
+<li><p><a class="reference internal" href="#basic-canvas-interaction" id="id4">基本的なキャンバス操作</a></p></li>
+<li><p><a class="reference internal" href="#legend" id="id5">凡例</a></p></li>
+<li><p><a class="reference internal" href="#digitize-data" id="id6">データのデジタイズ</a></p></li>
+<li><p><a class="reference internal" href="#things-to-try" id="id7">試してみること</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id8">次のステップは何?</a></p></li>
 </ul>
 </div>
 <section id="start-qfield">
-<h2><a class="toc-backref" href="#id1">Start QField</a><a class="headerlink" href="#start-qfield" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#id1">QFieldを起動</a><a class="headerlink" href="#start-qfield" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <ol class="arabic">
-<li><p>Click the menu button at the bottom left</p></li>
-<li><p>Click the QField icon in the Education menu</p>
+<li><p>左下のメニューボタンをクリック</p></li>
+<li><p>EducationメニューのQFieldアイコンをクリック</p>
 <blockquote>
-<div><a class="reference internal image-reference" href="../../_images/00_menu.png"><img alt="Find QField in the menu" src="../../_images/00_menu.png" style="width: 461.99999999999994px; height: 642.5999999999999px;" /></a>
+<div><a class="reference internal image-reference" href="../../_images/00_menu.png"><img alt="メニューからQFieldを選択" src="../../_images/00_menu.png" style="width: 461.99999999999994px; height: 642.5999999999999px;" /></a>
 </div></blockquote>
 </li>
 </ol>
-<p>You will see QField launch and show the changelog of the release.
-Close the screen by clicking on the arrow button on the top left.</p>
+<p>QFieldが起動し、リリースの変更履歴が表示されます。左上の矢印ボタンをクリックして画面を閉じます。</p>
 <blockquote>
-<div><a class="reference internal image-reference" href="../../_images/01_welcome_screen.png"><img alt="The changelog is shown once" src="../../_images/01_welcome_screen.png" style="width: 849.8px; height: 614.5999999999999px;" /></a>
+<div><a class="reference internal image-reference" href="../../_images/01_welcome_screen.png"><img alt="変更履歴は一回だけ表示されます" src="../../_images/01_welcome_screen.png" style="width: 849.8px; height: 614.5999999999999px;" /></a>
 </div></blockquote>
 </section>
 <section id="open-a-project">
-<h2><a class="toc-backref" href="#id2">Open a project</a><a class="headerlink" href="#open-a-project" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p>You can open any QGIS project with QField.</p>
+<h2><a class="toc-backref" href="#id2">プロジェクトを開く</a><a class="headerlink" href="#open-a-project" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>QFieldでは、どんなQGISプロジェクトも開くことができます。</p>
 <ol class="arabic">
-<li><p>Click the <cite>Open local file</cite> button</p></li>
-<li><p>Open the <cite>qgis-examples</cite> folder</p></li>
-<li><p>Click the <cite>QGIS-Itasca-Example.qgz</cite> project file to open the project</p>
+<li><p><cite>Open local file</cite> ボタンをクリック</p></li>
+<li><p><cite>qgis-examples</cite> フォルダを開く</p></li>
+<li><p>プロジェクトファイル <cite>QGIS-Itasca-Example.qgz</cite> をクリックして、プロジェクトを開く</p>
 <blockquote>
-<div><a class="reference internal image-reference" href="../../_images/02_open_project.png"><img alt="Choose the Itasca project to open" src="../../_images/02_open_project.png" style="width: 813.4px; height: 735.0px;" /></a>
+<div><a class="reference internal image-reference" href="../../_images/02_open_project.png"><img alt="Itascaプロジェクトを選択して開く" src="../../_images/02_open_project.png" style="width: 813.4px; height: 735.0px;" /></a>
 </div></blockquote>
 </li>
 </ol>
 </section>
 <section id="navigation">
-<h2><a class="toc-backref" href="#id3">Navigation</a><a class="headerlink" href="#navigation" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p>You can navigate on the map by</p>
+<h2><a class="toc-backref" href="#id3">ナビゲーション</a><a class="headerlink" href="#navigation" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>地図上をナビゲートするには、次の方法があります</p>
 <ol class="arabic simple">
-<li><p>Pan: hold and drag the mouse cursor or by moving your finger on a touch screen</p></li>
-<li><p>Zoom: with the mouse wheel or with the zoom buttons. On a touch screen it is also possible to use pinch gestures</p></li>
-<li><p>Rotate: by holding the middle mouse button down or by rotating on the screen with two fingers on a touch screen</p></li>
+<li><p>パン: マウスカーソルをホールドしたままドラッグするか、タッチスクリーン上で指を動かします</p></li>
+<li><p>ズーム: マウスホイールまたはズームボタンでズームします。タッチスクリーンでは、ピンチイン・ピンチアウトのジェスチャーでもズームが可能です</p></li>
+<li><p>回転: マウスの中ボタンを押したままにするか、タッチスクリーン上で2本の指で画面を回転させます</p></li>
 </ol>
-<p>Please keep in mind that the interaction design for QField was always done with touch screens in mind
-and is therefore best served on a touch screen.</p>
+<p>QFieldのインタラクションデザインは常にタッチスクリーンを念頭に置いて行われており、そのためタッチスクリーンで使用するのが最適であることを念頭に置いてください。</p>
 </section>
 <section id="basic-canvas-interaction">
-<h2><a class="toc-backref" href="#id4">Basic canvas interaction</a><a class="headerlink" href="#basic-canvas-interaction" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p>You can identify features by clicking on them.
-In the itasca project, there are multiple layers identifiable, so you will get results from multiple layers, in this case here &quot;airports&quot; and &quot;County Boundaries&quot;.</p>
-<p>To inspect the attributes of one of the features, click on the feature in the identification panel.
-You will see all attributes of this feature appear.</p>
+<h2><a class="toc-backref" href="#id4">基本的なキャンバス操作</a><a class="headerlink" href="#basic-canvas-interaction" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>地物をクリックすると地物情報を表示できます。Itascaプロジェクトでは表示可能なレイヤが複数あるため、複数のレイヤから結果が得られます。この例では &quot;airports&quot;(空港) と &quot;County Boundaries&quot;(郡の境界線) となります。</p>
+<p>地物の属性を表示するには、識別パネルで地物をクリックします。地物のすべての属性が表示されます。</p>
 <blockquote>
-<div><a class="reference internal image-reference" href="../../_images/03_identify.png"><img alt="The hamburger menu" src="../../_images/03_identify.png" style="width: 803.5999999999999px; height: 711.1999999999999px;" /></a>
+<div><a class="reference internal image-reference" href="../../_images/03_identify.png"><img alt="ハンバーガーメニュー" src="../../_images/03_identify.png" style="width: 803.5999999999999px; height: 711.1999999999999px;" /></a>
 </div></blockquote>
 </section>
 <section id="legend">
-<h2><a class="toc-backref" href="#id5">Legend</a><a class="headerlink" href="#legend" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p>To see which layers are loaded and to inspect the layer legends, click the hamburger menu on the top left corner.</p>
+<h2><a class="toc-backref" href="#id5">凡例</a><a class="headerlink" href="#legend" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>どのレイヤが読み込まれているかを確認し、レイヤの凡例を調べるには、左上隅にあるハンバーガーメニューをクリックします。</p>
 <blockquote>
-<div><a class="reference internal image-reference" href="../../_images/04_hamburger_menu.png"><img alt="The hamburger menu" src="../../_images/04_hamburger_menu.png" style="width: 57.4px; height: 56.0px;" /></a>
+<div><a class="reference internal image-reference" href="../../_images/04_hamburger_menu.png"><img alt="ハンバーガーメニュー" src="../../_images/04_hamburger_menu.png" style="width: 57.4px; height: 56.0px;" /></a>
 </div></blockquote>
-<p>You will see all layers in the project listed.
-By right clicking on the layer (or long pressing on a touch screen) you will have additional actions
-available for each layer.</p>
+<p>プロジェクト内のすべてのレイヤがリスト表示されます。レイヤを右クリック（またはタッチスクリーンで長押し）すると、各レイヤに対して追加のアクションが利用可能になります。</p>
 <blockquote>
-<div><a class="reference internal image-reference" href="../../_images/05_legend.png"><img alt="The legend" src="../../_images/05_legend.png" style="width: 712.5999999999999px; height: 803.5999999999999px;" /></a>
+<div><a class="reference internal image-reference" href="../../_images/05_legend.png"><img alt="凡例" src="../../_images/05_legend.png" style="width: 712.5999999999999px; height: 803.5999999999999px;" /></a>
 </div></blockquote>
-<p>Close the legend by clicking the white arrow on the top left or by clicking anywhere on the canvas
-outside the legend panel.</p>
+<p>凡例を閉じるには、左上の白い矢印をクリックするか、凡例パネル以外のキャンバス上の任意の場所をクリックします。</p>
 </section>
 <section id="digitize-data">
-<h2><a class="toc-backref" href="#id6">Digitize Data</a><a class="headerlink" href="#digitize-data" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p>By default, QField opens in read/view mode and you are not able to make any changes to preexisting geometries or add new features.
-To go into digitize mode:</p>
+<h2><a class="toc-backref" href="#id6">データのデジタイズ</a><a class="headerlink" href="#digitize-data" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>デフォルトでは、QFieldは読み取り/表示モードで開き、既存のジオメトリに変更を加えたり、新しいフィーチャを追加したりすることはできません。 デジタイズモードにするには:</p>
 <ol class="arabic">
-<li><p>Click the hamburger menu on the top left corner, so you see the legend.</p></li>
-<li><p>Click the pencil switch to go into digitize mode.</p>
+<li><p>左上のハンバーガーメニューをクリックすると凡例が表示されます。</p></li>
+<li><p>鉛筆のスイッチをクリックすると、デジタイズモードになります。</p>
 <blockquote>
-<div><a class="reference internal image-reference" href="../../_images/06_digitize_mode.png"><img alt="Switch to the digitize mode" src="../../_images/06_digitize_mode.png" style="width: 319.2px; height: 61.599999999999994px;" /></a>
+<div><a class="reference internal image-reference" href="../../_images/06_digitize_mode.png"><img alt="デジタイズモードに切り替え" src="../../_images/06_digitize_mode.png" style="width: 319.2px; height: 61.599999999999994px;" /></a>
 </div></blockquote>
 </li>
 </ol>
-<p>Next, we will create a new airport.</p>
+<p>次に、新しい空港を作成します。</p>
 <ol class="arabic simple">
-<li><p>Activate the airports layer by clicking on the <cite>airports</cite> layer. The current layer within which digitizing will occur is highlighted using a green background in the legend.</p></li>
-<li><p>Close the layer panel</p></li>
-<li><p>You will see a crosshair appear. This will follow your mouse or stay in the center of the screen if you are working with a touch screen.</p></li>
+<li><p><cite>airports</cite> レイヤーをクリックしてアクティブにします。デジタイズが行われる現在のレイヤーは、凡例で緑色の背景で強調表示されます。</p></li>
+<li><p>レイヤパネルを閉じる</p></li>
+<li><p>十字のカーソルが表示されます。マウスで操作している場合はカーソルがマウスに追随し、タッチスクリーンで操作している場合は画面の中央に表示されます。</p></li>
 </ol>
 <blockquote>
 <div><ol class="arabic simple">
-<li><p>If you have a mouse: click to create a new airport.</p></li>
-<li><p>If you have a touchscreen, move the map until the crosshair is on the desired location and click the plus button at the bottom right of the screen to create a point.</p></li>
+<li><p>マウスの場合: クリックして新しい空港を作成します。</p></li>
+<li><p>タッチスクリーンの場合は、十字線が目的の位置にくるまで地図を移動させ、画面の右下にあるプラスボタンをクリックしてポイントを作成します。</p></li>
 </ol>
 </div></blockquote>
 <ol class="arabic simple">
-<li><p>A panel appears, where you can enter all the desired attributes for the new airport</p></li>
-<li><p>Click the checkbox to confirm the new airport.</p></li>
-<li><p>The data is saved immediately.</p></li>
+<li><p>パネルが表示され、新しい空港で必要な属性をすべて入力できます</p></li>
+<li><p>新しい空港を確認するには、チェックボックスをクリックします。</p></li>
+<li><p>データは即座に保存されます。</p></li>
 </ol>
 </section>
 <section id="things-to-try">
-<h2><a class="toc-backref" href="#id7">Things to try</a><a class="headerlink" href="#things-to-try" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<h2><a class="toc-backref" href="#id7">試してみること</a><a class="headerlink" href="#things-to-try" title="このヘッドラインへのパーマリンク">¶</a></h2>
 <ol class="arabic simple">
-<li><p>Show and hide a layer via the layer options (long click in the legend)</p></li>
-<li><p>On the legend panel, check the cog wheel symbol for more actions like measuring and printing</p></li>
-<li><p>Download the <a class="reference external" href="https://docs.qfield.org/get-started/sample-projects/">QField sample projects</a> for more inspiration</p></li>
-<li><p>Open a project file in QGIS, add layers to it and change the configuration</p></li>
-<li><p>Install QField on your mobile device through the app store or via the <a class="reference external" href="https://docs.qfield.org/get-started/">Download page</a>.</p></li>
+<li><p>レイヤオプション（凡例を長押し）でレイヤの表示・非表示を切り替える</p></li>
+<li><p>凡例パネルで、歯車マークをチェックして、計測や印刷などのその他のアクションを確認する</p></li>
+<li><p>さらなるインスピレーションを得るために、 <a class="reference external" href="https://docs.qfield.org/get-started/sample-projects/">QField sample projects</a> をダウンロードする</p></li>
+<li><p>QGISでプロジェクトファイルを開き、レイヤを追加し、設定を変更する</p></li>
+<li><p>QFieldをモバイル端末にアプリストアまたは <a class="reference external" href="https://docs.qfield.org/get-started/">Download page</a> からインストールする。</p></li>
 </ol>
 </section>
 <section id="what-next">
-<h2><a class="toc-backref" href="#id8">What next?</a><a class="headerlink" href="#what-next" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p>To learn more about QField, a good starting point is the <a class="reference external" href="https://docs.qfield.org/">Documentation page</a>.</p>
+<h2><a class="toc-backref" href="#id8">次のステップは何?</a><a class="headerlink" href="#what-next" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>QFieldについてさらに詳しく知りたい場合、良い出発点は <a class="reference external" href="https://docs.qfield.org/">Documentation page</a> です。</p>
 </section>
 </section>
 
