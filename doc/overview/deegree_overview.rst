@@ -1,10 +1,10 @@
 :Author: Johannes Wilden
 :Author: Markus Schneider
 :Author: Danilo Bretschneider
-:Auhtor: Julian Zilz
+:Author: Julian Zilz
 :Reviewer: Cameron Shorter, Jirotech
 :Reviewer: Angelos Tzotsos, OSGeo
-:Version: osgeolive15.0
+:Version: osgeolive17.0
 :License: Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 @LOGO_deegree@
@@ -18,7 +18,7 @@ About
 --------------------------------------------------------------------------------
 
 
-deegree provides geospatial webservices based upon |OGC| and `INSPIRE Network Services <https://inspire.ec.europa.eu>`_
+deegree provides geospatial webservices based upon |OGC| and `INSPIRE Network Services <https://inspire.ec.europa.eu>`__
 specifications. deegree supports:
 
 * |WFS|: Serves vector data from geospatial data
@@ -35,10 +35,10 @@ Core Features
 **WFS**
 
 * Implements WFS standards 1.0.0, 1.1.0 and 2.0.0
-* Official OGC reference implementation for WFS 1.1.0 (Basic and Transactional) and WFS 2.0.0 (Basic)
+* Official OGC reference implementation for WFS 1.0.0 (Transactional), 1.1.0 (Basic and Transactional) and WFS 2.0.0 (Basic)
 * Fully transactional (even for rich data models)
 * Supports KVP, XML and SOAP requests
-* GML 2/3.0/3.1/3.2 output/input
+* Supports GML 2, 3.0, 3.1, and 3.2 for both output and input
 * Support for GetGmlObject requests and XLinks
 * High performance and excellent scalability
 * On-the-fly coordinate transformation
@@ -51,7 +51,7 @@ Core Features
 **WMS**
 
 * Implements WMS standards 1.1.1 and 1.3.0
-* Official OGC reference implementation for WMS 1.1.1 and WMS 1.1.1
+* Official OGC reference implementation for WMS 1.1.1 and WMS 1.3.0
 * Extensive support for styling languages SLD/SE versions 1.0.0 and 1.1.0
 * High performance and excellent scalability
 * High quality rendering
@@ -67,7 +67,7 @@ Core Features
 **WMTS**
 
 * Implements Basic WMTS standard 1.0.0 (KVP)
-* Official OGC reference implementation for WMS 1.0.0
+* Official OGC reference implementation for WMTS 1.0.0
 * High performance and excellent scalability
 * Supports different backends, such as GeoTIFF, remote WMS or file system tile image hierarchies
 * Supports on-the-fly caching (using EHCache)
@@ -80,7 +80,7 @@ Core Features
 * Supports KVP, XML and SOAP requests
 * High performance and excellent scalability
 * ISO Metadata Application Profile 1.0.0
-* Pluggable and modular dataaccess layer allows to add support for new APs and backends
+* Pluggable and modular data access layer allows to add support for new APs and backends
 * Modular inspector architecture allows to validate records to be inserted against various criteria
 * Standard inspectors: schema validity, identifier integrity, INSPIRE requirements
 * Handles all defined queryable properties (for Dublin Core as well as ISO profile)
@@ -105,7 +105,7 @@ Implemented Standards
 
 * |WFS| 1.0.0, 1.1.0 and 2.0.0
 * |WMS| 1.1.1 and 1.3.0
-* |WMTS| 1.1.0
+* |WMTS| 1.0.0
 * |CSW| 2.0.2
 * |WPS| 1.0.0
 * |GML| 2.12, 3.0.1, 3.1.1 and 3.2.1
@@ -128,8 +128,3 @@ Details
 
 @VMDK_deegree@
 @QUICKSTART_deegree@
-
-.. presentation-note
-    deegree is another robust application which has claimed the title of supporting the most comprehensive set of OGC
-    Web Services in free and open source software, ranging from a transactional Web Feature Service to three-dimensional
-    data display in a Web Terrain Service and many more!
