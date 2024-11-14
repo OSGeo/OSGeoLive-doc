@@ -34,7 +34,6 @@ Core Features
 * **Supported Formats:** Includes HTML, ISO 19135 XML, JSON, RDF/XML, Re3gistry XML, CSV, ATOM, with options for custom formats.
 * **Multiple Authentication Options:** Enhance security with various methods.
 * **URI Management:** Reference external items seamlessly through URIs.
-* **INSPIRE Federation Support:** Automatically generates the RoR format.
 * **Accessible Web App:** User-friendly access to reference codes.
 
 Details
