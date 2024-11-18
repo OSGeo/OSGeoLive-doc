@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-18 16:45+0000\n"
+"POT-Creation-Date: 2024-11-18 16:56+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -368,6 +368,15 @@ msgstr ""
 
 #: ../../build/doc/overview/deegree_overview.rst:144
 msgid ":doc:`Quickstart documentation <../quickstart/deegree_quickstart>`"
+msgstr ""
+
+#: ../../build/doc/overview/deegree_overview.rst:148
+msgid ""
+"deegree is another robust application which has claimed the title of "
+"supporting the most comprehensive set of OGC Web Services in free and "
+"open source software, ranging from a transactional Web Feature Service to"
+" executing geospatial processes with a Web Processing Service and many "
+"more!"
 msgstr ""
 
 #: ../../build/doc/<rst_epilog>:13
