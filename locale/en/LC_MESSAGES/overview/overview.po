@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-29 17:18+0000\n"
+"POT-Creation-Date: 2024-11-18 17:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -47,7 +47,7 @@ msgstr ""
 msgid "|vmdk| Included only on OSGeoLive VMDK version"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:13
+#: ../../build/doc/<rst_epilog>:11
 msgid "vmdk"
 msgstr ""
 
@@ -83,7 +83,7 @@ msgid ""
 "<../quickstart/openjump_quickstart>`]"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:14
 msgid "nologo"
 msgstr ""
 
@@ -290,7 +290,7 @@ msgstr ""
 
 #: ../../build/doc/overview/overview.rst:197
 msgid ""
-"|OSGeo_community| :doc:`pgrouting_overview` - [:doc:`Quickstart "
+"|OSGeo_project| :doc:`pgrouting_overview` - [:doc:`Quickstart "
 "<../quickstart/pgrouting_quickstart>`] - Routing for PostGIS"
 msgstr ""
 
