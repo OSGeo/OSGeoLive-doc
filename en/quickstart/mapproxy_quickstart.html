@@ -71,18 +71,18 @@ It caches, accelerates and transforms data from existing map services and serves
 <div class="contents local topic" id="contents">
 <p class="topic-title">Contents</p>
 <ul class="simple">
-<li><p><a class="reference internal" href="#start-the-service-and-view-the-demo" id="id2">Start the service and view the demo</a></p></li>
-<li><p><a class="reference internal" href="#view-in-desktop-gis" id="id3">View in desktop GIS</a></p>
+<li><p><a class="reference internal" href="#start-the-service-and-view-the-demo" id="id1">Start the service and view the demo</a></p></li>
+<li><p><a class="reference internal" href="#view-in-desktop-gis" id="id2">View in desktop GIS</a></p>
 <ul>
-<li><p><a class="reference internal" href="#available-layers" id="id4">Available layers</a></p></li>
+<li><p><a class="reference internal" href="#available-layers" id="id3">Available layers</a></p></li>
 </ul>
 </li>
-<li><p><a class="reference internal" href="#create-you-own-configuration" id="id5">Create you own configuration</a></p></li>
-<li><p><a class="reference internal" href="#what-next" id="id6">What next?</a></p></li>
+<li><p><a class="reference internal" href="#create-you-own-configuration" id="id4">Create you own configuration</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id5">What next?</a></p></li>
 </ul>
 </div>
 <section id="start-the-service-and-view-the-demo">
-<h2><a class="toc-backref" href="#id2">Start the service and view the demo</a><a class="headerlink" href="#start-the-service-and-view-the-demo" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id1">Start the service and view the demo</a><a class="headerlink" href="#start-the-service-and-view-the-demo" title="Permalink to this headline">¶</a></h2>
 <p>MapProxy has flexible deployment options and you can integrate it in Apache for example. But you can also start MapProxy as a standalone service, which is the best option to get started.</p>
 <ol class="arabic simple">
 <li><p>To start MapProxy as a standalone service click on <span class="menuselection">Geospatial ‣ Web Services ‣ MapProxy ‣ Start MapProxy</span>.</p></li>
@@ -91,17 +91,13 @@ It caches, accelerates and transforms data from existing map services and serves
 <p>The MapProxy demo page contains a rudimentary WMS and tile client for each configured layer. You can’t select the projection for WMS layers for example, but it is enough to quickly verify that your installation works.</p>
 </section>
 <section id="view-in-desktop-gis">
-<h2><a class="toc-backref" href="#id3">View in desktop GIS</a><a class="headerlink" href="#view-in-desktop-gis" title="Permalink to this headline">¶</a></h2>
-<p>You can add MapProxy in any WMS Desktop GIS like uDig, QGIS or gvSIG. The service URL is: <a class="reference external" href="http://localhost:8011/service?">http://localhost:8011/service?</a></p>
-<p>The MapProxy example configuration contains a few layers that use different map engines and map data. See below for more details about each layer.</p>
-<figure class="align-center" id="id1">
-<a class="reference internal image-reference" href="../../_images/mapproxy_udig.png"><img alt="MapProxy example in uDig" src="../../_images/mapproxy_udig.png" style="width: 627.1999999999999px; height: 451.49999999999994px;" /></a>
-<figcaption>
-<p><span class="caption-text">Single WMS layer with data from two cascaded sources and <cite>FeatureInformation</cite> from one source.</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
-</figcaption>
-</figure>
+<h2><a class="toc-backref" href="#id2">View in desktop GIS</a><a class="headerlink" href="#view-in-desktop-gis" title="Permalink to this headline">¶</a></h2>
+<p>You can add MapProxy in any WMS Desktop GIS like QGIS or gvSIG. The service URL
+is: <a class="reference external" href="http://localhost:8011/service?">http://localhost:8011/service?</a></p>
+<p>The MapProxy example configuration contains a few layers that use different map
+engines and map data. See below for more details about each layer.</p>
 <section id="available-layers">
-<h3><a class="toc-backref" href="#id4">Available layers</a><a class="headerlink" href="#available-layers" title="Permalink to this headline">¶</a></h3>
+<h3><a class="toc-backref" href="#id3">Available layers</a><a class="headerlink" href="#available-layers" title="Permalink to this headline">¶</a></h3>
 <dl class="simple">
 <dt><strong>mapnik</strong>:</dt><dd><p>The world population rendered by Mapnik. You don’t need to start the Mapnik service, because this layer makes use of the integrated Mapnik support in MapProxy.</p>
 </dd>
@@ -119,7 +115,7 @@ You need to start GeoServer with <span class="menuselection">Geospatial ‣ Web 
 </section>
 </section>
 <section id="create-you-own-configuration">
-<h2><a class="toc-backref" href="#id5">Create you own configuration</a><a class="headerlink" href="#create-you-own-configuration" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id4">Create you own configuration</a><a class="headerlink" href="#create-you-own-configuration" title="Permalink to this headline">¶</a></h2>
 <p>You can use <code class="docutils literal notranslate"><span class="pre">mapproxy-util</span></code> to create new configuration templates and to start a test server.</p>
 <p>To create a new configuration:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">mapproxy</span><span class="o">-</span><span class="n">util</span> <span class="n">create</span> <span class="o">-</span><span class="n">t</span> <span class="n">base</span><span class="o">-</span><span class="n">config</span> <span class="o">~/</span><span class="n">mapproxy</span>
@@ -133,7 +129,7 @@ You need to start GeoServer with <span class="menuselection">Geospatial ‣ Web 
 MapProxy will automatically reload if you change your configuration file.</p>
 </section>
 <section id="what-next">
-<h2><a class="toc-backref" href="#id6">What next?</a><a class="headerlink" href="#what-next" title="Permalink to this headline">¶</a></h2>
+<h2><a class="toc-backref" href="#id5">What next?</a><a class="headerlink" href="#what-next" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p>Read the <a class="reference external" href="https://localhost/mapproxy/index.html">documentation of MapProxy</a></p></li>
 <li><p>Read the example configuration (<code class="docutils literal notranslate"><span class="pre">/usr/local/share/mapproxy/mapproxy.yaml</span></code>)</p></li>
