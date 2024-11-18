@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-29 17:18+0000\n"
+"POT-Creation-Date: 2024-11-18 17:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,6 +53,7 @@ msgstr ""
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
 msgstr ""
 
@@ -69,7 +70,6 @@ msgstr ""
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""
 
@@ -77,16 +77,16 @@ msgstr ""
 msgid "|vmdk| Included only on OSGeoLive VMDK version"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:13
-#: ../../build/doc/<rst_epilog>:13
-#: ../../build/doc/<rst_epilog>:13
-#: ../../build/doc/<rst_epilog>:13
-#: ../../build/doc/<rst_epilog>:13
-#: ../../build/doc/<rst_epilog>:13
-#: ../../build/doc/<rst_epilog>:13
-#: ../../build/doc/<rst_epilog>:13
-#: ../../build/doc/<rst_epilog>:13
-#: ../../build/doc/<rst_epilog>:13
+#: ../../build/doc/<rst_epilog>:11
+#: ../../build/doc/<rst_epilog>:11
+#: ../../build/doc/<rst_epilog>:11
+#: ../../build/doc/<rst_epilog>:11
+#: ../../build/doc/<rst_epilog>:11
+#: ../../build/doc/<rst_epilog>:11
+#: ../../build/doc/<rst_epilog>:11
+#: ../../build/doc/<rst_epilog>:11
+#: ../../build/doc/<rst_epilog>:11
+#: ../../build/doc/<rst_epilog>:11
 msgid "vmdk"
 msgstr ""
 
@@ -114,37 +114,37 @@ msgstr ""
 msgid "|nologo| :doc:`openjump_overview` - [:doc:`Quickstart <../quickstart/openjump_quickstart>`]"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
-#: ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:14
+#: ../../build/doc/<rst_epilog>:14
+#: ../../build/doc/<rst_epilog>:14
+#: ../../build/doc/<rst_epilog>:14
+#: ../../build/doc/<rst_epilog>:14
+#: ../../build/doc/<rst_epilog>:14
+#: ../../build/doc/<rst_epilog>:14
+#: ../../build/doc/<rst_epilog>:14
+#: ../../build/doc/<rst_epilog>:14
+#: ../../build/doc/<rst_epilog>:14
+#: ../../build/doc/<rst_epilog>:14
+#: ../../build/doc/<rst_epilog>:14
+#: ../../build/doc/<rst_epilog>:14
+#: ../../build/doc/<rst_epilog>:14
+#: ../../build/doc/<rst_epilog>:14
+#: ../../build/doc/<rst_epilog>:14
+#: ../../build/doc/<rst_epilog>:14
+#: ../../build/doc/<rst_epilog>:14
+#: ../../build/doc/<rst_epilog>:14
+#: ../../build/doc/<rst_epilog>:14
+#: ../../build/doc/<rst_epilog>:14
+#: ../../build/doc/<rst_epilog>:14
+#: ../../build/doc/<rst_epilog>:14
+#: ../../build/doc/<rst_epilog>:14
+#: ../../build/doc/<rst_epilog>:14
+#: ../../build/doc/<rst_epilog>:14
+#: ../../build/doc/<rst_epilog>:14
+#: ../../build/doc/<rst_epilog>:14
+#: ../../build/doc/<rst_epilog>:14
+#: ../../build/doc/<rst_epilog>:14
+#: ../../build/doc/<rst_epilog>:14
 msgid "nologo"
 msgstr ""
 
@@ -289,7 +289,7 @@ msgid "|OSGeo_project| :doc:`postgis_overview` - [:doc:`Quickstart <../quickstar
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:197
-msgid "|OSGeo_community| :doc:`pgrouting_overview` - [:doc:`Quickstart <../quickstart/pgrouting_quickstart>`] - Routing for PostGIS"
+msgid "|OSGeo_project| :doc:`pgrouting_overview` - [:doc:`Quickstart <../quickstart/pgrouting_quickstart>`] - Routing for PostGIS"
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:199

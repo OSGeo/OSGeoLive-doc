@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-14 01:55+0000\n"
+"POT-Creation-Date: 2024-11-18 17:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -210,18 +210,6 @@ msgid "Creative Commons Attribution 3.0 Unported (CC BY 3.0)"
 msgstr ""
 
 #: ../../build/licenses.csv:1
-msgid "52nWPS_overview"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "Bastian Schaeffer, Kristof Lange, Benjamin Pross"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "Cameron Shorter, Jirotech; Angelos Tzotsos, OSGeo"
-msgstr ""
-
-#: ../../build/licenses.csv:1
 msgid "R_overview"
 msgstr ""
 
@@ -259,6 +247,10 @@ msgstr ""
 
 #: ../../build/licenses.csv:1
 msgid "OSGeoLive; Stephan Meissl, Stephan Krause"
+msgstr ""
+
+#: ../../build/licenses.csv:1
+msgid "Cameron Shorter, Jirotech; Angelos Tzotsos, OSGeo"
 msgstr ""
 
 #: ../../build/licenses.csv:1
@@ -394,22 +386,6 @@ msgid "Astrid Emde"
 msgstr ""
 
 #: ../../build/licenses.csv:1
-msgid "mapfish_overview"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "OSGeoLive; Hamish Bowman; Eric Lemoine"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "mapguide_overview"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "Trevor Wekel"
-msgstr ""
-
-#: ../../build/licenses.csv:1
 msgid "mapnik_overview"
 msgstr ""
 
@@ -446,18 +422,6 @@ msgid "naturalearth_overview"
 msgstr ""
 
 #: ../../build/licenses.csv:1
-msgid "ncWMS_overview"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "Guy Griffiths (guy.griffiths@the-iea.org)"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "Cameron Shorter"
-msgstr ""
-
-#: ../../build/licenses.csv:1
 msgid "nc_dataset_overview"
 msgstr ""
 
@@ -467,6 +431,10 @@ msgstr ""
 
 #: ../../build/licenses.csv:1
 msgid "Brian Hamlin"
+msgstr ""
+
+#: ../../build/licenses.csv:1
+msgid "Cameron Shorter"
 msgstr ""
 
 #: ../../build/licenses.csv:1
@@ -501,10 +469,6 @@ msgstr ""
 
 #: ../../build/licenses.csv:1
 msgid "Creative Commons"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "ossim_overview"
 msgstr ""
 
 #: ../../build/licenses.csv:1
@@ -584,10 +548,6 @@ msgid "Pirmin Kalberer"
 msgstr ""
 
 #: ../../build/licenses.csv:1
-msgid "udig_overview"
-msgstr ""
-
-#: ../../build/licenses.csv:1
 msgid "zoo-project_overview"
 msgstr ""
 
@@ -605,14 +565,6 @@ msgstr ""
 
 #: ../../build/licenses.csv:1
 msgid "Simon Jirka (s.jirka@52north.org)"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "52nWPS_quickstart"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "Benjamin Pross; Kristof Lange"
 msgstr ""
 
 #: ../../build/licenses.csv:1
@@ -752,18 +704,6 @@ msgid "OSGeoLive; Astrid Emde"
 msgstr ""
 
 #: ../../build/licenses.csv:1
-msgid "mapfish_quickstart"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "Eric Lemoine, Bruno Binet"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "mapguide_quickstart"
-msgstr ""
-
-#: ../../build/licenses.csv:1
 msgid "mapnik_quickstart"
 msgstr ""
 
@@ -793,10 +733,6 @@ msgstr ""
 
 #: ../../build/licenses.csv:1
 msgid "Sergey Popov"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "ncWMS_quickstart"
 msgstr ""
 
 #: ../../build/licenses.csv:1
@@ -837,14 +773,6 @@ msgstr ""
 
 #: ../../build/licenses.csv:1
 msgid "osm_quickstart"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "ossim_quickstart"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "OSGeoLive; Massimo Di Stefano; Pirmin Kalberer"
 msgstr ""
 
 #: ../../build/licenses.csv:1
@@ -954,14 +882,6 @@ msgid "OSGeoLive; Micha Silver"
 msgstr ""
 
 #: ../../build/licenses.csv:1
-msgid "udig_quickstart"
-msgstr ""
-
-#: ../../build/licenses.csv:1
-msgid "OSGeoLive; Jody Garnett; Frank Gasdorf"
-msgstr ""
-
-#: ../../build/licenses.csv:1
 msgid "usb_quickstart"
 msgstr ""
 
@@ -1016,11 +936,11 @@ msgid ""
 "this software, even if advised of the possibility of such damage.*"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:13
+#: ../../build/doc/<rst_epilog>:11
 msgid "vmdk"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:14
 msgid "nologo"
 msgstr ""
 

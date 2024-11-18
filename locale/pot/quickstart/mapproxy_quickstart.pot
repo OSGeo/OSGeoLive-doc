@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 17.0.0\n"
+"Project-Id-Version: OSGeoLive 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-17 15:05-0600\n"
+"POT-Creation-Date: 2024-11-18 17:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,102 +61,94 @@ msgid "View in desktop GIS"
 msgstr ""
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:51
-msgid "You can add MapProxy in any WMS Desktop GIS like uDig, QGIS or gvSIG. The service URL is: `<http://localhost:8011/service?>`_"
+msgid "You can add MapProxy in any WMS Desktop GIS like QGIS or gvSIG. The service URL is: `<http://localhost:8011/service?>`_"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapproxy_quickstart.rst:53
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:54
 msgid "The MapProxy example configuration contains a few layers that use different map engines and map data. See below for more details about each layer."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapproxy_quickstart.rst:60
-msgid "MapProxy example in uDig"
-msgstr ""
-
-#: ../../build/doc/quickstart/mapproxy_quickstart.rst:60
-msgid "Single WMS layer with data from two cascaded sources and `FeatureInformation` from one source."
-msgstr ""
-
-#: ../../build/doc/quickstart/mapproxy_quickstart.rst:63
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:59
 msgid "Available layers"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapproxy_quickstart.rst:66
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:62
 msgid "**mapnik**:"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapproxy_quickstart.rst:66
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:62
 msgid "The world population rendered by Mapnik. You don't need to start the Mapnik service, because this layer makes use of the integrated Mapnik support in MapProxy."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapproxy_quickstart.rst:69
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:65
 msgid "**mapnik_tile**:"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapproxy_quickstart.rst:69
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:65
 msgid "The world population rendered by Mapnik as tile layer."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapproxy_quickstart.rst:73
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:69
 msgid "**geoserver**:"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapproxy_quickstart.rst:72
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:68
 msgid "The US population rendered by the :doc:`GeoServer <../overview/geoserver_overview>` WMS. This layer also supports ``GetFeatureInfo`` requests which are cascaded to the source WMS. You need to start GeoServer with |osgeolive-appmenupath-geoserver| before accessing this layer."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapproxy_quickstart.rst:77
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:73
 msgid "**mapnik_geoserver**:"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapproxy_quickstart.rst:76
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:72
 msgid "This layer demonstrates the ability to combine multiple sources into one layer. It combines the world population from Mapnik with the US population from GeoServer. The ``GetFeatureInfo`` support for the US population is still available. You need to start GeoServer with |osgeolive-appmenupath-geoserver| before accessing this layer."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapproxy_quickstart.rst:81
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:77
 msgid "**mapserver**:"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapproxy_quickstart.rst:80
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:76
 msgid "This layer uses Mapserver Itasca demo dataset. It is a local dataset and it uses the *coverage* feature to limit the BBOX to Itasca, IL."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapproxy_quickstart.rst:84
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:80
 msgid "Create you own configuration"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapproxy_quickstart.rst:86
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:82
 msgid "You can use ``mapproxy-util`` to create new configuration templates and to start a test server."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapproxy_quickstart.rst:88
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:84
 msgid "To create a new configuration::"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapproxy_quickstart.rst:92
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:88
 msgid "To start the test server on port 8011 with the created configuration::"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapproxy_quickstart.rst:96
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:92
 msgid "You can now visit the demo page at http://127.0.0.1:8011/demo/. MapProxy will automatically reload if you change your configuration file."
 msgstr ""
 
-#: ../../build/doc/quickstart/mapproxy_quickstart.rst:101
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:97
 msgid "What next?"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapproxy_quickstart.rst:103
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:99
 msgid "Read the `documentation of MapProxy <https://localhost/mapproxy/index.html>`__"
 msgstr ""
 
-#: ../../build/doc/quickstart/mapproxy_quickstart.rst:105
+#: ../../build/doc/quickstart/mapproxy_quickstart.rst:101
 msgid "Read the example configuration (``/usr/local/share/mapproxy/mapproxy.yaml``)"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:13
+#: ../../build/doc/<rst_epilog>:11
 msgid "vmdk"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:14
 msgid "nologo"
 msgstr ""
 

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-10-29 17:18+0000\n"
+"POT-Creation-Date: 2024-11-18 17:21+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,11 +22,11 @@ msgid "OSGeoLive"
 msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:12
-msgid "Version: 16.0beta1"
+msgid "Version: 17.0"
 msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:14
-msgid "Released: June 2023"
+msgid "Released: December 2024"
 msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:18

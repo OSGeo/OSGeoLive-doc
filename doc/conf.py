@@ -196,7 +196,6 @@ linkcheck_ignore = [
 
 
         # NewConnectionError looks like information is wrong
-        r'http://udig.refractions.net',
         r'https://sgx.geodatenzentrum.de',
 
         # link exists but does not accept robots and linkchecker is a robot
@@ -279,8 +278,6 @@ rst_epilog="""
 .. |osgeolive-iso-size| replace:: %(iso_size).1f GB
 .. |osgeolive-vm-7z-size| replace:: %(vm_7z_size).1f GB
 .. |osgeolive-appmenupath-geoserver| replace:: :menuselection:`Geospatial --> Web Services --> GeoServer --> Start GeoServer`
-.. |osgeolive-appmenupath-udig| replace:: :menuselection:`Geospatial --> Desktop GIS --> uDig`
-.. |osgeolive-appmenupath-52nWPS| replace:: :menuselection:`Geospatial --> Web Services --> 52North --> Start 52North WPS`
 .. |osgeolive-appmenupath-ETF| replace:: :menuselection:`Geospatial --> Spatial tools --> ETF`
 .. |vmdk| image:: /images/logos/vmdk.png
                         :align: bottom
