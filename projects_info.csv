@@ -150,4 +150,4 @@ N | kosmo | retired | Y | Y | Desktop GIS | 11 | | kosmo_desktop | http://www.op
 N | tinyows | retired | Y | Y | Web Services | 11 | WFS-T Service | tinyows | https://mapserver.org/tinyows/ | OSGeo_project | TinyOWS | N
 N | ncWMS | 2.4.2 | Y | Y | Web Services | 15 | Web Map Service | ncwms | https://reading-escience-centre.gitbooks.io/ncwms-user-guide/content/ | 15 | ncWMS | N
 N | 52nWPS | 3.6.3 | Y | Y | Web Services | 17 | Web Processing Service | n52-wps | https://52north.org/software/software-projects/wps | | 52 North WPS | Y
-N | udig | 2.0.0RC1 | N | N | Desktop GIS | 16 | | udig | http://udig.refractions.net/ | | uDig | N
+N | udig | 2.0.0RC1 | N | N | Desktop GIS | 17 | | udig | http://udig.refractions.net/ | | uDig | N
