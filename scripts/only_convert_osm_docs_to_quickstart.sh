@@ -1,6 +1,6 @@
 #!/bin/sh
 #################################################
-# 
+#
 # Purpose: Partially convert source documentation from LearnOSM git
 # repository to OSGeoLive git repository, keeping git history.
 # Source: http://gbayer.com/development/moving-files-from-one-git-repository-to-another-preserving-history/
@@ -14,7 +14,7 @@
 # Copyright (c) 2009 Jirotech
 #
 # Licensed under the GNU LGPL.
-# 
+#
 # This library is free software; you can redistribute it and/or modify it
 # under the terms of the GNU Lesser General Public License as published
 # by the Free Software Foundation, either version 2.1 of the License,

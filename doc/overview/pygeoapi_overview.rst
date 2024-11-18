@@ -1,5 +1,6 @@
 :Author: OSGeoLive
 :Author: Angelos Tzotsos, OSGeo
+:Author: Tom Kralidis, OSGeo
 :Version: osgeolive14.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
@@ -22,8 +23,8 @@ Core Features
 --------------------------------------------------------------------------------
 
 * out of the box modern OGC API server
-* certified OGC Compliant and Reference Implementation for OGC API - Features
-* additionally implements OGC API - Coverages, OGC API - Tiles, OGC API - Processes and SpatioTemporal Asset Library
+* certified OGC Compliant and Reference Implementation
+* additionally implements OGC API - Features, OGC API - Coverages, OGC API - Tiles, OGC API - Processes, OGC API - Records, OGC API - Environmental Data Retrieval and SpatioTemporal Asset Library
 * out of the box data provider plugins for rasterio, GDAL/OGR, Elasticsearch, PostgreSQL/PostGIS
 * easy to use OpenAPI / Swagger documentation for developers
 * supports JSON, GeoJSON, HTML and CSV output
@@ -38,7 +39,7 @@ Core Features
 Implemented Standards
 --------------------------------------------------------------------------------
 
-Standards are at the core of pygeoapi.  Below is the project's standards support matrix.
+Standards are at the core of pygeoapi. Below is the project's standards support matrix.
 
 - Implementing: implements standard (good)
 - Compliant: conforms to OGC compliance requirements (great)
@@ -52,7 +53,9 @@ Standards are at the core of pygeoapi.  Below is the project's standards support
    `OGC API - Features`_,Reference Implementation
    `OGC API - Coverages`_,Implementing
    `OGC API - Tiles`_,Implementing
+   `OGC API - Records`_,Implementing
    `OGC API - Processes`_,Implementing
+   `OGC API - Environmental Data Retrieval`_,Implementing
    `SpatioTemporal Asset Catalog`_,Implementing
 
 Details
@@ -68,14 +71,17 @@ Details
 
 **API Interfaces:** Python
 
-**Support:** |SUPPORT|
+**Support:** https://pygeoapi.io/community/service-providers
+
 
 .. _`pygeoapi`: https://pygeoapi.io
 .. _`OGC API`: https://ogcapi.ogc.org
-.. _`OGC API - Features`: https://www.ogc.org/standards/ogcapi-features
-.. _`OGC API - Coverages`: https://github.com/opengeospatial/ogcapi-coverages
-.. _`OGC API - Tiles`: https://github.com/opengeospatial/ogcapi-tiles
-.. _`OGC API - Processes`: https://github.com/opengeospatial/ogcapi-processes
+.. _`OGC API - Features`: https://ogcapi.ogc.org/features
+.. _`OGC API - Coverages`: https://ogcapi.ogc.org/coverages
+.. _`OGC API - Tiles`: https://ogcapi.ogc.org/tiles
+.. _`OGC API - Records`: https://ogcapi.ogc.org/records
+.. _`OGC API - Processes`: https://ogcapi.ogc.org/processes
+.. _`OGC API - Environmental Data Retrieval`: https://ogcapi.ogc.org/edr
 .. _`SpatioTemporal Asset Catalog`: https://stacspec.org
 .. _`Python`: https://www.python.org/
 .. _`MIT`: https://docs.pygeoapi.io/en/latest/license.html

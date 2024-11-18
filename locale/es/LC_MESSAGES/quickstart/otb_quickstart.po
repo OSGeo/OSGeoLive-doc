@@ -7,24 +7,26 @@
 # MarPetra <mvergaratrejo@gmail.com>, 2022
 # Vicky Vergara <vicky@georepublic.de>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"PO-Revision-Date: 2024-09-01 23:50+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"otb_quickstart/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:22
 msgid "OTB Quickstart"
-msgstr "Inicio Rápido de OTB "
+msgstr "Inicio Rápido de OTB"
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:24
 msgid ""
@@ -44,7 +46,7 @@ msgstr "Obtener información de metadatos de una imagen"
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:29
 msgid "Perform mathematical operations between image bands"
-msgstr "Realizar operaciones matemáticas entre bandas de imágenes."
+msgstr "Realizar operaciones matemáticas entre bandas de imágenes"
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:30
 msgid ""
@@ -103,7 +105,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:40
 msgid "/home/user/data/north_carolina/rast_geotiff"
-msgstr ""
+msgstr "/home/user/data/north_carolina/rast_geotiff"
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:42
 msgid ""
@@ -111,10 +113,13 @@ msgid ""
 "in the Accessories section. This gives you a Unix shell command prompt. Go "
 "to the data directory."
 msgstr ""
+"Inicie un emulador de terminal (LXTerminal actualmente) desde el menú "
+"Aplicaciones de la sección Accesorios. Esto le da un símbolo del sistema de "
+"shell de Unix. Vaya al directorio de datos."
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:44
 msgid "cd /home/user/data/north_carolina/rast_geotiff"
-msgstr ""
+msgstr "cd /home/user/data/north_carolina/rast_geotiff"
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:48
 msgid "Contents"
@@ -176,7 +181,7 @@ msgid ""
 "The file `lsat7_2002_30.tif` corresponds to Landsat 7 red channel, "
 "`lsat7_2002_40.tif` corresponds to Near Infra-Red."
 msgstr ""
-"El archivo  `lsat7_2002_30.tif` corresponde al canal rojo Landsat 7, "
+"El archivo `lsat7_2002_30.tif` corresponde al canal rojo Landsat 7, "
 "`lsat7_2002_40.tif` corresponde con Infra-Rojo Cercano."
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:73
@@ -262,7 +267,7 @@ msgstr "Aplicar segmentación"
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:121
 msgid "Generate colors instead of labels"
-msgstr "Generar colores en lugar de etiquetas."
+msgstr "Generar colores en lugar de etiquetas"
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:128
 msgid "Moreover the application can work in two different modes:"
@@ -365,7 +370,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:178
 msgid "OTB CookBook"
-msgstr "OTB CookBook"
+msgstr "Recetas de OTB"
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:180
 msgid ""
@@ -381,11 +386,11 @@ msgstr ""
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:190
 msgid "OTB Tutorials"
-msgstr "Tutoriales de OTB "
+msgstr "Tutoriales de OTB"
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:192
 msgid "Follow the tutorials_ to learn more about OTB."
-msgstr "Siga los tutoriales_ para obtener más información sobre OTB. "
+msgstr "Siga los tutoriales_ para obtener más información sobre OTB."
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:196
 msgid "OTB Applications documentation"

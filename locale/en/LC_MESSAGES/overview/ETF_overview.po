@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-19 19:41+0000\n"
+"POT-Creation-Date: 2024-08-17 21:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/overview/ETF_overview.rst:17
 msgid "ETF"
@@ -57,7 +57,6 @@ msgid ""
 "software tools include validation based on the ETF API in their workflow."
 msgstr ""
 
-#: ../../build/doc/overview/ETF_overview.rst:-1
 msgid "ETF screenshot"
 msgstr ""
 
@@ -150,7 +149,7 @@ msgid "|CSW|"
 msgstr ""
 
 #: ../../build/doc/overview/ETF_overview.rst:81
-msgid "ISO 19105"
+msgid "|ISO19105|"
 msgstr ""
 
 #: ../../build/doc/overview/ETF_overview.rst:82
@@ -170,7 +169,7 @@ msgid "|GML|"
 msgstr ""
 
 #: ../../build/doc/overview/ETF_overview.rst:86
-msgid "OGC API - Features"
+msgid "|OGCAPIFEATURES|"
 msgstr ""
 
 #: ../../build/doc/overview/ETF_overview.rst:87
@@ -228,9 +227,7 @@ msgid ""
 msgstr ""
 
 #: ../../build/doc/overview/ETF_overview.rst:114
-msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk "
-"(VMDK)"
+msgid "This project is only included on the OSGeoLive virtual machine disk (VMDK)"
 msgstr ""
 
 #: ../../build/doc/overview/ETF_overview.rst:117

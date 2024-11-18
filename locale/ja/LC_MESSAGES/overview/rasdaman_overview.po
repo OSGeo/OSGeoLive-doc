@@ -1,26 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2020
-# Ko Nagase <nagase@georepublic.co.jp>, 2021
+# Ko Nagase <nagase@georepublic.co.jp>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"POT-Creation-Date: 2022-08-03 09:57+0000\n"
+"PO-Revision-Date: 2024-11-02 13:09+0000\n"
+"Last-Translator: Ko Nagase <geosanak@gmail.com>\n"
+"Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
+"rasdaman_overview/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:19
 msgid "Rasdaman"
@@ -34,10 +35,10 @@ msgstr "多次元ビッグデータ分析エンジン"
 msgid ""
 "Rasdaman is an Array Database System which provides flexible, fast, scalable"
 " geo services for multi-dimensional spatio-temporal sensor, image, "
-"simulation, and statistics data of unlimited volume.  Ad-hoc access, "
+"simulation, and statistics data of unlimited volume. Ad-hoc access, "
 "extraction, aggregation, as well as remix and analytics is enabled through a"
 " NewSQL raster query language with highly effective server-side "
-"optimization.  Cloud/cluster parallelization is accomplished in a secure, "
+"optimization. Cloud/cluster parallelization is accomplished in a secure, "
 "administrator-controlled way."
 msgstr ""
 "Rasdamanはアレイデータベースシステムであり、多次元時空間センサ、画像、シミュレーション、統計データのための柔軟で高速でスケーラブルな地理サービスを無制限のボリュームで提供します。NewSQL、集約、リミックス、分析は、非常に効果的なサーバサイド最適化を備えたNewSQLラスタクエリ言語を通じて可能になります。クラウド/クラスタの並列化は、管理者が制御する安全な方法で行われます。"
@@ -55,20 +56,20 @@ msgstr ""
 #: ../../build/doc/overview/rasdaman_overview.rst:31
 msgid ""
 "Rasdaman has received a series of international innovation awards, among "
-"them the prestigeous European IT Prize and Geospatial Innovation Award.  "
+"them the prestigeous European IT Prize and Geospatial Innovation Award. "
 "Technology is mature and stable, being in operational for more than ten "
-"years.  Among the operators of rasdaman services are mapping agencies and "
+"years. Among the operators of rasdaman services are mapping agencies and "
 "climate data centers."
 msgstr ""
 "Rasdamanは、ヨーロッパIT賞と地理空間イノベーション賞といった、数々の国際的なイノベーション賞を受賞しています。テクノロジーは成熟して安定しており、10年以上にわたって稼働しています。rasdamanサービスの事業者には、地図作成機関と気象データセンターがある。"
 
 #: ../../build/doc/overview/rasdaman_overview.rstNone
 msgid "rasdaman screenshot"
-msgstr ""
+msgstr "Rasdaman スクリーンショット"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:40
 msgid "Core Features"
-msgstr "主な機能"
+msgstr "主要機能"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:42
 msgid "truly multi-dimensional - 1-D, 2-D, 3-D, 4-D, and beyond"
@@ -137,8 +138,13 @@ msgid "**API Interfaces:** rasql, C++, Java"
 msgstr "**API インタフェース:** rasql, C++, Java"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:69
-msgid "**Support:**  https://rasdaman.com"
-msgstr "**サポート:**  https://rasdaman.com"
+msgid "**Support:** https://rasdaman.com"
+msgstr "**サポート:** https://rasdaman.com"
+
+#: ../../build/doc/overview/rasdaman_overview.rst:71
+msgid ""
+"This project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgstr "このプロジェクトはOSGeoLive仮想マシンディスク(VMDK)にのみ含まれています"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:74
 msgid "Quickstart"
@@ -148,18 +154,18 @@ msgstr "クイックスタート"
 msgid ":doc:`Quickstart documentation <../quickstart/rasdaman_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/rasdaman_quickstart>`"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "ロゴなし"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo プロジェクト"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo コミュニティ"

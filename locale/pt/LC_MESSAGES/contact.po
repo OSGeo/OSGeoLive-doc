@@ -1,0 +1,159 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2022, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# Eduardo G. S. Pereira <edu_vcd@hotmail.com>, 2017
+# Narcélio de Sá Pereira Filho <narceliosapereira@gmail.com>, 2021
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 17.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-15 20:42-0600\n"
+"PO-Revision-Date: 2024-10-14 13:51+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Portuguese <https://weblate.osgeo.org/projects/osgeolive/"
+"contact/pt/>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
+
+#: ../../build/doc/contact.rst:2
+msgid "Contact Us"
+msgstr "Entre em Contato"
+
+#: ../../build/doc/contact.rst:4
+msgid ""
+"OSGeoLive development is coordinated via email and internet chat (IRC) as "
+"detailed on the `OSGeoLive Wiki "
+"<https://trac.osgeo.org/osgeolive#Communication>`_."
+msgstr ""
+"O desenvolvimento do OSGeoLive é coordenado através de email e conversa pela"
+" internet (IRC) conforme descrito na `Wiki OSGeoLive "
+"<https://trac.osgeo.org/osgeolive#Communication>`_."
+
+#: ../../build/doc/contact.rst:9
+msgid "Disclaimer"
+msgstr "Aviso Legal"
+
+#: ../../build/doc/contact.rst:11
+msgid ""
+"This Live GIS disc and virtual-machine has been put together by members of "
+"the OSGeo community to showcase their favourite Free and Open Source (FOSS) "
+"geospatial software. We've included a number of non-OSGeo software packages,"
+" from both the spatial and non-spatial realms, which we hope you will find "
+"to be as useful as we do. The OSGeo Foundation does not recommend or "
+"guarantee any associated software, projects, or companies found within."
+msgstr ""
+"Este disco de GIS e a máquina virtual foram colocadas juntas pelos membros "
+"da comunidade OSGeo para demonstrar seus programas geoespaciais livres e de "
+"código aberto (Free and Open Source - FOSS) favoritos. Nós incluímos um "
+"número de aplicativos não relacionados a OSGeo, tanto aplicativos espaciais "
+"como não espaciais, o qual esperamos que você ache tão útil quando nós "
+"achamos. A Fundação OSGeo não recomenda ou garante qualquer programa, "
+"projeto, ou companhias encontradas dentro."
+
+#: ../../build/doc/contact.rst:16
+msgid ""
+"`These programs are distributed in the hope that they will be useful, but "
+"WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY "
+"or FITNESS FOR A PARTICULAR PURPOSE.`"
+msgstr ""
+"`Estes programas são distribuídos na esperança de que serão úteis, porém SEM"
+" NENHUMA GARANTIA; sem sequer a garantia implícita de COMERCIALIZAÇÃO ou "
+"APTIDÃO PARA UM FIM ESPECÍFICO.`"
+
+#: ../../build/doc/contact.rst:20
+msgid ""
+"For additional information on the distribution of each program review their "
+"license as indicated on the page for each program."
+msgstr ""
+"Para informações adicionais sobre a distribuição de cada programa, revise as"
+" suas licenças como indicado na página de cada programa."
+
+#: ../../build/doc/contact.rst:24
+msgid "Community Support"
+msgstr "Suporte da Comunidade"
+
+#: ../../build/doc/contact.rst:26
+msgid ""
+"If you have any questions, comments, or run into any problems, please drop "
+"us a note on `our mailing list "
+"<https://lists.osgeo.org/mailman/listinfo/osgeolive>`_."
+msgstr ""
+"Se tiver dúvidas, comentários, ou qualquer problema, por favor deixe-nos uma"
+" mensagem na `nossa lista de discussão "
+"<https://lists.osgeo.org/mailman/listinfo/osgeolive>`_."
+
+#: ../../build/doc/contact.rst:29
+msgid ""
+"IRC users might try the #osgeolive or #osgeo channel at `Libera.chat network"
+" <https://libera.chat/>`_ for real-time assistance. You also can meet us at "
+"Slack, Matrix or Gitter."
+msgstr ""
+
+#: ../../build/doc/contact.rst:32
+msgid ""
+"A wealth of information is available on our `Wiki site "
+"<https://trac.osgeo.org/osgeolive/wiki>`_, and a `bug and wish tracking "
+"system <https://trac.osgeo.org/osgeolive/report/10>`_ is also available."
+msgstr ""
+"Uma grande quantidade de informações está disponível em nosso site `Wiki "
+"<https://trac.osgeo.org/osgeolive/wiki>`_, e um `sistema de rastreamento de"
+" erros e pedidos <https://trac.osgeo.org/osgeolive/report/10>`_ também está "
+"disponível."
+
+#: ../../build/doc/contact.rst:35
+msgid ""
+"Stay tuned and follow OSGeoLive on Twitter `@osgeolive "
+"<https://mobile.twitter.com/osgeolive>`_."
+msgstr ""
+"Fique ligado e siga o OSGeoLive no Twitter `@osgeolive "
+"<https://mobile.twitter.com/osgeolive>`_."
+
+#: ../../build/doc/contact.rst:38
+msgid "Commercial Support"
+msgstr "Suporte Comercial"
+
+#: ../../build/doc/contact.rst:40
+msgid ""
+"Most packaged applications have both community and commercial support "
+"offerings for them. Refer to specific application descriptions linked from "
+"the :doc:`Contents <./overview/overview>` for details."
+msgstr ""
+"A maioria das aplicações que estão no DVD possuem suporte oferecido tanto "
+"para comunidade como suporte comercial. Leia as descrições das aplicações "
+"específicas contidas em :doc:`Conteúdos<./overview/overview>` para detalhes."
+
+#: ../../build/doc/contact.rst:43
+msgid ""
+"In addition, there are a large number of consultancy firms world wide who "
+"provide support for OSGeo member projects. See "
+"https://www.osgeo.org/service-providers/ for one that meets your needs."
+msgstr ""
+"Além disso, há um grande número de empresas de consultoria em todo o mundo "
+"que fornecem suporte para projetos membros da OSGeo. Consulte "
+"https://www.osgeo.org/service-providers/ para encontrar um que atenda às "
+"suas necessidades."
+
+#: ../../build/doc/<rst_epilog>:13
+msgid "vmdk"
+msgstr "vmdk"
+
+#: ../../build/doc/<rst_epilog>:16
+msgid "nologo"
+msgstr "nologo"
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr "Projeto OSGeo"
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr "Comunidade OSGeo"

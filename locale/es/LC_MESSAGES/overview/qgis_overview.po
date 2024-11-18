@@ -7,20 +7,22 @@
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"PO-Revision-Date: 2023-07-31 19:39+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"qgis_overview/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: ../../build/doc/overview/qgis_overview.rst:20
 msgid "QGIS"
@@ -28,7 +30,7 @@ msgstr "QGIS"
 
 #: ../../build/doc/overview/qgis_overview.rst:23
 msgid "Desktop GIS"
-msgstr "SIG de escritorio"
+msgstr "SIG de Escritorio"
 
 #: ../../build/doc/overview/qgis_overview.rst:25
 msgid ""
@@ -44,9 +46,9 @@ msgstr ""
 "visualizar, administrar, editar, analizar datos y componer mapas "
 "imprimibles. Incluye una poderosa funcionalidad analítica a través de la "
 "integración con :doc:`GRASS <grass_overview>`, :doc:`SAGA <saga_overview>`, "
-":doc:`Orfeo Toolbox <otb_overview>` , :doc:`GDAL/OGR <gdal_overview>`  y "
-"muchos otros proveedores de algoritmos. Se ejecuta en Linux, Unix, Mac OSX y"
-" Windows y soporta numerosos formatos y funcionalidades de vector, ráster y "
+":doc:`Orfeo Toolbox <otb_overview>` , :doc:`GDAL/OGR <gdal_overview>` y "
+"muchos otros proveedores de algoritmos. Se ejecuta en Linux, Unix, Mac OSX y "
+"Windows y soporta numerosos formatos y funcionalidades de vector, ráster y "
 "base de datos."
 
 #: ../../build/doc/overview/qgis_overview.rstNone
@@ -95,7 +97,7 @@ msgstr "y mucho más..."
 
 #: ../../build/doc/overview/qgis_overview.rst:49
 msgid "Easy Viewing of many Vector and Raster Formats"
-msgstr "Fácil visualización de  varios Formatos Vectoriales y Ráster"
+msgstr "Fácil visualización de varios Formatos Vectoriales y Ráster"
 
 #: ../../build/doc/overview/qgis_overview.rst:51
 msgid ""
@@ -151,7 +153,7 @@ msgid ""
 "GPS tools to import and export GPX format, convert other GPS formats to GPX,"
 " or down/upload directly to a GPS unit"
 msgstr ""
-"Herramientas GPS para importar y exportar en formato GPX,  convertir otros "
+"Herramientas GPS para importar y exportar en formato GPX, convertir otros "
 "formatos GPS a GPX, o descargar/cargar directamente a una unidad GPS"
 
 #: ../../build/doc/overview/qgis_overview.rst:64
@@ -204,19 +206,19 @@ msgstr "Arquitectura de plugin extensible"
 
 #: ../../build/doc/overview/qgis_overview.rst:78
 msgid "Implemented Standards"
-msgstr "Estándares Implementados"
+msgstr "Estándares implementados"
 
 #: ../../build/doc/overview/qgis_overview.rst:80
 msgid "OGC standards compliant (WMS, WFS, ... )"
-msgstr " cumple con los estándares de la OGC (WMS, WFS, ... )"
+msgstr "cumple con los estándares de la OGC (WMS, WFS, ... )"
 
 #: ../../build/doc/overview/qgis_overview.rst:83
 msgid "Details"
 msgstr "Detalles"
 
 #: ../../build/doc/overview/qgis_overview.rst:85
-msgid "**Website:** https://www.qgis.org/en/site/"
-msgstr "**Sitio web:** https://www.qgis.org/en/site/"
+msgid "**Website:** https://www.qgis.org/"
+msgstr "**Sitio web:** https://www.qgis.org/"
 
 #: ../../build/doc/overview/qgis_overview.rst:87
 msgid "**Licence:** GNU General Public License (GPL) version 2"
@@ -238,10 +240,10 @@ msgstr ""
 #: ../../build/doc/overview/qgis_overview.rst:95
 msgid ""
 "**Commercial Support:** "
-"https://qgis.org/en/site/forusers/commercial_support.html"
+"https://qgis.org/en/site/resources/support/commercial-support"
 msgstr ""
 "**Soporte Comercial:** "
-"https://qgis.org/en/site/forusers/commercial_support.html"
+"https://qgis.org/en/site/resources/support/commercial-support"
 
 #: ../../build/doc/overview/qgis_overview.rst:101
 msgid "Quickstart"
@@ -249,8 +251,7 @@ msgstr "Inicio Rápido"
 
 #: ../../build/doc/overview/qgis_overview.rst:103
 msgid ":doc:`Quickstart documentation <../quickstart/qgis_quickstart>`"
-msgstr ""
-":doc:`Documentación de inicio rápido  <../quickstart/qgis_quickstart>`"
+msgstr ":doc:`Guía rápida <../quickstart/qgis_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"

@@ -1,26 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"POT-Creation-Date: 2022-07-13 22:52+0000\n"
+"PO-Revision-Date: 2023-04-02 18:08+0000\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"geoserver_overview/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: ../../build/doc/overview/geoserver_overview.rst:19
 msgid "GeoServer"
@@ -38,16 +39,16 @@ msgid ""
 "WFS, WCS, WPS, Tile Caching and more. GeoServer comes with a browser-based "
 "management interface and connects to multiple data sources at the back end."
 msgstr ""
-"A GeoServer egy web szerver, mely  lehetővé teszi önnek, hogy különböző "
+"A GeoServer egy web szerver, mely lehetővé teszi önnek, hogy különböző "
 "formátumú térképeket és adatokat szolgáltasson szabványos klienseknek mint "
 "például web böngészők és asztali GIS programok. Az adatokat szabványokon "
-"alapuló interfészeken keresztül publikálja, mint például WMS, WFS, WCS, WPS,"
-" Tile Cache és továbbiak. A GeoServer böngésző alapú kezelő felülettel "
+"alapuló interfészeken keresztül publikálja, mint például WMS, WFS, WCS, WPS, "
+"Tile Cache és továbbiak. A GeoServer böngésző alapú kezelő felülettel "
 "érkezik és több adatforráshoz kapcsolódik a szerver oldalon."
 
-#: ../../build/doc/overview/geoserver_overview.rstNone
+#: ../../build/doc/overview/geoserver_overview.rst-1
 msgid "geoserver screenshot"
-msgstr ""
+msgstr "geoserver képernyőképek"
 
 #: ../../build/doc/overview/geoserver_overview.rst:37
 msgid "Core Features"
@@ -99,13 +100,13 @@ msgid ""
 "and priorities are also implemented."
 msgstr ""
 "Mivel az adatokat képként szolgáltatjuk, az adatai teljes biztonságban "
-"vannak. Hacsak nem digitalizálják újra  nincs lehetőség az adatainak "
+"vannak. Hacsak nem digitalizálják újra nincs lehetőség az adatainak "
 "ellopására. Az egyes térképi rétegek megjelenése SLD szabvány "
 "felhasználásával vezérelhető, mely lehetővé teszi az elemek színezését és "
 "címkézését. Ezeket a szabályokat az OGC szűrőkkel kombinálva , méretarány "
 "függő stílusokat implementálhatunk, lehető téve, hogy több részlet jelenjen "
-"meg ahogy a felhasználó nagyít. Címke ütközést, csoportosítást és prioritást"
-" is implementálták."
+"meg ahogy a felhasználó nagyít. Címke ütközést, csoportosítást és prioritást "
+"is implementálták."
 
 #: ../../build/doc/overview/geoserver_overview.rst:52
 msgid "**Full vector data can be sent to a client using the WFS protocol:**"
@@ -122,10 +123,10 @@ msgid ""
 msgstr ""
 "WFS kliens vektor adatokat tud letölteni és térkép megjelenítéshez, "
 "térinformatikai elemzéshez és más műveletekhez használja azok. Ha "
-"engedélyezett a felhasználó módosíthatja is az adatokat, és  a WFS-T "
+"engedélyezett a felhasználó módosíthatja is az adatokat, és a WFS-T "
 "protokoll segítségével visszaküldi a kiszolgálónak, hogy frissítse a tárolt "
 "adatok. Az adatok GML (tömörített) valamint más szabványos formátumokban "
-"mint például shape fájl és json  továbbíthatók."
+"mint például shape fájl és json továbbíthatók."
 
 #: ../../build/doc/overview/geoserver_overview.rst:55
 msgid "**Raster data values can be sent to a client using the WCS protocol:**"
@@ -169,13 +170,12 @@ msgid ""
 "image delivery. It can also recombine tiles to work with regular WMS "
 "clients."
 msgstr ""
-"`GeoWebCache <https://www.geowebcache.org>`_, melyet integráltak a "
-"GeoServer-be, csempékre bontja és gyorstárazza a legkülönbözőbb forrásokból "
-"származó a térkép képeket, mint például a WMS. Különböző szolgáltatás "
-"interfészeket  (például WMS-C, WMTS, TMS, Google Maps KML, Virtual Earth) "
-"implementál, hogy  felgyorsítsa és optimalizálja a térkép képek letöltését. "
-"Ez újrakészítheti csempékkel is, hogy a szokásos WMS kliensekkel "
-"együttműködjön."
+"`GeoWebCache <https://www.geowebcache.org>`_, melyet integráltak a GeoServer-"
+"be, csempékre bontja és gyorstárazza a legkülönbözőbb forrásokból származó a "
+"térkép képeket, mint például a WMS. Különböző szolgáltatás interfészeket ("
+"például WMS-C, WMTS, TMS, Google Maps KML, Virtual Earth) implementál, hogy "
+"felgyorsítsa és optimalizálja a térkép képek letöltését. Ez újrakészítheti "
+"csempékkel is, hogy a szokásos WMS kliensekkel együttműködjön."
 
 #: ../../build/doc/overview/geoserver_overview.rst:64
 msgid "**Web Processing Service (WPS)**"
@@ -188,9 +188,9 @@ msgid ""
 " processes, and using rendering transformations to create powerful "
 "visualisations through the WMS interface."
 msgstr ""
-"Térinformatikai algoritmusok, melyeket a :doc:`JTS <jts_overview>` tartalmaz"
-" a GeoServer |WPS| interfészen keresztül meghívhatók. Ez magában foglalja a "
-"folyamatok láncolatát, és a megjelenítési transzformációk használatával  "
+"Térinformatikai algoritmusok, melyeket a :doc:`JTS <jts_overview>` tartalmaz "
+"a GeoServer |WPS| interfészen keresztül meghívhatók. Ez magában foglalja a "
+"folyamatok láncolatát, és a megjelenítési transzformációk használatával "
 "hatékony vizualizációkat hozhatunk létre a WMS interfészen keresztül."
 
 #: ../../build/doc/overview/geoserver_overview.rst:67
@@ -198,93 +198,93 @@ msgid "Implemented Standards"
 msgstr "Implementált szabványok"
 
 #: ../../build/doc/overview/geoserver_overview.rst:69
-msgid "Support of numerous Open Geospatial Consortium  (OGC) standards:"
+msgid "Support of numerous Open Geospatial Consortium (OGC) standards:"
 msgstr "Számos Open Geospatial Consortium (OGC) szabvány támogatása:"
 
-#: ../../build/doc/overview/geoserver_overview.rst:73
+#: ../../build/doc/overview/geoserver_overview.rst:71
 msgid "|WMS| (client/server)"
 msgstr "|WMS| (kliens/szerver)"
 
-#: ../../build/doc/overview/geoserver_overview.rst:74
+#: ../../build/doc/overview/geoserver_overview.rst:72
 msgid "|WMTS|"
 msgstr "|WMTS|"
 
-#: ../../build/doc/overview/geoserver_overview.rst:75
+#: ../../build/doc/overview/geoserver_overview.rst:73
 msgid "|WFS| (transactional)"
 msgstr "|WFS| (tranzakciósl)"
 
-#: ../../build/doc/overview/geoserver_overview.rst:76
+#: ../../build/doc/overview/geoserver_overview.rst:74
 msgid "|WCS|"
 msgstr "|WCS|"
 
-#: ../../build/doc/overview/geoserver_overview.rst:77
+#: ../../build/doc/overview/geoserver_overview.rst:75
 msgid "|FE|"
 msgstr "|FE|"
 
-#: ../../build/doc/overview/geoserver_overview.rst:78
+#: ../../build/doc/overview/geoserver_overview.rst:76
 msgid "|SLD|"
 msgstr "|SLD|"
 
-#: ../../build/doc/overview/geoserver_overview.rst:79
+#: ../../build/doc/overview/geoserver_overview.rst:77
 msgid "|GML|"
 msgstr "|GML|"
 
-#: ../../build/doc/overview/geoserver_overview.rst:80
+#: ../../build/doc/overview/geoserver_overview.rst:78
 msgid "|KML|"
 msgstr "|KML|"
 
-#: ../../build/doc/overview/geoserver_overview.rst:83
+#: ../../build/doc/overview/geoserver_overview.rst:81
 msgid "Details"
 msgstr "Részletek"
 
-#: ../../build/doc/overview/geoserver_overview.rst:85
-msgid "**Website:** http://geoserver.org/"
-msgstr "**Honlap:** http://geoserver.org/"
+#: ../../build/doc/overview/geoserver_overview.rst:83
+msgid "**Website:** https://geoserver.org/"
+msgstr "**Honlap:** https://geoserver.org/"
 
-#: ../../build/doc/overview/geoserver_overview.rst:87
+#: ../../build/doc/overview/geoserver_overview.rst:85
 msgid "**Licence:** GNU General Public License (GPL) version 2"
 msgstr "**Licenc:** GNU General Public License (GPL) version 2"
 
-#: ../../build/doc/overview/geoserver_overview.rst:89
+#: ../../build/doc/overview/geoserver_overview.rst:87
 msgid "**Software Version:** |version-geoserver|"
 msgstr "**Szoftver verzió:** |version-geoserver|"
 
-#: ../../build/doc/overview/geoserver_overview.rst:91
+#: ../../build/doc/overview/geoserver_overview.rst:89
 msgid ""
 "**Supported Platforms:** Java 8 (Oracle JDK and OpenJDK) on Windows, Linux, "
 "and Mac"
 msgstr ""
-"**Támogatott platformok:** Java 8 (Oracle JDK és OpenJDK)  Windows-on, "
-"Linux-on, és Mac-en"
+"**Támogatott platformok:** Java 8 (Oracle JDK és OpenJDK) Windows-on, Linux-"
+"on, és Mac-en"
 
-#: ../../build/doc/overview/geoserver_overview.rst:93
+#: ../../build/doc/overview/geoserver_overview.rst:91
 msgid "**API Interfaces:** WMS, WFS, WCS, REST"
 msgstr "**API Interfészek:** WMS, WFS, WCS, REST"
 
-#: ../../build/doc/overview/geoserver_overview.rst:95
-msgid "**Support:** http://geoserver.org/support/"
-msgstr "**Támogatás:** http://geoserver.org/support/"
+#: ../../build/doc/overview/geoserver_overview.rst:93
+msgid "**Support:** https://geoserver.org/support/"
+msgstr "**Támogatás:** https://geoserver.org/support/"
 
-#: ../../build/doc/overview/geoserver_overview.rst:100
+#: ../../build/doc/overview/geoserver_overview.rst:98
 msgid "Quickstart"
 msgstr "Gyorstalpaló"
 
-#: ../../build/doc/overview/geoserver_overview.rst:102
+#: ../../build/doc/overview/geoserver_overview.rst:100
 msgid ":doc:`Quickstart documentation <../quickstart/geoserver_quickstart>`"
 msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/geoserver_quickstart>`"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo közösség"

@@ -6,20 +6,21 @@
 # Translators:
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-20 21:55-0500\n"
-"PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"PO-Revision-Date: 2023-04-01 08:08+0000\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"ideditor_quickstart/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:20
 msgid "iD editor Quickstart"
@@ -94,12 +95,12 @@ msgstr ""
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:52
 msgid "selected on the map. You can add or edit tags from this panel."
-msgstr " Tegeket hozzáadhat és szerkeszthet ebből a panelből."
+msgstr "Tegeket hozzáadhat és szerkeszthet ebből a panelből."
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:54
 msgid "[2] **Tools:** This panel shows basic editing tools."
 msgstr ""
-"[2] ***Tools:** Ez a panel az alapvető szerkesztő eszközöket tartalmazza:"
+"[2] ***Tools:** Ez a panel az alapvető szerkesztő eszközöket tartalmazza."
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:56
 msgid "[3] **Map panel:** This panel show various configuration functions."
@@ -133,7 +134,7 @@ msgstr ""
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:287
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:287
 msgid "image14"
-msgstr ""
+msgstr "image14"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:67
 msgid "|image15|"
@@ -142,7 +143,7 @@ msgstr "|image15|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:289
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:289
 msgid "image15"
-msgstr ""
+msgstr "image15"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:69
 msgid ""
@@ -155,7 +156,7 @@ msgstr ""
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:290
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:290
 msgid "image16"
-msgstr ""
+msgstr "image16"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:72
 msgid ""
@@ -167,8 +168,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:74
 msgid ""
-"You can add your own map tiles by clicking on **Custom**. For example,   if "
-"you want to **add a Field Paper**  [1], click **Custom** then   click on the"
+"You can add your own map tiles by clicking on **Custom**. For example,  if "
+"you want to **add a Field Paper** [1], click **Custom** then  click on the"
 " magnifying glass (search) icon to open the following window:"
 msgstr ""
 "A **Custom**-ra kattintva hozzáadhatja a saját térképcsempéit. Például, ha "
@@ -183,14 +184,14 @@ msgstr "|image17|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:292
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:292
 msgid "image17"
-msgstr ""
+msgstr "image17"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:78
 msgid ""
 "Enter your **FieldPaper snapshot URL**, which will be something like this: "
 "http://fieldpapers.org/snapshots/cqhmf2v9#18/37.80593/-122.22715"
 msgstr ""
-"Írja be a  **FieldPaper snapshot URL**-jét ami valami ilyesmi: "
+"Írja be a **FieldPaper snapshot URL**-jét ami valami ilyesmi: "
 "http://fieldpapers.org/snapshots/cqhmf2v9#18/37.80593/-122.22715"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:81
@@ -218,13 +219,13 @@ msgstr "|osm gps traces|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:293
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:293
 msgid "osm gps traces"
-msgstr ""
+msgstr "osm gps nyomvonalak"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:87
 msgid ""
 "If there is imagery offset, it can be **corrected** by clicking **Fix "
 "Alignment**."
-msgstr ""
+msgstr "Ha képeltolódás van, az **javítható** a **Fix Alignment**-re kattintva."
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:90
 msgid "|image18|"
@@ -233,7 +234,7 @@ msgstr "|image18|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:294
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:294
 msgid "image18"
-msgstr ""
+msgstr "image18"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:92
 msgid ""
@@ -246,7 +247,7 @@ msgstr ""
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:295
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:295
 msgid "image20"
-msgstr ""
+msgstr "image20"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:96
 msgid "Adding points"
@@ -259,7 +260,7 @@ msgstr "Egy új pont hozzáadásához kattintson a **Point** gombot. |image3|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:264
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:264
 msgid "image3"
-msgstr ""
+msgstr "image3"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:100
 msgid ""
@@ -278,7 +279,7 @@ msgstr "|image21|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:296
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:296
 msgid "image21"
-msgstr ""
+msgstr "image21"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:107
 msgid ""
@@ -298,7 +299,7 @@ msgstr "|image22|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:297
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:297
 msgid "image22"
-msgstr ""
+msgstr "image22"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:113
 msgid ""
@@ -307,8 +308,10 @@ msgid ""
 "each feature will have different options, depending on what tag you choose "
 "from the feature panel."
 msgstr ""
-"Az űrlapokat használhatja a pont részletes adatainak megadására. Kitöltheti a kórház nevét, címét és/vagy más további információt. Ne feledje, hogy minden elemnek különböző beállításai lesznek, attól függően, hogy melyik címkét választja a funkciópanelből.\n"
-" "
+"Az űrlapokat használhatja a pont részletes adatainak megadására. Kitöltheti "
+"a kórház nevét, címét és/vagy más további információt. Ne feledje, hogy "
+"minden elemnek különböző beállításai lesznek, attól függően, hogy melyik "
+"címkét választja a funkciópanelből."
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:117
 msgid ""
@@ -329,7 +332,7 @@ msgstr ""
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:298
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:298
 msgid "image23"
-msgstr ""
+msgstr "image23"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:124
 msgid ""
@@ -350,7 +353,7 @@ msgstr "Egy új vonal hozzáadásához kattintson a **Line** gombra |image4|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:266
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:266
 msgid "image4"
-msgstr ""
+msgstr "image4"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:132
 msgid ""
@@ -371,7 +374,7 @@ msgstr "|image24|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:300
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:300
 msgid "image24"
-msgstr ""
+msgstr "image24"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:140
 msgid "Just as with a point, select the appropriate tags for your line."
@@ -398,7 +401,7 @@ msgstr ""
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:301
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:301
 msgid "image30"
-msgstr ""
+msgstr "image30"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:145
 msgid ""
@@ -421,7 +424,7 @@ msgstr "Pont leválasztása a vonalról. |image26|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:303
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:303
 msgid "image26"
-msgstr ""
+msgstr "image26"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:150
 msgid "Split a line into two lines from the point you’ve selected. |image27|"
@@ -430,7 +433,7 @@ msgstr "Vonal szétvágása két vonalra a szelektált pontnál. |image27|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:305
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:305
 msgid "image27"
-msgstr ""
+msgstr "image27"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:152
 msgid ""
@@ -453,7 +456,7 @@ msgstr ""
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:307
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:307
 msgid "image29"
-msgstr ""
+msgstr "image29"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:157
 msgid "Move line |image30|"
@@ -470,7 +473,7 @@ msgstr ""
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:309
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:309
 msgid "image31"
-msgstr ""
+msgstr "image31"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:160
 msgid "Reverse line direction (good for rivers & one-way streets) |image32|"
@@ -480,7 +483,7 @@ msgstr ""
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:311
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:311
 msgid "image32"
-msgstr ""
+msgstr "image32"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:163
 msgid "A \"line\" created in the iD editor is actually a \"way\" with \"tags\" on it."
@@ -522,7 +525,7 @@ msgstr "|image34|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:313
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:313
 msgid "image34"
-msgstr ""
+msgstr "image34"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:182
 msgid ""
@@ -543,7 +546,7 @@ msgstr ""
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:315
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:315
 msgid "image35"
-msgstr ""
+msgstr "image35"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:186
 msgid ""
@@ -575,16 +578,16 @@ msgid ""
 msgstr ""
 "Időnként egy olyan zárt idomot kell rajzolnia, mely nem csak egy külső "
 "határral, hanem egy vagy több belső határral rendelkezik. Gondoljon egy "
-"épületekre belső udvarral vagy tavakra szigetekkel. *Ne rajzolja ezeket  egy"
-" vonallal*, úgy hogy a belső körvonalat ráakasztja a külsőre. Inkább ezeket "
-"a körvonalakat rajzolja meg külön, kapcsolja a címkéket csak a külső "
+"épületekre belső udvarral vagy tavakra szigetekkel. *Ne rajzolja ezeket egy "
+"vonallal*, úgy hogy a belső körvonalat ráakasztja a külsőre. Inkább ezeket a "
+"körvonalakat rajzolja meg külön, kapcsolja a címkéket csak a külső "
 "körvonalhoz, válassza ki az összes körvonalat és nyomja meg a **c** "
 "billentyűt, hogy egy többszörös körvonallal rendelkező elemmé tegye őket "
 "össze."
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:0
 msgid "create multipolygon"
-msgstr ""
+msgstr "többrészű zárt alakzat létrehozása"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:207
 msgid ""
@@ -596,7 +599,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:0
 msgid "part of multipolygon"
-msgstr ""
+msgstr "többrészű zárt alakzat része"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:215
 msgid "Saving your changes"
@@ -618,7 +621,7 @@ msgstr "|image36|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:316
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:316
 msgid "image36"
-msgstr ""
+msgstr "image36"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:222
 msgid "Enter a comment about your edits and click **Save**."
@@ -664,7 +667,7 @@ msgstr "Magasság hozzáadása |image37|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:317
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:317
 msgid "image37"
-msgstr ""
+msgstr "image37"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:241
 msgid "Add notes |image38|"
@@ -673,7 +676,7 @@ msgstr "Megjegyzés hozzáadása |image38|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:319
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:319
 msgid "image38"
-msgstr ""
+msgstr "image38"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:242
 msgid "Add contacts / phone number |image39|"
@@ -682,7 +685,7 @@ msgstr "Kontaktok / telefonszámok hozzáadása |image39|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:321
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:321
 msgid "image39"
-msgstr ""
+msgstr "image39"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:243
 msgid "Add source tag |image40|"
@@ -691,7 +694,7 @@ msgstr "Forrás címke hozzáadása |image40|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:323
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:323
 msgid "image40"
-msgstr ""
+msgstr "image40"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:244
 msgid "Add website |image41|"
@@ -700,7 +703,7 @@ msgstr "Weboldal hozzáadása |image41|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:325
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:325
 msgid "image41"
-msgstr ""
+msgstr "image41"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:245
 msgid "Add accessibility information |image42|"
@@ -709,7 +712,7 @@ msgstr "Kisegítő lehetőségekkel kapcsolatos információk hozzáadása |imag
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:327
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:327
 msgid "image42"
-msgstr ""
+msgstr "image42"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:246
 msgid "Add Wikipedia link |image43|"
@@ -718,7 +721,7 @@ msgstr "Wikipedia link hozzáadása |image43|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:329
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:329
 msgid "image43"
-msgstr ""
+msgstr "image43"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:248
 msgid "Or, you can add custom tags by clicking **All tags**. |image44|"
@@ -728,7 +731,7 @@ msgstr ""
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:331
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:331
 msgid "image44"
-msgstr ""
+msgstr "image44"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:250
 msgid "This will show all the tags attached to the feature."
@@ -741,7 +744,7 @@ msgstr "|image45|"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:333
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:333
 msgid "image45"
-msgstr ""
+msgstr "image45"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:254
 msgid ""
@@ -760,8 +763,8 @@ msgid ""
 "Try the LearnOSM documentation, from which this quickstart was derived: "
 "https://learnosm.org/en/beginner/id-editor/"
 msgstr ""
-"Próbálja ki a LearnOSM dokumentációt, melyből ezt a gyorstalpaló származik:"
-"  https://learnosm.org/en/beginner/id-editor/"
+"Próbálja ki a LearnOSM dokumentációt, melyből ezt a gyorstalpaló származik: "
+"https://learnosm.org/en/beginner/id-editor/"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:262
 msgid "Website: https://wiki.openstreetmap.org/wiki/ID"
@@ -769,56 +772,56 @@ msgstr "Honlap: https://wiki.openstreetmap.org/wiki/ID"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:268
 msgid "image5"
-msgstr ""
+msgstr "image5"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:270
 msgid "image6"
-msgstr ""
+msgstr "image6"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:272
 msgid "image7"
-msgstr ""
+msgstr "image7"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:274
 msgid "image8"
-msgstr ""
+msgstr "image8"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:276
 msgid "image9"
-msgstr ""
+msgstr "image9"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:278
 msgid "image10"
-msgstr ""
+msgstr "image10"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:280
 msgid "image11"
-msgstr ""
+msgstr "image11"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:282
 msgid "image12"
-msgstr ""
+msgstr "image12"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:284
 msgid "Map Data"
-msgstr "Térkép adatok"
+msgstr "Térképi adatok"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:285
 msgid "image13"
-msgstr ""
+msgstr "image13"
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo közösség"

@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 15.0\n"
+"Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-13 22:52+0000\n"
+"POT-Creation-Date: 2024-08-17 15:05-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -53,7 +53,7 @@ msgid "From the application launch menu in the lower left corner."
 msgstr ""
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:41
-msgid "Choose  *Geospatial* -> *Spatial Tools* -> *Jupyter Notebook*"
+msgid "Choose *Geospatial* -> *Spatial Tools* -> *Jupyter Notebook*"
 msgstr ""
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:43
@@ -81,7 +81,7 @@ msgid "Cell-> Run Cells: will run the code in the cell with the focus and will m
 msgstr ""
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:75
-msgid "Cell-> Run All:  will run all the cells and show the results If everything worked as planned you should be able to see the results at the bottom of the page."
+msgid "Cell-> Run All: will run all the cells and show the results If everything worked as planned you should be able to see the results at the bottom of the page."
 msgstr ""
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:79
@@ -125,7 +125,7 @@ msgid "As result you will see that instead of ``Africa`` there will be ``Asia`` 
 msgstr ""
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:131
-msgid "What Next?"
+msgid "What next?"
 msgstr ""
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:133
@@ -156,6 +156,7 @@ msgstr ""
 msgid "OSGeo Project"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""

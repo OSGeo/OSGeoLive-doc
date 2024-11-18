@@ -7,20 +7,21 @@
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"PO-Revision-Date: 2024-10-14 00:38+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"openjump_quickstart/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:20
 msgid "OpenJUMP GIS Quickstart"
@@ -78,7 +79,7 @@ msgid ""
 "representation of the spatial data in each layer is given."
 msgstr ""
 "[4] A negyedik a térkép nézet. Ez az aktuális térkép, ahol az egyes rétegek "
-"grafikus megjelenítése található,"
+"grafikus megjelenítése található."
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:40
 msgid ""
@@ -127,7 +128,7 @@ msgid ""
 msgstr ""
 "Válassza ki a fájlt és kattintson a :guilabel:`Finish` gombot a "
 "párbeszédablakban. Néhány pillanat múlva látni fogja a shape adatait a "
-"térkép nézetben. Egy új  réteget jön létre az adataihoz a réteg listában. A "
+"térkép nézetben. Egy új réteget jön létre az adataihoz a réteg listában. A "
 "réteg neve megegyezik a shape fájl nevével."
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:56
@@ -162,8 +163,8 @@ msgstr ""
 "Válassza a :menuselection:`Style --> `Change Styles`-t. A stílus módosító "
 "ablak öt fület tartalmaz, melyek segítségével módosíthatja a réteg "
 "megjelenését a térkép nézetben. Ebbe beletartozik a vonal szín, a kitöltés "
-"szín, vonal stílus és vastagság, átlátszóság, címkék hozzáadása és a minimum"
-"  és maximális méretarány amiben a réteg megjelenik."
+"szín, vonal stílus és vastagság, átlátszóság, címkék hozzáadása és a minimum "
+"és maximális méretarány amiben a réteg megjelenik."
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:71
 msgid "Edit feature geometries in a layer"
@@ -211,10 +212,10 @@ msgid ""
 "gives you a button description). You should now see your mouse cursor change"
 " to a small black crosshair when you move it over the Map View."
 msgstr ""
-"Ezután kattintson a kék keresztet  középen sárga négyzettel tartalmazó "
+"Ezután kattintson a kék keresztet középen sárga négyzettel tartalmazó "
 "gombra, a :guilabel:`Move Vertex Tool`-ra (az egeret a gombokon tartva a "
-"gomb leírását kapjuk). Ha az egeret a térkép nézetbe húzza az egérmutató kis"
-" fekete keresztté változik."
+"gomb leírását kapjuk). Ha az egeret a térkép nézetbe húzza az egérmutató kis "
+"fekete keresztté változik."
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:93
 msgid ""
@@ -222,9 +223,8 @@ msgid ""
 "selected before by clicking on one of the vertices and dragging it (leaving "
 "the mouse button pressed)."
 msgstr ""
-"Használjuk a korábban kiválasztott geometria egy töréspontjának  "
-"mozgatására, kattintson egy töréspontra és húzza el azt (hagyja az "
-"egérgombot nyomva)."
+"Használjuk a korábban kiválasztott geometria egy töréspontjának mozgatására, "
+"kattintson egy töréspontra és húzza el azt (hagyja az egérgombot nyomva)."
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:99
 msgid "What next?"
@@ -272,16 +272,16 @@ msgstr ""
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo közösség"

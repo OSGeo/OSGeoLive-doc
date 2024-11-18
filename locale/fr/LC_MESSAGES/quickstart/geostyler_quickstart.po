@@ -115,7 +115,7 @@ msgstr ""
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:67
 msgid "The ``Style`` component provides a variety of styling functionality."
 msgstr ""
-"Le composant ``Style``  offre une variété de fonctionnalités de style."
+"Le composant ``Style`` offre une variété de fonctionnalités de style."
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:69
 msgid "After importing, you can use it in your render method like this:"
@@ -126,7 +126,7 @@ msgstr ""
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:77
 msgid "The ``Style`` component should now be visible in the browser."
 msgstr ""
-"Le composant ``Style``  doit maintenant être visible dans le navigateur."
+"Le composant ``Style`` doit maintenant être visible dans le navigateur."
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:82
 msgid "Integrate geostyler-sld-parser"
@@ -171,9 +171,9 @@ msgid ""
 " ``writeStyle()`` method of the geostyler-sld-parser within the "
 "``onStyleChange()`` method of the ``Style`` component."
 msgstr ""
-"Pour obtenir le style édité en tant que SLD à partir du composant  "
+"Pour obtenir le style édité en tant que SLD à partir du composant "
 "``Style``, vous pouvez utiliser la méthode ``writeStyle()`` du geostyler-"
-"sld-parser au sein de la méthode  ``onStyleChange()`` du composant "
+"sld-parser au sein de la méthode ``onStyleChange()`` du composant "
 "``Style``."
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:203
@@ -221,16 +221,16 @@ msgstr "`Site internet geostyler.org <https://geostyler.org>`__"
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "Pas de logo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "Projet OSGeo"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "Communauté OSGeo"

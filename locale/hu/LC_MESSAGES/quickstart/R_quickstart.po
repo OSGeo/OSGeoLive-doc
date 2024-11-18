@@ -1,34 +1,34 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
-# 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"PO-Revision-Date: 2023-06-24 20:08+0000\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"r_quickstart/hu/>\n"
 "Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:18
 msgid "R Quickstart"
 msgstr "R gyorstalpaló"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:20
-msgid ""
-"R is a free software environment for statistical computing and graphics."
+msgid "R is a free software environment for statistical computing and graphics."
 msgstr ""
 "Az R egy szabad szoftver környezet statisztikai számításokhoz és "
 "grafikákhoz."
@@ -63,32 +63,31 @@ msgstr "Indítsa el az R-t"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:35
 msgid ""
-"R is essentially a command-line program, although graphical user interfaces "
-"are available. You type a line of code at the prompt, press return, and the "
-"R interpreter evaluates it and prints the result."
+"R is essentially a command-line program, although graphical user "
+"interfaces are available. You type a line of code at the prompt, press "
+"return, and the R interpreter evaluates it and prints the result."
 msgstr ""
 "Az R lényegében egy parancssori program, bár a grafikus felhasználói "
-"felületek is  rendelkezésre állnak. Beír egy sornyi kódot a parancssorba, "
+"felületek is rendelkezésre állnak. Beír egy sornyi kódot a parancssorba, "
 "megnyomja a return gombot, és a R interpreter kiértékeli azt, és kiírja az "
 "eredményt."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:40
 msgid ""
-"Don't fear the command line - it is a source of great power. Using the up "
-"and down arrows to recall commands so you can edit mistakes. Hit CTRL-C if "
-"get stuck and you should get the prompt back."
+"Don't fear the command line - it is a source of great power. Using the up"
+" and down arrows to recall commands so you can edit mistakes. Hit CTRL-C "
+"if get stuck and you should get the prompt back."
 msgstr ""
-"Ne tartson a parancssortól - nagy lehetőségek forrása. A fel és le nyilakat "
-"használva visszahívhatja a korábbi parancsokat, így kijavíthatja a hibákat. "
-"Nyomjon CTRL.C-t, ha elakadt és a promptot szeretné visszakapni."
+"Ne tartson a parancssortól - nagy lehetőségek forrása. A fel és le "
+"nyilakat használva visszahívhatja a korábbi parancsokat, így kijavíthatja"
+" a hibákat. Nyomjon CTRL.C-t, ha elakadt és a promptot szeretné "
+"visszakapni."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:43
-msgid ""
-"Choose :menuselection:`Geospatial --> Spatial Tools --> R Statistics`. A "
-"terminal window opens running R."
+msgid "Choose |menu_R Statistics|. A terminal window opens running R."
 msgstr ""
-"Válassza a menüből :menuselection:`Geospatial --> Spatial Tools --> R "
-"Statistics`. Az R-t futtató terminálablak jelenik meg."
+"Válassza a menüből |menu_R Statistics|-t. Az R-t futtató terminálablak "
+"jelenik meg."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:45
 msgid "You can start with simple arithmetic."
@@ -100,8 +99,8 @@ msgid ""
 "built-in, and thousands more are available from packages in the `CRAN "
 "<https://cran.r-project.org/>`_ archive."
 msgstr ""
-"Az aritmetikai, trigonometriai és statisztikai függvények teljes készletét "
-"beépítették és további ezrek érhetők el a `CRAN "
+"Az aritmetikai, trigonometriai és statisztikai függvények teljes "
+"készletét beépítették és további ezrek érhetők el a `CRAN "
 "<https://cran.r-project.org/>`_ archívum csomagjaiból."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:66
@@ -110,9 +109,9 @@ msgid ""
 "``+``, which appears if R expects more input to make a valid expression. "
 "You'll see this if you forget a closing bracket or parenthesis."
 msgstr ""
-"Az R-ben a fő prompt a ``>``, de van egy folytató prompt ``+``, mely akkor "
-"jelenik meg ha az R további inputot vár teljes kifejezéshez. Akkor látja, ha"
-" elfelejt megadni egy záró szögletes vagy kerek zárójelet."
+"Az R-ben a fő prompt a ``>``, de van egy folytató prompt ``+``, mely "
+"akkor jelenik meg ha az R további inputot vár teljes kifejezéshez. Akkor "
+"látja, ha elfelejt megadni egy záró szögletes vagy kerek zárójelet."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:79
 msgid "Building data"
@@ -120,25 +119,25 @@ msgstr "Adatok előállítása"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:81
 msgid ""
-"You might be wondering what the mysterious 'one' in square brackets is doing"
-" in the output. This is telling you that the result is one number. R can "
-"store things in one-dimensional vectors, two-dimensional matrices, and "
-"multi-dimensional arrays. There are many functions that can generate these "
-"things. Here's a simple sequence:"
+"You might be wondering what the mysterious 'one' in square brackets is "
+"doing in the output. This is telling you that the result is one number. R"
+" can store things in one-dimensional vectors, two-dimensional matrices, "
+"and multi-dimensional arrays. There are many functions that can generate "
+"these things. Here's a simple sequence:"
 msgstr ""
-"Lehet, hogy csodálkozik, hogy mit csinálhat a titokzatos 'egy' a szögletes "
-"zárójelben az outputban. Ez azt jelenti, hogy az eredmény egy szám. Az R "
-"képes az adatokat egydimenziós vektorokban, kétdimenziós mátrixokban, és a "
-"többdimenziós tömbökben tárolni. Sok olyan függvény van, amely képes ezeket "
-"generálni. Íme egy egyszerű sorozat:"
+"Lehet, hogy csodálkozik, hogy mit csinálhat a titokzatos 'egy' a "
+"szögletes zárójelben az outputban. Ez azt jelenti, hogy az eredmény egy "
+"szám. Az R képes az adatokat egydimenziós vektorokban, kétdimenziós "
+"mátrixokban, és a többdimenziós tömbökben tárolni. Sok olyan függvény "
+"van, amely képes ezeket generálni. Íme egy egyszerű sorozat:"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:93
 msgid ""
-"Now you can see that the ``[9]`` is telling us that 4.555 is the ninth value"
-" in the vector."
+"Now you can see that the ``[9]`` is telling us that 4.555 is the ninth "
+"value in the vector."
 msgstr ""
-"Most láthatja, hogy a ``[9]`` azt jelenti, hogy a 4.555 a kilencedik érték a"
-" vektorban."
+"Most láthatja, hogy a ``[9]`` azt jelenti, hogy a 4.555 a kilencedik "
+"érték a vektorban."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:96
 msgid "If you construct a matrix you get row and column labels:"
@@ -146,35 +145,36 @@ msgstr "Ha mátrixot hoz létre sor és oszlop címkéket kap:"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:107
 msgid ""
-"Elements of matrices can be extracted using square brackets, with row and "
-"column indices separated by commas. Leave an index blank to get a whole row "
-"as a vector. Use a vector index to get multiple rows or columns as a smaller"
-" matrix:"
+"Elements of matrices can be extracted using square brackets, with row and"
+" column indices separated by commas. Leave an index blank to get a whole "
+"row as a vector. Use a vector index to get multiple rows or columns as a "
+"smaller matrix:"
 msgstr ""
 "A mátrix elemeinek eléréséhez szögletes zárójelek között, vesszővel "
 "elválasztva adjuk meg a sor és oszlop indexeket. Hagyja üresen az egyik "
 "indexet a a teljes sor vektorként megkapásához. Használjon egy vektor "
-"indexet  több sor vagy oszlop kivételéhez mint egy kisebb mátrix."
+"indexet több sor vagy oszlop kivételéhez mint egy kisebb mátrix:"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:125
 msgid ""
-"Data frames are data structures that mirror the kind of structure found in "
-"an RDBMS such as Postgres or MySQL. Each row can be thought of as a record, "
-"with columns being like fields in a database. As in a database, each field "
-"must be of the same type for each record."
+"Data frames are data structures that mirror the kind of structure found "
+"in an RDBMS such as Postgres or MySQL. Each row can be thought of as a "
+"record, with columns being like fields in a database. As in a database, "
+"each field must be of the same type for each record."
 msgstr ""
 "Az adatkeretek olyan adatstruktúrák, melyek az RDMS-ekben, mint például "
-"Postgres vagy MySQL, található adatstruktúrákat tükrözik. Minden sorra mint "
-"egy rekordra gondolhatunk, oszlopokkal mint a mezők az adatbázisban. Mint az"
-" adatbázisban, minden mezőnek azonos típusúnak kell lennie minden rekordban."
+"Postgres vagy MySQL, található adatstruktúrákat tükrözik. Minden sorra "
+"mint egy rekordra gondolhatunk, oszlopokkal mint a mezők az adatbázisban."
+" Mint az adatbázisban, minden mezőnek azonos típusúnak kell lennie minden"
+" rekordban."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:130
 msgid ""
 "In many ways they work like matrices, but you can also get and set the "
 "columns by name using $-notation:"
 msgstr ""
-"Sok szempontból ezek ugyanúgy működnek, mint a mátrixok, de megkaphatja és "
-"beállíthatja az oszlopokat név alapján is a $ jelölés használatával:"
+"Sok szempontból ezek ugyanúgy működnek, mint a mátrixok, de megkaphatja "
+"és beállíthatja az oszlopokat név alapján is a $ jelölés használatával:"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:174
 msgid "Loading map data"
@@ -182,8 +182,8 @@ msgstr "Térképi adatok betöltése"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:176
 msgid ""
-"There are many packages for spatial data manipulation and statistics. Some "
-"are included here, and some can be downloaded from CRAN."
+"There are many packages for spatial data manipulation and statistics. "
+"Some are included here, and some can be downloaded from CRAN."
 msgstr ""
 "Sok csomag létezik a téradatok kezelésére és statisztikákra. Néhányat "
 "bevettünk ide és néhány letölthető a CRAN-ról."
@@ -191,11 +191,11 @@ msgstr ""
 #: ../../build/doc/quickstart/R_quickstart.rst:179
 msgid ""
 "Here we will load two shapefiles - the country boundaries and populated "
-"places from the Natural Earth data. We use two add-on packages to get the "
-"spatial functionality:"
+"places from the Natural Earth data. We use two add-on packages to get the"
+" spatial functionality:"
 msgstr ""
-"Két shape fájlt fogunk betölteni itt - az országhatárok és lakott helyek a "
-"Natural Earth adatokból. Két kiegészítő csomagot használunk a térbeli "
+"Két shape fájlt fogunk betölteni itt - az országhatárok és lakott helyek "
+"a Natural Earth adatokból. Két kiegészítő csomagot használunk a térbeli "
 "funkcionalitás eléréséhez:"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:192
@@ -204,14 +204,14 @@ msgstr "Ez egy egyszerű világtérképet ad nekünk:"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:196
 msgid ""
-"When an OGR dataset is read into R in this way we get back an object that "
-"behaves in many ways like a data frame. We can use the ``admin`` field to "
-"subset the world data and just get the UK:"
+"When an OGR dataset is read into R in this way we get back an object that"
+" behaves in many ways like a data frame. We can use the ``admin`` field "
+"to subset the world data and just get the UK:"
 msgstr ""
 "Ha egy OGR adathalmazt olvasunk be az R-be, egy olyan objektumot kapunk, "
-"amely sok sok szempontból úgy viselkedik, mint egy adatkeret. Az ``admin`` "
-"mezőt használhatjuk, hogy a világ adatok részhalmazát kapjuk, csak az "
-"Egyesült Királyságot:"
+"amely sok szempontból úgy viselkedik, mint egy adatkeret. Az ``admin`` mezőt "
+"használhatjuk, hogy a világ adatok részhalmazát kapjuk, csak az Egyesült "
+"Királyságot:"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:207
 msgid ""
@@ -220,39 +220,40 @@ msgid ""
 "object doesn't have a coordinate system assigned to it."
 msgstr ""
 "Ez egy kicsit lapítottnak tűnik mindenkinek, aki itt lakik, mivel jobban "
-"ismerjük azt a koordináta-rendszert, amely a szélességi körünkhöz igazított."
-" Jelenleg nem rendeltünk még az objektumhoz koordináta-rendszert."
+"ismerjük azt a koordináta-rendszert, amely a szélességi körünkhöz "
+"igazított. Jelenleg nem rendeltünk még az objektumhoz koordináta-"
+"rendszert."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:211
 msgid ""
-"We need to assign a CRS to the object before we can transform it with the "
-"sf::st_transform function from the sf package. We transform to EPSG:27700 "
-"which is the Ordnance Survey of Great Britain grid system:"
+"We need to assign a CRS to the object before we can transform it with the"
+" sf::st_transform function from the sf package. We transform to "
+"EPSG:27700 which is the Ordnance Survey of Great Britain grid system:"
 msgstr ""
 "Az objektumhoz hozzá kell rendelnünk egy vetületi rendszert, mielőtt "
-"transzformálhatnánk az sf::st_transform függvénnyel az sf csomagból,  Az "
+"transzformálhatnánk az sf::st_transform függvénnyel az sf csomagból, Az "
 "EPSG:27700-be transzformálunk, mely Nagy-Britannia referencia rendszere:"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:222
 msgid ""
 "This plots the base map of the transformed data. Now we want to add some "
-"points from the populated place data set. Again we subset the points we want"
-" and transform them to Ordnance Survey Grid Reference coordinates:"
+"points from the populated place data set. Again we subset the points we "
+"want and transform them to Ordnance Survey Grid Reference coordinates:"
 msgstr ""
 "Ez kirajzolja a transzformált alaptérképet. Most hozzá akarunk adni néhány "
-"pontot a lakott területek adathalmazból.  Ismét egy részhalmazt hozunk létre"
-" a kívánt pontokból és Ordanance Survey koordinátákba transzformáljuk:"
+"pontot a lakott területek adathalmazból. Ismét egy részhalmazt hozunk létre "
+"a kívánt pontokból és Ordanance Survey koordinátákba transzformáljuk:"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:232
 msgid ""
 "We add these points to the base map, scaling their size by scaled square "
-"root of the population (because that makes a symbol with area proportional "
-"to population), set the colour to red and the plotting character to a solid "
-"blob:"
+"root of the population (because that makes a symbol with area "
+"proportional to population), set the colour to red and the plotting "
+"character to a solid blob:"
 msgstr ""
 "Ezeket a pontokat hozzáadjuk az alaptérképhez, a méretüket a népesség "
-"négyzetgyökére skálázzuk (mert ez a szimbólumot népesség területarányosra "
-"állítja), állítsuk a színt pirosra és tömör kitöltésű foltra:"
+"négyzetgyökére skálázzuk (mert ez a szimbólumot népesség területarányosra"
+" állítja), állítsuk a színt pirosra és tömör kitöltésű foltra:"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:252
 msgid "and our final image appears:"
@@ -260,14 +261,15 @@ msgstr "és megjelenik a végső képünk:"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:257
 msgid ""
-"To quit R, type ``q()`` and hit return. R will ask you if you want to save "
-"your workspace as an R data image file. When you start R again from a "
-"directory with a ``.RData`` file it will restore all its data from there."
+"To quit R, type ``q()`` and hit return. R will ask you if you want to "
+"save your workspace as an R data image file. When you start R again from "
+"a directory with a ``.RData`` file it will restore all its data from "
+"there."
 msgstr ""
-"Az R-ből kilépéshez írja be ``q()`` és return. Az R megkérdezi, hogy menteni"
-" akarja-e a munkaterületét mint egy R adat-kép fájl. Amikor az R-t olyan "
-"könyvtárból indítja, ahol egy ``.RData`` fájl található, visszaállítja abból"
-" az adatokat."
+"Az R-ből kilépéshez írja be ``q()`` és return. Az R megkérdezi, hogy "
+"menteni akarja-e a munkaterületét mint egy R adat-kép fájl. Amikor az R-t"
+" olyan könyvtárból indítja, ahol egy ``.RData`` fájl található, "
+"visszaállítja abból az adatokat."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:260
 msgid "Vignettes"
@@ -275,19 +277,19 @@ msgstr "Matricák"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:262
 msgid ""
-"In the past, the documentation for R packages tended to be tersely-written "
-"help pages for each function. Now package authors are encouraged to write a "
-"'vignette' as a friendly introduction to the package. If you run the "
-"``vignette()`` function with no arguments you will get the list of those "
-"vignettes on your system. Try ``vignette(\"sf1\")`` for a slightly technical"
-" introduction to the R spatial package."
+"In the past, the documentation for R packages tended to be tersely-"
+"written help pages for each function. Now package authors are encouraged "
+"to write a 'vignette' as a friendly introduction to the package. If you "
+"run the ``vignette()`` function with no arguments you will get the list "
+"of those vignettes on your system. Try ``vignette(\"sf1\")`` for a "
+"slightly technical introduction to the R spatial package."
 msgstr ""
-"Korábban az R csomagok dokumentációja minden függvényhez tömören megírt súgó"
-" oldalakra irányult. Most a csomag szerzőit arra bátorítjuk, hogy egy "
-"'matricát' írjanak mint a csomag egy barátságos bemutatása. Ha a "
-"``vignette()`` függvényt argumentumok nélkül futtatja a rendszerén található"
-" matricák listáját kapja. Próbálja ki a ``vignette(\"sf1\")`` parancsot egy "
-"technikai bevezetőhöz az R térbeli csomagjához."
+"Korábban az R csomagok dokumentációja minden függvényhez tömören megírt "
+"súgó oldalakra irányult. Most a csomag szerzőit arra bátorítjuk, hogy egy"
+" 'matricát' írjanak mint a csomag egy barátságos bemutatása. Ha a "
+"``vignette()`` függvényt argumentumok nélkül futtatja a rendszerén "
+"található matricák listáját kapja. Próbálja ki a ``vignette(\"sf1\")`` "
+"parancsot egy technikai bevezetőhöz az R térbeli csomagjához."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:269
 msgid "What next?"
@@ -297,11 +299,12 @@ msgstr "Mi a következő?"
 msgid ""
 "For general information about R, try the official `Introduction to R "
 "<https://cran.r-project.org/doc/manuals/R-intro.html>`_ or any of the "
-"documentation from the main `R Project <https://www.r-project.org/>`_ page."
+"documentation from the main `R Project <https://www.r-project.org/>`_ "
+"page."
 msgstr ""
 "Általános információkhoz az R-ről próbálja meg a hivatalos `Introduction to "
 "R <https://cran.r-project.org/doc/manuals/R-intro.html>`_ vagy bármely "
-"dokumentációt az  `R Project <https://www.r-project.org/>`_ fő oldaláról."
+"dokumentációt az `R Project <https://www.r-project.org/>`_ fő oldaláról."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:273
 msgid ""
@@ -315,23 +318,24 @@ msgstr ""
 
 #: ../../build/doc/quickstart/R_quickstart.rst:275
 msgid ""
-"You might also want to check out the `R-Spatial <https://www.rspatial.org>`_"
-" page."
+"You might also want to check out the `R-Spatial "
+"<https://www.rspatial.org>`_ page."
 msgstr ""
-"Érdemes megnéznie az \"R-Spatial <<https://www.rspatial.org> ' _ oldalt is."
+"Érdemes megnéznie az \"R-Spatial <<https://www.rspatial.org> ' _ oldalt "
+"is."
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo közösség"

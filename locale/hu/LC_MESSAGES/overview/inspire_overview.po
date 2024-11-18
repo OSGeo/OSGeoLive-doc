@@ -1,26 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2021
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2018-07-27 22:51+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2021\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"POT-Creation-Date: 2022-07-13 22:52+0000\n"
+"PO-Revision-Date: 2024-10-14 00:38+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"inspire_overview/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/inspire_overview.rst:15
 msgid "INSPIRE"
@@ -50,11 +51,11 @@ msgstr ""
 "átnyúló döntéshozatalt. Az INSPIRE az Európai Unió 27 tagállama által "
 "létrehozott és működtetett térinformatikai infrastruktúráján , az Európai "
 "Unió által létrehívott és működtetett térinformatikai infrastruktúrán "
-"alapul. Az irányelv 34, a környezetvédelmi alkalmazásokhoz szükséges téradat"
-" témát jelöl meg.  2007. május 15.-én lépett hatályba, és több lépésben "
+"alapul. Az irányelv 34, a környezetvédelmi alkalmazásokhoz szükséges téradat "
+"témát jelöl meg. 2007. május 15.-én lépett hatályba, és több lépésben "
 "hajtják végre , a 2021-es teljes körű implementálásig. Az INSPIRE technikai "
-"szintű, mely az :doc:`OGC <ogc_overview>`  és az `ISO "
-"<https://www.iso.org>`__ által kidolgozott nemzetközi szabványokon alapul."
+"szintű, mely az :doc:`OGC <ogc_overview>` és az `ISO <https://www.iso.org>`"
+"__ által kidolgozott nemzetközi szabványokon alapul."
 
 #: ../../build/doc/overview/inspire_overview.rst:19
 msgid ""
@@ -96,7 +97,7 @@ msgstr ""
 "szolgáltatások (az adatok felderítéséhez), megtekintési szolgáltatások (az "
 "adatok eléréséhez) és letöltési szolgáltatások (az adatok letöltéséhez);"
 
-#: ../../build/doc/overview/inspire_overview.rst:25
+#: ../../build/doc/overview/inspire_overview.rst:27
 msgid ""
 "harmonise their spatial datasets in accordance with `common data models "
 "<https://inspire.ec.europa.eu/Data-Models/Data-Specifications/2892>`__ "
@@ -106,11 +107,11 @@ msgstr ""
 "<https://inspire.ec.europa.eu/Data-Models/Data-Specifications/2892>`__ "
 "megfelelően az egyes tematikus témákhoz."
 
-#: ../../build/doc/overview/inspire_overview.rstNone
+#: ../../build/doc/overview/inspire_overview.rst-1
 msgid "inspire screenshot"
-msgstr ""
+msgstr "inspire képernyőképek"
 
-#: ../../build/doc/overview/inspire_overview.rst:33
+#: ../../build/doc/overview/inspire_overview.rst:37
 msgid ""
 "Currently, more than 7,000 European public institutions contribute their "
 "data to INSPIRE. A significant share of them make use of OSGeo software "
@@ -129,25 +130,25 @@ msgstr ""
 "implementációs eljárás során. Az :doc:`OSGeoLive <../index>` egy könnyű "
 "belépést biztosít az INSPIRE implementációs eljárásba, a növekvő számú "
 "készen álló példákkal, többféle alkalmazási területről, európai "
-"mintaadatokkal. Ezen túlmenően egy dedikált OSGeo wiki oldalt  `INSPIRE and "
+"mintaadatokkal. Ezen túlmenően egy dedikált OSGeo wiki oldalt `INSPIRE and "
 "OSGeo <https://wiki.osgeo.org/wiki/INSPIRE>`__ hoztak létre, mely "
 "áttekintést ad az INSPIRE jogi és technikai vonatkozásairól, válogatott "
-"felhasználási esetekkel és OSGeo szoftver projektek összefoglalásával együtt"
-" , melyet az alkalmazók használhatnak."
+"felhasználási esetekkel és OSGeo szoftver projektek összefoglalásával együtt "
+", melyet az alkalmazók használhatnak."
 
-#: ../../build/doc/overview/inspire_overview.rst:36
+#: ../../build/doc/overview/inspire_overview.rst:40
 msgid ""
-"The `Joint Research Centre (JRC) of the European Commission "
-"<https://ec.europa.eu/jrc/en>`__ develops and maintains a number of central "
-"software components, which help Member States in the INSPIRE implementation "
-"process:"
+"The `Joint Research Centre (JRC) of the European Commission <https://joint-"
+"research-centre.ec.europa.eu/index_en>`__ develops and maintains a number of"
+" central software components, which help Member States in the INSPIRE "
+"implementation process:"
 msgstr ""
-"Az `Európai Bizottság Közös Kutatóközpontja (JRC) "
-"<https://ec.europa.eu/jrc/en>`__ számos központi szoftverösszetevőt fejleszt"
-" és tart fenn, amelyek segítik a tagállamokat az INSPIRE végrehajtási "
-"folyamatában:"
+"Az `Európai Bizottság Közös Kutatóközpontja (JRC) <https://joint-research-"
+"centre.ec.europa.eu/index_en>`__ számos központi szoftverösszetevőt fejleszt"
+" és tart fenn, amelyek segítik a tagállamokat az INSPIRE implementálási "
+"folyamatban:"
 
-#: ../../build/doc/overview/inspire_overview.rst:38
+#: ../../build/doc/overview/inspire_overview.rst:45
 msgid ""
 "the `INSPIRE Registry <https://inspire.ec.europa.eu/registry>`__, based on "
 "the open source :doc:`Re3gistry <re3gistry_overview>` software, manages the "
@@ -159,7 +160,7 @@ msgstr ""
 "kezeli az INSPIRE erőforrások egyedi azonosítóit és leírását, például "
 "témákat, kódlistákat és alkalmazássémákat;"
 
-#: ../../build/doc/overview/inspire_overview.rst:39
+#: ../../build/doc/overview/inspire_overview.rst:49
 msgid ""
 "the `INSPIRE Reference Validator "
 "<https://inspire.ec.europa.eu/validator/about/>`__, based on the open source"
@@ -172,7 +173,7 @@ msgstr ""
 "lehetővé teszi annak tesztelését, hogy a metaadatok, adatkészletek és "
 "szolgáltatások megfelelnek-e az INSPIRE követelményeinek;"
 
-#: ../../build/doc/overview/inspire_overview.rst:40
+#: ../../build/doc/overview/inspire_overview.rst:53
 msgid ""
 "the `INSPIRE Geoportal <https://inspire-geoportal.ec.europa.eu/>`__ allows "
 "to discover, access and download all the datasets made available by Member "
@@ -182,26 +183,26 @@ msgstr ""
 "teszi a tagállamok által az INSPIRE keretében rendelkezésre bocsátott "
 "valamennyi adatkészlet felfedezését, elérését és letöltését."
 
-#: ../../build/doc/overview/inspire_overview.rst:48
+#: ../../build/doc/overview/inspire_overview.rst:60
 msgid "Details"
 msgstr "Részletek"
 
-#: ../../build/doc/overview/inspire_overview.rst:50
+#: ../../build/doc/overview/inspire_overview.rst:62
 msgid "**Website:** https://inspire.ec.europa.eu/about-inspire/563"
 msgstr "**Honlap:** https://inspire.ec.europa.eu/about-inspire/563"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo közösség"

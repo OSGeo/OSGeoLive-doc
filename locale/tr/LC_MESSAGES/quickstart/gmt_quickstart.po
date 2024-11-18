@@ -1,0 +1,199 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2022, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# abc Def <hdogan1974@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 17.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-17 21:23+0000\n"
+"PO-Revision-Date: 2024-10-22 05:45+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Turkish <https://weblate.osgeo.org/projects/osgeolive/"
+"gmt_quickstart/tr/>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Weblate 5.4.3\n"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:14
+msgid ""
+"This project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgstr ""
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:20
+msgid "GMT Quickstart"
+msgstr "GMT Hızlı başlangıç"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:22
+msgid ""
+"GMT is a collection of tools that allow users to manipulate (x,y) and "
+"(x,y,z) data sets (including filtering, trend fitting, gridding, projecting,"
+" etc.) and produce Encapsulated PostScript File (EPS) illustrations ranging "
+"from simple x-y plots through contour maps to artificially illuminated "
+"surfaces and 3-D perspective views in black and white, gray tone, hachure "
+"patterns, and 24-bit color."
+msgstr ""
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:29
+msgid ""
+"In this quick GMT tutorial we will use a digital terrain model (DTM) to "
+"generate a shaded relief map."
+msgstr ""
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:32
+msgid "Contents"
+msgstr ""
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:35
+msgid "Create a map"
+msgstr "Bir harita oluştur"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:37
+msgid ""
+"As our input dataset we will use a DTM from the GRASS GIS example dataset, "
+"which is accessible by GDAL using the GDAL-GRASS driver."
+msgstr ""
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:39
+msgid ""
+"From a quick look at the DTM metadata, open a terminal and use the GDAL "
+"command `gdalinfo`:"
+msgstr ""
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:51
+msgid ""
+"We can see the DTM is in a projected coordinate system and the data range is"
+" between 50 and 160 meters."
+msgstr ""
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:53
+msgid ""
+"We can convert the DTM in a GMT Compatible netCDF file format with "
+"`gdal_translate` as follow:"
+msgstr ""
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:59
+msgid ""
+"For our GMT example we will first transform the dataset into geographic "
+"coordinates Longitude-Latitude (EPSG:4326) using the `gdalwarp` command:"
+msgstr ""
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:66
+msgid "Make a color palette"
+msgstr ""
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:68
+msgid ""
+"To assign a color map to our grid we can make a GMT color palette tables "
+"with the `makecpt` command. We will set the range and number of colors with "
+"the flag `-T` and assign a colormap with the flag `-C`."
+msgstr ""
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:76
+msgid ""
+"You can experiment with other colortables, see `man gmt makecpt` for a "
+"complete list."
+msgstr ""
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:79
+msgid "Define the gradient"
+msgstr ""
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:81
+msgid ""
+"For our shaded relief example we need to specify show how the color "
+"intensity is distributed along the grid. To do so, we will compute the "
+"directional derivative, or gradient, from our grid using the `grdgradient` "
+"command. In `grdgradient` we will use the `-Ne` flag to normalize the output"
+" using a cumulative Laplace distribution and the `-A` flag for Azimuthal "
+"direction for a directional derivative."
+msgstr ""
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:89
+msgid ""
+"The output is a netCDF file which can then be used as color intensity by the"
+" `grdimage` command as follow:"
+msgstr ""
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:96
+msgid "Display the color bar"
+msgstr ""
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:98
+msgid "Finally we can add a colorbar with `psscale`:"
+msgstr ""
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:105
+msgid ""
+"Here the flag `-D` is used to select the colorbar position `TC: Top Center`,"
+" the size `5x0.25` expressed in inches `i` the orientation by `h: "
+"horizontal` and the flag `-By` to set a label `m` on the `y axis`."
+msgstr ""
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:108
+msgid "The output ps document should look like:"
+msgstr ""
+
+#: ../../build/doc/quickstart/gmt_quickstart.rstNone
+msgid "North Caroline - sample elevation data"
+msgstr ""
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:117
+msgid "Things to try"
+msgstr "Denenecek şeyler"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:122
+msgid "Install the following packages:"
+msgstr ""
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:124
+msgid "gmt-dcw"
+msgstr ""
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:125
+msgid "gmt-gshhg"
+msgstr ""
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:127
+msgid ""
+"`GMT tutorial <https://docs.generic-mapping-tools.org/latest/tutorial>`"
+msgstr ""
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:130
+msgid "What next?"
+msgstr "Sıradaki Ne?"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:132
+msgid "Documentation: https://docs.generic-mapping-tools.org/latest/"
+msgstr ""
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:133
+msgid "Website: https://www.generic-mapping-tools.org"
+msgstr ""
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:134
+msgid "Support: https://forum.generic-mapping-tools.org/"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:13
+msgid "vmdk"
+msgstr "vmdk"
+
+#: ../../build/doc/<rst_epilog>:16
+msgid "nologo"
+msgstr "nologo"
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

@@ -1,25 +1,31 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ko Nagase <nagase@georepublic.co.jp>, 2021
+# Ko Nagase <nagase@georepublic.co.jp>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"POT-Creation-Date: 2022-08-03 09:57+0000\n"
+"PO-Revision-Date: 2024-11-02 13:09+0000\n"
+"Last-Translator: Ko Nagase <geosanak@gmail.com>\n"
+"Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
+"udig_quickstart/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.4.3\n"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:14
+msgid ""
+"This project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgstr "このプロジェクトはOSGeoLive仮想マシンディスク(VMDK)にのみ含まれています"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:20
 msgid "uDig Quickstart"
@@ -30,7 +36,7 @@ msgid ""
 "uDig (User Friendly Internet Desktop GIS), is a GIS Desktop client for "
 "editing and viewing Geospatial data."
 msgstr ""
-"uDig(User Friendly Internet Desktop "
+"uDig (User Friendly Internet Desktop "
 "GIS)は、地理空間データを編集および表示するためのGISデスクトップクライアントです。"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:34
@@ -51,7 +57,7 @@ msgstr "スタイルを使用して地物に色を適用する"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:40
 msgid "Contents"
-msgstr ""
+msgstr "目次"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:43
 msgid "start uDig"
@@ -264,7 +270,7 @@ msgstr "|ZOOM| ズームツールはデフォルトで利用可能です"
 #: ../../build/doc/quickstart/udig_quickstart.rst:169
 #: ../../build/doc/quickstart/udig_quickstart.rst:169
 msgid "ZOOM"
-msgstr ""
+msgstr "ZOOM"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:171
 msgid ""
@@ -287,7 +293,7 @@ msgstr "|PAN| Panツールを使用すると、スケールを変更せずにマ
 #: ../../build/doc/quickstart/udig_quickstart.rst:178
 #: ../../build/doc/quickstart/udig_quickstart.rst:178
 msgid "PAN"
-msgstr ""
+msgstr "PAN"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:180
 msgid ""
@@ -302,7 +308,7 @@ msgstr "|SHOWALL| 全表示。いつでも全範囲に戻るために使用で�
 #: ../../build/doc/quickstart/udig_quickstart.rst:184
 #: ../../build/doc/quickstart/udig_quickstart.rst:184
 msgid "SHOWALL"
-msgstr ""
+msgstr "SHOWALL"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:186
 msgid ""
@@ -313,12 +319,12 @@ msgstr "|ZOOM_IN| Zoom In と |ZOOM_OUT| Zoom Out を使用すると、スケー
 #: ../../build/doc/quickstart/udig_quickstart.rst:188
 #: ../../build/doc/quickstart/udig_quickstart.rst:188
 msgid "ZOOM_IN"
-msgstr ""
+msgstr "ZOOM_IN"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:189
 #: ../../build/doc/quickstart/udig_quickstart.rst:189
 msgid "ZOOM_OUT"
-msgstr ""
+msgstr "ZOOM_OUT"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:191
 msgid ""
@@ -329,12 +335,12 @@ msgstr "メニューバーのナビゲーション |BNAV| 戻ると |FNAV| 進�
 #: ../../build/doc/quickstart/udig_quickstart.rst:194
 #: ../../build/doc/quickstart/udig_quickstart.rst:194
 msgid "BNAV"
-msgstr ""
+msgstr "BNAV"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:195
 #: ../../build/doc/quickstart/udig_quickstart.rst:195
 msgid "FNAV"
-msgstr ""
+msgstr "FNAV"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:197
 msgid ""
@@ -432,7 +438,7 @@ msgstr "|INFO| Info Toolに切り替えて、公園の1つをクリックする�
 #: ../../build/doc/quickstart/udig_quickstart.rst:247
 #: ../../build/doc/quickstart/udig_quickstart.rst:247
 msgid "INFO"
-msgstr ""
+msgstr "INFO"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:249
 msgid ""
@@ -472,14 +478,14 @@ msgstr "国の表示方法について、いくつかの点を変更します。
 msgid ""
 "Line: Click :guilabel:`Border`, click on the Color button and change the "
 "color to BLACK"
-msgstr "ライン:  :guilabel:`Border` をクリックし、色ボタンをクリックして、色を黒色に変更します。"
+msgstr "ライン: :guilabel:`Border` をクリックし、色ボタンをクリックして、色を黒色に変更します。"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:264
 msgid ""
 "Fill: On Tab :guilabel:`Fill` uncheck the box :guilabel:`enable/disable "
 "fill` to turn off fill"
 msgstr ""
-"ぬりつぶし: ぬりつぶしをオフにするには、タブ  :guilabel:`Fill` のチェックボックス   "
+"ぬりつぶし: ぬりつぶしをオフにするには、タブ :guilabel:`Fill` のチェックボックス  "
 ":guilabel:`enable/disable fill` のチェックをはずす"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:266
@@ -487,7 +493,7 @@ msgid ""
 "Label: On Tab :guilabel:`Labels` check the box :guilabel:`enable/disable "
 "labeling`, and choose the attribute **NAME** from the list of attributes"
 msgstr ""
-"ラベル:  タブ :guilabel:`Labels` のチェックボックス :guilabel:`enable/disable labeling` "
+"ラベル: タブ :guilabel:`Labels` のチェックボックス :guilabel:`enable/disable labeling` "
 "のチェックを いれ、一覧からアトリビュート **NAME** を選択します。"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:271
@@ -585,18 +591,18 @@ msgstr ""
 msgid "Available on http://udig.refractions.net/"
 msgstr "http://udig.refractions.net/ にあります。"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "ロゴなし"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo プロジェクト"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo コミュニティ"

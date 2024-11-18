@@ -29,7 +29,7 @@ Setting up your charts
 Before running OpenCPN on the LiveDVD you should activate the sample data.
 This is a condition of redistributing NOAA's free nautical charts. The first time you open OpenCPN you are presented with the option to do this automatically.
 
-#. From the Start menu, select :menuselection:`Geospatial --> Navigation and Maps --> OpenCPN`.
+#. From the Start menu, select |menu_opencpn|.
 #. Click :guilabel:`I agree` to the NOAA Nautical Chart Data Agreement.
 #. Click :guilabel:`OK` to agree to the OpenCPN license.
 
@@ -78,7 +78,7 @@ Run through the :doc:`XyGrib quickstart <../quickstart/xygrib_quickstart>` and l
 
 .. Note:: If you saved the XyGrib file into your home directory, navigate to :file:`/home` and select your ``user`` directory as the GRIB data directory. Then right click on the file listing's background to show hidden files, including the ``.xygrib`` directory that contains the GRIB download files.
 
-  There is no need to uncompress the file.  Click on the ">" to the left of the filename and select from the list of available forecast times.
+   There is no need to uncompress the file. Click on the ">" to the left of the filename and select from the list of available forecast times.
 
 
 What next?

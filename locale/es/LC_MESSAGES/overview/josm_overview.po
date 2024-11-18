@@ -7,20 +7,22 @@
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"PO-Revision-Date: 2024-08-17 19:57+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"josm_overview/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/josm_overview.rst:15
 msgid "JOSM"
@@ -162,9 +164,8 @@ msgid ""
 "<https://wiki.openstreetmap.org/wiki/API_v0.6>`_ to communicate with OSM "
 "database."
 msgstr ""
-"JOSM visualiza capas WMS, pero usa la `OSM API "
-"<https://wiki.openstreetmap.org/wiki/API_v0.6>`_ para  comunicarse con la "
-"base de datos OSM."
+"JOSM visualiza capas WMS, pero usa la `OSM API <https://wiki.openstreetmap."
+"org/wiki/API_v0.6>`_ para comunicarse con la base de datos OSM."
 
 #: ../../build/doc/overview/josm_overview.rst:73
 msgid "Details"
@@ -179,8 +180,8 @@ msgid ""
 "**Licence:** GNU General Public License (GPL) version 2. Note: JOSM plugins "
 "may use other licences."
 msgstr ""
-"**Licencia:** GNU General Public License (GPL) versión 2. Nota: plugins JOSM"
-"  pueden usar otras licencias."
+"**Licencia:** GNU General Public License (GPL) versión 2. Nota: plugins JOSM "
+"pueden usar otras licencias."
 
 #: ../../build/doc/overview/josm_overview.rst:79
 msgid "**Software Version:** r11427"
@@ -188,7 +189,7 @@ msgstr "**Versión de software:** r11427"
 
 #: ../../build/doc/overview/josm_overview.rst:81
 msgid "**Supported Platforms:** Windows, Linux, Mac"
-msgstr "**Plataformas compatibles:** GNU/Linux, Mac OSX, MS Windows"
+msgstr "**Plataformas compatibles:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/josm_overview.rst:83
 msgid "**API Interfaces:** Java"

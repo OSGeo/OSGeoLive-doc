@@ -5,22 +5,24 @@
 # 
 # Translators:
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2017
-# Nicolas Roelandt (Personnel), 2020
+# Nicolas Roelandt (Personnel), 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
-"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
+"PO-Revision-Date: 2024-10-14 15:25+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: French <https://weblate.osgeo.org/projects/osgeolive/"
+"cesium_overview/fr/>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/cesium_overview.rst:13
 msgid "Cesium"
@@ -32,7 +34,7 @@ msgstr "A propos"
 
 #: ../../build/doc/overview/cesium_overview.rst:19
 msgid "3D Globes and 2D Maps in a Browser"
-msgstr "Globes 3D et cartes 2D dans le navigateur "
+msgstr "Globes 3D et cartes 2D dans le navigateur"
 
 #: ../../build/doc/overview/cesium_overview.rst:21
 msgid ""
@@ -48,7 +50,7 @@ msgstr ""
 
 #: ../../build/doc/overview/cesium_overview.rstNone
 msgid "cesium screenshot"
-msgstr ""
+msgstr "capture d'écran de cesium"
 
 #: ../../build/doc/overview/cesium_overview.rst:30
 msgid "Core Features"
@@ -90,6 +92,8 @@ msgstr "Dessine des modèles 3D en utilisant COLLADA et glTF."
 msgid ""
 "Use `plugins <https://cesium.com/platform/cesiumjs/>`_ to extend Cesium."
 msgstr ""
+"Utilisez des `plugins <https://cesium.com/platform/cesiumjs/>`_ pour étendre"
+" Cesium."
 
 #: ../../build/doc/overview/cesium_overview.rst:40
 msgid "Built for Performance and Precision:"
@@ -119,7 +123,7 @@ msgid ""
 "including photogrammetry models, 3D buildings, CAD and BIM exterior and "
 "interiors, and point clouds."
 msgstr ""
-"Utilisez des `tuiles 3D  <https://cesium.com/blog/2017/07/12/the-next-"
+"Utilisez des `tuiles 3D <https://cesium.com/blog/2017/07/12/the-next-"
 "generation-of-3d-tiles/>`_ pour diffuser, styliser et interagir avec des "
 "données 3D hétérogènes, incluant des modèles photogrammétriques, des "
 "bâtiments 3D , des intérieurs et extérieurs CAO ou BIM et des nuages de "
@@ -127,7 +131,7 @@ msgstr ""
 
 #: ../../build/doc/overview/cesium_overview.rst:45
 msgid "Control the camera and create flight paths."
-msgstr "Contrôle la caméra et crée des trajectoires de vol"
+msgstr "Contrôle la caméra et crée des trajectoires de vol."
 
 #: ../../build/doc/overview/cesium_overview.rst:46
 msgid ""
@@ -175,15 +179,16 @@ msgstr "**Version du logiciel:** |version-cesium|"
 
 #: ../../build/doc/overview/cesium_overview.rst:65
 msgid ""
-"**Supported Platforms:**  Platform independent, depends only on a browser "
+"**Supported Platforms:** Platform independent, depends only on a browser "
 "which supports WebGL"
 msgstr ""
-"**Plates-formes supportées:**  Plateforme indépendant, dépend seulement d'un"
+"**Plates-formes supportées:** Plateforme indépendant, dépend seulement d'un"
 " navigateur qui supporte WebGL"
 
 #: ../../build/doc/overview/cesium_overview.rst:67
 msgid "**Community Support:** Forum at https://community.cesium.com"
 msgstr ""
+"**Support communautaire :** Forum à l'adresse https://community.cesium.com"
 
 #: ../../build/doc/overview/cesium_overview.rst:72
 msgid "Quickstart"
@@ -197,16 +202,16 @@ msgstr ""
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "Pas de logo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "Projet OSGeo"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "Communauté OSGeo"

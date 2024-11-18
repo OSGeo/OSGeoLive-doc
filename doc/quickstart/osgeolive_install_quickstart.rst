@@ -73,7 +73,7 @@ Go and get a cup of coffee while installation is in progress.
 That is it.
 
 .. tip:: Installation Tips
-      In case you are installing using a username other than "user", tomcat applications require to 
+      In case you are installing using a username other than "user", tomcat applications require to
       have permission to service command as described in https://trac.osgeo.org/osgeo/ticket/1153
 
 See Also:

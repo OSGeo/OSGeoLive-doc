@@ -1,26 +1,28 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2022
 # Vicky Vergara <vicky@georepublic.de>, 2022
-# 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"PO-Revision-Date: 2024-09-01 23:50+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"qgis_mapserver_quickstart/es/>\n"
 "Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:21
 msgid "QGIS Server Quickstart"
@@ -46,8 +48,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:28
 msgid "create a new QGIS project and open the WMS directly in a browser"
-msgstr ""
-"Crear un nuevo proyecto QGIS y abrir el WMS directamente en un navegador"
+msgstr "Crear un nuevo proyecto QGIS y abrir el WMS directamente en un navegador"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:32
 msgid "Contents"
@@ -62,25 +63,24 @@ msgid ""
 "OSGeoLive contains an example of web map viewer based on the GeoExt "
 "Javascript framework and using QGIS Server for rendering the map."
 msgstr ""
-"OSGeoLive contiene un ejemplo de visor web basado en el framework de GeoExt "
-"Javascript y utilizando servidor de QGIS para representar el mapa."
+"OSGeoLive contiene un ejemplo de visor web basado en el framework de "
+"GeoExt Javascript y utilizando servidor de QGIS para representar el mapa."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:39
 msgid ""
-"Click :menuselection:`Geospatial --> Web Services --> QGIS Server`. You "
-"should see a browser window with a web map viewer showing a world map."
+"Click |menu_qgis|. You should see a browser window with a web map viewer "
+"showing a world map."
 msgstr ""
-"Haga click en :menuselection:`Geospatial --> Servicios Web --> Servidor "
-"QGIS`. Debería ver una ventana del navegador con un visor de mapas web que "
-"muestra un mapa mundial."
+"Hacer click en |menu_qgis|. Debera ver una ventana del navegador con un "
+"visor de mapas web que muestra un mapa mundial."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:43
 msgid ""
 "Alternatively, you can access the application using a browser through "
 "http://localhost/qgis_server"
 msgstr ""
-"Alternativamente, se puede acceder a la aplicación mediante un navegador a "
-"través de http://localhost/qgis_server"
+"Alternativamente, se puede acceder a la aplicación mediante un navegador "
+"a través de http://localhost/qgis_server"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:48
 msgid "Edit QGIS project"
@@ -91,39 +91,34 @@ msgid "We will now change the map styling using QGIS."
 msgstr "Ahora vamos a cambiar el estilo del mapa utilizando QGIS."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:52
-msgid "Click :menuselection:`Geospatial --> Desktop GIS --> QGIS`."
-msgstr "Haga clic en: menuselection: 'Geoespacial--> Desktop GIS--> QGIS'."
+msgid "Click |menu_qgis|"
+msgstr "Hacer click en |menu_qgis|"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:54
 msgid "Choose :menuselection:`Project --> Open` from the menu bar."
-msgstr ""
-"Seleccione :menuselection:`Proyecto --> Abrir...` de la barra de menú."
+msgstr "Seleccione :menuselection:`Proyecto --> Abrir...` de la barra de menú."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:56
-msgid ""
-"Select :file:`QGIS-NaturalEarth-Example.qgs` and press :guilabel:`Open`."
-msgstr ""
-"Elegir :file:`QGIS-NaturalEarth-Example.qgs` y presione :guilabel:`Abrir`."
+msgid "Select :file:`QGIS-NaturalEarth-Example.qgs` and press :guilabel:`Open`."
+msgstr "Elegir :file:`QGIS-NaturalEarth-Example.qgs` y presione :guilabel:`Abrir`."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:58
 msgid ""
-"You should see the same world map rendered by QGIS. We will now change river"
-" styling and look at the result in the web map viewer."
+"You should see the same world map rendered by QGIS. We will now change "
+"river styling and look at the result in the web map viewer."
 msgstr ""
-"Debería ver el mismo mapamundi de QGIS. Ahora cambiaremos de estilo del río "
-"y veremos el resultado en el visualizador del mapa web."
+"Debería ver el mismo mapamundi de QGIS. Ahora cambiaremos de estilo del "
+"río y veremos el resultado en el visualizador del mapa web."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:61
-msgid ""
-"Double click :file:`ne_10m_rivers_lake_centerlines` in the Layers tree."
+msgid "Double click :file:`ne_10m_rivers_lake_centerlines` in the Layers tree."
 msgstr ""
 "Haga doble clic en :file:`ne_10m_rivers_lake_centerlines` en el árbol de "
 "capas."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:63
 msgid "Change the color in Outline Options to a different blue tone."
-msgstr ""
-"Cambiar el color en Opciones de Esquema para un tono de azul diferente."
+msgstr "Cambiar el color en Opciones de Esquema para un tono de azul diferente."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:65
 msgid "Press :guilabel:`OK`. Rivers are now rendered in a new color."
@@ -142,8 +137,7 @@ msgstr "Vuelva a abrir el navegador web."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:71
 msgid "Zoom in. You will now see rivers rendered in the same new color."
-msgstr ""
-"Acérquese. Ahora verá los ríos representados con ese mismo color nuevo."
+msgstr "Acérquese. Ahora verá los ríos representados con ese mismo color nuevo."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:75
 msgid "Create a new QGIS project"
@@ -178,7 +172,7 @@ msgstr "Pulse :guilabel:`Abrir`. Deberías ver todos los países del mundo."
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:89
 msgid "Use file name :file:`/home/user/world.qgs` and press :guilabel:`Save`."
 msgstr ""
-"Utilizar nombre de archivo  :file:`/home/user/world.qgs` y prensa "
+"Utilizar nombre de archivo :file:`/home/user/world.qgs` y prensa "
 ":guilabel:`Save`."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:91
@@ -198,11 +192,11 @@ msgstr "¿Qué sigue?"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:97
 msgid ""
-"To learn more about QGIS Server, a good starting point is the `QGIS Server "
-"Guide`_."
+"To learn more about QGIS Server, a good starting point is the `QGIS "
+"Server Guide`_."
 msgstr ""
-"Para obtener más información sobre QGIS Server, un buen punto de partida es "
-"la `Guía de QGIS Server`_."
+"Para obtener más información sobre QGIS Server, un buen punto de partida "
+"es la `Guía de QGIS Server`_."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:103
 msgid "Documentation:"
@@ -232,18 +226,18 @@ msgstr "Cliente de Web de QGIS:"
 msgid "https://github.com/qgis/qgis-web-client"
 msgstr "https://github.com/qgis/qgis-web-client"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr "nologo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "Proyecto OSGeo"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo Comunitario"

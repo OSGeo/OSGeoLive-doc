@@ -5,23 +5,24 @@
 # 
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
-# Astrid Emde <astrid_emde@osgeo.org>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Astrid Emde <astrid_emde@osgeo.org>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
-"Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
+"PO-Revision-Date: 2024-10-14 15:25+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
+"otb_overview/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/otb_overview.rst:17
 msgid "OTB"
@@ -89,7 +90,7 @@ msgid ""
 msgstr ""
 "Bildzugriff: optimierter Lese-/Schreibzugriff für die meisten "
 "Fernerkundungsrasterdatenformate (inklusive Jpeg2000), Metadatenzugriff und "
-"Visualisierung"
+"Visualisierung;"
 
 #: ../../build/doc/overview/otb_overview.rst:51
 msgid ""
@@ -106,11 +107,11 @@ msgstr "Bildfusion"
 
 #: ../../build/doc/overview/otb_overview.rst:54
 msgid "filtering: blurring, denoising, enhancement..."
-msgstr "Filtern: Blurring, Denoising, Verbesserungen"
+msgstr "Filtern: Blurring, Denoising, Verbesserungen..."
 
 #: ../../build/doc/overview/otb_overview.rst:55
 msgid "feature extraction: interest points, alignments, lines..."
-msgstr "Erzeugen von Objekten: Einfügen von Punkten, Anpassungen, Linien"
+msgstr "Erzeugen von Objekten: Einfügen von Punkten, Anpassungen, Linien..."
 
 #: ../../build/doc/overview/otb_overview.rst:56
 msgid "object detection"
@@ -122,7 +123,7 @@ msgid ""
 " sets..."
 msgstr ""
 "Bildsegmentierung: Region Growing, Watershed, Niveaumengenmethoden (Level "
-"Sets)"
+"Sets)..."
 
 #: ../../build/doc/overview/otb_overview.rst:58
 msgid "sample selection framework for training"
@@ -161,7 +162,7 @@ msgstr "SAR Datenanalyse: Kalibrierung, polarimetry analysis"
 
 #: ../../build/doc/overview/otb_overview.rst:67
 msgid "change detection."
-msgstr "Änderungsverfolgung"
+msgstr "Änderungsverfolgung."
 
 #: ../../build/doc/overview/otb_overview.rst:70
 msgid "Details"
@@ -193,7 +194,7 @@ msgstr "**Kommerzieller Support:** |SUPPORT|"
 
 #: ../../build/doc/overview/otb_overview.rst:88
 msgid "Quickstart"
-msgstr "Schnellstart"
+msgstr "Quickstart"
 
 #: ../../build/doc/overview/otb_overview.rst:90
 msgid ":doc:`Quickstart documentation <../quickstart/otb_quickstart>`"
@@ -201,16 +202,16 @@ msgstr ":doc:`Quickstart Dokumentation <../quickstart/otb_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Community"

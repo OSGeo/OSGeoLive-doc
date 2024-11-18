@@ -7,20 +7,22 @@
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2020-10-21 15:59+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"PO-Revision-Date: 2023-02-17 06:23+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"re3gistry_overview/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:18
 msgid "Re3gistry"
@@ -36,7 +38,7 @@ msgid ""
 "\"reference codes\". Initially developed as a central component of the EU's "
 ":doc:`INSPIRE <inspire_overview>` infrastructure, it provides a consistent "
 "central access point where labels and descriptions for reference codes can "
-"be easily browsed by humans and retrieved by machines.  Reference codes are "
+"be easily browsed by humans and retrieved by machines. Reference codes are "
 "exchanged between applications to uniquely reference some ‘thing’. They can "
 "be used to define sets of permissible values for a data field or to provide "
 "a reference or context for the data being exchanged. Examples are "
@@ -50,7 +52,7 @@ msgstr ""
 "componente central de la infraestructura :doc:`INSPIRE <inspire_overview>` "
 "de EU, proporciona un punto de acceso central consistente donde las "
 "etiquetas y descripciones de los códigos de referencia pueden ser fácilmente"
-" navegadas por los seres humanos y recuperadas por las máquinas.  Los "
+" navegadas por los seres humanos y recuperadas por las máquinas. Los "
 "códigos de referencia se intercambian entre aplicaciones para hacer "
 "referencia únicamente a alguna ‘cosa’. Se pueden utilizar para definir "
 "conjuntos de valores permitidos para un campo de datos o para proporcionar "
@@ -196,7 +198,7 @@ msgstr ""
 
 #: ../../build/doc/overview/re3gistry_overview.rst:83
 msgid "Quickstart"
-msgstr "Guía de Inicio Rápido"
+msgstr "Inicio Rápido"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:85
 msgid ":doc:`Quickstart documentation <../quickstart/re3gistry_quickstart>`"

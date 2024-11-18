@@ -4,23 +4,25 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Nicolas Roelandt (Personnel), 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Nicolas Roelandt (Personnel), 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-20 21:55-0500\n"
-"PO-Revision-Date: 2017-01-21 16:46+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
-"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
+"POT-Creation-Date: 2022-06-21 20:07+0000\n"
+"PO-Revision-Date: 2024-10-14 15:25+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: French <https://weblate.osgeo.org/projects/osgeolive/index/fr/"
+">\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/index.rst:3
 msgid "Welcome to |osgeolive-version|"
@@ -34,16 +36,16 @@ msgid ""
 "without installing anything. It is composed entirely of free software, "
 "allowing it to be freely distributed, duplicated and passed around."
 msgstr ""
-"`OSGeoLive <https://live.osgeo.org>`_ est un DVD amorçable autonome,  une "
+"`OSGeoLive <https://live.osgeo.org>`_ est un DVD amorçable autonome, une "
 "clé USB ou une machine virtuelle basée sur `Lubuntu <https://lubuntu.net>`_,"
 " qui vous permet d’essayer une grande variété de logiciels open source "
 "géospaciaux sans avoir à installer quoi que ce soit. Il est composé "
 "uniquement de logiciels libres, ce qui lui permet d’être librement "
 "distribué, dupliqué et le transmettre à n'importe qui."
 
-#: ../../build/doc/index.rstNone
+#: ../../build/doc/index.rst-1
 msgid "boot select"
-msgstr ""
+msgstr "Menu de démarrage"
 
 #: ../../build/doc/index.rst:17
 msgid ""
@@ -87,7 +89,7 @@ msgid ""
 "<https://www.osgeo.org/initiatives/geo-for-all/>`_."
 msgstr ""
 "OSGeoLive est un projet de la `fondation OSGeo <https://www.osgeo.org/>`_. "
-"La fondation OSGeo  est une organisation à but non lucratif supportant le "
+"La fondation OSGeo est une organisation à but non lucratif supportant le "
 "développement, la promotion et `l'éducation "
 "<https://www.osgeo.org/initiatives/geo-for-all/>`_ aux logiciels Open Source"
 " géospatiaux."
@@ -103,22 +105,24 @@ msgstr "Présentation"
 #: ../../build/doc/index.rst:70
 msgid ""
 "A half hour `presentation <presentation.html>`__, highlighting all OSGeoLive"
-" applications, is available with slides, script, and `abstract "
-"<presentation/abstract.txt>`_."
+" applications, is available with slides, script"
 msgstr ""
+"Une`présentation <presentation.html>`__ d'environ 30 minutes, mettant en "
+"avant les applications présentes dans OSGeoLive, et disponible avec "
+"transparents et script"
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "Pas de logo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "Projet OSGeo"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "Communauté OSGeo"

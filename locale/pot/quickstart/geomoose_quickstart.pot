@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 15.0\n"
+"Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-18 21:15+0000\n"
+"POT-Creation-Date: 2024-08-17 15:05-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -77,7 +77,7 @@ msgid "A \"Jump to\" location pull down list"
 msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:51
-msgid "Control tabs starting with \"Catalog\", for displaying the layer list.  As needed, additional tabs will appear: an \"Information\" readout, a \"Custom\" output tab, and others."
+msgid "Control tabs starting with \"Catalog\", for displaying the layer list. As needed, additional tabs will appear: an \"Information\" readout, a \"Custom\" output tab, and others."
 msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:53
@@ -105,7 +105,7 @@ msgid "Click a point on the map."
 msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:66
-msgid "The catalog along the left side of the Map view will change to the \"Super Tab\" - a place to where GeoMoose displays results of an action or asks for more information.  In this case, it will show the results of a query of each active and identifiable layer for the point that you clicked in the map."
+msgid "The catalog along the left side of the Map view will change to the \"Super Tab\" - a place to where GeoMoose displays results of an action or asks for more information. In this case, it will show the results of a query of each active and identifiable layer for the point that you clicked in the map."
 msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:69
@@ -125,7 +125,7 @@ msgid "Choose to measure a point, line, or polygon."
 msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:78
-msgid "Click on the map where you want to measure.  To measure a point, just click the point on the map you want to measure.  To measure a line or polygon click on the map for each vertex a of the line/polygon."
+msgid "Click on the map where you want to measure. To measure a point, just click the point on the map you want to measure. To measure a line or polygon click on the map for each vertex a of the line/polygon."
 msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:79
@@ -141,15 +141,15 @@ msgid "Select features"
 msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:92
-msgid "You can select features from a Point, Line, Polygon, or from an existing feature.  To start, click on the \"Select Features\" icon (mouse cursor icon), pick point, line, polygon and start drawing your selection in the map.  You can double click the last point to finish the drawing process.  If you want to adjust your selection you can do that with the \"Modify Feature\" option."
+msgid "You can select features from a Point, Line, Polygon, or from an existing feature. To start, click on the \"Select Features\" icon (mouse cursor icon), pick point, line, polygon and start drawing your selection in the map. You can double click the last point to finish the drawing process. If you want to adjust your selection you can do that with the \"Modify Feature\" option."
 msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:94
-msgid "You also have the option to select features based on a buffered version of what you drew.  The default is to buffer by \"0\" which does nothing.  Positive values expand what you drew by that distance, negative values shrink your drawing."
+msgid "You also have the option to select features based on a buffered version of what you drew. The default is to buffer by \"0\" which does nothing. Positive values expand what you drew by that distance, negative values shrink your drawing."
 msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:96
-msgid "Select which layer you want to select features from using the \"Query Layer\" select-box.  Note: not all layers can be used with the Select Features tool.  To be available for selection, a layer needs to be a vector layer and be configured for selection in the mapbook."
+msgid "Select which layer you want to select features from using the \"Query Layer\" select-box. Note: not all layers can be used with the Select Features tool. To be available for selection, a layer needs to be a vector layer and be configured for selection in the mapbook."
 msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:101
@@ -157,11 +157,11 @@ msgid "You may need to scroll down in the \"Super Tab\" to find the \"Go\" butto
 msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:106
-msgid "Finally, click the \"Go\" button to actually select the features.  GeoMoose will return a summary of what was selected in the Super Tab as well, highlight the selected features on the map, and show an attribute table of the selected features."
+msgid "Finally, click the \"Go\" button to actually select the features. GeoMoose will return a summary of what was selected in the Super Tab as well, highlight the selected features on the map, and show an attribute table of the selected features."
 msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:111
-msgid "If you hover over a line in the table, the corresponding feature on the map will be highlighted.  Additionally, you can use the funnel icons in the table header to further filter results, and use the triangle icons in the table header to sort results.  The results can be downloaded as a CSV file using the download icon to the top and left of the table."
+msgid "If you hover over a line in the table, the corresponding feature on the map will be highlighted. Additionally, you can use the funnel icons in the table header to further filter results, and use the triangle icons in the table header to sort results. The results can be downloaded as a CSV file using the download icon to the top and left of the table."
 msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:115
@@ -169,7 +169,7 @@ msgid "Search for features"
 msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:117
-msgid "You can also search for features by attribute.  To start, hover over the \"Search\" menu in the toolbar and then click on the \"Search Parcels\" icon.  Enter your search parameters in the Super Tab then click the \"Go!\" button."
+msgid "You can also search for features by attribute. To start, hover over the \"Search\" menu in the toolbar and then click on the \"Search Parcels\" icon. Enter your search parameters in the Super Tab then click the \"Go!\" button."
 msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:121
@@ -189,7 +189,7 @@ msgid "Print the map"
 msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:137
-msgid "This next screenshot shows how the Print tool looks as provided with demo for GeoMoose.  When you click on the Print tool, a dialog appears which asks for a title for the printed map, the page size and rotation, printed resolution, and shows a preview of what will be printed."
+msgid "This next screenshot shows how the Print tool looks as provided with demo for GeoMoose. When you click on the Print tool, a dialog appears which asks for a title for the printed map, the page size and rotation, printed resolution, and shows a preview of what will be printed."
 msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:141
@@ -232,6 +232,7 @@ msgstr ""
 msgid "OSGeo Project"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""

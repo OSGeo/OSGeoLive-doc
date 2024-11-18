@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 15.0\n"
+"Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-21 20:07+0000\n"
+"POT-Creation-Date: 2024-09-26 14:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,7 +28,7 @@ msgstr ""
 msgid "The 52°North |SOS| supports the interoperable provision of live and archived sensor observation data. A sensor could be a water level meter in a stream, a weather station, or an air quality monitoring station."
 msgstr ""
 
-#: ../../build/doc/overview/52nSOS_overview.rst:-1
+#: ../../build/doc/overview/52nSOS_overview.rst:None
 msgid "52nSOS screenshot"
 msgstr ""
 
@@ -41,7 +41,7 @@ msgid "**Browser Client**: The SOS is delivered with a browser based application
 msgstr ""
 
 #: ../../build/doc/overview/52nSOS_overview.rst:41
-msgid "**Helgoland**: The SOS contains the Helgoland application for  the exploration, analysis and visualization of Sensor Web data in various fields of use, e.g. hydrology, meteorology, environmental monitoring, traffic management."
+msgid "**Helgoland**: The SOS contains the Helgoland application for the exploration, analysis and visualization of Sensor Web data in various fields of use, e.g. hydrology, meteorology, environmental monitoring, traffic management."
 msgstr ""
 
 #: ../../build/doc/overview/52nSOS_overview.rst:44
@@ -229,26 +229,26 @@ msgid "**Community Support:** https://list.52north.org/mailman/listinfo/sensorwe
 msgstr ""
 
 #: ../../build/doc/overview/52nSOS_overview.rst:153
-msgid "**Community Website:** https://52north.org/research/research-labs/sensor-web/"
+msgid "**Community Website:** https://52north.org/research/scope/research-data-infrastructures/"
 msgstr ""
 
 #: ../../build/doc/overview/52nSOS_overview.rst:155
-msgid "**Other 52°North projects on OSGeoLive:** :doc:`WPS <./52nWPS_overview>`"
+msgid "This project is only included on the OSGeoLive virtual machine disk (VMDK)"
 msgstr ""
 
-#: ../../build/doc/overview/52nSOS_overview.rst:162
+#: ../../build/doc/overview/52nSOS_overview.rst:158
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/52nSOS_overview.rst:164
+#: ../../build/doc/overview/52nSOS_overview.rst:160
 msgid ":doc:`Quickstart documentation <../quickstart/52nSOS_quickstart>`"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr ""
 
@@ -256,6 +256,7 @@ msgstr ""
 msgid "OSGeo Project"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""

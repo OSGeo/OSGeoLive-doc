@@ -1,31 +1,33 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
-# Ko Nagase <nagase@georepublic.co.jp>, 2021
-# 
-#, fuzzy
+# Ko Nagase <nagase@georepublic.co.jp>, 2022
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-20 21:55-0500\n"
-"PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"PO-Revision-Date: 2024-11-02 13:09+0000\n"
+"Last-Translator: Ko Nagase <geosanak@gmail.com>\n"
+"Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
+"gmt_quickstart/ja/>\n"
 "Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.4.3\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:14
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+"This project is only included on the OSGeoLive virtual machine disk "
+"(VMDK)"
 msgstr "このプロジェクトはOSGeoLive仮想マシンディスク(VMDK)にのみ含まれています"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:20
@@ -35,11 +37,11 @@ msgstr "GMTクイックスタート"
 #: ../../build/doc/quickstart/gmt_quickstart.rst:22
 msgid ""
 "GMT is a collection of tools that allow users to manipulate (x,y) and "
-"(x,y,z) data sets (including filtering, trend fitting, gridding, projecting,"
-" etc.) and produce Encapsulated PostScript File (EPS) illustrations ranging "
-"from simple x-y plots through contour maps to artificially illuminated "
-"surfaces and 3-D perspective views in black and white, gray tone, hachure "
-"patterns, and 24-bit color."
+"(x,y,z) data sets (including filtering, trend fitting, gridding, "
+"projecting, etc.) and produce Encapsulated PostScript File (EPS) "
+"illustrations ranging from simple x-y plots through contour maps to "
+"artificially illuminated surfaces and 3-D perspective views in black and "
+"white, gray tone, hachure patterns, and 24-bit color."
 msgstr ""
 "GMT は、(x,y) および (x,y,z) のデータセット (フィルタリングや、トレンドフィッティング、グリッド化、投影などを含む) "
 "を操作して、Encapsulated PostScript File (EPS) イラストレーションを生成するためのツール群です。EPS "
@@ -54,7 +56,7 @@ msgstr "このクイックGMTチュートリアルでは、デジタル地形モ
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:32
 msgid "Contents"
-msgstr ""
+msgstr "目次"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:35
 msgid "Create a map"
@@ -62,8 +64,8 @@ msgstr "マップを作成する"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:37
 msgid ""
-"As our input dataset we will use a DTM from the GRASS GIS example dataset, "
-"which is accessible by GDAL using the GDAL-GRASS driver."
+"As our input dataset we will use a DTM from the GRASS GIS example "
+"dataset, which is accessible by GDAL using the GDAL-GRASS driver."
 msgstr ""
 "入力データセットとして、GRASS GISサンプルデータセットからのDTMを使用します。これは、GDAL-"
 "GRASSドライバを使用してGDALからアクセス可能です。"
@@ -76,8 +78,8 @@ msgstr "DTMメタデータをざっと見て、端末を開き、GDALコマン�
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:51
 msgid ""
-"We can see the DTM is in a projected coordinate system and the data range is"
-" between 50 and 160 meters."
+"We can see the DTM is in a projected coordinate system and the data range"
+" is between 50 and 160 meters."
 msgstr "DTMが投影された座標系にあり、データ範囲が50～160メートルであることがわかります。"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:53
@@ -99,8 +101,8 @@ msgstr "カラーパレットを作成"
 #: ../../build/doc/quickstart/gmt_quickstart.rst:68
 msgid ""
 "To assign a color map to our grid we can make a GMT color palette tables "
-"with the `makecpt` command. We will set the range and number of colors with "
-"the flag `-T` and assign a colormap with the flag `-C`."
+"with the `makecpt` command. We will set the range and number of colors "
+"with the flag `-T` and assign a colormap with the flag `-C`."
 msgstr ""
 "グリッドにカラーマップを割り当てるには、 `makecpt` コマンドを使用してGMTカラーパレットテーブルを作成します。 `-T` "
 "フラグで色の範囲と数を設定し、 `-C` フラグでカラーマップを割り当てます。"
@@ -119,10 +121,10 @@ msgstr "グラデーションを定義"
 msgid ""
 "For our shaded relief example we need to specify show how the color "
 "intensity is distributed along the grid. To do so, we will compute the "
-"directional derivative, or gradient, from our grid using the `grdgradient` "
-"command. In `grdgradient` we will use the `-Ne` flag to normalize the output"
-" using a cumulative Laplace distribution and the `-A` flag for Azimuthal "
-"direction for a directional derivative."
+"directional derivative, or gradient, from our grid using the "
+"`grdgradient` command. In `grdgradient` we will use the `-Ne` flag to "
+"normalize the output using a cumulative Laplace distribution and the `-A`"
+" flag for Azimuthal direction for a directional derivative."
 msgstr ""
 "シェーディングされた防災地図の例では、カラー強度がグリッドに沿ってどのように分布しているかを表示するように指定する必要があります。そのために、 "
 "`grdgradient` コマンドを使用して、グリッドから方向の導関数、つまり勾配を計算します。`grdgradient` では、 `-Ne` "
@@ -130,8 +132,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:89
 msgid ""
-"The output is a netCDF file which can then be used as color intensity by the"
-" `grdimage` command as follow:"
+"The output is a netCDF file which can then be used as color intensity by "
+"the `grdimage` command as follow:"
 msgstr "出力はnetCDFファイルで、次のように `grdimage` コマンドでカラー強度として使用できます。"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:96
@@ -144,9 +146,9 @@ msgstr "最後に、 `psscale` を使ってカラーバーを追加します:"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:105
 msgid ""
-"Here the flag `-D` is used to select the colorbar position `TC: Top Center`,"
-" the size `5x0.25` expressed in inches `i` the orientation by `h: "
-"horizontal` and the flag `-By` to set a label `m` on the `y axis`."
+"Here the flag `-D` is used to select the colorbar position `TC: Top "
+"Center`, the size `5x0.25` expressed in inches `i` the orientation by `h:"
+" horizontal` and the flag `-By` to set a label `m` on the `y axis`."
 msgstr ""
 "ここでは、フラグ `-D` を使用して、カラーバーの位置 `TC: Top Center` 、サイズ `5x0.25` をインチ `i` "
 "で表したもの、方向を `h:horizontal` で表したもの、フラグ `-By` を使用してラベル `m` を `y軸` "
@@ -156,86 +158,58 @@ msgstr ""
 msgid "The output ps document should look like:"
 msgstr "出力されるps文書は次のようになります:"
 
-#: ../../build/doc/quickstart/gmt_quickstart.rstNone
+#: ../../build/doc/quickstart/gmt_quickstart.rst:-1
 msgid "North Caroline - sample elevation data"
-msgstr ""
+msgstr "ノースカロライナ - サンプル標高データ"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:117
 msgid "Things to try"
 msgstr "試してみること"
 
-#: ../../build/doc/quickstart/gmt_quickstart.rst:119
-msgid "Install the following packages:"
-msgstr ""
-
-#: ../../build/doc/quickstart/gmt_quickstart.rst:121
-msgid "gmt-doc (and -pdf)"
-msgstr ""
-
 #: ../../build/doc/quickstart/gmt_quickstart.rst:122
-msgid "gmt-coast-low"
-msgstr ""
-
-#: ../../build/doc/quickstart/gmt_quickstart.rst:123
-msgid "gmt-examples"
-msgstr ""
+msgid "Install the following packages:"
+msgstr "以下のパッケージをインストールします:"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:124
-msgid "gmt-tutorial (and -pdf)"
-msgstr ""
+msgid "gmt-dcw"
+msgstr "gmt-dcw"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:125
+msgid "gmt-gshhg"
+msgstr "gmt-gshhg"
+
+#: ../../build/doc/quickstart/gmt_quickstart.rst:127
+msgid "`GMT tutorial <https://docs.generic-mapping-tools.org/latest/tutorial>`"
+msgstr "`GMT チュートリアル <https://docs.generic-mapping-tools.org/latest/tutorial>`"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:130
-msgid "Examples will be found in: `/usr/share/doc/gmt/examples`"
-msgstr ""
+msgid "What next?"
+msgstr "次のステップは何?"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:132
-msgid ""
-"Go through the `GMT tutorial "
-"<https://gmt.soest.hawaii.edu/doc/latest/GMT_Tutorial.html>` and follow the "
-"examples available in the `src` code. There are 30 example jobs built in, to"
-" test"
-msgstr ""
+msgid "Documentation: https://docs.generic-mapping-tools.org/latest/"
+msgstr "ドキュメント: https://docs.generic-mapping-tools.org/latest/"
 
-#: ../../build/doc/quickstart/gmt_quickstart.rst:137
-msgid "Open a terminal, then execute the example"
-msgstr ""
+#: ../../build/doc/quickstart/gmt_quickstart.rst:133
+msgid "Website: https://www.generic-mapping-tools.org"
+msgstr "Webサイト: https://www.generic-mapping-tools.org"
 
-#: ../../build/doc/quickstart/gmt_quickstart.rst:145
-msgid ""
-"To view the results in Ghostview (http://www.gnu.org/software/gv/) , use "
-"command `gv`. Type `q` to quit Ghostview."
-msgstr ""
-"結果をGhostview(http://www.gnu.org/software/gv/)で表示するには、コマンド `gv` を使用します。 `q` "
-"と入力してGhostviewを終了します。"
+#: ../../build/doc/quickstart/gmt_quickstart.rst:134
+msgid "Support: https://forum.generic-mapping-tools.org/"
+msgstr "サポート: https://forum.generic-mapping-tools.org/"
 
-#: ../../build/doc/quickstart/gmt_quickstart.rst:155
-msgid "What next?"
-msgstr "次のステップ"
-
-#: ../../build/doc/quickstart/gmt_quickstart.rst:157
-msgid "Documentation: https://www.soest.hawaii.edu/gmt/"
-msgstr ""
-
-#: ../../build/doc/quickstart/gmt_quickstart.rst:158
-msgid "Website: https://gmt.soest.hawaii.edu"
-msgstr "Webサイト: https://gmt.soest.hawaii.edu"
-
-#: ../../build/doc/quickstart/gmt_quickstart.rst:159
-msgid "Support: https://gmt.soest.hawaii.edu/projects/gmt/boards/1"
-msgstr "サポート: https://gmt.soest.hawaii.edu/projects/gmt/boards/1"
-
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "ロゴなし"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo プロジェクト"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo コミュニティ"

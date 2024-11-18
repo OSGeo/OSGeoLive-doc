@@ -6,22 +6,23 @@
 # Translators:
 # Manfred Reiter <ma.reiter@gmail.com>, 2017
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
-# Astrid Emde <astrid_emde@osgeo.org>, 2021
+# Astrid Emde <astrid_emde@osgeo.org>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2021\n"
-"Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
+"PO-Revision-Date: 2024-10-14 15:25+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
+"internationalisation_quickstart/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/internationalisation_quickstart.rst:10
 msgid "Change language or keyboard type"
@@ -56,7 +57,7 @@ msgstr "Drücke :guilabel: `Anmelden`."
 #: ../../build/doc/quickstart/internationalisation_quickstart.rst:21
 msgid "Repeat the process if needed or if you wish to change languages again."
 msgstr ""
-"Wiederholen Sie den Vorgang, wenn Sie eine andere Sprache einstellen möchten"
+"Wiederholen Sie den Vorgang, wenn Sie eine andere Sprache einstellen möchten."
 
 #: ../../build/doc/quickstart/internationalisation_quickstart.rst:0
 msgid "login screen"
@@ -114,21 +115,21 @@ msgid ""
 "You can now click on the keyboard icon on the lower desktop menu bar to "
 "select the active keyboard layout."
 msgstr ""
-"Nun können Sie über einen Klick auf das Tastatur-Symbol in der unteren Desktop-Leiste das \n"
-"aktive Tastaturlayout auswählen."
+"Nun können Sie über einen Klick auf das Tastatur-Symbol in der unteren "
+"Desktop-Leiste das aktive Tastaturlayout auswählen."
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Community"

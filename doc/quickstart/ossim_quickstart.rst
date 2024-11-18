@@ -28,7 +28,7 @@ Imagelinker
 ================================================================================
 
 * Start Imagelinker from its icon from the "Spatial Tools" folder on
-  the desktop 
+  the desktop
 
 * Open an image file, using :menuselection:`File --> Open Image --> /home/user/data/landsat/clip10.tif`
 
@@ -55,14 +55,14 @@ Imagelinker
   button in the large image window to sync that view with the other band windows.
   In a similar way you can press the pan button (hand icon) and then click to
   move along the road, and then the :guilabel:`Propagate` button to align the
-  other windows. 
+  other windows.
 
 
 OssimPlanet
 ================================================================================
 
 * Launch OssimPlanet from its icon in the "Desktop GIS" folder on the
-  desktop 
+  desktop
 
 * Select :menuselection:`File --> Open Image --> /home/user/data/landsat/clip10.tif`
   to load a LANDSAT image (or simply drag and drop the image into the main window).
@@ -83,7 +83,7 @@ OssimPlanet
   tree will zoom back out to a view of the whole planet, resetting the view.
 
 
-What Next?
+What next?
 ================================================================================
 
 * We have prepared a number of tutorials_ demonstrating more of

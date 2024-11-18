@@ -376,10 +376,21 @@ img.align-center, .figure.align-center, object.align-center {
 div.document {
     background-color: white;
     text-align: left;
-    //background-image: none;
-   // background-repeat: repeat-x;
+/*    background-image: none;
+    background-repeat: repeat-x;*/
 }
 
 div.related {
   text-align: center;
+}
+
+.admonition.note {
+  background-color: #f5f5f5;
+  border-left: 4px solid #007BFF;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.admonition-title {
+  font-weight: bold;
 }

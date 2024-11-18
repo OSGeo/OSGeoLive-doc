@@ -7,20 +7,22 @@
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"PO-Revision-Date: 2024-01-29 15:45+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"usb_quickstart/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.3\n"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:9
 msgid "Creating an OSGeoLive Bootable USB flash drive"
@@ -57,7 +59,7 @@ msgstr "Requisitos"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:18
 msgid "A USB flash drive (8+ Gig is recommended)."
-msgstr ""
+msgstr "Una unidad flash USB (se recomiendan más de 8 Giga)."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:19
 msgid ""
@@ -69,7 +71,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:23
 msgid "Creating bootable USB drive with ``dd`` under Linux"
-msgstr "Crear unidad USB de arranque con ``dd``  bajo Linux"
+msgstr "Crear unidad USB de arranque con ``dd`` bajo Linux"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:25
 msgid ""
@@ -77,17 +79,17 @@ msgid ""
 " support UEFI boot). Under Linux, these images can be written directly to "
 "the block device for a USB drive with the ``dd`` command-line utility:"
 msgstr ""
-"Las imágenes ISO para OSGeoLive 10.5 y versiones posteriores son * isohybrid"
-" * (y para amd64, también soporte de arranque UEFI). Bajo Linux, estas "
-"imágenes pueden escribirse directamente en el dispositivo de bloque para una"
-" unidad USB con la utilidad de línea de comandos  ``dd``:"
+"Las imágenes ISO para OSGeoLive 10.5 y versiones posteriores son * isohybrid "
+"* (y para amd64, también soporte de arranque UEFI). Bajo Linux, estas "
+"imágenes pueden escribirse directamente en el dispositivo de bloque para una "
+"unidad USB con la utilidad de línea de comandos ``dd``:"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:31
 msgid ""
 "``/dev/sdX`` is the block device for the USB drive, where ``X`` might be "
 "``b`` or ``c``."
 msgstr ""
-"``/dev/sdX``  es el dispositivo de bloque para la impulsión del USB, donde  "
+"``/dev/sdX`` es el dispositivo de bloque para la impulsión del USB, donde "
 "``X`` puede ser ``b`` or ``c``."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:32
@@ -104,7 +106,7 @@ msgstr "No se debe montar la unidad USB."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:34
 msgid "``sudo`` is not required if the command is run as ``root``."
-msgstr "``sudo``  no es necesario si se ejecuta el comando como ``root``."
+msgstr "``sudo`` no es necesario si se ejecuta el comando como ``root``."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:37
 msgid ""
@@ -129,12 +131,12 @@ msgstr ""
 #: ../../build/doc/quickstart/usb_quickstart.rst:45
 msgid ""
 "The version of Ubuntu you are running, needs to be the same or newer than "
-"the version of Lubuntu being installed onto your USB.  If installing "
+"the version of Lubuntu being installed onto your USB. If installing "
 "OSGeoLive 8.0 onto a USB, then you will need to be running Ubuntu 14.04 or "
 "newer."
 msgstr ""
 "La versión de Ubuntu está corriendo, debe ser igual o más reciente que la "
-"versión de Lubuntu se instala en tu USB.  Si instalar el 8.0 de OSGeoLive en"
+"versión de Lubuntu se instala en tu USB. Si instalar el 8.0 de OSGeoLive en"
 " un USB, entonces usted necesitará ejecutar Ubuntu 14.04 o más reciente."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:47
@@ -164,7 +166,7 @@ msgid ""
 "Select :menuselection:`System Tools --> Startup Disk Creator`, or search for"
 " `Startup Disk Creator` from the Unity desktop."
 msgstr ""
-"Seleccione :menuselection:`System Tools --> Startup Disk Creator` ,  o la "
+"Seleccione :menuselection:`System Tools --> Startup Disk Creator` , o la "
 "bucar `Startup Disk Creator` desde el escritorio Unity."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:61
@@ -193,7 +195,7 @@ msgstr "Seleccione: guilabel:`Make Startup Disk`"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:70
 msgid "Wait 20 minutes or so for the USB flash drive to be created."
-msgstr "Espere 20 minutos más o menos  para crear el USB flash drive."
+msgstr "Espere 20 minutos más o menos para crear el USB flash drive."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:74
 msgid "Booting from the USB drive:"
@@ -278,7 +280,7 @@ msgstr "Ejecutar según: :doc:`osgeolive_quickstart`"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:96
 msgid "See Also:"
-msgstr "Vea también:"
+msgstr "Ver también:"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:98
 msgid ":doc:`osgeolive_quickstart`"

@@ -1,26 +1,28 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2022
 # Vicky Vergara <vicky@georepublic.de>, 2022
-# 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2020-10-21 15:59+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"PO-Revision-Date: 2024-09-01 23:50+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"re3gistry_quickstart/es/>\n"
 "Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:12
 msgid "Re3gistry Quickstart"
@@ -28,33 +30,33 @@ msgstr "Inicio Rápido de Re3gistry"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:14
 msgid ""
-"The Re3gistry 2 is a reusable open source solution for managing and sharing "
-"\"reference codes\". It provides a consistent central access point where "
-"labels and descriptions for reference codes can be easily browsed by humans "
-"and retrieved by machines.  Reference codes are exchanged between "
-"applications to uniquely reference some ‘thing’. They can be used to define "
-"sets of permissible values for a data field or to provide a reference or "
-"context for the data being exchanged. Examples are enumerations, controlled "
-"vocabularies, taxonomies, thesauri or, simply, ‘lists of things’.  The "
-"Re3gistry 2 supports organisations in managing and updating reference codes "
-"in a consistent way."
+"The Re3gistry 2 is a reusable open source solution for managing and "
+"sharing \"reference codes\". It provides a consistent central access "
+"point where labels and descriptions for reference codes can be easily "
+"browsed by humans and retrieved by machines. Reference codes are "
+"exchanged between applications to uniquely reference some ‘thing’. They "
+"can be used to define sets of permissible values for a data field or to "
+"provide a reference or context for the data being exchanged. Examples are"
+" enumerations, controlled vocabularies, taxonomies, thesauri or, simply, "
+"‘lists of things’. The Re3gistry 2 supports organisations in managing "
+"and updating reference codes in a consistent way."
 msgstr ""
-"Re3gistry 2 es una solución reutilizable de código abierto para administrar "
-"y compartir \"códigos de referencia\". Proporciona un punto de acceso "
-"central consistente donde las etiquetas y descripciones de los códigos de "
-"referencia pueden ser fácilmente exploradas por los seres humanos y "
-"recuperadas por las máquinas. Los códigos de referencia se intercambian "
-"entre aplicaciones para hacer referencia únicamente a alguna 'cosa'. Se "
-"pueden utilizar para definir conjuntos de valores permitidos para un campo "
-"de datos o para proporcionar una referencia o contexto para los datos que se"
-" intercambian. Ejemplos son enumeraciones, vocabularios controlados, "
-"taxonomías, tesauros o, simplemente, ‘listas de cosas’.  Re3gistry 2 apoya a"
-" las organizaciones en la gestión y actualización de códigos de referencia "
-"de forma coherente."
+"Re3gistry 2 es una solución reutilizable de código abierto para "
+"administrar y compartir \"códigos de referencia\". Proporciona un punto "
+"de acceso central consistente donde las etiquetas y descripciones de los "
+"códigos de referencia pueden ser fácilmente exploradas por los seres "
+"humanos y recuperadas por las máquinas. Los códigos de referencia se "
+"intercambian entre aplicaciones para hacer referencia únicamente a alguna"
+" 'cosa'. Se pueden utilizar para definir conjuntos de valores permitidos "
+"para un campo de datos o para proporcionar una referencia o contexto para"
+" los datos que se intercambian. Ejemplos son enumeraciones, vocabularios "
+"controlados, taxonomías, tesauros o, simplemente, ‘listas de cosas’. "
+"Re3gistry 2 apoya a las organizaciones en la gestión y actualización de "
+"códigos de referencia de forma coherente."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:24
 msgid "This Quick Start describes how to:"
-msgstr "Esta Guía de Inicio Rápido describe como:"
+msgstr "Esta Guía de Inicio Rápido describe cómo:"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:26
 msgid "Start and install the Re3gistry using the wizard (first start only)"
@@ -74,21 +76,21 @@ msgstr "Iniciar Re3gistry"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:36
 msgid ""
-"Choose *'Start Re3gistry'* from the :menuselection:`Geospatial --> Web "
-"Services --> Re3gistry` menu.  The application will take a few moments to "
-"start up. Firefox opens the *Re3gistry landing page* (you can also open this"
-" manually by pointing your browser to http://localhost:8080/re3gistry2)."
+"Choose *'Start Re3gistry'* from the |menu_re3gistry-Start| menu. The "
+"application will take a few moments to start up. Firefox opens the "
+"*Re3gistry landing page* (you can also open this manually by pointing "
+"your browser to http://localhost:8080/re3gistry2)."
 msgstr ""
-"Elija *'Start Re3gistry'* en el menú ::menuselection:`Geospatial --> Web "
-"Services --> Re3gistry`. La aplicación tardará unos minutos en iniciarse. "
-"Firefox abre la página de destino *Re3gistry* (también puedes abrirla "
-"manualmente apuntando tu navegador a http://localhost:8080/re3gistry2)."
+"Elija *'Start Re3gistry'* en el menú |menu_re3gistry-Start|. La aplicación "
+"tardará unos minutos en iniciarse. Firefox abre la página de destino "
+"*Re3gistry* (también puedes abrirla manualmente apuntando tu navegador a "
+"http://localhost:8080/re3gistry2)."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:41
 msgid ""
 "If this is the first start, the Re3gistry will launch the installation "
-"wizard. This wizard will guide the user to the setup and first run of the "
-"tool."
+"wizard. This wizard will guide the user to the setup and first run of the"
+" tool."
 msgstr ""
 "Si se trata del primer inicio, Re3gistry iniciará el asistente de "
 "instalación. Este asistente guiará al usuario a la configuración y la "
@@ -103,13 +105,13 @@ msgstr ""
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:46
 msgid ""
 "The \"Registry manager\" page allows you to define the account for the "
-"system administration (Registry manager). Insert a valid e-mail address and "
-"a password. Then click on \"Save and continue\"."
+"system administration (Registry manager). Insert a valid e-mail address "
+"and a password. Then click on \"Save and continue\"."
 msgstr ""
-"La página \"Administrador de registros\" le permite definir la cuenta para "
-"la administración del sistema (Administrador de registros). Inserte una "
-"dirección de correo electrónico válida y una contraseña. A continuación, "
-"haga clic en \"Guardar y continuar\"."
+"La página \"Administrador de registros\" le permite definir la cuenta "
+"para la administración del sistema (Administrador de registros). Inserte "
+"una dirección de correo electrónico válida y una contraseña. A "
+"continuación, haga clic en \"Guardar y continuar\"."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:49
 msgid "The next step allows you to choose between 2 options:"
@@ -120,20 +122,20 @@ msgid ""
 "Installation: choose this option if you want to install the Re3gistry "
 "software for the first time and to create a registry from scratch."
 msgstr ""
-"Instalación: elija esta opción si desea instalar el software Re3gistry por "
-"primera vez y crear un registro desde cero."
+"Instalación: elija esta opción si desea instalar el software Re3gistry "
+"por primera vez y crear un registro desde cero."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:54
 msgid ""
 "Migration: choose this option if you want to upgrade a pre-existing "
-"Re3gistry instance. This option will keep your settings and content. Note "
-"that this option will only work on an existing instance running on Re3gistry"
-" version 1.3.X."
+"Re3gistry instance. This option will keep your settings and content. Note"
+" that this option will only work on an existing instance running on "
+"Re3gistry version 1.3.X."
 msgstr ""
-"Migración: elija esta opción si desea actualizar una instancia de Re3gistry "
-"preexistente. Esta opción mantendrá la configuración y el contenido. Tenga "
-"en cuenta que esta opción solo funcionará en una instancia existente que se "
-"ejecute en Re3gistry versión 1.3.X."
+"Migración: elija esta opción si desea actualizar una instancia de "
+"Re3gistry preexistente. Esta opción mantendrá la configuración y el "
+"contenido. Tenga en cuenta que esta opción solo funcionará en una "
+"instancia existente que se ejecute en Re3gistry versión 1.3.X."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:59
 msgid "**Installation option**"
@@ -141,11 +143,11 @@ msgstr "**Opción de instalación**"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:61
 msgid ""
-"In case the \"Installation\" option is chosen, the basic configuration for "
-"the new registry will be requested."
+"In case the \"Installation\" option is chosen, the basic configuration "
+"for the new registry will be requested."
 msgstr ""
-"En caso de elegir la opción \"Instalación\", se solicitará la configuración "
-"básica para el nuevo registro."
+"En caso de elegir la opción \"Instalación\", se solicitará la "
+"configuración básica para el nuevo registro."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:64
 msgid ""
@@ -154,23 +156,23 @@ msgid ""
 "languages."
 msgstr ""
 "Idiomas del sistema: los idiomas del sistema son los idiomas admitidos y "
-"manejados por el Re3gistry 2. Tenga en cuenta que puede seleccionar uno o "
-"varios idiomas del sistema."
+"manejados por el Re3gistry 2. Tenga en cuenta que puede seleccionar uno o"
+" varios idiomas del sistema."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:66
 msgid ""
-"Master language: the master language is the one used by the Re3gistry 2 to "
-"handle multilingualism. Note that this will require all content to be "
+"Master language: the master language is the one used by the Re3gistry 2 "
+"to handle multilingualism. Note that this will require all content to be "
 "available in the chosen master language."
 msgstr ""
 "Lenguaje maestro: el lenguaje maestro es el utilizado por el Re3gistry 2 "
-"para manejar el plurilenguaje. Tenga en cuenta que esto requerirá que todo "
-"el contenido esté disponible en el idioma maestro elegido."
+"para manejar el plurilenguaje. Tenga en cuenta que esto requerirá que "
+"todo el contenido esté disponible en el idioma maestro elegido."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:69
 msgid ""
-"Base URI: the base URI will be part of the public URL, generally this should"
-" match with your own domain name: `**http://example.com**/registry`"
+"Base URI: the base URI will be part of the public URL, generally this "
+"should match with your own domain name: `**http://example.com**/registry`"
 msgstr ""
 "URI base: el URI base formará parte de la dirección URL pública, "
 "generalmente debe coincidir con su propio nombre de dominio: "
@@ -178,8 +180,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:71
 msgid ""
-"Local ID: the local ID will be part of the public URL, generally the path "
-"following the domain name: `http://example.com/**registry**`"
+"Local ID: the local ID will be part of the public URL, generally the path"
+" following the domain name: `http://example.com/**registry**`"
 msgstr ""
 "ID local: el ID local formará parte de la dirección URL pública, "
 "generalmente la ruta de acceso que sigue al nombre de dominio: "
@@ -195,13 +197,13 @@ msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:75
 msgid ""
-"Content summary: this text should shortly describe what would be available "
-"under your Re3gistry 2 instance. It will be shown in the registry’s landing "
-"page."
+"Content summary: this text should shortly describe what would be "
+"available under your Re3gistry 2 instance. It will be shown in the "
+"registry’s landing page."
 msgstr ""
-"Resumen de contenido: este texto debería describir en breve lo que estaría "
-"disponible en su instancia de Re3gistry 2. Se mostrará en la página de "
-"destino del registro."
+"Resumen de contenido: este texto debería describir en breve lo que "
+"estaría disponible en su instancia de Re3gistry 2. Se mostrará en la "
+"página de destino del registro."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:79
 msgid "After filling all the information, click on \"Save and continue\"."
@@ -211,14 +213,15 @@ msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:81
 msgid ""
-"The next step will present a summary of the information inserted. If all the"
-" fields are correct, click on \"Install\" to begin the installation.  Once "
-"the installation is finished, the user is redirected to the login page."
+"The next step will present a summary of the information inserted. If all "
+"the fields are correct, click on \"Install\" to begin the installation. "
+"Once the installation is finished, the user is redirected to the login "
+"page."
 msgstr ""
 "El siguiente paso presentará un resumen de la información insertada. Si "
-"todos los campos son correctos, haga clic en \"Instalar\" para iniciar la "
-"instalación. Una vez finalizada la instalación, se redirige al usuario a la "
-"página de inicio de sesión."
+"todos los campos son correctos, haga clic en \"Instalar\" para iniciar la"
+" instalación. Una vez finalizada la instalación, se redirige al usuario a"
+" la página de inicio de sesión."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:85
 msgid "**Migration option**"
@@ -226,11 +229,11 @@ msgstr "**Opción de migración**"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:87
 msgid ""
-"In case the \"Migration\" option is chosen, the details of the database from"
-" the existing Re3gistry installation are requested."
+"In case the \"Migration\" option is chosen, the details of the database "
+"from the existing Re3gistry installation are requested."
 msgstr ""
-"En caso de elegir la opción \"Migración\", se solicitan los detalles de la "
-"base de datos de la instalación de Re3gistry existente."
+"En caso de elegir la opción \"Migración\", se solicitan los detalles de "
+"la base de datos de la instalación de Re3gistry existente."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:90
 msgid "Fill the requested fields and"
@@ -238,20 +241,21 @@ msgstr "Rellene los campos solicitados y"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:91
 msgid ""
-"click the \"Save and continue\" button. You will then get a page containing "
-"a summary of the data retrieved from the existing instance of the Re3gistry."
+"click the \"Save and continue\" button. You will then get a page "
+"containing a summary of the data retrieved from the existing instance of "
+"the Re3gistry."
 msgstr ""
-"haga clic en el botón \"Guardar y continuar\". A continuación, obtendrá una "
-"página que contiene un resumen de los datos recuperados de la instancia "
-"existente de Re3gistry."
+"haga clic en el botón \"Guardar y continuar\". A continuación, obtendrá "
+"una página que contiene un resumen de los datos recuperados de la "
+"instancia existente de Re3gistry."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:93
 msgid ""
 "Click on \"Install\" to begin the migration. An information page will be "
 "shown."
 msgstr ""
-"Haga clic en \"Instalar\" para iniciar la migración. Se mostrará una página "
-"de información."
+"Haga clic en \"Instalar\" para iniciar la migración. Se mostrará una "
+"página de información."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:95
 msgid ""
@@ -259,8 +263,8 @@ msgid ""
 "using the address specified in the \"Registry manager\" definition step."
 msgstr ""
 "Ahora puede cerrar el navegador y el sistema le notificará por correo "
-"electrónico utilizando la dirección especificada en el paso de definición "
-"\"Administrador de registros\"."
+"electrónico utilizando la dirección especificada en el paso de definición"
+" \"Administrador de registros\"."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:99
 msgid "Introduction to the Re3gistry 2"
@@ -268,33 +272,33 @@ msgstr "Introducción a Re3gistry 2"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:101
 msgid ""
-"The Re3gistry editing interface allows to graphically manage the complete "
-"life-cycle of reference codes, such as code lists, enumerations, controlled "
-"vocabularies, taxonomies, thesauri or, simply, 'lists of things'.  If you "
-"choose the \"installation mode\" from the wizard, the first time you log in "
-"to the system, you will have an empty registry. You can then start "
-"populating it using the tools provided by the editing interface.  If you "
-"choose the \"migration mode\" from the wizard, you will find the registers "
-"imported from the older version of the tool."
+"The Re3gistry editing interface allows to graphically manage the complete"
+" life-cycle of reference codes, such as code lists, enumerations, "
+"controlled vocabularies, taxonomies, thesauri or, simply, 'lists of "
+"things'. If you choose the \"installation mode\" from the wizard, the "
+"first time you log in to the system, you will have an empty registry. You"
+" can then start populating it using the tools provided by the editing "
+"interface. If you choose the \"migration mode\" from the wizard, you "
+"will find the registers imported from the older version of the tool."
 msgstr ""
-"La interfaz de edición de Re3gistry permite gestionar gráficamente el ciclo "
-"de vida completo de los códigos de referencia, como listas de códigos, "
-"enumeraciones, vocabularios controlados, taxonomías, tesauros o, "
-"simplemente, \"listas de cosas\". Al elegir el \"modo de instalación\" del "
-"asistente, la primera vez que inicie sesión en el sistema, tendrá un "
-"registro vacío. A continuación, puede comenzar a completarlo utilizando las "
-"herramientas proporcionadas por la interfaz de edición. Si elige el \"modo "
-"de migración\" del asistente, encontrará los registros importados de la "
-"versión anterior de la herramienta."
+"La interfaz de edición de Re3gistry permite gestionar gráficamente el "
+"ciclo de vida completo de los códigos de referencia, como listas de "
+"códigos, enumeraciones, vocabularios controlados, taxonomías, tesauros o,"
+" simplemente, \"listas de cosas\". Al elegir el \"modo de instalación\" "
+"del asistente, la primera vez que inicie sesión en el sistema, tendrá un "
+"registro vacío. A continuación, puede comenzar a completarlo utilizando "
+"las herramientas proporcionadas por la interfaz de edición. Si elige el "
+"\"modo de migración\" del asistente, encontrará los registros importados "
+"de la versión anterior de la herramienta."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:110
 msgid ""
-"For detailed documentation on the editing interface, please read the `user "
-"manual <https://github.com/ec-jrc/re3gistry/blob/master/documentation/user-"
-"manual.md>`__."
+"For detailed documentation on the editing interface, please read the "
+"`user manual <https://github.com/ec-"
+"jrc/re3gistry/blob/master/documentation/user-manual.md>`__."
 msgstr ""
-"Para obtener documentación detallada sobre la interfaz de edición, leer el "
-"`manual de usuario <https://github.com/ec-"
+"Para obtener documentación detallada sobre la interfaz de edición, leer "
+"el `manual de usuario <https://github.com/ec-"
 "jrc/re3gistry/blob/master/documentation/user-manual.md>`__."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:115
@@ -303,12 +307,12 @@ msgstr "Usuarios, roles y grupos"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:117
 msgid ""
-"The Re3gistry 2 follows the `ISO 19135 Standard \"Geographic information — "
-"Procedures for item registration\" "
+"The Re3gistry 2 follows the `ISO 19135 Standard \"Geographic information "
+"— Procedures for item registration\" "
 "<https://www.iso.org/standard/54721.html>`__."
 msgstr ""
-"El Re3gistry 2 sigue la norma `ISO 19135 Standard \"Geographic information —"
-" Procedures for item registration\" "
+"El Re3gistry 2 sigue la norma `ISO 19135 Standard \"Geographic "
+"information — Procedures for item registration\" "
 "<https://www.iso.org/standard/54721.html>`__."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:120
@@ -337,11 +341,11 @@ msgstr "Organizaciones de presentación"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:128
 msgid ""
-"The registry manager has the highest privileges in the system. This role can"
-" perform three different tasks:"
+"The registry manager has the highest privileges in the system. This role "
+"can perform three different tasks:"
 msgstr ""
-"El administrador del registro tiene los privilegios más altos en el sistema."
-" Este rol puede realizar tres tareas diferentes:"
+"El administrador del registro tiene los privilegios más altos en el "
+"sistema. Este rol puede realizar tres tareas diferentes:"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:131
 msgid "Make any action on the reference codes."
@@ -352,8 +356,9 @@ msgid ""
 "The changes done to the reference codes need to undergo the approval "
 "workflow by obtaining the approval from the control body,"
 msgstr ""
-"Los cambios realizados en los códigos de referencia deben someterse al flujo"
-" de trabajo de aprobación obteniendo la aprobación del organismo de control,"
+"Los cambios realizados en los códigos de referencia deben someterse al "
+"flujo de trabajo de aprobación obteniendo la aprobación del organismo de "
+"control,"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:136
 msgid "Manage the structural elements of the system."
@@ -362,7 +367,8 @@ msgstr "Gestionar los elementos estructurales del sistema."
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:137
 msgid "Change and edit information related to the registry and the registers,"
 msgstr ""
-"Cambiar y editar la información relacionada con el registro y los registros,"
+"Cambiar y editar la información relacionada con el registro y los "
+"registros,"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:138
 msgid "Add new registers,"
@@ -373,8 +379,7 @@ msgid "Manage the fields of the registry, registers, reference codes."
 msgstr "Gestionar los campos del registro, registros, códigos de referencia."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:141
-msgid ""
-"These structural changes do not need to have the approval workflow, and"
+msgid "These structural changes do not need to have the approval workflow, and"
 msgstr ""
 "Estos cambios estructurales no necesitan tener el flujo de trabajo de "
 "aprobación, y"
@@ -389,11 +394,11 @@ msgstr "¿Qué sigue?"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:149
 msgid ""
-"This was just a very brief overview of the Re3gistry.  There is more "
+"This was just a very brief overview of the Re3gistry. There is more "
 "information in the demo installation and on the Re3gistry GitHub space."
 msgstr ""
-"Esta fue sólo una visión muy breve de Re3gistry.  Hay más información en la "
-"instalación de demostración y en el espacio en GitHub de Re3gistry."
+"Esta fue sólo una visión muy breve de Re3gistry. Hay más información en "
+"la instalación de demostración y en el espacio en GitHub de Re3gistry."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:152
 msgid ""
@@ -419,18 +424,18 @@ msgstr ""
 "`Manual de desarrollador <https://github.com/ec-"
 "jrc/re3gistry/blob/master/documentation/developer-manual.md>`__"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr "nologo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "Proyecto OSGeo"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo Comunitario"

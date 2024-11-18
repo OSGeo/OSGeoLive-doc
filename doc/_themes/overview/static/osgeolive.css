@@ -51,7 +51,7 @@ h1 {
 }
 
 h2 {
-	font-size:1.5em;	
+	font-size:1.5em;
 }
 
 /* for consistency with "div.admonition, div.warning" from sphinxdoc.css (".. note::" and ".. warning::") */
@@ -149,4 +149,21 @@ p a:hover{
 	font-size:10pt;
 	padding:6px 10px 10px 0px;
 	clear:both;
+}
+
+.menuselection {
+  background-color:#C0C0C0;
+}
+
+.guilabel {
+  background-color: #e7e7e7;
+  border-radius: 12px;
+  border: 2px solid #808080;
+  color: black;
+  padding: 5px 3px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
 }

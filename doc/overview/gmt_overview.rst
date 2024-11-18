@@ -46,7 +46,7 @@ Details
 
 **API Interfaces:** Command line
 
-**Support:** https://gmt.soest.hawaii.edu/projects/gmt/boards/1
+**Support:** https://forum.generic-mapping-tools.org/
 
 
 @VMDK_gmt@

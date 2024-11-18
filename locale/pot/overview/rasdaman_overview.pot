@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2024-08-17 21:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgid "Multi-Dimensional Big Data Analytics Engine"
 msgstr ""
 
 #: ../../build/doc/overview/rasdaman_overview.rst:24
-msgid "Rasdaman is an Array Database System which provides flexible, fast, scalable geo services for multi-dimensional spatio-temporal sensor, image, simulation, and statistics data of unlimited volume.  Ad-hoc access, extraction, aggregation, as well as remix and analytics is enabled through a NewSQL raster query language with highly effective server-side optimization.  Cloud/cluster parallelization is accomplished in a secure, administrator-controlled way."
+msgid "Rasdaman is an Array Database System which provides flexible, fast, scalable geo services for multi-dimensional spatio-temporal sensor, image, simulation, and statistics data of unlimited volume. Ad-hoc access, extraction, aggregation, as well as remix and analytics is enabled through a NewSQL raster query language with highly effective server-side optimization. Cloud/cluster parallelization is accomplished in a secure, administrator-controlled way."
 msgstr ""
 
 #: ../../build/doc/overview/rasdaman_overview.rst:26
@@ -33,7 +33,7 @@ msgid "In addition to the raster query language, rasdaman supports OGC's WMS, WC
 msgstr ""
 
 #: ../../build/doc/overview/rasdaman_overview.rst:31
-msgid "Rasdaman has received a series of international innovation awards, among them the prestigeous European IT Prize and Geospatial Innovation Award.  Technology is mature and stable, being in operational for more than ten years.  Among the operators of rasdaman services are mapping agencies and climate data centers."
+msgid "Rasdaman has received a series of international innovation awards, among them the prestigeous European IT Prize and Geospatial Innovation Award. Technology is mature and stable, being in operational for more than ten years. Among the operators of rasdaman services are mapping agencies and climate data centers."
 msgstr ""
 
 #: ../../build/doc/overview/rasdaman_overview.rst:None
@@ -105,7 +105,11 @@ msgid "**API Interfaces:** rasql, C++, Java"
 msgstr ""
 
 #: ../../build/doc/overview/rasdaman_overview.rst:69
-msgid "**Support:**  https://rasdaman.com"
+msgid "**Support:** https://rasdaman.com"
+msgstr ""
+
+#: ../../build/doc/overview/rasdaman_overview.rst:71
+msgid "This project is only included on the OSGeoLive virtual machine disk (VMDK)"
 msgstr ""
 
 #: ../../build/doc/overview/rasdaman_overview.rst:74
@@ -116,11 +120,11 @@ msgstr ""
 msgid ":doc:`Quickstart documentation <../quickstart/rasdaman_quickstart>`"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr ""
 

@@ -36,7 +36,7 @@ Click on the magnifying glass and type in the location you are looking for. In t
 
 Switch between 3D, 2.5D and 2D
 ==============================
-Click on the wire framed globe icon to select your preferred view.  Here the 2.5D Columbus view has been selected.
+Click on the wire framed globe icon to select your preferred view. Here the 2.5D Columbus view has been selected.
 
 .. image:: /images/projects/cesium/cesium_2_2253d.png
   :scale: 70 %
@@ -50,7 +50,7 @@ Now the 2D map is selected.
 
 Select the Image layer
 ======================
-Click on the last icon and select a type of image service.  Here the Natural Earth II is selected and you can see how the map's image layer has changed.
+Click on the last icon and select a type of image service. Here the Natural Earth II is selected and you can see how the map's image layer has changed.
 
 .. image:: /images/projects/cesium/cesium_4_Layer.png
   :scale: 70 %
@@ -62,7 +62,7 @@ What next?
 ==========
 * Watch our `video tutorials <https://www.youtube.com/playlist?list=PLBk_Dtk-_Tlm4STvXKFEdfUWylPemo-9V>`_.
 
-* Read our written `tutorials <https://cesium.com/docs>`_.
+* Read our written `tutorials <https://cesium.com/learn>`_.
 
 * You can develop some quick applications using the `Sandcastle website <https://sandcastle.cesium.com/index.html>`_. Sandcastle is generally one of the best ways to learn about Cesium, and all the code examples are useful for this purpose.
 

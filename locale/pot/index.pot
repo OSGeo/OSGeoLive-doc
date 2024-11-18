@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 15.0\n"
+"Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-21 20:07+0000\n"
+"POT-Creation-Date: 2024-09-01 23:33+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -20,59 +20,63 @@ msgstr ""
 msgid "Welcome to |osgeolive-version|"
 msgstr ""
 
-#: ../../build/doc/index.rst:5
-msgid "`OSGeoLive <https://live.osgeo.org>`_ is a self-contained bootable DVD, USB thumb drive or Virtual Machine based on `Lubuntu <https://lubuntu.net>`_, that allows you to try a wide variety of open source geospatial software without installing anything. It is composed entirely of free software, allowing it to be freely distributed, duplicated and passed around."
+#: ../../build/doc/index.rst:None
+msgid "Logo"
 msgstr ""
 
-#: ../../build/doc/index.rst:-1
-msgid "boot select"
+#: ../../build/doc/index.rst:9
+msgid "`OSGeoLive <https://live.osgeo.org>`_ is a self-contained bootable DVD, USB thumb drive or Virtual Machine based on `Lubuntu <https://lubuntu.me>`_, that allows you to try a wide variety of open source geospatial software without installing anything. It is composed entirely of free software, allowing it to be freely distributed, duplicated and passed around."
 msgstr ""
 
-#: ../../build/doc/index.rst:17
-msgid "It provides pre-configured applications for a range of geospatial use cases, including storage, publishing, viewing, analysis and manipulation of data. It also contains sample datasets and documentation."
+#: ../../build/doc/index.rst:None
+msgid "Menu"
 msgstr ""
 
 #: ../../build/doc/index.rst:21
-msgid "To try out the applications, simply:"
-msgstr ""
-
-#: ../../build/doc/index.rst:23
-msgid "Insert DVD or USB thumb drive in computer or virtual machine."
-msgstr ""
-
-#: ../../build/doc/index.rst:24
-msgid "Reboot computer. (verify boot device order if necessary)"
+msgid "It provides pre-configured applications for a range of geospatial use cases, including storage, publishing, viewing, analysis and manipulation of data. It also contains sample datasets and documentation."
 msgstr ""
 
 #: ../../build/doc/index.rst:25
-msgid "Press \"Enter\" to startup & login."
+msgid "To try out the applications, simply:"
 msgstr ""
 
-#: ../../build/doc/index.rst:26
-msgid "Select and run applications from the \"Geospatial\" menu."
+#: ../../build/doc/index.rst:27
+msgid "Insert DVD or USB thumb drive in computer or virtual machine."
 msgstr ""
 
 #: ../../build/doc/index.rst:28
+msgid "Reboot computer. (verify boot device order if necessary)"
+msgstr ""
+
+#: ../../build/doc/index.rst:29
+msgid "Press \"Enter\" to startup & login."
+msgstr ""
+
+#: ../../build/doc/index.rst:30
+msgid "Select and run applications from the \"Geospatial\" menu."
+msgstr ""
+
+#: ../../build/doc/index.rst:32
 msgid "OSGeoLive is an `OSGeo Foundation <https://www.osgeo.org/>`_ project. The OSGeo Foundation is a not-for-profit supporting Geospatial Open Source Software development, promotion and `education <https://www.osgeo.org/initiatives/geo-for-all/>`_."
 msgstr ""
 
-#: ../../build/doc/index.rst:34
+#: ../../build/doc/index.rst:38
 msgid "Quick Starts"
 msgstr ""
 
-#: ../../build/doc/index.rst:68
+#: ../../build/doc/index.rst:72
 msgid "Presentation"
 msgstr ""
 
-#: ../../build/doc/index.rst:70
+#: ../../build/doc/index.rst:74
 msgid "A half hour `presentation <presentation.html>`__, highlighting all OSGeoLive applications, is available with slides, script"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr ""
 

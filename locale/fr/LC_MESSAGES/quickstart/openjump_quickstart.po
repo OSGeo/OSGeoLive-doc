@@ -141,7 +141,7 @@ msgid ""
 "Another quicker option is to directly drag and drop your shapefile in the "
 "Layer View."
 msgstr ""
-"Une autre option plus rapide est de faire un cliquer-glisser directement  de"
+"Une autre option plus rapide est de faire un cliquer-glisser directement de"
 " votre shapefile dans la vue couche."
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:59
@@ -165,7 +165,7 @@ msgid ""
 "line style and line thickness, transparency, adding labels, and determining "
 "at which maximum and minimum scales the layer is displayed at."
 msgstr ""
-"Choisissez de :menuselection:`Style --> `Change Styles`. La boite de  "
+"Choisissez de :menuselection:`Style --> `Change Styles`. La boite de "
 "dialogue Styles a cinq (5) onglets qui vous permettent de modifier la façon "
 "dont la couche est affichée dans la vue carte. Cela comprend la modification"
 " de la couleur du trait, la couleur de remplissage, le style de ligne et "
@@ -210,7 +210,7 @@ msgid ""
 msgstr ""
 "Activez-le et cliquez sur une seule entité dans la vue Carte pour la "
 "sélectionner. Si la sélection a fonctionné, alors la couleur du contour de "
-"l'entité devrait changer en  jaune et des petits carrés jaunes apparaitre à "
+"l'entité devrait changer en jaune et des petits carrés jaunes apparaitre à "
 "chaque point d’angle (vertex) dans la géométrie de l'entité."
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:88
@@ -283,16 +283,16 @@ msgstr ""
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "Pas de logo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "Projet OSGeo"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "Communauté OSGeo"

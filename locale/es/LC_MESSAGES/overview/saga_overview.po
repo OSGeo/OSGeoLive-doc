@@ -1,26 +1,28 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2022
-# 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"PO-Revision-Date: 2023-07-31 19:39+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"saga_overview/es/>\n"
 "Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 4.16.4\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/overview/saga_overview.rst:14
 msgid "SAGA"
@@ -33,35 +35,35 @@ msgstr "SIG de Escritorio"
 #: ../../build/doc/overview/saga_overview.rst:19
 msgid ""
 "SAGA (System for Automated Geoscientific Analyses) is an open source "
-"geographic information system (GIS) used for editing and analysing spatial "
-"data. It includes a large number of modules for the analysis of vector "
-"(point, line and polygon), table, grid and image data. Among others the "
-"package includes modules for geostatistics, image classification, "
-"projections, simulation of dynamic processes (hydrology, landscape "
-"development) and terrain analysis. The functionality can be accessed through"
-" a GUI, the command line or by using the C++ API."
+"geographic information system (GIS) used for editing and analysing "
+"spatial data. It includes a large number of modules for the analysis of "
+"vector (point, line and polygon), table, grid and image data. Among "
+"others the package includes modules for geostatistics, image "
+"classification, projections, simulation of dynamic processes (hydrology, "
+"landscape development) and terrain analysis. The functionality can be "
+"accessed through a GUI, the command line or by using the C++ API."
 msgstr ""
-"SAGA (Sistema para Análisis Geocientíficos Automatizados) es un Sistema de "
-"Información Geográfica (GIS) de código abierto utilizado para editar y "
-"analizar datos espaciales. Incluye una gran cantidad de módulos para el "
-"análisis de datos vectoriales (punto, línea y polígono), tabla, cuadrícula e"
-" imagen. Entre otros, el paquete incluye módulos para geoestadística, "
-"clasificación de imágenes, proyecciones, simulación de procesos dinámicos "
-"(hidrología, desarrollo del paisaje) y análisis del terreno. Se puede "
-"acceder a la funcionalidad a través de una GUI, la línea de comando o usando"
-" la API de C++."
+"SAGA (Sistema para Análisis Geocientíficos Automatizados, siglas en inglés) "
+"es un sistema de información geográfica (SIG) de código abierto utilizado "
+"para editar y analizar datos espaciales. Este incluye un gran número de "
+"módulos para el análisis de datos vectoriales (puntos, líneas y polígonos), "
+"tablas, cuadrículas e imágenes. Entre otros, el paquete incluye módulos de "
+"geoestadística, clasificación de imágenes, proyecciones, simulación de "
+"procesos dinámicos (hidrología, desarrollo del paisaje) y análisis del "
+"terreno. Se puede acceder a estas funcionalidades a través de una interfaz "
+"gráfica de usuario, la línea de comandos o utilizando la API de C++."
 
 #: ../../build/doc/overview/saga_overview.rst:28
 msgid ""
-"SAGA has been in development since 2001, and the centre of SAGA development "
-"is located in the Institute of Geography at the University of Hamburg, with "
-"contributions from the growing world wide community."
+"SAGA has been in development since 2001, and the centre of SAGA "
+"development is located in the Institute of Geography at the University of"
+" Hamburg, with contributions from the growing world wide community."
 msgstr ""
 "A partir de 2001, SAGA ha estado en desarrollo desde el Instituto de "
-"Geografía en la Universidad de Hamburgo, con contribuciones de la creciente "
-"comunidad mundial."
+"Geografía en la Universidad de Hamburgo, con contribuciones de la "
+"creciente comunidad mundial."
 
-#: ../../build/doc/overview/saga_overview.rstNone
+#: ../../build/doc/overview/saga_overview.rst:-1
 msgid "saga screenshot"
 msgstr "pantalla de saga"
 
@@ -74,8 +76,8 @@ msgid ""
 "Access to a large number of scientific modules via the Graphical User "
 "Interface or the command line"
 msgstr ""
-"Acceso a una gran cantidad de módulos científicos a través de la Interfaz "
-"gráfica de usuario o la línea de comando"
+"Acceso a una gran cantidad de módulos científicos a través de la Interfaz"
+" gráfica de usuario o la línea de comando"
 
 #: ../../build/doc/overview/saga_overview.rst:43
 msgid "Import/Export to different file formats"
@@ -98,11 +100,10 @@ msgid "Raster data: interpolation, cost analysis, ..."
 msgstr "Datos ráster: interpolación, análisis de costes, ..."
 
 #: ../../build/doc/overview/saga_overview.rst:48
-msgid ""
-"Image analysis: filters, edge detection, cluster analysis, segmentation"
+msgid "Image analysis: filters, edge detection, cluster analysis, segmentation"
 msgstr ""
-"Análisis de imágenes: filtros, detección de bordes, análisis de clusters, "
-"segmentación"
+"Análisis de imágenes: filtros, detección de bordes, análisis de clusters,"
+" segmentación"
 
 #: ../../build/doc/overview/saga_overview.rst:49
 msgid ""
@@ -130,24 +131,23 @@ msgstr "API Directa de C++ para crear nuevos módulos"
 
 #: ../../build/doc/overview/saga_overview.rst:57
 msgid "Scripting through command line, bindings for Python"
-msgstr ""
-"Creación de scripts a través de línea de comandos, enlaces para Python"
+msgstr "Creación de scripts a través de línea de comandos, enlaces para Python"
 
 #: ../../build/doc/overview/saga_overview.rst:58
 msgid ""
 "SAGA can be accessed from the R statistical language through the RSAGA "
 "module"
 msgstr ""
-"se puede acceder a SAGA  desde el lenguaje estadístico R a través del módulo"
-" RSAGA"
+"se puede acceder a SAGA desde el lenguaje estadístico R a través del módulo "
+"RSAGA"
 
 #: ../../build/doc/overview/saga_overview.rst:61
 msgid "Details"
 msgstr "Detalles"
 
 #: ../../build/doc/overview/saga_overview.rst:63
-msgid "**Website:** http://www.saga-gis.org"
-msgstr "**Sitio web:** http://www.saga-gis.org"
+msgid "**Website:** https://saga-gis.sourceforge.io/en/index.html"
+msgstr "**Sitio web:** https://saga-gis.sourceforge.io/en/index.html"
 
 #: ../../build/doc/overview/saga_overview.rst:65
 msgid "**Licence:** LGPL v2.1 (api); GPLv2 (GUI and modules)"
@@ -166,8 +166,8 @@ msgid "**API Interfaces:** C++, Python, R"
 msgstr "**Interfaces API:** C++, Python, R"
 
 #: ../../build/doc/overview/saga_overview.rst:73
-msgid "**Support:** http://www.saga-gis.org"
-msgstr "**Soporte:** http://www.saga-gis.org"
+msgid "**Support:** https://sourceforge.net/p/saga-gis/mailman/"
+msgstr "**Soporte:** https://sourceforge.net/p/saga-gis/mailman/"
 
 #: ../../build/doc/overview/saga_overview.rst:79
 msgid "Quickstart"
@@ -177,18 +177,18 @@ msgstr "Inicio Rápido"
 msgid ":doc:`Quickstart documentation <../quickstart/saga_quickstart>`"
 msgstr ":doc:`Documentación de inicio rápido <../quickstart/saga_quickstart>`"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr "nologo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "Proyecto OSGeo"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo Comunitario"

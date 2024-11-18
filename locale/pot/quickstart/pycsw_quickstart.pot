@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2024-08-17 15:05-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgid "pycsw Quickstart"
 msgstr ""
 
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:24
-msgid "pycsw is an OGC CSW server implementation written in `Python <https://www.python.org>`_. pycsw allows for the publishing and discovery of geospatial metadata.  Existing repositories of geospatial metadata can be exposed via OGC:CSW 2.0.2 or OGC:CSW 3.0.0."
+msgid "pycsw is an OGC CSW server implementation written in `Python <https://www.python.org>`_. pycsw allows for the publishing and discovery of geospatial metadata. Existing repositories of geospatial metadata can be exposed via OGC:CSW 2.0.2 or OGC:CSW 3.0.0."
 msgstr ""
 
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:27
@@ -153,7 +153,7 @@ msgid "This will create the necessary tables and values for the repository."
 msgstr ""
 
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:117
-msgid "The database created is an |SFS| compliant database, and can be used with any implementing software.  For example, to use with `OGR`_:"
+msgid "The database created is an |SFS| compliant database, and can be used with any implementing software. For example, to use with `OGR`_:"
 msgstr ""
 
 #: ../../build/doc/quickstart/pycsw_quickstart.rst:129
@@ -208,11 +208,11 @@ msgstr ""
 msgid "For more information on pycsw, please consult the `documentation`_ on the pycsw website."
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr ""
 

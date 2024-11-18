@@ -7,20 +7,21 @@
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"PO-Revision-Date: 2024-10-14 00:38+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"gdal_quickstart/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:21
 msgid "GDAL/OGR Quickstart"
@@ -32,7 +33,7 @@ msgid ""
 "(vector data)."
 msgstr ""
 "Ez a gyorstalpaló két részből áll: GDAL (raszter adatok) és OGR (vektor "
-"adatok). "
+"adatok)."
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:27
 msgid "This Quick Start describes how to:"
@@ -151,8 +152,8 @@ msgid ""
 "First get to know your drivers. The `--formats` commandline switch of "
 "gdal_translate can be used to see a list of available format drivers."
 msgstr ""
-"Először ismerje meg a meghajtóit. A gdal_translate  `--formats` parancssori "
-"kapcsolója  használható az elérhető formátum meghajtók listájának "
+"Először ismerje meg a meghajtóit. A gdal_translate `--formats` parancssori "
+"kapcsolója használható az elérhető formátum meghajtók listájának "
 "megtekintéséhez."
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:118
@@ -187,7 +188,7 @@ msgstr "Átalakítás"
 #: ../../build/doc/quickstart/gdal_quickstart.rst:135
 msgid ""
 "Translations are accomplished with the gdal_translate command. The default "
-"output format is GeoTIFF.  The `-of` flag is used to select an output format"
+"output format is GeoTIFF. The `-of` flag is used to select an output format"
 " and the -co flag is used to specify a creation option:"
 msgstr ""
 "Az átalakítás a gdal_translate paranccsal valósítható meg. Az "
@@ -292,14 +293,14 @@ msgstr "Itt átszámítunk az Otho vetületre."
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:250
 msgid ""
-"Note how the poles are clipped?  This is because the edges at the pole can't"
-" be reprojected gdalwarp does not read all the data.  We can force gdalwarp "
+"Note how the poles are clipped? This is because the edges at the pole can't"
+" be reprojected gdalwarp does not read all the data. We can force gdalwarp "
 "to read a bunch of surplus data around chunks as one way to resolve this. "
 "Read more about this in the RasterTutorial "
 "https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial."
 msgstr ""
-"Észrevette, hogy a sarkokat levágta?  Ez azért van, mert az éleket a "
-"pólusnál nem lehet átvetíteni, a gdalwarp nem olvassa be az összes adatot.  "
+"Észrevette, hogy a sarkokat levágta? Ez azért van, mert az éleket a "
+"pólusnál nem lehet átvetíteni, a gdalwarp nem olvassa be az összes adatot. "
 "Rákényszeríthetjük a gdalwarp-ot hogy beolvassa a a többlet adatokat, mint "
 "egy módja a probléma megoldásának. Tudjon meg többet erről a RasterTutorial-"
 "ban https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial."
@@ -391,7 +392,7 @@ msgstr "Kipróbálandó dolgok"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:437
 msgid "Here are some additional challenges for you to try:"
-msgstr "Íme néhány további kihívás kipróbálásra:"
+msgstr "Íme néhány további kipróbálandó kihívás önnek:"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:439
 msgid "Try gdalwarp or gdal_merge.py to mosaic your data"
@@ -465,16 +466,16 @@ msgstr ""
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo közösség"

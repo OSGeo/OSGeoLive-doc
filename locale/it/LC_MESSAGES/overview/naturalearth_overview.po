@@ -5,22 +5,24 @@
 # 
 # Translators:
 # Luca Delucchi <lucadeluge@gmail.com>, 2018
-# Stefano Campus <skampus@gmail.com>, 2021
+# Stefano Campus <skampus@gmail.com>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: Stefano Campus <skampus@gmail.com>, 2021\n"
-"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
+"PO-Revision-Date: 2024-10-14 14:30+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Italian <https://weblate.osgeo.org/projects/osgeolive/"
+"naturalearth_overview/it/>\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: it\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:15
 msgid "Natural Earth"
@@ -57,7 +59,7 @@ msgstr ""
 
 #: ../../build/doc/overview/naturalearth_overview.rstNone
 msgid "naturalearth screenshot"
-msgstr ""
+msgstr "screenshot di naturalearth"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:31
 msgid "Core Features"
@@ -78,7 +80,7 @@ msgstr ""
 #: ../../build/doc/overview/naturalearth_overview.rst:35
 msgid ""
 "Projection friendly vectors precisely match at 180 degrees longitude. Lines "
-"contain enough data  points for smooth bending in conic projections, but not"
+"contain enough data points for smooth bending in conic projections, but not"
 " so many that computer processing speed suffers."
 msgstr ""
 "La proiezione dei vettoriali corrispondono gentilmente a 180 gradi di "
@@ -121,10 +123,10 @@ msgid ""
 "rails, urban polygons, parks and protected areas, Pacific nation groups, and"
 " water boundary indicators round out the cultural offerings."
 msgstr ""
-" Include paesi, aree contese, stati e province (primo ordine delle divisioni"
-" amministrative), e i posti populati (città, villaggi). Strade, ferrovie, "
-"poligoni urbani, parchi e aree protette, Pacific nation groups, e indicatori"
-" di confine d’acqua completano l’offerta culturale."
+"Include paesi, aree contese, stati e province (primo ordine delle divisioni "
+"amministrative), e i posti populati (città, villaggi). Strade, ferrovie, "
+"poligoni urbani, parchi e aree protette, Pacific nation groups, e indicatori "
+"di confine d’acqua completano l’offerta culturale."
 
 #: ../../build/doc/overview/naturalearth_overview.rst:47
 msgid "Physical Vector Data Themes:"
@@ -178,7 +180,7 @@ msgstr "**Formato dei dati:** SHP e TIF+TFW"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:64
 msgid "**Spatial coordinate system:** WGS84."
-msgstr "**Sistema di coordinate spaziali:**  WGS84"
+msgstr "**Sistema di coordinate spaziali:** WGS84."
 
 #: ../../build/doc/overview/naturalearth_overview.rst:66
 msgid "**Support:** https://www.naturalearthdata.com/about"
@@ -186,16 +188,16 @@ msgstr "**Supporto:** https://www.naturalearthdata.com/about"
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "Progetto OSGeo"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "Comunità OSGeo"

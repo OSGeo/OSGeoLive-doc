@@ -1,8 +1,8 @@
 :Author: Alexander Kotsev :Author: Daniele Francioli :Author: Marco Minghini
-         :Reviewer: :Version: osgeolive14.0 :License: Creative Commons
+         :Reviewer: :Version: osgeolive16.0 :License: Creative Commons
          Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)
 
-@LOGO_inspire@ @OSGEO_KIND_re3gistry@
+@LOGO_re3gistry@ @OSGEO_KIND_re3gistry@
 
 ********************************************************************************
 @NAME_re3gistry@ Quickstart
@@ -11,11 +11,11 @@
 The Re3gistry 2 is a reusable open source solution for managing and sharing
 "reference codes". It provides a consistent central access point where labels
 and descriptions for reference codes can be easily browsed by humans and
-retrieved by machines.  Reference codes are exchanged between applications to
+retrieved by machines. Reference codes are exchanged between applications to
 uniquely reference some ‘thing’. They can be used to define sets of permissible
 values for a data field or to provide a reference or context for the data being
 exchanged. Examples are enumerations, controlled vocabularies, taxonomies,
-thesauri or, simply, ‘lists of things’.  The Re3gistry 2 supports organisations
+thesauri or, simply, ‘lists of things’. The Re3gistry 2 supports organisations
 in managing and updating reference codes in a consistent way.
 
 This Quick Start describes how to:
@@ -30,8 +30,8 @@ This Quick Start describes how to:
 Start the Re3gistry
 ================================================================================
 
-Choose *'Start Re3gistry'* from the :menuselection:`Geospatial --> Web Services
---> Re3gistry` menu.  The application will take a few moments to start up.
+Choose *'Start Re3gistry'* from the |menu_re3gistry-Start|
+menu. The application will take a few moments to start up.
 Firefox opens the *Re3gistry landing page* (you can also open this manually by
 pointing your browser to http://localhost:8080/re3gistry2).
 
@@ -76,7 +76,7 @@ registry will be requested.
 After filling all the information, click on "Save and continue".
 
 The next step will present a summary of the information inserted. If all the
-fields are correct, click on "Install" to begin the installation.  Once the
+fields are correct, click on "Install" to begin the installation. Once the
 installation is finished, the user is redirected to the login page.
 
 **Migration option**
@@ -97,10 +97,10 @@ Introduction to the Re3gistry 2
 
 The Re3gistry editing interface allows to graphically manage the complete
 life-cycle of reference codes, such as code lists, enumerations, controlled
-vocabularies, taxonomies, thesauri or, simply, 'lists of things'.  If you choose
+vocabularies, taxonomies, thesauri or, simply, 'lists of things'. If you choose
 the "installation mode" from the wizard, the first time you log in to the
 system, you will have an empty registry. You can then start populating it using
-the tools provided by the editing interface.  If you choose the "migration mode"
+the tools provided by the editing interface. If you choose the "migration mode"
 from the wizard, you will find the registers imported from the older version of
 the tool.
 
@@ -143,7 +143,7 @@ perform three different tasks:
 What next?
 ================================================================================
 
-This was just a very brief overview of the Re3gistry.  There is more information
+This was just a very brief overview of the Re3gistry. There is more information
 in the demo installation and on the Re3gistry GitHub space.
 
 * `User manual <https://github.com/ec-jrc/re3gistry/blob/master/documentation/user-manual.md>`__

@@ -1,0 +1,398 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Marco Minghini <marco.minghini86@gmail.com>, 2019
+# Antonio Rotundo <anto.rotundo@gmail.com>, 2021
+# Valerio Pinna <pinnavalerio@yahoo.co.uk>, 2022
+# Simone Falceri, 2022
+# Federico Gianoli <fritz4@gmail.com>, 2022
+# Stefano Campus <skampus@gmail.com>, 2022
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-20 21:55-0500\n"
+"PO-Revision-Date: 2017-09-20 16:06+0000\n"
+"Last-Translator: Stefano Campus <skampus@gmail.com>, 2022\n"
+"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:23
+msgid "OpenLayers Quickstart"
+msgstr "Guida rapida OpenLayers"
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:25
+msgid ""
+"This Quick Start describes some basic steps required to start working with "
+"OpenLayers: creating a basic map, adding raster and vector layers and "
+"styling features."
+msgstr ""
+"Questa guida rapida descrive alcuni passi necessari per cominciare a "
+"lavorare con OpenLayers: la creazione di una mappa di base, l'aggiunta di "
+"livelli raster e vettoriali e lo styling delle caratteristiche."
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:27
+msgid ""
+"OpenLayers makes it easy to put a dynamic map in any web page. It can "
+"display map tiles, vector data and markers loaded from any source. "
+"OpenLayers has been developed to further the use of geographic information "
+"of all kinds. It is completely free, Open Source JavaScript, released under "
+"the 2-clause BSD License (also known as the FreeBSD)."
+msgstr ""
+"OpenLayers permette in modo semplice di inserire una mappa dinamica in "
+"qualsiasi pagina web. Consente di visualizzare tile di mappe, dati "
+"vettoriali e marker provenienti da qualsiasi sorgente. OpenLayers è stato "
+"sviluppato per promuovere la diffusione di informazione geografica di ogni "
+"tipo. È una libreria JavaScript libera e open source, rilasciata sotto la "
+"licenza 2-clause BSD (anche conosciuta come FreeBSD)."
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:30
+msgid "Contents"
+msgstr "Contenuti"
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:33
+msgid "Core concepts"
+msgstr "Concetti fondamentali"
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:35
+msgid ""
+"Before we start working with OpenLayers it helps to understand OpenLayers "
+"core concepts:"
+msgstr ""
+"Prima di iniziare a lavorare con OpenLayers aiuta a capire i concetti "
+"fondamentali di OpenLayers:"
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:38
+msgid "**Map**"
+msgstr "**Map**"
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:38
+msgid ""
+"The *map* is the core component of OpenLayers. For a *map* to render, a "
+"*view*, one or more *layers*, and a target container are needed."
+msgstr ""
+"Il *map* è il componente centrale di OpenLayers. Per rendere una *mappa* "
+"sono necessari una *vista*, uno o più *layers* e un contenitore di "
+"destinazione."
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:41
+msgid "**View**"
+msgstr "**View**"
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:41
+msgid ""
+"The *view* determines how the map is rendered. It is used to set the "
+"resolution, the center location, etc. It is like a camera through which we "
+"look at the map's content."
+msgstr ""
+"La *view* determina il modo in cui la mappa viene resa. Si usa per impostare"
+" la risoluzione, la posizione centrale, ecc. È come una telecamera "
+"attraverso la quale guardiamo il contenuto della mappa."
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:44
+msgid "**Layers**"
+msgstr "**Layer**"
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:44
+msgid ""
+"*Layers* can be added to the map in a stacked order. Layers can be either "
+"*raster layers* (images), or *vector layers* (points/lines/polygons)."
+msgstr ""
+"I *Layer* possono essere aggiunti alla mappa in un ordine sovrapposto. I "
+"layer possono essere sia *raster* (immagini), sia *vettori* "
+"(punti/linee/poligoni)."
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:50
+msgid "**Source**"
+msgstr "**Sorgente**"
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:47
+msgid ""
+"Each layer has a *source*, which knows how to load the layer content. In the"
+" case of *vector layers*, its source reads vector data using a *format* "
+"class (for example GeoJSON or KML) and provides the layer with a set of "
+"*features*."
+msgstr ""
+"Ogni layer ha una *fonte*, che sa come caricare il contenuto del layer. Nel "
+"caso dei *vettori*, la sua sorgente legge i dati vettoriali usando una "
+"classe di *formato* (per esempio GeoJSON o KML) e fornisce al layer un "
+"insieme di *elementi*."
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:55
+msgid "**Features**"
+msgstr "**Caratteristiche**"
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:53
+msgid ""
+"*Features* represent real world things and can be rendered using different "
+"*geometries* (like point, line or polygon) using a given *style*, which "
+"determines its look (line thinkness, fill color, etc)."
+msgstr ""
+"Le *Features* rappresentano cose del mondo reale e possono essere "
+"visualizzate usando diverse *geometrie* (come punto, linea o poligono) "
+"usando un dato *stile*, che determina il suo aspetto (spessore della linea, "
+"colore di riempimento, ecc.)"
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:58
+msgid "Create a basic map"
+msgstr "Crea una mappa di base"
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:60
+msgid ""
+"Create a file in e.g. /home/user/ called basic-map.html , and copy the "
+"following content into the file."
+msgstr ""
+"Crea un file ad esempio in /home/user/ chiamato basic-map.html e copia il "
+"seguente contenuto nel file."
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:110
+msgid ""
+"Now try opening basic-map.html from a web browser using File->Open File. You"
+" should see the following:"
+msgstr ""
+"Ora prova ad aprire basic-map.html da un browser web usando File->Open File."
+" Dovresti vedere quanto segue:"
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:115
+msgid "Note:"
+msgstr "Nota:"
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:117
+msgid ""
+"The code follows the best practice of loading JavaScipt code at the end of "
+"the html file."
+msgstr ""
+"Il codice segue la migliore pratica di caricare il codice JavaScipt alla "
+"fine del file html."
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:119
+msgid ""
+"An OpenLayers map needs to be attached to a HTML DOM element, so we have "
+"created a ``<div>`` element identified by the *map* id."
+msgstr ""
+"Una mappa OpenLayers deve essere collegata ad un elemento DOM HTML, quindi "
+"abbiamo creato un elemento ``<div>`` identificato dall'id *map*."
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:121
+msgid ""
+"Maps are represented by the ``ol.Map`` class. We specify the DOM element to "
+"render the map into using the **target** property."
+msgstr ""
+"La mappe sono rappresentate dalla classe ``ol.Map``. Specifichiamo "
+"l'elemento DOM da disegnare nella mappa usando la proprietà **target**."
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:123
+msgid ""
+"OpenLayers allows map rendering using two different mechanisms: Canvas and "
+"WebGL. The default renderer is *canvas*."
+msgstr ""
+"OpenLayers permette il rendering delle mappe utilizzando due diversi "
+"meccanismi: Canvas e WebGL. Il renderer predefinito è *canvas*."
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:125
+msgid ""
+"A map shows data contained within layers, so we have created a tiled layer, "
+"represented by the ``ol.layer.Tile`` class, that loads content from the "
+"OpenStreetMap project, using the ``ol.source.OSM`` source class."
+msgstr ""
+"Una mappa mostra dati contenuti all'interno di layer, quindi abbiamo creato "
+"un layer piastrellato, rappresentato dalla classe ``ol.layer.Tile``, che "
+"carica il contenuto dal progetto OpenStreetMap, utilizzando la classe "
+"sorgente ``ol.source.OSM``."
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:127
+msgid ""
+"Finally, we set the initial position of the *camera* using the ``ol.View`` "
+"class, set the initial zoom level and center location."
+msgstr ""
+"Infine, imposta la posizione iniziale della *camera* usando la classe "
+"``ol.View``, imposta il livello di zoom iniziale e la posizione centrale."
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:130
+msgid "Add raster layers"
+msgstr "Aggiungi layer raster"
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:132
+msgid ""
+"The most used raster layers are the tiled layers, provided by the likes of "
+"OpenStreetMap, Stamen, Bing, etc. Tiled layers are represented by the "
+"``ol.layer.Tile`` class and must use a source that knows how to load tiles "
+"from a given provider, like ``ol.source.OSM`` or ``ol.source.Stamen``:"
+msgstr ""
+"I raster più usati sono i layer piastrellati, forniti da OpenStreetMap, "
+"Stamen, Bing, ecc. I layer piastrellati sono rappresentati dalla classe "
+"``ol.layer.Tile`` e devono usare una sorgente che sappia come caricare i "
+"tasselli da un dato provider, come ``ol.source.OSM`` o ``ol.source.Stamen``:"
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:150
+msgid "Layers can be added to the map in two ways:"
+msgstr "I layer possono essere aggiunti alla mappa in due modi:"
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:152
+msgid "When constructing the ``ol.Map``, use the ``layers`` property:"
+msgstr "Quando si costruisce la ``ol.Map``, usa la proprietà ``layers``:"
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:163
+msgid "Add them manually with the ``map.addLayer()`` method:"
+msgstr "Aggiungili manualmente con il metodo ``map.addLayer()``:"
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:172
+msgid "Add vector layers"
+msgstr "Aggiungi layer vettoriali"
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:174
+msgid ""
+"Vector layers are represented by the ``ol.layer.Vector`` class and must use "
+"a source suitable for reading the vector format, like ``ol.source.GeoJSON``,"
+" ``ol.source.KML`` or ``ol.source.TopoJSON``."
+msgstr ""
+"I vettori sono rappresentati dalla classe ``ol.layer.Vector`` e devono usare"
+" una sorgente adatta a leggere il formato vettoriale, come "
+"``ol.source.GeoJSON``, ``ol.source.KML`` o ``ol.source.TopoJSON``."
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:193
+msgid ""
+"Note, in the previous code we must change the ``url_to_file`` to point to a "
+"valid GeoJSON file placed in our server. Note that Javascript security will "
+"prevent sourcing of datasets from an external URL on a different domain / "
+"port (a.k.a. same-origin policy)."
+msgstr ""
+"Nota, nel codice precedente devi cambiare il ``url_to_file`` per puntare a "
+"un file GeoJSON valido posto nel nostro server. Nota che la sicurezza di "
+"Javascript impedirà il sourcing di set di dati da un URL esterno su un "
+"diverso dominio / porta (a.k.a. same-origin policy)."
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:197
+msgid ""
+"Features can also be created manually. In this case we need to create a "
+"geometry that represents the feature:"
+msgstr ""
+"Gli elementi possono anche essere creati manualmente. In questo caso devi "
+"creare una geometria che rappresenti l'elemento:"
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:231
+msgid "Apply style to features"
+msgstr "Applica lo stile agli elementi"
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:233
+msgid ""
+"Features within vector layers can be styled. The style is determined by a "
+"combination of fill, stroke, text and image, which are all optional. In "
+"addition, a style can be applied to a layer, which determines the style of "
+"all contained features, or to an individual feature."
+msgstr ""
+"Gli elementi all'interno dei vettori possono essere stilizzati. Lo stile è "
+"determinato da una combinazione di riempimento, tratto, testo e immagine, "
+"che sono tutti opzionali. Inoltre, uno stile può essere applicato ad un "
+"layer, che determina lo stile di tutti gli elementi contenuti, o ad un "
+"singolo elemento."
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:236
+msgid ""
+"A style is represented by the ``ol.style.Style`` class which has properties "
+"to set the ``fill``, ``stroke``, ``text`` and ``image`` to be applied. The "
+"next example shows the World's administrative limits dataset styled to use a"
+" green fill and stroke:"
+msgstr ""
+"Uno stile è rappresentato dalla classe ``ol.style.Style`` che ha proprietà "
+"per impostare il ``fill``, ``stroke``, ``text`` e ``image`` da applicare. Il"
+" prossimo esempio mostra il dataset World's administrative limits stilizzato"
+" per usare un riempimento e un tratto verde:"
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:266
+msgid ""
+"In the code, we have loaded a TopoJSON file and styled it through the "
+"``style`` property. We have set a ``fill`` and ``stroke``, required for "
+"lines and polygons, and an ``image`` (in this case a circle) used for point "
+"features."
+msgstr ""
+"Nel codice, abbiamo caricato un file TopoJSON e lo abbiamo stilizzato "
+"attraverso la proprietà ``style``. Abbiamo impostato un ``fill``` e un "
+"``stroke``, necessari per linee e poligoni, e un ``image`` (in questo caso "
+"un cerchio) usato per gli elementi dei punti."
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:271
+msgid "Work with events"
+msgstr "Lavora con gli eventi"
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:273
+msgid ""
+"Most of the components, like map, layers or controls, trigger events to "
+"notify changes. For example we can be notified each time the mouse is moved "
+"over the map, or when a feature is added to a vector layer, etc."
+msgstr ""
+"La maggior parte dei componenti, come la mappa, i layer o i controlli, "
+"attivano eventi per notificare i cambiamenti. Per esempio possiamo ricevere "
+"una notifica ogni volta che il mouse viene spostato sulla mappa, o quando un"
+" elemento viene aggiunto ad un vettore, ecc."
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:275
+msgid ""
+"Events can be easily registered on an object with the ``on()`` method and "
+"unregistered with ``un()``."
+msgstr ""
+"Gli eventi possono essere facilmente registrati su un oggetto con il metodo "
+"``on()`` e non registrati con ``un()``."
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:277
+msgid ""
+"The following code registers an event on a map instance, and will be "
+"notified each time the pointer is moved. Within the callback function we "
+"obtain the pointer coordinates and print in the browser console in two "
+"different projections."
+msgstr ""
+"Il codice seguente registra un evento su un'istanza della mappa, e sarà "
+"notificato ogni volta che il puntatore viene spostato. All'interno della "
+"funzione di callback otteniamo le coordinate del puntatore e le stampiamo "
+"nella console del browser in due diverse proiezioni."
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:290
+msgid "What next?"
+msgstr "E ora?"
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:292
+msgid ""
+"Sometimes the quickest way to work out how OpenLayers works is to look at "
+"examples and their source code. You can find more OpenLayers information "
+"here:"
+msgstr ""
+"A volte il modo più veloce per capire come funziona OpenLayers è guardare "
+"gli esempi e il loro codice sorgente. Puoi trovare altre informazioni su "
+"OpenLayers qui:"
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:295
+msgid "`API Docs <https://localhost/openlayers/apidoc/>`_"
+msgstr "`Doc API <https://localhost/openlayers/apidoc/>`_"
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:297
+msgid "`Examples <https://localhost/openlayers/examples/>`_"
+msgstr "`Esempi <https://localhost/openlayers/examples/>`_"
+
+#: ../../build/doc/quickstart/openlayers_quickstart.rst:299
+msgid "`OpenLayers.org Website <https://openlayers.org/>`_"
+msgstr "`OpenLayers.org Sito web <https://openlayers.org/>`_"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr "vmdk"
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr "nologo"
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr "Progetto OSGeo"
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr "Comunità OSGeo"

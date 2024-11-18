@@ -6,20 +6,21 @@
 # Translators:
 # Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2021
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2021\n"
-"Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
+"PO-Revision-Date: 2024-10-14 14:30+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Finnish <https://weblate.osgeo.org/projects/osgeolive/"
+"osgeolive_quickstart/fi/>\n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fi\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:9
 msgid "Getting started with OSGeoLive"
@@ -57,7 +58,7 @@ msgstr "Ei ole tarpeellinen jos suoritat suoraan DVD levykkeeltä"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:23
 msgid "|osgeolive-hdspace| if you wish to install the operating system."
-msgstr "|osgeolive-hdspace| jos haluat asentaa käyttöjärjestelmän"
+msgstr "|osgeolive-hdspace| jos haluat asentaa käyttöjärjestelmän."
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:25
 msgid "Mouse: a 3-button mouse is useful, especially for Mac trackpad users."
@@ -74,8 +75,8 @@ msgid ""
 "Source an OSGeoLive DVD, ISO available from: [:doc:`Download <../download>`]"
 " Put the DVD into your computer's CD drive, then reboot your computer."
 msgstr ""
-"Lataa OSGeo-Live DVD:ltä \n"
-"[:doc:`Lataa kuva <../download>`] Polta kuva DVD-levylle ja aseta se tietokoneesi CD asemaan ja käynnistä tietokone uudelleen."
+"Lataa OSGeo-Live DVD:ltä [:doc:`Lataa kuva <../download>`] Polta kuva DVD-"
+"levylle ja aseta se tietokoneesi CD asemaan ja käynnistä tietokone uudelleen."
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:33
 msgid ""

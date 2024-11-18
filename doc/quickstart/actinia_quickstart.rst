@@ -1,7 +1,7 @@
 :Author: Markus Neteler, mundialis
 :Reviewer: Astrid Emde
 :Reviewer: Felicity Brand (Google Season of Docs 2019)
-:Version: osgeolive14.0
+:Version: osgeolive16.0
 :License: Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
 :Copyright: 2019-2022 by The OSGeo Foundation
 
@@ -27,6 +27,8 @@ satellite images, raster and vector data.
 Actinia can be used in different ways:
 
 -  `curl` or similar command line tools
+-  through `Jupyter notebooks <https://github.com/actinia-org/actinia-jupyter>`__
+-  the `Python interface <https://github.com/actinia-org/actinia-python-client>`__
 -  the `Postman` or `RESTman` extension for browsers
 -  open a GRASS GIS session and use the `ace` (actinia command execution) tool
 -  other interfaces to REST API
@@ -35,6 +37,12 @@ In this quickstart, we make use of GRASS GIS to conveniently launch
 commands from the session to the actinia server (which itself uses GRASS GIS).
 The idea is to rapidly develop a workflow locally on small data sets to
 then execute it on the server.
+
+Using actinia with a Jupyter notebook
+=====================================
+
+Numerous Jupyter notebooks for actinia are available from
+`https://github.com/actinia-org/actinia-jupyter <https://github.com/actinia-org/actinia-jupyter>`_
 
 Introduction to ace - actinia command execution
 ===============================================
@@ -47,7 +55,7 @@ the ability to list locations, mapsets and map layer the user has access
 to as well as the creation and deletion of mapsets.
 
 Th ``ace`` tool must be executed in an active GRASS GIS session. It is
-installed with ``g.extension extension=ace url=https://github.com/mundialis/ace``.
+installed with ``g.extension extension=ace url=https://github.com/actinia-org/ace``.
 
 All commands will be executed per default in an **ephemeral** database.
 Hence, generated output must be exported using augmented GRASS
@@ -118,7 +126,7 @@ Currently available datasets are (organized by projections):
       (``latlong_wgs84/modis_ndvi_global/``; source:
       https://lpdaac.usgs.gov/products/mod13c1v006/)
    -  LST growing degree days asia 2017 (``latlong_wgs84/asia_gdd_2017/``;
-      source: https://www.mundialis.de/en/temperature-data/)
+      source: https://www.mundialis.de/en/products/surface-temperature-data/)
    -  LST tropical days asia 2017 (``latlong_wgs84/asia_tropical_2017/``)
    -  LST temperature daily asia 2017, including min, max and avg
       (``latlong_wgs84/asia_lst_daily_2017/``)
@@ -126,10 +134,10 @@ Currently available datasets are (organized by projections):
 -  Europe (EU LAEA CRS, EPSG:3035):
 
    -  EU DEM 25m V1.1 (``eu_laea/PERMANENT/``; source:
-      https://land.copernicus.eu/imagery-in-situ/eu-dem)
+      https://land.copernicus.eu/en/products/products-that-are-no-longer-disseminated-on-the-clms-website)
    -  CORINE Landcover 2012, g100_clc12_V18_5 (``eu_laea/corine_2012/``;
       source:
-      https://land.copernicus.eu/pan-european/corine-land-cover/clc-2012)
+      https://land.copernicus.eu/en/products/corine-land-cover/clc-2012)
 
 -  World Mollweide (EPSG 54009):
 
@@ -326,7 +334,7 @@ Store the following script as text file ``/tmp/ace_segmentation.sh``:
    # grass ~/grassdata/nc_spm_08/user1/
    # Import the web resource and set the region to the imported map
    # we apply a importer trick for the import of multi-band GeoTIFFs:
-   # install with: g.extension importer url=https://github.com/mundialis/importer
+   # install with: g.extension importer url=https://github.com/actinia-org/importer
    importer raster=ortho2010@https://apps.mundialis.de/workshops/osgeo_ireland2017/north_carolina/ortho2010_t792_subset_20cm.tif
    # The importer has created three new raster maps, one for each band in the geotiff file
    # stored them in an image group
@@ -414,6 +422,25 @@ commands from above can be executed in the following way:
 Things to try
 =============
 
+Install on OSGeoLive VM with Docker Compose
+--------------------------------------------------------------------------------
+
+Requirements: docker and docker-compose (already available in OSGeoLive VM version)
+
+To build and deploy actinia, run
+
+.. code:: bash
+
+   git clone https://github.com/actinia-org/actinia-core.git
+   cd actinia_core
+   docker-compose -f docker/docker-compose.yml up
+
+Now you have a running actinia instance locally! Check with
+
+.. code:: bash
+
+   curl http://127.0.0.1:8088/api/v3/version
+
 Create new locations
 --------------------------------------------------------------------------------
 
@@ -443,6 +470,7 @@ Install GRASS GIS addons (extensions)
 
 What next?
 ==========
+
 * Visit the actinia website at `https://actinia.mundialis.de <https://actinia.mundialis.de>`_
 * actinia tutorial: `https://neteler.gitlab.io/actinia-introduction <https://neteler.gitlab.io/actinia-introduction>`_
-* Further reading: Neteler, M., Gebbert, S., Tawalika, C., Bettge, A., Benelcadi, H., Löw, F., Adams, T, Paulsen, H. (2019). Actinia: cloud based geoprocessing. In Proc. of the 2019 conference on Big Data from Space (BiDS'2019) (pp. 41-44). EUR 29660 EN, Publications Office of the European Union 5, Luxembourg: P. Soille, S. Loekken, and S. Albani (Eds.). (`DOI <https://zenodo.org/record/2631917>`__)
+* Further reading: Neteler, M., Gebbert, S., Tawalika, C., Bettge, A., Benelcadi, H., Löw, F., Adams, T, Paulsen, H. (2019). Actinia: cloud based geoprocessing. In Proc. of the 2019 conference on Big Data from Space (BiDS'2019) (pp. 41-44). EUR 29660 EN, Publications Office of the European Union 5, Luxembourg: P. Soille, S. Loekken, and S. Albani (Eds.). (`DOI <https://zenodo.org/records/2631917>`__)

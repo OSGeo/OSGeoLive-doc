@@ -6,22 +6,24 @@
 # Translators:
 # Luca Delucchi <lucadeluge@gmail.com>, 2017
 # Vicky Vergara <vicky@georepublic.de>, 2020
-# Stefano Campus <skampus@gmail.com>, 2021
+# Stefano Campus <skampus@gmail.com>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-20 21:55-0500\n"
-"PO-Revision-Date: 2017-01-21 16:46+0000\n"
-"Last-Translator: Stefano Campus <skampus@gmail.com>, 2021\n"
-"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
+"POT-Creation-Date: 2022-06-21 20:07+0000\n"
+"PO-Revision-Date: 2024-10-14 13:51+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Italian <https://weblate.osgeo.org/projects/osgeolive/index/"
+"it/>\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: it\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/index.rst:3
 msgid "Welcome to |osgeolive-version|"
@@ -41,9 +43,9 @@ msgstr ""
 "nulla. È composta interamente di software libero, che permette di "
 "distribuirlo, duplicarlo e passarlo in giro liberamente."
 
-#: ../../build/doc/index.rstNone
+#: ../../build/doc/index.rst-1
 msgid "boot select"
-msgstr ""
+msgstr "selezione del boot"
 
 #: ../../build/doc/index.rst:17
 msgid ""
@@ -101,22 +103,23 @@ msgstr "Presentazione"
 #: ../../build/doc/index.rst:70
 msgid ""
 "A half hour `presentation <presentation.html>`__, highlighting all OSGeoLive"
-" applications, is available with slides, script, and `abstract "
-"<presentation/abstract.txt>`_."
+" applications, is available with slides, script"
 msgstr ""
+"Una `presentazione <presentation.html>`__, di mezz’ora, che evidenzia tutti "
+"i software di OSGeoLive, è disponibile insieme alle slides, script"
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "Progetto OSGeo"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "Comunità OSGeo"

@@ -5,7 +5,7 @@
 # 
 # Translators:
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2017
-# Nicolas Roelandt (Personnel), 2020
+# Nicolas Roelandt (Personnel), 2022
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
+"Last-Translator: Nicolas Roelandt (Personnel), 2022\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -63,7 +63,7 @@ msgstr ""
 
 #: ../../build/doc/overview/josm_overview.rstNone
 msgid "josm screenshot"
-msgstr ""
+msgstr "capture d’écran de josm"
 
 #: ../../build/doc/overview/josm_overview.rst:34
 msgid "Core Features"
@@ -114,7 +114,7 @@ msgid ""
 "Visualize basemaps from OSM, Bingsat, Lansat, MapBox satellite, MapQuest "
 "Open Aerial or any other WMS sources."
 msgstr ""
-"Visualiser  les fonds de carte à partir d'OSM, Bingsat, Landsat, MapBox "
+"Visualiser les fonds de carte à partir d'OSM, Bingsat, Landsat, MapBox "
 "satellite, MapQuest Open Aerial ou n'importe quelle source WMS."
 
 #: ../../build/doc/overview/josm_overview.rst:53
@@ -127,7 +127,7 @@ msgid ""
 " node to way, and more."
 msgstr ""
 "Noeuds: fusionner, joindre, séparer, distribuer, aligner dans un cercle, "
-"aligner sur un ligne, joindre  un noeud à une ligne, et plus."
+"aligner sur un ligne, joindre un noeud à une ligne, et plus."
 
 #: ../../build/doc/overview/josm_overview.rst:56
 msgid "Ways: split, combine, reverse, simplify, unglue ways, and more."
@@ -146,7 +146,7 @@ msgstr "Cartographie audio: gestion des enregistrements de levés."
 
 #: ../../build/doc/overview/josm_overview.rst:61
 msgid "Photo mapping: survey pictures management."
-msgstr "Photos de cartographie:  gestion des photographies de levés."
+msgstr "Photos de cartographie: gestion des photographies de levés."
 
 #: ../../build/doc/overview/josm_overview.rst:63
 msgid "Plugins: A list of specialized plugins are available for download."
@@ -207,16 +207,16 @@ msgstr ""
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "Pas de logo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "Projet OSGeo"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "Communauté OSGeo"

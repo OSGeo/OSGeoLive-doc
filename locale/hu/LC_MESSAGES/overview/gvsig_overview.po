@@ -5,22 +5,23 @@
 # 
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2018
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"PO-Revision-Date: 2024-10-14 00:38+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"gvsig_overview/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/gvsig_overview.rst:19
 msgid "gvSIG Desktop"
@@ -88,7 +89,7 @@ msgstr ""
 
 #: ../../build/doc/overview/gvsig_overview.rstNone
 msgid "gvsig screenshot"
-msgstr ""
+msgstr "gvsig képernyőképek"
 
 #: ../../build/doc/overview/gvsig_overview.rst:40
 msgid "Core Features"
@@ -106,17 +107,17 @@ msgstr ""
 "Általános GIS eszközöket biztosít, mint az adatok betöltése, térkép "
 "navigáció, térképi adatok lekérdezése mint alfanumerikus adatok, "
 "távolságmérés, tematikus kartográfia, jelmagyarázat szerkesztés az elterjed "
-"jelmagyarázat  típusok használatával, címkézés, elemek kiválasztása többféle"
-" szelekció típussal, adattáblák statisztikával, rendezés, tábla kapcsolatok,"
-" tábla összekapcsolások,  lap összeállítás, feldolgozás eszközök, CAD, "
-"raszter feldolgozás, stb."
+"jelmagyarázat típusok használatával, címkézés, elemek kiválasztása többféle "
+"szelekció típussal, adattáblák statisztikával, rendezés, tábla kapcsolatok, "
+"tábla összekapcsolások, lap összeállítás, feldolgozás eszközök, CAD, raszter "
+"feldolgozás, stb."
 
 #: ../../build/doc/overview/gvsig_overview.rst:44
 msgid "Interoperable: able to work with most known data formats:"
 msgstr "Interoperábilis: a legtöbb ismert adatformátummal képes dolgozni:"
 
 #: ../../build/doc/overview/gvsig_overview.rst:46
-msgid "raster : ecw,  ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, NetCDF..."
+msgid "raster : ecw, ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, NetCDF..."
 msgstr "raszter : ecw, ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, NetCDF..."
 
 #: ../../build/doc/overview/gvsig_overview.rst:47
@@ -208,7 +209,7 @@ msgstr "3D nézetek"
 
 #: ../../build/doc/overview/gvsig_overview.rst:76
 msgid "Other features:"
-msgstr "További funkciók:"
+msgstr "További jellemzők:"
 
 #: ../../build/doc/overview/gvsig_overview.rst:78
 msgid "Scripting support (for both vector and raster data)"
@@ -275,7 +276,7 @@ msgid "Export/import of Web Map Context (WMC)"
 msgstr "Web térkép kontextus (WMC) export/import"
 
 #: ../../build/doc/overview/gvsig_overview.rst:97
-msgid "Search on catalogues with  CSW (ISO/19115 and ebRIM)"
+msgid "Search on catalogues with CSW (ISO/19115 and ebRIM)"
 msgstr "CSW keresés katalógusokban (ISO/19115 és ebRIM)"
 
 #: ../../build/doc/overview/gvsig_overview.rst:98
@@ -292,7 +293,7 @@ msgstr "**Honlap:** http://www.gvsig.com/es"
 
 #: ../../build/doc/overview/gvsig_overview.rst:105
 msgid "**Licence:** GNU General Public License (GPL) version 2"
-msgstr "**Licenc:** GNU General Public License (GPL) verzió 2"
+msgstr "**Licenc:** GNU General Public License (GPL) version 2"
 
 #: ../../build/doc/overview/gvsig_overview.rst:107
 msgid "**Software Version:** |version-gvsig|"
@@ -312,7 +313,7 @@ msgstr ""
 
 #: ../../build/doc/overview/gvsig_overview.rst:116
 msgid ""
-"This  project is only included on the OSGeoLive virtual machine disk (VMDK)"
+"This project is only included on the OSGeoLive virtual machine disk (VMDK)"
 msgstr "Ez a projekt csak az OSGeoLive virtuális gépben (VMDK) található meg"
 
 #: ../../build/doc/overview/gvsig_overview.rst:119
@@ -325,16 +326,16 @@ msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/gvsig_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo közösség"

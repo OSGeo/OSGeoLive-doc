@@ -23,7 +23,7 @@ This Quick Start describes how to:
 
   * update an existing QGIS project and render it with QGIS Server
   * create a new QGIS project and open the WMS directly in a browser
-  
+
 .. contents:: Contents
    :local:
 
@@ -33,8 +33,8 @@ Start GeoExt viewer
 
 OSGeoLive contains an example of web map viewer based on the GeoExt Javascript framework and using QGIS Server for rendering the map.
 
-#. Click :menuselection:`Geospatial --> Web Services --> QGIS Server`. You should see a browser window with a web map viewer showing a world map.
-   
+#. Click |menu_qgis|. You should see a browser window with a web map viewer showing a world map.
+
 .. image:: /images/projects/qgis/qgis_mapserver_browser.jpg
 
 Alternatively, you can access the application using a browser through http://localhost/qgis_server
@@ -46,14 +46,14 @@ Edit QGIS project
 
 We will now change the map styling using QGIS.
 
-#. Click :menuselection:`Geospatial --> Desktop GIS --> QGIS`.
+#. Click |menu_qgis|
 
 #. Choose :menuselection:`Project --> Open` from the menu bar.
 
 #. Select :file:`QGIS-NaturalEarth-Example.qgs` and press :guilabel:`Open`.
 
    * You should see the same world map rendered by QGIS.
-     We will now change river styling and look at the result in the web map viewer. 
+     We will now change river styling and look at the result in the web map viewer.
 
 #. Double click :file:`ne_10m_rivers_lake_centerlines` in the Layers tree.
 
@@ -83,7 +83,7 @@ Create a new QGIS project
 
 #. Save the project with :menuselection:`Project --> Save`.
 
-#. Use file name :file:`/home/user/world.qgs` and press :guilabel:`Save`.
+#. Use file name :file:`/home/user/world.qgz` and press :guilabel:`Save`.
 
 #. Open the `WMS URL <http://localhost/cgi-bin/qgis_mapserv.fcgi?map=/home/user/world.qgz&SERVICE=WMS&VERSION=1.3.0&REQUEST=GetMap&BBOX=-91.901820,-180.000000,83.633800,180.000000&CRS=EPSG:4326&WIDTH=722&HEIGHT=352&LAYERS=ne_10m_admin_0_countries&STYLES=default&FORMAT=image/png&DPI=96&TRANSPARENT=true>`_. You should see all world countries, this time rendered by QGIS Server.
 

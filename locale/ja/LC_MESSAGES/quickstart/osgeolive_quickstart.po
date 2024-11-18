@@ -1,27 +1,28 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ko Nagase <nagase@georepublic.co.jp>, 2019
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # Hiroshi Miura <miurahr@northside.tokyo>, 2021
+# Ko Nagase <nagase@georepublic.co.jp>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Hiroshi Miura <miurahr@northside.tokyo>, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"POT-Creation-Date: 2022-08-06 09:15-0500\n"
+"PO-Revision-Date: 2024-11-02 13:09+0000\n"
+"Last-Translator: Ko Nagase <geosanak@gmail.com>\n"
+"Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
+"osgeolive_quickstart/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:9
 msgid "Getting started with OSGeoLive"
@@ -41,11 +42,11 @@ msgstr "以下の環境が最低限必須となります:"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:18
 msgid "RAM: minimum 2 GB (4 GB recommended)."
-msgstr ""
+msgstr "RAM: 最低 2 GB (4 GB 推奨)"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:19
 msgid "CPU: 1 GHz 64 bit."
-msgstr ""
+msgstr "CPU: 1 GHz 64 bit."
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:20
 msgid "Hard Disk:"
@@ -87,7 +88,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:0
 msgid "boot"
-msgstr ""
+msgstr "起動"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:42
 msgid "Sit back while the system boots up."
@@ -95,7 +96,7 @@ msgstr "システムが起動されるまで待ちます"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:0
 msgid "boot select"
-msgstr ""
+msgstr "起動後の選択"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:48
 msgid "Try the many applications from the :menuselection:`Geospatial` menu."
@@ -109,11 +110,11 @@ msgstr "参照:"
 msgid ""
 "Getting started with Lubuntu and the LXQt desktop (which is used by "
 "OSGeoLive):"
-msgstr ""
+msgstr "Lubuntu と LXQt デスクトップ入門 (OSGeoLive で使用されています):"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:54
 msgid "https://lubuntu.me/ and https://lxqt-project.org/"
-msgstr ""
+msgstr "https://lubuntu.me/ と https://lxqt-project.org/"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:56
 msgid "Getting started with the Ubuntu operating system:"
@@ -141,18 +142,18 @@ msgstr ":doc:`osgeolive_install_quickstart`"
 msgid ":doc:`usb_quickstart`"
 msgstr ":doc:`usb_quickstart`"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "ロゴなし"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo プロジェクト"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo コミュニティ"

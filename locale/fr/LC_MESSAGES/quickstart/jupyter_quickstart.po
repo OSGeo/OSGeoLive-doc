@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -10,9 +10,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2022-07-13 22:52+0000\n"
 "PO-Revision-Date: 2017-09-20 16:02+0000\n"
 "Last-Translator: Nicolas Roelandt (Personnel), 2022\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
@@ -39,41 +39,41 @@ msgstr ""
 " et transformation des données, simulation numérique, modélisation "
 "statistique, apprentissage automatique et bien plus encore."
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:25
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:28
 msgid "This Quick Start describes how to:"
 msgstr "Ce guide décrit comment :"
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:27
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:30
 msgid "Start a Jupyter Notebook server"
 msgstr ""
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:28
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:31
 msgid "Load a jupyter notebook"
 msgstr ""
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:29
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:32
 msgid "Interact with python code"
 msgstr ""
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:31
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:34
 msgid "Contents"
 msgstr "Contenu"
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:34
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:37
 msgid "Start the Jupyter server"
 msgstr ""
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:36
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:39
 msgid "From the application launch menu in the lower left corner."
 msgstr ""
 "À partir du menu de lancement de l’application dans le coin inférieur "
 "gauche."
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:38
-msgid "Choose  *Geospatial* -> *Spatial Tools* -> *Jupyter Notebook*"
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:41
+msgid "Choose *Geospatial* -> *Spatial Tools* -> *Jupyter Notebook*"
 msgstr ""
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:40
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:43
 msgid ""
 "A terminal window will open and a startup log will begin to scroll. "
 "Afterwards a web browser is launched showing the Jupyter Notebook dashboard."
@@ -82,11 +82,11 @@ msgid ""
 " and upload files."
 msgstr ""
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:51
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:57
 msgid "Open and execute an existing notebook"
 msgstr "Ouvrir et exécuter un notebook existant"
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:53
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:59
 msgid ""
 "Let's open an existing notebook. From the main page click on the directory "
 "geopandas-tutorial and choose the Introduction notebook (01-introduction-"
@@ -95,116 +95,115 @@ msgid ""
 "Earth2 data."
 msgstr ""
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:59
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:68
 msgid ""
 "The tutorial is made up with explaining text and cells. The cells contain in"
 " this case python code, that can be run."
 msgstr ""
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:61
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:71
 msgid ""
 "From the toolbar on top of the notebook you can choose different options:"
 msgstr ""
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:63
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:73
 msgid ""
 "Cell-> Run Cells: will run the code in the cell with the focus and will move"
 " to the next cell."
 msgstr ""
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:64
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:75
 msgid ""
-"Cell-> Run All:  will run all the cells and show the results If everything "
+"Cell-> Run All: will run all the cells and show the results If everything "
 "worked as planned you should be able to see the results at the bottom of the"
 " page."
 msgstr ""
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:66
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:79
 msgid "Have a look at the results after running all the cells."
 msgstr ""
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:71
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:84
 msgid ""
 "You will see additional Out[] section with different output for example "
 "tables, maps or calculations."
 msgstr ""
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:73
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:87
 msgid "In Out[3] you can see the country information as a table."
 msgstr ""
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:79
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:93
 msgid "In Out[4] a plot was generated from all the countries."
 msgstr ""
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:88
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:102
 msgid "Change code"
 msgstr "Modifier le code"
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:90
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:104
 msgid "Now let's change some of the code."
 msgstr ""
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:93
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:107
 msgid ""
 "In In [10] a filter was defined for the countries. Only the continent "
 "``Africa`` is selected from the countries:"
 msgstr ""
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:99
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:114
 msgid "Therefore in the plot there is only the continent ``Africa``."
 msgstr ""
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:104
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:119
 msgid "Change the selection to ``Asia`` and rund the two cells again."
 msgstr ""
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:110
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:125
 msgid ""
 "As result you will see that instead of ``Africa`` there will be ``Asia`` in "
 "the plot."
 msgstr ""
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:119
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:131
 msgid "What Next?"
 msgstr "Ensuite ?"
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:121
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:133
 msgid ""
 "Discover the other notebooks that are provided with OSGeoLive and find out "
 "how to work with Shapely, Rasterio, R, Iris & other software."
 msgstr ""
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:122
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:135
 msgid ""
 "For more information about the jupyter notebook, please refer to the "
-"`Jupyter Notebooks official documentation "
-"<https://jupyter.readthedocs.io/>`_."
+"`Jupyter Notebooks official documentation <https://docs.jupyter.org>`__."
 msgstr ""
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:123
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:137
 msgid "More notebook examples are available from the notebook root directory."
 msgstr ""
 
-#: ../../build/doc/quickstart/jupyter_quickstart.rst:124
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:138
 msgid ""
 "Quick introduction on how to use the Jupyter Notebooks interface: `Get "
-"started with Jupyter Notebook "
-"<https://jupyter.readthedocs.io/en/latest/content-quickstart.html>`_."
+"started with Jupyter Notebook <https://docs.jupyter.org/en/latest/content-"
+"quickstart.html>`__."
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "Pas de logo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "Projet OSGeo"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "Communauté OSGeo"

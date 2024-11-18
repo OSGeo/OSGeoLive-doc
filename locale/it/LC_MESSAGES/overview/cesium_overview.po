@@ -6,23 +6,25 @@
 # Translators:
 # pibinko <pibinko@gmail.com>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2020
-# Stefano Campus <skampus@gmail.com>, 2021
 # Luca Delucchi <lucadeluge@gmail.com>, 2022
+# Stefano Campus <skampus@gmail.com>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Luca Delucchi <lucadeluge@gmail.com>, 2022\n"
-"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
+"PO-Revision-Date: 2024-10-14 14:30+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Italian <https://weblate.osgeo.org/projects/osgeolive/"
+"cesium_overview/it/>\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: it\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/cesium_overview.rst:13
 msgid "Cesium"
@@ -50,7 +52,7 @@ msgstr ""
 
 #: ../../build/doc/overview/cesium_overview.rstNone
 msgid "cesium screenshot"
-msgstr ""
+msgstr "screenshot di cesium"
 
 #: ../../build/doc/overview/cesium_overview.rst:30
 msgid "Core Features"
@@ -122,10 +124,10 @@ msgid ""
 "including photogrammetry models, 3D buildings, CAD and BIM exterior and "
 "interiors, and point clouds."
 msgstr ""
-"Utilizza `Tile 3D  <https://cesium.com/blog/2017/07/12/the-next-generation-"
-"of-3d-tiles/>`_ per trasmettere, assegnare stili e interagire con dati 3D "
-"eterogenei, compresi modelli fotogrammetrici, edifici 3D, esterni e interni "
-"CAD e BIM e nuvole di punti."
+"Utilizza `Tile 3D <https://cesium.com/blog/2017/07/12/"
+"the-next-generation-of-3d-tiles/>`_ per trasmettere, assegnare stili e "
+"interagire con dati 3D eterogenei, compresi modelli fotogrammetrici, edifici "
+"3D, esterni e interni CAD e BIM e nuvole di punti."
 
 #: ../../build/doc/overview/cesium_overview.rst:45
 msgid "Control the camera and create flight paths."
@@ -177,7 +179,7 @@ msgstr "**Versione Software:** |version-cesium|"
 
 #: ../../build/doc/overview/cesium_overview.rst:65
 msgid ""
-"**Supported Platforms:**  Platform independent, depends only on a browser "
+"**Supported Platforms:** Platform independent, depends only on a browser "
 "which supports WebGL"
 msgstr ""
 "**Piattaforme Supportate:** Indipendente dalla piattaforma, dipende solo da "
@@ -197,16 +199,16 @@ msgstr ":doc:`Guida rapida <../quickstart/cesium_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "Progetto OSGeo"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "Comunità OSGeo"

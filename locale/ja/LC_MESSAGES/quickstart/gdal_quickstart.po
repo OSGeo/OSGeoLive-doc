@@ -1,27 +1,28 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
-# Ko Nagase <nagase@georepublic.co.jp>, 2021
+# Ko Nagase <nagase@georepublic.co.jp>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"POT-Creation-Date: 2022-08-06 09:15-0500\n"
+"PO-Revision-Date: 2024-11-02 13:09+0000\n"
+"Last-Translator: Ko Nagase <geosanak@gmail.com>\n"
+"Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
+"gdal_quickstart/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:21
 msgid "GDAL/OGR Quickstart"
@@ -84,7 +85,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:46
 msgid "Contents"
-msgstr ""
+msgstr "目次"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:49
 msgid "Get to know GDAL"
@@ -153,7 +154,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:118
 msgid "Each format reports if it is"
-msgstr "各フォーマットは、次の場合にレポートします。"
+msgstr "各フォーマットは、次の場合にレポートします"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:116
 msgid "read only (ro),"
@@ -182,7 +183,7 @@ msgstr "変換"
 #: ../../build/doc/quickstart/gdal_quickstart.rst:135
 msgid ""
 "Translations are accomplished with the gdal_translate command. The default "
-"output format is GeoTIFF.  The `-of` flag is used to select an output format"
+"output format is GeoTIFF. The `-of` flag is used to select an output format"
 " and the -co flag is used to specify a creation option:"
 msgstr ""
 "変換はgdal_translateコマンドで行います。デフォルトの出力形式はGeoTIFFです。`-of` "
@@ -243,7 +244,8 @@ msgid ""
 "Have a look at your output shapefile with QGIS and ogrinfo (you will learn "
 "more about ogrinfo later in this tutorial)"
 msgstr ""
-"QGISとogrinfoを使用して、出力シェープファイルを見てみましょう(ogrinfoについては、このチュートリアルの後半で詳しく説明します)。"
+"QGISとogrinfoを使用して、出力シェープファイルを見てみましょう(ogrinfoについて"
+"は、このチュートリアルの後半で詳しく説明します)"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:217
 msgid "Reprojecting"
@@ -273,8 +275,8 @@ msgstr "ここでは、オルソ投影に再投影します。"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:250
 msgid ""
-"Note how the poles are clipped?  This is because the edges at the pole can't"
-" be reprojected gdalwarp does not read all the data.  We can force gdalwarp "
+"Note how the poles are clipped? This is because the edges at the pole can't"
+" be reprojected gdalwarp does not read all the data. We can force gdalwarp "
 "to read a bunch of surplus data around chunks as one way to resolve this. "
 "Read more about this in the RasterTutorial "
 "https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial."
@@ -391,7 +393,7 @@ msgstr "QGISプラグインOGR-Layer-Konverterを試してみてください。"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:451
 msgid "What next?"
-msgstr "次のステップ"
+msgstr "次のステップは何?"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:453
 msgid ""
@@ -425,18 +427,18 @@ msgid ""
 msgstr ""
 "https://download.osgeo.org/gdal/workshop/foss4ge2015/workshop_gdal.html"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "ロゴなし"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo プロジェクト"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo コミュニティ"

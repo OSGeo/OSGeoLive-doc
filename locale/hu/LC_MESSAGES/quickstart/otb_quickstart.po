@@ -7,20 +7,21 @@
 # Vicky Vergara <vicky@georepublic.de>, 2019
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"PO-Revision-Date: 2024-10-14 01:31+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"otb_quickstart/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:22
 msgid "OTB Quickstart"
@@ -76,7 +77,7 @@ msgid ""
 " starting with `otbcli_` plus the application name."
 msgstr ""
 "CLI (parancssori interfész): minden alkalmazás meghívható a terminálból az "
-"`otbcli_` plusz az alkalmazás neve paranccsal"
+"`otbcli_` plusz az alkalmazás neve paranccsal."
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:36
 msgid ""
@@ -87,8 +88,8 @@ msgid ""
 msgstr ""
 "GUI (egy önálló grafikus felhasználói felület Qt-ben). Az alkalmazások "
 "hívhatók a terminálból az `otbgui_` aliassal plus az alkalmazás neve. Egy "
-"másik lehetőség egy kis indító használata (elérhető  a menüből -> Geospatial"
-" -> Spatial Tools -> OTB Launcher)"
+"másik lehetőség egy kis indító használata (elérhető a menüből -> Geospatial -"
+"> Spatial Tools -> OTB Launcher)."
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:37
 msgid "QGIS plugin - available through the processing framework."
@@ -100,7 +101,7 @@ msgstr "Ebben a gyorstalpalóban használ mintaadatok itt találhatók:"
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:40
 msgid "/home/user/data/north_carolina/rast_geotiff"
-msgstr ""
+msgstr "/home/user/data/north_carolina/rast_geotiff"
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:42
 msgid ""
@@ -108,10 +109,13 @@ msgid ""
 "in the Accessories section. This gives you a Unix shell command prompt. Go "
 "to the data directory."
 msgstr ""
+"Indítson egy terminál emulátort (LXTerminal ebben a verzióban) az "
+"Applications menüből az Accessories csoportból. Ez egy Unix burok parancs "
+"promptot ad. Menjen a data könyvtárba."
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:44
 msgid "cd /home/user/data/north_carolina/rast_geotiff"
-msgstr ""
+msgstr "cd /home/user/data/north_carolina/rast_geotiff"
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:48
 msgid "Contents"
@@ -141,7 +145,7 @@ msgid ""
 "substrate two bands to study the image differences on the images "
 "`lsat7_2002_10.tif` and `lsat7_2002_20.tif`, just use the command::"
 msgstr ""
-"Az  `otbcli_otbBandMath` egy hatékony megoldást biztosít a képsávokon "
+"Az `otbcli_otbBandMath` egy hatékony megoldást biztosít a képsávokon "
 "végrehajtott matematikai műveletekhez. A szintaxis egész egyszerű, például "
 "két sáv kivonásához használja a következő parancsot az `lsat7_2002_10.tif` "
 "és `lsat7_2002_20.tif``, képek különbségének kiszámításához::"
@@ -157,13 +161,13 @@ msgid ""
 "the calculator you're able to compute the NDVI on a multispectral sensors "
 "images by doing::"
 msgstr ""
-"Az alkalmazás képes képeken komplex matematikai műveleteket végrehajtani "
-"(küszöbérték, logaritmikus átskálázás stb.). Ezt a digitális számológépet "
+"Az alkalmazás képes képeken komplex matematikai műveleteket végrehajtani ("
+"küszöbérték, logaritmikus átskálázás stb.). Ezt a digitális számológépet "
 "testreszabott függvényeket is tartalmaz kifejezések kiszámítására. Például, "
 "mivel a távérzékelt képek fizikai mennyiségeket mérnek, lehetséges fizikai "
-"jelentéssel bíró indexek kinyerése, mint  például NDVI (normalizált "
-"vegetációs különbség index) a vegetációról. A számológéppel kiszámíthatja az"
-" NDVI értékét egy multispektrális szenzor képéből így::"
+"jelentéssel bíró indexek kinyerése, mint például NDVI (normalizált "
+"vegetációs különbség index) a vegetációról. A számológéppel kiszámíthatja az "
+"NDVI értékét egy multispektrális szenzor képéből így::"
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:71
 msgid ""
@@ -197,7 +201,7 @@ msgstr ""
 "Az alkalmazási keretrendszerben található osztályozások egy felügyelt pixel-"
 "osztályozási láncot biztosít, mely több képből tanuláson alapszik és egy "
 "megadott gépi tanulási algoritmust használ, mint például SVM, Bayes, KNN, "
-"Random Forests, Artificial Neural Network és továbbiak. Lásd az  "
+"Random Forests, Artificial Neural Network és továbbiak. Lásd az "
 "`TrainImagesClassifier` alkalmazás súgóját további részletekért a "
 "rendelkezésre álló osztályozásokról. Támogatja a hatalmas képeket a "
 "streaming és a multi-threading segítségével. Az osztályozási lánc tanulási "
@@ -284,7 +288,7 @@ msgid ""
 "those without tiling called LSMS_."
 msgstr ""
 "Az OTB magába foglal egy keretrendszert is, LSMS_ névvel, a nagyon nagy "
-"képek csempénként  történő szegmentálását, mely elméletileg ugyanazt az "
+"képek csempénként történő szegmentálását, mely elméletileg ugyanazt az "
 "eredményt adja a mint csempék nélküli megoldás."
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:141
@@ -333,7 +337,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:159
 msgid "More information can be found in the Software Guide."
-msgstr " További információ a SoftwareGuid-ban található."
+msgstr "További információ a SoftwareGuid-ban található."
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:163
 msgid "What next?"
@@ -341,7 +345,7 @@ msgstr "Mi a következő?"
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:165
 msgid "OTB Software Guide"
-msgstr "OTB Software Guide"
+msgstr "OTB szoftver útmutató"
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:167
 msgid ""
@@ -404,16 +408,16 @@ msgstr ""
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo közösség"

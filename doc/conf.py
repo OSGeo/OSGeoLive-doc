@@ -22,7 +22,6 @@
 import sys, os
 
 iso_size = @iso_size@
-iso_mini_size = @iso_mini_size@
 vm_7z_size = @vm_7z_size@
 req_hd_size = @req_hd_size@
 
@@ -63,7 +62,7 @@ today_fmt = '%B %d, %Y'
 
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+language = 'en'
 
 # If true, sectionauthor and moduleauthor directives will be shown in the
 # output. They are ignored by default.
@@ -182,50 +181,39 @@ latex_documents = [
 
 # Linkcheck configuration, see http://sphinx.pocoo.org/latest/config.html#options-for-the-linkcheck-builder
 
+linkcheck_retries = 3  # default is 1
+
+# About User-Agent:
+# https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/User-Agent
+linkcheck_request_headers = {
+    "*": { 'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:25.0) Gecko/20100101 Firefox/25.0' },
+}
+
 linkcheck_ignore = [
-        # link changed name to https://geops.ch
-        # mostly used on the contibutors list.
-        # TODO need to verify the change is correct
-        r'https://geops.de',
-
-        # The project you're trying to access has been archived.
-        # TODO Verify what happened to gmt because its for gmt_overview and gmt_quickstart
-        r'https://gmt.soest.hawaii.edu',
-
         # currently SSL_ERROR_BAD_CERT_DOMAIN
         # TODO remove this line when the CERT is fixed
         r'https://www.rspatial.org',
 
-        # bad gateway
-        # TODO remove line when page is reachable
-        'https://demo.pycsw.org/',
 
-        # Leaflet moved the documentation temporarly due to the Ucrania situation
-        # TODO hope for the war to be over and remove this line
-        r'https://leafletjs.com',
+        # NewConnectionError looks like information is wrong
+        r'http://udig.refractions.net',
+        r'https://sgx.geodatenzentrum.de',
 
         # link exists but does not accept robots and linkchecker is a robot
         # used in overview/mapserver_overview
         'http://www.dnr.state.mn.us/maps/compass.html',
 
-        # Link does not exist anymore
-        # Used in overview/liblas_overview
-        # TODO remove link from documentation
-        'https://www.asprs.org/divisions-committees/lidar-division/laser-las-file-format-exchange-activities.html',
+        # intermittent 502 server errors
+        r'https://demo.pycsw.org',
 
-        # Link changed locations
-        # TODO change to https://saga-gis.sourceforge.io
-        r'http://www.saga-gis.org',
-        # TODO change to https://52north.org/research/scope/geospatial-sensing/
-        'https://52north.org/research/research-labs/sensor-web/',
-        # TODO change to https://cesium.com/learn/
-        'https://cesium.com/docs',
-        # TODO change to https://github.com/geoext/geoext
-        r'https://github.com/geoext/geoext3',
-        # TODO change to https://inspire.ec.europa.eu/validator/home/index.html
-        'https://inspire.ec.europa.eu/validator/about/',
         # TODO this link is failing: RemoteDisconnected('Remote end closed connection without response'))
+        # ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
         'https://www.iso.org',
+        r'https://inspire.ec.europa.eu',
+
+        # HTTPSConnectionPool
+        r'https://worldwind.arc.nasa.gov/java/',
+        r'https://r-spatial.org',
 
         # links to the disk internals
         r'http://localhost', r'https://localhost',
@@ -233,44 +221,42 @@ linkcheck_ignore = [
         r'http://0.0.0.0',
         'http://geonode',
 
+        # links to old versions
+        r'https://live.osgeo.org/archive/15.0',
+        r'https://live.osgeo.org/archive/16.0',
+
+        # For the following an appropiate user agent is needed
+        # 403 Client Error
+        r'https://www.intel.com',
+        r'https://www.mydigitallife.net',
+        r'https://docs.etf-validator.net',
+        r'https://etf-validator.net',
+        r'https://www.ogc.org',
+        r'https://sourceforge.net',
+        r'https://opensource.org',
 
         # link exists but when many link checks are done link checker fails
         # ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
         # Used in quickstart/osm_quickstart
         'https://www.openstreetmap.org/edit',
 
-        # link exists but link check failes
+        # link exists but link check fails
         # SSL: CERTIFICATE_VERIFY_FAILED
         # Used in sponsors.rst
         'https://www.ntua.gr/en',
+        'https://www.ice.ucdavis.edu/',
 
-        # Used in overview/inspire_overview
-        # Error message: broken    https://etf-validator.net - 503 Server Error: Service Temporarily Unavailable for url: https://etf-validator.net/
-        'https://etf-validator.net',
-
-        # Link does not exist anymore
-        # Used in quickstart/geoserver_quickstart
-        r'http://prj2epsg.org',
-
-        # Link with error 404 Client Error
-        # Used in quickstart/hyperv_quickstart
-        r'https://www.microsoft.com/en-us/download',
-
-        # Link does not exist anymore
-        # Used in quickstart/mapslicer_quickstart
-        'https://maps.yahoo.com/',
-
-        # Link with certiciate problems
-        # Used in quickstart/liblas_quickstart
-        'https://epsg.org/home.html',
-        'https://www.epsg.org/',
-
-        # Link with error 400 Client Error
-        # Used in contact
-        r'https://mobile.twitter.com/osgeolive',
+        # redirect exists but link check fails
+        # SSL: CERTIFICATE_VERIFY_FAILED
+        r'https://ghsl.jrc.ec.europa.eu/ghs_pop.php',
 
         # Link to the presentation
-        r'presentation.html'
+        r'presentation.html',
+
+        # Ignore Stack Overflow links
+        # as they return 429 Client Error: Too Many Requests for url
+        # due to rate limiting
+        r'https://stackoverflow'
         ]
 
 linkcheck_anchors = False
@@ -287,10 +273,10 @@ linkcheck_anchors = False
 rst_epilog="""
 .. |osgeolive-project| replace:: %(projectname)s
 .. |osgeolive-version| replace:: %(projectname)s %(projectversion)s
-.. |osgeolive-version-only| replace:: %(projectversion)s
+.. |sourceforge-download| replace:: https://sourceforge.net/projects/osgeo-live/files/%(projectversion)s/
+.. |osgeo-download| replace:: https://download.osgeo.org/livedvd/releases/%(projectversion)s/
 .. |osgeolive-hdspace| replace:: %(required_hd_space)02d GB
 .. |osgeolive-iso-size| replace:: %(iso_size).1f GB
-.. |osgeolive-iso-mini-size| replace:: %(iso_mini_size).1f GB
 .. |osgeolive-vm-7z-size| replace:: %(vm_7z_size).1f GB
 .. |osgeolive-appmenupath-geoserver| replace:: :menuselection:`Geospatial --> Web Services --> GeoServer --> Start GeoServer`
 .. |osgeolive-appmenupath-udig| replace:: :menuselection:`Geospatial --> Desktop GIS --> uDig`
@@ -317,11 +303,13 @@ rst_epilog="""
                         :align: middle
                         :height: 18
                         :target: https://localhost/osgeolive/sponsors_osgeo.html
-.. |CAT| replace:: `Catalogue Service for the web <https://www.ogc.org/standards/cat>`__
-.. |CSW| replace:: `Catalogue Service for the web <https://www.ogc.org/standards/cat>`__
+.. |CAT| replace:: `Catalogue Service <https://www.ogc.org/standards/cat>`__
+.. |CSW| replace:: `Catalogue Service for the Web (CSW) <https://www.ogc.org/standards/cat>`__
 .. |GML| replace:: `Geography Markup Language (GML) <https://www.ogc.org/standards/gml>`__
 .. |FE| replace:: `Filter Encoding (FE) <https://www.ogc.org/standards/filter>`__
+.. |ISO19105| replace:: `ISO 19105 <https://committee.iso.org/sites/tc211/home/projects/projects---complete-list/iso-19105.html>`__
 .. |KML| replace:: `KML <https://www.ogc.org/standards/kml>`__
+.. |OGCAPIFEATURES| replace:: `OGC API - Features <https://www.ogc.org/standards/ogcapi-features>`__
 .. |ORM| replace:: `OGC Reference Model (ORM) <https://www.ogc.org/standards/orm>`__
 .. |SENSORML| replace:: `Sensor Model Language (SensorML) <https://www.ogc.org/standards/sensorml>`__
 .. |SFS| replace:: `Simple Feature Access (SFS) <https://www.ogc.org/standards/sfs>`__
@@ -332,7 +320,7 @@ rst_epilog="""
 .. |WCS| replace:: `Web Coverage Service (WCS) <https://www.ogc.org/standards/wcs>`__
 .. |WMC| replace:: `Web Map Context (WMC) <https://www.ogc.org/standards/wmc>`__
 .. |WMS| replace:: `Web Map Service (WMS) <https://www.ogc.org/standards/wms>`__
-.. |WMTS| replace:: `OpenGIS Web Map Tile ServiceW (WMTS) <https://www.ogc.org/standards/wmts>`__
+.. |WMTS| replace:: `OpenGIS Web Map Tile Service (WMTS) <https://www.ogc.org/standards/wmts>`__
 .. |WFS| replace:: `Web Feature Service (WFS) <https://www.ogc.org/standards/wfs>`__
 .. |WPS| replace:: `Web Processing Service (WPS) <https://www.ogc.org/standards/wps>`__
 .. |OGC| replace:: `Open Geospatial Consortium (OGC) <https://www.ogc.org>`__
@@ -340,6 +328,8 @@ rst_epilog="""
 .. |SUPPORT| replace:: `OSGeo service providers <https://www.osgeo.org/service-providers>`__
 .. |CC BY 3.0| replace:: `CC BY 3.0 <https://creativecommons.org/licenses/by/3.0/>`__
 .. |CC BY-SA 3.0| replace:: `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0) <https://creativecommons.org/licenses/by-sa/3.0/>`__
+@OSGeoLiveDoc_menuselections@
+
 
 @OSGeoLiveDoc_PROJECTS_LOGOS@
 @OSGeoLiveDoc_PROJECTS_VERSIONS@""" % {
@@ -347,6 +337,5 @@ rst_epilog="""
   'projectversion': version,
   'required_hd_space': req_hd_size,
   'iso_size': iso_size,
-  'iso_mini_size': iso_mini_size,
   'vm_7z_size': vm_7z_size
 }

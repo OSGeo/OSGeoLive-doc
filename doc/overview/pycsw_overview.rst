@@ -19,7 +19,7 @@ pycsw enables users to publish a catalogue of dataset descriptions (metadata) to
 
 Metadata is 'data about data', storing such things as creation-date, author, title, area-of-interest, etc, and is usually encoded as XML files, following international standards such as ISO 19115, ISO 19139 and FGDC CSDGM.
 
-pycsw is a `Python`_ implementation of the |CSW|. The project is certified `OGC Compliant`_, and is an `OGC Reference Implementation`_. The CSW standard defines common interfaces to discover, browse and query metadata about spatial data, web services and related resources. 
+pycsw is a `Python`_ implementation of the |CSW|. The project is certified `OGC Compliant`_, and is an `OGC Reference Implementation`_. The CSW standard defines common interfaces to discover, browse and query metadata about spatial data, web services and related resources.
 
 pycsw is Open Source, released under an MIT license, and runs on all major platforms (Windows, Linux, Mac OS X).
 
@@ -58,26 +58,26 @@ Implemented Standards
 
 OGC Standards:
 
-* |CSW|	        2.0.2, 3.0.0
-* |FE|          1.1.0, 2.0.0
-* OWS Common 	1.0.0, 2.0.0
-* |GML| 	3.1.1
-* |SFS| 	1.2.1
-* OGC OpenSearch  1.0
+* |CSW| 2.0.2, 3.0.0
+* |FE| 1.1.0, 2.0.0
+* OWS Common 1.0.0, 2.0.0
+* |GML| 3.1.1
+* |SFS| 1.2.1
+* OGC OpenSearch 1.0
 
 Metadata Standards:
 
-* Dublin Core 	1.1
-* SOAP 	1.2
+* Dublin Core 1.1
+* SOAP 1.2
 * ISO 19115:2003
 * ISO 19139:2007
 * ISO 19119:2005
 * NASA DIF 9.7
 * FGDC CSDGM 1998
-* GM03  2.1
-* SRU 	1.1
-* OAI-PMH   2.0
-* A9 OpenSearch 	1.1
+* GM03 2.1
+* SRU 1.1
+* OAI-PMH 2.0
+* A9 OpenSearch 1.1
 
 Details
 --------------------------------------------------------------------------------

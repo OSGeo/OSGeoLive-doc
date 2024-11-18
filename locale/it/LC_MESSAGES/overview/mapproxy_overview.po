@@ -5,22 +5,24 @@
 # 
 # Translators:
 # pibinko <pibinko@gmail.com>, 2018
-# Stefano Campus <skampus@gmail.com>, 2021
+# Stefano Campus <skampus@gmail.com>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:07+0000\n"
-"Last-Translator: Stefano Campus <skampus@gmail.com>, 2021\n"
-"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
+"PO-Revision-Date: 2024-08-18 22:45+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Italian <https://weblate.osgeo.org/projects/osgeolive/"
+"mapproxy_overview/it/>\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: it\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:18
 msgid "MapProxy"
@@ -57,7 +59,7 @@ msgstr ""
 
 #: ../../build/doc/overview/mapproxy_overview.rstNone
 msgid "mapproxy screenshot"
-msgstr ""
+msgstr "screenshot di mapproxy"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:35
 msgid "Core Features"
@@ -65,7 +67,7 @@ msgstr "Caratteristiche principali"
 
 #: ../../build/doc/overview/mapproxy_overview.rstNone
 msgid "MapProxy demo"
-msgstr ""
+msgstr "demo di MapProxy"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:49
 msgid "Input sources:"
@@ -219,7 +221,7 @@ msgstr "Strumenti potenti:"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:84
 msgid ""
-"efficient seed tool for cache pre-filling that can seed polygon areas  with "
+"efficient seed tool for cache pre-filling that can seed polygon areas with "
 "Shapefiles, GeoJSON, PostGIS or WKT geometries"
 msgstr ""
 "effciente strumento di seed per il preriempimento della cache, con "
@@ -236,7 +238,7 @@ msgstr "calcolo di scale e visualizzazione della configurazione delle griglie"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:95
 msgid "Other features:"
-msgstr "Altre caratteristiche"
+msgstr "Altre caratteristiche:"
 
 #: ../../build/doc/overview/mapproxy_overview.rst:89
 msgid "simple but powerful configuration format (YAML/JSON)"
@@ -330,16 +332,16 @@ msgstr ":doc:`Guida rapida <../quickstart/mapproxy_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "Progetto OSGeo"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "Comunità OSGeo"

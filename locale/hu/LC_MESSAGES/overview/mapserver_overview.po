@@ -1,26 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2020
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-20 21:55-0500\n"
-"PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"POT-Creation-Date: 2022-08-05 11:21+0000\n"
+"PO-Revision-Date: 2023-06-24 20:08+0000\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"mapserver_overview/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: ../../build/doc/overview/mapserver_overview.rst:18
 msgid "MapServer"
@@ -42,14 +43,14 @@ msgid ""
 "providing spatial context where needed."
 msgstr ""
 "A MapServer egy C-ben írt `nyílt forráskódú <https://opensource.org/>`_ "
-"térinformatikai adatmegjelenítő motor. Az adatok böngészésén túl a MapServer"
-" \"térinformatikai kép térképek\" létrehozását is lehetővé teszi, ez olyan "
+"térinformatikai adatmegjelenítő motor. Az adatok böngészésén túl a MapServer "
+"\"térinformatikai kép térképek\" létrehozását is lehetővé teszi, ez olyan "
 "térkép, mely különböző web tartalmakra irányíthatja a felhasználót. Például "
-"a Minnesota `DNR Rekreációs iránytű  "
-"<http://www.dnr.state.mn.us/maps/compass.html>`_ alkalmazás több mint 10,000"
-" weblapot kínál a felhasználóknak, egyetlen alkalmazáson keresztül. Ugyanez "
-"az alkalmazás \"térkép motorként\" szolgálja ki az oldal többi részét és "
-"térbeli tartalmat szolgáltat ahol szükséges."
+"a Minnesota `DNR Rekreációs iránytű <http://www.dnr.state.mn.us/maps/compass."
+"html>`_ alkalmazás több mint 10,000 weblapot kínál a felhasználóknak, "
+"egyetlen alkalmazáson keresztül. Ugyanez az alkalmazás \"térkép motorként\" "
+"szolgálja ki az oldal többi részét és térbeli tartalmat szolgáltat ahol "
+"szükséges."
 
 #: ../../build/doc/overview/mapserver_overview.rst:31
 msgid ""
@@ -81,7 +82,7 @@ msgstr ""
 
 #: ../../build/doc/overview/mapserver_overview.rstNone
 msgid "mapserver screenshot"
-msgstr ""
+msgstr "mapserver képernyőképek"
 
 #: ../../build/doc/overview/mapserver_overview.rst:42
 msgid "Core Features"
@@ -238,7 +239,7 @@ msgid "Implemented Standards"
 msgstr "Implementált szabványok"
 
 #: ../../build/doc/overview/mapserver_overview.rst:93
-msgid "Support of numerous Open Geospatial Consortium  (OGC) standards"
+msgid "Support of numerous Open Geospatial Consortium (OGC) standards"
 msgstr "Számos Open Geospatial Consortium (OGC) szabvány támogatása"
 
 #: ../../build/doc/overview/mapserver_overview.rst:95
@@ -295,8 +296,8 @@ msgstr "Dokumentáció"
 
 #: ../../build/doc/overview/mapserver_overview.rst:115
 msgid ""
-"`MapServer 7.0 Documentation <https://localhost/mapserver/doc/index.html>`__"
-msgstr ""
+"`MapServer Documentation <http://localhost/mapserver/doc/index.html>`__"
+msgstr "`MapServer Dokumentáció <http://localhost/mapserver/doc/index.html>`__"
 
 #: ../../build/doc/overview/mapserver_overview.rst:118
 msgid "Details"
@@ -338,18 +339,18 @@ msgstr "Gyorstalpaló"
 msgid ":doc:`Quickstart documentation <../quickstart/mapserver_quickstart>`"
 msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/mapserver_quickstart>`"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo közösség"

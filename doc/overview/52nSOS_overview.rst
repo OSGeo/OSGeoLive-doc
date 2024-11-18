@@ -1,4 +1,4 @@
-﻿
+
 :Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org)
 :Author: Daniel Nüst (d.nuest@52north.org)
 :Author: Simon Jirka (s.jirka@52north.org)
@@ -31,7 +31,7 @@ Core Features
   This provides means for administration and configuration of the service
   instance, as well as sending test requests for SOS operations; appropriate
   sample requests are included.
-* **Helgoland**: The SOS contains the Helgoland application for  the exploration,
+* **Helgoland**: The SOS contains the Helgoland application for the exploration,
   analysis and visualization of Sensor Web data in various fields of use, e.g.
   hydrology, meteorology, environmental monitoring, traffic management.
 * **Specifications**: The 52°North SOS implements the current specification version 2.0.0 and the
@@ -143,11 +143,7 @@ Details
 
 **Community Support:** https://list.52north.org/mailman/listinfo/sensorweb
 
-**Community Website:** https://52north.org/research/research-labs/sensor-web/
-
-**Other 52°North projects on OSGeoLive:** :doc:`WPS <./52nWPS_overview>`
-
-
+**Community Website:** https://52north.org/research/scope/research-data-infrastructures/
 
 @VMDK_52nSOS@
 @QUICKSTART_52nSOS@

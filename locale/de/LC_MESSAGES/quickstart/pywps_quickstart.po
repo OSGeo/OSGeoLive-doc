@@ -7,20 +7,21 @@
 # Vicky Vergara <vicky@georepublic.de>, 2021
 # Astrid Emde <astrid_emde@osgeo.org>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2022\n"
-"Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
+"PO-Revision-Date: 2024-10-14 15:25+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
+"pywps_quickstart/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:23
 msgid "PyWPS Quickstart"
@@ -47,8 +48,8 @@ msgstr ""
 "Die PyWPS 4.0.0-Bibliothek ist standardmäßig auf OSGeoLive installiert. Dies"
 " ist eine Kernbibliothek, die nicht direkt ausgeführt werden soll, sondern "
 "bei der Entwicklung von WPS-Diensten verwendet werden soll. Ein "
-"`Beispieldienst <https://github.com/geopython/pywps-flask>`_ basierend auf  "
-"`Flask <https://flask.palletsprojects.com>`_  ist bei GitHub verfügbar, um "
+"`Beispieldienst <https://github.com/geopython/pywps-flask>`_ basierend auf "
+"`Flask <https://flask.palletsprojects.com>`_ ist bei GitHub verfügbar, um "
 "einen ersten Kontakt mit PyWPS zu erleichtern."
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:34
@@ -63,8 +64,8 @@ msgstr "Installiere und konfiguriere den pywps-flask-Beispiel-Service"
 msgid ""
 "Perform ``GetCapabilities``, ``DescribeProcess`` and ``Execute`` requests"
 msgstr ""
-"Führen Sie den ``GetCapabilities``-, ``DescribeProcess``- und "
-"``Execute``-Request durch."
+"Führen Sie den ``GetCapabilities``-, ``DescribeProcess``- und ``Execute``-"
+"Request durch"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:38
 msgid "Develop your own WPS processes"
@@ -271,7 +272,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:163
 msgid ""
-"Deployment to production -   The `pywps-flask` service is just an example "
+"Deployment to production -  The `pywps-flask` service is just an example "
 "and not designed for production. One possible alternative is a Django based "
 "service, `pywps-django <https://github.com/jorgejesus/pywps-django>`_. The "
 "documentation provides further details on how to `set up a production "
@@ -281,7 +282,7 @@ msgid ""
 msgstr ""
 "Bereitstellung in der Produktion - Der \"pywps-flask\"-Dienst ist nur ein "
 "Beispiel und nicht für die Produktion konzipiert. Eine mögliche Alternative "
-"ist ein Django-basierter Dienst,  `pywps-django "
+"ist ein Django-basierter Dienst, `pywps-django "
 "<https://github.com/jorgejesus/pywps-django>`_. Die Dokumentation weitre "
 "Informaationen bereit wie ein `Dienst in Produktion "
 "<https://pywps.readthedocs.io/en/latest/deployment.html>`_ mit `Apache "
@@ -290,16 +291,16 @@ msgstr ""
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Community"

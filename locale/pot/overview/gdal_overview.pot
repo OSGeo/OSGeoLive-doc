@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2024-09-26 14:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,7 +29,7 @@ msgid "Geospatial Data Abstraction Library (GDAL/OGR) provides command-line util
 msgstr ""
 
 #: ../../build/doc/overview/gdal_overview.rst:27
-msgid "The utilities are based upon a cross platform, C++ library, accessible via numerous programming languages.  As a library, it presents a single abstract data model to the calling application for all supported formats."
+msgid "The utilities are based upon a cross platform, C++ library, accessible via numerous programming languages. As a library, it presents a single abstract data model to the calling application for all supported formats."
 msgstr ""
 
 #: ../../build/doc/overview/gdal_overview.rst:31
@@ -101,7 +101,7 @@ msgid "**Website:** https://gdal.org/"
 msgstr ""
 
 #: ../../build/doc/overview/gdal_overview.rst:71
-msgid "**Licence:** `X/MIT style Open Source license <https://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_"
+msgid "**License:** `X/MIT style Open Source license <https://gdal.org/en/latest/license.html>`_"
 msgstr ""
 
 #: ../../build/doc/overview/gdal_overview.rst:73
@@ -128,11 +128,11 @@ msgstr ""
 msgid ":doc:`Quickstart documentation <../quickstart/gdal_quickstart>`"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr ""
 

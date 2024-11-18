@@ -8,20 +8,22 @@
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"PO-Revision-Date: 2024-09-02 00:20+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"osgeolive_quickstart/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:9
 msgid "Getting started with OSGeoLive"
@@ -43,11 +45,11 @@ msgstr "Los requerimientos mínimos del computador son:"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:18
 msgid "RAM: minimum 2 GB (4 GB recommended)."
-msgstr ""
+msgstr "RAM: mínimo 2 GB (se recomiendan 4 GB)."
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:19
 msgid "CPU: 1 GHz 64 bit."
-msgstr ""
+msgstr "CPU: 1 GHz 64 bit."
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:20
 msgid "Hard Disk:"
@@ -77,9 +79,9 @@ msgid ""
 "Source an OSGeoLive DVD, ISO available from: [:doc:`Download <../download>`]"
 " Put the DVD into your computer's CD drive, then reboot your computer."
 msgstr ""
-"Fuente un DVD OSGeoLive, ISO disponible desde:[:doc:`Download "
-"<../download>`]  Insertar el DVD en la unidad de CD del computador, y a "
-"continuación, reinicie el computador."
+"Fuente un DVD OSGeoLive, ISO disponible desde:[:doc:`Download <../download>`]"
+" Insertar el DVD en la unidad de CD del computador, y a continuación, "
+"reinicie el computador."
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:33
 msgid ""
@@ -96,7 +98,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:0
 msgid "boot"
-msgstr ""
+msgstr "boot"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:42
 msgid "Sit back while the system boots up."
@@ -104,7 +106,7 @@ msgstr "Relájese mientras el sistema arranca."
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:0
 msgid "boot select"
-msgstr ""
+msgstr "menú"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:48
 msgid "Try the many applications from the :menuselection:`Geospatial` menu."
@@ -113,17 +115,17 @@ msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:51
 msgid "See Also:"
-msgstr "Vea también:"
+msgstr "Ver también:"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:54
 msgid ""
 "Getting started with Lubuntu and the LXQt desktop (which is used by "
 "OSGeoLive):"
-msgstr ""
+msgstr "Introducción a Lubuntu y al escritorio LXQt (que utiliza OSGeoLive):"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:54
 msgid "https://lubuntu.me/ and https://lxqt-project.org/"
-msgstr ""
+msgstr "https://lubuntu.me/ y https://lxqt-project.org/"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:56
 msgid "Getting started with the Ubuntu operating system:"

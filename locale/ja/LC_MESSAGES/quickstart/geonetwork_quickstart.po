@@ -1,25 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ko Nagase <nagase@georepublic.co.jp>, 2021
+# Ko Nagase <nagase@georepublic.co.jp>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"POT-Creation-Date: 2022-08-06 09:15-0500\n"
+"PO-Revision-Date: 2024-11-02 13:09+0000\n"
+"Last-Translator: Ko Nagase <geosanak@gmail.com>\n"
+"Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
+"geonetwork_quickstart/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:27
 msgid "GeoNetwork Quickstart"
@@ -47,6 +48,10 @@ msgid ""
 "opensource.org/manuals/trunk/en/install-guide/index.html>`__ if you are "
 "using GeoNetwork in some other context."
 msgstr ""
+"GeoNetworkは、OSGeo Liveのスタートメニューから直接起動できます。http://localhost:8080/geonetwork "
+"には、しばらく後に接続可能になります。GeoNetwork を他のコンテキストで使用する場合は、 `インストールガイド "
+"<https://geonetwork-opensource.org/manuals/trunk/en/install-"
+"guide/index.html>`__ を確認してください。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:39
 msgid ""
@@ -74,9 +79,9 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:47
 msgid ""
-"You can return to the  homepage at any point by selecting the catalogue logo"
+"You can return to the homepage at any point by selecting the catalogue logo"
 " in the top left of the top toolbar. In the screenshot below, this is "
-"labelled  “My GeoNetwork catalogue” but it may have a different name and "
+"labelled “My GeoNetwork catalogue” but it may have a different name and "
 "logo."
 msgstr ""
 "上部ツールバーの左上に表示されているカタログロゴを選択すると、ホームページにいつでも戻ることができます。下のスクリーンショットでは、これに \"My "
@@ -190,7 +195,7 @@ msgstr "入力時に提案を表示する全文検索ボックス"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:107
 msgid ""
-"*Search facets*, or  filters, that provide ways of narrowing down the search"
+"*Search facets*, or filters, that provide ways of narrowing down the search"
 " results, such as *Type of Resource*, *Topic*, *Keywords*,"
 msgstr "検索結果を絞り込む *リソースタイプ* 、 *トピック* 、 *キーワード* などを提供する *検索ファセット* 、またはフィルタ。"
 
@@ -428,7 +433,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:219
 msgid "What next?"
-msgstr "次のステップ"
+msgstr "次のステップは何?"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:221
 msgid ""
@@ -437,9 +442,9 @@ msgid ""
 " on **Describing Information**, to learn how to create and edit metadata "
 "records."
 msgstr ""
-"`Geonetwork User Guide <https://geonetwork-"
-"opensource.org/manuals/trunk/en/user-guide/index.html>`_ にアクセスし、 "
-"**Describing Information** の章を参照して、メタデータレコードの作成と編集方法を学んでください。"
+"`Geonetwork ユーザガイド <https://geonetwork-opensource.org/manuals/trunk/en/user-"
+"guide/index.html>`_ にアクセスし、 **Describing Information** "
+"の章を参照して、メタデータレコードの作成と編集方法を学んでください。"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:223
 msgid ""
@@ -449,18 +454,18 @@ msgid ""
 msgstr ""
 "後続の章へ進んで、リソースをメタデータに関連付け、キーワードでタグ付けしてカテゴリに追加し、メタデータを外部に公開する方法を学習しましょう。"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "ロゴなし"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo プロジェクト"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo コミュニティ"

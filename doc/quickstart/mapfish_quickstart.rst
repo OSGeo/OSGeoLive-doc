@@ -14,12 +14,12 @@
 ********************************************************************************
 
 MapFish is a flexible and complete framework for building rich web-mapping
-applications. It emphasizes high productivity, and high-quality development. 
+applications. It emphasizes high productivity, and high-quality development.
 
-This Quickstart describes how to 
+This Quickstart describes how to
 
 * run the MapFish sample application installed on this live DVD
-* install MapFish, and 
+* install MapFish, and
 * create MapFish applications.
 
 Run the sample application
@@ -32,7 +32,7 @@ apache (http://localhost/mapfishsample/osgeolive/wsgi/).
 
 This demo application has the following features: Query, Editing, Search, and
 Printing.
-To see the MapFish REST protocol in action you can open the Firebug debugger 
+To see the MapFish REST protocol in action you can open the Firebug debugger
 and look at the requests/responses exchanged between the browser and the
 MapFish web services.
 :menuselection:`Tools --> Web Developer --> Toggle Tools`
@@ -93,11 +93,11 @@ At this point you should be able to run the application with::
 
 Open http://localhost:5000 in your browser. You should see a minimal
 application that includes a map with two `OSM layers
-<http://www.openstreetmap.org/>`_, a toolbar above the map, and a layer tree.
+<https://www.openstreetmap.org/>`_, a toolbar above the map, and a layer tree.
 
 The MapFish framework offers more than that. In particular it allows easily
 creating RESTful web services for creating, reading, updating and deleting
-features. Please visit http://mapfish.org/doc/2.2/quickstart.html to learn
-how to create such RESTful web services and http://mapfish.org to learn more
+features. Please visit http://www.mapfish.org/doc/2.2/quickstart.html to learn
+how to create such RESTful web services and http://www.mapfish.org/ to learn more
 about MapFish.
 

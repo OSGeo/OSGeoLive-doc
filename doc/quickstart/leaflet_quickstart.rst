@@ -14,15 +14,15 @@
 @NAME_leaflet@ Quickstart
 ********************************************************************************
 
-Leaflet is a JavaScript library for browser-based, mobile-friendly, interactive maps.  It is lightweight, yet has all the features most developers ever need for online maps. Leaflet is designed with simplicity, performance and usability in mind.
+Leaflet is a JavaScript library for browser-based, mobile-friendly, interactive maps. It is lightweight, yet has all the features most developers ever need for online maps. Leaflet is designed with simplicity, performance and usability in mind.
 
 .. contents:: Contents
 
 Running
 ================================================================================
 
-Prior to running this quick start you should start TileStache. On OSGeoLive this can be found under **Geospatial\\Spatial Tools\\Start Mapnik & TileStache**.
-This will provide background tiles that will be used in this demo. 
+Prior to running this quick start you should start MapProxy. On OSGeoLive this can be found under **Geospatial\\Web Services\\MapProxy\\Start MapProxy**.
+This will provide background tiles that will be used in this demo.
 
 View the example_
 
@@ -37,9 +37,6 @@ Before writing any code for the map, you need to do the following preparation st
 .. code-block:: html
 
  <link rel="stylesheet" href="/leaflet/leaflet.css" />
- <!--[if lte IE 8]>
-     <link rel="stylesheet" href="/leaflet/leaflet.ie.css" />
- <![endif]-->
 
 * Include Leaflet JavaScript file:
 
@@ -63,24 +60,24 @@ Now you are ready to initialize the map and do some stuff with it.
 
 Setting up the Map
 ================================================================================
-Let's create a map of eastern Africa with an indication of the 2018 FOSS4G conference. First we'll initialize the map and set its view to our chosen geographical coordinates and a zoom level:
+Let's create a map of Firenze, Italy with an indication of the 2022 FOSS4G conference. First we'll initialize the map and set its view to our chosen geographical coordinates and a zoom level:
 
-.. code-block:: javascript 
+.. code-block:: javascript
 
- var map = L.map('map').setView([44.43743, 26.104], 15);
+ var map = L.map('map').setView([43.77913, 11.24938], 15);
 
 By default (as we didn't pass any options when creating the map instance), all mouse and touch interactions on the map are enabled, and it has zoom and attribution controls.
 
 Note that setView call also returns the map object - most Leaflet methods act like this when they don't return an explicit value, which allows convenient jQuery-like method chaining.
 
 Next we'll add a tile layer to our map.
-In this case we will be using the tile images provided by TileStache on the live dvd. Note that using nicer background maps such as openstreetmap will result in a much better user experience.
+In this case we will be using the tile images provided by MapProxy on the live dvd. Note that using nicer background maps such as openstreetmap will result in a much better user experience.
 
 Creating a tile layer usually involves setting the URL template for the tile images, the attribution text and the maximum zoom level of the layer:
 
 ::
 
- L.tileLayer('http://localhost:8012/example/{z}/{x}/{y}.png,{}).addTo(map);
+ L.tileLayer('http://localhost:8011/wmts/mapnik_tile/GLOBAL_WEBMERCATOR/{z}/{x}/{y}.png',{}).addTo(map);
 
 If you have online access you may want to use a nicer tilemap as the background:
 
@@ -98,15 +95,15 @@ Markers, circles and polygons
 Besides tile layers, you can easily add other things to your map, including markers, polylines, polygons, circles and popups.
 Let's add a marker:
 
-.. code-block:: javascript 
+.. code-block:: javascript
 
- var marker = L.marker([44.437 ,26.104]).addTo(map);
+ var marker = L.marker([43.77913, 11.24938]).addTo(map);
 
 Adding a circle is the same (except for specifying the radius in meters as a second argument), but lets you control how it looks by passing options as the last argument when creating the object:
 
 .. code-block:: javascript
 
- var circle = L.circle([44.435, 26.11], 250, {
+ var circle = L.circle([43.777, 11.255], 250, {
     color: 'red',
     fillColor: '#f03',
     fillOpacity: 0.5
@@ -117,9 +114,9 @@ Adding a polygon is as easy:
 .. code-block:: javascript
 
  var polygon = L.polygon([
-     [44.433, 26.102],
-     [44.442, 26.095],
-     [44.436, 26.093]
+     [43.775, 11.247],
+     [43.784, 11.240],
+     [43.778, 11.238]
  ]).addTo(map);
 
 
@@ -128,11 +125,11 @@ Working with popups
 
 Popups are usually used when you want to attach some information to a particular object on a map. Leaflet has a very handy shortcut for this:
 
-.. code-block:: javascript 
+.. code-block:: javascript
 
  var popup = L.popup()
-    .setLatLng([44.437, 26.104])
-    .setContent("I am a standalone popup.")
+    .setLatLng([43.77913, 11.24938])
+    .setContent("FOSS4G is here this year!")
     .openOn(map);
 
 Here we use **openOn** instead of **addTo** because it handles automatic closing of a previously opened popup when opening a new one which is good for usability.
@@ -147,7 +144,7 @@ Every time something happens in Leaflet, e.g. user clicks on a marker or map zoo
  function onMapClick(e) {
     alert("You clicked the map at " + e.latlng);
  }
- 
+
  map.on('click', onMapClick);
 
 Each object has its own set of events - see documentation_ for details. The first argument of the listener function is an event object - it contains useful information about the event that happened. For example, map click event object (e in the example above) has latlng property which is a location at which the click occured.
@@ -163,13 +160,13 @@ Let's improve our example by using a popup instead of an alert:
          .setLatLng(e.latlng)
          .setContent("You clicked the map at " + e.latlng.toString())
           .openOn(map);
- } 
- 
+ }
+
  map.on('click', onMapClick);
 
 Try clicking on the map and you will see the coordinates in a popup. View the full example_
 
-What Next?
+What next?
 ================================================================================
 
 Now you've learned Leaflet basics and can start building map apps straight away! Don't forget to take a look at the detailed documentation_ or other examples_.

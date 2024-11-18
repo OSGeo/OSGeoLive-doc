@@ -12,10 +12,10 @@ endif()
 project(OSGeoLiveDoc LANGUAGES NONE)
 set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake")
 
-set(iso_size "4.0" CACHE STRING "for osgeolive-X.X.iso")
-set(iso_mini_size "4.0" CACHE STRING "for osgeolive-mini-X.X.iso")
-set(vm_7z_size "3.1" CACHE STRING "for osgeo-vm-X.X.7z")
-set(req_hd_size "20" CACHE STRING "required hard disk space")
+
+set(iso_size "4.4" CACHE STRING "for osgeolive-X.X.iso")
+set(vm_7z_size "7.0" CACHE STRING "for osgeo-vm-X.X.7z")
+set(req_hd_size "22" CACHE STRING "required hard disk space")
 
 
 #---------------------------------------------
@@ -25,10 +25,10 @@ set(req_hd_size "20" CACHE STRING "required hard disk space")
 #---------------------------------------------
 # Setting the version number
 #---------------------------------------------
-set(OSGeoLiveDoc_VERSION_MAJOR "15")
+set(OSGeoLiveDoc_VERSION_MAJOR "17")
 set(OSGeoLiveDoc_VERSION_MINOR "0")
 set(OSGeoLiveDoc_VERSION_PATCH "0")
-set(OSGeoLiveDoc_VERSION_DEV "-dev")
+set(OSGeoLiveDoc_VERSION_DEV "")
 set(OSGeoLiveDoc_VERSION "${OSGeoLiveDoc_VERSION_MAJOR}.${OSGeoLiveDoc_VERSION_MINOR}.${OSGeoLiveDoc_VERSION_MINOR}${OSGeoLiveDoc_VERSION_DEV}")
 set(OSGeoLiveDoc_NAME "OSGeoLive")
 
@@ -157,7 +157,7 @@ message(STATUS "OSGeoLiveDoc_DOC_TARGETS = ${OSGeoLiveDoc_DOC_TARGETS}")
 # TODO: figure out how to support this
 #  "el"   "hu"  "id"  "zh")
 #---------------------------------------------
-set(OSGeoLiveDoc_SUPPORTED_LANGUAGES "de" "es" "fi" "fr" "hu" "it" "ja")
+set(OSGeoLiveDoc_SUPPORTED_LANGUAGES "de" "es" "fi" "fr" "hu" "it" "ja" "nl" "pt" "sv" "tr" "zh_Hans")
 set(OSGeoLiveDoc_ENGLISH "en")
 
 #---------------------------------------------
@@ -219,7 +219,10 @@ INSERT_INTO_MAP("ko" "한국어")
 INSERT_INTO_MAP("pl" "Polski")
 INSERT_INTO_MAP("pt" "Portugus")
 INSERT_INTO_MAP("ru" "Русский")
-INSERT_INTO_MAP("zh" "中文")
+INSERT_INTO_MAP("sv" "Swidish")
+INSERT_INTO_MAP("nl" "Dutch")
+INSERT_INTO_MAP("tr" "Turkish")
+INSERT_INTO_MAP("zh_Hans" "中文")
 
 
 message(STATUS "OSGeoLiveDoc_BUILD_LANGUAGES = ${OSGeoLiveDoc_BUILD_LANGUAGES}")
@@ -295,7 +298,7 @@ MACRO(INSERT_INTO_MAP_VMDK _KEY _TARGET)
     if ("${_TARGET}" STREQUAL "Y")
         set(_NOTE  " ")
     else()
-	set(_NOTE ".. note:: This  project is only included on the OSGeoLive virtual machine disk (VMDK)")
+	set(_NOTE ".. note:: This project is only included on the OSGeoLive virtual machine disk (VMDK)")
     endif()
 
     SET("VMDK_${_KEY}" "${_NOTE}")

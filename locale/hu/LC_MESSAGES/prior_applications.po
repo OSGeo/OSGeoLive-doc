@@ -1,25 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:02+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"POT-Creation-Date: 2022-08-04 08:50+0000\n"
+"PO-Revision-Date: 2024-10-14 01:31+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"prior_applications/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/prior_applications.rst:5
 msgid "Previously available applications"
@@ -55,21 +56,95 @@ msgstr "Leírás"
 #: ../../build/doc/prior_applications.rst:1
 #: ../../build/doc/prior_applications.rst:1
 #: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
 msgid "|nologo|"
 msgstr "|nologo|"
 
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "LibLAS_"
+msgstr "LibLAS_"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <LibLAS_q_>`__"
+msgstr "`Gyorstalpaló <LibLAS_q_>`__"
+
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+msgid "13.0"
+msgstr "13.0"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "LiDAR Data Access"
+msgstr "LiDAR adat hozzáférés"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "MapSlicer_"
+msgstr "MapSlicer_"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <MapSlicer_q_>`__"
+msgstr "`Gyorstalpaló <MapSlicer_q_>`__"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Create Map Tiles"
+msgstr "Térképcsempék létrehozása"
+
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+msgid "|osgeo_community|"
+msgstr "|osgeo_community|"
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr "OSGeo közösség"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Geomajas_"
+msgstr "Geomajas_"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <Geomajas_q_>`__"
+msgstr "`Gyorstalpaló <Geomajas_q_>`__"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Browser GIS Client"
+msgstr "Böngésző GIS kliens"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "OSSIM_"
+msgstr "OSSIM_"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <OSSIM_q_>`__"
+msgstr "`Gyorstalpaló <OSSIM_q_>`__"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "11.0"
+msgstr "11.0"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Image Processing"
+msgstr "Képfeldolgozás"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "`OGC Standards`_"
@@ -274,16 +349,6 @@ msgid "Microsoft Windows based Desktop GIS."
 msgstr "Microsoft Windows alapú asztali térinformatika."
 
 #: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-msgid "|osgeo_project|"
-msgstr "|osgeo_project|"
-
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0
-msgid "OSGeo Project"
-msgstr ""
-
-#: ../../build/doc/prior_applications.rst:1
 msgid "MapFish_"
 msgstr "MapFish_"
 
@@ -352,10 +417,10 @@ msgstr "5.0"
 msgid "Web Service"
 msgstr "Web szolgáltatás"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-msgid "OSGeo Community"
-msgstr ""
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr "OSGeo Projekt"

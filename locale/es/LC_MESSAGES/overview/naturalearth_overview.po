@@ -7,20 +7,22 @@
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"PO-Revision-Date: 2024-08-17 19:57+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"naturalearth_overview/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:15
 msgid "Natural Earth"
@@ -28,7 +30,7 @@ msgstr "Natural Earth"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:18
 msgid "Map Data"
-msgstr "Datos de Mapa"
+msgstr "Datos del Mapa"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:20
 msgid ""
@@ -40,7 +42,7 @@ msgid ""
 msgstr ""
 "Natural Earth proporciona a los cartógrafos una solución fuera de la "
 "plataforma para crear mapas mundiales, regionales y de países a escalas muy "
-"pequeñas, como  1: 10-, 1: 50- y 1: 110 millones. Se incluyen las "
+"pequeñas, como 1: 10-, 1: 50- y 1: 110 millones. Se incluyen las "
 "características políticas (administrativas) y físicas (naturales) y las "
 "características vectoriales se alinean perfectamente con los datos ráster "
 "incluidos."
@@ -79,10 +81,10 @@ msgstr ""
 #: ../../build/doc/overview/naturalearth_overview.rst:35
 msgid ""
 "Projection friendly vectors precisely match at 180 degrees longitude. Lines "
-"contain enough data  points for smooth bending in conic projections, but not"
+"contain enough data points for smooth bending in conic projections, but not"
 " so many that computer processing speed suffers."
 msgstr ""
-"Las proyecciones amigables de  vectores coinciden exactamente a 180 grados "
+"Las proyecciones amigables de vectores coinciden exactamente a 180 grados "
 "de longitud. Las líneas contienen suficientes puntos de datos para una "
 "flexión suave en las proyecciones cónicas, pero no tanto como para la "
 "velocidad de procesamiento de la computadora."
@@ -94,9 +96,9 @@ msgid ""
 "register with Natural Earth Vector."
 msgstr ""
 "Los datos ráster incluyen relieve sombreado en escala de grises y matices "
-"cruzados con tintes hipsométricos derivados de los datos de elevación  SRTM "
-"Plus más recientes de la NASA, adaptados  para registrarse con Natural Earth"
-" Vector."
+"cruzados con tintes hipsométricos derivados de los datos de elevación SRTM "
+"Plus más recientes de la NASA, adaptados para registrarse con Natural Earth "
+"Vector."
 
 #: ../../build/doc/overview/naturalearth_overview.rst:37
 msgid ""
@@ -114,7 +116,7 @@ msgstr "Conjuntos de datos"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:44
 msgid "Cultural Vector Data Themes:"
-msgstr "Temas de Datos Vectoriales Culturales:"
+msgstr "Temas de Datos Culturales Vectoriales:"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:44
 msgid ""
@@ -131,7 +133,7 @@ msgstr ""
 
 #: ../../build/doc/overview/naturalearth_overview.rst:47
 msgid "Physical Vector Data Themes:"
-msgstr "Temas de Datos Vectoriales Físicos:"
+msgstr "Temas de Datos Físicos Vectoriales:"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:47
 msgid ""
@@ -182,7 +184,7 @@ msgstr "**Formato de datos:** SHP y TIF+TFW"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:64
 msgid "**Spatial coordinate system:** WGS84."
-msgstr "**Sistema de coordenadas espaciales:** WGS84"
+msgstr "**Sistema de coordenadas espaciales:** WGS84."
 
 #: ../../build/doc/overview/naturalearth_overview.rst:66
 msgid "**Support:** https://www.naturalearthdata.com/about"

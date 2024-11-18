@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2024-08-17 15:05-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgid "EOxServer Quickstart"
 msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:21
-msgid "EOxServer is a server for presenting big Earth Observation (EO) data archives and metadata via Open Standards. It builds upon an Open Source stack of software which includes Python, :doc:`MapServer <../overview/mapserver_overview>`, Django/GeoDjango, :doc:`GDAL <../overview/gdal_overview>`,  :doc:`PROJ <../overview/proj_overview>` and a :doc:`SpatiaLite <../overview/spatialite_overview>` or :doc:`PostGIS <../overview/postgis_overview>` database."
+msgid "EOxServer is a server for presenting big Earth Observation (EO) data archives and metadata via Open Standards. It builds upon an Open Source stack of software which includes Python, :doc:`MapServer <../overview/mapserver_overview>`, Django/GeoDjango, :doc:`GDAL <../overview/gdal_overview>`, :doc:`PROJ <../overview/proj_overview>` and a :doc:`SpatiaLite <../overview/spatialite_overview>` or :doc:`PostGIS <../overview/postgis_overview>` database."
 msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:30
@@ -45,7 +45,7 @@ msgid "Start EoxServer"
 msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:41
-msgid "Choose :menuselection:`Geospatial --> Web Services --> EOxServer`. This launches a browser showing the demonstration instance available at http://localhost/eoxserver/"
+msgid "Choose |menu_eoxserver|. This launches a browser showing the demonstration instance available at http://localhost/eoxserver/"
 msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:None
@@ -141,7 +141,7 @@ msgid "EOxServer demonstration admin client Dataset Series Management"
 msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:146
-msgid "What Next?"
+msgid "What next?"
 msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:148
@@ -164,11 +164,11 @@ msgstr ""
 msgid "Ready to use EOxServer? Then join the community on the `mailing lists <https://docs.eoxserver.org/en/stable/users/basics.html#where-can-i-get-support>`_ to exchange ideas, discuss potential software improvements, and ask questions."
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr ""
 

@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2022, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Celine Vilain, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 17.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-15 20:42-0600\n"
+"PO-Revision-Date: 2023-07-03 08:33+0000\n"
+"Last-Translator: Michel Stuyts <michel.stuyts@gmail.com>\n"
+"Language-Team: Dutch <https://weblate.osgeo.org/projects/osgeolive/"
+"sponsors_osgeo/nl/>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
+
+#: ../../build/doc/sponsors_osgeo.rstNone
+msgid "OSGeo"
+msgstr "OsGeo"
+
+#: ../../build/doc/sponsors_osgeo.rst:7
+msgid "The OSGeo Foundation"
+msgstr "OSGeo foundation"
+
+#: ../../build/doc/sponsors_osgeo.rst:9
+msgid "*Empower everyone with open source geospatial*"
+msgstr "*Iedereen moet gebruik kunnen maken van Open Source Geospatial*"
+
+#: ../../build/doc/sponsors_osgeo.rst:11
+msgid ""
+"The `Open Source Geospatial Foundation (OSGeo) <https://www.osgeo.org>`__ is"
+" a not-for-profit organization whose mission is to foster global adoption of"
+" open geospatial technology by being an inclusive software foundation "
+"devoted to an open philosophy and participatory community driven "
+"development."
+msgstr ""
+"De `Open Source Geospatial Foundation (OSGeo) <https://www.osgeo.org>`__ is "
+"een non-profit organisatie dat als missie heeft om de wereldwijde acceptatie"
+" van open geospatiale technologie te bevorderen door een inclusieve "
+"softwarestichting te zijn die zich toelegt op een open filosofie en "
+"participatieve community-gedreven ontwikkeling."
+
+#: ../../build/doc/sponsors_osgeo.rst:17
+msgid "OSGeo outreach and activities include:"
+msgstr "OSGeo outreach en activiteiten omvatten:"
+
+#: ../../build/doc/sponsors_osgeo.rst:19
+msgid ""
+"`Local Chapters <https://www.osgeo.org/local-chapters>`__: Local, regional "
+"and language groups support grass roots activities."
+msgstr ""
+"\"Lokale afdelingen <https://www.osgeo.org/local-chapters>`__: Lokale, "
+"regionale en taalgroepen ondersteunen activiteiten aan de basis."
+
+#: ../../build/doc/sponsors_osgeo.rst:20
+msgid ""
+"`GeoForAll <https://www.osgeo.org/initiatives/geo-for-all>`__: Over 100 "
+"educational labs from around the world who work with partners to make "
+"geospatial education and opportunities accessible to all."
+msgstr ""
+"`GeoForAll <https://www.osgeo.org/initiatives/geo-for-all>`__ : Meer dan 100"
+" educatieve labs van over de hele wereld die samenwerken met partners om "
+"geospatiaal onderwijs en opportuniteiten voor iedereen toegankelijk te "
+"maken."
+
+#: ../../build/doc/sponsors_osgeo.rst:21
+msgid ""
+"`OSGeoLive <https://live.osgeo.org>`__: A distribution of established "
+"geospatial open source software, pre-configured with sample data and "
+"quickstarts, ready to try out."
+msgstr ""
+"`OSGeoLive <https://live.osgeo.org>`__: Een distributie van gevestigde "
+"geospatiale open source software, vooraf geconfigureerd met "
+"voorbeeldgegevens en quickstarts, klaar om uit te proberen."
+
+#: ../../build/doc/sponsors_osgeo.rst:22
+msgid ""
+"`FOSS4G <https://foss4g.org>`_: Annual, international conference for *Free "
+"and Open Source Software for Geospatial*, as well as many regional and local"
+" `events <https://www.osgeo.org/events>`_."
+msgstr ""
+"`FOSS4G <https://foss4g.org>`_: Jaarlijkse, internationale conferentie voor "
+"*Vrije en Open Source Software voor Geospatial*, evenals vele regionale en "
+"lokale `evenementen <https://www.osgeo.org/events>`_."
+
+#: ../../build/doc/<rst_epilog>:13
+msgid "vmdk"
+msgstr "vmdk"
+
+#: ../../build/doc/<rst_epilog>:16
+msgid "nologo"
+msgstr "nologo"
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr "OSGeo Project"
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr "OSGeo Gemeenschap"

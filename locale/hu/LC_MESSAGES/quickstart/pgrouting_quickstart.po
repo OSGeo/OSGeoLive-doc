@@ -7,20 +7,21 @@
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"PO-Revision-Date: 2024-10-14 00:38+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"pgrouting_quickstart/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:23
 msgid "pgRouting Quickstart"
@@ -59,7 +60,7 @@ msgid ""
 "commandline tool packaged with PostgreSQL `psql`"
 msgstr ""
 "Nyisson egy :menuselection:`System Tools --> QTerminal` ablakot és indítsa "
-"el a `psql`-t  a PostgreSQL parancssori eszközét."
+"el a `psql`-t a PostgreSQL parancssori eszközét"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:43
 msgid "At the `psql` prompt type:"
@@ -86,8 +87,8 @@ msgid ""
 "osm2pgrouting is a command-line tool for loading `.osm` files into the "
 "database with a pgRouting compatible format."
 msgstr ""
-"Az osm2pgrouting egy parancssori eszköz `.osm` fájlok adatbázisba  "
-"betöltésére PgRouting kompatibilis formátumban. "
+"Az osm2pgrouting egy parancssori eszköz `.osm` fájlok adatbázisba "
+"betöltésére PgRouting kompatibilis formátumban."
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:80
 msgid "Check the installed version"
@@ -116,7 +117,7 @@ msgstr "Kapcsolódjon a `city_routing` adatbázishoz"
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:185
 msgid "The :command:`\\\\d` command will list all available tables and sequences"
 msgstr ""
-"A  :command:`\\\\d` parancs az összes elérhető táblát szekvenciát listázza"
+"A :command:`\\\\d` parancs az összes elérhető táblát szekvenciát listázza"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:207
 msgid ""
@@ -161,7 +162,7 @@ msgid ""
 "Inner query that use `gid` as identifier of the segments and lenght as "
 "`cost` without the optional `reverse_cost`"
 msgstr ""
-"Belső lekérdezés, mely a szakaszok `gid` azonosítóját  és `cost`-ként a "
+"Belső lekérdezés, mely a szakaszok `gid` azonosítóját és `cost`-ként a "
 "hosszát használja az opcionális `reverse_cost` nélkül"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:257
@@ -174,8 +175,8 @@ msgid ""
 "traverse a segment on an undirected graph, using `id` as the identifier of a"
 " vertex"
 msgstr ""
-"A Dijkstra legrövidebb útvonal  futtatása egy irányítatlan gráfban az "
-"utazási időre alapozva, a csomópont `id`-k használatával"
+"A Dijkstra legrövidebb útvonal futtatása egy irányítatlan gráfban az utazási "
+"időre alapozva, a csomópont `id`-k használatával"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:298
 msgid "A query that use the OSM identifier becomes:"
@@ -186,7 +187,7 @@ msgid ""
 "Because the query is using fields `source_osm` and `target_osm` the query "
 "aliases them to have the required names `source` and `target`."
 msgstr ""
-"Mivel a lekérdezés a `source_osm` és `target_osm` mezőket használja,  "
+"Mivel a lekérdezés a `source_osm` és `target_osm` mezőket használja, "
 "lekérdezés álneveket rendel hozzájuk a szükséges `source` és `target "
 "nevekkel`."
 
@@ -260,16 +261,16 @@ msgstr ""
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo közösség"

@@ -44,7 +44,7 @@ Core Features
 
 * Fast user interface for managing and visualising data
 
- * 3D visualisation
+ * 3D visualization
 
 * Straightforward C++ API for creating new modules
 * Scripting through command line, bindings for Python
@@ -63,7 +63,7 @@ Details
 
 **API Interfaces:** C++, Python, R
 
-**Support:** http://www.saga-gis.org
+**Support:** https://sourceforge.net/p/saga-gis/mailman/
 
 
 @VMDK_saga@

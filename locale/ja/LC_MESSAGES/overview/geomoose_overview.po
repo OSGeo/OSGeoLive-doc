@@ -1,25 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ko Nagase <nagase@georepublic.co.jp>, 2021
+# Ko Nagase <nagase@georepublic.co.jp>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"POT-Creation-Date: 2022-08-06 09:15-0500\n"
+"PO-Revision-Date: 2024-11-02 13:09+0000\n"
+"Last-Translator: Ko Nagase <geosanak@gmail.com>\n"
+"Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
+"geomoose_overview/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/geomoose_overview.rst:19
 msgid "GeoMoose"
@@ -34,7 +35,7 @@ msgid ""
 "GeoMoose is a browser based mapping framework for displaying distributed "
 "cartographic data. It is particularly useful for managing spatial and non-"
 "spatial data within county, city and municipal offices (from which GeoMoose "
-"originated).  It extends the functionality of MapServer and OpenLayers to "
+"originated). It extends the functionality of MapServer and OpenLayers to "
 "provide built in services, like drill-down identify operations for viewing "
 "and organising many layers, selection operations and dataset searches."
 msgstr ""
@@ -43,7 +44,7 @@ msgstr ""
 #: ../../build/doc/overview/geomoose_overview.rst:26
 msgid ""
 "GeoMoose is fast, performing well with hundreds of layers and/or services at"
-" a time.  Data from multiple custodians can be maintained with different "
+" a time. Data from multiple custodians can be maintained with different "
 "tools and on different schedules as each map layer has its own set of "
 "configuration files for publishing, symbols, templates as well as source "
 "data."
@@ -58,11 +59,11 @@ msgstr "ユーザインタフェースは簡単に設定でき、モジュール
 
 #: ../../build/doc/overview/geomoose_overview.rstNone
 msgid "geomoose screenshot"
-msgstr ""
+msgstr "GeoMoose スクリーンショット"
 
 #: ../../build/doc/overview/geomoose_overview.rst:37
 msgid "Core Features"
-msgstr "主な機能"
+msgstr "主要機能"
 
 #: ../../build/doc/overview/geomoose_overview.rst:39
 msgid "Distributed data maintenance amongst multiple owners."
@@ -167,18 +168,18 @@ msgstr "クイックスタート"
 msgid ":doc:`Quickstart documentation <../quickstart/geomoose_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/geomoose_quickstart>`"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "ロゴなし"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo プロジェクト"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo コミュニティ"

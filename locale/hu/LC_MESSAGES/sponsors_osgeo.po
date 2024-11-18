@@ -4,35 +4,36 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:02+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"PO-Revision-Date: 2024-10-14 00:38+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"sponsors_osgeo/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/sponsors_osgeo.rstNone
 msgid "OSGeo"
-msgstr ""
+msgstr "OSGeo"
 
 #: ../../build/doc/sponsors_osgeo.rst:7
 msgid "The OSGeo Foundation"
-msgstr "Az OSGeo Alapítvány"
+msgstr "Az OSGeo alapítvány"
 
 #: ../../build/doc/sponsors_osgeo.rst:9
 msgid "*Empower everyone with open source geospatial*"
-msgstr "*Mindenkit megerősít a nyílt forráskódú térinformatikával*"
+msgstr "*A nyílt forráskódú térinformatikával erősít meg mindenkit*"
 
 #: ../../build/doc/sponsors_osgeo.rst:11
 msgid ""
@@ -42,11 +43,11 @@ msgid ""
 "devoted to an open philosophy and participatory community driven "
 "development."
 msgstr ""
-" Az `Open Source Geospatial Foundation (OSGeo) <https://www.osgeo.org>`__ "
-"non-profit szervezet, melynek a küldetése a nyílt térinformatikai "
-"technológia globális elfogadásának előmozdítása azáltal, hogy a nyílt "
-"filozófia és a részvételen alapuló közösségi alapú fejlesztés egy átfogó "
-"szoftveralapot jelent."
+"Az `Open Source Geospatial Foundation (OSGeo) <https://www.osgeo.org>`__ non-"
+"profit szervezet, melynek a küldetése a nyílt térinformatikai technológia "
+"globális elfogadásának előmozdítása azáltal, hogy a nyílt filozófia és a "
+"részvételen alapuló közösségi alapú fejlesztés egy átfogó szoftveralapot "
+"jelent."
 
 #: ../../build/doc/sponsors_osgeo.rst:17
 msgid "OSGeo outreach and activities include:"
@@ -57,7 +58,7 @@ msgid ""
 "`Local Chapters <https://www.osgeo.org/local-chapters>`__: Local, regional "
 "and language groups support grass roots activities."
 msgstr ""
-"`Helyi csoportok <https://www.osgeo.org/local-chapters>` __:  helyi, "
+"`Helyi csoportok <https://www.osgeo.org/local-chapters>` __: helyi, "
 "regionális és nyelvi csoportok támogatják az alulról építkező "
 "tevékenységeket."
 
@@ -67,10 +68,10 @@ msgid ""
 "educational labs from around the world who work with partners to make "
 "geospatial education and opportunities accessible to all."
 msgstr ""
-"`GeoForAll <https://www.osgeo.org/initiatives/geo-for-all>` _: Több mint 100"
-" oktatási laboratórium a világ minden tájáról, akik partnerekkel dolgoznak "
-"együtt, hogy a  a térinformatikai oktatást és a lehetőségét mindenki számára"
-" hozzáférhetővé tegye."
+"`GeoForAll <https://www.osgeo.org/initiatives/geo-for-all>` _: Több mint 100 "
+"oktatási laboratórium a világ minden tájáról, akik partnerekkel dolgoznak "
+"együtt, hogy a a térinformatikai oktatást és a lehetőségét mindenki számára "
+"hozzáférhetővé tegye."
 
 #: ../../build/doc/sponsors_osgeo.rst:21
 msgid ""
@@ -94,16 +95,16 @@ msgstr ""
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo közösség"

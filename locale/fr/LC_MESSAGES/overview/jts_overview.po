@@ -5,7 +5,7 @@
 # 
 # Translators:
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2017
-# Nicolas Roelandt (Personnel), 2020
+# Nicolas Roelandt (Personnel), 2022
 # 
 #, fuzzy
 msgid ""
@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
+"Last-Translator: Nicolas Roelandt (Personnel), 2022\n"
 "Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,12 +29,12 @@ msgstr "JTS"
 #: ../../build/doc/overview/jts_overview.rst:16
 msgid ""
 "JTS is an open source library of spatial predicates and functions for "
-"processing geometries.  It provides a complete, consistent, and robust "
+"processing geometries. It provides a complete, consistent, and robust "
 "implementation of fundamental algorithms for processing linear geometry on "
 "the 2-dimensional Cartesian plane."
 msgstr ""
 "JTS est une librairie open source de prédicats spatiaux et de fonctions pour"
-" le traitement des géométries.  Il fournit une implémentation complète, "
+" le traitement des géométries. Il fournit une implémentation complète, "
 "consistante et robuste d'algorithmes fondamentaux pour le traitement de la "
 "géométrie linéaire sur le plan cartésien 2-dimensions."
 
@@ -52,7 +52,7 @@ msgstr ""
 msgid ""
 "JTS is used by most java based Open Source geospatial applications, and "
 ":doc:`geos_overview`, which is a C++ port of JTS, is used by most C based "
-"applications.  Additional ports are available for C# and JavaScript."
+"applications. Additional ports are available for C# and JavaScript."
 msgstr ""
 "JTS est utilisé par la plupart des applications géospatiales Open Source "
 "basées sur Java, et :doc:`geos_overview`, qui est un port C++ de JTS, est "
@@ -61,7 +61,7 @@ msgstr ""
 
 #: ../../build/doc/overview/jts_overview.rstNone
 msgid "jts screenshot"
-msgstr ""
+msgstr "Capture d’écran de jts"
 
 #: ../../build/doc/overview/jts_overview.rst:35
 msgid "Core Features"
@@ -164,16 +164,16 @@ msgstr "**Support:** https://sourceforge.net/projects/jts-topo-suite/"
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "Pas de logo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "Projet OSGeo"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "Communauté OSGeo"

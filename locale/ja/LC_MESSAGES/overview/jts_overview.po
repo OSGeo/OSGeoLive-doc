@@ -1,26 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
-# Ko Nagase <nagase@georepublic.co.jp>, 2021
+# Ko Nagase <nagase@georepublic.co.jp>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"POT-Creation-Date: 2022-08-06 09:15-0500\n"
+"PO-Revision-Date: 2024-11-02 13:09+0000\n"
+"Last-Translator: Ko Nagase <geosanak@gmail.com>\n"
+"Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
+"jts_overview/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/jts_overview.rst:14
 msgid "JTS"
@@ -29,7 +30,7 @@ msgstr "JTS"
 #: ../../build/doc/overview/jts_overview.rst:16
 msgid ""
 "JTS is an open source library of spatial predicates and functions for "
-"processing geometries.  It provides a complete, consistent, and robust "
+"processing geometries. It provides a complete, consistent, and robust "
 "implementation of fundamental algorithms for processing linear geometry on "
 "the 2-dimensional Cartesian plane."
 msgstr ""
@@ -50,7 +51,7 @@ msgstr ""
 msgid ""
 "JTS is used by most java based Open Source geospatial applications, and "
 ":doc:`geos_overview`, which is a C++ port of JTS, is used by most C based "
-"applications.  Additional ports are available for C# and JavaScript."
+"applications. Additional ports are available for C# and JavaScript."
 msgstr ""
 "JTS は、大半の Java ベースのオープンソース地理空間アプリケーションで利用されており、JTS の C++ 移植の "
 ":doc:`geos_overview` は、大半の C ベースのアプリケーションで利用されています。他の移植は、C# と JavaScript "
@@ -58,11 +59,11 @@ msgstr ""
 
 #: ../../build/doc/overview/jts_overview.rstNone
 msgid "jts screenshot"
-msgstr ""
+msgstr "JTS スクリーンショット"
 
 #: ../../build/doc/overview/jts_overview.rst:35
 msgid "Core Features"
-msgstr "主な機能"
+msgstr "主要機能"
 
 #: ../../build/doc/overview/jts_overview.rst:37
 msgid "Geometry model (point, line, area)"
@@ -123,7 +124,7 @@ msgstr "Java Swing/AWT 書き込み"
 
 #: ../../build/doc/overview/jts_overview.rst:56
 msgid "Implemented Standards"
-msgstr "準拠している標準規格"
+msgstr "実装されている標準規格"
 
 #: ../../build/doc/overview/jts_overview.rst:58
 msgid "OGC Simple Features for SQL (SFSQL)"
@@ -153,18 +154,18 @@ msgstr "**API インタフェース:** Java"
 msgid "**Support:** https://sourceforge.net/projects/jts-topo-suite/"
 msgstr "**サポート:** https://sourceforge.net/projects/jts-topo-suite/"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "ロゴなし"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo プロジェクト"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo コミュニティ"

@@ -74,7 +74,7 @@ Start Geoserver
   * by dragging a box on the map while holding down the :kbd:`shift key` - this
     will zoom in to the box selected (or as near as will fit in the screen).
 
-Experiment with this view and look at some of the other previews.  Once you are
+Experiment with this view and look at some of the other previews. Once you are
 comfortable viewing existing data you can move on to adding some new data.
 
 Loading data
@@ -130,9 +130,7 @@ that is included on OSGeoLive (:file:`/usr/local/share/data/natural_earth2/`).
    will notice that under *Native SRS* it says UNKNOWN you will need to fill in
    the next box (*declared SRS*) to make sure |GS| knows where the data is.
 
-#. You can type epsg:4326 in the box, or go to `http://prj2epsg.org/search
-   <http://prj2epsg.org/search>`_ and paste in the string you see if you click
-   on the link next to "UNKNOWN".
+#. You can type epsg:4326 in the box
 #. Click on :guilabel:`Compute from data` and :guilabel:`Compute from native
    bounds` to fill in the Bounding Boxes.
 #. Finally hit :guilabel:`save` and you have published your first layer.

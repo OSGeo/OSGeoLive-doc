@@ -27,9 +27,9 @@ own software.
 PROJ
 ================================================================================
 
-.. note:: 
+.. note::
 
-  **What will I learn ?** In this section, you will learn how to use the PROJ tool. 
+  **What will I learn ?** In this section, you will learn how to use the PROJ tool.
 
 What is PROJ ?
 --------------------------------------------------------------------------------
@@ -72,9 +72,9 @@ appear as three lines of::
 cs2cs
 ================================================================================
 
-.. note:: 
+.. note::
 
-  **What will I learn ?** In this section, you will learn how to use the cs2cs tool. 
+  **What will I learn ?** In this section, you will learn how to use the cs2cs tool.
 
 What is cs2cs ?
 --------------------------------------------------------------------------------
@@ -118,9 +118,9 @@ The x-y output data will appear as three lines of:
 geod
 ================================================================================
 
-.. note:: 
+.. note::
 
-  **What will I learn ?** In this section, you will learn how to use the geod tool. 
+  **What will I learn ?** In this section, you will learn how to use the geod tool.
 
 What is geod ?
 --------------------------------------------------------------------------------

@@ -1,26 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2020
-# Ko Nagase <nagase@georepublic.co.jp>, 2021
+# Ko Nagase <nagase@georepublic.co.jp>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2020-10-21 15:59+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"POT-Creation-Date: 2022-08-06 09:15-0500\n"
+"PO-Revision-Date: 2024-11-02 13:09+0000\n"
+"Last-Translator: Ko Nagase <geosanak@gmail.com>\n"
+"Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
+"re3gistry_overview/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:18
 msgid "Re3gistry"
@@ -36,7 +37,7 @@ msgid ""
 "\"reference codes\". Initially developed as a central component of the EU's "
 ":doc:`INSPIRE <inspire_overview>` infrastructure, it provides a consistent "
 "central access point where labels and descriptions for reference codes can "
-"be easily browsed by humans and retrieved by machines.  Reference codes are "
+"be easily browsed by humans and retrieved by machines. Reference codes are "
 "exchanged between applications to uniquely reference some ‘thing’. They can "
 "be used to define sets of permissible values for a data field or to provide "
 "a reference or context for the data being exchanged. Examples are "
@@ -53,11 +54,11 @@ msgstr ""
 
 #: ../../build/doc/overview/re3gistry_overview.rstNone
 msgid "re3gistry screenshot"
-msgstr ""
+msgstr "Re3gistry スクリーンショット"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:43
 msgid "Core Features"
-msgstr "主な機能"
+msgstr "主要機能"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:45
 msgid ""
@@ -137,7 +138,7 @@ msgstr "**ソフトウェアバージョン:** |version-re3gistry|"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:68
 msgid "**Supported Platforms:** Windows, Linux"
-msgstr "**対応プラットフォーム:** Windows, Linux"
+msgstr "**対応プラットフォーム:** Windows、Linux"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:70
 msgid "**API Interfaces:** Java"
@@ -179,18 +180,18 @@ msgstr "クイックスタート"
 msgid ":doc:`Quickstart documentation <../quickstart/re3gistry_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/re3gistry_quickstart>`"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "ロゴなし"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo プロジェクト"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo コミュニティ"

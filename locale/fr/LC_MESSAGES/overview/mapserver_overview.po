@@ -1,26 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2017
-# Nicolas Roelandt (Personnel), 2020
-# 
+# Nicolas Roelandt (Personnel), 2022
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-20 21:55-0500\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
 "PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
-"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Nicolas Roelandt (Personnel), 2022\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
+"1000000 == 0 ? 1 : 2;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/overview/mapserver_overview.rst:18
 msgid "MapServer"
@@ -33,55 +34,56 @@ msgstr "Service Web"
 #: ../../build/doc/overview/mapserver_overview.rst:23
 msgid ""
 "MapServer is an `Open Source <https://opensource.org/>`_ geographic data "
-"rendering engine written in C. Beyond browsing GIS data, MapServer allows "
-"you create \"geographic image maps\", that is, maps that can direct users to"
-" web content. For example, the Minnesota DNR `Recreation Compass "
-"<http://www.dnr.state.mn.us/maps/compass.html>`_ provides users with more "
-"than 10,000 web pages, reports and maps via a single application. The same "
-"application serves as a \"map engine\" for other portions of the site, "
-"providing spatial context where needed."
+"rendering engine written in C. Beyond browsing GIS data, MapServer allows"
+" you create \"geographic image maps\", that is, maps that can direct "
+"users to web content. For example, the Minnesota DNR `Recreation Compass "
+"<http://www.dnr.state.mn.us/maps/compass.html>`_ provides users with more"
+" than 10,000 web pages, reports and maps via a single application. The "
+"same application serves as a \"map engine\" for other portions of the "
+"site, providing spatial context where needed."
 msgstr ""
 "MapServer est un moteur de rendu de données cartographiques `Opensource "
-"<https://opensource.org/>`_ écrit en C. Au delà de la possibilité d'explorer"
-" des données SIG, MapServer vous permet de créer des images de cartes "
-"géographiques, qui sont des cartes permettant de diriger des utilisateurs "
-"vers du contenu web. Par exemple, `le compas pour les loisirs "
-"<http://www.dnr.state.mn.us/maps/compass.html>`_ du département des "
-"ressources naturelles du Minnesota fournit aux utilisateurs plus de 10 000 "
-"pages web, rapports et cartes via une seule application. La même application"
-" sert aussi de \"moteur de carte\" pour d'autres parties du site, "
-"fournissant un contexte spatial là où c'est nécessaire."
+"<https://opensource.org/>`_ écrit en C. Au delà de la possibilité "
+"d'explorer des données SIG, MapServer vous permet de créer des images de "
+"cartes géographiques, qui sont des cartes permettant de diriger des "
+"utilisateurs vers du contenu web. Par exemple, `le compas pour les "
+"loisirs <http://www.dnr.state.mn.us/maps/compass.html>`_ du département "
+"des ressources naturelles du Minnesota fournit aux utilisateurs plus de "
+"10 000 pages web, rapports et cartes via une seule application. La même "
+"application sert aussi de \"moteur de carte\" pour d'autres parties du "
+"site, fournissant un contexte spatial là où c'est nécessaire."
 
 #: ../../build/doc/overview/mapserver_overview.rst:31
 msgid ""
 "MapServer was originally developed by the University of Minnesota (UMN) "
 "ForNet project in cooperation with NASA, and the Minnesota Department of "
-"Natural Resources (MNDNR). Later it was hosted by the TerraSIP project, a "
-"NASA sponsored project between the UMN and a consortium of land management "
-"interests."
+"Natural Resources (MNDNR). Later it was hosted by the TerraSIP project, a"
+" NASA sponsored project between the UMN and a consortium of land "
+"management interests."
 msgstr ""
 "MapServer a été originellement développé par le projet ForNet de "
 "l’Université du Minnesota (UMN) en coopération avec la NASA et le "
-"département du Minnesota des Ressources Naturels (MNDNR). Plus tard il a été"
-" hébergé par le projet TerraSIP, un projet sponsorisé par la NASA entre "
-"l'UMN et un consortium d’organismes de gestion des sols."
+"département du Minnesota des Ressources Naturels (MNDNR). Plus tard il a "
+"été hébergé par le projet TerraSIP, un projet sponsorisé par la NASA "
+"entre l'UMN et un consortium d’organismes de gestion des sols."
 
 #: ../../build/doc/overview/mapserver_overview.rst:33
 msgid ""
 "MapServer is now a project of `OSGeo <https://www.osgeo.org>`_, and is "
-"maintained by a growing number of developers (nearing 20) from around the "
-"world. It is supported by a diverse group of organizations that fund "
-"enhancements and maintenance, and administered within OSGeo by the MapServer"
-" Project Steering Committee made up of developers and other contributors."
+"maintained by a growing number of developers (nearing 20) from around the"
+" world. It is supported by a diverse group of organizations that fund "
+"enhancements and maintenance, and administered within OSGeo by the "
+"MapServer Project Steering Committee made up of developers and other "
+"contributors."
 msgstr ""
-"MapServer est maintenant un projet de l\\'`OSGeo <https://www.osgeo.org>`_, "
-"et maintenu par un nombre croissant de développeurs (proche de 20) tout "
-"autour du monde. Il est soutenu par un groupe d’organisations diverses qui "
-"financent les améliorations et la maintenance, et est administré au sein de "
-"l’OSGeo par le Comité de Gouvernance de Projet composé de développeurs et "
-"d’autres contributeurs."
+"MapServer est maintenant un projet de l\\'`OSGeo "
+"<https://www.osgeo.org>`_, et maintenu par un nombre croissant de "
+"développeurs (proche de 20) tout autour du monde. Il est soutenu par un "
+"groupe d’organisations diverses qui financent les améliorations et la "
+"maintenance, et est administré au sein de l’OSGeo par le Comité de "
+"Gouvernance de Projet composé de développeurs et d’autres contributeurs."
 
-#: ../../build/doc/overview/mapserver_overview.rstNone
+#: ../../build/doc/overview/mapserver_overview.rst:-1
 msgid "mapserver screenshot"
 msgstr ""
 
@@ -112,20 +114,20 @@ msgstr "Support des polices TrueType pour l'étiquetage et la symbolisation"
 #: ../../build/doc/overview/mapserver_overview.rst:50
 msgid "Map element automation (scalebar, reference map, and legend)"
 msgstr ""
-"Automatisation d’éléments de cartes (barre d’échelle, carte de référence et "
-"légende)"
+"Automatisation d’éléments de cartes (barre d’échelle, carte de référence "
+"et légende)"
 
 #: ../../build/doc/overview/mapserver_overview.rst:51
 msgid "Thematic mapping using logical or regular expression-based classes"
 msgstr ""
-"Cartographie thématique en utilisant des classes basées sur des expressions "
-"logiques ou des expressions régulières"
+"Cartographie thématique en utilisant des classes basées sur des "
+"expressions logiques ou des expressions régulières"
 
 #: ../../build/doc/overview/mapserver_overview.rst:52
 msgid "Plugable renderer support with drivers for AGG, Cairo and others"
 msgstr ""
-"Support de moteur de rendu différents avec des pilotes pour AGG, Cairo et "
-"d'autres"
+"Support de moteur de rendu différents avec des pilotes pour AGG, Cairo et"
+" d'autres"
 
 #: ../../build/doc/overview/mapserver_overview.rst:53
 msgid "Special provisioning for tiled output generation"
@@ -177,11 +179,11 @@ msgstr "Support de requêtes spatiales sophistiquées"
 
 #: ../../build/doc/overview/mapserver_overview.rst:67
 msgid ""
-"Identify features by attributes, point, bounding box or geometry across one "
-"or more layers"
+"Identify features by attributes, point, bounding box or geometry across "
+"one or more layers"
 msgstr ""
-"Identifier les objets par attributs, point, rectangle englobant ou géométrie"
-" sur une ou plusieurs couches"
+"Identifier les objets par attributs, point, rectangle englobant ou "
+"géométrie sur une ou plusieurs couches"
 
 #: ../../build/doc/overview/mapserver_overview.rst:68
 msgid "Support for raster queries"
@@ -189,8 +191,7 @@ msgstr "Support pour l'interrogation sur des raster"
 
 #: ../../build/doc/overview/mapserver_overview.rst:69
 msgid "Fully customizable, template driven output"
-msgstr ""
-"Sortie customisable complétement en s'appuyant sur un sytème de modèle"
+msgstr "Sortie customisable complétement en s'appuyant sur un sytème de modèle"
 
 #: ../../build/doc/overview/mapserver_overview.rst:70
 msgid "OGR-based query output generation"
@@ -245,7 +246,7 @@ msgid "Implemented Standards"
 msgstr "Standards implémentés"
 
 #: ../../build/doc/overview/mapserver_overview.rst:93
-msgid "Support of numerous Open Geospatial Consortium  (OGC) standards"
+msgid "Support of numerous Open Geospatial Consortium (OGC) standards"
 msgstr "Support de nombreux standards de l'Open Geospatial Consortium (OGC)"
 
 #: ../../build/doc/overview/mapserver_overview.rst:95
@@ -301,9 +302,9 @@ msgid "Documentation"
 msgstr "Documentation"
 
 #: ../../build/doc/overview/mapserver_overview.rst:115
-msgid ""
-"`MapServer 7.0 Documentation <https://localhost/mapserver/doc/index.html>`__"
-msgstr ""
+#, fuzzy
+msgid "`MapServer Documentation <http://localhost/mapserver/doc/index.html>`__"
+msgstr "`Itasca <http://localhost/mapserver_demos/itasca/>`_"
 
 #: ../../build/doc/overview/mapserver_overview.rst:118
 msgid "Details"
@@ -347,18 +348,19 @@ msgstr ""
 ":doc:`Documentation du guide de démarrage rapide "
 "<../quickstart/mapserver_quickstart>`"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "Pas de logo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
-msgstr ""
+msgstr "Projet OSGeo"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
-msgstr ""
+msgstr "Communauté OSGeo"
+

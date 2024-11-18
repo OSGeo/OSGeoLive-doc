@@ -26,13 +26,13 @@ Community Support
 If you have any questions, comments, or run into any problems, please drop us a
 note on `our mailing list <https://lists.osgeo.org/mailman/listinfo/osgeolive>`_.
 
-IRC users might try the #osgeolive or #osgeo channel at Freenode.net for real-time
-assistance. You also can meet us at Slack, Matrix or Glitter.
+IRC users might try the #osgeolive or #osgeo channel at `Libera.chat network <https://libera.chat/>`_ for real-time
+assistance. You also can meet us at Slack, Matrix or Gitter.
 
-A wealth of information is available on our `Wiki site <https://trac.osgeo.org/osgeolive/wiki>`_, 
+A wealth of information is available on our `Wiki site <https://trac.osgeo.org/osgeolive/wiki>`_,
 and a `bug and wish tracking system <https://trac.osgeo.org/osgeolive/report/10>`_ is also available.
 
-Stay tuned and follow OSGeoLive on Twitter `@osgeolive <https://mobile.twitter.com/osgeolive>`_.
+Stay tuned and follow OSGeoLive on Mastodon `@osgeolive <https://fosstodon.org/@osgeolive>`_.
 
 Commercial Support
 ================================================================================

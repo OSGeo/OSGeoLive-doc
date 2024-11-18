@@ -23,8 +23,7 @@ Available components are:
 
   * Web services: WFS, WMS, WMTS, CSW, WPS
 
-*deegree 3.6.0-pre2* is the newest pre-release version of the deegree Java framework for GIS
-applications and OGC-service implementations.
+*deegree 3.6.0-pre2* is the newest pre-release version of the deegree Java framework for GIS applications and OGC-service implementations.
 It can be used to build web-based geospatial-data-infrastructures (GDI).
 
 .. contents:: **Contents**
@@ -33,7 +32,7 @@ It can be used to build web-based geospatial-data-infrastructures (GDI).
 Start deegree webservices
 ===========================
 
-Choose *'Start deegree'* from the :menuselection:`Geospatial --> Web Services --> deegree` menu.
+Choose |menu_deegree-Start|.
 The application will take a few moments to start up.
 
 Firefox opens the *deegree webservices administration console*. Alternatively, you can also open this manually by pointing your browser to http://localhost:8080/deegree.
@@ -56,7 +55,6 @@ Load a workspace
 
 **Tip:**
 For additional configuration examples including raster data, you can import the workspace *deegree-workspace-utah* through the workspace management (internet connection is required).
-
 
 Visualize the data
 ==========
@@ -96,3 +94,4 @@ Further information and comprehensive documentation of all functionalities are a
   * deegree docker images - Available here:
       * deegree webservices - https://hub.docker.com/r/deegree/deegree3-docker
       * deegree OGC API - https://hub.docker.com/r/deegree/deegree-ogcapi
+      

@@ -1,26 +1,28 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# MarPetra <mvergaratrejo@gmail.com>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2022
+# MarPetra <mvergaratrejo@gmail.com>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"POT-Creation-Date: 2022-08-03 09:57+0000\n"
+"PO-Revision-Date: 2023-04-06 19:08+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"rasdaman_overview/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:19
 msgid "Rasdaman"
@@ -34,21 +36,21 @@ msgstr "Motor de Análisis de Big Data Multidimensional"
 msgid ""
 "Rasdaman is an Array Database System which provides flexible, fast, scalable"
 " geo services for multi-dimensional spatio-temporal sensor, image, "
-"simulation, and statistics data of unlimited volume.  Ad-hoc access, "
+"simulation, and statistics data of unlimited volume. Ad-hoc access, "
 "extraction, aggregation, as well as remix and analytics is enabled through a"
 " NewSQL raster query language with highly effective server-side "
-"optimization.  Cloud/cluster parallelization is accomplished in a secure, "
+"optimization. Cloud/cluster parallelization is accomplished in a secure, "
 "administrator-controlled way."
 msgstr ""
 "Rasdaman es un sistema de base de datos matriz que proporciona geo servicios"
-"  que proporciona servicios geográficos flexibles, rápidos y escalables para"
+" que proporciona servicios geográficos flexibles, rápidos y escalables para"
 " datos de sensor, imagen, simulación y estadísticas espacio-temporales "
 "multidimensionales de volumen ilimitado. El acceso , extracción y agregación"
 " ad-hoc, así como remixes y análisis se habilita a través de un lenguaje de "
 "consulta raster NewSQL con una optimización del lado del servidor altamente "
-"efectiva.  Análisis, extracción, agregación, así como remix y ad-hoc acceso "
+"efectiva. Análisis, extracción, agregación, así como remix y ad-hoc acceso "
 "está habilitado a través de un lenguaje de consulta de trama NewSQL con "
-"optimización de servidor altamente eficaz.  La paralelización de la "
+"optimización de servidor altamente eficaz. La paralelización de la "
 "nube/agrupación se acompleta de forma segura y controlada por el "
 "administrador."
 
@@ -67,9 +69,9 @@ msgstr ""
 #: ../../build/doc/overview/rasdaman_overview.rst:31
 msgid ""
 "Rasdaman has received a series of international innovation awards, among "
-"them the prestigeous European IT Prize and Geospatial Innovation Award.  "
+"them the prestigeous European IT Prize and Geospatial Innovation Award. "
 "Technology is mature and stable, being in operational for more than ten "
-"years.  Among the operators of rasdaman services are mapping agencies and "
+"years. Among the operators of rasdaman services are mapping agencies and "
 "climate data centers."
 msgstr ""
 "Rasdaman ha recibido una serie de premios internacionales a la innovación, "
@@ -88,7 +90,7 @@ msgstr "Características Principales"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:42
 msgid "truly multi-dimensional - 1-D, 2-D, 3-D, 4-D, and beyond"
-msgstr "verdaderamente multidimensional - 1-D, 2-D, 3-D, 4-D,  y más allá"
+msgstr "verdaderamente multidimensional - 1-D, 2-D, 3-D, 4-D, y más allá"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:43
 msgid ""
@@ -109,7 +111,7 @@ msgid ""
 " to cluster and cloud"
 msgstr ""
 "paralelización y \"transmisión de mosaicos\" para una escalabilidad "
-"ilimitada de laptop a agrupación y nube."
+"ilimitada de laptop a agrupación y nube"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:46
 msgid ""
@@ -160,8 +162,15 @@ msgid "**API Interfaces:** rasql, C++, Java"
 msgstr "**Interfaces API:** rasql, C++, Java"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:69
-msgid "**Support:**  https://rasdaman.com"
-msgstr "**Soporte:**  https://rasdaman.com"
+msgid "**Support:** https://rasdaman.com"
+msgstr "**Soporte:** https://rasdaman.com"
+
+#: ../../build/doc/overview/rasdaman_overview.rst:71
+msgid ""
+"This project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgstr ""
+"Este proyecto solo se incluye en el disco de máquina virtual OSGeoLive "
+"(VMDK)"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:74
 msgid "Quickstart"
@@ -172,11 +181,11 @@ msgid ":doc:`Quickstart documentation <../quickstart/rasdaman_quickstart>`"
 msgstr ""
 ":doc:`Documentación de inicio rápido <../quickstart/rasdaman_quickstart>`"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr "nologo"
 

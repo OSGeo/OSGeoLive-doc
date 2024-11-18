@@ -1,0 +1,296 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Antonio Rotundo <anto.rotundo@gmail.com>, 2021
+# Simone Falceri, 2022
+# Federico Gianoli <fritz4@gmail.com>, 2022
+# Stefano Campus <skampus@gmail.com>, 2022
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"PO-Revision-Date: 2017-09-20 16:03+0000\n"
+"Last-Translator: Stefano Campus <skampus@gmail.com>, 2022\n"
+"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:20
+msgid "OpenJUMP GIS Quickstart"
+msgstr "Guida rapida OpenJUMP GIS"
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:22
+msgid ""
+"OpenJUMP is a desktop GIS program that allows for easy viewing and editing "
+"of vector GIS data. The PLUS edition also support analysis of raster data."
+msgstr ""
+"OpenJUMP è un programma GIS desktop che permette di visualizzare e "
+"modificare facilmente i dati GIS vettoriali. L'edizione PLUS supporta anche "
+"l'analisi di dati raster."
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:26
+msgid "Contents"
+msgstr "Contenuti"
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:29
+msgid "Start OpenJUMP"
+msgstr "Avvia OpenJUMP"
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:31
+msgid "From the desktop, choose :menuselection:`Desktop GIS --> OpenJUMP`."
+msgstr "Dal desktop, scegli :menuselection:`Desktop GIS --> OpenJUMP`."
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:33
+msgid "The OpenJUMP user interface has four (4) basic components."
+msgstr "L'interfaccia utente di OpenJUMP ha quattro (4) componenti di base."
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:35
+msgid ""
+"[1] The first is a top-level menu bar for accessing most functionality."
+msgstr ""
+"[1] Il primo è una barra di menu di primo livello per accedere alla maggior "
+"parte delle funzionalità."
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:36
+msgid ""
+"[2] The second is a main toolbar that sits just below the menu bar. The "
+"buttons give access to the most important display and navigation functions."
+msgstr ""
+"[2] La seconda è una barra degli strumenti principale che si trova proprio "
+"sotto la barra dei menu. I pulsanti danno accesso alle funzioni di "
+"visualizzazione e navigazione più importanti."
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:37
+msgid ""
+"[3] The third is a tree view on the left that shows the layer list of the "
+"active project."
+msgstr ""
+"[3] La terza è una vista ad albero sulla sinistra che mostra la lista dei "
+"layer del progetto attivo."
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:38
+msgid ""
+"[4] The fourth is the map view. This is the actual map where a graphical "
+"representation of the spatial data in each layer is given."
+msgstr ""
+"[4] La quarta è la vista della mappa. Questa è la mappa vera e propria dove "
+"viene data una rappresentazione grafica dei dati spaziali in ogni layer."
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:40
+msgid ""
+"Finally there is an information bar at the bottom displaying mouse pointer "
+"coordinates, processing reports, and memory usage. A project window contains"
+" a layer list and a layer view. Each instance of OpenJUMP can contain "
+"multiple projects. In this quick start, we will only be working with a "
+"single window."
+msgstr ""
+"Infine c'è una barra di informazioni in basso che mostra le coordinate del "
+"puntatore del mouse, i rapporti di elaborazione e l'uso della memoria. La "
+"finestra di un progetto contiene una lista dei layer e una vista dei layer. "
+"Ogni istanza di OpenJUMP può contenere più progetti. In questo avvio rapido,"
+" lavoreremo solo con una singola finestra."
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:47
+msgid "Open an ESRI shapefile"
+msgstr "Apri un shapefile"
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:49
+msgid ""
+"On the top-level menu bar in OpenJUMP, select :menuselection:`File --> Open "
+"File`. This will present you with a dialog box that allows you to open files"
+" containing geospatial data."
+msgstr ""
+"Sulla barra del menu di livello superiore in OpenJUMP, seleziona "
+":menuselection:`File --> Open File`. Questo ti presenterà una finestra di "
+"dialogo che ti permetterà di aprire file contenenti dati geospaziali."
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:50
+msgid ""
+"Browse for an ESRI shapefile. Look for a file with the .shp extension (e.g. "
+"on the LiveDVD under "
+"`/home/user/data/natural_earth2/ne_10m_admin_0_countries.shp`)."
+msgstr ""
+"Cerca uno shapefile. Cerca un file con estensione .shp (per esempio sul "
+"LiveDVD sotto "
+"`/home/user/data/natural_earth2/ne_10m_admin_0_countries.shp`)."
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:51
+msgid ""
+"Select the file and click the :guilabel:`Finish` button on the dialog. After"
+" a few moments, you will be able to see the data from your shapefile in the "
+"Map View. You will also see a new layer created for your data in the Layer "
+"List. The name of the layer will match the name of the shapefile."
+msgstr ""
+"Seleziona il file e clicca sul pulsante :guilabel:`Finish` della finestra di"
+" dialogo. Dopo qualche istante, sarai in grado di vedere i dati del tuo "
+"shapefile nella Vista mappa. Vedrai anche un nuovo layer creato per i tuoi "
+"dati nella Layer List. Il nome del layer corrisponderà al nome dello "
+"shapefile."
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:56
+msgid ""
+"Another quicker option is to directly drag and drop your shapefile in the "
+"Layer View."
+msgstr ""
+"Un'altra opzione più veloce è quella di trascinare direttamente il tuo "
+"shapefile nella Layer View."
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:59
+msgid "Style a layer"
+msgstr "Stile di un layer"
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:61
+#: ../../build/doc/quickstart/openjump_quickstart.rst:73
+msgid ""
+"In the Layer List, right click on the layer name. This will show a pop-up "
+"menu."
+msgstr ""
+"Nella lista dei layer, clicca con il tasto destro sul nome del layer. Questo"
+" mostrerà un menu a comparsa."
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:62
+msgid ""
+"Choose to :menuselection:`Style --> `Change Styles`. The Change Styles "
+"dialog has five (5) tabs that allow you to change how the layer is displayed"
+" in the Map View. This includes changing the stroke color, the fill color, "
+"line style and line thickness, transparency, adding labels, and determining "
+"at which maximum and minimum scales the layer is displayed at."
+msgstr ""
+"Scegli :menuselection:`Style --> `Change Styles`. La finestra di dialogo "
+"Cambia stili ha cinque (5) schede che ti permettono di cambiare il modo in "
+"cui il layer viene visualizzato nella vista mappa. Questo include la "
+"modifica del colore del tratto, il colore di riempimento, lo stile e lo "
+"spessore della linea, la trasparenza, l'aggiunta di etichette e la "
+"determinazione della scala massima e minima di visualizzazione del layer."
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:71
+msgid "Edit feature geometries in a layer"
+msgstr "Modifica le geometrie degli elementi in un layer"
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:74
+msgid ""
+"Click on the menu entry \"Editable\" so that a check mark is shown. This "
+"will open a new floating toolbar over the Map View on the right side. This "
+"toolbar has a set of buttons that you can use to edit the geometry of a "
+"geographic feature."
+msgstr ""
+"Clicca sulla voce di menu \"Editable\" in modo che venga mostrato un segno "
+"di spunta. Questo aprirà una nuova barra degli strumenti fluttuante sopra la"
+" Vista Mappa sul lato destro. Questa barra degli strumenti ha una serie di "
+"pulsanti che si possono usare per modificare la geometria di un elemento "
+"geografico."
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:82
+msgid ""
+"Let's try a quick edit. First we need to select a geometry and then we move "
+"a point of the geometry. To do that, we first click the button that shows a "
+"mouse cursor in the editing toolbar (top left button)."
+msgstr ""
+"Prova una rapida modifica. Prima devi selezionare una geometria e poi "
+"spostare un punto della geometria. Per farlo, clicca prima il pulsante che "
+"mostra un cursore del mouse nella barra degli strumenti di modifica "
+"(pulsante in alto a sinistra)."
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:83
+msgid ""
+"Activate it and click on a single feature in the Map View to select it. If "
+"the selection worked, then the features line color should change to yellow "
+"and small yellow squares appear at each angle point (vertex) in the feature "
+"geometry."
+msgstr ""
+"Attivalo e clicca su un singolo elemento nella Vista mappa per selezionarlo."
+" Se la selezione ha funzionato, allora il colore della linea dell'elemento "
+"dovrebbe cambiare in giallo e piccoli quadrati gialli appaiono in ogni punto"
+" angolare (vertice) nella geometria dell'elemento."
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:88
+msgid ""
+"Next, click on the button that shows a blue crosshair with a yellow square "
+"in the middle, the :guilabel:`Move Vertex Tool` (Hoovering over the buttons "
+"gives you a button description). You should now see your mouse cursor change"
+" to a small black crosshair when you move it over the Map View."
+msgstr ""
+"Poi, clicca sul pulsante che mostra un mirino blu con un quadrato giallo nel"
+" mezzo, il :guilabel:`Move Vertex Tool` (passando sopra i pulsanti ti dà una"
+" descrizione del pulsante). Ora dovresti vedere il cursore del tuo mouse "
+"trasformarsi in un piccolo mirino nero quando lo muovi sulla vista della "
+"mappa."
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:93
+msgid ""
+"Try using this to move one of the vertices/points of the geometry you "
+"selected before by clicking on one of the vertices and dragging it (leaving "
+"the mouse button pressed)."
+msgstr ""
+"Prova ad usarlo per spostare uno dei vertici/punti della geometria che hai "
+"selezionato prima, cliccando su uno dei vertici e trascinandolo (lasciando "
+"premuto il pulsante del mouse)."
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:99
+msgid "What next?"
+msgstr "E ora?"
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:101
+msgid ""
+"This is only the first step on the road to using OpenJUMP. There is a lot "
+"more material left for you to discover."
+msgstr ""
+"Questo è solo il primo passo sulla strada per usare OpenJUMP. C'è ancora "
+"molto altro materiale da scoprire."
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:103
+msgid ""
+"You can download tutorials for the OpenJUMP here: "
+"https://sourceforge.net/projects/jump-pilot/files/Documentation/"
+msgstr ""
+"Puoi scaricare i tutorial per OpenJUMP qui: "
+"https://sourceforge.net/projects/jump-pilot/files/Documentation/"
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:105
+msgid ""
+"You can read the OpenJUMP wiki here: "
+"http://ojwiki.soldin.de/index.php?title=Main_Page"
+msgstr ""
+"Puoi leggere il wiki di OpenJUMP qui: "
+"http://ojwiki.soldin.de/index.php?title=Main_Page"
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:107
+msgid ""
+"You can get help fast on the OpenJUMP users mailing list: "
+"https://groups.google.com/forum/#!forum/openjump-users"
+msgstr ""
+"Puoi ottenere aiuto velocemente sulla mailing list degli utenti di OpenJUMP:"
+" https://groups.google.com/forum/#!forum/openjump-users"
+
+#: ../../build/doc/quickstart/openjump_quickstart.rst:109
+msgid ""
+"The latest OpenJUMP version can be found here: "
+"https://sourceforge.net/projects/jump-pilot/files/OpenJUMP/"
+msgstr ""
+"L'ultima versione di OpenJUMP può essere trovata qui: "
+"https://sourceforge.net/projects/jump-pilot/files/OpenJUMP/"
+
+#: ../../build/doc/<rst_epilog>:12
+msgid "vmdk"
+msgstr "vmdk"
+
+#: ../../build/doc/<rst_epilog>:15
+msgid "nologo"
+msgstr "nologo"
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr "Progetto OSGeo"
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr "Comunità OSGeo"

@@ -12,11 +12,11 @@
 Web Service
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-MapCache is a server that implements tile caching to speed up access to WMS layers. The primary objectives are to be fast and easily deployable, 
-while offering the essential features (and more!) expected from a tile caching solution. 
+MapCache is a server that implements tile caching to speed up access to WMS layers. The primary objectives are to be fast and easily deployable,
+while offering the essential features (and more!) expected from a tile caching solution.
 
 MapCache is part of the MapServer family, but can be configured to cache and serve data from any geospatial server
-that uses WMS. MapCache can be run on Apache as a module or on any web server that supports CGI/FastCGI such as IIS, Nginx, and Jetty. 
+that uses WMS. MapCache can be run on Apache as a module or on any web server that supports CGI/FastCGI such as IIS, Nginx, and Jetty.
 
 @SCREENSHOT_mapcache@
 
@@ -43,7 +43,7 @@ Core Features
 Implemented Standards
 --------------------------------------------------------------------------------
 
-* Support of numerous Open Geospatial Consortium  (OGC) standards
+* Support of numerous Open Geospatial Consortium (OGC) standards
 
   * |WMS|
   * |WMTS|
@@ -79,7 +79,7 @@ Details
 
 @VMDK_mapcache@
 @QUICKSTART_mapcache@
-    
+
 .. presentation-note
-    MapCache is a server that implements tile caching to speed up access to WMS layers. MapCache is part of the MapServer family, 
-    but can be configured to cache and serve data from any geospatial server that uses WMS. 
+    MapCache is a server that implements tile caching to speed up access to WMS layers. MapCache is part of the MapServer family,
+    but can be configured to cache and serve data from any geospatial server that uses WMS.

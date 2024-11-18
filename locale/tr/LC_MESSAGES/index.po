@@ -1,0 +1,107 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2022, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# abc Def <hdogan1974@gmail.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 17.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-15 20:42-0600\n"
+"PO-Revision-Date: 2024-10-22 05:45+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Turkish <https://weblate.osgeo.org/projects/osgeolive/index/"
+"tr/>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Weblate 5.4.3\n"
+
+#: ../../build/doc/index.rst:3
+msgid "Welcome to |osgeolive-version|"
+msgstr "|osgeolive-version| 'a hoşgeldiniz"
+
+#: ../../build/doc/index.rst:5
+msgid ""
+"`OSGeoLive <https://live.osgeo.org>`_ is a self-contained bootable DVD, USB "
+"thumb drive or Virtual Machine based on `Lubuntu <https://lubuntu.net>`_, "
+"that allows you to try a wide variety of open source geospatial software "
+"without installing anything. It is composed entirely of free software, "
+"allowing it to be freely distributed, duplicated and passed around."
+msgstr ""
+
+#: ../../build/doc/index.rstNone
+msgid "boot select"
+msgstr ""
+
+#: ../../build/doc/index.rst:17
+msgid ""
+"It provides pre-configured applications for a range of geospatial use cases,"
+" including storage, publishing, viewing, analysis and manipulation of data. "
+"It also contains sample datasets and documentation."
+msgstr ""
+
+#: ../../build/doc/index.rst:21
+msgid "To try out the applications, simply:"
+msgstr "Uygulamaları deneyin, basitçe:"
+
+#: ../../build/doc/index.rst:23
+msgid "Insert DVD or USB thumb drive in computer or virtual machine."
+msgstr "DVD veya USB parmak sürücüyü bilgisayara veya sanal makineye takın."
+
+#: ../../build/doc/index.rst:24
+msgid "Reboot computer. (verify boot device order if necessary)"
+msgstr ""
+"Bilgisayarı yeniden başlatın. (gerekirse önyükleme aygıtı sırasını "
+"doğrulayın)"
+
+#: ../../build/doc/index.rst:25
+msgid "Press \"Enter\" to startup & login."
+msgstr ""
+
+#: ../../build/doc/index.rst:26
+msgid "Select and run applications from the \"Geospatial\" menu."
+msgstr "\"Geospatial\" menüsünden uygulamaları seçin ve çalıştırın."
+
+#: ../../build/doc/index.rst:28
+msgid ""
+"OSGeoLive is an `OSGeo Foundation <https://www.osgeo.org/>`_ project. The "
+"OSGeo Foundation is a not-for-profit supporting Geospatial Open Source "
+"Software development, promotion and `education "
+"<https://www.osgeo.org/initiatives/geo-for-all/>`_."
+msgstr ""
+
+#: ../../build/doc/index.rst:34
+msgid "Quick Starts"
+msgstr "Hızlı Başlangıçlar"
+
+#: ../../build/doc/index.rst:68
+msgid "Presentation"
+msgstr "Takdim"
+
+#: ../../build/doc/index.rst:70
+msgid ""
+"A half hour `presentation <presentation.html>`__, highlighting all OSGeoLive"
+" applications, is available with slides, script"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:13
+msgid "vmdk"
+msgstr "vmdk"
+
+#: ../../build/doc/<rst_epilog>:16
+msgid "nologo"
+msgstr "nologo"
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

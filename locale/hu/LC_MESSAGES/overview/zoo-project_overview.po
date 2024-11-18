@@ -4,22 +4,23 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"PO-Revision-Date: 2024-10-14 00:38+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"zoo-project_overview/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:16
 msgid "Zoo Project"
@@ -121,7 +122,7 @@ msgstr ""
 
 #: ../../build/doc/overview/zoo-project_overview.rstNone
 msgid "zoo-project screenshot"
-msgstr ""
+msgstr "zoo-project képernyőképek"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:61
 msgid "Core Features"
@@ -137,7 +138,7 @@ msgstr "Egyszerű Web szolgáltatás létrehozás és közzététel"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:65
 msgid "Simple WPS chaining with ZOO API"
-msgstr " Egyszerű WPS láncolás a ZOO API-val"
+msgstr "Egyszerű WPS láncolás a ZOO API-val"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:68
 msgid "Implemented Standards"
@@ -160,8 +161,8 @@ msgid ""
 "`Demo using Services Provider based GEOS and OGR libraries "
 "<http://localhost/zoo-demo/ogr-example.html>`_"
 msgstr ""
-"`Demó a GEOS és OGR könyvtárakra alapozott szolgáltatás  "
-"<http://localhost/zoo-demo/ogr-example.html>`_"
+"`Demó a GEOS és OGR könyvtárakra alapozott szolgáltatás <http://localhost/"
+"zoo-demo/ogr-example.html>`_"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:77
 msgid ""
@@ -184,7 +185,7 @@ msgid "Details"
 msgstr "Részletek"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:84
-msgid "**Website:** http://zoo-project.org/"
+msgid "**Website:** https://zoo-project.org/"
 msgstr "**Honlap:** http://zoo-project.org"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:86
@@ -208,8 +209,8 @@ msgstr ""
 "C#, Ruby"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:94
-msgid "**Support:** http://zoo-project.org/"
-msgstr "**Támogatás:** http://zoo-project.org/"
+msgid "**Support:** https://zoo-project.org/"
+msgstr "**Támogatás:** https://zoo-project.org/"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:100
 msgid "Quickstart"
@@ -222,16 +223,16 @@ msgstr ""
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo közösség"

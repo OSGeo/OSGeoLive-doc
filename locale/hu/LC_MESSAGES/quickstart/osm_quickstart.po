@@ -7,20 +7,21 @@
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"PO-Revision-Date: 2024-10-14 00:38+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"osm_quickstart/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:21
 msgid "OpenStreetMap Quickstart"
@@ -38,17 +39,17 @@ msgid ""
 "username and password, you will be able to add your first points to the map,"
 " learn how to do street surveys and work with aerial imagery."
 msgstr ""
-"Az OpenStreepMap egy egy szabad utca szintű világtérkép, melyet a "
-"térképészek folyamatosan növekvő közössége készít. Bárki szerkesztheti az "
-"OpenStreetMap-et. A `Tanuljuk meg az OSM-et honlap <https://learnosm.org>`_ "
-"egy könnyen érthető, lépésről-lépésre útmutatót biztosít önnek, hogy "
-"elkezdhessen hozzájárulni az OpenStreetMap-hez, használhassa az "
-"OpenStreepMap-et és az OpenStreetMap adatokat. A Tanuljuk meg az OSM-et "
-"útmutató a fenti linken lépésről-lépésre bemutatja hogyan navigáljunk az "
-"OpenStreetMap oldalon, jelenítsünk meg  és nyomtassunk térképeket és "
-"jelentkezzünk be egy felhasználói fiókba. Miután megszerezte a felhasználó "
-"nevét és jelszavát, hozzáadhatja az első pontját a térképhez, megtanulhatja "
-"hogyan végezzen út felméréseket és hogyan dolgozzon a légifényképekkel."
+"Az OpenStreepMap egy szabad utca szintű világtérkép, melyet a térképészek "
+"folyamatosan növekvő közössége készít. Bárki szerkesztheti az OpenStreetMap-"
+"et. A `Tanuljuk meg az OSM-et honlap <https://learnosm.org>`_ egy könnyen "
+"érthető, lépésről-lépésre útmutatót biztosít önnek, hogy elkezdhessen "
+"hozzájárulni az OpenStreetMap-hez, használhassa az OpenStreepMap-et és az "
+"OpenStreetMap adatokat. A Tanuljuk meg az OSM-et útmutató a fenti linken "
+"lépésről-lépésre bemutatja hogyan navigáljunk az OpenStreetMap oldalon, "
+"jelenítsünk meg és nyomtassunk térképeket és jelentkezzünk be egy "
+"felhasználói fiókba. Miután megszerezte a felhasználó nevét és jelszavát, "
+"hozzáadhatja az első pontját a térképhez, megtanulhatja hogyan végezzen út "
+"felméréseket és hogyan dolgozzon a légifényképekkel."
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:36
 msgid ""
@@ -297,7 +298,7 @@ msgstr "Jelenítse meg a lekérdezést, hogy megnézze az Overpass lekérdezést
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:139
 msgid ""
-"Click  `Run query`. The resulting data will be loaded in your QGIS project "
+"Click `Run query`. The resulting data will be loaded in your QGIS project "
 "as temporal data"
 msgstr ""
 "Kattintson a `Run query`-re.. Az eredményül kapott adatokat a QGIS projektbe"
@@ -308,7 +309,7 @@ msgid ""
 "You can now save the data via `Export -> Save as....`. Choose i.e. "
 "Geopackage and save the data as `buenos_aires_pubs`."
 msgstr ""
-"Most az `Export -> Elemek mentése másként...` menüponttal  mentheti az "
+"Most az `Export -> Elemek mentése másként...` menüponttal mentheti az "
 "adatokat. Válassza a Geopackage formátumot és mentse az adatokat "
 "`buenos_aires_pubs` névvel."
 
@@ -356,14 +357,14 @@ msgid ""
 "You have to enable the Plugin in QGIS. Search for `QuickMapServices` from "
 "`Plugins --> Manage and Install Plugins` in QGIS"
 msgstr ""
-"Engedélyeznie kell a modult a QGIS-ban. Keressen a `QuickMapServices`-re a "
-"`Modulok -> Modulok kezelése és telepítése` menüpontban a QGIS-ben."
+"Engedélyeznie kell a modult a QGIS-ban. Keressen a `QuickMapServices`-re a `"
+"Modulok -> Modulok kezelése és telepítése` menüpontban a QGIS-ben"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:164
 msgid "Add an OSM basemap from `Web --> QuickMapServices --> OSM`"
 msgstr ""
 "Adjon hozzá egy OSM háttértérképet a `Web --> QuickMapServices --> OSM` "
-"menüből."
+"menüből"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:170
 msgid "Start working with OSM data"
@@ -400,8 +401,8 @@ msgstr ""
 "A `Geofabrik <https://download.geofabrik.de/>`_OpenStreetMap kivonatokat "
 "biztosít régiókra és országokra, napi frissítéssel az egész világra. "
 "Válassza ki az érdeklődének megfelelő régiót vagy országot. Az adatokat "
-"három formátumban biztosítják`.osm.pbf`, `.shp.zip` és `.osm.bz2`.  Az "
-"`.osm.pbf` és`.shp.zip` közvetlenül megnyitható a QGIS-ben."
+"három formátumban biztosítják`.osm.pbf`, `.shp.zip` és `.osm.bz2`. Az `.osm."
+"pbf` és`.shp.zip` közvetlenül megnyitható a QGIS-ben."
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:184
 msgid ""
@@ -409,9 +410,9 @@ msgid ""
 " them, find out more about working with them here "
 "https://wiki.openstreetmap.org/wiki/OSM_XML"
 msgstr ""
-"Az **.osm.bz2** nyers `.osm` OSM XML fájlokt tartalmaz, az  `osm2pgsql`_ "
-"kezeli ezeket, tudjon meg többet a munkáról ezekkel innen "
-"https://wiki.openstreetmap.org/wiki/OSM_XML"
+"Az **.osm.bz2** nyers `.osm` OSM XML fájlokt tartalmaz, az `osm2pgsql`_ "
+"kezeli ezeket, tudjon meg többet a munkáról ezekkel innen https://wiki."
+"openstreetmap.org/wiki/OSM_XML"
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:188
 msgid "Overpass turbo"
@@ -422,8 +423,8 @@ msgid ""
 "Overpass turbo is a web based data mining tool for OpenStreetMap based on "
 "the Overpass-API."
 msgstr ""
-"Az Overpass turbo egy web alapú,  az Overpass-API-ra épülő adatbányász "
-"eszköz az OpenStreetMap-hez."
+"Az Overpass turbo egy web alapú, az Overpass-API-ra épülő adatbányász eszköz "
+"az OpenStreetMap-hez."
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:192
 msgid ""
@@ -489,16 +490,16 @@ msgstr "Támogatás: https://www.openstreetmap.org/help"
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo közösség"

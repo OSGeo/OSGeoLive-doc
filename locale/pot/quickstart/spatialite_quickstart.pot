@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2024-08-17 15:05-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,7 +45,7 @@ msgid "Spatialite-gui provides a visual interface for viewing and maintaining a 
 msgstr ""
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:46
-msgid "Open the Spatialite GUI by selecting :menuselection:`Geospatial->Databases->Spatialite GUI`."
+msgid "Open the Spatialite GUI by selecting |menu_spatialite-gui|"
 msgstr ""
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:50
@@ -85,7 +85,7 @@ msgid "Run an SQL query"
 msgstr ""
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:86
-msgid "Now let's try tweaking this SQL statement to get NOME and (Lat,Long) for only the NOME_PROV fields include \"BRESCIA\", this time using the MunicipalHallsView.  In the upper right SQL pane type::"
+msgid "Now let's try tweaking this SQL statement to get NOME and (Lat,Long) for only the NOME_PROV fields include \"BRESCIA\", this time using the MunicipalHallsView. In the upper right SQL pane type::"
 msgstr ""
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:93
@@ -160,11 +160,11 @@ msgstr ""
 msgid "Be sure to visit the tutorial `Spatialite cookbook`_"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr ""
 

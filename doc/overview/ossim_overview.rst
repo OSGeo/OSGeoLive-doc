@@ -15,7 +15,7 @@ Image Processing
 
 Open Source Software Image Map (OSSIM) is a high performance engine for remote sensing, image processing, geographical information system and photogrammetry.
 
-OSSIM has been funded by several US government agencies in the intelligence and defense community and the technology is currently deployed in research and operational sites. It has been actively developed since 1996. 
+OSSIM has been funded by several US government agencies in the intelligence and defense community and the technology is currently deployed in research and operational sites. It has been actively developed since 1996.
 
 Designed as a series of high performance software libraries, it is written in C++ employing the latest techniques in object-oriented software design.
 Many command line utilities, GUI applications, and integrated systems have been implemented - several of which are included with the software distribution.
@@ -41,9 +41,9 @@ Core Features
 Details
 --------------------------------------------------------------------------------
 
-**Website:** http://www.ossim.org
+**Website:** https://trac.osgeo.org/ossim/
 
-**Licence:** GNU General Public License (GPL) version 3
+**License:** GNU General Public License (GPL) version 3
 
 **Software Version:** |version-ossim|
 
@@ -51,7 +51,7 @@ Details
 
 **API Interfaces:** C++
 
-**Commercial Support:** https://www.osgeo.org/search_profile
+**Commercial Support:** https://www.osgeo.org/service-providers/
 
 
 @VMDK_ossim@

@@ -1,25 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021
-# 
-#, fuzzy
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2019-07-17 15:40+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"PO-Revision-Date: 2023-04-16 19:08+0000\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"geoext_overview/hu/>\n"
 "Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/overview/geoext_overview.rst:14
 msgid "GeoExt"
@@ -34,38 +35,38 @@ msgid ""
 "GeoExt is Open Source and enables building desktop-like GIS applications "
 "through the web. It is a JavaScript framework that combines the GIS "
 "functionality of `OpenLayers <https://openlayers.org/>`_ with the user "
-"interface of the `ExtJS <https://www.sencha.com/products/extjs/>`_ library "
-"provided by `Sencha <https://www.sencha.com>`_."
+"interface of the `ExtJS <https://www.sencha.com/products/extjs/>`_ "
+"library provided by `Sencha <https://www.sencha.com>`_."
 msgstr ""
-"A GeoExt nyílt forráskódú és asztali alkalmazáshoz hasonló, a weben elérhető"
-" GIS készítését teszi lehetővé. Ez egy JavaScript keretrendszer, mely "
-"kombinálja  az `OpenLayers <https://openlayers.org/>`_ GIS funkcionalitását "
-"az  `ExtJS <https://www.sencha.com/products/extjs/>`_ könyvtár felhasználói "
+"A GeoExt nyílt forráskódú és asztali alkalmazáshoz hasonló, a weben elérhető "
+"GIS készítését teszi lehetővé. Ez egy JavaScript keretrendszer, mely "
+"kombinálja az `OpenLayers <https://openlayers.org/>`_ GIS funkcionalitását "
+"az `ExtJS <https://www.sencha.com/products/extjs/>`_ könyvtár felhasználói "
 "felületével, melyet a `Sencha <https://www.sencha.com/>`_ szolgáltat."
 
-#: ../../build/doc/overview/geoext_overview.rst:22
+#: ../../build/doc/overview/geoext_overview.rst:25
 msgid ""
 "User interface components include a map panel, layer tree panel, feature "
-"grid, and an overview map. GeoExt components can be used just like any other"
-" ExtJS component and can be easily configured and extended. Lower level "
-"classes are also available allowing OpenLayers features and layers to be "
-"used as ExtJS data models, and for various map layer types to be serialized."
+"grid, and an overview map. GeoExt components can be used just like any "
+"other ExtJS component and can be easily configured and extended. Lower "
+"level classes are also available allowing OpenLayers features and layers "
+"to be used as ExtJS data models, and for various map layer types to be "
+"serialized."
 msgstr ""
 "Felhasználói felület komponensei tartalmazzák a térkép panelt, a rétegfa "
 "panelt, az adattábla rácsot és az áttekintő térképet. A GeoExt komponensek "
-"éppen ugyanúgy használhatóak mint"
-"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          "
-"bármelyik másik ExtJS komponens és könnyen konfigurálhatók és kibővíthetők. "
-"Vannak alacsony szintű osztályok, melyek lehetővé teszik OpenLayers térképi "
-"elemek és rétegek ExtJS adatmodellként használatát és különféle térképi "
-"rétegtípusok szerializálását."
+"éppen ugyanúgy használhatóak mint bármelyik másik ExtJS komponens és könnyen "
+"konfigurálhatók és kibővíthetők. Vannak alacsony szintű osztályok, melyek "
+"lehetővé teszik OpenLayers térképi elemek és rétegek ExtJS adatmodellként "
+"használatát és különféle térképi rétegtípusok szerializálását."
 
-#: ../../build/doc/overview/geoext_overview.rst:26
+#: ../../build/doc/overview/geoext_overview.rst:32
 msgid ""
-"GeoExt3 is dual licensed. The license you choose depends on the license of "
-"the framework ExtJS you use with it. If you are using the GPL v3 version of "
-"the ExtJS framework you will use it under GPLv3. If you own a Sencha ExtJS "
-"Commercial License, you have the right to use GeoExt3 under the BSD License."
+"GeoExt is dual licensed. The license you choose depends on the license of"
+" the framework ExtJS you use with it. If you are using the GPL v3 version"
+" of the ExtJS framework you will use it under GPLv3. If you own a Sencha "
+"ExtJS Commercial License, you have the right to use GeoExt under the BSD "
+"License."
 msgstr ""
 "GeoExt3 kettős licenccel rendelkezik. A választott licenc az ExtJS "
 "keretrendszerhez használt licenctől függ. Ha GPL v3 ExtJS keretrendszert "
@@ -73,129 +74,142 @@ msgstr ""
 "licenccel rendelkezik, akkor joga van BSD licenc alatt használni a "
 "GeoExt3-at."
 
-#: ../../build/doc/overview/geoext_overview.rstNone
+#: ../../build/doc/overview/geoext_overview.rst:-1
 msgid "geoext screenshot"
-msgstr ""
+msgstr "geoext képernyőképek"
 
-#: ../../build/doc/overview/geoext_overview.rst:37
+#: ../../build/doc/overview/geoext_overview.rst:46
 msgid "Core Features"
 msgstr "Alapfunkciók"
 
-#: ../../build/doc/overview/geoext_overview.rst:39
+#: ../../build/doc/overview/geoext_overview.rst:48
 msgid "UI Components"
 msgstr "UI komponensek"
 
-#: ../../build/doc/overview/geoext_overview.rst:41
+#: ../../build/doc/overview/geoext_overview.rst:50
 msgid "Map panel"
 msgstr "Térkép panel"
 
-#: ../../build/doc/overview/geoext_overview.rst:42
+#: ../../build/doc/overview/geoext_overview.rst:51
 msgid "Overview map"
 msgstr "Áttekintő térkép"
 
-#: ../../build/doc/overview/geoext_overview.rst:43
+#: ../../build/doc/overview/geoext_overview.rst:52
 msgid "Pop-ups"
 msgstr "Felbukkanó ablakok"
 
-#: ../../build/doc/overview/geoext_overview.rst:44
+#: ../../build/doc/overview/geoext_overview.rst:53
 msgid "Feature renderer"
 msgstr "Térképi elem megjelenítő"
 
-#: ../../build/doc/overview/geoext_overview.rst:45
+#: ../../build/doc/overview/geoext_overview.rst:54
 msgid "Layer Tree, legends, and drag-and-drop layer ordering"
 msgstr "Rétegfa, jelmagyarázat és rétegsorrend módosítás húzással"
 
-#: ../../build/doc/overview/geoext_overview.rst:47
+#: ../../build/doc/overview/geoext_overview.rst:56
 msgid "Data Models and Stores"
 msgstr "Adatmodellek és adatárak"
 
-#: ../../build/doc/overview/geoext_overview.rst:49
+#: ../../build/doc/overview/geoext_overview.rst:58
 msgid ""
-"Integration of the OpenLayers data model with the ExtJS data model enabling "
-"sorting and filtering of features using ExtJS components"
+"Integration of the OpenLayers data model with the ExtJS data model "
+"enabling sorting and filtering of features using ExtJS components"
 msgstr ""
-"OpenLayers data modell integráció az ExtJS adatmodellel, ExtJS komponensek "
-"felhasználásával a térképi elemek rendezése és szűrése"
+"OpenLayers data modell integráció az ExtJS adatmodellel, ExtJS "
+"komponensek felhasználásával a térképi elemek rendezése és szűrése"
 
-#: ../../build/doc/overview/geoext_overview.rst:51
+#: ../../build/doc/overview/geoext_overview.rst:60
 msgid "ExtJS stores and models for OpenLayers features and layers"
-msgstr ""
-"ExtJS tárolás és modellezés OpenLayers térképi elemekhez és rétegekhez"
+msgstr "ExtJS tárolás és modellezés OpenLayers térképi elemekhez és rétegekhez"
 
-#: ../../build/doc/overview/geoext_overview.rst:53
+#: ../../build/doc/overview/geoext_overview.rst:62
 msgid "Miscellaneous"
 msgstr "Egyebek"
 
-#: ../../build/doc/overview/geoext_overview.rst:55
+#: ../../build/doc/overview/geoext_overview.rst:64
+msgid "Integration with"
+msgstr "Integráció ezzel"
+
+#: ../../build/doc/overview/geoext_overview.rst:66
+msgid "`MapFish Print <http://mapfish.github.io/mapfish-print-doc/>`_"
+msgstr "`MapFish nyomtatás <http://mapfish.github.io/mapfish-print-doc/>`_"
+
+#: ../../build/doc/overview/geoext_overview.rst:67
 msgid ""
-"Integration with `MapFish Print <http://mapfish.github.io/mapfish-print-"
-"doc/>`_ and `GeoServer Printing Module "
+"and `GeoServer Printing Module "
 "<https://docs.geoserver.org/latest/en/user/extensions/printing/index.html>`_"
 msgstr ""
-"Integráció a `MapFish nyomtatással <http://mapfish.github.io/mapfish-print-"
-"doc/>`_ és a `GeoServer nyomtatás modullal "
-"<https://docs.geoserver.org/latest/en/user/extensions/printing/index.html>`_"
+"és a `GeoServer nyomtatás modullal <https://docs.geoserver.org/latest/en/"
+"user/extensions/printing/index.html>`_"
 
-#: ../../build/doc/overview/geoext_overview.rst:57
+#: ../../build/doc/overview/geoext_overview.rst:69
 msgid "Layer Serializers (WMS, WMTS, XYZ)"
 msgstr "Réteg szerializálók (WMS, WMTS, XYZ)"
 
-#: ../../build/doc/overview/geoext_overview.rst:60
+#: ../../build/doc/overview/geoext_overview.rst:72
 msgid "Details"
 msgstr "Részletek"
 
-#: ../../build/doc/overview/geoext_overview.rst:62
-msgid "**Website:** https://geoext.github.io/geoext3"
-msgstr "**Honlap:** https://geoext.github.io/geoext3"
+#: ../../build/doc/overview/geoext_overview.rst:74
+msgid "**Website:** https://geoext.github.io/geoext"
+msgstr "**Honlap:** https://geoext.github.io/geoext"
 
-#: ../../build/doc/overview/geoext_overview.rst:64
+#: ../../build/doc/overview/geoext_overview.rst:76
+msgid "**License:** GPLv3 or BSD License dependent on ExtJS license"
+msgstr "**Licenc:** GPLv3 vagy BSD Licenc az ExtJS licenc függvényében"
+
+#: ../../build/doc/overview/geoext_overview.rst:78
+msgid "see `License <https://github.com/geoext/geoext/blob/master/LICENSE>`_"
+msgstr "lásd `Licenc <https://github.com/geoext/geoext/blob/master/LICENSE>`_"
+
+#: ../../build/doc/overview/geoext_overview.rst:79
 msgid ""
-"**License:** GPLv3 or BSD License dependent on ExtJS license - see `License "
-"<https://github.com/geoext/geoext3/blob/master/LICENSE>`_ and `License FAQ "
-"<https://github.com/geoext/geoext3/blob/master/LICENSE-FAQ.md>`_"
+"and `License FAQ <https://github.com/geoext/geoext/blob/master/LICENSE-"
+"FAQ.md>`_"
 msgstr ""
-"**Licenc:** GPLv3 or BSD License dependent on ExtJS license - see `License "
-"<https://github.com/geoext/geoext3/blob/master/LICENSE>`_ and `License FAQ "
-"<https://github.com/geoext/geoext3/blob/master/LICENSE-FAQ.md>`_"
+"és `Licenc GYIK <https://github.com/geoext/geoext/blob/master/LICENSE-FAQ."
+"md>`_"
 
-#: ../../build/doc/overview/geoext_overview.rst:67
+#: ../../build/doc/overview/geoext_overview.rst:81
 msgid "**Software Version:** |version-geoext|"
 msgstr "**Szoftver verzió:** |version-geoext|"
 
-#: ../../build/doc/overview/geoext_overview.rst:69
+#: ../../build/doc/overview/geoext_overview.rst:83
 msgid "**API Interface:** JavaScript"
 msgstr "**API interfész:** JavaScript"
 
-#: ../../build/doc/overview/geoext_overview.rst:71
-msgid ""
-"**Support:** Mailing list https://www.geoext.org/cgi-"
-"bin/mailman/listinfo/users and "
-"https://stackoverflow.com/questions/tagged/geoext3"
-msgstr ""
-"**Támogatás:** Levelezőlista https://www.geoext.org/cgi-"
-"bin/mailman/listinfo/users és "
-"https://stackoverflow.com/questions/tagged/geoext3"
+#: ../../build/doc/overview/geoext_overview.rst:85
+msgid "**Support:** Mailing lists"
+msgstr "**Támogatás:** levelező lista"
 
-#: ../../build/doc/overview/geoext_overview.rst:77
+#: ../../build/doc/overview/geoext_overview.rst:87
+msgid "https://www.geoext.org/cgi-bin/mailman/listinfo/users"
+msgstr "https://www.geoext.org/cgi-bin/mailman/listinfo/users"
+
+#: ../../build/doc/overview/geoext_overview.rst:88
+msgid "and https://stackoverflow.com/questions/tagged/geoext"
+msgstr "és https://stackoverflow.com/questions/tagged/geoext"
+
+#: ../../build/doc/overview/geoext_overview.rst:94
 msgid "Quickstart"
 msgstr "Gyorstalpaló"
 
-#: ../../build/doc/overview/geoext_overview.rst:79
+#: ../../build/doc/overview/geoext_overview.rst:96
 msgid ":doc:`Quickstart documentation <../quickstart/geoext_quickstart>`"
 msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/geoext_quickstart>`"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo közösség"

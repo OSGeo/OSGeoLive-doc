@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +13,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2020-10-21 15:59+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020\n"
+"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
 "Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,7 +35,7 @@ msgid ""
 "\"reference codes\". Initially developed as a central component of the EU's "
 ":doc:`INSPIRE <inspire_overview>` infrastructure, it provides a consistent "
 "central access point where labels and descriptions for reference codes can "
-"be easily browsed by humans and retrieved by machines.  Reference codes are "
+"be easily browsed by humans and retrieved by machines. Reference codes are "
 "exchanged between applications to uniquely reference some ‘thing’. They can "
 "be used to define sets of permissible values for a data field or to provide "
 "a reference or context for the data being exchanged. Examples are "
@@ -45,7 +45,7 @@ msgid ""
 " numbers comply with the Semantic Versioning Specification 2.0.0."
 msgstr ""
 "A Re3gistry 2 egy újrafelhasználható nyílt forráskódú megoldás a "
-"\"referenciakódok\" kezelésére és megosztására. Az eredetileg az EU  "
+"\"referenciakódok\" kezelésére és megosztására. Az eredetileg az EU "
 ":doc:`INSPIRE <inspire_overview>` infrastruktúrájának központi elemeként "
 "fejlesztették ki, és egy konzisztens központi hozzáférési pontot biztosít, "
 "ahol a referenciakódok címkéi és leírásai könnyen böngészhetők az emberek és"
@@ -61,7 +61,7 @@ msgstr ""
 
 #: ../../build/doc/overview/re3gistry_overview.rstNone
 msgid "re3gistry screenshot"
-msgstr ""
+msgstr "re3gistry képernyőképek"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:43
 msgid "Core Features"
@@ -199,16 +199,16 @@ msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/re3gistry_quickstart>`
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo közösség"

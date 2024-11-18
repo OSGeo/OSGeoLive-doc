@@ -1,0 +1,207 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2022, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 17.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-17 21:19+0000\n"
+"PO-Revision-Date: 2024-11-02 13:09+0000\n"
+"Last-Translator: Ko Nagase <geosanak@gmail.com>\n"
+"Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
+"qfield_overview/ja/>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.4.3\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../build/doc/overview/qfield_overview.rst:13
+msgid "QField"
+msgstr "QField"
+
+#: ../../build/doc/overview/qfield_overview.rst:16
+msgid "Mobile GIS"
+msgstr "モバイルGIS"
+
+#: ../../build/doc/overview/qfield_overview.rst:18
+msgid ""
+"`QField for QGIS <https://qfield.org>`_ is a simplified touch optimized "
+"interface for QGIS in the field. It includes professional tools for data "
+"acquisition with surveying grade positioning device integration as well "
+"as support for a wide variety of advanced attribute capturing and mobile "
+"mapping functionalities. QField is available for Android, iOS, Linux, "
+"MacOS and Windows."
+msgstr ""
+"`QField for QGIS <https://qfield.org>`_は、フィールドでの使用に最適化されたシ"
+"ンプルなタッチ操作のインターフェースです。測量用機器との統合によるデータ取得"
+"用のプロフェッショナルツールが含まれており、さまざまな高度な属性取得やモバイ"
+"ルマッピング機能にも対応しています。QFieldは、Android、iOS、Linux、MacOS、Win"
+"dowsで利用可能です。"
+
+#: ../../build/doc/overview/qfield_overview.rst:24
+msgid ""
+"It is perfectly integrated with :doc:`QGIS <qgis_overview>` and the "
+"development of the two projects collaborate closely."
+msgstr ":doc:`QGIS <qgis_overview>` "
+"と完全に統合されており、2つのプロジェクトの開発は密接に連携しています。"
+
+msgid "qfield screenshot"
+msgstr "QFieldのスクリーンショット"
+
+#: ../../build/doc/overview/qfield_overview.rst:34
+msgid "Core Features"
+msgstr "主要機能"
+
+#: ../../build/doc/overview/qfield_overview.rst:42
+msgid "Friendly graphical user interface:"
+msgstr "使いやすいグラフィカル・ユーザー・インターフェース:"
+
+#: ../../build/doc/overview/qfield_overview.rst:37
+msgid "identify/select features"
+msgstr "地物情報の表示/地物選択"
+
+#: ../../build/doc/overview/qfield_overview.rst:38
+msgid "edit/view/search attributes"
+msgstr "属性の編集/表示/検索"
+
+#: ../../build/doc/overview/qfield_overview.rst:39
+msgid "on the fly reprojection"
+msgstr "オンザフライ投影変換"
+
+#: ../../build/doc/overview/qfield_overview.rst:40
+msgid "beautiful cartography"
+msgstr "美しい地図製作"
+
+#: ../../build/doc/overview/qfield_overview.rst:41
+msgid "photo and multimedia capturing"
+msgstr "写真とマルチメディアのキャプチャ"
+
+#: ../../build/doc/overview/qfield_overview.rst:42
+msgid "live feedback on data quality via constraints"
+msgstr "制約によるデータ品質のライブフィードバック"
+
+#: ../../build/doc/overview/qfield_overview.rst:47
+msgid "Easy Viewing of many Vector and Raster Formats"
+msgstr "多くのベクターおよびラスター形式の画像を簡単に表示"
+
+#: ../../build/doc/overview/qfield_overview.rst:45
+msgid ""
+"most vector formats: including ESRI shapefiles, MapInfo, SDTS and GML, "
+"OpenStreetMap vectors"
+msgstr "ほとんどのベクター形式: "
+"ESRIシェープファイル、MapInfo、SDTSおよびGML、OpenStreetMapベクターを含む"
+
+#: ../../build/doc/overview/qfield_overview.rst:46
+msgid ""
+"raster formats such as digital elevation models, aerial photography or "
+"landsat imagery"
+msgstr "デジタル標高モデル、航空写真、ランドサット画像などのラスター形式"
+
+#: ../../build/doc/overview/qfield_overview.rst:47
+msgid "online web services: WMS, WFS and OGC API"
+msgstr "オンラインWebサービス：WMS、WFS、OGC API"
+
+#: ../../build/doc/overview/qfield_overview.rst:50
+msgid "Exporting data"
+msgstr "データのエクスポート"
+
+#: ../../build/doc/overview/qfield_overview.rst:50
+msgid "printing to pdf"
+msgstr "PDFへの印刷"
+
+#: ../../build/doc/overview/qfield_overview.rst:56
+msgid "Sensor integration"
+msgstr "センサーとの統合"
+
+#: ../../build/doc/overview/qfield_overview.rst:53
+msgid "internal positioning sensors (GNSS)"
+msgstr "内部測位センサー（GNSS）"
+
+#: ../../build/doc/overview/qfield_overview.rst:54
+msgid "external positioning sensors via NMEA (bluetooth, UDP, TPC)"
+msgstr "NMEA経由の外部測位センサー（Bluetooth、UDP、TPC）"
+
+#: ../../build/doc/overview/qfield_overview.rst:55
+msgid "NTRIP correction (RTK) can be enabled dependening on the device"
+msgstr "NTRIP補正（RTK）は、デバイスに応じて有効にすることが可能"
+
+#: ../../build/doc/overview/qfield_overview.rst:56
+msgid "external sensor integration (radiation, gas, ...)"
+msgstr "外部センサーとの統合（放射線、ガスなど）"
+
+#: ../../build/doc/overview/qfield_overview.rst:59
+msgid "Synchronization"
+msgstr "同期"
+
+#: ../../build/doc/overview/qfield_overview.rst:59
+msgid "Data synchronization via `QFieldCloud <https://qfield.cloud>`"
+msgstr "`QFieldCloud <https://qfield.cloud>` 経由でのデータ同期"
+
+#: ../../build/doc/overview/qfield_overview.rst:62
+msgid "Implemented Standards"
+msgstr "実装されている標準規格"
+
+#: ../../build/doc/overview/qfield_overview.rst:64
+msgid "OGC standards compliant (WMS, WFS, ... )"
+msgstr "OGC標準に準拠 (WMS、WFS など)"
+
+#: ../../build/doc/overview/qfield_overview.rst:67
+msgid "Details"
+msgstr "詳細"
+
+#: ../../build/doc/overview/qfield_overview.rst:69
+msgid "**Website:** https://qfield.org/"
+msgstr "**Webサイト:** https://qfield.org/"
+
+#: ../../build/doc/overview/qfield_overview.rst:71
+msgid "**Licence:** GNU General Public License (GPL) version 2"
+msgstr "**ライセンス:** GNU General Public License (GPL) version 2"
+
+#: ../../build/doc/overview/qfield_overview.rst:73
+msgid "**Software Version:** |version-qfield|"
+msgstr "**ソフトウェアバージョン:** |version-qfield|"
+
+#: ../../build/doc/overview/qfield_overview.rst:75
+msgid "**Supported Platforms:** Windows, Linux, Mac, Unix, iOS, Android"
+msgstr "**対応プラットフォーム:** Windows、Linux、Mac、Unix、iOS、Android"
+
+#: ../../build/doc/overview/qfield_overview.rst:77
+msgid "**Community Support:** https://docs.qfield.org/get-started/support/"
+msgstr "**コミュニティサポート:** https://docs.qfield.org/get-started/support/"
+
+#: ../../build/doc/overview/qfield_overview.rst:79
+msgid "**Commercial Support:** https://docs.qfield.org/get-started/support/"
+msgstr "**商用サポート:** https://docs.qfield.org/get-started/support/"
+
+#: ../../build/doc/overview/qfield_overview.rst:82
+msgid "This project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgstr "このプロジェクトはOSGeoLive仮想マシンディスク(VMDK)にのみ含まれています"
+
+#: ../../build/doc/overview/qfield_overview.rst:85
+msgid "Quickstart"
+msgstr "クイックスタート"
+
+#: ../../build/doc/overview/qfield_overview.rst:87
+msgid ":doc:`Quickstart documentation <../quickstart/qfield_quickstart>`"
+msgstr ":doc:`クイックスタート文書 <../quickstart/qfield_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:13
+msgid "vmdk"
+msgstr "vmdk"
+
+#: ../../build/doc/<rst_epilog>:16
+msgid "nologo"
+msgstr "ロゴなし"
+
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Project"
+msgstr "OSGeo プロジェクト"
+
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Community"
+msgstr "OSGeo コミュニティ"

@@ -1,31 +1,33 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2024-08-17 15:05-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.14.0\n"
 
-#: ../../build/doc/overview/pygeoapi_overview.rst:17
+#: ../../build/doc/overview/pygeoapi_overview.rst:18
 msgid "pygeoapi"
 msgstr ""
 
-#: ../../build/doc/overview/pygeoapi_overview.rst:20
+#: ../../build/doc/overview/pygeoapi_overview.rst:21
 msgid "Web Service"
 msgstr ""
 
-#: ../../build/doc/overview/pygeoapi_overview.rst:22
+#: ../../build/doc/overview/pygeoapi_overview.rst:23
 msgid ""
 "`pygeoapi`_ is a `Python`_ server implementation of the OGC API suite of "
 "standards. The project emerged as part of the next generation `OGC API`_ "
@@ -38,87 +40,86 @@ msgstr ""
 msgid "pygeoapi screenshot"
 msgstr ""
 
-#: ../../build/doc/overview/pygeoapi_overview.rst:32
+#: ../../build/doc/overview/pygeoapi_overview.rst:33
 msgid "Core Features"
 msgstr ""
 
-#: ../../build/doc/overview/pygeoapi_overview.rst:34
+#: ../../build/doc/overview/pygeoapi_overview.rst:35
 msgid "out of the box modern OGC API server"
 msgstr ""
 
-#: ../../build/doc/overview/pygeoapi_overview.rst:35
-msgid ""
-"certified OGC Compliant and Reference Implementation for OGC API - "
-"Features"
-msgstr ""
-
 #: ../../build/doc/overview/pygeoapi_overview.rst:36
-msgid ""
-"additionally implements OGC API - Coverages, OGC API - Tiles, OGC API - "
-"Processes and SpatioTemporal Asset Library"
+msgid "certified OGC Compliant and Reference Implementation"
 msgstr ""
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:37
+msgid ""
+"additionally implements OGC API - Features, OGC API - Coverages, OGC API "
+"- Tiles, OGC API - Processes, OGC API - Records, OGC API - Environmental "
+"Data Retrieval and SpatioTemporal Asset Library"
+msgstr ""
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:38
 msgid ""
 "out of the box data provider plugins for rasterio, GDAL/OGR, "
 "Elasticsearch, PostgreSQL/PostGIS"
 msgstr ""
 
-#: ../../build/doc/overview/pygeoapi_overview.rst:38
+#: ../../build/doc/overview/pygeoapi_overview.rst:39
 msgid "easy to use OpenAPI / Swagger documentation for developers"
 msgstr ""
 
-#: ../../build/doc/overview/pygeoapi_overview.rst:39
+#: ../../build/doc/overview/pygeoapi_overview.rst:40
 msgid "supports JSON, GeoJSON, HTML and CSV output"
 msgstr ""
 
-#: ../../build/doc/overview/pygeoapi_overview.rst:40
+#: ../../build/doc/overview/pygeoapi_overview.rst:41
 msgid "supports data filtering by spatial, temporal or attribute queries"
 msgstr ""
 
-#: ../../build/doc/overview/pygeoapi_overview.rst:41
+#: ../../build/doc/overview/pygeoapi_overview.rst:42
 msgid "easy to install: install a full implementation via ``pip`` or ``git``"
 msgstr ""
 
-#: ../../build/doc/overview/pygeoapi_overview.rst:42
+#: ../../build/doc/overview/pygeoapi_overview.rst:43
 msgid "simple YAML configuration"
 msgstr ""
 
-#: ../../build/doc/overview/pygeoapi_overview.rst:43
+#: ../../build/doc/overview/pygeoapi_overview.rst:44
 msgid "easy to deploy: via UbuntuGIS or the official Docker image"
 msgstr ""
 
-#: ../../build/doc/overview/pygeoapi_overview.rst:44
+#: ../../build/doc/overview/pygeoapi_overview.rst:45
 msgid ""
 "flexible: built on a robust plugin framework to build custom data "
 "connections, formats and processes"
 msgstr ""
 
-#: ../../build/doc/overview/pygeoapi_overview.rst:45
+#: ../../build/doc/overview/pygeoapi_overview.rst:46
 msgid ""
 "supports any Python web framework (included are Flask [default], "
 "Starlette)"
 msgstr ""
 
-#: ../../build/doc/overview/pygeoapi_overview.rst:49
+#: ../../build/doc/overview/pygeoapi_overview.rst:50
 msgid "Implemented Standards"
 msgstr ""
 
-#: ../../build/doc/overview/pygeoapi_overview.rst:51
+#: ../../build/doc/overview/pygeoapi_overview.rst:52
 msgid ""
-"Standards are at the core of pygeoapi.  Below is the project's standards "
+"Standards are at the core of pygeoapi. Below is the project's standards "
 "support matrix."
 msgstr ""
 
-#: ../../build/doc/overview/pygeoapi_overview.rst:53
+#: ../../build/doc/overview/pygeoapi_overview.rst:54
 msgid "Implementing: implements standard (good)"
 msgstr ""
 
-#: ../../build/doc/overview/pygeoapi_overview.rst:54
+#: ../../build/doc/overview/pygeoapi_overview.rst:55
 msgid "Compliant: conforms to OGC compliance requirements (great)"
 msgstr ""
 
-#: ../../build/doc/overview/pygeoapi_overview.rst:55
+#: ../../build/doc/overview/pygeoapi_overview.rst:56
 msgid "Reference Implementation: provides a reference for the standard (awesome!)"
 msgstr ""
 
@@ -151,54 +152,62 @@ msgid "`OGC API - Tiles`_"
 msgstr ""
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:1
+msgid "`OGC API - Records`_"
+msgstr ""
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:1
 msgid "`OGC API - Processes`_"
+msgstr ""
+
+#: ../../build/doc/overview/pygeoapi_overview.rst:1
+msgid "`OGC API - Environmental Data Retrieval`_"
 msgstr ""
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:1
 msgid "`SpatioTemporal Asset Catalog`_"
 msgstr ""
 
-#: ../../build/doc/overview/pygeoapi_overview.rst:69
+#: ../../build/doc/overview/pygeoapi_overview.rst:72
 msgid "Details"
 msgstr ""
 
-#: ../../build/doc/overview/pygeoapi_overview.rst:71
+#: ../../build/doc/overview/pygeoapi_overview.rst:74
 msgid "**Website:** https://pygeoapi.io/"
 msgstr ""
 
-#: ../../build/doc/overview/pygeoapi_overview.rst:73
+#: ../../build/doc/overview/pygeoapi_overview.rst:76
 msgid "**Licence:** `MIT`_"
 msgstr ""
 
-#: ../../build/doc/overview/pygeoapi_overview.rst:75
+#: ../../build/doc/overview/pygeoapi_overview.rst:78
 msgid "**Software Version:** |version-pygeoapi|"
 msgstr ""
 
-#: ../../build/doc/overview/pygeoapi_overview.rst:77
+#: ../../build/doc/overview/pygeoapi_overview.rst:80
 msgid "**Supported Platforms:** Windows, Linux, Mac"
 msgstr ""
 
-#: ../../build/doc/overview/pygeoapi_overview.rst:79
+#: ../../build/doc/overview/pygeoapi_overview.rst:82
 msgid "**API Interfaces:** Python"
 msgstr ""
 
-#: ../../build/doc/overview/pygeoapi_overview.rst:81
-msgid "**Support:** |SUPPORT|"
+#: ../../build/doc/overview/pygeoapi_overview.rst:84
+msgid "**Support:** https://pygeoapi.io/community/service-providers"
 msgstr ""
 
-#: ../../build/doc/overview/pygeoapi_overview.rst:96
+#: ../../build/doc/overview/pygeoapi_overview.rst:102
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/pygeoapi_overview.rst:98
+#: ../../build/doc/overview/pygeoapi_overview.rst:104
 msgid ":doc:`Quickstart documentation <../quickstart/pygeoapi_quickstart>`"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr ""
 

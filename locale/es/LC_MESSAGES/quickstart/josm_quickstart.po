@@ -7,24 +7,26 @@
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"PO-Revision-Date: 2024-08-17 19:57+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"josm_quickstart/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:20
 msgid "JOSM Quickstart"
-msgstr "Inicio Rápido de JOSM "
+msgstr "Inicio Rápido de JOSM"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:22
 msgid ""
@@ -81,10 +83,10 @@ msgid ""
 "ways to draw maps with JOSM. Note that this map is not real, in that it is "
 "not a real map of a real place, so we will not save it on OpenStreetMap."
 msgstr ""
-"Ahora vamos a abrir un archivo OSM de muestra que utilizaremos para aprender"
-" lo  básico para dibujar mapas con JOSM. Tenga en cuenta que este mapa no es"
-" real, es decir, no es el mapa de un lugar real, por lo que no debe "
-"guardarse en OpenStreetMap."
+"Ahora vamos a abrir un archivo OSM de muestra que utilizaremos para aprender "
+"lo básico para dibujar mapas con JOSM. Tenga en cuenta que este mapa no es "
+"real, es decir, no es el mapa de un lugar real, por lo que no debe guardarse "
+"en OpenStreetMap."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:47
 msgid ""
@@ -144,7 +146,7 @@ msgid ""
 "down, and move your mouse."
 msgstr ""
 "Para mover el mapa izquierda o derecha, arriba o abajo, mantenga presionado "
-"el botón derecho de su rotón y  muévalo. "
+"el botón derecho de su rotón y muévalo."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:71
 msgid ""
@@ -155,12 +157,12 @@ msgid ""
 "left mouse down and moving the bar left or right with your mouse."
 msgstr ""
 "Hay varias maneras para hacer acercamientos y alejamientos en el mapa. Si "
-"usted tiene un ratón, puede utilizar la rueda central para acercar y alejar."
-" Si está utilizando una laptop y no tiene un ratón, podrá acercar y alejar "
-"la imagen y usando la barra de escala en la parte superior izquierda de la "
-"ventana de mapa. Arrastre la barra a la izquierda y a la derecha manteniendo"
-" presionado el botón derecho del ratón mientras mueve la barra a la "
-"izquierda o a la derecha. "
+"usted tiene un ratón, puede utilizar la rueda central para acercar y alejar. "
+"Si está utilizando una laptop y no tiene un ratón, podrá acercar y alejar la "
+"imagen y usando la barra de escala en la parte superior izquierda de la "
+"ventana de mapa. Arrastre la barra a la izquierda y a la derecha manteniendo "
+"presionado el botón derecho del ratón mientras mueve la barra a la izquierda "
+"o a la derecha."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:0
 msgid "Scale bar"

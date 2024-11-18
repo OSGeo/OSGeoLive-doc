@@ -1,27 +1,28 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2019
-# Astrid Emde <astrid_emde@osgeo.org>, 2019
 # Vicky Vergara <vicky@georepublic.de>, 2021
-# 
-#, fuzzy
+# Astrid Emde <astrid_emde@osgeo.org>, 2022
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:02+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2021\n"
-"Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-02-15 20:42-0600\n"
+"PO-Revision-Date: 2024-10-14 15:25+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
+"copyright/de/>\n"
 "Language: de\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/copyright.rst:2
 msgid "OSGeoLive Copyright"
@@ -32,195 +33,203 @@ msgid ""
 "OSGeo-Live is a self-contained bootable DVD, USB thumb drive or Virtual "
 "Machine based on Lubuntu, that allows you to try a wide variety of open "
 "source geospatial software without installing anything. It is composed "
-"entirely of free software, allowing it to be freely distributed, duplicated "
-"and passed around."
+"entirely of free software, allowing it to be freely distributed, "
+"duplicated and passed around."
 msgstr ""
 "OSGeoLive ist eine getrennt bootfähige DVD, ein USB-Stick oder eine "
 "virtuelle Maschine basierend auf Lubuntu, die es Ihnen ermöglicht, eine "
 "Vielzahl von Open-Source-GIS-Software auszuprobieren, ohne etwas "
-"installieren zu müssen. Sie besteht ausschließlich aus Freier Software, die "
-"Sie beliebig weitergeben, verteilen und vervielfältigen dürfen."
+"installieren zu müssen. Sie besteht ausschließlich aus Freier Software, "
+"die Sie beliebig weitergeben, verteilen und vervielfältigen dürfen."
 
-#: ../../build/doc/copyright.rst:7
+#: ../../build/doc/copyright.rst:10
 msgid "License of OSGeo-Live"
 msgstr "OSGeo-Live Lizenz"
 
-#: ../../build/doc/copyright.rst:8
+#: ../../build/doc/copyright.rst:11
+#, fuzzy
 msgid ""
 "The OSGeo-Live project is distributed under `LGPL license v2.1 "
 "<http://www.gnu.de/documents/lgpl-2.1.en.html>`__. All documentation is "
 "provided under a `Creative Commons Attribution 3.0 Unported License "
-"<https://creativecommons.org/licenses/by/3.0/>`_."
+"<https://creativecommons.org/licenses/by/3.0/>`__."
 msgstr ""
 "Das OSGeo-Live Projekt wird unter der `LGPL license v2.1 "
-"<http://www.gnu.de/documents/lgpl-2.1.en.html>`__ vertrieben. Die gesamte "
-"Dokumentation unterliegt der `Creative Commons Attribution 3.0 Unported "
+"<http://www.gnu.de/documents/lgpl-2.1.en.html>`__ vertrieben. Die gesamte"
+" Dokumentation unterliegt der `Creative Commons Attribution 3.0 Unported "
 "License <https://creativecommons.org/licenses/by/3.0/>`_."
 
-#: ../../build/doc/copyright.rst:10
+#: ../../build/doc/copyright.rst:16
 msgid ""
 "OSGeo-Live is composed entirely of free software, free data and free "
-"documentation, allowing it to be freely distributed, duplicated and passed "
-"around. The licenses of all the packaged projects are summarized further on "
-"this page."
+"documentation, allowing it to be freely distributed, duplicated and "
+"passed around. The licenses of all the packaged projects are summarized "
+"further on this page."
 msgstr ""
 "OSGeo-Live besteht ausschließlich aus Freier Software, Freien Daten und "
 "Freier Dockumentation, die Sie beliebig witergeben, verteilen und "
-"vervielfältigen dürfen. Die Lizenzen sämtlicher enthaltenen Projekte sind "
-"weiter unten zusammengefasst."
+"vervielfältigen dürfen. Die Lizenzen sämtlicher enthaltenen Projekte sind"
+" weiter unten zusammengefasst."
 
-#: ../../build/doc/copyright.rst:12
+#: ../../build/doc/copyright.rst:21
+#, fuzzy
 msgid ""
-"Project Overviews and Overview Translations, are provided under a `Creative "
-"Commons Attribution 3.0 Unported License "
-"<https://creativecommons.org/licenses/by/3.0/>`_."
+"Project Overviews and Overview Translations, are provided under a "
+"`Creative Commons Attribution 3.0 Unported License "
+"<https://creativecommons.org/licenses/by/3.0/>`__."
 msgstr ""
 "Die Projekt Overviews und deren Übersetzungen werden unter der `Creative "
 "Commons Attribution 3.0 Unported License "
 "<https://creativecommons.org/licenses/by/3.0/>`_ weitergegeben."
 
-#: ../../build/doc/copyright.rst:13
+#: ../../build/doc/copyright.rst:24
+#, fuzzy
 msgid ""
 "Quickstarts and Quickstart Translations, are provided under a `Creative "
 "Commons Attribution-ShareAlike 3.0 Unported License "
-"<https://creativecommons.org/licenses/by-sa/3.0/>`_."
+"<https://creativecommons.org/licenses/by-sa/3.0/>`__."
 msgstr ""
-"Die Quickstarts and deren Übersetzungen werden unter der `Creative Commons "
-"Attribution-ShareAlike 3.0 Unported License "
+"Die Quickstarts and deren Übersetzungen werden unter der `Creative "
+"Commons Attribution-ShareAlike 3.0 Unported License "
 "<https://creativecommons.org/licenses/by-sa/3.0/>`_ weitergegeben."
 
-#: ../../build/doc/copyright.rst:14
+#: ../../build/doc/copyright.rst:27
 msgid ""
-"Documentation might also be available under other licenses, as listed below."
+"Documentation might also be available under other licenses, as listed "
+"below."
 msgstr ""
-"Andere Lizenzen, unter denen die Dokumentation verfügbar ist, werden unten "
-"aufgeführt."
+"Andere Lizenzen, unter denen die Dokumentation verfügbar ist, werden "
+"unten aufgeführt."
 
-#: ../../build/doc/copyright.rst:15
+#: ../../build/doc/copyright.rst:28
 msgid ""
 "Software on OSGeoLive is available under various Free and Open Source "
 "licenses, as listed in the Project Overviews."
 msgstr ""
-"Die von OSGeo-Live verwendete Software ist unter verschiedenartigen Freien "
-"und Open Source Lizenzen verfügbar. Diese sind unter den Projektübersichten "
-"aufgeführt."
+"Die von OSGeo-Live verwendete Software ist unter verschiedenartigen "
+"Freien und Open Source Lizenzen verfügbar. Diese sind unter den "
+"Projektübersichten aufgeführt."
 
-#: ../../build/doc/copyright.rst:16
+#: ../../build/doc/copyright.rst:30
 msgid "Data on OSGeoLive is available under various Open Licences."
 msgstr ""
 "Die von OSGeo-Live verwendeten Daten sind über verschiedenartige offene "
 "Lizenzen verfügbar."
 
-#: ../../build/doc/copyright.rst:19
+#: ../../build/doc/copyright.rst:33
 msgid "Attributing OSGeoLive Documentation"
 msgstr "Namensnennung zur OSGeo-Live Dokumentation"
 
-#: ../../build/doc/copyright.rst:20
+#: ../../build/doc/copyright.rst:34
+#, fuzzy
 msgid ""
 "As per the `terms of the Creative Commons license "
-"<https://creativecommons.org/faq/#How_do_I_properly_attribute_a_Creative_Commons_licensed_work.3F>`_,"
-" if you include OSGeoLive documentation into a new document, you will need "
-"to attribute the contributors. Further, if Quickstarts are included, which "
-"are licenced under the `CC By-SA <https://creativecommons.org/licenses/by-"
-"sa/3.0/>`_ license, then the new document will also need to be licenced "
-"under the `CC By-SA <https://creativecommons.org/licenses/by-sa/3.0/>`_."
+"<https://creativecommons.org/faq/#How_do_I_properly_attribute_a_Creative_Commons_licensed_work.3F>`__,"
+" if you include OSGeoLive documentation into a new document, you will "
+"need to attribute the contributors. Further, if Quickstarts are included,"
+" which are licenced under the `CC By-SA "
+"<https://creativecommons.org/licenses/by-sa/3.0/>`__ license, then the "
+"new document will also need to be licenced under the `CC By-SA "
+"<https://creativecommons.org/licenses/by-sa/3.0/>`__."
 msgstr ""
 "Nach dem `Vertrag der Creative Commons Lizenz "
 "<https://creativecommons.org/faq/#How_do_I_properly_attribute_a_Creative_Commons_licensed_work.3F>`_,"
 " müssen Sie eine Namensnennung der Autoren durchzuführen, wenn Sie die "
-"OSGeo-Live Dokumentation in ein neues Dokument einfügen. Weiters, wenn Sie "
-"Quickstarts mit einschließen, welche unter der `CC By-SA "
-"<https://creativecommons.org/licenses/by-sa/3.0/>`_ lizensiert sind, dann "
-"muss das neue Dokument auch unter der `CC By-SA "
+"OSGeo-Live Dokumentation in ein neues Dokument einfügen. Weiters, wenn "
+"Sie Quickstarts mit einschließen, welche unter der `CC By-SA "
+"<https://creativecommons.org/licenses/by-sa/3.0/>`_ lizensiert sind, dann"
+" muss das neue Dokument auch unter der `CC By-SA "
 "<https://creativecommons.org/licenses/by-sa/3.0/>`_ lizensiert sein."
 
-#: ../../build/doc/copyright.rst:25
+#: ../../build/doc/copyright.rst:43
 msgid ""
-"Note that images are not necessarily provided under the same CC license as "
-"the text; check with the author."
+"Note that images are not necessarily provided under the same CC license "
+"as the text; check with the author."
 msgstr ""
-"Beachten Sie bitte, dass die Abbildungen nicht unbedingt die selbe CC Lizenz"
-" aufweisen wie der Text; überprüfen Sie dies bitte mit den Autoren."
+"Beachten Sie bitte, dass die Abbildungen nicht unbedingt die selbe CC "
+"Lizenz aufweisen wie der Text; überprüfen Sie dies bitte mit den Autoren."
 
-#: ../../build/doc/copyright.rst:27
+#: ../../build/doc/copyright.rst:46
 msgid "You may use attribution text similar to one of the following:"
 msgstr "Sie können den Text zur Namensnennung ähnlich wie folgt ausführen:"
 
-#: ../../build/doc/copyright.rst:29
+#: ../../build/doc/copyright.rst:48
 msgid "**Verbose, suitable for a 100 page thesis:**"
 msgstr "**Ausführlich - passend für eine 100 Seiten starke Diplomarbeit:**"
 
-#: ../../build/doc/copyright.rst:31
+#: ../../build/doc/copyright.rst:50
+#, fuzzy
 msgid ""
-"|CC-By-SA-med| This document includes content from the \"gvSIG Quickstart\" "
-"created by Simon Cropper under the Creative Commons Attribution-ShareAlike "
-"3.0 Unported licence, https://creativecommons.org/licenses/by-sa/3.0/ "
-"available from the OSGeoLive project, :doc:`quickstart/gvsig_quickstart`, "
-"and downloaded on 25 July 2011. The original work was translated from "
-"English to German."
+"|CC-By-SA-med| This document includes content from the \"gvSIG "
+"Quickstart\" created by Simon Cropper under the `Creative Commons "
+"Attribution-ShareAlike 3.0 Unported licence "
+"<https://creativecommons.org/licenses/by-sa/3.0/>`__ available from the "
+"OSGeoLive project, :doc:`quickstart/gvsig_quickstart`, and downloaded on "
+"25 July 2011. The original work was translated from English to German."
 msgstr ""
-"|CC-By-SA-med| Diese Dokumentation enthält Inhalte von \"gvSIG Quickstart\" "
-"von Simon Cropper unter der \"Creative Commons Attribution-ShareAlike 3.0 "
-"Unported licence\", https://creativecommons.org/licenses/by-sa/3.0/, "
-"erhältlich durch das OSGeoLive Projekt, :doc:`quickstart/gvsig_quickstart`, "
-"heruntergeladen am 25. Juli 2011. Das ursprüngliche Werk wurde von Englisch "
-"auf Deutsch übersetzt."
+"|CC-By-SA-med| Diese Dokumentation enthält Inhalte von \"gvSIG "
+"Quickstart\" von Simon Cropper unter der \"Creative Commons Attribution-"
+"ShareAlike 3.0 Unported licence\", https://creativecommons.org/licenses"
+"/by-sa/3.0/, erhältlich durch das OSGeoLive Projekt, "
+":doc:`quickstart/gvsig_quickstart`, heruntergeladen am 25. Juli 2011. Das"
+" ursprüngliche Werk wurde von Englisch auf Deutsch übersetzt."
 
-#: ../../build/doc/copyright.rst:0 ../../build/doc/copyright.rst:0
+#: ../../build/doc/copyright.rst
 msgid "CC-By-SA-med"
 msgstr ""
 
-#: ../../build/doc/copyright.rst:36
+#: ../../build/doc/copyright.rst:60
 msgid "**Concise CC-By-SA and attribution:**"
 msgstr "**Kurzgefasste CC-By-SA und Namensnennung:**"
 
-#: ../../build/doc/copyright.rst:38
+#: ../../build/doc/copyright.rst:62
+#, fuzzy
 msgid ""
 "© 2011 [Your Name] under a `CC By SA License "
-"<https://creativecommons.org/licenses/by-sa/3.0/>`_.  [Derived "
+"<https://creativecommons.org/licenses/by-sa/3.0/>`__. [Derived "
 "from|Includes|Extends] :doc:`OSGeoLive <index>` documentation by "
 ":doc:`OSGeoLive contributors <copyright>`."
 msgstr ""
 "© 2011 [Ihr Name] unter der `CC By SA License "
-"<https://creativecommons.org/licenses/by-sa/3.0/>`_.  [Erhalten "
-"von|Enthält|Erweitert] ` :doc:`OSGeoLive <index>`  Dokumentation von "
+"<https://creativecommons.org/licenses/by-sa/3.0/>`_. [Erhalten "
+"von|Enthält|Erweitert] ` :doc:`OSGeoLive <index>` Dokumentation von "
 ":doc:`OSGeoLive contributors <copyright>`."
 
-#: ../../build/doc/copyright.rst:40
+#: ../../build/doc/copyright.rst:67
 msgid "**Alternative Concise CC-By and attribution:**"
 msgstr "**Alternative kurzgefasste CC-By und Namensnennung:**"
 
-#: ../../build/doc/copyright.rst:42
+#: ../../build/doc/copyright.rst:69
 msgid ""
 "|CC-By-small| © 2011 [Your Name]. [Derived from|Includes|Extends] "
-":doc:`OSGeoLive <index>` Project Overviews by :doc:`OSGeoLive contributors "
-"<copyright>`."
+":doc:`OSGeoLive <index>` Project Overviews by :doc:`OSGeoLive "
+"contributors <copyright>`."
 msgstr ""
-"|CC-By-small| © 2011 [Ihr Name]. [Erhalten von|Enthält|Erweitert]  "
-":doc:`OSGeoLive <index>`  Projektübersichten von  :doc:`OSGeoLive "
+"|CC-By-small| © 2011 [Ihr Name]. [Erhalten von|Enthält|Erweitert] "
+":doc:`OSGeoLive <index>` Projektübersichten von :doc:`OSGeoLive "
 "contributors <copyright>`."
 
-#: ../../build/doc/copyright.rst:0 ../../build/doc/copyright.rst:0
+#: ../../build/doc/copyright.rst
 msgid "CC-By-small"
 msgstr ""
 
-#: ../../build/doc/copyright.rst:47
+#: ../../build/doc/copyright.rst:76
 msgid "**Minimum (for Project Overviews), attribution only:**"
 msgstr "**Minimal (für Projektübersicht), lediglich Namensnennung:**"
 
-#: ../../build/doc/copyright.rst:49
+#: ../../build/doc/copyright.rst:78
 msgid ""
 "This document includes :doc:`OSGeoLive <index>` Project Overviews by "
 ":doc:`OSGeoLive contributors <copyright>`."
 msgstr ""
-"Dieses Dokument enthält :doc:`OSGeoLive <index>` Projektübersichten von "
-":doc:`OSGeoLive-Mitwirkenden<copyright>`. "
+"Dieses Dokument enthält :doc:`OSGeoLive <index>` Projektübersichten von :doc"
+":`OSGeoLive-Mitwirkenden<copyright>`."
 
-#: ../../build/doc/copyright.rst:52
+#: ../../build/doc/copyright.rst:82
 msgid "Documentation Contributors"
 msgstr "Mitarbeiter an der Dokumentation"
 
-#: ../../build/doc/copyright.rst:54
+#: ../../build/doc/copyright.rst:84
 msgid ""
 "The table below credits the contributors for each of the documents on "
 "OSGeoLive."
@@ -228,7 +237,7 @@ msgstr ""
 "Die untere Tabelle zitiert die Mitarbeiter der einzelnen OSGeo-Live "
 "Dokumentionen."
 
-#: ../../build/doc/copyright.rst:56
+#: ../../build/doc/copyright.rst:86
 msgid "OSGeoLive Document Contributors"
 msgstr "Mitarbeiter an der OSGeo-Live Dokumentation"
 
@@ -260,50 +269,9 @@ msgstr ""
 "Eike Hinderk Jürrens (e.h.juerrens@52north.org); Daniel Nüst "
 "(d.nuest@52north.org); Simon Jirka (s.jirka@52north.org)"
 
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
+#: ../../build/licenses.csv:1
 msgid "Angelos Tzotsos, OSGeo"
 msgstr "Angelos Tzotsos, OSGeo"
-
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-msgid "Creative Commons Attribution 3.0 Unported (CC BY 3.0)"
-msgstr "Creative Commons Attribution 3.0 Unported (CC BY 3.0)"
 
 #: ../../build/licenses.csv:1
 msgid "52nWPS_overview"
@@ -313,15 +281,6 @@ msgstr "52nWPS_overview"
 msgid "Bastian Schaeffer, Kristof Lange, Benjamin Pross"
 msgstr "Bastian Schaeffer, Kristof Lange, Benjamin Pross"
 
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
 #: ../../build/licenses.csv:1
 msgid "Cameron Shorter, Jirotech; Angelos Tzotsos, OSGeo"
 msgstr "Cameron Shorter, Jirotech; Angelos Tzotsos, OSGeo"
@@ -330,37 +289,11 @@ msgstr "Cameron Shorter, Jirotech; Angelos Tzotsos, OSGeo"
 msgid "52nWSS_overview"
 msgstr "52nWSS_overview"
 
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
+#: ../../build/licenses.csv:1
 msgid "Jan Drewnak (j.drewnak@52north.org)"
 msgstr "Jan Drewnak (j.drewnak@52north.org)"
 
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
+#: ../../build/licenses.csv:1
 msgid "Cameron Shorter, Jirotech"
 msgstr "Cameron Shorter, Jirotech"
 
@@ -368,12 +301,7 @@ msgstr "Cameron Shorter, Jirotech"
 msgid "R_overview"
 msgstr "R_overview"
 
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
+#: ../../build/licenses.csv:1
 msgid "OSGeoLive"
 msgstr "OSGeoLive"
 
@@ -381,8 +309,7 @@ msgstr "OSGeoLive"
 msgid "atlasstyler_overview"
 msgstr "atlasstyler_overview"
 
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
+#: ../../build/licenses.csv:1
 msgid "Stefan Tzeggai"
 msgstr "Stefan Tzeggai"
 
@@ -391,9 +318,9 @@ msgid "cartaro_overview"
 msgstr "cartaro_overview"
 
 #: ../../build/licenses.csv:1
-msgid "Friedjoff Trautwein, https://geops.de; Patric Hafner, https://geops.de"
+msgid "Friedjoff Trautwein, https://geops.com; Patric Hafner, https://geops.com"
 msgstr ""
-"Friedjoff Trautwein, https://geops.de; Patric Hafner, https://geops.de"
+"Friedjoff Trautwein, https://geops.com; Patric Hafner, https://geops.com"
 
 #: ../../build/licenses.csv:1
 msgid "Cameron Shorter, https://www.jirotech.com"
@@ -403,47 +330,9 @@ msgstr "Cameron Shorter, https://www.jirotech.com"
 msgid "cesium_overview"
 msgstr "cesium_overview"
 
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
+#: ../../build/licenses.csv:1
 msgid "Balasubramaniam Natarajan"
 msgstr "Balasubramaniam Natarajan"
-
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-msgid "Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)"
-msgstr "Creative Commons Attribution-ShareAlike 3.0 Unported  (CC BY-SA 3.0)"
 
 #: ../../build/licenses.csv:1
 msgid "deegree_overview"
@@ -477,7 +366,7 @@ msgstr "Thierry Badard"
 msgid "geomajas_overview"
 msgstr "geomajas_overview"
 
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
+#: ../../build/licenses.csv:1
 msgid "Pieter De Graef"
 msgstr "Pieter De Graef"
 
@@ -517,7 +406,7 @@ msgstr "OSGeoLive; Frank Warmerdam"
 msgid "geoserver_overview"
 msgstr "geoserver_overview"
 
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
+#: ../../build/licenses.csv:1
 msgid "Ian Turton; Frank Gasdorf"
 msgstr "Ian Turton; Frank Gasdorf"
 
@@ -525,7 +414,7 @@ msgstr "Ian Turton; Frank Gasdorf"
 msgid "geotools_overview"
 msgstr "geotools_overview"
 
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
+#: ../../build/licenses.csv:1
 msgid "Jody Garnett"
 msgstr "Jody Garnett"
 
@@ -537,22 +426,14 @@ msgstr "gmt_overview"
 msgid "Hamish Bowman; Paul Wessel"
 msgstr "Hamish Bowman; Paul Wessel"
 
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-msgid "Creative Commons Attribution 3.0 Unported  (CC BY 3.0)"
-msgstr "Creative Commons Attribution 3.0 Unported  (CC BY 3.0)"
+#: ../../build/licenses.csv:1
+msgid "Creative Commons Attribution 3.0 Unported (CC BY 3.0)"
+msgstr "Creative Commons Attribution 3.0 Unported (CC BY 3.0)"
 
 #: ../../build/licenses.csv:1
 msgid "gpsdrive_overview"
 msgstr "gpsdrive_overview"
 
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
 #: ../../build/licenses.csv:1
 msgid "Hamish Bowman"
 msgstr "Hamish Bowman"
@@ -561,7 +442,7 @@ msgstr "Hamish Bowman"
 msgid "gpsprune_overview"
 msgstr "gpsprune_overview"
 
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
+#: ../../build/licenses.csv:1
 msgid "activityworkshop"
 msgstr "activityworkshop"
 
@@ -585,7 +466,7 @@ msgstr "Jorge Sanz; Manuel Madrid; Mario Carrera"
 msgid "iris_overview"
 msgstr "iris_overview"
 
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
+#: ../../build/licenses.csv:1
 msgid "darkblueb"
 msgstr "darkblueb"
 
@@ -601,7 +482,7 @@ msgstr "Massimiliano Cannata, Milan Antonovic, SUPSI"
 msgid "josm_overview"
 msgstr "josm_overview"
 
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
+#: ../../build/licenses.csv:1
 msgid "OSGeoLive; Javier Sanchez, GeoNaTec"
 msgstr "OSGeoLive; Javier Sanchez, GeoNaTec"
 
@@ -621,7 +502,7 @@ msgstr "jupyter developers team; Massimo Di Stefano"
 msgid "kosmo_overview"
 msgstr "kosmo_overview"
 
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
+#: ../../build/licenses.csv:1
 msgid "Sergio Baños Calvo"
 msgstr "Sergio Baños Calvo"
 
@@ -641,7 +522,7 @@ msgstr "Cameron Shorter; Angelos Tzotsos, OSGeo"
 msgid "liblas_overview"
 msgstr "liblas_overview"
 
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
+#: ../../build/licenses.csv:1
 msgid "Howard Butler"
 msgstr "Howard Butler"
 
@@ -665,7 +546,7 @@ msgstr "OSGeoLive; Hamish Bowman; Eric Lemoine"
 msgid "mapguide_overview"
 msgstr "mapguide_overview"
 
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
+#: ../../build/licenses.csv:1
 msgid "Trevor Wekel"
 msgstr "Trevor Wekel"
 
@@ -681,7 +562,7 @@ msgstr "Dane Springmeyer"
 msgid "mapproxy_overview"
 msgstr "mapproxy_overview"
 
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
+#: ../../build/licenses.csv:1
 msgid "Oliver Tonnhofer"
 msgstr "Oliver Tonnhofer"
 
@@ -721,8 +602,7 @@ msgstr "Hamish Bowman, Sergey Popov"
 msgid "mb-system_overview"
 msgstr "mb-system_overview"
 
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
+#: ../../build/licenses.csv:1
 msgid "Creative Commons"
 msgstr "Creative Commons"
 
@@ -734,12 +614,10 @@ msgstr "naturalearth_overview"
 msgid "ncWMS_overview"
 msgstr "ncWMS_overview"
 
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
+#: ../../build/licenses.csv:1
 msgid "Guy Griffiths (guy.griffiths@the-iea.org)"
 msgstr "Guy Griffiths (guy.griffiths@the-iea.org)"
 
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
 #: ../../build/licenses.csv:1
 msgid "Cameron Shorter"
 msgstr "Cameron Shorter"
@@ -784,7 +662,7 @@ msgstr ""
 msgid "osgearth_overview"
 msgstr "osgearth_overview"
 
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
+#: ../../build/licenses.csv:1
 msgid "Pirmin Kalberer"
 msgstr "Pirmin Kalberer"
 
@@ -832,7 +710,7 @@ msgstr "OSGeoLive; Mike Adair, Julien Moquet"
 msgid "pycsw_overview"
 msgstr "pycsw_overview"
 
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
+#: ../../build/licenses.csv:1
 msgid "OSGeoLive; Tom Kralidis; Angelos Tzotsos, OSGeo"
 msgstr "OSGeoLive; Tom Kralidis; Angelos Tzotsos, OSGeo"
 
@@ -872,7 +750,7 @@ msgstr "saga_overview"
 msgid "sahana_overview"
 msgstr "sahana_overview"
 
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
+#: ../../build/licenses.csv:1
 msgid "Gavin Treadgold"
 msgstr "Gavin Treadgold"
 
@@ -896,7 +774,7 @@ msgstr "udig_overview"
 msgid "ushahidi_overview"
 msgstr "ushahidi_overview"
 
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
+#: ../../build/licenses.csv:1
 msgid "Henry Addo"
 msgstr "Henry Addo"
 
@@ -908,8 +786,7 @@ msgstr "viking_overview"
 msgid "webworldwind_overview"
 msgstr "webworldwind_overview"
 
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
+#: ../../build/licenses.csv:1
 msgid "Gabriele Prestifilippo"
 msgstr "Gabriele Prestifilippo"
 
@@ -921,7 +798,7 @@ msgstr "worldwindjava_overview"
 msgid "zoo-project_overview"
 msgstr "zoo-project_overview"
 
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
+#: ../../build/licenses.csv:1
 msgid "Gérald Fenoy"
 msgstr "Gérald Fenoy"
 
@@ -949,7 +826,7 @@ msgstr "Benjamin Pross; Kristof Lange"
 msgid "52nWSS_quickstart"
 msgstr "52nWSS_quickstart"
 
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
+#: ../../build/licenses.csv:1
 msgid "Sergio Baños Calvo; Cameron Shorter, Jirotech"
 msgstr "Sergio Baños Calvo; Cameron Shorter, Jirotech"
 
@@ -971,11 +848,11 @@ msgstr "cartaro_quickstart"
 
 #: ../../build/licenses.csv:1
 msgid ""
-"Friedjoff Trautwein (https://geops.de); Augustus Kling (https://geops.de); "
-"Patric Hafner (https://geops.de)"
+"Friedjoff Trautwein (https://geops.com); Augustus Kling "
+"(https://geops.com); Patric Hafner (https://geops.com)"
 msgstr ""
-"Friedjoff Trautwein (https://geops.de); Augustus Kling (https://geops.de); "
-"Patric Hafner (https://geops.de)"
+"Friedjoff Trautwein (https://geops.com); Augustus Kling (https://geops.com); "
+"Patric Hafner (https://geops.com)"
 
 #: ../../build/licenses.csv:1
 msgid "cesium_quickstart"
@@ -1192,12 +1069,12 @@ msgstr "mapwindow_quickstart"
 #: ../../build/licenses.csv:1
 msgid ""
 "Richard R. Schneider Dept. Biological Sciences University of Alberta "
-"Edmonton, Alberta, Canada ; Paul Meems, TopX Geo-ICT The Netherlands (RST "
-"conversion)"
+"Edmonton, Alberta, Canada ; Paul Meems, TopX Geo-ICT The Netherlands (RST"
+" conversion)"
 msgstr ""
 "Richard R. Schneider Dept. Biological Sciences University of Alberta "
-"Edmonton, Alberta, Canada ; Paul Meems, TopX Geo-ICT The Netherlands (RST "
-"conversion)"
+"Edmonton, Alberta, Canada ; Paul Meems, TopX Geo-ICT The Netherlands (RST"
+" conversion)"
 
 #: ../../build/licenses.csv:1
 msgid "marble_quickstart"
@@ -1239,7 +1116,6 @@ msgstr "Antonio Santiago; Chris Schmidt; Bart van den Eijnden"
 msgid "osgearth_quickstart"
 msgstr "osgearth_quickstart"
 
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
 #: ../../build/licenses.csv:1
 msgid "OSGeoLive; Pirmin Kalberer"
 msgstr "OSGeoLive; Pirmin Kalberer"
@@ -1248,7 +1124,7 @@ msgstr "OSGeoLive; Pirmin Kalberer"
 msgid "osgeolive_install_quickstart"
 msgstr "osgeolive_install_quickstart"
 
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
+#: ../../build/licenses.csv:1
 msgid "OSGeoLive; Cameron Shorter"
 msgstr "OSGeoLive; Cameron Shorter"
 
@@ -1376,7 +1252,6 @@ msgstr "sahana_quickstart"
 msgid "spatialite_quickstart"
 msgstr "spatialite_quickstart"
 
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
 #: ../../build/licenses.csv:1
 msgid "OSGeoLive; Micha Silver"
 msgstr "OSGeoLive; Micha Silver"
@@ -1437,13 +1312,13 @@ msgstr "vmware_quickstart"
 msgid "webworldwind_quickstart"
 msgstr "webworldwind_quickstart"
 
-#: ../../build/licenses.csv:1 ../../build/licenses.csv:1
+#: ../../build/licenses.csv:1
 msgid ""
 "`NASA OPEN SOURCE AGREEMENT VERSION 1.3 "
-"<https://opensource.org/licenses/NASA-1.3>`_"
+"<https://opensource.org/license/nasa1-3-php>`__"
 msgstr ""
-"`NASA OPEN SOURCE AGREEMENT VERSION 1.3 "
-"<https://opensource.org/licenses/NASA-1.3>`_"
+"`NASA OPEN SOURCE AGREEMENT VERSION 1.3 <https://opensource.org/license/"
+"nasa1-3-php>`__"
 
 #: ../../build/licenses.csv:1
 msgid "worldwindjava_quickstart"
@@ -1461,49 +1336,49 @@ msgstr "Angelos Tzotsos; Cameron Shorter, Jirotech"
 msgid "zygrib_quickstart"
 msgstr "zygrib_quickstart"
 
-#: ../../build/doc/copyright.rst:61
+#: ../../build/doc/copyright.rst:91
 msgid "Disclaimer"
 msgstr "Haftungsbeschränkung"
 
-#: ../../build/doc/copyright.rst:63
+#: ../../build/doc/copyright.rst:93
 msgid ""
 "*The contents of OSGeoLive are provided by the copyright holders and "
-"contributors \"as is\" and any express or implied warranties, including, but"
-" not limited to, the implied warranties of the merchantability and fitness "
-"for a particular purpose are disclaimed. In no event shall the copyright "
-"owner or contributors be liable for any direct, indirect, incidental, "
-"special, exemplary, or consequential damages (including, but not limited to,"
-" procurement of substitute goods or services; loss of use, date, or profits;"
-" or business interruption) however caused and on any theory of liability, "
-"whether in contract, strict liablity, or tort (including negligence or "
-"otherwise) arising in any way out of the use of this software, even if "
-"advised of the possibility of such damage.*"
+"contributors \"as is\" and any express or implied warranties, including, "
+"but not limited to, the implied warranties of the merchantability and "
+"fitness for a particular purpose are disclaimed. In no event shall the "
+"copyright owner or contributors be liable for any direct, indirect, "
+"incidental, special, exemplary, or consequential damages (including, but "
+"not limited to, procurement of substitute goods or services; loss of use,"
+" date, or profits; or business interruption) however caused and on any "
+"theory of liability, whether in contract, strict liablity, or tort "
+"(including negligence or otherwise) arising in any way out of the use of "
+"this software, even if advised of the possibility of such damage.*"
 msgstr ""
-"Der Inhalt von OSGeo-Live wird von den Copyright-Inhabern und Dritten so zur"
-" Verfügung gestellt \"wie er ist\", ohne irgendeine Gewährleistung, weder "
+"*Der Inhalt von OSGeo-Live wird von den Copyright-Inhabern und Dritten so "
+"zur Verfügung gestellt \"wie er ist\", ohne irgendeine Gewährleistung, weder "
 "ausdrücklich noch implizit, einschließlich - aber nicht begrenzt auf - "
-"Marktreife oder Verwendbarkeit für einen bestimmten Zweck.  In keinem Fall "
+"Marktreife oder Verwendbarkeit für einen bestimmten Zweck. In keinem Fall "
 "ist irgendein Copyright-Inhaber oder irgendein Dritter für irgendwelche "
 "Schäden haftbar, einschließlich jeglicher allgemeiner oder spezieller "
-"Schäden, Schäden durch Seiteneffekte (Nebenwirkungen) oder Folgeschäden, die"
-" aus der Benutzung der Software oder der Unbenutzbarkeit der Software folgen"
-" (einschließlich - aber nicht beschränkt auf - Datenverluste, fehlerhafte "
-"Verarbeitung von Daten, Verluste, die von Ihnen oder anderen getragen werden"
-" müssen), selbst wenn ein Copyright-Inhaber oder Dritter über die "
-"Möglichkeit solcher Schäden unterrichtet worden war."
+"Schäden, Schäden durch Seiteneffekte (Nebenwirkungen) oder Folgeschäden, die "
+"aus der Benutzung der Software oder der Unbenutzbarkeit der Software folgen ("
+"einschließlich - aber nicht beschränkt auf - Datenverluste, fehlerhafte "
+"Verarbeitung von Daten, Verluste, die von Ihnen oder anderen getragen werden "
+"müssen), selbst wenn ein Copyright-Inhaber oder Dritter über die Möglichkeit "
+"solcher Schäden unterrichtet worden war.*"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Community"

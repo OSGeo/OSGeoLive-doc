@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2024-09-26 14:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:27
 msgid "GeoNetwork Quickstart"
@@ -37,9 +37,9 @@ msgstr ""
 msgid ""
 "GeoNetwork can directly be started from the OSGeo Live start menu and "
 "will be available at http://localhost:8080/geonetwork some moments later."
-" Check the `Installation Guide <https://geonetwork-"
-"opensource.org/manuals/trunk/en/install-guide/index.html>`__ if you are "
-"using GeoNetwork in some other context."
+" Check the `Installation Guide <https://docs.geonetwork-"
+"opensource.org/3.12/install-guide/>`__ if you are using GeoNetwork in "
+"some other context."
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:39
@@ -63,9 +63,9 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:47
 msgid ""
-"You can return to the  homepage at any point by selecting the catalogue "
+"You can return to the homepage at any point by selecting the catalogue "
 "logo in the top left of the top toolbar. In the screenshot below, this is"
-" labelled  “My GeoNetwork catalogue” but it may have a different name and"
+" labelled “My GeoNetwork catalogue” but it may have a different name and"
 " logo."
 msgstr ""
 
@@ -167,7 +167,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:107
 msgid ""
-"*Search facets*, or  filters, that provide ways of narrowing down the "
+"*Search facets*, or filters, that provide ways of narrowing down the "
 "search results, such as *Type of Resource*, *Topic*, *Keywords*,"
 msgstr ""
 
@@ -393,10 +393,9 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:221
 msgid ""
-"Visit the `Geonetwork User Guide <https://geonetwork-"
-"opensource.org/manuals/trunk/en/user-guide/index.html>`_ and try the "
-"chapter on **Describing Information**, to learn how to create and edit "
-"metadata records."
+"Visit the `Geonetwork User Guide <https://docs.geonetwork-"
+"opensource.org/3.12/user-guide/>`_ and try the chapter on **Describing "
+"Information**, to learn how to create and edit metadata records."
 msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:223
@@ -406,11 +405,11 @@ msgid ""
 "categories, and publish your metadata to the outside world."
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr ""
 

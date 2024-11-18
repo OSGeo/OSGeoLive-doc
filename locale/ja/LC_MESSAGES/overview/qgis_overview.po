@@ -1,27 +1,28 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Takayuki Nuimura <nuimura@nagoya-u.jp>, 2018
 # MarPetra <mvergaratrejo@gmail.com>, 2020
-# Ko Nagase <nagase@georepublic.co.jp>, 2021
+# Ko Nagase <nagase@georepublic.co.jp>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"POT-Creation-Date: 2022-08-06 09:15-0500\n"
+"PO-Revision-Date: 2024-11-02 13:09+0000\n"
+"Last-Translator: Ko Nagase <geosanak@gmail.com>\n"
+"Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
+"qgis_overview/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/qgis_overview.rst:20
 msgid "QGIS"
@@ -49,23 +50,23 @@ msgstr ""
 
 #: ../../build/doc/overview/qgis_overview.rstNone
 msgid "qgis screenshot"
-msgstr ""
+msgstr "QGIS スクリーンショット"
 
 #: ../../build/doc/overview/qgis_overview.rst:36
 msgid "Core Features"
-msgstr "主な機能"
+msgstr "主要機能"
 
 #: ../../build/doc/overview/qgis_overview.rst:38
 msgid "Friendly graphical user interface:"
-msgstr "使いやすいグラフィカルなユーザインタフェース:"
+msgstr "使いやすいグラフィカル・ユーザー・インターフェース:"
 
 #: ../../build/doc/overview/qgis_overview.rst:40
 msgid "identify/select features"
-msgstr "地物の選択と特定"
+msgstr "地物情報の表示/地物選択"
 
 #: ../../build/doc/overview/qgis_overview.rst:41
 msgid "edit/view/search attributes"
-msgstr "属性の編集、表示、検索"
+msgstr "属性の編集/表示/検索"
 
 #: ../../build/doc/overview/qgis_overview.rst:42
 msgid "on the fly projection"
@@ -93,7 +94,7 @@ msgstr "などなど ..."
 
 #: ../../build/doc/overview/qgis_overview.rst:49
 msgid "Easy Viewing of many Vector and Raster Formats"
-msgstr "様々なベクタとラスタフォーマットの容易な表示"
+msgstr "多くのベクターおよびラスター形式の画像を簡単に表示"
 
 #: ../../build/doc/overview/qgis_overview.rst:51
 msgid ""
@@ -106,13 +107,14 @@ msgstr ""
 msgid ""
 "most vector formats: including ESRI shapefiles, MapInfo, SDTS and GML, "
 "OpenStreetMap vectors"
-msgstr "ほとんどのベクタフォーマット: ESRI シェープファイル、MapInfo、SDTS、GML、OpenStreetMap ベクタデータ"
+msgstr "ほとんどのベクター形式: "
+"ESRIシェープファイル、MapInfo、SDTSおよびGML、OpenStreetMapベクターを含む"
 
 #: ../../build/doc/overview/qgis_overview.rst:53
 msgid ""
 "raster formats such as digital elevation models, aerial photography or "
 "landsat imagery"
-msgstr "デジタル標高モデル (DEM)、空中写真、ランドサット画像などのラスタフォーマット"
+msgstr "デジタル標高モデル、航空写真、ランドサット画像などのラスター形式"
 
 #: ../../build/doc/overview/qgis_overview.rst:54
 msgid "GRASS locations and mapsets"
@@ -202,8 +204,8 @@ msgid "Details"
 msgstr "詳細"
 
 #: ../../build/doc/overview/qgis_overview.rst:85
-msgid "**Website:** https://www.qgis.org/en/site/"
-msgstr "**Webサイト:** https://www.qgis.org/en/site/"
+msgid "**Website:** https://www.qgis.org/"
+msgstr "**Webサイト:** https://www.qgis.org/"
 
 #: ../../build/doc/overview/qgis_overview.rst:87
 msgid "**Licence:** GNU General Public License (GPL) version 2"
@@ -219,13 +221,13 @@ msgstr "**対応プラットフォーム:** Windows, Linux, Mac, Unix"
 
 #: ../../build/doc/overview/qgis_overview.rst:93
 msgid "**Community Support:** https://qgis.org/en/site/forusers/support.html"
-msgstr "**コミュニティサポート:**  https://qgis.org/en/site/forusers/support.html"
+msgstr "**コミュニティサポート:** https://qgis.org/en/site/forusers/support.html"
 
 #: ../../build/doc/overview/qgis_overview.rst:95
 msgid ""
 "**Commercial Support:** "
-"https://qgis.org/en/site/forusers/commercial_support.html"
-msgstr "**商用サポート:** https://qgis.org/en/site/forusers/commercial_support.html"
+"https://qgis.org/en/site/resources/support/commercial-support"
+msgstr "**商用サポート:** https://qgis.org/en/site/resources/support/commercial-support"
 
 #: ../../build/doc/overview/qgis_overview.rst:101
 msgid "Quickstart"
@@ -235,18 +237,18 @@ msgstr "クイックスタート"
 msgid ":doc:`Quickstart documentation <../quickstart/qgis_quickstart>`"
 msgstr ":doc:`クイックスタート文書 <../quickstart/qgis_quickstart>`"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "ロゴなし"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo プロジェクト"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo コミュニティ"

@@ -1,25 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
 # Translators:
-# Ko Nagase <nagase@georepublic.co.jp>, 2021
-# 
-#, fuzzy
+# Ko Nagase <nagase@georepublic.co.jp>, 2022
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2020-11-29 04:49+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"PO-Revision-Date: 2024-11-02 13:09+0000\n"
+"Last-Translator: Ko Nagase <geosanak@gmail.com>\n"
+"Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
+"pygeoapi_quickstart/ja/>\n"
 "Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.4.3\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:23
 msgid "pygeoapi Quickstart"
@@ -27,8 +28,8 @@ msgstr "pygeoapiクイックスタート"
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:25
 msgid ""
-"pygeoapi is a tool to quickly and easily publish OGC Open API services on "
-"the web. It is built on the powerful open-source libraries from the "
+"pygeoapi is a tool to quickly and easily publish OGC Open API services on"
+" the web. It is built on the powerful open-source libraries from the "
 "(geo)python community."
 msgstr ""
 "pygeoapiは、OGC Open "
@@ -36,12 +37,11 @@ msgstr ""
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:27
 msgid ""
-"In this quickstart we’ll guide you in setting up the software and use it for"
-" some specific cases. Along the road we’ll engage with some related "
+"In this quickstart we’ll guide you in setting up the software and use it "
+"for some specific cases. Along the road we’ll engage with some related "
 "software, because pygeoapi is a product which is typically combined with "
 "other components to fulfill a business case."
-msgstr ""
-"このクイックスタートでは、ソフトウェアのセットアップ方法を説明し、特定ケースを想定して使用してみます。pygeoapiはビジネス、ビジネスケースを満たすために他のコンポーネントと組み合わされる製品なので、説明の途中で関連するソフトウェアをいくつか取り上げます。"
+msgstr "このクイックスタートでは、ソフトウェアのセットアップ方法を説明し、特定ケースを想定して使用してみます。pygeoapiはビジネス、ビジネスケースを満たすために他のコンポーネントと組み合わされる製品なので、説明の途中で関連するソフトウェアをいくつか取り上げます。"
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:30
 msgid "Prior knowledge"
@@ -49,18 +49,18 @@ msgstr "前提知識"
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:32
 msgid ""
-"pygeoapi is a Python web application for the spatial domain, so you need to "
-"be aware of the concepts of web applications and geospatial aspects such as "
-"grid and vector formats, OGC standards and projection systems. Python "
-"knowledge is recommended, although you can do without by running the "
-"application from OSGeoLive."
+"pygeoapi is a Python web application for the spatial domain, so you need "
+"to be aware of the concepts of web applications and geospatial aspects "
+"such as grid and vector formats, OGC standards and projection systems. "
+"Python knowledge is recommended, although you can do without by running "
+"the application from OSGeoLive."
 msgstr ""
 "pygeoapiは空間ドメイン用のPython "
 "Webアプリケーションであるため、Webアプリケーションの概念と、グリッドおよびベクタフォーマット、OGC標準、投影システムなどの空間処理的側面を意識する必要があります。Pythonの知識が推奨されますが、OSGeoLiveからアプリケーションを実行しなくてもかまいません。"
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:35
 msgid "Contents"
-msgstr ""
+msgstr "目次"
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:38
 msgid "Configure and start the service"
@@ -72,14 +72,14 @@ msgid ""
 "appmenupath --> pygeoapi`. The application will open a web page at "
 "http://localhost:5000"
 msgstr ""
-"スタートメニューから  :menuselection:`Structure --> osgeolive --> appmenupath --> "
+"スタートメニューから :menuselection:`Structure --> osgeolive --> appmenupath --> "
 "pygeoapi` を選択します。Webページ http://localhost:5000 でアプリケーションを開きます。"
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:42
 msgid ""
-"navigate to the user folder ``/usr/local/share/pygeoapi`` and locate a file "
-"``pygeoapi-config.yml``. This file contains the configuration of the "
-"service."
+"navigate to the user folder ``/usr/local/share/pygeoapi`` and locate a "
+"file ``pygeoapi-config.yml``. This file contains the configuration of the"
+" service."
 msgstr ""
 "ユーザフォルダの ``/usr/local/share/pygeoapi`` へ行きファイル ``pygeoapi-config.yml`` "
 "を配置します。このファイルには、サービスの構成が含まれています。"
@@ -90,14 +90,14 @@ msgstr "コマンド ``sudo nano pygeoapi-config.yml`` でファイルを開き�
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:46
 msgid ""
-"Update some parameters in the file, such as Title and Author. And Save the "
-"file."
+"Update some parameters in the file, such as Title and Author. And Save "
+"the file."
 msgstr "Title や Author など、ファイル内の一部のパラメータを更新します。ファイルを保存します。"
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:48
 msgid ""
-"Restart the service, for example by closing the terminal and starting the "
-"service again"
+"Restart the service, for example by closing the terminal and starting the"
+" service again"
 msgstr "端末を閉じてサービスを起動し直すなどして、サービスを再開します。"
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:54
@@ -106,10 +106,10 @@ msgstr "新しいサービスの構成"
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:56
 msgid ""
-"You'll now deploy a vector dataset in pygeoapi and expose its features as "
-"OGC API - Features. OGC API - Features is a standard of OGC to expose vector"
-" features as a webservice. OGC API - Features is the OpenAPI alternative to "
-"WFS."
+"You'll now deploy a vector dataset in pygeoapi and expose its features as"
+" OGC API - Features. OGC API - Features is a standard of OGC to expose "
+"vector features as a webservice. OGC API - Features is the OpenAPI "
+"alternative to WFS."
 msgstr ""
 "ここでは、ベクタ・データセットをpygeoapiにデプロイし、その機能をOGC API-Featuresとして公開します。OGC API - "
 "Fearures は、ベクタ機能をWebサービスとして公開するためのOGCの標準です。OGC API - Featuresは、WFSの代替となる "
@@ -118,150 +118,159 @@ msgstr ""
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:58
 msgid ""
 "pygeoapi supports a wide range of backends to use as vector source, e.g. "
-"geopackage, PostGIS, Elasticsearch, WFS, etc. Via the GDAL OGR provider an "
-"almost unlimited set of other vector sources can be added."
+"geopackage, PostGIS, Elasticsearch, WFS, etc. Via the GDAL OGR provider "
+"an almost unlimited set of other vector sources can be added."
 msgstr ""
 "pygeoapiは、geopackage、PostGIS、Elasticsearch、WFSなど、ベクタソースとして使用する幅広いバックエンドをサポートしています。GDAL"
 " OGR プロバイダを経由して、ほぼ無制限に、他のベクタソース一式が追加できます。"
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:60
+#, fuzzy
 msgid ""
-"Interesting datasets to expose as OAPI-Features consist of real world data "
-"having multiple attributes and links to other resources. OSGeoLive contains "
-"a number of datasets we can use. An example is "
-"``/var/www/html/openlayers/examples/data/geojson/countries.geojson``. You "
-"can configure it in pygeoapi using the GeoJSON provider."
+"Interesting datasets to expose as OGC API - Features consist of real "
+"world data having multiple attributes and links to other resources. "
+"OSGeoLive contains a number of datasets we can use. An example is "
+"``/var/www/html/openlayers/examples/data/geojson/countries.geojson``. You"
+" can configure it in pygeoapi using the GeoJSON provider."
 msgstr ""
 "OAPI-"
 "Featuresとして公開される興味深いデータセットは、複数の属性と他のリソースへのリンクを持つ実世界のデータで構成されています。OSGeoLiveには使えるデータセットがたくさんあります。例は、``/var/www/html/openlayers/examples/data/geojson/countries.geojson``"
-"  にあります。GeoJSONプロバイダーを使用してpygeoapiで設定することができます。"
+" にあります。GeoJSONプロバイダーを使用してpygeoapiで設定することができます。"
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:64
 msgid "Download the GeoJSON file and place it in the tests/data folder."
 msgstr "GeoJSONファイルをダウンロードし、tests/data フォルダーに配置します。"
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:66
+#, fuzzy
 msgid ""
-"Update pygeoapi-config.yml to add ``countries`` as a new collection to "
-"pygeoapi (insert snippet below between the other collections. Mind the "
-"nesting, nesting is important in YAML syntax)."
+"Update ``pygeoapi-config.yml`` to add ``countries`` as a new collection "
+"to pygeoapi (insert snippet below between the other collections. Mind the"
+" nesting, nesting is important in YAML syntax)."
 msgstr ""
 "pygeoapi-config.yml ファイルを更新してpygeoapi に ``countries`` "
 "を新たなコレクションとして追加します。(ほかのコレクションの間に以下のスニペットを挿入します。YAMLの文法において重要なネスティングやインデントに注意してください)。"
 
-#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:68
+#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:92
 msgid "Restart pygeoapi"
 msgstr "pygeoapiの再起動"
 
-#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:93
+#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:94
 msgid ""
 "Verify the collection is available via your browser at "
 "http://localhost:5000/collections/countries"
 msgstr "ブラウザで http://localhost:5000/collections/countries を開いて、コレクションの検証をおこなう"
 
-#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:96
+#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:97
 msgid "Using a web browser to query the API"
 msgstr "Webブラウザを使用したAPIのクエリー"
 
-#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:98
+#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:99
+#, fuzzy
 msgid ""
-"Now that we have the service available we can query it using various client "
-"tooling. Each of the features of the collection is available in common "
-"formats, such as HTML, GeoJSON and GML. To start we can use a web browser to"
-" browse through the service. From "
+"Now that we have the service available we can query it using various "
+"client tooling. Each of the features of the collection is available in "
+"common formats, such as HTML, GeoJSON and GML. To start we can use a web "
+"browser to browse through the service. From "
 "http://localhost:5000/collections/countries, drill down to individual "
-"features. The service will automatically detect (accept header) that you are"
-" using a web browser and will return the HTML representation of features. "
-"Notice in the top right corner explicit links to override the accept header "
-"and request specific representations of the feature (?f=geojson)."
+"features. The service will automatically detect (accept header) that you "
+"are using a web browser and will return the HTML representation of "
+"features. Notice in the top right corner explicit links to override the "
+"accept header and request specific representations of the feature "
+"(``?f=json``)."
 msgstr ""
 "サービスが利用できるようになったので、さまざまなクライアント・ツールを使ってクエリーを実行できます。コレクションの各機能は、HTML、GeoJSON、GMLなどの共通フォーマットで使用できます。開始するには、Webブラウザを使用してサービスをブラウズします。http://localhost:5000/collections/countries"
 " "
 "から各地物をドリルダウンすることができます。このサービスは、Webブラウザーを使用していることを(ヘッダーを受け入れて)自動的に検出し、地物のHTML表現を返します。右上隅には、acceptヘッダーをオーバーライドして地物の特定の表現(?f=geojson)を要求する明示的なリンクがあります。"
 
-#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:101
+#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:102
 msgid ""
-"Each Open API has an interactive documentation page at  "
+"Each Open API has an interactive documentation page at "
 "http://localhost:5000/openapi. In this interactive webpage you can read "
-"about the various methods in the service, but also directly interact with "
-"them via web forms."
+"about the various methods in the service, but also directly interact with"
+" them via web forms."
 msgstr ""
 "各Open APIには、http://localhost:5000/openapi "
 "にインタラクティブなドキュメントページがあります。このインタラクティブなWebページでは、サービス内のさまざまなメソッドについて読むことができますが、Webフォームを介してそれらのメソッドと直接対話することもできます。"
 
-#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:106
+#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:107
+#, fuzzy
 msgid ""
-"OGC API’s have been developed with the `spatial data on the web best "
-"practices <https://w3c.github.io/sdw/bp/#bp-summary>`_ in mind. An important"
-" aspect of these best practices is search engine optimization. Pygeoapi adds"
-" some crawl optimizations on top of the requirements of the Open API "
-"standards; Collection metadata can be crawled by search engines in a "
-"structured way, with the goal to make the collections discoverable in tools "
-"like Google Dataset Search. To evaluate the structured data capabilities you"
-" can use the Structured Data Testing tools of Yandex or Google. Copy the "
-"html source of the countries collection page (or the url of a collection "
-"page of an online pygeoapi instance) into a structured data testing tool and"
-" evaluate what structured data the tool is able to extract from it. The "
-"search engine will use that information in its datasets index."
+"OGC API’s have been developed with the `W3C Spatial Data on the Web Best "
+"Practices <https://www.w3.org/TR/sdw-bp>`_ in mind. An important aspect "
+"of these best practices is search engine optimization. Pygeoapi adds some"
+" crawl optimizations on top of the requirements of the Open API "
+"standards; collection metadata can be crawled by search engines in a "
+"structured way, with the goal to make the collections discoverable in "
+"tools like Google Dataset Search. To evaluate the structured data "
+"capabilities you can use the Structured Data Testing tools of Yandex or "
+"Google. Copy the html source of the countries collection page (or the url"
+" of a collection page of an online pygeoapi instance) into a structured "
+"data testing tool and evaluate what structured data the tool is able to "
+"extract from it. The search engine will use that information in its "
+"datasets index."
 msgstr ""
-"OGC APIは、`Webベストプラクティスにおける空間データ <https://w3c.github.io/sdw/bp/#bp-summary>`_"
-" を意識して開発されています。ベストプラクティスの重要な側面の一つに、検索エンジン最適化があります。Pygeoapiでは、Open "
+"OGC APIは、`Webベストプラクティスにおける空間データ <https://w3c.github.io/sdw/bp/#bp-"
+"summary>`_ "
+"を意識して開発されています。ベストプラクティスの重要な側面の一つに、検索エンジン最適化があります。Pygeoapiでは、Open "
 "API標準の要件に加えて、クロールの最適化が追加されています。コレクションメタデータは、構造化された方法で検索エンジンによってクロールされ、Google"
 " Dataset "
 "Searchなどのツールでコレクションを検出可能にすることを目的としています。構造化データ機能を評価するには、YandexまたはGoogleのStructured"
 " Data "
 "Testingツールを使用します。各国コレクションページのhtmlソース(またはオンラインpygeoapiインスタンスのコレクションページのurl)を構造化データテストツールにコピーし、ツールが抽出できる構造化データを評価します。検索エンジンは、その情報をデータセットインデックスで使用します。"
 
-#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:109
-msgid "Using OAPI-Features in Desktop GIS"
+#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:110
+#, fuzzy
+msgid "Using OGC API - Features in Desktop GIS"
 msgstr "デスクトップGISのOAPI-Featuresを利用する"
 
-#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:111
+#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:112
 msgid ""
-"In this quickstart we use QGIS to query the service, but similar workflow is"
-" possible in other GIS tooling, e.g. ArcGIS, FME, OpenLayers."
+"In this quickstart we use QGIS to query the service, but similar workflow"
+" is possible in other GIS tooling, e.g. ArcGIS, FME, OpenLayers."
 msgstr ""
 "このクイックスタートでは、QGISを用いてサービスのクエリを行ないますが、例えば ArcGIS, FME, OpenLayers "
 "といった他のツールでも、類似のワークフローを実施できます。"
 
-#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:113
+#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:114
+#, fuzzy
 msgid ""
-"Starting from QGIS 3.14 you can add an OAPI-Features layer as vector layer. "
-"From the ``add layer`` menu select ``Add WFS / OAPI-Features layer``."
+"Starting from QGIS 3.14 you can add an OGC API - Features layer as vector"
+" layer. From the ``Layer / Add Layer`` menu select ``Add WFS Layer...``."
 msgstr ""
-"QGIS 3.14 からは、OAPI-Features レイヤをベクタレイヤとして追加できます。``add layer`` メニューから ``Add "
-"WFS / OAPI-Features layer`` を選択します。"
+"QGIS 3.14 からは、OAPI-Features レイヤをベクタレイヤとして追加できます。``add layer`` メニューから "
+"``Add WFS / OAPI-Features layer`` を選択します。"
 
-#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:118
+#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:119
 msgid ""
 "On the window that opens create a new connection, enter the url to the "
 "service http://localhost:5000."
 msgstr "新しい接続を作成するウィンドウが開いたら、サービスのURL http://localhost:5000 を入力します。"
 
-#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:120
+#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:121
 msgid ""
 "Click Ok, and then ``connect`` to load the available collections in the "
 "service."
 msgstr "OKをクリックして、サービスで使えるコレクションをロードするため ``connect`` します。"
 
-#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:125
+#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:126
 msgid ""
-"Select the ``countries`` collection and click ‘Add’ to add the layer in the "
-"QGIS map."
-msgstr "``countries`` コレクションを選択して、 ‘Add’  をクリックしてQGISマップにレイヤを追加します。"
+"Select the ``countries`` collection and click ‘Add’ to add the layer in "
+"the QGIS map."
+msgstr "``countries`` コレクションを選択して、 ‘Add’ をクリックしてQGISマップにレイヤを追加します。"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "ロゴなし"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo プロジェクト"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo コミュニティ"

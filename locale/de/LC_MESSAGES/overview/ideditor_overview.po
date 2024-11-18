@@ -1,26 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Astrid Emde <astrid_emde@osgeo.org>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Astrid Emde <astrid_emde@osgeo.org>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
-"Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
+"POT-Creation-Date: 2022-08-06 09:15-0500\n"
+"PO-Revision-Date: 2023-03-29 19:22+0000\n"
+"Last-Translator: Astrid Emde <astrid.emde@posteo.de>\n"
+"Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
+"ideditor_overview/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: ../../build/doc/overview/ideditor_overview.rst:14
 msgid "iD editor"
@@ -40,7 +41,7 @@ msgstr ""
 "Der iD Editor ist ein browserbasierter `OpenStreetMap "
 "<https://www.openstreetmap.org>`_ Editor. iD ist schnell und leicht zu "
 "handhaben und erlaubt das Erfassen auf Basis von unterschiedlichen "
-"Datenquellen z.B. Satelliten und  Luftbildern, GPS, Field Papers oder "
+"Datenquellen z.B. Satelliten und Luftbildern, GPS, Field Papers oder "
 "Mapillary."
 
 #: ../../build/doc/overview/ideditor_overview.rst:21
@@ -55,7 +56,7 @@ msgstr ""
 
 #: ../../build/doc/overview/ideditor_overview.rstNone
 msgid "ideditor screenshot"
-msgstr ""
+msgstr "ideditor Screenshot"
 
 #: ../../build/doc/overview/ideditor_overview.rst:30
 msgid "Core Features"
@@ -121,18 +122,18 @@ msgstr "Quickstart"
 msgid ":doc:`Quickstart documentation <../quickstart/ideditor_quickstart>`"
 msgstr ":doc:`Quickstart Dokumentation <../quickstart/ideditor_quickstart>`"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Community"

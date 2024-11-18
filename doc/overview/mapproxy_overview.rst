@@ -71,7 +71,7 @@ Security:
   * integrate with existing user databases and authentication methods
 
 Powerful tools:
-  * efficient seed tool for cache pre-filling that can seed polygon areas  with Shapefiles, GeoJSON, PostGIS or WKT geometries
+  * efficient seed tool for cache pre-filling that can seed polygon areas with Shapefiles, GeoJSON, PostGIS or WKT geometries
   * export cached tiles to other formats
   * calculate scales and show grid configurations
 
@@ -106,7 +106,7 @@ Details
 
 **Supported Platforms:** Linux, Mac, Windows
 
-**Support:** https://mapproxy.org/support
+**Support:** https://www.mapproxy.org/support
 
 
 @VMDK_mapproxy@

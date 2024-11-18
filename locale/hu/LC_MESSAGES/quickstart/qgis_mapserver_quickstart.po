@@ -1,25 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
-# 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"PO-Revision-Date: 2023-04-16 19:08+0000\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"qgis_mapserver_quickstart/hu/>\n"
 "Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:21
 msgid "QGIS Server Quickstart"
@@ -39,8 +40,7 @@ msgstr "Ez a gyorstalpaló leírja:"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:27
 msgid "update an existing QGIS project and render it with QGIS Server"
-msgstr ""
-"egy létező QGIS projekt aktualizálását és QGIS Serverrel megjelenítését"
+msgstr "egy létező QGIS projekt aktualizálását és QGIS Serverrel megjelenítését"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:28
 msgid "create a new QGIS project and open the WMS directly in a browser"
@@ -61,26 +61,25 @@ msgid ""
 "OSGeoLive contains an example of web map viewer based on the GeoExt "
 "Javascript framework and using QGIS Server for rendering the map."
 msgstr ""
-"Az OSGeoLive tartalmaz egy webes térkép megjelenítő példát, mely a GeoExt "
-"Javascript keretrendszeren alapul és a QGIS Servert használja a a térkép "
-"megjelenítésre."
+"Az OSGeoLive tartalmaz egy webes térkép megjelenítő példát, mely a GeoExt"
+" Javascript keretrendszeren alapul és a QGIS Servert használja a a térkép"
+" megjelenítésre."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:39
 msgid ""
-"Click :menuselection:`Geospatial --> Web Services --> QGIS Server`. You "
-"should see a browser window with a web map viewer showing a world map."
+"Click |menu_qgis|. You should see a browser window with a web map viewer "
+"showing a world map."
 msgstr ""
-"Kattinson ide :menuselection:`Geospatial --> Web Services --> QGIS Server`. "
-"Egy böngésző ablakot kellene látnia egy webes térkép megjelenítővel, mely a "
-"világtérképet jeleníti meg."
+"Kattintson ide |menu_qgis|. Egy böngésző ablakot kellene látnia egy webes "
+"térkép megjelenítővel, mely a világtérképet jeleníti meg."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:43
 msgid ""
 "Alternatively, you can access the application using a browser through "
 "http://localhost/qgis_server"
 msgstr ""
-"Alternatív megoldásként a böngészőből is elérheti az alkalmazást a "
-"http://localhost/qgis_server címen."
+"Alternatív megoldásként a böngészőből is elérheti az alkalmazást a http://"
+"localhost/qgis_server címen"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:48
 msgid "Edit QGIS project"
@@ -91,33 +90,30 @@ msgid "We will now change the map styling using QGIS."
 msgstr "Most megváltoztatjuk a térkép stílusát a QGIS használatával."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:52
-msgid "Click :menuselection:`Geospatial --> Desktop GIS --> QGIS`."
-msgstr "Kattintson ide :menuselection:`Geospatial --> Desktop GIS --> QGIS`."
+msgid "Click |menu_qgis|"
+msgstr "Kattintson |menu_qgis|"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:54
 msgid "Choose :menuselection:`Project --> Open` from the menu bar."
 msgstr "Válassza :menuselection:`Project --> Open...`-t a menüből."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:56
-msgid ""
-"Select :file:`QGIS-NaturalEarth-Example.qgs` and press :guilabel:`Open`."
+msgid "Select :file:`QGIS-NaturalEarth-Example.qgs` and press :guilabel:`Open`."
 msgstr ""
 "Válassza a :file:`QGIS-NaturalEarth-Example.qgs`-t nyomja meg az "
 ":guilabel:`Open` gombot."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:58
 msgid ""
-"You should see the same world map rendered by QGIS. We will now change river"
-" styling and look at the result in the web map viewer."
+"You should see the same world map rendered by QGIS. We will now change "
+"river styling and look at the result in the web map viewer."
 msgstr ""
-"Ugyanazt a világtérképet kell látnia a QGIS-ban. Megváltoztatjuk a folyók "
-"stílusát és megnézzük az eredményt a webes térkép megjelenítőben."
+"Ugyanazt a világtérképet kell látnia a QGIS-ban. Megváltoztatjuk a folyók"
+" stílusát és megnézzük az eredményt a webes térkép megjelenítőben."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:61
-msgid ""
-"Double click :file:`ne_10m_rivers_lake_centerlines` in the Layers tree."
-msgstr ""
-"A réteg fában kattintson duplán a `ne_10m_rivers_lake_centerlines` elemre."
+msgid "Double click :file:`ne_10m_rivers_lake_centerlines` in the Layers tree."
+msgstr "A réteg fában kattintson duplán a `ne_10m_rivers_lake_centerlines` elemre."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:63
 msgid "Change the color in Outline Options to a different blue tone."
@@ -138,8 +134,7 @@ msgstr "Nyissa meg újra a böngészőt."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:71
 msgid "Zoom in. You will now see rivers rendered in the same new color."
-msgstr ""
-"Nagyítson. Most ugyanazzal az új színnel kirajzolt folyókat fog látni."
+msgstr "Nagyítson. Most ugyanazzal az új színnel kirajzolt folyókat fog látni."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:75
 msgid "Create a new QGIS project"
@@ -169,8 +164,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:85
 msgid "Press :guilabel:`Open`. You should see all world countries."
-msgstr ""
-"Nyomja meg az :guilabel:`Open`-t. A világ összes országát kell látnia."
+msgstr "Nyomja meg az :guilabel:`Open`-t. A világ összes országát kell látnia."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:89
 msgid "Use file name :file:`/home/user/world.qgs` and press :guilabel:`Save`."
@@ -194,11 +188,10 @@ msgstr "Mi a következő?"
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:97
 msgid ""
-"To learn more about QGIS Server, a good starting point is the `QGIS Server "
-"Guide`_."
+"To learn more about QGIS Server, a good starting point is the `QGIS "
+"Server Guide`_."
 msgstr ""
-"További QGIS Server tanuláshoz a  `QGIS Server Guide`_ egy jó kiindulási "
-"pont."
+"További QGIS Server tanuláshoz a `QGIS Server Guide`_ egy jó kiindulási pont."
 
 #: ../../build/doc/quickstart/qgis_mapserver_quickstart.rst:103
 msgid "Documentation:"
@@ -228,18 +221,18 @@ msgstr "QGIS Web kliens:"
 msgid "https://github.com/qgis/qgis-web-client"
 msgstr "https://github.com/qgis/qgis-web-client"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo közösség"

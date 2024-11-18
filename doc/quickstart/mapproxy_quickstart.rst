@@ -32,7 +32,7 @@ Start the service and view the demo
 
 MapProxy has flexible deployment options and you can integrate it in Apache for example. But you can also start MapProxy as a standalone service, which is the best option to get started.
 
-#. To start MapProxy as a standalone service click on :menuselection:`Geospatial --> Web Services --> MapProxy --> Start MapProxy`.
+#. To start MapProxy as a standalone service click on |menu_mapproxy-Start|.
 
 #. Open Firefox and navigate to `<http://localhost:8011/demo>`_
 
@@ -59,9 +59,8 @@ Available layers
 **mapnik**:
   The world population rendered by Mapnik. You don't need to start the Mapnik service, because this layer makes use of the integrated Mapnik support in MapProxy.
 
-**tilestache**:
-  TileStache is a server that delivers tiles from the Mapnik world population service. This layer demonstrates the ability to include existing tile services in MapProxy and to make them available as WMS.
-  You need to start TileStache with *Start Mapnik & TileStache* before accessing this layer.
+**mapnik_tile**:
+  The world population rendered by Mapnik as tile layer.
 
 **geoserver**:
   The US population rendered by the :doc:`GeoServer <../overview/geoserver_overview>` WMS. This layer also supports ``GetFeatureInfo`` requests which are cascaded to the source WMS.

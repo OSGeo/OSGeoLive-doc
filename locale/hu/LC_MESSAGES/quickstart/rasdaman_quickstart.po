@@ -1,25 +1,31 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"POT-Creation-Date: 2022-08-03 09:57+0000\n"
+"PO-Revision-Date: 2024-10-14 00:38+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"rasdaman_quickstart/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
+
+#: ../../build/doc/quickstart/rasdaman_quickstart.rst:15
+msgid ""
+"This project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgstr "Ez a projekt csak az OSGeoLive virtuális gépben (VMDK) található meg"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:23
 msgid "Rasdaman Quickstart"
@@ -39,13 +45,13 @@ msgid ""
 msgstr ""
 "A Rasdaman egy big data motor rugalmas ad-hoc elemzésekhez több dimenziós "
 "tér-idő szenzorokhoz, képekhez, szimulációhoz és statisztikai adatokhoz, a "
-"méret korlátozása nélkül. A Web Coverage Processing Service (WCPS) lekérdező"
-" nyelv egy  Open Geospatial Consortium (OGC) szabvány, mely lehetővé teszi "
+"méret korlátozása nélkül. A Web Coverage Processing Service (WCPS) lekérdező "
+"nyelv egy Open Geospatial Consortium (OGC) szabvány, mely lehetővé teszi "
 "több dimenziós raszter fedvények, mint szenzorok, szimuláció, kép és "
-"statisztikai adat szűrését és feldolgozását  web szolgáltatás használatával."
-" A WCPS lekérdezéseket átfordítjuk rasdaman lekérdezés lenyvre és "
-"végrehajtjuk a rasdaman-on. Ez  a gyorstalpaló bemutatja hogyan érjünk el és"
-" manipuláljunk egy minta 2D fedvényt a WCPS nyelv használatával."
+"statisztikai adat szűrését és feldolgozását web szolgáltatás használatával. "
+"A WCPS lekérdezéseket átfordítjuk rasdaman lekérdezés lenyvre és "
+"végrehajtjuk a rasdaman-on. Ez a gyorstalpaló bemutatja hogyan érjünk el és "
+"manipuláljunk egy minta 2D fedvényt a WCPS nyelv használatával."
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:31
 msgid "Contents"
@@ -65,9 +71,9 @@ msgid ""
 msgstr ""
 "Az első lépés mielőtt a következő lekérdezések bármelyikét kipróbálná a "
 "rasdaman és a Tomcat elindítása. Nyissa meg a *Databases* könyvtárat az "
-"asztalon és utána  *Start Rasdaman Server*. Hagyjon két-három percet a "
-"rasdaman-nak és különösen a a Tomcat-nek, hogy teljesen elinduljon (a "
-"`rasdaman web kliest <http://localhost:8080/rasdaman/ows>`_ a böngésző "
+"asztalon és utána *Start Rasdaman Server*. Hagyjon két-három percet a "
+"rasdaman-nak és különösen a a Tomcat-nek, hogy teljesen elinduljon (a `"
+"rasdaman web kliest <http://localhost:8080/rasdaman/ows>`_ a böngésző "
 "betöltse)."
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:42
@@ -189,10 +195,10 @@ msgid ""
 "is, the more likely it is plants. The WCPS query to derive NDVI from the "
 "coverage is as follows:"
 msgstr ""
-"Az NDVI (normalizált növényzet különbség index) egy  mérőszám, a növényzet "
+"Az NDVI (normalizált növényzet különbség index) egy mérőszám, a növényzet "
 "valószínűségére a távérzékelésben, azaz minél közelebb van a pixel +1-hez, "
-"annál valószínűbb, hogy a növényzet. A WCPS  lekérdezés az NDVI "
-"levezetéséhez a fedvényből a következő:"
+"annál valószínűbb, hogy a növényzet. A WCPS lekérdezés az NDVI levezetéséhez "
+"a fedvényből a következő:"
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:127
 msgid "What next?"
@@ -210,13 +216,13 @@ msgstr ""
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:130
 msgid ""
-"Learn more about the OGC  |WCPS| Language standard (which was heavily "
+"Learn more about the OGC |WCPS| Language standard (which was heavily "
 "inspired by rasdaman); a good starting point is the `documentation and "
-"tutorials page <https://standards.rasdaman.com/>`_  and `WCPS Query SandBox "
+"tutorials page <https://standards.rasdaman.com/>`_ and `WCPS Query SandBox "
 "<http://localhost/rasdaman-demo/demo/client/query-sandbox.html>`_."
 msgstr ""
 "Tanuljon meg többet az OGC |WCPS| nyelvi szabványról (melyet erősen "
-"inspirált a rasdaman); egy jó kezdőpont a  `dokumentáció és oktató oldalak "
+"inspirált a rasdaman); egy jó kezdőpont a `dokumentáció és oktató oldalak "
 "<http://standards.rasdaman.com/>`_ és a `WCPS lekérdezés homokozó "
 "<http://localhost/rasdaman-demo/demo/client/query-sandbox.html>`_."
 
@@ -236,7 +242,7 @@ msgid ""
 "about rasdaman administration, its query language, and data ingestion."
 msgstr ""
 "Fedezze fel a `rasdaman dokumentációt <https://doc.rasdaman.org>`_ , hogy "
-"megismerje a  rasdaman adminisztrációt, a lekérdező nyelvet, és az "
+"megismerje a rasdaman adminisztrációt, a lekérdező nyelvet, és az "
 "adatbetöltést."
 
 #: ../../build/doc/quickstart/rasdaman_quickstart.rst:135
@@ -247,23 +253,23 @@ msgid ""
 "forward to the `OGC standards showcase site "
 "<https://standards.rasdaman.com>`_ ."
 msgstr ""
-"Menjen a `több dimenziós menüre <http://localhost/rasdaman-demo>`_ az "
-"1-D-től 4-D-ig tartó rasdaman demókhoz. A kisebbek az OSGeoLive részei, azok"
-" melyek több adatotot használnak (a meghajtó kapacitást meghaladót) az `OGC "
-"szabványok bemutató oldalára  <https://standards.rasdaman.com>`_ tettük fel."
+"Menjen a `több dimenziós menüre <http://localhost/rasdaman-demo>`_ az 1-D-"
+"től 4-D-ig tartó rasdaman demókhoz. A kisebbek az OSGeoLive részei, azok "
+"melyek több adatotot használnak (a meghajtó kapacitást meghaladót) az `OGC "
+"szabványok bemutató oldalára <https://standards.rasdaman.com>`_ tettük fel."
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo közösség"

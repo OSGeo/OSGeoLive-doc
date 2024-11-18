@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -7,20 +7,26 @@
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"POT-Creation-Date: 2022-08-03 09:57+0000\n"
+"PO-Revision-Date: 2024-10-14 00:38+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"udig_quickstart/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
+
+#: ../../build/doc/quickstart/udig_quickstart.rst:14
+msgid ""
+"This project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgstr "Ez a projekt csak az OSGeoLive virtuális gépben (VMDK) található meg"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:20
 msgid "uDig Quickstart"
@@ -40,7 +46,7 @@ msgstr "Ez a gyorstalpaló leírja:"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:36
 msgid "load a map layers from a shapefile and |WMS|"
-msgstr "térképi rétegek betöltése shape fájlból és és |WMS|-ből"
+msgstr "térképi rétegek betöltése shape fájlból és |WMS|-ből"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:37
 msgid "use the standard map tools"
@@ -94,7 +100,7 @@ msgid ""
 "contents of the uDig workbench."
 msgstr ""
 "Kattintson a nyíllal megjelölt munkaasztalra a jobb-felső sarokban a uDig "
-"munkaasztal tartalmának  felfedéséhez."
+"munkaasztal tartalmának felfedéséhez."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:79
 msgid ""
@@ -113,8 +119,8 @@ msgid ""
 "The Workbench window offers multiple Editors (each showing a Map) and "
 "supporting Views (offering information about the current Map)."
 msgstr ""
-"A munkaasztal ablak többféle szerkesztőt  (mindegyik térképet jelenít meg) "
-"és segítő nézeteket (információt szolgáltat az aktuális térképről) biztosít"
+"A munkaasztal ablak többféle szerkesztőt (mindegyik térképet jelenít meg) és "
+"segítő nézeteket (információt szolgáltat az aktuális térképről) biztosít."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:90
 msgid "Shown above is a typical uDig session with the"
@@ -187,7 +193,7 @@ msgstr ":file:`ne_10m_admin_0_countries.shp`"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:118
 msgid "Press :guilabel:`Open`"
-msgstr "Nyomja meg az  :guilabel:`Open`-t"
+msgstr "Nyomja meg az :guilabel:`Open`-t"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:120
 msgid ""
@@ -222,7 +228,7 @@ msgid ""
 "`projects > ne 10m admin 0 countries`. You can have multiple projects open "
 "at a time, each project can have several maps."
 msgstr ""
-"A **Projects** nézetet frissítettük, hogy a térképét a  `projects > ne 10m "
+"A **Projects** nézetet frissítettük, hogy a térképét a `projects > ne 10m "
 "admin 0 countries`.-ban tároljuk. Egyszerre több projektet nyitva tarthat, "
 "minden egyes projekthez több térkép tartozhat."
 
@@ -296,7 +302,7 @@ msgstr "A |ZOOM| nagyító eszköz alapértelmezésben elérhető"
 #: ../../build/doc/quickstart/udig_quickstart.rst:169
 #: ../../build/doc/quickstart/udig_quickstart.rst:169
 msgid "ZOOM"
-msgstr ""
+msgstr "NAGYÍTÁS"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:171
 msgid ""
@@ -325,7 +331,7 @@ msgstr ""
 #: ../../build/doc/quickstart/udig_quickstart.rst:178
 #: ../../build/doc/quickstart/udig_quickstart.rst:178
 msgid "PAN"
-msgstr ""
+msgstr "ELTOLÁS"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:180
 msgid ""
@@ -341,25 +347,25 @@ msgstr ""
 #: ../../build/doc/quickstart/udig_quickstart.rst:184
 #: ../../build/doc/quickstart/udig_quickstart.rst:184
 msgid "SHOWALL"
-msgstr ""
+msgstr "MINDENT MUTAT"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:186
 msgid ""
 "|ZOOM_IN| Zoom In and |ZOOM_OUT| Zoom Out can be used to change the scale by"
 " a fixed amount."
 msgstr ""
-"|ZOOM_IN|  Zoom In és |ZOOM_OUT| Zoom Out használható a a méretarány fix "
+"|ZOOM_IN| Zoom In és |ZOOM_OUT| Zoom Out használható a a méretarány fix "
 "mértékkel módosításához."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:188
 #: ../../build/doc/quickstart/udig_quickstart.rst:188
 msgid "ZOOM_IN"
-msgstr ""
+msgstr "NAGYÍTÁS"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:189
 #: ../../build/doc/quickstart/udig_quickstart.rst:189
 msgid "ZOOM_OUT"
-msgstr ""
+msgstr "KICSINYÍTÉS"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:191
 msgid ""
@@ -372,12 +378,12 @@ msgstr ""
 #: ../../build/doc/quickstart/udig_quickstart.rst:194
 #: ../../build/doc/quickstart/udig_quickstart.rst:194
 msgid "BNAV"
-msgstr ""
+msgstr "BNAV"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:195
 #: ../../build/doc/quickstart/udig_quickstart.rst:195
 msgid "FNAV"
-msgstr ""
+msgstr "FNAV"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:197
 msgid ""
@@ -399,8 +405,8 @@ msgid ""
 "you can mix into your own maps."
 msgstr ""
 "Az egyik oka az olyan alkalmazásnak, mint uDig, hogy hozzáférjen az "
-"interneten elérhető  nagyszerű ingyenes térinformatikai adatokat. Ez a rész "
-"a webtérkép-kiszolgálók használatát ismerteti, amelyek saját térképeivel "
+"interneten elérhető nagyszerű ingyenes térinformatikai adatokat. Ez a rész a "
+"webtérkép-kiszolgálók használatát ismerteti, amelyek saját térképeivel "
 "keverhető rétegeket testnek elérhetővé."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:207
@@ -411,9 +417,9 @@ msgid ""
 " empty map."
 msgstr ""
 "Ha nem kapcsolódik az internetre, futtassa a |osgeolive-appmenupath-"
-"geoserver|-t egy helyi WMS-hez. A szkript egy  oldalt nyit meg a \"Service "
-"Capabilities\" fejezettel és két WMS szolgáltatás linkkel, melyeket behúzhat"
-" az üres térképébe."
+"geoserver|-t egy helyi WMS-hez. A szkript egy oldalt nyit meg a \"Service "
+"Capabilities\" fejezettel és két WMS szolgáltatás linkkel, melyeket behúzhat "
+"az üres térképébe."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:211
 msgid ""
@@ -423,16 +429,16 @@ msgid ""
 "You can also connect to Web Map Servers using the **Add Data** "
 "(:menuselection:`Layer --> Add...`) Wizard and paste WMS URL right there."
 msgstr ""
-"A WMS URL-t (pl. `WMS 1.1.1`_) kimásolhatja a jobb oldali `GeoServer Welcome"
-" page`_  panelból és beillesztheti vagy a **Map* nézetbe vagy a **Layers** "
+"A WMS URL-t (pl. `WMS 1.1.1`_) kimásolhatja a jobb oldali `GeoServer Welcome "
+"page`_ panelból és beillesztheti vagy a **Map* nézetbe vagy a **Layers** "
 "nézetbe. Egy varázsló mutatja meg önnek a a **Map**-be beilleszthető "
-"rétegeket.  Az **Add Data** (:menuselection:`Layer --> Add...`) varázsló "
+"rétegeket. Az **Add Data** (:menuselection:`Layer --> Add...`) varázsló "
 "segítségével Webes térkép szerverekhez is csatlakozhat és a WMS URL-t "
 "beillesztheti ide."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:216
 msgid "Select :menuselection:`File --> New --> New Map` from the menu bar"
-msgstr "Válassza a  :menuselection:`File --> New --> New Map`-et a menüsorból"
+msgstr "Válassza a :menuselection:`File --> New --> New Map`-et a menüsorból"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:218
 msgid ""
@@ -488,7 +494,7 @@ msgstr ""
 #: ../../build/doc/quickstart/udig_quickstart.rst:247
 #: ../../build/doc/quickstart/udig_quickstart.rst:247
 msgid "INFO"
-msgstr ""
+msgstr "INFO"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:249
 msgid ""
@@ -548,7 +554,7 @@ msgid ""
 "labeling`, and choose the attribute **NAME** from the list of attributes"
 msgstr ""
 "Címke: a :guilabel:`Labels` fülön jelölje be :guilabel:`enable/disable "
-"labeling` jelölőnégyzetet és válassza a  **NAME** attribútumot az "
+"labeling` jelölőnégyzetet és válassza a **NAME** attribútumot az "
 "attribútumok közül"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:271
@@ -574,9 +580,9 @@ msgid ""
 "the file containing the data. If such a |SLD| file exists, the style will be"
 " applied automatically."
 msgstr ""
-"Néhány fájl stílus beállításokat tartalmaz. A stílus beállítások az  "
-":file:`*.sld` kiterjesztésű fájlokban találhatók. A névnek meg kell egyeznie"
-" az adatokat tartalmazó fájléval. Ha olyan |SLD| fájl létezik a stílust "
+"Néhány fájl stílus beállításokat tartalmaz. A stílus beállítások az :file:`*."
+"sld` kiterjesztésű fájlokban találhatók. A névnek meg kell egyeznie az "
+"adatokat tartalmazó fájléval. Ha olyan |SLD| fájl létezik a stílust "
 "automatikusan alkalmazzuk."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:278
@@ -587,12 +593,11 @@ msgid ""
 "select different layers in turn to see the effect. You can turn off this "
 "effect at any time using :menuselection:`Map --> Mylar` from the menu bar."
 msgstr ""
-"Időnként nehéz követni mi történik túl sok részletet tartalmazó réteggel.  "
-"Hogy arra a feladatra koncentráljon amin dolgozni szeretne, kiválaszthatja a"
-" :menuselection:`Map --> Mylar`-t a menüsorból. A *Layer* nézet "
-"használatával válasszon ki különböző rétegeket, hogy lássa a hatást. "
-"Bármikor kikapcsolhatja ezt a hatást a :menuselection:`Map --> Mylar`-al a "
-"menüsorból."
+"Időnként nehéz követni mi történik túl sok részletet tartalmazó réteggel. "
+"Hogy arra a feladatra koncentráljon amin dolgozni szeretne, kiválaszthatja a "
+":menuselection:`Map --> Mylar`-t a menüsorból. A *Layer* nézet használatával "
+"válasszon ki különböző rétegeket, hogy lássa a hatást. Bármikor "
+"kikapcsolhatja ezt a hatást a :menuselection:`Map --> Mylar`-al a menüsorból."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:294
 msgid "Things to Try"
@@ -600,14 +605,14 @@ msgstr "Kipróbálandó dolgok"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:296
 msgid "Here are some additional challenges for you to try:"
-msgstr "Itt van néhány további kihívás önnek, hogy kipróbálja:"
+msgstr "Íme néhány további kipróbálandó kihívás önnek:"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:298
 msgid ""
 "Try viewing your own GIS map layers, or try adding a layer from a |WFS|"
 msgstr ""
-"Próbálja megnézni a saját GIS térképi rétegeit vagy próbáljon egy  |WFS|-ből"
-" rétegek hozzáadni"
+"Próbálja megnézni a saját GIS térképi rétegeit vagy próbáljon egy |WFS|-ből "
+"rétegek hozzáadni"
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:299
 msgid "Try styling the WFS layer."
@@ -624,7 +629,7 @@ msgid ""
 " documents."
 msgstr ""
 "Ez csak az első lépés az úton a uDig használatához. Még sokkal több "
-"felfedezendő nagyszerű anyag (és képesség)  maradt önnek a **walkthrough** "
+"felfedezendő nagyszerű anyag (és képesség) maradt önnek a **walkthrough** "
 "dokumentumainkban."
 
 #: ../../build/doc/quickstart/udig_quickstart.rst:309
@@ -660,18 +665,18 @@ msgstr ""
 msgid "Available on http://udig.refractions.net/"
 msgstr "Elérhető a http://udig.refractions.net/ címen"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo közösség"

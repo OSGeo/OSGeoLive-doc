@@ -1,14 +1,14 @@
-image: Visual Studio 2017
+image: Visual Studio 2022
 
 cache:
   - '%LOCALAPPDATA%\pip\Cache'
   - C:\strawberry
 
 environment:
-  VS_VERSION: Visual Studio 15 2017
+  VS_VERSION: Visual Studio 17 2022 # required for later CMake build
   matrix:
   - platform: x64
-    PYTHON: "C:\\Python37-x64"
+    PYTHON: "C:\\Python310-x64"
 
 matrix:
   fast_finish: true
@@ -20,7 +20,7 @@ install:
 
 build_script:
 
-  - if "%platform%" == "x64" call "C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/VC/Auxiliary/Build/vcvars64.bat"
+  - if "%platform%" == "x64" call "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Auxiliary/Build/vcvars64.bat"
   - "SET PATH=%PYTHON%;%PYTHON%\\Scripts;%PATH%"
 
   # using strawberryperl
@@ -47,7 +47,7 @@ deploy: off
 
 after_test:
   - cd %APPVEYOR_BUILD_FOLDER%
-  - 7z a osgeolive-doc.zip ./build/doc/_build/html/* > nul
+  - 7z a osgeolive-doc.zip ./build/_build/html/* > nul
 
 # Uncomment to enable debugging on the server
 #on_finish:

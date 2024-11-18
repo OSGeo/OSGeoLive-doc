@@ -1,25 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # Nicolas Roelandt (Personnel), 2022
-# 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2022\n"
-"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"PO-Revision-Date: 2024-10-14 14:30+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: French <https://weblate.osgeo.org/projects/osgeolive/"
+"zoo-project_quickstart/fr/>\n"
 "Language: fr\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:23
 msgid "Zoo Project Quickstart"
@@ -27,14 +29,13 @@ msgstr "Guide de démarrage de ZOO Project"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:25
 msgid ""
-"The ZOO-Project provides a developer friendly Web Processing Service (WPS) "
-"framework for creating and chaining Web Processing Services. A WPS provides "
-"web access to functions which run spatial algorithms."
+"The ZOO-Project provides a developer friendly Web Processing Service "
+"(WPS) framework for creating and chaining Web Processing Services. A WPS "
+"provides web access to functions which run spatial algorithms."
 msgstr ""
-"Le ZOO-projet fournit un cadre de développement facilité pour   pour la "
-"création et le chaînage de géotraitements par le Web (WPS - Web Processing "
-"Service). Un WPS fournit l’accès web aux fonctions qui exécutent des "
-"algorithmes spatiaux."
+"Le ZOO-projet fournit un cadre de développement facilité pour la création et "
+"le chaînage de géotraitements par le Web (WPS - Web Processing Service). Un "
+"WPS fournit l’accès web aux fonctions qui exécutent des algorithmes spatiaux."
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:30
 msgid "Contents"
@@ -45,28 +46,21 @@ msgid "Start ZOO-Project"
 msgstr "Démarrer ZOO-Project"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:35
-msgid ""
-"From the Start menu, select :menuselection:`Geospatial --> Web Services --> "
-"ZOO Project`."
+msgid "From the Start menu, select |menu_zoo-project|."
 msgstr ""
-"Dans le menu Démarrer, sélectionnez :menuselection:`Geospatial --> Web "
-"Services --> ZOO Project`."
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:37
 msgid ""
-"Firefox will open the ZOO Project demonstration landing page. From here, you"
-" can select a demon application."
+"Firefox will open the ZOO Project demonstration landing page. From here, "
+"you can select a demon application."
 msgstr ""
-"Firefox ouvrira la page de destination de démonstration de ZOO-Project. De "
-"là, vous pouvez sélectionner une application en arrière-plan."
+"Firefox ouvrira la page de destination de démonstration de ZOO-Project. "
+"De là, vous pouvez sélectionner une application en arrière-plan."
 
-#: ../../build/doc/quickstart/zoo-project_quickstart.rstNone
-#: ../../build/doc/quickstart/zoo-project_quickstart.rst:0
-#: ../../build/doc/quickstart/zoo-project_quickstart.rst:0
-#: ../../build/doc/quickstart/zoo-project_quickstart.rst:0
-#: ../../build/doc/quickstart/zoo-project_quickstart.rst:0
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:-1
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst
 msgid "screenshot"
-msgstr ""
+msgstr "capture d'écran"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:45
 msgid "OGR spatial tools demo"
@@ -74,8 +68,8 @@ msgstr "Démonstration d’outils spatiaux OGR"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:47
 msgid ""
-"On the ZOO Project demonstration landing page, click :guilabel:`view` on OGR"
-" spatial tools."
+"On the ZOO Project demonstration landing page, click :guilabel:`view` on "
+"OGR spatial tools."
 msgstr ""
 "Sur la page d’accueil et de démonstration de ZOO Project, cliquez sur "
 ":guilabel:`view` de l'onglet des outils spatiaux OGR."
@@ -83,12 +77,12 @@ msgstr ""
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:48
 msgid ""
 "Click on the map to select a feature from the :doc:`GeoServer "
-"<../overview/geoserver_overview>` WFS Server, the feature will be displayed "
-"in blue."
+"<../overview/geoserver_overview>` WFS Server, the feature will be "
+"displayed in blue."
 msgstr ""
 "Cliquez sur la carte pour sélectionner une entité du flux WFS servie par "
-":doc:`GeoServer <../overview/geoserver_overview>`, la fonctionnalité sera "
-"affichée en bleu."
+":doc:`GeoServer <../overview/geoserver_overview>`, la fonctionnalité sera"
+" affichée en bleu."
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:49
 msgid ""
@@ -100,14 +94,14 @@ msgstr ""
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:57
 msgid ""
-"Now select another feature near the first you've selected, then click on a "
-"multiple geometries process button like Union, Intersection, Symmetric "
+"Now select another feature near the first you've selected, then click on "
+"a multiple geometries process button like Union, Intersection, Symmetric "
 "Difference or Difference to get the result displayed in red on the map."
 msgstr ""
-"Maintenant, sélectionnez une autre entité près  de la première que vous avez"
-" sélectionné, puis cliquez sur plusieurs boutons de processus de géométries,"
-" par exemple : Union, Intersection, différence symétrique ou Différence pour"
-" obtenir le résultat affiché en rouge sur la carte."
+"Maintenant, sélectionnez une autre entité près de la première que vous "
+"avez sélectionné, puis cliquez sur plusieurs boutons de processus de "
+"géométries, par exemple : Union, Intersection, différence symétrique ou "
+"Différence pour obtenir le résultat affiché en rouge sur la carte."
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:65
 msgid "CGAL triangulations demo"
@@ -123,11 +117,11 @@ msgstr ""
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:68
 msgid ""
-"Press the Voronoi or Delaunay button to display on your map the result of "
-"the WPS service execution, as shown below."
+"Press the Voronoi or Delaunay button to display on your map the result of"
+" the WPS service execution, as shown below."
 msgstr ""
-"Appuyez sur le bouton Voronoi ou Delaunay pour afficher sur votre carte le "
-"résultat de l’exécution du service WPS, comme indiqué ci-dessous."
+"Appuyez sur le bouton Voronoi ou Delaunay pour afficher sur votre carte "
+"le résultat de l’exécution du service WPS, comme indiqué ci-dessous."
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:78
 msgid "OTB Applications demo"
@@ -135,8 +129,8 @@ msgstr "Démonstration avec les applications OTB"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:80
 msgid ""
-"On the ZOO Project demonstration landing page, click :guilabel:`view` on OTB"
-" application."
+"On the ZOO Project demonstration landing page, click :guilabel:`view` on "
+"OTB application."
 msgstr ""
 "Sur la page d’accueil et de démonstration de ZOO Project, cliquez sur "
 ":guilabel:`view` sur l’application OTB."
@@ -152,19 +146,20 @@ msgid ""
 "Once you have selected the values for your processing, press the "
 ":guilabel:`Execute` button at the bottom of the left form."
 msgstr ""
-"Une fois que vous avez paramétré les valeurs pour votre traitement, appuyez "
-"sur le bouton :guilabel:`Execute` en bas du formulaire gauche."
+"Une fois que vous avez paramétré les valeurs pour votre traitement, "
+"appuyez sur le bouton :guilabel:`Execute` en bas du formulaire gauche."
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:83
 msgid ""
-"If you chose image/png as the output format, you will see the result of your"
-" processing displayed on the map. You can see below a sample "
-"KMeansClassification execution when selecting the image/png output format."
+"If you chose image/png as the output format, you will see the result of "
+"your processing displayed on the map. You can see below a sample "
+"KMeansClassification execution when selecting the image/png output "
+"format."
 msgstr ""
 "Si vous avez choisi image/png comme format de sortie, vous verrez le "
 "résultat de votre traitement affiché sur la carte. Vous pouvez voir ci-"
-"dessous un exemple d’exécution de KMeansClassification avec la sélection du "
-"format de sortie image/png."
+"dessous un exemple d’exécution de KMeansClassification avec la sélection "
+"du format de sortie image/png."
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:93
 msgid "What next?"
@@ -176,30 +171,32 @@ msgstr "Vous pouvez accéder à des capacités du serveur ZOO WPS :"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:96
 msgid ""
-"http://localhost/cgi-bin/zoo_loader.cgi?Request=GetCapabilities&Service=WPS"
+"http://localhost/cgi-"
+"bin/zoo_loader.cgi?Request=GetCapabilities&Service=WPS"
 msgstr ""
-"http://localhost/cgi-bin/zoo_loader.cgi?Request=GetCapabilities&Service=WPS"
+"http://localhost/cgi-"
+"bin/zoo_loader.cgi?Request=GetCapabilities&Service=WPS"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:98
 msgid ""
 "For further questions you can contact the ZOO Project mailing list: zoo-"
 "discuss@lists.osgeo.org"
 msgstr ""
-"Pour toute autre question, vous pouvez contacter la liste de diffusion ZOO "
-"Project : zoo-discuss@lists.osgeo.org"
+"Pour toute autre question, vous pouvez contacter la liste de diffusion "
+"ZOO Project : zoo-discuss@lists.osgeo.org"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "Pas de logo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
-msgstr ""
+msgstr "Projet OSGeo"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
-msgstr ""
+msgstr "Communauté OSGeo"

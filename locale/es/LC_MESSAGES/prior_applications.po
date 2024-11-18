@@ -1,26 +1,29 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Debora Robles Perez <derobpe@gmail.com>, 2017
 # Vicky Vergara <vicky@georepublic.de>, 2022
+# Jose Vergara, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:02+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"POT-Creation-Date: 2022-08-04 08:50+0000\n"
+"PO-Revision-Date: 2024-10-14 01:31+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"prior_applications/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/prior_applications.rst:5
 msgid "Previously available applications"
@@ -56,21 +59,95 @@ msgstr "Descripción"
 #: ../../build/doc/prior_applications.rst:1
 #: ../../build/doc/prior_applications.rst:1
 #: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
 msgid "|nologo|"
 msgstr "|nologo|"
 
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr "nologo"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "LibLAS_"
+msgstr "LibLAS_"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <LibLAS_q_>`__"
+msgstr "'Inicio rápido <LibLAS_q_>`__"
+
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+msgid "13.0"
+msgstr "13.0"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "LiDAR Data Access"
+msgstr "Acceso a datos LiDAR"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "MapSlicer_"
+msgstr "MapSlicer_"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <MapSlicer_q_>`__"
+msgstr "'Inicio rápido <MapSlicer_q_>`__"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Create Map Tiles"
+msgstr "Crear mosaicos de mapas"
+
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+msgid "|osgeo_community|"
+msgstr "|osgeo_community|"
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr "OSGeo Comunitario"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Geomajas_"
+msgstr "Geomajas_"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <Geomajas_q_>`__"
+msgstr "'Inicio rápido <Geomajas_q_>`__"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Browser GIS Client"
+msgstr "Cliente GeoExplorer SIG"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "OSSIM_"
+msgstr "OSSIM_"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <OSSIM_q_>`__"
+msgstr "'Inicio rápido <OSSIM_q_>`__"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "11.0"
+msgstr "11.0"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Image Processing"
+msgstr "Procesamiento de Imágenes"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "`OGC Standards`_"
@@ -100,7 +177,7 @@ msgstr "Viking_"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "`QuickStart <Viking_q_>`__"
-msgstr "`QuickStart <Viking_q_>`__"
+msgstr "`Inicio Rápido <Viking_q_>`__"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "GPS Data Analysis and Viewer"
@@ -112,7 +189,7 @@ msgstr "Ushahidi_"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "`QuickStart <Ushahidi_q_>`__"
-msgstr "`QuickStart <Viking_q_>`__"
+msgstr "`Inicio Rápido <Ushahidi_q_>`__"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "Mapping and Timeline for events"
@@ -124,7 +201,7 @@ msgstr "TinyOWS_"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "`QuickStart <TinyOWS_q_>`__"
-msgstr " `QuickStart <TinyOWS_q_>`__"
+msgstr "`Guía rápida <TinyOWS_q_>`__"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "WFS-T Service"
@@ -180,7 +257,7 @@ msgstr "GeoKettle_"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "`QuickStart <GeoKettle_q_>`__"
-msgstr "`QuickStart <GeoKettle_q_>`__"
+msgstr "`Inicio Rápido <GeoKettle_q_>`__"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "ETL (Extract, Transform and Load) Tool"
@@ -192,7 +269,7 @@ msgstr "Sahana_"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "`QuickStart <Sahana_q_>`__"
-msgstr "`QuickStart <Sahana_q_>`__"
+msgstr "`Inicio Rápido <Sahana_q_>`__"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "Disaster management"
@@ -204,7 +281,7 @@ msgstr "`MB System`_"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "`QuickStart <MB System_q_>`__"
-msgstr "`QuickStart <MB System_q_>`__"
+msgstr "`Inicio Rápido <MB System_q_>`__"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "Sea Floor Mapping"
@@ -216,7 +293,7 @@ msgstr "Cartaro_"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "`QuickStart <Cartaro_q_>`__"
-msgstr "`QuickStart <Cartaro_q_>`__"
+msgstr "`Inicio Rápido <Cartaro_q_>`__"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "10.0"
@@ -232,7 +309,7 @@ msgstr "TileMill_"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "`QuickStart <TileMill_q_>`__"
-msgstr "`QuickStart <TileMill_q_>`__"
+msgstr "`Inicio Rápido <TileMill_q_>`__"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "9.5"
@@ -248,7 +325,7 @@ msgstr "GpsDrive_"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "`QuickStart <GpsDrive_q_>`__"
-msgstr "`QuickStart <GpsDrive_q_>`__"
+msgstr "`Inicio Rápido <GpsDrive_q_>`__"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "9.0"
@@ -264,7 +341,7 @@ msgstr "`Map Window`_"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "`QuickStart <Map Window_q_>`__"
-msgstr "`QuickStart <Map Window_q_>`__"
+msgstr "`Inicio Rápido <Map Window_q_>`__"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "8.0"
@@ -275,22 +352,12 @@ msgid "Microsoft Windows based Desktop GIS."
 msgstr "GIS de escritorio basadp en Microsoft Windows."
 
 #: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-msgid "|osgeo_project|"
-msgstr "|osgeo_project|"
-
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0
-msgid "OSGeo Project"
-msgstr "Proyecto OSGeo"
-
-#: ../../build/doc/prior_applications.rst:1
 msgid "MapFish_"
 msgstr "MapFish_"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "`QuickStart <MapFish_q_>`__"
-msgstr "`QuickStart <MapFish_q_>`__"
+msgstr "`Inicio Rápido <MapFish_q_>`__"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "7.9"
@@ -306,7 +373,7 @@ msgstr "52NorthWSS_"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "`QuickStart <52NorthWSS_>`__"
-msgstr "`QuickStart <52NorthWSS_>`__"
+msgstr "`Inicio Rápido <52NorthWSS_>`__"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "6.5"
@@ -343,7 +410,7 @@ msgstr "MapGuide_"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "`QuickStart <MapGuide_q_>`__"
-msgstr "`QuickStart <MapGuide_q_>`__"
+msgstr "`Inicio Rápido <MapGuide_q_>`__"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "5.0"
@@ -353,10 +420,10 @@ msgstr "5.0"
 msgid "Web Service"
 msgstr "Servicio Web"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-msgid "OSGeo Community"
-msgstr "OSGeo Comunitario"
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr "Proyecto OSGeo"

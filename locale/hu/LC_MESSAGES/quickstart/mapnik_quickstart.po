@@ -1,25 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
-# 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"PO-Revision-Date: 2023-06-24 20:08+0000\n"
+"Last-Translator: Zoltan Siki <siki@agt.bme.hu>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"mapnik_quickstart/hu/>\n"
 "Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:21
 msgid "Mapnik Quickstart"
@@ -27,9 +28,9 @@ msgstr "Mapnik gyorstalpaló"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:23
 msgid ""
-"Mapnik is an toolkit for developing mapping applications. Above all Mapnik "
-"is about making beautiful maps. It is easily extensible and suitable for "
-"both desktop and web development."
+"Mapnik is an toolkit for developing mapping applications. Above all "
+"Mapnik is about making beautiful maps. It is easily extensible and "
+"suitable for both desktop and web development."
 msgstr ""
 "A Mapnik egy eszközkészlet térképes alkalmazások fejlesztéséhez. "
 "Mindenekelőtt a Mapnik gyönyörű térképeket készít. Könnyen bővíthető és "
@@ -53,9 +54,9 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:34
 msgid ""
-"Creating maps in python is easy with Mapnik. Open a terminal window and type"
-" `python3` on the command line to enter a python interpreter. Then try "
-"this::"
+"Creating maps in python is easy with Mapnik. Open a terminal window and "
+"type `python3` on the command line to enter a python interpreter. Then "
+"try this::"
 msgstr ""
 "A Mapnikkal könnyű pythonból térképeket létrehozni. Nyisson egy terminál "
 "ablakot és gépelje be a parancssorba `python3`, a python értelmező "
@@ -65,23 +66,23 @@ msgstr ""
 msgid ""
 "import mapnik, os m = mapnik.Map(600,400) style = "
 "'/usr/local/share/mapnik/world_population.xml' mapnik.load_map(m,style) "
-"m.zoom_all() mapnik.render_to_file(m,'world_population.png') os.system('xdg-"
-"open world_population.png')"
+"m.zoom_all() mapnik.render_to_file(m,'world_population.png') os.system"
+"('xdg-open world_population.png')"
 msgstr ""
 "import mapnik, os m = mapnik.Map(600,400) style = "
 "'/usr/local/share/mapnik/world_population.xml' mapnik.load_map(m,style) "
-"m.zoom_all() mapnik.render_to_file(m,'world_population.png') os.system('xdg-"
-"open world_population.png')"
+"m.zoom_all() mapnik.render_to_file(m,'world_population.png') os.system"
+"('xdg-open world_population.png')"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:49
 msgid ""
 "The above code depends on having an XML stylesheet that Mapnik can read "
-"(world_population.xml), defining the layers to read data from and the styles"
-" to apply to those layers."
+"(world_population.xml), defining the layers to read data from and the "
+"styles to apply to those layers."
 msgstr ""
 "A fenti kód egy XML stíluslap meglététől függ, melyet a Mapnik olvasni tud "
 "(world_population.xml), a rétegek definíciója melyekből az adatok jönnek és "
-"azokhoz a rétegekhez alkalmazandó stílusok. "
+"azokhoz a rétegekhez alkalmazandó stílusok."
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:54
 msgid "Mapnik & MapProxy"
@@ -89,24 +90,22 @@ msgstr "Mapnik & MapProxy"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:56
 msgid ""
-"A basic demo application is available which demonstrates using Mapnik with "
-"MapProxy"
+"A basic demo application is available which demonstrates using Mapnik "
+"with MapProxy"
 msgstr ""
 "Egy alap demó alkalmazás rendelkezésre áll, mely bemutatja a Mapnik "
 "Maproxyval történő használatát"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:58
 msgid "The demo uses the world_population.xml from the Mapnik demo."
-msgstr "A demó a world_population.xml-t használja a Mapnik demóból"
+msgstr "A demó a world_population.xml-t használja a Mapnik demóból."
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:60
 msgid ""
-"Click :menuselection:`Geospatial --> Web Services --> MapProxy --> Start "
-"MapProxy`. The server starts in a terminal window (which stays open and "
-"outputs basic debugging information)."
+"Click |menu_mapnik|. The server starts in a terminal window (which stays "
+"open and outputs basic debugging information)."
 msgstr ""
-"Kattintson a :menuselection:`Geospatial --> Web Services --> MapProxy --> "
-"Start MapProxy`. menüpontra. A szerver egy terminál ablakban indul (mely "
+"Kattintson a |menu_mapnik|-re. A szerver egy terminál ablakban indul (mely "
 "nyitva marad és alap nyomkövetési információk jelennek meg benne)."
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:62
@@ -116,8 +115,8 @@ msgstr "Nyissa meg a MapProxy demó alkalmazást http://0.0.0.0:8011/demo/"
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:64
 msgid ""
 "You find the world population demo by Mapnik as a WMS layer and also the "
-"world population in combination with a the GeoServer layer topp:states (make"
-" sure GeoServer is running)"
+"world population in combination with a the GeoServer layer topp:states "
+"(make sure GeoServer is running)"
 msgstr ""
 "A Mapnik világ népesség demo-ját WMS-rétegként találja meg, és a világ "
 "népességet a GeoServer topp:states réteggel kombinálva is (győződjön meg "
@@ -125,11 +124,11 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:67
 msgid ""
-"You can use the MapProxy WMS in other applications for example in QGIS or in"
-" Mapbender (http://localhost/mapbender/application/mapbender_user)."
+"You can use the MapProxy WMS in other applications for example in QGIS or"
+" in Mapbender (http://localhost/mapbender/application/mapbender_user)."
 msgstr ""
-"Használhatja a MapProxy WMS-t más alkalmazásokban például a QGIS-ben vagy a "
-"Mapbender-ben (http://localhost/mapbender/application/mapbender_user)."
+"Használhatja a MapProxy WMS-t más alkalmazásokban például a QGIS-ben vagy"
+" a Mapbender-ben (http://localhost/mapbender/application/mapbender_user)."
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:70
 msgid "Observe the output in the server terminal window."
@@ -159,18 +158,18 @@ msgstr ""
 msgid "Visit the Mapnik website: https://mapnik.org"
 msgstr "Látogassa meg a Mapnik honlapot: https://mapnik.org"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo közösség"

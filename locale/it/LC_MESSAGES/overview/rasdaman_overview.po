@@ -1,0 +1,195 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2022, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# marcobra <marcobra.ubuntu@gmail.com>, 2021
+# Simone Falceri, 2022
+# Stefano Campus <skampus@gmail.com>, 2022
+# Luca Delucchi <lucadeluge@gmail.com>, 2022
+# 
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-08-03 09:57+0000\n"
+"PO-Revision-Date: 2017-09-20 16:08+0000\n"
+"Last-Translator: Luca Delucchi <lucadeluge@gmail.com>, 2022\n"
+"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: ../../build/doc/overview/rasdaman_overview.rst:19
+msgid "Rasdaman"
+msgstr "Rasdaman ·"
+
+#: ../../build/doc/overview/rasdaman_overview.rst:22
+msgid "Multi-Dimensional Big Data Analytics Engine"
+msgstr "Motore Multi-Dimensionale di Analisi dei Big Data"
+
+#: ../../build/doc/overview/rasdaman_overview.rst:24
+msgid ""
+"Rasdaman is an Array Database System which provides flexible, fast, scalable"
+" geo services for multi-dimensional spatio-temporal sensor, image, "
+"simulation, and statistics data of unlimited volume. Ad-hoc access, "
+"extraction, aggregation, as well as remix and analytics is enabled through a"
+" NewSQL raster query language with highly effective server-side "
+"optimization. Cloud/cluster parallelization is accomplished in a secure, "
+"administrator-controlled way."
+msgstr ""
+"Rasdaman è un Array Database System che fornisce servizi geografici "
+"flessibili, veloci e scalabili per sensori spazio-temporali "
+"multidimensionali, immagini, simulazioni e dati statistici di volume "
+"illimitato. L'accesso, l'estrazione, l'aggregazione, nonché il remix e "
+"l'analisi ad hoc sono abilitati tramite un linguaggio di query raster NewSQL"
+" con ottimizzazione lato server altamente efficace. La parallelizzazione "
+"cloud/cluster viene eseguita in modo sicuro e controllato "
+"dall'amministratore."
+
+#: ../../build/doc/overview/rasdaman_overview.rst:26
+msgid ""
+"In addition to the raster query language, rasdaman supports OGC's WMS, WCS "
+"and WCPS web service standards, as well as C++ and Java APIs. At "
+"https://standards.rasdaman.com a collection of interactive demos is "
+"available. A rasdaman driver is part of GDAL and MapServer."
+msgstr ""
+"Oltre al linguaggio di query raster, rasdaman supporta gli standard dei "
+"servizi Web WMS, WCS e WCPS di OGC, nonché le API C++ e Java. Al "
+"https://standards.rasdaman.com è disponibile una raccolta di demo "
+"interattive. Un driver rasdaman fà parte di GDAL e MapServer."
+
+#: ../../build/doc/overview/rasdaman_overview.rst:31
+msgid ""
+"Rasdaman has received a series of international innovation awards, among "
+"them the prestigeous European IT Prize and Geospatial Innovation Award. "
+"Technology is mature and stable, being in operational for more than ten "
+"years. Among the operators of rasdaman services are mapping agencies and "
+"climate data centers."
+msgstr ""
+"Rasdaman ha ricevuto una serie di premi internazionali per l'innovazione, "
+"tra cui il prestigioso European IT Prize e il Geospatial Innovation Award. "
+"La tecnologia è matura e stabile, essendo operativa da più di dieci anni. "
+"Tra gli operatori dei servizi rasdaman ci sono agenzie di mappatura e data "
+"center climatici."
+
+#: ../../build/doc/overview/rasdaman_overview.rstNone
+msgid "rasdaman screenshot"
+msgstr "screenshot di rasdaman"
+
+#: ../../build/doc/overview/rasdaman_overview.rst:40
+msgid "Core Features"
+msgstr "Caratteristiche principali"
+
+#: ../../build/doc/overview/rasdaman_overview.rst:42
+msgid "truly multi-dimensional - 1-D, 2-D, 3-D, 4-D, and beyond"
+msgstr "veramente multi-dimensionale - 1-D, 2-D, 3-D, 4-D e oltre"
+
+#: ../../build/doc/overview/rasdaman_overview.rst:43
+msgid ""
+"powerful, flexible query language for visualization, classification, "
+"convolution, aggregation, and many more geospatial functions"
+msgstr ""
+"linguaggio di query potente e flessibile per la visualizzazione, la "
+"classificazione, la convoluzione, l'aggregazione e molte altre funzioni "
+"geospaziali"
+
+#: ../../build/doc/overview/rasdaman_overview.rst:44
+msgid "spatial indexing and adaptive tiling for fast data access"
+msgstr ""
+"indicizzazione spaziale e tiling adattivo per un rapido accesso ai dati"
+
+#: ../../build/doc/overview/rasdaman_overview.rst:45
+msgid ""
+"parallelization and \"tile streaming\" for unlimited scalability from laptop"
+" to cluster and cloud"
+msgstr ""
+"parallelizzazione e \"tile streaming\" per una scalabilità illimitata da "
+"laptop a cluster e cloud"
+
+#: ../../build/doc/overview/rasdaman_overview.rst:46
+msgid ""
+"support for the raster-relevant OGC standards, Reference Implementation for "
+"WCS Core and WCPS"
+msgstr ""
+"supporto per gli standard OGC rilevanti per i raster, Implementazione di "
+"Riferimento per WCS Core e WCPS"
+
+#: ../../build/doc/overview/rasdaman_overview.rst:49
+msgid "Implemented Standards"
+msgstr "Standard implementati"
+
+#: ../../build/doc/overview/rasdaman_overview.rst:51
+msgid "OGC WMS 1.3, WCS 2.0, WCPS 1.0"
+msgstr "OGC WMS 1.3, WCS 2.0, WCPS 1.0"
+
+#: ../../build/doc/overview/rasdaman_overview.rst:54
+msgid "Details"
+msgstr "Dettagli"
+
+#: ../../build/doc/overview/rasdaman_overview.rst:56
+msgid "**Website:** https://rasdaman.org"
+msgstr "**Sito web:** https://rasdaman.org"
+
+#: ../../build/doc/overview/rasdaman_overview.rst:58
+msgid "**Licence:**"
+msgstr "**Licenza:**"
+
+#: ../../build/doc/overview/rasdaman_overview.rst:60
+msgid "clients and APIs: GNU Lesser General Public License (LGPL) version 3"
+msgstr "client e API: GNU Lesser General Public License (LGPL) versione 3"
+
+#: ../../build/doc/overview/rasdaman_overview.rst:61
+msgid "server engine: GNU General Public License (GPL) version 3"
+msgstr "motore server: GNU General Public License (GPL) versione 3"
+
+#: ../../build/doc/overview/rasdaman_overview.rst:63
+msgid "**Software Version:** |version-rasdaman|"
+msgstr "**Versione Software:** |version-rasdaman|"
+
+#: ../../build/doc/overview/rasdaman_overview.rst:65
+msgid "**Supported Platforms:** Linux, MacOS, Solaris"
+msgstr "**Piattaforme Supportate:** Linux, MacOS, Solaris"
+
+#: ../../build/doc/overview/rasdaman_overview.rst:67
+msgid "**API Interfaces:** rasql, C++, Java"
+msgstr "**Interfacce API:** rasql, C++, Java"
+
+#: ../../build/doc/overview/rasdaman_overview.rst:69
+msgid "**Support:** https://rasdaman.com"
+msgstr "** Supporto: ** https://rasdaman.com"
+
+#: ../../build/doc/overview/rasdaman_overview.rst:71
+msgid ""
+"This project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgstr ""
+"Questo progetto è incluso solo nel disco della macchina virtuale (VMDK) "
+"OSGeoLive"
+
+#: ../../build/doc/overview/rasdaman_overview.rst:74
+msgid "Quickstart"
+msgstr "Guida rapida"
+
+#: ../../build/doc/overview/rasdaman_overview.rst:76
+msgid ":doc:`Quickstart documentation <../quickstart/rasdaman_quickstart>`"
+msgstr ":doc:`Guida rapida <../quickstart/rasdaman_quickstart>`"
+
+#: ../../build/doc/<rst_epilog>:13
+msgid "vmdk"
+msgstr "vmdk"
+
+#: ../../build/doc/<rst_epilog>:16
+msgid "nologo"
+msgstr "nologo"
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr "Progetto OSGeo"
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr "Comunità OSGeo"

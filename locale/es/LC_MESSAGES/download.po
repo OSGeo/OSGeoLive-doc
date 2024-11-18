@@ -1,26 +1,28 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) 2011~2019, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2022
-# 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-11-07 03:17+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-02-15 20:42-0600\n"
+"PO-Revision-Date: 2023-07-31 19:39+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"download/es/>\n"
 "Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 4.16.4\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/download.rst:7
 msgid "Download"
@@ -28,100 +30,110 @@ msgstr "Descargar"
 
 #: ../../build/doc/download.rst:9
 msgid ""
-"The latest stable release is |osgeolive-version| and can be downloaded from:"
+"The latest stable release is |osgeolive-version| and can be downloaded "
+"from:"
 msgstr ""
-"La última versión estable es |osgeolive-version| y se puede descargar desde:"
+"La última versión estable es |osgeolive-version| y se puede descargar "
+"desde:"
 
 #: ../../build/doc/download.rst:11
 msgid ""
-"https://sourceforge.net/projects/osgeo-live/files/|osgeolive-version-only|/"
+"https://sourceforge.net/projects/osgeo-live/files/|osgeolive-version-"
+"only|/"
 msgstr ""
-"https://sourceforge.net/projects/osgeo-live/files/|osgeolive-version-only|/"
+"https://sourceforge.net/projects/osgeo-live/files/|osgeolive-version-"
+"only|/"
 
-#: ../../build/doc/download.rst:14
+#: ../../build/doc/download.rst:13
+msgid ""
+"https://download.osgeo.org/livedvd/releases/|osgeolive-version-only|/ "
+"(.vmdk)"
+msgstr ""
+"https://sourceforge.net/projects/osgeo-live/files/|osgeolive-version-only|/ ("
+".vmdk)"
+
+#: ../../build/doc/download.rst:16
 msgid "Picking the right image for you:"
 msgstr "Elegir la imagen correcta para usted:"
 
-#: ../../build/doc/download.rst:16
+#: ../../build/doc/download.rst:18
 msgid "**osgeolive iso**: |osgeolive-iso-size|"
 msgstr "**osgeolive iso**: |osgeolive-iso-size|"
 
-#: ../../build/doc/download.rst:18
+#: ../../build/doc/download.rst:20
 msgid ""
-"A Lubuntu based bootable image, which can be copied to an 8 Gig USB thumb "
-"drive (faster and recommended) or DVD (cheaper). It can also be used to "
+"A Lubuntu based bootable image, which can be copied to an 8 Gig USB thumb"
+" drive (faster and recommended) or DVD (cheaper). It can also be used to "
 "build a virtual machine from scratch."
 msgstr ""
-"Un Lubuntu basado en imagen de arranque, que puede copiarse a una  unidad "
+"Un Lubuntu basado en imagen de arranque, que puede copiarse a una unidad "
 "flash USB de 8 Gig (más rápido y recomendado) o DVD (más barato). También "
 "puede utilizarse para crear una máquina virtual desde cero."
 
-#: ../../build/doc/download.rst:20
+#: ../../build/doc/download.rst:22
 msgid "**osgeolive-vm**: |osgeolive-vm-7z-size|"
 msgstr "**osgeolive-vm**: |osgeolive-vm-7z-size|"
 
-#: ../../build/doc/download.rst:22
+#: ../../build/doc/download.rst:24
 msgid ""
-"This is a pre-made virtual machine (.vmdk), based on osgeolive, suitable for"
-" use in VirtualBox, VMWare, KVM and other virtual machine applications. It "
-"has been compressed using `7-Zip <https://www.7-zip.org/>`_."
+"This is a pre-made virtual machine (.vmdk), based on osgeolive, suitable "
+"for use in VirtualBox, VMWare, KVM and other virtual machine "
+"applications. It has been compressed using `7-Zip "
+"<https://www.7-zip.org/>`_."
 msgstr ""
 "Se trata de una máquina virtual pre-hecha (.vmdk), basada en osgeolive, "
-"conveniente para el uso en VirtualBox, VMWare, KVM y otras aplicaciones de "
-"la máquina virtual. Se ha comprimido con `7-Zip <https://www.7-zip.org/>`_."
-
-#: ../../build/doc/download.rst:24
-msgid "**amd64 or i386 architecture**"
-msgstr "**amd64 or i386 architecture**"
+"conveniente para el uso en VirtualBox, VMWare, KVM y otras aplicaciones "
+"de la máquina virtual. Se ha comprimido con `7-Zip "
+"<https://www.7-zip.org/>`_."
 
 #: ../../build/doc/download.rst:26
-msgid ""
-"ISO images are available for recent amd64 hardware (recommended) as well as "
-"older i386 hardware."
-msgstr ""
-"Imágenes ISO están disponibles para reciente hardware amd64 (recomendado) "
-"así como  hardware anteriores i386."
+msgid "**amd64 or i386 architecture**"
+msgstr "**Arquitectura amd64 or i386**"
 
 #: ../../build/doc/download.rst:28
+msgid ""
+"ISO images are available for recent amd64 hardware (recommended) as well "
+"as older i386 hardware."
+msgstr ""
+"Imágenes ISO están disponibles para reciente hardware amd64 (recomendado) "
+"así como hardware anteriores i386."
+
+#: ../../build/doc/download.rst:30
 msgid "**md5 checksum**"
 msgstr "**md5 checksum**"
 
-#: ../../build/doc/download.rst:30
-msgid ""
-"You can use the md5 checksum to verify the image downloaded successfully."
-msgstr ""
-"Puede utilizar la  checksum md5 para comprobar la imagen descargada con "
-"éxito."
-
 #: ../../build/doc/download.rst:32
-msgid "**System Requirements**"
+msgid "You can use the md5 checksum to verify the image downloaded successfully."
 msgstr ""
-"**System Requirements** \n"
-"** Requisitos del Sistema **"
+"Puede utilizar la checksum md5 para comprobar la imagen descargada con éxito."
 
 #: ../../build/doc/download.rst:34
-msgid ""
-"`Minimum suggested system resources: 1 GB RAM (2 GB are better for trying "
-"Java based applications), 1GHz i386 or amd64 compatible CPU. No hard drive "
-"required. Mac users will benefit from a 3-button USB mouse.`"
-msgstr ""
-"`Recursos del sistema mínimos sugeridos : 1 GB de RAM (2 GB son mejores para"
-" tratar aplicaciones Java basado), 1GHz CPU compatible i386 o amd64. No "
-"requerida de disco duro. Los usuarios de Mac se beneficiarán de un ratón USB"
-" de 3 botones .`"
+msgid "**System Requirements**"
+msgstr "**Requisitos del Sistema**"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/download.rst:36
+msgid ""
+"`Minimum suggested system resources: 1 GB RAM (2 GB are better for trying"
+" Java based applications), 1GHz i386 or amd64 compatible CPU. No hard "
+"drive required. Mac users will benefit from a 3-button USB mouse.`"
+msgstr ""
+"`Recursos del sistema mínimos sugeridos : 1 GB de RAM (2 GB son mejores "
+"para tratar aplicaciones Java basado), 1GHz CPU compatible i386 o amd64. "
+"No requerida de disco duro. Los usuarios de Mac se beneficiarán de un "
+"ratón USB de 3 botones .`"
+
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr "nologo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
 msgstr "Proyecto OSGeo"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr "OSGeo Comunitario"

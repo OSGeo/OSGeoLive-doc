@@ -1,21 +1,23 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-20 21:55-0500\n"
+"POT-Creation-Date: 2024-08-17 15:05-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.14.0\n"
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:21
 msgid "istSOS Quickstart"
@@ -76,9 +78,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:52
 msgid ""
-"Click :menuselection:`Geospatial --> Webservices --> istSOS` to open the "
-"Web Admin interface. Alternatively, open a browser and go to "
-"`<http://localhost/istsos/admin>`_"
+"Click |menu_istsos| to open the Web Admin interface. Alternatively, open "
+"a browser and go to `<http://localhost/istsos/admin>`_"
 msgstr ""
 
 #: ../../build/doc/quickstart/istsos_quickstart.rst:54
@@ -363,11 +364,11 @@ msgid ""
 "Documentation`_ and the `istSOS Tutorial`_."
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr ""
 

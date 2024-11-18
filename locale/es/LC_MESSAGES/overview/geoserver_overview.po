@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -7,20 +7,22 @@
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"POT-Creation-Date: 2022-07-13 22:52+0000\n"
+"PO-Revision-Date: 2024-09-02 00:20+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"geoserver_overview/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/geoserver_overview.rst:19
 msgid "GeoServer"
@@ -45,7 +47,7 @@ msgstr ""
 "GeoServer viene con una interfaz de administración basada en navegador y se "
 "conecta a múltiples fuentes de datos en el back-end."
 
-#: ../../build/doc/overview/geoserver_overview.rstNone
+#: ../../build/doc/overview/geoserver_overview.rst-1
 msgid "geoserver screenshot"
 msgstr "pantalla de geoserver"
 
@@ -67,11 +69,11 @@ msgstr "Shapefiles, WFS externos"
 
 #: ../../build/doc/overview/geoserver_overview.rst:42
 msgid "PostGIS, ArcSDE, DB2, Oracle Spatial, MySql, SQL Server"
-msgstr "Servidor de PostGIS, ArcSDE, DB2, Oracle Spatial, MySql, SQL "
+msgstr "Servidor de PostGIS, ArcSDE, DB2, Oracle Spatial, MySql, SQL"
 
 #: ../../build/doc/overview/geoserver_overview.rst:44
 msgid "Raster"
-msgstr "Raster"
+msgstr "Trama"
 
 #: ../../build/doc/overview/geoserver_overview.rst:44
 msgid ""
@@ -101,8 +103,8 @@ msgstr ""
 "Como los datos se muestran como una imagen, sus datos están completamente "
 "seguros. A menos que redigitalicen sus datos, no hay forma de robarlos. La "
 "apariencia de cada capa de mapa se puede controlar utilizando el estándar "
-"SLD que permite que las características se coloreen y etiqueten. Al combinar"
-" estas reglas con los filtros OGC,  un estilo dependiente de la escala se "
+"SLD que permite que las características se coloreen y etiqueten. Al combinar "
+"estas reglas con los filtros OGC, un estilo dependiente de la escala se "
 "puede implementar, lo que permite agregar más detalles a medida que el "
 "usuario amplía. También se implementan la gestión de colisiones de "
 "etiquetas, la agrupación y las prioridades."
@@ -190,8 +192,8 @@ msgid ""
 " processes, and using rendering transformations to create powerful "
 "visualisations through the WMS interface."
 msgstr ""
-"Algoritmos geoespaciales, incluidos los de :doc:`JTS <jts_overview>`,  puede"
-" ser invocado a través de la interfaz |WPS| de  GeoServer. Esto incluye el "
+"Algoritmos geoespaciales, incluidos los de :doc:`JTS <jts_overview>`,  puede "
+"ser invocado a través de la interfaz |WPS| de GeoServer. Esto incluye el "
 "encadenamiento de procesos y el uso de transformaciones de renderización "
 "para crear visualizaciones potentes a través de la interfaz WMS."
 
@@ -200,88 +202,88 @@ msgid "Implemented Standards"
 msgstr "Estándares implementados"
 
 #: ../../build/doc/overview/geoserver_overview.rst:69
-msgid "Support of numerous Open Geospatial Consortium  (OGC) standards:"
+msgid "Support of numerous Open Geospatial Consortium (OGC) standards:"
 msgstr ""
 "Apoyo de numerosos estándares del Consortium Abierto Geospatial (OGC):"
 
-#: ../../build/doc/overview/geoserver_overview.rst:73
+#: ../../build/doc/overview/geoserver_overview.rst:71
 msgid "|WMS| (client/server)"
 msgstr "|WMS| (cliente/servidor)"
 
-#: ../../build/doc/overview/geoserver_overview.rst:74
+#: ../../build/doc/overview/geoserver_overview.rst:72
 msgid "|WMTS|"
 msgstr "|WMTS|"
 
-#: ../../build/doc/overview/geoserver_overview.rst:75
+#: ../../build/doc/overview/geoserver_overview.rst:73
 msgid "|WFS| (transactional)"
 msgstr "|WFS| (transaccional)"
 
-#: ../../build/doc/overview/geoserver_overview.rst:76
+#: ../../build/doc/overview/geoserver_overview.rst:74
 msgid "|WCS|"
 msgstr "|WCS|"
 
-#: ../../build/doc/overview/geoserver_overview.rst:77
+#: ../../build/doc/overview/geoserver_overview.rst:75
 msgid "|FE|"
 msgstr "|FE|"
 
-#: ../../build/doc/overview/geoserver_overview.rst:78
+#: ../../build/doc/overview/geoserver_overview.rst:76
 msgid "|SLD|"
 msgstr "|SLD|"
 
-#: ../../build/doc/overview/geoserver_overview.rst:79
+#: ../../build/doc/overview/geoserver_overview.rst:77
 msgid "|GML|"
 msgstr "|GML|"
 
-#: ../../build/doc/overview/geoserver_overview.rst:80
+#: ../../build/doc/overview/geoserver_overview.rst:78
 msgid "|KML|"
 msgstr "|KML|"
 
-#: ../../build/doc/overview/geoserver_overview.rst:83
+#: ../../build/doc/overview/geoserver_overview.rst:81
 msgid "Details"
 msgstr "Detalles"
 
-#: ../../build/doc/overview/geoserver_overview.rst:85
-msgid "**Website:** http://geoserver.org/"
-msgstr "**Sitio web:** http://geoserver.org/"
+#: ../../build/doc/overview/geoserver_overview.rst:83
+msgid "**Website:** https://geoserver.org/"
+msgstr "**Sitio web:** https://geoserver.org/"
 
-#: ../../build/doc/overview/geoserver_overview.rst:87
+#: ../../build/doc/overview/geoserver_overview.rst:85
 msgid "**Licence:** GNU General Public License (GPL) version 2"
 msgstr "**Licencia:** GNU General Public License (GPL) version 2"
 
-#: ../../build/doc/overview/geoserver_overview.rst:89
+#: ../../build/doc/overview/geoserver_overview.rst:87
 msgid "**Software Version:** |version-geoserver|"
 msgstr "**Versión de software:** |version-geoserver|"
 
-#: ../../build/doc/overview/geoserver_overview.rst:91
+#: ../../build/doc/overview/geoserver_overview.rst:89
 msgid ""
 "**Supported Platforms:** Java 8 (Oracle JDK and OpenJDK) on Windows, Linux, "
 "and Mac"
 msgstr ""
-"**Plataformas compatibles:** Java 8 (Oracle JDK and OpenJDK)  en GNU/Linux, "
+"**Plataformas compatibles:** Java 8 (Oracle JDK and OpenJDK) en GNU/Linux, "
 "Mac OSX, MS Windows"
 
-#: ../../build/doc/overview/geoserver_overview.rst:93
+#: ../../build/doc/overview/geoserver_overview.rst:91
 msgid "**API Interfaces:** WMS, WFS, WCS, REST"
 msgstr "**Interfaces API:** WMS, WFS, WCS, REST"
 
-#: ../../build/doc/overview/geoserver_overview.rst:95
-msgid "**Support:** http://geoserver.org/support/"
-msgstr "**Soporte:** http://geoserver.org/support/"
+#: ../../build/doc/overview/geoserver_overview.rst:93
+msgid "**Support:** https://geoserver.org/support/"
+msgstr "**Soporte:** https://geoserver.org/support/"
 
-#: ../../build/doc/overview/geoserver_overview.rst:100
+#: ../../build/doc/overview/geoserver_overview.rst:98
 msgid "Quickstart"
 msgstr "Inicio Rápido"
 
-#: ../../build/doc/overview/geoserver_overview.rst:102
+#: ../../build/doc/overview/geoserver_overview.rst:100
 msgid ":doc:`Quickstart documentation <../quickstart/geoserver_quickstart>`"
 msgstr ""
-":doc:`Documentación de inicio rápido  <../quickstart/geoserver_quickstart>`"
+":doc:`Documentación de inicio rápido <../quickstart/geoserver_quickstart>`"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr "nologo"
 
@@ -289,6 +291,6 @@ msgstr "nologo"
 msgid "OSGeo Project"
 msgstr "Proyecto OSGeo"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr "OSGeo Comunitario"

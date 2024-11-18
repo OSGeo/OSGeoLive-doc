@@ -8,20 +8,21 @@
 # Vicky Vergara <vicky@georepublic.de>, 2019
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: MarPetra <mvergaratrejo@gmail.com>, 2020\n"
-"Language-Team: Finnish (https://www.transifex.com/osgeo/teams/66156/fi/)\n"
+"PO-Revision-Date: 2024-10-14 14:30+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Finnish <https://weblate.osgeo.org/projects/osgeolive/"
+"qgis_overview/fi/>\n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fi\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/qgis_overview.rst:20
 msgid "QGIS"
@@ -114,8 +115,8 @@ msgid ""
 "most vector formats: including ESRI shapefiles, MapInfo, SDTS and GML, "
 "OpenStreetMap vectors"
 msgstr ""
-"yleisimmät vektoriformaatit mukaanlukien ESRI shape-, MapInfo-, SDTS- ja "
-"GML- sekä OpenStreetMap-tiedostot "
+"yleisimmät vektoriformaatit mukaanlukien ESRI shape-, MapInfo-, SDTS- ja GML-"
+" sekä OpenStreetMap-tiedostot"
 
 #: ../../build/doc/overview/qgis_overview.rst:53
 msgid ""
@@ -218,11 +219,11 @@ msgstr "tuetut OGC-standardit (WMS, WFS...)"
 
 #: ../../build/doc/overview/qgis_overview.rst:83
 msgid "Details"
-msgstr "Lisätiedot."
+msgstr "Lisätiedot"
 
 #: ../../build/doc/overview/qgis_overview.rst:85
-msgid "**Website:** https://www.qgis.org/en/site/"
-msgstr "**Verkkosivusto:** https://www.qgis.org/en/site/"
+msgid "**Website:** https://www.qgis.org/"
+msgstr "**Verkkosivusto:** https://www.qgis.org/"
 
 #: ../../build/doc/overview/qgis_overview.rst:87
 msgid "**Licence:** GNU General Public License (GPL) version 2"
@@ -243,10 +244,10 @@ msgstr "**Yhteisön tuki:** https://qgis.org/en/site/forusers/support.html"
 #: ../../build/doc/overview/qgis_overview.rst:95
 msgid ""
 "**Commercial Support:** "
-"https://qgis.org/en/site/forusers/commercial_support.html"
+"https://qgis.org/en/site/resources/support/commercial-support"
 msgstr ""
 "**Kaupallinen tuki:** "
-"https://qgis.org/en/site/forusers/commercial_support.html"
+"https://qgis.org/en/site/resources/support/commercial-support"
 
 #: ../../build/doc/overview/qgis_overview.rst:101
 msgid "Quickstart"
@@ -255,7 +256,7 @@ msgstr "Lähtöohjeistus"
 #: ../../build/doc/overview/qgis_overview.rst:103
 msgid ":doc:`Quickstart documentation <../quickstart/qgis_quickstart>`"
 msgstr ""
-":doc:`Lähtöohjeistuksen dokumentaatio  <../quickstart/qgis_quickstart>`"
+":doc:`Lähtöohjeistuksen dokumentaatio <../quickstart/qgis_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"

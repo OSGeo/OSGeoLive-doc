@@ -26,10 +26,10 @@ This Quick Start describes how to:
 .. contents:: Contents
    :local:
 
-Start T-Rex 
+Start T-Rex
 ============
 
-Choose :menuselection:`Geospatial --> Web Services --> T-Rex` from the menu.
+Choose |menu_t-rex|.
 
 This starts t-rex in zero-config mode connecting to PostGIS database `osm_local`. A browser window is opened showing the t-rex backend.
 
@@ -48,7 +48,7 @@ t-rex comes with built-in viewers for inspecting generated vector tiles.
   .. image:: /images/projects/t-rex/backend-x-ray.png
    :scale: 50 %
 
-Try also the other viewers. 
+Try also the other viewers.
 
 .. note:: The Mapbox GL viewer and Maputnik require WebGL support, which is probably not available when running OSGeoLive in a VM.
 

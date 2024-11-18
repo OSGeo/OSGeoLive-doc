@@ -1,29 +1,36 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
 # Translators:
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2018
 # Gregor Engelmann <shl00913@myport.ac.uk>, 2018
 # Markus Neteler <neteler@osgeo.org>, 2019
-# Vicky Vergara <vicky@georepublic.de>, 2020
 # Astrid Emde <astrid_emde@osgeo.org>, 2022
-# 
-#, fuzzy
+# Vicky Vergara <vicky@georepublic.de>, 2022
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2022\n"
-"Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"PO-Revision-Date: 2024-10-14 15:25+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
+"52nsos_quickstart/de/>\n"
 "Language: de\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:13
+msgid ""
+"This project is only included on the OSGeoLive virtual machine disk "
+"(VMDK)"
+msgstr "Das Projekt ist nur Teil der OSGeoLive Virtuelle Maschine Disk (VMDK)"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:19
 msgid "52 North SOS Quickstart"
@@ -34,21 +41,21 @@ msgid ""
 "The 52°North SOS is a Web service, that enables interoperable access to "
 "(spatial) observation data and associated metadata."
 msgstr ""
-"Der 52°North SOS Webservice ermöglicht den vollständig kompatiblen Zugriff "
-"und die Bereitstellung von (raumbezogenen) Sensordaten. Dies umfasst sowohl "
-"Messwerte als auch zugehörige Metadaten."
+"Der 52°North SOS Webservice ermöglicht den vollständig kompatiblen "
+"Zugriff und die Bereitstellung von (raumbezogenen) Sensordaten. Dies "
+"umfasst sowohl Messwerte als auch zugehörige Metadaten."
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:24
 msgid "This Quick Start describes how to:"
-msgstr "Dieses Quickstart-Dokument umfasst:"
+msgstr "Dieser Quickstart beschreibt, wie Sie:"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:26
 msgid ""
-"Query the 52°North SOS Capabilities to determine what queries it supports "
-"and which data it offers."
+"Query the 52°North SOS Capabilities to determine what queries it supports"
+" and which data it offers."
 msgstr ""
-"Abfrage der 52°North SOS-Fähigkeiten, um festzustellen, welche Abfragen sie "
-"unterstützt und welche Daten sie anbietet."
+"Abfrage der 52°North SOS-Fähigkeiten, um festzustellen, welche Abfragen "
+"sie unterstützt und welche Daten sie anbietet."
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:27
 msgid "Query details about an observation from the SOS."
@@ -56,8 +63,8 @@ msgstr "Beispiel-Anfrage um Messdaten des SOS abzurufen."
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:28
 msgid ""
-"Use the lightweight visualisation tool \"Helgoland\" delivered with the SOS "
-"to explore the available data."
+"Use the lightweight visualisation tool \"Helgoland\" delivered with the "
+"SOS to explore the available data."
 msgstr ""
 "Informationen zur Datenvisualisierung in einem einfachen, mit dem SOS "
 "mitgelieferten Viewer \"Helgoland\"."
@@ -77,12 +84,8 @@ msgid "Getting Started"
 msgstr "Erste Schritte"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:38
-msgid ""
-"Select :menuselection:`Geospatial --> Web Services --> 52North --> Start "
-"52North SOS` to start the 52°North SOS."
+msgid "Select :|menu_52nSOS-Start| to start the 52°North SOS."
 msgstr ""
-"Rufen Sie :menuselection:`Geospatial --> Web Services --> 52North --> Start "
-"52North SOS` auf."
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:48
 msgid "This will open the 52°North SOS client welcome page in firefox at"
@@ -92,7 +95,7 @@ msgstr ""
 msgid "http://localhost:8080/52nSOS/ (see Fig. 1)."
 msgstr ""
 
-#: ../../build/doc/quickstart/52nSOS_quickstart.rst:0
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst
 msgid "52°North SOS client welcome page"
 msgstr ""
 
@@ -110,13 +113,14 @@ msgid ""
 "document, you can adjust the available example queries."
 msgstr ""
 
-#: ../../build/doc/quickstart/52nSOS_quickstart.rstNone
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:-1
 msgid "52°North SOS client - test client with GetCapabilities request"
 msgstr ""
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:61
 msgid ""
-"**Fig. 2**: 52°North SOS client - test client with GetCapabilities request."
+"**Fig. 2**: 52°North SOS client - test client with GetCapabilities "
+"request."
 msgstr ""
 "**Abb. 2**: 52°North SOS Anwendung - Test Client mit GetCapabilities-"
 "Anfrage."
@@ -124,17 +128,17 @@ msgstr ""
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:63
 msgid ""
 "To get the available observation data within the time interval from "
-"2018-07-02T23:45:00.000+00:00 to 2018-07-04T23:45:00.000+00:00 for each time"
-" series, insert the following request after selecting "
-":menuselection:`**service** SOS --> **version** 2.0.0 --> **binding** SOAP "
-"--> **operation** GetObservation` in the `test client's "
+"2018-07-02T23:45:00.000+00:00 to 2018-07-04T23:45:00.000+00:00 for each "
+"time series, insert the following request after selecting "
+":menuselection:`**service** SOS --> **version** 2.0.0 --> **binding** "
+"SOAP --> **operation** GetObservation` in the `test client's "
 "<http://localhost:8080/52nSOS/client>`_ request field:"
 msgstr ""
 "Um die Sensordaten innerhalb des Zeitintervals vom "
 "2018-07-02T23:45:00.000+00:00 to 2018-07-04T23:45:00.000+00:00 für jede "
 "Zeitreihe zu bekommen, setzte die folgende Anfrage nach der Auswahl ein "
-":menuselection:`**service** SOS --> **version** 2.0.0 --> **binding** SOAP "
-"--> **operation** GetObservation` in the `test client's "
+":menuselection:`**service** SOS --> **version** 2.0.0 --> **binding** "
+"SOAP --> **operation** GetObservation` in the `test client's "
 "<http://localhost:8080/52nSOS/client>`_ request field:"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:98
@@ -158,17 +162,19 @@ msgid ""
 "Try the `SOS administrator <http://localhost:8080/52nSOS/admin/index>`_ "
 "using username :code:`user` and password :code:`user`."
 msgstr ""
-"Probiere den `SOS administrator <http://localhost:8080/52nSOS/admin/index>`_"
-" mit dem Nutzernamen :code:`user` und dem Passwort :code:`user`."
+"Probiere den `SOS administrator "
+"<http://localhost:8080/52nSOS/admin/index>`_ mit dem Nutzernamen "
+":code:`user` und dem Passwort :code:`user`."
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:108
 msgid ""
 "Try Helgoland - the `Viewer Client "
-"<http://localhost:8080/52nSOS/static/client/helgoland/#/map>`_ (see Fig. 3)."
+"<http://localhost:8080/52nSOS/static/client/helgoland/#/map>`_ (see Fig. "
+"3)."
 msgstr ""
 "Probieren Sie den `Viewer Client "
-"<http://localhost:8080/52nSOS/static/client/helgoland/#/map>`_ von Helgoland"
-" (sh. Abb. 3)."
+"<http://localhost:8080/52nSOS/static/client/helgoland/#/map>`_ von "
+"Helgoland (sh. Abb. 3)."
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:109
 msgid "Try other sample data by performing the following steps:"
@@ -186,8 +192,9 @@ msgstr ""
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:112
 msgid ""
-"Empty the database using the \"Clear Datasource\" button (this will delete "
-"the example data. You can restart OSGeoLive to get the data back.)."
+"Empty the database using the \"Clear Datasource\" button (this will "
+"delete the example data. You can restart OSGeoLive to get the data "
+"back.)."
 msgstr ""
 "Leeren Sie die Datanbank mit dem \"Clear Datasource\"-Knopf\" (Dadurch "
 "werden die initialen Beispiel-Daten gelöscht. Sie können OSGeoLive "
@@ -209,26 +216,26 @@ msgid ""
 "<http://localhost:8080/52nSOS/static/client/helgoland/#/map>`_ again and "
 "explore the generated sample data."
 msgstr ""
-"Öffnen Sie `helgoland <http://localhost:8080/52nSOS/static/client/helgoland/#/map>`_\n"
-" erneut und erkunden Sie die erzeugten Beispieldaten."
+"Öffnen Sie `helgoland <http://localhost:8080/52nSOS/static/client/helgoland/"
+"#/map>`_ erneut und erkunden Sie die erzeugten Beispieldaten."
 
-#: ../../build/doc/quickstart/52nSOS_quickstart.rstNone
+#: ../../build/doc/quickstart/52nSOS_quickstart.rst:-1
 msgid "52°North SOS client - JavaScript client with time series data"
 msgstr ""
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:125
-msgid ""
-"**Fig. 3**: 52°North SOS client - JavaScript client with time series data."
+msgid "**Fig. 3**: 52°North SOS client - JavaScript client with time series data."
 msgstr ""
-"**Abb. 3**: 52°North SOS Anwendung - JavaScript-Client mit Zeitreihendaten."
+"**Abb. 3**: 52°North SOS Anwendung - JavaScript-Client mit "
+"Zeitreihendaten."
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:127
 msgid ""
 "Try the `Sensor Web REST API <http://localhost:8080/52nSOS/api/>`_ (see "
 "Listing 2):"
 msgstr ""
-"Probiere die `Sensor Web REST API <http://localhost:8080/52nSOS/api/>`_ aus "
-"(siehe Listing 2): "
+"Probiere die `Sensor Web REST API <http://localhost:8080/52nSOS/api/>`_ aus ("
+"siehe Listing 2):"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:184
 msgid "**Listing 2:** Output of Sensor Web REST API endpoint."
@@ -243,8 +250,8 @@ msgid ""
 "To learn more about the 52°North SOS and/or the 52°North Sensor Web "
 "Community, potential starting points are:"
 msgstr ""
-"Weitere Informationen über den 52°North SOS und/oder 52°North erhalten Sie "
-"über folgende Wege:"
+"Weitere Informationen über den 52°North SOS und/oder 52°North erhalten "
+"Sie über folgende Wege:"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:193
 msgid "52°North :doc:`SOS overview <../overview/52nSOS_overview>`"
@@ -255,17 +262,17 @@ msgid "52°North Sensor Web mailing list: sensorweb@52north.org"
 msgstr "52°North Sensor Web Mailing Liste: sensorweb@52north.org"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:195
+#, fuzzy
 msgid ""
-"52°North `Sensor Web community <https://52north.org/research/research-"
-"labs/sensor-web/>`_"
+"52°North `Sensor Web community <https://52north.org/research/scope"
+"/geospatial-sensing/>`_"
 msgstr ""
 "52°North `Sensor Web community <https://52north.org/research/research-"
 "labs/sensor-web/>`_"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:196
-msgid ""
-"52°North `SOS Client <https://sensorweb.demo.52north.org/sensorwebclient-"
-"webapp-stable/>`_"
+#, fuzzy
+msgid "52°North `SOS Client <https://sensorweb.demo.52north.org>`__"
 msgstr ""
 "52°North `SOS-Client <https://sensorweb.demo.52north.org/sensorwebclient-"
 "webapp-stable/>`_"
@@ -281,8 +288,8 @@ msgstr ""
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:199
 msgid ""
 "The development of this version of the 52°North SOS was supported by "
-"different projects, organizations, and persons. More details can be found in"
-" the `52°North SOS client <http://localhost:8080/52nSOS/index>`_."
+"different projects, organizations, and persons. More details can be found"
+" in the `52°North SOS client <http://localhost:8080/52nSOS/index>`_."
 msgstr ""
 "Die Entwicklung dieser Version des 52°North SOS wurde durch "
 "verschiedeneProjekte, Organisationen und Personen unterstützt. Mehr "
@@ -291,42 +298,40 @@ msgstr ""
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:203
 msgid ""
-"We would like to thank the Belgian Interregional Environment Agency (`IRCEL "
-"- CELINE <https://www.irceline.be/en/>`_) for providing the demonstration "
-"data used in this SOS installation. The demo data are published under a |CC "
-"BY 3.0| license."
+"We would like to thank the Belgian Interregional Environment Agency "
+"(`IRCEL - CELINE <https://www.irceline.be/en/>`_) for providing the "
+"demonstration data used in this SOS installation. The demo data are "
+"published under a |CC BY 3.0| license."
 msgstr ""
 "Wir möchten der belgischen belgischen Interregional Environment Agency "
-"(`IRCEL - CELINE <https://www.irceline.be/de/>`_)  für die Bereitstellung "
-"der Demodaten dieser SOS-Installation danken. Die Demo-Daten sind unter "
+"(`IRCEL - CELINE <https://www.irceline.be/de/>`_) für die Bereitstellung"
+" der Demodaten dieser SOS-Installation danken. Die Demo-Daten sind unter "
 "einer |CC BY 3.0| veröffentlicht."
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:209
 msgid ""
-"When the SOS is not available, please check if the tomcat servlet engine is "
-"running. Use the following commands:"
+"When the SOS is not available, please check if the tomcat servlet engine "
+"is running. Use the following commands:"
 msgstr ""
 "Sollte der SOS nicht erreichbar sein, so prüfen Sie bitte mit folgendem "
 "Befehl, ob der Tomcat Web Service-Container läuft:"
 
 #: ../../build/doc/quickstart/52nSOS_quickstart.rst:221
-msgid ""
-"**Listing 3:** Tomcat Status and Start (password for sudo: :code:`user`)."
-msgstr ""
-"**Listing 3:** Tomcat Status und Start (Passwort für sudo: :code:`user`)."
+msgid "**Listing 3:** Tomcat Status and Start (password for sudo: :code:`user`)."
+msgstr "**Listing 3:** Tomcat Status und Start (Passwort für sudo: :code:`user`)."
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Community"

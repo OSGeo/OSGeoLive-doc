@@ -5,22 +5,24 @@
 # 
 # Translators:
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2017
-# Nicolas Roelandt (Personnel), 2020
+# Nicolas Roelandt (Personnel), 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:08+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2020\n"
-"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
+"PO-Revision-Date: 2024-10-14 14:30+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: French <https://weblate.osgeo.org/projects/osgeolive/"
+"nc_dataset_overview/fr/>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:14
 msgid "North Carolina USA Educational dataset"
@@ -62,8 +64,8 @@ msgstr ""
 #: ../../build/doc/overview/nc_dataset_overview.rst:29
 msgid "South-west Wake County with raster data at resolutions 30m-10m; and"
 msgstr ""
-"données raster à la résolution de de 30m-10m sur le comté de South-west Wake"
-" ; et"
+"données raster à la résolution de 30m-10m sur le comté de South-west Wake ; "
+"et"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:31
 msgid ""
@@ -86,7 +88,7 @@ msgid ""
 "data, specifically selected to cover the wide needs of teaching introductory"
 " GIS courses and providing examples for software help pages and tutorials."
 msgstr ""
-"Couches de données  cartographiques raster, vecteur, et KML avec des données"
+"Couches de données cartographiques raster, vecteur, et KML avec des données"
 " complètes à l'échelle du comté et de l'état, spécialement sélectionnées "
 "pour couvrir des besoins larges de cours de formation d'introduction aux SIG"
 " et fournissant des exemples pour les pages d'aide de logiciel et de "
@@ -177,16 +179,16 @@ msgstr "**Support:** https://lists.osgeo.org/mailman/listinfo/geodata"
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "Pas de logo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "Projet OSGeo"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "Communauté OSGeo"

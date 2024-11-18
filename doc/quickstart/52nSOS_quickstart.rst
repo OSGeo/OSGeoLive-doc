@@ -1,4 +1,4 @@
-﻿:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org)
+:Author: Eike Hinderk Jürrens (e.h.juerrens@52north.org)
 :Author: Simon Jirka (s.jirka@52north.org)
 :Author: Ann Hitchcock (a.hitchcock@52north.org)
 :Reviewer: Felicity Brand (Google Season of Docs 2019)
@@ -32,7 +32,7 @@ This Quick Start describes how to:
 Getting Started
 ===============
 
-1. Select :menuselection:`Geospatial --> Web Services --> 52North --> Start 52North SOS` to start the 52°North SOS.
+1. Select :|menu_52nSOS-Start| to start the 52°North SOS.
 
 This will open the 52°North SOS client welcome page in firefox at
    http://localhost:8080/52nSOS/ (see Fig. 1).
@@ -189,9 +189,9 @@ potential starting points are:
 
 * 52°North :doc:`SOS overview <../overview/52nSOS_overview>`
 * 52°North Sensor Web mailing list: sensorweb@52north.org
-* 52°North `Sensor Web community <https://52north.org/research/research-labs/sensor-web/>`_
-* 52°North `SOS Client <https://sensorweb.demo.52north.org/sensorwebclient-webapp-stable/>`_
-* 52°North `SOS Web site <https://52north.org/software/software-projects/sos>`_
+* 52°North `Sensor Web community <https://52north.org/research/scope/geospatial-sensing/>`_
+* 52°North `SOS Client <https://sensorweb.demo.52north.org>`__
+* 52°North `SOS Web site <https://52north.org/research/scope/research-data-infrastructures/>`_
 
 The development of this version of the 52°North SOS was supported by different
 projects, organizations, and persons. More details can be found in the

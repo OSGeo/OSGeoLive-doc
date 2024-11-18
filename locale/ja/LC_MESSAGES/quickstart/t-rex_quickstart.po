@@ -1,26 +1,27 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2020
-# Ko Nagase <nagase@georepublic.co.jp>, 2021
-# 
-#, fuzzy
+# Ko Nagase <nagase@georepublic.co.jp>, 2022
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2019-07-18 21:56+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"PO-Revision-Date: 2024-11-02 13:09+0000\n"
+"Last-Translator: Ko Nagase <geosanak@gmail.com>\n"
+"Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
+"t-rex_quickstart/ja/>\n"
 "Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.4.3\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:20
 msgid "t-rex Quickstart"
@@ -28,8 +29,8 @@ msgstr "t-rexクイックスタート"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:22
 msgid ""
-"t-rex is a vector tile server specialized on publishing MVT tiles from your "
-"own data."
+"t-rex is a vector tile server specialized on publishing MVT tiles from "
+"your own data."
 msgstr "t-rexは、独自のデータからMVTタイルを配信することに特化したベクタタイルサーバです。"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:24
@@ -38,8 +39,8 @@ msgstr "このクイックスタートでは、次の方法について説明し
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:26
 msgid ""
-"generate vector tiles without configuration and inspect them with built-in "
-"viewers"
+"generate vector tiles without configuration and inspect them with built-"
+"in viewers"
 msgstr "設定なしでベクタタイルを生成し、組み込みビューアで検査する"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:27
@@ -48,16 +49,15 @@ msgstr "タイルキャッシュの生成"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:30
 msgid "Contents"
-msgstr ""
+msgstr "目次"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:33
 msgid "Start T-Rex"
 msgstr "T-Rexを起動"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:35
-msgid ""
-"Choose :menuselection:`Geospatial --> Web Services --> T-Rex` from the menu."
-msgstr "メニューから :menuselection:`Geospatial --> Web Services --> T-Rex` を選択します。"
+msgid "Choose |menu_t-rex|."
+msgstr "|menu_t-rex| を選択してください."
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:37
 msgid ""
@@ -72,13 +72,13 @@ msgid "Built-in viewers"
 msgstr "組み込みビューア"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:46
-msgid ""
-"t-rex comes with built-in viewers for inspecting generated vector tiles."
+msgid "t-rex comes with built-in viewers for inspecting generated vector tiles."
 msgstr "t-rexには、生成されたベクタタイルを検査するためのビューアが組み込まれています。"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:48
 msgid ""
-"Click on th `X-Ray` entry in the upper right menu to open the x-ray viewer."
+"Click on th `X-Ray` entry in the upper right menu to open the x-ray "
+"viewer."
 msgstr "右上のメニューの `X-Ray` をクリックして、x-ray ビューアを開きます。"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:49
@@ -91,10 +91,9 @@ msgstr "他のビューアも試してください。"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:56
 msgid ""
-"The Mapbox GL viewer and Maputnik require WebGL support, which is probably "
-"not available when running OSGeoLive in a VM."
-msgstr ""
-"Mapbox GLビューアとMaputnikにはWebGLサポートが必要ですが、VMでOSGeoLiveを実行している場合はおそらく利用できません。"
+"The Mapbox GL viewer and Maputnik require WebGL support, which is "
+"probably not available when running OSGeoLive in a VM."
+msgstr "Mapbox GLビューアとMaputnikにはWebGLサポートが必要ですが、VMでOSGeoLiveを実行している場合はおそらく利用できません。"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:60
 msgid "Cache seeding"
@@ -105,23 +104,22 @@ msgid "Close the browser and the terminal window running t-rex."
 msgstr "ブラウザを閉じ、t-rexを実行しているターミナルウィンドウを閉じます。"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:63
-msgid ""
-"Open any text editor (e.g. :menuselection:`Accessories --> FeatherPad`)."
+msgid "Open any text editor (e.g. :menuselection:`Accessories --> FeatherPad`)."
 msgstr "任意のテキストエディタを開きます(例: :menuselection:`アクセサリ --> FeatherPad`)。"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:65
 msgid ""
 "Create the file \"ne.toml\" in your home directory: "
 ":file:`/home/user/ne.toml`"
-msgstr "ファイル \"ne.toml\" をホームディレクトリ: :file:`/home/user/ne.toml` に作成します。"
+msgstr "ファイル \"ne.toml\" をホームディレクトリ: :file:`/home/user/ne.toml` "
+"に作成して下さい"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:68
 msgid "Put the following content in it::"
 msgstr "次の内容を入力します::"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:111
-msgid ""
-"Open a terminal (:menuselection:`System Tools --> LXTerminal`) and type::"
+msgid "Open a terminal (:menuselection:`System Tools --> LXTerminal`) and type::"
 msgstr "端末を開き(:menuselection:`System Tools --> LXTerminal`)、次を入力します::"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:115
@@ -130,20 +128,21 @@ msgstr "生成されたタイルを検査するには、次のように入力し
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:121
 msgid "What next?"
-msgstr "次のステップ"
+msgstr "次のステップは何?"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:123
 msgid ""
-"To create your own map viewer you can use the snippets on the info page in "
-"the t-rex backend."
+"To create your own map viewer you can use the snippets on the info page "
+"in the t-rex backend."
 msgstr "独自のマップビューアを作成するには、t-rexバックエンドのinfoページにあるスニペットを使用します。"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:125
 msgid ""
-"After that you can use the built-in Maputnik editor (also linked from the "
-"info page) to create your own Mapbox GL Json style."
+"After that you can use the built-in Maputnik editor (also linked from the"
+" info page) to create your own Mapbox GL Json style."
 msgstr ""
-"その後、組み込みのMaputnikエディター(infoページからもリンク)を使って、独自のMapbox GL Jsonスタイルを作成することができます。"
+"その後、組み込みのMaputnikエディター(infoページからもリンク)を使って、独自のMapbox GL "
+"Jsonスタイルを作成することができます。"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:128
 msgid "Website: https://t-rex.tileserver.ch/"
@@ -153,18 +152,18 @@ msgstr "ウェブサイト: https://t-rex.tileserver.ch/"
 msgid "Support: https://github.com/t-rex-tileserver/t-rex/"
 msgstr "サポート: https://github.com/t-rex-tileserver/t-rex/"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "ロゴなし"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo プロジェクト"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo コミュニティ"

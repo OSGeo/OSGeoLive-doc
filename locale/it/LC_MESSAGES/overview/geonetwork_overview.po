@@ -7,7 +7,7 @@
 # Luca Delucchi <lucadeluge@gmail.com>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # Marco Minghini <marco.minghini86@gmail.com>, 2021
-# Stefano Campus <skampus@gmail.com>, 2021
+# Stefano Campus <skampus@gmail.com>, 2022
 # 
 #, fuzzy
 msgid ""
@@ -16,7 +16,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
 "PO-Revision-Date: 2017-09-20 16:07+0000\n"
-"Last-Translator: Stefano Campus <skampus@gmail.com>, 2021\n"
+"Last-Translator: Stefano Campus <skampus@gmail.com>, 2022\n"
 "Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -46,7 +46,7 @@ msgstr ""
 
 #: ../../build/doc/overview/geonetwork_overview.rstNone
 msgid "geonetwork screenshot"
-msgstr ""
+msgstr "screenshot di geonetwork"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:32
 msgid "Core Features"
@@ -104,7 +104,7 @@ msgstr ""
 
 #: ../../build/doc/overview/geonetwork_overview.rst:40
 msgid "Fine-grained access control"
-msgstr "controllo di accesso raffinato"
+msgstr "Controllo di accesso raffinato"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:41
 msgid "Group and user management"
@@ -116,7 +116,7 @@ msgstr "interfaccia utente multi-lingua"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:45
 msgid "Implemented Standards"
-msgstr "Standards implementati"
+msgstr "Standard implementati"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:47
 msgid "OGC Catalogue Service-Web (CSW) 2.0.2 ISO"
@@ -184,16 +184,16 @@ msgstr ":doc:`Guida rapida <../quickstart/geonetwork_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "Progetto OSGeo"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "Comunità OSGeo"

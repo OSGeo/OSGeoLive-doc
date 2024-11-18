@@ -6,20 +6,21 @@
 # Translators:
 # Astrid Emde <astrid_emde@osgeo.org>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2021-02-07 00:37+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2022\n"
-"Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
+"PO-Revision-Date: 2023-03-29 19:22+0000\n"
+"Last-Translator: Astrid Emde <astrid.emde@posteo.de>\n"
+"Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
+"xygrib_quickstart/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:18
 msgid "XyGrib Quickstart"
@@ -103,7 +104,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/xygrib_quickstart.rst:41
 msgid ""
-"Again,  mark out a box of interest with a left-click drag, but this time "
+"Again, mark out a box of interest with a left-click drag, but this time "
 "covering most or all of the zoomed-in map canvas."
 msgstr ""
 "Ziehen Sie erneut einen Bereich mit einem Linksklick-Ziehen auf, das jedoch "
@@ -161,7 +162,7 @@ msgid ""
 "select :menuselection:`Weather map --> Cloud cover` and the view should "
 "change."
 msgstr ""
-"Wählen Sie im Menü ``Weather map``  eine Variable aus, die visualisiert "
+"Wählen Sie im Menü ``Weather map`` eine Variable aus, die visualisiert "
 "werden soll. Wählen Sie beispielsweise :menuselection:`Wetterkarte --> "
 "Wolkenabdeckung` und die Ansicht sollte sich ändern."
 
@@ -237,7 +238,7 @@ msgid ""
 " GRIB file. See the :doc:`OpenCPN quickstart "
 "<../quickstart/opencpn_quickstart>` for details."
 msgstr ""
-"Die :doc:`OpenCPN Software <../overview/opencpn_overview>`  (auch auf "
+"Die :doc:`OpenCPN Software <../overview/opencpn_overview>` (auch auf "
 "OSGeoLive) hat ein GRIB-Overlay-Plugin, das Sie mit Ihrer neu "
 "heruntergeladenen GRIB-Datei ausprobieren können. Details finden Sie im "
 ":doc:`OpenCPN Quickstart <../quickstart/opencpn_quickstart>`."
@@ -252,16 +253,16 @@ msgstr "Support: https://opengribs.org/en/support-forum"
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Community"

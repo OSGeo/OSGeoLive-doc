@@ -1,0 +1,122 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2022, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 17.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-08-17 15:05-0600\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: fr\n"
+"Language-Team: fr <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../build/doc/quickstart/odc_quickstart.rst:20
+msgid "Open Data Cube Quickstart"
+msgstr ""
+
+#: ../../build/doc/quickstart/odc_quickstart.rst:22
+msgid ""
+"The Open Data Cube Core provides an integrated gridded data analysis "
+"environment for decades of analysis ready earth observation satellite and"
+" related data from multiple satellite and other acquisition systems."
+msgstr ""
+
+#: ../../build/doc/quickstart/odc_quickstart.rst:30
+msgid "This Open Data Cube tutorial section"
+msgstr ""
+
+#: ../../build/doc/quickstart/odc_quickstart.rst:28
+msgid "use Jupyter Notebook to examine data"
+msgstr ""
+
+#: ../../build/doc/quickstart/odc_quickstart.rst:29
+msgid "basic command line tools"
+msgstr ""
+
+#: ../../build/doc/quickstart/odc_quickstart.rst:33
+msgid "Contents"
+msgstr ""
+
+#: ../../build/doc/quickstart/odc_quickstart.rst:36
+msgid "Analyze a Base Map"
+msgstr ""
+
+#: ../../build/doc/quickstart/odc_quickstart.rst:38
+msgid ""
+"As our input dataset we will use Prizren from esa_worldview_2021 land use"
+" / landcover dataset;"
+msgstr ""
+
+#: ../../build/doc/quickstart/odc_quickstart.rst:40
+msgid "Start:"
+msgstr ""
+
+#: ../../build/doc/quickstart/odc_quickstart.rst:42
+msgid "Open menu Geospatial : Spatial Tools : Jupyter Notebook;"
+msgstr ""
+
+#: ../../build/doc/quickstart/odc_quickstart.rst:44
+msgid ""
+"On the Jupyter Home page, click to open folder OpenDataCube, click to "
+"open Notebook, choose \"Run All\" from the kernel menu."
+msgstr ""
+
+#: ../../build/doc/quickstart/odc_quickstart.rst:47
+msgid ""
+"For a quick look at a base data file, open a terminal and use the GDAL "
+"command `gdalinfo`:"
+msgstr ""
+
+#: ../../build/doc/quickstart/odc_quickstart.rst:57
+msgid "Things to try"
+msgstr ""
+
+#: ../../build/doc/quickstart/odc_quickstart.rst:60
+msgid "Datacube core commands quickstart :"
+msgstr ""
+
+#: ../../build/doc/quickstart/odc_quickstart.rst:78
+msgid "`TODO tutorial <tutorial>`"
+msgstr ""
+
+#: ../../build/doc/quickstart/odc_quickstart.rst:81
+msgid "What next?"
+msgstr ""
+
+#: ../../build/doc/quickstart/odc_quickstart.rst:83
+msgid "Documentation: https://datacube-core.readthedocs.io/en/stable/"
+msgstr ""
+
+#: ../../build/doc/quickstart/odc_quickstart.rst:84
+msgid "Website: https://www.opendatacube.org"
+msgstr ""
+
+#: ../../build/doc/quickstart/odc_quickstart.rst:85
+msgid "Support: https://www.opendatacube.org/faq"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:13
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:16
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Community"
+msgstr ""
+

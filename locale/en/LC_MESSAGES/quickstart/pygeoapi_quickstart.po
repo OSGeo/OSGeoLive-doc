@@ -1,21 +1,23 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2024-08-17 15:05-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.14.0\n"
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:23
 msgid "pygeoapi Quickstart"
@@ -108,9 +110,9 @@ msgstr ""
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:60
 msgid ""
-"Interesting datasets to expose as OAPI-Features consist of real world "
-"data having multiple attributes and links to other resources. OSGeoLive "
-"contains a number of datasets we can use. An example is "
+"Interesting datasets to expose as OGC API - Features consist of real "
+"world data having multiple attributes and links to other resources. "
+"OSGeoLive contains a number of datasets we can use. An example is "
 "``/var/www/html/openlayers/examples/data/geojson/countries.geojson``. You"
 " can configure it in pygeoapi using the GeoJSON provider."
 msgstr ""
@@ -121,26 +123,26 @@ msgstr ""
 
 #: ../../build/doc/quickstart/pygeoapi_quickstart.rst:66
 msgid ""
-"Update pygeoapi-config.yml to add ``countries`` as a new collection to "
-"pygeoapi (insert snippet below between the other collections. Mind the "
-"nesting, nesting is important in YAML syntax)."
+"Update ``pygeoapi-config.yml`` to add ``countries`` as a new collection "
+"to pygeoapi (insert snippet below between the other collections. Mind the"
+" nesting, nesting is important in YAML syntax)."
 msgstr ""
 
-#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:68
+#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:92
 msgid "Restart pygeoapi"
 msgstr ""
 
-#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:93
+#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:94
 msgid ""
 "Verify the collection is available via your browser at "
 "http://localhost:5000/collections/countries"
 msgstr ""
 
-#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:96
+#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:97
 msgid "Using a web browser to query the API"
 msgstr ""
 
-#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:98
+#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:99
 msgid ""
 "Now that we have the service available we can query it using various "
 "client tooling. Each of the features of the collection is available in "
@@ -151,26 +153,26 @@ msgid ""
 "are using a web browser and will return the HTML representation of "
 "features. Notice in the top right corner explicit links to override the "
 "accept header and request specific representations of the feature "
-"(?f=geojson)."
+"(``?f=json``)."
 msgstr ""
 
-#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:101
+#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:102
 msgid ""
-"Each Open API has an interactive documentation page at  "
+"Each Open API has an interactive documentation page at "
 "http://localhost:5000/openapi. In this interactive webpage you can read "
 "about the various methods in the service, but also directly interact with"
 " them via web forms."
 msgstr ""
 
-#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:106
+#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:107
 msgid ""
-"OGC API’s have been developed with the `spatial data on the web best "
-"practices <https://w3c.github.io/sdw/bp/#bp-summary>`_ in mind. An "
-"important aspect of these best practices is search engine optimization. "
-"Pygeoapi adds some crawl optimizations on top of the requirements of the "
-"Open API standards; Collection metadata can be crawled by search engines "
-"in a structured way, with the goal to make the collections discoverable "
-"in tools like Google Dataset Search. To evaluate the structured data "
+"OGC API’s have been developed with the `W3C Spatial Data on the Web Best "
+"Practices <https://www.w3.org/TR/sdw-bp>`_ in mind. An important aspect "
+"of these best practices is search engine optimization. Pygeoapi adds some"
+" crawl optimizations on top of the requirements of the Open API "
+"standards; collection metadata can be crawled by search engines in a "
+"structured way, with the goal to make the collections discoverable in "
+"tools like Google Dataset Search. To evaluate the structured data "
 "capabilities you can use the Structured Data Testing tools of Yandex or "
 "Google. Copy the html source of the countries collection page (or the url"
 " of a collection page of an online pygeoapi instance) into a structured "
@@ -179,46 +181,45 @@ msgid ""
 "datasets index."
 msgstr ""
 
-#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:109
-msgid "Using OAPI-Features in Desktop GIS"
+#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:110
+msgid "Using OGC API - Features in Desktop GIS"
 msgstr ""
 
-#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:111
+#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:112
 msgid ""
 "In this quickstart we use QGIS to query the service, but similar workflow"
 " is possible in other GIS tooling, e.g. ArcGIS, FME, OpenLayers."
 msgstr ""
 
-#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:113
+#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:114
 msgid ""
-"Starting from QGIS 3.14 you can add an OAPI-Features layer as vector "
-"layer. From the ``add layer`` menu select ``Add WFS / OAPI-Features "
-"layer``."
+"Starting from QGIS 3.14 you can add an OGC API - Features layer as vector"
+" layer. From the ``Layer / Add Layer`` menu select ``Add WFS Layer...``."
 msgstr ""
 
-#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:118
+#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:119
 msgid ""
 "On the window that opens create a new connection, enter the url to the "
 "service http://localhost:5000."
 msgstr ""
 
-#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:120
+#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:121
 msgid ""
 "Click Ok, and then ``connect`` to load the available collections in the "
 "service."
 msgstr ""
 
-#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:125
+#: ../../build/doc/quickstart/pygeoapi_quickstart.rst:126
 msgid ""
 "Select the ``countries`` collection and click ‘Add’ to add the layer in "
 "the QGIS map."
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr ""
 

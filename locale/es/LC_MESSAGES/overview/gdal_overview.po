@@ -7,20 +7,22 @@
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"PO-Revision-Date: 2024-09-01 23:50+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"gdal_overview/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/gdal_overview.rst:18
 msgid "GDAL/OGR"
@@ -36,19 +38,20 @@ msgid ""
 "utilities to translate and process a wide range of raster and vector "
 "geospatial data formats."
 msgstr ""
-"La Biblioteca de Abstracción de Datos Geoespaciales (GDAL / OGR) proporciona"
-" utilidades de línea de comandos para traducir y procesar una amplia gama de"
-"  formatos de datos geoespaciales  ráster y vectoriales."
+"La Biblioteca de Abstracción de Datos Geoespaciales (GDAL / OGR) proporciona "
+"utilidades de línea de comandos para traducir y procesar una amplia gama de "
+"formatos de datos geoespaciales ráster y vectoriales."
 
 #: ../../build/doc/overview/gdal_overview.rst:27
 msgid ""
 "The utilities are based upon a cross platform, C++ library, accessible via "
-"numerous programming languages.  As a library, it presents a single abstract"
+"numerous programming languages. As a library, it presents a single abstract"
 " data model to the calling application for all supported formats."
 msgstr ""
-"The utilities are based upon a cross platform, C++ library, accessible via "
-"numerous programming languages.  As a library, it presents a single abstract"
-" data model to the calling application for all supported formats."
+"Las utilidades se basan en una biblioteca C++ multiplataforma, accesible a "
+"través de numerosos lenguajes de programación. Como biblioteca, presenta un "
+"único modelo de datos abstractos a la aplicación que llama para todos los "
+"formatos admitidos."
 
 #: ../../build/doc/overview/gdal_overview.rst:31
 msgid ""
@@ -105,12 +108,12 @@ msgstr ""
 
 #: ../../build/doc/overview/gdal_overview.rst:52
 msgid "Popular Supported Formats"
-msgstr "Formatos Popularmente Compatibles "
+msgstr "Formatos Popularmente Compatibles"
 
 #: ../../build/doc/overview/gdal_overview.rst:54
 msgid "GDAL supports over 140 raster formats, and OGR over 80 vector formats."
 msgstr ""
-"GDAL soporta  más de 140 formatos ráster  y OGR con más de 80 formatos de "
+"GDAL soporta más de 140 formatos ráster y OGR con más de 80 formatos de "
 "vector."
 
 #: ../../build/doc/overview/gdal_overview.rst:56
@@ -137,7 +140,7 @@ msgstr ""
 
 #: ../../build/doc/overview/gdal_overview.rst:62
 msgid "Implemented Standards"
-msgstr "Estándares Implementados"
+msgstr "Estándares implementados"
 
 #: ../../build/doc/overview/gdal_overview.rst:64
 msgid ""
@@ -169,7 +172,7 @@ msgstr "**Versión de software:** |version-gdal|"
 
 #: ../../build/doc/overview/gdal_overview.rst:75
 msgid "**Supported Platforms:** Windows, Linux, Mac"
-msgstr "**Plataformas compatibles:** GNU/Linux, Mac OSX, MS Windows"
+msgstr "**Plataformas compatibles:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/gdal_overview.rst:77
 msgid "**API Interfaces:** C, C++, Python, Java, C#, Ruby, VB6 and Perl"

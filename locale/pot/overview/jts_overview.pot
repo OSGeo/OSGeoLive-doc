@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2024-08-17 15:05-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,7 @@ msgid "JTS"
 msgstr ""
 
 #: ../../build/doc/overview/jts_overview.rst:16
-msgid "JTS is an open source library of spatial predicates and functions for processing geometries.  It provides a complete, consistent, and robust implementation of fundamental algorithms for processing linear geometry on the 2-dimensional Cartesian plane."
+msgid "JTS is an open source library of spatial predicates and functions for processing geometries. It provides a complete, consistent, and robust implementation of fundamental algorithms for processing linear geometry on the 2-dimensional Cartesian plane."
 msgstr ""
 
 #: ../../build/doc/overview/jts_overview.rst:20
@@ -29,7 +29,7 @@ msgid "JTS includes the \"JTS Test Builder\" which allows users to run tests and
 msgstr ""
 
 #: ../../build/doc/overview/jts_overview.rst:24
-msgid "JTS is used by most java based Open Source geospatial applications, and :doc:`geos_overview`, which is a C++ port of JTS, is used by most C based applications.  Additional ports are available for C# and JavaScript."
+msgid "JTS is used by most java based Open Source geospatial applications, and :doc:`geos_overview`, which is a C++ port of JTS, is used by most C based applications. Additional ports are available for C# and JavaScript."
 msgstr ""
 
 #: ../../build/doc/overview/jts_overview.rst:None
@@ -128,11 +128,11 @@ msgstr ""
 msgid "**Support:** https://sourceforge.net/projects/jts-topo-suite/"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr ""
 

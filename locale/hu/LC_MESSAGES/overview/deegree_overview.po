@@ -1,36 +1,37 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Vicky Vergara <vicky@georepublic.de>, 2020
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:09+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"POT-Creation-Date: 2022-07-27 11:42+0000\n"
+"PO-Revision-Date: 2024-10-14 00:38+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"deegree_overview/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
 
-#: ../../build/doc/overview/deegree_overview.rst:20
+#: ../../build/doc/overview/deegree_overview.rst:21
 msgid "deegree"
 msgstr "deegree"
 
-#: ../../build/doc/overview/deegree_overview.rst:23
+#: ../../build/doc/overview/deegree_overview.rst:24
 msgid "About"
 msgstr "Névjegy"
 
-#: ../../build/doc/overview/deegree_overview.rst:26
+#: ../../build/doc/overview/deegree_overview.rst:27
 msgid ""
 "deegree provides geospatial webservices based upon |OGC| and `INSPIRE "
 "Network Services <https://inspire.ec.europa.eu>`_ specifications. deegree "
@@ -40,76 +41,84 @@ msgstr ""
 " Network Services <https://inspire.ec.europa.eu>`_ specifikációra alapozva. "
 "A degree támogatja a következőket:"
 
-#: ../../build/doc/overview/deegree_overview.rst:28
+#: ../../build/doc/overview/deegree_overview.rst:30
 msgid "|WFS|: Serves vector data from geospatial data"
 msgstr "|WFS|: téradatokból vektor adat szolgáltatás"
 
-#: ../../build/doc/overview/deegree_overview.rst:29
+#: ../../build/doc/overview/deegree_overview.rst:31
 msgid "|WMS|: Serves maps rendered from geospatial data"
-msgstr "|WMS|: téradatokból kirajzolt  térkép szolgáltatása"
+msgstr "|WMS|: téradatokból kirajzolt térkép szolgáltatása"
 
-#: ../../build/doc/overview/deegree_overview.rst:30
+#: ../../build/doc/overview/deegree_overview.rst:32
 msgid "|WMTS|: Serves pre-rendered map tiles"
 msgstr "|WMTS|: előre kirajzolt térképcsempék szolgáltatása"
 
-#: ../../build/doc/overview/deegree_overview.rst:31
+#: ../../build/doc/overview/deegree_overview.rst:33
 msgid "|CSW|: Performs searches for geospatial datasets and services"
 msgstr "|CSW|: Téradatok és szolgáltatások keresése"
 
-#: ../../build/doc/overview/deegree_overview.rst:32
+#: ../../build/doc/overview/deegree_overview.rst:34
 msgid "|WPS|: Executes geospatial processes"
 msgstr "|WPS|: térinformatikai feldolgozás végrehajtása"
 
 #: ../../build/doc/overview/deegree_overview.rstNone
 msgid "deegree screenshot"
-msgstr ""
+msgstr "deegree képernyőképek"
 
-#: ../../build/doc/overview/deegree_overview.rst:41
+#: ../../build/doc/overview/deegree_overview.rst:43
 msgid "Core Features"
 msgstr "Alapfunkciók"
 
-#: ../../build/doc/overview/deegree_overview.rst:43
+#: ../../build/doc/overview/deegree_overview.rst:45
 msgid "**WFS**"
 msgstr "**WFS**"
 
-#: ../../build/doc/overview/deegree_overview.rst:45
+#: ../../build/doc/overview/deegree_overview.rst:47
 msgid "Implements WFS standards 1.0.0, 1.1.0 and 2.0.0"
 msgstr "WFS 1.0.0, 1.1.0 és 2.0.0szabványok implementálása"
 
-#: ../../build/doc/overview/deegree_overview.rst:46
+#: ../../build/doc/overview/deegree_overview.rst:48
+msgid ""
+"Official OGC reference implementation for WFS 1.1.0 (Basic and "
+"Transactional) and WFS 2.0.0 (Basic)"
+msgstr ""
+"Hivatalos OGC referencia implementáció WFS 1.1.0 (Basic and Transactional) "
+"és WFS 2.0.0 (Basic) verziókhoz"
+
+#: ../../build/doc/overview/deegree_overview.rst:49
 msgid "Fully transactional (even for rich data models)"
 msgstr "Teljes tranzakció kezelés (még gazdag adatmodellekre is)"
 
-#: ../../build/doc/overview/deegree_overview.rst:47
-#: ../../build/doc/overview/deegree_overview.rst:85
-#: ../../build/doc/overview/deegree_overview.rst:97
+#: ../../build/doc/overview/deegree_overview.rst:50
+#: ../../build/doc/overview/deegree_overview.rst:90
+#: ../../build/doc/overview/deegree_overview.rst:102
 msgid "Supports KVP, XML and SOAP requests"
 msgstr "KVP, XML és SOAP kérések támogatása"
 
-#: ../../build/doc/overview/deegree_overview.rst:48
+#: ../../build/doc/overview/deegree_overview.rst:51
 msgid "GML 2/3.0/3.1/3.2 output/input"
 msgstr "GML 2/3.0/3.1/3.2 output/input"
 
-#: ../../build/doc/overview/deegree_overview.rst:49
+#: ../../build/doc/overview/deegree_overview.rst:52
 msgid "Support for GetGmlObject requests and XLinks"
 msgstr "GetGmlObject kérések és XLinks támogatás"
 
-#: ../../build/doc/overview/deegree_overview.rst:50
-#: ../../build/doc/overview/deegree_overview.rst:62
-#: ../../build/doc/overview/deegree_overview.rst:76
-#: ../../build/doc/overview/deegree_overview.rst:86
+#: ../../build/doc/overview/deegree_overview.rst:53
+#: ../../build/doc/overview/deegree_overview.rst:66
+#: ../../build/doc/overview/deegree_overview.rst:81
+#: ../../build/doc/overview/deegree_overview.rst:91
 msgid "High performance and excellent scalability"
 msgstr "Nagy teljesítmény és tökéletes skálázhatóság"
 
-#: ../../build/doc/overview/deegree_overview.rst:51
+#: ../../build/doc/overview/deegree_overview.rst:54
 msgid "On-the-fly coordinate transformation"
 msgstr "Vetületi transzformáció röptében"
 
-#: ../../build/doc/overview/deegree_overview.rst:52
+#: ../../build/doc/overview/deegree_overview.rst:55
 msgid "Designed for rich data models from the bottom up"
 msgstr "Alulról felfelé tervezték a gazdag adatmodellekhez"
 
-#: ../../build/doc/overview/deegree_overview.rst:53
+#: ../../build/doc/overview/deegree_overview.rst:56
 msgid ""
 "Backends support flexible mapping of GML application schemas to relational "
 "models"
@@ -117,18 +126,18 @@ msgstr ""
 "A háttérprogramok támogatják a GML alkalmazási sémák rugalmas illesztését a "
 "relációs modellekhez"
 
-#: ../../build/doc/overview/deegree_overview.rst:54
+#: ../../build/doc/overview/deegree_overview.rst:57
 msgid ""
 "ISO 19107-compliant geometry model: Complex geometries (e.g. non-linear "
 "curves)"
 msgstr ""
 "ISO 19107-nek megfelelő geometria modell: Komplex geometriák (pl. görbék)"
 
-#: ../../build/doc/overview/deegree_overview.rst:55
+#: ../../build/doc/overview/deegree_overview.rst:58
 msgid "Advanced filter expression support based on XPath 1.0"
 msgstr "XPath 1.0-ra alapozott haladó szűrő kifejezések"
 
-#: ../../build/doc/overview/deegree_overview.rst:56
+#: ../../build/doc/overview/deegree_overview.rst:59
 msgid ""
 "Supports numerous backends, such as PostGIS, Oracle Spatial, MS SQL Server, "
 "Shapefiles or GML instance documents"
@@ -136,32 +145,36 @@ msgstr ""
 "Számos háttér rendszert támogat, mint például PostGIS, Oracle Spatial, MSSQL"
 " Server, Shape fájlok vagy GML dokumentumok"
 
-#: ../../build/doc/overview/deegree_overview.rst:58
+#: ../../build/doc/overview/deegree_overview.rst:61
 msgid "**WMS**"
 msgstr "**WMS**"
 
-#: ../../build/doc/overview/deegree_overview.rst:60
+#: ../../build/doc/overview/deegree_overview.rst:63
 msgid "Implements WMS standards 1.1.1 and 1.3.0"
 msgstr "WMS 1.1.1 és 1.3.0 szabványok implementálása"
 
-#: ../../build/doc/overview/deegree_overview.rst:61
+#: ../../build/doc/overview/deegree_overview.rst:64
+msgid "Official OGC reference implementation for WMS 1.1.1 and WMS 1.3.0"
+msgstr "Hivatalos OGC referencia implementáció a WMS 1.1.1 és WMS 1.3.0-hez"
+
+#: ../../build/doc/overview/deegree_overview.rst:65
 msgid ""
 "Extensive support for styling languages SLD/SE versions 1.0.0 and 1.1.0"
 msgstr "Az SLD/SE 1.0.0 és 1.1.0 verziójú stílusnyelvek széleskörű támogatása"
 
-#: ../../build/doc/overview/deegree_overview.rst:63
+#: ../../build/doc/overview/deegree_overview.rst:67
 msgid "High quality rendering"
 msgstr "Kiváló minőségű kirajzolás"
 
-#: ../../build/doc/overview/deegree_overview.rst:64
+#: ../../build/doc/overview/deegree_overview.rst:68
 msgid "Scale dependent styling"
 msgstr "Méretarány függő stílusok"
 
-#: ../../build/doc/overview/deegree_overview.rst:65
+#: ../../build/doc/overview/deegree_overview.rst:69
 msgid "Support for SE removes the need for a lot of proprietary extensions"
 msgstr "Az SE támogatás szükségtelenné tesz egy csomó kereskedelmi bőviményt"
 
-#: ../../build/doc/overview/deegree_overview.rst:66
+#: ../../build/doc/overview/deegree_overview.rst:70
 msgid ""
 "Easy configuration of HTML and other output formats for GetFeatureInfo "
 "responses"
@@ -169,19 +182,19 @@ msgstr ""
 "Könnyen konfigurálható HTML és más output formátumok a GetFeatureInfo "
 "válaszokhoz"
 
-#: ../../build/doc/overview/deegree_overview.rst:67
+#: ../../build/doc/overview/deegree_overview.rst:71
 msgid "Uses stream-based data access with minimal memory footprint"
 msgstr "Stream alapú adatelérést használ, minimális memóriahasználattal"
 
-#: ../../build/doc/overview/deegree_overview.rst:68
+#: ../../build/doc/overview/deegree_overview.rst:72
 msgid ""
 "Nearly complete support for raster symbolizing as defined in SE (with some "
 "extensions)"
 msgstr ""
-"Szinte teljes mértékben támogatják az SE-ben definiált  raszteres "
+"Szinte teljes mértékben támogatják az SE-ben definiált raszteres "
 "jelrendszert (néhány bővítménnyel)"
 
-#: ../../build/doc/overview/deegree_overview.rst:69
+#: ../../build/doc/overview/deegree_overview.rst:73
 msgid ""
 "Complete support for TIME/ELEVATION and other dimensions for both feature "
 "and raster data"
@@ -189,27 +202,31 @@ msgstr ""
 "Idő/magasság és más dimenziók , teljes támogatása a vektoros és a raszteres "
 "adatokra"
 
-#: ../../build/doc/overview/deegree_overview.rst:70
+#: ../../build/doc/overview/deegree_overview.rst:74
 msgid ""
 "Supports numerous backends, such as PostGIS, Oracle Spatial, Shapefiles or "
 "GML instance documents"
 msgstr ""
-"Számos háttérprogramot támogat, mint például PostGIS, Oracle Spatial, SHP-"
-"fájlok vagy GML  dokumentumok"
+"Számos háttéret támogat, mint például PostGIS, Oracle Spatial, SHP-fájlok "
+"vagy GML dokumentumok"
 
-#: ../../build/doc/overview/deegree_overview.rst:71
+#: ../../build/doc/overview/deegree_overview.rst:75
 msgid "Can render rich data models directly"
 msgstr "Gazdag adatmodelleket közvetlenül meg tud jeleníteni"
 
-#: ../../build/doc/overview/deegree_overview.rst:73
+#: ../../build/doc/overview/deegree_overview.rst:77
 msgid "**WMTS**"
 msgstr "**WMTS**"
 
-#: ../../build/doc/overview/deegree_overview.rst:75
+#: ../../build/doc/overview/deegree_overview.rst:79
 msgid "Implements Basic WMTS standard 1.0.0 (KVP)"
 msgstr "Az alap WMTS szabvány 1.0.0 (KVP) implementálása"
 
-#: ../../build/doc/overview/deegree_overview.rst:77
+#: ../../build/doc/overview/deegree_overview.rst:80
+msgid "Official OGC reference implementation for WMS 1.0.0"
+msgstr "Hivatalos OGC referencia implementáció WMS 1.0.0 verzióhoz"
+
+#: ../../build/doc/overview/deegree_overview.rst:82
 msgid ""
 "Supports different backends, such as GeoTIFF, remote WMS or file system tile"
 " image hierarchies"
@@ -217,31 +234,31 @@ msgstr ""
 "Különböző háttérprogramok támogatása, mint például GeoTIFF, távoli WMS vagy "
 "a hierarchikus csempe képek a fájlrendszerben"
 
-#: ../../build/doc/overview/deegree_overview.rst:78
+#: ../../build/doc/overview/deegree_overview.rst:83
 msgid "Supports on-the-fly caching (using EHCache)"
 msgstr "Támogatja a röptében gyorsító tárazást (EHCache használatával)"
 
-#: ../../build/doc/overview/deegree_overview.rst:79
+#: ../../build/doc/overview/deegree_overview.rst:84
 msgid "Supports GetFeatureInfo for remote WMS backends"
 msgstr "Támogatja a GetFeatureInfo kérést a távoli WMS-ektől"
 
-#: ../../build/doc/overview/deegree_overview.rst:81
+#: ../../build/doc/overview/deegree_overview.rst:86
 msgid "**CSW**"
 msgstr "**CSW**"
 
-#: ../../build/doc/overview/deegree_overview.rst:83
+#: ../../build/doc/overview/deegree_overview.rst:88
 msgid "Implements CSW standard 2.0.2"
 msgstr "CSW 2.0.2 szabvány implementálása"
 
-#: ../../build/doc/overview/deegree_overview.rst:84
+#: ../../build/doc/overview/deegree_overview.rst:89
 msgid "Fully transactional"
 msgstr "Teljesen tranzakciós"
 
-#: ../../build/doc/overview/deegree_overview.rst:87
+#: ../../build/doc/overview/deegree_overview.rst:92
 msgid "ISO Metadata Application Profile 1.0.0"
 msgstr "ISO Metadata Application Profile 1.0.0"
 
-#: ../../build/doc/overview/deegree_overview.rst:88
+#: ../../build/doc/overview/deegree_overview.rst:93
 msgid ""
 "Pluggable and modular dataaccess layer allows to add support for new APs and"
 " backends"
@@ -249,15 +266,15 @@ msgstr ""
 "A hozzáadható és moduláris adathozzáférés réteg lehetővé teszi, hogy új API-"
 "khoz és háttérprogramokhoz támogatást adjunk"
 
-#: ../../build/doc/overview/deegree_overview.rst:89
+#: ../../build/doc/overview/deegree_overview.rst:94
 msgid ""
 "Modular inspector architecture allows to validate records to be inserted "
 "against various criteria"
 msgstr ""
 "A moduláris ellenőr architektúra lehetővé teszi, hogy a beillesztendő "
-"rekordokat ellenőrizzük  különböző kritériumok alapján"
+"rekordokat ellenőrizzük különböző kritériumok alapján"
 
-#: ../../build/doc/overview/deegree_overview.rst:90
+#: ../../build/doc/overview/deegree_overview.rst:95
 msgid ""
 "Standard inspectors: schema validity, identifier integrity, INSPIRE "
 "requirements"
@@ -265,7 +282,7 @@ msgstr ""
 "Standard ellenőrzők: séma validálás, azonosító integritás, INSPIRE "
 "követelmények"
 
-#: ../../build/doc/overview/deegree_overview.rst:91
+#: ../../build/doc/overview/deegree_overview.rst:96
 msgid ""
 "Handles all defined queryable properties (for Dublin Core as well as ISO "
 "profile)"
@@ -273,27 +290,27 @@ msgstr ""
 "Kezeli az összes definiált lekérdezhető tulajdonságot (Dublin Core, valamint"
 " ISO profil)"
 
-#: ../../build/doc/overview/deegree_overview.rst:92
+#: ../../build/doc/overview/deegree_overview.rst:97
 msgid "Complex filter expressions"
 msgstr "Komplex szűrő kifejezések"
 
-#: ../../build/doc/overview/deegree_overview.rst:94
+#: ../../build/doc/overview/deegree_overview.rst:99
 msgid "**WPS**"
 msgstr "**WPS**"
 
-#: ../../build/doc/overview/deegree_overview.rst:96
+#: ../../build/doc/overview/deegree_overview.rst:101
 msgid "Implements WPS standard 1.0.0"
 msgstr "WPS 1.0.0 szabvány implementálása"
 
-#: ../../build/doc/overview/deegree_overview.rst:98
+#: ../../build/doc/overview/deegree_overview.rst:103
 msgid "Pluggable process provider layer"
 msgstr "Beilleszthető folyamat szolgáltató réteg"
 
-#: ../../build/doc/overview/deegree_overview.rst:99
+#: ../../build/doc/overview/deegree_overview.rst:104
 msgid "Easy-to-use API for implementing Java processes"
 msgstr "Könnyen használható API a Java folyamatok implementálásához"
 
-#: ../../build/doc/overview/deegree_overview.rst:100
+#: ../../build/doc/overview/deegree_overview.rst:105
 msgid ""
 "Supports all variants of input/output parameters: literal, bbox, complex "
 "(binary and xml)"
@@ -301,109 +318,109 @@ msgstr ""
 "Támogatja a bemeneti/kimeneti paraméterek összes változatát : szöveges, "
 "bbox, összetett (bináris és xml)"
 
-#: ../../build/doc/overview/deegree_overview.rst:101
+#: ../../build/doc/overview/deegree_overview.rst:106
 msgid "Streaming access for complex input/output parameters"
 msgstr "Adatfolyam-hozzáférés komplex bemeneti/kimeneti paraméterekhez"
 
-#: ../../build/doc/overview/deegree_overview.rst:102
+#: ../../build/doc/overview/deegree_overview.rst:107
 msgid "Processing of huge amounts of data with minimal memory footprint"
 msgstr ""
 "A hatalmas mennyiségű adat feldolgozása minimális memória használattal"
 
-#: ../../build/doc/overview/deegree_overview.rst:103
+#: ../../build/doc/overview/deegree_overview.rst:108
 msgid "Supports storing of response documents/output parameters"
 msgstr "Támogatja a válasz dokumentumok/kimeneti paraméterek tárolását"
 
-#: ../../build/doc/overview/deegree_overview.rst:104
+#: ../../build/doc/overview/deegree_overview.rst:109
 msgid "Supports input parameters given inline and by reference"
 msgstr "Támogatja az inline és hivatkozással megadott bemeneti paramétereket"
 
-#: ../../build/doc/overview/deegree_overview.rst:105
+#: ../../build/doc/overview/deegree_overview.rst:110
 msgid "Supports RawDataOutput/ResponseDocument responses"
 msgstr "Támogatja a RawDataOutput/ResponseDocument válaszokat"
 
-#: ../../build/doc/overview/deegree_overview.rst:106
+#: ../../build/doc/overview/deegree_overview.rst:111
 msgid "Supports asynchronous execution (with polling of process status)"
 msgstr ""
 "Támogatja az aszinkron végrehajtást (a folyamat állapot folyamatos "
 "lekérdezésével)"
 
-#: ../../build/doc/overview/deegree_overview.rst:109
+#: ../../build/doc/overview/deegree_overview.rst:114
 msgid "Implemented Standards"
 msgstr "Implementált szabványok"
 
-#: ../../build/doc/overview/deegree_overview.rst:111
+#: ../../build/doc/overview/deegree_overview.rst:116
 msgid "|WFS| 1.0.0, 1.1.0 and 2.0.0"
 msgstr "|WFS| 1.0.0, 1.1.0 és 2.0.0"
 
-#: ../../build/doc/overview/deegree_overview.rst:112
+#: ../../build/doc/overview/deegree_overview.rst:117
 msgid "|WMS| 1.1.1 and 1.3.0"
 msgstr "|WMS| 1.1.1 és 1.3.0"
 
-#: ../../build/doc/overview/deegree_overview.rst:113
+#: ../../build/doc/overview/deegree_overview.rst:118
 msgid "|WMTS| 1.1.0"
 msgstr "|WMTS| 1.1.0"
 
-#: ../../build/doc/overview/deegree_overview.rst:114
-msgid "OGC Catalogue Service-Web (CSW) 2.0.2"
-msgstr "OGC Catalogue Service-Web (CSW) 2.0.2"
+#: ../../build/doc/overview/deegree_overview.rst:119
+msgid "|CSW| 2.0.2"
+msgstr "|CSW| 2.0.2"
 
-#: ../../build/doc/overview/deegree_overview.rst:115
+#: ../../build/doc/overview/deegree_overview.rst:120
 msgid "|WPS| 1.0.0"
 msgstr "|WPS| 1.0.0"
 
-#: ../../build/doc/overview/deegree_overview.rst:116
+#: ../../build/doc/overview/deegree_overview.rst:121
 msgid "|GML| 2.12, 3.0.1, 3.1.1 and 3.2.1"
 msgstr "|GML| 2.12, 3.0.1, 3.1.1 és 3.2.1"
 
-#: ../../build/doc/overview/deegree_overview.rst:119
+#: ../../build/doc/overview/deegree_overview.rst:124
 msgid "Details"
 msgstr "Részletek"
 
-#: ../../build/doc/overview/deegree_overview.rst:121
+#: ../../build/doc/overview/deegree_overview.rst:126
 msgid "**Website:** http://www.deegree.org"
 msgstr "**Honlap:** http://www.deegree.org"
 
-#: ../../build/doc/overview/deegree_overview.rst:123
-msgid "**Licence:** LGPL"
-msgstr "**Licenc:** LGPL"
+#: ../../build/doc/overview/deegree_overview.rst:128
+msgid "**Licence:** GNU Lesser General Public License, Version 2.1 (LGPL 2.1)"
+msgstr "**Licenc:** GNU Lesser General Public Licenc, Version 2.1 (LGPL 2.1)"
 
-#: ../../build/doc/overview/deegree_overview.rst:125
+#: ../../build/doc/overview/deegree_overview.rst:130
 msgid "**Software Version:** |version-deegree|"
 msgstr "**Szoftver verzió:** |version-deegree|"
 
-#: ../../build/doc/overview/deegree_overview.rst:127
+#: ../../build/doc/overview/deegree_overview.rst:132
 msgid "**Supported Platforms:** Windows, Linux"
 msgstr "**Támogatott platformok:** Windows, Linux"
 
-#: ../../build/doc/overview/deegree_overview.rst:129
+#: ../../build/doc/overview/deegree_overview.rst:134
 msgid "**API Interfaces:** Java"
-msgstr "**API interfészek:** Java"
+msgstr "**API Interfészek:** Java"
 
-#: ../../build/doc/overview/deegree_overview.rst:131
+#: ../../build/doc/overview/deegree_overview.rst:136
 msgid "**Support:** https://www.deegree.org/community"
-msgstr " **Támogatás:** https://www.deegree.org/community"
+msgstr "**Támogatás:** https://www.deegree.org/community"
 
-#: ../../build/doc/overview/deegree_overview.rst:137
+#: ../../build/doc/overview/deegree_overview.rst:142
 msgid "Quickstart"
 msgstr "Gyorstalpaló"
 
-#: ../../build/doc/overview/deegree_overview.rst:139
+#: ../../build/doc/overview/deegree_overview.rst:144
 msgid ":doc:`Quickstart documentation <../quickstart/deegree_quickstart>`"
 msgstr ":doc:`Gyorstalpaló dokumentáció <../quickstart/deegree_quickstart>`"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo közösség"

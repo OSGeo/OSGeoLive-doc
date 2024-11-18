@@ -6,23 +6,25 @@
 # Translators:
 # Luca Delucchi <lucadeluge@gmail.com>, 2019
 # Vicky Vergara <vicky@georepublic.de>, 2020
-# Stefano Campus <skampus@gmail.com>, 2021
 # Simone Falceri, 2022
+# Stefano Campus <skampus@gmail.com>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2019-07-18 21:57+0000\n"
-"Last-Translator: Simone Falceri, 2022\n"
-"Language-Team: Italian (https://www.transifex.com/osgeo/teams/66156/it/)\n"
+"PO-Revision-Date: 2024-10-14 14:30+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Italian <https://weblate.osgeo.org/projects/osgeolive/"
+"t-rex_overview/it/>\n"
+"Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: it\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/t-rex_overview.rst:13
 msgid "t-rex"
@@ -42,7 +44,7 @@ msgstr ""
 
 #: ../../build/doc/overview/t-rex_overview.rstNone
 msgid "t-rex screenshot"
-msgstr ""
+msgstr "screenshot di t-rex"
 
 #: ../../build/doc/overview/t-rex_overview.rst:27
 msgid "Core Features"
@@ -80,7 +82,7 @@ msgstr "Dettagli"
 
 #: ../../build/doc/overview/t-rex_overview.rst:40
 msgid "**Website:** https://t-rex.tileserver.ch/"
-msgstr "**Sito web:**  https://t-rex.tileserver.ch/"
+msgstr "**Sito web:** https://t-rex.tileserver.ch/"
 
 #: ../../build/doc/overview/t-rex_overview.rst:42
 msgid "**Licence:** `MIT license <https://opensource.org/licenses/MIT>`_"
@@ -112,16 +114,16 @@ msgstr ":doc:`Guida rapida <../quickstart/t-rex_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "Progetto OSGeo"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "Comunità OSGeo"

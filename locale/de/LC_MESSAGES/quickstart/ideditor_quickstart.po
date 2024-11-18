@@ -6,23 +6,24 @@
 # Translators:
 # Gregor Engelmann <shl00913@myport.ac.uk>, 2018
 # Vicky Vergara <vicky@georepublic.de>, 2021
-# Astrid Emde <astrid_emde@osgeo.org>, 2022
 # Andreas Schild <andreas.schild@bfw.gv.at>, 2022
+# Astrid Emde <astrid_emde@osgeo.org>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-20 21:55-0500\n"
-"PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Andreas Schild <andreas.schild@bfw.gv.at>, 2022\n"
-"Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
+"PO-Revision-Date: 2024-10-14 15:25+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
+"ideditor_quickstart/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:20
 msgid "iD editor Quickstart"
@@ -81,7 +82,7 @@ msgid ""
 msgstr ""
 "Navigieren Sie in der Karte zu dem Bereich, den Sie bearbeiten möchten. Sie "
 "können die Karte durch Bewegung der Maus mit gedrückter linker Maustaste zu "
-"dem gewünschten Bereich bewegen. "
+"dem gewünschten Bereich bewegen."
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:44
 msgid ""
@@ -112,7 +113,7 @@ msgstr ""
 msgid "[3] **Map panel:** This panel show various configuration functions."
 msgstr ""
 "[3] **Map panel:** Diese Tafel beinhaltet die unterschiedlichen "
-"Konfigurationsfunktionen:"
+"Konfigurationsfunktionen."
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:59
 msgid ""
@@ -175,8 +176,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:74
 msgid ""
-"You can add your own map tiles by clicking on **Custom**. For example,   if "
-"you want to **add a Field Paper**  [1], click **Custom** then   click on the"
+"You can add your own map tiles by clicking on **Custom**. For example,  if "
+"you want to **add a Field Paper** [1], click **Custom** then  click on the"
 " magnifying glass (search) icon to open the following window:"
 msgstr ""
 "Sie können Ihre eigenen Kartenkacheln hinzufügen, indem Sie auf **Custom** "
@@ -731,7 +732,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:245
 msgid "Add accessibility information |image42|"
-msgstr "Hinzufügen von Eingabehilfen  |image42|"
+msgstr "Hinzufügen von Eingabehilfen |image42|"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:327
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:327
@@ -789,7 +790,7 @@ msgid ""
 "Try the LearnOSM documentation, from which this quickstart was derived: "
 "https://learnosm.org/en/beginner/id-editor/"
 msgstr ""
-"Probieren Sie die LearnOSM-Dokumentation aus, aus der dieses Tutorial  "
+"Probieren Sie die LearnOSM-Dokumentation aus, aus der dieses Tutorial "
 "abgeleitet wurde: https://learnosm.org/en/beginner/id-editor/"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:262
@@ -838,16 +839,16 @@ msgstr ""
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Community"

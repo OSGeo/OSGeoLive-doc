@@ -16,16 +16,16 @@ Web Mapping Framework
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 MapFish is a flexible and complete framework for building rich web-mapping
-applications. It emphasizes high productivity, and high-quality development. 
+applications. It emphasizes high productivity, and high-quality development.
 
-MapFish is based on the `Pylons <http://pylonshq.com>`_ Python web framework.
+MapFish is based on the `Pylons <https://pylonshq.com/>`_ Python web framework.
 MapFish extends Pylons with geospatial-specific functionality. For example
 MapFish provides specific tools for creating web services that allows querying
 and editing geographic objects.
 
 MapFish also provides a complete RIA-oriented JavaScript toolbox, a JavaScript
 testing environment, and tools for compressing JavaScript code. The JavaScript
-toolbox is composed of the `ExtJS <http://extjs.com>`_, :doc:`OpenLayers <openlayers_overview>` , `GeoExt <http://www.geoext.org>`_ JavaScript
+toolbox is composed of the `ExtJS <https://www.sencha.com>`_, :doc:`OpenLayers <openlayers_overview>` , `GeoExt <https://www.geoext.org/>`_ JavaScript
 toolkits.
 
 @SCREENSHOT_mapfish@
@@ -39,7 +39,7 @@ Implemented Standards
 --------------------------------------------------------------------------------
 
 MapFish is compliant with the `Open Geospatial Consortium
-<http://www.opengeospatial.org/>`_ standards.  This is achieved through
+<https://www.ogc.org/>`_ standards.  This is achieved through
 OpenLayers or GeoExt supporting several OGC norms, like WMS, WFS, WMC, KML, GML
 etc.
 
@@ -54,7 +54,7 @@ Details
 
 **Supported Platforms:** Windows, Linux, Mac
 
-**Support:** http://trac.mapfish.org/trac/mapfish#Community
+**Support:** http://www.mapfish.org/#community
 
 
 @VMDK_mapfish@

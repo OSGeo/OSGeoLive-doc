@@ -1,26 +1,28 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Thomas Gratier <thomas_gratier@yahoo.fr>, 2017
-# Nicolas Roelandt (Personnel), 2018
+# Nicolas Roelandt (Personnel), 2022
+# Thomas Gratier <thomas_gratier@yahoo.fr>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:02+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2018\n"
-"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
+"POT-Creation-Date: 2022-08-04 08:50+0000\n"
+"PO-Revision-Date: 2024-10-01 09:17+0000\n"
+"Last-Translator: Edouard Choinière <echoix@users.noreply.weblate.osgeo.org>\n"
+"Language-Team: French <https://weblate.osgeo.org/projects/osgeolive/"
+"prior_applications/fr/>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/prior_applications.rst:5
 msgid "Previously available applications"
@@ -56,21 +58,95 @@ msgstr "Description"
 #: ../../build/doc/prior_applications.rst:1
 #: ../../build/doc/prior_applications.rst:1
 #: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
 msgid "|nologo|"
 msgstr "|nologo|"
 
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15 ../../build/doc/<rst_epilog>:15
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:16 ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
+msgstr "Pas de logo"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "LibLAS_"
+msgstr "LibLAS_"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <LibLAS_q_>`__"
 msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+msgid "13.0"
+msgstr "13.0"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "LiDAR Data Access"
+msgstr "Accès aux données LiDAR"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "MapSlicer_"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <MapSlicer_q_>`__"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Create Map Tiles"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+#: ../../build/doc/prior_applications.rst:1
+msgid "|osgeo_community|"
+msgstr "|osgeo_community|"
+
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr "Communauté OSGeo"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Geomajas_"
+msgstr "Geomajas_"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <Geomajas_q_>`__"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Browser GIS Client"
+msgstr "Client SIG dans le navigateur"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "OSSIM_"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "`QuickStart <OSSIM_q_>`__"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "11.0"
+msgstr "11.0"
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Image Processing"
+msgstr "Traitement d'images"
 
 #: ../../build/doc/prior_applications.rst:1
 msgid "`OGC Standards`_"
@@ -275,16 +351,6 @@ msgid "Microsoft Windows based Desktop GIS."
 msgstr "SIG bureautique basé sur Microsoft Windows."
 
 #: ../../build/doc/prior_applications.rst:1
-#: ../../build/doc/prior_applications.rst:1
-msgid "|osgeo_project|"
-msgstr "|osgeo_project|"
-
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-#: ../../build/doc/<rst_epilog>:0
-msgid "OSGeo Project"
-msgstr ""
-
-#: ../../build/doc/prior_applications.rst:1
 msgid "MapFish_"
 msgstr "MapFish_"
 
@@ -353,10 +419,10 @@ msgstr "5.0"
 msgid "Web Service"
 msgstr "Web Service"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
-msgid "OSGeo Community"
-msgstr ""
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr "Projet OSGeo"

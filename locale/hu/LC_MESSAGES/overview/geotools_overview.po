@@ -4,22 +4,23 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: Zoltan Siki <siki.zoltan@epito.bme.hu>, 2021\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"PO-Revision-Date: 2024-10-14 00:38+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"geotools_overview/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/geotools_overview.rst:17
 msgid "GeoTools"
@@ -52,7 +53,7 @@ msgstr ""
 
 #: ../../build/doc/overview/geotools_overview.rstNone
 msgid "geotools screenshot"
-msgstr ""
+msgstr "geotools képernyőképek"
 
 #: ../../build/doc/overview/geotools_overview.rst:31
 msgid "Core Features"
@@ -76,7 +77,7 @@ msgstr ""
 msgid "Attribute and spatial filters using OGC Filter Encoding specification"
 msgstr ""
 "Attribútum és térbeli szűrők az OGC Filter Encoding specifikáció "
-"felhasználásával "
+"felhasználásával"
 
 #: ../../build/doc/overview/geotools_overview.rst:38
 msgid ""
@@ -108,7 +109,7 @@ msgid ""
 "environments."
 msgstr ""
 "Egy állapotmentes, alacsony memória igényű megjelenítés, ez különösen "
-"hasznos a szerver oldali megoldásokban"
+"hasznos a szerver oldali megoldásokban."
 
 #: ../../build/doc/overview/geotools_overview.rst:47
 msgid "compose and display maps with complex styling"
@@ -160,7 +161,7 @@ msgstr ""
 
 #: ../../build/doc/overview/geotools_overview.rst:0
 msgid "Extensions built using the GeoTools library"
-msgstr ""
+msgstr "A GeoTools könyvtárat használó bővítmények"
 
 #: ../../build/doc/overview/geotools_overview.rst:64
 msgid ""
@@ -221,10 +222,7 @@ msgstr "db2, h2, mysql, oracle, postgis, spatialite, sqlserver."
 
 #: ../../build/doc/overview/geotools_overview.rst:83
 msgid "Vector formats and data access:"
-msgstr ""
-"Vektor formátumok és adat elérés:\n"
-"\n"
-" "
+msgstr "Vektor formátumok és adat elérés:"
 
 #: ../../build/doc/overview/geotools_overview.rst:85
 msgid ""
@@ -337,16 +335,16 @@ msgstr ""
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo közösség"

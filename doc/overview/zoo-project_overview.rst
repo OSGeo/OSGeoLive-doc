@@ -23,13 +23,13 @@ ZOO is made of three parts:
 
 
 *ZOO Kernel* : A powerful server-side C Kernel which makes it possible to
-manage and chain Web services coded in different programming languages. 
+manage and chain Web services coded in different programming languages.
 
 *ZOO Services* : A growing suite of example Web services based on various
 Open Source libraries.
 
 *ZOO API* : A server-side JavaScript API able to call and chain the ZOO
-Services, which makes the development and chaining processes easier. 
+Services, which makes the development and chaining processes easier.
 
 ZOO is based on a 'WPS Service Kernel' which constitutes the ZOO's core
 system (aka ZOO Kernel). The latter is able to load dynamic libraries and
@@ -43,14 +43,14 @@ for the corresponding implementation. The metadata file describes all the
 available functions which can be called using a WPS Exec Request, as well
 as the desired input/output. Services contain the algorithms and
 functions, and can now be implemented in C/C++, Fortran, Java, Python, PHP, Ruby, C#
-and JavaScript. 
+and JavaScript.
 
 @SCREENSHOT_zoo-project@
 
 Core Features
 --------------------------------------------------------------------------------
 
-* Multi language WPS server 
+* Multi language WPS server
 * Simple Web Service creation and deployment procedure
 * Simple WPS chaining with ZOO API
 
@@ -81,7 +81,7 @@ Details
 
 **Programing language support:** C, Python, Java, PHP, Fortran, Javascript, C#, Ruby
 
-**Support:** http://zoo-project.org/
+**Support:** https://zoo-project.org/
 
 
 @VMDK_zoo-project@

@@ -53,20 +53,42 @@ Improving OSGeoLive Documentation
 * Proof-read, test and correct Quickstarts and Overviews
 * There is a good possibility to get to know cool software!
 * Translate and improve the documentation
-* Translation is made in `Transifex <https://www.transifex.com/osgeo/osgeolive>`__
+* Translation is made in `OSGeo Weblate <https://weblate.osgeo.org/projects/osgeolive/>`__
 * Local Chapters can easily get involved here
 * No technical experience necessary
 
+Try out OSGeoLive
+--------------------------------------------------------------------------------
+
+* Cloud deployments
+* `remote.osgeo.org <https://remote.osgeo.org/>`__
+
+.. revealjs-break::
+
+.. image:: /images/presentation/remote_osgeo_org_vm_list.png
+    :height: 400
+    :align: center
+
+.. revealjs-break::
+
+.. image:: /images/presentation/remote_osgeo_org_desktop.png
+    :height: 400
+    :align: center
+
+
+Join us at the FOSS4G 2023 Community Sprint
+--------------------------------------------------------------------------------
+
+* 01.-02. of July 2023
+* https://wiki.osgeo.org/wiki/FOSS4G_2023_Community_Sprint
 
 Sponsors
 --------------------------------------------------------------------------------
 
 =============== ================ ====================
 =============== ================ ====================
-OSGeo            UCD ICE          NTUA
-|osgeo_logo|     |ucdice_logo|    |ntua_logo|
-DebianGIS        okeanos          Georepublic
-|debian_logo|    |okeanos_logo|   |georepublic_logo|
+OSGeo            UCD ICE          DebianGIS
+|osgeo_logo|     |ucdice_logo|    |debian_logo|
 =============== ================ ====================
 
 
@@ -74,10 +96,7 @@ DebianGIS        okeanos          Georepublic
   And we'd also like to acknowledge the contributions of sponsors and supporting organisations:
   The OSGeo Foundation,
   the Information Center for the Environment at the University of California,
-  the Remote Sensing Laboratory at the National Technical University of Athens,
   the DebianGIS and UbuntuGIS projects,
-  the Okeanos IaaS service
-  and Georepublic geomatics company.
 
 Try out OSGeoLive
 --------------------------------------------------------------------------------
@@ -98,11 +117,5 @@ Try out OSGeoLive
                         :height: 50
 .. |ucdice_logo| image:: /images/logos/ucd_ice_logo.png
                         :height: 50
-.. |ntua_logo| image:: /images/logos/ntua_logo.jpg
-                        :height: 50
 .. |debian_logo| image:: /images/logos/debiangis_mollweide.png
-                        :height: 50
-.. |georepublic_logo| image:: /images/logos/georepublic.png
-                        :height: 50
-.. |okeanos_logo| image:: /images/logos/okeanos-logo.jpg
                         :height: 50

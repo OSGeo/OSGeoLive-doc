@@ -1,0 +1,203 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2022, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+# Translators:
+# Santtu Pyykkönen, 2019
+# Kari Salovaara <kari.salovaara@pp1.inet.fi>, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-13 22:52+0000\n"
+"PO-Revision-Date: 2024-10-14 14:30+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Finnish <https://weblate.osgeo.org/projects/osgeolive/"
+"jupyter_quickstart/fi/>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:20
+msgid "Jupyter Notebook Quickstart"
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:22
+msgid ""
+"The Jupyter Notebook is a web application that allows you to create and "
+"share documents that contain live code, equations, visualizations and "
+"explanatory text. Uses include: data cleaning and transformation, numerical "
+"simulation, statistical modeling, machine learning and much more."
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:28
+msgid "This Quick Start describes how to:"
+msgstr "Tässä Pika-aloitusnäytössä kuvataan, miten:"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:30
+msgid "Start a Jupyter Notebook server"
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:31
+msgid "Load a jupyter notebook"
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:32
+msgid "Interact with python code"
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:34
+msgid "Contents"
+msgstr "Sisältö"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:37
+msgid "Start the Jupyter server"
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:39
+msgid "From the application launch menu in the lower left corner."
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:41
+msgid "Choose *Geospatial* -> *Spatial Tools* -> *Jupyter Notebook*"
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:43
+msgid ""
+"A terminal window will open and a startup log will begin to scroll. "
+"Afterwards a web browser is launched showing the Jupyter Notebook dashboard."
+" From the Jupyter Notebook dashboard you can navigate the directory tree, "
+"start new notebooks, create files and directories, as well as rename, delete"
+" and upload files."
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:57
+msgid "Open and execute an existing notebook"
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:59
+msgid ""
+"Let's open an existing notebook. From the main page click on the directory "
+"geopandas-tutorial and choose the Introduction notebook (01-introduction-"
+"geospatial-data.ipynb). This is an introduction with many examples on how to"
+" use geospatial vector data in Python with geopandas using the Natural "
+"Earth2 data."
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:68
+msgid ""
+"The tutorial is made up with explaining text and cells. The cells contain in"
+" this case python code, that can be run."
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:71
+msgid ""
+"From the toolbar on top of the notebook you can choose different options:"
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:73
+msgid ""
+"Cell-> Run Cells: will run the code in the cell with the focus and will move"
+" to the next cell."
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:75
+msgid ""
+"Cell-> Run All: will run all the cells and show the results If everything "
+"worked as planned you should be able to see the results at the bottom of the"
+" page."
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:79
+msgid "Have a look at the results after running all the cells."
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:84
+msgid ""
+"You will see additional Out[] section with different output for example "
+"tables, maps or calculations."
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:87
+msgid "In Out[3] you can see the country information as a table."
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:93
+msgid "In Out[4] a plot was generated from all the countries."
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:102
+msgid "Change code"
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:104
+msgid "Now let's change some of the code."
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:107
+msgid ""
+"In In [10] a filter was defined for the countries. Only the continent "
+"``Africa`` is selected from the countries:"
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:114
+msgid "Therefore in the plot there is only the continent ``Africa``."
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:119
+msgid "Change the selection to ``Asia`` and rund the two cells again."
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:125
+msgid ""
+"As result you will see that instead of ``Africa`` there will be ``Asia`` in "
+"the plot."
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:131
+msgid "What Next?"
+msgstr "Mitä seuraavaksi?"
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:133
+msgid ""
+"Discover the other notebooks that are provided with OSGeoLive and find out "
+"how to work with Shapely, Rasterio, R, Iris & other software."
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:135
+msgid ""
+"For more information about the jupyter notebook, please refer to the "
+"`Jupyter Notebooks official documentation <https://docs.jupyter.org>`__."
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:137
+msgid "More notebook examples are available from the notebook root directory."
+msgstr ""
+
+#: ../../build/doc/quickstart/jupyter_quickstart.rst:138
+msgid ""
+"Quick introduction on how to use the Jupyter Notebooks interface: `Get "
+"started with Jupyter Notebook <https://docs.jupyter.org/en/latest/content-"
+"quickstart.html>`__."
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:13
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:16
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:0
+msgid "OSGeo Community"
+msgstr ""

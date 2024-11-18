@@ -42,7 +42,7 @@ Programs that work with OSM data
 iD
 --
 
-**iD** is the default on-line editor for OpenStreetMap (OSM). iD is fast and 
+**iD** is the default on-line editor for OpenStreetMap (OSM). iD is fast and
 easy to use, and allows mapping from various data sources such as ground survey,
 satellite and aerial imageries, GPS traces or street-level imagery.
 
@@ -54,9 +54,9 @@ satellite and aerial imageries, GPS traces or street-level imagery.
 JOSM
 ----
 
-**JOSM** (Java OpenStreetMap Editor) is an advanced editor for OpenStreetMap 
-(OSM) written in Java. It is more powerful and complex than iD, can be used 
-for bulk editing, off-line or on an unreliable Internet connection. It can be 
+**JOSM** (Java OpenStreetMap Editor) is an advanced editor for OpenStreetMap
+(OSM) written in Java. It is more powerful and complex than iD, can be used
+for bulk editing, off-line or on an unreliable Internet connection. It can be
 extended with plugins, custom presets and more extensions.
 
 
@@ -133,7 +133,7 @@ QuickOSM
 #. Search for all the pubs in the FOSS4G city
 #. Choose key `amenity`, value `pub`, in `Buenos Aires`
 #. Show the query to see the Overpass query
-#. Click  `Run query`. The resulting data will be loaded in your QGIS project as temporal data
+#. Click `Run query`. The resulting data will be loaded in your QGIS project as temporal data
 #. You can now save the data via `Export -> Save as....`. Choose i.e. Geopackage and save the data as `buenos_aires_pubs`.
 
 .. tip:: You also find many OSM Plugins for QGIS. Search for `OSM` in the plugin repository.

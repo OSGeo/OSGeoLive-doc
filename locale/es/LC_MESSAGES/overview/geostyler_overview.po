@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
@@ -7,21 +7,24 @@
 # David Mateos, 2020
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2022
+# Jose Vergara, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2020-10-21 15:59+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"POT-Creation-Date: 2022-08-06 09:15-0500\n"
+"PO-Revision-Date: 2024-08-20 16:45+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"geostyler_overview/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/geostyler_overview.rst:18
 msgid "GeoStyler"
@@ -66,24 +69,23 @@ msgid ""
 "concept of micro packages, these translators (we call them parsers) can be "
 "used as standalone libraries, without the need to include the UI components "
 "as a dependency. Currently we have parsers for SLD, QGIS-styles, Mapbox "
-"styles and OpenLayers styles. Parsing of Mapfiles is in the works. Please "
-"take a look at StyleParser Implementations. Since attributively styling "
-"geodata is easier when you can look at the data to be styled, we can connect"
-" to several datasources like WFS, Shapefiles and GeoJSON files. We plan on "
-"developing a data reader for the Geopackage format."
+"styles, OpenLayers styles and Mapfiles. Please take a look at StyleParser "
+"Implementations. Since attributively styling geodata is easier when you can "
+"look at the data to be styled, we can connect to several datasources like "
+"WFS, Shapefiles and GeoJSON files. We plan on developing a data reader for "
+"the Geopackage format."
 msgstr ""
 "Además, GeoStyler permite la traducción entre múltiples formatos de estilo, "
-"es decir, SLD, OpenLayers, QGIS, Mapbox. Puesto que estamos siguiendo el "
+"como los de SLD, OpenLayers, QGIS, Mapbox. Dado que estamos siguiendo el "
 "concepto de micro paquetes, estos traductores (los llamamos analizadores) se"
-" pueden utilizar como bibliotecas independientes, sin necesidad de incluir "
+" pueden usar como bibliotecas independientes, sin la necesidad de incluir "
 "los componentes de la interfaz de usuario como una dependencia. Actualmente "
-"tenemos analizadores para SLD, estilos QGIS, estilos Mapbox y estilos "
-"OpenLayers. El análisis de Mapfiles está en marcha. Por favor, eche un "
-"vistazo a Las implementaciones de StyleParser. Dado que el estilo de los "
-"geodatos es más fácil cuando se pueden ver los datos que se van a aplicar "
-"estilo, podemos conectarnos a varios orígenes de datos como WFS, Shapefiles "
-"y archivos GeoJSON. Planeamos desarrollar un lector de datos para el formato"
-" Geopackage."
+"disponemos de analizadores para SLD, QGIS-styles, mapbox styles, openLayers "
+"styles y Mapfiles. Por favor, eche un vistazo a las Implementaciones de "
+"StyleParser. Dado que el estilo atributivo de los geodatos es más fácil "
+"cuando se pueden ver los datos que se van a diseñar, podemos conectarnos a "
+"varias fuentes de datos como WFS, Shapefiles y archivos GeoJSON. Planeamos "
+"desarrollar un lector de datos para el formato Geopackage."
 
 #: ../../build/doc/overview/geostyler_overview.rstNone
 msgid "geostyler screenshot"
@@ -129,7 +131,7 @@ msgstr ""
 
 #: ../../build/doc/overview/geostyler_overview.rst:51
 msgid "Implemented Standards"
-msgstr "Estándares Implementados"
+msgstr "Estándares implementados"
 
 #: ../../build/doc/overview/geostyler_overview.rst:53
 msgid "|FE|"
@@ -137,7 +139,7 @@ msgstr "|FE|"
 
 #: ../../build/doc/overview/geostyler_overview.rst:54
 msgid "Geographic JSON (GeoJSON)"
-msgstr "Geographic JSON (GeoJSON)"
+msgstr "JSON Geográfico (GeoJSON)"
 
 #: ../../build/doc/overview/geostyler_overview.rst:55
 msgid "|OGC|"
@@ -195,11 +197,11 @@ msgid ":doc:`Quickstart documentation <../quickstart/geostyler_quickstart>`"
 msgstr ""
 ":doc:`Documentación de Inicio Rápido <../quickstart/geostyler_quickstart>`"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr "nologo"
 

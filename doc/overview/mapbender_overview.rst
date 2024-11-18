@@ -19,22 +19,23 @@ Mapbender is the tip of the iceberg, a meta layer of software providing access t
 
 Mapbender management applications are straight forward and easy to use providing highly focused functionality for the operation of large scale distributed SDI components. It is the tool of choice for SDI administrators who need to maintain, categorize and monitor map and feature services. Mapbender grants access to individuals, groups and manages machine to machine access. Adherence to standardized services, such as OGC WMS allows to take advantage of interoperable services from a multitude of server platforms.
 
-Mapbender is based on Symfony, OpenLayers and jQuery. 
+Mapbender is based on Symfony, OpenLayers and jQuery.
 
 @SCREENSHOT_mapbender@
 
 Core Features
 --------------------------------------------------------------------------------
 
-* Easily create web mapping interfaces using template applications  
+* Easily create web mapping interfaces using template applications
 
   * add/remove/customize applications
 * Create applications with digitize functionality
 * Create mobile Applications
 * Print high-quality maps using your own PDF templates.
+* Create individual search configurations
 * Digitizing via SQL
 
-* Upload and share remote OGC WMS (Capabilities caching) 
+* Upload and share remote OGC WMS (Capabilities caching)
 
   * arrange uploaded WMS for overlay
   * editing layer visibility
@@ -42,20 +43,22 @@ Core Features
   * format
 * Create users and groups, share and grant access to services and modules
 * Restrict user access with the OWS security proxy module via trusted servers
-* Encrypted protocols monitoring and status notification and auto-update service for remote OGC services 
+* Encrypted protocols monitoring and status notification and auto-update service for remote OGC services
 * ... and more!
 
 Implemented Standards
 --------------------------------------------------------------------------------
 
 * OGC Web Map Service (WMS) 1.1.1, 1.3.0
+* OGC Web Map Tile Service (WMTS) 1.0.0
+* Tile Map Service (TMS)
 
 Details
 --------------------------------------------------------------------------------
 
 **Website:** @WEB_mapbender@
 
-**Licence:** `MIT license <https://opensource.org/licenses/MIT>`_
+**Licence:** `MIT license <https://opensource.org/license/MIT>`_
 
 **Software Version:** |version-mapbender|
 

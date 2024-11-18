@@ -5,9 +5,9 @@ OSGeoLive
 .. image:: /images/osgeolive-logo/osgeolive-banner.png
 
 
-Version: @OSGeoLiveDoc_VERSION_MAJOR@
+Version: 16.0beta1
 
-Released: August 2022
+Released: June 2023
 
 |
 
@@ -50,14 +50,14 @@ What is new in @OSGeoLiveDoc_VERSION_MAJOR@.0
 
 .. speaker note
   In OSGeoLive Version .@OSGeoLiveDoc_VERSION_MAJOR@.0 we've updated our core packages to the latest
-  stable, added new projects (EFT), improved our documentation
+  stable, added new projects (ODC and QField), improved our documentation
   and translations. We've also updated many existing applications and moved to
-  the latest Lubuntu 22.04 Long Term Support release.
+  the latest Lubuntu 22.04.2 Long Term Support release.
 
 What is new in @OSGeoLiveDoc_VERSION_MAJOR@.0
 --------------------------------------------------------------------------------
 
-Updated to Lubuntu 22.04 LTS
+Updated to Lubuntu 22.04.2 LTS
 
 .. revealjs-break::
 
@@ -69,7 +69,7 @@ Updated core packages based on `DebianGIS <href="https://wiki.debian.org/DebianG
 * GDAL @VERSION_gdal@,
 * PROJ @VERSION_proj@,
 * PostGIS @VERSION_postgis@,
-* GRASS  @VERSION_grass@,
+* GRASS @VERSION_grass@,
 * GeoServer @VERSION_geoserver@,
 * MapServer @VERSION_mapserver@,
 
@@ -77,7 +77,7 @@ and many more...
 
 .. revealjs-break::
 
-New project added: ETF testing framework software
+New projects added: OpenDataCube and QField
 
 .. revealjs-break::
 
@@ -89,7 +89,7 @@ Documentation updates
 
 .. revealjs-break::
 
-OSM data for Firenze
+OSM data for Prizren
 
 .. revealjs-break::
 
@@ -116,9 +116,10 @@ Components on OSGeoLive
 
 50+ Open Source Geospatial Applications
 
+Consistent Overviews & Quickstarts
+
 Sample Datasets
 
-Consistent Overviews & Quickstarts
 
 Translations
 
@@ -126,11 +127,11 @@ Translations
 .. speaker notes
   OSGeoLive is a self-contained bootable USB, based on the Lubuntu Linux
   distribution, that is pre-installed and pre-configured with over 50 of the
-  best GeoSpatial Open Source applications along with sample datasets.  It
-  contains overview and quickstart documentation for each application, as well
-  as documentation about key OGC spatial standards.  The USB is ideal for
-  handing out at conferences, using in workshops, and trialling a range of Open
-  Source Software.
+  best GeoSpatial Open Source applications along It contains overview and
+  quickstart documentation for each application, as well as documentation
+  about key OGC spatial standards.
+  The Quickstarts use sample datasets that are provided.
+  Overviews and Quickstarts are translated in several languages.
 
 DVD / USB / Virtual Machine
 --------------------------------------------------------------------------------
@@ -143,6 +144,9 @@ DVD / USB / Virtual Machine
    lightning overview of all applications installed on OSGeoLive, which
    effectively gives you a birds eye view of the breadth of robust GeoSpatial
    Open Source Software available.
+   The USB stick is ideal for
+   handing out at conferences, using in workshops, and trialling a range of Open
+   Source Software.
 
 Quality Criteria
 --------------------------------------------------------------------------------
@@ -183,8 +187,8 @@ Production & Marketing Pipeline
     giving away an OSGeoLive DVD or USB.
   * Geospatial educators and workshop presenters use the stable OGeo-Live
     Virtual Machine or USB for practical class room settings.
-  * Which all leads to Architects and Developers discovering, and then incorporating Open Source Geospatial software in
-    their projects.
+  * Which all leads to Architects and Developers discovering, and then incorporating
+    Open Source Geospatial software in their projects.
 
 
 Open Source Geospatial Foundation (OSGeo)

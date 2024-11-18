@@ -9,20 +9,22 @@
 # Manuel Grizonnet <manuel.grizonnet@cnes.fr>, 2018
 # Nicolas Roelandt (Personnel), 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2022\n"
-"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
+"PO-Revision-Date: 2024-10-14 15:25+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: French <https://weblate.osgeo.org/projects/osgeolive/"
+"otb_quickstart/fr/>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:22
 msgid "OTB Quickstart"
@@ -79,7 +81,7 @@ msgid ""
 msgstr ""
 "CLI (interface en ligne de commande) : toutes les applications peuvent être "
 "appelées depuis un terminal commençant par `otbcli_` suivi du nom de "
-"l’application"
+"l’application."
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:36
 msgid ""
@@ -89,9 +91,9 @@ msgid ""
 ":menuselection:`menu --> Geospatial --> Spatial Tools --> OTB Launcher`)."
 msgstr ""
 "GUI (interface d’utilisateur graphique autonome dans Qt) : les demandes "
-"peuvent être appelées depuis un terminal avec l’alias `otbgui_`  suivi du "
-"nom de l’application. Une autre option consiste à utiliser un petit lanceur "
-"(disponible dans le menu-> géospatiales-> outils spatiaux-> OTB Launcher)"
+"peuvent être appelées depuis un terminal avec l’alias `otbgui_` suivi du "
+"nom de l’application. Une autre option consiste à utiliser un petit lanceur ("
+"disponible dans le menu-> géospatiales-> outils spatiaux-> OTB Launcher)."
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:37
 msgid "QGIS plugin - available through the processing framework."
@@ -167,7 +169,7 @@ msgid ""
 msgstr ""
 "L’application est en mesure d’effectuer des opérations mathématiques "
 "complexes sur des images (seuillage, redimensionnement logarithmique, etc). "
-"Cette calculatrice numérique \"maison\"  est également livrée avec des "
+"Cette calculatrice numérique \"maison\" est également livrée avec des "
 "fonctions personnalisées vous permettant de calculer une expression "
 "complète. Par exemple, comme les images de télédétection mesurent des "
 "grandeurs physiques, il est possible d’extraire plusieurs indices ayant une "
@@ -209,7 +211,7 @@ msgstr ""
 "classification supervisée d’un basée sur l’apprentissage de plusieurs "
 "images, à l’aide d’un ordinateur spécifié méthode comme SVM, Bayes, KNN, "
 "forêts aléatoires, les réseaux de neurones artificiels, d’apprentissage et "
-"d’autres. Voir l’aide de l’application de `TrainImagesClassifier`  pour plus"
+"d’autres. Voir l’aide de l’application de `TrainImagesClassifier` pour plus"
 " de détails sur tous les classificateurs disponibles. Il supporte des images"
 " énormes en streaming et multi-threading. La chaîne de classification "
 "effectue une étape de formation basée sur l’intensité de chaque pixel comme "
@@ -243,7 +245,7 @@ msgstr "Mean-Shift"
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:103
 msgid "Watershed (ITK implementation)"
-msgstr "Ligne de partage des eaux  (Implémentation ITK)"
+msgstr "Ligne de partage des eaux (Implémentation ITK)"
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:104
 msgid "Connected-Components"
@@ -259,7 +261,7 @@ msgstr "Vous pouvez tester la segmentation avec ces commandes :"
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:109
 msgid "Creation of a multichannel Red-Green-Blue-Nir image"
-msgstr "Création d’une image multicanal Rouge-Vert-Bleu-Proche-Infrarouge "
+msgstr "Création d’une image multicanal Rouge-Vert-Bleu-Proche-Infrarouge"
 
 #: ../../build/doc/quickstart/otb_quickstart.rst:115
 msgid "Apply segmentation"
@@ -416,16 +418,16 @@ msgstr ""
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "Pas de logo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "Projet OSGeo"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "Communauté OSGeo"

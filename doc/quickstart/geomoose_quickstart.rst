@@ -42,7 +42,7 @@ The Interfaces presented above shows:
 * A side menu with:
 
  * A "Jump to" location pull down list
- * Control tabs starting with "Catalog", for displaying the layer list.  As needed, additional tabs will appear: an "Information" readout, a "Custom" output tab, and others.
+ * Control tabs starting with "Catalog", for displaying the layer list. As needed, additional tabs will appear: an "Information" readout, a "Custom" output tab, and others.
 
 * A Footer bar with:
 
@@ -57,7 +57,7 @@ Identify a location
 
   .. image:: /images/projects/geomoose/geomoose-quickstart-01.png
 
-The catalog along the left side of the Map view will change to the "Super Tab" - a place to where GeoMoose displays results of an action or asks for more information.  In this case, it will show the results of a query of each active and identifiable layer for the point that you clicked in the map.
+The catalog along the left side of the Map view will change to the "Super Tab" - a place to where GeoMoose displays results of an action or asks for more information. In this case, it will show the results of a query of each active and identifiable layer for the point that you clicked in the map.
 
 Use the measuring tool
 ======================
@@ -65,11 +65,11 @@ Use the measuring tool
 The GeoMoose measure tool allows you to:
 * measure a point (return the coordinates of a picked point)
 * measure the distance along a potentially multi-segment line
-* measure the area of a polygon.  
+* measure the area of a polygon.
 
 #. Click the double ended arrow icon in the top toolbar to start the measuring tool.
 #. Choose to measure a point, line, or polygon.
-#. Click on the map where you want to measure.  To measure a point, just click the point on the map you want to measure.  To measure a line or polygon click on the map for each vertex a of the line/polygon.  
+#. Click on the map where you want to measure. To measure a point, just click the point on the map you want to measure. To measure a line or polygon click on the map for each vertex a of the line/polygon.
 #. Double click to end the line/polygon.
 
   .. image:: /images/projects/geomoose/geomoose-quickstart-02a.png
@@ -77,17 +77,17 @@ The GeoMoose measure tool allows you to:
   .. image:: /images/projects/geomoose/geomoose-quickstart-02b.png
 
   .. image:: /images/projects/geomoose/geomoose-quickstart-02c.png
-		
-.. Note:: you can also measure a pre-existing feature on the map (if it is from a vector layer, including previous query results) without having to manually trace over it.  
+
+.. Note:: you can also measure a pre-existing feature on the map (if it is from a vector layer, including previous query results) without having to manually trace over it.
 
 
 Select features
 ===============
-You can select features from a Point, Line, Polygon, or from an existing feature.  To start, click on the "Select Features" icon (mouse cursor icon), pick point, line, polygon and start drawing your selection in the map.  You can double click the last point to finish the drawing process.  If you want to adjust your selection you can do that with the "Modify Feature" option.
+You can select features from a Point, Line, Polygon, or from an existing feature. To start, click on the "Select Features" icon (mouse cursor icon), pick point, line, polygon and start drawing your selection in the map. You can double click the last point to finish the drawing process. If you want to adjust your selection you can do that with the "Modify Feature" option.
 
-You also have the option to select features based on a buffered version of what you drew.  The default is to buffer by "0" which does nothing.  Positive values expand what you drew by that distance, negative values shrink your drawing.
+You also have the option to select features based on a buffered version of what you drew. The default is to buffer by "0" which does nothing. Positive values expand what you drew by that distance, negative values shrink your drawing.
 
-Select which layer you want to select features from using the "Query Layer" select-box.  Note: not all layers can be used with the Select Features tool.  To be available for selection, a layer needs to be a vector layer and be configured for selection in the mapbook.
+Select which layer you want to select features from using the "Query Layer" select-box. Note: not all layers can be used with the Select Features tool. To be available for selection, a layer needs to be a vector layer and be configured for selection in the mapbook.
 
   .. image:: /images/projects/geomoose/geomoose-quickstart-03a.png
 
@@ -97,18 +97,18 @@ You may need to scroll down in the "Super Tab" to find the "Go" button if your b
   .. image:: /images/projects/geomoose/geomoose-quickstart-03a2.png
 
 
-Finally, click the "Go" button to actually select the features.  GeoMoose will return a summary of what was selected in the Super Tab as well, highlight the selected features on the map, and show an attribute table of the selected features.
+Finally, click the "Go" button to actually select the features. GeoMoose will return a summary of what was selected in the Super Tab as well, highlight the selected features on the map, and show an attribute table of the selected features.
 
 
   .. image:: /images/projects/geomoose/geomoose-quickstart-03b.png
 
-If you hover over a line in the table, the corresponding feature on the map will be highlighted.  Additionally, you can use the funnel icons in the table header to further filter results, and use the triangle icons in the table header to sort results.  The results can be downloaded as a CSV file using the download icon to the top and left of the table. 
+If you hover over a line in the table, the corresponding feature on the map will be highlighted. Additionally, you can use the funnel icons in the table header to further filter results, and use the triangle icons in the table header to sort results. The results can be downloaded as a CSV file using the download icon to the top and left of the table.
 
 
 Search for features
 ===================
 
-You can also search for features by attribute.  To start, hover over the "Search" menu in the toolbar and then click on the "Search Parcels" icon.  Enter your search parameters in the Super Tab then click the "Go!" button.
+You can also search for features by attribute. To start, hover over the "Search" menu in the toolbar and then click on the "Search Parcels" icon. Enter your search parameters in the Super Tab then click the "Go!" button.
 
   .. image:: /images/projects/geomoose/geomoose-quickstart-04a.png
 
@@ -116,19 +116,19 @@ The following screenshot demonstrates a search of all parcel owners containing t
 
   .. image:: /images/projects/geomoose/geomoose-quickstart-04b.png
 
-Three results appear in the list and are highlighted on the map. 
+Three results appear in the list and are highlighted on the map.
 
   .. image:: /images/projects/geomoose/geomoose-quickstart-04c.png
-  
-Clicking the magnifying glass icon/parcel number will zoom you to the specific parcel as illustrated in the following screenshot. 
+
+Clicking the magnifying glass icon/parcel number will zoom you to the specific parcel as illustrated in the following screenshot.
 
   .. image:: /images/projects/geomoose/geomoose-quickstart-04d.png
-  
-  
+
+
 Print the map
 =============
 
-This next screenshot shows how the Print tool looks as provided with demo for GeoMoose.  When you click on the Print tool, a dialog appears which asks for a title for the printed map, the page size and rotation, printed resolution, and shows a preview of what will be printed.
+This next screenshot shows how the Print tool looks as provided with demo for GeoMoose. When you click on the Print tool, a dialog appears which asks for a title for the printed map, the page size and rotation, printed resolution, and shows a preview of what will be printed.
 
   .. image:: /images/projects/geomoose/geomoose-quickstart-05a.png
 

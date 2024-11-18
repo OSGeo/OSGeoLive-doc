@@ -1,27 +1,29 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
 # Thomas Gratier <thomas_gratier@yahoo.fr>, 2017
-# Nicolas Roelandt (Personnel), 2021
 # MarieSilvestre, 2022
+# Nicolas Roelandt (Personnel), 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-20 21:55-0500\n"
-"PO-Revision-Date: 2017-09-20 16:04+0000\n"
-"Last-Translator: MarieSilvestre, 2022\n"
-"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
+"POT-Creation-Date: 2022-08-01 17:00+0000\n"
+"PO-Revision-Date: 2024-10-01 09:17+0000\n"
+"Last-Translator: Edouard Choinière <echoix@users.noreply.weblate.osgeo.org>\n"
+"Language-Team: French <https://weblate.osgeo.org/projects/osgeolive/"
+"virtualization_quickstart/fr/>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:10
 msgid "Running in a Virtual Machine"
@@ -54,7 +56,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:25
 msgid ""
-"Download `Virtual Box <https://www.virtualbox.org/>`_  for your platform, "
+"Download `Virtual Box <https://www.virtualbox.org/>`_ for your platform, "
 "and install the software. On Windows run the installer, or on Ubuntu-like "
 "Linux systems run the following:"
 msgstr ""
@@ -90,7 +92,7 @@ msgstr ""
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:36
 msgid ""
 "**Spare**: Minimum 20 GB Hard Disk Space. The virtual disk file (vmdk) from "
-":doc:`live.osgeo.org <../download>`  unzips to almost 10 GB. You'll also "
+":doc:`live.osgeo.org <../download>` unzips to almost 10 GB. You'll also "
 "want more space to allow some room to work on the virtual machine. So a "
 "total of 20 GB is a good recommendation."
 msgstr ""
@@ -203,11 +205,8 @@ msgstr ""
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:103
 msgid ""
-"``sudo apt-get install --yes virtualbox-guest-dkms virtualbox-guest-utils "
-"virtualbox-guest-x11``"
+"``sudo apt-get install --yes virtualbox-guest-utils virtualbox-guest-x11``"
 msgstr ""
-"``sudo apt-get install --yes virtualbox-guest-dkms virtualbox-guest-utils "
-"virtualbox-guest-x11``"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:105
 msgid ""
@@ -232,7 +231,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:110
 msgid "In the terminal type:"
-msgstr ""
+msgstr "Tapez dans le terminal :"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:112
 msgid "``sudo ./VBoxLinuxAdditions.run``"
@@ -356,18 +355,18 @@ msgstr ":doc:`osgeolive_install_quickstart`"
 msgid ":doc:`usb_quickstart`"
 msgstr ":doc:`usb_quickstart`"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "Pas de logo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "Projet OSGeo"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "Communauté OSGeo"

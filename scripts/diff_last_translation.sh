@@ -1,6 +1,6 @@
 #!/bin/sh
 #################################################
-# 
+#
 # Purpose: Provide diff between the last translation
 #          commit and the latest english commit
 # Author:  Angelos Tzotsos
@@ -9,7 +9,7 @@
 # Copyright (c) 2016-2018 Open Source Geospatial Foundation (OSGeo)
 #
 # Licensed under the GNU LGPL.
-# 
+#
 # This library is free software; you can redistribute it and/or modify it
 # under the terms of the GNU Lesser General Public License as published
 # by the Free Software Foundation, either version 2.1 of the License,

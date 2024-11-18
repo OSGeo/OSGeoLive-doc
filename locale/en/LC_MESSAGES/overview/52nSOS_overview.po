@@ -8,14 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-06-21 20:07+0000\n"
+"POT-Creation-Date: 2024-09-26 14:03+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../build/doc/overview/52nSOS_overview.rst:18
 msgid "52 North SOS"
@@ -32,7 +32,6 @@ msgid ""
 "in a stream, a weather station, or an air quality monitoring station."
 msgstr ""
 
-#: ../../build/doc/overview/52nSOS_overview.rst:-1
 msgid "52nSOS screenshot"
 msgstr ""
 
@@ -50,7 +49,7 @@ msgstr ""
 
 #: ../../build/doc/overview/52nSOS_overview.rst:41
 msgid ""
-"**Helgoland**: The SOS contains the Helgoland application for  the "
+"**Helgoland**: The SOS contains the Helgoland application for the "
 "exploration, analysis and visualization of Sensor Web data in various "
 "fields of use, e.g. hydrology, meteorology, environmental monitoring, "
 "traffic management."
@@ -311,27 +310,27 @@ msgstr ""
 
 #: ../../build/doc/overview/52nSOS_overview.rst:153
 msgid ""
-"**Community Website:** https://52north.org/research/research-labs/sensor-"
-"web/"
+"**Community Website:** https://52north.org/research/scope/research-data-"
+"infrastructures/"
 msgstr ""
 
 #: ../../build/doc/overview/52nSOS_overview.rst:155
-msgid "**Other 52°North projects on OSGeoLive:** :doc:`WPS <./52nWPS_overview>`"
+msgid "This project is only included on the OSGeoLive virtual machine disk (VMDK)"
 msgstr ""
 
-#: ../../build/doc/overview/52nSOS_overview.rst:162
+#: ../../build/doc/overview/52nSOS_overview.rst:158
 msgid "Quickstart"
 msgstr ""
 
-#: ../../build/doc/overview/52nSOS_overview.rst:164
+#: ../../build/doc/overview/52nSOS_overview.rst:160
 msgid ":doc:`Quickstart documentation <../quickstart/52nSOS_quickstart>`"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr ""
 

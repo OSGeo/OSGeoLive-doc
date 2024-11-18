@@ -17,7 +17,7 @@
 
 Open Source Geospatial Content Management System
 
-GeoNode is a web-based application and platform for developing geospatial information systems (GIS) and for deploying spatial data infrastructures (SDI). 
+GeoNode is a web-based application and platform for developing geospatial information systems (GIS) and for deploying spatial data infrastructures (SDI).
 
 
 .. contents:: Contents
@@ -27,10 +27,9 @@ GeoNode is a web-based application and platform for developing geospatial inform
 Start GeoNode
 =============
 
-To start GeoNode on your OSGeoLive DVD you have to
-choose :menuselection:`Geospatial --> Browser Clients --> GeoNode --> Start GeoNode` and
-after a few moments the GeoNode webpage will automatically
-open at http://geonode. The page will look like the image below.
+To start GeoNode on your OSGeoLive DVD you have to choose |menu_geonode-Start|
+and after a few moments the GeoNode webpage will automatically open at
+http://geonode. The page will look like the image below.
 
     .. figure:: /images/projects/geonode/geonode_screenshot.png
       :scale: 70%
@@ -91,13 +90,13 @@ You should now be able to see all the files you want to upload.
    .. figure:: /images/projects/geonode/geonode_files_to_be_uploaded.png
      :scale: 70%
 
- .. Tip:: GeoNode has the ability to restrict who can view, edit, and manage layers. On the right side of the page you can see the *Permission* section, where you can limit the access on your layer. 
+ .. Tip:: GeoNode has the ability to restrict who can view, edit, and manage layers. On the right side of the page you can see the *Permission* section, where you can limit the access on your layer.
    Under *Who can view and download this data*, select *Any registered user*. This will ensure that anonymous view access is disabled.
    In the same area, under *Who can edit this data*, select your username. This will ensure that only you are able to edit the data in the layer.
 
     .. figure:: /images/projects/geonode/geonode_permission.png
       :scale: 70%
-    
+
 5. To upload data, click the *Upload* button at the bottom.
 
     .. figure:: /images/projects/geonode/geonode_upload_bar.png
@@ -138,7 +137,7 @@ The next step for you is to create a map and add the newly created layers to thi
 
    In this interface there is a toolbar, layer list, and map window. The map window contains the OpenStreetMap layer by default.
 
-3. Click on the *New Layers* button and select *Add Layers*. 
+3. Click on the *New Layers* button and select *Add Layers*.
 
    .. figure:: /images/projects/geonode/geonode_addlayerslink.png
      :scale: 70%
@@ -208,15 +207,15 @@ Your map can now be shared.
 What next?
 ==========
 
-Now you've gotten a quick insight in the possibilities of GeoNode. To learn more about GeoNode and its features, visit our webpage www.geonode.org. 
+Now you've gotten a quick insight in the possibilities of GeoNode. To learn more about GeoNode and its features, visit our webpage www.geonode.org.
 
 To install GeoNode on your own server, follow our `Quick Installation Guide <https://docs.geonode.org/en/master/start/index.html#quick-installation-guide>`_ .
 
 In order to get started with GeoNode our `documentation <https://docs.geonode.org/en/master/>`_ might be useful.
 
 If you need help or want to get some information about a specific topic please
-don't hasitate to ask us! You can do this through the #geonode IRC channel using
-https://webchat.freenode.net/, through the `GeoNode Gitter channel <https://gitter.im/GeoNode/general>`_
+don't hesitate to ask us! You can do this through the #geonode IRC channel using
+https://web.libera.chat/, through the `GeoNode Gitter channel <https://app.gitter.im/#/room/#GeoNode_general:gitter.im>`_
 or by asking your question in our `mailing list <https://lists.osgeo.org/cgi-bin/mailman/listinfo/geonode-users>`_ !
-    
-    
+
+

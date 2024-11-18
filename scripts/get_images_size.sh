@@ -3,7 +3,7 @@
 ###############################################################################
 #  Copyright (c) 2017, Vicky Vergara <vicky_vergara@hotmail.com>
 #
-#  Licence:  GPL-2.0  
+#  Licence:  GPL-2.0
 #
 #  Permission is hereby granted, free of charge, to any person obtaining a
 #  copy of this software and associated documentation files (the "Software"),
@@ -52,10 +52,10 @@ function print_usage {
     echo
     echo From the root of the repository:
     echo "bash bin/get_images_size.sh path/to/images"
-    echo 
+    echo
     echo Example execution:
     echo "bash get_images_size.sh doc/images/projects/*/logo*"
-    
+
     echo
     exit 1
 }

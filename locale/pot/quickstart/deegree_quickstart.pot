@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 15.0\n"
+"Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-13 16:00+0000\n"
+"POT-Creation-Date: 2024-08-17 15:05-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -45,7 +45,7 @@ msgid "Start deegree 3 webservices"
 msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:42
-msgid "Choose *'Start deegree'* from the :menuselection:`Geospatial --> Web Services --> deegree` menu. The application will take a few moments to start up."
+msgid "Choose |menu_deegree-Start|. The application will take a few moments to start up."
 msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:45
@@ -85,7 +85,7 @@ msgid "Click on *'see layers'* to open a simple map-client. The service is confi
 msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:70
-msgid "Click on the **+** on the right side to open a layer tree showing all available  layers. You can activate the a variety of layers served by the deegree WMS here."
+msgid "Click on the **+** on the right side to open a layer tree showing all available layers. You can activate the a variety of layers served by the deegree WMS here."
 msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:73
@@ -112,11 +112,11 @@ msgstr ""
 msgid "deegree docker images - Available here: https://hub.docker.com/r/deegree/deegree3-docker/"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr ""
 
@@ -124,6 +124,7 @@ msgstr ""
 msgid "OSGeo Project"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
 msgstr ""

@@ -1,0 +1,190 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2019, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+# Translators:
+# Antonio Rotundo <anto.rotundo@gmail.com>, 2021
+# Luca Delucchi <lucadeluge@gmail.com>, 2022
+# Simone Falceri, 2022
+# Federico Gianoli <fritz4@gmail.com>, 2022
+# Stefano Campus <skampus@gmail.com>, 2022
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 14.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"PO-Revision-Date: 2023-12-27 23:45+0000\n"
+"Last-Translator: luca <lucadeluge@gmail.com>\n"
+"Language-Team: Italian <https://weblate.osgeo.org/projects/osgeolive/"
+"t-rex_quickstart/it/>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.3\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:20
+msgid "t-rex Quickstart"
+msgstr "Guida rapida t-rex"
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:22
+msgid ""
+"t-rex is a vector tile server specialized on publishing MVT tiles from "
+"your own data."
+msgstr ""
+"t-rex è un server per tile vettoriali specializzato nel pubblicare tile "
+"MVT da dati propri. "
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:24
+msgid "This Quick Start describes how to:"
+msgstr "Questa Guida Rapida descrive come:"
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:26
+msgid ""
+"generate vector tiles without configuration and inspect them with built-"
+"in viewers"
+msgstr ""
+"generare tile vettoriali senza configurazione e ispezionandole con il "
+"visualizzatore di default"
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:27
+msgid "generate a tile cache"
+msgstr "generare una cache di tile"
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:30
+msgid "Contents"
+msgstr "Contenuti"
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:33
+msgid "Start T-Rex"
+msgstr "Avvia T-Rex"
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:35
+msgid "Choose |menu_t-rex|."
+msgstr "Scegliere |menu_t-rex|."
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:37
+msgid ""
+"This starts t-rex in zero-config mode connecting to PostGIS database "
+"`osm_local`. A browser window is opened showing the t-rex backend."
+msgstr ""
+"Questo avvia t-rex in modalità zero-configurazione connettendosi al "
+"database PostGIS `osm_local`. Viene aperta una finestra del browser che "
+"mostra il backend di t-rex."
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:44
+msgid "Built-in viewers"
+msgstr "Visualizzatori incorporati"
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:46
+msgid "t-rex comes with built-in viewers for inspecting generated vector tiles."
+msgstr ""
+"t-rex è dotato di visualizzatori integrati per ispezionare i tasselli "
+"vettoriali generati."
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:48
+msgid ""
+"Click on th `X-Ray` entry in the upper right menu to open the x-ray "
+"viewer."
+msgstr ""
+"Clicca sulla voce `X-Ray` nel menu in alto a destra per aprire il "
+"visualizzatore di x-ray."
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:49
+msgid "Hover the mouse on a line to inspect the content of a feature."
+msgstr "Passa il mouse su una linea per ispezionare il contenuto di un elemento."
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:54
+msgid "Try also the other viewers."
+msgstr "Prova anche gli altri visualizzatori."
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:56
+msgid ""
+"The Mapbox GL viewer and Maputnik require WebGL support, which is "
+"probably not available when running OSGeoLive in a VM."
+msgstr ""
+"Il visualizzatore Mapbox GL e Maputnik richiedono il supporto WebGL, che "
+"probabilmente non è disponibile quando si esegue OSGeoLive in una VM."
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:60
+msgid "Cache seeding"
+msgstr "Cache seeding"
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:62
+msgid "Close the browser and the terminal window running t-rex."
+msgstr "Chiudi il browser e la finestra del terminale che esegue t-rex."
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:63
+msgid "Open any text editor (e.g. :menuselection:`Accessories --> FeatherPad`)."
+msgstr ""
+"Apri un qualsiasi editor di testo (ad esempio :menuselection:`Accessori "
+"--> FeatherPad`)."
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:65
+msgid ""
+"Create the file \"ne.toml\" in your home directory: "
+":file:`/home/user/ne.toml`"
+msgstr "Crea il file \"ne.toml\" nella home directory: :file:`/home/user/ne.toml`"
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:68
+msgid "Put the following content in it::"
+msgstr "Mettici il seguente contenuto::"
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:111
+msgid "Open a terminal (:menuselection:`System Tools --> LXTerminal`) and type::"
+msgstr ""
+"Apri un terminale (:menuselection:`System Tools --> LXTerminal`) e "
+"digita::"
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:115
+msgid "To inspect the generated tiles type::"
+msgstr "Per ispezionare i tasselli generati digita::"
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:121
+msgid "What next?"
+msgstr "E ora?"
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:123
+msgid ""
+"To create your own map viewer you can use the snippets on the info page "
+"in the t-rex backend."
+msgstr ""
+"Per creare il tuo visualizzatore di mappe puoi usare gli snippet nella "
+"pagina delle informazioni nel backend di t-rex."
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:125
+msgid ""
+"After that you can use the built-in Maputnik editor (also linked from the"
+" info page) to create your own Mapbox GL Json style."
+msgstr ""
+"Dopo di che puoi usare l'editor integrato di Maputnik (anche questo "
+"collegato dalla pagina delle informazioni) per creare il tuo stile Mapbox"
+" GL Json."
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:128
+msgid "Website: https://t-rex.tileserver.ch/"
+msgstr "Sito internet: https://t-rex.tileserver.ch/"
+
+#: ../../build/doc/quickstart/t-rex_quickstart.rst:129
+msgid "Support: https://github.com/t-rex-tileserver/t-rex/"
+msgstr "Supporto: https://github.com/t-rex-tileserver/t-rex/"
+
+#: ../../build/doc/<rst_epilog>:13
+msgid "vmdk"
+msgstr "vmdk"
+
+#: ../../build/doc/<rst_epilog>:16
+msgid "nologo"
+msgstr "nologo"
+
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Project"
+msgstr "Progetto OSGeo"
+
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Community"
+msgstr "Comunità OSGeo"

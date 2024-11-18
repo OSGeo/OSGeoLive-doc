@@ -1,25 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Ko Nagase <nagase@georepublic.co.jp>, 2021
+# Ko Nagase <nagase@georepublic.co.jp>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
+"POT-Creation-Date: 2022-08-06 09:15-0500\n"
+"PO-Revision-Date: 2024-11-02 13:09+0000\n"
+"Last-Translator: Ko Nagase <geosanak@gmail.com>\n"
+"Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
+"openjump_quickstart/ja/>\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:20
 msgid "OpenJUMP GIS Quickstart"
@@ -34,7 +35,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:26
 msgid "Contents"
-msgstr ""
+msgstr "目次"
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:29
 msgid "Start OpenJUMP"
@@ -180,7 +181,7 @@ msgid ""
 "gives you a button description). You should now see your mouse cursor change"
 " to a small black crosshair when you move it over the Map View."
 msgstr ""
-"次に、中央に黄色の正方形がある青い十字が表示されているボタンをクリックします。 :guilabel:`Move Vertex Tool`  "
+"次に、中央に黄色の正方形がある青い十字が表示されているボタンをクリックします。 :guilabel:`Move Vertex Tool` "
 "(ボタンの上にマウスカーソルを置くとボタンの説明が表示されます)。これで、マップのビュー上にマウスカーソルを移動すると、マウスカーソルが小さな黒い十字に変わります。"
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:93
@@ -192,7 +193,7 @@ msgstr "これを使用して、前に選択したジオメトリの頂点の1�
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:99
 msgid "What next?"
-msgstr "次のステップ"
+msgstr "次のステップは何?"
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:101
 msgid ""
@@ -213,7 +214,7 @@ msgid ""
 "You can read the OpenJUMP wiki here: "
 "http://ojwiki.soldin.de/index.php?title=Main_Page"
 msgstr ""
-"OpenJUMPのウィキは: http://ojwiki.soldin.de/index.php?title=Main_Page   "
+"OpenJUMPのウィキは: http://ojwiki.soldin.de/index.php?title=Main_Page  "
 "からアクセスできます。"
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:107
@@ -221,7 +222,7 @@ msgid ""
 "You can get help fast on the OpenJUMP users mailing list: "
 "https://groups.google.com/forum/#!forum/openjump-users"
 msgstr ""
-"OpenJUMPユーザメーリングリスト:  https://groups.google.com/forum/#!forum/openjump-users"
+"OpenJUMPユーザメーリングリスト: https://groups.google.com/forum/#!forum/openjump-users"
 " で、すばやくヘルプを見ることができます。"
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:109
@@ -229,21 +230,21 @@ msgid ""
 "The latest OpenJUMP version can be found here: "
 "https://sourceforge.net/projects/jump-pilot/files/OpenJUMP/"
 msgstr ""
-"OpenJUMPの最新バージョンはこちら:  https://sourceforge.net/projects/jump-"
+"OpenJUMPの最新バージョンはこちら: https://sourceforge.net/projects/jump-"
 "pilot/files/OpenJUMP/"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "ロゴなし"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo プロジェクト"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo コミュニティ"

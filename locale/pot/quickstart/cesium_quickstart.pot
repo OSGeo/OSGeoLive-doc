@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
+"POT-Creation-Date: 2024-08-17 15:05-0600\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,7 +57,7 @@ msgid "Switch between 3D, 2.5D and 2D"
 msgstr ""
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:42
-msgid "Click on the wire framed globe icon to select your preferred view.  Here the 2.5D Columbus view has been selected."
+msgid "Click on the wire framed globe icon to select your preferred view. Here the 2.5D Columbus view has been selected."
 msgstr ""
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:None
@@ -78,7 +78,7 @@ msgid "Select the Image layer"
 msgstr ""
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:56
-msgid "Click on the last icon and select a type of image service.  Here the Natural Earth II is selected and you can see how the map's image layer has changed."
+msgid "Click on the last icon and select a type of image service. Here the Natural Earth II is selected and you can see how the map's image layer has changed."
 msgstr ""
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:65
@@ -90,7 +90,7 @@ msgid "Watch our `video tutorials <https://www.youtube.com/playlist?list=PLBk_Dt
 msgstr ""
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:68
-msgid "Read our written `tutorials <https://cesium.com/docs>`_."
+msgid "Read our written `tutorials <https://cesium.com/learn>`_."
 msgstr ""
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:70
@@ -105,11 +105,11 @@ msgstr ""
 msgid "In-depth documentation is available `locally <http://localhost/cesium/>`_ on the OSGeoLive package."
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
 msgstr ""
 

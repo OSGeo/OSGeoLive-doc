@@ -8,20 +8,21 @@
 # Vicky Vergara <vicky@georepublic.de>, 2020
 # Astrid Emde <astrid_emde@osgeo.org>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:06+0000\n"
-"Last-Translator: Astrid Emde <astrid_emde@osgeo.org>, 2022\n"
-"Language-Team: German (https://www.transifex.com/osgeo/teams/66156/de/)\n"
+"PO-Revision-Date: 2024-10-14 15:25+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
+"gdal_quickstart/de/>\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:21
 msgid "GDAL/OGR Quickstart"
@@ -37,7 +38,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:27
 msgid "This Quick Start describes how to:"
-msgstr "Das Quickstart beschreibt Folgendes:"
+msgstr "Dieser Quickstart beschreibt, wie Sie:"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:35
 msgid "GDAL"
@@ -164,7 +165,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:118
 msgid "Each format reports if it is"
-msgstr "Zu jedem Format wird ausgegeben, welche Operationen verfügbar sind:"
+msgstr "Zu jedem Format wird ausgegeben, welche Operationen verfügbar sind"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:116
 msgid "read only (ro),"
@@ -194,12 +195,12 @@ msgstr "Formatumwandlung"
 #: ../../build/doc/quickstart/gdal_quickstart.rst:135
 msgid ""
 "Translations are accomplished with the gdal_translate command. The default "
-"output format is GeoTIFF.  The `-of` flag is used to select an output format"
+"output format is GeoTIFF. The `-of` flag is used to select an output format"
 " and the -co flag is used to specify a creation option:"
 msgstr ""
 "Formatumwandlungen erfolgen mit gdal_translate. Das Standardausgabeformat "
 "ist GeoTIFF. Über die Angabe `-of` kann ein Ausgabeformat angegeben werden. "
-"Über `-co` können weitere Optionen für die Erzeugung gesetzt werden."
+"Über `-co` können weitere Optionen für die Erzeugung gesetzt werden:"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:143
 msgid "The `-ot` switch can be used to alter the output data type."
@@ -267,7 +268,7 @@ msgid ""
 "more about ogrinfo later in this tutorial)"
 msgstr ""
 "Schauen Sie sich Ihre Ausgabe-Shapedatei mit QGIS und ogrinfo an (später "
-"werden Sie noch mehr über ogrinfo erfahren)."
+"werden Sie noch mehr über ogrinfo erfahren)"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:217
 msgid "Reprojecting"
@@ -301,12 +302,12 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:240
 msgid "Here we reproject to the Ortho projection."
-msgstr "Nun projizieren wir in die Orthoprojektion. "
+msgstr "Nun projizieren wir in die Orthoprojektion."
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:250
 msgid ""
-"Note how the poles are clipped?  This is because the edges at the pole can't"
-" be reprojected gdalwarp does not read all the data.  We can force gdalwarp "
+"Note how the poles are clipped? This is because the edges at the pole can't"
+" be reprojected gdalwarp does not read all the data. We can force gdalwarp "
 "to read a bunch of surplus data around chunks as one way to resolve this. "
 "Read more about this in the RasterTutorial "
 "https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial."
@@ -328,7 +329,7 @@ msgid ""
 msgstr ""
 "gdal_merge.py ist ein Python Skript, das für einfache Zusammenfassungen "
 "verwendet werden kann. Fassen Sie die Dateien east.tif und west.tif in eine "
-"Datei zusammen."
+"Datei zusammen:"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:268
 msgid ""
@@ -404,7 +405,7 @@ msgstr "Konvertieren Sie die Länder in das GML-Format."
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:435
 msgid "Things to try"
-msgstr "Weitere Aufgaben"
+msgstr "Was Sie noch ausprobieren können"
 
 #: ../../build/doc/quickstart/gdal_quickstart.rst:437
 msgid "Here are some additional challenges for you to try:"
@@ -481,16 +482,16 @@ msgstr ""
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Community"

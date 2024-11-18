@@ -4,23 +4,24 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 # 
 # Translators:
-# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2020
+# Zoltan Siki <siki.zoltan@epito.bme.hu>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2020\n"
-"Language-Team: Hungarian (https://www.transifex.com/osgeo/teams/66156/hu/)\n"
+"PO-Revision-Date: 2024-10-14 00:38+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Hungarian <https://weblate.osgeo.org/projects/osgeolive/"
+"geonetwork_quickstart/hu/>\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: hu\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:27
 msgid "GeoNetwork Quickstart"
@@ -50,6 +51,11 @@ msgid ""
 "opensource.org/manuals/trunk/en/install-guide/index.html>`__ if you are "
 "using GeoNetwork in some other context."
 msgstr ""
+"A GeoNetwork-öt közvetlenül elindíthatja az OSGeoLive start menüjéből és "
+"néhány pillanat múlva elérhető lesz a http://localhost:8080/geonetwork "
+"címen. Nézze meg a `Telepítési útmutatót <https://geonetwork-"
+"opensource.org/manuals/trunk/en/install-guide/index.html>`__, ha másik "
+"környezetben használná a GeoNetwork-öt."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:39
 msgid ""
@@ -73,15 +79,15 @@ msgid ""
 "throughout this document as the *homepage*."
 msgstr ""
 "Az asztalon a Web szolgáltatások mappában (vagy a start menüből) kattinson "
-"duplán a **start GeoNetwork**-re. Ez megnyitja a FireFox böngészőt  a "
-"``http://localhost:8880/geonetwork`` URL-el. Erre a dokumentumban végig mint"
-" \"honlap\" hivatkozunk."
+"duplán a **start GeoNetwork**-re. Ez megnyitja a FireFox böngészőt a "
+"``http://localhost:8880/geonetwork`` URL-el. Erre a dokumentumban végig mint "
+"\"honlap\" hivatkozunk."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:47
 msgid ""
-"You can return to the  homepage at any point by selecting the catalogue logo"
+"You can return to the homepage at any point by selecting the catalogue logo"
 " in the top left of the top toolbar. In the screenshot below, this is "
-"labelled  “My GeoNetwork catalogue” but it may have a different name and "
+"labelled “My GeoNetwork catalogue” but it may have a different name and "
 "logo."
 msgstr ""
 "Bármikor visszatérhet a honlapra a katalógus logót kiválasztva a bal-felső "
@@ -198,20 +204,19 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:97
 msgid "Select **Search** in the top toolbar to access the Search page."
-msgstr ""
-"Válassza a **Search**.öt a felső eszközsorban a Keresés lap eléréséhez"
+msgstr "Válassza a **Search**.öt a felső eszközsorban a Keresés lap eléréséhez."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:99
 msgid "The Search page provides different ways for search:"
-msgstr "A keresés oldal különböző keresési módokat biztosít"
+msgstr "A keresés oldal különböző keresési módokat biztosít:"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:101
 msgid "a full text search box providing suggestions as you type,"
-msgstr "egy szabad szöveges keresőmező, amely gépelés közben javaslatokat ad."
+msgstr "egy szabad szöveges keresőmező, amely gépelés közben javaslatokat ad,"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:107
 msgid ""
-"*Search facets*, or  filters, that provide ways of narrowing down the search"
+"*Search facets*, or filters, that provide ways of narrowing down the search"
 " results, such as *Type of Resource*, *Topic*, *Keywords*,"
 msgstr ""
 "*Search facets* vagy szűrök a keresési eredmények szűkítését biztosítják, "
@@ -295,7 +300,7 @@ msgid ""
 "Switching to **Full view** will show more detailed metadata. To switch back "
 "to the original view select **Default view** from the list."
 msgstr ""
-"A **Full view**-ra váltva részletesebb metaadatokat  láthatunk. Az eredeti "
+"A **Full view**-ra váltva részletesebb metaadatokat láthatunk. Az eredeti "
 "nézethez visszatérhet a **Default view** kiválasztásával a listából."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:148
@@ -381,11 +386,11 @@ msgid ""
 "openstreetmap),"
 msgstr ""
 "Létező rétegek kezelése vagy a háttér térkép módosítása (az alapértelmezett "
-"az openstreetmap)."
+"az openstreetmap),"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:172
 msgid "Filter layers on the map (if configured),"
-msgstr "Rétegek szűrése a térképen  (ha konfigurálta)."
+msgstr "Rétegek szűrése a térképen (ha konfigurálta),"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:173
 msgid ""
@@ -436,7 +441,7 @@ msgstr "Nagyítás a kezdeti terjedelemre"
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:190
 msgid "Zoom to your position (if your browser is location-enabled),"
 msgstr ""
-"Nagyítson a pozíciójára (ha a böngészőben a hely elérését engedélyezte)."
+"Nagyítson a pozíciójára (ha a böngészőben a hely elérését engedélyezte),"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:191
 msgid "Add a graticule (grid lines) to your map."
@@ -493,10 +498,10 @@ msgid ""
 " on **Describing Information**, to learn how to create and edit metadata "
 "records."
 msgstr ""
-"Látogassa meg  a `Geonetwork felhasználói kézikönyvet <https://geonetwork-"
-"opensource.org/manuals/trunk/en/user-guide/index.html>`_ és nézze meg a "
-"**Describing Information** fejezetet, hogy megtanulja hogyan hozzon létre és"
-" szerkesszen metaadat rekordokat."
+"Látogassa meg a `Geonetwork felhasználói kézikönyvet <https://geonetwork-"
+"opensource.org/manuals/trunk/en/user-guide/index.html>`_ és nézze meg a **"
+"Describing Information** fejezetet, hogy megtanulja hogyan hozzon létre és "
+"szerkesszen metaadat rekordokat."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:223
 msgid ""
@@ -511,16 +516,16 @@ msgstr ""
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo Projekt"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo közösség"

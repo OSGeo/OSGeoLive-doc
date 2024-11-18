@@ -7,20 +7,22 @@
 # MarPetra <mvergaratrejo@gmail.com>, 2020
 # Vicky Vergara <vicky@georepublic.de>, 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:10+0000\n"
-"Last-Translator: Vicky Vergara <vicky@georepublic.de>, 2022\n"
-"Language-Team: Spanish (https://www.transifex.com/osgeo/teams/66156/es/)\n"
+"PO-Revision-Date: 2024-08-17 19:57+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"r_overview/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: es\n"
-"Plural-Forms: nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n != 0 && n % 1000000 == 0)"
+" ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/overview/R_overview.rst:14
 msgid "R"
@@ -61,13 +63,13 @@ msgstr ""
 "Los usuarios pueden realizar una amplia gama de tareas tales como: "
 "clasificación de imágenes, análisis estadístico para inferir relaciones "
 "espaciales y patrones de características, y otras enumeradas en las "
-"características principales a continuación.  Las funciones disponibles a "
+"características principales a continuación. Las funciones disponibles a "
 "través del complemento R y las capacidades avanzadas que se encuentran en "
 "GIS y el software de procesamiento de imágenes. Usar paquetes para usuarios "
 "de paralelización puede reducir drásticamente el tiempo de cálculo y "
 "aumentar esta capacidad. Varios paquetes proporcionan conexión con otras "
-"herramientas y software de OSGeo. Puede conectar fácilmente R con GRASS-GIS,"
-" Qgis, postgreSQL y postGIS."
+"herramientas y software de OSGeo. Puede conectar fácilmente R con GRASS-GIS, "
+"Qgis, postgreSQL y postGIS."
 
 #: ../../build/doc/overview/R_overview.rst:36
 msgid ""
@@ -95,10 +97,10 @@ msgid ""
 "without major code modifications."
 msgstr ""
 "R es una implementación del lenguaje de programación de S y hay "
-"compatibilidad significativa entre R, el legado del código S y el código "
-"S-Plus así como entre R y la moderna versión comercial de S, TIBCO Spotfire "
-"s +.  Esto permite convertir diferentes versiones de código S  para ejecutar"
-" en R sin mayores modificaciones del código principal."
+"compatibilidad significativa entre R, el legado del código S y el código S-"
+"Plus así como entre R y la moderna versión comercial de S, TIBCO Spotfire s +"
+". Esto permite convertir diferentes versiones de código S para ejecutar en R "
+"sin mayores modificaciones del código principal."
 
 #: ../../build/doc/overview/R_overview.rstNone
 msgid "R screenshot"
@@ -114,7 +116,7 @@ msgid ""
 "similar Mathematical intensive applications"
 msgstr ""
 "Lenguaje de Programación Orientado a Objetos Completos diseñado para "
-"Estadísticas y Aplicaciones  Matemáticas Intensivas similares"
+"Estadísticas y Aplicaciones Matemáticas Intensivas similares"
 
 #: ../../build/doc/overview/R_overview.rst:60
 msgid ""
@@ -141,7 +143,7 @@ msgstr "Lectura y escritura de datos espaciales"
 
 #: ../../build/doc/overview/R_overview.rst:64
 msgid "Point pattern analysis"
-msgstr "Análisis de patrones de puntos "
+msgstr "Análisis de patrones de puntos"
 
 #: ../../build/doc/overview/R_overview.rst:65
 msgid "Geostatistics"

@@ -1,0 +1,128 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2022, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+# Translators:
+# Celine Vilain, 2022
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 17.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"PO-Revision-Date: 2023-07-03 08:33+0000\n"
+"Last-Translator: Michel Stuyts <michel.stuyts@gmail.com>\n"
+"Language-Team: Dutch <https://weblate.osgeo.org/projects/osgeolive/"
+"actinia_overview/nl/>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: ../../build/doc/overview/actinia_overview.rst:18
+msgid "actinia"
+msgstr "actinia"
+
+#: ../../build/doc/overview/actinia_overview.rst:21
+msgid "High Performance Geospatial Processing"
+msgstr ""
+
+#: ../../build/doc/overview/actinia_overview.rst:23
+msgid ""
+"`Actinia <https://actinia.mundialis.de/>`__ is an open source REST API "
+"for scalable, distributed, high performance processing of geographical "
+"data that uses mainly `GRASS GIS <https://grass.osgeo.org/>`__ for "
+"computational tasks."
+msgstr ""
+
+#: ../../build/doc/overview/actinia_overview.rst:28
+msgid ""
+"It provides a REST API to process satellite images, time series of "
+"satellite images, arbitrary raster data with geographical relations and "
+"vector data."
+msgstr ""
+
+#: ../../build/doc/overview/actinia_overview.rst:-1
+msgid "actinia screenshot"
+msgstr ""
+
+#: ../../build/doc/overview/actinia_overview.rst:39
+msgid "Core Features"
+msgstr "Kernmogelijkheden"
+
+#: ../../build/doc/overview/actinia_overview.rst:41
+msgid ""
+"REST API to process satellite images, time series of satellite images, "
+"raster and vector data."
+msgstr ""
+
+#: ../../build/doc/overview/actinia_overview.rst:42
+msgid "Explore the `tutorial <https://actinia-org.github.io/actinia-core/>`_."
+msgstr ""
+
+#: ../../build/doc/overview/actinia_overview.rst:45
+msgid "Details"
+msgstr "Details"
+
+#: ../../build/doc/overview/actinia_overview.rst:47
+msgid "**Website:** https://actinia.mundialis.de/"
+msgstr ""
+
+#: ../../build/doc/overview/actinia_overview.rst:49
+msgid "**Licence:** GNU General Public License (GPL) version 3"
+msgstr ""
+
+#: ../../build/doc/overview/actinia_overview.rst:51
+msgid "**Software Version:** |version-actinia|"
+msgstr ""
+
+#: ../../build/doc/overview/actinia_overview.rst:53
+msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
+msgstr ""
+
+#: ../../build/doc/overview/actinia_overview.rst:55
+msgid "**API Interfaces:** REST API, Python"
+msgstr ""
+
+#: ../../build/doc/overview/actinia_overview.rst:57
+msgid ""
+"**API documentation:** "
+"https://redocly.github.io/redoc/?url=https://actinia.mundialis.de/latest/swagger.json"
+msgstr ""
+
+#: ../../build/doc/overview/actinia_overview.rst:59
+msgid "**Support:** https://github.com/actinia-org/actinia-core"
+msgstr ""
+
+#: ../../build/doc/overview/actinia_overview.rst:61
+msgid ""
+"This project is only included on the OSGeoLive virtual machine disk "
+"(VMDK)"
+msgstr ""
+
+#: ../../build/doc/overview/actinia_overview.rst:64
+msgid "Quickstart"
+msgstr "Snelstart"
+
+#: ../../build/doc/overview/actinia_overview.rst:66
+msgid ":doc:`Quickstart documentation <../quickstart/actinia_quickstart>`"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:13
+msgid "vmdk"
+msgstr "vmdk"
+
+#: ../../build/doc/<rst_epilog>:16
+msgid "nologo"
+msgstr "nologo"
+
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Project"
+msgstr "OSGeo Project"
+
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Community"
+msgstr "OSGeo Gemeenschap"

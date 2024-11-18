@@ -6,20 +6,22 @@
 # Translators:
 # Nicolas Roelandt (Personnel), 2022
 # 
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:03+0000\n"
-"Last-Translator: Nicolas Roelandt (Personnel), 2022\n"
-"Language-Team: French (https://www.transifex.com/osgeo/teams/66156/fr/)\n"
+"PO-Revision-Date: 2024-10-14 15:25+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: French <https://weblate.osgeo.org/projects/osgeolive/"
+"pgrouting_quickstart/fr/>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr\n"
-"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : ((n != 0 && n % "
+"1000000 == 0) ? 1 : 2);\n"
+"X-Generator: Weblate 5.4.3\n"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:23
 msgid "pgRouting Quickstart"
@@ -49,7 +51,7 @@ msgid ""
 "In this example we will create a database called `city_routing` and enable "
 "pgRouting in the database."
 msgstr ""
-"Dans cet exemple, nous allons créer une base de données appelée  "
+"Dans cet exemple, nous allons créer une base de données appelée "
 "`city_routing` et activer pgRouting dans la base de données."
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:36
@@ -94,7 +96,7 @@ msgstr "Vérifiez la version installée"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:86
 msgid "Output shows"
-msgstr "La sortie montre "
+msgstr "La sortie montre"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:92
 msgid "Load the data from osm file:"
@@ -110,7 +112,7 @@ msgstr "Vérifiez les données importées"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:179
 msgid "Connect to the `city_routing` database"
-msgstr "Connectez-vous à la base de données `city_routing` "
+msgstr "Connectez-vous à la base de données `city_routing`"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:185
 msgid "The :command:`\\\\d` command will list all available tables and sequences"
@@ -150,7 +152,7 @@ msgid ""
 "The inner SQL statement must always have field names `id`, `source`, "
 "`target`, and `cost` having `reverse_cost` as optional."
 msgstr ""
-"L’instruction SQL interne doit toujours avoir des noms de champ  `id`, "
+"L’instruction SQL interne doit toujours avoir des noms de champ `id`, "
 "`source`, `target` et `cost` ayant `reverse_cost` en option."
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:236
@@ -176,7 +178,7 @@ msgid ""
 "traverse a segment on an undirected graph, using `id` as the identifier of a"
 " vertex"
 msgstr ""
-"Exécutez la fonction de plus court chemin  de Dijkstra basée sur le temps en"
+"Exécutez la fonction de plus court chemin de Dijkstra basée sur le temps en"
 " quelques secondes pour parcourir un segment sur un graphe non dirigé, en "
 "utilisant `id` comme identificateur d’un sommet"
 
@@ -247,7 +249,7 @@ msgid ""
 " and OpenStreetMap road data\"` is available in: "
 "https://workshop.pgrouting.org."
 msgstr ""
-"**Atelier  pgRouting** - L'atelier `\"FOSS4G routing with pgRouting tools "
+"**Atelier pgRouting** - L'atelier `\"FOSS4G routing with pgRouting tools "
 "and OpenStreetMap road data\"` est disponible à l'adresse : "
 "https://workshop.pgrouting.org."
 
@@ -263,16 +265,16 @@ msgstr ""
 
 #: ../../build/doc/<rst_epilog>:12
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:15
 msgid "nologo"
-msgstr ""
+msgstr "Pas de logo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "Projet OSGeo"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "Communauté OSGeo"

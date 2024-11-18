@@ -9,11 +9,18 @@
 @NAME_ogc@
 ================================================================================
 
-The Open Geospatial Consortium (OGC) is an international consortium of more than 500 businesses, government agencies, research organizations, and universities driven to make geospatial (location) information and services FAIR - Findable, Accessible, Interoperable, and Reusable. OGC's member-driven consensus process creates royalty free, publicly available, open geospatial standards. Existing at the cutting edge, OGC actively analyzes and anticipates emerging tech trends, and runs an agile, collaborative Research and Development (R&D) lab - the OGC Innovation Program - that builds and tests innovative prototype solutions to members' use cases. OGC members together form a global forum of experts and communities that use location to connect people with technology and improve decision-making at all levels. OGC is committed to creating a sustainable future for us, our children, and future generations. A look at the `OGC
-Domain Working Groups <https://www.ogc.org/projects/groups/wg>`_
-shows the wide scope of current activity in the OGC.
+The Open Geospatial Consortium (OGC) is a collective problem-solving community of more than 550 experts representing industry, government, research and academia, collaborating to make geospatial (location) information and services FAIR - Findable, Accessible, Interoperable, and Reusable.
 
-The OGC Standards Baseline consists of the |OGC| standards for interfaces, encodings,
+The global OGC Community engages in a mix of activities related to location-based technologies:
+developing consensus-based open standards and best-practices;
+collaborating on problem solving in agile innovation initiatives; participating in member meetings, events, and workshops; and more.
+
+OGC's unique standards development process moves at the pace of innovation, with constant input from technology forecasting, practical prototyping, real-world testing, and community engagement.
+OGC bridges disparate sectors, domains, and technology trends, and encourages the cross-pollination of ideas between different communities of practice to improve decision-making at all levels. OGC is committed to creating an inclusive and sustainable future.
+
+A look at the `OGC Domain Working Groups <https://www.ogc.org/projects/groups/wg>`_ shows the wide scope of current activity in the OGC.
+
+The OGC Standards Baseline consists of the Open Geospatial Consortium |OGC| standards for interfaces, encodings,
 profiles, application schemas, and best practice documents. The |ORM|
 describes these
 standards and the relationships between them and related ISO standards. The ORM

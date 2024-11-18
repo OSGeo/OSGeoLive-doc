@@ -1,25 +1,26 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2011~2019, OSGeo
+# Copyright (C) 2011~2022, OSGeo
 # This file is distributed under the same license as the OSGeoLive package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
 # Translators:
-# Ko Nagase <nagase@georepublic.co.jp>, 2021
-# 
-#, fuzzy
+# Ko Nagase <nagase@georepublic.co.jp>, 2022
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 14.0\n"
+"Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2017-09-20 16:05+0000\n"
-"Last-Translator: Ko Nagase <nagase@georepublic.co.jp>, 2021\n"
-"Language-Team: Japanese (https://www.transifex.com/osgeo/teams/66156/ja/)\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2023-04-05 12:30-0600\n"
+"PO-Revision-Date: 2024-11-02 13:09+0000\n"
+"Last-Translator: Ko Nagase <geosanak@gmail.com>\n"
+"Language-Team: Japanese <https://weblate.osgeo.org/projects/osgeolive/"
+"zoo-project_quickstart/ja/>\n"
 "Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.4.3\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:23
 msgid "Zoo Project Quickstart"
@@ -27,42 +28,35 @@ msgstr "Zoo プロジェクト クイックスタート"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:25
 msgid ""
-"The ZOO-Project provides a developer friendly Web Processing Service (WPS) "
-"framework for creating and chaining Web Processing Services. A WPS provides "
-"web access to functions which run spatial algorithms."
+"The ZOO-Project provides a developer friendly Web Processing Service "
+"(WPS) framework for creating and chaining Web Processing Services. A WPS "
+"provides web access to functions which run spatial algorithms."
 msgstr ""
 "ZOOプロジェクトは、Web Processing Servicesを作成およびチェーンするための開発者向けのWeb Processing "
 "Service(WPS)フレームワークを提供します。WPSは空間アルゴリズムを実行する機能へのWebアクセスを提供します。"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:30
 msgid "Contents"
-msgstr ""
+msgstr "目次"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:33
 msgid "Start ZOO-Project"
 msgstr "ZOOプロジェクトを開始する"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:35
-msgid ""
-"From the Start menu, select :menuselection:`Geospatial --> Web Services --> "
-"ZOO Project`."
-msgstr ""
-"[スタート]メニューから :menuselection:`Geospatial --> Web Services --> ZOO Project` "
-"を選択します。"
+msgid "From the Start menu, select |menu_zoo-project|."
+msgstr "Startメニューから、 |menu_zoo-project| を選択します。"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:37
 msgid ""
-"Firefox will open the ZOO Project demonstration landing page. From here, you"
-" can select a demon application."
+"Firefox will open the ZOO Project demonstration landing page. From here, "
+"you can select a demon application."
 msgstr "FirefoxはZOOプロジェクトのデモランディングページを開きます。ここから、デモアプリケーションを選択できます。"
 
-#: ../../build/doc/quickstart/zoo-project_quickstart.rstNone
-#: ../../build/doc/quickstart/zoo-project_quickstart.rst:0
-#: ../../build/doc/quickstart/zoo-project_quickstart.rst:0
-#: ../../build/doc/quickstart/zoo-project_quickstart.rst:0
-#: ../../build/doc/quickstart/zoo-project_quickstart.rst:0
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:-1
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst
 msgid "screenshot"
-msgstr ""
+msgstr "スクリーンショット"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:45
 msgid "OGR spatial tools demo"
@@ -70,15 +64,15 @@ msgstr "OGR空間ツールのデモ"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:47
 msgid ""
-"On the ZOO Project demonstration landing page, click :guilabel:`view` on OGR"
-" spatial tools."
+"On the ZOO Project demonstration landing page, click :guilabel:`view` on "
+"OGR spatial tools."
 msgstr "ZOOプロジェクトのデモランディングページで、OGR空間ツールの :guilabel:`view` をクリックします。"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:48
 msgid ""
 "Click on the map to select a feature from the :doc:`GeoServer "
-"<../overview/geoserver_overview>` WFS Server, the feature will be displayed "
-"in blue."
+"<../overview/geoserver_overview>` WFS Server, the feature will be "
+"displayed in blue."
 msgstr ""
 "地図をクリックして :doc:`GeoServer <../overview/geoserver_overview>` WFS "
 "Serverから地物を選択すると、地物が青で表示されます。"
@@ -91,8 +85,8 @@ msgstr "バッファ、重心、凸包、境界などの単純なジオメトリ
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:57
 msgid ""
-"Now select another feature near the first you've selected, then click on a "
-"multiple geometries process button like Union, Intersection, Symmetric "
+"Now select another feature near the first you've selected, then click on "
+"a multiple geometries process button like Union, Intersection, Symmetric "
 "Difference or Difference to get the result displayed in red on the map."
 msgstr ""
 "最初に選択した地物の近くにある別のジオメトリを選択し、[和](Union)、[交差](Intersection)、[対称差](Symmetric "
@@ -110,8 +104,8 @@ msgstr "ZOOプロジェクトのデモランディングページで、CGAL三�
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:68
 msgid ""
-"Press the Voronoi or Delaunay button to display on your map the result of "
-"the WPS service execution, as shown below."
+"Press the Voronoi or Delaunay button to display on your map the result of"
+" the WPS service execution, as shown below."
 msgstr "ボロノイまたはドロネーボタンを押して、以下に示すように、WPSサービスの実行結果をマップに表示します。"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:78
@@ -120,8 +114,8 @@ msgstr "OTBアプリケーションのデモ"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:80
 msgid ""
-"On the ZOO Project demonstration landing page, click :guilabel:`view` on OTB"
-" application."
+"On the ZOO Project demonstration landing page, click :guilabel:`view` on "
+"OTB application."
 msgstr "ZOOプロジェクトのデモランディングページで、OTBアプリケーションの :guilabel:`view` をクリックします。"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:81
@@ -136,15 +130,15 @@ msgstr "処理する値を選択したら、左側のフォームの下部にあ
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:83
 msgid ""
-"If you chose image/png as the output format, you will see the result of your"
-" processing displayed on the map. You can see below a sample "
-"KMeansClassification execution when selecting the image/png output format."
-msgstr ""
-"出力形式としてimage/pngを選択した場合、処理結果が地図に表示されます。image/png出力フォーマットを選択すると、サンプルのKMeansClassification実行が表示されます。"
+"If you chose image/png as the output format, you will see the result of "
+"your processing displayed on the map. You can see below a sample "
+"KMeansClassification execution when selecting the image/png output "
+"format."
+msgstr "出力形式としてimage/pngを選択した場合、処理結果が地図に表示されます。image/png出力フォーマットを選択すると、サンプルのKMeansClassification実行が表示されます。"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:93
 msgid "What next?"
-msgstr "次のステップ"
+msgstr "次のステップは何?"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:96
 msgid "You can access the capabilities of the ZOO WPS Server:"
@@ -152,29 +146,30 @@ msgstr "ZOO WPSサーバーの機能にアクセスできます。"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:96
 msgid ""
-"http://localhost/cgi-bin/zoo_loader.cgi?Request=GetCapabilities&Service=WPS"
+"http://localhost/cgi-"
+"bin/zoo_loader.cgi?Request=GetCapabilities&Service=WPS"
 msgstr ""
-"http://localhost/cgi-bin/zoo_loader.cgi?Request=GetCapabilities&Service=WPS"
+"http://localhost/cgi-"
+"bin/zoo_loader.cgi?Request=GetCapabilities&Service=WPS"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:98
 msgid ""
 "For further questions you can contact the ZOO Project mailing list: zoo-"
 "discuss@lists.osgeo.org"
-msgstr ""
-"詳細については、ZOO Projectメーリングリスト: zoo-discuss@lists.osgeo.org  に問い合わせてください。"
+msgstr "詳細については、ZOO Projectメーリングリスト: zoo-discuss@lists.osgeo.org に問い合わせてください。"
 
-#: ../../build/doc/<rst_epilog>:12
+#: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
-#: ../../build/doc/<rst_epilog>:15
+#: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "ロゴなし"
 
-#: ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo プロジェクト"
 
-#: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
+#: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo コミュニティ"
