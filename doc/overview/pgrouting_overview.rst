@@ -21,9 +21,6 @@ geospatial database to provide geospatial routing and other network analysis fun
 
 Advantages of the database routing approach are:
 
-* Data and attributes can be modified by many clients, like :doc:`qgis_overview`
-  and :doc:`udig_overview` through JDBC, ODBC, or directly using Pl/pgSQL.
-  The clients can either be PCs or mobile devices.
 * Data changes can be reflected instantaneously through the routing engine.
   There is no need for precalculation.
 * The "cost" parameter can be dynamically calculated through SQL and its value can come

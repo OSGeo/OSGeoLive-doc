@@ -159,20 +159,12 @@ simple editor to modify the XML if I need to.
 Using |UG| to create simple styles
 ----------------------------------
 
-.. note::
-
-   For more details on how to use |UG| see the :doc:`uDig Quickstart <../quickstart/udig_quickstart>`
+.. note:: |UG| is no longer in OSGeoLive
 
 #. Open |UG| and add the shapefiles (using the add data button in the top left
    hand corner).
 #. Drag the ne_10m_land and ne_10m_ocean tables into the map window. |UG|
    automatically applies a style (so you can see the data).
-
-   .. image:: /images/projects/geoserver/geoserver-udig_startup.png
-     :align: center
-     :scale: 70 %
-     :alt: Default Styling in uDig
-
 #. In the :ref:`Layer list <Layer_list>` select the style button (it looks like
    an artist's palette).
 
@@ -285,7 +277,6 @@ Clients for WMS layers
 The |WMS| layers you are serving from |GS| can be used with a variety of clients
 on this OSGeoLive distribution, including:
 
-* :doc:`uDig <../overview/udig_overview>`
 * :doc:`OpenLayers <../overview/openlayers_overview>`
 * :doc:`MapBender <../overview/mapbender_overview>`
 
