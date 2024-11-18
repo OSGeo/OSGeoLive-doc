@@ -14,7 +14,6 @@
 
 
 .. |GS| replace:: GeoServer
-.. |UG| replace:: uDig
 
 
 ********************************************************************************
@@ -156,58 +155,12 @@ editor is better. There are several options here but |UG| allows you to open the
 shapefiles directly and apply simple styles using a GUI. It also provides a
 simple editor to modify the XML if I need to.
 
-Using |UG| to create simple styles
+Create simple styles
 ----------------------------------
 
-.. note:: |UG| is no longer in OSGeoLive
+Please follow this instructions.
 
-#. Open |UG| and add the shapefiles (using the add data button in the top left
-   hand corner).
-#. Drag the ne_10m_land and ne_10m_ocean tables into the map window. |UG|
-   automatically applies a style (so you can see the data).
-#. In the :ref:`Layer list <Layer_list>` select the style button (it looks like
-   an artist's palette).
-
-   .. _Layer_list:
-   .. image:: /images/projects/geoserver/geoserver-layer-chooser.png
-     :align: center
-     :scale: 70 %
-     :alt: The Layer list window
-
-   This will open the :ref:`Style Pane <Style_Pane>`.
-#. In the simple window we can easily select a nice blue for the oceans by
-   clicking on the colored box on the fill tab and choosing from the color
-   picker it produces. We can also increase the opacity of the fill to 100% to
-   make the color look better. Pick the same blue for the border color so it
-   will match.
-
-   .. _Style_Pane:
-   .. image:: /images/projects/geoserver/geoserver-style-pane.png
-     :align: center
-     :scale: 70 %
-     :alt: The Style Pane
-
-#. Click ``OK`` and |UG| will display the changes.
-
-   .. image:: /images/projects/geoserver/geoserver-blue-ocean.png
-     :align: center
-     :scale: 70 %
-     :alt: Blue Oceans
-
-#. Repeat the steps above to change the color of the land layer. You can use the
-   ``define custom colors`` section to create your preferred color.
-
-   .. image:: /images/projects/geoserver/geoserver-custom-colour.png
-     :align: center
-     :scale: 70 %
-     :alt: Defining a nicer land color
-
-This gives a nice looking basic world map.
-
-.. image:: /images/projects/geoserver/geoserver-basic-world.png
-   :align: center
-   :scale: 70 %
-   :alt: A basic word map
+https://docs.geoserver.org/latest/en/user/styling/qgis/index.html
 
 Adding the style to GeoServer
 -----------------------------
