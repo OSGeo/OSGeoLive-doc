@@ -94,7 +94,8 @@ such as <a class="reference external" href="https://www.ogc.org/standards/wms">W
 <section id="creating-my-first-mapfile">
 <h3>Creare il mio primo Mapfile<a class="headerlink" href="#creating-my-first-mapfile" title="Link a questa intestazione">¶</a></h3>
 <ol class="arabic">
-<li><p>Aprire un editor di testi (per esempio <span class="menuselection">Applications ‣ Accessories ‣ FeatherPad</span>).</p></li>
+<li><p>Open any text editor (e.g. <span class="menuselection">Accessories ‣
+FeatherPad</span>).</p></li>
 <li><p>Create the file «mapserver_quickstart.map» at the following location:
 <code class="file docutils literal notranslate"><span class="pre">/home/user/mapserver_quickstart.map</span></code></p>
 <p>Mettici il seguente contenuto:</p>
@@ -188,11 +189,12 @@ images).</p></li>
 <section id="render-a-map-image-with-mapserver-using-the-command-line">
 <h2><a class="toc-backref" href="#id3">Rendering di un’immagine della mappa con MapServer usando la linea di comando</a><a class="headerlink" href="#render-a-map-image-with-mapserver-using-the-command-line" title="Link a questa intestazione">¶</a></h2>
 <p>Anche se MapServer è orientato alle applicazioni web, può anche produrre immagini sulla linea di comando. Questo può essere utile se si sta cercando una mappatura ripetitiva, o durante il debug.</p>
-<p>Apri un terminale (<span class="menuselection">Applications ‣ System Tools ‣ Terminal Emulator</span>) e digita:</p>
+<p>Open a terminal (<span class="menuselection">System Tools ‣ QTerminal</span>) and type:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">map2img</span> <span class="o">-</span><span class="n">m</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">user</span><span class="o">/</span><span class="n">mapserver_quickstart</span><span class="o">.</span><span class="n">map</span> <span class="o">-</span><span class="n">o</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">user</span><span class="o">/</span><span class="n">Documents</span><span class="o">/</span><span class="n">mymap</span><span class="o">.</span><span class="n">png</span>
 </pre></div>
 </div>
-<p>Se questo comando viene eseguito con successo, sei in grado di vedere la tua mappa renderizzata in <a class="reference external" href="file:///home/user/mymap.png">file:///home/user/mymap.png</a>.</p>
+<p>If this command runs successfully, you are able to see your rendered map at
+<a class="reference external" href="file:///home/user/Documents/mymap.png">file:///home/user/Documents/mymap.png</a>.</p>
 </section>
 <section id="add-a-new-layer-to-the-mapfile-to-serve-a-local-shapefile">
 <h2><a class="toc-backref" href="#id4">Aggiungi un nuovo layer al Mapfile per servire uno Shapefile locale</a><a class="headerlink" href="#add-a-new-layer-to-the-mapfile-to-serve-a-local-shapefile" title="Link a questa intestazione">¶</a></h2>
