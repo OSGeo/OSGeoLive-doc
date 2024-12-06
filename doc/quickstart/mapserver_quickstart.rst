@@ -51,7 +51,7 @@ read necessary data, and how to render it (e.g. color, symbol, label, etc...).
 Creating my first Mapfile
 -------------------------
 
-#. Open any text editor (e.g. :menuselection:`Applications --> Accessories -->
+#. Open any text editor (e.g. :menuselection:`Accessories -->
    FeatherPad`).
 #. Create the file "mapserver_quickstart.map" at the following location:
    :file:`/home/user/mapserver_quickstart.map`
@@ -171,13 +171,12 @@ Although MapServer is geared towards web applications, it can also produce
 images on the command line. This can be useful if you are looking for
 repetitive mapping, or while debugging.
 
-Open a terminal (:menuselection:`Applications --> System Tools --> Terminal
-Emulator`) and type::
+Open a terminal (:menuselection:`System Tools --> QTerminal`) and type::
 
   map2img -m /home/user/mapserver_quickstart.map -o /home/user/Documents/mymap.png
 
 If this command runs successfully, you are able to see your rendered map at
-file:///home/user/mymap.png.
+file:///home/user/Documents/mymap.png.
 
 
 Add a new layer to the Mapfile to serve a local Shapefile
