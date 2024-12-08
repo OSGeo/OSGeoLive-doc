@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-17 21:23+0000\n"
-"PO-Revision-Date: 2024-10-14 13:51+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2024-12-08 03:35+0000\n"
+"Last-Translator: Luiza Santos <luiza.marques_@hotmail.com>\n"
 "Language-Team: Portuguese <https://weblate.osgeo.org/projects/osgeolive/"
 "52nsos_overview/pt/>\n"
 "Language: pt\n"
@@ -40,7 +40,7 @@ msgstr ""
 
 #: ../../build/doc/overview/52nSOS_overview.rstNone
 msgid "52nSOS screenshot"
-msgstr ""
+msgstr "Captura de ecrã do 52nSOS"
 
 #: ../../build/doc/overview/52nSOS_overview.rst:35
 msgid "Core Features"
@@ -65,6 +65,9 @@ msgid ""
 " of use, e.g. hydrology, meteorology, environmental monitoring, traffic "
 "management."
 msgstr ""
+"**Helgoland**: O SOS contém a aplicação Helgoland para a exploração, análise "
+"e visualização de dados da Web de sensores em vários domínios de utilização, "
+"como hidrologia, meteorologia, monitorização ambiental, e gestão de tráfego."
 
 #: ../../build/doc/overview/52nSOS_overview.rst:44
 msgid ""
@@ -87,6 +90,13 @@ msgid ""
 "<https://wiki.52north.org/SensorWeb/SensorObservationServiceIVDocumentation#INSPIRE_Download_Service_extensi>`_"
 " ."
 msgstr ""
+"**INSPIRE: Extensão do serviço de download**: A partir da versão 4.2.0, está "
+"disponível uma extensão que permite que o SOS seja usado como um serviço de "
+"download INSPIRE. A informação de base é fornecida no `blog post "
+"<https://blog.52north.org/2014/01/30/52north-supports-the-jrc-in-developing-a"
+"n-inspire-download-service-based-on-sos/>`_ e no `wiki <https://wiki.52north."
+"org/SensorWeb/"
+"SensorObservationServiceIVDocumentation#INSPIRE_Download_Service_extensi>`_ ."
 
 #: ../../build/doc/overview/52nSOS_overview.rst:53
 msgid ""
