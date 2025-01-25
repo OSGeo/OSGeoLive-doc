@@ -391,7 +391,7 @@ contained within this schema.</p>
 <p>We are going to find the rate of the SIDS over the births for the 1974 for each city.
 Furthermore we are going to sort the result, based on the computed rate. To do that, we need to perform the following query (submit it
 on the text editor of the SQL Window):</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">select</span> <span class="n">name</span><span class="p">,</span> <span class="mi">1000</span><span class="o">*</span><span class="n">sid74</span><span class="o">/</span><span class="n">bir74</span> <span class="k">as</span> <span class="n">rate</span> <span class="kn">from</span> <span class="nn">sids</span> <span class="n">order</span> <span class="n">by</span> <span class="n">rate</span><span class="p">;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">select</span> <span class="n">name</span><span class="p">,</span> <span class="mi">1000</span><span class="o">*</span><span class="n">sid74</span><span class="o">/</span><span class="n">bir74</span> <span class="k">as</span> <span class="n">rate</span> <span class="kn">from</span><span class="w"> </span><span class="nn">sids</span> <span class="n">order</span> <span class="n">by</span> <span class="n">rate</span><span class="p">;</span>
 </pre></div>
 </div>
 <p>Afterwards, you should press the Execute button.</p>
@@ -426,7 +426,7 @@ displaying the contents of the database.</p>
 <p>We are going to find the rate of the SIDS over the births for the 1974 for each city.
 Furthermore we are going to sort the result, based on the computed rate. To do that, we need to perform the following query (submit it
 on the text editor of the SQL Window):</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">select</span> <span class="n">name</span><span class="p">,</span> <span class="mi">1000</span><span class="o">*</span><span class="n">sid74</span><span class="o">/</span><span class="n">bir74</span> <span class="k">as</span> <span class="n">rate</span> <span class="kn">from</span> <span class="nn">sids</span> <span class="n">order</span> <span class="n">by</span> <span class="n">rate</span><span class="p">;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">select</span> <span class="n">name</span><span class="p">,</span> <span class="mi">1000</span><span class="o">*</span><span class="n">sid74</span><span class="o">/</span><span class="n">bir74</span> <span class="k">as</span> <span class="n">rate</span> <span class="kn">from</span><span class="w"> </span><span class="nn">sids</span> <span class="n">order</span> <span class="n">by</span> <span class="n">rate</span><span class="p">;</span>
 </pre></div>
 </div>
 <p>Afterwards, you should press the arrow button, pointing to the right (Execute).</p>
@@ -466,7 +466,7 @@ You also can connect via ODBC, connect to CSV, Geospatial Data and even to twitt
 </pre></div>
 </div>
 <p>Find new tables in your database and have a look at the data from a foreign table.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Select</span> <span class="o">*</span> <span class="kn">from</span> <span class="nn">planet_osm_polygon</span> <span class="n">limit</span> <span class="mi">10</span><span class="p">;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Select</span> <span class="o">*</span> <span class="kn">from</span><span class="w"> </span><span class="nn">planet_osm_polygon</span> <span class="n">limit</span> <span class="mi">10</span><span class="p">;</span>
 </pre></div>
 </div>
 </section>

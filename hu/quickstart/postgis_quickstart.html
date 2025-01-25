@@ -344,7 +344,7 @@
 <p>phpPgAdmin a lekérdezések végrehajtásának lehetőségét biztosítja a relációs adatbázisból.</p>
 <p>Az adatbázison történő lekérdezés végrehajtásához kattintson vissza a <code class="docutils literal notranslate"><span class="pre">natural_earth2</span></code> adatbázishoz majd nyomja meg az <code class="docutils literal notranslate"><span class="pre">SQL</span></code> gombot a fő eszközsorból (a bal szélén az adatbázis szimbólumot tartalmazóból).</p>
 <p>Az SIDS arányát keressük a születésekhez minden városban 1974-ben. Továbbá rendezzük az eredményt a számított arányok alapján. Ehhez a következő lekérdezést kell végrehajtanunk (küldje el ezt az SQL ablak szövegszerkesztőjéből):</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">select</span> <span class="n">name</span><span class="p">,</span> <span class="mi">1000</span><span class="o">*</span><span class="n">sid74</span><span class="o">/</span><span class="n">bir74</span> <span class="k">as</span> <span class="n">rate</span> <span class="kn">from</span> <span class="nn">sids</span> <span class="n">order</span> <span class="n">by</span> <span class="n">rate</span><span class="p">;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">select</span> <span class="n">name</span><span class="p">,</span> <span class="mi">1000</span><span class="o">*</span><span class="n">sid74</span><span class="o">/</span><span class="n">bir74</span> <span class="k">as</span> <span class="n">rate</span> <span class="kn">from</span><span class="w"> </span><span class="nn">sids</span> <span class="n">order</span> <span class="n">by</span> <span class="n">rate</span><span class="p">;</span>
 </pre></div>
 </div>
 <p>Ezután nyomja meg az Execute gombot.</p>
@@ -369,7 +369,7 @@
 <p>pgAdmin a lekérdezések végrehajtásának lehetőségét biztosítja a relációs adatbázisból.</p>
 <p>Az adatbázison történő lekérdezés végrehajtásához nyomja meg az <code class="docutils literal notranslate"><span class="pre">Query</span> <span class="pre">Tool</span></code> gombot a fő eszközsorból (az adatbázis szimbólumot tartalmazót).</p>
 <p>Az SIDS arányát keressük a születésekhez minden városban 1974-ben. Továbbá rendezzük az eredményt a számított arányok alapján. Ehhez a következő lekérdezést kell végrehajtanunk (küldje el ezt az SQL ablak szövegszerkesztőjéből):</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">select</span> <span class="n">name</span><span class="p">,</span> <span class="mi">1000</span><span class="o">*</span><span class="n">sid74</span><span class="o">/</span><span class="n">bir74</span> <span class="k">as</span> <span class="n">rate</span> <span class="kn">from</span> <span class="nn">sids</span> <span class="n">order</span> <span class="n">by</span> <span class="n">rate</span><span class="p">;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">select</span> <span class="n">name</span><span class="p">,</span> <span class="mi">1000</span><span class="o">*</span><span class="n">sid74</span><span class="o">/</span><span class="n">bir74</span> <span class="k">as</span> <span class="n">rate</span> <span class="kn">from</span><span class="w"> </span><span class="nn">sids</span> <span class="n">order</span> <span class="n">by</span> <span class="n">rate</span><span class="p">;</span>
 </pre></div>
 </div>
 <p>Ezután meg kell nyomnia a jobbra mutató nyíl gombot (lekérdezés végrehajtása).</p>
@@ -408,7 +408,7 @@
 </pre></div>
 </div>
 <p>Nézze meg az új táblákat az adatbázisában és vessen egy pillantás az adatokra egy idegen táblából.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Select</span> <span class="o">*</span> <span class="kn">from</span> <span class="nn">planet_osm_polygon</span> <span class="n">limit</span> <span class="mi">10</span><span class="p">;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Select</span> <span class="o">*</span> <span class="kn">from</span><span class="w"> </span><span class="nn">planet_osm_polygon</span> <span class="n">limit</span> <span class="mi">10</span><span class="p">;</span>
 </pre></div>
 </div>
 </section>

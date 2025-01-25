@@ -354,7 +354,7 @@ contained within this schema.</p>
 <p>phpPgAdmin offers the capability of executing queries to a relational database.</p>
 <p>To perform a query on the database, click back on the <code class="docutils literal notranslate"><span class="pre">natural_earth2</span></code> database then press the <code class="docutils literal notranslate"><span class="pre">SQL</span></code> button from the main toolbar (the one at the left with the database symbol).</p>
 <p>Wir wollen die Rate der SIDS anhand der Geburten für 1974 für jede Stadt ermitteln. Darüber hinaus werden wir das Ergebnis auf der Grundlage der berechneten Rate sortieren. Dazu müssen wir die folgende Abfrage durchführen (im Texteditor des SQL-Fensters absenden):</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">select</span> <span class="n">name</span><span class="p">,</span> <span class="mi">1000</span><span class="o">*</span><span class="n">sid74</span><span class="o">/</span><span class="n">bir74</span> <span class="k">as</span> <span class="n">rate</span> <span class="kn">from</span> <span class="nn">sids</span> <span class="n">order</span> <span class="n">by</span> <span class="n">rate</span><span class="p">;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">select</span> <span class="n">name</span><span class="p">,</span> <span class="mi">1000</span><span class="o">*</span><span class="n">sid74</span><span class="o">/</span><span class="n">bir74</span> <span class="k">as</span> <span class="n">rate</span> <span class="kn">from</span><span class="w"> </span><span class="nn">sids</span> <span class="n">order</span> <span class="n">by</span> <span class="n">rate</span><span class="p">;</span>
 </pre></div>
 </div>
 <p>Afterwards, you should press the Execute button.</p>
@@ -382,7 +382,7 @@ on the name of a database. Do it for the <code class="docutils literal notransla
 <p>pgAdmin bietet die Möglichkeit, Abfragen an relationale Datenbanken abzusetzen.</p>
 <p>Um eine Abfrage an die Datenbank zu schicken, müssen Sie den <code class="docutils literal notranslate"><span class="pre">Query</span> <span class="pre">Tool</span></code>-Button der Hauptwerkzeugleiste klicken (Button mit Datenbanksymbol).</p>
 <p>Wir wollen die Rate der SIDS anhand der Geburten für 1974 für jede Stadt ermitteln. Darüber hinaus werden wir das Ergebnis auf der Grundlage der berechneten Rate sortieren. Dazu müssen wir die folgende Abfrage durchführen (im Texteditor des SQL-Fensters absenden):</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">select</span> <span class="n">name</span><span class="p">,</span> <span class="mi">1000</span><span class="o">*</span><span class="n">sid74</span><span class="o">/</span><span class="n">bir74</span> <span class="k">as</span> <span class="n">rate</span> <span class="kn">from</span> <span class="nn">sids</span> <span class="n">order</span> <span class="n">by</span> <span class="n">rate</span><span class="p">;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">select</span> <span class="n">name</span><span class="p">,</span> <span class="mi">1000</span><span class="o">*</span><span class="n">sid74</span><span class="o">/</span><span class="n">bir74</span> <span class="k">as</span> <span class="n">rate</span> <span class="kn">from</span><span class="w"> </span><span class="nn">sids</span> <span class="n">order</span> <span class="n">by</span> <span class="n">rate</span><span class="p">;</span>
 </pre></div>
 </div>
 <p>Danach sollten Sie die Pfeiltaste drücken (Ausführen).</p>
@@ -421,7 +421,7 @@ on the name of a database. Do it for the <code class="docutils literal notransla
 </pre></div>
 </div>
 <p>Suchen Sie nach den neuen Tabellen in Ihrer Datenbank, und sehen Sie sich die Daten aus einer Fremdtabelle an.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Select</span> <span class="o">*</span> <span class="kn">from</span> <span class="nn">planet_osm_polygon</span> <span class="n">limit</span> <span class="mi">10</span><span class="p">;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Select</span> <span class="o">*</span> <span class="kn">from</span><span class="w"> </span><span class="nn">planet_osm_polygon</span> <span class="n">limit</span> <span class="mi">10</span><span class="p">;</span>
 </pre></div>
 </div>
 </section>

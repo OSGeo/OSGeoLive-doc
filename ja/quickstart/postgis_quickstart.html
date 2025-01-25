@@ -344,7 +344,7 @@
 <p>phpPgAdminは、リレーショナルデータベースへのクエリを実行する機能を提供します。</p>
 <p>データベースにクエリを実行するには、 <code class="docutils literal notranslate"><span class="pre">natural_earth2</span></code> データベースをクリックして戻り、メインツールバーの <code class="docutils literal notranslate"><span class="pre">SQL</span></code> ボタン (左側のデータベースシンボルのあるボタン) を押します。</p>
 <p>各都市の1974年の乳幼児突然死症候群の発生率を求めます。さらに、計算されたレートに基づいて結果を並べ替えます。そのためには、次のクエリを実行する必要があります(SQLウィンドウのテキストエディタで送信)。</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">select</span> <span class="n">name</span><span class="p">,</span> <span class="mi">1000</span><span class="o">*</span><span class="n">sid74</span><span class="o">/</span><span class="n">bir74</span> <span class="k">as</span> <span class="n">rate</span> <span class="kn">from</span> <span class="nn">sids</span> <span class="n">order</span> <span class="n">by</span> <span class="n">rate</span><span class="p">;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">select</span> <span class="n">name</span><span class="p">,</span> <span class="mi">1000</span><span class="o">*</span><span class="n">sid74</span><span class="o">/</span><span class="n">bir74</span> <span class="k">as</span> <span class="n">rate</span> <span class="kn">from</span><span class="w"> </span><span class="nn">sids</span> <span class="n">order</span> <span class="n">by</span> <span class="n">rate</span><span class="p">;</span>
 </pre></div>
 </div>
 <p>その後、実行ボタンを押します。</p>
@@ -369,7 +369,7 @@
 <p>pgAdminは、リレーショナルデータベースに対してクエリを実行する機能を提供します。</p>
 <p>データベースに対してクエリを実行するには、メインツールバーの <code class="docutils literal notranslate"><span class="pre">Query</span> <span class="pre">Tool</span></code> ボタン(左側にデータベースシンボルがある)を押す必要があります。</p>
 <p>各都市の1974年の乳幼児突然死症候群の発生率を求めます。さらに、計算されたレートに基づいて結果を並べ替えます。そのためには、次のクエリを実行する必要があります(SQLウィンドウのテキストエディタで送信)。</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">select</span> <span class="n">name</span><span class="p">,</span> <span class="mi">1000</span><span class="o">*</span><span class="n">sid74</span><span class="o">/</span><span class="n">bir74</span> <span class="k">as</span> <span class="n">rate</span> <span class="kn">from</span> <span class="nn">sids</span> <span class="n">order</span> <span class="n">by</span> <span class="n">rate</span><span class="p">;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">select</span> <span class="n">name</span><span class="p">,</span> <span class="mi">1000</span><span class="o">*</span><span class="n">sid74</span><span class="o">/</span><span class="n">bir74</span> <span class="k">as</span> <span class="n">rate</span> <span class="kn">from</span><span class="w"> </span><span class="nn">sids</span> <span class="n">order</span> <span class="n">by</span> <span class="n">rate</span><span class="p">;</span>
 </pre></div>
 </div>
 <p>その後、右向きの矢印(実行)ボタンを押す必要があります。</p>
@@ -408,7 +408,7 @@
 </pre></div>
 </div>
 <p>データベース内の新しいテーブルを検索し、外部テーブルのデータを参照します。</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Select</span> <span class="o">*</span> <span class="kn">from</span> <span class="nn">planet_osm_polygon</span> <span class="n">limit</span> <span class="mi">10</span><span class="p">;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Select</span> <span class="o">*</span> <span class="kn">from</span><span class="w"> </span><span class="nn">planet_osm_polygon</span> <span class="n">limit</span> <span class="mi">10</span><span class="p">;</span>
 </pre></div>
 </div>
 </section>

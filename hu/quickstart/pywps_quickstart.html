@@ -113,10 +113,10 @@
 <p>1. Import the necessary assets and create a class inheriting from the PyWPS
 <cite>Process</cite> class. In the constructor create the necessary objects for inputs
 and outputs:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">pywps</span> <span class="kn">import</span> <span class="n">Process</span><span class="p">,</span> <span class="n">LiteralInput</span><span class="p">,</span> <span class="n">LiteralOutput</span><span class="p">,</span> <span class="n">UOM</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">pywps</span><span class="w"> </span><span class="kn">import</span> <span class="n">Process</span><span class="p">,</span> <span class="n">LiteralInput</span><span class="p">,</span> <span class="n">LiteralOutput</span><span class="p">,</span> <span class="n">UOM</span>
 
-<span class="k">class</span> <span class="nc">SayHello</span><span class="p">(</span><span class="n">Process</span><span class="p">):</span>
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+<span class="k">class</span><span class="w"> </span><span class="nc">SayHello</span><span class="p">(</span><span class="n">Process</span><span class="p">):</span>
+    <span class="k">def</span><span class="w"> </span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
         <span class="n">inputs</span> <span class="o">=</span> <span class="p">[</span><span class="n">LiteralInput</span><span class="p">(</span><span class="s1">&#39;name&#39;</span><span class="p">,</span> <span class="s1">&#39;Input name&#39;</span><span class="p">,</span> <span class="n">data_type</span><span class="o">=</span><span class="s1">&#39;string&#39;</span><span class="p">)]</span>
         <span class="n">outputs</span> <span class="o">=</span> <span class="p">[</span><span class="n">LiteralOutput</span><span class="p">(</span><span class="s1">&#39;response&#39;</span><span class="p">,</span>
                                  <span class="s1">&#39;Output response&#39;</span><span class="p">,</span> <span class="n">data_type</span><span class="o">=</span><span class="s1">&#39;string&#39;</span><span class="p">)]</span>
@@ -140,7 +140,7 @@ and outputs:</p>
 </pre></div>
 </div>
 <p>A <cite>handler</cite> metódus létrehozása, melyet majd az <cite>Execute</cite> kérések kezelésére indítunk el. Használja a <cite>request</cite> és <cite>response</cite> objektumokat az input kinyerésére és az output beállítására.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">_handler</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">request</span><span class="p">,</span> <span class="n">response</span><span class="p">):</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">def</span><span class="w"> </span><span class="nf">_handler</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">request</span><span class="p">,</span> <span class="n">response</span><span class="p">):</span>
     <span class="n">response</span><span class="o">.</span><span class="n">outputs</span><span class="p">[</span><span class="s1">&#39;response&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">data</span> <span class="o">=</span> <span class="s1">&#39;Hello &#39;</span> <span class="o">+</span> \
         <span class="n">request</span><span class="o">.</span><span class="n">inputs</span><span class="p">[</span><span class="s1">&#39;name&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">data</span>
     <span class="n">response</span><span class="o">.</span><span class="n">outputs</span><span class="p">[</span><span class="s1">&#39;response&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">uom</span> <span class="o">=</span> <span class="n">UOM</span><span class="p">(</span><span class="s1">&#39;unity&#39;</span><span class="p">)</span>

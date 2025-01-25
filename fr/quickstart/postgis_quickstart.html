@@ -354,7 +354,7 @@ contained within this schema.</p>
 <p>phpPgAdmin offers the capability of executing queries to a relational database.</p>
 <p>To perform a query on the database, click back on the <code class="docutils literal notranslate"><span class="pre">natural_earth2</span></code> database then press the <code class="docutils literal notranslate"><span class="pre">SQL</span></code> button from the main toolbar (the one at the left with the database symbol).</p>
 <p>Nous allons trouver le taux de SIDS des naissances pour chaque ville en 1974. En outre, nous allons pour trier les résultats, basé sur le taux calculé. Pour ce faire, nous avons besoin exécuter la requête suivante (à exécuter depuis l’éditeur de texte de la fenêtre SQL) :</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">select</span> <span class="n">name</span><span class="p">,</span> <span class="mi">1000</span><span class="o">*</span><span class="n">sid74</span><span class="o">/</span><span class="n">bir74</span> <span class="k">as</span> <span class="n">rate</span> <span class="kn">from</span> <span class="nn">sids</span> <span class="n">order</span> <span class="n">by</span> <span class="n">rate</span><span class="p">;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">select</span> <span class="n">name</span><span class="p">,</span> <span class="mi">1000</span><span class="o">*</span><span class="n">sid74</span><span class="o">/</span><span class="n">bir74</span> <span class="k">as</span> <span class="n">rate</span> <span class="kn">from</span><span class="w"> </span><span class="nn">sids</span> <span class="n">order</span> <span class="n">by</span> <span class="n">rate</span><span class="p">;</span>
 </pre></div>
 </div>
 <p>Afterwards, you should press the Execute button.</p>
@@ -382,7 +382,7 @@ on the name of a database. Do it for the <code class="docutils literal notransla
 <p>pgAdmin, offre la possibilité d’exécuter des requêtes à une base de données relationnelle.</p>
 <p>Pour effectuer une requête sur la base de données, vous devez appuyer sur le bouton <code class="docutils literal notranslate"><span class="pre">Query</span> <span class="pre">Tool</span></code> à partir de la barre d’outils principale (celle à gauche avec le symbole de base de données).</p>
 <p>Nous allons trouver le taux de SIDS des naissances pour chaque ville en 1974. En outre, nous allons pour trier les résultats, basé sur le taux calculé. Pour ce faire, nous avons besoin exécuter la requête suivante (à exécuter depuis l’éditeur de texte de la fenêtre SQL) :</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">select</span> <span class="n">name</span><span class="p">,</span> <span class="mi">1000</span><span class="o">*</span><span class="n">sid74</span><span class="o">/</span><span class="n">bir74</span> <span class="k">as</span> <span class="n">rate</span> <span class="kn">from</span> <span class="nn">sids</span> <span class="n">order</span> <span class="n">by</span> <span class="n">rate</span><span class="p">;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">select</span> <span class="n">name</span><span class="p">,</span> <span class="mi">1000</span><span class="o">*</span><span class="n">sid74</span><span class="o">/</span><span class="n">bir74</span> <span class="k">as</span> <span class="n">rate</span> <span class="kn">from</span><span class="w"> </span><span class="nn">sids</span> <span class="n">order</span> <span class="n">by</span> <span class="n">rate</span><span class="p">;</span>
 </pre></div>
 </div>
 <p>Par la suite, vous devez appuyer sur le bouton en forme de flèche pointant vers la droite (Exécuter).</p>
@@ -421,7 +421,7 @@ on the name of a database. Do it for the <code class="docutils literal notransla
 </pre></div>
 </div>
 <p>Trouvez les nouvelles tables dans votre base de données et jetez un coup d’œil aux données d’une table étrangère.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Select</span> <span class="o">*</span> <span class="kn">from</span> <span class="nn">planet_osm_polygon</span> <span class="n">limit</span> <span class="mi">10</span><span class="p">;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Select</span> <span class="o">*</span> <span class="kn">from</span><span class="w"> </span><span class="nn">planet_osm_polygon</span> <span class="n">limit</span> <span class="mi">10</span><span class="p">;</span>
 </pre></div>
 </div>
 </section>

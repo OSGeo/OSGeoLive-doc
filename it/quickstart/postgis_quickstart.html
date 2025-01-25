@@ -344,7 +344,7 @@
 <p>phpPgAdmin offre la possibilità di eseguire interrogazioni in un database relazionale.</p>
 <p>Per eseguire una interrogazione sul database, clicca nuovamente sul database <code class="docutils literal notranslate"><span class="pre">natural_earth2</span></code> e poi premi il pulsante <code class="docutils literal notranslate"><span class="pre">SQL</span></code> dalla barra degli strumenti principale (quello a sinistra con il simbolo del database).</p>
 <p>Troverai il tasso di SIDS sulle nascite per il 1974 per ogni città. Inoltre ordinerai il risultato in base al tasso calcolato. Per fare ciò, devi eseguire la seguente query (presentarla nell’editor di testo della finestra SQL):</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">select</span> <span class="n">name</span><span class="p">,</span> <span class="mi">1000</span><span class="o">*</span><span class="n">sid74</span><span class="o">/</span><span class="n">bir74</span> <span class="k">as</span> <span class="n">rate</span> <span class="kn">from</span> <span class="nn">sids</span> <span class="n">order</span> <span class="n">by</span> <span class="n">rate</span><span class="p">;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">select</span> <span class="n">name</span><span class="p">,</span> <span class="mi">1000</span><span class="o">*</span><span class="n">sid74</span><span class="o">/</span><span class="n">bir74</span> <span class="k">as</span> <span class="n">rate</span> <span class="kn">from</span><span class="w"> </span><span class="nn">sids</span> <span class="n">order</span> <span class="n">by</span> <span class="n">rate</span><span class="p">;</span>
 </pre></div>
 </div>
 <p>Successivamente, si deve premere il pulsante Execute.</p>
@@ -369,7 +369,7 @@
 <p>pgAdmin offre la possibilità di eseguire query a un database relazionale.</p>
 <p>Per eseguire una query sul database, devi premere il pulsante <code class="docutils literal notranslate"><span class="pre">Query</span> <span class="pre">Tool</span></code> dalla barra degli strumenti principale (quella a sinistra con il simbolo del database).</p>
 <p>Troverai il tasso di SIDS sulle nascite per il 1974 per ogni città. Inoltre ordinerai il risultato in base al tasso calcolato. Per fare ciò, devi eseguire la seguente query (presentarla nell’editor di testo della finestra SQL):</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">select</span> <span class="n">name</span><span class="p">,</span> <span class="mi">1000</span><span class="o">*</span><span class="n">sid74</span><span class="o">/</span><span class="n">bir74</span> <span class="k">as</span> <span class="n">rate</span> <span class="kn">from</span> <span class="nn">sids</span> <span class="n">order</span> <span class="n">by</span> <span class="n">rate</span><span class="p">;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">select</span> <span class="n">name</span><span class="p">,</span> <span class="mi">1000</span><span class="o">*</span><span class="n">sid74</span><span class="o">/</span><span class="n">bir74</span> <span class="k">as</span> <span class="n">rate</span> <span class="kn">from</span><span class="w"> </span><span class="nn">sids</span> <span class="n">order</span> <span class="n">by</span> <span class="n">rate</span><span class="p">;</span>
 </pre></div>
 </div>
 <p>Successivamente, si dovrebbe premere il pulsante freccia che punta a destra (Eseguire).</p>
@@ -408,7 +408,7 @@
 </pre></div>
 </div>
 <p>Trova nuove tabelle nel tuo database e dai un’occhiata ai dati di una tabella foreign.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Select</span> <span class="o">*</span> <span class="kn">from</span> <span class="nn">planet_osm_polygon</span> <span class="n">limit</span> <span class="mi">10</span><span class="p">;</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Select</span> <span class="o">*</span> <span class="kn">from</span><span class="w"> </span><span class="nn">planet_osm_polygon</span> <span class="n">limit</span> <span class="mi">10</span><span class="p">;</span>
 </pre></div>
 </div>
 </section>
