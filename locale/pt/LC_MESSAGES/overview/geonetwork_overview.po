@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-14 13:51+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2024-12-08 03:35+0000\n"
+"Last-Translator: Luiza Santos <luiza.marques_@hotmail.com>\n"
 "Language-Team: Portuguese <https://weblate.osgeo.org/projects/osgeolive/"
 "geonetwork_overview/pt/>\n"
 "Language: pt\n"
@@ -39,14 +39,14 @@ msgid ""
 "functions, an embedded interactive web map viewer, and is based upon Open "
 "Standards."
 msgstr ""
-"GeoNetwork OpenSource á uma aplicação de catálogo para gerenciar recursos "
-"espacialmente referenciados. Fornece eficientes funções para busca e edição "
-"de metadados, e integrado uma visualizados de mapas interativos, e é baseado"
-" em padrões abertos."
+"GeoNetwork OpenSource é uma aplicação de catálogo para gerenciar recursos "
+"espacialmente referenciados. Fornece funções eficientes para busca e edição "
+"de metadados, e integrado uma visualizados de mapas interativos, e é baseado "
+"em padrões abertos."
 
 #: ../../build/doc/overview/geonetwork_overview.rstNone
 msgid "geonetwork screenshot"
-msgstr ""
+msgstr "captura de ecrã do geonetwork"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:32
 msgid "Core Features"
@@ -127,11 +127,11 @@ msgstr "Iniciativas de arquivos abertos (OAI-PMH)"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:49
 msgid "OpenSearch-Geo / INSPIRE Atom"
-msgstr ""
+msgstr "OpenSearch-Geo / INSPIRE Atom"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:50
 msgid "Client for OGC-WMS/WMTS/WFS"
-msgstr ""
+msgstr "Cliente para OGC-WMS/WMTS/WFS"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:51
 msgid "Metadata standards:"
@@ -151,7 +151,7 @@ msgstr "Detalhes"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:59
 msgid "**Website:** https://geonetwork-opensource.org"
-msgstr ""
+msgstr "**Website:** https://geonetwork-opensource.org"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:61
 msgid "**Licence:** GNU General Public License (GPL) version 2"
@@ -171,7 +171,7 @@ msgstr "* * Interfaces da API: * * Java"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:69
 msgid "**Support:** https://www.osgeo.org/service-providers"
-msgstr ""
+msgstr "**Suporte:** https://www.osgeo.org/service-providers"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:75
 msgid "Quickstart"

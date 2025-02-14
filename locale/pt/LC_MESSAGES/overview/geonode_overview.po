@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-09-27 19:35+0000\n"
-"Last-Translator: Kaue de Moraes Vestena <kauemv2@gmail.com>\n"
+"PO-Revision-Date: 2024-12-08 03:35+0000\n"
+"Last-Translator: Luiza Santos <luiza.marques_@hotmail.com>\n"
 "Language-Team: Portuguese <https://weblate.osgeo.org/projects/osgeolive/"
 "geonode_overview/pt/>\n"
 "Language: pt\n"
@@ -196,7 +196,7 @@ msgstr ""
 
 #: ../../build/doc/overview/geonode_overview.rst:90
 msgid "**Support:** https://www.osgeo.org/service-providers"
-msgstr ""
+msgstr "**Suporte:** https://www.osgeo.org/service-providers"
 
 #: ../../build/doc/overview/geonode_overview.rst:95
 msgid "Quickstart"

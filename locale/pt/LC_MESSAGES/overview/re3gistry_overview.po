@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-09-27 19:35+0000\n"
-"Last-Translator: Kaue de Moraes Vestena <kauemv2@gmail.com>\n"
+"PO-Revision-Date: 2024-12-08 03:35+0000\n"
+"Last-Translator: Luiza Santos <luiza.marques_@hotmail.com>\n"
 "Language-Team: Portuguese <https://weblate.osgeo.org/projects/osgeolive/"
 "re3gistry_overview/pt/>\n"
 "Language: pt\n"
@@ -26,7 +26,7 @@ msgstr ""
 
 #: ../../build/doc/overview/re3gistry_overview.rst:18
 msgid "Re3gistry"
-msgstr ""
+msgstr "Re3gistry"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:21
 msgid "About"
@@ -50,7 +50,7 @@ msgstr ""
 
 #: ../../build/doc/overview/re3gistry_overview.rstNone
 msgid "re3gistry screenshot"
-msgstr ""
+msgstr "captura de ecrã do re3gistry"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:43
 msgid "Core Features"
@@ -122,11 +122,11 @@ msgstr "Detalhes"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:62
 msgid "**Website:** https://github.com/ec-jrc/re3gistry"
-msgstr ""
+msgstr "**Website:** https://github.com/ec-jrc/re3gistry"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:64
 msgid "**Licence:** EUPL"
-msgstr ""
+msgstr "**Licença:** EUPL"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:66
 msgid "**Software Version:** |version-re3gistry|"
@@ -134,7 +134,7 @@ msgstr ""
 
 #: ../../build/doc/overview/re3gistry_overview.rst:68
 msgid "**Supported Platforms:** Windows, Linux"
-msgstr ""
+msgstr "**Plataformas suportadas:** Windows, Linux"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:70
 msgid "**API Interfaces:** Java"
@@ -169,6 +169,7 @@ msgstr "Início Rápido"
 #: ../../build/doc/overview/re3gistry_overview.rst:85
 msgid ":doc:`Quickstart documentation <../quickstart/re3gistry_quickstart>`"
 msgstr ""
+":doc:`Documentação para quickstart <../quickstart/re3gistry_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
