@@ -3,20 +3,21 @@
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-17 15:05-0600\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2025-02-14 21:45+0000\n"
+"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"Language-Team: Spanish <https://weblate.osgeo.org/projects/osgeolive/"
+"odc_overview/es/>\n"
 "Language: es\n"
-"Language-Team: es <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/overview/odc_overview.rst:16
@@ -78,7 +79,7 @@ msgstr ""
 
 #: ../../build/doc/overview/odc_overview.rst:55
 msgid "Core Features"
-msgstr ""
+msgstr "Características Principales"
 
 #: ../../build/doc/overview/odc_overview.rst:57
 msgid ""
@@ -92,7 +93,7 @@ msgstr ""
 
 #: ../../build/doc/overview/odc_overview.rst:61
 msgid "Details"
-msgstr ""
+msgstr "Detalles"
 
 #: ../../build/doc/overview/odc_overview.rst:63
 msgid "**Website:** https://www.opendatacube.org"
@@ -120,7 +121,7 @@ msgstr ""
 
 #: ../../build/doc/overview/odc_overview.rst:79
 msgid "Quickstart"
-msgstr ""
+msgstr "Inicio Rápido"
 
 #: ../../build/doc/overview/odc_overview.rst:81
 msgid ":doc:`Quickstart documentation <../quickstart/odc_quickstart>`"
@@ -128,17 +129,16 @@ msgstr ""
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
-msgstr ""
+msgstr "vmdk"
 
 #: ../../build/doc/<rst_epilog>:16
 msgid "nologo"
-msgstr ""
+msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
-msgstr ""
+msgstr "Proyecto OSGeo"
 
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
-msgstr ""
-
+msgstr "OSGeo Comunitario"
