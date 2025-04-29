@@ -41,7 +41,7 @@ document will also need to be licenced under the `CC By-SA
 <https://creativecommons.org/licenses/by-sa/3.0/>`__.
 
 Note that images are not necessarily provided under the same CC license as the
-text; check with the author.
+text; check with the authors.
 
 You may use attribution text similar to one of the following:
 
