@@ -1,0 +1,329 @@
+
+<!DOCTYPE html>
+
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>ETF Quickstart &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Stichwortverzeichnis" href="../genindex.html" />
+    <link rel="search" title="Suche" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="QGIS Server" href="../overview/qgis_mapserver_overview.html" />
+    <link rel="prev" title="ETF" href="../overview/ETF_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://github.com/etf-validator"><img alt="../../_images/logo_ETF.png" class="align-right" src="../../_images/logo_ETF.png" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<section id="etf-quickstart">
+<h1>ETF Quickstart<a class="headerlink" href="#etf-quickstart" title="Link zu dieser Überschrift">¶</a></h1>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p>Das Projekt ist nur Teil der OSGeoLive Virtuelle Maschine Disk (VMDK)</p>
+</div>
+<p>ETF ist ein Open-Source-Testframework zur Validierung von Geodaten, Metadaten und Webservices in Geodateninfrastrukturen (SDIs). Das Design von ETFs wird von drei Zielen bestimmt: Benutzerfreundlichkeit, Standardkonformität und der Möglichkeit, alle Ressourcen einer SDI testen zu können.</p>
+<p>Diese Kurzanleitung beschreibt:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Navigation durch die Webanwendung</p></li>
+<li><p>Start eines Tests</p></li>
+<li><p>Monitoring eines Testlaufs</p></li>
+<li><p>Beobachten und Verwalten von Testberichten</p></li>
+</ul>
+</div></blockquote>
+<div class="contents local topic" id="contents">
+<p class="topic-title">Inhalt</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#introduction" id="id1">Einleitung</a></p></li>
+<li><p><a class="reference internal" href="#start-test" id="id2">Start test</a></p>
+<ul>
+<li><p><a class="reference internal" href="#test-suite-selection" id="id3">Test Suite Selection</a></p></li>
+<li><p><a class="reference internal" href="#test-run-configuration" id="id4">Konfiguration des Testlaufs</a></p></li>
+<li><p><a class="reference internal" href="#file-based-tests" id="id5">Dateibasierte Tests</a></p></li>
+<li><p><a class="reference internal" href="#service-tests" id="id6">Service-Tests</a></p></li>
+<li><p><a class="reference internal" href="#dependencies-and-parameters" id="id7">Abhängigkeiten und Parameter</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#monitor-test-runs" id="id8">Überwachen von Testläufen</a></p></li>
+<li><p><a class="reference internal" href="#test-reports" id="id9">Testberichte</a></p></li>
+<li><p><a class="reference internal" href="#inspect-test-reports" id="id10">Prüfen von Testberichten</a></p></li>
+<li><p><a class="reference internal" href="#resources" id="id11">Resources</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id12">What next?</a></p></li>
+</ul>
+</div>
+<section id="introduction">
+<h2><a class="toc-backref" href="#id1">Einleitung</a><a class="headerlink" href="#introduction" title="Link zu dieser Überschrift">¶</a></h2>
+<p>From the OSGeoLive <em>Start</em> menu, select <span class="menuselection">Geospatial ‣ Spatial tools ‣ ETF</span>. The application will
+take a few moments to start up and will open a web page at
+<a class="reference external" href="http://localhost:9090/ETF">http://localhost:9090/ETF</a></p>
+<p>In the header, there is a menu with 4 sections, each representing different views
+and functionalities:</p>
+<img alt="../../_images/etf-introduction.png" src="../../_images/etf-introduction.png" />
+<ol class="arabic simple">
+<li><p>The first one is <strong>Start test</strong>. In this section all available (i.e. installed)
+Executable Test Suites are listed. Within this section, an Executable Test
+Suite can be selected and run against a Test Object.</p></li>
+<li><p>The second one is <strong>Status</strong>. This one shows all tests that are currently being
+executed on the system and allows to open a monitor view for single test runs
+to check the status of any running test. Moreover, the components currently
+loaded are shown below the running tests.</p></li>
+<li><p>The third one is <strong>Test reports</strong>. In this one the results of any completed test
+can be checked, analysed in detail or downloaded.</p></li>
+<li><p>The fourth one is <strong>Help</strong>. This one is a link to the documentation. Inside it,
+there are guides on how to use all functionalities of the ETF.</p></li>
+</ol>
+</section>
+<section id="start-test">
+<h2><a class="toc-backref" href="#id2">Start test</a><a class="headerlink" href="#start-test" title="Link zu dieser Überschrift">¶</a></h2>
+<section id="test-suite-selection">
+<h3><a class="toc-backref" href="#id3">Test Suite Selection</a><a class="headerlink" href="#test-suite-selection" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Die Startansicht zeigt die verfügbaren ausführbaren Testsuiten.</p>
+<img alt="../../_images/etf-test-suite-selection-1.png" src="../../_images/etf-test-suite-selection-1.png" />
+<p>Additional information about a Test Suite can be accessed by clicking on the
+<em>+</em> button.</p>
+<img alt="../../_images/etf-test-suite-selection-2.png" src="../../_images/etf-test-suite-selection-2.png" />
+<p>Diese Information:</p>
+<ul class="simple">
+<li><p>Enthält eine Beschreibung der Testsammlung.</p></li>
+<li><p>Kann einen Link zur Abstract Test Suite enthalten, von der die Executable Test Suite abgeleitet wurde (Quelle).</p></li>
+<li><p>Kann die Test Suite-Abhängigkeiten enthalten, die in einem Testlauf automatisch mit der Testsuite ausgeführt werden (erforderliche Konformitätsklassen).</p></li>
+<li><p>Kann die Namen der zugeordneten Tags enthalten, die zum Gruppieren der Test-Suite in der Ansicht verwendet werden.</p></li>
+<li><p>Includes the name of applicable Test Object Types (explained in the next section).</p></li>
+<li><p>Enthält allgemeine Informationen wie Version, Autor und letzten Bearbeiter, Erstellungs- und Änderungsdaten.</p></li>
+</ul>
+<p>To start a Test Run, a Test Suite must be selected with a click on the <em>use</em> flip
+switch on the right-hand side.</p>
+<img alt="../../_images/ETF_screenshot.png" src="../../_images/ETF_screenshot.png" />
+<p>A <em>Start</em> button appears once at least one Test Suite is selected.</p>
+<p>Eine Test-Suite gilt nur für bestimmte Testobjekttypen, die in der Beschreibung aufgeführt sind. Es können auch mehrere Tests-Suites für einen Testlauf ausgewählt werden, sie müssen jedoch auf denselben Testobjekttyp anwendbar sein. Sobald eine Test-Suite ausgewählt wurde, wird der Schalter aller anderen Testsammlungen mit unterschiedlichen Testobjekttypen deaktiviert.</p>
+<img alt="../../_images/etf-test-suite-selection-4.png" src="../../_images/etf-test-suite-selection-4.png" />
+<p>Eine Test-Suite kann von anderen Test-Suites abhängen. Die Abhängigkeiten sind auch in der Beschreibung der Test-Suites aufgeführt. Diese Abhängigkeiten werden während des Testlaufs automatisch ausgeführt.</p>
+<p>A click on the <em>Start</em> button will open a new view that asks the user about the
+target resource to be tested.</p>
+</section>
+<section id="test-run-configuration">
+<h3><a class="toc-backref" href="#id4">Konfiguration des Testlaufs</a><a class="headerlink" href="#test-run-configuration" title="Link zu dieser Überschrift">¶</a></h3>
+<img alt="../../_images/etf-test-run-configuration-1.png" src="../../_images/etf-test-run-configuration-1.png" />
+<p>The <em>Label</em> field is mandatory and automatically preset with the current time and
+names of the selected Test Suites. The Label will be shown in the <strong>Test reports</strong>
+section and can be changed in order to help find the report again after a test
+run.</p>
+<p>Der Stil der Ansicht kann von den ausgewählten Test-Suite abhängen.</p>
+</section>
+<section id="file-based-tests">
+<h3><a class="toc-backref" href="#id5">Dateibasierte Tests</a><a class="headerlink" href="#file-based-tests" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Die folgenden Elemente werden angezeigt, wenn Test-Suites ausgewählt wurden, die eine oder mehrere Test-Dateien testen.</p>
+<p>If <em>File upload</em> is selected as <em>Data source</em>, one or multiple local files can be
+selected and uploaded to the ETF. The ETF only accepts files with XML and GML
+file extensions as well as ZIP files containing these two file types.</p>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p>Andere Dateien, wie Schemadefinitionsdateien, können nicht verwendet werden und werden vom ETF stillschweigend ignoriert!</p>
+</div>
+<img alt="../../_images/etf-file-based-tests-1.png" src="../../_images/etf-file-based-tests-1.png" />
+<p>Die maximale Größe der hochladbaren Datei wird angezeigt, wenn die Maus über das Fragezeichen bewegt wird.</p>
+<p>If the data to be tested are available on the web, they can be tested by providing one single
+URL. After <em>Remote file (URL)</em> has been selected as <em>Data source</em>, a <em>Remote URL</em> to either
+one single XML, GML or a ZIP file can be entered.</p>
+<img alt="../../_images/etf-file-based-tests-2.png" src="../../_images/etf-file-based-tests-2.png" />
+<p>If the URL requires authentication, username and password can be provided by
+clicking on <em>Credentials</em>.</p>
+<img alt="../../_images/etf-file-based-tests-3.png" src="../../_images/etf-file-based-tests-3.png" />
+</section>
+<section id="service-tests">
+<h3><a class="toc-backref" href="#id6">Service-Tests</a><a class="headerlink" href="#service-tests" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Die folgenden Elemente werden angezeigt, wenn Test-Suites ausgewählt wurden, die einen Dienst testen sollen.</p>
+<p>The <em>Service URL</em> must be entered beginning with <code class="docutils literal notranslate"><span class="pre">http://</span></code> or <code class="docutils literal notranslate"><span class="pre">https://</span></code>.</p>
+<img alt="../../_images/etf-service-test-1.png" src="../../_images/etf-service-test-1.png" />
+<p>If the service requires authentication, username and password can be provided by
+clicking on <em>Credentials</em>.</p>
+</section>
+<section id="dependencies-and-parameters">
+<h3><a class="toc-backref" href="#id7">Abhängigkeiten und Parameter</a><a class="headerlink" href="#dependencies-and-parameters" title="Link zu dieser Überschrift">¶</a></h3>
+<p>The <em>Test Suites</em> button shows some basic information about the selected Test
+Suites and - if applicable - about the direct dependencies.</p>
+<img alt="../../_images/etf-dependencies-and-parameters-1.png" src="../../_images/etf-dependencies-and-parameters-1.png" />
+<p>If the Test accepts parameters, they are shown in the <em>Test Suite Parameters</em>
+section. Optional parameters can be displayed by clicking on the <em>Optional
+Parameters</em> button. A description of the parameters is displayed when the mouse
+is moved over the question mark.</p>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p>In den meisten Fällen können die voreingestellten Standardwerte verwendet werden.</p>
+</div>
+<img alt="../../_images/etf-dependencies-and-parameters-2.png" src="../../_images/etf-dependencies-and-parameters-2.png" />
+<p>Finally the test can be started by clicking on the <em>Start</em> button. The view then
+changes automatically to the <em>Monitor Test Run</em> view.</p>
+</section>
+</section>
+<section id="monitor-test-runs">
+<h2><a class="toc-backref" href="#id8">Überwachen von Testläufen</a><a class="headerlink" href="#monitor-test-runs" title="Link zu dieser Überschrift">¶</a></h2>
+<p>After a Test Run has been started the <em>Monitor Test Run</em> view is shown.</p>
+<img alt="../../_images/etf-monitor-test-runs-1.png" src="../../_images/etf-monitor-test-runs-1.png" />
+<p>Der blaue Balken zeigt den Fortschritt an.</p>
+<img alt="../../_images/etf-monitor-test-runs-2.png" src="../../_images/etf-monitor-test-runs-2.png" />
+<p>The console area shows information and result messages. The Test Run can be
+canceled with a click on the <em>Cancel</em> button.</p>
+<p>The view can be closed, for instance with the <em>X</em> Button in the upper left corner.
+Also when the browser is closed, the Test Run execution continues on the server.</p>
+<p>To reopen the <em>Monitor Test Run</em> view after it has been closed, select in the menu bar the
+<strong>Status</strong> section. The <strong>Status</strong> section shows all running tests. A click on the Test Run
+opens the <em>Monitor Test Run</em> view of that Test Run.</p>
+<img alt="../../_images/etf-monitor-test-runs-3.png" src="../../_images/etf-monitor-test-runs-3.png" />
+<p>When a Test Run finishes and the <em>Monitor Test Run</em> view is opened, the Test Report is
+displayed automatically.</p>
+</section>
+<section id="test-reports">
+<h2><a class="toc-backref" href="#id9">Testberichte</a><a class="headerlink" href="#test-reports" title="Link zu dieser Überschrift">¶</a></h2>
+<p>The <strong>Test Reports</strong> section shows all reports that have been generated from Test Runs.</p>
+<img alt="../../_images/etf-test-reports-1.png" src="../../_images/etf-test-reports-1.png" />
+<p>By clicking on the <em>+</em> button information for a Test Run, the start time, the test
+result status, the name of the Test Object and the used Test Suites are shown.</p>
+<p>A Test Report can be opened again by clicking on the <em>Open report</em> button or can be
+downloaded as HTML file by clicking on the <em>Download report</em> button.</p>
+<p>The log file of the test run can be inspected with the <em>Open log</em> button. By
+clicking on the <em>Delete report</em> button, the report will be deleted permanently.</p>
+</section>
+<section id="inspect-test-reports">
+<h2><a class="toc-backref" href="#id10">Prüfen von Testberichten</a><a class="headerlink" href="#inspect-test-reports" title="Link zu dieser Überschrift">¶</a></h2>
+<p>The top of a Test Report shows general information including the overall test
+result status, the start time, the duration and a table, which summarizes the
+status of all tests on several levels.</p>
+<img alt="../../_images/etf-inspect-test-reports-1.png" src="../../_images/etf-inspect-test-reports-1.png" />
+<p>The Test Reports are interactive. The <em>Show</em> switch can be used to filter <em>Only
+failed</em> or <em>Only manual</em> tests. The option <em>All</em> deactivates the filter.</p>
+<p>The <em>Level of detail</em> switch is used to show more or less information in
+the reports.</p>
+<img alt="../../_images/etf-inspect-test-reports-2.png" src="../../_images/etf-inspect-test-reports-2.png" />
+<p>Die Testergebnisse werden hierarchisch in einem Bericht zusammengefasst. Auf der obersten Ebene befinden sich die Test-Suites.</p>
+<p>By clicking on one Test Suite, a description and all lower level tests in that
+Test Suite are shown. Errors in a Test Suite can be immediately recognized by
+the red color. The number of failed tests is shown in the top-right corner.</p>
+<img alt="../../_images/etf-inspect-test-reports-3.png" src="../../_images/etf-inspect-test-reports-3.png" />
+<p>Die grüne Farbe zeigt einen bestandenen Test an. Bestandene Tests, die zusätzliche manuelle Testschritte erfordern, die nicht automatisiert werden konnten, sind orange eingefärbt. Die orange Farbe kann auch auf einen Test hinweisen, der übersprungen wurde, da er von einem anderen Test abhängt, der fehlgeschlagen ist. Den genauen Status finden Sie unter der Beschreibung.</p>
+<p>The number of levels depends on the tested Test Object. If service tests have
+been executed, the hierarchy is as follows:</p>
+<ul class="simple">
+<li><p>Ausführbare Test-Suites</p></li>
+<li><p>Testmodule (bündelt Testfälle)</p></li>
+<li><p>Testfälle (bündelt Testschritte)</p></li>
+<li><p>Testschritte (Interaktionen mit dem Dienst, bündelt Test-Assertionen)</p></li>
+<li><p>Test-Assertions (atomare Tests)</p></li>
+</ul>
+<p>In einem dateibasierten Test sind Testmodule und Testschritte nicht vorhanden und werden im Bericht nicht angezeigt.</p>
+<p>Each test lists the requirements and provides a description on how they are tested. The test may include a link to an Abstract Test Suite, from which
+the test has been derived (<em>Source</em>).</p>
+<img alt="../../_images/etf-inspect-test-reports-4.png" src="../../_images/etf-inspect-test-reports-4.png" />
+<p>Assertions stand for atomic test queries on the lowest level. Failed, red
+colored assertions display error messages in the <em>Messages</em> section.</p>
+<img alt="../../_images/etf-inspect-test-reports-5.png" src="../../_images/etf-inspect-test-reports-5.png" />
+<p>Helpful information may also be found on the next higher level, like for
+instance the response from a service on the Test Step level (note the <em>Open saved
+response</em> link in the report).</p>
+<img alt="../../_images/etf-inspect-test-reports-6.png" src="../../_images/etf-inspect-test-reports-6.png" />
+</section>
+<section id="resources">
+<h2><a class="toc-backref" href="#id11">Resources</a><a class="headerlink" href="#resources" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Anhand der oben genannten Anweisungen finden Sie im Folgenden einen vordefinierte Ressourcen, die Sie im ETF testen können:</p>
+<ul class="simple">
+<li><p>GML data sets: some predefined data sets can be downloaded from <a class="reference external" href="https://github.com/etf-validator/OSGeoLive-ETF/tree/main/resources/GML-data-sets">here</a>.</p></li>
+<li><p>WMS-Dienste: Eine Liste der Dienste finden Sie <a class="reference external" href="https://github.com/etf-validator/OSGeoLive-ETF/tree/main/resources/WMS-services">hier</a>.</p></li>
+<li><p>WFS-Services: Eine Liste der Services finden Sie <a class="reference external" href="https://github.com/etf-validator/OSGeoLive-ETF/tree/main/resources/WFS-services">hier</a>.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Bemerkung</p>
+<p>Some of the GML data sets provided above do not pass all the tests, so
+you can try to fix them (based on the errors reported in the test report)
+before validating them again until all tests succeed.</p>
+</div>
+</section>
+<section id="what-next">
+<h2><a class="toc-backref" href="#id12">What next?</a><a class="headerlink" href="#what-next" title="Link zu dieser Überschrift">¶</a></h2>
+<p>This was just a very brief overview of the ETF. There is more information in the
+demo installation and on the <a class="reference external" href="https://github.com/etf-validator">ETF GitHub space</a>.</p>
+<p>Bitte beachten Sie auch:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://docs.etf-validator.net/v2.0/User_manuals/Simplified_workflows.html">Benutzerhandbuch</a></p></li>
+<li><p><a class="reference external" href="https://docs.etf-validator.net/v2.0/Admin_manuals/index.html">Administratorhandbuch</a></p></li>
+<li><p><a class="reference external" href="https://docs.etf-validator.net/v2.0/#_developer_manuals">Entwicklerhandbuch</a></p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

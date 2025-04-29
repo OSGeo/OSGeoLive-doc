@@ -1,0 +1,52 @@
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  margin: 0 0 20px 0;
+  color: #003A40;
+  font-family: "Miriam Libre","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-transform: none;
+  text-shadow: none;
+  word-wrap: break-word;
+  font-size: 1.0em;
+}
+
+.speaker-controls-notes .value {
+  font-size: 1.0em;
+}
+
+.reveal img {
+  margin: var(--r-block-margin) 5;
+}
+
+.reveal p {
+  margin: 0;
+}
+
+.reveal ul {
+  text-align: left;
+  font-size: smaller;
+}
+
+.reveal table th, .reveal table td {
+  text-align: center;
+  font-size: x-large;
+}
+
+.reveal.cube .slides section {
+  transform-style: flat;
+  box-sizing: unset;
+}
+
+.reveal.cube .slides section:not(.stack)::before {
+  background: none;
+}
+
+.reveal.cube .slides section:not(.stack)::after {
+  content: none;
+}

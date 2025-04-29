@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+
+<html lang="hu">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>ETF &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Tárgymutató" href="../genindex.html" />
+    <link rel="search" title="Keresés" href="../search.html" />
+    <link rel="copyright" title="Minden jog fenntartva" href="../copyright.html" />
+    <link rel="next" title="ETF gyorstalpaló" href="../quickstart/ETF_quickstart.html" />
+    <link rel="prev" title="EOxServer gyorstalpaló" href="../quickstart/eoxserver_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://github.com/etf-validator"><img alt="../../_images/logo_ETF.png" class="align-right" src="../../_images/logo_ETF.png" /></a>
+<section id="etf">
+<h1>ETF<a class="headerlink" href="#etf" title="Hivatkozás erre a fejezetcímre">¶</a></h1>
+<p>Az ETF egy nyílt forráskódú teszt keretrendszer a térinformatikai adat infrastruktúrában (SDI) az adatok és API-k validálására. Szoftvermegoldások és adatszolgáltatók használják a térinformatikai adataik, metaadataik és API-k megfelelőségének ellenőrzésére.</p>
+<section id="about">
+<h2>Névjegy<a class="headerlink" href="#about" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<p>Az ETF-szoftver megtervezésekor a cél az volt, hogy felhasználóbarát és magától értetődő tesztjelentéseket készítsenek, valamint nagy mennyiségű, akár több száz GB-os adatotka is validálni tudjanak. A különböző validációs feladatok lefedése és egységes jelentésben történő bemutatása érdekében az architektúra moduláris, és különböző tesztmotorok használhatók. Jelenleg a következő tesztmotorok támogatottak: SoapUI webszolgáltatások tesztelésére, BaseX adatbázis XML adatok tesztelésére, TEAM Engine a WFS és OGC webes API-k ellenőrzésére az OGC CITE tesztek segítségével, NeoTL Engine a WFS tesztelésére, OGC webes API-k és adatkészletek.</p>
+<p>Az ETF az a mögöttes keretrendszer, amelyet az INSPIRE Reference Validator használ a metaadatok, adatkhalmazok és szolgáltatások INSPIRE követelményeinek megfelelő érvényesítésére. Az ETF-et Németországban is széles körben használják a tartományok felügyelő hatóságai adatkészleteik validálására. Az Európai Unió (EU) más tagállamai is felhasználják az ETF-et, hogy lehetővé tegyék adatszolgáltatóik számára az erőforrások nemzeti követelmények szerinti tesztelését. Végül egyes szoftvereszközök munkafolyamatában az ETF API-n alapuló érvényesítés is szerepel.</p>
+<a class="reference internal image-reference" href="../../_images/ETF_screenshot.png"><img alt="ETF képernyőképek" class="align-right" src="../../_images/ETF_screenshot.png" style="width: 500px;" /></a>
+</section>
+<section id="core-features">
+<h2>Alapfunkciók<a class="headerlink" href="#core-features" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<ul class="simple">
+<li><dl class="simple">
+<dt>Tesztelhető források</dt><dd><ul>
+<li><p>adathalmazok (egészen több száz GB-ig): GML</p></li>
+<li><p>metadatok: XML</p></li>
+<li><p>szolgáltatások megtekintése: WMS/WMTS</p></li>
+<li><p>letöltési szolgáltatások: Atom, WFS, WCS, SOS</p></li>
+<li><p>katalógus szolgáltatások: CSW</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Hozzáférés</dt><dd><ul>
+<li><p>web-alapú felhasználói interfész</p></li>
+<li><p>REST API</p></li>
+<li><p>OpenAPI specifikáció</p></li>
+<li><p>Java kliens könyvtár</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Támogatott teszt motorok</dt><dd><ul>
+<li><p>SoapUI web szolgáltatások tesztelésére</p></li>
+<li><p>BaseX XML dokumentumok halmazok tesztelésére</p></li>
+<li><p>TestNG használatával a CITE test támogatására fejlesztett TEAM motor</p></li>
+<li><p>NeoTL az OGC WFS és OGC API-k teszteléséhez (fejlesztés alatt)</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Teszt jelentések</dt><dd><ul>
+<li><p>felhasználóbarát és magától érthető</p></li>
+<li><p>letölthető HTML, XML és JSON formátumban</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Implementált szabványok</dt><dd><ul>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/cat">Catalogue Service for the Web (CSW)</a></p></li>
+<li><p><a class="reference external" href="https://committee.iso.org/sites/tc211/home/projects/projects---complete-list/iso-19105.html">ISO 19105</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/sos">Sensor Observation Service (SOS)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wfs">Web Feature Service (WFS)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wmts">OpenGIS Web Map Tile Service (WMTS)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/gml">Geography Markup Language (GML)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/ogcapi-features">OGC API - Features</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wcs">Web Coverage Service (WCS)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a></p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</section>
+<section id="details">
+<h2>Részletek<a class="headerlink" href="#details" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<p><strong>Honlap:</strong> <a class="reference external" href="https://github.com/etf-validator">https://github.com/etf-validator</a></p>
+<p><strong>Licenc:</strong> EUPL 1.2</p>
+<p><strong>Szoftver verzió:</strong> 2.0.0</p>
+<p><strong>Támogatott platformok:</strong> Windows, Linux</p>
+<p><strong>API Interfészek:</strong> REST API, OpenAPI Specification, Java client library</p>
+<p><strong>Támogatás:</strong> <a class="reference external" href="https://github.com/etf-validator/etf-webapp/issues">https://github.com/etf-validator/etf-webapp/issues</a></p>
+<p><strong>FElhasználói kézikönyv:</strong> <a class="reference external" href="https://docs.etf-validator.net/v2.0/User_manuals/Simplified_workflows.html">https://docs.etf-validator.net/v2.0/User_manuals/Simplified_workflows.html</a></p>
+<p><strong>Administrátori kézikönyv:</strong> <a class="reference external" href="https://docs.etf-validator.net/v2.0/index.html#_administrator_manuals">https://docs.etf-validator.net/v2.0/index.html#_administrator_manuals</a></p>
+<p><strong>Fejlesztői kézikönyv:</strong> <a class="reference external" href="https://docs.etf-validator.net/v2.0/index.html#_developer_manuals">https://docs.etf-validator.net/v2.0/index.html#_developer_manuals</a></p>
+<div class="admonition note">
+<p class="admonition-title">Megjegyzés</p>
+<p>Ez a projekt csak az OSGeoLive virtuális gépben (VMDK) található meg</p>
+</div>
+</section>
+<section id="quickstart">
+<h2>Gyorstalpaló<a class="headerlink" href="#quickstart" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/ETF_quickstart.html"><span class="doc">Gyorstalpaló dokumentáció</span></a></p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

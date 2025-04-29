@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Guida rapida GpsPrune &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Indice" href="../genindex.html" />
+    <link rel="search" title="Cerca" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="OpenCPN" href="../overview/opencpn_overview.html" />
+    <link rel="prev" title="GpsPrune" href="../overview/gpsprune_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://activityworkshop.net/software/gpsprune"><img alt="../../_images/logo_gpsprune.png" class="align-right" src="../../_images/logo_gpsprune.png" /></a>
+<section id="gpsprune-quickstart">
+<h1><a class="toc-backref" href="#id1">Guida rapida GpsPrune</a><a class="headerlink" href="#gpsprune-quickstart" title="Link a questa intestazione">¶</a></h1>
+<p>GpsPrune è un’applicazione java per visualizzare e modificare i dati delle coordinate. Può essere usato per preparare i dati per i dispositivi GPS e per analizzare i dati registrati da essi.</p>
+<p>In questa Guida Rapida, caricheremo e visualizzeremo un file di dati incluso in questa immagine live e accederemo ad alcune informazioni online per completarle. Sarà quindi utile disporre di una connessione a Internet per questa dimostrazione.</p>
+<div class="contents topic" id="contents">
+<p class="topic-title">Contenuti</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#gpsprune-quickstart" id="id1">Guida rapida GpsPrune</a></p>
+<ul>
+<li><p><a class="reference internal" href="#start-gpsprune" id="id2">Avvia GpsPrune</a></p>
+<ul>
+<li><p><a class="reference internal" href="#customizing-the-display" id="id3">Personalizzare la visualizzazione</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#advanced-functions" id="id4">Funzioni Avanzate</a></p>
+<ul>
+<li><p><a class="reference internal" href="#wikipedia" id="id5">Wikipedia</a></p></li>
+<li><p><a class="reference internal" href="#gpsies" id="id6">Gpsies</a></p></li>
+<li><p><a class="reference internal" href="#measuring-distances" id="id7">Misura le distanze</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#things-to-try" id="id8">Cose da provare</a></p>
+<ul>
+<li><p><a class="reference internal" href="#using-gpsprune-on-other-systems" id="id9">Usa GpsPrune su altri sistemi</a></p></li>
+<li><p><a class="reference internal" href="#further-reading" id="id10">Altre letture</a></p></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<section id="start-gpsprune">
+<h2><a class="toc-backref" href="#id2">Avvia GpsPrune</a><a class="headerlink" href="#start-gpsprune" title="Link a questa intestazione">¶</a></h2>
+<p>Dal menu Start, <span class="menuselection">Geospatial ‣ Navigation and Maps ‣ GpsPrune</span>. Questo ti darà la finestra vuota mostrata qui sotto.</p>
+<a class="reference internal image-reference" href="../../_images/gpsprune_emptywindow.png"><img alt="../../_images/gpsprune_emptywindow.png" src="../../_images/gpsprune_emptywindow.png" style="width: 471.35px; height: 325.05px;" /></a>
+<p>Ora caricherai un file usando il comando di menu <span class="menuselection">File ‣ Open file</span> e selezionando il file da caricare. Questo può essere un file GPX, un file KML o KMZ, o anche un file separato da virgole o da tabulazioni se ne avete uno. Un file GPX adatto contenente un paio di tracce può essere trovato sul disco a <code class="file docutils literal notranslate"><span class="pre">~/data/vector/gpx/test_trk2.gpx</span></code> quindi caricherai questo.</p>
+<img alt="../../_images/gpsprune_trackselect.png" src="../../_images/gpsprune_trackselect.png" />
+<p>Poiché questo file contiene due tracce, ti viene offerta la scelta di quali caricare. Scegli solo la prima e premi OK.</p>
+<p>Ora dovresti vedere la traccia segnata in blu su uno sfondo bianco. Se questa traccia avesse dei waypoint (ma non ne ha), anche questi verrebbero mostrati, segnati con i loro nomi. Sotto la schermata principale della mappa c’è un grafico dell’altitudine, che mostra il profilo della traccia se contiene altitudini.</p>
+<a class="reference internal image-reference" href="../../_images/gpsprune_test_trk2.png"><img alt="../../_images/gpsprune_test_trk2.png" src="../../_images/gpsprune_test_trk2.png" style="width: 523.6px; height: 371.8px;" /></a>
+<p>Ora, supponendo che tu abbia una connessione di rete, puoi attivare la mappa cliccando sull’icona del globo in cima alla schermata principale della mappa, o con l’opzione di menu <span class="menuselection">View ‣ Show Map</span>.</p>
+<a class="reference internal image-reference" href="../../_images/gpsprune_mapnik.png"><img alt="../../_images/gpsprune_mapnik.png" src="../../_images/gpsprune_mapnik.png" style="width: 523.6px; height: 371.8px;" /></a>
+<p>Puoi trascinare la mappa con il mouse, e ingrandire e rimpicciolire con la rotella del mouse o facendo doppio clic. Trascinando con il tasto destro del mouse si definisce un rettangolo in cui zoomare, e il menu del tasto destro offre ulteriori opzioni. Cliccando su un punto verranno mostrati i dettagli, inclusa l’altitudine e il timestamp, se disponibile. Puoi anche cliccare sul profilo dell’altitudine per selezionare il punto corrispondente.</p>
+<section id="customizing-the-display">
+<h3><a class="toc-backref" href="#id3">Personalizzare la visualizzazione</a><a class="headerlink" href="#customizing-the-display" title="Link a questa intestazione">¶</a></h3>
+<p>Puoi cambiare la mappa con l’opzione del menu <span class="menuselection">Impostazioni ‣ Imposta sfondo mappa</span>. Diamo un’occhiata a una fonte di mappe alternativa selezionando la quinta, «Hikebikemap». Questa utilizza le mappe di hikebikemap.org per mostrare informazioni aggiuntive utili per l’escursionismo e il ciclismo come le curve di livello e i percorsi ciclabili.</p>
+<a class="reference internal image-reference" href="../../_images/gpsprune_hikebikemap.png"><img alt="../../_images/gpsprune_hikebikemap.png" src="../../_images/gpsprune_hikebikemap.png" style="width: 523.6px; height: 371.8px;" /></a>
+</section>
+</section>
+<section id="advanced-functions">
+<h2><a class="toc-backref" href="#id4">Funzioni Avanzate</a><a class="headerlink" href="#advanced-functions" title="Link a questa intestazione">¶</a></h2>
+<p>Ora che puoi caricare e visualizzare i file dal file system incluso, vedi se puoi integrare questo con alcune informazioni online, usando alcune funzioni più avanzate.</p>
+<section id="wikipedia">
+<h3><a class="toc-backref" href="#id5">Wikipedia</a><a class="headerlink" href="#wikipedia" title="Link a questa intestazione">¶</a></h3>
+<p>Ora cerca di scoprire qualche informazione in più su dove si trova questa traccia. Puoi farlo selezionando un punto, e poi scegliendo l’opzione di menu <span class="menuselection">Online ‣ Get nearby Wikipedia articles</span>. Questo mostra una lista di articoli le cui coordinate sono più vicine al punto selezionato. Cliccando su una di queste voci nella lista, verranno mostrate maggiori informazioni nel riquadro sottostante.</p>
+<img alt="../../_images/gpsprune_wikipedialist.png" src="../../_images/gpsprune_wikipedialist.png" />
+<p>Puoi poi usare il pulsante <cite>Load</cite> per caricare quel punto in GpsPrune, o <cite>Show webpage</cite> per caricare la pagina di Wikipedia in un browser.</p>
+</section>
+<section id="gpsies">
+<h3><a class="toc-backref" href="#id6">Gpsies</a><a class="headerlink" href="#gpsies" title="Link a questa intestazione">¶</a></h3>
+<p>Puoi anche usare un servizio online per scaricare un altra traccia dalla stessa zona. Puoi usare il comando del menu <span class="menuselection">Online ‣ Get Gpsies tracks</span> per cercare tracce sul sito web gpsies.com. Di nuovo, ottieni una lista di voci corrispondenti, e puoi selezionarne una per vederne la descrizione.</p>
+<img alt="../../_images/gpsprune_gpsieslist.png" src="../../_images/gpsprune_gpsieslist.png" />
+<p>Clicca sul pulsante <cite>Carica</cite> per caricare la traccia e seleziona per aggiungere questa traccia ai dati che hai già. Ora puoi vedere entrambe le tracce nella stessa vista.</p>
+</section>
+<section id="measuring-distances">
+<h3><a class="toc-backref" href="#id7">Misura le distanze</a><a class="headerlink" href="#measuring-distances" title="Link a questa intestazione">¶</a></h3>
+<p>Per scoprire quanto è lunga la salita, seleziona solo la parte del tracciato che contiene la salita, e poi potrai visualizzare le proprietà di questo intervallo selezionato, come la distanza, la salita e la discesa.</p>
+<ol class="arabic simple">
+<li><p>Clicca sul punto all’inizio della salita, appena a nord di Dunedin, per selezionarlo.</p></li>
+<li><p>Seleziona <span class="menuselection">Range ‣ Set range start</span> per rendere questo punto l’inizio della selezione.</p></li>
+<li><p>Seleziona un punto in cima alla salita cliccando sul punto più alto del profilo di altitudine.</p></li>
+<li><p>Seleziona <span class="menuselection">Range ‣ Set range end</span> per finire la selezione.</p></li>
+<li><p>Ora puoi vedere nella sezione «Range details» che questa parte della pista è lunga 8,55 km, sale 346 m e scende solo 10 m.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/gpsprune_rangedetails.png"><img alt="../../_images/gpsprune_rangedetails.png" src="../../_images/gpsprune_rangedetails.png" style="width: 523.6px; height: 371.8px;" /></a>
+</section>
+</section>
+<section id="things-to-try">
+<h2><a class="toc-backref" href="#id8">Cose da provare</a><a class="headerlink" href="#things-to-try" title="Link a questa intestazione">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li><p>Seleziona un punto nella traccia e cancellalo con <span class="menuselection">Point ‣ Delete point</span>.</p></li>
+<li><p>Disegna la tua traccia con <cite>Crea serie di punti</cite> dal menu del tasto destro del mouse e misura la distanza totale</p></li>
+<li><p>Esporta un’immagine della tua traccia con <span class="menuselection">File ‣ Export image</span>.</p></li>
+<li><p>Se hai i tuoi file di traccia in uno dei formati gpx, kml, kmz o csv, carica uno di questi in GpsPrune e visualizzalo usando una delle mappe disponibili</p></li>
+</ul>
+</div></blockquote>
+<section id="using-gpsprune-on-other-systems">
+<h3><a class="toc-backref" href="#id9">Usa GpsPrune su altri sistemi</a><a class="headerlink" href="#using-gpsprune-on-other-systems" title="Link a questa intestazione">¶</a></h3>
+<p>Dopo aver provato GpsPrune su questa immagine live, potresti volerlo usare su un altro sistema, che sia un altro sistema Linux o Mac OSX o Windows. Alcune distribuzioni linux includono GpsPrune nelle loro normali librerie di software (basta cercare «Prune» o «GpsPrune»), oppure si può semplicemente scaricare l’ultima copia dalla home page.</p>
+<p>Non ha bisogno di essere installato, ma ha bisogno di un runtime java da installare, versione 1.5 o superiore. Puoi estendere le funzionalità di GpsPrune installando altro software libero, come <em>GPSBabel</em>, <em>Gnuplot</em>, <em>Exiftool</em> e <em>Java3d</em>.</p>
+<p>Una volta che hai installato GpsPrune sul tuo sistema permanente, puoi salvare le tue impostazioni con l’opzione di menu <span class="menuselection">Settings ‣ Save settings</span>. Quindi saranno ricordate per la prossima volta che eseguirai GpsPrune. Comunque, nota che quando usi questo sistema live, tutti i file che salvi nel normale file system vengono persi quando spegni il computer.</p>
+<p>Puoi anche salvare i tasselli delle mappe scaricate su disco selezionando l’opzione del menu <span class="menuselection">Settings ‣ Save maps to disk</span> e selezionando una directory in cui salvare le immagini. Questo aiuta a velocizzare la visualizzazione perché non deve scaricare nuovamente le immagini.</p>
+</section>
+<section id="further-reading">
+<h3><a class="toc-backref" href="#id10">Altre letture</a><a class="headerlink" href="#further-reading" title="Link a questa intestazione">¶</a></h3>
+<ul class="simple">
+<li><p>GpsPrune home page: <a class="reference external" href="https://activityworkshop.net/software/gpsprune/">https://activityworkshop.net/software/gpsprune/</a></p></li>
+<li><p>Screenshots: <a class="reference external" href="https://activityworkshop.net/software/gpsprune/screenshots.html">https://activityworkshop.net/software/gpsprune/screenshots.html</a></p></li>
+<li><p>Come fare e istruzioni: <a class="reference external" href="https://activityworkshop.net/software/gpsprune/how-tos.html">https://activityworkshop.net/software/gpsprune/how-tos.html</a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Guida rapida EOxServer &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Indice" href="../genindex.html" />
+    <link rel="search" title="Cerca" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="ETF" href="../overview/ETF_overview.html" />
+    <link rel="prev" title="EOxServer" href="../overview/eoxserver_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://docs.eoxserver.org/en/stable/"><img alt="../../_images/logo_eoxserver.png" class="align-right" src="../../_images/logo_eoxserver.png" /></a>
+<section id="eoxserver-quickstart">
+<h1>Guida rapida EOxServer<a class="headerlink" href="#eoxserver-quickstart" title="Link a questa intestazione">¶</a></h1>
+<p>EOxServer è un server per presentare grandi archivi di dati e metadati dell’Osservazione della Terra (EO) tramite standard aperti. Si basa su uno stack di software Open Source che include Python, <a class="reference internal" href="../overview/mapserver_overview.html"><span class="doc">MapServer</span></a>, Django/GeoDjango, <a class="reference internal" href="../overview/gdal_overview.html"><span class="doc">GDAL</span></a>, <a class="reference internal" href="../overview/proj_overview.html"><span class="doc">PROJ</span></a> e un database <a class="reference internal" href="../overview/spatialite_overview.html"><span class="doc">SpatiaLite</span></a> o <a class="reference internal" href="../overview/postgis_overview.html"><span class="doc">PostGIS</span></a>.</p>
+<p>Questa Guida Rapida descrive come:</p>
+<ul class="simple">
+<li><p>Usa il Web Client per visualizzare, filtrare, sottoporre a subset e scaricare i dati EO</p></li>
+<li><p>Usa l’Admin Client per ispezionare gli archivi di dati EO</p></li>
+</ul>
+<div class="contents local topic" id="contents">
+<p class="topic-title">Contenuti</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#start-eoxserver" id="id1">Avvia EoxServer</a></p></li>
+<li><p><a class="reference internal" href="#work-with-the-web-client" id="id2">Lavora con il Client Web</a></p></li>
+<li><p><a class="reference internal" href="#work-with-the-admin-client" id="id3">Lavorare con l’Admin Client</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id4">What next?</a></p></li>
+</ul>
+</div>
+<section id="start-eoxserver">
+<h2><a class="toc-backref" href="#id1">Avvia EoxServer</a><a class="headerlink" href="#start-eoxserver" title="Link a questa intestazione">¶</a></h2>
+<p>Scegli <span class="menuselection">Geospatial ‣ Web Services ‣ EOxServer</span>. Questo lancia un browser che mostra l’istanza dimostrativa disponibile su <a class="reference external" href="http://localhost/eoxserver/">http://localhost/eoxserver/</a></p>
+<a class="reference internal image-reference" href="../../_images/eoxserver_start.png"><img alt="Avvio della dimostrazione di EOxServer" src="../../_images/eoxserver_start.png" style="width: 574.0px; height: 276.5px;" /></a>
+</section>
+<section id="work-with-the-web-client">
+<h2><a class="toc-backref" href="#id2">Lavora con il Client Web</a><a class="headerlink" href="#work-with-the-web-client" title="Link a questa intestazione">¶</a></h2>
+<p>Clicca sul link <strong>Web Client</strong> per aprire il client EOxServer integrato.</p>
+<p>All’interno di questo client è possibile esplorare il contenuto dell’istanza di EOxServer. L’istanza dimostrativa è piena di scene ENVISAT MERIS.</p>
+<a class="reference internal image-reference" href="../../_images/eoxserver_webclient1.png"><img alt="Vista principale del client web EOxServer" src="../../_images/eoxserver_webclient1.png" style="width: 749.5px; height: 433.0px;" /></a>
+<p>Il client consiste nella visualizzazione della mappa e nei widget che contengono le interazioni principali. L’area principale è il widget della mappa del client con un set di dati già visualizzati. Nella parte inferiore si trova il widget timeslider, che permette di esplorare i contenuti nella dimensione temporale.</p>
+<a class="reference internal image-reference" href="../../_images/eoxserver_webclient2.png"><img alt="Schemi client incorporati della dimostrazione di EOxServer" src="../../_images/eoxserver_webclient2.png" style="width: 748.0px; height: 431.0px;" /></a>
+<p>Il widget Layer Selection può essere espanso cliccando la ruota dentata in alto a sinistra e ti permette di abilitare o disabilitare la visibilità e configurare il rendering dei layer. Inoltre, puoi mostrare o nascondere la sovrapposizione delle strade e selezionare lo strato di sfondo. La scheda Filtri in questo widget permette di interrogare diversi valori spaziali e temporali.</p>
+<a class="reference internal image-reference" href="../../_images/eoxserver_webclient3.png"><img alt="Schemi client incorporati della dimostrazione di EOxServer" src="../../_images/eoxserver_webclient3.png" style="width: 747.0px; height: 431.5px;" /></a>
+<p>Come in una mappa, puoi zoomare e fare una panoramica del tempo di interesse attualmente visibile e selezionare un tempo di interesse disegnando sull’area contenente i punti rossi. Puoi anche passare il mouse su un punto per vedere l’ID del dataset. Cliccando sul punto, la mappa zooma automaticamente sull’estensione del dataset.</p>
+<a class="reference internal image-reference" href="../../_images/eoxserver_webclient4.png"><img alt="Schemi client incorporati della dimostrazione di EOxServer" src="../../_images/eoxserver_webclient4.png" style="width: 748.0px; height: 432.5px;" /></a>
+<p>Quando un filtro spaziale è abilitato, è possibile disegnare un riquadro di delimitazione, un poligono o un punto direttamente sulla mappa. L’elemento disegnato viene usato per l’interrogazione all’interno dello Strumento di download.</p>
+<a class="reference internal image-reference" href="../../_images/eoxserver_webclient5.png"><img alt="Schemi client incorporati della dimostrazione di EOxServer" src="../../_images/eoxserver_webclient5.png" style="width: 746.0px; height: 431.0px;" /></a>
+<p>Puoi ottenere maggiori informazioni sui servizi disponibili e i metadati sul prodotto selezionato passando il mouse sul prodotto nel widget dei risultati della ricerca e cliccando sull’icona in alto a destra.</p>
+<a class="reference internal image-reference" href="../../_images/eoxserver_webclient6.png"><img alt="Schemi client incorporati della dimostrazione di EOxServer" src="../../_images/eoxserver_webclient6.png" style="width: 749.0px; height: 432.5px;" /></a>
+<p>Quando lo strumento di download è abilitato, viene inviata una query al server. Questa query include il tempo di interesse selezionato e il riquadro di delimitazione. I risultati sono mostrati nel widget Download, dove è possibile selezionare il formato, la proiezione e i set di dati da scaricare.</p>
+<p>Questa era una rapida introduzione al Web Client EOxServer. Fai riferimento alla <a class="reference external" href="https://docs.eoxserver.org/en/stable/users/services/webclient.html">documentazione online</a> per ulteriori informazioni su questo argomento.</p>
+</section>
+<section id="work-with-the-admin-client">
+<h2><a class="toc-backref" href="#id3">Lavorare con l’Admin Client</a><a class="headerlink" href="#work-with-the-admin-client" title="Link a questa intestazione">¶</a></h2>
+<p>Dalla pagina principale di EOxServer, clicca sul link <strong>Admin Client</strong> ed effettua il login con l’utente <cite>admin</cite> e la password <cite>admin</cite>.</p>
+<a class="reference internal image-reference" href="../../_images/eoxserver_adminclient1.png"><img alt="Login del client admin della dimostrazione di EOxServer" src="../../_images/eoxserver_adminclient1.png" style="width: 438.0px; height: 272.5px;" /></a>
+<p>Il <cite>Admin Client</cite> è l’admin standard di Djangos e permette di configurare i dati disponibili. Sentiti libero di esplorare il client. Maggiori informazioni possono essere trovate nella guida <a class="reference external" href="https://docs.eoxserver.org/en/stable/users/operations/index.html">operazioni”</a>.</p>
+<a class="reference internal image-reference" href="../../_images/eoxserver_adminclient2.png"><img alt="Avvio del client admin della dimostrazione di EOxServer" src="../../_images/eoxserver_adminclient2.png" style="width: 746.0px; height: 431.0px;" /></a>
+<p>Per esempio, puoi controllare la collezione caricata di default cliccando sul link «Collections» e poi sul link «MER_FRS_1P_RGB_reduced».</p>
+<a class="reference internal image-reference" href="../../_images/eoxserver_adminclient3.png"><img alt="Serie di Dati del client admin della dimostrazione di EOxServer" src="../../_images/eoxserver_adminclient3.png" style="width: 742.0px; height: 429.0px;" /></a>
+<p>Puoi vedere l’anteprima delle coperture tornando indietro e cliccando sul link «Coperture».</p>
+<a class="reference internal image-reference" href="../../_images/eoxserver_adminclient4.png"><img alt="Gestione delle Serie di Dati del client admin della dimostrazione di EOxServer" src="../../_images/eoxserver_adminclient4.png" style="width: 746.5px; height: 429.5px;" /></a>
+</section>
+<section id="what-next">
+<h2><a class="toc-backref" href="#id4">What next?</a><a class="headerlink" href="#what-next" title="Link a questa intestazione">¶</a></h2>
+<p>Questa è una semplice dimostrazione, ma si può fare molto di più con EOxServer. Il sito web del progetto contiene molte risorse per aiutarvi ad iniziare. Qui ci sono alcune risorse da controllare:</p>
+<ul class="simple">
+<li><p>Vedi il <a class="reference internal" href="../overview/eoxserver_overview.html"><span class="doc">EOxServer Overview</span></a> per maggiori informazioni.</p></li>
+<li><p>Leggi la Guida <a class="reference external" href="https://docs.eoxserver.org/en/stable/users/operations/index.html">Operazioni EOxServer”</a>.</p></li>
+<li><p>Leggi <a class="reference external" href="https://docs.eoxserver.org/en/stable/users/basics.html">EOxServer Basics</a>.</p></li>
+<li><p>Sei pronto ad usare EOxServer? Allora unisciti alla comunità sulla <a class="reference external" href="https://docs.eoxserver.org/en/stable/users/basics.html#where-can-i-get-support">mailing lists</a> per scambiare idee, discutere potenziali miglioramenti del software e fare domande.</p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>
