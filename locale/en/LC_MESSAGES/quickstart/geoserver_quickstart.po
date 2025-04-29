@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-18 18:19+0000\n"
+"POT-Creation-Date: 2025-04-29 17:48+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -17,7 +17,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.16.0\n"
+"Generated-By: Babel 2.17.0\n"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:27
 msgid "GeoServer Quickstart"
@@ -241,162 +241,160 @@ msgstr ""
 msgid ""
 "To get started, lets style the Land and Ocean datasets. You can create "
 "SLD files using a simple text editor, but sometimes a graphical editor is"
-" better. There are several options here but |UG| allows you to open the "
-"shapefiles directly and apply simple styles using a GUI. It also provides"
-" a simple editor to modify the XML if I need to."
+" better."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:165
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:163
 msgid "Create simple styles"
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:167
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:165
 msgid "Please follow this instructions."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:169
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:167
 msgid "https://docs.geoserver.org/latest/en/user/styling/qgis/index.html"
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:172
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:170
 msgid "Adding the style to GeoServer"
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:174
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:172
 msgid "Now we need to transfer these styles to |GS|."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:176
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:174
 msgid ""
 "On the style window there is an export button which allows you to save "
 "the SLD file that defines your style."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:178
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:176
 msgid ""
 "Once saved, you can go to the |GS| admin page again and select ``Styles``"
 " (at the bottom of the ``Data`` section)."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:180
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:178
 msgid ""
 "Select the ``Add New Style`` link. At the bottom of that page is a file "
 "upload box and a browse button."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:182
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:180
 msgid "Clicking browse to find the files you just saved."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:183
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:181
 msgid ""
 "Click the upload link (next to the browse button) and a copy of the file "
 "appears in the editor."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:185
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:183
 msgid ""
 "If you click on the validate button the highlighted lines will give you "
 "an error but you can safely ignore the error (or delete those lines as "
 "they don't do anything)."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:188
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:186
 msgid "Press the :guilabel:`Submit` at the bottom of the page."
 msgstr ""
 
 msgid "Adding a Style to GeoServer"
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:197
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:195
 msgid "Adding the style to the layer"
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:199
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:197
 msgid ""
 "Click on the :guilabel:`Layers` link in the Menu on the left of the |GS| "
 "window."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:201
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:199
 msgid ""
 "Click on the layer (e.g. *ne_10m_land*), then select the "
 ":guilabel:`Publishing` tab."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:203
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:201
 msgid ""
 "Change the :guilabel:`Default Style` box to the name of the style you "
 "uploaded in the previous section."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:205
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:203
 msgid ""
 "Now click :guilabel:`Save` and go to the Layer Preview page to check that"
 " it looks good."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:209
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:207
 msgid ""
 "There are example style files for all of the example Natural Earth layers"
 " in :file:`/usr/local/share/geoserver`."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:234
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:232
 msgid "Clients for WMS layers"
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:236
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:234
 msgid ""
 "The |WMS| layers you are serving from |GS| can be used with a variety of "
 "clients on this OSGeoLive distribution, including:"
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:239
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:237
 msgid ":doc:`OpenLayers <../overview/openlayers_overview>`"
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:240
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:238
 msgid ":doc:`MapBender <../overview/mapbender_overview>`"
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:243
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:241
 msgid "Add a layer from a NetCDF file"
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:245
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:243
 msgid ""
 "The GeoServer NetCDF plugin allows the publication of rasters from NetCDF"
 " files."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:248
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:246
 msgid "Configure a NetCDF store"
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:250
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:248
 msgid "After running \"Start GeoServer\""
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:251
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:249
 msgid "Login as the administrator."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:252
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:250
 msgid "Click on :guilabel:`Add stores` then :guilabel:`NetCDF`."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:253
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:251
 msgid ""
 "Enter a value for Data Source Name (this example uses \"netcdf\") and a "
 "NetCDF URL. You can use this sample file::"
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:258
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:256
 msgid "Press \"Save\", \"Publish\" the \"O3\" layer."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:259
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:257
 msgid "Scroll down to the bottom of the \"Data\" tab and press \"Save\" again."
 msgstr ""
 
@@ -404,21 +402,21 @@ msgstr ""
 msgid "Adding a NetCDF store"
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:267
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:265
 msgid "Preview the NetCDF layer"
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:269
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:267
 msgid "Select \"Layer Preview\" from the menu on the left"
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:270
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:268
 msgid ""
 "Scroll down to find the \"cite:O3\" entry, and click on the "
 "\"OpenLayers\" link to show a preview of the layer."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:272
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:270
 msgid ""
 "Clicking on points will cause the value of \"Ozone_concentration\" to be "
 "shown in a table at the bottom of the map."
@@ -428,38 +426,38 @@ msgstr ""
 msgid "OpenLayers preview of a NetCDF layer"
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:281
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:279
 msgid ""
 "This GeoServer instance has been configured with the ``NETCDF_DATA_DIR`` "
 "Java system property to allow the publication of NetCDF files in read-"
 "only directories."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:286
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:284
 msgid "What next?"
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:288
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:286
 msgid ""
 "This is only the first step on the road to using GeoServer. There is a "
 "lot more functionality you can try."
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:291
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:289
 msgid "GeoServer Project home - https://geoserver.org/"
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:292
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:290
 msgid "GeoServer User Manual - https://docs.geoserver.org/latest/en/user/"
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:293
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:291
 msgid ""
 "GeoServer Tutorials - "
 "https://docs.geoserver.org/latest/en/user/tutorials/index.html"
 msgstr ""
 
-#: ../../build/doc/quickstart/geoserver_quickstart.rst:294
+#: ../../build/doc/quickstart/geoserver_quickstart.rst:292
 msgid ""
 "GeoServer Styling Workshop - "
 "https://docs.geoserver.org/latest/en/user/styling/workshop/index.html"
