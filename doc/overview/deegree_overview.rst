@@ -130,6 +130,7 @@ Details
 @QUICKSTART_deegree@
 
 .. presentation-note
-deegree is another robust application which has claimed the title of supporting the most comprehensive set of OGC
-Web Services in free and open source software, ranging from a transactional Web Feature Service to executing
-geospatial processes with a Web Processing Service and many more!
+   deegree is another robust application which has claimed the title of
+   supporting the most comprehensive set of OGC Web Services in free and open
+   source software, ranging from a transactional Web Feature Service to
+   executing geospatial processes with a Web Processing Service and many more!
