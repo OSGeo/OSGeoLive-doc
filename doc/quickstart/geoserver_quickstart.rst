@@ -151,9 +151,7 @@ apply various symbolizers to the data.
 
 To get started, lets style the Land and Ocean datasets.
 You can create SLD files using a simple text editor, but sometimes a graphical
-editor is better. There are several options here but |UG| allows you to open the
-shapefiles directly and apply simple styles using a GUI. It also provides a
-simple editor to modify the XML if I need to.
+editor is better.
 
 Create simple styles
 ----------------------------------
