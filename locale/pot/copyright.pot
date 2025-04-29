@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-18 17:21+0000\n"
+"POT-Creation-Date: 2025-04-29 18:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -65,7 +65,7 @@ msgid "As per the `terms of the Creative Commons license <https://creativecommon
 msgstr ""
 
 #: ../../build/doc/copyright.rst:43
-msgid "Note that images are not necessarily provided under the same CC license as the text; check with the author."
+msgid "Note that images are not necessarily provided under the same CC license as the text; check with the authors."
 msgstr ""
 
 #: ../../build/doc/copyright.rst:46
