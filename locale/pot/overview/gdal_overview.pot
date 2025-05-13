@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 17.0.0\n"
+"Project-Id-Version: OSGeoLive 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-09-26 14:03+0000\n"
+"POT-Creation-Date: 2025-05-13 22:44+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,11 +57,11 @@ msgid "Support for large files - larger than 4GB"
 msgstr ""
 
 #: ../../build/doc/overview/gdal_overview.rst:48
-msgid "Library access from Python, Java, C#, Ruby, VB6 and Perl"
+msgid "Library access from Python, Java, and C#"
 msgstr ""
 
 #: ../../build/doc/overview/gdal_overview.rst:49
-msgid "Coordinate system engine built on PROJ.4 and OGC Well Known Text coordinate system descriptions"
+msgid "Coordinate system engine built on PROJ and OGC Well Known Text coordinate system descriptions"
 msgstr ""
 
 #: ../../build/doc/overview/gdal_overview.rst:52
@@ -77,11 +77,11 @@ msgid "These include:"
 msgstr ""
 
 #: ../../build/doc/overview/gdal_overview.rst:58
-msgid "**Raster:** GeoTIFF, Erdas Imagine, SDTS, ESRI Grids, ECW, MrSID, JPEG2000, DTED, NITF, GeoPackage and more ..."
+msgid "**Raster:** GeoTIFF / COG, HDF, NetCDF, GeoPackage, JPEG2000, ECW, ENVI, KEA, MrSID, DTED, NITF and more ..."
 msgstr ""
 
 #: ../../build/doc/overview/gdal_overview.rst:59
-msgid "**Vector:** GeoPackage, ESRI Shapefile, GML, GeoJSON, AutoCAD DWG, MapInfo (tab and mid/mif), ESRI Coverages, ESRI Personal Geodatabase, DGN, PostGIS, Oracle Spatial, and more ..."
+msgid "**Vector:** GeoPackage, ESRI Shapefile, GeoJSON, PostGIS, (Geo)Parquet, ESRI File Geodatabase, FlatGeobuf, GML, AutoCAD DWG, MapInfo, DGN, Oracle Spatial, and more ..."
 msgstr ""
 
 #: ../../build/doc/overview/gdal_overview.rst:62
@@ -113,7 +113,7 @@ msgid "**Supported Platforms:** Windows, Linux, Mac"
 msgstr ""
 
 #: ../../build/doc/overview/gdal_overview.rst:77
-msgid "**API Interfaces:** C, C++, Python, Java, C#, Ruby, VB6 and Perl"
+msgid "**API Interfaces:** C, C++, Python, Java, C#"
 msgstr ""
 
 #: ../../build/doc/overview/gdal_overview.rst:79
@@ -128,11 +128,11 @@ msgstr ""
 msgid ":doc:`Quickstart documentation <../quickstart/gdal_quickstart>`"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:13
+#: ../../build/doc/<rst_epilog>:11
 msgid "vmdk"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:14
 msgid "nologo"
 msgstr ""
 
