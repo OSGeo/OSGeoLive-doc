@@ -21,18 +21,18 @@ OWSLib is Open Source, released under an BSD 3-Clause License, and runs on any p
 @SCREENSHOT_owslib@
 
 Core Features
---------------------------------------------------------------------------------
+-------------
 
 * easily connect to WMS, WFS, WCS, WPS, CSW services using Python (and many more)
-* support for the new OGC APIs
-* easy to install with ``pip install OWSLib``
+* support for the new `OGC APIs`_
+* easy to install with ``pip3 install OWSLib``
 * also available with Conda, and as a Debian package
 * an `OSGeo Community Project`_
 * detailed log output
 * support for proxies
 
 Implemented Standards
---------------------------------------------------------------------------------
+---------------------
 
 OGC Standards
 +++++++++++++
@@ -67,17 +67,17 @@ OGC Standards
 OGC API Support
 +++++++++++++++
 
-+--------------------------------------------------------+-------------+--------------------------------------------------------+-------------+
-| **Standard**                                           | **Version** | **Standard**                                           | **Version** |
-+========================================================+=============+========================================================+=============+
-| `OGC API - Features - Part 1: Core`_                   | 1.0         | `OGC API - Coverages - Part 1: Core`_                  | draft       |
-+--------------------------------------------------------+-------------+--------------------------------------------------------+-------------+
-| `OGC API - Records - Part 1: Core`_                    | draft       | `OGC API - Features - Part 3: Filtering and CQL`_      | draft       |
-+--------------------------------------------------------+-------------+--------------------------------------------------------+-------------+
-| `OGC API - Features - Part 4: CRUD`_                   | draft       | `OGC API - Processes - Part 1: Core`_                  | 1.0         |
-+--------------------------------------------------------+-------------+--------------------------------------------------------+-------------+
-| `OGC API - Connected Systems - Part 1: Feature Res.`_  | draft       | `OGC API - Connected Systems - Part 2: Dynamic Data`_  | draft       |
-+--------------------------------------------------------+-------------+--------------------------------------------------------+-------------+
++--------------------------------------------------------------------+-------------+------------------------------------------------------------+-------------+
+| **Standard**                                                       | **Version** | **Standard**                                               | **Version** |
++====================================================================+=============+============================================================+=============+
+| `OGC API - Features - Part 1: Core`_                               | 1.0         | `OGC API - Coverages - Part 1: Core`_                      | draft       |
++--------------------------------------------------------------------+-------------+------------------------------------------------------------+-------------+
+| `OGC API - Features - Part 3: Filtering`_                          | draft       | `OGC API - Processes - Part 1: Core`_                      | 1.0         |
++--------------------------------------------------------------------+-------------+------------------------------------------------------------+-------------+
+| `OGC API - Features - Part 4: Create, Replace, Update and Delete`_ | draft       | `OGC API - Connected Systems - Part 1: Feature Resources`_ | draft       |
++--------------------------------------------------------------------+-------------+------------------------------------------------------------+-------------+
+| `OGC API - Records - Part 1: Core`_                                | draft       | `OGC API - Connected Systems - Part 2: Dynamic Data`_      | draft       |
++--------------------------------------------------------------------+-------------+------------------------------------------------------------+-------------+
 
 Details
 --------------------------------------------------------------------------------
@@ -95,6 +95,7 @@ Details
 **Support:** |SUPPORT|
 
 .. _`Open Geospatial Consortium`: https://ogc.org
+.. _`OGC APIs`: https://ogcapi.ogc.org
 .. _`Python`: https://www.python.org/
 .. _`OSGeo Community Project`: https://www.osgeo.org/projects/owslib/
 .. _`BSD 3-Clause License`: https://owslib.readthedocs.io/en/stable/license.html
@@ -122,14 +123,15 @@ Details
 .. _`CIA.vc`: http://cia.vc/stats/project/OWSLib
 .. _`WaterML`: http://his.cuahsi.org/wofws.html#waterml
 .. _`Swiss GM03`: https://www.geocat.admin.ch/en/dokumentation/gm03.html
-.. _`OGC API`: https://ogcapi.ogc.org
-.. _`OGC API - Features - Part 1: Core`: https://docs.opengeospatial.org/is/17-069r3/17-069r3.html
-.. _`OGC API - Records - Part 1: Core`: https://github.com/opengeospatial/ogcapi-records
-.. _`OGC API - Features - Part 3: Filtering and CQL`: https://docs.ogc.org/DRAFTS/19-079.html
-.. _`OGC API - Features - Part 4: CRUD`: https://docs.ogc.org/DRAFTS/20-002.html
+.. _`OGC API - Features - Part 1: Core`: https://docs.ogc.org/is/17-069r4/17-069r4.html
+.. _`OGC API - Features - Part 3: Filtering`: https://docs.ogc.org/is/19-079r2/19-079r2.html
+.. _`OGC API - Features - Part 4: Create, Replace, Update and Delete`: https://docs.ogc.org/DRAFTS/20-002r1.html
 .. _`OGC API - Coverages - Part 1: Core`: https://docs.ogc.org/DRAFTS/19-087.html
+.. _`OGC API - Maps - Part 1: Core`: https://docs.ogc.org/is/20-058/20-058.html
+.. _`OGC API - Records - Part 1: Core`: https://docs.ogc.org/is/20-004r1/20-004r1.html
+.. _`OGC API - Environmental Data Retrieval - Part 1: Core`: https://docs.ogc.org/is/19-086r6/19-086r6.html
 .. _`OGC API - Processes - Part 1: Core`: https://docs.ogc.org/is/18-062r2/18-062r2.html
-.. _`OGC API - Connected Systems - Part 1: Feature Res.`: https://docs.ogc.org/DRAFTS/23-001r0.html
+.. _`OGC API - Connected Systems - Part 1: Feature Resources`: https://docs.ogc.org/DRAFTS/23-001r0.html
 .. _`OGC API - Connected Systems - Part 2: Dynamic Data`: https://docs.ogc.org/DRAFTS/23-002r0.html
 .. _`OpenSearch`: https://github.com/dewitt/opensearch
 

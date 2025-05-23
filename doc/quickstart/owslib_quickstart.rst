@@ -23,7 +23,7 @@ other bundled geospatial applications.
    :local:
 
 Download a WMS Image from MapServer
---------------------------------------------------------------------------------
+-----------------------------------
 
 An example of connecting to the MapServer demo on OSGeoLive and downloading a WMS image.
 
@@ -53,8 +53,8 @@ An example of connecting to the MapServer demo on OSGeoLive and downloading a WM
   :scale: 70 %
   :alt: Output image from MapServer WMS
 
-Inspect pyWPS Processes
---------------------------------------------------------------------------------
+Inspect PyWPS Processes
+-----------------------
 
 An example of connecting to the PyWPS demo server on OSGeoLive and inspecting the available processes.
 
@@ -74,7 +74,7 @@ An example of connecting to the PyWPS demo server on OSGeoLive and inspecting th
     Output data: ['Hello OWSLib']
 
 Using CSW with pycsw
---------------------------------------------------------------------------------
+--------------------
 
 An example of connecting to the Catalogue Service for the Web (CSW) demo server provided by pycsw on OSGeoLive.
 
@@ -97,7 +97,7 @@ An example of connecting to the Catalogue Service for the Web (CSW) demo server 
     None
 
 Connect to the pygeoapi OGC Features API
---------------------------------------------------------------------------------
+----------------------------------------
 
 An example of connecting to the pygeoapi demo server on OSGeoLive and retrieving a feature collection, using
 the OGC Features API.
@@ -128,7 +128,7 @@ Then, in a terminal, run the following commands:
                 "name": "Lake Victoria",
 
 What next?
---------------------------------------------------------------------------------
+----------
 
 OSGeoLive includes a set of Jupyter notebooks, including examples of OWSLib usage, and providing more
 details on the examples above. From the desktop, choose :menuselection:`Geospatial --> Spatial Tools --> Jupyter Notebook`.
