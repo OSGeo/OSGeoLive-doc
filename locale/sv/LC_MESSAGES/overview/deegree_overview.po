@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "deegree_overview/sv/>\n"
 "Language: sv\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../build/doc/overview/deegree_overview.rst:21
 msgid "deegree"
-msgstr ""
+msgstr "deegree"
 
 #: ../../build/doc/overview/deegree_overview.rst:24
 msgid "About"
@@ -39,27 +39,27 @@ msgstr ""
 
 #: ../../build/doc/overview/deegree_overview.rst:30
 msgid "|WFS|: Serves vector data from geospatial data"
-msgstr ""
+msgstr "|WFS|: Serverar vektordata från geospatiala data"
 
 #: ../../build/doc/overview/deegree_overview.rst:31
 msgid "|WMS|: Serves maps rendered from geospatial data"
-msgstr ""
+msgstr "|WMS|: Serverar kartor som återges från geospatiala data"
 
 #: ../../build/doc/overview/deegree_overview.rst:32
 msgid "|WMTS|: Serves pre-rendered map tiles"
-msgstr ""
+msgstr "|WMTS|: Serverar förrenderade kartplattor"
 
 #: ../../build/doc/overview/deegree_overview.rst:33
 msgid "|CSW|: Performs searches for geospatial datasets and services"
-msgstr ""
+msgstr "|CSW|: Utför sökningar efter geospatiala dataset och tjänster"
 
 #: ../../build/doc/overview/deegree_overview.rst:34
 msgid "|WPS|: Executes geospatial processes"
-msgstr ""
+msgstr "|WPS|: Exekverar geospatiala processer"
 
 #: ../../build/doc/overview/deegree_overview.rstNone
 msgid "deegree screenshot"
-msgstr ""
+msgstr "deegree skärmdump"
 
 #: ../../build/doc/overview/deegree_overview.rst:43
 msgid "Core Features"
@@ -67,11 +67,11 @@ msgstr "Kärnfunktioner"
 
 #: ../../build/doc/overview/deegree_overview.rst:45
 msgid "**WFS**"
-msgstr ""
+msgstr "**WFS**"
 
 #: ../../build/doc/overview/deegree_overview.rst:47
 msgid "Implements WFS standards 1.0.0, 1.1.0 and 2.0.0"
-msgstr ""
+msgstr "Implementerar WFS-standarderna 1.0.0, 1.1.0 och 2.0.0"
 
 #: ../../build/doc/overview/deegree_overview.rst:48
 msgid ""
@@ -81,13 +81,13 @@ msgstr ""
 
 #: ../../build/doc/overview/deegree_overview.rst:49
 msgid "Fully transactional (even for rich data models)"
-msgstr ""
+msgstr "Fullständigt transaktionell (även för rika datamodeller)"
 
 #: ../../build/doc/overview/deegree_overview.rst:50
 #: ../../build/doc/overview/deegree_overview.rst:90
 #: ../../build/doc/overview/deegree_overview.rst:102
 msgid "Supports KVP, XML and SOAP requests"
-msgstr ""
+msgstr "Stöd för KVP-, XML- och SOAP-förfrågningar"
 
 #: ../../build/doc/overview/deegree_overview.rst:51
 msgid "GML 2/3.0/3.1/3.2 output/input"
@@ -95,113 +95,126 @@ msgstr ""
 
 #: ../../build/doc/overview/deegree_overview.rst:52
 msgid "Support for GetGmlObject requests and XLinks"
-msgstr ""
+msgstr "Stöd för GetGmlObject-förfrågningar och XLinks"
 
 #: ../../build/doc/overview/deegree_overview.rst:53
 #: ../../build/doc/overview/deegree_overview.rst:66
 #: ../../build/doc/overview/deegree_overview.rst:81
 #: ../../build/doc/overview/deegree_overview.rst:91
 msgid "High performance and excellent scalability"
-msgstr ""
+msgstr "Hög prestanda och utmärkt skalbarhet"
 
 #: ../../build/doc/overview/deegree_overview.rst:54
 msgid "On-the-fly coordinate transformation"
-msgstr ""
+msgstr "Koordinatomvandling i realtid"
 
 #: ../../build/doc/overview/deegree_overview.rst:55
 msgid "Designed for rich data models from the bottom up"
-msgstr ""
+msgstr "Utformad för rika datamodeller från botten och upp"
 
 #: ../../build/doc/overview/deegree_overview.rst:56
 msgid ""
 "Backends support flexible mapping of GML application schemas to relational "
 "models"
 msgstr ""
+"Backends stöder flexibel mappning av GML-applikationsscheman till "
+"relationsmodeller"
 
 #: ../../build/doc/overview/deegree_overview.rst:57
 msgid ""
 "ISO 19107-compliant geometry model: Complex geometries (e.g. non-linear "
 "curves)"
 msgstr ""
+"Geometrimodell i enlighet med ISO 19107: Komplexa geometrier (t.ex. icke-"
+"linjära kurvor)"
 
 #: ../../build/doc/overview/deegree_overview.rst:58
 msgid "Advanced filter expression support based on XPath 1.0"
-msgstr ""
+msgstr "Avancerat stöd för filteruttryck baserat på XPath 1.0"
 
 #: ../../build/doc/overview/deegree_overview.rst:59
 msgid ""
 "Supports numerous backends, such as PostGIS, Oracle Spatial, MS SQL Server, "
 "Shapefiles or GML instance documents"
 msgstr ""
+"Stöd för många backends, t.ex. PostGIS, Oracle Spatial, MS SQL Server, "
+"Shapefiler eller GML-instansdokument"
 
 #: ../../build/doc/overview/deegree_overview.rst:61
 msgid "**WMS**"
-msgstr ""
+msgstr "**WMS**"
 
 #: ../../build/doc/overview/deegree_overview.rst:63
 msgid "Implements WMS standards 1.1.1 and 1.3.0"
-msgstr ""
+msgstr "Implementerar WMS-standarderna 1.1.1 och 1.3.0"
 
 #: ../../build/doc/overview/deegree_overview.rst:64
 msgid "Official OGC reference implementation for WMS 1.1.1 and WMS 1.3.0"
-msgstr ""
+msgstr "Officiell OGC-referensimplementering för WMS 1.1.1 och WMS 1.3.0"
 
 #: ../../build/doc/overview/deegree_overview.rst:65
 msgid ""
 "Extensive support for styling languages SLD/SE versions 1.0.0 and 1.1.0"
-msgstr ""
+msgstr "Omfattande stöd för stylingspråken SLD/SE version 1.0.0 och 1.1.0"
 
 #: ../../build/doc/overview/deegree_overview.rst:67
 msgid "High quality rendering"
-msgstr ""
+msgstr "Rendering av hög kvalitet"
 
 #: ../../build/doc/overview/deegree_overview.rst:68
 msgid "Scale dependent styling"
-msgstr ""
+msgstr "Skalberoende styling"
 
 #: ../../build/doc/overview/deegree_overview.rst:69
 msgid "Support for SE removes the need for a lot of proprietary extensions"
-msgstr ""
+msgstr "Stöd för SE eliminerar behovet av en mängd proprietära tillägg"
 
 #: ../../build/doc/overview/deegree_overview.rst:70
 msgid ""
 "Easy configuration of HTML and other output formats for GetFeatureInfo "
 "responses"
 msgstr ""
+"Enkel konfiguration av HTML och andra utdataformat för GetFeatureInfo-svar"
 
 #: ../../build/doc/overview/deegree_overview.rst:71
 msgid "Uses stream-based data access with minimal memory footprint"
-msgstr ""
+msgstr "Använder strömbaserad dataåtkomst med minimalt minnesavtryck"
 
 #: ../../build/doc/overview/deegree_overview.rst:72
 msgid ""
 "Nearly complete support for raster symbolizing as defined in SE (with some "
 "extensions)"
 msgstr ""
+"Nästan fullständigt stöd för rastersymbolisering enligt definitionen i SE ("
+"med vissa tillägg)"
 
 #: ../../build/doc/overview/deegree_overview.rst:73
 msgid ""
 "Complete support for TIME/ELEVATION and other dimensions for both feature "
 "and raster data"
 msgstr ""
+"Fullständigt stöd för TIME/ELEVATION och andra dimensioner för både feature- "
+"och rasterdata"
 
 #: ../../build/doc/overview/deegree_overview.rst:74
 msgid ""
 "Supports numerous backends, such as PostGIS, Oracle Spatial, Shapefiles or "
 "GML instance documents"
 msgstr ""
+"Stöd för många backends, t.ex. PostGIS, Oracle Spatial, Shapefiler eller GML-"
+"instansdokument"
 
 #: ../../build/doc/overview/deegree_overview.rst:75
 msgid "Can render rich data models directly"
-msgstr ""
+msgstr "Kan rendera rika datamodeller direkt"
 
 #: ../../build/doc/overview/deegree_overview.rst:77
 msgid "**WMTS**"
-msgstr ""
+msgstr "**WMTS**"
 
 #: ../../build/doc/overview/deegree_overview.rst:79
 msgid "Implements Basic WMTS standard 1.0.0 (KVP)"
-msgstr ""
+msgstr "Implementerar grundläggande WMTS-standard 1.0.0 (KVP)"
 
 #: ../../build/doc/overview/deegree_overview.rst:80
 msgid "Official OGC reference implementation for WMS 1.0.0"
@@ -212,30 +225,32 @@ msgid ""
 "Supports different backends, such as GeoTIFF, remote WMS or file system tile"
 " image hierarchies"
 msgstr ""
+"Stöd för olika backends, t.ex. GeoTIFF, fjärr-WMS eller filsystemets "
+"bildhierarkier"
 
 #: ../../build/doc/overview/deegree_overview.rst:83
 msgid "Supports on-the-fly caching (using EHCache)"
-msgstr ""
+msgstr "Stöd för on-the-fly-caching (med hjälp av EHCache)"
 
 #: ../../build/doc/overview/deegree_overview.rst:84
 msgid "Supports GetFeatureInfo for remote WMS backends"
-msgstr ""
+msgstr "Stöd för GetFeatureInfo för fjärrstyrda WMS-backends"
 
 #: ../../build/doc/overview/deegree_overview.rst:86
 msgid "**CSW**"
-msgstr ""
+msgstr "**CSW**"
 
 #: ../../build/doc/overview/deegree_overview.rst:88
 msgid "Implements CSW standard 2.0.2"
-msgstr ""
+msgstr "Implementerar CSW-standard 2.0.2"
 
 #: ../../build/doc/overview/deegree_overview.rst:89
 msgid "Fully transactional"
-msgstr ""
+msgstr "Fullständigt transaktionell"
 
 #: ../../build/doc/overview/deegree_overview.rst:92
 msgid "ISO Metadata Application Profile 1.0.0"
-msgstr ""
+msgstr "ISO-profil för tillämpning av metadata 1.0.0"
 
 #: ../../build/doc/overview/deegree_overview.rst:93
 msgid ""
@@ -248,68 +263,76 @@ msgid ""
 "Modular inspector architecture allows to validate records to be inserted "
 "against various criteria"
 msgstr ""
+"Modulär inspektörsarkitektur gör det möjligt att validera poster som ska "
+"infogas mot olika kriterier"
 
 #: ../../build/doc/overview/deegree_overview.rst:95
 msgid ""
 "Standard inspectors: schema validity, identifier integrity, INSPIRE "
 "requirements"
 msgstr ""
+"Standardkontrollanter: schemavaliditet, identifieringsintegritet, Inspire-"
+"krav"
 
 #: ../../build/doc/overview/deegree_overview.rst:96
 msgid ""
 "Handles all defined queryable properties (for Dublin Core as well as ISO "
 "profile)"
 msgstr ""
+"Hanterar alla definierade sökbara egenskaper (för både Dublin Core och ISO-"
+"profilen)"
 
 #: ../../build/doc/overview/deegree_overview.rst:97
 msgid "Complex filter expressions"
-msgstr ""
+msgstr "Komplexa filteruttryck"
 
 #: ../../build/doc/overview/deegree_overview.rst:99
 msgid "**WPS**"
-msgstr ""
+msgstr "**WPS**"
 
 #: ../../build/doc/overview/deegree_overview.rst:101
 msgid "Implements WPS standard 1.0.0"
-msgstr ""
+msgstr "Implementerar WPS-standard 1.0.0"
 
 #: ../../build/doc/overview/deegree_overview.rst:103
 msgid "Pluggable process provider layer"
-msgstr ""
+msgstr "Pluggbart lager för processleverantör"
 
 #: ../../build/doc/overview/deegree_overview.rst:104
 msgid "Easy-to-use API for implementing Java processes"
-msgstr ""
+msgstr "Användarvänligt API för implementering av Java-processer"
 
 #: ../../build/doc/overview/deegree_overview.rst:105
 msgid ""
 "Supports all variants of input/output parameters: literal, bbox, complex "
 "(binary and xml)"
 msgstr ""
+"Stöd för alla varianter av inmatnings-/utmatningsparametrar: literal, bbox, "
+"komplex (binär och xml)"
 
 #: ../../build/doc/overview/deegree_overview.rst:106
 msgid "Streaming access for complex input/output parameters"
-msgstr ""
+msgstr "Streamingåtkomst för komplexa inmatnings-/utmatningsparametrar"
 
 #: ../../build/doc/overview/deegree_overview.rst:107
 msgid "Processing of huge amounts of data with minimal memory footprint"
-msgstr ""
+msgstr "Bearbetning av stora datamängder med minimalt minnesavtryck"
 
 #: ../../build/doc/overview/deegree_overview.rst:108
 msgid "Supports storing of response documents/output parameters"
-msgstr ""
+msgstr "Stöd för lagring av svarsdokument/utdataparametrar"
 
 #: ../../build/doc/overview/deegree_overview.rst:109
 msgid "Supports input parameters given inline and by reference"
-msgstr ""
+msgstr "Stöder inmatningsparametrar som anges inline och som referens"
 
 #: ../../build/doc/overview/deegree_overview.rst:110
 msgid "Supports RawDataOutput/ResponseDocument responses"
-msgstr ""
+msgstr "Stöd för RawDataOutput/ResponseDocument-svar"
 
 #: ../../build/doc/overview/deegree_overview.rst:111
 msgid "Supports asynchronous execution (with polling of process status)"
-msgstr ""
+msgstr "Stöd för asynkron exekvering (med polling av processstatus)"
 
 #: ../../build/doc/overview/deegree_overview.rst:114
 msgid "Implemented Standards"
@@ -317,11 +340,11 @@ msgstr "Implementerade standarder"
 
 #: ../../build/doc/overview/deegree_overview.rst:116
 msgid "|WFS| 1.0.0, 1.1.0 and 2.0.0"
-msgstr ""
+msgstr "|WFS| 1.0.0, 1.1.0 och 2.0.0"
 
 #: ../../build/doc/overview/deegree_overview.rst:117
 msgid "|WMS| 1.1.1 and 1.3.0"
-msgstr ""
+msgstr "|WMS| 1.1.1 och 1.3.0"
 
 #: ../../build/doc/overview/deegree_overview.rst:118
 msgid "|WMTS| 1.1.0"
@@ -329,15 +352,15 @@ msgstr ""
 
 #: ../../build/doc/overview/deegree_overview.rst:119
 msgid "|CSW| 2.0.2"
-msgstr ""
+msgstr "|CSW| 2.0.2"
 
 #: ../../build/doc/overview/deegree_overview.rst:120
 msgid "|WPS| 1.0.0"
-msgstr ""
+msgstr "|WPS| 1.0.0"
 
 #: ../../build/doc/overview/deegree_overview.rst:121
 msgid "|GML| 2.12, 3.0.1, 3.1.1 and 3.2.1"
-msgstr ""
+msgstr "|GML| 2.12, 3.0.1, 3.1.1 och 3.2.1"
 
 #: ../../build/doc/overview/deegree_overview.rst:124
 msgid "Details"
@@ -345,27 +368,27 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/deegree_overview.rst:126
 msgid "**Website:** http://www.deegree.org"
-msgstr ""
+msgstr "**Webbplats:** http://www.deegree.org"
 
 #: ../../build/doc/overview/deegree_overview.rst:128
 msgid "**Licence:** GNU Lesser General Public License, Version 2.1 (LGPL 2.1)"
-msgstr ""
+msgstr "**Licens:** GNU Lesser General Public License, version 2.1 (LGPL 2.1)"
 
 #: ../../build/doc/overview/deegree_overview.rst:130
 msgid "**Software Version:** |version-deegree|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-deegree|"
 
 #: ../../build/doc/overview/deegree_overview.rst:132
 msgid "**Supported Platforms:** Windows, Linux"
-msgstr ""
+msgstr "**Plattformar som stöds:** Windows, Linux"
 
 #: ../../build/doc/overview/deegree_overview.rst:134
 msgid "**API Interfaces:** Java"
-msgstr ""
+msgstr "**API-gränssnitt:** Java"
 
 #: ../../build/doc/overview/deegree_overview.rst:136
 msgid "**Support:** https://www.deegree.org/community"
-msgstr ""
+msgstr "**Support:** https://www.deegree.org/community"
 
 #: ../../build/doc/overview/deegree_overview.rst:142
 msgid "Quickstart"
@@ -373,7 +396,7 @@ msgstr "Snabbstart"
 
 #: ../../build/doc/overview/deegree_overview.rst:144
 msgid ":doc:`Quickstart documentation <../quickstart/deegree_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snabbstartsdokumentation <../quickstart/deegree_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -385,8 +408,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

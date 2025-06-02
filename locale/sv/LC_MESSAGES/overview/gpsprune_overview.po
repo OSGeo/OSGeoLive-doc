@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "gpsprune_overview/sv/>\n"
 "Language: sv\n"
@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../../build/doc/overview/gpsprune_overview.rst:15
 msgid "GpsPrune"
-msgstr ""
+msgstr "GpsPrune"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:18
 msgid "GPS Track-Editing"
-msgstr ""
+msgstr "Redigering av GPS-spår"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:20
 msgid ""
@@ -37,6 +37,10 @@ msgid ""
 " used for planning trips in advance, or for analysing the tracks recorded by"
 " GPS receivers."
 msgstr ""
+"`GpsPrune <https://activityworkshop.net/software/gpsprune>`_ är ett verktyg "
+"för visning, redigering och konvertering av koordinatdata från GPS-system. "
+"Det kan användas för att planera resor i förväg eller för att analysera de "
+"spår som registreras av GPS-mottagare."
 
 #: ../../build/doc/overview/gpsprune_overview.rst:24
 msgid ""
@@ -45,22 +49,32 @@ msgid ""
 " and prune the data points. It also has functions for correlating photos "
 "and audio files to the coordinates using the file timestamps."
 msgstr ""
+"Det använder :doc:`OpenStreetMap <osm_dataset_overview>`-bilder för att visa "
+"inspelade spår och waypoints och tillhandahåller en mängd olika verktyg så "
+"att du kan redigera, beskära och beskära datapunkterna. Det finns också "
+"funktioner för att korrelera foton och ljudfiler till koordinaterna med "
+"hjälp av filernas tidsstämplar."
 
 #: ../../build/doc/overview/gpsprune_overview.rst:29
 msgid ""
 "GpsPrune uses GPSBabel, if available, to read data directly from a GPS "
 "receiver, and can send the edited data back to the receiver too."
 msgstr ""
+"GpsPrune använder GPSBabel, om det finns tillgängligt, för att läsa data "
+"direkt från en GPS-mottagare och kan även skicka tillbaka de redigerade data "
+"till mottagaren."
 
 #: ../../build/doc/overview/gpsprune_overview.rst:32
 msgid ""
 "GpsPrune runs on Mac OSX, Windows and Linux, and is available in over ten "
 "different languages."
 msgstr ""
+"GpsPrune körs på Mac OSX, Windows och Linux och finns tillgänglig på över "
+"tio olika språk."
 
 #: ../../build/doc/overview/gpsprune_overview.rstNone
 msgid "gpsprune screenshot"
-msgstr ""
+msgstr "gpsprune skärmdump"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:42
 msgid "Core Features"
@@ -71,55 +85,69 @@ msgid ""
 "Load data from text files, gpx files, kml/kmz files, or directly from a GPS "
 "receiver"
 msgstr ""
+"Ladda data från textfiler, gpx-filer, kml/kmz-filer eller direkt från en GPS-"
+"mottagare"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:45
 msgid ""
 "Zoomable map imagery from OpenStreetMap or any compatible server (such as "
 "HikeBikeMap, Reit- und Wanderkarte etc)"
 msgstr ""
+"Zoombara kartbilder från OpenStreetMap eller annan kompatibel server (t.ex. "
+"HikeBikeMap, Reit- und Wanderkarte etc.)"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:46
 msgid "Altitude or speed profile view"
-msgstr ""
+msgstr "Visning av profil för höjd eller hastighet"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:47
 msgid ""
 "Editing tools for creating, modifying, deleting, reversing and compressing "
 "tracks"
 msgstr ""
+"Redigeringsverktyg för att skapa, modifiera, radera, backa och komprimera "
+"spår"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:48
 msgid ""
 "Interactive 3d view of the data or export to POV format for 3D rendering, "
 "both including map imagery painted onto the terrain"
 msgstr ""
+"Interaktiv 3D-vy av data eller export till POV-format för 3D-rendering, båda "
+"inklusive kartbilder målade på terrängen"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:49
 msgid ""
 "Save data to text files, gpx files, kml/kmz files, or directly to a GPS "
 "receiver"
 msgstr ""
+"Spara data till textfiler, gpx-filer, kml/kmz-filer eller direkt till en GPS-"
+"mottagare"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:50
 msgid ""
 "Automatic correlation of photographs and audio files with the loaded data "
 "using timestamps"
 msgstr ""
+"Automatisk korrelation av fotografier och ljudfiler med inlästa data med "
+"hjälp av tidsstämplar"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:51
 msgid ""
 "Creation of charts such as altitude against distance, speed against time"
-msgstr ""
+msgstr "Skapande av diagram, t.ex. höjd mot avstånd, hastighet mot tid"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:52
 msgid "Distances, climbs, descents, time estimates and more"
-msgstr ""
+msgstr "Avstånd, stigningar, nedförsbackar, tidsuppskattningar och mycket mer"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:53
 msgid ""
 "Online resources such as Wikipedia, GPSies, OpenCaching.de and local weather"
 " forecasts"
 msgstr ""
+"Online-resurser som Wikipedia, GPSies, OpenCaching.de och lokala "
+"väderprognoser"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:56
 msgid "Details"
@@ -127,7 +155,7 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:58
 msgid "**Website:** https://activityworkshop.net/software/gpsprune"
-msgstr ""
+msgstr "**Webbplats:** https://activityworkshop.net/software/gpsprune"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:60
 msgid "**Licence:** GNU General Public License (GPL) version 2"
@@ -135,11 +163,11 @@ msgstr "* * Licens: * * GNU General Public License (GPL) version 2"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:62
 msgid "**Software Version:** |version-gpsprune|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-gpsprune|"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:64
 msgid "**Supported Platforms:** GNU/Linux, Mac OSX, Windows"
-msgstr ""
+msgstr "**Plattformar som stöds:** GNU/Linux, Mac OSX, Windows"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:70
 msgid "Quickstart"
@@ -147,7 +175,7 @@ msgstr "Snabbstart"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:72
 msgid ":doc:`Quickstart documentation <../quickstart/gpsprune_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snabbstartsdokumentation <../quickstart/gpsprune_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -159,8 +187,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/index/"
 "sv/>\n"
 "Language: sv\n"
@@ -44,7 +44,7 @@ msgstr ""
 
 #: ../../build/doc/index.rstNone
 msgid "boot select"
-msgstr ""
+msgstr "uppstartsval"
 
 #: ../../build/doc/index.rst:17
 msgid ""
@@ -101,6 +101,8 @@ msgid ""
 "A half hour `presentation <presentation.html>`__, highlighting all OSGeoLive"
 " applications, is available with slides, script"
 msgstr ""
+"En halvtimmes `presentation <presentation.html>`__, som belyser alla "
+"OSGeoLive-applikationer, finns tillgänglig med bilder och manus"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -112,8 +114,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

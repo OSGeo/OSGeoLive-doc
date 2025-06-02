@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "pycsw_overview/sv/>\n"
 "Language: sv\n"
@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../../build/doc/overview/pycsw_overview.rst:19
 msgid "pycsw"
-msgstr ""
+msgstr "pycsw"
 
 #: ../../build/doc/overview/pycsw_overview.rst:22
 msgid "Metadata Catalogue"
-msgstr ""
+msgstr "Metadatakatalog"
 
 #: ../../build/doc/overview/pycsw_overview.rst:24
 msgid ""
@@ -38,6 +38,12 @@ msgid ""
 "setup within an Apache web server (or any WSGI server) and can access "
 "metadata records stored as XML files within a database."
 msgstr ""
+"pycsw gör det möjligt för användare att publicera en katalog med "
+"beskrivningar av dataset (metadata) på webben, med hjälp av standardbaserade "
+"gränssnitt och format, så att den kan efterfrågas och uppdateras av "
+"katalogklienter. pycsw är enkelt att installera i en Apache-webbserver ("
+"eller någon WSGI-server) och kan komma åt metadataposter som lagras som XML-"
+"filer i en databas."
 
 #: ../../build/doc/overview/pycsw_overview.rst:26
 msgid ""
@@ -46,6 +52,9 @@ msgid ""
 "following international standards such as ISO 19115, ISO 19139 and FGDC "
 "CSDGM."
 msgstr ""
+"Metadata är \"data om data\" och lagrar sådant som skapandedatum, "
+"författare, titel, intresseområde etc. och kodas vanligtvis som XML-filer "
+"enligt internationella standarder som ISO 19115, ISO 19139 och FGDC CSDGM."
 
 #: ../../build/doc/overview/pycsw_overview.rst:28
 msgid ""
@@ -54,16 +63,22 @@ msgid ""
 "standard defines common interfaces to discover, browse and query metadata "
 "about spatial data, web services and related resources."
 msgstr ""
+"pycsw är en `Python`_-implementering av |CSW|. Projektet är certifierat `OGC "
+"Compliant`_, och är en `OGC Reference Implementation`_. CSW-standarden "
+"definierar gemensamma gränssnitt för att upptäcka, bläddra och fråga "
+"metadata om rumsliga data, webbtjänster och relaterade resurser."
 
 #: ../../build/doc/overview/pycsw_overview.rst:30
 msgid ""
 "pycsw is Open Source, released under an MIT license, and runs on all major "
 "platforms (Windows, Linux, Mac OS X)."
 msgstr ""
+"pycsw är Open Source, släppt under en MIT-licens och körs på alla större "
+"plattformar (Windows, Linux, Mac OS X)."
 
 #: ../../build/doc/overview/pycsw_overview.rstNone
 msgid "pycsw screenshot"
-msgstr ""
+msgstr "pycsw skärmdump"
 
 #: ../../build/doc/overview/pycsw_overview.rst:39
 msgid "Core Features"
@@ -74,94 +89,96 @@ msgid ""
 "certified OGC Compliant and OGC Reference Implementation for OGC CSW 2.0.2 "
 "and CSW 3.0.0"
 msgstr ""
+"certifierad OGC-kompatibel och OGC-referensimplementering för OGC CSW 2.0.2 "
+"och CSW 3.0.0"
 
 #: ../../build/doc/overview/pycsw_overview.rst:42
 msgid "harvesting support for WMS, WFS, WCS, WPS, WAF, CSW, SOS"
-msgstr ""
+msgstr "avverkningsstöd för WMS, WFS, WCS, WPS, WAF, CSW, SOS"
 
 #: ../../build/doc/overview/pycsw_overview.rst:43
 msgid "implements INSPIRE Discovery Services 3.0"
-msgstr ""
+msgstr "implementerar INSPIRE Discovery Services 3.0"
 
 #: ../../build/doc/overview/pycsw_overview.rst:44
 msgid "implements ISO Metadata Application Profile 1.0.0"
-msgstr ""
+msgstr "implementerar ISO Metadata Application Profile 1.0.0"
 
 #: ../../build/doc/overview/pycsw_overview.rst:45
 msgid "implements FGDC CSDGM Application Profile for CSW 2.0"
-msgstr ""
+msgstr "implementerar FGDC CSDGM Application Profile för CSW 2.0"
 
 #: ../../build/doc/overview/pycsw_overview.rst:46
 msgid "implements the Search/Retrieval via URL (SRU) search protocol"
-msgstr ""
+msgstr "implementerar sökprotokollet Search/Retrieval via URL (SRU)"
 
 #: ../../build/doc/overview/pycsw_overview.rst:47
 msgid "implements Full Text Search capabilities"
-msgstr ""
+msgstr "implementerar funktioner för fulltextsökning"
 
 #: ../../build/doc/overview/pycsw_overview.rst:48
 msgid "implements OGC OpenSearch Geo/Time extensions"
-msgstr ""
+msgstr "implementerar OGC OpenSearch Geo/Time-tillägg"
 
 #: ../../build/doc/overview/pycsw_overview.rst:49
 msgid "implements Open Archives Initiative Protocol for Metadata Harvesting"
-msgstr ""
+msgstr "implementerar Open Archives Initiative Protocol for Metadata Harvesting"
 
 #: ../../build/doc/overview/pycsw_overview.rst:50
 msgid "supports ISO, Dublin Core, DIF, FGDC, Atom and GM03 metadata models"
-msgstr ""
+msgstr "stödjer metadatamodellerna ISO, Dublin Core, DIF, FGDC, Atom och GM03"
 
 #: ../../build/doc/overview/pycsw_overview.rst:51
 msgid "CGI or WSGI deployment"
-msgstr ""
+msgstr "CGI- eller WSGI-distribution"
 
 #: ../../build/doc/overview/pycsw_overview.rst:52
 msgid "Python 2 and 3 compatible"
-msgstr ""
+msgstr "Kompatibel med Python 2 och 3"
 
 #: ../../build/doc/overview/pycsw_overview.rst:53
 msgid "simple configuration"
-msgstr ""
+msgstr "enkel konfiguration"
 
 #: ../../build/doc/overview/pycsw_overview.rst:54
 msgid "transactional capabilities (CSW-T)"
-msgstr ""
+msgstr "transaktionella förmågor (CSW-T)"
 
 #: ../../build/doc/overview/pycsw_overview.rst:55
 msgid "flexible repository configuration"
-msgstr ""
+msgstr "flexibel konfiguration av förvaret"
 
 #: ../../build/doc/overview/pycsw_overview.rst:56
 msgid "GeoNode connectivity"
-msgstr ""
+msgstr "GeoNode-anslutning"
 
 #: ../../build/doc/overview/pycsw_overview.rst:57
 msgid "HHypermap connectivity"
-msgstr ""
+msgstr "HHypermap-anslutning"
 
 #: ../../build/doc/overview/pycsw_overview.rst:58
 msgid "Open Data Catalog connectivity"
-msgstr ""
+msgstr "Anslutning till Open Data Catalog"
 
 #: ../../build/doc/overview/pycsw_overview.rst:59
 msgid "CKAN connectivity"
-msgstr ""
+msgstr "CKAN-anslutning"
 
 #: ../../build/doc/overview/pycsw_overview.rst:60
 msgid "federated catalogue distributed searching"
-msgstr ""
+msgstr "federerad katalog distribuerad sökning"
 
 #: ../../build/doc/overview/pycsw_overview.rst:61
 msgid "realtime XML Schema validation"
-msgstr ""
+msgstr "xML Schema-validering i realtid"
 
 #: ../../build/doc/overview/pycsw_overview.rst:62
 msgid "extensible profile plugin architecture"
-msgstr ""
+msgstr "utdragbar arkitektur för profilplugin"
 
 #: ../../build/doc/overview/pycsw_overview.rst:63
 msgid "very lightweight (Python + CGI)"
-msgstr ""
+msgstr "mycket lättviktig (Python + CGI)"
 
 #: ../../build/doc/overview/pycsw_overview.rst:67
 msgid "Implemented Standards"
@@ -169,79 +186,79 @@ msgstr "Implementerade standarder"
 
 #: ../../build/doc/overview/pycsw_overview.rst:69
 msgid "OGC Standards:"
-msgstr ""
+msgstr "OGC-standarder:"
 
 #: ../../build/doc/overview/pycsw_overview.rst:71
 msgid "|CSW|     2.0.2, 3.0.0"
-msgstr ""
+msgstr "|CSW| 2.0.2, 3.0.0"
 
 #: ../../build/doc/overview/pycsw_overview.rst:72
 msgid "|FE|     1.1.0, 2.0.0"
-msgstr ""
+msgstr "|FE| 1.1.0, 2.0.0"
 
 #: ../../build/doc/overview/pycsw_overview.rst:73
 msgid "OWS Common  1.0.0, 2.0.0"
-msgstr ""
+msgstr "OWS Common 1.0.0, 2.0.0"
 
 #: ../../build/doc/overview/pycsw_overview.rst:74
 msgid "|GML|     3.1.1"
-msgstr ""
+msgstr "|GML| 3.1.1"
 
 #: ../../build/doc/overview/pycsw_overview.rst:75
 msgid "|SFS|     1.2.1"
-msgstr ""
+msgstr "|SFS| 1.2.1"
 
 #: ../../build/doc/overview/pycsw_overview.rst:76
 msgid "OGC OpenSearch 1.0"
-msgstr ""
+msgstr "OGC OpenSearch 1.0"
 
 #: ../../build/doc/overview/pycsw_overview.rst:78
 msgid "Metadata Standards:"
-msgstr ""
+msgstr "Standarder för metadata:"
 
 #: ../../build/doc/overview/pycsw_overview.rst:80
 msgid "Dublin Core  1.1"
-msgstr ""
+msgstr "Dublin Core 1.1"
 
 #: ../../build/doc/overview/pycsw_overview.rst:81
 msgid "SOAP 1.2"
-msgstr ""
+msgstr "SOAP 1.2"
 
 #: ../../build/doc/overview/pycsw_overview.rst:82
 msgid "ISO 19115:2003"
-msgstr ""
+msgstr "ISO 19115:2003"
 
 #: ../../build/doc/overview/pycsw_overview.rst:83
 msgid "ISO 19139:2007"
-msgstr ""
+msgstr "ISO 19139:2007"
 
 #: ../../build/doc/overview/pycsw_overview.rst:84
 msgid "ISO 19119:2005"
-msgstr ""
+msgstr "ISO 19119:2005"
 
 #: ../../build/doc/overview/pycsw_overview.rst:85
 msgid "NASA DIF 9.7"
-msgstr ""
+msgstr "NASA DIF 9,7"
 
 #: ../../build/doc/overview/pycsw_overview.rst:86
 msgid "FGDC CSDGM 1998"
-msgstr ""
+msgstr "FGDC CSDGM 1998"
 
 #: ../../build/doc/overview/pycsw_overview.rst:87
 msgid "GM03 2.1"
-msgstr ""
+msgstr "GM03 2.1"
 
 #: ../../build/doc/overview/pycsw_overview.rst:88
 msgid "SRU  1.1"
-msgstr ""
+msgstr "SRU 1.1"
 
 #: ../../build/doc/overview/pycsw_overview.rst:89
 msgid "OAI-PMH  2.0"
-msgstr ""
+msgstr "OAI-PMH 2.0"
 
 #: ../../build/doc/overview/pycsw_overview.rst:90
 msgid "A9 OpenSearch     1.1"
-msgstr ""
+msgstr "A9 OpenSearch 1.1"
 
 #: ../../build/doc/overview/pycsw_overview.rst:93
 msgid "Details"
@@ -249,15 +266,15 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/pycsw_overview.rst:95
 msgid "**Website:** https://pycsw.org/"
-msgstr ""
+msgstr "**Webbplats:** https://pycsw.org/"
 
 #: ../../build/doc/overview/pycsw_overview.rst:97
 msgid "**Licence:** `MIT`_"
-msgstr ""
+msgstr "**Licens:** `MIT`_"
 
 #: ../../build/doc/overview/pycsw_overview.rst:99
 msgid "**Software Version:** |version-pycsw|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-pycsw|"
 
 #: ../../build/doc/overview/pycsw_overview.rst:101
 msgid "**Supported Platforms:** Windows, Linux, Mac"
@@ -265,11 +282,11 @@ msgstr "**Plattformar som stöds:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/pycsw_overview.rst:103
 msgid "**API Interfaces:** Python"
-msgstr ""
+msgstr "**API-gränssnitt:** Python"
 
 #: ../../build/doc/overview/pycsw_overview.rst:105
 msgid "**Support:** |SUPPORT|"
-msgstr ""
+msgstr "**Support:** |SUPPORT|"
 
 #: ../../build/doc/overview/pycsw_overview.rst:115
 msgid "Quickstart"
@@ -277,7 +294,7 @@ msgstr "Snabbstart"
 
 #: ../../build/doc/overview/pycsw_overview.rst:117
 msgid ":doc:`Quickstart documentation <../quickstart/pycsw_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snabbstartsdokumentation <../quickstart/pycsw_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -289,8 +306,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

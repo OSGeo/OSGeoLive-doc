@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-17 15:05-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "odc_overview/sv/>\n"
 "Language: sv\n"
@@ -23,7 +23,7 @@ msgstr ""
 #: ../../build/doc/overview/odc_overview.rst:16
 #: ../../build/doc/overview/odc_overview.rst:19
 msgid "Open Data Cube"
-msgstr ""
+msgstr "Kub för öppna data"
 
 #: ../../build/doc/overview/odc_overview.rst:21
 msgid ""
@@ -33,6 +33,11 @@ msgid ""
 " the core together we have a group of organisations collaborating on "
 "strategy and who may maintain specific implementations of the ODC."
 msgstr ""
+"Open Data Cube (ODC) är en gemenskap av människor och organisationer som "
+"bygger kapacitet för att arbeta med jordobservationsdata. Kärnan i ODC är "
+"ett programvarubibliotek och en uppsättning kommandoradsverktyg. Och för att "
+"hålla ihop kärnan har vi en grupp organisationer som samarbetar om strategi "
+"och som kan underhålla specifika implementeringar av ODC."
 
 #: ../../build/doc/overview/odc_overview.rst:26
 msgid ""
@@ -41,12 +46,18 @@ msgid ""
 "a community to develop, sustain, and grow the breadth and depth of "
 "applications."
 msgstr ""
+"Målet med ODC är att öka effekten av satellitdata genom att tillhandahålla "
+"ett öppet och fritt tillgängligt exploateringsverktyg och att främja en "
+"gemenskap för att utveckla, upprätthålla och öka bredden och djupet i "
+"applikationerna."
 
 #: ../../build/doc/overview/odc_overview.rst:30
 msgid ""
 "At a technical level, an implementation of the ODC is made up of three "
 "things: data, an index and software:"
 msgstr ""
+"På en teknisk nivå består en implementering av ODC av tre saker: data, ett "
+"index och programvara:"
 
 #: ../../build/doc/overview/odc_overview.rst:33
 msgid ""
@@ -54,6 +65,9 @@ msgid ""
 "NetCDF files, but data can be anything that GDAL can read, including "
 "Cloud Optimised GeoTIFFs stored on AWS’ S3."
 msgstr ""
+"Data är vanligtvis filbaserade, antingen i lokala kataloger med GeoTIFF-"
+"filer eller NetCDF-filer, men data kan vara vad som helst som GDAL kan läsa, "
+"inklusive molnoptimerade GeoTIFF-filer som lagras på AWS S3."
 
 #: ../../build/doc/overview/odc_overview.rst:36
 msgid ""
@@ -64,6 +78,12 @@ msgid ""
 " without needing to know specifically where the required files are stored"
 " and how to access them."
 msgstr ""
+"För indexet använder ODC PostgreSQL som en databas för att lagra en lista "
+"över produkter (en specifik datatyp, som Landsat 8 Analysis Ready Data) och "
+"dataset (en enda instans av en produkt, till exempel en enda Landsat 8-scen)"
+". Indexet gör det möjligt för en användare att be om data vid en viss "
+"tidpunkt och plats, utan att behöva veta specifikt var de nödvändiga filerna "
+"lagras och hur man får tillgång till dem."
 
 #: ../../build/doc/overview/odc_overview.rst:42
 msgid ""
@@ -73,59 +93,65 @@ msgid ""
 "standard data format) and a wide range of other functions related to "
 "managing data."
 msgstr ""
+"Programvaran som utgör kärnan i ODC är ett Python-bibliotek som gör det "
+"möjligt för en användare att indexera data (lägga till poster i indexet), ta "
+"in data (optimera indexerade data för prestanda), ställa frågor om data ("
+"returnera data i ett standardformat) och ett stort antal andra funktioner "
+"relaterade till datahantering."
 
 msgid "odc screenshot"
-msgstr ""
+msgstr "odc skärmdump"
 
 #: ../../build/doc/overview/odc_overview.rst:55
 msgid "Core Features"
-msgstr ""
+msgstr "Kärnfunktioner"
 
 #: ../../build/doc/overview/odc_overview.rst:57
 msgid ""
 "storing, processing and analyzing large collections of earth observation "
 "data"
 msgstr ""
+"lagring, bearbetning och analys av stora samlingar av jordobservationsdata"
 
 #: ../../build/doc/overview/odc_overview.rst:58
 msgid "Gridding and contouring functions"
-msgstr ""
+msgstr "Funktioner för rutnät och konturering"
 
 #: ../../build/doc/overview/odc_overview.rst:61
 msgid "Details"
-msgstr ""
+msgstr "Detaljer"
 
 #: ../../build/doc/overview/odc_overview.rst:63
 msgid "**Website:** https://www.opendatacube.org"
-msgstr ""
+msgstr "**Webbplats:** https://www.opendatacube.org"
 
 #: ../../build/doc/overview/odc_overview.rst:65
 msgid "**Licence:** Apache License Version 2"
-msgstr ""
+msgstr "**Licens:** Apache-licens version 2"
 
 #: ../../build/doc/overview/odc_overview.rst:67
 msgid "**Software Version:** |version-odc|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-odc|"
 
 #: ../../build/doc/overview/odc_overview.rst:69
 msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
-msgstr ""
+msgstr "**Plattformar som stöds:** GNU/Linux, Mac OSX, MS Windows"
 
 #: ../../build/doc/overview/odc_overview.rst:71
 msgid "**API Interfaces:** Command line"
-msgstr ""
+msgstr "**API-gränssnitt:** Kommandorad"
 
 #: ../../build/doc/overview/odc_overview.rst:73
 msgid "**Support:** https://www.opendatacube.org/faq"
-msgstr ""
+msgstr "**Support:** https://www.opendatacube.org/faq"
 
 #: ../../build/doc/overview/odc_overview.rst:79
 msgid "Quickstart"
-msgstr ""
+msgstr "Snabbstart"
 
 #: ../../build/doc/overview/odc_overview.rst:81
 msgid ":doc:`Quickstart documentation <../quickstart/odc_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snabbstartsdokumentation <../quickstart/odc_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -137,8 +163,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

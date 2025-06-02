@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "qgis_mapserver_overview/sv/>\n"
 "Language: sv\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:14
 msgid "QGIS Server"
-msgstr ""
+msgstr "QGIS-server"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:17
 msgid "Web Service"
@@ -39,10 +39,16 @@ msgid ""
 "exactly the same as in the desktop. QGIS Server is usually run as "
 "CGI/FastCGI module within the Apache Webserver."
 msgstr ""
+"QGIS Server tillhandahåller webbkartor och funktionstjänster (WMS & WFS) med "
+"samma bibliotek som skrivbordsprogrammet för GIS (QGIS). Kartor och "
+"utskriftsmallar som skapats i QGIS desktop kan publiceras som webbkartor "
+"genom att helt enkelt kopiera QGIS-projektfilen till serverkatalogen. De "
+"resulterande webbkartorna ser exakt likadana ut som i skrivbordet. QGIS "
+"Server körs vanligtvis som en CGI/FastCGI-modul i Apache Webserver."
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rstNone
 msgid "qgis_mapserver screenshot"
-msgstr ""
+msgstr "qgis_mapserver skärmdump"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:30
 msgid "Core Features"
@@ -50,36 +56,36 @@ msgstr "Kärnfunktioner"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:32
 msgid "Web Map Service (WMS) - images"
-msgstr ""
+msgstr "Webbkarttjänst (WMS) - bilder"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:33
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:45
 msgid "OGC Web Map Tile Service (WMTS) 1.0.0"
-msgstr ""
+msgstr "OGC Web Map Tile Service (WMTS) 1.0.0"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:34
 msgid "Web Feature Service (WFS) - vectors"
-msgstr ""
+msgstr "Web Feature Service (WFS) - vektorer"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:35
 msgid "Built-in PDF output"
-msgstr ""
+msgstr "Inbyggd PDF-utmatning"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:36
 msgid "WYSIWYG map creation with QGIS"
-msgstr ""
+msgstr "Skapa WYSIWYG-kartor med QGIS"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:37
 msgid "Advanced cartographic symbolisation"
-msgstr ""
+msgstr "Avancerad kartografisk symbolisering"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:38
 msgid "Supports Styled Layer Descriptor (SLD)"
-msgstr ""
+msgstr "Stöd för SLD (Styled Layer Descriptor)"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:39
 msgid "Extra parameters like f.e. FILTER, SELECTION, DPI"
-msgstr ""
+msgstr "Extra parametrar som t.ex. FILTER, URVAL, DPI"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:42
 msgid "Implemented Standards"
@@ -87,20 +93,20 @@ msgstr "Implementerade standarder"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:44
 msgid "OGC Web Map Service (WMS) 1.1.1 and 1.3.0"
-msgstr ""
+msgstr "OGC Web Map Service (WMS) 1.1.1 och 1.3.0"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:46
 msgid ""
 "OGC Web Feature Service (WFS) 1.0.0 and Transactional WFS (WFS-T) 1.0.0"
-msgstr ""
+msgstr "OGC Web Feature Service (WFS) 1.0.0 och Transactional WFS (WFS-T) 1.0.0"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:47
 msgid "OGC Web Coverage Service (WCS)"
-msgstr ""
+msgstr "OGC Webbtäckningstjänst (WCS)"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:48
 msgid "OGC Styled Layer Descriptor (SLD) 1.0"
-msgstr ""
+msgstr "OGC:s beskrivare av stiliserade lager (SLD) 1.0"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:51
 msgid "Details"
@@ -108,25 +114,27 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:53
 msgid "**Website:** https://www.qgis.org/"
-msgstr ""
+msgstr "**Webbplats:** https://www.qgis.org/"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:55
 msgid "**Licence:** GPL"
-msgstr ""
+msgstr "**Licens:** GPL"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:57
 msgid "**Software Version:** |version-qgis_mapserver|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-qgis_mapserver|"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:59
 msgid "**Supported Platforms:** Windows, Linux"
-msgstr ""
+msgstr "**Plattformar som stöds:** Windows, Linux"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:61
 msgid ""
 "**Commercial Support:** "
 "https://www.qgis.org/resources/support/commercial-support"
 msgstr ""
+"**Kommersiellt stöd:** https://www.qgis.org/resources/support/commercial-"
+"support"
 
 #: ../../build/doc/overview/qgis_mapserver_overview.rst:67
 msgid "Quickstart"
@@ -136,6 +144,7 @@ msgstr "Snabbstart"
 msgid ""
 ":doc:`Quickstart documentation <../quickstart/qgis_mapserver_quickstart>`"
 msgstr ""
+":doc:`Snabbstartsdokumentation <../quickstart/qgis_mapserver_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -147,8 +156,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

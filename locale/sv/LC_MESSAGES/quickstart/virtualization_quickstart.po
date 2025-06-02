@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "virtualization_quickstart/sv/>\n"
 "Language: sv\n"
@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:10
 msgid "Running in a Virtual Machine"
-msgstr ""
+msgstr "Körning i en virtuell maskin"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:13
 msgid "Overview"
-msgstr ""
+msgstr "Översikt"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:15
 msgid ""
@@ -36,20 +36,25 @@ msgid ""
 "virtual machine (VM). For other methods, follow links from the \"See Also\" "
 "section below."
 msgstr ""
+"Denna snabbstart beskriver ett sätt att köra OSGeoLive i en virtuell maskin "
+"(VM) i VirtualBox. För andra metoder, följ länkar från avsnittet \"Se även\" "
+"nedan."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:18
 msgid ""
 "To learn more about the benefits of virtualization, see `Virtualization "
 "<https://en.wikipedia.org/wiki/Virtualization>`_ in Wiki"
 msgstr ""
+"Om du vill veta mer om fördelarna med virtualisering, se `Virtualisering "
+"<https://en.wikipedia.org/wiki/Virtualization>`_ i Wiki"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:21
 msgid "Prerequisites"
-msgstr ""
+msgstr "Förutsättningar"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:23
 msgid "**Software**"
-msgstr ""
+msgstr "**Programvara**"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:25
 msgid ""
@@ -57,26 +62,33 @@ msgid ""
 "and install the software. On Windows run the installer, or on Ubuntu-like "
 "Linux systems run the following:"
 msgstr ""
+"Ladda ner `Virtual Box <https://www.virtualbox.org/>`_ för din plattform och "
+"installera programvaran. På Windows kör du installationsprogrammet, eller på "
+"Ubuntu-liknande Linux-system kör du följande:"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:27
 msgid "``apt-get install virtualbox-ose``"
-msgstr ""
+msgstr "``apt-get install virtualbox-ose``"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:29
 msgid ""
 "Download the OSGeo Virtual disk file (vmdk) from :doc:`live.osgeo.org "
 "<../download>`."
 msgstr ""
+"Ladda ner OSGeo Virtual disk file (vmdk) från :doc:`live.osgeo.org "
+"<../download>`."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:31
 msgid ""
 "Under **osgeolive-vm**, download the 7-zip file. Then unzip the downloaded "
 "file (using `7zip <https://www.7-zip.org>`_ )."
 msgstr ""
+"Under **osgeolive-vm** laddar du ner 7-zip-filen. Packa sedan upp den "
+"nedladdade filen (med hjälp av `7zip <https://www.7-zip.org>`_ )."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:33
 msgid "**Hardware**"
-msgstr ""
+msgstr "**Hårdvara**"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:35
 msgid ""
@@ -85,6 +97,9 @@ msgid ""
 "applications (such as GeoServer). So a total of 2 GB is recommended for a "
 "smooth operation."
 msgstr ""
+"**RAM**: Minst 2 GB. Lubuntu-systemet fungerar bra med 1 GB RAM-minne, och "
+"du måste ha minst samma mängd minne för vissa av dina program (t.ex. "
+"GeoServer). Så totalt 2 GB rekommenderas för en smidig drift."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:36
 msgid ""
@@ -93,6 +108,10 @@ msgid ""
 "want more space to allow some room to work on the virtual machine. So a "
 "total of 20 GB is a good recommendation."
 msgstr ""
+"**Reserv**: Minst 20 GB utrymme på hårddisken. Den virtuella diskfilen (vmdk)"
+" från :doc:`live.osgeo.org <../download>` packas upp till nästan 10 GB. Du "
+"vill också ha mer utrymme för att kunna arbeta på den virtuella maskinen. Så "
+"totalt 20 GB är en bra rekommendation."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:37
 msgid ""
@@ -101,32 +120,43 @@ msgid ""
 " Technology "
 "<https://www.intel.com/content/www/us/en/support/articles/000005486/processors.html>`_"
 msgstr ""
+"**CPU**: Vilken processor som helst går bra, men en processor som stöder "
+"\"Virtualization Technology\" är snabbare. Kontrollera om din dator stöder `"
+"Virtualiseringsteknik <https://www.intel.com/content/www/us/en/support/"
+"articles/000005486/processors.html>`_"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:40
 msgid "Most machines produced after 2010 will meet these requirements."
 msgstr ""
+"De flesta maskiner som tillverkas efter 2010 kommer att uppfylla dessa krav."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:44
 msgid "Step 1 : Create a Virtual Machine"
-msgstr ""
+msgstr "Steg 1 : Skapa en virtuell maskin"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:46
 msgid ""
 "Start the VirtualBox application and click **New**. Create Virtual Machine "
 "pop up is displayed."
 msgstr ""
+"Starta VirtualBox-programmet och klicka på **New**. Popup-fönstret Skapa "
+"virtuell maskin visas."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:52
 msgid ""
 "Enter a name such as OSGeoLive, and select Linux as the \"Operating "
 "system\", and Ubuntu as the \"Version\", and then click **Next**."
 msgstr ""
+"Ange ett namn som OSGeoLive och välj Linux som \"Operativsystem\" och Ubuntu "
+"som \"Version\" och klicka sedan på **Nästa**."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:57
 msgid ""
 "In the next screen set the memory to at least 1024 MB (or more if your host "
 "computer has more than 4GB, like in the screenshot below)."
 msgstr ""
+"På nästa skärm ställer du in minnet till minst 1024 MB (eller mer om din "
+"värddator har mer än 4 GB, som på skärmdumpen nedan)."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:62
 msgid ""
@@ -134,19 +164,22 @@ msgid ""
 "file**. Click the folder icon to browse to where you saved the OSGeoLive "
 "vmdk-file. Select the file, click **Next** and **Create**."
 msgstr ""
+"Fortsätt till nästa skärm och välj **Use an existing virtual hard disk file**"
+". Klicka på mappikonen för att bläddra till den plats där du sparade "
+"OSGeoLive vmdk-filen. Välj filen, klicka på **Next** och **Create**."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:64
 msgid ""
 "You should now be able to view the **OSGeoLive** listed in your virtual box."
-msgstr ""
+msgstr "Du bör nu kunna visa **OSGeoLive** som finns i din virtuella låda."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:71
 msgid "Step 2: Configure VM"
-msgstr ""
+msgstr "Steg 2: Konfigurera VM"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:73
 msgid "**VM Settings**"
-msgstr ""
+msgstr "**VM-inställningar**"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:76
 msgid ""
@@ -154,6 +187,9 @@ msgid ""
 "Interface** section, click to select **Show at top of screen** for the Mini "
 "toolbar."
 msgstr ""
+"När den virtuella datorn har skapats klickar du på knappen **Settings**. I "
+"avsnittet **User Interface** klickar du på för att välja **Show at top of "
+"screen** för Mini toolbar."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:81
 msgid ""
@@ -161,10 +197,13 @@ msgid ""
 "some host operating systems, it may be required to \"Enable 3D "
 "Acceleration\" for display to work properly."
 msgstr ""
+"Gå till avsnittet **Display** och öka videominnet till 32 eller 64 MB. I "
+"vissa värdoperativsystem kan det krävas att \"Enable 3D Acceleration\" "
+"aktiveras för att skärmen ska fungera korrekt."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:86
 msgid "**Add shared folders to access files from host**"
-msgstr ""
+msgstr "**Lägg till delade mappar för att komma åt filer från värden**"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:88
 msgid ""
@@ -172,6 +211,9 @@ msgid ""
 "icon on the right) to find a directory on your host computer that you wish "
 "to share inside the VM."
 msgstr ""
+"Gå till avsnittet **Shared Folders** och klicka på **Add folder** (grön + "
+"ikon till höger) för att hitta en katalog på din värddator som du vill dela "
+"i VM."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:93
 msgid ""
@@ -179,14 +221,19 @@ msgid ""
 "the \"Folder path\" and \"Folder name\" are defined, click OK, and again OK "
 "to finish and close the settings window."
 msgstr ""
+"Du kan välja att göra den delade mappen skrivskyddad och automatiskt "
+"monterad. När \"Mappsökväg\" och \"Mappnamn\" har definierats klickar du på "
+"OK och sedan på OK för att avsluta och stänga inställningsfönstret."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:97
 msgid "Step 3 : Running the Virtual Machine"
-msgstr ""
+msgstr "Steg 3: Köra den virtuella maskinen"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:99
 msgid "Now bootup the VM by clicking the **Start** (green arrow) button."
 msgstr ""
+"Starta nu upp den virtuella datorn genom att klicka på knappen **Start** ("
+"grön pil)."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:101
 msgid ""
@@ -195,48 +242,60 @@ msgid ""
 "should install the virtualbox guest additions, this will allow you to use "
 "full-screen mode."
 msgstr ""
+"Den virtuella OSGeo-Live-skärmen (dvs. fönsterstorleken) kan vara mycket "
+"liten och kommer inte att kunna öka förrän du installerar Guest Additions. "
+"Du bör installera virtualbox-gästtilläggen, så att du kan använda "
+"helskärmsläge."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:103
 msgid ""
 "``sudo apt-get install --yes virtualbox-guest-utils virtualbox-guest-x11``"
 msgstr ""
+"``sudo apt-get install --yes virtualbox-guest-utils virtualbox-guest-x11``"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:105
 msgid ""
 "(Alternative) If the above command does not work, use the following "
 "alternative:"
 msgstr ""
+"(Alternativ) Om ovanstående kommando inte fungerar kan du använda följande "
+"alternativ:"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:107
 msgid ""
 "From the VirtualBox Devices menu, select **Insert Guest Additions CD Image**"
 msgstr ""
+"På menyn VirtualBox Devices väljer du **Insert Guest Additions CD Image**"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:108
 msgid ""
 "Click **OK** when prompted to open the removable media in **File Manager**."
 msgstr ""
+"Klicka på **OK** när du uppmanas att öppna det flyttbara mediet i **File "
+"Manager**."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:109
 msgid ""
 "In **File Manager**, select **Tools** → **Open Current Folder** in terminal."
 msgstr ""
+"I **File Manager** väljer du **Tools** → **Open Current Folder** i "
+"terminalen."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:110
 msgid "In the terminal type:"
-msgstr ""
+msgstr "I terminaltypen:"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:112
 msgid "``sudo ./VBoxLinuxAdditions.run``"
-msgstr ""
+msgstr "``sudo ./VBoxLinuxAdditions.run``"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:114
 msgid "Press ENTER."
-msgstr ""
+msgstr "Tryck på ENTER."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:118
 msgid "Step 4 : Set OSGeoLive user"
-msgstr ""
+msgstr "Steg 4 : Ställ in OSGeoLive-användare"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:121
 msgid ""
@@ -244,14 +303,17 @@ msgid ""
 "group so they can write into the data directory. If not set, these tools "
 "will fail when run."
 msgstr ""
+"Vissa verktyg som är konfigurerade på OSGeoLive är beroende av att \"user\" "
+"finns i gruppen \"users\" så att de kan skriva i datakatalogen. Om detta "
+"inte är inställt kommer dessa verktyg att misslyckas när de körs."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:123
 msgid "Start a terminal."
-msgstr ""
+msgstr "Starta en terminal."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:124
 msgid "Run ``sudo adduser user users``."
-msgstr ""
+msgstr "Kör ``sudo adduser user user users``."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:125
 msgid ""
@@ -259,24 +321,29 @@ msgid ""
 "virtual machine or log out and log back in (username \"user\", password "
 "\"user\")."
 msgstr ""
+"Tillämpa ändringen genom att starta en ny skrivbordssession: starta om den "
+"virtuella maskinen eller logga ut och logga in igen (användarnamn \"user\", "
+"lösenord \"user\")."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:128
 msgid "Step 5: Access shared folders"
-msgstr ""
+msgstr "Steg 5: Få tillgång till delade mappar"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:130
 msgid ""
 "Add yourself to the vboxsf group so that the shared folders (defined above) "
 "are accessible by running in a terminal window:"
 msgstr ""
+"Lägg till dig själv i vboxsf-gruppen så att de delade mapparna (definierade "
+"ovan) är tillgängliga genom att köra i ett terminalfönster:"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:132
 msgid "``user@osgeolive:~$ sudo usermod -a -G vboxsf user``"
-msgstr ""
+msgstr "``user@osgeolive:~$ sudo usermod -a -G vboxsf user``"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:136
 msgid "Step 6: Mount shared folder"
-msgstr ""
+msgstr "Steg 6: Montera delad mapp"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:138
 msgid ""
@@ -285,30 +352,37 @@ msgid ""
 "file system under /media/sf_GIS/. To mount this folder in the user's home "
 "directory, for example, in a terminal run:"
 msgstr ""
+"I exemplet ovan definierade vi en sökväg till en delad mapp på värdsystemet "
+"och gav den namnet \"GIS\" i VM-inställningarna. Den delade mappen kommer "
+"att visas i filsystemet under /media/sf_GIS/. För att montera den här mappen "
+"i användarens hemkatalog, till exempel i en terminal, kör:"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:140
 msgid "``user@osgeolive:~$ mkdir GIS``"
-msgstr ""
+msgstr "``user@osgeolive:~$ mkdir GIS``"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:142
 msgid ""
 "``user@osgeolive:~$ sudo mount -t vboxsf -o uid=user,rw GIS /home/user/GIS``"
 msgstr ""
+"``user@osgeolive:~$ sudo mount -t vboxsf -o uid=user,rw GIS /home/user/GIS``"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:144
 msgid ""
 "Now files on your host machine in the chosen folder will also be available "
 "in the VM in the \"GIS\" folder in the user's home directory."
 msgstr ""
+"Nu kommer filer på din värdmaskin i den valda mappen också att vara "
+"tillgängliga i VM i mappen \"GIS\" i användarens hemkatalog."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:146
 msgid ""
 "Congratulations, you should now have OSGeoLive running in a Virtual Machine."
-msgstr ""
+msgstr "Grattis, du bör nu ha OSGeoLive igång i en virtuell maskin."
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:149
 msgid "Next steps:"
-msgstr ""
+msgstr "Nästa steg:"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:151
 msgid ""
@@ -316,6 +390,8 @@ msgid ""
 "Quickstart "
 "<https://live.osgeo.org/en/quickstart/osgeolive_quickstart.html>`_"
 msgstr ""
+"Varför inte prova att köra några program, enligt beskrivningen i `OSGeoLive "
+"Quickstart <https://live.osgeo.org/en/quickstart/osgeolive_quickstart.html>`_"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:154
 msgid "See Also:"
@@ -326,6 +402,8 @@ msgid ""
 "OSGeo wiki pages: `Other ways to create a Virtual Machine "
 "<https://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine>`_"
 msgstr ""
+"OSGeo wiki-sidor: `Andra sätt att skapa en virtuell maskin <https://wiki."
+"osgeo.org/wiki/Live_GIS_Virtual_Machine>`_"
 
 #: ../../build/doc/quickstart/virtualization_quickstart.rst:157
 msgid ":doc:`osgeolive_quickstart`"
@@ -349,8 +427,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

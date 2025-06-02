@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "opencpn_overview/sv/>\n"
 "Language: sv\n"
@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../../build/doc/overview/opencpn_overview.rst:16
 msgid "OpenCPN"
-msgstr ""
+msgstr "OpenCPN"
 
 #: ../../build/doc/overview/opencpn_overview.rst:19
 msgid "Marine GPS navigation software"
-msgstr ""
+msgstr "Programvara för marin GPS-navigering"
 
 #: ../../build/doc/overview/opencpn_overview.rst:20
 msgid ""
@@ -37,6 +37,10 @@ msgid ""
 "developed by a team of active sailors using real world conditions for "
 "program testing and refinement."
 msgstr ""
+"OpenCPN tillhandahåller gratis navigationsprogramvara för användning vid "
+"rodret på fartyg av alla typer och storlekar, samt offline för "
+"ruttplanering. Den har utvecklats av ett team av aktiva seglare som använder "
+"verkliga förhållanden för programtestning och förfining."
 
 #: ../../build/doc/overview/opencpn_overview.rst:22
 msgid ""
@@ -45,6 +49,10 @@ msgid ""
 "predictions. Information received by standard radio links describing the "
 "position and intent of other vessels can also be shown."
 msgstr ""
+"OpenCPN visar användaren fartygets aktuella position, hastighet och kurs "
+"överlagrade på noggranna sjökortsbilder, tidvatten- och strömförutsägelser. "
+"Information som tas emot via standardradiolänkar och som beskriver andra "
+"fartygs position och avsikter kan också visas."
 
 #: ../../build/doc/overview/opencpn_overview.rst:24
 msgid ""
@@ -53,10 +61,14 @@ msgid ""
 "waypoints allowing interface to an external autopilot for precise course "
 "following."
 msgstr ""
+"När värdfartyget rör sig väljs nya sjökort ut och visas med den upplösning "
+"och detaljrikedom som användaren har angett. Dessutom kan användaren ange "
+"rutter och waypoints, vilket möjliggör gränssnitt till en extern autopilot "
+"för exakt kursföljning."
 
 #: ../../build/doc/overview/opencpn_overview.rstNone
 msgid "opencpn screenshot"
-msgstr ""
+msgstr "opencpn skärmdump"
 
 #: ../../build/doc/overview/opencpn_overview.rst:34
 msgid "Core Features"
@@ -64,44 +76,46 @@ msgstr "Kärnfunktioner"
 
 #: ../../build/doc/overview/opencpn_overview.rst:36
 msgid "OpenCPN supports:"
-msgstr ""
+msgstr "OpenCPN stöder:"
 
 #: ../../build/doc/overview/opencpn_overview.rst:38
 msgid "BSB raster, C-MAP (CM93/2) and S-57 ENC vector charts"
-msgstr ""
+msgstr "BSB raster, C-MAP (CM93/2) och S-57 ENC vektorkartor"
 
 #: ../../build/doc/overview/opencpn_overview.rst:39
 msgid "AIS input decoding"
-msgstr ""
+msgstr "Avkodning av AIS-ingång"
 
 #: ../../build/doc/overview/opencpn_overview.rst:40
 msgid ""
 "NMEA GPS or `Gpsd <https://www.berlios.de/software/gpsd/>`_ daemon input"
 msgstr ""
+"Inmatning av NMEA GPS eller `Gpsd <https://www.berlios.de/software/gpsd/>`_ "
+"daemon"
 
 #: ../../build/doc/overview/opencpn_overview.rst:41
 msgid "Waypoint / autopilot navigation"
-msgstr ""
+msgstr "Navigering med waypoint/autopilot"
 
 #: ../../build/doc/overview/opencpn_overview.rst:42
 msgid "Unlimited route/mark creation"
-msgstr ""
+msgstr "Obegränsat skapande av rutter/markeringar"
 
 #: ../../build/doc/overview/opencpn_overview.rst:43
 msgid "Quilted charts"
-msgstr ""
+msgstr "Quiltade sjökort"
 
 #: ../../build/doc/overview/opencpn_overview.rst:44
 msgid "International language support"
-msgstr ""
+msgstr "Stöd för internationella språk"
 
 #: ../../build/doc/overview/opencpn_overview.rst:45
 msgid "Cross-platform support"
-msgstr ""
+msgstr "Stöd för flera plattformar"
 
 #: ../../build/doc/overview/opencpn_overview.rst:46
 msgid "GRIB weather data overlay"
-msgstr ""
+msgstr "Överlagring av GRIB-väderdata"
 
 #: ../../build/doc/overview/opencpn_overview.rst:49
 msgid "Details"
@@ -109,7 +123,7 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/opencpn_overview.rst:51
 msgid "**Website:** https://www.opencpn.org"
-msgstr ""
+msgstr "**Webbplats:** https://www.opencpn.org"
 
 #: ../../build/doc/overview/opencpn_overview.rst:53
 msgid "**Licence:** GNU General Public License (GPL) version 2"
@@ -117,15 +131,15 @@ msgstr "* * Licens: * * GNU General Public License (GPL) version 2"
 
 #: ../../build/doc/overview/opencpn_overview.rst:55
 msgid "**Software Version:** |version-opencpn|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-opencpn|"
 
 #: ../../build/doc/overview/opencpn_overview.rst:57
 msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
-msgstr ""
+msgstr "**Plattformar som stöds:** GNU/Linux, Mac OSX, MS Windows"
 
 #: ../../build/doc/overview/opencpn_overview.rst:59
 msgid "**Support:** https://www.cruisersforum.com/forums/f134/"
-msgstr ""
+msgstr "**Support:** https://www.cruisersforum.com/forums/f134/"
 
 #: ../../build/doc/overview/opencpn_overview.rst:65
 msgid "Quickstart"
@@ -133,7 +147,7 @@ msgstr "Snabbstart"
 
 #: ../../build/doc/overview/opencpn_overview.rst:67
 msgid ":doc:`Quickstart documentation <../quickstart/opencpn_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snabbstartsdokumentation <../quickstart/opencpn_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -145,8 +159,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

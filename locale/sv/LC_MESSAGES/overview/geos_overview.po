@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "geos_overview/sv/>\n"
 "Language: sv\n"
@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../../build/doc/overview/geos_overview.rst:18
 msgid "GEOS"
-msgstr ""
+msgstr "GEOS"
 
 #: ../../build/doc/overview/geos_overview.rst:21
 msgid "Spatial Library"
-msgstr ""
+msgstr "Rumsligt bibliotek"
 
 #: ../../build/doc/overview/geos_overview.rst:23
 msgid ""
@@ -37,6 +37,10 @@ msgid ""
 "includes the OpenGIS Simple Features for SQL spatial predicate functions and"
 " spatial operators, as well as specific JTS enhanced topology functions."
 msgstr ""
+"GEOS (Geometry Engine - Open Source) är en C++-port av `JTS Topology Suite "
+"(JTS) <https://projects.eclipse.org/projects/locationtech>`_. Den innehåller "
+"OpenGIS Simple Features för SQL spatiala predikatfunktioner och spatiala "
+"operatorer, samt specifika JTS-förbättrade topologifunktioner."
 
 #: ../../build/doc/overview/geos_overview.rst:26
 msgid ""
@@ -46,6 +50,11 @@ msgid ""
 "<mapserver_overview>`, and by proprietary products including `FME "
 "<https://www.safe.com/fme>`_."
 msgstr ""
+"GEOS är det mest använda geospatiala C++ geometribiblioteket, som används av "
+"öppen källkodsprojekt som :doc:`PostGIS <postgis_overview>`, :doc:`QGIS "
+"<qgis_overview>`, :doc:`GDAL/OGR <gdal_overview>` och :doc:`MapServer "
+"<mapserver_overview>`, och av proprietära produkter inklusive `FME "
+"<https://www.safe.com/fme>`."
 
 #: ../../build/doc/overview/geos_overview.rst:32
 msgid "Implemented Standards"
@@ -53,7 +62,7 @@ msgstr "Implementerade standarder"
 
 #: ../../build/doc/overview/geos_overview.rst:34
 msgid "OpenGIS |SFSQL| spatial predicate functions and spatial operators"
-msgstr ""
+msgstr "OpenGIS |SFSQL| rumsliga predikatfunktioner och rumsliga operatorer"
 
 #: ../../build/doc/overview/geos_overview.rst:43
 msgid "Core Features"
@@ -64,39 +73,46 @@ msgid ""
 "Geometries: Point, LineString, Polygon, MultiPoint, MultiLineString, "
 "MultiPolygon, GeometryCollection"
 msgstr ""
+"Geometrier: Point, LineString, Polygon, MultiPoint, MultiLineString, "
+"MultiPolygon, GeometryCollection"
 
 #: ../../build/doc/overview/geos_overview.rst:46
 msgid ""
 "Predicates: Intersects, Touches, Disjoint, Crosses, Within, Contains, "
 "Overlaps, Equals, Covers"
 msgstr ""
+"Predikat: Skär, berör, disjunkt, korsar, inom, innehåller, överlappar, är "
+"lika med, täcker"
 
 #: ../../build/doc/overview/geos_overview.rst:47
 msgid ""
 "Operations: Union, Distance, Intersection, Symmetric Difference, Convex "
 "Hull, Envelope, Buffer, Simplify, Polygon Assembly, Valid, Area, Length,"
 msgstr ""
+"Operationer: Union, Distance, Intersection, Symmetric Difference, Convex "
+"Hull, Envelope, Buffer, Simplify, Polygon Assembly, Valid, Area, Length,"
 
 #: ../../build/doc/overview/geos_overview.rst:48
 msgid "Prepared geometries (pre-spatially indexed)"
-msgstr ""
+msgstr "Förberedda geometrier (förspatialt indexerade)"
 
 #: ../../build/doc/overview/geos_overview.rst:49
 msgid "STR spatial index"
-msgstr ""
+msgstr "STR rumsligt index"
 
 #: ../../build/doc/overview/geos_overview.rst:50
 msgid ""
 "OGC Well Known Text (WKT) and Well Known Binary (WKB) encoders and decoders."
 msgstr ""
+"OGC Well Known Text (WKT) och Well Known Binary (WKB) kodare och avkodare."
 
 #: ../../build/doc/overview/geos_overview.rst:51
 msgid "C and C++ API (C API gives long term ABI stability)"
-msgstr ""
+msgstr "C- och C++-API (C-API ger långsiktig ABI-stabilitet)"
 
 #: ../../build/doc/overview/geos_overview.rst:52
 msgid "Thread safe (using the reentrant API)"
-msgstr ""
+msgstr "Trådsäker (med hjälp av det återkommande API:et)"
 
 #: ../../build/doc/overview/geos_overview.rst:55
 msgid "Details"
@@ -104,15 +120,15 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/geos_overview.rst:57
 msgid "**Website:** https://trac.osgeo.org/geos"
-msgstr ""
+msgstr "**Webbplats:** https://trac.osgeo.org/geos"
 
 #: ../../build/doc/overview/geos_overview.rst:59
 msgid "**Licence:** LGPL"
-msgstr ""
+msgstr "**Licens:** LGPL"
 
 #: ../../build/doc/overview/geos_overview.rst:61
 msgid "**Software Version:** |version-geos|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-geos|"
 
 #: ../../build/doc/overview/geos_overview.rst:63
 msgid "**Supported Platforms:** Windows, Linux, Mac"
@@ -120,13 +136,15 @@ msgstr "**Plattformar som stöds:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/geos_overview.rst:65
 msgid "**API Interfaces:** C, C++"
-msgstr ""
+msgstr "**API-gränssnitt:** C, C++"
 
 #: ../../build/doc/overview/geos_overview.rst:67
 msgid ""
 "**Support:** https://lists.osgeo.org/mailman/listinfo/geos-devel, "
 "https://www.osgeo.org/service-providers"
 msgstr ""
+"**Support:** https://lists.osgeo.org/mailman/listinfo/geos-devel, https://www"
+".osgeo.org/service-providers"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -138,8 +156,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

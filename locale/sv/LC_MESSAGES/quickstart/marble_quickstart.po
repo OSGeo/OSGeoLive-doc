@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "marble_quickstart/sv/>\n"
 "Language: sv\n"
@@ -21,139 +21,156 @@ msgstr ""
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:22
 msgid "Marble Quickstart"
-msgstr ""
+msgstr "Snabbstart för Marble"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:24
 msgid "Marble is an open source KDE Education Project program similar to NASA World Wind or Google Earth. Besides choosing any number of maps to view on your globe (including OpenStreetMap), you are encouraged to include a KDE Marble widget in your application."
 msgstr ""
+"Marble är ett KDE Education Project-program med öppen källkod som liknar "
+"NASA World Wind eller Google Earth. Förutom att välja valfritt antal kartor "
+"att visa på din jordglob (inklusive OpenStreetMap), uppmuntras du att "
+"inkludera en KDE Marble-widget i din applikation."
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:27
 msgid "Contents"
-msgstr ""
+msgstr "Innehåll"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:30
 msgid "Start Marble"
-msgstr ""
+msgstr "Starta Marble"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:32
 msgid "On the desktop, choose :menuselection:`Navigation and Maps --> Marble`. You will see a window like this:"
 msgstr ""
+"På skrivbordet väljer du :menuselection:`Navigation and Maps --> Marble`. Du "
+"kommer att se ett fönster som detta:"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:39
 msgid "Change the display"
-msgstr ""
+msgstr "Ändra displayen"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:41
 msgid "Scale the globe by rotating the wheel of your mouse."
-msgstr ""
+msgstr "Skala jordklotet genom att vrida på mushjulet."
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:42
 msgid "To move around press the left button of your mouse and move it."
-msgstr ""
+msgstr "För att flytta runt trycker du på vänster musknapp och flyttar den."
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:44
 msgid "Marble has 11 different views (themes):"
-msgstr ""
+msgstr "Marble har 11 olika vyer (teman):"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:46
 msgid "Atlas"
-msgstr ""
+msgstr "Atlas"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:47
 msgid "OpenStreetMap"
-msgstr ""
+msgstr "OpenStreetMap"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:48
 msgid "Satellite View"
-msgstr ""
+msgstr "Satellitvy"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:49
 msgid "Earth at Night"
-msgstr ""
+msgstr "Jorden på natten"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:50
 msgid "Historical Map 1689"
-msgstr ""
+msgstr "Historisk karta 1689"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:51
 msgid "Moon"
-msgstr ""
+msgstr "Måne"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:52
 msgid "Plain Map"
-msgstr ""
+msgstr "Plan karta"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:53
 msgid "Precipitation (December)"
-msgstr ""
+msgstr "Nederbörd (december)"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:54
 msgid "Precipitation (July)"
-msgstr ""
+msgstr "Nederbörd (juli)"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:55
 msgid "Temperature (December)"
-msgstr ""
+msgstr "Temperatur (december)"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:56
 msgid "Temperature (July)."
-msgstr ""
+msgstr "Temperatur (juli)."
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:58
 msgid "Click one of entries in the \"Theme\" list in \"Map View\" tab to switch between them."
 msgstr ""
+"Klicka på en av posterna i listan \"Theme\" på fliken \"Map View\" för att "
+"växla mellan dem."
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:63
 msgid "Click a label in any place to view more information about it."
 msgstr ""
+"Klicka på en etikett på valfri plats för att visa mer information om den."
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:70
 msgid "Find a location"
-msgstr ""
+msgstr "Hitta en plats"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:72
 msgid "To find a location, enter its name into the search line on the top of \"Search\" panel. As you start typing, suggestions below the search line will appear like this:"
 msgstr ""
+"För att hitta en plats skriver du in namnet på platsen i sökfältet längst "
+"upp på panelen \"Search\". När du börjar skriva kommer förslag under "
+"sökraden att visas så här:"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:80
 msgid "Add a bookmark"
-msgstr ""
+msgstr "Lägg till ett bokmärke"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:82
 msgid "Use bookmarks in Marble to remember the location of something."
-msgstr ""
+msgstr "Använd bokmärken i Marble för att komma ihåg var något finns."
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:84
 msgid "To add a bookmark, press the left button of your mouse and click \"Add bookmark\". A window will appear like this:"
 msgstr ""
+"För att lägga till ett bokmärke trycker du på vänster musknapp och klickar "
+"på \"Lägg till bokmärke\". Ett fönster kommer att visas så här:"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:89
 msgid "Write the name, description and destination folder of the bookmark"
-msgstr ""
+msgstr "Skriv namn, beskrivning och destinationsmapp för bokmärket"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:90
 msgid "Click the \"Ok\" button. Then the bookmark will appear."
-msgstr ""
+msgstr "Klicka på knappen \"Ok\". Då kommer bokmärket att visas."
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:92
 msgid "To manage bookmarks, go to \"Bookmarks->Manage Bookmarks\"."
 msgstr ""
+"Du kan hantera bokmärken genom att gå till \"Bokmärken->Hantera bokmärken\"."
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:98
 msgid "Things to try"
-msgstr ""
+msgstr "Saker att prova"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:100
 msgid "Try to use the Routing feature. See the `Marble documentation <https://marble.kde.org>`_ for help."
 msgstr ""
+"Försök att använda Routing-funktionen. Se `Marble-dokumentationen "
+"<https://marble.kde.org>`_ för hjälp."
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:104
 msgid "What next?"
-msgstr ""
+msgstr "Hur vill du gå vidare?"
 
 #: ../../build/doc/quickstart/marble_quickstart.rst:106
 msgid "See the `Marble homepage <https://marble.kde.org/>`_ for more information."
-msgstr ""
+msgstr "Se `Marble-hemsidan <https://marble.kde.org/>`_ för mer information."
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -165,9 +182,9 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

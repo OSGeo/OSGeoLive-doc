@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "openjump_quickstart/sv/>\n"
 "Language: sv\n"
@@ -21,128 +21,190 @@ msgstr ""
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:20
 msgid "OpenJUMP GIS Quickstart"
-msgstr ""
+msgstr "OpenJUMP GIS Snabbstart"
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:22
 msgid "OpenJUMP is a desktop GIS program that allows for easy viewing and editing of vector GIS data. The PLUS edition also support analysis of raster data."
 msgstr ""
+"OpenJUMP är ett GIS-program för skrivbordet som gör det enkelt att visa och "
+"redigera GIS-data i vektorformat. PLUS-utgåvan stöder också analys av "
+"rasterdata."
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:26
 msgid "Contents"
-msgstr ""
+msgstr "Innehåll"
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:29
 msgid "Start OpenJUMP"
-msgstr ""
+msgstr "Starta OpenJUMP"
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:31
 msgid "From the desktop, choose :menuselection:`Desktop GIS --> OpenJUMP`."
-msgstr ""
+msgstr "Från skrivbordet väljer du :menuselection:`Desktop GIS --> OpenJUMP`."
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:33
 msgid "The OpenJUMP user interface has four (4) basic components."
-msgstr ""
+msgstr "OpenJUMP:s användargränssnitt har fyra (4) grundläggande komponenter."
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:35
 msgid "[1] The first is a top-level menu bar for accessing most functionality."
 msgstr ""
+"[1] Den första är ett menyfält på översta nivån för åtkomst till de flesta "
+"funktioner."
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:36
 msgid "[2] The second is a main toolbar that sits just below the menu bar. The buttons give access to the most important display and navigation functions."
 msgstr ""
+"[2] Det andra är ett huvudverktygsfält som sitter precis under menyfältet. "
+"Knapparna ger tillgång till de viktigaste visnings- och "
+"navigeringsfunktionerna."
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:37
 msgid "[3] The third is a tree view on the left that shows the layer list of the active project."
 msgstr ""
+"[3] Den tredje är en trädvy till vänster som visar lagerlistan för det "
+"aktiva projektet."
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:38
 msgid "[4] The fourth is the map view. This is the actual map where a graphical representation of the spatial data in each layer is given."
 msgstr ""
+"[4] Den fjärde är kartvyn. Detta är den faktiska kartan där en grafisk "
+"representation av de rumsliga data som finns i varje lager visas."
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:40
 msgid "Finally there is an information bar at the bottom displaying mouse pointer coordinates, processing reports, and memory usage. A project window contains a layer list and a layer view. Each instance of OpenJUMP can contain multiple projects. In this quick start, we will only be working with a single window."
 msgstr ""
+"Slutligen finns det ett informationsfält längst ned som visar muspekarens "
+"koordinater, bearbetningsrapporter och minnesanvändning. Ett projektfönster "
+"innehåller en lagerlista och en lagervy. Varje instans av OpenJUMP kan "
+"innehålla flera projekt. I den här snabbstarten kommer vi bara att arbeta "
+"med ett enda fönster."
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:47
 msgid "Open an ESRI shapefile"
-msgstr ""
+msgstr "Öppna en ESRI-shapefil"
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:49
 msgid "On the top-level menu bar in OpenJUMP, select :menuselection:`File --> Open File`. This will present you with a dialog box that allows you to open files containing geospatial data."
 msgstr ""
+"På menyraden på översta nivån i OpenJUMP väljer du :menuselection:`Arkiv --> "
+"Öppna fil`. Du får då upp en dialogruta där du kan öppna filer som "
+"innehåller geospatiala data."
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:50
 msgid "Browse for an ESRI shapefile. Look for a file with the .shp extension (e.g. on the LiveDVD under `/home/user/data/natural_earth2/ne_10m_admin_0_countries.shp`)."
 msgstr ""
+"Sök efter en ESRI-shapefil. Leta efter en fil med tillägget .shp (t.ex. på "
+"LiveDVD:n under `/home/user/data/natural_earth2/ne_10m_admin_0_countries."
+"shp`)."
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:51
 msgid "Select the file and click the :guilabel:`Finish` button on the dialog. After a few moments, you will be able to see the data from your shapefile in the Map View. You will also see a new layer created for your data in the Layer List. The name of the layer will match the name of the shapefile."
 msgstr ""
+"Välj filen och klicka på knappen :guilabel:`Finish` i dialogrutan. Efter en "
+"liten stund kommer du att kunna se data från din shapefil i kartvyn. Du "
+"kommer också att se ett nytt lager som skapats för dina data i lagerlistan. "
+"Lagrets namn kommer att överensstämma med shapefilens namn."
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:56
 msgid "Another quicker option is to directly drag and drop your shapefile in the Layer View."
 msgstr ""
+"Ett annat snabbare alternativ är att direkt dra och släppa din shapefil i "
+"lagervyn."
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:59
 msgid "Style a layer"
-msgstr ""
+msgstr "Styla ett lager"
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:61
 #: ../../build/doc/quickstart/openjump_quickstart.rst:73
 msgid "In the Layer List, right click on the layer name. This will show a pop-up menu."
-msgstr ""
+msgstr "Högerklicka på lagrets namn i lagerlistan. Då visas en popup-meny."
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:62
 msgid "Choose to :menuselection:`Style --> `Change Styles`. The Change Styles dialog has five (5) tabs that allow you to change how the layer is displayed in the Map View. This includes changing the stroke color, the fill color, line style and line thickness, transparency, adding labels, and determining at which maximum and minimum scales the layer is displayed at."
 msgstr ""
+"Välj att :menuselection:`Style --> `Change Styles`. Dialogrutan Change "
+"Styles har fem (5) flikar där du kan ändra hur lagret visas i kartvyn. Detta "
+"inkluderar att ändra streckfärg, fyllningsfärg, linjestil och linjetjocklek, "
+"transparens, lägga till etiketter och bestämma vid vilken högsta och lägsta "
+"skala skiktet ska visas."
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:71
 msgid "Edit feature geometries in a layer"
-msgstr ""
+msgstr "Redigera geometrier för objekt i ett lager"
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:74
 msgid "Click on the menu entry \"Editable\" so that a check mark is shown. This will open a new floating toolbar over the Map View on the right side. This toolbar has a set of buttons that you can use to edit the geometry of a geographic feature."
 msgstr ""
+"Klicka på menyposten \"Editable\" så att en bockmarkering visas. Då öppnas "
+"ett nytt flytande verktygsfält över kartvyn på höger sida. Detta "
+"verktygsfält har en uppsättning knappar som du kan använda för att redigera "
+"geometrin för en geografisk funktion."
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:82
 msgid "Let's try a quick edit. First we need to select a geometry and then we move a point of the geometry. To do that, we first click the button that shows a mouse cursor in the editing toolbar (top left button)."
 msgstr ""
+"Låt oss prova en snabb redigering. Först måste vi välja en geometri och "
+"sedan flytta en punkt i geometrin. För att göra det klickar vi först på "
+"knappen som visar en muspekare i redigeringsverktygsfältet (knappen längst "
+"upp till vänster)."
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:83
 msgid "Activate it and click on a single feature in the Map View to select it. If the selection worked, then the features line color should change to yellow and small yellow squares appear at each angle point (vertex) in the feature geometry."
 msgstr ""
+"Aktivera den och klicka på en enskild funktion i kartvyn för att välja den. "
+"Om markeringen fungerade bör objektets linjefärg ändras till gult och små "
+"gula fyrkanter visas vid varje vinkelpunkt (vertex) i objektets geometri."
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:88
 msgid "Next, click on the button that shows a blue crosshair with a yellow square in the middle, the :guilabel:`Move Vertex Tool` (Hoovering over the buttons gives you a button description). You should now see your mouse cursor change to a small black crosshair when you move it over the Map View."
 msgstr ""
+"Klicka sedan på knappen som visar ett blått hårkors med en gul fyrkant i "
+"mitten, :guilabel:`Move Vertex Tool` (om du sveper över knapparna får du en "
+"knappbeskrivning). Du bör nu se att muspekaren ändras till ett litet svart "
+"hårkors när du flyttar den över kartvyn."
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:93
 msgid "Try using this to move one of the vertices/points of the geometry you selected before by clicking on one of the vertices and dragging it (leaving the mouse button pressed)."
 msgstr ""
+"Prova att använda detta för att flytta en av hörnen/punkterna i den geometri "
+"du valde tidigare genom att klicka på ett av hörnen och dra det (håll "
+"musknappen intryckt)."
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:99
 msgid "What next?"
-msgstr ""
+msgstr "Hur vill du gå vidare?"
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:101
 msgid "This is only the first step on the road to using OpenJUMP. There is a lot more material left for you to discover."
 msgstr ""
+"Detta är bara det första steget på vägen till att använda OpenJUMP. Det "
+"finns mycket mer material kvar för dig att upptäcka."
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:103
 msgid "You can download tutorials for the OpenJUMP here: https://sourceforge.net/projects/jump-pilot/files/Documentation/"
 msgstr ""
+"Du kan ladda ner handledning för OpenJUMP här: https://sourceforge.net/"
+"projects/jump-pilot/files/Documentation/"
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:105
 msgid "You can read the OpenJUMP wiki here: http://ojwiki.soldin.de/index.php?title=Main_Page"
 msgstr ""
+"Du kan läsa OpenJUMP-wikin här: http://ojwiki.soldin.de/index."
+"php?title=Main_Page"
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:107
 msgid "You can get help fast on the OpenJUMP users mailing list: https://groups.google.com/forum/#!forum/openjump-users"
 msgstr ""
+"Du kan få snabb hjälp på e-postlistan för OpenJUMP-användare: https://groups."
+"google.com/forum/#!forum/openjump-users"
 
 #: ../../build/doc/quickstart/openjump_quickstart.rst:109
 msgid "The latest OpenJUMP version can be found here: https://sourceforge.net/projects/jump-pilot/files/OpenJUMP/"
 msgstr ""
+"Den senaste versionen av OpenJUMP finns här: https://sourceforge.net/"
+"projects/jump-pilot/files/OpenJUMP/"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -154,9 +216,9 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

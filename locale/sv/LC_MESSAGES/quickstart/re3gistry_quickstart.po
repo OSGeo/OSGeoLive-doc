@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-21 20:28+0000\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "re3gistry_quickstart/sv/>\n"
 "Language: sv\n"
@@ -21,223 +21,307 @@ msgstr ""
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:12
 msgid "Re3gistry Quickstart"
-msgstr ""
+msgstr "Snabbstart för Re3gistry"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:14
 msgid "The Re3gistry 2 is a reusable open source solution for managing and sharing \"reference codes\". It provides a consistent central access point where labels and descriptions for reference codes can be easily browsed by humans and retrieved by machines. Reference codes are exchanged between applications to uniquely reference some ‘thing’. They can be used to define sets of permissible values for a data field or to provide a reference or context for the data being exchanged. Examples are enumerations, controlled vocabularies, taxonomies, thesauri or, simply, ‘lists of things’. The Re3gistry 2 supports organisations in managing and updating reference codes in a consistent way."
 msgstr ""
+"Re3gistry 2 är en återanvändbar lösning med öppen källkod för hantering och "
+"delning av \"referenskoder\". Det ger en konsekvent central åtkomstpunkt där "
+"etiketter och beskrivningar för referenskoder enkelt kan bläddras av "
+"människor och hämtas av maskiner. Referenskoder utbyts mellan applikationer "
+"för att unikt referera till en viss \"sak\". De kan användas för att "
+"definiera uppsättningar av tillåtna värden för ett datafält eller för att ge "
+"en referens eller ett sammanhang för de data som utbyts. Exempel är "
+"enumerationer, kontrollerade vokabulärer, taxonomier, tesaurier eller helt "
+"enkelt \"listor över saker\". Re3gistry 2 stöder organisationer i att "
+"hantera och uppdatera referenskoder på ett konsekvent sätt."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:24
 msgid "This Quick Start describes how to:"
-msgstr ""
+msgstr "Denna snabbstart beskriver hur du gör:"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:26
 msgid "Start and install the Re3gistry using the wizard (first start only)"
 msgstr ""
+"Starta och installera Re3gistry med hjälp av guiden (endast första starten)"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:27
 msgid "Manage data from the ``pgAdmin`` client."
-msgstr ""
+msgstr "Hantera data från klienten ``pgAdmin``."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:31
 msgid "Contents"
-msgstr ""
+msgstr "Innehåll"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:34
 msgid "Start the Re3gistry"
-msgstr ""
+msgstr "Starta omregistreringen"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:36
 msgid "Choose *'Start Re3gistry'* from the |menu_re3gistry-Start| menu. The application will take a few moments to start up. Firefox opens the *Re3gistry landing page* (you can also open this manually by pointing your browser to http://localhost:8080/re3gistry2)."
 msgstr ""
+"Välj *'Start Re3gistry'* från menyn |menu_re3gistry-Start|. Det tar några "
+"ögonblick att starta upp programmet. Firefox öppnar *Re3gistry landningssida*"
+" (du kan också öppna den manuellt genom att peka din webbläsare till "
+"http://localhost:8080/re3gistry2)."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:41
 msgid "If this is the first start, the Re3gistry will launch the installation wizard. This wizard will guide the user to the setup and first run of the tool."
 msgstr ""
+"Om detta är den första starten startar Re3gistry installationsguiden. Guiden "
+"hjälper användaren att installera och köra verktyget för första gången."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:45
 msgid "The first page is just an introductory description. Click on \"continue\"."
 msgstr ""
+"Den första sidan är bara en inledande beskrivning. Klicka på \"fortsätt\"."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:46
 msgid "The \"Registry manager\" page allows you to define the account for the system administration (Registry manager). Insert a valid e-mail address and a password. Then click on \"Save and continue\"."
 msgstr ""
+"På sidan \"Registry manager\" kan du definiera kontot för "
+"systemadministrationen (Registry manager). Ange en giltig e-postadress och "
+"ett lösenord. Klicka sedan på \"Spara och fortsätt\"."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:49
 msgid "The next step allows you to choose between 2 options:"
-msgstr ""
+msgstr "I nästa steg kan du välja mellan två alternativ:"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:51
 msgid "Installation: choose this option if you want to install the Re3gistry software for the first time and to create a registry from scratch."
 msgstr ""
+"Installation: Välj det här alternativet om du vill installera Re3gistry för "
+"första gången och skapa ett register från grunden."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:54
 msgid "Migration: choose this option if you want to upgrade a pre-existing Re3gistry instance. This option will keep your settings and content. Note that this option will only work on an existing instance running on Re3gistry version 1.3.X."
 msgstr ""
+"Migration: välj detta alternativ om du vill uppgradera en befintlig "
+"Re3gistry-instans. Detta alternativ kommer att behålla dina inställningar "
+"och innehåll. Observera att det här alternativet endast fungerar på en "
+"befintlig instans som körs på Re3gistry version 1.3.X."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:59
 msgid "**Installation option**"
-msgstr ""
+msgstr "**Installationsalternativ**"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:61
 msgid "In case the \"Installation\" option is chosen, the basic configuration for the new registry will be requested."
 msgstr ""
+"Om alternativet \"Installation\" väljs kommer den grundläggande "
+"konfigurationen för det nya registret att begäras."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:64
 msgid "System languages: the system languages are the languages supported and handled by the Re3gistry 2. Note that you can select one or more system languages."
 msgstr ""
+"Systemspråk: Systemspråken är de språk som stöds och hanteras av Re3gistry "
+"2. Observera att du kan välja ett eller flera systemspråk."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:66
 msgid "Master language: the master language is the one used by the Re3gistry 2 to handle multilingualism. Note that this will require all content to be available in the chosen master language."
 msgstr ""
+"Huvudspråk: Huvudspråket är det språk som används av Re3gistry 2 för att "
+"hantera flerspråkighet. Observera att detta kräver att allt innehåll finns "
+"tillgängligt på det valda huvudspråket."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:69
 msgid "Base URI: the base URI will be part of the public URL, generally this should match with your own domain name: `**http://example.com**/registry`"
 msgstr ""
+"Base URI: Base URI kommer att vara en del av den publika URL:en, i allmänhet "
+"bör den överensstämma med ditt eget domännamn: `**http://example."
+"com**/registry`"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:71
 msgid "Local ID: the local ID will be part of the public URL, generally the path following the domain name: `http://example.com/**registry**`"
 msgstr ""
+"Lokalt ID: det lokala ID:t kommer att vara en del av den publika URL:en, i "
+"allmänhet sökvägen efter domännamnet: `http://example.com/**registry**`"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:73
 msgid "Label: the label of the registry will be the ‘title’ of the Re3gistry 2 instance. It will be shown in the registry’s landing page."
 msgstr ""
+"Etikett: Registrets etikett kommer att vara \"titeln\" på Re3gistry 2-"
+"instansen. Den kommer att visas på registrets landningssida."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:75
 msgid "Content summary: this text should shortly describe what would be available under your Re3gistry 2 instance. It will be shown in the registry’s landing page."
 msgstr ""
+"Sammanfattning av innehållet: denna text ska kortfattat beskriva vad som "
+"finns tillgängligt i din Re3gistry 2-instans. Den kommer att visas på "
+"registrets landningssida."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:79
 msgid "After filling all the information, click on \"Save and continue\"."
-msgstr ""
+msgstr "När du har fyllt i alla uppgifter klickar du på \"Spara och fortsätt\"."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:81
 msgid "The next step will present a summary of the information inserted. If all the fields are correct, click on \"Install\" to begin the installation. Once the installation is finished, the user is redirected to the login page."
 msgstr ""
+"I nästa steg visas en sammanfattning av den information som matats in. Om "
+"alla fält är korrekta klickar du på \"Installera\" för att påbörja "
+"installationen. När installationen är klar kommer användaren att omdirigeras "
+"till inloggningssidan."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:85
 msgid "**Migration option**"
-msgstr ""
+msgstr "**Alternativ för migrering**"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:87
 msgid "In case the \"Migration\" option is chosen, the details of the database from the existing Re3gistry installation are requested."
 msgstr ""
+"Om alternativet \"Migration\" väljs begärs uppgifter om databasen från den "
+"befintliga Re3gistry-installationen."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:90
 msgid "Fill the requested fields and"
-msgstr ""
+msgstr "Fyll i de begärda fälten och"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:91
 msgid "click the \"Save and continue\" button. You will then get a page containing a summary of the data retrieved from the existing instance of the Re3gistry."
 msgstr ""
+"klicka på knappen \"Spara och fortsätt\". Du kommer då att få en sida som "
+"innehåller en sammanfattning av de uppgifter som hämtats från den befintliga "
+"instansen av Re3gistry."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:93
 msgid "Click on \"Install\" to begin the migration. An information page will be shown."
 msgstr ""
+"Klicka på \"Installera\" för att påbörja migreringen. En informationssida "
+"kommer att visas."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:95
 msgid "Now you can close the browser and the system will notify you via e-mail using the address specified in the \"Registry manager\" definition step."
 msgstr ""
+"Nu kan du stänga webbläsaren och systemet kommer att meddela dig via e-post "
+"med den adress som anges i definitionssteget \"Registry manager\"."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:99
 msgid "Introduction to the Re3gistry 2"
-msgstr ""
+msgstr "Introduktion till Re3gistry 2"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:101
 msgid "The Re3gistry editing interface allows to graphically manage the complete life-cycle of reference codes, such as code lists, enumerations, controlled vocabularies, taxonomies, thesauri or, simply, 'lists of things'. If you choose the \"installation mode\" from the wizard, the first time you log in to the system, you will have an empty registry. You can then start populating it using the tools provided by the editing interface. If you choose the \"migration mode\" from the wizard, you will find the registers imported from the older version of the tool."
 msgstr ""
+"Redigeringsgränssnittet Re3gistry gör det möjligt att grafiskt hantera hela "
+"livscykeln för referenskoder, t.ex. kodlistor, uppräkningar, kontrollerade "
+"vokabulärer, taxonomier, tesaurier eller helt enkelt \"listor över saker\". "
+"Om du väljer \"installationsläget\" i guiden kommer du att ha ett tomt "
+"register första gången du loggar in i systemet. Du kan sedan börja fylla det "
+"med hjälp av de verktyg som finns i redigeringsgränssnittet. Om du väljer "
+"\"migreringsläget\" i guiden kommer du att hitta de register som importerats "
+"från den äldre versionen av verktyget."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:110
 msgid "For detailed documentation on the editing interface, please read the `user manual <https://github.com/ec-jrc/re3gistry/blob/master/documentation/user-manual.md>`__."
 msgstr ""
+"För detaljerad dokumentation om redigeringsgränssnittet, läs "
+"användarhandboken <https://github.com/ec-jrc/re3gistry/blob/master/"
+"documentation/user-manual.md>`__."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:115
 msgid "Users, roles and groups"
-msgstr ""
+msgstr "Användare, roller och grupper"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:117
 msgid "The Re3gistry 2 follows the `ISO 19135 Standard \"Geographic information — Procedures for item registration\" <https://www.iso.org/standard/54721.html>`__."
 msgstr ""
+"Re3gistry 2 följer standarden `ISO 19135 \"Geografisk information - "
+"Procedurer för registrering av objekt\" <https://www.iso.org/standard/54721."
+"html>`__."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:120
 msgid "The possible user roles that the Re3gistry 2 manages are:"
-msgstr ""
+msgstr "De möjliga användarrollerna som Re3gistry 2 hanterar är:"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:122
 msgid "Registry manager"
-msgstr ""
+msgstr "Registerhanterare"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:123
 msgid "Register owner"
-msgstr ""
+msgstr "Ägare till registret"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:124
 msgid "Register manager"
-msgstr ""
+msgstr "Registeransvarig"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:125
 msgid "Control body"
-msgstr ""
+msgstr "Kontrollorgan"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:126
 msgid "Submitting organisations"
-msgstr ""
+msgstr "Inlämnande av organisationer"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:128
 msgid "The registry manager has the highest privileges in the system. This role can perform three different tasks:"
 msgstr ""
+"Registerhanteraren har de högsta behörigheterna i systemet. Den här rollen "
+"kan utföra tre olika uppgifter:"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:131
 msgid "Make any action on the reference codes."
-msgstr ""
+msgstr "Gör någon åtgärd på referenskoderna."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:133
 msgid "The changes done to the reference codes need to undergo the approval workflow by obtaining the approval from the control body,"
 msgstr ""
+"De ändringar som görs i referenskoderna måste genomgå ett godkännandeflöde "
+"genom att erhålla godkännande från kontrollorganet,"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:136
 msgid "Manage the structural elements of the system."
-msgstr ""
+msgstr "Hantera systemets strukturella element."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:137
 msgid "Change and edit information related to the registry and the registers,"
-msgstr ""
+msgstr "Ändra och redigera information som rör registret och registren,"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:138
 msgid "Add new registers,"
-msgstr ""
+msgstr "Lägg till nya register,"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:139
 msgid "Manage the fields of the registry, registers, reference codes."
-msgstr ""
+msgstr "Hantera fält i registret, register, referenskoder."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:141
 msgid "These structural changes do not need to have the approval workflow, and"
 msgstr ""
+"Dessa strukturella förändringar behöver inte godkännas i arbetsflödet, och"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:143
 msgid "Manage both users and groups."
-msgstr ""
+msgstr "Hantera både användare och grupper."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:147
 msgid "What next?"
-msgstr ""
+msgstr "Hur vill du gå vidare?"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:149
 msgid "This was just a very brief overview of the Re3gistry. There is more information in the demo installation and on the Re3gistry GitHub space."
 msgstr ""
+"Detta var bara en mycket kort översikt över Re3gistry. Det finns mer "
+"information i demoinstallationen och på Re3gistry GitHub-utrymmet."
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:152
 msgid "`User manual <https://github.com/ec-jrc/re3gistry/blob/master/documentation/user-manual.md>`__"
 msgstr ""
+"användarmanual <https://github.com/ec-jrc/re3gistry/blob/master/"
+"documentation/user-manual.md>`__"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:153
 msgid "`Administrator manual <https://github.com/ec-jrc/re3gistry/blob/master/documentation/administrator-manual.md>`__"
 msgstr ""
+"administratörshandbok <https://github.com/ec-jrc/re3gistry/blob/master/"
+"documentation/administrator-manual.md>`__"
 
 #: ../../build/doc/quickstart/re3gistry_quickstart.rst:154
 msgid "`Developer manual <https://github.com/ec-jrc/re3gistry/blob/master/documentation/developer-manual.md>`__"
 msgstr ""
+"utvecklarmanual <https://github.com/ec-jrc/re3gistry/blob/master/"
+"documentation/developer-manual.md>`__"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -249,9 +333,9 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "ideditor_overview/sv/>\n"
 "Language: sv\n"
@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../../build/doc/overview/ideditor_overview.rst:14
 msgid "iD editor"
-msgstr ""
+msgstr "iD-redaktör"
 
 #: ../../build/doc/overview/ideditor_overview.rst:17
 msgid "Browser based editor for OpenStreetMap"
-msgstr ""
+msgstr "Webbläsarbaserad editor för OpenStreetMap"
 
 #: ../../build/doc/overview/ideditor_overview.rst:19
 msgid ""
@@ -37,6 +37,10 @@ msgid ""
 "allows mapping from various data sources such as satellite and aerial "
 "imageries, GPS, Field Papers or Mapillary."
 msgstr ""
+"ID-editorn är de facto den webbläsarbaserade OpenStreetMap <https://www."
+"openstreetmap.org>`_-editorn. iD är snabb och enkel att använda och "
+"möjliggör kartläggning från olika datakällor, t.ex. satellit- och "
+"flygbilder, GPS, Field Papers eller Mapillary."
 
 #: ../../build/doc/overview/ideditor_overview.rst:21
 msgid ""
@@ -44,10 +48,13 @@ msgid ""
 "require the advanced features of the more advanced :doc:`JOSM "
 "<josm_overview>` editor."
 msgstr ""
+"ID-redigeraren är ett utmärkt sätt att redigera små och enkla ändringar som "
+"inte kräver de avancerade funktionerna i den mer avancerade :doc:`JOSM "
+"<josm_overview>`-redigeraren."
 
 #: ../../build/doc/overview/ideditor_overview.rstNone
 msgid "ideditor screenshot"
-msgstr ""
+msgstr "ideditor skärmdump"
 
 #: ../../build/doc/overview/ideditor_overview.rst:30
 msgid "Core Features"
@@ -55,19 +62,19 @@ msgstr "Kärnfunktioner"
 
 #: ../../build/doc/overview/ideditor_overview.rst:32
 msgid "OpenStreetMap Editing"
-msgstr ""
+msgstr "Redigering av OpenStreetMap"
 
 #: ../../build/doc/overview/ideditor_overview.rst:33
 msgid "Fast"
-msgstr ""
+msgstr "Snabb"
 
 #: ../../build/doc/overview/ideditor_overview.rst:34
 msgid "Intuitive"
-msgstr ""
+msgstr "Intuitiv"
 
 #: ../../build/doc/overview/ideditor_overview.rst:35
 msgid "Browser Based"
-msgstr ""
+msgstr "Webbläsarbaserad"
 
 #: ../../build/doc/overview/ideditor_overview.rst:39
 msgid "Implemented Standards"
@@ -75,7 +82,7 @@ msgstr "Implementerade standarder"
 
 #: ../../build/doc/overview/ideditor_overview.rst:41
 msgid "Web Map Tile Service (for basemaps)"
-msgstr ""
+msgstr "Web Map Tile Service (för baskartor)"
 
 #: ../../build/doc/overview/ideditor_overview.rst:44
 msgid "Details"
@@ -83,25 +90,27 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/ideditor_overview.rst:46
 msgid "**Website:** https://wiki.openstreetmap.org/wiki/ID"
-msgstr ""
+msgstr "**Webbplats:** https://wiki.openstreetmap.org/wiki/ID"
 
 #: ../../build/doc/overview/ideditor_overview.rst:48
 msgid "**Licence:** `ISC <https://en.wikipedia.org/wiki/ISC_license>`_"
-msgstr ""
+msgstr "**Licens:** `ISC <https://en.wikipedia.org/wiki/ISC_license>`_"
 
 #: ../../build/doc/overview/ideditor_overview.rst:50
 msgid "**Software Version:** |version-ideditor|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-ideditor|"
 
 #: ../../build/doc/overview/ideditor_overview.rst:52
 msgid ""
 "**Supported Platforms:** Anything that supports a browser: Windows, "
 "GNU/Linux, Mac, Android, iOS"
 msgstr ""
+"**Plattformar som stöds:** Allt som har stöd för en webbläsare: Windows, GNU/"
+"Linux, Mac, Android, iOS"
 
 #: ../../build/doc/overview/ideditor_overview.rst:54
 msgid "**Support:** https://help.openstreetmap.org/"
-msgstr ""
+msgstr "**Support:** https://help.openstreetmap.org/"
 
 #: ../../build/doc/overview/ideditor_overview.rst:59
 msgid "Quickstart"
@@ -109,7 +118,7 @@ msgstr "Snabbstart"
 
 #: ../../build/doc/overview/ideditor_overview.rst:61
 msgid ":doc:`Quickstart documentation <../quickstart/ideditor_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snabbstartsdokumentation <../quickstart/ideditor_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -121,8 +130,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

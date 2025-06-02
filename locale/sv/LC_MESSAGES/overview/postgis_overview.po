@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "postgis_overview/sv/>\n"
 "Language: sv\n"
@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../../build/doc/overview/postgis_overview.rst:37
 msgid "PostGIS"
-msgstr ""
+msgstr "PostGIS"
 
 #: ../../build/doc/overview/postgis_overview.rst:43
 msgid "Spatial Database"
-msgstr ""
+msgstr "Spatial databas"
 
 #: ../../build/doc/overview/postgis_overview.rst:58
 msgid ""
@@ -36,6 +36,9 @@ msgid ""
 " allowing it to be used as a back-end database for geographic information "
 "systems (GIS) and web-mapping applications."
 msgstr ""
+"PostGIS möjliggör rumsligt den populära PostgreSQL-objektrelationsdatabasen, "
+"så att den kan användas som en back-end-databas för geografiska "
+"informationssystem (GIS) och webbkartapplikationer."
 
 #: ../../build/doc/overview/postgis_overview.rst:60
 msgid ""
@@ -45,6 +48,11 @@ msgid ""
 "including risk-averse government agencies and organisations storing "
 "terabytes of data serving millions of web requests per day."
 msgstr ""
+"PostGIS är stabilt, snabbt, följer standarder, har hundratals spatiala "
+"funktioner och är för närvarande den mest använda spatiala databasen med "
+"öppen källkod. PostGIS används av olika organisationer från hela världen, "
+"inklusive riskbenägna myndigheter och organisationer som lagrar terabyte med "
+"data och hanterar miljontals webbförfrågningar per dag."
 
 #: ../../build/doc/overview/postgis_overview.rst:62
 msgid ""
@@ -54,10 +62,15 @@ msgid ""
 "clients. These clients can also map and manipulate PostGIS spatial data "
 "tables."
 msgstr ""
+"Databasadministration är tillgänglig för skrivbord och webb via pgAdmin, "
+"phpPgAdmin och andra. Dataimport/export kan göras med kommandoradsverktyg ("
+"shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgis) eller från GIS-klienter på dator "
+"och webb. Dessa klienter kan också mappa och manipulera PostGIS rumsliga "
+"datatabeller."
 
 #: ../../build/doc/overview/postgis_overview.rstNone
 msgid "postgis screenshot"
-msgstr ""
+msgstr "postgis skärmdump"
 
 #: ../../build/doc/overview/postgis_overview.rst:81
 msgid "Core Features"
@@ -65,43 +78,43 @@ msgstr "Kärnfunktioner"
 
 #: ../../build/doc/overview/postgis_overview.rst:83
 msgid "Hundreds of spatial functions"
-msgstr ""
+msgstr "Hundratals rumsliga funktioner"
 
 #: ../../build/doc/overview/postgis_overview.rst:85
 msgid "Buffers, unions, overlays, distance and more"
-msgstr ""
+msgstr "Buffertar, unioner, överlappningar, avstånd m.m"
 
 #: ../../build/doc/overview/postgis_overview.rst:87
 msgid "ACID transactional integrity"
-msgstr ""
+msgstr "ACID transaktionsintegritet"
 
 #: ../../build/doc/overview/postgis_overview.rst:88
 msgid "R-Tree spatial index"
-msgstr ""
+msgstr "R-Tree rumsligt index"
 
 #: ../../build/doc/overview/postgis_overview.rst:89
 msgid "Multi-user support"
-msgstr ""
+msgstr "Stöd för flera användare"
 
 #: ../../build/doc/overview/postgis_overview.rst:90
 msgid "Row-level locking"
-msgstr ""
+msgstr "Låsning på radnivå"
 
 #: ../../build/doc/overview/postgis_overview.rst:91
 msgid "Replication"
-msgstr ""
+msgstr "Replikering"
 
 #: ../../build/doc/overview/postgis_overview.rst:92
 msgid "Partitioning"
-msgstr ""
+msgstr "Partitionering"
 
 #: ../../build/doc/overview/postgis_overview.rst:93
 msgid "Role-based security"
-msgstr ""
+msgstr "Rollbaserad säkerhet"
 
 #: ../../build/doc/overview/postgis_overview.rst:94
 msgid "Table-spaces, schemas"
-msgstr ""
+msgstr "Tabellutrymmen, scheman"
 
 #: ../../build/doc/overview/postgis_overview.rst:97
 msgid "Implemented Standards"
@@ -109,7 +122,7 @@ msgstr "Implementerade standarder"
 
 #: ../../build/doc/overview/postgis_overview.rst:101
 msgid "OGC standards compliant (SFSQL)"
-msgstr ""
+msgstr "OGC-standarder som överensstämmer (SFSQL)"
 
 #: ../../build/doc/overview/postgis_overview.rst:104
 msgid "Details"
@@ -117,7 +130,7 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/postgis_overview.rst:106
 msgid "**Website:** http://postgis.net"
-msgstr ""
+msgstr "**Webbplats:** http://postgis.net"
 
 #: ../../build/doc/overview/postgis_overview.rst:108
 msgid "**Licence:** GNU General Public License (GPL) version 2"
@@ -125,7 +138,7 @@ msgstr "* * Licens: * * GNU General Public License (GPL) version 2"
 
 #: ../../build/doc/overview/postgis_overview.rst:110
 msgid "**Software Version:** |version-postgis|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-postgis|"
 
 #: ../../build/doc/overview/postgis_overview.rst:112
 msgid "**Supported Platforms:** Windows, Linux, Mac"
@@ -133,11 +146,11 @@ msgstr "**Plattformar som stöds:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/postgis_overview.rst:114
 msgid "**API Interfaces:** SQL"
-msgstr ""
+msgstr "**API-gränssnitt:** SQL"
 
 #: ../../build/doc/overview/postgis_overview.rst:120
 msgid "**Support:** |SUPPORT|"
-msgstr ""
+msgstr "**Support:** |SUPPORT|"
 
 #: ../../build/doc/overview/postgis_overview.rst:126
 msgid "Quickstart"
@@ -145,7 +158,7 @@ msgstr "Snabbstart"
 
 #: ../../build/doc/overview/postgis_overview.rst:128
 msgid ":doc:`Quickstart documentation <../quickstart/postgis_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snabbstartsdokumentation <../quickstart/postgis_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -157,8 +170,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

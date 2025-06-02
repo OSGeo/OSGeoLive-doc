@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "spatialite_overview/sv/>\n"
 "Language: sv\n"
@@ -24,15 +24,15 @@ msgstr ""
 
 #: ../../build/doc/overview/spatialite_overview.rst:15
 msgid "SpatiaLite"
-msgstr ""
+msgstr "SpatiaLite"
 
 #: ../../build/doc/overview/spatialite_overview.rst:18
 msgid "Spatial Database"
-msgstr ""
+msgstr "Spatial databas"
 
 #: ../../build/doc/overview/spatialite_overview.rst:20
 msgid "SpatiaLite is an SQLite_ database engine with spatial functions added."
-msgstr ""
+msgstr "SpatiaLite är en SQLite_-databasmotor med spatiala funktioner."
 
 #: ../../build/doc/overview/spatialite_overview.rst:22
 msgid ""
@@ -40,10 +40,14 @@ msgid ""
 "to use and very lightweight. Each SQLite database is simply a file. You can "
 "freely copy it, compress it, and port it between Windows, Linux, MacOs etc."
 msgstr ""
+"SQLite är ett databashanteringssystem (DBMS) som är enkelt, robust, "
+"lättanvänt och mycket lättviktigt. Varje SQLite-databas är helt enkelt en "
+"fil. Du kan fritt kopiera den, komprimera den och porta den mellan Windows, "
+"Linux, MacOs etc."
 
 #: ../../build/doc/overview/spatialite_overview.rstNone
 msgid "spatialite screenshot"
-msgstr ""
+msgstr "spatialite skärmdump"
 
 #: ../../build/doc/overview/spatialite_overview.rst:33
 msgid "Core Features"
@@ -54,64 +58,75 @@ msgid ""
 "The SpatiaLite extension enables SQLite to support spatial data conformant "
 "to OGC specifications."
 msgstr ""
+"SpatiaLite-tillägget gör det möjligt för SQLite att stödja rumsliga data som "
+"överensstämmer med OGC-specifikationer."
 
 #: ../../build/doc/overview/spatialite_overview.rst:37
 msgid "Highlights:"
-msgstr ""
+msgstr "Höjdpunkter:"
 
 #: ../../build/doc/overview/spatialite_overview.rst:39
 msgid "User friendly GUI"
-msgstr ""
+msgstr "Användarvänligt GUI"
 
 #: ../../build/doc/overview/spatialite_overview.rst:40
 msgid "Standard WKT and WKB formats"
-msgstr ""
+msgstr "Standard WKT- och WKB-format"
 
 #: ../../build/doc/overview/spatialite_overview.rst:41
 msgid ""
 "SQL spatial functions such as AsText(), GeomFromText(), Area(), PointN() ..."
 msgstr ""
+"SQL spatiala funktioner som AsText(), GeomFromText(), Area(), PointN() ..."
 
 #: ../../build/doc/overview/spatialite_overview.rst:42
 msgid ""
 "OpenGis spatial analysis functions provided via GEOS, such as Overlaps(), "
 "Touches(), Union(), Buffer() ..."
 msgstr ""
+"OpenGis rumsliga analysfunktioner som tillhandahålls via GEOS, t.ex. "
+"Overlaps(), Touches(), Union(), Buffer() ..."
 
 #: ../../build/doc/overview/spatialite_overview.rst:43
 msgid "Full Spatial metadata in line with OpenGis specifications"
-msgstr ""
+msgstr "Fullständiga spatiala metadata i enlighet med OpenGis-specifikationerna"
 
 #: ../../build/doc/overview/spatialite_overview.rst:44
 msgid "Numerous Geometry notations - EWKT, GML, KML, and GeoJSON"
-msgstr ""
+msgstr "Många geometriska beteckningar - EWKT, GML, KML och GeoJSON"
 
 #: ../../build/doc/overview/spatialite_overview.rst:45
 msgid "Importing and exporting to shapefiles"
-msgstr ""
+msgstr "Importera och exportera till shapefiler"
 
 #: ../../build/doc/overview/spatialite_overview.rst:46
 msgid ""
 "Coordinate reprojection via PROJ.4 and EPSG geodetic parameters dataset"
 msgstr ""
+"Återprojicering av koordinater via PROJ.4 och EPSG:s dataset med geodetiska "
+"parametrar"
 
 #: ../../build/doc/overview/spatialite_overview.rst:47
 msgid "Locale charsets via GNU libiconv"
-msgstr ""
+msgstr "Lokalt teckensnitt via GNU libiconv"
 
 #: ../../build/doc/overview/spatialite_overview.rst:48
 msgid "Spatial Index based on the SQLite's RTree extension"
-msgstr ""
+msgstr "Spatialt index baserat på SQLites RTree-tillägg"
 
 #: ../../build/doc/overview/spatialite_overview.rst:49
 msgid ""
 "Access shapefiles as VIRTUAL TABLEs, enabling standard SQL queries on "
 "external shapefiles, without importing or converting them"
 msgstr ""
+"Åtkomst till shapefiler som VIRTUELLA TABELLER, vilket möjliggör standard "
+"SQL-frågor på externa shapefiler utan att importera eller konvertera dem"
 
 #: ../../build/doc/overview/spatialite_overview.rst:50
 msgid "Access external CSV/TxtTab files or xls spreadsheets as VIRTUAL TABLEs"
 msgstr ""
+"Få tillgång till externa CSV/TxtTab-filer eller xls-kalkylblad som VIRTUELLA "
+"TABELLER"
 
 #: ../../build/doc/overview/spatialite_overview.rst:51
 msgid ""
@@ -120,20 +135,26 @@ msgid ""
 "Specific support for ISO-Metadata, SLD/SE styles and SVG graphics.XML "
 "documents can be queried using standard XPath syntax."
 msgstr ""
+"Åtkomst till XML-dokument, lagrade BLOB-komprimerade binära objekt, "
+"inklusive syntaktiska \"välformade\" och XSF-schema valideringsbegränsade "
+"kontroller. Specifikt stöd för ISO-Metadata, SLD/SE-stilar och SVG-grafik. "
+"XML-dokument kan efterfrågas med hjälp av standard XPath-syntax."
 
 #: ../../build/doc/overview/spatialite_overview.rst:52
 msgid "Query external WFS servers."
-msgstr ""
+msgstr "Fråga efter externa WFS-servrar."
 
 #: ../../build/doc/overview/spatialite_overview.rst:53
 msgid ""
 "Parse external DXF files (all versions) and store layers and geometries "
 "found."
 msgstr ""
+"Analysera externa DXF-filer (alla versioner) och lagra lager och geometrier "
+"som hittas."
 
 #: ../../build/doc/overview/spatialite_overview.rst:54
 msgid "Generate and Export DXF files"
-msgstr ""
+msgstr "Generera och exportera DXF-filer"
 
 #: ../../build/doc/overview/spatialite_overview.rst:57
 msgid "Details"
@@ -141,23 +162,23 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/spatialite_overview.rst:59
 msgid "**Website:** http://www.gaia-gis.it/gaia-sins/"
-msgstr ""
+msgstr "**Webbplats:** http://www.gaia-gis.it/gaia-sins/"
 
 #: ../../build/doc/overview/spatialite_overview.rst:61
 msgid "**Licence:** MPL v1.1 and GPL v3"
-msgstr ""
+msgstr "**Licens:** MPL v1.1 och GPL v3"
 
 #: ../../build/doc/overview/spatialite_overview.rst:63
 msgid "**Software Version:** |version-spatialite|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-spatialite|"
 
 #: ../../build/doc/overview/spatialite_overview.rst:65
 msgid "**Supported Platforms:** Linux, Mac, Windows"
-msgstr ""
+msgstr "**Plattformar som stöds:** Linux, Mac, Windows"
 
 #: ../../build/doc/overview/spatialite_overview.rst:67
 msgid "**API Interfaces:** C"
-msgstr ""
+msgstr "**API-gränssnitt:** C"
 
 #: ../../build/doc/overview/spatialite_overview.rst:73
 msgid "Quickstart"
@@ -165,7 +186,7 @@ msgstr "Snabbstart"
 
 #: ../../build/doc/overview/spatialite_overview.rst:75
 msgid ":doc:`Quickstart documentation <../quickstart/spatialite_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snabbstartsdokumentation <../quickstart/spatialite_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -177,8 +198,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

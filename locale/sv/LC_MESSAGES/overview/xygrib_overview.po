@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "xygrib_overview/sv/>\n"
 "Language: sv\n"
@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../../build/doc/overview/xygrib_overview.rst:14
 msgid "XyGrib"
-msgstr ""
+msgstr "XyGrib"
 
 #: ../../build/doc/overview/xygrib_overview.rst:17
 msgid "Weather forecasting"
-msgstr ""
+msgstr "Väderprognoser"
 
 #: ../../build/doc/overview/xygrib_overview.rst:19
 msgid ""
@@ -40,10 +40,17 @@ msgid ""
 "members of the sailing community, private and sport aviators, farmers, "
 "weather buffs and many more."
 msgstr ""
+"XyGrib är en Grib-filläsare som visualiserar meteorologiska data och ger en "
+"off-line-funktion för att analysera väderprognoser eller hindcasts. XyGrib "
+"är en fortsättning på mjukvarupaketet zyGrib med ett nytt team av "
+"volontärer. Det är avsett att användas som en kapabel väderarbetsstation för "
+"alla som har ett seriöst intresse av att undersöka väder. Detta skulle "
+"inkludera medlemmar i segelsamhället, privata och sportflygare, jordbrukare, "
+"väderfantaster och många fler."
 
 #: ../../build/doc/overview/xygrib_overview.rstNone
 msgid "xygrib screenshot"
-msgstr ""
+msgstr "xygrib skärmdump"
 
 #: ../../build/doc/overview/xygrib_overview.rst:29
 msgid "Core Features"
@@ -51,31 +58,35 @@ msgstr "Kärnfunktioner"
 
 #: ../../build/doc/overview/xygrib_overview.rst:31
 msgid "Visualization of meteorologic data from files in GRIB format"
-msgstr ""
+msgstr "Visualisering av meteorologiska data från filer i GRIB-format"
 
 #: ../../build/doc/overview/xygrib_overview.rst:32
 msgid "Automatic download of weather and wave forecasts"
-msgstr ""
+msgstr "Automatisk nedladdning av väder- och vågprognoser"
 
 #: ../../build/doc/overview/xygrib_overview.rst:33
 msgid "Automatic download from IAC (fleetcode) data"
-msgstr ""
+msgstr "Automatisk nedladdning från IAC-data (fleetcode)"
 
 #: ../../build/doc/overview/xygrib_overview.rst:34
 msgid "Play animations of 8-day forecasts"
-msgstr ""
+msgstr "Spela upp animationer av 8-dygnsprognoser"
 
 #: ../../build/doc/overview/xygrib_overview.rst:35
 msgid ""
 "Create your own regional weather maps (worldwide), or view a detailed "
 "quantitative forecast for a particular location."
 msgstr ""
+"Skapa dina egna regionala väderkartor (över hela världen) eller visa en "
+"detaljerad kvantitativ prognos för en viss plats."
 
 #: ../../build/doc/overview/xygrib_overview.rst:36
 msgid ""
 "Plot wind, pressure, temperature, humidity, rain, snow, cloud cover, dew "
 "point, wave height, and high altitude data."
 msgstr ""
+"Plotta vind, tryck, temperatur, luftfuktighet, regn, snö, molntäcke, "
+"daggpunkt, våghöjd och data för hög höjd."
 
 #: ../../build/doc/overview/xygrib_overview.rst:39
 msgid "Details"
@@ -83,23 +94,23 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/xygrib_overview.rst:41
 msgid "**Website:** https://opengribs.org/en"
-msgstr ""
+msgstr "**Webbplats:** https://opengribs.org/en"
 
 #: ../../build/doc/overview/xygrib_overview.rst:43
 msgid "**Licence:** GNU General Public License (GPL) version 3"
-msgstr ""
+msgstr "**Licens:** GNU General Public License (GPL) version 3"
 
 #: ../../build/doc/overview/xygrib_overview.rst:45
 msgid "**Software Version:** |version-xygrib|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-xygrib|"
 
 #: ../../build/doc/overview/xygrib_overview.rst:47
 msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
-msgstr ""
+msgstr "**Plattformar som stöds:** GNU/Linux, Mac OSX, MS Windows"
 
 #: ../../build/doc/overview/xygrib_overview.rst:49
 msgid "**Support:** https://opengribs.org/en/support-forum"
-msgstr ""
+msgstr "**Support:** https://opengribs.org/en/support-forum"
 
 #: ../../build/doc/overview/xygrib_overview.rst:55
 msgid "Quickstart"
@@ -107,7 +118,7 @@ msgstr "Snabbstart"
 
 #: ../../build/doc/overview/xygrib_overview.rst:57
 msgid ":doc:`Quickstart documentation <../quickstart/xygrib_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snabbstartsdokumentation <../quickstart/xygrib_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -119,8 +130,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

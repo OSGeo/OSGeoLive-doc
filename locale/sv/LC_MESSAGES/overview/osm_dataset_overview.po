@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "osm_dataset_overview/sv/>\n"
 "Language: sv\n"
@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../../build/doc/overview/osm_dataset_overview.rst:14
 msgid "OpenStreetMap"
-msgstr ""
+msgstr "OpenStreetMap"
 
 #: ../../build/doc/overview/osm_dataset_overview.rst:17
 msgid "Map Data"
-msgstr ""
+msgstr "Kartdata"
 
 #: ../../build/doc/overview/osm_dataset_overview.rst:19
 msgid ""
@@ -38,6 +38,11 @@ msgid ""
 "the world, using processes similar to the maintaining of the wikipedia "
 "encyclopedia."
 msgstr ""
+"OpenStreetMap är en crowd sourced karta över världen som har vuxit till att "
+"bli en av de mest detaljerade källorna till lokalskalig kartdata som finns "
+"tillgänglig. Källans kartdata skapas och underhålls av tusentals frivilliga "
+"från hela världen, med hjälp av processer som liknar underhållet av "
+"wikipedia-encyklopedin."
 
 #: ../../build/doc/overview/osm_dataset_overview.rst:21
 msgid ""
@@ -47,6 +52,10 @@ msgid ""
 ":doc:`OpenLayers <openlayers_overview>`, ArcGIS and dedicated OSM "
 "applications."
 msgstr ""
+"Den mest synliga aspekten av OSM är webbgränssnittet online från https://"
+"www.openstreetmap.org, men kartorna kan också ses, importeras eller "
+"redigeras i många applikationer som :doc:`QGIS <qgis_overview>` , :doc:`"
+"OpenLayers <openlayers_overview>`, ArcGIS och dedikerade OSM-applikationer."
 
 #: ../../build/doc/overview/osm_dataset_overview.rst:23
 msgid ""
@@ -54,16 +63,22 @@ msgid ""
 "edit, view, or create custom rendered maps. Fundamentally OSM's focus is on "
 "the data, the rich maps simply fall out of this."
 msgstr ""
+"Kärnan i projektet är de underliggande data som är öppna för alla att "
+"redigera, visa eller skapa egna renderade kartor. OSM:s fokus ligger i "
+"grunden på data, och de detaljerade kartorna kommer helt enkelt som en följd "
+"av detta."
 
 #: ../../build/doc/overview/osm_dataset_overview.rst:25
 msgid ""
 "The OSGeoLive distribution includes a city sized extract of OSM data which "
 "is used for examples by some applications."
 msgstr ""
+"OSGeoLive-distributionen innehåller ett OSM-datautdrag i stadsstorlek som "
+"används som exempel av vissa applikationer."
 
 #: ../../build/doc/overview/osm_dataset_overview.rstNone
 msgid "osm_dataset screenshot"
-msgstr ""
+msgstr "osm_dataset skärmdump"
 
 #: ../../build/doc/overview/osm_dataset_overview.rst:34
 msgid "Core Features"
@@ -71,41 +86,48 @@ msgstr "Kärnfunktioner"
 
 #: ../../build/doc/overview/osm_dataset_overview.rst:36
 msgid "Vector features are tagged with names and other attributes."
-msgstr ""
+msgstr "Vektorobjekten taggas med namn och andra attribut."
 
 #: ../../build/doc/overview/osm_dataset_overview.rst:38
 msgid "Extract local subsets of the data."
-msgstr ""
+msgstr "Extrahera lokala delmängder av data."
 
 #: ../../build/doc/overview/osm_dataset_overview.rst:40
 msgid ""
 "Data is stored as latitude-longitude WGS84 nodes, strings of nodes, and "
 "meta-features allowing for point, polyline, area coverage and relations."
 msgstr ""
+"Data lagras som latitud-longitud WGS84-noder, strängar av noder och "
+"metafunktioner som möjliggör punkt-, polylinje- och områdestäckning samt "
+"relationer."
 
 #: ../../build/doc/overview/osm_dataset_overview.rst:42
 msgid "Rich attribute tagging, often far more detailed than any other source."
-msgstr ""
+msgstr "Rikt attributmärkning, ofta mycket mer detaljerad än någon annan källa."
 
 #: ../../build/doc/overview/osm_dataset_overview.rst:44
 msgid "A global repository of local knowledge."
-msgstr ""
+msgstr "Ett globalt arkiv med lokal kunskap."
 
 #: ../../build/doc/overview/osm_dataset_overview.rst:48
 msgid "Data Sets included in OSGeo Live"
-msgstr ""
+msgstr "Datamängder som ingår i OSGeo Live"
 
 #: ../../build/doc/overview/osm_dataset_overview.rst:50
 msgid ""
 "feature_city.osm.bz2: A large extract of the greater city area as a BZip2 "
 "compressed XML text file."
 msgstr ""
+"feature_city.osm.bz2: Ett stort utdrag av storstadsområdet som en BZip2-"
+"komprimerad XML-textfil."
 
 #: ../../build/doc/overview/osm_dataset_overview.rst:52
 msgid ""
 "feature_city_CBD.osm.bz2: A smaller subset covering just the Central "
 "Business District (CBD)."
 msgstr ""
+"feature_city_CBD.osm.bz2: En mindre delmängd som bara täcker Central "
+"Business District (CBD)."
 
 #: ../../build/doc/overview/osm_dataset_overview.rst:54
 msgid ""
@@ -113,6 +135,9 @@ msgid ""
 "from the above larger city OSM extract. Contains locations of pubs, fuel "
 "stations, restaurants, supermarkets, etc."
 msgstr ""
+"funktion_city_poi.db: Sqlite DB av \"positioner av intresse\" -noder "
+"extraherade från ovanstående större stad OSM-extrakt. Innehåller platser för "
+"pubar, bensinstationer, restauranger, stormarknader etc."
 
 #: ../../build/doc/overview/osm_dataset_overview.rst:56
 msgid ""
@@ -120,6 +145,9 @@ msgid ""
 " above files. Quickstarts and overviews use the generic file names so that "
 "the example city can change with each new release."
 msgstr ""
+"Filer som refererar till namnet på exempelstaden innehåller samma data som "
+"ovanstående filer. Snabbstarter och översikter använder de generiska "
+"filnamnen så att exempelstaden kan ändras med varje ny version."
 
 #: ../../build/doc/overview/osm_dataset_overview.rst:58
 msgid ""
@@ -130,6 +158,12 @@ msgid ""
 "as Spherical-Mercator, on demand. The smaller CBD extract is loaded into "
 "another PostGIS database called \"pgrouting\"."
 msgstr ""
+"OSM-funktionens stadsdata har importerats till en PostGIS-databas som heter "
+"\"osm_local\" med hjälp av verktyget osm2pgsql. Det rumsliga referenssystem "
+"som används för denna databas är latitud-longitud med WGS84-datum (EPSG-kod "
+"4326) och kan på begäran omprojiceras till andra rumsliga referenssystem "
+"(SRS), t.ex. sfärisk mercator. Det mindre CBD-extraktet laddas in i en annan "
+"PostGIS-databas som heter \"pgrouting\"."
 
 #: ../../build/doc/overview/osm_dataset_overview.rst:63
 msgid "Details"
@@ -137,29 +171,31 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/osm_dataset_overview.rst:65
 msgid "**Website:** https://www.openstreetmap.org/"
-msgstr ""
+msgstr "**Webbplats:** https://www.openstreetmap.org/"
 
 #: ../../build/doc/overview/osm_dataset_overview.rst:67
 msgid ""
 "**License:** `Open Data Commons Open Database License (ODbL) "
 "<https://opendatacommons.org/licenses/odbl/>`_"
 msgstr ""
+"**Licens:** `Open Data Commons Open Database License (ODbL) "
+"<https://opendatacommons.org/licenses/odbl/>`_"
 
 #: ../../build/doc/overview/osm_dataset_overview.rst:69
 msgid "**Data Version:** Live database extract"
-msgstr ""
+msgstr "**Dataversion:** Live databasutdrag"
 
 #: ../../build/doc/overview/osm_dataset_overview.rst:71
 msgid "**Data format:** XML"
-msgstr ""
+msgstr "**Dataformat:** XML"
 
 #: ../../build/doc/overview/osm_dataset_overview.rst:73
 msgid "**Spatial coordinate system:** Latitude-Longitude WGS84"
-msgstr ""
+msgstr "**Rumsligt koordinatsystem:** Latitud-Longitud WGS84"
 
 #: ../../build/doc/overview/osm_dataset_overview.rst:75
 msgid "**Support:** https://www.openstreetmap.org/help"
-msgstr ""
+msgstr "**Support:** https://www.openstreetmap.org/help"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -171,8 +207,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

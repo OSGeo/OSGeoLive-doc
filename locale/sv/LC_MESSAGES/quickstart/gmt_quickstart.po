@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-17 21:23+0000\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "gmt_quickstart/sv/>\n"
 "Language: sv\n"
@@ -21,127 +21,163 @@ msgstr ""
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:14
 msgid "This project is only included on the OSGeoLive virtual machine disk (VMDK)"
-msgstr ""
+msgstr "Detta projekt ingår endast på OSGeoLives virtuella maskindisk (VMDK)"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:20
 msgid "GMT Quickstart"
-msgstr ""
+msgstr "GMT Snabbstart"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:22
 msgid "GMT is a collection of tools that allow users to manipulate (x,y) and (x,y,z) data sets (including filtering, trend fitting, gridding, projecting, etc.) and produce Encapsulated PostScript File (EPS) illustrations ranging from simple x-y plots through contour maps to artificially illuminated surfaces and 3-D perspective views in black and white, gray tone, hachure patterns, and 24-bit color."
 msgstr ""
+"GMT är en samling verktyg som gör det möjligt för användare att manipulera "
+"(x,y) och (x,y,z) datauppsättningar (inklusive filtrering, trendanpassning, "
+"rutnät, projicering etc.) och producera EPS-illustrationer (Encapsulated "
+"PostScript File) som sträcker sig från enkla x-y-plottar via konturkartor "
+"till artificiellt belysta ytor och 3D-perspektivvyer i svartvitt, gråton, "
+"hachure-mönster och 24-bitars färg."
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:29
 msgid "In this quick GMT tutorial we will use a digital terrain model (DTM) to generate a shaded relief map."
 msgstr ""
+"I denna snabba GMT-handledning kommer vi att använda en digital "
+"terrängmodell (DTM) för att generera en skuggad reliefkarta."
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:32
 msgid "Contents"
-msgstr ""
+msgstr "Innehåll"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:35
 msgid "Create a map"
-msgstr ""
+msgstr "Skapa en karta"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:37
 msgid "As our input dataset we will use a DTM from the GRASS GIS example dataset, which is accessible by GDAL using the GDAL-GRASS driver."
 msgstr ""
+"Som ingångsdataset använder vi en DTM från GRASS GIS-exempeldataset, som är "
+"tillgängligt för GDAL med hjälp av GDAL-GRASS-drivrutinen."
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:39
 msgid "From a quick look at the DTM metadata, open a terminal and use the GDAL command `gdalinfo`:"
 msgstr ""
+"För att få en snabb titt på DTM-metadata öppnar du en terminal och använder "
+"GDAL-kommandot `gdalinfo`:"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:51
 msgid "We can see the DTM is in a projected coordinate system and the data range is between 50 and 160 meters."
 msgstr ""
+"Vi kan se att DTM är i ett projicerat koordinatsystem och att "
+"dataintervallet är mellan 50 och 160 meter."
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:53
 msgid "We can convert the DTM in a GMT Compatible netCDF file format with `gdal_translate` as follow:"
 msgstr ""
+"Vi kan konvertera DTM till ett GMT-kompatibelt netCDF-filformat med "
+"`gdal_translate` enligt följande:"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:59
 msgid "For our GMT example we will first transform the dataset into geographic coordinates Longitude-Latitude (EPSG:4326) using the `gdalwarp` command:"
 msgstr ""
+"För vårt GMT-exempel omvandlar vi först datasetet till geografiska "
+"koordinater Longitud-Latitud (EPSG:4326) med kommandot `gdalwarp`:"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:66
 msgid "Make a color palette"
-msgstr ""
+msgstr "Skapa en färgpalett"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:68
 msgid "To assign a color map to our grid we can make a GMT color palette tables with the `makecpt` command. We will set the range and number of colors with the flag `-T` and assign a colormap with the flag `-C`."
 msgstr ""
+"För att tilldela en färgkarta till vårt rutnät kan vi skapa en GMT-"
+"färgpalettstabell med kommandot `makecpt`. Vi kommer att ställa in "
+"intervallet och antalet färger med flaggan `-T` och tilldela en färgkarta "
+"med flaggan `-C`."
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:76
 msgid "You can experiment with other colortables, see `man gmt makecpt` for a complete list."
 msgstr ""
+"Du kan experimentera med andra colortables, se `man gmt makecpt` för en "
+"fullständig lista."
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:79
 msgid "Define the gradient"
-msgstr ""
+msgstr "Definiera lutningen"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:81
 msgid "For our shaded relief example we need to specify show how the color intensity is distributed along the grid. To do so, we will compute the directional derivative, or gradient, from our grid using the `grdgradient` command. In `grdgradient` we will use the `-Ne` flag to normalize the output using a cumulative Laplace distribution and the `-A` flag for Azimuthal direction for a directional derivative."
 msgstr ""
+"För vårt exempel med skuggad relief måste vi ange hur färgintensiteten "
+"fördelas längs rutnätet. För att göra detta beräknar vi riktningsderivatan, "
+"eller gradienten, från vårt rutnät med kommandot `grdgradient`. I "
+"`grdgradient` använder vi flaggan `-Ne` för att normalisera utdata med hjälp "
+"av en kumulativ Laplace-distribution och flaggan `-A` för azimutal riktning "
+"för en riktningsderivat."
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:89
 msgid "The output is a netCDF file which can then be used as color intensity by the `grdimage` command as follow:"
 msgstr ""
+"Utdata är en netCDF-fil som sedan kan användas som färgintensitet med "
+"kommandot `grdimage` enligt följande:"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:96
 msgid "Display the color bar"
-msgstr ""
+msgstr "Visa färgfältet"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:98
 msgid "Finally we can add a colorbar with `psscale`:"
-msgstr ""
+msgstr "Slutligen kan vi lägga till en färgfält med `psscale`:"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:105
 msgid "Here the flag `-D` is used to select the colorbar position `TC: Top Center`, the size `5x0.25` expressed in inches `i` the orientation by `h: horizontal` and the flag `-By` to set a label `m` on the `y axis`."
 msgstr ""
+"Här används flaggan `-D` för att välja färgfältets position `TC: Top Center`"
+", storleken `5x0.25` uttryckt i tum `i` orienteringen med `h: horisontell` "
+"och flaggan `-By` för att sätta en etikett `m` på `y-axeln`."
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:108
 msgid "The output ps document should look like:"
-msgstr ""
+msgstr "Det utgående ps-dokumentet bör se ut så här:"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:None
 msgid "North Caroline - sample elevation data"
-msgstr ""
+msgstr "North Caroline - höjddata för provtagning"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:117
 msgid "Things to try"
-msgstr ""
+msgstr "Saker att prova"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:122
 msgid "Install the following packages:"
-msgstr ""
+msgstr "Installera följande paket:"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:124
 msgid "gmt-dcw"
-msgstr ""
+msgstr "gmt-dcw"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:125
 msgid "gmt-gshhg"
-msgstr ""
+msgstr "gmt-gshhg"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:127
 msgid "`GMT tutorial <https://docs.generic-mapping-tools.org/latest/tutorial>`"
 msgstr ""
+"`GMT handledning <https://docs.generic-mapping-tools.org/latest/tutorial>`"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:130
 msgid "What next?"
-msgstr ""
+msgstr "Hur vill du gå vidare?"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:132
 msgid "Documentation: https://docs.generic-mapping-tools.org/latest/"
-msgstr ""
+msgstr "Dokumentation: https://docs.generic-mapping-tools.org/latest/"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:133
 msgid "Website: https://www.generic-mapping-tools.org"
-msgstr ""
+msgstr "Webbplats: https://www.generic-mapping-tools.org"
 
 #: ../../build/doc/quickstart/gmt_quickstart.rst:134
 msgid "Support: https://forum.generic-mapping-tools.org/"
-msgstr ""
+msgstr "Support: https://forum.generic-mapping-tools.org/"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -153,9 +189,9 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

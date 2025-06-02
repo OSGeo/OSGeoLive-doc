@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "mapbender_overview/sv/>\n"
 "Language: sv\n"
@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../../build/doc/overview/mapbender_overview.rst:14
 msgid "Mapbender"
-msgstr ""
+msgstr "Mapbender"
 
 #: ../../build/doc/overview/mapbender_overview.rst:17
 msgid "Geoportal Framework"
-msgstr ""
+msgstr "Ramverk för geoportal"
 
 #: ../../build/doc/overview/mapbender_overview.rst:19
 msgid ""
@@ -36,6 +36,10 @@ msgid ""
 "a web based geoportal framework to publish, register, view, navigate, "
 "monitor and grant secure access to spatial data infrastructure services."
 msgstr ""
+"mapbender <https://mapbender.org/en>`_ är ett avslutat OSGeo-projekt. Det är "
+"ett webbaserat geoportalramverk för att publicera, registrera, visa, "
+"navigera, övervaka och bevilja säker åtkomst till infrastrukturtjänster för "
+"rumsliga data."
 
 #: ../../build/doc/overview/mapbender_overview.rst:21
 msgid ""
@@ -46,6 +50,13 @@ msgid ""
 "integrate with server functionality to provide advanced functionality like "
 "security proxying, digitizing, auto snapping and more."
 msgstr ""
+"Mapbender är toppen på isberget, ett metalager av programvara som ger "
+"tillgång till SDI-komponenter som följer internationella standarder. "
+"Mapbender gör det möjligt för användare att enkelt skapa anpassade "
+"webbläsarklienter från ett brett utbud av widgets (utan någon/med minimal) "
+"programmering krävs. Widgets integreras med serverfunktionalitet för att "
+"tillhandahålla avancerade funktioner som säkerhetsproxy, digitalisering, "
+"auto snapping med mera."
 
 #: ../../build/doc/overview/mapbender_overview.rst:23
 msgid ""
@@ -58,14 +69,22 @@ msgid ""
 "to take advantage of interoperable services from a multitude of server "
 "platforms."
 msgstr ""
+"Mapbenders hanteringsapplikationer är enkla och lättanvända och ger mycket "
+"fokuserad funktionalitet för drift av storskaliga distribuerade SDI-"
+"komponenter. Det är det självklara verktyget för SDI-administratörer som "
+"behöver underhålla, kategorisera och övervaka kart- och funktionstjänster. "
+"Mapbender ger åtkomst till individer och grupper och hanterar åtkomst från "
+"maskin till maskin. Genom att följa standardiserade tjänster, t.ex. OGC WMS, "
+"kan man dra nytta av interoperabla tjänster från en mängd olika "
+"serverplattformar."
 
 #: ../../build/doc/overview/mapbender_overview.rst:25
 msgid "Mapbender is based on Symfony, OpenLayers and jQuery."
-msgstr ""
+msgstr "Mapbender är baserad på Symfony, OpenLayers och jQuery."
 
 #: ../../build/doc/overview/mapbender_overview.rstNone
 msgid "mapbender screenshot"
-msgstr ""
+msgstr "mapbender skärmdump"
 
 #: ../../build/doc/overview/mapbender_overview.rst:34
 msgid "Core Features"
@@ -74,66 +93,71 @@ msgstr "Kärnfunktioner"
 #: ../../build/doc/overview/mapbender_overview.rst:36
 msgid "Easily create web mapping interfaces using template applications"
 msgstr ""
+"Skapa enkelt gränssnitt för webbkartläggning med hjälp av mallapplikationer"
 
 #: ../../build/doc/overview/mapbender_overview.rst:38
 msgid "add/remove/customize applications"
-msgstr ""
+msgstr "lägga till/ta bort/anpassa applikationer"
 
 #: ../../build/doc/overview/mapbender_overview.rst:39
 msgid "Create applications with digitize functionality"
-msgstr ""
+msgstr "Skapa applikationer med digitaliserad funktionalitet"
 
 #: ../../build/doc/overview/mapbender_overview.rst:40
 msgid "Create mobile Applications"
-msgstr ""
+msgstr "Skapa mobila applikationer"
 
 #: ../../build/doc/overview/mapbender_overview.rst:41
 msgid "Print high-quality maps using your own PDF templates."
-msgstr ""
+msgstr "Skriv ut kartor av hög kvalitet med hjälp av dina egna PDF-mallar."
 
 #: ../../build/doc/overview/mapbender_overview.rst:42
 msgid "Digitizing via SQL"
-msgstr ""
+msgstr "Digitalisering via SQL"
 
 #: ../../build/doc/overview/mapbender_overview.rst:44
 msgid "Upload and share remote OGC WMS (Capabilities caching)"
-msgstr ""
+msgstr "Ladda upp och dela OGC WMS på distans (cachelagring av funktioner)"
 
 #: ../../build/doc/overview/mapbender_overview.rst:46
 msgid "arrange uploaded WMS for overlay"
-msgstr ""
+msgstr "ordna uppladdad WMS för överlagring"
 
 #: ../../build/doc/overview/mapbender_overview.rst:47
 msgid "editing layer visibility"
-msgstr ""
+msgstr "redigering av skiktets synlighet"
 
 #: ../../build/doc/overview/mapbender_overview.rst:48
 msgid "order"
-msgstr ""
+msgstr "order"
 
 #: ../../build/doc/overview/mapbender_overview.rst:49
 msgid "format"
-msgstr ""
+msgstr "format"
 
 #: ../../build/doc/overview/mapbender_overview.rst:50
 msgid ""
 "Create users and groups, share and grant access to services and modules"
 msgstr ""
+"Skapa användare och grupper, dela och ge tillgång till tjänster och moduler"
 
 #: ../../build/doc/overview/mapbender_overview.rst:51
 msgid ""
 "Restrict user access with the OWS security proxy module via trusted servers"
 msgstr ""
+"Begränsa användaråtkomst med OWS säkerhetsproxymodul via betrodda servrar"
 
 #: ../../build/doc/overview/mapbender_overview.rst:52
 msgid ""
 "Encrypted protocols monitoring and status notification and auto-update "
 "service for remote OGC services"
 msgstr ""
+"Krypterad protokollövervakning och statusmeddelande samt automatisk "
+"uppdateringstjänst för OGC-fjärrtjänster"
 
 #: ../../build/doc/overview/mapbender_overview.rst:53
 msgid "... and more!"
-msgstr ""
+msgstr "... och mycket mer!"
 
 #: ../../build/doc/overview/mapbender_overview.rst:56
 msgid "Implemented Standards"
@@ -141,7 +165,7 @@ msgstr "Implementerade standarder"
 
 #: ../../build/doc/overview/mapbender_overview.rst:58
 msgid "OGC Web Map Service (WMS) 1.1.1, 1.3.0"
-msgstr ""
+msgstr "OGC Web Map Service (WMS) 1.1.1, 1.3.0"
 
 #: ../../build/doc/overview/mapbender_overview.rst:61
 msgid "Details"
@@ -149,15 +173,15 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/mapbender_overview.rst:63
 msgid "**Website:** https://mapbender.org"
-msgstr ""
+msgstr "**Webbplats:** https://mapbender.org"
 
 #: ../../build/doc/overview/mapbender_overview.rst:65
 msgid "**Licence:** `MIT license <https://opensource.org/licenses/MIT>`_"
-msgstr ""
+msgstr "**Licens:** `MIT-licens <https://opensource.org/licenses/MIT>`_"
 
 #: ../../build/doc/overview/mapbender_overview.rst:67
 msgid "**Software Version:** |version-mapbender|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-mapbender|"
 
 #: ../../build/doc/overview/mapbender_overview.rst:69
 msgid "**Supported Platforms:** Windows, Linux, Mac"
@@ -165,7 +189,7 @@ msgstr "**Plattformar som stöds:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/mapbender_overview.rst:71
 msgid "**Support:** https://mapbender.org/en/community"
-msgstr ""
+msgstr "**Support:** https://mapbender.org/en/community"
 
 #: ../../build/doc/overview/mapbender_overview.rst:76
 msgid "Quickstart"
@@ -174,6 +198,7 @@ msgstr "Snabbstart"
 #: ../../build/doc/overview/mapbender_overview.rst:78
 msgid ":doc:`Quickstart documentation <../quickstart/mapbender_quickstart>`"
 msgstr ""
+":doc:`Dokumentation för snabbstart <../quickstart/mapbender_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -185,8 +210,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

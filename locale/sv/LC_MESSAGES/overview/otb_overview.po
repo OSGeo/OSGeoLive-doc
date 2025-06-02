@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "otb_overview/sv/>\n"
 "Language: sv\n"
@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../../build/doc/overview/otb_overview.rst:17
 msgid "OTB"
-msgstr ""
+msgstr "OTB"
 
 #: ../../build/doc/overview/otb_overview.rst:20
 msgid "Image Processing"
-msgstr ""
+msgstr "Bildbehandling"
 
 #: ../../build/doc/overview/otb_overview.rst:22
 msgid ""
@@ -40,6 +40,14 @@ msgid ""
 "optic/radar complementarities), many of which can be run on limited-"
 "resourced laptops."
 msgstr ""
+"ORFEO Toolbox Library (OTB) är ett högpresterande bibliotek för "
+"bildbehandling. Det används främst för bearbetning av stora "
+"fjärranalysbilder, t.ex. bilder som samlas in av radar, satelliter och "
+"flygfotografering. OTB innehåller verktyg för optiska bilder och radarbilder "
+"(tredimensionella aspekter, segmentering, klassificering, detektering av "
+"förändringar, texturanalys, mönstermatchning och komplementaritet mellan "
+"optiska bilder och radarbilder), varav många kan köras på bärbara datorer "
+"med begränsade resurser."
 
 #: ../../build/doc/overview/otb_overview.rst:29
 msgid ""
@@ -48,6 +56,10 @@ msgid ""
 "Monteverdi, which is a fast viewer that allows users to vizualise multiple "
 "layers, and call OTB processing tools from a menu entry."
 msgstr ""
+"OTB levereras också med en uppsättning utbyggbara, färdiga verktyg för "
+"klassiska fjärranalysuppgifter och en helt integrerad applikation som heter "
+"Monteverdi, som är en snabb visare som gör det möjligt för användare att "
+"visualisera flera lager och anropa OTB-bearbetningsverktyg från en meny."
 
 #: ../../build/doc/overview/otb_overview.rst:34
 msgid ""
@@ -56,10 +68,14 @@ msgid ""
 "been actively developed since 2006. It is based on the ITK image processing "
 "library and is distributed as open source."
 msgstr ""
+"OTB har finansierats av den franska rymdstyrelsen (CNES) inom ramen för den "
+"metodologiska delen av ORFEO/Pleiades Accompaniement Program och har "
+"utvecklats aktivt sedan 2006. Det är baserat på bildbehandlingsbiblioteket "
+"ITK och distribueras som öppen källkod."
 
 #: ../../build/doc/overview/otb_overview.rstNone
 msgid "otb screenshot"
-msgstr ""
+msgstr "otb skärmdump"
 
 #: ../../build/doc/overview/otb_overview.rst:46
 msgid "Core Features"
@@ -70,41 +86,47 @@ msgid ""
 "image access: optimized read/write access for most remote sensing raster "
 "formats (also JPEG2000 formats), meta-data access and visualization;"
 msgstr ""
+"bildåtkomst: optimerad läs- och skrivåtkomst för de flesta rasterformat för "
+"fjärranalys (även JPEG2000-format), åtkomst till metadata och visualisering;"
 
 #: ../../build/doc/overview/otb_overview.rst:51
 msgid ""
 "orthorectification using DEM, map reprojection and sensor model refinement"
 msgstr ""
+"orthorektifiering med hjälp av DEM, kartreprojektion och förfining av "
+"sensormodeller"
 
 #: ../../build/doc/overview/otb_overview.rst:52
 msgid "optical and SAR calibration"
-msgstr ""
+msgstr "optisk kalibrering och SAR-kalibrering"
 
 #: ../../build/doc/overview/otb_overview.rst:53
 msgid "image fusion"
-msgstr ""
+msgstr "bildfusion"
 
 #: ../../build/doc/overview/otb_overview.rst:54
 msgid "filtering: blurring, denoising, enhancement..."
-msgstr ""
+msgstr "filtrering: oskärpa, denoising, förstärkning..."
 
 #: ../../build/doc/overview/otb_overview.rst:55
 msgid "feature extraction: interest points, alignments, lines..."
-msgstr ""
+msgstr "extrahering av funktioner: intressepunkter, inriktningar, linjer ..."
 
 #: ../../build/doc/overview/otb_overview.rst:56
 msgid "object detection"
-msgstr ""
+msgstr "objektdetektering"
 
 #: ../../build/doc/overview/otb_overview.rst:57
 msgid ""
 "large scale image segmentation: region growing, mean-shift, watershed, level"
 " sets..."
 msgstr ""
+"storskalig bildsegmentering: regionväxling, medelvärdesförskjutning, "
+"vattendelare, nivåuppsättningar ..."
 
 #: ../../build/doc/overview/otb_overview.rst:58
 msgid "sample selection framework for training"
-msgstr ""
+msgstr "ramverk för urval av stickprov för utbildning"
 
 #: ../../build/doc/overview/otb_overview.rst:59
 msgid ""
@@ -112,32 +134,37 @@ msgid ""
 "OpenCV , Shark, libSVM or custom implementations (K-means, Markov random "
 "fields, SVM, Random Forest, ...)"
 msgstr ""
+"klassificering: både övervakade och oövervakade algoritmer från OpenCV , "
+"Shark, libSVM eller anpassade implementeringar (K-means, Markov random "
+"fields, SVM, Random Forest, ...)"
 
 #: ../../build/doc/overview/otb_overview.rst:62
 msgid ""
 "regression using machine learning methods from OpenCV (SVM, Random Forest, "
 "...)"
 msgstr ""
+"regression med hjälp av maskininlärningsmetoder från OpenCV (SVM, Random "
+"Forest, ...)"
 
 #: ../../build/doc/overview/otb_overview.rst:63
 msgid "object-based image analysis"
-msgstr ""
+msgstr "objektbaserad bildanalys"
 
 #: ../../build/doc/overview/otb_overview.rst:64
 msgid "geospatial analysis"
-msgstr ""
+msgstr "geospatial analys"
 
 #: ../../build/doc/overview/otb_overview.rst:65
 msgid "stereoscopic reconstruction from optical images"
-msgstr ""
+msgstr "stereoskopisk rekonstruktion från optiska bilder"
 
 #: ../../build/doc/overview/otb_overview.rst:66
 msgid "SAR data analysis : calibration, polarimetry analysis"
-msgstr ""
+msgstr "Analys av SAR-data: kalibrering, polarimetrisk analys"
 
 #: ../../build/doc/overview/otb_overview.rst:67
 msgid "change detection."
-msgstr ""
+msgstr "upptäckt av förändringar."
 
 #: ../../build/doc/overview/otb_overview.rst:70
 msgid "Details"
@@ -145,27 +172,27 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/otb_overview.rst:72
 msgid "**Website:** https://www.orfeo-toolbox.org/"
-msgstr ""
+msgstr "**Webbplats:** https://www.orfeo-toolbox.org/"
 
 #: ../../build/doc/overview/otb_overview.rst:74
 msgid "**Licence:** Apache v2.0"
-msgstr ""
+msgstr "**Licens:** Apache v2.0"
 
 #: ../../build/doc/overview/otb_overview.rst:76
 msgid "**Software Version:** |version-otb|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-otb|"
 
 #: ../../build/doc/overview/otb_overview.rst:78
 msgid "**Supported Platforms:** Linux, Mac, Windows"
-msgstr ""
+msgstr "**Plattformar som stöds:** Linux, Mac, Windows"
 
 #: ../../build/doc/overview/otb_overview.rst:80
 msgid "**API Interfaces:** C++"
-msgstr ""
+msgstr "**API-gränssnitt:** C++"
 
 #: ../../build/doc/overview/otb_overview.rst:82
 msgid "**Commercial Support:** |SUPPORT|"
-msgstr ""
+msgstr "**Kommersiellt stöd:** |SUPPORT|"
 
 #: ../../build/doc/overview/otb_overview.rst:88
 msgid "Quickstart"
@@ -173,7 +200,7 @@ msgstr "Snabbstart"
 
 #: ../../build/doc/overview/otb_overview.rst:90
 msgid ":doc:`Quickstart documentation <../quickstart/otb_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snabbstartsdokumentation <../quickstart/otb_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -185,8 +212,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

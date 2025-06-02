@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-17 21:23+0000\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "gmt_overview/sv/>\n"
 "Language: sv\n"
@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../../build/doc/overview/gmt_overview.rst:15
 msgid "GMT"
-msgstr ""
+msgstr "GMT"
 
 #: ../../build/doc/overview/gmt_overview.rst:18
 msgid "The Generic Mapping Tools"
-msgstr ""
+msgstr "De generiska kartläggningsverktygen"
 
 #: ../../build/doc/overview/gmt_overview.rst:20
 msgid ""
@@ -39,6 +39,12 @@ msgid ""
 "surfaces and 3-D perspective views in black and white, gray tone, hachure "
 "patterns, and 24-bit color."
 msgstr ""
+"GMT är en samling verktyg som gör det möjligt för användare att manipulera "
+"(x,y) och (x,y,z) datauppsättningar (inklusive filtrering, trendanpassning, "
+"rutnät, projicering etc.) och producera EPS-illustrationer (Encapsulated "
+"PostScript File) som sträcker sig från enkla x-y-plottar via konturkartor "
+"till artificiellt belysta ytor och 3D-perspektivvyer i svartvitt, gråton, "
+"hachure-mönster och 24-bitars färg."
 
 #: ../../build/doc/overview/gmt_overview.rst:27
 msgid ""
@@ -46,10 +52,13 @@ msgid ""
 "scaling, and comes with support data such as coastlines, rivers, and "
 "political boundaries."
 msgstr ""
+"GMT stöder många vanliga kartprojektioner samt linjär, logaritmisk och "
+"potensskalning, och levereras med stöddata som kustlinjer, floder och "
+"politiska gränser."
 
 #: ../../build/doc/overview/gmt_overview.rstNone
 msgid "gmt screenshot"
-msgstr ""
+msgstr "gmt skärmdump"
 
 #: ../../build/doc/overview/gmt_overview.rst:38
 msgid "Core Features"
@@ -57,11 +66,11 @@ msgstr "Kärnfunktioner"
 
 #: ../../build/doc/overview/gmt_overview.rst:40
 msgid "Journal quality cartography."
-msgstr ""
+msgstr "Journal kvalitet kartografi."
 
 #: ../../build/doc/overview/gmt_overview.rst:41
 msgid "Gridding and contouring functions."
-msgstr ""
+msgstr "Funktioner för rutnät och konturering."
 
 #: ../../build/doc/overview/gmt_overview.rst:44
 msgid "Details"
@@ -69,7 +78,7 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/gmt_overview.rst:46
 msgid "**Website:** https://www.generic-mapping-tools.org"
-msgstr ""
+msgstr "**Webbplats:** https://www.generic-mapping-tools.org"
 
 #: ../../build/doc/overview/gmt_overview.rst:48
 msgid "**Licence:** GNU General Public License (GPL) version 2"
@@ -77,24 +86,24 @@ msgstr "* * Licens: * * GNU General Public License (GPL) version 2"
 
 #: ../../build/doc/overview/gmt_overview.rst:50
 msgid "**Software Version:** |version-gmt|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-gmt|"
 
 #: ../../build/doc/overview/gmt_overview.rst:52
 msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
-msgstr ""
+msgstr "**Plattformar som stöds:** GNU/Linux, Mac OSX, MS Windows"
 
 #: ../../build/doc/overview/gmt_overview.rst:54
 msgid "**API Interfaces:** Command line"
-msgstr ""
+msgstr "**API-gränssnitt:** Kommandorad"
 
 #: ../../build/doc/overview/gmt_overview.rst:56
 msgid "**Support:** https://forum.generic-mapping-tools.org/"
-msgstr ""
+msgstr "**Support:** https://forum.generic-mapping-tools.org/"
 
 #: ../../build/doc/overview/gmt_overview.rst:59
 msgid ""
 "This project is only included on the OSGeoLive virtual machine disk (VMDK)"
-msgstr ""
+msgstr "Detta projekt ingår endast på OSGeoLives virtuella maskindisk (VMDK)"
 
 #: ../../build/doc/overview/gmt_overview.rst:62
 msgid "Quickstart"
@@ -102,7 +111,7 @@ msgstr "Snabbstart"
 
 #: ../../build/doc/overview/gmt_overview.rst:64
 msgid ":doc:`Quickstart documentation <../quickstart/gmt_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snabbstartsdokumentation <../quickstart/gmt_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -114,8 +123,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

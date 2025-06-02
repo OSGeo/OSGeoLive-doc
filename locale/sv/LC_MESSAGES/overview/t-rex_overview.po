@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "t-rex_overview/sv/>\n"
 "Language: sv\n"
@@ -24,21 +24,23 @@ msgstr ""
 
 #: ../../build/doc/overview/t-rex_overview.rst:13
 msgid "t-rex"
-msgstr ""
+msgstr "t-rex"
 
 #: ../../build/doc/overview/t-rex_overview.rst:16
 msgid "Vector Tile Service"
-msgstr ""
+msgstr "Vector Tile Service"
 
 #: ../../build/doc/overview/t-rex_overview.rst:18
 msgid ""
 "t-rex is a vector tile server specialized on publishing MVT tiles from your "
 "own data."
 msgstr ""
+"t-rex är en server för vektorplattor som är specialiserad på att publicera "
+"MVT-plattor från dina egna data."
 
 #: ../../build/doc/overview/t-rex_overview.rstNone
 msgid "t-rex screenshot"
-msgstr ""
+msgstr "t-rex skärmdump"
 
 #: ../../build/doc/overview/t-rex_overview.rst:27
 msgid "Core Features"
@@ -46,27 +48,27 @@ msgstr "Kärnfunktioner"
 
 #: ../../build/doc/overview/t-rex_overview.rst:29
 msgid "Support for PostGIS databases and GDAL vector formats"
-msgstr ""
+msgstr "Stöd för PostGIS-databaser och GDAL-vektorformat"
 
 #: ../../build/doc/overview/t-rex_overview.rst:30
 msgid "Auto-detection of layers in data source"
-msgstr ""
+msgstr "Automatisk detektering av lager i datakällan"
 
 #: ../../build/doc/overview/t-rex_overview.rst:31
 msgid "Built-in viewers for data display and inspection"
-msgstr ""
+msgstr "Inbyggda visare för datavisning och inspektion"
 
 #: ../../build/doc/overview/t-rex_overview.rst:32
 msgid "Tile generation command with simple parallelization"
-msgstr ""
+msgstr "Kommando för generering av plattor med enkel parallellisering"
 
 #: ../../build/doc/overview/t-rex_overview.rst:33
 msgid "Automatic reprojection to grid CRS"
-msgstr ""
+msgstr "Automatisk återföring till CRS-nätet"
 
 #: ../../build/doc/overview/t-rex_overview.rst:34
 msgid "Support for custom tile grids"
-msgstr ""
+msgstr "Stöd för anpassade kakelrutor"
 
 #: ../../build/doc/overview/t-rex_overview.rst:38
 msgid "Details"
@@ -74,15 +76,15 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/t-rex_overview.rst:40
 msgid "**Website:** https://t-rex.tileserver.ch/"
-msgstr ""
+msgstr "**Webbplats:** https://t-rex.tileserver.ch/"
 
 #: ../../build/doc/overview/t-rex_overview.rst:42
 msgid "**Licence:** `MIT license <https://opensource.org/licenses/MIT>`_"
-msgstr ""
+msgstr "**Licens:** `MIT-licens <https://opensource.org/licenses/MIT>`_"
 
 #: ../../build/doc/overview/t-rex_overview.rst:44
 msgid "**Software Version:** |version-t-rex|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-t-rex|"
 
 #: ../../build/doc/overview/t-rex_overview.rst:46
 msgid "**Supported Platforms:** Windows, Linux, Mac"
@@ -90,11 +92,11 @@ msgstr "**Plattformar som stöds:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/t-rex_overview.rst:48
 msgid "**API Interfaces:** http, Mapbox Vector Tiles"
-msgstr ""
+msgstr "**API-gränssnitt:** http, Mapbox Vector Tiles"
 
 #: ../../build/doc/overview/t-rex_overview.rst:50
 msgid "**Support:** https://github.com/t-rex-tileserver/t-rex/"
-msgstr ""
+msgstr "**Support:** https://github.com/t-rex-tileserver/t-rex/"
 
 #: ../../build/doc/overview/t-rex_overview.rst:55
 msgid "Quickstart"
@@ -102,7 +104,7 @@ msgstr "Snabbstart"
 
 #: ../../build/doc/overview/t-rex_overview.rst:57
 msgid ":doc:`Quickstart documentation <../quickstart/t-rex_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snabbstartsdokumentation <../quickstart/t-rex_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -114,8 +116,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

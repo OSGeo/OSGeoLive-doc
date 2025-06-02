@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-21 20:28+0000\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "hyperv_quickstart/sv/>\n"
 "Language: sv\n"
@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:8
 msgid "Running in a Hyper-V Virtual Machine"
-msgstr ""
+msgstr "Körning i en virtuell Hyper-V-maskin"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:10
 msgid ""
@@ -72,6 +72,11 @@ msgid ""
 "using the ``systeminfo`` command. In summary the host machine needs to have "
 "the following hardware requirements:"
 msgstr ""
+"Hyper-V-krav finns `här <https://learn.microsoft.com/en-us/virtualization/"
+"hyper-v-on-windows/quick-start/enable-hyper-v>`_. Denna länk innehåller "
+"också information om hur du kontrollerar om din maskin är kompatibel med "
+"hjälp av kommandot ``systeminfo``. Sammanfattningsvis måste värdmaskinen ha "
+"följande maskinvarukrav:"
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:25
 msgid "RAM: 4 GB minimum"
@@ -136,10 +141,14 @@ msgid ""
 "virtual-machine-converter-3-0-is-now-available-for/ba-p/349874>`_ and "
 "install."
 msgstr ""
+"Ladda ner `Microsoft Virtual Machine Converter 3.0 <https://techcommunity."
+"microsoft.com/t5/system-center-blog/"
+"microsoft-virtual-machine-converter-3-0-is-now-available-for/ba-p/349874>`_ "
+"och installera."
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:51
 msgid "Download the DS File Ops Kit and unzip."
-msgstr ""
+msgstr "Ladda ner DS File Ops Kit och packa upp."
 
 #: ../../build/doc/quickstart/hyperv_quickstart.rst:52
 msgid "Open PowerShell (with administrator rights)"
@@ -299,8 +308,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

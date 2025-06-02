@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "mapnik_overview/sv/>\n"
 "Language: sv\n"
@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../../build/doc/overview/mapnik_overview.rst:15
 msgid "Mapnik"
-msgstr ""
+msgstr "Mapnik"
 
 #: ../../build/doc/overview/mapnik_overview.rst:18
 msgid "Cartographic rendering engine"
-msgstr ""
+msgstr "Motor för kartografisk rendering"
 
 #: ../../build/doc/overview/mapnik_overview.rst:20
 msgid ""
@@ -37,6 +37,10 @@ msgid ""
 "placement, and scalable, SVG symbolisation. Most famously, mapnik is used to"
 " render the OpenStreetMap main map layers."
 msgstr ""
+"Mapnik är en verktygslåda för rendering av vackra kartor, med rena, mjuka "
+"funktionskanter som tillhandahålls av högkvalitativ anti-aliasing-grafik, "
+"intelligent etikettplacering och skalbar SVG-symbolisering. Mest känt är att "
+"Mapnik används för att rendera OpenStreetMaps huvudsakliga kartlager."
 
 #: ../../build/doc/overview/mapnik_overview.rst:22
 msgid ""
@@ -45,10 +49,14 @@ msgid ""
 "Mapnik has recently been getting used to create high resolution paper maps "
 "too."
 msgstr ""
+"Mapnik har vanligtvis varit inbäddad i Python-applikationer som levererar "
+"sina kartor över internet, även om skalförbättringar har inneburit att "
+"Mapnik nyligen också har börjat användas för att skapa högupplösta "
+"papperskartor."
 
 #: ../../build/doc/overview/mapnik_overview.rstNone
 msgid "mapnik screenshot"
-msgstr ""
+msgstr "mapnik skärmdump"
 
 #: ../../build/doc/overview/mapnik_overview.rst:31
 msgid "Core Features"
@@ -62,18 +70,27 @@ msgid ""
 " multi-threaded environment and is aimed primarily, but not exclusively, at"
 " web-based development."
 msgstr ""
+"Biblioteket, som i huvudsak är en samling geografiska objekt (karta, lager, "
+"datakälla, funktion, geometri), är inte beroende av \"windowssystem\" och "
+"kan användas i alla servermiljöer. Det är avsett att fungera i en flertrådad "
+"miljö och är främst, men inte uteslutande, inriktat på webbaserad utveckling."
 
 #: ../../build/doc/overview/mapnik_overview.rst:39
 msgid ""
 "High-level Python bindings (boost.python) facilitate rapid application "
 "development, targeting zope3, django etc."
 msgstr ""
+"Python-bindningar på hög nivå (boost.python) underlättar snabb "
+"applikationsutveckling, med inriktning på zope3, django etc."
 
 #: ../../build/doc/overview/mapnik_overview.rst:42
 msgid ""
 "Mapnik is cross platform. Packages are available for most linux "
 "distributions and installers are commonly used on Mac OS X and windows."
 msgstr ""
+"Mapnik är plattformsoberoende. Paket finns tillgängliga för de flesta Linux-"
+"distributioner och installationsprogram används ofta för Mac OS X och "
+"Windows."
 
 #: ../../build/doc/overview/mapnik_overview.rst:46
 msgid "Details"
@@ -81,15 +98,15 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/mapnik_overview.rst:48
 msgid "**Website:** https://mapnik.org/"
-msgstr ""
+msgstr "**Webbplats:** https://mapnik.org/"
 
 #: ../../build/doc/overview/mapnik_overview.rst:50
 msgid "**Licence:** LGPL (GNU Lesser General Public Licence)"
-msgstr ""
+msgstr "**Licens:** LGPL (GNU Lesser General Public Licence)"
 
 #: ../../build/doc/overview/mapnik_overview.rst:52
 msgid "**Software Version:** |version-mapnik|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-mapnik|"
 
 #: ../../build/doc/overview/mapnik_overview.rst:54
 msgid "**Supported Platforms:** Windows, Linux, Mac"
@@ -97,7 +114,7 @@ msgstr "**Plattformar som stöds:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/mapnik_overview.rst:56
 msgid "**API Interfaces:** C++, Python"
-msgstr ""
+msgstr "**API-gränssnitt:** C++, Python"
 
 #: ../../build/doc/overview/mapnik_overview.rst:61
 msgid "Quickstart"
@@ -105,7 +122,7 @@ msgstr "Snabbstart"
 
 #: ../../build/doc/overview/mapnik_overview.rst:63
 msgid ":doc:`Quickstart documentation <../quickstart/mapnik_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snabbstartsdokumentation <../quickstart/mapnik_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -117,8 +134,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

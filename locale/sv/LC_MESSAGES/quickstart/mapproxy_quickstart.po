@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-21 20:28+0000\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "mapproxy_quickstart/sv/>\n"
 "Language: sv\n"
@@ -21,47 +21,60 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:22
 msgid "MapProxy Quickstart"
-msgstr ""
+msgstr "MapProxy Snabbstart"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:24
 msgid "MapProxy is *the* swiss army knife for all WMS and tile services. It caches, accelerates and transforms data from existing map services and serves any desktop or web GIS client."
 msgstr ""
+"MapProxy är *den* schweiziska armékniven för alla WMS- och kakeltjänster. "
+"Den cachelagrar, accelererar och transformerar data från befintliga "
+"karttjänster och betjänar alla GIS-klienter på skrivbordet eller webben."
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:None
 msgid "MapProxy diagram"
-msgstr ""
+msgstr "MapProxy-diagram"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:31
 msgid "MapProxy is not only a tile cache solution, but also offers many new and innovative features like full support for WMS clients."
 msgstr ""
+"MapProxy är inte bara en tile cache-lösning, utan erbjuder också många nya "
+"och innovativa funktioner som fullt stöd för WMS-klienter."
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:34
 msgid "Contents"
-msgstr ""
+msgstr "Innehåll"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:37
 msgid "Start the service and view the demo"
-msgstr ""
+msgstr "Starta tjänsten och se demonstrationen"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:39
 msgid "MapProxy has flexible deployment options and you can integrate it in Apache for example. But you can also start MapProxy as a standalone service, which is the best option to get started."
 msgstr ""
+"MapProxy har flexibla driftsättningsalternativ och du kan till exempel "
+"integrera den i Apache. Men du kan också starta MapProxy som en fristående "
+"tjänst, vilket är det bästa alternativet för att komma igång."
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:41
 msgid "To start MapProxy as a standalone service click on |menu_mapproxy-Start|."
 msgstr ""
+"För att starta MapProxy som en fristående tjänst klickar du på "
+"|menu_mapproxy-Start|."
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:43
 msgid "Open Firefox and navigate to `<http://localhost:8011/demo>`_"
-msgstr ""
+msgstr "Öppna Firefox och navigera till `<http://localhost:8011/demo>`_"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:45
 msgid "The MapProxy demo page contains a rudimentary WMS and tile client for each configured layer. You can't select the projection for WMS layers for example, but it is enough to quickly verify that your installation works."
 msgstr ""
+"MapProxy-demosidan innehåller en rudimentär WMS- och kakelklient för varje "
+"konfigurerat lager. Du kan t.ex. inte välja projektion för WMS-lager, men "
+"det räcker för att snabbt verifiera att din installation fungerar."
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:49
 msgid "View in desktop GIS"
-msgstr ""
+msgstr "Visa i desktop GIS"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:51
 msgid "You can add MapProxy in any WMS Desktop GIS like uDig, QGIS or gvSIG. The service URL is: `<http://localhost:8011/service?>`_"
@@ -70,6 +83,8 @@ msgstr ""
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:53
 msgid "The MapProxy example configuration contains a few layers that use different map engines and map data. See below for more details about each layer."
 msgstr ""
+"Exempelkonfigurationen MapProxy innehåller ett antal lager som använder "
+"olika kartmotorer och kartdata. Se nedan för mer information om varje lager."
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:60
 msgid "MapProxy example in uDig"
@@ -81,79 +96,102 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:63
 msgid "Available layers"
-msgstr ""
+msgstr "Tillgängliga lager"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:66
 msgid "**mapnik**:"
-msgstr ""
+msgstr "**mapnik**:"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:66
 msgid "The world population rendered by Mapnik. You don't need to start the Mapnik service, because this layer makes use of the integrated Mapnik support in MapProxy."
 msgstr ""
+"Världens befolkning återgiven av Mapnik. Du behöver inte starta Mapnik-"
+"tjänsten, eftersom det här lagret använder det integrerade Mapnik-stödet i "
+"MapProxy."
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:69
 msgid "**mapnik_tile**:"
-msgstr ""
+msgstr "**mapnik_tile**:"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:69
 msgid "The world population rendered by Mapnik as tile layer."
-msgstr ""
+msgstr "Världens befolkning återgiven av Mapnik som kakelskikt."
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:73
 msgid "**geoserver**:"
-msgstr ""
+msgstr "**geoserver**:"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:72
 msgid "The US population rendered by the :doc:`GeoServer <../overview/geoserver_overview>` WMS. This layer also supports ``GetFeatureInfo`` requests which are cascaded to the source WMS. You need to start GeoServer with |osgeolive-appmenupath-geoserver| before accessing this layer."
 msgstr ""
+"USA:s befolkning återgiven av WMS:en :doc:`GeoServer <../overview/"
+"geoserver_overview>`. Detta lager stöder också ``GetFeatureInfo``-"
+"förfrågningar som kaskadkopplas till käll-WMS. Du måste starta GeoServer med "
+"|osgeolive-appmenupath-geoserver| innan du får tillgång till det här lagret."
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:77
 msgid "**mapnik_geoserver**:"
-msgstr ""
+msgstr "**mapnik_geoserver**:"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:76
 msgid "This layer demonstrates the ability to combine multiple sources into one layer. It combines the world population from Mapnik with the US population from GeoServer. The ``GetFeatureInfo`` support for the US population is still available. You need to start GeoServer with |osgeolive-appmenupath-geoserver| before accessing this layer."
 msgstr ""
+"Detta skikt visar möjligheten att kombinera flera källor i ett skikt. Det "
+"kombinerar världens befolkning från Mapnik med USA:s befolkning från "
+"GeoServer. ``GetFeatureInfo``-stödet för den amerikanska befolkningen är "
+"fortfarande tillgängligt. Du måste starta GeoServer med |osgeolive-"
+"appmenupath-geoserver| innan du får tillgång till det här skiktet."
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:81
 msgid "**mapserver**:"
-msgstr ""
+msgstr "**mapserver**:"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:80
 msgid "This layer uses Mapserver Itasca demo dataset. It is a local dataset and it uses the *coverage* feature to limit the BBOX to Itasca, IL."
 msgstr ""
+"Detta lager använder Mapserver Itasca demo dataset. Det är en lokal dataset "
+"och den använder * täckning * -funktionen för att begränsa BBOX till Itasca, "
+"IL."
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:84
 msgid "Create you own configuration"
-msgstr ""
+msgstr "Skapa din egen konfiguration"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:86
 msgid "You can use ``mapproxy-util`` to create new configuration templates and to start a test server."
 msgstr ""
+"Du kan använda ``mapproxy-util`` för att skapa nya konfigurationsmallar och "
+"för att starta en testserver."
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:88
 msgid "To create a new configuration::"
-msgstr ""
+msgstr "Så här skapar du en ny konfiguration::"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:92
 msgid "To start the test server on port 8011 with the created configuration::"
 msgstr ""
+"Så här startar du testservern på port 8011 med den konfiguration som "
+"skapats::"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:96
 msgid "You can now visit the demo page at http://127.0.0.1:8011/demo/. MapProxy will automatically reload if you change your configuration file."
 msgstr ""
+"Du kan nu besöka demosidan på http://127.0.0.1:8011/demo/. MapProxy laddas "
+"om automatiskt om du ändrar din konfigurationsfil."
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:101
 msgid "What next?"
-msgstr ""
+msgstr "Hur vill du gå vidare?"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:103
 msgid "Read the `documentation of MapProxy <https://localhost/mapproxy/index.html>`__"
 msgstr ""
+"Läs `dokumentationen av MapProxy <https://localhost/mapproxy/index.html>`__"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:105
 msgid "Read the example configuration (``/usr/local/share/mapproxy/mapproxy.yaml``)"
 msgstr ""
+"Läs exempelkonfigurationen (``/usr/local/share/mapproxy/mapproxy.yaml``)"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -165,9 +203,9 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

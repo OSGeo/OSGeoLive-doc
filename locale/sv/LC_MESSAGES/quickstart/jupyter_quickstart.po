@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "jupyter_quickstart/sv/>\n"
 "Language: sv\n"
@@ -21,131 +21,164 @@ msgstr ""
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:20
 msgid "Jupyter Notebook Quickstart"
-msgstr ""
+msgstr "Snabbstart för Jupyter Notebook"
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:22
 msgid "The Jupyter Notebook is a web application that allows you to create and share documents that contain live code, equations, visualizations and explanatory text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, machine learning and much more."
 msgstr ""
+"Jupyter Notebook är en webbapplikation som gör att du kan skapa och dela "
+"dokument som innehåller livekod, ekvationer, visualiseringar och förklarande "
+"text. Användningsområden inkluderar: datarengöring och transformation, "
+"numerisk simulering, statistisk modellering, maskininlärning och mycket mer."
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:28
 msgid "This Quick Start describes how to:"
-msgstr ""
+msgstr "Denna snabbstart beskriver hur du gör:"
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:30
 msgid "Start a Jupyter Notebook server"
-msgstr ""
+msgstr "Starta en Jupyter Notebook-server"
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:31
 msgid "Load a jupyter notebook"
-msgstr ""
+msgstr "Ladda en jupyter-anteckningsbok"
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:32
 msgid "Interact with python code"
-msgstr ""
+msgstr "Interagera med pythonkod"
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:34
 msgid "Contents"
-msgstr ""
+msgstr "Innehåll"
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:37
 msgid "Start the Jupyter server"
-msgstr ""
+msgstr "Starta Jupyter-servern"
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:39
 msgid "From the application launch menu in the lower left corner."
-msgstr ""
+msgstr "Från programmets startmeny i det nedre vänstra hörnet."
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:41
 msgid "Choose *Geospatial* -> *Spatial Tools* -> *Jupyter Notebook*"
-msgstr ""
+msgstr "Välj *Geospatial* -> *Spatial Tools* -> *Jupyter Notebook*"
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:43
 msgid "A terminal window will open and a startup log will begin to scroll. Afterwards a web browser is launched showing the Jupyter Notebook dashboard. From the Jupyter Notebook dashboard you can navigate the directory tree, start new notebooks, create files and directories, as well as rename, delete and upload files."
 msgstr ""
+"Ett terminalfönster öppnas och en startlogg börjar rulla. Därefter startas "
+"en webbläsare som visar instrumentpanelen för Jupyter Notebook. Från Jupyter "
+"Notebook-instrumentpanelen kan du navigera i katalogträdet, starta nya "
+"anteckningsböcker, skapa filer och kataloger samt byta namn på, ta bort och "
+"ladda upp filer."
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:57
 msgid "Open and execute an existing notebook"
-msgstr ""
+msgstr "Öppna och kör en befintlig anteckningsbok"
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:59
 msgid "Let's open an existing notebook. From the main page click on the directory geopandas-tutorial and choose the Introduction notebook (01-introduction-geospatial-data.ipynb). This is an introduction with many examples on how to use geospatial vector data in Python with geopandas using the Natural Earth2 data."
 msgstr ""
+"Låt oss öppna en befintlig anteckningsbok. Från huvudsidan klickar du på "
+"katalogen geopandas-tutorial och väljer anteckningsboken Introduction (01"
+"-introduction-geospatial-data.ipynb). Detta är en introduktion med många "
+"exempel på hur man använder geospatiala vektordata i Python med geopandas "
+"med hjälp av Natural Earth2-data."
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:68
 msgid "The tutorial is made up with explaining text and cells. The cells contain in this case python code, that can be run."
 msgstr ""
+"Handledningen är uppbyggd med förklarande text och celler. Cellerna "
+"innehåller i det här fallet pythonkod som kan köras."
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:71
 msgid "From the toolbar on top of the notebook you can choose different options:"
 msgstr ""
+"I verktygsfältet ovanför anteckningsboken kan du välja olika alternativ:"
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:73
 msgid "Cell-> Run Cells: will run the code in the cell with the focus and will move to the next cell."
 msgstr ""
+"Cell-> Run Cells: kör koden i cellen med fokus och flyttar till nästa cell."
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:75
 msgid "Cell-> Run All: will run all the cells and show the results If everything worked as planned you should be able to see the results at the bottom of the page."
 msgstr ""
+"Cell-> Run All: kommer att köra alla celler och visa resultaten Om allt "
+"fungerade som planerat bör du kunna se resultaten längst ner på sidan."
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:79
 msgid "Have a look at the results after running all the cells."
-msgstr ""
+msgstr "Titta på resultaten efter att ha kört alla celler."
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:84
 msgid "You will see additional Out[] section with different output for example tables, maps or calculations."
 msgstr ""
+"Du kommer att se ytterligare Out[]-avsnitt med olika utdata, t.ex. tabeller, "
+"kartor eller beräkningar."
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:87
 msgid "In Out[3] you can see the country information as a table."
-msgstr ""
+msgstr "I Out[3] kan du se landinformationen i tabellform."
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:93
 msgid "In Out[4] a plot was generated from all the countries."
-msgstr ""
+msgstr "I Out[4] genererades ett diagram från alla länder."
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:102
 msgid "Change code"
-msgstr ""
+msgstr "Ändra kod"
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:104
 msgid "Now let's change some of the code."
-msgstr ""
+msgstr "Låt oss nu ändra lite i koden."
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:107
 msgid "In In [10] a filter was defined for the countries. Only the continent ``Africa`` is selected from the countries:"
 msgstr ""
+"I [10] definierades ett filter för länderna. Endast kontinenten ``Afrika`` "
+"är vald från länderna:"
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:114
 msgid "Therefore in the plot there is only the continent ``Africa``."
-msgstr ""
+msgstr "Därför finns det i handlingen bara kontinenten \"Afrika\"."
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:119
 msgid "Change the selection to ``Asia`` and rund the two cells again."
-msgstr ""
+msgstr "Ändra valet till ``Asien`` och runda de två cellerna igen."
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:125
 msgid "As result you will see that instead of ``Africa`` there will be ``Asia`` in the plot."
 msgstr ""
+"Som resultat kommer du att se att istället för ``Afrika`` kommer det att "
+"finnas ``Asien`` i diagrammet."
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:131
 msgid "What Next?"
-msgstr ""
+msgstr "Vad händer härnäst?"
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:133
 msgid "Discover the other notebooks that are provided with OSGeoLive and find out how to work with Shapely, Rasterio, R, Iris & other software."
 msgstr ""
+"Upptäck de andra bärbara datorerna som tillhandahålls med OSGeoLive och ta "
+"reda på hur du arbetar med Shapely, Rasterio, R, Iris och annan programvara."
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:135
 msgid "For more information about the jupyter notebook, please refer to the `Jupyter Notebooks official documentation <https://docs.jupyter.org>`__."
 msgstr ""
+"Mer information om jupyter notebook finns i den officiella dokumentationen "
+"för jupyter notebooks <https://docs.jupyter.org>`__."
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:137
 msgid "More notebook examples are available from the notebook root directory."
-msgstr ""
+msgstr "Fler exempel på notebooks finns i rotkatalogen för notebooks."
 
 #: ../../build/doc/quickstart/jupyter_quickstart.rst:138
 msgid "Quick introduction on how to use the Jupyter Notebooks interface: `Get started with Jupyter Notebook <https://docs.jupyter.org/en/latest/content-quickstart.html>`__."
 msgstr ""
+"Snabb introduktion till hur man använder gränssnittet för Jupyter Notebooks: "
+"\"Kom igång med Jupyter Notebook <https://docs.jupyter.org/en/latest/content-"
+"quickstart.html>`__."
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -157,9 +190,9 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

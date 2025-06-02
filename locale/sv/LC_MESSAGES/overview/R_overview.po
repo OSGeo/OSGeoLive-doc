@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "r_overview/sv/>\n"
 "Language: sv\n"
@@ -28,7 +28,7 @@ msgstr "R"
 
 #: ../../build/doc/overview/R_overview.rst:17
 msgid "Statistical Programming"
-msgstr ""
+msgstr "Statistisk programmering"
 
 #: ../../build/doc/overview/R_overview.rst:19
 msgid ""
@@ -39,6 +39,12 @@ msgid ""
 "number of traditional and state of the art algorithms (). R and its packages"
 " are able to process point, line, polygon, networks, grid data (etc.)."
 msgstr ""
+"R är en kraftfull, allmänt använd mjukvarumiljö för statistiska beräkningar "
+"och grafik som utmärker sig för att analysera och bearbeta geografiska "
+"datamängder. Geospatiala analysfunktioner inom R finns tillgängliga i R-"
+"paket (moduler som utökar funktionerna i R) som ger tillgång till ett stort "
+"antal traditionella och toppmoderna algoritmer (). R och dess paket kan "
+"bearbeta punkt-, linje-, polygon-, nätverks-, rutnätsdata (etc.)."
 
 #: ../../build/doc/overview/R_overview.rst:27
 msgid ""
@@ -51,6 +57,15 @@ msgid ""
 " packages provide connection with other OSGeo tools and software. You can "
 "easily plug R with GRASS-GIS, Qgis, postgreSQL and postGIS."
 msgstr ""
+"Användarna kan utföra ett brett spektrum av uppgifter, t.ex. "
+"bildklassificering, statistisk analys för att dra slutsatser om rumsliga "
+"relationer och mönster, och andra uppgifter som anges i kärnfunktionerna "
+"nedan. De funktioner som är tillgängliga via R kompletterar och förbättrar "
+"de funktioner som finns i GIS- och bildbehandlingsprogram. Genom att använda "
+"paket för parallellisering kan användare drastiskt minska beräkningstiden "
+"och öka denna kapacitet. Flera paket tillhandahåller anslutning till andra "
+"OSGeo-verktyg och programvara. Du kan enkelt ansluta R till GRASS-GIS, Qgis, "
+"postgreSQL och postGIS."
 
 #: ../../build/doc/overview/R_overview.rst:36
 msgid ""
@@ -61,6 +76,13 @@ msgid ""
 "learning process. Scripts are often used to automate processing steps but "
 "there are GUIs, the leading one being RStudio (https://www.rstudio.com)."
 msgstr ""
+"R:s huvudgränssnitt är ett kommandoradsfönster som ger utmärkt flexibilitet "
+"och kontroll men tenderar att förlänga den tid som krävs för att bli en "
+"skicklig användare jämfört med programvara med ett grafiskt "
+"användargränssnitt (GUI). Lyckligtvis är R väldokumenterat på webbplatsen, "
+"vilket underlättar inlärningsprocessen. Skript används ofta för att "
+"automatisera bearbetningssteg, men det finns även GUI:er, varav den ledande "
+"är RStudio (https://www.rstudio.com)."
 
 #: ../../build/doc/overview/R_overview.rst:44
 msgid ""
@@ -70,10 +92,15 @@ msgid ""
 "makes it possible to convert different versions of S code to run on R "
 "without major code modifications."
 msgstr ""
+"R är en implementering av programmeringsspråket S och det finns betydande "
+"kompatibilitet mellan R och äldre S- och S-Plus-kod samt mellan R och den "
+"moderna kommersiella versionen av S, TIBCO Spotfire S+. Detta gör det "
+"möjligt att konvertera olika versioner av S-kod till att köras på R utan "
+"större kodändringar."
 
 #: ../../build/doc/overview/R_overview.rstNone
 msgid "R screenshot"
-msgstr ""
+msgstr "R skärmdump"
 
 #: ../../build/doc/overview/R_overview.rst:57
 msgid "Core Features"
@@ -84,57 +111,62 @@ msgid ""
 "Complete Object Oriented Programming Language designed for Statistics and "
 "similar Mathematical intensive applications"
 msgstr ""
+"Komplett objektorienterat programmeringsspråk utformat för statistik och "
+"liknande matematikintensiva tillämpningar"
 
 #: ../../build/doc/overview/R_overview.rst:60
 msgid ""
 "Currently (2017/08/11), the CRAN package repository features 11239 available"
 " packages."
 msgstr ""
+"För närvarande (2017/08/11) innehåller CRAN-paketförvaret 11239 tillgängliga "
+"paket."
 
 #: ../../build/doc/overview/R_overview.rst:61
 msgid ""
 "Hundreds of community contributed add-on packages for spatial statistics"
 msgstr ""
+"Hundratals tilläggspaket för rumslig statistik som tagits fram av samhället"
 
 #: ../../build/doc/overview/R_overview.rst:62
 msgid "Classes for spatial data"
-msgstr ""
+msgstr "Klasser för rumsliga data"
 
 #: ../../build/doc/overview/R_overview.rst:63
 msgid "Reading and writing spatial data"
-msgstr ""
+msgstr "Läsa och skriva rumsliga data"
 
 #: ../../build/doc/overview/R_overview.rst:64
 msgid "Point pattern analysis"
-msgstr ""
+msgstr "Analys av punktmönster"
 
 #: ../../build/doc/overview/R_overview.rst:65
 msgid "Geostatistics"
-msgstr ""
+msgstr "Geostatistik"
 
 #: ../../build/doc/overview/R_overview.rst:66
 msgid "Spatial regression"
-msgstr ""
+msgstr "Spatial regression"
 
 #: ../../build/doc/overview/R_overview.rst:67
 msgid "Ecological analysis"
-msgstr ""
+msgstr "Ekologisk analys"
 
 #: ../../build/doc/overview/R_overview.rst:68
 msgid "Powerful raster processing algorithms"
-msgstr ""
+msgstr "Kraftfulla algoritmer för rasterbearbetning"
 
 #: ../../build/doc/overview/R_overview.rst:69
 msgid "Remote sensing"
-msgstr ""
+msgstr "Avkänning på distans"
 
 #: ../../build/doc/overview/R_overview.rst:70
 msgid "Bayesian spatial analysis"
-msgstr ""
+msgstr "Bayesiansk rumslig analys"
 
 #: ../../build/doc/overview/R_overview.rst:71
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: ../../build/doc/overview/R_overview.rst:74
 msgid "Details"
@@ -142,15 +174,15 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/R_overview.rst:76
 msgid "**Website:** https://cran.r-project.org"
-msgstr ""
+msgstr "**Webbplats:** https://cran.r-project.org"
 
 #: ../../build/doc/overview/R_overview.rst:78
 msgid "**Licence:** GPL"
-msgstr ""
+msgstr "**Licens:** GPL"
 
 #: ../../build/doc/overview/R_overview.rst:80
 msgid "**Software Version:** |version-R|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-R|"
 
 #: ../../build/doc/overview/R_overview.rst:82
 msgid "**Supported Platforms:** Windows, Linux, Mac, Unix"
@@ -160,12 +192,15 @@ msgstr "**Plattformar som stöds:** Windows, Linux, Mac, UNIX"
 msgid ""
 "**Community Support:** https://cran.r-project.org/web/views/Spatial.html"
 msgstr ""
+"**Gemenskapssupport:** https://cran.r-project.org/web/views/Spatial.html"
 
 #: ../../build/doc/overview/R_overview.rst:86
 msgid ""
 "**CRAN packages available:** "
 "https://cran.r-project.org/web/packages/available_packages_by_name.html"
 msgstr ""
+"**Tillgängliga CRAN-paket:** https://cran.r-project.org/web/packages/"
+"available_packages_by_name.html"
 
 #: ../../build/doc/overview/R_overview.rst:92
 msgid "Quickstart"
@@ -173,7 +208,7 @@ msgstr "Snabbstart"
 
 #: ../../build/doc/overview/R_overview.rst:94
 msgid ":doc:`Quickstart documentation <../quickstart/R_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snabbstartsdokumentation <../quickstart/R_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -185,8 +220,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

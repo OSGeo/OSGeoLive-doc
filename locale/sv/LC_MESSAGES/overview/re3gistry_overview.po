@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "re3gistry_overview/sv/>\n"
 "Language: sv\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../build/doc/overview/re3gistry_overview.rst:18
 msgid "Re3gistry"
-msgstr ""
+msgstr "Re3gistry"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:21
 msgid "About"
@@ -48,7 +48,7 @@ msgstr ""
 
 #: ../../build/doc/overview/re3gistry_overview.rstNone
 msgid "re3gistry screenshot"
-msgstr ""
+msgstr "re3gistry skärmdump"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:43
 msgid "Core Features"
@@ -120,11 +120,11 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:62
 msgid "**Website:** https://github.com/ec-jrc/re3gistry"
-msgstr ""
+msgstr "**Webbplats:** https://github.com/ec-jrc/re3gistry"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:64
 msgid "**Licence:** EUPL"
-msgstr ""
+msgstr "**Licensiering:** EUPL"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:66
 msgid "**Software Version:** |version-re3gistry|"
@@ -132,11 +132,11 @@ msgstr ""
 
 #: ../../build/doc/overview/re3gistry_overview.rst:68
 msgid "**Supported Platforms:** Windows, Linux"
-msgstr ""
+msgstr "**Plattformar som stöds:** Windows, Linux"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:70
 msgid "**API Interfaces:** Java"
-msgstr ""
+msgstr "**API-gränssnitt:** Java"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:72
 msgid "**Support:** https://github.com/ec-jrc/re3gistry"
@@ -166,7 +166,7 @@ msgstr "Snabbstart"
 
 #: ../../build/doc/overview/re3gistry_overview.rst:85
 msgid ":doc:`Quickstart documentation <../quickstart/re3gistry_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snabbstartsdokumentation <../quickstart/re3gistry_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -178,8 +178,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

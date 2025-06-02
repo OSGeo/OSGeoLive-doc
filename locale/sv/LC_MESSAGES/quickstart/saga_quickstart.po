@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-17 21:23+0000\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "saga_quickstart/sv/>\n"
 "Language: sv\n"
@@ -21,231 +21,396 @@ msgstr ""
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:20
 msgid "SAGA Quickstart"
-msgstr ""
+msgstr "SAGA Snabbstart"
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:22
 msgid "SAGA (System for Automated Geoscientific Analyses) is an open source geographic information system (GIS) used for editing and analysing spatial data. It includes a large number of modules for the analysis of vector (point, line and polygon), table, grid and image data. Among others the package includes modules for geostatistics, image classification, projections, simulation of dynamic processes (hydrology, landscape development) and terrain analysis. The functionality can be accessed through a GUI, the command line or by using the C++ API."
 msgstr ""
+"SAGA (System for Automated Geoscientific Analyses) är ett geografiskt "
+"informationssystem (GIS) med öppen källkod som används för att redigera och "
+"analysera rumsliga data. Det innehåller ett stort antal moduler för analys "
+"av vektor- (punkt, linje och polygon), tabell-, rutnäts- och bilddata. "
+"Paketet innehåller bl.a. moduler för geostatistik, bildklassificering, "
+"projektioner, simulering av dynamiska processer (hydrologi, "
+"landskapsutveckling) och terränganalys. Funktionaliteten kan nås via ett "
+"GUI, kommandoraden eller genom att använda C++ API."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:32
 msgid "Contents"
-msgstr ""
+msgstr "Innehåll"
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:35
 msgid "Running"
-msgstr ""
+msgstr "Kör"
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:37
 msgid "To run SAGA GIS on the Live DVD, open the Desktop GIS group on the Desktop and click on the SAGA link."
 msgstr ""
+"För att köra SAGA GIS på Live DVD, öppna gruppen Desktop GIS på skrivbordet "
+"och klicka på länken SAGA."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:40
 msgid "When opening SAGA for the first time, you are presented with 3 subwindows: the Manager, the object Properties and the Messages window. The information in the object properties window will change depending on your selection in the Manager window."
 msgstr ""
+"När du öppnar SAGA för första gången visas tre underfönster: fönstret "
+"Manager, fönstret Object Properties och fönstret Messages. Informationen i "
+"fönstret för objektsegenskaper ändras beroende på vad du väljer i fönstret "
+"Manager."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:45
 msgid "You can close any of the windows (Manager, Object Properties, Data Sources and Messages). Try closing one of the windows to get more place for your map. You can show closed windows again in the **Window** menu."
 msgstr ""
+"Du kan stänga vilket som helst av fönstren (Manager, Object Properties, Data "
+"Sources och Messages). Prova att stänga ett av fönstren för att få mer plats "
+"på kartan. Du kan visa stängda fönster igen i menyn **Window**."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:54
 msgid "Opening data"
-msgstr ""
+msgstr "Öppningsdata"
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:56
 msgid "Open the SAGA GUI and load the grid `/home/user/data/saga/DGM_30m_Mt.St.Helens_SRTM.grd` via the **File|Grid|Load** menu."
 msgstr ""
+"Öppna SAGA GUI och ladda rutnätet `/home/user/data/saga/DGM_30m_Mt.St."
+"Helens_SRTM.grd` via menyn **File|Grid|Load**."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:59
 msgid "You will get a message in the General tab of the Messages window regarding the success or failure of this task. You should see something like `Load Grid: DGM_30m_Mt.St.Helens_SRTM.grd...okay`. Once you loaded the dataset, it will show up in the Data tab of the Workspace window. It will be listed under Grids and the grid system it belongs to."
 msgstr ""
+"Du kommer att få ett meddelande på fliken General i fönstret Messages om "
+"denna uppgift har lyckats eller inte. Du bör se något i stil med `Load Grid: "
+"DGM_30m_Mt.St.Helens_SRTM.grd...okay`. När du har laddat datasetet kommer "
+"det att visas på fliken Data i fönstret Workspace. Den kommer att listas "
+"under Grids och det gridsystem som den tillhör."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:65
 msgid "In this case, the grid system information will look like **30;312x 458y; 557970x 5108130y**. The first number is the cell size (30 meters), the next two numbers show the number of cells in x and y direction respectively, and the last two numbers are the origin of the grid."
 msgstr ""
+"I det här fallet kommer informationen om rutnätssystemet att se ut som **30;"
+"312x 458y; 557970x 5108130y**. Den första siffran är cellstorleken (30 meter)"
+", de två följande siffrorna visar antalet celler i x- respektive y-"
+"riktningen och de två sista siffrorna är rutnätets ursprung."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:70
 msgid "SAGA's grid systems are referenced by the bottom left corner. This, and some more useful information on the dataset show up if you select the Description tab of the Properties window. Once you click on the tab, you will see not only more detailed information on the grid system, but also the Value Type of the grid (here FLOAT), the Value Range, some statistical measures and the Memory Size."
 msgstr ""
+"SAGA:s rutnätssystem refereras till i det nedre vänstra hörnet. Detta och "
+"annan användbar information om datasetet visas om du väljer fliken "
+"Description i fönstret Properties. När du klickar på fliken visas inte bara "
+"mer detaljerad information om gridsystemet, utan även gridens värdetyp (här "
+"FLOAT), värdeintervall, vissa statistiska mått och minnesstorlek."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:77
 msgid "You can also load data by dragging and dropping it on the application. Try this with one of the datasets in the **/home/user/data/gdal_natural_earth/** folder."
 msgstr ""
+"Du kan också ladda data genom att dra och släppa dem i programmet. Prova "
+"detta med en av datauppsättningarna i mappen **/home/user/data/"
+"gdal_natural_earth/**."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:81
 msgid "Displaying data"
-msgstr ""
+msgstr "Visning av data"
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:83
 msgid "To display the dataset in a map view:"
-msgstr ""
+msgstr "För att visa datasetet i en kartvy:"
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:85
 msgid "Double click on the dataset in the Data tab of the Workspace window. A new Map window will open up with the dataset displayed. The canvas is framed: top and left the x- and y-world coordinates are displayed. Bottom and right you see rulers in map units."
 msgstr ""
+"Dubbelklicka på datasetet i fliken Data i fönstret Workspace. Ett nytt Map-"
+"fönster öppnas med datauppsättningen visad. Canvas är inramad: upptill och "
+"till vänster visas x- och y-världskoordinaterna. Längst ned och till höger "
+"visas linjaler i kartenheter."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:88
 msgid "Try moving the mouse pointer over the map and watch the x-, y- and z-coordinates displayed in the bottom bar of the SAGA GUI window. The z-coordinates displayed correspond to the elevation values of the dataset (be aware that the values displayed are always those of the dataset selected in the Data or Maps tab)."
 msgstr ""
+"Försök att flytta muspekaren över kartan och titta på x-, y- och z-"
+"koordinaterna som visas i det nedre fältet i SAGA GUI-fönstret. De z-"
+"koordinater som visas motsvarar höjdvärdena i datasetet (tänk på att de "
+"värden som visas alltid är de som finns i det dataset som valts på fliken "
+"Data eller Maps)."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:93
 msgid "Now use the navigation tools to zoom and pan. The Zoom tool is selected by default. A left click on the map zooms in, a right click zooms out. Holding the left mouse button down, dragging to the opposite corner and letting the mouse button up allows you to zoom to an area of interest."
 msgstr ""
+"Använd nu navigeringsverktygen för att zooma och panorera. Verktyget Zoom är "
+"valt som standard. Ett vänsterklick på kartan zoomar in, ett högerklick "
+"zoomar ut. Om du håller ned vänster musknapp, drar till motsatt hörn och "
+"släpper upp musknappen kan du zooma till ett område av intresse."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:98
 msgid "If you zoom in a lot and turn on Show cell values on Settings tab, you will see that the cell values are getting displayed. To pan, select the Pan tool and click and drag to move the map. Have a look at the other buttons in the tool bar: these allow you to zoom e.g. to Full Extent."
 msgstr ""
+"Om du zoomar in mycket och aktiverar Visa cellvärden på fliken Inställningar "
+"kommer du att se att cellvärdena visas. Panorera genom att välja Pan-"
+"verktyget och klicka och dra för att flytta kartan. Titta på de andra "
+"knapparna i verktygsfältet: med dem kan du t.ex. zooma till Full Extent."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:105
 msgid "Saga zooms very fast, if you are lost while browsing your data, click the 'Zoom to Full Extent' button in the toolbar"
 msgstr ""
+"Saga zoomar mycket snabbt, om du tappar bort dig när du bläddrar i dina data "
+"klickar du på knappen \"Zooma till full omfattning\" i verktygsfältet"
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:109
 msgid "Creating a shaded relief map view"
-msgstr ""
+msgstr "Skapa en skuggad reliefkartvy"
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:110
 msgid "We will enhance the map display by calculating a shaded relief map."
 msgstr ""
+"Vi kommer att förbättra kartvisningen genom att beräkna en skuggad "
+"reliefkarta."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:112
 msgid "Switch to the Tools tab of the Manager window and click on the triangle left to the **Terrain Analysis - Lighting, Visibility** module library: the list with the modules of this library will show up."
 msgstr ""
+"Byt till fliken Verktyg i fönstret Manager och klicka på triangeln till "
+"vänster om modulbiblioteket **Terrain Analysis - Lighting, Visibility**: "
+"listan med modulerna i detta bibliotek visas."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:115
 msgid "Now select the Analytical Hillshading module and then select the Settings tab of the Properties window. This will show up the module parameters (also have a look at the Description tab, which will display more information about the module and its parameters)."
 msgstr ""
+"Välj nu modulen Analytical Hillshading och välj sedan fliken Settings i "
+"fönstret Properties. Då visas modulens parametrar (titta även på fliken "
+"Description, där du hittar mer information om modulen och dess parametrar)."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:119
 msgid "Click in the right column of the Grid system parameter (where [not set] is displayed) and select the grid system of the Mt. St. Helens dataset (**30; 312x 458y; 557970x 5108130y**)."
 msgstr ""
+"Klicka i den högra kolumnen i parametern Grid system (där [not set] visas) "
+"och välj grid-systemet för Mt. St. Helens dataset (**30; 312x 458y; 557970x "
+"5108130y**)."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:122
 msgid "Next click into the right column of the Elevation parameter and select the dataset. Click in the right column of the Shading Method option and select Standard. Now press the Apply and then the Execute button. A new dataset containing the hillshade will be calculated."
 msgstr ""
+"Klicka sedan i den högra kolumnen i parametern Elevation och välj dataset. "
+"Klicka i den högra kolumnen i alternativet Shading Method och välj Standard. "
+"Tryck nu på knappen Apply och sedan på Execute. Ett nytt dataset som "
+"innehåller hillshade kommer att beräknas."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:127
 msgid "Have a look at the Data tab of the Workspace window - you will find the newly created dataset."
 msgstr ""
+"Ta en titt på fliken Data i fönstret Workspace - där hittar du den nyskapade "
+"datasetet."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:129
 msgid "Double click on the 'Analytical Hillshading' dataset and select New in the dialog popping up. This will display the dataset in a new map view. After inspecting the dataset, close the Map window by selecting Close from the Window menu."
 msgstr ""
+"Dubbelklicka på datasetet \"Analytical Hillshading\" och välj New i "
+"dialogrutan som dyker upp. Då visas datasetet i en ny kartvy. När du har "
+"inspekterat datasetet stänger du Map-fönstret genom att välja Close på "
+"Window-menyn."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:134
 msgid "Now double click on the hillshade dataset again, but select the Map containing the elevation dataset in the dialog popping up (Add layer to selected map). This will place the hillshade on top of the elevation dataset."
 msgstr ""
+"Dubbelklicka nu på hillshade-datasetet igen, men välj kartan som innehåller "
+"höjddatasetet i dialogrutan som dyker upp (Lägg till lager på vald karta). "
+"Detta kommer att placera hillshade ovanpå elevationsdatasetet."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:141
 msgid "Switch to the Maps tab of the Manager window. You will see on the Tree tab the entry of your map and the datasets the map is composed of. The drawing order is top to bottom. Now do a right click on the 'Analytical Hillshading' dataset and select Move To Bottom from the context menu popping up. This will change the drawing order, placing the hillshade beneath the elevation dataset (which now shows up again in the map view)."
 msgstr ""
+"Växla till fliken Maps i fönstret Manager. På fliken Tree visas posten för "
+"din karta och de dataset som kartan består av. Ritningsordningen är uppifrån "
+"och ned. Högerklicka nu på datauppsättningen \"Analytical Hillshading\" och "
+"välj Move To Bottom från snabbmenyn som dyker upp. Detta ändrar "
+"ritningsordningen och placerar bergsskuggan under höjddatasetet (som nu "
+"visas igen i kartvyn)."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:147
 msgid "Now select the elevation dataset (by left clicking) and have a look at the Settings tab of the Properties window. Find the Display section of the parameters and click in the right column of the Transparency option. Enter a value of 30 and press the Apply button. Now you will see your elevation values shaded by relief."
 msgstr ""
+"Välj nu höjddatasetet (genom att vänsterklicka) och ta en titt på fliken "
+"Settings i fönstret Properties. Leta upp avsnittet Display i parametrarna "
+"och klicka i den högra kolumnen i alternativet Transparency. Ange ett värde "
+"på 30 och tryck på knappen Apply. Nu kommer du att se dina höjdvärden "
+"skuggade av relief."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:153
 msgid "Feel free to try other Transparency settings or even try other Shading Methods in the Analytical Hillshading module (in case you do not change the output dataset parameter, the changes will be written to the grid already created, i.e. you will see the changes in the map view immediately)."
 msgstr ""
+"Prova gärna andra transparensinställningar eller till och med andra "
+"skuggningsmetoder i modulen Analytical Hillshading (om du inte ändrar "
+"parametern för utdataset kommer ändringarna att skrivas till det redan "
+"skapade rutnätet, dvs. du kommer att se ändringarna i kartvyn omedelbart)."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:162
 msgid "3D visualization"
-msgstr ""
+msgstr "3D-visualisering"
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:163
 msgid "In a next step, you might like to visualize your map in 3D."
-msgstr ""
+msgstr "I ett nästa steg kanske du vill visualisera din karta i 3D."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:165
 msgid "Be sure your Map window is selected and press the Show 3D-View button in the tool bar. In the dialog popping up, select the grid system containing your elevation dataset and set the Mt. St. Helens dataset as the Elevation parameter. Once you press the Okay button, the 3D view of your map will show up. Hold the left mouse button pressed and move the mouse to rotate and tilt the map."
 msgstr ""
+"Se till att Map-fönstret är valt och tryck på knappen Show 3D-View i "
+"verktygsfältet. I dialogrutan som dyker upp väljer du det rutnätssystem som "
+"innehåller din höjddatauppsättning och anger Mt. St. Helens-"
+"datauppsättningen som höjdparameter. När du trycker på knappen Okay visas 3D-"
+"vyn av din karta. Håll vänster musknapp intryckt och flytta musen för att "
+"rotera och luta kartan."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:172
 msgid "Use the mouse wheel to zoom in/out and the right button to shift the map. Also have a look at the tool bar of the 3D View: the buttons replicate the mouse operations and offer further functionality. To close the 3D view select the Close option from the Window menu."
 msgstr ""
+"Använd mushjulet för att zooma in/ut och högerknappen för att flytta kartan. "
+"Ta också en titt på verktygsfältet i 3D-vyn: knapparna replikerar "
+"musfunktionerna och erbjuder ytterligare funktionalitet. För att stänga 3D-"
+"vyn väljer du alternativet Stäng i menyn Fönster."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:181
 msgid "Creating contour lines"
-msgstr ""
+msgstr "Skapa konturlinjer"
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:182
 msgid "As a short introduction to SAGA vector capabilities, we will now generate Contour Lines from the digital elevation model."
 msgstr ""
+"Som en kort introduktion till SAGAs vektorfunktioner kommer vi nu att "
+"generera konturlinjer från den digitala höjdmodellen."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:185
 msgid "This can be done by using the **Shapes - Grid | Contour Lines From Grid** if you open the tools tab in the manager, or you can equally well open the module using the menu: **Geoprocessing|Shapes|Grid|Vectorization**."
 msgstr ""
+"Detta kan göras med hjälp av **Shapes - Grid | Contour Lines From Grid** om "
+"du öppnar verktygsfliken i hanteraren, eller så kan du lika gärna öppna "
+"modulen med hjälp av menyn: **Geoprocessing|Shapes|Grid|Vectorization**."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:188
 msgid "Choose your grid system and grid (this has to be the elevation). You can leave the options as they are, but perhaps it is better to choose an equidistance of 50m instead of the standard 10m."
 msgstr ""
+"Välj ditt rutnätssystem och rutnät (detta måste vara höjden). Du kan låta "
+"alternativen vara som de är, men det kanske är bättre att välja ett "
+"ekvidistans på 50 m i stället för standardvärdet 10 m."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:191
 msgid "A few seconds later your contour map has been generated and you should find it back under the data tab in the workspace. Try opening your contour map in a new map. All contour lines now have the same colour, which is not that attractive."
 msgstr ""
+"Några sekunder senare har din konturkarta genererats och du bör hitta den "
+"under datafliken i arbetsytan. Prova att öppna konturkartan i en ny karta. "
+"Alla konturlinjer har nu samma färg, vilket inte är så tilltalande."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:195
 msgid "If you select your data set (in the workspace, data tab) and check the Settings in the Object Properties window, you can find a section: Display: color classification. You can change the classification from 'Unique symbol' to graduated color. Then you should still adjust the attribute which is used for this graduated color to the elevation. Press apply, and you are presented with coloured contour lines."
 msgstr ""
+"Om du väljer din datauppsättning (i arbetsytan, fliken Data) och "
+"kontrollerar inställningarna i fönstret Object Properties, kan du hitta ett "
+"avsnitt: Display: färgklassificering. Du kan ändra klassificeringen från "
+"\"Unik symbol\" till graderad färg. Då bör du fortfarande justera attributet "
+"som används för denna graderade färg till höjden. Tryck på apply och du får "
+"fram färgade konturlinjer."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:203
 msgid "Check your history"
-msgstr ""
+msgstr "Kontrollera din historik"
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:204
 msgid "If you select a dataset (eg your contour lines) in the data tab of the manager window, you can switch the object properties tab to 'history' to review which module and which options were used to create the dataset. This information is also kept when you save your files (in .mshp and .mgrd files)."
 msgstr ""
+"Om du väljer en datauppsättning (t.ex. dina konturlinjer) på datafliken i "
+"fönstret Manager kan du ändra fliken Object Properties till \"History\" för "
+"att granska vilken modul och vilka alternativ som användes för att skapa "
+"datauppsättningen. Denna information sparas också när du sparar dina filer ("
+"i .mshp- och .mgrd-filer)."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:212
 msgid "You can create a tool chain from your history - which allows you to run a chain of modules again with fixed options. A tutorial can be found at https://rohanfisher.wordpress.com/saga-tool-chains/"
 msgstr ""
+"Du kan skapa en verktygskedja från din historik - vilket gör att du kan köra "
+"en kedja av moduler igen med fasta alternativ. En handledning finns på "
+"https://rohanfisher.wordpress.com/saga-tool-chains/"
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:217
 msgid "Saving data"
-msgstr ""
+msgstr "Sparar data"
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:218
 msgid "To save the work you have created you should open the data tab in the workspace, and right click on the file you want to save. SAGA will save grid files to its own native format (\\*.sgrd) and shapefiles to the standard ESRI shapefile format (\\*.shp). It is also possible to save the project, by choosing **File|Project|Save Project As**. This will save all the map views and data settings, as well as offering to save the data files."
 msgstr ""
+"För att spara det arbete som du har skapat ska du öppna datafliken i "
+"arbetsytan och högerklicka på den fil som du vill spara. SAGA sparar "
+"gridfiler i sitt eget format (\\*.sgrd) och shapefiler i ESRI:s "
+"standardformat för shapefiler (\\*.shp). Det är också möjligt att spara "
+"projektet genom att välja **File|Project|Save Project As**. Då sparas alla "
+"kartvyer och datainställningar, och datafilerna kan också sparas."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:226
 msgid "Importing/Exporting data"
-msgstr ""
+msgstr "Importera/exportera data"
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:227
 msgid "Under the hood SAGA can also use the GDAL library for opening different raster and vector formats. The easiest way is to use **File|Grid|Open** for raster data and **File|Shapes|Open** for vector data. For rasters among others geotiff is supported. Note that you can also just drag and drop files on SAGA. More advanced options and modules are present under **Geoprocessing|File|Grid**."
 msgstr ""
+"Under huven kan SAGA också använda GDAL-biblioteket för att öppna olika "
+"raster- och vektorformat. Det enklaste sättet är att använda "
+"**File|Grid|Open** för rasterdata och **File|Shapes|Open** för vektordata. "
+"För raster stöds bland annat geotiff. Observera att du också kan dra och "
+"släppa filer på SAGA. Mer avancerade alternativ och moduler finns under "
+"**Geoprocessing|File|Grid**."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:234
 msgid "SAGA GIS grid format is supported by GDAL since version 1.7.0. Grid Files saved by SAGA can be opened by many other programs using GDAL. However, you must open the '\\*.sdat' file and not the '\\*.sgrd' file."
 msgstr ""
+"SAGA GIS gridformat stöds av GDAL sedan version 1.7.0. Gridfiler som sparats "
+"av SAGA kan öppnas av många andra program som använder GDAL. Du måste dock "
+"öppna filen \"\\*.sdat\" och inte filen \"\\*.sgrd\"."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:238
 msgid "In this example we will use the digital elevation (SRTM) data from the region around Barcelona as you would download it from the web."
 msgstr ""
+"I det här exemplet använder vi digitala höjddata (SRTM) från regionen runt "
+"Barcelona som du skulle ladda ner från webben."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:241
 msgid "The data file we want to use is `SRTM_u03_n041e002.tif` and can be found under `/home/user/data/raster` . You can import this using the Import/Export GDAL/OGR module, which can also be found in the **Geoprocessing|file|import raster**."
 msgstr ""
+"Datafilen som vi vill använda heter `SRTM_u03_n041e002.tif` och finns under "
+"`/home/user/data/raster` . Du kan importera den med hjälp av modulen Import/"
+"Export GDAL/OGR, som också finns i **Geoprocessing|file|import raster**."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:246
 msgid "After importing this dataset and opening it in a new window, you will most likely be disappointed: It looks all gray! Let's check what might be the cause: Some pixels near the coast seem to have a very small value (-32768) (you can check the value of a pixel by checking the Z: value in the status bar while moving your mouse over the grid)."
 msgstr ""
+"När du har importerat denna dataset och öppnat den i ett nytt fönster kommer "
+"du troligen att bli besviken: Det ser helt grått ut! Låt oss kolla vad som "
+"kan vara orsaken: Vissa pixlar nära kusten verkar ha ett mycket litet värde "
+"(-32768) (du kan kontrollera värdet för en pixel genom att kontrollera Z:-"
+"värdet i statusfältet när du för musen över rutnätet)."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:252
 msgid "These pixels actually have no data, so we should adjust the nodata settings: in the object properties window (after selecting the dataset in the workspace window), set the maximum no data value to -32768 and apply. After doing that, we can reset our color scale to fit the range of the data. An easy method is right clicking on the grid in the workspace and choosing 'Classification|Set Range to minimum maximum'."
 msgstr ""
+"Dessa pixlar har faktiskt inga data, så vi bör justera nodata-"
+"inställningarna: i fönstret för objektegenskaper (efter att du har valt "
+"datasetet i arbetsytans fönster) ställer du in det maximala värdet för inga "
+"data till -32768 och tillämpar. Därefter kan vi återställa vår färgskala så "
+"att den passar dataintervallet. En enkel metod är att högerklicka på "
+"rutnätet i arbetsytan och välja \"Classification|Set Range to minimum "
+"maximum\"."
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:259
 msgid "You are now ready to repeat the first steps to create a hillshaded map or explore some of the other modules of SAGA!"
 msgstr ""
+"Du är nu redo att upprepa de första stegen för att skapa en skuggad karta "
+"eller utforska några av de andra modulerna i SAGA!"
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:263
 msgid "What next?"
-msgstr ""
+msgstr "Hur vill du gå vidare?"
 
 #: ../../build/doc/quickstart/saga_quickstart.rst:264
 msgid "More documentation can be found on the SAGA website: * https://saga-gis.sourceforge.io/en/index.html * https://sourceforge.net/p/saga-gis/wiki/Documentation/"
 msgstr ""
+"Mer dokumentation finns på SAGA:s webbplats: * https://saga-gis.sourceforge."
+"io/en/index.html * https://sourceforge.net/p/saga-gis/wiki/Documentation/"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -257,9 +422,9 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

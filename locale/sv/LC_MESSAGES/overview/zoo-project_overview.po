@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "zoo-project_overview/sv/>\n"
 "Language: sv\n"
@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../../build/doc/overview/zoo-project_overview.rst:16
 msgid "Zoo Project"
-msgstr ""
+msgstr "Zoo Project"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:19
 msgid "WPS Server"
-msgstr ""
+msgstr "WPS-server"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:21
 msgid ""
@@ -42,34 +42,51 @@ msgid ""
 "third present how to interract with OTB applications runninng as WPS "
 "services."
 msgstr ""
+"ZOO-Project tillhandahåller ett utvecklarvänligt WPS-ramverk (Web Processing "
+"Service) för att skapa och kedja Web Processing Services. En WPS ger "
+"webbåtkomst till funktioner som kör rumsliga algoritmer. ZOO-Project stöder "
+"många programmeringsspråk och levereras med tre demoapplikationer. Den "
+"första använder de enkla spatialtools-tjänsterna baserade på biblioteken "
+":doc:`GEOS <geos_overview>` och :doc:`OGR <gdal_overview>`, den andra visar "
+"Voronoi- och Delaunay-triangulering (från CGAL-biblioteket) och den tredje "
+"presenterar hur man samverkar med OTB-applikationer som körs som WPS-"
+"tjänster."
 
 #: ../../build/doc/overview/zoo-project_overview.rst:26
 msgid ""
 "The three demontration applications are available from the ZOO-Project demo "
 "landing page presented bellow."
 msgstr ""
+"De tre demontrationsapplikationerna är tillgängliga från ZOO-Projects "
+"demolandingssida som presenteras nedan."
 
 #: ../../build/doc/overview/zoo-project_overview.rst:28
 msgid "ZOO is made of three parts:"
-msgstr ""
+msgstr "ZOO är uppbyggt av tre delar:"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:31
 msgid ""
 "*ZOO Kernel* : A powerful server-side C Kernel which makes it possible to "
 "manage and chain Web services coded in different programming languages."
 msgstr ""
+"*ZOO Kernel* : En kraftfull C-kärna på serversidan som gör det möjligt att "
+"hantera och kedja webbtjänster som kodas i olika programmeringsspråk."
 
 #: ../../build/doc/overview/zoo-project_overview.rst:34
 msgid ""
 "*ZOO Services* : A growing suite of example Web services based on various "
 "Open Source libraries."
 msgstr ""
+"*ZOO-tjänster* : Ett växande antal exempel på webbtjänster baserade på olika "
+"Open Source-bibliotek."
 
 #: ../../build/doc/overview/zoo-project_overview.rst:37
 msgid ""
 "*ZOO API* : A server-side JavaScript API able to call and chain the ZOO "
 "Services, which makes the development and chaining processes easier."
 msgstr ""
+"*ZOO API* : Ett JavaScript-API på serversidan som kan anropa och kedja ZOO-"
+"tjänsterna, vilket gör utvecklings- och kedjeprocesserna enklare."
 
 #: ../../build/doc/overview/zoo-project_overview.rst:40
 msgid ""
@@ -80,6 +97,11 @@ msgid ""
 "connect to numerous libraries and above all to simplify the Web service end-"
 "developer's job."
 msgstr ""
+"ZOO bygger på en \"WPS Service Kernel\" som utgör ZOO:s kärnsystem (även "
+"kallad ZOO Kernel). Den senare kan ladda dynamiska bibliotek och hantera dem "
+"som on-demand webbtjänster. ZOO Kernel är skriven på C-språk, men stöder "
+"flera vanliga programmeringsspråk för att kunna ansluta till många bibliotek "
+"och framför allt för att förenkla arbetet för den som utvecklar webbtjänster."
 
 #: ../../build/doc/overview/zoo-project_overview.rst:47
 msgid ""
@@ -90,10 +112,15 @@ msgid ""
 "and can now be implemented in C/C++, Fortran, Java, Python, PHP, Ruby, C# "
 "and JavaScript."
 msgstr ""
+"En ZOO-tjänst är en länk som består av en metadatafil (.zcfg) och koden för "
+"motsvarande implementation. Metadatafilen beskriver alla tillgängliga "
+"funktioner som kan anropas med en WPS Exec Request, samt önskad in- och "
+"utmatning. Services innehåller algoritmerna och funktionerna och kan nu "
+"implementeras i C/C++, Fortran, Java, Python, PHP, Ruby, C# och JavaScript."
 
 #: ../../build/doc/overview/zoo-project_overview.rstNone
 msgid "zoo-project screenshot"
-msgstr ""
+msgstr "zoo-project skärmdump"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:61
 msgid "Core Features"
@@ -101,15 +128,15 @@ msgstr "Kärnfunktioner"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:63
 msgid "Multi language WPS server"
-msgstr ""
+msgstr "WPS-server med flera språk"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:64
 msgid "Simple Web Service creation and deployment procedure"
-msgstr ""
+msgstr "Procedur för att skapa och distribuera enkla webbtjänster"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:65
 msgid "Simple WPS chaining with ZOO API"
-msgstr ""
+msgstr "Enkel WPS-kedjning med ZOO API"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:68
 msgid "Implemented Standards"
@@ -117,33 +144,39 @@ msgstr "Implementerade standarder"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:70
 msgid "OGC WPS 1.0.0"
-msgstr ""
+msgstr "OGC WPS 1.0.0"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:71
 msgid "OGC WPS 2.0.0"
-msgstr ""
+msgstr "OGC WPS 2.0.0"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:74
 msgid "Demo"
-msgstr ""
+msgstr "Demo"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:76
 msgid ""
 "`Demo using Services Provider based GEOS and OGR libraries "
 "<http://localhost/zoo-demo/ogr-example.html>`_"
 msgstr ""
+"`Demo med hjälp av Services Provider-baserade GEOS- och OGR-bibliotek "
+"<http://localhost/zoo-demo/ogr-example.html>`_"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:77
 msgid ""
 "`Demo using Services Provider based CGAL library <http://localhost/zoo-"
 "demo/cgal.html>`_"
 msgstr ""
+"`Demo med CGAL-bibliotek baserat på Services Provider <http://localhost/"
+"zoo-demo/cgal.html>`_"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:78
 msgid ""
 "`Demo using OTB Applications as WPS Services <http://localhost/zoo-demo/otb-"
 "example.html>`_"
 msgstr ""
+"`Demo med OTB-applikationer som WPS-tjänster <http://localhost/zoo-demo/otb-"
+"example.html>`_"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:82
 msgid "Details"
@@ -151,15 +184,15 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:84
 msgid "**Website:** https://zoo-project.org/"
-msgstr ""
+msgstr "**Webbplats:** https://zoo-project.org/"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:86
 msgid "**Licence:** MIT x/11"
-msgstr ""
+msgstr "**Licens:** MIT x/11"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:88
 msgid "**Software Version:** |version-zoo-project|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-zoo-project|"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:90
 msgid "**Supported Platforms:** Windows, Linux, Mac"
@@ -170,10 +203,12 @@ msgid ""
 "**Programing language support:** C, Python, Java, PHP, Fortran, Javascript, "
 "C#, Ruby"
 msgstr ""
+"**Stöd för programspråk:** C, Python, Java, PHP, Fortran, Javascript, C#, "
+"Ruby"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:94
 msgid "**Support:** https://zoo-project.org/"
-msgstr ""
+msgstr "**Support:** https://zoo-project.org/"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:100
 msgid "Quickstart"
@@ -181,7 +216,7 @@ msgstr "Snabbstart"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:102
 msgid ":doc:`Quickstart documentation <../quickstart/zoo-project_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snabbstartsdokumentation <../quickstart/zoo-project_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -193,8 +228,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

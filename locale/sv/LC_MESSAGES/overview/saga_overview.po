@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-17 21:23+0000\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "saga_overview/sv/>\n"
 "Language: sv\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../build/doc/overview/saga_overview.rst:14
 msgid "SAGA"
-msgstr ""
+msgstr "SAGA"
 
 #: ../../build/doc/overview/saga_overview.rst:17
 msgid "Desktop GIS"
@@ -41,6 +41,14 @@ msgid ""
 "development) and terrain analysis. The functionality can be accessed through"
 " a GUI, the command line or by using the C++ API."
 msgstr ""
+"SAGA (System for Automated Geoscientific Analyses) är ett geografiskt "
+"informationssystem (GIS) med öppen källkod som används för att redigera och "
+"analysera rumsliga data. Det innehåller ett stort antal moduler för analys "
+"av vektor- (punkt, linje och polygon), tabell-, rutnäts- och bilddata. "
+"Paketet innehåller bl.a. moduler för geostatistik, bildklassificering, "
+"projektioner, simulering av dynamiska processer (hydrologi, "
+"landskapsutveckling) och terränganalys. Funktionaliteten kan nås via ett "
+"GUI, kommandoraden eller genom att använda C++ API."
 
 #: ../../build/doc/overview/saga_overview.rst:28
 msgid ""
@@ -48,10 +56,13 @@ msgid ""
 "is located in the Institute of Geography at the University of Hamburg, with "
 "contributions from the growing world wide community."
 msgstr ""
+"SAGA har varit under utveckling sedan 2001, och centrum för SAGA-"
+"utvecklingen ligger vid Institute of Geography vid Hamburgs universitet, med "
+"bidrag från den växande världsomspännande gemenskapen."
 
 #: ../../build/doc/overview/saga_overview.rstNone
 msgid "saga screenshot"
-msgstr ""
+msgstr "saga skärmdump"
 
 #: ../../build/doc/overview/saga_overview.rst:39
 msgid "Core Features"
@@ -62,63 +73,67 @@ msgid ""
 "Access to a large number of scientific modules via the Graphical User "
 "Interface or the command line"
 msgstr ""
+"Tillgång till ett stort antal vetenskapliga moduler via det grafiska "
+"användargränssnittet eller kommandoraden"
 
 #: ../../build/doc/overview/saga_overview.rst:43
 msgid "Import/Export to different file formats"
-msgstr ""
+msgstr "Importera/exportera till olika filformat"
 
 #: ../../build/doc/overview/saga_overview.rst:44
 msgid "Reprojection/Resampling of data"
-msgstr ""
+msgstr "Reprojicering/omsampling av data"
 
 #: ../../build/doc/overview/saga_overview.rst:45
 msgid "Manipulation of vector data (merging/intersection/attributes)"
-msgstr ""
+msgstr "Manipulering av vektordata (sammanslagning/korsning/attribut)"
 
 #: ../../build/doc/overview/saga_overview.rst:46
 msgid "Manipulation of point clouds from lidar data"
-msgstr ""
+msgstr "Manipulering av punktmoln från lidardata"
 
 #: ../../build/doc/overview/saga_overview.rst:47
 msgid "Raster data: interpolation, cost analysis, ..."
-msgstr ""
+msgstr "Rasterdata: interpolering, kostnadsanalys, ..."
 
 #: ../../build/doc/overview/saga_overview.rst:48
 msgid ""
 "Image analysis: filters, edge detection, cluster analysis, segmentation"
-msgstr ""
+msgstr "Bildanalys: filter, kantdetektering, klusteranalys, segmentering"
 
 #: ../../build/doc/overview/saga_overview.rst:49
 msgid ""
 "Digital Terrain Analysis: generate geomorphometric indexes, channel "
 "networks, profiles, contour lines, ..."
 msgstr ""
+"Digital Terrain Analysis: generera geomorfometriska index, kanalnätverk, "
+"profiler, konturlinjer, ..."
 
 #: ../../build/doc/overview/saga_overview.rst:50
 msgid "Geostatistics: modules for variogram fitting and kriging"
-msgstr ""
+msgstr "Geostatistik: moduler för variogramanpassning och kriging"
 
 #: ../../build/doc/overview/saga_overview.rst:52
 msgid "Fast user interface for managing and visualising data"
-msgstr ""
+msgstr "Snabbt användargränssnitt för hantering och visualisering av data"
 
 #: ../../build/doc/overview/saga_overview.rst:54
 msgid "3D visualisation"
-msgstr ""
+msgstr "3D-visualisering"
 
 #: ../../build/doc/overview/saga_overview.rst:56
 msgid "Straightforward C++ API for creating new modules"
-msgstr ""
+msgstr "Enkelt C++ API för att skapa nya moduler"
 
 #: ../../build/doc/overview/saga_overview.rst:57
 msgid "Scripting through command line, bindings for Python"
-msgstr ""
+msgstr "Skriptning via kommandoraden, bindningar för Python"
 
 #: ../../build/doc/overview/saga_overview.rst:58
 msgid ""
 "SAGA can be accessed from the R statistical language through the RSAGA "
 "module"
-msgstr ""
+msgstr "SAGA kan nås från det statistiska språket R via RSAGA-modulen"
 
 #: ../../build/doc/overview/saga_overview.rst:61
 msgid "Details"
@@ -126,27 +141,27 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/saga_overview.rst:63
 msgid "**Website:** https://saga-gis.sourceforge.io/en/index.html"
-msgstr ""
+msgstr "**Webbplats:** https://saga-gis.sourceforge.io/en/index.html"
 
 #: ../../build/doc/overview/saga_overview.rst:65
 msgid "**Licence:** LGPL v2.1 (api); GPLv2 (GUI and modules)"
-msgstr ""
+msgstr "**Licens:** LGPL v2.1 (api); GPLv2 (GUI och moduler)"
 
 #: ../../build/doc/overview/saga_overview.rst:67
 msgid "**Software Version:** |version-saga|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-saga|"
 
 #: ../../build/doc/overview/saga_overview.rst:69
 msgid "**Supported Platforms:** Windows, Linux, FreeBSD"
-msgstr ""
+msgstr "**Plattformar som stöds:** Windows, Linux, FreeBSD"
 
 #: ../../build/doc/overview/saga_overview.rst:71
 msgid "**API Interfaces:** C++, Python, R"
-msgstr ""
+msgstr "**API-gränssnitt:** C++, Python, R"
 
 #: ../../build/doc/overview/saga_overview.rst:73
 msgid "**Support:** https://sourceforge.net/p/saga-gis/mailman/"
-msgstr ""
+msgstr "**Support:** https://sourceforge.net/p/saga-gis/mailman/"
 
 #: ../../build/doc/overview/saga_overview.rst:79
 msgid "Quickstart"
@@ -154,7 +169,7 @@ msgstr "Snabbstart"
 
 #: ../../build/doc/overview/saga_overview.rst:81
 msgid ":doc:`Quickstart documentation <../quickstart/saga_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snabbstartsdokumentation <../quickstart/saga_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -166,8 +181,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

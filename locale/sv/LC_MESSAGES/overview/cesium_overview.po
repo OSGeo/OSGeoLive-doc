@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "cesium_overview/sv/>\n"
 "Language: sv\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../build/doc/overview/cesium_overview.rst:13
 msgid "Cesium"
-msgstr ""
+msgstr "Cesium"
 
 #: ../../build/doc/overview/cesium_overview.rst:16
 msgid "About"
@@ -32,7 +32,7 @@ msgstr "Om"
 
 #: ../../build/doc/overview/cesium_overview.rst:19
 msgid "3D Globes and 2D Maps in a Browser"
-msgstr ""
+msgstr "3D-glober och 2D-kartor i en webbläsare"
 
 #: ../../build/doc/overview/cesium_overview.rst:21
 msgid ""
@@ -41,10 +41,14 @@ msgid ""
 "graphics, and is cross-platform, cross-browser, and tuned for dynamic-data "
 "visualization."
 msgstr ""
+"Cesium är ett JavaScript-bibliotek för att skapa 3D-glober och 2D-kartor i "
+"en webbläsare utan några plugins. Det använder WebGL för hårdvaruaccelererad "
+"grafik och är plattformsoberoende, webbläsaroberoende och anpassat för "
+"visualisering av dynamisk data."
 
 #: ../../build/doc/overview/cesium_overview.rstNone
 msgid "cesium screenshot"
-msgstr ""
+msgstr "cesium skärmdump"
 
 #: ../../build/doc/overview/cesium_overview.rst:30
 msgid "Core Features"
@@ -52,52 +56,62 @@ msgstr "Kärnfunktioner"
 
 #: ../../build/doc/overview/cesium_overview.rst:31
 msgid "Dynamic Geospatial Visualization:"
-msgstr ""
+msgstr "Dynamisk geospatial visualisering:"
 
 #: ../../build/doc/overview/cesium_overview.rst:33
 msgid ""
 "Create data-driven, time-dynamic scenes with `CZML "
 "<https://github.com/CesiumGS/cesium/wiki/CZML-Guide>`_."
 msgstr ""
+"Skapa datadrivna, tidsdynamiska scener med `CZML <https://github.com/"
+"CesiumGS/cesium/wiki/CZML-Guide>`_."
 
 #: ../../build/doc/overview/cesium_overview.rst:34
 msgid "Visualize high-resolution worldwide terrain."
-msgstr ""
+msgstr "Visualisera högupplöst världsomspännande terräng."
 
 #: ../../build/doc/overview/cesium_overview.rst:35
 msgid ""
 "Draw imagery layers using WMS, TMS, OpenStreetMaps, Bing, and Esri "
 "standards."
 msgstr ""
+"Rita bildlager med hjälp av WMS-, TMS-, OpenStreetMaps-, Bing- och Esri-"
+"standarder."
 
 #: ../../build/doc/overview/cesium_overview.rst:36
 msgid "Draw vector data from GeoJSON and TopoJSON."
-msgstr ""
+msgstr "Rita vektordata från GeoJSON och TopoJSON."
 
 #: ../../build/doc/overview/cesium_overview.rst:37
 msgid "Draw 3D models using COLLADA and glTF."
-msgstr ""
+msgstr "Rita 3D-modeller med hjälp av COLLADA och glTF."
 
 #: ../../build/doc/overview/cesium_overview.rst:38
 msgid ""
 "Use `plugins <https://cesium.com/platform/cesiumjs/>`_ to extend Cesium."
 msgstr ""
+"Använd `plugins <https://cesium.com/platform/cesiumjs/>`_ för att utöka "
+"Cesium."
 
 #: ../../build/doc/overview/cesium_overview.rst:40
 msgid "Built for Performance and Precision:"
-msgstr ""
+msgstr "Byggd för prestanda och precision:"
 
 #: ../../build/doc/overview/cesium_overview.rst:42
 msgid ""
 "Optimized WebGL with batching and culling efficiently uses hardware-"
 "accelerated graphics."
 msgstr ""
+"Optimerad WebGL med batching och culling använder hårdvaruaccelererad grafik "
+"på ett effektivt sätt."
 
 #: ../../build/doc/overview/cesium_overview.rst:43
 msgid ""
 "Draw a wide range of geometries including polylines, polygons, billboards, "
 "labels, extrusions, and corridors."
 msgstr ""
+"Rita ett brett spektrum av geometrier, inklusive polylinjer, polygoner, "
+"skyltar, etiketter, profiler och korridorer."
 
 #: ../../build/doc/overview/cesium_overview.rst:44
 msgid ""
@@ -106,26 +120,33 @@ msgid ""
 "including photogrammetry models, 3D buildings, CAD and BIM exterior and "
 "interiors, and point clouds."
 msgstr ""
+"Använd `3D Tiles <https://cesium.com/blog/2017/07/12/"
+"the-next-generation-of-3d-tiles/>`_ för att strömma, styla och interagera "
+"med heterogena 3D-data, inklusive fotogrammetriska modeller, 3D-byggnader, "
+"CAD- och BIM-exteriör och -interiör samt punktmoln."
 
 #: ../../build/doc/overview/cesium_overview.rst:45
 msgid "Control the camera and create flight paths."
-msgstr ""
+msgstr "Styr kameran och skapa flygbanor."
 
 #: ../../build/doc/overview/cesium_overview.rst:46
 msgid ""
 "Use standard widgets to control animation time, select imagery layers, and "
 "zoom to a location."
 msgstr ""
+"Använd standardwidgets för att styra animationstiden, välja bildlager och "
+"zooma till en plats."
 
 #: ../../build/doc/overview/cesium_overview.rst:48
 msgid "One API, Three Views:"
-msgstr ""
+msgstr "Ett API, tre vyer:"
 
 #: ../../build/doc/overview/cesium_overview.rst:50
 msgid ""
 "Cesium supports a 3D globe, 2D map, and 2.5D Columbus View with the same "
 "API."
 msgstr ""
+"Cesium stöder en 3D-glob, 2D-karta och 2,5D Columbus View med samma API."
 
 #: ../../build/doc/overview/cesium_overview.rst:53
 msgid "Implemented Standards"
@@ -133,7 +154,7 @@ msgstr "Implementerade standarder"
 
 #: ../../build/doc/overview/cesium_overview.rst:54
 msgid "WMS and WMTS"
-msgstr ""
+msgstr "WMS och WMTS"
 
 #: ../../build/doc/overview/cesium_overview.rst:57
 msgid "Details"
@@ -141,25 +162,27 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/cesium_overview.rst:59
 msgid "**Website:** https://cesium.com/"
-msgstr ""
+msgstr "**Webbplats:** https://cesium.com/"
 
 #: ../../build/doc/overview/cesium_overview.rst:61
 msgid "**Licence:** Apache 2.0 license"
-msgstr ""
+msgstr "**Licens:** Apache 2.0-licens"
 
 #: ../../build/doc/overview/cesium_overview.rst:63
 msgid "**Software Version:** |version-cesium|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-cesium|"
 
 #: ../../build/doc/overview/cesium_overview.rst:65
 msgid ""
 "**Supported Platforms:** Platform independent, depends only on a browser "
 "which supports WebGL"
 msgstr ""
+"**Plattformar som stöds:** Plattformsoberoende, kräver endast en webbläsare "
+"med stöd för WebGL"
 
 #: ../../build/doc/overview/cesium_overview.rst:67
 msgid "**Community Support:** Forum at https://community.cesium.com"
-msgstr ""
+msgstr "**Gemenskapsstöd:** Forum på https://community.cesium.com"
 
 #: ../../build/doc/overview/cesium_overview.rst:72
 msgid "Quickstart"
@@ -167,7 +190,7 @@ msgstr "Snabbstart"
 
 #: ../../build/doc/overview/cesium_overview.rst:74
 msgid ":doc:`Quickstart documentation <../quickstart/cesium_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snabbstartsdokumentation <../quickstart/cesium_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -179,8 +202,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

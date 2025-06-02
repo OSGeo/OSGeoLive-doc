@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-21 20:28+0000\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "opencpn_quickstart/sv/>\n"
 "Language: sv\n"
@@ -21,111 +21,142 @@ msgstr ""
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:19
 msgid "OpenCPN Quickstart"
-msgstr ""
+msgstr "OpenCPN Snabbstart"
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:21
 msgid "OpenCPN is a concise Chart Plotter and Navigator (CPN). As always, never use a piece of software or electronic equipment as your only means of navigation and keep an eye out the window."
 msgstr ""
+"OpenCPN är en kortfattad kartplotter och navigator (CPN). Som alltid ska du "
+"aldrig använda programvara eller elektronisk utrustning som enda "
+"navigationshjälpmedel och alltid hålla ett öga ut genom fönstret."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:27
 msgid "Contents"
-msgstr ""
+msgstr "Innehåll"
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:30
 msgid "Setting up your charts"
-msgstr ""
+msgstr "Konfigurera dina diagram"
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:32
 msgid "Before running OpenCPN on the LiveDVD you should activate the sample data. This is a condition of redistributing NOAA's free nautical charts. The first time you open OpenCPN you are presented with the option to do this automatically."
 msgstr ""
+"Innan du kör OpenCPN på LiveDVD:n bör du aktivera exempeldata. Detta är ett "
+"villkor för att få vidaredistribuera NOAA:s kostnadsfria sjökort. Första "
+"gången du öppnar OpenCPN får du möjlighet att göra detta automatiskt."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:35
 msgid "From the Start menu, select |menu_opencpn|."
-msgstr ""
+msgstr "Välj |menu_opencpn| från Start-menyn."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:36
 msgid "Click :guilabel:`I agree` to the NOAA Nautical Chart Data Agreement."
 msgstr ""
+"Klicka på :guilabel:`Jag godkänner` till NOAA Nautical Chart Data Agreement."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:37
 msgid "Click :guilabel:`OK` to agree to the OpenCPN license."
-msgstr ""
+msgstr "Klicka på :guilabel:`OK` för att godkänna OpenCPN-licensen."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:41
 msgid "You can download additional US nautical charts from NOAA at https://www.charts.noaa.gov/"
 msgstr ""
+"Du kan ladda ner ytterligare amerikanska sjökort från NOAA på https://www."
+"charts.noaa.gov/"
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:45
 msgid "Setting up your GPS"
-msgstr ""
+msgstr "Konfigurera din GPS"
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:47
 msgid "If you have a GPS connected you will want to start the gpsd service. To do that, open a terminal and run:"
 msgstr ""
+"Om du har en GPS ansluten vill du starta tjänsten gpsd. För att göra det, "
+"öppna en terminal och kör:"
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:54
 msgid "and"
-msgstr ""
+msgstr "och"
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:60
 msgid "BlueTooth GPS users should take special care to read up about the no-probe option."
 msgstr ""
+"BlueTooth GPS-användare bör vara särskilt noga med att läsa på om "
+"alternativet utan sond."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:66
 msgid "'`xgps`' is a good program to check that Gpsd can see your GPS ok."
 msgstr ""
+"'`xgps`' är ett bra program för att kontrollera att Gpsd kan se din GPS ok."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:70
 msgid "Things to try"
-msgstr ""
+msgstr "Saker att prova"
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:72
 msgid "Current weather and wave forecast data can be downloaded and draped over your charts using the GRIB plugin. The :doc:`XyGrib software <../overview/xygrib_overview>` (also on this disc) is an easy way to download that."
 msgstr ""
+"Aktuella väder- och vågprognosdata kan hämtas och draperas över dina diagram "
+"med hjälp av GRIB-plugin. I :doc:`XyGrib-programvaran <../overview/"
+"xygrib_overview>` (finns också på den här skivan) kan du enkelt ladda ner "
+"den."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:74
 msgid "Click the :guilabel:`Options` icon on the toolbar. The Options window displays."
 msgstr ""
+"Klicka på ikonen :guilabel:`Options` i verktygsfältet. Fönstret Options "
+"visas."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:75
 msgid "Select the :guilabel:`Plugins` tab."
-msgstr ""
+msgstr "Välj fliken :guilabel:`Plugins`."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:76
 msgid "Choose GRIB and then click :guilabel:`Enable`."
-msgstr ""
+msgstr "Välj GRIB och klicka sedan på :guilabel:`Enable`."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:77
 msgid "Click :guilabel:`OK`. A windsock icon is now displayed on the toolbar."
 msgstr ""
+"Klicka på :guilabel:`OK`. En ikon för vindsockan visas nu i verktygsfältet."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:80
 msgid "Run through the :doc:`XyGrib quickstart <../quickstart/xygrib_quickstart>` and load the XyGrib file over your chart."
 msgstr ""
+"Gå igenom :doc:`XyGrib quickstart <../quickstart/xygrib_quickstart>` och "
+"ladda XyGrib-filen över ditt diagram."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:82
 msgid "If you saved the XyGrib file into your home directory, navigate to :file:`/home` and select your ``user`` directory as the GRIB data directory. Then right click on the file listing's background to show hidden files, including the ``.xygrib`` directory that contains the GRIB download files."
 msgstr ""
+"Om du sparade XyGrib-filen i din hemkatalog, navigera till :file:`/home` och "
+"välj din ``user``-katalog som GRIB-datakatalog. Högerklicka sedan på "
+"fillistningens bakgrund för att visa dolda filer, inklusive katalogen ``."
+"xygrib`` som innehåller GRIB-nedladdningsfilerna."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:84
 msgid "There is no need to uncompress the file. Click on the \">\" to the left of the filename and select from the list of available forecast times."
 msgstr ""
+"Det finns inget behov av att komprimera filen. Klicka på \">\" till vänster "
+"om filnamnet och välj från listan över tillgängliga prognostider."
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:88
 msgid "What next?"
-msgstr ""
+msgstr "Hur vill du gå vidare?"
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:90
 msgid "Documentation is available from the Help menu or online at https://opencpn.org/OpenCPN/info/manuals.html"
 msgstr ""
+"Dokumentation finns tillgänglig i Hjälp-menyn eller online på https://opencpn"
+".org/OpenCPN/info/manuals.html"
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:95
 msgid "Website: https://www.opencpn.org"
-msgstr ""
+msgstr "Webbplats: https://www.opencpn.org"
 
 #: ../../build/doc/quickstart/opencpn_quickstart.rst:97
 msgid "Support: https://www.cruisersforum.com/forums/f134"
-msgstr ""
+msgstr "Support: https://www.cruisersforum.com/forums/f134"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -137,9 +168,9 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

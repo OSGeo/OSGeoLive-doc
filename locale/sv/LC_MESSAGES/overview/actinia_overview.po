@@ -10,8 +10,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "actinia_overview/sv/>\n"
 "Language: sv\n"
@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../../build/doc/overview/actinia_overview.rst:18
 msgid "actinia"
-msgstr ""
+msgstr "actinia"
 
 #: ../../build/doc/overview/actinia_overview.rst:21
 msgid "High Performance Geospatial Processing"
-msgstr ""
+msgstr "Geospatial bearbetning med hög prestanda"
 
 #: ../../build/doc/overview/actinia_overview.rst:23
 msgid ""
@@ -37,6 +37,10 @@ msgid ""
 "data that uses mainly `GRASS GIS <https://grass.osgeo.org/>`__ for "
 "computational tasks."
 msgstr ""
+"`Actinia <https://actinia.mundialis.de/>`__ är ett REST API med öppen "
+"källkod för skalbar, distribuerad, högpresterande bearbetning av geografiska "
+"data som huvudsakligen använder `GRASS GIS <https://grass.osgeo.org/>`__ för "
+"beräkningsuppgifter."
 
 #: ../../build/doc/overview/actinia_overview.rst:28
 msgid ""
@@ -44,10 +48,13 @@ msgid ""
 "satellite images, arbitrary raster data with geographical relations and "
 "vector data."
 msgstr ""
+"Det tillhandahåller ett REST API för att bearbeta satellitbilder, tidsserier "
+"av satellitbilder, godtyckliga rasterdata med geografiska relationer och "
+"vektordata."
 
 #: ../../build/doc/overview/actinia_overview.rst:-1
 msgid "actinia screenshot"
-msgstr ""
+msgstr "aktinia skärmdump"
 
 #: ../../build/doc/overview/actinia_overview.rst:39
 msgid "Core Features"
@@ -58,10 +65,13 @@ msgid ""
 "REST API to process satellite images, time series of satellite images, "
 "raster and vector data."
 msgstr ""
+"REST API för att bearbeta satellitbilder, tidsserier av satellitbilder, "
+"raster- och vektordata."
 
 #: ../../build/doc/overview/actinia_overview.rst:42
 msgid "Explore the `tutorial <https://actinia-org.github.io/actinia-core/>`_."
 msgstr ""
+"Utforska \"handledningen\" <https://actinia-org.github.io/actinia-core/>`_."
 
 #: ../../build/doc/overview/actinia_overview.rst:45
 msgid "Details"
@@ -69,39 +79,41 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/actinia_overview.rst:47
 msgid "**Website:** https://actinia.mundialis.de/"
-msgstr ""
+msgstr "**Webbplats:** https://actinia.mundialis.de/"
 
 #: ../../build/doc/overview/actinia_overview.rst:49
 msgid "**Licence:** GNU General Public License (GPL) version 3"
-msgstr ""
+msgstr "**Licens:** GNU General Public License (GPL) version 3"
 
 #: ../../build/doc/overview/actinia_overview.rst:51
 msgid "**Software Version:** |version-actinia|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-actinia|"
 
 #: ../../build/doc/overview/actinia_overview.rst:53
 msgid "**Supported Platforms:** GNU/Linux, Mac OSX, MS Windows"
-msgstr ""
+msgstr "**Plattformar som stöds:** GNU/Linux, Mac OSX, MS Windows"
 
 #: ../../build/doc/overview/actinia_overview.rst:55
 msgid "**API Interfaces:** REST API, Python"
-msgstr ""
+msgstr "**API-gränssnitt:** REST API, Python"
 
 #: ../../build/doc/overview/actinia_overview.rst:57
 msgid ""
 "**API documentation:** "
 "https://redocly.github.io/redoc/?url=https://actinia.mundialis.de/latest/swagger.json"
 msgstr ""
+"**Dokumentation om API:** https://redocly.github.io/redoc/"
+"?url=https://actinia.mundialis.de/latest/swagger.json"
 
 #: ../../build/doc/overview/actinia_overview.rst:59
 msgid "**Support:** https://github.com/actinia-org/actinia-core"
-msgstr ""
+msgstr "**Support:** https://github.com/actinia-org/actinia-core"
 
 #: ../../build/doc/overview/actinia_overview.rst:61
 msgid ""
 "This project is only included on the OSGeoLive virtual machine disk "
 "(VMDK)"
-msgstr ""
+msgstr "Detta projekt ingår endast på OSGeoLives virtuella maskindisk (VMDK)"
 
 #: ../../build/doc/overview/actinia_overview.rst:64
 msgid "Quickstart"
@@ -109,7 +121,7 @@ msgstr "Snabbstart"
 
 #: ../../build/doc/overview/actinia_overview.rst:66
 msgid ":doc:`Quickstart documentation <../quickstart/actinia_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snabbstartsdokumentation <../quickstart/actinia_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -121,8 +133,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

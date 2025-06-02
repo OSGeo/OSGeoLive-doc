@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-21 20:28+0000\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "r_quickstart/sv/>\n"
 "Language: sv\n"
@@ -21,159 +21,228 @@ msgstr ""
 
 #: ../../build/doc/quickstart/R_quickstart.rst:18
 msgid "R Quickstart"
-msgstr ""
+msgstr "R Snabbstart"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:20
 msgid "R is a free software environment for statistical computing and graphics."
-msgstr ""
+msgstr "R är en fri mjukvarumiljö för statistiska beräkningar och grafik."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:22
 msgid "This Quick Start describes how to:"
-msgstr ""
+msgstr "Denna snabbstart beskriver hur du gör:"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:24
 msgid "use R for simple arithmetic"
-msgstr ""
+msgstr "använda R för enkel aritmetik"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:25
 msgid "load some data from a shapefile and map it"
-msgstr ""
+msgstr "ladda data från en shapefil och kartlägga den"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:26
 msgid "do a coordinate transformation"
-msgstr ""
+msgstr "göra en koordinattransformation"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:27
 msgid "plot some data points on a map"
-msgstr ""
+msgstr "plotta några datapunkter på en karta"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:31
 msgid "Contents"
-msgstr ""
+msgstr "Innehåll"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:34
 msgid "Start R"
-msgstr ""
+msgstr "Starta R"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:35
 msgid "R is essentially a command-line program, although graphical user interfaces are available. You type a line of code at the prompt, press return, and the R interpreter evaluates it and prints the result."
 msgstr ""
+"R är i huvudsak ett kommandoradsprogram, även om grafiska användargränssnitt "
+"finns tillgängliga. Du skriver en kodrad vid prompten, trycker på retur, och "
+"R-tolken utvärderar den och skriver ut resultatet."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:40
 msgid "Don't fear the command line - it is a source of great power. Using the up and down arrows to recall commands so you can edit mistakes. Hit CTRL-C if get stuck and you should get the prompt back."
 msgstr ""
+"Var inte rädd för kommandoraden - den är en källa till stor kraft. Använd "
+"upp- och nedpilarna för att återkalla kommandon så att du kan redigera "
+"misstag. Tryck på CTRL-C om du fastnar och du bör få tillbaka prompten."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:43
 msgid "Choose |menu_R Statistics|. A terminal window opens running R."
-msgstr ""
+msgstr "Välj |menu_R Statistics|. Ett terminalfönster öppnas där R körs."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:45
 msgid "You can start with simple arithmetic."
-msgstr ""
+msgstr "Du kan börja med enkel aritmetik."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:62
 msgid "A full range of arithmetic, trigonometric, and statistical functions are built-in, and thousands more are available from packages in the `CRAN <https://cran.r-project.org/>`_ archive."
 msgstr ""
+"Ett komplett utbud av aritmetiska, trigonometriska och statistiska "
+"funktioner är inbyggda och tusentals fler finns tillgängliga från paket i "
+"arkivet `CRAN <https://cran.r-project.org/>`_."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:66
 msgid "The main prompt in R is ``>``, but there is also the continuation prompt ``+``, which appears if R expects more input to make a valid expression. You'll see this if you forget a closing bracket or parenthesis."
 msgstr ""
+"Huvudprompten i R är ``>``, men det finns också en fortsättningsprompt ``+``"
+", som visas om R förväntar sig mer inmatning för att skapa ett giltigt "
+"uttryck. Du ser det här om du glömmer en avslutande parentes eller klammer."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:79
 msgid "Building data"
-msgstr ""
+msgstr "Byggnadsdata"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:81
 msgid "You might be wondering what the mysterious 'one' in square brackets is doing in the output. This is telling you that the result is one number. R can store things in one-dimensional vectors, two-dimensional matrices, and multi-dimensional arrays. There are many functions that can generate these things. Here's a simple sequence:"
 msgstr ""
+"Du kanske undrar vad det mystiska \"ett\" inom hakparentes gör i "
+"utmatningen. Detta talar om för dig att resultatet är ett tal. R kan lagra "
+"saker i endimensionella vektorer, tvådimensionella matriser och "
+"flerdimensionella matriser. Det finns många funktioner som kan generera "
+"dessa saker. Här är en enkel sekvens:"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:93
 msgid "Now you can see that the ``[9]`` is telling us that 4.555 is the ninth value in the vector."
 msgstr ""
+"Nu kan du se att ``[9]`` talar om för oss att 4,555 är det nionde värdet i "
+"vektorn."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:96
 msgid "If you construct a matrix you get row and column labels:"
-msgstr ""
+msgstr "Om du konstruerar en matris får du rad- och kolumnbeteckningar:"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:107
 msgid "Elements of matrices can be extracted using square brackets, with row and column indices separated by commas. Leave an index blank to get a whole row as a vector. Use a vector index to get multiple rows or columns as a smaller matrix:"
 msgstr ""
+"Element i matriser kan extraheras med hjälp av hakparenteser, med rad- och "
+"kolumnindex åtskilda med kommatecken. Lämna ett index tomt för att få en hel "
+"rad som en vektor. Använd ett vektorindex för att få flera rader eller "
+"kolumner som en mindre matris:"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:125
 msgid "Data frames are data structures that mirror the kind of structure found in an RDBMS such as Postgres or MySQL. Each row can be thought of as a record, with columns being like fields in a database. As in a database, each field must be of the same type for each record."
 msgstr ""
+"Dataramar är datastrukturer som speglar den typ av struktur som finns i en "
+"RDBMS som Postgres eller MySQL. Varje rad kan betraktas som en post, medan "
+"kolumnerna är som fält i en databas. Precis som i en databas måste varje "
+"fält vara av samma typ för varje post."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:130
 msgid "In many ways they work like matrices, but you can also get and set the columns by name using $-notation:"
 msgstr ""
+"På många sätt fungerar de som matriser, men du kan också få och ställa in "
+"kolumnerna med namn med hjälp av $-notation:"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:174
 msgid "Loading map data"
-msgstr ""
+msgstr "Ladda kartdata"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:176
 msgid "There are many packages for spatial data manipulation and statistics. Some are included here, and some can be downloaded from CRAN."
 msgstr ""
+"Det finns många paket för hantering av rumsliga data och statistik. Vissa "
+"finns med här och andra kan laddas ner från CRAN."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:179
 msgid "Here we will load two shapefiles - the country boundaries and populated places from the Natural Earth data. We use two add-on packages to get the spatial functionality:"
 msgstr ""
+"Här kommer vi att ladda två shapefiler - landsgränser och befolkade platser "
+"från Natural Earth-data. Vi använder två tilläggspaket för att få den "
+"rumsliga funktionaliteten:"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:192
 msgid "This gives us a simple map of the world:"
-msgstr ""
+msgstr "Detta ger oss en enkel karta över världen:"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:196
 msgid "When an OGR dataset is read into R in this way we get back an object that behaves in many ways like a data frame. We can use the ``admin`` field to subset the world data and just get the UK:"
 msgstr ""
+"När en OGR-datauppsättning läses in i R på det här sättet får vi tillbaka "
+"ett objekt som på många sätt beter sig som en dataram. Vi kan använda fältet "
+"``admin`` för att dela upp världsdata och bara få Storbritannien:"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:207
 msgid "This looks a bit squashed to anyone who lives here, since we are more familiar with a coordinate system centred at our latitude. Currently the object doesn't have a coordinate system assigned to it."
 msgstr ""
+"Det här ser lite knasigt ut för alla som bor här, eftersom vi är mer bekanta "
+"med ett koordinatsystem som är centrerat kring vår latitud. För närvarande "
+"har objektet inte tilldelats något koordinatsystem."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:211
 msgid "We need to assign a CRS to the object before we can transform it with the sf::st_transform function from the sf package. We transform to EPSG:27700 which is the Ordnance Survey of Great Britain grid system:"
 msgstr ""
+"Vi måste tilldela objektet en CRS innan vi kan transformera det med "
+"funktionen sf::st_transform från sf-paketet. Vi transformerar till EPSG:"
+"27700 som är Ordnance Survey of Great Britain grid system:"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:222
 msgid "This plots the base map of the transformed data. Now we want to add some points from the populated place data set. Again we subset the points we want and transform them to Ordnance Survey Grid Reference coordinates:"
 msgstr ""
+"Detta plottar baskartan för de transformerade uppgifterna. Nu vill vi lägga "
+"till några punkter från datauppsättningen med befolkade platser. Återigen "
+"väljer vi ut de punkter vi vill ha och omvandlar dem till koordinater för "
+"Ordnance Survey Grid Reference:"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:232
 msgid "We add these points to the base map, scaling their size by scaled square root of the population (because that makes a symbol with area proportional to population), set the colour to red and the plotting character to a solid blob:"
 msgstr ""
+"Vi lägger till dessa punkter på baskartan, skalar deras storlek med den "
+"skalade kvadratroten av befolkningen (eftersom det ger en symbol med en yta "
+"som är proportionell mot befolkningen), ställer in färgen på röd och "
+"plottningskaraktären på en solid klump:"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:252
 msgid "and our final image appears:"
-msgstr ""
+msgstr "och vår slutliga bild visas:"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:257
 msgid "To quit R, type ``q()`` and hit return. R will ask you if you want to save your workspace as an R data image file. When you start R again from a directory with a ``.RData`` file it will restore all its data from there."
 msgstr ""
+"Avsluta R genom att skriva ``q()`` och trycka på returtangenten. R kommer "
+"att fråga dig om du vill spara din arbetsyta som en R data image-fil. När du "
+"startar R igen från en katalog med filen ``.RData`` återställer den alla "
+"data därifrån."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:260
 msgid "Vignettes"
-msgstr ""
+msgstr "Vinjetter"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:262
 msgid "In the past, the documentation for R packages tended to be tersely-written help pages for each function. Now package authors are encouraged to write a 'vignette' as a friendly introduction to the package. If you run the ``vignette()`` function with no arguments you will get the list of those vignettes on your system. Try ``vignette(\"sf1\")`` for a slightly technical introduction to the R spatial package."
 msgstr ""
+"Tidigare tenderade dokumentationen för R-paket att vara kortfattat skrivna "
+"hjälpsidor för varje funktion. Nu uppmuntras paketförfattare att skriva en "
+"\"vignette\" som en vänlig introduktion till paketet. Om du kör funktionen "
+"``vignette()`` utan argument får du en lista över de vinjetter som finns i "
+"ditt system. Prova ``vignette(\"sf1\")`` för en något teknisk introduktion "
+"till R spatial-paketet."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:269
 msgid "What next?"
-msgstr ""
+msgstr "Hur vill du gå vidare?"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:271
 msgid "For general information about R, try the official `Introduction to R <https://cran.r-project.org/doc/manuals/R-intro.html>`_ or any of the documentation from the main `R Project <https://www.r-project.org/>`_ page."
 msgstr ""
+"För allmän information om R, prova den officiella `Introduction to R "
+"<https://cran.r-project.org/doc/manuals/R-intro.html>`_ eller någon av "
+"dokumentationerna från huvudsidan för `R Project <https://www.r-project.org/"
+">`_."
 
 #: ../../build/doc/quickstart/R_quickstart.rst:273
 msgid "For more information on spatial aspects of R, the best place to start is probably the `R Spatial Task View <https://cran.r-project.org/web/views/Spatial.html>`_"
 msgstr ""
+"För mer information om rumsliga aspekter av R är det bästa stället att börja "
+"förmodligen `R Spatial Task View <https://cran.r-project.org/web/views/"
+"Spatial.html>`_"
 
 #: ../../build/doc/quickstart/R_quickstart.rst:275
 msgid "You might also want to check out the `R-Spatial <https://www.rspatial.org>`_ page."
 msgstr ""
+"Du kanske också vill kolla in sidan `R-Spatial <https://www.rspatial.org>`_."
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -185,9 +254,9 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-21 20:28+0000\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "postgis_quickstart/sv/>\n"
 "Language: sv\n"
@@ -21,614 +21,871 @@ msgstr ""
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:39
 msgid "PostGIS Quickstart"
-msgstr ""
+msgstr "PostGIS snabbstart"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:41
 msgid "PostGIS adds spatial capabilities to the PostgreSQL relational database. It extends PostgreSQL so it can store, query, and manipulate spatial data. In this Quickstart we will use 'PostgreSQL' when describing general database functions, and 'PostGIS' when describing the additional spatial functionality provided by PostGIS."
 msgstr ""
+"PostGIS lägger till rumsliga funktioner i PostgreSQL relationsdatabas. Det "
+"utökar PostgreSQL så att det kan lagra, fråga och manipulera rumsliga data. "
+"I den här snabbstarten kommer vi att använda \"PostgreSQL\" när vi beskriver "
+"allmänna databasfunktioner och \"PostGIS\" när vi beskriver den ytterligare "
+"rumsliga funktionaliteten som tillhandahålls av PostGIS."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:46
 msgid "This Quick Start describes how to:"
-msgstr ""
+msgstr "Denna snabbstart beskriver hur du gör:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:48
 msgid "Create and query a spatial database from the command line and :doc:`QGIS <../overview/qgis_overview>` graphical client."
 msgstr ""
+"Skapa och fråga en spatial databas från kommandoraden och den grafiska "
+"klienten :doc:`QGIS <../overview/qgis_overview>`."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:49
 msgid "Manage data from the ``pgAdmin`` client."
-msgstr ""
+msgstr "Hantera data från klienten ``pgAdmin``."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:53
 msgid "Contents"
-msgstr ""
+msgstr "Innehåll"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:56
 msgid "Client-server architecture"
-msgstr ""
+msgstr "Klient-server-arkitektur"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:58
 msgid "PostgreSQL, like many databases, works as a server in a client-server system. The client makes a request to the server and gets back a response. This is the same way that the internet works - your browser is a client and a web server sends back the web page. With PostgreSQL the requests are in the SQL language and the response is usually a table of data from the database."
 msgstr ""
+"PostgreSQL, som många databaser, fungerar som en server i ett klient-"
+"serversystem. Klienten gör en begäran till servern och får tillbaka ett "
+"svar. Det här är på samma sätt som internet fungerar - din webbläsare är en "
+"klient och en webbserver skickar tillbaka webbsidan. Med PostgreSQL är "
+"förfrågningarna på SQL-språket och svaret är vanligtvis en tabell med data "
+"från databasen."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:64
 msgid "There is nothing to stop the server being on the same computer as the client, and this enables you to use PostgreSQL on a single machine. Your client connects to the server via the internal 'loopback' network connection, and is not visible to other computers unless you configure it to be so."
 msgstr ""
+"Det finns inget som hindrar servern från att vara på samma dator som "
+"klienten, och detta gör att du kan använda PostgreSQL på en enda maskin. Din "
+"klient ansluter till servern via den interna \"loopback\" -"
+"nätverksanslutningen och är inte synlig för andra datorer om du inte "
+"konfigurerar den så att den ska vara det."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:70
 msgid "Creating a spatially-enabled database"
-msgstr ""
+msgstr "Skapa en databas med rumslig kompatibilitet"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:72
 msgid "Command-line clients run from within a Terminal Emulator window."
-msgstr ""
+msgstr "Kommandoradsklienter körs från ett Terminal Emulator-fönster."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:74
 msgid "Start a Terminal Emulator (LXTerminal currently) from the Applications menu in the Accessories section. This gives you a Unix shell command prompt. Type::"
 msgstr ""
+"Starta en terminalemulator (för närvarande LXTerminal) från menyn Program i "
+"avsnittet Tillbehör. Detta ger dig en kommandoprompt för ett Unix-skal. "
+"Skriv in::"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:78
 msgid "and hit enter to see the PostgreSQL version number."
-msgstr ""
+msgstr "och tryck på enter för att se PostgreSQL-versionens nummer."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:80
 msgid "A single PostgreSQL server lets you organise work by arranging it into separate databases. Each database is an independent regime, with its own tables, views, users and so on. When you connect to a PostgreSQL server you have to specify a database."
 msgstr ""
+"En enda PostgreSQL-server låter dig organisera arbete genom att ordna det i "
+"separata databaser. Varje databas är en oberoende regim med sina egna "
+"tabeller, vyer, användare och så vidare. När du ansluter till en PostgreSQL-"
+"server måste du ange en databas."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:85
 msgid "You can get a list of databases on the server with the::"
-msgstr ""
+msgstr "Du kan få en lista över databaser på servern med hjälp av::"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:89
 msgid "command. You should see several databases used by some of the projects on the system. We will create a new one for this quickstart."
 msgstr ""
+"kommandot. Du bör se flera databaser som används av några av projekten i "
+"systemet. Vi kommer att skapa en ny för den här snabbstarten."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:93
 msgid "The list uses a standard unix pager - hit space for next page, :kbd:`b` to go back, :kbd:`q` to quit, h for help."
 msgstr ""
+"Listan använder en standard unix-pager - tryck på mellanslag för nästa sida, "
+":kbd:`b` för att gå tillbaka, :kbd:`q` för att avsluta, h för hjälp."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:96
 msgid "PostgreSQL gives us a utility program for creating databases, ``createdb``. We need to create a database before adding the PostGIS extensions. We'll call our database ``demo``. The command is then:"
 msgstr ""
+"PostgreSQL ger oss ett verktygsprogram för att skapa databaser, ``createdb``"
+". Vi måste skapa en databas innan vi lägger till PostGIS-tilläggen. Vi "
+"kallar vår databas `` demo``. Kommandot är då:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:105
 msgid "You can usually get help for command line tools by using a ``--help`` option."
 msgstr ""
+"Du kan vanligtvis få hjälp för kommandoradsverktyg genom att använda "
+"alternativet ``--help``."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:108
 msgid "If you now run ``psql -l`` you should see your ``demo`` database in the listing. We have not added the PostGIS extension yet, but in the next section you will learn how."
 msgstr ""
+"Om du nu kör ``psql -l`` bör du se din ``demo``-databas i listan. Vi har "
+"inte lagt till PostGIS-tillägget ännu, men i nästa avsnitt får du lära dig "
+"hur."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:111
 msgid "You can create PostGIS databases using the SQL language. First we'll delete the database we just created using the ``dropdb`` command, then use the ``psql`` command to get an SQL command interpreter:"
 msgstr ""
+"Du kan skapa PostGIS-databaser med hjälp av SQL-språket. Först tar vi bort "
+"den databas vi just skapade med kommandot ``dropdb``, sedan använder vi "
+"kommandot ``psql`` för att få en SQL-kommandotolk:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:120
 msgid "This connects to the core system database called ``postgres``. Now enter the SQL to create a new database:"
 msgstr ""
+"Detta ansluter till den centrala systemdatabasen som heter ``postgres``. "
+"Ange nu SQL för att skapa en ny databas:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:127
 msgid "Now switch your connection from the ``postgres`` database to the new ``demo`` database. In the future you can connect to it directly with ``psql -d demo``, but here's a neat way of switching within the ``psql`` command line:"
 msgstr ""
+"Byt nu din anslutning från ``postgres``-databasen till den nya ``demo``-"
+"databasen. I framtiden kan du ansluta till den direkt med ``psql -d demo``, "
+"men här är ett snyggt sätt att byta inom kommandoraden ``psql``:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:137
 msgid "Hit :kbd:`CTRL` + :kbd:`C` if the psql prompt keeps appearing after pressing return. It will clear your input and start again. It is probably waiting for a closing quote mark, semicolon, or something."
 msgstr ""
+"Tryck på :kbd:`CTRL` + :kbd:`C` om psql-prompten fortsätter att visas efter "
+"att du tryckt på retur. Det rensar din inmatning och börjar om igen. Den "
+"väntar förmodligen på ett avslutande citattecken, semikolon eller något "
+"annat."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:140
 msgid "You should see an informational message, and the prompt will change to show that you are now connected to the ``demo`` database."
 msgstr ""
+"Du bör se ett informationsmeddelande och prompten ändras så att den visar "
+"att du nu är ansluten till databasen ``demo``."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:143
 msgid "Next, add PostGIS extension:"
-msgstr ""
+msgstr "Lägg sedan till PostGIS-tillägget:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:150
 msgid "To verify you have postgis now installed, run the following query:"
 msgstr ""
+"För att verifiera att du har postgis now installerat kör du följande fråga:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:162
 msgid "PostGIS installs many functions, a table, and several views"
-msgstr ""
+msgstr "PostGIS installerar många funktioner, en tabell och flera vyer"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:164
 msgid "Type ``\\dt`` to list the tables in the database. You should see something like this:"
 msgstr ""
+"Skriv ``dt`` för att lista tabellerna i databasen. Du bör se något i stil "
+"med detta:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:176
 msgid "The ``spatial_ref_sys`` table is used by PostGIS for converting between different spatial reference systems. The ``spatial_ref_sys`` table stores information on valid spatial reference systems, and we can use some SQL to have a quick look:"
 msgstr ""
+"Tabellen ``spatial_ref_sys`` används av PostGIS för att konvertera mellan "
+"olika rumsliga referenssystem. Tabellen ``spatial_ref_sys`` lagrar "
+"information om giltiga rumsliga referenssystem, och vi kan använda lite SQL "
+"för att ta en snabb titt:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:198
 msgid "This confirms we have a spatially-enabled database."
-msgstr ""
+msgstr "Detta bekräftar att vi har en databas med rumslig aktivering."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:200
 msgid "In addition to this table, you'll find several views created when you enable postgis in your database."
 msgstr ""
+"Förutom den här tabellen finns det flera vyer som skapas när du aktiverar "
+"Postgis i din databas."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:202
 msgid "Type ``\\dv`` to list the views in the database. You should see something like this:"
 msgstr ""
+"Skriv ``dv`` för att lista vyerna i databasen. Du bör se något i stil med "
+"detta:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:217
 msgid "PostGIS supports several spatial data types:"
-msgstr ""
+msgstr "PostGIS har stöd för flera olika typer av rumsliga data:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:219
 msgid "`geometry` - is a data type that stores data as vectors drawn on a flat surface"
 msgstr ""
+"`geometry` - är en datatyp som lagrar data som vektorer ritade på en plan yta"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:221
 msgid "`geography` - is a data type that stores data as vectors drawn on a spheroidal surface"
 msgstr ""
+"`geography` - är en datatyp som lagrar data som vektorer ritade på en "
+"sfäroid yta"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:224
 msgid "`raster` - is a data type that stores data as an n-dimensional matrix where each position (pixel) represents"
 msgstr ""
+"`raster` - är en datatyp som lagrar data som en n-dimensionell matris där "
+"varje position (pixel) representerar"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:224
 msgid "an area of space, and each band (dimension) has a value for each pixel space."
 msgstr ""
+"ett område av rymden, och varje band (dimension) har ett värde för varje "
+"pixelutrymme."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:226
 msgid "The ``geometry_columns``, ``geography_columns``, and ``raster_columns`` views have the job of telling PostGIS which tables have PostGIS geometry, geography, and raster columns."
 msgstr ""
+"Vyerna ``geometry_columns``, ``geography_columns`` och ``raster_columns`` "
+"har till uppgift att tala om för PostGIS vilka tabeller som har PostGIS "
+"geometri-, geografi- och rasterkolumner."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:229
 msgid "Overviews are lower resolution tables for raster data. The ``raster_overviews`` lists such tables and their raster column and the table each is an overview for. Raster overview tables are used by tools such as QGIS to provide lower resolution versions of raster data for faster loading."
 msgstr ""
+"Översikter är tabeller med lägre upplösning för rasterdata. I "
+"``raster_overviews`` listas sådana tabeller och deras rasterkolumn och den "
+"tabell som varje tabell är en översikt för. Rasteröversiktstabeller används "
+"av verktyg som QGIS för att tillhandahålla versioner med lägre upplösning av "
+"rasterdata för snabbare laddning."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:233
 msgid "PostGIS geometry type is the first and still most popular type used by PostGIS users. We'll be focussing our attention on that type."
 msgstr ""
+"PostGIS geometry type är den första och fortfarande mest populära typen som "
+"används av PostGIS-användare. Vi kommer att fokusera vår uppmärksamhet på "
+"den typen."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:239
 msgid "Creating a Spatial Table using SQL"
-msgstr ""
+msgstr "Skapa en spatial tabell med hjälp av SQL"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:241
 msgid "Now we have a spatial database we can make some spatial tables."
-msgstr ""
+msgstr "Nu när vi har en rumslig databas kan vi skapa några rumsliga tabeller."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:243
 msgid "First we create an ordinary database table to store some city data. This table has three fields - one for a numeric ID identifying the city, one for the city name, and another for the geometry column:"
 msgstr ""
+"Först skapar vi en vanlig databastabell för att lagra vissa stadsdata. Den "
+"här tabellen har tre fält - ett för ett numeriskt ID som identifierar "
+"staden, ett för stadens namn och ett för geometrikolumnen:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:251
 msgid "Conventionally this geometry column is named ``geom`` (the older PostGIS convention was ``the_geom``). This tells PostGIS what kind of geometry each feature has (points, lines, polygons etc), how many dimensions (in this case 2, if it had 3 or 4 dimensions we would use POINTZ, POINTM, or POINTZM), and the spatial reference system. We used EPSG:4326 coordinates for our cities."
 msgstr ""
+"Vanligtvis kallas denna geometrikolumn för ``geom`` (den äldre PostGIS-"
+"konventionen var ``the_geom``). Detta talar om för PostGIS vilken typ av "
+"geometri varje objekt har (punkter, linjer, polygoner etc.), hur många "
+"dimensioner (i det här fallet 2, om det hade 3 eller 4 dimensioner skulle vi "
+"använda POINTZ, POINTM eller POINTZM) och det rumsliga referenssystemet. Vi "
+"använde EPSG:4326-koordinater för våra städer."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:258
 msgid "Now if you check the cities table you should see the new column, and be informed that the table currently contains no rows."
 msgstr ""
+"Om du nu kontrollerar tabellen över städer bör du se den nya kolumnen och "
+"bli informerad om att tabellen för närvarande inte innehåller några rader."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:268
 msgid "To add rows to the table we use some SQL statements. To get the geometry into the geometry column we use the PostGIS ``ST_GeomFromText`` function to convert from a text format that gives the coordinates and a spatial reference system id:"
 msgstr ""
+"För att lägga till rader i tabellen använder vi några SQL-satser. För att få "
+"in geometrin i geometrikolumnen använder vi PostGIS-funktionen "
+"``ST_GeomFromText`` för att konvertera från ett textformat som ger "
+"koordinaterna och ett id för det rumsliga referenssystemet:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:279
 msgid "Use the arrow keys to recall and edit command lines."
-msgstr ""
+msgstr "Använd piltangenterna för att hämta och redigera kommandorader."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:281
 msgid "As you can see this gets increasingly tedious very quickly. Luckily there are other ways of getting data into PostGIS tables that are much easier. But now we have three cities in our database, and we can work with that."
 msgstr ""
+"Som du kan se blir detta snabbt alltmer tråkigt. Lyckligtvis finns det andra "
+"sätt att få in data i PostGIS-tabeller som är mycket enklare. Men nu har vi "
+"tre städer i vår databas, och vi kan arbeta med det."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:287
 msgid "Simple queries"
-msgstr ""
+msgstr "Enkla frågor"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:289
 msgid "All the usual SQL operations can be applied to select data from a PostGIS table:"
 msgstr ""
+"Alla vanliga SQL-operationer kan användas för att välja data från en PostGIS-"
+"tabell:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:301
 msgid "This gives us an encoded hexadecimal version of the coordinates, not so useful for humans."
 msgstr ""
+"Detta ger oss en kodad hexadecimal version av koordinaterna, inte så "
+"användbar för människor."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:303
 msgid "If you want to have a look at your geometry in WKT format again, you can use the functions ST_AsText(geom) or ST_AsEwkt(geom). You can also use ST_X(geom), ST_Y(geom) to get the numeric value of the coordinates:"
 msgstr ""
+"Om du vill titta på din geometri i WKT-format igen kan du använda "
+"funktionerna ST_AsText(geom) eller ST_AsEwkt(geom). Du kan också använda "
+"ST_X(geom), ST_Y(geom) för att få fram koordinaternas numeriska värde:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:320
 msgid "Spatial queries"
-msgstr ""
+msgstr "Rumsliga frågor"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:322
 msgid "PostGIS adds many functions with spatial functionality to PostgreSQL. We've already seen ST_GeomFromText which converts WKT to geometry. Most of them start with ST (for spatial type) and are listed in a section of the PostGIS documentation. We'll now use one to answer a practical question - how far are these three Londons away from each other, in metres, assuming a spherical earth?"
 msgstr ""
+"PostGIS lägger till många funktioner med rumslig funktionalitet till "
+"PostgreSQL. Vi har redan sett ST_GeomFromText som konverterar WKT till "
+"geometri. De flesta av dem börjar med ST (för rumslig typ) och listas i ett "
+"avsnitt i PostGIS-dokumentationen. Vi kommer nu att använda en för att svara "
+"på en praktisk fråga - hur långt är dessa tre Londons från varandra, i "
+"meter, förutsatt att en sfärisk jord?"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:339
 msgid "This gives us the distance, in metres, between each pair of cities. Notice how the 'WHERE' part of the line stops us getting back distances of a city to itself (which will all be zero) or the reverse distances to the ones in the table above (London, England to London, Ontario is the same distance as London, Ontario to London, England). Try it without the 'WHERE' part and see what happens."
 msgstr ""
+"Detta ger oss avståndet, i meter, mellan varje par av städer. Lägg märke "
+"till hur \"WHERE\"-delen av raden hindrar oss från att få tillbaka avstånden "
+"från en stad till sig själv (som alla kommer att vara noll) eller de omvända "
+"avstånden till dem i tabellen ovan (London, England till London, Ontario är "
+"samma avstånd som London, Ontario till London, England). Prova utan \"WHERE\""
+"-delen och se vad som händer."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:346
 msgid "We can also compute the distance using a spheroid by using a different function and specifying the spheroid name, semi-major axis and inverse flattening parameters:"
 msgstr ""
+"Vi kan också beräkna avståndet med hjälp av en sfäroid genom att använda en "
+"annan funktion och ange sfäroidnamn, halvstoraxel och parametrar för invers "
+"utplattning:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:362
 msgid "To quit PostgreSQL command line, enter:"
-msgstr ""
+msgstr "För att avsluta PostgreSQL kommandorad, ange:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:368
 msgid "You are now back to system console:"
-msgstr ""
+msgstr "Du är nu tillbaka i systemkonsolen:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:375
 msgid "Mapping"
-msgstr ""
+msgstr "Kartläggning"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:377
 msgid "To produce a map from PostGIS data, you need a client that can get at the data. Most of the open source desktop GIS programs can do this - QGIS, gvSIG, uDig for example. Now we'll show you how to make a map from QGIS."
 msgstr ""
+"För att producera en karta från PostGIS-data behöver du en klient som kan "
+"komma åt data. De flesta GIS-program med öppen källkod kan göra detta - "
+"QGIS, gvSIG, uDig till exempel. Nu ska vi visa dig hur du gör en karta från "
+"QGIS."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:381
 msgid "Start QGIS from the Desktop GIS menu and choose ``Add PostGIS layers`` from the layer menu. The parameters for connecting to the Natural Earth data in PostGIS are already defined in the Connections drop-down menu. You can define new server connections here, and store the settings for easy recall. Click on Connections drop down menu and choose Natural Earth. Hit ``Edit`` if you want to see what those parameters are for Natural Earth, or just hit ``Connect`` to continue:"
 msgstr ""
+"Starta QGIS från Desktop GIS-menyn och välj ``Add PostGIS layers`` från "
+"lagermenyn. Parametrarna för att ansluta till Natural Earth-data i PostGIS "
+"är redan definierade i rullgardinsmenyn Connections. Här kan du definiera "
+"nya serveranslutningar och lagra inställningarna så att du lätt kan komma "
+"ihåg dem. Klicka på rullgardinsmenyn Connections och välj Natural Earth. "
+"Klicka på \"Redigera\" om du vill se vilka parametrar som gäller för Natural "
+"Earth, eller klicka på \"Anslut\" för att fortsätta:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:None
 msgid "Connect to Natural Earth"
-msgstr ""
+msgstr "Anslut till den naturliga jorden"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:392
 msgid "You will now get a list of the spatial tables in the database:"
-msgstr ""
+msgstr "Du kommer nu att få en lista över de rumsliga tabellerna i databasen:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:None
 msgid "Natural Earth Layers"
-msgstr ""
+msgstr "Naturliga jordlager"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:399
 msgid "Choose the ne_10m_lakes table and hit ``Add`` at the bottom (not ``Load`` at the top - that loads database connection parameters), and it should be loaded into QGIS:"
 msgstr ""
+"Välj tabellen ne_10m_lakes och tryck på ``Add`` längst ner (inte ``Load`` "
+"längst upp - då laddas databasanslutningsparametrar), så ska den laddas in i "
+"QGIS:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:None
 msgid "My First PostGIS layer"
-msgstr ""
+msgstr "Mitt första PostGIS-lager"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:408
 msgid "You should now see a map of the lakes. QGIS doesn't know they are lakes, so might not colour them blue for you - use the QGIS documentation to work out how to change this. Zoom in to a famous group of lakes in Canada."
 msgstr ""
+"Du bör nu se en karta över sjöarna. QGIS vet inte att det är sjöar och "
+"kanske därför inte färgar dem blå för dig - använd QGIS-dokumentationen för "
+"att ta reda på hur du ändrar detta. Zooma in till en berömd grupp sjöar i "
+"Kanada."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:414
 msgid "Importing spatial data into the database"
-msgstr ""
+msgstr "Importera rumsliga data till databasen"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:416
 msgid "Most of the OSGeo desktop tools have functions for importing spatial data from other formats (f.e. ESRI Shape) into the database. Again we'll use QGIS to show this."
 msgstr ""
+"De flesta av OSGeos skrivbordsverktyg har funktioner för att importera "
+"rumsliga data från andra format (t.ex. ESRI Shape) till databasen. Återigen "
+"använder vi QGIS för att visa detta."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:418
 msgid "Importing shapefiles to QGIS can be done via the handy QGIS Database Manager. You find the manager in the menu. Go to ``Database -> DB Manager``."
 msgstr ""
+"Import av shapefiler till QGIS kan göras via den praktiska QGIS Database "
+"Manager. Du hittar hanteraren i menyn. Gå till ``Databas -> DB-hanterare``."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:420
 msgid "Deploys the Postgis item, then the NaturalEarth item. It will then connect to the Natural Earth database. Leave the password blank if it asks. In the public item, there is the list of the layers provided by the database. You'll see the main manager window. On the left you can select tables from the database and use the tabs on the right find out about them. The Preview tab will show you a little map."
 msgstr ""
+"Distribuerar Postgis-objektet och sedan NaturalEarth-objektet. Den kommer "
+"sedan att ansluta till Natural Earth-databasen. Lämna lösenordet tomt om det "
+"efterfrågas. I det offentliga objektet finns en lista över de lager som "
+"tillhandahålls av databasen. Du kommer att se huvudhanteringsfönstret. Till "
+"vänster kan du välja tabeller från databasen och använda flikarna till höger "
+"för att ta reda på mer om dem. Fliken Preview visar dig en liten karta."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:None
 msgid "QGIS Manager Preview"
-msgstr ""
+msgstr "Förhandsgranskning av QGIS Manager"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:430
 msgid "We will now use the DB Manager to import a shapefile into the database. We'll use the North Carolina sudden infant death syndrome (SIDS) data that is included with one of the R statistics package add-ons."
 msgstr ""
+"Vi kommer nu att använda DB Manager för att importera en shapefil till "
+"databasen. Vi kommer att använda data från North Carolina om plötslig "
+"spädbarnsdöd (SIDS) som ingår i ett av R-statistikpaketets tillägg."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:434
 msgid "From the ``Table`` menu choose the ``Import layer/file`` option. Hit the ``...`` button and browse to the ``sids.shp`` shapefile in the R directory. (located in /home/user/data/vector/R/shapes):"
 msgstr ""
+"Från menyn ``Table`` välj alternativet ``Import layer/file``. Tryck på "
+"knappen ``...`` och bläddra till shapefilen ``sids.shp`` i R-katalogen. ("
+"finns i /home/user/data/vector/R/shapes):"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:None
 msgid "Find the shapefile"
-msgstr ""
+msgstr "Hitta shapefilen"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:443
 msgid "Leave everything else as it is and hit ``Load``"
-msgstr ""
+msgstr "Låt allt annat vara som det är och tryck på ``Load``"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:None
 msgid "Import a shapefile"
-msgstr ""
+msgstr "Importera en shapefil"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:450
 msgid "Let the Coordinate Reference System Selector default to (WGS 84 EPSG:4326) and hit ``OK``. The shapefile should be imported into PostGIS with no errors. Close the DB Manager and get back to the main QGIS window."
 msgstr ""
+"Låt Coordinate Reference System Selector vara standard (WGS 84 EPSG:4326) "
+"och tryck på ``OK``. Shapefilen bör importeras till PostGIS utan några fel. "
+"Stäng DB Manager och gå tillbaka till huvudfönstret i QGIS."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:453
 msgid "Now load the SIDS data into the map using the 'Add PostGIS Layer' option. With a bit of rearranging of the layers and some colouring, you should be able to produce a choropleth map of the sudden infant death syndrome counts (sid74 or sid79 fields) in North Carolina:"
 msgstr ""
+"Ladda nu in SIDS-data i kartan med hjälp av alternativet \"Add PostGIS "
+"Layer\". Med lite omorganisering av lagren och lite färgläggning bör du "
+"kunna producera en koropletkarta över antalet fall av plötslig spädbarnsdöd ("
+"fält sid74 eller sid79) i North Carolina:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:None
 msgid "SIDS data mapped"
-msgstr ""
+msgstr "SIDS-data kartlagda"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:464
 msgid "Depending on the version of OSGeoLive you are using (ISO or VMDK), you will not find the same clients available. ``pgAdmin`` is the official client for PostgreSQL, however, for technical reasons, it can't do in the ISO, so it is only available in the VMDK version. The ISO version has the ``phpPgAdmin`` client which offers the same core functionality."
 msgstr ""
+"Beroende på vilken version av OSGeoLive du använder (ISO eller VMDK) kommer "
+"du inte att hitta samma klienter tillgängliga. ``pgAdmin`` är den officiella "
+"klienten för PostgreSQL, men av tekniska skäl kan den inte göra i ISO, så "
+"den är endast tillgänglig i VMDK-versionen. ISO-versionen har `` phpPgAdmin "
+"`` -klienten som erbjuder samma kärnfunktionalitet."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:471
 msgid "Get to know phpPgAdmin (ISO & VMDK)"
-msgstr ""
+msgstr "Lär känna phpPgAdmin (ISO & VMDK)"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:473
 msgid "In both versions, you can use the graphical database client phpPgAdmin."
 msgstr ""
+"I båda versionerna kan du använda den grafiska databasklienten phpPgAdmin."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:475
 msgid "phpPgAdmin lets you use SQL to manipulate your data tables. You can find and launch phpPgAdmin from the Databases folder, existing on the OSGeoLive Desktop."
 msgstr ""
+"med phpPgAdmin kan du använda SQL för att manipulera dina datatabeller. Du "
+"kan hitta och starta phpPgAdmin från mappen Databaser som finns på OSGeoLive "
+"Desktop."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:None
 msgid "phpPgAdmin main"
-msgstr ""
+msgstr "phpPgAdmin huvudsida"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:483
 msgid "Here, you have the option of creating a new connection to a PostgreSQL server, or connecting to an existing server. The red \"X\" on the ``PostgreSQL`` server denotes that you haven't been yet connected. Click on it then enter the user name ``user`` and the master password ``user``."
 msgstr ""
+"Här har du möjlighet att skapa en ny anslutning till en PostgreSQL-server "
+"eller ansluta till en befintlig server. Den röda \"X\" på ``PostgreSQL`` -"
+"servern anger att du ännu inte har anslutits. Klicka på den och ange sedan "
+"användarnamnet ``user`` och huvudlösenordet ``user``."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:487
 #: ../../build/doc/quickstart/postgis_quickstart.rst:553
 msgid "After connection established, you can see the list of the databases already existing in the system."
 msgstr ""
+"När anslutningen har upprättats kan du se en lista över de databaser som "
+"redan finns i systemet."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:None
 #: ../../build/doc/quickstart/postgis_quickstart.rst:None
 #: ../../build/doc/quickstart/postgis_quickstart.rst:None
 msgid "phpPgAdmin"
-msgstr ""
+msgstr "phpPgAdmin"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:495
 msgid "At this point you are able only to see the existing databases on the system. You can connect, by clicking, on plus sign at the left of the name of a database. Do it for the ``natural_earth2`` database."
 msgstr ""
+"I det här läget kan du bara se de databaser som finns i systemet. Du kan "
+"ansluta genom att klicka på plustecknet till vänster om namnet på en "
+"databas. Gör det för databasen ``natural_earth2``."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:498
 msgid "You can see now that there is only one schema in this database called ``public``. Click on the plus at left of ``Tables`` to expand it, you can see all the tables contained within this schema."
 msgstr ""
+"Du kan nu se att det bara finns ett schema i den här databasen som heter "
+"``public``. Klicka på plustecknet till vänster om ``Tables`` för att "
+"expandera det, så kan du se alla tabeller som finns i detta schema."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:513
 msgid "Executing a SQL query from phpPgAdmin (ISO & VMDK)"
-msgstr ""
+msgstr "Exekvera en SQL-fråga från phpPgAdmin (ISO & VMDK)"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:515
 msgid "phpPgAdmin offers the capability of executing queries to a relational database."
 msgstr ""
+"phpPgAdmin erbjuder möjligheten att exekvera frågor till en relationsdatabas."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:517
 msgid "To perform a query on the database, click back on the ``natural_earth2`` database then press the ``SQL`` button from the main toolbar (the one at the left with the database symbol)."
 msgstr ""
+"För att göra en sökning i databasen klickar du tillbaka på databasen "
+"``natural_earth2`` och trycker sedan på ``SQL``-knappen i "
+"huvudverktygsfältet (den till vänster med databassymbolen)."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:519
 #: ../../build/doc/quickstart/postgis_quickstart.rst:588
 msgid "We are going to find the rate of the SIDS over the births for the 1974 for each city. Furthermore we are going to sort the result, based on the computed rate. To do that, we need to perform the following query (submit it on the text editor of the SQL Window):"
 msgstr ""
+"Vi ska ta reda på andelen plötsliga spädbarnsdödar i förhållande till "
+"antalet födda under 1974 för varje stad. Dessutom ska vi sortera resultatet "
+"baserat på den beräknade frekvensen. För att göra det måste vi utföra "
+"följande fråga (skicka in den i textredigeraren i SQL-fönstret):"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:527
 msgid "Afterwards, you should press the Execute button."
-msgstr ""
+msgstr "Därefter ska du trycka på knappen Execute."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:535
 msgid "Get to know pgAdmin (VMDK only)"
-msgstr ""
+msgstr "Lär känna pgAdmin (endast VMDK)"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:537
 msgid "You can use the graphical database client ``pgAdmin`` from the Databases menu to query and modify your database non-spatially. This is the official client for PostgreSQL."
 msgstr ""
+"Du kan använda den grafiska databasklienten ``pgAdmin`` från menyn Databaser "
+"för att fråga och ändra din databas icke-spatialt. Detta är den officiella "
+"klienten för PostgreSQL."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:539
 msgid "pgAdmin lets you use SQL to manipulate your data tables. You can find and launch pgAdmin from the Databases folder, existing on the OSGeoLive Desktop."
 msgstr ""
+"med pgAdmin kan du använda SQL för att manipulera dina datatabeller. Du kan "
+"hitta och starta pgAdmin från mappen Databaser, som finns på OSGeoLive "
+"Desktop."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:None
 #: ../../build/doc/quickstart/postgis_quickstart.rst:None
 #: ../../build/doc/quickstart/postgis_quickstart.rst:None
 #: ../../build/doc/quickstart/postgis_quickstart.rst:None
 msgid "pgAdmin"
-msgstr ""
+msgstr "pgAdmin"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:547
 msgid "Enter the master password ``user``."
-msgstr ""
+msgstr "Ange huvudlösenordet ``user``."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:549
 msgid "Here, you have the option of creating a new connection to a PostgreSQL server, or connecting to an existing server. In this case, we are going to connect to the predefined ``localhost`` server."
 msgstr ""
+"Här har du möjlighet att skapa en ny anslutning till en PostgreSQL-server "
+"eller ansluta till en befintlig server. I det här fallet kommer vi att "
+"ansluta till den fördefinierade `` localhost`` -servern."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:560
 msgid "The red \"X\" on the image of most of the databases, denotes that you haven't been yet connected to any of them (you are connected only to the default ``postgres`` database). At this point you are able only to see the existing databases on the system. You can connect, by double clicking, on the name of a database. Do it for the ``natural_earth2`` database."
 msgstr ""
+"Det röda \"X\" på bilden av de flesta av databaserna visar att du ännu inte "
+"har anslutit till någon av dem (du är endast ansluten till standarddatabasen "
+"``postgres``). I det här läget kan du bara se de databaser som finns i "
+"systemet. Du kan ansluta genom att dubbelklicka på namnet på en databas. Gör "
+"det för databasen ``natural_earth2``."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:565
 msgid "You can see now that the red X disappeared and a \">\" appeared on the left. By pressing it a tree is going to appear, displaying the contents of the database."
 msgstr ""
+"Du kan nu se att det röda X:et har försvunnit och att ett \">\" har dykt upp "
+"till vänster. Genom att trycka på det kommer ett träd att visas, som visar "
+"innehållet i databasen."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:568
 msgid "Navigate at the ``schemas`` subtree, expand it. Afterwards expand the ``public`` schema. By navigating and expanding the ``Tables``, you can see all the tables contained within this schema."
 msgstr ""
+"Navigera till underträdet ``schemas`` och expandera det. Expandera därefter "
+"schemat ``public``. Genom att navigera och expandera ``Tables`` kan du se "
+"alla tabeller som ingår i detta schema."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:582
 msgid "Executing a SQL query from pgAdmin (VMDK only)"
-msgstr ""
+msgstr "Utföra en SQL-fråga från pgAdmin (endast VMDK)"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:584
 msgid "pgAdmin, offers the capability of executing queries to a relational database."
-msgstr ""
+msgstr "pgAdmin, ger möjlighet att utföra frågor till en relationsdatabas."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:586
 msgid "To perform a query on the database, you have to press the ``Query Tool`` button from the main toolbar (the one at the left with the database symbol)."
 msgstr ""
+"För att göra en sökning i databasen måste du trycka på knappen ``Query Tool``"
+" i huvudverktygsfältet (den till vänster med databassymbolen)."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:596
 msgid "Afterwards, you should press the arrow button, pointing to the right (Execute)."
-msgstr ""
+msgstr "Därefter ska du trycka på pilknappen som pekar åt höger (Execute)."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:605
 msgid "Get to know Foreign Data Wrappers (FDW)"
-msgstr ""
+msgstr "Lär känna Foreign Data Wrappers (FDW)"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:607
 msgid "From you database you can access remote objects like tables from other PostgreSQL databases or connect to remote databases like Oracle, MySQL, MS SQL or CouchDB. You also can connect via ODBC, connect to CSV, Geospatial Data and even to twitter."
 msgstr ""
+"Från din databas kan du komma åt fjärrobjekt som tabeller från andra "
+"PostgreSQL-databaser eller ansluta till fjärrdatabaser som Oracle, MySQL, MS "
+"SQL eller CouchDB. Du kan också ansluta via ODBC, ansluta till CSV, "
+"Geospatial Data och till och med till twitter."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:610
 msgid "You find a list of different FDW at:"
-msgstr ""
+msgstr "Du hittar en lista över olika FDW på:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:612
 msgid "https://wiki.postgresql.org/wiki/Foreign_data_wrappers"
-msgstr ""
+msgstr "https://wiki.postgresql.org/wiki/Foreign_data_wrappers"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:614
 msgid "Let's see how it works! The easiest way is to connect to a different PostgreSQL database."
 msgstr ""
+"Låt oss se hur det fungerar! Det enklaste sättet är att ansluta till en "
+"annan PostgreSQL-databas."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:616
 msgid "Here are the steps:"
-msgstr ""
+msgstr "Så här går du tillväga:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:618
 msgid "First load the extension for the Foreign Data Wrapper that you want to use. For a connection to a different PostgreSQL database you need ``postgres_fdw``"
 msgstr ""
+"Ladda först tillägget för Foreign Data Wrapper som du vill använda. För en "
+"anslutning till en annan PostgreSQL-databas behöver du ``postgres_fdw``"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:625
 msgid "Create a foreign Server that tells you where to find the data source that you want to connect"
 msgstr ""
+"Skapa en Foreign Server som talar om var du hittar den datakälla som du vill "
+"ansluta"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:633
 msgid "Define the user that should be used when you connect to the foreign server"
 msgstr ""
+"Definiera den användare som ska användas när du ansluter till den utländska "
+"servern"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:641
 msgid "Now you can create a foreign table."
-msgstr ""
+msgstr "Nu kan du skapa en utländsk tabell."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:650
 msgid "Find new tables in your database and have a look at the data from a foreign table."
 msgstr ""
+"Hitta nya tabeller i din databas och titta på data från en utländsk tabell."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:657
 msgid "Connect to a remote OGR data source via ogr_fdw"
-msgstr ""
+msgstr "Anslut till en OGR-datakälla på distans via ogr_fdw"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:659
 msgid "The extension ``ogr_fdw`` allows connection too several geodata formats like KML, GeoPackage, WFS, GeoJSON, GPX, GML and more."
 msgstr ""
+"Tillägget ``ogr_fdw`` tillåter anslutning till flera geodataformat som KML, "
+"GeoPackage, WFS, GeoJSON, GPX, GML och mer."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:662
 msgid "Read more about ``ogr_fdw``:"
-msgstr ""
+msgstr "Läs mer om ``ogr_fdw``:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:664
 msgid "Repository: https://github.com/pramsey/pgsql-ogr-fdw"
-msgstr ""
+msgstr "Förvaringsplats: https://github.com/pramsey/pgsql-ogr-fdw"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:665
 msgid "New and improved: http://blog.cleverelephant.ca/2016/04/ogr-fdw-update.html"
 msgstr ""
+"Nytt och förbättrat: http://blog.cleverelephant.ca/2016/04/ogr-fdw-update."
+"html"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:669
 msgid "Install the extension ``ogr_fdw`` in your database."
-msgstr ""
+msgstr "Installera tillägget ``ogr_fdw`` i din databas."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:670
 msgid "On the database prompt type:"
-msgstr ""
+msgstr "Skriv i databasprompten:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:678
 msgid "Inspect which formats are supported:"
-msgstr ""
+msgstr "Kontrollera vilka format som stöds:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:679
 msgid "Open a terminal and search for ogr_fdw_info:"
-msgstr ""
+msgstr "Öppna en terminal och sök efter ogr_fdw_info:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:686
 msgid "Results might look like these: ::"
-msgstr ""
+msgstr "Resultaten kan se ut så här: ::"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:704
 msgid "Create a FDW to a WFS"
-msgstr ""
+msgstr "Skapa en FDW till en WFS"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:705
 msgid "Start Geoserver via |menu_geoserver-Start|."
-msgstr ""
+msgstr "Starta Geoserver via |menu_geoserver-Start|."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:707
 msgid "Open GeoServer http://localhost:8082/geoserver/web/"
-msgstr ""
+msgstr "Öppna GeoServer http://localhost:8082/geoserver/web/"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:708
 msgid "GeoServer WFS GetCapabilities http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=GetCapabilities"
 msgstr ""
+"GeoServer WFS GetCapabilities http://localhost:8082/geoserver/"
+"ows?service=wfs&version=2.0.0&request=GetCapabilities"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:709
 msgid "GeoServer WFS DescribeFeatureType for topp:states `http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=DescribeFeatureType&typename=topp:states <http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=DescribeFeatureType&typename=topp:states>`__"
 msgstr ""
+"GeoServer WFS DescribeFeatureType för topp:states `http://localhost:8082/"
+"geoserver/ows?service=wfs&version=2.0."
+"0&request=DescribeFeatureType&typename=topp:states <http://localhost:8082/"
+"geoserver/ows?service=wfs&version=2.0."
+"0&request=DescribeFeatureType&typename=topp:states>`__"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:712
 msgid "GeoServer WFS GetFeature topp:states `http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&typename=topp:states <http://localhost:8082/geoserver/ows?service=wfs&version=2.0.0&request=GetFeature&typename=topp:states>`__"
 msgstr ""
+"GeoServer WFS GetFeature topp:states `http://localhost:8082/geoserver/"
+"ows?service=wfs&version=2.0.0&request=GetFeature&typename=topp:states "
+"<http://localhost:8082/geoserver/ows?service=wfs&version=2.0."
+"0&request=GetFeature&typename=topp:states>`__"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:718
 msgid "Create a foreign server that refers to the WFS that you want to connect"
 msgstr ""
+"Skapa en utländsk server som hänvisar till den WFS som du vill ansluta till"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:726
 msgid "Import all WFS feature_types as foreign tables with one command."
 msgstr ""
+"Importera alla WFS feature_types som utländska tabeller med ett enda "
+"kommando."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:727
 msgid "After the import you will see several new foreign tables in your schema."
 msgstr ""
+"Efter importen kommer du att se flera nya utländska tabeller i ditt schema."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:736
 msgid "Inspect the foreign data table ``topp_states``:"
-msgstr ""
+msgstr "Inspektera den utländska datatabellen ``topp_states``:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:743
 msgid "Things to try"
-msgstr ""
+msgstr "Saker att prova"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:745
 msgid "Here are some additional challenges for you to try:"
-msgstr ""
+msgstr "Här är några ytterligare utmaningar som du kan prova:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:747
 msgid "Try some more spatial functions like ``st_buffer(geom)``, ``st_transform(geom,25831)``, ``st_x(geom)`` - you will find full documentation at http://postgis.net/documentation/"
 msgstr ""
+"Prova några fler rumsliga funktioner som ``st_buffer(geom)``, "
+"``st_transform(geom,25831)``, ``st_x(geom)`` - du hittar fullständig "
+"dokumentation på http://postgis.net/documentation/"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:749
 msgid "Export your tables to shapefiles with ``pgsql2shp`` on the command line."
 msgstr ""
+"Exportera dina tabeller till shapefiler med ``pgsql2shp`` på kommandoraden."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:751
 msgid "Try ``ogr2ogr`` on the command line to import/export data to your database."
 msgstr ""
+"Prova ``ogr2ogr`` på kommandoraden för att importera/exportera data till din "
+"databas."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:753
 msgid "Try to import data with ``shp2pgsql`` on the command line to your database."
 msgstr ""
+"Försök att importera data med ``shp2pgsql`` på kommandoraden till din "
+"databas."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:755
 msgid "Try to do road routing using :doc:`../overview/pgrouting_overview`."
 msgstr ""
+"Försök att göra vägdragning med hjälp av :doc:`../overview/"
+"pgrouting_overview`."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:760
 msgid "What next?"
-msgstr ""
+msgstr "Hur vill du gå vidare?"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:762
 msgid "This is only the first step on the road to using PostGIS. There is a lot more functionality you can try."
 msgstr ""
+"Detta är bara det första steget på vägen till att använda PostGIS. Det finns "
+"mycket mer funktionalitet som du kan prova."
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:764
 msgid "PostGIS Project home - http://postgis.net"
-msgstr ""
+msgstr "PostGIS-projektets hemsida - http://postgis.net"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:766
 msgid "PostGIS Documentation - http://postgis.net/documentation/"
-msgstr ""
+msgstr "PostGIS-dokumentation - http://postgis.net/documentation/"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -640,9 +897,9 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

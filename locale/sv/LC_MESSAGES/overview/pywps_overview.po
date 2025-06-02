@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "pywps_overview/sv/>\n"
 "Language: sv\n"
@@ -24,17 +24,19 @@ msgstr ""
 
 #: ../../build/doc/overview/pywps_overview.rst:18
 msgid "PyWPS"
-msgstr ""
+msgstr "PyWPS"
 
 #: ../../build/doc/overview/pywps_overview.rst:21
 msgid "Web Processing Service"
-msgstr ""
+msgstr "Tjänst för webbbearbetning"
 
 #: ../../build/doc/overview/pywps_overview.rst:23
 msgid ""
 "PyWPS provides web access to custom geospatial operations (referred to as "
 "Processes) via the |WPS| standard."
 msgstr ""
+"PyWPS ger webbåtkomst till anpassade geospatiala operationer (kallas "
+"processer) via standarden |WPS|."
 
 #: ../../build/doc/overview/pywps_overview.rst:26
 msgid ""
@@ -44,10 +46,15 @@ msgid ""
 "libraries with Python bindings. Source data can be provided with WPS "
 "requests or accessed from data on the WPS server."
 msgstr ""
+"Processerna är skrivna på programmeringsspråket Python och kan integrera "
+"verktyg som :doc:`GRASS GIS <grass_overview>`, :doc:`R <R_overview>`, :doc:`"
+"GDAL/OGR <gdal_overview>`, :doc:`proj <proj_overview>` och andra bibliotek "
+"med Python-bindningar. Källdata kan tillhandahållas med WPS-begäranden eller "
+"hämtas från data på WPS-servern."
 
 #: ../../build/doc/overview/pywps_overview.rstNone
 msgid "pywps screenshot"
-msgstr ""
+msgstr "pywps skärmdump"
 
 #: ../../build/doc/overview/pywps_overview.rst:37
 msgid "Core Features"
@@ -55,19 +62,19 @@ msgstr "Kärnfunktioner"
 
 #: ../../build/doc/overview/pywps_overview.rst:39
 msgid "small and lightweight"
-msgstr ""
+msgstr "liten och lätt"
 
 #: ../../build/doc/overview/pywps_overview.rst:40
 msgid "easy and fast to install and setup"
-msgstr ""
+msgstr "enkel och snabb att installera och ställa in"
 
 #: ../../build/doc/overview/pywps_overview.rst:41
 msgid "implemented in pure Python"
-msgstr ""
+msgstr "implementerad i ren Python"
 
 #: ../../build/doc/overview/pywps_overview.rst:42
 msgid "integrates seamlessly with the Python ecosystem of packages:"
-msgstr ""
+msgstr "integreras sömlöst med Pythons ekosystem av paket:"
 
 #: ../../build/doc/overview/pywps_overview.rst:44
 msgid "GRASS 7"
@@ -79,19 +86,19 @@ msgstr "R"
 
 #: ../../build/doc/overview/pywps_overview.rst:46
 msgid "GDAL/OGR"
-msgstr ""
+msgstr "GDAL/OGR"
 
 #: ../../build/doc/overview/pywps_overview.rst:47
 msgid "Proj"
-msgstr ""
+msgstr "Proj"
 
 #: ../../build/doc/overview/pywps_overview.rst:48
 msgid "Numpy"
-msgstr ""
+msgstr "Numpy"
 
 #: ../../build/doc/overview/pywps_overview.rst:49
 msgid "Shapely"
-msgstr ""
+msgstr "Shapely"
 
 #: ../../build/doc/overview/pywps_overview.rst:52
 msgid "Implemented Standards"
@@ -99,11 +106,11 @@ msgstr "Implementerade standarder"
 
 #: ../../build/doc/overview/pywps_overview.rst:54
 msgid "OGC Standards:"
-msgstr ""
+msgstr "OGC-standarder:"
 
 #: ../../build/doc/overview/pywps_overview.rst:56
 msgid "WPS 1.0.0"
-msgstr ""
+msgstr "WPS 1.0.0"
 
 #: ../../build/doc/overview/pywps_overview.rst:59
 msgid "Details"
@@ -111,15 +118,15 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/pywps_overview.rst:61
 msgid "**Website:** https://pywps.org/"
-msgstr ""
+msgstr "**Webbplats:** https://pywps.org/"
 
 #: ../../build/doc/overview/pywps_overview.rst:63
 msgid "**Licence:** GPL"
-msgstr ""
+msgstr "**Licens:** GPL"
 
 #: ../../build/doc/overview/pywps_overview.rst:65
 msgid "**Software Version:** |version-pywps|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-pywps|"
 
 #: ../../build/doc/overview/pywps_overview.rst:67
 msgid "**Supported Platforms:** Windows, Linux, Mac"
@@ -127,11 +134,11 @@ msgstr "**Plattformar som stöds:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/pywps_overview.rst:69
 msgid "**API Interfaces:** Python"
-msgstr ""
+msgstr "**API-gränssnitt:** Python"
 
 #: ../../build/doc/overview/pywps_overview.rst:71
 msgid "**Support:** https://pywps.org/community/#professional-support"
-msgstr ""
+msgstr "**Support:** https://pywps.org/community/#professional-support"
 
 #: ../../build/doc/overview/pywps_overview.rst:76
 msgid "Quickstart"
@@ -139,7 +146,7 @@ msgstr "Snabbstart"
 
 #: ../../build/doc/overview/pywps_overview.rst:78
 msgid ":doc:`Quickstart documentation <../quickstart/pywps_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snabbstartsdokumentation <../quickstart/pywps_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -151,8 +158,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

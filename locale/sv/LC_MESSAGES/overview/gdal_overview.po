@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "gdal_overview/sv/>\n"
 "Language: sv\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../build/doc/overview/gdal_overview.rst:18
 msgid "GDAL/OGR"
-msgstr ""
+msgstr "GDAL/OGR"
 
 #: ../../build/doc/overview/gdal_overview.rst:21
 msgid "About"
@@ -36,6 +36,9 @@ msgid ""
 "utilities to translate and process a wide range of raster and vector "
 "geospatial data formats."
 msgstr ""
+"Geospatial Data Abstraction Library (GDAL/OGR) tillhandahåller "
+"kommandoradsverktyg för att översätta och bearbeta ett brett spektrum av "
+"raster- och vektorformat för geospatiala data."
 
 #: ../../build/doc/overview/gdal_overview.rst:27
 msgid ""
@@ -43,6 +46,10 @@ msgid ""
 "numerous programming languages. As a library, it presents a single abstract"
 " data model to the calling application for all supported formats."
 msgstr ""
+"Verktygen är baserade på ett plattformsoberoende C++-bibliotek som är "
+"tillgängligt via många olika programmeringsspråk. Som ett bibliotek "
+"presenterar det en enda abstrakt datamodell för den anropande applikationen "
+"för alla format som stöds."
 
 #: ../../build/doc/overview/gdal_overview.rst:31
 msgid ""
@@ -51,10 +58,14 @@ msgid ""
 "GRASS, QGIS, and OpenEV. It is also utilized by packages such as OSSIM, "
 "Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide and ArcGIS."
 msgstr ""
+"GDAL/OGR är det mest använda biblioteket för åtkomst till geospatiala data. "
+"Det utgör den primära datatillgångsmotorn för många applikationer, inklusive "
+"MapServer, GRASS, QGIS och OpenEV. Det används också av paket som OSSIM, "
+"Cadcorp SIS, FME, Google Earth, VTP, Thuban, ILWIS, MapGuide och ArcGIS."
 
 #: ../../build/doc/overview/gdal_overview.rstNone
 msgid "gdal screenshot"
-msgstr ""
+msgstr "gdal skärmdump"
 
 #: ../../build/doc/overview/gdal_overview.rst:43
 msgid "Core Features"
@@ -65,44 +76,52 @@ msgid ""
 "Command-line utilities for data translation, image warping, subsetting, and "
 "various other common tasks"
 msgstr ""
+"Kommandoradsverktyg för dataöversättning, bildförvrängning, underindelning "
+"och många andra vanliga uppgifter"
 
 #: ../../build/doc/overview/gdal_overview.rst:46
 msgid ""
 "Highly efficient raster data access, taking advantage of tiling and "
 "overviews"
 msgstr ""
+"Mycket effektiv åtkomst till rasterdata, med utnyttjande av tiling och "
+"översikter"
 
 #: ../../build/doc/overview/gdal_overview.rst:47
 msgid "Support for large files - larger than 4GB"
-msgstr ""
+msgstr "Stöd för stora filer - större än 4 GB"
 
 #: ../../build/doc/overview/gdal_overview.rst:48
 msgid "Library access from Python, Java, C#, Ruby, VB6 and Perl"
-msgstr ""
+msgstr "Biblioteksåtkomst från Python, Java, C#, Ruby, VB6 och Perl"
 
 #: ../../build/doc/overview/gdal_overview.rst:49
 msgid ""
 "Coordinate system engine built on PROJ.4 and OGC Well Known Text coordinate "
 "system descriptions"
 msgstr ""
+"Koordinatsystemmotor byggd på PROJ.4 och OGC Well Known Text "
+"koordinatsystembeskrivningar"
 
 #: ../../build/doc/overview/gdal_overview.rst:52
 msgid "Popular Supported Formats"
-msgstr ""
+msgstr "Populära format som stöds"
 
 #: ../../build/doc/overview/gdal_overview.rst:54
 msgid "GDAL supports over 140 raster formats, and OGR over 80 vector formats."
-msgstr ""
+msgstr "GDAL stöder över 140 rasterformat och OGR över 80 vektorformat."
 
 #: ../../build/doc/overview/gdal_overview.rst:56
 msgid "These include:"
-msgstr ""
+msgstr "Dessa inkluderar:"
 
 #: ../../build/doc/overview/gdal_overview.rst:58
 msgid ""
 "**Raster:** GeoTIFF, Erdas Imagine, SDTS, ESRI Grids, ECW, MrSID, JPEG2000, "
 "DTED, NITF, GeoPackage and more ..."
 msgstr ""
+"**Raster:** GeoTIFF, Erdas Imagine, SDTS, ESRI Grids, ECW, MrSID, JPEG2000, "
+"DTED, NITF, GeoPackage och mer ..."
 
 #: ../../build/doc/overview/gdal_overview.rst:59
 msgid ""
@@ -110,6 +129,9 @@ msgid ""
 "(tab and mid/mif), ESRI Coverages, ESRI Personal Geodatabase, DGN, PostGIS, "
 "Oracle Spatial, and more ..."
 msgstr ""
+"** Vektor:** GeoPackage, ESRI Shapefile, GML, GeoJSON, AutoCAD DWG, MapInfo ("
+"tab och mid/mif), ESRI Coverages, ESRI Personal Geodatabase, DGN, PostGIS, "
+"Oracle Spatial, och mer ..."
 
 #: ../../build/doc/overview/gdal_overview.rst:62
 msgid "Implemented Standards"
@@ -120,6 +142,8 @@ msgid ""
 "The OGR vector data model is compliant with the OGC Simple Features "
 "specification."
 msgstr ""
+"OGR:s vektordatamodell är förenlig med OGC:s specifikation för enkla "
+"funktioner."
 
 #: ../../build/doc/overview/gdal_overview.rst:67
 msgid "Details"
@@ -127,17 +151,19 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/gdal_overview.rst:69
 msgid "**Website:** https://gdal.org/"
-msgstr ""
+msgstr "**Webbplats:** https://gdal.org/"
 
 #: ../../build/doc/overview/gdal_overview.rst:71
 msgid ""
 "**Licence:** `X/MIT style Open Source license "
 "<https://trac.osgeo.org/gdal/wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_"
 msgstr ""
+"**Licens:** `X/MIT-licens för öppen källkod <https://trac.osgeo.org/gdal/"
+"wiki/FAQGeneral#WhatlicensedoesGDALOGRuse>`_"
 
 #: ../../build/doc/overview/gdal_overview.rst:73
 msgid "**Software Version:** |version-gdal|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-gdal|"
 
 #: ../../build/doc/overview/gdal_overview.rst:75
 msgid "**Supported Platforms:** Windows, Linux, Mac"
@@ -145,13 +171,15 @@ msgstr "**Plattformar som stöds:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/gdal_overview.rst:77
 msgid "**API Interfaces:** C, C++, Python, Java, C#, Ruby, VB6 and Perl"
-msgstr ""
+msgstr "**API-gränssnitt:** C, C++, Python, Java, C#, Ruby, VB6 och Perl"
 
 #: ../../build/doc/overview/gdal_overview.rst:79
 msgid ""
 "**Support:** https://lists.osgeo.org/mailman/listinfo/gdal-dev, "
 "https://www.osgeo.org/service-providers/"
 msgstr ""
+"**Support:** https://lists.osgeo.org/mailman/listinfo/gdal-dev, https://www."
+"osgeo.org/service-providers/"
 
 #: ../../build/doc/overview/gdal_overview.rst:84
 msgid "Quickstart"
@@ -159,7 +187,7 @@ msgstr "Snabbstart"
 
 #: ../../build/doc/overview/gdal_overview.rst:86
 msgid ":doc:`Quickstart documentation <../quickstart/gdal_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snabbstartsdokumentation <../quickstart/gdal_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -171,8 +199,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

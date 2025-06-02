@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-21 20:28+0000\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "zoo-project_quickstart/sv/>\n"
 "Language: sv\n"
@@ -21,27 +21,32 @@ msgstr ""
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:23
 msgid "Zoo Project Quickstart"
-msgstr ""
+msgstr "Snabbstart för Zoo Project"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:25
 msgid "The ZOO-Project provides a developer friendly Web Processing Service (WPS) framework for creating and chaining Web Processing Services. A WPS provides web access to functions which run spatial algorithms."
 msgstr ""
+"ZOO-projektet tillhandahåller ett utvecklarvänligt ramverk för Web "
+"Processing Service (WPS) för att skapa och kedja Web Processing Services. En "
+"WPS ger webbåtkomst till funktioner som kör rumsliga algoritmer."
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:30
 msgid "Contents"
-msgstr ""
+msgstr "Innehåll"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:33
 msgid "Start ZOO-Project"
-msgstr ""
+msgstr "Starta ZOO-projektet"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:35
 msgid "From the Start menu, select |menu_zoo-project|."
-msgstr ""
+msgstr "Välj |menu_zoo-project| från Start-menyn."
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:37
 msgid "Firefox will open the ZOO Project demonstration landing page. From here, you can select a demon application."
 msgstr ""
+"Firefox kommer att öppna landningssidan för ZOO-projektets demonstration. "
+"Härifrån kan du välja en demonapplikation."
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:None
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:0
@@ -49,75 +54,100 @@ msgstr ""
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:0
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:0
 msgid "screenshot"
-msgstr ""
+msgstr "skärmbild"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:45
 msgid "OGR spatial tools demo"
-msgstr ""
+msgstr "Demo av OGR:s rumsliga verktyg"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:47
 msgid "On the ZOO Project demonstration landing page, click :guilabel:`view` on OGR spatial tools."
 msgstr ""
+"Klicka på :guilabel:`view` på OGR:s rumsliga verktyg på ZOO-projektets "
+"landningssida för demonstration."
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:48
 msgid "Click on the map to select a feature from the :doc:`GeoServer <../overview/geoserver_overview>` WFS Server, the feature will be displayed in blue."
 msgstr ""
+"Klicka på kartan för att välja en funktion från WFS Server :doc:`GeoServer "
+"<../overview/geoserver_overview>`, funktionen visas i blått."
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:49
 msgid "Click on simple geometry process like Buffer, Centroid, ConvexHull or Boundary and the result will be displayed in yellow."
 msgstr ""
+"Klicka på en enkel geometrisk process som Buffer, Centroid, ConvexHull eller "
+"Boundary och resultatet kommer att visas i gult."
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:57
 msgid "Now select another feature near the first you've selected, then click on a multiple geometries process button like Union, Intersection, Symmetric Difference or Difference to get the result displayed in red on the map."
 msgstr ""
+"Välj nu en annan funktion i närheten av den första du har valt och klicka "
+"sedan på en processknapp för flera geometrier som Union, Intersection, "
+"Symmetric Difference eller Difference för att få resultatet visat i rött på "
+"kartan."
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:65
 msgid "CGAL triangulations demo"
-msgstr ""
+msgstr "Demo av CGAL-trianguleringar"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:67
 msgid "On the ZOO Project demonstration landing page, click :guilabel:`view` on CGAL triangulations."
 msgstr ""
+"På ZOO-projektets landningssida för demonstration klickar du på "
+":guilabel:`view` på CGAL-trianguleringar."
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:68
 msgid "Press the Voronoi or Delaunay button to display on your map the result of the WPS service execution, as shown below."
 msgstr ""
+"Tryck på Voronoi- eller Delaunay-knappen för att visa resultatet av WPS-"
+"tjänstens utförande på kartan, enligt bilden nedan."
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:78
 msgid "OTB Applications demo"
-msgstr ""
+msgstr "Demo av OTB-applikationer"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:80
 msgid "On the ZOO Project demonstration landing page, click :guilabel:`view` on OTB application."
 msgstr ""
+"På landningssidan för ZOO-projektets demonstration, klicka på "
+":guilabel:`view` på OTB-applikationen."
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:81
 msgid "Fill the form on the left to configure the WPS service execution."
 msgstr ""
+"Fyll i formuläret till vänster för att konfigurera WPS-tjänstens utförande."
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:82
 msgid "Once you have selected the values for your processing, press the :guilabel:`Execute` button at the bottom of the left form."
 msgstr ""
+"När du har valt värden för bearbetningen trycker du på knappen "
+":guilabel:`Execute` längst ner i det vänstra formuläret."
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:83
 msgid "If you chose image/png as the output format, you will see the result of your processing displayed on the map. You can see below a sample KMeansClassification execution when selecting the image/png output format."
 msgstr ""
+"Om du väljer image/png som utdataformat visas resultatet av din bearbetning "
+"på kartan. Nedan kan du se ett exempel på hur KMeansClassification utförs "
+"när du väljer utdataformatet image/png."
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:93
 msgid "What next?"
-msgstr ""
+msgstr "Hur vill du gå vidare?"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:96
 msgid "You can access the capabilities of the ZOO WPS Server:"
-msgstr ""
+msgstr "Du kan få tillgång till funktionerna i ZOO WPS-servern:"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:96
 msgid "http://localhost/cgi-bin/zoo_loader.cgi?Request=GetCapabilities&Service=WPS"
 msgstr ""
+"http://localhost/cgi-bin/zoo_loader.cgi?Request=GetCapabilities&Service=WPS"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:98
 msgid "For further questions you can contact the ZOO Project mailing list: zoo-discuss@lists.osgeo.org"
 msgstr ""
+"För ytterligare frågor kan du kontakta ZOO-projektets e-postlista: zoo-"
+"discuss@lists.osgeo.org"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -129,9 +159,9 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

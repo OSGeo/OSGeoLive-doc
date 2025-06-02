@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "geostyler_overview/sv/>\n"
 "Language: sv\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../build/doc/overview/geostyler_overview.rst:18
 msgid "GeoStyler"
-msgstr ""
+msgstr "GeoStyler"
 
 #: ../../build/doc/overview/geostyler_overview.rst:20
 msgid ""
@@ -33,6 +33,11 @@ msgid ""
 " universally applicable GUI that works with any given style format; be it "
 "SLD, QML, OpenLayers, etc."
 msgstr ""
+"GeoStyler är ett JavaScript-bibliotek med öppen källkod som gör det möjligt "
+"för användare att utforma kartor med hjälp av ett grafiskt "
+"användargränssnitt. Målet med GeoStyler är ett universellt tillämpligt GUI "
+"som fungerar med alla givna stilformat; vare sig det är SLD, QML, "
+"OpenLayers, etc."
 
 #: ../../build/doc/overview/geostyler_overview.rst:23
 msgid ""
@@ -44,6 +49,14 @@ msgid ""
 "Editors, RuleTables and a fully-fledged StyleEditor including filters and "
 "scale denominators."
 msgstr ""
+"GeoStyler tillhandahåller en uppsättning UI-komponenter för kartstyling. "
+"Precis som i ett modulärt byggblockssystem kan alla komponenter staplas på "
+"varandra för att skapa ett snyggt användargränssnitt för dina "
+"webbapplikationer. För att förenkla installationen tillhandahåller vi också "
+"några komponenter på hög nivå (baserade på våra byggstenar) som redan gör "
+"jobbet åt dig. Dessa inkluderar, bland många andra, Symbolizer Editors, "
+"RuleTables och en fullfjädrad StyleEditor inklusive filter och "
+"skalnominatorer."
 
 #: ../../build/doc/overview/geostyler_overview.rst:28
 msgid ""
@@ -58,10 +71,19 @@ msgid ""
 "WFS, Shapefiles and GeoJSON files. We plan on developing a data reader for "
 "the Geopackage format."
 msgstr ""
+"GeoStyler möjliggör dessutom översättning mellan flera stylingformat, t.ex. "
+"SLD, OpenLayers, QGIS, Mapbox. Eftersom vi följer konceptet med mikropaket "
+"kan dessa översättare (vi kallar dem parsers) användas som fristående "
+"bibliotek, utan att behöva inkludera UI-komponenterna som ett beroende. För "
+"närvarande har vi parsers för SLD, QGIS-styles, Mapbox-stilar, OpenLayers-"
+"stilar och Mapfiles. Ta en titt på implementeringar av StyleParser. Eftersom "
+"attributiv styling av geodata är enklare när du kan titta på de data som ska "
+"stylas, kan vi ansluta till flera datakällor som WFS, Shapefiles och GeoJSON-"
+"filer. Vi planerar att utveckla en dataläsare för Geopackage-formatet."
 
 #: ../../build/doc/overview/geostyler_overview.rstNone
 msgid "geostyler screenshot"
-msgstr ""
+msgstr "geostyler skärmdump"
 
 #: ../../build/doc/overview/geostyler_overview.rst:42
 msgid "Core Features"
@@ -69,31 +91,35 @@ msgstr "Kärnfunktioner"
 
 #: ../../build/doc/overview/geostyler_overview.rst:43
 msgid "Generic - not bound to one format only"
-msgstr ""
+msgstr "Generisk - inte bunden till endast ett format"
 
 #: ../../build/doc/overview/geostyler_overview.rst:44
 msgid "Supports common formats (e.g. SLD, QGIS) already out of the box"
-msgstr ""
+msgstr "Stöd för vanliga format (t.ex. SLD, QGIS) redan från start"
 
 #: ../../build/doc/overview/geostyler_overview.rst:45
 msgid ""
 "Graphical User Interface (GUI) including support for reordering of rules, a "
 "mapview, pickers for colors and symbols and a ton more"
 msgstr ""
+"Grafiskt användargränssnitt (GUI) med bland annat stöd för omordning av "
+"regler, kartvy, färg- och symbolväljare och mycket mer"
 
 #: ../../build/doc/overview/geostyler_overview.rst:46
 msgid "Has a GUI - but you are not required to use it"
-msgstr ""
+msgstr "Har ett GUI - men du behöver inte använda det"
 
 #: ../../build/doc/overview/geostyler_overview.rst:47
 msgid "Extensible - you're invited to build your own data readers or parsers"
-msgstr ""
+msgstr "Utökningsbar - du kan bygga dina egna dataläsare eller parsers"
 
 #: ../../build/doc/overview/geostyler_overview.rst:48
 msgid ""
 "Continues to grow - we are planning new features (like a commandline "
 "interface, more parsers etc.) and small improvements"
 msgstr ""
+"Fortsätter att växa - vi planerar nya funktioner (t.ex. ett "
+"kommandoradsgränssnitt, fler parsers etc.) och små förbättringar"
 
 #: ../../build/doc/overview/geostyler_overview.rst:51
 msgid "Implemented Standards"
@@ -101,27 +127,27 @@ msgstr "Implementerade standarder"
 
 #: ../../build/doc/overview/geostyler_overview.rst:53
 msgid "|FE|"
-msgstr ""
+msgstr "|FE|"
 
 #: ../../build/doc/overview/geostyler_overview.rst:54
 msgid "Geographic JSON (GeoJSON)"
-msgstr ""
+msgstr "Geografisk JSON (GeoJSON)"
 
 #: ../../build/doc/overview/geostyler_overview.rst:55
 msgid "|OGC|"
-msgstr ""
+msgstr "|OGC|"
 
 #: ../../build/doc/overview/geostyler_overview.rst:56
 msgid "|SLD|"
-msgstr ""
+msgstr "|SLD|"
 
 #: ../../build/doc/overview/geostyler_overview.rst:57
 msgid "|WFS|"
-msgstr ""
+msgstr "|WFS|"
 
 #: ../../build/doc/overview/geostyler_overview.rst:58
 msgid "|WMS|"
-msgstr ""
+msgstr "|WMS|"
 
 #: ../../build/doc/overview/geostyler_overview.rst:62
 msgid "Details"
@@ -129,28 +155,29 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/geostyler_overview.rst:64
 msgid "**Website:** https://geostyler.org"
-msgstr ""
+msgstr "**Webbplats:** https://geostyler.org"
 
 #: ../../build/doc/overview/geostyler_overview.rst:66
 msgid "**Licence:** BSD-2-Clause"
-msgstr ""
+msgstr "**Licens:** BSD-2-Clause"
 
 #: ../../build/doc/overview/geostyler_overview.rst:68
 msgid "**Software Version:** |version-geostyler|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-geostyler|"
 
 #: ../../build/doc/overview/geostyler_overview.rst:70
 msgid "**API Interfaces:** JavaScript"
-msgstr ""
+msgstr "**API-gränssnitt:** JavaScript"
 
 #: ../../build/doc/overview/geostyler_overview.rst:72
 msgid "**Support:** Issues on https://github.com/geostyler/geostyler"
-msgstr ""
+msgstr "**Support:** Frågor på https://github.com/geostyler/geostyler"
 
 #: ../../build/doc/overview/geostyler_overview.rst:74
 msgid ""
 "**Developers:** https://github.com/geostyler/geostyler/graphs/contributors"
 msgstr ""
+"**Utvecklare:** https://github.com/geostyler/geostyler/graphs/contributors"
 
 #: ../../build/doc/overview/geostyler_overview.rst:80
 msgid "Quickstart"
@@ -158,7 +185,7 @@ msgstr "Snabbstart"
 
 #: ../../build/doc/overview/geostyler_overview.rst:82
 msgid ":doc:`Quickstart documentation <../quickstart/geostyler_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snabbstartsdokumentation <../quickstart/geostyler_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -170,8 +197,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "geostyler_quickstart/sv/>\n"
 "Language: sv\n"
@@ -21,119 +21,155 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:16
 msgid "GeoStyler Quickstart"
-msgstr ""
+msgstr "GeoStyler Snabbstart"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:18
 msgid "This Quickstart describes the basic steps required to start working with GeoStyler: installing GeoStyler and adding a first UI component to your react application."
 msgstr ""
+"Den här snabbstarten beskriver de grundläggande steg som krävs för att börja "
+"arbeta med GeoStyler: installera GeoStyler och lägga till en första UI-"
+"komponent i din react-applikation."
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:20
 msgid "A complete beginner tutorial can be found on `localhost/geostyler <http://localhost/geostyler>`__."
 msgstr ""
+"En komplett handledning för nybörjare finns på `localhost/geostyler <http://"
+"localhost/geostyler>`__."
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:23
 msgid "GeoStyler makes it easy to style geodata in any web page. The UI is independent from any styling format and should be usable for e.g. OpenLayer or SLD."
 msgstr ""
+"GeoStyler gör det enkelt att styla geodata på alla webbsidor. "
+"Användargränssnittet är oberoende av stylingformat och bör kunna användas "
+"för t.ex. OpenLayer eller SLD."
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:26
 msgid "Contents"
-msgstr ""
+msgstr "Innehåll"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:29
 msgid "Installing GeoStyler"
-msgstr ""
+msgstr "Installera GeoStyler"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:31
 msgid "In order to use GeoStyler, you need to have ``node.js`` installed on your system. Instructions on how to install ``node.js`` can be found on the `node.js homepage <https://nodejs.org/>`__."
 msgstr ""
+"För att kunna använda GeoStyler måste du ha ``node.js`` installerat på ditt "
+"system. Instruktioner om hur du installerar ``node.js`` finns på `node.js "
+"hemsida <https://nodejs.org/>`__."
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:35
 msgid "It is recommended to install GeoStyler for each project separately. This sections describes the required steps."
 msgstr ""
+"Vi rekommenderar att du installerar GeoStyler för varje projekt separat. I "
+"detta avsnitt beskrivs de steg som krävs."
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:38
 msgid "The most simple way to install GeoStyler is to use ``npm`` that comes with the ``node.js`` installation. Simply run following command from your project root:"
 msgstr ""
+"Det enklaste sättet att installera GeoStyler är att använda ``npm`` som "
+"medföljer installationen av ``node.js``. Kör helt enkelt följande kommando "
+"från din projektrot:"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:45
 msgid "Please make sure that all peer dependencies are installed in the specified versions:"
 msgstr ""
+"Se till att alla peer-beroenden är installerade i de angivna versionerna:"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:51
 msgid "Don't forget to install the parsers you want to use:"
-msgstr ""
+msgstr "Glöm inte att installera de parsers som du vill använda:"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:59
 msgid "Integrate GeoStyler"
-msgstr ""
+msgstr "Integrera GeoStyler"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:61
 msgid "Import the GeoStyler ``Style`` component into your application as follows:"
 msgstr ""
+"Importera GeoStyler-komponenten ``Style`` till din applikation på följande "
+"sätt:"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:67
 msgid "The ``Style`` component provides a variety of styling functionality."
-msgstr ""
+msgstr "Komponenten ``Style`` tillhandahåller en mängd olika stylingfunktioner."
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:69
 msgid "After importing, you can use it in your render method like this:"
-msgstr ""
+msgstr "Efter importen kan du använda den i din renderingsmetod så här:"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:77
 msgid "The ``Style`` component should now be visible in the browser."
-msgstr ""
+msgstr "Komponenten ``Style`` ska nu vara synlig i webbläsaren."
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:82
 msgid "Integrate geostyler-sld-parser"
-msgstr ""
+msgstr "Integrera geostyler-sld-parser"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:84
 msgid "To edit an existing SLD via GeoStyler, we first have to import and instantiate the ``geostyler-sld-parser``."
 msgstr ""
+"För att redigera en befintlig SLD via GeoStyler måste vi först importera och "
+"instansiera ``geostyler-sld-parser``."
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:91
 msgid "Afterwards, we are able to read an existing SLD into the GeoStyler-readable format."
 msgstr ""
+"Därefter kan vi läsa in en befintlig SLD till det GeoStyler-läsbara formatet."
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:121
 msgid "To connect this style with the UI, we have to store it in a state variable and pass it to our ``Style`` component. After defining ``myStyle`` as a state variable, you can use it as follows:"
 msgstr ""
+"För att koppla denna stil till användargränssnittet måste vi lagra den i en "
+"tillståndsvariabel och skicka den till vår ``Style``-komponent. När du har "
+"definierat ``myStyle`` som en tillståndsvariabel kan du använda den på "
+"följande sätt:"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:158
 msgid "The GeoStyler UI should now match the style that was defined as SLD."
-msgstr ""
+msgstr "GeoStyler-gränssnittet ska nu matcha den stil som definierades som SLD."
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:160
 msgid "To get the edited style as SLD from the ``Style`` component, you can use the ``writeStyle()`` method of the geostyler-sld-parser within the ``onStyleChange()`` method of the ``Style`` component."
 msgstr ""
+"För att få den redigerade stilen som SLD från komponenten ``Style`` kan du "
+"använda ``writeStyle()``-metoden för geostyler-sld-parser inom "
+"``onStyleChange()``-metoden för komponenten ``Style``."
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:203
 msgid "Things to try"
-msgstr ""
+msgstr "Saker att prova"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:205
 msgid "As a next step, you can try to add an `OpenLayers <https://openlayers.org/>`__ map and connect the ``Style`` component to the map, so that you can directly see the changes you made on the map."
 msgstr ""
+"Som ett nästa steg kan du försöka lägga till en `OpenLayers "
+"<https://openlayers.org/>`__-karta och ansluta ``Style``-komponenten till "
+"kartan, så att du direkt kan se de ändringar du gjort på kartan."
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:209
 msgid "What next?"
-msgstr ""
+msgstr "Hur vill du gå vidare?"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:211
 msgid "Check out these other resources about this application."
-msgstr ""
+msgstr "Kolla in dessa andra resurser om denna applikation."
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:213
 msgid "`GeoStyler Documentation <https://geostyler.github.io/geostyler/latest/index.html>`__"
 msgstr ""
+"`Dokumentation om GeoStyler <https://geostyler.github.io/geostyler/latest/"
+"index.html>`__"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:214
 msgid "`Beginner Tutorial <https://geostyler.github.io/geostyler-beginner-workshop>`__"
 msgstr ""
+"`Nybörjarhandledning <https://geostyler.github.io/geostyler-beginner-"
+"workshop>`__"
 
 #: ../../build/doc/quickstart/geostyler_quickstart.rst:215
 msgid "`geostyler.org Website <https://geostyler.org>`__"
-msgstr ""
+msgstr "`geostyler.org Webbplats <https://geostyler.org>`__"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -145,9 +181,9 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

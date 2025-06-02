@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "nc_dataset_overview/sv/>\n"
 "Language: sv\n"
@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:14
 msgid "North Carolina USA Educational dataset"
-msgstr ""
+msgstr "North Carolina USA Pedagogisk dataset"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:17
 msgid "Map Data"
-msgstr ""
+msgstr "Kartdata"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:21
 msgid ""
@@ -37,33 +37,41 @@ msgid ""
 "sources provided by the North Carolina state and local government agencies "
 "and Global Land Cover Facility (GLCF)."
 msgstr ""
+"Denna dataset är en omfattande samling av raster-, vektor- och bilddata som "
+"täcker delar av North Carolina (NC), USA, framtagen från offentliga "
+"datakällor som tillhandahålls av North Carolina State och lokala myndigheter "
+"och Global Land Cover Facility (GLCF)."
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:23
 msgid ""
 "The data set includes sections of the NC capital city Raleigh and its "
 "surroundings."
 msgstr ""
+"Datauppsättningen omfattar delar av huvudstaden Raleigh i NC och dess "
+"omgivningar."
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:25
 msgid "Data are provided at three hierarchical levels:"
-msgstr ""
+msgstr "Data tillhandahålls på tre hierarkiska nivåer:"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:27
 msgid "entire NC state with raster data at 500m resolution;"
-msgstr ""
+msgstr "hela delstaten NC med rasterdata med 500 meters upplösning;"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:29
 msgid "South-west Wake County with raster data at resolutions 30m-10m; and"
-msgstr ""
+msgstr "Sydvästra Wake County med rasterdata i upplösningarna 30m-10m; och"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:31
 msgid ""
 "a small watershed in rural area with data resolutions of 1m-3m (see image)."
 msgstr ""
+"ett litet avrinningsområde på landsbygden med dataupplösningar på 1m-3m (se "
+"bild)."
 
 #: ../../build/doc/overview/nc_dataset_overview.rstNone
 msgid "nc_dataset screenshot"
-msgstr ""
+msgstr "nc_dataset skärmdump"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:40
 msgid "Core Features"
@@ -75,6 +83,10 @@ msgid ""
 "data, specifically selected to cover the wide needs of teaching introductory"
 " GIS courses and providing examples for software help pages and tutorials."
 msgstr ""
+"Raster-, vektor- och KML-kartlager på läns- och delstatsnivå med "
+"fullständiga metadata, särskilt utvalda för att täcka de breda behoven för "
+"undervisning i inledande GIS-kurser och tillhandahålla exempel för "
+"hjälpsidor och handledning för programvara."
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:44
 msgid ""
@@ -82,40 +94,50 @@ msgid ""
 "modified by anyone. Without the usual legal encumbrances of much publicly "
 "available geodata it is ideal for use in the classroom."
 msgstr ""
+"Creative Commons-licensen innebär att data kan användas, distribueras och "
+"modifieras av vem som helst. Utan de vanliga juridiska hinder som gäller för "
+"många allmänt tillgängliga geodata är det perfekt för användning i "
+"klassrummet."
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:48
 msgid "Data Sets"
-msgstr ""
+msgstr "Datauppsättningar"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:51
 msgid "Cultural Vector Data Themes:"
-msgstr ""
+msgstr "Teman för kulturella vektordata:"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:51
 msgid ""
 "Includes political boundaries, roads, bus stops, firestations, census "
 "blocks, and much more."
 msgstr ""
+"Innehåller politiska gränser, vägar, busshållplatser, brandstationer, "
+"folkbokföringsblock och mycket mer."
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:54
 msgid "Physical Vector Data Themes:"
-msgstr ""
+msgstr "Fysiska vektordata Teman:"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:54
 msgid ""
 "Includes LiDAR aerial elevation measurements, contour lines, streams, "
 "precipitation, and much more."
 msgstr ""
+"Inkluderar LiDAR-flygmätningar, höjdkurvor, vattendrag, nederbörd och mycket "
+"mer."
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:58
 msgid "Raster Data Themes:"
-msgstr ""
+msgstr "Teman för rasterdata:"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:57
 msgid ""
 "Includes digital elevation maps, landuse and landcover, LANDSAT7 imagery, "
 "and much more."
 msgstr ""
+"Innehåller digitala höjdkartor, markanvändning och marktäcke, LANDSAT7-"
+"bilder och mycket mer."
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:61
 msgid "Details"
@@ -123,29 +145,30 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:63
 msgid "**Website:** https://wiki.osgeo.org/wiki/Category:Education"
-msgstr ""
+msgstr "**Webbplats:** https://wiki.osgeo.org/wiki/Category:Education"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:65
 msgid "**License:** |CC BY-SA 3.0|"
-msgstr ""
+msgstr "**Licens:** |CC BY-SA 3.0|"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:67
 msgid "**Data Version:** 2008"
-msgstr ""
+msgstr "**Dataversion:** 2008"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:69
 msgid "**Data format:** GeoTIFF, Shapefiles, KML"
-msgstr ""
+msgstr "**Dataformat:** GeoTIFF, Shapefiler, KML"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:71
 msgid ""
 "**Spatial coordinate system:** NC State Plane (Lambert Conformal Conic), "
 "NAD83"
 msgstr ""
+"**Rumsligt koordinatsystem:** NC State Plane (Lambert Conformal Conic), NAD83"
 
 #: ../../build/doc/overview/nc_dataset_overview.rst:73
 msgid "**Support:** https://lists.osgeo.org/mailman/listinfo/geodata"
-msgstr ""
+msgstr "**Support:** https://lists.osgeo.org/mailman/listinfo/geodata"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -157,8 +180,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-21 20:28+0000\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "mapnik_quickstart/sv/>\n"
 "Language: sv\n"
@@ -21,83 +21,111 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:21
 msgid "Mapnik Quickstart"
-msgstr ""
+msgstr "Mapnik Snabbstart"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:23
 msgid "Mapnik is an toolkit for developing mapping applications. Above all Mapnik is about making beautiful maps. It is easily extensible and suitable for both desktop and web development."
 msgstr ""
+"Mapnik är en verktygslåda för utveckling av kartapplikationer. Framför allt "
+"handlar Mapnik om att göra vackra kartor. Den är lätt att bygga ut och "
+"lämpar sig för både desktop- och webbutveckling."
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:27
 msgid "Contents"
-msgstr ""
+msgstr "Innehåll"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:30
 msgid "Mapnik & Python"
-msgstr ""
+msgstr "Mapnik och Python"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:32
 msgid "Mapnik and its python bindings are installed and ready to be used for scripting on this machine."
 msgstr ""
+"Mapnik och dess pythonbindningar är installerade och redo att användas för "
+"skript på den här maskinen."
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:34
 msgid "Creating maps in python is easy with Mapnik. Open a terminal window and type `python3` on the command line to enter a python interpreter. Then try this::"
 msgstr ""
+"Att skapa kartor i python är enkelt med Mapnik. Öppna ett terminalfönster "
+"och skriv `python3` på kommandoraden för att ange en python-tolk. Prova "
+"sedan detta::"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:38
 msgid "import mapnik, os m = mapnik.Map(600,400) style = '/usr/local/share/mapnik/world_population.xml' mapnik.load_map(m,style) m.zoom_all() mapnik.render_to_file(m,'world_population.png') os.system('xdg-open world_population.png')"
 msgstr ""
+"import mapnik, os m = mapnik.Map(600,400) style = '/usr/local/share/mapnik/"
+"world_population.xml' mapnik.load_map(m,style) m.zoom_all() mapnik."
+"render_to_file(m,'world_population.png') os.system('xdg-open world_population"
+".png')"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:49
 msgid "The above code depends on having an XML stylesheet that Mapnik can read (world_population.xml), defining the layers to read data from and the styles to apply to those layers."
 msgstr ""
+"Ovanstående kod är beroende av att det finns en XML-stilmall som Mapnik kan "
+"läsa (world_population.xml), som definierar de lager som data ska läsas från "
+"och de stilar som ska tillämpas på dessa lager."
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:54
 msgid "Mapnik & MapProxy"
-msgstr ""
+msgstr "Mapnik & MapProxy"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:56
 msgid "A basic demo application is available which demonstrates using Mapnik with MapProxy"
 msgstr ""
+"En grundläggande demoprogramvara finns tillgänglig som visar hur man "
+"använder Mapnik med MapProxy"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:58
 msgid "The demo uses the world_population.xml from the Mapnik demo."
-msgstr ""
+msgstr "Demot använder world_population.xml från Mapnik-demo."
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:60
 msgid "Click |menu_mapnik|. The server starts in a terminal window (which stays open and outputs basic debugging information)."
 msgstr ""
+"Klicka på |menu_mapnik|. Servern startar i ett terminalfönster (som förblir "
+"öppet och ger grundläggande felsökningsinformation)."
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:62
 msgid "Open the MapProxy demo application http://0.0.0.0:8011/demo/"
-msgstr ""
+msgstr "Öppna MapProxy-demoprogrammet http://0.0.0.0:8011/demo/"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:64
 msgid "You find the world population demo by Mapnik as a WMS layer and also the world population in combination with a the GeoServer layer topp:states (make sure GeoServer is running)"
 msgstr ""
+"Du hittar världsbefolkningsdemonstrationen av Mapnik som ett WMS-lager och "
+"även världsbefolkningen i kombination med ett GeoServer-lager topp:states ("
+"se till att GeoServer körs)"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:67
 msgid "You can use the MapProxy WMS in other applications for example in QGIS or in Mapbender (http://localhost/mapbender/application/mapbender_user)."
 msgstr ""
+"Du kan använda MapProxy WMS i andra applikationer, t.ex. i QGIS eller i "
+"Mapbender (http://localhost/mapbender/application/mapbender_user)."
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:70
 msgid "Observe the output in the server terminal window."
-msgstr ""
+msgstr "Observera utmatningen i serverns terminalfönster."
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:74
 msgid "What next?"
-msgstr ""
+msgstr "Hur vill du gå vidare?"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:76
 msgid "Follow the tutorials to learn more about Mapnik: https://github.com/mapnik/mapnik/wiki/MapnikTutorials"
 msgstr ""
+"Följ anvisningarna för att lära dig mer om Mapnik: https://github.com/mapnik/"
+"mapnik/wiki/MapnikTutorials"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:78
 msgid "Explore the included files on the latest OSGeoLive distribution, in this directory: file:///usr/local/share/mapnik/"
 msgstr ""
+"Utforska de inkluderade filerna på den senaste OSGeoLive-distributionen, i "
+"den här katalogen: file:///usr/local/share/mapnik/"
 
 #: ../../build/doc/quickstart/mapnik_quickstart.rst:80
 msgid "Visit the Mapnik website: https://mapnik.org"
-msgstr ""
+msgstr "Besök Mapniks webbplats: https://mapnik.org"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -109,9 +137,9 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

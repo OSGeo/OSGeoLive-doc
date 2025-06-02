@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "istsos_overview/sv/>\n"
 "Language: sv\n"
@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../../build/doc/overview/istsos_overview.rst:17
 msgid "istSOS"
-msgstr ""
+msgstr "istSOS"
 
 #: ../../build/doc/overview/istsos_overview.rst:20
 msgid "Data Management Tool"
-msgstr ""
+msgstr "Verktyg för datahantering"
 
 #: ../../build/doc/overview/istsos_overview.rst:22
 msgid ""
@@ -36,16 +36,21 @@ msgid ""
 "and publishing of monitoring observations using the Open Geospatial "
 "Consortium (OGC) |SOS| standard."
 msgstr ""
+"istSOS är ett verktyg för hantering av sensordata som möjliggör insamling, "
+"underhåll och publicering av övervakningsobservationer med hjälp av Open "
+"Geospatial Consortium (OGC) |SOS|-standarden."
 
 #: ../../build/doc/overview/istsos_overview.rst:26
 msgid ""
 "istSOS strictly implements the SOS 1.0.0 standard, and has passed the OGC "
 "CITE (Compliance + Interopability Testing + Evaluation) units tests."
 msgstr ""
+"istSOS implementerar strikt SOS 1.0.0-standarden och har klarat OGC CITE ("
+"Compliance + Interopability Testing + Evaluation) enhetstester."
 
 #: ../../build/doc/overview/istsos_overview.rstNone
 msgid "istsos screenshot"
-msgstr ""
+msgstr "istsos skärmdump"
 
 #: ../../build/doc/overview/istsos_overview.rst:35
 msgid "Core Features"
@@ -56,10 +61,12 @@ msgid ""
 "Publish sensor data in accordance with the Sensor Observation Service (SOS) "
 "standard."
 msgstr ""
+"Publicera sensordata i enlighet med SOS-standarden (Sensor Observation "
+"Service)."
 
 #: ../../build/doc/overview/istsos_overview.rst:38
 msgid "Administer sensors and data with an intuitive web-based interface."
-msgstr ""
+msgstr "Administrera sensorer och data med ett intuitivt webbaserat gränssnitt."
 
 #: ../../build/doc/overview/istsos_overview.rst:39
 msgid ""
@@ -67,36 +74,49 @@ msgid ""
 "clients to create interactive charts, display sensor on a dynamic map or "
 "just write some maintenance scripts."
 msgstr ""
+"Använd ett komplett RestFul API för att komma åt istSOS-funktionalitet från "
+"externa klienter för att skapa interaktiva diagram, visa sensorer på en "
+"dynamisk karta eller bara skriva några underhållsskript."
 
 #: ../../build/doc/overview/istsos_overview.rst:40
 msgid ""
 "Get notified through mail, twitter or other social media when sensor data "
 "meets specific conditions."
 msgstr ""
+"Få meddelanden via e-post, Twitter eller andra sociala medier när sensordata "
+"uppfyller specifika villkor."
 
 #: ../../build/doc/overview/istsos_overview.rst:41
 msgid ""
 "User authentication and authorization with different access levels "
 "(administrator, network manager, data manager and visitor)."
 msgstr ""
+"Autentisering och auktorisering av användare med olika åtkomstnivåer ("
+"administratör, nätverksansvarig, datahanterare och besökare)."
 
 #: ../../build/doc/overview/istsos_overview.rst:42
 msgid ""
 "Create Virtual Procedures that look like normal stations but whose data "
 "results from on-the-fly elaboration of other sensor data."
 msgstr ""
+"Skapa virtuella procedurer som ser ut som vanliga stationer men vars data är "
+"resultatet av en snabb bearbetning av andra sensordata."
 
 #: ../../build/doc/overview/istsos_overview.rst:43
 msgid ""
 "Associate quality indexes to each observation thanks to embedded validation "
 "tests."
 msgstr ""
+"Koppla kvalitetsindex till varje observation tack vare inbäddade "
+"valideringstester."
 
 #: ../../build/doc/overview/istsos_overview.rst:44
 msgid ""
 "Online editing of data with a seamless interface and advanced observation "
 "calculator."
 msgstr ""
+"Online-redigering av data med ett smidigt gränssnitt och avancerad "
+"observationsräknare."
 
 #: ../../build/doc/overview/istsos_overview.rst:48
 msgid "Implemented Standards"
@@ -104,7 +124,7 @@ msgstr "Implementerade standarder"
 
 #: ../../build/doc/overview/istsos_overview.rst:49
 msgid "SOS 1.0.0: Basic and Transactional profiles"
-msgstr ""
+msgstr "SOS 1.0.0: Grundläggande och transaktionella profiler"
 
 #: ../../build/doc/overview/istsos_overview.rst:52
 msgid "Details"
@@ -112,7 +132,7 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/istsos_overview.rst:54
 msgid "**Website:** http://istsos.org"
-msgstr ""
+msgstr "**Webbplats:** http://istsos.org"
 
 #: ../../build/doc/overview/istsos_overview.rst:56
 msgid "**Licence:** GNU General Public License (GPL) version 2"
@@ -120,19 +140,19 @@ msgstr "* * Licens: * * GNU General Public License (GPL) version 2"
 
 #: ../../build/doc/overview/istsos_overview.rst:58
 msgid "**Software Version:** |version-istsos|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-istsos|"
 
 #: ../../build/doc/overview/istsos_overview.rst:60
 msgid "**Supported Platforms:** Linux, Unix, Mac, Windows"
-msgstr ""
+msgstr "**Plattformar som stöds:** Linux, Unix, Mac, Windows"
 
 #: ../../build/doc/overview/istsos_overview.rst:62
 msgid "**API Interfaces:** Python / wsgi"
-msgstr ""
+msgstr "**API-gränssnitt:** Python / wsgi"
 
 #: ../../build/doc/overview/istsos_overview.rst:64
 msgid "**Support:** https://groups.google.com/forum/#!forum/istsos"
-msgstr ""
+msgstr "**Support:** https://groups.google.com/forum/#!forum/istsos"
 
 #: ../../build/doc/overview/istsos_overview.rst:70
 msgid "Quickstart"
@@ -140,7 +160,7 @@ msgstr "Snabbstart"
 
 #: ../../build/doc/overview/istsos_overview.rst:72
 msgid ":doc:`Quickstart documentation <../quickstart/istsos_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snabbstartsdokumentation <../quickstart/istsos_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -152,8 +172,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

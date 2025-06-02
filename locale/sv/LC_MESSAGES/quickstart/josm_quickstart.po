@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "josm_quickstart/sv/>\n"
 "Language: sv\n"
@@ -21,264 +21,386 @@ msgstr ""
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:20
 msgid "JOSM Quickstart"
-msgstr ""
+msgstr "Snabbstart för JOSM"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:22
 msgid "JOSM is a feature rich, extensible, offline desktop editor for OpenStreetMap (OSM) data, written in Java."
 msgstr ""
+"JOSM är en funktionsrik, utbyggbar, offline desktop editor för OpenStreetMap "
+"(OSM) data, skriven i Java."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:24
 msgid "It supports loading stand-alone GPX tracks and GPX track data as well as editing existing nodes (points), ways (lines), metadata tags (name/value information) and relations (ordered sequence of points and lines) from the OSM database. GPX tracks, are usually downloaded in advance from a GPS receiver or from other sources."
 msgstr ""
+"Det stöder inläsning av fristående GPX-spår och GPX-spårdata samt redigering "
+"av befintliga noder (punkter), vägar (linjer), metadatataggar (namn/"
+"värdeinformation) och relationer (ordnad sekvens av punkter och linjer) från "
+"OSM-databasen. GPX-spår laddas vanligtvis ner i förväg från en GPS-mottagare "
+"eller från andra källor."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:26
 msgid "This quickstart covers basic usage of the Java OpenStreetMap editor."
 msgstr ""
+"Denna snabbstart täcker grundläggande användning av Java OpenStreetMap-"
+"editorn."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:32
 msgid "Start JOSM"
-msgstr ""
+msgstr "Starta JOSM"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:34
 msgid "From the desktop, choose :menuselection:`Navigation and Maps --> JOSM`. When JOSM starts, it will look something like this:"
 msgstr ""
+"Från skrivbordet väljer du :menuselection:`Navigation och kartor --> JOSM`. "
+"När JOSM startar kommer det att se ut ungefär så här:"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:None
 msgid "JOSM splash page"
-msgstr ""
+msgstr "JOSM startsida"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:41
 msgid "Load a sample (ficticious) map"
-msgstr ""
+msgstr "Ladda ett exempel på en (fiktiv) karta"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:43
 msgid "Now let’s open up a sample OSM file which we will use to learn the basic ways to draw maps with JOSM. Note that this map is not real, in that it is not a real map of a real place, so we will not save it on OpenStreetMap."
 msgstr ""
+"Låt oss nu öppna en OSM-fil som vi kommer att använda för att lära oss de "
+"grundläggande sätten att rita kartor med JOSM. Observera att den här kartan "
+"inte är riktig, eftersom det inte är en riktig karta över en riktig plats, "
+"så vi kommer inte att spara den på OpenStreetMap."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:47
 msgid "Download the file here: `sample.osm <https://learnosm.org/files/sample.osm>`__"
 msgstr ""
+"Ladda ner filen här: `sample.osm <https://learnosm.org/files/sample.osm>`__"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:48
 msgid "Now let’s open the sample map file in JOSM. Click the “Open” button in the upper left."
 msgstr ""
+"Låt oss nu öppna exempelkartfilen i JOSM. Klicka på knappen \"Öppna\" längst "
+"upp till vänster."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:0
 msgid "Open file"
-msgstr ""
+msgstr "Öppna fil"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:54
 msgid "Find the file **sample.osm**. It is probably in your Downloads folder, unless you saved it somewhere else."
 msgstr ""
+"Leta reda på filen **sample.osm**. Den finns förmodligen i mappen Downloads, "
+"om du inte har sparat den någon annanstans."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:56
 msgid "Click on it, and then click “Open”. You should now see a sample map that looks like this:"
 msgstr ""
+"Klicka på den och klicka sedan på \"Öppna\". Du bör nu se en exempelkarta "
+"som ser ut så här:"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:0
 msgid "Sample file"
-msgstr ""
+msgstr "Exempel på fil"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:62
 msgid "You will use these data in order to try various editing techniques. *You must however never upload these fictitious data to the database.*"
 msgstr ""
+"Du kommer att använda dessa data för att prova olika redigeringstekniker. *"
+"Du får dock aldrig ladda upp dessa fiktiva data till databasen.*"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:67
 msgid "Navigate the map"
-msgstr ""
+msgstr "Navigera på kartan"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:69
 msgid "To move the map left or right, up or down, hold your right mouse button down, and move your mouse."
 msgstr ""
+"För att flytta kartan åt vänster eller höger, uppåt eller nedåt, håll höger "
+"musknapp nedtryckt och flytta musen."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:71
 msgid "There are several ways to zoom in and out of the map. If you have a mouse, you can use your scroll wheel to zoom in and out. If you are using a laptop and don’t have a mouse, you can zoom in and out using the scale bar in the upper left of the map window. Drag the bar left and right by holding your left mouse down and moving the bar left or right with your mouse."
 msgstr ""
+"Det finns flera sätt att zooma in och ut på kartan. Om du har en mus kan du "
+"använda rullningshjulet för att zooma in och ut. Om du använder en bärbar "
+"dator och inte har någon mus kan du zooma in och ut med hjälp av skalfältet "
+"längst upp till vänster i kartfönstret. Dra stapeln åt vänster och höger "
+"genom att hålla ned vänster musknapp och flytta stapeln åt vänster eller "
+"höger med musen."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:0
 msgid "Scale bar"
-msgstr ""
+msgstr "Skalstreck"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:82
 msgid "Look at the sample map. There a few different types of objects here. There is a river, a forest, some buildings, several roads, and a couple of shops. To select an object, click on it with your left mouse button."
 msgstr ""
+"Titta på exempelkartan. Det finns några olika typer av objekt här. Det finns "
+"en flod, en skog, några byggnader, flera vägar och ett par butiker. För att "
+"välja ett objekt klickar du på det med vänster musknapp."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:88
 msgid "Points, lines, and shapes"
-msgstr ""
+msgstr "Punkter, linjer och former"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:90
 msgid "As you click different objects on the sample map, notice that there are three different types of objects on the map. There are points, lines, and shapes."
 msgstr ""
+"När du klickar på olika objekt på exempelkartan ska du lägga märke till att "
+"det finns tre olika typer av objekt på kartan. Det finns punkter, linjer och "
+"former."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:92
 msgid "Points are a single location, represented by symbols. On this sample map, there are two points, a shoe shop and a supermarket. The shoe shop is represented by a shoe symbol, and the market is represented by a shopping cart."
 msgstr ""
+"Punkter är en enda plats som representeras av symboler. På denna "
+"exempelkarta finns det två punkter, en skoaffär och en stormarknad. "
+"Skobutiken representeras av en skosymbol och stormarknaden representeras av "
+"en kundvagn."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:96
 msgid "There are several lines on the map as well, which represent roads. If you look closely you will see that within the lines, there are points as well. These points don’t have any symbols or other information associated with them, but they help to define where the line is located."
 msgstr ""
+"Det finns också flera linjer på kartan, som representerar vägar. Om du "
+"tittar noga ser du att det också finns punkter inom linjerna. Dessa punkter "
+"har inga symboler eller annan information kopplad till sig, men de hjälper "
+"till att definiera var linjen är belägen."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:101
 msgid "Lastly, there are numerous shapes on the sample map, representing different places - a forest, a river, a park, and buildings. A shape is used to represent an area, like a field or a building. A shape is exactly like a line - the only difference is that the line begins at the same point where it ends."
 msgstr ""
+"Slutligen finns det många former på provkartan som representerar olika "
+"platser - en skog, en flod, en park och byggnader. En form används för att "
+"representera ett område, t.ex. ett fält eller en byggnad. En form är precis "
+"som en linje - den enda skillnaden är att linjen börjar på samma ställe där "
+"den slutar."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:107
 msgid "It's easy to think of a map as containing these three basic types of objects - points, lines, and shapes. In OpenStreetMap there is special terminology which you will come to learn as you progress. In OSM, points are actually called **nodes**, and lines are called **ways**. A shape is called a **closed way** because it is just a line that ends at the same point where it begins."
 msgstr ""
+"Det är lätt att tänka sig att en karta innehåller dessa tre grundläggande "
+"typer av objekt - punkter, linjer och former. I OpenStreetMap finns det en "
+"speciell terminologi som du kommer att lära dig under arbetets gång. I OSM "
+"kallas punkter faktiskt **noder** och linjer kallas **vägar**. En form "
+"kallas en **sluten väg** eftersom det bara är en linje som slutar vid samma "
+"punkt där den börjar."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:114
 msgid "You may notice that when you select an object, a list appears to the right of the map in a window called “Properties”. These are known as tags. Tags are information that is tied to a point, line or shape that describes what it is. We’ll learn more about tags in a later chapter. For now all you need to know is that this information helps describe whether our object is a forest, a river, a building, or something else."
 msgstr ""
+"Du kanske märker att när du markerar ett objekt visas en lista till höger om "
+"kartan i ett fönster som heter \"Properties\". Dessa är kända som taggar. "
+"Taggar är information som är knuten till en punkt, linje eller form och som "
+"beskriver vad den är. Vi kommer att lära oss mer om taggar i ett senare "
+"kapitel. För tillfället behöver du bara veta att den här informationen "
+"hjälper dig att beskriva om vårt objekt är en skog, en flod, en byggnad "
+"eller något annat."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:121
 msgid "Think about drawing a map by hand, and how you are also drawing points, lines, and shapes. What other places are best represented by points? Lines? Shapes?"
 msgstr ""
+"Tänk på att du ritar en karta för hand och att du samtidigt ritar punkter, "
+"linjer och former. Vilka andra platser representeras bäst av punkter? "
+"Linjer? Former?"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:126
 msgid "Changing objects"
-msgstr ""
+msgstr "Byte av objekt"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:128
 msgid "Select the forest on the left side of the map. Be sure to click on the line around the forest, not one of the points on the line."
 msgstr ""
+"Välj skogen på vänstra sidan av kartan. Se till att du klickar på linjen "
+"runt skogen, inte på någon av punkterna på linjen."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:130
 msgid "Now hold your left mouse button down and drag your mouse. You should be able to move the forest to a new location on the map."
 msgstr ""
+"Håll nu vänster musknapp nedtryckt och dra musen. Du bör kunna flytta skogen "
+"till en ny plats på kartan."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:131
 msgid "Click on one of the points on the line around the forest. Hold your left mouse button down and drag your mouse. You should be able to move the point. This is how you can change the shape of an object, or move a point."
 msgstr ""
+"Klicka på en av punkterna på linjen runt skogen. Håll vänster musknapp "
+"nedtryckt och dra musen. Du bör kunna flytta punkten. Så här kan du ändra "
+"formen på ett objekt eller flytta en punkt."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:137
 msgid "Drawing"
-msgstr ""
+msgstr "Ritning"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:139
 msgid "On the left side of JOSM is a column of buttons. Many of these buttons open new windows on the right side that provide more information about the map. The most important buttons, however, are at the top of these column. These buttons change what you can do with your mouse."
 msgstr ""
+"På vänster sida av JOSM finns en kolumn med knappar. Många av dessa knappar "
+"öppnar nya fönster på höger sida som ger mer information om kartan. De "
+"viktigaste knapparna finns dock högst upp i kolumnen. Dessa knappar ändrar "
+"vad du kan göra med musen."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:144
 msgid "The top buttons in this column are the ones you will use the most. They are used for selecting objects and for drawing new ones."
 msgstr ""
+"De översta knapparna i den här kolumnen är de som du kommer att använda "
+"mest. De används för att välja objekt och för att rita nya objekt."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:146
 msgid "Until now, you have been using the Select tool, which looks like this:"
-msgstr ""
+msgstr "Fram till nu har du använt verktyget Select, som ser ut så här:"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:None
 #: ../../build/doc/quickstart/josm_quickstart.rst:0
 msgid "Select tool"
-msgstr ""
+msgstr "Välj verktyg"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:153
 msgid "Before you draw, you need to make sure that nothing is selected."
-msgstr ""
+msgstr "Innan du ritar måste du se till att inget är valt."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:155
 msgid "Click in the black space on the map, where it is empty, to make sure nothing is selected."
 msgstr ""
+"Klicka i det svarta utrymmet på kartan, där det är tomt, för att se till att "
+"inget är markerat."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:157
 msgid "Click on the second button, the Draw tool."
-msgstr ""
+msgstr "Klicka på den andra knappen, ritverktyget."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:0
 msgid "Draw tool"
-msgstr ""
+msgstr "Ritverktyg"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:163
 msgid "Find an empty area on the map, and double-click with your mouse. This will draw a single point."
 msgstr ""
+"Leta upp ett tomt område på kartan och dubbelklicka med musen. Detta kommer "
+"att rita en enda punkt."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:166
 msgid "To draw a line, single-click with your mouse. Move your mouse and click again. Continue until you are happy with your line. To end the line, double-click your mouse."
 msgstr ""
+"För att dra en linje, klicka en gång med musen. Flytta musen och klicka "
+"igen. Fortsätt tills du är nöjd med din linje. För att avsluta linjen "
+"dubbelklickar du med musen."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:169
 msgid "Draw a shape the same way that you draw a line, but finish the shape by double-clicking on the point where you started the line."
 msgstr ""
+"Rita en form på samma sätt som du ritar en linje, men avsluta formen genom "
+"att dubbelklicka på den punkt där du började linjen."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:173
 msgid "Add presets"
-msgstr ""
+msgstr "Lägg till förinställningar"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:175
 msgid "Now we know how to draw points, lines and shapes, but we still haven’t defined what they represent. We want to be able to say that our points are shops, schools, or something else, and whether our shapes are fields, buildings, or something else."
 msgstr ""
+"Nu vet vi hur man ritar punkter, linjer och former, men vi har fortfarande "
+"inte definierat vad de representerar. Vi vill kunna säga att våra punkter är "
+"butiker, skolor eller något annat, och om våra former är fält, byggnader "
+"eller något annat."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:177
 msgid "Click on the Select tool, in the column of buttons on the left."
-msgstr ""
+msgstr "Klicka på verktyget Select i kolumnen med knappar till vänster."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:183
 msgid "Select one of the objects that you drew with the Draw tool."
-msgstr ""
+msgstr "Markera ett av de objekt som du ritade med verktyget Draw."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:184
 msgid "On the top menu, click “Presets” and choose the type of location you would like to define."
 msgstr ""
+"Klicka på \"Presets\" i menyn längst upp och välj den typ av plats som du "
+"vill definiera."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:185
 msgid "When you choose on a preset, a form will pop up asking you for more information. You do not have to fill in every field, but you may wish to add some of the important fields, such as the name of the object."
 msgstr ""
+"När du väljer en förinställning kommer ett formulär upp där du ombeds fylla "
+"i mer information. Du behöver inte fylla i alla fält, men du kanske vill "
+"lägga till några av de viktigaste fälten, t.ex. objektets namn."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:188
 msgid "When you are finished entering the information, click “Apply Preset”. If everything went well, your point, line, or shape should change colors or show a symbol. This is because you have defined what it is."
 msgstr ""
+"När du har matat in informationen klickar du på \"Apply Preset\". Om allt "
+"gick bra bör din punkt, linje eller form ändra färg eller visa en symbol. "
+"Detta beror på att du har definierat vad det är."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:193
 msgid "Draw your own map"
-msgstr ""
+msgstr "Rita din egen karta"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:195
 msgid "Now let’s draw a map in order to practice the techniques you have learned. You may wish to redraw the map that you drew on paper previously."
 msgstr ""
+"Låt oss nu rita en karta för att öva på de tekniker du har lärt dig. Du "
+"kanske vill rita om kartan som du ritade på papper tidigare."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:197
 msgid "Drag the map away from the sample map. Hold the right mouse button and drag your mouse, until you have a nice empty area to draw on."
 msgstr ""
+"Dra kartan bort från provkartan. Håll höger musknapp intryckt och dra musen "
+"tills du har en tom yta att rita på."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:199
 msgid "Use the Draw tool to create points, lines, and shapes. Describe what your objects are by selecting from the Presets menu."
 msgstr ""
+"Använd verktyget Draw för att skapa punkter, linjer och former. Beskriv vad "
+"dina objekt är genom att välja från menyn Förinställningar."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:201
 msgid "When you are finished, you should have your own map, similar to the sample map that we opened in sample.osm."
 msgstr ""
+"När du är klar bör du ha en egen karta som liknar den exempelkarta som vi "
+"öppnade i sample.osm."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:205
 msgid "Remove the sample layer"
-msgstr ""
+msgstr "Ta bort provlagret"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:207
 msgid "Once you feel comfortable with these basic editing techniques you might want to turn your attention to mapping real features."
 msgstr ""
+"När du känner dig bekväm med dessa grundläggande redigeringstekniker kanske "
+"du vill ägna dig åt att mappa riktiga funktioner."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:210
 msgid "*It is very important that you first remove the layer with the sample data. These data are fictitious and must not be uploaded to the OpenStreetMap database (newer JOSM releases automatically prevent this).*"
 msgstr ""
+"*Det är mycket viktigt att du först tar bort lagret med exempeldata. Dessa "
+"data är fiktiva och får inte laddas upp till OpenStreetMap-databasen (nyare "
+"JOSM-versioner förhindrar detta automatiskt).*"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:212
 msgid "In the Layers window on the upper right of the screen select the sample.osm layer. Then click on the trash can icon in the lower right corner of that window. Alternatively you can choose delete from the context menu of the layer."
 msgstr ""
+"I fönstret Lager längst upp till höger på skärmen väljer du lagret "
+"sample.osm. Klicka sedan på papperskorgsikonen i det nedre högra hörnet av "
+"fönstret. Alternativt kan du välja delete från kontextmenyn i lagret."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:218
 msgid "What next?"
-msgstr ""
+msgstr "Hur vill du gå vidare?"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:220
 msgid "Try the LearnOSM documentation, from which this quickstart was derived: https://learnosm.org/en/josm/start-josm/"
 msgstr ""
+"Testa LearnOSM-dokumentationen, som denna snabbstart är hämtad från: "
+"https://learnosm.org/en/josm/start-josm/"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:222
 msgid "In order to continue editing you first need to download real data. This is explained in the next chapter: https://learnosm.org/en/josm/more-about-josm/"
 msgstr ""
+"För att kunna fortsätta redigera måste du först ladda ner verkliga data. "
+"Detta förklaras i nästa kapitel: https://learnosm.org/en/josm/"
+"more-about-josm/"
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:225
 msgid "Website: https://josm.openstreetmap.de/"
-msgstr ""
+msgstr "Webbplats: https://josm.openstreetmap.de/"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -290,9 +412,9 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

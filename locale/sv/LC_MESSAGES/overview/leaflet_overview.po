@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "leaflet_overview/sv/>\n"
 "Language: sv\n"
@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../../build/doc/overview/leaflet_overview.rst:16
 msgid "Leaflet"
-msgstr ""
+msgstr "Broschyr"
 
 #: ../../build/doc/overview/leaflet_overview.rst:19
 msgid "Browser/Mobile Map Library"
-msgstr ""
+msgstr "Bibliotek för webbläsare/mobilkartor"
 
 #: ../../build/doc/overview/leaflet_overview.rst:21
 msgid ""
@@ -36,6 +36,9 @@ msgid ""
 "interactive maps. It is light weight, yet has all the features most "
 "developers ever need for online maps."
 msgstr ""
+"Leaflet är ett JavaScript-bibliotek för webbläsarbaserade, mobilvänliga, "
+"interaktiva kartor. Det är lättviktigt, men har ändå alla funktioner som de "
+"flesta utvecklare någonsin behöver för onlinekartor."
 
 #: ../../build/doc/overview/leaflet_overview.rst:23
 msgid ""
@@ -46,10 +49,16 @@ msgid ""
 "beautiful, easy to use and well-documented API and a simple, readable source"
 " code that is a joy to contribute to."
 msgstr ""
+"Leaflet är utformat med enkelhet, prestanda och användbarhet i åtanke. Det "
+"fungerar effektivt på alla större stationära och mobila plattformar direkt "
+"från start och drar nytta av HTML5 och CSS3 i moderna webbläsare samtidigt "
+"som det är tillgängligt även i äldre webbläsare. Det kan utökas med många "
+"plugins, har ett vackert, lättanvänt och väldokumenterat API och en enkel, "
+"läsbar källkod som det är en glädje att bidra till."
 
 #: ../../build/doc/overview/leaflet_overview.rstNone
 msgid "leaflet screenshot"
-msgstr ""
+msgstr "skärmdump av broschyr"
 
 #: ../../build/doc/overview/leaflet_overview.rst:37
 msgid "Core Features"
@@ -57,168 +66,174 @@ msgstr "Kärnfunktioner"
 
 #: ../../build/doc/overview/leaflet_overview.rst:39
 msgid "Map Layers"
-msgstr ""
+msgstr "Kartskikt"
 
 #: ../../build/doc/overview/leaflet_overview.rst:41
 msgid "Tiles, Markers, Popups, Image overlays, WMS, GeoJSON"
-msgstr ""
+msgstr "Plattor, markörer, popup-fönster, bildöverlägg, WMS, GeoJSON"
 
 #: ../../build/doc/overview/leaflet_overview.rst:42
 msgid "Vectors: polylines, polygons, circles, rectangles, circle markers"
-msgstr ""
+msgstr "Vektorer: polylinjer, polygoner, cirklar, rektanglar, cirkelmarkörer"
 
 #: ../../build/doc/overview/leaflet_overview.rst:43
 msgid "Layer groups"
-msgstr ""
+msgstr "Lagergrupper"
 
 #: ../../build/doc/overview/leaflet_overview.rst:45
 msgid "Customization Features"
-msgstr ""
+msgstr "Funktioner för kundanpassning"
 
 #: ../../build/doc/overview/leaflet_overview.rst:47
 msgid "Pure CSS3 popups and controls for easy restyling"
-msgstr ""
+msgstr "Ren CSS3 popup-fönster och kontroller för enkel restyling"
 
 #: ../../build/doc/overview/leaflet_overview.rst:48
 msgid "Image- and HTML-based markers"
-msgstr ""
+msgstr "Bild- och HTML-baserade markörer"
 
 #: ../../build/doc/overview/leaflet_overview.rst:49
 msgid "Custom map layers, controls, projections"
-msgstr ""
+msgstr "Anpassade kartlager, kontroller och projektioner"
 
 #: ../../build/doc/overview/leaflet_overview.rst:50
 msgid "Powerful OOP facilities for extending existing classes"
-msgstr ""
+msgstr "Kraftfulla OOP-funktioner för att utöka befintliga klasser"
 
 #: ../../build/doc/overview/leaflet_overview.rst:58
 msgid "Interaction and Visual Features"
-msgstr ""
+msgstr "Interaktion och visuella funktioner"
 
 #: ../../build/doc/overview/leaflet_overview.rst:53
 msgid "Drag panning with inertia"
-msgstr ""
+msgstr "Dragpanorering med tröghet"
 
 #: ../../build/doc/overview/leaflet_overview.rst:54
 msgid "Keyboard navigation"
-msgstr ""
+msgstr "Navigering med tangentbord"
 
 #: ../../build/doc/overview/leaflet_overview.rst:55
 msgid "Multi-touch"
-msgstr ""
+msgstr "Multi-touch"
 
 #: ../../build/doc/overview/leaflet_overview.rst:56
 msgid "Zoom/Panning animation"
-msgstr ""
+msgstr "Animering av zoom/panorering"
 
 #: ../../build/doc/overview/leaflet_overview.rst:57
 msgid "Very nice default design for markers, popups and other map controls"
 msgstr ""
+"Mycket snygg standarddesign för markörer, popup-fönster och andra "
+"kartkontroller"
 
 #: ../../build/doc/overview/leaflet_overview.rst:58
 msgid "Retina resolution support for tile layers and markers"
-msgstr ""
+msgstr "Stöd för retina-upplösning för kakelplattor och markörer"
 
 #: ../../build/doc/overview/leaflet_overview.rst:60
 msgid "Performance Features"
-msgstr ""
+msgstr "Prestandaegenskaper"
 
 #: ../../build/doc/overview/leaflet_overview.rst:62
 msgid "Hardware acceleration"
-msgstr ""
+msgstr "Acceleration av hårdvara"
 
 #: ../../build/doc/overview/leaflet_overview.rst:63
 msgid "Utilizing CSS3 features to make panning and zooming really smooth"
 msgstr ""
+"Utnyttja CSS3-funktioner för att göra panorering och zoomning riktigt smidigt"
 
 #: ../../build/doc/overview/leaflet_overview.rst:64
 msgid "Smart polyline/polygon rendering"
-msgstr ""
+msgstr "Smart rendering av polylinjer/polygoner"
 
 #: ../../build/doc/overview/leaflet_overview.rst:65
 msgid "Modular design allows including only required features"
 msgstr ""
+"Modulär design gör det möjligt att endast inkludera nödvändiga funktioner"
 
 #: ../../build/doc/overview/leaflet_overview.rst:66
 msgid "Tap delay elimination on mobile devices"
-msgstr ""
+msgstr "Eliminering av tryckfördröjning på mobila enheter"
 
 #: ../../build/doc/overview/leaflet_overview.rst:68
 msgid "Map Controls"
-msgstr ""
+msgstr "Kart-kontroller"
 
 #: ../../build/doc/overview/leaflet_overview.rst:70
 msgid "Zoom buttons, Attribution, Layer switcher, Scale"
-msgstr ""
+msgstr "Zoomknappar, Tilldelning, Lagerväxlare, Skala"
 
 #: ../../build/doc/overview/leaflet_overview.rst:72
 msgid "Desktop Browser Support"
-msgstr ""
+msgstr "Stöd för webbläsare på skrivbordet"
 
 #: ../../build/doc/overview/leaflet_overview.rst:74
 msgid "Chrome"
-msgstr ""
+msgstr "Chrome"
 
 #: ../../build/doc/overview/leaflet_overview.rst:75
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #: ../../build/doc/overview/leaflet_overview.rst:76
 msgid "Safari 5+"
-msgstr ""
+msgstr "Safari 5+ (på engelska)"
 
 #: ../../build/doc/overview/leaflet_overview.rst:77
 msgid "Opera 12+"
-msgstr ""
+msgstr "Opera 12+"
 
 #: ../../build/doc/overview/leaflet_overview.rst:78
 msgid "IE 7–11"
-msgstr ""
+msgstr "IE 7-11"
 
 #: ../../build/doc/overview/leaflet_overview.rst:80
 msgid "Mobile Browser Support"
-msgstr ""
+msgstr "Stöd för mobila webbläsare"
 
 #: ../../build/doc/overview/leaflet_overview.rst:82
 msgid "Safari for iOS 3-7+"
-msgstr ""
+msgstr "Safari för iOS 3-7+"
 
 #: ../../build/doc/overview/leaflet_overview.rst:83
 msgid "Android browser 2.2+, 3.1+, 4+"
-msgstr ""
+msgstr "Android webbläsare 2.2+, 3.1+, 4+"
 
 #: ../../build/doc/overview/leaflet_overview.rst:84
 msgid "Chrome for Android 4+ and iOS"
-msgstr ""
+msgstr "Chrome för Android 4+ och iOS"
 
 #: ../../build/doc/overview/leaflet_overview.rst:85
 msgid "Firefox for Android"
-msgstr ""
+msgstr "Firefox för Android"
 
 #: ../../build/doc/overview/leaflet_overview.rst:86
 msgid "Other webkit-based browsers (webOS, Blackberry 7+, etc.)"
-msgstr ""
+msgstr "Andra webkit-baserade webbläsare (webOS, Blackberry 7+, etc.)"
 
 #: ../../build/doc/overview/leaflet_overview.rst:87
 msgid "IE10/IE11 for Win8-based devices"
-msgstr ""
+msgstr "IE10/IE11 för Win8-baserade enheter"
 
 #: ../../build/doc/overview/leaflet_overview.rst:89
 msgid "Misc"
-msgstr ""
+msgstr "Övrigt"
 
 #: ../../build/doc/overview/leaflet_overview.rst:91
 msgid "Extremely lightweight — around 34 KB of gzipped JS code"
-msgstr ""
+msgstr "Extremt lättviktig - cirka 34 KB gzipad JS-kod"
 
 #: ../../build/doc/overview/leaflet_overview.rst:92
 msgid "No external dependencies"
-msgstr ""
+msgstr "Inga externa beroenden"
 
 #: ../../build/doc/overview/leaflet_overview.rst:93
 msgid ""
 "Keeps your JS environment clean — no global or native prototypes pollution"
 msgstr ""
+"Håller din JS-miljö ren - ingen förorening från globala eller inbyggda "
+"prototyper"
 
 #: ../../build/doc/overview/leaflet_overview.rst:97
 msgid "Details"
@@ -226,27 +241,27 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/leaflet_overview.rst:99
 msgid "**Website:** https://leafletjs.com"
-msgstr ""
+msgstr "**Webbplats:** https://leafletjs.com"
 
 #: ../../build/doc/overview/leaflet_overview.rst:101
 msgid "**Licence:** BSD"
-msgstr ""
+msgstr "**Licensiering:** BSD"
 
 #: ../../build/doc/overview/leaflet_overview.rst:103
 msgid "**Software Version:** |version-leaflet|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-leaflet|"
 
 #: ../../build/doc/overview/leaflet_overview.rst:105
 msgid "**Supported Platforms:** Windows, Mac, Linux, Android, iOS"
-msgstr ""
+msgstr "**Plattformar som stöds:** Windows, Mac, Linux, Android, iOS"
 
 #: ../../build/doc/overview/leaflet_overview.rst:107
 msgid "**API Interfaces:** Javascript"
-msgstr ""
+msgstr "**API-gränssnitt:** Javascript"
 
 #: ../../build/doc/overview/leaflet_overview.rst:109
 msgid "**Support:** https://groups.google.com/forum/#!forum/leaflet-js"
-msgstr ""
+msgstr "**Support:** https://groups.google.com/forum/#!forum/leaflet-js"
 
 #: ../../build/doc/overview/leaflet_overview.rst:114
 msgid "Quickstart"
@@ -254,7 +269,7 @@ msgstr "Snabbstart"
 
 #: ../../build/doc/overview/leaflet_overview.rst:116
 msgid ":doc:`Quickstart documentation <../quickstart/leaflet_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snabbstartsdokumentation <../quickstart/leaflet_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -266,8 +281,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

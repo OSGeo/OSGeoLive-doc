@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "ogc_overview/sv/>\n"
 "Language: sv\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../build/doc/overview/ogc_overview.rst:13
 msgid "OGC"
-msgstr ""
+msgstr "OGC"
 
 #: ../../build/doc/overview/ogc_overview.rst:15
 msgid ""
@@ -34,6 +34,10 @@ msgid ""
 "information and services FAIR - Findable, Accessible, Interoperable, and "
 "Reusable."
 msgstr ""
+"Open Geospatial Consortium (OGC) är en kollektiv problemlösningsgrupp med "
+"mer än 550 experter från industri, myndigheter, forskning och den akademiska "
+"världen som samarbetar för att göra geospatial (plats-) information och "
+"tjänster FAIR - Findable, Accessible, Interoperable, and Reusable."
 
 #: ../../build/doc/overview/ogc_overview.rst:17
 msgid ""
@@ -42,6 +46,10 @@ msgid ""
 "practices; collaborating on problem solving in agile innovation initiatives;"
 " participating in member meetings, events, and workshops; and more."
 msgstr ""
+"Det globala OGC-communityt ägnar sig åt en blandning av aktiviteter "
+"relaterade till platsbaserad teknik: utveckla konsensusbaserade öppna "
+"standarder och bästa praxis; samarbeta om problemlösning i agila "
+"innovationsinitiativ; delta i medlemsmöten, evenemang och workshops; och mer."
 
 #: ../../build/doc/overview/ogc_overview.rst:21
 msgid ""
@@ -53,6 +61,13 @@ msgid ""
 "at all levels. OGC is committed to creating an inclusive and sustainable "
 "future."
 msgstr ""
+"OGC:s unika process för utveckling av standarder rör sig i takt med "
+"innovationen, med ständig input från teknikprognoser, praktisk prototypning, "
+"testning i verkligheten och samhällsengagemang. OGC överbryggar olika "
+"sektorer, domäner och tekniktrender och uppmuntrar till korsbefruktning av "
+"idéer mellan olika praktikgemenskaper för att förbättra beslutsfattandet på "
+"alla nivåer. OGC har åtagit sig att skapa en inkluderande och hållbar "
+"framtid."
 
 #: ../../build/doc/overview/ogc_overview.rst:24
 msgid ""
@@ -60,6 +75,8 @@ msgid ""
 "<https://www.ogc.org/projects/groups/wg>`_ shows the wide scope of current "
 "activity in the OGC."
 msgstr ""
+"En titt på \"OGC Domain Working Groups\" <https://www.ogc.org/projects/"
+"groups/wg>`_ visar den breda omfattningen av den aktuella aktiviteten i OGC."
 
 #: ../../build/doc/overview/ogc_overview.rst:26
 msgid ""
@@ -70,6 +87,12 @@ msgid ""
 "overview of OGC standards and serves as a useful resource for defining "
 "architectures for specific applications."
 msgstr ""
+"OGC Standards Baseline består av Open Geospatial Consortiums |OGC|-"
+"standarder för gränssnitt, kodningar, profiler, applikationsscheman och "
+"dokument om bästa praxis. I ORM beskrivs dessa standarder och förhållandet "
+"mellan dem och relaterade ISO-standarder. ORM ger en översikt över OGC-"
+"standarder och fungerar som en användbar resurs för att definiera "
+"arkitekturer för specifika applikationer."
 
 #: ../../build/doc/overview/ogc_overview.rst:33
 msgid ""
@@ -85,12 +108,24 @@ msgid ""
 "but also through interoperability prototyping and testing in OGC's "
 "Innovation Program."
 msgstr ""
+"År 2020 började standardfamiljen `OGC API <https://ogcapi.ogc.org/>`_\" "
+"utvecklas för att göra det enkelt för alla att tillhandahålla geospatiala "
+"data till webben. Dessa standarder bygger på arvet från OGC Web Service-"
+"standarder (WMS, WFS, WCS, WPS, etc.), men definierar resurscentrerade API: "
+"er som utnyttjar moderna webbutvecklingsmetoder. Denna webbsida ger "
+"information om dessa standarder på en konsoliderad plats. Dessa standarder "
+"konstrueras som \"byggstenar\" som kan användas för att sätta samman nya API:"
+"er för webbåtkomst till geospatialt innehåll. Byggstenarna definieras inte "
+"bara av kraven i de specifika standarderna, utan också genom prototyper och "
+"tester av interoperabilitet i OGC:s innovationsprogram."
 
 #: ../../build/doc/overview/ogc_overview.rst:35
 msgid ""
 "For further details, check the `comprehensive list of OGC standards "
 "<https://www.ogc.org/standards/>`__."
 msgstr ""
+"För ytterligare information, se den `omfattande listan över OGC-standarder "
+"<https://www.ogc.org/standards/>`__."
 
 #: ../../build/doc/overview/ogc_overview.rst:39
 msgid "Details"
@@ -98,7 +133,7 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/ogc_overview.rst:41
 msgid "**Website:** https://www.ogc.org"
-msgstr ""
+msgstr "**Webbplats:** https://www.ogc.org"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -110,8 +145,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

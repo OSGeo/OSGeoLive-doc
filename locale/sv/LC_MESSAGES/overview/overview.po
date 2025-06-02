@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "overview/sv/>\n"
 "Language: sv\n"
@@ -28,11 +28,11 @@ msgstr "|osgeolive-version| Innehåll"
 
 #: ../../build/doc/overview/overview.rst:12
 msgid "Symbology"
-msgstr ""
+msgstr "Symbologi"
 
 #: ../../build/doc/overview/overview.rst:13
 msgid "|osgeo_project| Is an OSGeo Project"
-msgstr ""
+msgstr "|osgeo_project| Är ett OSGeo-projekt"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
@@ -47,11 +47,11 @@ msgstr ""
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/overview/overview.rst:14
 msgid "|osgeo_community| Is an OSGeo Community Project"
-msgstr ""
+msgstr "|osgeo_community| Är ett OSGeo Community-projekt"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
@@ -59,11 +59,11 @@ msgstr ""
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"
 
 #: ../../build/doc/overview/overview.rst:15
 msgid "|vmdk| Included only on OSGeoLive VMDK version"
-msgstr ""
+msgstr "|vmdk| Inkluderas endast i OSGeoLive VMDK-version"
 
 #: ../../build/doc/<rst_epilog>:13 ../../build/doc/<rst_epilog>:13
 #: ../../build/doc/<rst_epilog>:13 ../../build/doc/<rst_epilog>:13
@@ -95,6 +95,8 @@ msgid ""
 "|OSGeo_project| |vmdk| :doc:`gvsig_overview` - [:doc:`Quickstart "
 "<../quickstart/gvsig_quickstart>`]"
 msgstr ""
+"|OSGeo_project| |vmdk| :doc:`gvsig_overview` - [:doc:`Snabbstart <../"
+"quickstart/gvsig_quickstart>`]"
 
 #: ../../build/doc/overview/overview.rst:43
 msgid ""
@@ -192,6 +194,8 @@ msgid ""
 "|OSGeo_community| :doc:`geostyler_overview` - [:doc:`Quickstart "
 "<../quickstart/geostyler_quickstart>`] - Generic Styler For Geodata"
 msgstr ""
+"|OSGeo_community| :doc:`geostyler_overview` - [:doc:`Snabbstart <../"
+"quickstart/geostyler_quickstart>`] - Generisk styler för geodata"
 
 #: ../../build/doc/overview/overview.rst:87
 msgid ""
@@ -303,6 +307,8 @@ msgid ""
 "|OSGeo_project| :doc:`pygeoapi_overview` - [:doc:`Quickstart "
 "<../quickstart/pygeoapi_quickstart>`] - OGC Web Services"
 msgstr ""
+"|OSGeo_project| :doc:`pygeoapi_overview` - [:doc:`Snabbstart <../quickstart/"
+"pygeoapi_quickstart>`] - OGC Web Services"
 
 #: ../../build/doc/overview/overview.rst:163
 msgid ""
@@ -317,6 +323,8 @@ msgid ""
 "|OSGeo_community| |vmdk| :doc:`actinia_overview` - [:doc:`Quickstart "
 "<../quickstart/actinia_quickstart>`] - Processing of Geographical Data"
 msgstr ""
+"|OSGeo_community| |vmdk| :doc:`actinia_overview` - [:doc:`Snabbstart <../"
+"quickstart/actinia_quickstart>`] - Bearbetning av geografiska data"
 
 #: ../../build/doc/overview/overview.rst:167
 msgid ""
@@ -332,6 +340,9 @@ msgid ""
 "<../quickstart/ETF_quickstart>`] - Testing framework for validating spatial "
 "data, metadata and web services in Spatial Data Infrastructures (SDIs)"
 msgstr ""
+"|nologo| |vmdk| :doc:`ETF_overview` - [:doc:`Snabbstart <../quickstart/"
+"ETF_quickstart>`] - Testramverk för validering av rumsliga data, metadata "
+"och webbtjänster i infrastrukturer för rumsliga data (SDI)"
 
 #: ../../build/doc/overview/overview.rst:171
 msgid ""
@@ -352,6 +363,8 @@ msgid ""
 "|nologo| |vmdk| :doc:`re3gistry_overview` - [:doc:`Quickstart "
 "<../quickstart/re3gistry_quickstart>`] - Management of reference codes"
 msgstr ""
+"|nologo| |vmdk| :doc:`re3gistry_overview` - [:doc:`Snabbstart <../quickstart/"
+"re3gistry_quickstart>`] - Hantering av referenskoder"
 
 #: ../../build/doc/overview/overview.rst:177
 msgid ""
@@ -366,6 +379,8 @@ msgid ""
 "|nologo| |vmdk| :doc:`52nSOS_overview` - [:doc:`Quickstart "
 "<../quickstart/52nSOS_quickstart>`] - Sensor Observation Service"
 msgstr ""
+"|nologo| |vmdk| :doc:`52nSOS_overview` - [:doc:`Snabbstart <../quickstart/"
+"52nSOS_quickstart>`] - Sensorobservationstjänst"
 
 #: ../../build/doc/overview/overview.rst:181
 msgid ""
@@ -377,7 +392,7 @@ msgstr ""
 
 #: ../../build/doc/overview/overview.rst:185
 msgid "Data Stores"
-msgstr "Data lager"
+msgstr "Datalager"
 
 #: ../../build/doc/overview/overview.rst:187
 msgid "Storing spatial data"
@@ -487,12 +502,16 @@ msgid ""
 "|nologo| |vmdk| :doc:`gmt_overview` - [:doc:`Quickstart "
 "<../quickstart/gmt_quickstart>`] - Cartographic Rendering"
 msgstr ""
+"|nologo| |vmdk| :doc:`gmt_overview` - [:doc:`Snabbstart <../quickstart/"
+"gmt_quickstart>`] - Kartografisk rendering"
 
 #: ../../build/doc/overview/overview.rst:267
 msgid ""
 "|nologo| :doc:`jupyter_overview` - [:doc:`Quickstart "
 "<../quickstart/jupyter_quickstart>`] - Mixing rich media in presentations"
 msgstr ""
+"|nologo| :doc:`jupyter_overview` - [:doc:`Snabbstart <../quickstart/"
+"jupyter_quickstart>`] - Blanda rik media i presentationer"
 
 #: ../../build/doc/overview/overview.rst:269
 msgid ""
@@ -523,6 +542,8 @@ msgid ""
 "|nologo| :doc:`xygrib_overview` - [:doc:`Quickstart "
 "<../quickstart/xygrib_quickstart>`] - Weather Forecast Maps"
 msgstr ""
+"|nologo| :doc:`xygrib_overview` - [:doc:`Snabbstart <../quickstart/"
+"xygrib_quickstart>`] - Kartor över väderprognoser"
 
 #: ../../build/doc/overview/overview.rst:289
 msgid "Data"
@@ -577,6 +598,8 @@ msgid ""
 "|OSGeo_project| :doc:`proj_overview` - [:doc:`Quickstart "
 "<../quickstart/proj_quickstart>`] - Coordinate Reference System Libraries"
 msgstr ""
+"|OSGeo_project| :doc:`proj_overview` - [:doc:`Snabbstart <../quickstart/"
+"proj_quickstart>`] - Bibliotek med referenssystem för koordinater"
 
 #: ../../build/doc/overview/overview.rst:334
 msgid "|nologo| :doc:`jts_overview` - Java Topology Suite"
@@ -600,7 +623,7 @@ msgstr ""
 
 #: ../../build/doc/overview/overview.rst:354
 msgid "Available in prior OSGeoLive releases"
-msgstr ""
+msgstr "Tillgänglig i tidigare OSGeoLive-utgåvor"
 
 #: ../../build/doc/overview/overview.rst:366
 msgid ":doc:`../prior_applications`"

@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-21 20:28+0000\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "qgis_quickstart/sv/>\n"
 "Language: sv\n"
@@ -21,442 +21,546 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:36
 msgid "QGIS Quickstart"
-msgstr ""
+msgstr "Snabbstart för QGIS"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:38
 msgid "QGIS is a user-friendly Desktop GIS client which lets you visualize, manage, edit, analyse data and compose printable maps."
 msgstr ""
+"QGIS är en användarvänlig Desktop GIS-klient som låter dig visualisera, "
+"hantera, redigera, analysera data och skapa utskrivbara kartor."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:43
 msgid "Contents"
-msgstr ""
+msgstr "Innehåll"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:46
 msgid "Start QGIS"
-msgstr ""
+msgstr "Starta QGIS"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:48
 msgid "Open the 'Desktop GIS' folder."
-msgstr ""
+msgstr "Öppna mappen \"Desktop GIS\"."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:49
 msgid "Double click on the 'QGIS' icon."
-msgstr ""
+msgstr "Dubbelklicka på ikonen \"QGIS\"."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:51
 msgid "You will see QGIS launch with an empty project. The various parts of the QGIS Interface are listed below."
 msgstr ""
+"Du kommer att se QGIS starta med ett tomt projekt. De olika delarna av QGIS-"
+"gränssnittet listas nedan."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "Open a QGIS project"
-msgstr ""
+msgstr "Öppna ett QGIS-projekt"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:57
 msgid "[1] Menu bar: Access to various QGIS features using a standard hierarchical menu."
 msgstr ""
+"[1] Menyfält: Åtkomst till olika QGIS-funktioner med hjälp av en hierarkisk "
+"standardmeny."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:58
 msgid "[2] Toolbars: For interaction with the map, layers, attributes and selections."
 msgstr ""
+"[2] Verktygsfält: För interaktion med kartan, lager, attribut och urval."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:59
 msgid "[3] Browser Panel: A spatial file browser allowing drag and drop content into the map frame."
 msgstr ""
+"[3] Panel för webbläsare: En rumslig filbläddrare som gör det möjligt att "
+"dra och släppa innehåll i kartramen."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:60
 msgid "[4] Layer Panel: Controls the map layers, their order, and visibility."
-msgstr ""
+msgstr "[4] Skiktpanel: Styr kartlagren, deras ordning och synlighet."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:61
 msgid "[5] Status Bar: General information about the map and access to a universal search bar."
 msgstr ""
+"[5] Statusfält: Allmän information om kartan och tillgång till ett "
+"universellt sökfält."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:64
 msgid "Create a project"
-msgstr ""
+msgstr "Skapa ett projekt"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:66
 msgid "To create a new project, choose :menuselection:`Project --> New`."
 msgstr ""
+"För att skapa ett nytt projekt väljer du :menuselection:`Project --> New`."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS new project"
-msgstr ""
+msgstr "QGIS nytt projekt"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:72
 msgid "Let's start by adding a vector layer to the map. Layers can be added to QGIS using the browser panel, located on the left of the screen."
 msgstr ""
+"Låt oss börja med att lägga till ett vektorlager på kartan. Du kan lägga "
+"till lager i QGIS med hjälp av webbläsarpanelen till vänster på skärmen."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:74
 #: ../../build/doc/quickstart/qgis_quickstart.rst:92
 msgid "Go the browser panel on the left of the screen."
-msgstr ""
+msgstr "Gå till webbläsarpanelen till vänster på skärmen."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:75
 #: ../../build/doc/quickstart/qgis_quickstart.rst:93
 msgid "Navigate the folder tree to 'home/data/natural_earth2'."
-msgstr ""
+msgstr "Navigera i mappträdet till \"home/data/natural_earth2\"."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:76
 msgid "Select 'ne_10m_admin_0_countries.shp'."
-msgstr ""
+msgstr "Välj \"ne_10m_admin_0_countries.shp\"."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:77
 #: ../../build/doc/quickstart/qgis_quickstart.rst:95
 msgid "Drag the layer from the browser panel and drop it in the map frame."
-msgstr ""
+msgstr "Dra lagret från webbläsarpanelen och släpp det i kartramen."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS browser add vector layer"
-msgstr ""
+msgstr "Lägg till vektorlager i QGIS-webbläsaren"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:83
 msgid "Once the layer has been dragged onto the map frame, you will see a layer showing countries."
-msgstr ""
+msgstr "När skiktet har dragits till kartbilden visas ett skikt med länder."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:None
 msgid "QGIS vector layer"
-msgstr ""
+msgstr "QGIS vektorlager"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:90
 msgid "Now let's try adding a raster layer to the project."
-msgstr ""
+msgstr "Nu ska vi försöka lägga till ett rasterlager i projektet."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:94
 msgid "Select 'HYP_50M_SR_W.tif'."
-msgstr ""
+msgstr "Välj \"HYP_50M_SR_W.tif\"."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:None
 msgid "QGIS browser add raster layer"
-msgstr ""
+msgstr "Lägg till rasterlager i QGIS-webbläsaren"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:101
 msgid "Once the layer has been dragged onto the map frame, you will see a raster layer showing land cover and bathymetry."
 msgstr ""
+"När skiktet har dragits till kartbilden visas ett rasterskikt som visar "
+"marktäcke och batymetri."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:None
 msgid "QGIS raster layer"
-msgstr ""
+msgstr "QGIS rasterskikt"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:108
 msgid "Now that we have added some content to our project we can save this project so that we can come back to it at a later time."
 msgstr ""
+"Nu när vi har lagt till lite innehåll i vårt projekt kan vi spara det så att "
+"vi kan komma tillbaka till det vid ett senare tillfälle."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:111
 msgid "Choose :menuselection:`Project --> Save`."
-msgstr ""
+msgstr "Välj :menuselection:`Projekt --> Spara`."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS save"
-msgstr ""
+msgstr "QGIS spara"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:117
 msgid "Make the location to save the project '/home/user/desktop'."
-msgstr ""
+msgstr "Välj plats för att spara projektet till \"/home/user/desktop\"."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:118
 msgid "Call the project 'My QGIS project'."
-msgstr ""
+msgstr "Kalla projektet för \"Mitt QGIS-projekt\"."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS project location"
-msgstr ""
+msgstr "QGIS-projektets plats"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:124
 msgid "Click 'Save'."
-msgstr ""
+msgstr "Klicka på \"Spara\"."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:126
 msgid "You will know the project has been saved because there will be a project file on the desktop called 'My QGIS project' and the top of your project document will no longer read as 'untitled' but instead will read as 'My QGIS project'."
 msgstr ""
+"Du vet att projektet har sparats eftersom det kommer att finnas en "
+"projektfil på skrivbordet som heter \"Mitt QGIS-projekt\" och överst i ditt "
+"projektdokument kommer det inte längre att stå \"utan titel\" utan istället "
+"\"Mitt QGIS-projekt\"."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:None
 msgid "QGIS saved project"
-msgstr ""
+msgstr "QGIS sparat projekt"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:134
 msgid "Open an existing project"
-msgstr ""
+msgstr "Öppna ett befintligt projekt"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:136
 msgid "A QGIS project saves layers, styles, map extents and settings for use at a later time. This information is stored as a QGIS project file and has an extension of '.qgs' or '.qgz', with '.qgz' being the default file format in QGIS going into the future."
 msgstr ""
+"Ett QGIS-projekt sparar lager, stilar, kartutsnitt och inställningar för "
+"användning vid ett senare tillfälle. Denna information lagras som en QGIS-"
+"projektfil och har filnamnstillägget '.qgs' eller '.qgz', där '.qgz' är "
+"standardfilformatet i QGIS framöver."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:140
 msgid "Let's open an existing QGIS project and have a look at how it works."
 msgstr ""
+"Låt oss öppna ett befintligt QGIS-projekt och titta på hur det fungerar."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:142
 msgid "Open QGIS. Note that when QGIS is opened you will be presented with a list of recent projects to chose from. This is a convenient way to open a project you have used recently."
 msgstr ""
+"Öppna QGIS. Observera att när QGIS öppnas kommer du att få en lista över de "
+"senaste projekten att välja mellan. Detta är ett smidigt sätt att öppna ett "
+"projekt som du har använt nyligen."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:143
 msgid "Choose :menuselection:`Project --> Open`."
-msgstr ""
+msgstr "Välj :menuselection:`Project --> Open`."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:144
 msgid "Navigate to '/home/user/qgis-example'."
-msgstr ""
+msgstr "Navigera till \"/home/user/qgis-example\"."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:145
 msgid "Select the project 'QGIS-NaturalEarth-Example.qgs'."
-msgstr ""
+msgstr "Välj projektet \"QGIS-NaturalEarth-Example.qgs\"."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:146
 msgid "Click 'Open'."
-msgstr ""
+msgstr "Klicka på \"Öppna\"."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:None
 msgid "QGIS Open project"
-msgstr ""
+msgstr "QGIS Öppet projekt"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:152
 msgid "This will open a QGIS project with a number of Natural Earth datasets, as shown below. This project contains a number of layers in the layers panel and is displaying the spatial content in the map frame."
 msgstr ""
+"Detta öppnar ett QGIS-projekt med ett antal Natural Earth-datauppsättningar, "
+"enligt nedan. Detta projekt innehåller ett antal lager i lagerpanelen och "
+"visar det rumsliga innehållet i kartramen."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:None
 msgid "QGIS Open project result"
-msgstr ""
+msgstr "QGIS Open projektresultat"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:160
 msgid "Layers can be turned on or off by clicking the checkbox next to the layer name in the layers panel. When a layer is turned on in the layer panel, the map frame will be updated to display the layer. A close up of the layer panel is shown below."
 msgstr ""
+"Lager kan slås på eller av genom att klicka på kryssrutan bredvid lagrets "
+"namn i lagerpanelen. När ett lager aktiveras i lagerpanelen uppdateras "
+"kartramen så att lagret visas. En närbild av lagerpanelen visas nedan."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:None
 msgid "QGIS layer panel"
-msgstr ""
+msgstr "QGIS lagerpanel"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:168
 msgid "Let's interact with the layer panel and change the visibility of some map layers."
 msgstr ""
+"Nu ska vi interagera med lagerpanelen och ändra synligheten för några "
+"kartlager."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:170
 msgid "Click the checkbox next to the 'ne_10m_populated_places' layer to turn it on."
 msgstr ""
+"Klicka på kryssrutan bredvid lagret \"ne_10m_populated_places\" för att "
+"aktivera det."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:171
 msgid "Click the checkbox next to the 'Water' layer to turn the layer off."
-msgstr ""
+msgstr "Klicka på kryssrutan bredvid \"Water\"-lagret för att stänga av lagret."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:173
 msgid "Notice how the map frame has been updated to reflect the changes in the layer list. We can now see the 'ne_10m_populated_places' layer as points, but can no longer see the rivers and lakes which are within the 'Waters' layer."
 msgstr ""
+"Lägg märke till hur kartramen har uppdaterats för att återspegla ändringarna "
+"i skiktlistan. Vi kan nu se skiktet \"ne_10m_populated_places\" som punkter, "
+"men vi kan inte längre se floderna och sjöarna som finns i skiktet \"Waters\""
+"."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:None
 msgid "QGIS result of layer visibility changes"
-msgstr ""
+msgstr "QGIS-resultat av ändringar i skiktens synlighet"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:181
 msgid "In addition to controlling layer visibility, we can also change the order in which layers are drawn in the layer panel. This is done by selecting a layer in the layer panel and dragging it up or down the list. The order that the layers appear in the layer list is the order which they will draw on in the map frame."
 msgstr ""
+"Förutom att kontrollera lagrens synlighet kan vi också ändra ordningen i "
+"vilken lagren ritas i lagerpanelen. Detta görs genom att markera ett lager i "
+"lagerpanelen och dra det uppåt eller nedåt i listan. Den ordning som lagren "
+"visas i lagerlistan är den ordning som de kommer att ritas i i kartramen."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:186
 msgid "Left-Click on the layer 'HYP_50M_SR_W'."
-msgstr ""
+msgstr "Vänsterklicka på lagret \"HYP_50M_SR_W\"."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:187
 msgid "While holding the mouse button down drag the layer to the top of the list."
-msgstr ""
+msgstr "Håll musknappen nedtryckt och dra lagret till toppen av listan."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:189
 msgid "Notice how the raster layer is now on top of all other layers in the layer panel. This now renders the raster layer on top of all other layers in the map frame."
 msgstr ""
+"Lägg märke till att rasterlagret nu ligger ovanpå alla andra lager i "
+"lagerpanelen. Detta gör att rasterlagret nu ligger ovanpå alla andra lager i "
+"kartramen."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:None
 msgid "QGIS modified the order of layers"
-msgstr ""
+msgstr "QGIS ändrade ordningen på lagren"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:196
 msgid "Try moving the 'HYP_50M_SR_W' layer to the bottom of the layer list. This would be a more appropriate position for a map layer like this."
 msgstr ""
+"Försök flytta skiktet \"HYP_50M_SR_W\" till botten av skiktlistan. Detta "
+"skulle vara en mer lämplig position för ett kartlager som detta."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:200
 msgid "Navigate the map"
-msgstr ""
+msgstr "Navigera på kartan"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:202
 msgid "The navigation toolbar allows users to move around the map and change the map extent."
 msgstr ""
+"Med hjälp av navigeringsverktygsfältet kan användaren flytta runt på kartan "
+"och ändra kartans omfattning."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:None
 msgid "QGIS navigation toolbar"
-msgstr ""
+msgstr "Verktygsfält för navigering i QGIS"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:208
 msgid "[1] Pan: Allows the map to be dragged ('panned') to a new location."
-msgstr ""
+msgstr "[1] Panorera: Gör att kartan kan dras (\"panoreras\") till en ny plats."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:209
 msgid "[2] Zoom in: Allows the map extent to be zoomed in."
-msgstr ""
+msgstr "[2] Zooma in: Gör det möjligt att zooma in kartans utbredning."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:210
 msgid "[3] Zoom out: Allows the map to be zoomed out."
-msgstr ""
+msgstr "[3] Zooma ut: Gör det möjligt att zooma ut kartan."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:211
 msgid "[4] Zoom to full extent: Changes the map extent to fit all of the map layers into the map frame."
 msgstr ""
+"[4] Zooma till full omfattning: Ändrar kartans omfattning så att alla "
+"kartlager ryms i kartramen."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:212
 msgid "[5] Zoom to layer: Changes the map extent to fit the extent of the layer highlighted in the layer panel."
 msgstr ""
+"[5] Zooma till skikt: Ändrar kartans omfattning så att den passar "
+"omfattningen av det lager som markeras i lagerpanelen."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:214
 msgid "Let's try changing the map extent with the zoom-in tool."
 msgstr ""
+"Låt oss prova att ändra kartans utbredning med hjälp av inzoomningsverktyget."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:216
 msgid "Select the 'Zoom in' tool from the navigation toolbar."
-msgstr ""
+msgstr "Välj verktyget \"Zooma in\" i verktygsfältet för navigering."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:217
 msgid "Move the cursor over the map frame."
-msgstr ""
+msgstr "Flytta markören över kartbilden."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:218
 msgid "Click and hold the left mouse button."
-msgstr ""
+msgstr "Klicka och håll in vänster musknapp."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:219
 msgid "While still holding the mouse button move the cursor diagonally in any direction. Notice this draws a rectangle which is the area that will be zoomed to."
 msgstr ""
+"Håll musknappen intryckt och flytta markören diagonalt i valfri riktning. "
+"Observera att detta ritar en rektangel som är det område som kommer att "
+"zoomas till."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:220
 msgid "Release the mouse button when happy with the area created."
-msgstr ""
+msgstr "Släpp musknappen när du är nöjd med den skapade ytan."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:222
 msgid "The process of using the zoom out tool is the same as the zoom-in tool. The result is just the opposite."
 msgstr ""
+"Processen för att använda verktyget för utzoomning är densamma som för "
+"inzoomning. Resultatet blir precis tvärtom."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:224
 msgid "Now, let’s look at the zoom to full extent tool. This tool will zoom the map out to an extent that will fit in all the layers in the map. To use this tool, click on the 'Zoom to full extent' button."
 msgstr ""
+"Låt oss nu titta på verktyget Zoom till full omfattning. Detta verktyg "
+"zoomar ut kartan så mycket att alla lager i kartan får plats. För att "
+"använda detta verktyg klickar du på knappen \"Zoom to full extent\"."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:228
 msgid "Finally, try the zoom to layer tool. To use this tool follow these steps:"
 msgstr ""
+"Slutligen kan du prova verktyget Zoom till lager. Följ dessa steg för att "
+"använda detta verktyg:"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:230
 msgid "Click on a layer name in the layer panel."
-msgstr ""
+msgstr "Klicka på namnet på ett lager i lagerpanelen."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:231
 msgid "Click on the 'Zoom to layer' button."
-msgstr ""
+msgstr "Klicka på knappen \"Zoom to layer\"."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:233
 msgid "The map should zoom to the extent of the selected ('active') layer."
-msgstr ""
+msgstr "Kartan bör zooma till omfattningen av det valda (\"aktiva\") lagret."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:236
 msgid "Style your layers"
-msgstr ""
+msgstr "Styla dina lager"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:238
 msgid "Layers can be styled in QGIS using the style dock. The style dock is not visible by default, but easily accessible via a button at the top of the layer panel as shown below."
 msgstr ""
+"Skikt kan utformas i QGIS med hjälp av stildockan. Stildockan är inte synlig "
+"som standard, men är lättåtkomlig via en knapp högst upp i lagerpanelen "
+"enligt bilden nedan."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:None
 msgid "QGIS style dock"
-msgstr ""
+msgstr "Docka med QGIS-stil"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:245
 msgid "The above button acts as a toggle so the style dock can be easily hidden from view by clicking the same button again. When the style dock is enabled it will appear on the right-hand side of the screen ready to style the active layer highlighted in the layer panel."
 msgstr ""
+"Knappen ovan fungerar som en vippknapp så att stildockan enkelt kan döljas "
+"genom att klicka på samma knapp igen. När stildockan är aktiverad visas den "
+"på höger sida av skärmen och är redo att styla det aktiva lagret som "
+"markeras i lagerpanelen."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:249
 msgid "With the style dock open, we can modify the appearance of the layer shown at the top of the style dock."
 msgstr ""
+"När stildockan är öppen kan vi ändra utseendet på det lager som visas högst "
+"upp i stildockan."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:None
 msgid "QGIS style dock layer"
-msgstr ""
+msgstr "Dockningslager i QGIS-stil"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:255
 msgid "With the style dock now open, we can modify the colour and the width of the lines in the 'ne_10m_rivers_lakes_centrelines' layer. Let’s try modifying the colour first."
 msgstr ""
+"När stildockan nu är öppen kan vi ändra färgen och bredden på linjerna i "
+"lagret \"ne_10m_rivers_lakes_centrelines\". Låt oss prova att ändra färgen "
+"först."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:258
 msgid "Click on the 'Color' swatch shown below. This will launch a colour palette allowing you to choose a different colour."
 msgstr ""
+"Klicka på färgprovet \"Color\" som visas nedan. Då öppnas en färgpalett där "
+"du kan välja en annan färg."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS style dock color"
-msgstr ""
+msgstr "QGIS-stil för dockningsfärg"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:264
 msgid "In the 'Select Color' palette, move the cross-hair to your preferred colour."
-msgstr ""
+msgstr "I paletten \"Select Color\" flyttar du hårkorset till önskad färg."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS color palette"
-msgstr ""
+msgstr "QGIS färgpalett"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:270
 msgid "Then click the back arrow to return to the symbol render preview."
 msgstr ""
+"Klicka sedan på pilen tillbaka för att återgå till förhandsgranskningen av "
+"symbolrenderingen."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS style return"
-msgstr ""
+msgstr "Retur av QGIS-stil"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:276
 msgid "The symbol preview will be updated with the new colour, and so will the layer in the map frame."
 msgstr ""
+"Förhandsgranskningen av symbolen uppdateras med den nya färgen, och det gör "
+"även lagret i kartramen."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS style result"
-msgstr ""
+msgstr "Resultat i QGIS-stil"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:282
 msgid "In the style dock, we can also modify the size of the map features. To modify the thickness of the lines follow these steps:"
 msgstr ""
+"I stildockan kan vi också ändra storleken på kartfunktionerna. Följ dessa "
+"steg för att ändra linjernas tjocklek:"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:285
 msgid "Make sure that the 'ne_10m_rivers_lakes_centrelines' is selected at the top of the style panel."
 msgstr ""
+"Se till att \"ne_10m_rivers_lakes_centrelines\" är markerat högst upp i "
+"stilpanelen."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:286
 msgid "In the style panel enter the value '0.5' in the 'width' input."
-msgstr ""
+msgstr "I stilpanelen anger du värdet \"0,5\" i inmatningen \"width\"."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:0
 msgid "QGIS style width"
-msgstr ""
+msgstr "Bredd på QGIS-stil"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:292
 msgid "Notice the line in the symbol preview increase in width, and so do the lines that are in the map frame."
 msgstr ""
+"Lägg märke till att linjen i förhandsgranskningen av symbolen ökar i bredd, "
+"och det gör även linjerna i kartramen."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:295
 msgid "Things to try"
-msgstr ""
+msgstr "Saker att prova"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:297
 msgid "Extend QGIS functionality with `Plugins <https://docs.qgis.org/3.4/en/docs/user_manual/plugins/plugins.html>`_."
 msgstr ""
+"Utöka QGIS-funktionaliteten med `Plugins <https://docs.qgis.org/3.4/en/docs/"
+"user_manual/plugins/plugins.html>`_."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:299
 msgid "Start manipulating data with the `Processing toolbox <https://docs.qgis.org/3.4/en/docs/user_manual/processing/toolbox.html>`_."
 msgstr ""
+"Börja manipulera data med `Processing toolbox <https://docs.qgis.org/3.4/en/"
+"docs/user_manual/processing/toolbox.html>`_."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:301
 msgid "Use QGIS to view content from a `PostGIS database <https://docs.qgis.org/3.4/en/docs/training_manual/spatial_databases/index.html>`_."
 msgstr ""
+"Använd QGIS för att visa innehåll från en `PostGIS-databas <https://docs.qgis"
+".org/3.4/en/docs/training_manual/spatial_databases/index.html>`_."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:303
 msgid "Try publishing your QGIS map to the web using :doc:`QGIS Map Server <../overview/qgis_mapserver_overview>`. in the |menu_qgis-server|"
 msgstr ""
+"Försök att publicera din QGIS-karta på webben med hjälp av :doc:`QGIS Map "
+"Server <../overview/qgis_mapserver_overview>`. i |menu_qgis-server|"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:309
 msgid "What next?"
-msgstr ""
+msgstr "Hur vill du gå vidare?"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:311
 msgid "To learn more about QGIS, a good starting point is the `Documentation page`_ on the QGIS homepage and `A Gentle Introduction to GIS`_ eBook."
 msgstr ""
+"För att lära dig mer om QGIS är en bra utgångspunkt `Dokumentationssidan`_ "
+"på QGIS hemsida och `En mild introduktion till GIS`_ eBook."
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -468,9 +572,9 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"
