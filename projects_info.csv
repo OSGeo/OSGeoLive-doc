@@ -18,7 +18,7 @@ Y | saga | 9.8.0 | Y | Y | Desktop GIS | | | saga-gis | https://saga-gis.sourcef
 # OSGeo Projects | | | | | | | | | | | |
 Y | geomoose | 3.10.1 | Y | Y | Browser Facing GIS | | Web GIS Portal | geomoose | https://www.geomoose.org | OSGeo_project | GeoMoose | Y
 Y | geonode | 3.3.2 | Y | Y | Browser Facing GIS | | Geospatial Content Management System | geonode | https://geonode.org | OSGeo_project | GeoNode | Y
-Y | mapbender | 4.1.0 | Y | Y | Browser Facing GIS | | Geoportal Framework | mapbender | https://mapbender.org | OSGeo_project | Mapbender | Y
+Y | mapbender | 4.1.1 | Y | Y | Browser Facing GIS | | Geoportal Framework | mapbender | https://mapbender.org | OSGeo_project | Mapbender | Y
 Y | openlayers | 6.14.1 | Y | Y | Browser Facing GIS | | Browser Mapping Library | openlayers | https://openlayers.org/ | OSGeo_project | OpenLayers | Y
 # OSGeo Community | | | | | | | | | | | |
 Y | geostyler | 9.0.0 | Y | Y | Browser Facing GIS | | Generic Styler For Geodata | GeoStyler | https://geostyler.org | OSGeo_community | GeoStyler | Y
