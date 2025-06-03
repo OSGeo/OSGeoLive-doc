@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "gvsig_overview/sv/>\n"
 "Language: sv\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../build/doc/overview/gvsig_overview.rst:19
 msgid "gvSIG Desktop"
-msgstr ""
+msgstr "gvSIG Skrivbord"
 
 #: ../../build/doc/overview/gvsig_overview.rst:22
 msgid "Desktop GIS"
@@ -41,38 +41,53 @@ msgid ""
 "creation, geoprocessing, networks, etc.), which turns gvSIG into the ideal "
 "tool for users working in the land realm."
 msgstr ""
+"gvSIG_ är en GIS-applikation (Geographic Information System) som är utformad "
+"för att fånga, lagra, hantera, analysera och distribuera alla typer av "
+"geografisk information för att lösa komplexa förvaltnings- och "
+"planeringsproblem. gvSIG är känt för sitt användarvänliga gränssnitt och för "
+"att kunna hantera alla vanliga vektor- och rasterformat. Det har ett brett "
+"utbud av verktyg för att arbeta med geografisk information (frågor, skapande "
+"av layout, geoprocessing, nätverk etc.), vilket gör gvSIG till det perfekta "
+"verktyget för användare som arbetar inom markområdet."
 
 #: ../../build/doc/overview/gvsig_overview.rst:26
 msgid "gvSIG is known for:"
-msgstr ""
+msgstr "gvSIG är känt för:"
 
 #: ../../build/doc/overview/gvsig_overview.rst:28
 msgid ""
 "integrating in the same view both local and remote data through OGC "
 "standards."
 msgstr ""
+"integrera både lokala och fjärranslutna data i samma vy genom OGC-standarder."
 
 #: ../../build/doc/overview/gvsig_overview.rst:29
 msgid ""
 "being easily extendible, allowing continuous application enhancement, as "
 "well as enabling the development of tailor-made solutions."
 msgstr ""
+"är lätt att bygga ut, vilket möjliggör kontinuerlig förbättring av "
+"applikationerna och utveckling av skräddarsydda lösningar."
 
 #: ../../build/doc/overview/gvsig_overview.rst:30
 msgid ""
 "being available in over 20 languages (Spanish, English, German, French, "
 "Italian,...)."
 msgstr ""
+"finns tillgänglig på över 20 språk (spanska, engelska, tyska, franska, "
+"italienska, ...)."
 
 #: ../../build/doc/overview/gvsig_overview.rst:31
 msgid ""
 "being available for Windows and Linux (there are also non-oficial Mac OS X "
 "versions)."
 msgstr ""
+"finns tillgänglig för Windows och Linux (det finns även icke-officiella Mac "
+"OS X-versioner)."
 
 #: ../../build/doc/overview/gvsig_overview.rstNone
 msgid "gvsig screenshot"
-msgstr ""
+msgstr "gvsig skärmdump"
 
 #: ../../build/doc/overview/gvsig_overview.rst:40
 msgid "Core Features"
@@ -87,141 +102,150 @@ msgid ""
 "table relations, table linking, layout manager, geoprocessing tools, CAD, "
 "raster processing, etc."
 msgstr ""
+"Ger vanliga GIS-verktyg som dataladdning, kartnavigering, fråga "
+"kartinformation som alfanumerisk information, avståndsmätning, tematisk "
+"kartografi, legendutgåva med vanliga legendtyper, märkning, funktionsval med "
+"många urvalstyper, datatabeller med statistik, ordning, tabellrelationer, "
+"tabelllänkning, layouthanterare, geoprocessverktyg, CAD, rasterbearbetning "
+"etc."
 
 #: ../../build/doc/overview/gvsig_overview.rst:44
 msgid "Interoperable: able to work with most known data formats:"
-msgstr ""
+msgstr "Interoperabel: kan fungera med de flesta kända dataformat:"
 
 #: ../../build/doc/overview/gvsig_overview.rst:46
 msgid "raster : ecw, ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, NetCDF..."
-msgstr ""
+msgstr "raster: ecw, ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, NetCDF..."
 
 #: ../../build/doc/overview/gvsig_overview.rst:47
 msgid "vector & CAD: shapefile, NetCDF, GML, KML, DGN, DXF, DWG"
-msgstr ""
+msgstr "vektor & CAD: shapefile, NetCDF, GML, KML, DGN, DXF, DWG"
 
 #: ../../build/doc/overview/gvsig_overview.rst:48
 msgid "databases: PostGIS, MySQL, Oracle, ArcSDE"
-msgstr ""
+msgstr "databaser: PostGIS, MySQL, Oracle, ArcSDE"
 
 #: ../../build/doc/overview/gvsig_overview.rst:49
 msgid "remote: OGC standards (WMS, WMTS, WFS, WCS), OSM, ECWP, ArcIMS"
-msgstr ""
+msgstr "fjärrkontroll: OGC-standarder (WMS, WMTS, WFS, WCS), OSM, ECWP, ArcIMS"
 
 #: ../../build/doc/overview/gvsig_overview.rst:51
 msgid ""
 "Discovery services client to localize data resources within an SDI "
 "(catalogue and gazeteer services)"
 msgstr ""
+"Discovery services-klient för att lokalisera dataresurser inom en SDI "
+"(katalog- och gazeteer-tjänster)"
 
 #: ../../build/doc/overview/gvsig_overview.rst:53
 msgid "Catalogues: Z3950, SRW, CSW (ISO/19115 and ebRIM)"
-msgstr ""
+msgstr "Kataloger: Z3950, SRW, CSW (ISO/19115 och ebRIM)"
 
 #: ../../build/doc/overview/gvsig_overview.rst:54
 msgid "Gazetteers: ADL, WFS, WFS-G"
-msgstr ""
+msgstr "Gazetteers: ADL, WFS, WFS-G"
 
 #: ../../build/doc/overview/gvsig_overview.rst:56
 msgid "More than 300 geoalgorithms via SEXTANTE library"
-msgstr ""
+msgstr "Mer än 300 geoalgoritmer via SEXTANTE-biblioteket"
 
 #: ../../build/doc/overview/gvsig_overview.rst:58
 msgid "Integrated advanced CAD tools:"
-msgstr ""
+msgstr "Integrerade avancerade CAD-verktyg:"
 
 #: ../../build/doc/overview/gvsig_overview.rst:60
 msgid "vector data: modify, create and delete elements"
-msgstr ""
+msgstr "vektordata: modifiera, skapa och ta bort element"
 
 #: ../../build/doc/overview/gvsig_overview.rst:61
 msgid "command console typical element in CAD software"
-msgstr ""
+msgstr "kommandokonsol typiskt element i CAD-programvara"
 
 #: ../../build/doc/overview/gvsig_overview.rst:62
 msgid "tools like help, grid, command stack, complex element selections"
-msgstr ""
+msgstr "verktyg som hjälp, rutnät, kommandostapel, komplexa elementval"
 
 #: ../../build/doc/overview/gvsig_overview.rst:63
 msgid ""
 "tools for inserting elements like points, polygons, lines, ellipses, etc..."
 msgstr ""
+"verktyg för att infoga element som punkter, polygoner, linjer, ellipser etc."
 
 #: ../../build/doc/overview/gvsig_overview.rst:64
 msgid "tools to modify its rotation, scale, symmetry,..."
-msgstr ""
+msgstr "verktyg för att ändra dess rotation, skala, symmetri, ..."
 
 #: ../../build/doc/overview/gvsig_overview.rst:66
 msgid "Integrated advanced raster tools:"
-msgstr ""
+msgstr "Integrerade avancerade rasterverktyg:"
 
 #: ../../build/doc/overview/gvsig_overview.rst:68
 msgid "georeferencing and reprojecting"
-msgstr ""
+msgstr "georeferering och omprojicering"
 
 #: ../../build/doc/overview/gvsig_overview.rst:69
 msgid "export, clipping"
-msgstr ""
+msgstr "export, klippning"
 
 #: ../../build/doc/overview/gvsig_overview.rst:70
 msgid "look up tables, histogram"
-msgstr ""
+msgstr "slå upp tabeller, histogram"
 
 #: ../../build/doc/overview/gvsig_overview.rst:71
 msgid "filters, vectorization"
-msgstr ""
+msgstr "filter, vektorisering"
 
 #: ../../build/doc/overview/gvsig_overview.rst:72
 msgid "overviews and regions of interest management"
-msgstr ""
+msgstr "översikter och intresseområden förvaltning"
 
 #: ../../build/doc/overview/gvsig_overview.rst:74
 msgid "3D View"
-msgstr ""
+msgstr "3D-vy"
 
 #: ../../build/doc/overview/gvsig_overview.rst:76
 msgid "Other features:"
-msgstr ""
+msgstr "Övriga funktioner:"
 
 #: ../../build/doc/overview/gvsig_overview.rst:78
 msgid "Scripting support (for both vector and raster data)"
-msgstr ""
+msgstr "Skriptstöd (för både vektor- och rasterdata)"
 
 #: ../../build/doc/overview/gvsig_overview.rst:79
 msgid "Powerful reprojection engine via PROJ4"
-msgstr ""
+msgstr "Kraftfull reprojektionsmotor via PROJ4"
 
 #: ../../build/doc/overview/gvsig_overview.rst:80
 msgid "Import/export symbol sets"
-msgstr ""
+msgstr "Importera/exportera symboluppsättningar"
 
 #: ../../build/doc/overview/gvsig_overview.rst:81
 msgid "Map sheets composer"
-msgstr ""
+msgstr "Kartblad kompositör"
 
 #: ../../build/doc/overview/gvsig_overview.rst:82
 msgid "Charts"
-msgstr ""
+msgstr "Diagram"
 
 #: ../../build/doc/overview/gvsig_overview.rst:83
 msgid "Advanced symbology tools"
-msgstr ""
+msgstr "Avancerade symbologiverktyg"
 
 #: ../../build/doc/overview/gvsig_overview.rst:84
 msgid "Advanced labelling tools"
-msgstr ""
+msgstr "Avancerade märkningsverktyg"
 
 #: ../../build/doc/overview/gvsig_overview.rst:85
 msgid "Publishing extension"
-msgstr ""
+msgstr "Förlängning av publicering"
 
 #: ../../build/doc/overview/gvsig_overview.rst:86
 msgid "Portable views"
-msgstr ""
+msgstr "Portabla vyer"
 
 #: ../../build/doc/overview/gvsig_overview.rst:87
 msgid "Customized distributions"
-msgstr ""
+msgstr "Anpassade distributioner"
 
 #: ../../build/doc/overview/gvsig_overview.rst:90
 msgid "Implemented Standards"
@@ -232,26 +256,28 @@ msgid ""
 "Advanced client support of numerous Open Geospatial Consortium (OGC) "
 "standards"
 msgstr ""
+"Avancerat klientstöd för ett stort antal standarder från Open Geospatial "
+"Consortium (OGC)"
 
 #: ../../build/doc/overview/gvsig_overview.rst:94
 msgid "Load WMS, WMTS, WFS and WCS layers"
-msgstr ""
+msgstr "Ladda WMS-, WMTS-, WFS- och WCS-lager"
 
 #: ../../build/doc/overview/gvsig_overview.rst:95
 msgid "Export/import of SLD legends"
-msgstr ""
+msgstr "Export/import av SLD-legendarer"
 
 #: ../../build/doc/overview/gvsig_overview.rst:96
 msgid "Export/import of Web Map Context (WMC)"
-msgstr ""
+msgstr "Export/import av webbkartkontext (WMC)"
 
 #: ../../build/doc/overview/gvsig_overview.rst:97
 msgid "Search on catalogues with CSW (ISO/19115 and ebRIM)"
-msgstr ""
+msgstr "Sökning i kataloger med CSW (ISO/19115 och ebRIM)"
 
 #: ../../build/doc/overview/gvsig_overview.rst:98
 msgid "Search on gazetteers using WFS-G recommendation"
-msgstr ""
+msgstr "Sök i gazetteers med hjälp av WFS-G-rekommendation"
 
 #: ../../build/doc/overview/gvsig_overview.rst:101
 msgid "Details"
@@ -259,7 +285,7 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/gvsig_overview.rst:103
 msgid "**Website:** http://www.gvsig.com/es"
-msgstr ""
+msgstr "**Webbplats:** http://www.gvsig.com/es"
 
 #: ../../build/doc/overview/gvsig_overview.rst:105
 msgid "**Licence:** GNU General Public License (GPL) version 2"
@@ -267,22 +293,24 @@ msgstr "* * Licens: * * GNU General Public License (GPL) version 2"
 
 #: ../../build/doc/overview/gvsig_overview.rst:107
 msgid "**Software Version:** |version-gvsig|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-gvsig|"
 
 #: ../../build/doc/overview/gvsig_overview.rst:109
 msgid "**Supported Platforms:** Windows, Linux"
-msgstr ""
+msgstr "**Plattformar som stöds:** Windows, Linux"
 
 #: ../../build/doc/overview/gvsig_overview.rst:111
 msgid ""
 "**Support:** http://www.gvsig.com/en/gvsig-association, "
 "http://www.gvsig.com/en/community/mailing-lists"
 msgstr ""
+"**Support:** http://www.gvsig.com/en/gvsig-association, http://www.gvsig.com/"
+"en/community/mailing-lists"
 
 #: ../../build/doc/overview/gvsig_overview.rst:116
 msgid ""
 "This project is only included on the OSGeoLive virtual machine disk (VMDK)"
-msgstr ""
+msgstr "Detta projekt ingår endast på OSGeoLives virtuella maskindisk (VMDK)"
 
 #: ../../build/doc/overview/gvsig_overview.rst:119
 msgid "Quickstart"
@@ -290,7 +318,7 @@ msgstr "Snabbstart"
 
 #: ../../build/doc/overview/gvsig_overview.rst:121
 msgid ":doc:`Quickstart documentation <../quickstart/gvsig_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snabbstartsdokumentation <../quickstart/gvsig_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -302,8 +330,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

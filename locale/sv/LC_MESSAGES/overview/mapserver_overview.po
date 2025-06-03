@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "mapserver_overview/sv/>\n"
 "Language: sv\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../build/doc/overview/mapserver_overview.rst:18
 msgid "MapServer"
-msgstr ""
+msgstr "MapServer"
 
 #: ../../build/doc/overview/mapserver_overview.rst:21
 msgid "Web Service"
@@ -41,6 +41,14 @@ msgid ""
 "application serves as a \"map engine\" for other portions of the site, "
 "providing spatial context where needed."
 msgstr ""
+"MapServer är en `Open Source <https://opensource.org/>`_ renderingsmotor för "
+"geografiska data skriven i C. Utöver att bläddra i GIS-data kan du med "
+"MapServer skapa \"geografiska bildkartor\", det vill säga kartor som kan "
+"leda användare till webbinnehåll. Minnesota DNR `Recreation Compass "
+"<http://www.dnr.state.mn.us/maps/compass.html>`_ ger till exempel användarna "
+"tillgång till mer än 10.000 webbsidor, rapporter och kartor via en enda "
+"applikation. Samma applikation fungerar som en \"kartmotor\" för andra delar "
+"av webbplatsen och ger rumsligt sammanhang där det behövs."
 
 #: ../../build/doc/overview/mapserver_overview.rst:31
 msgid ""
@@ -50,6 +58,10 @@ msgid ""
 "NASA sponsored project between the UMN and a consortium of land management "
 "interests."
 msgstr ""
+"MapServer utvecklades ursprungligen av ForNet-projektet vid University of "
+"Minnesota (UMN) i samarbete med NASA och Minnesota Department of Natural "
+"Resources (MNDNR). Senare blev den värd för TerraSIP-projektet, ett NASA-"
+"sponsrat projekt mellan UMN och ett konsortium av markförvaltningsintressen."
 
 #: ../../build/doc/overview/mapserver_overview.rst:33
 msgid ""
@@ -59,10 +71,15 @@ msgid ""
 "enhancements and maintenance, and administered within OSGeo by the MapServer"
 " Project Steering Committee made up of developers and other contributors."
 msgstr ""
+"MapServer är nu ett projekt inom `OSGeo <https://www.osgeo.org>`_, och "
+"underhålls av ett växande antal utvecklare (närmare 20) från hela världen. "
+"Det stöds av en mångsidig grupp organisationer som finansierar förbättringar "
+"och underhåll och administreras inom OSGeo av MapServer Project Steering "
+"Committee som består av utvecklare och andra bidragsgivare."
 
 #: ../../build/doc/overview/mapserver_overview.rstNone
 msgid "mapserver screenshot"
-msgstr ""
+msgstr "skärmdump av kartserver"
 
 #: ../../build/doc/overview/mapserver_overview.rst:42
 msgid "Core Features"
@@ -70,139 +87,147 @@ msgstr "Kärnfunktioner"
 
 #: ../../build/doc/overview/mapserver_overview.rst:45
 msgid "Advanced cartographic output"
-msgstr ""
+msgstr "Avancerad kartografisk produktion"
 
 #: ../../build/doc/overview/mapserver_overview.rst:47
 msgid "Scale dependent feature drawing and application execution"
-msgstr ""
+msgstr "Skalberoende ritning av funktioner och utförande av applikationer"
 
 #: ../../build/doc/overview/mapserver_overview.rst:48
 msgid "Feature labeling including label collision mediation"
 msgstr ""
+"Märkning av funktioner inklusive förmedling av kollisioner mellan etiketter"
 
 #: ../../build/doc/overview/mapserver_overview.rst:49
 msgid "TrueType font support for labeling and symbolization"
-msgstr ""
+msgstr "Stöd för TrueType-teckensnitt för märkning och symbolisering"
 
 #: ../../build/doc/overview/mapserver_overview.rst:50
 msgid "Map element automation (scalebar, reference map, and legend)"
 msgstr ""
+"Automatisering av kartelement (skalfält, referenskarta och teckenförklaring)"
 
 #: ../../build/doc/overview/mapserver_overview.rst:51
 msgid "Thematic mapping using logical or regular expression-based classes"
 msgstr ""
+"Tematisk kartläggning med hjälp av logiska eller reguljära uttrycksbaserade "
+"klasser"
 
 #: ../../build/doc/overview/mapserver_overview.rst:52
 msgid "Plugable renderer support with drivers for AGG, Cairo and others"
 msgstr ""
+"Stöd för instickbara renderingar med drivrutiner för AGG, Cairo och andra"
 
 #: ../../build/doc/overview/mapserver_overview.rst:53
 msgid "Special provisioning for tiled output generation"
-msgstr ""
+msgstr "Särskilda bestämmelser för produktion av kaklade produkter"
 
 #: ../../build/doc/overview/mapserver_overview.rst:54
 msgid "Mask Layers"
-msgstr ""
+msgstr "Maskskikt"
 
 #: ../../build/doc/overview/mapserver_overview.rst:55
 msgid "Precise Symbol Placement"
-msgstr ""
+msgstr "Exakt symbolplacering"
 
 #: ../../build/doc/overview/mapserver_overview.rst:56
 msgid "Complex Multi Label/Symbol Symbology"
-msgstr ""
+msgstr "Komplex Multi Label/Symbol Symbologi"
 
 #: ../../build/doc/overview/mapserver_overview.rst:57
 msgid "Vector Fields"
-msgstr ""
+msgstr "Vektorfält"
 
 #: ../../build/doc/overview/mapserver_overview.rst:58
 msgid "Label Leader Offsetting"
-msgstr ""
+msgstr "Avräkning av etikettledare"
 
 #: ../../build/doc/overview/mapserver_overview.rst:59
 msgid "SVG Symbology"
-msgstr ""
+msgstr "SVG-symbologi"
 
 #: ../../build/doc/overview/mapserver_overview.rst:60
 msgid "Multiple Font Support"
-msgstr ""
+msgstr "Stöd för flera teckensnitt"
 
 #: ../../build/doc/overview/mapserver_overview.rst:61
 msgid "Dynamic Heatmaps"
-msgstr ""
+msgstr "Dynamiska värmekartor"
 
 #: ../../build/doc/overview/mapserver_overview.rst:62
 msgid "UTF Grid Support"
-msgstr ""
+msgstr "Stöd för UTF-rutnät"
 
 #: ../../build/doc/overview/mapserver_overview.rst:63
 msgid "Layer Compositing"
-msgstr ""
+msgstr "Kompositering av lager"
 
 #: ../../build/doc/overview/mapserver_overview.rst:65
 msgid "Sophisticated spatial query support"
-msgstr ""
+msgstr "Sofistikerat stöd för rumsliga frågor"
 
 #: ../../build/doc/overview/mapserver_overview.rst:67
 msgid ""
 "Identify features by attributes, point, bounding box or geometry across one "
 "or more layers"
 msgstr ""
+"Identifiera objekt genom attribut, punkt, avgränsande box eller geometri "
+"över ett eller flera lager"
 
 #: ../../build/doc/overview/mapserver_overview.rst:68
 msgid "Support for raster queries"
-msgstr ""
+msgstr "Stöd för rasterfrågor"
 
 #: ../../build/doc/overview/mapserver_overview.rst:69
 msgid "Fully customizable, template driven output"
-msgstr ""
+msgstr "Helt anpassningsbar, malldriven utdata"
 
 #: ../../build/doc/overview/mapserver_overview.rst:70
 msgid "OGR-based query output generation"
-msgstr ""
+msgstr "OGR-baserad generering av utdata för frågor"
 
 #: ../../build/doc/overview/mapserver_overview.rst:72
 msgid "Support for popular scripting and development environments"
-msgstr ""
+msgstr "Stöd för populära skript- och utvecklingsmiljöer"
 
 #: ../../build/doc/overview/mapserver_overview.rst:74
 msgid "CGI/FastCGI"
-msgstr ""
+msgstr "CGI/FastCGI"
 
 #: ../../build/doc/overview/mapserver_overview.rst:75
 msgid "PHP, Python, Perl, Ruby, Java, and .NET"
-msgstr ""
+msgstr "PHP, Python, Perl, Ruby, Java och .NET"
 
 #: ../../build/doc/overview/mapserver_overview.rst:77
 msgid "Cross-platform support"
-msgstr ""
+msgstr "Stöd för flera plattformar"
 
 #: ../../build/doc/overview/mapserver_overview.rst:79
 msgid "Linux, Windows, Mac OS X, Solaris, and more"
-msgstr ""
+msgstr "Linux, Windows, Mac OS X, Solaris m.fl"
 
 #: ../../build/doc/overview/mapserver_overview.rst:81
 msgid "A multitude of raster and vector data formats"
-msgstr ""
+msgstr "En mängd olika raster- och vektordataformat"
 
 #: ../../build/doc/overview/mapserver_overview.rst:83
 msgid "Native support for ESRI shapefiles, PostGIS and Oracle Spatial"
-msgstr ""
+msgstr "Inbyggt stöd för ESRI shapefiler, PostGIS och Oracle Spatial"
 
 #: ../../build/doc/overview/mapserver_overview.rst:84
 msgid "Many other formats via GDAL and OGR"
-msgstr ""
+msgstr "Många andra format via GDAL och OGR"
 
 #: ../../build/doc/overview/mapserver_overview.rst:86
 msgid "Map projection support"
-msgstr ""
+msgstr "Stöd för kartprojektion"
 
 #: ../../build/doc/overview/mapserver_overview.rst:88
 msgid ""
 "On-the-fly map projection with 1000s of projections through the Proj.4 "
 "library"
 msgstr ""
+"Kartprojektion i farten med 1000-tals projektioner via Proj.4-biblioteket"
 
 #: ../../build/doc/overview/mapserver_overview.rst:91
 msgid "Implemented Standards"
@@ -211,63 +236,65 @@ msgstr "Implementerade standarder"
 #: ../../build/doc/overview/mapserver_overview.rst:93
 msgid "Support of numerous Open Geospatial Consortium (OGC) standards"
 msgstr ""
+"Stöd för ett stort antal standarder från Open Geospatial Consortium (OGC)"
 
 #: ../../build/doc/overview/mapserver_overview.rst:95
 msgid "|WMS| (client/server)"
-msgstr ""
+msgstr "|WMS| (klient/server)"
 
 #: ../../build/doc/overview/mapserver_overview.rst:96
 msgid "|WFS| (non-transactional, client/server)"
-msgstr ""
+msgstr "|WFS| (icke-transaktionsbaserad, klient/server)"
 
 #: ../../build/doc/overview/mapserver_overview.rst:97
 msgid "|WMC|"
-msgstr ""
+msgstr "|WMC|"
 
 #: ../../build/doc/overview/mapserver_overview.rst:98
 msgid "|WCS|"
-msgstr ""
+msgstr "|WCS|"
 
 #: ../../build/doc/overview/mapserver_overview.rst:99
 msgid "|FE|"
-msgstr ""
+msgstr "|FE|"
 
 #: ../../build/doc/overview/mapserver_overview.rst:100
 msgid "|SLD|"
-msgstr ""
+msgstr "|SLD|"
 
 #: ../../build/doc/overview/mapserver_overview.rst:101
 msgid "|GML|"
-msgstr ""
+msgstr "|GML|"
 
 #: ../../build/doc/overview/mapserver_overview.rst:102
 msgid "|SOS|"
-msgstr ""
+msgstr "|SOS|"
 
 #: ../../build/doc/overview/mapserver_overview.rst:103
 msgid "OM"
-msgstr ""
+msgstr "OM"
 
 #: ../../build/doc/overview/mapserver_overview.rst:105
 msgid "INSPIRE View Service compliant"
-msgstr ""
+msgstr "Överensstämmer med INSPIRE View Service"
 
 #: ../../build/doc/overview/mapserver_overview.rst:108
 msgid "Demo"
-msgstr ""
+msgstr "Demo"
 
 #: ../../build/doc/overview/mapserver_overview.rst:110
 msgid "`Itasca <http://localhost/mapserver_demos/itasca/>`_"
-msgstr ""
+msgstr "`Itasca <http://localhost/mapserver_demos/itasca/>`_"
 
 #: ../../build/doc/overview/mapserver_overview.rst:113
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentation"
 
 #: ../../build/doc/overview/mapserver_overview.rst:115
 msgid ""
 "`MapServer Documentation <http://localhost/mapserver/doc/index.html>`__"
 msgstr ""
+"`Dokumentation om MapServer <http://localhost/mapserver/doc/index.html>`__"
 
 #: ../../build/doc/overview/mapserver_overview.rst:118
 msgid "Details"
@@ -275,17 +302,18 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/mapserver_overview.rst:120
 msgid "**Website:** https://mapserver.org"
-msgstr ""
+msgstr "**Webbplats:** https://mapserver.org"
 
 #: ../../build/doc/overview/mapserver_overview.rst:122
 msgid ""
 "**Licence:** `MIT-style license "
 "<https://mapserver.org/copyright.html#license>`_"
 msgstr ""
+"**Licens:** `MIT-licens <https://mapserver.org/copyright.html#license>`_"
 
 #: ../../build/doc/overview/mapserver_overview.rst:124
 msgid "**Software Version:** |version-mapserver|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-mapserver|"
 
 #: ../../build/doc/overview/mapserver_overview.rst:126
 msgid "**Supported Platforms:** Windows, Linux, Mac"
@@ -293,11 +321,11 @@ msgstr "**Plattformar som stöds:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/mapserver_overview.rst:128
 msgid "**API Interfaces:** C, PHP, Python, Perl, Ruby, Java, and .NET"
-msgstr ""
+msgstr "**API-gränssnitt:** C, PHP, Python, Perl, Ruby, Java och .NET"
 
 #: ../../build/doc/overview/mapserver_overview.rst:130
 msgid "**Support:** https://mapserver.org/community/"
-msgstr ""
+msgstr "**Support:** https://mapserver.org/community/"
 
 #: ../../build/doc/overview/mapserver_overview.rst:135
 msgid "Quickstart"
@@ -305,7 +333,7 @@ msgstr "Snabbstart"
 
 #: ../../build/doc/overview/mapserver_overview.rst:137
 msgid ":doc:`Quickstart documentation <../quickstart/mapserver_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snabbstartsdokumentation <../quickstart/mapserver_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -317,8 +345,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

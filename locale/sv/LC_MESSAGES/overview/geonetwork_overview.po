@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "geonetwork_overview/sv/>\n"
 "Language: sv\n"
@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../../build/doc/overview/geonetwork_overview.rst:18
 msgid "GeoNetwork"
-msgstr ""
+msgstr "GeoNätverk"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:21
 msgid "Metadata Catalog"
-msgstr ""
+msgstr "Metadatakatalog"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:23
 msgid ""
@@ -37,10 +37,14 @@ msgid ""
 "functions, an embedded interactive web map viewer, and is based upon Open "
 "Standards."
 msgstr ""
+"GeoNetwork OpenSource är en katalogapplikation för hantering av resurser med "
+"rumslig referens. Den innehåller kraftfulla redigerings- och sökfunktioner "
+"för metadata, en inbäddad interaktiv webbkartvisare och är baserad på öppna "
+"standarder."
 
 #: ../../build/doc/overview/geonetwork_overview.rstNone
 msgid "geonetwork screenshot"
-msgstr ""
+msgstr "geonetwork skärmdump"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:32
 msgid "Core Features"
@@ -49,33 +53,42 @@ msgstr "Kärnfunktioner"
 #: ../../build/doc/overview/geonetwork_overview.rst:33
 msgid "Immediate search access to local and distributed geospatial catalogues"
 msgstr ""
+"Omedelbar sökåtkomst till lokala och distribuerade geospatiala kataloger"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:34
 msgid ""
 "Up and downloading of data, graphics, documents, pdf files and any other "
 "content type"
 msgstr ""
+"Upp- och nedladdning av data, grafik, dokument, pdf-filer och andra typer av "
+"innehåll"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:35
 msgid ""
 "An interactive Web Map Viewer to combine Web Map Services from distributed "
 "servers around the world"
 msgstr ""
+"En interaktiv Web Map Viewer för att kombinera webbkarttjänster från "
+"distribuerade servrar runt om i världen"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:36
 msgid ""
 "Recently updated entries are accessible as RSS news feeds and as GeoRSS."
 msgstr ""
+"Nyligen uppdaterade poster finns tillgängliga som RSS-nyhetsflöden och som "
+"GeoRSS."
 
 #: ../../build/doc/overview/geonetwork_overview.rst:37
 msgid "Online editing of metadata with a powerful template system"
-msgstr ""
+msgstr "Online-redigering av metadata med ett kraftfullt mallsystem"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:38
 msgid ""
 "Native support for ISO19115/ISO19119/ISO19139/ISO19110 and Dublin Core "
 "formatted metadata"
 msgstr ""
+"Stöd för metadata i ISO19115/ISO19119/ISO19139/ISO19110- och Dublin Core-"
+"format"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:39
 msgid ""
@@ -83,18 +96,21 @@ msgid ""
 "catalogues (GeoNetwork, CSW, OGC WxS GetCapabilities, WebDav, ArcSDE, "
 "Thredds, OGC WFS Features, OAI-PMH)"
 msgstr ""
+"Schemalagd insamling och synkronisering av metadata mellan distribuerade "
+"kataloger (GeoNetwork, CSW, OGC WxS GetCapabilities, WebDav, ArcSDE, "
+"Thredds, OGC WFS Features, OAI-PMH)"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:40
 msgid "Fine-grained access control"
-msgstr ""
+msgstr "Finkornig åtkomstkontroll"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:41
 msgid "Group and user management"
-msgstr ""
+msgstr "Grupp- och användarhantering"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:42
 msgid "Multi-lingual user interface"
-msgstr ""
+msgstr "Flerspråkigt användargränssnitt"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:45
 msgid "Implemented Standards"
@@ -102,31 +118,31 @@ msgstr "Implementerade standarder"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:47
 msgid "OGC Catalogue Service-Web (CSW) 2.0.2 ISO"
-msgstr ""
+msgstr "OGC katalogtjänst på webben (CSW) 2.0.2 ISO"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:48
 msgid "Open Archives Initiatives (OAI-PMH)"
-msgstr ""
+msgstr "Initiativ för öppna arkiv (OAI-PMH)"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:49
 msgid "OpenSearch-Geo / INSPIRE Atom"
-msgstr ""
+msgstr "OpenSearch-Geo / INSPIRE Atom"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:50
 msgid "Client for OGC-WMS/WMTS/WFS"
-msgstr ""
+msgstr "Klient för OGC-WMS/WMTS/WFS"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:51
 msgid "Metadata standards:"
-msgstr ""
+msgstr "Standarder för metadata:"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:53
 msgid "ISO19115/ISO19119/ISO19139/ISO19110 and ISO Profiles"
-msgstr ""
+msgstr "ISO19115/ISO19119/ISO19139/ISO19110 och ISO-profiler"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:54
 msgid "Dublin Core"
-msgstr ""
+msgstr "Dublin Core"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:57
 msgid "Details"
@@ -134,7 +150,7 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:59
 msgid "**Website:** https://geonetwork-opensource.org"
-msgstr ""
+msgstr "**Webbplats:** https://geonetwork-opensource.org"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:61
 msgid "**Licence:** GNU General Public License (GPL) version 2"
@@ -142,7 +158,7 @@ msgstr "* * Licens: * * GNU General Public License (GPL) version 2"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:63
 msgid "**Software Version:** |version-geonetwork|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-geonetwork|"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:65
 msgid "**Supported Platforms:** Windows, Linux, Mac"
@@ -150,11 +166,11 @@ msgstr "**Plattformar som stöds:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:67
 msgid "**API Interfaces:** Java"
-msgstr ""
+msgstr "**API-gränssnitt:** Java"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:69
 msgid "**Support:** https://www.osgeo.org/service-providers"
-msgstr ""
+msgstr "**Support:** https://www.osgeo.org/service-providers"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:75
 msgid "Quickstart"
@@ -162,7 +178,7 @@ msgstr "Snabbstart"
 
 #: ../../build/doc/overview/geonetwork_overview.rst:77
 msgid ":doc:`Quickstart documentation <../quickstart/geonetwork_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snabbstartsdokumentation <../quickstart/geonetwork_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -174,8 +190,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

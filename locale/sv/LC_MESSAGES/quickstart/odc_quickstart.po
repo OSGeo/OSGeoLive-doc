@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-17 15:05-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "odc_quickstart/sv/>\n"
 "Language: sv\n"
@@ -22,7 +22,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/odc_quickstart.rst:20
 msgid "Open Data Cube Quickstart"
-msgstr ""
+msgstr "Snabbstart för Open Data Cube"
 
 #: ../../build/doc/quickstart/odc_quickstart.rst:22
 msgid ""
@@ -30,80 +30,89 @@ msgid ""
 "environment for decades of analysis ready earth observation satellite and"
 " related data from multiple satellite and other acquisition systems."
 msgstr ""
+"Open Data Cube Core tillhandahåller en integrerad miljö för analys av data i "
+"rutnät för decennier av analys av färdiga jordobservationssatelliter och "
+"relaterade data från flera satelliter och andra förvärvssystem."
 
 #: ../../build/doc/quickstart/odc_quickstart.rst:30
 msgid "This Open Data Cube tutorial section"
-msgstr ""
+msgstr "Detta avsnitt av Open Data Cube-handledningen"
 
 #: ../../build/doc/quickstart/odc_quickstart.rst:28
 msgid "use Jupyter Notebook to examine data"
-msgstr ""
+msgstr "använda Jupyter Notebook för att undersöka data"
 
 #: ../../build/doc/quickstart/odc_quickstart.rst:29
 msgid "basic command line tools"
-msgstr ""
+msgstr "grundläggande kommandoradsverktyg"
 
 #: ../../build/doc/quickstart/odc_quickstart.rst:33
 msgid "Contents"
-msgstr ""
+msgstr "Innehåll"
 
 #: ../../build/doc/quickstart/odc_quickstart.rst:36
 msgid "Analyze a Base Map"
-msgstr ""
+msgstr "Analysera en baskarta"
 
 #: ../../build/doc/quickstart/odc_quickstart.rst:38
 msgid ""
 "As our input dataset we will use Prizren from esa_worldview_2021 land use"
 " / landcover dataset;"
 msgstr ""
+"Som vår ingångsdataset kommer vi att använda Prizren från esa_worldview_2021 "
+"markanvändning / landcover dataset;"
 
 #: ../../build/doc/quickstart/odc_quickstart.rst:40
 msgid "Start:"
-msgstr ""
+msgstr "Start:"
 
 #: ../../build/doc/quickstart/odc_quickstart.rst:42
 msgid "Open menu Geospatial : Spatial Tools : Jupyter Notebook;"
-msgstr ""
+msgstr "Öppna menyn Geospatial : Geospatiala verktyg : Jupyter Anteckningsbok;"
 
 #: ../../build/doc/quickstart/odc_quickstart.rst:44
 msgid ""
 "On the Jupyter Home page, click to open folder OpenDataCube, click to "
 "open Notebook, choose \"Run All\" from the kernel menu."
 msgstr ""
+"På Jupyters startsida, klicka för att öppna mappen OpenDataCube, klicka för "
+"att öppna Notebook, välj \"Run All\" från kernel-menyn."
 
 #: ../../build/doc/quickstart/odc_quickstart.rst:47
 msgid ""
 "For a quick look at a base data file, open a terminal and use the GDAL "
 "command `gdalinfo`:"
 msgstr ""
+"För en snabb titt på en basdatafil kan du öppna en terminal och använda GDAL-"
+"kommandot `gdalinfo`:"
 
 #: ../../build/doc/quickstart/odc_quickstart.rst:57
 msgid "Things to try"
-msgstr ""
+msgstr "Saker att prova"
 
 #: ../../build/doc/quickstart/odc_quickstart.rst:60
 msgid "Datacube core commands quickstart :"
-msgstr ""
+msgstr "Snabbstart för Datacube kärnkommandon :"
 
 #: ../../build/doc/quickstart/odc_quickstart.rst:78
 msgid "`TODO tutorial <tutorial>`"
-msgstr ""
+msgstr "`ATTGÖRA handledning <tutorial>`"
 
 #: ../../build/doc/quickstart/odc_quickstart.rst:81
 msgid "What next?"
-msgstr ""
+msgstr "Hur vill du gå vidare?"
 
 #: ../../build/doc/quickstart/odc_quickstart.rst:83
 msgid "Documentation: https://datacube-core.readthedocs.io/en/stable/"
-msgstr ""
+msgstr "Dokumentation: https://datacube-core.readthedocs.io/en/stable/"
 
 #: ../../build/doc/quickstart/odc_quickstart.rst:84
 msgid "Website: https://www.opendatacube.org"
-msgstr ""
+msgstr "Webbplats: https://www.opendatacube.org"
 
 #: ../../build/doc/quickstart/odc_quickstart.rst:85
 msgid "Support: https://www.opendatacube.org/faq"
-msgstr ""
+msgstr "Support: https://www.opendatacube.org/faq"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -115,8 +124,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

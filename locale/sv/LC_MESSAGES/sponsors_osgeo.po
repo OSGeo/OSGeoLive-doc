@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "sponsors_osgeo/sv/>\n"
 "Language: sv\n"
@@ -25,7 +25,7 @@ msgstr ""
 
 #: ../../build/doc/sponsors_osgeo.rstNone
 msgid "OSGeo"
-msgstr ""
+msgstr "OSGeo"
 
 #: ../../build/doc/sponsors_osgeo.rst:7
 msgid "The OSGeo Foundation"
@@ -43,9 +43,9 @@ msgid ""
 "devoted to an open philosophy and participatory community driven "
 "development."
 msgstr ""
-"`Open Source Geospatial Foundation (OSGeo) <https://www.osgeo.org>`__ är en "
-"icke-vinstdrivande organisation vars uppdrag är att främja globalt antagande"
-" av öppen geospatial teknik. Detta gör den genom att vara en inkluderande "
+"`Open Source Geospatial Foundation (OSGeo) <http://www.osgeo.org>`__ är en "
+"icke-vinstdrivande organisation vars uppdrag är att främja globalt antagande "
+"av öppen geospatial teknik. Detta gör den genom att vara en inkluderande "
 "programvarustiftelse ägnad åt en öppen filosofi och en deltagande "
 "gemenskapsdriven utveckling."
 
@@ -101,8 +101,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

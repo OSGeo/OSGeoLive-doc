@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "eoxserver_overview/sv/>\n"
 "Language: sv\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../build/doc/overview/eoxserver_overview.rst:15
 msgid "EOxServer"
-msgstr ""
+msgstr "EOxServer"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:18
 msgid "About"
@@ -35,6 +35,8 @@ msgid ""
 "EOxServer is a server for presenting big Earth Observation (EO) data "
 "archives and metadata via Open Standards."
 msgstr ""
+"EOxServer är en server för presentation av stora dataarkiv och metadata för "
+"jordobservation (EO) via öppna standarder."
 
 #: ../../build/doc/overview/eoxserver_overview.rst:23
 msgid ""
@@ -43,6 +45,11 @@ msgid ""
 " about the time of acquisition and the footprint on planet Earth. It is "
 "typically used to monitor Earth's natural and built environment."
 msgstr ""
+"Jordobservationsdata som för närvarande stöds inkluderar 2D-rasterdata som "
+"vanligtvis förvärvas med hjälp av sensorer på satelliter eller flygplan och "
+"inkluderar information om förvärvstidpunkten och fotavtrycket på planeten "
+"Jorden. Det används vanligtvis för att övervaka jordens naturliga och byggda "
+"miljö."
 
 #: ../../build/doc/overview/eoxserver_overview.rst:28
 msgid ""
@@ -51,10 +58,14 @@ msgid ""
 "<gdal_overview>`, PROJ, and a :doc:`SpatiaLite <spatialite_overview>` or "
 ":doc:`PostGIS <postgis_overview>` database."
 msgstr ""
+"EOxServer bygger på en Open Source-programvarustack som innehåller Python, "
+":doc:`MapServer <mapserver_overview>`, Django/GeoDjango, :doc:`GDAL "
+"<gdal_overview>`, PROJ och en :doc:`SpatiaLite <spatialite_overview>` eller "
+":doc:`PostGIS <postgis_overview>` databas."
 
 #: ../../build/doc/overview/eoxserver_overview.rstNone
 msgid "eoxserver screenshot"
-msgstr ""
+msgstr "eoxserver skärmdump"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:40
 msgid "Core Features"
@@ -62,76 +73,82 @@ msgstr "Kärnfunktioner"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:42
 msgid "View, filter, subset, and download EO data"
-msgstr ""
+msgstr "Visa, filtrera, dela upp och ladda ner EO-data"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:43
 msgid "Register EO data archives"
-msgstr ""
+msgstr "Registrera EO:s dataarkiv"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:44
 msgid "Web based and command line administration interface"
-msgstr ""
+msgstr "Webbaserat administrationsgränssnitt och kommandoradsgränssnitt"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:45
 msgid "Publish data via |OGC|"
-msgstr ""
+msgstr "Publicera data via |OGC|"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:47
 msgid "|WCS| 1.0, 1.1 and 2.0 & proposed EO-WCS"
-msgstr ""
+msgstr "|WCS| 1.0, 1.1 och 2.0 & föreslagen EO-WCS"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:49
 msgid "|WMS| & EO-WMS"
-msgstr ""
+msgstr "|WMS| & EO-WMS"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:50
 msgid ""
 "Proposed extensions to WCS including: GeoTIFF encoding, predefined "
 "projections (CRSs), scaling, and interpolation."
 msgstr ""
+"Föreslagna tillägg till WCS inklusive: GeoTIFF-kodning, fördefinierade "
+"projektioner (CRS), skalning och interpolering."
 
 #: ../../build/doc/overview/eoxserver_overview.rst:52
 msgid ""
 "Protocols supported are: KVP and XML/POST (used together with SOAP2POST "
 "Proxy to provide also XML/SOAP)"
 msgstr ""
+"Protokoll som stöds är: KVP och XML/POST (används tillsammans med SOAP2POST "
+"Proxy för att även tillhandahålla XML/SOAP)"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:55
 msgid "Register data stored in S3"
-msgstr ""
+msgstr "Registrera data som lagrats i S3"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:57
 msgid "Publish using the following formats and groupings:"
-msgstr ""
+msgstr "Publicera med hjälp av följande format och grupperingar:"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:59
 msgid "2-D EO Coverages derived from gmlcov:RectifiedGridCoverage"
-msgstr ""
+msgstr "2-D EO-täckningar härledda från gmlcov:RectifiedGridCoverage"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:60
 msgid "2-D EO Coverages derived from gmlcov:ReferenceableGridCoverage"
-msgstr ""
+msgstr "2-D EO-täckningar härledda från gmlcov:ReferenceableGridCoverage"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:61
 msgid "Dataset Series as a collection of EO Coverages e.g. in a time series"
-msgstr ""
+msgstr "Dataset Series som en samling av EO-täckningar, t.ex. i en tidsserie"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:62
 msgid ""
 "Stitched Mosaics of Rectified EO Coverages including contributingFootprint"
 msgstr ""
+"Stitched Mosaics av rektifierade EO-täckningar inklusive bidragande "
+"fotavtryck"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:64
 msgid "Coverage formats supported:"
-msgstr ""
+msgstr "Stöd för täckningsformat:"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:66
 msgid "GeoTIFF"
-msgstr ""
+msgstr "GeoTIFF"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:67
 msgid "Formats supported by the GDAL library"
-msgstr ""
+msgstr "Format som stöds av GDAL-biblioteket"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:70
 msgid "Implemented Standards"
@@ -139,23 +156,23 @@ msgstr "Implementerade standarder"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:72
 msgid "WCS, EO-WCS"
-msgstr ""
+msgstr "WCS, EO-WCS"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:73
 msgid "WMS, EO-WMS"
-msgstr ""
+msgstr "WMS, EO-WMS"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:74
 msgid "WPS"
-msgstr ""
+msgstr "WPS"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:75
 msgid "GML, GMLCOV, EO-O&M"
-msgstr ""
+msgstr "GML, GMLCOV, EO-O&M"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:76
 msgid "OpenSearch"
-msgstr ""
+msgstr "OpenSearch"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:79
 msgid "Details"
@@ -163,31 +180,35 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:81
 msgid "**Website:** https://docs.eoxserver.org/en/stable/"
-msgstr ""
+msgstr "**Webbplats:** https://docs.eoxserver.org/en/stable/"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:83
 msgid ""
 "**Licence:** `MIT-style license "
 "<https://docs.eoxserver.org/en/stable/copyright.html#license>`_"
 msgstr ""
+"**Licens:** `MIT-licens <https://docs.eoxserver.org/en/stable/copyright."
+"html#license>`_"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:85
 msgid "**Software Version:** |version-eoxserver|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-eoxserver|"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:87
 msgid "**Supported Platforms:** Linux, Windows, Mac"
-msgstr ""
+msgstr "**Plattformar som stöds:** Linux, Windows, Mac"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:89
 msgid "**API Interfaces:** Python"
-msgstr ""
+msgstr "**API-gränssnitt:** Python"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:91
 msgid ""
 "**Support:** https://docs.eoxserver.org/en/stable/users/basics.html#where-"
 "can-i-get-support"
 msgstr ""
+"**Support:** https://docs.eoxserver.org/en/stable/users/basics.html#where-"
+"can-i-get-support"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:96
 msgid "Quickstart"
@@ -195,7 +216,7 @@ msgstr "Snabbstart"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:98
 msgid ":doc:`Quickstart documentation <../quickstart/eoxserver_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snabbstartsdokumentation <../quickstart/eoxserver_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -207,8 +228,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

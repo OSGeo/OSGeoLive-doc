@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "geomoose_quickstart/sv/>\n"
 "Language: sv\n"
@@ -21,207 +21,285 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:21
 msgid "GeoMoose Quickstart"
-msgstr ""
+msgstr "GeoMoose Snabbstart"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:23
 msgid "GeoMoose is a browser based mapping framework for displaying distributed cartographic data. It is particularly useful for managing spatial and non-spatial data within county, city and municipal offices (from which GeoMoose originated)."
 msgstr ""
+"GeoMoose är ett webbläsarbaserat kartramverk för visning av distribuerade "
+"kartografiska data. Det är särskilt användbart för att hantera rumsliga och "
+"icke-rumsliga data inom läns-, stads- och kommunkontor (från vilka GeoMoose "
+"härstammar)."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:25
 msgid "GeoMoose is a GIS data portal management framework. The installed version of GeoMoose on the Live DVD is an example configuration that displays an example set of layers."
 msgstr ""
+"GeoMoose är ett ramverk för hantering av GIS-dataportaler. Den installerade "
+"versionen av GeoMoose på Live DVD:n är en exempelkonfiguration som visar en "
+"exempeluppsättning av lager."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:28
 msgid "Contents"
-msgstr ""
+msgstr "Innehåll"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:31
 msgid "Start GeoMoose"
-msgstr ""
+msgstr "Starta GeoMoose"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:33
 msgid "Go to the \"Browser Clients\" folder on the desktop."
-msgstr ""
+msgstr "Gå till mappen \"Browser Clients\" på skrivbordet."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:35
 msgid "Click on the desktop icon \"Start GeoMoose\". This will launch the default browser which will navigate to the correct location automatically."
 msgstr ""
+"Klicka på ikonen \"Starta GeoMoose\" på skrivbordet. Då startas "
+"standardwebbläsaren som automatiskt navigerar till rätt plats."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:37
 msgid "You will be presented with a web page displaying a demo interface of a GeoMoose instance."
 msgstr ""
+"Du kommer att få upp en webbsida som visar ett demogränssnitt för en "
+"GeoMoose-instans."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:0
 msgid "GeoMoose Screenshot"
-msgstr ""
+msgstr "GeoMoose skärmdump"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:43
 msgid "The Interfaces presented above shows:"
-msgstr ""
+msgstr "De gränssnitt som presenteras ovan visar:"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:45
 msgid "A banner bar"
-msgstr ""
+msgstr "En bannerbar"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:46
 msgid "A tool bar"
-msgstr ""
+msgstr "En verktygsfält"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:47
 msgid "A map window with navigation and zoom controls"
-msgstr ""
+msgstr "Ett kartfönster med navigerings- och zoomkontroller"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:48
 msgid "A side menu with:"
-msgstr ""
+msgstr "En sidomeny med:"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:50
 msgid "A \"Jump to\" location pull down list"
-msgstr ""
+msgstr "En rullgardinslista med \"Hoppa till\" plats"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:51
 msgid "Control tabs starting with \"Catalog\", for displaying the layer list. As needed, additional tabs will appear: an \"Information\" readout, a \"Custom\" output tab, and others."
 msgstr ""
+"Kontrollflikar som börjar med \"Catalog\", för visning av lagerlistan. Efter "
+"behov visas ytterligare flikar: en \"Information\"-läsare, en \"Custom\"-"
+"flik för utdata och andra."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:53
 msgid "A Footer bar with:"
-msgstr ""
+msgstr "Ett sidfotsfält med:"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:55
 msgid "Multiple coordinate readouts, one each for: X,Y (local dataset coordinates), LAT/LON (Decimal) and United States National Grid (USNG)"
 msgstr ""
+"Flera koordinatavläsningar, en vardera för: X,Y (lokala datasetkoordinater), "
+"LAT/LON (decimal) och United States National Grid (USNG)"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:56
 msgid "An editable pull down list for a view scales to choose from or define."
 msgstr ""
+"En redigerbar rullgardinslista för en vyskala att välja mellan eller "
+"definiera."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:59
 msgid "Identify a location"
-msgstr ""
+msgstr "Identifiera en plats"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:61
 msgid "Click on the \"identify\" (\"i\" in a circle icon) button in the top toolbar"
 msgstr ""
+"Klicka på knappen \"identifiera\" (\"i\" i en cirkelikon) i det övre "
+"verktygsfältet"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:62
 msgid "Click a point on the map."
-msgstr ""
+msgstr "Klicka på en punkt på kartan."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:66
 msgid "The catalog along the left side of the Map view will change to the \"Super Tab\" - a place to where GeoMoose displays results of an action or asks for more information. In this case, it will show the results of a query of each active and identifiable layer for the point that you clicked in the map."
 msgstr ""
+"Katalogen på vänster sida av kartvyn ändras till \"Super Tab\" - en plats "
+"där GeoMoose visar resultat av en åtgärd eller ber om mer information. I det "
+"här fallet visas resultaten av en fråga om varje aktivt och identifierbart "
+"lager för den punkt som du klickade på i kartan."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:69
 msgid "Use the measuring tool"
-msgstr ""
+msgstr "Använd mätverktyget"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:71
 msgid "The GeoMoose measure tool allows you to: * measure a point (return the coordinates of a picked point) * measure the distance along a potentially multi-segment line * measure the area of a polygon."
 msgstr ""
+"Med GeoMoose mätverktyg kan du: * mäta en punkt (returnera koordinaterna för "
+"en vald punkt) * mäta avståndet längs en linje som kan bestå av flera "
+"segment * mäta arean för en polygon."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:76
 msgid "Click the double ended arrow icon in the top toolbar to start the measuring tool."
 msgstr ""
+"Klicka på ikonen med den dubbla pilen i det övre verktygsfältet för att "
+"starta mätverktyget."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:77
 msgid "Choose to measure a point, line, or polygon."
-msgstr ""
+msgstr "Välj att mäta en punkt, linje eller polygon."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:78
 msgid "Click on the map where you want to measure. To measure a point, just click the point on the map you want to measure. To measure a line or polygon click on the map for each vertex a of the line/polygon."
 msgstr ""
+"Klicka på kartan där du vill mäta. Om du vill mäta en punkt klickar du bara "
+"på den punkt på kartan som du vill mäta. För att mäta en linje eller polygon "
+"klickar du på kartan för varje toppunkt a i linjen/polygonen."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:79
 msgid "Double click to end the line/polygon."
-msgstr ""
+msgstr "Dubbelklicka för att avsluta linjen/polygonen."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:87
 msgid "you can also measure a pre-existing feature on the map (if it is from a vector layer, including previous query results) without having to manually trace over it."
 msgstr ""
+"kan du också mäta en befintlig funktion på kartan (om den kommer från ett "
+"vektorlager, inklusive tidigare sökresultat) utan att behöva spåra över den "
+"manuellt."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:91
 msgid "Select features"
-msgstr ""
+msgstr "Välj funktioner"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:92
 msgid "You can select features from a Point, Line, Polygon, or from an existing feature. To start, click on the \"Select Features\" icon (mouse cursor icon), pick point, line, polygon and start drawing your selection in the map. You can double click the last point to finish the drawing process. If you want to adjust your selection you can do that with the \"Modify Feature\" option."
 msgstr ""
+"Du kan välja funktioner från en punkt, linje, polygon eller från en "
+"befintlig funktion. Börja med att klicka på ikonen \"Select Features\" "
+"(muspekarikonen), välj punkt, linje, polygon och börja rita ditt val på "
+"kartan. Du kan dubbelklicka på den sista punkten för att avsluta "
+"ritprocessen. Om du vill justera ditt val kan du göra det med alternativet "
+"\"Modify Feature\"."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:94
 msgid "You also have the option to select features based on a buffered version of what you drew. The default is to buffer by \"0\" which does nothing. Positive values expand what you drew by that distance, negative values shrink your drawing."
 msgstr ""
+"Du har också möjlighet att välja funktioner baserat på en buffrad version av "
+"det du ritade. Standardinställningen är att buffra med \"0\", vilket inte "
+"gör någonting. Positiva värden expanderar det du ritade med det avståndet, "
+"negativa värden krymper din ritning."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:96
 msgid "Select which layer you want to select features from using the \"Query Layer\" select-box. Note: not all layers can be used with the Select Features tool. To be available for selection, a layer needs to be a vector layer and be configured for selection in the mapbook."
 msgstr ""
+"Välj vilket lager du vill välja funktioner från med hjälp av valboxen \"Query"
+" Layer\". Observera: Alla lager kan inte användas med verktyget Select "
+"Features. För att vara tillgängligt för urval måste ett lager vara ett "
+"vektorlager och konfigureras för urval i kartboken."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:101
 msgid "You may need to scroll down in the \"Super Tab\" to find the \"Go\" button if your browser window is small."
 msgstr ""
+"Du kan behöva scrolla ner i \"Super Tab\" för att hitta \"Go\"-knappen om "
+"ditt webbläsarfönster är litet."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:106
 msgid "Finally, click the \"Go\" button to actually select the features. GeoMoose will return a summary of what was selected in the Super Tab as well, highlight the selected features on the map, and show an attribute table of the selected features."
 msgstr ""
+"Klicka slutligen på knappen \"Go\" för att faktiskt välja funktionerna. "
+"GeoMoose returnerar en sammanfattning av vad som valdes i Super Tab, "
+"markerar de valda objekten på kartan och visar en attributtabell för de "
+"valda objekten."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:111
 msgid "If you hover over a line in the table, the corresponding feature on the map will be highlighted. Additionally, you can use the funnel icons in the table header to further filter results, and use the triangle icons in the table header to sort results. The results can be downloaded as a CSV file using the download icon to the top and left of the table."
 msgstr ""
+"Om du håller muspekaren över en linje i tabellen markeras motsvarande "
+"funktion på kartan. Dessutom kan du använda trattikonerna i tabellhuvudet "
+"för att filtrera resultaten ytterligare och använda triangelikonerna i "
+"tabellhuvudet för att sortera resultaten. Resultaten kan laddas ner som en "
+"CSV-fil med hjälp av nedladdningsikonen högst upp och till vänster om "
+"tabellen."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:115
 msgid "Search for features"
-msgstr ""
+msgstr "Sök efter funktioner"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:117
 msgid "You can also search for features by attribute. To start, hover over the \"Search\" menu in the toolbar and then click on the \"Search Parcels\" icon. Enter your search parameters in the Super Tab then click the \"Go!\" button."
 msgstr ""
+"Du kan också söka efter egenskaper per attribut. Börja med att hålla "
+"muspekaren över menyn \"Search\" i verktygsfältet och klicka sedan på ikonen "
+"\"Search Parcels\". Ange dina sökparametrar i Super Tab och klicka sedan på "
+"knappen \"Go!\"."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:121
 msgid "The following screenshot demonstrates a search of all parcel owners containing the name \"frank\"."
 msgstr ""
+"Följande skärmdump visar en sökning av alla paketägare som innehåller namnet "
+"\"frank\"."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:125
 msgid "Three results appear in the list and are highlighted on the map."
-msgstr ""
+msgstr "Tre resultat visas i listan och är markerade på kartan."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:129
 msgid "Clicking the magnifying glass icon/parcel number will zoom you to the specific parcel as illustrated in the following screenshot."
 msgstr ""
+"Om du klickar på förstoringsglasikonen/skiftenumret zoomas du in till det "
+"specifika skiftet, vilket illustreras i följande skärmdump."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:135
 msgid "Print the map"
-msgstr ""
+msgstr "Skriv ut kartan"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:137
 msgid "This next screenshot shows how the Print tool looks as provided with demo for GeoMoose. When you click on the Print tool, a dialog appears which asks for a title for the printed map, the page size and rotation, printed resolution, and shows a preview of what will be printed."
 msgstr ""
+"Nästa skärmdump visar hur verktyget Print ser ut i demoversionen för "
+"GeoMoose. När du klickar på verktyget Print visas en dialogruta som frågar "
+"efter en titel för den utskrivna kartan, sidstorlek och rotation, "
+"utskriftsupplösning och visar en förhandsgranskning av vad som kommer att "
+"skrivas ut."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:141
 msgid "Clicking the Print button in the dialog will generate a PDF printout that you can open or save."
 msgstr ""
+"Om du klickar på knappen Skriv ut i dialogrutan genereras en PDF-utskrift "
+"som du kan öppna eller spara."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:147
 msgid "What next?"
-msgstr ""
+msgstr "Hur vill du gå vidare?"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:149
 msgid "This is only the first step on the road to using GeoMoose. There is a lot more functionality you can try."
 msgstr ""
+"Detta är bara det första steget på vägen mot att använda GeoMoose. Det finns "
+"mycket mer funktionalitet som du kan prova."
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:152
 msgid "GeoMoose Project home"
-msgstr ""
+msgstr "GeoMoose-projektets hemsida"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:154
 msgid "https://www.geomoose.org/"
-msgstr ""
+msgstr "https://www.geomoose.org/"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:156
 msgid "GeoMoose Tutorial"
-msgstr ""
+msgstr "GeoMoose handledning"
 
 #: ../../build/doc/quickstart/geomoose_quickstart.rst:158
 msgid "https://www.geomoose.org/quickstart.html"
-msgstr ""
+msgstr "https://www.geomoose.org/quickstart.html"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -233,9 +311,9 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

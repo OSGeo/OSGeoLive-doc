@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "geonode_overview/sv/>\n"
 "Language: sv\n"
@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../../build/doc/overview/geonode_overview.rst:17
 msgid "GeoNode"
-msgstr ""
+msgstr "GeoNod"
 
 #: ../../build/doc/overview/geonode_overview.rst:20
 msgid "Geospatial Content Management System"
-msgstr ""
+msgstr "System för hantering av geospatialt innehåll"
 
 #: ../../build/doc/overview/geonode_overview.rst:22
 msgid ""
@@ -39,15 +39,21 @@ msgid ""
 " can be published and searched, and reviews, ratings and comments can be "
 "captured from users."
 msgstr ""
+"`GeoNode <https://geonode.org>`_ är ett Content Management System för "
+"geospatiala data som möjliggör skapande, delning och kollaborativ användning "
+"av geospatiala data. Dataset kan laddas upp i olika format, kartor kan "
+"redigeras, stylas och aggregeras via webbläsarbaserade verktyg, kartor och "
+"metadata kan publiceras och sökas, och recensioner, betyg och kommentarer "
+"kan samlas in från användare."
 
 #: ../../build/doc/overview/geonode_overview.rst:24
 msgid ""
 "GeoNode is built upon: GeoServer, GeoExplorer, pycsw, Django, and GeoExt."
-msgstr ""
+msgstr "GeoNode bygger på: GeoServer, GeoExplorer, pycsw, Django och GeoExt."
 
 #: ../../build/doc/overview/geonode_overview.rstNone
 msgid "geonode screenshot"
-msgstr ""
+msgstr "geonode skärmdump"
 
 #: ../../build/doc/overview/geonode_overview.rst:33
 msgid "Core Features"
@@ -55,87 +61,87 @@ msgstr "Kärnfunktioner"
 
 #: ../../build/doc/overview/geonode_overview.rst:35
 msgid "Spatial Data Discovery"
-msgstr ""
+msgstr "Upptäckt av rumsliga data"
 
 #: ../../build/doc/overview/geonode_overview.rst:37
 msgid "Powerful spatial search engine"
-msgstr ""
+msgstr "Kraftfull spatial sökmotor"
 
 #: ../../build/doc/overview/geonode_overview.rst:38
 msgid "Federated OGC services"
-msgstr ""
+msgstr "Federerade OGC-tjänster"
 
 #: ../../build/doc/overview/geonode_overview.rst:39
 msgid "Metadata catalogue"
-msgstr ""
+msgstr "Katalog med metadata"
 
 #: ../../build/doc/overview/geonode_overview.rst:41
 msgid "Import and Manage Geospatial Data"
-msgstr ""
+msgstr "Importera och hantera geospatiala data"
 
 #: ../../build/doc/overview/geonode_overview.rst:43
 msgid "Publish raster, vector, and tabular data"
-msgstr ""
+msgstr "Publicera raster-, vektor- och tabelldata"
 
 #: ../../build/doc/overview/geonode_overview.rst:44
 msgid "Manage metadata and associated documents"
-msgstr ""
+msgstr "Hantera metadata och tillhörande dokument"
 
 #: ../../build/doc/overview/geonode_overview.rst:45
 msgid "Securely or publicly share data"
-msgstr ""
+msgstr "Dela data på ett säkert eller offentligt sätt"
 
 #: ../../build/doc/overview/geonode_overview.rst:46
 msgid "Versioned geospatial data editor"
-msgstr ""
+msgstr "Versionerad editor för geospatiala data"
 
 #: ../../build/doc/overview/geonode_overview.rst:48
 msgid "Interactive Mapping"
-msgstr ""
+msgstr "Interaktiv kartläggning"
 
 #: ../../build/doc/overview/geonode_overview.rst:50
 msgid "GeoExplorer GIS client"
-msgstr ""
+msgstr "GeoExplorer GIS-klient"
 
 #: ../../build/doc/overview/geonode_overview.rst:51
 msgid "Graphical style editor"
-msgstr ""
+msgstr "Grafisk stilredigerare"
 
 #: ../../build/doc/overview/geonode_overview.rst:52
 msgid "Create multi-layer interactive maps"
-msgstr ""
+msgstr "Skapa interaktiva kartor med flera lager"
 
 #: ../../build/doc/overview/geonode_overview.rst:53
 msgid "Share and embed maps in web pages"
-msgstr ""
+msgstr "Dela och bädda in kartor i webbsidor"
 
 #: ../../build/doc/overview/geonode_overview.rst:54
 msgid "Print maps as PDF"
-msgstr ""
+msgstr "Skriv ut kartor som PDF"
 
 #: ../../build/doc/overview/geonode_overview.rst:56
 msgid "Collaboration"
-msgstr ""
+msgstr "Samarbete"
 
 #: ../../build/doc/overview/geonode_overview.rst:58
 msgid "Review, rate, and comment on data"
-msgstr ""
+msgstr "Granska, betygsätta och kommentera data"
 
 #: ../../build/doc/overview/geonode_overview.rst:59
 msgid "Groups of users"
-msgstr ""
+msgstr "Grupper av användare"
 
 #: ../../build/doc/overview/geonode_overview.rst:60
 msgid "Activity streams"
-msgstr ""
+msgstr "Aktivitetsströmmar"
 
 #: ../../build/doc/overview/geonode_overview.rst:61
 msgid "Announcements and notifications"
-msgstr ""
+msgstr "Tillkännagivanden och meddelanden"
 
 #: ../../build/doc/overview/geonode_overview.rst:63
 msgid "... and more!"
-msgstr ""
+msgstr "... och mycket mer!"
 
 #: ../../build/doc/overview/geonode_overview.rst:66
 msgid "Implemented Standards"
@@ -143,31 +149,31 @@ msgstr "Implementerade standarder"
 
 #: ../../build/doc/overview/geonode_overview.rst:69
 msgid "|WMS|"
-msgstr ""
+msgstr "|WMS|"
 
 #: ../../build/doc/overview/geonode_overview.rst:70
 msgid "|CSW|"
-msgstr ""
+msgstr "|CSW|"
 
 #: ../../build/doc/overview/geonode_overview.rst:71
 msgid "|WFS|"
-msgstr ""
+msgstr "|WFS|"
 
 #: ../../build/doc/overview/geonode_overview.rst:72
 msgid "|WCS|"
-msgstr ""
+msgstr "|WCS|"
 
 #: ../../build/doc/overview/geonode_overview.rst:73
 msgid "|FE|"
-msgstr ""
+msgstr "|FE|"
 
 #: ../../build/doc/overview/geonode_overview.rst:74
 msgid "|SLD|"
-msgstr ""
+msgstr "|SLD|"
 
 #: ../../build/doc/overview/geonode_overview.rst:75
 msgid "|GML|"
-msgstr ""
+msgstr "|GML|"
 
 #: ../../build/doc/overview/geonode_overview.rst:78
 msgid "Details"
@@ -175,15 +181,15 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/geonode_overview.rst:80
 msgid "**Website:** https://geonode.org"
-msgstr ""
+msgstr "**Webbplats:** https://geonode.org"
 
 #: ../../build/doc/overview/geonode_overview.rst:82
 msgid "**Licence:** GNU General Public License (GPL) version 2.0"
-msgstr ""
+msgstr "**Licens:** GNU General Public License (GPL) version 2.0"
 
 #: ../../build/doc/overview/geonode_overview.rst:84
 msgid "**Software Version:** |version-geonode|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-geonode|"
 
 #: ../../build/doc/overview/geonode_overview.rst:86
 msgid "**Supported Platforms:** Windows, Linux, Mac"
@@ -191,11 +197,11 @@ msgstr "**Plattformar som stöds:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/geonode_overview.rst:88
 msgid "**API Interfaces:** Python (Django)"
-msgstr ""
+msgstr "**API-gränssnitt:** Python (Django)"
 
 #: ../../build/doc/overview/geonode_overview.rst:90
 msgid "**Support:** https://www.osgeo.org/service-providers"
-msgstr ""
+msgstr "**Support:** https://www.osgeo.org/service-providers"
 
 #: ../../build/doc/overview/geonode_overview.rst:95
 msgid "Quickstart"
@@ -203,7 +209,7 @@ msgstr "Snabbstart"
 
 #: ../../build/doc/overview/geonode_overview.rst:97
 msgid ":doc:`Quickstart documentation <../quickstart/geonode_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snabbstartsdokumentation <../quickstart/geonode_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -215,8 +221,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

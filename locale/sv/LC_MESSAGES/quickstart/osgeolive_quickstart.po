@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "osgeolive_quickstart/sv/>\n"
 "Language: sv\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:9
 msgid "Getting started with OSGeoLive"
-msgstr ""
+msgstr "Komma igång med OSGeoLive"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:11
 msgid "This Quick Start describes how to start OSGeoLive from a DVD or USB."
@@ -41,11 +41,11 @@ msgstr "Datorn ska ha åtminstone:"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:18
 msgid "RAM: minimum 2 GB (4 GB recommended)."
-msgstr ""
+msgstr "RAM-minne: minst 2 GB (4 GB rekommenderas)."
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:19
 msgid "CPU: 1 GHz 64 bit."
-msgstr ""
+msgstr "CPU: 1 GHz 64 bitar."
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:20
 msgid "Hard Disk:"
@@ -92,7 +92,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:0
 msgid "boot"
-msgstr ""
+msgstr "start"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:42
 msgid "Sit back while the system boots up."
@@ -100,7 +100,7 @@ msgstr "Luta dig tillbaka medan systemet startar upp."
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:0
 msgid "boot select"
-msgstr ""
+msgstr "uppstartsval"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:48
 msgid "Try the many applications from the :menuselection:`Geospatial` menu."
@@ -115,10 +115,11 @@ msgid ""
 "Getting started with Lubuntu and the LXQt desktop (which is used by "
 "OSGeoLive):"
 msgstr ""
+"Att komma igång med Lubuntu och LXQt-skrivbordet (som används av OSGeoLive):"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:54
 msgid "https://lubuntu.me/ and https://lxqt-project.org/"
-msgstr ""
+msgstr "https://lubuntu.me/ och https://lxqt-project.org/"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:56
 msgid "Getting started with the Ubuntu operating system:"
@@ -130,6 +131,8 @@ msgid ""
 "<file:///usr/local/share/doc/Getting_Started_with_Ubuntu_13.10.pdf>`_ and "
 "`extended online help <https://help.ubuntu.com>`_"
 msgstr ""
+"`lokal e-bok <file://usr/local/share/doc/Getting_Started_with_Ubuntu_13.10."
+"pdf>`_ och `utökad onlinehjälp <https://help.ubuntu.com>`_"
 
 #: ../../build/doc/quickstart/osgeolive_quickstart.rst:58
 msgid ":doc:`virtualization_quickstart`"
@@ -153,8 +156,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

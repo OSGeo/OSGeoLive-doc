@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "pgrouting_overview/sv/>\n"
 "Language: sv\n"
@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../../build/doc/overview/pgrouting_overview.rst:19
 msgid "pgRouting"
-msgstr ""
+msgstr "pgRouting"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:22
 msgid "GIS Tools"
-msgstr ""
+msgstr "GIS-verktyg"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:24
 msgid ""
@@ -36,10 +36,13 @@ msgid ""
 "<https://www.postgresql.org>`__ geospatial database to provide geospatial "
 "routing and other network analysis functionality."
 msgstr ""
+"pgRouting utökar :doc:`postgis_overview`/`PostgreSQL <https://www.postgresql."
+"org>`__ geospatial databas för att tillhandahålla geospatial routing och "
+"annan nätverksanalysfunktionalitet."
 
 #: ../../build/doc/overview/pgrouting_overview.rst:28
 msgid "Advantages of the database routing approach are:"
-msgstr ""
+msgstr "Fördelar med databasroutingmetoden är följande:"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:30
 msgid ""
@@ -53,22 +56,28 @@ msgid ""
 "Data changes can be reflected instantaneously through the routing engine. "
 "There is no need for precalculation."
 msgstr ""
+"Dataförändringar kan återspeglas omedelbart genom routningsmotorn. Det finns "
+"inget behov av förkalkylering."
 
 #: ../../build/doc/overview/pgrouting_overview.rst:35
 msgid ""
 "The \"cost\" parameter can be dynamically calculated through SQL and its "
 "value can come from multiple fields or tables."
 msgstr ""
+"Parametern \"cost\" kan beräknas dynamiskt genom SQL och dess värde kan "
+"komma från flera fält eller tabeller."
 
 #: ../../build/doc/overview/pgrouting_overview.rst:38
 msgid ""
 "pgRouting is available under the GPLv2+ license and is supported by a "
 "growing community of individuals, businesses and organizations."
 msgstr ""
+"pgRouting är tillgängligt under GPLv2+-licensen och stöds av en växande "
+"grupp av individer, företag och organisationer."
 
 #: ../../build/doc/overview/pgrouting_overview.rstNone
 msgid "pgrouting screenshot"
-msgstr ""
+msgstr "skärmdump av pgrouting"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:48
 msgid "Core Features"
@@ -76,42 +85,44 @@ msgstr "Kärnfunktioner"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:50
 msgid "pgRouting provides functions for:"
-msgstr ""
+msgstr "pgRouting tillhandahåller funktioner för:"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:52
 msgid ""
 "All Pairs Shortest Path * Johnson’s Algorithm * Floyd-Warshall Algorithm"
 msgstr ""
+"Kortaste vägen för alla par * Johnsons algoritm * Floyd-Warshalls algoritm"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:55
 msgid "Shortest Path * A* algorithm * Dijkstra algorithm"
-msgstr ""
+msgstr "Kortaste vägen * A*-algoritm * Dijkstra-algoritm"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:58
 msgid "Bi-directional Shortest Path * A* algorithm * Dijkstra algorithm"
-msgstr ""
+msgstr "Dubbelriktad kortaste väg * A*-algoritm * Dijkstra-algoritm"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:61
 msgid "Driving Distance"
-msgstr ""
+msgstr "Körsträcka"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:62
 msgid "K-Shortest Path * Yen's algorithm"
-msgstr ""
+msgstr "K-kortaste vägen * Yens algoritm"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:64
 msgid "Traveling Sales Person"
-msgstr ""
+msgstr "Resande säljare"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:65
 msgid "And many more"
-msgstr ""
+msgstr "Och många fler"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:67
 msgid ""
 "Learn more about pgRouting in the `documentation "
 "<https://docs.pgrouting.org>`__."
 msgstr ""
+"Läs mer om pgRouting i `dokumentationen <https://docs.pgrouting.org>`__."
 
 #: ../../build/doc/overview/pgrouting_overview.rst:71
 msgid "Details"
@@ -119,7 +130,7 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:73
 msgid "**Website:** https://pgrouting.org/"
-msgstr ""
+msgstr "**Webbplats:** https://pgrouting.org/"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:75
 msgid "**Licence:** GNU General Public License (GPL) version 2"
@@ -127,19 +138,19 @@ msgstr "* * Licens: * * GNU General Public License (GPL) version 2"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:77
 msgid "**Software Version:** |version-pgrouting|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-pgrouting|"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:79
 msgid "**Supported Platforms:** Linux, Windows, Mac"
-msgstr ""
+msgstr "**Plattformar som stöds:** Linux, Windows, Mac"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:81
 msgid "**API Interfaces:** SQL"
-msgstr ""
+msgstr "**API-gränssnitt:** SQL"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:83
 msgid "**Commercial Support:** https://pgrouting.org/support.html"
-msgstr ""
+msgstr "**Kommersiellt stöd:** https://pgrouting.org/support.html"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:89
 msgid "Quickstart"
@@ -147,7 +158,7 @@ msgstr "Snabbstart"
 
 #: ../../build/doc/overview/pgrouting_overview.rst:91
 msgid ":doc:`Quickstart documentation <../quickstart/pgrouting_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snabbstartsdokumentation <../quickstart/pgrouting_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -159,8 +170,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

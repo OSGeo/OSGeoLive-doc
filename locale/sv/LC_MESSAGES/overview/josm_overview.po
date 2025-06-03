@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "josm_overview/sv/>\n"
 "Language: sv\n"
@@ -24,17 +24,19 @@ msgstr ""
 
 #: ../../build/doc/overview/josm_overview.rst:15
 msgid "JOSM"
-msgstr ""
+msgstr "JOSM"
 
 #: ../../build/doc/overview/josm_overview.rst:18
 msgid "Desktop Editor for OpenStreetMap data"
-msgstr ""
+msgstr "Skrivbordseditor för OpenStreetMap-data"
 
 #: ../../build/doc/overview/josm_overview.rst:20
 msgid ""
 "JOSM is a feature rich, extensible, offline desktop editor for OpenStreetMap"
 " (OSM) data, written in Java."
 msgstr ""
+"JOSM är en funktionsrik, utbyggbar, offline desktop editor för OpenStreetMap "
+"(OSM) data, skriven i Java."
 
 #: ../../build/doc/overview/josm_overview.rst:22
 msgid ""
@@ -44,16 +46,23 @@ msgid ""
 "OSM database. GPX tracks, are usually downloaded in advance from a GPS "
 "receiver or from other sources."
 msgstr ""
+"Det stöder inläsning av fristående GPX-spår och GPX-spårdata samt redigering "
+"av befintliga noder (punkter), vägar (linjer), metadatataggar (namn/"
+"värdeinformation) och relationer (ordnad sekvens av punkter och linjer) från "
+"OSM-databasen. GPX-spår laddas vanligtvis ner i förväg från en GPS-mottagare "
+"eller från andra källor."
 
 #: ../../build/doc/overview/josm_overview.rst:25
 msgid ""
 "A number of specialised plugins have been written for JOSM, which are "
 "available for download and install."
 msgstr ""
+"Ett antal specialiserade plugins har skrivits för JOSM, som finns "
+"tillgängliga för nedladdning och installation."
 
 #: ../../build/doc/overview/josm_overview.rstNone
 msgid "josm screenshot"
-msgstr ""
+msgstr "josm skärmdump"
 
 #: ../../build/doc/overview/josm_overview.rst:34
 msgid "Core Features"
@@ -61,77 +70,86 @@ msgstr "Kärnfunktioner"
 
 #: ../../build/doc/overview/josm_overview.rst:36
 msgid "Common GIS Desktop Interface tools:"
-msgstr ""
+msgstr "Vanliga GIS Desktop Interface-verktyg:"
 
 #: ../../build/doc/overview/josm_overview.rst:38
 msgid ""
 "Toolbar customization, View control (zoom, pan. etc), styles, icons and "
 "layers management."
 msgstr ""
+"Anpassning av verktygsfält, vykontroll (zoom, panorering etc.), stilar, "
+"ikoner och lagerhantering."
 
 #: ../../build/doc/overview/josm_overview.rst:40
 msgid "Download and upload OSM vector data."
-msgstr ""
+msgstr "Ladda ner och ladda upp OSM-vektordata."
 
 #: ../../build/doc/overview/josm_overview.rst:42
 msgid "Open local data:"
-msgstr ""
+msgstr "Öppna lokala data:"
 
 #: ../../build/doc/overview/josm_overview.rst:44
 msgid "NMEA-0183 files: .nmea, .nme, .nma, .log, .txt"
-msgstr ""
+msgstr "NMEA-0183-filer: .nmea, .nme, .nma, .log, .txt"
 
 #: ../../build/doc/overview/josm_overview.rst:45
 msgid "OSM files: .osm, .xlm, .osmbz2, .osmbz"
-msgstr ""
+msgstr "OSM-filer: .osm, .xlm, .osmbz2, .osmbz"
 
 #: ../../build/doc/overview/josm_overview.rst:46
 msgid "OSM change file: .osc, .osc.bz2, .osc.bz, .osc.gz"
-msgstr ""
+msgstr "OSM-ändringsfil: .osc, .osc.bz2, .osc.bz, .osc.gz"
 
 #: ../../build/doc/overview/josm_overview.rst:47
 msgid "images (.jpg)"
-msgstr ""
+msgstr "bilder (.jpg)"
 
 #: ../../build/doc/overview/josm_overview.rst:49
 msgid "Imagery:"
-msgstr ""
+msgstr "Bildspråk:"
 
 #: ../../build/doc/overview/josm_overview.rst:51
 msgid ""
 "Visualize basemaps from OSM, Bingsat, Lansat, MapBox satellite, MapQuest "
 "Open Aerial or any other WMS sources."
 msgstr ""
+"Visualisera baskartor från OSM, Bingsat, Lansat, MapBox satellit, MapQuest "
+"Open Aerial eller andra WMS-källor."
 
 #: ../../build/doc/overview/josm_overview.rst:53
 msgid "Editing Tools:"
-msgstr ""
+msgstr "Redigeringsverktyg:"
 
 #: ../../build/doc/overview/josm_overview.rst:55
 msgid ""
 "Nodes: merge, join, unglue, distribute, align in circle, align in line, join"
 " node to way, and more."
 msgstr ""
+"Noder: slå samman, sammanfoga, lossa, distribuera, rikta in i cirkel, rikta "
+"in i linje, sammanfoga nod till väg med mera."
 
 #: ../../build/doc/overview/josm_overview.rst:56
 msgid "Ways: split, combine, reverse, simplify, unglue ways, and more."
-msgstr ""
+msgstr "Sätt: dela, kombinera, vända, förenkla, limma fast sätt och mycket mer."
 
 #: ../../build/doc/overview/josm_overview.rst:57
 msgid "Areas: join overlapping areas, create multi-polygon, and more."
 msgstr ""
+"Areas: sammanfoga överlappande områden, skapa multipolygon och mycket mer."
 
 #: ../../build/doc/overview/josm_overview.rst:59
 msgid "Audio mapping: survey recording management."
-msgstr ""
+msgstr "Ljudkartläggning: hantering av inspelning av undersökningar."
 
 #: ../../build/doc/overview/josm_overview.rst:61
 msgid "Photo mapping: survey pictures management."
-msgstr ""
+msgstr "Fotokartläggning: hantering av kartläggningsbilder."
 
 #: ../../build/doc/overview/josm_overview.rst:63
 msgid "Plugins: A list of specialized plugins are available for download."
 msgstr ""
+"Insticksprogram: En lista över specialiserade plugins finns tillgängliga för "
+"nedladdning."
 
 #: ../../build/doc/overview/josm_overview.rst:67
 msgid "Implemented Standards"
@@ -143,6 +161,8 @@ msgid ""
 "<https://wiki.openstreetmap.org/wiki/API_v0.6>`_ to communicate with OSM "
 "database."
 msgstr ""
+"JOSM visar WMS-lager, men använder `OSM API <https://wiki.openstreetmap.org/"
+"wiki/API_v0.6>`_ för att kommunicera med OSM-databasen."
 
 #: ../../build/doc/overview/josm_overview.rst:73
 msgid "Details"
@@ -150,17 +170,19 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/josm_overview.rst:75
 msgid "**Website:** https://josm.openstreetmap.de"
-msgstr ""
+msgstr "**Webbplats:** https://josm.openstreetmap.de"
 
 #: ../../build/doc/overview/josm_overview.rst:77
 msgid ""
 "**Licence:** GNU General Public License (GPL) version 2. Note: JOSM plugins "
 "may use other licences."
 msgstr ""
+"**Licens:** GNU General Public License (GPL) version 2. Obs: JOSM-plugins "
+"kan använda andra licenser."
 
 #: ../../build/doc/overview/josm_overview.rst:79
 msgid "**Software Version:** r11427"
-msgstr ""
+msgstr "**Programvaruversion:** r11427"
 
 #: ../../build/doc/overview/josm_overview.rst:81
 msgid "**Supported Platforms:** Windows, Linux, Mac"
@@ -168,7 +190,7 @@ msgstr "**Plattformar som stöds:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/josm_overview.rst:83
 msgid "**API Interfaces:** Java"
-msgstr ""
+msgstr "**API-gränssnitt:** Java"
 
 #: ../../build/doc/overview/josm_overview.rst:89
 msgid "Quickstart"
@@ -176,7 +198,7 @@ msgstr "Snabbstart"
 
 #: ../../build/doc/overview/josm_overview.rst:91
 msgid ":doc:`Quickstart documentation <../quickstart/josm_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snabbstartsdokumentation <../quickstart/josm_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -188,8 +210,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

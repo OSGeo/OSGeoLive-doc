@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "pgrouting_quickstart/sv/>\n"
 "Language: sv\n"
@@ -21,168 +21,203 @@ msgstr ""
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:23
 msgid "pgRouting Quickstart"
-msgstr ""
+msgstr "snabbstart för pgRouting"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:25
 msgid "pgRouting is an extension that adds routing and other network analysis functionality to :doc:`../overview/postgis_overview`/`PostgreSQL <https://www.postgresql.org>`_ databases."
 msgstr ""
+"pgRouting är ett tillägg som lägger till routing och annan "
+"nätverksanalysfunktionalitet till :doc:`../overview/postgis_overview`/`"
+"PostgreSQL <https://www.postgresql.org>`_ databaser."
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:29
 msgid "Contents"
-msgstr ""
+msgstr "Innehåll"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:32
 msgid "Enabling pgRouting in a database"
-msgstr ""
+msgstr "Aktivering av pgRouting i en databas"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:33
 msgid "In this example we will create a database called `city_routing` and enable pgRouting in the database."
 msgstr ""
+"I det här exemplet skapar vi en databas med namnet `city_routing` och "
+"aktiverar pgRouting i databasen."
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:36
 msgid "Open a :menuselection:`System Tools --> QTerminal` window and execute the commandline tool packaged with PostgreSQL `psql`"
 msgstr ""
+"Öppna ett fönster med :menuselection:`Systemverktyg --> QTerminal` och kör "
+"kommandoradsverktyget förpackat med PostgreSQL `psql`"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:43
 msgid "At the `psql` prompt type:"
-msgstr ""
+msgstr "Skriv vid prompten `psql`:"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:52
 msgid "You can verify your installation by running this:"
-msgstr ""
+msgstr "Du kan verifiera din installation genom att köra detta:"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:65
 msgid "Your version should be 3.1.0 or higher"
-msgstr ""
+msgstr "Din version bör vara 3.1.0 eller högre"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:67
 msgid "Exit the database"
-msgstr ""
+msgstr "Avsluta databasen"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:75
 msgid "Loading OSM data with osm2pgrouting"
-msgstr ""
+msgstr "Laddning av OSM-data med osm2pgrouting"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:77
 msgid "osm2pgrouting is a command-line tool for loading `.osm` files into the database with a pgRouting compatible format."
 msgstr ""
+"osm2pgrouting är ett kommandoradsverktyg för att ladda `.osm`-filer till "
+"databasen med ett pgRouting-kompatibelt format."
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:80
 msgid "Check the installed version"
-msgstr ""
+msgstr "Kontrollera den installerade versionen"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:86
 msgid "Output shows"
-msgstr ""
+msgstr "Utgången visar"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:92
 msgid "Load the data from osm file:"
-msgstr ""
+msgstr "Ladda data från osm-filen:"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:108
 msgid "Output should be something like:"
-msgstr ""
+msgstr "Utdata bör vara något liknande:"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:177
 msgid "Check the imported data"
-msgstr ""
+msgstr "Kontrollera de importerade uppgifterna"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:179
 msgid "Connect to the `city_routing` database"
-msgstr ""
+msgstr "Anslut till databasen `city_routing`"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:185
 msgid "The :command:`\\\\d` command will list all available tables and sequences"
 msgstr ""
+"Med kommandot :command:`\\d\\d` visas en lista över alla tillgängliga "
+"tabeller och sekvenser"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:207
 msgid "osm2pgrouting loads the OSM identifiers `osm_id` and it also generates a unique identifier for all the data: `id` on the vertices, `gid` on the edges."
 msgstr ""
+"osm2pgrouting laddar OSM-identifierarna `osm_id` och genererar också en unik "
+"identifierare för alla data: `id` på topparna, `gid` på kanterna."
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:216
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:275
 msgid "The results are:"
-msgstr ""
+msgstr "Resultatet är..:"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:228
 msgid "Inner Query"
-msgstr ""
+msgstr "Inre fråga"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:230
 msgid "Most of the pgRouting functions have a parameter that is an SQL statement, it is called **inner query**"
 msgstr ""
+"De flesta av pgRouting-funktionerna har en parameter som är en SQL-sats, den "
+"kallas **inner query**"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:233
 msgid "The inner SQL statement must always have field names `id`, `source`, `target`, and `cost` having `reverse_cost` as optional."
 msgstr ""
+"Den inre SQL-satsen måste alltid ha fältnamnen `id`, `source`, `target` och "
+"`cost` med `reverse_cost` som tillval."
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:236
 msgid "Inner query that use `gid` as identifier of the segments"
-msgstr ""
+msgstr "Inre fråga som använder `gid` som identifierare av segmenten"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:245
 msgid "Inner query that use `gid` as identifier of the segments and lenght as `cost` without the optional `reverse_cost`"
 msgstr ""
+"Inre fråga som använder `gid` som identifierare av segmenten och längd som "
+"`kostnad` utan den valfria `reverse_cost`"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:257
 msgid "pgr_Dijkstra"
-msgstr ""
+msgstr "pgr_Dijkstra"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:259
 msgid "Run the Dijkstra shortest path function based on the time in seconds to traverse a segment on an undirected graph, using `id` as the identifier of a vertex"
 msgstr ""
+"Kör Dijkstras funktion för kortaste väg baserat på tiden i sekunder för att "
+"korsa ett segment i en oriktad graf, med `id` som identifierare för en "
+"toppunkt"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:298
 msgid "A query that use the OSM identifier becomes:"
-msgstr ""
+msgstr "En fråga som använder OSM-identifieraren blir:"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:311
 msgid "Because the query is using fields `source_osm` and `target_osm` the query aliases them to have the required names `source` and `target`."
 msgstr ""
+"Eftersom frågan använder fälten `source_osm` och `target_osm` ger frågan dem "
+"alias med de obligatoriska namnen `source` och `target`."
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:314
 msgid "Output is:"
-msgstr ""
+msgstr "Utgången är:"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:336
 msgid "The costs are the same as in the first query"
-msgstr ""
+msgstr "Kostnaderna är desamma som i den första frågan"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:339
 msgid "A query to get the geometry of the path"
-msgstr ""
+msgstr "En fråga för att få fram banans geometri"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:340
 msgid "The results of `pgr_dijkstra` need to be joined with the table ways."
-msgstr ""
+msgstr "Resultaten av `pgr_dijkstra` måste sammanfogas med tabellvägarna."
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:356
 msgid "The results, for visual purposes are truncated here, the geometries are much longer than shown"
 msgstr ""
+"Resultaten, för visuella ändamål, är avkortade här, geometrierna är mycket "
+"längre än vad som visas"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:379
 msgid "With :command:`\\\\q` command leave the PostgreSQL shell."
-msgstr ""
+msgstr "Med :command:`\\\\q` kommandot lämnar PostgreSQL-skalet."
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:383
 msgid "What next?"
-msgstr ""
+msgstr "Hur vill du gå vidare?"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:385
 msgid "**pgRouting Website** - Visit the project website https://pgrouting.org to learn more about pgRouting."
 msgstr ""
+"**pgRouting-webbplats** - Besök projektets webbplats https://pgrouting.org "
+"för att läsa mer om pgRouting."
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:386
 msgid "**pgRouting Documentation** - Find the most recent documentation in https://docs.pgrouting.org."
 msgstr ""
+"**pgRouting Documentation** - Hitta den senaste dokumentationen på "
+"https://docs.pgrouting.org."
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:387
 msgid "**pgRouting Workshop** - The workshop `\"FOSS4G routing with pgRouting tools and OpenStreetMap road data\"` is available in: https://workshop.pgrouting.org."
 msgstr ""
+"**pgRouting Workshop** - Workshopen `\"FOSS4G routing with pgRouting tools "
+"and OpenStreetMap road data\"` finns tillgänglig på: https://workshop."
+"pgrouting.org."
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:388
 msgid "**osm2pgRouting loading data** - https://github.com/pgRouting/osm2pgrouting/wiki/Documentation-for-osm2pgrouting-v2.3"
 msgstr ""
+"**osm2pgRouting laddar data** - https://github.com/pgRouting/osm2pgrouting/"
+"wiki/Documentation-for-osm2pgrouting-v2.3"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -194,9 +229,9 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

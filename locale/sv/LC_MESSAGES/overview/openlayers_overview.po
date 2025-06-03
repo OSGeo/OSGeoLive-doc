@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "openlayers_overview/sv/>\n"
 "Language: sv\n"
@@ -24,11 +24,13 @@ msgstr ""
 
 #: ../../build/doc/overview/openlayers_overview.rst:21
 msgid "OpenLayers"
-msgstr ""
+msgstr "OpenLayers"
 
 #: ../../build/doc/overview/openlayers_overview.rst:24
 msgid "A high-performance, feature-packed library for all your mapping needs"
 msgstr ""
+"Ett högpresterande bibliotek med många funktioner för alla dina "
+"kartläggningsbehov"
 
 #: ../../build/doc/overview/openlayers_overview.rst:26
 msgid ""
@@ -38,10 +40,15 @@ msgid ""
 "of all kinds. It is completely free, Open Source JavaScript, released under "
 "the 2-clause BSD License (also known as the FreeBSD)."
 msgstr ""
+"OpenLayers gör det enkelt att lägga in en dynamisk karta på en webbsida. Den "
+"kan visa kartplattor, vektordata och markörer som laddats från valfri källa. "
+"OpenLayers har utvecklats för att främja användningen av alla typer av "
+"geografisk information. Det är helt gratis, Open Source JavaScript, som "
+"släpps under 2-clause BSD License (även känd som FreeBSD)."
 
 #: ../../build/doc/overview/openlayers_overview.rstNone
 msgid "openlayers screenshot"
-msgstr ""
+msgstr "openlayers skärmdump"
 
 #: ../../build/doc/overview/openlayers_overview.rst:35
 msgid "Core Features"
@@ -49,103 +56,110 @@ msgstr "Kärnfunktioner"
 
 #: ../../build/doc/overview/openlayers_overview.rst:37
 msgid "Layers"
-msgstr ""
+msgstr "Sikt"
 
 #: ../../build/doc/overview/openlayers_overview.rst:39
 msgid ""
 "Raster: WMS/WMTS, OpenStreetMap, Stamen, Bing, other XYZ sources, static "
 "images, etc."
 msgstr ""
+"Raster: WMS/WMTS, OpenStreetMap, Stamen, Bing, andra XYZ-källor, statiska "
+"bilder etc."
 
 #: ../../build/doc/overview/openlayers_overview.rst:40
 msgid ""
 "Vector: WFS, KML, GeoJSON, TopoJSON, GPX, GML, and MapBox vector tiles."
 msgstr ""
+"Vektorer: WFS, KML, GeoJSON, TopoJSON, GPX, GML och MapBox vektorplattor."
 
 #: ../../build/doc/overview/openlayers_overview.rst:41
 msgid "Heatmaps."
-msgstr ""
+msgstr "Värmekartor."
 
 #: ../../build/doc/overview/openlayers_overview.rst:42
 msgid "Render vector layers as raster."
-msgstr ""
+msgstr "Rendera vektorlager som raster."
 
 #: ../../build/doc/overview/openlayers_overview.rst:44
 msgid "Controls and Interactions"
-msgstr ""
+msgstr "Kontroller och interaktioner"
 
 #: ../../build/doc/overview/openlayers_overview.rst:46
 msgid ""
 "Overview map, zoom slider, zoom in/out buttons, scale line, rotate map, etc."
 msgstr ""
+"Översiktskarta, zoomreglage, zoom in/ut-knappar, skalningslinje, rotera "
+"kartan etc."
 
 #: ../../build/doc/overview/openlayers_overview.rst:47
 msgid "Map pan, zoom and rotation, feature selection, modification, etc."
 msgstr ""
+"Panorering, zoomning och rotation av kartan, val och ändring av funktioner "
+"etc."
 
 #: ../../build/doc/overview/openlayers_overview.rst:49
 msgid "Styling and customization"
-msgstr ""
+msgstr "Styling och anpassning"
 
 #: ../../build/doc/overview/openlayers_overview.rst:51
 msgid "Powerful styling of features: points, lines, polygons and icons."
-msgstr ""
+msgstr "Kraftfull styling av funktioner: punkter, linjer, polygoner och ikoner."
 
 #: ../../build/doc/overview/openlayers_overview.rst:52
 msgid "Customize controls look and feel using CSS."
-msgstr ""
+msgstr "Anpassa kontrollernas utseende och känsla med hjälp av CSS."
 
 #: ../../build/doc/overview/openlayers_overview.rst:54
 msgid "Overlays"
-msgstr ""
+msgstr "Överlägg"
 
 #: ../../build/doc/overview/openlayers_overview.rst:56
 msgid "Render any DOM element at any place on the map."
-msgstr ""
+msgstr "Rendera valfritt DOM-element på valfri plats på kartan."
 
 #: ../../build/doc/overview/openlayers_overview.rst:57
 msgid "Great flexibility to create tooltips and markers."
-msgstr ""
+msgstr "Stor flexibilitet när det gäller att skapa verktygstips och markörer."
 
 #: ../../build/doc/overview/openlayers_overview.rst:58
 msgid "Mix the power of HTML5 capabilities with a mapping application."
-msgstr ""
+msgstr "Kombinera kraften i HTML5-funktionerna med en kartapplikation."
 
 #: ../../build/doc/overview/openlayers_overview.rst:60
 msgid "Events"
-msgstr ""
+msgstr "Evenemang"
 
 #: ../../build/doc/overview/openlayers_overview.rst:62
 msgid "Attach listener functions to map events."
-msgstr ""
+msgstr "Koppla lyssnarfunktioner till karthändelser."
 
 #: ../../build/doc/overview/openlayers_overview.rst:63
 msgid "Create your custom controls or interactions."
-msgstr ""
+msgstr "Skapa dina egna kontroller eller interaktioner."
 
 #: ../../build/doc/overview/openlayers_overview.rst:65
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Diverse"
 
 #: ../../build/doc/overview/openlayers_overview.rst:67
 msgid "Mobile browser support."
-msgstr ""
+msgstr "Stöd för mobila webbläsare."
 
 #: ../../build/doc/overview/openlayers_overview.rst:68
 msgid "Raster reprojection."
-msgstr ""
+msgstr "Reprojektion av raster."
 
 #: ../../build/doc/overview/openlayers_overview.rst:69
 msgid "Light-weight library. Build customized packages to reduce size."
-msgstr ""
+msgstr "Lättviktigt bibliotek. Bygg anpassade paket för att minska storleken."
 
 #: ../../build/doc/overview/openlayers_overview.rst:70
 msgid "Render maps using different technologies: Canvas, WebGL."
-msgstr ""
+msgstr "Rendera kartor med hjälp av olika tekniker: Canvas, WebGL."
 
 #: ../../build/doc/overview/openlayers_overview.rst:71
 msgid "Raster analysis (change hue/saturation)."
-msgstr ""
+msgstr "Rasteranalys (ändra nyans/mättnad)."
 
 #: ../../build/doc/overview/openlayers_overview.rst:74
 msgid "Details"
@@ -153,25 +167,28 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/openlayers_overview.rst:76
 msgid "**Website:** https://openlayers.org/"
-msgstr ""
+msgstr "**Webbplats:** https://openlayers.org/"
 
 #: ../../build/doc/overview/openlayers_overview.rst:78
 msgid "**License:** 2-clause BSD License (aka FreeBSD License)"
-msgstr ""
+msgstr "**Licens:** BSD-licens med 2 klausuler (även kallad FreeBSD-licens)"
 
 #: ../../build/doc/overview/openlayers_overview.rst:80
 msgid "**Software Version:** |version-openlayers|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-openlayers|"
 
 #: ../../build/doc/overview/openlayers_overview.rst:82
 msgid "**API Interface:** JavaScript"
-msgstr ""
+msgstr "**API-gränssnitt:** JavaScript"
 
 #: ../../build/doc/overview/openlayers_overview.rst:84
 msgid ""
 "**Support:** https://stackoverflow.com/questions/tagged/openlayers (user) "
 "and https://groups.google.com/forum/#!forum/openlayers-dev (developer)"
 msgstr ""
+"**Support:** https://stackoverflow.com/questions/tagged/openlayers "
+"(användare) och https://groups.google.com/forum/#!forum/openlayers-dev "
+"(utvecklare)"
 
 #: ../../build/doc/overview/openlayers_overview.rst:90
 msgid "Quickstart"
@@ -179,7 +196,7 @@ msgstr "Snabbstart"
 
 #: ../../build/doc/overview/openlayers_overview.rst:92
 msgid ":doc:`Quickstart documentation <../quickstart/openlayers_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snabbstartsdokumentation <../quickstart/openlayers_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -191,8 +208,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

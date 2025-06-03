@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:44-0600\n"
-"PO-Revision-Date: 2024-10-14 13:51+0000\n"
+"PO-Revision-Date: 2025-01-05 16:26+0000\n"
 "Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
 "Language-Team: Portuguese <https://weblate.osgeo.org/projects/osgeolive/"
 "presentation/pt/>\n"
@@ -663,7 +663,7 @@ msgstr ""
 #: ../../build/presentation/revealjs/presentation.rst:488
 #: ../../build/presentation/revealjs/presentation.rst:653
 msgid "EOxServer"
-msgstr ""
+msgstr "EOxServer"
 
 #: ../../build/presentation/revealjs/presentation.rst:488
 #: ../../build/presentation/revealjs/presentation.rst:665
@@ -719,7 +719,7 @@ msgstr ""
 #: ../../build/presentation/revealjs/presentation.rst:490
 #: ../../build/presentation/revealjs/presentation.rst:705
 msgid "Re3gistry"
-msgstr ""
+msgstr "Re3gistry"
 
 #: ../../build/presentation/revealjs/presentation.rst:490
 #: ../../build/presentation/revealjs/presentation.rst:719

@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-21 20:28+0000\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "deegree_quickstart/sv/>\n"
 "Language: sv\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:23
 msgid "deegree Quickstart"
-msgstr ""
+msgstr "deegree Snabbstart"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:25
 msgid "*deegree* is open source software for spatial data infrastructures and the geospatial web. *deegree* is a Java application for serving maps (and vector data) for other clients to show."
@@ -29,7 +29,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:28
 msgid "Available components are:"
-msgstr ""
+msgstr "Tillgängliga komponenter är:"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:30
 msgid "Web-Services: WFS, WMS, WMTS, CSW, WPS"
@@ -50,6 +50,7 @@ msgstr ""
 #: ../../build/doc/quickstart/deegree_quickstart.rst:42
 msgid "Choose |menu_deegree-Start|. The application will take a few moments to start up."
 msgstr ""
+"Välj |menu_deegree-Start|. Det tar en liten stund innan programmet startar."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:45
 msgid "Firefox opens the *deegree 3 services console*. (You can also open this manually by pointing your browser to http://localhost:8033). This is a simple web-based GUI for editing the configuration files of the *deegree workspace*."
@@ -57,7 +58,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:49
 msgid "Load a workspace"
-msgstr ""
+msgstr "Ladda en arbetsyta"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:51
 msgid "*deegree 3* uses configurations conformant to all *deegree 3* based webservices. Those configurations are stored in the workspace."
@@ -74,6 +75,11 @@ msgstr ""
 #: ../../build/doc/quickstart/deegree_quickstart.rst:57
 msgid "The demo workspace contains a web mapping setup based on data from the state of Utah. It contains a WMS configuration (1.3.0 and 1.1.1) consisting of vector layers and a variety of render styles. Additionally, a WFS (2.0.0, 1.1.0 and 1.0.0) is configured that allows to access the raw vector data, backed by shapefiles, in GML format."
 msgstr ""
+"Demoarbetsytan innehåller en webbkartläggningskonfiguration baserad på data "
+"från delstaten Utah. Den innehåller en WMS-konfiguration (1.3.0 och 1.1.1) "
+"som består av vektorlager och en mängd olika renderingsstilar. Dessutom är "
+"en WFS (2.0.0, 1.1.0 och 1.0.0) konfigurerad som gör det möjligt att komma "
+"åt rådata i vektorformat, med stöd av shapefiler, i GML-format."
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:62
 msgid "For additional configuration examples including raster data, you can import the workspace *deegree-workspace-utah* through the workspace management (internet connection is required)."
@@ -97,7 +103,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:78
 msgid "What next?"
-msgstr ""
+msgstr "Hur vill du gå vidare?"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:80
 msgid "This was just a short introduction to the features of deegree 3. There is more information in the demo installations and on the deegree website."
@@ -105,7 +111,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:83
 msgid "deegree website - Available here: https://www.deegree.org"
-msgstr ""
+msgstr "deegree webbplats - Tillgänglig här: https://www.deegree.org"
 
 #: ../../build/doc/quickstart/deegree_quickstart.rst:85
 msgid "deegree documentation - Available here: https://www.deegree.org/documentation/"
@@ -125,9 +131,9 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

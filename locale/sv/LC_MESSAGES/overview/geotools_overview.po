@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "geotools_overview/sv/>\n"
 "Language: sv\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../build/doc/overview/geotools_overview.rst:17
 msgid "GeoTools"
-msgstr ""
+msgstr "GeoTools"
 
 #: ../../build/doc/overview/geotools_overview.rst:19
 msgid ""
@@ -32,6 +32,9 @@ msgid ""
 "compliant methods for manipulating geospatial data, and uses data structures"
 " based on Open Geospatial Consortium (OGC) specifications."
 msgstr ""
+"GeoTools är ett Java-bibliotek med öppen källkod (LGPL) som tillhandahåller "
+"standardkompatibla metoder för att manipulera geospatiala data och använder "
+"datastrukturer baserade på Open Geospatial Consortiums (OGC) specifikationer."
 
 #: ../../build/doc/overview/geotools_overview.rst:21
 msgid ""
@@ -44,7 +47,7 @@ msgstr ""
 
 #: ../../build/doc/overview/geotools_overview.rstNone
 msgid "geotools screenshot"
-msgstr ""
+msgstr "geotools skärmdump"
 
 #: ../../build/doc/overview/geotools_overview.rst:31
 msgid "Core Features"
@@ -53,86 +56,105 @@ msgstr "Kärnfunktioner"
 #: ../../build/doc/overview/geotools_overview.rst:33
 msgid "Definition of interfaces for key spatial concepts and data structures"
 msgstr ""
+"Definition av gränssnitt för viktiga rumsliga begrepp och datastrukturer"
 
 #: ../../build/doc/overview/geotools_overview.rst:35
 msgid ""
 "Integrated Geometry support provided by `JTS Topology Suite (JTS) "
 "<https://sourceforge.net/projects/jts-topo-suite/>`_"
 msgstr ""
+"Integrerat geometristöd tillhandahålls av `JTS Topology Suite (JTS) "
+"<https://sourceforge.net/projects/jts-topo-suite/>`_"
 
 #: ../../build/doc/overview/geotools_overview.rst:36
 msgid "Attribute and spatial filters using OGC Filter Encoding specification"
 msgstr ""
+"Attribut- och spatiala filter med hjälp av OGC:s filterkodningsspecifikation"
 
 #: ../../build/doc/overview/geotools_overview.rst:38
 msgid ""
 "A clean data access API supporting feature access, transaction support and "
 "locking between threads"
 msgstr ""
+"Ett rent API för dataåtkomst med stöd för funktionsåtkomst, transaktionsstöd "
+"och låsning mellan trådar"
 
 #: ../../build/doc/overview/geotools_overview.rst:40
 msgid "Access GIS data in many file formats and spatial databases"
-msgstr ""
+msgstr "Få tillgång till GIS-data i många filformat och rumsliga databaser"
 
 #: ../../build/doc/overview/geotools_overview.rst:41
 msgid "Coordinate reference system and transformation support"
-msgstr ""
+msgstr "Samordna stöd för referenssystem och omvandling"
 
 #: ../../build/doc/overview/geotools_overview.rst:42
 msgid "Work with an extensive range of map projections"
-msgstr ""
+msgstr "Arbeta med ett omfattande utbud av kartprojektioner"
 
 #: ../../build/doc/overview/geotools_overview.rst:43
 msgid "filter and analyze data in terms of spatial and non-spatial attributes"
 msgstr ""
+"filtrera och analysera data med avseende på rumsliga och icke-rumsliga "
+"attribut"
 
 #: ../../build/doc/overview/geotools_overview.rst:45
 msgid ""
 "A stateless, low memory renderer, particularly useful in server-side "
 "environments."
 msgstr ""
+"En statlös renderare med lågt minne, särskilt användbar i servermiljöer."
 
 #: ../../build/doc/overview/geotools_overview.rst:47
 msgid "compose and display maps with complex styling"
-msgstr ""
+msgstr "komponera och visa kartor med komplex styling"
 
 #: ../../build/doc/overview/geotools_overview.rst:49
 msgid ""
 "Powerful *schema assisted* parsing technology using XML Schema to bind to "
 "GML content"
 msgstr ""
+"Kraftfull *schemastödd* parsningsteknik som använder XML Schema för att "
+"binda till GML-innehåll"
 
 #: ../../build/doc/overview/geotools_overview.rst:51
 msgid ""
 "The parsing / encoding technology is provided with bindings for many OGC "
 "standards including GML, Filter, KML, SLD, and SE."
 msgstr ""
+"Pars-/kodningstekniken har bindningar för många OGC-standarder, inklusive "
+"GML, Filter, KML, SLD och SE."
 
 #: ../../build/doc/overview/geotools_overview.rst:53
 msgid ""
 "GeoTools Plugins: open plug-in system allowing you to teach the library "
 "additional formats"
 msgstr ""
+"GeoTools Plugins: öppet plug-in-system som gör att du kan lära ut "
+"ytterligare format till biblioteket"
 
 #: ../../build/doc/overview/geotools_overview.rst:55
 msgid ""
 "Plug-ins for the ImageIO-EXT project allowing GeoTools to read additional "
 "raster formats from GDAL"
 msgstr ""
+"Plug-ins för ImageIO-EXT-projektet som gör det möjligt för GeoTools att läsa "
+"ytterligare rasterformat från GDAL"
 
 #: ../../build/doc/overview/geotools_overview.rst:57
 msgid "GeoTools Extensions"
-msgstr ""
+msgstr "GeoTools tillägg"
 
 #: ../../build/doc/overview/geotools_overview.rst:59
 msgid ""
 "Provide additional capabilities built using the spatial facilites of the "
 "core library."
 msgstr ""
+"Tillhandahåller ytterligare funktioner som bygger på de rumsliga "
+"funktionerna i kärnbiblioteket."
 
 #: ../../build/doc/overview/geotools_overview.rst:0
 msgid "Extensions built using the GeoTools library"
-msgstr ""
+msgstr "Tillägg som byggts med hjälp av GeoTools-biblioteket"
 
 #: ../../build/doc/overview/geotools_overview.rst:64
 msgid ""
@@ -140,16 +162,21 @@ msgid ""
 "path), validation, a web map server client, bindings for xml parsing and "
 "encoding and color brewer."
 msgstr ""
+"Tillägg ger stöd för grafer och nätverk (för att hitta den kortaste vägen), "
+"validering, en webbkartserverklient, bindningar för xml-parsning och kodning "
+"och färgbryggare."
 
 #: ../../build/doc/overview/geotools_overview.rst:66
 msgid "GeoTools Unsupported"
-msgstr ""
+msgstr "GeoTools stöds inte"
 
 #: ../../build/doc/overview/geotools_overview.rst:68
 msgid ""
 "GeoTools also operates as part of a wider community with a staging area used"
 " to foster new talent and promote experimentation."
 msgstr ""
+"GeoTools fungerar också som en del av ett större samhälle med ett område som "
+"används för att fostra nya talanger och främja experiment."
 
 #: ../../build/doc/overview/geotools_overview.rst:70
 msgid ""
@@ -157,42 +184,50 @@ msgid ""
 "and web process support, additional symbology, additional data formats, "
 "generation of grids and a couple of implementations of ISO Geometry."
 msgstr ""
+"Några höjdpunkter är stöd för swing (används i handledning för Geotools), "
+"stöd för swt, lokala processer och webbprocesser, ytterligare symbologi, "
+"ytterligare dataformat, generering av rutnät och ett par implementeringar av "
+"ISO Geometry."
 
 #: ../../build/doc/overview/geotools_overview.rst:73
 msgid "Supported Formats"
-msgstr ""
+msgstr "Format som stöds"
 
 #: ../../build/doc/overview/geotools_overview.rst:75
 msgid "raster formats and data access:"
-msgstr ""
+msgstr "rasterformat och dataåtkomst:"
 
 #: ../../build/doc/overview/geotools_overview.rst:77
 msgid ""
 "arcsde, arcgrid, geotiff, grassraster, gtopo30, image (JPEG, TIFF, GIF, "
 "PNG), imageio-ext-gdal, imagemoasaic, imagepyramid, JP2K, matlab."
 msgstr ""
+"arcsde, arcgrid, geotiff, grassraster, gtopo30, image (JPEG, TIFF, GIF, PNG)"
+", imageio-ext-gdal, imagemoasaic, imagepyramid, JP2K, matlab."
 
 #: ../../build/doc/overview/geotools_overview.rst:79
 msgid "Database \"jdbc-ng\" support:"
-msgstr ""
+msgstr "Stöd för databasen \"jdbc-ng\":"
 
 #: ../../build/doc/overview/geotools_overview.rst:81
 msgid "db2, h2, mysql, oracle, postgis, spatialite, sqlserver."
-msgstr ""
+msgstr "db2, h2, mysql, oracle, postgis, spatialite, sqlserver."
 
 #: ../../build/doc/overview/geotools_overview.rst:83
 msgid "Vector formats and data access:"
-msgstr ""
+msgstr "Vektorformat och dataåtkomst:"
 
 #: ../../build/doc/overview/geotools_overview.rst:85
 msgid ""
 "app-schema, arcsde, csv, dxf, edigeo, excel, geojson, org, property, "
 "shapefile, wfs."
 msgstr ""
+"app-schema, arcsde, csv, dxf, edigeo, excel, geojson, org, property, "
+"shapefile, wfs."
 
 #: ../../build/doc/overview/geotools_overview.rst:87
 msgid "XML Bindings:"
-msgstr ""
+msgstr "XML-bindningar:"
 
 #: ../../build/doc/overview/geotools_overview.rst:89
 msgid ""
@@ -200,12 +235,17 @@ msgid ""
 "simple types), fes, filter, gml2, gml3, kml, ows, sld, wcs, wfs, wms, wps, "
 "vpf."
 msgstr ""
+"Java-datastrukturer och bindningar tillhandahålls för följande: xsd-core ("
+"xml simple types), fes, filter, gml2, gml3, kml, ows, sld, wcs, wfs, wms, "
+"wps, vpf."
 
 #: ../../build/doc/overview/geotools_overview.rst:92
 msgid ""
 "Additional Geometry, Filter and Style parser/encoders available for DOM and "
 "SAX applications."
 msgstr ""
+"Ytterligare Geometry, Filter och Style parser/encoders tillgängliga för DOM- "
+"och SAX-applikationer."
 
 #: ../../build/doc/overview/geotools_overview.rst:95
 msgid "Implemented Standards"
@@ -213,35 +253,39 @@ msgstr "Implementerade standarder"
 
 #: ../../build/doc/overview/geotools_overview.rst:97
 msgid "Support of numerous Open Geospatial Consortium (OGC) standards:"
-msgstr ""
+msgstr "Stöd för många standarder från Open Geospatial Consortium (OGC):"
 
 #: ../../build/doc/overview/geotools_overview.rst:99
 msgid ""
 "OGC Style Layer Descriptor / Symbology Encoding data structures and "
 "rendering engine"
 msgstr ""
+"OGC Style Layer Descriptor / Symbology Kodning av datastrukturer och "
+"renderingsmotor"
 
 #: ../../build/doc/overview/geotools_overview.rst:100
 msgid "OGC General Feature Model including Simple Feature support"
-msgstr ""
+msgstr "OGC General Feature Model inklusive stöd för Simple Feature"
 
 #: ../../build/doc/overview/geotools_overview.rst:101
 msgid "OGC Grid Coverage representation of raster information"
-msgstr ""
+msgstr "OGC Grid Coverage representation av rasterinformation"
 
 #: ../../build/doc/overview/geotools_overview.rst:102
 msgid "OGC Filter and Common Constraint Language (CQL)"
-msgstr ""
+msgstr "OGC Filter och Common Constraint Language (CQL)"
 
 #: ../../build/doc/overview/geotools_overview.rst:103
 msgid ""
 "Clients for Web Feature Service (WFS), Web Map Service (WMS) and "
 "experimental support for Web Process Service (WPS)"
 msgstr ""
+"Klienter för Web Feature Service (WFS), Web Map Service (WMS) och "
+"experimentellt stöd för Web Process Service (WPS)"
 
 #: ../../build/doc/overview/geotools_overview.rst:104
 msgid "ISO 19107 Geometry"
-msgstr ""
+msgstr "ISO 19107 Geometri"
 
 #: ../../build/doc/overview/geotools_overview.rst:107
 msgid "Details"
@@ -249,19 +293,19 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/geotools_overview.rst:109
 msgid "**Website:** https://geotools.org/"
-msgstr ""
+msgstr "**Webbplats:** https://geotools.org/"
 
 #: ../../build/doc/overview/geotools_overview.rst:111
 msgid "**Licence:** LGPL"
-msgstr ""
+msgstr "**Licens:** LGPL"
 
 #: ../../build/doc/overview/geotools_overview.rst:113
 msgid "**Supported Platforms:** Cross Platform Java 8,9,10"
-msgstr ""
+msgstr "**Plattformar som stöds:** Plattformsoberoende Java 8,9,10"
 
 #: ../../build/doc/overview/geotools_overview.rst:115
 msgid "**API Interfaces:** Java"
-msgstr ""
+msgstr "**API-gränssnitt:** Java"
 
 #: ../../build/doc/overview/geotools_overview.rst:117
 msgid ""
@@ -289,8 +333,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

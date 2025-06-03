@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-21 20:28+0000\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "t-rex_quickstart/sv/>\n"
 "Language: sv\n"
@@ -21,111 +21,127 @@ msgstr ""
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:20
 msgid "t-rex Quickstart"
-msgstr ""
+msgstr "t-rex Snabbstart"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:22
 msgid "t-rex is a vector tile server specialized on publishing MVT tiles from your own data."
 msgstr ""
+"t-rex är en server för vektorplattor som är specialiserad på att publicera "
+"MVT-plattor från dina egna data."
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:24
 msgid "This Quick Start describes how to:"
-msgstr ""
+msgstr "Denna snabbstart beskriver hur du gör:"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:26
 msgid "generate vector tiles without configuration and inspect them with built-in viewers"
 msgstr ""
+"generera vektorplattor utan konfiguration och inspektera dem med inbyggda "
+"visare"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:27
 msgid "generate a tile cache"
-msgstr ""
+msgstr "generera en kakelcache"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:30
 msgid "Contents"
-msgstr ""
+msgstr "Innehåll"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:33
 msgid "Start T-Rex"
-msgstr ""
+msgstr "Starta T-Rex"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:35
 msgid "Choose |menu_t-rex|."
-msgstr ""
+msgstr "Välj |menu_t-rex|."
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:37
 msgid "This starts t-rex in zero-config mode connecting to PostGIS database `osm_local`. A browser window is opened showing the t-rex backend."
 msgstr ""
+"Detta startar t-rex i nollkonfigurationsläge som ansluter till PostGIS-"
+"databasen `osm_local`. Ett webbläsarfönster öppnas som visar t-rex backend."
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:44
 msgid "Built-in viewers"
-msgstr ""
+msgstr "Inbyggda visare"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:46
 msgid "t-rex comes with built-in viewers for inspecting generated vector tiles."
 msgstr ""
+"t-rex levereras med inbyggda visare för att inspektera genererade "
+"vektorplattor."
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:48
 msgid "Click on th `X-Ray` entry in the upper right menu to open the x-ray viewer."
-msgstr ""
+msgstr "Klicka på `X-Ray` i menyn uppe till höger för att öppna röntgenvisaren."
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:49
 msgid "Hover the mouse on a line to inspect the content of a feature."
-msgstr ""
+msgstr "Håll muspekaren över en rad för att granska innehållet i en funktion."
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:54
 msgid "Try also the other viewers."
-msgstr ""
+msgstr "Prova även de andra tittarna."
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:56
 msgid "The Mapbox GL viewer and Maputnik require WebGL support, which is probably not available when running OSGeoLive in a VM."
 msgstr ""
+"Mapbox GL-viewern och Maputnik kräver WebGL-stöd, vilket förmodligen inte är "
+"tillgängligt när du kör OSGeoLive i en VM."
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:60
 msgid "Cache seeding"
-msgstr ""
+msgstr "Cache-seeding"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:62
 msgid "Close the browser and the terminal window running t-rex."
-msgstr ""
+msgstr "Stäng webbläsaren och terminalfönstret där t-rex körs."
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:63
 msgid "Open any text editor (e.g. :menuselection:`Accessories --> FeatherPad`)."
 msgstr ""
+"Öppna en textredigerare (t.ex. :menuselection:`Accessories --> FeatherPad`)."
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:65
 msgid "Create the file \"ne.toml\" in your home directory: :file:`/home/user/ne.toml`"
-msgstr ""
+msgstr "Skapa filen \"ne.toml\" i din hemkatalog: :file:`/home/user/ne.toml`"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:68
 msgid "Put the following content in it::"
-msgstr ""
+msgstr "Lägg in följande innehåll i den::"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:111
 msgid "Open a terminal (:menuselection:`System Tools --> LXTerminal`) and type::"
 msgstr ""
+"Öppna en terminal (:menuselection:`System Tools --> LXTerminal`) och skriv::"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:115
 msgid "To inspect the generated tiles type::"
-msgstr ""
+msgstr "För att inspektera de genererade plattorna, skriv::"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:121
 msgid "What next?"
-msgstr ""
+msgstr "Hur vill du gå vidare?"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:123
 msgid "To create your own map viewer you can use the snippets on the info page in the t-rex backend."
 msgstr ""
+"För att skapa din egen kartvisare kan du använda utdragen på "
+"informationssidan i t-rex backend."
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:125
 msgid "After that you can use the built-in Maputnik editor (also linked from the info page) to create your own Mapbox GL Json style."
 msgstr ""
+"Därefter kan du använda den inbyggda Maputnik-editorn (även länkad från "
+"informationssidan) för att skapa din egen Mapbox GL Json-stil."
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:128
 msgid "Website: https://t-rex.tileserver.ch/"
-msgstr ""
+msgstr "Webbplats: https://t-rex.tileserver.ch/"
 
 #: ../../build/doc/quickstart/t-rex_quickstart.rst:129
 msgid "Support: https://github.com/t-rex-tileserver/t-rex/"
-msgstr ""
+msgstr "Support: https://github.com/t-rex-tileserver/t-rex/"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -137,9 +153,9 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

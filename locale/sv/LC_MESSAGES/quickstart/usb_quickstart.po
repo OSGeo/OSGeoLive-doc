@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "usb_quickstart/sv/>\n"
 "Language: sv\n"
@@ -56,13 +56,15 @@ msgstr "Krav"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:18
 msgid "A USB flash drive (8+ Gig is recommended)."
-msgstr ""
+msgstr "Ett USB-minne (8+ Gig rekommenderas)."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:19
 msgid ""
 "An OSGeoLive ISO image (downloaded from: :doc:`OSGeoLive downloads "
 "<../download>`) or converted from a DVD."
 msgstr ""
+"En OSGeoLive ISO-bild (hämtad från: :doc:`OSGeoLive downloads <../download>`)"
+" eller konverterad från en DVD."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:23
 msgid "Creating bootable USB drive with ``dd`` under Linux"
@@ -91,30 +93,36 @@ msgid ""
 "Use ``lsblk`` to list block devices and ``dmesg`` to see kernel messages "
 "identifying the USB drive when it is connected."
 msgstr ""
+"Använd ``lsblk`` för att lista blockenheter och ``dmesg`` för att se "
+"kärnmeddelanden som identifierar USB-enheten när den är ansluten."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:33
 msgid "The USB drive should not be mounted."
-msgstr ""
+msgstr "USB-enheten ska inte vara monterad."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:34
 msgid "``sudo`` is not required if the command is run as ``root``."
-msgstr ""
+msgstr "``sudo`` krävs inte om kommandot körs som ``root``."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:37
 msgid ""
 "Be certain to select the correct block device as ``dd`` will overwrite it "
 "without question, even if it is your primary system drive."
 msgstr ""
+"Var noga med att välja rätt blockenhet eftersom ``dd`` kommer att skriva "
+"över den utan tvekan, även om det är din primära systemenhet."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:40
 msgid "Creating bootable USB drive with Ubuntu Startup Disk Creator"
-msgstr ""
+msgstr "Skapa en startbar USB-enhet med Ubuntu Startup Disk Creator"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:42
 msgid ""
 "(This is the recommended process for creating a USB. It is applicable to "
 "Ubuntu and Ubuntu variants such as OSGeoLive.)"
 msgstr ""
+"(Detta är den rekommenderade processen för att skapa ett USB-minne. Den är "
+"tillämplig på Ubuntu och Ubuntu-varianter som OSGeoLive)"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:45
 msgid ""
@@ -123,12 +131,17 @@ msgid ""
 "OSGeoLive 8.0 onto a USB, then you will need to be running Ubuntu 14.04 or "
 "newer."
 msgstr ""
+"Den version av Ubuntu som du kör måste vara samma eller nyare än den version "
+"av Lubuntu som installeras på din USB. Om du installerar OSGeoLive 8.0 på "
+"ett USB-minne måste du köra Ubuntu 14.04 eller nyare."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:47
 msgid ""
 ":doc:`Download <../download>` osgeolive or osgeolive-mini to your computer's"
 " hard drive."
 msgstr ""
+":doc:`Ladda ner <../download>` osgeolive eller osgeolive-mini till din "
+"dators hårddisk."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:49
 msgid ""
@@ -136,22 +149,28 @@ msgid ""
 " by running from an OSGeoLive DVD, as explained in "
 ":doc:`osgeolive_quickstart`."
 msgstr ""
+"Starta din dator med en ny Ubuntu/Xbuntu-distribution. Du kan göra detta "
+"genom att köra från en OSGeoLive DVD, som förklaras i "
+":doc:`osgeolive_quickstart`."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:51
 msgid "Insert the USB flash drive into your computer."
-msgstr ""
+msgstr "Sätt i USB-minnet i din dator."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:56
 msgid ""
 "Select :menuselection:`System Tools --> Startup Disk Creator`, or search for"
 " `Startup Disk Creator` from the Unity desktop."
 msgstr ""
+"Välj :menuselection:`System Tools --> Startup Disk Creator`, eller sök efter "
+"`Startup Disk Creator` från Unity-skrivbordet."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:61
 msgid ""
 "Select the osgeolive or osgeolive-mini ISO Image that you downloaded "
 "earlier."
 msgstr ""
+"Välj den ISO-bild för osgeolive eller osgeolive-mini som du hämtade tidigare."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:63
 msgid ""
@@ -160,40 +179,47 @@ msgid ""
 " order for this option to be available you will need an 8+ GB USB flash "
 "drive."
 msgstr ""
+"Välj ett USB-minne. Om du har extra utrymme kan du justera reglaget för att "
+"skapa permanent lagringsutrymme på USB-enheten (rekommenderas). För att det "
+"här alternativet ska vara tillgängligt behöver du ett USB-minne på 8+ GB."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:65
 msgid "Select :guilabel:`Make Startup Disk`"
-msgstr ""
+msgstr "Välj :guilabel:`Make Startup Disk`"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:70
 msgid "Wait 20 minutes or so for the USB flash drive to be created."
-msgstr ""
+msgstr "Vänta cirka 20 minuter tills USB-minnet har skapats."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:74
 msgid "Booting from the USB drive:"
-msgstr ""
+msgstr "Starta från USB-enheten:"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:76
 msgid "Start with the computer off."
-msgstr ""
+msgstr "Börja med att stänga av datorn."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:77
 msgid "Insert the USB drive into an open USB port."
-msgstr ""
+msgstr "Sätt i USB-enheten i en öppen USB-port."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:78
 msgid "Power on the Machine and select to boot from USB:"
-msgstr ""
+msgstr "Slå på maskinen och välj att starta från USB:"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:80
 msgid "Most computers are not set to boot from a USB drive by default."
 msgstr ""
+"De flesta datorer är inte inställda på att starta från en USB-enhet som "
+"standard."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:81
 msgid ""
 "When booting, look for a message indicating a Boot Menu (most commonly you "
 "press F12)"
 msgstr ""
+"När du startar, leta efter ett meddelande som anger en startmeny (oftast "
+"trycker du på F12)"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:82
 msgid ""
@@ -203,28 +229,40 @@ msgid ""
 "https://www.mydigitallife.net/comprehensive-list-of-how-key-to-press-to-"
 "access-bios-for-various-oem-and-computer-systems/"
 msgstr ""
+"Om datorn inte har någon startmeny startar du upp i systemets BIOS. Knappen "
+"för att gå in i BIOS varierar beroende på datormärke och modell. Om du inte "
+"kan lista ut din egen kan du prova den här webbplatsen som innehåller en "
+"lista över många BIOS-genvägsknappar. https://www.mydigitallife.net/comprehen"
+"sive-list-of-how-key-to-press-to-access-bios-for-various-oem-and-computer-sys"
+"tems/"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:84
 msgid "Select to boot from the USB device."
-msgstr ""
+msgstr "Välj att starta från USB-enheten."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:86
 msgid ""
 "Note, that for some computers you will need to have the USB drive inserted "
 "into the computer in order to select it."
 msgstr ""
+"Observera att på vissa datorer måste USB-enheten vara ansluten till datorn "
+"för att du ska kunna välja den."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:87
 msgid ""
 "Note also, the USB drive is often listed under hard drives rather than "
 "removable devices."
 msgstr ""
+"Observera också att USB-enheter ofta listas under hårddiskar snarare än "
+"under flyttbara enheter."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:88
 msgid ""
 "This `Video <https://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ demonstrates "
 "booting from USB."
 msgstr ""
+"Den här videon <https://www.youtube.com/watch?v=eQBdVO-n6Mg>`_ visar hur man "
+"startar från USB."
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:91
 msgid "Run:"
@@ -232,7 +270,7 @@ msgstr "Kör:"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:93
 msgid "Run as per: :doc:`osgeolive_quickstart`"
-msgstr ""
+msgstr "Kör enligt följande: :doc:`osgeolive_quickstart`"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:96
 msgid "See Also:"
@@ -255,12 +293,16 @@ msgid ""
 "Alternative USB creation methods and latest tips are collected here: `wiki "
 "<https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB>`_"
 msgstr ""
+"Alternativa metoder för att skapa USB och de senaste tipsen finns samlade "
+"här: `wiki <https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB>`_"
 
 #: ../../build/doc/quickstart/usb_quickstart.rst:102
 msgid ""
 "Questions can be directed to our email list: "
 "https://lists.osgeo.org/pipermail/osgeolive/"
 msgstr ""
+"Frågor kan ställas till vår e-postlista: https://lists.osgeo.org/pipermail/"
+"osgeolive/"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -272,8 +314,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

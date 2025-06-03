@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-17 21:19+0000\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "qfield_quickstart/sv/>\n"
 "Language: sv\n"
@@ -22,97 +22,108 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:9
 msgid "This project is only included on the OSGeoLive virtual machine disk (VMDK)"
-msgstr ""
+msgstr "Detta projekt ingår endast på OSGeoLives virtuella maskindisk (VMDK)"
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:16
 msgid "QField Quickstart"
-msgstr ""
+msgstr "QField Snabbstart"
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:18
 msgid ""
 "QField is a powerful tool to collect data in the field for usage with "
 "QGIS."
 msgstr ""
+"QField är ett kraftfullt verktyg för att samla in data i fält för användning "
+"med QGIS."
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:22
 msgid "Contents"
-msgstr ""
+msgstr "Innehåll"
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:25
 msgid "Start QField"
-msgstr ""
+msgstr "Starta QField"
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:27
 msgid "Click the menu button at the bottom left"
-msgstr ""
+msgstr "Klicka på menyknappen längst ner till vänster"
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:28
 msgid "Click the QField icon in the Education menu"
-msgstr ""
+msgstr "Klicka på QField-ikonen i menyn Utbildning"
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst
 msgid "Find QField in the menu"
-msgstr ""
+msgstr "Hitta QField i menyn"
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:34
 msgid ""
 "You will see QField launch and show the changelog of the release. Close "
 "the screen by clicking on the arrow button on the top left."
 msgstr ""
+"Du kommer att se QField starta och visa ändringsloggen för versionen. Stäng "
+"skärmen genom att klicka på pilknappen längst upp till vänster."
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst
 msgid "The changelog is shown once"
-msgstr ""
+msgstr "Ändringsloggen visas en gång"
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:43
 msgid "Open a project"
-msgstr ""
+msgstr "Öppna ett projekt"
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:45
 msgid "You can open any QGIS project with QField."
-msgstr ""
+msgstr "Du kan öppna vilket QGIS-projekt som helst med QField."
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:47
 msgid "Click the `Open local file` button"
-msgstr ""
+msgstr "Klicka på knappen `Öppna lokal fil`"
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:48
 msgid "Open the `qgis-examples` folder"
-msgstr ""
+msgstr "Öppna mappen `qgis-examples`"
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:49
 msgid "Click the `QGIS-Itasca-Example.qgz` project file to open the project"
 msgstr ""
+"Klicka på projektfilen `QGIS-Itasca-Example.qgz` för att öppna projektet"
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst
 msgid "Choose the Itasca project to open"
-msgstr ""
+msgstr "Välj Itasca-projektet för att öppna"
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:56
 msgid "Navigation"
-msgstr ""
+msgstr "Navigering"
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:58
 msgid "You can navigate on the map by"
-msgstr ""
+msgstr "Du kan navigera på kartan genom att"
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:60
 msgid ""
 "Pan: hold and drag the mouse cursor or by moving your finger on a touch "
 "screen"
 msgstr ""
+"Panorera: håll och dra muspekaren eller genom att flytta fingret på en "
+"pekskärm"
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:61
 msgid ""
 "Zoom: with the mouse wheel or with the zoom buttons. On a touch screen it"
 " is also possible to use pinch gestures"
 msgstr ""
+"Zoom: med mushjulet eller med zoomknapparna. På en pekskärm är det också "
+"möjligt att använda nypgester"
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:62
 msgid ""
 "Rotate: by holding the middle mouse button down or by rotating on the "
 "screen with two fingers on a touch screen"
 msgstr ""
+"Rotera: genom att hålla ned den mellersta musknappen eller genom att rotera "
+"på skärmen med två fingrar på en pekskärm"
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:64
 msgid ""
@@ -120,10 +131,12 @@ msgid ""
 "done with touch screens in mind and is therefore best served on a touch "
 "screen."
 msgstr ""
+"Tänk på att interaktionsdesignen för QField alltid gjordes med pekskärmar i "
+"åtanke och att den därför passar bäst på en pekskärm."
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:68
 msgid "Basic canvas interaction"
-msgstr ""
+msgstr "Grundläggande interaktion med canvas"
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:70
 msgid ""
@@ -132,6 +145,9 @@ msgid ""
 "multiple layers, in this case here \"airports\" and \"County "
 "Boundaries\"."
 msgstr ""
+"Du kan identifiera funktioner genom att klicka på dem. I itasca-projektet "
+"finns det flera identifierbara lager, så du kommer att få resultat från "
+"flera lager, i det här fallet här \"flygplatser\" och \"länsgränser\"."
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:73
 msgid ""
@@ -139,20 +155,25 @@ msgid ""
 " the identification panel. You will see all attributes of this feature "
 "appear."
 msgstr ""
+"Om du vill granska attributen för en av funktionerna klickar du på "
+"funktionen i identifieringspanelen. Du kommer att se alla attribut för denna "
+"funktion visas."
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst
 msgid "The hamburger menu"
-msgstr ""
+msgstr "Menyn för hamburgare"
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:81
 msgid "Legend"
-msgstr ""
+msgstr "Historia"
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:83
 msgid ""
 "To see which layers are loaded and to inspect the layer legends, click "
 "the hamburger menu on the top left corner."
 msgstr ""
+"Klicka på hamburgermenyn i det övre vänstra hörnet för att se vilka lager "
+"som är inlästa och för att granska lagren."
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:89
 msgid ""
@@ -160,20 +181,26 @@ msgid ""
 "layer (or long pressing on a touch screen) you will have additional "
 "actions available for each layer."
 msgstr ""
+"Du kommer att se en lista över alla lager i projektet. Genom att högerklicka "
+"på lagret (eller trycka länge på en pekskärm) får du tillgång till "
+"ytterligare åtgärder för varje lager."
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst
 msgid "The legend"
-msgstr ""
+msgstr "Legenden"
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:97
 msgid ""
 "Close the legend by clicking the white arrow on the top left or by "
 "clicking anywhere on the canvas outside the legend panel."
 msgstr ""
+"Stäng teckenförklaringen genom att klicka på den vita pilen längst upp till "
+"vänster eller genom att klicka var som helst på duken utanför "
+"teckenförklaringspanelen."
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:101
 msgid "Digitize Data"
-msgstr ""
+msgstr "Digitalisera data"
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:103
 msgid ""
@@ -181,22 +208,26 @@ msgid ""
 "any changes to preexisting geometries or add new features. To go into "
 "digitize mode:"
 msgstr ""
+"Som standard öppnas QField i läs-/visningsläge och du kan inte göra några "
+"ändringar i redan befintliga geometrier eller lägga till nya funktioner. För "
+"att gå till digitaliseringsläge:"
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:106
 msgid "Click the hamburger menu on the top left corner, so you see the legend."
 msgstr ""
+"Klicka på hamburgermenyn uppe i vänstra hörnet så att du ser förklaringen."
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:107
 msgid "Click the pencil switch to go into digitize mode."
-msgstr ""
+msgstr "Klicka på pennknappen för att gå in i digitaliseringsläge."
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst
 msgid "Switch to the digitize mode"
-msgstr ""
+msgstr "Växla till digitaliseringsläge"
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:113
 msgid "Next, we will create a new airport."
-msgstr ""
+msgstr "Nu ska vi skapa en ny flygplats."
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:115
 msgid ""
@@ -204,20 +235,25 @@ msgid ""
 "current layer within which digitizing will occur is highlighted using a "
 "green background in the legend."
 msgstr ""
+"Aktivera flygplatsskiktet genom att klicka på skiktet `airports`. Det "
+"aktuella skiktet inom vilket digitaliseringen kommer att ske markeras med en "
+"grön bakgrund i legenden."
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:116
 msgid "Close the layer panel"
-msgstr ""
+msgstr "Stäng lagerpanelen"
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:117
 msgid ""
 "You will see a crosshair appear. This will follow your mouse or stay in "
 "the center of the screen if you are working with a touch screen."
 msgstr ""
+"Du kommer att se ett hårkors dyka upp. Det följer musen eller stannar i "
+"mitten av skärmen om du arbetar med en pekskärm."
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:119
 msgid "If you have a mouse: click to create a new airport."
-msgstr ""
+msgstr "Om du har en mus: klicka för att skapa en ny flygplats."
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:120
 msgid ""
@@ -225,58 +261,70 @@ msgid ""
 "desired location and click the plus button at the bottom right of the "
 "screen to create a point."
 msgstr ""
+"Om du har en pekskärm flyttar du kartan tills hårkorset är på önskad plats "
+"och klickar på plusknappen längst ned till höger på skärmen för att skapa en "
+"punkt."
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:122
 msgid ""
 "A panel appears, where you can enter all the desired attributes for the "
 "new airport"
 msgstr ""
+"En panel visas där du kan ange alla önskade attribut för den nya flygplatsen"
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:123
 msgid "Click the checkbox to confirm the new airport."
-msgstr ""
+msgstr "Klicka på kryssrutan för att bekräfta den nya flygplatsen."
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:124
 msgid "The data is saved immediately."
-msgstr ""
+msgstr "Uppgifterna sparas omedelbart."
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:127
 msgid "Things to try"
-msgstr ""
+msgstr "Saker att prova"
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:129
 msgid "Show and hide a layer via the layer options (long click in the legend)"
 msgstr ""
+"Visa och dölj ett lager via lageralternativen (långklicka i "
+"teckenförklaringen)"
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:130
 msgid ""
 "On the legend panel, check the cog wheel symbol for more actions like "
 "measuring and printing"
 msgstr ""
+"I teckenfönstret markerar du kugghjulssymbolen för fler åtgärder som mätning "
+"och utskrift"
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:131
 msgid "Download the `QField sample projects`_ for more inspiration"
-msgstr ""
+msgstr "Ladda ner `QField sample projects`_ för mer inspiration"
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:132
 msgid "Open a project file in QGIS, add layers to it and change the configuration"
 msgstr ""
+"Öppna en projektfil i QGIS, lägg till lager i den och ändra konfigurationen"
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:133
 msgid ""
 "Install QField on your mobile device through the app store or via the "
 "`Download page`_."
 msgstr ""
+"Installera QField på din mobila enhet via appbutiken eller via `Download "
+"page`_."
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:136
 msgid "What next?"
-msgstr ""
+msgstr "Hur vill du gå vidare?"
 
 #: ../../build/doc/quickstart/qfield_quickstart.rst:138
 msgid ""
 "To learn more about QField, a good starting point is the `Documentation "
 "page`_."
 msgstr ""
+"För att lära dig mer om QField är en bra utgångspunkt `Dokumentationssidan`_."
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -288,8 +336,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

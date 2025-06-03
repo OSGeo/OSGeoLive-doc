@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "rasdaman_overview/sv/>\n"
 "Language: sv\n"
@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../../build/doc/overview/rasdaman_overview.rst:19
 msgid "Rasdaman"
-msgstr ""
+msgstr "Rasdaman"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:22
 msgid "Multi-Dimensional Big Data Analytics Engine"
-msgstr ""
+msgstr "Flerdimensionell analysmotor för stora datamängder"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:24
 msgid ""
@@ -40,6 +40,12 @@ msgid ""
 "optimization. Cloud/cluster parallelization is accomplished in a secure, "
 "administrator-controlled way."
 msgstr ""
+"Rasdaman är ett Array Database System som tillhandahåller flexibla, snabba, "
+"skalbara geotjänster för flerdimensionella spatio-temporala sensorer, "
+"bilder, simuleringar och statistikdata med obegränsad volym. Ad-hoc-åtkomst, "
+"extraktion, aggregering samt remix och analys möjliggörs genom ett NewSQL-"
+"rasterfrågespråk med mycket effektiv optimering på serversidan. "
+"Parallellisering i moln/kluster sker på ett säkert, administratörsstyrt sätt."
 
 #: ../../build/doc/overview/rasdaman_overview.rst:26
 msgid ""
@@ -48,6 +54,10 @@ msgid ""
 "https://standards.rasdaman.com a collection of interactive demos is "
 "available. A rasdaman driver is part of GDAL and MapServer."
 msgstr ""
+"Förutom rasterfrågespråket stöder rasdaman OGC:s webbtjänststandarder WMS, "
+"WCS och WCPS samt API:er för C++ och Java. På https://standards.rasdaman.com "
+"finns en samling interaktiva demos tillgängliga. En rasdaman-drivrutin är en "
+"del av GDAL och MapServer."
 
 #: ../../build/doc/overview/rasdaman_overview.rst:31
 msgid ""
@@ -57,10 +67,14 @@ msgid ""
 "years. Among the operators of rasdaman services are mapping agencies and "
 "climate data centers."
 msgstr ""
+"Rasdaman har fått en rad internationella innovationspriser, bland annat de "
+"prestigefyllda European IT Prize och Geospatial Innovation Award. Tekniken "
+"är mogen och stabil och har varit i drift i mer än tio år. Bland "
+"operatörerna av Rasdaman-tjänster finns kartbyråer och klimatdatacenter."
 
 #: ../../build/doc/overview/rasdaman_overview.rstNone
 msgid "rasdaman screenshot"
-msgstr ""
+msgstr "rasdaman skärmdump"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:40
 msgid "Core Features"
@@ -68,29 +82,35 @@ msgstr "Kärnfunktioner"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:42
 msgid "truly multi-dimensional - 1-D, 2-D, 3-D, 4-D, and beyond"
-msgstr ""
+msgstr "verkligen flerdimensionell - 1-D, 2-D, 3-D, 4-D och ännu mer"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:43
 msgid ""
 "powerful, flexible query language for visualization, classification, "
 "convolution, aggregation, and many more geospatial functions"
 msgstr ""
+"kraftfullt, flexibelt frågespråk för visualisering, klassificering, "
+"konvolution, aggregering och många fler geospatiala funktioner"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:44
 msgid "spatial indexing and adaptive tiling for fast data access"
-msgstr ""
+msgstr "spatial indexering och adaptiv tiling för snabb dataåtkomst"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:45
 msgid ""
 "parallelization and \"tile streaming\" for unlimited scalability from laptop"
 " to cluster and cloud"
 msgstr ""
+"parallellisering och \"tile streaming\" för obegränsad skalbarhet från "
+"bärbar dator till kluster och moln"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:46
 msgid ""
 "support for the raster-relevant OGC standards, Reference Implementation for "
 "WCS Core and WCPS"
 msgstr ""
+"stöd för de rasterrelevanta OGC-standarderna, Reference Implementation för "
+"WCS Core och WCPS"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:49
 msgid "Implemented Standards"
@@ -98,7 +118,7 @@ msgstr "Implementerade standarder"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:51
 msgid "OGC WMS 1.3, WCS 2.0, WCPS 1.0"
-msgstr ""
+msgstr "OGC WMS 1.3, WCS 2.0, WCPS 1.0"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:54
 msgid "Details"
@@ -106,40 +126,40 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:56
 msgid "**Website:** https://rasdaman.org"
-msgstr ""
+msgstr "**Webbplats:** https://rasdaman.org"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:58
 msgid "**Licence:**"
-msgstr ""
+msgstr "**Licens:**"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:60
 msgid "clients and APIs: GNU Lesser General Public License (LGPL) version 3"
-msgstr ""
+msgstr "klienter och API:er: GNU Lesser General Public License (LGPL) version 3"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:61
 msgid "server engine: GNU General Public License (GPL) version 3"
-msgstr ""
+msgstr "servermotor: GNU General Public License (GPL) version 3"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:63
 msgid "**Software Version:** |version-rasdaman|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-rasdaman|"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:65
 msgid "**Supported Platforms:** Linux, MacOS, Solaris"
-msgstr ""
+msgstr "**Plattformar som stöds:** Linux, MacOS, Solaris"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:67
 msgid "**API Interfaces:** rasql, C++, Java"
-msgstr ""
+msgstr "**API-gränssnitt:** rasql, C++, Java"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:69
 msgid "**Support:** https://rasdaman.com"
-msgstr ""
+msgstr "**Support:** https://rasdaman.com"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:71
 msgid ""
 "This project is only included on the OSGeoLive virtual machine disk (VMDK)"
-msgstr ""
+msgstr "Detta projekt ingår endast på OSGeoLives virtuella maskindisk (VMDK)"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:74
 msgid "Quickstart"
@@ -147,7 +167,7 @@ msgstr "Snabbstart"
 
 #: ../../build/doc/overview/rasdaman_overview.rst:76
 msgid ":doc:`Quickstart documentation <../quickstart/rasdaman_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snabbstartsdokumentation <../quickstart/rasdaman_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -159,8 +179,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

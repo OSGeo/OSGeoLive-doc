@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "download/sv/>\n"
 "Language: sv\n"
@@ -37,12 +37,14 @@ msgstr ""
 msgid ""
 "https://sourceforge.net/projects/osgeo-live/files/|osgeolive-version-only|/"
 msgstr ""
+"https://sourceforge.net/projects/osgeo-live/files/|osgeolive-version-only|/"
 
 #: ../../build/doc/download.rst:13
 msgid ""
 "https://download.osgeo.org/livedvd/releases/|osgeolive-version-only|/ "
 "(.vmdk)"
 msgstr ""
+"https://download.osgeo.org/livedvd/releases/|osgeolive-version-only|/ (.vmdk)"
 
 #: ../../build/doc/download.rst:16
 msgid "Picking the right image for you:"
@@ -72,6 +74,10 @@ msgid ""
 " use in VirtualBox, VMWare, KVM and other virtual machine applications. It "
 "has been compressed using `7-Zip <https://www.7-zip.org/>`_."
 msgstr ""
+"Detta är en färdig virtuell maskin (.vmdk) baserad på osgeolive, lämplig för "
+"användning i VirtualBox, VMWare, KVM och andra virtuella "
+"maskinapplikationer. Den har komprimerats med `7-Zip <https://www.7-zip.org/"
+">`_."
 
 #: ../../build/doc/download.rst:26
 msgid "**amd64 or i386 architecture**"
@@ -120,8 +126,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

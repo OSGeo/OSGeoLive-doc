@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-17 21:23+0000\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "geoext_overview/sv/>\n"
 "Language: sv\n"
@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../../build/doc/overview/geoext_overview.rst:14
 msgid "GeoExt"
-msgstr ""
+msgstr "GeoExt"
 
 #: ../../build/doc/overview/geoext_overview.rst:17
 msgid "A JavaScript Toolkit for Rich Web Mapping Applications"
-msgstr ""
+msgstr "En JavaScript-verktygslåda för applikationer för rik webbkartläggning"
 
 #: ../../build/doc/overview/geoext_overview.rst:19
 msgid ""
@@ -38,6 +38,11 @@ msgid ""
 "interface of the `ExtJS <https://www.sencha.com/products/extjs/>`_ library "
 "provided by `Sencha <https://www.sencha.com>`_."
 msgstr ""
+"GeoExt är Open Source och gör det möjligt att bygga skrivbordsliknande GIS-"
+"applikationer via webben. Det är ett JavaScript-ramverk som kombinerar GIS-"
+"funktionaliteten i `OpenLayers <https://openlayers.org/>`_ med "
+"användargränssnittet i biblioteket `ExtJS <https://www.sencha.com/products/"
+"extjs/>`_ som tillhandahålls av `Sencha <https://www.sencha.com>`_."
 
 #: ../../build/doc/overview/geoext_overview.rst:25
 msgid ""
@@ -47,6 +52,12 @@ msgid ""
 "classes are also available allowing OpenLayers features and layers to be "
 "used as ExtJS data models, and for various map layer types to be serialized."
 msgstr ""
+"Användargränssnittskomponenterna omfattar en kartpanel, en panel med "
+"lagerträd, ett rutnät med funktioner och en översiktskarta. GeoExt-"
+"komponenter kan användas precis som alla andra ExtJS-komponenter och kan "
+"enkelt konfigureras och utökas. Det finns också klasser på lägre nivå som "
+"gör att OpenLayers funktioner och lager kan användas som ExtJS-datamodeller "
+"och att olika typer av kartlager kan serialiseras."
 
 #: ../../build/doc/overview/geoext_overview.rst:32
 msgid ""
@@ -55,10 +66,14 @@ msgid ""
 "the ExtJS framework you will use it under GPLv3. If you own a Sencha ExtJS "
 "Commercial License, you have the right to use GeoExt under the BSD License."
 msgstr ""
+"GeoExt är dubbellicensierat. Den licens du väljer beror på licensen för "
+"ramverket ExtJS som du använder med den. Om du använder GPL v3-versionen av "
+"ExtJS-ramverket kommer du att använda det under GPLv3. Om du äger en Sencha "
+"ExtJS Commercial License har du rätt att använda GeoExt under BSD-licensen."
 
 #: ../../build/doc/overview/geoext_overview.rstNone
 msgid "geoext screenshot"
-msgstr ""
+msgstr "geoext skärmdump"
 
 #: ../../build/doc/overview/geoext_overview.rst:46
 msgid "Core Features"
@@ -66,63 +81,67 @@ msgstr "Kärnfunktioner"
 
 #: ../../build/doc/overview/geoext_overview.rst:48
 msgid "UI Components"
-msgstr ""
+msgstr "UI-komponenter"
 
 #: ../../build/doc/overview/geoext_overview.rst:50
 msgid "Map panel"
-msgstr ""
+msgstr "Kartpanel"
 
 #: ../../build/doc/overview/geoext_overview.rst:51
 msgid "Overview map"
-msgstr ""
+msgstr "Översiktskarta"
 
 #: ../../build/doc/overview/geoext_overview.rst:52
 msgid "Pop-ups"
-msgstr ""
+msgstr "Popup-fönster"
 
 #: ../../build/doc/overview/geoext_overview.rst:53
 msgid "Feature renderer"
-msgstr ""
+msgstr "Rendering av funktioner"
 
 #: ../../build/doc/overview/geoext_overview.rst:54
 msgid "Layer Tree, legends, and drag-and-drop layer ordering"
-msgstr ""
+msgstr "Lagerträd, legender och dra-och-släpp-lagerordning"
 
 #: ../../build/doc/overview/geoext_overview.rst:56
 msgid "Data Models and Stores"
-msgstr ""
+msgstr "Datamodeller och datalager"
 
 #: ../../build/doc/overview/geoext_overview.rst:58
 msgid ""
 "Integration of the OpenLayers data model with the ExtJS data model enabling "
 "sorting and filtering of features using ExtJS components"
 msgstr ""
+"Integration av OpenLayers datamodell med ExtJS-datamodellen för sortering "
+"och filtrering av funktioner med hjälp av ExtJS-komponenter"
 
 #: ../../build/doc/overview/geoext_overview.rst:60
 msgid "ExtJS stores and models for OpenLayers features and layers"
-msgstr ""
+msgstr "ExtJS-butiker och modeller för OpenLayers funktioner och lager"
 
 #: ../../build/doc/overview/geoext_overview.rst:62
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Diverse"
 
 #: ../../build/doc/overview/geoext_overview.rst:64
 msgid "Integration with"
-msgstr ""
+msgstr "Integration med"
 
 #: ../../build/doc/overview/geoext_overview.rst:66
 msgid "`MapFish Print <http://mapfish.github.io/mapfish-print-doc/>`_"
-msgstr ""
+msgstr "`MapFish Skriv ut <http://mapfish.github.io/mapfish-print-doc/>`_"
 
 #: ../../build/doc/overview/geoext_overview.rst:67
 msgid ""
 "and `GeoServer Printing Module "
 "<https://docs.geoserver.org/latest/en/user/extensions/printing/index.html>`_"
 msgstr ""
+"och \"GeoServer utskriftsmodul <https://docs.geoserver.org/latest/en/user/"
+"extensions/printing/index.html>`_"
 
 #: ../../build/doc/overview/geoext_overview.rst:69
 msgid "Layer Serializers (WMS, WMTS, XYZ)"
-msgstr ""
+msgstr "Serialisatorer för lager (WMS, WMTS, XYZ)"
 
 #: ../../build/doc/overview/geoext_overview.rst:72
 msgid "Details"
@@ -130,41 +149,43 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/geoext_overview.rst:74
 msgid "**Website:** https://geoext.github.io/geoext"
-msgstr ""
+msgstr "**Webbplats:** https://geoext.github.io/geoext"
 
 #: ../../build/doc/overview/geoext_overview.rst:76
 msgid "**License:** GPLv3 or BSD License dependent on ExtJS license"
-msgstr ""
+msgstr "**Licens:** GPLv3 eller BSD-licens beroende på ExtJS-licens"
 
 #: ../../build/doc/overview/geoext_overview.rst:78
 msgid "see `License <https://github.com/geoext/geoext/blob/master/LICENSE>`_"
-msgstr ""
+msgstr "se `Licens <https://github.com/geoext/geoext/blob/master/LICENSE>`_"
 
 #: ../../build/doc/overview/geoext_overview.rst:79
 msgid ""
 "and `License FAQ <https://github.com/geoext/geoext/blob/master/LICENSE-"
 "FAQ.md>`_"
 msgstr ""
+"och `Licens FAQ <https://github.com/geoext/geoext/blob/master/LICENSE-FAQ."
+"md>`_"
 
 #: ../../build/doc/overview/geoext_overview.rst:81
 msgid "**Software Version:** |version-geoext|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-geoext|"
 
 #: ../../build/doc/overview/geoext_overview.rst:83
 msgid "**API Interface:** JavaScript"
-msgstr ""
+msgstr "**API-gränssnitt:** JavaScript"
 
 #: ../../build/doc/overview/geoext_overview.rst:85
 msgid "**Support:** Mailing lists"
-msgstr ""
+msgstr "**Support:** Mailinglistor"
 
 #: ../../build/doc/overview/geoext_overview.rst:87
 msgid "https://www.geoext.org/cgi-bin/mailman/listinfo/users"
-msgstr ""
+msgstr "https://www.geoext.org/cgi-bin/mailman/listinfo/users"
 
 #: ../../build/doc/overview/geoext_overview.rst:88
 msgid "and https://stackoverflow.com/questions/tagged/geoext"
-msgstr ""
+msgstr "och https://stackoverflow.com/questions/tagged/geoext"
 
 #: ../../build/doc/overview/geoext_overview.rst:94
 msgid "Quickstart"
@@ -172,7 +193,7 @@ msgstr "Snabbstart"
 
 #: ../../build/doc/overview/geoext_overview.rst:96
 msgid ":doc:`Quickstart documentation <../quickstart/geoext_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snabbstartsdokumentation <../quickstart/geoext_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -184,8 +205,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

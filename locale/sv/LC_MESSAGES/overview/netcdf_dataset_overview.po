@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "netcdf_dataset_overview/sv/>\n"
 "Language: sv\n"
@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../../build/doc/overview/netcdf_dataset_overview.rst:14
 msgid "NetCDF Data Set"
-msgstr ""
+msgstr "NetCDF-datauppsättning"
 
 #: ../../build/doc/overview/netcdf_dataset_overview.rst:17
 msgid "Map Data"
-msgstr ""
+msgstr "Kartdata"
 
 #: ../../build/doc/overview/netcdf_dataset_overview.rst:19
 msgid ""
@@ -38,6 +38,11 @@ msgid ""
 "and above work with the HDF5 format, designed to store and organize large "
 "amounts of numerical data."
 msgstr ""
+"NetCDF (Network Common Data Form) är en uppsättning programvarubibliotek och "
+"självbeskrivande, maskinoberoende dataformat som stöder skapande, åtkomst "
+"och delning av array-orienterade vetenskapliga data. NetCDF version 4.0 och "
+"senare arbetar med HDF5-formatet, som är utformat för att lagra och "
+"organisera stora mängder numeriska data."
 
 #: ../../build/doc/overview/netcdf_dataset_overview.rst:21
 msgid ""
@@ -46,6 +51,10 @@ msgid ""
 "predicted, for the years 1850-2012 and 2006-2100 (see accompanying text "
 "files for details)."
 msgstr ""
+"Denna exempeldatauppsättning innehåller årsmaximum för dygnets högsta "
+"temperatur och årsmaximum för nederbörd under fem dygn i följd, både "
+"historiska och förväntade, för åren 1850-2012 och 2006-2100 (se medföljande "
+"textfiler för mer information)."
 
 #: ../../build/doc/overview/netcdf_dataset_overview.rst:23
 msgid ""
@@ -55,10 +64,15 @@ msgid ""
 "for Environmental Studies, Ibaraki, Japan), JAMSTEC (Japan Agency for "
 "Marine-Earth Science and Technology, Kanagawa, Japan)."
 msgstr ""
+"Data från University of Victoria PCIC (Pacific Climate Impacts Consortium), "
+"i samarbete med AORI (Atmosphere and Ocean Research Institute, The "
+"University of Tokyo, Chiba, Japan), NIES (National Institute for "
+"Environmental Studies, Ibaraki, Japan), JAMSTEC (Japan Agency for Marine-"
+"Earth Science and Technology, Kanagawa, Japan)."
 
 #: ../../build/doc/overview/netcdf_dataset_overview.rstNone
 msgid "netcdf_dataset screenshot"
-msgstr ""
+msgstr "netcdf_dataset skärmdump"
 
 #: ../../build/doc/overview/netcdf_dataset_overview.rst:33
 msgid "Details"
@@ -66,29 +80,31 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/netcdf_dataset_overview.rst:35
 msgid "**Website:** https://wiki.osgeo.org/wiki/Category:Education"
-msgstr ""
+msgstr "**Webbplats:** https://wiki.osgeo.org/wiki/Category:Education"
 
 #: ../../build/doc/overview/netcdf_dataset_overview.rst:37
 msgid ""
 "**License:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA"
 " 3.0) <https://creativecommons.org/licenses/by-sa/3.0/>`_"
 msgstr ""
+"**Licens:** `Creative Commons Attribution-ShareAlike 3.0 Unported (CC BY-SA 3"
+".0) <https://creativecommons.org/licenses/by-sa/3.0/>`_"
 
 #: ../../build/doc/overview/netcdf_dataset_overview.rst:39
 msgid "**Data Version:** 2013"
-msgstr ""
+msgstr "**Dataversion:** 2013"
 
 #: ../../build/doc/overview/netcdf_dataset_overview.rst:41
 msgid "**Data format:** NetCDF, HDF5"
-msgstr ""
+msgstr "**Dataformat:** NetCDF, HDF5"
 
 #: ../../build/doc/overview/netcdf_dataset_overview.rst:43
 msgid "**Spatial coordinate system:** EPSG:4326, NAD83"
-msgstr ""
+msgstr "**Rumsligt koordinatsystem:** EPSG:4326, NAD83"
 
 #: ../../build/doc/overview/netcdf_dataset_overview.rst:45
 msgid "**Support:** https://lists.osgeo.org/mailman/listinfo/geodata"
-msgstr ""
+msgstr "**Support:** https://lists.osgeo.org/mailman/listinfo/geodata"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -100,8 +116,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

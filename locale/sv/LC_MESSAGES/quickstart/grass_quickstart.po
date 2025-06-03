@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-21 20:28+0000\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "grass_quickstart/sv/>\n"
 "Language: sv\n"
@@ -21,31 +21,35 @@ msgstr ""
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:22
 msgid "GRASS GIS Quickstart"
-msgstr ""
+msgstr "GRASS GIS Snabbstart"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:24
 msgid "GRASS GIS is a powerful GIS which lets you visualize, manage, analyse and edit geospatial data."
 msgstr ""
+"GRASS GIS är ett kraftfullt GIS som låter dig visualisera, hantera, "
+"analysera och redigera geospatiala data."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:29
 msgid "Contents"
-msgstr ""
+msgstr "Innehåll"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:32
 msgid "Start GRASS"
-msgstr ""
+msgstr "Start GRASS"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:37
 msgid "Click on |menu_grass82|."
-msgstr ""
+msgstr "Klicka på |menu_grass82|."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:38
 msgid "From the \"Welcome to GRASS GIS\" window, select the \"nc_basic_spm_grass7\" dataset for the location, and \"user1\" for the mapset"
 msgstr ""
+"I fönstret \"Välkommen till GRASS GIS\" väljer du datasetet "
+"\"nc_basic_spm_grass7\" för platsen och \"user1\" för kartsetet"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:39
 msgid "Click on :guilabel:`Start GRASS session`."
-msgstr ""
+msgstr "Klicka på :guilabel:`Start GRASS session`."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:None
 #: ../../build/doc/quickstart/grass_quickstart.rst:None
@@ -56,215 +60,432 @@ msgstr ""
 #: ../../build/doc/quickstart/grass_quickstart.rst:None
 #: ../../build/doc/quickstart/grass_quickstart.rst:None
 msgid "screenshot"
-msgstr ""
+msgstr "skärmbild"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:46
 msgid "This will launch GRASS into the `graphical user interface (written in wxPython) <http://localhost/grass/wxGUI.html>`_."
 msgstr ""
+"Detta kommer att starta GRASS i det `grafiska användargränssnittet (skrivet "
+"i wxPython) <http://localhost/grass/wxGUI.html>`_."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:49
 msgid "If you are on a netbook with a very small display (800x600 resolution) the startup screen might get a little scrunched and the [*Start GRASS*] button hidden behind the location and mapset lists. If this happens to you the solution is to drag the corner of the window to make it a little bigger. You might have to move the window up past the top of the screen a bit to get the room (hold down the Alt key and left-click drag the window to move it)."
 msgstr ""
+"Om du använder en netbook med en mycket liten skärm (800x600 upplösning) kan "
+"startskärmen bli lite skrynklig och knappen [*Starta GRASS*] döljs bakom "
+"listorna över platser och kartor. Om detta händer dig är lösningen att dra i "
+"fönstrets hörn för att göra det lite större. Du kanske måste flytta fönstret "
+"en bit upp förbi skärmens överkant för att få plats (håll ned Alt-tangenten "
+"och vänsterklicka på fönstret för att flytta det)."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:63
 msgid "Display a map"
-msgstr ""
+msgstr "Visa en karta"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:70
 msgid "Once inside, select for display the raster map layer \"`elevation`\" from the PERMANENT mapset."
 msgstr ""
+"Väl inne, välj för visning rasterkartskiktet \"`elevation`\" från PERMANENT-"
+"kartuppsättningen."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:71
 msgid "Go into the `GIS Layer Manager` window."
-msgstr ""
+msgstr "Gå in i fönstret `GIS Layer Manager`."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:72
 msgid "Click on the checkerboard toolbar button with a \"+\" on it."
-msgstr ""
+msgstr "Klicka på knappen i verktygsfältet med ett \"+\" på."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:73
 msgid "Select the map name you want from the \"*map to be displayed*\" pull-down list, and click :guilabel:`Ok`."
 msgstr ""
+"Välj det kartnamn du vill ha i rullgardinsmenyn \"*karta som ska visas*\" "
+"och klicka på :guilabel:`Ok`."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:74
 msgid "Click on the toolbar button with a \"+\" and a bent poly-line which looks a bit like a \"V\"."
 msgstr ""
+"Klicka på knappen i verktygsfältet med ett \"+\" och en böjd polylinje som "
+"ser ut lite som ett \"V\"."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:75
 msgid "Select the \"`roadsmajor`\" vector layer from the PERMANENT mapset, and click :guilabel:`Ok`."
 msgstr ""
+"Välj vektorlagret \"`roadsmajor`\" från PERMANENT-kartuppsättningen och "
+"klicka på :guilabel:`Ok`."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:77
 msgid "If you need to, right click on the raster map layer and choose \"Zoom to selected map(s)\"."
 msgstr ""
+"Om det behövs kan du högerklicka på rasterkartlagret och välja \"Zoom to "
+"selected map(s)\"."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:79
 msgid "You should now see the maps displayed."
-msgstr ""
+msgstr "Du bör nu se kartorna visas."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:82
 msgid "Plot an elevation profile"
-msgstr ""
+msgstr "Rita upp en höjdprofil"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:88
 msgid "Back in the `GIS Layer Manager` window click on the `elevation` raster map name to select it. Then in the `Map Display` window, to the right of the zooming buttons on the `Map Display` toolbar is an icon with a line graph and checkerboard on it. Click on that and select **Profile surface map**. The `@PERMANENT` mapset is automatically searched. If the map isn't automatically listed, again pick the `elevation` map as the raster layer and press :guilabel:`Ok`. In the `GRASS Profile Analysis Tool` window select the second button from the left, it allows you to set out the profile line, click it then mark out a few points on the `Map Display` canvas. When done go back to the Profile window. Click on the I/O button of the far right to close the profile window."
 msgstr ""
+"Tillbaka i fönstret `GIS Layer Manager` klickar du på namnet på rasterkartan "
+"`elevation` för att välja den. I fönstret `Map Display`, till höger om "
+"zoomknapparna i verktygsfältet `Map Display` finns sedan en ikon med ett "
+"linjediagram och en schackbräda. Klicka på den och välj **Profile surface "
+"map**. Kartuppsättningen `@PERMANENT` söks automatiskt. Om kartan inte "
+"listas automatiskt väljer du återigen `elevation`-kartan som rasterlager och "
+"trycker på :guilabel:`Ok`. I fönstret `GRASS Profile Analysis Tool` välj den "
+"andra knappen från vänster, den låter dig lägga ut profillinjen, klicka på "
+"den och markera sedan några punkter på `Map Display` duken. När du är klar "
+"går du tillbaka till fönstret Profile. Klicka på I/O-knappen längst till "
+"höger för att stänga profilfönstret."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:101
 msgid "Adjust raster map colors"
-msgstr ""
+msgstr "Justera färgerna på rasterkartan"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:102
 msgid "Now you'll see your new raster map added to the layer list along with the elevation raster map, except this time it will be in your \"user1\" working mapset. You might un-tick the `elevation` layer's visibility check-box now so that the two raster layers don't draw over the top of each other. Click on the checkbox to view your new map if it doesn't render automatically. The colors might not be as you'd like so let's change them. With the fractal DEM selected in the layer list, right click on the this raster map layer name and choose \"Set color table\". As an alternative, you can manage color tables in the `Raster` menu select :menuselection:`Manage colors --> Color tables`. In the 'Define' tab click on the pull-down list for the \"Name of color table\" option, and pick one from the list. \"terrain\" or \"srtm\" are nice choices. Once done click the [*Run*] button and close the *r.colors* dialog window. The colors should then update automatically."
 msgstr ""
+"Nu kommer du att se din nya rasterkarta läggas till i lagerlistan "
+"tillsammans med höjdrasterkartan, förutom den här gången kommer den att "
+"finnas i din \"user1\" arbetskartuppsättning. Du kan avmarkera kryssrutan "
+"för synlighet för `höjd` -skiktet nu så att de två rasterlagren inte ritar "
+"över varandra. Klicka på kryssrutan för att visa din nya karta om den inte "
+"renderas automatiskt. Färgerna kanske inte är som du vill ha så låt oss "
+"ändra dem. Med den fraktala DEM markerad i lagerlistan högerklickar du på "
+"namnet på detta rasterkartlager och väljer \"Set color table\". Som ett "
+"alternativ kan du hantera färgtabeller i menyn `Raster` välj :menuselection:`"
+"Manage colors --> Color tables`. På fliken \"Definiera\" klickar du på "
+"rullgardinsmenyn för alternativet \"Namn på färgtabell\" och väljer ett från "
+"listan. \"terrain\" eller \"srtm\" är bra val. När du är klar klickar du på "
+"[*Kör*]-knappen och stänger dialogfönstret *r.colors*. Färgerna bör då "
+"uppdateras automatiskt."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:117
 msgid "Create a shaded relief map"
-msgstr ""
+msgstr "Skapa en skuggad reliefkarta"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:123
 msgid "Next we'll create a shaded relief map of the `elevation` layer we saw earlier. Start by verifying that the *computational region* is set match the raster map of interest, \"`elevation`\" in the PERMANENT mapset. To do this, make sure it is loaded into the layer list of the main `GIS Layer Manager` window, right click on its name and select \"Set computation region from selected map(s)\". If necessary, click on the \"*Layers*\" tab at the bottom to get back to the layer list."
 msgstr ""
+"Nu ska vi skapa en skuggad reliefkarta av `elevation`-skiktet som vi såg "
+"tidigare. Börja med att kontrollera att *beräkningsregionen* är inställd på "
+"att matcha rasterkartan av intresse, \"`elevation`\" i PERMANENT-"
+"kartuppsättningen. För att göra detta, se till att det är laddat i "
+"lagerlistan i huvudfönstret `GIS Layer Manager`, högerklicka på dess namn "
+"och välj \"Ställ in beräkningsregion från vald karta (er)\". Om det behövs, "
+"klicka på fliken \"*Layers*\" längst ned för att komma tillbaka till "
+"lagerlistan."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:131
 msgid "In the `Raster` menu select :menuselection:`Terrain analysis --> Compute shaded relief` (Terrain analysis is about half way down the `Raster` menu), and the module control dialog will appear. Select as the input name the \"elevation\" *@PERMANENT* map and as the output map you may specify \"shaded_relief\". Once done click [*Run*]. Now you should find the new `shaded_relief` *@user1* map added into your layer list. Un-tick the other raster layers to only display the newly created shaded relief raster layer."
 msgstr ""
+"I `Raster`-menyn väljer du :menuselection:`Terrain analysis --> Compute "
+"shaded relief` (Terrain analysis ligger ungefär halvvägs ner i "
+"`Raster`-menyn), och dialogrutan för modulkontroll visas. Välj \"elevation\" "
+"*@PERMANENT*-kartan som inmatningsnamn och som utmatningskarta kan du ange "
+"\"shaded_relief\". När du är klar klickar du på [*Run*]. Nu bör du se att "
+"den nya kartan `shaded_relief` *@user1* har lagts till i din lagerlista. "
+"Avmarkera de andra rasterlagren för att bara visa det nyskapade rasterlagret "
+"för skuggad lättnad."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:140
 msgid "Add watersheds and streams"
-msgstr ""
+msgstr "Lägg till vattendelare och vattendrag"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:141
 msgid "Once again select the `elevation` *@PERMANENT* map. If you changed the region since the last step, again right click on the layer name and click on :menuselection:`Set computational region from selected map(s)` from the context menu in order to consider the full map for the watsershed calculation."
 msgstr ""
+"Välj återigen kartan `elevation` *@PERMANENT*. Om du ändrade regionen sedan "
+"förra steget, högerklicka återigen på skiktnamnet och klicka på "
+":menuselection:``Set computational region from selected map(s)`` från "
+"snabbmenyn för att ta hänsyn till hela kartan för beräkningen av "
+"vattendelaren."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:146
 msgid "The wxGUI map display's view and zoom is independent and does not affect processing calculations. Check the computational region at any time with :menuselection:`Settings --> Region --> Display Region`; this is of fundamental importance to any raster grid operations. Raster maps of differing bounds and resolution will be resampled to the current computational region on-the-fly."
 msgstr ""
+"Vyn och zoomen i wxGUI:s kartvisning är oberoende och påverkar inte "
+"bearbetningsberäkningarna. Kontrollera beräkningsregionen när som helst med "
+":menuselection:` `Settings --> Region --> Display Region`; detta är av "
+"grundläggande betydelse för alla rasternätoperationer. Rasterkartor med "
+"olika gränser och upplösning kommer att omsamplas till den aktuella "
+"beräkningsregionen i farten."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:148
 msgid "Next, in the `Raster` menu choose :menuselection:`Hydrologic modeling --> Watershed analysis`. This will open the ``r.watershed`` module. Select the `elevation` layer as your input map, in the same 'Inputs' tab set the \"Minimum size of the exterior watershed basin\" *threshold* to 10000 cells, then in the 'Outputs' tab enter \"elev.basins\" for the \"Name for basins raster map\" *basins* option and \"elev.streams\" for the \"Name for output stream segments raster map\" *streams* option just below it. Then click [*Run*]."
 msgstr ""
+"Välj sedan i `Raster`-menyn :menuselection:`Hydrologic modeling --> "
+"Watershed analysis`. Detta kommer att öppna modulen ``r.watershed``. Välj "
+"`elevation`-skiktet som din inmatningskarta, på samma flik \"Inputs\" "
+"ställer du in \"Minimum size of the exterior watershed basin\" *threshold* "
+"till 10000 celler, sedan anger du på fliken \"Outputs\" \"elev.basins\" för "
+"alternativet \"Name for basins raster map\" *basins* och \"elev.streams\" "
+"för alternativet \"Name for output stream segments raster map\" *streams* "
+"strax under det. Klicka sedan på [*Kör*]."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:157
 msgid "Back in the `GIS Layer Manager` window check that those two new raster maps are in the layer list and make sure that the basins map is ticked for display in the box to the left of the layer name. You might untick the streams map for now. Next, right click on the \"`elev.basins`\" raster map layer name and select \"`Change opacity level`\". Set it to about 50% which will re-render the Map Display. Drag a map layer (such as the earlier created shaded relief map) to lower down in the layer list if you wish for it to be drawn behind the watershed basins map layer, and make sure to tick its visibility box to view it as a backdrop."
 msgstr ""
+"Tillbaka i fönstret `GIS Layer Manager` kontrollera att de två nya "
+"rasterkartorna finns i lagerlistan och se till att bassängkartan är markerad "
+"för visning i rutan till vänster om lagernamnet. Du kan avmarkera "
+"strömmarnas karta för tillfället. Högerklicka sedan på rasterkartans "
+"skiktnamn \"`elev.basins`\" och välj \"`Change opacity level`\". Ställ in "
+"den på cirka 50% vilket kommer att återge kartdisplayen. Dra ett kartlager ("
+"t.ex. den tidigare skapade skuggade reliefkartan) längre ner i lagerlistan "
+"om du vill att det ska ritas bakom kartlagret för avrinningsområden, och se "
+"till att kryssa i rutan för synlighet för att se det som en bakgrund."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:172
 msgid "In the `GIS Layer Manager` window click on the `Add various overlays` button and `Add grid layer`. For size of grid put 5000 (in map units, here meter). Once done press :guilabel:`OK`. Optionally you may change the colors for the grid lines and the text labels."
 msgstr ""
+"I fönstret `GIS Layer Manager` klickar du på knappen `Add various overlays` "
+"och `Add grid layer`. Som storlek på rutnätet anger du 5000 (i kartanheter, "
+"här meter). När du är klar trycker du på :guilabel:`OK`. Alternativt kan du "
+"ändra färgerna för rutnätslinjerna och textetiketterna."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:177
 msgid "To add a scalebar go to the `Map Display` window and press the \"Add map elements\" button to the right of where you selected the Profile tool earlier and select \"Show/hide scalebar\" then click :guilabel:`Ok`. A scalebar will appear in the top left of the map canvas. Drag it down to the bottom right."
 msgstr ""
+"För att lägga till en scalebar går du till fönstret \"Map Display\" och "
+"trycker på knappen \"Add map elements\" till höger om där du valde "
+"profilverktyget tidigare och väljer \"Show/hide scalebar\" och klickar sedan "
+"på :guilabel:`Ok`. En scalebar visas längst upp till vänster på kartbilden. "
+"Dra ner den till nedre högra hörnet."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:192
 msgid "Now you may be thinking to yourself that these fonts are a bit bare. That's easily fixed in the `GIS Layer Manager` menus open :menuselection:`Settings --> Preferences` and in the Map Display tab click the [*Set font*] button, choose one (for example DajVu Sans Bold), and then [*Save*] or [*Save for this session only*] in the Preferences window. You will have to do a full re-render to see the change so click on the re-render button the first in the `Map Display` window. The fonts will now be much prettier."
 msgstr ""
+"Nu kanske du tänker att de här teckensnitten är lite tunna. Det är lätt att "
+"åtgärda i menyerna i `GIS Layer Manager` öppna :menuselection:`Inställningar "
+"--> Inställningar` och på fliken Kartvisning klicka på knappen [*Set font*], "
+"välj ett (till exempel DajVu Sans Bold) och sedan [*Save*] eller [*Save for "
+"this session only*] i inställningsfönstret. Du måste göra en fullständig "
+"omrendering för att se förändringen, så klicka på omrenderingsknappen först "
+"i fönstret `Map Display`. Teckensnitten kommer nu att vara mycket snyggare."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:202
 msgid "Work with vector modules"
-msgstr ""
+msgstr "Arbeta med vektormoduler"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:203
 msgid "The above tasks have only covered a few raster modules. Don't let this give you the idea that GRASS GIS is just for raster maps -- the vector engine and modules are every bit as full-featured as the raster ones. GRASS GIS maintains a fully topological vector engine which allows all sorts of very powerful analyses."
 msgstr ""
+"Ovanstående uppgifter har bara täckt några få rastermoduler. Låt dig inte "
+"förledas att tro att GRASS GIS bara är till för rasterkartor - vektormotorn "
+"och modulerna är precis lika fullfjädrade som rastermodulerna. GRASS GIS har "
+"en helt topologisk vektormotor som tillåter alla möjliga typer av mycket "
+"kraftfulla analyser."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:214
 msgid "Continuing with the watershed basins created above, next we'll convert them into vector polygons. In the `Raster` menu select :menuselection:`Map type conversions --> Raster to vector`. In the `r.to.vect` dialog that opens make sure that ``elev.basins @user1`` is selected for the input map, give a name for the output map like ``basins_areas`` (vector map names must be SQL compliant, hence not all characters are allowed), and change \"Output feature type\" to `area`. In the `Attributes` tab tick the box to use raster values as category numbers (i.e., the IDs), since these will match the values in our stream segment raster map created earlier. Then click on [*Run*]. Once the new vector map is displayed, you might right click on it in the `Layer Manager` list and change its opacity level to 50%."
 msgstr ""
+"Vi fortsätter med de avrinningsområden som skapades ovan och konverterar dem "
+"nu till vektorpolygoner. I `Raster`-menyn väljer du :menuselection:`Map type "
+"conversions --> Raster to vector`. I dialogrutan `r.to.vect` som öppnas "
+"kontrollerar du att ``elev.basins @user1`` har valts som inmatningskarta, "
+"ger utmatningskartan ett namn som ``basins_areas`` (namn på vektorkartor "
+"måste vara SQL-kompatibla, så alla tecken är inte tillåtna) och ändrar "
+"\"Output feature type\" till `area`. På fliken `Attributes` kryssar du i "
+"rutan för att använda rastervärden som kategorinummer (dvs. ID:n), eftersom "
+"dessa kommer att matcha värdena i vår rasterkarta över strömsegment som "
+"skapades tidigare. Klicka sedan på [*Kör*]. När den nya vektorkartan visas "
+"kan du högerklicka på den i listan `Layer Manager` och ändra dess "
+"opacitetsnivå till 50%."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:227
 msgid "Adjust vector map colors"
-msgstr ""
+msgstr "Justera färgerna på vektorkartan"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:228
 msgid "As we did earlier with a raster map we will change the color table of the new watershed basins vector map. With the ``basins_areas`` selected in the layer list, right click on the this vector map layer name and choose \"Set color table\". In the 'Define' tab click on the pull-down list for the \"Name of color table\" option, and pick for example \"bcyr\" (blue-cyan-yellow-red) from the list. Once done click the [*Run*] button and close the *v.colors* dialog window. You may need to re-draw the map to see the colorized vector map."
 msgstr ""
+"Som vi gjorde tidigare med en rasterkarta kommer vi att ändra färgtabellen "
+"för den nya vektorkartan för avrinningsområden. Med ``basins_areas`` "
+"markerat i lagerlistan högerklickar du på namnet på detta vektorkartlager "
+"och väljer \"Set color table\". På fliken \"Definiera\" klickar du på "
+"rullgardinsmenyn för alternativet \"Namn på färgtabell\" och väljer till "
+"exempel \"bcyr\" (blå-cyan-gul-röd) från listan. När du är klar klickar du "
+"på knappen [*Run*] och stänger dialogfönstret *v.colors*. Du kan behöva rita "
+"om kartan för att se den färgade vektorkartan."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:243
 msgid "Manage attributes"
-msgstr ""
+msgstr "Hantera attribut och variationer för denna variabla produkt"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:244
 msgid "Next we'll add some attributes to those new areas, containing the average elevation in each basin. In the Vector menu select :menuselection:`Update attributes --> Update area attributes from raster`. Use ``basin_areas`` as the vector polygon map, and select the ``elevation`` raster map to calculate the statistics from; set the the \"Column prefix for new attribute columns\" to ``elev``, and click [*Run*]; then close the dialog when it is finished. You can query the values in the `Map Display` window using the fourth icon from the left and after verifying that the vector-areas map is selected in the `Layer List`, clicking on a vector area in the map canvas."
 msgstr ""
+"Därefter lägger vi till några attribut till de nya områdena, som innehåller "
+"den genomsnittliga höjden i varje bassäng. I vektormenyn väljer du "
+":menuselection:`Uppdatera attribut --> Uppdatera områdesattribut från raster`"
+". Använd ``basin_areas`` som vektorpolygonkarta och välj rasterkartan "
+"``elevation`` att beräkna statistiken från; ställ in \"Column prefix for new "
+"attribute columns\" till ``elev`` och klicka på [*Run*]; stäng sedan "
+"dialogen när den är klar. Du kan fråga efter värdena i fönstret `Map Display`"
+" genom att använda den fjärde ikonen från vänster och efter att ha "
+"kontrollerat att kartan med vektorområden är vald i `Layer List`, klicka på "
+"ett vektorområde i kartbilden."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:253
 msgid "You can now re-colorize the areas based on the average elevation values using the ``v.colors`` module. In the Vector menu select :menuselection:`Manage colors --> Color tables`. Select ``basin_areas`` for the input vector map, as \"Source value\" select ``attr`` instead of ``cat``. Then, in the \"Define\" tab choose the ``elev_average`` attribute column for the column containing the numeric range. The colors we want to copy from the `elevation` raster map, so we select it as the name for \"Raster map from which to copy color table\". After clicking [*Run*] you need to refresh the map display (first icon from left) to see the updated basins map."
 msgstr ""
+"Du kan nu färglägga områdena baserat på de genomsnittliga höjdvärdena med "
+"hjälp av modulen ``v.colors``. I vektormenyn väljer du :menuselection:`"
+"Hantera färger --> Färgtabeller`. Välj ``basin_areas`` för den ingående "
+"vektorkartan, som \"Source value\" välj ``attr`` istället för ``cat``. På "
+"fliken \"Definiera\" väljer du sedan attributkolumnen ``elev_average`` för "
+"den kolumn som innehåller det numeriska intervallet. Färgerna vill vi "
+"kopiera från rasterkartan `elevation`, så vi väljer den som namn för \"Raster"
+" map from which to copy color table\". När du har klickat på [*Kör*] måste "
+"du uppdatera kartvisningen (första ikonen från vänster) för att se den "
+"uppdaterade bassängkartan."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:263
 msgid "Now let's look at the attribute table and SQL builder in more detail. In the `Layer Manager` click the table icon (\"Show attribute data for selected vector map\"), it is second from the left on the bottom row. This will open a view of the database table attached to the selected vector map. For now we'll just do a *Simple* database query to find watershed basins without a lot of variation in them. Where it says ``SELECT * FROM basin_areas WHERE`` pick ``elev_stddev`` from the pull down list for the standard deviation statistic, then select ``<`` from the relation list and in the text box to its right enter ``< 50`` and click [*Apply*]. You'll notice the number of loaded records in the information bar along the bottom of the window has shrunk, and that all of the rows with large values for standard deviation (std. dev.) are now gone from the displayed table. Right-click on the table data and choose ``Select all``. Again right-click on the table data and this time choose ``Highlight selected features``. You should see e.g. alluvial flood basins and mesas show up in the ``Map Display``."
 msgstr ""
+"Låt oss nu titta på attributtabellen och SQL-byggaren mer i detalj. I `Layer "
+"Manager` klickar du på tabellikonen (\"Show attribute data for selected "
+"vector map\"), den är andra från vänster på den nedre raden. Detta öppnar en "
+"vy över databastabellen som är kopplad till den valda vektorkartan. Nu ska "
+"vi bara göra en *enkel* databasfråga för att hitta avrinningsområden utan så "
+"mycket variation. Där det står ``SELECT * FROM basin_areas WHERE`` välj "
+"``elev_stddev`` från rullgardinsmenyn för standardavvikelsestatistiken, välj "
+"sedan ``<`` från relationslistan och ange ``< 50`` i textrutan till höger "
+"och klicka på [*Apply*]. Du kommer att märka att antalet inlästa poster i "
+"informationsfältet längst ned i fönstret har minskat och att alla rader med "
+"stora värden för standardavvikelse (std. dev.) nu har försvunnit från den "
+"tabell som visas. Högerklicka på tabelldata och välj ``Select all``. "
+"Högerklicka igen på tabelldata och välj den här gången ``Highlight selected "
+"features``. Du bör se att t.ex. alluviala översvämningsbassänger och mesas "
+"dyker upp i \"Map Display\"."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:280
 msgid "View a 3D visualization"
-msgstr ""
+msgstr "Visa en 3D-visualisering"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:286
 msgid "In order to start the 3D visualization suite, select the `elevation` map as the raster elevation in the `Layer list` and additionally highlight the entry, then select in the `Map Display` window the \"3D view\" (at the right end of the toolbar). Once the 3D display interface loads, you will see several tabs for the display control of the 3D view. Next select the \"Data\" tab and set the fine resolution to \"1\" (the lower the value, the finer the resolution), then move the positioning puck and height slider on the \"View\" tab around to get different views."
 msgstr ""
+"För att starta 3D-visualiseringssviten väljer du kartan `elevation` som "
+"rasterhöjd i `Layer list` och markerar dessutom posten, sedan väljer du i "
+"fönstret `Map Display` \"3D view\" (i högra änden av verktygsfältet). När "
+"gränssnittet för 3D-visning har laddats ser du flera flikar för kontroll av "
+"3D-visningen. Välj sedan fliken \"Data\" och ställ in den fina upplösningen "
+"på \"1\" (ju lägre värde, desto finare upplösning) och flytta sedan "
+"positioneringspucken och höjdreglaget på fliken \"View\" för att få olika "
+"vyer."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:295
 msgid "To drape maps, satellite or aerial imagery over the top of the DEM, in the \"Data\" tab select as name for the **Surface Attributes** map the overlay image \"`landuse`\" in the PERMANENT mapset is a good choice. The new view is rendered immediately. Since the area is relatively flat, you can go back to the \"View\" tab and increase the Z exaggeration (\"z-Exag\")."
 msgstr ""
+"För att drapera kartor, satellit- eller flygbilder över toppen av DEM, i "
+"fliken \"Data\", välj som namn för **Surface Attributes**-kartan "
+"överläggningsbilden \"`landuse`\" i PERMANENT-kartuppsättningen är ett bra "
+"val. Den nya vyn renderas omedelbart. Eftersom området är relativt platt kan "
+"du gå tillbaka till fliken \"View\" och öka Z-överdimensioneringen (\"z-"
+"Exag\")."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:302
 msgid "For easy navigation in the 3D view, switch on the \"Rotate 3D scene\" in the map display toolbar, then use the mouse to move the view around."
 msgstr ""
+"För enkel navigering i 3D-vyn kan du aktivera \"Rotera 3D-scen\" i "
+"verktygsfältet för kartvisning och sedan använda musen för att flytta runt "
+"vyn."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:306
 msgid "Things to try"
-msgstr ""
+msgstr "Saker att prova"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:307
 msgid "While not covered here, you may like to experiment with the Cartographic Composer and object-oriented Graphical Modelling Tool (offers export to Python). You'll find icons to launch them on the lower row of icons in the `Layer Manager` window. Further details can be found in the `wxGUI <https://grass.osgeo.org/grass-stable/manuals/wxGUI.html>`_ help pages."
 msgstr ""
+"Även om det inte tas upp här kanske du vill experimentera med Cartographic "
+"Composer och det objektorienterade Graphical Modelling Tool (erbjuder export "
+"till Python). Du hittar ikoner för att starta dem på den nedre raden av "
+"ikoner i fönstret `Layer Manager`. Mer information finns i hjälpsidorna för `"
+"wxGUI <https://grass.osgeo.org/grass-stable/manuals/wxGUI.html>`_."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:314
 msgid "API"
-msgstr ""
+msgstr "API"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:315
 msgid "The wxGUI is written in Python, and if you're a fan of Python programming there are a number of great tools and an API available to you. In the bottom of the `Layer Manager` window click on the `Python shell` tab and type ``help(grass.core)`` to see a listing of the many functions available in the core GIS python library. Besides the core GIS functions there is also `array` (NumPy), `db` (database), `raster`, and `vector` libraries available. For advanced use `Pythons Ctypes` is supported allowing the Python programmer direct access to GRASS GIS' extensive C libraries. See the manual pages for an extensive description of the programming options."
 msgstr ""
+"WxGUI är skrivet i Python, och om du gillar Python-programmering finns det "
+"ett antal bra verktyg och ett API tillgängligt för dig. Längst ner i "
+"fönstret `Layer Manager` klickar du på fliken `Python shell` och skriver "
+"``help(grass.core)`` för att se en lista över de många funktioner som finns "
+"i GIS pythonbibliotek. Förutom GIS-kärnfunktionerna finns även biblioteken "
+"`array` (NumPy), `db` (databas), `raster` och `vector` tillgängliga. För "
+"avancerad användning stöds `Pythons Ctypes` som ger Python-programmeraren "
+"direkt tillgång till GRASS GIS omfattande C-bibliotek. Se manualsidorna för "
+"en utförlig beskrivning av programmeringsalternativen."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:326
 msgid "Command line"
-msgstr ""
+msgstr "Kommandorad"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:327
 msgid "In the GRASS terminal session, try a GRASS module by typing \"``v.clean --help``\" which will give you a list of module options. The GRASS command line is where the true power of the GIS comes into its own. GRASS is designed to allow all commands to be tied together in scripts for large bulk processing jobs. Popular scripting languages are Bourne Shell and Python, and many neat tricks to help make scripting easier are included for both. With these tools you can make a new GRASS module with only about 5 minutes of coding, complete with powerful parser, GUI, and help page template."
 msgstr ""
+"I GRASS-terminalsessionen kan du prova en GRASS-modul genom att skriva \"``"
+"v.clean --help``\", vilket ger dig en lista med modulalternativ. Det är på "
+"GRASS kommandorad som GIS:ets verkliga kraft kommer till sin rätt. GRASS är "
+"utformat så att alla kommandon kan kopplas samman i skript för stora "
+"massbearbetningsjobb. Populära skriptspråk är Bourne Shell och Python, och "
+"många smarta trick för att göra skriptningen enklare ingår för båda. Med "
+"dessa verktyg kan du skapa en ny GRASS-modul med bara ca 5 minuters kodning, "
+"komplett med kraftfull parser, GUI och mall för hjälpsida."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:336
 msgid "\"``g.manual -i``\" will launch a web browser with the module help pages. When you are done close the browser and type \"exit\" at the GRASS terminal prompt to leave the GIS environment."
 msgstr ""
+"\"``g.manual -i``\" kommer att starta en webbläsare med modulens hjälpsidor. "
+"När du är klar stänger du webbläsaren och skriver \"exit\" på GRASS "
+"terminalprompt för att lämna GIS-miljön."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:341
 msgid "What next?"
-msgstr ""
+msgstr "Hur vill du gå vidare?"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:342
 msgid "Visit the GRASS GIS website at `https://grass.osgeo.org <https://grass.osgeo.org>`_"
 msgstr ""
+"Besök GRASS GIS webbplats på `https://grass.osgeo.org <https://grass.osgeo."
+"org>`_"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:343
 msgid "Visit the GRASS GIS Wiki help site at `https://grasswiki.osgeo.org/wiki/ <https://grasswiki.osgeo.org/wiki/Main_Page>`_"
 msgstr ""
+"Besök GRASS GIS Wikis hjälpwebbplats på `https://grasswiki.osgeo.org/wiki/ "
+"<https://grasswiki.osgeo.org/wiki/Main_Page>`_"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:344
 msgid "More tutorials and overviews can be found `here <https://grasswiki.osgeo.org/wiki/GRASS_Help#Getting_Started>`_."
 msgstr ""
+"Fler handledningar och översikter finns här <https://grasswiki.osgeo.org/"
+"wiki/GRASS_Help#Getting_Started>`_."
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:345
 msgid "A `synopsis of the GRASS GIS modules <https://grass.osgeo.org/grass-stable/manuals/full_index.html>`_"
 msgstr ""
+"En `sammanfattning av GRASS GIS-modulerna <https://grass.osgeo.org/"
+"grass-stable/manuals/full_index.html>`_"
 
 #: ../../build/doc/quickstart/grass_quickstart.rst:346
 msgid "If the 400 GIS modules which come with GRASS aren't enough for you have a look at the many contributed add-ons at `https://grass.osgeo.org/grass-stable/manuals/addons/ <https://grass.osgeo.org/grass-stable/manuals/addons/>`_"
 msgstr ""
+"Om de 400 GIS-modulerna som medföljer GRASS inte räcker till kan du ta en "
+"titt på de många tilläggsmodulerna som finns på https://grass.osgeo.org/"
+"grass-stable/manuals/addons/ <https://grass.osgeo.org/grass-stable/manuals/"
+"addons/>`_"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -276,9 +497,9 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

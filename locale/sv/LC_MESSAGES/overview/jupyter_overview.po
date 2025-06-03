@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "jupyter_overview/sv/>\n"
 "Language: sv\n"
@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../../build/doc/overview/jupyter_overview.rst:16
 msgid "Jupyter Notebook"
-msgstr ""
+msgstr "Jupyter anteckningsbok"
 
 #: ../../build/doc/overview/jupyter_overview.rst:19
 msgid "Mixing rich media in documentation"
-msgstr ""
+msgstr "Blandning av rich media i dokumentationen"
 
 #: ../../build/doc/overview/jupyter_overview.rst:21
 msgid ""
@@ -36,16 +36,21 @@ msgid ""
 "share documents that contain live code, equations, visualizations and "
 "explanatory text."
 msgstr ""
+"Jupyter Notebook är en webbapplikation som gör att du kan skapa och dela "
+"dokument som innehåller livekod, ekvationer, visualiseringar och förklarande "
+"text."
 
 #: ../../build/doc/overview/jupyter_overview.rst:25
 msgid "It combines two components:"
-msgstr ""
+msgstr "Den kombinerar två komponenter:"
 
 #: ../../build/doc/overview/jupyter_overview.rst:27
 msgid ""
 "A web application providing browser-based, interactive authoring of notebook"
 " documents."
 msgstr ""
+"En webbapplikation som tillhandahåller webbläsarbaserad, interaktiv skapande "
+"av anteckningsboksdokument."
 
 #: ../../build/doc/overview/jupyter_overview.rst:29
 msgid ""
@@ -54,22 +59,30 @@ msgid ""
 "explanatory text, mathematics, code, images, videos, graphs, maps, and other"
 " rich media representations of objects."
 msgstr ""
+"Notebook-dokument som lagrar en representation av allt innehåll som är "
+"synligt i webbapplikationen, inklusive in- och utdata från beräkningar, "
+"förklarande text, matematik, kod, bilder, videor, grafer, kartor och andra "
+"rich media-representationer av objekt."
 
 #: ../../build/doc/overview/jupyter_overview.rstNone
 msgid "jupyter screenshot"
-msgstr ""
+msgstr "jupyter skärmdump"
 
 #: ../../build/doc/overview/jupyter_overview.rst:37
 msgid ""
 "Notebooks can be shared with others on GitHub, Dropbox, and the `Jupyter "
 "Notebook Viewer <https://nbviewer.org>`__."
 msgstr ""
+"Anteckningsböcker kan delas med andra på GitHub, Dropbox och i `Jupyter "
+"Notebook Viewer <https://nbviewer.org>`__."
 
 #: ../../build/doc/overview/jupyter_overview.rst:40
 msgid ""
 "Uses include: data cleaning and transformation, numerical simulation, "
 "statistical modeling, machine learning and much more."
 msgstr ""
+"Användningsområdena omfattar: datarengöring och -omvandling, numerisk "
+"simulering, statistisk modellering, maskininlärning och mycket mer."
 
 #: ../../build/doc/overview/jupyter_overview.rst:45
 msgid "Core Features"
@@ -77,35 +90,41 @@ msgstr "Kärnfunktioner"
 
 #: ../../build/doc/overview/jupyter_overview.rst:47
 msgid "Create Jupyter Notebooks which can contain:"
-msgstr ""
+msgstr "Skapa Jupyter Notebooks som kan innehålla:"
 
 #: ../../build/doc/overview/jupyter_overview.rst:49
 msgid "Marked up text (with headings, styles, paragraphs, etc)"
-msgstr ""
+msgstr "Markerad text (med rubriker, stilar, stycken etc.)"
 
 #: ../../build/doc/overview/jupyter_overview.rst:50
 msgid "Formulas, mathematics, plots, maps, ..."
-msgstr ""
+msgstr "Formler, matematik, diagram, kartor, ..."
 
 #: ../../build/doc/overview/jupyter_overview.rst:51
 msgid "Imported external libraries to add functionality"
-msgstr ""
+msgstr "Importerade externa bibliotek för att lägga till funktionalitet"
 
 #: ../../build/doc/overview/jupyter_overview.rst:52
 msgid ""
 "Code from multiple programming languages, including Python, R, Julia, Bash "
 "and many more."
 msgstr ""
+"Kod från flera olika programmeringsspråk, bland annat Python, R, Julia, Bash "
+"och många fler."
 
 #: ../../build/doc/overview/jupyter_overview.rst:54
 msgid "Jupyter Notebooks on OSGeoLive can use geospatial functions from:"
 msgstr ""
+"Jupyter-anteckningsböcker på OSGeoLive kan använda geospatiala funktioner "
+"från:"
 
 #: ../../build/doc/overview/jupyter_overview.rst:56
 msgid ""
 "Numpy, SciPy Matplotlib, IRIS, Cartopy, gdal, Geopandas, pyshp, Fiona, "
 "netCDF4, PostgreSQL, psycopg2, R, rpy2, and more."
 msgstr ""
+"Numpy, SciPy Matplotlib, IRIS, Cartopy, gdal, Geopandas, pyshp, Fiona, "
+"netCDF4, PostgreSQL, psycopg2, R, rpy2 och mer."
 
 #: ../../build/doc/overview/jupyter_overview.rst:60
 msgid "Details"
@@ -113,27 +132,27 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/jupyter_overview.rst:62
 msgid "**Website:** https://jupyter.org/"
-msgstr ""
+msgstr "**Webbplats:** https://jupyter.org/"
 
 #: ../../build/doc/overview/jupyter_overview.rst:64
 msgid "**Licence:** The 3-Clause BSD License"
-msgstr ""
+msgstr "**Licens:** BSD-licensen med 3 klausuler"
 
 #: ../../build/doc/overview/jupyter_overview.rst:66
 msgid "**Software Version:** |version-jupyter|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-jupyter|"
 
 #: ../../build/doc/overview/jupyter_overview.rst:68
 msgid "**Supported Platforms:** Linux, Mac, Windows"
-msgstr ""
+msgstr "**Plattformar som stöds:** Linux, Mac, Windows"
 
 #: ../../build/doc/overview/jupyter_overview.rst:70
 msgid "**API Interfaces:** Python"
-msgstr ""
+msgstr "**API-gränssnitt:** Python"
 
 #: ../../build/doc/overview/jupyter_overview.rst:72
 msgid "**Support:** https://jupyter.org/community.html"
-msgstr ""
+msgstr "**Support:** https://jupyter.org/community.html"
 
 #: ../../build/doc/overview/jupyter_overview.rst:78
 msgid "Quickstart"
@@ -141,7 +160,7 @@ msgstr "Snabbstart"
 
 #: ../../build/doc/overview/jupyter_overview.rst:80
 msgid ":doc:`Quickstart documentation <../quickstart/jupyter_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snabbstartsdokumentation <../quickstart/jupyter_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -153,8 +172,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

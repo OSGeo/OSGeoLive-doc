@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "geonetwork_quickstart/sv/>\n"
 "Language: sv\n"
@@ -21,291 +21,390 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:27
 msgid "GeoNetwork Quickstart"
-msgstr ""
+msgstr "GeoNetwork Snabbstart"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:29
 msgid "GeoNetwork is a catalog application to manage spatially referenced resources. It provides powerful metadata editing and search functions as well as an interactive web map viewer. It is currently used in numerous Spatial Data Infrastructure initiatives across the world."
 msgstr ""
+"GeoNetwork är en katalogapplikation för att hantera resurser med rumslig "
+"referens. Den innehåller kraftfulla redigerings- och sökfunktioner för "
+"metadata samt en interaktiv webbkartvisare. Den används för närvarande i "
+"många initiativ för infrastruktur för rumsliga data över hela världen."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:35
 msgid "Prerequisites"
-msgstr ""
+msgstr "Förutsättningar"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:37
 msgid "GeoNetwork can directly be started from the OSGeo Live start menu and will be available at http://localhost:8080/geonetwork some moments later. Check the `Installation Guide <https://geonetwork-opensource.org/manuals/trunk/en/install-guide/index.html>`__ if you are using GeoNetwork in some other context."
 msgstr ""
+"GeoNetwork kan startas direkt från startmenyn i OSGeo Live och kommer att "
+"finnas tillgängligt på http://localhost:8080/geonetwork en stund senare. Se "
+"installationsguiden <https://geonetwork-opensource.org/manuals/trunk/en/"
+"install-guide/index.html>`__ om du använder GeoNetwork i något annat "
+"sammanhang."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:39
 msgid "Throughout this guide we will use the URL ``http://localhost:8880/geonetwork`` to refer to the catalog, please substitute a different URL if this is not correct for your system."
 msgstr ""
+"I den här handboken använder vi URL:en ``http://localhost:8880/geonetwork`` "
+"för att hänvisa till katalogen. Använd en annan URL om den inte är korrekt "
+"för ditt system."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:43
 msgid "Access the catalog"
-msgstr ""
+msgstr "Öppna katalogen"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:45
 msgid "In the Web Services folder on the Desktop (or via the start menu), double-click **start GeoNetwork**. This will open the Firefox web browser at the URL ``http://localhost:8880/geonetwork``. This will be referred to throughout this document as the *homepage*."
 msgstr ""
+"I mappen Web Services på skrivbordet (eller via startmenyn) dubbelklickar du "
+"på **starta GeoNetwork**. Detta öppnar webbläsaren Firefox på webbadressen "
+"``http://localhost:8880/geonetwork``. I det här dokumentet kallas den här "
+"adressen för *hemsidan*."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:47
 msgid "You can return to the homepage at any point by selecting the catalogue logo in the top left of the top toolbar. In the screenshot below, this is labelled “My GeoNetwork catalogue” but it may have a different name and logo."
 msgstr ""
+"Du kan när som helst återgå till startsidan genom att välja kataloglogotypen "
+"längst upp till vänster i det övre verktygsfältet. I skärmdumpen nedan är "
+"den märkt \"My GeoNetwork catalogue\", men den kan ha ett annat namn och en "
+"annan logotyp."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:55
 msgid "Sign in"
-msgstr ""
+msgstr "Logga in"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:57
 msgid "Select **Sign in** in the top right of the top toolbar in the homepage to visit the sign in page. Enter the username ``admin`` and password ``admin`` and select the blue **Sign in** button to sign in as the catalog administrator."
 msgstr ""
+"Välj **Sign in** längst upp till höger i det övre verktygsfältet på "
+"startsidan för att komma till inloggningssidan. Ange användarnamnet ``admin``"
+" och lösenordet ``admin`` och välj den blå knappen **Sign in** för att logga "
+"in som katalogadministratör."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:63
 msgid "Once signed in, the top toolbar will change to include some additional elements, namely a link to the Admin console, the name of the signed in user, a link to Sign out, and a dropdown box for changing the interface language."
 msgstr ""
+"När du har loggat in ändras det övre verktygsfältet så att det innehåller "
+"några ytterligare element, nämligen en länk till Admin-konsolen, namnet på "
+"den inloggade användaren, en länk till Logga ut och en rullgardinsmeny för "
+"att ändra gränssnittsspråket."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:70
 msgid "Load sample data"
-msgstr ""
+msgstr "Ladda exempeldata"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:72
 msgid "Select **Admin console** in the top toolbar to access the administrative functions in the catalog, then select the **Metadata and templates** menuitem to access the sample data and templates tab."
 msgstr ""
+"Välj **Admin console** i det övre verktygsfältet för att komma åt de "
+"administrativa funktionerna i katalogen, välj sedan menyalternativet **"
+"Metadata och mallar** för att komma till fliken Sample data and templates."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:74
 msgid "This page lists all the metadata standards loaded in the catalog. The default standards in GeoNetwork are:"
 msgstr ""
+"På denna sida listas alla metadatastandarder som laddats i katalogen. "
+"Standardstandarderna i GeoNetwork är:"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:76
 msgid "Geographic information - Metadata (iso19139:2007)"
-msgstr ""
+msgstr "Geografisk information - Metadata (iso19139:2007)"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:77
 msgid "Geographic information - Metadata (iso19115-3.2018)"
-msgstr ""
+msgstr "Geografisk information - Metadata (iso19115-3.2018)"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:78
 msgid "Dublin Core (for CSW only) (csw-record)"
-msgstr ""
+msgstr "Dublin Core (endast för CSW) (csw-record)"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:79
 msgid "Dublin Core (dublin core)"
-msgstr ""
+msgstr "Dublin Core (dublin core)"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:80
 msgid "Geographic information - Methodology for feature cataloguing (iso9110)"
-msgstr ""
+msgstr "Geografisk information - Metodik för katalogisering av objekt (iso9110)"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:82
 msgid "For the purposes of this Quick Start Guide, select ``Geographic information - Metadata (iso19139:2007)`` and then select first the **Load samples for selected standards** button below the list."
 msgstr ""
+"I den här snabbstartsguiden väljer du \"Geografisk information - Metadata "
+"(iso19139:2007)\" och väljer sedan först knappen **Ladda prover för valda "
+"standarder** under listan."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:87
 msgid "*When this process is complete, a notice will appear in the right of the window indicating that 5 record(s) have been added for schema ‘iso19139’.*"
 msgstr ""
+"*När denna process är klar visas ett meddelande till höger i fönstret som "
+"anger att 5 poster har lagts till för schema 'iso19139'.*"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:90
 msgid "Search for spatial data"
-msgstr ""
+msgstr "Sök efter rumsliga data"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:92
 msgid "Return to the catalog homepage by selecting the catalog name in the top left of the top toolbar. The homepage will now show icons representing the loaded records, classified by topic (in blue) and resource type (in green). Below this are tabs classifying the records by date added (latest news) and popularity (most popular)."
 msgstr ""
+"Gå tillbaka till katalogens startsida genom att välja katalogens namn längst "
+"upp till vänster i det övre verktygsfältet. På startsidan visas nu ikoner "
+"som representerar de inlästa posterna, klassificerade efter ämne (i blått) "
+"och resurstyp (i grönt). Under detta finns flikar som klassificerar posterna "
+"efter tillagd datum (senaste nytt) och popularitet (mest populära)."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:97
 msgid "Select **Search** in the top toolbar to access the Search page."
-msgstr ""
+msgstr "Välj **Sök** i det övre verktygsfältet för att komma till söksidan."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:99
 msgid "The Search page provides different ways for search:"
-msgstr ""
+msgstr "På sidan Sök finns olika sätt att söka:"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:101
 msgid "a full text search box providing suggestions as you type,"
-msgstr ""
+msgstr "en sökruta för fulltext som ger förslag medan du skriver,"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:107
 msgid "*Search facets*, or filters, that provide ways of narrowing down the search results, such as *Type of Resource*, *Topic*, *Keywords*,"
 msgstr ""
+"*Sökfacetter*, eller filter, som ger möjlighet att begränsa sökresultaten, "
+"t.ex. *Resurstyp*, *Tema*, *Nyckelord*,"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:112
 msgid "An overview map, where you can draw a box to filter results spatially (Hint- if you can’t see this, select MAP in the bottom right corner of your page)"
 msgstr ""
+"En översiktskarta, där du kan rita en ruta för att filtrera resultaten "
+"rumsligt (Tips - om du inte kan se detta, välj MAP i det nedre högra hörnet "
+"på din sida)"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:117
 msgid "By selecting the vertical ellipsis in the search box you can access the **advanced search** panel and search by *category*, *keyword*, *contact*, or records within a specific time period."
 msgstr ""
+"Genom att välja den vertikala ellipsen i sökrutan kan du komma åt panelen **"
+"avancerad sökning** och söka efter *kategori*, *nyckelord*, *kontakt* eller "
+"poster inom en viss tidsperiod."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:124
 msgid "Display results"
-msgstr ""
+msgstr "Visa resultat"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:126
 msgid "The search results are depicted as “cards”, showing the Categories the metadata is classified with, the title of the record, a thumbnail, an abstract (if present) and links to downloads and other resources (if present)."
 msgstr ""
+"Sökresultaten visas som \"kort\", som visar de kategorier som metadata "
+"klassificeras med, postens titel, en miniatyrbild, ett sammandrag (om det "
+"finns) och länkar till nedladdningar och andra resurser (om det finns)."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:131
 msgid "Select a card to take you to a page showing the full details for that record. Select the blue **Back to search** button to return to the Search page when you’re done."
 msgstr ""
+"Välj ett kort för att komma till en sida som visar alla detaljer för den "
+"posten. Välj den blå knappen **Tillbaka till sökning** för att återgå till "
+"söksidan när du är klar."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:137
 msgid "In the top right of the record are icons for:"
-msgstr ""
+msgstr "Längst upp till höger på skivan finns ikoner för:"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:139
 msgid "Editing the record (when logged in)"
-msgstr ""
+msgstr "Redigera posten (när du är inloggad)"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:140
 msgid "Deleting the record"
-msgstr ""
+msgstr "Radering av posten"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:141
 msgid "Managing the record (such as assigning viewing or editing privileges, transferring ownership to a different user)"
 msgstr ""
+"Hantera posten (t.ex. tilldela visnings- eller redigeringsbehörighet, "
+"överföra äganderätten till en annan användare)"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:142
 msgid "Downloading the record as multiple formats"
-msgstr ""
+msgstr "Nedladdning av skivan i flera format"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:143
 msgid "Switching to **Full view** or **XML view**"
-msgstr ""
+msgstr "Växla till **Full vy** eller **XML-vy**"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:145
 msgid "Switching to **Full view** will show more detailed metadata. To switch back to the original view select **Default view** from the list."
 msgstr ""
+"Om du växlar till **Full view** visas mer detaljerade metadata. För att "
+"växla tillbaka till den ursprungliga vyn väljer du **Default view** från "
+"listan."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:148
 msgid "Add layers to the map"
-msgstr ""
+msgstr "Lägga till lager på kartan"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:150
 msgid "From the **Search tab**, click on the card for **Physiographic Map of North and Central Eurasia (Sample record, please remove!)** to view the metadata. Move down the page until the **Download and links** section is visible."
 msgstr ""
+"På fliken **Search** klickar du på kortet för **Physiographic Map of North "
+"and Central Eurasia (Sample record, please remove!)** för att se metadata. "
+"Gå ner på sidan tills avsnittet **Download and links** är synligt."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:152
 msgid "The **Download and links** section shows external resources associated with the metadata record, such as:"
 msgstr ""
+"Avsnittet **Download and links** visar externa resurser som är kopplade till "
+"metadataposten, t.ex:"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:154
 msgid "A file download of the data,"
-msgstr ""
+msgstr "En filnedladdning av data,"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:155
 msgid "Further information such as a web page,"
-msgstr ""
+msgstr "Ytterligare information, t.ex. en webbsida,"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:156
 msgid "A Web Mapping Service (WMS) or Web Feature Service (WFS) link to the data."
 msgstr ""
+"En länk till data från Web Mapping Service (WMS) eller Web Feature Service "
+"(WFS)."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:158
 msgid "Locate the link labelled as **This dataset is published in the view service (WMS) available at http://data.fao.org/maps/wms with layer name GEONETWORK:phy_landf_7386.** and select **Add to map**."
 msgstr ""
+"Leta reda på länken som är märkt som **Den här datamängden publiceras i "
+"visningstjänsten (WMS) som finns på http://data.fao.org/maps/wms med "
+"skiktnamnet GEONETWORK:phy_landf_7386.** och välj **Lägg till på kartan**."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:160
 msgid "This step will switch you to the **Map** tab in the catalog, and after a short delay the WMS layer will be added to the map."
 msgstr ""
+"Detta steg kommer att växla dig till fliken **Karta** i katalogen, och efter "
+"en kort fördröjning kommer WMS-skiktet att läggas till på kartan."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:162
 msgid "Tools for using the Map are arranged in two groups in the right-hand side of the map. The top group looks like this:"
 msgstr ""
+"Verktygen för att använda kartan är indelade i två grupper till höger på "
+"kartan. Den översta gruppen ser ut så här:"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:168
 msgid "The tools are as follows:"
-msgstr ""
+msgstr "Verktygen är följande:"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:170
 msgid "Add new layers to the map. You can search the catalog, add layers from web services, or KML,"
 msgstr ""
+"Lägg till nya lager på kartan. Du kan söka i katalogen, lägga till lager "
+"från webbtjänster eller KML,"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:171
 msgid "Manage existing layers or change the background map (the default is openstreetmap),"
 msgstr ""
+"Hantera befintliga lager eller ändra bakgrundskartan (standard är "
+"openstreetmap),"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:172
 msgid "Filter layers on the map (if configured),"
-msgstr ""
+msgstr "Filtrera lager på kartan (om konfigurerat),"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:173
 msgid "Manage the Map, by setting it back to default settings, loading a new map definition, downloading the current map, or saving the map configuration as a layer in the catalog,"
 msgstr ""
+"Hantera kartan genom att återställa den till standardinställningarna, ladda "
+"en ny kartdefinition, ladda ner den aktuella kartan eller spara "
+"kartkonfigurationen som ett lager i katalogen,"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:174
 msgid "Print the map,"
-msgstr ""
+msgstr "Skriv ut kartan,"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:175
 msgid "Synchronise layers with the small map on the Search tab,"
-msgstr ""
+msgstr "Synkronisera lager med den lilla kartan på fliken Sök,"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:176
 msgid "Measure distances on the map,"
-msgstr ""
+msgstr "Mät avstånd på kartan,"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:177
 msgid "Draw annotations on the map."
-msgstr ""
+msgstr "Rita anteckningar på kartan."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:179
 msgid "The lower group of tools look like this:"
-msgstr ""
+msgstr "Den nedre gruppen av verktyg ser ut så här:"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:185
 msgid "They are as follows:"
-msgstr ""
+msgstr "De är följande:"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:187
 msgid "Zoom in on the map,"
-msgstr ""
+msgstr "Zooma in på kartan,"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:188
 msgid "Zoom out on the map,"
-msgstr ""
+msgstr "Zooma ut på kartan,"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:189
 msgid "Zoom to the initial extent of the map,"
-msgstr ""
+msgstr "Zooma till kartans ursprungliga utsträckning,"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:190
 msgid "Zoom to your position (if your browser is location-enabled),"
-msgstr ""
+msgstr "Zooma till din position (om din webbläsare har platsaktivering),"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:191
 msgid "Add a graticule (grid lines) to your map."
-msgstr ""
+msgstr "Lägg till en graticule (rutnät) på din karta."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:193
 msgid "Additionally there is a geographic search tool in the top left."
-msgstr ""
+msgstr "Dessutom finns ett geografiskt sökverktyg längst upp till vänster."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:195
 msgid "Using the Manage Layers tool, select the cog symbol next to **Physiography of North and Central Eurasia Landform** and select **Zoom to layer**."
 msgstr ""
+"Använd verktyget Manage Layers och markera kugghjulssymbolen bredvid **"
+"Physiography of North and Central Eurasia Landform** och välj **Zoom to "
+"layer**."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:201
 msgid "The map will zoom to the extent of this layer."
-msgstr ""
+msgstr "Kartan zoomar till omfattningen av detta lager."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:206
 msgid "Select the **paintbrush** icon next to the layer to see the legend, showing you the classification used for the display. You can dismiss this dialog by selecting the **X** in the top right corner."
 msgstr ""
+"Välj ikonen **målarpensel** bredvid lagret för att se legenden, som visar "
+"den klassificering som används för visningen. Du kan stänga av dialogrutan "
+"genom att klicka på **X** i det övre högra hörnet."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:211
 msgid "Select a feature on the map corresponding to a category in the legend, such as an area of water. Zoom and pan around the map as needed to identify a suitable area. Clicking on the feature will bring up an identification box at the bottom of the map showing details about the area selected."
 msgstr ""
+"Välj en funktion på kartan som motsvarar en kategori i teckenförklaringen, "
+"t.ex. ett vattenområde. Zooma och panorera runt på kartan efter behov för "
+"att identifiera ett lämpligt område. Om du klickar på objektet visas en "
+"identifieringsruta längst ned på kartan med information om det valda området."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:219
 msgid "What next?"
-msgstr ""
+msgstr "Hur vill du gå vidare?"
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:221
 msgid "Visit the `Geonetwork User Guide <https://geonetwork-opensource.org/manuals/trunk/en/user-guide/index.html>`_ and try the chapter on **Describing Information**, to learn how to create and edit metadata records."
 msgstr ""
+"Besök `Geonetwork User Guide <https://geonetwork-opensource.org/manuals/"
+"trunk/en/user-guide/index.html>`_ och läs kapitlet om **Describing "
+"Information** för att lära dig hur du skapar och redigerar metadataposter."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:223
 msgid "Follow up by visiting subsequent chapters to learn how to associate resources with your metadata, tag it with keywords and add it to categories, and publish your metadata to the outside world."
 msgstr ""
+"Följ upp med att besöka de följande kapitlen för att lära dig hur du "
+"associerar resurser med dina metadata, taggar dem med nyckelord och lägger "
+"till dem i kategorier samt publicerar dina metadata till omvärlden."
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -317,9 +416,9 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

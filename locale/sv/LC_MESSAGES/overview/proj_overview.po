@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "proj_overview/sv/>\n"
 "Language: sv\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../build/doc/overview/proj_overview.rst:17
 msgid "PROJ"
-msgstr ""
+msgstr "PROJ"
 
 #: ../../build/doc/overview/proj_overview.rst:19
 msgid ""
@@ -34,6 +34,12 @@ msgid ""
 " as latitude, longitude and elevation). Different systems are used to "
 "represent the tridimensional earth on a flat, bidimensional map."
 msgstr ""
+"PROJ är ett bibliotek som tillhandahåller metoder för att transformera "
+"mellan olika koordinatreferenssystem. Ett geografiskt "
+"koordinatreferenssystem gör det möjligt att beskriva alla punkter på jorden "
+"med hjälp av en uppsättning koordinater (t.ex. latitud, longitud och höjd). "
+"Olika system används för att representera den tredimensionella jorden på en "
+"platt, tvådimensionell karta."
 
 #: ../../build/doc/overview/proj_overview.rst:25
 msgid ""
@@ -42,45 +48,56 @@ msgid ""
 "<mapnik_overview>`, Thuban, OGDI, TopoCad, OGRCoordinateTransformation and "
 "various others."
 msgstr ""
+"PROJ används i :doc:`MapServer <mapserver_overview>`, :doc:`GRASS GIS "
+"<grass_overview>`, :doc:`PostGIS <postgis_overview>`, :doc:`Mapnik "
+"<mapnik_overview>`, Thuban, OGDI, TopoCad, OGRCoordinateTransformation och "
+"många andra."
 
 #: ../../build/doc/overview/proj_overview.rst:27
 msgid ""
 "PROJ has been translated from C to `other languages "
 "<https://trac.osgeo.org/metacrs/wiki>`_. These sub-projects include:"
 msgstr ""
+"PROJ har översatts från C till `andra språk <https://trac.osgeo.org/metacrs/"
+"wiki>`_. Dessa underprojekt inkluderar:"
 
 #: ../../build/doc/overview/proj_overview.rst:29
 msgid ""
 "Proj4js (JavaScript) - used in :doc:`OpenLayers <openlayers_overview>`."
 msgstr ""
+"Proj4js (JavaScript) - används i :doc:`OpenLayers <openlayers_overview>`."
 
 #: ../../build/doc/overview/proj_overview.rst:30
 msgid "CS-Map (C++) - used in MapGuide."
-msgstr ""
+msgstr "CS-Map (C++) - används i MapGuide."
 
 #: ../../build/doc/overview/proj_overview.rst:31
 msgid "GeoTIFF/libgeotiff (C++)."
-msgstr ""
+msgstr "GeoTIFF/libgeotiff (C++)."
 
 #: ../../build/doc/overview/proj_overview.rst:32
 msgid "Proj4J (Java)."
-msgstr ""
+msgstr "Proj4J (Java)."
 
 #: ../../build/doc/overview/proj_overview.rst:33
 msgid ""
 "`EPSG.io <https://epsg.io/>`_ - website to retrieve coordinate system "
 "definitions"
 msgstr ""
+"`EPSG.io <https://epsg.io/>`_ - webbplats för att hämta definitioner av "
+"koordinatsystem"
 
 #: ../../build/doc/overview/proj_overview.rst:34
 msgid ""
 "`SpatialReference.org <https://spatialreference.org/>`_ - website to "
 "retrieve coordinate system definitions (obsolete)."
 msgstr ""
+"`SpatialReference.org <https://spatialreference.org/>`_ - webbplats för att "
+"hämta definitioner av koordinatsystem (föråldrad)."
 
 #: ../../build/doc/overview/proj_overview.rstNone
 msgid "proj screenshot"
-msgstr ""
+msgstr "proj skärmdump"
 
 #: ../../build/doc/overview/proj_overview.rst:43
 msgid "Core Features"
@@ -91,14 +108,16 @@ msgid ""
 "Provides point transformation from one coordinate reference system to "
 "another."
 msgstr ""
+"Tillhandahåller punkttransformation från ett koordinatreferenssystem till "
+"ett annat."
 
 #: ../../build/doc/overview/proj_overview.rst:46
 msgid "Includes transformation between datums."
-msgstr ""
+msgstr "Inkluderar transformation mellan datums."
 
 #: ../../build/doc/overview/proj_overview.rst:47
 msgid "Large number of projection classes supported."
-msgstr ""
+msgstr "Stöd för ett stort antal projektionsklasser."
 
 #: ../../build/doc/overview/proj_overview.rst:51
 msgid "Implemented Standards"
@@ -109,6 +128,9 @@ msgid ""
 "PROJ uses coordinate system definitions defined by the `European Petroleum "
 "Survey Group (EPSG) <https://epsg.org/>`_. Well Known Text (WKT) format."
 msgstr ""
+"PROJ använder koordinatsystemdefinitioner som definieras av \"European "
+"Petroleum Survey Group (EPSG) <https://epsg.org/>`_. WKT-format (Well Known "
+"Text)."
 
 #: ../../build/doc/overview/proj_overview.rst:59
 msgid "Details"
@@ -116,17 +138,18 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/proj_overview.rst:61
 msgid "**Website:** https://proj.org/"
-msgstr ""
+msgstr "**Webbplats:** https://proj.org/"
 
 #: ../../build/doc/overview/proj_overview.rst:63
 msgid ""
 "**Licence:** `X/MIT Open Source license "
 "<https://proj.org/about.html#license>`_"
 msgstr ""
+"**Licens:** `X/MIT Open Source-licens <https://proj.org/about.html#license>`_"
 
 #: ../../build/doc/overview/proj_overview.rst:65
 msgid "**Software Version:** |version-proj|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-proj|"
 
 #: ../../build/doc/overview/proj_overview.rst:67
 msgid "**Supported Platforms:** Windows, Linux, Mac"
@@ -134,11 +157,11 @@ msgstr "**Plattformar som stöds:** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/proj_overview.rst:69
 msgid "**API Interfaces:** C, C++, Python, Java, Ruby"
-msgstr ""
+msgstr "**API-gränssnitt:** C, C++, Python, Java, Ruby"
 
 #: ../../build/doc/overview/proj_overview.rst:71
 msgid "**Support:** https://lists.osgeo.org/mailman/listinfo/proj"
-msgstr ""
+msgstr "**Support:** https://lists.osgeo.org/mailman/listinfo/proj"
 
 #: ../../build/doc/overview/proj_overview.rst:76
 msgid "Quickstart"
@@ -146,7 +169,7 @@ msgstr "Snabbstart"
 
 #: ../../build/doc/overview/proj_overview.rst:78
 msgid ":doc:`Quickstart documentation <../quickstart/proj_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snabbstartsdokumentation <../quickstart/proj_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -158,8 +181,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

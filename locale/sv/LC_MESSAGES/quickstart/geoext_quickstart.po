@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-17 21:23+0000\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "geoext_quickstart/sv/>\n"
 "Language: sv\n"
@@ -21,119 +21,188 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:17
 msgid "GeoExt Quickstart"
-msgstr ""
+msgstr "GeoExt Snabbstart"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:19
 msgid "GeoExt is a JavaScript library that runs in the browser, it combines and enhances the ExtJS framework and OpenLayers library. This quick start details the steps to create a rich web application using GeoExt components in less than 200 lines of code. We will be using the installed MapServer web services on OSGeoLive a MapServer to supply map layers to the application. Completing the steps below will result in the demo GeoExt application at http://localhost/geoext/."
 msgstr ""
+"GeoExt är ett JavaScript-bibliotek som körs i webbläsaren, det kombinerar "
+"och förbättrar ExtJS-ramverket och OpenLayers-biblioteket. Denna snabbstart "
+"beskriver stegen för att skapa en rik webbapplikation med hjälp av GeoExt-"
+"komponenter på mindre än 200 rader kod. Vi kommer att använda de "
+"installerade MapServer-webbtjänsterna på OSGeoLive a MapServer för att "
+"leverera kartlager till applikationen. Om du slutför stegen nedan kommer du "
+"att få demo GeoExt-applikationen på http://localhost/geoext/."
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:28
 msgid "Contents"
-msgstr ""
+msgstr "Innehåll"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:31
 msgid "Create an HTML page"
-msgstr ""
+msgstr "Skapa en HTML-sida"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:33
 msgid "In this step we will set-up an empty HTML page which will contain the application. We'll use the text editor FeatherPad installed on OSGeoLive to create a new HTML file at ``/var/www/html/geoext/demo.html``"
 msgstr ""
+"I detta steg kommer vi att skapa en tom HTML-sida som kommer att innehålla "
+"applikationen. Vi använder textredigeraren FeatherPad som är installerad på "
+"OSGeoLive för att skapa en ny HTML-fil på ``/var/www/html/geoext/demo.html``"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:37
 msgid "Open FeatherPad from the command line with elevated permissions, so you can save the file, using System Tools > QTerminal and then running run the command below:"
 msgstr ""
+"Öppna FeatherPad från kommandoraden med förhöjda behörigheter, så att du kan "
+"spara filen, genom att använda Systemverktyg > QTerminal och sedan köra "
+"kommandot nedan:"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:43
 msgid "Next paste in the HTML below, and save the file as ``/var/www/html/geoext/demo.html``. The file contains links to the ExtJS and OpenLayers JavaScript libraries, and two CSS files used to style ExtJS and OpenLayers components."
 msgstr ""
+"Klistra sedan in HTML-filen nedan och spara filen som ``/var/www/html/geoext/"
+"demo.html``. Filen innehåller länkar till JavaScript-biblioteken ExtJS och "
+"OpenLayers samt två CSS-filer som används för att styla ExtJS- och "
+"OpenLayers-komponenter."
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:48
 msgid "We will use the ``Ext.Loader`` class to load in GeoExt JavaScript source files. These are all in the ``src`` folder in ``/var/www/html/geoext/``."
 msgstr ""
+"Vi kommer att använda klassen ``Ext.Loader`` för att ladda in GeoExt "
+"JavaScript-källfiler. Dessa finns alla i mappen ```src`` i ``/var/www/html/"
+"geoext/``."
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:80
 msgid "You should now be able to view an empty HTML page in Firefox at http://localhost/geoext/demo.html"
 msgstr ""
+"Du bör nu kunna visa en tom HTML-sida i Firefox på http://localhost/geoext/"
+"demo.html"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:82
 msgid "All the JavaScript in the following sections should be pasted after the ``// all JavaScript application code should go here`` comment in the ``Ext.onReady`` function. Placing code here ensures the JavaScript libraries have been loaded before running any custom JavaScript code."
 msgstr ""
+"All JavaScript i följande avsnitt ska klistras in efter kommentaren ``// all "
+"JavaScript-applikationskod ska placeras här`` i funktionen ``Ext.onReady``. "
+"Genom att placera koden här säkerställer du att JavaScript-biblioteken har "
+"laddats innan du kör någon anpassad JavaScript-kod."
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:88
 msgid "Configure OpenLayers objects"
-msgstr ""
+msgstr "Konfigurera OpenLayers-objekt"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:90
 msgid "Next we will configure some OpenLayers objects used by the application."
 msgstr ""
+"Därefter ska vi konfigurera några OpenLayers-objekt som används av "
+"programmet."
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:92
 msgid "First lets create a map tile layer using OpenStreetMap, and some WMS layers that are available from the MapServer Itasca demo on OSGeoLive."
 msgstr ""
+"Låt oss först skapa ett kartkakelskikt med OpenStreetMap och några WMS-lager "
+"som är tillgängliga från MapServer Itasca-demo på OSGeoLive."
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:129
 msgid "Next we are going to add in a WFS vector layer - this is a little more complicated, but follows the same approach of creating a source and then a layer as the previous layers:"
 msgstr ""
+"Därefter ska vi lägga till ett WFS-vektorlager - det här är lite mer "
+"komplicerat, men följer samma metod för att skapa en källa och sedan ett "
+"lager som de tidigare lagren:"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:151
 msgid "Now we are going to create our OpenLayers map object configured with the layers we just created. We will also set the center and zoom level of the map, and add in a select interaction so we can select features in our vector layer."
 msgstr ""
+"Nu ska vi skapa vårt OpenLayers-kartobjekt som konfigureras med de lager vi "
+"just skapat. Vi kommer också att ställa in kartans centrum och zoomnivå och "
+"lägga till en select-interaktion så att vi kan välja funktioner i vårt "
+"vektorlager."
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:171
 msgid "Work with GeoExt components"
-msgstr ""
+msgstr "Arbeta med GeoExt-komponenter"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:173
 msgid "Now the map and layers have been configured we are going to create and configure our GeoExt components."
 msgstr ""
+"Nu när kartan och lagren har konfigurerats ska vi skapa och konfigurera våra "
+"GeoExt-komponenter."
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:176
 msgid "First of all we will create a ``GeoExt.component.Map``. This uses the OpenLayers map we created, and will be positioned in the 'center' region of our application."
 msgstr ""
+"Först och främst kommer vi att skapa en ``GeoExt.component.Map``. Denna "
+"använder OpenLayers-kartan som vi skapade och kommer att placeras i \"center"
+"\"-regionen i vår applikation."
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:188
 msgid "Next we will create a layer tree component. The tree has its own data store - ``GeoExt.data.store.LayersTree``, which we will fill with layers from our OpenLayers map. The store will then be used to populate our tree panel. We will also add in a plugin to the tree to allow the map layer order to be changed by dragging and dropping the layers. The ``flex`` property causes the tree panel to fill up all available space in its region of the screen."
 msgstr ""
+"Därefter skapar vi en komponent för ett lagerträd. Trädet har sin egen "
+"datalagring - ``GeoExt.data.store.LayersTree``, som vi kommer att fylla med "
+"lager från vår OpenLayers-karta. Lagret kommer sedan att användas för att "
+"fylla i vår trädpanel. Vi kommer också att lägga till ett plugin i trädet "
+"för att tillåta att kartlagrens ordning ändras genom att dra och släppa "
+"lagren. Egenskapen ``flex`` gör att trädpanelen fyller upp allt tillgängligt "
+"utrymme i sin region på skärmen."
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:213
 msgid "We are also going to create a grid component to display the attributes of features in our WFS layer. Similar to the layer tree store and tree panel, we create a ``GeoExt.data.store.Features`` store and a grid panel."
 msgstr ""
+"Vi ska också skapa en rutnätskomponent för att visa attributen för "
+"funktioner i vårt WFS-lager. På samma sätt som skiktets trädbutik och "
+"trädpanel skapar vi en ``GeoExt.data.store.Features``-butik och en "
+"rutnätspanel."
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:244
 msgid "Our final GeoExt component is an overview map - ``GeoExt.component.OverviewMap``. We will configure this to display the OpenStreetMap layer we created earlier, and place it in an ExtJS panel."
 msgstr ""
+"Vår sista GeoExt-komponent är en översiktskarta - ``GeoExt.component."
+"OverviewMap``. Vi kommer att konfigurera detta för att visa OpenStreetMap-"
+"lagret som vi skapade tidigare och placera det i en ExtJS-panel."
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:267
 msgid "Create a viewport"
-msgstr ""
+msgstr "Skapa en vyport"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:269
 msgid "The final step in creating our application is to create a viewport - a container representing the application which will display all the components we created above."
 msgstr ""
+"Det sista steget i skapandet av vår applikation är att skapa en viewport - "
+"en behållare som representerar applikationen och som kommer att visa alla de "
+"komponenter vi skapade ovan."
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:293
 msgid "You should now be able to refresh the link http://localhost/geoext/demo.html in your browser and see a complete GeoExt application similar to the image below."
 msgstr ""
+"Du ska nu kunna uppdatera länken http://localhost/geoext/demo.html i din "
+"webbläsare och se en komplett GeoExt-applikation som liknar bilden nedan."
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:301
 msgid "What's next?"
-msgstr ""
+msgstr "Vad kommer härnäst?"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:303
 msgid "The `GeoExt homepage <https://geoext.github.io/geoext/>`_ contains full `API documentation <https://geoext.github.io/geoext/v3.1.0/docs>`_ and examples"
 msgstr ""
+"Hemsidan för `GeoExt <https://geoext.github.io/geoext/>`_ innehåller "
+"fullständig `API-dokumentation <https://geoext.github.io/geoext/v3.1.0/docs>`"
+"_ och exempel"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:305
 msgid "A `GeoExt workshop <https://github.com/geoext/geoext3-ws>`_ details all the steps for configuring and using GeoExt3 in your ExtJS applications"
 msgstr ""
+"En `GeoExt-workshop <https://github.com/geoext/geoext3-ws>`_ beskriver alla "
+"steg för att konfigurera och använda GeoExt3 i dina ExtJS-applikationer"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:307
 msgid "The `OpenLayers v4.6.5 API docs <https://openlayers.org/en/v4.6.5/apidoc>`_"
 msgstr ""
+"API-dokumenten för OpenLayers v4.6.5 <https://openlayers.org/en/v4.6.5/"
+"apidoc>`_"
 
 #: ../../build/doc/quickstart/geoext_quickstart.rst:308
 msgid "The `ExtJS 6.2.0 API docs <https://docs.sencha.com/extjs/6.2.0/>`_"
 msgstr ""
+"API-dokumenten för `ExtJS 6.2.0 <https://docs.sencha.com/extjs/6.2.0/>`_"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -145,9 +214,9 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

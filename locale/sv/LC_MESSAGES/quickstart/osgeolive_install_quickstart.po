@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "osgeolive_install_quickstart/sv/>\n"
 "Language: sv\n"
@@ -124,6 +124,9 @@ msgid ""
 "\"user\", tomcat applications require to have permission to service command "
 "as described in https://trac.osgeo.org/osgeo/ticket/1153"
 msgstr ""
+"Installationstips Om du installerar med ett annat användarnamn än \"user\" "
+"måste Tomcat-applikationerna ha behörighet till kommandot service enligt "
+"beskrivningen i https://trac.osgeo.org/osgeo/ticket/1153"
 
 #: ../../build/doc/quickstart/osgeolive_install_quickstart.rst:80
 msgid "See Also:"
@@ -151,8 +154,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

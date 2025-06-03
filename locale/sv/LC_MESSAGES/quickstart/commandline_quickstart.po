@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "commandline_quickstart/sv/>\n"
 "Language: sv\n"
@@ -21,424 +21,478 @@ msgstr ""
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:8
 msgid "Command Line basics"
-msgstr ""
+msgstr "Grunderna i kommandoraden"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:10
 msgid "When you work with GNU/Linux Operating Systems such as OSGeoLive, Ubuntu, etc., it is good to know how to work on the command line."
 msgstr ""
+"När du arbetar med GNU/Linux-operativsystem som OSGeoLive, Ubuntu etc. är "
+"det bra att veta hur man arbetar på kommandoraden."
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:12
 msgid "Don't worry. It is not difficult to learn and you will discover that it is fun and very powerful."
 msgstr ""
+"Oroa dig inte för det. Det är inte svårt att lära sig och du kommer att "
+"upptäcka att det är roligt och mycket kraftfullt."
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:14
 msgid "In this quickstart you will learn some basic commands."
-msgstr ""
+msgstr "I denna snabbstart får du lära dig några grundläggande kommandon."
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:16
 msgid "The following commands run from within a Terminal Emulator window."
-msgstr ""
+msgstr "Följande kommandon körs från ett Terminal Emulator-fönster."
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:18
 msgid "Start a Terminal Emulator (`QTerminal` currently) from the `Applications` menu in the `System Tools` section. This gives you a Unix shell command prompt."
 msgstr ""
+"Starta en terminalemulator (för närvarande `QTerminal`) från menyn "
+"`Applications` i avsnittet `Systemverktyg`. Detta ger dig en kommandoprompt "
+"för ett Unix-skal."
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:22
 msgid "Contents"
-msgstr ""
+msgstr "Innehåll"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:25
 msgid "Where am I?"
-msgstr ""
+msgstr "Var är jag?"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:27
 msgid "`pwd` shows the path of your current location."
-msgstr ""
+msgstr "`pwd` visar sökvägen till din nuvarande plats."
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:36
 msgid "You can ask all commands for help and get information on how they can be used and find out about additional options."
 msgstr ""
+"Du kan be om hjälp med alla kommandon och få information om hur de kan "
+"användas och om ytterligare alternativ."
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:59
 msgid "How to navigate in the file system?"
-msgstr ""
+msgstr "Hur navigerar man i filsystemet?"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:61
 msgid "First you should get to know how the file system under Linux is organized. The file system is organized in a tree. It starts with the `/` known as root directory. All files and directories are under the root directory (`/`)."
 msgstr ""
+"Först bör du lära dig hur filsystemet under Linux är organiserat. "
+"Filsystemet är organiserat i ett träd. Det börjar med `/` som kallas "
+"rotkatalogen. Alla filer och kataloger finns under rotkatalogen (`/`)."
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:63
 msgid "The current user is \"`user`\" and has a home directory located at `/home/user`. Anytime you open a terminal window it will start in your home directory (see pwd)."
 msgstr ""
+"Den aktuella användaren är \"`user`\" och har en hemkatalog som ligger i `/"
+"home/user`. Varje gång du öppnar ett terminalfönster kommer det att starta i "
+"din hemkatalog (se pwd)."
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:65
 msgid "You can easily navigate in the file system with the command cd."
-msgstr ""
+msgstr "Du kan enkelt navigera i filsystemet med kommandot cd."
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:67
 msgid "cd / navigated to the root directory cd /home/user goes to your home directory same as cd ~"
 msgstr ""
+"cd / navigerade till rotkatalogen cd /home/user går till din hemkatalog "
+"samma som cd ~"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:72
 msgid "`cd ..` moves you one directory to the top, `cd` user goes from your current location to the home directory of user. This is not the same as `/user`"
 msgstr ""
+"`cd ..` flyttar dig en katalog uppåt, `cd` user går från din nuvarande plats "
+"till användarens hemkatalog. Detta är inte samma sak som `/user`"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:76
 msgid "Use the tab key to autocomplete the path while you are typing."
-msgstr ""
+msgstr "Använd tabbtangenten för att autokomplettera sökvägen medan du skriver."
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:80
 msgid "Create a directory"
-msgstr ""
+msgstr "Skapa en katalog"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:82
 msgid "You have write access in your user-directory. You can create files and directories there. Next we will create a directory for some command line tests."
 msgstr ""
+"Du har skrivbehörighet i din användarkatalog. Du kan skapa filer och "
+"kataloger där. Nu ska vi skapa en katalog för några kommandoradstester."
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:91
 msgid "You have a command history. You can navigate in the history with the arrow up and down key."
 msgstr ""
+"Du har en kommandohistorik. Du kan navigera i historiken med hjälp av pil "
+"upp och pil ner."
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:95
 msgid "How to create a new file"
-msgstr ""
+msgstr "Så här skapar du en ny fil"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:97
 msgid "`touch` creates a new empty file."
-msgstr ""
+msgstr "`touch` skapar en ny tom fil."
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:105
 msgid "You can pipe the information from a command to a file i.e. the command history. `history` displays the command history. With the following command it can be saved in a file."
 msgstr ""
+"Du kan skicka informationen från ett kommando till en fil, t.ex. "
+"kommandohistoriken. `history` visar kommandohistoriken. Med följande "
+"kommando kan den sparas i en fil."
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:113
 msgid "Show me what is in a directory"
-msgstr ""
+msgstr "Visa mig vad som finns i en katalog"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:115
 msgid "You would like to know more about the content of a directory. `ls` is the program that gives you a lot of information."
 msgstr ""
+"Du skulle vilja veta mer om innehållet i en katalog. `ls` är programmet som "
+"ger dig en hel del information."
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:117
 msgid "`ls` lists all files and directories"
-msgstr ""
+msgstr "`ls` listar alla filer och kataloger"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:118
 msgid "`ls -l` shows a more detailed list of the files/directories with time, user access rights"
 msgstr ""
+"`ls -l` visar en mer detaljerad lista över filer/kataloger med tid, "
+"användares åtkomsträttigheter"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:119
 msgid "`ls -a` also shows hidden files"
-msgstr ""
+msgstr "`ls -a` visar även dolda filer"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:120
 msgid "`ls -al` you can combine the different options"
-msgstr ""
+msgstr "`ls -al` kan du kombinera de olika alternativen"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:121
 msgid "`ls -1` shows only the file names"
-msgstr ""
+msgstr "`ls -1` visar bara filnamnen"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:136
 msgid "Copy files and directories"
-msgstr ""
+msgstr "Kopiera filer och kataloger"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:138
 msgid "You can copy files from one location to another."
-msgstr ""
+msgstr "Du kan kopiera filer från en plats till en annan."
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:141
 msgid "Copy a file to a new file"
-msgstr ""
+msgstr "Kopiera en fil till en ny fil"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:148
 msgid "Copy a file to another directory"
-msgstr ""
+msgstr "Kopiera en fil till en annan katalog"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:155
 msgid "Copy a whole directory to a new location (-R recursive)"
-msgstr ""
+msgstr "Kopiera en hel katalog till en ny plats (-R rekursiv)"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:164
 msgid "Who is sudo?"
-msgstr ""
+msgstr "Vem är sudo?"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:166
 msgid "With `sudo` you can do things that you are normally not allowed to. `sudo` runs commands with the rights of the superuser also known as root With `sudo` you can i.e. install more software, administrate services, change access rights and more fun. You will see the use of `sudo` in some of the following commands."
 msgstr ""
+"Med `sudo` kan du göra saker som du normalt inte får göra. `sudo` kör "
+"kommandon med samma rättigheter som superanvändaren, även känd som root Med "
+"`sudo` kan du t.ex. installera mer programvara, administrera tjänster, ändra "
+"åtkomsträttigheter och mycket annat kul. Du kommer att se användningen av "
+"`sudo` i några av följande kommandon."
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:172
 msgid "Search and install programs"
-msgstr ""
+msgstr "Söka och installera program"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:174
 msgid "Show information about programs."
-msgstr ""
+msgstr "Visa information om program."
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:180
 msgid "Search for programs"
-msgstr ""
+msgstr "Sök efter program"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:187
 msgid "Install programs"
-msgstr ""
+msgstr "Installera program"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:194
 msgid "You will love the program `sl`. Run the new program with `sl` see also `apt show sl`."
 msgstr ""
+"Du kommer att älska programmet `sl`. Kör det nya programmet med `sl` se även "
+"`apt show sl`."
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:198
 msgid "Services"
-msgstr ""
+msgstr "Tjänster"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:200
 msgid "Some programms run as services like PostgreSQL, tomcat or Apache Webserver. You can start or stop the services."
 msgstr ""
+"Vissa program körs som tjänster som PostgreSQL, tomcat eller Apache "
+"Webserver. Du kan starta eller stoppa tjänsterna."
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:202
 msgid "Restart your Apache Service"
-msgstr ""
+msgstr "Starta om din Apache-tjänst"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:214
 msgid "How to edit files"
-msgstr ""
+msgstr "Så här redigerar du filer"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:216
 msgid "You can either edit files in the terminal or open them with an external program like Geany."
 msgstr ""
+"Du kan antingen redigera filer i terminalen eller öppna dem med ett externt "
+"program som Geany."
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:218
 msgid "In the terminal window you can use the `vim` editor (Vi IMproved). `vim` is very powerful and has many options."
 msgstr ""
+"I terminalfönstret kan du använda redigeringsprogrammet `vim` (Vi IMproved). "
+"`vim` är mycket kraftfull och har många alternativ."
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:220
 msgid "See also"
-msgstr ""
+msgstr "Se även"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:222
 msgid "https://help.ubuntu.com/community/VimHowto"
-msgstr ""
+msgstr "https://help.ubuntu.com/community/VimHowto"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:223
 msgid "https://vim.rtorr.com/lang/en_en"
-msgstr ""
+msgstr "https://vim.rtorr.com/lang/en_en"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:226
 msgid "Open a file with `vim`:"
-msgstr ""
+msgstr "Öppna en fil med `vim`:"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:232
 msgid "press `i` to switch to the input mode"
-msgstr ""
+msgstr "tryck på `i` för att växla till inmatningsläge"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:233
 msgid "`ESC` leaves the input mode"
-msgstr ""
+msgstr "`ESC` lämnar inmatningsläget"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:234
 msgid "`:w` saves your changes"
-msgstr ""
+msgstr "`:w` sparar dina ändringar"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:235
 msgid "`:wq` saves your changes and closes the file"
-msgstr ""
+msgstr "`:wq` sparar dina ändringar och stänger filen"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:236
 msgid "`:q` closes the file"
-msgstr ""
+msgstr "`:q` stänger filen"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:237
 msgid "`:q!` closes the file without saving"
-msgstr ""
+msgstr "`:q!` stänger filen utan att spara"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:242
 msgid "Owner and access rights"
-msgstr ""
+msgstr "Ägare och åtkomsträttigheter"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:244
 msgid "Access rights define whether a `user` or `group` or `others` have access to a file and what sort of access is given. You can have `read`, `write` or `excecute` access."
 msgstr ""
+"Åtkomsträttigheter definierar om en `användare` eller `grupp` eller `andra` "
+"har åtkomst till en fil och vilken typ av åtkomst som ges. Du kan ha `läsa`, "
+"`skriva` eller `exekvera` åtkomst."
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:246
 msgid "Directories or files have an owner and a group definition. By default the creator of a file/directory is the owner. But this definition can be changed. You will learn this in the next section."
 msgstr ""
+"Kataloger eller filer har en ägare och en gruppdefinition. Som standard är "
+"det skaparen av en fil/katalog som är ägare. Men denna definition kan "
+"ändras. Detta kommer du att lära dig i nästa avsnitt."
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:248
 msgid "You can show the owner and group via `ls -l`"
-msgstr ""
+msgstr "Du kan visa ägare och grupp via `ls -l`"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:256
 msgid "the initial character can be `-` for a file or `d` for directory"
-msgstr ""
+msgstr "det inledande tecknet kan vara `-` för en fil eller `d` för en katalog"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:257
 msgid "`user` is defined as the owner and the group"
-msgstr ""
+msgstr "`user` definieras som ägare och gruppen"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:259
 msgid "Access rights are listed at the beginning of the row:"
-msgstr ""
+msgstr "Åtkomsträttigheterna anges i början av raden:"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:261
 msgid "`r` read"
-msgstr ""
+msgstr "`r` läsa"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:262
 msgid "`w` write"
-msgstr ""
+msgstr "`w` skriva"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:263
 msgid "`x` execute"
-msgstr ""
+msgstr "`x` exekvera"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:265
 msgid "first 3 letters for the owner"
-msgstr ""
+msgstr "första 3 bokstäverna för ägaren"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:266
 msgid "then next 3 letters for the group"
-msgstr ""
+msgstr "sedan nästa 3 bokstäver för gruppen"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:267
 msgid "followed by the last 3 letters for others"
-msgstr ""
+msgstr "följt av de 3 sista bokstäverna för andra"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:271
 msgid "Change the owner with `chown`"
-msgstr ""
+msgstr "Byt ägare med `chown`"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:277
 msgid "first pass the user then the group - like `user:www-data`"
-msgstr ""
+msgstr "skicka först användaren och sedan gruppen - som `användare:www-data`"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:278
 #: ../../build/doc/quickstart/commandline_quickstart.rst:290
 msgid "`-R` recursive"
-msgstr ""
+msgstr "`-R` rekursiv"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:282
 msgid "Change access rights with `chmod`"
-msgstr ""
+msgstr "Ändra åtkomsträttigheter med `chmod`"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:289
 msgid "777 everyone can do everything"
-msgstr ""
+msgstr "777 alla kan göra allt"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:292
 msgid "number: owner (u)"
-msgstr ""
+msgstr "nummer: ägare (u)"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:293
 msgid "number: group (g)"
-msgstr ""
+msgstr "antal: grupp (g)"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:294
 msgid "number: other (o)"
-msgstr ""
+msgstr "nummer: annat (o)"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:296
 msgid "4 read"
-msgstr ""
+msgstr "4 läs"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:297
 msgid "2 write"
-msgstr ""
+msgstr "2 skriv"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:298
 msgid "1 execute"
-msgstr ""
+msgstr "1 utförande"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:300
 msgid "660 - owner and group are allowed to read and write, other have no rights"
 msgstr ""
+"660 - ägare och grupp har rätt att läsa och skriva, övriga har inga "
+"rättigheter"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:301
 msgid "744 - owner can do everything, group and others can only read"
-msgstr ""
+msgstr "744 - ägaren kan göra allt, gruppen och andra kan bara läsa"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:303
 msgid "or use it like this"
-msgstr ""
+msgstr "eller använd den så här"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:309
 msgid "u = user"
-msgstr ""
+msgstr "u = användare"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:310
 msgid "g = group"
-msgstr ""
+msgstr "g = grupp"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:311
 msgid "o = other"
-msgstr ""
+msgstr "o = annan"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:312
 msgid "a = all"
-msgstr ""
+msgstr "a = alla"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:313
 msgid "+/- right: r = read / w = write / x = execute"
-msgstr ""
+msgstr "+/- höger: r = läsa / w = skriva / x = köra"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:317
 msgid "Things to try"
-msgstr ""
+msgstr "Saker att prova"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:319
 msgid "Here are other commands you may try."
-msgstr ""
+msgstr "Här är några andra kommandon som du kan prova."
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:321
 msgid "grep - search for a pattern in a text"
-msgstr ""
+msgstr "grep - sök efter ett mönster i en text"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:322
 msgid "history | grep cd"
-msgstr ""
+msgstr "historik | grep cd"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:323
 msgid "rm - remove a file"
-msgstr ""
+msgstr "rm - ta bort en fil"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:324
 msgid "rmdir - remove an empty directory"
-msgstr ""
+msgstr "rmdir - ta bort en tom katalog"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:325
 msgid "mv - rename/move"
-msgstr ""
+msgstr "mv - byta namn/flytta"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:326
 msgid "head - show the beginning of a file"
-msgstr ""
+msgstr "head - visa början av en fil"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:327
 msgid "tail - show the end of a file"
-msgstr ""
+msgstr "tail - visa slutet av en fil"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:328
 msgid "find - search for files in a directory hierarchy"
-msgstr ""
+msgstr "find - sök efter filer i en kataloghierarki"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:329
 msgid "locate - find files by name"
-msgstr ""
+msgstr "locate - hitta filer efter namn"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:334
 msgid "What next?"
-msgstr ""
+msgstr "Hur vill du gå vidare?"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:336
 msgid "You have learned some important commands and information to work with the command line. Hopefully you have discovered how powerful the command line is."
 msgstr ""
+"Du har lärt dig några viktiga kommandon och information för att arbeta med "
+"kommandoraden. Förhoppningsvis har du upptäckt hur kraftfull kommandoraden "
+"är."
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:338
 msgid "https://ubuntu.com/tutorials/command-line-for-beginners#1-overview"
-msgstr ""
+msgstr "https://ubuntu.com/tutorials/command-line-for-beginners#1-overview"
 
 #: ../../build/doc/quickstart/commandline_quickstart.rst:339
 msgid "https://en.wikipedia.org/wiki/Category:Standard_Unix_programs"
-msgstr ""
+msgstr "https://en.wikipedia.org/wiki/Category:Standard_Unix_programs"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -450,9 +504,9 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

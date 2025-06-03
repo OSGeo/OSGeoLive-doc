@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "copyright/sv/>\n"
 "Language: sv\n"
@@ -51,6 +51,10 @@ msgid ""
 "provided under a `Creative Commons Attribution 3.0 Unported License "
 "<https://creativecommons.org/licenses/by/3.0/>`__."
 msgstr ""
+"OSGeo-Live-projektet distribueras under `LGPL-licens v2.1 <http://www.gnu.de/"
+"documents/lgpl-2.1.en.html>`__. All dokumentation tillhandahålls under en `"
+"Creative Commons Attribution 3.0 Unported License <https://creativecommons."
+"org/licenses/by/3.0/>`__."
 
 #: ../../build/doc/copyright.rst:16
 msgid ""
@@ -69,6 +73,9 @@ msgid ""
 "Commons Attribution 3.0 Unported License "
 "<https://creativecommons.org/licenses/by/3.0/>`__."
 msgstr ""
+"Projektöversikter och översättningar av översikter tillhandahålls under en `"
+"Creative Commons Attribution 3.0 Unported License <https://creativecommons."
+"org/licenses/by/3.0/>`__."
 
 #: ../../build/doc/copyright.rst:24
 msgid ""
@@ -76,6 +83,9 @@ msgid ""
 "Commons Attribution-ShareAlike 3.0 Unported License "
 "<https://creativecommons.org/licenses/by-sa/3.0/>`__."
 msgstr ""
+"Snabbstarter och snabbstartsöversättningar, tillhandahålls under en `"
+"Creative Commons Attribution-ShareAlike 3.0 Unported License "
+"<https://creativecommons.org/licenses/by-sa/3.0/>`__."
 
 #: ../../build/doc/copyright.rst:27
 msgid ""
@@ -110,6 +120,14 @@ msgid ""
 "sa/3.0/>`__ license, then the new document will also need to be licenced "
 "under the `CC By-SA <https://creativecommons.org/licenses/by-sa/3.0/>`__."
 msgstr ""
+"I enlighet med `villkoren för Creative Commons-licensen "
+"<https://creativecommons.org/faq/"
+"#How_do_I_properly_attribute_a_Creative_Commons_licensed_work.3F>`__ måste "
+"du ange bidragsgivarna om du inkluderar OSGeoLive-dokumentation i ett nytt "
+"dokument. Dessutom, om Quickstarts inkluderas, som licensieras under `CC By-"
+"SA <https://creativecommons.org/licenses/by-sa/3.0/>`__-licensen, måste det "
+"nya dokumentet också licensieras under `CC By-SA <https://creativecommons."
+"org/licenses/by-sa/3.0/>`__."
 
 #: ../../build/doc/copyright.rst:43
 msgid ""
@@ -125,7 +143,7 @@ msgstr "Du kan använda tillskrivning som liknar något av följande:"
 
 #: ../../build/doc/copyright.rst:48
 msgid "**Verbose, suitable for a 100 page thesis:**"
-msgstr "**Verbos, lämplig för en 100 sidig avhandling:**"
+msgstr "**Utförlig, lämplig för en 100-sidig avhandling:**"
 
 #: ../../build/doc/copyright.rst:50
 msgid ""
@@ -136,10 +154,16 @@ msgid ""
 "and downloaded on 25 July 2011. The original work was translated from "
 "English to German."
 msgstr ""
+"|CC-By-SA-med| Detta dokument innehåller innehåll från \"gvSIG Quickstart\" "
+"skapat av Simon Cropper under `Creative Commons Attribution-ShareAlike 3.0 "
+"Unported license <https://creativecommons.org/licenses/by-sa/3.0/>`__ "
+"tillgängligt från OSGeoLive-projektet, :doc:`quickstart/gvsig_quickstart`, "
+"och hämtat den 25 juli 2011. Originalarbetet översattes från engelska till "
+"tyska."
 
 #: ../../build/doc/copyright.rst:0 ../../build/doc/copyright.rst:0
 msgid "CC-By-SA-med"
-msgstr ""
+msgstr "CC-By-SA-med"
 
 #: ../../build/doc/copyright.rst:60
 msgid "**Concise CC-By-SA and attribution:**"
@@ -152,6 +176,9 @@ msgid ""
 "from|Includes|Extends] :doc:`OSGeoLive <index>` documentation by "
 ":doc:`OSGeoLive contributors <copyright>`."
 msgstr ""
+"© 2011 [Ditt namn] under en `CC By SA-licens <https://creativecommons.org/"
+"licenses/by-sa/3.0/>`__. [Härledd från|Inkluderar|Utökar] :doc:`OSGeoLive "
+"<index>` dokumentation av :doc:`OSGeoLive contributors <copyright>`."
 
 #: ../../build/doc/copyright.rst:67
 msgid "**Alternative Concise CC-By and attribution:**"
@@ -163,10 +190,13 @@ msgid ""
 ":doc:`OSGeoLive <index>` Project Overviews by :doc:`OSGeoLive contributors "
 "<copyright>`."
 msgstr ""
+"|CC-By-small| © 2011 [Ditt namn]. [Härledd från|Inkluderar|Utökar] :doc:`"
+"OSGeoLive <index>` Projektöversikter av :doc:`OSGeoLive contributors "
+"<copyright>`."
 
 #: ../../build/doc/copyright.rst:0 ../../build/doc/copyright.rst:0
 msgid "CC-By-small"
-msgstr ""
+msgstr "CC-By-small"
 
 #: ../../build/doc/copyright.rst:76
 msgid "**Minimum (for Project Overviews), attribution only:**"
@@ -177,6 +207,8 @@ msgid ""
 "This document includes :doc:`OSGeoLive <index>` Project Overviews by "
 ":doc:`OSGeoLive contributors <copyright>`."
 msgstr ""
+"Detta dokument innehåller :doc:`OSGeoLive <index>` Projektöversikter av "
+":doc:`OSGeoLive contributors <copyright>`."
 
 #: ../../build/doc/copyright.rst:82
 msgid "Documentation Contributors"
@@ -447,7 +479,7 @@ msgstr "jupyter_overview"
 
 #: ../../build/licenses.csv:1
 msgid "jupyter developers team; Massimo Di Stefano"
-msgstr ""
+msgstr "jupyter-utvecklargruppen; Massimo Di Stefano"
 
 #: ../../build/licenses.csv:1
 msgid "kosmo_overview"
@@ -831,7 +863,7 @@ msgstr "gdal_quickstart"
 
 #: ../../build/licenses.csv:1
 msgid "Astrid Emde, material from Frank Warmedam's RasterTutorial"
-msgstr ""
+msgstr "Astrid Emde, material från Frank Warmedams RasterTutorial"
 
 #: ../../build/licenses.csv:1
 msgid "geokettle_quickstart"
@@ -955,7 +987,7 @@ msgstr "leaflet_quickstart"
 
 #: ../../build/licenses.csv:1
 msgid "Vladimir Agafonkin, adopted for live dvd by Johan Van de Wauw"
-msgstr ""
+msgstr "Vladimir Agafonkin, adopterad för live dvd av Johan Van de Wauw"
 
 #: ../../build/licenses.csv:1
 msgid "liblas_quickstart"
@@ -1326,8 +1358,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

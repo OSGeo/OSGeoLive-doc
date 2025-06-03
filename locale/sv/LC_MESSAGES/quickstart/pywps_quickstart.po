@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "pywps_quickstart/sv/>\n"
 "Language: sv\n"
@@ -21,151 +21,205 @@ msgstr ""
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:23
 msgid "PyWPS Quickstart"
-msgstr ""
+msgstr "PyWPS snabbstart"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:25
 msgid "PyWPS is an OGC WPS (Web Processing Service 1.0.0) server implementation written in `Python <https://www.python.org>`_."
 msgstr ""
+"PyWPS är en OGC WPS (Web Processing Service 1.0.0) serverimplementering "
+"skriven i `Python <https://www.python.org>`_."
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:28
 msgid "The PyWPS 4.0.0 library is installed by default on OSGeo-Live. This is a core library that is not intended to be executed directly, but rather to be used in the development of WPS services. An `example service <https://github.com/geopython/pywps-flask>`_ based on `Flask <https://flask.palletsprojects.com>`_ is available at GitHub to facilitate a first contact with PyWPS."
 msgstr ""
+"PyWPS 4.0.0-biblioteket är installerat som standard på OSGeo-Live. Detta är "
+"ett kärnbibliotek som inte är avsett att köras direkt, utan snarare att "
+"användas vid utveckling av WPS-tjänster. En \"exempeltjänst\" <https://github"
+".com/geopython/pywps-flask>`_ baserad på \"Flask\" <https://flask."
+"palletsprojects.com>`_ finns tillgänglig på GitHub för att underlätta en "
+"första kontakt med PyWPS."
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:34
 msgid "This Quickstart describes how to:"
-msgstr ""
+msgstr "Denna snabbstart beskriver hur du gör:"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:36
 msgid "Install and configure the pywps-flask example service"
-msgstr ""
+msgstr "Installera och konfigurera exempeltjänsten pywps-flask"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:37
 msgid "Perform ``GetCapabilities``, ``DescribeProcess`` and ``Execute`` requests"
 msgstr ""
+"Utföra ``GetCapabilities``, ``DescribeProcess`` och ``Execute`` förfrågningar"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:38
 msgid "Develop your own WPS processes"
-msgstr ""
+msgstr "Utveckla dina egna WPS-processer"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:41
 msgid "Contents"
-msgstr ""
+msgstr "Innehåll"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:44
 msgid "Installing pywps-flask"
-msgstr ""
+msgstr "Installera pywps-flask"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:46
 msgid "Since the example service depends on Flask, make sure it is installed on your OSGeo-Live:"
 msgstr ""
+"Eftersom exempeltjänsten är beroende av Flask måste du se till att den är "
+"installerad på ditt OSGeo-Live:"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:49
 msgid "`sudo apt install python-flask`"
-msgstr ""
+msgstr "`sudo apt install python-flask`"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:51
 msgid "Then clone the repository from GitHub:"
-msgstr ""
+msgstr "Klona sedan förvaret från GitHub:"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:53
 msgid "`git clone https://github.com/geopython/pywps-flask.git`"
-msgstr ""
+msgstr "`git clone https://github.com/geopython/pywps-flask.git`"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:55
 msgid "Now move into the repository folder and edit the configuration file. This can be done with a program like `nano`:"
 msgstr ""
+"Gå nu till mappen Repository och redigera konfigurationsfilen. Detta kan "
+"göras med ett program som `nano`:"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:58
 msgid "`nano pywps.cfg`"
-msgstr ""
+msgstr "`nano pywps.cfg`"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:60
 msgid "The only critical thing to verify is the location of logging database. `Pywps-flask` provides a sample SQLite database that can be used for this purpose. Make sure the `database` setting reads like:"
 msgstr ""
+"Det enda kritiska som måste verifieras är platsen för loggningsdatabasen. "
+"`Pywps-flask` tillhandahåller en SQLite-databas som kan användas för detta "
+"ändamål. Se till att inställningen `database` lyder som:"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:64
 msgid "`database=sqlite:////home/user/pywps-flask/logs/pywps-logs.sqlite3`"
-msgstr ""
+msgstr "`database=sqlite:////home/user/pywps-flask/logs/pywps-logs.sqlite3`"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:66
 msgid "Save the configuration file and exit `nano` you can now run the service:"
-msgstr ""
+msgstr "Spara konfigurationsfilen och avsluta `nano` du kan nu köra tjänsten:"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:68
 msgid "`python demo.py`"
-msgstr ""
+msgstr "`python demo.py`"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:70
 msgid "If all goes well you will receive back a message like:"
-msgstr ""
+msgstr "Om allt går bra kommer du att få tillbaka ett meddelande som:"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:72
 msgid "`* Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)`"
-msgstr ""
+msgstr "`* Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)`"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:75
 msgid "Testing available processes"
-msgstr ""
+msgstr "Testning av tillgängliga processer"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:77
 msgid "Open a web browser and point it to the address where the example service is listening: `http://127.0.0.1:5000/ <http://127.0.0.1:5000/>`_ You will be presented with the following page:"
 msgstr ""
+"Öppna en webbläsare och rikta den mot den adress där exempeltjänsten lyssnar:"
+" `http://127.0.0.1:5000/ <http://127.0.0.1:5000/>`_ Du kommer att se "
+"följande sida:"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:84
 msgid "Use the green buttons to explore the service. Issue a `GetCapabilities` request for an overview of the service; issue a `DescribeProcess` request to learn the details of a particular project. Note the request URL in the browser address."
 msgstr ""
+"Använd de gröna knapparna för att utforska tjänsten. Gör en "
+"`GetCapabilities`-begäran för att få en översikt över tjänsten; gör en "
+"`DescribeProcess`-begäran för att få veta mer om ett visst projekt. Notera "
+"URL:en för begäran i webbläsarens adress."
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:88
 msgid "It is now time to test an `Execute` request. You can try the `say_hello` process, which is fairly simple. Direct your web browser to the following address:"
 msgstr ""
+"Nu är det dags att testa en `Execute`-begäran. Du kan prova `say_hello`-"
+"processen, som är ganska enkel. Rikta din webbläsare till följande adress:"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:92
 msgid "`http://localhost:5000/wps?service=WPS&version=1.0.0&request=Execute&identifier=say_hello&dataInputs=name=OSGeo-Live`"
 msgstr ""
+"`http://localhost:5000/wps?service=WPS&version=1.0."
+"0&request=Execute&identifier=say_hello&dataInputs=name=OSGeo-Live`"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:94
 msgid "The process simply replies back with a \"Hello OSGeo\" message, encoded in a standard WPS response document. Your browser should be showing something like:"
 msgstr ""
+"Processen svarar helt enkelt tillbaka med ett \"Hello OSGeo\"-meddelande, "
+"kodat i ett standardiserat WPS-svarsdokument. Din webbläsare bör visa något "
+"liknande:"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:101
 msgid "Developing WPS processes"
-msgstr ""
+msgstr "Utveckling av WPS-processer"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:103
 msgid "To develop new processes all you need to do is create new Python modules inside the `processes` folder. Use the existing processes as templates to help you structure your code. A closer look at the `say_hello` process shows the main feature of a PyWPS process:"
 msgstr ""
+"För att utveckla nya processer behöver du bara skapa nya Python-moduler i "
+"mappen `processes`. Använd de befintliga processerna som mallar för att "
+"strukturera din kod. En närmare titt på `say_hello`-processen visar "
+"huvuddragen i en PyWPS-process:"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:108
 msgid "1. Import the necessary assets and create a class inheriting from the PyWPS `Process` class. In the constructor create the necessary objects for inputs and outputs:"
 msgstr ""
+"1. Importera de nödvändiga tillgångarna och skapa en klass som ärver från "
+"PyWPS `Process`-klassen. I konstruktören skapar du de nödvändiga objekten "
+"för in- och utgångar:"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:123
 msgid "Invoke the parent constructor, passing on the metadata of the process:"
 msgstr ""
+"Anropar den överordnade konstruktören och överför metadata för processen:"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:140
 msgid "3. Create the `handler` method, that will be invoked to handle `Execute` requests. Use the `request` and `response` objects to retrieve inputs and set outputs."
 msgstr ""
+"3. Skapa metoden `handler`, som kommer att anropas för att hantera `Execute`-"
+"förfrågningar. Använd objekten `request` och `response` för att hämta "
+"inmatningar och ställa in utmatningar."
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:153
 msgid "What's next"
-msgstr ""
+msgstr "Ytterligare inställningsmöjligheter"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:155
 msgid "PyWPS gives you the freedom and flexibility to write your own Python processes and expose them accordingly."
 msgstr ""
+"PyWPS ger dig friheten och flexibiliteten att skriva dina egna Python-"
+"processer och exponera dem i enlighet med detta."
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:158
 msgid "Official documentation - For further information on PyWPS configuration and the API, consult the `documentation`_ on the PyWPS website."
 msgstr ""
+"Officiell dokumentation - För ytterligare information om PyWPS-"
+"konfigurationen och API:et, se `documentation`_ på PyWPS webbplats."
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:160
 msgid "Tutorial - Try out the `workshop`_, a tutorial used in workshops to introduce new users to PyWPS 4."
 msgstr ""
+"Tutorial - Prova `workshop`_, en tutorial som används i workshops för att "
+"introducera nya användare till PyWPS 4."
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:163
 msgid "Deployment to production -  The `pywps-flask` service is just an example and not designed for production. One possible alternative is a Django based service, `pywps-django <https://github.com/jorgejesus/pywps-django>`_. The documentation provides further details on how to `set up a production service <https://pywps.readthedocs.io/en/latest/deployment.html>`_ with `Apache <https://httpd.apache.org/>`_ or `nginx <https://nginx.org/>`_ and `Gunicorn <https://gunicorn.org/>`_."
 msgstr ""
+"Driftsättning till produktion - Tjänsten `pywps-flask` är bara ett exempel "
+"och är inte avsedd för produktion. Ett möjligt alternativ är en Django-"
+"baserad tjänst, `pywps-django <https://github.com/jorgejesus/pywps-django>`"
+"_. I dokumentationen finns ytterligare information om hur du \"konfigurerar "
+"en produktionstjänst <https://pywps.readthedocs.io/en/latest/deployment."
+"html>`_ med `Apache <https://httpd.apache.org/>`_ eller `nginx <https://nginx"
+".org/>`_ och `Gunicorn <https://gunicorn.org/>`_."
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -177,9 +231,9 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

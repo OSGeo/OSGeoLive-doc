@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "geomoose_overview/sv/>\n"
 "Language: sv\n"
@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../../build/doc/overview/geomoose_overview.rst:19
 msgid "GeoMoose"
-msgstr ""
+msgstr "GeoMoose"
 
 #: ../../build/doc/overview/geomoose_overview.rst:22
 msgid "Web GIS Portal"
-msgstr ""
+msgstr "GIS-portal på webben"
 
 #: ../../build/doc/overview/geomoose_overview.rst:24
 msgid ""
@@ -39,6 +39,13 @@ msgid ""
 "provide built in services, like drill-down identify operations for viewing "
 "and organising many layers, selection operations and dataset searches."
 msgstr ""
+"GeoMoose är ett webbläsarbaserat kartramverk för visning av distribuerade "
+"kartografiska data. Det är särskilt användbart för att hantera rumsliga och "
+"icke rumsliga data inom läns-, stads- och kommunkontor (från vilka GeoMoose "
+"härstammar). Det utökar funktionaliteten i MapServer och OpenLayers för att "
+"tillhandahålla inbyggda tjänster, som drill-down-identifieringsoperationer "
+"för visning och organisering av många lager, urvalsoperationer och dataset-"
+"sökningar."
 
 #: ../../build/doc/overview/geomoose_overview.rst:26
 msgid ""
@@ -48,16 +55,22 @@ msgid ""
 "configuration files for publishing, symbols, templates as well as source "
 "data."
 msgstr ""
+"GeoMoose är snabb och fungerar bra med hundratals lager och/eller tjänster "
+"åt gången. Data från flera förvaltare kan underhållas med olika verktyg och "
+"enligt olika scheman eftersom varje kartskikt har sin egen uppsättning "
+"konfigurationsfiler för publicering, symboler, mallar och källdata."
 
 #: ../../build/doc/overview/geomoose_overview.rst:28
 msgid ""
 "The user interface is easily configurable, and additional services can be "
 "added through a modular architecture."
 msgstr ""
+"Användargränssnittet är enkelt att konfigurera och ytterligare tjänster kan "
+"läggas till genom en modulär arkitektur."
 
 #: ../../build/doc/overview/geomoose_overview.rstNone
 msgid "geomoose screenshot"
-msgstr ""
+msgstr "geomoose skärmdump"
 
 #: ../../build/doc/overview/geomoose_overview.rst:37
 msgid "Core Features"
@@ -65,53 +78,60 @@ msgstr "Kärnfunktioner"
 
 #: ../../build/doc/overview/geomoose_overview.rst:39
 msgid "Distributed data maintenance amongst multiple owners."
-msgstr ""
+msgstr "Distribuerat datahantering bland flera ägare."
 
 #: ../../build/doc/overview/geomoose_overview.rst:40
 msgid "Access maps from: MapServer, Tilecache, ArcGIS REST, WMS, WFS."
 msgstr ""
+"Få tillgång till kartor från: MapServer, Tilecache, ArcGIS REST, WMS, WFS."
 
 #: ../../build/doc/overview/geomoose_overview.rst:41
 msgid "Configure multiple views of data sources."
-msgstr ""
+msgstr "Konfigurera flera vyer av datakällor."
 
 #: ../../build/doc/overview/geomoose_overview.rst:42
 msgid "Discover and filter from data catalogs."
-msgstr ""
+msgstr "Upptäck och filtrera från datakataloger."
 
 #: ../../build/doc/overview/geomoose_overview.rst:43
 msgid ""
 "Tools: measure, drawing, query, fading, re-order, jump-to zoom, coordinate "
 "readouts, ..."
 msgstr ""
+"Verktyg: mäta, rita, fråga, blekna, ordna om, hoppa till zoom, "
+"koordinatavläsning, ..."
 
 #: ../../build/doc/overview/geomoose_overview.rst:44
 msgid "Displays: MapViewer, Side Menu, Navigation, Tabbed User Controls."
-msgstr ""
+msgstr "Visar: MapViewer, sidomeny, navigering, flikar Användarkontroller."
 
 #: ../../build/doc/overview/geomoose_overview.rst:45
 msgid ""
 "XML based MapBook configuration file for User Interface, Source Layers and "
 "Tools."
 msgstr ""
+"XML-baserad MapBook-konfigurationsfil för användargränssnitt, källskikt och "
+"verktyg."
 
 #: ../../build/doc/overview/geomoose_overview.rst:46
 msgid "Integration with Mapserver."
-msgstr ""
+msgstr "Integration med Mapserver."
 
 #: ../../build/doc/overview/geomoose_overview.rst:47
 msgid ""
 "Modular design facilitates integration with non-spatial systems (such as "
 "asset management)."
 msgstr ""
+"Modulär design underlättar integration med icke-rumsliga system (t.ex. "
+"tillgångshantering)."
 
 #: ../../build/doc/overview/geomoose_overview.rst:48
 msgid "Publish almost unlimited number of layers."
-msgstr ""
+msgstr "Publicera nästan obegränsat antal lager."
 
 #: ../../build/doc/overview/geomoose_overview.rst:49
 msgid "PDF printing."
-msgstr ""
+msgstr "PDF-utskrift."
 
 #: ../../build/doc/overview/geomoose_overview.rst:52
 msgid "Implemented Standards"
@@ -119,11 +139,11 @@ msgstr "Implementerade standarder"
 
 #: ../../build/doc/overview/geomoose_overview.rst:53
 msgid "WMS (client)"
-msgstr ""
+msgstr "WMS (klient)"
 
 #: ../../build/doc/overview/geomoose_overview.rst:54
 msgid "WFS (client)"
-msgstr ""
+msgstr "WFS (kund)"
 
 #: ../../build/doc/overview/geomoose_overview.rst:57
 msgid "Details"
@@ -131,16 +151,17 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/geomoose_overview.rst:59
 msgid "**Website:** https://www.geomoose.org"
-msgstr ""
+msgstr "**Webbplats:** https://www.geomoose.org"
 
 #: ../../build/doc/overview/geomoose_overview.rst:61
 msgid ""
 "**Licence:** MIT based license. https://www.geomoose.org/info/license.html"
 msgstr ""
+"**Licens:** MIT-baserad licens. https://www.geomoose.org/info/license.html"
 
 #: ../../build/doc/overview/geomoose_overview.rst:63
 msgid "**Software Version:** |version-geomoose|"
-msgstr ""
+msgstr "**Programvaruversion:** |version-geomoose|"
 
 #: ../../build/doc/overview/geomoose_overview.rst:65
 msgid "**Supported Platforms:** Windows, Linux, Mac"
@@ -151,11 +172,13 @@ msgid ""
 "**Commercial Support:** "
 "https://www.geomoose.org/info/commercial_support.html"
 msgstr ""
+"**Kommersiellt stöd:** https://www.geomoose.org/info/commercial_support.html"
 
 #: ../../build/doc/overview/geomoose_overview.rst:69
 msgid ""
 "**Community Support:** https://www.geomoose.org/info/mailing_lists.html"
 msgstr ""
+"**Support till samhället:** https://www.geomoose.org/info/mailing_lists.html"
 
 #: ../../build/doc/overview/geomoose_overview.rst:75
 msgid "Quickstart"
@@ -163,7 +186,7 @@ msgstr "Snabbstart"
 
 #: ../../build/doc/overview/geomoose_overview.rst:77
 msgid ":doc:`Quickstart documentation <../quickstart/geomoose_quickstart>`"
-msgstr ""
+msgstr ":doc:`Snabbstartsdokumentation <../quickstart/geomoose_quickstart>`"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -175,8 +198,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

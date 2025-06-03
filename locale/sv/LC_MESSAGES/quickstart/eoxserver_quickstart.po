@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-21 20:28+0000\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "eoxserver_quickstart/sv/>\n"
 "Language: sv\n"
@@ -21,59 +21,77 @@ msgstr ""
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:19
 msgid "EOxServer Quickstart"
-msgstr ""
+msgstr "Snabbstart för EOxServer"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:21
 msgid "EOxServer is a server for presenting big Earth Observation (EO) data archives and metadata via Open Standards. It builds upon an Open Source stack of software which includes Python, :doc:`MapServer <../overview/mapserver_overview>`, Django/GeoDjango, :doc:`GDAL <../overview/gdal_overview>`, :doc:`PROJ <../overview/proj_overview>` and a :doc:`SpatiaLite <../overview/spatialite_overview>` or :doc:`PostGIS <../overview/postgis_overview>` database."
 msgstr ""
+"EOxServer är en server för presentation av stora dataarkiv och metadata för "
+"jordobservation (EO) via öppna standarder. Den bygger på en Open Source-"
+"stack av programvara som inkluderar Python, :doc:`MapServer <../overview/"
+"mapserver_overview>`, Django/GeoDjango, :doc:`GDAL <../overview/"
+"gdal_overview>`, :doc:`PROJ <../overview/proj_overview>` och en :doc:`"
+"SpatiaLite <../overview/spatialite_overview>` eller :doc:`PostGIS <../"
+"overview/postgis_overview>` databas."
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:30
 msgid "This Quick Start describes how to:"
-msgstr ""
+msgstr "Denna snabbstart beskriver hur du gör:"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:32
 msgid "Use the Web Client to view, filter, subset, and download EO data"
 msgstr ""
+"Använd webbklienten för att visa, filtrera, dela upp och ladda ner EO-data"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:33
 msgid "Use the Admin Client to inspect EO data archives"
-msgstr ""
+msgstr "Använd Admin Client för att inspektera EO:s dataarkiv"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:36
 msgid "Contents"
-msgstr ""
+msgstr "Innehåll"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:39
 msgid "Start EoxServer"
-msgstr ""
+msgstr "Starta EoxServer"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:41
 msgid "Choose |menu_eoxserver|. This launches a browser showing the demonstration instance available at http://localhost/eoxserver/"
 msgstr ""
+"Välj |menu_eoxserver|. Detta startar en webbläsare som visar "
+"demonstrationsinstansen som finns på http://localhost/eoxserver/"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:None
 msgid "EOxServer demonstration start"
-msgstr ""
+msgstr "Start av demonstration av EOxServer"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:49
 msgid "Work with the Web Client"
-msgstr ""
+msgstr "Arbeta med webbklienten"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:51
 msgid "Click the **Web Client** link to open the integrated EOxServer client."
 msgstr ""
+"Klicka på länken **Web Client** för att öppna den integrerade EOxServer-"
+"klienten."
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:53
 msgid "Within this client you can explore the contents of the EOxServer instance. The demonstration instance is filled with ENVISAT MERIS scenes."
 msgstr ""
+"I den här klienten kan du utforska innehållet i EOxServer-instansen. "
+"Demonstrationsinstansen är fylld med ENVISAT MERIS-scener."
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:None
 msgid "Main view of the EOxServer Web Client"
-msgstr ""
+msgstr "Huvudvy av EOxServer webbklient"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:60
 msgid "The client consists of the map view and widgets that contain the main interactions. The main area is the map widget of the client with a set of datasets already displayed. On the bottom, you'll find the timeslider widget, that allows you to explore the contents in the temporal dimension."
 msgstr ""
+"Klienten består av kartvyn och widgetar som innehåller de viktigaste "
+"interaktionerna. Huvudområdet är klientens kartwidget med en uppsättning "
+"dataset som redan visas. Längst ner hittar du widgeten timeslider, som gör "
+"att du kan utforska innehållet i tidsdimensionen."
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:None
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:None
@@ -81,91 +99,139 @@ msgstr ""
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:None
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:None
 msgid "EOxServer demonstration embedded client outlines"
-msgstr ""
+msgstr "EOxServer demonstration av inbäddad klient skisserar"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:69
 msgid "The Layer Selection widget can be expanded by clicking the cogwheel on the top left and it allows you to enable or disable the visibility and configure the rendering of the layers. Also, you can show or hide the streets-overlay and select the background layer. The Filters tab in this widget enables querying for different spatial and temporal values."
 msgstr ""
+"Widgeten Layer Selection kan expanderas genom att klicka på kugghjulet "
+"längst upp till vänster och gör det möjligt att aktivera eller inaktivera "
+"synligheten och konfigurera renderingen av lagren. Du kan också visa eller "
+"dölja gatuöverlägget och välja bakgrundsskikt. Fliken Filters i den här "
+"widgeten gör det möjligt att söka efter olika rumsliga och tidsmässiga "
+"värden."
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:79
 msgid "Similar to a map, you can zoom and pan the currently visible time of interest and select a time of interest by drawing on the area containing the red dots. You can also hover on a dot to see the dataset ID. By clicking on the dot, the map automatically zooms to the extent of the dataset."
 msgstr ""
+"På samma sätt som på en karta kan du zooma och panorera den aktuella "
+"intressanta tiden och välja en intressant tid genom att rita på det område "
+"som innehåller de röda prickarna. Du kan också hålla muspekaren över en "
+"punkt för att se datasetets ID. Genom att klicka på punkten zoomar kartan "
+"automatiskt till datasetets omfattning."
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:88
 msgid "When a spatial filter is enabled, you can draw a bounding box, polygon or point directly on the map. The drawn feature is used for querying within the Download Tool."
 msgstr ""
+"När ett rumsligt filter är aktiverat kan du rita en bounding box, polygon "
+"eller punkt direkt på kartan. Den ritade funktionen används för frågor i "
+"Download Tool."
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:95
 msgid "You can get more information of available services and metadata on the selected product by hovering on the product in the search results widget and clicking on the icon in the top right."
 msgstr ""
+"Du kan få mer information om tillgängliga tjänster och metadata för den "
+"valda produkten genom att hålla muspekaren över produkten i "
+"sökresultatwidgeten och klicka på ikonen längst upp till höger."
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:103
 msgid "When the Download Tool is enabled, a query to the server is sent. This query includes the selected time of interest and bounding box. The results are shown in the Download widget, where you can select the format, projection and datasets to download."
 msgstr ""
+"När Download Tool är aktiverat skickas en fråga till servern. Denna fråga "
+"inkluderar den valda intressanta tiden och avgränsningsrutan. Resultaten "
+"visas i widgeten Download, där du kan välja format, projektion och dataset "
+"som ska laddas ner."
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:108
 msgid "This was a quick introduction to the EOxServer Web Client. Please refer to the `online documentation <https://docs.eoxserver.org/en/stable/users/services/webclient.html>`_ for more information on this topic."
 msgstr ""
+"Detta var en snabb introduktion till EOxServer Web Client. Mer information "
+"om detta ämne finns i `onlinedokumentationen <https://docs.eoxserver.org/en/"
+"stable/users/services/webclient.html>`_."
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:114
 msgid "Work with the Admin Client"
-msgstr ""
+msgstr "Arbeta med adminklienten"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:116
 msgid "From the EOxServer main page, click the **Admin Client** link and login with user `admin` and password `admin`."
 msgstr ""
+"På EOxServers huvudsida klickar du på länken **Admin Client** och loggar in "
+"med användaren `admin` och lösenordet `admin`."
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:None
 msgid "EOxServer demonstration admin client login"
-msgstr ""
+msgstr "EOxServer demonstration admin klient inloggning"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:123
 msgid "The `Admin Client` is Djangos standard admin and allows you to configure the available data. Please feel free to explore the client. More information can be found in the `operations' guide <https://docs.eoxserver.org/en/stable/users/operations/index.html>`_."
 msgstr ""
+"\"Admin Client\" är Djangos standardadministratör och låter dig konfigurera "
+"tillgängliga data. Känn dig fri att utforska klienten. Mer information finns "
+"i guiden `operations' <https://docs.eoxserver.org/en/stable/users/operations/"
+"index.html>`_."
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:None
 msgid "EOxServer demonstration admin client start"
-msgstr ""
+msgstr "EOxServer demonstration admin klient start"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:132
 msgid "For example, you can inspect the collection that is loaded by default by clicking the \"Collections\" link and then the \"MER_FRS_1P_RGB_reduced\" link."
 msgstr ""
+"Du kan till exempel inspektera den samling som laddas som standard genom att "
+"klicka på länken \"Samlingar\" och sedan på länken \"MER_FRS_1P_RGB_reduced\""
+"."
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:None
 msgid "EOxServer demonstration admin client Dataset Series"
-msgstr ""
+msgstr "EOxServer demonstration admin klient Dataset Serie"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:139
 msgid "You can preview the coverages by going back and clicking on the \"Coverages\" link."
 msgstr ""
+"Du kan förhandsgranska skydden genom att gå tillbaka och klicka på länken "
+"\"Skydd\"."
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:None
 msgid "EOxServer demonstration admin client Dataset Series Management"
-msgstr ""
+msgstr "EOxServer demonstration admin klient Dataset Seriehantering"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:146
 msgid "What Next?"
-msgstr ""
+msgstr "Vad händer härnäst?"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:148
 msgid "This is a simple demonstration, but you can do much more with EOxServer. The project website contains a lot of resources to help you get started. Here’s a few resources to check out next:"
 msgstr ""
+"Det här är en enkel demonstration, men du kan göra mycket mer med EOxServer. "
+"Projektets webbplats innehåller en hel del resurser som hjälper dig att "
+"komma igång. Här är några resurser att kolla in härnäst:"
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:152
 msgid "See the :doc:`EOxServer Overview <../overview/eoxserver_overview>` for more information."
 msgstr ""
+"Se :doc:`EOxServer Overview <../overview/eoxserver_overview>` för mer "
+"information."
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:153
 msgid "Read the `EOxServer Operations' Guide <https://docs.eoxserver.org/en/stable/users/operations/index.html>`_."
 msgstr ""
+"Läs Handbok för drift av OxServer <https://docs.eoxserver.org/en/stable/"
+"users/operations/index.html>`_."
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:154
 msgid "Read the `EOxServer Basics <https://docs.eoxserver.org/en/stable/users/basics.html>`_."
 msgstr ""
+"Läs `EOxServer Basics <https://docs.eoxserver.org/en/stable/users/basics."
+"html>`_."
 
 #: ../../build/doc/quickstart/eoxserver_quickstart.rst:155
 msgid "Ready to use EOxServer? Then join the community on the `mailing lists <https://docs.eoxserver.org/en/stable/users/basics.html#where-can-i-get-support>`_ to exchange ideas, discuss potential software improvements, and ask questions."
 msgstr ""
+"Är du redo att använda EOxServer? Gå då med i gemenskapen på e-postlistorna "
+"<https://docs.eoxserver.org/en/stable/users/basics.html#where-can-i-get-"
+"support>`_ för att utbyta idéer, diskutera potentiella förbättringar av "
+"programvaran och ställa frågor."
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -177,9 +243,9 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

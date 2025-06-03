@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-17 21:23+0000\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "cesium_quickstart/sv/>\n"
 "Language: sv\n"
@@ -21,92 +21,117 @@ msgstr ""
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:19
 msgid "Cesium Quickstart"
-msgstr ""
+msgstr "Snabbstart för Cesium"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:20
 msgid "Cesium is a JavaScript library for creating 3D globes and 2D maps in a web browser without any plugins. It uses WebGL for hardware-accelerated graphics, and is cross-platform, cross-browser, and tuned for time-dynamic data visualization."
 msgstr ""
+"Cesium är ett JavaScript-bibliotek för att skapa 3D-glober och 2D-kartor i "
+"en webbläsare utan några plugins. Det använder WebGL för hårdvaruaccelererad "
+"grafik och är plattformsoberoende, webbläsaroberoende och anpassat för "
+"tidsdynamisk datavisualisering."
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:22
 msgid "This guide shows how to use the Cesium with the 3D (Globe), 2.5D (Columbus View) and 2D (map)."
 msgstr ""
+"Den här guiden visar hur du använder Cesium med 3D (Globe), 2,5D (Columbus "
+"View) och 2D (karta)."
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:25
 msgid "Contents"
-msgstr ""
+msgstr "Innehåll"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:28
 msgid "Start Cesium"
-msgstr ""
+msgstr "Starta Cesium"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:30
 msgid "Open the browser and point it to http://localhost/cesium/Apps/HelloWorld.html"
 msgstr ""
+"Öppna webbläsaren och peka den mot http://localhost/cesium/Apps/HelloWorld."
+"html"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:33
 msgid "Search for a location"
-msgstr ""
+msgstr "Sök efter en plats"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:34
 msgid "Click on the magnifying glass and type in the location you are looking for. In the following display, we look for India."
 msgstr ""
+"Klicka på förstoringsglaset och skriv in den plats du söker. I följande bild "
+"söker vi efter Indien."
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:None
 msgid "Cesium Searching Location"
-msgstr ""
+msgstr "Cesium Sökplats"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:41
 msgid "Switch between 3D, 2.5D and 2D"
-msgstr ""
+msgstr "Växla mellan 3D, 2,5D och 2D"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:42
 msgid "Click on the wire framed globe icon to select your preferred view. Here the 2.5D Columbus view has been selected."
 msgstr ""
+"Klicka på ikonen med den trådinramade jordgloben för att välja önskad vy. "
+"Här har 2,5D Columbus-vyn valts."
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:None
 msgid "Cesium switching between 3D, 2.5D and 2D"
-msgstr ""
+msgstr "Cesium växlar mellan 3D, 2,5D och 2D"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:48
 msgid "Now the 2D map is selected."
-msgstr ""
+msgstr "Nu är 2D-kartan markerad."
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:None
 #: ../../build/doc/quickstart/cesium_quickstart.rst:None
 msgid "Cesium 2D map"
-msgstr ""
+msgstr "Cesium 2D-karta"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:55
 msgid "Select the Image layer"
-msgstr ""
+msgstr "Välj bildlagret"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:56
 msgid "Click on the last icon and select a type of image service. Here the Natural Earth II is selected and you can see how the map's image layer has changed."
 msgstr ""
+"Klicka på den sista ikonen och välj en typ av bildtjänst. Här är Natural "
+"Earth II vald och du kan se hur kartans bildlager har förändrats."
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:65
 msgid "What next?"
-msgstr ""
+msgstr "Hur vill du gå vidare?"
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:66
 msgid "Watch our `video tutorials <https://www.youtube.com/playlist?list=PLBk_Dtk-_Tlm4STvXKFEdfUWylPemo-9V>`_."
 msgstr ""
+"Titta på våra videohandledningar <https://www.youtube.com/playlist?list"
+"=PLBk_Dtk-_Tlm4STvXKFEdfUWylPemo-9V>`_."
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:68
 msgid "Read our written `tutorials <https://cesium.com/learn>`_."
-msgstr ""
+msgstr "Läs våra skriftliga \"handledningar\" <https://cesium.com/learn>`_."
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:70
 msgid "You can develop some quick applications using the `Sandcastle website <https://sandcastle.cesium.com/index.html>`_. Sandcastle is generally one of the best ways to learn about Cesium, and all the code examples are useful for this purpose."
 msgstr ""
+"Du kan utveckla några snabba applikationer med hjälp av webbplatsen `"
+"Sandcastle <https://sandcastle.cesium.com/index.html>`_. Sandcastle är i "
+"allmänhet ett av de bästa sätten att lära sig om Cesium, och alla kodexempel "
+"är användbara för detta ändamål."
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:72
 msgid "The `Cesium Forum <https://community.cesium.com>`_ is a great place to search for answers to common questions, and to raise questions that haven't been asked before."
 msgstr ""
+"Cesium Forum <https://community.cesium.com>`_ är ett utmärkt ställe att söka "
+"efter svar på vanliga frågor och att ställa frågor som inte har ställts "
+"tidigare."
 
 #: ../../build/doc/quickstart/cesium_quickstart.rst:74
 msgid "In-depth documentation is available `locally <http://localhost/cesium/>`_ on the OSGeoLive package."
 msgstr ""
+"Fördjupad dokumentation finns tillgänglig \"lokalt <http://localhost/cesium/>"
+"\" på OSGeoLive-paketet."
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -118,9 +143,9 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"

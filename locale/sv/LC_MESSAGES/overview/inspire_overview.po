@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2024-10-22 05:45+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "inspire_overview/sv/>\n"
 "Language: sv\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: ../../build/doc/overview/inspire_overview.rst:15
 msgid "INSPIRE"
-msgstr ""
+msgstr "INSPIRERA"
 
 #: ../../build/doc/overview/inspire_overview.rst:17
 msgid ""
@@ -42,6 +42,19 @@ msgid ""
 "standards, mainly those developed by the :doc:`OGC <ogc_overview>` and `ISO "
 "<https://www.iso.org>`__."
 msgstr ""
+"`INSPIRE-direktivet <https://inspire.ec.europa.eu>`__ syftar till att skapa "
+"en infrastruktur för rumsliga data (SDI) i Europeiska unionen för "
+"miljöpolitiska syften. Denna europeiska SDI möjliggör delning av rumslig "
+"miljöinformation mellan organisationer inom den offentliga sektorn, "
+"underlättar allmänhetens tillgång till rumslig information och hjälper till "
+"att utforma politik över gränserna. Inspire bygger på de infrastrukturer för "
+"rumslig information som upprättats och drivs av de 27 medlemsstaterna i "
+"Europeiska unionen. Direktivet (se `fullständig text <https://eur-lex.europa."
+"eu/legal-content/EN/TXT/PDF/?uri=CELEX:32007L0002&from=EN>`__) trädde i "
+"kraft den 15 maj 2007 och genomförs i olika steg, med krav på fullständigt "
+"genomförande senast 2021. INSPIRE är på en teknisk nivå baserad på "
+"internationella standarder, främst de som utvecklats av :doc:`OGC "
+"<ogc_overview>` och `ISO <https://www.iso.org>`__."
 
 #: ../../build/doc/overview/inspire_overview.rst:19
 msgid ""
@@ -53,16 +66,26 @@ msgid ""
 "define a location reference that the remaining domain-specific themes (in "
 "Annex III and partly Annex II) can then refer to."
 msgstr ""
+"De dataset som omfattas av Inspire-direktivet är grupperade i 34 "
+"sektorsövergripande kategorier som kallas `teman för rumsliga data "
+"<https://inspire.ec.europa.eu/Themes/Data-Specifications/2892>`__\", vilka "
+"definieras i bilagorna till direktivet och återspeglar två huvudtyper av "
+"data: geospatiala referensdata, som presenteras i bilaga I och delvis i "
+"bilaga II, vilka definierar en platsreferens som de återstående "
+"domänspecifika temana (i bilaga III och delvis i bilaga II) sedan kan "
+"hänvisa till."
 
 #: ../../build/doc/overview/inspire_overview.rst:21
 msgid ""
 "Public sector authorities whose data falls within the scope of the INSPIRE "
 "Directive shall:"
 msgstr ""
+"Myndigheter inom den offentliga sektorn vars uppgifter omfattas av Inspire-"
+"direktivets tillämpningsområde skall:"
 
 #: ../../build/doc/overview/inspire_overview.rst:23
 msgid "document them through metadata;"
-msgstr ""
+msgstr "dokumentera dem genom metadata;"
 
 #: ../../build/doc/overview/inspire_overview.rst:24
 msgid ""
@@ -70,6 +93,9 @@ msgid ""
 "data), view services (to access the data) and download services (to download"
 " the data);"
 msgstr ""
+"exponera dem genom nätverkstjänster: upptäcktstjänster (för att upptäcka "
+"data), visningstjänster (för att få tillgång till data) och "
+"nedladdningstjänster (för att ladda ner data);"
 
 #: ../../build/doc/overview/inspire_overview.rst:27
 msgid ""
@@ -77,10 +103,13 @@ msgid ""
 "<https://inspire.ec.europa.eu/Data-Models/Data-Specifications/2892>`__ "
 "defined for each theme."
 msgstr ""
+"harmonisera sina rumsliga dataset i enlighet med `gemensamma datamodeller "
+"<https://inspire.ec.europa.eu/Data-Models/Data-Specifications/2892>`__ som "
+"definieras för varje tema."
 
 #: ../../build/doc/overview/inspire_overview.rstNone
 msgid "inspire screenshot"
-msgstr ""
+msgstr "inspirera skärmdump"
 
 #: ../../build/doc/overview/inspire_overview.rst:37
 msgid ""
@@ -96,6 +125,16 @@ msgid ""
 "together with selected use cases and an overview of OSGeo software projects "
 "that implementers may use."
 msgstr ""
+"För närvarande bidrar mer än 7.000 europeiska offentliga institutioner med "
+"sina data till INSPIRE. En betydande andel av dem använder OSGeo-"
+"programvaruprojekt under hela implementeringsprocessen. :doc:`OSGeoLive "
+"<../index>` ger en enkel ingång till INSPIRE-implementeringsprocessen genom "
+"ett ökande antal exempel med europeiska data från flera applikationsdomäner "
+"som ingår i de tillgängliga programvaruhandledningarna. Dessutom "
+"upprätthålls `en särskild sida om INSPIRE <https://wiki.osgeo.org/wiki/"
+"INSPIRE>`__ under OSGeo-wikin som ger en översikt över de juridiska och "
+"tekniska aspekterna av INSPIRE tillsammans med utvalda användningsfall och "
+"en översikt över OSGeo-programvaruprojekt som implementatörer kan använda."
 
 #: ../../build/doc/overview/inspire_overview.rst:40
 msgid ""
@@ -104,6 +143,10 @@ msgid ""
 " central software components, which help Member States in the INSPIRE "
 "implementation process:"
 msgstr ""
+"`Europeiska kommissionens gemensamma forskningscentrum (JRC) <https://joint-"
+"research-centre.ec.europa.eu/index_en>`__ utvecklar och underhåller ett "
+"antal centrala programvarukomponenter som hjälper medlemsstaterna att "
+"genomföra INSPIRE:"
 
 #: ../../build/doc/overview/inspire_overview.rst:45
 msgid ""
@@ -112,6 +155,10 @@ msgid ""
 "unique identifiers and descriptions of INSPIRE resources such as themes, "
 "code lists and application schemas;"
 msgstr ""
+"`iNSPIRE Registry <https://inspire.ec.europa.eu/registry>`__, som bygger på "
+"programvaran :doc:`Re3gistry <re3gistry_overview>` med öppen källkod, "
+"hanterar de unika identifierarna och beskrivningarna av INSPIRE-resurser som "
+"teman, kodlistor och applikationsscheman;"
 
 #: ../../build/doc/overview/inspire_overview.rst:49
 msgid ""
@@ -120,6 +167,10 @@ msgid ""
 " `ETF testing framework <https://etf-validator.net>`__, allows to test that "
 "metadata, datasets and services are compliant with INSPIRE requirements;"
 msgstr ""
+"`iNSPIRE Reference Validator <https://inspire.ec.europa.eu/validator/about/>`"
+"__, som bygger på öppen källkod `ETF testing framework <https://etf-validator"
+".net>`__, gör det möjligt att testa att metadata, dataset och tjänster "
+"överensstämmer med INSPIRE-kraven;"
 
 #: ../../build/doc/overview/inspire_overview.rst:53
 msgid ""
@@ -127,6 +178,9 @@ msgid ""
 "to discover, access and download all the datasets made available by Member "
 "States under INSPIRE."
 msgstr ""
+"`iNSPIRE Geoportal <https://inspire-geoportal.ec.europa.eu/>`__ gör det "
+"möjligt att upptäcka, få tillgång till och ladda ner alla dataset som "
+"medlemsstaterna gjort tillgängliga inom ramen för Inspire."
 
 #: ../../build/doc/overview/inspire_overview.rst:60
 msgid "Details"
@@ -134,7 +188,7 @@ msgstr "Detaljer"
 
 #: ../../build/doc/overview/inspire_overview.rst:62
 msgid "**Website:** https://inspire.ec.europa.eu/about-inspire/563"
-msgstr ""
+msgstr "**Webbplats:** https://inspire.ec.europa.eu/about-inspire/563"
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"
@@ -146,8 +200,8 @@ msgstr "nologo"
 
 #: ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Project"
-msgstr ""
+msgstr "OSGeo-projektet"
 
 #: ../../build/doc/<rst_epilog>:0 ../../build/doc/<rst_epilog>:0
 msgid "OSGeo Community"
-msgstr ""
+msgstr "OSGeo Gemenskap"
