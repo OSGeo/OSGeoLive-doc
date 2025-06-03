@@ -109,7 +109,8 @@
 </pre></div>
 </div>
 <p>次のNaturalEarth Rasterファイルと.tfw World-fileがあることを確認してください::</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ls</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">user</span><span class="o">/</span><span class="n">gdal_natural_earth</span><span class="o">/</span><span class="n">HYP_50M_SR_W</span><span class="o">.*</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">user</span><span class="o">/</span><span class="n">gdal_natural_earth</span>
+<span class="n">ls</span> <span class="n">HYP_50M_SR_W</span><span class="o">.*</span>
 </pre></div>
 </div>
 <div class="admonition tip">
@@ -119,31 +120,38 @@
 </section>
 <section id="get-information-about-the-raster-data-with-gdalinfo">
 <h2><a class="toc-backref" href="#id2">gdalinfoでラスタデータの情報を取得</a><a class="headerlink" href="#get-information-about-the-raster-data-with-gdalinfo" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>gdalinfo HYP_50M_SR_W.tif
-  Driver: GTiff/GeoTIFF
-  Files: HYP_50M_SR_W.tif
-         HYP_50M_SR_W.tfw
-  Size is 10800, 5400
-  Coordinate System is `&#39;
-  Origin = (-179.999999999999972,90.000000000000000)
-  Pixel Size = (0.033333333333330,-0.033333333333330)
-  Metadata:
-    TIFFTAG_SOFTWARE=Adobe Photoshop CS3 Macintosh
-    TIFFTAG_DATETIME=2009:09:19 10:13:17
-    TIFFTAG_XRESOLUTION=342.85699
-    TIFFTAG_YRESOLUTION=342.85699
-    TIFFTAG_RESOLUTIONUNIT=2 (pixels/inch)
-  Image Structure Metadata:
-    INTERLEAVE=PIXEL
-  Corner Coordinates:
-  Upper Left  (-180.0000000,  90.0000000)
-  Lower Left  (-180.0000000, -90.0000000)
-  Upper Right ( 180.0000000,  90.0000000)
-  Lower Right ( 180.0000000, -90.0000000)
-  Center      (  -0.0000000,   0.0000000)
-  Band 1 Block=10800x1 Type=Byte, ColorInterp=Red
-  Band 2 Block=10800x1 Type=Byte, ColorInterp=Green
-  Band 3 Block=10800x1 Type=Byte, ColorInterp=Blue
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdalinfo</span> <span class="n">HYP_50M_SR_W</span><span class="o">.</span><span class="n">tif</span>
+  <span class="n">Driver</span><span class="p">:</span> <span class="n">GTiff</span><span class="o">/</span><span class="n">GeoTIFF</span>
+  <span class="n">Files</span><span class="p">:</span> <span class="n">HYP_50M_SR_W</span><span class="o">.</span><span class="n">tif</span>
+  <span class="n">Size</span> <span class="ow">is</span> <span class="mi">10800</span><span class="p">,</span> <span class="mi">5400</span>
+  <span class="n">Coordinate</span> <span class="n">System</span> <span class="ow">is</span><span class="p">:</span>
+  <span class="n">GEOGCRS</span><span class="p">[</span><span class="s2">&quot;WGS 84&quot;</span><span class="p">,</span>
+      <span class="n">ENSEMBLE</span><span class="p">[</span><span class="s2">&quot;World Geodetic System 1984 ensemble&quot;</span><span class="p">,</span>
+<span class="o">...</span>
+  <span class="n">Origin</span> <span class="o">=</span> <span class="p">(</span><span class="o">-</span><span class="mf">179.999999999999972</span><span class="p">,</span><span class="mf">90.000000000000000</span><span class="p">)</span>
+  <span class="n">Pixel</span> <span class="n">Size</span> <span class="o">=</span> <span class="p">(</span><span class="mf">0.033333333333330</span><span class="p">,</span><span class="o">-</span><span class="mf">0.033333333333330</span><span class="p">)</span>
+  <span class="n">Metadata</span><span class="p">:</span>
+    <span class="n">TIFFTAG_SOFTWARE</span><span class="o">=</span><span class="n">Adobe</span> <span class="n">Photoshop</span> <span class="n">CS5</span> <span class="n">Macintosh</span>
+    <span class="n">TIFFTAG_DATETIME</span><span class="o">=</span><span class="mi">2012</span><span class="p">:</span><span class="mi">07</span><span class="p">:</span><span class="mi">16</span> <span class="mi">09</span><span class="p">:</span><span class="mi">16</span><span class="p">:</span><span class="mi">14</span>
+    <span class="n">TIFFTAG_XRESOLUTION</span><span class="o">=</span><span class="mf">342.85699</span>
+    <span class="n">TIFFTAG_YRESOLUTION</span><span class="o">=</span><span class="mf">342.85699</span>
+    <span class="n">TIFFTAG_RESOLUTIONUNIT</span><span class="o">=</span><span class="mi">2</span> <span class="p">(</span><span class="n">pixels</span><span class="o">/</span><span class="n">inch</span><span class="p">)</span>
+    <span class="n">AREA_OR_POINT</span><span class="o">=</span><span class="n">Area</span>
+  <span class="n">Image</span> <span class="n">Structure</span> <span class="n">Metadata</span><span class="p">:</span>
+    <span class="n">SOURCE_COLOR_SPACE</span><span class="o">=</span><span class="n">YCbCr</span>
+    <span class="n">COMPRESSION</span><span class="o">=</span><span class="n">YCbCr</span> <span class="n">JPEG</span>
+    <span class="n">INTERLEAVE</span><span class="o">=</span><span class="n">PIXEL</span>
+    <span class="n">JPEG_QUALITY</span><span class="o">=</span><span class="mi">90</span>
+    <span class="n">JPEGTABLESMODE</span><span class="o">=</span><span class="mi">3</span>
+  <span class="n">Corner</span> <span class="n">Coordinates</span><span class="p">:</span>
+  <span class="n">Upper</span> <span class="n">Left</span>  <span class="p">(</span><span class="o">-</span><span class="mf">180.0000000</span><span class="p">,</span>  <span class="mf">90.0000000</span><span class="p">)</span> <span class="p">(</span><span class="mi">180</span><span class="n">d</span> <span class="mi">0</span><span class="s1">&#39; 0.00&quot;W, 90d 0&#39;</span> <span class="mf">0.00</span><span class="s2">&quot;N)</span>
+  <span class="n">Lower</span> <span class="n">Left</span>  <span class="p">(</span><span class="o">-</span><span class="mf">180.0000000</span><span class="p">,</span> <span class="o">-</span><span class="mf">90.0000000</span><span class="p">)</span> <span class="p">(</span><span class="mi">180</span><span class="n">d</span> <span class="mi">0</span><span class="s1">&#39; 0.00&quot;W, 90d 0&#39;</span> <span class="mf">0.00</span><span class="s2">&quot;S)</span>
+  <span class="n">Upper</span> <span class="n">Right</span> <span class="p">(</span> <span class="mf">180.0000000</span><span class="p">,</span>  <span class="mf">90.0000000</span><span class="p">)</span> <span class="p">(</span><span class="mi">180</span><span class="n">d</span> <span class="mi">0</span><span class="s1">&#39; 0.00&quot;E, 90d 0&#39;</span> <span class="mf">0.00</span><span class="s2">&quot;N)</span>
+  <span class="n">Lower</span> <span class="n">Right</span> <span class="p">(</span> <span class="mf">180.0000000</span><span class="p">,</span> <span class="o">-</span><span class="mf">90.0000000</span><span class="p">)</span> <span class="p">(</span><span class="mi">180</span><span class="n">d</span> <span class="mi">0</span><span class="s1">&#39; 0.00&quot;E, 90d 0&#39;</span> <span class="mf">0.00</span><span class="s2">&quot;S)</span>
+  <span class="n">Center</span>      <span class="p">(</span>  <span class="o">-</span><span class="mf">0.0000000</span><span class="p">,</span>   <span class="mf">0.0000000</span><span class="p">)</span> <span class="p">(</span>  <span class="mi">0</span><span class="n">d</span> <span class="mi">0</span><span class="s1">&#39; 0.00&quot;W,  0d 0&#39;</span> <span class="mf">0.00</span><span class="s2">&quot;N)</span>
+  <span class="n">Band</span> <span class="mi">1</span> <span class="n">Block</span><span class="o">=</span><span class="mi">256</span><span class="n">x256</span> <span class="n">Type</span><span class="o">=</span><span class="n">Byte</span><span class="p">,</span> <span class="n">ColorInterp</span><span class="o">=</span><span class="n">Red</span>
+  <span class="n">Band</span> <span class="mi">2</span> <span class="n">Block</span><span class="o">=</span><span class="mi">256</span><span class="n">x256</span> <span class="n">Type</span><span class="o">=</span><span class="n">Byte</span><span class="p">,</span> <span class="n">ColorInterp</span><span class="o">=</span><span class="n">Green</span>
+  <span class="n">Band</span> <span class="mi">3</span> <span class="n">Block</span><span class="o">=</span><span class="mi">256</span><span class="n">x256</span> <span class="n">Type</span><span class="o">=</span><span class="n">Byte</span><span class="p">,</span> <span class="n">ColorInterp</span><span class="o">=</span><span class="n">Blue</span>
 </pre></div>
 </div>
 <dl class="simple">
@@ -159,19 +167,23 @@
 </section>
 <section id="simple-format-translation">
 <h2><a class="toc-backref" href="#id3">シンプルなフォーマットの翻訳</a><a class="headerlink" href="#simple-format-translation" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p>まずドライバーについて知りましょう。gdal_translateの <cite>--formats</cite> コマンドラインスイッチを使用すると、利用可能なフォーマットドライバの一覧を表示できます。</p>
+<p>First get to know your drivers. The <cite>--formats</cite> command line switch of
+gdal_translate can be used to see a list of available format drivers.</p>
 <dl class="simple">
-<dt>各フォーマットは、次の場合にレポートします</dt><dd><ul class="simple">
-<li><p>読み取り専用 (ro) 、</p></li>
-<li><p>読み取り/書き込み (rw) または</p></li>
-<li><p>読み取り/書き込み/更新 (rw+)。</p></li>
+<dt>Each format reports if it supports the following features:</dt><dd><ul class="simple">
+<li><p>read only (ro)</p></li>
+<li><p>read/write (rw)</p></li>
+<li><p>read/write/update (rw+)</p></li>
+<li><p>supports virtual file systems (v)</p></li>
+<li><p>supports subdatasets (s)</p></li>
 </ul>
 </dd>
 </dl>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdal_translate</span> <span class="o">--</span><span class="n">formats</span>
 </pre></div>
 </div>
-<p><cite>--format</cite> コマンドラインスイッチを使用すると、特定のドライバについて、作成オプションや許可されたデータ型などを含めて詳細に問い合わせることができます。</p>
+<p>The <cite>--format</cite> command line switch can be used to query details about a
+particular driver, including creation options, and permitted data types.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdalinfo</span> <span class="o">--</span><span class="nb">format</span> <span class="n">jpeg</span>
 <span class="n">gdal_translate</span> <span class="o">--</span><span class="nb">format</span> <span class="n">png</span>
 </pre></div>
@@ -219,27 +231,29 @@ INFO: Open of `index_natural_earth.shp&#39;
     using driver `ESRI Shapefile&#39; successful.
 
 Layer name: index_natural_earth
+Metadata:
+  DBF_DATE_LAST_UPDATE=2025-05-13
 Geometry: Polygon
 Feature Count: 2
 Extent: (-180.000000, -90.000000) - (180.000000, 90.000000)
-Layer SRS WKT: (unknown)
-location: String (255.0)
+Layer SRS WKT:
+GEOGCRS[&quot;WGS 84&quot;,
+    ...
+location: String (254.0)
 OGRFeature(index_natural_earth):0
-  location (String) = east.tif
-  POLYGON ((-0.00000000001796 90.0,179.999999999964047 90.0,179.999999999964047 -89.999999999982009,-0.00000000001796 -89.999999999982009,-0.00000000001796 90.0))
+  location (String) = west.tif
+  POLYGON ((-180 90.0,-0.000000000017963 90.0,-0.000000000017963 -89.999999999982,-180 -89.999999999982,-180 90.0))
 
 OGRFeature(index_natural_earth):1
-  location (String) = west.tif
-  POLYGON ((-179.999999999999972 90.0,-0.00000000001796 90.0,-0.00000000001796 -89.999999999982009,-179.999999999999972 -89.999999999982009,-179.999999999999972 90.0))
+  location (String) = east.tif
+  POLYGON ((-0.000000000017963 90.0,179.999999999964 90.0,179.999999999964 -89.999999999982,-0.000000000017963 -89.999999999982,-0.000000000017963 90.0))
 </pre></div>
 </div>
 </section>
 <section id="reprojecting">
 <h2><a class="toc-backref" href="#id7">再投影</a><a class="headerlink" href="#reprojecting" title="このヘッドラインへのパーマリンク">¶</a></h2>
-<p>このプロセスでは、HYP_50M_SR_W.tifが境界付きで正しく作成されているものとします。前に見たように、gdainfoには座標系が設定されていませんでした。そこで、最初のステップでWGS84を座標系としてイメージに割り当てます。</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdal_translate</span> <span class="o">-</span><span class="n">a_srs</span> <span class="n">WGS84</span> <span class="n">HYP_50M_SR_W</span><span class="o">.</span><span class="n">tif</span> <span class="n">HYP_50M_SR_W_4326</span><span class="o">.</span><span class="n">tif</span>
-</pre></div>
-</div>
+<p>For this process we assume that HYP_50M_SR_W.tif has been properly
+created with bounds.</p>
 <p>gdalwarpコマンドを使用して、イメージを再投影できます。ここでは、WGS84の地理的イメージをメルカトル図法に再投影します。</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdalwarp</span> <span class="o">-</span><span class="n">t_srs</span> <span class="s1">&#39;+proj=merc +datum=WGS84&#39;</span> <span class="n">HYP_50M_SR_W_4326</span><span class="o">.</span><span class="n">tif</span> <span class="n">mercator</span><span class="o">.</span><span class="n">tif</span>
 </pre></div>
@@ -284,18 +298,19 @@ resolve this.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>ogrinfo -ro /home/user/gdal_natural_earth
 INFO: Open of `/home/user/gdal_natural_earth&#39;
       using driver `ESRI Shapefile&#39; successful.
-  1: ne_10m_populated_places (3D Point)
-  2: ne_10m_geography_regions_polys (3D Polygon)
-  3: ne_10m_admin_1_states_provinces_shp (3D Polygon)
-  4: ne_10m_urban_areas (3D Polygon)
-  5: ne_10m_geography_marine_polys (3D Polygon)
-  6: ne_10m_land (3D Polygon)
-  7: ne_10m_geography_regions_elevation_points (3D Point)
-  8: ne_10m_admin_0_countries (3D Polygon)
-  9: ne_10m_rivers_lake_centerlines (3D Line String)
-  10: ne_10m_lakes (3D Polygon)
-  11: ne_10m_geography_regions_points (3D Point)
-  12: ne_10m_ocean (3D Polygon)
+1: ne_10m_geography_regions_polys (Polygon)
+2: ne_10m_populated_places (Point)
+3: ne_10m_urban_areas (Polygon)
+4: ne_10m_geography_marine_polys (Polygon)
+5: ne_10m_admin_1_states_provinces_shp (Polygon)
+6: ne_10m_admin_0_countries (Polygon)
+7: ne_10m_ocean (Polygon)
+8: ne_10m_rivers_lake_centerlines (Line String)
+9: ne_10m_land (Polygon)
+10: index_natural_earth (Polygon)
+11: ne_10m_geography_regions_elevation_points (Point)
+12: ne_10m_geography_regions_points (Point)
+13: ne_10m_lakes (Polygon)
 </pre></div>
 </div>
 <p>ogrinfoに <cite>-so</cite> を付けて、データの概要を表示します。</p>
@@ -304,15 +319,15 @@ INFO: Open of `ne_10m_admin_0_countries.shp&#39;
       using driver `ESRI Shapefile&#39; successful.
 
 Layer name: ne_10m_admin_0_countries
-Geometry: 3D Polygon
+Metadata:
+  DBF_DATE_LAST_UPDATE=2012-11-05
+Geometry: Polygon
 Feature Count: 254
 Extent: (-180.000000, -90.000000) - (180.000000, 83.634101)
 Layer SRS WKT:
-GEOGCS[&quot;GCS_WGS_1984&quot;,
-    DATUM[&quot;WGS_1984&quot;,
-        SPHEROID[&quot;WGS_84&quot;,6378137.0,298.257223563]],
-    PRIMEM[&quot;Greenwich&quot;,0.0],
-    UNIT[&quot;Degree&quot;,0.0174532925199433]]
+GEOGCRS[&quot;WGS 84&quot;,
+    DATUM[&quot;World Geodetic System 1984&quot;,
+...
 scalerank: Integer (4.0)
 featurecla: String (30.0)
 labelrank: Real (16.6)
