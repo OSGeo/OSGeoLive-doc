@@ -1,0 +1,245 @@
+
+<!DOCTYPE html>
+
+<html lang="hu">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>OWSLib &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Tárgymutató" href="../genindex.html" />
+    <link rel="search" title="Keresés" href="../search.html" />
+    <link rel="copyright" title="Minden jog fenntartva" href="../copyright.html" />
+    <link rel="next" title="OWSLib Quickstart" href="../quickstart/owslib_quickstart.html" />
+    <link rel="prev" title="PROJ gyorstalpaló" href="../quickstart/proj_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://owslib.readthedocs.io/"><img alt="../../_images/logo_owslib.png" class="align-right" src="../../_images/logo_owslib.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_community.png" class="align-right" src="../../_images/OSGeo_community.png" /></a>
+<section id="owslib">
+<h1>OWSLib<a class="headerlink" href="#owslib" title="Hivatkozás erre a fejezetcímre">¶</a></h1>
+<section id="open-geospatial-web-services-library">
+<h2>Open Geospatial Web Services Library<a class="headerlink" href="#open-geospatial-web-services-library" title="Hivatkozás erre a fejezetcímre">¶</a></h2>
+<p>OWSLib is a <a class="reference external" href="https://www.python.org/">Python</a> package for client programming with <a class="reference external" href="https://ogc.org">Open Geospatial Consortium</a> (OGC) web service (hence OWS) interface standards,
+and their related content models.</p>
+<p>OWSLib is Open Source, released under an BSD 3-Clause License, and runs on any platform that supports Python (Windows, Linux, Mac OS X).</p>
+<a class="reference internal image-reference" href="../../_images/owslib_screenshot.png"><img alt="owslib screenshot" class="align-right" src="../../_images/owslib_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>Core Features<a class="headerlink" href="#core-features" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
+<ul class="simple">
+<li><p>easily connect to WMS, WFS, WCS, WPS, CSW services using Python (and many more)</p></li>
+<li><p>support for the new <a class="reference external" href="https://ogcapi.ogc.org">OGC APIs</a></p></li>
+<li><p>easy to install with <code class="docutils literal notranslate"><span class="pre">pip3</span> <span class="pre">install</span> <span class="pre">OWSLib</span></code></p></li>
+<li><p>also available with Conda, and as a Debian package</p></li>
+<li><p>an <a class="reference external" href="https://www.osgeo.org/projects/owslib/">OSGeo Community Project</a></p></li>
+<li><p>detailed log output</p></li>
+<li><p>support for proxies</p></li>
+</ul>
+</section>
+<section id="implemented-standards">
+<h3>Implemented Standards<a class="headerlink" href="#implemented-standards" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
+<section id="ogc-standards">
+<h4>OGC Standards<a class="headerlink" href="#ogc-standards" title="Hivatkozás erre a fejezetcímre">¶</a></h4>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 29%" />
+<col style="width: 21%" />
+<col style="width: 29%" />
+<col style="width: 21%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Standard</strong></p></th>
+<th class="head"><p><strong>Version(s)</strong></p></th>
+<th class="head"><p><strong>Standard</strong></p></th>
+<th class="head"><p><strong>Version(s)</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference external" href="https://www.opengeospatial.org/standards/wms">OGC WMS</a></p></td>
+<td><p>1.1.1, 1.3.0</p></td>
+<td><p><a class="reference external" href="https://www.opengeospatial.org/standards/wfs">OGC WFS</a></p></td>
+<td><p>1.0.0, 1.1.0,
+2.0.0, 3.0</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://www.opengeospatial.org/standards/wcs">OGC WCS</a></p></td>
+<td><p>1.0.0, 1.1.0,
+2.0, 2.0.1</p></td>
+<td><p><a class="reference external" href="https://www.opengeospatial.org/standards/wmc">OGC WMC</a></p></td>
+<td><p>1.1.0</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://www.opengeospatial.org/standards/sos">OGC SOS</a></p></td>
+<td><p>1.0.0, 2.0.0</p></td>
+<td><p><a class="reference external" href="https://www.opengeospatial.org/standards/sensorml">OGC SensorML</a></p></td>
+<td><p>1.0.1</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://www.opengeospatial.org/standards/cat">OGC CSW</a></p></td>
+<td><p>2.0.2</p></td>
+<td><p><a class="reference external" href="https://www.opengeospatial.org/standards/wps">OGC WPS</a></p></td>
+<td><p>1.0.0</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://www.opengeospatial.org/standards/filter">OGC Filter</a></p></td>
+<td><p>1.1.0</p></td>
+<td><p><a class="reference external" href="https://www.opengeospatial.org/standards/common">OGC OWS Common</a></p></td>
+<td><p>1.0.0, 1.1.0,
+2.0</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://www.opengeospatial.org/standards/owc">OGC OWS Context</a></p></td>
+<td><p>1.0.0 (alpha)</p></td>
+<td><p><a class="reference external" href="https://earthdata.nasa.gov/esdis/eso/standards-and-references/directory-interchange-format-dif-standard">NASA DIF</a></p></td>
+<td><p>9.7</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://www.fgdc.gov/metadata/csdgm-standard">FGDC CSDGM</a></p></td>
+<td><p>1998</p></td>
+<td><p><a class="reference external" href="https://www.iso.org/standard/32557.html">ISO 19139</a></p></td>
+<td><p>2007</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://www.iso.org/standard/57104.html">ISO 19139-2</a></p></td>
+<td><p>2012</p></td>
+<td><p><a class="reference external" href="https://www.dublincore.org/">Dublin Core</a></p></td>
+<td><p>1.1</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://www.geocat.admin.ch/en/dokumentation/gm03.html">Swiss GM03</a></p></td>
+<td><p>2.3</p></td>
+<td><p><a class="reference external" href="https://www.opengeospatial.org/standards/wmts">OGC WMTS</a></p></td>
+<td><p>1.0.0</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="http://his.cuahsi.org/wofws.html#waterml">WaterML</a></p></td>
+<td><p>1.0, 1.1, 2.0</p></td>
+<td><p><a class="reference external" href="https://github.com/dewitt/opensearch">OpenSearch</a></p></td>
+<td><p>1.1</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="ogc-api-support">
+<h4>OGC API Support<a class="headerlink" href="#ogc-api-support" title="Hivatkozás erre a fejezetcímre">¶</a></h4>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 44%" />
+<col style="width: 8%" />
+<col style="width: 39%" />
+<col style="width: 8%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Standard</strong></p></th>
+<th class="head"><p><strong>Version</strong></p></th>
+<th class="head"><p><strong>Standard</strong></p></th>
+<th class="head"><p><strong>Version</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference external" href="https://docs.ogc.org/is/17-069r4/17-069r4.html">OGC API - Features - Part 1: Core</a></p></td>
+<td><p>1.0</p></td>
+<td><p><a class="reference external" href="https://docs.ogc.org/DRAFTS/19-087.html">OGC API - Coverages - Part 1: Core</a></p></td>
+<td><p>draft</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://docs.ogc.org/is/19-079r2/19-079r2.html">OGC API - Features - Part 3: Filtering</a></p></td>
+<td><p>draft</p></td>
+<td><p><a class="reference external" href="https://docs.ogc.org/is/18-062r2/18-062r2.html">OGC API - Processes - Part 1: Core</a></p></td>
+<td><p>1.0</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference external" href="https://docs.ogc.org/DRAFTS/20-002r1.html">OGC API - Features - Part 4: Create, Replace, Update and Delete</a></p></td>
+<td><p>draft</p></td>
+<td><p><a class="reference external" href="https://docs.ogc.org/DRAFTS/23-001r0.html">OGC API - Connected Systems - Part 1: Feature Resources</a></p></td>
+<td><p>draft</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference external" href="https://docs.ogc.org/is/20-004r1/20-004r1.html">OGC API - Records - Part 1: Core</a></p></td>
+<td><p>draft</p></td>
+<td><p><a class="reference external" href="https://docs.ogc.org/DRAFTS/23-002r0.html">OGC API - Connected Systems - Part 2: Dynamic Data</a></p></td>
+<td><p>draft</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+<section id="details">
+<h3>Details<a class="headerlink" href="#details" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
+<p><strong>Website:</strong> <a class="reference external" href="https://owslib.readthedocs.io/">https://owslib.readthedocs.io/</a></p>
+<p><strong>Licence:</strong> <a class="reference external" href="https://owslib.readthedocs.io/en/stable/license.html">BSD 3-Clause License</a></p>
+<p><strong>Software Version:</strong> 0.33.0</p>
+<p><strong>Supported Platforms:</strong> Windows, Linux, Mac</p>
+<p><strong>API Interfaces:</strong> Python</p>
+<p><strong>Support:</strong> <a class="reference external" href="https://www.osgeo.org/service-providers">OSGeo service providers</a></p>
+</section>
+<section id="quickstart">
+<h3>Quickstart<a class="headerlink" href="#quickstart" title="Hivatkozás erre a fejezetcímre">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/owslib_quickstart.html"><span class="doc">Quickstart documentation</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>
