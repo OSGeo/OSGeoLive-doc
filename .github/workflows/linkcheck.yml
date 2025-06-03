@@ -52,8 +52,8 @@ jobs:
 
           # if there is a change on the translation
           if git diff --name-only HEAD^ HEAD | grep -q "^locale/${{ matrix.language }}" ; then echo "PROCESS=true" >> $GITHUB_ENV; fi
-          # if the change involves a link
-          if git diff HEAD^ "locale/${{ matrix.language }}" | grep "http" | grep -q "+" ; then echo "CHK_LINK=true" >> $GITHUB_ENV; fi
+          # if the change involves a link (TODO eneable when detecting which link is making it stall)
+          # if git diff HEAD^ "locale/${{ matrix.language }}" | grep "http" | grep -q "+" ; then echo "CHK_LINK=true" >> $GITHUB_ENV; fi
 
       - name: Install python
         if: env.PROCESS == 'true' || env.CHK_LINK == 'true'
