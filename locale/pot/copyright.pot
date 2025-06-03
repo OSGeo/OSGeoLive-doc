@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-29 18:41+0000\n"
+"POT-Creation-Date: 2025-06-02 19:24+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -421,6 +421,14 @@ msgid "otb_overview"
 msgstr ""
 
 #: ../../build/licenses.csv:1
+msgid "owslib_overview"
+msgstr ""
+
+#: ../../build/licenses.csv:1
+msgid "OSGeoLive; Seth Girvin, Tom Kralidis"
+msgstr ""
+
+#: ../../build/licenses.csv:1
 msgid "pgrouting_overview"
 msgstr ""
 
@@ -726,6 +734,10 @@ msgstr ""
 
 #: ../../build/licenses.csv:1
 msgid "OSGeoLive; Manuel Grizonnet"
+msgstr ""
+
+#: ../../build/licenses.csv:1
+msgid "owslib_quickstart"
 msgstr ""
 
 #: ../../build/licenses.csv:1

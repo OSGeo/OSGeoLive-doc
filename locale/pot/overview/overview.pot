@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-18 17:21+0000\n"
+"POT-Creation-Date: 2025-05-23 16:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -61,6 +61,7 @@ msgstr ""
 msgid "|osgeo_community| Is an OSGeo Community Project"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
 #: ../../build/doc/<rst_epilog>:0
@@ -400,42 +401,46 @@ msgstr ""
 msgid "Geospatial Libraries"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:322
+#: ../../build/doc/overview/overview.rst:324
 msgid "|OSGeo_project| :doc:`gdal_overview` - [:doc:`Quickstart <../quickstart/gdal_quickstart>`] - Geospatial Data Translation Tools"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:324
+#: ../../build/doc/overview/overview.rst:326
 msgid "|OSGeo_project| :doc:`geos_overview`  - C/C++ Spatial Library"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:326
+#: ../../build/doc/overview/overview.rst:328
 msgid "|OSGeo_project| :doc:`geotools_overview`  - Java GIS Toolkit"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:328
+#: ../../build/doc/overview/overview.rst:330
 msgid "|OSGeo_project| :doc:`proj_overview` - [:doc:`Quickstart <../quickstart/proj_quickstart>`] - Coordinate Reference System Libraries"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:330
-msgid "|nologo| :doc:`jts_overview`  - Java Topology Suite"
+#: ../../build/doc/overview/overview.rst:332
+msgid "|OSGeo_community| :doc:`owslib_overview` - [:doc:`Quickstart <../quickstart/owslib_quickstart>`] - Python Client for OGC Services"
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:334
+msgid "|nologo| :doc:`jts_overview`  - Java Topology Suite"
+msgstr ""
+
+#: ../../build/doc/overview/overview.rst:338
 msgid "Geospatial Standards"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:344
+#: ../../build/doc/overview/overview.rst:348
 msgid "|nologo| :doc:`ogc_overview`  - Open Geospatial Consortium"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:346
+#: ../../build/doc/overview/overview.rst:350
 msgid "|nologo| :doc:`inspire_overview`  - Infrastructure for Spatial Information in Europe"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:350
+#: ../../build/doc/overview/overview.rst:354
 msgid "Available in prior OSGeoLive releases"
 msgstr ""
 
-#: ../../build/doc/overview/overview.rst:362
+#: ../../build/doc/overview/overview.rst:366
 msgid ":doc:`../prior_applications`"
 msgstr ""

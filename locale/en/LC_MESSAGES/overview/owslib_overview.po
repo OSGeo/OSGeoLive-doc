@@ -1,0 +1,351 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2011~2022, OSGeo
+# This file is distributed under the same license as the OSGeoLive package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2025.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OSGeoLive 17.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-05-23 16:57+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+
+#: ../../build/doc/overview/owslib_overview.rst:17
+msgid "OWSLib"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:20
+msgid "Open Geospatial Web Services Library"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:22
+msgid ""
+"OWSLib is a `Python`_ package for client programming with `Open "
+"Geospatial Consortium`_ (OGC) web service (hence OWS) interface "
+"standards, and their related content models."
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:25
+msgid ""
+"OWSLib is Open Source, released under an BSD 3-Clause License, and runs "
+"on any platform that supports Python (Windows, Linux, Mac OS X)."
+msgstr ""
+
+msgid "owslib screenshot"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:34
+msgid "Core Features"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:36
+msgid ""
+"easily connect to WMS, WFS, WCS, WPS, CSW services using Python (and many"
+" more)"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:37
+msgid "support for the new `OGC APIs`_"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:38
+msgid "easy to install with ``pip3 install OWSLib``"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:39
+msgid "also available with Conda, and as a Debian package"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:40
+msgid "an `OSGeo Community Project`_"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:41
+msgid "detailed log output"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:42
+msgid "support for proxies"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:45
+msgid "Implemented Standards"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:48
+msgid "OGC Standards"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:51
+#: ../../build/doc/overview/owslib_overview.rst:81
+msgid "**Standard**"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:51
+msgid "**Version(s)**"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:53
+msgid "`OGC WMS`_"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:53
+msgid "1.1.1, 1.3.0"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:53
+msgid "`OGC WFS`_"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:53
+msgid "1.0.0, 1.1.0, 2.0.0, 3.0"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:56
+msgid "`OGC WCS`_"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:56
+msgid "1.0.0, 1.1.0, 2.0, 2.0.1"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:56
+msgid "`OGC WMC`_"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:56
+#: ../../build/doc/overview/owslib_overview.rst:63
+msgid "1.1.0"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:59
+msgid "`OGC SOS`_"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:59
+msgid "1.0.0, 2.0.0"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:59
+msgid "`OGC SensorML`_"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:59
+msgid "1.0.1"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:61
+msgid "`OGC CSW`_"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:61
+msgid "2.0.2"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:61
+msgid "`OGC WPS`_"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:61
+#: ../../build/doc/overview/owslib_overview.rst:72
+msgid "1.0.0"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:63
+msgid "`OGC Filter`_"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:63
+msgid "`OGC OWS Common`_"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:63
+msgid "1.0.0, 1.1.0, 2.0"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:66
+msgid "`OGC OWS Context`_"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:66
+msgid "1.0.0 (alpha)"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:66
+msgid "`NASA DIF`_"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:66
+msgid "9.7"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:68
+msgid "`FGDC CSDGM`_"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:68
+msgid "1998"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:68
+msgid "`ISO 19139`_"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:68
+msgid "2007"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:70
+msgid "`ISO 19139-2`_"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:70
+msgid "2012"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:70
+msgid "`Dublin Core`_"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:70
+#: ../../build/doc/overview/owslib_overview.rst:74
+msgid "1.1"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:72
+msgid "`Swiss GM03`_"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:72
+msgid "2.3"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:72
+msgid "`OGC WMTS`_"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:74
+msgid "`WaterML`_"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:74
+msgid "1.0, 1.1, 2.0"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:74
+msgid "`OpenSearch`_"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:78
+msgid "OGC API Support"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:81
+msgid "**Version**"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:83
+msgid "`OGC API - Features - Part 1: Core`_"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:83
+#: ../../build/doc/overview/owslib_overview.rst:85
+msgid "1.0"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:83
+msgid "`OGC API - Coverages - Part 1: Core`_"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:83
+#: ../../build/doc/overview/owslib_overview.rst:85
+#: ../../build/doc/overview/owslib_overview.rst:87
+#: ../../build/doc/overview/owslib_overview.rst:89
+msgid "draft"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:85
+msgid "`OGC API - Features - Part 3: Filtering`_"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:85
+msgid "`OGC API - Processes - Part 1: Core`_"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:87
+msgid "`OGC API - Features - Part 4: Create, Replace, Update and Delete`_"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:87
+msgid "`OGC API - Connected Systems - Part 1: Feature Resources`_"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:89
+msgid "`OGC API - Records - Part 1: Core`_"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:89
+msgid "`OGC API - Connected Systems - Part 2: Dynamic Data`_"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:93
+msgid "Details"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:95
+msgid "**Website:** https://owslib.readthedocs.io/"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:97
+msgid "**Licence:** `BSD 3-Clause License`_"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:99
+msgid "**Software Version:** |version-owslib|"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:101
+msgid "**Supported Platforms:** Windows, Linux, Mac"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:103
+msgid "**API Interfaces:** Python"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:105
+msgid "**Support:** |SUPPORT|"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:152
+msgid "Quickstart"
+msgstr ""
+
+#: ../../build/doc/overview/owslib_overview.rst:154
+msgid ":doc:`Quickstart documentation <../quickstart/owslib_quickstart>`"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:11
+msgid "vmdk"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>:14
+msgid "nologo"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Project"
+msgstr ""
+
+#: ../../build/doc/<rst_epilog>
+msgid "OSGeo Community"
+msgstr ""
+
