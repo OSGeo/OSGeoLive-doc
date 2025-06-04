@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"PO-Revision-Date: 2025-06-04 09:45+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "naturalearth_overview/sv/>\n"
@@ -178,7 +178,7 @@ msgstr "**Dataformat:** SHP och TIF+TFW"
 
 #: ../../build/doc/overview/naturalearth_overview.rst:64
 msgid "**Spatial coordinate system:** WGS84."
-msgstr "**Rumsligt koordinatsystem:** WGS84."
+msgstr "**Spatialt koordinatsystem:** WGS84."
 
 #: ../../build/doc/overview/naturalearth_overview.rst:66
 msgid "**Support:** https://www.naturalearthdata.com/about"

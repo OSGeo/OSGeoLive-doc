@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"PO-Revision-Date: 2025-06-04 09:45+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "mapserver_overview/sv/>\n"
@@ -48,7 +48,7 @@ msgstr ""
 "<http://www.dnr.state.mn.us/maps/compass.html>`_ ger till exempel användarna "
 "tillgång till mer än 10.000 webbsidor, rapporter och kartor via en enda "
 "applikation. Samma applikation fungerar som en \"kartmotor\" för andra delar "
-"av webbplatsen och ger rumsligt sammanhang där det behövs."
+"av webbplatsen och ger spatialt sammanhang där det behövs."
 
 #: ../../build/doc/overview/mapserver_overview.rst:31
 msgid ""
@@ -164,7 +164,7 @@ msgstr "Kompositering av lager"
 
 #: ../../build/doc/overview/mapserver_overview.rst:65
 msgid "Sophisticated spatial query support"
-msgstr "Sofistikerat stöd för rumsliga frågor"
+msgstr "Sofistikerat stöd för spatiala frågor"
 
 #: ../../build/doc/overview/mapserver_overview.rst:67
 msgid ""

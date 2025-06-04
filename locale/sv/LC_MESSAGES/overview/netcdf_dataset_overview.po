@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"PO-Revision-Date: 2025-06-04 09:45+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "netcdf_dataset_overview/sv/>\n"
@@ -100,7 +100,7 @@ msgstr "**Dataformat:** NetCDF, HDF5"
 
 #: ../../build/doc/overview/netcdf_dataset_overview.rst:43
 msgid "**Spatial coordinate system:** EPSG:4326, NAD83"
-msgstr "**Rumsligt koordinatsystem:** EPSG:4326, NAD83"
+msgstr "**Spatialt koordinatsystem:** EPSG:4326, NAD83"
 
 #: ../../build/doc/overview/netcdf_dataset_overview.rst:45
 msgid "**Support:** https://lists.osgeo.org/mailman/listinfo/geodata"

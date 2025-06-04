@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-21 20:28+0000\n"
-"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"PO-Revision-Date: 2025-06-04 09:45+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "zoo-project_quickstart/sv/>\n"
@@ -28,7 +28,7 @@ msgid "The ZOO-Project provides a developer friendly Web Processing Service (WPS
 msgstr ""
 "ZOO-projektet tillhandahåller ett utvecklarvänligt ramverk för Web "
 "Processing Service (WPS) för att skapa och kedja Web Processing Services. En "
-"WPS ger webbåtkomst till funktioner som kör rumsliga algoritmer."
+"WPS ger webbåtkomst till funktioner som kör spatiala algoritmer."
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:30
 msgid "Contents"
@@ -58,12 +58,12 @@ msgstr "skärmbild"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:45
 msgid "OGR spatial tools demo"
-msgstr "Demo av OGR:s rumsliga verktyg"
+msgstr "Demo av OGR:s spatiala verktyg"
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:47
 msgid "On the ZOO Project demonstration landing page, click :guilabel:`view` on OGR spatial tools."
 msgstr ""
-"Klicka på :guilabel:`view` på OGR:s rumsliga verktyg på ZOO-projektets "
+"Klicka på :guilabel:`view` på OGR:s spatiala verktyg på ZOO-projektets "
 "landningssida för demonstration."
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:48

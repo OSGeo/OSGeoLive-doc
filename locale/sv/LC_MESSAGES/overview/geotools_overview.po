@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"PO-Revision-Date: 2025-06-04 09:45+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "geotools_overview/sv/>\n"
@@ -56,7 +56,7 @@ msgstr "Kärnfunktioner"
 #: ../../build/doc/overview/geotools_overview.rst:33
 msgid "Definition of interfaces for key spatial concepts and data structures"
 msgstr ""
-"Definition av gränssnitt för viktiga rumsliga begrepp och datastrukturer"
+"Definition av gränssnitt för viktiga spatiala begrepp och datastrukturer"
 
 #: ../../build/doc/overview/geotools_overview.rst:35
 msgid ""
@@ -81,7 +81,7 @@ msgstr ""
 
 #: ../../build/doc/overview/geotools_overview.rst:40
 msgid "Access GIS data in many file formats and spatial databases"
-msgstr "Få tillgång till GIS-data i många filformat och rumsliga databaser"
+msgstr "Få tillgång till GIS-data i många filformat och spatiala databaser"
 
 #: ../../build/doc/overview/geotools_overview.rst:41
 msgid "Coordinate reference system and transformation support"
@@ -94,7 +94,7 @@ msgstr "Arbeta med ett omfattande utbud av kartprojektioner"
 #: ../../build/doc/overview/geotools_overview.rst:43
 msgid "filter and analyze data in terms of spatial and non-spatial attributes"
 msgstr ""
-"filtrera och analysera data med avseende på rumsliga och icke-rumsliga "
+"filtrera och analysera data med avseende på spatiala och icke-spatiala "
 "attribut"
 
 #: ../../build/doc/overview/geotools_overview.rst:45
@@ -149,7 +149,7 @@ msgid ""
 "Provide additional capabilities built using the spatial facilites of the "
 "core library."
 msgstr ""
-"Tillhandahåller ytterligare funktioner som bygger på de rumsliga "
+"Tillhandahåller ytterligare funktioner som bygger på de spatiala "
 "funktionerna i kärnbiblioteket."
 
 #: ../../build/doc/overview/geotools_overview.rst:0
