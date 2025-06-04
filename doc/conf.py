@@ -202,6 +202,16 @@ linkcheck_ignore = [
         # used in overview/mapserver_overview
         'http://www.dnr.state.mn.us/maps/compass.html',
 
+        # 404
+        r'https://docs.qgis.org/3.10/en/docs/server_manual/',
+        r'https://earthdata.nasa.gov/esdis/eso/standards-and-references/directory-interchange-format-dif-standard',
+        r'https://istsos.org/en/trunk/doc/index.html',
+        r'https://istsos.org/tutorial/'
+
+
+        # 504
+        r'https://help.ubuntu.com/',
+
         # intermittent 502 server errors
         r'https://demo.pycsw.org',
 
