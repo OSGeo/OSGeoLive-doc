@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>MapProxy &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="MapProxy Snabbstart" href="../quickstart/mapproxy_quickstart.html" />
+    <link rel="prev" title="istSOS Snabbstart" href="../quickstart/istsos_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://mapproxy.org/"><img alt="../../_images/logo_mapproxy.png" class="align-right" src="../../_images/logo_mapproxy.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_community.png" class="align-right" src="../../_images/OSGeo_community.png" /></a>
+<section id="mapproxy">
+<h1>MapProxy<a class="headerlink" href="#mapproxy" title="Permalink till denna rubrik">¶</a></h1>
+<section id="proxy-wms-tile-services">
+<h2>Proxy WMS &amp; tjänster för kakel och klinker<a class="headerlink" href="#proxy-wms-tile-services" title="Permalink till denna rubrik">¶</a></h2>
+<p>MapProxy snabbar upp kartapplikationer genom att förrendera och integrera kartor från flera källor och lagra dem i en lokal cache. Skikt kan göras transparenta, projektioner kan ändras, flera kartskikt kan omvandlas till ett, vattenstämplar kan läggas till och mycket mer…</p>
+<p>MapProxy är flexibel och skalbar från enkla till komplexa användningsfall: från en enda kakelcache för en <a class="reference internal" href="openlayers_overview.html"><span class="doc">OpenLayers</span></a> webbklient till en central SDI-nod som kombinerar, förenar och accelererar dussintals distribuerade WMS-tjänster.</p>
+<a class="reference internal image-reference" href="../../_images/mapproxy_screenshot.png"><img alt="mapproxy skärmdump" class="align-right" src="../../_images/mapproxy_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>Kärnfunktioner<a class="headerlink" href="#core-features" title="Permalink till denna rubrik">¶</a></h3>
+<a class="reference internal image-reference" href="../../_images/mapproxy_demo.png"><img alt="MapProxy-demo" class="align-right" src="../../_images/mapproxy_demo.png" style="width: 557.1999999999999px; height: 566.3px;" /></a>
+<dl class="simple">
+<dt>Ingångskällor:</dt><dd><ul class="simple">
+<li><p>WMS 1.0.0-1.3.0 (<a class="reference internal" href="mapserver_overview.html"><span class="doc">MapServer</span></a>, <a class="reference internal" href="geoserver_overview.html"><span class="doc">GeoServer</span></a>, etc.)</p></li>
+<li><p>TMS, WMTS (TileCache, GeoWebcache, etc.)</p></li>
+<li><p>Mapserver och Mapnik (direkt, utan WMS)</p></li>
+<li><p>alla TileCache-, Google Maps- eller Bing-kompatibla källor</p></li>
+<li><p>ArcGIS REST-servrar och kompakta cachefiler</p></li>
+</ul>
+</dd>
+<dt>Tjänster:</dt><dd><ul class="simple">
+<li><p>WMS (1.0.0-1.3.0)</p></li>
+<li><p>TMS</p></li>
+<li><p>WMTS</p></li>
+<li><p>KML SuperOverlays</p></li>
+</ul>
+</dd>
+<dt>Tile cache:</dt><dd><ul class="simple">
+<li><p>lagrar identiska bilder bara en gång (t.ex. havsplattor)</p></li>
+<li><p>cacha tiles i filsystemet, MBTiles/SQLite, ArcGIS Compact Cache, S3, Redis, Riak eller CouchDB</p></li>
+<li><p>lägg till vattenstämpel på plattor</p></li>
+</ul>
+</dd>
+<dt>Alternativ för källa:</dt><dd><ul class="simple">
+<li><p>begränsa källor till geometrier (t.ex. från Shapefile)</p></li>
+<li><p>lägga till transparens i ogenomskinliga lager</p></li>
+<li><p>slå samman flera källor</p></li>
+<li><p>omprojektering av WMS- och kakelkällor till andra SRS</p></li>
+</ul>
+</dd>
+<dt>WMS Funktioner:</dt><dd><ul class="simple">
+<li><p>bygga upp lagerträd från olika källor</p></li>
+<li><p>skapa <code class="docutils literal notranslate"><span class="pre">GetMap</span></code>-svar från cache med stöd för frizoomning och valfri projektion (för alla Desktop GIS)</p></li>
+<li><p>snabbar upp befintliga WMS 10 till 100 gånger</p></li>
+<li><p>svara på <code class="docutils literal notranslate"><span class="pre">GetLegendGraphic</span></code>-förfrågningar</p></li>
+<li><p>kaskadförfrågningar för <code class="docutils literal notranslate"><span class="pre">GetFeatureInfo</span></code> med valfria XSL-transformationer</p></li>
+<li><p>reprojektion i farten</p></li>
+<li><p>konvertera WMS-versioner och bildformat</p></li>
+</ul>
+</dd>
+<dt>Säkerhet:</dt><dd><ul class="simple">
+<li><p>flexibelt och kraftfullt API för auktorisering</p></li>
+<li><p>finkornig kontroll över tjänster och lager</p></li>
+<li><p>begränsa åtkomst till polygonområden (för WMS och tile-tjänster)</p></li>
+<li><p>integrera med befintliga användardatabaser och autentiseringsmetoder</p></li>
+</ul>
+</dd>
+<dt>Kraftfulla verktyg:</dt><dd><ul class="simple">
+<li><p>effektivt seed-verktyg för förfyllning av cache som kan seed-polygonområden med Shapefiles, GeoJSON, PostGIS eller WKT-geometrier</p></li>
+<li><p>exportera cachade brickor till andra format</p></li>
+<li><p>beräkna skalor och visa rutnätskonfigurationer</p></li>
+</ul>
+</dd>
+<dt>Övriga funktioner:</dt><dd><ul class="simple">
+<li><p>enkelt men kraftfullt konfigurationsformat (YAML/JSON)</p></li>
+<li><p>OpenLayers-baserad demo-klient</p></li>
+<li><p>köra flera WMS-tjänster i en MapProxy-instans</p></li>
+<li><p>lägga till attributionsrader till bilderna</p></li>
+<li><p>stöd för rasterdata som inte är bilder, t.ex. DEM</p></li>
+<li><p>manipulera bildband för att skapa gråskala- eller falskfärgsbilder</p></li>
+<li><p>många fler</p></li>
+</ul>
+</dd>
+</dl>
+</section>
+<section id="implemented-standards">
+<h3>Implementerade standarder<a class="headerlink" href="#implemented-standards" title="Permalink till denna rubrik">¶</a></h3>
+<p>MapProxy implementerar följande öppna specifikationer:</p>
+<ul class="simple">
+<li><p>OGC WMS 1.0.0, 1.1.0, 1.1.1, 1.3.0</p></li>
+<li><p>OGC WMTS 1.0.0 (KVP och RESTful)</p></li>
+<li><p>OSGeo TMS 1.0.0</p></li>
+<li><p>OGC KML 2.2 SuperOverlays</p></li>
+</ul>
+</section>
+<section id="details">
+<h3>Detaljer<a class="headerlink" href="#details" title="Permalink till denna rubrik">¶</a></h3>
+<p><strong>Webbplats:</strong> <a class="reference external" href="https://mapproxy.org/">https://mapproxy.org/</a></p>
+<p><strong>Licens:</strong> <a class="reference external" href="https://www.apache.org/licenses/LICENSE-2.0.html">Apache Software License 2.0</a></p>
+<p><strong>Programvaruversion:</strong> 4.0.2</p>
+<p><strong>Plattformar som stöds:</strong> Linux, Mac, Windows</p>
+<p><strong>Support:</strong> <a class="reference external" href="https://www.mapproxy.org/support">https://www.mapproxy.org/support</a></p>
+</section>
+<section id="quickstart">
+<h3>Snabbstart<a class="headerlink" href="#quickstart" title="Permalink till denna rubrik">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/mapproxy_quickstart.html"><span class="doc">Snabbstartsdokumentation</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

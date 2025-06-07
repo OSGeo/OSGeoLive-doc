@@ -1,0 +1,275 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Snabbstart för QGIS &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="OpenJUMP GIS" href="../overview/openjump_overview.html" />
+    <link rel="prev" title="QGIS" href="../overview/qgis_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://www.qgis.org/"><img alt="../../_images/logo_qgis.png" class="align-right" src="../../_images/logo_qgis.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<section id="qgis-quickstart">
+<h1>Snabbstart för QGIS<a class="headerlink" href="#qgis-quickstart" title="Permalink till denna rubrik">¶</a></h1>
+<p>QGIS är en användarvänlig Desktop GIS-klient som låter dig visualisera, hantera, redigera, analysera data och skapa utskrivbara kartor.</p>
+<div class="contents local topic" id="contents">
+<p class="topic-title">Innehåll</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#start-qgis" id="id1">Starta QGIS</a></p></li>
+<li><p><a class="reference internal" href="#create-a-project" id="id2">Skapa ett projekt</a></p></li>
+<li><p><a class="reference internal" href="#open-an-existing-project" id="id3">Öppna ett befintligt projekt</a></p></li>
+<li><p><a class="reference internal" href="#navigate-the-map" id="id4">Navigera på kartan</a></p></li>
+<li><p><a class="reference internal" href="#style-your-layers" id="id5">Styla dina lager</a></p></li>
+<li><p><a class="reference internal" href="#things-to-try" id="id6">Saker att prova</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id7">Hur vill du gå vidare?</a></p></li>
+</ul>
+</div>
+<section id="start-qgis">
+<h2><a class="toc-backref" href="#id1">Starta QGIS</a><a class="headerlink" href="#start-qgis" title="Permalink till denna rubrik">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Öppna mappen ”Desktop GIS”.</p></li>
+<li><p>Dubbelklicka på ikonen ”QGIS”.</p></li>
+</ol>
+<p>Du kommer att se QGIS starta med ett tomt projekt. De olika delarna av QGIS-gränssnittet listas nedan.</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/qgis_interface.png"><img alt="Öppna ett QGIS-projekt" src="../../_images/qgis_interface.png" style="width: 855.4px; height: 539.6999999999999px;" /></a>
+</div></blockquote>
+<ul class="simple">
+<li><p>[1] Menyfält: Åtkomst till olika QGIS-funktioner med hjälp av en hierarkisk standardmeny.</p></li>
+<li><p>[2] Verktygsfält: För interaktion med kartan, lager, attribut och urval.</p></li>
+<li><p>[3] Panel för webbläsare: En spatial filbläddrare som gör det möjligt att dra och släppa innehåll i kartramen.</p></li>
+<li><p>[4] Skiktpanel: Styr kartlagren, deras ordning och synlighet.</p></li>
+<li><p>[5] Statusfält: Allmän information om kartan och tillgång till ett universellt sökfält.</p></li>
+</ul>
+</section>
+<section id="create-a-project">
+<h2><a class="toc-backref" href="#id2">Skapa ett projekt</a><a class="headerlink" href="#create-a-project" title="Permalink till denna rubrik">¶</a></h2>
+<p>För att skapa ett nytt projekt väljer du <span class="menuselection">Project ‣ New</span>.</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/qgis_new_project.png"><img alt="QGIS nytt projekt" src="../../_images/qgis_new_project.png" style="width: 760.1999999999999px; height: 499.09999999999997px;" /></a>
+</div></blockquote>
+<p>Låt oss börja med att lägga till ett vektorlager på kartan. Du kan lägga till lager i QGIS med hjälp av webbläsarpanelen till vänster på skärmen.</p>
+<ol class="arabic simple">
+<li><p>Gå till webbläsarpanelen till vänster på skärmen.</p></li>
+<li><p>Navigera i mappträdet till ”home/data/natural_earth2”.</p></li>
+<li><p>Välj ”ne_10m_admin_0_countries.shp”.</p></li>
+<li><p>Dra lagret från webbläsarpanelen och släpp det i kartramen.</p></li>
+</ol>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/qgis_browser_panel.png"><img alt="Lägg till vektorlager i QGIS-webbläsaren" src="../../_images/qgis_browser_panel.png" style="width: 930.3px; height: 616.6999999999999px;" /></a>
+</div></blockquote>
+<p>När skiktet har dragits till kartbilden visas ett skikt med länder.</p>
+<a class="reference internal image-reference" href="../../_images/qgis_add_vector_layer.png"><img alt="QGIS vektorlager" src="../../_images/qgis_add_vector_layer.png" style="width: 900.9px; height: 533.4px;" /></a>
+<p>Nu ska vi försöka lägga till ett rasterlager i projektet.</p>
+<ol class="arabic simple">
+<li><p>Gå till webbläsarpanelen till vänster på skärmen.</p></li>
+<li><p>Navigera i mappträdet till ”home/data/natural_earth2”.</p></li>
+<li><p>Välj ”HYP_50M_SR_W.tif”.</p></li>
+<li><p>Dra lagret från webbläsarpanelen och släpp det i kartramen.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/qgis_browser_panel_raster.png"><img alt="Lägg till rasterlager i QGIS-webbläsaren" src="../../_images/qgis_browser_panel_raster.png" style="width: 930.3px; height: 616.6999999999999px;" /></a>
+<p>När skiktet har dragits till kartbilden visas ett rasterskikt som visar marktäcke och batymetri.</p>
+<a class="reference internal image-reference" href="../../_images/qgis_add_raster_layer.png"><img alt="QGIS rasterskikt" src="../../_images/qgis_add_raster_layer.png" style="width: 930.3px; height: 616.6999999999999px;" /></a>
+<p>Nu när vi har lagt till lite innehåll i vårt projekt kan vi spara det så att vi kan komma tillbaka till det vid ett senare tillfälle.</p>
+<ol class="arabic">
+<li><p>Välj <span class="menuselection">Projekt ‣ Spara</span>.</p>
+<a class="reference internal image-reference" href="../../_images/qgis_save_project.png"><img alt="QGIS spara" src="../../_images/qgis_save_project.png" style="width: 930.3px; height: 616.6999999999999px;" /></a>
+</li>
+<li><p>Välj plats för att spara projektet till ”/home/user/desktop”.</p></li>
+<li><p>Kalla projektet för ”Mitt QGIS-projekt”.</p>
+<a class="reference internal image-reference" href="../../_images/qgis_save_project_location.png"><img alt="QGIS-projektets plats" src="../../_images/qgis_save_project_location.png" style="width: 443.79999999999995px; height: 309.4px;" /></a>
+</li>
+<li><p>Klicka på ”Spara”.</p></li>
+</ol>
+<p>Du vet att projektet har sparats eftersom det kommer att finnas en projektfil på skrivbordet som heter ”Mitt QGIS-projekt” och överst i ditt projektdokument kommer det inte längre att stå ”utan titel” utan istället ”Mitt QGIS-projekt”.</p>
+<a class="reference internal image-reference" href="../../_images/qgis_saved_project.png"><img alt="QGIS sparat projekt" src="../../_images/qgis_saved_project.png" style="width: 930.3px; height: 616.6999999999999px;" /></a>
+</section>
+<section id="open-an-existing-project">
+<h2><a class="toc-backref" href="#id3">Öppna ett befintligt projekt</a><a class="headerlink" href="#open-an-existing-project" title="Permalink till denna rubrik">¶</a></h2>
+<p>Ett QGIS-projekt sparar lager, stilar, kartutsnitt och inställningar för användning vid ett senare tillfälle. Denna information lagras som en QGIS-projektfil och har filnamnstillägget ’.qgs’ eller ’.qgz’, där ’.qgz’ är standardfilformatet i QGIS framöver.</p>
+<p>Låt oss öppna ett befintligt QGIS-projekt och titta på hur det fungerar.</p>
+<ol class="arabic simple">
+<li><p>Öppna QGIS. Observera att när QGIS öppnas kommer du att få en lista över de senaste projekten att välja mellan. Detta är ett smidigt sätt att öppna ett projekt som du har använt nyligen.</p></li>
+<li><p>Välj <span class="menuselection">Project ‣ Open</span>.</p></li>
+<li><p>Navigera till ”/home/user/qgis-example”.</p></li>
+<li><p>Välj projektet ”QGIS-NaturalEarth-Example.qgs”.</p></li>
+<li><p>Klicka på ”Öppna”.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/qgis_project_open.png"><img alt="QGIS Öppet projekt" src="../../_images/qgis_project_open.png" style="width: 443.79999999999995px; height: 309.4px;" /></a>
+<p>Detta öppnar ett QGIS-projekt med ett antal Natural Earth-datauppsättningar, enligt nedan. Detta projekt innehåller ett antal lager i lagerpanelen och visar det spatiala innehållet i kartramen.</p>
+<a class="reference internal image-reference" href="../../_images/qgis_project_open_result.png"><img alt="QGIS Open projektresultat" src="../../_images/qgis_project_open_result.png" style="width: 855.4px; height: 539.6999999999999px;" /></a>
+<p>Lager kan slås på eller av genom att klicka på kryssrutan bredvid lagrets namn i lagerpanelen. När ett lager aktiveras i lagerpanelen uppdateras kartramen så att lagret visas. En närbild av lagerpanelen visas nedan.</p>
+<a class="reference internal image-reference" href="../../_images/qgis_layer_panel.png"><img alt="QGIS lagerpanel" src="../../_images/qgis_layer_panel.png" style="width: 210.0px; height: 227.49999999999997px;" /></a>
+<p>Nu ska vi interagera med lagerpanelen och ändra synligheten för några kartlager.</p>
+<ol class="arabic simple">
+<li><p>Klicka på kryssrutan bredvid lagret ”ne_10m_populated_places” för att aktivera det.</p></li>
+<li><p>Klicka på kryssrutan bredvid ”Water”-lagret för att stänga av lagret.</p></li>
+</ol>
+<p>Lägg märke till hur kartramen har uppdaterats för att återspegla ändringarna i skiktlistan. Vi kan nu se skiktet ”ne_10m_populated_places” som punkter, men vi kan inte längre se floderna och sjöarna som finns i skiktet ”Waters”.</p>
+<a class="reference internal image-reference" href="../../_images/qgis_layer_visibility.png"><img alt="QGIS-resultat av ändringar i skiktens synlighet" src="../../_images/qgis_layer_visibility.png" style="width: 855.4px; height: 539.6999999999999px;" /></a>
+<p>Förutom att kontrollera lagrens synlighet kan vi också ändra ordningen i vilken lagren ritas i lagerpanelen. Detta görs genom att markera ett lager i lagerpanelen och dra det uppåt eller nedåt i listan. Den ordning som lagren visas i lagerlistan är den ordning som de kommer att ritas i i kartramen.</p>
+<ol class="arabic simple">
+<li><p>Vänsterklicka på lagret ”HYP_50M_SR_W”.</p></li>
+<li><p>Håll musknappen nedtryckt och dra lagret till toppen av listan.</p></li>
+</ol>
+<p>Lägg märke till att rasterlagret nu ligger ovanpå alla andra lager i lagerpanelen. Detta gör att rasterlagret nu ligger ovanpå alla andra lager i kartramen.</p>
+<a class="reference internal image-reference" href="../../_images/qgis_modified_layer_order.png"><img alt="QGIS ändrade ordningen på lagren" src="../../_images/qgis_modified_layer_order.png" style="width: 930.3px; height: 616.6999999999999px;" /></a>
+<p>Försök flytta skiktet ”HYP_50M_SR_W” till botten av skiktlistan. Detta skulle vara en mer lämplig position för ett kartlager som detta.</p>
+</section>
+<section id="navigate-the-map">
+<h2><a class="toc-backref" href="#id4">Navigera på kartan</a><a class="headerlink" href="#navigate-the-map" title="Permalink till denna rubrik">¶</a></h2>
+<p>Med hjälp av navigeringsverktygsfältet kan användaren flytta runt på kartan och ändra kartans omfattning.</p>
+<a class="reference internal image-reference" href="../../_images/qgis_navigation_toolbar.png"><img alt="Verktygsfält för navigering i QGIS" src="../../_images/qgis_navigation_toolbar.png" style="width: 336.0px; height: 51.8px;" /></a>
+<ul class="simple">
+<li><p>[1] Panorera: Gör att kartan kan dras (”panoreras”) till en ny plats.</p></li>
+<li><p>[2] Zooma in: Gör det möjligt att zooma in kartans utbredning.</p></li>
+<li><p>[3] Zooma ut: Gör det möjligt att zooma ut kartan.</p></li>
+<li><p>[4] Zooma till full omfattning: Ändrar kartans omfattning så att alla kartlager ryms i kartramen.</p></li>
+<li><p>[5] Zooma till skikt: Ändrar kartans omfattning så att den passar omfattningen av det lager som markeras i lagerpanelen.</p></li>
+</ul>
+<p>Låt oss prova att ändra kartans utbredning med hjälp av inzoomningsverktyget.</p>
+<ol class="arabic simple">
+<li><p>Välj verktyget ”Zooma in” i verktygsfältet för navigering.</p></li>
+<li><p>Flytta markören över kartbilden.</p></li>
+<li><p>Klicka och håll in vänster musknapp.</p></li>
+<li><p>Håll musknappen intryckt och flytta markören diagonalt i valfri riktning. Observera att detta ritar en rektangel som är det område som kommer att zoomas till.</p></li>
+<li><p>Släpp musknappen när du är nöjd med den skapade ytan.</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Observera</p>
+<p>Processen för att använda verktyget för utzoomning är densamma som för inzoomning. Resultatet blir precis tvärtom.</p>
+</div>
+<p>Låt oss nu titta på verktyget Zoom till full omfattning. Detta verktyg zoomar ut kartan så mycket att alla lager i kartan får plats. För att använda detta verktyg klickar du på knappen ”Zoom to full extent”.</p>
+<p>Slutligen kan du prova verktyget Zoom till lager. Följ dessa steg för att använda detta verktyg:</p>
+<ol class="arabic simple">
+<li><p>Klicka på namnet på ett lager i lagerpanelen.</p></li>
+<li><p>Klicka på knappen ”Zoom to layer”.</p></li>
+</ol>
+<p>Kartan bör zooma till omfattningen av det valda (”aktiva”) lagret.</p>
+</section>
+<section id="style-your-layers">
+<h2><a class="toc-backref" href="#id5">Styla dina lager</a><a class="headerlink" href="#style-your-layers" title="Permalink till denna rubrik">¶</a></h2>
+<p>Skikt kan utformas i QGIS med hjälp av stildockan. Stildockan är inte synlig som standard, men är lättåtkomlig via en knapp högst upp i lagerpanelen enligt bilden nedan.</p>
+<a class="reference internal image-reference" href="../../_images/qgis_style_dock_button.png"><img alt="Docka med QGIS-stil" src="../../_images/qgis_style_dock_button.png" style="width: 932.4px; height: 616.6999999999999px;" /></a>
+<p>Knappen ovan fungerar som en vippknapp så att stildockan enkelt kan döljas genom att klicka på samma knapp igen. När stildockan är aktiverad visas den på höger sida av skärmen och är redo att styla det aktiva lagret som markeras i lagerpanelen.</p>
+<p>När stildockan är öppen kan vi ändra utseendet på det lager som visas högst upp i stildockan.</p>
+<a class="reference internal image-reference" href="../../_images/qgis_style_dock_layer.png"><img alt="Dockningslager i QGIS-stil" src="../../_images/qgis_style_dock_layer.png" style="width: 286.29999999999995px; height: 294.7px;" /></a>
+<p>När stildockan nu är öppen kan vi ändra färgen och bredden på linjerna i lagret ”ne_10m_rivers_lakes_centrelines”. Låt oss prova att ändra färgen först.</p>
+<ol class="arabic">
+<li><p>Klicka på färgprovet ”Color” som visas nedan. Då öppnas en färgpalett där du kan välja en annan färg.</p>
+<a class="reference internal image-reference" href="../../_images/qgis_style_dock_color.png"><img alt="QGIS-stil för dockningsfärg" src="../../_images/qgis_style_dock_color.png" style="width: 298.2px; height: 225.39999999999998px;" /></a>
+</li>
+<li><p>I paletten ”Select Color” flyttar du hårkorset till önskad färg.</p>
+<a class="reference internal image-reference" href="../../_images/qgis_style_color_palette.png"><img alt="QGIS färgpalett" src="../../_images/qgis_style_color_palette.png" style="width: 284.2px; height: 224.7px;" /></a>
+</li>
+<li><p>Klicka sedan på pilen tillbaka för att återgå till förhandsgranskningen av symbolrenderingen.</p>
+<a class="reference internal image-reference" href="../../_images/qgis_style_back.png"><img alt="Retur av QGIS-stil" src="../../_images/qgis_style_back.png" style="width: 281.4px; height: 128.1px;" /></a>
+</li>
+<li><p>Förhandsgranskningen av symbolen uppdateras med den nya färgen, och det gör även lagret i kartramen.</p>
+<a class="reference internal image-reference" href="../../_images/qgis_style_result.png"><img alt="Resultat i QGIS-stil" src="../../_images/qgis_style_result.png" style="width: 865.9px; height: 562.8px;" /></a>
+</li>
+</ol>
+<p>I stildockan kan vi också ändra storleken på kartfunktionerna. Följ dessa steg för att ändra linjernas tjocklek:</p>
+<ol class="arabic">
+<li><p>Se till att ”ne_10m_rivers_lakes_centrelines” är markerat högst upp i stilpanelen.</p></li>
+<li><p>I stilpanelen anger du värdet ”0,5” i inmatningen ”width”.</p>
+<a class="reference internal image-reference" href="../../_images/qgis_style_width.png"><img alt="Bredd på QGIS-stil" src="../../_images/qgis_style_width.png" style="width: 865.9px; height: 562.8px;" /></a>
+</li>
+</ol>
+<p>Lägg märke till att linjen i förhandsgranskningen av symbolen ökar i bredd, och det gör även linjerna i kartramen.</p>
+</section>
+<section id="things-to-try">
+<h2><a class="toc-backref" href="#id6">Saker att prova</a><a class="headerlink" href="#things-to-try" title="Permalink till denna rubrik">¶</a></h2>
+<ul class="simple">
+<li><p>Utöka QGIS-funktionaliteten med <a class="reference external" href="https://docs.qgis.org/3.4/en/docs/user_manual/plugins/plugins.html">Plugins</a>.</p></li>
+<li><p>Börja manipulera data med <a class="reference external" href="https://docs.qgis.org/3.4/en/docs/user_manual/processing/toolbox.html">Processing toolbox</a>.</p></li>
+<li><p>Använd QGIS för att visa innehåll från en <a class="reference external" href="https://docs.qgis.org/3.4/en/docs/training_manual/spatial_databases/index.html">PostGIS-databas</a>.</p></li>
+<li><p>Försök att publicera din QGIS-karta på webben med hjälp av <a class="reference internal" href="../overview/qgis_mapserver_overview.html"><span class="doc">QGIS Map Server</span></a>. i <span class="menuselection">Geospatial ‣ Web Services ‣ QGIS Server</span></p></li>
+</ul>
+</section>
+<section id="what-next">
+<h2><a class="toc-backref" href="#id7">Hur vill du gå vidare?</a><a class="headerlink" href="#what-next" title="Permalink till denna rubrik">¶</a></h2>
+<p>För att lära dig mer om QGIS är en bra utgångspunkt <a class="reference external" href="https://www.qgis.org/resources/hub/">Dokumentationssidan</a> på QGIS hemsida och <a class="reference external" href="https://docs.qgis.org/latest/en/docs/gentle_gis_introduction/index.html">En mild introduktion till GIS</a> eBook.</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

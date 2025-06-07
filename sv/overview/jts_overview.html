@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>JTS &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="OGC" href="ogc_overview.html" />
+    <link rel="prev" title="OWSLib Quickstart" href="../quickstart/owslib_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://projects.eclipse.org/projects/locationtech.jts"><img alt="../../_images/logo_jts.png" class="align-right" src="../../_images/logo_jts.png" /></a>
+<section id="jts">
+<h1>JTS<a class="headerlink" href="#jts" title="Permalink till denna rubrik">¶</a></h1>
+<p>JTS är ett bibliotek med öppen källkod som innehåller spatiala predikat och funktioner för bearbetning av geometrier. Det ger en komplett, konsekvent och robust implementering av grundläggande algoritmer för bearbetning av linjär geometri i det 2-dimensionella kartesiska planet.</p>
+<p>JTS innehåller ”JTS Test Builder” som gör det möjligt för användare att köra tester och experimentera med geometri via ett interaktivt skrivbordsgränssnitt. JTS stabilitet säkerställs genom en omfattande testsvit.</p>
+<p>JTS används av de flesta Java-baserade Open Source geospatiala applikationer, och <a class="reference internal" href="geos_overview.html"><span class="doc">GEOS</span></a>, som är en C++-port av JTS, används av de flesta C-baserade applikationer. Ytterligare portar finns tillgängliga för C# och JavaScript.</p>
+<a class="reference internal image-reference" href="../../_images/jts_screenshot.png"><img alt="jts skärmdump" class="align-right" src="../../_images/jts_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h2>Kärnfunktioner<a class="headerlink" href="#core-features" title="Permalink till denna rubrik">¶</a></h2>
+<ul class="simple">
+<li><p>Geometrisk modell (punkt, linje, område)</p></li>
+<li><p>Geometriska operationer (t.ex. skärning, förening, inom, etc.)</p></li>
+<li><p>Precisionshantering</p></li>
+<li><p>Geometriska konstruktioner</p></li>
+<li><p>Metriska funktioner (t.ex. kartesiskt 2D-avstånd, Hausdorff-avstånd)</p></li>
+<li><p>Spatiala algoritmer (t.ex. skapande av buffert, linjeoffset, förenkling av linjer)</p></li>
+<li><p>Geometriska matematiska funktioner (t.ex. vinklar, avstånd etc.)</p></li>
+<li><p>Spatiala strukturer (t.ex. Quadtree och R-tree, Delauney-triangulering)</p></li>
+<li><p>Inmatning/utmatning (t.ex. WKT, GML)</p></li>
+<li><p>Aritmetik med hög precision</p></li>
+</ul>
+</section>
+<section id="supported-formats">
+<h2>Format som stöds<a class="headerlink" href="#supported-formats" title="Permalink till denna rubrik">¶</a></h2>
+<ul class="simple">
+<li><p>Välkänd text (WKT) och välkänd binär (WKB)</p></li>
+<li><p>GML 2</p></li>
+<li><p>Java Swing/AWT-skrivning</p></li>
+</ul>
+</section>
+<section id="implemented-standards">
+<h2>Implementerade standarder<a class="headerlink" href="#implemented-standards" title="Permalink till denna rubrik">¶</a></h2>
+<ul class="simple">
+<li><p>OGC enkla funktioner för SQL (SFSQL)</p></li>
+</ul>
+</section>
+<section id="details">
+<h2>Detaljer<a class="headerlink" href="#details" title="Permalink till denna rubrik">¶</a></h2>
+<p><strong>Webbplats:</strong> <a class="reference external" href="https://projects.eclipse.org/projects/locationtech.jts">https://projects.eclipse.org/projects/locationtech.jts</a></p>
+<p><strong>Licens:</strong> LGPL</p>
+<p><strong>Plattformar som stöds:</strong> Windows, Linux, Mac</p>
+<p><strong>API-gränssnitt:</strong> Java</p>
+<p><strong>Support:</strong> <a class="reference external" href="https://sourceforge.net/projects/jts-topo-suite/">https://sourceforge.net/projects/jts-topo-suite/</a></p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

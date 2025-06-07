@@ -1,0 +1,521 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>PostGIS snabbstart &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="pgRouting" href="../overview/pgrouting_overview.html" />
+    <link rel="prev" title="PostGIS" href="../overview/postgis_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="http://postgis.net"><img alt="../../_images/logo_postgis.png" class="align-right" src="../../_images/logo_postgis.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<section id="postgis-quickstart">
+<h1>PostGIS snabbstart<a class="headerlink" href="#postgis-quickstart" title="Permalink till denna rubrik">¶</a></h1>
+<p>PostGIS lägger till spatiala funktioner i PostgreSQL relationsdatabas. Det utökar PostgreSQL så att det kan lagra, fråga och manipulera spatiala data. I den här snabbstarten kommer vi att använda ”PostgreSQL” när vi beskriver allmänna databasfunktioner och ”PostGIS” när vi beskriver den ytterligare spatiala funktionaliteten som tillhandahålls av PostGIS.</p>
+<p>Denna snabbstart beskriver hur du gör:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Skapa och fråga en spatial databas från kommandoraden och den grafiska klienten <a class="reference internal" href="../overview/qgis_overview.html"><span class="doc">QGIS</span></a>.</p></li>
+<li><p>Hantera data från klienten <code class="docutils literal notranslate"><span class="pre">pgAdmin</span></code>.</p></li>
+</ul>
+</div></blockquote>
+<div class="contents local topic" id="contents">
+<p class="topic-title">Innehåll</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#client-server-architecture" id="id1">Klient-server-arkitektur</a></p></li>
+<li><p><a class="reference internal" href="#creating-a-spatially-enabled-database" id="id2">Skapa en databas med spatial kompatibilitet</a></p></li>
+<li><p><a class="reference internal" href="#creating-a-spatial-table-using-sql" id="id3">Skapa en spatial tabell med hjälp av SQL</a></p></li>
+<li><p><a class="reference internal" href="#simple-queries" id="id4">Enkla frågor</a></p></li>
+<li><p><a class="reference internal" href="#spatial-queries" id="id5">Spatiala frågor</a></p></li>
+<li><p><a class="reference internal" href="#mapping" id="id6">Kartläggning</a></p></li>
+<li><p><a class="reference internal" href="#importing-spatial-data-into-the-database" id="id7">Importera spatiala data till databasen</a></p></li>
+<li><p><a class="reference internal" href="#get-to-know-phppgadmin-iso-vmdk" id="id8">Lär känna phpPgAdmin (ISO &amp; VMDK)</a></p></li>
+<li><p><a class="reference internal" href="#executing-a-sql-query-from-phppgadmin-iso-vmdk" id="id9">Exekvera en SQL-fråga från phpPgAdmin (ISO &amp; VMDK)</a></p></li>
+<li><p><a class="reference internal" href="#get-to-know-pgadmin-vmdk-only" id="id10">Lär känna pgAdmin (endast VMDK)</a></p></li>
+<li><p><a class="reference internal" href="#executing-a-sql-query-from-pgadmin-vmdk-only" id="id11">Utföra en SQL-fråga från pgAdmin (endast VMDK)</a></p></li>
+<li><p><a class="reference internal" href="#get-to-know-foreign-data-wrappers-fdw" id="id12">Lär känna Foreign Data Wrappers (FDW)</a></p></li>
+<li><p><a class="reference internal" href="#connect-to-a-remote-ogr-data-source-via-ogr-fdw" id="id13">Anslut till en OGR-datakälla på distans via ogr_fdw</a></p></li>
+<li><p><a class="reference internal" href="#things-to-try" id="id14">Saker att prova</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id15">Hur vill du gå vidare?</a></p></li>
+</ul>
+</div>
+<section id="client-server-architecture">
+<h2><a class="toc-backref" href="#id1">Klient-server-arkitektur</a><a class="headerlink" href="#client-server-architecture" title="Permalink till denna rubrik">¶</a></h2>
+<p>PostgreSQL, som många databaser, fungerar som en server i ett klient-serversystem. Klienten gör en begäran till servern och får tillbaka ett svar. Det här är på samma sätt som internet fungerar - din webbläsare är en klient och en webbserver skickar tillbaka webbsidan. Med PostgreSQL är förfrågningarna på SQL-språket och svaret är vanligtvis en tabell med data från databasen.</p>
+<p>Det finns inget som hindrar servern från att vara på samma dator som klienten, och detta gör att du kan använda PostgreSQL på en enda maskin. Din klient ansluter till servern via den interna ”loopback” -nätverksanslutningen och är inte synlig för andra datorer om du inte konfigurerar den så att den ska vara det.</p>
+</section>
+<section id="creating-a-spatially-enabled-database">
+<h2><a class="toc-backref" href="#id2">Skapa en databas med spatial kompatibilitet</a><a class="headerlink" href="#creating-a-spatially-enabled-database" title="Permalink till denna rubrik">¶</a></h2>
+<p>Kommandoradsklienter körs från ett Terminal Emulator-fönster.</p>
+<p>Starta en terminalemulator (för närvarande LXTerminal) från menyn Program i avsnittet Tillbehör. Detta ger dig en kommandoprompt för ett Unix-skal. Skriv in:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">psql</span> <span class="o">-</span><span class="n">V</span>
+</pre></div>
+</div>
+<p>och tryck på enter för att se PostgreSQL-versionens nummer.</p>
+<p>En enda PostgreSQL-server låter dig organisera arbete genom att ordna det i separata databaser. Varje databas är en oberoende regim med sina egna tabeller, vyer, användare och så vidare. När du ansluter till en PostgreSQL-server måste du ange en databas.</p>
+<p>Du kan få en lista över databaser på servern med hjälp av:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">psql</span> <span class="o">-</span><span class="n">l</span>
+</pre></div>
+</div>
+<p>kommandot. Du bör se flera databaser som används av några av projekten i systemet. Vi kommer att skapa en ny för den här snabbstarten.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tips</p>
+<p>Listan använder en standard unix-pager - tryck på mellanslag för nästa sida, <kbd class="kbd docutils literal notranslate">b</kbd> för att gå tillbaka, <kbd class="kbd docutils literal notranslate">q</kbd> för att avsluta, h för hjälp.</p>
+</div>
+<p>PostgreSQL ger oss ett verktygsprogram för att skapa databaser, <code class="docutils literal notranslate"><span class="pre">createdb</span></code>. Vi måste skapa en databas innan vi lägger till PostGIS-tilläggen. Vi kallar vår databas `` demo``. Kommandot är då:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">createdb</span> <span class="n">demo</span>
+</pre></div>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tips</p>
+<p>Du kan vanligtvis få hjälp för kommandoradsverktyg genom att använda alternativet <code class="docutils literal notranslate"><span class="pre">--help</span></code>.</p>
+</div>
+<p>Om du nu kör <code class="docutils literal notranslate"><span class="pre">psql</span> <span class="pre">-l</span></code> bör du se din <code class="docutils literal notranslate"><span class="pre">demo</span></code>-databas i listan. Vi har inte lagt till PostGIS-tillägget ännu, men i nästa avsnitt får du lära dig hur.</p>
+<p>Du kan skapa PostGIS-databaser med hjälp av SQL-språket. Först tar vi bort den databas vi just skapade med kommandot <code class="docutils literal notranslate"><span class="pre">dropdb</span></code>, sedan använder vi kommandot <code class="docutils literal notranslate"><span class="pre">psql</span></code> för att få en SQL-kommandotolk:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">dropdb</span> <span class="n">demo</span>
+<span class="n">psql</span> <span class="o">-</span><span class="n">d</span> <span class="n">postgres</span>
+</pre></div>
+</div>
+<p>Detta ansluter till den centrala systemdatabasen som heter <code class="docutils literal notranslate"><span class="pre">postgres</span></code>. Ange nu SQL för att skapa en ny databas:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">postgres</span><span class="o">=</span><span class="c1"># CREATE DATABASE demo;</span>
+</pre></div>
+</div>
+<p>Byt nu din anslutning från <code class="docutils literal notranslate"><span class="pre">postgres</span></code>-databasen till den nya <code class="docutils literal notranslate"><span class="pre">demo</span></code>-databasen. I framtiden kan du ansluta till den direkt med <code class="docutils literal notranslate"><span class="pre">psql</span> <span class="pre">-d</span> <span class="pre">demo</span></code>, men här är ett snyggt sätt att byta inom kommandoraden <code class="docutils literal notranslate"><span class="pre">psql</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">postgres</span><span class="o">=</span><span class="c1"># \c demo</span>
+</pre></div>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tips</p>
+<p>Tryck på <kbd class="kbd docutils literal notranslate">CTRL</kbd> + <kbd class="kbd docutils literal notranslate">C</kbd> om psql-prompten fortsätter att visas efter att du tryckt på retur. Det rensar din inmatning och börjar om igen. Den väntar förmodligen på ett avslutande citattecken, semikolon eller något annat.</p>
+</div>
+<p>Du bör se ett informationsmeddelande och prompten ändras så att den visar att du nu är ansluten till databasen <code class="docutils literal notranslate"><span class="pre">demo</span></code>.</p>
+<p>Lägg sedan till PostGIS-tillägget:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># create extension postgis;</span>
+</pre></div>
+</div>
+<p>För att verifiera att du har postgis now installerat kör du följande fråga:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># SELECT postgis_version();</span>
+
+           <span class="n">postgis_version</span>
+<span class="o">---------------------------------------</span>
+ <span class="mf">2.3</span> <span class="n">USE_GEOS</span><span class="o">=</span><span class="mi">1</span> <span class="n">USE_PROJ</span><span class="o">=</span><span class="mi">1</span> <span class="n">USE_STATS</span><span class="o">=</span><span class="mi">1</span>
+<span class="p">(</span><span class="mi">1</span> <span class="n">row</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>PostGIS installerar många funktioner, en tabell och flera vyer</p>
+<p>Skriv <code class="docutils literal notranslate"><span class="pre">dt</span></code> för att lista tabellerna i databasen. Du bör se något i stil med detta:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># \dt</span>
+             <span class="n">List</span> <span class="n">of</span> <span class="n">relations</span>
+ <span class="n">Schema</span> <span class="o">|</span>       <span class="n">Name</span>       <span class="o">|</span> <span class="n">Type</span>  <span class="o">|</span> <span class="n">Owner</span>
+<span class="o">--------+------------------+-------+-------</span>
+ <span class="n">public</span> <span class="o">|</span> <span class="n">spatial_ref_sys</span>  <span class="o">|</span> <span class="n">table</span> <span class="o">|</span> <span class="n">user</span>
+<span class="p">(</span><span class="mi">1</span> <span class="n">row</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Tabellen <code class="docutils literal notranslate"><span class="pre">spatial_ref_sys</span></code> används av PostGIS för att konvertera mellan olika spatiala referenssystem. Tabellen <code class="docutils literal notranslate"><span class="pre">spatial_ref_sys</span></code> lagrar information om giltiga spatiala referenssystem, och vi kan använda lite SQL för att ta en snabb titt:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># SELECT srid, auth_name, proj4text FROM spatial_ref_sys LIMIT 10;</span>
+
+ <span class="n">srid</span> <span class="o">|</span> <span class="n">auth_name</span> <span class="o">|</span>          <span class="n">proj4text</span>
+<span class="o">------+-----------+--------------------------------------</span>
+ <span class="mi">3819</span> <span class="o">|</span> <span class="n">EPSG</span>      <span class="o">|</span> <span class="o">+</span><span class="n">proj</span><span class="o">=</span><span class="n">longlat</span> <span class="o">+</span><span class="n">ellps</span><span class="o">=</span><span class="n">bessel</span> <span class="o">+</span><span class="n">towgs</span><span class="o">...</span>
+ <span class="mi">3821</span> <span class="o">|</span> <span class="n">EPSG</span>      <span class="o">|</span> <span class="o">+</span><span class="n">proj</span><span class="o">=</span><span class="n">longlat</span> <span class="o">+</span><span class="n">ellps</span><span class="o">=</span><span class="n">aust_SA</span> <span class="o">+</span><span class="n">no_d</span><span class="o">...</span>
+ <span class="mi">3824</span> <span class="o">|</span> <span class="n">EPSG</span>      <span class="o">|</span> <span class="o">+</span><span class="n">proj</span><span class="o">=</span><span class="n">longlat</span> <span class="o">+</span><span class="n">ellps</span><span class="o">=</span><span class="n">GRS80</span> <span class="o">+</span><span class="n">towgs8</span><span class="o">...</span>
+ <span class="mi">3889</span> <span class="o">|</span> <span class="n">EPSG</span>      <span class="o">|</span> <span class="o">+</span><span class="n">proj</span><span class="o">=</span><span class="n">longlat</span> <span class="o">+</span><span class="n">ellps</span><span class="o">=</span><span class="n">GRS80</span> <span class="o">+</span><span class="n">towgs8</span><span class="o">...</span>
+ <span class="mi">3906</span> <span class="o">|</span> <span class="n">EPSG</span>      <span class="o">|</span> <span class="o">+</span><span class="n">proj</span><span class="o">=</span><span class="n">longlat</span> <span class="o">+</span><span class="n">ellps</span><span class="o">=</span><span class="n">bessel</span> <span class="o">+</span><span class="n">no_de</span><span class="o">...</span>
+ <span class="mi">4001</span> <span class="o">|</span> <span class="n">EPSG</span>      <span class="o">|</span> <span class="o">+</span><span class="n">proj</span><span class="o">=</span><span class="n">longlat</span> <span class="o">+</span><span class="n">ellps</span><span class="o">=</span><span class="n">airy</span> <span class="o">+</span><span class="n">no_defs</span><span class="o">...</span>
+ <span class="mi">4002</span> <span class="o">|</span> <span class="n">EPSG</span>      <span class="o">|</span> <span class="o">+</span><span class="n">proj</span><span class="o">=</span><span class="n">longlat</span> <span class="o">+</span><span class="n">a</span><span class="o">=</span><span class="mf">6377340.189</span> <span class="o">+</span><span class="n">b</span><span class="o">=</span><span class="mf">63.</span><span class="o">..</span>
+ <span class="mi">4003</span> <span class="o">|</span> <span class="n">EPSG</span>      <span class="o">|</span> <span class="o">+</span><span class="n">proj</span><span class="o">=</span><span class="n">longlat</span> <span class="o">+</span><span class="n">ellps</span><span class="o">=</span><span class="n">aust_SA</span> <span class="o">+</span><span class="n">no_d</span><span class="o">...</span>
+ <span class="mi">4004</span> <span class="o">|</span> <span class="n">EPSG</span>      <span class="o">|</span> <span class="o">+</span><span class="n">proj</span><span class="o">=</span><span class="n">longlat</span> <span class="o">+</span><span class="n">ellps</span><span class="o">=</span><span class="n">bessel</span> <span class="o">+</span><span class="n">no_de</span><span class="o">...</span>
+ <span class="mi">4005</span> <span class="o">|</span> <span class="n">EPSG</span>      <span class="o">|</span> <span class="o">+</span><span class="n">proj</span><span class="o">=</span><span class="n">longlat</span> <span class="o">+</span><span class="n">a</span><span class="o">=</span><span class="mf">6377492.018</span> <span class="o">+</span><span class="n">b</span><span class="o">=</span><span class="mf">63.</span><span class="o">..</span>
+<span class="p">(</span><span class="mi">10</span> <span class="n">rows</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Detta bekräftar att vi har en databas med spatial aktivering.</p>
+<p>Förutom den här tabellen finns det flera vyer som skapas när du aktiverar Postgis i din databas.</p>
+<p>Skriv <code class="docutils literal notranslate"><span class="pre">dv</span></code> för att lista vyerna i databasen. Du bör se något i stil med detta:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># \dv</span>
+                                                                <span class="n">List</span> <span class="n">of</span> <span class="n">relations</span>
+ <span class="n">Schema</span> <span class="o">|</span>       <span class="n">Name</span>        <span class="o">|</span> <span class="n">Type</span> <span class="o">|</span>  <span class="n">Owner</span>
+<span class="o">--------+-------------------+------+----------</span>
+ <span class="n">public</span> <span class="o">|</span> <span class="n">geography_columns</span> <span class="o">|</span> <span class="n">view</span> <span class="o">|</span> <span class="n">postgres</span>
+ <span class="n">public</span> <span class="o">|</span> <span class="n">geometry_columns</span>  <span class="o">|</span> <span class="n">view</span> <span class="o">|</span> <span class="n">postgres</span>
+ <span class="n">public</span> <span class="o">|</span> <span class="n">raster_columns</span>    <span class="o">|</span> <span class="n">view</span> <span class="o">|</span> <span class="n">postgres</span>
+ <span class="n">public</span> <span class="o">|</span> <span class="n">raster_overviews</span>  <span class="o">|</span> <span class="n">view</span> <span class="o">|</span> <span class="n">postgres</span>
+<span class="p">(</span><span class="mi">4</span> <span class="n">rows</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>PostGIS har stöd för flera olika typer av spatiala data:</p>
+<blockquote>
+<div><p><cite>geometry</cite> - är en datatyp som lagrar data som vektorer ritade på en plan yta</p>
+<p><cite>geography</cite> - är en datatyp som lagrar data som vektorer ritade på en sfäroid yta</p>
+<dl class="simple">
+<dt><cite>raster</cite> - är en datatyp som lagrar data som en n-dimensionell matris där varje position (pixel) representerar</dt><dd><p>ett område av rymden, och varje band (dimension) har ett värde för varje pixelutrymme.</p>
+</dd>
+</dl>
+</div></blockquote>
+<p>Vyerna <code class="docutils literal notranslate"><span class="pre">geometry_columns</span></code>, <code class="docutils literal notranslate"><span class="pre">geography_columns</span></code> och <code class="docutils literal notranslate"><span class="pre">raster_columns</span></code> har till uppgift att tala om för PostGIS vilka tabeller som har PostGIS geometri-, geografi- och rasterkolumner.</p>
+<p>Översikter är tabeller med lägre upplösning för rasterdata. I <code class="docutils literal notranslate"><span class="pre">raster_overviews</span></code> listas sådana tabeller och deras rasterkolumn och den tabell som varje tabell är en översikt för. Rasteröversiktstabeller används av verktyg som QGIS för att tillhandahålla versioner med lägre upplösning av rasterdata för snabbare laddning.</p>
+<p>PostGIS geometry type är den första och fortfarande mest populära typen som används av PostGIS-användare. Vi kommer att fokusera vår uppmärksamhet på den typen.</p>
+</section>
+<section id="creating-a-spatial-table-using-sql">
+<h2><a class="toc-backref" href="#id3">Skapa en spatial tabell med hjälp av SQL</a><a class="headerlink" href="#creating-a-spatial-table-using-sql" title="Permalink till denna rubrik">¶</a></h2>
+<p>Nu när vi har en spatial databas kan vi skapa några spatiala tabeller.</p>
+<p>Först skapar vi en vanlig databastabell för att lagra vissa stadsdata. Den här tabellen har tre fält - ett för ett numeriskt ID som identifierar staden, ett för stadens namn och ett för geometrikolumnen:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># CREATE TABLE cities ( id int4 primary key, name varchar(50), geom geometry(POINT,4326) );</span>
+</pre></div>
+</div>
+<p>Vanligtvis kallas denna geometrikolumn för <code class="docutils literal notranslate"><span class="pre">geom</span></code> (den äldre PostGIS-konventionen var <code class="docutils literal notranslate"><span class="pre">the_geom</span></code>). Detta talar om för PostGIS vilken typ av geometri varje objekt har (punkter, linjer, polygoner etc.), hur många dimensioner (i det här fallet 2, om det hade 3 eller 4 dimensioner skulle vi använda POINTZ, POINTM eller POINTZM) och det spatiala referenssystemet. Vi använde EPSG:4326-koordinater för våra städer.</p>
+<p>Om du nu kontrollerar tabellen över städer bör du se den nya kolumnen och bli informerad om att tabellen för närvarande inte innehåller några rader.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># SELECT * from cities;</span>
+ <span class="nb">id</span> <span class="o">|</span> <span class="n">name</span> <span class="o">|</span> <span class="n">geom</span>
+<span class="o">----+------+----------</span>
+<span class="p">(</span><span class="mi">0</span> <span class="n">rows</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>För att lägga till rader i tabellen använder vi några SQL-satser. För att få in geometrin i geometrikolumnen använder vi PostGIS-funktionen <code class="docutils literal notranslate"><span class="pre">ST_GeomFromText</span></code> för att konvertera från ett textformat som ger koordinaterna och ett id för det spatiala referenssystemet:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># INSERT INTO cities (id, geom, name) VALUES (1,ST_GeomFromText(&#39;POINT(-0.1257 51.508)&#39;,4326),&#39;London, England&#39;);</span>
+<span class="n">demo</span><span class="o">=</span><span class="c1"># INSERT INTO cities (id, geom, name) VALUES (2,ST_GeomFromText(&#39;POINT(-81.233 42.983)&#39;,4326),&#39;London, Ontario&#39;);</span>
+<span class="n">demo</span><span class="o">=</span><span class="c1"># INSERT INTO cities (id, geom, name) VALUES (3,ST_GeomFromText(&#39;POINT(27.91162491 -33.01529)&#39;,4326),&#39;East London,SA&#39;);</span>
+</pre></div>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tips</p>
+<p>Använd piltangenterna för att hämta och redigera kommandorader.</p>
+</div>
+<p>Som du kan se blir detta snabbt alltmer tråkigt. Lyckligtvis finns det andra sätt att få in data i PostGIS-tabeller som är mycket enklare. Men nu har vi tre städer i vår databas, och vi kan arbeta med det.</p>
+</section>
+<section id="simple-queries">
+<h2><a class="toc-backref" href="#id4">Enkla frågor</a><a class="headerlink" href="#simple-queries" title="Permalink till denna rubrik">¶</a></h2>
+<p>Alla vanliga SQL-operationer kan användas för att välja data från en PostGIS-tabell:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># SELECT * FROM cities;</span>
+ <span class="nb">id</span> <span class="o">|</span>      <span class="n">name</span>       <span class="o">|</span>                      <span class="n">geom</span>
+<span class="o">----+-----------------+----------------------------------------------------</span>
+  <span class="mi">1</span> <span class="o">|</span> <span class="n">London</span><span class="p">,</span> <span class="n">England</span> <span class="o">|</span> <span class="mf">0101000020E6100000</span><span class="n">BBB88D06F016C0BF1B2FDD2406C14940</span>
+  <span class="mi">2</span> <span class="o">|</span> <span class="n">London</span><span class="p">,</span> <span class="n">Ontario</span> <span class="o">|</span> <span class="mf">0101000020E6100000</span><span class="n">F4FDD478E94E54C0E7FBA9F1D27D4540</span>
+  <span class="mi">3</span> <span class="o">|</span> <span class="n">East</span> <span class="n">London</span><span class="p">,</span><span class="n">SA</span>  <span class="o">|</span> <span class="mf">0101000020E610000040</span><span class="n">AB064060E93B4059FAD005F58140C0</span>
+<span class="p">(</span><span class="mi">3</span> <span class="n">rows</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Detta ger oss en kodad hexadecimal version av koordinaterna, inte så användbar för människor.</p>
+<p>Om du vill titta på din geometri i WKT-format igen kan du använda funktionerna ST_AsText(geom) eller ST_AsEwkt(geom). Du kan också använda ST_X(geom), ST_Y(geom) för att få fram koordinaternas numeriska värde:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># SELECT id, ST_AsText(geom), ST_AsEwkt(geom), ST_X(geom), ST_Y(geom) FROM cities;</span>
+ <span class="nb">id</span> <span class="o">|</span>          <span class="n">st_astext</span>           <span class="o">|</span>               <span class="n">st_asewkt</span>                <span class="o">|</span>    <span class="n">st_x</span>     <span class="o">|</span>   <span class="n">st_y</span>
+<span class="o">----+------------------------------+----------------------------------------+-------------+-----------</span>
+  <span class="mi">1</span> <span class="o">|</span> <span class="n">POINT</span><span class="p">(</span><span class="o">-</span><span class="mf">0.1257</span> <span class="mf">51.508</span><span class="p">)</span>        <span class="o">|</span> <span class="n">SRID</span><span class="o">=</span><span class="mi">4326</span><span class="p">;</span><span class="n">POINT</span><span class="p">(</span><span class="o">-</span><span class="mf">0.1257</span> <span class="mf">51.508</span><span class="p">)</span>        <span class="o">|</span>     <span class="o">-</span><span class="mf">0.1257</span> <span class="o">|</span>    <span class="mf">51.508</span>
+  <span class="mi">2</span> <span class="o">|</span> <span class="n">POINT</span><span class="p">(</span><span class="o">-</span><span class="mf">81.233</span> <span class="mf">42.983</span><span class="p">)</span>        <span class="o">|</span> <span class="n">SRID</span><span class="o">=</span><span class="mi">4326</span><span class="p">;</span><span class="n">POINT</span><span class="p">(</span><span class="o">-</span><span class="mf">81.233</span> <span class="mf">42.983</span><span class="p">)</span>        <span class="o">|</span>     <span class="o">-</span><span class="mf">81.233</span> <span class="o">|</span>    <span class="mf">42.983</span>
+  <span class="mi">3</span> <span class="o">|</span> <span class="n">POINT</span><span class="p">(</span><span class="mf">27.91162491</span> <span class="o">-</span><span class="mf">33.01529</span><span class="p">)</span> <span class="o">|</span> <span class="n">SRID</span><span class="o">=</span><span class="mi">4326</span><span class="p">;</span><span class="n">POINT</span><span class="p">(</span><span class="mf">27.91162491</span> <span class="o">-</span><span class="mf">33.01529</span><span class="p">)</span> <span class="o">|</span> <span class="mf">27.91162491</span> <span class="o">|</span> <span class="o">-</span><span class="mf">33.01529</span>
+<span class="p">(</span><span class="mi">3</span> <span class="n">rows</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="spatial-queries">
+<h2><a class="toc-backref" href="#id5">Spatiala frågor</a><a class="headerlink" href="#spatial-queries" title="Permalink till denna rubrik">¶</a></h2>
+<p>PostGIS lägger till många funktioner med spatial funktionalitet till PostgreSQL. Vi har redan sett ST_GeomFromText som konverterar WKT till geometri. De flesta av dem börjar med ST (för spatial typ) och listas i ett avsnitt i PostGIS-dokumentationen. Vi kommer nu att använda en för att svara på en praktisk fråga - hur långt är dessa tre Londons från varandra, i meter, förutsatt att en sfärisk jord?</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># SELECT p1.name,p2.name,ST_DistanceSphere(p1.geom,p2.geom) FROM cities AS p1, cities AS p2 WHERE p1.id &gt; p2.id;</span>
+      <span class="n">name</span>       <span class="o">|</span>      <span class="n">name</span>       <span class="o">|</span> <span class="n">st_distancesphere</span>
+<span class="o">-----------------+-----------------+--------------------</span>
+ <span class="n">London</span><span class="p">,</span> <span class="n">Ontario</span> <span class="o">|</span> <span class="n">London</span><span class="p">,</span> <span class="n">England</span> <span class="o">|</span>   <span class="mf">5875766.85191657</span>
+ <span class="n">East</span> <span class="n">London</span><span class="p">,</span><span class="n">SA</span>  <span class="o">|</span> <span class="n">London</span><span class="p">,</span> <span class="n">England</span> <span class="o">|</span>   <span class="mf">9789646.96784908</span>
+ <span class="n">East</span> <span class="n">London</span><span class="p">,</span><span class="n">SA</span>  <span class="o">|</span> <span class="n">London</span><span class="p">,</span> <span class="n">Ontario</span> <span class="o">|</span>   <span class="mf">13892160.9525778</span>
+ <span class="p">(</span><span class="mi">3</span> <span class="n">rows</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Detta ger oss avståndet, i meter, mellan varje par av städer. Lägg märke till hur ”WHERE”-delen av raden hindrar oss från att få tillbaka avstånden från en stad till sig själv (som alla kommer att vara noll) eller de omvända avstånden till dem i tabellen ovan (London, England till London, Ontario är samma avstånd som London, Ontario till London, England). Prova utan ”WHERE”-delen och se vad som händer.</p>
+<p>Vi kan också beräkna avståndet med hjälp av en sfäroid genom att använda en annan funktion och ange sfäroidnamn, halvstoraxel och parametrar för invers utplattning:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">demo</span><span class="o">=</span><span class="c1"># SELECT p1.name,p2.name,ST_DistanceSpheroid(</span>
+        <span class="n">p1</span><span class="o">.</span><span class="n">geom</span><span class="p">,</span><span class="n">p2</span><span class="o">.</span><span class="n">geom</span><span class="p">,</span> <span class="s1">&#39;SPHEROID[&quot;GRS_1980&quot;,6378137,298.257222]&#39;</span>
+        <span class="p">)</span>
+       <span class="n">FROM</span> <span class="n">cities</span> <span class="n">AS</span> <span class="n">p1</span><span class="p">,</span> <span class="n">cities</span> <span class="n">AS</span> <span class="n">p2</span> <span class="n">WHERE</span> <span class="n">p1</span><span class="o">.</span><span class="n">id</span> <span class="o">&gt;</span> <span class="n">p2</span><span class="o">.</span><span class="n">id</span><span class="p">;</span>
+      <span class="n">name</span>       <span class="o">|</span>      <span class="n">name</span>       <span class="o">|</span> <span class="n">st_distancespheroid</span>
+<span class="o">-----------------+-----------------+----------------------</span>
+ <span class="n">London</span><span class="p">,</span> <span class="n">Ontario</span> <span class="o">|</span> <span class="n">London</span><span class="p">,</span> <span class="n">England</span> <span class="o">|</span>     <span class="mf">5892413.63776489</span>
+ <span class="n">East</span> <span class="n">London</span><span class="p">,</span><span class="n">SA</span>  <span class="o">|</span> <span class="n">London</span><span class="p">,</span> <span class="n">England</span> <span class="o">|</span>     <span class="mf">9756842.65711931</span>
+ <span class="n">East</span> <span class="n">London</span><span class="p">,</span><span class="n">SA</span>  <span class="o">|</span> <span class="n">London</span><span class="p">,</span> <span class="n">Ontario</span> <span class="o">|</span>     <span class="mf">13884149.4140698</span>
+<span class="p">(</span><span class="mi">3</span> <span class="n">rows</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>För att avsluta PostgreSQL kommandorad, ange:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>\<span class="n">q</span>
+</pre></div>
+</div>
+<p>Du är nu tillbaka i systemkonsolen:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>user@osgeolive:~$
+</pre></div>
+</div>
+</section>
+<section id="mapping">
+<h2><a class="toc-backref" href="#id6">Kartläggning</a><a class="headerlink" href="#mapping" title="Permalink till denna rubrik">¶</a></h2>
+<p>För att producera en karta från PostGIS-data behöver du en klient som kan komma åt data. De flesta GIS-program med öppen källkod kan göra detta - QGIS, gvSIG, uDig till exempel. Nu ska vi visa dig hur du gör en karta från QGIS.</p>
+<p>Starta QGIS från Desktop GIS-menyn och välj <code class="docutils literal notranslate"><span class="pre">Add</span> <span class="pre">PostGIS</span> <span class="pre">layers</span></code> från lagermenyn. Parametrarna för att ansluta till Natural Earth-data i PostGIS är redan definierade i rullgardinsmenyn Connections. Här kan du definiera nya serveranslutningar och lagra inställningarna så att du lätt kan komma ihåg dem. Klicka på rullgardinsmenyn Connections och välj Natural Earth. Klicka på ”Redigera” om du vill se vilka parametrar som gäller för Natural Earth, eller klicka på ”Anslut” för att fortsätta:</p>
+<a class="reference internal image-reference" href="../../_images/postgis_addlayers.png"><img alt="Anslut till den naturliga jorden" class="align-center" src="../../_images/postgis_addlayers.png" style="width: 705.75px; height: 254.25px;" /></a>
+<p>Du kommer nu att få en lista över de spatiala tabellerna i databasen:</p>
+<a class="reference internal image-reference" href="../../_images/postgis_listtables.png"><img alt="Naturliga jordlager" class="align-center" src="../../_images/postgis_listtables.png" style="width: 709.5px; height: 394.5px;" /></a>
+<p>Välj tabellen ne_10m_lakes och tryck på <code class="docutils literal notranslate"><span class="pre">Add</span></code> längst ner (inte <code class="docutils literal notranslate"><span class="pre">Load</span></code> längst upp - då laddas databasanslutningsparametrar), så ska den laddas in i QGIS:</p>
+<a class="reference internal image-reference" href="../../_images/postgis_lakesmap.png"><img alt="Mitt första PostGIS-lager" class="align-center" src="../../_images/postgis_lakesmap.png" style="width: 1029.0px; height: 605.25px;" /></a>
+<p>Du bör nu se en karta över sjöarna. QGIS vet inte att det är sjöar och kanske därför inte färgar dem blå för dig - använd QGIS-dokumentationen för att ta reda på hur du ändrar detta. Zooma in till en berömd grupp sjöar i Kanada.</p>
+</section>
+<section id="importing-spatial-data-into-the-database">
+<h2><a class="toc-backref" href="#id7">Importera spatiala data till databasen</a><a class="headerlink" href="#importing-spatial-data-into-the-database" title="Permalink till denna rubrik">¶</a></h2>
+<p>De flesta av OSGeos skrivbordsverktyg har funktioner för att importera spatiala data från andra format (t.ex. ESRI Shape) till databasen. Återigen använder vi QGIS för att visa detta.</p>
+<p>Import av shapefiler till QGIS kan göras via den praktiska QGIS Database Manager. Du hittar hanteraren i menyn. Gå till <code class="docutils literal notranslate"><span class="pre">Databas</span> <span class="pre">-&gt;</span> <span class="pre">DB-hanterare</span></code>.</p>
+<p>Distribuerar Postgis-objektet och sedan NaturalEarth-objektet. Den kommer sedan att ansluta till Natural Earth-databasen. Lämna lösenordet tomt om det efterfrågas. I det offentliga objektet finns en lista över de lager som tillhandahålls av databasen. Du kommer att se huvudhanteringsfönstret. Till vänster kan du välja tabeller från databasen och använda flikarna till höger för att ta reda på mer om dem. Fliken Preview visar dig en liten karta.</p>
+<a class="reference internal image-reference" href="../../_images/postgis_managerpreview.png"><img alt="Förhandsgranskning av QGIS Manager" class="align-center" src="../../_images/postgis_managerpreview.png" style="width: 929.25px; height: 599.25px;" /></a>
+<p>Vi kommer nu att använda DB Manager för att importera en shapefil till databasen. Vi kommer att använda data från North Carolina om plötslig spädbarnsdöd (SIDS) som ingår i ett av R-statistikpaketets tillägg.</p>
+<p>Från menyn <code class="docutils literal notranslate"><span class="pre">Table</span></code> välj alternativet <code class="docutils literal notranslate"><span class="pre">Import</span> <span class="pre">layer/file</span></code>. Tryck på knappen <code class="docutils literal notranslate"><span class="pre">...</span></code> och bläddra till shapefilen <code class="docutils literal notranslate"><span class="pre">sids.shp</span></code> i R-katalogen. (finns i /home/user/data/vector/R/shapes):</p>
+<a class="reference internal image-reference" href="../../_images/postgis_browsedata.png"><img alt="Hitta shapefilen" class="align-center" src="../../_images/postgis_browsedata.png" style="width: 631.5px; height: 312.0px;" /></a>
+<p>Låt allt annat vara som det är och tryck på <code class="docutils literal notranslate"><span class="pre">Load</span></code></p>
+<a class="reference internal image-reference" href="../../_images/postgis_importsids.png"><img alt="Importera en shapefil" class="align-center" src="../../_images/postgis_importsids.png" style="width: 346.5px; height: 400.5px;" /></a>
+<p>Låt Coordinate Reference System Selector vara standard (WGS 84 EPSG:4326) och tryck på <code class="docutils literal notranslate"><span class="pre">OK</span></code>. Shapefilen bör importeras till PostGIS utan några fel. Stäng DB Manager och gå tillbaka till huvudfönstret i QGIS.</p>
+<p>Ladda nu in SIDS-data i kartan med hjälp av alternativet ”Add PostGIS Layer”. Med lite omorganisering av lagren och lite färgläggning bör du kunna producera en koropletkarta över antalet fall av plötslig spädbarnsdöd (fält sid74 eller sid79) i North Carolina:</p>
+<a class="reference internal image-reference" href="../../_images/postgis_sidsmap.png"><img alt="SIDS-data kartlagda" class="align-center" src="../../_images/postgis_sidsmap.png" style="width: 1036.5px; height: 607.5px;" /></a>
+<div class="admonition warning">
+<p class="admonition-title">Varning</p>
+<p>Beroende på vilken version av OSGeoLive du använder (ISO eller VMDK) kommer du inte att hitta samma klienter tillgängliga. <code class="docutils literal notranslate"><span class="pre">pgAdmin</span></code> är den officiella klienten för PostgreSQL, men av tekniska skäl kan den inte göra i ISO, så den är endast tillgänglig i VMDK-versionen. ISO-versionen har `` phpPgAdmin `` -klienten som erbjuder samma kärnfunktionalitet.</p>
+</div>
+</section>
+<section id="get-to-know-phppgadmin-iso-vmdk">
+<h2><a class="toc-backref" href="#id8">Lär känna phpPgAdmin (ISO &amp; VMDK)</a><a class="headerlink" href="#get-to-know-phppgadmin-iso-vmdk" title="Permalink till denna rubrik">¶</a></h2>
+<p>I båda versionerna kan du använda den grafiska databasklienten phpPgAdmin.</p>
+<p>med phpPgAdmin kan du använda SQL för att manipulera dina datatabeller. Du kan hitta och starta phpPgAdmin från mappen Databaser som finns på OSGeoLive Desktop.</p>
+<a class="reference internal image-reference" href="../../_images/postgis_phppgadmin_main_window.png"><img alt="phpPgAdmin huvudsida" class="align-center" src="../../_images/postgis_phppgadmin_main_window.png" style="width: 396.0px; height: 227.0px;" /></a>
+<p>Här har du möjlighet att skapa en ny anslutning till en PostgreSQL-server eller ansluta till en befintlig server. Den röda ”X” på <code class="docutils literal notranslate"><span class="pre">PostgreSQL</span></code> -servern anger att du ännu inte har anslutits. Klicka på den och ange sedan användarnamnet <code class="docutils literal notranslate"><span class="pre">user</span></code> och huvudlösenordet <code class="docutils literal notranslate"><span class="pre">user</span></code>.</p>
+<p>När anslutningen har upprättats kan du se en lista över de databaser som redan finns i systemet.</p>
+<a class="reference internal image-reference" href="../../_images/postgis_phppgadminscreen0.png"><img alt="phpPgAdmin" class="align-center" src="../../_images/postgis_phppgadminscreen0.png" style="width: 666.75px; height: 353.25px;" /></a>
+<p>I det här läget kan du bara se de databaser som finns i systemet. Du kan ansluta genom att klicka på plustecknet till vänster om namnet på en databas. Gör det för databasen <code class="docutils literal notranslate"><span class="pre">natural_earth2</span></code>.</p>
+<p>Du kan nu se att det bara finns ett schema i den här databasen som heter <code class="docutils literal notranslate"><span class="pre">public</span></code>. Klicka på plustecknet till vänster om <code class="docutils literal notranslate"><span class="pre">Tables</span></code> för att expandera det, så kan du se alla tabeller som finns i detta schema.</p>
+<a class="reference internal image-reference" href="../../_images/postgis_phppgadminscreen1.png"><img alt="phpPgAdmin" class="align-center" src="../../_images/postgis_phppgadminscreen1.png" style="width: 848.25px; height: 538.5px;" /></a>
+</section>
+<section id="executing-a-sql-query-from-phppgadmin-iso-vmdk">
+<h2><a class="toc-backref" href="#id9">Exekvera en SQL-fråga från phpPgAdmin (ISO &amp; VMDK)</a><a class="headerlink" href="#executing-a-sql-query-from-phppgadmin-iso-vmdk" title="Permalink till denna rubrik">¶</a></h2>
+<p>phpPgAdmin erbjuder möjligheten att exekvera frågor till en relationsdatabas.</p>
+<p>För att göra en sökning i databasen klickar du tillbaka på databasen <code class="docutils literal notranslate"><span class="pre">natural_earth2</span></code> och trycker sedan på <code class="docutils literal notranslate"><span class="pre">SQL</span></code>-knappen i huvudverktygsfältet (den till vänster med databassymbolen).</p>
+<p>Vi ska ta reda på andelen plötsliga spädbarnsdödar i förhållande till antalet födda under 1974 för varje stad. Dessutom ska vi sortera resultatet baserat på den beräknade frekvensen. För att göra det måste vi utföra följande fråga (skicka in den i textredigeraren i SQL-fönstret):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">select</span> <span class="n">name</span><span class="p">,</span> <span class="mi">1000</span><span class="o">*</span><span class="n">sid74</span><span class="o">/</span><span class="n">bir74</span> <span class="k">as</span> <span class="n">rate</span> <span class="kn">from</span><span class="w"> </span><span class="nn">sids</span> <span class="n">order</span> <span class="n">by</span> <span class="n">rate</span><span class="p">;</span>
+</pre></div>
+</div>
+<p>Därefter ska du trycka på knappen Execute.</p>
+<a class="reference internal image-reference" href="../../_images/postgis_phppgadminscreen2.png"><img alt="phpPgAdmin" class="align-center" src="../../_images/postgis_phppgadminscreen2.png" style="width: 634.5px; height: 536.25px;" /></a>
+</section>
+<section id="get-to-know-pgadmin-vmdk-only">
+<h2><a class="toc-backref" href="#id10">Lär känna pgAdmin (endast VMDK)</a><a class="headerlink" href="#get-to-know-pgadmin-vmdk-only" title="Permalink till denna rubrik">¶</a></h2>
+<p>Du kan använda den grafiska databasklienten <code class="docutils literal notranslate"><span class="pre">pgAdmin</span></code> från menyn Databaser för att fråga och ändra din databas icke-spatialt. Detta är den officiella klienten för PostgreSQL.</p>
+<p>med pgAdmin kan du använda SQL för att manipulera dina datatabeller. Du kan hitta och starta pgAdmin från mappen Databaser, som finns på OSGeoLive Desktop.</p>
+<a class="reference internal image-reference" href="../../_images/postgis_pgadmin_main_window.png"><img alt="pgAdmin" class="align-center" src="../../_images/postgis_pgadmin_main_window.png" style="width: 574.5px; height: 319.5px;" /></a>
+<p>Ange huvudlösenordet <code class="docutils literal notranslate"><span class="pre">user</span></code>.</p>
+<p>Här har du möjlighet att skapa en ny anslutning till en PostgreSQL-server eller ansluta till en befintlig server. I det här fallet kommer vi att ansluta till den fördefinierade `` localhost`` -servern.</p>
+<p>När anslutningen har upprättats kan du se en lista över de databaser som redan finns i systemet.</p>
+<a class="reference internal image-reference" href="../../_images/postgis_adminscreen0.png"><img alt="pgAdmin" class="align-center" src="../../_images/postgis_adminscreen0.png" style="width: 871.5px; height: 639.0px;" /></a>
+<p>Det röda ”X” på bilden av de flesta av databaserna visar att du ännu inte har anslutit till någon av dem (du är endast ansluten till standarddatabasen <code class="docutils literal notranslate"><span class="pre">postgres</span></code>). I det här läget kan du bara se de databaser som finns i systemet. Du kan ansluta genom att dubbelklicka på namnet på en databas. Gör det för databasen <code class="docutils literal notranslate"><span class="pre">natural_earth2</span></code>.</p>
+<p>Du kan nu se att det röda X:et har försvunnit och att ett ”&gt;” har dykt upp till vänster. Genom att trycka på det kommer ett träd att visas, som visar innehållet i databasen.</p>
+<p>Navigera till underträdet <code class="docutils literal notranslate"><span class="pre">schemas</span></code> och expandera det. Expandera därefter schemat <code class="docutils literal notranslate"><span class="pre">public</span></code>. Genom att navigera och expandera <code class="docutils literal notranslate"><span class="pre">Tables</span></code> kan du se alla tabeller som ingår i detta schema.</p>
+<a class="reference internal image-reference" href="../../_images/postgis_adminscreen1.png"><img alt="pgAdmin" class="align-center" src="../../_images/postgis_adminscreen1.png" style="width: 711.0px; height: 629.25px;" /></a>
+</section>
+<section id="executing-a-sql-query-from-pgadmin-vmdk-only">
+<h2><a class="toc-backref" href="#id11">Utföra en SQL-fråga från pgAdmin (endast VMDK)</a><a class="headerlink" href="#executing-a-sql-query-from-pgadmin-vmdk-only" title="Permalink till denna rubrik">¶</a></h2>
+<p>pgAdmin, ger möjlighet att utföra frågor till en relationsdatabas.</p>
+<p>För att göra en sökning i databasen måste du trycka på knappen <code class="docutils literal notranslate"><span class="pre">Query</span> <span class="pre">Tool</span></code> i huvudverktygsfältet (den till vänster med databassymbolen).</p>
+<p>Vi ska ta reda på andelen plötsliga spädbarnsdödar i förhållande till antalet födda under 1974 för varje stad. Dessutom ska vi sortera resultatet baserat på den beräknade frekvensen. För att göra det måste vi utföra följande fråga (skicka in den i textredigeraren i SQL-fönstret):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">select</span> <span class="n">name</span><span class="p">,</span> <span class="mi">1000</span><span class="o">*</span><span class="n">sid74</span><span class="o">/</span><span class="n">bir74</span> <span class="k">as</span> <span class="n">rate</span> <span class="kn">from</span><span class="w"> </span><span class="nn">sids</span> <span class="n">order</span> <span class="n">by</span> <span class="n">rate</span><span class="p">;</span>
+</pre></div>
+</div>
+<p>Därefter ska du trycka på pilknappen som pekar åt höger (Execute).</p>
+<a class="reference internal image-reference" href="../../_images/postgis_adminscreen2.png"><img alt="pgAdmin" class="align-center" src="../../_images/postgis_adminscreen2.png" style="width: 870.75px; height: 636.75px;" /></a>
+</section>
+<section id="get-to-know-foreign-data-wrappers-fdw">
+<h2><a class="toc-backref" href="#id12">Lär känna Foreign Data Wrappers (FDW)</a><a class="headerlink" href="#get-to-know-foreign-data-wrappers-fdw" title="Permalink till denna rubrik">¶</a></h2>
+<p>Från din databas kan du komma åt fjärrobjekt som tabeller från andra PostgreSQL-databaser eller ansluta till fjärrdatabaser som Oracle, MySQL, MS SQL eller CouchDB. Du kan också ansluta via ODBC, ansluta till CSV, Geospatial Data och till och med till twitter.</p>
+<p>Du hittar en lista över olika FDW på:</p>
+<blockquote>
+<div><p><a class="reference external" href="https://wiki.postgresql.org/wiki/Foreign_data_wrappers">https://wiki.postgresql.org/wiki/Foreign_data_wrappers</a></p>
+</div></blockquote>
+<p>Låt oss se hur det fungerar! Det enklaste sättet är att ansluta till en annan PostgreSQL-databas.</p>
+<p>Så här går du tillväga:</p>
+<p>Ladda först tillägget för Foreign Data Wrapper som du vill använda. För en anslutning till en annan PostgreSQL-databas behöver du <code class="docutils literal notranslate"><span class="pre">postgres_fdw</span></code></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">CREATE</span> <span class="n">EXTENSION</span> <span class="n">postgres_fdw</span><span class="p">;</span>
+</pre></div>
+</div>
+<p>Skapa en Foreign Server som talar om var du hittar den datakälla som du vill ansluta</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">CREATE</span> <span class="n">SERVER</span> <span class="n">fdw_pg_server_osm_local</span>
+ <span class="n">FOREIGN</span> <span class="n">DATA</span> <span class="n">WRAPPER</span> <span class="n">postgres_fdw</span>
+ <span class="n">OPTIONS</span> <span class="p">(</span><span class="n">host</span> <span class="s1">&#39;127.0.0.1&#39;</span><span class="p">,</span> <span class="n">port</span> <span class="s1">&#39;5432&#39;</span><span class="p">,</span> <span class="n">dbname</span> <span class="s1">&#39;osm_local&#39;</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>Definiera den användare som ska användas när du ansluter till den utländska servern</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">CREATE</span> <span class="n">USER</span> <span class="n">MAPPING</span> <span class="n">FOR</span> <span class="n">user</span>
+      <span class="n">SERVER</span> <span class="n">fdw_pg_server_osm_local</span>
+      <span class="n">OPTIONS</span> <span class="p">(</span><span class="n">user</span> <span class="s1">&#39;user&#39;</span><span class="p">,</span> <span class="n">password</span> <span class="s1">&#39;user&#39;</span><span class="p">);</span>
+</pre></div>
+</div>
+<p>Nu kan du skapa en utländsk tabell.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">IMPORT</span> <span class="n">FOREIGN</span> <span class="n">SCHEMA</span> <span class="n">public</span>
+  <span class="n">LIMIT</span> <span class="n">TO</span> <span class="p">(</span><span class="n">planet_osm_polygon</span><span class="p">,</span> <span class="n">planet_osm_point</span><span class="p">)</span> <span class="o">--</span> <span class="ow">or</span> <span class="n">EXCEPT</span>
+  <span class="n">FROM</span> <span class="n">SERVER</span> <span class="n">fdw_pg_server_osm_local</span>
+  <span class="n">INTO</span> <span class="n">public</span><span class="p">;</span>
+</pre></div>
+</div>
+<p>Hitta nya tabeller i din databas och titta på data från en utländsk tabell.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Select</span> <span class="o">*</span> <span class="kn">from</span><span class="w"> </span><span class="nn">planet_osm_polygon</span> <span class="n">limit</span> <span class="mi">10</span><span class="p">;</span>
+</pre></div>
+</div>
+</section>
+<section id="connect-to-a-remote-ogr-data-source-via-ogr-fdw">
+<h2><a class="toc-backref" href="#id13">Anslut till en OGR-datakälla på distans via ogr_fdw</a><a class="headerlink" href="#connect-to-a-remote-ogr-data-source-via-ogr-fdw" title="Permalink till denna rubrik">¶</a></h2>
+<p>Tillägget <code class="docutils literal notranslate"><span class="pre">ogr_fdw</span></code> tillåter anslutning till flera geodataformat som KML, GeoPackage, WFS, GeoJSON, GPX, GML och mer.</p>
+<p>Läs mer om <code class="docutils literal notranslate"><span class="pre">ogr_fdw</span></code>:</p>
+<ul class="simple">
+<li><p>Förvaringsplats: <a class="reference external" href="https://github.com/pramsey/pgsql-ogr-fdw">https://github.com/pramsey/pgsql-ogr-fdw</a></p></li>
+<li><p>Nytt och förbättrat: <a class="reference external" href="http://blog.cleverelephant.ca/2016/04/ogr-fdw-update.html">http://blog.cleverelephant.ca/2016/04/ogr-fdw-update.html</a></p></li>
+</ul>
+<p class="rubric">Installera tillägget <code class="docutils literal notranslate"><span class="pre">ogr_fdw</span></code> i din databas.</p>
+<p>Skriv i databasprompten:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">CREATE</span> <span class="n">EXTENSION</span> <span class="n">ogr_fdw</span><span class="p">;</span>
+</pre></div>
+</div>
+<p class="rubric">Kontrollera vilka format som stöds:</p>
+<p>Öppna en terminal och sök efter ogr_fdw_info:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">locate</span> <span class="n">ogr_fdw_info</span>
+<span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">postgresql</span><span class="o">/</span><span class="mi">10</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">ogr_fdw_info</span> <span class="o">-</span><span class="n">f</span>
+</pre></div>
+</div>
+<p>Resultaten kan se ut så här:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Supported</span> <span class="n">Formats</span><span class="p">:</span>
+ <span class="o">-&gt;</span> <span class="s2">&quot;OGR_GRASS&quot;</span> <span class="p">(</span><span class="n">readonly</span><span class="p">)</span>
+ <span class="o">-&gt;</span> <span class="s2">&quot;PCIDSK&quot;</span> <span class="p">(</span><span class="n">read</span><span class="o">/</span><span class="n">write</span><span class="p">)</span>
+ <span class="o">-&gt;</span> <span class="s2">&quot;netCDF&quot;</span> <span class="p">(</span><span class="n">read</span><span class="o">/</span><span class="n">write</span><span class="p">)</span>
+ <span class="o">-&gt;</span> <span class="s2">&quot;JP2OpenJPEG&quot;</span> <span class="p">(</span><span class="n">readonly</span><span class="p">)</span>
+ <span class="o">-&gt;</span> <span class="s2">&quot;PDF&quot;</span> <span class="p">(</span><span class="n">read</span><span class="o">/</span><span class="n">write</span><span class="p">)</span>
+ <span class="o">-&gt;</span> <span class="s2">&quot;MBTiles&quot;</span> <span class="p">(</span><span class="n">read</span><span class="o">/</span><span class="n">write</span><span class="p">)</span>
+ <span class="o">-&gt;</span> <span class="s2">&quot;EEDA&quot;</span> <span class="p">(</span><span class="n">readonly</span><span class="p">)</span>
+ <span class="o">-&gt;</span> <span class="s2">&quot;ESRI Shapefile&quot;</span> <span class="p">(</span><span class="n">read</span><span class="o">/</span><span class="n">write</span><span class="p">)</span>
+ <span class="o">-&gt;</span> <span class="s2">&quot;MapInfo File&quot;</span> <span class="p">(</span><span class="n">read</span><span class="o">/</span><span class="n">write</span><span class="p">)</span>
+ <span class="o">....</span> <span class="n">many</span> <span class="n">more</span>
+</pre></div>
+</div>
+<p class="rubric">Skapa en FDW till en WFS</p>
+<p>Starta Geoserver via <span class="menuselection">Geospatial ‣ Web Services ‣ GeoServer ‣ Start GeoServer</span>.</p>
+<ul class="simple">
+<li><p>Öppna GeoServer <a class="reference external" href="http://localhost:8082/geoserver/web/">http://localhost:8082/geoserver/web/</a></p></li>
+<li><p>GeoServer WFS GetCapabilities <a class="reference external" href="http://localhost:8082/geoserver/ows?service=wfs&amp;version=2.0.0&amp;request=GetCapabilities">http://localhost:8082/geoserver/ows?service=wfs&amp;version=2.0.0&amp;request=GetCapabilities</a></p></li>
+<li><p>GeoServer WFS DescribeFeatureType för topp:states <a class="reference external" href="http://localhost:8082/geoserver/ows?service=wfs&amp;version=2.0.0&amp;request=DescribeFeatureType&amp;typename=topp:states">http://localhost:8082/geoserver/ows?service=wfs&amp;version=2.0.0&amp;request=DescribeFeatureType&amp;typename=topp:states</a></p></li>
+<li><p>GeoServer WFS GetFeature topp:states
+<a class="reference external" href="http://localhost:8082/geoserver/ows?service=wfs&amp;version=2.0.0&amp;request=GetFeature&amp;typename=topp:states">http://localhost:8082/geoserver/ows?service=wfs&amp;version=2.0.0&amp;request=GetFeature&amp;typename=topp:states</a></p></li>
+</ul>
+<p class="rubric">Skapa en utländsk server som hänvisar till den WFS som du vill ansluta till</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">CREATE</span> <span class="n">SERVER</span> <span class="n">fdw_ogr_server_wfs</span>
+<span class="n">FOREIGN</span> <span class="n">DATA</span> <span class="n">WRAPPER</span> <span class="n">ogr_fdw</span>
+<span class="n">OPTIONS</span> <span class="p">(</span> <span class="n">datasource</span> <span class="s1">&#39;WFS:http://localhost:8082/geoserver/ows&#39;</span><span class="p">,</span> <span class="nb">format</span> <span class="s1">&#39;WFS&#39;</span> <span class="p">);</span>
+</pre></div>
+</div>
+<p class="rubric">Importera alla WFS feature_types som utländska tabeller med ett enda kommando.</p>
+<p>Efter importen kommer du att se flera nya utländska tabeller i ditt schema.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">IMPORT</span> <span class="n">FOREIGN</span> <span class="n">SCHEMA</span> <span class="n">ogr_all</span>
+<span class="n">FROM</span> <span class="n">SERVER</span> <span class="n">fdw_ogr_server_wfs</span>
+   <span class="n">INTO</span> <span class="n">public</span><span class="p">;</span>
+</pre></div>
+</div>
+<p class="rubric">Inspektera den utländska datatabellen <code class="docutils literal notranslate"><span class="pre">topp_states</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">SELECT</span> <span class="o">*</span> <span class="n">FROM</span> <span class="n">topp_states</span> <span class="n">WHERE</span> <span class="n">state_name</span> <span class="o">=</span> <span class="s1">&#39;Minnesota&#39;</span><span class="p">;</span>
+</pre></div>
+</div>
+</section>
+<section id="things-to-try">
+<h2><a class="toc-backref" href="#id14">Saker att prova</a><a class="headerlink" href="#things-to-try" title="Permalink till denna rubrik">¶</a></h2>
+<p>Här är några ytterligare utmaningar som du kan prova:</p>
+<ul class="simple">
+<li><p>Prova några fler spatiala funktioner som <code class="docutils literal notranslate"><span class="pre">st_buffer(geom)</span></code>, <code class="docutils literal notranslate"><span class="pre">st_transform(geom,25831)</span></code>, <code class="docutils literal notranslate"><span class="pre">st_x(geom)</span></code> - du hittar fullständig dokumentation på <a class="reference external" href="http://postgis.net/documentation/">http://postgis.net/documentation/</a></p></li>
+<li><p>Exportera dina tabeller till shapefiler med <code class="docutils literal notranslate"><span class="pre">pgsql2shp</span></code> på kommandoraden.</p></li>
+<li><p>Prova <code class="docutils literal notranslate"><span class="pre">ogr2ogr</span></code> på kommandoraden för att importera/exportera data till din databas.</p></li>
+<li><p>Försök att importera data med <code class="docutils literal notranslate"><span class="pre">shp2pgsql</span></code> på kommandoraden till din databas.</p></li>
+<li><p>Försök att göra vägdragning med hjälp av <a class="reference internal" href="../overview/pgrouting_overview.html"><span class="doc">pgRouting</span></a>.</p></li>
+</ul>
+</section>
+<section id="what-next">
+<h2><a class="toc-backref" href="#id15">Hur vill du gå vidare?</a><a class="headerlink" href="#what-next" title="Permalink till denna rubrik">¶</a></h2>
+<p>Detta är bara det första steget på vägen till att använda PostGIS. Det finns mycket mer funktionalitet som du kan prova.</p>
+<ul class="simple">
+<li><p>PostGIS-projektets hemsida - <a class="reference external" href="http://postgis.net">http://postgis.net</a></p></li>
+<li><p>PostGIS-dokumentation - <a class="reference external" href="http://postgis.net/documentation/">http://postgis.net/documentation/</a></p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

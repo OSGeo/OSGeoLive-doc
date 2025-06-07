@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>R &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="R Snabbstart" href="../quickstart/R_quickstart.html" />
+    <link rel="prev" title="Mapnik Snabbstart" href="../quickstart/mapnik_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://cran.r-project.org"><img alt="../../_images/logo_R.png" class="align-right" src="../../_images/logo_R.png" /></a>
+<section id="r">
+<h1>R<a class="headerlink" href="#r" title="Permalink till denna rubrik">¶</a></h1>
+<section id="statistical-programming">
+<h2>Statistisk programmering<a class="headerlink" href="#statistical-programming" title="Permalink till denna rubrik">¶</a></h2>
+<p>R är en kraftfull, allmänt använd mjukvarumiljö för statistiska beräkningar och grafik som utmärker sig för att analysera och bearbeta geografiska datamängder. Geospatiala analysfunktioner inom R finns tillgängliga i R-paket (moduler som utökar funktionerna i R) som ger tillgång till ett stort antal traditionella och toppmoderna algoritmer (). R och dess paket kan bearbeta punkt-, linje-, polygon-, nätverks-, rutnätsdata (etc.).</p>
+<p>Användarna kan utföra ett brett spektrum av uppgifter, t.ex. bildklassificering, statistisk analys för att dra slutsatser om spatiala relationer och mönster, och andra uppgifter som anges i kärnfunktionerna nedan. De funktioner som är tillgängliga via R kompletterar och förbättrar de funktioner som finns i GIS- och bildbehandlingsprogram. Genom att använda paket för parallellisering kan användare drastiskt minska beräkningstiden och öka denna kapacitet. Flera paket tillhandahåller anslutning till andra OSGeo-verktyg och programvara. Du kan enkelt ansluta R till GRASS-GIS, Qgis, postgreSQL och postGIS.</p>
+<p>The core R interface is a command line window which provides excellent
+flexibility and control but tends to lengthen the time required to
+become a proficient user when compared to software with a graphical
+user interface (GUI). Fortunately R is well documented on the web site
+which eases the learning process. Scripts are often used to automate
+processing steps but there are GUIs, the leading one being
+RStudio (<a class="reference external" href="https://posit.co/">https://posit.co/</a>).</p>
+<p>R är en implementering av programmeringsspråket S och det finns betydande kompatibilitet mellan R och äldre S- och S-Plus-kod samt mellan R och den moderna kommersiella versionen av S, TIBCO Spotfire S+. Detta gör det möjligt att konvertera olika versioner av S-kod till att köras på R utan större kodändringar.</p>
+<a class="reference internal image-reference" href="../../_images/R_screenshot.png"><img alt="R skärmdump" class="align-right" src="../../_images/R_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>Kärnfunktioner<a class="headerlink" href="#core-features" title="Permalink till denna rubrik">¶</a></h3>
+<ul class="simple">
+<li><p>Komplett objektorienterat programmeringsspråk utformat för statistik och liknande matematikintensiva tillämpningar</p></li>
+<li><p>För närvarande (2017/08/11) innehåller CRAN-paketförvaret 11239 tillgängliga paket.</p></li>
+<li><p>Hundratals tilläggspaket för spatial statistik som tagits fram av samhället</p></li>
+<li><p>Klasser för spatiala data</p></li>
+<li><p>Läsa och skriva spatiala data</p></li>
+<li><p>Analys av punktmönster</p></li>
+<li><p>Geostatistik</p></li>
+<li><p>Spatial regression</p></li>
+<li><p>Ekologisk analys</p></li>
+<li><p>Kraftfulla algoritmer för rasterbearbetning</p></li>
+<li><p>Avkänning på distans</p></li>
+<li><p>Bayesiansk spatial analys</p></li>
+<li><p>…</p></li>
+</ul>
+</section>
+<section id="details">
+<h3>Detaljer<a class="headerlink" href="#details" title="Permalink till denna rubrik">¶</a></h3>
+<p><strong>Webbplats:</strong> <a class="reference external" href="https://cran.r-project.org">https://cran.r-project.org</a></p>
+<p><strong>Licens:</strong> GPL</p>
+<p><strong>Programvaruversion:</strong> 4.3.3</p>
+<p><strong>Plattformar som stöds:</strong> Windows, Linux, Mac, UNIX</p>
+<p><strong>Gemenskapssupport:</strong> <a class="reference external" href="https://cran.r-project.org/web/views/Spatial.html">https://cran.r-project.org/web/views/Spatial.html</a></p>
+<p><strong>Tillgängliga CRAN-paket:</strong> <a class="reference external" href="https://cran.r-project.org/web/packages/available_packages_by_name.html">https://cran.r-project.org/web/packages/available_packages_by_name.html</a></p>
+</section>
+<section id="quickstart">
+<h3>Snabbstart<a class="headerlink" href="#quickstart" title="Permalink till denna rubrik">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/R_quickstart.html"><span class="doc">Snabbstartsdokumentation</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

@@ -1,0 +1,478 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>GDAL/OGR Snabbstart &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="GEOS" href="../overview/geos_overview.html" />
+    <link rel="prev" title="GDAL/OGR" href="../overview/gdal_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://gdal.org/"><img alt="../../_images/logo_gdal.png" class="align-right" src="../../_images/logo_gdal.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<section id="gdal-ogr-quickstart">
+<h1>GDAL/OGR Snabbstart<a class="headerlink" href="#gdal-ogr-quickstart" title="Permalink till denna rubrik">¶</a></h1>
+<p>Denna snabbstart är indelad i två delar: GDAL (rasterdata) och OGR (vektordata).</p>
+<p>Denna snabbstart beskriver hur du gör:</p>
+<dl class="simple">
+<dt>GDAL</dt><dd><ul class="simple">
+<li><p>Utforska dina bilddata med gdalinfo</p></li>
+<li><p>Formatera översättningar med gdal_translate</p></li>
+<li><p>Omprojicera dina data med gdalwarp</p></li>
+<li><p>Mosaikera dina data med gdal_warp eller gdal_merge.py</p></li>
+<li><p>Skapa en shapefil som ett raster tileindex med gdaltindex</p></li>
+</ul>
+</dd>
+<dt>OGR</dt><dd><ul class="simple">
+<li><p>få information om dina data med ogrinfo</p></li>
+<li><p>använd ogr2ogr för att omvandla dina data till andra format</p></li>
+</ul>
+</dd>
+</dl>
+<p>Det enda du behöver för den här snabbstarten är en terminal. Om du vill visualisera resultaten kan du använda en av Desktop GIS Software-applikationerna på OSGeoLive, t.ex. <a class="reference internal" href="../overview/qgis_overview.html"><span class="doc">QGIS</span></a>.</p>
+<div class="contents local topic" id="contents">
+<p class="topic-title">Innehåll</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#get-to-know-gdal" id="id1">Lär känna GDAL</a></p></li>
+<li><p><a class="reference internal" href="#get-information-about-the-raster-data-with-gdalinfo" id="id2">Hämta information om rasterdata med gdalinfo</a></p></li>
+<li><p><a class="reference internal" href="#simple-format-translation" id="id3">Enkel översättning av format</a></p></li>
+<li><p><a class="reference internal" href="#translation" id="id4">Översättning</a></p></li>
+<li><p><a class="reference internal" href="#rescaling" id="id5">Skalning</a></p></li>
+<li><p><a class="reference internal" href="#raster-tileindex-with-gdaltindex" id="id6">Raster tileindex med gdaltindex</a></p></li>
+<li><p><a class="reference internal" href="#reprojecting" id="id7">Omprojektering</a></p></li>
+<li><p><a class="reference internal" href="#mosaicking" id="id8">Mosaik</a></p></li>
+<li><p><a class="reference internal" href="#get-to-know-ogr" id="id9">Lär känna OGR</a></p></li>
+<li><p><a class="reference internal" href="#get-information-about-the-vector-data-with-ogrinfo" id="id10">Hämta information om vektordata med ogrinfo</a></p></li>
+<li><p><a class="reference internal" href="#use-ogr2ogr-to-convert-data-between-file-formats" id="id11">Använd ogr2ogr för att konvertera data mellan filformat</a></p></li>
+<li><p><a class="reference internal" href="#things-to-try" id="id12">Saker att prova</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id13">Hur vill du gå vidare?</a></p></li>
+</ul>
+</div>
+<section id="get-to-know-gdal">
+<h2><a class="toc-backref" href="#id1">Lär känna GDAL</a><a class="headerlink" href="#get-to-know-gdal" title="Permalink till denna rubrik">¶</a></h2>
+<p>Du hittar demodata i <code class="file docutils literal notranslate"><span class="pre">/usr/local/share/data</span></code>. Vi vill ta en titt på <a class="reference internal" href="../overview/naturalearth_overview.html"><span class="doc">Natural Earth data</span></a> i den här snabbstarten. Vi vill arbeta med en kopia av data. Så det första steget är att kopiera data till din hemkatalog.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">user</span>
+<span class="n">cp</span> <span class="o">-</span><span class="n">R</span> <span class="o">/</span><span class="n">usr</span><span class="o">/</span><span class="n">local</span><span class="o">/</span><span class="n">share</span><span class="o">/</span><span class="n">data</span><span class="o">/</span><span class="n">natural_earth2</span><span class="o">/</span> <span class="o">./</span><span class="n">gdal_natural_earth</span>
+</pre></div>
+</div>
+<p>Du hittar sedan en NaturalEarth Raster-fil och en .tfw World-fil på:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">user</span><span class="o">/</span><span class="n">gdal_natural_earth</span>
+<span class="n">ls</span> <span class="n">HYP_50M_SR_W</span><span class="o">.*</span>
+</pre></div>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tips</p>
+<p>Öppna filen med ett Desktop GIS som QGIS och ta en titt.</p>
+</div>
+</section>
+<section id="get-information-about-the-raster-data-with-gdalinfo">
+<h2><a class="toc-backref" href="#id2">Hämta information om rasterdata med gdalinfo</a><a class="headerlink" href="#get-information-about-the-raster-data-with-gdalinfo" title="Permalink till denna rubrik">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdalinfo</span> <span class="n">HYP_50M_SR_W</span><span class="o">.</span><span class="n">tif</span>
+  <span class="n">Driver</span><span class="p">:</span> <span class="n">GTiff</span><span class="o">/</span><span class="n">GeoTIFF</span>
+  <span class="n">Files</span><span class="p">:</span> <span class="n">HYP_50M_SR_W</span><span class="o">.</span><span class="n">tif</span>
+  <span class="n">Size</span> <span class="ow">is</span> <span class="mi">10800</span><span class="p">,</span> <span class="mi">5400</span>
+  <span class="n">Coordinate</span> <span class="n">System</span> <span class="ow">is</span><span class="p">:</span>
+  <span class="n">GEOGCRS</span><span class="p">[</span><span class="s2">&quot;WGS 84&quot;</span><span class="p">,</span>
+      <span class="n">ENSEMBLE</span><span class="p">[</span><span class="s2">&quot;World Geodetic System 1984 ensemble&quot;</span><span class="p">,</span>
+<span class="o">...</span>
+  <span class="n">Origin</span> <span class="o">=</span> <span class="p">(</span><span class="o">-</span><span class="mf">179.999999999999972</span><span class="p">,</span><span class="mf">90.000000000000000</span><span class="p">)</span>
+  <span class="n">Pixel</span> <span class="n">Size</span> <span class="o">=</span> <span class="p">(</span><span class="mf">0.033333333333330</span><span class="p">,</span><span class="o">-</span><span class="mf">0.033333333333330</span><span class="p">)</span>
+  <span class="n">Metadata</span><span class="p">:</span>
+    <span class="n">TIFFTAG_SOFTWARE</span><span class="o">=</span><span class="n">Adobe</span> <span class="n">Photoshop</span> <span class="n">CS5</span> <span class="n">Macintosh</span>
+    <span class="n">TIFFTAG_DATETIME</span><span class="o">=</span><span class="mi">2012</span><span class="p">:</span><span class="mi">07</span><span class="p">:</span><span class="mi">16</span> <span class="mi">09</span><span class="p">:</span><span class="mi">16</span><span class="p">:</span><span class="mi">14</span>
+    <span class="n">TIFFTAG_XRESOLUTION</span><span class="o">=</span><span class="mf">342.85699</span>
+    <span class="n">TIFFTAG_YRESOLUTION</span><span class="o">=</span><span class="mf">342.85699</span>
+    <span class="n">TIFFTAG_RESOLUTIONUNIT</span><span class="o">=</span><span class="mi">2</span> <span class="p">(</span><span class="n">pixels</span><span class="o">/</span><span class="n">inch</span><span class="p">)</span>
+    <span class="n">AREA_OR_POINT</span><span class="o">=</span><span class="n">Area</span>
+  <span class="n">Image</span> <span class="n">Structure</span> <span class="n">Metadata</span><span class="p">:</span>
+    <span class="n">SOURCE_COLOR_SPACE</span><span class="o">=</span><span class="n">YCbCr</span>
+    <span class="n">COMPRESSION</span><span class="o">=</span><span class="n">YCbCr</span> <span class="n">JPEG</span>
+    <span class="n">INTERLEAVE</span><span class="o">=</span><span class="n">PIXEL</span>
+    <span class="n">JPEG_QUALITY</span><span class="o">=</span><span class="mi">90</span>
+    <span class="n">JPEGTABLESMODE</span><span class="o">=</span><span class="mi">3</span>
+  <span class="n">Corner</span> <span class="n">Coordinates</span><span class="p">:</span>
+  <span class="n">Upper</span> <span class="n">Left</span>  <span class="p">(</span><span class="o">-</span><span class="mf">180.0000000</span><span class="p">,</span>  <span class="mf">90.0000000</span><span class="p">)</span> <span class="p">(</span><span class="mi">180</span><span class="n">d</span> <span class="mi">0</span><span class="s1">&#39; 0.00&quot;W, 90d 0&#39;</span> <span class="mf">0.00</span><span class="s2">&quot;N)</span>
+  <span class="n">Lower</span> <span class="n">Left</span>  <span class="p">(</span><span class="o">-</span><span class="mf">180.0000000</span><span class="p">,</span> <span class="o">-</span><span class="mf">90.0000000</span><span class="p">)</span> <span class="p">(</span><span class="mi">180</span><span class="n">d</span> <span class="mi">0</span><span class="s1">&#39; 0.00&quot;W, 90d 0&#39;</span> <span class="mf">0.00</span><span class="s2">&quot;S)</span>
+  <span class="n">Upper</span> <span class="n">Right</span> <span class="p">(</span> <span class="mf">180.0000000</span><span class="p">,</span>  <span class="mf">90.0000000</span><span class="p">)</span> <span class="p">(</span><span class="mi">180</span><span class="n">d</span> <span class="mi">0</span><span class="s1">&#39; 0.00&quot;E, 90d 0&#39;</span> <span class="mf">0.00</span><span class="s2">&quot;N)</span>
+  <span class="n">Lower</span> <span class="n">Right</span> <span class="p">(</span> <span class="mf">180.0000000</span><span class="p">,</span> <span class="o">-</span><span class="mf">90.0000000</span><span class="p">)</span> <span class="p">(</span><span class="mi">180</span><span class="n">d</span> <span class="mi">0</span><span class="s1">&#39; 0.00&quot;E, 90d 0&#39;</span> <span class="mf">0.00</span><span class="s2">&quot;S)</span>
+  <span class="n">Center</span>      <span class="p">(</span>  <span class="o">-</span><span class="mf">0.0000000</span><span class="p">,</span>   <span class="mf">0.0000000</span><span class="p">)</span> <span class="p">(</span>  <span class="mi">0</span><span class="n">d</span> <span class="mi">0</span><span class="s1">&#39; 0.00&quot;W,  0d 0&#39;</span> <span class="mf">0.00</span><span class="s2">&quot;N)</span>
+  <span class="n">Band</span> <span class="mi">1</span> <span class="n">Block</span><span class="o">=</span><span class="mi">256</span><span class="n">x256</span> <span class="n">Type</span><span class="o">=</span><span class="n">Byte</span><span class="p">,</span> <span class="n">ColorInterp</span><span class="o">=</span><span class="n">Red</span>
+  <span class="n">Band</span> <span class="mi">2</span> <span class="n">Block</span><span class="o">=</span><span class="mi">256</span><span class="n">x256</span> <span class="n">Type</span><span class="o">=</span><span class="n">Byte</span><span class="p">,</span> <span class="n">ColorInterp</span><span class="o">=</span><span class="n">Green</span>
+  <span class="n">Band</span> <span class="mi">3</span> <span class="n">Block</span><span class="o">=</span><span class="mi">256</span><span class="n">x256</span> <span class="n">Type</span><span class="o">=</span><span class="n">Byte</span><span class="p">,</span> <span class="n">ColorInterp</span><span class="o">=</span><span class="n">Blue</span>
+</pre></div>
+</div>
+<dl class="simple">
+<dt>Anteckning:</dt><dd><ul class="simple">
+<li><p>Drivrutin är ”GTiff/GeoTIFF”</p></li>
+<li><p>Storleken är 10800x5400</p></li>
+<li><p>3 band av typen Byte.</p></li>
+<li><p>Koordinater</p></li>
+<li><p>inget koordinatsystem</p></li>
+</ul>
+</dd>
+</dl>
+</section>
+<section id="simple-format-translation">
+<h2><a class="toc-backref" href="#id3">Enkel översättning av format</a><a class="headerlink" href="#simple-format-translation" title="Permalink till denna rubrik">¶</a></h2>
+<p>First get to know your drivers. The <cite>–formats</cite> command line switch of
+gdal_translate can be used to see a list of available format drivers.</p>
+<dl class="simple">
+<dt>Each format reports if it supports the following features:</dt><dd><ul class="simple">
+<li><p>read only (ro)</p></li>
+<li><p>read/write (rw)</p></li>
+<li><p>read/write/update (rw+)</p></li>
+<li><p>supports virtual file systems (v)</p></li>
+<li><p>supports subdatasets (s)</p></li>
+</ul>
+</dd>
+</dl>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdal_translate</span> <span class="o">--</span><span class="n">formats</span>
+</pre></div>
+</div>
+<p>The <cite>–format</cite> command line switch can be used to query details about a
+particular driver, including creation options, and permitted data types.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdalinfo</span> <span class="o">--</span><span class="nb">format</span> <span class="n">jpeg</span>
+<span class="n">gdal_translate</span> <span class="o">--</span><span class="nb">format</span> <span class="n">png</span>
+</pre></div>
+</div>
+</section>
+<section id="translation">
+<h2><a class="toc-backref" href="#id4">Översättning</a><a class="headerlink" href="#translation" title="Permalink till denna rubrik">¶</a></h2>
+<p>Översättningar görs med kommandot gdal_translate. Standardformatet för utdata är GeoTIFF. Flaggan <cite>-of</cite> används för att välja ett utdataformat och flaggan -co används för att ange ett skapandealternativ:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdal_translate</span> <span class="o">-</span><span class="n">of</span> <span class="n">JPEG</span> <span class="o">-</span><span class="n">co</span> <span class="n">QUALITY</span><span class="o">=</span><span class="mi">40</span> <span class="n">HYP_50M_SR_W</span><span class="o">.</span><span class="n">tif</span> <span class="n">HYP_50M_SR_W</span><span class="o">.</span><span class="n">jpg</span>
+</pre></div>
+</div>
+<p>Omkopplaren <cite>-ot</cite> kan användas för att ändra typen av utdata.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdal_translate</span> <span class="o">-</span><span class="n">ot</span> <span class="n">Int16</span> <span class="n">HYP_50M_SR_W</span><span class="o">.</span><span class="n">tif</span> <span class="n">HYP_50M_SR_W_Int16</span><span class="o">.</span><span class="n">tif</span>
+</pre></div>
+</div>
+<p>Använd gdalinfo för att verifiera datatyp.</p>
+</section>
+<section id="rescaling">
+<h2><a class="toc-backref" href="#id5">Skalning</a><a class="headerlink" href="#rescaling" title="Permalink till denna rubrik">¶</a></h2>
+<p>Omkopplaren <cite>-outsize</cite> kan användas för att ställa in storleken på utdatafilen.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdal_translate</span> <span class="o">-</span><span class="n">outsize</span> <span class="mi">50</span><span class="o">%</span> <span class="mi">50</span><span class="o">%</span> <span class="n">HYP_50M_SR_W</span><span class="o">.</span><span class="n">tif</span>  <span class="n">HYP_50M_SR_W_small</span><span class="o">.</span><span class="n">tif</span>
+</pre></div>
+</div>
+<p>Använd gdalinfo för att verifiera storleken.</p>
+<p>Omkopplaren <cite>-scale</cite> kan användas för att skala om data. Explicit kontroll av in- och utmatningsintervallen är också tillgänglig. Omkopplaren gdalinfo <cite>-mm</cite> kan användas för att se pixlarnas min/max-värden.</p>
+<p>Låt oss dela upp vår bild i två delar med <cite>-srcwin</cite> som gör en kopia baserad på pixel/linjeplacering (xoff yoff xsize ysize). Du kan också använda <cite>-projwin</cite> och definiera hörnen i georefererade koordinater (ulx uly lrx lry).</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdalinfo</span> <span class="o">-</span><span class="n">mm</span> <span class="n">HYP_50M_SR_W</span><span class="o">.</span><span class="n">tif</span>
+<span class="n">gdal_translate</span> <span class="o">-</span><span class="n">srcwin</span> <span class="mi">0</span> <span class="mi">0</span> <span class="mi">5400</span> <span class="mi">5400</span> <span class="n">HYP_50M_SR_W</span><span class="o">.</span><span class="n">tif</span>  <span class="n">west</span><span class="o">.</span><span class="n">tif</span>
+<span class="n">gdal_translate</span> <span class="o">-</span><span class="n">srcwin</span> <span class="mi">5400</span> <span class="mi">0</span> <span class="mi">5400</span> <span class="mi">5400</span> <span class="n">HYP_50M_SR_W</span><span class="o">.</span><span class="n">tif</span>  <span class="n">east</span><span class="o">.</span><span class="n">tif</span>
+</pre></div>
+</div>
+</section>
+<section id="raster-tileindex-with-gdaltindex">
+<h2><a class="toc-backref" href="#id6">Raster tileindex med gdaltindex</a><a class="headerlink" href="#raster-tileindex-with-gdaltindex" title="Permalink till denna rubrik">¶</a></h2>
+<p>Du kan bygga en shapefil som ett rastertileindex. För varje bild genereras en polygon med gränserna för polygonens utbredning och sökvägen till filen.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdaltindex</span> <span class="n">index_natural_earth</span><span class="o">.</span><span class="n">shp</span> <span class="o">*</span><span class="n">st</span><span class="o">.</span><span class="n">tif</span>
+</pre></div>
+</div>
+<p>Ta en titt på din shapefil med QGIS och ogrinfo (du kommer att lära dig mer om ogrinfo senare i denna handledning)</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/gdal_gdaltindex.png"><img alt="../../_images/gdal_gdaltindex.png" src="../../_images/gdal_gdaltindex.png" style="width: 416.0px; height: 212.0px;" /></a>
+</div></blockquote>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>ogrinfo index_natural_earth.shp index_natural_earth
+INFO: Open of `index_natural_earth.shp&#39;
+    using driver `ESRI Shapefile&#39; successful.
+
+Layer name: index_natural_earth
+Metadata:
+  DBF_DATE_LAST_UPDATE=2025-05-13
+Geometry: Polygon
+Feature Count: 2
+Extent: (-180.000000, -90.000000) - (180.000000, 90.000000)
+Layer SRS WKT:
+GEOGCRS[&quot;WGS 84&quot;,
+    ...
+location: String (254.0)
+OGRFeature(index_natural_earth):0
+  location (String) = west.tif
+  POLYGON ((-180 90.0,-0.000000000017963 90.0,-0.000000000017963 -89.999999999982,-180 -89.999999999982,-180 90.0))
+
+OGRFeature(index_natural_earth):1
+  location (String) = east.tif
+  POLYGON ((-0.000000000017963 90.0,179.999999999964 90.0,179.999999999964 -89.999999999982,-0.000000000017963 -89.999999999982,-0.000000000017963 90.0))
+</pre></div>
+</div>
+</section>
+<section id="reprojecting">
+<h2><a class="toc-backref" href="#id7">Omprojektering</a><a class="headerlink" href="#reprojecting" title="Permalink till denna rubrik">¶</a></h2>
+<p>For this process we assume that HYP_50M_SR_W.tif has been properly
+created with bounds.</p>
+<p>Kommandot gdalwarp kan användas för att omprojicera bilder. Här omprojicerar vi den geografiska WGS84-bilden till Mercator-projektionen:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdalwarp</span> <span class="o">-</span><span class="n">t_srs</span> <span class="s1">&#39;+proj=merc +datum=WGS84&#39;</span> <span class="n">HYP_50M_SR_W_4326</span><span class="o">.</span><span class="n">tif</span> <span class="n">mercator</span><span class="o">.</span><span class="n">tif</span>
+</pre></div>
+</div>
+<p>Använd gdalinfo för att verifiera ändringen och ta en titt på bilden.</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/gdal_mercator.png"><img alt="../../_images/gdal_mercator.png" src="../../_images/gdal_mercator.png" style="width: 405.6px; height: 327.20000000000005px;" /></a>
+</div></blockquote>
+<p>Här omprojicerar vi till Ortho-projektionen.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdalwarp</span> <span class="o">-</span><span class="n">t_srs</span> <span class="s1">&#39;+proj=ortho +datum=WGS84&#39;</span> <span class="n">HYP_50M_SR_W_4326</span><span class="o">.</span><span class="n">tif</span> <span class="n">ortho</span><span class="o">.</span><span class="n">tif</span>
+</pre></div>
+</div>
+<a class="reference internal image-reference" href="../../_images/gdal_ortho.png"><img alt="../../_images/gdal_ortho.png" src="../../_images/gdal_ortho.png" style="width: 294.40000000000003px; height: 296.8px;" /></a>
+<p>Note how the poles are clipped? This is because the edges at the pole
+can’t be reprojected gdalwarp does not read all the data. We can force
+gdalwarp to read a bunch of surplus data around chunks as one way to
+resolve this.</p>
+</section>
+<section id="mosaicking">
+<h2><a class="toc-backref" href="#id8">Mosaik</a><a class="headerlink" href="#mosaicking" title="Permalink till denna rubrik">¶</a></h2>
+<p>gdal_merge.py är ett pythonskript som kan användas för enkla mosaikuppgifter. Mosaikera east.tif och west.tif till en enda fil:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdal_merge</span><span class="o">.</span><span class="n">py</span>  <span class="n">east</span><span class="o">.</span><span class="n">tif</span> <span class="n">west</span><span class="o">.</span><span class="n">tif</span> <span class="o">-</span><span class="n">o</span> <span class="n">merged</span><span class="o">.</span><span class="n">tif</span>
+</pre></div>
+</div>
+<p>Samma uppgift kan utföras med gdalwarp. gdalwarp har en mängd fördelar jämfört med gdal_merge, men kan vara långsam när många filer ska slås samman:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdalwarp</span> <span class="n">east</span><span class="o">.</span><span class="n">tif</span> <span class="n">west</span><span class="o">.</span><span class="n">tif</span> <span class="n">warpmerged</span><span class="o">.</span><span class="n">tif</span>
+</pre></div>
+</div>
+</section>
+<section id="get-to-know-ogr">
+<h2><a class="toc-backref" href="#id9">Lär känna OGR</a><a class="headerlink" href="#get-to-know-ogr" title="Permalink till denna rubrik">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">user</span><span class="o">/</span><span class="n">gdal_natural_earth</span><span class="o">/</span>
+</pre></div>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tips</p>
+<p>Öppna shape-filen med ett Desktop GIS som QGIS och ta en titt.</p>
+</div>
+</section>
+<section id="get-information-about-the-vector-data-with-ogrinfo">
+<h2><a class="toc-backref" href="#id10">Hämta information om vektordata med ogrinfo</a><a class="headerlink" href="#get-information-about-the-vector-data-with-ogrinfo" title="Permalink till denna rubrik">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>ogrinfo -ro /home/user/gdal_natural_earth
+INFO: Open of `/home/user/gdal_natural_earth&#39;
+      using driver `ESRI Shapefile&#39; successful.
+1: ne_10m_geography_regions_polys (Polygon)
+2: ne_10m_populated_places (Point)
+3: ne_10m_urban_areas (Polygon)
+4: ne_10m_geography_marine_polys (Polygon)
+5: ne_10m_admin_1_states_provinces_shp (Polygon)
+6: ne_10m_admin_0_countries (Polygon)
+7: ne_10m_ocean (Polygon)
+8: ne_10m_rivers_lake_centerlines (Line String)
+9: ne_10m_land (Polygon)
+10: index_natural_earth (Polygon)
+11: ne_10m_geography_regions_elevation_points (Point)
+12: ne_10m_geography_regions_points (Point)
+13: ne_10m_lakes (Polygon)
+</pre></div>
+</div>
+<p>Få en sammanfattning av dina data med ogrinfo tillsammans med <cite>-so</cite>.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>ogrinfo -ro -so ne_10m_admin_0_countries.shp ne_10m_admin_0_countries
+INFO: Open of `ne_10m_admin_0_countries.shp&#39;
+      using driver `ESRI Shapefile&#39; successful.
+
+Layer name: ne_10m_admin_0_countries
+Metadata:
+  DBF_DATE_LAST_UPDATE=2012-11-05
+Geometry: Polygon
+Feature Count: 254
+Extent: (-180.000000, -90.000000) - (180.000000, 83.634101)
+Layer SRS WKT:
+GEOGCRS[&quot;WGS 84&quot;,
+    DATUM[&quot;World Geodetic System 1984&quot;,
+...
+scalerank: Integer (4.0)
+featurecla: String (30.0)
+labelrank: Real (16.6)
+sovereignt: String (254.0)
+sov_a3: String (254.0)
+adm0_dif: Real (16.6)
+level: Real (16.6)
+type: String (254.0)
+admin: String (254.0)
+adm0_a3: String (254.0)
+geou_dif: Real (16.6)
+geounit: String (254.0)
+gu_a3: String (254.0)
+su_dif: Real (16.6)
+subunit: String (254.0)
+su_a3: String (254.0)
+brk_diff: Real (16.6)
+name: String (254.0)
+name_long: String (254.0)
+brk_a3: String (254.0)
+brk_name: String (254.0)
+brk_group: String (254.0)
+abbrev: String (254.0)
+postal: String (254.0)
+formal_en: String (254.0)
+formal_fr: String (254.0)
+note_adm0: String (254.0)
+note_brk: String (254.0)
+name_sort: String (254.0)
+name_alt: String (254.0)
+mapcolor7: Real (16.6)
+mapcolor8: Real (16.6)
+mapcolor9: Real (16.6)
+mapcolor13: Real (16.6)
+pop_est: Real (16.6)
+gdp_md_est: Real (16.6)
+pop_year: Real (16.6)
+lastcensus: Real (16.6)
+gdp_year: Real (16.6)
+economy: String (254.0)
+income_grp: String (254.0)
+wikipedia: Real (16.6)
+fips_10: String (254.0)
+iso_a2: String (254.0)
+iso_a3: String (254.0)
+iso_n3: String (254.0)
+un_a3: String (254.0)
+wb_a2: String (254.0)
+wb_a3: String (254.0)
+woe_id: Real (16.6)
+adm0_a3_is: String (254.0)
+adm0_a3_us: String (254.0)
+adm0_a3_un: Real (16.6)
+adm0_a3_wb: Real (16.6)
+continent: String (254.0)
+region_un: String (254.0)
+subregion: String (254.0)
+region_wb: String (254.0)
+name_len: Real (16.6)
+long_len: Real (16.6)
+abbrev_len: Real (16.6)
+tiny: Real (16.6)
+homepart: Real (16.6)
+</pre></div>
+</div>
+<p>Om du kör ogrinfo utan en parameter får du en sammanfattning av dina data och därefter ett avsnitt för varje dataset.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ogrinfo</span> <span class="o">-</span><span class="n">ro</span> <span class="n">ne_10m_admin_0_countries</span><span class="o">.</span><span class="n">shp</span> <span class="n">ne_10m_admin_0_countries</span>
+</pre></div>
+</div>
+<p>Du kan vidarebefordra resultatet från ogrinfo till grep för att filtrera och bara få attributet COUNTRY.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ogrinfo</span> <span class="n">ne_10m_admin_0_countries</span><span class="o">.</span><span class="n">shp</span> <span class="n">ne_10m_admin_0_countries</span> <span class="o">|</span> <span class="n">grep</span> <span class="s1">&#39;admin &#39;</span>
+
+  <span class="n">admin</span> <span class="p">(</span><span class="n">String</span><span class="p">)</span> <span class="o">=</span> <span class="n">Aruba</span>
+  <span class="n">admin</span> <span class="p">(</span><span class="n">String</span><span class="p">)</span> <span class="o">=</span> <span class="n">Afghanistan</span>
+  <span class="n">admin</span> <span class="p">(</span><span class="n">String</span><span class="p">)</span> <span class="o">=</span> <span class="n">Angola</span>
+  <span class="n">admin</span> <span class="p">(</span><span class="n">String</span><span class="p">)</span> <span class="o">=</span> <span class="n">Anguilla</span>
+  <span class="n">admin</span> <span class="p">(</span><span class="n">String</span><span class="p">)</span> <span class="o">=</span> <span class="n">Albania</span>
+  <span class="n">admin</span> <span class="p">(</span><span class="n">String</span><span class="p">)</span> <span class="o">=</span> <span class="n">Aland</span>
+  <span class="n">admin</span> <span class="p">(</span><span class="n">String</span><span class="p">)</span> <span class="o">=</span> <span class="n">Andorra</span>
+<span class="n">etc</span><span class="o">.</span>
+</pre></div>
+</div>
+<p>Du kan konvertera dina data till andra format. Hämta listan över de format som stöds med <cite>–formats</cite>.</p>
+</section>
+<section id="use-ogr2ogr-to-convert-data-between-file-formats">
+<h2><a class="toc-backref" href="#id11">Använd ogr2ogr för att konvertera data mellan filformat</a><a class="headerlink" href="#use-ogr2ogr-to-convert-data-between-file-formats" title="Permalink till denna rubrik">¶</a></h2>
+<p>Du kan använda ogr2ogr för att konvertera enkla funktionsdata mellan filformat. Du kan använda <cite>–formats</cite> för att få en lista över de format som stöds med läs-/skrivinformation.</p>
+<p>Konvertera länderna till GML.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">ogr2ogr</span> <span class="o">--</span><span class="n">formats</span>
+<span class="n">ogr2ogr</span> <span class="o">-</span><span class="n">f</span> <span class="n">GML</span> <span class="n">countries</span><span class="o">.</span><span class="n">xml</span> <span class="n">ne_10m_admin_0_countries</span><span class="o">.</span><span class="n">shp</span>
+</pre></div>
+</div>
+</section>
+<section id="things-to-try">
+<h2><a class="toc-backref" href="#id12">Saker att prova</a><a class="headerlink" href="#things-to-try" title="Permalink till denna rubrik">¶</a></h2>
+<p>Här är några ytterligare utmaningar som du kan prova:</p>
+<ul class="simple">
+<li><p>Prova gdalwarp eller gdal_merge.py för att mosaikera dina data</p></li>
+<li><p>Prova gdaladdo för att bygga interna översikter</p></li>
+<li><p>QGIS använder också GDAL/OGR för att stödja många format. Det tillhandahåller också GdalTools Plugin för att bearbeta rasterdata. Detta plugin integrerar gdal-tools i QGIS.</p></li>
+<li><p>Prova ogr2ogr för att importera/exportera dina vektordata till andra format som PostGIS. Ta en titt på de alternativ som ogr2ogr erbjuder.</p></li>
+<li><p>Prova QGIS-plugin-programmet OGR-Layer-Konverter.</p></li>
+</ul>
+</section>
+<section id="what-next">
+<h2><a class="toc-backref" href="#id13">Hur vill du gå vidare?</a><a class="headerlink" href="#what-next" title="Permalink till denna rubrik">¶</a></h2>
+<p>Detta är bara det första steget på vägen mot att använda GDAL och OGR. Det finns mycket mer funktionalitet som du kan prova.</p>
+<p>GDAL-projektets hemsida</p>
+<blockquote>
+<div><p><a class="reference external" href="https://gdal.org">https://gdal.org</a></p>
+</div></blockquote>
+<p>GDAL Raster Handledning</p>
+<blockquote>
+<div><p><a class="reference external" href="https://gdal.org/en/latest/tutorials/raster_api_tut.html">https://gdal.org/en/latest/tutorials/raster_api_tut.html</a></p>
+</div></blockquote>
+<p>GDAL-workshop</p>
+<blockquote>
+<div><p><a class="reference external" href="https://download.osgeo.org/gdal/workshop/foss4ge2015/workshop_gdal.html">https://download.osgeo.org/gdal/workshop/foss4ge2015/workshop_gdal.html</a></p>
+</div></blockquote>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

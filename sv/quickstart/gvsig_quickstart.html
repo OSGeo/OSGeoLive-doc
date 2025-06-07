@@ -1,0 +1,504 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>snabbstart för gvSIG Desktop &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="QGIS" href="../overview/qgis_overview.html" />
+    <link rel="prev" title="gvSIG Skrivbord" href="../overview/gvsig_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="http://www.gvsig.com/es"><img alt="../../_images/logo_gvsig.png" class="align-right" src="../../_images/logo_gvsig.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<div class="admonition note">
+<p class="admonition-title">Observera</p>
+<p>Detta projekt ingår endast på OSGeoLives virtuella maskindisk (VMDK)</p>
+</div>
+<section id="gvsig-desktop-quickstart">
+<h1>snabbstart för gvSIG Desktop<a class="headerlink" href="#gvsig-desktop-quickstart" title="Permalink till denna rubrik">¶</a></h1>
+<p>gvSIG är ett geografiskt informationssystem (GIS), dvs. ett skrivbordsprogram som är utformat för att fånga, lagra, hantera, analysera och distribuera alla typer av geografisk information för att lösa komplexa förvaltnings- och planeringsproblem. gvSIG är känt för att ha ett användarvänligt gränssnitt och kan hantera de vanligaste formaten, både vektor- och rasterformat. Det har ett brett utbud av verktyg för att arbeta med geografisk information (frågeverktyg, layoutskapande, geoprocessing, nätverk etc.), vilket gör gvSIG till det perfekta verktyget för användare som arbetar inom markområdet.</p>
+<div class="contents local topic" id="contents">
+<p class="topic-title">Innehåll</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#start-gvsig-and-create-a-view" id="id3">Starta gvSIG och skapa en vy</a></p></li>
+<li><p><a class="reference internal" href="#define-the-projection-of-your-view" id="id4">Definiera projektionen av din vy</a></p></li>
+<li><p><a class="reference internal" href="#add-layers-to-the-view" id="id5">Lägg till lager i vyn</a></p></li>
+<li><p><a class="reference internal" href="#configure-the-view-display" id="id6">Konfigurera visningsdisplayen</a></p>
+<ul>
+<li><p><a class="reference internal" href="#zoom-into-a-region" id="id7">Zooma in i en region</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#change-how-the-layers-look" id="id8">Ändra hur lagren ser ut</a></p>
+<ul>
+<li><p><a class="reference internal" href="#make-a-polygon-transparent" id="id9">Gör en polygon transparent</a></p></li>
+<li><p><a class="reference internal" href="#change-the-symbology-of-a-vector-layer" id="id10">Ändra symbologin för ett vektorlager</a></p></li>
+<li><p><a class="reference internal" href="#remove-the-fill-symbol-and-changing-the-border-color" id="id11">Ta bort fyllningssymbolen och ändra kantfärgen</a></p></li>
+<li><p><a class="reference internal" href="#change-the-labelling-of-a-vector-layer" id="id12">Ändra märkningen av ett vektorlager</a></p></li>
+<li><p><a class="reference internal" href="#view-the-result" id="id13">Se resultatet</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#add-an-overview-or-locator" id="id14">Lägg till en översikt eller sökfunktion</a></p></li>
+<li><p><a class="reference internal" href="#select-towns-within-a-region" id="id15">Välj städer inom en region</a></p>
+<ul>
+<li><p><a class="reference internal" href="#select-the-region" id="id16">Välj region</a></p></li>
+<li><p><a class="reference internal" href="#open-the-selection-by-layer-tool" id="id17">Öppna verktyget Urval efter lager</a></p></li>
+<li><p><a class="reference internal" href="#select-the-towns-contained-within-a-region" id="id18">Välj de städer som ingår i en region</a></p></li>
+<li><p><a class="reference internal" href="#deselect-the-polygon-so-you-can-see-what-has-happened" id="id19">Avmarkera polygonen så att du kan se vad som har hänt</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#export-selected-features-to-a-new-shapefile" id="id20">Exportera utvalda funktioner till en ny shapefil</a></p>
+<ul>
+<li><p><a class="reference internal" href="#select-the-output-file-format" id="id21">Välj format för utdatafilen</a></p></li>
+<li><p><a class="reference internal" href="#select-the-output-file-name" id="id22">Välj namn på utdatafilen</a></p></li>
+<li><p><a class="reference internal" href="#reference-system" id="id23">Referenssystem</a></p></li>
+<li><p><a class="reference internal" href="#export-options" id="id24">Alternativ för export</a></p></li>
+<li><p><a class="reference internal" href="#id1" id="id25">Se resultatet</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#create-a-new-map" id="id26">Skapa en ny karta</a></p>
+<ul>
+<li><p><a class="reference internal" href="#work-with-the-map" id="id27">Arbeta med kartan</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#save-your-project-or-exiting-gvsig" id="id28">Spara ditt projekt eller avsluta gvSIG</a></p></li>
+<li><p><a class="reference internal" href="#install-an-add-on" id="id29">Installera ett tillägg</a></p>
+<ul>
+<li><p><a class="reference internal" href="#open-the-add-ons-manager" id="id30">Öppna tilläggshanteraren</a></p></li>
+<li><p><a class="reference internal" href="#find-an-add-on" id="id31">Hitta ett tillägg</a></p></li>
+<li><p><a class="reference internal" href="#finish-the-installation" id="id32">Slutför installationen</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#add-an-openstreetmap-layer" id="id33">Lägg till ett OpenStreetMap-lager</a></p>
+<ul>
+<li><p><a class="reference internal" href="#id2" id="id34">Se resultatet</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#add-a-wmts-layer" id="id35">Lägg till ett WMTS-lager</a></p>
+<ul>
+<li><p><a class="reference internal" href="#select-a-server" id="id36">Välj en server</a></p></li>
+<li><p><a class="reference internal" href="#select-one-of-the-available-layers" id="id37">Välj ett av de tillgängliga lagren</a></p></li>
+<li><p><a class="reference internal" href="#select-image-format-and-reference-system" id="id38">Välj bildformat och referenssystem</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#what-next" id="id39">Hur vill du gå vidare?</a></p></li>
+</ul>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Observera</p>
+<p>Om gvSIG:s användargränssnitt inte svarar, prova <kbd class="kbd compound docutils literal notranslate"><kbd class="kbd docutils literal notranslate">Alt</kbd>+<kbd class="kbd docutils literal notranslate">f</kbd></kbd> för att öppna filmenyn till exempel. Användargränssnittet bör fungera igen, då. Den här buggen inträffar bara i gvSIG-distributionen för OSGeoLive. Det visas inte i en normal gvSIG-installation.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Observera</p>
+<p>Anmärkning för version gvSIG 2.3.1: För att ladda rasterfiler måste användaren ha skrivbehörighet i den mapp där filen finns. Annars kommer programmet att fråga efter en giltig mapp (med skrivbehörighet). Eftersom användaren ”user” inte har skrivbehörighet i mappen ”data”, måste man vid förfrågan välja en mapp där användaren har skrivbehörighet, t.ex. ”/home/user”.</p>
+</div>
+<section id="start-gvsig-and-create-a-view">
+<h2><a class="toc-backref" href="#id3">Starta gvSIG och skapa en vy</a><a class="headerlink" href="#start-gvsig-and-create-a-view" title="Permalink till denna rubrik">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Välj gvSIG från applikationsmenyn, <span class="menuselection">Geospatial ‣ Desktop GIS ‣ gvSIG desktop</span>. Det tar vanligtvis ungefär en minut att starta programmet.</p></li>
+<li><p>Som standard öppnas gvSIG med en tom projektfil med dokumenttypen ”View” vald. På OSGeoLive har dock gvSIG konfigurerats för att starta med ett standardprojekt. Klicka på knappen <span class="guilabel">New Project</span> eller gå till <span class="menuselection">File ‣ New Project</span>. När du blir tillfrågad kan du välja <span class="guilabel">Discard Changes</span> eftersom vi inte kommer att använda det senaste projektet.</p></li>
+<li><p>Klicka på knappen <span class="guilabel">New</span> för att skapa en vy. Den kommer att öppnas automatiskt.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/gvsig_qs_001_.png"><img alt="../../_images/gvsig_qs_001_.png" src="../../_images/gvsig_qs_001_.png" style="width: 563.2px; height: 408.65000000000003px;" /></a>
+</section>
+<section id="define-the-projection-of-your-view">
+<h2><a class="toc-backref" href="#id4">Definiera projektionen av din vy</a><a class="headerlink" href="#define-the-projection-of-your-view" title="Permalink till denna rubrik">¶</a></h2>
+<ol class="arabic">
+<li><p>Välj <span class="menuselection">View ‣ Properties</span>.</p>
+<a class="reference internal image-reference" href="../../_images/gvsig_qs_002_.png"><img alt="../../_images/gvsig_qs_002_.png" src="../../_images/gvsig_qs_002_.png" style="width: 563.2px; height: 408.65000000000003px;" /></a>
+</li>
+<li><p>För <span class="guilabel">Current projection</span>, klicka på <span class="guilabel">…</span>-knappen. Detta öppnar dialogrutan <strong>Ny CRS</strong>.</p></li>
+<li><p>Använd rullgardinsmenyn för <span class="guilabel">Type</span> och välj EPSG.</p></li>
+<li><p>Ange EPSG-koden för det koordinatbaserade referenssystemet. I det här exemplet använder vi EPSG=4326, som är WGS84 2D Geographic Projection. Klicka sedan på knappen <span class="guilabel">Search</span>. Då listas det valda CRS i tabellen under inmatningsfältet för sökningen.</p></li>
+<li><p>Välj <span class="guilabel">OK</span> för att återgå till dialogen <strong>View Properties</strong>. EPSG-koden är nu 4326 och kartans enheter har ändrats till grader.</p></li>
+<li><p>Välj <span class="guilabel">OK</span> för att återgå till <strong>Project Manager</strong>.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/gvsig_qs_003_.png"><img alt="../../_images/gvsig_qs_003_.png" src="../../_images/gvsig_qs_003_.png" style="width: 561.5500000000001px; height: 407.55px;" /></a>
+<ul class="simple">
+<li><ol class="arabic simple">
+<li><p>Visningsfönstret består av tre zoner.</p></li>
+</ol>
+</li>
+<li><p>(2) The top-left cell contains a list of vector or raster layers being used in
+the view (i.e. Table-of-Contents).</p></li>
+<li><p>(3) The bottom-left cell displays the extent of the main view over a selected
+vector file.</p></li>
+<li><p>(4) The right cell is the main display area where raster and vector data is
+rendered.</p></li>
+</ul>
+<a class="reference internal image-reference" href="../../_images/gvsig_qs_005_.png"><img alt="../../_images/gvsig_qs_005_.png" src="../../_images/gvsig_qs_005_.png" style="width: 563.2px; height: 408.65000000000003px;" /></a>
+</section>
+<section id="add-layers-to-the-view">
+<h2><a class="toc-backref" href="#id5">Lägg till lager i vyn</a><a class="headerlink" href="#add-layers-to-the-view" title="Permalink till denna rubrik">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Klicka på ikonen <span class="guilabel">Add layer</span> i huvudverktygsfältet för att öppna dialogrutan <strong>Add layer</strong>.</p></li>
+<li><p>Välj <span class="guilabel">Add</span> i dialogrutan <strong>Add layer</strong>. Som standard är den första fliken <span class="guilabel">File</span> så dialogrutan <strong>Open</strong> file kommer att visas.</p></li>
+<li><p>Borra ner till katalogen <code class="docutils literal notranslate"><span class="pre">/usr/local/share/data/natural_earth2/</span></code>.</p></li>
+<li><p>Välj filerna som visas på bilden.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/gvsig_qs_006_.png"><img alt="../../_images/gvsig_qs_006_.png" src="../../_images/gvsig_qs_006_.png" style="width: 562.6500000000001px; height: 407.00000000000006px;" /></a>
+<div class="admonition note">
+<p class="admonition-title">Observera</p>
+<p>Som standard visas alla format, så vi kan välja både vektor- och rasterfiler åt gången genom att hålla ned <kbd class="kbd docutils literal notranslate">CTRL</kbd>-tangenten.</p>
+</div>
+<ol class="arabic simple">
+<li><p>Klicka på knappen <span class="guilabel">OK</span> för att återgå till dialogrutan <strong>Lägg till lager</strong>.</p></li>
+<li><p>Klicka på knappen <span class="guilabel">OK</span> i dialogrutan <strong>Add layer</strong> för att återgå till vyn.</p></li>
+</ol>
+</section>
+<section id="configure-the-view-display">
+<h2><a class="toc-backref" href="#id6">Konfigurera visningsdisplayen</a><a class="headerlink" href="#configure-the-view-display" title="Permalink till denna rubrik">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Klicka på ikonen <span class="guilabel">Maximera</span> för att få en bättre visning av data.</p></li>
+<li><p>Storleken på kolumnen Innehållsförteckning kan justeras med musen för att göra det lättare att se långa filnamn.</p></li>
+<li><p>Om rasterlagret ligger högst upp ska det flyttas manuellt till botten.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/gvsig_qs_008_.png"><img alt="../../_images/gvsig_qs_008_.png" src="../../_images/gvsig_qs_008_.png" style="width: 563.2px; height: 408.65000000000003px;" /></a>
+<section id="zoom-into-a-region">
+<h3><a class="toc-backref" href="#id7">Zooma in i en region</a><a class="headerlink" href="#zoom-into-a-region" title="Permalink till denna rubrik">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Som standard är verktyget <em>Zoom in</em> valt i huvudverktygsfältet.</p></li>
+<li><p>Använd muspekaren för att rita en avgränsningsbox runt sydöstra Australien. Gör detta genom att markera det övre vänstra hörnet av begränsningsrutan, hålla ned vänster musknapp och dra det nedre högra hörnet av begränsningsrutan över det markerade området. Släpp vänster musknapp när du har definierat det ungefärliga området.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/gvsig_qs_009_.png"><img alt="../../_images/gvsig_qs_009_.png" src="../../_images/gvsig_qs_009_.png" style="width: 563.2px; height: 408.65000000000003px;" /></a>
+</section>
+</section>
+<section id="change-how-the-layers-look">
+<h2><a class="toc-backref" href="#id8">Ändra hur lagren ser ut</a><a class="headerlink" href="#change-how-the-layers-look" title="Permalink till denna rubrik">¶</a></h2>
+<section id="make-a-polygon-transparent">
+<h3><a class="toc-backref" href="#id9">Gör en polygon transparent</a><a class="headerlink" href="#make-a-polygon-transparent" title="Permalink till denna rubrik">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Välj skiktet <code class="docutils literal notranslate"><span class="pre">ne_10m_admin_1_states_provinces.shp</span></code> med vänster musknapp och klicka igen med höger musknapp.</p></li>
+<li><p>Välj undermenyn <span class="menuselection">Properties</span>.</p></li>
+<li><p>Dialogrutan <strong>Layer properties</strong> visas.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/gvsig_qs_010_.png"><img alt="../../_images/gvsig_qs_010_.png" src="../../_images/gvsig_qs_010_.png" style="width: 563.2px; height: 408.65000000000003px;" /></a>
+</section>
+<section id="change-the-symbology-of-a-vector-layer">
+<h3><a class="toc-backref" href="#id10">Ändra symbologin för ett vektorlager</a><a class="headerlink" href="#change-the-symbology-of-a-vector-layer" title="Permalink till denna rubrik">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Välj fliken <span class="guilabel">Symboler</span> högst upp i dialogrutan <strong>Layers egenskaper</strong>.</p></li>
+<li><p>Välj <span class="guilabel">Välj symbol</span>-knappen så att dialogrutan <strong>Symbolväljare</strong> visas.</p></li>
+</ol>
+</section>
+<section id="remove-the-fill-symbol-and-changing-the-border-color">
+<h3><a class="toc-backref" href="#id11">Ta bort fyllningssymbolen och ändra kantfärgen</a><a class="headerlink" href="#remove-the-fill-symbol-and-changing-the-border-color" title="Permalink till denna rubrik">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Avmarkera rutan <span class="guilabel">Fill color</span> så att polygonerna blir genomskinliga.</p></li>
+<li><p>Klicka på <span class="guilabel">…</span> i närheten av <span class="guilabel">Border color:</span>.</p></li>
+<li><p>Välj vit som färg.</p></li>
+<li><p>Klicka på knappen <span class="guilabel">OK</span> för att återgå till dialogrutan <strong>Symbolväljare</strong>.</p></li>
+<li><p>Klicka på knappen <span class="guilabel">OK</span> för att återgå till dialogrutan <strong>Layers egenskaper</strong>.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/gvsig_qs_012_.png"><img alt="../../_images/gvsig_qs_012_.png" src="../../_images/gvsig_qs_012_.png" style="width: 562.6500000000001px; height: 408.1px;" /></a>
+</section>
+<section id="change-the-labelling-of-a-vector-layer">
+<h3><a class="toc-backref" href="#id12">Ändra märkningen av ett vektorlager</a><a class="headerlink" href="#change-the-labelling-of-a-vector-layer" title="Permalink till denna rubrik">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Välj fliken <span class="guilabel">Labelling</span> högst upp i dialogrutan <strong>Layers egenskaper</strong>.</p></li>
+<li><p>Ändra textattributen till de som visas på bilden och klicka sedan på knappen <span class="guilabel">Accept</span>.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/gvsig_qs_013_.png"><img alt="../../_images/gvsig_qs_013_.png" src="../../_images/gvsig_qs_013_.png" style="width: 563.2px; height: 408.65000000000003px;" /></a>
+</section>
+<section id="view-the-result">
+<h3><a class="toc-backref" href="#id13">Se resultatet</a><a class="headerlink" href="#view-the-result" title="Permalink till denna rubrik">¶</a></h3>
+<p>Observera att detta är en mycket grundläggande vy som visar en punkt, en linje och en polygon vektorfil överlagrad på en rasterfil. Det är lika enkelt att ha ett flygfoto eller en digital terrängmodell som bakgrund till dina vektordata, eller att visa andra vektordata som lagras i olika format.</p>
+<a class="reference internal image-reference" href="../../_images/gvsig_qs_014_.png"><img alt="../../_images/gvsig_qs_014_.png" src="../../_images/gvsig_qs_014_.png" style="width: 563.2px; height: 408.65000000000003px;" /></a>
+</section>
+</section>
+<section id="add-an-overview-or-locator">
+<h2><a class="toc-backref" href="#id14">Lägg till en översikt eller sökfunktion</a><a class="headerlink" href="#add-an-overview-or-locator" title="Permalink till denna rubrik">¶</a></h2>
+<p>Välj <span class="menuselection">Vy ‣ Locator setup</span>.</p>
+<a class="reference internal image-reference" href="../../_images/gvsig_qs_016_.png"><img alt="../../_images/gvsig_qs_016_.png" src="../../_images/gvsig_qs_016_.png" style="width: 563.2px; height: 408.65000000000003px;" /></a>
+<ol class="arabic simple">
+<li><p>Klicka på knappen <span class="guilabel">Add layer…</span>.</p></li>
+<li><p>I fönstret Add layer klickar du på knappen <span class="guilabel">Add</span>.</p></li>
+<li><p>Välj skiktet <code class="docutils literal notranslate"><span class="pre">HYP_50M_SR_W.tif</span></code>.</p></li>
+<li><p>Klicka på knappen <span class="guilabel">Open</span> för att återgå till fönstret Add layer.</p></li>
+<li><p>Klicka på knappen <span class="guilabel">Ok</span> och stäng fönstret Configure locator.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/gvsig_qs_017_.png"><img alt="../../_images/gvsig_qs_017_.png" src="../../_images/gvsig_qs_017_.png" style="width: 562.1px; height: 407.00000000000006px;" /></a>
+<p>Nu kan vi enkelt få reda på var utsikten finns i världen.</p>
+<a class="reference internal image-reference" href="../../_images/gvsig_qs_018_.png"><img alt="../../_images/gvsig_qs_018_.png" src="../../_images/gvsig_qs_018_.png" style="width: 563.2px; height: 408.65000000000003px;" /></a>
+</section>
+<section id="select-towns-within-a-region">
+<h2><a class="toc-backref" href="#id15">Välj städer inom en region</a><a class="headerlink" href="#select-towns-within-a-region" title="Permalink till denna rubrik">¶</a></h2>
+<section id="select-the-region">
+<h3><a class="toc-backref" href="#id16">Välj region</a><a class="headerlink" href="#select-the-region" title="Permalink till denna rubrik">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Välj lagret <code class="docutils literal notranslate"><span class="pre">ne_10m_admin_1_states_provinces.shp</span></code> med hjälp av vänster musknapp.</p></li>
+<li><p>Välj ikonen <span class="guilabel">Select by point</span> i huvudverktygsfältet.</p></li>
+<li><p>Klicka på den polygon som representerar delstaten New South Wales. Polygonen blir gul eller får någon annan färg beroende på dina användarinställningar.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/gvsig_qs_019_.png"><img alt="../../_images/gvsig_qs_019_.png" src="../../_images/gvsig_qs_019_.png" style="width: 563.2px; height: 408.65000000000003px;" /></a>
+</section>
+<section id="open-the-selection-by-layer-tool">
+<h3><a class="toc-backref" href="#id17">Öppna verktyget Urval efter lager</a><a class="headerlink" href="#open-the-selection-by-layer-tool" title="Permalink till denna rubrik">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Välj lagret <code class="docutils literal notranslate"><span class="pre">ne_10m_populated_places.shp</span></code> med hjälp av vänster musknapp.</p></li>
+<li><p>Välj <span class="menuselection">Selection ‣ Select by layer</span> för att öppna dialogrutan <strong>Selection by Layer</strong></p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/gvsig_qs_020_.png"><img alt="../../_images/gvsig_qs_020_.png" src="../../_images/gvsig_qs_020_.png" style="width: 563.2px; height: 408.65000000000003px;" /></a>
+</section>
+<section id="select-the-towns-contained-within-a-region">
+<h3><a class="toc-backref" href="#id18">Välj de städer som ingår i en region</a><a class="headerlink" href="#select-the-towns-contained-within-a-region" title="Permalink till denna rubrik">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Ändra det första urvalskriteriet med hjälp av rullgardinsmenyerna på vänster sida i dialogrutan <strong>Selection by Layer</strong> enligt bilden.</p></li>
+<li><p>Ändra det andra urvalskriteriet som visas på bilden.</p></li>
+<li><p>Klicka på knappen <span class="guilabel">New set</span> för att välja städer inom den valda polygonen.</p></li>
+<li><p>Välj knappen <span class="guilabel">Cancel</span> i dialogrutan <strong>Selection by Layer</strong> för att återgå till vyn.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/gvsig_qs_021_.png"><img alt="../../_images/gvsig_qs_021_.png" src="../../_images/gvsig_qs_021_.png" style="width: 301.40000000000003px; height: 90.75000000000001px;" /></a>
+</section>
+<section id="deselect-the-polygon-so-you-can-see-what-has-happened">
+<h3><a class="toc-backref" href="#id19">Avmarkera polygonen så att du kan se vad som har hänt</a><a class="headerlink" href="#deselect-the-polygon-so-you-can-see-what-has-happened" title="Permalink till denna rubrik">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Välj lagret <code class="docutils literal notranslate"><span class="pre">ne_10m_admin_1_states_provinces.shp</span></code> med hjälp av vänster musknapp.</p></li>
+<li><p>Välj ikonen ”Rensa urval” i huvudverktygsfältet.</p></li>
+<li><p>Du kan nu se att endast de städer som ligger i New South Wales är valda.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/gvsig_qs_022_.png"><img alt="../../_images/gvsig_qs_022_.png" src="../../_images/gvsig_qs_022_.png" style="width: 563.2px; height: 408.65000000000003px;" /></a>
+</section>
+</section>
+<section id="export-selected-features-to-a-new-shapefile">
+<h2><a class="toc-backref" href="#id20">Exportera utvalda funktioner till en ny shapefil</a><a class="headerlink" href="#export-selected-features-to-a-new-shapefile" title="Permalink till denna rubrik">¶</a></h2>
+<section id="select-the-output-file-format">
+<h3><a class="toc-backref" href="#id21">Välj format för utdatafilen</a><a class="headerlink" href="#select-the-output-file-format" title="Permalink till denna rubrik">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Välj lagret <code class="docutils literal notranslate"><span class="pre">ne_10m_populated_places.shp</span></code> med hjälp av vänster musknapp.</p></li>
+<li><p>Välj <span class="menuselection">Layer ‣ Export to…</span> för att starta exporten.</p></li>
+<li><p>Välj <em>Shape Format</em>.</p></li>
+<li><p>Klicka på <em>Nästa</em>.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/gvsig_qs_023_.png"><img alt="../../_images/gvsig_qs_023_.png" src="../../_images/gvsig_qs_023_.png" style="width: 563.2px; height: 408.65000000000003px;" /></a>
+</section>
+<section id="select-the-output-file-name">
+<h3><a class="toc-backref" href="#id22">Välj namn på utdatafilen</a><a class="headerlink" href="#select-the-output-file-name" title="Permalink till denna rubrik">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Välj en mapp och skriv in filnamnet.</p></li>
+<li><p>Klicka på <em>Öppna</em> och sedan på <em>Nästa</em>.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/gvsig_qs_024_.png"><img alt="../../_images/gvsig_qs_024_.png" src="../../_images/gvsig_qs_024_.png" style="width: 562.6500000000001px; height: 408.1px;" /></a>
+</section>
+<section id="reference-system">
+<h3><a class="toc-backref" href="#id23">Referenssystem</a><a class="headerlink" href="#reference-system" title="Permalink till denna rubrik">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Välj alternativet <em>Original (EPSG:4326)</em> för att behålla referenssystemet för vyn.</p></li>
+<li><p>Klicka på <em>Nästa</em>.</p></li>
+</ol>
+</section>
+<section id="export-options">
+<h3><a class="toc-backref" href="#id24">Alternativ för export</a><a class="headerlink" href="#export-options" title="Permalink till denna rubrik">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Välj alternativet <em>Selected features</em> för att endast exportera städerna i New South Wales.</p></li>
+<li><p>Klicka på <em>Export</em>.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/gvsig_qs_025_.png"><img alt="../../_images/gvsig_qs_025_.png" src="../../_images/gvsig_qs_025_.png" style="width: 563.2px; height: 408.65000000000003px;" /></a>
+</section>
+<section id="id1">
+<h3><a class="toc-backref" href="#id25">Se resultatet</a><a class="headerlink" href="#id1" title="Permalink till denna rubrik">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Det nya lagret har lagts till i vyn.</p></li>
+<li><p>För att kontrollera att exporten var ok ställde du in originalfilen som osynlig. Endast städerna i New South Wales ska visas.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/gvsig_qs_026_.png"><img alt="../../_images/gvsig_qs_026_.png" src="../../_images/gvsig_qs_026_.png" style="width: 563.2px; height: 408.65000000000003px;" /></a>
+</section>
+</section>
+<section id="create-a-new-map">
+<h2><a class="toc-backref" href="#id26">Skapa en ny karta</a><a class="headerlink" href="#create-a-new-map" title="Permalink till denna rubrik">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Välj dokumenttypen <em>Map</em> i <strong>Project Manager</strong>.</p></li>
+<li><p>Klicka på knappen <span class="guilabel">New</span> för att skapa en karta.</p></li>
+<li><p>Ett nytt fönster visas där du kan välja den vy som ska infogas på kartan. Välj den enda vy som du har och tryck på <em>Accept</em>.</p></li>
+<li><p>Kartan visas med den vy som valts.</p></li>
+</ol>
+<section id="work-with-the-map">
+<h3><a class="toc-backref" href="#id27">Arbeta med kartan</a><a class="headerlink" href="#work-with-the-map" title="Permalink till denna rubrik">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Ytterligare element som skala och norrpil kan läggas till på kartan med hjälp av ikonerna i huvudverktygsfältet eller med undermenyerna i menyn <span class="menuselection">Map</span>.</p></li>
+<li><p>Kartan kan skrivas ut eller exporteras till PDF eller Postscript för att integreras i andra arbeten.</p></li>
+<li><p>Välj ikonen <span class="guilabel">Stäng fönstret</span> för att återgå till <strong>Projektledaren</strong></p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/gvsig_qs_029_.png"><img alt="../../_images/gvsig_qs_029_.png" src="../../_images/gvsig_qs_029_.png" style="width: 563.2px; height: 408.65000000000003px;" /></a>
+</section>
+</section>
+<section id="save-your-project-or-exiting-gvsig">
+<h2><a class="toc-backref" href="#id28">Spara ditt projekt eller avsluta gvSIG</a><a class="headerlink" href="#save-your-project-or-exiting-gvsig" title="Permalink till denna rubrik">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Projekt kan sparas för senare användning genom att använda menyalternativet <span class="menuselection">File ‣ Save as…</span>, eller</p></li>
+<li><p>Projekt kan avslutas eller stängas genom att använda menyalternativet <span class="menuselection">File ‣ Exit</span>.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/gvsig_qs_030_.png"><img alt="../../_images/gvsig_qs_030_.png" src="../../_images/gvsig_qs_030_.png" style="width: 563.2px; height: 408.65000000000003px;" /></a>
+</section>
+<section id="install-an-add-on">
+<h2><a class="toc-backref" href="#id29">Installera ett tillägg</a><a class="headerlink" href="#install-an-add-on" title="Permalink till denna rubrik">¶</a></h2>
+<section id="open-the-add-ons-manager">
+<h3><a class="toc-backref" href="#id30">Öppna tilläggshanteraren</a><a class="headerlink" href="#open-the-add-ons-manager" title="Permalink till denna rubrik">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Välj <span class="menuselection">Tools ‣ Addons manager</span>. Efter ett tag kommer fönstret <em>Installera paket</em> att visas.</p></li>
+<li><p>I fönstret <em>Install package</em> väljer du alternativet <em>Installation från URL</em>.</p></li>
+<li><p>Välj den URL för repot som visas på bilden.</p></li>
+<li><p>Klicka på knappen <em>Nästa</em>.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/gvsig_qs_031_.png"><img alt="../../_images/gvsig_qs_031_.png" src="../../_images/gvsig_qs_031_.png" style="width: 563.2px; height: 408.65000000000003px;" /></a>
+</section>
+<section id="find-an-add-on">
+<h3><a class="toc-backref" href="#id31">Hitta ett tillägg</a><a class="headerlink" href="#find-an-add-on" title="Permalink till denna rubrik">¶</a></h3>
+<ol class="arabic simple">
+<li><p>I tilläggshanteraren hittar vi plugins och symbolbibliotek.</p></li>
+<li><p>Skriv ”Forestry” i textrutan <em>Fast filter</em>.</p></li>
+<li><p>Kolla in tillägget som heter <em>Symboler: Forestry</em> (det är ett symbolbibliotek).</p></li>
+<li><p>Klicka på <em>Nästa</em>.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/gvsig_qs_032__.png"><img alt="../../_images/gvsig_qs_032__.png" src="../../_images/gvsig_qs_032__.png" style="width: 563.2px; height: 333.85px;" /></a>
+</section>
+<section id="finish-the-installation">
+<h3><a class="toc-backref" href="#id32">Slutför installationen</a><a class="headerlink" href="#finish-the-installation" title="Permalink till denna rubrik">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Klicka på <em>Starta nedladdning</em>.</p></li>
+<li><p>Klicka sedan på <em>Nästa</em>.</p></li>
+<li><p>Klicka slutligen på <em>Finish</em>.</p></li>
+</ol>
+<p>Även om det nya meddelandet anger att en omstart behövs, är det inte nödvändigt för symbolbibliotek. Vi behöver bara starta om när vi installerar plugins.</p>
+</section>
+</section>
+<section id="add-an-openstreetmap-layer">
+<h2><a class="toc-backref" href="#id33">Lägg till ett OpenStreetMap-lager</a><a class="headerlink" href="#add-an-openstreetmap-layer" title="Permalink till denna rubrik">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Nu ska vi lägga till OpenStreetMap-kartografi. I en ny vy, i EPSG 3857, klickar du på <span class="guilabel">Add layer…</span>-knappen.</p></li>
+<li><p>Välj fliken <em>OSM</em>.</p></li>
+<li><p>Välj ”Mapnik” bland de tillgängliga lagren.</p></li>
+<li><p>Klicka på <em>Ok</em>.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/gvsig_qs_036__.png"><img alt="../../_images/gvsig_qs_036__.png" src="../../_images/gvsig_qs_036__.png" style="width: 562.6500000000001px; height: 405.90000000000003px;" /></a>
+<section id="id2">
+<h3><a class="toc-backref" href="#id34">Se resultatet</a><a class="headerlink" href="#id2" title="Permalink till denna rubrik">¶</a></h3>
+<p>Ett nytt lager har lagts till i vyn. Genom att bara zooma över en region kan vi se detaljerade data från Open Street Map.</p>
+<a class="reference internal image-reference" href="../../_images/gvsig_qs_037_.png"><img alt="../../_images/gvsig_qs_037_.png" src="../../_images/gvsig_qs_037_.png" style="width: 563.2px; height: 408.65000000000003px;" /></a>
+<a class="reference internal image-reference" href="../../_images/gvsig_qs_038_.png"><img alt="../../_images/gvsig_qs_038_.png" src="../../_images/gvsig_qs_038_.png" style="width: 563.2px; height: 408.65000000000003px;" /></a>
+</section>
+</section>
+<section id="add-a-wmts-layer">
+<h2><a class="toc-backref" href="#id35">Lägg till ett WMTS-lager</a><a class="headerlink" href="#add-a-wmts-layer" title="Permalink till denna rubrik">¶</a></h2>
+<p>WMTS är en vidareutveckling av WMS OGC-standarden baserad på kakelhantering.</p>
+<section id="select-a-server">
+<h3><a class="toc-backref" href="#id36">Välj en server</a><a class="headerlink" href="#select-a-server" title="Permalink till denna rubrik">¶</a></h3>
+<ol class="arabic simple">
+<li><p>I en vy klickar du på knappen <span class="guilabel">Add layer…</span>.</p></li>
+<li><p>Välj fliken <em>WMTS</em>.</p></li>
+<li><p>Välj den URL som visas på bilden.</p></li>
+<li><p>Klicka på <em>Connect</em>.</p></li>
+<li><p>Klicka på <em>Nästa</em>.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/gvsig_qs_039_.png"><img alt="../../_images/gvsig_qs_039_.png" src="../../_images/gvsig_qs_039_.png" style="width: 561.5500000000001px; height: 407.55px;" /></a>
+</section>
+<section id="select-one-of-the-available-layers">
+<h3><a class="toc-backref" href="#id37">Välj ett av de tillgängliga lagren</a><a class="headerlink" href="#select-one-of-the-available-layers" title="Permalink till denna rubrik">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Välj ett av de tillgängliga lagren (t.ex. bluemarble)</p></li>
+<li><p>Klicka på <em>Add</em>.</p></li>
+<li><p>Klicka på <em>Nästa</em>.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/gvsig_qs_040_.png"><img alt="../../_images/gvsig_qs_040_.png" src="../../_images/gvsig_qs_040_.png" style="width: 291.5px; height: 313.5px;" /></a>
+</section>
+<section id="select-image-format-and-reference-system">
+<h3><a class="toc-backref" href="#id38">Välj bildformat och referenssystem</a><a class="headerlink" href="#select-image-format-and-reference-system" title="Permalink till denna rubrik">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Välj <em>image/jpeg</em> som bildformat.</p></li>
+<li><p>Välj <em>EPSG:4326</em> (observera att vyn måste ha samma SRS. Om inte, avbryt, ändra och börja om).</p></li>
+<li><p>Klicka på <em>Accept</em>.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/gvsig_qs_041_.png"><img alt="../../_images/gvsig_qs_041_.png" src="../../_images/gvsig_qs_041_.png" style="width: 275.0px; height: 313.5px;" /></a>
+<p>Ett nytt lager har lagts till i vyn.</p>
+<a class="reference internal image-reference" href="../../_images/gvsig_qs_042_.png"><img alt="../../_images/gvsig_qs_042_.png" src="../../_images/gvsig_qs_042_.png" style="width: 563.2px; height: 408.65000000000003px;" /></a>
+</section>
+</section>
+<section id="what-next">
+<h2><a class="toc-backref" href="#id39">Hur vill du gå vidare?</a><a class="headerlink" href="#what-next" title="Permalink till denna rubrik">¶</a></h2>
+<ul class="simple">
+<li><p>användarhandböcker &lt;<a class="reference external" href="http://downloads.gvsig.org/download/web/en/build/html/index.html">http://downloads.gvsig.org/download/web/en/build/html/index.html</a>&gt;`_</p></li>
+<li><p><a class="reference external" href="http://www.gvsig.com/en/diffusion/educational-material?p_p_id=122_INSTANCE_A9eo37KAqtxs&amp;p_p_lifecycle=0&amp;p_p_state=normal&amp;p_p_mode=view&amp;p_p_col_id=column-2&amp;p_p_col_count=1&amp;p_r_p_564233524_resetCur=true&amp;p_r_p_564233524_categoryId=25973">Courses and tutorials</a></p></li>
+<li><p><a class="reference external" href="https://blog.gvsig.org/2017/05/23/learning-gvsig-in-30-minutes/">Lär dig gvSIG på 30 minuter</a></p></li>
+<li><p><a class="reference external" href="https://blog.gvsig.org/category/languages/english/">gvSIG Blogg</a></p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

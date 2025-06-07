@@ -1,0 +1,269 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>istSOS Snabbstart &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="MapProxy" href="../overview/mapproxy_overview.html" />
+    <link rel="prev" title="istSOS" href="../overview/istsos_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="http://istsos.org"><img alt="../../_images/logo_istsos.png" class="align-right" src="../../_images/logo_istsos.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_community.png" class="align-right" src="../../_images/OSGeo_community.png" /></a>
+<section id="istsos-quickstart">
+<h1>istSOS Snabbstart<a class="headerlink" href="#istsos-quickstart" title="Permalink till denna rubrik">¶</a></h1>
+<p>istSOS är en OGC <a class="reference external" href="https://www.ogc.org/standards/sos">Sensor Observation Service (SOS)</a>-serverimplementering skriven i <a class="reference external" href="https://www.python.org/">Python</a>. istSOS gör det möjligt att hantera och skicka observationer från övervakningssensorer enligt Sensor Observation Service-standarden.</p>
+<p>Projektet tillhandahåller också ett grafiskt användargränssnitt som underlättar den dagliga driften och ett RESTFull Web Api för att automatisera administrationsprocedurer.</p>
+<p>istSOS släpps under GPLv2-licensen och körs på alla större plattformar (Windows, Linux, Mac OS X), även om det endast har använts i produktion i Linux-miljö.</p>
+<div class="contents local topic" id="contents">
+<p class="topic-title">Innehåll</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#create-postgis-database" id="id1">Skapa postgis-databas</a></p></li>
+<li><p><a class="reference internal" href="#set-up-an-istsos-service-instance" id="id2">Konfigurera en istSOS-tjänstinstans</a></p></li>
+<li><p><a class="reference internal" href="#create-a-new-service" id="id3">Skapa en ny tjänst</a></p></li>
+<li><p><a class="reference internal" href="#add-a-new-procedure" id="id4">Lägg till en ny procedur</a></p></li>
+<li><p><a class="reference internal" href="#add-new-observations" id="id5">Lägg till nya observationer</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id6">Hur vill du gå vidare?</a></p></li>
+</ul>
+</div>
+<section id="create-postgis-database">
+<h2><a class="toc-backref" href="#id1">Skapa postgis-databas</a><a class="headerlink" href="#create-postgis-database" title="Permalink till denna rubrik">¶</a></h2>
+<p>Öppna en terminal och utför följande kommandon:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="o">-</span><span class="n">u</span> <span class="n">postgres</span> <span class="n">createdb</span> <span class="o">-</span><span class="n">E</span> <span class="n">UTF8</span> <span class="n">istsos</span>
+<span class="n">sudo</span> <span class="o">-</span><span class="n">u</span> <span class="n">postgres</span> <span class="n">psql</span> <span class="o">-</span><span class="n">d</span> <span class="n">istsos</span> <span class="o">-</span><span class="n">c</span> <span class="s1">&#39;CREATE EXTENSION postgis&#39;</span>
+</pre></div>
+</div>
+</section>
+<section id="set-up-an-istsos-service-instance">
+<h2><a class="toc-backref" href="#id2">Konfigurera en istSOS-tjänstinstans</a><a class="headerlink" href="#set-up-an-istsos-service-instance" title="Permalink till denna rubrik">¶</a></h2>
+<p>Med istSOS kan du organisera dina sensordata i olika instanser. Varje instans har sitt eget databasschema som är oberoende av andra instanser. Du kan till och med distribuera andra databaser över ditt nätverk enligt dina behov.</p>
+<p>De första stegen i istSOS-installationen är att konfigurera standardkonfigurationsalternativen. Dessa alternativ kommer sedan automatiskt att användas för din bekvämlighet av varje ny istSOS-instans som skapas.</p>
+<ol class="arabic">
+<li><p>Klicka på <span class="menuselection">Geospatial ‣ Web Services ‣ istSOS</span> för att öppna gränssnittet Web Admin. Alternativt kan du öppna en webbläsare och gå till <a class="reference external" href="http://localhost/istsos/admin">http://localhost/istsos/admin</a></p></li>
+<li><p>Klicka på knappen <span class="guilabel">Enter</span> på administrationssidan.</p></li>
+<li><p>Konfigurera din databasanslutning. Tryck på knappen ”Database” i verktygsfältets knappmeny och fyll i alternativen för databaskonfigurationen:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">user</span><span class="p">:</span> <span class="n">postgres</span>
+<span class="n">password</span><span class="p">:</span> <span class="n">postgres</span>
+<span class="n">host</span><span class="p">:</span> <span class="n">localhost</span>
+<span class="n">port</span><span class="p">:</span> <span class="mi">5432</span>
+<span class="n">DB</span> <span class="n">name</span><span class="p">:</span> <span class="n">istsos</span>
+</pre></div>
+</div>
+</li>
+<li><p>Tryck på knappen ”Service provider” och fyll i den med din institutionsinformation.</p></li>
+<li><p>Tryck på knappen ”Service identification” och fyll i anpassade metadata som beskriver användningen av tjänsten.</p></li>
+<li><p>Tryck på knappen ”Koordinatsystem” för att hantera referenssystemet för koordinater (CRS).</p>
+<ul class="simple">
+<li><p><em>Standard EPSG-kod</em>: detta kommer att vara det ursprungliga koordinatreferenssystemet för dina geometrier i databasen.</p></li>
+<li><p><em>Tillåtna EPSG</em>: här kan du konfigurera vilka andra koordinatreferenssystem som ditt system ska stödja och omprojicera på begäran.</p></li>
+</ul>
+</li>
+<li><p>I verktygsfältets knappmeny trycker du på knappen ”GetObservation Configuration” för att ange maximalt tidsintervall per getObservation-begäran (noll för inga gränser) och aggregationens no-data-värde.</p></li>
+<li><p>Konfigurera din proxyadress för tjänsten. Fältet Proxy URL är den bas-URL som ses bortom en omvänd proxy.</p></li>
+</ol>
+</section>
+<section id="create-a-new-service">
+<h2><a class="toc-backref" href="#id3">Skapa en ny tjänst</a><a class="headerlink" href="#create-a-new-service" title="Permalink till denna rubrik">¶</a></h2>
+<p>Nu när du har konfigurerat istSOS är det dags att skapa en ny serviceinstans.</p>
+<ol class="arabic simple">
+<li><p>Tryck på knappen ”ny tjänst” i verktygsfältets knappmeny och klicka på <span class="guilabel">Next</span>.</p></li>
+<li><p>Ange <strong>demo</strong> som namn på tjänsten.</p></li>
+<li><p>I fältet EPSG kan du ange databasens ursprungliga projektion. Lämna det tomt för att använda standardvärdet. Klicka på <span class="guilabel">Next</span>.</p></li>
+<li><p>Genom att klicka på rutan ”Customize database” kan du ändra standardkonfigurationen för databasen för den nya istSOS-instansen.</p></li>
+<li><p>Tryck på <span class="guilabel">Next</span>. Serverns statuspanel visas. Om något har gått fel under skapandet kommer du att se en varning här.</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Observera</p>
+<p>Instansen istSOS ”demo” har ärvt alla konfigurationsalternativ från standardkonfigurationen. Om du av någon anledning bestämmer dig för att ändra dem, kommer ändringarna endast att påverka denna instans.</p>
+</div>
+</section>
+<section id="add-a-new-procedure">
+<h2><a class="toc-backref" href="#id4">Lägg till en ny procedur</a><a class="headerlink" href="#add-a-new-procedure" title="Permalink till denna rubrik">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Välj önskad instans från rullgardinsmenyn ”services” i administratörsgränssnittet (<a class="reference external" href="http://localhost/istsos/admin">http://localhost/istsos/admin</a> ).</p></li>
+<li><p>I verktygsfältets knappmeny trycker du på knappen <span class="guilabel">Ny procedur</span>.</p></li>
+<li><p>Fyll i formuläret med hjälp av lämplig information.</p></li>
+</ol>
+<div class="admonition warning">
+<p class="admonition-title">Varning</p>
+<p>När en procedur väl har skapats kan utdata (observerade egenskaper) inte ändras.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Observera</p>
+<p><em>Valfria parametrar:</em> Fyll på ditt eget behov och vilja</p>
+</div>
+<p class="rubric"><em>Exempel</em> (minimal konfiguration)</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>Namn: T_LUGANO</p></td>
+</tr>
+<tr class="row-even"><td><p>Beskrivning: temperatur väderstation i Lugano</p></td>
+</tr>
+<tr class="row-odd"><td><p>Nyckelord: väder, meteorologi, IST</p></td>
+</tr>
+<tr class="row-even"><td><p>Systemtyp: insitu-fixerad punkt</p></td>
+</tr>
+<tr class="row-odd"><td><p>Typ av givare: PTC-termistorer av ”switching”-typ</p></td>
+</tr>
+<tr class="row-even"><td><p>FOI-namn: LUGANO</p></td>
+</tr>
+<tr class="row-odd"><td><p>EPSG: 4326</p></td>
+</tr>
+<tr class="row-even"><td><p>Koordinater: x: 8,96127 y: 46.02723 z: 344.1</p></td>
+</tr>
+</tbody>
+</table>
+<p><em>Utgångar (bekräfta utgångarna genom att trycka på ”lägg till”-knappen):</em></p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 100%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p>Observerad egenskap: <cite>urn:ogc:def:parameter:x-istsos:1.0:meteo:air:temperature</cite></p></td>
+</tr>
+<tr class="row-even"><td><p>Måttenhet: °C</p></td>
+</tr>
+<tr class="row-odd"><td><p>Beskrivning (valfri): omvandling från motstånd till tempera</p></td>
+</tr>
+<tr class="row-even"><td><p>kontroll av kvalitetsindex (tillval): Mellan / från -40 till +60</p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Observera</p>
+<p>Registrera den nya sensorn (procedur) genom att trycka på knappen ”submit”.</p>
+</div>
+</section>
+<section id="add-new-observations">
+<h2><a class="toc-backref" href="#id5">Lägg till nya observationer</a><a class="headerlink" href="#add-new-observations" title="Permalink till denna rubrik">¶</a></h2>
+<p>Först ska vi skapa en textfil med sensordata, formaterad enligt ”text/csv, subtype=istSOS”. Filen använder ett CSV-format (Comma Separated Values). Den första raden innehåller rubrikinformation, inklusive URI-namn för de observerade egenskaperna. Följande rader innehåller data.</p>
+<ol class="arabic">
+<li><p>Öppna en textredigerare genom att välja <span class="menuselection">Tillbehör ‣ FeatherPad</span>.</p></li>
+<li><p>Kopiera och klistra in följande text i textredigeringsfönstret:</p>
+<blockquote>
+<div><div class="highlight-rest notranslate"><div class="highlight"><pre><span></span>urn:ogc:def:parameter:x-istsos:1.0:time:iso8601,urn:ogc:def:parameter:x-istsos:1.0:meteo:air:temperature
+2014-06-03T14:30:00.00Z,22.20
+2014-06-03T14:40:00.00Z,22.00
+2014-06-03T14:50:00.00Z,21.70
+2014-06-03T15:00:00.00Z,21.20
+2014-06-03T15:10:00.00Z,20.70
+2014-06-03T15:20:00.00Z,20.20
+2014-06-03T15:30:00.00Z,19.60
+2014-06-03T15:40:00.00Z,19.20
+2014-06-03T15:50:00.00Z,18.20
+2014-06-03T16:00:00.00Z,18.00
+2014-06-03T16:10:00.00Z,17.20
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+<li><p>Spara filen som ”T_LUGANO_20140603161000000.dat” på skrivbordet. Den filnamnskonvention som används är: PROCEDURENAMN_ÅÅÅÅMMDDhhmmssfff.dat</p></li>
+<li><p>Öppna en terminal genom att välja <span class="menuselection">Systemverktyg ‣ LXTerminal</span>.</p></li>
+<li><p>I terminalen skriver du in: ”cd /usr/share/istsos/” och tryck på ENTER.</p></li>
+<li><p>Skriv ”python scripts/csv2istsos.py -p T_LUGANO -u <a class="reference external" href="http://localhost/istsos">http://localhost/istsos</a> -s demo -w ~/Desktop” och tryck på ENTER</p></li>
+<li><p>Du bör se ett meddelande ”Insert observation success: True”</p></li>
+<li><p>Klicka på <span class="menuselection">Geospatial ‣ Webbtjänster ‣ istSOS</span>.</p></li>
+<li><p>Klicka på knappen <span class="guilabel">Enter</span> på administrationssidan</p></li>
+<li><p>Klicka på <span class="menuselection">Datahantering ‣ Data Viewer</span>.</p></li>
+<li><dl class="simple">
+<dt>Välj följande:</dt><dd><ul class="simple">
+<li><p>Service = demo</p></li>
+<li><p>Erbjudande = tillfälligt</p></li>
+<li><p>Förfarande T_LUGANO</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p>Klicka på <span class="guilabel">Add</span>-knappen</p></li>
+<li><p>Klicka på knappen <span class="guilabel">Plot</span> och kontrollera att data har lagts till (se upp för din tidszon!)</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/istsos_viewer.png"><img alt="../../_images/istsos_viewer.png" src="../../_images/istsos_viewer.png" style="width: 512.0px; height: 384.0px;" /></a>
+</section>
+<section id="what-next">
+<h2><a class="toc-backref" href="#id6">Hur vill du gå vidare?</a><a class="headerlink" href="#what-next" title="Permalink till denna rubrik">¶</a></h2>
+<p>För att lära dig mer om istSOS är en utgångspunkt <a class="reference external" href="https://istsos.org/en/trunk/doc/index.html">istSOS Documentation</a> och <a class="reference external" href="https://istsos.org/tutorial/">istSOS Tutorial</a>.</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

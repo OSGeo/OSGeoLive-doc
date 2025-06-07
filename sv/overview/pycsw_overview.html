@@ -1,0 +1,172 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>pycsw &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="pycsw Snabbstart" href="../quickstart/pycsw_quickstart.html" />
+    <link rel="prev" title="Snabbstart för MapServer" href="../quickstart/mapserver_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://pycsw.org/"><img alt="../../_images/logo_pycsw.png" class="align-right" src="../../_images/logo_pycsw.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<section id="pycsw">
+<h1>pycsw<a class="headerlink" href="#pycsw" title="Permalink till denna rubrik">¶</a></h1>
+<section id="metadata-catalogue">
+<h2>Metadatakatalog<a class="headerlink" href="#metadata-catalogue" title="Permalink till denna rubrik">¶</a></h2>
+<p>pycsw gör det möjligt för användare att publicera en katalog med beskrivningar av dataset (metadata) på webben, med hjälp av standardbaserade gränssnitt och format, så att den kan efterfrågas och uppdateras av katalogklienter. pycsw är enkelt att installera i en Apache-webbserver (eller någon WSGI-server) och kan komma åt metadataposter som lagras som XML-filer i en databas.</p>
+<p>Metadata är ”data om data” och lagrar sådant som skapandedatum, författare, titel, intresseområde etc. och kodas vanligtvis som XML-filer enligt internationella standarder som ISO 19115, ISO 19139 och FGDC CSDGM.</p>
+<p>pycsw är en <a class="reference external" href="https://www.python.org/">Python</a>-implementering av <a class="reference external" href="https://www.ogc.org/standards/cat">Catalogue Service for the Web (CSW)</a>. Projektet är certifierat <a class="reference external" href="https://www.ogc.org/resource/products/details/?pid=1374">OGC Compliant</a>, och är en <a class="reference external" href="https://demo.pycsw.org/">OGC Reference Implementation</a>. CSW-standarden definierar gemensamma gränssnitt för att upptäcka, bläddra och fråga metadata om spatiala data, webbtjänster och relaterade resurser.</p>
+<p>pycsw är Open Source, släppt under en MIT-licens och körs på alla större plattformar (Windows, Linux, Mac OS X).</p>
+<a class="reference internal image-reference" href="../../_images/pycsw_screenshot.png"><img alt="pycsw skärmdump" class="align-right" src="../../_images/pycsw_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>Kärnfunktioner<a class="headerlink" href="#core-features" title="Permalink till denna rubrik">¶</a></h3>
+<ul class="simple">
+<li><p>certifierad OGC-kompatibel och OGC-referensimplementering för OGC CSW 2.0.2 och CSW 3.0.0</p></li>
+<li><p>avverkningsstöd för WMS, WFS, WCS, WPS, WAF, CSW, SOS</p></li>
+<li><p>implementerar INSPIRE Discovery Services 3.0</p></li>
+<li><p>implementerar ISO Metadata Application Profile 1.0.0</p></li>
+<li><p>implementerar FGDC CSDGM Application Profile för CSW 2.0</p></li>
+<li><p>implementerar sökprotokollet Search/Retrieval via URL (SRU)</p></li>
+<li><p>implementerar funktioner för fulltextsökning</p></li>
+<li><p>implementerar OGC OpenSearch Geo/Time-tillägg</p></li>
+<li><p>implementerar Open Archives Initiative Protocol for Metadata Harvesting</p></li>
+<li><p>stödjer metadatamodellerna ISO, Dublin Core, DIF, FGDC, Atom och GM03</p></li>
+<li><p>CGI- eller WSGI-distribution</p></li>
+<li><p>Kompatibel med Python 2 och 3</p></li>
+<li><p>enkel konfiguration</p></li>
+<li><p>transaktionella förmågor (CSW-T)</p></li>
+<li><p>flexibel konfiguration av förvaret</p></li>
+<li><p>GeoNode-anslutning</p></li>
+<li><p>HHypermap-anslutning</p></li>
+<li><p>Anslutning till Open Data Catalog</p></li>
+<li><p>CKAN-anslutning</p></li>
+<li><p>federerad katalog distribuerad sökning</p></li>
+<li><p>xML Schema-validering i realtid</p></li>
+<li><p>utdragbar arkitektur för profilplugin</p></li>
+<li><p>mycket lättviktig (Python + CGI)</p></li>
+</ul>
+</section>
+<section id="implemented-standards">
+<h3>Implementerade standarder<a class="headerlink" href="#implemented-standards" title="Permalink till denna rubrik">¶</a></h3>
+<p>OGC-standarder:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.ogc.org/standards/cat">Catalogue Service for the Web (CSW)</a> 2.0.2, 3.0.0</p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/filter">Filter Encoding (FE)</a> 1.1.0, 2.0.0</p></li>
+<li><p>OWS Common 1.0.0, 2.0.0</p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/gml">Geography Markup Language (GML)</a> 3.1.1</p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/sfs">Simple Feature Access (SFS)</a> 1.2.1</p></li>
+<li><p>OGC OpenSearch 1.0</p></li>
+</ul>
+<p>Standarder för metadata:</p>
+<ul class="simple">
+<li><p>Dublin Core 1.1</p></li>
+<li><p>SOAP 1.2</p></li>
+<li><p>ISO 19115:2003</p></li>
+<li><p>ISO 19139:2007</p></li>
+<li><p>ISO 19119:2005</p></li>
+<li><p>NASA DIF 9,7</p></li>
+<li><p>FGDC CSDGM 1998</p></li>
+<li><p>GM03 2.1</p></li>
+<li><p>SRU 1.1</p></li>
+<li><p>OAI-PMH 2.0</p></li>
+<li><p>A9 OpenSearch 1.1</p></li>
+</ul>
+</section>
+<section id="details">
+<h3>Detaljer<a class="headerlink" href="#details" title="Permalink till denna rubrik">¶</a></h3>
+<p><strong>Webbplats:</strong> <a class="reference external" href="https://pycsw.org/">https://pycsw.org/</a></p>
+<p><strong>Licens:</strong> <a class="reference external" href="https://docs.pycsw.org/en/latest/license.html">MIT</a></p>
+<p><strong>Programvaruversion:</strong> 2.6.2</p>
+<p><strong>Plattformar som stöds:</strong> Windows, Linux, Mac</p>
+<p><strong>API-gränssnitt:</strong> Python</p>
+<p><strong>Support:</strong> <a class="reference external" href="https://www.osgeo.org/service-providers">OSGeo service providers</a></p>
+</section>
+<section id="quickstart">
+<h3>Snabbstart<a class="headerlink" href="#quickstart" title="Permalink till denna rubrik">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/pycsw_quickstart.html"><span class="doc">Snabbstartsdokumentation</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

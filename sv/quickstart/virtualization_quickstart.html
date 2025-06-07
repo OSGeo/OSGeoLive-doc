@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Körning i en virtuell maskin &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="Skapa ett OSGeoLive startbart USB-flashminne" href="usb_quickstart.html" />
+    <link rel="prev" title="Installera OSGeoLive till hårddisk" href="osgeolive_install_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <section id="running-in-a-virtual-machine">
+<h1>Körning i en virtuell maskin<a class="headerlink" href="#running-in-a-virtual-machine" title="Permalink till denna rubrik">¶</a></h1>
+<section id="overview">
+<h2>Översikt<a class="headerlink" href="#overview" title="Permalink till denna rubrik">¶</a></h2>
+<p>Denna snabbstart beskriver ett sätt att köra OSGeoLive i en virtuell maskin (VM) i VirtualBox. För andra metoder, följ länkar från avsnittet ”Se även” nedan.</p>
+<div class="admonition note">
+<p class="admonition-title">Observera</p>
+<p>Om du vill veta mer om fördelarna med virtualisering, se <a class="reference external" href="https://en.wikipedia.org/wiki/Virtualization">Virtualisering</a> i Wiki</p>
+</div>
+</section>
+<section id="prerequisites">
+<h2>Förutsättningar<a class="headerlink" href="#prerequisites" title="Permalink till denna rubrik">¶</a></h2>
+<p><strong>Programvara</strong></p>
+<ul>
+<li><p>Ladda ner <a class="reference external" href="https://www.virtualbox.org/">Virtual Box</a> för din plattform och installera programvaran. På Windows kör du installationsprogrammet, eller på Ubuntu-liknande Linux-system kör du följande:</p>
+<p><code class="docutils literal notranslate"><span class="pre">apt-get</span> <span class="pre">install</span> <span class="pre">virtualbox-ose</span></code></p>
+</li>
+<li><p>Download the OSGeo Virtual disk file (vmdk) from the links at <a class="reference internal" href="../download.html"><span class="doc">live.osgeo.org</span></a>. Then unzip the downloaded file (using <a class="reference external" href="https://www.7-zip.org">7-Zip</a> ).</p></li>
+</ul>
+<p><strong>Hårdvara</strong></p>
+<ul class="simple">
+<li><p><strong>RAM</strong>: Minst 2 GB. Lubuntu-systemet fungerar bra med 1 GB RAM-minne, och du måste ha minst samma mängd minne för vissa av dina program (t.ex. GeoServer). Så totalt 2 GB rekommenderas för en smidig drift.</p></li>
+<li><p><strong>Spare</strong>: Minimum 30 GB Hard Disk Space. The virtual disk file (vmdk) from <a class="reference internal" href="../download.html"><span class="doc">live.osgeo.org</span></a> unzips to 22 GB. You’ll also want more space to allow some room to work on the virtual machine. So a total of 30 GB is a good recommendation.</p></li>
+<li><p><strong>CPU</strong>: Vilken processor som helst går bra, men en processor som stöder ”Virtualization Technology” är snabbare. Kontrollera om din dator stöder <a class="reference external" href="https://www.intel.com/content/www/us/en/support/articles/000005486/processors.html">Virtualiseringsteknik</a></p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Observera</p>
+<p>De flesta maskiner som tillverkas efter 2010 kommer att uppfylla dessa krav.</p>
+</div>
+</section>
+<section id="step-1-create-a-virtual-machine">
+<h2>Steg 1 : Skapa en virtuell maskin<a class="headerlink" href="#step-1-create-a-virtual-machine" title="Permalink till denna rubrik">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Starta VirtualBox-programmet och klicka på <strong>New</strong>. Popup-fönstret Skapa virtuell maskin visas.</p></li>
+</ol>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/virtualbox.png"><img alt="../../_images/virtualbox.png" src="../../_images/virtualbox.png" style="width: 386.5px; height: 291.5px;" /></a>
+</div></blockquote>
+<ol class="arabic simple" start="2">
+<li><p>Ange ett namn som OSGeoLive och välj Linux som ”Operativsystem” och Ubuntu som ”Version” och klicka sedan på <strong>Nästa</strong>.</p></li>
+</ol>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/virtualbox_select_name.png"><img alt="../../_images/virtualbox_select_name.png" src="../../_images/virtualbox_select_name.png" style="width: 508.2px; height: 263.2px;" /></a>
+</div></blockquote>
+<ol class="arabic simple" start="3">
+<li><p>På nästa skärm ställer du in minnet till minst 1024 MB (eller mer om din värddator har mer än 4 GB, som på skärmdumpen nedan).</p></li>
+</ol>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/vmdk_memory.png"><img alt="../../_images/vmdk_memory.png" src="../../_images/vmdk_memory.png" style="width: 471.90000000000003px; height: 244.4px;" /></a>
+</div></blockquote>
+<ol class="arabic simple" start="4">
+<li><p>Fortsätt till nästa skärm och välj <strong>Use an existing virtual hard disk file</strong>. Klicka på mappikonen för att bläddra till den plats där du sparade OSGeoLive vmdk-filen. Välj filen, klicka på <strong>Next</strong> och <strong>Create</strong>.</p></li>
+</ol>
+<blockquote>
+<div><p>Du bör nu kunna visa <strong>OSGeoLive</strong> som finns i din virtuella låda.</p>
+<a class="reference internal image-reference" href="../../_images/vmdk_disk.png"><img alt="../../_images/vmdk_disk.png" src="../../_images/vmdk_disk.png" style="width: 471.90000000000003px; height: 244.4px;" /></a>
+</div></blockquote>
+</section>
+<section id="step-2-configure-vm">
+<h2>Steg 2: Konfigurera VM<a class="headerlink" href="#step-2-configure-vm" title="Permalink till denna rubrik">¶</a></h2>
+<p><strong>VM-inställningar</strong></p>
+<ol class="arabic simple">
+<li><p>När den virtuella datorn har skapats klickar du på knappen <strong>Settings</strong>. I avsnittet <strong>User Interface</strong> klickar du på för att välja <strong>Show at top of screen</strong> för Mini toolbar.</p></li>
+</ol>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/vmdk_user_interface.png"><img alt="../../_images/vmdk_user_interface.png" src="../../_images/vmdk_user_interface.png" style="width: 451.75px; height: 378.3px;" /></a>
+</div></blockquote>
+<ol class="arabic simple" start="2">
+<li><p>Gå till avsnittet <strong>Display</strong> och öka videominnet till 32 eller 64 MB. I vissa värdoperativsystem kan det krävas att ”Enable 3D Acceleration” aktiveras för att skärmen ska fungera korrekt.</p></li>
+</ol>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/vmdk_display.png"><img alt="../../_images/vmdk_display.png" src="../../_images/vmdk_display.png" style="width: 408.85px; height: 332.15000000000003px;" /></a>
+</div></blockquote>
+<p><strong>Lägg till delade mappar för att komma åt filer från värden</strong></p>
+<ol class="arabic simple" start="3">
+<li><p>Gå till avsnittet <strong>Shared Folders</strong> och klicka på <strong>Add folder</strong> (grön + ikon till höger) för att hitta en katalog på din värddator som du vill dela i VM.</p></li>
+</ol>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/vmdk_shared_folders.png"><img alt="../../_images/vmdk_shared_folders.png" src="../../_images/vmdk_shared_folders.png" style="width: 409.5px; height: 334.1px;" /></a>
+</div></blockquote>
+<p>Du kan välja att göra den delade mappen skrivskyddad och automatiskt monterad. När ”Mappsökväg” och ”Mappnamn” har definierats klickar du på OK och sedan på OK för att avsluta och stänga inställningsfönstret.</p>
+</section>
+<section id="step-3-running-the-virtual-machine">
+<h2>Steg 3: Köra den virtuella maskinen<a class="headerlink" href="#step-3-running-the-virtual-machine" title="Permalink till denna rubrik">¶</a></h2>
+<p>Starta nu upp den virtuella datorn genom att klicka på knappen <strong>Start</strong> (grön pil).</p>
+<ul>
+<li><p>The OSGeo-Live virtual display (i.e., the window size) may be very small, and will not be able to increase until you install Guest Additions.
+You should install the virtualbox guest additions, this will allow you to use full-screen mode and scaled mode. These can be installed by running the command below in a terminal.
+When prompted for a password, you should use the default <code class="docutils literal notranslate"><span class="pre">user</span></code>.</p>
+<p><code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">apt-get</span> <span class="pre">install</span> <span class="pre">--yes</span> <span class="pre">virtualbox-guest-utils</span> <span class="pre">virtualbox-guest-x11</span></code></p>
+</li>
+</ul>
+<p>(Alternativ) Om ovanstående kommando inte fungerar kan du använda följande alternativ:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>På menyn VirtualBox Devices väljer du <strong>Insert Guest Additions CD Image</strong></p></li>
+<li><p>Klicka på <strong>OK</strong> när du uppmanas att öppna det flyttbara mediet i <strong>File Manager</strong>.</p></li>
+<li><p>In <strong>File Manager</strong>, select <strong>Tools</strong> → <strong>Open Terminal</strong>.</p></li>
+<li><p>I terminaltypen:</p></li>
+</ol>
+<blockquote>
+<div><p><code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">./VBoxLinuxAdditions.run</span></code></p>
+</div></blockquote>
+<ol class="arabic simple" start="5">
+<li><p>Tryck på ENTER.</p></li>
+<li><p>When prompted for a password, you should use the default <code class="docutils literal notranslate"><span class="pre">user</span></code>.</p></li>
+</ol>
+</div></blockquote>
+</section>
+<section id="step-4-set-osgeolive-user">
+<h2>Steg 4 : Ställ in OSGeoLive-användare<a class="headerlink" href="#step-4-set-osgeolive-user" title="Permalink till denna rubrik">¶</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Observera</p>
+<p>Vissa verktyg som är konfigurerade på OSGeoLive är beroende av att ”user” finns i gruppen ”users” så att de kan skriva i datakatalogen. Om detta inte är inställt kommer dessa verktyg att misslyckas när de körs.</p>
+</div>
+<ol class="arabic simple">
+<li><p>Starta en terminal.</p></li>
+<li><p>Kör <code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">adduser</span> <span class="pre">user</span> <span class="pre">user</span> <span class="pre">users</span></code>.</p></li>
+<li><p>Tillämpa ändringen genom att starta en ny skrivbordssession: starta om den virtuella maskinen eller logga ut och logga in igen (användarnamn ”user”, lösenord ”user”).</p></li>
+</ol>
+</section>
+<section id="step-5-access-shared-folders">
+<h2>Steg 5: Få tillgång till delade mappar<a class="headerlink" href="#step-5-access-shared-folders" title="Permalink till denna rubrik">¶</a></h2>
+<ul>
+<li><p>Lägg till dig själv i vboxsf-gruppen så att de delade mapparna (definierade ovan) är tillgängliga genom att köra i ett terminalfönster:</p>
+<p><code class="docutils literal notranslate"><span class="pre">user&#64;osgeolive:~$</span> <span class="pre">sudo</span> <span class="pre">usermod</span> <span class="pre">-a</span> <span class="pre">-G</span> <span class="pre">vboxsf</span> <span class="pre">user</span></code></p>
+</li>
+</ul>
+</section>
+<section id="step-6-mount-shared-folder">
+<h2>Steg 6: Montera delad mapp<a class="headerlink" href="#step-6-mount-shared-folder" title="Permalink till denna rubrik">¶</a></h2>
+<ul>
+<li><p>I exemplet ovan definierade vi en sökväg till en delad mapp på värdsystemet och gav den namnet ”GIS” i VM-inställningarna. Den delade mappen kommer att visas i filsystemet under /media/sf_GIS/. För att montera den här mappen i användarens hemkatalog, till exempel i en terminal, kör:</p>
+<p><code class="docutils literal notranslate"><span class="pre">user&#64;osgeolive:~$</span> <span class="pre">mkdir</span> <span class="pre">GIS</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">user&#64;osgeolive:~$</span> <span class="pre">sudo</span> <span class="pre">mount</span> <span class="pre">-t</span> <span class="pre">vboxsf</span> <span class="pre">-o</span> <span class="pre">uid=user,rw</span> <span class="pre">GIS</span> <span class="pre">/home/user/GIS</span></code></p>
+</li>
+</ul>
+<p>Nu kommer filer på din värdmaskin i den valda mappen också att vara tillgängliga i VM i mappen ”GIS” i användarens hemkatalog.</p>
+<p>Grattis, du bör nu ha OSGeoLive igång i en virtuell maskin.</p>
+</section>
+<section id="next-steps">
+<h2>Nästa steg:<a class="headerlink" href="#next-steps" title="Permalink till denna rubrik">¶</a></h2>
+<p>Varför inte prova att köra några program, enligt beskrivningen i <a class="reference external" href="https://live.osgeo.org/en/quickstart/osgeolive_quickstart.html">OSGeoLive Quickstart</a></p>
+</section>
+<section id="see-also">
+<h2>Se även:<a class="headerlink" href="#see-also" title="Permalink till denna rubrik">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li><p>OSGeo wiki-sidor: <a class="reference external" href="https://wiki.osgeo.org/wiki/Live_GIS_Virtual_Machine">Andra sätt att skapa en virtuell maskin</a></p></li>
+<li><p><a class="reference internal" href="osgeolive_quickstart.html"><span class="doc">Komma igång med OSGeoLive</span></a></p></li>
+<li><p><a class="reference internal" href="osgeolive_install_quickstart.html"><span class="doc">Installera OSGeoLive till hårddisk</span></a></p></li>
+<li><p><a class="reference internal" href="usb_quickstart.html"><span class="doc">Skapa ett OSGeoLive startbart USB-flashminne</span></a></p></li>
+</ul>
+</div></blockquote>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

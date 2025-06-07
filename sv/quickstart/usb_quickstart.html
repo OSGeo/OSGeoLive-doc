@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Skapa ett OSGeoLive startbart USB-flashminne &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="Körning i en virtuell Hyper-V-maskin" href="hyperv_quickstart.html" />
+    <link rel="prev" title="Körning i en virtuell maskin" href="virtualization_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <section id="creating-an-osgeolive-bootable-usb-flash-drive">
+<h1>Skapa ett OSGeoLive startbart USB-flashminne<a class="headerlink" href="#creating-an-osgeolive-bootable-usb-flash-drive" title="Permalink till denna rubrik">¶</a></h1>
+<p>Denna snabbstart beskriver den föredragna metoden för att skapa ett startbart OSGeoLive USB-flashminne. Uppstart från en flash-enhet är snabbare än från en DVD, och USB-enheten kan konfigureras för att lagra data mellan sessioner (kallas persistens).</p>
+<p>Vi har funnit att det finns ett antal besynnerligheter och knep inblandade i framgångsrikt bygga en USB-enhet. Vi har dokumenterat vad vi vet, men det finns sannolikt fler knep och problem. Leta efter senaste tipsen här: <a class="reference external" href="https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB">https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB</a></p>
+<section id="requirements">
+<h2>Krav<a class="headerlink" href="#requirements" title="Permalink till denna rubrik">¶</a></h2>
+<ul class="simple">
+<li><p>Ett USB-minne (8+ Gig rekommenderas).</p></li>
+<li><p>En OSGeoLive ISO-bild (hämtad från: <a class="reference internal" href="../download.html"><span class="doc">OSGeoLive downloads</span></a>) eller konverterad från en DVD.</p></li>
+</ul>
+</section>
+<section id="creating-bootable-usb-drive-with-dd-under-linux">
+<h2>Skapa startbar USB-enhet med <code class="docutils literal notranslate"><span class="pre">dd</span></code> under Linux<a class="headerlink" href="#creating-bootable-usb-drive-with-dd-under-linux" title="Permalink till denna rubrik">¶</a></h2>
+<p>ISO-avbildningar för OSGeoLive 10.5 och senare är <em>isohybrid</em> (och för amd64, stöds även för UEFI boot). Under Linux kan dessa avbildningar skrivas direkt till blockenheten för en USB-enhet med kommandoradsverktyget <code class="docutils literal notranslate"><span class="pre">dd</span></code>:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">sudo dd if=osgeolive-10.5-amd64.iso of=/dev/sdX bs=4M; sync</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">/dev/sdX</span></code> är blockenheten för USB-enheten, där <code class="docutils literal notranslate"><span class="pre">X</span></code> kan vara <code class="docutils literal notranslate"><span class="pre">b</span></code> eller <code class="docutils literal notranslate"><span class="pre">c</span></code>.</p></li>
+<li><p>Använd <code class="docutils literal notranslate"><span class="pre">lsblk</span></code> för att lista blockenheter och <code class="docutils literal notranslate"><span class="pre">dmesg</span></code> för att se kärnmeddelanden som identifierar USB-enheten när den är ansluten.</p></li>
+<li><p>USB-enheten ska inte vara monterad.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">sudo</span></code> krävs inte om kommandot körs som <code class="docutils literal notranslate"><span class="pre">root</span></code>.</p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Varning</p>
+<p>Var noga med att välja rätt blockenhet eftersom <code class="docutils literal notranslate"><span class="pre">dd</span></code> kommer att skriva över den utan tvekan, även om det är din primära systemenhet.</p>
+</div>
+</section>
+<section id="creating-bootable-usb-drive-with-ubuntu-startup-disk-creator">
+<h2>Skapa en startbar USB-enhet med Ubuntu Startup Disk Creator<a class="headerlink" href="#creating-bootable-usb-drive-with-ubuntu-startup-disk-creator" title="Permalink till denna rubrik">¶</a></h2>
+<p>(Detta är den rekommenderade processen för att skapa ett USB-minne. Den är tillämplig på Ubuntu och Ubuntu-varianter som OSGeoLive)</p>
+<div class="admonition note">
+<p class="admonition-title">Observera</p>
+<p>Den version av Ubuntu som du kör måste vara samma eller nyare än den version av Lubuntu som installeras på din USB. Om du installerar OSGeoLive 8.0 på ett USB-minne måste du köra Ubuntu 14.04 eller nyare.</p>
+</div>
+<p><a class="reference internal" href="../download.html"><span class="doc">Ladda ner</span></a> osgeolive eller osgeolive-mini till din dators hårddisk.</p>
+<p>Starta din dator med en ny Ubuntu/Xbuntu-distribution. Du kan göra detta genom att köra från en OSGeoLive DVD, som förklaras i <a class="reference internal" href="osgeolive_quickstart.html"><span class="doc">Komma igång med OSGeoLive</span></a>.</p>
+<p>Sätt i USB-minnet i din dator.</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/usb_select.png"><img alt="../../_images/usb_select.png" src="../../_images/usb_select.png" style="width: 305.2px; height: 294.0px;" /></a>
+</div></blockquote>
+<p>Välj <span class="menuselection">System Tools ‣ Startup Disk Creator</span>, eller sök efter <cite>Startup Disk Creator</cite> från Unity-skrivbordet.</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/usb_set_params.png"><img alt="../../_images/usb_set_params.png" src="../../_images/usb_set_params.png" style="width: 333.2px; height: 375.2px;" /></a>
+</div></blockquote>
+<p>Välj den ISO-bild för osgeolive eller osgeolive-mini som du hämtade tidigare.</p>
+<p>Välj ett USB-minne. Om du har extra utrymme kan du justera reglaget för att skapa permanent lagringsutrymme på USB-enheten (rekommenderas). För att det här alternativet ska vara tillgängligt behöver du ett USB-minne på 8+ GB.</p>
+<p>Välj <span class="guilabel">Make Startup Disk</span></p>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/usb_installing.png"><img alt="../../_images/usb_installing.png" src="../../_images/usb_installing.png" style="width: 302.4px; height: 100.8px;" /></a>
+</div></blockquote>
+<p>Vänta cirka 20 minuter tills USB-minnet har skapats.</p>
+</section>
+<section id="booting-from-the-usb-drive">
+<h2>Starta från USB-enheten:<a class="headerlink" href="#booting-from-the-usb-drive" title="Permalink till denna rubrik">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Börja med att stänga av datorn.</p></li>
+<li><p>Sätt i USB-enheten i en öppen USB-port.</p></li>
+<li><p>Slå på maskinen och välj att starta från USB:</p>
+<ul class="simple">
+<li><p>De flesta datorer är inte inställda på att starta från en USB-enhet som standard.</p></li>
+<li><p>När du startar, leta efter ett meddelande som anger en startmeny (oftast trycker du på F12)</p></li>
+<li><p>Om datorn inte har någon startmeny startar du upp i systemets BIOS. Knappen för att gå in i BIOS varierar beroende på datormärke och modell. Om du inte kan lista ut din egen kan du prova den här webbplatsen som innehåller en lista över många BIOS-genvägsknappar. <a class="reference external" href="https://www.mydigitallife.net/comprehensive-list-of-how-key-to-press-to-access-bios-for-various-oem-and-computer-systems/">https://www.mydigitallife.net/comprehensive-list-of-how-key-to-press-to-access-bios-for-various-oem-and-computer-systems/</a></p></li>
+</ul>
+</li>
+<li><p>Välj att starta från USB-enheten.</p>
+<ul class="simple">
+<li><p>Observera att på vissa datorer måste USB-enheten vara ansluten till datorn för att du ska kunna välja den.</p></li>
+<li><p>Observera också att USB-enheter ofta listas under hårddiskar snarare än under flyttbara enheter.</p></li>
+<li><p>Den här videon &lt;<a class="reference external" href="https://www.youtube.com/watch?v=eQBdVO-n6Mg">https://www.youtube.com/watch?v=eQBdVO-n6Mg</a>&gt;`_ visar hur man startar från USB.</p></li>
+</ul>
+</li>
+</ol>
+</section>
+<section id="run">
+<h2>Kör:<a class="headerlink" href="#run" title="Permalink till denna rubrik">¶</a></h2>
+<p>Kör enligt följande: <a class="reference internal" href="osgeolive_quickstart.html"><span class="doc">Komma igång med OSGeoLive</span></a></p>
+</section>
+<section id="see-also">
+<h2>Se även:<a class="headerlink" href="#see-also" title="Permalink till denna rubrik">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li><p><a class="reference internal" href="osgeolive_quickstart.html"><span class="doc">Komma igång med OSGeoLive</span></a></p></li>
+<li><p><a class="reference internal" href="virtualization_quickstart.html"><span class="doc">Körning i en virtuell maskin</span></a></p></li>
+<li><p><a class="reference internal" href="osgeolive_install_quickstart.html"><span class="doc">Installera OSGeoLive till hårddisk</span></a></p></li>
+<li><p>Alternativa metoder för att skapa USB och de senaste tipsen finns samlade här: <a class="reference external" href="https://wiki.osgeo.org/wiki/Live_GIS_Disc_Quick_Start_for_USB">wiki</a></p></li>
+<li><p>Frågor kan ställas till vår e-postlista: <a class="reference external" href="https://lists.osgeo.org/pipermail/osgeolive/">https://lists.osgeo.org/pipermail/osgeolive/</a></p></li>
+</ul>
+</div></blockquote>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

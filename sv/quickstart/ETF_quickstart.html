@@ -1,0 +1,280 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Snabbstart för ETF &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="QGIS-server" href="../overview/qgis_mapserver_overview.html" />
+    <link rel="prev" title="ETF" href="../overview/ETF_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://github.com/etf-validator"><img alt="../../_images/logo_ETF.png" class="align-right" src="../../_images/logo_ETF.png" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+<div class="line"><br /></div>
+</div>
+<section id="etf-quickstart">
+<h1>Snabbstart för ETF<a class="headerlink" href="#etf-quickstart" title="Permalink till denna rubrik">¶</a></h1>
+<div class="admonition note">
+<p class="admonition-title">Observera</p>
+<p>Detta projekt ingår endast på OSGeoLives virtuella maskindisk (VMDK)</p>
+</div>
+<p>ETF är ett testramverk med öppen källkod för validering av spatiala data, metadata och webbtjänster i infrastrukturer för spatiala data (SDI). Utformningen av ETF drivs av tre mål: att vara användarvänlig, överensstämma med standarderna och kunna testa alla resurser i en SDI.</p>
+<p>Denna snabbstart beskriver hur du gör:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>navigera genom webbapplikationen</p></li>
+<li><p>starta ett test</p></li>
+<li><p>övervaka en testkörning</p></li>
+<li><p>titta på och hantera testrapporter</p></li>
+</ul>
+</div></blockquote>
+<div class="contents local topic" id="contents">
+<p class="topic-title">Innehåll</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#introduction" id="id1">Introduktion</a></p></li>
+<li><p><a class="reference internal" href="#start-test" id="id2">Starta testet</a></p>
+<ul>
+<li><p><a class="reference internal" href="#test-suite-selection" id="id3">Val av testsvit</a></p></li>
+<li><p><a class="reference internal" href="#test-run-configuration" id="id4">Konfiguration för testkörning</a></p></li>
+<li><p><a class="reference internal" href="#file-based-tests" id="id5">Filbaserade tester</a></p></li>
+<li><p><a class="reference internal" href="#service-tests" id="id6">Servicetester</a></p></li>
+<li><p><a class="reference internal" href="#dependencies-and-parameters" id="id7">Beroenden och parametrar</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#monitor-test-runs" id="id8">Övervaka testkörningar</a></p></li>
+<li><p><a class="reference internal" href="#test-reports" id="id9">Testrapporter</a></p></li>
+<li><p><a class="reference internal" href="#inspect-test-reports" id="id10">Inspektera testrapporter</a></p></li>
+<li><p><a class="reference internal" href="#resources" id="id11">Resurser</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id12">What next?</a></p></li>
+</ul>
+</div>
+<section id="introduction">
+<h2><a class="toc-backref" href="#id1">Introduktion</a><a class="headerlink" href="#introduction" title="Permalink till denna rubrik">¶</a></h2>
+<p>Från menyn OSGeoLive <em>Start</em> väljer du <span class="menuselection">Geospatial ‣ Spatial tools ‣ ETF</span>. Det tar några ögonblick att starta upp programmet och en webbsida öppnas på <a class="reference external" href="http://localhost:9090/ETF">http://localhost:9090/ETF</a></p>
+<p>I sidhuvudet finns en meny med 4 sektioner, som var och en representerar olika vyer och funktioner:</p>
+<img alt="../../_images/etf-introduction.png" src="../../_images/etf-introduction.png" />
+<ol class="arabic simple">
+<li><p>Den första är <strong>Starta test</strong>. I detta avsnitt listas alla tillgängliga (dvs. installerade) Executable Test Suites. I detta avsnitt kan en Executable Test Suite väljas och köras mot ett testobjekt.</p></li>
+<li><p>Den andra är <strong>Status</strong>. Här visas alla tester som för närvarande körs i systemet och det går att öppna en övervakningsvy för enskilda testkörningar för att kontrollera statusen för ett test som körs. Dessutom visas de komponenter som för närvarande är laddade under de test som körs.</p></li>
+<li><p>Den tredje är <strong>Testrapporter</strong>. Här kan resultaten av alla genomförda tester kontrolleras, analyseras i detalj eller laddas ner.</p></li>
+<li><p>Den fjärde är <strong>Hjälp</strong>. Den här är en länk till dokumentationen. I den finns guider för hur man använder alla ETF:s funktioner.</p></li>
+</ol>
+</section>
+<section id="start-test">
+<h2><a class="toc-backref" href="#id2">Starta testet</a><a class="headerlink" href="#start-test" title="Permalink till denna rubrik">¶</a></h2>
+<section id="test-suite-selection">
+<h3><a class="toc-backref" href="#id3">Val av testsvit</a><a class="headerlink" href="#test-suite-selection" title="Permalink till denna rubrik">¶</a></h3>
+<p>Landningsvyn visar de tillgängliga Executable Test Suites.</p>
+<img alt="../../_images/etf-test-suite-selection-1.png" src="../../_images/etf-test-suite-selection-1.png" />
+<p>Ytterligare information om en testsvit kan hämtas genom att klicka på <em>+</em>-knappen.</p>
+<img alt="../../_images/etf-test-suite-selection-2.png" src="../../_images/etf-test-suite-selection-2.png" />
+<p>Denna information:</p>
+<ul class="simple">
+<li><p>Innehåller en beskrivning av testsviten.</p></li>
+<li><p>Kan innehålla en länk till den abstrakta testsvit från vilken den exekverbara testsviten har härletts (källa).</p></li>
+<li><p>Kan inkludera Test Suite-beroenden, som automatiskt körs med Test Suite i en testkörning (förkunskapskrav för överensstämmelseklasser).</p></li>
+<li><p>Kan innehålla namnet på associerade taggar som används för att gruppera testsviterna i vyn.</p></li>
+<li><p>Innehåller namnet på tillämpliga testobjektstyper (förklaras i nästa avsnitt).</p></li>
+<li><p>Innehåller allmän information som version, författare och senaste redaktör, skapande- och ändringsdatum.</p></li>
+</ul>
+<p>För att starta en testkörning måste en testsvit väljas genom att klicka på <em>use</em>-vippan på höger sida.</p>
+<img alt="../../_images/ETF_screenshot.png" src="../../_images/ETF_screenshot.png" />
+<p>En <em>Start</em>-knapp visas när minst en testsvit har valts.</p>
+<p>En testsvit är endast tillämplig på vissa testobjektstyper, vilka anges i beskrivningen. Flera testsviter kan väljas för en testkörning, men de måste vara tillämpliga på samma typ av testobjekt. När en testsvit har valts inaktiveras alla andra testsviter som har olika testobjektstyper.</p>
+<img alt="../../_images/etf-test-suite-selection-4.png" src="../../_images/etf-test-suite-selection-4.png" />
+<p>En testsvit kan vara beroende av andra testsviter. Beroendena visas också i beskrivningen av testsviterna. Dessa beroenden utförs också automatiskt under testkörningen.</p>
+<p>Ett klick på <em>Start</em>-knappen öppnar en ny vy där användaren tillfrågas om den målresurs som ska testas.</p>
+</section>
+<section id="test-run-configuration">
+<h3><a class="toc-backref" href="#id4">Konfiguration för testkörning</a><a class="headerlink" href="#test-run-configuration" title="Permalink till denna rubrik">¶</a></h3>
+<img alt="../../_images/etf-test-run-configuration-1.png" src="../../_images/etf-test-run-configuration-1.png" />
+<p>Fältet <em>Label</em> är obligatoriskt och förinställs automatiskt med aktuell tid och namn på de valda testsviterna. Etiketten kommer att visas i avsnittet <strong>Testrapporter</strong> och kan ändras för att göra det lättare att hitta rapporten igen efter en testkörning.</p>
+<p>Hur vyn ser ut kan bero på vilka testsviter som har valts.</p>
+</section>
+<section id="file-based-tests">
+<h3><a class="toc-backref" href="#id5">Filbaserade tester</a><a class="headerlink" href="#file-based-tests" title="Permalink till denna rubrik">¶</a></h3>
+<p>Följande element visas när testsviter har valts som testar en eller flera testdatafiler.</p>
+<p>Om <em>File upload</em> väljs som <em>Data source</em> kan en eller flera lokala filer väljas och laddas upp till ETF. ETF accepterar endast filer med filändelserna XML och GML samt ZIP-filer som innehåller dessa två filtyper.</p>
+<div class="admonition note">
+<p class="admonition-title">Observera</p>
+<p>Andra filer, t.ex. schemadefinitionsfiler, kan inte användas och ignoreras i tysthet av ETF!</p>
+</div>
+<img alt="../../_images/etf-file-based-tests-1.png" src="../../_images/etf-file-based-tests-1.png" />
+<p>Den maximala filstorleken som kan laddas upp visas när musen förs över frågetecknet.</p>
+<p>Om de data som ska testas finns tillgängliga på webben kan de testas genom att ange en enda URL. Efter att <em>Remote file (URL)</em> har valts som <em>Data source</em> kan en <em>Remote URL</em> till antingen en XML-, GML- eller ZIP-fil anges.</p>
+<img alt="../../_images/etf-file-based-tests-2.png" src="../../_images/etf-file-based-tests-2.png" />
+<p>Om URL:en kräver autentisering kan användarnamn och lösenord anges genom att klicka på <em>Credentials</em>.</p>
+<img alt="../../_images/etf-file-based-tests-3.png" src="../../_images/etf-file-based-tests-3.png" />
+</section>
+<section id="service-tests">
+<h3><a class="toc-backref" href="#id6">Servicetester</a><a class="headerlink" href="#service-tests" title="Permalink till denna rubrik">¶</a></h3>
+<p>Följande element visas när testsviter har valts som testar en tjänst.</p>
+<p>URL:en för tjänsten måste börja med ”http://” eller ”https://”.</p>
+<img alt="../../_images/etf-service-test-1.png" src="../../_images/etf-service-test-1.png" />
+<p>Om tjänsten kräver autentisering kan användarnamn och lösenord anges genom att klicka på <em>Credentials</em>.</p>
+</section>
+<section id="dependencies-and-parameters">
+<h3><a class="toc-backref" href="#id7">Beroenden och parametrar</a><a class="headerlink" href="#dependencies-and-parameters" title="Permalink till denna rubrik">¶</a></h3>
+<p>Knappen <em>Test Suites</em> visar grundläggande information om de valda testsviterna och - om tillämpligt - om de direkta beroendena.</p>
+<img alt="../../_images/etf-dependencies-and-parameters-1.png" src="../../_images/etf-dependencies-and-parameters-1.png" />
+<p>Om testet accepterar parametrar visas de i avsnittet <em>Test Suite Parameters</em>. Valfria parametrar kan visas genom att klicka på knappen <em>Optional Parameters</em>. En beskrivning av parametrarna visas när musen förs över frågetecknet.</p>
+<div class="admonition note">
+<p class="admonition-title">Observera</p>
+<p>I de flesta fall kan de förinställda standardvärdena användas.</p>
+</div>
+<img alt="../../_images/etf-dependencies-and-parameters-2.png" src="../../_images/etf-dependencies-and-parameters-2.png" />
+<p>Slutligen kan testet startas genom att klicka på knappen <em>Start</em>. Vyn ändras då automatiskt till vyn <em>Monitor Test Run</em>.</p>
+</section>
+</section>
+<section id="monitor-test-runs">
+<h2><a class="toc-backref" href="#id8">Övervaka testkörningar</a><a class="headerlink" href="#monitor-test-runs" title="Permalink till denna rubrik">¶</a></h2>
+<p>När en testkörning har startats visas vyn <em>Monitor Test Run</em>.</p>
+<img alt="../../_images/etf-monitor-test-runs-1.png" src="../../_images/etf-monitor-test-runs-1.png" />
+<p>Den blå stapeln visar framstegen.</p>
+<img alt="../../_images/etf-monitor-test-runs-2.png" src="../../_images/etf-monitor-test-runs-2.png" />
+<p>I konsolområdet visas informations- och resultatmeddelanden. Testkörningen kan avbrytas genom att klicka på knappen <em>Cancel</em>.</p>
+<p>Vyn kan stängas, t.ex. med <em>X</em>-knappen i det övre vänstra hörnet. Även när webbläsaren är stängd fortsätter testkörningen på servern.</p>
+<p>Om du vill öppna vyn <em>Monitor Test Run</em> igen efter att den har stängts väljer du avsnittet <strong>Status</strong> i menyraden. Avsnittet <strong>Status</strong> visar alla pågående tester. Om du klickar på en testkörning öppnas vyn <em>Monitor Test Run</em> för den testkörningen.</p>
+<img alt="../../_images/etf-monitor-test-runs-3.png" src="../../_images/etf-monitor-test-runs-3.png" />
+<p>När en testkörning avslutas och vyn <em>Monitor Test Run</em> öppnas, visas testrapporten automatiskt.</p>
+</section>
+<section id="test-reports">
+<h2><a class="toc-backref" href="#id9">Testrapporter</a><a class="headerlink" href="#test-reports" title="Permalink till denna rubrik">¶</a></h2>
+<p>I avsnittet <strong>Test Reports</strong> visas alla rapporter som har genererats från testkörningarna.</p>
+<img alt="../../_images/etf-test-reports-1.png" src="../../_images/etf-test-reports-1.png" />
+<p>Genom att klicka på <em>+</em>-knappen visas information om en testkörning, starttid, status för testresultatet, namnet på testobjektet och de använda testsviterna.</p>
+<p>En testrapport kan öppnas igen genom att klicka på knappen <em>Öppna rapport</em> eller laddas ner som HTML-fil genom att klicka på knappen <em>Ladda ner rapport</em>.</p>
+<p>Loggfilen för testkörningen kan inspekteras med knappen <em>Open log</em>. Genom att klicka på knappen <em>Delete report</em> raderas rapporten permanent.</p>
+</section>
+<section id="inspect-test-reports">
+<h2><a class="toc-backref" href="#id10">Inspektera testrapporter</a><a class="headerlink" href="#inspect-test-reports" title="Permalink till denna rubrik">¶</a></h2>
+<p>Överst i en testrapport visas allmän information, inklusive den övergripande statusen för testresultatet, starttiden, varaktigheten och en tabell som sammanfattar statusen för alla tester på flera nivåer.</p>
+<img alt="../../_images/etf-inspect-test-reports-1.png" src="../../_images/etf-inspect-test-reports-1.png" />
+<p>Testrapporterna är interaktiva. Omkopplaren <em>Show</em> kan användas för att filtrera <em>Only failed</em> eller <em>Only manual</em> tester. Alternativet <em>All</em> avaktiverar filtret.</p>
+<p>Omkopplaren <em>Level of detail</em> används för att visa mer eller mindre information i rapporterna.</p>
+<img alt="../../_images/etf-inspect-test-reports-2.png" src="../../_images/etf-inspect-test-reports-2.png" />
+<p>Testresultaten sammanfattas hierarkiskt i en rapport. På den översta nivån finns testsviterna.</p>
+<p>Genom att klicka på en testsvit visas en beskrivning och alla tester på lägre nivå i den testsviten. Fel i en testsvit kan omedelbart identifieras med hjälp av den röda färgen. Antalet misslyckade tester visas i det övre högra hörnet.</p>
+<img alt="../../_images/etf-inspect-test-reports-3.png" src="../../_images/etf-inspect-test-reports-3.png" />
+<p>Den gröna färgen indikerar ett godkänt test. Godkända tester, som kräver ytterligare manuella teststeg som inte kunde automatiseras, är orangefärgade. Den orangea färgen kan också indikera ett test som har hoppats över eftersom det är beroende av ett annat test som har misslyckats. Den exakta statusen finns under beskrivningen.</p>
+<p>Antalet nivåer beror på vilket testobjekt som testas. Om servicetester har utförts ser hierarkin ut enligt följande:</p>
+<ul class="simple">
+<li><p>Exekverbara testsviter</p></li>
+<li><p>Testmoduler (buntar testfall)</p></li>
+<li><p>Testfall (buntar ihop teststeg)</p></li>
+<li><p>Teststeg (interaktioner med tjänsten, buntar Test Assertions)</p></li>
+<li><p>Testpåståenden (atomära tester)</p></li>
+</ul>
+<p>I ett filbaserat test finns inte testmoduler och teststeg och de visas inte i rapporten.</p>
+<p>Varje test listar kraven och ger en beskrivning av hur de testas. Testet kan innehålla en länk till en abstrakt testsvit, från vilken testet har härletts (<em>Källa</em>).</p>
+<img alt="../../_images/etf-inspect-test-reports-4.png" src="../../_images/etf-inspect-test-reports-4.png" />
+<p>Assertions står för atomära testfrågor på den lägsta nivån. Misslyckade, rödfärgade påståenden visar felmeddelanden i avsnittet <em>Messages</em>.</p>
+<img alt="../../_images/etf-inspect-test-reports-5.png" src="../../_images/etf-inspect-test-reports-5.png" />
+<p>Det kan också finnas användbar information på nästa högre nivå, som till exempel svaret från en tjänst på Test Step-nivån (notera länken <em>Öppna sparat svar</em> i rapporten).</p>
+<img alt="../../_images/etf-inspect-test-reports-6.png" src="../../_images/etf-inspect-test-reports-6.png" />
+</section>
+<section id="resources">
+<h2><a class="toc-backref" href="#id11">Resurser</a><a class="headerlink" href="#resources" title="Permalink till denna rubrik">¶</a></h2>
+<p>Med hjälp av instruktionerna ovan hittar du nedan en fördefinierad uppsättning resurser som du kan testa i ETF:</p>
+<ul class="simple">
+<li><p>GML-datauppsättningar: vissa fördefinierade datauppsättningar kan laddas ner från &lt;<a class="reference external" href="https://github.com/etf-validator/OSGeoLive-ETF/tree/main/resources/GML-data-sets">https://github.com/etf-validator/OSGeoLive-ETF/tree/main/resources/GML-data-sets</a>&gt;`__.</p></li>
+<li><p>WMS-tjänster: en lista över tjänster finns tillgänglig här &lt;<a class="reference external" href="https://github.com/etf-validator/OSGeoLive-ETF/tree/main/resources/WMS-services">https://github.com/etf-validator/OSGeoLive-ETF/tree/main/resources/WMS-services</a>&gt;`__.</p></li>
+<li><p>WFS-tjänster: en lista över tjänster finns tillgänglig här &lt;<a class="reference external" href="https://github.com/etf-validator/OSGeoLive-ETF/tree/main/resources/WFS-services">https://github.com/etf-validator/OSGeoLive-ETF/tree/main/resources/WFS-services</a>&gt;`__.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Observera</p>
+<p>Vissa av de GML-datauppsättningar som anges ovan klarar inte alla tester, så du kan försöka åtgärda dem (baserat på de fel som rapporteras i testrapporten) innan du validerar dem igen tills alla tester lyckas.</p>
+</div>
+</section>
+<section id="what-next">
+<h2><a class="toc-backref" href="#id12">What next?</a><a class="headerlink" href="#what-next" title="Permalink till denna rubrik">¶</a></h2>
+<p>Detta var bara en mycket kort översikt över ETF. Det finns mer information i demoinstallationen och på <a class="reference external" href="https://github.com/etf-validator">ETF GitHub-utrymmet</a>.</p>
+<p>Vänligen kontrollera också:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://docs.etf-validator.net/v2.0/User_manuals/Simplified_workflows.html">Användarmanual</a></p></li>
+<li><p><a class="reference external" href="https://docs.etf-validator.net/v2.0/Admin_manuals/index.html">Handbok för administratörer</a></p></li>
+<li><p><a class="reference external" href="https://docs.etf-validator.net/v2.0/#_developer_manuals">Handbok för utvecklare</a></p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

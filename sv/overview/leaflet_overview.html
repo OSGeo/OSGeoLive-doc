@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Broschyr &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="Broschyr Snabbstart" href="../quickstart/leaflet_quickstart.html" />
+    <link rel="prev" title="GeoExt Snabbstart" href="../quickstart/geoext_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://leafletjs.com"><img alt="../../_images/logo_leaflet.png" class="align-right" src="../../_images/logo_leaflet.png" /></a>
+<section id="leaflet">
+<h1>Broschyr<a class="headerlink" href="#leaflet" title="Permalink till denna rubrik">¶</a></h1>
+<section id="browser-mobile-map-library">
+<h2>Bibliotek för webbläsare/mobilkartor<a class="headerlink" href="#browser-mobile-map-library" title="Permalink till denna rubrik">¶</a></h2>
+<p>Leaflet är ett JavaScript-bibliotek för webbläsarbaserade, mobilvänliga, interaktiva kartor. Det är lättviktigt, men har ändå alla funktioner som de flesta utvecklare någonsin behöver för onlinekartor.</p>
+<p>Leaflet är utformat med enkelhet, prestanda och användbarhet i åtanke. Det fungerar effektivt på alla större stationära och mobila plattformar direkt från start och drar nytta av HTML5 och CSS3 i moderna webbläsare samtidigt som det är tillgängligt även i äldre webbläsare. Det kan utökas med många plugins, har ett vackert, lättanvänt och väldokumenterat API och en enkel, läsbar källkod som det är en glädje att bidra till.</p>
+<a class="reference internal image-reference" href="../../_images/leaflet_screenshot.png"><img alt="skärmdump av broschyr" class="align-right" src="../../_images/leaflet_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>Kärnfunktioner<a class="headerlink" href="#core-features" title="Permalink till denna rubrik">¶</a></h3>
+<ul>
+<li><p>Kartskikt</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Plattor, markörer, popup-fönster, bildöverlägg, WMS, GeoJSON</p></li>
+<li><p>Vektorer: polylinjer, polygoner, cirklar, rektanglar, cirkelmarkörer</p></li>
+<li><p>Lagergrupper</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Funktioner för kundanpassning</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Ren CSS3 popup-fönster och kontroller för enkel restyling</p></li>
+<li><p>Bild- och HTML-baserade markörer</p></li>
+<li><p>Anpassade kartlager, kontroller och projektioner</p></li>
+<li><p>Kraftfulla OOP-funktioner för att utöka befintliga klasser</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><dl class="simple">
+<dt>Interaktion och visuella funktioner</dt><dd><ul class="simple">
+<li><p>Dragpanorering med tröghet</p></li>
+<li><p>Navigering med tangentbord</p></li>
+<li><p>Multi-touch</p></li>
+<li><p>Animering av zoom/panorering</p></li>
+<li><p>Mycket snygg standarddesign för markörer, popup-fönster och andra kartkontroller</p></li>
+<li><p>Stöd för retina-upplösning för kakelplattor och markörer</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p>Prestandaegenskaper</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Acceleration av hårdvara</p></li>
+<li><p>Utnyttja CSS3-funktioner för att göra panorering och zoomning riktigt smidigt</p></li>
+<li><p>Smart rendering av polylinjer/polygoner</p></li>
+<li><p>Modulär design gör det möjligt att endast inkludera nödvändiga funktioner</p></li>
+<li><p>Eliminering av tryckfördröjning på mobila enheter</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Kart-kontroller</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Zoomknappar, Tilldelning, Lagerväxlare, Skala</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Stöd för webbläsare på skrivbordet</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Chrome</p></li>
+<li><p>Firefox</p></li>
+<li><p>Safari 5+ (på engelska)</p></li>
+<li><p>Opera 12+</p></li>
+<li><p>IE 7-11</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Stöd för mobila webbläsare</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Safari för iOS 3-7+</p></li>
+<li><p>Android webbläsare 2.2+, 3.1+, 4+</p></li>
+<li><p>Chrome för Android 4+ och iOS</p></li>
+<li><p>Firefox för Android</p></li>
+<li><p>Andra webkit-baserade webbläsare (webOS, Blackberry 7+, etc.)</p></li>
+<li><p>IE10/IE11 för Win8-baserade enheter</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Övrigt</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Extremt lättviktig - cirka 34 KB gzipad JS-kod</p></li>
+<li><p>Inga externa beroenden</p></li>
+<li><p>Håller din JS-miljö ren - ingen förorening från globala eller inbyggda prototyper</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</section>
+<section id="details">
+<h3>Detaljer<a class="headerlink" href="#details" title="Permalink till denna rubrik">¶</a></h3>
+<p><strong>Webbplats:</strong> <a class="reference external" href="https://leafletjs.com">https://leafletjs.com</a></p>
+<p><strong>Licensiering:</strong> BSD</p>
+<p><strong>Programvaruversion:</strong> 1.7.1</p>
+<p><strong>Plattformar som stöds:</strong> Windows, Mac, Linux, Android, iOS</p>
+<p><strong>API-gränssnitt:</strong> Javascript</p>
+<p><strong>Support:</strong> <a class="reference external" href="https://groups.google.com/forum/#!forum/leaflet-js">https://groups.google.com/forum/#!forum/leaflet-js</a></p>
+</section>
+<section id="quickstart">
+<h3>Snabbstart<a class="headerlink" href="#quickstart" title="Permalink till denna rubrik">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/leaflet_quickstart.html"><span class="doc">Snabbstartsdokumentation</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

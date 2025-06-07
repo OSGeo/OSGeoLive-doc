@@ -1,0 +1,181 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>pygeoapi Snabbstart &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="Zoo Project" href="../overview/zoo-project_overview.html" />
+    <link rel="prev" title="pygeoapi" href="../overview/pygeoapi_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://pygeoapi.io/"><img alt="../../_images/logo_pygeoapi.png" class="align-right" src="../../_images/logo_pygeoapi.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<section id="pygeoapi-quickstart">
+<h1>pygeoapi Snabbstart<a class="headerlink" href="#pygeoapi-quickstart" title="Permalink till denna rubrik">¶</a></h1>
+<p>pygeoapi är ett verktyg för att snabbt och enkelt publicera OGC Open API-tjänster på webben. Det bygger på de kraftfulla open source-biblioteken från (geo)python-communityn.</p>
+<p>I den här snabbstarten guidar vi dig genom att konfigurera programvaran och använda den för några specifika fall. Längs vägen kommer vi att engagera oss i en del relaterad programvara, eftersom pygeoapi är en produkt som vanligtvis kombineras med andra komponenter för att uppfylla ett affärsfall.</p>
+<section id="prior-knowledge">
+<h2>Förkunskaper<a class="headerlink" href="#prior-knowledge" title="Permalink till denna rubrik">¶</a></h2>
+<p>pygeoapi är en Python-webbapplikation för den spatiala domänen, så du måste vara medveten om begreppen webbapplikationer och geospatiala aspekter som grid- och vektorformat, OGC-standarder och projektionssystem. Python-kunskap rekommenderas, även om du kan klara dig utan genom att köra applikationen från OSGeoLive.</p>
+<div class="contents local topic" id="contents">
+<p class="topic-title">Innehåll</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#configure-and-start-the-service" id="id1">Konfigurera och starta tjänsten</a></p></li>
+<li><p><a class="reference internal" href="#configure-new-service" id="id2">Konfigurera ny tjänst</a></p></li>
+<li><p><a class="reference internal" href="#using-a-web-browser-to-query-the-api" id="id3">Använda en webbläsare för att ställa frågor till API:et</a></p></li>
+<li><p><a class="reference internal" href="#using-ogc-api-features-in-desktop-gis" id="id4">Använda OGC API - Funktioner i Desktop GIS</a></p></li>
+</ul>
+</div>
+<section id="configure-and-start-the-service">
+<h3><a class="toc-backref" href="#id1">Konfigurera och starta tjänsten</a><a class="headerlink" href="#configure-and-start-the-service" title="Permalink till denna rubrik">¶</a></h3>
+<ol class="arabic">
+<li><p>Välj <span class="menuselection">Structure ‣ osgeolive ‣ appmenupath ‣ pygeoapi</span> från Start-menyn. Programmet kommer att öppna en webbsida på <a class="reference external" href="http://localhost:5000">http://localhost:5000</a></p></li>
+<li><p>navigera till användarmappen <code class="docutils literal notranslate"><span class="pre">/usr/local/share/pygeoapi</span></code> och leta reda på filen <code class="docutils literal notranslate"><span class="pre">pygeoapi-config.yml</span></code>. Den här filen innehåller konfigurationen av tjänsten.</p></li>
+<li><p>Öppna filen <code class="docutils literal notranslate"><span class="pre">sudo</span> <span class="pre">nano</span> <span class="pre">pygeoapi-config.yml</span></code>.</p></li>
+<li><p>Uppdatera några parametrar i filen, t.ex. titel och författare. Och spara filen.</p></li>
+<li><p>Starta om tjänsten, t.ex. genom att stänga terminalen och starta tjänsten igen</p>
+<a class="reference internal image-reference" href="../../_images/pygeoapi_screenshot.png"><img alt="../../_images/pygeoapi_screenshot.png" src="../../_images/pygeoapi_screenshot.png" style="width: 280.0px; height: 138.6px;" /></a>
+</li>
+</ol>
+</section>
+<section id="configure-new-service">
+<h3><a class="toc-backref" href="#id2">Konfigurera ny tjänst</a><a class="headerlink" href="#configure-new-service" title="Permalink till denna rubrik">¶</a></h3>
+<p>Du kommer nu att distribuera en vektordatauppsättning i pygeoapi och exponera dess funktioner som OGC API - Features. OGC API - Features är en standard för OGC för att exponera vektorfunktioner som en webbtjänst. OGC API - Features är OpenAPI-alternativet till WFS.</p>
+<p>pygeoapi stöder ett brett utbud av backends att använda som vektorkälla, t.ex. geopackage, PostGIS, Elasticsearch, WFS, etc. Via GDAL OGR-leverantören kan en nästan obegränsad uppsättning andra vektorkällor läggas till.</p>
+<p>Intressanta datamängder att exponera som OGC API - Funktioner består av verkliga data med flera attribut och länkar till andra resurser. OSGeoLive innehåller ett antal dataset som vi kan använda. Ett exempel är <code class="docutils literal notranslate"><span class="pre">/var/www/html/openlayers/examples/data/geojson/countries.geojson</span></code>. Du kan konfigurera den i pygeoapi med hjälp av GeoJSON-providern.</p>
+<ol class="arabic simple">
+<li><p>Ladda ner GeoJSON-filen och placera den i mappen tests/data.</p></li>
+<li><p>Uppdatera <code class="docutils literal notranslate"><span class="pre">pygeoapi-config.yml</span></code> för att lägga till <code class="docutils literal notranslate"><span class="pre">countries</span></code> som en ny samling till pygeoapi (infoga snippet nedan mellan de andra samlingarna. Tänk på nestningen, nestning är viktigt i YAML-syntax).</p></li>
+</ol>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">countries</span><span class="p">:</span>
+<span class="w">   </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">collection</span>
+<span class="w">   </span><span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Countries</span>
+<span class="w">   </span><span class="nt">description</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Countries of the world</span>
+<span class="w">   </span><span class="nt">keywords</span><span class="p">:</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">industry</span>
+<span class="w">   </span><span class="nt">links</span><span class="p">:</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">text/html</span>
+<span class="w">        </span><span class="nt">rel</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">canonical</span>
+<span class="w">        </span><span class="nt">title</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">information</span>
+<span class="w">        </span><span class="nt">href</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">https://openlayers.org</span>
+<span class="w">        </span><span class="nt">hreflang</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">en-US</span>
+<span class="w">   </span><span class="nt">extents</span><span class="p">:</span>
+<span class="w">      </span><span class="nt">spatial</span><span class="p">:</span>
+<span class="w">         </span><span class="nt">bbox</span><span class="p">:</span><span class="w"> </span><span class="p p-Indicator">[</span><span class="nv">-180</span><span class="p p-Indicator">,</span><span class="nv">-90</span><span class="p p-Indicator">,</span><span class="nv">180</span><span class="p p-Indicator">,</span><span class="nv">90</span><span class="p p-Indicator">]</span>
+<span class="w">   </span><span class="nt">providers</span><span class="p">:</span>
+<span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">type</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">feature</span>
+<span class="w">        </span><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">GeoJSON</span>
+<span class="w">        </span><span class="nt">data</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">/var/www/html/openlayers/examples/data/geojson/countries.geojson</span>
+<span class="w">        </span><span class="nt">id_field</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">name</span>
+</pre></div>
+</div>
+<ol class="arabic simple">
+<li><p>Starta om pygeoapi</p></li>
+</ol>
+<p>Kontrollera att samlingen är tillgänglig via din webbläsare på <a class="reference external" href="http://localhost:5000/collections/countries">http://localhost:5000/collections/countries</a></p>
+</section>
+<section id="using-a-web-browser-to-query-the-api">
+<h3><a class="toc-backref" href="#id3">Använda en webbläsare för att ställa frågor till API:et</a><a class="headerlink" href="#using-a-web-browser-to-query-the-api" title="Permalink till denna rubrik">¶</a></h3>
+<p>Nu när vi har tjänsten tillgänglig kan vi ställa frågor om den med hjälp av olika klientverktyg. Alla funktioner i samlingen finns tillgängliga i vanliga format, t.ex. HTML, GeoJSON och GML. Till att börja med kan vi använda en webbläsare för att bläddra igenom tjänsten. Från <a class="reference external" href="http://localhost:5000/collections/countries">http://localhost:5000/collections/countries</a> kan du gå ner till enskilda funktioner. Tjänsten kommer automatiskt att upptäcka (acceptera header) att du använder en webbläsare och returnera HTML-representationen av funktioner. I det övre högra hörnet finns tydliga länkar för att åsidosätta accept header och begära specifika representationer av funktionen (<code class="docutils literal notranslate"><span class="pre">?f=json</span></code>).</p>
+<p>Varje Open API har en interaktiv dokumentationssida på <a class="reference external" href="http://localhost:5000/openapi">http://localhost:5000/openapi</a>. På denna interaktiva webbsida kan du läsa om de olika metoderna i tjänsten, men också direkt interagera med dem via webbformulär.</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/openapidoc.png"><img alt="../../_images/openapidoc.png" src="../../_images/openapidoc.png" style="width: 1009.4px; height: 368.2px;" /></a>
+</div></blockquote>
+<p>OGC API:er har utvecklats med ”W3C Spatial Data on the Web Best Practices &lt;https://www.w3.org/TR/sdw-bp&gt;`_” i åtanke. En viktig aspekt av dessa bästa metoder är sökmotoroptimering. Pygeoapi lägger till några genomsökningsoptimeringar utöver kraven i Open API-standarderna; samlingens metadata kan genomsökas av sökmotorer på ett strukturerat sätt, med målet att göra samlingarna upptäckbara i verktyg som Google Dataset Search. För att utvärdera funktionerna för strukturerade data kan du använda verktygen för testning av strukturerade data från Yandex eller Google. Kopiera html-källan till ländernas samlingssida (eller webbadressen till en samlingssida för en onlinepygeoapi-instans) till ett testverktyg för strukturerad data och utvärdera vilka strukturerade data verktyget kan extrahera från den. Sökmotorn kommer att använda den informationen i sitt datasetindex.</p>
+</section>
+<section id="using-ogc-api-features-in-desktop-gis">
+<h3><a class="toc-backref" href="#id4">Använda OGC API - Funktioner i Desktop GIS</a><a class="headerlink" href="#using-ogc-api-features-in-desktop-gis" title="Permalink till denna rubrik">¶</a></h3>
+<p>I den här snabbstarten använder vi QGIS för att ställa frågor till tjänsten, men liknande arbetsflöden är möjliga i andra GIS-verktyg, t.ex. ArcGIS, FME, OpenLayers.</p>
+<p>Från och med QGIS 3.14 kan du lägga till ett OGC API - Features-lager som vektorlager. Från menyn <code class="docutils literal notranslate"><span class="pre">Layer</span> <span class="pre">/</span> <span class="pre">Add</span> <span class="pre">Layer</span></code> välj <code class="docutils literal notranslate"><span class="pre">Add</span> <span class="pre">WFS</span> <span class="pre">Layer...</span></code>.</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/qgis-wfs.png"><img alt="../../_images/qgis-wfs.png" src="../../_images/qgis-wfs.png" style="width: 277.9px; height: 243.6px;" /></a>
+</div></blockquote>
+<p>I det fönster som öppnas skapar du en ny anslutning och anger webbadressen till tjänsten <a class="reference external" href="http://localhost:5000">http://localhost:5000</a>.</p>
+<p>Klicka på Ok och sedan på <code class="docutils literal notranslate"><span class="pre">connect</span></code> för att ladda de tillgängliga samlingarna i tjänsten.</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/qgis-layers.png"><img alt="../../_images/qgis-layers.png" src="../../_images/qgis-layers.png" style="width: 280.0px; height: 139.29999999999998px;" /></a>
+</div></blockquote>
+<p>Välj samlingen <code class="docutils literal notranslate"><span class="pre">countries</span></code> och klicka på ”Add” för att lägga till skiktet i QGIS-kartan.</p>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

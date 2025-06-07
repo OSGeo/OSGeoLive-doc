@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>ETF &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="Snabbstart för ETF" href="../quickstart/ETF_quickstart.html" />
+    <link rel="prev" title="Snabbstart för EOxServer" href="../quickstart/eoxserver_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://github.com/etf-validator"><img alt="../../_images/logo_ETF.png" class="align-right" src="../../_images/logo_ETF.png" /></a>
+<section id="etf">
+<h1>ETF<a class="headerlink" href="#etf" title="Permalink till denna rubrik">¶</a></h1>
+<p>ETF är ett testramverk med öppen källkod för validering av data och API:er i infrastrukturer för geodata (SDI). Det används av programvarulösningar och dataleverantörer för att validera överensstämmelsen hos geospatiala datamängder, metadata och API:er.</p>
+<section id="about">
+<h2>Om<a class="headerlink" href="#about" title="Permalink till denna rubrik">¶</a></h2>
+<p>Målen vid utformningen av ETF:s programvara var att skapa testrapporter som är användarvänliga och självförklarande samt att kunna validera stora datamängder, som kan vara flera hundra GB stora. För att kunna täcka in olika valideringsuppgifter och presentera dem i en enhetlig rapport är arkitekturen modulär och olika testmotorer kan användas. För närvarande stöds följande testmotorer: SoapUI för testning av webbtjänster, BaseX-databasen för testning av XML-data, TEAM Engine för validering av WFS och OGC Web API:er med hjälp av OGC CITE-tester, NeoTL Engine för testning av WFS, OGC Web API:er och dataset.</p>
+<p>ETF är det underliggande ramverk som används av INSPIRE Reference Validator för att validera metadata, dataset och tjänster mot INSPIRE-kraven. ETF används också i stor utsträckning i Tyskland av lantmäterimyndigheterna i delstaterna för att validera sina dataset. Andra medlemsstater i Europeiska unionen (EU) använder också ETF för att låta sina dataleverantörer testa resurser mot nationella krav. Slutligen inkluderar vissa programvaruverktyg validering baserad på ETF API i sitt arbetsflöde.</p>
+<a class="reference internal image-reference" href="../../_images/ETF_screenshot.png"><img alt="ETF-skärmdump" class="align-right" src="../../_images/ETF_screenshot.png" style="width: 500px;" /></a>
+</section>
+<section id="core-features">
+<h2>Kärnfunktioner<a class="headerlink" href="#core-features" title="Permalink till denna rubrik">¶</a></h2>
+<ul class="simple">
+<li><dl class="simple">
+<dt>Testbara resurser</dt><dd><ul>
+<li><p>datamängder (upp till flera hundra GB): GML</p></li>
+<li><p>metadata: XML</p></li>
+<li><p>visa tjänster: WMS/WMTS</p></li>
+<li><p>nedladdningstjänster: Atom, WFS, WCS, SOS</p></li>
+<li><p>katalogtjänster: CSW</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Åtkomst</dt><dd><ul>
+<li><p>webbaserat användargränssnitt</p></li>
+<li><p>REST-API</p></li>
+<li><p>OpenAPI-specifikation</p></li>
+<li><p>Java-klientbibliotek</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Testmotorer med stöd</dt><dd><ul>
+<li><p>SoapUI för testning av webbtjänster</p></li>
+<li><p>BaseX för testning av uppsättningar av XML-dokument</p></li>
+<li><p>TEAM Engine för att stödja CITE-tester som utvecklats med TestNG</p></li>
+<li><p>NeoTL för testning av OGC WFS och OGC API:er (under utveckling)</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Testrapporter</dt><dd><ul>
+<li><p>användarvänlig och självförklarande</p></li>
+<li><p>nedladdningsbar i HTML, XML och JSON</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Implementerade standarder</dt><dd><ul>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/cat">Catalogue Service for the Web (CSW)</a></p></li>
+<li><p><a class="reference external" href="https://committee.iso.org/sites/tc211/home/projects/projects---complete-list/iso-19105.html">ISO 19105</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/sos">Sensor Observation Service (SOS)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wfs">Web Feature Service (WFS)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wmts">OpenGIS Web Map Tile Service (WMTS)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/gml">Geography Markup Language (GML)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/ogcapi-features">OGC API - Features</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wcs">Web Coverage Service (WCS)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a></p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</section>
+<section id="details">
+<h2>Detaljer<a class="headerlink" href="#details" title="Permalink till denna rubrik">¶</a></h2>
+<p><strong>Webbplats:</strong> <a class="reference external" href="https://github.com/etf-validator">https://github.com/etf-validator</a></p>
+<p><strong>Licens:</strong> EUPL 1.2</p>
+<p><strong>Programvaruversion:</strong> 2.0.0</p>
+<p><strong>Plattformar som stöds:</strong> Windows, Linux</p>
+<p><strong>API-gränssnitt:</strong> REST API, OpenAPI-specifikation, Java-klientbibliotek</p>
+<p><strong>Support:</strong> <a class="reference external" href="https://github.com/etf-validator/etf-webapp/issues">https://github.com/etf-validator/etf-webapp/issues</a></p>
+<p><strong>Användarhandbok:</strong> <a class="reference external" href="https://docs.etf-validator.net/v2.0/User_manuals/Simplified_workflows.html">https://docs.etf-validator.net/v2.0/User_manuals/Simplified_workflows.html</a></p>
+<p><strong>Administratörens handbok:</strong> <a class="reference external" href="https://docs.etf-validator.net/v2.0/index.html#_administrator_manuals">https://docs.etf-validator.net/v2.0/index.html#_administrator_manuals</a></p>
+<p><strong>Utvecklarmanual:</strong> <a class="reference external" href="https://docs.etf-validator.net/v2.0/index.html#_developer_manuals">https://docs.etf-validator.net/v2.0/index.html#_developer_manuals</a></p>
+<div class="admonition note">
+<p class="admonition-title">Observera</p>
+<p>Detta projekt ingår endast på OSGeoLives virtuella maskindisk (VMDK)</p>
+</div>
+</section>
+<section id="quickstart">
+<h2>Snabbstart<a class="headerlink" href="#quickstart" title="Permalink till denna rubrik">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/ETF_quickstart.html"><span class="doc">Snabbstartsdokumentation</span></a></p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

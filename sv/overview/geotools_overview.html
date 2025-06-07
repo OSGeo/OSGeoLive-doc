@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>GeoTools &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="PROJ" href="proj_overview.html" />
+    <link rel="prev" title="GEOS" href="geos_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://geotools.org/"><img alt="../../_images/logo_geotools.png" class="align-right" src="../../_images/logo_geotools.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<section id="geotools">
+<h1>GeoTools<a class="headerlink" href="#geotools" title="Permalink till denna rubrik">¶</a></h1>
+<p>GeoTools är ett Java-bibliotek med öppen källkod (LGPL) som tillhandahåller standardkompatibla metoder för att manipulera geospatiala data och använder datastrukturer baserade på Open Geospatial Consortiums (OGC) specifikationer.</p>
+<p>GeoTools is used by a number of projects including web services, command line tools and desktop applications. OSGeoLive applications which include GeoTools include:
+<a class="reference internal" href="52nSOS_overview.html"><span class="doc">52 North SOS</span></a>, AtlasStyler, Geopublisher, <a class="reference internal" href="geoserver_overview.html"><span class="doc">GeoServer</span></a>.</p>
+<a class="reference internal image-reference" href="../../_images/geotools_screenshot.png"><img alt="geotools skärmdump" class="align-right" src="../../_images/geotools_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h2>Kärnfunktioner<a class="headerlink" href="#core-features" title="Permalink till denna rubrik">¶</a></h2>
+<ul>
+<li><p>Definition av gränssnitt för viktiga spatiala begrepp och datastrukturer</p>
+<ul class="simple">
+<li><p>Integrerat geometristöd tillhandahålls av <a class="reference external" href="https://sourceforge.net/projects/jts-topo-suite/">JTS Topology Suite (JTS)</a></p></li>
+<li><p>Attribut- och spatiala filter med hjälp av OGC:s filterkodningsspecifikation</p></li>
+</ul>
+</li>
+<li><p>Ett rent API för dataåtkomst med stöd för funktionsåtkomst, transaktionsstöd och låsning mellan trådar</p>
+<ul class="simple">
+<li><p>Få tillgång till GIS-data i många filformat och spatiala databaser</p></li>
+<li><p>Samordna stöd för referenssystem och omvandling</p></li>
+<li><p>Arbeta med ett omfattande utbud av kartprojektioner</p></li>
+<li><p>filtrera och analysera data med avseende på spatiala och icke-spatiala attribut</p></li>
+</ul>
+</li>
+<li><p>En statlös renderare med lågt minne, särskilt användbar i servermiljöer.</p>
+<ul class="simple">
+<li><p>komponera och visa kartor med komplex styling</p></li>
+</ul>
+</li>
+<li><p>Kraftfull <em>schemastödd</em> parsningsteknik som använder XML Schema för att binda till GML-innehåll</p>
+<ul class="simple">
+<li><p>Pars-/kodningstekniken har bindningar för många OGC-standarder, inklusive GML, Filter, KML, SLD och SE.</p></li>
+</ul>
+</li>
+<li><p>GeoTools Plugins: öppet plug-in-system som gör att du kan lära ut ytterligare format till biblioteket</p>
+<ul class="simple">
+<li><p>Plug-ins för ImageIO-EXT-projektet som gör det möjligt för GeoTools att läsa ytterligare rasterformat från GDAL</p></li>
+</ul>
+</li>
+<li><p>GeoTools tillägg</p>
+<ul class="simple">
+<li><p>Tillhandahåller ytterligare funktioner som bygger på de spatiala funktionerna i kärnbiblioteket.</p></li>
+</ul>
+<img alt="Tillägg som byggts med hjälp av GeoTools-biblioteket" src="../../_images/geotools-extension.png" />
+<ul class="simple">
+<li><p>Tillägg ger stöd för grafer och nätverk (för att hitta den kortaste vägen), validering, en webbkartserverklient, bindningar för xml-parsning och kodning och färgbryggare.</p></li>
+</ul>
+</li>
+<li><p>GeoTools stöds inte</p>
+<ul class="simple">
+<li><p>GeoTools fungerar också som en del av ett större samhälle med ett område som används för att fostra nya talanger och främja experiment.</p></li>
+<li><p>Några höjdpunkter är stöd för swing (används i handledning för Geotools), stöd för swt, lokala processer och webbprocesser, ytterligare symbologi, ytterligare dataformat, generering av rutnät och ett par implementeringar av ISO Geometry.</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="supported-formats">
+<h2>Format som stöds<a class="headerlink" href="#supported-formats" title="Permalink till denna rubrik">¶</a></h2>
+<ul>
+<li><p>rasterformat och dataåtkomst:</p>
+<p>arcsde, arcgrid, geotiff, grassraster, gtopo30, image (JPEG, TIFF, GIF, PNG), imageio-ext-gdal, imagemoasaic, imagepyramid, JP2K, matlab.</p>
+</li>
+<li><p>Stöd för databasen ”jdbc-ng”:</p>
+<p>db2, h2, mysql, oracle, postgis, spatialite, sqlserver.</p>
+</li>
+<li><p>Vektorformat och dataåtkomst:</p>
+<p>app-schema, arcsde, csv, dxf, edigeo, excel, geojson, org, property, shapefile, wfs.</p>
+</li>
+<li><p>XML-bindningar:</p>
+<p>Java-datastrukturer och bindningar tillhandahålls för följande: xsd-core (xml simple types), fes, filter, gml2, gml3, kml, ows, sld, wcs, wfs, wms, wps, vpf.</p>
+<p>Ytterligare Geometry, Filter och Style parser/encoders tillgängliga för DOM- och SAX-applikationer.</p>
+</li>
+</ul>
+</section>
+<section id="implemented-standards">
+<h2>Implementerade standarder<a class="headerlink" href="#implemented-standards" title="Permalink till denna rubrik">¶</a></h2>
+<p>Stöd för många standarder från Open Geospatial Consortium (OGC):</p>
+<ul class="simple">
+<li><p>OGC Style Layer Descriptor / Symbology Kodning av datastrukturer och renderingsmotor</p></li>
+<li><p>OGC General Feature Model inklusive stöd för Simple Feature</p></li>
+<li><p>OGC Grid Coverage representation av rasterinformation</p></li>
+<li><p>OGC Filter och Common Constraint Language (CQL)</p></li>
+<li><p>Klienter för Web Feature Service (WFS), Web Map Service (WMS) och experimentellt stöd för Web Process Service (WPS)</p></li>
+<li><p>ISO 19107 Geometri</p></li>
+</ul>
+</section>
+<section id="details">
+<h2>Detaljer<a class="headerlink" href="#details" title="Permalink till denna rubrik">¶</a></h2>
+<p><strong>Webbplats:</strong> <a class="reference external" href="https://geotools.org/">https://geotools.org/</a></p>
+<p><strong>Licens:</strong> LGPL</p>
+<p><strong>Plattformar som stöds:</strong> Plattformsoberoende Java 8,9,10</p>
+<p><strong>API-gränssnitt:</strong> Java</p>
+<p><strong>Support:</strong> <a class="reference external" href="https://docs.geotools.org/latest/userguide/welcome/support.html">Communication and Support</a></p>
+</section>
+<section id="geotools-support">
+<h2>GeoTools Support<a class="headerlink" href="#geotools-support" title="Permalink till denna rubrik">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://docs.geotools.org/latest/userguide/tutorial/quickstart/index.html">Quickstart documentation</a></p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

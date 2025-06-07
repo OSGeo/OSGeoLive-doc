@@ -1,0 +1,369 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Grunderna i kommandoraden &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="OSGeoLive 17.0 Innehåll" href="../overview/overview.html" />
+    <link rel="prev" title="Körning i en virtuell Hyper-V-maskin" href="hyperv_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <section id="command-line-basics">
+<h1>Grunderna i kommandoraden<a class="headerlink" href="#command-line-basics" title="Permalink till denna rubrik">¶</a></h1>
+<p>När du arbetar med GNU/Linux-operativsystem som OSGeoLive, Ubuntu etc. är det bra att veta hur man arbetar på kommandoraden.</p>
+<p>Oroa dig inte för det. Det är inte svårt att lära sig och du kommer att upptäcka att det är roligt och mycket kraftfullt.</p>
+<p>I denna snabbstart får du lära dig några grundläggande kommandon.</p>
+<p>Följande kommandon körs från ett Terminal Emulator-fönster.</p>
+<p>Starta en terminalemulator (för närvarande <cite>QTerminal</cite>) från menyn <cite>Applications</cite> i avsnittet <cite>Systemverktyg</cite>. Detta ger dig en kommandoprompt för ett Unix-skal.</p>
+<div class="contents local topic" id="contents">
+<p class="topic-title">Innehåll</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#where-am-i" id="id1">Var är jag?</a></p></li>
+<li><p><a class="reference internal" href="#how-to-navigate-in-the-file-system" id="id2">Hur navigerar man i filsystemet?</a></p></li>
+<li><p><a class="reference internal" href="#create-a-directory" id="id3">Skapa en katalog</a></p></li>
+<li><p><a class="reference internal" href="#how-to-create-a-new-file" id="id4">Så här skapar du en ny fil</a></p></li>
+<li><p><a class="reference internal" href="#show-me-what-is-in-a-directory" id="id5">Visa mig vad som finns i en katalog</a></p></li>
+<li><p><a class="reference internal" href="#copy-files-and-directories" id="id6">Kopiera filer och kataloger</a></p></li>
+<li><p><a class="reference internal" href="#who-is-sudo" id="id7">Vem är sudo?</a></p></li>
+<li><p><a class="reference internal" href="#search-and-install-programs" id="id8">Söka och installera program</a></p></li>
+<li><p><a class="reference internal" href="#services" id="id9">Tjänster</a></p></li>
+<li><p><a class="reference internal" href="#how-to-edit-files" id="id10">Så här redigerar du filer</a></p></li>
+<li><p><a class="reference internal" href="#owner-and-access-rights" id="id11">Ägare och åtkomsträttigheter</a></p></li>
+<li><p><a class="reference internal" href="#change-the-owner-with-chown" id="id12">Byt ägare med <cite>chown</cite></a></p></li>
+<li><p><a class="reference internal" href="#change-access-rights-with-chmod" id="id13">Ändra åtkomsträttigheter med <cite>chmod</cite></a></p></li>
+<li><p><a class="reference internal" href="#things-to-try" id="id14">Saker att prova</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id15">Hur vill du gå vidare?</a></p></li>
+</ul>
+</div>
+<section id="where-am-i">
+<h2><a class="toc-backref" href="#id1">Var är jag?</a><a class="headerlink" href="#where-am-i" title="Permalink till denna rubrik">¶</a></h2>
+<p><cite>pwd</cite> visar sökvägen till din nuvarande plats.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pwd</span>
+<span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">user</span>
+</pre></div>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tips</p>
+<p>Du kan be om hjälp med alla kommandon och få information om hur de kan användas och om ytterligare alternativ.</p>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>pwd --help
+pwd: pwd [-LP]
+  Print the name of the current working directory.
+
+  Options:
+    -L        print the value of $PWD if it names the current working
+              directory
+    -P        print the physical directory, without any symbolic links
+
+  By default, `pwd&#39; behaves as if `-L&#39; were specified.
+
+  Exit Status:
+  Returns 0 unless an invalid option is given or the current directory cannot be read.
+</pre></div>
+</div>
+</section>
+<section id="how-to-navigate-in-the-file-system">
+<h2><a class="toc-backref" href="#id2">Hur navigerar man i filsystemet?</a><a class="headerlink" href="#how-to-navigate-in-the-file-system" title="Permalink till denna rubrik">¶</a></h2>
+<p>Först bör du lära dig hur filsystemet under Linux är organiserat. Filsystemet är organiserat i ett träd. Det börjar med <cite>/</cite> som kallas rotkatalogen. Alla filer och kataloger finns under rotkatalogen (<cite>/</cite>).</p>
+<p>Den aktuella användaren är ”<cite>user</cite>” och har en hemkatalog som ligger i <cite>/home/user</cite>. Varje gång du öppnar ett terminalfönster kommer det att starta i din hemkatalog (se pwd).</p>
+<p>Du kan enkelt navigera i filsystemet med kommandot cd.</p>
+<p>cd / navigerade till rotkatalogen cd /home/user går till din hemkatalog samma som cd ~</p>
+<p><cite>cd ..</cite> flyttar dig en katalog uppåt, <cite>cd</cite> user går från din nuvarande plats till användarens hemkatalog. Detta är inte samma sak som <cite>/user</cite></p>
+<div class="admonition tip">
+<p class="admonition-title">Tips</p>
+<p>Använd tabbtangenten för att autokomplettera sökvägen medan du skriver.</p>
+</div>
+</section>
+<section id="create-a-directory">
+<h2><a class="toc-backref" href="#id3">Skapa en katalog</a><a class="headerlink" href="#create-a-directory" title="Permalink till denna rubrik">¶</a></h2>
+<p>Du har skrivbehörighet i din användarkatalog. Du kan skapa filer och kataloger där. Nu ska vi skapa en katalog för några kommandoradstester.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">~</span>
+<span class="n">mkdir</span> <span class="n">demo</span> <span class="o">-</span> <span class="n">creates</span> <span class="n">the</span> <span class="n">directory</span> <span class="n">demo</span>
+<span class="n">cd</span> <span class="n">demo</span>
+</pre></div>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tips</p>
+<p>Du har en kommandohistorik. Du kan navigera i historiken med hjälp av pil upp och pil ner.</p>
+</div>
+</section>
+<section id="how-to-create-a-new-file">
+<h2><a class="toc-backref" href="#id4">Så här skapar du en ny fil</a><a class="headerlink" href="#how-to-create-a-new-file" title="Permalink till denna rubrik">¶</a></h2>
+<p><cite>touch</cite> skapar en ny tom fil.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">~/</span><span class="n">demo</span>
+<span class="n">touch</span> <span class="n">hello</span><span class="o">.</span><span class="n">txt</span>
+</pre></div>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">Tips</p>
+<p>Du kan skicka informationen från ett kommando till en fil, t.ex. kommandohistoriken. <cite>history</cite> visar kommandohistoriken. Med följande kommando kan den sparas i en fil.</p>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">history</span> <span class="o">&gt;</span> <span class="n">history</span><span class="o">.</span><span class="n">txt</span>
+</pre></div>
+</div>
+</section>
+<section id="show-me-what-is-in-a-directory">
+<h2><a class="toc-backref" href="#id5">Visa mig vad som finns i en katalog</a><a class="headerlink" href="#show-me-what-is-in-a-directory" title="Permalink till denna rubrik">¶</a></h2>
+<p>Du skulle vilja veta mer om innehållet i en katalog. <cite>ls</cite> är programmet som ger dig en hel del information.</p>
+<ul class="simple">
+<li><p><cite>ls</cite> listar alla filer och kataloger</p></li>
+<li><p><cite>ls -l</cite> visar en mer detaljerad lista över filer/kataloger med tid, användares åtkomsträttigheter</p></li>
+<li><p><cite>ls -a</cite> visar även dolda filer</p></li>
+<li><p><cite>ls -al</cite> kan du kombinera de olika alternativen</p></li>
+<li><p><cite>ls -1</cite> visar bara filnamnen</p></li>
+</ul>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">~/</span><span class="n">demo</span>
+<span class="n">ls</span> <span class="o">-</span><span class="n">l</span>
+
+<span class="n">total</span> <span class="mi">4</span>
+<span class="o">-</span><span class="n">rw</span><span class="o">-</span><span class="n">rw</span><span class="o">-</span><span class="n">r</span><span class="o">--</span> <span class="mi">1</span> <span class="n">user</span> <span class="n">user</span>   <span class="mi">0</span> <span class="n">Dec</span> <span class="mi">26</span> <span class="mi">16</span><span class="p">:</span><span class="mi">23</span> <span class="n">hello</span><span class="o">.</span><span class="n">txt</span>
+<span class="o">-</span><span class="n">rw</span><span class="o">-</span><span class="n">rw</span><span class="o">-</span><span class="n">r</span><span class="o">--</span> <span class="mi">1</span> <span class="n">user</span> <span class="n">user</span> <span class="mi">255</span> <span class="n">Dec</span> <span class="mi">26</span> <span class="mi">16</span><span class="p">:</span><span class="mi">24</span> <span class="n">history</span><span class="o">.</span><span class="n">txt</span>
+</pre></div>
+</div>
+</section>
+<section id="copy-files-and-directories">
+<h2><a class="toc-backref" href="#id6">Kopiera filer och kataloger</a><a class="headerlink" href="#copy-files-and-directories" title="Permalink till denna rubrik">¶</a></h2>
+<p>Du kan kopiera filer från en plats till en annan.</p>
+<p>Kopiera en fil till en ny fil</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cp</span> <span class="n">hello</span><span class="o">.</span><span class="n">txt</span> <span class="n">hello_again</span><span class="o">.</span><span class="n">txt</span>
+</pre></div>
+</div>
+<p>Kopiera en fil till en annan katalog</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cp</span> <span class="n">hello</span><span class="o">.</span><span class="n">txt</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">user</span><span class="o">/</span>
+</pre></div>
+</div>
+<p>Kopiera en hel katalog till en ny plats (-R rekursiv)</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cp</span> <span class="o">-</span><span class="n">R</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">user</span><span class="o">/</span><span class="n">demo</span> <span class="o">/</span><span class="n">tmp</span>
+</pre></div>
+</div>
+</section>
+<section id="who-is-sudo">
+<h2><a class="toc-backref" href="#id7">Vem är sudo?</a><a class="headerlink" href="#who-is-sudo" title="Permalink till denna rubrik">¶</a></h2>
+<p>Med <cite>sudo</cite> kan du göra saker som du normalt inte får göra. <cite>sudo</cite> kör kommandon med samma rättigheter som superanvändaren, även känd som root Med <cite>sudo</cite> kan du t.ex. installera mer programvara, administrera tjänster, ändra åtkomsträttigheter och mycket annat kul. Du kommer att se användningen av <cite>sudo</cite> i några av följande kommandon.</p>
+</section>
+<section id="search-and-install-programs">
+<h2><a class="toc-backref" href="#id8">Söka och installera program</a><a class="headerlink" href="#search-and-install-programs" title="Permalink till denna rubrik">¶</a></h2>
+<p>Visa information om program.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">apt</span> <span class="n">show</span> <span class="n">postgis</span>
+</pre></div>
+</div>
+<p>Sök efter program</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">apt</span> <span class="n">search</span> <span class="n">postgis</span>
+</pre></div>
+</div>
+<p>Installera program</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">sl</span>
+</pre></div>
+</div>
+<p>Du kommer att älska programmet <cite>sl</cite>. Kör det nya programmet med <cite>sl</cite> se även <cite>apt show sl</cite>.</p>
+</section>
+<section id="services">
+<h2><a class="toc-backref" href="#id9">Tjänster</a><a class="headerlink" href="#services" title="Permalink till denna rubrik">¶</a></h2>
+<p>Vissa program körs som tjänster som PostgreSQL, tomcat eller Apache Webserver. Du kan starta eller stoppa tjänsterna.</p>
+<p>Starta om din Apache-tjänst</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">service</span> <span class="n">apache2</span> <span class="n">restart</span>
+
+<span class="n">sudo</span> <span class="n">service</span> <span class="n">apache2</span> <span class="o">--</span><span class="n">help</span>
+
+<span class="n">sudo</span> <span class="n">service</span> <span class="n">apache2</span> <span class="n">status</span>
+</pre></div>
+</div>
+</section>
+<section id="how-to-edit-files">
+<h2><a class="toc-backref" href="#id10">Så här redigerar du filer</a><a class="headerlink" href="#how-to-edit-files" title="Permalink till denna rubrik">¶</a></h2>
+<p>Du kan antingen redigera filer i terminalen eller öppna dem med ett externt program som Geany.</p>
+<p>I terminalfönstret kan du använda redigeringsprogrammet <cite>vim</cite> (Vi IMproved). <cite>vim</cite> är mycket kraftfull och har många alternativ.</p>
+<p>Se även</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://help.ubuntu.com/community/VimHowto">https://help.ubuntu.com/community/VimHowto</a></p></li>
+<li><p><a class="reference external" href="https://vim.rtorr.com/lang/en_en">https://vim.rtorr.com/lang/en_en</a></p></li>
+</ul>
+<p>Öppna en fil med <cite>vim</cite>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">vim</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">user</span><span class="o">/</span><span class="n">demo</span><span class="o">/</span><span class="n">hello</span><span class="o">.</span><span class="n">txt</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>tryck på <cite>i</cite> för att växla till inmatningsläge</p></li>
+<li><p><cite>ESC</cite> lämnar inmatningsläget</p></li>
+<li><p><cite>:w</cite> sparar dina ändringar</p></li>
+<li><p><cite>:wq</cite> sparar dina ändringar och stänger filen</p></li>
+<li><p><cite>:q</cite> stänger filen</p></li>
+<li><p><cite>:q!</cite> stänger filen utan att spara</p></li>
+</ul>
+</section>
+<section id="owner-and-access-rights">
+<h2><a class="toc-backref" href="#id11">Ägare och åtkomsträttigheter</a><a class="headerlink" href="#owner-and-access-rights" title="Permalink till denna rubrik">¶</a></h2>
+<p>Åtkomsträttigheter definierar om en <cite>användare</cite> eller <cite>grupp</cite> eller <cite>andra</cite> har åtkomst till en fil och vilken typ av åtkomst som ges. Du kan ha <cite>läsa</cite>, <cite>skriva</cite> eller <cite>exekvera</cite> åtkomst.</p>
+<p>Kataloger eller filer har en ägare och en gruppdefinition. Som standard är det skaparen av en fil/katalog som är ägare. Men denna definition kan ändras. Detta kommer du att lära dig i nästa avsnitt.</p>
+<p>Du kan visa ägare och grupp via <cite>ls -l</cite></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">user</span><span class="o">/</span><span class="n">demo</span>
+<span class="n">ls</span> <span class="o">-</span><span class="n">l</span>
+<span class="o">-</span><span class="n">rw</span><span class="o">-</span><span class="n">rw</span><span class="o">-</span><span class="n">r</span><span class="o">--</span> <span class="mi">1</span> <span class="n">user</span> <span class="n">user</span> <span class="mi">122</span> <span class="n">Dec</span> <span class="mi">26</span> <span class="mi">16</span><span class="p">:</span><span class="mi">11</span> <span class="n">history</span><span class="o">.</span><span class="n">txt</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>det inledande tecknet kan vara <cite>-</cite> för en fil eller <cite>d</cite> för en katalog</p></li>
+<li><p><cite>user</cite> definieras som ägare och gruppen</p></li>
+</ul>
+<p>Åtkomsträttigheterna anges i början av raden:</p>
+<ul class="simple">
+<li><p><cite>r</cite> läsa</p></li>
+<li><p><cite>w</cite> skriva</p></li>
+<li><p><cite>x</cite> exekvera</p></li>
+<li><p>första 3 bokstäverna för ägaren</p></li>
+<li><p>sedan nästa 3 bokstäver för gruppen</p></li>
+<li><p>följt av de 3 sista bokstäverna för andra</p></li>
+</ul>
+</section>
+<section id="change-the-owner-with-chown">
+<h2><a class="toc-backref" href="#id12">Byt ägare med <cite>chown</cite></a><a class="headerlink" href="#change-the-owner-with-chown" title="Permalink till denna rubrik">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">chown</span> <span class="o">-</span><span class="n">R</span> <span class="n">user</span><span class="p">:</span><span class="n">www</span><span class="o">-</span><span class="n">data</span> <span class="o">/</span><span class="n">var</span><span class="o">/</span><span class="n">www</span><span class="o">/</span><span class="n">html</span><span class="o">/</span><span class="n">TBD</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>skicka först användaren och sedan gruppen - som <cite>användare:www-data</cite></p></li>
+<li><p><cite>-R</cite> rekursiv</p></li>
+</ul>
+</section>
+<section id="change-access-rights-with-chmod">
+<h2><a class="toc-backref" href="#id13">Ändra åtkomsträttigheter med <cite>chmod</cite></a><a class="headerlink" href="#change-access-rights-with-chmod" title="Permalink till denna rubrik">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">chmod</span> <span class="o">-</span><span class="n">R</span> <span class="mi">777</span> <span class="o">/</span><span class="n">var</span><span class="o">/</span><span class="n">www</span><span class="o">/</span><span class="n">html</span><span class="o">/</span><span class="n">TBD</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>777 alla kan göra allt</p></li>
+<li><p><cite>-R</cite> rekursiv</p></li>
+<li><ol class="arabic simple">
+<li><p>nummer: ägare (u)</p></li>
+</ol>
+</li>
+<li><ol class="arabic simple" start="2">
+<li><p>antal: grupp (g)</p></li>
+</ol>
+</li>
+<li><ol class="arabic simple" start="3">
+<li><p>nummer: annat (o)</p></li>
+</ol>
+</li>
+<li><p>4 läs</p></li>
+<li><p>2 skriv</p></li>
+<li><p>1 utförande</p></li>
+<li><p>660 - ägare och grupp har rätt att läsa och skriva, övriga har inga rättigheter</p></li>
+<li><p>744 - ägaren kan göra allt, gruppen och andra kan bara läsa</p></li>
+</ul>
+<p>eller använd den så här</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sudo</span> <span class="n">chmod</span> <span class="o">-</span><span class="n">R</span> <span class="n">u</span><span class="o">+</span><span class="n">rwx</span> <span class="o">/</span><span class="n">var</span><span class="o">/</span><span class="n">www</span><span class="o">/</span><span class="n">html</span><span class="o">/</span><span class="n">TBD</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>u = användare</p></li>
+<li><p>g = grupp</p></li>
+<li><p>o = annan</p></li>
+<li><p>a = alla</p></li>
+<li><p>+/- höger: r = läsa / w = skriva / x = köra</p></li>
+</ul>
+</section>
+<section id="things-to-try">
+<h2><a class="toc-backref" href="#id14">Saker att prova</a><a class="headerlink" href="#things-to-try" title="Permalink till denna rubrik">¶</a></h2>
+<p>Här är några andra kommandon som du kan prova.</p>
+<ul class="simple">
+<li><p>grep - sök efter ett mönster i en text</p></li>
+<li><p>historik | grep cd</p></li>
+<li><p>rm - ta bort en fil</p></li>
+<li><p>rmdir - ta bort en tom katalog</p></li>
+<li><p>mv - byta namn/flytta</p></li>
+<li><p>head - visa början av en fil</p></li>
+<li><p>tail - visa slutet av en fil</p></li>
+<li><p>find - sök efter filer i en kataloghierarki</p></li>
+<li><p>locate - hitta filer efter namn</p></li>
+</ul>
+</section>
+<section id="what-next">
+<h2><a class="toc-backref" href="#id15">Hur vill du gå vidare?</a><a class="headerlink" href="#what-next" title="Permalink till denna rubrik">¶</a></h2>
+<p>Du har lärt dig några viktiga kommandon och information för att arbeta med kommandoraden. Förhoppningsvis har du upptäckt hur kraftfull kommandoraden är.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://ubuntu.com/tutorials/command-line-for-beginners#1-overview">https://ubuntu.com/tutorials/command-line-for-beginners#1-overview</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Category:Standard_Unix_programs">https://en.wikipedia.org/wiki/Category:Standard_Unix_programs</a></p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

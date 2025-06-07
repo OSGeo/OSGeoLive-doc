@@ -1,0 +1,230 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Snabbstart för JOSM &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="GpsPrune" href="../overview/gpsprune_overview.html" />
+    <link rel="prev" title="JOSM" href="../overview/josm_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://josm.openstreetmap.de"><img alt="../../_images/logo_josm.png" class="align-right" src="../../_images/logo_josm.png" /></a>
+<section id="josm-quickstart">
+<h1>Snabbstart för JOSM<a class="headerlink" href="#josm-quickstart" title="Permalink till denna rubrik">¶</a></h1>
+<p>JOSM är en funktionsrik, utbyggbar, offline desktop editor för OpenStreetMap (OSM) data, skriven i Java.</p>
+<p>Det stöder inläsning av fristående GPX-spår och GPX-spårdata samt redigering av befintliga noder (punkter), vägar (linjer), metadatataggar (namn/värdeinformation) och relationer (ordnad sekvens av punkter och linjer) från OSM-databasen. GPX-spår laddas vanligtvis ner i förväg från en GPS-mottagare eller från andra källor.</p>
+<p>Denna snabbstart täcker grundläggande användning av Java OpenStreetMap-editorn.</p>
+<div class="contents local topic" id="innehall">
+<ul class="simple">
+<li><p><a class="reference internal" href="#start-josm" id="id1">Starta JOSM</a></p></li>
+<li><p><a class="reference internal" href="#load-a-sample-ficticious-map" id="id2">Ladda ett exempel på en (fiktiv) karta</a></p></li>
+<li><p><a class="reference internal" href="#navigate-the-map" id="id3">Navigera på kartan</a></p>
+<ul>
+<li><p><a class="reference internal" href="#points-lines-and-shapes" id="id4">Punkter, linjer och former</a></p></li>
+<li><p><a class="reference internal" href="#changing-objects" id="id5">Byte av objekt</a></p></li>
+<li><p><a class="reference internal" href="#drawing" id="id6">Ritning</a></p></li>
+<li><p><a class="reference internal" href="#add-presets" id="id7">Lägg till förinställningar</a></p></li>
+</ul>
+</li>
+<li><p><a class="reference internal" href="#draw-your-own-map" id="id8">Rita din egen karta</a></p></li>
+<li><p><a class="reference internal" href="#remove-the-sample-layer" id="id9">Ta bort provlagret</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id10">Hur vill du gå vidare?</a></p></li>
+</ul>
+</div>
+<section id="start-josm">
+<h2><a class="toc-backref" href="#id1">Starta JOSM</a><a class="headerlink" href="#start-josm" title="Permalink till denna rubrik">¶</a></h2>
+<p>Från skrivbordet väljer du <span class="menuselection">Navigation och kartor ‣ JOSM</span>. När JOSM startar kommer det att se ut ungefär så här:</p>
+<img alt="JOSM startsida" src="../../_images/josm-splash-page.png" />
+</section>
+<section id="load-a-sample-ficticious-map">
+<h2><a class="toc-backref" href="#id2">Ladda ett exempel på en (fiktiv) karta</a><a class="headerlink" href="#load-a-sample-ficticious-map" title="Permalink till denna rubrik">¶</a></h2>
+<ol class="arabic">
+<li><p>Låt oss nu öppna en OSM-fil som vi kommer att använda för att lära oss de grundläggande sätten att rita kartor med JOSM. Observera att den här kartan inte är riktig, eftersom det inte är en riktig karta över en riktig plats, så vi kommer inte att spara den på OpenStreetMap.</p></li>
+<li><p>Ladda ner filen här: <a class="reference external" href="https://learnosm.org/files/sample.osm">sample.osm</a></p></li>
+<li><p>Låt oss nu öppna exempelkartfilen i JOSM. Klicka på knappen ”Öppna” längst upp till vänster.</p>
+<img alt="Öppna fil" src="../../_images/josm_open-file.png" />
+</li>
+<li><p>Leta reda på filen <strong>sample.osm</strong>. Den finns förmodligen i mappen Downloads, om du inte har sparat den någon annanstans.</p></li>
+<li><p>Klicka på den och klicka sedan på ”Öppna”. Du bör nu se en exempelkarta som ser ut så här:</p>
+<img alt="Exempel på fil" src="../../_images/josm_sample-file.png" />
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Observera</p>
+<p>Du kommer att använda dessa data för att prova olika redigeringstekniker. <em>Du får dock aldrig ladda upp dessa fiktiva data till databasen.</em></p>
+</div>
+</section>
+<section id="navigate-the-map">
+<h2><a class="toc-backref" href="#id3">Navigera på kartan</a><a class="headerlink" href="#navigate-the-map" title="Permalink till denna rubrik">¶</a></h2>
+<ul>
+<li><p>För att flytta kartan åt vänster eller höger, uppåt eller nedåt, håll höger musknapp nedtryckt och flytta musen.</p></li>
+<li><p>Det finns flera sätt att zooma in och ut på kartan. Om du har en mus kan du använda rullningshjulet för att zooma in och ut. Om du använder en bärbar dator och inte har någon mus kan du zooma in och ut med hjälp av skalfältet längst upp till vänster i kartfönstret. Dra stapeln åt vänster och höger genom att hålla ned vänster musknapp och flytta stapeln åt vänster eller höger med musen.</p>
+<img alt="Skalstreck" src="../../_images/josm_scale-bar.png" />
+</li>
+<li><p>Titta på exempelkartan. Det finns några olika typer av objekt här. Det finns en flod, en skog, några byggnader, flera vägar och ett par butiker. För att välja ett objekt klickar du på det med vänster musknapp.</p></li>
+</ul>
+<section id="points-lines-and-shapes">
+<h3><a class="toc-backref" href="#id4">Punkter, linjer och former</a><a class="headerlink" href="#points-lines-and-shapes" title="Permalink till denna rubrik">¶</a></h3>
+<p>När du klickar på olika objekt på exempelkartan ska du lägga märke till att det finns tre olika typer av objekt på kartan. Det finns punkter, linjer och former.</p>
+<ul>
+<li><p>Punkter är en enda plats som representeras av symboler. På denna exempelkarta finns det två punkter, en skoaffär och en stormarknad. Skobutiken representeras av en skosymbol och stormarknaden representeras av en kundvagn.</p></li>
+<li><p>Det finns också flera linjer på kartan, som representerar vägar. Om du tittar noga ser du att det också finns punkter inom linjerna. Dessa punkter har inga symboler eller annan information kopplad till sig, men de hjälper till att definiera var linjen är belägen.</p></li>
+<li><p>Slutligen finns det många former på provkartan som representerar olika platser - en skog, en flod, en park och byggnader. En form används för att representera ett område, t.ex. ett fält eller en byggnad. En form är precis som en linje - den enda skillnaden är att linjen börjar på samma ställe där den slutar.</p>
+<blockquote>
+<div><p>Det är lätt att tänka sig att en karta innehåller dessa tre grundläggande typer av objekt - punkter, linjer och former. I OpenStreetMap finns det en speciell terminologi som du kommer att lära dig under arbetets gång. I OSM kallas punkter faktiskt <strong>noder</strong> och linjer kallas <strong>vägar</strong>. En form kallas en <strong>sluten väg</strong> eftersom det bara är en linje som slutar vid samma punkt där den börjar.</p>
+</div></blockquote>
+</li>
+<li><p>Du kanske märker att när du markerar ett objekt visas en lista till höger om kartan i ett fönster som heter ”Properties”. Dessa är kända som taggar. Taggar är information som är knuten till en punkt, linje eller form och som beskriver vad den är. Vi kommer att lära oss mer om taggar i ett senare kapitel. För tillfället behöver du bara veta att den här informationen hjälper dig att beskriva om vårt objekt är en skog, en flod, en byggnad eller något annat.</p></li>
+<li><p>Tänk på att du ritar en karta för hand och att du samtidigt ritar punkter, linjer och former. Vilka andra platser representeras bäst av punkter? Linjer? Former?</p></li>
+</ul>
+</section>
+<section id="changing-objects">
+<h3><a class="toc-backref" href="#id5">Byte av objekt</a><a class="headerlink" href="#changing-objects" title="Permalink till denna rubrik">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Välj skogen på vänstra sidan av kartan. Se till att du klickar på linjen runt skogen, inte på någon av punkterna på linjen.</p></li>
+<li><p>Håll nu vänster musknapp nedtryckt och dra musen. Du bör kunna flytta skogen till en ny plats på kartan.</p></li>
+<li><p>Klicka på en av punkterna på linjen runt skogen. Håll vänster musknapp nedtryckt och dra musen. Du bör kunna flytta punkten. Så här kan du ändra formen på ett objekt eller flytta en punkt.</p></li>
+</ol>
+</section>
+<section id="drawing">
+<h3><a class="toc-backref" href="#id6">Ritning</a><a class="headerlink" href="#drawing" title="Permalink till denna rubrik">¶</a></h3>
+<ul class="simple">
+<li><p>På vänster sida av JOSM finns en kolumn med knappar. Många av dessa knappar öppnar nya fönster på höger sida som ger mer information om kartan. De viktigaste knapparna finns dock högst upp i kolumnen. Dessa knappar ändrar vad du kan göra med musen.</p></li>
+<li><p>De översta knapparna i den här kolumnen är de som du kommer att använda mest. De används för att välja objekt och för att rita nya objekt.</p></li>
+<li><p>Fram till nu har du använt verktyget Select, som ser ut så här:</p></li>
+</ul>
+<img alt="Välj verktyg" src="../../_images/josm_select-tool.png" />
+<p>Innan du ritar måste du se till att inget är valt.</p>
+<ol class="arabic">
+<li><p>Klicka i det svarta utrymmet på kartan, där det är tomt, för att se till att inget är markerat.</p></li>
+<li><p>Klicka på den andra knappen, ritverktyget.</p>
+<img alt="Ritverktyg" src="../../_images/josm_draw-tool.png" />
+</li>
+<li><p>Leta upp ett tomt område på kartan och dubbelklicka med musen. Detta kommer att rita en enda punkt.</p></li>
+</ol>
+<ul class="simple">
+<li><p>För att dra en linje, klicka en gång med musen. Flytta musen och klicka igen. Fortsätt tills du är nöjd med din linje. För att avsluta linjen dubbelklickar du med musen.</p></li>
+<li><p>Rita en form på samma sätt som du ritar en linje, men avsluta formen genom att dubbelklicka på den punkt där du började linjen.</p></li>
+</ul>
+</section>
+<section id="add-presets">
+<h3><a class="toc-backref" href="#id7">Lägg till förinställningar</a><a class="headerlink" href="#add-presets" title="Permalink till denna rubrik">¶</a></h3>
+<p>Nu vet vi hur man ritar punkter, linjer och former, men vi har fortfarande inte definierat vad de representerar. Vi vill kunna säga att våra punkter är butiker, skolor eller något annat, och om våra former är fält, byggnader eller något annat.</p>
+<ol class="arabic">
+<li><p>Klicka på verktyget Select i kolumnen med knappar till vänster.</p>
+<img alt="Välj verktyg" src="../../_images/josm_select-tool.png" />
+</li>
+<li><p>Markera ett av de objekt som du ritade med verktyget Draw.</p></li>
+<li><p>Klicka på ”Presets” i menyn längst upp och välj den typ av plats som du vill definiera.</p></li>
+<li><p>När du väljer en förinställning kommer ett formulär upp där du ombeds fylla i mer information. Du behöver inte fylla i alla fält, men du kanske vill lägga till några av de viktigaste fälten, t.ex. objektets namn.</p></li>
+<li><p>När du har matat in informationen klickar du på ”Apply Preset”. Om allt gick bra bör din punkt, linje eller form ändra färg eller visa en symbol. Detta beror på att du har definierat vad det är.</p></li>
+</ol>
+</section>
+</section>
+<section id="draw-your-own-map">
+<h2><a class="toc-backref" href="#id8">Rita din egen karta</a><a class="headerlink" href="#draw-your-own-map" title="Permalink till denna rubrik">¶</a></h2>
+<p>Låt oss nu rita en karta för att öva på de tekniker du har lärt dig. Du kanske vill rita om kartan som du ritade på papper tidigare.</p>
+<ul class="simple">
+<li><p>Dra kartan bort från provkartan. Håll höger musknapp intryckt och dra musen tills du har en tom yta att rita på.</p></li>
+<li><p>Använd verktyget Draw för att skapa punkter, linjer och former. Beskriv vad dina objekt är genom att välja från menyn Förinställningar.</p></li>
+<li><p>När du är klar bör du ha en egen karta som liknar den exempelkarta som vi öppnade i sample.osm.</p></li>
+</ul>
+</section>
+<section id="remove-the-sample-layer">
+<h2><a class="toc-backref" href="#id9">Ta bort provlagret</a><a class="headerlink" href="#remove-the-sample-layer" title="Permalink till denna rubrik">¶</a></h2>
+<p>När du känner dig bekväm med dessa grundläggande redigeringstekniker kanske du vill ägna dig åt att mappa riktiga funktioner.</p>
+<div class="admonition note">
+<p class="admonition-title">Observera</p>
+<p><em>Det är mycket viktigt att du först tar bort lagret med exempeldata. Dessa data är fiktiva och får inte laddas upp till OpenStreetMap-databasen (nyare JOSM-versioner förhindrar detta automatiskt).</em></p>
+</div>
+<p>I fönstret Lager längst upp till höger på skärmen väljer du lagret sample.osm. Klicka sedan på papperskorgsikonen i det nedre högra hörnet av fönstret. Alternativt kan du välja delete från kontextmenyn i lagret.</p>
+</section>
+<section id="what-next">
+<h2><a class="toc-backref" href="#id10">Hur vill du gå vidare?</a><a class="headerlink" href="#what-next" title="Permalink till denna rubrik">¶</a></h2>
+<ul class="simple">
+<li><p>Testa LearnOSM-dokumentationen, som denna snabbstart är hämtad från: <a class="reference external" href="https://learnosm.org/en/josm/start-josm/">https://learnosm.org/en/josm/start-josm/</a></p></li>
+<li><p>För att kunna fortsätta redigera måste du först ladda ner verkliga data. Detta förklaras i nästa kapitel: <a class="reference external" href="https://learnosm.org/en/josm/more-about-josm/">https://learnosm.org/en/josm/more-about-josm/</a></p></li>
+<li><p>Webbplats: <a class="reference external" href="https://josm.openstreetmap.de/">https://josm.openstreetmap.de/</a></p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

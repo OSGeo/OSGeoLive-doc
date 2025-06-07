@@ -1,0 +1,248 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>OTB Snabbstart &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="GMT" href="../overview/gmt_overview.html" />
+    <link rel="prev" title="OTB" href="../overview/otb_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://www.orfeo-toolbox.org/"><img alt="../../_images/logo_otb.png" class="align-right" src="../../_images/logo_otb.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<section id="otb-quickstart">
+<h1>OTB Snabbstart<a class="headerlink" href="#otb-quickstart" title="Permalink till denna rubrik">¶</a></h1>
+<p>ORFEO Toolbox library (OTB) är ett högpresterande bibliotek för bildbehandling inriktat på fjärranalys.</p>
+<p>Denna snabbstart beskriver hur du gör:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Hämta metadatainformation från en bild</p></li>
+<li><p>Utföra matematiska operationer mellan bildband</p></li>
+<li><p>Öppna rasterbilder med programmet monteverdi, utför segmentering (mean-shift clustering) och visualisera resultatet</p></li>
+<li><p>Utföra övervakad klassificering baserad på Support Vector Machine-algoritmen</p></li>
+</ul>
+</div></blockquote>
+<p>OTB-applikationerna innehåller många intressanta verktyg som underlättar manipuleringen av bilder. Alla dessa verktyg är tillgängliga via:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>CLI (kommandoradsgränssnitt). Alla program kan anropas från en terminal som börjar med <cite>otbcli_</cite> plus programmets namn.</p></li>
+<li><p>GUI (ett fristående grafiskt användargränssnitt i Qt). Applikationerna kan anropas från en terminal med aliaset <cite>otbgui_</cite> plus applikationens namn. Ett annat alternativ är att använda en liten launcher (finns i <span class="menuselection">menyn ‣ Geospatial ‣ Spatial Tools ‣ OTB Launcher</span>).</p></li>
+<li><p>QGIS-plugin - tillgängligt via bearbetningsramen.</p></li>
+</ul>
+</div></blockquote>
+<dl class="simple">
+<dt>Exempel på data som används i denna snabbstart finns i :</dt><dd><ul class="simple">
+<li><p>/home/user/data/north_carolina/rast_geotiff</p></li>
+</ul>
+</dd>
+</dl>
+<p>Starta en terminalemulator (för närvarande LXTerminal) från menyn Program i avsnittet Tillbehör. Detta ger dig en kommandoprompt för Unix-shell. Gå till datakatalogen.</p>
+<blockquote>
+<div><p>cd /home/user/data/north_carolina/rast_geotiff</p>
+</div></blockquote>
+<div class="contents local topic" id="contents">
+<p class="topic-title">Innehåll</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#display-metadata-information-in-an-image" id="id1">Visa metadatainformation i en bild</a></p></li>
+<li><p><a class="reference internal" href="#calculator-on-image-bands" id="id2">Kalkylator på bildband</a></p></li>
+<li><p><a class="reference internal" href="#pixel-based-classification" id="id3">Pixelbaserad klassificering</a></p></li>
+<li><p><a class="reference internal" href="#perform-segmentation" id="id4">Utföra segmentering</a></p></li>
+<li><p><a class="reference internal" href="#otb-in-qgis" id="id5">OTB i QGis</a></p></li>
+<li><p><a class="reference internal" href="#developing-with-otb" id="id6">Utveckla med OTB</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id7">Hur vill du gå vidare?</a></p></li>
+</ul>
+</div>
+<section id="display-metadata-information-in-an-image">
+<h2><a class="toc-backref" href="#id1">Visa metadatainformation i en bild</a><a class="headerlink" href="#display-metadata-information-in-an-image" title="Permalink till denna rubrik">¶</a></h2>
+<p>Du kan hämta all metadatainformation som finns i en bild med kommandot: <cite>otbcli_ReadImageInfo</cite> Den unika parametern är namnet på bildfilen, till exempel:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">otbcli_ReadImageInfo</span> <span class="o">-</span><span class="ow">in</span> <span class="n">ortho_2001_t792_1m</span><span class="o">.</span><span class="n">tif</span>
+</pre></div>
+</div>
+</section>
+<section id="calculator-on-image-bands">
+<h2><a class="toc-backref" href="#id2">Kalkylator på bildband</a><a class="headerlink" href="#calculator-on-image-bands" title="Permalink till denna rubrik">¶</a></h2>
+<p><cite>otbcli_otbBandMath</cite> ger ett effektivt sätt att utföra matematiska operationer på bildband. Syntaxen är ganska enkel. För att t.ex. substrera två band för att studera bildskillnaderna på bilderna <cite>lsat7_2002_10.tif</cite> och <cite>lsat7_2002_20.tif</cite>, använd bara kommandot:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">otbcli_BandMath</span> <span class="o">-</span><span class="n">il</span> <span class="n">lsat7_2002_10</span><span class="o">.</span><span class="n">tif</span> <span class="n">lsat7_2002_20</span><span class="o">.</span><span class="n">tif</span> <span class="o">-</span><span class="n">out</span>  <span class="o">~/</span><span class="n">difference</span><span class="o">.</span><span class="n">tif</span> <span class="o">-</span><span class="n">exp</span> <span class="s2">&quot;im1b1-im2b1&quot;</span>
+</pre></div>
+</div>
+<p>Programmet kan utföra komplexa matematiska operationer över bilder (tröskelvärde, logaritmisk omskalning etc.). Den här egenutvecklade digitala kalkylatorn innehåller också anpassade funktioner som gör att du kan beräkna ett fullständigt uttryck. Eftersom fjärranalysbilder mäter fysiska värden är det t.ex. möjligt att extrahera flera index med fysisk innebörd, t.ex. NDVI (Normalized Difference Vegetation Index) för vegetationen. Med kalkylatorn kan du beräkna NDVI på en multispektral sensors bilder genom att göra:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">otbcli_BandMath</span> <span class="o">-</span><span class="n">il</span> <span class="n">lsat7_2002_30</span><span class="o">.</span><span class="n">tif</span> <span class="n">lsat7_2002_40</span><span class="o">.</span><span class="n">tif</span> <span class="o">-</span><span class="n">out</span> <span class="o">~/</span><span class="n">ndvi</span><span class="o">.</span><span class="n">tif</span> <span class="o">-</span><span class="n">exp</span> <span class="s2">&quot;ndvi(im1b1,im2b1)&quot;</span>
+</pre></div>
+</div>
+<p>Filen <cite>lsat7_2002_30.tif</cite> motsvarar Landsat 7 röd kanal, <cite>lsat7_2002_40.tif</cite> motsvarar Near Infra-Red.</p>
+<p>Du kan sedan visualisera inmatade bilder och resultatet med kommandot</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">monteverdi</span> <span class="n">lsat7_2002_30</span><span class="o">.</span><span class="n">tif</span> <span class="n">lsat7_2002_40</span><span class="o">.</span><span class="n">tif</span> <span class="o">~/</span><span class="n">ndvi</span><span class="o">.</span><span class="n">tif</span>
+</pre></div>
+</div>
+</section>
+<section id="pixel-based-classification">
+<h2><a class="toc-backref" href="#id3">Pixelbaserad klassificering</a><a class="headerlink" href="#pixel-based-classification" title="Permalink till denna rubrik">¶</a></h2>
+<p>Klassificeringen i applikationsramen ger en övervakad pixelvis klassificeringskedja baserad på inlärning från flera bilder och med hjälp av en specificerad maskininlärningsmetod som SVM, Bayes, KNN, Random Forests, Artificial Neural Network och andra. Se applikationshjälpen för <cite>TrainImagesClassifier</cite> för mer information om alla tillgängliga klassificerare. Den stöder enorma bilder genom streaming och multi-threading. Klassificeringskedjan utför ett träningssteg baserat på intensiteterna för varje pixel som funktioner. Observera att alla inmatade bilder måste ha samma antal band för att vara jämförbara.</p>
+<p>För att upptäcka denna applikation kan du använda kommandot</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">otbgui_TrainImagesClassifier</span>
+</pre></div>
+</div>
+</section>
+<section id="perform-segmentation">
+<h2><a class="toc-backref" href="#id4">Utföra segmentering</a><a class="headerlink" href="#perform-segmentation" title="Permalink till denna rubrik">¶</a></h2>
+<p>OTB <em>Segmentation</em>-applikationen gör det möjligt att producera en rastersegmenteringsutgång med olika algoritmer och att skala upp till stora raster genom att producera vektorutgångar som du kan importera i en GIS-programvara. Det finns fyra segmenteringsmetoder tillgängliga i programmet:</p>
+<ul class="simple">
+<li><p>Medelvärdesförskjutning</p></li>
+<li><p>Vattendelare (genomförande av ITK)</p></li>
+<li><p>Anslutna komponenter</p></li>
+<li><p>Morfologiska profiler</p></li>
+</ul>
+<p>Du kan testa segmenteringen med dessa kommandon:</p>
+<ul class="simple">
+<li><p>Skapande av en flerkanalig Röd-Grön-Blå-Nir-bild</p></li>
+</ul>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">otbcli_ConcatenateImages</span> <span class="o">-</span><span class="n">il</span> <span class="n">lsat7_2002_30</span><span class="o">.</span><span class="n">tif</span> <span class="n">lsat7_2002_20</span><span class="o">.</span><span class="n">tif</span> <span class="n">lsat7_2002_10</span><span class="o">.</span><span class="n">tif</span> <span class="n">lsat7_2002_40</span><span class="o">.</span><span class="n">tif</span> <span class="o">-</span><span class="n">out</span> <span class="o">~/</span><span class="n">lsat7_rgbn</span><span class="o">.</span><span class="n">tif</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Tillämpa segmentering</p></li>
+</ul>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">otbcli_Segmentation</span> <span class="o">-</span><span class="ow">in</span> <span class="o">~/</span><span class="n">lsat7_rgbn</span><span class="o">.</span><span class="n">tif</span> <span class="o">-</span><span class="nb">filter</span> <span class="n">meanshift</span> <span class="o">-</span><span class="n">mode</span> <span class="n">raster</span> <span class="o">-</span><span class="n">mode</span><span class="o">.</span><span class="n">raster</span><span class="o">.</span><span class="n">out</span> <span class="o">~/</span><span class="n">segmentation</span><span class="o">.</span><span class="n">tif</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>Skapa färger istället för etiketter</p></li>
+</ul>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">otbcli_ColorMapping</span> <span class="o">-</span><span class="ow">in</span> <span class="o">~/</span><span class="n">segmentation</span><span class="o">.</span><span class="n">tif</span> <span class="o">-</span><span class="n">out</span> <span class="o">~/</span><span class="n">segmentation_colored</span><span class="o">.</span><span class="n">tif</span> <span class="o">-</span><span class="n">method</span> <span class="n">image</span> <span class="o">-</span><span class="n">method</span><span class="o">.</span><span class="n">image</span><span class="o">.</span><span class="ow">in</span> <span class="o">~/</span><span class="n">lsat7_rgbn</span><span class="o">.</span><span class="n">tif</span>
+</pre></div>
+</div>
+<p>Dessutom kan applikationen arbeta i två olika lägen:</p>
+<ul>
+<li><p>Rasterläge: gör att du kan segmentera en liten bild och producera ett raster där varje komponent i segmenteringen är märkt med ett unikt heltal</p></li>
+<li><p>Vektorläge: segmentera större bilder och skapa en vektorfil där varje segment i segmenteringen representeras av en polygon</p>
+<img alt="../../_images/otb-meanshift-lsat7.png" src="../../_images/otb-meanshift-lsat7.png" />
+</li>
+</ul>
+<p>OTB innehåller också ett ramverk för att utföra segmentering av mycket stora bilder med teoretiska garantier för att få identiska resultat som utan segmentering, kallat <a class="reference external" href="https://www.orfeo-toolbox.org/CookBook/recipes/improc.html#large-scale-mean-shift-lsms-segmentation">LSMS</a>.</p>
+</section>
+<section id="otb-in-qgis">
+<h2><a class="toc-backref" href="#id5">OTB i QGis</a><a class="headerlink" href="#otb-in-qgis" title="Permalink till denna rubrik">¶</a></h2>
+<p>Samma uppsättning OTB-applikationer kan också användas från menyn <span class="menuselection">Processing ‣ Toolbox</span> i QGis. Applikationerna är sorterade efter tagg.</p>
+<blockquote>
+<div><img alt="../../_images/otb-processing-qgis.png" src="../../_images/otb-processing-qgis.png" />
+</div></blockquote>
+</section>
+<section id="developing-with-otb">
+<h2><a class="toc-backref" href="#id6">Utveckla med OTB</a><a class="headerlink" href="#developing-with-otb" title="Permalink till denna rubrik">¶</a></h2>
+<p>Om du vill använda OTB-biblioteket och kompilera din C++-kod i OSGeoLive måste du göra följande:</p>
+<ul class="simple">
+<li><p>Installera utvecklingspaket <strong>libotb-dev</strong> och <strong>libqt4-dev</strong> .</p></li>
+<li><p>Kontrollera att <strong>cmake</strong> är installerat.</p></li>
+</ul>
+<p>OTB_DIR-platsen bör hittas automatiskt (vanligtvis i <em>/usr/lib/x86_64-linux-gnu/cmake/OTB-…</em>). I din CMake-konfiguration bör du länka biblioteken i variabeln OTB_LIBRARIES.</p>
+<p>Mer information finns i Software Guide.</p>
+</section>
+<section id="what-next">
+<h2><a class="toc-backref" href="#id7">Hur vill du gå vidare?</a><a class="headerlink" href="#what-next" title="Permalink till denna rubrik">¶</a></h2>
+<ul>
+<li><p>OTB-programvaruhandbok</p>
+<p>Den huvudsakliga informationskällan är OTB Software Guide. Det är en omfattande guide på cirka 600 sidor som beskriver hur man installerar och använder OTB. De flesta av de tillgängliga klasserna är kraftigt illustrerade med resultat från verklig fjärranalysbearbetning.</p>
+</li>
+</ul>
+<ul>
+<li><p>OTB kokbok</p>
+<p>En guide för OTB-Applications och Monteverdi avsedd för icke-utvecklare finns också tillgänglig. Denna guide består av en kort rundtur i OTB-Applications och Monteverdi, följt av en uppsättning recept för att utföra vanliga fjärranalysuppgifter med båda verktygen.</p>
+</li>
+</ul>
+<ul>
+<li><p>OTB-handledning</p>
+<p>Följ <a class="reference external" href="https://www.orfeo-toolbox.org/SoftwareGuide/SoftwareGuidepa2.html#x17-49000II">handledningarna</a> för att lära dig mer om OTB.</p>
+</li>
+</ul>
+<ul>
+<li><p>Dokumentation för OTB-applikationer</p>
+<p>Se även detaljerad dokumentation om <a class="reference external" href="https://www.orfeo-toolbox.org/CookBook/Applications.html">OTB-applikationer</a></p>
+</li>
+</ul>
+<ul>
+<li><p>OTB-kurser med Plejaderna-bilder för att lära sig använda OTB-applikationer och Monteverdi</p>
+<p>Följ <a class="reference external" href="https://www.orfeo-toolbox.org/documentation/">kurserna</a> för att lära dig mer om OTB (se avsnittet Handledning).</p>
+</li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

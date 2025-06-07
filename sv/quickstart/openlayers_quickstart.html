@@ -1,0 +1,322 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Snabbstart för OpenLayers &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="GeoStyler" href="../overview/geostyler_overview.html" />
+    <link rel="prev" title="OpenLayers" href="../overview/openlayers_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://openlayers.org/"><img alt="../../_images/logo_openlayers.png" class="align-right" src="../../_images/logo_openlayers.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<section id="openlayers-quickstart">
+<h1>Snabbstart för OpenLayers<a class="headerlink" href="#openlayers-quickstart" title="Permalink till denna rubrik">¶</a></h1>
+<p>I den här snabbstarten beskrivs några grundläggande steg som krävs för att börja arbeta med OpenLayers: skapa en grundläggande karta, lägga till raster- och vektorlager och utforma funktioner.</p>
+<p>OpenLayers gör det enkelt att lägga in en dynamisk karta på en webbsida. Den kan visa kartplattor, vektordata och markörer som laddats från valfri källa. OpenLayers har utvecklats för att främja användningen av alla typer av geografisk information. Det är helt gratis, Open Source JavaScript, som släpps under 2-clause BSD License (även känd som FreeBSD).</p>
+<div class="contents local topic" id="contents">
+<p class="topic-title">Innehåll</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#core-concepts" id="id1">Centrala begrepp</a></p></li>
+<li><p><a class="reference internal" href="#create-a-basic-map" id="id2">Skapa en grundläggande karta</a></p></li>
+<li><p><a class="reference internal" href="#add-raster-layers" id="id3">Lägg till rasterlager</a></p></li>
+<li><p><a class="reference internal" href="#add-vector-layers" id="id4">Lägg till vektorlager</a></p></li>
+<li><p><a class="reference internal" href="#apply-style-to-features" id="id5">Tillämpa stil på funktioner</a></p></li>
+<li><p><a class="reference internal" href="#work-with-events" id="id6">Arbeta med evenemang</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id7">Hur vill du gå vidare?</a></p></li>
+</ul>
+</div>
+<section id="core-concepts">
+<h2><a class="toc-backref" href="#id1">Centrala begrepp</a><a class="headerlink" href="#core-concepts" title="Permalink till denna rubrik">¶</a></h2>
+<p>Innan vi börjar arbeta med OpenLayers är det bra att förstå OpenLayers grundläggande begrepp:</p>
+<dl class="simple">
+<dt><strong>Karta</strong></dt><dd><p><em>Kartan</em> är kärnkomponenten i OpenLayers. För att en <em>map</em> ska renderas behövs en <em>view</em>, en eller flera <em>layers</em> och en målcontainer.</p>
+</dd>
+<dt><strong>Visa</strong></dt><dd><p><em>Vyn</em> bestämmer hur kartan ska återges. Den används för att ställa in upplösning, mittpunkt osv. Det är som en kamera genom vilken vi tittar på kartans innehåll.</p>
+</dd>
+<dt><strong>Skikt</strong></dt><dd><p><em>Lager</em> kan läggas till på kartan i staplad ordning. Lagren kan vara antingen <em>rasterlager</em> (bilder) eller <em>vektorlager</em> (punkter/linjer/polygoner).</p>
+</dd>
+<dt><strong>Källa</strong></dt><dd><p>Varje skikt har en <em>källa</em> som vet hur skiktets innehåll ska laddas. När det gäller <em>vektorlager</em> läser källan vektordata med hjälp av en <em>format</em>-klass (t.ex. GeoJSON eller KML) och förser lagret med en uppsättning <em>funktioner</em>.</p>
+</dd>
+<dt><strong>Funktioner</strong></dt><dd><p><em>Features</em> representerar verkliga ting och kan återges med hjälp av olika <em>geometrier</em> (som punkt, linje eller polygon) med en given <em>style</em>, som bestämmer dess utseende (linjetjocklek, fyllningsfärg etc.).</p>
+</dd>
+</dl>
+</section>
+<section id="create-a-basic-map">
+<h2><a class="toc-backref" href="#id2">Skapa en grundläggande karta</a><a class="headerlink" href="#create-a-basic-map" title="Permalink till denna rubrik">¶</a></h2>
+<p>Skapa en fil i t.ex. /home/user/ som heter basic-map.html , och kopiera följande innehåll till filen.</p>
+<div class="highlight-html notranslate"><div class="highlight"><pre><span></span><span class="cp">&lt;!DOCTYPE html&gt;</span>
+<span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&quot;en&quot;</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Basic map<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&quot;UTF-8&quot;</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">name</span><span class="o">=</span><span class="s">&quot;viewport&quot;</span> <span class="na">content</span><span class="o">=</span><span class="s">&quot;width=device-width&quot;</span><span class="p">&gt;</span>
+
+        <span class="cm">&lt;!-- OpenLayers CSS --&gt;</span>
+        <span class="p">&lt;</span><span class="nt">link</span> <span class="na">rel</span><span class="o">=</span><span class="s">&quot;stylesheet&quot;</span> <span class="na">href</span><span class="o">=</span><span class="s">&quot;http://localhost/openlayers/dist/ol.css&quot;</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text/css&quot;</span><span class="p">&gt;</span>
+
+        <span class="cm">&lt;!-- Custom styles --&gt;</span>
+        <span class="p">&lt;</span><span class="nt">style</span><span class="p">&gt;</span>
+<span class="w">          </span><span class="p">#</span><span class="nn">map</span><span class="w"> </span><span class="p">{</span>
+<span class="w">            </span><span class="k">width</span><span class="p">:</span><span class="w"> </span><span class="mi">100</span><span class="kt">%</span><span class="p">;</span>
+<span class="w">            </span><span class="k">height</span><span class="p">:</span><span class="w"> </span><span class="mi">500</span><span class="kt">px</span><span class="p">;</span>
+<span class="w">          </span><span class="p">}</span>
+<span class="w">        </span><span class="p">&lt;/</span><span class="nt">style</span><span class="p">&gt;</span>
+    <span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+    <span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+        <span class="p">&lt;</span><span class="nt">h1</span><span class="p">&gt;</span>Basic map<span class="p">&lt;/</span><span class="nt">h1</span><span class="p">&gt;</span>
+
+        <span class="p">&lt;</span><span class="nt">div</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;map&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">div</span><span class="p">&gt;</span>
+
+        <span class="cm">&lt;!-- OpenLayers JS--&gt;</span>
+        <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;http://localhost/openlayers/dist/ol.js&quot;</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;text/javascript&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+
+        <span class="cm">&lt;!-- App code --&gt;</span>
+        <span class="p">&lt;</span><span class="nt">script</span><span class="p">&gt;</span>
+<span class="w">          </span><span class="kd">var</span><span class="w"> </span><span class="nx">map</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nb">Map</span><span class="p">({</span>
+<span class="w">            </span><span class="nx">target</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;map&#39;</span><span class="p">,</span>
+<span class="w">            </span><span class="nx">layers</span><span class="o">:</span><span class="w"> </span><span class="p">[</span>
+<span class="w">              </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">layer</span><span class="p">.</span><span class="nx">Tile</span><span class="p">({</span>
+<span class="w">                </span><span class="nx">source</span><span class="o">:</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">source</span><span class="p">.</span><span class="nx">OSM</span><span class="p">()</span>
+<span class="w">              </span><span class="p">})</span>
+<span class="w">            </span><span class="p">],</span>
+<span class="w">            </span><span class="nx">view</span><span class="o">:</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">View</span><span class="p">({</span>
+<span class="w">              </span><span class="nx">center</span><span class="o">:</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">proj</span><span class="p">.</span><span class="nx">fromLonLat</span><span class="p">([</span><span class="mf">2.1833</span><span class="p">,</span><span class="w"> </span><span class="mf">41.3833</span><span class="p">]),</span>
+<span class="w">              </span><span class="nx">zoom</span><span class="o">:</span><span class="w"> </span><span class="mf">6</span>
+<span class="w">            </span><span class="p">})</span>
+<span class="w">          </span><span class="p">});</span>
+<span class="w">        </span><span class="p">&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+
+    <span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+<span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</pre></div>
+</div>
+<p>Försök nu att öppna basic-map.html från en webbläsare med File-&gt;Open File. Du bör se följande:</p>
+<a class="reference internal image-reference" href="../../_images/openlayers-basic-map.png"><img alt="../../_images/openlayers-basic-map.png" src="../../_images/openlayers-basic-map.png" style="width: 711.0px; height: 620.0px;" /></a>
+<p>Anteckning:</p>
+<ul class="simple">
+<li><p>Koden följer bästa praxis för att ladda JavaScipt-kod i slutet av html-filen.</p></li>
+<li><p>En OpenLayers-karta måste kopplas till ett HTML DOM-element, så vi har skapat ett <code class="docutils literal notranslate"><span class="pre">&lt;div&gt;</span></code>-element som identifieras av <em>map</em>-id.</p></li>
+<li><p>Kartor representeras av klassen <code class="docutils literal notranslate"><span class="pre">ol.Map</span></code>. Vi anger DOM-elementet för att rendera kartan i med hjälp av <strong>target</strong>-egenskapen.</p></li>
+<li><p>OpenLayers tillåter kartåtergivning med hjälp av två olika mekanismer: Canvas och WebGL. Standardrenderingen är <em>canvas</em>.</p></li>
+<li><p>En karta visar data som finns i lager, så vi har skapat ett kaklat lager, representerat av klassen <code class="docutils literal notranslate"><span class="pre">ol.layer.Tile</span></code>, som laddar innehåll från OpenStreetMap-projektet med hjälp av källklassen <code class="docutils literal notranslate"><span class="pre">ol.source.OSM</span></code>.</p></li>
+<li><p>Slutligen ställer vi in <em>kamerans</em> ursprungliga position med hjälp av klassen <code class="docutils literal notranslate"><span class="pre">ol.View</span></code>, ställer in den ursprungliga zoomnivån och mittpositionen.</p></li>
+</ul>
+</section>
+<section id="add-raster-layers">
+<h2><a class="toc-backref" href="#id3">Lägg till rasterlager</a><a class="headerlink" href="#add-raster-layers" title="Permalink till denna rubrik">¶</a></h2>
+<p>De mest använda rasterlagren är de kaklade lagren, som tillhandahålls av OpenStreetMap, Stamen, Bing, etc. Tiled-lager representeras av klassen <code class="docutils literal notranslate"><span class="pre">ol.layer.Tile</span></code> och måste använda en källa som vet hur man laddar tiles från en viss leverantör, t.ex. <code class="docutils literal notranslate"><span class="pre">ol.source.OSM</span></code> eller <code class="docutils literal notranslate"><span class="pre">ol.source.Stamen</span></code>:</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">osm</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">layer</span><span class="p">.</span><span class="nx">Tile</span><span class="p">({</span>
+<span class="w">  </span><span class="nx">source</span><span class="o">:</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">source</span><span class="p">.</span><span class="nx">OSM</span><span class="p">()</span>
+<span class="p">});</span>
+
+<span class="kd">var</span><span class="w"> </span><span class="nx">stamen</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">layer</span><span class="p">.</span><span class="nx">Tile</span><span class="p">({</span>
+<span class="w">  </span><span class="nx">source</span><span class="o">:</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">source</span><span class="p">.</span><span class="nx">Stamen</span><span class="p">({</span>
+<span class="w">    </span><span class="nx">layer</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;watercolor&#39;</span>
+<span class="w">  </span><span class="p">})</span>
+<span class="p">});</span>
+</pre></div>
+</div>
+<p>Du kan lägga till lager på kartan på två sätt:</p>
+<ul>
+<li><p>När du konstruerar <code class="docutils literal notranslate"><span class="pre">ol.Map</span></code> ska du använda egenskapen <code class="docutils literal notranslate"><span class="pre">layers</span></code>:</p>
+<blockquote>
+<div><div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">map</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nb">Map</span><span class="p">({</span>
+<span class="w">  </span><span class="p">...</span>
+<span class="w">  </span><span class="nx">layers</span><span class="o">:</span><span class="w"> </span><span class="p">[</span><span class="nx">osm</span><span class="p">,</span><span class="w"> </span><span class="nx">stamen</span><span class="p">]</span>
+<span class="w">  </span><span class="p">...</span>
+<span class="p">});</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+<li><p>Lägg till dem manuellt med metoden <code class="docutils literal notranslate"><span class="pre">map.addLayer()</span></code>:</p>
+<blockquote>
+<div><div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="nx">map</span><span class="p">.</span><span class="nx">addLayer</span><span class="p">(</span><span class="nx">osm</span><span class="p">);</span>
+<span class="nx">map</span><span class="p">.</span><span class="nx">addLayer</span><span class="p">(</span><span class="nx">stamen</span><span class="p">);</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+</ul>
+</section>
+<section id="add-vector-layers">
+<h2><a class="toc-backref" href="#id4">Lägg till vektorlager</a><a class="headerlink" href="#add-vector-layers" title="Permalink till denna rubrik">¶</a></h2>
+<p>Vektorlager representeras av klassen <code class="docutils literal notranslate"><span class="pre">ol.layer.Vector</span></code> och måste använda en källa som är lämplig för att läsa vektorformatet, som <code class="docutils literal notranslate"><span class="pre">ol.source.GeoJSON</span></code>, <code class="docutils literal notranslate"><span class="pre">ol.source.KML</span></code> eller <code class="docutils literal notranslate"><span class="pre">ol.source.TopoJSON</span></code>.</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">vectorLayer</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">layer</span><span class="p">.</span><span class="nx">Vector</span><span class="p">({</span>
+<span class="w">  </span><span class="nx">source</span><span class="o">:</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">source</span><span class="p">.</span><span class="nx">GeoJSON</span><span class="p">({</span>
+<span class="w">    </span><span class="nx">url</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;url_to_geojson_file&#39;</span>
+<span class="w">  </span><span class="p">})</span>
+<span class="p">});</span>
+
+<span class="c1">// Add Vector layer to map</span>
+<span class="nx">map</span><span class="p">.</span><span class="nx">addLayer</span><span class="p">(</span><span class="nx">vectorLayer</span><span class="p">);</span>
+</pre></div>
+</div>
+<a class="reference internal image-reference" href="../../_images/openlayers-vector.png"><img alt="../../_images/openlayers-vector.png" src="../../_images/openlayers-vector.png" style="width: 518.0px; height: 277.0px;" /></a>
+<p>Observera att vi i den tidigare koden måste ändra <code class="docutils literal notranslate"><span class="pre">url_to_file</span></code> för att peka på en giltig GeoJSON-fil placerad på vår server. Observera att Javascript-säkerhet förhindrar inköp av datauppsättningar från en extern URL på en annan domän / port (a.k.a. samma ursprungspolicy).</p>
+<p>Funktioner kan också skapas manuellt. I det här fallet måste vi skapa en geometri som representerar funktionen:</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="c1">// Geometries</span>
+<span class="kd">var</span><span class="w"> </span><span class="nx">point</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">geom</span><span class="p">.</span><span class="nx">Point</span><span class="p">(</span>
+<span class="w">    </span><span class="nx">ol</span><span class="p">.</span><span class="nx">proj</span><span class="p">.</span><span class="nx">transform</span><span class="p">([</span><span class="mf">3</span><span class="p">,</span><span class="mf">50</span><span class="p">],</span><span class="w"> </span><span class="s1">&#39;EPSG:4326&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;EPSG:3857&#39;</span><span class="p">)</span>
+<span class="p">);</span>
+<span class="kd">var</span><span class="w"> </span><span class="nx">circle</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">geom</span><span class="p">.</span><span class="nx">Circle</span><span class="p">(</span>
+<span class="w">    </span><span class="nx">ol</span><span class="p">.</span><span class="nx">proj</span><span class="p">.</span><span class="nx">transform</span><span class="p">([</span><span class="mf">2.1833</span><span class="p">,</span><span class="w"> </span><span class="mf">41.3833</span><span class="p">],</span><span class="w"> </span><span class="s1">&#39;EPSG:4326&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;EPSG:3857&#39;</span><span class="p">),</span>
+<span class="w">    </span><span class="mf">1000000</span>
+<span class="p">);</span>
+
+<span class="c1">// Features</span>
+<span class="kd">var</span><span class="w"> </span><span class="nx">pointFeature</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">Feature</span><span class="p">(</span><span class="nx">point</span><span class="p">);</span>
+<span class="kd">var</span><span class="w"> </span><span class="nx">circleFeature</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">Feature</span><span class="p">(</span><span class="nx">circle</span><span class="p">);</span>
+
+<span class="c1">// Source</span>
+<span class="kd">var</span><span class="w"> </span><span class="nx">vectorSource</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">source</span><span class="p">.</span><span class="nx">Vector</span><span class="p">({</span>
+<span class="w">    </span><span class="nx">projection</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;EPSG:4326&#39;</span>
+<span class="p">});</span>
+<span class="nx">vectorSource</span><span class="p">.</span><span class="nx">addFeatures</span><span class="p">([</span><span class="nx">pointFeature</span><span class="p">,</span><span class="w"> </span><span class="nx">circleFeature</span><span class="p">]);</span>
+
+<span class="c1">// Vector layer</span>
+<span class="kd">var</span><span class="w"> </span><span class="nx">vectorLayer</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">layer</span><span class="p">.</span><span class="nx">Vector</span><span class="p">({</span>
+<span class="w">  </span><span class="nx">source</span><span class="o">:</span><span class="w"> </span><span class="nx">vectorSource</span>
+<span class="p">});</span>
+
+<span class="c1">// Add Vector layer to map</span>
+<span class="nx">map</span><span class="p">.</span><span class="nx">addLayer</span><span class="p">(</span><span class="nx">vectorLayer</span><span class="p">);</span>
+</pre></div>
+</div>
+</section>
+<section id="apply-style-to-features">
+<h2><a class="toc-backref" href="#id5">Tillämpa stil på funktioner</a><a class="headerlink" href="#apply-style-to-features" title="Permalink till denna rubrik">¶</a></h2>
+<p>Funktioner inom vektorlager kan stylas. Stilen bestäms av en kombination av fill, stroke, text och image, som alla är valfria. Dessutom kan en stil tillämpas på ett lager, vilket bestämmer stilen för alla ingående funktioner, eller på en enskild funktion.</p>
+<p>En stil representeras av klassen <code class="docutils literal notranslate"><span class="pre">ol.style.Style</span></code> som har egenskaper för att ställa in <code class="docutils literal notranslate"><span class="pre">fill</span></code>, <code class="docutils literal notranslate"><span class="pre">stroke</span></code>, <code class="docutils literal notranslate"><span class="pre">text</span></code> och <code class="docutils literal notranslate"><span class="pre">image</span></code> som ska tillämpas. I nästa exempel visas datauppsättningen World’s administrative limits med grön fyllning och streck:</p>
+<a class="reference internal image-reference" href="../../_images/openlayers-styling.png"><img alt="../../_images/openlayers-styling.png" src="../../_images/openlayers-styling.png" style="width: 555.0px; height: 283.0px;" /></a>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">limitsLayer</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">layer</span><span class="p">.</span><span class="nx">Vector</span><span class="p">({</span>
+<span class="w">  </span><span class="nx">source</span><span class="o">:</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">source</span><span class="p">.</span><span class="nx">Vector</span><span class="p">({</span>
+<span class="w">    </span><span class="nx">url</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;data/world_limits.json&#39;</span><span class="p">,</span>
+<span class="w">    </span><span class="nx">format</span><span class="o">:</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">format</span><span class="p">.</span><span class="nx">TopoJSON</span><span class="p">(),</span>
+<span class="w">    </span><span class="nx">projection</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;EPSG:3857&#39;</span>
+<span class="w">  </span><span class="p">}),</span>
+<span class="w">  </span><span class="nx">style</span><span class="o">:</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">Style</span><span class="p">({</span>
+<span class="w">    </span><span class="nx">fill</span><span class="o">:</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">Fill</span><span class="p">({</span>
+<span class="w">      </span><span class="nx">color</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;rgba(55, 155, 55, 0.3)&#39;</span>
+<span class="w">    </span><span class="p">}),</span>
+<span class="w">    </span><span class="nx">stroke</span><span class="o">:</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">Stroke</span><span class="p">({</span>
+<span class="w">      </span><span class="nx">color</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;rgba(55, 155, 55, 0.8)&#39;</span><span class="p">,</span>
+<span class="w">      </span><span class="nx">width</span><span class="o">:</span><span class="w"> </span><span class="mf">1</span>
+<span class="w">    </span><span class="p">}),</span>
+<span class="w">    </span><span class="nx">image</span><span class="o">:</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">Circle</span><span class="p">({</span>
+<span class="w">      </span><span class="nx">radius</span><span class="o">:</span><span class="w"> </span><span class="mf">7</span><span class="p">,</span>
+<span class="w">      </span><span class="nx">fill</span><span class="o">:</span><span class="w"> </span><span class="ow">new</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">style</span><span class="p">.</span><span class="nx">Fill</span><span class="p">({</span>
+<span class="w">        </span><span class="nx">color</span><span class="o">:</span><span class="w"> </span><span class="s1">&#39;rgba(55, 155, 55, 0.5)&#39;</span><span class="p">,</span>
+<span class="w">      </span><span class="p">})</span>
+<span class="w">    </span><span class="p">})</span>
+<span class="w">  </span><span class="p">})</span>
+<span class="p">});</span>
+</pre></div>
+</div>
+<p>I koden har vi laddat en TopoJSON-fil och stylat den genom egenskapen <code class="docutils literal notranslate"><span class="pre">style</span></code>. Vi har ställt in <code class="docutils literal notranslate"><span class="pre">fill</span></code> och <code class="docutils literal notranslate"><span class="pre">stroke</span></code>, som krävs för linjer och polygoner, och en <code class="docutils literal notranslate"><span class="pre">image</span></code> (i det här fallet en cirkel) som används för punktfunktioner.</p>
+</section>
+<section id="work-with-events">
+<h2><a class="toc-backref" href="#id6">Arbeta med evenemang</a><a class="headerlink" href="#work-with-events" title="Permalink till denna rubrik">¶</a></h2>
+<p>De flesta av komponenterna, som karta, lager eller kontroller, utlöser händelser för att meddela ändringar. Vi kan t.ex. få ett meddelande varje gång musen flyttas över kartan eller när en funktion läggs till i ett vektorlager osv.</p>
+<p>Händelser kan enkelt registreras på ett objekt med metoden <code class="docutils literal notranslate"><span class="pre">on()</span></code> och avregistreras med <code class="docutils literal notranslate"><span class="pre">un()</span></code>.</p>
+<p>Följande kod registrerar en händelse på en kartinstans och kommer att meddelas varje gång pekaren flyttas. I callback-funktionen erhåller vi pekarens koordinater och skriver ut dem i webbläsarkonsolen i två olika projektioner.</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="nx">map</span><span class="p">.</span><span class="nx">on</span><span class="p">(</span><span class="s1">&#39;pointermove&#39;</span><span class="p">,</span><span class="w"> </span><span class="kd">function</span><span class="p">(</span><span class="nx">event</span><span class="p">)</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">coord3857</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">event</span><span class="p">.</span><span class="nx">coordinate</span><span class="p">;</span>
+<span class="w">  </span><span class="kd">var</span><span class="w"> </span><span class="nx">coord4326</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">ol</span><span class="p">.</span><span class="nx">proj</span><span class="p">.</span><span class="nx">transform</span><span class="p">(</span><span class="nx">coord3857</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;EPSG:3857&#39;</span><span class="p">,</span><span class="w"> </span><span class="s1">&#39;EPSG:4326&#39;</span><span class="p">);</span>
+
+<span class="w">  </span><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">coord3857</span><span class="p">,</span><span class="w"> </span><span class="nx">coord4326</span><span class="p">);</span>
+<span class="p">});</span>
+</pre></div>
+</div>
+</section>
+<section id="what-next">
+<h2><a class="toc-backref" href="#id7">Hur vill du gå vidare?</a><a class="headerlink" href="#what-next" title="Permalink till denna rubrik">¶</a></h2>
+<p>Ibland är det snabbaste sättet att ta reda på hur OpenLayers fungerar att titta på exempel och deras källkod. Du hittar mer information om OpenLayers här:</p>
+<ul class="simple">
+<li><p>dokument om API &lt;<a class="reference external" href="https://localhost/openlayers/apidoc/">https://localhost/openlayers/apidoc/</a>&gt;`_</p></li>
+<li><p><a class="reference external" href="https://localhost/openlayers/examples/">Exempel</a></p></li>
+<li><p>webbplats för OpenLayers.org &lt;<a class="reference external" href="https://openlayers.org/">https://openlayers.org/</a>&gt;`_</p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

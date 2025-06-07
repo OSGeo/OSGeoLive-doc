@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>OpenJUMP GIS Snabbstart &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="Q-fält" href="../overview/qfield_overview.html" />
+    <link rel="prev" title="OpenJUMP GIS" href="../overview/openjump_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="http://www.openjump.org"><img alt="../../_images/logo_openjump.png" class="align-right" src="../../_images/logo_openjump.png" /></a>
+<section id="openjump-gis-quickstart">
+<h1>OpenJUMP GIS Snabbstart<a class="headerlink" href="#openjump-gis-quickstart" title="Permalink till denna rubrik">¶</a></h1>
+<p>OpenJUMP är ett GIS-program för skrivbordet som gör det enkelt att visa och redigera GIS-data i vektorformat. PLUS-utgåvan stöder också analys av rasterdata.</p>
+<div class="contents local topic" id="contents">
+<p class="topic-title">Innehåll</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#start-openjump" id="id1">Starta OpenJUMP</a></p></li>
+<li><p><a class="reference internal" href="#open-an-esri-shapefile" id="id2">Öppna en ESRI-shapefil</a></p></li>
+<li><p><a class="reference internal" href="#style-a-layer" id="id3">Styla ett lager</a></p></li>
+<li><p><a class="reference internal" href="#edit-feature-geometries-in-a-layer" id="id4">Redigera geometrier för objekt i ett lager</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id5">Hur vill du gå vidare?</a></p></li>
+</ul>
+</div>
+<section id="start-openjump">
+<h2><a class="toc-backref" href="#id1">Starta OpenJUMP</a><a class="headerlink" href="#start-openjump" title="Permalink till denna rubrik">¶</a></h2>
+<p>Från skrivbordet väljer du <span class="menuselection">Desktop GIS ‣ OpenJUMP</span>.</p>
+<p>OpenJUMP:s användargränssnitt har fyra (4) grundläggande komponenter.</p>
+<ul class="simple">
+<li><p>[1] Den första är ett menyfält på översta nivån för åtkomst till de flesta funktioner.</p></li>
+<li><p>[2] Det andra är ett huvudverktygsfält som sitter precis under menyfältet. Knapparna ger tillgång till de viktigaste visnings- och navigeringsfunktionerna.</p></li>
+<li><p>[3] Den tredje är en trädvy till vänster som visar lagerlistan för det aktiva projektet.</p></li>
+<li><p>[4] Den fjärde är kartvyn. Detta är den faktiska kartan där en grafisk representation av de spatiala data som finns i varje lager visas.</p></li>
+</ul>
+<p>Slutligen finns det ett informationsfält längst ned som visar muspekarens koordinater, bearbetningsrapporter och minnesanvändning. Ett projektfönster innehåller en lagerlista och en lagervy. Varje instans av OpenJUMP kan innehålla flera projekt. I den här snabbstarten kommer vi bara att arbeta med ett enda fönster.</p>
+<a class="reference internal image-reference" href="../../_images/openjump_ss_01.png"><img alt="../../_images/openjump_ss_01.png" src="../../_images/openjump_ss_01.png" style="width: 563.2px; height: 400.95000000000005px;" /></a>
+</section>
+<section id="open-an-esri-shapefile">
+<h2><a class="toc-backref" href="#id2">Öppna en ESRI-shapefil</a><a class="headerlink" href="#open-an-esri-shapefile" title="Permalink till denna rubrik">¶</a></h2>
+<ol class="arabic simple">
+<li><p>På menyraden på översta nivån i OpenJUMP väljer du <span class="menuselection">Arkiv ‣ Öppna fil</span>. Du får då upp en dialogruta där du kan öppna filer som innehåller geospatiala data.</p></li>
+<li><p>Sök efter en ESRI-shapefil. Leta efter en fil med tillägget .shp (t.ex. på LiveDVD:n under <cite>/home/user/data/natural_earth2/ne_10m_admin_0_countries.shp</cite>).</p></li>
+<li><p>Välj filen och klicka på knappen <span class="guilabel">Finish</span> i dialogrutan. Efter en liten stund kommer du att kunna se data från din shapefil i kartvyn. Du kommer också att se ett nytt lager som skapats för dina data i lagerlistan. Lagrets namn kommer att överensstämma med shapefilens namn.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/openjump_ss_02.png"><img alt="../../_images/openjump_ss_02.png" src="../../_images/openjump_ss_02.png" style="width: 563.2px; height: 400.95000000000005px;" /></a>
+<div class="admonition tip">
+<p class="admonition-title">Tips</p>
+<p>Ett annat snabbare alternativ är att direkt dra och släppa din shapefil i lagervyn.</p>
+</div>
+</section>
+<section id="style-a-layer">
+<h2><a class="toc-backref" href="#id3">Styla ett lager</a><a class="headerlink" href="#style-a-layer" title="Permalink till denna rubrik">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Högerklicka på lagrets namn i lagerlistan. Då visas en popup-meny.</p></li>
+<li><p>Välj att <span class="menuselection">Style ‣ `Change Styles</span>. Dialogrutan Change Styles har fem (5) flikar där du kan ändra hur lagret visas i kartvyn. Detta inkluderar att ändra streckfärg, fyllningsfärg, linjestil och linjetjocklek, transparens, lägga till etiketter och bestämma vid vilken högsta och lägsta skala skiktet ska visas.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/openjump_ss_03.png"><img alt="../../_images/openjump_ss_03.png" src="../../_images/openjump_ss_03.png" style="width: 563.2px; height: 400.95000000000005px;" /></a>
+<a class="reference internal image-reference" href="../../_images/openjump_ss_04.png"><img alt="../../_images/openjump_ss_04.png" src="../../_images/openjump_ss_04.png" style="width: 563.2px; height: 400.95000000000005px;" /></a>
+</section>
+<section id="edit-feature-geometries-in-a-layer">
+<h2><a class="toc-backref" href="#id4">Redigera geometrier för objekt i ett lager</a><a class="headerlink" href="#edit-feature-geometries-in-a-layer" title="Permalink till denna rubrik">¶</a></h2>
+<ol class="arabic">
+<li><p>Högerklicka på lagrets namn i lagerlistan. Då visas en popup-meny.</p></li>
+<li><p>Klicka på menyposten ”Editable” så att en bockmarkering visas. Då öppnas ett nytt flytande verktygsfält över kartvyn på höger sida. Detta verktygsfält har en uppsättning knappar som du kan använda för att redigera geometrin för en geografisk funktion.</p>
+<a class="reference internal image-reference" href="../../_images/openjump_ss_05.png"><img alt="../../_images/openjump_ss_05.png" src="../../_images/openjump_ss_05.png" style="width: 563.2px; height: 400.95000000000005px;" /></a>
+<a class="reference internal image-reference" href="../../_images/openjump_ss_06.png"><img alt="../../_images/openjump_ss_06.png" src="../../_images/openjump_ss_06.png" style="width: 563.2px; height: 400.95000000000005px;" /></a>
+</li>
+<li><p>Låt oss prova en snabb redigering. Först måste vi välja en geometri och sedan flytta en punkt i geometrin. För att göra det klickar vi först på knappen som visar en muspekare i redigeringsverktygsfältet (knappen längst upp till vänster).</p></li>
+<li><p>Aktivera den och klicka på en enskild funktion i kartvyn för att välja den. Om markeringen fungerade bör objektets linjefärg ändras till gult och små gula fyrkanter visas vid varje vinkelpunkt (vertex) i objektets geometri.</p>
+<a class="reference internal image-reference" href="../../_images/openjump_ss_07.png"><img alt="../../_images/openjump_ss_07.png" src="../../_images/openjump_ss_07.png" style="width: 563.2px; height: 400.95000000000005px;" /></a>
+</li>
+<li><p>Klicka sedan på knappen som visar ett blått hårkors med en gul fyrkant i mitten, <span class="guilabel">Move Vertex Tool</span> (om du sveper över knapparna får du en knappbeskrivning). Du bör nu se att muspekaren ändras till ett litet svart hårkors när du flyttar den över kartvyn.</p>
+<a class="reference internal image-reference" href="../../_images/openjump_ss_08.png"><img alt="../../_images/openjump_ss_08.png" src="../../_images/openjump_ss_08.png" style="width: 563.2px; height: 400.95000000000005px;" /></a>
+</li>
+<li><p>Prova att använda detta för att flytta en av hörnen/punkterna i den geometri du valde tidigare genom att klicka på ett av hörnen och dra det (håll musknappen intryckt).</p>
+<a class="reference internal image-reference" href="../../_images/openjump_ss_09.png"><img alt="../../_images/openjump_ss_09.png" src="../../_images/openjump_ss_09.png" style="width: 563.2px; height: 400.95000000000005px;" /></a>
+</li>
+</ol>
+</section>
+<section id="what-next">
+<h2><a class="toc-backref" href="#id5">Hur vill du gå vidare?</a><a class="headerlink" href="#what-next" title="Permalink till denna rubrik">¶</a></h2>
+<p>Detta är bara det första steget på vägen till att använda OpenJUMP. Det finns mycket mer material kvar för dig att upptäcka.</p>
+<ul class="simple">
+<li><p>Du kan ladda ner handledning för OpenJUMP här: <a class="reference external" href="https://sourceforge.net/projects/jump-pilot/files/Documentation/">https://sourceforge.net/projects/jump-pilot/files/Documentation/</a></p></li>
+<li><p>Du kan läsa OpenJUMP-wikin här: <a class="reference external" href="http://ojwiki.soldin.de/index.php?title=Main_Page">http://ojwiki.soldin.de/index.php?title=Main_Page</a></p></li>
+<li><p>Du kan få snabb hjälp på e-postlistan för OpenJUMP-användare: <a class="reference external" href="https://groups.google.com/forum/#!forum/openjump-users">https://groups.google.com/forum/#!forum/openjump-users</a></p></li>
+<li><p>Den senaste versionen av OpenJUMP finns här: <a class="reference external" href="https://sourceforge.net/projects/jump-pilot/files/OpenJUMP/">https://sourceforge.net/projects/jump-pilot/files/OpenJUMP/</a></p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

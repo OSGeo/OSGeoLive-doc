@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>PyWPS &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="PyWPS snabbstart" href="../quickstart/pywps_quickstart.html" />
+    <link rel="prev" title="pycsw Snabbstart" href="../quickstart/pycsw_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://pywps.org/"><img alt="../../_images/logo_pywps.png" class="align-right" src="../../_images/logo_pywps.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<section id="pywps">
+<h1>PyWPS<a class="headerlink" href="#pywps" title="Permalink till denna rubrik">¶</a></h1>
+<section id="web-processing-service">
+<h2>Tjänst för webbbearbetning<a class="headerlink" href="#web-processing-service" title="Permalink till denna rubrik">¶</a></h2>
+<p>PyWPS ger webbåtkomst till anpassade geospatiala operationer (kallas processer) via standarden <a class="reference external" href="https://www.ogc.org/standards/wps">Web Processing Service (WPS)</a>.</p>
+<p>Processerna är skrivna på programmeringsspråket Python och kan integrera verktyg som <a class="reference internal" href="grass_overview.html"><span class="doc">GRASS GIS</span></a>, <a class="reference internal" href="R_overview.html"><span class="doc">R</span></a>, <a class="reference internal" href="gdal_overview.html"><span class="doc">GDAL/OGR</span></a>, <a class="reference internal" href="proj_overview.html"><span class="doc">proj</span></a> och andra bibliotek med Python-bindningar. Källdata kan tillhandahållas med WPS-begäranden eller hämtas från data på WPS-servern.</p>
+<a class="reference internal image-reference" href="../../_images/pywps_screenshot.png"><img alt="pywps skärmdump" class="align-right" src="../../_images/pywps_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>Kärnfunktioner<a class="headerlink" href="#core-features" title="Permalink till denna rubrik">¶</a></h3>
+<ul class="simple">
+<li><p>liten och lätt</p></li>
+<li><p>enkel och snabb att installera och ställa in</p></li>
+<li><p>implementerad i ren Python</p></li>
+<li><p>integreras sömlöst med Pythons ekosystem av paket:</p>
+<ul>
+<li><p>GRASS 7</p></li>
+<li><p>R</p></li>
+<li><p>GDAL/OGR</p></li>
+<li><p>Proj</p></li>
+<li><p>Numpy</p></li>
+<li><p>Shapely</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="implemented-standards">
+<h3>Implementerade standarder<a class="headerlink" href="#implemented-standards" title="Permalink till denna rubrik">¶</a></h3>
+<p>OGC-standarder:</p>
+<ul class="simple">
+<li><p>WPS 1.0.0</p></li>
+</ul>
+</section>
+<section id="details">
+<h3>Detaljer<a class="headerlink" href="#details" title="Permalink till denna rubrik">¶</a></h3>
+<p><strong>Webbplats:</strong> <a class="reference external" href="https://pywps.org/">https://pywps.org/</a></p>
+<p><strong>Licens:</strong> GPL</p>
+<p><strong>Programvaruversion:</strong> 4.6.0</p>
+<p><strong>Plattformar som stöds:</strong> Windows, Linux, Mac</p>
+<p><strong>API-gränssnitt:</strong> Python</p>
+<p><strong>Support:</strong> <a class="reference external" href="https://pywps.org/community/#professional-support">https://pywps.org/community/#professional-support</a></p>
+</section>
+<section id="quickstart">
+<h3>Snabbstart<a class="headerlink" href="#quickstart" title="Permalink till denna rubrik">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/pywps_quickstart.html"><span class="doc">Snabbstartsdokumentation</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

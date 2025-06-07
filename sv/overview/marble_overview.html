@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Marble &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="Snabbstart för Marble" href="../quickstart/marble_quickstart.html" />
+    <link rel="prev" title="SpatiaLite Snabbstart" href="../quickstart/spatialite_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://marble.kde.org/"><img alt="../../_images/logo_marble.png" class="align-right" src="../../_images/logo_marble.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<section id="marble">
+<h1>Marble<a class="headerlink" href="#marble" title="Permalink till denna rubrik">¶</a></h1>
+<section id="virtual-globe-and-world-atlas">
+<h2>Virtuell jordglob och världsatlas<a class="headerlink" href="#virtual-globe-and-world-atlas" title="Permalink till denna rubrik">¶</a></h2>
+<p>Marble är ett KDE Education Project-program med öppen källkod som liknar <a class="reference external" href="https://worldwind.arc.nasa.gov/java/">NASA World Wind</a> eller Google Earth. Förutom att välja valfritt antal kartor att visa på din jordglob (inklusive <a class="reference external" href="https://www.openstreetmap.org">OpenStreetMaps</a>), uppmuntras du att inkludera en KDE Marble-widget i din applikation.</p>
+<p>Utforska grannskapet med Marbles rika uppsättning av stads- och gatunivåkartor. Sök efter adresser och intressanta platser. Marble tar hand om att fråga olika sökbackends och presenterar deras resultat i en enhetlig vy. Beräkna enkelt gång-, cykel- och bilvägar - online och offline, med ett godtyckligt antal via-punkter.</p>
+<p>Börja utforska världen. Se moln och solskuggor, följ satelliter och rymdstationer och visa deras banor, allt uppdaterat i realtid. Res tillbaka i tiden och lär dig mer om historiska vyer av vår planet med hjälp av kartor från tidigare århundraden. Räcker det inte med jorden? Marble erbjuder också kartor över månen och andra planeter.</p>
+<a class="reference internal image-reference" href="../../_images/marble_screenshot.png"><img alt="skärmdump av marble" class="align-right" src="../../_images/marble_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>Kärnfunktioner<a class="headerlink" href="#core-features" title="Permalink till denna rubrik">¶</a></h3>
+<ul class="simple">
+<li><p>Virtuell jordglob och världsatlas</p></li>
+<li><p>Lätt att använda</p></li>
+<li><p>En bra lösning för geografilektionerna</p></li>
+<li><p>Kartpresentation (Atlasvy, gatukartor, satellitkartor, topografiska kartor, pedagogiska kartor)</p></li>
+<li><p>Navigera i världen i 3D</p></li>
+<li><p>3 olika projektioner är tillgängliga (3D Globe, Flat Map, Mercator)</p></li>
+<li><p>Informationslager (väder, moln i realtid, dag/nattvy, satelliter i realtid, Wikipedia-artiklar, foton, postnummer, jordbävningar)</p></li>
+<li><p>Sök (adressökning online, POI-sökning online)</p></li>
+<li><p>Positionering och spårning (GPS- och WLAN-lokalisering, export av spår i KML)</p></li>
+<li><p>Routing &amp; Navigation (Röstnavigering, Online-rutning för bilar, Online-rutning för cyklar, Online-rutning för fotgängare, Offline-rutning med valfri nedladdning, Turn-by-turn-navigering)</p></li>
+<li><p>Interaktiva KML-turer (skapa, redigera, visa)</p></li>
+<li><p>Integration med många onlinetjänster (Amateur Radio Aprs, OpenCaching.com, etc.)</p></li>
+<li><p>Stöd för WMS och TMS</p></li>
+<li><p>Verktyg (avståndsmätning, bokmärken, tidssimulering, offlineläge)</p></li>
+<li><p><a class="reference external" href="https://www.openstreetmap.org">OpenStreetMap</a> integration</p></li>
+</ul>
+</section>
+<section id="details">
+<h3>Detaljer<a class="headerlink" href="#details" title="Permalink till denna rubrik">¶</a></h3>
+<p><strong>Webbplats:</strong> <a class="reference external" href="https://marble.kde.org/">https://marble.kde.org/</a></p>
+<p><strong>Licens:</strong> GNU Lesser General Public License (LGPL) version 2.1</p>
+<p><strong>Programvaruversion:</strong> 23.08.5</p>
+<p><strong>Plattformar som stöds:</strong> GNU/Linux, Mac OSX, MS Windows, Maemo 5</p>
+<p><strong>API-gränssnitt:</strong> Qt-designer, C++, Python, D-BUS, Shell-skript</p>
+<p><strong>Support:</strong> <a class="reference external" href="https://techbase.kde.org/Projects/Marble">https://techbase.kde.org/Projects/Marble</a></p>
+<p><strong>More Info:</strong> <a class="reference external" href="https://www.slideshare.net/slideshow/marble-1-6en/26862346">https://www.slideshare.net/slideshow/marble-1-6en/26862346</a></p>
+</section>
+<section id="quickstart">
+<h3>Snabbstart<a class="headerlink" href="#quickstart" title="Permalink till denna rubrik">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/marble_quickstart.html"><span class="doc">Snabbstartsdokumentation</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

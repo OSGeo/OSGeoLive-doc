@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>OpenLayers &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="Snabbstart för OpenLayers" href="../quickstart/openlayers_quickstart.html" />
+    <link rel="prev" title="Mapbender Snabbstart" href="../quickstart/mapbender_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://openlayers.org/"><img alt="../../_images/logo_openlayers.png" class="align-right" src="../../_images/logo_openlayers.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<section id="openlayers">
+<h1>OpenLayers<a class="headerlink" href="#openlayers" title="Permalink till denna rubrik">¶</a></h1>
+<section id="a-high-performance-feature-packed-library-for-all-your-mapping-needs">
+<h2>Ett högpresterande bibliotek med många funktioner för alla dina kartläggningsbehov<a class="headerlink" href="#a-high-performance-feature-packed-library-for-all-your-mapping-needs" title="Permalink till denna rubrik">¶</a></h2>
+<p>OpenLayers gör det enkelt att lägga in en dynamisk karta på en webbsida. Den kan visa kartplattor, vektordata och markörer som laddats från valfri källa. OpenLayers har utvecklats för att främja användningen av alla typer av geografisk information. Det är helt gratis, Open Source JavaScript, som släpps under 2-clause BSD License (även känd som FreeBSD).</p>
+<a class="reference internal image-reference" href="../../_images/openlayers_screenshot.png"><img alt="openlayers skärmdump" class="align-right" src="../../_images/openlayers_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>Kärnfunktioner<a class="headerlink" href="#core-features" title="Permalink till denna rubrik">¶</a></h3>
+<ul class="simple">
+<li><p>Sikt</p>
+<ul>
+<li><p>Raster: WMS/WMTS, OpenStreetMap, Stamen, Bing, andra XYZ-källor, statiska bilder etc.</p></li>
+<li><p>Vektorer: WFS, KML, GeoJSON, TopoJSON, GPX, GML och MapBox vektorplattor.</p></li>
+<li><p>Värmekartor.</p></li>
+<li><p>Rendera vektorlager som raster.</p></li>
+</ul>
+</li>
+<li><p>Kontroller och interaktioner</p>
+<ul>
+<li><p>Översiktskarta, zoomreglage, zoom in/ut-knappar, skalningslinje, rotera kartan etc.</p></li>
+<li><p>Panorering, zoomning och rotation av kartan, val och ändring av funktioner etc.</p></li>
+</ul>
+</li>
+<li><p>Styling och anpassning</p>
+<ul>
+<li><p>Kraftfull styling av funktioner: punkter, linjer, polygoner och ikoner.</p></li>
+<li><p>Anpassa kontrollernas utseende och känsla med hjälp av CSS.</p></li>
+</ul>
+</li>
+<li><p>Överlägg</p>
+<ul>
+<li><p>Rendera valfritt DOM-element på valfri plats på kartan.</p></li>
+<li><p>Stor flexibilitet när det gäller att skapa verktygstips och markörer.</p></li>
+<li><p>Kombinera kraften i HTML5-funktionerna med en kartapplikation.</p></li>
+</ul>
+</li>
+<li><p>Evenemang</p>
+<ul>
+<li><p>Koppla lyssnarfunktioner till karthändelser.</p></li>
+<li><p>Skapa dina egna kontroller eller interaktioner.</p></li>
+</ul>
+</li>
+<li><p>Diverse</p>
+<ul>
+<li><p>Stöd för mobila webbläsare.</p></li>
+<li><p>Reprojektion av raster.</p></li>
+<li><p>Lättviktigt bibliotek. Bygg anpassade paket för att minska storleken.</p></li>
+<li><p>Rendera kartor med hjälp av olika tekniker: Canvas, WebGL.</p></li>
+<li><p>Rasteranalys (ändra nyans/mättnad).</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="details">
+<h3>Detaljer<a class="headerlink" href="#details" title="Permalink till denna rubrik">¶</a></h3>
+<p><strong>Webbplats:</strong> <a class="reference external" href="https://openlayers.org/">https://openlayers.org/</a></p>
+<p><strong>Licens:</strong> BSD-licens med 2 klausuler (även kallad FreeBSD-licens)</p>
+<p><strong>Programvaruversion:</strong> 6.14.1</p>
+<p><strong>API-gränssnitt:</strong> JavaScript</p>
+<p><strong>Support:</strong> <a class="reference external" href="https://stackoverflow.com/questions/tagged/openlayers">https://stackoverflow.com/questions/tagged/openlayers</a> (användare) och <a class="reference external" href="https://groups.google.com/forum/#!forum/openlayers-dev">https://groups.google.com/forum/#!forum/openlayers-dev</a> (utvecklare)</p>
+</section>
+<section id="quickstart">
+<h3>Snabbstart<a class="headerlink" href="#quickstart" title="Permalink till denna rubrik">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/openlayers_quickstart.html"><span class="doc">Snabbstartsdokumentation</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

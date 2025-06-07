@@ -1,0 +1,267 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>iD editor Snabbstart &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="JOSM" href="../overview/josm_overview.html" />
+    <link rel="prev" title="iD-redaktör" href="../overview/ideditor_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://wiki.openstreetmap.org/wiki/ID"><img alt="../../_images/logo_ideditor.png" class="align-right" src="../../_images/logo_ideditor.png" /></a>
+<section id="id-editor-quickstart">
+<h1>iD editor Snabbstart<a class="headerlink" href="#id-editor-quickstart" title="Permalink till denna rubrik">¶</a></h1>
+<p>ID-editorn är de facto den webbläsarbaserade OpenStreetMap-editorn. iD är snabb och enkel att använda och möjliggör kartläggning från olika datakällor, t.ex. satellit- och flygbilder, GPS, Field Papers eller Mapillary.</p>
+<p>ID-redigeraren är ett utmärkt sätt att redigera små och enkla ändringar som inte kräver de avancerade funktionerna i JOSM (en mer avancerad mappningsredigerare). I det här kapitlet beskrivs grunderna för redigering med iD.</p>
+<div class="contents local topic" id="contents">
+<p class="topic-title">Innehåll</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#starting-the-id-editor" id="id1">Starta iD Editor</a></p></li>
+<li><p><a class="reference internal" href="#configuring-the-background-layer" id="id2">Konfigurera bakgrundslagret</a></p></li>
+<li><p><a class="reference internal" href="#adding-points" id="id3">Lägga till poäng</a></p></li>
+<li><p><a class="reference internal" href="#drawing-lines" id="id4">Ritning av linjer</a></p></li>
+<li><p><a class="reference internal" href="#drawing-shapes-polygons" id="id5">Ritning av former (polygoner)</a></p></li>
+<li><p><a class="reference internal" href="#drawing-multipolygons" id="id6">Ritning av multipolygoner</a></p></li>
+<li><p><a class="reference internal" href="#saving-your-changes" id="id7">Spara dina ändringar</a></p></li>
+<li><p><a class="reference internal" href="#add-additional-information-and-custom-tags" id="id8">Lägg till ytterligare information och anpassade taggar</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id9">Hur vill du gå vidare?</a></p></li>
+</ul>
+</div>
+<section id="starting-the-id-editor">
+<h2><a class="toc-backref" href="#id1">Starta iD Editor</a><a class="headerlink" href="#starting-the-id-editor" title="Permalink till denna rubrik">¶</a></h2>
+<p>ID editor kräver en aktiv anslutning till Internet.</p>
+<ol class="arabic simple">
+<li><p>Öppna din webbläsare och gå till OpenStreetMap-webbplatsen på <a class="reference external" href="https://www.openstreetmap.org">https://www.openstreetmap.org</a>.</p></li>
+<li><p>** Logga in** med ditt OpenStreetMap-konto.</p></li>
+<li><p>Panorera och zooma kartan till det område som du vill redigera. Du kan panorera genom att hålla vänster musknapp intryckt och dra kartan till önskat område.</p></li>
+<li><p>Klicka på den lilla pilen bredvid <strong>Edit</strong> och sedan på <strong>Edit with iD (in-browser editor)</strong>.</p></li>
+</ol>
+<blockquote>
+<div><img alt="../../_images/id-editor_image1.png" src="../../_images/id-editor_image1.png" />
+<img alt="../../_images/id-editor_image2.png" src="../../_images/id-editor_image2.png" />
+</div></blockquote>
+<ul class="simple">
+<li><dl class="simple">
+<dt>[1] <strong>Edit Feature Panel:</strong> Denna panel visar taggar från objektet</dt><dd><p>som valts på kartan. Du kan lägga till eller redigera taggar från den här panelen.</p>
+</dd>
+</dl>
+</li>
+<li><p>[2] <strong>Tools:</strong> Denna panel visar grundläggande redigeringsverktyg.</p></li>
+<li><p>[3] <strong>Kartpanel:</strong> Denna panel visar olika konfigurationsfunktioner.</p></li>
+<li><dl class="simple">
+<dt>[4] <strong>Informationspanel:</strong> Denna panel visar olika information, t.ex</dt><dd><p>skalstrecket och vilka användare som har bidragit till området.</p>
+</dd>
+</dl>
+</li>
+</ul>
+</section>
+<section id="configuring-the-background-layer">
+<h2><a class="toc-backref" href="#id2">Konfigurera bakgrundslagret</a><a class="headerlink" href="#configuring-the-background-layer" title="Permalink till denna rubrik">¶</a></h2>
+<ol class="arabic">
+<li><p>Klicka på knappen <strong>Bakgrundsinställningar</strong> eller använd <em>snabbkommandotangenten</em> <strong>b</strong>. <a class="reference internal" href="../../_images/id-editor_image14.png"><img alt="image14" src="../../_images/id-editor_image14.png" style="height: 24px;" /></a></p>
+<p><img alt="image15" src="../../_images/id-editor_image15.png" /></p>
+</li>
+<li><p>För att ändra <strong>ljusstyrka</strong> klicka på en av dessa rutor, nivåerna är 100%, 75%, 50% och 25% <a class="reference internal" href="../../_images/id-editor_image16.png"><img alt="image16" src="../../_images/id-editor_image16.png" style="height: 24px;" /></a></p></li>
+<li><p>Du kan också <strong>ändra bakgrundslagret</strong> baserat på önskad leverantör av kakelplattor (standard är Bing Aerial Imagery).</p></li>
+<li><p>You can add your own map tiles by clicking on <strong>Custom</strong>. For example, if you want to <strong>add a Field Paper</strong> [1], click <strong>Custom</strong> then click on the magnifying glass (search) icon to open the following window:</p>
+<p><img alt="image17" src="../../_images/id-editor_image17.png" /></p>
+</li>
+<li><p>Ange din <strong>FieldPaper snapshot URL</strong>, som kommer att vara ungefär så här: <a class="reference external" href="http://fieldpapers.org/snapshots/cqhmf2v9#18/37.80593/-122.22715">http://fieldpapers.org/snapshots/cqhmf2v9#18/37.80593/-122.22715</a></p></li>
+<li><p>För att <strong>visa GPS-spår från din dator</strong> (GPX-format), dra och släpp GPX-filen till iD editor.</p></li>
+<li><p>Klicka på rutan för att aktivera <strong>OpenStreetMap GPS-spår</strong>. På bilden nedan visas offentliga GPS-spår i olika färger, vilket indikerar färdriktningen.</p>
+<p><img alt="osm gps-spår" src="../../_images/id-editor_gps_public.png" /></p>
+</li>
+<li><p>Om det finns en bildförskjutning kan den <strong>korrigeras</strong> genom att klicka på <strong>Fix Alignment</strong>.</p>
+<p><img alt="image18" src="../../_images/id-editor_image18.png" /></p>
+</li>
+<li><p>Klicka på navigeringsknapparna för att flytta bilderna. Klicka på återställningsknappen för att återgå till standardpositionen. <img alt="image20" src="../../_images/id-editor_image20.png" /></p></li>
+</ol>
+</section>
+<section id="adding-points">
+<h2><a class="toc-backref" href="#id3">Lägga till poäng</a><a class="headerlink" href="#adding-points" title="Permalink till denna rubrik">¶</a></h2>
+<p>För att lägga till en ny punkt klickar du på knappen <strong>Point</strong>. <a class="reference internal" href="../../_images/id-editor_image3.png"><img alt="image3" src="../../_images/id-editor_image3.png" style="height: 24px;" /></a></p>
+<ul>
+<li><p>Din muspekare ändras till ett plustecken (+). Klicka nu på en position som du känner till för att markera en plats. Om du t.ex. vet att det finns ett sjukhus i ditt område klickar du på sjukhusbyggnadens position.</p>
+<p><img alt="image21" src="../../_images/id-editor_image21.png" /></p>
+</li>
+<li><p>Lägg märke till att en ny punkt har lagts till. Samtidigt ändras den vänstra panelen så att den visar ett formulär där du kan välja attribut för objektet. Klicka på <strong>Hospital Grounds</strong> för att märka punkten som ett sjukhus.</p>
+<p><img alt="image22" src="../../_images/id-editor_image22.png" /></p>
+</li>
+<li><p>Du kan använda formulären för att fylla i detaljerad information om din punkt. Du kan fylla i sjukhusets namn, adress och/eller annan ytterligare information. Observera att varje funktion har olika alternativ, beroende på vilken tagg du väljer från funktionspanelen.</p></li>
+<li><p>Om du gör ett misstag, t.ex. placerar punkten fel, kan du flytta den till en ny plats genom att hålla ned vänster musknapp på punkten och dra den. Om du vill radera punkten klickar du med vänster musknapp på punkten, aktiverar snabbmenyn genom att klicka med höger musknapp och klickar sedan på knappen som ser ut som en papperskorg. <a class="reference internal" href="../../_images/id-editor_image23.png"><img alt="image23" src="../../_images/id-editor_image23.png" style="height: 24px;" /></a></p>
+<p>En ”punkt” som skapas i iD-editorn är egentligen en fristående ”nod” med en uppsättning ”taggar” på.</p>
+</li>
+</ul>
+</section>
+<section id="drawing-lines">
+<h2><a class="toc-backref" href="#id4">Ritning av linjer</a><a class="headerlink" href="#drawing-lines" title="Permalink till denna rubrik">¶</a></h2>
+<p>För att lägga till en ny rad, klicka på knappen <strong>Rad</strong>. <a class="reference internal" href="../../_images/id-editor_image4.png"><img alt="image4" src="../../_images/id-editor_image4.png" style="height: 24px;" /></a></p>
+<ul>
+<li><p>Din muspekare ändras till ett plustecken (+). Hitta en väg som inte har ritats in på kartan och spåra den. Klicka en gång på en punkt där vägsegmentet börjar, flytta musen och klicka för att lägga till ytterligare punkter. Dubbelklicka för att avsluta ritningsprocessen. Lägg märke till panelen till vänster.</p>
+<p><img alt="image24" src="../../_images/id-editor_image24.png" /></p>
+</li>
+<li><p>Precis som med en punkt ska du välja lämpliga taggar för din rad.</p></li>
+<li><p>Du kan dra punkter från linjen genom att klicka med vänster musknapp på en punkt och dra den.</p></li>
+<li><p>Du kan också flytta hela linjen genom att markera den och välja verktyget <strong>Flytta</strong>. Dra sedan linjen till en ny position. <a class="reference internal" href="../../_images/id-editor_image30.png"><img alt="image30" src="../../_images/id-editor_image30.png" style="height: 24px;" /></a></p></li>
+<li><p>När du klickar med vänster musknapp på en enskild punkt (nod) på linjen och klickar med höger musknapp för att aktivera snabbmenyn, visas dessa verktyg:</p></li>
+<li><p>Ta bort punkt från linje. <a class="reference internal" href="../../_images/id-editor_image23.png"><img alt="image23" src="../../_images/id-editor_image23.png" style="height: 24px;" /></a></p></li>
+<li><p>Koppla bort punkt från linje. <a class="reference internal" href="../../_images/id-editor_image26.png"><img alt="image26" src="../../_images/id-editor_image26.png" style="height: 24px;" /></a></p></li>
+<li><p>Dela en linje i två linjer från den punkt du har valt. <a class="reference internal" href="../../_images/id-editor_image27.png"><img alt="image27" src="../../_images/id-editor_image27.png" style="height: 24px;" /></a></p></li>
+<li><p>När du klickar med vänster musknapp på en linje (men inte på en punkt) visas dessa verktyg:</p></li>
+<li><p>Ta bort raden. <a class="reference internal" href="../../_images/id-editor_image23.png"><img alt="image23" src="../../_images/id-editor_image23.png" style="height: 24px;" /></a></p></li>
+<li><p>Skapa en cirkel från en linje (endast aktiv om linjen är sluten) <a class="reference internal" href="../../_images/id-editor_image29.png"><img alt="image29" src="../../_images/id-editor_image29.png" style="height: 24px;" /></a></p></li>
+<li><p>Flytta linjen <a class="reference internal" href="../../_images/id-editor_image30.png"><img alt="image30" src="../../_images/id-editor_image30.png" style="height: 24px;" /></a></p></li>
+<li><p>Forma en fyrkant av en linje (endast aktiv om linjen är sluten) <a class="reference internal" href="../../_images/id-editor_image31.png"><img alt="image31" src="../../_images/id-editor_image31.png" style="height: 24px;" /></a></p></li>
+<li><p>Omvänd linjestyrning (bra för floder och enkelriktade gator) <a class="reference internal" href="../../_images/id-editor_image32.png"><img alt="image32" src="../../_images/id-editor_image32.png" style="height: 24px;" /></a></p></li>
+</ul>
+<p>En ”linje” som skapas i iD-editorn är egentligen en ”väg” med ”taggar” på.</p>
+<div class="admonition note">
+<p class="admonition-title">Observera</p>
+<p>En särskild anmärkning om <strong>Deleting</strong>: I allmänhet bör du undvika att radera andras mappning om den bara behöver förbättras. Du kan radera dina egna misstag, men du bör försöka <em>justera</em> andras mappade objekt om de behöver ändras. Detta bevarar objektens historia i OSM-databasen och är respektfullt mot andra kartläggare. Om du verkligen tycker att något ska raderas, överväg att fråga den ursprungliga kartläggaren eller någon av OSM:s e-postlistor om det först.</p>
+</div>
+</section>
+<section id="drawing-shapes-polygons">
+<h2><a class="toc-backref" href="#id5">Ritning av former (polygoner)</a><a class="headerlink" href="#drawing-shapes-polygons" title="Permalink till denna rubrik">¶</a></h2>
+<p>För att lägga till en ny flersidig form klickar du på knappen <strong>Area</strong>.</p>
+<blockquote>
+<div><p><a class="reference internal" href="../../_images/id-editor_image34.png"><img alt="image34" src="../../_images/id-editor_image34.png" style="height: 24px;" /></a></p>
+</div></blockquote>
+<ul class="simple">
+<li><p>Din muspekare ändras till ett plustecken (+). Försök att rita en byggnad med hjälp av bilderna som vägledning.</p></li>
+<li><p>Du kommer att märka att färgen på din form ändras beroende på de attribut som du tilldelar den. <img alt="image35" src="../../_images/id-editor_image35.png" /></p></li>
+<li><p>De verktyg som finns tillgängliga när du markerar en form och aktiverar snabbmenyn med höger musknapp liknar de som finns när du klickar på en linje.</p></li>
+</ul>
+<p>En ”polygon” i iD-editorn är egentligen en ”sluten väg” med taggar på.</p>
+</section>
+<section id="drawing-multipolygons">
+<h2><a class="toc-backref" href="#id6">Ritning av multipolygoner</a><a class="headerlink" href="#drawing-multipolygons" title="Permalink till denna rubrik">¶</a></h2>
+<p>Ibland måste man rita en polygon som inte bara har en yttre kontur utan också en eller flera inre konturer. Tänk bara på byggnader med innergårdar eller sjöar med öar. <em>Rita inte alla dessa sätt i en linje</em> så att de inre konturerna hänger ut från den yttre konturen. Rita hellre dessa konturer separat, fäst taggar endast på den yttre konturen, markera alla konturer och tryck på <strong>c</strong> för att kombinera dem till vad som kallas en multipolygon.</p>
+<blockquote>
+<div><img alt="skapa multipolygon" src="../../_images/id-editor_create_multipolygon.png" />
+</div></blockquote>
+<p>När du markerar någon av konturerna i den nyskapade multipolygonen kan du till vänster se vilka multipolygoner den tillhör</p>
+<blockquote>
+<div><img alt="del av multipolygon" src="../../_images/id-editor_part_of_multipolygon.png" />
+</div></blockquote>
+</section>
+<section id="saving-your-changes">
+<h2><a class="toc-backref" href="#id7">Spara dina ändringar</a><a class="headerlink" href="#saving-your-changes" title="Permalink till denna rubrik">¶</a></h2>
+<ol class="arabic">
+<li><p>När (och om) du vill spara dina ändringar på OpenStreetMap klickar du på knappen <strong>Save</strong>. Panelen till vänster kommer att visa uppladdningspanelen.</p>
+<p><img alt="image36" src="../../_images/id-editor_image36.png" /></p>
+</li>
+<li><p>Skriv en kommentar om dina ändringar och klicka på <strong>Spara</strong>.</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Observera</p>
+<p>Om du har redigerat samma funktion (punkt, väg eller område) samtidigt som en annan person redigerade den, kommer du att få en varning om att dina redigeringar inte kan laddas upp förrän du har löst <strong>konflikterna</strong> - välj vems redigeringar du vill acceptera och ladda upp dina ändringar. <em>Att lösa konflikter innebär ofta att du måste acceptera den andra personens ändringar, och i så fall kommer du förmodligen att vilja återvända till funktionen i fråga och redigera igen (**den här gången spara strax efter redigeringen för att försöka undvika en konflikt igen!*</em>).*</p>
+</div>
+</section>
+<section id="add-additional-information-and-custom-tags">
+<h2><a class="toc-backref" href="#id8">Lägg till ytterligare information och anpassade taggar</a><a class="headerlink" href="#add-additional-information-and-custom-tags" title="Permalink till denna rubrik">¶</a></h2>
+<p>När du redigerar ett objekt ser du en rad ikoner längst ned i attributpanelen. Du kan lägga till ytterligare information genom att klicka på dessa ikoner:</p>
+<ul class="simple">
+<li><p>Lägg till höjd <a class="reference internal" href="../../_images/id-editor_image37.png"><img alt="image37" src="../../_images/id-editor_image37.png" style="height: 24px;" /></a></p></li>
+<li><p>Lägg till anteckningar <a class="reference internal" href="../../_images/id-editor_image38.png"><img alt="image38" src="../../_images/id-editor_image38.png" style="height: 24px;" /></a></p></li>
+<li><p>Lägg till kontakter / telefonnummer <a class="reference internal" href="../../_images/id-editor_image39.png"><img alt="image39" src="../../_images/id-editor_image39.png" style="height: 24px;" /></a></p></li>
+<li><p>Lägg till källtagg <a class="reference internal" href="../../_images/id-editor_image40.png"><img alt="image40" src="../../_images/id-editor_image40.png" style="height: 24px;" /></a></p></li>
+<li><p>Lägg till webbplats <a class="reference internal" href="../../_images/id-editor_image41.png"><img alt="image41" src="../../_images/id-editor_image41.png" style="height: 24px;" /></a></p></li>
+<li><p>Lägg till tillgänglighetsinformation <a class="reference internal" href="../../_images/id-editor_image42.png"><img alt="image42" src="../../_images/id-editor_image42.png" style="height: 24px;" /></a></p></li>
+<li><p>Lägg till Wikipedia-länk <a class="reference internal" href="../../_images/id-editor_image43.png"><img alt="image43" src="../../_images/id-editor_image43.png" style="height: 24px;" /></a></p></li>
+</ul>
+<p>Du kan också lägga till egna taggar genom att klicka på <strong>Alla taggar</strong>. <a class="reference internal" href="../../_images/id-editor_image44.png"><img alt="image44" src="../../_images/id-editor_image44.png" style="height: 24px;" /></a></p>
+<ul>
+<li><p>Detta visar alla taggar som är kopplade till funktionen.</p>
+<p><img alt="image45" src="../../_images/id-editor_image45.png" /></p>
+</li>
+<li><p>Klicka på plustecknet (+) för att lägga till nycklar och värden eller klicka på papperskorgsikonen för att ta bort taggar.</p></li>
+</ul>
+</section>
+<section id="what-next">
+<h2><a class="toc-backref" href="#id9">Hur vill du gå vidare?</a><a class="headerlink" href="#what-next" title="Permalink till denna rubrik">¶</a></h2>
+<ul class="simple">
+<li><p>Testa LearnOSM-dokumentationen, som denna snabbstart är hämtad från: <a class="reference external" href="https://learnosm.org/en/beginner/id-editor/">https://learnosm.org/en/beginner/id-editor/</a></p></li>
+<li><p>Webbplats: <a class="reference external" href="https://wiki.openstreetmap.org/wiki/ID">https://wiki.openstreetmap.org/wiki/ID</a></p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

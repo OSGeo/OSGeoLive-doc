@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>GMT Snabbstart &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="Jupyter anteckningsbok" href="../overview/jupyter_overview.html" />
+    <link rel="prev" title="GMT" href="../overview/gmt_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://www.generic-mapping-tools.org"><img alt="../../_images/logo_gmt.png" class="align-right" src="../../_images/logo_gmt.png" /></a>
+<div class="admonition note">
+<p class="admonition-title">Observera</p>
+<p>Detta projekt ingår endast på OSGeoLives virtuella maskindisk (VMDK)</p>
+</div>
+<section id="gmt-quickstart">
+<h1>GMT Snabbstart<a class="headerlink" href="#gmt-quickstart" title="Permalink till denna rubrik">¶</a></h1>
+<p>GMT är en samling verktyg som gör det möjligt för användare att manipulera (x,y) och (x,y,z) datauppsättningar (inklusive filtrering, trendanpassning, rutnät, projicering etc.) och producera EPS-illustrationer (Encapsulated PostScript File) som sträcker sig från enkla x-y-plottar via konturkartor till artificiellt belysta ytor och 3D-perspektivvyer i svartvitt, gråton, hachure-mönster och 24-bitars färg.</p>
+<p>I denna snabba GMT-handledning kommer vi att använda en digital terrängmodell (DTM) för att generera en skuggad reliefkarta.</p>
+<div class="contents local topic" id="contents">
+<p class="topic-title">Innehåll</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#create-a-map" id="id1">Skapa en karta</a></p></li>
+<li><p><a class="reference internal" href="#make-a-color-palette" id="id2">Skapa en färgpalett</a></p></li>
+<li><p><a class="reference internal" href="#define-the-gradient" id="id3">Definiera lutningen</a></p></li>
+<li><p><a class="reference internal" href="#display-the-color-bar" id="id4">Visa färgfältet</a></p></li>
+<li><p><a class="reference internal" href="#things-to-try" id="id5">Saker att prova</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id6">Hur vill du gå vidare?</a></p></li>
+</ul>
+</div>
+<section id="create-a-map">
+<h2><a class="toc-backref" href="#id1">Skapa en karta</a><a class="headerlink" href="#create-a-map" title="Permalink till denna rubrik">¶</a></h2>
+<p>Som ingångsdataset använder vi en DTM från GRASS GIS-exempeldataset, som är tillgängligt för GDAL med hjälp av GDAL-GRASS-drivrutinen.</p>
+<p>För att få en snabb titt på DTM-metadata öppnar du en terminal och använder GDAL-kommandot <cite>gdalinfo</cite>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdalinfo</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">user</span><span class="o">/</span><span class="n">grassdata</span><span class="o">/</span><span class="n">nc_basic_spm_grass7</span><span class="o">/</span><span class="n">PERMANENT</span><span class="o">/</span><span class="n">cellhd</span><span class="o">/</span><span class="n">elevation</span>
+</pre></div>
+</div>
+<p>Vi kan se att DTM är i ett projicerat koordinatsystem och att dataintervallet är mellan 50 och 160 meter.</p>
+<p>Vi kan konvertera DTM till ett GMT-kompatibelt netCDF-filformat med <cite>gdal_translate</cite> enligt följande:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdal_translate</span> <span class="o">-</span><span class="n">of</span> <span class="n">GMT</span> <span class="o">/</span><span class="n">home</span><span class="o">/</span><span class="n">user</span><span class="o">/</span><span class="n">grassdata</span><span class="o">/</span><span class="n">nc_basic_spm_grass7</span><span class="o">/</span><span class="n">PERMANENT</span><span class="o">/</span><span class="n">cellhd</span><span class="o">/</span><span class="n">elevation</span> <span class="n">elevation</span><span class="o">.</span><span class="n">gmt</span>
+</pre></div>
+</div>
+<p>För vårt GMT-exempel omvandlar vi först datasetet till geografiska koordinater Longitud-Latitud (EPSG:4326) med kommandot <cite>gdalwarp</cite>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gdalwarp</span> <span class="n">elevation</span><span class="o">.</span><span class="n">gmt</span> <span class="n">geo_elevation</span><span class="o">.</span><span class="n">gmt</span> <span class="o">-</span><span class="n">t_srs</span> <span class="n">EPSG</span><span class="p">:</span><span class="mi">4326</span>
+</pre></div>
+</div>
+</section>
+<section id="make-a-color-palette">
+<h2><a class="toc-backref" href="#id2">Skapa en färgpalett</a><a class="headerlink" href="#make-a-color-palette" title="Permalink till denna rubrik">¶</a></h2>
+<p>För att tilldela en färgkarta till vårt rutnät kan vi skapa en GMT-färgpalettstabell med kommandot <cite>makecpt</cite>. Vi kommer att ställa in intervallet och antalet färger med flaggan <cite>-T</cite> och tilldela en färgkarta med flaggan <cite>-C</cite>.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gmt</span> <span class="n">makecpt</span> <span class="o">-</span><span class="n">Chaxby</span> <span class="o">-</span><span class="n">T50</span><span class="o">/</span><span class="mi">160</span><span class="o">/</span><span class="mi">10</span> <span class="o">-</span><span class="n">Z</span> <span class="o">&gt;</span> <span class="n">elevation</span><span class="o">.</span><span class="n">cpt</span>
+</pre></div>
+</div>
+<p>Du kan experimentera med andra colortables, se <cite>man gmt makecpt</cite> för en fullständig lista.</p>
+</section>
+<section id="define-the-gradient">
+<h2><a class="toc-backref" href="#id3">Definiera lutningen</a><a class="headerlink" href="#define-the-gradient" title="Permalink till denna rubrik">¶</a></h2>
+<p>För vårt exempel med skuggad relief måste vi ange hur färgintensiteten fördelas längs rutnätet. För att göra detta beräknar vi riktningsderivatan, eller gradienten, från vårt rutnät med kommandot <cite>grdgradient</cite>. I <cite>grdgradient</cite> använder vi flaggan <cite>-Ne</cite> för att normalisera utdata med hjälp av en kumulativ Laplace-distribution och flaggan <cite>-A</cite> för azimutal riktning för en riktningsderivat.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gmt</span> <span class="n">grdgradient</span> <span class="n">geo_elevation</span><span class="o">.</span><span class="n">gmt</span> <span class="o">-</span><span class="n">Ne0</span><span class="mf">.8</span> <span class="o">-</span><span class="n">A100</span> <span class="o">-</span><span class="n">fg</span> <span class="o">-</span><span class="n">Ggradient</span><span class="o">.</span><span class="n">nc</span>
+</pre></div>
+</div>
+<p>Utdata är en netCDF-fil som sedan kan användas som färgintensitet med kommandot <cite>grdimage</cite> enligt följande:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gmt</span> <span class="n">grdimage</span> <span class="n">geo_elevation</span><span class="o">.</span><span class="n">gmt</span> <span class="o">-</span><span class="n">Igradient</span><span class="o">.</span><span class="n">nc</span> <span class="o">-</span><span class="n">JM6i</span> <span class="o">-</span><span class="n">P</span> <span class="o">-</span><span class="n">Ba</span> <span class="o">-</span><span class="n">Celevation</span><span class="o">.</span><span class="n">cpt</span> <span class="o">-</span><span class="n">K</span> <span class="o">&gt;</span> <span class="n">GMT_tut_OSGeoLive</span><span class="o">.</span><span class="n">ps</span>
+</pre></div>
+</div>
+</section>
+<section id="display-the-color-bar">
+<h2><a class="toc-backref" href="#id4">Visa färgfältet</a><a class="headerlink" href="#display-the-color-bar" title="Permalink till denna rubrik">¶</a></h2>
+<p>Slutligen kan vi lägga till en färgfält med <cite>psscale</cite>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">gmt</span> <span class="n">psscale</span> <span class="o">-</span><span class="n">DjTC</span><span class="o">+</span><span class="n">w5i</span><span class="o">/</span><span class="mf">0.25</span><span class="n">i</span><span class="o">+</span><span class="n">h</span><span class="o">+</span><span class="n">o0</span><span class="o">/-</span><span class="mi">1</span><span class="n">i</span> <span class="o">-</span><span class="n">Rgeo_elevation</span><span class="o">.</span><span class="n">gmt</span> <span class="o">-</span><span class="n">J</span> <span class="o">-</span><span class="n">Celevation</span><span class="o">.</span><span class="n">cpt</span> <span class="o">-</span><span class="n">I0</span><span class="mf">.4</span> <span class="o">-</span><span class="n">By</span><span class="o">+</span><span class="n">lm</span> <span class="o">-</span><span class="n">O</span> <span class="o">&gt;&gt;</span> <span class="n">GMT_tut_OSGeoLive</span><span class="o">.</span><span class="n">ps</span>
+</pre></div>
+</div>
+<p>Här används flaggan <cite>-D</cite> för att välja färgfältets position <cite>TC: Top Center</cite>, storleken <cite>5x0.25</cite> uttryckt i tum <cite>i</cite> orienteringen med <cite>h: horisontell</cite> och flaggan <cite>-By</cite> för att sätta en etikett <cite>m</cite> på <cite>y-axeln</cite>.</p>
+<p>Det utgående ps-dokumentet bör se ut så här:</p>
+<a class="reference internal image-reference" href="../../_images/GMT_tut_OSGeoLive.png"><img alt="North Caroline - höjddata för provtagning" class="align-center" src="../../_images/GMT_tut_OSGeoLive.png" style="width: 555.8px; height: 497.7px;" /></a>
+</section>
+<section id="things-to-try">
+<h2><a class="toc-backref" href="#id5">Saker att prova</a><a class="headerlink" href="#things-to-try" title="Permalink till denna rubrik">¶</a></h2>
+<ul class="simple">
+<li><p>Installera följande paket:</p>
+<ul>
+<li><p>gmt-dcw</p></li>
+<li><p>gmt-gshhg</p></li>
+</ul>
+</li>
+<li><p><cite>GMT handledning &lt;https://docs.generic-mapping-tools.org/latest/tutorial&gt;</cite></p></li>
+</ul>
+</section>
+<section id="what-next">
+<h2><a class="toc-backref" href="#id6">Hur vill du gå vidare?</a><a class="headerlink" href="#what-next" title="Permalink till denna rubrik">¶</a></h2>
+<ul class="simple">
+<li><p>Dokumentation: <a class="reference external" href="https://docs.generic-mapping-tools.org/latest/">https://docs.generic-mapping-tools.org/latest/</a></p></li>
+<li><p>Webbplats: <a class="reference external" href="https://www.generic-mapping-tools.org">https://www.generic-mapping-tools.org</a></p></li>
+<li><p>Support: <a class="reference external" href="https://forum.generic-mapping-tools.org/">https://forum.generic-mapping-tools.org/</a></p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Rasdaman Snabbstart &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="Kub för öppna data" href="../overview/odc_overview.html" />
+    <link rel="prev" title="Rasdaman" href="../overview/rasdaman_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://rasdaman.org"><img alt="../../_images/logo_rasdaman.png" class="align-right" src="../../_images/logo_rasdaman.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_community.png" class="align-right" src="../../_images/OSGeo_community.png" /></a>
+<div class="admonition note">
+<p class="admonition-title">Observera</p>
+<p>Detta projekt ingår endast på OSGeoLives virtuella maskindisk (VMDK)</p>
+</div>
+<section id="rasdaman-quickstart">
+<span id="id1"></span><h1>Rasdaman Snabbstart<a class="headerlink" href="#rasdaman-quickstart" title="Permalink till denna rubrik">¶</a></h1>
+<p>Rasdaman är en Big Data Engine för flexibel ad hoc-analys av flerdimensionella spatio-temporala sensor-, bild-, simulerings- och statistikdata av obegränsad storlek. Frågespråket WCPS (Web Coverage Processing Service) är en OGC-standard (Open Geospatial Consortium) som möjliggör filtrering och bearbetning av flerdimensionella rastertäckningar, t.ex. sensor-, simulerings-, bild- och statistikdata, med hjälp av webbtjänster. WCPS-frågorna översätts till rasdaman query language, rasql, och körs på rasdaman. Denna snabbstart visar hur man får åtkomst till och manipulerar ett exempel på 2D-täckning med WCPS-språk.</p>
+<div class="contents local topic" id="contents">
+<p class="topic-title">Innehåll</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#setup" id="id3">Setup</a></p></li>
+<li><p><a class="reference internal" href="#running-wcps-queries" id="id4">Körning av WCPS-frågor</a></p></li>
+<li><p><a class="reference internal" href="#running-coverage" id="id5">Löpande täckning</a></p></li>
+<li><p><a class="reference internal" href="#access-full-coverage" id="id6">Få tillgång till hela täckningen</a></p></li>
+<li><p><a class="reference internal" href="#select-a-subset-of-the-coverage" id="id7">Välj en delmängd av täckningen</a></p></li>
+<li><p><a class="reference internal" href="#band-extraction-from-the-coverage" id="id8">Bandutdrag från täckningen</a></p></li>
+<li><p><a class="reference internal" href="#arithmetic-operation-extracting-ndvi-of-the-coverage" id="id9">Aritmetisk operation: Extrahering av NDVI för täckningen</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id10">Hur vill du gå vidare?</a></p></li>
+</ul>
+</div>
+<section id="setup">
+<h2><a class="toc-backref" href="#id3">Setup</a><a class="headerlink" href="#setup" title="Permalink till denna rubrik">¶</a></h2>
+<p>Det första steget innan du försöker med någon av följande frågor är att starta rasdaman och Tomcat. Öppna katalogen <em>Databaser</em> på skrivbordet och sedan <em>Starta Rasdaman Server</em>. Låt det ta två till tre minuter för rasdaman och särskilt Tomcat att starta helt (när <a class="reference external" href="http://localhost:8080/rasdaman/ows">rasdaman webbklient</a> laddas i webbläsaren).</p>
+<p>Därefter kan du öppna <em>Rasdaman-Earthlook Demo</em> från samma katalog, vilket kommer att starta en lokal demonstrator i webbläsaren. Om du vill ha en mer praktisk handledning kan du dock fortsätta med nästa exempel här.</p>
+</section>
+<section id="running-wcps-queries">
+<h2><a class="toc-backref" href="#id4">Körning av WCPS-frågor</a><a class="headerlink" href="#running-wcps-queries" title="Permalink till denna rubrik">¶</a></h2>
+<dl class="simple">
+<dt>Antingen:</dt><dd><ul class="simple">
+<li><p>Gå till webbklienten <a class="reference external" href="http://localhost:8080/rasdaman/ows">rasdaman web client</a>, gå till fliken <em>ProcessCoverages</em> och skriv in din fråga i frågerutorna och tryck på skicka.</p></li>
+<li><p>Lägg till din fråga i den här webbadressen: <a class="reference external" href="http://localhost:8080/rasdaman/ows?query=your_query">http://localhost:8080/rasdaman/ows?query=your_query</a> och kör den i en webbläsare.</p></li>
+</ul>
+</dd>
+</dl>
+</section>
+<section id="running-coverage">
+<h2><a class="toc-backref" href="#id5">Löpande täckning</a><a class="headerlink" href="#running-coverage" title="Permalink till denna rubrik">¶</a></h2>
+<p>Det exempel på täckning som kommer att användas senare är en bild på 6 MB enligt nedan:</p>
+<a class="reference internal image-reference" href="../../_images/rasdaman_ndvi1.png"><img alt="../../_images/rasdaman_ndvi1.png" src="../../_images/rasdaman_ndvi1.png" style="width: 479.0px; height: 269.0px;" /></a>
+</section>
+<section id="access-full-coverage">
+<h2><a class="toc-backref" href="#id6">Få tillgång till hela täckningen</a><a class="headerlink" href="#access-full-coverage" title="Permalink till denna rubrik">¶</a></h2>
+<p>WCPS-frågan för att få tillgång till hela täckningen är följande:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="p">(</span><span class="n">NIR</span><span class="p">)</span> <span class="k">return</span> <span class="n">encode</span><span class="p">(</span><span class="n">c</span><span class="p">,</span> <span class="s2">&quot;png&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Klicka på <a class="reference external" href="http://localhost:8080/rasdaman/ows?query=for%20c%20in%20(NIR)%20return%20encode%28c,%20%22png%22%29">coverage request</a> för att köra den i webbläsaren.</p>
+</section>
+<section id="select-a-subset-of-the-coverage">
+<h2><a class="toc-backref" href="#id7">Välj en delmängd av täckningen</a><a class="headerlink" href="#select-a-subset-of-the-coverage" title="Permalink till denna rubrik">¶</a></h2>
+<p>WCPS-frågan för att få tillgång till en delmängd av täckningen är följande:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="p">(</span><span class="n">NIR</span><span class="p">)</span> <span class="k">return</span> <span class="n">encode</span><span class="p">(</span><span class="n">c</span><span class="p">[</span><span class="n">i</span><span class="p">(</span><span class="mi">0</span><span class="p">:</span><span class="mi">500</span><span class="p">),</span><span class="n">j</span><span class="p">(</span><span class="mi">0</span><span class="p">:</span><span class="mi">500</span><span class="p">)],</span> <span class="s2">&quot;png&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Klicka på <a class="reference external" href="http://localhost:8080/rasdaman/ows?query=for%20c%20in%20(NIR)%20return%20encode%28c[i(0:500),j(0:500)],%20%22png%22%29">subsetting request</a> för att köra den i webbläsaren.</p>
+<p>Resultatet av sökningen är en bild enligt följande:</p>
+<a class="reference internal image-reference" href="../../_images/rasdaman_ndvi2.png"><img alt="../../_images/rasdaman_ndvi2.png" src="../../_images/rasdaman_ndvi2.png" style="width: 479.0px; height: 125.25px;" /></a>
+</section>
+<section id="band-extraction-from-the-coverage">
+<h2><a class="toc-backref" href="#id8">Bandutdrag från täckningen</a><a class="headerlink" href="#band-extraction-from-the-coverage" title="Permalink till denna rubrik">¶</a></h2>
+<p>WCPS-frågan för att få tillgång till det röda bandet i täckningen är följande:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="p">(</span><span class="n">NIR</span><span class="p">)</span> <span class="k">return</span> <span class="n">encode</span><span class="p">(</span><span class="n">c</span><span class="o">.</span><span class="n">red</span><span class="p">,</span> <span class="s2">&quot;png&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Klicka på <a class="reference external" href="http://localhost:8080/rasdaman/ows?query=for%20c%20in%20(NIR)%20return%20encode%28c.red,%20%22png%22%29">bandutdrag</a> för att köra det; du bör se följande bild i webbläsaren som ett resultat:</p>
+<a class="reference internal image-reference" href="../../_images/rasdaman_ndvi3.png"><img alt="../../_images/rasdaman_ndvi3.png" src="../../_images/rasdaman_ndvi3.png" style="width: 479.0px; height: 269.0px;" /></a>
+</section>
+<section id="arithmetic-operation-extracting-ndvi-of-the-coverage">
+<h2><a class="toc-backref" href="#id9">Aritmetisk operation: Extrahering av NDVI för täckningen</a><a class="headerlink" href="#arithmetic-operation-extracting-ndvi-of-the-coverage" title="Permalink till denna rubrik">¶</a></h2>
+<p>NDVI (Normalized Difference Vegetation Index) är ett mått på sannolikheten för vegetation i fjärranalys, dvs. ju närmare +1 en pixel är, desto mer sannolikt är det att det är växter. WCPS-frågan för att härleda NDVI från täckningen är följande:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="p">(</span> <span class="n">NIR</span> <span class="p">)</span> <span class="k">return</span>
+<span class="n">encode</span><span class="p">(</span>
+  <span class="p">(</span><span class="n">unsigned</span> <span class="n">char</span><span class="p">)</span> <span class="p">(</span>
+     <span class="p">(((</span><span class="nb">float</span><span class="p">)</span><span class="n">c</span><span class="mf">.0</span> <span class="o">-</span> <span class="p">(</span><span class="nb">float</span><span class="p">)</span><span class="n">c</span><span class="mf">.1</span><span class="p">)</span> <span class="o">/</span>
+      <span class="p">((</span><span class="nb">float</span><span class="p">)</span><span class="n">c</span><span class="mf">.0</span> <span class="o">+</span> <span class="p">(</span><span class="nb">float</span><span class="p">)</span><span class="n">c</span><span class="mf">.1</span><span class="p">))</span> <span class="o">&gt;</span> <span class="mi">0</span>
+  <span class="p">)</span> <span class="o">*</span> <span class="mi">255</span>
+<span class="p">,</span> <span class="s2">&quot;png&quot;</span> <span class="p">)</span>
+</pre></div>
+</div>
+<a class="reference internal image-reference" href="../../_images/rasdaman_ndvi4.png"><img alt="../../_images/rasdaman_ndvi4.png" src="../../_images/rasdaman_ndvi4.png" style="width: 479.0px; height: 269.0px;" /></a>
+</section>
+<section id="what-next">
+<h2><a class="toc-backref" href="#id10">Hur vill du gå vidare?</a><a class="headerlink" href="#what-next" title="Permalink till denna rubrik">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://tutorial.rasdaman.org/">rasdaman tutorial</a> ger en kortfattad introduktion till koncepten bakom rasdaman, rasql och OGC:s stöd för webbtjänster.</p></li>
+<li><p>Läs mer om OGC <a class="reference external" href="https://www.ogc.org/standards/wcps">Web Coverage Processing Service</a> Language-standarden (som var starkt inspirerad av rasdaman); en bra utgångspunkt är <a class="reference external" href="https://standards.rasdaman.com/">dokumentations- och handledningssidan</a> och <a class="reference external" href="http://localhost/rasdaman-demo/demo/client/query-sandbox.html">WCPS Query SandBox</a>.</p></li>
+<li><p>Intresserad av täckningsdata och tjänster i allmänhet? Besök OGC: s <a class="reference external" href="https://external.ogc.org/twiki_public/CoveragesDWG/WebHome">Coverages Domain Working Group wiki</a>.</p></li>
+<li><p>I <a class="reference external" href="https://doc.rasdaman.org">rasdaman-dokumentationen</a> finns information om rasdaman-administration, frågespråk och datainmatning.</p></li>
+<li><p>Gå till <a class="reference external" href="http://localhost/rasdaman-demo">multi-dimensional demo</a> för att utforska interaktiva 1-D till 4-D rasdaman demos. De små är en del av OSGeoLive, de som använder större uppsättningar (bortom den här enhetens kapacitet) vidarebefordrar till <a class="reference external" href="https://standards.rasdaman.com">OGC standards showcase site</a> .</p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

@@ -1,0 +1,177 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>52 North SOS &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="52 North SOS Snabbstart" href="../quickstart/52nSOS_quickstart.html" />
+    <link rel="prev" title="t-rex Snabbstart" href="../quickstart/t-rex_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://52north.org/software/software-projects/sos"><img alt="../../_images/logo_52nSOS.png" class="align-right" src="../../_images/logo_52nSOS.png" /></a>
+<section id="north-sos">
+<h1>52 North SOS<a class="headerlink" href="#north-sos" title="Permalink till denna rubrik">¶</a></h1>
+<section id="about">
+<h2>Om<a class="headerlink" href="#about" title="Permalink till denna rubrik">¶</a></h2>
+<p>52°North <a class="reference external" href="https://www.ogc.org/standards/sos">Sensor Observation Service (SOS)</a> stöder interoperabelt tillhandahållande av live- och arkiverade sensorobservationsdata. En sensor kan vara en vattennivåmätare i ett vattendrag, en väderstation eller en station för övervakning av luftkvalitet.</p>
+<a class="reference internal image-reference" href="../../_images/52nSOS_screenshot.png"><img alt="52nSOS skärmdump" class="align-right" src="../../_images/52nSOS_screenshot.png" style="width: 500px;" /></a>
+</section>
+<section id="core-features">
+<h2>Kärnfunktioner<a class="headerlink" href="#core-features" title="Permalink till denna rubrik">¶</a></h2>
+<ul class="simple">
+<li><p><strong>Webbläsarklient</strong>: SOS levereras med en webbläsarbaserad applikation. Detta ger möjlighet för administration och konfiguration av tjänstinstansen, samt att skicka testbegäran för SOS-åtgärder. Lämpliga exempelbegäran ingår.</p></li>
+<li><p><strong>Helgoland</strong>: SOS innehåller Helgoland-applikationen för prospektering, analys och visualisering av sensor webb data inom olika användningsområden, t ex hydrologi, meteorologi, miljöövervakning, trafikledning.</p></li>
+<li><p><strong>Specifikationer</strong>: 52°North SOS implementerar den aktuella specifikationsversionen 2.0.0 och den tidigare versionen 1.0.0 (här inga transaktionsoperationer). Implementerade operationer för varje standardversion listas nedan.</p></li>
+<li><p><strong>Tillägg för nedladdningstjänst enligt INSPIRE</strong>: Från och med version 4.2.0 finns ett tillägg som gör att SOS kan användas som en INSPIRE-nedladdningstjänst. Bakgrundsinformation finns i ett <a class="reference external" href="https://blog.52north.org/2014/01/30/52north-supports-the-jrc-in-developing-an-inspire-download-service-based-on-sos/">blogginlägg</a> och i <a class="reference external" href="https://wiki.52north.org/SensorWeb/SensorObservationServiceIVDocumentation#INSPIRE_Download_Service_extensi">wikin</a> .</p></li>
+<li><p><strong>Tillägg för e-rapportering av luftkvalitetsdata</strong>: Från och med version 4.3.0 finns ett tillägg tillgängligt som tillhandahåller data som överensstämmer med Air Quality Data Flows E1a, E1b och E2a (instansen på OSGeoLive är inte konfigurerad i enlighet med detta). <a class="reference external" href="https://wiki.52north.org/SensorWeb/AqdEReporting#Installation">Installation och konfiguration</a> finns dokumenterad i 52°North Wiki.</p></li>
+<li><p><strong>Sensor Web REST-API</strong>: Från och med version 4.1.1. finns en paketversion tillgänglig som direkt tillhandahåller <a class="reference external" href="https://wiki.52north.org/SensorWeb/SensorWebClientRESTInterface">RESTful API</a>, finns tillgänglig. Därmed kan observationsdata begäras på ett RESTful-sätt och returneras i JSON-kodade svar. Mer information inklusive dokumentation finns i <a class="reference external" href="http://localhost:8080/52nSOS/static/doc/api-doc/">SOS webapp</a>.</p></li>
+<li><p><strong>INSPIRE-specialiserade observationer</strong>: Stöd för INSPIRE Specialized Observations som definieras i Guidelines for the use of <a class="reference external" href="https://inspire.ec.europa.eu/id/document/tg/d2.9-o%26m-swe">Observations &amp; Measurements and Sensor Web Enablement-related standards in INSPIRE (D2.9)</a> (<a class="reference external" href="https://wiki.52north.org/SensorWeb/InspireSpecialisedObservations">detaljerad information om implementeringen</a>).</p></li>
+<li><p><strong>ResultFiltering</strong>: stöd för filtrering av observationer (GetObservation) och information om datatillgänglighet (GetDataAvailability) med observationsvärdet.</p></li>
+<li><p><strong>Läs mer</strong>: <a class="reference external" href="https://wiki.52north.org/SensorWeb/SensorObservationServiceIVDocumentation#Features">Detaljer om de implementerade funktionerna</a> finns i 52°North Wiki.</p></li>
+<li><p>Utvecklingen av den här versionen av 52°North SOS stöddes av olika projekt, organisationer och personer. Mer information finns i <a class="reference external" href="http://localhost:8080/52nSOS/index">52°North SOS client</a>.</p></li>
+<li><p>Vi vill tacka den belgiska interregionala miljöbyrån (<a class="reference external" href="https://www.irceline.be/en/">IRCEL - CELINE</a>) för att ha tillhandahållit de demonstrationsdata som används i denna SOS-installation. Demodata publiceras under en <a class="reference external" href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>-licens.</p></li>
+</ul>
+<section id="sos-operations">
+<h3>SOS funktioner<a class="headerlink" href="#sos-operations" title="Permalink till denna rubrik">¶</a></h3>
+<p><strong>Förfrågningar</strong>:</p>
+<ul class="simple">
+<li><p>GetCapabilities: för att begära en självbeskrivning av tjänsten.</p></li>
+<li><p>DescribeSensor: för att begära information om sensorn.</p></li>
+<li><p>GetFeatureOfInterest/GetFeatureOfInterestTime (från 1.0): för att begära egenskaper (t. ex. sensor-/mätplatser).</p></li>
+<li><p>GetObservationById/GetObservation: för att begära observationer.</p></li>
+<li><p>GetResult (från specifikationsversion 2.0): för att begära sensordata.</p></li>
+<li><p>GetResultTemplate (från specifikationsversion 2.0): för att begära en mall för resultat strukturen som returneras av en GetResult-begäran.</p></li>
+<li><p>GetDataAvailability (från <a class="reference external" href="https://docs.ogc.org/bp/14-004r1/14-004r1.html#38">SOS 2.0 Hydrology Profile - OGC Best Practice</a>): för att begära datatillgänglighet för vissa konfigurationer.</p></li>
+</ul>
+<p><strong>Transaktioner</strong>:</p>
+<ul class="simple">
+<li><p>InsertSensor (från specifikationsversion 2.0): för att infoga metadata för nya sensorer.</p></li>
+<li><p>InsertObservation (från specifikationsversion 2.0): för att infoga nya observationer.</p></li>
+<li><p>UpdateSensorDescription (från specifikationsversion 2.0): för att uppdatera beskrivningen av en sensor.</p></li>
+<li><p>DeleteSensor (från specifikationsversion 2.0): för att ta bort en sensor/procedur och alla relaterade erbjudanden och observationer.</p></li>
+<li><p>DeleteObservation (förlängning för SOS-specifikation 2.0): för radering av en observation.</p></li>
+<li><p>InsertResultTemplate (från specifikationsversion 2.0): för att infoga en resultatmall.</p></li>
+<li><p>InsertResult (från specifikationsversion 2.0): för att infoga resultat.</p></li>
+<li><p>InsertFeatureOfInterest för att infoga funktion</p></li>
+<li><p>DeleteResultTemplate för borttagning av resultTemplates efter identifierare eller erbjudande/observedProperty-par</p></li>
+</ul>
+<p>Inom dessa funktioner är följande filterfunktioner möjliga där tillämpbart:</p>
+<ul class="simple">
+<li><p>Spatialfilter: BBOX, med hjälp av en begränsningsram.</p></li>
+<li><p>Temporalfilter: During, med tidsperiod.</p></li>
+<li><p>Temporal filter: TEquals, med en tidpunkt.</p></li>
+</ul>
+</section>
+</section>
+<section id="applicable-standards">
+<h2>Tillämpliga standarder<a class="headerlink" href="#applicable-standards" title="Permalink till denna rubrik">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.ogc.org/standards/sos">Sensor Observation Service (SOS)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/gml">Geography Markup Language (GML)</a></p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/sensorml">Sensor Model Language (SensorML)</a></p></li>
+</ul>
+</section>
+<section id="details">
+<h2>Detaljer<a class="headerlink" href="#details" title="Permalink till denna rubrik">¶</a></h2>
+<p><strong>Webbplats:</strong> <a class="reference external" href="https://52north.org/software/software-projects/sos">https://52north.org/software/software-projects/sos</a></p>
+<p><strong>Licence:</strong> GNU General Public License (GPL) version 2</p>
+<p><strong>Programvaruversion:</strong> 5.5.1</p>
+<p><strong>Plattformar som stöds:</strong> Windows, Linux, Mac</p>
+<p><strong>Java-versioner som stöds:</strong> 7+, (paketversion: 8+)</p>
+<p><strong>Stödd DBMS:</strong> PostgreSQL (9+) + PostGIS (2+), MariaDB/MySQL (5.6+), Oracle DB (9+), SQL Server 2012</p>
+<p><strong>API:</strong> Java, HTTP + JSON/XML/SOAP/KVP</p>
+<p><strong>Kommersiellt stöd:</strong> <a class="reference external" href="https://52north.org/services/">https://52north.org/services/</a></p>
+<p><strong>Gemenskapsstöd:</strong> <a class="reference external" href="https://list.52north.org/mailman/listinfo/sensorweb">https://list.52north.org/mailman/listinfo/sensorweb</a></p>
+<p><strong>Community Website:</strong> <a class="reference external" href="https://52north.org/research/scope/research-data-infrastructures/">https://52north.org/research/scope/research-data-infrastructures/</a></p>
+<div class="admonition note">
+<p class="admonition-title">Observera</p>
+<p>Detta projekt ingår endast på OSGeoLives virtuella maskindisk (VMDK)</p>
+</div>
+</section>
+<section id="quickstart">
+<h2>Snabbstart<a class="headerlink" href="#quickstart" title="Permalink till denna rubrik">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/52nSOS_quickstart.html"><span class="doc">Quickstart documentation</span></a></p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

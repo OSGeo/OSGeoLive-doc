@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>EOxServer &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="Snabbstart för EOxServer" href="../quickstart/eoxserver_quickstart.html" />
+    <link rel="prev" title="actinia Snabbstart" href="../quickstart/actinia_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://docs.eoxserver.org/en/stable/"><img alt="../../_images/logo_eoxserver.png" class="align-right" src="../../_images/logo_eoxserver.png" /></a>
+<section id="eoxserver">
+<h1>EOxServer<a class="headerlink" href="#eoxserver" title="Permalink till denna rubrik">¶</a></h1>
+<section id="about">
+<h2>Om<a class="headerlink" href="#about" title="Permalink till denna rubrik">¶</a></h2>
+<p>EOxServer är en server för presentation av stora dataarkiv och metadata för jordobservation (EO) via öppna standarder.</p>
+<p>Jordobservationsdata som för närvarande stöds inkluderar 2D-rasterdata som vanligtvis förvärvas med hjälp av sensorer på satelliter eller flygplan och inkluderar information om förvärvstidpunkten och fotavtrycket på planeten Jorden. Det används vanligtvis för att övervaka jordens naturliga och byggda miljö.</p>
+<p>EOxServer bygger på en Open Source-programvarustack som innehåller Python, <a class="reference internal" href="mapserver_overview.html"><span class="doc">MapServer</span></a>, Django/GeoDjango, <a class="reference internal" href="gdal_overview.html"><span class="doc">GDAL</span></a>, PROJ och en <a class="reference internal" href="spatialite_overview.html"><span class="doc">SpatiaLite</span></a> eller <a class="reference internal" href="postgis_overview.html"><span class="doc">PostGIS</span></a> databas.</p>
+<a class="reference internal image-reference" href="../../_images/eoxserver_screenshot.png"><img alt="eoxserver skärmdump" class="align-right" src="../../_images/eoxserver_screenshot.png" style="width: 500px;" /></a>
+</section>
+<section id="core-features">
+<h2>Kärnfunktioner<a class="headerlink" href="#core-features" title="Permalink till denna rubrik">¶</a></h2>
+<ul class="simple">
+<li><p>Visa, filtrera, dela upp och ladda ner EO-data</p></li>
+<li><p>Registrera EO:s dataarkiv</p></li>
+<li><p>Webbaserat administrationsgränssnitt och kommandoradsgränssnitt</p></li>
+<li><p>Publicera data via <a class="reference external" href="https://www.ogc.org">Open Geospatial Consortium (OGC)</a></p>
+<ul>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wcs">Web Coverage Service (WCS)</a> 1.0, 1.1 och 2.0 &amp; föreslagen EO-WCS</p></li>
+<li><p><a class="reference external" href="https://www.ogc.org/standards/wms">Web Map Service (WMS)</a> &amp; EO-WMS</p></li>
+<li><p>Föreslagna tillägg till WCS inklusive: GeoTIFF-kodning, fördefinierade projektioner (CRS), skalning och interpolering.</p></li>
+<li><p>Protokoll som stöds är: KVP och XML/POST (används tillsammans med SOAP2POST Proxy för att även tillhandahålla XML/SOAP)</p></li>
+</ul>
+</li>
+<li><p>Registrera data som lagrats i S3</p></li>
+<li><p>Publicera med hjälp av följande format och grupperingar:</p>
+<ul>
+<li><p>2-D EO-täckningar härledda från gmlcov:RectifiedGridCoverage</p></li>
+<li><p>2-D EO-täckningar härledda från gmlcov:ReferenceableGridCoverage</p></li>
+<li><p>Dataset Series som en samling av EO-täckningar, t.ex. i en tidsserie</p></li>
+<li><p>Stitched Mosaics av rektifierade EO-täckningar inklusive bidragande fotavtryck</p></li>
+</ul>
+</li>
+<li><p>Stöd för täckningsformat:</p></li>
+</ul>
+<blockquote>
+<div><ul class="simple">
+<li><p>GeoTIFF</p></li>
+<li><p>Format som stöds av GDAL-biblioteket</p></li>
+</ul>
+</div></blockquote>
+</section>
+<section id="implemented-standards">
+<h2>Implementerade standarder<a class="headerlink" href="#implemented-standards" title="Permalink till denna rubrik">¶</a></h2>
+<blockquote>
+<div><ul class="simple">
+<li><p>WCS, EO-WCS</p></li>
+<li><p>WMS, EO-WMS</p></li>
+<li><p>WPS</p></li>
+<li><p>GML, GMLCOV, EO-O&amp;M</p></li>
+<li><p>OpenSearch</p></li>
+</ul>
+</div></blockquote>
+</section>
+<section id="details">
+<h2>Detaljer<a class="headerlink" href="#details" title="Permalink till denna rubrik">¶</a></h2>
+<p><strong>Webbplats:</strong> <a class="reference external" href="https://docs.eoxserver.org/en/stable/">https://docs.eoxserver.org/en/stable/</a></p>
+<p><strong>Licens:</strong> <a class="reference external" href="https://docs.eoxserver.org/en/stable/copyright.html#license">MIT-licens</a></p>
+<p><strong>Programvaruversion:</strong> 1.1.2</p>
+<p><strong>Plattformar som stöds:</strong> Linux, Windows, Mac</p>
+<p><strong>API-gränssnitt:</strong> Python</p>
+<p><strong>Support:</strong> <a class="reference external" href="https://docs.eoxserver.org/en/stable/users/basics.html#where-can-i-get-support">https://docs.eoxserver.org/en/stable/users/basics.html#where-can-i-get-support</a></p>
+</section>
+<section id="quickstart">
+<h2>Snabbstart<a class="headerlink" href="#quickstart" title="Permalink till denna rubrik">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/eoxserver_quickstart.html"><span class="doc">Snabbstartsdokumentation</span></a></p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

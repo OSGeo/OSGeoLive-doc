@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Snabbstart för EOxServer &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="ETF" href="../overview/ETF_overview.html" />
+    <link rel="prev" title="EOxServer" href="../overview/eoxserver_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://docs.eoxserver.org/en/stable/"><img alt="../../_images/logo_eoxserver.png" class="align-right" src="../../_images/logo_eoxserver.png" /></a>
+<section id="eoxserver-quickstart">
+<h1>Snabbstart för EOxServer<a class="headerlink" href="#eoxserver-quickstart" title="Permalink till denna rubrik">¶</a></h1>
+<p>EOxServer är en server för presentation av stora dataarkiv och metadata för jordobservation (EO) via öppna standarder. Den bygger på en Open Source-stack av programvara som inkluderar Python, <a class="reference internal" href="../overview/mapserver_overview.html"><span class="doc">MapServer</span></a>, Django/GeoDjango, <a class="reference internal" href="../overview/gdal_overview.html"><span class="doc">GDAL</span></a>, <a class="reference internal" href="../overview/proj_overview.html"><span class="doc">PROJ</span></a> och en <a class="reference internal" href="../overview/spatialite_overview.html"><span class="doc">SpatiaLite</span></a> eller <a class="reference internal" href="../overview/postgis_overview.html"><span class="doc">PostGIS</span></a> databas.</p>
+<p>Denna snabbstart beskriver hur du gör:</p>
+<ul class="simple">
+<li><p>Använd webbklienten för att visa, filtrera, dela upp och ladda ner EO-data</p></li>
+<li><p>Använd Admin Client för att inspektera EO:s dataarkiv</p></li>
+</ul>
+<div class="contents local topic" id="contents">
+<p class="topic-title">Innehåll</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#start-eoxserver" id="id1">Starta EoxServer</a></p></li>
+<li><p><a class="reference internal" href="#work-with-the-web-client" id="id2">Arbeta med webbklienten</a></p></li>
+<li><p><a class="reference internal" href="#work-with-the-admin-client" id="id3">Arbeta med adminklienten</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id4">What next?</a></p></li>
+</ul>
+</div>
+<section id="start-eoxserver">
+<h2><a class="toc-backref" href="#id1">Starta EoxServer</a><a class="headerlink" href="#start-eoxserver" title="Permalink till denna rubrik">¶</a></h2>
+<p>Välj <span class="menuselection">Geospatial ‣ Web Services ‣ EOxServer</span>. Detta startar en webbläsare som visar demonstrationsinstansen som finns på <a class="reference external" href="http://localhost/eoxserver/">http://localhost/eoxserver/</a></p>
+<a class="reference internal image-reference" href="../../_images/eoxserver_start.png"><img alt="Start av demonstration av EOxServer" src="../../_images/eoxserver_start.png" style="width: 574.0px; height: 276.5px;" /></a>
+</section>
+<section id="work-with-the-web-client">
+<h2><a class="toc-backref" href="#id2">Arbeta med webbklienten</a><a class="headerlink" href="#work-with-the-web-client" title="Permalink till denna rubrik">¶</a></h2>
+<p>Klicka på länken <strong>Web Client</strong> för att öppna den integrerade EOxServer-klienten.</p>
+<p>I den här klienten kan du utforska innehållet i EOxServer-instansen. Demonstrationsinstansen är fylld med ENVISAT MERIS-scener.</p>
+<a class="reference internal image-reference" href="../../_images/eoxserver_webclient1.png"><img alt="Huvudvy av EOxServer webbklient" src="../../_images/eoxserver_webclient1.png" style="width: 749.5px; height: 433.0px;" /></a>
+<p>Klienten består av kartvyn och widgetar som innehåller de viktigaste interaktionerna. Huvudområdet är klientens kartwidget med en uppsättning dataset som redan visas. Längst ner hittar du widgeten timeslider, som gör att du kan utforska innehållet i tidsdimensionen.</p>
+<a class="reference internal image-reference" href="../../_images/eoxserver_webclient2.png"><img alt="EOxServer demonstration av inbäddad klient skisserar" src="../../_images/eoxserver_webclient2.png" style="width: 748.0px; height: 431.0px;" /></a>
+<p>Widgeten Layer Selection kan expanderas genom att klicka på kugghjulet längst upp till vänster och gör det möjligt att aktivera eller inaktivera synligheten och konfigurera renderingen av lagren. Du kan också visa eller dölja gatuöverlägget och välja bakgrundsskikt. Fliken Filters i den här widgeten gör det möjligt att söka efter olika spatiala och tidsmässiga värden.</p>
+<a class="reference internal image-reference" href="../../_images/eoxserver_webclient3.png"><img alt="EOxServer demonstration av inbäddad klient skisserar" src="../../_images/eoxserver_webclient3.png" style="width: 747.0px; height: 431.5px;" /></a>
+<p>På samma sätt som på en karta kan du zooma och panorera den aktuella intressanta tiden och välja en intressant tid genom att rita på det område som innehåller de röda prickarna. Du kan också hålla muspekaren över en punkt för att se datasetets ID. Genom att klicka på punkten zoomar kartan automatiskt till datasetets omfattning.</p>
+<a class="reference internal image-reference" href="../../_images/eoxserver_webclient4.png"><img alt="EOxServer demonstration av inbäddad klient skisserar" src="../../_images/eoxserver_webclient4.png" style="width: 748.0px; height: 432.5px;" /></a>
+<p>När ett spatialt filter är aktiverat kan du rita en bounding box, polygon eller punkt direkt på kartan. Den ritade funktionen används för frågor i Download Tool.</p>
+<a class="reference internal image-reference" href="../../_images/eoxserver_webclient5.png"><img alt="EOxServer demonstration av inbäddad klient skisserar" src="../../_images/eoxserver_webclient5.png" style="width: 746.0px; height: 431.0px;" /></a>
+<p>Du kan få mer information om tillgängliga tjänster och metadata för den valda produkten genom att hålla muspekaren över produkten i sökresultatwidgeten och klicka på ikonen längst upp till höger.</p>
+<a class="reference internal image-reference" href="../../_images/eoxserver_webclient6.png"><img alt="EOxServer demonstration av inbäddad klient skisserar" src="../../_images/eoxserver_webclient6.png" style="width: 749.0px; height: 432.5px;" /></a>
+<p>När Download Tool är aktiverat skickas en fråga till servern. Denna fråga inkluderar den valda intressanta tiden och avgränsningsrutan. Resultaten visas i widgeten Download, där du kan välja format, projektion och dataset som ska laddas ner.</p>
+<p>Detta var en snabb introduktion till EOxServer Web Client. Mer information om detta ämne finns i <a class="reference external" href="https://docs.eoxserver.org/en/stable/users/services/webclient.html">onlinedokumentationen</a>.</p>
+</section>
+<section id="work-with-the-admin-client">
+<h2><a class="toc-backref" href="#id3">Arbeta med adminklienten</a><a class="headerlink" href="#work-with-the-admin-client" title="Permalink till denna rubrik">¶</a></h2>
+<p>På EOxServers huvudsida klickar du på länken <strong>Admin Client</strong> och loggar in med användaren <cite>admin</cite> och lösenordet <cite>admin</cite>.</p>
+<a class="reference internal image-reference" href="../../_images/eoxserver_adminclient1.png"><img alt="EOxServer demonstration admin klient inloggning" src="../../_images/eoxserver_adminclient1.png" style="width: 438.0px; height: 272.5px;" /></a>
+<p>”Admin Client” är Djangos standardadministratör och låter dig konfigurera tillgängliga data. Känn dig fri att utforska klienten. Mer information finns i guiden <a class="reference external" href="https://docs.eoxserver.org/en/stable/users/operations/index.html">operations’</a>.</p>
+<a class="reference internal image-reference" href="../../_images/eoxserver_adminclient2.png"><img alt="EOxServer demonstration admin klient start" src="../../_images/eoxserver_adminclient2.png" style="width: 746.0px; height: 431.0px;" /></a>
+<p>Du kan till exempel inspektera den samling som laddas som standard genom att klicka på länken ”Samlingar” och sedan på länken ”MER_FRS_1P_RGB_reduced”.</p>
+<a class="reference internal image-reference" href="../../_images/eoxserver_adminclient3.png"><img alt="EOxServer demonstration admin klient Dataset Serie" src="../../_images/eoxserver_adminclient3.png" style="width: 742.0px; height: 429.0px;" /></a>
+<p>Du kan förhandsgranska skydden genom att gå tillbaka och klicka på länken ”Skydd”.</p>
+<a class="reference internal image-reference" href="../../_images/eoxserver_adminclient4.png"><img alt="EOxServer demonstration admin klient Dataset Seriehantering" src="../../_images/eoxserver_adminclient4.png" style="width: 746.5px; height: 429.5px;" /></a>
+</section>
+<section id="what-next">
+<h2><a class="toc-backref" href="#id4">What next?</a><a class="headerlink" href="#what-next" title="Permalink till denna rubrik">¶</a></h2>
+<p>Det här är en enkel demonstration, men du kan göra mycket mer med EOxServer. Projektets webbplats innehåller en hel del resurser som hjälper dig att komma igång. Här är några resurser att kolla in härnäst:</p>
+<ul class="simple">
+<li><p>Se <a class="reference internal" href="../overview/eoxserver_overview.html"><span class="doc">EOxServer Overview</span></a> för mer information.</p></li>
+<li><p>Läs Handbok för drift av OxServer &lt;<a class="reference external" href="https://docs.eoxserver.org/en/stable/users/operations/index.html">https://docs.eoxserver.org/en/stable/users/operations/index.html</a>&gt;`_.</p></li>
+<li><p>Läs <a class="reference external" href="https://docs.eoxserver.org/en/stable/users/basics.html">EOxServer Basics</a>.</p></li>
+<li><p>Är du redo att använda EOxServer? Gå då med i gemenskapen på e-postlistorna &lt;<a class="reference external" href="https://docs.eoxserver.org/en/stable/users/basics.html#where-can-i-get-support">https://docs.eoxserver.org/en/stable/users/basics.html#where-can-i-get-support</a>&gt;`_ för att utbyta idéer, diskutera potentiella förbättringar av programvaran och ställa frågor.</p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

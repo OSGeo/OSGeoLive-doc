@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>OpenStreetMap &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="Snabbstart för OpenStreetMap" href="../quickstart/osm_quickstart.html" />
+    <link rel="prev" title="OpenCPN Snabbstart" href="../quickstart/opencpn_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://www.openstreetmap.org/"><img alt="../../_images/logo_osm.png" class="align-right" src="../../_images/logo_osm.png" /></a>
+<section id="openstreetmap">
+<h1>OpenStreetMap<a class="headerlink" href="#openstreetmap" title="Permalink till denna rubrik">¶</a></h1>
+<section id="tools-for-mapping-the-world">
+<h2>Verktyg för att kartlägga världen<a class="headerlink" href="#tools-for-mapping-the-world" title="Permalink till denna rubrik">¶</a></h2>
+<p>openStreetMap &lt;<a class="reference external" href="https://www.openstreetmap.org">https://www.openstreetmap.org</a>&gt;`_ är ett projekt som syftar till att skapa och tillhandahålla gratis geografiska data, t.ex. gatukartor, till alla som vill ha dem. Projektet startades eftersom de flesta kartor som du tänker på som fria faktiskt har juridiska eller tekniska begränsningar för deras användning, vilket hindrar människor från att använda dem på kreativa, produktiva eller oväntade sätt.</p>
+<p>Ett antal program har inkluderats: JOSM, Merkaartor, Osmosis, Osm2pgsql och ett antal små kommandoverktyg. Dessutom ingår aktuella exempeldata för FOSS4G-värdstaden och ett antal JOSM-plugins.</p>
+<a class="reference internal image-reference" href="../../_images/osm_screenshot.png"><img alt="osm skärmdump" class="align-right" src="../../_images/osm_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>Kärnfunktioner<a class="headerlink" href="#core-features" title="Permalink till denna rubrik">¶</a></h3>
+<ul class="simple">
+<li><p>Globalt dataset med massiv insamling från massor av människor</p></li>
+<li><p>Ett antal redaktörer att välja mellan</p></li>
+<li><p>Ett antal renderingsmaskiner att välja mellan (inklusive anpassade och online)</p></li>
+<li><p>Gratis att använda</p></li>
+<li><p>Utbredd integration av geoapplikationer</p></li>
+</ul>
+</section>
+<section id="details">
+<h3>Detaljer<a class="headerlink" href="#details" title="Permalink till denna rubrik">¶</a></h3>
+<p><strong>Webbplats:</strong> <a class="reference external" href="https://www.openstreetmap.org/">https://www.openstreetmap.org/</a></p>
+<p><strong>Licenser:</strong></p>
+<ul class="simple">
+<li><p>OpenStreetMap-data: <a class="reference external" href="https://www.openstreetmap.org/copyright">https://www.openstreetmap.org/copyright</a></p></li>
+<li><p>JOSM: GNU General Public License (GPL) version 2</p></li>
+</ul>
+<ul class="simple">
+<li><p>Samling av insticksprogram för JOSM: Allt från Public Domain till GPLv3</p></li>
+<li><p>Merkaartor: GNU General Public License (GPL) version 2</p></li>
+</ul>
+<p><strong>Programvaruversioner:</strong></p>
+<ul class="simple">
+<li><p>JOSM: Senaste stabila ögonblicksbilden (svn r11427)</p></li>
+<li><p>Merkaartor: 0.18.2</p></li>
+<li><p>Osmos: 0,44,1</p></li>
+<li><p>osm2pgsql: 0.88.1</p></li>
+</ul>
+<p><strong>Plattformar som stöds:</strong> GNU/Linux, Mac OSX, MS Windows</p>
+<p><strong>API-gränssnitt (data):</strong> REST (via Xapi), XML</p>
+<p><strong>Support:</strong> <a class="reference external" href="https://www.openstreetmap.org/help">https://www.openstreetmap.org/help</a></p>
+</section>
+<section id="quickstart">
+<h3>Snabbstart<a class="headerlink" href="#quickstart" title="Permalink till denna rubrik">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/osm_quickstart.html"><span class="doc">Snabbstartsdokumentation</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

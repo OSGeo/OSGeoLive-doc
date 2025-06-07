@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>QGIS &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="Snabbstart för QGIS" href="../quickstart/qgis_quickstart.html" />
+    <link rel="prev" title="snabbstart för gvSIG Desktop" href="../quickstart/gvsig_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://www.qgis.org/"><img alt="../../_images/logo_qgis.png" class="align-right" src="../../_images/logo_qgis.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<section id="qgis">
+<h1>QGIS<a class="headerlink" href="#qgis" title="Permalink till denna rubrik">¶</a></h1>
+<section id="desktop-gis">
+<h2>Desktop GIS<a class="headerlink" href="#desktop-gis" title="Permalink till denna rubrik">¶</a></h2>
+<p>QGIS är en användarvänlig GIS-klient med öppen källkod där du kan visualisera, hantera, redigera och analysera data samt skapa utskrivbara kartor. Den innehåller kraftfulla analytiska funktioner genom integration med <a class="reference internal" href="grass_overview.html"><span class="doc">GRASS</span></a>, <a class="reference internal" href="saga_overview.html"><span class="doc">SAGA</span></a>, <a class="reference internal" href="otb_overview.html"><span class="doc">Orfeo Toolbox</span></a> , <a class="reference internal" href="gdal_overview.html"><span class="doc">GDAL/OGR</span></a> och många andra algoritmleverantörer. Det körs på Linux, Unix, Mac OSX och Windows och stöder många vektor-, raster- och databasformat och funktionalitet.</p>
+<a class="reference internal image-reference" href="../../_images/qgis_screenshot.png"><img alt="qgis skärmdump" class="align-right" src="../../_images/qgis_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>Kärnfunktioner<a class="headerlink" href="#core-features" title="Permalink till denna rubrik">¶</a></h3>
+<ul>
+<li><p>Användarvänligt grafiskt användargränssnitt:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>identifiera/välja funktioner</p></li>
+<li><p>redigera/visa/söka attribut</p></li>
+<li><p>projektion i realtid</p></li>
+<li><p>skriv ut kompositör</p></li>
+<li><p>märkning av funktioner</p></li>
+<li><p>ändra vektor- och rastersymboler</p></li>
+<li><p>lägg till ett graticule-lager</p></li>
+<li><p>och mer …</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Enkel visning av många vektor- och rasterformat</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>databastabeller: PostgreSQL/PostGIS, Oracle Spatial, MS SQL Spatial, SpatiaLite</p></li>
+<li><p>de flesta vektorformat: inklusive ESRI shapefiler, MapInfo, SDTS och GML, OpenStreetMap-vektorer</p></li>
+<li><p>rasterformat såsom digitala höjdmodeller, flygfotografier eller landsat-bilder</p></li>
+<li><p>GRASS-platser och kartor</p></li>
+<li><p>spatiala data online som serveras som OGC-kompatibla WMS, WMTS, WFS eller WCS</p></li>
+<li><p>2.Stöd för 5D-rendering</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Skapa, redigera och exportera spatiala data med hjälp av:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>digitaliseringsverktyg för GRASS- och shapefilformat</p></li>
+<li><p>plugin för georeferenser</p></li>
+<li><p>GPS-verktyg för import och export av GPX-format, konvertering av andra GPS-format till GPX eller nedladdning/uppladdning direkt till en GPS-enhet</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Utföra spatial analys med hjälp av integrerat stöd för SAGA, OTB, MMGIS och GRASS</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>karta algebra</p></li>
+<li><p>terränganalys</p></li>
+<li><p>hydrologisk modellering</p></li>
+<li><p>nätverksanalys</p></li>
+<li><p>omfattande sökbar verktygslåda av funktioner</p></li>
+<li><p>definiera och köra återanvändbara analysrutiner genom att kedja funktioner med hjälp av ett grafiskt modelleringsverktyg</p></li>
+<li><p>och många andra</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Publicera på internet</p></li>
+<li><p>Utökad plugin-arkitektur</p></li>
+</ul>
+</section>
+<section id="implemented-standards">
+<h3>Implementerade standarder<a class="headerlink" href="#implemented-standards" title="Permalink till denna rubrik">¶</a></h3>
+<ul class="simple">
+<li><p>Överensstämmer med OGC-standarder (WMS, WFS, … )</p></li>
+</ul>
+</section>
+<section id="details">
+<h3>Detaljer<a class="headerlink" href="#details" title="Permalink till denna rubrik">¶</a></h3>
+<p><strong>Webbplats:</strong> <a class="reference external" href="https://www.qgis.org/">https://www.qgis.org/</a></p>
+<p><strong>Licence:</strong> GNU General Public License (GPL) version 2</p>
+<p><strong>Software Version:</strong> 3.40.6</p>
+<p><strong>Plattformar som stöds:</strong> Windows, Linux, Mac, UNIX</p>
+<p><strong>Community Support:</strong> <a class="reference external" href="https://qgis.org/resources/support/">https://qgis.org/resources/support/</a></p>
+<p><strong>Commercial Support:</strong> <a class="reference external" href="https://qgis.org/resources/support/commercial-support/">https://qgis.org/resources/support/commercial-support/</a></p>
+</section>
+<section id="quickstart">
+<h3>Snabbstart<a class="headerlink" href="#quickstart" title="Permalink till denna rubrik">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/qgis_quickstart.html"><span class="doc">Snabbstartsdokumentation</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

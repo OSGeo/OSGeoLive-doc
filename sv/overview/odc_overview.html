@@ -1,0 +1,129 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Kub för öppna data &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="Snabbstart för Open Data Cube" href="../quickstart/odc_quickstart.html" />
+    <link rel="prev" title="Rasdaman Snabbstart" href="../quickstart/rasdaman_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://www.opendatacube.org"><img alt="../../_images/logo_odc.png" class="align-right" src="../../_images/logo_odc.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_community.png" class="align-right" src="../../_images/OSGeo_community.png" /></a>
+<section id="open-data-cube">
+<h1>Kub för öppna data<a class="headerlink" href="#open-data-cube" title="Permalink till denna rubrik">¶</a></h1>
+<section id="id1">
+<h2>Kub för öppna data<a class="headerlink" href="#id1" title="Permalink till denna rubrik">¶</a></h2>
+<p>Open Data Cube (ODC) är en gemenskap av människor och organisationer som bygger kapacitet för att arbeta med jordobservationsdata. Kärnan i ODC är ett programvarubibliotek och en uppsättning kommandoradsverktyg. Och för att hålla ihop kärnan har vi en grupp organisationer som samarbetar om strategi och som kan underhålla specifika implementeringar av ODC.</p>
+<p>Målet med ODC är att öka effekten av satellitdata genom att tillhandahålla ett öppet och fritt tillgängligt exploateringsverktyg och att främja en gemenskap för att utveckla, upprätthålla och öka bredden och djupet i applikationerna.</p>
+<p>På en teknisk nivå består en implementering av ODC av tre saker: data, ett index och programvara:</p>
+<ul class="simple">
+<li><p>Data är vanligtvis filbaserade, antingen i lokala kataloger med GeoTIFF-filer eller NetCDF-filer, men data kan vara vad som helst som GDAL kan läsa, inklusive molnoptimerade GeoTIFF-filer som lagras på AWS S3.</p></li>
+<li><p>För indexet använder ODC PostgreSQL som en databas för att lagra en lista över produkter (en specifik datatyp, som Landsat 8 Analysis Ready Data) och dataset (en enda instans av en produkt, till exempel en enda Landsat 8-scen). Indexet gör det möjligt för en användare att be om data vid en viss tidpunkt och plats, utan att behöva veta specifikt var de nödvändiga filerna lagras och hur man får tillgång till dem.</p></li>
+<li><p>Programvaran som utgör kärnan i ODC är ett Python-bibliotek som gör det möjligt för en användare att indexera data (lägga till poster i indexet), ta in data (optimera indexerade data för prestanda), ställa frågor om data (returnera data i ett standardformat) och ett stort antal andra funktioner relaterade till datahantering.</p></li>
+</ul>
+<a class="reference internal image-reference" href="../../_images/odc_screenshot.png"><img alt="odc skärmdump" class="align-right" src="../../_images/odc_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>Kärnfunktioner<a class="headerlink" href="#core-features" title="Permalink till denna rubrik">¶</a></h3>
+<ul class="simple">
+<li><p>lagring, bearbetning och analys av stora samlingar av jordobservationsdata</p></li>
+<li><p>Funktioner för rutnät och konturering</p></li>
+</ul>
+</section>
+<section id="details">
+<h3>Detaljer<a class="headerlink" href="#details" title="Permalink till denna rubrik">¶</a></h3>
+<p><strong>Webbplats:</strong> <a class="reference external" href="https://www.opendatacube.org">https://www.opendatacube.org</a></p>
+<p><strong>Licens:</strong> Apache-licens version 2</p>
+<p><strong>Programvaruversion:</strong> 1.8.19</p>
+<p><strong>Plattformar som stöds:</strong> GNU/Linux, Mac OSX, MS Windows</p>
+<p><strong>API-gränssnitt:</strong> Kommandorad</p>
+<p><strong>Support:</strong> <a class="reference external" href="https://www.opendatacube.org/faq">https://www.opendatacube.org/faq</a></p>
+</section>
+<section id="quickstart">
+<h3>Snabbstart<a class="headerlink" href="#quickstart" title="Permalink till denna rubrik">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/odc_quickstart.html"><span class="doc">Snabbstartsdokumentation</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

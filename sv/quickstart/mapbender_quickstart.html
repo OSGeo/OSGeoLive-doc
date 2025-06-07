@@ -1,0 +1,258 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Mapbender Snabbstart &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="OpenLayers" href="../overview/openlayers_overview.html" />
+    <link rel="prev" title="Mapbender" href="../overview/mapbender_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://mapbender.org"><img alt="../../_images/logo_mapbender.png" class="align-right" src="../../_images/logo_mapbender.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<section id="mapbender-quickstart">
+<h1><a class="toc-backref" href="#id1">Mapbender Snabbstart</a><a class="headerlink" href="#mapbender-quickstart" title="Permalink till denna rubrik">¶</a></h1>
+<p>Mapbender är ett webbaserat geoportalramverk för att publicera, registrera, visa, navigera, övervaka och ge säker åtkomst till infrastrukturtjänster för spatiala data.</p>
+<p>Denna snabbstart beskriver hur du gör:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>start Mapbender</p></li>
+<li><p>skapa en ansökan</p></li>
+<li><p>ladda en webbkarttjänst (OGC WMS)</p></li>
+<li><p>konfigurera WMS</p></li>
+<li><p>lägga till element i en applikation</p></li>
+</ul>
+</div></blockquote>
+<p>Så här kan en Mapbender-applikation se ut:</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/mapbender_screenshot.png"><img alt="../../_images/mapbender_screenshot.png" src="../../_images/mapbender_screenshot.png" style="width: 560.0px; height: 353.5px;" /></a>
+</div></blockquote>
+<div class="contents topic" id="contents">
+<p class="topic-title">Innehåll</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#mapbender-quickstart" id="id1">Mapbender Snabbstart</a></p>
+<ul>
+<li><p><a class="reference internal" href="#start-mapbender" id="id2">Starta Mapbender</a></p></li>
+<li><p><a class="reference internal" href="#create-an-individual-application" id="id3">Skapa en individuell ansökan</a></p></li>
+<li><p><a class="reference internal" href="#loading-web-map-services" id="id4">Laddning av webbkarttjänster</a></p></li>
+<li><p><a class="reference internal" href="#add-service-to-application" id="id5">Lägg till tjänst i applikation</a></p></li>
+<li><p><a class="reference internal" href="#configure-your-wms" id="id6">Konfigurera ditt WMS</a></p></li>
+<li><p><a class="reference internal" href="#add-elements-to-your-application" id="id7">Lägg till element i din applikation</a></p></li>
+<li><p><a class="reference internal" href="#things-to-try" id="id8">Saker att prova</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id9">What next?</a></p></li>
+</ul>
+</li>
+</ul>
+</div>
+<section id="start-mapbender">
+<h2><a class="toc-backref" href="#id2">Starta Mapbender</a><a class="headerlink" href="#start-mapbender" title="Permalink till denna rubrik">¶</a></h2>
+<ol class="arabic">
+<li><p>Choose <span class="menuselection">Geospatial ‣ Browser Clients ‣ Mapbender</span> from the start menu or visit
+<a class="reference external" href="http://localhost/mapbender/">http://localhost/mapbender/</a>. The application will take a few moments
+to start up</p>
+<p>Om du har några problem med att köra Mapbender, kontrollera om din Apache-webbserver och din PostgreSQL-databas körs. Eller om du använder SQLite som databas, om du har skrivåtkomst till filen.</p>
+<p>På sidan Welcome listas applikationer som är publika och kan användas av alla användare. Applikationerna listas med en skärmdump, en titel och en beskrivning.</p>
+<p>Du kan öppna ett program genom att klicka på titeln, skärmdumpen eller startknappen.</p>
+</li>
+<li><p>Innan du kan administrera med Mapbender måste du logga in för att få tillgång till administrationen.</p></li>
+<li><p>Klicka på Login längst upp till höger för att öppna inloggningssidan. Logga in med användarnamnet <span class="guilabel">root</span> och lösenordet <span class="guilabel">root</span> (Detta är standardanvändaren och lösenordet som du får efter installationen av Mapbender på OSGeoLive. Ändra root-lösenordet om du vill köra en produktiv miljö. Ta inte bort användaren <span class="guilabel">root</span>).</p></li>
+</ol>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/mapbender3_application_overview.png"><img alt="../../_images/mapbender3_application_overview.png" src="../../_images/mapbender3_application_overview.png" style="width: 686.0px; height: 355.59999999999997px;" /></a>
+</div></blockquote>
+</section>
+<section id="create-an-individual-application">
+<h2><a class="toc-backref" href="#id3">Skapa en individuell ansökan</a><a class="headerlink" href="#create-an-individual-application" title="Permalink till denna rubrik">¶</a></h2>
+<p>Skapa en ny applikation genom att ange grundläggande information om din applikation. Därefter använder du redigeringsläget för att lägga till element, lager och säkerhet.</p>
+<ol class="arabic simple">
+<li><p>Välj <span class="menuselection">Applikationer ‣ Ny applikation</span></p></li>
+<li><p>Definiera en titel och en beskrivning för din ansökan</p></li>
+<li><p>Definiera en URL-titel som ska användas i URL:en för att öppna programmet. Den kan vara densamma som titeln</p></li>
+<li><p>Ladda upp en bildfil som skärmdump för applikationsöversikten</p></li>
+<li><p>Välj en mall för din applikation</p></li>
+<li><p>Välj knappen <strong>Create</strong> för att skapa applikationen</p></li>
+</ol>
+<div class="admonition tip">
+<p class="admonition-title">Tips</p>
+<p>Du kan enkelt skapa en applikation genom att kopiera en befintlig applikation med hjälp av knappen <strong>Duplicate Application</strong>.</p>
+</div>
+<p>Din applikation är konfigurerad. Nu behöver du ett WMS som ska visas i din applikation.</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/mapbender3_create_application.png"><img alt="../../_images/mapbender3_create_application.png" src="../../_images/mapbender3_create_application.png" style="width: 810.5999999999999px; height: 625.8px;" /></a>
+</div></blockquote>
+</section>
+<section id="loading-web-map-services">
+<h2><a class="toc-backref" href="#id4">Laddning av webbkarttjänster</a><a class="headerlink" href="#loading-web-map-services" title="Permalink till denna rubrik">¶</a></h2>
+<p>Du kan ladda OGC Web Map Services (WMS) till din applikation.</p>
+<p>En WMS returnerar en XML-fil när dokumentet getCapabilities begärs. Denna information analyseras av Mapbender och Mapbender hämtar all nödvändig information om tjänsten från denna XML-fil</p>
+<div class="admonition tip">
+<p class="admonition-title">Tips</p>
+<p>Du bör först kontrollera Capabilities-dokumentet i din webbläsare innan du försöker ladda det med Mapbender</p>
+</div>
+<ol class="arabic simple">
+<li><p>Välj menyalternativet <span class="menuselection">Tjänster ‣ Lägg till tjänst</span> eller använd +-knappen.</p></li>
+<li><p>Länk till WMS getCapabilities URL i textfältet <span class="menuselection">Serviceurl</span>. Här är ett exempel på WMS: WhereGroup OSM WMS <a class="reference external" href="https://osm-demo.wheregroup.com/service?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=getCapabilities">https://osm-demo.wheregroup.com/service?SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=getCapabilities</a></p></li>
+<li><p>Ange användarnamn och lösenord om din tjänst kräver autentisering.</p></li>
+<li><p>Klicka på <strong>Load</strong> för att ladda tjänsten till repository.</p></li>
+<li><p>Ladda en annan WMS <a class="reference external" href="https://sgx.geodatenzentrum.de/wms_topplus_open?request=GetCapabilities&amp;service=WMS&amp;VERSION=1.3.0">https://sgx.geodatenzentrum.de/wms_topplus_open?request=GetCapabilities&amp;service=WMS&amp;VERSION=1.3.0</a></p></li>
+</ol>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/mapbender3_wms_load.png"><img alt="../../_images/mapbender3_wms_load.png" src="../../_images/mapbender3_wms_load.png" style="width: 908.5999999999999px; height: 465.49999999999994px;" /></a>
+</div></blockquote>
+<p>Efter en lyckad registrering av tjänsten kommer Mapbender att visa en översikt över den information som tillhandahållits av tjänsten.</p>
+</section>
+<section id="add-service-to-application">
+<h2><a class="toc-backref" href="#id5">Lägg till tjänst i applikation</a><a class="headerlink" href="#add-service-to-application" title="Permalink till denna rubrik">¶</a></h2>
+<p>Efter en lyckad uppladdning av ett WMS vill du lägga till ditt WMS i en applikation.</p>
+<ol class="arabic simple">
+<li><p>Välj <span class="menuselection">Applikationer ‣ redigeringsknapp ‣ Lager ‣ redigeringsknapp</span>.</p></li>
+<li><p>Klicka på <span class="menuselection">+-knappen</span> för att lägga till en layerset, som representerar en samling lager (ett möjligt namn skulle kunna vara main)</p></li>
+<li><p>Nu kan du lägga till lager i lageruppsättningen</p></li>
+<li><p>Klicka på <span class="menuselection">+-knappen</span> på din nya lageruppsättning för att lägga till en tjänst.</p></li>
+</ol>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/mapbender3_add_source_to_application.png"><img alt="../../_images/mapbender3_add_source_to_application.png" src="../../_images/mapbender3_add_source_to_application.png" style="width: 1002.4px; height: 590.8px;" /></a>
+</div></blockquote>
+</section>
+<section id="configure-your-wms">
+<h2><a class="toc-backref" href="#id6">Konfigurera ditt WMS</a><a class="headerlink" href="#configure-your-wms" title="Permalink till denna rubrik">¶</a></h2>
+<p>Du kan konfigurera WMS för din specifika applikation. Du kanske inte vill tillhandahålla alla lager eller så vill du ändra ordningen eller titlarna på lagren eller inaktivera funktionsinformationen eller ändra maxskalan för ett lager.</p>
+<ol class="arabic simple">
+<li><p>Välj <span class="menuselection">Applications ‣ edit-Button ‣ Layers ‣ edit-Button</span> för att konfigurera Service Instance.</p></li>
+<li><p>Du kommer att se en tabell med tjänstens lager.</p></li>
+<li><p>Du kan ändra ordningen på lagren genom att dra och släppa dem.</p></li>
+</ol>
+<a class="reference internal image-reference" href="../../_images/mapbender3_wms_application_settings.png"><img alt="../../_images/mapbender3_wms_application_settings.png" src="../../_images/mapbender3_wms_application_settings.png" style="width: 686.0px; height: 533.4px;" /></a>
+</section>
+<section id="add-elements-to-your-application">
+<h2><a class="toc-backref" href="#id7">Lägg till element i din applikation</a><a class="headerlink" href="#add-elements-to-your-application" title="Permalink till denna rubrik">¶</a></h2>
+<p>Mapbender erbjuder en uppsättning element. Du kan lägga till elementen i din applikation. Du har olika regioner (verktygsfält, sidofält, innehåll, sidfot) där du kan lägga till element.</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/mapbender3_application_add_element.png"><img alt="../../_images/mapbender3_application_add_element.png" src="../../_images/mapbender3_application_add_element.png" style="width: 1344.0px; height: 646.8px;" /></a>
+</div></blockquote>
+<ol class="arabic simple">
+<li><p>Välj <span class="menuselection">Applications ‣ edit-Button ‣ Layers ‣ Button +</span> för att få en överblick över de element som Mapbender3 tillhandahåller.</p></li>
+<li><p>Välj ett element från listan.</p></li>
+<li><p>Lägg märke till att du har olika områden i din applikation. Se till att lägga till elementet i en region som är meningsfull.</p></li>
+<li><p>Konfigurera elementet. Notera: När du väljer ett element, t.ex. <strong>map</strong>, ser du att elementet har en uppsättning attribut. Varje element erbjuder individuella attribut för konfiguration.</p></li>
+<li><p>Du kan ändra elementets position genom att dra och släppa det.</p></li>
+<li><p>Ta en titt på din applikation. Öppna din applikation från <span class="menuselection">Applikationer ‣ Applikationsöversikt</span></p></li>
+</ol>
+<p>Nu bör du få en uppfattning om hur lätt det är att ändra en Mapbender-applikation utan ändringar i koden.</p>
+<blockquote>
+<div><a class="reference internal image-reference" href="../../_images/mapbender3_application_elements.png"><img alt="../../_images/mapbender3_application_elements.png" src="../../_images/mapbender3_application_elements.png" style="width: 673.4px; height: 630.0px;" /></a>
+</div></blockquote>
+<p>You find detailed information on every element in the <a class="reference external" href="https://doc.mapbender.org/en/elements.html">Mapbender element
+documentation</a>.</p>
+</section>
+<section id="things-to-try">
+<h2><a class="toc-backref" href="#id8">Saker att prova</a><a class="headerlink" href="#things-to-try" title="Permalink till denna rubrik">¶</a></h2>
+<ul class="simple">
+<li><p>lägga till ett Map Element i innehållet i din applikation</p></li>
+<li><p>lägg till ett Layertree i sidofönstret i din applikation</p></li>
+<li><p>lägga till en legend i sidofönstret i din applikation</p></li>
+<li><p>lägga till ett utskriftselement i innehållet</p></li>
+<li><p>lägg till en knapp som öppnar utskriften högst upp i din applikation</p></li>
+<li><p>lägga till navigeringsverktygsfältet i innehållet</p></li>
+<li><p>lägga till en översiktskarta i innehållet</p></li>
+<li><p>lägga till en Copyright och ändra copyright-texten</p></li>
+<li><p>lägga till en Scales Selector och en SRS Selector i sidfoten</p></li>
+</ul>
+<p>Här är några ytterligare utmaningar som du kan prova:</p>
+<ol class="arabic simple">
+<li><p>Försök att ladda in ett WMS i din applikation. Försök att konfigurera ditt WMS.</p></li>
+<li><p>Försök att skapa en individuell ansökan.</p></li>
+<li><p>Skapa användare och grupper och tilldela en applikation till de nya användarna/grupperna.</p></li>
+</ol>
+</section>
+<section id="what-next">
+<h2><a class="toc-backref" href="#id9">What next?</a><a class="headerlink" href="#what-next" title="Permalink till denna rubrik">¶</a></h2>
+<p>Detta är bara det första steget på vägen till att använda Mapbender. Det finns mycket mer funktionalitet som du kan prova.</p>
+<ul class="simple">
+<li><p>Mapbenders webbplats <a class="reference external" href="https://mapbender.org/">https://mapbender.org/</a></p></li>
+<li><p>Du kan hitta handledning på <a class="reference external" href="https://doc.mapbender.org">https://doc.mapbender.org</a></p></li>
+<li><p>Du hittar en utökad handledning på <a class="reference external" href="https://doc.mapbender.org/en/quickstart.html">https://doc.mapbender.org/en/quickstart.html</a></p></li>
+<li><p>Bli delaktig i projektet <a class="reference external" href="https://mapbender.org/community/">https://mapbender.org/community/</a></p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

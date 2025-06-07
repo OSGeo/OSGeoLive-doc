@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Zoo Project &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="Snabbstart för Zoo Project" href="../quickstart/zoo-project_quickstart.html" />
+    <link rel="prev" title="pygeoapi Snabbstart" href="../quickstart/pygeoapi_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://zoo-project.org/"><img alt="../../_images/logo_zoo-project.png" class="align-right" src="../../_images/logo_zoo-project.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<section id="zoo-project">
+<h1>Zoo Project<a class="headerlink" href="#zoo-project" title="Permalink till denna rubrik">¶</a></h1>
+<section id="wps-server">
+<h2>WPS-server<a class="headerlink" href="#wps-server" title="Permalink till denna rubrik">¶</a></h2>
+<p>ZOO-Project tillhandahåller ett utvecklarvänligt WPS-ramverk (Web Processing Service) för att skapa och kedja Web Processing Services. En WPS ger webbåtkomst till funktioner som kör spatiala algoritmer. ZOO-Project stöder många programmeringsspråk och levereras med tre demoapplikationer. Den första använder de enkla spatialtools-tjänsterna baserade på biblioteken <a class="reference internal" href="geos_overview.html"><span class="doc">GEOS</span></a> och <a class="reference internal" href="gdal_overview.html"><span class="doc">OGR</span></a>, den andra visar Voronoi- och Delaunay-triangulering (från CGAL-biblioteket) och den tredje presenterar hur man samverkar med OTB-applikationer som körs som WPS-tjänster.</p>
+<p>De tre demontrationsapplikationerna är tillgängliga från ZOO-Projects demolandingssida som presenteras nedan.</p>
+<p>ZOO är uppbyggt av tre delar:</p>
+<p><em>ZOO Kernel</em> : En kraftfull C-kärna på serversidan som gör det möjligt att hantera och kedja webbtjänster som kodas i olika programmeringsspråk.</p>
+<p><em>ZOO-tjänster</em> : Ett växande antal exempel på webbtjänster baserade på olika Open Source-bibliotek.</p>
+<p><em>ZOO API</em> : Ett JavaScript-API på serversidan som kan anropa och kedja ZOO-tjänsterna, vilket gör utvecklings- och kedjeprocesserna enklare.</p>
+<p>ZOO bygger på en ”WPS Service Kernel” som utgör ZOO:s kärnsystem (även kallad ZOO Kernel). Den senare kan ladda dynamiska bibliotek och hantera dem som on-demand webbtjänster. ZOO Kernel är skriven på C-språk, men stöder flera vanliga programmeringsspråk för att kunna ansluta till många bibliotek och framför allt för att förenkla arbetet för den som utvecklar webbtjänster.</p>
+<p>En ZOO-tjänst är en länk som består av en metadatafil (.zcfg) och koden för motsvarande implementation. Metadatafilen beskriver alla tillgängliga funktioner som kan anropas med en WPS Exec Request, samt önskad in- och utmatning. Services innehåller algoritmerna och funktionerna och kan nu implementeras i C/C++, Fortran, Java, Python, PHP, Ruby, C# och JavaScript.</p>
+<a class="reference internal image-reference" href="../../_images/zoo-project_screenshot.png"><img alt="zoo-project skärmdump" class="align-right" src="../../_images/zoo-project_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>Kärnfunktioner<a class="headerlink" href="#core-features" title="Permalink till denna rubrik">¶</a></h3>
+<ul class="simple">
+<li><p>WPS-server med flera språk</p></li>
+<li><p>Procedur för att skapa och distribuera enkla webbtjänster</p></li>
+<li><p>Enkel WPS-kedjning med ZOO API</p></li>
+</ul>
+</section>
+<section id="implemented-standards">
+<h3>Implementerade standarder<a class="headerlink" href="#implemented-standards" title="Permalink till denna rubrik">¶</a></h3>
+<ul class="simple">
+<li><p>OGC WPS 1.0.0</p></li>
+<li><p>OGC WPS 2.0.0</p></li>
+</ul>
+</section>
+<section id="demo">
+<h3>Demo<a class="headerlink" href="#demo" title="Permalink till denna rubrik">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference external" href="http://localhost/zoo-demo/ogr-example.html">Demo med hjälp av Services Provider-baserade GEOS- och OGR-bibliotek</a></p></li>
+<li><p><a class="reference external" href="http://localhost/zoo-demo/cgal.html">Demo med CGAL-bibliotek baserat på Services Provider</a></p></li>
+<li><p><a class="reference external" href="http://localhost/zoo-demo/otb-example.html">Demo med OTB-applikationer som WPS-tjänster</a></p></li>
+</ul>
+</section>
+<section id="details">
+<h3>Detaljer<a class="headerlink" href="#details" title="Permalink till denna rubrik">¶</a></h3>
+<p><strong>Webbplats:</strong> <a class="reference external" href="https://zoo-project.org/">https://zoo-project.org/</a></p>
+<p><strong>Licens:</strong> MIT x/11</p>
+<p><strong>Programvaruversion:</strong> 1.9.0</p>
+<p><strong>Plattformar som stöds:</strong> Windows, Linux, Mac</p>
+<p><strong>Stöd för programspråk:</strong> C, Python, Java, PHP, Fortran, Javascript, C#, Ruby</p>
+<p><strong>Support:</strong> <a class="reference external" href="https://zoo-project.org/">https://zoo-project.org/</a></p>
+</section>
+<section id="quickstart">
+<h3>Snabbstart<a class="headerlink" href="#quickstart" title="Permalink till denna rubrik">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/zoo-project_quickstart.html"><span class="doc">Snabbstartsdokumentation</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

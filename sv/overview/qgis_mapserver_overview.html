@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>QGIS-server &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="Snabbstart för QGIS Server" href="../quickstart/qgis_mapserver_quickstart.html" />
+    <link rel="prev" title="Snabbstart för ETF" href="../quickstart/ETF_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://www.qgis.org/"><img alt="../../_images/logo_qgis_mapserver.png" class="align-right" src="../../_images/logo_qgis_mapserver.png" /></a>
+<section id="qgis-server">
+<h1>QGIS-server<a class="headerlink" href="#qgis-server" title="Permalink till denna rubrik">¶</a></h1>
+<section id="web-service">
+<h2>Webbtjänst<a class="headerlink" href="#web-service" title="Permalink till denna rubrik">¶</a></h2>
+<p>QGIS Server tillhandahåller webbkartor och funktionstjänster (WMS &amp; WFS) med samma bibliotek som skrivbordsprogrammet för GIS (QGIS). Kartor och utskriftsmallar som skapats i QGIS desktop kan publiceras som webbkartor genom att helt enkelt kopiera QGIS-projektfilen till serverkatalogen. De resulterande webbkartorna ser exakt likadana ut som i skrivbordet. QGIS Server körs vanligtvis som en CGI/FastCGI-modul i Apache Webserver.</p>
+<a class="reference internal image-reference" href="../../_images/qgis_mapserver_screenshot.png"><img alt="qgis_mapserver skärmdump" class="align-right" src="../../_images/qgis_mapserver_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>Kärnfunktioner<a class="headerlink" href="#core-features" title="Permalink till denna rubrik">¶</a></h3>
+<ul class="simple">
+<li><p>Webbkarttjänst (WMS) - bilder</p></li>
+<li><p>OGC Web Map Tile Service (WMTS) 1.0.0</p></li>
+<li><p>Web Feature Service (WFS) - vektorer</p></li>
+<li><p>Inbyggd PDF-utmatning</p></li>
+<li><p>Skapa WYSIWYG-kartor med QGIS</p></li>
+<li><p>Avancerad kartografisk symbolisering</p></li>
+<li><p>Stöd för SLD (Styled Layer Descriptor)</p></li>
+<li><p>Extra parametrar som t.ex. FILTER, URVAL, DPI</p></li>
+</ul>
+</section>
+<section id="implemented-standards">
+<h3>Implementerade standarder<a class="headerlink" href="#implemented-standards" title="Permalink till denna rubrik">¶</a></h3>
+<ul class="simple">
+<li><p>OGC Web Map Service (WMS) 1.1.1 och 1.3.0</p></li>
+<li><p>OGC Web Map Tile Service (WMTS) 1.0.0</p></li>
+<li><p>OGC Web Feature Service (WFS) 1.0.0 och Transactional WFS (WFS-T) 1.0.0</p></li>
+<li><p>OGC Webbtäckningstjänst (WCS)</p></li>
+<li><p>OGC:s beskrivare av stiliserade lager (SLD) 1.0</p></li>
+</ul>
+</section>
+<section id="details">
+<h3>Detaljer<a class="headerlink" href="#details" title="Permalink till denna rubrik">¶</a></h3>
+<p><strong>Webbplats:</strong> <a class="reference external" href="https://www.qgis.org/">https://www.qgis.org/</a></p>
+<p><strong>Licens:</strong> GPL</p>
+<p><strong>Programvaruversion:</strong> 3.40.6</p>
+<p><strong>Plattformar som stöds:</strong> Windows, Linux</p>
+<p><strong>Commercial Support:</strong> <a class="reference external" href="https://www.qgis.org/resources/support/commercial-support/">https://www.qgis.org/resources/support/commercial-support/</a></p>
+</section>
+<section id="quickstart">
+<h3>Snabbstart<a class="headerlink" href="#quickstart" title="Permalink till denna rubrik">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/qgis_mapserver_quickstart.html"><span class="doc">Snabbstartsdokumentation</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

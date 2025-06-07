@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Snabbstart för Cesium &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="GeoExt" href="../overview/geoext_overview.html" />
+    <link rel="prev" title="Cesium" href="../overview/cesium_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://cesium.com/"><img alt="../../_images/logo_cesium.png" class="align-right" src="../../_images/logo_cesium.png" /></a>
+<section id="cesium-quickstart">
+<h1>Snabbstart för Cesium<a class="headerlink" href="#cesium-quickstart" title="Permalink till denna rubrik">¶</a></h1>
+<p>Cesium är ett JavaScript-bibliotek för att skapa 3D-glober och 2D-kartor i en webbläsare utan några plugins. Det använder WebGL för hårdvaruaccelererad grafik och är plattformsoberoende, webbläsaroberoende och anpassat för tidsdynamisk datavisualisering.</p>
+<p>Den här guiden visar hur du använder Cesium med 3D (Globe), 2,5D (Columbus View) och 2D (karta).</p>
+<div class="contents local topic" id="contents">
+<p class="topic-title">Innehåll</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#start-cesium" id="id1">Starta Cesium</a></p></li>
+<li><p><a class="reference internal" href="#search-for-a-location" id="id2">Sök efter en plats</a></p></li>
+<li><p><a class="reference internal" href="#switch-between-3d-2-5d-and-2d" id="id3">Växla mellan 3D, 2,5D och 2D</a></p></li>
+<li><p><a class="reference internal" href="#select-the-image-layer" id="id4">Välj bildlagret</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id5">Hur vill du gå vidare?</a></p></li>
+</ul>
+</div>
+<section id="start-cesium">
+<h2><a class="toc-backref" href="#id1">Starta Cesium</a><a class="headerlink" href="#start-cesium" title="Permalink till denna rubrik">¶</a></h2>
+<p>Öppna webbläsaren och peka den mot <a class="reference external" href="http://localhost/cesium/Apps/HelloWorld.html">http://localhost/cesium/Apps/HelloWorld.html</a></p>
+</section>
+<section id="search-for-a-location">
+<h2><a class="toc-backref" href="#id2">Sök efter en plats</a><a class="headerlink" href="#search-for-a-location" title="Permalink till denna rubrik">¶</a></h2>
+<p>Klicka på förstoringsglaset och skriv in den plats du söker. I följande bild söker vi efter Indien.</p>
+<a class="reference internal image-reference" href="../../_images/cesium_1_SearchingLocation.png"><img alt="Cesium Sökplats" src="../../_images/cesium_1_SearchingLocation.png" style="width: 510.99999999999994px; height: 301.7px;" /></a>
+</section>
+<section id="switch-between-3d-2-5d-and-2d">
+<h2><a class="toc-backref" href="#id3">Växla mellan 3D, 2,5D och 2D</a><a class="headerlink" href="#switch-between-3d-2-5d-and-2d" title="Permalink till denna rubrik">¶</a></h2>
+<p>Klicka på ikonen med den trådinramade jordgloben för att välja önskad vy. Här har 2,5D Columbus-vyn valts.</p>
+<a class="reference internal image-reference" href="../../_images/cesium_2_2253d.png"><img alt="Cesium växlar mellan 3D, 2,5D och 2D" src="../../_images/cesium_2_2253d.png" style="width: 510.29999999999995px; height: 302.4px;" /></a>
+<p>Nu är 2D-kartan markerad.</p>
+<a class="reference internal image-reference" href="../../_images/cesium_3_2D.png"><img alt="Cesium 2D-karta" src="../../_images/cesium_3_2D.png" style="width: 507.49999999999994px; height: 301.7px;" /></a>
+</section>
+<section id="select-the-image-layer">
+<h2><a class="toc-backref" href="#id4">Välj bildlagret</a><a class="headerlink" href="#select-the-image-layer" title="Permalink till denna rubrik">¶</a></h2>
+<p>Klicka på den sista ikonen och välj en typ av bildtjänst. Här är Natural Earth II vald och du kan se hur kartans bildlager har förändrats.</p>
+<a class="reference internal image-reference" href="../../_images/cesium_4_Layer.png"><img alt="Cesium 2D-karta" src="../../_images/cesium_4_Layer.png" style="width: 510.29999999999995px; height: 302.4px;" /></a>
+</section>
+<section id="what-next">
+<h2><a class="toc-backref" href="#id5">Hur vill du gå vidare?</a><a class="headerlink" href="#what-next" title="Permalink till denna rubrik">¶</a></h2>
+<ul class="simple">
+<li><p>Titta på våra videohandledningar &lt;<a class="reference external" href="https://www.youtube.com/playlist?list=PLBk_Dtk-_Tlm4STvXKFEdfUWylPemo-9V">https://www.youtube.com/playlist?list=PLBk_Dtk-_Tlm4STvXKFEdfUWylPemo-9V</a>&gt;`_.</p></li>
+<li><p>Läs våra skriftliga ”handledningar” &lt;<a class="reference external" href="https://cesium.com/learn">https://cesium.com/learn</a>&gt;`_.</p></li>
+<li><p>Du kan utveckla några snabba applikationer med hjälp av webbplatsen <a class="reference external" href="https://sandcastle.cesium.com/index.html">Sandcastle</a>. Sandcastle är i allmänhet ett av de bästa sätten att lära sig om Cesium, och alla kodexempel är användbara för detta ändamål.</p></li>
+<li><p>Cesium Forum &lt;<a class="reference external" href="https://community.cesium.com">https://community.cesium.com</a>&gt;`_ är ett utmärkt ställe att söka efter svar på vanliga frågor och att ställa frågor som inte har ställts tidigare.</p></li>
+<li><p>Fördjupad dokumentation finns tillgänglig ”lokalt &lt;<a class="reference external" href="http://localhost/cesium/">http://localhost/cesium/</a>&gt;” på OSGeoLive-paketet.</p></li>
+</ul>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

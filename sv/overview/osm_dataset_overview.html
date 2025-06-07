@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>OpenStreetMap &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="GDAL/OGR" href="gdal_overview.html" />
+    <link rel="prev" title="NetCDF-datauppsättning" href="netcdf_dataset_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://www.openstreetmap.org/"><img alt="../../_images/logo_osm_dataset.png" class="align-right" src="../../_images/logo_osm_dataset.png" /></a>
+<section id="openstreetmap">
+<h1>OpenStreetMap<a class="headerlink" href="#openstreetmap" title="Permalink till denna rubrik">¶</a></h1>
+<section id="map-data">
+<h2>Kartdata<a class="headerlink" href="#map-data" title="Permalink till denna rubrik">¶</a></h2>
+<p>OpenStreetMap är en crowd sourced karta över världen som har vuxit till att bli en av de mest detaljerade källorna till lokalskalig kartdata som finns tillgänglig. Källans kartdata skapas och underhålls av tusentals frivilliga från hela världen, med hjälp av processer som liknar underhållet av wikipedia-encyklopedin.</p>
+<p>Den mest synliga aspekten av OSM är webbgränssnittet online från <a class="reference external" href="https://www.openstreetmap.org">https://www.openstreetmap.org</a>, men kartorna kan också ses, importeras eller redigeras i många applikationer som <a class="reference internal" href="qgis_overview.html"><span class="doc">QGIS</span></a> , <a class="reference internal" href="openlayers_overview.html"><span class="doc">OpenLayers</span></a>, ArcGIS och dedikerade OSM-applikationer.</p>
+<p>Kärnan i projektet är de underliggande data som är öppna för alla att redigera, visa eller skapa egna renderade kartor. OSM:s fokus ligger i grunden på data, och de detaljerade kartorna kommer helt enkelt som en följd av detta.</p>
+<p>OSGeoLive-distributionen innehåller ett OSM-datautdrag i stadsstorlek som används som exempel av vissa applikationer.</p>
+<a class="reference internal image-reference" href="../../_images/osm_dataset_screenshot.png"><img alt="osm_dataset skärmdump" class="align-right" src="../../_images/osm_dataset_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>Kärnfunktioner<a class="headerlink" href="#core-features" title="Permalink till denna rubrik">¶</a></h3>
+<ul class="simple">
+<li><p>Vektorobjekten taggas med namn och andra attribut.</p></li>
+<li><p>Extrahera lokala delmängder av data.</p></li>
+<li><p>Data lagras som latitud-longitud WGS84-noder, strängar av noder och metafunktioner som möjliggör punkt-, polylinje- och områdestäckning samt relationer.</p></li>
+<li><p>Rikt attributmärkning, ofta mycket mer detaljerad än någon annan källa.</p></li>
+<li><p>Ett globalt arkiv med lokal kunskap.</p></li>
+</ul>
+</section>
+<section id="data-sets-included-in-osgeo-live">
+<h3>Datamängder som ingår i OSGeo Live<a class="headerlink" href="#data-sets-included-in-osgeo-live" title="Permalink till denna rubrik">¶</a></h3>
+<ul class="simple">
+<li><p>feature_city.osm.bz2: Ett stort utdrag av storstadsområdet som en BZip2-komprimerad XML-textfil.</p></li>
+<li><p>feature_city_CBD.osm.bz2: En mindre delmängd som bara täcker Central Business District (CBD).</p></li>
+<li><p>funktion_city_poi.db: Sqlite DB av ”positioner av intresse” -noder extraherade från ovanstående större stad OSM-extrakt. Innehåller platser för pubar, bensinstationer, restauranger, stormarknader etc.</p></li>
+<li><p>Filer som refererar till namnet på exempelstaden innehåller samma data som ovanstående filer. Snabbstarter och översikter använder de generiska filnamnen så att exempelstaden kan ändras med varje ny version.</p></li>
+</ul>
+<p>OSM-funktionens stadsdata har importerats till en PostGIS-databas som heter ”osm_local” med hjälp av verktyget osm2pgsql. Det spatiala referenssystem som används för denna databas är latitud-longitud med WGS84-datum (EPSG-kod 4326) och kan på begäran omprojiceras till andra spatiala referenssystem (SRS), t.ex. sfärisk mercator. Det mindre CBD-extraktet laddas in i en annan PostGIS-databas som heter ”pgrouting”.</p>
+</section>
+<section id="details">
+<h3>Detaljer<a class="headerlink" href="#details" title="Permalink till denna rubrik">¶</a></h3>
+<p><strong>Webbplats:</strong> <a class="reference external" href="https://www.openstreetmap.org/">https://www.openstreetmap.org/</a></p>
+<p><strong>Licens:</strong> <a class="reference external" href="https://opendatacommons.org/licenses/odbl/">Open Data Commons Open Database License (ODbL)</a></p>
+<p><strong>Dataversion:</strong> Live databasutdrag</p>
+<p><strong>Dataformat:</strong> XML</p>
+<p><strong>Spatialt koordinatsystem:</strong> Latitud-Longitud WGS84</p>
+<p><strong>Support:</strong> <a class="reference external" href="https://www.openstreetmap.org/help">https://www.openstreetmap.org/help</a></p>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

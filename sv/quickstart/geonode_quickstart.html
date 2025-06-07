@@ -1,0 +1,314 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>GeoNode Snabbstart &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="Mapbender" href="../overview/mapbender_overview.html" />
+    <link rel="prev" title="GeoNod" href="../overview/geonode_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://geonode.org"><img alt="../../_images/logo_geonode.png" class="align-right" src="../../_images/logo_geonode.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<section id="geonode-quickstart">
+<h1>GeoNode Snabbstart<a class="headerlink" href="#geonode-quickstart" title="Permalink till denna rubrik">¶</a></h1>
+<p>System för hantering av geospatialt innehåll med öppen källkod</p>
+<p>GeoNode är en webbaserad applikation och plattform för utveckling av geospatiala informationssystem (GIS) och för utrullning av infrastrukturer för geodata (SDI).</p>
+<div class="contents local topic" id="contents">
+<p class="topic-title">Innehåll</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#start-geonode" id="id1">Starta GeoNode</a></p></li>
+<li><p><a class="reference internal" href="#sign-in-as-a-registered-user" id="id2">Logga in som registrerad användare</a></p></li>
+<li><p><a class="reference internal" href="#add-a-new-layer" id="id3">Lägg till ett nytt lager</a></p></li>
+<li><p><a class="reference internal" href="#create-a-new-map" id="id4">Skapa en ny karta</a></p></li>
+<li><p><a class="reference internal" href="#share-your-map" id="id5">Dela din karta</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id6">Hur vill du gå vidare?</a></p></li>
+</ul>
+</div>
+<section id="start-geonode">
+<h2><a class="toc-backref" href="#id1">Starta GeoNode</a><a class="headerlink" href="#start-geonode" title="Permalink till denna rubrik">¶</a></h2>
+<p>För att starta GeoNode på din OSGeoLive DVD måste du välja <span class="menuselection">Geospatial ‣ Browser Clients ‣ GeoNode ‣ Start GeoNode</span> och efter några ögonblick öppnas GeoNodes webbsida automatiskt på <a class="reference external" href="http://geonode">http://geonode</a>. Sidan kommer att se ut som på bilden nedan.</p>
+<blockquote>
+<div><figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonode_screenshot.png"><img alt="../../_images/geonode_screenshot.png" src="../../_images/geonode_screenshot.png" style="width: 709.8px; height: 452.2px;" /></a>
+</figure>
+</div></blockquote>
+</section>
+<section id="sign-in-as-a-registered-user">
+<h2><a class="toc-backref" href="#id2">Logga in som registrerad användare</a><a class="headerlink" href="#sign-in-as-a-registered-user" title="Permalink till denna rubrik">¶</a></h2>
+<p>Från gränssnittet som visas ovan kan man visa och ändra befintliga spatiala lager och kartor samt hitta information om andra GeoNode-användare. Men utan att vara inloggad är du begränsad till skrivskyddad åtkomst till offentliga lager. För att kunna skapa en karta och lägga till lager i den måste du först logga in.</p>
+<p>Från vilken sida som helst i webbgränssnittet ser du en länk <em>Sign in</em> längst upp till höger på sidan. Klicka på den länken och fyll i användaruppgifterna i den dialogruta som visas. Prova ”admin” och ”admin” som användarnamn och lösenord.</p>
+<blockquote>
+<div><figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonode_signin_quickstart.png"><img alt="../../_images/geonode_signin_quickstart.png" src="../../_images/geonode_signin_quickstart.png" style="width: 422.09999999999997px; height: 218.39999999999998px;" /></a>
+</figure>
+</div></blockquote>
+</section>
+<section id="add-a-new-layer">
+<h2><a class="toc-backref" href="#id3">Lägg till ett nytt lager</a><a class="headerlink" href="#add-a-new-layer" title="Permalink till denna rubrik">¶</a></h2>
+<p>Lager är en publicerad resurs som representerar en spatial raster- eller vektordatakälla. Layers kan också associeras med metadata, betyg och kommentarer.</p>
+<ol class="arabic">
+<li><p>För att se befintliga lager, välj menyn <em>Data</em> i navigeringsfältet högst upp på varje sida och klicka på länken <em>Lager</em>.</p>
+<blockquote>
+<div><figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonode_menu_data.png"><img alt="../../_images/geonode_menu_data.png" src="../../_images/geonode_menu_data.png" style="width: 344.4px; height: 191.1px;" /></a>
+</figure>
+</div></blockquote>
+</li>
+</ol>
+<p>Resultatet kommer att se ut så här:</p>
+<blockquote>
+<div><figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonode_layers_page.png"><img alt="../../_images/geonode_layers_page.png" src="../../_images/geonode_layers_page.png" style="width: 710.5px; height: 450.09999999999997px;" /></a>
+</figure>
+</div></blockquote>
+<ol class="arabic" start="2">
+<li><p>Om du vill lägga till ett lager på ditt konto väljer du knappen <em>Upload</em> längst upp till höger på sidan <em>Layers</em>:</p>
+<blockquote>
+<div><figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonode_data_upload2.png"><img alt="../../_images/geonode_data_upload2.png" src="../../_images/geonode_data_upload2.png" style="width: 199.5px; height: 109.89999999999999px;" /></a>
+</figure>
+</div></blockquote>
+</li>
+</ol>
+<p>Om du vill ladda upp data från någon annan sida väljer du menyn <em>Data</em> i navigeringsfältet och klickar på länken <em>Upload Layers</em>.</p>
+<blockquote>
+<div><figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonode_data_upload1.png"><img alt="../../_images/geonode_data_upload1.png" src="../../_images/geonode_data_upload1.png" style="width: 267.4px; height: 186.89999999999998px;" /></a>
+</figure>
+</div></blockquote>
+<p>Genom att klicka på en av ovanstående <em>Upload</em>-länkar kommer du till uppladdningssidan.</p>
+<blockquote>
+<div><figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonode_upload_page.png"><img alt="../../_images/geonode_upload_page.png" src="../../_images/geonode_upload_page.png" style="width: 676.1999999999999px; height: 398.29999999999995px;" /></a>
+</figure>
+</div></blockquote>
+<ol class="arabic" start="3">
+<li><p>Du har två möjligheter att lägga till dina filer. Du kan antingen göra det genom att använda <em>drag &amp; släpp</em> på området <em>Drop Files Here</em> eller så kan du använda knappen <em>Choose Files</em> för att välja dem. Tänk på att du måste ladda upp en komplett uppsättning filer, bestående av en <em>shp</em>-, en <em>prj</em>-, en <em>dbf</em>- och en <em>shx</em>-fil. Om någon av dem saknas kommer GeoNode att varna dig innan du laddar upp dem.</p></li>
+<li><p>Klicka nu på knappen <em>Choose Files</em> och du kommer att se ett fönster för filval. Navigera till mappen <code class="file docutils literal notranslate"><span class="pre">/home/user/data/natural_earth2</span></code> och välj alla filer i <code class="file docutils literal notranslate"><span class="pre">ne_10m_admin_0_countries</span></code>.</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonode_upload_select_files.png"><img alt="../../_images/geonode_upload_select_files.png" src="../../_images/geonode_upload_select_files.png" style="width: 689.5px; height: 419.29999999999995px;" /></a>
+</figure>
+</li>
+</ol>
+<p>Du bör nu kunna se alla filer som du vill ladda upp.</p>
+<blockquote>
+<div><blockquote>
+<div><figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonode_files_to_be_uploaded.png"><img alt="../../_images/geonode_files_to_be_uploaded.png" src="../../_images/geonode_files_to_be_uploaded.png" style="width: 199.5px; height: 310.09999999999997px;" /></a>
+</figure>
+</div></blockquote>
+<div class="admonition tip">
+<p class="admonition-title">Tips</p>
+<p>GeoNode har möjlighet att begränsa vem som kan visa, redigera och hantera lager. Till höger på sidan ser du avsnittet <em>Permission</em>, där du kan begränsa åtkomsten till ditt lager. Under <em>Who can view and download this data</em> väljer du <em>Any registered user</em>. Detta kommer att säkerställa att anonym visningsåtkomst är inaktiverad. I samma område, under <em>Who can edit this data</em>, väljer du ditt användarnamn. Detta säkerställer att endast du kan redigera data i skiktet.</p>
+<blockquote>
+<div><figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonode_permission.png"><img alt="../../_images/geonode_permission.png" src="../../_images/geonode_permission.png" style="width: 213.5px; height: 299.59999999999997px;" /></a>
+</figure>
+</div></blockquote>
+</div>
+</div></blockquote>
+<ol class="arabic" start="5">
+<li><p>För att ladda upp data klickar du på knappen <em>Upload</em> längst ned.</p>
+<blockquote>
+<div><figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonode_upload_bar.png"><img alt="../../_images/geonode_upload_bar.png" src="../../_images/geonode_upload_bar.png" style="width: 438.9px; height: 140.0px;" /></a>
+</figure>
+</div></blockquote>
+</li>
+<li><p>När uppladdningen av lagret har slutförts kan du antingen förhandsgranska lagret med knappen <em>Layer Info</em>, redigera metadata för lagret med <em>Edit Metadata</em> eller redigera lagerstilen på GeoServer med knappen <em>Manage Styles</em>.</p>
+<blockquote>
+<div><figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonode_upload_result.png"><img alt="../../_images/geonode_upload_result.png" src="../../_images/geonode_upload_result.png" style="width: 231.7px; height: 69.3px;" /></a>
+</figure>
+</div></blockquote>
+</li>
+<li><p>Tryck på knappen <em>Layer Info</em> för att se lagersidan</p>
+<blockquote>
+<div><figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonode_new_layer.png"><img alt="../../_images/geonode_new_layer.png" src="../../_images/geonode_new_layer.png" style="width: 542.5px; height: 399.7px;" /></a>
+</figure>
+</div></blockquote>
+</li>
+</ol>
+</section>
+<section id="create-a-new-map">
+<h2><a class="toc-backref" href="#id4">Skapa en ny karta</a><a class="headerlink" href="#create-a-new-map" title="Permalink till denna rubrik">¶</a></h2>
+<p>Nästa steg för dig är att skapa en karta och lägga till de nyskapade lagren på denna karta.</p>
+<ol class="arabic">
+<li><p>Klicka på länken <em>Explore Maps</em> i verktygsfältet <em>Maps</em>. Då visas en lista över kartor.</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonode_maps_quickstart.png"><img alt="../../_images/geonode_maps_quickstart.png" src="../../_images/geonode_maps_quickstart.png" style="width: 331.09999999999997px; height: 94.5px;" /></a>
+</figure>
+</li>
+<li><p>För närvarande finns det inga kartor här. För att lägga till en karta, klicka på knappen <em>Create a New Map</em>.</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonode_createmap2.png"><img alt="../../_images/geonode_createmap2.png" src="../../_images/geonode_createmap2.png" style="width: 673.4px; height: 109.89999999999999px;" /></a>
+</figure>
+</li>
+</ol>
+<blockquote>
+<div><p>Ett gränssnitt för kartkomposition visas.</p>
+<blockquote>
+<div><figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonode_createmap.png"><img alt="../../_images/geonode_createmap.png" src="../../_images/geonode_createmap.png" style="width: 711.1999999999999px; height: 448.0px;" /></a>
+</figure>
+<p>Om ett 404 popup-meddelande visas, ignorera det, det beror på ett saknat GeoServer-plugin som inte är installerat på OSGeoLive.</p>
+<p>I det här gränssnittet finns ett verktygsfält, en lagerlista och ett kartfönster. Kartfönstret innehåller OpenStreetMap-lagret som standard.</p>
+</div></blockquote>
+</div></blockquote>
+<ol class="arabic" start="3">
+<li><p>Klicka på knappen <em>New Layers</em> och välj sedan <em>Add Layers</em>.</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonode_addlayerslink.png"><img alt="../../_images/geonode_addlayerslink.png" src="../../_images/geonode_addlayerslink.png" style="width: 84.69999999999999px; height: 141.39999999999998px;" /></a>
+</figure>
+</li>
+</ol>
+<blockquote>
+<div><p>Nu bör du kunna se alla tillgängliga lager. I det här fallet bör detta inkludera de som du har lagt till tidigare.</p>
+</div></blockquote>
+<ol class="arabic" start="4">
+<li><p>Välj några lager genom att klicka på den första posten och Ctrl-klicka på resten. Klicka på <em>Add Layers</em> för att lägga till dem alla på kartan.</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonode_addlayersselect_quickstart.png"><img alt="../../_images/geonode_addlayersselect_quickstart.png" src="../../_images/geonode_addlayersselect_quickstart.png" style="width: 226.1px; height: 375.9px;" /></a>
+</figure>
+</li>
+</ol>
+<blockquote>
+<div><p>Lagren kommer att läggas till på kartan.</p>
+</div></blockquote>
+<ol class="arabic" start="5">
+<li><p>För att spara kartan klickar du på knappen <em>Map</em> i verktygsfältet och väljer <em>Save Map</em>.</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonode_savemaplink.png"><img alt="../../_images/geonode_savemaplink.png" src="../../_images/geonode_savemaplink.png" style="width: 93.8px; height: 63.699999999999996px;" /></a>
+</figure>
+</li>
+<li><p>Ange en titel och ett sammandrag för din karta.</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonode_savemapdialog.png"><img alt="../../_images/geonode_savemapdialog.png" src="../../_images/geonode_savemapdialog.png" style="width: 277.9px; height: 239.39999999999998px;" /></a>
+</figure>
+</li>
+<li><p>Klicka på <em>Spara</em>. Lägg märke till att länken längst upp till höger på sidan har ändrats så att den nu visar kartans namn.</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonode_mapname.png"><img alt="../../_images/geonode_mapname.png" src="../../_images/geonode_mapname.png" style="width: 124.6px; height: 21.7px;" /></a>
+</figure>
+<p>Den här länken innehåller en permalänk till din karta. Om du öppnar den här länken i ett nytt fönster visas din karta exakt som den sparades.</p>
+</li>
+<li><p>Klicka på <em>Done</em> bredvid knappen <em>Add Layers</em> för att se kartans teckenförklaring.</p></li>
+</ol>
+</section>
+<section id="share-your-map">
+<h2><a class="toc-backref" href="#id5">Dela din karta</a><a class="headerlink" href="#share-your-map" title="Permalink till denna rubrik">¶</a></h2>
+<p>Låt oss nu avsluta vår karta.</p>
+<ol class="arabic">
+<li><p>Högerklicka på lagret <em>USA Population</em> och välj <em>Zoom to layer extend</em> (Zooma till lagerutvidgning)</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonode_mapcomposition.png"><img alt="../../_images/geonode_mapcomposition.png" src="../../_images/geonode_mapcomposition.png" style="width: 714.0px; height: 399.0px;" /></a>
+</figure>
+</li>
+<li><p>Gör eventuella slutliga justeringar av kartkompositionen, inklusive zoom- och panoreringsinställningar.</p></li>
+<li><p>Klicka på knappen <em>Map</em> i verktygsfältet och klicka sedan på <em>Publish Map</em>.</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonode_publishmaplink.png"><img alt="../../_images/geonode_publishmaplink.png" src="../../_images/geonode_publishmaplink.png" style="width: 87.5px; height: 58.099999999999994px;" /></a>
+</figure>
+</li>
+<li><p>Den titel och det abstract som tidigare skapats ska fortfarande finnas kvar. Gör eventuella justeringar som behövs och klicka på <em>Spara</em>.</p></li>
+<li><p>En ny dialogruta visas med instruktioner om hur du bäddar in kartan på en webbsida, inklusive en kodsnutt. Du kan justera parametrarna efter behov.</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonode_publishmap.png"><img alt="../../_images/geonode_publishmap.png" src="../../_images/geonode_publishmap.png" style="width: 263.2px; height: 120.39999999999999px;" /></a>
+</figure>
+</li>
+</ol>
+<p>Din karta kan nu delas.</p>
+</section>
+<section id="what-next">
+<h2><a class="toc-backref" href="#id6">Hur vill du gå vidare?</a><a class="headerlink" href="#what-next" title="Permalink till denna rubrik">¶</a></h2>
+<p>Nu har du fått en snabb inblick i möjligheterna med GeoNode. För att lära dig mer om GeoNode och dess funktioner, besök vår webbsida www.geonode.org.</p>
+<p>För att installera GeoNode på din egen server, följ vår <a class="reference external" href="https://docs.geonode.org/en/master/start/index.html#quick-installation-guide">Quick Installation Guide</a> .</p>
+<p>För att komma igång med GeoNode kan vår <a class="reference external" href="https://docs.geonode.org/en/master/">dokumentation</a> vara användbar.</p>
+<p>If you need help or want to get some information about a specific topic please
+don’t hesitate to ask us! You can do this through the #geonode IRC channel using
+<a class="reference external" href="https://web.libera.chat/">https://web.libera.chat/</a>, through the <a class="reference external" href="https://app.gitter.im/#/room/#GeoNode_general:gitter.im">GeoNode Gitter channel</a>
+or by asking your question in our <a class="reference external" href="https://lists.osgeo.org/cgi-bin/mailman/listinfo/geonode-users">mailing list</a> !</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

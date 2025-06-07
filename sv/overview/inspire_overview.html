@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>INSPIRERA &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="Tidigare tillgängliga program" href="../prior_applications.html" />
+    <link rel="prev" title="OGC" href="ogc_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://inspire.ec.europa.eu/about-inspire/563"><img alt="../../_images/logo_inspire.png" class="align-right" src="../../_images/logo_inspire.png" /></a>
+<section id="inspire">
+<h1>INSPIRERA<a class="headerlink" href="#inspire" title="Permalink till denna rubrik">¶</a></h1>
+<p><a class="reference external" href="https://inspire.ec.europa.eu">INSPIRE-direktivet</a> syftar till att skapa en infrastruktur för spatiala data (SDI) i Europeiska unionen för miljöpolitiska syften. Denna europeiska SDI möjliggör delning av spatial miljöinformation mellan organisationer inom den offentliga sektorn, underlättar allmänhetens tillgång till spatial information och hjälper till att utforma politik över gränserna. Inspire bygger på de infrastrukturer för spatial information som upprättats och drivs av de 27 medlemsstaterna i Europeiska unionen. Direktivet (se <a class="reference external" href="https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:32007L0002&amp;from=EN">fullständig text</a>) trädde i kraft den 15 maj 2007 och genomförs i olika steg, med krav på fullständigt genomförande senast 2021. INSPIRE är på en teknisk nivå baserad på internationella standarder, främst de som utvecklats av <a class="reference internal" href="ogc_overview.html"><span class="doc">OGC</span></a> och <a class="reference external" href="https://www.iso.org">ISO</a>.</p>
+<p>De dataset som omfattas av Inspire-direktivet är grupperade i 34 sektorsövergripande kategorier som kallas <a class="reference external" href="https://inspire.ec.europa.eu/Themes/Data-Specifications/2892">teman för spatiala data</a>”, vilka definieras i bilagorna till direktivet och återspeglar två huvudtyper av data: geospatiala referensdata, som presenteras i bilaga I och delvis i bilaga II, vilka definierar en platsreferens som de återstående domänspecifika temana (i bilaga III och delvis i bilaga II) sedan kan hänvisa till.</p>
+<p>Myndigheter inom den offentliga sektorn vars uppgifter omfattas av Inspire-direktivets tillämpningsområde skall:</p>
+<ul class="simple">
+<li><p>dokumentera dem genom metadata;</p></li>
+<li><p>exponera dem genom nätverkstjänster: upptäcktstjänster (för att upptäcka data), visningstjänster (för att få tillgång till data) och nedladdningstjänster (för att ladda ner data);</p></li>
+<li><p>harmonisera sina spatiala dataset i enlighet med <a class="reference external" href="https://inspire.ec.europa.eu/Data-Models/Data-Specifications/2892">gemensamma datamodeller</a> som definieras för varje tema.</p></li>
+</ul>
+<a class="reference internal image-reference" href="../../_images/inspire_screenshot.png"><img alt="inspirera skärmdump" class="align-right" src="../../_images/inspire_screenshot.png" style="width: 500px;" /></a>
+<p>För närvarande bidrar mer än 7.000 europeiska offentliga institutioner med sina data till INSPIRE. En betydande andel av dem använder OSGeo-programvaruprojekt under hela implementeringsprocessen. <a class="reference internal" href="../index.html"><span class="doc">OSGeoLive</span></a> ger en enkel ingång till INSPIRE-implementeringsprocessen genom ett ökande antal exempel med europeiska data från flera applikationsdomäner som ingår i de tillgängliga programvaruhandledningarna. Dessutom upprätthålls <a class="reference external" href="https://wiki.osgeo.org/wiki/INSPIRE">en särskild sida om INSPIRE</a> under OSGeo-wikin som ger en översikt över de juridiska och tekniska aspekterna av INSPIRE tillsammans med utvalda användningsfall och en översikt över OSGeo-programvaruprojekt som implementatörer kan använda.</p>
+<p><a class="reference external" href="https://joint-research-centre.ec.europa.eu/index_en">Europeiska kommissionens gemensamma forskningscentrum (JRC)</a> utvecklar och underhåller ett antal centrala programvarukomponenter som hjälper medlemsstaterna att genomföra INSPIRE:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://inspire.ec.europa.eu/registry">iNSPIRE Registry</a>, som bygger på programvaran <a class="reference internal" href="re3gistry_overview.html"><span class="doc">Re3gistry</span></a> med öppen källkod, hanterar de unika identifierarna och beskrivningarna av INSPIRE-resurser som teman, kodlistor och applikationsscheman;</p></li>
+<li><p><a class="reference external" href="https://inspire.ec.europa.eu/validator/about/">iNSPIRE Reference Validator</a>, som bygger på öppen källkod <a class="reference external" href="https://etf-validator.net">ETF testing framework</a>, gör det möjligt att testa att metadata, dataset och tjänster överensstämmer med INSPIRE-kraven;</p></li>
+<li><p><a class="reference external" href="https://inspire-geoportal.ec.europa.eu/">iNSPIRE Geoportal</a> gör det möjligt att upptäcka, få tillgång till och ladda ner alla dataset som medlemsstaterna gjort tillgängliga inom ramen för Inspire.</p></li>
+</ul>
+<section id="details">
+<h2>Detaljer<a class="headerlink" href="#details" title="Permalink till denna rubrik">¶</a></h2>
+<p><strong>Webbplats:</strong> <a class="reference external" href="https://inspire.ec.europa.eu/about-inspire/563">https://inspire.ec.europa.eu/about-inspire/563</a></p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

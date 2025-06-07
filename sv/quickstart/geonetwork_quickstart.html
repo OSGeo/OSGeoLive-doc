@@ -1,0 +1,263 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>GeoNetwork Snabbstart &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="GeoServer" href="../overview/geoserver_overview.html" />
+    <link rel="prev" title="GeoNätverk" href="../overview/geonetwork_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://geonetwork-opensource.org"><img alt="../../_images/logo_geonetwork.png" class="align-right" src="../../_images/logo_geonetwork.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<section id="geonetwork-quickstart">
+<h1>GeoNetwork Snabbstart<a class="headerlink" href="#geonetwork-quickstart" title="Permalink till denna rubrik">¶</a></h1>
+<p>GeoNetwork är en katalogapplikation för att hantera resurser med spatial referens. Den innehåller kraftfulla redigerings- och sökfunktioner för metadata samt en interaktiv webbkartvisare. Den används för närvarande i många initiativ för infrastruktur för spatiala data över hela världen.</p>
+<div class="contents local topic" id="innehall">
+<ul class="simple">
+<li><p><a class="reference internal" href="#prerequisites" id="id1">Förutsättningar</a></p></li>
+<li><p><a class="reference internal" href="#access-the-catalog" id="id2">Öppna katalogen</a></p></li>
+<li><p><a class="reference internal" href="#sign-in" id="id3">Logga in</a></p></li>
+<li><p><a class="reference internal" href="#load-sample-data" id="id4">Ladda exempeldata</a></p></li>
+<li><p><a class="reference internal" href="#search-for-spatial-data" id="id5">Sök efter spatiala data</a></p></li>
+<li><p><a class="reference internal" href="#display-results" id="id6">Visa resultat</a></p></li>
+<li><p><a class="reference internal" href="#add-layers-to-the-map" id="id7">Lägga till lager på kartan</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id8">Hur vill du gå vidare?</a></p></li>
+</ul>
+</div>
+<section id="prerequisites">
+<h2><a class="toc-backref" href="#id1">Förutsättningar</a><a class="headerlink" href="#prerequisites" title="Permalink till denna rubrik">¶</a></h2>
+<p>GeoNetwork can directly be started from the OSGeo Live start menu and will be available at <a class="reference external" href="http://localhost:8080/geonetwork">http://localhost:8080/geonetwork</a> some moments later. Check the <a class="reference external" href="https://docs.geonetwork-opensource.org/3.12/install-guide/">Installation Guide</a> if you are using GeoNetwork in some other context.</p>
+<p>I den här handboken använder vi URL:en <code class="docutils literal notranslate"><span class="pre">http://localhost:8880/geonetwork</span></code> för att hänvisa till katalogen. Använd en annan URL om den inte är korrekt för ditt system.</p>
+</section>
+<section id="access-the-catalog">
+<h2><a class="toc-backref" href="#id2">Öppna katalogen</a><a class="headerlink" href="#access-the-catalog" title="Permalink till denna rubrik">¶</a></h2>
+<p>I mappen Web Services på skrivbordet (eller via startmenyn) dubbelklickar du på <strong>starta GeoNetwork</strong>. Detta öppnar webbläsaren Firefox på webbadressen <code class="docutils literal notranslate"><span class="pre">http://localhost:8880/geonetwork</span></code>. I det här dokumentet kallas den här adressen för <em>hemsidan</em>.</p>
+<p>Du kan när som helst återgå till startsidan genom att välja kataloglogotypen längst upp till vänster i det övre verktygsfältet. I skärmdumpen nedan är den märkt ”My GeoNetwork catalogue”, men den kan ha ett annat namn och en annan logotyp.</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonetwork_home-page.png"><img alt="../../_images/geonetwork_home-page.png" src="../../_images/geonetwork_home-page.png" style="width: 716.8px; height: 427.7px;" /></a>
+</figure>
+</section>
+<section id="sign-in">
+<h2><a class="toc-backref" href="#id3">Logga in</a><a class="headerlink" href="#sign-in" title="Permalink till denna rubrik">¶</a></h2>
+<p>Välj <strong>Sign in</strong> längst upp till höger i det övre verktygsfältet på startsidan för att komma till inloggningssidan. Ange användarnamnet <code class="docutils literal notranslate"><span class="pre">admin</span></code> och lösenordet <code class="docutils literal notranslate"><span class="pre">admin</span></code> och välj den blå knappen <strong>Sign in</strong> för att logga in som katalogadministratör.</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonetwork_signin.png"><img alt="../../_images/geonetwork_signin.png" src="../../_images/geonetwork_signin.png" style="width: 539.0px; height: 161.7px;" /></a>
+</figure>
+<p>När du har loggat in ändras det övre verktygsfältet så att det innehåller några ytterligare element, nämligen en länk till Admin-konsolen, namnet på den inloggade användaren, en länk till Logga ut och en rullgardinsmeny för att ändra gränssnittsspråket.</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonetwork_identified-user.png"><img alt="../../_images/geonetwork_identified-user.png" src="../../_images/geonetwork_identified-user.png" style="width: 347.9px; height: 32.199999999999996px;" /></a>
+</figure>
+</section>
+<section id="load-sample-data">
+<h2><a class="toc-backref" href="#id4">Ladda exempeldata</a><a class="headerlink" href="#load-sample-data" title="Permalink till denna rubrik">¶</a></h2>
+<p>Välj <strong>Admin console</strong> i det övre verktygsfältet för att komma åt de administrativa funktionerna i katalogen, välj sedan menyalternativet <strong>Metadata och mallar</strong> för att komma till fliken Sample data and templates.</p>
+<p>På denna sida listas alla metadatastandarder som laddats i katalogen. Standardstandarderna i GeoNetwork är:</p>
+<ul class="simple">
+<li><p>Geografisk information - Metadata (iso19139:2007)</p></li>
+<li><p>Geografisk information - Metadata (iso19115-3.2018)</p></li>
+<li><p>Dublin Core (endast för CSW) (csw-record)</p></li>
+<li><p>Dublin Core (dublin core)</p></li>
+<li><p>Geografisk information - Metodik för katalogisering av objekt (iso9110)</p></li>
+</ul>
+<p>I den här snabbstartsguiden väljer du ”Geografisk information - Metadata (iso19139:2007)” och väljer sedan först knappen <strong>Ladda prover för valda standarder</strong> under listan.</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonetwork_templates.png"><img alt="../../_images/geonetwork_templates.png" src="../../_images/geonetwork_templates.png" style="width: 534.1px; height: 467.59999999999997px;" /></a>
+</figure>
+<p><em>När denna process är klar visas ett meddelande till höger i fönstret som anger att 5 poster har lagts till för schema ’iso19139’.</em></p>
+</section>
+<section id="search-for-spatial-data">
+<h2><a class="toc-backref" href="#id5">Sök efter spatiala data</a><a class="headerlink" href="#search-for-spatial-data" title="Permalink till denna rubrik">¶</a></h2>
+<p>Gå tillbaka till katalogens startsida genom att välja katalogens namn längst upp till vänster i det övre verktygsfältet. På startsidan visas nu ikoner som representerar de inlästa posterna, klassificerade efter ämne (i blått) och resurstyp (i grönt). Under detta finns flikar som klassificerar posterna efter tillagd datum (senaste nytt) och popularitet (mest populära).</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonetwork_screenshot.png"><img alt="../../_images/geonetwork_screenshot.png" src="../../_images/geonetwork_screenshot.png" style="width: 716.8px; height: 532.0px;" /></a>
+</figure>
+<p>Välj <strong>Sök</strong> i det övre verktygsfältet för att komma till söksidan.</p>
+<p>På sidan Sök finns olika sätt att söka:</p>
+<ul class="simple">
+<li><p>en sökruta för fulltext som ger förslag medan du skriver,</p></li>
+</ul>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonetwork_full-text.png"><img alt="../../_images/geonetwork_full-text.png" src="../../_images/geonetwork_full-text.png" style="width: 415.79999999999995px; height: 43.4px;" /></a>
+</figure>
+<ul class="simple">
+<li><p><em>Sökfacetter</em>, eller filter, som ger möjlighet att begränsa sökresultaten, t.ex. <em>Resurstyp</em>, <em>Tema</em>, <em>Nyckelord</em>,</p></li>
+</ul>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonetwork_facets.png"><img alt="../../_images/geonetwork_facets.png" src="../../_images/geonetwork_facets.png" style="width: 215.6px; height: 248.49999999999997px;" /></a>
+</figure>
+<ul class="simple">
+<li><p>En översiktskarta, där du kan rita en ruta för att filtrera resultaten spatialt (Tips - om du inte kan se detta, välj MAP i det nedre högra hörnet på din sida)</p></li>
+</ul>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonetwork_spatial-filter.png"><img alt="../../_images/geonetwork_spatial-filter.png" src="../../_images/geonetwork_spatial-filter.png" style="width: 169.39999999999998px; height: 162.39999999999998px;" /></a>
+</figure>
+<ul class="simple">
+<li><p>Genom att välja den vertikala ellipsen i sökrutan kan du komma åt panelen <strong>avancerad sökning</strong> och söka efter <em>kategori</em>, <em>nyckelord</em>, <em>kontakt</em> eller poster inom en viss tidsperiod.</p></li>
+</ul>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonetwork_advanced.png"><img alt="../../_images/geonetwork_advanced.png" src="../../_images/geonetwork_advanced.png" style="width: 640.5px; height: 142.79999999999998px;" /></a>
+</figure>
+</section>
+<section id="display-results">
+<h2><a class="toc-backref" href="#id6">Visa resultat</a><a class="headerlink" href="#display-results" title="Permalink till denna rubrik">¶</a></h2>
+<p>Sökresultaten visas som ”kort”, som visar de kategorier som metadata klassificeras med, postens titel, en miniatyrbild, ett sammandrag (om det finns) och länkar till nedladdningar och andra resurser (om det finns).</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonetwork_a-result.png"><img alt="../../_images/geonetwork_a-result.png" src="../../_images/geonetwork_a-result.png" style="width: 315.7px; height: 177.1px;" /></a>
+</figure>
+<p>Välj ett kort för att komma till en sida som visar alla detaljer för den posten. Välj den blå knappen <strong>Tillbaka till sökning</strong> för att återgå till söksidan när du är klar.</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonetwork_a-record.png"><img alt="../../_images/geonetwork_a-record.png" src="../../_images/geonetwork_a-record.png" style="width: 716.8px; height: 448.7px;" /></a>
+</figure>
+<p>Längst upp till höger på skivan finns ikoner för:</p>
+<ul class="simple">
+<li><p>Redigera posten (när du är inloggad)</p></li>
+<li><p>Radering av posten</p></li>
+<li><p>Hantera posten (t.ex. tilldela visnings- eller redigeringsbehörighet, överföra äganderätten till en annan användare)</p></li>
+<li><p>Nedladdning av skivan i flera format</p></li>
+<li><p>Växla till <strong>Full vy</strong> eller <strong>XML-vy</strong></p></li>
+</ul>
+<p>Om du växlar till <strong>Full view</strong> visas mer detaljerade metadata. För att växla tillbaka till den ursprungliga vyn väljer du <strong>Default view</strong> från listan.</p>
+</section>
+<section id="add-layers-to-the-map">
+<h2><a class="toc-backref" href="#id7">Lägga till lager på kartan</a><a class="headerlink" href="#add-layers-to-the-map" title="Permalink till denna rubrik">¶</a></h2>
+<p>På fliken <strong>Search</strong> klickar du på kortet för <strong>Physiographic Map of North and Central Eurasia (Sample record, please remove!)</strong> för att se metadata. Gå ner på sidan tills avsnittet <strong>Download and links</strong> är synligt.</p>
+<p>Avsnittet <strong>Download and links</strong> visar externa resurser som är kopplade till metadataposten, t.ex:</p>
+<ul class="simple">
+<li><p>En filnedladdning av data,</p></li>
+<li><p>Ytterligare information, t.ex. en webbsida,</p></li>
+<li><p>En länk till data från Web Mapping Service (WMS) eller Web Feature Service (WFS).</p></li>
+</ul>
+<p>Leta reda på länken som är märkt som <strong>Den här datamängden publiceras i visningstjänsten (WMS) som finns på http://data.fao.org/maps/wms med skiktnamnet GEONETWORK:phy_landf_7386.</strong> och välj <strong>Lägg till på kartan</strong>.</p>
+<p>Detta steg kommer att växla dig till fliken <strong>Karta</strong> i katalogen, och efter en kort fördröjning kommer WMS-skiktet att läggas till på kartan.</p>
+<p>Verktygen för att använda kartan är indelade i två grupper till höger på kartan. Den översta gruppen ser ut så här:</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonetwork_maptools_top.png"><img alt="../../_images/geonetwork_maptools_top.png" src="../../_images/geonetwork_maptools_top.png" style="width: 27.299999999999997px; height: 203.0px;" /></a>
+</figure>
+<p>Verktygen är följande:</p>
+<ul class="simple">
+<li><p>Lägg till nya lager på kartan. Du kan söka i katalogen, lägga till lager från webbtjänster eller KML,</p></li>
+<li><p>Hantera befintliga lager eller ändra bakgrundskartan (standard är openstreetmap),</p></li>
+<li><p>Filtrera lager på kartan (om konfigurerat),</p></li>
+<li><p>Hantera kartan genom att återställa den till standardinställningarna, ladda en ny kartdefinition, ladda ner den aktuella kartan eller spara kartkonfigurationen som ett lager i katalogen,</p></li>
+<li><p>Skriv ut kartan,</p></li>
+<li><p>Synkronisera lager med den lilla kartan på fliken Sök,</p></li>
+<li><p>Mät avstånd på kartan,</p></li>
+<li><p>Rita anteckningar på kartan.</p></li>
+</ul>
+<p>Den nedre gruppen av verktyg ser ut så här:</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonetwork_maptools_bottom.png"><img alt="../../_images/geonetwork_maptools_bottom.png" src="../../_images/geonetwork_maptools_bottom.png" style="width: 28.7px; height: 126.69999999999999px;" /></a>
+</figure>
+<p>De är följande:</p>
+<ul class="simple">
+<li><p>Zooma in på kartan,</p></li>
+<li><p>Zooma ut på kartan,</p></li>
+<li><p>Zooma till kartans ursprungliga utsträckning,</p></li>
+<li><p>Zooma till din position (om din webbläsare har platsaktivering),</p></li>
+<li><p>Lägg till en graticule (rutnät) på din karta.</p></li>
+</ul>
+<p>Dessutom finns ett geografiskt sökverktyg längst upp till vänster.</p>
+<p>Använd verktyget Manage Layers och markera kugghjulssymbolen bredvid <strong>Physiography of North and Central Eurasia Landform</strong> och välj <strong>Zoom to layer</strong>.</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonetwork_manage_layers_cog.png"><img alt="../../_images/geonetwork_manage_layers_cog.png" src="../../_images/geonetwork_manage_layers_cog.png" style="width: 291.9px; height: 272.29999999999995px;" /></a>
+</figure>
+<p>Kartan zoomar till omfattningen av detta lager.</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonetwork_zoom_to_layer.png"><img alt="../../_images/geonetwork_zoom_to_layer.png" src="../../_images/geonetwork_zoom_to_layer.png" style="width: 1302.0px; height: 576.8px;" /></a>
+</figure>
+<p>Välj ikonen <strong>målarpensel</strong> bredvid lagret för att se legenden, som visar den klassificering som används för visningen. Du kan stänga av dialogrutan genom att klicka på <strong>X</strong> i det övre högra hörnet.</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonetwork_layer_legend.png"><img alt="../../_images/geonetwork_layer_legend.png" src="../../_images/geonetwork_layer_legend.png" style="width: 249.89999999999998px; height: 357.7px;" /></a>
+</figure>
+<p>Välj en funktion på kartan som motsvarar en kategori i teckenförklaringen, t.ex. ett vattenområde. Zooma och panorera runt på kartan efter behov för att identifiera ett lämpligt område. Om du klickar på objektet visas en identifieringsruta längst ned på kartan med information om det valda området.</p>
+<figure class="align-default">
+<a class="reference internal image-reference" href="../../_images/geonetwork_maplayer_infoclick.png"><img alt="../../_images/geonetwork_maplayer_infoclick.png" src="../../_images/geonetwork_maplayer_infoclick.png" style="width: 1271.1999999999998px; height: 535.5px;" /></a>
+</figure>
+</section>
+<section id="what-next">
+<h2><a class="toc-backref" href="#id8">Hur vill du gå vidare?</a><a class="headerlink" href="#what-next" title="Permalink till denna rubrik">¶</a></h2>
+<p>Visit the <a class="reference external" href="https://docs.geonetwork-opensource.org/3.12/user-guide/">Geonetwork User Guide</a> and try the chapter on <strong>Describing Information</strong>, to learn how to create and edit metadata records.</p>
+<p>Följ upp med att besöka de följande kapitlen för att lära dig hur du associerar resurser med dina metadata, taggar dem med nyckelord och lägger till dem i kategorier samt publicerar dina metadata till omvärlden.</p>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

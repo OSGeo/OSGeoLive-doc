@@ -1,0 +1,190 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>gvSIG Skrivbord &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="snabbstart för gvSIG Desktop" href="../quickstart/gvsig_quickstart.html" />
+    <link rel="prev" title="GRASS GIS Snabbstart" href="../quickstart/grass_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="http://www.gvsig.com/es"><img alt="../../_images/logo_gvsig.png" class="align-right" src="../../_images/logo_gvsig.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<section id="gvsig-desktop">
+<h1>gvSIG Skrivbord<a class="headerlink" href="#gvsig-desktop" title="Permalink till denna rubrik">¶</a></h1>
+<section id="desktop-gis">
+<h2>Desktop GIS<a class="headerlink" href="#desktop-gis" title="Permalink till denna rubrik">¶</a></h2>
+<p><a class="reference external" href="http://www.gvsig.com/es">gvSIG</a> är en GIS-applikation (Geographic Information System) som är utformad för att fånga, lagra, hantera, analysera och distribuera alla typer av geografisk information för att lösa komplexa förvaltnings- och planeringsproblem. gvSIG är känt för sitt användarvänliga gränssnitt och för att kunna hantera alla vanliga vektor- och rasterformat. Det har ett brett utbud av verktyg för att arbeta med geografisk information (frågor, skapande av layout, geoprocessing, nätverk etc.), vilket gör gvSIG till det perfekta verktyget för användare som arbetar inom markområdet.</p>
+<p>gvSIG är känt för:</p>
+<ul class="simple">
+<li><p>integrera både lokala och fjärranslutna data i samma vy genom OGC-standarder.</p></li>
+<li><p>är lätt att bygga ut, vilket möjliggör kontinuerlig förbättring av applikationerna och utveckling av skräddarsydda lösningar.</p></li>
+<li><p>finns tillgänglig på över 20 språk (spanska, engelska, tyska, franska, italienska, …).</p></li>
+<li><p>finns tillgänglig för Windows och Linux (det finns även icke-officiella Mac OS X-versioner).</p></li>
+</ul>
+<a class="reference internal image-reference" href="../../_images/gvsig_screenshot.png"><img alt="gvsig skärmdump" class="align-right" src="../../_images/gvsig_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>Kärnfunktioner<a class="headerlink" href="#core-features" title="Permalink till denna rubrik">¶</a></h3>
+<ul class="simple">
+<li><p>Ger vanliga GIS-verktyg som dataladdning, kartnavigering, fråga kartinformation som alfanumerisk information, avståndsmätning, tematisk kartografi, legendutgåva med vanliga legendtyper, märkning, funktionsval med många urvalstyper, datatabeller med statistik, ordning, tabellrelationer, tabelllänkning, layouthanterare, geoprocessverktyg, CAD, rasterbearbetning etc.</p></li>
+<li><p>Interoperabel: kan fungera med de flesta kända dataformat:</p>
+<ul>
+<li><p>raster: ecw, ENVI hdr, ERDAS img, (Geo)TIFF, GRASS, NetCDF…</p></li>
+<li><p>vektor &amp; CAD: shapefile, NetCDF, GML, KML, DGN, DXF, DWG</p></li>
+<li><p>databaser: PostGIS, MySQL, Oracle, ArcSDE</p></li>
+<li><p>fjärrkontroll: OGC-standarder (WMS, WMTS, WFS, WCS), OSM, ECWP, ArcIMS</p></li>
+</ul>
+</li>
+<li><p>Discovery services-klient för att lokalisera dataresurser inom en SDI (katalog- och gazeteer-tjänster)</p>
+<ul>
+<li><p>Kataloger: Z3950, SRW, CSW (ISO/19115 och ebRIM)</p></li>
+<li><p>Gazetteers: ADL, WFS, WFS-G</p></li>
+</ul>
+</li>
+<li><p>Mer än 300 geoalgoritmer via SEXTANTE-biblioteket</p></li>
+<li><p>Integrerade avancerade CAD-verktyg:</p>
+<ul>
+<li><p>vektordata: modifiera, skapa och ta bort element</p></li>
+<li><p>kommandokonsol typiskt element i CAD-programvara</p></li>
+<li><p>verktyg som hjälp, rutnät, kommandostapel, komplexa elementval</p></li>
+<li><p>verktyg för att infoga element som punkter, polygoner, linjer, ellipser etc.</p></li>
+<li><p>verktyg för att ändra dess rotation, skala, symmetri, …</p></li>
+</ul>
+</li>
+<li><p>Integrerade avancerade rasterverktyg:</p>
+<ul>
+<li><p>georeferering och omprojicering</p></li>
+<li><p>export, klippning</p></li>
+<li><p>slå upp tabeller, histogram</p></li>
+<li><p>filter, vektorisering</p></li>
+<li><p>översikter och intresseområden förvaltning</p></li>
+</ul>
+</li>
+<li><p>3D-vy</p></li>
+<li><p>Övriga funktioner:</p>
+<ul>
+<li><p>Skriptstöd (för både vektor- och rasterdata)</p></li>
+<li><p>Kraftfull reprojektionsmotor via PROJ4</p></li>
+<li><p>Importera/exportera symboluppsättningar</p></li>
+<li><p>Kartblad kompositör</p></li>
+<li><p>Diagram</p></li>
+<li><p>Avancerade symbologiverktyg</p></li>
+<li><p>Avancerade märkningsverktyg</p></li>
+<li><p>Förlängning av publicering</p></li>
+<li><p>Portabla vyer</p></li>
+<li><p>Anpassade distributioner</p></li>
+</ul>
+</li>
+</ul>
+</section>
+<section id="implemented-standards">
+<h3>Implementerade standarder<a class="headerlink" href="#implemented-standards" title="Permalink till denna rubrik">¶</a></h3>
+<p>Avancerat klientstöd för ett stort antal standarder från Open Geospatial Consortium (OGC)</p>
+<ul class="simple">
+<li><p>Ladda WMS-, WMTS-, WFS- och WCS-lager</p></li>
+<li><p>Export/import av SLD-legendarer</p></li>
+<li><p>Export/import av webbkartkontext (WMC)</p></li>
+<li><p>Sökning i kataloger med CSW (ISO/19115 och ebRIM)</p></li>
+<li><p>Sök i gazetteers med hjälp av WFS-G-rekommendation</p></li>
+</ul>
+</section>
+<section id="details">
+<h3>Detaljer<a class="headerlink" href="#details" title="Permalink till denna rubrik">¶</a></h3>
+<p><strong>Webbplats:</strong> <a class="reference external" href="http://www.gvsig.com/es">http://www.gvsig.com/es</a></p>
+<p><strong>Licence:</strong> GNU General Public License (GPL) version 2</p>
+<p><strong>Programvaruversion:</strong> 2.4.0</p>
+<p><strong>Plattformar som stöds:</strong> Windows, Linux</p>
+<p><strong>Support:</strong> <a class="reference external" href="http://www.gvsig.com/en/gvsig-association">http://www.gvsig.com/en/gvsig-association</a>, <a class="reference external" href="http://www.gvsig.com/en/community/mailing-lists">http://www.gvsig.com/en/community/mailing-lists</a></p>
+<div class="admonition note">
+<p class="admonition-title">Observera</p>
+<p>Detta projekt ingår endast på OSGeoLives virtuella maskindisk (VMDK)</p>
+</div>
+</section>
+<section id="quickstart">
+<h3>Snabbstart<a class="headerlink" href="#quickstart" title="Permalink till denna rubrik">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/gvsig_quickstart.html"><span class="doc">Snabbstartsdokumentation</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

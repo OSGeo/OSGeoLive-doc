@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Q-fält &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="QField Snabbstart" href="../quickstart/qfield_quickstart.html" />
+    <link rel="prev" title="OpenJUMP GIS Snabbstart" href="../quickstart/openjump_quickstart.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://qfield.org/"><img alt="../../_images/logo_qfield.png" class="align-right" src="../../_images/logo_qfield.png" /></a>
+<section id="qfield">
+<h1>Q-fält<a class="headerlink" href="#qfield" title="Permalink till denna rubrik">¶</a></h1>
+<section id="mobile-gis">
+<h2>Mobilt GIS<a class="headerlink" href="#mobile-gis" title="Permalink till denna rubrik">¶</a></h2>
+<p>qField for QGIS &lt;<a class="reference external" href="https://qfield.org">https://qfield.org</a>&gt;`_ är ett förenklat och pekoptimerat gränssnitt för QGIS i fält. Det innehåller professionella verktyg för datainsamling med integrering av positioneringsenheter för mätning samt stöd för ett stort antal avancerade funktioner för attributinhämtning och mobil kartläggning. QField finns tillgängligt för Android, iOS, Linux, MacOS och Windows.</p>
+<p>Det är perfekt integrerat med <a class="reference internal" href="qgis_overview.html"><span class="doc">QGIS</span></a> och utvecklingen av de två projekten sker i nära samarbete.</p>
+<a class="reference internal image-reference" href="../../_images/qfield_screenshot.png"><img alt="qfield skärmdump" class="align-right" src="../../_images/qfield_screenshot.png" style="width: 500px;" /></a>
+<section id="core-features">
+<h3>Kärnfunktioner<a class="headerlink" href="#core-features" title="Permalink till denna rubrik">¶</a></h3>
+<ul class="simple">
+<li><dl class="simple">
+<dt>Användarvänligt grafiskt användargränssnitt:</dt><dd><ul>
+<li><p>identifiera/välja funktioner</p></li>
+<li><p>redigera/visa/söka attribut</p></li>
+<li><p>reprojektion i farten</p></li>
+<li><p>vacker kartografi</p></li>
+<li><p>foto- och multimediainspelning</p></li>
+<li><p>direkt återkoppling om datakvalitet via begränsningar</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Enkel visning av många vektor- och rasterformat</dt><dd><ul>
+<li><p>de flesta vektorformat: inklusive ESRI shapefiler, MapInfo, SDTS och GML, OpenStreetMap-vektorer</p></li>
+<li><p>rasterformat såsom digitala höjdmodeller, flygfotografier eller landsat-bilder</p></li>
+<li><p>webbtjänster online: WMS, WFS och OGC API</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Exportera data</dt><dd><ul>
+<li><p>utskrift till pdf</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Integration av sensorer</dt><dd><ul>
+<li><p>interna positioneringssensorer (GNSS)</p></li>
+<li><p>externa positioneringssensorer via NMEA (Bluetooth, UDP, TPC)</p></li>
+<li><p>NTRIP-korrektion (RTK) kan aktiveras beroende på enhet</p></li>
+<li><p>integrering av externa sensorer (strålning, gas, …)</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt>Synkronisering</dt><dd><ul>
+<li><p>Datasynkronisering via <cite>QFieldCloud &lt;https://qfield.cloud&gt;</cite></p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</section>
+<section id="implemented-standards">
+<h3>Implementerade standarder<a class="headerlink" href="#implemented-standards" title="Permalink till denna rubrik">¶</a></h3>
+<ul class="simple">
+<li><p>Överensstämmer med OGC-standarder (WMS, WFS, … )</p></li>
+</ul>
+</section>
+<section id="details">
+<h3>Detaljer<a class="headerlink" href="#details" title="Permalink till denna rubrik">¶</a></h3>
+<p><strong>Webbplats:</strong> <a class="reference external" href="https://qfield.org/">https://qfield.org/</a></p>
+<p><strong>Licence:</strong> GNU General Public License (GPL) version 2</p>
+<p><strong>Programvaruversion:</strong> 3.3.11</p>
+<p><strong>Plattformar som stöds:</strong> Windows, Linux, Mac, Unix, iOS, Android</p>
+<p><strong>Support till samhället:</strong> <a class="reference external" href="https://docs.qfield.org/get-started/support/">https://docs.qfield.org/get-started/support/</a></p>
+<p><strong>Kommersiellt stöd:</strong> <a class="reference external" href="https://docs.qfield.org/get-started/support/">https://docs.qfield.org/get-started/support/</a></p>
+<div class="admonition note">
+<p class="admonition-title">Observera</p>
+<p>Detta projekt ingår endast på OSGeoLives virtuella maskindisk (VMDK)</p>
+</div>
+</section>
+<section id="quickstart">
+<h3>Snabbstart<a class="headerlink" href="#quickstart" title="Permalink till denna rubrik">¶</a></h3>
+<ul class="simple">
+<li><p><a class="reference internal" href="../quickstart/qfield_quickstart.html"><span class="doc">Snabbstartsdokumentation</span></a></p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>

@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+
+<html lang="sv">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>GeoMoose Snabbstart &#8212; OSGeoLive 17.0 Documentation</title>
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/overview.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/../_themes/overview/static/overview.css" />
+    <script data-url_root="../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/translations.js"></script>
+    <link rel="shortcut icon" href="../../_static/favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Sök" href="../search.html" />
+    <link rel="copyright" title="Copyright" href="../copyright.html" />
+    <link rel="next" title="GeoNod" href="../overview/geonode_overview.html" />
+    <link rel="prev" title="GeoMoose" href="../overview/geomoose_overview.html" />
+	<script type="text/javascript" src="../../_static/osgeolive.js"></script>
+
+
+  </head><body>
+
+        
+        
+    <div class="header">
+	<div class="banner"><a href="http://live.osgeo.org/"><img src="../../_images/osgeolive-banner.png"></a></div>
+        <div class="nowrap">
+            <ul id="top-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../overview/overview.html">Contents</a></li>
+              <li><a href="../download.html">Download</a></li>
+              <li><a href="../metrics.html">Metrics</a></li>
+              <li><a href="../sponsors.html">Sponsors</a></li>
+              <li><a href="../contact.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+        
+
+
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+          <div class="body" role="main">
+            
+  <a class="reference external image-reference" href="https://www.geomoose.org"><img alt="../../_images/logo_geomoose.png" class="align-right" src="../../_images/logo_geomoose.png" /></a>
+<a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
+<section id="geomoose-quickstart">
+<h1>GeoMoose Snabbstart<a class="headerlink" href="#geomoose-quickstart" title="Permalink till denna rubrik">¶</a></h1>
+<p>GeoMoose är ett webbläsarbaserat kartramverk för visning av distribuerade kartografiska data. Det är särskilt användbart för att hantera spatiala och icke-spatiala data inom läns-, stads- och kommunkontor (från vilka GeoMoose härstammar).</p>
+<p>GeoMoose är ett ramverk för hantering av GIS-dataportaler. Den installerade versionen av GeoMoose på Live DVD:n är en exempelkonfiguration som visar en exempeluppsättning av lager.</p>
+<div class="contents local topic" id="contents">
+<p class="topic-title">Innehåll</p>
+<ul class="simple">
+<li><p><a class="reference internal" href="#start-geomoose" id="id1">Starta GeoMoose</a></p></li>
+<li><p><a class="reference internal" href="#identify-a-location" id="id2">Identifiera en plats</a></p></li>
+<li><p><a class="reference internal" href="#use-the-measuring-tool" id="id3">Använd mätverktyget</a></p></li>
+<li><p><a class="reference internal" href="#select-features" id="id4">Välj funktioner</a></p></li>
+<li><p><a class="reference internal" href="#search-for-features" id="id5">Sök efter funktioner</a></p></li>
+<li><p><a class="reference internal" href="#print-the-map" id="id6">Skriv ut kartan</a></p></li>
+<li><p><a class="reference internal" href="#what-next" id="id7">Hur vill du gå vidare?</a></p></li>
+</ul>
+</div>
+<section id="start-geomoose">
+<h2><a class="toc-backref" href="#id1">Starta GeoMoose</a><a class="headerlink" href="#start-geomoose" title="Permalink till denna rubrik">¶</a></h2>
+<ol class="arabic">
+<li><p>Gå till mappen ”Browser Clients” på skrivbordet.</p></li>
+<li><p>Klicka på ikonen ”Starta GeoMoose” på skrivbordet. Då startas standardwebbläsaren som automatiskt navigerar till rätt plats.</p></li>
+<li><p>Du kommer att få upp en webbsida som visar ett demogränssnitt för en GeoMoose-instans.</p>
+<img alt="GeoMoose skärmdump" class="align-right" src="../../_images/geomoose_screenshot.png" />
+</li>
+</ol>
+<p>De gränssnitt som presenteras ovan visar:</p>
+<ul class="simple">
+<li><p>En bannerbar</p></li>
+<li><p>En verktygsfält</p></li>
+<li><p>Ett kartfönster med navigerings- och zoomkontroller</p></li>
+<li><p>En sidomeny med:</p></li>
+</ul>
+<blockquote>
+<div><ul class="simple">
+<li><p>En rullgardinslista med ”Hoppa till” plats</p></li>
+<li><p>Kontrollflikar som börjar med ”Catalog”, för visning av lagerlistan. Efter behov visas ytterligare flikar: en ”Information”-läsare, en ”Custom”-flik för utdata och andra.</p></li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li><p>Ett sidfotsfält med:</p></li>
+</ul>
+<blockquote>
+<div><ul class="simple">
+<li><p>Flera koordinatavläsningar, en vardera för: X,Y (lokala datasetkoordinater), LAT/LON (decimal) och United States National Grid (USNG)</p></li>
+<li><p>En redigerbar rullgardinslista för en vyskala att välja mellan eller definiera.</p></li>
+</ul>
+</div></blockquote>
+</section>
+<section id="identify-a-location">
+<h2><a class="toc-backref" href="#id2">Identifiera en plats</a><a class="headerlink" href="#identify-a-location" title="Permalink till denna rubrik">¶</a></h2>
+<ol class="arabic simple">
+<li><p>Klicka på knappen ”identifiera” (”i” i en cirkelikon) i det övre verktygsfältet</p></li>
+<li><p>Klicka på en punkt på kartan.</p></li>
+</ol>
+<blockquote>
+<div><img alt="../../_images/geomoose-quickstart-01.png" src="../../_images/geomoose-quickstart-01.png" />
+</div></blockquote>
+<p>Katalogen på vänster sida av kartvyn ändras till ”Super Tab” - en plats där GeoMoose visar resultat av en åtgärd eller ber om mer information. I det här fallet visas resultaten av en fråga om varje aktivt och identifierbart lager för den punkt som du klickade på i kartan.</p>
+</section>
+<section id="use-the-measuring-tool">
+<h2><a class="toc-backref" href="#id3">Använd mätverktyget</a><a class="headerlink" href="#use-the-measuring-tool" title="Permalink till denna rubrik">¶</a></h2>
+<p>Med GeoMoose mätverktyg kan du: * mäta en punkt (returnera koordinaterna för en vald punkt) * mäta avståndet längs en linje som kan bestå av flera segment * mäta arean för en polygon.</p>
+<ol class="arabic simple">
+<li><p>Klicka på ikonen med den dubbla pilen i det övre verktygsfältet för att starta mätverktyget.</p></li>
+<li><p>Välj att mäta en punkt, linje eller polygon.</p></li>
+<li><p>Klicka på kartan där du vill mäta. Om du vill mäta en punkt klickar du bara på den punkt på kartan som du vill mäta. För att mäta en linje eller polygon klickar du på kartan för varje toppunkt a i linjen/polygonen.</p></li>
+<li><p>Dubbelklicka för att avsluta linjen/polygonen.</p></li>
+</ol>
+<blockquote>
+<div><img alt="../../_images/geomoose-quickstart-02a.png" src="../../_images/geomoose-quickstart-02a.png" />
+<img alt="../../_images/geomoose-quickstart-02b.png" src="../../_images/geomoose-quickstart-02b.png" />
+<img alt="../../_images/geomoose-quickstart-02c.png" src="../../_images/geomoose-quickstart-02c.png" />
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Observera</p>
+<p>kan du också mäta en befintlig funktion på kartan (om den kommer från ett vektorlager, inklusive tidigare sökresultat) utan att behöva spåra över den manuellt.</p>
+</div>
+</section>
+<section id="select-features">
+<h2><a class="toc-backref" href="#id4">Välj funktioner</a><a class="headerlink" href="#select-features" title="Permalink till denna rubrik">¶</a></h2>
+<p>Du kan välja funktioner från en punkt, linje, polygon eller från en befintlig funktion. Börja med att klicka på ikonen ”Select Features” (muspekarikonen), välj punkt, linje, polygon och börja rita ditt val på kartan. Du kan dubbelklicka på den sista punkten för att avsluta ritprocessen. Om du vill justera ditt val kan du göra det med alternativet ”Modify Feature”.</p>
+<p>Du har också möjlighet att välja funktioner baserat på en buffrad version av det du ritade. Standardinställningen är att buffra med ”0”, vilket inte gör någonting. Positiva värden expanderar det du ritade med det avståndet, negativa värden krymper din ritning.</p>
+<p>Välj vilket lager du vill välja funktioner från med hjälp av valboxen ”Query Layer”. Observera: Alla lager kan inte användas med verktyget Select Features. För att vara tillgängligt för urval måste ett lager vara ett vektorlager och konfigureras för urval i kartboken.</p>
+<blockquote>
+<div><img alt="../../_images/geomoose-quickstart-03a.png" src="../../_images/geomoose-quickstart-03a.png" />
+</div></blockquote>
+<p>Du kan behöva scrolla ner i ”Super Tab” för att hitta ”Go”-knappen om ditt webbläsarfönster är litet.</p>
+<blockquote>
+<div><img alt="../../_images/geomoose-quickstart-03a2.png" src="../../_images/geomoose-quickstart-03a2.png" />
+</div></blockquote>
+<p>Klicka slutligen på knappen ”Go” för att faktiskt välja funktionerna. GeoMoose returnerar en sammanfattning av vad som valdes i Super Tab, markerar de valda objekten på kartan och visar en attributtabell för de valda objekten.</p>
+<blockquote>
+<div><img alt="../../_images/geomoose-quickstart-03b.png" src="../../_images/geomoose-quickstart-03b.png" />
+</div></blockquote>
+<p>Om du håller muspekaren över en linje i tabellen markeras motsvarande funktion på kartan. Dessutom kan du använda trattikonerna i tabellhuvudet för att filtrera resultaten ytterligare och använda triangelikonerna i tabellhuvudet för att sortera resultaten. Resultaten kan laddas ner som en CSV-fil med hjälp av nedladdningsikonen högst upp och till vänster om tabellen.</p>
+</section>
+<section id="search-for-features">
+<h2><a class="toc-backref" href="#id5">Sök efter funktioner</a><a class="headerlink" href="#search-for-features" title="Permalink till denna rubrik">¶</a></h2>
+<p>Du kan också söka efter egenskaper per attribut. Börja med att hålla muspekaren över menyn ”Search” i verktygsfältet och klicka sedan på ikonen ”Search Parcels”. Ange dina sökparametrar i Super Tab och klicka sedan på knappen ”Go!”.</p>
+<blockquote>
+<div><img alt="../../_images/geomoose-quickstart-04a.png" src="../../_images/geomoose-quickstart-04a.png" />
+</div></blockquote>
+<p>Följande skärmdump visar en sökning av alla paketägare som innehåller namnet ”frank”.</p>
+<blockquote>
+<div><img alt="../../_images/geomoose-quickstart-04b.png" src="../../_images/geomoose-quickstart-04b.png" />
+</div></blockquote>
+<p>Tre resultat visas i listan och är markerade på kartan.</p>
+<blockquote>
+<div><img alt="../../_images/geomoose-quickstart-04c.png" src="../../_images/geomoose-quickstart-04c.png" />
+</div></blockquote>
+<p>Om du klickar på förstoringsglasikonen/skiftenumret zoomas du in till det specifika skiftet, vilket illustreras i följande skärmdump.</p>
+<blockquote>
+<div><img alt="../../_images/geomoose-quickstart-04d.png" src="../../_images/geomoose-quickstart-04d.png" />
+</div></blockquote>
+</section>
+<section id="print-the-map">
+<h2><a class="toc-backref" href="#id6">Skriv ut kartan</a><a class="headerlink" href="#print-the-map" title="Permalink till denna rubrik">¶</a></h2>
+<p>Nästa skärmdump visar hur verktyget Print ser ut i demoversionen för GeoMoose. När du klickar på verktyget Print visas en dialogruta som frågar efter en titel för den utskrivna kartan, sidstorlek och rotation, utskriftsupplösning och visar en förhandsgranskning av vad som kommer att skrivas ut.</p>
+<blockquote>
+<div><img alt="../../_images/geomoose-quickstart-05a.png" src="../../_images/geomoose-quickstart-05a.png" />
+</div></blockquote>
+<p>Om du klickar på knappen Skriv ut i dialogrutan genereras en PDF-utskrift som du kan öppna eller spara.</p>
+<blockquote>
+<div><img alt="../../_images/geomoose-quickstart-05b.png" src="../../_images/geomoose-quickstart-05b.png" />
+</div></blockquote>
+</section>
+<section id="what-next">
+<h2><a class="toc-backref" href="#id7">Hur vill du gå vidare?</a><a class="headerlink" href="#what-next" title="Permalink till denna rubrik">¶</a></h2>
+<p>Detta är bara det första steget på vägen mot att använda GeoMoose. Det finns mycket mer funktionalitet som du kan prova.</p>
+<p>GeoMoose-projektets hemsida</p>
+<blockquote>
+<div><p><a class="reference external" href="https://www.geomoose.org/">https://www.geomoose.org/</a></p>
+</div></blockquote>
+<p>GeoMoose handledning</p>
+<blockquote>
+<div><p><a class="reference external" href="https://www.geomoose.org/quickstart.html">https://www.geomoose.org/quickstart.html</a></p>
+</div></blockquote>
+</section>
+</section>
+
+
+            <div class="clearer"></div>
+          </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    
+    <div class="related">
+	<font size="-2">
+		<div id="translations">
+		<!-- alphabetical order -->
+              <a href="javascript:defaultRedirect('en')">English</a> |   <a href="javascript:defaultRedirect('de')">Deutsch</a> |   <a href="javascript:defaultRedirect('es')">Español</a> |   <a href="javascript:defaultRedirect('fi')">Suomen kieli</a> |   <a href="javascript:defaultRedirect('fr')">Français</a> |   <a href="javascript:defaultRedirect('hu')">Hungarian</a> |   <a href="javascript:defaultRedirect('it')">Italiano</a> |   <a href="javascript:defaultRedirect('ja')">日本語</a> |   <a href="javascript:defaultRedirect('sv')">Svenska</a>
+		</div>
+	</font>
+    </div>
+
+
+
+        
+        
+<span style="font-size:85%;"><i><a href="../copyright.html">Copyright & Disclaimer</a></i></span>
+        
+
+
+  </body>
+</html>
