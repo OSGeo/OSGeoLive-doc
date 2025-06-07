@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-21 20:28+0000\n"
-"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"PO-Revision-Date: 2025-06-04 09:45+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "qgis_quickstart/sv/>\n"
@@ -69,7 +69,7 @@ msgstr ""
 #: ../../build/doc/quickstart/qgis_quickstart.rst:59
 msgid "[3] Browser Panel: A spatial file browser allowing drag and drop content into the map frame."
 msgstr ""
-"[3] Panel för webbläsare: En rumslig filbläddrare som gör det möjligt att "
+"[3] Panel för webbläsare: En spatial filbläddrare som gör det möjligt att "
 "dra och släppa innehåll i kartramen."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:60
@@ -245,7 +245,7 @@ msgid "This will open a QGIS project with a number of Natural Earth datasets, as
 msgstr ""
 "Detta öppnar ett QGIS-projekt med ett antal Natural Earth-datauppsättningar, "
 "enligt nedan. Detta projekt innehåller ett antal lager i lagerpanelen och "
-"visar det rumsliga innehållet i kartramen."
+"visar det spatiala innehållet i kartramen."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:None
 msgid "QGIS Open project result"

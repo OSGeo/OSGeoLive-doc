@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"PO-Revision-Date: 2025-06-04 09:45+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "pygeoapi_overview/sv/>\n"
@@ -88,7 +88,7 @@ msgstr "stödjer JSON-, GeoJSON-, HTML- och CSV-utdata"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:41
 msgid "supports data filtering by spatial, temporal or attribute queries"
-msgstr "stöder datafiltrering genom rumsliga, tidsmässiga eller attributfrågor"
+msgstr "stöder datafiltrering genom spatiala, tidsmässiga eller attributfrågor"
 
 #: ../../build/doc/overview/pygeoapi_overview.rst:42
 msgid "easy to install: install a full implementation via ``pip`` or ``git``"

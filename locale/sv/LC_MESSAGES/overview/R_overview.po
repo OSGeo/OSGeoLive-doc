@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"PO-Revision-Date: 2025-06-04 09:45+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "r_overview/sv/>\n"
@@ -58,7 +58,7 @@ msgid ""
 "easily plug R with GRASS-GIS, Qgis, postgreSQL and postGIS."
 msgstr ""
 "Användarna kan utföra ett brett spektrum av uppgifter, t.ex. "
-"bildklassificering, statistisk analys för att dra slutsatser om rumsliga "
+"bildklassificering, statistisk analys för att dra slutsatser om spatiala "
 "relationer och mönster, och andra uppgifter som anges i kärnfunktionerna "
 "nedan. De funktioner som är tillgängliga via R kompletterar och förbättrar "
 "de funktioner som finns i GIS- och bildbehandlingsprogram. Genom att använda "
@@ -126,15 +126,15 @@ msgstr ""
 msgid ""
 "Hundreds of community contributed add-on packages for spatial statistics"
 msgstr ""
-"Hundratals tilläggspaket för rumslig statistik som tagits fram av samhället"
+"Hundratals tilläggspaket för spatial statistik som tagits fram av samhället"
 
 #: ../../build/doc/overview/R_overview.rst:62
 msgid "Classes for spatial data"
-msgstr "Klasser för rumsliga data"
+msgstr "Klasser för spatiala data"
 
 #: ../../build/doc/overview/R_overview.rst:63
 msgid "Reading and writing spatial data"
-msgstr "Läsa och skriva rumsliga data"
+msgstr "Läsa och skriva spatiala data"
 
 #: ../../build/doc/overview/R_overview.rst:64
 msgid "Point pattern analysis"
@@ -162,7 +162,7 @@ msgstr "Avkänning på distans"
 
 #: ../../build/doc/overview/R_overview.rst:70
 msgid "Bayesian spatial analysis"
-msgstr "Bayesiansk rumslig analys"
+msgstr "Bayesiansk spatial analys"
 
 #: ../../build/doc/overview/R_overview.rst:71
 msgid "..."

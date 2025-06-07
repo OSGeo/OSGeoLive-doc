@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-21 20:28+0000\n"
-"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"PO-Revision-Date: 2025-06-04 09:45+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "mapserver_quickstart/sv/>\n"
@@ -101,7 +101,7 @@ msgstr ""
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:116
 msgid "LAYER: defines access and display properties for a spatial dataset. We'll add another layer later."
 msgstr ""
-"LAYER: definierar åtkomst- och visningsegenskaper för en rumslig datamängd. "
+"LAYER: definierar åtkomst- och visningsegenskaper för en spatial datamängd. "
 "Vi lägger till ytterligare ett lager senare."
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:118
@@ -129,7 +129,7 @@ msgstr ""
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:128
 msgid "DATA: the name of the spatial data file this layer uses, in this case a shapefile."
 msgstr ""
-"DATA: namnet på den rumsliga datafil som detta skikt använder, i detta fall "
+"DATA: namnet på den spatiala datafil som detta skikt använder, i detta fall "
 "en shapefil."
 
 #: ../../build/doc/quickstart/mapserver_quickstart.rst:130

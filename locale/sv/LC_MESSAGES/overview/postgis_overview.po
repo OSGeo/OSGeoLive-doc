@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"PO-Revision-Date: 2025-06-04 09:45+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "postgis_overview/sv/>\n"
@@ -36,7 +36,7 @@ msgid ""
 " allowing it to be used as a back-end database for geographic information "
 "systems (GIS) and web-mapping applications."
 msgstr ""
-"PostGIS möjliggör rumsligt den populära PostgreSQL-objektrelationsdatabasen, "
+"PostGIS möjliggör spatialt den populära PostgreSQL-objektrelationsdatabasen, "
 "så att den kan användas som en back-end-databas för geografiska "
 "informationssystem (GIS) och webbkartapplikationer."
 
@@ -65,7 +65,7 @@ msgstr ""
 "Databasadministration är tillgänglig för skrivbord och webb via pgAdmin, "
 "phpPgAdmin och andra. Dataimport/export kan göras med kommandoradsverktyg ("
 "shp2pgsql, pgsql2shp, ogr2ogr, dxf2postgis) eller från GIS-klienter på dator "
-"och webb. Dessa klienter kan också mappa och manipulera PostGIS rumsliga "
+"och webb. Dessa klienter kan också mappa och manipulera PostGIS spatiala "
 "datatabeller."
 
 #: ../../build/doc/overview/postgis_overview.rstNone
@@ -78,7 +78,7 @@ msgstr "Kärnfunktioner"
 
 #: ../../build/doc/overview/postgis_overview.rst:83
 msgid "Hundreds of spatial functions"
-msgstr "Hundratals rumsliga funktioner"
+msgstr "Hundratals spatiala funktioner"
 
 #: ../../build/doc/overview/postgis_overview.rst:85
 msgid "Buffers, unions, overlays, distance and more"
@@ -90,7 +90,7 @@ msgstr "ACID transaktionsintegritet"
 
 #: ../../build/doc/overview/postgis_overview.rst:88
 msgid "R-Tree spatial index"
-msgstr "R-Tree rumsligt index"
+msgstr "R-Tree spatialt index"
 
 #: ../../build/doc/overview/postgis_overview.rst:89
 msgid "Multi-user support"

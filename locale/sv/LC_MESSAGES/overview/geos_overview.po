@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"PO-Revision-Date: 2025-06-04 09:45+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "geos_overview/sv/>\n"
@@ -28,7 +28,7 @@ msgstr "GEOS"
 
 #: ../../build/doc/overview/geos_overview.rst:21
 msgid "Spatial Library"
-msgstr "Rumsligt bibliotek"
+msgstr "Spatialt bibliotek"
 
 #: ../../build/doc/overview/geos_overview.rst:23
 msgid ""
@@ -62,7 +62,7 @@ msgstr "Implementerade standarder"
 
 #: ../../build/doc/overview/geos_overview.rst:34
 msgid "OpenGIS |SFSQL| spatial predicate functions and spatial operators"
-msgstr "OpenGIS |SFSQL| rumsliga predikatfunktioner och rumsliga operatorer"
+msgstr "OpenGIS |SFSQL| spatiala predikatfunktioner och spatiala operatorer"
 
 #: ../../build/doc/overview/geos_overview.rst:43
 msgid "Core Features"
@@ -98,7 +98,7 @@ msgstr "Förberedda geometrier (förspatialt indexerade)"
 
 #: ../../build/doc/overview/geos_overview.rst:49
 msgid "STR spatial index"
-msgstr "STR rumsligt index"
+msgstr "STR spatialt index"
 
 #: ../../build/doc/overview/geos_overview.rst:50
 msgid ""
