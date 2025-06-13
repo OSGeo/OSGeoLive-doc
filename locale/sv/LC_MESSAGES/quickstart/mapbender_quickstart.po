@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-21 20:28+0000\n"
-"PO-Revision-Date: 2025-06-04 09:45+0000\n"
+"PO-Revision-Date: 2025-06-13 19:39+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "mapbender_quickstart/sv/>\n"
@@ -44,7 +44,7 @@ msgstr "skapa en ansökan"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:32
 msgid "load a Web Map Service (OGC WMS)"
-msgstr "ladda en webbkarttjänst (OGC WMS)"
+msgstr "läs in en webbkarttjänst (OGC WMS)"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:33
 msgid "configure WMS"
@@ -134,7 +134,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:76
 msgid "Upload an image file as screenshot for the application overview"
-msgstr "Ladda upp en bildfil som skärmdump för applikationsöversikten"
+msgstr "Skicka upp en bildfil som skärmdump för applikationsöversikten"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:78
 msgid "Choose a template for your application"
@@ -158,11 +158,11 @@ msgstr ""
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:92
 msgid "Loading Web Map Services"
-msgstr "Laddning av webbkarttjänster"
+msgstr "Inläsning av webbkarttjänster"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:93
 msgid "You can load OGC Web Map Services (WMS) to your application."
-msgstr "Du kan ladda OGC Web Map Services (WMS) till din applikation."
+msgstr "Du kan läsa in OGC Web Map Services (WMS) till din applikation."
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:95
 msgid "A WMS returns an XML-file when the getCapabilities document is requested. This information is parsed by Mapbender and Mapbender gets all the necessary information about the service from this XML"
@@ -175,7 +175,7 @@ msgstr ""
 msgid "You should first check the Capabilities document in your browser before you try to load it with Mapbender"
 msgstr ""
 "Du bör först kontrollera Capabilities-dokumentet i din webbläsare innan du "
-"försöker ladda det med Mapbender"
+"försöker läsa in det med Mapbender"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:99
 msgid "Choose menu item :menuselection:`Services --> Add Service` or use the +-Button."
@@ -196,12 +196,12 @@ msgstr "Ange användarnamn och lösenord om din tjänst kräver autentisering."
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:106
 msgid "Click **Load** to load the Service to the repository."
-msgstr "Klicka på **Load** för att ladda tjänsten till repository."
+msgstr "Klicka på **Läs in** för att läsa in tjänsten till förrådet."
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:108
 msgid "Load another WMS https://sgx.geodatenzentrum.de/wms_topplus_open?request=GetCapabilities&service=WMS&VERSION=1.3.0"
 msgstr ""
-"Ladda en annan WMS https://sgx.geodatenzentrum.de/"
+"Läs in en annan WMS https://sgx.geodatenzentrum.de/"
 "wms_topplus_open?request=GetCapabilities&service=WMS&VERSION=1.3.0"
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:113
@@ -371,7 +371,7 @@ msgstr "Här är några ytterligare utmaningar som du kan prova:"
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:186
 msgid "Try to load some WMS in your application. Try to configure your WMS."
 msgstr ""
-"Försök att ladda in ett WMS i din applikation. Försök att konfigurera ditt "
+"Försök att läsa in några WMS i din applikation. Försök att konfigurera ditt "
 "WMS."
 
 #: ../../build/doc/quickstart/mapbender_quickstart.rst:188

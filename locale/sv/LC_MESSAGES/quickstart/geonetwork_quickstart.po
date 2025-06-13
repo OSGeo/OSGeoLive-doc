@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2025-06-04 09:45+0000\n"
+"PO-Revision-Date: 2025-06-13 19:39+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "geonetwork_quickstart/sv/>\n"
@@ -273,13 +273,13 @@ msgid "Locate the link labelled as **This dataset is published in the view servi
 msgstr ""
 "Leta reda på länken som är märkt som **Den här datamängden publiceras i "
 "visningstjänsten (WMS) som finns på http://data.fao.org/maps/wms med "
-"skiktnamnet GEONETWORK:phy_landf_7386.** och välj **Lägg till på kartan**."
+"lagernamnet GEONETWORK:phy_landf_7386.** och välj **Lägg till på kartan**."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:160
 msgid "This step will switch you to the **Map** tab in the catalog, and after a short delay the WMS layer will be added to the map."
 msgstr ""
 "Detta steg kommer att växla dig till fliken **Karta** i katalogen, och efter "
-"en kort fördröjning kommer WMS-skiktet att läggas till på kartan."
+"en kort fördröjning kommer WMS-lagret att läggas till på kartan."
 
 #: ../../build/doc/quickstart/geonetwork_quickstart.rst:162
 msgid "Tools for using the Map are arranged in two groups in the right-hand side of the map. The top group looks like this:"

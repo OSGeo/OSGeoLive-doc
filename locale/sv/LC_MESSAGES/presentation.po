@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:44-0600\n"
-"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"PO-Revision-Date: 2025-06-13 19:39+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "presentation/sv/>\n"
@@ -853,7 +853,7 @@ msgstr "Marble"
 #: ../../build/presentation/revealjs/presentation.rst:833
 #: ../../build/presentation/revealjs/presentation.rst:856
 msgid "iD editor"
-msgstr "iD-redaktör"
+msgstr "iD-redigerare"
 
 #: ../../build/presentation/revealjs/presentation.rst:833
 #: ../../build/presentation/revealjs/presentation.rst:869
