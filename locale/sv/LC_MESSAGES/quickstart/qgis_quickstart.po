@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-21 20:28+0000\n"
-"PO-Revision-Date: 2025-06-04 09:45+0000\n"
+"PO-Revision-Date: 2025-06-13 19:39+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "qgis_quickstart/sv/>\n"
@@ -74,7 +74,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:60
 msgid "[4] Layer Panel: Controls the map layers, their order, and visibility."
-msgstr "[4] Skiktpanel: Styr kartlagren, deras ordning och synlighet."
+msgstr "[4] Lagerpanel: Styr kartlagren, deras ordning och synlighet."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:61
 msgid "[5] Status Bar: General information about the map and access to a universal search bar."
@@ -126,7 +126,7 @@ msgstr "Lägg till vektorlager i QGIS-webbläsaren"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:83
 msgid "Once the layer has been dragged onto the map frame, you will see a layer showing countries."
-msgstr "När skiktet har dragits till kartbilden visas ett skikt med länder."
+msgstr "När lagret har dragits till kartbilden visas ett lager med länder."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:None
 msgid "QGIS vector layer"
@@ -147,12 +147,12 @@ msgstr "Lägg till rasterlager i QGIS-webbläsaren"
 #: ../../build/doc/quickstart/qgis_quickstart.rst:101
 msgid "Once the layer has been dragged onto the map frame, you will see a raster layer showing land cover and bathymetry."
 msgstr ""
-"När skiktet har dragits till kartbilden visas ett rasterskikt som visar "
+"När lagret har dragits till kartbilden visas ett rasterlager som visar "
 "marktäcke och batymetri."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:None
 msgid "QGIS raster layer"
-msgstr "QGIS rasterskikt"
+msgstr "QGIS rasterlager"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:108
 msgid "Now that we have added some content to our project we can save this project so that we can come back to it at a later time."
@@ -282,13 +282,12 @@ msgstr "Klicka på kryssrutan bredvid \"Water\"-lagret för att stänga av lagre
 msgid "Notice how the map frame has been updated to reflect the changes in the layer list. We can now see the 'ne_10m_populated_places' layer as points, but can no longer see the rivers and lakes which are within the 'Waters' layer."
 msgstr ""
 "Lägg märke till hur kartramen har uppdaterats för att återspegla ändringarna "
-"i skiktlistan. Vi kan nu se skiktet \"ne_10m_populated_places\" som punkter, "
-"men vi kan inte längre se floderna och sjöarna som finns i skiktet \"Waters\""
-"."
+"i lagerlistan. Vi kan nu se lagret \"ne_10m_populated_places\" som punkter, "
+"men vi kan inte längre se floderna och sjöarna som finns i lagret \"Waters\"."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:None
 msgid "QGIS result of layer visibility changes"
-msgstr "QGIS-resultat av ändringar i skiktens synlighet"
+msgstr "QGIS-resultat av ändringar i lagerens synlighet"
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:181
 msgid "In addition to controlling layer visibility, we can also change the order in which layers are drawn in the layer panel. This is done by selecting a layer in the layer panel and dragging it up or down the list. The order that the layers appear in the layer list is the order which they will draw on in the map frame."
@@ -320,7 +319,7 @@ msgstr "QGIS ändrade ordningen på lagren"
 #: ../../build/doc/quickstart/qgis_quickstart.rst:196
 msgid "Try moving the 'HYP_50M_SR_W' layer to the bottom of the layer list. This would be a more appropriate position for a map layer like this."
 msgstr ""
-"Försök flytta skiktet \"HYP_50M_SR_W\" till botten av skiktlistan. Detta "
+"Försök flytta lagret \"HYP_50M_SR_W\" till botten av lagerlistan. Detta "
 "skulle vara en mer lämplig position för ett kartlager som detta."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:200
@@ -358,7 +357,7 @@ msgstr ""
 #: ../../build/doc/quickstart/qgis_quickstart.rst:212
 msgid "[5] Zoom to layer: Changes the map extent to fit the extent of the layer highlighted in the layer panel."
 msgstr ""
-"[5] Zooma till skikt: Ändrar kartans omfattning så att den passar "
+"[5] Zooma till lager: Ändrar kartans omfattning så att den passar "
 "omfattningen av det lager som markeras i lagerpanelen."
 
 #: ../../build/doc/quickstart/qgis_quickstart.rst:214
@@ -427,7 +426,7 @@ msgstr "Styla dina lager"
 #: ../../build/doc/quickstart/qgis_quickstart.rst:238
 msgid "Layers can be styled in QGIS using the style dock. The style dock is not visible by default, but easily accessible via a button at the top of the layer panel as shown below."
 msgstr ""
-"Skikt kan utformas i QGIS med hjälp av stildockan. Stildockan är inte synlig "
+"Lager kan utformas i QGIS med hjälp av stildockan. Stildockan är inte synlig "
 "som standard, men är lättåtkomlig via en knapp högst upp i lagerpanelen "
 "enligt bilden nedan."
 
@@ -559,8 +558,8 @@ msgstr "Hur vill du gå vidare?"
 #: ../../build/doc/quickstart/qgis_quickstart.rst:311
 msgid "To learn more about QGIS, a good starting point is the `Documentation page`_ on the QGIS homepage and `A Gentle Introduction to GIS`_ eBook."
 msgstr ""
-"För att lära dig mer om QGIS är en bra utgångspunkt `Dokumentationssidan`_ "
-"på QGIS hemsida och `En mild introduktion till GIS`_ eBook."
+"För att lära dig mer om QGIS är en bra utgångspunkt `Documentation page`_ på "
+"QGIS hemsida och `A Gentle Introduction to GIS`_ eBook."
 
 #: ../../build/doc/<rst_epilog>:13
 msgid "vmdk"

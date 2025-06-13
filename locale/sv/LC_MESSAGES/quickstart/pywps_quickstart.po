@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"PO-Revision-Date: 2025-06-13 19:39+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "pywps_quickstart/sv/>\n"
@@ -76,7 +76,7 @@ msgstr "`sudo apt install python-flask`"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:51
 msgid "Then clone the repository from GitHub:"
-msgstr "Klona sedan förvaret från GitHub:"
+msgstr "Klona sedan förrådet från GitHub:"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:53
 msgid "`git clone https://github.com/geopython/pywps-flask.git`"
@@ -85,8 +85,8 @@ msgstr "`git clone https://github.com/geopython/pywps-flask.git`"
 #: ../../build/doc/quickstart/pywps_quickstart.rst:55
 msgid "Now move into the repository folder and edit the configuration file. This can be done with a program like `nano`:"
 msgstr ""
-"Gå nu till mappen Repository och redigera konfigurationsfilen. Detta kan "
-"göras med ett program som `nano`:"
+"Gå nu till förrådsmappen och redigera konfigurationsfilen. Detta kan göras "
+"med ett program som `nano`:"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:58
 msgid "`nano pywps.cfg`"
@@ -173,8 +173,8 @@ msgstr ""
 msgid "1. Import the necessary assets and create a class inheriting from the PyWPS `Process` class. In the constructor create the necessary objects for inputs and outputs:"
 msgstr ""
 "1. Importera de nödvändiga tillgångarna och skapa en klass som ärver från "
-"PyWPS `Process`-klassen. I konstruktören skapar du de nödvändiga objekten "
-"för in- och utgångar:"
+"PyWPS `Process`-klassen. I constructor skapar du de nödvändiga objekten för "
+"in- och utdata:"
 
 #: ../../build/doc/quickstart/pywps_quickstart.rst:123
 msgid "Invoke the parent constructor, passing on the metadata of the process:"

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-21 20:28+0000\n"
-"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"PO-Revision-Date: 2025-06-13 19:39+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "gvsig_quickstart/sv/>\n"
@@ -235,8 +235,8 @@ msgstr "Gör en polygon transparent"
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:146
 msgid "Select the ``ne_10m_admin_1_states_provinces.shp`` layer using the left-mouse-button and click again with the right-mouse-button."
 msgstr ""
-"Välj skiktet ``ne_10m_admin_1_states_provinces.shp`` med vänster musknapp "
-"och klicka igen med höger musknapp."
+"Välj lagret ``ne_10m_admin_1_states_provinces.shp`` med vänster musknapp och "
+"klicka igen med höger musknapp."
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:148
 msgid "Select the :menuselection:`Properties` submenu."
@@ -339,7 +339,7 @@ msgstr "I fönstret Add layer klickar du på knappen :guilabel:`Add`."
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:204
 msgid "Select the ``HYP_50M_SR_W.tif`` layer."
-msgstr "Välj skiktet ``HYP_50M_SR_W.tif``."
+msgstr "Välj lagret ``HYP_50M_SR_W.tif``."
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:205
 msgid "Click on the :guilabel:`Open` button to return to the Add layer window."
@@ -667,7 +667,7 @@ msgstr "Lägg till ett WMTS-lager"
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:409
 msgid "WMTS is an evolution of WMS OGC standard based on tile management."
 msgstr ""
-"WMTS är en vidareutveckling av WMS OGC-standarden baserad på kakelhantering."
+"WMTS är en vidareutveckling av WMS OGC-standarden baserad på platthantering."
 
 #: ../../build/doc/quickstart/gvsig_quickstart.rst:412
 msgid "Select a server"
