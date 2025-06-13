@@ -3,26 +3,27 @@
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-08-17 15:05-0600\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2025-06-11 18:50+0000\n"
+"Last-Translator: Astrid Emde <astrid.emde@posteo.de>\n"
+"Language-Team: German <https://weblate.osgeo.org/projects/osgeolive/"
+"odc_overview/de/>\n"
 "Language: de\n"
-"Language-Team: de <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.11.0\n"
 
 #: ../../build/doc/overview/odc_overview.rst:16
 #: ../../build/doc/overview/odc_overview.rst:19
 msgid "Open Data Cube"
-msgstr ""
+msgstr "Open Data Cube"
 
 #: ../../build/doc/overview/odc_overview.rst:21
 msgid ""
@@ -141,4 +142,3 @@ msgstr ""
 #: ../../build/doc/<rst_epilog>
 msgid "OSGeo Community"
 msgstr ""
-
