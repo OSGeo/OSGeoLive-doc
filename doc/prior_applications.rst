@@ -6,7 +6,7 @@ Previously available applications
 
 
 .. csv-table::
-    :header:  "", "Name", "", "Last Available", "Description"
+    :header:  kind, Name, Quickstart, Last Available, Description
     :widths: 5, 15, 15, 10, 30
     :delim: %
 
