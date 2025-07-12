@@ -7,7 +7,7 @@ OSGeoLive
 
 Version: @OSGeoLiveDoc_VERSION_MAJOR@.0
 
-Released: December 2024
+Released: August 2025
 
 |
 
@@ -57,7 +57,7 @@ What is new in @OSGeoLiveDoc_VERSION_MAJOR@.0
 What is new in @OSGeoLiveDoc_VERSION_MAJOR@.0
 --------------------------------------------------------------------------------
 
-Updated to Lubuntu 22.04.2 LTS
+Updated to Lubuntu 24.04.2 LTS
 
 .. revealjs-break::
 
