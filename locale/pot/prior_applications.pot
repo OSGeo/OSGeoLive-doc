@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-11-18 17:21+0000\n"
+"POT-Creation-Date: 2025-07-14 20:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,7 +21,15 @@ msgid "Previously available applications"
 msgstr ""
 
 #: ../../build/doc/prior_applications.rst:1
+msgid "kind"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
 msgid "Name"
+msgstr ""
+
+#: ../../build/doc/prior_applications.rst:1
+msgid "Quickstart"
 msgstr ""
 
 #: ../../build/doc/prior_applications.rst:1

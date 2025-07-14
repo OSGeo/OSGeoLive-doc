@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2022, OSGeoLive
+# Copyright (C) 2025, OSGeoLive
 # This file is distributed under the same license as the OSGeoLive package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 15\n"
+"Project-Id-Version: OSGeoLive 17\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-23 16:57+0000\n"
+"POT-Creation-Date: 2025-07-14 20:08+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -25,7 +25,7 @@ msgid "Version: 17.0"
 msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:14
-msgid "Released: December 2024"
+msgid "Released: August 2025"
 msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:18
@@ -67,7 +67,7 @@ msgid "What is new in 17.0"
 msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:64
-msgid "Updated to Lubuntu 22.04.2 LTS"
+msgid "Updated to Lubuntu 24.04.2 LTS"
 msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:68
