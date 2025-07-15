@@ -40,7 +40,8 @@ Get involved
 Become a member of our team
 
 * Join our `Mailing List <https://lists.osgeo.org/mailman/listinfo/osgeolive>`__ and introduce yourself
-* Take part in our weekly `IRC <https://wiki.osgeo.org/wiki/IRC>`__ meetings (channel #osgeolive on Libera.Chat
+* Discuss with us on `Discourse <https://discourse.osgeo.org/c/osgeolive/7>`__ 
+* Take part in our meetings 
 
 * There are two ways you can help
 
@@ -76,11 +77,12 @@ Try out OSGeoLive
     :align: center
 
 
-Join us at the FOSS4G 2023 Community Sprint
+Join us at the FOSS4G Europe Community Sprint on Saturday/Sunday in Mostar
 --------------------------------------------------------------------------------
 
-* 01.-02. of July 2023
-* https://wiki.osgeo.org/wiki/FOSS4G_2023_Community_Sprint
+* 19.-20. of July 2025
+* https://2025.europe.foss4g.org/schedule/community-sprint/
+* Everyone is welcome!
 
 Sponsors
 --------------------------------------------------------------------------------

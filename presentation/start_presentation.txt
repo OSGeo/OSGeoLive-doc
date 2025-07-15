@@ -10,9 +10,9 @@ Version: @OSGeoLiveDoc_VERSION_MAJOR@.0
 Released: August 2025
 
 |
-
-* Press “s” for slide notes, ESC to zoom out, SPACE / arrow keys to navigate.
-* Pop-ups are blocked in some browsers due to security settings. Try Firefox or Safari.
+.. speaker notes
+   Press “s” for slide notes, ESC to zoom out, SPACE / arrow keys to navigate.
+   Pop-ups are blocked in some browsers due to security settings. Try Firefox or Safari.
 
 An Open Source Geospatial GNU/Linux Distribution
 ================================================================================
@@ -50,9 +50,9 @@ What is new in @OSGeoLiveDoc_VERSION_MAJOR@.0
 
 .. speaker note
   In OSGeoLive Version .@OSGeoLiveDoc_VERSION_MAJOR@.0 we've updated our core packages to the latest
-  stable, added new projects (ODC and QField), improved our documentation
+  stable. In version 16 we added new projects (ODC and QField), improved our documentation
   and translations. We've also updated many existing applications and moved to
-  the latest Lubuntu 22.04.2 Long Term Support release.
+  the latest Lubuntu 24.04.2 LTS Long Term Support release.
 
 What is new in @OSGeoLiveDoc_VERSION_MAJOR@.0
 --------------------------------------------------------------------------------
@@ -77,7 +77,7 @@ and many more...
 
 .. revealjs-break::
 
-New projects added: OpenDataCube and QField
+No new projects added in version 17. 
 
 .. revealjs-break::
 
@@ -89,7 +89,8 @@ Documentation updates
 
 .. revealjs-break::
 
-OSM data for Prizren
+* OSM data for Belém, Brasil on version 17 alpha3 https://2024.foss4g.org/
+* OSM data for Auckland, New Zealand on version 17 final https://2025.foss4g.org/
 
 .. revealjs-break::
 
