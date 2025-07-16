@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"PO-Revision-Date: 2025-06-16 19:00+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "ideditor_quickstart/sv/>\n"
@@ -21,13 +21,13 @@ msgstr ""
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:20
 msgid "iD editor Quickstart"
-msgstr "iD editor Snabbstart"
+msgstr "Snabbstart för iD-redigerare"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:22
 msgid "The iD editor is the de facto, browser-based OpenStreetMap editor. iD is fast and easy to use, and allows mapping from various data sources such as satellite and aerial imageries, GPS, Field Papers or Mapillary."
 msgstr ""
-"ID-editorn är de facto den webbläsarbaserade OpenStreetMap-editorn. iD är "
-"snabb och enkel att använda och möjliggör kartläggning från olika "
+"ID-redigeraren är de facto den webbläsarbaserade OpenStreetMap-redigeraren. "
+"iD är snabb och enkel att använda och möjliggör kartläggning från olika "
 "datakällor, t.ex. satellit- och flygbilder, GPS, Field Papers eller "
 "Mapillary."
 
@@ -45,11 +45,11 @@ msgstr "Innehåll"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:34
 msgid "Starting the iD Editor"
-msgstr "Starta iD Editor"
+msgstr "Starta iD-redigerare"
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:36
 msgid "The iD editor requires an active connection to the Internet."
-msgstr "ID editor kräver en aktiv anslutning till Internet."
+msgstr "ID-redigeraren kräver en aktiv anslutning till Internet."
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:38
 msgid "Open your Internet browser, and go to the OpenStreetMap website at https://www.openstreetmap.org."
@@ -71,8 +71,8 @@ msgstr ""
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:44
 msgid "Click on the small arrow next to **Edit**, then click **Edit with iD (in-browser editor)**."
 msgstr ""
-"Klicka på den lilla pilen bredvid **Edit** och sedan på **Edit with iD (in-"
-"browser editor)**."
+"Klicka på den lilla pilen bredvid **Redigera** och sedan på **Redigera med "
+"iD (inbäddad redigerare)**."
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:52
 msgid "[1] **Edit Feature Panel:** This panel shows tags from the object"
@@ -139,7 +139,7 @@ msgstr "image16"
 msgid "You also can **change the background layer** based on your desired tile provider (the default is Bing Aerial Imagery)."
 msgstr ""
 "Du kan också **ändra bakgrundslagret** baserat på önskad leverantör av "
-"kakelplattor (standard är Bing Aerial Imagery)."
+"plattor (standard är Bing Aerial Imagery)."
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:74
 msgid "You can add your own map tiles by clicking on **Custom**. For example,  if you want to **add a Field Paper** [1], click **Custom** then  click on the magnifying glass (search) icon to open the following window:"
@@ -168,7 +168,7 @@ msgstr ""
 msgid "To **display GPS tracks from your computer** (GPX format), drag and drop the GPX file into iD editor."
 msgstr ""
 "För att **visa GPS-spår från din dator** (GPX-format), dra och släpp GPX-"
-"filen till iD editor."
+"filen till iD-redigerare."
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:83
 msgid "To enable **OpenStreetMap GPS traces** click on the box. In the image below, public GPS traces are shown in various colors, indicating the direction of travel."
@@ -285,8 +285,8 @@ msgstr "image23"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:124
 msgid "A \"point\" created in the iD editor is actually a standalone \"node\" with a set of \"tags\" on it."
 msgstr ""
-"En \"punkt\" som skapas i iD-editorn är egentligen en fristående \"nod\" med "
-"en uppsättning \"taggar\" på."
+"En \"punkt\" som skapas i iD-redigeraren är egentligen en fristående \"nod\" "
+"med en uppsättning \"taggar\" på."
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:128
 msgid "Drawing lines"
@@ -415,8 +415,8 @@ msgstr "image32"
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:163
 msgid "A \"line\" created in the iD editor is actually a \"way\" with \"tags\" on it."
 msgstr ""
-"En \"linje\" som skapas i iD-editorn är egentligen en \"väg\" med \"taggar\" "
-"på."
+"En \"linje\" som skapas i iD-redigeraren är egentligen en \"väg\" med "
+"\"taggar\" på."
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:166
 msgid "A special note about **Deleting**: In general you should avoid deleting other people's mapping if it just needs improvement. You can delete your own mistakes, but you should try to *adjust* other people's mapped objects if they need changes. This preserves the history of the items in the OSM database and is respectful of fellow mappers. If you really feel something should be deleted, consider asking the original mapper or one of the OSM email lists about it first."
@@ -472,7 +472,8 @@ msgstr ""
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:190
 msgid "A \"polygon\" in the iD editor is actually a \"closed way\" with tags on it."
 msgstr ""
-"En \"polygon\" i iD-editorn är egentligen en \"sluten väg\" med taggar på."
+"En \"polygon\" i iD-redigeraren är egentligen en \"sluten väg\" med taggar "
+"på."
 
 #: ../../build/doc/quickstart/ideditor_quickstart.rst:193
 msgid "Drawing multipolygons"

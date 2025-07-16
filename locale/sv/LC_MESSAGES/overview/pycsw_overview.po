@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2025-06-04 09:45+0000\n"
+"PO-Revision-Date: 2025-06-13 19:39+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "pycsw_overview/sv/>\n"
@@ -146,7 +146,7 @@ msgstr "transaktionella förmågor (CSW-T)"
 
 #: ../../build/doc/overview/pycsw_overview.rst:55
 msgid "flexible repository configuration"
-msgstr "flexibel konfiguration av förvaret"
+msgstr "flexibel konfiguration av förrådet"
 
 #: ../../build/doc/overview/pycsw_overview.rst:56
 msgid "GeoNode connectivity"

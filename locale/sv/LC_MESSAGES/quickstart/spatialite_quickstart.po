@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-21 20:28+0000\n"
-"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"PO-Revision-Date: 2025-06-13 19:39+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "spatialite_quickstart/sv/>\n"
@@ -47,7 +47,7 @@ msgstr "Innehåll"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:39
 msgid "Start Spatialite and load a database"
-msgstr "Starta Spatialite och ladda en databas"
+msgstr "Starta Spatialite och läs in en databas"
 
 #: ../../build/doc/quickstart/spatialite_quickstart.rst:41
 msgid "Spatialite-gui provides a visual interface for viewing and maintaining a spatialite database. You can easily see the structure of the tables and data contents using point and click functions, many of which construct common SQL queries, or craft your own SQL queries."

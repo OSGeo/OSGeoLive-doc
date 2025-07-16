@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"PO-Revision-Date: 2025-06-13 19:39+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "leaflet_quickstart/sv/>\n"
@@ -119,16 +119,16 @@ msgstr ""
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:76
 msgid "Next we'll add a tile layer to our map. In this case we will be using the tile images provided by MapProxy on the live dvd. Note that using nicer background maps such as openstreetmap will result in a much better user experience."
 msgstr ""
-"Därefter lägger vi till ett kakelskikt på vår karta. I det här fallet kommer "
-"vi att använda de kakelbilder som tillhandahålls av MapProxy på live-dvd: n. "
+"Därefter lägger vi till ett plattlager på vår karta. I det här fallet kommer "
+"vi att använda de plattbilder som tillhandahålls av MapProxy på live-dvd: n. "
 "Observera att användning av trevligare bakgrundskartor som openstreetmap "
 "kommer att resultera i en mycket bättre användarupplevelse."
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:79
 msgid "Creating a tile layer usually involves setting the URL template for the tile images, the attribution text and the maximum zoom level of the layer:"
 msgstr ""
-"När du skapar ett kakelskikt måste du vanligtvis ange URL-mallen för "
-"kakelbilderna, attributtexten och den maximala zoomnivån för skiktet:"
+"När du skapar ett plattlager måste du vanligtvis ange URL-mallen för "
+"plattbilderna, attributtexten och den maximala zoomnivån för lagret:"
 
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:85
 msgid "If you have online access you may want to use a nicer tilemap as the background:"
@@ -157,7 +157,7 @@ msgstr "Markörer, cirklar och polygoner"
 #: ../../build/doc/quickstart/leaflet_quickstart.rst:98
 msgid "Besides tile layers, you can easily add other things to your map, including markers, polylines, polygons, circles and popups. Let's add a marker:"
 msgstr ""
-"Förutom kakelskikt kan du enkelt lägga till andra saker på din karta, "
+"Förutom plattlager kan du enkelt lägga till andra saker på din karta, "
 "inklusive markörer, polylinjer, polygoner, cirklar och popup-fönster. Låt "
 "oss lägga till en markör:"
 
