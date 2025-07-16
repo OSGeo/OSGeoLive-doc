@@ -16,8 +16,8 @@ msgstr ""
 "Project-Id-Version: sphinx-revealjs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-04-05 12:30-0600\n"
-"PO-Revision-Date: 2024-10-01 09:17+0000\n"
-"Last-Translator: Edouard Choinière <echoix@users.noreply.weblate.osgeo.org>\n"
+"PO-Revision-Date: 2025-07-16 02:01+0000\n"
+"Last-Translator: Edouard Choiniere <echoix@users.noreply.weblate.osgeo.org>\n"
 "Language-Team: French <https://weblate.osgeo.org/projects/osgeolive/"
 "presentation/fr/>\n"
 "Language: fr\n"
@@ -133,11 +133,11 @@ msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:88
 msgid "Download OSGeoLive ISO or VMDK (with even more software)"
-msgstr ""
+msgstr "Télécharger l’ISO ou VMDK OSGeoLive (avec encore plus de logiciels)"
 
 #: ../../build/presentation/revealjs/presentation.rst:92
 msgid "Documentation updates"
-msgstr ""
+msgstr "Mises à jour de la documentation"
 
 #: ../../build/presentation/revealjs/presentation.rst:96
 msgid "OSM data for Firenze"

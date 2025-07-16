@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2024-10-14 15:25+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-30 21:38+0000\n"
+"Last-Translator: Edouard Choiniere <echoix@users.noreply.weblate.osgeo.org>\n"
 "Language-Team: French <https://weblate.osgeo.org/projects/osgeolive/"
 "qgis_overview/fr/>\n"
 "Language: fr\n"
@@ -62,7 +62,7 @@ msgstr "Caractéristiques principales"
 
 #: ../../build/doc/overview/qgis_overview.rst:38
 msgid "Friendly graphical user interface:"
-msgstr "Interface utilisateur graphique conviviale:"
+msgstr "Interface utilisateur graphique conviviale :"
 
 #: ../../build/doc/overview/qgis_overview.rst:40
 msgid "identify/select features"
@@ -105,7 +105,7 @@ msgid ""
 "database tables: PostgreSQL/PostGIS, Oracle Spatial, MS SQL Spatial, "
 "SpatiaLite"
 msgstr ""
-"tables de base de données: PostgreSQL/PostGIS, Oracle Spatial, MS SQL "
+"tables de base de données : PostgreSQL/PostGIS, Oracle Spatial, MS SQL "
 "Spatial, SpatiaLite"
 
 #: ../../build/doc/overview/qgis_overview.rst:52
@@ -113,7 +113,7 @@ msgid ""
 "most vector formats: including ESRI shapefiles, MapInfo, SDTS and GML, "
 "OpenStreetMap vectors"
 msgstr ""
-"la plupart des formats vecteur: incluant les fichiers shapefile ESRI, "
+"la plupart des formats vecteur : incluant les fichiers shapefile ESRI, "
 "MapInfo, SDTS et GML, vecteurs OpenStreetMap"
 
 #: ../../build/doc/overview/qgis_overview.rst:53
@@ -140,7 +140,7 @@ msgstr "Support du rendu 2.5D"
 
 #: ../../build/doc/overview/qgis_overview.rst:58
 msgid "Create, edit and export spatial data using:"
-msgstr "Créé, édite et exporte des données spatiales en utilisant:"
+msgstr "Créé, modifie et exporte des données spatiales en utilisant :"
 
 #: ../../build/doc/overview/qgis_overview.rst:60
 msgid "digitizing tools for GRASS and shapefile formats"
@@ -225,7 +225,7 @@ msgstr "**Site Internet:** https://www.qgis.org/fr/site/"
 
 #: ../../build/doc/overview/qgis_overview.rst:87
 msgid "**Licence:** GNU General Public License (GPL) version 2"
-msgstr "**Licence:** GNU General Public License (GPL) version 2"
+msgstr "**Licence :** GNU General Public License (GPL) version 2"
 
 #: ../../build/doc/overview/qgis_overview.rst:89
 msgid "**Software Version:** |version-qgis|"
