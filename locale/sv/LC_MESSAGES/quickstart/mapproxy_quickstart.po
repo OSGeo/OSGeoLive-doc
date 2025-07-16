@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-21 20:28+0000\n"
-"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"PO-Revision-Date: 2025-06-13 19:39+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "mapproxy_quickstart/sv/>\n"
@@ -26,9 +26,9 @@ msgstr "MapProxy Snabbstart"
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:24
 msgid "MapProxy is *the* swiss army knife for all WMS and tile services. It caches, accelerates and transforms data from existing map services and serves any desktop or web GIS client."
 msgstr ""
-"MapProxy är *den* schweiziska armékniven för alla WMS- och kakeltjänster. "
-"Den cachelagrar, accelererar och transformerar data från befintliga "
-"karttjänster och betjänar alla GIS-klienter på skrivbordet eller webben."
+"MapProxy är *den* schweiziska armékniven för alla WMS- och plattjänster. Den "
+"cachelagrar, accelererar och transformerar data från befintliga karttjänster "
+"och betjänar alla GIS-klienter på skrivbordet eller webben."
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:None
 msgid "MapProxy diagram"
@@ -68,7 +68,7 @@ msgstr "Öppna Firefox och navigera till `<http://localhost:8011/demo>`_"
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:45
 msgid "The MapProxy demo page contains a rudimentary WMS and tile client for each configured layer. You can't select the projection for WMS layers for example, but it is enough to quickly verify that your installation works."
 msgstr ""
-"MapProxy-demosidan innehåller en rudimentär WMS- och kakelklient för varje "
+"MapProxy-demosidan innehåller en rudimentär WMS- och plattklient för varje "
 "konfigurerat lager. Du kan t.ex. inte välja projektion för WMS-lager, men "
 "det räcker för att snabbt verifiera att din installation fungerar."
 
@@ -115,7 +115,7 @@ msgstr "**mapnik_tile**:"
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:69
 msgid "The world population rendered by Mapnik as tile layer."
-msgstr "Världens befolkning återgiven av Mapnik som kakelskikt."
+msgstr "Världens befolkning återgiven av Mapnik som plattlager."
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:73
 msgid "**geoserver**:"
@@ -136,11 +136,11 @@ msgstr "**mapnik_geoserver**:"
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:76
 msgid "This layer demonstrates the ability to combine multiple sources into one layer. It combines the world population from Mapnik with the US population from GeoServer. The ``GetFeatureInfo`` support for the US population is still available. You need to start GeoServer with |osgeolive-appmenupath-geoserver| before accessing this layer."
 msgstr ""
-"Detta skikt visar möjligheten att kombinera flera källor i ett skikt. Det "
+"Detta lager visar möjligheten att kombinera flera källor i ett lager. Det "
 "kombinerar världens befolkning från Mapnik med USA:s befolkning från "
 "GeoServer. ``GetFeatureInfo``-stödet för den amerikanska befolkningen är "
 "fortfarande tillgängligt. Du måste starta GeoServer med |osgeolive-"
-"appmenupath-geoserver| innan du får tillgång till det här skiktet."
+"appmenupath-geoserver| innan du får tillgång till det här lagret."
 
 #: ../../build/doc/quickstart/mapproxy_quickstart.rst:81
 msgid "**mapserver**:"

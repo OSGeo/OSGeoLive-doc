@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"PO-Revision-Date: 2025-06-16 19:00+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "josm_quickstart/sv/>\n"
@@ -26,8 +26,8 @@ msgstr "Snabbstart för JOSM"
 #: ../../build/doc/quickstart/josm_quickstart.rst:22
 msgid "JOSM is a feature rich, extensible, offline desktop editor for OpenStreetMap (OSM) data, written in Java."
 msgstr ""
-"JOSM är en funktionsrik, utbyggbar, offline desktop editor för OpenStreetMap "
-"(OSM) data, skriven i Java."
+"JOSM är en funktionsrik, utbyggbar, offline skrivbordsredigerare för "
+"OpenStreetMap (OSM) data, skriven i Java."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:24
 msgid "It supports loading stand-alone GPX tracks and GPX track data as well as editing existing nodes (points), ways (lines), metadata tags (name/value information) and relations (ordered sequence of points and lines) from the OSM database. GPX tracks, are usually downloaded in advance from a GPS receiver or from other sources."
@@ -42,7 +42,7 @@ msgstr ""
 msgid "This quickstart covers basic usage of the Java OpenStreetMap editor."
 msgstr ""
 "Denna snabbstart täcker grundläggande användning av Java OpenStreetMap-"
-"editorn."
+"redigeraren."
 
 #: ../../build/doc/quickstart/josm_quickstart.rst:32
 msgid "Start JOSM"
