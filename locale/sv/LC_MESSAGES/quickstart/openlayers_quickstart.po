@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"PO-Revision-Date: 2025-06-13 19:39+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "openlayers_quickstart/sv/>\n"
@@ -76,7 +76,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:44
 msgid "**Layers**"
-msgstr "**Skikt**"
+msgstr "**Lager**"
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:44
 msgid "*Layers* can be added to the map in a stacked order. Layers can be either *raster layers* (images), or *vector layers* (points/lines/polygons)."
@@ -92,9 +92,10 @@ msgstr "**Källa**"
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:47
 msgid "Each layer has a *source*, which knows how to load the layer content. In the case of *vector layers*, its source reads vector data using a *format* class (for example GeoJSON or KML) and provides the layer with a set of *features*."
 msgstr ""
-"Varje skikt har en *källa* som vet hur skiktets innehåll ska laddas. När det "
-"gäller *vektorlager* läser källan vektordata med hjälp av en *format*-klass ("
-"t.ex. GeoJSON eller KML) och förser lagret med en uppsättning *funktioner*."
+"Varje lager har en *källa* som vet hur lagrets innehåll ska läses in. När "
+"det gäller *vektorlager* läser källan vektordata med hjälp av en *format*-"
+"klass (t.ex. GeoJSON eller KML) och förser lagret med en uppsättning "
+"*funktioner*."
 
 #: ../../build/doc/quickstart/openlayers_quickstart.rst:55
 msgid "**Features**"

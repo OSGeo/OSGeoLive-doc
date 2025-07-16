@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"PO-Revision-Date: 2025-06-16 19:00+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "josm_overview/sv/>\n"
@@ -28,15 +28,15 @@ msgstr "JOSM"
 
 #: ../../build/doc/overview/josm_overview.rst:18
 msgid "Desktop Editor for OpenStreetMap data"
-msgstr "Skrivbordseditor för OpenStreetMap-data"
+msgstr "Skrivbordredigerare för OpenStreetMap-data"
 
 #: ../../build/doc/overview/josm_overview.rst:20
 msgid ""
 "JOSM is a feature rich, extensible, offline desktop editor for OpenStreetMap"
 " (OSM) data, written in Java."
 msgstr ""
-"JOSM är en funktionsrik, utbyggbar, offline desktop editor för OpenStreetMap "
-"(OSM) data, skriven i Java."
+"JOSM är en funktionsrik, utbyggbar, offline skrivbordsredigerare för "
+"OpenStreetMap (OSM) data, skriven i Java."
 
 #: ../../build/doc/overview/josm_overview.rst:22
 msgid ""

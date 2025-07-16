@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"PO-Revision-Date: 2025-06-13 19:39+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "pgrouting_quickstart/sv/>\n"
@@ -82,7 +82,7 @@ msgstr "Kontrollera den installerade versionen"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:86
 msgid "Output shows"
-msgstr "Utgången visar"
+msgstr "Utdata visar"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:92
 msgid "Load the data from osm file:"
@@ -166,7 +166,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:314
 msgid "Output is:"
-msgstr "Utgången är:"
+msgstr "Utdata är:"
 
 #: ../../build/doc/quickstart/pgrouting_quickstart.rst:336
 msgid "The costs are the same as in the first query"

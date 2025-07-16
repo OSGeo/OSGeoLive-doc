@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-21 20:28+0000\n"
-"PO-Revision-Date: 2025-06-04 09:45+0000\n"
+"PO-Revision-Date: 2025-06-13 19:39+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "postgis_quickstart/sv/>\n"
@@ -748,7 +748,7 @@ msgstr "Läs mer om ``ogr_fdw``:"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:664
 msgid "Repository: https://github.com/pramsey/pgsql-ogr-fdw"
-msgstr "Förvaringsplats: https://github.com/pramsey/pgsql-ogr-fdw"
+msgstr "Förråd: https://github.com/pramsey/pgsql-ogr-fdw"
 
 #: ../../build/doc/quickstart/postgis_quickstart.rst:665
 msgid "New and improved: http://blog.cleverelephant.ca/2016/04/ogr-fdw-update.html"

@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-21 20:28+0000\n"
-"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"PO-Revision-Date: 2025-06-13 19:39+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "geoserver_quickstart/sv/>\n"
@@ -368,7 +368,7 @@ msgstr ""
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:256
 msgid "Click on the layer (e.g. *ne_10m_land*), then select the :guilabel:`Publishing` tab."
 msgstr ""
-"Klicka på skiktet (t.ex. *ne_10m_land*) och välj sedan fliken "
+"Klicka på lagret (t.ex. *ne_10m_land*) och välj sedan fliken "
 ":guilabel:`Publishing`."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:258
@@ -396,7 +396,7 @@ msgstr "Klienter för WMS-lager"
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:291
 msgid "The |WMS| layers you are serving from |GS| can be used with a variety of clients on this OSGeoLive distribution, including:"
 msgstr ""
-"De |WMS|-skikt som du serverar från |GS| kan användas med en mängd olika "
+"De |WMS|-lager som du serverar från |GS| kan användas med en mängd olika "
 "klienter på den här OSGeoLive-distributionen, inklusive:"
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:294
@@ -445,7 +445,7 @@ msgstr ""
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:314
 msgid "Press \"Save\", \"Publish\" the \"O3\" layer."
-msgstr "Tryck på \"Spara\", \"Publicera\" \"O3\"-skiktet."
+msgstr "Tryck på \"Spara\", \"Publicera\" \"O3\"-lagret."
 
 #: ../../build/doc/quickstart/geoserver_quickstart.rst:315
 msgid "Scroll down to the bottom of the \"Data\" tab and press \"Save\" again."
