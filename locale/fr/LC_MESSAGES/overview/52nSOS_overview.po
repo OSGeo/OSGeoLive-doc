@@ -13,8 +13,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 15.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-01-17 21:23+0000\n"
-"PO-Revision-Date: 2024-10-14 15:25+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-30 22:01+0000\n"
+"Last-Translator: Edouard Choiniere <echoix@users.noreply.weblate.osgeo.org>\n"
 "Language-Team: French <https://weblate.osgeo.org/projects/osgeolive/"
 "52nsos_overview/fr/>\n"
 "Language: fr\n"
@@ -366,7 +366,7 @@ msgstr "**Site Internet:** https://52north.org/software/software-projects/sos"
 
 #: ../../build/doc/overview/52nSOS_overview.rst:137
 msgid "**Licence:** GNU General Public License (GPL) version 2"
-msgstr "**Licence:** GNU General Public License (GPL) version 2"
+msgstr "**Licence :** GNU General Public License (GPL) version 2"
 
 #: ../../build/doc/overview/52nSOS_overview.rst:139
 msgid "**Software Version:** |version-52nSOS|"
@@ -374,7 +374,7 @@ msgstr "**Version du logiciel:** |version-52nSOS|"
 
 #: ../../build/doc/overview/52nSOS_overview.rst:141
 msgid "**Supported Platforms:** Windows, Linux, Mac"
-msgstr "**Plates-formes supportées:** Windows, Linux, Mac"
+msgstr "**Plateformes supportées :** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/52nSOS_overview.rst:143
 msgid "**Supported Java Versions:** 7+, (bundle version: 8+)"
