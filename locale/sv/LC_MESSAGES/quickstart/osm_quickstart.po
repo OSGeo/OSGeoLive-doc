@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"PO-Revision-Date: 2025-06-16 19:00+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "osm_quickstart/sv/>\n"
@@ -58,9 +58,9 @@ msgstr "iD"
 #: ../../build/doc/quickstart/osm_quickstart.rst:48
 msgid "**iD** is the default on-line editor for OpenStreetMap (OSM). iD is fast and easy to use, and allows mapping from various data sources such as ground survey, satellite and aerial imageries, GPS traces or street-level imagery."
 msgstr ""
-"**iD** är standard online-editor för OpenStreetMap (OSM). iD är snabb och "
-"enkel att använda och möjliggör kartläggning från olika datakällor, t.ex. "
-"markundersökningar, satellit- och flygbilder, GPS-spår eller bilder på "
+"**iD** är standard online-redigerare för OpenStreetMap (OSM). iD är snabb "
+"och enkel att använda och möjliggör kartläggning från olika datakällor, "
+"t.ex. markundersökningar, satellit- och flygbilder, GPS-spår eller bilder på "
 "gatunivå."
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:52
@@ -82,11 +82,11 @@ msgstr "JOSM"
 #: ../../build/doc/quickstart/osm_quickstart.rst:60
 msgid "**JOSM** (Java OpenStreetMap Editor) is an advanced editor for OpenStreetMap (OSM) written in Java. It is more powerful and complex than iD, can be used for bulk editing, off-line or on an unreliable Internet connection. It can be extended with plugins, custom presets and more extensions."
 msgstr ""
-"**JOSM** (Java OpenStreetMap Editor) är en avancerad editor för "
+"**JOSM** (Java OpenStreetMap Editor) är en avancerad redigerare för "
 "OpenStreetMap (OSM) skriven i Java. Den är kraftfullare och mer komplex än "
 "iD, kan användas för massredigering, offline eller på en opålitlig "
-"internetanslutning. Den kan utökas med plugins, anpassade förinställningar "
-"och fler tillägg."
+"internetanslutning. Den kan utökas med tillägg, anpassade förinställningar "
+"och ytterligare tillägg."
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:66
 msgid "Homepage: https://josm.openstreetmap.de"
@@ -262,8 +262,8 @@ msgstr ""
 #: ../../build/doc/quickstart/osm_quickstart.rst:142
 msgid "You also find many OSM Plugins for QGIS. Search for `OSM` in the plugin repository."
 msgstr ""
-"Du hittar också många OSM-plugins för QGIS. Sök efter `OSM` i plugin-"
-"förvaret."
+"Du hittar också många OSM-tillägg för QGIS. Sök efter `OSM` i "
+"tilläggsförrådet."
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:146
 msgid "Using OSM as basemap in QGIS"
@@ -276,7 +276,7 @@ msgstr "XYZ Plattor"
 #: ../../build/doc/quickstart/osm_quickstart.rst:151
 msgid "By default, QGIS comes with OpenStreetMap basemap layer and is located in the `Browser Panel` under `XYZ Tiles`."
 msgstr ""
-"Som standard levereras QGIS med OpenStreetMap baskartskikt och det finns i `"
+"Som standard levereras QGIS med OpenStreetMap baskartlager och det finns i `"
 "Browser Panel` under `XYZ Tiles`."
 
 #: ../../build/doc/quickstart/osm_quickstart.rst:157
