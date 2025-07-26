@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"PO-Revision-Date: 2025-06-13 19:39+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "osm_overview/sv/>\n"
@@ -71,7 +71,7 @@ msgstr "Globalt dataset med massiv insamling från massor av människor"
 
 #: ../../build/doc/overview/osm_overview.rst:42
 msgid "A number of editors to choose from"
-msgstr "Ett antal redaktörer att välja mellan"
+msgstr "Ett antal redigerare att välja mellan"
 
 #: ../../build/doc/overview/osm_overview.rst:44
 msgid "A number of renderers to choose from (including custom and online)"

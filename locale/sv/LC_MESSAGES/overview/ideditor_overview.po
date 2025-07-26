@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2025-06-02 14:41+0000\n"
+"PO-Revision-Date: 2025-06-16 19:00+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "ideditor_overview/sv/>\n"
@@ -24,11 +24,11 @@ msgstr ""
 
 #: ../../build/doc/overview/ideditor_overview.rst:14
 msgid "iD editor"
-msgstr "iD-redaktör"
+msgstr "iD-redigerare"
 
 #: ../../build/doc/overview/ideditor_overview.rst:17
 msgid "Browser based editor for OpenStreetMap"
-msgstr "Webbläsarbaserad editor för OpenStreetMap"
+msgstr "Webbläsarbaserad redigerare för OpenStreetMap"
 
 #: ../../build/doc/overview/ideditor_overview.rst:19
 msgid ""
@@ -37,8 +37,8 @@ msgid ""
 "allows mapping from various data sources such as satellite and aerial "
 "imageries, GPS, Field Papers or Mapillary."
 msgstr ""
-"ID-editorn är de facto den webbläsarbaserade OpenStreetMap <https://www."
-"openstreetmap.org>`_-editorn. iD är snabb och enkel att använda och "
+"ID-redigerare är de facto den webbläsarbaserade OpenStreetMap <https://www."
+"openstreetmap.org>`_-redigeraren. iD är snabb och enkel att använda och "
 "möjliggör kartläggning från olika datakällor, t.ex. satellit- och "
 "flygbilder, GPS, Field Papers eller Mapillary."
 

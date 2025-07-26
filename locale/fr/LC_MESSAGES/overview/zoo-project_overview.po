@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2024-10-14 14:30+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-30 22:01+0000\n"
+"Last-Translator: Edouard Choiniere <echoix@users.noreply.weblate.osgeo.org>\n"
 "Language-Team: French <https://weblate.osgeo.org/projects/osgeolive/"
 "zoo-project_overview/fr/>\n"
 "Language: fr\n"
@@ -204,7 +204,7 @@ msgstr "**Version du logiciel:** |version-zoo-project|"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:90
 msgid "**Supported Platforms:** Windows, Linux, Mac"
-msgstr "**Plates-formes supportées:** Windows, Linux, Mac"
+msgstr "**Plateformes supportées :** Windows, Linux, Mac"
 
 #: ../../build/doc/overview/zoo-project_overview.rst:92
 msgid ""

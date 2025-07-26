@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-15 20:42-0600\n"
-"PO-Revision-Date: 2025-06-04 09:45+0000\n"
+"PO-Revision-Date: 2025-06-13 19:39+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://weblate.osgeo.org/projects/osgeolive/"
 "mapbender_overview/sv/>\n"
@@ -125,7 +125,7 @@ msgstr "ordna uppladdad WMS för överlagring"
 
 #: ../../build/doc/overview/mapbender_overview.rst:47
 msgid "editing layer visibility"
-msgstr "redigering av skiktets synlighet"
+msgstr "redigering av lagrets synlighet"
 
 #: ../../build/doc/overview/mapbender_overview.rst:48
 msgid "order"

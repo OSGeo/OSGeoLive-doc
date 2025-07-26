@@ -12,8 +12,8 @@ msgstr ""
 "Project-Id-Version: OSGeoLive 14.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-10-18 12:48-0500\n"
-"PO-Revision-Date: 2024-10-14 15:25+0000\n"
-"Last-Translator: Celia Virginia Vergara Castillo <vicky@erosion.dev>\n"
+"PO-Revision-Date: 2025-06-30 21:38+0000\n"
+"Last-Translator: Edouard Choiniere <echoix@users.noreply.weblate.osgeo.org>\n"
 "Language-Team: French <https://weblate.osgeo.org/projects/osgeolive/"
 "gpsprune_overview/fr/>\n"
 "Language: fr\n"
@@ -163,7 +163,7 @@ msgstr "**Site web:** https://activityworkshop.net/software/gpsprune"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:60
 msgid "**Licence:** GNU General Public License (GPL) version 2"
-msgstr "**Licence:** GNU General Public License (GPL) version 2"
+msgstr "**Licence :** GNU General Public License (GPL) version 2"
 
 #: ../../build/doc/overview/gpsprune_overview.rst:62
 msgid "**Software Version:** |version-gpsprune|"
