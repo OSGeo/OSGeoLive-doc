@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 17\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-15 23:27+0000\n"
+"POT-Creation-Date: 2025-07-26 13:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -67,11 +67,11 @@ msgid "Updated core packages based on `DebianGIS <href=\"https://wiki.debian.org
 msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:72
-msgid "QGIS 3.40.6,"
+msgid "QGIS 3.40.9,"
 msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:73
-msgid "GDAL 3.10.3,"
+msgid "GDAL 3.11.3,"
 msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:74
@@ -79,7 +79,7 @@ msgid "PROJ 9.4.1,"
 msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:75
-msgid "PostGIS 3.5.2,"
+msgid "PostGIS 3.5.3,"
 msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:76
