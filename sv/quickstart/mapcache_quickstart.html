@@ -65,8 +65,8 @@
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_project.png" class="align-right" src="../../_images/OSGeo_project.png" /></a>
 <section id="mapcache-quickstart">
 <h1>MapCache Snabbstart<a class="headerlink" href="#mapcache-quickstart" title="Permalink till denna rubrik">¶</a></h1>
-<p>MapCache är en tile-server som snabbar upp åtkomsten till WMS-skikt. Den kan köras som en CGI-applikation under många olika webbservrar eller som en Apache-modul. OSGeoLive har MapCache installerat och konfigurerat som en Apache-modul.</p>
-<p>Den här snabbstarten visar hur du lägger till ett nytt WMS-lager i en MapCache-konfiguration, visar kakeltjänsten i en OpenLayers-webbkarta och seedar en kakelcache från kommandoraden.</p>
+<p>MapCache är en tile-server som snabbar upp åtkomsten till WMS-lager. Den kan köras som en CGI-applikation under många olika webbservrar eller som en Apache-modul. OSGeoLive har MapCache installerat och konfigurerat som en Apache-modul.</p>
+<p>Den här snabbstarten visar hur du lägger till ett nytt WMS-lager i en MapCache-konfiguration, visar plattjänsten i en OpenLayers-webbkarta och seedar en plattcache från kommandoraden.</p>
 <div class="contents local topic" id="contents">
 <p class="topic-title">Innehåll</p>
 <ul class="simple">
@@ -92,7 +92,7 @@
 <span class="nt">&lt;/forwarding_rule&gt;</span>
 </pre></div>
 </div>
-<p>Ett av de skiktnamn som anges i WMS Capabilities-dokumentet är <code class="docutils literal notranslate"><span class="pre">dlgstln2</span></code> - strömmar för Itasca County. Vi kommer att lägga till detta som en ny tileset till MapCache-tjänsten. Först lägger vi till ett <code class="docutils literal notranslate"><span class="pre">&lt;source&gt;</span></code> block - det här är konfigurationen för att hämta data från WMS-servern. Lägg till följande XML-block efter det befintliga <code class="docutils literal notranslate"><span class="pre">.&lt;source</span> <span class="pre">name=&quot;lake_source&quot;</span> <span class="pre">type=&quot;wms&quot;&gt;.&lt;/source&gt;.</span></code>-blocket som används för sjöarna till <code class="docutils literal notranslate"><span class="pre">mapcache-quickstart.xml</span></code>:</p>
+<p>Ett av de lagernamn som anges i WMS Capabilities-dokumentet är <code class="docutils literal notranslate"><span class="pre">dlgstln2</span></code> - strömmar för Itasca County. Vi kommer att lägga till detta som en ny tileset till MapCache-tjänsten. Först lägger vi till ett <code class="docutils literal notranslate"><span class="pre">&lt;source&gt;</span></code> block - det här är konfigurationen för att hämta data från WMS-servern. Lägg till följande XML-block efter det befintliga <code class="docutils literal notranslate"><span class="pre">.&lt;source</span> <span class="pre">name=&quot;lake_source&quot;</span> <span class="pre">type=&quot;wms&quot;&gt;.&lt;/source&gt;.</span></code>-blocket som används för sjöarna till <code class="docutils literal notranslate"><span class="pre">mapcache-quickstart.xml</span></code>:</p>
 <div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;source</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;streams_source&quot;</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;wms&quot;</span><span class="nt">&gt;</span>
 <span class="w">  </span><span class="nt">&lt;getmap&gt;</span>
 <span class="w">    </span><span class="nt">&lt;params&gt;</span>
@@ -127,7 +127,7 @@ tiles. Place the following block after the existing <code class="docutils litera
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>apachectl<span class="w"> </span>-k<span class="w"> </span>graceful
 </pre></div>
 </div>
-<p>Du bör nu kunna komma åt en kakelplatta med följande URL: <a class="reference external" href="http://localhost/itasca/gmaps/streams&#64;GoogleMapsCompatible/12/987/1433.png">http://localhost/itasca/gmaps/streams&#64;GoogleMapsCompatible/12/987/1433.png</a></p>
+<p>Du bör nu kunna komma åt en platta med följande URL: <a class="reference external" href="http://localhost/itasca/gmaps/streams&#64;GoogleMapsCompatible/12/987/1433.png">http://localhost/itasca/gmaps/streams&#64;GoogleMapsCompatible/12/987/1433.png</a></p>
 <img alt="../../_images/stream_tile.png" src="../../_images/stream_tile.png" />
 <p>Låt oss nu lägga till tileset i vår OpenLayers-karta. Öppna HTML-sidan med hjälp av följande kommando:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sudo<span class="w"> </span>featherpad<span class="w"> </span>/var/www/html/mapcache-quickstart/index.html
@@ -141,9 +141,9 @@ tiles. Place the following block after the existing <code class="docutils litera
 <span class="p">})</span>
 </pre></div>
 </div>
-<p>Uppdatera nu sidan på <a class="reference external" href="http://localhost/mapcache-quickstart/">http://localhost/mapcache-quickstart/</a> - du bör se det nya strömskiktet som serveras av MapCache.</p>
+<p>Uppdatera nu sidan på <a class="reference external" href="http://localhost/mapcache-quickstart/">http://localhost/mapcache-quickstart/</a> - du bör se det nya strömlagret som serveras av MapCache.</p>
 <img alt="../../_images/openlayers.png" src="../../_images/openlayers.png" />
-<p>När du bläddrar på kartan kommer du att se att kakelcachemapparna i <code class="docutils literal notranslate"><span class="pre">/var/cache/mapcache</span></code> fylls med PNG-bilder.</p>
+<p>När du bläddrar på kartan kommer du att se att plattcachemapparna i <code class="docutils literal notranslate"><span class="pre">/var/cache/mapcache</span></code> fylls med PNG-bilder.</p>
 <img alt="../../_images/tilecache.png" src="../../_images/tilecache.png" />
 <p>Plats och typ för cacheminnet anges i följande block i konfigurationsfilen:</p>
 <div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="nt">&lt;cache</span><span class="w"> </span><span class="na">name=</span><span class="s">&quot;disk&quot;</span><span class="w"> </span><span class="na">type=</span><span class="s">&quot;disk&quot;</span><span class="nt">&gt;</span>

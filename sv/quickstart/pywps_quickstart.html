@@ -86,9 +86,9 @@
 <h2><a class="toc-backref" href="#id1">Installera pywps-flask</a><a class="headerlink" href="#installing-pywps-flask" title="Permalink till denna rubrik">¶</a></h2>
 <p>Eftersom exempeltjänsten är beroende av Flask måste du se till att den är installerad på ditt OSGeo-Live:</p>
 <p><cite>sudo apt install python-flask</cite></p>
-<p>Klona sedan förvaret från GitHub:</p>
+<p>Klona sedan förrådet från GitHub:</p>
 <p><cite>git clone https://github.com/geopython/pywps-flask.git</cite></p>
-<p>Gå nu till mappen Repository och redigera konfigurationsfilen. Detta kan göras med ett program som <cite>nano</cite>:</p>
+<p>Gå nu till förrådsmappen och redigera konfigurationsfilen. Detta kan göras med ett program som <cite>nano</cite>:</p>
 <p><cite>nano pywps.cfg</cite></p>
 <p>Det enda kritiska som måste verifieras är platsen för loggningsdatabasen. <cite>Pywps-flask</cite> tillhandahåller en SQLite-databas som kan användas för detta ändamål. Se till att inställningen <cite>database</cite> lyder som:</p>
 <p><cite>database=sqlite:////home/user/pywps-flask/logs/pywps-logs.sqlite3</cite></p>

@@ -115,7 +115,7 @@
 </section>
 <section id="create-metadata">
 <h2><a class="toc-backref" href="#id4">Skapa metadata</a><a class="headerlink" href="#create-metadata" title="Permalink till denna rubrik">¶</a></h2>
-<p>Metadatafiler för en spatial datamängd eller en spatial webbtjänst kan skapas med hjälp av open source-implementeringen av inspire-direktivet för metadata, European Open Source Metadata Editor (EUOSME). Denna applikation kan hittas på <code class="docutils literal notranslate"><span class="pre">http://inspire-geoportal.ec.europa.eu/editor/</span></code>. Källkoden finns tillgänglig på <code class="docutils literal notranslate"><span class="pre">https://joinup.ec.europa.eu/svn/euosme/trunk</span></code></p>
+<p>Metadatafiler för en spatial datamängd eller en spatial webbtjänst kan skapas med hjälp av öppen källkodsimplementeringen av inspire-direktivet för metadata, European Open Source Metadata Editor (EUOSME). Denna applikation kan hittas på <code class="docutils literal notranslate"><span class="pre">http://inspire-geoportal.ec.europa.eu/editor/</span></code>. Källkoden finns tillgänglig på <code class="docutils literal notranslate"><span class="pre">https://joinup.ec.europa.eu/svn/euosme/trunk</span></code></p>
 <p>Du kan fylla i de obligatoriska metadatafälten genom att gå igenom programflikarna och lägga till information som namnet på dataägaren, nyckelord, resursens plats på webben, geografisk plats (med hjälp av en avgränsande ruta eller namnet på ett land) etc.</p>
 <a class="reference internal image-reference" href="../../_images/pycsw_euosme_metadata_input.png"><img alt="../../_images/pycsw_euosme_metadata_input.png" src="../../_images/pycsw_euosme_metadata_input.png" style="width: 831.75px; height: 485.25px;" /></a>
 <p>När du har lagt till all tillgänglig information trycker du på knappen <span class="guilabel">validation</span> högst upp på sidan för att kontrollera att den överensstämmer med INSPIRE-direktivet.</p>
@@ -148,7 +148,7 @@
 </div>
 </li>
 </ol>
-<p>Detta kommer att skapa de nödvändiga tabellerna och värdena för förvaret.</p>
+<p>Detta kommer att skapa de nödvändiga tabellerna och värdena för förrådet.</p>
 <p>Den databas som skapas är en databas som uppfyller kraven för SSFS och kan användas med alla programvaror. Till exempel för att användas med <a class="reference external" href="https://gdal.org/ogrinfo.html">OGR</a>:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>ogrinfo<span class="w"> </span>/path/to/records.db
 INFO:<span class="w"> </span>Open<span class="w"> </span>of<span class="w"> </span><span class="s1">&#39;records.db&#39;</span>
@@ -164,7 +164,7 @@ $<span class="w"> </span>ogrinfo<span class="w"> </span>-al<span class="w"> </sp
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$<span class="w"> </span>sudo<span class="w"> </span>pycsw-admin<span class="w"> </span>-c<span class="w"> </span>load_records<span class="w"> </span>-f<span class="w"> </span>/etc/pycsw/default.cfg<span class="w"> </span>-p<span class="w"> </span>/path/to/records<span class="w"> </span>-r
 </pre></div>
 </div>
-<p>Detta kommer att importera alla <code class="docutils literal notranslate"><span class="pre">*.xml</span></code>-poster från <code class="docutils literal notranslate"><span class="pre">/path/to/records</span></code> till den nya databasen och konfigurera arkivet för att exponera queryables enligt tabell 53 i OGC:CSW.</p>
+<p>Detta kommer att importera alla <code class="docutils literal notranslate"><span class="pre">*.xml</span></code>-poster från <code class="docutils literal notranslate"><span class="pre">/path/to/records</span></code> till den nya databasen och konfigurera förrådet för att exponera queryables enligt tabell 53 i OGC:CSW.</p>
 </section>
 </section>
 <section id="data-discovery-through-qgis-metasearch-plugin">

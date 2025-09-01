@@ -92,7 +92,7 @@
 <li><p>[1] Menyfält: Åtkomst till olika QGIS-funktioner med hjälp av en hierarkisk standardmeny.</p></li>
 <li><p>[2] Verktygsfält: För interaktion med kartan, lager, attribut och urval.</p></li>
 <li><p>[3] Panel för webbläsare: En spatial filbläddrare som gör det möjligt att dra och släppa innehåll i kartramen.</p></li>
-<li><p>[4] Skiktpanel: Styr kartlagren, deras ordning och synlighet.</p></li>
+<li><p>[4] Lagerpanel: Styr kartlagren, deras ordning och synlighet.</p></li>
 <li><p>[5] Statusfält: Allmän information om kartan och tillgång till ett universellt sökfält.</p></li>
 </ul>
 </section>
@@ -112,7 +112,7 @@
 <blockquote>
 <div><a class="reference internal image-reference" href="../../_images/qgis_browser_panel.png"><img alt="Lägg till vektorlager i QGIS-webbläsaren" src="../../_images/qgis_browser_panel.png" style="width: 930.3px; height: 616.6999999999999px;" /></a>
 </div></blockquote>
-<p>När skiktet har dragits till kartbilden visas ett skikt med länder.</p>
+<p>När lagret har dragits till kartbilden visas ett lager med länder.</p>
 <a class="reference internal image-reference" href="../../_images/qgis_add_vector_layer.png"><img alt="QGIS vektorlager" src="../../_images/qgis_add_vector_layer.png" style="width: 900.9px; height: 533.4px;" /></a>
 <p>Nu ska vi försöka lägga till ett rasterlager i projektet.</p>
 <ol class="arabic simple">
@@ -122,8 +122,8 @@
 <li><p>Dra lagret från webbläsarpanelen och släpp det i kartramen.</p></li>
 </ol>
 <a class="reference internal image-reference" href="../../_images/qgis_browser_panel_raster.png"><img alt="Lägg till rasterlager i QGIS-webbläsaren" src="../../_images/qgis_browser_panel_raster.png" style="width: 930.3px; height: 616.6999999999999px;" /></a>
-<p>När skiktet har dragits till kartbilden visas ett rasterskikt som visar marktäcke och batymetri.</p>
-<a class="reference internal image-reference" href="../../_images/qgis_add_raster_layer.png"><img alt="QGIS rasterskikt" src="../../_images/qgis_add_raster_layer.png" style="width: 930.3px; height: 616.6999999999999px;" /></a>
+<p>När lagret har dragits till kartbilden visas ett rasterlager som visar marktäcke och batymetri.</p>
+<a class="reference internal image-reference" href="../../_images/qgis_add_raster_layer.png"><img alt="QGIS rasterlager" src="../../_images/qgis_add_raster_layer.png" style="width: 930.3px; height: 616.6999999999999px;" /></a>
 <p>Nu när vi har lagt till lite innehåll i vårt projekt kan vi spara det så att vi kan komma tillbaka till det vid ett senare tillfälle.</p>
 <ol class="arabic">
 <li><p>Välj <span class="menuselection">Projekt ‣ Spara</span>.</p>
@@ -159,8 +159,8 @@
 <li><p>Klicka på kryssrutan bredvid lagret ”ne_10m_populated_places” för att aktivera det.</p></li>
 <li><p>Klicka på kryssrutan bredvid ”Water”-lagret för att stänga av lagret.</p></li>
 </ol>
-<p>Lägg märke till hur kartramen har uppdaterats för att återspegla ändringarna i skiktlistan. Vi kan nu se skiktet ”ne_10m_populated_places” som punkter, men vi kan inte längre se floderna och sjöarna som finns i skiktet ”Waters”.</p>
-<a class="reference internal image-reference" href="../../_images/qgis_layer_visibility.png"><img alt="QGIS-resultat av ändringar i skiktens synlighet" src="../../_images/qgis_layer_visibility.png" style="width: 855.4px; height: 539.6999999999999px;" /></a>
+<p>Lägg märke till hur kartramen har uppdaterats för att återspegla ändringarna i lagerlistan. Vi kan nu se lagret ”ne_10m_populated_places” som punkter, men vi kan inte längre se floderna och sjöarna som finns i lagret ”Waters”.</p>
+<a class="reference internal image-reference" href="../../_images/qgis_layer_visibility.png"><img alt="QGIS-resultat av ändringar i lagerens synlighet" src="../../_images/qgis_layer_visibility.png" style="width: 855.4px; height: 539.6999999999999px;" /></a>
 <p>Förutom att kontrollera lagrens synlighet kan vi också ändra ordningen i vilken lagren ritas i lagerpanelen. Detta görs genom att markera ett lager i lagerpanelen och dra det uppåt eller nedåt i listan. Den ordning som lagren visas i lagerlistan är den ordning som de kommer att ritas i i kartramen.</p>
 <ol class="arabic simple">
 <li><p>Vänsterklicka på lagret ”HYP_50M_SR_W”.</p></li>
@@ -168,7 +168,7 @@
 </ol>
 <p>Lägg märke till att rasterlagret nu ligger ovanpå alla andra lager i lagerpanelen. Detta gör att rasterlagret nu ligger ovanpå alla andra lager i kartramen.</p>
 <a class="reference internal image-reference" href="../../_images/qgis_modified_layer_order.png"><img alt="QGIS ändrade ordningen på lagren" src="../../_images/qgis_modified_layer_order.png" style="width: 930.3px; height: 616.6999999999999px;" /></a>
-<p>Försök flytta skiktet ”HYP_50M_SR_W” till botten av skiktlistan. Detta skulle vara en mer lämplig position för ett kartlager som detta.</p>
+<p>Försök flytta lagret ”HYP_50M_SR_W” till botten av lagerlistan. Detta skulle vara en mer lämplig position för ett kartlager som detta.</p>
 </section>
 <section id="navigate-the-map">
 <h2><a class="toc-backref" href="#id4">Navigera på kartan</a><a class="headerlink" href="#navigate-the-map" title="Permalink till denna rubrik">¶</a></h2>
@@ -179,7 +179,7 @@
 <li><p>[2] Zooma in: Gör det möjligt att zooma in kartans utbredning.</p></li>
 <li><p>[3] Zooma ut: Gör det möjligt att zooma ut kartan.</p></li>
 <li><p>[4] Zooma till full omfattning: Ändrar kartans omfattning så att alla kartlager ryms i kartramen.</p></li>
-<li><p>[5] Zooma till skikt: Ändrar kartans omfattning så att den passar omfattningen av det lager som markeras i lagerpanelen.</p></li>
+<li><p>[5] Zooma till lager: Ändrar kartans omfattning så att den passar omfattningen av det lager som markeras i lagerpanelen.</p></li>
 </ul>
 <p>Låt oss prova att ändra kartans utbredning med hjälp av inzoomningsverktyget.</p>
 <ol class="arabic simple">
@@ -203,7 +203,7 @@
 </section>
 <section id="style-your-layers">
 <h2><a class="toc-backref" href="#id5">Styla dina lager</a><a class="headerlink" href="#style-your-layers" title="Permalink till denna rubrik">¶</a></h2>
-<p>Skikt kan utformas i QGIS med hjälp av stildockan. Stildockan är inte synlig som standard, men är lättåtkomlig via en knapp högst upp i lagerpanelen enligt bilden nedan.</p>
+<p>Lager kan utformas i QGIS med hjälp av stildockan. Stildockan är inte synlig som standard, men är lättåtkomlig via en knapp högst upp i lagerpanelen enligt bilden nedan.</p>
 <a class="reference internal image-reference" href="../../_images/qgis_style_dock_button.png"><img alt="Docka med QGIS-stil" src="../../_images/qgis_style_dock_button.png" style="width: 932.4px; height: 616.6999999999999px;" /></a>
 <p>Knappen ovan fungerar som en vippknapp så att stildockan enkelt kan döljas genom att klicka på samma knapp igen. När stildockan är aktiverad visas den på höger sida av skärmen och är redo att styla det aktiva lagret som markeras i lagerpanelen.</p>
 <p>När stildockan är öppen kan vi ändra utseendet på det lager som visas högst upp i stildockan.</p>
@@ -243,7 +243,7 @@
 </section>
 <section id="what-next">
 <h2><a class="toc-backref" href="#id7">Hur vill du gå vidare?</a><a class="headerlink" href="#what-next" title="Permalink till denna rubrik">¶</a></h2>
-<p>För att lära dig mer om QGIS är en bra utgångspunkt <a class="reference external" href="https://www.qgis.org/resources/hub/">Dokumentationssidan</a> på QGIS hemsida och <a class="reference external" href="https://docs.qgis.org/latest/en/docs/gentle_gis_introduction/index.html">En mild introduktion till GIS</a> eBook.</p>
+<p>För att lära dig mer om QGIS är en bra utgångspunkt <a class="reference external" href="https://www.qgis.org/resources/hub/">Documentation page</a> på QGIS hemsida och <a class="reference external" href="https://docs.qgis.org/latest/en/docs/gentle_gis_introduction/index.html">A Gentle Introduction to GIS</a> eBook.</p>
 </section>
 </section>
 

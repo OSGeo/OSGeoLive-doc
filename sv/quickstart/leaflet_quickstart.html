@@ -127,8 +127,8 @@
 </div>
 <p>Som standard (eftersom vi inte angav några alternativ när vi skapade kartinstansen) är alla mus- och pekinteraktioner på kartan aktiverade, och den har zoom- och attributkontroller.</p>
 <p>Observera att setView-anropet också returnerar map-objektet - de flesta Leaflet-metoder fungerar på detta sätt när de inte returnerar ett explicit värde, vilket möjliggör bekväm jQuery-liknande metodkedjning.</p>
-<p>Därefter lägger vi till ett kakelskikt på vår karta. I det här fallet kommer vi att använda de kakelbilder som tillhandahålls av MapProxy på live-dvd: n. Observera att användning av trevligare bakgrundskartor som openstreetmap kommer att resultera i en mycket bättre användarupplevelse.</p>
-<p>När du skapar ett kakelskikt måste du vanligtvis ange URL-mallen för kakelbilderna, attributtexten och den maximala zoomnivån för skiktet:</p>
+<p>Därefter lägger vi till ett plattlager på vår karta. I det här fallet kommer vi att använda de plattbilder som tillhandahålls av MapProxy på live-dvd: n. Observera att användning av trevligare bakgrundskartor som openstreetmap kommer att resultera i en mycket bättre användarupplevelse.</p>
+<p>När du skapar ett plattlager måste du vanligtvis ange URL-mallen för plattbilderna, attributtexten och den maximala zoomnivån för lagret:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">L</span><span class="o">.</span><span class="n">tileLayer</span><span class="p">(</span><span class="s1">&#39;http://localhost:8011/wmts/mapnik_tile/GLOBAL_WEBMERCATOR/</span><span class="si">{z}</span><span class="s1">/</span><span class="si">{x}</span><span class="s1">/</span><span class="si">{y}</span><span class="s1">.png&#39;</span><span class="p">,{})</span><span class="o">.</span><span class="n">addTo</span><span class="p">(</span><span class="nb">map</span><span class="p">);</span>
 </pre></div>
 </div>
@@ -141,7 +141,7 @@
 </section>
 <section id="markers-circles-and-polygons">
 <h2><a class="toc-backref" href="#id5">Markörer, cirklar och polygoner</a><a class="headerlink" href="#markers-circles-and-polygons" title="Permalink till denna rubrik">¶</a></h2>
-<p>Förutom kakelskikt kan du enkelt lägga till andra saker på din karta, inklusive markörer, polylinjer, polygoner, cirklar och popup-fönster. Låt oss lägga till en markör:</p>
+<p>Förutom plattlager kan du enkelt lägga till andra saker på din karta, inklusive markörer, polylinjer, polygoner, cirklar och popup-fönster. Låt oss lägga till en markör:</p>
 <div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="kd">var</span><span class="w"> </span><span class="nx">marker</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nx">L</span><span class="p">.</span><span class="nx">marker</span><span class="p">([</span><span class="mf">43.77913</span><span class="p">,</span><span class="w"> </span><span class="mf">11.24938</span><span class="p">]).</span><span class="nx">addTo</span><span class="p">(</span><span class="nx">map</span><span class="p">);</span>
 </pre></div>
 </div>

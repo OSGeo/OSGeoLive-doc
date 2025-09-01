@@ -65,7 +65,7 @@
 <a class="reference external image-reference" href="https://www.osgeo.org"><img alt="../../_images/OSGeo_community.png" class="align-right" src="../../_images/OSGeo_community.png" /></a>
 <section id="mapproxy-quickstart">
 <h1>MapProxy Snabbstart<a class="headerlink" href="#mapproxy-quickstart" title="Permalink till denna rubrik">¶</a></h1>
-<p>MapProxy är <em>den</em> schweiziska armékniven för alla WMS- och kakeltjänster. Den cachelagrar, accelererar och transformerar data från befintliga karttjänster och betjänar alla GIS-klienter på skrivbordet eller webben.</p>
+<p>MapProxy är <em>den</em> schweiziska armékniven för alla WMS- och plattjänster. Den cachelagrar, accelererar och transformerar data från befintliga karttjänster och betjänar alla GIS-klienter på skrivbordet eller webben.</p>
 <img alt="MapProxy-diagram" class="align-center" src="../../_images/mapproxy_screenshot.png" />
 <p>MapProxy är inte bara en tile cache-lösning, utan erbjuder också många nya och innovativa funktioner som fullt stöd för WMS-klienter.</p>
 <div class="contents local topic" id="contents">
@@ -88,7 +88,7 @@
 <li><p>För att starta MapProxy som en fristående tjänst klickar du på <span class="menuselection">Geospatial ‣ Web Services ‣ MapProxy ‣ Start MapProxy</span>.</p></li>
 <li><p>Öppna Firefox och navigera till <a class="reference external" href="http://localhost:8011/demo">http://localhost:8011/demo</a></p></li>
 </ol>
-<p>MapProxy-demosidan innehåller en rudimentär WMS- och kakelklient för varje konfigurerat lager. Du kan t.ex. inte välja projektion för WMS-lager, men det räcker för att snabbt verifiera att din installation fungerar.</p>
+<p>MapProxy-demosidan innehåller en rudimentär WMS- och plattklient för varje konfigurerat lager. Du kan t.ex. inte välja projektion för WMS-lager, men det räcker för att snabbt verifiera att din installation fungerar.</p>
 </section>
 <section id="view-in-desktop-gis">
 <h2><a class="toc-backref" href="#id2">Visa i desktop GIS</a><a class="headerlink" href="#view-in-desktop-gis" title="Permalink till denna rubrik">¶</a></h2>
@@ -100,11 +100,11 @@ is: <a class="reference external" href="http://localhost:8011/service?">http://l
 <dl class="simple">
 <dt><strong>mapnik</strong>:</dt><dd><p>Världens befolkning återgiven av Mapnik. Du behöver inte starta Mapnik-tjänsten, eftersom det här lagret använder det integrerade Mapnik-stödet i MapProxy.</p>
 </dd>
-<dt><strong>mapnik_tile</strong>:</dt><dd><p>Världens befolkning återgiven av Mapnik som kakelskikt.</p>
+<dt><strong>mapnik_tile</strong>:</dt><dd><p>Världens befolkning återgiven av Mapnik som plattlager.</p>
 </dd>
 <dt><strong>geoserver</strong>:</dt><dd><p>USA:s befolkning återgiven av WMS:en <a class="reference internal" href="../overview/geoserver_overview.html"><span class="doc">GeoServer</span></a>. Detta lager stöder också <code class="docutils literal notranslate"><span class="pre">GetFeatureInfo</span></code>-förfrågningar som kaskadkopplas till käll-WMS. Du måste starta GeoServer med <span class="menuselection">Geospatial ‣ Web Services ‣ GeoServer ‣ Start GeoServer</span> innan du får tillgång till det här lagret.</p>
 </dd>
-<dt><strong>mapnik_geoserver</strong>:</dt><dd><p>Detta skikt visar möjligheten att kombinera flera källor i ett skikt. Det kombinerar världens befolkning från Mapnik med USA:s befolkning från GeoServer. <code class="docutils literal notranslate"><span class="pre">GetFeatureInfo</span></code>-stödet för den amerikanska befolkningen är fortfarande tillgängligt. Du måste starta GeoServer med <span class="menuselection">Geospatial ‣ Web Services ‣ GeoServer ‣ Start GeoServer</span> innan du får tillgång till det här skiktet.</p>
+<dt><strong>mapnik_geoserver</strong>:</dt><dd><p>Detta lager visar möjligheten att kombinera flera källor i ett lager. Det kombinerar världens befolkning från Mapnik med USA:s befolkning från GeoServer. <code class="docutils literal notranslate"><span class="pre">GetFeatureInfo</span></code>-stödet för den amerikanska befolkningen är fortfarande tillgängligt. Du måste starta GeoServer med <span class="menuselection">Geospatial ‣ Web Services ‣ GeoServer ‣ Start GeoServer</span> innan du får tillgång till det här lagret.</p>
 </dd>
 <dt><strong>mapserver</strong>:</dt><dd><p>Detta lager använder Mapserver Itasca demo dataset. Det är en lokal dataset och den använder * täckning * -funktionen för att begränsa BBOX till Itasca, IL.</p>
 </dd>
