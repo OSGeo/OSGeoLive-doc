@@ -16,8 +16,8 @@ Y | saga | 9.8.0 | Y | Y | Desktop GIS | | | saga-gis | https://saga-gis.sourcef
 # Browser Facing GIS | | | | | | | | | | | |
 ###################### | | | | | | | | | | | |
 # OSGeo Projects | | | | | | | | | | | |
-Y | geomoose | 3.10.1 | Y | Y | Browser Facing GIS | | Web GIS Portal | geomoose | https://www.geomoose.org | OSGeo_project | GeoMoose | Y
-Y | geonode | 3.3.2 | Y | Y | Browser Facing GIS | | Geospatial Content Management System | geonode | https://geonode.org | OSGeo_project | GeoNode | Y
+Y | geomoose | 3.13.0 | Y | Y | Browser Facing GIS | | Web GIS Portal | geomoose | https://www.geomoose.org | OSGeo_project | GeoMoose | Y
+Y | geonode | 4.4.3 | Y | Y | Browser Facing GIS | | Geospatial Content Management System | geonode | https://geonode.org | OSGeo_project | GeoNode | N
 Y | mapbender | 4.2.3 | Y | Y | Browser Facing GIS | | Geoportal Framework | mapbender | https://mapbender.org | OSGeo_project | Mapbender | Y
 Y | openlayers | 6.14.1 | Y | Y | Browser Facing GIS | | Browser Mapping Library | openlayers | https://openlayers.org/ | OSGeo_project | OpenLayers | Y
 # OSGeo Community | | | | | | | | | | | |
@@ -30,9 +30,9 @@ Y | leaflet | 1.7.1 | Y | Y | Browser Facing GIS | | Mobile Friendly Interactive
 # Web Services | | | | | | | | | | | |
 ###################### | | | | | | | | | | | |
 # OSGeo Projects | | | | | | | | | | | |
-Y | deegree | 3.4.32 | Y | Y | Web Services | | OGC Web Services | deegree3 | http://www.deegree.org | OSGeo_project | deegree | Y
-Y | geonetwork | 3.2.1 | Y | Y | Web Services | | Metadata Catalogue | geonetwork-opensource | https://geonetwork-opensource.org | OSGeo_project | GeoNetwork | Y
-Y | geoserver | 2.26.0 | Y | Y | Web Services | | OGC Web Services | geoserver | https://geoserver.org/ | OSGeo_project | GeoServer | Y
+Y | deegree | 3.6.0-pre2 | Y | Y | Web Services | | OGC Web Services | deegree3 | http://www.deegree.org | OSGeo_project | deegree | Y
+Y | geonetwork | 3.2.1 | Y | Y | Web Services | | Metadata Catalogue | geonetwork-opensource | https://geonetwork-opensource.org | OSGeo_project | GeoNetwork | N
+Y | geoserver | 2.27.1 | Y | Y | Web Services | | OGC Web Services | geoserver | https://geoserver.org/ | OSGeo_project | GeoServer | Y
 Y | mapcache | 1.14.1 | Y | Y | Web Services | | OGC Web Services | mapcache | https://mapserver.org/mapcache | OSGeo_project | MapCache | Y
 Y | mapserver | 8.4.0 | Y | Y | Web Services | | OGC Web Services | mapserver | https://mapserver.org | OSGeo_project | MapServer | Y
 Y | pycsw | 2.6.2 | Y | Y | Web Services | | Metadata Catalogue | pycsw | https://pycsw.org/ | OSGeo_project | pycsw | Y
@@ -40,15 +40,15 @@ Y | pywps | 4.6.0 | Y | Y | Web Services | | Web Processing Service | pyWPS | ht
 # OSGeo Community | | | | | | | | | | | |
 Y | istsos | 2.4.0 | Y | Y | Web Services | | Sensor Observation Service | istsos | http://istsos.org | OSGeo_community | istSOS | Y
 Y | mapproxy | 4.0.2 | Y | Y | Web Services | | Proxy WMS & tile services | mapproxy | https://mapproxy.org/ | OSGeo_community | MapProxy | Y
-Y | pygeoapi | 0.20.0 | Y | Y | Web Services | | OGC Web Services | pygeoapi | https://pygeoapi.io/ | OSGeo_project | pygeoapi | Y
-Y | zoo-project | 1.9.0 | Y | Y | Web Services | | Web Processing Service | zoo-project | https://zoo-project.org/ | OSGeo_project | Zoo Project | Y
+Y | pygeoapi | 0.21.0 | Y | Y | Web Services | | OGC Web Services | pygeoapi | https://pygeoapi.io/ | OSGeo_project | pygeoapi | Y
+Y | zoo-project | 2.0.0 | Y | Y | Web Services | | Web Processing Service | zoo-project | https://zoo-project.org/ | OSGeo_project | Zoo Project | N
 # Others | | | | | | | | | | | |
 Y | actinia | 4.2.0 | Y | Y | Web Services | | Processing of Geographical Data | actinia_core | https://actinia.mundialis.de/ | OSGeo_community | actinia | N
-Y | eoxserver | 1.1.2 | Y | Y | Web Services | | Web Coverage Service | eoxserver | https://docs.eoxserver.org/en/stable/ | | EOxServer | Y
+Y | eoxserver | 1.1.2 | Y | Y | Web Services | | Web Coverage Service | eoxserver | https://docs.eoxserver.org/en/stable/ | | EOxServer | N
 Y | ETF | 2.0.0 | Y | Y | Web Services | | Testing framework for validating spatial data, metadata and web services in Spatial Data Infrastructures (SDIs) | etf-validator | https://github.com/etf-validator| | ETF | N
 Y | qgis_mapserver | 3.40.6 | Y | Y | Web Services | | Web Map Service | | https://www.qgis.org/ | | QGIS Server | Y
 Y | re3gistry | 2.6.1 | Y | Y | Web Services | | Management of reference codes | re3gistry | https://github.com/ec-jrc/re3gistry | | Re3gistry | N
-Y | t-rex | 0.14.3 | Y | Y | Web Services | | Vector Tile Service | t-rex | https://t-rex.tileserver.ch/ | | t-rex | Y
+Y | t-rex | 0.14.3 | Y | Y | Web Services | | Vector Tile Service | t-rex | https://t-rex.tileserver.ch/ | | t-rex | N
 Y | 52nSOS | 5.5.1 | Y | Y | Web Services | | Sensor Observation Service | SensorObservationService | https://52north.org/software/software-projects/sos | | 52 North SOS | N
 ###################### | | | | | | | | | | | |
 # Data Stores | | | | | | | | | | | |
