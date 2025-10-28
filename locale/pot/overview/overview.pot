@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-05-23 16:57+0000\n"
+"POT-Creation-Date: 2025-10-28 10:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -78,6 +78,11 @@ msgstr ""
 msgid "|vmdk| Included only on OSGeoLive VMDK version"
 msgstr ""
 
+#: ../../build/doc/<rst_epilog>:11
+#: ../../build/doc/<rst_epilog>:11
+#: ../../build/doc/<rst_epilog>:11
+#: ../../build/doc/<rst_epilog>:11
+#: ../../build/doc/<rst_epilog>:11
 #: ../../build/doc/<rst_epilog>:11
 #: ../../build/doc/<rst_epilog>:11
 #: ../../build/doc/<rst_epilog>:11
@@ -170,7 +175,7 @@ msgid "|OSGeo_project| :doc:`geomoose_overview` - [:doc:`Quickstart <../quicksta
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:79
-msgid "|OSGeo_project| :doc:`geonode_overview` - [:doc:`Quickstart <../quickstart/geonode_quickstart>`] - Geospatial Content Management System"
+msgid "|OSGeo_project| |vmdk| :doc:`geonode_overview` - [:doc:`Quickstart <../quickstart/geonode_quickstart>`] - Geospatial Content Management System"
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:81
@@ -210,7 +215,7 @@ msgid "|OSGeo_project| :doc:`deegree_overview` - [:doc:`Quickstart <../quickstar
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:141
-msgid "|OSGeo_project| :doc:`geonetwork_overview` - [:doc:`Quickstart <../quickstart/geonetwork_quickstart>`] - Metadata Catalogue"
+msgid "|OSGeo_project| |vmdk| :doc:`geonetwork_overview` - [:doc:`Quickstart <../quickstart/geonetwork_quickstart>`] - Metadata Catalogue"
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:143
@@ -246,7 +251,7 @@ msgid "|OSGeo_project| :doc:`pygeoapi_overview` - [:doc:`Quickstart <../quicksta
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:159
-msgid "|OSGeo_project| :doc:`zoo-project_overview` - [:doc:`Quickstart <../quickstart/zoo-project_quickstart>`] - Web Processing Service"
+msgid "|OSGeo_project| |vmdk| :doc:`zoo-project_overview` - [:doc:`Quickstart <../quickstart/zoo-project_quickstart>`] - Web Processing Service"
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:161
@@ -254,7 +259,7 @@ msgid "|OSGeo_community| |vmdk| :doc:`actinia_overview` - [:doc:`Quickstart <../
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:163
-msgid "|nologo| :doc:`eoxserver_overview` - [:doc:`Quickstart <../quickstart/eoxserver_quickstart>`] - Web Coverage Service"
+msgid "|nologo| |vmdk| :doc:`eoxserver_overview` - [:doc:`Quickstart <../quickstart/eoxserver_quickstart>`] - Web Coverage Service"
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:165
@@ -270,7 +275,7 @@ msgid "|nologo| |vmdk| :doc:`re3gistry_overview` - [:doc:`Quickstart <../quickst
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:171
-msgid "|nologo| :doc:`t-rex_overview` - [:doc:`Quickstart <../quickstart/t-rex_quickstart>`] - Vector Tile Service"
+msgid "|nologo| |vmdk| :doc:`t-rex_overview` - [:doc:`Quickstart <../quickstart/t-rex_quickstart>`] - Vector Tile Service"
 msgstr ""
 
 #: ../../build/doc/overview/overview.rst:173

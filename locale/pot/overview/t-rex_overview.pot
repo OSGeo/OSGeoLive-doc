@@ -6,9 +6,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 17.0.0\n"
+"Project-Id-Version: OSGeoLive 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-17 15:05-0600\n"
+"POT-Creation-Date: 2025-10-28 10:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -88,6 +88,10 @@ msgstr ""
 msgid "**Support:** https://github.com/t-rex-tileserver/t-rex/"
 msgstr ""
 
+#: ../../build/doc/overview/t-rex_overview.rst:52
+msgid "This project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgstr ""
+
 #: ../../build/doc/overview/t-rex_overview.rst:55
 msgid "Quickstart"
 msgstr ""
@@ -96,11 +100,11 @@ msgstr ""
 msgid ":doc:`Quickstart documentation <../quickstart/t-rex_quickstart>`"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:13
+#: ../../build/doc/<rst_epilog>:11
 msgid "vmdk"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:14
 msgid "nologo"
 msgstr ""
 

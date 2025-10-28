@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 17.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-17 15:05-0600\n"
+"POT-Creation-Date: 2025-10-28 10:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -17,7 +17,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.14.0\n"
+"Generated-By: Babel 2.17.0\n"
 
 #: ../../build/doc/overview/eoxserver_overview.rst:15
 msgid "EOxServer"
@@ -185,6 +185,10 @@ msgid ""
 "#where-can-i-get-support"
 msgstr ""
 
+#: ../../build/doc/overview/eoxserver_overview.rst:93
+msgid "This project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgstr ""
+
 #: ../../build/doc/overview/eoxserver_overview.rst:96
 msgid "Quickstart"
 msgstr ""
@@ -193,11 +197,11 @@ msgstr ""
 msgid ":doc:`Quickstart documentation <../quickstart/eoxserver_quickstart>`"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:13
+#: ../../build/doc/<rst_epilog>:11
 msgid "vmdk"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:14
 msgid "nologo"
 msgstr ""
 

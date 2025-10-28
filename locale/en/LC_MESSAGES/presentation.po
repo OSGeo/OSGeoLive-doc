@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 13.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-07-26 13:07+0000\n"
+"POT-Creation-Date: 2025-10-28 10:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -92,7 +92,7 @@ msgid "GRASS 8.4.1,"
 msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:77
-msgid "GeoServer 2.26.0,"
+msgid "GeoServer 2.27.1,"
 msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:78

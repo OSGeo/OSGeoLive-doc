@@ -6,15 +6,19 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OSGeoLive 17.0.0\n"
+"Project-Id-Version: OSGeoLive 17.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-17 15:05-0600\n"
+"POT-Creation-Date: 2025-10-28 10:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: ../../build/doc/quickstart/zoo-project_quickstart.rst:16
+msgid "This project is only included on the OSGeoLive virtual machine disk (VMDK)"
+msgstr ""
 
 #: ../../build/doc/quickstart/zoo-project_quickstart.rst:23
 msgid "Zoo Project Quickstart"
@@ -116,11 +120,11 @@ msgstr ""
 msgid "For further questions you can contact the ZOO Project mailing list: zoo-discuss@lists.osgeo.org"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:13
+#: ../../build/doc/<rst_epilog>:11
 msgid "vmdk"
 msgstr ""
 
-#: ../../build/doc/<rst_epilog>:16
+#: ../../build/doc/<rst_epilog>:14
 msgid "nologo"
 msgstr ""
 
