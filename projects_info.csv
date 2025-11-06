@@ -9,21 +9,21 @@ Y | gvsig | 2.4.0 | Y | Y | Desktop GIS | | | gvsig-desktop-2 | http://www.gvsig
 Y | qgis | 3.40.9 | Y | Y | Desktop GIS | | | qgis | https://www.qgis.org/ | OSGeo_project | QGIS | Y
 # OSGeo Community | | | | | | | | | | | |
 # Others | | | | | | | | | | | |
-Y | openjump | 2.2.1 | Y | Y | Desktop GIS | | | openjump_gis | http://www.openjump.org | | OpenJUMP GIS | Y
+Y | openjump | 2.4.0 | Y | Y | Desktop GIS | | | openjump_gis | http://www.openjump.org | | OpenJUMP GIS | Y
 Y | qfield | 3.3.11 | Y | Y | Desktop GIS | | | qfield | https://qfield.org/ | | QField | N
 Y | saga | 9.8.0 | Y | Y | Desktop GIS | | | saga-gis | https://saga-gis.sourceforge.io/en/index.html | | SAGA | Y
 ###################### | | | | | | | | | | | |
 # Browser Facing GIS | | | | | | | | | | | |
 ###################### | | | | | | | | | | | |
 # OSGeo Projects | | | | | | | | | | | |
-Y | geomoose | 3.13.0 | Y | Y | Browser Facing GIS | | Web GIS Portal | geomoose | https://www.geomoose.org | OSGeo_project | GeoMoose | Y
+Y | geomoose | 3.13.2 | Y | Y | Browser Facing GIS | | Web GIS Portal | geomoose | https://www.geomoose.org | OSGeo_project | GeoMoose | Y
 Y | geonode | 4.4.3 | Y | Y | Browser Facing GIS | | Geospatial Content Management System | geonode | https://geonode.org | OSGeo_project | GeoNode | N
 Y | mapbender | 4.2.3 | Y | Y | Browser Facing GIS | | Geoportal Framework | mapbender | https://mapbender.org | OSGeo_project | Mapbender | Y
 Y | openlayers | 6.14.1 | Y | Y | Browser Facing GIS | | Browser Mapping Library | openlayers | https://openlayers.org/ | OSGeo_project | OpenLayers | Y
 # OSGeo Community | | | | | | | | | | | |
 Y | geostyler | 9.0.0 | Y | Y | Browser Facing GIS | | Generic Styler For Geodata | GeoStyler | https://geostyler.org | OSGeo_community | GeoStyler | Y
 # Others | | | | | | | | | | | |
-Y | cesium | 1.121 | Y | Y | Browser Facing GIS | | 3D globes and 2D maps in a browser | cesiumjs | https://cesium.com/ | | Cesium | Y
+Y | cesium | 1.135 | Y | Y | Browser Facing GIS | | 3D globes and 2D maps in a browser | cesiumjs | https://cesium.com/ | | Cesium | Y
 Y | geoext | 3.4.0 | Y | Y | Browser Facing GIS | | JavaScript Toolkit Web Mapping | geoext | https://geoext.github.io/geoext | | GeoExt | Y
 Y | leaflet | 1.7.1 | Y | Y | Browser Facing GIS | | Mobile Friendly Interactive Maps | Leaflet | https://leafletjs.com | | Leaflet | Y
 ###################### | | | | | | | | | | | |
@@ -106,7 +106,7 @@ Y | osm_dataset | | N | Y | Data | | Sample extract from OpenStreetMap | | https
 # Geospatial Libraries | | | | | | | | | | | |
 ###################### | | | | | | | | | | | |
 # OSGeo Projects | | | | | | | | | | | |
-Y | gdal | 3.11.3 | Y | Y | Geospatial Libraries | | Geospatial Data Translation Tools | gdal | https://gdal.org/ | OSGeo_project | GDAL/OGR | Y
+Y | gdal | 3.11.4 | Y | Y | Geospatial Libraries | | Geospatial Data Translation Tools | gdal | https://gdal.org/ | OSGeo_project | GDAL/OGR | Y
 Y | geos | 3.12.2 | N | Y | Geospatial Libraries | | C/C++ Spatial Library | geos | https://trac.osgeo.org/geos | OSGeo_project | GEOS | Y
 Y | geotools | NA | N | Y | Geospatial Libraries | | Java GIS Toolkit | geotools | https://geotools.org/ | OSGeo_project | GeoTools | Y
 Y | proj | 9.4.1 | Y | Y | Geospatial Libraries | | Coordinate Reference System Libraries | proj | https://proj.org/ | OSGeo_project | PROJ | Y
