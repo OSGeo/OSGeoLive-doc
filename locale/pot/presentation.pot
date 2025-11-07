@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OSGeoLive 17\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-28 10:54+0000\n"
+"POT-Creation-Date: 2025-11-07 00:19+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,7 +71,7 @@ msgid "QGIS 3.40.9,"
 msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:73
-msgid "GDAL 3.11.3,"
+msgid "GDAL 3.11.4,"
 msgstr ""
 
 #: ../../build/presentation/revealjs/presentation.rst:74
