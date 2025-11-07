@@ -23,7 +23,7 @@ Y | openlayers | 6.14.1 | Y | Y | Browser Facing GIS | | Browser Mapping Library
 # OSGeo Community | | | | | | | | | | | |
 Y | geostyler | 9.0.0 | Y | Y | Browser Facing GIS | | Generic Styler For Geodata | GeoStyler | https://geostyler.org | OSGeo_community | GeoStyler | Y
 # Others | | | | | | | | | | | |
-Y | cesium | 1.135 | Y | Y | Browser Facing GIS | | 3D globes and 2D maps in a browser | cesiumjs | https://cesium.com/ | | Cesium | Y
+Y | cesium | 1.132 | Y | Y | Browser Facing GIS | | 3D globes and 2D maps in a browser | cesiumjs | https://cesium.com/ | | Cesium | Y
 Y | geoext | 3.4.0 | Y | Y | Browser Facing GIS | | JavaScript Toolkit Web Mapping | geoext | https://geoext.github.io/geoext | | GeoExt | Y
 Y | leaflet | 1.7.1 | Y | Y | Browser Facing GIS | | Mobile Friendly Interactive Maps | Leaflet | https://leafletjs.com | | Leaflet | Y
 ###################### | | | | | | | | | | | |
