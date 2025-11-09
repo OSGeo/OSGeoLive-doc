@@ -34,6 +34,7 @@ Core Features
 * Print high-quality maps using your own PDF templates.
 * Create individual search configurations
 * Digitizing via SQL
+* Routing
 
 * Upload and share remote OGC WMS (Capabilities caching)
 
@@ -52,6 +53,8 @@ Implemented Standards
 * OGC Web Map Service (WMS) 1.1.1, 1.3.0
 * OGC Web Map Tile Service (WMTS) 1.0.0
 * Tile Map Service (TMS)
+* Web Map Tile Service (WMTS) 1.0.0
+*  Vector Tiles (using Mapbox Style JSONs) 
 
 Details
 --------------------------------------------------------------------------------
